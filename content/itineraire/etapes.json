@@ -1,0 +1,41 @@
+[
+  {
+    "id": "paris",
+    "nom": "Paris",
+    "coordonnees": { "lat": 48.8566, "lng": 2.3522 },
+    "date_prevue": "2026-06-15",
+    "description_culture": "Capitale culturelle, musées, quartiers historiques.",
+    "budget_prevu": 180,
+    "contenu_voyage": {
+      "photos": ["/voyage/photos/paris/1.jpg", "/voyage/photos/paris/2.jpg"],
+      "anecdote": "",
+      "depenses_reelles": null
+    }
+  },
+  {
+    "id": "bordeaux",
+    "nom": "Bordeaux",
+    "coordonnees": { "lat": 44.8378, "lng": -0.5792 },
+    "date_prevue": "2026-06-18",
+    "description_culture": "Ville de pierre blonde, vignobles à proximité.",
+    "budget_prevu": 120,
+    "contenu_voyage": {
+      "photos": ["/voyage/photos/bordeaux/1.jpg"],
+      "anecdote": "",
+      "depenses_reelles": null
+    }
+  },
+  {
+    "id": "biarritz",
+    "nom": "Biarritz",
+    "coordonnees": { "lat": 43.4832, "lng": -1.5586 },
+    "date_prevue": "2026-06-22",
+    "description_culture": "Station balnéaire basque, vagues et plages.",
+    "budget_prevu": 150,
+    "contenu_voyage": {
+      "photos": ["/voyage/photos/biarritz/1.jpg"],
+      "anecdote": "",
+      "depenses_reelles": null
+    }
+  }
+]
