@@ -80,7 +80,7 @@ export async function getAllSectionsForStep(
     .select("section_type, content")
     .eq("step_id", stepId);
   const out: Record<string, string> = {};
-  const contentSections = ["atmosphere", "chroniques", "guide_epicurien", "radar_van", "anecdote"];
+  const contentSections = ["en_quelques_mots", "point_historique", "bien_manger_boire", "arriver_van", "que_faire", "anecdote"];
   for (const row of data ?? []) {
     if (row.section_type && row.content && contentSections.includes(row.section_type)) {
       out[row.section_type] = row.content;

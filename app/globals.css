@@ -27,6 +27,53 @@ body {
   font-family: "IBM Plex Mono", monospace;
 }
 
+/* Machine à écrire – sections ville : caractères révélés avec délai, curseur clignotant */
+.typewriter-char {
+  opacity: 0;
+  animation: typewriter-reveal 0.01s forwards;
+}
+
+/* Stream : pas d’animation, visibilité gérée au JS uniquement → évite le clignotement */
+.typewriter-char-stream {
+  opacity: 0;
+}
+
+.typewriter-stream-container {
+  contain: layout style;
+  transform: translateZ(0);
+}
+
+/* Contenu stream : on n’affiche que le révélé, tout est visible */
+.typewriter-revealed-only .typewriter-char-stream {
+  opacity: 1;
+}
+
+/* Wrapper : hauteur fixée au JS, pas de transition pour éviter tout chamboulement visuel */
+.typewriter-stream-height-wrapper {
+  overflow: hidden;
+}
+
+@keyframes typewriter-reveal {
+  to {
+    opacity: 1;
+  }
+}
+
+.typewriter-cursor {
+  animation: cursor-blink 0.53s ease-in-out infinite;
+}
+
+@keyframes cursor-blink {
+  0%,
+  50% {
+    opacity: 1;
+  }
+  51%,
+  100% {
+    opacity: 0;
+  }
+}
+
 /* Grain papier – effet subtil */
 body::before {
   content: "";

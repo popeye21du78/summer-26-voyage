@@ -1,25 +1,27 @@
 import { NextRequest } from "next/server";
 import { getCitySection } from "../../../lib/city-sections-supabase";
-import { generateSection } from "../../../lib/openai-ville";
+import { generateSection, generateSectionStream } from "../../../lib/openai-ville";
 import type { SectionType } from "../../../lib/city-prompts";
 
 const VALID_SECTIONS: SectionType[] = [
-  "atmosphere",
-  "chroniques",
-  "guide_epicurien",
-  "radar_van",
+  "en_quelques_mots",
+  "point_historique",
+  "bien_manger_boire",
+  "arriver_van",
+  "que_faire",
   "anecdote",
 ];
 
 /**
  * POST /api/section-ville
- * Body: { stepId, ville, sectionType }
- * Retourne le contenu : depuis le cache ou après génération.
+ * Body: { stepId, ville, sectionType, stream?: boolean }
+ * Si stream=true : retourne un flux texte (affichage progressif).
+ * Sinon : JSON { content, fromCache }.
  */
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
-    const { stepId, ville, sectionType } = body;
+    const { stepId, ville, sectionType, stream: wantStream } = body;
 
     if (!stepId || !ville || !sectionType) {
       return Response.json(
@@ -37,10 +39,38 @@ export async function POST(req: NextRequest) {
 
     const cached = await getCitySection(stepId, sectionType);
     if (cached?.content) {
+      if (wantStream) {
+        return new Response(cached.content, {
+          headers: { "Content-Type": "text/plain; charset=utf-8" },
+        });
+      }
       return Response.json({
         content: cached.content,
         fromCache: true,
       });
+    }
+
+    if (wantStream) {
+      const encoder = new TextEncoder();
+      const stream = generateSectionStream(ville, stepId, sectionType as SectionType);
+      return new Response(
+        new ReadableStream({
+          async start(controller) {
+            try {
+              for await (const chunk of stream) {
+                controller.enqueue(encoder.encode(chunk));
+              }
+            } catch (e) {
+              controller.error(e);
+            } finally {
+              controller.close();
+            }
+          },
+        }),
+        {
+          headers: { "Content-Type": "text/plain; charset=utf-8" },
+        }
+      );
     }
 
     const { content } = await generateSection(

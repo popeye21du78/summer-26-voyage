@@ -31,9 +31,21 @@ export default function LandingPage() {
           }}
           aria-hidden
         />
-        {/* Motto du site au centre */}
+        {/* Logo 1 en gros sur la vidéo (monte avec le scroll, section dans le flux) */}
+        <div className="absolute left-1/2 top-[32%] z-10 w-full max-w-lg -translate-x-1/2 -translate-y-1/2 flex justify-center px-4">
+          <Image
+            src="/logo-1.png"
+            alt="Voyage Voyage"
+            width={480}
+            height={240}
+            className="h-40 w-auto object-contain drop-shadow-[0_4px_24px_rgba(0,0,0,0.4)] sm:h-52"
+            priority
+            unoptimized
+          />
+        </div>
+        {/* Motto du site sous le logo */}
         <p
-          className="absolute left-1/2 top-1/2 z-10 w-full max-w-lg -translate-x-1/2 -translate-y-1/2 px-4 text-center text-2xl font-light tracking-wide text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.5)] md:text-3xl"
+          className="absolute left-1/2 top-[58%] z-10 w-full max-w-lg -translate-x-1/2 -translate-y-1/2 px-4 text-center text-2xl font-light tracking-wide text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.5)] md:text-3xl"
           aria-hidden
         >
           Jusqu&apos;à la panne d&apos;essence
@@ -75,19 +87,6 @@ export default function LandingPage() {
           aria-hidden
         />
         <div className="relative z-0 mx-auto max-w-2xl space-y-16 pt-[24vh]">
-          {/* Logo 1 en gros, dans le flux : monte avec le scroll */}
-          <div className="flex justify-center">
-            <Image
-              src="/logo-1.png"
-              alt="Voyage Voyage"
-              width={480}
-              height={240}
-              className="h-48 w-auto max-w-[90vw] object-contain drop-shadow-md sm:h-56 sm:max-w-md"
-              priority
-              unoptimized
-            />
-          </div>
-
           <section aria-labelledby="pourquoi-heading" className="relative">
             <HandwrittenTitle id="pourquoi-heading">
               Pourquoi Voyage Voyage

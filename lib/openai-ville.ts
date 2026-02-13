@@ -73,3 +73,37 @@ export async function generateSection(
 
   return { content, placeRating: level };
 }
+
+/** Génère le contenu en stream (pour affichage progressif). Yield les deltas, sauvegarde en DB à la fin. */
+export async function* generateSectionStream(
+  ville: string,
+  stepId: string,
+  sectionType: SectionType
+): AsyncGenerator<string> {
+  const level = await runDiagnostic(ville, stepId);
+  const niveauLabel = NIVEAU_LABELS[level] ?? "Escale";
+
+  const template = SECTION_PROMPTS[sectionType];
+  const userPrompt = template
+    .replace(/\[VILLE\]/g, ville)
+    .replace(/\[NIVEAU\]/g, `${level} (${niveauLabel})`);
+
+  const stream = await openai.chat.completions.create({
+    model: OPENAI_MODEL,
+    messages: [
+      { role: "system", content: SYSTEM_PROMPT },
+      { role: "user", content: userPrompt },
+    ],
+    max_tokens: 2000,
+    stream: true,
+  });
+
+  let fullContent = "";
+  for await (const chunk of stream) {
+    const text = chunk.choices[0]?.delta?.content ?? "";
+    fullContent += text;
+    if (text) yield text;
+  }
+  const content = fullContent.trim();
+  await upsertCitySection(stepId, sectionType, content, level);
+}

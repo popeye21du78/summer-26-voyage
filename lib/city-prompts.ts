@@ -1,15 +1,18 @@
 /**
  * PROMPTS PAGE VILLE – Van-Life Journal
  *
- * Fichier à modifier pour changer les prompts, le ton, ou le modèle.
- * Tous les textes de génération IA sont définis ici.
+ * Ton : s'adresser au lecteur avec "vous" (vous serez, vous trouverez...).
+ * Longueur adaptée au niveau (1 = très court, 4 = plus long si justifié).
  */
 
-/** Modèle OpenAI – gpt-4o-mini : bon compromis qualité/coût (~0,6 cts/ville) */
 export const OPENAI_MODEL = "gpt-4o-mini";
 
-/** Prompt système commun à toutes les sections */
-export const SYSTEM_PROMPT = `Tu es le Copilote du "Van-Life Journal". Ton ton est érudit, précis, un peu cynique mais bienveillant. Tu aimes l'histoire, la bonne bouffe et l'aventure. Tu détestes les phrases creuses. Tu écris en Markdown riche.`;
+/** Règle de longueur injectée dans chaque prompt (résumé) */
+const REGLE_LONGUEUR = `
+Longueur selon le niveau : Niveau 1 = 50-120 mots max (si rien à dire : 1-2 phrases). Niveau 2 = 80-180 mots. Niveau 3 = 150-300 mots. Niveau 4 = 200-400 mots. N'invente jamais : si pas de contenu réel, dis-le en 1-2 phrases.`;
+
+/** Prompt système : tutoiement/vouvoiement "vous", conseils au lecteur, précis, pas d'invention */
+export const SYSTEM_PROMPT = `Tu es un couple de voyageurs expérimentés qui a roulé sa bosse et qui partage ses conseils sur le "Van-Life Journal". Tu t'adresses au lecteur avec "vous" (vous serez, vous trouverez, vous pourrez...). Tu es précis et sérieux sur les faits (chiffres, adresses, tarifs), mais ton style reste chaleureux, personnel, avec une pointe d'humour quand il n'y a rien à dire. Tu n'inventes jamais : si une ville n'a pas d'histoire, pas d'anecdote ou pas de resto, tu le dis clairement et brièvement. Tu écris en Markdown (listes, gras) pour structurer. Pas de phrases creuses ni de remplissage.`;
 
 /** Diagnostic : évalue le lieu (1–4). Réponds UNIQUEMENT par un chiffre : 1, 2, 3 ou 4. */
 export const DIAGNOSTIC_PROMPT = `Évalue le "Potentiel Narratif" du lieu suivant. Réponds UNIQUEMENT par un chiffre (1, 2, 3 ou 4), rien d'autre.
@@ -24,47 +27,53 @@ Lieu à évaluer : [VILLE]`;
 
 /** Prompts par section – [VILLE] et [NIVEAU] seront remplacés à l'exécution */
 export const SECTION_PROMPTS = {
-  atmosphere: `Analyse le lieu [VILLE]. Son niveau de potentiel narratif est [NIVEAU] (1=Désert, 2=Escale, 3=Pépite, 4=Métropole).
+  en_quelques_mots: `[VILLE] en quelques mots. Niveau [NIVEAU].${REGLE_LONGUEUR}
 
-Rédige une description de l'atmosphère d'au moins 300 mots.
+Donne la description de base avec les fondamentaux :
+- Nombre d'habitants (ordre de grandeur ou chiffre si connu).
+- Touristique ou pas (oui / non / peu / très).
+- Localisation et situation géographique : capitale de quelle région, placée où (fleuve, côte, montagne…), au milieu de quelle région.
+- Ambiance en 2-3 phrases (ce que le lecteur ressent en arrivant).
 
-Si Niveau 1 (Rien à voir) : Joue la carte de l'ironie bienveillante ou de la poésie du vide. Décris le silence, l'ennui magnifique, l'absence de réseau. Fais-en une force (le repos absolu).
+Données factuelles uniquement. Pas d'invention. Niveau 1 : 3-5 phrases max.`,
 
-Si Niveau 3 ou 4 : Sois dense. Parle de l'architecture, de la lumière, du bruit, de la démographie visible (étudiants ? retraités ? touristes ?).
+  point_historique: `Le point historique pour [VILLE]. Niveau [NIVEAU].${REGLE_LONGUEUR}
 
-Style : Littéraire. Utilise des métaphores. Ne dis pas "c'est calme", décris le bruit du vent.`,
+Quelques dates clés uniquement :
+- Fondation ou première mention connue (si elle existe).
+- Deux événements marquants (vraiment liés à la ville ou à la région immédiate).
+- Période d'apogée (si pertinent).
 
-  chroniques: `Raconte l'histoire de [VILLE]. Son niveau est [NIVEAU] (1=Désert, 2=Escale, 3=Pépite, 4=Métropole).
+Dates et faits vérifiables. Aucune invention (pas de fausses batailles). Niveau 1-2 : si pas d'histoire propre, 1-2 phrases ("Peu d'histoire propre" ou "Histoire surtout régionale"). Niveau 3-4 : liste ou paragraphe court, pas de roman.`,
 
-Si Niveau 1 ou 2 (Peu d'histoire propre) : Ne m'invente pas de fausses batailles ! Élargis à la région immédiate ou au département. Raconte une légende locale ou l'histoire géologique du lieu. Vise 300 mots minimum en brodant intelligemment sur le contexte rural/géographique.
+  bien_manger_boire: `Bien manger et bien boire à [VILLE]. Niveau [NIVEAU].${REGLE_LONGUEUR}
 
-Si Niveau 3 ou 4 (Riche) : Je veux du lourd. 800 à 1200 mots. Structure en sous-titres Markdown. Parle de la fondation, des guerres, des personnages célèbres, de l'économie (pourquoi cette ville est riche/pauvre aujourd'hui ?). Ton : Raconteur d'histoires (Storytelling). Pas de liste de dates sèches.`,
+1. Commence par un petit paragraphe sur la spécialité locale (plat, produit) — si elle existe ; sinon une phrase.
+2. Quatre catégories : Brunch/Café ; Dîner charme ; Verre/Apéro ; Nuit (bar, sortie).
+3. Pour chaque adresse (si elle existe) : nom du lieu, adresse exacte (rue, numéro, code postal, ville), idée de prix en symboles € (€, €€ ou €€€), note TripAdvisor si tu la connais (sinon ne pas inventer), une phrase sur l'ambiance ou ce qu'on y commande. Formule au "vous" (vous y goûterez, vous pourrez...).
 
-  guide_epicurien: `Agis comme un critique gastronomique local pour [VILLE]. Niveau [NIVEAU] (1=Désert, 2=Escale, 3=Pépite, 4=Métropole).
+Niveau 1 : si aucun commerce, dis-le clairement ("Pas de resto/bar sur place ; prévoir frigo ou étape à X km"). Adresses réelles uniquement.`,
 
-Cherche les meilleures adresses pour : 1. Brunch/Café, 2. Dîner charme, 3. Verre/Apéro, 4. Nuit.
+  arriver_van: `Arriver en van à [VILLE]. Niveau [NIVEAU].${REGLE_LONGUEUR}
 
-Cas "Désert" (Niveau 1) : Si la ville n'a littéralement aucun commerce, dis-le avec humour ! Ex: "Ici, la vie nocturne se résume au hululement des chouettes. Pour le dîner, j'espère que ton frigo est plein." Ne propose jamais une adresse située à plus de 15km sans prévenir.
+- Au moins deux parkings si la ville en a : adresse exacte, tarifs exacts (ou fourchette), localisation précise (centre, périphérie).
+- Où aller à proximité si vous êtes en village (autre village, ville proche).
+- Possibilité de se garer gratuitement (où, conditions).
+- Si le lieu est en campagne ou au milieu de nulle part : renvoie vers Park4Night au lieu d'inventer. Indique : "Pour les spots bivouac et parkings en campagne, voir Park4Night" (lien https://park4night.com si pertinent).
+- ZFE, barres de hauteur, vols : mentionne uniquement si c'est le cas.
 
-Cas "Pépite/Métropole" : Sois ultra-sélectif. Ne donne pas le #1 TripAdvisor. Donne le lieu qui a une âme. Décris l'ambiance et ce qu'il faut commander.
+Adresses et tarifs réels. Pas d'invention.`,
 
-Format : Minimum 200 mots de description pour l'ambiance globale + les adresses.`,
+  que_faire: `Que faire à [VILLE]. Niveau [NIVEAU].${REGLE_LONGUEUR}
 
-  radar_van: `Analyse [VILLE] pour un Van de 6m. Niveau [NIVEAU] (1=Désert, 2=Escale, 3=Pépite, 4=Métropole).
+Rédige en t'adressant au lecteur avec "vous" : activités, visites, sorties que vous lui recommandez (vous pourrez..., vous serez..., nous avons testé pour vous...). Sois concret : lieux, horaires utiles si pertinent, ce qui vaut le coup ou pas.
 
-Village Touristique (Niveau 3) : Attention maximale. Avertis sur les interdictions, les barres de hauteur, la police municipale zélée. Conseille les parkings périphériques.
+Si la ville n'a rien de notable à faire, dis-le en 1-2 phrases. N'invente pas d'attractions.`,
 
-Ville (Niveau 4) : Avertis sur la ZFE (Zone Faibles Émissions), les vols, le trafic.
+  anecdote: `Anecdote sur [VILLE]. Niveau [NIVEAU].${REGLE_LONGUEUR}
 
-Campagne (Niveau 1-2) : Indique si le bivouac sauvage est toléré.
-
-Contenu : 300 mots d'analyse technique et de conseils de stationnement. Sois un véritable expert logistique.`,
-
-  anecdote: `Trouve une histoire insolite, un fait divers ancien, une légende ou une curiosité architecturale sur [VILLE]. Niveau [NIVEAU].
-
-Si le lieu est trop petit, trouve une légende du terroir environnant (rayon 10km).
-
-Rédige cela comme une nouvelle (short story) de 300 mots minimum. Mets du suspense.`,
+Si la ville a une anecdote, un fait insolite ou une légende connue (vérifiable) : raconte-la en quelques phrases, court et percutant.
+Si rien de fiable ou d'intéressant : dis explicitement qu'il n'y a pas d'anecdote particulière, en 1 phrase. Ne pas inventer.`,
 } as const;
 
 export type SectionType = keyof typeof SECTION_PROMPTS;

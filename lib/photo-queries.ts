@@ -74,3 +74,8 @@ export function getPhotoQueries(ville: string, stepId?: string): string[] {
     DEPARTEMENTS[key] ? `${DEPARTEMENTS[key]} paysage France` : `${ville}`,
   ];
 }
+
+/** Département pour une ville (Wikipedia, fallback photo). */
+export function getDepartementForVille(ville: string, stepId?: string): string | undefined {
+  return DEPARTEMENTS[normalize(stepId ?? ville)];
+}

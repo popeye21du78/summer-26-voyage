@@ -7,10 +7,11 @@ import { CitySection } from "../../../../components/CitySection";
 type Props = { params: Promise<{ slug: string }> };
 
 const SECTION_ORDER = [
-  "atmosphere",
-  "chroniques",
-  "guide_epicurien",
-  "radar_van",
+  "en_quelques_mots",
+  "point_historique",
+  "bien_manger_boire",
+  "arriver_van",
+  "que_faire",
   "anecdote",
 ] as const;
 

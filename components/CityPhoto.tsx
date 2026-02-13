@@ -31,16 +31,21 @@ export function CityPhoto({
   const [url, setUrl] = useState<string | null>(initialUrl ?? null);
   const [loading, setLoading] = useState(!initialUrl);
   const [error, setError] = useState(false);
+  const [totalWikipedia, setTotalWikipedia] = useState<number | null>(null);
+  const [photoIndex, setPhotoIndex] = useState(0);
 
   const fetchPhoto = useCallback(
-    (refresh = false) => {
+    (refresh = false, nextIndex?: number) => {
       let cancelled = false;
       setLoading(true);
       setError(false);
       if (refresh) setUrl(null);
 
       const params = new URLSearchParams({ stepId, ville });
-      if (refresh) params.set("refresh", "1");
+      if (refresh) {
+        params.set("refresh", "1");
+        if (nextIndex !== undefined) params.set("photoIndex", String(nextIndex));
+      }
 
       fetch(`/api/photo-ville?${params}`)
         .then((res) => {
@@ -48,9 +53,10 @@ export function CityPhoto({
           if (!res.ok) throw new Error("Photo non trouvée");
           return res.json();
         })
-        .then((data: { url?: string }) => {
+        .then((data: { url?: string; totalWikipedia?: number }) => {
           if (cancelled) return;
           setUrl(data.url ?? null);
+          if (data.totalWikipedia != null) setTotalWikipedia(data.totalWikipedia);
         })
         .catch(() => {
           if (!cancelled) setError(true);
@@ -76,7 +82,12 @@ export function CityPhoto({
   }, [stepId, ville, initialUrl, fetchPhoto]);
 
   const handleChangePhoto = () => {
-    fetchPhoto(true);
+    const next =
+      totalWikipedia != null && totalWikipedia > 0
+        ? (photoIndex + 1) % totalWikipedia
+        : undefined;
+    if (next !== undefined) setPhotoIndex(next);
+    fetchPhoto(true, next);
   };
 
   if (loading) {
