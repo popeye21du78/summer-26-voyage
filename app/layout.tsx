@@ -20,6 +20,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
+      <head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Special+Elite&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <body
         className={`${ibmPlexMono.variable} font-mono antialiased`}
       >

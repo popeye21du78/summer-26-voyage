@@ -9,6 +9,8 @@
   --cream-dark: #FFF2EB;
   --text: #333333;
   --white-off: #FFFBF7;
+  --font-homemade-apple: "Homemade Apple", cursive;
+  --font-typewriter: "Special Elite", serif;
 }
 
 @theme inline {

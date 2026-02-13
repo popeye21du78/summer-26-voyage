@@ -778,7 +778,7 @@ export default function PlanningPage() {
   return (
     <main className="mx-auto max-w-4xl px-4 py-12">
       <Link
-        href="/"
+        href="/accueil"
         className="mb-8 inline-block text-sm text-[#A55734] hover:underline"
       >
         ← Retour à la carte
