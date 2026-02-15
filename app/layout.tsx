@@ -22,7 +22,7 @@ export default function RootLayout({
     <html lang="fr">
       <head>
         <link
-          href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Special+Elite&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Homemade+Apple&family=Special+Elite&display=swap"
           rel="stylesheet"
         />
       </head>

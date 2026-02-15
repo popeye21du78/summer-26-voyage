@@ -21,8 +21,8 @@ export default function LandingBandeau() {
 
   return (
     <header
-      className="fixed left-0 right-0 top-0 z-[110] flex items-center justify-between px-4 py-3"
-      style={{ background: "rgba(255, 255, 255, 0.12)" }}
+      className="fixed left-0 right-0 top-0 z-[110] flex items-center justify-between px-4 py-1.5"
+      style={{ background: "transparent" }}
     >
       <Link
         href="/"
@@ -30,11 +30,11 @@ export default function LandingBandeau() {
         aria-label="Voyage Voyage - Accueil"
       >
         <Image
-          src="/logo-2-W.png"
+          src="/logo-b-W.png"
           alt="Voyage Voyage"
-          width={80}
-          height={40}
-          className="h-8 w-auto sm:h-10"
+          width={120}
+          height={60}
+          className="h-10 w-auto sm:h-12 md:h-14"
           priority
           unoptimized
         />

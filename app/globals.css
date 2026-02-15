@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+/* Pas de défilement horizontal */
+html {
+  overflow-x: hidden;
+}
+
 /* Thème Roland Garros – Terre Battue & Carnet de Route */
 :root {
   --background: #FAF4F0;
@@ -11,6 +16,7 @@
   --white-off: #FFFBF7;
   --font-homemade-apple: "Homemade Apple", cursive;
   --font-typewriter: "Special Elite", serif;
+  --font-motto: "Cormorant Garamond", Georgia, serif;
 }
 
 @theme inline {
@@ -25,6 +31,7 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: "IBM Plex Mono", monospace;
+  overflow-x: hidden;
 }
 
 /* Machine à écrire – sections ville : caractères révélés avec délai, curseur clignotant */
@@ -155,6 +162,14 @@ input[type="number"].no-spinner::-webkit-outer-spin-button,
 input[type="number"].no-spinner::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+/* Motto sur la vidéo d'accueil — typo assortie au logo Voyage Voyage */
+.font-motto {
+  font-family: var(--font-motto);
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: 0.02em;
 }
 
 /* Signature de page : lignes diagonales terracotta + texture papier + filigrane */

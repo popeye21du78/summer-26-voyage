@@ -8,6 +8,8 @@ import PhotoFlipCard from "../components/PhotoFlipCard";
 import CTAButtons from "../components/CTAButtons";
 import LogoFade from "../components/LogoFade";
 import LandingBandeau from "../components/LandingBandeau";
+import QuiEtesVousScroll from "../components/QuiEtesVousScroll";
+import { ChevronDown } from "lucide-react";
 
 type SplashPhase = "fadeIn" | "hold" | "cover" | "bgFadeOut" | "done";
 
@@ -55,9 +57,9 @@ export default function HomePage() {
   const showSplash = splashPhase !== "done";
 
   return (
-    <main className="min-h-screen">
-      {/* Bandeau transparent : logo W à gauche, menu (trois barres) à droite avec Se connecter / Créer un compte */}
-      <LandingBandeau />
+    <main className="min-h-screen w-full max-w-full overflow-x-hidden">
+      {/* Bandeau : affiché seulement après la fin de l’animation de départ */}
+      {!showSplash && <LandingBandeau />}
 
       {/* Écran d’accueil : fond orange, logo centré en fondu, puis calque orange recouvre le logo en 1 s, puis tout disparaît */}
       {showSplash && (
@@ -81,10 +83,10 @@ export default function HomePage() {
             />
           </div>
 
-          {/* Logo centré : apparaît en fondu, reste 1 s au centre (puis recouvert par le calque) */}
-          <div className="absolute inset-0 flex items-center justify-center">
+          {/* Logo centré : même taille et position que sur la vidéo pour continuité */}
+          <div className="absolute left-1/2 top-1/2 z-10 w-full max-w-2xl -translate-x-1/2 -translate-y-1/2 flex flex-col items-center justify-center px-4">
             <div
-              className="relative h-full w-full transition-opacity ease-out"
+              className="transition-opacity ease-out"
               style={{
                 transitionDuration: `${FADE_IN_MS}ms`,
                 opacity: logoVisible ? 1 : 0,
@@ -93,18 +95,18 @@ export default function HomePage() {
               <Image
                 src="/logo-a-page-daccueil.png"
                 alt="Voyage Voyage"
-                fill
-                className="object-contain object-center p-6"
+                width={600}
+                height={300}
+                className="h-56 w-auto object-contain sm:h-72 md:h-80"
                 priority
                 unoptimized
-                sizes="100vw"
               />
             </div>
           </div>
 
           {/* Calque orange par-dessus : se décale de la gauche vers la droite en 1 s (recouvre le logo) */}
           <div
-            className="absolute inset-0 pointer-events-none overflow-hidden"
+            className="absolute inset-0 z-20 pointer-events-none overflow-hidden"
           >
             <div
               className="absolute inset-0 transition-transform ease-out"
@@ -148,25 +150,32 @@ export default function HomePage() {
           }}
           aria-hidden
         />
-        {/* Logo 1 en gros sur la vidéo (monte avec le scroll, section dans le flux) */}
-        <div className="absolute left-1/2 top-[32%] z-10 w-full max-w-lg -translate-x-1/2 -translate-y-1/2 flex justify-center px-4">
+        {/* Logo et motto centrés au milieu de l'écran */}
+        <div className="absolute left-1/2 top-1/2 z-10 w-full max-w-2xl -translate-x-1/2 -translate-y-1/2 flex flex-col items-center justify-center gap-2 px-4">
           <Image
-            src="/logo-1.png"
+            src="/logo-b-voyage-voyage.png"
             alt="Voyage Voyage"
-            width={480}
-            height={240}
-            className="h-40 w-auto object-contain drop-shadow-[0_4px_24px_rgba(0,0,0,0.4)] sm:h-52"
+            width={600}
+            height={300}
+            className="h-56 w-auto object-contain drop-shadow-[0_4px_24px_rgba(0,0,0,0.4)] sm:h-72 md:h-80"
             priority
             unoptimized
           />
+          <p
+            className="text-center text-lg font-light tracking-wide text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.5)] md:text-xl"
+            aria-hidden
+          >
+            Jusqu&apos;à la panne d&apos;essence
+          </p>
+          <button
+            type="button"
+            onClick={() => document.getElementById("premiere-section")?.scrollIntoView({ behavior: "smooth" })}
+            className="mt-2 flex justify-center text-white/90 drop-shadow-[0_2px_4px_rgba(0,0,0,0.4)] transition-opacity hover:opacity-80 focus:outline-none"
+            aria-label="Aller à la première section"
+          >
+            <ChevronDown className="h-8 w-8 animate-bounce sm:h-9 sm:w-9" strokeWidth={2} />
+          </button>
         </div>
-        {/* Motto du site sous le logo */}
-        <p
-          className="absolute left-1/2 top-[58%] z-10 w-full max-w-lg -translate-x-1/2 -translate-y-1/2 px-4 text-center text-2xl font-light tracking-wide text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.5)] md:text-3xl"
-          aria-hidden
-        >
-          Jusqu&apos;à la panne d&apos;essence
-        </p>
         {/* Zone floutée en bas : masque en dégradé = passage progressif du clair au flou */}
         <div
           className="pointer-events-none absolute bottom-0 left-0 right-0 h-[30%]"
@@ -181,34 +190,24 @@ export default function HomePage() {
         />
       </section>
 
-      {/* Contenu : fond papier qui défile ; logo-2 entre les sections, en fondu */}
+      {/* Contenu : fond terracotta très léger (même couleur que le logo, transparent) */}
       <div
-        className="relative z-10 min-h-screen px-4 pb-24 pt-8"
+        id="premiere-section"
+        className="relative z-10 min-h-screen w-full max-w-full overflow-x-hidden pb-24 pt-16"
         style={{
-          backgroundImage: "url(/fond-de-page.jpg)",
-          backgroundRepeat: "repeat-y",
-          backgroundSize: "100% 80vh",
-          backgroundPosition: "top center",
+          background: "linear-gradient(180deg, rgba(165, 87, 52, 0.06) 0%, rgba(165, 87, 52, 0.04) 50%, rgba(250, 244, 240, 0.98) 100%)",
         }}
       >
-        {/* Zone qui floute progressivement le haut du parchemin ; masque en dégradé = passage progressif */}
-        <div
-          className="pointer-events-none absolute left-0 right-0 top-0 z-[1] h-[22vh]"
-          style={{
-            backdropFilter: "blur(8px)",
-            WebkitBackdropFilter: "blur(8px)",
-            background: "linear-gradient(to bottom, #DDD4C7 0%, rgba(221,212,199,0.6) 35%, rgba(221,212,199,0.15) 70%, transparent 100%)",
-            maskImage: "linear-gradient(to bottom, black 0%, black 25%, transparent 100%)",
-            WebkitMaskImage: "linear-gradient(to bottom, black 0%, black 25%, transparent 100%)",
-          }}
-          aria-hidden
-        />
-        <div className="relative z-0 mx-auto max-w-2xl space-y-16 pt-[24vh]">
-          <section aria-labelledby="pourquoi-heading" className="relative">
-            <HandwrittenTitle id="pourquoi-heading">
+        <div className="relative z-0 mx-auto max-w-2xl space-y-16 px-4 pt-12">
+          {/* Pourquoi Voyage Voyage : titre même typo que le motto + court texte centré */}
+          <section aria-labelledby="pourquoi-heading" className="relative flex min-h-[50vh] flex-col items-center justify-center py-12 text-center">
+            <h2
+              id="pourquoi-heading"
+              className="font-motto mb-6 text-2xl font-light tracking-wide text-[#333333] md:text-3xl"
+            >
               Pourquoi Voyage Voyage
-            </HandwrittenTitle>
-            <p className="text-[#333333]/90 leading-relaxed">
+            </h2>
+            <p className="max-w-lg text-[#333333]/90 leading-relaxed">
               Voyage Voyage, c’est le carnet de bord de tes trajets en van : une seule
               place pour planifier, noter et garder en souvenir chaque étape.
             </p>
@@ -304,41 +303,13 @@ export default function HomePage() {
           </section>
 
           <LogoFade />
+        </div>
 
-          <section aria-labelledby="qui-vous-heading" className="relative">
-            <HandwrittenTitle id="qui-vous-heading">
-              Qui êtes vous
-            </HandwrittenTitle>
-            <p className="mb-6 text-[#333333]/85 leading-relaxed">
-              Vous partez en van, en road-trip ou en itinérance. Vous voulez un
-              carnet de voyage simple, une carte de votre trajet et un book
-              souvenir à partager. Voyage Voyage est fait pour vous.
-            </p>
-            {/* Croquis van + flèche + j'ai tenté */}
-            <div className="flex flex-wrap items-center gap-4">
-              <div className="relative shrink-0" style={{ transform: "rotate(-3deg)" }}>
-                <Image
-                  src="/van-profil.png"
-                  alt="Croquis van"
-                  width={180}
-                  height={120}
-                  className="object-contain drop-shadow-md"
-                  unoptimized
-                />
-              </div>
-              <div className="flex items-center gap-2">
-                <svg className="h-8 w-10 shrink-0 text-[#A55734]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden>
-                  <path d="M5 12h14M12 5l7 7-7 7" />
-                </svg>
-                <p className="text-lg [font-family:var(--font-homemade-apple)] text-[#333333]">
-                  j&apos;ai tenté
-                </p>
-              </div>
-            </div>
-          </section>
+        {/* Qui êtes vous ? : conteneur 100vh, scroll interne + snap = une photo à la fois */}
+        <QuiEtesVousScroll />
 
+        <div className="mx-auto max-w-2xl space-y-16 px-4 pt-16">
           <LogoFade />
-
           <CTAButtons />
         </div>
       </div>
