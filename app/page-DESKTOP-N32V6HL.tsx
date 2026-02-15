@@ -1,132 +1,15 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import HandwrittenTitle from "../components/HandwrittenTitle";
 import PhotoFlipCard from "../components/PhotoFlipCard";
 import CTAButtons from "../components/CTAButtons";
 import LogoFade from "../components/LogoFade";
-import LandingBandeau from "../components/LandingBandeau";
 
-type SplashPhase = "fadeIn" | "hold" | "cover" | "bgFadeOut" | "done";
-
-const FADE_IN_MS = 600;
-const HOLD_MS = 1000;
-const COVER_MS = 1000; // le calque orange recouvre le logo progressivement en 1 s
-const BG_FADE_OUT_MS = 600;
-
-export default function HomePage() {
-  const [splashPhase, setSplashPhase] = useState<SplashPhase>("fadeIn");
-  const [logoVisible, setLogoVisible] = useState(false);
-
-  // Passer : on enchaîne sur le fondu du fond orange puis on masque (même effet qu’à la fin de l’animation)
-  const skipSplash = useCallback(() => {
-    setSplashPhase((p) => (p === "done" ? p : "bgFadeOut"));
-  }, []);
-
-  // Déclencher le fondu d’entrée du logo après le premier paint
-  useEffect(() => {
-    const raf = requestAnimationFrame(() => setLogoVisible(true));
-    return () => cancelAnimationFrame(raf);
-  }, []);
-
-  // Chaque phase dure le temps prévu ; à la fin tout le splash disparaît en fondu
-  useEffect(() => {
-    if (splashPhase === "done") return;
-
-    const phaseDuration: Record<SplashPhase, number> = {
-      fadeIn: FADE_IN_MS,
-      hold: HOLD_MS,
-      cover: COVER_MS,
-      bgFadeOut: BG_FADE_OUT_MS,
-    };
-    const nextPhase: Record<SplashPhase, SplashPhase> = {
-      fadeIn: "hold",
-      hold: "cover",
-      cover: "bgFadeOut",
-      bgFadeOut: "done",
-    };
-
-    const t = setTimeout(() => setSplashPhase(nextPhase[splashPhase]), phaseDuration[splashPhase]);
-    return () => clearTimeout(t);
-  }, [splashPhase]);
-
-  const showSplash = splashPhase !== "done";
-
+export default function LandingPage() {
   return (
     <main className="min-h-screen">
-      {/* Bandeau transparent : logo W à gauche, menu (trois barres) à droite avec Se connecter / Créer un compte */}
-      <LandingBandeau />
-
-      {/* Écran d’accueil : fond orange, logo centré en fondu, puis calque orange recouvre le logo en 1 s, puis tout disparaît */}
-      {showSplash && (
-        <button
-          type="button"
-          className="fixed inset-0 z-[100] h-full w-full focus:outline-none transition-opacity duration-[600ms] ease-out"
-          style={{ opacity: splashPhase === "bgFadeOut" ? 0 : 1 }}
-          onClick={skipSplash}
-          aria-label="Passer à la page d’accueil"
-        >
-          {/* Fond orange (arrière-plan, remplit toute la page) */}
-          <div className="absolute inset-0">
-            <Image
-              src="/logo-a-bis-fond-orange.png"
-              alt=""
-              fill
-              className="object-cover object-center"
-              priority
-              unoptimized
-              sizes="100vw 100vh"
-            />
-          </div>
-
-          {/* Logo centré : apparaît en fondu, reste 1 s au centre (puis recouvert par le calque) */}
-          <div className="absolute inset-0 flex items-center justify-center">
-            <div
-              className="relative h-full w-full transition-opacity ease-out"
-              style={{
-                transitionDuration: `${FADE_IN_MS}ms`,
-                opacity: logoVisible ? 1 : 0,
-              }}
-            >
-              <Image
-                src="/logo-a-page-daccueil.png"
-                alt="Voyage Voyage"
-                fill
-                className="object-contain object-center p-6"
-                priority
-                unoptimized
-                sizes="100vw"
-              />
-            </div>
-          </div>
-
-          {/* Calque orange par-dessus : se décale de la gauche vers la droite en 1 s (recouvre le logo) */}
-          <div
-            className="absolute inset-0 pointer-events-none overflow-hidden"
-          >
-            <div
-              className="absolute inset-0 transition-transform ease-out"
-              style={{
-                transitionDuration: `${COVER_MS}ms`,
-                transform: splashPhase === "cover" || splashPhase === "bgFadeOut" ? "translateX(0)" : "translateX(-100%)",
-              }}
-            >
-              <Image
-                src="/logo-a-bis-fond-orange.png"
-                alt=""
-                fill
-                className="object-cover object-center"
-                priority
-                unoptimized
-                sizes="100vw 100vh"
-              />
-            </div>
-          </div>
-        </button>
-      )}
-
       {/* Section vidéo : dans le flux, monte avec le scroll ; transition fondue en bas */}
       <section className="relative h-screen w-full overflow-hidden" aria-hidden>
         <video

@@ -41,7 +41,7 @@ export default function Header() {
   }
 
   return (
-    <header className="fixed left-0 right-0 top-0 z-50 flex items-center justify-between bg-[#A55734] px-4 py-3">
+    <header className="fixed left-0 right-0 top-0 z-[100] flex items-center justify-between bg-[#A55734] px-4 py-3 shadow-md">
       <Link
         href="/accueil"
         className="text-lg font-normal text-[#FFFBF7] transition-opacity hover:opacity-90"

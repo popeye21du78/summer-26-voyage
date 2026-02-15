@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function MesVoyagesPage() {
   // Pour l'instant un seul voyage ; plus tard liste depuis Supabase ou mock
   const voyages = [
-    { id: "summer-26", titre: "Summer 26", sousTitre: "Préfailles → Marseille", href: "/accueil" },
+    { id: "summer-26", titre: "Summer 26", sousTitre: "Préfailles → Marseille", href: "/voyage/summer-26" },
   ];
 
   return (

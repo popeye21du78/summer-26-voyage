@@ -25,7 +25,7 @@ export default function LoginPage() {
         setError(data?.error || "Code incorrect");
         return;
       }
-      router.push("/accueil");
+      router.push("/accueil?welcome=1");
       router.refresh();
     } catch {
       setError("Erreur de connexion");

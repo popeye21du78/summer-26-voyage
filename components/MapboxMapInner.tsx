@@ -286,6 +286,10 @@ export default function MapboxMapInner({
     props: SegmentProperties;
     lngLat: { lng: number; lat: number };
   } | null>(null);
+  const [routeFromApi, setRouteFromApi] = useState<{
+    segments: GeoJSON.FeatureCollection;
+    singleLine: GeoJSON.FeatureCollection;
+  } | null>(null);
 
   useEffect(() => {
     fetch("/api/steps")
@@ -295,6 +299,32 @@ export default function MapboxMapInner({
       })
       .catch(() => {});
   }, []);
+
+  useEffect(() => {
+    if (steps.length < 2 || !mapboxAccessToken) {
+      setRouteFromApi(null);
+      return;
+    }
+    const stepsMin = steps.map((s) => ({
+      id: s.id,
+      nom: s.nom,
+      coordonnees: s.coordonnees,
+    }));
+    fetch("/api/directions/route-geometry", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ steps: stepsMin }),
+    })
+      .then((r) => (r.ok ? r.json() : Promise.reject(new Error("Route API error"))))
+      .then((data: { segments?: GeoJSON.FeatureCollection; singleLine?: GeoJSON.FeatureCollection }) => {
+        if (data.segments && data.singleLine) {
+          setRouteFromApi({ segments: data.segments, singleLine: data.singleLine });
+        } else {
+          setRouteFromApi(null);
+        }
+      })
+      .catch(() => setRouteFromApi(null));
+  }, [steps, mapboxAccessToken]);
 
   const stepsWithLabel = useMemo(
     () =>
@@ -310,6 +340,7 @@ export default function MapboxMapInner({
     () => buildRouteSingleLineGeoJSON(steps),
     [steps]
   );
+  const routeData = routeFromApi ?? { segments: routeGeoJSON, singleLine: routeSingleGeoJSON };
 
   const cityPopupActiveRef = useRef(false);
   useEffect(() => {
@@ -366,17 +397,18 @@ export default function MapboxMapInner({
       mapStyle={mapStyle}
       style={{ width: "100%", height: "100%" }}
       attributionControl={true}
+      scrollZoom={false}
     >
       <Source
         id={ROUTE_SOURCE_ID}
         type="geojson"
-        data={routeGeoJSON}
+        data={routeData.segments}
         lineMetrics={true}
       />
       <Source
         id={ROUTE_SINGLE_SOURCE_ID}
         type="geojson"
-        data={routeSingleGeoJSON}
+        data={routeData.singleLine}
         lineMetrics={true}
       />
       {/* Couche invisible pour le survol (infos segment) */}

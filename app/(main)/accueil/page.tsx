@@ -1,37 +1,50 @@
-import MapSection from "../../../components/MapSection";
-import HeroButtons from "../../../components/HeroButtons";
+import Link from "next/link";
+import { Map, PlusCircle } from "lucide-react";
+import WelcomeLogoOverlay from "../../../components/WelcomeLogoOverlay";
 
-export default function AccueilPage() {
+export default async function AccueilPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ welcome?: string }>;
+}) {
+  const params = await searchParams;
+  const showWelcome = params.welcome === "1";
+
   return (
-    <main>
-      {/* Hero plein écran + dégradé */}
+    <>
+      <WelcomeLogoOverlay show={showWelcome} />
+      <main>
       <section
-        className="relative flex min-h-[calc(100vh-4rem)] flex-col items-center justify-center px-4 pb-32"
+        className="relative flex min-h-[calc(100vh-4rem)] flex-col items-center justify-center px-4"
         aria-label="Accueil"
       >
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#FAF4F0]" />
-        <div className="relative z-10">
-          <h1 className="mb-4 text-center text-5xl font-light text-[#333333] md:text-6xl">
-            Summer 26
+        <div className="relative z-10 w-full max-w-md text-center">
+          <h1 className="mb-2 text-4xl font-light text-[#333333] md:text-5xl">
+            Mes voyages
           </h1>
-          <p className="mb-8 max-w-lg text-center text-lg text-[#333333]/80">
-            Préfailles → Marseille. Ton carnet de voyage van-life.
+          <p className="mb-10 text-[#333333]/80">
+            Choisis de créer un nouveau voyage ou d’ouvrir un carnet existant.
           </p>
-          <HeroButtons />
+          <div className="flex flex-col gap-4 sm:flex-row sm:justify-center">
+            <Link
+              href="/voyage/nouveau"
+              className="inline-flex items-center justify-center gap-2 rounded-lg border-2 border-[#A55734] bg-[#A55734] px-6 py-4 font-medium text-white transition hover:bg-[#8b4728] hover:border-[#8b4728]"
+            >
+              <PlusCircle className="h-5 w-5" aria-hidden />
+              Créer un voyage
+            </Link>
+            <Link
+              href="/mes-voyages"
+              className="inline-flex items-center justify-center gap-2 rounded-lg border-2 border-[#A55734] bg-transparent px-6 py-4 font-medium text-[#A55734] transition hover:bg-[#A55734]/10"
+            >
+              <Map className="h-5 w-5" aria-hidden />
+              Voir mes voyages
+            </Link>
+          </div>
         </div>
       </section>
-
-      {/* Dégradé de transition vers la carte */}
-      <div
-        className="pointer-events-none relative h-24 w-full bg-gradient-to-b from-[#FAF4F0] to-[#FAF4F0]/0"
-        aria-hidden
-      />
-
-      {/* Carte */}
-      <section id="carte" className="relative -mt-24">
-        <MapSection />
-        <span id="carte-bas" className="block h-px" aria-hidden />
-      </section>
     </main>
+    </>
   );
 }
