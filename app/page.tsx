@@ -57,7 +57,7 @@ export default function HomePage() {
   const showSplash = splashPhase !== "done";
 
   return (
-    <main className="min-h-screen w-full max-w-full overflow-x-hidden">
+    <main className="h-[100dvh] w-full max-w-full overflow-y-auto overflow-x-hidden snap-y snap-mandatory overscroll-contain">
       {/* Bandeau : affiché seulement après la fin de l’animation de départ */}
       {!showSplash && <LandingBandeau />}
 
@@ -129,8 +129,8 @@ export default function HomePage() {
         </button>
       )}
 
-      {/* Section vidéo : dans le flux, monte avec le scroll ; transition fondue en bas */}
-      <section className="relative h-screen w-full overflow-hidden" aria-hidden>
+      {/* Hero : section vidéo */}
+      <section className="relative h-[100dvh] w-full shrink-0 flex-none snap-start snap-always overflow-hidden" aria-hidden>
         <video
           autoPlay
           muted
@@ -162,7 +162,8 @@ export default function HomePage() {
             unoptimized
           />
           <p
-            className="text-center text-lg font-light tracking-wide text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.5)] md:text-xl"
+            className="text-center text-lg font-light tracking-wide drop-shadow-[0_2px_8px_rgba(0,0,0,0.2)] md:text-xl"
+            style={{ color: "rgb(165, 53, 0)" }}
             aria-hidden
           >
             Jusqu&apos;à la panne d&apos;essence
@@ -170,7 +171,8 @@ export default function HomePage() {
           <button
             type="button"
             onClick={() => document.getElementById("premiere-section")?.scrollIntoView({ behavior: "smooth" })}
-            className="mt-2 flex justify-center text-white/90 drop-shadow-[0_2px_4px_rgba(0,0,0,0.4)] transition-opacity hover:opacity-80 focus:outline-none"
+            className="mt-2 flex justify-center drop-shadow-[0_2px_4px_rgba(0,0,0,0.2)] transition-opacity hover:opacity-80 focus:outline-none"
+            style={{ color: "rgb(165, 53, 0)" }}
             aria-label="Aller à la première section"
           >
             <ChevronDown className="h-8 w-8 animate-bounce sm:h-9 sm:w-9" strokeWidth={2} />
@@ -190,10 +192,10 @@ export default function HomePage() {
         />
       </section>
 
-      {/* Contenu : fond terracotta très léger (même couleur que le logo, transparent) */}
-      <div
+      {/* Présentation : Pourquoi + Qui sommes nous */}
+      <section
         id="premiere-section"
-        className="relative z-10 min-h-screen w-full max-w-full overflow-x-hidden pb-24 pt-16"
+        className="relative z-10 h-[100dvh] w-full shrink-0 flex-none snap-start snap-always overflow-y-auto overflow-x-hidden pb-24 pt-16"
         style={{
           background: "linear-gradient(180deg, rgba(165, 87, 52, 0.06) 0%, rgba(165, 87, 52, 0.04) 50%, rgba(250, 244, 240, 0.98) 100%)",
         }}
@@ -304,15 +306,18 @@ export default function HomePage() {
 
           <LogoFade />
         </div>
+      </section>
 
-        {/* Qui êtes vous ? : conteneur 100vh, scroll interne + snap = une photo à la fois */}
-        <QuiEtesVousScroll />
+      {/* Diapo 1, Diapo 2, Diapo 3 : enfants directs de main pour le snap global */}
+      <QuiEtesVousScroll />
 
-        <div className="mx-auto max-w-2xl space-y-16 px-4 pt-16">
+      {/* Footer */}
+      <section className="relative h-[100dvh] w-full shrink-0 flex-none snap-start snap-always overflow-y-auto overflow-x-hidden">
+        <div className="mx-auto max-w-2xl space-y-16 px-4 pt-16 pb-24">
           <LogoFade />
           <CTAButtons />
         </div>
-      </div>
+      </section>
     </main>
   );
 }

@@ -1,218 +1,205 @@
 "use client";
 
-import { useRef, useEffect, useState, useCallback } from "react";
-import { createPortal } from "react-dom";
+import { useRef, useEffect, useState } from "react";
 import Image from "next/image";
 import VanPhotoBlock from "./VanPhotoBlock";
 
-// Nom exact du fichier dans public/ (espace avant .PNG si tu l’as enregistré ainsi)
 const VAN_PNG = "/van1.png";
+const ORANGE_RGB = "rgb(165, 53, 0)";
+const PREMIER_V = "/premier-v.png";
+const DEUXIEME_V = "/deuxieme-v.png";
+const VAN_ZONE_LEFT_PCT = 38;
+const VAN_ZONE_BOTTOM_PCT = 42;
 
-const SLIDES = [
+type TitlePart = string | "V1" | "V2";
+
+const SLIDES: Array<{
+  photoSansVan: string;
+  photoAvecVan: string;
+  vanPng: string;
+  alt: string;
+  titleLine1: TitlePart[];
+  titleLine2: TitlePart[];
+  body: string;
+}> = [
   {
     photoSansVan: "/photo-rocamadour-sans-van-couleur.png",
     photoAvecVan: "/photo-rocamadour-avec-van-couleur.png",
     vanPng: VAN_PNG,
     alt: "Rocamadour",
+    titleLine1: ["de ", "V1", "illage en"],
+    titleLine2: ["", "V2", "illage"],
+    body: "Que tu veuilles partir à la découverte des plus beaux recoins de France…",
   },
   {
     photoSansVan: "/photo-marseille-sans-van-couleur.png",
     photoAvecVan: "/photo-marseille-avec-van-couleur.png",
     vanPng: VAN_PNG,
     alt: "Marseille",
+    titleLine1: ["de ", "V1", "ille en"],
+    titleLine2: ["", "V2", "ille"],
+    body: "ou des métropoles les plus emblématiques du sud,",
   },
   {
     photoSansVan: "/photo-montagne-sans-van-couleur.png",
     photoAvecVan: "/photo-montagne-avec-van-couleur.png",
     vanPng: VAN_PNG,
     alt: "Montagne",
+    titleLine1: ["", "V1", "aille que"],
+    titleLine2: ["", "V2", "aille"],
+    body: "ou que tu préfères les randonnées dans la nature, ton sac sur le dos et tes ampoules aux pieds.",
   },
-] as const;
-
-const TOLERANCE_PX = 40; // seuil pour considérer qu'on est sur le premier / dernier slide
-const SCROLL_COOLDOWN_MS = 400; // évite les conflits pendant le scroll fluide
+];
 
 export default function QuiEtesVousScroll() {
-  const sectionRef = useRef<HTMLElement>(null);
-  const scrollRef = useRef<HTMLDivElement>(null);
-  const scrollCooldownRef = useRef(false);
-  const [scrollTop, setScrollTop] = useState(0);
-  const [slideHeight, setSlideHeight] = useState(0);
-  const [doneSlides, setDoneSlides] = useState<boolean[]>([false, false, false]);
+  const [activeSlideIndex, setActiveSlideIndex] = useState<number | null>(null);
+  const slideRefs = useRef<(HTMLElement | null)[]>([]);
 
-  const setSlideDone = useCallback((index: number) => {
-    setDoneSlides((prev) => {
-      const next = [...prev];
-      next[index] = true;
-      return next;
-    });
-  }, []);
-
-  const [sectionFullyInView, setSectionFullyInView] = useState(false);
   useEffect(() => {
-    const section = sectionRef.current;
-    if (!section) return;
     const obs = new IntersectionObserver(
-      ([entry]) => setSectionFullyInView(entry.isIntersecting && entry.intersectionRatio >= 1),
-      { threshold: 1 }
+      (entries) => {
+        for (const entry of entries) {
+          const index = entry.target.getAttribute("data-slide-index");
+          if (index === null) continue;
+          const i = parseInt(index, 10);
+          const isActive = entry.isIntersecting && (entry.intersectionRatio ?? 0) >= 0.9;
+          if (isActive) {
+            entry.target.classList.add("is-active");
+            setActiveSlideIndex(i);
+          } else {
+            entry.target.classList.remove("is-active");
+            setActiveSlideIndex((prev) => (prev === i ? null : prev));
+          }
+        }
+      },
+      { root: null, rootMargin: "0px", threshold: 0.9 }
     );
-    obs.observe(section);
+    slideRefs.current.forEach((el) => {
+      if (el) obs.observe(el);
+    });
     return () => obs.disconnect();
   }, []);
 
-  useEffect(() => {
-    const scrollEl = scrollRef.current;
-    if (!scrollEl) return;
-    const onScroll = () => {
-      setScrollTop(scrollEl.scrollTop);
-      if (slideHeight === 0 && scrollEl.clientHeight) setSlideHeight(scrollEl.clientHeight);
-    };
-    onScroll();
-    scrollEl.addEventListener("scroll", onScroll);
-    return () => scrollEl.removeEventListener("scroll", onScroll);
-  }, [slideHeight]);
-
-  useEffect(() => {
-    const section = sectionRef.current;
-    const scrollEl = scrollRef.current;
-    if (!section || !scrollEl) return;
-
-    const startCooldown = () => {
-      scrollCooldownRef.current = true;
-      setTimeout(() => {
-        scrollCooldownRef.current = false;
-      }, SCROLL_COOLDOWN_MS);
-    };
-
-    const handleWheel = (e: WheelEvent) => {
-      if (scrollCooldownRef.current) return;
-
-      const rect = section.getBoundingClientRect();
-      const fullyInView = rect.top <= 0 && rect.bottom >= window.innerHeight;
-      const anyPartVisible = rect.bottom > 0 && rect.top < window.innerHeight;
-      const seeTopOfSection = rect.top < window.innerHeight;
-      const seeBottomOfSection = rect.bottom > 0;
-
-      // Dès qu'on voit un peu la section, on y est emmenés délicatement
-      if (!fullyInView && anyPartVisible) {
-        if (e.deltaY > 0 && seeTopOfSection && rect.top > 0) {
-          e.preventDefault();
-          section.scrollIntoView({ behavior: "smooth", block: "start" });
-          startCooldown();
-          return;
-        }
-        if (e.deltaY < 0 && seeBottomOfSection && rect.bottom < window.innerHeight) {
-          e.preventDefault();
-          section.scrollIntoView({ behavior: "smooth", block: "end" });
-          startCooldown();
-          return;
-        }
-        return;
-      }
-
-      if (!fullyInView) return;
-
-      const { scrollTop: st, scrollHeight, clientHeight } = scrollEl;
-      const slideH = clientHeight;
-      const currentIdx = Math.round(st / slideH);
-      const atTop = st <= TOLERANCE_PX;
-      const atBottom = st >= scrollHeight - slideH - TOLERANCE_PX;
-
-      // Cibles en indices de slide pour un scroll toujours fluide
-      const targetIdxUp = Math.max(0, currentIdx - 1);
-      const targetIdxDown = Math.min(SLIDES.length - 1, currentIdx + 1);
-
-      // Molette vers le haut : quitter la section (premier slide) ou slide au-dessus
-      if (e.deltaY < 0) {
-        e.preventDefault();
-        if (atTop) {
-          const prev = section.previousElementSibling as HTMLElement | null;
-          if (prev) prev.scrollIntoView({ behavior: "smooth", block: "end" });
-          else window.scrollTo({ top: Math.max(0, section.offsetTop - 1), behavior: "smooth" });
-        } else {
-          scrollEl.scrollTo({ top: targetIdxUp * slideH, behavior: "smooth" });
-        }
-        startCooldown();
-        return;
-      }
-
-      // Molette vers le bas : slide en dessous ou quitter vers la fin (dernier slide)
-      if (e.deltaY > 0) {
-        e.preventDefault();
-        if (atBottom) {
-          const next = section.nextElementSibling as HTMLElement | null;
-          if (next) next.scrollIntoView({ behavior: "smooth", block: "start" });
-          else window.scrollTo({ top: section.offsetTop + section.offsetHeight, behavior: "smooth" });
-        } else {
-          scrollEl.scrollTo({ top: targetIdxDown * slideH, behavior: "smooth" });
-        }
-        startCooldown();
-      }
-    };
-
-    window.addEventListener("wheel", handleWheel, { passive: false });
-    return () => window.removeEventListener("wheel", handleWheel);
-  }, []);
-
-  const currentIndex = slideHeight > 0 ? Math.round(scrollTop / slideHeight) : 0;
-  const clampedIndex = Math.max(0, Math.min(currentIndex, SLIDES.length - 1));
-  const showFixedAvecVan = sectionFullyInView && doneSlides[clampedIndex];
-
   return (
-    <section
-      ref={sectionRef}
-      aria-labelledby="qui-vous-heading"
-      className="relative h-screen w-full overflow-hidden"
-    >
-      <h2 id="qui-vous-heading" className="sr-only">
-        Qui êtes vous
-      </h2>
-      <div
-        ref={scrollRef}
-        className="relative z-0 h-full w-full overflow-y-auto overflow-x-hidden snap-y snap-mandatory scroll-smooth [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden"
-        style={{ scrollSnapType: "y mandatory" }}
-      >
-        {SLIDES.map((slide, i) => (
-          <div key={i} className="h-screen w-full shrink-0 snap-start" style={{ scrollSnapStop: "always" }}>
+    <>
+      {SLIDES.map((slide, i) => (
+        <div
+          key={i}
+          ref={(el) => {
+            slideRefs.current[i] = el;
+          }}
+          data-slide-index={i}
+          aria-labelledby={i === 0 ? "qui-vous-heading" : undefined}
+          className="slide group relative h-[100dvh] w-full shrink-0 flex-none snap-start snap-always"
+        >
+          {i === 0 && (
+            <h2 id="qui-vous-heading" className="sr-only">
+              Qui êtes vous
+            </h2>
+          )}
+          <div className="h-full w-full overflow-hidden">
             <VanPhotoBlock
               photoSansVan={slide.photoSansVan}
               photoAvecVan={slide.photoAvecVan}
               vanPng={slide.vanPng}
               alt={slide.alt}
-              onAnimationDone={() => setSlideDone(i)}
+              onAnimationDone={() => {}}
+              isCurrentSlide={activeSlideIndex === i}
             />
           </div>
-        ))}
-      </div>
-      {/* Calques fixes rendus en portail au-dessus de toute la page (van toujours visible au-dessus des photos) */}
-      {typeof document !== "undefined" &&
-        sectionFullyInView &&
-        createPortal(
-          <div className="pointer-events-none fixed inset-0 z-[200]" aria-hidden>
-            {showFixedAvecVan && (
-              <div className="absolute inset-0">
-                <Image
-                  src={SLIDES[clampedIndex].photoAvecVan}
-                  alt=""
-                  fill
-                  className="object-cover object-left-bottom"
-                  sizes="100vw"
-                  unoptimized
-                />
-              </div>
-            )}
-            {/* Van au premier plan : <img> natif pour éviter tout souci avec next/image dans le portail */}
-            <div className="absolute inset-0">
+
+            {/* Overlays : visibles uniquement quand .is-active (IntersectionObserver) */}
+            <div
+              className="pointer-events-none absolute inset-0 z-10 flex flex-col justify-center px-6 opacity-0 transition-opacity duration-500 md:px-12 group-[.is-active]:opacity-100"
+              aria-hidden
+            >
+              <div
+                className="absolute inset-0 -z-10"
+                style={{ background: "rgba(0,0,0,0.55)" }}
+              />
+              <h3
+                className="font-mono mb-4 w-full text-center text-3xl font-bold tracking-wide md:text-4xl lg:text-5xl"
+                style={{ color: ORANGE_RGB }}
+              >
+                {slide.titleLine1.map((part, j) =>
+                  part === "V1" ? (
+                    <Image
+                      key={`a-${j}`}
+                      src={PREMIER_V}
+                      alt=""
+                      width={40}
+                      height={40}
+                      className="inline-block h-[1.1em] w-auto align-middle"
+                      unoptimized
+                    />
+                  ) : part === "V2" ? (
+                    <Image
+                      key={`a-${j}`}
+                      src={DEUXIEME_V}
+                      alt=""
+                      width={40}
+                      height={40}
+                      className="inline-block h-[1.1em] w-auto align-middle"
+                      unoptimized
+                    />
+                  ) : (
+                    <span key={j}>{part}</span>
+                  )
+                )}
+                <br />
+                {slide.titleLine2.map((part, j) =>
+                  part === "V1" ? (
+                    <Image
+                      key={`b-${j}`}
+                      src={PREMIER_V}
+                      alt=""
+                      width={40}
+                      height={40}
+                      className="inline-block h-[1.1em] w-auto align-middle"
+                      unoptimized
+                    />
+                  ) : part === "V2" ? (
+                    <Image
+                      key={`b-${j}`}
+                      src={DEUXIEME_V}
+                      alt=""
+                      width={40}
+                      height={40}
+                      className="inline-block h-[1.1em] w-auto align-middle"
+                      unoptimized
+                    />
+                  ) : (
+                    <span key={j}>{part}</span>
+                  )
+                )}
+              </h3>
+              <p
+                className="font-mono text-sm font-normal leading-relaxed text-white opacity-0 transition-opacity duration-700 delay-[1500ms] md:text-base group-[.is-active]:opacity-100"
+                style={{
+                  marginLeft: `${VAN_ZONE_LEFT_PCT}%`,
+                  marginBottom: `${VAN_ZONE_BOTTOM_PCT}%`,
+                  maxWidth: `${100 - VAN_ZONE_LEFT_PCT - 8}%`,
+                  textAlign: "right",
+                }}
+              >
+                {slide.body}
+              </p>
+            </div>
+
+            {/* Van1.png : visible quand .is-active */}
+            <div
+              className="pointer-events-none absolute inset-0 z-20 opacity-0 transition-opacity duration-500 group-[.is-active]:opacity-100"
+              aria-hidden
+            >
               <img
                 src={VAN_PNG}
                 alt=""
                 className="h-full w-full object-cover object-left-bottom"
                 loading="eager"
               />
-            </div>
-          </div>,
-          document.body
-        )}
-    </section>
+          </div>
+        </div>
+      ))}
+    </>
   );
 }

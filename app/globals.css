@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
-/* Pas de défilement horizontal */
+/* Pas de défilement horizontal : clip évite overflow-y:auto implicite qui casse scroll-snap */
 html {
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 /* Thème Roland Garros – Terre Battue & Carnet de Route */
@@ -31,7 +31,7 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: "IBM Plex Mono", monospace;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 /* Machine à écrire – sections ville : caractères révélés avec délai, curseur clignotant */
