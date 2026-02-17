@@ -3,13 +3,16 @@
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
-import { Menu, LogOut } from "lucide-react";
+import { Menu, LogOut, UserCog } from "lucide-react";
 
 const NAV_LINKS = [
   { href: "/accueil", label: "Accueil" },
+  { href: "/carte-villes", label: "Carte lieux" },
+  { href: "/recap-lieux", label: "Récap lieux" },
   { href: "/planning", label: "Planning" },
   { href: "/book", label: "Book" },
   { href: "/data", label: "Data" },
+  { href: "/admin-lieux", label: "Admin" },
 ] as const;
 
 export default function Header() {
@@ -91,6 +94,15 @@ export default function Header() {
                 onClick={() => setMenuOpen(false)}
               >
                 Mes voyages
+              </Link>
+              <Link
+                href="/profil"
+                role="menuitem"
+                className="flex items-center gap-2 px-4 py-2.5 text-sm text-[#333333] hover:bg-[#A55734]/10"
+                onClick={() => setMenuOpen(false)}
+              >
+                <UserCog className="h-4 w-4" />
+                Modifier ma perso
               </Link>
               <button
                 type="button"

@@ -1,0 +1,490 @@
+{
+  "generatedAt": "2026-02-17T21:10:47.445Z",
+  "usage": {
+    "prompt_tokens": 378,
+    "completion_tokens": 2155,
+    "total_tokens": 2533
+  },
+  "classement": [
+    {
+      "code": "01",
+      "departement": "Ain",
+      "tier": "B"
+    },
+    {
+      "code": "02",
+      "departement": "Aisne",
+      "tier": "B"
+    },
+    {
+      "code": "03",
+      "departement": "Allier",
+      "tier": "B"
+    },
+    {
+      "code": "04",
+      "departement": "Alpes-de-Haute-Provence",
+      "tier": "A"
+    },
+    {
+      "code": "05",
+      "departement": "Hautes-Alpes",
+      "tier": "A"
+    },
+    {
+      "code": "06",
+      "departement": "Alpes-Maritimes",
+      "tier": "A"
+    },
+    {
+      "code": "07",
+      "departement": "Ardèche",
+      "tier": "A"
+    },
+    {
+      "code": "08",
+      "departement": "Ardennes",
+      "tier": "C"
+    },
+    {
+      "code": "09",
+      "departement": "Ariège",
+      "tier": "B"
+    },
+    {
+      "code": "10",
+      "departement": "Aube",
+      "tier": "B"
+    },
+    {
+      "code": "11",
+      "departement": "Aude",
+      "tier": "B"
+    },
+    {
+      "code": "12",
+      "departement": "Aveyron",
+      "tier": "S"
+    },
+    {
+      "code": "13",
+      "departement": "Bouches-du-Rhône",
+      "tier": "A"
+    },
+    {
+      "code": "14",
+      "departement": "Calvados",
+      "tier": "A"
+    },
+    {
+      "code": "15",
+      "departement": "Cantal",
+      "tier": "B"
+    },
+    {
+      "code": "16",
+      "departement": "Charente",
+      "tier": "B"
+    },
+    {
+      "code": "17",
+      "departement": "Charente-Maritime",
+      "tier": "A"
+    },
+    {
+      "code": "18",
+      "departement": "Cher",
+      "tier": "C"
+    },
+    {
+      "code": "19",
+      "departement": "Corrèze",
+      "tier": "A"
+    },
+    {
+      "code": "21",
+      "departement": "Côte-d'Or",
+      "tier": "A"
+    },
+    {
+      "code": "22",
+      "departement": "Côtes-d'Armor",
+      "tier": "A"
+    },
+    {
+      "code": "23",
+      "departement": "Creuse",
+      "tier": "C"
+    },
+    {
+      "code": "24",
+      "departement": "Dordogne",
+      "tier": "S"
+    },
+    {
+      "code": "25",
+      "departement": "Doubs",
+      "tier": "B"
+    },
+    {
+      "code": "26",
+      "departement": "Drôme",
+      "tier": "A"
+    },
+    {
+      "code": "27",
+      "departement": "Eure",
+      "tier": "C"
+    },
+    {
+      "code": "28",
+      "departement": "Eure-et-Loir",
+      "tier": "C"
+    },
+    {
+      "code": "29",
+      "departement": "Finistère",
+      "tier": "A"
+    },
+    {
+      "code": "30",
+      "departement": "Gard",
+      "tier": "B"
+    },
+    {
+      "code": "31",
+      "departement": "Haute-Garonne",
+      "tier": "B"
+    },
+    {
+      "code": "32",
+      "departement": "Gers",
+      "tier": "B"
+    },
+    {
+      "code": "33",
+      "departement": "Gironde",
+      "tier": "A"
+    },
+    {
+      "code": "34",
+      "departement": "Hérault",
+      "tier": "B"
+    },
+    {
+      "code": "35",
+      "departement": "Ille-et-Vilaine",
+      "tier": "B"
+    },
+    {
+      "code": "36",
+      "departement": "Indre",
+      "tier": "C"
+    },
+    {
+      "code": "37",
+      "departement": "Indre-et-Loire",
+      "tier": "A"
+    },
+    {
+      "code": "38",
+      "departement": "Isère",
+      "tier": "A"
+    },
+    {
+      "code": "39",
+      "departement": "Jura",
+      "tier": "B"
+    },
+    {
+      "code": "40",
+      "departement": "Landes",
+      "tier": "C"
+    },
+    {
+      "code": "41",
+      "departement": "Loir-et-Cher",
+      "tier": "A"
+    },
+    {
+      "code": "42",
+      "departement": "Loire",
+      "tier": "B"
+    },
+    {
+      "code": "43",
+      "departement": "Haute-Loire",
+      "tier": "B"
+    },
+    {
+      "code": "44",
+      "departement": "Loire-Atlantique",
+      "tier": "B"
+    },
+    {
+      "code": "45",
+      "departement": "Loiret",
+      "tier": "B"
+    },
+    {
+      "code": "46",
+      "departement": "Lot",
+      "tier": "S"
+    },
+    {
+      "code": "47",
+      "departement": "Lot-et-Garonne",
+      "tier": "B"
+    },
+    {
+      "code": "48",
+      "departement": "Lozère",
+      "tier": "A"
+    },
+    {
+      "code": "49",
+      "departement": "Maine-et-Loire",
+      "tier": "A"
+    },
+    {
+      "code": "50",
+      "departement": "Manche",
+      "tier": "A"
+    },
+    {
+      "code": "51",
+      "departement": "Marne",
+      "tier": "B"
+    },
+    {
+      "code": "52",
+      "departement": "Haute-Marne",
+      "tier": "C"
+    },
+    {
+      "code": "53",
+      "departement": "Mayenne",
+      "tier": "C"
+    },
+    {
+      "code": "54",
+      "departement": "Meurthe-et-Moselle",
+      "tier": "C"
+    },
+    {
+      "code": "55",
+      "departement": "Meuse",
+      "tier": "C"
+    },
+    {
+      "code": "56",
+      "departement": "Morbihan",
+      "tier": "A"
+    },
+    {
+      "code": "57",
+      "departement": "Moselle",
+      "tier": "C"
+    },
+    {
+      "code": "58",
+      "departement": "Nièvre",
+      "tier": "C"
+    },
+    {
+      "code": "59",
+      "departement": "Nord",
+      "tier": "D"
+    },
+    {
+      "code": "60",
+      "departement": "Oise",
+      "tier": "B"
+    },
+    {
+      "code": "61",
+      "departement": "Orne",
+      "tier": "C"
+    },
+    {
+      "code": "62",
+      "departement": "Pas-de-Calais",
+      "tier": "C"
+    },
+    {
+      "code": "63",
+      "departement": "Puy-de-Dôme",
+      "tier": "A"
+    },
+    {
+      "code": "64",
+      "departement": "Pyrénées-Atlantiques",
+      "tier": "A"
+    },
+    {
+      "code": "65",
+      "departement": "Hautes-Pyrénées",
+      "tier": "B"
+    },
+    {
+      "code": "66",
+      "departement": "Pyrénées-Orientales",
+      "tier": "B"
+    },
+    {
+      "code": "67",
+      "departement": "Bas-Rhin",
+      "tier": "A"
+    },
+    {
+      "code": "68",
+      "departement": "Haut-Rhin",
+      "tier": "A"
+    },
+    {
+      "code": "69",
+      "departement": "Rhône",
+      "tier": "B"
+    },
+    {
+      "code": "70",
+      "departement": "Haute-Saône",
+      "tier": "C"
+    },
+    {
+      "code": "71",
+      "departement": "Saône-et-Loire",
+      "tier": "B"
+    },
+    {
+      "code": "72",
+      "departement": "Sarthe",
+      "tier": "B"
+    },
+    {
+      "code": "73",
+      "departement": "Savoie",
+      "tier": "A"
+    },
+    {
+      "code": "74",
+      "departement": "Haute-Savoie",
+      "tier": "A"
+    },
+    {
+      "code": "75",
+      "departement": "Paris",
+      "tier": "S"
+    },
+    {
+      "code": "76",
+      "departement": "Seine-Maritime",
+      "tier": "A"
+    },
+    {
+      "code": "77",
+      "departement": "Seine-et-Marne",
+      "tier": "B"
+    },
+    {
+      "code": "78",
+      "departement": "Yvelines",
+      "tier": "B"
+    },
+    {
+      "code": "79",
+      "departement": "Deux-Sèvres",
+      "tier": "C"
+    },
+    {
+      "code": "80",
+      "departement": "Somme",
+      "tier": "C"
+    },
+    {
+      "code": "81",
+      "departement": "Tarn",
+      "tier": "B"
+    },
+    {
+      "code": "82",
+      "departement": "Tarn-et-Garonne",
+      "tier": "C"
+    },
+    {
+      "code": "83",
+      "departement": "Var",
+      "tier": "A"
+    },
+    {
+      "code": "84",
+      "departement": "Vaucluse",
+      "tier": "S"
+    },
+    {
+      "code": "85",
+      "departement": "Vendée",
+      "tier": "B"
+    },
+    {
+      "code": "86",
+      "departement": "Vienne",
+      "tier": "B"
+    },
+    {
+      "code": "87",
+      "departement": "Haute-Vienne",
+      "tier": "C"
+    },
+    {
+      "code": "88",
+      "departement": "Vosges",
+      "tier": "C"
+    },
+    {
+      "code": "89",
+      "departement": "Yonne",
+      "tier": "B"
+    },
+    {
+      "code": "90",
+      "departement": "Territoire de Belfort",
+      "tier": "C"
+    },
+    {
+      "code": "91",
+      "departement": "Essonne",
+      "tier": "D"
+    },
+    {
+      "code": "92",
+      "departement": "Hauts-de-Seine",
+      "tier": "D"
+    },
+    {
+      "code": "93",
+      "departement": "Seine-Saint-Denis",
+      "tier": "D"
+    },
+    {
+      "code": "94",
+      "departement": "Val-de-Marne",
+      "tier": "D"
+    },
+    {
+      "code": "95",
+      "departement": "Val-d'Oise",
+      "tier": "B"
+    },
+    {
+      "code": "2A",
+      "departement": "Corse-du-Sud",
+      "tier": "A"
+    },
+    {
+      "code": "2B",
+      "departement": "Haute-Corse",
+      "tier": "A"
+    }
+  ]
+}

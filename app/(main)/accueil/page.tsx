@@ -1,6 +1,8 @@
 import Link from "next/link";
-import { Map, PlusCircle } from "lucide-react";
+import { cookies } from "next/headers";
+import { Map, PlusCircle, UserCog } from "lucide-react";
 import WelcomeLogoOverlay from "../../../components/WelcomeLogoOverlay";
+import { getProfileById } from "../../../data/test-profiles";
 
 export default async function AccueilPage({
   searchParams,
@@ -9,6 +11,9 @@ export default async function AccueilPage({
 }) {
   const params = await searchParams;
   const showWelcome = params.welcome === "1";
+  const cookieStore = await cookies();
+  const profileId = cookieStore.get("van_auth")?.value ?? "";
+  const profile = getProfileById(profileId);
 
   return (
     <>
@@ -20,6 +25,18 @@ export default async function AccueilPage({
       >
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#FAF4F0]" />
         <div className="relative z-10 w-full max-w-md text-center">
+          {profile && (
+            <p className="mb-2 text-sm text-[#333333]/70">
+              Connecté en tant que <strong>{profile.name}</strong>
+            </p>
+          )}
+          <Link
+            href="/profil"
+            className="mb-6 inline-flex items-center gap-2 text-sm text-[#A55734] transition hover:text-[#8b4728]"
+          >
+            <UserCog className="h-4 w-4" aria-hidden />
+            Modifier ma perso
+          </Link>
           <h1 className="mb-2 text-4xl font-light text-[#333333] md:text-5xl">
             Mes voyages
           </h1>

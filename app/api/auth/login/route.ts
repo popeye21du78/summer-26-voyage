@@ -1,24 +1,27 @@
 import { NextRequest, NextResponse } from "next/server";
+import { VALID_PROFILE_IDS } from "../../../../data/test-profiles";
 
-const AUTH_CODE = "VAN2024";
 const COOKIE_NAME = "van_auth";
 const COOKIE_MAX_AGE = 60 * 60 * 24 * 30; // 30 jours
 
 export async function POST(request: NextRequest) {
-  let code: string;
+  let profileId: string;
   try {
     const body = await request.json();
-    code = typeof body?.code === "string" ? body.code.trim() : "";
+    profileId = typeof body?.profileId === "string" ? body.profileId.trim().toLowerCase() : "";
   } catch {
-    code = "";
+    profileId = "";
   }
 
-  if (code !== AUTH_CODE) {
-    return NextResponse.json({ ok: false, error: "Code incorrect" }, { status: 401 });
+  if (!profileId || !VALID_PROFILE_IDS.includes(profileId)) {
+    return NextResponse.json(
+      { ok: false, error: "Profil invalide" },
+      { status: 401 }
+    );
   }
 
   const res = NextResponse.json({ ok: true });
-  res.cookies.set(COOKIE_NAME, "ok", {
+  res.cookies.set(COOKIE_NAME, profileId, {
     httpOnly: true,
     secure: process.env.NODE_ENV === "production",
     sameSite: "lax",

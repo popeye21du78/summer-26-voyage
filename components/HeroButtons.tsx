@@ -26,6 +26,12 @@ export default function HeroButtons() {
       >
         Voir le Book
       </Link>
+      <Link
+        href="/login"
+        className="btn-secondary rounded-full border-2 border-[#A55734]/60 bg-transparent px-6 py-3 text-sm font-normal text-[#333333] transition-all hover:bg-[#A55734]/10"
+      >
+        Se connecter
+      </Link>
     </div>
   );
 }

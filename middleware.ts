@@ -1,11 +1,13 @@
 import { NextRequest, NextResponse } from "next/server";
+import { VALID_PROFILE_IDS } from "./data/test-profiles";
 
 const COOKIE_NAME = "van_auth";
 
 const PUBLIC_PATHS = ["/", "/login", "/demo"];
 
 export function middleware(request: NextRequest) {
-  const isLoggedIn = request.cookies.get(COOKIE_NAME)?.value === "ok";
+  const cookieValue = request.cookies.get(COOKIE_NAME)?.value ?? "";
+  const isLoggedIn = VALID_PROFILE_IDS.includes(cookieValue);
   const { pathname } = request.nextUrl;
 
   if (pathname.startsWith("/_next") || pathname.startsWith("/api") || pathname.includes(".")) {

@@ -2,27 +2,26 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { Lock } from "lucide-react";
+import { User } from "lucide-react";
+import { TEST_PROFILES } from "../../data/test-profiles";
 
 export default function LoginPage() {
-  const [code, setCode] = useState("");
+  const [loading, setLoading] = useState<string | null>(null);
   const [error, setError] = useState("");
-  const [loading, setLoading] = useState(false);
   const router = useRouter();
 
-  async function handleSubmit(e: React.FormEvent) {
-    e.preventDefault();
+  async function handleSelectProfile(profileId: string) {
     setError("");
-    setLoading(true);
+    setLoading(profileId);
     try {
       const res = await fetch("/api/auth/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ code }),
+        body: JSON.stringify({ profileId }),
       });
       const data = await res.json();
       if (!res.ok || !data.ok) {
-        setError(data?.error || "Code incorrect");
+        setError(data?.error || "Erreur de connexion");
         return;
       }
       router.push("/accueil?welcome=1");
@@ -30,42 +29,45 @@ export default function LoginPage() {
     } catch {
       setError("Erreur de connexion");
     } finally {
-      setLoading(false);
+      setLoading(null);
     }
   }
 
   return (
     <div className="flex min-h-screen items-center justify-center bg-[#FFFFFF]">
-      <div className="w-full max-w-xs space-y-8 px-4">
+      <div className="w-full max-w-md space-y-8 px-4">
         <div className="flex justify-center">
-          <Lock className="h-12 w-12 text-[#A55734]" aria-hidden />
+          <User className="h-12 w-12 text-[#A55734]" aria-hidden />
         </div>
         <h1 className="text-center font-heading text-4xl font-normal text-[#333333]">
           Van-Life Journal
         </h1>
-        <form onSubmit={handleSubmit} className="space-y-4">
-          <input
-            type="password"
-            value={code}
-            onChange={(e) => setCode(e.target.value)}
-            placeholder="Code d'accès"
-            className="w-full rounded-lg border border-[#A55734]/40 bg-white px-4 py-3 text-center text-[#333333] placeholder:text-gray-400 focus:border-[#A55734] focus:outline-none focus:ring-1 focus:ring-[#A55734]"
-            autoFocus
-            disabled={loading}
-          />
-          {error && (
-            <p className="text-center text-sm text-red-600" role="alert">
-              {error}
-            </p>
-          )}
-          <button
-            type="submit"
-            disabled={loading}
-            className="w-full rounded-lg bg-[#A55734] px-4 py-3 font-medium text-white transition hover:bg-[#8b4728] disabled:opacity-50"
-          >
-            {loading ? "Connexion…" : "Accéder"}
-          </button>
-        </form>
+        <p className="text-center text-[#333333]/80">
+          Choisis un profil pour te connecter (phase de test).
+        </p>
+        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4">
+          {TEST_PROFILES.map((profile) => (
+            <button
+              key={profile.id}
+              type="button"
+              onClick={() => handleSelectProfile(profile.id)}
+              disabled={loading !== null}
+              className="flex flex-col items-center justify-center gap-2 rounded-xl border-2 border-[#A55734]/40 bg-[#FAF4F0] px-4 py-6 transition hover:border-[#A55734] hover:bg-[#A55734]/10 disabled:opacity-50"
+            >
+              <span className="text-2xl font-medium text-[#333333]">
+                {profile.name}
+              </span>
+              {loading === profile.id ? (
+                <span className="text-sm text-[#333333]/70">Connexion…</span>
+              ) : null}
+            </button>
+          ))}
+        </div>
+        {error && (
+          <p className="text-center text-sm text-red-600" role="alert">
+            {error}
+          </p>
+        )}
       </div>
     </div>
   );
