@@ -7,12 +7,10 @@ import { Menu, LogOut, UserCog } from "lucide-react";
 
 const NAV_LINKS = [
   { href: "/accueil", label: "Accueil" },
-  { href: "/carte-villes", label: "Carte lieux" },
-  { href: "/recap-lieux", label: "Récap lieux" },
+  { href: "/maintenance", label: "Maintenance" },
   { href: "/planning", label: "Planning" },
   { href: "/book", label: "Book" },
   { href: "/data", label: "Data" },
-  { href: "/admin-lieux", label: "Admin" },
 ] as const;
 
 export default function Header() {

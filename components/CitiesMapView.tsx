@@ -7,7 +7,6 @@ import type { LieuPoint, LieuType } from "../lib/lieux-types";
 
 const TYPE_COLORS: Record<LieuType, string> = {
   patrimoine: "#a8987a",
-  pepite: "#6b8e6b",
   plage: "#4a90d9",
   rando: "#8B6914",
 };

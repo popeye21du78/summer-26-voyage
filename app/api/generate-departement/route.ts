@@ -12,7 +12,7 @@ export const dynamic = "force-dynamic";
 export async function POST(req: NextRequest) {
   try {
     const { codeDep } = (await req.json()) as { codeDep: string };
-    if (!codeDep || !/^\d{1,3}$/.test(codeDep)) {
+    if (!codeDep || !/^(\d{1,3}|2A|2B)$/.test(String(codeDep).trim())) {
       return NextResponse.json({ error: "codeDep invalide" }, { status: 400 });
     }
 

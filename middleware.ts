@@ -3,7 +3,7 @@ import { VALID_PROFILE_IDS } from "./data/test-profiles";
 
 const COOKIE_NAME = "van_auth";
 
-const PUBLIC_PATHS = ["/", "/login", "/demo"];
+const PUBLIC_PATHS = ["/", "/login", "/demo", "/maintenance"];
 
 export function middleware(request: NextRequest) {
   const cookieValue = request.cookies.get(COOKIE_NAME)?.value ?? "";

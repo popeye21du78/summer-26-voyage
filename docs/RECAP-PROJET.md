@@ -153,6 +153,10 @@ La structure actuelle est saine. Pas de refonte majeure : il s'agit d'**ajouts**
 - **Phase 4** : Supabase (étapes, photos, textes), formulaire admin.
 - **Phase 5** : calcul budget essence, appels API distances.
 
+## Données et batch (fiches villes, carte lieux)
+
+→ Voir **`docs/RECAP-DECISIONS-DATA-BATCH.md`** : décisions sur Phase 1 (batch patrimoine+plages), Top 100, prompt simplifié, PBVF, classements départementaux.
+
 ---
 
 ## Indications pour un nouvel assistant

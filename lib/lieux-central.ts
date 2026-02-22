@@ -1,6 +1,6 @@
 /**
- * Lecture de data/cities/lieux-central.xlsx (4 onglets : Patrimoine, Pépites, Plages, Randos).
- * Une seule source centralisée pour tous les départements.
+ * Lecture de data/cities/lieux-central.xlsx (3 onglets : Patrimoine, Plages, Randos).
+ * v4 : patrimoine fusionné (ex-pépites inclus), 3 types uniquement.
  */
 
 import * as XLSX from "xlsx";
@@ -69,7 +69,7 @@ function rowToLieu(
     type,
     lat,
     lng,
-    plus_beaux_villages: type === "patrimoine" || type === "pepite" ? plus_beaux_villages : undefined,
+    plus_beaux_villages: type === "patrimoine" ? plus_beaux_villages : undefined,
   };
 }
 
@@ -107,11 +107,10 @@ export function getLieuxFromCentral(filterCodeDep?: string): LieuPoint[] {
     const workbook = XLSX.read(buffer, { type: "buffer" });
 
     const patrimoine = sheetToLieux(workbook, "Patrimoine", "patrimoine");
-    const pepites = sheetToLieux(workbook, "Pépites", "pepite");
     const plages = sheetToLieux(workbook, "Plages", "plage");
     const randos = sheetToLieux(workbook, "Randos", "rando");
 
-    let all: LieuPoint[] = [...patrimoine, ...pepites, ...plages, ...randos];
+    let all: LieuPoint[] = [...patrimoine, ...plages, ...randos];
 
     if (filterCodeDep && filterCodeDep.trim()) {
       const code = filterCodeDep.trim();
@@ -142,8 +141,8 @@ export function getDepartementsList(): { code: string; departement: string }[] {
 }
 
 export type LieuxStats = {
-  byDepartement: Array<{ code_dep: string; departement: string; patrimoine: number; pepite: number; plage: number; rando: number; total: number }>;
-  byType: { patrimoine: number; pepite: number; plage: number; rando: number; total: number };
+  byDepartement: Array<{ code_dep: string; departement: string; patrimoine: number; plage: number; rando: number; total: number }>;
+  byType: { patrimoine: number; plage: number; rando: number; total: number };
 };
 
 /**
@@ -151,7 +150,7 @@ export type LieuxStats = {
  */
 export function getLieuxStats(): LieuxStats {
   try {
-    if (!fs.existsSync(XLSX_PATH)) return { byDepartement: [], byType: { patrimoine: 0, pepite: 0, plage: 0, rando: 0, total: 0 } };
+    if (!fs.existsSync(XLSX_PATH)) return { byDepartement: [], byType: { patrimoine: 0, plage: 0, rando: 0, total: 0 } };
 
     const buffer = fs.readFileSync(XLSX_PATH);
     const workbook = XLSX.read(buffer, { type: "buffer" });
@@ -166,34 +165,27 @@ export function getLieuxStats(): LieuxStats {
     };
 
     const patrimoine = countSheet("Patrimoine");
-    const pepites = countSheet("Pépites");
     const plages = countSheet("Plages");
     const randos = countSheet("Randos");
 
-    const depMap = new Map<string, { departement: string; patrimoine: number; pepite: number; plage: number; rando: number }>();
+    const depMap = new Map<string, { departement: string; patrimoine: number; plage: number; rando: number }>();
 
     for (const p of patrimoine) {
       const key = p.code_dep || "?";
       let d = depMap.get(key);
-      if (!d) { d = { departement: p.departement, patrimoine: 0, pepite: 0, plage: 0, rando: 0 }; depMap.set(key, d); }
+      if (!d) { d = { departement: p.departement, patrimoine: 0, plage: 0, rando: 0 }; depMap.set(key, d); }
       d.patrimoine++;
-    }
-    for (const p of pepites) {
-      const key = p.code_dep || "?";
-      let d = depMap.get(key);
-      if (!d) { d = { departement: p.departement, patrimoine: 0, pepite: 0, plage: 0, rando: 0 }; depMap.set(key, d); }
-      d.pepite++;
     }
     for (const p of plages) {
       const key = p.code_dep || "?";
       let d = depMap.get(key);
-      if (!d) { d = { departement: p.departement, patrimoine: 0, pepite: 0, plage: 0, rando: 0 }; depMap.set(key, d); }
+      if (!d) { d = { departement: p.departement, patrimoine: 0, plage: 0, rando: 0 }; depMap.set(key, d); }
       d.plage++;
     }
     for (const r of randos) {
       const key = r.code_dep || "?";
       let d = depMap.get(key);
-      if (!d) { d = { departement: r.departement, patrimoine: 0, pepite: 0, plage: 0, rando: 0 }; depMap.set(key, d); }
+      if (!d) { d = { departement: r.departement, patrimoine: 0, plage: 0, rando: 0 }; depMap.set(key, d); }
       d.rando++;
     }
 
@@ -202,25 +194,23 @@ export function getLieuxStats(): LieuxStats {
         code_dep,
         departement: d.departement,
         patrimoine: d.patrimoine,
-        pepite: d.pepite,
         plage: d.plage,
         rando: d.rando,
-        total: d.patrimoine + d.pepite + d.plage + d.rando,
+        total: d.patrimoine + d.plage + d.rando,
       }))
       .filter((d) => d.code_dep && d.code_dep !== "?")
       .sort((a, b) => a.code_dep.localeCompare(b.code_dep));
 
     const byType = {
       patrimoine: patrimoine.length,
-      pepite: pepites.length,
       plage: plages.length,
       rando: randos.length,
-      total: patrimoine.length + pepites.length + plages.length + randos.length,
+      total: patrimoine.length + plages.length + randos.length,
     };
 
     return { byDepartement, byType };
   } catch (e) {
     console.warn("getLieuxStats:", e);
-    return { byDepartement: [], byType: { patrimoine: 0, pepite: 0, plage: 0, rando: 0, total: 0 } };
+    return { byDepartement: [], byType: { patrimoine: 0, plage: 0, rando: 0, total: 0 } };
   }
 }

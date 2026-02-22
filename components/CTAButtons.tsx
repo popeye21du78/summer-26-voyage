@@ -21,7 +21,7 @@ const buttonImageStyle = (imageUrl: string) => ({
 export default function CTAButtons() {
   return (
     <section
-      className="flex flex-row flex-nowrap items-center justify-center gap-6 pt-10"
+      className="flex flex-row flex-wrap items-center justify-center gap-6 pt-10"
       aria-label="Accès à l'application"
     >
       <Link
@@ -38,6 +38,23 @@ export default function CTAButtons() {
           style={{ fontFamily: "var(--font-ibm-plex-mono), monospace" }}
         >
           Se connecter
+        </span>
+      </Link>
+
+      <Link
+        href="/maintenance"
+        className="relative inline-flex h-[100px] w-[320px] shrink-0 items-center justify-center overflow-hidden transition hover:opacity-90"
+      >
+        <span
+          className="absolute inset-0 z-0"
+          style={buttonImageStyle("/bouton-orange.png")}
+          aria-hidden
+        />
+        <span
+          className="relative z-10 px-2 text-center font-mono text-[15px] font-normal leading-tight text-[#2c221c]"
+          style={{ fontFamily: "var(--font-ibm-plex-mono), monospace" }}
+        >
+          Maintenance
         </span>
       </Link>
 

@@ -18,14 +18,10 @@ export default function RecapLieuxPage() {
         <h2 className="mb-3 text-lg font-medium text-[#333333]">
           Par catégorie
         </h2>
-        <div className="grid grid-cols-2 gap-3 sm:grid-cols-5">
+        <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
           <div className="rounded-lg border border-[#A55734]/20 bg-white p-4 text-center">
             <div className="text-2xl font-semibold text-[#a8987a]">{stats.byType.patrimoine}</div>
             <div className="text-sm text-[#333333]/80">Patrimoine</div>
-          </div>
-          <div className="rounded-lg border border-[#A55734]/20 bg-white p-4 text-center">
-            <div className="text-2xl font-semibold text-[#6b8e6b]">{stats.byType.pepite}</div>
-            <div className="text-sm text-[#333333]/80">Pépites</div>
           </div>
           <div className="rounded-lg border border-[#A55734]/20 bg-white p-4 text-center">
             <div className="text-2xl font-semibold text-[#4a90d9]">{stats.byType.plage}</div>
@@ -53,7 +49,6 @@ export default function RecapLieuxPage() {
                 <th className="px-4 py-3 font-medium text-[#333333]">Code</th>
                 <th className="px-4 py-3 font-medium text-[#333333]">Département</th>
                 <th className="px-4 py-3 text-center font-medium text-[#333333]">Patrimoine</th>
-                <th className="px-4 py-3 text-center font-medium text-[#333333]">Pépites</th>
                 <th className="px-4 py-3 text-center font-medium text-[#333333]">Plages</th>
                 <th className="px-4 py-3 text-center font-medium text-[#333333]">Randos</th>
                 <th className="px-4 py-3 text-center font-medium text-[#333333]">Total</th>
@@ -62,7 +57,7 @@ export default function RecapLieuxPage() {
             <tbody>
               {stats.byDepartement.length === 0 ? (
                 <tr>
-                  <td colSpan={7} className="px-4 py-6 text-center text-[#333333]/60">
+                  <td colSpan={6} className="px-4 py-6 text-center text-[#333333]/60">
                     Aucun lieu dans lieux-central.xlsx pour l’instant.
                   </td>
                 </tr>
@@ -75,7 +70,6 @@ export default function RecapLieuxPage() {
                     <td className="px-4 py-2 font-mono text-[#333333]">{d.code_dep}</td>
                     <td className="px-4 py-2 text-[#333333]">{d.departement}</td>
                     <td className="px-4 py-2 text-center text-[#333333]">{d.patrimoine}</td>
-                    <td className="px-4 py-2 text-center text-[#333333]">{d.pepite}</td>
                     <td className="px-4 py-2 text-center text-[#333333]">{d.plage}</td>
                     <td className="px-4 py-2 text-center text-[#333333]">{d.rando}</td>
                     <td className="px-4 py-2 text-center font-medium text-[#333333]">{d.total}</td>

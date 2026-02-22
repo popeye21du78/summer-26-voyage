@@ -1,8 +1,8 @@
 /**
- * Types pour les lieux issus de lieux-central.xlsx (patrimoine, pépites, plages, randos).
- * Compatible avec l’affichage carte (id, nom, slug, lat, lng, departement).
+ * Types pour les lieux issus de lieux-central.xlsx (patrimoine, plages, randos).
+ * v4 : fusion patrimoine+pépites, 3 types uniquement.
  */
-export type LieuType = "patrimoine" | "pepite" | "plage" | "rando";
+export type LieuType = "patrimoine" | "plage" | "rando";
 
 export interface LieuPoint {
   id: string;

@@ -19,6 +19,16 @@ npx tsx scripts/create-lieux-central-xlsx.ts
 - **data-villes.xlsx** : ancienne source, remplacée par `lieux-central.xlsx`. Tu peux le supprimer ou le garder en archive.
 - **cities-maitre.csv** : copie de l’ancien workflow ; plus utilisé par l’app.
 
+## Génération des données (patrimoine, plages, randos)
+
+→ Voir **`docs/RECAP-DECISIONS-DATA-BATCH.md`** pour le plan batch Phase 1 et les décisions associées.
+
+Script actuel (sync, 1 département à la fois) :
+
+```bash
+npx tsx scripts/generate-departement.ts 24   # ex. Dordogne
+```
+
 ## Enrichissement (lat, lng, population, description)
 
 ```bash
@@ -30,3 +40,18 @@ npx tsx scripts/enrich-lieux-central.ts
 - **Wikipedia** : extrait FR → `description_courte` si vide (Patrimoine, Pépites).
 
 Cache : `data/cities/geocode-cache-lieux.json` (évite de rappeler Mapbox pour les mêmes lieux).
+
+## Export CSV
+
+Pour générer des fichiers CSV à partir de l’Excel (upload agent, parsers, etc.) :
+
+```bash
+npx tsx scripts/export-lieux-central-to-csv.ts
+```
+
+Génère dans `data/cities/` :
+- **patrimoine.csv**, **plages.csv**, **randos.csv** — un fichier par onglet
+- **lieux-central.csv** — CSV unifié avec colonne `source_type` (patrimoine | plage | rando), lat/lng normalisés
+- **lieux-central.json** — JSON unifié `{ lieux: [...] }` pour assistants/agents (format supporté par la plupart des plateformes)
+
+Options : `--unified` (CSV unifié + JSON), `--sheets` (uniquement les 3 CSV par onglet), `--json` (uniquement lieux-central.json).

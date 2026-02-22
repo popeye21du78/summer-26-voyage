@@ -26,7 +26,10 @@ export async function geocodeCity(
     url.searchParams.set("country", "fr");
     url.searchParams.set("limit", "1");
 
-    const res = await fetch(url.toString());
+    const ctrl = new AbortController();
+    const to = setTimeout(() => ctrl.abort(), 15000);
+    const res = await fetch(url.toString(), { signal: ctrl.signal });
+    clearTimeout(to);
     if (!res.ok) return null;
 
     const data = (await res.json()) as {

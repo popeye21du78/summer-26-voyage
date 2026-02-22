@@ -1,24 +1,28 @@
-# Classement des départements (Passe 1)
+# Données départementales (Passe 1 + profils)
 
-Le fichier **classement.json** contient le tier d'attractivité patrimoniale de chaque département métropolitain (S, A, B, C, D). Il est généré par :
+## classement.json
+
+Tier d'attractivité **patrimoniale** de chaque département (S, A, B, C, D). Généré par :
 
 ```bash
 npx tsx scripts/classify-departements.ts
 ```
 
-## Structure
+Structure : `classement` = tableau de `{ code, departement, tier }`.
 
-- **generatedAt** : date de génération
-- **usage** : tokens consommés (OpenAI)
-- **classement** : tableau de `{ code, departement, tier }`
+## profils-cotiers.json
 
-## Réutilisation pour la Passe 2
+Profil **côtier** par département (littoral, type de côte, nb plages, surf, criques, lacs). Rempli manuellement à partir du prompt Gemini (voir `docs/prompt-gemini-profils-cotiers.md`). Le script Passe 2 lit uniquement la ligne du département demandé.
 
-Lors de la génération par département (Passe 2), le script doit :
+## profils-randos.json
 
-1. Lire `data/departements/classement.json`
-2. Pour chaque département à générer, récupérer son **tier**
-3. Appliquer la table des effectifs selon le tier (ex. S → 45–50 patrimoine, A → 30–40, etc.)
-4. Injecter dans le prompt : `TIER`, `NB_PATRIMOINE`, `NB_PEPITES`, `NB_PLAGES`, `NB_RANDOS`
+Profil **rando** par département (tier rando, type, nb_randos, D+ typique). Rempli manuellement à partir du prompt Gemini (voir `docs/prompt-gemini-profils-randos.md`). Départements en tier D → 0 rando demandée.
 
-Ainsi on ne refait jamais la classification : on la charge une fois et on l’utilise pour tous les appels Passe 2.
+## Réutilisation (Passe 2)
+
+Pour chaque département à générer, le script :
+
+1. Lit `classement.json` → tier patrimoine, nom
+2. Lit `profils-cotiers.json` → nb_plages (ou 0), contexte plages
+3. Lit `profils-randos.json` → nb_randos (ou 0), contexte randos
+4. Remplit le prompt à trous avec ces seules données (pas les 95 autres départements)

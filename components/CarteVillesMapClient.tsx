@@ -11,7 +11,6 @@ const CitiesMapView = dynamic(
 
 const TYPE_LABELS: Record<LieuType, string> = {
   patrimoine: "Patrimoine",
-  pepite: "Pépites",
   plage: "Plages",
   rando: "Randos",
 };
@@ -30,7 +29,6 @@ export default function CarteVillesMapClient({
   const [selectedCodeDep, setSelectedCodeDep] = useState<string>("");
   const [typesVisible, setTypesVisible] = useState<Record<LieuType, boolean>>({
     patrimoine: true,
-    pepite: true,
     plage: true,
     rando: true,
   });

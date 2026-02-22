@@ -26,7 +26,10 @@ export async function getWikipediaExtract(
     url.searchParams.set("origin", "*");
 
     try {
-      const res = await fetch(url.toString());
+      const ctrl = new AbortController();
+      const to = setTimeout(() => ctrl.abort(), 10000);
+      const res = await fetch(url.toString(), { signal: ctrl.signal });
+      clearTimeout(to);
       if (!res.ok) continue;
 
       const data = (await res.json()) as {

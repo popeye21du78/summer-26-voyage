@@ -29,7 +29,10 @@ export async function getCommuneByCoord(
       "nom,codeDepartement,departement,population"
     );
 
-    const res = await fetch(url.toString());
+    const ctrl = new AbortController();
+    const to = setTimeout(() => ctrl.abort(), 10000);
+    const res = await fetch(url.toString(), { signal: ctrl.signal });
+    clearTimeout(to);
     if (!res.ok) return null;
 
     const data = (await res.json()) as Array<{

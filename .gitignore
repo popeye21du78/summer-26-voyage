@@ -39,3 +39,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# batch (générés par les scripts)
+data/batch/*.jsonl
+data/batch/batch_id*.txt
+data/batch/batch_meta*.json

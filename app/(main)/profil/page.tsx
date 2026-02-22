@@ -5,16 +5,19 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { UserCog, ArrowLeft } from "lucide-react";
 import { getQuizStorageKey } from "../../../data/test-profiles";
+import QuizIdentite from "../../../components/QuizIdentite";
+import type { QuizIdentiteAnswers } from "../../../data/quiz-types";
 
 /**
- * Page "Modifier ma perso" : quiz de personnalité (à venir).
- * Phase test : placeholder + enregistrement des réponses dans localStorage par profil.
+ * Page "Modifier ma perso" : quiz d'identité du voyageur.
+ * Phase test : localStorage par profil.
  */
 export default function ProfilPage() {
   const router = useRouter();
   const [profile, setProfile] = useState<{ profileId: string; name: string } | null>(null);
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
+  const [initialAnswers, setInitialAnswers] = useState<Partial<QuizIdentiteAnswers>>({});
 
   useEffect(() => {
     fetch("/api/me")
@@ -26,7 +29,21 @@ export default function ProfilPage() {
         return res.json();
       })
       .then((data) => {
-        if (data) setProfile(data);
+        if (data) {
+          setProfile(data);
+          const key = getQuizStorageKey(data.profileId);
+          if (typeof window !== "undefined") {
+            try {
+              const stored = window.localStorage.getItem(key);
+              if (stored) {
+                const parsed = JSON.parse(stored);
+                if (parsed?.answers) setInitialAnswers(parsed.answers);
+              }
+            } catch {
+              // ignorer
+            }
+          }
+        }
         setLoading(false);
       })
       .catch(() => {
@@ -35,14 +52,14 @@ export default function ProfilPage() {
       });
   }, [router]);
 
-  function handleSave() {
+  function handleSave(answers: QuizIdentiteAnswers) {
     if (!profile) return;
     setSaving(true);
     const key = getQuizStorageKey(profile.profileId);
     const payload = {
       profileId: profile.profileId,
       updatedAt: new Date().toISOString(),
-      answers: {}, // à remplir quand le quiz existera
+      answers,
     };
     if (typeof window !== "undefined") {
       window.localStorage.setItem(key, JSON.stringify(payload));
@@ -73,32 +90,21 @@ export default function ProfilPage() {
         <ArrowLeft className="h-4 w-4" aria-hidden />
         Retour à l&apos;accueil
       </Link>
-      <div className="flex items-center gap-3 mb-6">
+      <div className="mb-6 flex items-center gap-3">
         <UserCog className="h-8 w-8 text-[#A55734]" aria-hidden />
         <h1 className="text-2xl font-light text-[#333333]">Modifier ma perso</h1>
       </div>
-      <p className="mb-4 text-[#333333]/80">
-        Connecté en tant que <strong>{profile.name}</strong>. Les réponses que tu
-        enregistres ici sont associées à ce profil (phase de test).
+      <p className="mb-6 text-[#333333]/80">
+        Connecté en tant que <strong>{profile.name}</strong>. Les réponses sont
+        associées à ce profil (phase de test). On en fera une &quot;personnalité&quot;
+        du voyageur pour adapter tes itinéraires.
       </p>
-      <div className="rounded-lg border border-[#A55734]/30 bg-[#FFF2EB]/50 p-6 text-[#333333]/80">
-        <p className="mb-4">
-          Le quiz de personnalité du voyageur arrivera ici. En fonction de tes
-          réponses, on construira une &quot;personnalité&quot; (ex. 16 types sur 4 axes).
-        </p>
-        <p className="mb-6 text-sm">
-          Pour l&apos;instant, tu peux cliquer sur &quot;Enregistrer mes réponses&quot; pour
-          valider la structure : les données seront stockées pour ce profil et tu
-          seras redirigé vers l&apos;accueil.
-        </p>
-        <button
-          type="button"
-          onClick={handleSave}
-          disabled={saving}
-          className="rounded-lg bg-[#A55734] px-4 py-3 font-medium text-white transition hover:bg-[#8b4728] disabled:opacity-50"
-        >
-          {saving ? "Enregistrement…" : "Enregistrer mes réponses"}
-        </button>
+      <div className="rounded-lg border border-[#A55734]/30 bg-[#FFF2EB]/30 p-6">
+        <QuizIdentite
+          initialAnswers={initialAnswers}
+          onSave={handleSave}
+          saving={saving}
+        />
       </div>
     </main>
   );

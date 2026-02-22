@@ -1,226 +1,163 @@
 /**
- * Template du prompt Passe 2 (génération par département) — v3.
- * Ancrage Guide Vert, noms géocodables, pépites = petites communes,
- * nom_geocodage pour plages, sites isolés autorisés, PBVF dans JSON.
+ * Template du prompt Passe 2 (génération par département) — v7.
+ * PBVF injectés en amont. GPT score les PBVF (8-10) et complète le delta.
+ * Randos retirées du prompt (100% Overpass).
  */
-export function getPromptPasse2(params: {
-  nomDepartement: string;
-  code: string;
-  tier: string;
-  nbPatrimoine: number;
-  nbPepites: number;
-  nbPlages: number;
-  nbRandos: number;
-}): string {
+
+import type { ContexteDepartement } from "../lib/profils-departement";
+
+export function getPromptPasse2(
+  ctx: ContexteDepartement,
+  pbvfNames: string[] = [],
+  nbComplement?: number,
+): string {
   const {
-    nomDepartement,
     code,
+    nomDepartement,
     tier,
     nbPatrimoine,
-    nbPepites,
+    nbPepitesMin,
+    cotier,
     nbPlages,
-    nbRandos,
-  } = params;
+  } = ctx;
 
-  return `Tu es un expert en patrimoine, urbanisme, géographie et tourisme en France. Tu produis des données structurées pour alimenter un algorithme de génération d'itinéraires de voyage. Tes notes sont sur une ÉCHELLE NATIONALE ABSOLUE : un 7 dans la Creuse doit représenter le même niveau de beauté qu'un 7 dans le Lot.
+  const sectionPlages = buildSectionPlages(nbPlages, cotier);
+  const complement = nbComplement ?? nbPatrimoine;
+  const hasPbvf = pbvfNames.length > 0;
 
-## TA MISSION
-Analyser le département ${nomDepartement} (${code}), classé TIER ${tier} en attractivité patrimoniale nationale, et produire son inventaire complet.
+  const pbvfSection = hasPbvf
+    ? `
+## PLUS BEAUX VILLAGES DE FRANCE (DÉJÀ INCLUS)
 
-Nombre d'entrées attendues selon le tier :
-- patrimoine : ${nbPatrimoine} entrées (ni plus, ni moins)
-- pepites_hors_radar : ${nbPepites} entrées
-- plages : ${nbPlages} entrées (ou tableau vide [] si non côtier et sans lac majeur)
-- randonnees : ${nbRandos} entrées (minimum 5 même si département plat)
+Les ${pbvfNames.length} villages suivants sont des PBVF officiels de ce département. Ils sont DÉJÀ INCLUS dans le total patrimoine. **NE LES INCLUS PAS dans "patrimoine".**
 
-## RÈGLES ABSOLUES
+${pbvfNames.map((n, i) => `${i + 1}. ${n}`).join("\n")}
 
-1. **Échelle nationale ABSOLUE** : tes notes doivent être cohérentes avec les exemples et l'ancrage Guide Vert ci-dessous. Un département de tier C peut n'avoir AUCUN lieu au-dessus de 7/10.
+Pour chacun, fournis dans **"patrimoine_pbvf"** : score_esthetique (8, 9 ou 10 UNIQUEMENT), score_notoriete, tags_architecture, tags_cadre, description_courte (1-2 phrases), activites_notables.
+`
+    : "";
 
-2. **Noms géocodables — DEUX CATÉGORIES AUTORISÉES** :
-   a) **Communes** : le NOM OFFICIEL DE LA COMMUNE (pas un monument, pas un massif, pas un nom poétique). Exemples corrects : "Gordes", "Les Baux-de-Provence", "Cassis". Exemples INTERDITS : "Lavande à Sénanque", "Les Alpilles".
-   b) **Sites isolés** : abbayes, châteaux, forteresses ISOLÉS (pas dans une ville déjà listée), À CONDITION que leur nom soit géocodable par Mapbox. Pour ces sites, ajoute le champ "nom_geocodage" avec le nom + commune la plus proche (ex: "Abbaye de Sénanque, Gordes"). Exemples corrects : "Abbaye de Sénanque", "Château de Bonaguil", "Abbaye de Fontfroide". Exemples INTERDITS : "Abbaye de Saint-Victor" (dans Marseille → va dans activites_notables de Marseille).
+  return `Tu es un expert en patrimoine et tourisme en France. Tu produis des données structurées. Suis EXACTEMENT le workflow ci-dessous.
 
-3. **Qu'est-ce qui mérite sa propre ligne ?** "Est-ce que quelqu'un ferait un détour exprès pour ce lieu ?" Si oui → une ligne. Tout monument, musée, cathédrale, église DANS une ville déjà listée → dans activites_notables de cette ville, PAS en ligne séparée.
+## WORKFLOW OBLIGATOIRE (respecte l'ordre)
 
-4. **Pepites = PETITES COMMUNES uniquement** : les pépites hors radar doivent être des VILLAGES ou PETITS BOURGS méconnus (population < 10 000 habitants), pas des massifs, des régions, des monuments ou des quartiers de grande ville. Chaque pépite doit être une commune française existante, géocodable.
+**Étape 1 — Sélection** : Établis la liste des ${complement} lieux les PLUS REMARQUABLES du département (communes ou sites isolés)${hasPbvf ? ` EN EXCLUANT les ${pbvfNames.length} PBVF listés ci-dessous (ils sont déjà pris en charge)` : ""}. Trie mentalement par importance patrimoniale et beauté. Si tu en as 40 en tête, GARDE UNIQUEMENT les ${complement} meilleurs.
 
-5. **Tags issus de listes fermées** : utilise UNIQUEMENT les tags autorisés.
+**Étape 2 — Barème esthétique** : Pour chaque lieu retenu, applique STRICTEMENT le barème score_esthetique ci-dessous (référentiel national). Ne devine pas : un lieu exceptionnel = 10, un bourg modeste = 5 ou 6.
 
-6. **JSON valide** : ta réponse doit être UNIQUEMENT un objet JSON valide, sans texte avant ni après.
+**Étape 3 — Score notoriété** : Pour chaque lieu, attribue score_notoriete selon la règle : 1 = connu mondialement, 10 = quasi inconnu du grand public.
 
-7. **Précision** : chaque nom doit être EXACT (orthographe officielle). Ne jamais inventer un lieu qui n'existe pas. En cas de doute, ne pas inclure.
+**Étape 4 — Tags** : Attribue tags_cadre et tags_architecture (listes fermées ci-dessous).
+${hasPbvf ? "\n**Étape 5 — Scoring PBVF** : Pour chaque PBVF listé, attribue un score_esthetique (8, 9 ou 10 uniquement), score_notoriete, tags et description dans \"patrimoine_pbvf\"." : ""}
 
-8. **type_precis** : utilise des libellés soignés en français correct. Exemples autorisés : "Capitale de l'aéronautique", "Ville d'Art et d'Histoire", "Cité médiévale", "Plus Beaux Villages de France", "Village perché", "Bastide royale", "Cité épiscopale", "Abbaye cistercienne isolée", "Château fort isolé", "Station balnéaire", "Village fortifié", "Bourg médiéval". ATTENTION à l'orthographe : "Capitale" prend un e.
+## DÉPARTEMENT
+${nomDepartement} (${code}), tier ${tier}.
+${pbvfSection}
+## NOMBRES EXACTS À PRODUIRE
+- patrimoine : **exactement ${complement} entrées** (ni plus ni moins)${hasPbvf ? ` — ce sont les ${complement} MEILLEURS LIEUX HORS PBVF` : ""}. Parmi elles, au moins ${nbPepitesMin} avec score_notoriete >= 7 (villages méconnus).${hasPbvf ? `\n- patrimoine_pbvf : **${pbvfNames.length} entrées** (scores et tags des PBVF ci-dessus).` : ""}
+${nbPlages > 0 ? `- plages : **${nbPlages} entrées**.` : "- plages : ce département n'a pas de littoral/lac notable. Produis un tableau vide [] pour \"plages\"."}
 
-## ANCRAGE GUIDE VERT MICHELIN — RÈGLE DE CALIBRATION
+## BARÈME score_esthetique (APPLIQUE-LE STRICTEMENT — OPTIQUE VACANCES)
 
-Utilise le Guide Vert Michelin comme ancrage de BASE pour le score_esthetique :
-- 3 étoiles Guide Vert ("vaut le voyage") = score 9 ou 10
-- 2 étoiles Guide Vert ("mérite un détour") = score 7 ou 8
-- 1 étoile Guide Vert ("intéressant") = score 5 ou 6
-- Non classé = score 3 ou 4 si charme réel
+Référentiel NATIONAL, perspective VACANCES EN VAN. Ce qui compte : la beauté du lieu pour un voyageur, PAS la taille de la ville. Un 7 en Creuse = même niveau qu'un 7 dans le Lot. Une métropole sans charme touristique vaut 4-5, même si elle est grande.
 
-Tu peux ajuster de ±1 selon ta connaissance fine, mais NE T'ÉCARTE JAMAIS de plus de 1 point de cette grille.
+**10 — Exception mondiale** : UNESCO, densité monumentale unique, paysage iconique. Un voyageur y passe 2-3 jours émerveillé.
+- Arles = 10, Les Baux-de-Provence = 10, Marseille = 10.
+- Paris, Toulouse, Lyon, Bordeaux, Strasbourg, Sarlat, Carcassonne, Colmar, Nice, Avignon, Versailles, La Rochelle, Cannes = 10.
 
-Règles complémentaires :
-- Tout site inscrit au PATRIMOINE MONDIAL UNESCO = minimum 8 en esthétique.
-- **GRANDES MÉTROPOLES françaises** = évalue le MEILLEUR quartier historique, pas la moyenne. Voici les scores de référence OBLIGATOIRES :
-  - Toulouse (Capitole, Saint-Sernin, Jacobins, brique rose) = **10**
-  - Marseille (Le Panier, Vieux-Port, Notre-Dame, Mucem, calanques) = **10**
-  - Lyon (Vieux Lyon, Fourvière, Presqu'île, UNESCO) = **10**
-  - Bordeaux (Port de la Lune, Place de la Bourse, UNESCO) = **10**
-  - Strasbourg (Grande Île, Petite France, cathédrale, UNESCO) = **10**
-  - Rouen (centre médiéval, cathédrale, Gros-Horloge) = **9**
-  - Nantes (château des Ducs, île de Nantes, Machines) = **8**
-  - Montpellier (Écusson, Promenade du Peyrou) = **8**
-  Si le département contient l'une de ces villes, APPLIQUE le score indiqué.
+**9 — Remarquable** : destination vacances majeure, excellente préservation.
+- Nantes, Pau, Nîmes, Metz, Béziers = 9. Tous les PBVF = 8 à 10.
 
-## CLASSEMENT INTERNE OBLIGATOIRE
+**8 — Cité de caractère** : forte identité, destination vacances plaisante.
+- Aix-en-Provence, Annecy, Lille, Toulon, Angers, Orléans = 8.
 
-AVANT de noter, tu DOIS effectuer un classement interne du département. Détermine mentalement quel lieu est #1, #2, #3 en esthétique. Assure-toi que :
-- Le lieu #1 a la note la plus haute
-- L'ordre est strictement respecté dans les scores
-- Un port de plaisance (Cassis) ne peut PAS être au-dessus d'une cité historique majeure (Arles)
-- Un village pittoresque (7) ne surpasse pas une cité UNESCO (9-10)
+**7 — Grand intérêt** : patrimoine réel mais pas une destination vacances majeure.
+- Perpignan, Dijon, Besançon, Mulhouse, Antibes, Troyes, Valence, Hyères, Fréjus, Narbonne, Ajaccio = 7.
 
-## ÉCHELLE ESTHÉTIQUE — RÉFÉRENTIEL NATIONAL CORRIGÉ
+**5-6 — Intérêt partiel** : 1-2 points d'intérêt, globalement peu attractif pour des vacances.
+- Montpellier = 6, Clermont-Ferrand = 6, Reims = 6, Rouen = 6, Caen = 6, Nancy = 6.
+- Rennes = 5, Poitiers = 5, Limoges = 5, Chambéry = 5.
 
-10 — EXCEPTION MONDIALE : densité monumentale unique, UNESCO, unité totale. Exemples : Sarlat, Colmar, cité de Carcassonne, Arles, Les Baux-de-Provence, Marseille, Toulouse, Lyon, Bordeaux, Strasbourg.
-9 — SOMMET NATIONAL : harmonie parfaite, panorama iconique. Exemples : Gordes, Saint-Cirq-Lapopie, Rocamadour, Aigues-Mortes, Aix-en-Provence, Conques, Rouen, Cordes-sur-Ciel.
-8 — CITÉ DE CARACTÈRE : forte identité, excellente préservation. Exemples : Uzès, Pérouges, Salers, Nantes, Montpellier.
-7 — GRAND INTÉRÊT : beau patrimoine mais dilué ou partiel. Exemples : Périgueux, Figeac, Cassis, Martigues.
-6 — BEAU BOURG : un monument phare et quelques rues anciennes. Exemples : Aubenas, Lectoure, Salon-de-Provence.
-5 — INTÉRÊT PONCTUEL : bourg structuré avec éléments notables.
-4 à 1 — CHARME DISCRET à SANS INTÉRÊT.
+**3-4 — Ville fonctionnelle** : PAS une destination vacances. Ne pas surévaluer une ville juste parce qu'elle est grande.
+- Saint-Étienne = 4, Le Mans = 4, Tours = 4, Chartres = 4.
+- Brest = 3, Grenoble = 2, Lorient = 3.
 
-IMPORTANT : un département de tier C ou D peut très bien avoir son meilleur lieu à 6 ou 7. Ne force pas des 8 ou 9 là où il n'y en a pas.
+**RÈGLE CRITIQUE** : être une grande ville NE DONNE PAS un score élevé. Bordeaux = 10 car le centre est sublime. Grenoble = 2 car le centre n'a rien de remarquable pour un vacancier.
 
-## LISTES DE TAGS AUTORISÉS
+## BARÈME score_notoriete (ANTI-HALLUCINATION)
 
-tags_architecture (0 à 5 par lieu) : roman, gothique, renaissance, baroque, classique, art_deco, belle_epoque, medieval, colombages, pierres_blanches, pierres_dorees, brique, ardoise, granit, schiste, tuffeau, gres_rose, gres_rouge, basque, provencal, alsacien, breton, normand, savoyard, occitan, corse, catalan, flamand, fortifie, perche, troglodyte, bastide, castral, port_peche, station_balneaire, cite_thermale, cite_episcopale, cite_abbatiale, lavogne, calade
+- **1–2** : Carte postale mondiale (Mont-Saint-Michel, Carcassonne, Les Baux).
+- **3–4** : Très connu (Gordes, Eze, Cassis).
+- **5–6** : Connu des amateurs de la région.
+- **7–8** : Méconnu du grand public.
+- **9–10** : Quasi inconnu. **Exemple : Fuveau = 9 ou 10, pas 7.** Soit c'est connu (1–6), soit c'est méconnu (9–10).
 
-tags_ambiance (0 à 5 par lieu) : mer, montagne, campagne, foret, riviere, lac, vignoble, gorges, falaise, marais, littoral, colline, plateau, garrigue, maquis, plaine, panorama, calme, anime, festif, marche, gastronomie, patrimoine_mondial, monument_historique, famille, romantique, sauvage, authentique, hors_sentiers
+## RÈGLES GÉNÉRALES
 
-types_plage (1 parmi) : sable_fin, sable, galets, crique, rochers, calanque, dune, estuaire, lac
+- Noms : NOM OFFICIEL de la commune ou du site. Sites isolés → "nom_geocodage" : "NomDuSite, Commune".
+- Une ligne = un lieu. Monuments dans une ville déjà listée → dans activites_notables.
+- plus_beaux_villages : true UNIQUEMENT si PBVF officiel. Sinon false.
+- JSON valide uniquement, sans texte avant ni après.
 
-niveaux_difficulte (1 parmi) : facile, modere, difficile, expert
+## TAGS AUTORISÉS
 
-## STRUCTURE JSON ATTENDUE (réponds UNIQUEMENT par ce JSON, rien d'autre)
+tags_architecture (0 à 5) : roman, gothique, renaissance, baroque, classique, art_deco, belle_epoque, medieval, colombages, pierres_blanches, pierres_dorees, brique, ardoise, granit, schiste, tuffeau, gres_rose, gres_rouge, basque, provencal, alsacien, breton, normand, savoyard, occitan, corse, catalan, flamand, fortifie, perche, troglodyte, bastide, castral, port_peche, station_balneaire, cite_thermale, cite_episcopale, cite_abbatiale, lavogne, calade
+
+tags_cadre (1 à 3) : bord_de_mer, proche_mer, arriere_pays_cotier, haute_montagne, moyenne_montagne, colline, plaine, village_perche, falaise, gorges, riviere, lac, foret, vignoble, garrigue, ile
+
+## STRUCTURE JSON ATTENDUE
 
 {
   "departement": "${nomDepartement}",
   "code": "${code}",
   "tier": "${tier}",
-  "specialites_culinaires": ["spécialité 1", "spécialité 2"],
-
+  "specialites_culinaires": ["spécialité 1", "spécialité 2"],${hasPbvf ? `
+  "patrimoine_pbvf": [
+    { "nom": "NomPBVF", "score_esthetique": 9, "score_notoriete": 5, "tags_architecture": ["tag1"], "tags_cadre": ["village_perche"], "description_courte": "1-2 phrases.", "activites_notables": ["..."] }
+  ],` : ""}
   "patrimoine": [
     {
-      "nom": "Nom OFFICIEL de la commune OU du site isolé (géocodable par Mapbox)",
-      "nom_geocodage": "Seulement pour sites isolés : nom + commune la plus proche. Ex: 'Abbaye de Sénanque, Gordes'. null pour les communes.",
-      "type_precis": "Ex: Ville d'Art et d'Histoire / Cité médiévale / Plus Beaux Villages de France / Abbaye cistercienne isolée",
+      "nom": "Nom officiel",
+      "nom_geocodage": "Pour sites isolés : 'Nom, Commune'. null pour communes.",
+      "type_precis": "Ex: Cité médiévale",
       "tags_architecture": ["tag1", "tag2"],
-      "tags_ambiance": ["tag1", "tag2"],
+      "tags_cadre": ["bord_de_mer", "village_perche"],
       "score_esthetique": 8,
-      "score_pepite": 3,
-      "score_rando_base": 4,
-      "score_mer": 0,
-      "score_montagne": 7,
-      "score_campagne": 5,
+      "score_notoriete": 4,
       "plus_beaux_villages": false,
-      "description_courte": "1-2 phrases. Atmosphère, ce qui rend le lieu unique.",
-      "specialite_culinaire": "Produit local ou null",
-      "activites_notables": ["Cathédrale X (gothique)", "Marché samedi", "Musée Y", "Abbaye Z à 5 min"]
+      "description_courte": "1-2 phrases.",
+      "activites_notables": ["Monument X", "Marché samedi"]
     }
   ],
-
-  "pepites_hors_radar": [
-    {
-      "nom": "Nom officiel d'une PETITE COMMUNE (< 10 000 hab, géocodable)",
-      "type_precis": "...",
-      "tags_architecture": [],
-      "tags_ambiance": [],
-      "score_esthetique": 6,
-      "score_pepite": 9,
-      "score_rando_base": 2,
-      "score_mer": 0,
-      "score_montagne": 0,
-      "score_campagne": 8,
-      "plus_beaux_villages": false,
-      "description_courte": "...",
-      "specialite_culinaire": null,
-      "activites_notables": []
-    }
-  ],
-
-  "plages": [
-    {
-      "nom": "Nom courant de la plage (ex: Plage de Pampelonne)",
-      "nom_geocodage": "Nom + commune pour géocodage Mapbox (ex: Plage de Pampelonne, Ramatuelle)",
-      "commune": "Commune officielle",
-      "proche_de_village": "Nom EXACT d'un lieu du patrimoine ou pepites",
-      "type_plage": "sable_fin",
-      "tags_ambiance": ["mer", "famille"],
-      "score_beaute": 8,
-      "score_baignade": 7,
-      "score_surf": 3,
-      "description_courte": "Accès, ambiance, particularité."
-    }
-  ],
-
-  "randonnees": [
-    {
-      "nom": "Nom exact du sentier ou sommet",
-      "depart_village": "Nom EXACT d'une COMMUNE existante de départ (géocodé à la place du nom du sentier).",
-      "difficulte": "modere",
-      "denivele_positif_m": 650,
-      "distance_km": 14,
-      "duree_estimee": "5h30",
-      "tags_ambiance": ["montagne", "panorama", "foret"],
-      "score_beaute_panorama": 9,
-      "score_esthetisme_trace": 8,
-      "description_courte": "Parcours, points forts, ce qu'on voit."
-    }
-  ],
-
-  "synthese_departement": "3-5 phrases. Forces et faiblesses pour un voyageur."
+  "plages": ${nbPlages > 0 ? `[
+    { "nom": "...", "nom_geocodage": "Plage, Commune", "commune": "...", "type_plage": "grande_plage | crique | calanque | plage_lac | estuaire", "surf": false, "naturiste": false, "familiale": true, "justification": "1-2 phrases." }
+  ]` : "[]"},
+  "synthese_departement": "3-5 phrases."
 }
 
-## CONSIGNES PAR SECTION
+## RAPPEL
+- **patrimoine : exactement ${complement} entrées${hasPbvf ? " (HORS PBVF)" : ""}.**
+- **score_esthetique** : barème strict (Arles, Les Baux = 10).
+- **score_notoriete** : inconnu = 9 ou 10, carte postale = 1 ou 2.
+${sectionPlages}
 
-### patrimoine (${nbPatrimoine} entrées)
-- Classés par score_esthetique DÉCROISSANT.
-- Chaque "nom" = nom officiel d'une commune française géocodable OU nom d'un site isolé géocodable.
-- Pour les SITES ISOLÉS (abbayes, châteaux hors village) : remplir "nom_geocodage" avec "NomDuSite, CommuneProche" pour le géocodage Mapbox. Pour les communes normales : "nom_geocodage" = null.
-- Les monuments majeurs d'une ville vont dans activites_notables.
-- N'hésite PAS à inclure 2-5 sites isolés majeurs du département (châteaux, abbayes, forteresses) s'ils méritent un détour. Ils comptent dans le total des ${nbPatrimoine} entrées.
-- score_rando_base : village urbain = 0-2, village pied de massif = 7-9.
-- score_pepite : 1 = carte postale nationale, 5 = connu des amateurs, 9-10 = quasi-inconnu.
-- score_mer / score_montagne / score_campagne : AMBIANCE et IDENTITÉ du lieu.
-- plus_beaux_villages : true si le lieu fait partie de la liste officielle des Plus Beaux Villages de France (176 villages en France). NE COCHE true QUE si tu es CERTAIN. En cas de doute, mets false (nous corrigerons automatiquement ensuite).
-- activites_notables : 3 à 5 choses incluant les monuments internes.
+Département à analyser : ${nomDepartement} (${code}). Réponds UNIQUEMENT par le JSON ci-dessus.`;
+}
 
-### pepites_hors_radar (${nbPepites} entrées)
-- UNIQUEMENT des petites communes (villages, bourgs < 10 000 hab).
-- Pas de massifs ("Les Alpilles"), pas de monuments ("Église X de Y"), pas de quartiers de ville.
-- score_pepite entre 7 et 10.
-- plus_beaux_villages : true/false selon la liste officielle.
-- Chaque nom doit être une commune existante, géocodable.
+function buildSectionPlages(nbPlages: number, cotier: ContexteDepartement["cotier"]): string {
+  if (nbPlages <= 0) return "";
 
-### plages (${nbPlages} entrées, ou [] si non applicable)
-- nom = nom courant (ex: "Plage de la Couronne").
-- nom_geocodage = nom + commune (ex: "Plage de la Couronne, Martigues") pour que Mapbox la trouve précisément.
-- proche_de_village = nom EXACT d'un lieu du patrimoine ou pepites.
+  const lines: string[] = [
+    "",
+    "### plages : " + nbPlages + " entrées. type_plage parmi : grande_plage, crique, calanque, plage_lac, estuaire. surf, naturiste, familiale en true/false. justification = 1-2 phrases.",
+    "**RÈGLE ABSOLUE : toutes les plages doivent être STRICTEMENT DANS le département traité.** Ne JAMAIS inclure de plage d'un département voisin, même si elle est célèbre. Exemple : si tu traites le 06, N'INCLUS PAS Cassis (13), Ramatuelle (83), etc.",
+  ];
 
-### randonnees (${nbRandos} entrées)
-- nom = nom du sentier/sommet.
-- depart_village = nom d'une COMMUNE RÉELLE de départ. C'est CE champ qui sera géocodé. NE PAS mettre le nom du sentier comme point de départ. Exemples :
-  - Calanques de Sugiton → depart_village = "Marseille"
-  - Sentier des Ocres → depart_village = "Rustrel"
-  - GR51 Corniche → depart_village = "Cassis"
-- denivele_positif_m, distance_km : valeurs RÉALISTES.
+  if (cotier) {
+    if (cotier.facade) lines.push("Littoral " + cotier.facade + ".");
+    if (cotier.criques) lines.push("Des criques sont attendues.");
+    if (cotier.surf) lines.push("Spots surf possibles : indique surf: true.");
+  }
 
-## DÉPARTEMENT À ANALYSER
-${nomDepartement} (${code}) — Tier ${tier}.
-Nombre attendu : ${nbPatrimoine} patrimoine, ${nbPepites} pépites, ${nbPlages} plages, ${nbRandos} randonnées.`;
+  return lines.join(" ");
 }
