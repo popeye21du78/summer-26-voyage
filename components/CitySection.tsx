@@ -103,7 +103,7 @@ function htmlWithCharSpans(html: string): string {
     if (text) {
       return text
         .split("")
-        .map((c) => `<span class="typewriter-char-stream" data-i="${i++}">${escapeChar(c)}</span>`)
+        .map((c: string) => `<span class="typewriter-char-stream" data-i="${i++}">${escapeChar(c)}</span>`)
         .join("");
     }
     return "";
@@ -142,7 +142,7 @@ function htmlWithTypewriterDelays(
     if (text) {
       return text
         .split("")
-        .map((c) => {
+        .map((c: string) => {
           const step = minMs + seededRandom(charIndex) * (maxMs - minMs);
           charIndex++;
           totalDelay += step;

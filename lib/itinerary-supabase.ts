@@ -1,7 +1,11 @@
 import { supabase } from "./supabase";
 import type { Step } from "../types";
+import type { Database } from "../types/supabase";
 
 export type NuiteeType = "van" | "passage" | "airbnb";
+
+type ItineraryDbRow = Database["public"]["Tables"]["itinerary"]["Row"];
+type ItineraryDbInsert = Database["public"]["Tables"]["itinerary"]["Insert"];
 
 export interface ItineraryRow {
   id: string;
@@ -28,12 +32,13 @@ export async function getItinerary(): Promise<ItineraryRow[]> {
     const { data, error } = await supabase
       .from("itinerary")
       .select("*")
-      .order("ordre", { ascending: true });
+      .order("ordre", { ascending: true })
+      .returns<ItineraryDbRow[]>();
     if (error) {
       console.error("Supabase getItinerary:", error.message, error.code, error.details);
       return [];
     }
-    return data ?? [];
+    return (data ?? []) as unknown as ItineraryRow[];
   } catch (e) {
     const err = e as Error;
     console.warn("Supabase getItinerary (réseau):", err.message);
@@ -106,7 +111,7 @@ export async function upsertItinerary(
         budget_culture: r.budget_culture ?? 0,
         budget_nourriture: r.budget_nourriture ?? 0,
         budget_nuitee: r.budget_nuitee ?? 0,
-      })),
+      }) satisfies ItineraryDbInsert),
       { onConflict: "step_id" }
     );
     if (error) return { ok: false, error: error.message };

@@ -9,6 +9,32 @@ export type Json =
 export interface Database {
   public: {
     Tables: {
+      city_sections: {
+        Row: {
+          id: string;
+          step_id: string;
+          section_type: string;
+          content: string;
+          place_rating: number | null;
+          created_at: string;
+          updated_at: string;
+        };
+        Insert: {
+          id?: string;
+          step_id: string;
+          section_type: string;
+          content?: string;
+          place_rating?: number | null;
+        };
+        Update: {
+          step_id?: string;
+          section_type?: string;
+          content?: string;
+          place_rating?: number | null;
+          updated_at?: string;
+        };
+        Relationships: [];
+      };
       book_sections: {
         Row: {
           id: string;
@@ -45,6 +71,7 @@ export interface Database {
           layout?: "single" | "grid2" | "grid3";
           updated_at?: string;
         };
+        Relationships: [];
       };
       itinerary: {
         Row: {
@@ -62,6 +89,7 @@ export interface Database {
           budget_culture: number;
           budget_nourriture: number;
           budget_nuitee: number;
+          photo_url: string | null;
           created_at: string;
           updated_at: string;
         };
@@ -80,6 +108,7 @@ export interface Database {
           budget_culture?: number;
           budget_nourriture?: number;
           budget_nuitee?: number;
+          photo_url?: string | null;
         };
         Update: {
           step_id?: string;
@@ -95,9 +124,15 @@ export interface Database {
           budget_culture?: number;
           budget_nourriture?: number;
           budget_nuitee?: number;
+          photo_url?: string | null;
           updated_at?: string;
         };
+        Relationships: [];
       };
     };
+    Views: Record<string, never>;
+    Functions: Record<string, never>;
+    Enums: Record<string, never>;
+    CompositeTypes: Record<string, never>;
   };
 }

@@ -1,5 +1,9 @@
 import { supabase } from "./supabase";
 import type { SectionType } from "./city-prompts";
+import type { Database } from "../types/supabase";
+
+type CitySectionDbRow = Database["public"]["Tables"]["city_sections"]["Row"];
+type CitySectionDbInsert = Database["public"]["Tables"]["city_sections"]["Insert"];
 
 export interface CitySectionRow {
   id: string;
@@ -19,7 +23,7 @@ export async function getCitySection(
     .select("*")
     .eq("step_id", stepId)
     .eq("section_type", sectionType)
-    .single();
+    .single<CitySectionDbRow>();
   if (error || !data) return null;
   return data;
 }
@@ -29,7 +33,8 @@ export async function getCityDiagnostic(stepId: string): Promise<number | null> 
   const { data } = await supabase
     .from("city_sections")
     .select("place_rating, section_type, content")
-    .eq("step_id", stepId);
+    .eq("step_id", stepId)
+    .returns<Pick<CitySectionDbRow, "place_rating" | "section_type" | "content">[]>();
   for (const row of data ?? []) {
     if (row.place_rating != null) return row.place_rating;
   }
@@ -38,7 +43,7 @@ export async function getCityDiagnostic(stepId: string): Promise<number | null> 
     .select("content")
     .eq("step_id", stepId)
     .eq("section_type", "diagnostic")
-    .single();
+    .single<Pick<CitySectionDbRow, "content">>();
   if (diag?.content) {
     const n = parseInt(diag.content, 10);
     if (n >= 1 && n <= 4) return n;
@@ -60,7 +65,7 @@ export async function upsertCitySection(
         section_type: sectionType,
         content,
         place_rating: placeRating ?? null,
-      },
+      } satisfies CitySectionDbInsert,
       { onConflict: "step_id,section_type" }
     );
     if (error) return { ok: false, error: error.message };
@@ -78,7 +83,8 @@ export async function getAllSectionsForStep(
   const { data } = await supabase
     .from("city_sections")
     .select("section_type, content")
-    .eq("step_id", stepId);
+    .eq("step_id", stepId)
+    .returns<Pick<CitySectionDbRow, "section_type" | "content">[]>();
   const out: Record<string, string> = {};
   const contentSections = ["en_quelques_mots", "point_historique", "bien_manger_boire", "arriver_van", "que_faire", "anecdote"];
   for (const row of data ?? []) {

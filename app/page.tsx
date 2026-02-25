@@ -42,12 +42,14 @@ export default function HomePage() {
       hold: HOLD_MS,
       cover: COVER_MS,
       bgFadeOut: BG_FADE_OUT_MS,
+      done: 0,
     };
     const nextPhase: Record<SplashPhase, SplashPhase> = {
       fadeIn: "hold",
       hold: "cover",
       cover: "bgFadeOut",
       bgFadeOut: "done",
+      done: "done",
     };
 
     const t = setTimeout(() => setSplashPhase(nextPhase[splashPhase]), phaseDuration[splashPhase]);

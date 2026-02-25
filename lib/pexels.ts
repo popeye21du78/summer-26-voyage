@@ -64,8 +64,11 @@ async function searchPexels(
     locale: "fr-FR",
   });
 
+  const headers: HeadersInit = {};
+  if (PEXELS_API_KEY) headers["Authorization"] = PEXELS_API_KEY;
+
   const res = await fetch(`https://api.pexels.com/v1/search?${params}`, {
-    headers: { Authorization: PEXELS_API_KEY },
+    headers,
     next: { revalidate: 86400 },
   });
 

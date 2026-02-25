@@ -1,10 +1,23 @@
 import { supabase } from "./supabase";
 import type { BookSection, BookSectionStyle } from "../types";
+import type { Database } from "../types/supabase";
+
+type BookSectionRow = Database["public"]["Tables"]["book_sections"]["Row"];
 
 function normalizePhotosArray(val: unknown): string[] {
   if (Array.isArray(val)) return val.filter((v): v is string => typeof v === "string" && v.length > 0);
   if (val && typeof val === "object" && !Array.isArray(val) && "length" in val) {
-    return (Array.from(val as Iterable<unknown>) as string[]).filter((v) => typeof v === "string" && v.length > 0);
+    // Certaines réponses Supabase peuvent être "array-like" sans être itérables.
+    const len = (val as { length?: unknown }).length;
+    const n = typeof len === "number" ? len : Number(len);
+    if (Number.isFinite(n) && n > 0) {
+      const out: string[] = [];
+      for (let i = 0; i < n; i++) {
+        const v = (val as Record<number, unknown>)[i];
+        if (typeof v === "string" && v.length > 0) out.push(v);
+      }
+      if (out.length > 0) return out;
+    }
   }
   if (typeof val === "string" && val) {
     if (val.startsWith("[")) {
@@ -33,7 +46,8 @@ export async function getBookSections(): Promise<BookSection[]> {
   const { data, error } = await supabase
     .from("book_sections")
     .select("*")
-    .order("created_at", { ascending: true });
+    .order("created_at", { ascending: true })
+    .returns<BookSectionRow[]>();
   if (error) {
     console.error("Supabase getBookSections:", error);
     return [];
@@ -58,7 +72,7 @@ export async function getBookSection(stepId: string): Promise<BookSection | null
     .from("book_sections")
     .select("*")
     .eq("step_id", stepId)
-    .single();
+    .single<BookSectionRow>();
   if (error || !data) return null;
   return {
     step_id: data.step_id,

@@ -209,7 +209,7 @@ export default function DataPage() {
                     borderRadius: "4px",
                     fontFamily: "IBM Plex Mono, monospace",
                   }}
-                  formatter={(value: number) => [`${value} €`, ""]}
+                  formatter={(value) => [`${value ?? 0} €`, ""]}
                 />
                 <Legend
                   wrapperStyle={{ fontFamily: "IBM Plex Mono, monospace" }}
@@ -241,7 +241,7 @@ export default function DataPage() {
                     borderRadius: "4px",
                     fontFamily: "IBM Plex Mono, monospace",
                   }}
-                  formatter={(value: number) => [`${value} €`, ""]}
+                  formatter={(value) => [`${value ?? 0} €`, ""]}
                 />
                 <Bar dataKey="value" radius={[0, 4, 4, 0]}>
                   {repartitionData.map((entry, index) => (

@@ -41,6 +41,22 @@ npx tsx scripts/enrich-lieux-central.ts
 
 Cache : `data/cities/geocode-cache-lieux.json` (évite de rappeler Mapbox pour les mêmes lieux).
 
+## Colonne famille_type
+
+Regroupe les lieux en familles : **ville**, **village**, **musee**, **rando**, **chateau**, **abbaye**, **site_naturel**, **patrimoine**, **plage**, **autre** (quartiers, parcs thématiques uniquement).
+
+**Workflow complet** (après modification de l'Excel) :
+```bash
+npx tsx scripts/export-lieux-central-to-csv.ts --json   # Excel → JSON
+npx tsx scripts/add-famille-type.ts                     # calcule famille_type dans le JSON
+npx tsx scripts/add-famille-type-to-excel.ts            # reporte famille_type dans l'Excel
+```
+
+Pour le JSON uniquement :
+```bash
+npx tsx scripts/add-famille-type.ts
+```
+
 ## Export CSV
 
 Pour générer des fichiers CSV à partir de l’Excel (upload agent, parsers, etc.) :
