@@ -1,58 +1,110 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
-import { RefreshCw, Loader2, Download, Send, ExternalLink, CheckCircle2, Circle, Play } from "lucide-react";
+import {
+  RefreshCw,
+  Loader2,
+  Download,
+  Send,
+  ExternalLink,
+  CheckCircle2,
+  Circle,
+  Play,
+  Package,
+  FileText,
+  FolderOpen,
+  AlertTriangle,
+  ChevronDown,
+  ChevronRight,
+} from "lucide-react";
 
-type BatchInfo = {
-  part: number;
-  batch_id: string;
+/* ──────────── Types ──────────── */
+
+type LotStatus = {
+  lot: number;
+  id: string;
+  label: string;
+  requests: number;
+  batchId: string | null;
   status: string;
   completed?: number;
   total?: number;
   failed?: number;
+  hasOutput: boolean;
 };
 
-type PipelineStatus = {
-  process: {
-    hasBatchOutput: boolean;
-    batchOutputLines: number;
-    hasExcel: boolean;
-    excelStats: { patrimoine: number; plages: number; randos: number; hasLatLng: boolean };
-    inProgress?: {
-      current: number;
-      total: number;
-      lastDep: string;
-      currentDep?: string;
-      errors?: Array<{ dep: string; message: string }>;
-    } | null;
+type DescStatus = {
+  prepared: boolean;
+  lots: LotStatus[];
+  summary?: {
+    totalLots: number;
+    totalRequests: number;
+    submittedLots: number;
+    completedLots: number;
+    downloadedLots: number;
+    completedRequests: number;
   };
-  enrich: {
-    done: boolean;
-    inProgress?: { sheet: string; current: number; total: number } | null;
-  };
+  cost?: { estimated: number; spent: number };
+  descriptions?: { total: number; raw: number; fixed: number };
+  processing?: Record<string, unknown> | null;
 };
+
+/* ──────────── Helpers ──────────── */
+
+const statusLabel: Record<string, string> = {
+  not_submitted: "À soumettre",
+  validating: "Validation…",
+  in_progress: "En cours…",
+  finalizing: "Finalisation…",
+  completed: "Terminé",
+  failed: "Échec",
+  expired: "Expiré",
+  submitted: "Soumis",
+  unknown: "Inconnu",
+};
+
+const statusColor: Record<string, string> = {
+  not_submitted: "text-[#333]/50",
+  completed: "text-green-600",
+  in_progress: "text-amber-600",
+  validating: "text-amber-600",
+  finalizing: "text-amber-600",
+  submitted: "text-amber-600",
+  failed: "text-red-600",
+  expired: "text-red-600",
+};
+
+const statusBg: Record<string, string> = {
+  not_submitted: "bg-gray-50 border-gray-200",
+  completed: "bg-green-50/50 border-green-200",
+  in_progress: "bg-amber-50/50 border-amber-200",
+  validating: "bg-amber-50/50 border-amber-200",
+  finalizing: "bg-amber-50/50 border-amber-200",
+  submitted: "bg-amber-50/50 border-amber-200",
+  failed: "bg-red-50/50 border-red-200",
+  expired: "bg-red-50/50 border-red-200",
+};
+
+/* ──────────── Component ──────────── */
 
 export default function BatchStatusPage() {
-  const [batches, setBatches] = useState<BatchInfo[]>([]);
-  const [pipeline, setPipeline] = useState<PipelineStatus | null>(null);
+  const [data, setData] = useState<DescStatus | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [actionLoading, setActionLoading] = useState<string | null>(null);
   const [actionOutput, setActionOutput] = useState<string | null>(null);
+  const [expandedOutput, setExpandedOutput] = useState(false);
 
   const fetchStatus = useCallback(async () => {
     setLoading(true);
     setError(null);
     try {
-      const res = await fetch("/api/batch-status", { cache: "no-store" });
+      const res = await fetch("/api/batch-desc-status", { cache: "no-store" });
       if (!res.ok) throw new Error(await res.text());
-      const data = await res.json();
-      setBatches(data.batches ?? []);
-      setPipeline(data.pipeline ?? null);
+      setData(await res.json());
     } catch (e) {
       setError(e instanceof Error ? e.message : String(e));
-      setBatches([]);
-      setPipeline(null);
+      setData(null);
     } finally {
       setLoading(false);
     }
@@ -62,46 +114,18 @@ export default function BatchStatusPage() {
     fetchStatus();
   }, [fetchStatus]);
 
-  // Rafraîchir automatiquement pendant process ou enrichissement
-  const processInProgress = pipeline?.process.inProgress;
-  const enrichInProgress = pipeline?.enrich.inProgress;
-  useEffect(() => {
-    if (!processInProgress && !enrichInProgress) return;
-    const t = setInterval(fetchStatus, 3000);
-    return () => clearInterval(t);
-  }, [processInProgress, enrichInProgress, fetchStatus]);
+  // Auto-refresh desactive pour eviter de ralentir le systeme.
+  // Utiliser le bouton "Rafraichir" manuellement.
 
-  async function runEnrich() {
-    setActionLoading("enrich-lieux");
-    setActionOutput(null);
-    try {
-      const res = await fetch("/api/enrich-lieux", { method: "POST" });
-      const data = await res.json();
-      if (!res.ok) throw new Error(data.error || "Erreur");
-      setActionOutput(data.output ?? "OK");
-      await fetchStatus();
-    } catch (e) {
-      setActionOutput(e instanceof Error ? e.message : String(e));
-    } finally {
-      setActionLoading(null);
-    }
-  }
-
-  async function runAction(
-    api: "batch-download" | "batch-download-all" | "batch-submit",
-    part?: number
-  ) {
-    const key = part ? `${api}-${part}` : api;
+  async function callApi(url: string, key: string) {
     setActionLoading(key);
     setActionOutput(null);
+    setExpandedOutput(true);
     try {
-      const url = part
-        ? `/api/${api}?part=${part}`
-        : "/api/batch-download-all";
       const res = await fetch(url, { method: "POST" });
-      const data = await res.json();
-      if (!res.ok) throw new Error(data.error || "Erreur");
-      setActionOutput(data.output ?? "OK");
+      const json = await res.json();
+      if (!res.ok) throw new Error(json.error || "Erreur");
+      setActionOutput(json.output ?? "OK");
       await fetchStatus();
     } catch (e) {
       setActionOutput(e instanceof Error ? e.message : String(e));
@@ -110,31 +134,50 @@ export default function BatchStatusPage() {
     }
   }
 
-  const statusColor = (s: string) => {
-    if (s === "completed") return "text-green-600";
-    if (s === "in_progress" || s === "validating" || s === "finalizing") return "text-amber-600";
-    if (s === "failed" || s === "expired") return "text-red-600";
-    return "text-[#333333]";
-  };
+  const lots = data?.lots ?? [];
+  const summary = data?.summary;
+  const cost = data?.cost;
+  const descs = data?.descriptions;
 
-  const allCompleted =
-    batches.length === 4 && batches.every((b) => b.status === "completed");
-  const allCurrentCompleted =
-    batches.length > 0 && batches.every((b) => b.status === "completed");
-  const nextPartToSubmit =
-    batches.length === 0
-      ? 1
-      : allCurrentCompleted && batches.length < 4
-        ? batches.length + 1
-        : null;
+  const anyFailed = lots.some((l) => ["failed", "expired"].includes(l.status));
+  const anyRunning = lots.some((l) =>
+    ["in_progress", "validating", "finalizing", "submitted"].includes(l.status)
+  );
+  const failedLots = lots.filter((l) => ["failed", "expired"].includes(l.status));
+
+  // Only suggest next lot if all previous lots are completed (not failed)
+  const nextToSubmit = (() => {
+    if (anyFailed || anyRunning) return null;
+    for (const l of lots) {
+      if (l.status === "not_submitted") {
+        const prev = lots.find((p) => p.lot === l.lot - 1);
+        if (!prev || prev.status === "completed") return l;
+        return null;
+      }
+    }
+    return null;
+  })();
+
+  const completedNotDownloaded = lots.filter(
+    (l) => l.status === "completed" && !l.hasOutput
+  );
+  const allDownloaded = lots.length > 0 && lots.every((l) => l.hasOutput);
 
   return (
-    <main className="mx-auto max-w-3xl px-4 py-8">
-      <h1 className="mb-2 text-2xl font-light text-[#333333]">Avancement des batches</h1>
-      <p className="mb-6 text-[#333333]/80">
-        Suivi des lots Phase 1 (patrimoine + plages). ~2 min par lot. Rafraîchis pour mettre à jour.
+    <main className="mx-auto max-w-4xl px-4 py-8">
+      {/* ── Header ── */}
+      <div className="mb-2 flex items-center gap-3">
+        <Package className="h-6 w-6 text-[#A55734]" />
+        <h1 className="text-2xl font-light text-[#333]">
+          Batch Descriptions
+        </h1>
+      </div>
+      <p className="mb-6 text-sm text-[#333]/70">
+        Phase 2 — Génération des {summary?.totalRequests?.toLocaleString() ?? "2 066"} descriptions
+        via le Batch API OpenAI (gpt-4.1, -50% coût, ~24h par lot).
       </p>
 
+      {/* ── Actions bar ── */}
       <div className="mb-6 flex flex-wrap items-center gap-3">
         <button
           type="button"
@@ -142,147 +185,419 @@ export default function BatchStatusPage() {
           disabled={loading}
           className="flex items-center gap-2 rounded-lg bg-[#A55734] px-4 py-2 text-sm font-medium text-white transition hover:bg-[#A55734]/90 disabled:opacity-60"
         >
-          {loading ? (
-            <Loader2 className="h-4 w-4 animate-spin" />
-          ) : (
-            <RefreshCw className="h-4 w-4" />
-          )}
+          {loading ? <Loader2 className="h-4 w-4 animate-spin" /> : <RefreshCw className="h-4 w-4" />}
           Rafraîchir
         </button>
-        {allCurrentCompleted && batches.length < 4 && nextPartToSubmit && (
-          <span className="text-sm text-amber-600">
-            Lots 1–{batches.length} terminés — lance le suivant
-          </span>
-        )}
-        {allCompleted && (
-          <>
-            <button
-              type="button"
-              onClick={() => runAction("batch-download-all")}
-              disabled={!!actionLoading}
-              className="flex items-center gap-2 rounded-lg border border-[#A55734] bg-white px-4 py-2 text-sm font-medium text-[#A55734] transition hover:bg-[#FFF2EB] disabled:opacity-60"
-            >
-              {actionLoading === "batch-download-all" ? (
-                <Loader2 className="h-4 w-4 animate-spin" />
-              ) : (
-                <Download className="h-4 w-4" />
-              )}
-              Télécharger tout + fusionner
-            </button>
-            <span className="text-sm text-green-600">✓ Tous terminés — puis process + enrichissement</span>
-          </>
-        )}
-        {nextPartToSubmit != null && nextPartToSubmit <= 4 && (
+
+        {!data?.prepared && (
           <button
             type="button"
-            onClick={() => runAction("batch-submit", nextPartToSubmit)}
+            onClick={() => callApi("/api/batch-desc-prepare?model=gpt-4.1", "prepare")}
             disabled={!!actionLoading}
             className="flex items-center gap-2 rounded-lg bg-[#8B6914] px-4 py-2 text-sm font-medium text-white transition hover:bg-[#8B6914]/90 disabled:opacity-60"
           >
-            {actionLoading === `batch-submit-${nextPartToSubmit}` ? (
+            {actionLoading === "prepare" ? <Loader2 className="h-4 w-4 animate-spin" /> : <FileText className="h-4 w-4" />}
+            Préparer les JSONL
+          </button>
+        )}
+
+        {data?.prepared && !anyRunning && nextToSubmit && (
+          <button
+            type="button"
+            onClick={() =>
+              callApi(`/api/batch-desc-submit?lot=${nextToSubmit.lot}`, `submit-${nextToSubmit.lot}`)
+            }
+            disabled={!!actionLoading}
+            className="flex items-center gap-2 rounded-lg bg-[#8B6914] px-4 py-2 text-sm font-medium text-white transition hover:bg-[#8B6914]/90 disabled:opacity-60"
+          >
+            {actionLoading === `submit-${nextToSubmit.lot}` ? (
               <Loader2 className="h-4 w-4 animate-spin" />
             ) : (
               <Send className="h-4 w-4" />
             )}
-            Lancer lot {nextPartToSubmit}
+            Soumettre lot {nextToSubmit.lot} — {nextToSubmit.label}
           </button>
+        )}
+
+        {anyRunning && (
+          <span className="flex items-center gap-2 text-sm text-amber-600">
+            <Loader2 className="h-4 w-4 animate-spin" />
+            Lot en cours — rafraîchissement auto
+          </span>
         )}
       </div>
 
-      {(pipeline?.process.inProgress || pipeline?.enrich.inProgress) && (
-        <div className="mb-6 rounded-lg border-2 border-amber-400 bg-amber-50 p-4">
-          <div className="flex items-center gap-2 font-semibold text-amber-800">
-            <Loader2 className="h-5 w-5 shrink-0 animate-spin" />
-            Exécution en cours — rafraîchissement auto toutes les 3 s
+      {/* ── Failed lots warning ── */}
+      {failedLots.length > 0 && (
+        <div className="mb-6 rounded-lg border-2 border-red-300 bg-red-50 p-4">
+          <div className="flex items-center gap-2 font-medium text-red-700">
+            <AlertTriangle className="h-5 w-5" />
+            {failedLots.length} lot(s) en échec
           </div>
-          {pipeline?.process.inProgress && (
-            <div className="mt-2 space-y-1 text-sm text-amber-900">
-              <p>
-                <strong>Process :</strong> {pipeline.process.inProgress.current}/{pipeline.process.inProgress.total} départements
-                {pipeline.process.inProgress.currentDep && (
-                  <> — En cours sur <strong>{pipeline.process.inProgress.currentDep}</strong></>
+          <p className="mt-1 text-sm text-red-600">
+            Corrige le problème puis re-prépare les JSONL et re-soumets.
+          </p>
+          <div className="mt-3 flex flex-wrap gap-2">
+            <button
+              type="button"
+              onClick={() => callApi("/api/batch-desc-prepare?model=gpt-4.1", "prepare")}
+              disabled={!!actionLoading}
+              className="flex items-center gap-2 rounded-lg bg-white px-3 py-1.5 text-sm font-medium text-red-700 border border-red-300 hover:bg-red-50 disabled:opacity-60"
+            >
+              {actionLoading === "prepare" ? <Loader2 className="h-3 w-3 animate-spin" /> : <FileText className="h-3 w-3" />}
+              Re-préparer les JSONL
+            </button>
+            {failedLots.map((fl) => (
+              <button
+                key={fl.lot}
+                type="button"
+                onClick={() =>
+                  callApi(`/api/batch-desc-submit?lot=${fl.lot}`, `submit-${fl.lot}`)
+                }
+                disabled={!!actionLoading}
+                className="flex items-center gap-2 rounded-lg bg-red-600 px-3 py-1.5 text-sm font-medium text-white hover:bg-red-700 disabled:opacity-60"
+              >
+                {actionLoading === `submit-${fl.lot}` ? (
+                  <Loader2 className="h-3 w-3 animate-spin" />
+                ) : (
+                  <Send className="h-3 w-3" />
                 )}
-              </p>
-              {pipeline.process.inProgress.errors && pipeline.process.inProgress.errors.length > 0 && (
-                <p className="text-red-700">
-                  {pipeline.process.inProgress.errors.length} erreur(s) — voir détails ci-dessous
-                </p>
-              )}
-            </div>
-          )}
-          {pipeline?.enrich.inProgress && (
-            <p className="mt-2 text-sm text-amber-900">
-              <strong>Enrichissement :</strong> {pipeline.enrich.inProgress.sheet} {pipeline.enrich.inProgress.current}/{pipeline.enrich.inProgress.total}
-            </p>
-          )}
+                Re-soumettre lot {fl.lot}
+              </button>
+            ))}
+          </div>
         </div>
       )}
 
-      {actionOutput && (
-        <pre className="mb-6 max-h-40 overflow-auto rounded-lg border border-[#A55734]/20 bg-[#FFF2EB]/50 p-3 text-xs text-[#333333]">
-          {actionOutput}
-        </pre>
-      )}
-
+      {/* ── Error ── */}
       {error && (
         <div className="mb-6 rounded-lg border border-red-200 bg-red-50 p-4 text-sm text-red-700">
           {error}
         </div>
       )}
 
-      <section className="mb-10">
-        <h2 className="mb-3 text-lg font-medium text-[#333333]">Lots Phase 1</h2>
-        {batches.length === 0 && !loading ? (
-          <div className="rounded-lg border border-[#A55734]/20 bg-white p-6 text-center text-[#333333]/70">
-            Aucun batch. Clique « Lancer lot 1 » pour démarrer.
+      {/* ── Action output ── */}
+      {actionOutput && (
+        <div className="mb-6">
+          <button
+            type="button"
+            onClick={() => setExpandedOutput(!expandedOutput)}
+            className="mb-1 flex items-center gap-1 text-xs font-medium text-[#333]/60 hover:text-[#333]"
+          >
+            {expandedOutput ? <ChevronDown className="h-3 w-3" /> : <ChevronRight className="h-3 w-3" />}
+            Sortie console
+          </button>
+          {expandedOutput && (
+            <pre className="max-h-48 overflow-auto rounded-lg border border-[#A55734]/20 bg-[#FFF2EB]/50 p-3 text-xs text-[#333]">
+              {actionOutput}
+            </pre>
+          )}
+        </div>
+      )}
+
+      {/* ── Cost + progress summary ── */}
+      {summary && (
+        <div className="mb-6 grid grid-cols-2 gap-3 sm:grid-cols-4">
+          <div className="rounded-lg border border-[#A55734]/20 bg-white p-3 text-center">
+            <div className="text-2xl font-light text-[#333]">
+              {summary.completedLots}/{summary.totalLots}
+            </div>
+            <div className="text-xs text-[#333]/60">Lots terminés</div>
           </div>
-        ) : (
-          <div className="space-y-3">
-            {batches.map((b) => (
-              <div
-                key={b.part}
-                className="flex flex-wrap items-center justify-between gap-3 rounded-lg border border-[#A55734]/20 bg-white p-4"
-              >
-                <div>
-                  <span className="font-medium text-[#333333]">Lot {b.part}</span>
-                  <span className={`ml-2 text-sm ${statusColor(b.status)}`}>
-                    {b.status === "validating" && "Validation…"}
-                    {b.status === "in_progress" && "En cours…"}
-                    {b.status === "finalizing" && "Finalisation…"}
-                    {b.status === "completed" && "Terminé"}
-                    {b.status === "failed" && "Échec"}
-                    {b.status === "expired" && "Expiré"}
-                    {!["validating", "in_progress", "finalizing", "completed", "failed", "expired"].includes(b.status) && b.status}
-                  </span>
+          <div className="rounded-lg border border-[#A55734]/20 bg-white p-3 text-center">
+            <div className="text-2xl font-light text-[#333]">
+              {summary.completedRequests.toLocaleString()}/{summary.totalRequests.toLocaleString()}
+            </div>
+            <div className="text-xs text-[#333]/60">Descriptions générées</div>
+          </div>
+          <div className="rounded-lg border border-[#A55734]/20 bg-white p-3 text-center">
+            <div className="text-2xl font-light text-[#A55734]">
+              ~${cost?.spent?.toFixed(2) ?? "0"}
+            </div>
+            <div className="text-xs text-[#333]/60">
+              Dépensé / ~${cost?.estimated?.toFixed(2) ?? "?"} estimé
+            </div>
+          </div>
+          <div className="rounded-lg border border-[#A55734]/20 bg-white p-3 text-center">
+            <div className="text-2xl font-light text-[#333]">
+              {descs?.fixed ?? 0}
+            </div>
+            <div className="text-xs text-[#333]/60">
+              Validées / {descs?.total ?? 0} total
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* ── Progress bar ── */}
+      {summary && summary.totalRequests > 0 && (
+        <div className="mb-8">
+          <div className="mb-1 flex justify-between text-xs text-[#333]/60">
+            <span>Progression globale</span>
+            <span>
+              {Math.round((summary.completedRequests / summary.totalRequests) * 100)}%
+            </span>
+          </div>
+          <div className="h-3 overflow-hidden rounded-full bg-gray-100">
+            <div
+              className="h-full rounded-full bg-gradient-to-r from-[#A55734] to-[#C97B5A] transition-all duration-500"
+              style={{
+                width: `${(summary.completedRequests / summary.totalRequests) * 100}%`,
+              }}
+            />
+          </div>
+        </div>
+      )}
+
+      {/* ── Lots grid ── */}
+      {lots.length > 0 && (
+        <section className="mb-8">
+          <h2 className="mb-3 text-lg font-medium text-[#333]">
+            Lots ({lots.length})
+          </h2>
+          <div className="space-y-2">
+            {lots.map((l) => {
+              const bg = statusBg[l.status] ?? "bg-white border-gray-200";
+              const color = statusColor[l.status] ?? "text-[#333]/60";
+              const pct =
+                l.total && l.total > 0
+                  ? Math.round(((l.completed ?? 0) / l.total) * 100)
+                  : 0;
+
+              return (
+                <div
+                  key={l.lot}
+                  className={`rounded-lg border p-4 ${bg}`}
+                >
+                  <div className="flex flex-wrap items-center justify-between gap-2">
+                    <div className="flex items-center gap-3">
+                      <span className="flex h-7 w-7 items-center justify-center rounded-full bg-[#A55734]/10 text-xs font-bold text-[#A55734]">
+                        {l.lot}
+                      </span>
+                      <div>
+                        <span className="font-medium text-[#333]">
+                          {l.label}
+                        </span>
+                        <span className={`ml-2 text-sm ${color}`}>
+                          {statusLabel[l.status] ?? l.status}
+                        </span>
+                      </div>
+                    </div>
+
+                    <div className="flex items-center gap-2">
+                      {l.total != null && l.status !== "not_submitted" && (
+                        <span className="text-sm text-[#333]/60">
+                          {l.completed ?? 0}/{l.total}
+                          {l.failed ? (
+                            <span className="ml-1 text-red-500">
+                              ({l.failed} échecs)
+                            </span>
+                          ) : null}
+                        </span>
+                      )}
+
+                      {l.status === "not_submitted" && (
+                        <span className="text-xs text-[#333]/40">
+                          {l.requests} req.
+                        </span>
+                      )}
+
+                      {l.status === "completed" && !l.hasOutput && (
+                        <button
+                          type="button"
+                          onClick={() =>
+                            callApi(
+                              `/api/batch-desc-download?lot=${l.lot}`,
+                              `dl-${l.lot}`
+                            )
+                          }
+                          disabled={!!actionLoading}
+                          className="flex items-center gap-1 rounded bg-green-100 px-2 py-1 text-xs font-medium text-green-700 hover:bg-green-200 disabled:opacity-60"
+                        >
+                          {actionLoading === `dl-${l.lot}` ? (
+                            <Loader2 className="h-3 w-3 animate-spin" />
+                          ) : (
+                            <Download className="h-3 w-3" />
+                          )}
+                          Télécharger
+                        </button>
+                      )}
+
+                      {l.hasOutput && (
+                        <span className="flex items-center gap-1 text-xs text-green-600">
+                          <CheckCircle2 className="h-3 w-3" />
+                          Téléchargé
+                        </span>
+                      )}
+                    </div>
+                  </div>
+
+                  {/* Progress bar per lot */}
+                  {["in_progress", "validating", "finalizing"].includes(l.status) &&
+                    l.total &&
+                    l.total > 0 && (
+                      <div className="mt-2 h-1.5 overflow-hidden rounded-full bg-gray-100">
+                        <div
+                          className="h-full rounded-full bg-amber-400 transition-all"
+                          style={{ width: `${pct}%` }}
+                        />
+                      </div>
+                    )}
                 </div>
-                <div className="flex items-center gap-2">
-                  {b.total != null && (
-                    <span className="text-sm text-[#333333]/70">
-                      {b.completed ?? 0}/{b.total} requêtes
+              );
+            })}
+          </div>
+        </section>
+      )}
+
+      {/* ── Post-batch pipeline ── */}
+      {allDownloaded && (
+        <section className="mb-8 rounded-lg border border-[#A55734]/20 bg-[#FFF2EB]/30 p-5">
+          <h2 className="mb-4 text-lg font-medium text-[#333]">
+            Pipeline post-batch
+          </h2>
+          <div className="space-y-3">
+            <div className="flex items-start gap-3">
+              {descs && descs.total > 0 ? (
+                <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-green-600" />
+              ) : (
+                <Circle className="mt-0.5 h-5 w-5 shrink-0 text-[#333]/40" />
+              )}
+              <div className="flex-1">
+                <span className="font-medium text-[#333]">
+                  1. Éclater les résultats en fichiers
+                </span>
+                <p className="text-sm text-[#333]/70">
+                  Chaque réponse → <code className="rounded bg-[#FFF2EB] px-1">descriptions/slug-raw.txt</code>
+                  {descs && descs.total > 0 && (
+                    <span className="ml-1 text-green-600">
+                      ({descs.total} fichiers)
                     </span>
                   )}
-                  {b.status === "completed" && (
-                    <button
-                      type="button"
-                      onClick={() => runAction("batch-download", b.part)}
-                      disabled={!!actionLoading}
-                      className="rounded bg-[#FFF2EB] px-2 py-1 text-xs text-[#A55734] hover:bg-[#FFF2EB]/80 disabled:opacity-60"
-                    >
-                      Télécharger
-                    </button>
-                  )}
-                </div>
+                </p>
+                {descs && descs.total === 0 && (
+                  <button
+                    type="button"
+                    onClick={() =>
+                      callApi("/api/batch-desc-process?lot=all", "process-eclate")
+                    }
+                    disabled={!!actionLoading}
+                    className="mt-2 flex items-center gap-2 rounded-lg border border-[#A55734] bg-white px-3 py-1.5 text-sm font-medium text-[#A55734] hover:bg-[#FFF2EB] disabled:opacity-60"
+                  >
+                    {actionLoading === "process-eclate" ? (
+                      <Loader2 className="h-4 w-4 animate-spin" />
+                    ) : (
+                      <Play className="h-4 w-4" />
+                    )}
+                    Éclater tous les lots
+                  </button>
+                )}
               </div>
-            ))}
-          </div>
-        )}
-      </section>
+            </div>
 
-      <section className="mb-10 rounded-lg border border-[#A55734]/20 bg-[#FFF2EB]/30 p-5">
-        <h2 className="mb-3 text-lg font-medium text-[#333333]">€ Suivi des coûts</h2>
-        <p className="mb-3 text-sm text-[#333333]/90">
-          Consulte ta consommation réelle sur OpenAI :
-        </p>
+            <div className="flex items-start gap-3">
+              {descs && descs.fixed > 0 ? (
+                <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-green-600" />
+              ) : (
+                <Circle className="mt-0.5 h-5 w-5 shrink-0 text-[#333]/40" />
+              )}
+              <div className="flex-1">
+                <span className="font-medium text-[#333]">
+                  2. Validation + auto-fix
+                </span>
+                <p className="text-sm text-[#333]/70">
+                  Correction automatique des balises, puis signalement des erreurs complexes
+                  {descs && descs.fixed > 0 && (
+                    <span className="ml-1 text-green-600">
+                      ({descs.fixed} validées)
+                    </span>
+                  )}
+                </p>
+                {descs && descs.total > 0 && descs.fixed === 0 && (
+                  <button
+                    type="button"
+                    onClick={() =>
+                      callApi(
+                        "/api/batch-desc-process?lot=all&validate=true",
+                        "process-validate"
+                      )
+                    }
+                    disabled={!!actionLoading}
+                    className="mt-2 flex items-center gap-2 rounded-lg border border-[#A55734] bg-white px-3 py-1.5 text-sm font-medium text-[#A55734] hover:bg-[#FFF2EB] disabled:opacity-60"
+                  >
+                    {actionLoading === "process-validate" ? (
+                      <Loader2 className="h-4 w-4 animate-spin" />
+                    ) : (
+                      <Play className="h-4 w-4" />
+                    )}
+                    Valider + auto-fix
+                  </button>
+                )}
+              </div>
+            </div>
+
+            <div className="flex items-start gap-3">
+              <Circle className="mt-0.5 h-5 w-5 shrink-0 text-[#333]/40" />
+              <div className="flex-1">
+                <span className="font-medium text-[#333]">
+                  3. Dossiers photos
+                </span>
+                <p className="text-sm text-[#333]/70">
+                  Créer l&apos;arborescence <code className="rounded bg-[#FFF2EB] px-1">photos/</code> depuis les tags PHOTOS + MANGER
+                </p>
+                {descs && descs.total > 0 && (
+                  <button
+                    type="button"
+                    onClick={() =>
+                      callApi(
+                        "/api/batch-desc-process?lot=all&photos=true",
+                        "process-photos"
+                      )
+                    }
+                    disabled={!!actionLoading}
+                    className="mt-2 flex items-center gap-2 rounded-lg border border-[#A55734] bg-white px-3 py-1.5 text-sm font-medium text-[#A55734] hover:bg-[#FFF2EB] disabled:opacity-60"
+                  >
+                    {actionLoading === "process-photos" ? (
+                      <Loader2 className="h-4 w-4 animate-spin" />
+                    ) : (
+                      <FolderOpen className="h-4 w-4" />
+                    )}
+                    Créer dossiers photos
+                  </button>
+                )}
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* ── Processing indicator ── */}
+      {data?.processing && (
+        <div className="mb-6 rounded-lg border-2 border-amber-400 bg-amber-50 p-4">
+          <div className="flex items-center gap-2 font-medium text-amber-800">
+            <Loader2 className="h-5 w-5 animate-spin" />
+            Traitement en cours…
+          </div>
+          <pre className="mt-2 text-xs text-amber-900">
+            {JSON.stringify(data.processing, null, 2)}
+          </pre>
+        </div>
+      )}
+
+      {/* ── Cost card ── */}
+      <section className="mb-8 rounded-lg border border-[#A55734]/20 bg-[#FFF2EB]/30 p-5">
+        <h2 className="mb-3 text-lg font-medium text-[#333]">€ Suivi des coûts</h2>
+        <div className="mb-3 space-y-1 text-sm text-[#333]/80">
+          <p>
+            Modèle : <strong>gpt-4.1</strong> — Batch API (-50%) — Fenêtre 24h
+          </p>
+          <p>
+            Estimation totale : <strong>~${cost?.estimated?.toFixed(2) ?? "22–23"}</strong>
+            {cost?.spent != null && cost.spent > 0 && (
+              <> — Dépensé : <strong className="text-[#A55734]">~${cost.spent.toFixed(2)}</strong></>
+            )}
+          </p>
+        </div>
         <a
           href="https://platform.openai.com/usage"
           target="_blank"
@@ -290,134 +605,38 @@ export default function BatchStatusPage() {
           className="inline-flex items-center gap-2 rounded-lg bg-white px-4 py-2 text-sm font-medium text-[#A55734] shadow-sm transition hover:bg-[#FFF2EB]"
         >
           <ExternalLink className="h-4 w-4" />
-          Voir l&apos;usage et les coûts
+          Voir les coûts réels sur OpenAI
         </a>
-        <p className="mt-3 text-sm text-[#333333]/80">
-          Phase 1 estimée : ~2–5 €. Top 100 + 1000 points : ~20–50 € total. Batch = -50 % vs sync.
-        </p>
       </section>
 
-      <section className="mb-10 rounded-lg border border-[#A55734]/20 bg-white p-5">
-        <h2 className="mb-4 text-lg font-medium text-[#333333]">Pipeline</h2>
-        <div className="space-y-4">
-          <div className="flex items-start gap-3">
-            {pipeline?.process.hasBatchOutput ? (
-              <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-green-600" />
-            ) : (
-              <Circle className="mt-0.5 h-5 w-5 shrink-0 text-[#333333]/40" />
-            )}
-            <div>
-              <span className="font-medium text-[#333333]">1. Batch Phase 1</span>
-              <p className="text-sm text-[#333333]/80">
-                Télécharger + fusionner → <code className="rounded bg-[#FFF2EB] px-1">batch_output.jsonl</code>
-                {pipeline?.process.hasBatchOutput && ` (${pipeline.process.batchOutputLines} lignes)`}
-              </p>
-            </div>
-          </div>
-          <div className="flex items-start gap-3">
-            {pipeline?.process.hasExcel && pipeline.process.excelStats.patrimoine > 0 && !pipeline?.process.inProgress ? (
-              <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-green-600" />
-            ) : pipeline?.process.inProgress ? (
-              <Loader2 className="mt-0.5 h-5 w-5 shrink-0 animate-spin text-amber-600" />
-            ) : (
-              <Circle className="mt-0.5 h-5 w-5 shrink-0 text-[#333333]/40" />
-            )}
-            <div className="flex-1 min-w-0">
-              <span className="font-medium text-[#333333]">2. Process</span>
-              {pipeline?.process.inProgress && (
-                <div className="mt-1 space-y-1">
-                  <div className="flex flex-wrap items-baseline gap-x-3 gap-y-0.5">
-                    <span className="text-sm font-semibold text-amber-600">
-                      {pipeline.process.inProgress.current}/{pipeline.process.inProgress.total} départements
-                    </span>
-                    {pipeline.process.inProgress.currentDep && (
-                      <span className="text-sm text-[#333333]">
-                        En cours : <strong>{pipeline.process.inProgress.currentDep}</strong>
-                      </span>
-                    )}
-                    {pipeline.process.inProgress.lastDep && pipeline.process.inProgress.currentDep !== pipeline.process.inProgress.lastDep && (
-                      <span className="text-xs text-[#333333]/70">
-                        Dernier terminé : {pipeline.process.inProgress.lastDep}
-                      </span>
-                    )}
-                  </div>
-                  {pipeline.process.inProgress.errors && pipeline.process.inProgress.errors.length > 0 && (
-                    <details className="mt-2">
-                      <summary className="cursor-pointer text-sm font-medium text-red-600 hover:text-red-700">
-                        {pipeline.process.inProgress.errors.length} erreur(s) ou avertissement(s)
-                      </summary>
-                      <ul className="mt-1 max-h-32 overflow-y-auto rounded border border-red-200 bg-red-50/50 p-2 text-xs text-red-800">
-                        {pipeline.process.inProgress.errors.map((e, i) => (
-                          <li key={i} className="flex gap-2 py-0.5">
-                            <span className="font-medium shrink-0">{e.dep}:</span>
-                            <span>{e.message}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </details>
-                  )}
-                </div>
-              )}
-              <p className="text-sm text-[#333333]/80">
-                <code className="rounded bg-[#FFF2EB] px-1">npx tsx scripts/process-batch-results.ts</code>
-                {pipeline?.process.hasExcel && pipeline.process.excelStats.patrimoine > 0 && !pipeline?.process.inProgress && (
-                  <> → {pipeline.process.excelStats.patrimoine} patrimoine, {pipeline.process.excelStats.plages} plages, {pipeline.process.excelStats.randos} randos</>
-                )}
-              </p>
-              <p className="mt-1 text-xs text-[#333333]/60">
-                Reprise : <code className="rounded bg-[#FFF2EB] px-1">--from=17</code> si arrêt avant la fin
-              </p>
-            </div>
-          </div>
-          <div className="flex items-start gap-3">
-            {pipeline?.enrich.done ? (
-              <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-green-600" />
-            ) : pipeline?.enrich.inProgress ? (
-              <Loader2 className="mt-0.5 h-5 w-5 shrink-0 animate-spin text-amber-600" />
-            ) : (
-              <Circle className="mt-0.5 h-5 w-5 shrink-0 text-[#333333]/40" />
-            )}
-            <div className="flex-1">
-              <span className="font-medium text-[#333333]">3. Enrichissement</span>
-              {pipeline?.enrich.inProgress && (
-                <span className="ml-2 text-sm text-amber-600">
-                  En cours — {pipeline.enrich.inProgress.sheet} {pipeline.enrich.inProgress.current}/{pipeline.enrich.inProgress.total}
-                </span>
-              )}
-              <p className="text-sm text-[#333333]/80">
-                <code className="rounded bg-[#FFF2EB] px-1">npx tsx scripts/enrich-lieux-central.ts</code>
-                — Mapbox (lat/lng), INSEE, Wikipedia, vérif départements
-              </p>
-              {pipeline?.process.hasExcel && !pipeline?.enrich.done && !pipeline?.enrich.inProgress && (
-                <button
-                  type="button"
-                  onClick={runEnrich}
-                  disabled={!!actionLoading}
-                  className="mt-2 flex items-center gap-2 rounded-lg border border-[#A55734] bg-white px-3 py-1.5 text-sm font-medium text-[#A55734] transition hover:bg-[#FFF2EB] disabled:opacity-60"
-                >
-                  {actionLoading === "enrich-lieux" ? (
-                    <Loader2 className="h-4 w-4 animate-spin" />
-                  ) : (
-                    <Play className="h-4 w-4" />
-                  )}
-                  Lancer enrichissement
-                </button>
-              )}
-            </div>
-          </div>
-          <div className="flex items-start gap-3">
-            <Circle className="mt-0.5 h-5 w-5 shrink-0 text-[#333333]/40" />
-            <div>
-              <span className="font-medium text-[#333333]">4. À venir</span>
-              <p className="text-sm text-[#333333]/80">
-                Batches descriptions villes (Top 100, puis autres)
-              </p>
-            </div>
-          </div>
-        </div>
+      {/* ── How-to ── */}
+      <section className="mb-6 rounded-lg border border-[#A55734]/10 bg-white p-5">
+        <h2 className="mb-3 text-lg font-medium text-[#333]">Mode d&apos;emploi</h2>
+        <ol className="space-y-2 text-sm text-[#333]/80">
+          <li className="flex gap-2">
+            <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[#A55734]/10 text-xs font-bold text-[#A55734]">1</span>
+            <span><strong>Préparer</strong> — Génère les fichiers JSONL (1 clic, instantané)</span>
+          </li>
+          <li className="flex gap-2">
+            <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[#A55734]/10 text-xs font-bold text-[#A55734]">2</span>
+            <span><strong>Soumettre lot par lot</strong> — Un clic par lot, attendre &quot;Terminé&quot; avant le suivant (~24h max)</span>
+          </li>
+          <li className="flex gap-2">
+            <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[#A55734]/10 text-xs font-bold text-[#A55734]">3</span>
+            <span><strong>Télécharger</strong> — Quand un lot est terminé, clic &quot;Télécharger&quot;</span>
+          </li>
+          <li className="flex gap-2">
+            <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[#A55734]/10 text-xs font-bold text-[#A55734]">4</span>
+            <span><strong>Éclater + valider</strong> — Transforme les résultats en fichiers individuels, auto-fixe les erreurs</span>
+          </li>
+          <li className="flex gap-2">
+            <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[#A55734]/10 text-xs font-bold text-[#A55734]">5</span>
+            <span><strong>Dossiers photos</strong> — Crée l&apos;arborescence pour tes photos</span>
+          </li>
+        </ol>
       </section>
 
-      <p className="text-sm text-[#333333]/60">
+      <p className="text-sm text-[#333]/50">
         Suivi détaillé :{" "}
         <a
           href="https://platform.openai.com/batches"

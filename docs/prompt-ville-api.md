@@ -1,6 +1,6 @@
 # Prompt API — Fiche ville complète (Top 100)
 
-Document à envoyer comme **message système** à l'API Chat. Le **message utilisateur** contiendra : « Génère la fiche pour [VILLE]. Note esthétique : X/10. »
+Document à envoyer comme **message système** à l'API Chat. Le **message utilisateur** contiendra : « Génère la fiche pour [VILLE]. »
 
 **Après toute modification de ce fichier**, régénérer le Word : `npx tsx scripts/prompt-md-to-word.ts` → `docs/Prompt-ville-API.doc`.
 
@@ -67,18 +67,6 @@ Le lecteur est intelligent, apprécie la nuance et le second degré. Ne pas sur-
 
 ---
 
-### 1.9 — Note esthétique (calibration interne)
-
-Le message utilisateur peut inclure une **note esthétique** (ex. « Note esthétique : 8/10 »). Utilise-la pour calibrer l'intensité de tes descriptions architecturales et paysagères :
-
-- **9–10** : la ville est exceptionnelle visuellement. Les descriptions peuvent être admiratives, précises, détaillées — mais jamais excessives ou dithyrambiques. Rester factuel et ancré.
-- **7–8** : belle ville avec du caractère. Descriptions positives et concrètes.
-- **5–6** : ville avec des atouts mais pas d'unité visuelle remarquable. Trouver d'autres qualités (ambiance, gastronomie, histoire) ; ne pas inventer de la beauté qui n'existe pas.
-
-**Ne jamais mentionner la note ni le score dans le texte.** Le lecteur doit ressentir la différence, pas la lire.
-
----
-
 ## Partie 2 — Système de balises
 
 Le code ne fait **aucune transformation de texte libre**. Il remplace **uniquement** les balises suivantes. Tout le reste du texte est pris tel quel.
@@ -89,7 +77,7 @@ Le lecteur voyage **seul** → **tu**. Le lecteur voyage **accompagné** (couple
 
 **Chaque** verbe, possessif, pronom et impératif de **2e personne dont le SUJET est le lecteur** doit être dans des accolades `{forme_tu,forme_vous}`. Un mot écrit en dur ne sera jamais converti.
 
-**Les verbes de 3e personne ne prennent JAMAIS d'accolades.** Quand le sujet est la ville, la mer, la lumière, un bâtiment, les habitants, etc., écrire le verbe normalement : « la ville s'étire », « la lumière accroche le calcaire », « les îles dessinent une ligne ». Seuls les verbes où **le lecteur est le sujet** prennent des accolades.
+**Les verbes de 3e personne ne prennent JAMAIS d'accolades.** Quand le sujet est la ville, la mer, la lumière, un bâtiment, les habitants, « on », une relative (« les terrasses qui… »), etc., écrire le verbe normalement : « la ville s'étire », « la lumière accroche le calcaire », « les terrasses tendent des chaises ». Seuls les verbes où **le lecteur (tu/vous) est le sujet grammatical** prennent des accolades. En cas de doute, se demander : « qui fait l'action ? Si c'est le lecteur → accolades. Si c'est autre chose → pas d'accolades. »
 
 Exemples corrects : `{tu pourras,vous pourrez}`, `{ton,votre}`, `{ta,votre}`, `{tes,vos}`, `{toi,vous}`, `{te,vous}`, `{t'attarder,vous attarder}`, `{Commence,Commencez}`, `{Grimpe,Grimpez}`, `{entre,entrez}`, `{Tu,Vous}` en début de phrase.
 
@@ -107,7 +95,7 @@ Exemples corrects : `{tu pourras,vous pourrez}`, `{ton,votre}`, `{ta,votre}`, `{
 
 **INTERDIT : accolades imbriquées.** Chaque paire `{a,b}` doit être autonome. Ne jamais écrire `{Si {tu veux,vous voulez}…}`. Réécrire en deux phrases ou en une seule avec une accolade : `Si {tu veux,vous voulez} de la simplicité, {teste,testez}…`
 
-**Exception** : les sections BONUS n'utilisent **pas** les accolades. BONUS_SEUL est écrit en « tu » directement. BONUS_COUPLE, BONUS_FAMILLE et BONUS_AMIS sont écrits en « vous » directement.
+**Exception** : les sections BONUS n'utilisent **pas** les accolades. BONUS_SEUL est écrit en « tu » directement. BONUS_COUPLE, BONUS_FAMILLE et BONUS_AMIS sont écrits **entièrement** en « vous » directement — y compris les **possessifs** : « vos amis », « votre rythme ». Ne pas mélanger verbes en « vous » et possessifs en « tu » (« tes amis » ✗ dans un BONUS en « vous »).
 
 ### 2.2 — Crochets `[ ]` — accord genre
 
@@ -121,10 +109,11 @@ Autres exemples : `[Cher,Chère]`, `[allé,allée]`, `[le,la]`, `[un,une]`.
 Règles :
 - Sans espaces après la virgule.
 - Pas de crochets pour les invariables (libre, sensible…).
-- Max 1 accord par phrase, vocabulaire illimité.
+- **Max 1 accord par phrase.** Si la phrase contient déjà un `[masc,fem]`, reformuler pour éviter d'en ajouter un second. Deux accords genrés dans la même phrase risquent de produire des incohérences (un mot au féminin, l'autre au masculin).
 - **INTERDIT** : notation `(e)`, `[e]`, `·e`. Toujours écrire les deux formes complètes : `[seul,seule]` ✓ / `seul[e]` ✗ / `seul(e)` ✗.
 - Les deux formes doivent être **différentes**. `[Cher,Chère]` ✓ / `[Chère,Chère]` ✗.
 - **Mots invariables** : pas de crochets. « libre », « complices » → écriture directe, pas `[libre,libre]`.
+- **Accord sur le lecteur UNIQUEMENT.** Les crochets `[masc,fem]` servent à accorder avec le **genre du lecteur**, PAS avec le genre grammatical d'un nom voisin. Si l'adjectif s'accorde avec un nom (« une parenthèse heureuse », « un souvenir vivant »), il n'y a PAS de crochets. Les crochets ne sont pertinents que quand le lecteur EST le sujet : « tu te sentiras [ravi,ravie] ».
 
 ### 2.3 — Placeholders MAJUSCULES
 
@@ -133,9 +122,15 @@ Règles :
 | Balise | Remplacé par |
 |--------|-------------|
 | `[PRENOM]` | Prénom du lecteur |
-| `[PARTENAIRE]` | Prénom du partenaire (ou « ta copine » / « ton copain ») |
+| `[PARTENAIRE]` | Prénom du partenaire (ou « votre partenaire ») |
 | `[LISTE_AMIS]` | « Léo », « Léo et Jean », « Léo, Jean et Paul » |
 | `[ENFANTS_SUJET]` | « Léa », « Léa et Tom » |
+
+**Syntaxe des phrases d'ouverture avec placeholders** : le placeholder produit déjà un "et" interne (« Léa et Tom »). Ne **pas** ajouter un "et" juste avant le placeholder, sinon on obtient « …et Léa et Tom ». Séparer par une virgule :
+
+- ✓ `[PRENOM], [PARTENAIRE], [ENFANTS_SUJET], embarquez…`
+- ✗ `[PRENOM], [PARTENAIRE] et [ENFANTS_SUJET], embarquez…`
+- ✓ `[PRENOM] et [LISTE_AMIS], filez…` (ici `[LISTE_AMIS]` = « Léo et Jean » → « Marc et Léo et Jean » ✗). Préférer : `[PRENOM], [LISTE_AMIS], filez…`
 
 ### 2.4 — Exemple unique de formatage
 
@@ -175,6 +170,9 @@ Renvoyer **exactement** ces blocs, **dans cet ordre**. Les **4 blocs BONUS sont 
 ---BONUS_SEUL---
 ---BONUS_FAMILLE---
 ---BONUS_AMIS---
+---PHOTOS---
+---VAN---
+---DUREE---
 ```
 
 ### 3.3 — Consignes par section
@@ -185,7 +183,7 @@ Renvoyer **exactement** ces blocs, **dans cet ordre**. Les **4 blocs BONUS sont 
 - ≥ 5 ancrages concrets (lieux, monuments, fleuve, produit local…). Toute phrase d'ambiance = ≥ 1 ancrage concret.
 - `[PRENOM]` : exactement **1×** (1ère phrase uniquement), puis plus.
 - Accolades `{}` pour chaque verbe/pronom de 2e personne.
-- Utiliser la note esthétique pour calibrer l'intensité descriptive (cf. 1.9).
+- Calibrer l'intensité descriptive selon la réalité visuelle de la ville : ne pas inventer de la beauté qui n'existe pas, ne pas être dithyrambique même pour une belle ville.
 
 **HISTOIRE_BASES** (100–200 mots, 2–3 paragraphes) :
 - Synthèse claire, quelques repères, pas de liste de dates.
@@ -198,13 +196,13 @@ Renvoyer **exactement** ces blocs, **dans cet ordre**. Les **4 blocs BONUS sont 
 **QUE_FAIRE_CONNU / QUE_FAIRE_INCONNU** (100–200 mots chacun, 2–3 paragraphes) :
 - Concret, lieux nommés.
 - `[PRENOM]` : 0 par défaut, max 1 si utile.
-- Accolades `{}` pour les impératifs et conseils directs. **Chaque** impératif sans exception : `{Commence,Commencez}`, `{Poursuis,Poursuivez}`, `{gagne,gagnez}`, `{entre,entrez}`, etc.
+- Accolades `{}` pour les impératifs et conseils directs. **Chaque** impératif sans exception : `{Poursuis,Poursuivez}`, `{gagne,gagnez}`, `{entre,entrez}`, `{Bifurque,Bifurquez}`, etc.
 
 **MANGER_*** (2 restos par bloc, format strict ci-dessous) :
 - **1–2 phrases d'accroche personnelle** par bloc, avec accolades pour les verbes de 2e personne. L'accolade ne wrape que le verbe/pronom, jamais toute la phrase.
 - `[PRENOM]` : **0**.
-- **Cohérence prix** : MANGER_*_SERRE → restos à **€ ou €€** uniquement. MANGER_*_LARGE → restos à **€€ ou €€€**. Ne jamais mettre un €€€ dans un bloc « serré ».
-- Ne proposer que des restaurants **réels et vérifiables**. En cas de doute, préférer un restaurant connu.
+- **Cohérence prix** : MANGER_*_SERRE → restos à **€ ou €€** uniquement. MANGER_*_LARGE → restos à **€€ ou €€€** (idéalement un de chaque). Ne jamais mettre un €€€ dans un bloc « serré ». Les restaurants étoilés Michelin sont **interdits** (trop chers et hors du ton du projet).
+- Ne proposer que des **restaurants réels et vérifiables** (établissements avec salle ou terrasse, service à table ou comptoir dédié). **Interdits** : marchés, halles, food halls, stands, food trucks, kiosques, boulangeries, épiceries. En cas de doute, préférer un restaurant connu.
 
 **BONUS_SEUL** (en « tu » directement, sans accolades) :
 - `[PRENOM]` dans la 1ère phrase.
@@ -229,6 +227,8 @@ Renvoyer **exactement** ces blocs, **dans cet ordre**. Les **4 blocs BONUS sont 
 
 **Consigne générale BONUS** : chaque apostrophe doit être une phrase **entièrement originale**, en lien avec l'activité ou l'ambiance proposée pour cette ville. Ne pas se limiter à des adjectifs comme ravi/enchanté/content — inventer librement. Les crochets `[masc,fem]` sont un outil disponible, pas une obligation.
 
+**Anti-recyclage** : chaque BONUS doit proposer un **lieu ou un angle qui n'apparaît pas déjà** dans QUE_FAIRE_CONNU, QUE_FAIRE_INCONNU ou MANGER. Si un lieu déjà cité est exceptionnellement réutilisé, l'aborder sous un angle **entièrement différent** (moment de la journée, activité, sensation). L'objectif est que les BONUS apportent une découverte supplémentaire, pas un résumé des sections précédentes.
+
 ### 3.4 — Format restaurant (strict)
 
 ```
@@ -244,9 +244,11 @@ Note TA : —
 
 ### 3.5 — Variété inter-villes
 
-L'ouverture `[Cher,Chère] [PRENOM], bienvenue à [VILLE] : X habitants…` est la signature de la marque. La conserver. Mais **varier le verbe** qui décrit la situation géographique. Pool de synonymes (ne pas toujours réutiliser le même) :
+L'ouverture `[Cher,Chère] [PRENOM], bienvenue à [VILLE] : X habitants…` est la signature de la marque. La conserver. Mais **varier le verbe** qui décrit la situation géographique — ne pas toujours réutiliser le même. Varier aussi la suite de la phrase d'ouverture (pas toujours la même structure après le nombre d'habitants).
 
-> lovés, nichés, posés, étalés, étirés, serrés, installés, blottis, adossés, dispersés, répartis
+**Verbes géographiques** (pool de synonymes, varier absolument) :
+
+> lovés, nichés, posés, étalés, étirés, serrés, installés, blottis, adossés, dispersés, répartis, accrochés, éparpillés, ramassés
 
 **Matériaux** : nommer le matériau local exact plutôt qu'un générique. Exemples :
 
@@ -256,14 +258,67 @@ L'ouverture `[Cher,Chère] [PRENOM], bienvenue à [VILLE] : X habitants…` est 
 
 > affleure, transparaît, s'impose, se devine, se glisse, persiste, infuse, résiste, surgit
 
-### 3.6 — Anti-tics
+### 3.6 — Section PHOTOS (tags techniques)
 
-- **Interdit** : « {Tu comprendras,Vous comprendrez} vite » ; « valeur sûre ».
-- **Clichés interdits** : « à couper le souffle », « joyau », « petit coin de paradis », « dolce vita », « chef-d'œuvre architectural », « incontournable », « ne pas manquer », « plongée fascinante », « dîner aux chandelles », « brise marine emporter vos soucis », « melting-pot culturel ».
-- **Éviter** : « On retient… » en début de phrase ; « Ce qui frappe… » max 1× dans toute la fiche.
+**PHOTOS** (section technique, pas de prose) :
+- Lister les **3–6 lieux les plus visuels** mentionnés dans la fiche (hors restaurants), un par ligne.
+- Format strict par ligne : `lieu: Nom exact du lieu`
+- Ne lister que des lieux réels, photographiables, explicitement nommés dans PRESENTATION, QUE_FAIRE ou BONUS.
+- Ne PAS lister le nom de la ville elle-même (elle a déjà ses photos de couverture).
+- Ne PAS lister les restaurants (extraits automatiquement depuis les sections MANGER).
+
+### 3.7 — Section VAN (stationnement van / camping-car)
+
+**VAN** (ville & village uniquement, accolades `{tu,vous}` obligatoires) :
+- Lister **1–3 options de stationnement** adaptées aux vans / fourgons / camping-cars.
+- Format structuré par option, avec bullet `•` :
+  ```
+  • Nom du parking ou de l'aire
+  Adresse : [adresse complète]
+  Places : [capacité approximative, gabarit OK ou non]
+  Tarif : [gratuit | ~X €/jour | ~X €/nuit]
+  Services : [eau, vidange, électricité — si pertinent]
+  Accès centre : [distance à pied jusqu'au centre]
+  ```
+- Ajouter un court paragraphe « À savoir » (2–3 lignes) avec les conseils pratiques : rues à éviter pour le gabarit, marché accessible à pied, stationnement interdit en saison…
+- Ne rien inventer : ne mentionner que des parkings / aires réels et vérifiables.
+- Si aucune option fiable n'est connue, écrire : « Pas d'aire identifiée — vérifier sur Park4Night ou France Passion. »
+
+### 3.8 — Section DUREE (durée recommandée)
+
+**DUREE** (section technique, pas de prose) :
+- Estimer la durée de visite recommandée selon 3 scénarios.
+- Format strict (4 lignes, valeurs libres) :
+  ```
+  recommandee: [durée]
+  si_presse: [durée]
+  si_detente: [durée]
+  nuit_sur_place: oui/non
+  ```
+- Utiliser des unités cohérentes : `1h`, `2h`, `demi-journée`, `1 journée`, `1 nuit`, `2 nuits`, etc.
+- Ne PAS inclure de prose, juste les 4 lignes clé: valeur.
+
+### 3.9 — Anti-tics
+
+**Mots et expressions interdits** :
+- « {Tu comprendras,Vous comprendrez} vite » ; « valeur sûre ».
+- « à couper le souffle », « joyau », « petit coin de paradis », « dolce vita », « chef-d'œuvre architectural », « incontournable », « ne pas manquer », « plongée fascinante », « dîner aux chandelles », « brise marine emporter vos soucis », « melting-pot culturel », « main dans la main », « suspendre le temps », « prolonger la nuit », « n'attend que votre énergie », « loin du tumulte ».
+
+**Patterns structurels interdits** (les plus fréquents chez les LLM) :
+- « Ici, » en début de phrase : **max 1× dans toute la fiche**. Reformuler autrement.
+- « entre X et Y » (pattern balancé) : **max 2× dans toute la fiche**. C'est le tic le plus courant — le repérer activement et reformuler.
+- Ne **jamais** commencer QUE_FAIRE_CONNU par `{Commence,Commencez}`. Varier les attaques : description d'une scène, impératif différent, contextualisation.
+- Ne **jamais** commencer QUE_FAIRE_INCONNU par `{Laisse-toi,Laissez-vous}`. Varier.
+- `{File,Filez}` et `{Gagne,Gagnez}` : **max 1× chacun** dans toute la fiche. Alternatives : `{Pousse,Poussez} jusqu'à`, `{Remonte,Remontez}`, `{Bifurque,Bifurquez} vers`, `{Tourne,Tournez} vers`, `{Attrape,Attrapez}`, `{Suis,Suivez}`, `{Cherche,Cherchez}`, `{Repère,Repérez}`, ou une construction sans impératif.
+- Ne pas terminer 2 sections par la même tournure syntaxique.
+- « On retient… » en début de phrase : interdit. « Ce qui frappe… » : max 1× dans toute la fiche.
+
+**Variété obligatoire** :
 - Pas la même amorce ou la même chute dans 2 sections.
+- Chaque section QUE_FAIRE doit démarrer par une phrase de structure différente de l'autre.
+- Les 4 introductions MANGER doivent avoir des structures différentes entre elles.
 
-### 3.7 — Apostrophes au lecteur
+### 3.10 — Apostrophes au lecteur
 
 - Toujours s'adresser **à** `[PRENOM]`, jamais en parler à la 3e personne.
 - Forme d'appel : `[Cher,Chère] [PRENOM]` — **masculin en 1ère position, féminin en 2nde**. Écrire exactement `[Cher,Chère]`, jamais `[Chère,Chère]`.
@@ -275,7 +330,7 @@ L'ouverture `[Cher,Chère] [PRENOM], bienvenue à [VILLE] : X habitants…` est 
   - **BONUS** : 1× (1ère phrase).
 - Après l'ouverture, préférer « tu/vous » sans répéter le prénom.
 
-### 3.8 — Auto-contrôle (avant d'envoyer)
+### 3.11 — Auto-contrôle (avant d'envoyer)
 
 Avant de répondre, vérifier :
 
@@ -299,6 +354,14 @@ Avant de répondre, vérifier :
 - [ ] 4 BONUS présents.
 - [ ] **2–3 paragraphes par section** (séparés par une ligne vide). Aucun bloc monolithique.
 - [ ] Aucune structure de phrase reprise des exemples du prompt.
+- [ ] Max 1 accord genré `[masc,fem]` par phrase. Pas deux mots genrés contradictoires dans la même phrase.
+- [ ] Pas de double « et » consécutif dans les phrases d'appel avec placeholders (vérifier `[ENFANTS_SUJET]` et `[LISTE_AMIS]`).
+- [ ] BONUS : aucun lieu n'est un copier-coller d'un lieu de QUE_FAIRE ou MANGER (angle différent si réutilisation).
+- [ ] BONUS_COUPLE/FAMILLE/AMIS : possessifs en « vous » (vos, votre), pas en « tu » (tes, ton, ta).
+- [ ] Aucun cliché BONUS interdit (cf. 3.6 — liste étendue).
+- [ ] BONUS : aucune accolade `{}`. BONUS_SEUL en « tu » direct, BONUS_COUPLE/FAMILLE/AMIS en « vous » direct.
+- [ ] Aucun restaurant étoilé Michelin dans MANGER.
+- [ ] Aucun verbe de 3e personne dans des accolades (sujet = « on », relative « qui… », la ville, les habitants…).
 
 ---
 

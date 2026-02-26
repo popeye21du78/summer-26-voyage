@@ -44,3 +44,6 @@ next-env.d.ts
 data/batch/*.jsonl
 data/batch/batch_id*.txt
 data/batch/batch_meta*.json
+data/batch-desc/*.jsonl
+data/batch-desc/batch_id*.txt
+data/debug/

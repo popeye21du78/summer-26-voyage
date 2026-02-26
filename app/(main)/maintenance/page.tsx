@@ -1,11 +1,12 @@
 import Link from "next/link";
-import { Map, BarChart3, Cpu, Settings } from "lucide-react";
+import { Map, BarChart3, Cpu, Settings, Route } from "lucide-react";
 
 const MAINTENANCE_LINKS = [
   { href: "/carte-villes", label: "Carte lieux", icon: Map },
   { href: "/recap-lieux", label: "Récap lieux", icon: BarChart3 },
   { href: "/batch-status", label: "Batch", icon: Cpu },
   { href: "/admin-lieux", label: "Admin", icon: Settings },
+  { href: "/itineraire", label: "Itinéraire", icon: Route },
 ] as const;
 
 export default function MaintenancePage() {

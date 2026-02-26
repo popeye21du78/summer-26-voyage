@@ -1,0 +1,149 @@
+[
+  {
+    "lot": 1,
+    "id": "ville-a",
+    "label": "ville A (64) [~697K tok]",
+    "file": "lot_1_ville-a.jsonl",
+    "requests": 64
+  },
+  {
+    "lot": 2,
+    "id": "ville-b",
+    "label": "ville B (64) [~697K tok]",
+    "file": "lot_2_ville-b.jsonl",
+    "requests": 64
+  },
+  {
+    "lot": 3,
+    "id": "ville-c",
+    "label": "ville C (64) [~697K tok]",
+    "file": "lot_3_ville-c.jsonl",
+    "requests": 64
+  },
+  {
+    "lot": 4,
+    "id": "ville-d",
+    "label": "ville D (63) [~686K tok]",
+    "file": "lot_4_ville-d.jsonl",
+    "requests": 63
+  },
+  {
+    "lot": 5,
+    "id": "village-a",
+    "label": "village A (130) [~800K tok]",
+    "file": "lot_5_village-a.jsonl",
+    "requests": 130
+  },
+  {
+    "lot": 6,
+    "id": "village-b",
+    "label": "village B (130) [~800K tok]",
+    "file": "lot_6_village-b.jsonl",
+    "requests": 130
+  },
+  {
+    "lot": 7,
+    "id": "village-c",
+    "label": "village C (130) [~800K tok]",
+    "file": "lot_7_village-c.jsonl",
+    "requests": 130
+  },
+  {
+    "lot": 8,
+    "id": "village-d",
+    "label": "village D (130) [~800K tok]",
+    "file": "lot_8_village-d.jsonl",
+    "requests": 130
+  },
+  {
+    "lot": 9,
+    "id": "village-e",
+    "label": "village E (130) [~800K tok]",
+    "file": "lot_9_village-e.jsonl",
+    "requests": 130
+  },
+  {
+    "lot": 10,
+    "id": "village-f",
+    "label": "village F (125) [~769K tok]",
+    "file": "lot_10_village-f.jsonl",
+    "requests": 125
+  },
+  {
+    "lot": 11,
+    "id": "rando-a",
+    "label": "rando A (120) [~602K tok]",
+    "file": "lot_11_rando-a.jsonl",
+    "requests": 120
+  },
+  {
+    "lot": 12,
+    "id": "rando-b",
+    "label": "rando B (120) [~602K tok]",
+    "file": "lot_12_rando-b.jsonl",
+    "requests": 120
+  },
+  {
+    "lot": 13,
+    "id": "rando-c",
+    "label": "rando C (118) [~592K tok]",
+    "file": "lot_13_rando-c.jsonl",
+    "requests": 118
+  },
+  {
+    "lot": 14,
+    "id": "plage-a",
+    "label": "plage A (117) [~564K tok]",
+    "file": "lot_14_plage-a.jsonl",
+    "requests": 117
+  },
+  {
+    "lot": 15,
+    "id": "plage-b",
+    "label": "plage B (117) [~564K tok]",
+    "file": "lot_15_plage-b.jsonl",
+    "requests": 117
+  },
+  {
+    "lot": 16,
+    "id": "chateau",
+    "label": "chateau (138)",
+    "file": "lot_16_chateau.jsonl",
+    "requests": 138
+  },
+  {
+    "lot": 17,
+    "id": "site_naturel",
+    "label": "site_naturel (119)",
+    "file": "lot_17_site_naturel.jsonl",
+    "requests": 119
+  },
+  {
+    "lot": 18,
+    "id": "patrimoine",
+    "label": "patrimoine (109)",
+    "file": "lot_18_patrimoine.jsonl",
+    "requests": 109
+  },
+  {
+    "lot": 19,
+    "id": "abbaye",
+    "label": "abbaye (28)",
+    "file": "lot_19_abbaye.jsonl",
+    "requests": 28
+  },
+  {
+    "lot": 20,
+    "id": "musee",
+    "label": "musee (10)",
+    "file": "lot_20_musee.jsonl",
+    "requests": 10
+  },
+  {
+    "lot": 21,
+    "id": "autre",
+    "label": "autre (5)",
+    "file": "lot_21_autre.jsonl",
+    "requests": 5
+  }
+]

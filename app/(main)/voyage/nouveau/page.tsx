@@ -1,10 +1,11 @@
 "use client";
 
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect, useMemo, useCallback, useRef } from "react";
+import "mapbox-gl/dist/mapbox-gl.css";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import dynamic from "next/dynamic";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, Route, Loader2 } from "lucide-react";
 import QuizPreVoyage from "../../../../components/QuizPreVoyage";
 import type { QuizPreVoyageAnswers } from "../../../../data/quiz-types";
 import type { QuizIdentiteAnswers } from "../../../../data/quiz-types";
@@ -38,6 +39,22 @@ function lieuScoreToPoint(ls: LieuScore): LieuPoint {
   };
 }
 
+interface ItinDay {
+  day: number;
+  isStayDay: boolean;
+  points: { nom: string; lat: number; lng: number; famille: string; score: number; departement: string }[];
+  sleepAt: { nom: string; lat: number; lng: number } | null;
+  sleepNights: number;
+}
+interface ItinResult {
+  days: ItinDay[];
+  totalDistanceKm: number;
+  clustersCount: number;
+  totalVisits: number;
+  from: string;
+  to: string;
+}
+
 export default function NouveauVoyagePage() {
   const router = useRouter();
   const [profileId, setProfileId] = useState<string | null>(null);
@@ -49,6 +66,11 @@ export default function NouveauVoyagePage() {
   const [lieuxScored, setLieuxScored] = useState<LieuScore[]>([]);
   const [loadingLieux, setLoadingLieux] = useState(false);
   const [topPercent, setTopPercent] = useState<number>(5);
+
+  // Itinerary state
+  const [itinerary, setItinerary] = useState<ItinResult | null>(null);
+  const [loadingItinerary, setLoadingItinerary] = useState(false);
+  const [itinError, setItinError] = useState("");
 
   useEffect(() => {
     fetch("/api/me")
@@ -268,6 +290,41 @@ export default function NouveauVoyagePage() {
             </div>
           )}
 
+          {/* Bouton + resultat itineraire */}
+          {displayedLieux.length >= 2 && (
+            <ItinerarySection
+              lieux={displayedLieux}
+              profil={profil}
+              itinerary={itinerary}
+              loading={loadingItinerary}
+              error={itinError}
+              onGenerate={async () => {
+                setLoadingItinerary(true);
+                setItinError("");
+                try {
+                  const startLieu = displayedLieux[0];
+                  const res = await fetch("/api/itinerary", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({
+                      lieux: displayedLieux,
+                      start: { lat: Number(startLieu.lat), lng: Number(startLieu.lng) },
+                      nights: profil?.dureeJours ? profil.dureeJours - 1 : 7,
+                      rythme: profil?.rythme ?? "normal",
+                    }),
+                  });
+                  const data = await res.json();
+                  if (!res.ok) throw new Error(data.error || "Erreur");
+                  setItinerary(data);
+                } catch (e: any) {
+                  setItinError(e.message);
+                } finally {
+                  setLoadingItinerary(false);
+                }
+              }}
+            />
+          )}
+
           <div className="flex flex-wrap gap-3 pt-4">
             <Link
               href="/accueil"
@@ -301,3 +358,230 @@ export default function NouveauVoyagePage() {
     </main>
   );
 }
+
+/* ── Itinerary section with Mapbox map ── */
+
+const MapGL = dynamic(() => import("react-map-gl/mapbox").then((m) => m.default), { ssr: false });
+const MarkerGL = dynamic(() => import("react-map-gl/mapbox").then((m) => m.Marker), { ssr: false });
+const SourceGL = dynamic(() => import("react-map-gl/mapbox").then((m) => m.Source), { ssr: false });
+const LayerGL = dynamic(() => import("react-map-gl/mapbox").then((m) => m.Layer), { ssr: false });
+
+const DAY_COLORS = [
+  "#e74c3c", "#e67e22", "#f1c40f", "#2ecc71", "#3498db", "#9b59b6",
+  "#1abc9c", "#e91e63", "#ff9800", "#00bcd4", "#8bc34a", "#ff5722",
+];
+const FAMILLE_ICONS: Record<string, string> = {
+  ville: "🏙", village: "🏘", chateau: "🏰", plage: "🏖",
+  rando: "🥾", site_naturel: "🌿", musee: "🎨",
+  patrimoine: "⛪", abbaye: "⛪", autre: "📍",
+};
+const FRANCE_BOUNDS: [[number, number], [number, number]] = [[-5.5, 41], [9.5, 51.5]];
+
+function ItinerarySection({
+  lieux,
+  profil,
+  itinerary,
+  loading,
+  error,
+  onGenerate,
+}: {
+  lieux: LieuScore[];
+  profil: ProfilRecherche | null;
+  itinerary: ItinResult | null;
+  loading: boolean;
+  error: string;
+  onGenerate: () => void;
+}) {
+  const token = process.env.NEXT_PUBLIC_MAPBOX_TOKEN ?? "";
+  const mapRef = useRef<any>(null);
+  const [routeGeoJSON, setRouteGeoJSON] = useState<GeoJSON.FeatureCollection | null>(null);
+  const [loadingRoutes, setLoadingRoutes] = useState(false);
+
+  // Fetch real road routes
+  useEffect(() => {
+    if (!itinerary || !token) return;
+    const pts: { id: string; nom: string; coordonnees: { lat: number; lng: number } }[] = [];
+    for (const day of itinerary.days) {
+      if (day.isStayDay) continue;
+      for (const p of day.points) {
+        const id = p.nom.toLowerCase().replace(/\s+/g, "-");
+        if (!pts.find((x) => x.id === id)) {
+          pts.push({ id, nom: p.nom, coordonnees: { lat: p.lat, lng: p.lng } });
+        }
+      }
+    }
+    if (pts.length < 2) return;
+    setLoadingRoutes(true);
+    fetch("/api/directions/route-geometry", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ steps: pts }),
+    })
+      .then((r) => (r.ok ? r.json() : Promise.reject()))
+      .then((data) => data.singleLine && setRouteGeoJSON(data.singleLine))
+      .catch(() => {
+        const coords = pts.map((p) => [p.coordonnees.lng, p.coordonnees.lat]);
+        setRouteGeoJSON({
+          type: "FeatureCollection",
+          features: [{ type: "Feature", geometry: { type: "LineString", coordinates: coords }, properties: {} }],
+        });
+      })
+      .finally(() => setLoadingRoutes(false));
+  }, [itinerary, token]);
+
+  // Fit bounds
+  useEffect(() => {
+    if (!itinerary || !mapRef.current) return;
+    const all: [number, number][] = [];
+    for (const d of itinerary.days) for (const p of d.points) all.push([p.lng, p.lat]);
+    if (all.length < 2) return;
+    const lngs = all.map((c) => c[0]), lats = all.map((c) => c[1]);
+    try {
+      mapRef.current.fitBounds([[Math.min(...lngs), Math.min(...lats)], [Math.max(...lngs), Math.max(...lats)]], { padding: 60, duration: 1200 });
+    } catch {}
+  }, [itinerary, routeGeoJSON]);
+
+  const markers = useMemo(() => {
+    if (!itinerary) return [];
+    const m: any[] = [];
+    for (const d of itinerary.days) {
+      for (const p of d.points) {
+        const isSleep = !!(d.sleepAt && p.nom === d.sleepAt.nom);
+        m.push({ ...p, dayNum: d.day, isSleep, isStay: d.isStayDay, sleepNights: d.sleepNights });
+      }
+    }
+    return m;
+  }, [itinerary]);
+
+  const nights = profil?.dureeJours ? profil.dureeJours - 1 : 7;
+
+  return (
+    <div className="space-y-4 pt-4 border-t border-[#A55734]/20">
+      <div className="flex items-center gap-3">
+        <Route className="h-5 w-5 text-[#A55734]" />
+        <h2 className="text-lg font-medium text-[#333]">Itinéraire</h2>
+      </div>
+
+      {!itinerary && (
+        <div className="rounded-lg border border-[#A55734]/20 bg-[#FFF2EB]/30 p-4">
+          <p className="mb-3 text-sm text-[#333]/70">
+            {lieux.length} lieux sélectionnés · {nights} nuits · {profil?.rythme ?? "normal"}
+          </p>
+          <button
+            onClick={onGenerate}
+            disabled={loading}
+            className="flex items-center gap-2 rounded bg-[#A55734] px-5 py-2.5 text-sm font-medium text-white transition hover:bg-[#8a4629] disabled:opacity-50"
+          >
+            {loading ? <Loader2 className="h-4 w-4 animate-spin" /> : <Route className="h-4 w-4" />}
+            {loading ? "Génération de l'itinéraire..." : "Générer l'itinéraire"}
+          </button>
+        </div>
+      )}
+
+      {error && (
+        <div className="rounded border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">{error}</div>
+      )}
+
+      {itinerary && (
+        <div className="grid gap-6 lg:grid-cols-3">
+          {/* Map */}
+          <div className="lg:col-span-2">
+            <div className="relative h-[500px] w-full overflow-hidden rounded-lg border border-[#A55734]/20">
+              {loadingRoutes && (
+                <div className="absolute left-3 top-3 z-10 flex items-center gap-2 rounded-full bg-white/90 px-3 py-1.5 text-xs text-[#A55734] shadow">
+                  <Loader2 className="h-3 w-3 animate-spin" /> Tracé des routes...
+                </div>
+              )}
+              {token ? (
+                <MapGL
+                  ref={mapRef}
+                  mapboxAccessToken={token}
+                  initialViewState={{ longitude: 2.5, latitude: 46.5, zoom: 5.5 }}
+                  minZoom={5}
+                  maxZoom={14}
+                  maxBounds={FRANCE_BOUNDS}
+                  mapStyle="mapbox://styles/mapbox/light-v11"
+                  style={{ width: "100%", height: "100%" }}
+                >
+                  {routeGeoJSON && (
+                    <SourceGL id="itin-route" type="geojson" data={routeGeoJSON} lineMetrics>
+                      <LayerGL id="itin-line" type="line" paint={{ "line-color": "#A55734", "line-width": 4, "line-opacity": 0.7 }} />
+                      <LayerGL id="itin-glow" type="line" paint={{ "line-color": "#A55734", "line-width": 8, "line-opacity": 0.15 }} />
+                    </SourceGL>
+                  )}
+                  {markers.map((m: any, i: number) => {
+                    const color = DAY_COLORS[(m.dayNum - 1) % DAY_COLORS.length];
+                    if (m.isSleep) {
+                      return (
+                        <MarkerGL key={`s-${i}`} longitude={m.lng} latitude={m.lat} anchor="center">
+                          <div className="flex items-center justify-center rounded-full border-[3px] border-white shadow-md" style={{ width: 28, height: 28, background: "#2c3e50" }} title={m.nom + " — Nuit"}>
+                            <span className="text-xs font-bold text-white">{m.sleepNights}</span>
+                          </div>
+                        </MarkerGL>
+                      );
+                    }
+                    if (m.isStay) return null;
+                    return (
+                      <MarkerGL key={`v-${i}`} longitude={m.lng} latitude={m.lat} anchor="center">
+                        <div className="rounded-full border-2 border-white shadow" style={{ width: 14, height: 14, background: color }} title={m.nom + " — J" + m.dayNum} />
+                      </MarkerGL>
+                    );
+                  })}
+                </MapGL>
+              ) : (
+                <div className="flex h-full items-center justify-center text-sm text-[#333]/40">Token Mapbox manquant</div>
+              )}
+            </div>
+          </div>
+
+          {/* Day panel */}
+          <div className="max-h-[500px] overflow-y-auto rounded-lg border border-[#A55734]/20 bg-white p-4">
+            <div className="mb-4 rounded-lg bg-[#FAF4F0] p-3 text-sm">
+              <div className="font-medium text-[#A55734]">{itinerary.from} → {itinerary.to}</div>
+              <div className="mt-1 text-[#333]/70">
+                {itinerary.days.length} jours · ~{itinerary.totalDistanceKm} km · {itinerary.totalVisits} visites · {itinerary.clustersCount} zones
+              </div>
+            </div>
+            {itinerary.days.map((day) => {
+              const color = DAY_COLORS[(day.day - 1) % DAY_COLORS.length];
+              return (
+                <div key={day.day} className="mb-3">
+                  <div className="mb-1 flex items-center gap-2">
+                    <div className="h-3 w-3 rounded-full" style={{ background: color }} />
+                    <span className="text-xs font-semibold text-[#333]">
+                      Jour {day.day}
+                      {day.isStayDay && <span className="ml-2 rounded bg-amber-100 px-1.5 py-0.5 text-[10px] text-amber-700">SÉJOUR</span>}
+                    </span>
+                  </div>
+                  {day.isStayDay ? (
+                    <div className="ml-5 text-xs text-[#333]/60">Journée libre à {day.sleepAt?.nom}</div>
+                  ) : (
+                    <div className="ml-5 space-y-0.5">
+                      {day.points.map((p, i) => (
+                        <div key={i} className="flex items-center gap-1 text-xs text-[#333]/80">
+                          <span>{FAMILLE_ICONS[p.famille] ?? "📍"}</span>
+                          <span>{p.nom}</span>
+                          <span className="text-[10px] text-[#333]/40">({p.departement})</span>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                  {day.sleepAt && <div className="ml-5 mt-0.5 text-xs text-[#A55734]">🛏 {day.sleepAt.nom} ({day.sleepNights}n)</div>}
+                  {!day.sleepAt && !day.isStayDay && <div className="ml-5 mt-0.5 text-xs text-[#333]/40">→ fin du voyage</div>}
+                </div>
+              );
+            })}
+            <button
+              onClick={onGenerate}
+              disabled={loading}
+              className="mt-4 w-full rounded border border-[#A55734]/30 py-2 text-xs font-medium text-[#A55734] transition hover:bg-[#A55734]/10 disabled:opacity-50"
+            >
+              {loading ? "Regénération..." : "Regénérer l'itinéraire"}
+            </button>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
