@@ -8,6 +8,7 @@ import { Menu, LogOut, UserCog } from "lucide-react";
 const NAV_LINKS = [
   { href: "/accueil", label: "Accueil" },
   { href: "/maintenance", label: "Maintenance" },
+  { href: "/batch-status", label: "Batch" },
   { href: "/planning", label: "Planning" },
   { href: "/book", label: "Book" },
   { href: "/data", label: "Data" },

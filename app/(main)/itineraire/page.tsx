@@ -91,11 +91,17 @@ export default function ItinerairePage() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ from, to, nights, rythme }),
       });
-      const data = await res.json();
-      if (!res.ok) throw new Error(data.error || "Erreur serveur");
+      const text = await res.text();
+      let data: ItinResult;
+      try {
+        data = text ? (JSON.parse(text) as ItinResult) : ({} as ItinResult);
+      } catch {
+        throw new Error("Réponse invalide du serveur. Réessaie.");
+      }
+      if (!res.ok) throw new Error((data as { error?: string }).error || "Erreur serveur");
       setResult(data);
-    } catch (e: any) {
-      setError(e.message);
+    } catch (e: unknown) {
+      setError(e instanceof Error ? e.message : "Erreur");
     } finally {
       setLoading(false);
     }
@@ -124,9 +130,17 @@ export default function ItinerairePage() {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ steps: orderedPoints }),
     })
-      .then((r) => (r.ok ? r.json() : Promise.reject(new Error("Route API"))))
+      .then(async (r) => {
+        const text = await r.text();
+        if (!r.ok) throw new Error("Route API");
+        try {
+          return text ? JSON.parse(text) : {};
+        } catch {
+          throw new Error("Réponse route invalide");
+        }
+      })
       .then((data) => {
-        if (data.singleLine) setRouteGeoJSON(data.singleLine);
+        if (data?.singleLine) setRouteGeoJSON(data.singleLine);
       })
       .catch(() => {
         // Fallback: build straight-line GeoJSON

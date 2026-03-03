@@ -34,10 +34,15 @@ export default function CarteVillesMapClient({
   });
   const hasToken = Boolean(mapboxAccessToken?.trim());
 
-  const lieuxFiltered = useMemo(() => {
+  const MAX_MARKERS = 150;
+
+  const { lieuxFiltered, totalCount } = useMemo(() => {
     let list = lieux;
     if (selectedCodeDep.trim()) list = list.filter((l) => l.code_dep === selectedCodeDep);
-    return list.filter((l) => typesVisible[l.type]);
+    list = list.filter((l) => typesVisible[l.type]);
+    const total = list.length;
+    const limited = total > MAX_MARKERS ? list.slice(0, MAX_MARKERS) : list;
+    return { lieuxFiltered: limited, totalCount: total };
   }, [lieux, selectedCodeDep, typesVisible]);
 
   if (!hasToken) return null;
@@ -79,6 +84,11 @@ export default function CarteVillesMapClient({
         </div>
         <span className="text-sm text-[#333333]/70">
           {lieuxFiltered.length} lieu{lieuxFiltered.length !== 1 ? "x" : ""} affiché{lieuxFiltered.length !== 1 ? "s" : ""}
+          {totalCount > MAX_MARKERS && (
+            <span className="ml-1 text-[#333]/60">
+              (max {MAX_MARKERS} sur {totalCount} — filtrer par département pour affiner)
+            </span>
+          )}
         </span>
       </div>
       <div className="h-[500px] w-full">

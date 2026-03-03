@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useCallback, useEffect } from "react";
 import {
   RefreshCw,
   Loader2,
@@ -95,15 +95,38 @@ export default function BatchStatusPage() {
   const [actionOutput, setActionOutput] = useState<string | null>(null);
   const [expandedOutput, setExpandedOutput] = useState(false);
 
-  const fetchStatus = useCallback(async () => {
+  const fetchStatus = useCallback(async (light = false) => {
     setLoading(true);
     setError(null);
     try {
-      const res = await fetch("/api/batch-desc-status", { cache: "no-store" });
-      if (!res.ok) throw new Error(await res.text());
-      setData(await res.json());
+      const url = light ? "/api/batch-desc-status?light=1" : "/api/batch-desc-status";
+      const ctrl = new AbortController();
+      const timeout = setTimeout(() => ctrl.abort(), light ? 10_000 : 90_000);
+      const res = await fetch(url, {
+        cache: "no-store",
+        signal: ctrl.signal,
+      });
+      clearTimeout(timeout);
+      const text = await res.text();
+      if (!res.ok) throw new Error(text || `HTTP ${res.status}`);
+      if (!text?.trim()) throw new Error("Réponse vide de l'API");
+      let parsed: DescStatus;
+      try {
+        parsed = JSON.parse(text) as DescStatus;
+      } catch {
+        throw new Error(
+          "Réponse invalide (JSON tronqué). L'API a peut‑être mis trop de temps. Réessaie dans quelques secondes."
+        );
+      }
+      setData(parsed);
     } catch (e) {
-      setError(e instanceof Error ? e.message : String(e));
+      const msg =
+        e instanceof Error
+          ? e.name === "AbortError"
+            ? "Délai dépassé (90s). L'API est lente, réessaie."
+            : e.message
+          : String(e);
+      setError(msg);
       setData(null);
     } finally {
       setLoading(false);
@@ -111,11 +134,10 @@ export default function BatchStatusPage() {
   }, []);
 
   useEffect(() => {
-    fetchStatus();
+    fetchStatus(true);
   }, [fetchStatus]);
 
-  // Auto-refresh desactive pour eviter de ralentir le systeme.
-  // Utiliser le bouton "Rafraichir" manuellement.
+  // Rafraîchir (sans light) = appel OpenAI pour statut en temps réel. Uniquement au clic ou après soumission.
 
   async function callApi(url: string, key: string) {
     setActionLoading(key);
@@ -123,10 +145,16 @@ export default function BatchStatusPage() {
     setExpandedOutput(true);
     try {
       const res = await fetch(url, { method: "POST" });
-      const json = await res.json();
-      if (!res.ok) throw new Error(json.error || "Erreur");
+      const text = await res.text();
+      let json: { error?: string; output?: string };
+      try {
+        json = text?.trim() ? (JSON.parse(text) as { error?: string; output?: string }) : {};
+      } catch {
+        throw new Error(text || "Réponse invalide");
+      }
+      if (!res.ok) throw new Error(json.error || text || "Erreur");
       setActionOutput(json.output ?? "OK");
-      await fetchStatus();
+      await fetchStatus(false);
     } catch (e) {
       setActionOutput(e instanceof Error ? e.message : String(e));
     } finally {
@@ -176,12 +204,27 @@ export default function BatchStatusPage() {
         Phase 2 — Génération des {summary?.totalRequests?.toLocaleString() ?? "2 066"} descriptions
         via le Batch API OpenAI (gpt-4.1, -50% coût, ~24h par lot).
       </p>
+      {loading && !data && (
+        <p className="mb-4 rounded-lg border border-amber-200 bg-amber-50/50 px-4 py-2 text-sm text-amber-800">
+          Chargement des lots…
+        </p>
+      )}
+      {!loading && !data && !error && (
+        <p className="mb-4 rounded-lg border border-amber-200 bg-amber-50/50 px-4 py-2 text-sm text-amber-800">
+          Aucune donnée. Cliquez sur <strong>Rafraîchir</strong> pour charger.
+        </p>
+      )}
+      {data && (
+        <p className="mb-4 rounded-lg border border-[#A55734]/20 bg-[#FFF2EB]/30 px-4 py-2 text-sm text-[#333]/80">
+          Chargement depuis les fichiers (aucun appel OpenAI). <strong>Rafraîchir</strong> = statut en temps réel.
+        </p>
+      )}
 
       {/* ── Actions bar ── */}
       <div className="mb-6 flex flex-wrap items-center gap-3">
         <button
           type="button"
-          onClick={fetchStatus}
+          onClick={() => fetchStatus(false)}
           disabled={loading}
           className="flex items-center gap-2 rounded-lg bg-[#A55734] px-4 py-2 text-sm font-medium text-white transition hover:bg-[#A55734]/90 disabled:opacity-60"
         >
@@ -222,7 +265,7 @@ export default function BatchStatusPage() {
         {anyRunning && (
           <span className="flex items-center gap-2 text-sm text-amber-600">
             <Loader2 className="h-4 w-4 animate-spin" />
-            Lot en cours — rafraîchissement auto
+            Lot en cours — cliquez sur Rafraîchir pour voir l&apos;avancement
           </span>
         )}
       </div>

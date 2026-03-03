@@ -34,61 +34,77 @@ export async function POST(request: NextRequest) {
   }
 
   const features: RouteSegmentFeature[] = [];
-  const allCoords: GeoJSON.Position[] = [];
+  const segmentResults: { i: number; coordinates: GeoJSON.Position[] }[] = [];
 
-  for (let i = 0; i < steps.length - 1; i++) {
-    const from = steps[i];
-    const to = steps[i + 1];
-    const coords = `${from.coordonnees.lng},${from.coordonnees.lat};${to.coordonnees.lng},${to.coordonnees.lat}`;
-    const url = `https://api.mapbox.com/directions/v5/mapbox/driving/${coords}?access_token=${token}&geometries=geojson`;
+  const stepsLimited = steps.slice(0, 50);
+  const BATCH_SIZE = 6;
 
-    const res = await fetch(url);
-    if (!res.ok) {
-      console.warn("Mapbox Directions segment:", res.status, await res.text());
-      continue;
+  for (let b = 0; b < stepsLimited.length - 1; b += BATCH_SIZE) {
+    const batch = [];
+    for (let i = b; i < Math.min(b + BATCH_SIZE, stepsLimited.length - 1); i++) {
+      const from = stepsLimited[i];
+      const to = stepsLimited[i + 1];
+      const coords = `${from.coordonnees.lng},${from.coordonnees.lat};${to.coordonnees.lng},${to.coordonnees.lat}`;
+      const url = `https://api.mapbox.com/directions/v5/mapbox/driving/${coords}?access_token=${token}&geometries=geojson`;
+      batch.push({ i, from, to, url });
     }
 
-    const data = (await res.json()) as {
-      code?: string;
-      routes?: Array<{
-        geometry?: { coordinates?: [number, number][]; type?: string };
-        distance?: number;
-        duration?: number;
-      }>;
-    };
+    const results = await Promise.all(
+      batch.map(async ({ i, from, to, url }) => {
+        try {
+          const res = await fetch(url, { signal: AbortSignal.timeout(15000) });
+          if (!res.ok) return { i, from, to, route: null };
+          const data = (await res.json()) as {
+            code?: string;
+            routes?: Array<{
+              geometry?: { coordinates?: [number, number][]; type?: string };
+              distance?: number;
+              duration?: number;
+            }>;
+          };
+          const route = data.code === "Ok" && data.routes?.[0]
+            ? data.routes[0]
+            : null;
+          return { i, from, to, route };
+        } catch {
+          return { i, from, to, route: null };
+        }
+      })
+    );
 
-    if (data.code !== "Ok" || !data.routes?.[0]?.geometry?.coordinates?.length) {
-      continue;
+    for (const { i, from, to, route } of results) {
+      if (!route?.geometry?.coordinates?.length) continue;
+
+      const coordinates = route.geometry!.coordinates as GeoJSON.Position[];
+      const distanceM = route.distance ?? 0;
+      const durationS = route.duration ?? 0;
+      const distanceKm = Math.round((distanceM / 1000) * 10) / 10;
+      const durationMin = Math.round(durationS / 60);
+      const tollCost = getPeage(from.id, to.id);
+
+      features.push({
+        type: "Feature",
+        id: `segment-${from.id}-${to.id}`,
+        geometry: { type: "LineString", coordinates },
+        properties: {
+          segmentId: `${from.id}-${to.id}`,
+          fromId: from.id,
+          toId: to.id,
+          fromName: from.nom,
+          toName: to.nom,
+          distanceKm,
+          durationMin,
+          tollCost,
+        },
+      });
+      segmentResults.push({ i, coordinates });
     }
+  }
 
-    const route = data.routes[0];
-    const coordinates = route.geometry!.coordinates as GeoJSON.Position[];
-    const distanceM = route.distance ?? 0;
-    const durationS = route.duration ?? 0;
-    const distanceKm = Math.round((distanceM / 1000) * 10) / 10;
-    const durationMin = Math.round(durationS / 60);
-    const tollCost = getPeage(from.id, to.id);
-
-    features.push({
-      type: "Feature",
-      id: `segment-${from.id}-${to.id}`,
-      geometry: {
-        type: "LineString",
-        coordinates,
-      },
-      properties: {
-        segmentId: `${from.id}-${to.id}`,
-        fromId: from.id,
-        toId: to.id,
-        fromName: from.nom,
-        toName: to.nom,
-        distanceKm,
-        durationMin,
-        tollCost,
-      },
-    });
-
-    if (i === 0) {
+  segmentResults.sort((a, b) => a.i - b.i);
+  for (let j = 0; j < segmentResults.length; j++) {
+    const { coordinates } = segmentResults[j];
+    if (j === 0) {
       allCoords.push(...coordinates);
     } else {
       allCoords.push(...coordinates.slice(1));

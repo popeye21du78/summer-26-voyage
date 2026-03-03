@@ -95,6 +95,15 @@ function sheetToLieux(
 }
 
 /**
+ * Retourne un lieu par son slug (premier trouvé).
+ */
+export function getLieuBySlug(slug: string): LieuPoint | null {
+  const lieux = getLieuxFromCentral();
+  const s = slug.toLowerCase().trim();
+  return lieux.find((l) => l.slug.toLowerCase() === s) ?? null;
+}
+
+/**
  * Charge tous les lieux depuis lieux-central.xlsx.
  * Seuls les lieux avec lat/lng renseignés sont retournés (affichables sur la carte).
  * @param filterCodeDep - optionnel : filtrer par code département (ex. "13")

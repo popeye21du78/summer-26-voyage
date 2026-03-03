@@ -249,18 +249,28 @@ export function scoreLieux(profil: ProfilRecherche, lieux: LieuLigne[]): LieuSco
     const tagsArchLieu = parseTags(lieu.tags_architecture);
 
     if (lieu.source_type === "plage") {
-      tagsCadreLieu.push("bord_de_mer", "lac");
+      const typePlage = String(lieu.type_plage ?? "").trim().toLowerCase();
+      if (typePlage === "plage_lac") {
+        tagsCadreLieu.push("lac");
+      } else {
+        tagsCadreLieu.push("bord_de_mer");
+      }
     }
     if (lieu.source_type === "rando") {
       tagsCadreLieu.push("randos", "moyenne_montagne", "haute_montagne");
     }
 
     // ----- Esthétique : priorité absolue (villes/villages/patrimoine) -----
-    // Objectif : une différence de 1 point esthétique doit écraser les autres préférences.
     if (["ville", "village", "patrimoine"].includes(bucketFamille)) {
       const est = getScoreEsthetique(lieu);
       score += est * 1000;
       facteurs.push(`esthétique×1000 (${est})`);
+    }
+    // Châteaux/abbayes : base esthétique (données présentes en base) pour que les mieux adaptés au profil remontent
+    if (["chateau", "abbaye"].includes(bucketFamille)) {
+      const est = getScoreEsthetique(lieu);
+      score += est * 100;
+      facteurs.push(`esthétique×100 (${est})`);
     }
 
     // ----- Phase 2 : villes — éviter grandes villes (option) -----

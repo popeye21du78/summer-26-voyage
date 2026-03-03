@@ -49,8 +49,11 @@ function getDescriptionStats(): { total: number; raw: number; fixed: number } {
   return { total: raw, raw: raw - fixed, fixed };
 }
 
-export async function GET() {
+export async function GET(request: Request) {
   try {
+    const { searchParams } = new URL(request.url);
+    const light = searchParams.get("light") === "1" || searchParams.get("light") === "true";
+
     const manifestPath = join(BATCH_DIR, "manifest.json");
     if (!existsSync(manifestPath)) {
       return NextResponse.json({
@@ -65,35 +68,79 @@ export async function GET() {
     const apiKey = process.env.OPENAI_API_KEY;
     const openai = apiKey ? new OpenAI({ apiKey }) : null;
 
-    const lots: LotStatus[] = [];
+    const statusMap = new Map<
+      number,
+      { status: string; completed?: number; total?: number; failed?: number }
+    >();
 
-    for (const m of manifest) {
+    if (!light && openai) {
+      const BATCH_SIZE = 4;
+      const DELAY_MS = 300;
+      const toFetch: { m: ManifestEntry; batchId: string; hasOutput: boolean }[] = [];
+      for (const m of manifest) {
+        const idPath = join(BATCH_DIR, `batch_id_lot${m.lot}.txt`);
+        const hasOutput = existsSync(join(BATCH_DIR, `batch_output_lot${m.lot}.jsonl`));
+        if (existsSync(idPath)) {
+          const batchId = readFileSync(idPath, "utf-8").trim();
+          if (batchId && !hasOutput) {
+            toFetch.push({ m, batchId, hasOutput });
+          }
+        }
+      }
+      for (let i = 0; i < toFetch.length; i += BATCH_SIZE) {
+        const chunk = toFetch.slice(i, i + BATCH_SIZE);
+        const results = await Promise.all(
+          chunk.map(async ({ m, batchId }) => {
+            try {
+              const batch = await openai!.batches.retrieve(batchId);
+              return {
+                lot: m.lot,
+                status: batch.status,
+                completed: batch.request_counts?.completed,
+                total: batch.request_counts?.total,
+                failed: batch.request_counts?.failed,
+              };
+            } catch {
+              return { lot: m.lot, status: "unknown" as const };
+            }
+          })
+        );
+        for (const r of results) statusMap.set(r.lot, r);
+        if (i + BATCH_SIZE < toFetch.length) {
+          await new Promise((r) => setTimeout(r, DELAY_MS));
+        }
+      }
+    }
+
+    const lots: LotStatus[] = manifest.map((m) => {
       const idPath = join(BATCH_DIR, `batch_id_lot${m.lot}.txt`);
       const hasOutput = existsSync(join(BATCH_DIR, `batch_output_lot${m.lot}.jsonl`));
       let batchId: string | null = null;
-      let status: string = "not_submitted";
+      let status = "not_submitted";
       let completed: number | undefined;
       let total: number | undefined;
       let failed: number | undefined;
 
       if (existsSync(idPath)) {
         batchId = readFileSync(idPath, "utf-8").trim();
-        if (openai && batchId) {
-          try {
-            const batch = await openai.batches.retrieve(batchId);
-            status = batch.status;
-            completed = batch.request_counts?.completed;
-            total = batch.request_counts?.total;
-            failed = batch.request_counts?.failed;
-          } catch {
-            status = "unknown";
-          }
+        if (hasOutput) {
+          status = "completed";
+          completed = m.requests;
+          total = m.requests;
         } else {
-          status = "submitted";
+          const fetched = statusMap.get(m.lot);
+          if (fetched) {
+            status = fetched.status;
+            completed = fetched.completed;
+            total = fetched.total;
+            failed = fetched.failed;
+          } else if (batchId) {
+            status = "submitted";
+          }
         }
       }
 
-      lots.push({
+      return {
         lot: m.lot,
         id: m.id,
         label: m.label,
@@ -104,8 +151,8 @@ export async function GET() {
         total,
         failed,
         hasOutput,
-      });
-    }
+      };
+    });
 
     const totalRequests = manifest.reduce((s, m) => s + m.requests, 0);
     const completedRequests = lots.reduce((s, l) => s + (l.completed ?? 0), 0);

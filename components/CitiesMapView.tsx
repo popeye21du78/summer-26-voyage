@@ -1,9 +1,19 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import Map, { Marker } from "react-map-gl/mapbox";
+import dynamic from "next/dynamic";
+import Link from "next/link";
 import "mapbox-gl/dist/mapbox-gl.css";
 import type { LieuPoint, LieuType } from "../lib/lieux-types";
+
+const MapboxMap = dynamic(
+  () => import("react-map-gl/mapbox").then((m) => m.default),
+  { ssr: false, loading: () => <div className="h-full w-full flex items-center justify-center bg-[#FFF2EB]/50 text-[#333]/60">Chargement carte…</div> }
+);
+const MapMarker = dynamic(
+  () => import("react-map-gl/mapbox").then((m) => m.Marker),
+  { ssr: false }
+);
 
 const TYPE_COLORS: Record<LieuType, string> = {
   patrimoine: "#a8987a",
@@ -22,6 +32,8 @@ const FRANCE_BOUNDS: [[number, number], [number, number]] = [
 type CitiesMapViewProps = {
   lieux: LieuPoint[];
   mapboxAccessToken: string;
+  /** Ex. "?from=voyage" pour le lien retour à la carte sur la page ville */
+  villeLinkSearch?: string;
 };
 
 /** Garde une seule occurrence par lieu (même id) pour éviter les clés dupliquées. */
@@ -37,6 +49,7 @@ function uniqueLieux(lieux: LieuPoint[]): LieuPoint[] {
 export default function CitiesMapView({
   lieux,
   mapboxAccessToken,
+  villeLinkSearch,
 }: CitiesMapViewProps) {
   const [hoveredId, setHoveredId] = useState<string | null>(null);
 
@@ -52,7 +65,7 @@ export default function CitiesMapView({
 
   return (
     <div className="h-full w-full min-h-[400px] rounded-lg overflow-hidden border border-[#A55734]/30">
-      <Map
+      <MapboxMap
         mapboxAccessToken={mapboxAccessToken}
         initialViewState={initialViewState}
         minZoom={5}
@@ -63,19 +76,18 @@ export default function CitiesMapView({
         attributionControl={true}
       >
         {lieuxUnique.map((lieu) => (
-          <Marker
+          <MapMarker
             key={lieu.id}
             longitude={lieu.lng}
             latitude={lieu.lat}
             anchor="center"
           >
-            <div
-              className="relative cursor-pointer"
+            <Link
+              href={`/ville/${lieu.slug}${villeLinkSearch ?? ""}`}
+              className="relative block cursor-pointer"
               onMouseEnter={() => setHoveredId(lieu.id)}
               onMouseLeave={() => setHoveredId(null)}
-              role="button"
               aria-label={lieu.nom}
-              title={lieu.departement ? `${lieu.nom} (${lieu.departement})` : lieu.nom}
             >
               <div
                 className="rounded-full border-2 border-white shadow-md transition-transform hover:scale-125"
@@ -87,19 +99,18 @@ export default function CitiesMapView({
                 }}
               />
               {hoveredId === lieu.id && (
-                <div className="absolute left-1/2 top-full z-10 mt-1 -translate-x-1/2 whitespace-nowrap rounded bg-[#FAF4F0] px-2 py-1 text-xs font-medium text-[#333333] shadow-lg ring-1 ring-[#A55734]/30">
-                  {lieu.nom}
+                <div className="absolute left-1/2 top-full z-20 mt-1 -translate-x-1/2 whitespace-nowrap rounded bg-white px-2 py-1.5 text-xs shadow-lg ring-1 ring-[#A55734]/30">
+                  <div className="font-medium text-[#333]">{lieu.nom}</div>
                   {lieu.departement ? (
-                    <span className="ml-1 text-[#333333]/70">
-                      ({lieu.departement}) — {lieu.type}
-                    </span>
+                    <div className="text-[#333]/70">{lieu.departement} — {lieu.type}</div>
                   ) : null}
+                  <div className="text-[#A55734] mt-0.5">Cliquer pour en savoir plus</div>
                 </div>
               )}
-            </div>
-          </Marker>
+            </Link>
+          </MapMarker>
         ))}
-      </Map>
+      </MapboxMap>
     </div>
   );
 }

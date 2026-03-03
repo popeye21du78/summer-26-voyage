@@ -35,7 +35,8 @@ export async function getItinerary(): Promise<ItineraryRow[]> {
       .order("ordre", { ascending: true })
       .returns<ItineraryDbRow[]>();
     if (error) {
-      console.error("Supabase getItinerary:", error.message, error.code, error.details);
+      // Réseau/Supabase indisponible : log discret
+      console.warn("Supabase getItinerary:", error.message);
       return [];
     }
     return (data ?? []) as unknown as ItineraryRow[];

@@ -12,10 +12,16 @@ import type { QuizIdentiteAnswers } from "../../../../data/quiz-types";
 import { getQuizStorageKey } from "../../../../data/test-profiles";
 import { quizToProfilRecherche } from "../../../../lib/quiz-to-profil";
 import type { ProfilRecherche } from "../../../../lib/quiz-to-profil";
+import { quizToProfilVille } from "../../../../lib/quiz-to-profil-ville";
 import { applyProportions, type LieuScore } from "../../../../lib/score-lieux";
 import type { LieuPoint, LieuType } from "../../../../lib/lieux-types";
 
 const QUIZ_PREVOYAGE_KEY = "quiz_prevoyage";
+const VOYAGE_SESSION_KEY = "voyage_profil";
+const VOYAGE_PROFIL_VILLE_KEY = "voyage_profil_ville";
+const VOYAGE_LIEUX_KEY = "voyage_lieux";
+const VOYAGE_SUBMITTED_KEY = "voyage_submitted";
+const VOYAGE_TOP_PERCENT_KEY = "voyage_top_percent";
 
 const CitiesMapView = dynamic(() => import("../../../../components/CitiesMapView"), {
   ssr: false,
@@ -94,6 +100,32 @@ export default function NouveauVoyagePage() {
                 const parsed = JSON.parse(stored);
                 if (parsed?.answers) setInitialAnswers(parsed.answers);
               }
+              // Restauration du voyage depuis sessionStorage (retour depuis page ville)
+              const submitted = sessionStorage.getItem(VOYAGE_SUBMITTED_KEY);
+              if (submitted === "true") {
+                const storedProfil = sessionStorage.getItem(VOYAGE_SESSION_KEY);
+                const storedLieux = sessionStorage.getItem(VOYAGE_LIEUX_KEY);
+                const storedTop = sessionStorage.getItem(VOYAGE_TOP_PERCENT_KEY);
+                if (storedProfil) {
+                  try {
+                    setProfil(JSON.parse(storedProfil));
+                  } catch {
+                    // ignorer
+                  }
+                }
+                if (storedLieux) {
+                  try {
+                    setLieuxScored(JSON.parse(storedLieux));
+                  } catch {
+                    // ignorer
+                  }
+                }
+                if (storedTop) {
+                  const n = parseInt(storedTop, 10);
+                  if (!isNaN(n)) setTopPercent(n);
+                }
+                setSubmitted(true);
+              }
             } catch {
               // ignorer
             }
@@ -117,6 +149,12 @@ export default function NouveauVoyagePage() {
   }, [lieuxScored, topPercent, profil?.proportionsAmbiance]);
 
   const lieuxForMap = useMemo(() => displayedLieux.map(lieuScoreToPoint), [displayedLieux]);
+
+  useEffect(() => {
+    if (submitted && typeof window !== "undefined") {
+      sessionStorage.setItem(VOYAGE_TOP_PERCENT_KEY, String(topPercent));
+    }
+  }, [submitted, topPercent]);
 
   function handleSubmit(answers: QuizPreVoyageAnswers) {
     setSubmitting(true);
@@ -145,7 +183,12 @@ export default function NouveauVoyagePage() {
         }
       }
       const p = quizToProfilRecherche(identiteAnswers, answers);
+      const profilVille = quizToProfilVille(identiteAnswers, answers);
       setProfil(p);
+      sessionStorage.setItem(VOYAGE_SESSION_KEY, JSON.stringify(p));
+      sessionStorage.setItem(VOYAGE_PROFIL_VILLE_KEY, JSON.stringify(profilVille));
+      sessionStorage.setItem(VOYAGE_SUBMITTED_KEY, "true");
+      sessionStorage.setItem(VOYAGE_TOP_PERCENT_KEY, String(topPercent));
 
       setLoadingLieux(true);
       fetch("/api/score-lieux", {
@@ -155,7 +198,10 @@ export default function NouveauVoyagePage() {
       })
         .then((res) => res.json())
         .then((data) => {
-          if (data.lieux) setLieuxScored(data.lieux);
+          if (data.lieux) {
+            setLieuxScored(data.lieux);
+            sessionStorage.setItem(VOYAGE_LIEUX_KEY, JSON.stringify(data.lieux));
+          }
         })
         .catch(() => setLieuxScored([]))
         .finally(() => setLoadingLieux(false));
@@ -232,6 +278,7 @@ export default function NouveauVoyagePage() {
                 <CitiesMapView
                   lieux={lieuxForMap}
                   mapboxAccessToken={process.env.NEXT_PUBLIC_MAPBOX_TOKEN!}
+                  villeLinkSearch="?from=voyage"
                 />
               </div>
             ) : lieuxForMap.length > 0 && !process.env.NEXT_PUBLIC_MAPBOX_TOKEN ? (

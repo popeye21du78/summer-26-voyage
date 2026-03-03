@@ -101,9 +101,10 @@ function getFamilleType(lieu: LieuLigne): FamilleType {
     return "musee";
   }
 
-  // Site naturel : lacs, montagnes, caps, forêts, grottes, cascades, gorges, massifs, dunes, baies, îles
+  // Site naturel : lacs, montagnes, caps, forêts, grottes, cascades, gorges, massifs, dunes, baies, îles, réserves
   if (
     tp.includes("lac") ||
+    tp.includes("reserve naturelle") ||
     tp.includes("parc naturel") ||
     tp.includes("parc national") ||
     tp.includes("site naturel") ||
@@ -132,23 +133,32 @@ function getFamilleType(lieu: LieuLigne): FamilleType {
     tp.includes(" île") ||
     nom.includes("lac ") ||
     nom.includes("dune ") ||
-    nom.includes("baie ")
+    nom.includes("baie ") ||
+    nom.includes("ile aux ")
   ) {
     return "site_naturel";
   }
 
-  // Patrimoine : monuments, cathédrales, ponts, citadelles, cités médiévales, sites archéologiques, etc.
+  // Ville ou village (cités, centres historiques) — pas patrimoine, ce sont des localités
+  if (
+    tp.includes("cite medievale") ||
+    tp.includes("cite episcopale") ||
+    tp.includes("cite fortifiee") ||
+    tp.includes("ville fortifiee") ||
+    tp.includes("ville d'art") ||
+    tp.includes("citadelle") ||
+    tp.includes("centre historique") ||
+    tp.includes("site religieux")
+  ) {
+    return isVille(lieu) ? "ville" : "village";
+  }
+
+  // Patrimoine : monuments isolés (ponts, viaducs, sites archéologiques, etc.) — pas les villes/villages
   if (
     tp.includes("cathedrale") ||
     tp.includes("basilique") ||
     tp.includes("pont ") ||
     tp.includes("viaduc") ||
-    tp.includes("citadelle") ||
-    tp.includes("cite medievale") ||
-    tp.includes("cite fortifiee") ||
-    tp.includes("ville fortifiee") ||
-    tp.includes("ville d'art") ||
-    tp.includes("cite episcopale") ||
     tp.includes("site archeologique") ||
     tp.includes("megalithe") ||
     tp.includes("troglodyte") ||
@@ -201,6 +211,25 @@ function getFamilleType(lieu: LieuLigne): FamilleType {
   return "autre";
 }
 
+/** Corrige les données connues erronées avant le calcul famille_type */
+function fixKnownBadData(lieux: LieuLigne[]): void {
+  for (const lieu of lieux) {
+    const nom = String(lieu.nom || "").trim();
+    const slug = String(lieu.slug || "").trim();
+    // Porto-Vecchio : Corse (2A), pas Pyrénées-Orientales (66)
+    if (slug === "porto-vecchio" || nom === "Porto-Vecchio") {
+      lieu.code_dep = "2A";
+      lieu.departement = "Corse-du-Sud";
+      if (lieu.population === 121616) lieu.population = 12000;
+    }
+    // Île aux Oiseaux : réserve naturelle, pas une ville (population de la commune erronée)
+    if (slug === "ile-aux-oiseaux" || nom === "Île aux Oiseaux") {
+      lieu.population = 10;
+      lieu.categorie_taille = "";
+    }
+  }
+}
+
 function main() {
   const raw = readFileSync(JSON_PATH, "utf-8");
   const data = JSON.parse(raw) as { lieux?: LieuLigne[] };
@@ -209,6 +238,8 @@ function main() {
     console.error("❌ Structure invalide : lieux attendu");
     process.exit(1);
   }
+
+  fixKnownBadData(data.lieux);
 
   const stats: Record<FamilleType, number> = {
     ville: 0,

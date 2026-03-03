@@ -26,22 +26,40 @@ async function searchUnsplash(
 ): Promise<UnsplashPhoto | null> {
   if (!UNSPLASH_ACCESS_KEY) return null;
 
-  const encoded = encodeURIComponent(query);
-  const res = await fetch(
-    `https://api.unsplash.com/search/photos?query=${encoded}&per_page=1&page=${page}&orientation=landscape`,
-    {
-      headers: { Authorization: `Client-ID ${UNSPLASH_ACCESS_KEY}` },
-      next: { revalidate: 0 },
-    }
-  );
+  try {
+    const encoded = encodeURIComponent(query);
+    const ctrl = new AbortController();
+    const timeout = setTimeout(() => ctrl.abort(), 8000);
+    const res = await fetch(
+      `https://api.unsplash.com/search/photos?query=${encoded}&per_page=1&page=${page}&orientation=landscape`,
+      {
+        headers: { Authorization: `Client-ID ${UNSPLASH_ACCESS_KEY}` },
+        next: { revalidate: 0 },
+        signal: ctrl.signal,
+      }
+    );
+    clearTimeout(timeout);
 
-  if (!res.ok) {
-    console.warn("Unsplash API error:", res.status, await res.text());
+    if (!res.ok) {
+      console.warn("Unsplash API error:", res.status, await res.text());
+      return null;
+    }
+
+    const text = await res.text();
+    if (!text?.trim()) return null;
+    let data: { results?: UnsplashPhoto[] };
+    try {
+      data = JSON.parse(text) as { results?: UnsplashPhoto[] };
+    } catch {
+      console.warn("Unsplash: réponse JSON invalide");
+      return null;
+    }
+    return data.results?.[0] ?? null;
+  } catch (e) {
+    const err = e as Error;
+    if (err.name !== "AbortError") console.warn("Unsplash fetch:", err.message);
     return null;
   }
-
-  const data = (await res.json()) as { results?: UnsplashPhoto[] };
-  return data.results?.[0] ?? null;
 }
 
 function buildUrl(photo: UnsplashPhoto): string | null {
