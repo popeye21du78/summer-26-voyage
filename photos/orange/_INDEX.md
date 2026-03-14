@@ -19,5 +19,3 @@
 - `le-parvis/` — Le Parvis
 - `la-cantina/` — La Cantina
 - `le-moderne/` — Le Moderne
-- `les-artistes/` — Les Artistes
-- `le-petit-resto-de-paul/` — Le Petit Resto de Paul

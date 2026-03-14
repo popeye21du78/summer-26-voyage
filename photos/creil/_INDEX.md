@@ -20,5 +20,3 @@
 - `le-phare-du-portugal/` — Le Phare du Portugal
 - `le-cafe-de-la-gare/` — Le Café de la Gare
 - `sesame-et-sel/` — Sésame et Sel
-- `le-mekong/` — Le Mékong
-- `l-atelier-gourmand/` — L’Atelier Gourmand

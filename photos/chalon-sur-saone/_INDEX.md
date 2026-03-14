@@ -16,9 +16,5 @@
 ## Restaurants (dossier `restos/`)
 - `la-table-de-lea/` — La Table de Léa
 - `le-bistrot/` — Le Bistrot
-- `le-gourmand/` — Le Gourmand
-- `le-saint-georges/` — Le Saint-Georges
 - `brasserie-le-saint-laurent/` — Brasserie Le Saint-Laurent
 - `le-comptoir/` — Le Comptoir
-- `l-ami-fritz/` — L’Ami Fritz
-- `la-reale/` — La Réale

@@ -20,5 +20,3 @@
 - `l-ardoise/` — L’Ardoise
 - `le-pelagos/` — Le Pelagos
 - `l-aventure/` — L’Aventure
-- `la-plage-d-argent/` — La Plage d’Argent
-- `le-porquerollais/` — Le Porquerollais

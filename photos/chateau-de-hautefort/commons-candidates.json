@@ -1,0 +1,78 @@
+{
+  "slug": "chateau-de-hautefort",
+  "nom": "Château de Hautefort",
+  "fetchedAt": "2026-03-13T13:06:54.207Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Ch%C3%A2teau_des_Bories.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20des%20Bories.jpg",
+      "title": "Château des Bories.jpg",
+      "width": 5647,
+      "height": 3879,
+      "size": 4485856,
+      "timestamp": "2017-08-11T21:01:31Z",
+      "author": "Jean-Christophe BENOIST",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Le_Change_ch%C3%A2teau_la_Sandre_%281%29.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Change%20ch%C3%A2teau%20la%20Sandre%20(1).JPG",
+      "title": "Le Change château la Sandre (1).JPG",
+      "width": 3264,
+      "height": 2448,
+      "size": 3743250,
+      "timestamp": "2011-04-26T19:55:41Z",
+      "author": "Père Igor",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 5
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Escoire_ch%C3%A2teau.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEscoire%20ch%C3%A2teau.JPG",
+      "title": "Escoire château.JPG",
+      "width": 2174,
+      "height": 1630,
+      "size": 913479,
+      "timestamp": "2008-06-23T07:15:42Z",
+      "author": "Père Igor",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 4
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Grand escalier d’honneur",
+      "photos": []
+    },
+    {
+      "label": "Jardins à la française",
+      "photos": []
+    },
+    {
+      "label": "Terrasse balustrée",
+      "photos": []
+    },
+    {
+      "label": "Bibliothèque",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Eug%C3%A8ne_Le_Roy_-_Carnet_de_notes_d%E2%80%99une_excursion_de_quinze_jours_en_P%C3%A9rigord%2C_1901_-_p39.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEug%C3%A8ne%20Le%20Roy%20-%20Carnet%20de%20notes%20d%E2%80%99une%20excursion%20de%20quinze%20jours%20en%20P%C3%A9rigord%2C%201901%20-%20p39.jpg",
+          "title": "Eugène Le Roy - Carnet de notes d’une excursion de quinze jours en Périgord, 1901 - p39.jpg",
+          "width": 663,
+          "height": 385,
+          "size": 204013,
+          "timestamp": "2023-03-24T23:04:08Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q67187136\" class=\"extiw\" title=\"d:Q67187136\"><span title=\"French artist and linguist (1859-1928)\">Jean-Louis Daniel</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
+    }
+  ]
+}

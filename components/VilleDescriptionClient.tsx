@@ -90,12 +90,11 @@ export function VilleDescriptionClient({
     setCommonsError(null);
     try {
       const res = await fetch(`/api/commons-photos?slug=${encodeURIComponent(slug)}`);
-      if (!res.ok) {
-        const err = await res.json().catch(() => ({}));
-        throw new Error(err.error ?? `Erreur ${res.status}`);
-      }
-      const data = (await res.json()) as CommonsPhotosData;
-      setCommonsData(data);
+      const text = await res.text();
+      const parsed = text?.trim() ? (JSON.parse(text) as CommonsPhotosData & { error?: string }) : null;
+      if (!res.ok) throw new Error(parsed?.error ?? `Erreur ${res.status}`);
+      if (!parsed) throw new Error("Réponse vide");
+      setCommonsData(parsed);
     } catch (e) {
       setCommonsError(e instanceof Error ? e.message : "Erreur lors du chargement");
     } finally {

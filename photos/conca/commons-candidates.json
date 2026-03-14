@@ -1,0 +1,74 @@
+{
+  "slug": "conca",
+  "nom": "Conca",
+  "fetchedAt": "2026-03-13T13:52:40.456Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/D%C3%A9part_GR20_Conca.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AD%C3%A9part%20GR20%20Conca.jpg",
+      "title": "Départ GR20 Conca.jpg",
+      "width": 4608,
+      "height": 3456,
+      "size": 5096090,
+      "timestamp": "2023-05-24T15:48:37Z",
+      "author": "Rémih",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/For%C3%AAt_de_Conca2.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFor%C3%AAt%20de%20Conca2.jpg",
+      "title": "Forêt de Conca2.jpg",
+      "width": 3456,
+      "height": 4608,
+      "size": 7324989,
+      "timestamp": "2023-05-24T15:48:09Z",
+      "author": "Rémih",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Aerial_view_of_Cavu_Valley%2C_Corsica%2C_France_%2852723810741%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAerial%20view%20of%20Cavu%20Valley%2C%20Corsica%2C%20France%20(52723810741).jpg",
+      "title": "Aerial view of Cavu Valley, Corsica, France (52723810741).jpg",
+      "width": 5464,
+      "height": 3640,
+      "size": 20218319,
+      "timestamp": "2023-03-03T19:47:21Z",
+      "author": "dronepicr",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Église Saint-Étienne de Conca",
+      "photos": []
+    },
+    {
+      "label": "Fontaine du village",
+      "photos": []
+    },
+    {
+      "label": "Départ du GR20",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/D%C3%A9part_GR20_Conca.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AD%C3%A9part%20GR20%20Conca.jpg",
+          "title": "Départ GR20 Conca.jpg",
+          "width": 4608,
+          "height": 3456,
+          "size": 5096090,
+          "timestamp": "2023-05-24T15:48:37Z",
+          "author": "Rémih",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
+    }
+  ]
+}

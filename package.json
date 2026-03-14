@@ -4,9 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev --webpack",
+    "restart": "powershell -ExecutionPolicy Bypass -File scripts/restart-dev.ps1",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "batch-photos": "tsx scripts/fetch-commons-photos-batch.ts",
+    "batch-photos:bg": "powershell -ExecutionPolicy Bypass -File scripts/start-photos-batch-background.ps1"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.3.1",

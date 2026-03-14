@@ -20,5 +20,3 @@
 - `la-rose-des-sables/` — La Rose des Sables
 - `brasserie-du-canal/` — Brasserie du Canal
 - `cafe-du-marche/` — Café du Marché
-- `la-taverne/` — La Taverne
-- `le-zinc/` — Le Zinc

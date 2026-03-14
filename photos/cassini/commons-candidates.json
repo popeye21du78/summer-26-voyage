@@ -1,0 +1,104 @@
+{
+  "slug": "cassini",
+  "nom": "Cassini",
+  "fetchedAt": "2026-03-13T12:29:56.842Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/ISS050-E-16342_-_View_of_Earth.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS050-E-16342%20-%20View%20of%20Earth.jpg",
+      "title": "ISS050-E-16342 - View of Earth.jpg",
+      "width": 4928,
+      "height": 3280,
+      "size": 3496403,
+      "timestamp": "2021-03-28T08:07:57Z",
+      "author": "Earth Science and Remote Sensing Unit",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/ISS053-E-104634_-_View_of_Earth.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS053-E-104634%20-%20View%20of%20Earth.jpg",
+      "title": "ISS053-E-104634 - View of Earth.jpg",
+      "width": 4928,
+      "height": 3280,
+      "size": 1895841,
+      "timestamp": "2021-04-02T02:47:12Z",
+      "author": "Earth Science and Remote Sensing Unit",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/ISS053-E-105780_-_View_of_Earth.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS053-E-105780%20-%20View%20of%20Earth.jpg",
+      "title": "ISS053-E-105780 - View of Earth.jpg",
+      "width": 4928,
+      "height": 3280,
+      "size": 1966969,
+      "timestamp": "2021-04-02T03:02:38Z",
+      "author": "Earth Science and Remote Sensing Unit",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Signal de Cassini",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Grande_Aiguille_%40_S%C3%A9a.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrande%20Aiguille%20%40%20S%C3%A9a.jpg",
+          "title": "Grande Aiguille @ Séa.jpg",
+          "width": 5184,
+          "height": 3888,
+          "size": 2801437,
+          "timestamp": "2025-04-09T13:56:32Z",
+          "author": "Rémih",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Saint-Andr%C3%A9-la-C%C3%B4te_-_Signal_de_Cassini.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Andr%C3%A9-la-C%C3%B4te%20-%20Signal%20de%20Cassini.jpg",
+          "title": "Saint-André-la-Côte - Signal de Cassini.jpg",
+          "width": 1534,
+          "height": 1077,
+          "size": 1324829,
+          "timestamp": "2014-10-27T14:15:25Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q16219232\" class=\"extiw\" title=\"d:Q16219232\"><span title=\"French painter (1854-1940)\">Jean-Baptiste Drevet</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Enceladus_atmosphere_fr.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEnceladus%20atmosphere%20fr.jpg",
+          "title": "Enceladus atmosphere fr.jpg",
+          "width": 1222,
+          "height": 916,
+          "size": 36760,
+          "timestamp": "2006-04-08T12:09:56Z",
+          "author": "Inconnu",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "label": "Cham des Bondons",
+      "photos": []
+    },
+    {
+      "label": "rivière Tarn (au départ)",
+      "photos": []
+    },
+    {
+      "label": "plateau du Mont Lozère",
+      "photos": []
+    }
+  ]
+}

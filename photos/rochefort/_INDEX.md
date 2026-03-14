@@ -20,5 +20,3 @@
 - `les-quatre-saisons/` — Les Quatre Saisons
 - `le-marydiane/` — Le Marydiane
 - `le-bo-bar/` — Le Bo Bar
-- `les-potos-feux/` — Les Potos Feux
-- `le-cafe-des-sports/` — Le Café des Sports

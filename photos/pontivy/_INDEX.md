@@ -20,5 +20,3 @@
 - `la-cantine/` — La Cantine
 - `le-bistrot-des-anges/` — Le Bistrot des Anges
 - `l-annexe/` — L’Annexe
-- `la-pompe-a-vin/` — La Pompe à Vin
-- `l-aiglon/` — L’Aiglon

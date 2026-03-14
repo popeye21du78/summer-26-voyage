@@ -14,11 +14,7 @@
 - `fontaine-des-trois-graces/` — Fontaine des Trois-Grâces
 
 ## Restaurants (dossier `restos/`)
-- `restaurant-le-p-tit-bouchon/` — Restaurant : Le P’tit Bouchon
-- `restaurant-la-table-d-isis/` — Restaurant : La Table d’Isis
 - `restaurant-la-gourmandine/` — Restaurant : La Gourmandine
 - `restaurant-le-coq-en-pate/` — Restaurant : Le Coq en Pâte
-- `restaurant-l-atelier-des-saveurs/` — Restaurant : L’Atelier des Saveurs
-- `restaurant-le-comptoir-a-moustaches/` — Restaurant : Le Comptoir à Moustaches
 - `restaurant-la-belle-epoque/` — Restaurant : La Belle Époque
 - `restaurant-le-pub-rochefort/` — Restaurant : Le Pub Rochefort

@@ -1,0 +1,70 @@
+{
+  "slug": "plage-de-la-garonne",
+  "nom": "Plage de la Garonne",
+  "fetchedAt": "2026-03-14T11:04:11.298Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Plage_de_la_Chambrette_Verdon-sur-Mer_-_panoramio_%281%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlage%20de%20la%20Chambrette%20Verdon-sur-Mer%20-%20panoramio%20(1).jpg",
+      "title": "Plage de la Chambrette Verdon-sur-Mer - panoramio (1).jpg",
+      "width": 3968,
+      "height": 2976,
+      "size": 3552040,
+      "timestamp": "2023-02-11T11:09:09Z",
+      "author": "graffiteck",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Copropri%C3%A9t%C3%A9_La_Plage_Verdon-sur-Mer_-_panoramio.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACopropri%C3%A9t%C3%A9%20La%20Plage%20Verdon-sur-Mer%20-%20panoramio.jpg",
+      "title": "Copropriété La Plage Verdon-sur-Mer - panoramio.jpg",
+      "width": 3968,
+      "height": 2976,
+      "size": 2941699,
+      "timestamp": "2017-03-04T16:24:17Z",
+      "author": "graffiteck",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Plage_de_la_Chambrette_Verdon-sur-Mer_-_panoramio.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlage%20de%20la%20Chambrette%20Verdon-sur-Mer%20-%20panoramio.jpg",
+      "title": "Plage de la Chambrette Verdon-sur-Mer - panoramio.jpg",
+      "width": 3968,
+      "height": 2976,
+      "size": 2761762,
+      "timestamp": "2017-03-04T16:32:20Z",
+      "author": "graffiteck",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    }
+  ],
+  "lieux": [
+    {
+      "label": "pinède du Verdon-sur-Mer",
+      "photos": []
+    },
+    {
+      "label": "estuaire de la Garonne",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/La_Pointe_de_Grave_depuis_Royan_-_Gironde_Garonne_Charente-Maritime_-_Image_Picture_Photography_%2813951593275%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Pointe%20de%20Grave%20depuis%20Royan%20-%20Gironde%20Garonne%20Charente-Maritime%20-%20Image%20Picture%20Photography%20(13951593275).jpg",
+          "title": "La Pointe de Grave depuis Royan - Gironde Garonne Charente-Maritime - Image Picture Photography (13951593275).jpg",
+          "width": 4104,
+          "height": 2592,
+          "size": 4193812,
+          "timestamp": "2014-12-15T20:40:53Z",
+          "author": "Grand Parc - Bordeaux, France",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
+    }
+  ]
+}

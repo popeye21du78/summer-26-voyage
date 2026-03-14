@@ -20,5 +20,3 @@
 - `le-sesame/` — Le Sésame
 - `le-bistrot-gourmand/` — Le Bistrot Gourmand
 - `la-corderie/` — La Corderie
-- `le-basilic/` — Le Basilic
-- `le-calife/` — Le Calife

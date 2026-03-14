@@ -10,6 +10,3 @@
 - `chateau-grammont/` — Château Grammont
 - `villa-japy/` — Villa Japy
 - `tourbiere-de-la-combe-noire/` — Tourbière de la Combe Noire
-
-## Restaurants (dossier `restos/`)
-- `la-table-du-chateau/` — La Table du Château

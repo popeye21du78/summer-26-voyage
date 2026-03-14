@@ -1,0 +1,104 @@
+{
+  "slug": "abbaye-de-citeaux",
+  "nom": "Abbaye de Cîteaux",
+  "fetchedAt": "2026-03-13T11:59:55.304Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Citeaux_-_03.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACiteaux%20-%2003.jpg",
+      "title": "Citeaux - 03.jpg",
+      "width": 4640,
+      "height": 3472,
+      "size": 10576213,
+      "timestamp": "2022-07-01T20:34:56Z",
+      "author": "Christophe.Finot",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Citeaux_-_04.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACiteaux%20-%2004.jpg",
+      "title": "Citeaux - 04.jpg",
+      "width": 4640,
+      "height": 3472,
+      "size": 10541374,
+      "timestamp": "2022-07-01T20:35:10Z",
+      "author": "Christophe.Finot",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Citeaux_-_05.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACiteaux%20-%2005.jpg",
+      "title": "Citeaux - 05.jpg",
+      "width": 4640,
+      "height": 3472,
+      "size": 10160069,
+      "timestamp": "2022-07-01T20:35:26Z",
+      "author": "Christophe.Finot",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Cloître",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Abbaye_Sainte-Marie_de_Valmagne_08.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20Sainte-Marie%20de%20Valmagne%2008.jpg",
+          "title": "Abbaye Sainte-Marie de Valmagne 08.jpg",
+          "width": 4272,
+          "height": 2848,
+          "size": 4852368,
+          "timestamp": "2021-10-04T16:20:59Z",
+          "author": "Selmoval",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Cloistre_de_l%27Abbaie_de_Citeaux_1613_%3B_de_l%27Eglise_et_cloistre_de_Labbaie_de_Citeaux_-_Ve%C3%BCe_du_Clo%C3%AEtre_de_l%27Abaye_de_Citeaux%2C_en_1613_-_dessin_-_Etienne_Martellange_-_btv1b6937476c_%282_of_2%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACloistre%20de%20l'Abbaie%20de%20Citeaux%201613%20%3B%20de%20l'Eglise%20et%20cloistre%20de%20Labbaie%20de%20Citeaux%20-%20Ve%C3%BCe%20du%20Clo%C3%AEtre%20de%20l'Abaye%20de%20Citeaux%2C%20en%201613%20-%20dessin%20-%20Etienne%20Martellange%20-%20btv1b6937476c%20(2%20of%202).jpg",
+          "title": "Cloistre de l'Abbaie de Citeaux 1613 ; de l'Eglise et cloistre de Labbaie de Citeaux - Veüe du Cloître de l'Abaye de Citeaux, en 1613 - dessin - Etienne Martellange - btv1b6937476c (2 of 2).jpg",
+          "width": 5613,
+          "height": 4508,
+          "size": 1796855,
+          "timestamp": "2025-02-24T01:48:46Z",
+          "author": "<div class=\"fn value\">\nMartellange, Étienne (1569-1641). Dessinateur</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Abbaye_Sainte-Marie_de_Valmagne_06.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20Sainte-Marie%20de%20Valmagne%2006.jpg",
+          "title": "Abbaye Sainte-Marie de Valmagne 06.jpg",
+          "width": 2848,
+          "height": 4272,
+          "size": 6016207,
+          "timestamp": "2021-10-04T16:20:34Z",
+          "author": "Selmoval",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "label": "Salle du chapitre",
+      "photos": []
+    },
+    {
+      "label": "Ancienne boulangerie",
+      "photos": []
+    },
+    {
+      "label": "Potager monastique",
+      "photos": []
+    }
+  ]
+}

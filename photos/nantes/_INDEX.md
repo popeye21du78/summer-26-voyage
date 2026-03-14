@@ -18,7 +18,3 @@
 - `le-bouchon/` — Le Bouchon
 - `la-cigale/` — La Cigale
 - `l-atlantide-1874-maison-gueho/` — L’Atlantide 1874 – Maison Guého
-- `le-nid-bar/` — Le Nid (bar)
-- `la-cantine-du-voyage/` — La Cantine du Voyage
-- `les-brasses/` — Les Brassés
-- `la-civelle/` — La Civelle

@@ -14,11 +14,5 @@
 - `parc-de-champagne/` — Parc de Champagne
 
 ## Restaurants (dossier `restos/`)
-- `au-cul-de-poule/` — Au Cul de Poule
-- `l-alambic/` — L’Alambic
-- `le-millenaire/` — Le Millénaire
-- `les-cornichons/` — Les Cornichons
 - `le-riad/` — Le Riad
 - `brasserie-excelsior/` — Brasserie Excelsior
-- `le-grand-cafe/` — Le Grand Café
-- `anna-s-la-table-amoureuse/` — Anna–S – La Table Amoureuse

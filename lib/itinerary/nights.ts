@@ -5,9 +5,14 @@
  * Quand le budget journalier est epuise, on dort au dernier lieu compatible.
  * Si on dort N nuits quelque part, on insere N-1 jours de sejour supplementaires
  * AVANT de repartir.
+ *
+ * maxAirbnbNights : limite le nombre de nuits en Airbnb (ville/village).
+ * Si nuitSurPlace && airbnbBudget > 0 → airbnb, sinon van.
  */
 
 import type { ItineraryPoint } from "./generate";
+
+export type NuiteeType = "van" | "airbnb" | "passage";
 
 export interface NightAssignment {
   pointIdx: number;
@@ -22,18 +27,27 @@ export interface DayPlan {
   sleepAt: ItineraryPoint | null;
   /** Nuits restantes a cet endroit APRES ce jour (0 = on repart demain) */
   sleepNights: number;
+  /** Type de nuitée : van, airbnb (si lieu adapté et budget restant), ou passage */
+  nuiteeType?: NuiteeType;
   /** Jour de sejour (on reste sur place, pas de route) */
   isStayDay: boolean;
+}
+
+export interface AssignNightsOptions {
+  /** Nombre max de nuits en Airbnb (0 = tout van, undefined = pas de limite) */
+  maxAirbnbNights?: number;
 }
 
 /**
  * Repartit les etapes en jours et place les nuits.
  * Quand un lieu merite N nuits, on insere N-1 jours de sejour.
+ * Si maxAirbnbNights est defini, on attribue airbnb aux lieux nuitSurPlace tant que le budget le permet.
  */
 export function assignNights(
   points: ItineraryPoint[],
   totalNights: number,
-  rythme: "cool" | "normal" | "intense" = "normal"
+  rythme: "cool" | "normal" | "intense" = "normal",
+  options?: AssignNightsOptions
 ): DayPlan[] {
   const maxHoursPerDay: Record<string, number> = {
     cool: 6,
@@ -41,11 +55,18 @@ export function assignNights(
     intense: 10,
   };
   const budgetMinutes = maxHoursPerDay[rythme] * 60;
+  const maxAirbnb = options?.maxAirbnbNights ?? Infinity;
 
-  const rawDays: { points: ItineraryPoint[]; sleepAt: ItineraryPoint | null; sleepNights: number }[] = [];
+  const rawDays: {
+    points: ItineraryPoint[];
+    sleepAt: ItineraryPoint | null;
+    sleepNights: number;
+    nuiteeType: NuiteeType;
+  }[] = [];
   let currentDay: ItineraryPoint[] = [];
   let dayMinutes = 0;
   let nightsLeft = totalNights;
+  let airbnbBudget = maxAirbnb;
 
   for (let i = 0; i < points.length; i++) {
     const p = points[i];
@@ -57,7 +78,15 @@ export function assignNights(
         ? Math.min(suggestNights(sleepPoint), nightsLeft)
         : Math.min(1, nightsLeft);
 
-      rawDays.push({ points: [...currentDay], sleepAt: sleepPoint, sleepNights: wantedNights });
+      const nuiteeType = computeNuiteeType(sleepPoint, wantedNights, airbnbBudget);
+      if (nuiteeType === "airbnb") airbnbBudget -= wantedNights;
+
+      rawDays.push({
+        points: [...currentDay],
+        sleepAt: sleepPoint,
+        sleepNights: wantedNights,
+        nuiteeType,
+      });
       nightsLeft -= wantedNights;
       currentDay = [p];
       dayMinutes = visitMinutes;
@@ -71,7 +100,13 @@ export function assignNights(
     const isLastDay = nightsLeft <= 0;
     const sleepPoint = isLastDay ? null : findSleepCandidate(currentDay);
     const wantedNights = isLastDay ? 0 : Math.min(1, nightsLeft);
-    rawDays.push({ points: [...currentDay], sleepAt: sleepPoint, sleepNights: wantedNights });
+    const nuiteeType = computeNuiteeType(sleepPoint, wantedNights, airbnbBudget);
+    rawDays.push({
+      points: [...currentDay],
+      sleepAt: sleepPoint,
+      sleepNights: wantedNights,
+      nuiteeType,
+    });
   }
 
   // Expandre les jours : si sleepNights > 1, inserer des jours de sejour
@@ -79,16 +114,15 @@ export function assignNights(
   let dayNum = 1;
 
   for (const raw of rawDays) {
-    // Jour de route principal
     days.push({
       day: dayNum++,
       points: raw.points,
       sleepAt: raw.sleepAt,
       sleepNights: raw.sleepNights,
+      nuiteeType: raw.nuiteeType,
       isStayDay: false,
     });
 
-    // Si N nuits, inserer N-1 jours de sejour
     if (raw.sleepNights > 1 && raw.sleepAt) {
       for (let s = 1; s < raw.sleepNights; s++) {
         days.push({
@@ -96,6 +130,7 @@ export function assignNights(
           points: [raw.sleepAt],
           sleepAt: raw.sleepAt,
           sleepNights: raw.sleepNights - s,
+          nuiteeType: raw.nuiteeType,
           isStayDay: true,
         });
       }
@@ -103,6 +138,16 @@ export function assignNights(
   }
 
   return days;
+}
+
+function computeNuiteeType(
+  sleepPoint: ItineraryPoint | null,
+  wantedNights: number,
+  airbnbBudget: number
+): NuiteeType {
+  if (!sleepPoint || wantedNights <= 0) return "passage";
+  if (sleepPoint.nuitSurPlace && airbnbBudget > 0) return "airbnb";
+  return "van";
 }
 
 function findSleepCandidate(points: ItineraryPoint[]): ItineraryPoint | null {

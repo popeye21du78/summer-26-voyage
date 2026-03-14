@@ -20,5 +20,3 @@
 - `l-essentiel/` — L’Essentiel
 - `le-b-uf/` — Le Bœuf
 - `le-commerce/` — Le Commerce
-- `le-soleil/` — Le Soleil
-- `la-brasserie-du-chateau/` — La Brasserie du Château

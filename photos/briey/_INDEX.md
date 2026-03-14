@@ -18,7 +18,3 @@
 - `le-saint-gengoult/` — Le Saint-Gengoult
 - `la-table-de-briey/` — La Table de Briey
 - `villa-lorraine/` — Villa Lorraine
-- `la-p-tite-brasserie/` — La P’tite Brasserie
-- `le-comptoir-de-l-atelier/` — Le Comptoir de l’Atelier
-- `le-bistrot-du-marche/` — Le Bistrot du Marché
-- `restaurant-du-lac/` — Restaurant du Lac

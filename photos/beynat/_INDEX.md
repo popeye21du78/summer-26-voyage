@@ -9,6 +9,3 @@
 - `eglise-saint-pierre-de-beynat/` — Église Saint-Pierre de Beynat
 - `halle-couverte-de-beynat/` — Halle couverte de Beynat
 - `plan-d-eau-de-miel/` — Plan d'eau de Miel
-
-## Restaurants (dossier `restos/`)
-- `l-auberge-de-la-fontaine/` — L’Auberge de la Fontaine

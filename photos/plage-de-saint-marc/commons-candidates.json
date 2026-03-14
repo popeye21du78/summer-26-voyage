@@ -1,0 +1,74 @@
+{
+  "slug": "plage-de-saint-marc",
+  "nom": "Plage de Saint-Marc",
+  "fetchedAt": "2026-03-14T11:13:26.722Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Cadran_solaire_Pierre_Bourriaud_-_Saint_Nazaire_-_face_ouest.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACadran%20solaire%20Pierre%20Bourriaud%20-%20Saint%20Nazaire%20-%20face%20ouest.jpg",
+      "title": "Cadran solaire Pierre Bourriaud - Saint Nazaire - face ouest.jpg",
+      "width": 4608,
+      "height": 2592,
+      "size": 3457227,
+      "timestamp": "2021-08-21T07:32:37Z",
+      "author": "Kiroule",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Cadran_solaire_Pierre_Bourriaud_-_Saint_Nazaire_-_notice.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACadran%20solaire%20Pierre%20Bourriaud%20-%20Saint%20Nazaire%20-%20notice.jpg",
+      "title": "Cadran solaire Pierre Bourriaud - Saint Nazaire - notice.jpg",
+      "width": 4608,
+      "height": 2592,
+      "size": 3695608,
+      "timestamp": "2021-08-21T07:32:37Z",
+      "author": "Kiroule",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Plaque_Rue_Suzanne_Lenglen%2C_Saint-Nazaire.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlaque%20Rue%20Suzanne%20Lenglen%2C%20Saint-Nazaire.jpg",
+      "title": "Plaque Rue Suzanne Lenglen, Saint-Nazaire.jpg",
+      "width": 4000,
+      "height": 3000,
+      "size": 1599481,
+      "timestamp": "2023-11-19T18:28:21Z",
+      "author": "Kalepom",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    }
+  ],
+  "lieux": [
+    {
+      "label": "promenade piétonne de Saint-Marc",
+      "photos": []
+    },
+    {
+      "label": "digue de la Plage de Saint-Marc",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Mesnil-Saint-P%C3%A8re_R02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMesnil-Saint-P%C3%A8re%20R02.jpg",
+          "title": "Mesnil-Saint-Père R02.jpg",
+          "width": 4588,
+          "height": 3122,
+          "size": 8504682,
+          "timestamp": "2018-07-30T20:53:18Z",
+          "author": "Marc Ryckaert",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "label": "villas balnéaires en arrière-plan",
+      "photos": []
+    }
+  ]
+}

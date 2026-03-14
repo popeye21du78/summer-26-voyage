@@ -10,7 +10,3 @@
 - `eglise-saint-martin/` — Église Saint-Martin
 - `musee-extraordinaire/` — Musée Extraordinaire
 - `lavoir-de-la-rue-du-vieux-lavoir/` — Lavoir de la rue du Vieux Lavoir
-
-## Restaurants (dossier `restos/`)
-- `la-closerie/` — La Closerie
-- `le-grain-de-sel/` — Le Grain de Sel

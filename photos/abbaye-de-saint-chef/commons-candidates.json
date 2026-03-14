@@ -1,0 +1,100 @@
+{
+  "slug": "abbaye-de-saint-chef",
+  "nom": "Abbaye de Saint-Chef",
+  "fetchedAt": "2026-03-13T12:02:08.034Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Grenoble_Abbaye_IMG_4483.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrenoble%20Abbaye%20IMG%204483.jpg",
+      "title": "Grenoble Abbaye IMG 4483.jpg",
+      "width": 4032,
+      "height": 3024,
+      "size": 4342804,
+      "timestamp": "2023-09-21T21:17:01Z",
+      "author": "David.Monniaux",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Grenoble_Abbaye_IMG_4482.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrenoble%20Abbaye%20IMG%204482.jpg",
+      "title": "Grenoble Abbaye IMG 4482.jpg",
+      "width": 4032,
+      "height": 3024,
+      "size": 4436812,
+      "timestamp": "2023-09-21T21:17:01Z",
+      "author": "David.Monniaux",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Plaque_%22L%27Abbaye_%C3%A0_la_m%C3%A9moire_de_ses_enfants_morts_pour_la_France%22.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlaque%20%22L'Abbaye%20%C3%A0%20la%20m%C3%A9moire%20de%20ses%20enfants%20morts%20pour%20la%20France%22.jpg",
+      "title": "Plaque \"L'Abbaye à la mémoire de ses enfants morts pour la France\".jpg",
+      "width": 2669,
+      "height": 2203,
+      "size": 1853327,
+      "timestamp": "2017-11-19T18:33:31Z",
+      "author": "Jvillafruela",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Nef de l’église abbatiale",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Cormery_%28Indre-et-Loire%29_%2822283046831%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACormery%20(Indre-et-Loire)%20(22283046831).jpg",
+          "title": "Cormery (Indre-et-Loire) (22283046831).jpg",
+          "width": 4928,
+          "height": 3264,
+          "size": 7575432,
+          "timestamp": "2017-11-24T15:42:27Z",
+          "author": "Daniel Jolivet",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Cormery_%28Indre-et-Loire%29_%2822086569749%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACormery%20(Indre-et-Loire)%20(22086569749).jpg",
+          "title": "Cormery (Indre-et-Loire) (22086569749).jpg",
+          "width": 4928,
+          "height": 3264,
+          "size": 8342421,
+          "timestamp": "2017-11-24T15:42:50Z",
+          "author": "Daniel Jolivet",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Cormery_%28Indre-et-Loire%29_%2822088910118%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACormery%20(Indre-et-Loire)%20(22088910118).jpg",
+          "title": "Cormery (Indre-et-Loire) (22088910118).jpg",
+          "width": 4928,
+          "height": 3264,
+          "size": 7788499,
+          "timestamp": "2017-11-24T15:42:57Z",
+          "author": "Daniel Jolivet",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "label": "Chapelle Saint-Clair et ses fresques",
+      "photos": []
+    },
+    {
+      "label": "Chevet extérieur et absides",
+      "photos": []
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "mortemart",
+  "nom": "Mortemart",
+  "fetchedAt": "2026-03-13T16:26:46.364Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Mortemart_-_Ch%C3%A2teau_-1.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMortemart%20-%20Ch%C3%A2teau%20-1.JPG",
+      "title": "Mortemart - Château -1.JPG",
+      "width": 3648,
+      "height": 2185,
+      "size": 1912634,
+      "timestamp": "2010-01-25T14:40:30Z",
+      "author": "MOSSOT",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 5
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Mortemart_-_Ch%C3%A2teau_-1_%28cropped%29.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMortemart%20-%20Ch%C3%A2teau%20-1%20(cropped).JPG",
+      "title": "Mortemart - Château -1 (cropped).JPG",
+      "width": 2800,
+      "height": 400,
+      "size": 262163,
+      "timestamp": "2018-07-10T15:04:50Z",
+      "author": "MOSSOT",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 5
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Mortemart-couvent-des-augustins.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMortemart-couvent-des-augustins.jpg",
+      "title": "Mortemart-couvent-des-augustins.jpg",
+      "width": 3072,
+      "height": 2304,
+      "size": 2591051,
+      "timestamp": "2007-07-24T12:29:41Z",
+      "author": "Nitot",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 4
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Halle couverte de Mortemart",
+      "photos": []
+    },
+    {
+      "label": "Couvent des Carmes",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Mortemart-couvent-des-carmes.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMortemart-couvent-des-carmes.jpg",
+          "title": "Mortemart-couvent-des-carmes.jpg",
+          "width": 3072,
+          "height": 2304,
+          "size": 2480372,
+          "timestamp": "2007-07-24T12:31:52Z",
+          "author": "Nitot",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "label": "Rue du Château et vestiges du château",
+      "photos": []
+    }
+  ]
+}

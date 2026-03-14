@@ -14,11 +14,7 @@
 - `chapelle-de-champaret/` — Chapelle de Champaret
 
 ## Restaurants (dossier `restos/`)
-- `la-table-des-delices/` — La Table des Délices
-- `le-petit-zinc/` — Le Petit Zinc
 - `l-atelier-16/` — L’Atelier 16
 - `les-saveurs-du-marche/` — Les Saveurs du Marché
 - `bistrot-a-jules/` — Bistrot à Jules
 - `la-tavola/` — La Tavola
-- `l-endroit/` — L’Endroit
-- `cafe-de-la-gare/` — Café de la Gare

@@ -20,5 +20,3 @@
 - `la-table-de-jeanne/` — La Table de Jeanne
 - `le-19/` — Le 19
 - `la-cantine/` — La Cantine
-- `la-cabane-a-crepes/` — La Cabane à Crêpes
-- `l-embarcadere/` — L’Embarcadère

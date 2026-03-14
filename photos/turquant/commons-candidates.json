@@ -1,0 +1,104 @@
+{
+  "slug": "turquant",
+  "nom": "Turquant",
+  "fetchedAt": "2026-03-14T12:59:15.836Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Turquant_%282737176645%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATurquant%20(2737176645).jpg",
+      "title": "Turquant (2737176645).jpg",
+      "width": 1602,
+      "height": 826,
+      "size": 1618780,
+      "timestamp": "2021-08-23T02:41:47Z",
+      "author": "@lain G",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Eglise_Saint-Aubin_de_Turquant.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Saint-Aubin%20de%20Turquant.JPG",
+      "title": "Eglise Saint-Aubin de Turquant.JPG",
+      "width": 4000,
+      "height": 3000,
+      "size": 4910592,
+      "timestamp": "2013-09-13T22:30:38Z",
+      "author": "Thérèse Gaigé",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 5
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Pont_de_Varennes-Montsoreau%2C_vu_de_la_figue_de_Varennes.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20de%20Varennes-Montsoreau%2C%20vu%20de%20la%20figue%20de%20Varennes.jpg",
+      "title": "Pont de Varennes-Montsoreau, vu de la figue de Varennes.jpg",
+      "width": 4032,
+      "height": 1960,
+      "size": 2926900,
+      "timestamp": "2020-05-07T18:26:58Z",
+      "author": "TCY",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Rue du Val et façades troglodytiques",
+      "photos": []
+    },
+    {
+      "label": "Église Saint-Aubin",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Eglise_Saint-Aubin_de_Turquant.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Saint-Aubin%20de%20Turquant.JPG",
+          "title": "Eglise Saint-Aubin de Turquant.JPG",
+          "width": 4000,
+          "height": 3000,
+          "size": 4910592,
+          "timestamp": "2013-09-13T22:30:38Z",
+          "author": "Thérèse Gaigé",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Abside_%C3%A0_pans_coup%C3%A9s_et_contreforts.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbside%20%C3%A0%20pans%20coup%C3%A9s%20et%20contreforts.JPG",
+          "title": "Abside à pans coupés et contreforts.JPG",
+          "width": 3000,
+          "height": 4000,
+          "size": 4495249,
+          "timestamp": "2013-09-13T22:30:37Z",
+          "author": "Thérèse Gaigé",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Clocher_de_l%27%C3%A9glise_Saint-Aubin.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AClocher%20de%20l'%C3%A9glise%20Saint-Aubin.JPG",
+          "title": "Clocher de l'église Saint-Aubin.JPG",
+          "width": 3000,
+          "height": 4000,
+          "size": 4202098,
+          "timestamp": "2013-09-13T22:30:38Z",
+          "author": "Thérèse Gaigé",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "label": "Village des Métiers d’Art",
+      "photos": []
+    },
+    {
+      "label": "Port de la Loire",
+      "photos": []
+    }
+  ]
+}

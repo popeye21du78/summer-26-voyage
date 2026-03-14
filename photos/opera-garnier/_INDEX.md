@@ -13,11 +13,5 @@
 - `bibliotheque-musee-de-l-opera/` — Bibliothèque-Musée de l’Opéra
 
 ## Restaurants (dossier `restos/`)
-- `le-petit-vendome/` — Le Petit Vendôme
-- `la-creme-de-paris/` — La Crème de Paris
 - `grand-cafe-capucines/` — Grand Café Capucines
 - `cafe-de-la-paix/` — Café de la Paix
-- `bouillon-chartier/` — Bouillon Chartier
-- `le-royal-opera/` — Le Royal Opéra
-- `brasserie-mollard/` — Brasserie Mollard
-- `bouillon-pigalle/` — Bouillon Pigalle

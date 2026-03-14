@@ -157,6 +157,9 @@ export interface QuizPreVoyageAnswers {
     camping?: number;
     vanSauvage?: number;
   };
+
+  /** Nombre max de nuits en Airbnb toléré (0 = tout en van, undefined = pas de limite) */
+  maxAirbnbNights?: number;
 }
 
 export interface QuizIdentitePayload {

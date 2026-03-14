@@ -18,7 +18,5 @@
 - `le-bouche-a-oreille/` — Le Bouche à Oreille
 - `l-auberge-de-la-vieille-porte/` — L’Auberge de la Vieille Porte
 - `la-table-d-aranda/` — La Table d’Aranda
-- `chez-max/` — Chez Max
-- `le-bistrot-de-la-halle/` — Le Bistrot de la Halle
 - `le-bouche-a-oreille/` — Le Bouche à Oreille
 - `le-comptoir-du-malt/` — Le Comptoir du Malt

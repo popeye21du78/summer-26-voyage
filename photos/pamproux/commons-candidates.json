@@ -1,0 +1,92 @@
+{
+  "slug": "pamproux",
+  "nom": "Pamproux",
+  "fetchedAt": "2026-03-13T16:44:08.694Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Pamproux_-_Place_Mendes_France_-_bo%C3%AEte_%C3%A0_livres.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APamproux%20-%20Place%20Mendes%20France%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
+      "title": "Pamproux - Place Mendes France - boîte à livres.jpg",
+      "width": 2500,
+      "height": 1875,
+      "size": 775599,
+      "timestamp": "2024-08-20T05:42:05Z",
+      "author": "<span lang=\"en\">Anonymous</span><span style=\"display:none\">Unknown author</span>",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/France_-_Deux-S%C3%A8vres_-_Pamproux_-_Clocher_de_l%27%C3%A9glise.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20-%20Deux-S%C3%A8vres%20-%20Pamproux%20-%20Clocher%20de%20l'%C3%A9glise.JPG",
+      "title": "France - Deux-Sèvres - Pamproux - Clocher de l'église.JPG",
+      "width": 2304,
+      "height": 1536,
+      "size": 1250124,
+      "timestamp": "2009-05-28T21:04:23Z",
+      "author": "Zewan",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 4
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/France_-_Deux-S%C3%A8vres_-_Pamproux_-_La_Halle_%281%29.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20-%20Deux-S%C3%A8vres%20-%20Pamproux%20-%20La%20Halle%20(1).JPG",
+      "title": "France - Deux-Sèvres - Pamproux - La Halle (1).JPG",
+      "width": 2304,
+      "height": 1536,
+      "size": 1551155,
+      "timestamp": "2009-05-28T21:05:41Z",
+      "author": "Zewan",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 4
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Église Saint-Maixent de Pamproux",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/France_-_Deux-S%C3%A8vres_-_Pamproux_-_Clocher_de_l%27%C3%A9glise.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20-%20Deux-S%C3%A8vres%20-%20Pamproux%20-%20Clocher%20de%20l'%C3%A9glise.JPG",
+          "title": "France - Deux-Sèvres - Pamproux - Clocher de l'église.JPG",
+          "width": 2304,
+          "height": 1536,
+          "size": 1250124,
+          "timestamp": "2009-05-28T21:04:23Z",
+          "author": "Zewan",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "label": "Halle métallique de Pamproux",
+      "photos": []
+    },
+    {
+      "label": "Pont sur la Sèvre Niortaise",
+      "photos": []
+    },
+    {
+      "label": "Ancienne gare de Pamproux",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Halte_SNCF_Pamproux_%2879%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHalte%20SNCF%20Pamproux%20(79).jpg",
+          "title": "Halte SNCF Pamproux (79).jpg",
+          "width": 988,
+          "height": 660,
+          "size": 251131,
+          "timestamp": "2023-11-28T05:43:54Z",
+          "author": "Dacia 1410 Sport",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
+    }
+  ]
+}

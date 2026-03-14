@@ -20,5 +20,3 @@
 - `restaurant-le-st-sebastien/` — Restaurant : Le St Sébastien
 - `restaurant-brasserie-le-rialto/` — Restaurant : Brasserie Le Rialto
 - `restaurant-le-diplomate/` — Restaurant : Le Diplomate
-- `restaurant-le-bistronome/` — Restaurant : Le Bistronome
-- `restaurant-le-st-charles-soir/` — Restaurant : Le St Charles (soir)

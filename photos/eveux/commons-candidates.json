@@ -1,0 +1,87 @@
+{
+  "slug": "eveux",
+  "nom": "Éveux",
+  "fetchedAt": "2026-03-13T14:19:32.260Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Glaciere_tourette_eveux_ouverture_alimentation.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGlaciere%20tourette%20eveux%20ouverture%20alimentation.jpg",
+      "title": "Glaciere tourette eveux ouverture alimentation.jpg",
+      "width": 2611,
+      "height": 1958,
+      "size": 3470549,
+      "timestamp": "2023-01-02T10:55:06Z",
+      "author": "Emlaurent",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Glaciere_tourette_eveux_vue_ensemble.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGlaciere%20tourette%20eveux%20vue%20ensemble.jpg",
+      "title": "Glaciere tourette eveux vue ensemble.jpg",
+      "width": 2611,
+      "height": 1958,
+      "size": 3678651,
+      "timestamp": "2023-01-02T10:55:06Z",
+      "author": "Emlaurent",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Eveux_-_Couvent_de_La_Tourette_-_Ceiling_of_the_Church.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEveux%20-%20Couvent%20de%20La%20Tourette%20-%20Ceiling%20of%20the%20Church.jpg",
+      "title": "Eveux - Couvent de La Tourette - Ceiling of the Church.jpg",
+      "width": 5184,
+      "height": 3456,
+      "size": 8563026,
+      "timestamp": "2024-03-30T11:18:11Z",
+      "author": "Fred Romero",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Couvent Sainte-Marie de La Tourette",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Ch%C3%A2teau_de_la_Tourette_%281935%29%2C_%C3%89veux_sur_L%E2%80%99Arbresle_%28Rh%C3%B4ne%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20la%20Tourette%20(1935)%2C%20%C3%89veux%20sur%20L%E2%80%99Arbresle%20(Rh%C3%B4ne).jpg",
+          "title": "Château de la Tourette (1935), Éveux sur L’Arbresle (Rhône).jpg",
+          "width": 2210,
+          "height": 1432,
+          "size": 1020843,
+          "timestamp": "2024-03-12T08:35:48Z",
+          "author": "Unbekannte Fotograf",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Eveux_-_Couvent_de_La_Tourette_-_Ceiling_of_the_Church.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEveux%20-%20Couvent%20de%20La%20Tourette%20-%20Ceiling%20of%20the%20Church.jpg",
+          "title": "Eveux - Couvent de La Tourette - Ceiling of the Church.jpg",
+          "width": 5184,
+          "height": 3456,
+          "size": 8563026,
+          "timestamp": "2024-03-30T11:18:11Z",
+          "author": "Fred Romero",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
+    },
+    {
+      "label": "Église Saint-Pancrace",
+      "photos": []
+    },
+    {
+      "label": "Lavoir d’Éveux",
+      "photos": []
+    }
+  ]
+}

@@ -19,5 +19,3 @@
 - `l-auberge-du-parc/` — L’Auberge du Parc
 - `chez-gino/` — Chez Gino
 - `le-bistrot-d-eric/` — Le Bistrot d’Eric
-- `l-atelier-gourmand/` — L’Atelier Gourmand
-- `le-20-vin/` — Le 20 Vin

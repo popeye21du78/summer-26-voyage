@@ -20,5 +20,3 @@
 - `le-viaduc/` — Le Viaduc
 - `le-tempo/` — Le Tempo
 - `la-creperie-ty-coz/` — La Crêperie Ty Coz
-- `la-maison-de-kerdies/` — La Maison de Kerdiès
-- `brasserie-l-hermine/` — Brasserie L’Hermine

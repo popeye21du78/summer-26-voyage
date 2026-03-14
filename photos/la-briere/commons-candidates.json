@@ -1,0 +1,105 @@
+{
+  "slug": "la-briere",
+  "nom": "La Brière",
+  "fetchedAt": "2026-03-13T14:56:46.525Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/ISS053-E-49917_-_View_of_Earth.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS053-E-49917%20-%20View%20of%20Earth.jpg",
+      "title": "ISS053-E-49917 - View of Earth.jpg",
+      "width": 4928,
+      "height": 3280,
+      "size": 2004002,
+      "timestamp": "2021-04-01T12:08:01Z",
+      "author": "Earth Science and Remote Sensing Unit",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/ISS053-E-49918_-_View_of_Earth.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS053-E-49918%20-%20View%20of%20Earth.jpg",
+      "title": "ISS053-E-49918 - View of Earth.jpg",
+      "width": 4928,
+      "height": 3280,
+      "size": 2013338,
+      "timestamp": "2021-04-01T12:08:02Z",
+      "author": "Earth Science and Remote Sensing Unit",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/ISS053-E-52144_-_View_of_Earth.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS053-E-52144%20-%20View%20of%20Earth.jpg",
+      "title": "ISS053-E-52144 - View of Earth.jpg",
+      "width": 4928,
+      "height": 3280,
+      "size": 3129098,
+      "timestamp": "2021-04-01T12:40:36Z",
+      "author": "Earth Science and Remote Sensing Unit",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Village de Kerhinet",
+      "photos": []
+    },
+    {
+      "label": "Clocher de Saint-Lyphard",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Bri%C3%A8re_04.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABri%C3%A8re%2004.JPG",
+          "title": "Brière 04.JPG",
+          "width": 5103,
+          "height": 3402,
+          "size": 15045082,
+          "timestamp": "2015-10-30T20:53:23Z",
+          "author": "Yann Gwilhoù",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "label": "Port de Rozé",
+      "photos": []
+    },
+    {
+      "label": "Réserve Pierre Constant",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Swamp_of_Grande_Bri%C3%A8re_%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASwamp%20of%20Grande%20Bri%C3%A8re%20(2).jpg",
+          "title": "Swamp of Grande Brière (2).jpg",
+          "width": 4896,
+          "height": 2752,
+          "size": 3495583,
+          "timestamp": "2019-02-10T14:17:16Z",
+          "author": "Ibex73",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Swamp_of_Grande_Bri%C3%A8re_%283%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASwamp%20of%20Grande%20Bri%C3%A8re%20(3).jpg",
+          "title": "Swamp of Grande Brière (3).jpg",
+          "width": 4896,
+          "height": 2752,
+          "size": 3699432,
+          "timestamp": "2019-02-10T14:17:16Z",
+          "author": "Ibex73",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
+    }
+  ]
+}

@@ -16,8 +16,6 @@
 ## Restaurants (dossier `restos/`)
 - `le-petit-port/` — Le Petit Port
 - `la-trattoria/` — La Trattoria
-- `mirazur-bistrot-bistrot-du-mirazur/` — Mirazur Bistrot (Bistrot du Mirazur)
-- `les-sablettes-beach/` — Les Sablettes Beach
 - `le-stanley/` — Le Stanley
 - `a-braijade-meridiounale/` — A Braijade Meridiounale
 - `la-rotonde-menton/` — La Rotonde Menton

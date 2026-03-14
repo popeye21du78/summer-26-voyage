@@ -10,6 +10,3 @@
 - `place-centrale-a-arcades/` — Place centrale à arcades
 - `point-de-vue-du-calvaire/` — Point de vue du calvaire
 - `lavoir-de-beauville/` — Lavoir de Beauville
-
-## Restaurants (dossier `restos/`)
-- `la-table-d-antan/` — La Table d’Antan

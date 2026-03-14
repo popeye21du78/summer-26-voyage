@@ -1,0 +1,91 @@
+{
+  "slug": "chateau-de-joux",
+  "nom": "Château de Joux",
+  "fetchedAt": "2026-03-13T13:07:14.365Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/M%C3%A9morial_de_Toussaint_Louverture_au_fort_de_Joux.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AM%C3%A9morial%20de%20Toussaint%20Louverture%20au%20fort%20de%20Joux.jpg",
+      "title": "Mémorial de Toussaint Louverture au fort de Joux.jpg",
+      "width": 3264,
+      "height": 2448,
+      "size": 3199073,
+      "timestamp": "2016-08-03T13:12:16Z",
+      "author": "Chris93",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/M%C3%A9morial_de_Toussaint_Louverture_au_fort_de_Joux_-_gros_plan.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AM%C3%A9morial%20de%20Toussaint%20Louverture%20au%20fort%20de%20Joux%20-%20gros%20plan.jpg",
+      "title": "Mémorial de Toussaint Louverture au fort de Joux - gros plan.jpg",
+      "width": 3264,
+      "height": 2448,
+      "size": 1241503,
+      "timestamp": "2016-08-03T13:47:37Z",
+      "author": "Chris93",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/La_Cluse-et-Mijoux_centre_ville.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Cluse-et-Mijoux%20centre%20ville.jpg",
+      "title": "La Cluse-et-Mijoux centre ville.jpg",
+      "width": 3264,
+      "height": 2448,
+      "size": 1998903,
+      "timestamp": "2016-08-05T23:05:38Z",
+      "author": "Chris93",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Cellule de Toussaint Louverture",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Toussaint_L%27Ouverture_meurt_dans_la_prison_du_Ch%C3%A2teau_de_Joux_le_7_avril_1803.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AToussaint%20L'Ouverture%20meurt%20dans%20la%20prison%20du%20Ch%C3%A2teau%20de%20Joux%20le%207%20avril%201803.jpg",
+          "title": "Toussaint L'Ouverture meurt dans la prison du Château de Joux le 7 avril 1803.jpg",
+          "width": 737,
+          "height": 1024,
+          "size": 254484,
+          "timestamp": "2024-02-10T01:54:33Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q3084767\" class=\"extiw\" title=\"d:Q3084767\"><span title=\"French painter (1793-1867)\">François Grenier de Saint-Martin</span></a></bdi> / <bdi><a href=\"https://www.wikidata.org/wiki/Q92314036\" class=\"extiw\" title=\"d:Q92314036\"><span title=\"French lithographer, active 1818-1852 (1790–1852)\">Jean-François Villain</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Toussaint_L%27Ouverture_meurt_dans_la_prison_du_Ch%C3%A2teau_de_Joux_le_7_avril_1803_%28cropped%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AToussaint%20L'Ouverture%20meurt%20dans%20la%20prison%20du%20Ch%C3%A2teau%20de%20Joux%20le%207%20avril%201803%20(cropped).jpg",
+          "title": "Toussaint L'Ouverture meurt dans la prison du Château de Joux le 7 avril 1803 (cropped).jpg",
+          "width": 709,
+          "height": 882,
+          "size": 334188,
+          "timestamp": "2024-02-10T22:31:48Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q3084767\" class=\"extiw\" title=\"d:Q3084767\"><span title=\"French painter (1793-1867)\">François Grenier de Saint-Martin</span></a></bdi> / <bdi><a href=\"https://www.wikidata.org/wiki/Q92314036\" class=\"extiw\" title=\"d:Q92314036\"><span title=\"French lithographer, active 1818-1852 (1790–1852)\">Jean-François Villain</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "label": "Remparts supérieurs",
+      "photos": []
+    },
+    {
+      "label": "Puits de 120 mètres",
+      "photos": []
+    },
+    {
+      "label": "Terrasse panoramique derrière le bastion Vauban",
+      "photos": []
+    }
+  ]
+}

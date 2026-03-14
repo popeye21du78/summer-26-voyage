@@ -20,5 +20,3 @@
 - `l-ecailler/` — L’Écailler
 - `la-tete-d-ail/` — La Tete d’Ail
 - `la-grotte/` — La Grotte
-- `chez-yann/` — Chez Yann
-- `le-golfe/` — Le Golfe

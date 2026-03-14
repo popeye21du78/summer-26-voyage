@@ -20,5 +20,3 @@
 - `le-jardin-d-italie/` — Le Jardin d’Italie
 - `la-brasserie-du-coin/` — La Brasserie du Coin
 - `le-bistro-d-alfred/` — Le Bistro d’Alfred
-- `la-taverne-alsacienne/` — La Taverne Alsacienne
-- `le-comptoir-gourmand/` — Le Comptoir Gourmand

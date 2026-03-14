@@ -1,0 +1,100 @@
+{
+  "slug": "piney",
+  "nom": "Piney",
+  "fetchedAt": "2026-03-14T10:49:19.526Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Piney_Chapelle_Notre-Dame-des-Ormes.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APiney%20Chapelle%20Notre-Dame-des-Ormes.jpg",
+      "title": "Piney Chapelle Notre-Dame-des-Ormes.jpg",
+      "width": 4928,
+      "height": 3264,
+      "size": 7673612,
+      "timestamp": "2017-04-26T10:34:33Z",
+      "author": "Clemensfranz",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Piney_Halle_R01.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APiney%20Halle%20R01.jpg",
+      "title": "Piney Halle R01.jpg",
+      "width": 4540,
+      "height": 2997,
+      "size": 9866708,
+      "timestamp": "2018-08-05T21:07:31Z",
+      "author": "Marc Ryckaert",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Piney_Mairie_R01.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APiney%20Mairie%20R01.jpg",
+      "title": "Piney Mairie R01.jpg",
+      "width": 4525,
+      "height": 3076,
+      "size": 10585847,
+      "timestamp": "2018-08-05T21:07:31Z",
+      "author": "Marc Ryckaert",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Halle couverte de Piney",
+      "photos": []
+    },
+    {
+      "label": "Église Saint-Martin de Piney",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Piney_%C3%A9glise_portails_Fichot_00409.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APiney%20%C3%A9glise%20portails%20Fichot%2000409.jpg",
+          "title": "Piney église portails Fichot 00409.jpg",
+          "width": 3360,
+          "height": 2205,
+          "size": 5024225,
+          "timestamp": "2017-01-09T09:45:56Z",
+          "author": "Charles Fichot, vevrsement et modifications G.Garitan",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Piney_Eglise1.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APiney%20Eglise1.JPG",
+          "title": "Piney Eglise1.JPG",
+          "width": 2592,
+          "height": 1944,
+          "size": 2322479,
+          "timestamp": "2011-05-16T20:16:19Z",
+          "author": "Gérard Janot",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Piney_Eglise2.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APiney%20Eglise2.JPG",
+          "title": "Piney Eglise2.JPG",
+          "width": 2592,
+          "height": 1944,
+          "size": 2126170,
+          "timestamp": "2011-05-16T20:17:51Z",
+          "author": "Gérard Janot",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "label": "Maison du Parc naturel régional de la Forêt d’Orient",
+      "photos": []
+    }
+  ]
+}

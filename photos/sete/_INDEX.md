@@ -20,5 +20,3 @@
 - `le-marcel/` — Le Marcel
 - `la-marine/` — La Marine
 - `le-bar-du-marche/` — Le Bar du Marché
-- `les-halles-solanid/` — Les Halles Solanid
-- `la-table-de-jean/` — La Table de Jean

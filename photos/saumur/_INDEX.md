@@ -13,11 +13,7 @@
 - `caves-troglodytes-de-saint-hilaire-saint-florent/` — Caves troglodytes de Saint-Hilaire-Saint-Florent
 
 ## Restaurants (dossier `restos/`)
-- `le-pot-de-lapin/` — Le Pot de Lapin
-- `l-auberge-saint-pierre/` — L’Auberge Saint-Pierre
 - `le-gambetta/` — Le Gambetta
 - `l-essentiel/` — L’Essentiel
 - `le-boeuf-noisette/` — Le Boeuf Noisette
 - `l-escale/` — L’Escale
-- `les-terrasses-de-saumur/` — Les Terrasses de Saumur
-- `bistrot-les-tontons/` — Bistrot Les Tontons

@@ -1,0 +1,91 @@
+{
+  "slug": "chateau-de-craon",
+  "nom": "Château de Craon",
+  "fetchedAt": "2026-03-13T13:04:09.413Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Craon_53_plan_d%27eau.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACraon%2053%20plan%20d'eau.JPG",
+      "title": "Craon 53 plan d'eau.JPG",
+      "width": 4000,
+      "height": 3000,
+      "size": 7053312,
+      "timestamp": "2016-04-19T19:48:46Z",
+      "author": "Simon de l'Ouest",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Pommerieux_%2853%29_Mairie.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APommerieux%20(53)%20Mairie.JPG",
+      "title": "Pommerieux (53) Mairie.JPG",
+      "width": 1709,
+      "height": 1383,
+      "size": 1407812,
+      "timestamp": "2015-05-17T09:52:15Z",
+      "author": "GO69",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Pommerieux_%2853%29_%C3%89glise_Saint-Martin_Fresques_03.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APommerieux%20(53)%20%C3%89glise%20Saint-Martin%20Fresques%2003.JPG",
+      "title": "Pommerieux (53) Église Saint-Martin Fresques 03.JPG",
+      "width": 2250,
+      "height": 1594,
+      "size": 2236906,
+      "timestamp": "2015-05-17T10:17:59Z",
+      "author": "GO69",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Grand salon",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Le_Th%C3%A9_%C3%A0_l%27anglaise.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Th%C3%A9%20%C3%A0%20l'anglaise.jpg",
+          "title": "Le Thé à l'anglaise.jpg",
+          "width": 3564,
+          "height": 2702,
+          "size": 591896,
+          "timestamp": "2019-12-08T12:28:43Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Michel-Barth%C3%A9l%C3%A9my_Ollivier\" class=\"extiw\" title=\"w:en:Michel-Barthélémy Ollivier\"><span title=\"French painter (1712-1784)\">Michel-Barthélémy Ollivier</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Le_Th%C3%A9_%C3%A0_l%27anglaise_au_Palais_du_Temple.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Th%C3%A9%20%C3%A0%20l'anglaise%20au%20Palais%20du%20Temple.jpg",
+          "title": "Le Thé à l'anglaise au Palais du Temple.jpg",
+          "width": 758,
+          "height": 555,
+          "size": 73565,
+          "timestamp": "2020-02-09T15:27:34Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Michel-Barth%C3%A9l%C3%A9my_Ollivier\" class=\"extiw\" title=\"w:en:Michel-Barthélémy Ollivier\"><span title=\"French painter (1712-1784)\">Michel-Barthélémy Ollivier</span></a></bdi>",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "label": "Parc à l’anglaise",
+      "photos": []
+    },
+    {
+      "label": "Serre",
+      "photos": []
+    },
+    {
+      "label": "Glacière",
+      "photos": []
+    }
+  ]
+}

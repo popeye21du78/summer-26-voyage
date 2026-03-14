@@ -13,8 +13,6 @@
 - `villa-du-lac/` — Villa du Lac
 
 ## Restaurants (dossier `restos/`)
-- `le-cafe-du-lac/` — Le Café du Lac
-- `mon-petit-resto/` — Mon Petit Resto
 - `la-table-d-enghien/` — La Table d’Enghien
 - `le-bistrot-du-theatre/` — Le Bistrot du Théâtre
 - `pizza-di-napoli/` — Pizza Di Napoli

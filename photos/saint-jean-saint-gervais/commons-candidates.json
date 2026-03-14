@@ -1,0 +1,78 @@
+{
+  "slug": "saint-jean-saint-gervais",
+  "nom": "Saint Jean Saint Gervais",
+  "fetchedAt": "2026-03-14T12:04:42.921Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Brassac-les-Mines_-_cours_Jean_Moulin.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABrassac-les-Mines%20-%20cours%20Jean%20Moulin.jpg",
+      "title": "Brassac-les-Mines - cours Jean Moulin.jpg",
+      "width": 4032,
+      "height": 3024,
+      "size": 9936602,
+      "timestamp": "2025-02-23T18:48:06Z",
+      "author": "Yzergues",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Gare_de_Brassac-les-Mines_-_Sainte-Florine_BV_2017-08-19.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGare%20de%20Brassac-les-Mines%20-%20Sainte-Florine%20BV%202017-08-19.JPG",
+      "title": "Gare de Brassac-les-Mines - Sainte-Florine BV 2017-08-19.JPG",
+      "width": 2816,
+      "height": 2112,
+      "size": 1540045,
+      "timestamp": "2018-03-30T17:33:20Z",
+      "author": "Tabl-trai",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/EgliseEsteil.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEgliseEsteil.jpg",
+      "title": "EgliseEsteil.jpg",
+      "width": 3092,
+      "height": 2397,
+      "size": 3877090,
+      "timestamp": "2020-10-02T12:45:04Z",
+      "author": "Record",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    }
+  ],
+  "lieux": [
+    {
+      "label": "église de Jumeaux",
+      "photos": []
+    },
+    {
+      "label": "hameau de La Roche",
+      "photos": []
+    },
+    {
+      "label": "plateau de Saint-Jean-Saint-Gervais",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Plateau_des_Coulmes.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlateau%20des%20Coulmes.jpg",
+          "title": "Plateau des Coulmes.jpg",
+          "width": 4320,
+          "height": 3240,
+          "size": 2273511,
+          "timestamp": "2018-04-28T10:26:43Z",
+          "author": "Jean-Paul Corlin",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "label": "alignements de cerisiers (retour vers Jumeaux)",
+      "photos": []
+    }
+  ]
+}

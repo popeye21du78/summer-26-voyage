@@ -20,5 +20,3 @@
 - `le-bistrot-du-lac/` — Le Bistrot du Lac
 - `da-giovanni/` — Da Giovanni
 - `cafe-de-la-place/` — Café de la Place
-- `les-canailles/` — Les Canailles
-- `sushi-kyo/` — Sushi Kyo

@@ -16,9 +16,3 @@
 ## Restaurants (dossier `restos/`)
 - `les-frangins/` — Les Frangins
 - `l-excelsior-brasserie/` — L’Excelsior – Brasserie
-- `restaurant-transparence/` — Restaurant Transparence
-- `la-table-du-bon-roi-stanislas/` — La Table du Bon Roi Stanislas
-- `le-petit-malouin/` — Le Petit Malouin
-- `l-artisan-du-burger/` — L’Artisan du Burger
-- `brasserie-jean-lamour/` — Brasserie Jean Lamour
-- `la-manufacture/` — La Manufacture

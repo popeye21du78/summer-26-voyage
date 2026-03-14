@@ -1,0 +1,118 @@
+{
+  "slug": "thouars",
+  "nom": "Thouars",
+  "fetchedAt": "2026-03-14T12:51:13.476Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Parc_Imbert_%C3%A0_Thouars_%282%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParc%20Imbert%20%C3%A0%20Thouars%20(2).jpg",
+      "title": "Parc Imbert à Thouars (2).jpg",
+      "width": 5984,
+      "height": 3376,
+      "size": 15389230,
+      "timestamp": "2023-10-06T17:17:07Z",
+      "author": "DarkVador79-UA",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Parc_Imbert_%C3%A0_Thouars.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParc%20Imbert%20%C3%A0%20Thouars.jpg",
+      "title": "Parc Imbert à Thouars.jpg",
+      "width": 5984,
+      "height": 3376,
+      "size": 14170828,
+      "timestamp": "2023-10-06T17:17:07Z",
+      "author": "DarkVador79-UA",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Cin%C3%A9ma_de_Thouars_%281%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACin%C3%A9ma%20de%20Thouars%20(1).jpg",
+      "title": "Cinéma de Thouars (1).jpg",
+      "width": 5984,
+      "height": 3376,
+      "size": 6617904,
+      "timestamp": "2023-10-20T23:58:04Z",
+      "author": "DarkVador79-UA",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Château des ducs de La Trémoïlle (cour d’honneur)",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Ch%C3%A2teau_Tr%C3%A9moille_%2B_coll%C3%A9giale_N-D%2C_Thouars_%2879%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20Tr%C3%A9moille%20%2B%20coll%C3%A9giale%20N-D%2C%20Thouars%20(79).jpg",
+          "title": "Château Trémoille + collégiale N-D, Thouars (79).jpg",
+          "width": 988,
+          "height": 660,
+          "size": 349431,
+          "timestamp": "2023-07-31T04:33:08Z",
+          "author": "Dacia 1410 Sport",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "label": "Abbaye Saint-Laon (cloître)",
+      "photos": []
+    },
+    {
+      "label": "Porte au Prévost",
+      "photos": []
+    },
+    {
+      "label": "Pont des Chouans",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Thouars_-_Porte_Maillot_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AThouars%20-%20Porte%20Maillot%2001.jpg",
+          "title": "Thouars - Porte Maillot 01.jpg",
+          "width": 4390,
+          "height": 2907,
+          "size": 8536049,
+          "timestamp": "2012-09-25T13:10:58Z",
+          "author": "Selbymay",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Thouars_-_Porte_Maillot_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AThouars%20-%20Porte%20Maillot%2002.jpg",
+          "title": "Thouars - Porte Maillot 02.jpg",
+          "width": 4549,
+          "height": 2559,
+          "size": 8318026,
+          "timestamp": "2012-09-25T13:10:58Z",
+          "author": "Selbymay",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Thouars_-_Pont_Neuf_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AThouars%20-%20Pont%20Neuf%2001.jpg",
+          "title": "Thouars - Pont Neuf 01.jpg",
+          "width": 3926,
+          "height": 2600,
+          "size": 6176457,
+          "timestamp": "2012-09-25T13:10:58Z",
+          "author": "Selbymay",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "slug": "fources",
+  "nom": "Fourcès",
+  "fetchedAt": "2026-03-13T14:28:27.522Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Fourc%C3%A8s_village_gate-exterior.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFourc%C3%A8s%20village%20gate-exterior.jpg",
+      "title": "Fourcès village gate-exterior.jpg",
+      "width": 2299,
+      "height": 3065,
+      "size": 2254421,
+      "timestamp": "2013-09-27T08:39:20Z",
+      "author": "ww2censor",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 4
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Fourc%C3%A8s_Gers_8_church.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFourc%C3%A8s%20Gers%208%20church.jpg",
+      "title": "Fourcès Gers 8 church.jpg",
+      "width": 800,
+      "height": 1200,
+      "size": 675014,
+      "timestamp": "2007-04-21T19:07:45Z",
+      "author": "Jean-noël Lafargue (<a href=\"//commons.wikimedia.org/wiki/User:Jean-no\" title=\"User:Jean-no\">Jean-no</a>)",
+      "license": "FAL",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 2
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Fourc%C3%A8s_Gers_11.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFourc%C3%A8s%20Gers%2011.jpg",
+      "title": "Fourcès Gers 11.jpg",
+      "width": 800,
+      "height": 1200,
+      "size": 411227,
+      "timestamp": "2007-04-21T19:10:54Z",
+      "author": "Jean-noël Lafargue (<a href=\"//commons.wikimedia.org/wiki/User:Jean-no\" title=\"User:Jean-no\">Jean-no</a>)",
+      "license": "FAL",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 2
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Place centrale de Fourcès",
+      "photos": []
+    },
+    {
+      "label": "Pont de pierre sur l’Auzoue",
+      "photos": []
+    },
+    {
+      "label": "Lavoir de Fourcès",
+      "photos": []
+    },
+    {
+      "label": "Église Saint-Laurent",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Saint_Lawrence_Church_in_Fourc%C3%A8s_-_H4A4447.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint%20Lawrence%20Church%20in%20Fourc%C3%A8s%20-%20H4A4447.jpg",
+          "title": "Saint Lawrence Church in Fourcès - H4A4447.jpg",
+          "width": 5760,
+          "height": 3840,
+          "size": 16699847,
+          "timestamp": "2015-10-16T06:44:07Z",
+          "author": "Pierre-Selim Huard",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Fourc%C3%A8s_Gers_8_church.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFourc%C3%A8s%20Gers%208%20church.jpg",
+          "title": "Fourcès Gers 8 church.jpg",
+          "width": 800,
+          "height": 1200,
+          "size": 675014,
+          "timestamp": "2007-04-21T19:07:45Z",
+          "author": "Jean-noël Lafargue (<a href=\"//commons.wikimedia.org/wiki/User:Jean-no\" title=\"User:Jean-no\">Jean-no</a>)",
+          "license": "FAL",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 2
+        }
+      ]
+    }
+  ]
+}

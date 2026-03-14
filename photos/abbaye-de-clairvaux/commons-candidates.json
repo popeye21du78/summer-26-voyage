@@ -1,0 +1,78 @@
+{
+  "slug": "abbaye-de-clairvaux",
+  "nom": "Abbaye de Clairvaux",
+  "fetchedAt": "2026-03-13T12:00:09.138Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Kloster_von_Clairvaux%2C_heute_Strafanstalt.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKloster%20von%20Clairvaux%2C%20heute%20Strafanstalt.jpg",
+      "title": "Kloster von Clairvaux, heute Strafanstalt.jpg",
+      "width": 1931,
+      "height": 1448,
+      "size": 664628,
+      "timestamp": "2022-01-07T09:29:38Z",
+      "author": "KBWEi",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Abbaye_de_Clairvaux_%286%29.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20de%20Clairvaux%20(6).JPG",
+      "title": "Abbaye de Clairvaux (6).JPG",
+      "width": 4288,
+      "height": 2848,
+      "size": 6251589,
+      "timestamp": "2011-01-15T18:29:35Z",
+      "author": "Prosopee",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 5
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Eglise_Juvancout.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Juvancout.jpg",
+      "title": "Eglise Juvancout.jpg",
+      "width": 2307,
+      "height": 1603,
+      "size": 882609,
+      "timestamp": "2023-09-05T08:54:54Z",
+      "author": "Hamham960",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Dortoir des moines",
+      "photos": []
+    },
+    {
+      "label": "Salle capitulaire",
+      "photos": []
+    },
+    {
+      "label": "Grand cloître",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Abbey_of_Clairvaux.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbey%20of%20Clairvaux.jpg",
+          "title": "Abbey of Clairvaux.jpg",
+          "width": 4090,
+          "height": 2732,
+          "size": 2169996,
+          "timestamp": "2017-11-30T13:40:48Z",
+          "author": "Thomas Salva, Lumento",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "label": "Cour des anciennes cellules",
+      "photos": []
+    }
+  ]
+}

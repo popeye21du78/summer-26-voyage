@@ -1,0 +1,100 @@
+{
+  "slug": "vascoeuil",
+  "nom": "Vascoeuil",
+  "fetchedAt": "2026-03-14T13:05:15.021Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Eglise_Saint-Martial_de_Vascoeuil.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Saint-Martial%20de%20Vascoeuil.jpg",
+      "title": "Eglise Saint-Martial de Vascoeuil.jpg",
+      "width": 4032,
+      "height": 3024,
+      "size": 4288406,
+      "timestamp": "2018-04-16T15:05:35Z",
+      "author": "Giogo",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/2012--DSC_0476-Chateau-de-Vascoeuil.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2012--DSC%200476-Chateau-de-Vascoeuil.jpg",
+      "title": "2012--DSC 0476-Chateau-de-Vascoeuil.jpg",
+      "width": 4928,
+      "height": 3264,
+      "size": 11131073,
+      "timestamp": "2012-09-10T21:45:25Z",
+      "author": "Pline",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 5
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/2012--DSC_0160-Chateau-de-Vascoeuil.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2012--DSC%200160-Chateau-de-Vascoeuil.jpg",
+      "title": "2012--DSC 0160-Chateau-de-Vascoeuil.jpg",
+      "width": 4928,
+      "height": 2676,
+      "size": 6307326,
+      "timestamp": "2012-09-18T20:19:05Z",
+      "author": "Pline",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 5
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Château de Vascoeuil",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Ch%C3%A2teau_de_Vascoeuil_-_entr%C3%A9e_1.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Vascoeuil%20-%20entr%C3%A9e%201.JPG",
+          "title": "Château de Vascoeuil - entrée 1.JPG",
+          "width": 6000,
+          "height": 4000,
+          "size": 6403171,
+          "timestamp": "2017-10-15T18:33:36Z",
+          "author": "Chatsam",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Ch%C3%A2teau_de_Vascoeuil_-_parc_1.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Vascoeuil%20-%20parc%201.JPG",
+          "title": "Château de Vascoeuil - parc 1.JPG",
+          "width": 6000,
+          "height": 4000,
+          "size": 7064616,
+          "timestamp": "2017-10-15T18:36:09Z",
+          "author": "Chatsam",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Ch%C3%A2teau_de_Vascoeuil_-_parc_3.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Vascoeuil%20-%20parc%203.JPG",
+          "title": "Château de Vascoeuil - parc 3.JPG",
+          "width": 6000,
+          "height": 4000,
+          "size": 7686249,
+          "timestamp": "2017-10-15T18:39:16Z",
+          "author": "Chatsam",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "label": "Parc de sculptures du château",
+      "photos": []
+    },
+    {
+      "label": "Église Saint-Martin de Vascoeuil",
+      "photos": []
+    }
+  ]
+}

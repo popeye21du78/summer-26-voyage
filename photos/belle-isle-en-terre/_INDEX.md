@@ -10,7 +10,3 @@
 - `pont-sur-le-leguer/` — Pont sur le Léguer
 - `fontaine-saint-efflam/` — Fontaine Saint-Efflam
 - `chapelle-saint-antoine/` — Chapelle Saint-Antoine
-
-## Restaurants (dossier `restos/`)
-- `l-auberge-du-leguer/` — L'Auberge du Léguer
-- `la-creperie-des-deux-rivieres/` — La Crêperie des Deux Rivières

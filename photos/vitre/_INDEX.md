@@ -20,5 +20,3 @@
 - `la-taverne-du-chateau/` — La Taverne du Château
 - `l-atelier-gourmand/` — L’Atelier Gourmand
 - `le-bistroquet/` — Le Bistroquet
-- `le-globe-trotter/` — Le Globe Trotter
-- `la-fabrique/` — La Fabrique

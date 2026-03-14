@@ -1,0 +1,118 @@
+{
+  "slug": "lorris",
+  "nom": "Lorris",
+  "fetchedAt": "2026-03-13T15:57:21.488Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Mus%C3%A9e_de_la_R%C3%A9sistance_%28Lorris%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e%20de%20la%20R%C3%A9sistance%20(Lorris).jpg",
+      "title": "Musée de la Résistance (Lorris).jpg",
+      "width": 3000,
+      "height": 4000,
+      "size": 6012094,
+      "timestamp": "2025-10-06T12:35:56Z",
+      "author": "Artgaux",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Lorris_orgues_ensemble.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALorris%20orgues%20ensemble.jpg",
+      "title": "Lorris orgues ensemble.jpg",
+      "width": 1984,
+      "height": 1488,
+      "size": 789706,
+      "timestamp": "2008-06-11T07:42:58Z",
+      "author": "J. THURION (user : Belgavox)",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 4
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Lorris_halle_1.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALorris%20halle%201.jpg",
+      "title": "Lorris halle 1.jpg",
+      "width": 2144,
+      "height": 1424,
+      "size": 1831535,
+      "timestamp": "2009-11-09T07:35:52Z",
+      "author": "Croquant",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 4
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Halle de Lorris",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Lorris_Halle3865.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALorris%20Halle3865.JPG",
+          "title": "Lorris Halle3865.JPG",
+          "width": 4246,
+          "height": 2834,
+          "size": 6404418,
+          "timestamp": "2013-07-01T06:12:03Z",
+          "author": "Reinhardhauke",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Lorris_halles.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALorris%20halles.jpg",
+          "title": "Lorris halles.jpg",
+          "width": 1984,
+          "height": 1488,
+          "size": 668014,
+          "timestamp": "2007-10-13T17:44:04Z",
+          "author": "Accrochoc",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Lorris_halle_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALorris%20halle%201.jpg",
+          "title": "Lorris halle 1.jpg",
+          "width": 2144,
+          "height": 1424,
+          "size": 1831535,
+          "timestamp": "2009-11-09T07:35:52Z",
+          "author": "Croquant",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "label": "Église Saint-Louis",
+      "photos": []
+    },
+    {
+      "label": "Canal d’Orléans",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Rigole_de_Courpalet.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARigole%20de%20Courpalet.jpg",
+          "title": "Rigole de Courpalet.jpg",
+          "width": 768,
+          "height": 1024,
+          "size": 398187,
+          "timestamp": "2018-09-05T09:54:37Z",
+          "author": "Desmoric",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "label": "Maison de la Forêt",
+      "photos": []
+    }
+  ]
+}

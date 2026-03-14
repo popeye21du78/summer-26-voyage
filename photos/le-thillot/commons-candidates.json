@@ -1,0 +1,104 @@
+{
+  "slug": "le-thillot",
+  "nom": "Le Thillot",
+  "fetchedAt": "2026-03-13T15:39:48.191Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Le_Thillot%2C_H%C3%B4tel_de_ville.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Thillot%2C%20H%C3%B4tel%20de%20ville.jpg",
+      "title": "Le Thillot, Hôtel de ville.jpg",
+      "width": 4528,
+      "height": 3267,
+      "size": 2078484,
+      "timestamp": "2025-02-26T16:09:10Z",
+      "author": "Rauenstein",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Le_Thillot_-_rue_Jules_Ferry.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Thillot%20-%20rue%20Jules%20Ferry.jpg",
+      "title": "Le Thillot - rue Jules Ferry.jpg",
+      "width": 4032,
+      "height": 3024,
+      "size": 8300213,
+      "timestamp": "2024-08-10T20:58:07Z",
+      "author": "Yzergues",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Le_Thillot_-_place_nouvelle.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Thillot%20-%20place%20nouvelle.jpg",
+      "title": "Le Thillot - place nouvelle.jpg",
+      "width": 4032,
+      "height": 3024,
+      "size": 11133590,
+      "timestamp": "2024-08-10T20:58:08Z",
+      "author": "Yzergues",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Manufacture Royale du Thillot",
+      "photos": []
+    },
+    {
+      "label": "Chapelle des Mines",
+      "photos": []
+    },
+    {
+      "label": "Église Saint-Jean-Baptiste",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Le_Thillot%2C_Eglise_Saint-Jean-Baptiste.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Thillot%2C%20Eglise%20Saint-Jean-Baptiste.jpg",
+          "title": "Le Thillot, Eglise Saint-Jean-Baptiste.jpg",
+          "width": 2128,
+          "height": 2548,
+          "size": 687279,
+          "timestamp": "2025-11-22T21:48:19Z",
+          "author": "Rauenstein",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Eglise_Saint-Jean-Baptiste_du_Thillot._%281%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Saint-Jean-Baptiste%20du%20Thillot.%20(1).jpg",
+          "title": "Eglise Saint-Jean-Baptiste du Thillot. (1).jpg",
+          "width": 3821,
+          "height": 2867,
+          "size": 2286009,
+          "timestamp": "2019-08-12T08:48:35Z",
+          "author": "Espirat",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Nef_de_l%27%C3%A9glise_de_Le_Thillot.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANef%20de%20l'%C3%A9glise%20de%20Le%20Thillot.jpg",
+          "title": "Nef de l'église de Le Thillot.jpg",
+          "width": 4000,
+          "height": 3000,
+          "size": 3536851,
+          "timestamp": "2019-08-12T08:56:27Z",
+          "author": "Espirat",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "label": "Belvédère du Drumont",
+      "photos": []
+    }
+  ]
+}

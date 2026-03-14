@@ -1,0 +1,91 @@
+{
+  "slug": "chateau-de-malbrouck",
+  "nom": "Château de Malbrouck",
+  "fetchedAt": "2026-03-13T13:11:38.094Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Mondorff%2C_Mairie.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMondorff%2C%20Mairie.jpg",
+      "title": "Mondorff, Mairie.jpg",
+      "width": 2590,
+      "height": 2185,
+      "size": 828289,
+      "timestamp": "2025-05-26T16:18:31Z",
+      "author": "Rauenstein",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Synagog_Munneref%2C_M%C3%A4erz_2015-102.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASynagog%20Munneref%2C%20M%C3%A4erz%202015-102.jpg",
+      "title": "Synagog Munneref, Mäerz 2015-102.jpg",
+      "width": 5529,
+      "height": 4571,
+      "size": 12061199,
+      "timestamp": "2015-03-21T15:50:58Z",
+      "author": "Jwh",
+      "license": "CC BY-SA 3.0 lu",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Sch%C3%ABld_Kleng_Gare%2C_Munneref.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASch%C3%ABld%20Kleng%20Gare%2C%20Munneref.jpg",
+      "title": "Schëld Kleng Gare, Munneref.jpg",
+      "width": 2964,
+      "height": 1978,
+      "size": 3334038,
+      "timestamp": "2015-03-25T01:39:17Z",
+      "author": "Jwh",
+      "license": "CC BY-SA 3.0 lu",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    }
+  ],
+  "lieux": [
+    {
+      "label": "chemin de ronde",
+      "photos": []
+    },
+    {
+      "label": "cour intérieure",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Ch%C3%A2teau_de_Malbrouck_DSCF6996.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Malbrouck%20DSCF6996.jpg",
+          "title": "Château de Malbrouck DSCF6996.jpg",
+          "width": 6000,
+          "height": 4000,
+          "size": 13154374,
+          "timestamp": "2020-09-27T16:14:23Z",
+          "author": "Musicaline",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Ch%C3%A2teau_de_Malbrouck_DSCF6980.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Malbrouck%20DSCF6980.jpg",
+          "title": "Château de Malbrouck DSCF6980.jpg",
+          "width": 5614,
+          "height": 4032,
+          "size": 15386139,
+          "timestamp": "2020-09-29T13:15:41Z",
+          "author": "Musicaline",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
+    },
+    {
+      "label": "tour du Rocher",
+      "photos": []
+    },
+    {
+      "label": "salle d’armes",
+      "photos": []
+    }
+  ]
+}

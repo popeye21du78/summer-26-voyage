@@ -6,19 +6,11 @@
 - `3.jpg` — photo tertiaire
 
 ## Lieux (dossier `lieux/`)
-- `grand-place/` — Grand-Place
-- `vieille-bourse/` — Vieille Bourse
-- `beffroi-de-l-hotel-de-ville/` — Beffroi de l’Hôtel de Ville
-- `palais-des-beaux-arts/` — Palais des Beaux-Arts
+- `vieille-bourse-de-lille/` — Vieille Bourse de Lille
 - `parc-de-la-citadelle/` — Parc de la Citadelle
-- `maison-folie-wazemmes/` — Maison Folie Wazemmes
+- `beffroi-de-l-hotel-de-ville/` — Beffroi de l’Hôtel de Ville
+- `jardin-des-geants/` — Jardin des Géants
 
 ## Restaurants (dossier `restos/`)
-- `le-barbue-d-anvers/` — Le Barbue d’Anvers
-- `la-petite-table/` — La Petite Table
+- `la-petite-cour/` — La Petite Cour
 - `bloempot/` — Bloempot
-- `rouge-barre/` — Rouge Barre
-- `estaminet-au-vieux-de-la-vieille/` — Estaminet Au Vieux de la Vieille
-- `la-chicoree/` — La Chicorée
-- `le-bistrot-de-st-so/` — Le Bistrot de St So
-- `l-ilot-bar/` — L’Îlot Bar

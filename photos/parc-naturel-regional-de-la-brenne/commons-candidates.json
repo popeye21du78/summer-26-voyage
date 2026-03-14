@@ -1,0 +1,78 @@
+{
+  "slug": "parc-naturel-regional-de-la-brenne",
+  "nom": "Parc naturel régional de la Brenne",
+  "fetchedAt": "2026-03-13T16:45:14.236Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/ISS038-E-31302_-_View_of_Earth.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS038-E-31302%20-%20View%20of%20Earth.jpg",
+      "title": "ISS038-E-31302 - View of Earth.jpg",
+      "width": 4256,
+      "height": 2832,
+      "size": 1036487,
+      "timestamp": "2021-04-12T20:53:23Z",
+      "author": "Earth Science and Remote Sensing Unit",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/ISS041-E-76786_-_View_of_Earth.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS041-E-76786%20-%20View%20of%20Earth.jpg",
+      "title": "ISS041-E-76786 - View of Earth.jpg",
+      "width": 4928,
+      "height": 3280,
+      "size": 2451527,
+      "timestamp": "2021-08-13T08:27:10Z",
+      "author": "Earth Science and Remote Sensing Unit",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/ISS041-E-76787_-_View_of_Earth.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS041-E-76787%20-%20View%20of%20Earth.jpg",
+      "title": "ISS041-E-76787 - View of Earth.jpg",
+      "width": 4928,
+      "height": 3280,
+      "size": 2519831,
+      "timestamp": "2021-08-13T08:28:02Z",
+      "author": "Earth Science and Remote Sensing Unit",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Étang de Bellebouche",
+      "photos": []
+    },
+    {
+      "label": "Étang de la Mer Rouge",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Brenne_-_Rosnay_%2836%29_-_%C3%89tang_de_la_Mer_Rouge.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABrenne%20-%20Rosnay%20(36)%20-%20%C3%89tang%20de%20la%20Mer%20Rouge.jpg",
+          "title": "Brenne - Rosnay (36) - Étang de la Mer Rouge.jpg",
+          "width": 2592,
+          "height": 1944,
+          "size": 1380225,
+          "timestamp": "2007-08-25T16:59:49Z",
+          "author": "Bert76",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "label": "Passerelle de l’étang Ricot",
+      "photos": []
+    },
+    {
+      "label": "Réserve naturelle de Chérine",
+      "photos": []
+    }
+  ]
+}

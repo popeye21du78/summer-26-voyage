@@ -20,5 +20,3 @@
 - `l-acacia/` — L’Acacia
 - `le-comptoir-joa/` — Le Comptoir JOA
 - `le-reef/` — Le Reef
-- `les-chardons/` — Les Chardons
-- `le-pierrot/` — Le Pierrot

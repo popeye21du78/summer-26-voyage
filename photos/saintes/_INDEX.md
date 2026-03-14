@@ -14,8 +14,6 @@
 - `quais-de-la-charente/` — Quais de la Charente
 
 ## Restaurants (dossier `restos/`)
-- `les-saveurs-de-l-abbaye/` — Les Saveurs de l’Abbaye
-- `l-address/` — L'Address
 - `la-table-d-as/` — La Table d’As
 - `le-parvis/` — Le Parvis
 - `le-bonheur-est-dans-le-the/` — Le Bonheur est dans le Thé

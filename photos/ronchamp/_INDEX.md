@@ -20,5 +20,3 @@
 - `le-refuge/` — Le Refuge
 - `brasserie-du-centre/` — Brasserie du Centre
 - `pizzeria-la-roma/` — Pizzeria La Roma
-- `le-saint-hubert/` — Le Saint-Hubert
-- `la-fontaine/` — La Fontaine

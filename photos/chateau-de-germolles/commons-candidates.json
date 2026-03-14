@@ -1,0 +1,78 @@
+{
+  "slug": "chateau-de-germolles",
+  "nom": "Château de Germolles",
+  "fetchedAt": "2026-03-13T13:06:24.622Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/ISS043-E-89010_-_View_of_Earth.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS043-E-89010%20-%20View%20of%20Earth.jpg",
+      "title": "ISS043-E-89010 - View of Earth.jpg",
+      "width": 4928,
+      "height": 3280,
+      "size": 5062714,
+      "timestamp": "2021-03-12T07:54:41Z",
+      "author": "Earth Science and Remote Sensing Unit",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/ISS043-E-89011_-_View_of_Earth.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS043-E-89011%20-%20View%20of%20Earth.jpg",
+      "title": "ISS043-E-89011 - View of Earth.jpg",
+      "width": 4928,
+      "height": 3280,
+      "size": 5061980,
+      "timestamp": "2021-03-12T07:54:56Z",
+      "author": "Earth Science and Remote Sensing Unit",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Cirey-l%C3%A8s-Pontailler_%2821%29_Nouvelle_mairie.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACirey-l%C3%A8s-Pontailler%20(21)%20Nouvelle%20mairie.jpg",
+      "title": "Cirey-lès-Pontailler (21) Nouvelle mairie.jpg",
+      "width": 2049,
+      "height": 1128,
+      "size": 900388,
+      "timestamp": "2021-03-23T16:36:26Z",
+      "author": "GO69",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Grande salle aux fresques",
+      "photos": []
+    },
+    {
+      "label": "Portail d’entrée",
+      "photos": []
+    },
+    {
+      "label": "Jardin médiéval",
+      "photos": []
+    },
+    {
+      "label": "Cour intérieure",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Vue_de_la_cour_int%C3%A9rieure.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20de%20la%20cour%20int%C3%A9rieure.JPG",
+          "title": "Vue de la cour intérieure.JPG",
+          "width": 1280,
+          "height": 960,
+          "size": 317513,
+          "timestamp": "2011-01-04T22:15:43Z",
+          "author": "C. Degrigny",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
+    }
+  ]
+}

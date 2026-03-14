@@ -16,8 +16,6 @@
 ## Restaurants (dossier `restos/`)
 - `la-table-d-angele/` — La Table d'Angèle
 - `restaurant-chez-lulu/` — Restaurant Chez Lulu
-- `l-appart/` — L’Appart
-- `l-abbaye-des-premontres-brasserie/` — L’Abbaye des Prémontrés (Brasserie)
 - `le-cafe-de-la-place/` — Le Café de la Place
 - `le-bistronome/` — Le Bistronome
 - `le-chalet/` — Le Chalet

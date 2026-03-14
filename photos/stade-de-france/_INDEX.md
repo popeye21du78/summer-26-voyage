@@ -19,5 +19,3 @@
 - `au-bouchon-de-la-butte/` — Au Bouchon de la Butte
 - `le-stade-bistro/` — Le Stade Bistro
 - `le-comptoir-du-stade/` — Le Comptoir du Stade
-- `le-france/` — Le France
-- `la-3eme-mi-temps/` — La 3ème Mi-Temps

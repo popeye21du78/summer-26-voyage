@@ -1,0 +1,74 @@
+{
+  "slug": "plage-de-calais",
+  "nom": "Plage de Calais",
+  "fetchedAt": "2026-03-14T10:54:34.699Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/CalaisTour_01.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACalaisTour%2001.jpg",
+      "title": "CalaisTour 01.jpg",
+      "width": 5644,
+      "height": 3762,
+      "size": 13805855,
+      "timestamp": "2017-09-12T09:19:33Z",
+      "author": "Selbymay",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/CalaisTour_03.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACalaisTour%2003.jpg",
+      "title": "CalaisTour 03.jpg",
+      "width": 5187,
+      "height": 3458,
+      "size": 12095995,
+      "timestamp": "2017-09-12T09:19:33Z",
+      "author": "Selbymay",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/CalaisTour_02.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACalaisTour%2002.jpg",
+      "title": "CalaisTour 02.jpg",
+      "width": 6016,
+      "height": 4016,
+      "size": 18282741,
+      "timestamp": "2017-09-12T09:19:33Z",
+      "author": "Selbymay",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Cabines blanches du front de mer",
+      "photos": []
+    },
+    {
+      "label": "Blockhaus dans les dunes",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Le_Touquet_sud_%E2%80%98le_domaine_des_dunes_blockhaus.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Touquet%20sud%20%E2%80%98le%20domaine%20des%20dunes%20blockhaus.jpg",
+          "title": "Le Touquet sud ‘le domaine des dunes blockhaus.jpg",
+          "width": 762,
+          "height": 465,
+          "size": 128064,
+          "timestamp": "2021-03-06T13:25:37Z",
+          "author": "Dr Dobeaucoup",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "label": "Digue et chenal du port",
+      "photos": []
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "sancerre",
+  "nom": "Sancerre",
+  "fetchedAt": "2026-03-14T12:24:24.015Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Vignes_-_Sancerre_01.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVignes%20-%20Sancerre%2001.jpg",
+      "title": "Vignes - Sancerre 01.jpg",
+      "width": 4000,
+      "height": 3000,
+      "size": 8192395,
+      "timestamp": "2022-09-12T14:34:15Z",
+      "author": "Bastenbas",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Saint-Satur_-_Sancerre_03.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Satur%20-%20Sancerre%2003.jpg",
+      "title": "Saint-Satur - Sancerre 03.jpg",
+      "width": 4000,
+      "height": 3000,
+      "size": 8269122,
+      "timestamp": "2022-09-12T14:34:17Z",
+      "author": "Bastenbas",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Sancerre_outside_cafe.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASancerre%20outside%20cafe.jpg",
+      "title": "Sancerre outside cafe.jpg",
+      "width": 1920,
+      "height": 1080,
+      "size": 742109,
+      "timestamp": "2023-07-02T10:52:44Z",
+      "author": "Elgaard",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Tour des Fiefs",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Sancerre_-_View_from_Tour_des_Fiefs_-_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASancerre%20-%20View%20from%20Tour%20des%20Fiefs%20-%2001.jpg",
+          "title": "Sancerre - View from Tour des Fiefs - 01.jpg",
+          "width": 6744,
+          "height": 4500,
+          "size": 12945056,
+          "timestamp": "2024-08-03T20:40:46Z",
+          "author": "Benjamin Smith",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Sancerre_-_View_from_Tour_des_Fiefs_-_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASancerre%20-%20View%20from%20Tour%20des%20Fiefs%20-%2002.jpg",
+          "title": "Sancerre - View from Tour des Fiefs - 02.jpg",
+          "width": 6720,
+          "height": 4480,
+          "size": 14226801,
+          "timestamp": "2024-08-03T20:40:46Z",
+          "author": "Benjamin Smith",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Sancerre_-_View_from_Tour_des_Fiefs_-_03.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASancerre%20-%20View%20from%20Tour%20des%20Fiefs%20-%2003.jpg",
+          "title": "Sancerre - View from Tour des Fiefs - 03.jpg",
+          "width": 6088,
+          "height": 4062,
+          "size": 12583666,
+          "timestamp": "2024-08-03T20:40:47Z",
+          "author": "Benjamin Smith",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
+    },
+    {
+      "label": "Collégiale Saint-Gengoulf",
+      "photos": []
+    },
+    {
+      "label": "Place de la Panneterie",
+      "photos": []
+    }
+  ]
+}

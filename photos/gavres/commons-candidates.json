@@ -1,0 +1,104 @@
+{
+  "slug": "gavres",
+  "nom": "Gâvres",
+  "fetchedAt": "2026-03-13T14:32:01.150Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Plage_de_Gavres_-_panoramio.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlage%20de%20Gavres%20-%20panoramio.jpg",
+      "title": "Plage de Gavres - panoramio.jpg",
+      "width": 3264,
+      "height": 2448,
+      "size": 3190867,
+      "timestamp": "2017-01-09T12:50:25Z",
+      "author": "mphb45",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Pointe_de_G%C3%A2vres_-_panoramio.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APointe%20de%20G%C3%A2vres%20-%20panoramio.jpg",
+      "title": "Pointe de Gâvres - panoramio.jpg",
+      "width": 3264,
+      "height": 2448,
+      "size": 3635454,
+      "timestamp": "2017-01-09T13:20:34Z",
+      "author": "mphb45",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/G%C3%A2vres%2C_France_-_panoramio.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AG%C3%A2vres%2C%20France%20-%20panoramio.jpg",
+      "title": "Gâvres, France - panoramio.jpg",
+      "width": 3264,
+      "height": 2448,
+      "size": 2151140,
+      "timestamp": "2017-01-09T13:21:54Z",
+      "author": "mphb45",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Chapelle Saint-Gildas",
+      "photos": []
+    },
+    {
+      "label": "Pointe de Gâvres",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/061_La_citadelle_de_Port-Louis_vue_de_la_Pointe_de_Gavres.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A061%20La%20citadelle%20de%20Port-Louis%20vue%20de%20la%20Pointe%20de%20Gavres.jpg",
+          "title": "061 La citadelle de Port-Louis vue de la Pointe de Gavres.jpg",
+          "width": 2929,
+          "height": 1737,
+          "size": 3308387,
+          "timestamp": "2021-01-03T05:37:11Z",
+          "author": "Moreau.henri",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/1270_G%C3%A2vres.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1270%20G%C3%A2vres.jpg",
+          "title": "1270 Gâvres.jpg",
+          "width": 2969,
+          "height": 2137,
+          "size": 2144367,
+          "timestamp": "2021-01-21T05:33:56Z",
+          "author": "Inconnu (1941)",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/1260_G%C3%A2vres.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1260%20G%C3%A2vres.jpg",
+          "title": "1260 Gâvres.jpg",
+          "width": 4320,
+          "height": 3240,
+          "size": 3776375,
+          "timestamp": "2021-01-22T04:44:23Z",
+          "author": "Moreau.henri",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
+    },
+    {
+      "label": "Plage de Grand Site",
+      "photos": []
+    },
+    {
+      "label": "Blockhaus du mur de l’Atlantique",
+      "photos": []
+    }
+  ]
+}

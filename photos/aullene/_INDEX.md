@@ -10,6 +10,3 @@
 - `fontaine-centrale/` — Fontaine centrale
 - `vieux-pont-de-granit/` — Vieux pont de granit
 - `punta-di-audde/` — Punta di Auddè
-
-## Restaurants (dossier `restos/`)
-- `u-fragnu/` — U Fragnu

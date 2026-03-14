@@ -1,0 +1,65 @@
+{
+  "slug": "musee-d-art-et-d-histoire-de-meudon",
+  "nom": "musee d art et d histoire de meudon",
+  "fetchedAt": "2026-03-13T16:29:56.351Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Vue_de_la_salp%C3%AAtri%C3%A8re_en_1707._Actuel_13%C3%A8me_arrondissement%2C_D.827.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20de%20la%20salp%C3%AAtri%C3%A8re%20en%201707.%20Actuel%2013%C3%A8me%20arrondissement%2C%20D.827.jpg",
+      "title": "Vue de la salpêtrière en 1707. Actuel 13ème arrondissement, D.827.jpg",
+      "width": 6000,
+      "height": 2843,
+      "size": 2424817,
+      "timestamp": "2023-04-29T06:38:20Z",
+      "author": "Guéroult-Du-Pas, Pierre-Jacob (Toulon, en 1654 - en 1714), dessinateur",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Louis_Tauzin_avenue_du_ch%C3%A2teau.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALouis%20Tauzin%20avenue%20du%20ch%C3%A2teau.JPG",
+      "title": "Louis Tauzin avenue du château.JPG",
+      "width": 759,
+      "height": 600,
+      "size": 113033,
+      "timestamp": "2015-07-30T19:37:57Z",
+      "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Louis_Tauzin\" class=\"extiw\" title=\"w:en:Louis Tauzin\"><span title=\"French painter and lithographer (1842-1915)\">Louis Tauzin</span></a></bdi>",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 3
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Salle Bourdelle",
+      "photos": []
+    },
+    {
+      "label": "Jardin du musée",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Vue_de_la_salp%C3%AAtri%C3%A8re_en_1707._Actuel_13%C3%A8me_arrondissement%2C_D.827.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20de%20la%20salp%C3%AAtri%C3%A8re%20en%201707.%20Actuel%2013%C3%A8me%20arrondissement%2C%20D.827.jpg",
+          "title": "Vue de la salpêtrière en 1707. Actuel 13ème arrondissement, D.827.jpg",
+          "width": 6000,
+          "height": 2843,
+          "size": 2424817,
+          "timestamp": "2023-04-29T06:38:20Z",
+          "author": "Guéroult-Du-Pas, Pierre-Jacob (Toulon, en 1654 - en 1714), dessinateur",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
+    },
+    {
+      "label": "Salle des portraits",
+      "photos": []
+    },
+    {
+      "label": "Vitrines de la Manufacture de porcelaine",
+      "photos": []
+    }
+  ]
+}

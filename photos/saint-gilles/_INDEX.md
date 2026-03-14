@@ -16,8 +16,6 @@
 ## Restaurants (dossier `restos/`)
 - `o-baris/` — Ô Baris
 - `le-petit-camarguais/` — Le Petit Camarguais
-- `l-atelier-des-halles/` — L’Atelier des Halles
-- `le-cours/` — Le Cours
 - `le-camion-gourmand/` — Le Camion Gourmand
 - `la-terrasse/` — La Terrasse
 - `le-bistrot-du-canal/` — Le Bistrot du Canal

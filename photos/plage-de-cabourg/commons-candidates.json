@@ -1,0 +1,100 @@
+{
+  "slug": "plage-de-cabourg",
+  "nom": "Plage de Cabourg",
+  "fetchedAt": "2026-03-14T10:54:25.395Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Grand_H%C3%B4tel_de_Cabourg_2.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrand%20H%C3%B4tel%20de%20Cabourg%202.jpg",
+      "title": "Grand Hôtel de Cabourg 2.jpg",
+      "width": 1889,
+      "height": 1417,
+      "size": 622592,
+      "timestamp": "2015-03-31T06:00:44Z",
+      "author": "klodo6975",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Memorial-1stCanadianParaBattalion-3-Varaville.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMemorial-1stCanadianParaBattalion-3-Varaville.jpg",
+      "title": "Memorial-1stCanadianParaBattalion-3-Varaville.jpg",
+      "width": 3416,
+      "height": 2716,
+      "size": 4181273,
+      "timestamp": "2025-06-11T09:29:38Z",
+      "author": "Dave osm",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Plaque_Sapeurs-Varaville.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlaque%20Sapeurs-Varaville.jpg",
+      "title": "Plaque Sapeurs-Varaville.jpg",
+      "width": 3648,
+      "height": 2944,
+      "size": 2445687,
+      "timestamp": "2023-09-26T13:28:24Z",
+      "author": "Dave osm",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Promenade Marcel Proust",
+      "photos": []
+    },
+    {
+      "label": "Grand Hôtel de Cabourg",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Grand_H%C3%B4tel_de_Cabourg_depuis_la_plage_%C3%A0_basse_mer_%28juillet_2025%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrand%20H%C3%B4tel%20de%20Cabourg%20depuis%20la%20plage%20%C3%A0%20basse%20mer%20(juillet%202025).JPG",
+          "title": "Grand Hôtel de Cabourg depuis la plage à basse mer (juillet 2025).JPG",
+          "width": 3264,
+          "height": 2448,
+          "size": 4292651,
+          "timestamp": "2025-08-25T17:09:07Z",
+          "author": "Florian Pépellin",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/CABOURG_5_Hs_DE_PARIS_GRAND-HOTEL_RESTAURANT_CAFE_DIRECTION_H._NOEL_%26_PATTARD._CASINO._THEATRE._CONCERTS._BA%2C_AFF1275.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACABOURG%205%20Hs%20DE%20PARIS%20GRAND-HOTEL%20RESTAURANT%20CAFE%20DIRECTION%20H.%20NOEL%20%26%20PATTARD.%20CASINO.%20THEATRE.%20CONCERTS.%20BA%2C%20AFF1275.jpg",
+          "title": "CABOURG 5 Hs DE PARIS GRAND-HOTEL RESTAURANT CAFE DIRECTION H. NOEL & PATTARD. CASINO. THEATRE. CONCERTS. BA, AFF1275.jpg",
+          "width": 3551,
+          "height": 4945,
+          "size": 2670804,
+          "timestamp": "2023-05-31T17:27:26Z",
+          "author": "Pal, Jean (dit Jean Paléologue) (Bucarest, 1860 - Miami Beach, 1942), dessinateur",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Bains_de_mer_de_Cabourg._A_5_heures_de_Paris._La_plus_belle_plage_du_monde._Grand-h%C3%B4tel_-_Casino_%26_Bains._affiche%2C_non_identifi%C3%A9.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABains%20de%20mer%20de%20Cabourg.%20A%205%20heures%20de%20Paris.%20La%20plus%20belle%20plage%20du%20monde.%20Grand-h%C3%B4tel%20-%20Casino%20%26%20Bains.%20affiche%2C%20non%20identifi%C3%A9.jpg",
+          "title": "Bains de mer de Cabourg. A 5 heures de Paris. La plus belle plage du monde. Grand-hôtel - Casino & Bains. affiche, non identifié.jpg",
+          "width": 6336,
+          "height": 8582,
+          "size": 28641554,
+          "timestamp": "2024-05-14T16:37:20Z",
+          "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "label": "Digue de Cabourg",
+      "photos": []
+    }
+  ]
+}

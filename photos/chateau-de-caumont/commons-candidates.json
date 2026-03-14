@@ -1,0 +1,78 @@
+{
+  "slug": "chateau-de-caumont",
+  "nom": "Château de Caumont",
+  "fetchedAt": "2026-03-13T12:45:14.952Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Caumont_%2822%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACaumont%20(22).jpg",
+      "title": "Caumont (22).jpg",
+      "width": 4032,
+      "height": 3024,
+      "size": 2515628,
+      "timestamp": "2021-04-18T19:38:02Z",
+      "author": "Frédéric Neupont",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Caumont_%286%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACaumont%20(6).jpg",
+      "title": "Caumont (6).jpg",
+      "width": 3956,
+      "height": 2920,
+      "size": 5537140,
+      "timestamp": "2021-04-18T19:38:04Z",
+      "author": "Frédéric Neupont",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Caumont_%2834%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACaumont%20(34).jpg",
+      "title": "Caumont (34).jpg",
+      "width": 4032,
+      "height": 3024,
+      "size": 3633718,
+      "timestamp": "2021-04-18T21:23:04Z",
+      "author": "Frédéric Neupont",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Cour intérieure et tours rondes",
+      "photos": []
+    },
+    {
+      "label": "Salon d’apparat",
+      "photos": []
+    },
+    {
+      "label": "Orangerie",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Ch%C3%A2teau_de_Caumont%2C_fa%C3%A7ade_sud_de_la_partie_XVe_si%C3%A8cle%2C_orangerie.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Caumont%2C%20fa%C3%A7ade%20sud%20de%20la%20partie%20XVe%20si%C3%A8cle%2C%20orangerie.jpg",
+          "title": "Château de Caumont, façade sud de la partie XVe siècle, orangerie.jpg",
+          "width": 800,
+          "height": 600,
+          "size": 114322,
+          "timestamp": "2014-09-16T18:43:53Z",
+          "author": "Zzabeth",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "label": "Pigeonnier circulaire",
+      "photos": []
+    }
+  ]
+}

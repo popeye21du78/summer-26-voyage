@@ -16,9 +16,5 @@
 ## Restaurants (dossier `restos/`)
 - `restaurant-la-table-de-margot/` — Restaurant : La Table de Margot
 - `restaurant-le-petit-lauragais/` — Restaurant : Le Petit Lauragais
-- `restaurant-l-antidote/` — Restaurant : L’Antidote
-- `restaurant-le-sud/` — Restaurant : Le Sud
 - `restaurant-cafe-du-coin/` — Restaurant : Café du Coin
 - `restaurant-l-arlequin/` — Restaurant : L’Arlequin
-- `restaurant-le-moderna/` — Restaurant : Le Moderna
-- `restaurant-le-bistro/` — Restaurant : Le Bistro

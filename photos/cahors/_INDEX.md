@@ -18,7 +18,5 @@
 - `l-o-a-la-bouche/` — L’O à la Bouche
 - `le-marche/` — Le Marché
 - `l-auberge-des-gabares/` — L’Auberge des Gabares
-- `l-interlude/` — L’Interlude
-- `le-lamparo/` — Le Lamparo
 - `au-fil-des-douceurs/` — Au Fil des Douceurs
 - `le-bistrot-de-lisa/` — Le Bistrot de Lisa

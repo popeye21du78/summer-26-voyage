@@ -15,9 +15,5 @@
 ## Restaurants (dossier `restos/`)
 - `l-assiette-normande/` — L’Assiette Normande
 - `le-pommier/` — Le Pommier
-- `la-table-du-terroir/` — La Table du Terroir
-- `le-garde-manger/` — Le Garde Manger
 - `le-marsala/` — Le Marsala
 - `chez-paulette/` — Chez Paulette
-- `le-petit-normand/` — Le Petit Normand
-- `le-moulin-de-la-galette/` — Le Moulin de la Galette

@@ -1,0 +1,78 @@
+{
+  "slug": "pont-du-gard",
+  "nom": "Pont du Gard",
+  "fetchedAt": "2026-03-14T11:32:03.222Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Le_bleu_du_gard_%2A_pont_du_gard_%2824897041217%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20bleu%20du%20gard%20*%20pont%20du%20gard%20(24897041217).jpg",
+      "title": "Le bleu du gard * pont du gard (24897041217).jpg",
+      "width": 6000,
+      "height": 3000,
+      "size": 13406333,
+      "timestamp": "2021-12-02T04:22:41Z",
+      "author": "rey perezoso",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Gardon_%2825759217798%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGardon%20(25759217798).jpg",
+      "title": "Gardon (25759217798).jpg",
+      "width": 6000,
+      "height": 3000,
+      "size": 16591808,
+      "timestamp": "2021-12-02T04:23:15Z",
+      "author": "rey perezoso",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Pont_du_Gard-5845.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20du%20Gard-5845.jpg",
+      "title": "Pont du Gard-5845.jpg",
+      "width": 5528,
+      "height": 3110,
+      "size": 12084361,
+      "timestamp": "2021-12-13T09:49:33Z",
+      "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q108103612\" class=\"extiw\" title=\"d:Q108103612\"><span title=\"Wikipedian and OpenStreetMap mapper from Cologne, Open Data activist\">Raimond Spekking</span></a></bdi>",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Arches du pont (vue latérale sur les trois niveaux)",
+      "photos": []
+    },
+    {
+      "label": "Canal supérieur de l’aqueduc",
+      "photos": []
+    },
+    {
+      "label": "Rives du Gardon sous le pont",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Pont_du_Gard_Merchandising_%282357454785%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20du%20Gard%20Merchandising%20(2357454785).jpg",
+          "title": "Pont du Gard Merchandising (2357454785).jpg",
+          "width": 4288,
+          "height": 2848,
+          "size": 5974244,
+          "timestamp": "2013-01-29T17:39:20Z",
+          "author": "Wolfgang Staudt",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "label": "Belvédère panoramique",
+      "photos": []
+    }
+  ]
+}

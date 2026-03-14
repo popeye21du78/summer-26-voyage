@@ -611,6 +611,70 @@ async function fixSectionWithAI(
   return output.trim();
 }
 
+/** Corrige plusieurs sections en une seule requête API (batch par fichier). */
+async function fixMultipleSectionsWithAI(
+  openai: OpenAI,
+  model: string,
+  sectionsToFix: Map<string, { content: string; issues: Issue[] }>,
+): Promise<Map<string, string>> {
+  const sectionIds = [...sectionsToFix.keys()];
+  if (sectionIds.length === 0) return new Map();
+  if (sectionIds.length === 1) {
+    const id = sectionIds[0];
+    const { content, issues } = sectionsToFix.get(id)!;
+    const corrected = await fixSectionWithAI(openai, model, id, content, issues);
+    return new Map([[id, corrected]]);
+  }
+
+  const parts: string[] = [
+    "Tu es un correcteur de fiches villes. Voici plusieurs sections à corriger. Chaque section contient des erreurs listées.",
+    "",
+    "RÈGLES RAPPEL :",
+    "- Accolades {forme_tu,forme_vous} : uniquement quand le lecteur est le sujet.",
+    "- HISTOIRE : 0 accolade, 0 crochet, 0 pronom de 2e personne.",
+    "- BONUS : aucune accolade. BONUS_SEUL = « tu », BONUS_COUPLE/FAMILLE/AMIS = « vous ».",
+    "- Clichés interdits. Format restaurant : « • Nom : [nom] ».",
+    "- NE MODIFIE QUE les erreurs listées. Conserve accolades et crochets existants.",
+    "",
+    "Renvoyez CHAQUE section corrigée avec son délimiteur ---ID--- au début. Séparez les sections par une ligne vide.",
+    "",
+    "===== SECTIONS À CORRIGER =====",
+  ];
+
+  for (const id of sectionIds) {
+    const { content, issues } = sectionsToFix.get(id)!;
+    const issueList = issues.map((i) => `- ${i.message}`).join("\n");
+    parts.push("");
+    parts.push(`---${id}---`);
+    parts.push(`Erreurs : ${issueList}`);
+    parts.push(content);
+  }
+
+  const prompt = parts.join("\n");
+  const response = await openai.chat.completions.create({
+    model,
+    messages: [{ role: "user", content: prompt }],
+    temperature: 0.3,
+    max_tokens: 4000,
+  });
+
+  const output = response.choices[0]?.message?.content ?? "";
+  const tokens = response.usage;
+  if (tokens) {
+    console.log(`    Tokens batch — prompt: ${tokens.prompt_tokens}, completion: ${tokens.completion_tokens}`);
+  }
+
+  const result = new Map<string, string>();
+  for (const id of sectionIds) {
+    const delimiterRegex = new RegExp(`---${id}---\\s*([\\s\\S]*?)(?=---[A-Z_]+---|$)`, "m");
+    const match = output.match(delimiterRegex);
+    if (match) {
+      result.set(id, match[1].trim());
+    }
+  }
+  return result;
+}
+
 // ─── 4. Reconstruction du fichier ────────────────────────────────────────────
 
 function rebuildRaw(sections: Record<string, string>): string {
@@ -727,17 +791,25 @@ async function main() {
       console.error("\n⚠ OPENAI_API_KEY manquante — corrections IA impossibles. Fichier sauvé avec corrections auto uniquement.");
     } else {
       const openai = new OpenAI({ apiKey });
-      console.log(`\n── Correction IA (${model}) ──`);
+      console.log(`\n── Correction IA (${model}) — ${sectionsToFix.size} section(s) en 1 requête ──`);
 
+      const toFix = new Map<string, { content: string; issues: Issue[] }>();
       for (const [id, issues] of sectionsToFix) {
-        console.log(`  → Correction de ${id}…`);
-        try {
-          const corrected = await fixSectionWithAI(openai, model, id, sections[id], issues);
+        toFix.set(id, { content: sections[id], issues });
+      }
+      try {
+        const correctedMap = await fixMultipleSectionsWithAI(openai, model, toFix);
+        for (const [id, corrected] of correctedMap) {
           sections[id] = corrected;
           console.log(`  ✓ ${id} corrigé`);
-        } catch (err: any) {
-          console.error(`  ✗ Échec correction ${id}: ${err.message}`);
         }
+        for (const id of sectionsToFix.keys()) {
+          if (!correctedMap.has(id)) {
+            console.error(`  ✗ ${id} : pas de réponse valide`);
+          }
+        }
+      } catch (err: unknown) {
+        console.error(`  ✗ Échec correction batch : ${err instanceof Error ? err.message : String(err)}`);
       }
     }
   }
@@ -787,7 +859,72 @@ async function main() {
   }
 }
 
-main().catch((err) => {
-  console.error("Erreur:", err);
-  process.exit(1);
-});
+/** Point d'entrée pour appel programmatique (batch). */
+export async function validateAndFixFile(
+  inputPath: string,
+  model = "gpt-4.1",
+  options?: { silent?: boolean }
+): Promise<{ success: boolean; error?: string }> {
+  try {
+    loadEnvLocal();
+    const raw = readFileSync(inputPath, "utf-8");
+    const sections = parseRawSections(raw);
+    const fileSlug = inputPath.replace(/.*[/\\]/, "").replace(/-raw(-fixed)?\.txt$/, "");
+    const villeName = fileSlug.charAt(0).toUpperCase() + fileSlug.slice(1);
+
+    const sectionsToFix = new Map<string, Issue[]>();
+
+    for (const id of SECTION_ORDER) {
+      if (!sections[id]) continue;
+      const { text: fixed, fixes } = autoFixSection(id, sections[id]);
+      if (fixes.length > 0) sections[id] = fixed;
+      for (const issue of detectIssues(id, sections[id])) {
+        if (issue.type === "ai_fix") {
+          if (!sectionsToFix.has(id)) sectionsToFix.set(id, []);
+          sectionsToFix.get(id)!.push(issue);
+        }
+      }
+    }
+    for (const issue of detectRecycledLieux(sections, villeName)) {
+      if (issue.type === "ai_fix") {
+        const id = issue.section;
+        if (!sectionsToFix.has(id)) sectionsToFix.set(id, []);
+        sectionsToFix.get(id)!.push(issue);
+      }
+    }
+
+    if (sectionsToFix.size > 0 && process.env.OPENAI_API_KEY) {
+      const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+      const toFix = new Map<string, { content: string; issues: Issue[] }>();
+      for (const [id, issues] of sectionsToFix) {
+        toFix.set(id, { content: sections[id], issues });
+      }
+      const correctedMap = await fixMultipleSectionsWithAI(openai, model, toFix);
+      for (const [id, corrected] of correctedMap) sections[id] = corrected;
+    }
+
+    for (const id of sectionsToFix.keys()) {
+      if (!sections[id]) continue;
+      const { text: reFixed, fixes: reFixes } = autoFixSection(id, sections[id]);
+      if (reFixes.length > 0) sections[id] = reFixed;
+    }
+
+    const outPath = inputPath.replace(/-raw\.txt$/, "-raw-fixed.txt");
+    writeFileSync(outPath, rebuildRaw(sections), "utf-8");
+    return { success: true };
+  } catch (err) {
+    return { success: false, error: err instanceof Error ? err.message : String(err) };
+  }
+}
+
+// Exécution directe : npx tsx validate-and-fix-raw.ts <fichier>
+const isDirectRun =
+  typeof process !== "undefined" &&
+  process.argv[1]?.replace(/\\/g, "/").includes("validate-and-fix-raw") &&
+  process.argv[2];
+if (isDirectRun) {
+  main().catch((err) => {
+    console.error("Erreur:", err);
+    process.exit(1);
+  });
+}

@@ -1,0 +1,104 @@
+{
+  "slug": "anse",
+  "nom": "Anse",
+  "fetchedAt": "2026-03-12T23:47:21.032Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Plaque_hommage_Mgr_Jean-Claude_Neraz%2C_%C3%A9glise_d%27Anse_%28Rh%C3%B4ne%29%2C_2021.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlaque%20hommage%20Mgr%20Jean-Claude%20Neraz%2C%20%C3%A9glise%20d'Anse%20(Rh%C3%B4ne)%2C%202021.jpg",
+      "title": "Plaque hommage Mgr Jean-Claude Neraz, église d'Anse (Rhône), 2021.jpg",
+      "width": 3170,
+      "height": 2379,
+      "size": 1069540,
+      "timestamp": "2021-12-26T20:19:57Z",
+      "author": "Sebleouf",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Anse_-_All%C3%A9e_du_Colombier_-_Plaque.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAnse%20-%20All%C3%A9e%20du%20Colombier%20-%20Plaque.jpg",
+      "title": "Anse - Allée du Colombier - Plaque.jpg",
+      "width": 4032,
+      "height": 3024,
+      "size": 5362000,
+      "timestamp": "2023-01-28T18:04:47Z",
+      "author": "Romainbehar",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Anse_-_All%C3%A9e_du_Colombier_-_Vers_le_nord%2C_en_arrivant_aux_maisons_centrales.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAnse%20-%20All%C3%A9e%20du%20Colombier%20-%20Vers%20le%20nord%2C%20en%20arrivant%20aux%20maisons%20centrales.jpg",
+      "title": "Anse - Allée du Colombier - Vers le nord, en arrivant aux maisons centrales.jpg",
+      "width": 4032,
+      "height": 3024,
+      "size": 5581704,
+      "timestamp": "2023-01-31T06:16:18Z",
+      "author": "Romainbehar",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Place du Griffon",
+      "photos": []
+    },
+    {
+      "label": "Église Saint-Pierre",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Plaque_hommage_Mgr_Jean-Claude_Neraz%2C_%C3%A9glise_d%27Anse_%28Rh%C3%B4ne%29%2C_2021.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlaque%20hommage%20Mgr%20Jean-Claude%20Neraz%2C%20%C3%A9glise%20d'Anse%20(Rh%C3%B4ne)%2C%202021.jpg",
+          "title": "Plaque hommage Mgr Jean-Claude Neraz, église d'Anse (Rhône), 2021.jpg",
+          "width": 3170,
+          "height": 2379,
+          "size": 1069540,
+          "timestamp": "2021-12-26T20:19:57Z",
+          "author": "Sebleouf",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Porche_en_anse_de_panier_%C3%A9glise_Saint-Pierre_Happonvilliers_Eure-et-Loir_France.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APorche%20en%20anse%20de%20panier%20%C3%A9glise%20Saint-Pierre%20Happonvilliers%20Eure-et-Loir%20France.jpg",
+          "title": "Porche en anse de panier église Saint-Pierre Happonvilliers Eure-et-Loir France.jpg",
+          "width": 2992,
+          "height": 3742,
+          "size": 2840786,
+          "timestamp": "2021-03-11T10:12:40Z",
+          "author": "Le Passant",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/EgliseAnse.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEgliseAnse.jpg",
+          "title": "EgliseAnse.jpg",
+          "width": 3024,
+          "height": 4032,
+          "size": 5124187,
+          "timestamp": "2023-03-13T09:33:30Z",
+          "author": "CrlNvl",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "label": "Vestiges du rempart gallo-romain",
+      "photos": []
+    },
+    {
+      "label": "Plan d’eau du Colombier",
+      "photos": []
+    }
+  ]
+}

@@ -19,5 +19,3 @@
 - `cafe-fleurs/` — Café Fleurs
 - `la-guinguette/` — La Guinguette
 - `le-carre-d-herbes/` — Le Carré d’Herbes
-- `l-isloise-cafe/` — L’Isloise Café
-- `le-cafe-de-france/` — Le Café de France

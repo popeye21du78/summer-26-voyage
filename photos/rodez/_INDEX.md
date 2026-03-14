@@ -17,7 +17,3 @@
 - `lou-paouzadou/` — Lou Paouzadou
 - `la-maison/` — La Maison
 - `l-aubrac/` — L’Aubrac
-- `le-kiosque/` — Le Kiosque
-- `le-pile-poil/` — Le Pile-Poil
-- `l-instant-gourmand/` — L’Instant Gourmand
-- `les-halles-de-l-aveyron/` — Les Halles de l’Aveyron

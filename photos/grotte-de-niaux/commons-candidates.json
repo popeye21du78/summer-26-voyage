@@ -1,0 +1,74 @@
+{
+  "slug": "grotte-de-niaux",
+  "nom": "Grotte de Niaux",
+  "fetchedAt": "2026-03-13T14:39:10.156Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Grotte_de_Niaux_1.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrotte%20de%20Niaux%201.jpg",
+      "title": "Grotte de Niaux 1.jpg",
+      "width": 4000,
+      "height": 2250,
+      "size": 8482097,
+      "timestamp": "2022-06-22T19:49:04Z",
+      "author": "Thilo Parg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Grotte_de_Niaux_7.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrotte%20de%20Niaux%207.jpg",
+      "title": "Grotte de Niaux 7.jpg",
+      "width": 4000,
+      "height": 2661,
+      "size": 10820409,
+      "timestamp": "2022-06-22T19:50:44Z",
+      "author": "Thilo Parg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Grotte_de_Niaux_3.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrotte%20de%20Niaux%203.jpg",
+      "title": "Grotte de Niaux 3.jpg",
+      "width": 4000,
+      "height": 2661,
+      "size": 10877264,
+      "timestamp": "2022-06-22T19:53:03Z",
+      "author": "Thilo Parg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Salon Noir",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Niaux%2C_bisons.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANiaux%2C%20bisons.JPG",
+          "title": "Niaux, bisons.JPG",
+          "width": 2816,
+          "height": 2112,
+          "size": 2057537,
+          "timestamp": "2009-05-31T15:07:00Z",
+          "author": "HTO",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "label": "Antichambre",
+      "photos": []
+    },
+    {
+      "label": "Galerie Cartailhac",
+      "photos": []
+    }
+  ]
+}

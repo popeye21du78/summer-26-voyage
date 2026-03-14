@@ -19,5 +19,3 @@
 - `le-relais-d-alsace/` — Le Relais d’Alsace
 - `le-bistrot-du-marche/` — Le Bistrot du Marché
 - `chez-nanou/` — Chez Nanou
-- `le-p-tit-sablais/` — Le P’tit Sablais
-- `la-brasserie-des-quais/` — La Brasserie des Quais

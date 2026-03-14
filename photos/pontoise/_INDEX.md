@@ -20,5 +20,3 @@
 - `le-jardin-d-alexis/` — Le Jardin d’Alexis
 - `bistrot-du-martroy/` — Bistrot du Martroy
 - `le-relais-d-alsace-taverne-karlsbrau/` — Le Relais d’Alsace – Taverne Karlsbräu
-- `la-casa-pontoise/` — La Casa Pontoise
-- `o-regal/` — O’Régal

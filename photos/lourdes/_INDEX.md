@@ -19,5 +19,3 @@
 - `le-parc/` — Le Parc
 - `le-navarre/` — Le Navarre
 - `le-carrefour-cafe/` — Le Carrefour Café
-- `cafe-le-genevois/` — Café Le Genevois
-- `le-bodegon/` — Le Bodegon

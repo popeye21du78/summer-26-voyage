@@ -1,0 +1,100 @@
+{
+  "slug": "la-borne",
+  "nom": "La Borne",
+  "fetchedAt": "2026-03-13T14:55:08.631Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/ISS047-E-90900_-_View_of_Earth.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS047-E-90900%20-%20View%20of%20Earth.jpg",
+      "title": "ISS047-E-90900 - View of Earth.jpg",
+      "width": 4928,
+      "height": 3280,
+      "size": 2406899,
+      "timestamp": "2021-03-24T07:40:55Z",
+      "author": "Earth Science and Remote Sensing Unit",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/ISS038-E-64097_-_View_of_Earth.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS038-E-64097%20-%20View%20of%20Earth.jpg",
+      "title": "ISS038-E-64097 - View of Earth.jpg",
+      "width": 4256,
+      "height": 2832,
+      "size": 1611589,
+      "timestamp": "2021-05-24T20:07:24Z",
+      "author": "Earth Science and Remote Sensing Unit",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/ISS030-E-144638_-_View_of_Earth.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS030-E-144638%20-%20View%20of%20Earth.jpg",
+      "title": "ISS030-E-144638 - View of Earth.jpg",
+      "width": 4256,
+      "height": 2832,
+      "size": 752391,
+      "timestamp": "2021-10-27T13:52:12Z",
+      "author": "Earth Science and Remote Sensing Unit",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Centre céramique contemporaine de La Borne",
+      "photos": []
+    },
+    {
+      "label": "Four couché de La Borne",
+      "photos": []
+    },
+    {
+      "label": "Fontaine du village",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/La_borne_fronti%C3%A8re_n%C2%B05_de_1822_transform%C3%A9e_en_fontaine_sur_la_Place_des_Tilleuls.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20borne%20fronti%C3%A8re%20n%C2%B05%20de%201822%20transform%C3%A9e%20en%20fontaine%20sur%20la%20Place%20des%20Tilleuls.jpg",
+          "title": "La borne frontière n°5 de 1822 transformée en fontaine sur la Place des Tilleuls.jpg",
+          "width": 2560,
+          "height": 1920,
+          "size": 1798151,
+          "timestamp": "2023-07-13T00:27:16Z",
+          "author": "TomdeSavoie738",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Borne_avec_coordonn%C3%A9es_de_la_commune.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABorne%20avec%20coordonn%C3%A9es%20de%20la%20commune.jpg",
+          "title": "Borne avec coordonnées de la commune.jpg",
+          "width": 2933,
+          "height": 3909,
+          "size": 3567692,
+          "timestamp": "2018-06-12T09:36:20Z",
+          "author": "Espirat",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Saint_%C3%89tienne-Borne_Fontaine-20110107.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint%20%C3%89tienne-Borne%20Fontaine-20110107.jpg",
+          "title": "Saint Étienne-Borne Fontaine-20110107.jpg",
+          "width": 2848,
+          "height": 4272,
+          "size": 4501564,
+          "timestamp": "2011-01-13T06:17:33Z",
+          "author": "Daniel Villafruela",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
+    }
+  ]
+}

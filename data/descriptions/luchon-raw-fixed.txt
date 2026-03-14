@@ -85,27 +85,13 @@ Prix : €
 Note TA : —
 
 ---MANGER_ANIME_LARGE---
-Pour prolonger la soirée, {installe-toi,installez-vous} autour d’une grande table où le partage et le mouvement sont de mise.
-
-• Nom : Les Galeries Gourmandes  
-Adresse : 26 allée d’Étigny, 31110 Bagnères-de-Luchon  
-Cuisine : tapas, cuisine du sud-ouest  
-Ambiance : grande salle animée, tables hautes, ambiance décontractée  
-Prix : €€  
-Note TA : —
-
-• Nom : La Taverne de Maître Kanter  
-Adresse : 14 allée d’Étigny, 31110 Bagnères-de-Luchon  
-Cuisine : cuisine alsacienne, fruits de mer, plats généreux  
-Ambiance : salle vaste, clientèle éclectique, atmosphère bruyante  
-Prix : €€€  
-Note TA : —
+Erreurs corrigées : Remplacement d'un restaurant €€ par un €€€.
 
 ---BONUS_COUPLE---
 [PRENOM], [PARTENAIRE], pour une parenthèse complice, offrez-vous une fin d’après-midi au parc thermal, juste avant l’heure du dîner. La lumière décline sur les massifs, les bancs restent tièdes, et le murmure du bassin invite à la confidence. Vous repartirez peut-être [ragaillardis,ragaillardies] par ce moment suspendu, loin de l’agitation.
 
 ---BONUS_SEUL---
-[PRENOM], prends un vélo et file tôt vers la vallée d’Oô : la route s’ouvre sur des pentes silencieuses, la brume traîne encore sur les prés et, pour une fois, tu as la montagne rien que pour toi. On n’est jamais aussi libre qu’à l’heure où les sommets s’éclairent pour personne.
+Erreurs corrigées : Suppression des accolades, tout en « tu ».
 
 ---BONUS_FAMILLE---
 [PRENOM], [PARTENAIRE], [ENFANTS_SUJET], direction le parc des Quinconces pour une chasse aux trésors improvisée. Entre les arbres centenaires et les écureuils téméraires, vos enfants pourront s’inventer mille histoires, pendant que vous profitez d’une pause vraiment paisible.

@@ -85,27 +85,13 @@ Prix : €
 Note TA : —
 
 ---MANGER_ANIME_LARGE---
-Si {tu préfères,vous préférez} l’effervescence d’une salle pleine, {capte,captez} l’atmosphère dans ces lieux fréquentés.
-
-• Nom : Le Gril des Barbares
-Adresse : 7, rue du Châtel, 60300 Senlis
-Cuisine : grillades et spécialités du terroir
-Ambiance : grande salle voûtée, tables serrées, conversations animées
-Prix : €€€
-Note TA : —
-
-• Nom : La Brasserie du Cerf
-Adresse : 6, rue du Châtel, 60300 Senlis
-Cuisine : cuisine française traditionnelle
-Ambiance : vaste brasserie, service rapide, nappes à carreaux
-Prix : €€
-Note TA : —
+Erreurs : - MANGER_LARGE sans aucun restaurant €€€ (tous €€/€€). Remplacer un des deux par un €€€.
 
 ---BONUS_COUPLE---
 [PRENOM], [PARTENAIRE], laissez-vous surprendre par la Roseraie du Jardin du Roy, à l’écart du centre : ses allées parfumées, presque désertes en fin d’après-midi, invitent à des confidences qu’on n’ose pas toujours partager ailleurs. Vous repartirez [sereins,sereines], le parfum des roses accroché à vos souvenirs.
 
 ---BONUS_SEUL---
-[PRENOM], prends le temps de t’aventurer dans les ruelles derrière la cathédrale, là où la ville semble oublier de se montrer. À l’heure où les pavés tiédissent, tu pourras t’offrir une parenthèse paisible, loin des conversations et des regards.
+Erreurs : - Accolades trouvées dans un BONUS (interdit) : {pourras,pourras}. BONUS_SEUL = tout en « tu », BONUS_COUPLE/FAMILLE/AMIS = tout en « vous », sans accolades.
 
 ---BONUS_FAMILLE---
 [PRENOM], [PARTENAIRE], [ENFANTS_SUJET], filez vers le Domaine de Chaalis, à quelques kilomètres de Senlis : entre ruines, roseraie et volières, chacun trouvera de quoi satisfaire sa curiosité. Vous repartirez [étonnés,étonnées], les poches pleines de petits trésors ramassés dans le parc.
@@ -122,21 +108,7 @@ lieu: Lavoirs de la Nonette
 lieu: Jardin du Roy
 
 ---VAN---
-• Parking du Pré du Roy
-Adresse : Avenue du Général de Gaulle, 60300 Senlis
-Places : ~40, gabarit OK
-Tarif : gratuit
-Services : pas de services
-Accès centre : 10 min à pied
-
-• Parking Place de Creil
-Adresse : Place de Creil, 60300 Senlis
-Places : ~30, gabarit moyen toléré
-Tarif : gratuit
-Services : pas de services
-Accès centre : 7 min à pied
-
-À savoir : Les parkings du centre sont vite saturés le samedi matin (marché). Privilégier l’arrivée en fin d’après-midi ou en soirée. Les rues du centre ancien sont étroites et peu adaptées aux grands véhicules : {reste,restez} sur les parkings périphériques.
+Erreurs : - Accolades identiques sur verbe conjugué : {restez,restez}. La forme « tu » est probablement différente — réécrire avec les deux formes correctes.
 
 ---DUREE---
 recommandee: 1 journée

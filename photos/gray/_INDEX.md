@@ -20,5 +20,3 @@
 - `le-mastroquet/` — Le Mastroquet
 - `brasserie-du-theatre/` — Brasserie du Théâtre
 - `cafe-de-la-place/` — Café de la Place
-- `restaurant-le-moulin/` — Restaurant Le Moulin
-- `taverne-de-l-ecluse/` — Taverne de l’Ecluse

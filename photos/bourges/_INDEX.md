@@ -16,9 +16,3 @@
 ## Restaurants (dossier `restos/`)
 - `la-table-d-antan/` — La Table d’Antan
 - `le-b-uf-bourguignon/` — Le Bœuf Bourguignon
-- `l-abbaye-saint-ambroix/` — L’Abbaye Saint-Ambroix
-- `la-demarrante/` — La Démarrante
-- `chez-jules/` — Chez Jules
-- `le-beauvoir/` — Le Beauvoir
-- `le-bourbonnoux/` — Le Bourbonnoux
-- `le-jardin-secret/` — Le Jardin Secret

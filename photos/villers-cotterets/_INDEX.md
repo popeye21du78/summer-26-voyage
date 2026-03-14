@@ -16,9 +16,5 @@
 ## Restaurants (dossier `restos/`)
 - `le-saint-leger/` — Le Saint Léger
 - `creperie-la-galettiere/` — Crêperie La Galettière
-- `l-atelier-de-guillaume/` — L’Atelier de Guillaume
-- `le-chateau-de-villers-cotterets-restaurant-de-la-cite/` — Le Château de Villers-Cotterêts (Restaurant de la Cité)
 - `le-commerce/` — Le Commerce
 - `le-1519/` — Le 1519
-- `la-taverne/` — La Taverne
-- `le-relais-du-chateau/` — Le Relais du Château

@@ -1,0 +1,104 @@
+{
+  "slug": "abbaye-de-montbenoit",
+  "nom": "Abbaye de Montbenoît",
+  "fetchedAt": "2026-03-13T12:01:23.604Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Montbeno%C3%AEt%2C_le_clo%C3%AEtre_de_l%27Abbaye.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMontbeno%C3%AEt%2C%20le%20clo%C3%AEtre%20de%20l'Abbaye.jpg",
+      "title": "Montbenoît, le cloître de l'Abbaye.jpg",
+      "width": 3721,
+      "height": 2093,
+      "size": 6556998,
+      "timestamp": "2022-11-12T13:35:55Z",
+      "author": "JGS25",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Montbeno%C3%AEt%2C_le_ch%C3%A2teau_Morand_Val_au_bord_du_Doubs.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMontbeno%C3%AEt%2C%20le%20ch%C3%A2teau%20Morand%20Val%20au%20bord%20du%20Doubs.jpg",
+      "title": "Montbenoît, le château Morand Val au bord du Doubs.jpg",
+      "width": 3021,
+      "height": 1699,
+      "size": 5114815,
+      "timestamp": "2022-11-12T13:51:51Z",
+      "author": "JGS25",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Montbeno%C3%AEt_Abbaye_Bo%C3%AEte_%C3%A0_livres_04.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMontbeno%C3%AEt%20Abbaye%20Bo%C3%AEte%20%C3%A0%20livres%2004.jpg",
+      "title": "Montbenoît Abbaye Boîte à livres 04.jpg",
+      "width": 4000,
+      "height": 2992,
+      "size": 2389257,
+      "timestamp": "2024-06-29T15:21:28Z",
+      "author": "GenGavi",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Cloître de l’abbaye",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Montbeno%C3%AEt%2C_le_clo%C3%AEtre_de_l%27Abbaye.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMontbeno%C3%AEt%2C%20le%20clo%C3%AEtre%20de%20l'Abbaye.jpg",
+          "title": "Montbenoît, le cloître de l'Abbaye.jpg",
+          "width": 3721,
+          "height": 2093,
+          "size": 6556998,
+          "timestamp": "2022-11-12T13:35:55Z",
+          "author": "JGS25",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/01_Montbeno%C3%AEt_-_Clo%C3%AEtre_de_l%27abbaye_%281%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A01%20Montbeno%C3%AEt%20-%20Clo%C3%AEtre%20de%20l'abbaye%20(1).JPG",
+          "title": "01 Montbenoît - Cloître de l'abbaye (1).JPG",
+          "width": 3828,
+          "height": 2536,
+          "size": 4568914,
+          "timestamp": "2012-08-10T19:24:03Z",
+          "author": "Jean-Pol GRANDMONT",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/01_Montbeno%C3%AEt_-_Clo%C3%AEtre_de_l%27abbaye_%282%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A01%20Montbeno%C3%AEt%20-%20Clo%C3%AEtre%20de%20l'abbaye%20(2).JPG",
+          "title": "01 Montbenoît - Cloître de l'abbaye (2).JPG",
+          "width": 3888,
+          "height": 2592,
+          "size": 4353671,
+          "timestamp": "2012-08-10T19:34:43Z",
+          "author": "Jean-Pol GRANDMONT",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "label": "Salle capitulaire",
+      "photos": []
+    },
+    {
+      "label": "Nef gothique",
+      "photos": []
+    },
+    {
+      "label": "Jardin de l’abbaye",
+      "photos": []
+    }
+  ]
+}

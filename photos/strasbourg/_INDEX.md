@@ -14,11 +14,5 @@
 - `jardin-botanique-de-strasbourg/` — Jardin Botanique de Strasbourg
 
 ## Restaurants (dossier `restos/`)
-- `le-clou/` — Le Clou
-- `au-brasseur/` — Au Brasseur
-- `le-botaniste/` — Le Botaniste
-- `la-corde-a-linge/` — La Corde à Linge
-- `l-epicerie/` — L’Epicerie
-- `au-canon/` — Au Canon
 - `maison-kammerzell/` — Maison Kammerzell
 - `brasserie-les-haras/` — Brasserie Les Haras

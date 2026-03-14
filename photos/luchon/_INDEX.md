@@ -20,5 +20,3 @@
 - `la-tablee-de-luchon/` — La Tablée de Luchon
 - `le-bon-accueil/` — Le Bon Accueil
 - `le-glacier/` — Le Glacier
-- `les-galeries-gourmandes/` — Les Galeries Gourmandes
-- `la-taverne-de-maitre-kanter/` — La Taverne de Maître Kanter

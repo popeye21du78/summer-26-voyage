@@ -19,7 +19,5 @@
 - `chez-yassine/` — Chez Yassine
 - `l-art-de-la-flamme/` — L’Art de la Flamme
 - `le-relais-50/` — Le Relais 50
-- `chez-roger/` — Chez Roger
-- `le-petit-nice-bistrot/` — Le Petit Nice (bistrot)
 - `la-passarelle/` — La Passarelle
 - `bistrot-plage/` — Bistrot Plage

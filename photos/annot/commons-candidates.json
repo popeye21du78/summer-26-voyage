@@ -1,0 +1,100 @@
+{
+  "slug": "annot",
+  "nom": "Annot",
+  "fetchedAt": "2026-03-12T23:46:59.813Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Vue_du_village_de_Braux_en_arrivant_par_la_route_%28d%C3%A9cembre_2018%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20du%20village%20de%20Braux%20en%20arrivant%20par%20la%20route%20(d%C3%A9cembre%202018).jpg",
+      "title": "Vue du village de Braux en arrivant par la route (décembre 2018).jpg",
+      "width": 4896,
+      "height": 3264,
+      "size": 2506294,
+      "timestamp": "2022-07-17T18:43:55Z",
+      "author": "Jpchevreau",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/France_-_Alpes_-_Provence-Alpes-C%C3%B4te_d%E2%80%99Azur_-_Alpes-de-Haute-Provence_-_Croix_pr%C3%A8s_d%E2%80%99Annot_%28M%C3%A9diHAL_1270795%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20-%20Alpes%20-%20Provence-Alpes-C%C3%B4te%20d%E2%80%99Azur%20-%20Alpes-de-Haute-Provence%20-%20Croix%20pr%C3%A8s%20d%E2%80%99Annot%20(M%C3%A9diHAL%201270795).jpg",
+      "title": "France - Alpes - Provence-Alpes-Côte d’Azur - Alpes-de-Haute-Provence - Croix près d’Annot (MédiHAL 1270795).jpg",
+      "width": 2588,
+      "height": 1696,
+      "size": 375270,
+      "timestamp": "2024-12-21T11:40:06Z",
+      "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Emmanuel_de_Martonne\" class=\"extiw\" title=\"w:en:Emmanuel de Martonne\"><span title=\"French geographer (1873–1955)\">Emmanuel de Martonne</span></a></bdi>",
+      "license": "Licence Ouverte",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Ravin_de_pralaur%C3%A9_-_Gazin_-_btv1b107023743.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARavin%20de%20pralaur%C3%A9%20-%20Gazin%20-%20btv1b107023743.jpg",
+      "title": "Ravin de pralauré - Gazin - btv1b107023743.jpg",
+      "width": 3799,
+      "height": 2546,
+      "size": 1081286,
+      "timestamp": "2025-02-26T20:10:32Z",
+      "author": "<div class=\"fn value\">\nGazin, François, agent public de l'inspection des eaux et forêts</div>",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Grès d'Annot (site naturel)",
+      "photos": []
+    },
+    {
+      "label": "Église Saint-Jean-Baptiste d’Annot",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Annot-200804-1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAnnot-200804-1.jpg",
+          "title": "Annot-200804-1.jpg",
+          "width": 1800,
+          "height": 1200,
+          "size": 234892,
+          "timestamp": "2009-05-24T11:21:11Z",
+          "author": "Patrice Semeria",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Annot-200804-3.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAnnot-200804-3.jpg",
+          "title": "Annot-200804-3.jpg",
+          "width": 1635,
+          "height": 1110,
+          "size": 276297,
+          "timestamp": "2009-05-24T11:21:19Z",
+          "author": "Patrice Semeria",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Annot-200804-2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAnnot-200804-2.jpg",
+          "title": "Annot-200804-2.jpg",
+          "width": 1200,
+          "height": 1800,
+          "size": 308096,
+          "timestamp": "2009-05-24T11:21:15Z",
+          "author": "Patrice Semeria",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "label": "Vieux pont sur la Vaïre",
+      "photos": []
+    }
+  ]
+}

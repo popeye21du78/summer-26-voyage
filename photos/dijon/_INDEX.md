@@ -13,7 +13,7 @@
 - `parc-de-la-colombiere/` — Parc de la Colombière
 
 ## Restaurants (dossier `restos/`)
-- `le-pre-aux-clercs/` — Le Pré aux Clercs
+- `l-essentiel/` — L'Essentiel
 - `parapluie/` — Parapluie
 - `dz-envies/` — DZ’envies
 - `loiseau-des-ducs/` — Loiseau des Ducs

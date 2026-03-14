@@ -1,0 +1,100 @@
+{
+  "slug": "marle",
+  "nom": "Marle",
+  "fetchedAt": "2026-03-13T16:04:49.140Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Le_bourdon_de_l%27%C3%89glise_de_Marle.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20bourdon%20de%20l'%C3%89glise%20de%20Marle.jpg",
+      "title": "Le bourdon de l'Église de Marle.jpg",
+      "width": 2846,
+      "height": 3795,
+      "size": 1727616,
+      "timestamp": "2023-09-09T13:21:51Z",
+      "author": "Baptiste60330",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Marle_%28relais_de_poste%29_9331.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarle%20(relais%20de%20poste)%209331.jpg",
+      "title": "Marle (relais de poste) 9331.jpg",
+      "width": 2816,
+      "height": 2112,
+      "size": 4160884,
+      "timestamp": "2011-12-21T14:27:09Z",
+      "author": "Markus3",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 5
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Marle_%28relais_de_poste%29_9331a.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarle%20(relais%20de%20poste)%209331a.jpg",
+      "title": "Marle (relais de poste) 9331a.jpg",
+      "width": 1883,
+      "height": 1242,
+      "size": 1981832,
+      "timestamp": "2011-12-21T14:34:00Z",
+      "author": "Markus3",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 5
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Église fortifiée Saint-Médard",
+      "photos": []
+    },
+    {
+      "label": "Musée des Temps Barbares",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Marle_Ancien_moulin_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarle%20Ancien%20moulin%201.jpg",
+          "title": "Marle Ancien moulin 1.jpg",
+          "width": 6000,
+          "height": 4000,
+          "size": 16497581,
+          "timestamp": "2020-10-27T15:57:41Z",
+          "author": "René Hourdry",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Marle_mus%C3%A9e_11.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarle%20mus%C3%A9e%2011.jpg",
+          "title": "Marle musée 11.jpg",
+          "width": 6000,
+          "height": 4000,
+          "size": 16981554,
+          "timestamp": "2020-10-27T16:14:38Z",
+          "author": "René Hourdry",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Mus%C3%A9e_Marle_Aisne_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e%20Marle%20Aisne%2001.jpg",
+          "title": "Musée Marle Aisne 01.jpg",
+          "width": 5568,
+          "height": 3712,
+          "size": 13258841,
+          "timestamp": "2021-08-08T19:14:32Z",
+          "author": "Harrie Gielen",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
+    },
+    {
+      "label": "Pont sur la Serre",
+      "photos": []
+    }
+  ]
+}

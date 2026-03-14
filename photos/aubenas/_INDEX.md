@@ -16,8 +16,6 @@
 ## Restaurants (dossier `restos/`)
 - `l-instant-gourmand/` — L’Instant Gourmand
 - `le-bistrot-de-manon/` — Le Bistrot de Manon
-- `l-arbre-a-pain/` — L’Arbre à Pain
-- `le-chat-qui-peche/` — Le Chat Qui Pêche
 - `le-p-tit-resto/` — Le P’tit Resto
 - `le-moderne/` — Le Moderne
 - `le-black-and-white/` — Le Black and White

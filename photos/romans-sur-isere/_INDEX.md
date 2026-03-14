@@ -20,5 +20,3 @@
 - `la-villa-margot/` — La Villa Margot
 - `le-bistrot-du-palais/` — Le Bistrot du Palais
 - `le-petit-resto/` — Le Petit Resto
-- `le-resto-des-arts/` — Le Resto des Arts
-- `la-table-d-angele/` — La Table d’Angèle

@@ -59,35 +59,9 @@ Note TA : —
 
 ---MANGER_ANIME_SERRE---
 {Laisse-toi,Laissez-vous} happer par l’énergie des tables animées où l’on partage sans façon.
-• Nom : La Cigale
-Adresse : 4 Place Graslin, 44000 Nantes
-Cuisine : brasserie, fruits de mer, plats traditionnels
-Ambiance : salle Art nouveau, effervescence, grandes tablées
-Prix : €€
-Note TA : —
-
-• Nom : La Cantine du Voyage
-Adresse : Quai des Antilles, 44200 Nantes
-Cuisine : plats simples, cuisine du monde, grands buffets
-Ambiance : grande halle conviviale, tables collectives, esprit guinguette
-Prix : €
-Note TA : —
 
 ---MANGER_ANIME_LARGE---
 {Savoure,Savourez} la vitalité nantaise dans des lieux où l’on se sent vite adopté.
-• Nom : Les Brassés
-Adresse : 5, mail Pablo Picasso, 44000 Nantes
-Cuisine : brasserie artisanale, spécialités locales
-Ambiance : grande salle animée, cuves apparentes, terrasse vivante
-Prix : €€
-Note TA : —
-
-• Nom : La Civelle
-Adresse : 21, quai Marcel Boissard, 44600 Saint-Herblain (Trentemoult)
-Cuisine : poissons, fruits de mer, cuisine française
-Ambiance : terrasse sur la Loire, ambiance détendue, clientèle éclectique
-Prix : €€€
-Note TA : —
 
 ---BONUS_COUPLE---
 [PRENOM], [PARTENAIRE], glissez-vous dans l’atmosphère feutrée du musée d’Arts de Nantes en fin de journée : les salles baignées de lumière rasante invitent à une déambulation à deux, loin du brouhaha, pour savourer ensemble la contemplation d’un tableau ou le mystère d’une sculpture, complices et [curieux,curieuses] à la fois.
@@ -110,21 +84,7 @@ lieu: Quartier Trentemoult
 lieu: Jardin des Plantes
 
 ---VAN---
-• Parking Prairie au Duc  
-Adresse : 2, allée Frida Kahlo, 44200 Nantes  
-Places : ~40, gabarit OK sauf très grands camping-cars  
-Tarif : ~10 €/jour  
-Services : pas de services spécifiques  
-Accès centre : 10 min à pied du centre-ville
-
-• Aire de stationnement du Parc Relais Beaujoire  
-Adresse : Boulevard de la Beaujoire, 44300 Nantes  
-Places : ~50, gabarit OK  
-Tarif : ~5 €/jour  
-Services : eau, vidange à proximité  
-Accès centre : 20 min en tram (ligne 1)
-
-À savoir : Le stationnement en centre-ville est limité et souvent payant, particulièrement sur l’île de Nantes. Préférer les parcs relais en périphérie si {tu possèdes,vous possédez} un grand véhicule. Vérifier les restrictions lors des grands événements culturels estivaux.
+• Parking Prairie au Duc
 
 ---DUREE---
 recommandee: 1 à 2 journées

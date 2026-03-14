@@ -20,5 +20,3 @@
 - `l-instant-gourmand/` — L’Instant Gourmand
 - `le-commerce/` — Le Commerce
 - `creperie-les-deux-tours/` — Crêperie Les Deux Tours
-- `le-gril-des-barbares/` — Le Gril des Barbares
-- `la-brasserie-du-cerf/` — La Brasserie du Cerf

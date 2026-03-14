@@ -1,0 +1,104 @@
+{
+  "slug": "loubressac",
+  "nom": "Loubressac",
+  "fetchedAt": "2026-03-13T15:57:33.833Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/11_OCC_-_Lot_-_Loubressac_%282014-05-29_16-17-24%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A11%20OCC%20-%20Lot%20-%20Loubressac%20(2014-05-29%2016-17-24).jpg",
+      "title": "11 OCC - Lot - Loubressac (2014-05-29 16-17-24).jpg",
+      "width": 4000,
+      "height": 3000,
+      "size": 3625860,
+      "timestamp": "2021-09-24T19:21:17Z",
+      "author": "Johan Allard",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Pont_de_Maday%2C_Loubressac.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20de%20Maday%2C%20Loubressac.jpg",
+      "title": "Pont de Maday, Loubressac.jpg",
+      "width": 5596,
+      "height": 3731,
+      "size": 18418827,
+      "timestamp": "2015-09-25T20:09:41Z",
+      "author": "A1AA1A",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Loubressac_-_Maday.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALoubressac%20-%20Maday.jpg",
+      "title": "Loubressac - Maday.jpg",
+      "width": 3868,
+      "height": 5794,
+      "size": 17009384,
+      "timestamp": "2015-09-25T20:09:41Z",
+      "author": "A1AA1A",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 5
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Château de Loubressac",
+      "photos": []
+    },
+    {
+      "label": "Église Saint-Jean-Baptiste",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/11_OCC_-_Lot_-_Loubressac_%282014-05-29_16-17-24%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A11%20OCC%20-%20Lot%20-%20Loubressac%20(2014-05-29%2016-17-24).jpg",
+          "title": "11 OCC - Lot - Loubressac (2014-05-29 16-17-24).jpg",
+          "width": 4000,
+          "height": 3000,
+          "size": 3625860,
+          "timestamp": "2021-09-24T19:21:17Z",
+          "author": "Johan Allard",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Eglise_Saint-Jean-Baptiste_de_Loubressac.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Saint-Jean-Baptiste%20de%20Loubressac.jpg",
+          "title": "Eglise Saint-Jean-Baptiste de Loubressac.jpg",
+          "width": 3872,
+          "height": 2592,
+          "size": 1230010,
+          "timestamp": "2015-03-19T15:59:26Z",
+          "author": "Glaurent",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Loubressac_-_%C3%89glise.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALoubressac%20-%20%C3%89glise.jpg",
+          "title": "Loubressac - Église.jpg",
+          "width": 3868,
+          "height": 5794,
+          "size": 13114793,
+          "timestamp": "2015-09-25T20:50:23Z",
+          "author": "A1AA1A",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "label": "Fontaine-lavoir de Loubressac",
+      "photos": []
+    },
+    {
+      "label": "Table d’orientation (promontoire)",
+      "photos": []
+    }
+  ]
+}

@@ -7,13 +7,16 @@
  *   npx tsx scripts/process-batch-descriptions.ts all --validate
  *
  * Options :
- *   --validate  Lance validate-and-fix-raw.ts sur chaque fichier éclaté
+ *   --validate  Lance validate-and-fix-raw.ts sur chaque fichier éclaté (en parallèle, batch IA par fichier)
  *   --photos    Lance create-photo-folders.ts après validation
  */
 
 import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync } from "fs";
 import { join } from "path";
 import { execSync } from "child_process";
+import { validateAndFixFile } from "./validate-and-fix-raw";
+
+const VALIDATE_CONCURRENCY = 5;
 
 const BATCH_DIR = join(process.cwd(), "data", "batch-desc");
 const OUTPUT_DIR = join(process.cwd(), "data", "descriptions");
@@ -49,7 +52,7 @@ function clearProgress() {
   }
 }
 
-function main() {
+async function main() {
   const args = process.argv.slice(2).filter((a) => !a.startsWith("--"));
   const doValidate = process.argv.includes("--validate");
   const doPhotos = process.argv.includes("--photos");
@@ -150,30 +153,40 @@ function main() {
   console.log(`  Dossier : ${OUTPUT_DIR}/`);
 
   if (doValidate) {
-    console.log(`\n── Validation + auto-fix ──`);
-    const rawFiles = readdirSync(OUTPUT_DIR).filter((f) => f.endsWith("-raw.txt"));
+    console.log(`\n── Validation + auto-fix (batch IA par fichier, ${VALIDATE_CONCURRENCY} en parallèle) ──`);
+    const allRaw = readdirSync(OUTPUT_DIR).filter((f) => f.endsWith("-raw.txt"));
+    const rawFiles = allRaw.filter((f) => {
+      const fixedPath = join(OUTPUT_DIR, f.replace(/-raw\.txt$/, "-raw-fixed.txt"));
+      return !existsSync(fixedPath);
+    });
+    const skipped = allRaw.length - rawFiles.length;
+    if (skipped > 0) {
+      console.log(`  ⏭ ${skipped} déjà validés, ${rawFiles.length} à traiter`);
+    }
     let validated = 0;
     let fixErrors = 0;
 
-    for (const f of rawFiles) {
-      const filePath = join(OUTPUT_DIR, f);
-      try {
-        writeProgress({
-          phase: "validate",
-          current: validated + 1,
-          total: rawFiles.length,
-          currentFile: f,
-        });
-        execSync(`npx tsx scripts/validate-and-fix-raw.ts "${filePath}"`, {
-          cwd: process.cwd(),
-          stdio: "pipe",
-          timeout: 120_000,
-        });
-        validated++;
-      } catch (e) {
-        const msg = e instanceof Error ? e.message : String(e);
-        console.error(`  ✗ ${f} : ${msg.slice(0, 120)}`);
-        fixErrors++;
+    for (let i = 0; i < rawFiles.length; i += VALIDATE_CONCURRENCY) {
+      const chunk = rawFiles.slice(i, i + VALIDATE_CONCURRENCY);
+      const results = await Promise.all(
+        chunk.map(async (f, idx) => {
+          const filePath = join(OUTPUT_DIR, f);
+          writeProgress({
+            phase: "validate",
+            current: i + idx + 1,
+            total: rawFiles.length,
+            currentFile: f,
+          });
+          const result = await validateAndFixFile(filePath, "gpt-4.1", { silent: true });
+          return { f, success: result.success, error: result.error };
+        })
+      );
+      for (const { f, success, error } of results) {
+        if (success) validated++;
+        else {
+          fixErrors++;
+          console.error(`  ✗ ${f} : ${(error ?? "").slice(0, 120)}`);
+        }
       }
     }
     console.log(`  ✓ ${validated} validés, ${fixErrors} erreurs`);
@@ -195,4 +208,7 @@ function main() {
   clearProgress();
 }
 
-main();
+main().catch((err) => {
+  console.error("Erreur:", err);
+  process.exit(1);
+});

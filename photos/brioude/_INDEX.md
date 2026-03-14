@@ -10,7 +10,3 @@
 - `maison-du-salmon-de-la-valette/` — Maison du Salmon de la Valette
 - `berges-de-l-allier/` — Berges de l’Allier
 - `place-lafayette/` — Place Lafayette
-
-## Restaurants (dossier `restos/`)
-- `le-saint-julien/` — Le Saint Julien
-- `le-bourbon/` — Le Bourbon

@@ -358,6 +358,7 @@ export default function NouveauVoyagePage() {
                       start: { lat: Number(startLieu.lat), lng: Number(startLieu.lng) },
                       nights: profil?.dureeJours ? profil.dureeJours - 1 : 7,
                       rythme: profil?.rythme ?? "normal",
+                      ...(profil?.maxAirbnbNights != null && { maxAirbnbNights: profil.maxAirbnbNights }),
                     }),
                   });
                   const data = await res.json();

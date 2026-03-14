@@ -18,7 +18,3 @@
 - `les-4-z-arts/` — Les 4 Z’Arts
 - `la-table-de-l-atelier/` — La Table de l’Atelier
 - `py-r/` — Py-r
-- `le-florida/` — Le Florida
-- `l-entrecote/` — L’Entrecôte
-- `mama-shelter-toulouse/` — Mama Shelter Toulouse
-- `le-bibent/` — Le Bibent

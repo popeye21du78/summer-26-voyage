@@ -1,0 +1,91 @@
+{
+  "slug": "chateau-de-la-madeleine",
+  "nom": "Château de la Madeleine",
+  "fetchedAt": "2026-03-13T13:08:11.641Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/ISS053-E-58559_-_View_of_Earth.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS053-E-58559%20-%20View%20of%20Earth.jpg",
+      "title": "ISS053-E-58559 - View of Earth.jpg",
+      "width": 4928,
+      "height": 3280,
+      "size": 2661859,
+      "timestamp": "2021-04-01T14:53:23Z",
+      "author": "Earth Science and Remote Sensing Unit",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/ISS019-E-9639_-_View_of_France.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS019-E-9639%20-%20View%20of%20France.jpg",
+      "title": "ISS019-E-9639 - View of France.jpg",
+      "width": 4256,
+      "height": 2832,
+      "size": 1515988,
+      "timestamp": "2022-10-05T14:48:04Z",
+      "author": "Earth Science and Remote Sensing Unit",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/ISS027-E-7415_-_View_of_France.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS027-E-7415%20-%20View%20of%20France.jpg",
+      "title": "ISS027-E-7415 - View of France.jpg",
+      "width": 4288,
+      "height": 2929,
+      "size": 1576357,
+      "timestamp": "2021-10-22T19:29:22Z",
+      "author": "Earth Science and Remote Sensing Unit",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Chemin de ronde",
+      "photos": []
+    },
+    {
+      "label": "Donjon carré",
+      "photos": []
+    },
+    {
+      "label": "Cour intérieure",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Amboise_%28Indre-et-Loire%29_%2814701200347%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAmboise%20(Indre-et-Loire)%20(14701200347).jpg",
+          "title": "Amboise (Indre-et-Loire) (14701200347).jpg",
+          "width": 4928,
+          "height": 3264,
+          "size": 9984833,
+          "timestamp": "2017-11-14T14:30:03Z",
+          "author": "Daniel Jolivet",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Amboise_%28Indre-et-Loire%29_%2814887385762%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAmboise%20(Indre-et-Loire)%20(14887385762).jpg",
+          "title": "Amboise (Indre-et-Loire) (14887385762).jpg",
+          "width": 4928,
+          "height": 3264,
+          "size": 8691535,
+          "timestamp": "2017-11-14T14:30:07Z",
+          "author": "Daniel Jolivet",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "label": "Terrasse sur la vallée",
+      "photos": []
+    }
+  ]
+}

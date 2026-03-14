@@ -1,0 +1,91 @@
+{
+  "slug": "henrichemont",
+  "nom": "Henrichemont",
+  "fetchedAt": "2026-03-13T14:42:28.861Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Monument_aux_morts_Henrichemont.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMonument%20aux%20morts%20Henrichemont.jpg",
+      "title": "Monument aux morts Henrichemont.jpg",
+      "width": 2448,
+      "height": 3264,
+      "size": 2612830,
+      "timestamp": "2016-06-23T07:28:22Z",
+      "author": "mairie d'Henrichemont",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 5
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Croquis-_Henrichemont_-_France_%2814394460179%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACroquis-%20Henrichemont%20-%20France%20(14394460179).jpg",
+      "title": "Croquis- Henrichemont - France (14394460179).jpg",
+      "width": 1020,
+      "height": 673,
+      "size": 140250,
+      "timestamp": "2018-01-30T11:18:56Z",
+      "author": "Guy MOLL",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 4
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/STS132-E-11412_-_View_of_Earth.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASTS132-E-11412%20-%20View%20of%20Earth.jpg",
+      "title": "STS132-E-11412 - View of Earth.jpg",
+      "width": 4288,
+      "height": 2929,
+      "size": 2097880,
+      "timestamp": "2021-02-15T06:25:20Z",
+      "author": "NASA",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Place Henri IV",
+      "photos": []
+    },
+    {
+      "label": "Église Saint-Laurian",
+      "photos": []
+    },
+    {
+      "label": "Musée de la Poterie",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Vierge%2C_Marie-Louise_Chameron.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVierge%2C%20Marie-Louise%20Chameron.jpg",
+          "title": "Vierge, Marie-Louise Chameron.jpg",
+          "width": 499,
+          "height": 665,
+          "size": 93162,
+          "timestamp": "2021-03-02T15:48:45Z",
+          "author": "Oloof",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 3
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Fontaine%2C_Marie_Talbot.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFontaine%2C%20Marie%20Talbot.jpg",
+          "title": "Fontaine, Marie Talbot.jpg",
+          "width": 499,
+          "height": 665,
+          "size": 78885,
+          "timestamp": "2021-03-02T15:48:45Z",
+          "author": "Oloof",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "label": "Parc de la Forêt de Bellay",
+      "photos": []
+    }
+  ]
+}

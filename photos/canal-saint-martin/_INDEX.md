@@ -20,5 +20,3 @@
 - `les-resistants/` — Les Résistants
 - `la-marine/` — La Marine
 - `le-comptoir-general/` — Le Comptoir Général
-- `paname-brewing-company/` — Paname Brewing Company
-- `point-ephemere/` — Point Éphémère

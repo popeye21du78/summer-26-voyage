@@ -1,0 +1,104 @@
+{
+  "slug": "rocroi",
+  "nom": "Rocroi",
+  "fetchedAt": "2026-03-14T11:48:46.534Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Rue_de_Bourgogne_from_the_central_square%2C_Rocroi%2C_2020.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARue%20de%20Bourgogne%20from%20the%20central%20square%2C%20Rocroi%2C%202020.jpg",
+      "title": "Rue de Bourgogne from the central square, Rocroi, 2020.jpg",
+      "width": 5946,
+      "height": 3954,
+      "size": 13793605,
+      "timestamp": "2023-01-11T16:20:20Z",
+      "author": "DimiTalen",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Rue_de_Montmorency_from_the_bastion%2C_Rocroi%2C_2020.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARue%20de%20Montmorency%20from%20the%20bastion%2C%20Rocroi%2C%202020.jpg",
+      "title": "Rue de Montmorency from the bastion, Rocroi, 2020.jpg",
+      "width": 5897,
+      "height": 3921,
+      "size": 14325898,
+      "timestamp": "2023-01-11T16:20:20Z",
+      "author": "DimiTalen",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Rue_de_Montmorency_from_the_central_square%2C_Rocroi%2C_2020.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARue%20de%20Montmorency%20from%20the%20central%20square%2C%20Rocroi%2C%202020.jpg",
+      "title": "Rue de Montmorency from the central square, Rocroi, 2020.jpg",
+      "width": 6016,
+      "height": 4000,
+      "size": 12441422,
+      "timestamp": "2023-01-11T16:20:22Z",
+      "author": "DimiTalen",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Chemin de ronde",
+      "photos": []
+    },
+    {
+      "label": "Bastion du Dauphin",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/H%C3%B4pital_Citadelle_07550_Rocroy.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AH%C3%B4pital%20Citadelle%2007550%20Rocroy.JPG",
+          "title": "Hôpital Citadelle 07550 Rocroy.JPG",
+          "width": 4240,
+          "height": 2832,
+          "size": 8781824,
+          "timestamp": "2015-08-16T17:04:07Z",
+          "author": "G.Garitan",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Bastion_du_Dauphin_Rocroi_07555.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABastion%20du%20Dauphin%20Rocroi%2007555.JPG",
+          "title": "Bastion du Dauphin Rocroi 07555.JPG",
+          "width": 4240,
+          "height": 2832,
+          "size": 7001379,
+          "timestamp": "2015-08-16T17:04:11Z",
+          "author": "G.Garitan",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/%C3%89p%C3%A9e_service_de_sant%C3%A9_07563_expo_Rocroy.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89p%C3%A9e%20service%20de%20sant%C3%A9%2007563%20expo%20Rocroy.JPG",
+          "title": "Épée service de santé 07563 expo Rocroy.JPG",
+          "width": 3752,
+          "height": 1880,
+          "size": 3975564,
+          "timestamp": "2015-08-16T17:04:11Z",
+          "author": "G.Garitan",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "label": "Porte de Bourgogne",
+      "photos": []
+    },
+    {
+      "label": "Place Ducale",
+      "photos": []
+    }
+  ]
+}

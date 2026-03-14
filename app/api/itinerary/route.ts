@@ -46,6 +46,7 @@ function formatResult(itinerary: ReturnType<typeof generateItinerary>, fromName:
     days: itinerary.days.map((d) => ({
       day: d.day,
       isStayDay: d.isStayDay,
+      nuiteeType: d.nuiteeType,
       points: d.points.map((p) => ({
         nom: p.nom,
         lat: p.lat,
@@ -66,12 +67,13 @@ function formatResult(itinerary: ReturnType<typeof generateItinerary>, fromName:
 }
 
 async function handleFromLieux(body: any) {
-  const { lieux, start, end, nights = 7, rythme = "normal" } = body as {
+  const { lieux, start, end, nights = 7, rythme = "normal", maxAirbnbNights } = body as {
     lieux: LieuScore[];
     start: { lat: number; lng: number };
     end?: { lat: number; lng: number };
     nights?: number;
     rythme?: "cool" | "normal" | "intense";
+    maxAirbnbNights?: number;
   };
 
   if (!start?.lat || !start?.lng) {
@@ -86,6 +88,7 @@ async function handleFromLieux(body: any) {
     end,
     totalNights: nights,
     rythme,
+    ...(maxAirbnbNights != null && { maxAirbnbNights }),
   };
 
   const itinerary = generateItinerary(lieux, config);

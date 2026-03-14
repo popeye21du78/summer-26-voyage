@@ -15,8 +15,6 @@
 ## Restaurants (dossier `restos/`)
 - `la-table-de-naours/` — La Table de Naours
 - `le-petit-bistrot/` — Le Petit Bistrot
-- `l-auberge-du-moulin/` — L’Auberge du Moulin
-- `le-clos-de-l-abbaye/` — Le Clos de l’Abbaye
 - `la-terrasse-de-naours/` — La Terrasse de Naours
 - `cafe-du-plateau/` — Café du Plateau
 - `l-escapade/` — L’Escapade

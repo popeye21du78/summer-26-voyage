@@ -14,11 +14,7 @@
 - `phare-de-calais/` — Phare de Calais
 
 ## Restaurants (dossier `restos/`)
-- `la-buissonniere/` — La Buissonnière
-- `le-channel/` — Le Channel
 - `le-grand-bleu/` — Le Grand Bleu
 - `l-atelier-gourmand/` — L’Atelier Gourmand
 - `la-route-des-epices/` — La Route des Epices
 - `le-mumbai/` — Le Mumbai
-- `au-cote-d-argent/` — Au Côte d’Argent
-- `cafe-de-paris/` — Café de Paris

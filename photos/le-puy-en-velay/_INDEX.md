@@ -14,11 +14,7 @@
 - `forteresse-de-polignac/` — Forteresse de Polignac
 
 ## Restaurants (dossier `restos/`)
-- `l-ecu-d-or/` — L’Écu d’Or
-- `le-chamarlenc/` — Le Chamarlenc
 - `l-embellie/` — L’Embellie
 - `la-table-de-felix/` — La Table de Félix
 - `brasserie-le-national/` — Brasserie Le National
 - `le-poivrier/` — Le Poivrier
-- `le-regency/` — Le Regency
-- `le-bouchon-ponot/` — Le Bouchon Ponot

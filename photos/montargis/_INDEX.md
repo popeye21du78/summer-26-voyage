@@ -20,5 +20,3 @@
 - `le-bouche-a-oreille/` — Le Bouche à Oreille
 - `le-caffe-du-centre/` — Le Caffè du Centre
 - `le-petit-bouchon/` — Le Petit Bouchon
-- `la-terrasse-du-loing/` — La Terrasse du Loing
-- `le-saint-louis/` — Le Saint Louis

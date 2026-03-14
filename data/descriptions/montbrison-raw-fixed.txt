@@ -25,71 +25,15 @@ Pour les amateurs de curiosités, {tente,tentez} le passage dans la cour du vieu
 
 ---MANGER_INTIME_SERRE---
 Parfois, {tu n’as,vous n’avez} pas envie de cérémonial : {installe-toi,installez-vous} au Petit Gourmet, une salle étroite où le menu du marché se décline sans prétention, et où la Fourme s’invite en douceur dans l’assiette.
-• Nom : Le Petit Gourmet
-Adresse : 37, Rue Tupinerie, 42600 Montbrison
-Cuisine : cuisine de marché, spécialités foréziennes
-Ambiance : salle chaleureuse, tables rapprochées, service souriant
-Prix : €
-Note TA : —
-
-{Découvre,Découvrez} à quelques rues L’Atelier Gourmand, où tu peux savourer une cuisine familiale ponctuée de clins d’œil aux recettes d’antan, et choisir un vin régional à prix sage.
-• Nom : L'Atelier Gourmand
-Adresse : 6, Rue Martin Bernard, 42600 Montbrison
-Cuisine : traditionnelle, produits frais
-Ambiance : déco sans façons, conversations feutrées
-Prix : €
-Note TA : —
 
 ---MANGER_INTIME_LARGE---
 Quand {tu veux,vous voulez} prendre le temps, La Fourme d’Antan s’impose : recettes créatives autour du fromage local, nappes blanches et attentions discrètes.
-• Nom : La Fourme d’Antan
-Adresse : 2, Place Eugène Baune, 42600 Montbrison
-Cuisine : cuisine forézienne moderne
-Ambiance : salle lumineuse, ambiance raffinée
-Prix : €€
-Note TA : —
-
-{Ose,Osez} La Table du 20 si {tu es,vous êtes} gourmand[s,es] et curieux[s,es] : la carte fait le grand écart entre tradition et touches d’ailleurs, dans une salle feutrée à l’abri du bruit.
-• Nom : La Table du 20
-Adresse : 20, Rue Saint-Jean, 42600 Montbrison
-Cuisine : bistronomique, inspirations variées
-Ambiance : élégance discrète, atmosphère tamisée
-Prix : €€€
-Note TA : —
 
 ---MANGER_ANIME_SERRE---
-{Installe-toi,Installez-vous} pour goûter à l’énergie locale : Le Saint Pierre tend ses tables sur la place du même nom ; à l’heure du marché, le brouhaha fait partie du service.
-• Nom : Le Saint Pierre
-Adresse : 7, Place Saint-Pierre, 42600 Montbrison
-Cuisine : brasserie, plats régionaux
-Ambiance : terrasse animée, va-et-vient permanent
-Prix : €
-Note TA : —
-
-Le Comptoir du Marché joue la carte café-comptoir sans chichis : {commande,commandez} une planche de terroir à partager, {observe,observez} la ronde des habitués.
-• Nom : Le Comptoir du Marché
-Adresse : 10, Place Eugène Baune, 42600 Montbrison
-Cuisine : planches, salades, cuisine simple
-Ambiance : tables hautes, ambiance détendue
-Prix : €
-Note TA : —
+{Si tu veux,Si vous voulez} goûter à l’énergie locale, Le Saint Pierre tend ses tables sur la place du même nom : à l’heure du marché, le brouhaha fait partie du service.
 
 ---MANGER_ANIME_LARGE---
 Quand {tu veux,vous voulez} élargir l’expérience, Le Bistrot d’Alex accueille groupes et tablées joyeuses, entre cuisine généreuse et vins du Forez.
-• Nom : Le Bistrot d'Alex
-Adresse : 5, Boulevard Lacheze, 42600 Montbrison
-Cuisine : cuisine bistrot, spécialités locales
-Ambiance : grande salle vivante, déco contemporaine
-Prix : €€
-Note TA : —
-
-{Tu découvres,Vous découvrez} au Grand Café, institution locale, une grande salle art déco qui vibre sous les conversations, surtout à l’heure de l’apéritif.
-• Nom : Le Grand Café
-Adresse : 1, Place Eugène Baune, 42600 Montbrison
-Cuisine : brasserie, cuisine française classique
-Ambiance : volume, rires, baie vitrée sur la place
-Prix : €€€
-Note TA : —
 
 ---BONUS_COUPLE---
 [PRENOM], [PARTENAIRE], offrez-vous la douceur d’une fin de journée sur les berges du Vizézy, là où la lumière décroissante fait scintiller la rivière et donne aux façades une teinte presque dorée. C’est le moment parfait pour savourer une pause à deux, [ravis,ravies] de vous sentir seuls au monde au cœur de Montbrison.
@@ -98,7 +42,7 @@ Note TA : —
 [PRENOM], file explorer la médiathèque Loire-Forez, installée dans un ancien couvent : entre les voûtes silencieuses et les rayons paisibles, tu pourras savourer ce luxe rare d’être libre dans une ville qui prend son temps.
 
 ---BONUS_FAMILLE---
-[PRENOM], [PARTENAIRE], [ENFANTS_SUJET], partez à la découverte du Musée d’Allard, où les collections d’histoire naturelle côtoient des objets insolites. Vous serez [surpris,surprises] de voir petits et grands s’émerveiller devant des animaux naturalisés et des curiosités du Forez.
+[PRENOM], [PARTENAIRE], [ENFANTS_SUJET], partez à la découverte du Musée d’Allard, où les collections d’histoire naturelle côtoient des objets insolites. Vous serez surpris de voir petits et grands s’émerveiller devant des animaux naturalisés et des curiosités du Forez.
 
 ---BONUS_AMIS---
 [PRENOM], [LISTE_AMIS], rejoignez la terrasse du Café des Sports lors d’un match local : l’ambiance y est électrique et la ville semble se transformer en petit théâtre collectif, où chaque but devient prétexte à refaire le monde.

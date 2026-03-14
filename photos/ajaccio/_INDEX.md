@@ -20,5 +20,3 @@
 - `a-nepita/` — A Nepita
 - `le-20123/` — Le 20123
 - `le-saint-pierre/` — Le Saint-Pierre
-- `le-bouchon-du-marche/` — Le Bouchon du Marché
-- `a-cantina-di-ghjulia/` — A Cantina di Ghjulia

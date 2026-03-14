@@ -1,0 +1,91 @@
+{
+  "slug": "gorges-de-l-ardeche",
+  "nom": "gorges de l ardeche",
+  "fetchedAt": "2026-03-13T14:35:24.172Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Pont_d%27Arc%2C_gorges_de_l%27Ard%C3%A8che%2C_France_-_panoramio.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20d'Arc%2C%20gorges%20de%20l'Ard%C3%A8che%2C%20France%20-%20panoramio.jpg",
+      "title": "Pont d'Arc, gorges de l'Ardèche, France - panoramio.jpg",
+      "width": 1896,
+      "height": 1448,
+      "size": 747227,
+      "timestamp": "2016-06-16T01:29:35Z",
+      "author": "Jfdo",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Gorges_Ard%C3%A8che_point_vue.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGorges%20Ard%C3%A8che%20point%20vue.jpg",
+      "title": "Gorges Ardèche point vue.jpg",
+      "width": 2560,
+      "height": 1920,
+      "size": 3011584,
+      "timestamp": "2016-09-03T13:51:00Z",
+      "author": "Jacques Le Letty",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Les_gorges_de_l%27Ard%C3%A8che_vues_de_la_route_01.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20gorges%20de%20l'Ard%C3%A8che%20vues%20de%20la%20route%2001.jpg",
+      "title": "Les gorges de l'Ardèche vues de la route 01.jpg",
+      "width": 4000,
+      "height": 3000,
+      "size": 3953651,
+      "timestamp": "2018-05-21T09:12:41Z",
+      "author": "Celeda",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Pont d’Arc",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Pont_d%27Arc%2C_gorges_de_l%27Ard%C3%A8che%2C_France_-_panoramio.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20d'Arc%2C%20gorges%20de%20l'Ard%C3%A8che%2C%20France%20-%20panoramio.jpg",
+          "title": "Pont d'Arc, gorges de l'Ardèche, France - panoramio.jpg",
+          "width": 1896,
+          "height": 1448,
+          "size": 747227,
+          "timestamp": "2016-06-16T01:29:35Z",
+          "author": "Jfdo",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Backeljaia_gigaxii_%28MNHN-IM-2010-13186%29.jpeg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABackeljaia%20gigaxii%20(MNHN-IM-2010-13186).jpeg",
+          "title": "Backeljaia gigaxii (MNHN-IM-2010-13186).jpeg",
+          "width": 1719,
+          "height": 2579,
+          "size": 2238641,
+          "timestamp": "2020-05-03T18:19:14Z",
+          "author": "<div class=\"fn value\">\nGargominy O.</div>",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "label": "Belvédère du Serre de Tourre",
+      "photos": []
+    },
+    {
+      "label": "Cirque de Gaud",
+      "photos": []
+    },
+    {
+      "label": "Plage de la Grotte de la Madeleine",
+      "photos": []
+    }
+  ]
+}

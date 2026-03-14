@@ -1,0 +1,74 @@
+{
+  "slug": "camprieu",
+  "nom": "Camprieu",
+  "fetchedAt": "2026-03-13T12:25:28.094Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/France_Gard_Aigoual_-_Camprieu_-_IMG_4959.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20Gard%20Aigoual%20-%20Camprieu%20-%20IMG%204959.jpg",
+      "title": "France Gard Aigoual - Camprieu - IMG 4959.jpg",
+      "width": 3264,
+      "height": 2448,
+      "size": 3547769,
+      "timestamp": "2017-05-31T21:53:14Z",
+      "author": "DePlusJean",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/ISS053-E-46383_-_View_of_Earth.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS053-E-46383%20-%20View%20of%20Earth.jpg",
+      "title": "ISS053-E-46383 - View of Earth.jpg",
+      "width": 4928,
+      "height": 3280,
+      "size": 2044891,
+      "timestamp": "2021-04-01T10:57:27Z",
+      "author": "Earth Science and Remote Sensing Unit",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Noccaea_caerulescens_plant_%2802%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANoccaea%20caerulescens%20plant%20(02).jpg",
+      "title": "Noccaea caerulescens plant (02).jpg",
+      "width": 3089,
+      "height": 2046,
+      "size": 1623821,
+      "timestamp": "2021-04-22T04:44:45Z",
+      "author": "Jean-Jacques Houdré",
+      "license": "CC BY-SA 2.0 fr",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Massif de l’Aigoual",
+      "photos": []
+    },
+    {
+      "label": "Rivière du Bonheur",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Ab%C3%AEme_de_Bramabiau_-_la_passerelle.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAb%C3%AEme%20de%20Bramabiau%20-%20la%20passerelle.jpg",
+          "title": "Abîme de Bramabiau - la passerelle.jpg",
+          "width": 2592,
+          "height": 3872,
+          "size": 3692566,
+          "timestamp": "2021-05-01T22:34:58Z",
+          "author": "Jihelpé",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "label": "Clairière du Lingas",
+      "photos": []
+    }
+  ]
+}

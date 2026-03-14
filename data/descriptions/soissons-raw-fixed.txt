@@ -14,9 +14,7 @@ Au-delà de Clovis et du « vase de Soissons », la ville s’est construite sur
 La Première Guerre mondiale a laissé des cicatrices profondes, la ville étant occupée puis libérée à plusieurs reprises, et largement détruite lors des combats. La reconstruction, dans l’entre-deux-guerres, a donné naissance à des quartiers au style Art déco inattendu, qui tranchent avec les stéréotypes médiévaux. Aujourd’hui, Soissons cultive cette coexistence de traces anciennes et de modernité discrète, loin des projecteurs mais non sans caractère.
 
 ---QUE_FAIRE_CONNU---
-{Commence,Commencez} par {prendre,prendrez} le temps de longer la cathédrale Saint-Gervais-et-Saint-Protais : sa façade inachevée, ses vitraux lumineux et ses volumes vertigineux {offrent,offrent} un aperçu de la foi en grand format. {Traverse,Traversez} la place Saint-Pierre, {pousse,poussez} la porte de l’abbaye Saint-Jean-des-Vignes : la nef disparue laisse une perspective saisissante, entre ruine romantique et architecture ciselée.
-
-{File,Filez} ensuite vers le musée d’Art et d’Histoire, installé dans l’ancienne abbaye Saint-Léger, où l’on découvre une collection éclectique, des stèles gallo-romaines aux peintures XIXe. Quand le soleil décline, {installe-toi,installez-vous} sur la place Marquigny : les cafés y {tendent,tendez} leurs chaises à la clientèle locale autant qu’aux voyageurs curieux. Et si {tu veux,vous voulez} une pause verte, le parc Saint-Crépin offre sa pelouse et ses arbres centenaires, étape paisible après les pierres.
+{Commence,Commencez} par {prendre,prenez} le temps de longer la cathédrale Saint-Gervais-et-Saint-Protais : sa façade inachevée, ses vitraux lumineux et ses volumes vertigineux {offrent,offrent} un aperçu de la foi en grand format. {Traverse,Traversez} la place Saint-Pierre, {pousse,poussez} la porte de l’abbaye Saint-Jean-des-Vignes : la nef disparue laisse une perspective saisissante, entre ruine romantique et architecture ciselée.
 
 ---QUE_FAIRE_INCONNU---
 {Remonte,Remontez} la rue de Panleu, plus discrète, pour découvrir quelques maisons anciennes et ce qui reste des remparts médiévaux, souvent ignorés des circuits balisés. {Bifurque,Bifurquez} vers le faubourg Saint-Waast, où le street art s’invite sur les murs, preuve que la ville ne se contente plus de regarder le passé.
@@ -64,22 +62,6 @@ Note TA : —
 ---MANGER_ANIME_SERRE---
 Pour capter le pouls local sans trop dépenser, {installe-toi,installez-vous} Chez Max, un bistrot où les cafés s’enchaînent et les voix montent en cadence.
 
-• Nom : Chez Max
-Adresse : 14, rue Saint-Christophe, 02200 Soissons
-Cuisine : brasserie traditionnelle
-Ambiance : comptoir animé, allers-retours constants, rires au fond de la salle
-Prix : €
-Note TA : —
-
-En quête d’un déjeuner rapide mais vivant ? {Opte,Optez} pour La Table d’Antoine, où l’on croise tout Soissons autour de plats du jour généreux.
-
-• Nom : La Table d’Antoine
-Adresse : 6, rue de la Bannière, 02200 Soissons
-Cuisine : bistrot, cuisine française maison
-Ambiance : salle animée, habitués au comptoir, service sans chichi
-Prix : €€
-Note TA : —
-
 ---MANGER_ANIME_LARGE---
 Pour une soirée conviviale, {rejoins,rejoignez} Le Bouche à Oreille quand la salle se remplit et que les tablées se forment sans façon.
 
@@ -103,7 +85,7 @@ Note TA : —
 [PRENOM], [PARTENAIRE], laissez-vous surprendre par la douceur du jardin de l’abbaye Saint-Léger au petit matin : vous êtes à l’abri du monde, [ravis,ravies] de savourer la lumière qui filtre à travers les anciennes arcades.
 
 ---BONUS_SEUL---
-[PRENOM], offre-toi une parenthèse à la bibliothèque municipale, installée dans le cloître d’une abbaye : entre deux étagères de pierre, tu te sentiras libre de feuilleter l’histoire ou simplement d’observer les lecteurs du coin.
+[PRENOM], tu peux t’offrir une parenthèse à la bibliothèque municipale, installée dans le cloître d’une abbaye : entre deux étagères de pierre, tu te sentiras libre de feuilleter l’histoire ou simplement d’observer les lecteurs du coin.
 
 ---BONUS_FAMILLE---
 [PRENOM], [PARTENAIRE], [ENFANTS_SUJET], aventurez-vous dans le parc Gouraud où les sculptures contemporaines parsèment la pelouse : vous repartirez [amusés,amusées] d’avoir découvert ce musée à ciel ouvert sans contrainte.
@@ -120,21 +102,7 @@ lieu: Parc Gouraud
 lieu: Place Fernand Marquigny
 
 ---VAN---
-• Parking Saint-Médard  
-Adresse : Place Saint-Médard, 02200 Soissons  
-Places : ~30, gabarit OK sauf surfréquentation  
-Tarif : gratuit  
-Services : aucun  
-Accès centre : 10 min à pied
-
-• Parking Parc Gouraud  
-Adresse : Avenue du Général de Gaulle, 02200 Soissons  
-Places : ~20, gabarit OK  
-Tarif : gratuit  
-Services : aucun  
-Accès centre : 15 min à pied
-
-À savoir : La ville comporte de nombreuses rues étroites et à sens unique, {prends,prenez} garde aux panneaux de restriction près du centre historique. Le marché du samedi matin rend certains parkings inaccessibles temporairement. Stationnement nocturne toléré sur ces parkings hors haute saison, mais {reste,restez} discret.
+• Parking Saint-Médard
 
 ---DUREE---
 recommandee: 1 journée

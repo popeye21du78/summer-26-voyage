@@ -17,7 +17,3 @@
 - `le-moulin-de-moissac-brasserie-du-m/` — Le Moulin de Moissac – Brasserie du M
 - `l-auberge-de-l-abbaye/` — L’Auberge de l’Abbaye
 - `la-table-de-flo/` — La Table de Flo
-- `le-paris/` — Le Paris
-- `le-kiosque/` — Le Kiosque
-- `l-armurerie/` — L’Armurerie
-- `le-pigeonnier/` — Le Pigeonnier

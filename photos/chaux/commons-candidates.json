@@ -1,0 +1,100 @@
+{
+  "slug": "chaux",
+  "nom": "Chaux",
+  "fetchedAt": "2026-03-13T13:24:08.529Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Chaux%2C_Mairie.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChaux%2C%20Mairie.JPG",
+      "title": "Chaux, Mairie.JPG",
+      "width": 4224,
+      "height": 2716,
+      "size": 1652117,
+      "timestamp": "2023-11-15T19:19:38Z",
+      "author": "Rauenstein",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Chaux%2C_%C3%89glise_Saint-Martin_2.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChaux%2C%20%C3%89glise%20Saint-Martin%202.jpg",
+      "title": "Chaux, Église Saint-Martin 2.jpg",
+      "width": 3795,
+      "height": 2728,
+      "size": 1911295,
+      "timestamp": "2023-11-15T19:15:58Z",
+      "author": "Rauenstein",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/2020-12-28_17-52-15_lum-noel-Chaux.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2020-12-28%2017-52-15%20lum-noel-Chaux.jpg",
+      "title": "2020-12-28 17-52-15 lum-noel-Chaux.jpg",
+      "width": 3997,
+      "height": 2999,
+      "size": 20049261,
+      "timestamp": "2020-12-28T19:22:54Z",
+      "author": "<bdi><a href=\"//commons.wikimedia.org/wiki/User:ComputerHotline\" title=\"User:ComputerHotline\">Thomas Bresson</a></bdi>",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Église Saint-Martin de Chaux",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Chaux%2C_%C3%89glise_Saint-Martin_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChaux%2C%20%C3%89glise%20Saint-Martin%202.jpg",
+          "title": "Chaux, Église Saint-Martin 2.jpg",
+          "width": 3795,
+          "height": 2728,
+          "size": 1911295,
+          "timestamp": "2023-11-15T19:15:58Z",
+          "author": "Rauenstein",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Eglise_Saint-Martin._%281%29_Chaux.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Saint-Martin.%20(1)%20Chaux.jpg",
+          "title": "Eglise Saint-Martin. (1) Chaux.jpg",
+          "width": 3055,
+          "height": 2289,
+          "size": 1836142,
+          "timestamp": "2020-01-25T10:17:40Z",
+          "author": "Espirat",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Eglise_Saint-Martin._%282%29_Chaux.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Saint-Martin.%20(2)%20Chaux.jpg",
+          "title": "Eglise Saint-Martin. (2) Chaux.jpg",
+          "width": 3056,
+          "height": 2291,
+          "size": 1857951,
+          "timestamp": "2020-01-25T10:19:32Z",
+          "author": "Espirat",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
+    },
+    {
+      "label": "Ruisseau de la Madeleine",
+      "photos": []
+    },
+    {
+      "label": "Forêt domaniale de Saint-Antoine",
+      "photos": []
+    }
+  ]
+}

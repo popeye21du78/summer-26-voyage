@@ -1,0 +1,100 @@
+{
+  "slug": "chateau-chalon",
+  "nom": "Château-Chalon",
+  "fetchedAt": "2026-03-13T12:40:45.828Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Ch%C3%A2teau-Chalon%2C_le_colombier_abbatial.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau-Chalon%2C%20le%20colombier%20abbatial.jpg",
+      "title": "Château-Chalon, le colombier abbatial.jpg",
+      "width": 3449,
+      "height": 2587,
+      "size": 8152540,
+      "timestamp": "2020-09-01T10:43:48Z",
+      "author": "JGS25",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Int%C3%A9rieur_de_l%27%C3%A9glise_Saint-Pierre_%C3%A0_Ch%C3%A2teau-Chalon_%28Jura%29_02.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AInt%C3%A9rieur%20de%20l'%C3%A9glise%20Saint-Pierre%20%C3%A0%20Ch%C3%A2teau-Chalon%20(Jura)%2002.jpg",
+      "title": "Intérieur de l'église Saint-Pierre à Château-Chalon (Jura) 02.jpg",
+      "width": 3000,
+      "height": 2000,
+      "size": 1629960,
+      "timestamp": "2022-09-11T04:49:46Z",
+      "author": "Jean de l'Auxois",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Ch%C3%A2teau-Chalon_Bo%C3%AEte_%C3%A0_livres_03.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau-Chalon%20Bo%C3%AEte%20%C3%A0%20livres%2003.jpg",
+      "title": "Château-Chalon Boîte à livres 03.jpg",
+      "width": 4000,
+      "height": 2240,
+      "size": 1541819,
+      "timestamp": "2024-06-30T13:43:29Z",
+      "author": "GenGavi",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Belvédère du Grangeon",
+      "photos": []
+    },
+    {
+      "label": "Église Saint-Pierre",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Peinture_murale_de_l%27%C3%A9glise_Saint-Pierre_%C3%A0_Ch%C3%A2teau-Chalon_%28Jura%29_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APeinture%20murale%20de%20l'%C3%A9glise%20Saint-Pierre%20%C3%A0%20Ch%C3%A2teau-Chalon%20(Jura)%2001.jpg",
+          "title": "Peinture murale de l'église Saint-Pierre à Château-Chalon (Jura) 01.jpg",
+          "width": 3000,
+          "height": 2000,
+          "size": 2184201,
+          "timestamp": "2022-09-11T05:05:54Z",
+          "author": "Jean de l'Auxois",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Ch%C3%A2teau-Chalon_--_%C3%A9glise_01.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau-Chalon%20--%20%C3%A9glise%2001.JPG",
+          "title": "Château-Chalon -- église 01.JPG",
+          "width": 3264,
+          "height": 2448,
+          "size": 1590196,
+          "timestamp": "2015-09-11T19:38:10Z",
+          "author": "Remi Mathis",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Ch%C3%A2teau-Chalon_--_%C3%A9glise_03.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau-Chalon%20--%20%C3%A9glise%2003.JPG",
+          "title": "Château-Chalon -- église 03.JPG",
+          "width": 3264,
+          "height": 2448,
+          "size": 2070753,
+          "timestamp": "2015-09-11T19:38:10Z",
+          "author": "Remi Mathis",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "label": "Fontaine-lavoir du village",
+      "photos": []
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "slug": "vulcania",
+  "nom": "Vulcania",
+  "fetchedAt": "2026-03-14T14:40:16.582Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/20191231_Les_crat%C3%A8res_embo%C3%AEt%C3%A9s_du_Puy_de_C%C3%B4me%2C_le_Puy_de_D%C3%B4me.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20191231%20Les%20crat%C3%A8res%20embo%C3%AEt%C3%A9s%20du%20Puy%20de%20C%C3%B4me%2C%20le%20Puy%20de%20D%C3%B4me.jpg",
+      "title": "20191231 Les cratères emboîtés du Puy de Côme, le Puy de Dôme.jpg",
+      "width": 4608,
+      "height": 3456,
+      "size": 1805679,
+      "timestamp": "2020-09-17T18:45:26Z",
+      "author": "Yohann-benmalek",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Saint-Ours_63_-_gare_du_Vauriat_20220823-02.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Ours%2063%20-%20gare%20du%20Vauriat%2020220823-02.jpg",
+      "title": "Saint-Ours 63 - gare du Vauriat 20220823-02.jpg",
+      "width": 5472,
+      "height": 3648,
+      "size": 9341431,
+      "timestamp": "2022-09-01T11:26:06Z",
+      "author": "Pymouss",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Saint-Ours_63_-_gare_du_Vauriat_20220823-01.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Ours%2063%20-%20gare%20du%20Vauriat%2020220823-01.jpg",
+      "title": "Saint-Ours 63 - gare du Vauriat 20220823-01.jpg",
+      "width": 4831,
+      "height": 3221,
+      "size": 6168179,
+      "timestamp": "2022-09-01T11:26:06Z",
+      "author": "Pymouss",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Cratère central de Vulcania",
+      "photos": []
+    },
+    {
+      "label": "Ballon captif",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Le_Ballon_des_Puys_F-HVUL_%28aircraft%29_%283%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Ballon%20des%20Puys%20F-HVUL%20(aircraft)%20(3).jpg",
+          "title": "Le Ballon des Puys F-HVUL (aircraft) (3).jpg",
+          "width": 4000,
+          "height": 3000,
+          "size": 7487375,
+          "timestamp": "2023-04-26T15:00:17Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q97949455\" class=\"extiw\" title=\"d:Q97949455\"><span title=\"French photographer and Wikimedian\">Pierre André Leclercq</span></a></bdi>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Le_Ballon_des_Puys_F-HVUL_%28aircraft%29_%281%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Ballon%20des%20Puys%20F-HVUL%20(aircraft)%20(1).jpg",
+          "title": "Le Ballon des Puys F-HVUL (aircraft) (1).jpg",
+          "width": 4000,
+          "height": 1497,
+          "size": 4700794,
+          "timestamp": "2023-04-26T15:00:17Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q97949455\" class=\"extiw\" title=\"d:Q97949455\"><span title=\"French photographer and Wikimedian\">Pierre André Leclercq</span></a></bdi>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "label": "Salle du Grand Geyser",
+      "photos": []
+    },
+    {
+      "label": "Cité des Enfants",
+      "photos": []
+    }
+  ]
+}

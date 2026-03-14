@@ -14,8 +14,6 @@
 ## Restaurants (dossier `restos/`)
 - `le-routioutiou/` — Le Routioutiou
 - `la-maison-du-bassin/` — La Maison du Bassin
-- `hotel-de-la-plage/` — Hôtel de la Plage
-- `le-bouchon-du-ferret/` — Le Bouchon du Ferret
 - `la-cabane-57/` — La Cabane 57
 - `cafe-pinasse/` — Café Pinasse
 - `la-maison-blanche/` — La Maison Blanche

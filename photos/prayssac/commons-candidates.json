@@ -1,0 +1,104 @@
+{
+  "slug": "prayssac",
+  "nom": "Prayssac",
+  "fetchedAt": "2026-03-14T11:37:02.166Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Ville_de_Prayssac%2C_46220%2C_France.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVille%20de%20Prayssac%2C%2046220%2C%20France.jpg",
+      "title": "Ville de Prayssac, 46220, France.jpg",
+      "width": 1832,
+      "height": 1019,
+      "size": 744804,
+      "timestamp": "2023-02-17T08:48:52Z",
+      "author": "EveStanton",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/L%27%C3%A9glise_Saint-Barth%C3%A9l%C3%A9my_de_Prayssac_-_Septembre_2015.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AL'%C3%A9glise%20Saint-Barth%C3%A9l%C3%A9my%20de%20Prayssac%20-%20Septembre%202015.jpg",
+      "title": "L'église Saint-Barthélémy de Prayssac - Septembre 2015.jpg",
+      "width": 3600,
+      "height": 2700,
+      "size": 6137399,
+      "timestamp": "2015-10-16T14:25:49Z",
+      "author": "Erwan Corre",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Le_cadran_solaire_sur_le_pignon_de_la_mairie_de_Prayssac_-_Septembre-2015.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20cadran%20solaire%20sur%20le%20pignon%20de%20la%20mairie%20de%20Prayssac%20-%20Septembre-2015.jpg",
+      "title": "Le cadran solaire sur le pignon de la mairie de Prayssac - Septembre-2015.jpg",
+      "width": 3600,
+      "height": 2700,
+      "size": 5841469,
+      "timestamp": "2015-10-16T14:25:49Z",
+      "author": "Erwan Corre",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Place d’Istrie",
+      "photos": []
+    },
+    {
+      "label": "Église Saint-Barthélemy",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/L%27%C3%A9glise_Saint-Barth%C3%A9l%C3%A9my_de_Prayssac_-_Septembre_2015.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AL'%C3%A9glise%20Saint-Barth%C3%A9l%C3%A9my%20de%20Prayssac%20-%20Septembre%202015.jpg",
+          "title": "L'église Saint-Barthélémy de Prayssac - Septembre 2015.jpg",
+          "width": 3600,
+          "height": 2700,
+          "size": 6137399,
+          "timestamp": "2015-10-16T14:25:49Z",
+          "author": "Erwan Corre",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Prayssac_-_%C3%89glise_Saint-Barth%C3%A9lemy_-02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APrayssac%20-%20%C3%89glise%20Saint-Barth%C3%A9lemy%20-02.jpg",
+          "title": "Prayssac - Église Saint-Barthélemy -02.jpg",
+          "width": 4896,
+          "height": 2752,
+          "size": 2654004,
+          "timestamp": "2019-07-19T22:23:36Z",
+          "author": "MOSSOT",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Prayssac_%C3%A9glise.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APrayssac%20%C3%A9glise.JPG",
+          "title": "Prayssac église.JPG",
+          "width": 3472,
+          "height": 2578,
+          "size": 5823941,
+          "timestamp": "2010-11-03T21:01:18Z",
+          "author": "Paternel 1",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "label": "Parc de la Source",
+      "photos": []
+    },
+    {
+      "label": "Domaine de la Borie",
+      "photos": []
+    }
+  ]
+}

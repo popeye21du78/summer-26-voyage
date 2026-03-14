@@ -19,5 +19,3 @@
 - `le-lys-d-or/` — Le Lys d’Or
 - `la-parenthese/` — La Parenthèse
 - `le-bistrot-d-antan/` — Le Bistrot d’Antan
-- `la-pataterie/` — La Pataterie
-- `la-taverne/` — La Taverne

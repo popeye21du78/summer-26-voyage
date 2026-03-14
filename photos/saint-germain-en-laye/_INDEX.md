@@ -19,5 +19,3 @@
 - `le-manege/` — Le Manège
 - `le-diplomate/` — Le Diplomate
 - `l-atelier-du-marche/` — L’Atelier du Marché
-- `l-escargot/` — L’Escargot
-- `el-sol/` — El Sol

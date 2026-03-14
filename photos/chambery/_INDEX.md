@@ -16,8 +16,6 @@
 ## Restaurants (dossier `restos/`)
 - `la-maniguette/` — La Maniguette
 - `le-savoyard/` — Le Savoyard
-- `l-atelier/` — L'Atelier
-- `le-bistrot/` — Le Bistrot
 - `le-petit-prince/` — Le Petit Prince
 - `le-bruit-qui-court/` — Le Bruit Qui Court
 - `l-actuel/` — L’Actuel

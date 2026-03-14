@@ -589,12 +589,16 @@ export function applyProportions(
   }
 
   const prop = proportions;
-  const nPlages = Math.min(byProp.plages.length, Math.round((count * prop.plages) / 100));
-  const nRandos = Math.min(byProp.randos.length, Math.round((count * prop.randos) / 100));
-  const nChateaux = Math.min(byProp.chateaux.length, Math.round((count * prop.chateaux) / 100));
-  const nVillages = Math.min(byProp.villages.length, Math.round((count * prop.villages) / 100));
-  const nVilles = Math.min(byProp.villes.length, Math.round((count * prop.villes) / 100));
-  const nMusees = Math.min(byProp.musees.length, Math.round((count * prop.musees) / 100));
+  /** Marge légère sur les quotas : +10% pour éviter de casser l'optimisation (quota strict → sous-optimal) */
+  const QUOTA_MARGIN = 1.1;
+  const withMargin = (n: number) => Math.round(n * QUOTA_MARGIN);
+
+  const nPlages = Math.min(byProp.plages.length, withMargin(Math.round((count * prop.plages) / 100)));
+  const nRandos = Math.min(byProp.randos.length, withMargin(Math.round((count * prop.randos) / 100)));
+  const nChateaux = Math.min(byProp.chateaux.length, withMargin(Math.round((count * prop.chateaux) / 100)));
+  const nVillages = Math.min(byProp.villages.length, withMargin(Math.round((count * prop.villages) / 100)));
+  const nVilles = Math.min(byProp.villes.length, withMargin(Math.round((count * prop.villes) / 100)));
+  const nMusees = Math.min(byProp.musees.length, withMargin(Math.round((count * prop.musees) / 100)));
 
   const allowPepitesForVilles = prop.villages === 0 && prop.villes > 0;
 

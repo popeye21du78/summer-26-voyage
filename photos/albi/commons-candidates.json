@@ -1,0 +1,104 @@
+{
+  "slug": "albi",
+  "nom": "Albi",
+  "fetchedAt": "2026-03-13T12:05:11.363Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Place_du_Patus_cr%C3%A9mat_%C3%A0_Albi.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlace%20du%20Patus%20cr%C3%A9mat%20%C3%A0%20Albi.jpg",
+      "title": "Place du Patus crémat à Albi.jpg",
+      "width": 2400,
+      "height": 1600,
+      "size": 859359,
+      "timestamp": "2016-12-11T11:04:58Z",
+      "author": "Unuaiga",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Jean-Fran%C3%A7ois_de_La_P%C3%A9rouse_%281741_-_1788%29%2C_Albi%2C_Midi-Pyr%C3%A9n%C3%A9es%2C_France_-_panoramio_%281%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJean-Fran%C3%A7ois%20de%20La%20P%C3%A9rouse%20(1741%20-%201788)%2C%20Albi%2C%20Midi-Pyr%C3%A9n%C3%A9es%2C%20France%20-%20panoramio%20(1).jpg",
+      "title": "Jean-François de La Pérouse (1741 - 1788), Albi, Midi-Pyrénées, France - panoramio (1).jpg",
+      "width": 4288,
+      "height": 2848,
+      "size": 7145024,
+      "timestamp": "2017-02-27T08:40:19Z",
+      "author": "M.Strīķis",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Court_of_First_Instance_of_Albi.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACourt%20of%20First%20Instance%20of%20Albi.jpg",
+      "title": "Court of First Instance of Albi.jpg",
+      "width": 6000,
+      "height": 4000,
+      "size": 14109953,
+      "timestamp": "2017-09-05T22:53:34Z",
+      "author": "Krzysztof Golik",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Parvis de la cathédrale Sainte-Cécile",
+      "photos": []
+    },
+    {
+      "label": "Palais de la Berbie et ses jardins",
+      "photos": []
+    },
+    {
+      "label": "Pont Vieux",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/%28Albi%29_Le_Tarn_vu_du_vieux_pont_vers_l%27ouest.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A(Albi)%20Le%20Tarn%20vu%20du%20vieux%20pont%20vers%20l'ouest.jpg",
+          "title": "(Albi) Le Tarn vu du vieux pont vers l'ouest.jpg",
+          "width": 8256,
+          "height": 4659,
+          "size": 39044622,
+          "timestamp": "2021-09-21T18:51:40Z",
+          "author": "Didier Descouens",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/%28Albi%29_Pont_ferroviaire_vu_du_Vieux_Pont.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A(Albi)%20Pont%20ferroviaire%20vu%20du%20Vieux%20Pont.jpg",
+          "title": "(Albi) Pont ferroviaire vu du Vieux Pont.jpg",
+          "width": 8256,
+          "height": 3821,
+          "size": 36154451,
+          "timestamp": "2021-10-23T06:14:53Z",
+          "author": "Didier Descouens",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/%28Albi%29_La_Vermicellerie_vue_du_Vieux_Pont.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A(Albi)%20La%20Vermicellerie%20vue%20du%20Vieux%20Pont.jpg",
+          "title": "(Albi) La Vermicellerie vue du Vieux Pont.jpg",
+          "width": 6434,
+          "height": 3482,
+          "size": 14391547,
+          "timestamp": "2021-10-30T05:35:48Z",
+          "author": "Didier Descouens",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
+    },
+    {
+      "label": "Rues du Vieil Albi",
+      "photos": []
+    }
+  ]
+}

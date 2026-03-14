@@ -1,0 +1,104 @@
+{
+  "slug": "le-bugue",
+  "nom": "Le Bugue",
+  "fetchedAt": "2026-03-13T15:27:00.121Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/NRO_Le_Bugue.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANRO%20Le%20Bugue.jpg",
+      "title": "NRO Le Bugue.jpg",
+      "width": 4032,
+      "height": 2268,
+      "size": 5122476,
+      "timestamp": "2023-02-13T16:40:28Z",
+      "author": "Pastèque24",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/%C3%89glise_Saint-Sulpice_du_Bugue-47257.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-Sulpice%20du%20Bugue-47257.jpg",
+      "title": "Église Saint-Sulpice du Bugue-47257.jpg",
+      "width": 6460,
+      "height": 4307,
+      "size": 15466358,
+      "timestamp": "2024-02-27T07:32:56Z",
+      "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q108103612\" class=\"extiw\" title=\"d:Q108103612\"><span title=\"Wikipedian and OpenStreetMap mapper from Cologne, Open Data activist\">Raimond Spekking</span></a></bdi>",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Quai_des_Berges_de_la_V%C3%A9z%C3%A8re%2C_Le_Bugue-47263.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQuai%20des%20Berges%20de%20la%20V%C3%A9z%C3%A8re%2C%20Le%20Bugue-47263.jpg",
+      "title": "Quai des Berges de la Vézère, Le Bugue-47263.jpg",
+      "width": 6292,
+      "height": 3539,
+      "size": 13244895,
+      "timestamp": "2024-02-27T20:18:48Z",
+      "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q108103612\" class=\"extiw\" title=\"d:Q108103612\"><span title=\"Wikipedian and OpenStreetMap mapper from Cologne, Open Data activist\">Raimond Spekking</span></a></bdi>",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Place de la République",
+      "photos": []
+    },
+    {
+      "label": "Église Saint-Sulpice",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/%C3%89glise_Saint-Sulpice_du_Bugue-47257.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-Sulpice%20du%20Bugue-47257.jpg",
+          "title": "Église Saint-Sulpice du Bugue-47257.jpg",
+          "width": 6460,
+          "height": 4307,
+          "size": 15466358,
+          "timestamp": "2024-02-27T07:32:56Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q108103612\" class=\"extiw\" title=\"d:Q108103612\"><span title=\"Wikipedian and OpenStreetMap mapper from Cologne, Open Data activist\">Raimond Spekking</span></a></bdi>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Le_Bugue_-_%C3%89glise_Saint-Sulpice_-03.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Bugue%20-%20%C3%89glise%20Saint-Sulpice%20-03.jpg",
+          "title": "Le Bugue - Église Saint-Sulpice -03.jpg",
+          "width": 3743,
+          "height": 2752,
+          "size": 2041297,
+          "timestamp": "2019-08-02T21:20:51Z",
+          "author": "MOSSOT",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Le_Bugue_-_%C3%89glise_Saint-Sulpice_-02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Bugue%20-%20%C3%89glise%20Saint-Sulpice%20-02.jpg",
+          "title": "Le Bugue - Église Saint-Sulpice -02.jpg",
+          "width": 4896,
+          "height": 2752,
+          "size": 3159461,
+          "timestamp": "2019-08-02T21:20:51Z",
+          "author": "MOSSOT",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "label": "Pont sur la Vézère",
+      "photos": []
+    },
+    {
+      "label": "Parc du Bournat",
+      "photos": []
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "chateau-de-bouges",
+  "nom": "Château de Bouges",
+  "fetchedAt": "2026-03-13T12:44:28.562Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Bouges-le-Ch%C3%A2teau_%28Indre%29_%288315045048%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABouges-le-Ch%C3%A2teau%20(Indre)%20(8315045048).jpg",
+      "title": "Bouges-le-Château (Indre) (8315045048).jpg",
+      "width": 3648,
+      "height": 2736,
+      "size": 5924940,
+      "timestamp": "2017-11-16T16:11:48Z",
+      "author": "Daniel Jolivet",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Bouges-le-Ch%C3%A2teau_%28Indre%29_%288315041346%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABouges-le-Ch%C3%A2teau%20(Indre)%20(8315041346).jpg",
+      "title": "Bouges-le-Château (Indre) (8315041346).jpg",
+      "width": 3648,
+      "height": 2736,
+      "size": 4850134,
+      "timestamp": "2017-11-16T16:11:52Z",
+      "author": "Daniel Jolivet",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Bouges-le-Ch%C3%A2teau_%28Indre%29._%289150228195%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABouges-le-Ch%C3%A2teau%20(Indre).%20(9150228195).jpg",
+      "title": "Bouges-le-Château (Indre). (9150228195).jpg",
+      "width": 4928,
+      "height": 3264,
+      "size": 7825774,
+      "timestamp": "2017-11-16T16:11:59Z",
+      "author": "Daniel Jolivet",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Grand salon ovale",
+      "photos": []
+    },
+    {
+      "label": "Orangerie et roseraie",
+      "photos": []
+    },
+    {
+      "label": "Jardin anglais",
+      "photos": []
+    },
+    {
+      "label": "Écuries",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Bouges-le-Ch%C3%A2teau_%28Indre%29._%289152556690%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABouges-le-Ch%C3%A2teau%20(Indre).%20(9152556690).jpg",
+          "title": "Bouges-le-Château (Indre). (9152556690).jpg",
+          "width": 4928,
+          "height": 3264,
+          "size": 8072987,
+          "timestamp": "2017-11-16T16:13:08Z",
+          "author": "Daniel Jolivet",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
+    }
+  ]
+}

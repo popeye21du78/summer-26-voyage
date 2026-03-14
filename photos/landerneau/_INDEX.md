@@ -19,5 +19,3 @@
 - `le-chef-est-une-femme/` — Le Chef est une Femme
 - `creperie-les-2-rivieres/` — Crêperie Les 2 Rivières
 - `le-saint-houardon/` — Le Saint Houardon
-- `la-fabrik/` — La Fabrik
-- `le-zinc/` — Le Zinc

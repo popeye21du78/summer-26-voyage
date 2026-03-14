@@ -1,0 +1,78 @@
+{
+  "slug": "pontarlier",
+  "nom": "Pontarlier",
+  "fetchedAt": "2026-03-14T11:32:55.568Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Chapelle_des_Annonciades_%C3%A0_Pontarlier_%28Doubs%29_01.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20des%20Annonciades%20%C3%A0%20Pontarlier%20(Doubs)%2001.jpg",
+      "title": "Chapelle des Annonciades à Pontarlier (Doubs) 01.jpg",
+      "width": 2379,
+      "height": 1856,
+      "size": 1313697,
+      "timestamp": "2022-09-07T03:51:57Z",
+      "author": "Jean de l'Auxois",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Chapelle_des_Annonciades_%C3%A0_Pontarlier_%28Doubs%29_02.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20des%20Annonciades%20%C3%A0%20Pontarlier%20(Doubs)%2002.jpg",
+      "title": "Chapelle des Annonciades à Pontarlier (Doubs) 02.jpg",
+      "width": 3000,
+      "height": 2000,
+      "size": 1421071,
+      "timestamp": "2022-09-07T03:51:57Z",
+      "author": "Jean de l'Auxois",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Porte_Saint-Pierre_%28Pontarlier%29_en_septembre_2014.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APorte%20Saint-Pierre%20(Pontarlier)%20en%20septembre%202014.jpg",
+      "title": "Porte Saint-Pierre (Pontarlier) en septembre 2014.jpg",
+      "width": 2936,
+      "height": 2884,
+      "size": 4752952,
+      "timestamp": "2021-03-18T06:19:13Z",
+      "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q42790984\" class=\"extiw\" title=\"d:Q42790984\"><span title=\"French computing engineer\">Benoît Prieur</span></a></bdi>",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Sentier du Larmont",
+      "photos": []
+    },
+    {
+      "label": "Roche Sarrazine",
+      "photos": []
+    },
+    {
+      "label": "Fontaine Ronde",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/St%C3%A8le_-_Auguste_Demesmay.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt%C3%A8le%20-%20Auguste%20Demesmay.jpg",
+          "title": "Stèle - Auguste Demesmay.jpg",
+          "width": 3888,
+          "height": 5832,
+          "size": 19377317,
+          "timestamp": "2011-11-20T10:21:52Z",
+          "author": "Ludovic Péron",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "label": "Tourbière de Frambourg",
+      "photos": []
+    }
+  ]
+}

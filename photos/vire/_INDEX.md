@@ -20,5 +20,3 @@
 - `la-table-de-saint-pierre/` — La Table de Saint Pierre
 - `le-central-bar-brasserie/` — Le Central Bar-Brasserie
 - `le-saint-germain/` — Le Saint-Germain
-- `la-table-viroise/` — La Table Viroise
-- `le-bistro-du-marche/` — Le Bistro du Marché

@@ -1,0 +1,78 @@
+{
+  "slug": "roubion",
+  "nom": "Roubion",
+  "fetchedAt": "2026-03-14T11:50:58.583Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Stage_20_Tour_de_France_2024_Col_de_la_Couillole_1.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStage%2020%20Tour%20de%20France%202024%20Col%20de%20la%20Couillole%201.jpg",
+      "title": "Stage 20 Tour de France 2024 Col de la Couillole 1.jpg",
+      "width": 5400,
+      "height": 3600,
+      "size": 5873563,
+      "timestamp": "2024-07-24T12:40:35Z",
+      "author": "kallerna",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Stage_20_Tour_de_France_2024_Col_de_la_Couillole_4.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStage%2020%20Tour%20de%20France%202024%20Col%20de%20la%20Couillole%204.jpg",
+      "title": "Stage 20 Tour de France 2024 Col de la Couillole 4.jpg",
+      "width": 5400,
+      "height": 3600,
+      "size": 8707464,
+      "timestamp": "2024-07-24T12:40:39Z",
+      "author": "kallerna",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Stage_20_Tour_de_France_2024_Col_de_la_Couillole_5.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStage%2020%20Tour%20de%20France%202024%20Col%20de%20la%20Couillole%205.jpg",
+      "title": "Stage 20 Tour de France 2024 Col de la Couillole 5.jpg",
+      "width": 5000,
+      "height": 3500,
+      "size": 7903042,
+      "timestamp": "2024-07-24T12:40:40Z",
+      "author": "kallerna",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Cascade de Vionène",
+      "photos": []
+    },
+    {
+      "label": "Col de la Couillole",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Stage_20_Tour_de_France_2024_Col_de_la_Couillole_55.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStage%2020%20Tour%20de%20France%202024%20Col%20de%20la%20Couillole%2055.jpg",
+          "title": "Stage 20 Tour de France 2024 Col de la Couillole 55.jpg",
+          "width": 4520,
+          "height": 3185,
+          "size": 7359946,
+          "timestamp": "2024-07-24T12:46:29Z",
+          "author": "kallerna",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
+    },
+    {
+      "label": "Place Vieille",
+      "photos": []
+    },
+    {
+      "label": "Sentier du Bois Noir",
+      "photos": []
+    }
+  ]
+}

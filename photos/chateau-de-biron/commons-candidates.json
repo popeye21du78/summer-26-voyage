@@ -1,0 +1,104 @@
+{
+  "slug": "chateau-de-biron",
+  "nom": "Château de Biron",
+  "fetchedAt": "2026-03-13T12:43:20.208Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Biron_-_panoramio.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABiron%20-%20panoramio.jpg",
+      "title": "Biron - panoramio.jpg",
+      "width": 2560,
+      "height": 1920,
+      "size": 1728512,
+      "timestamp": "2017-02-15T18:03:44Z",
+      "author": "lolo1258",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Biron_-_panoramio_%281%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABiron%20-%20panoramio%20(1).jpg",
+      "title": "Biron - panoramio (1).jpg",
+      "width": 2560,
+      "height": 1920,
+      "size": 1739264,
+      "timestamp": "2017-02-15T18:04:05Z",
+      "author": "lolo1258",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Biron_-_panoramio_%282%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABiron%20-%20panoramio%20(2).jpg",
+      "title": "Biron - panoramio (2).jpg",
+      "width": 2560,
+      "height": 1920,
+      "size": 1920512,
+      "timestamp": "2017-02-15T18:04:25Z",
+      "author": "lolo1258",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Salle des gardes",
+      "photos": []
+    },
+    {
+      "label": "Chapelle Renaissance",
+      "photos": []
+    },
+    {
+      "label": "Terrasse panoramique",
+      "photos": []
+    },
+    {
+      "label": "Cour intérieure",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Le_chateau_de_Bannes%2C_vue_d%E2%80%99ensemble_N.O._au_soleil_couchant%2C_commune_de_Beaumontois_en_Perigord%2C_Dordogne%2C_France.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20chateau%20de%20Bannes%2C%20vue%20d%E2%80%99ensemble%20N.O.%20au%20soleil%20couchant%2C%20commune%20de%20Beaumontois%20en%20Perigord%2C%20Dordogne%2C%20France.jpg",
+          "title": "Le chateau de Bannes, vue d’ensemble N.O. au soleil couchant, commune de Beaumontois en Perigord, Dordogne, France.jpg",
+          "width": 1890,
+          "height": 1263,
+          "size": 651666,
+          "timestamp": "2018-09-27T14:04:10Z",
+          "author": "Dominique Robert Repérant",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Le_chateau_de_Biron%2C_la_grande_cuisine_du_logis_neuf%2C_commune_de_Biron%2C_Dordogne%2C_France.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20chateau%20de%20Biron%2C%20la%20grande%20cuisine%20du%20logis%20neuf%2C%20commune%20de%20Biron%2C%20Dordogne%2C%20France.jpg",
+          "title": "Le chateau de Biron, la grande cuisine du logis neuf, commune de Biron, Dordogne, France.jpg",
+          "width": 1890,
+          "height": 1264,
+          "size": 632927,
+          "timestamp": "2018-09-28T14:03:09Z",
+          "author": "Dominique Robert Repérant",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Le_chateau_de_Biron%2C_la_grande_cuisine_du_logis_neuf_illuminee_de_nuit%2C_commune_de_Biron%2C_Dordogne%2C_France.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20chateau%20de%20Biron%2C%20la%20grande%20cuisine%20du%20logis%20neuf%20illuminee%20de%20nuit%2C%20commune%20de%20Biron%2C%20Dordogne%2C%20France.jpg",
+          "title": "Le chateau de Biron, la grande cuisine du logis neuf illuminee de nuit, commune de Biron, Dordogne, France.jpg",
+          "width": 1890,
+          "height": 1264,
+          "size": 708880,
+          "timestamp": "2018-09-28T14:03:09Z",
+          "author": "Dominique Robert Repérant",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
+    }
+  ]
+}

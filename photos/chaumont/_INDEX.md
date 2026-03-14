@@ -14,11 +14,7 @@
 - `parc-du-cavalier/` — Parc du Cavalier
 
 ## Restaurants (dossier `restos/`)
-- `l-affiche/` — L'Affiche
-- `le-grain-de-sel/` — Le Grain de Sel
 - `au-rendez-vous-des-amis/` — Au Rendez-vous des Amis
 - `l-affiche/` — L’Affiche
-- `le-commerce/` — Le Commerce
-- `le-saint-hubert/` — Le Saint-Hubert
 - `le-comptoir/` — Le Comptoir
 - `la-taverne/` — La Taverne

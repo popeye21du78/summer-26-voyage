@@ -18,7 +18,5 @@
 - `le-petit-patrimoine/` — Le Petit Patrimoine
 - `l-accalmie/` — L’Accalmie
 - `l-embellie/` — L’Embellie
-- `la-maison-des-halles/` — La Maison des Halles
-- `le-dagobert/` — Le Dagobert
 - `le-turon/` — Le Turon
 - `l-escapade/` — L’Escapade

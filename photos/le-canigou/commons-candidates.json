@@ -1,0 +1,74 @@
+{
+  "slug": "le-canigou",
+  "nom": "Le Canigou",
+  "fetchedAt": "2026-03-13T15:27:13.438Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Vernet-les-Bains_Canigou_Quazemi.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVernet-les-Bains%20Canigou%20Quazemi.jpg",
+      "title": "Vernet-les-Bains Canigou Quazemi.jpg",
+      "width": 4608,
+      "height": 3456,
+      "size": 7097184,
+      "timestamp": "2022-02-22T13:50:30Z",
+      "author": "Alan Mattingly",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Kipling_Bridge_Vernet-les-Bains_France.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKipling%20Bridge%20Vernet-les-Bains%20France.jpg",
+      "title": "Kipling Bridge Vernet-les-Bains France.jpg",
+      "width": 4509,
+      "height": 3113,
+      "size": 2617725,
+      "timestamp": "2021-04-02T17:23:43Z",
+      "author": "Alan Mattingly",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Vernet-les-Bains_St_George%27s_church.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVernet-les-Bains%20St%20George's%20church.jpg",
+      "title": "Vernet-les-Bains St George's church.jpg",
+      "width": 3264,
+      "height": 2448,
+      "size": 2665054,
+      "timestamp": "2021-06-01T16:29:30Z",
+      "author": "Alan Mattingly",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Croix sommitale du Canigou",
+      "photos": []
+    },
+    {
+      "label": "Cheminée du Canigou",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Vista_de_les_Xemeneies_del_Canig%C3%B3.jpeg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVista%20de%20les%20Xemeneies%20del%20Canig%C3%B3.jpeg",
+          "title": "Vista de les Xemeneies del Canigó.jpeg",
+          "width": 1024,
+          "height": 509,
+          "size": 88060,
+          "timestamp": "2019-03-04T14:37:31Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q61896461\" class=\"extiw\" title=\"d:Q61896461\"><span title=\"Spanish photographer\">Frederic Bordas Altarriba</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "label": "Crête du Barbet",
+      "photos": []
+    }
+  ]
+}

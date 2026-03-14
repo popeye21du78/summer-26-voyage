@@ -20,5 +20,3 @@
 - `l-empreinte/` — L’Empreinte
 - `brasserie-du-marche/` — Brasserie du Marché
 - `le-bistroquet/` — Le Bistroquet
-- `la-taverne-du-boulevard/` — La Taverne du Boulevard
-- `la-dolce-vita/` — La Dolce Vita

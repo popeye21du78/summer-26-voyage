@@ -5,6 +5,7 @@ import OpenAI from "openai";
 
 const BATCH_DIR = join(process.cwd(), "data", "batch-desc");
 const OUTPUT_DIR = join(process.cwd(), "data", "descriptions");
+const PHOTOS_DIR = join(process.cwd(), "photos");
 const PROGRESS_PATH = join(BATCH_DIR, ".process-desc-progress.json");
 
 export const dynamic = "force-dynamic";
@@ -49,6 +50,16 @@ function getDescriptionStats(): { total: number; raw: number; fixed: number } {
   return { total: raw, raw: raw - fixed, fixed };
 }
 
+function getPhotosFolderCount(): number {
+  if (!existsSync(PHOTOS_DIR)) return 0;
+  try {
+    const entries = readdirSync(PHOTOS_DIR, { withFileTypes: true });
+    return entries.filter((e) => e.isDirectory()).length;
+  } catch {
+    return 0;
+  }
+}
+
 export async function GET(request: Request) {
   try {
     const { searchParams } = new URL(request.url);
@@ -59,8 +70,9 @@ export async function GET(request: Request) {
       return NextResponse.json({
         prepared: false,
         lots: [],
-        descriptions: { total: 0, raw: 0, fixed: 0 },
-        processing: null,
+        descriptions: getDescriptionStats(),
+        processing: getProcessProgress(),
+        photosFolders: getPhotosFolderCount(),
       });
     }
 
@@ -185,6 +197,7 @@ export async function GET(request: Request) {
       },
       descriptions: getDescriptionStats(),
       processing: getProcessProgress(),
+      photosFolders: getPhotosFolderCount(),
     });
   } catch (err) {
     return NextResponse.json(

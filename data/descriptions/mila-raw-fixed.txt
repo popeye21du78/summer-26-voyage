@@ -1,9 +1,5 @@
 ---PRESENTATION---
-[PRENOM], bienvenue à Milan : 1,4 million d’habitants, installés sur la vaste plaine lombarde, là où la ville s’est épanouie bien avant que la mode ne décide d’en faire son laboratoire favori. Entre les reflets du Duomo en marbre de Candoglia et l’allure sévère du Castello Sforzesco, Milan affiche une certaine retenue, toute italienne : élégance sans ostentation, lignes tendues, minéral omniprésent.
-
-Les tramways couleur moutarde glissent le long des Navigli, tandis que les vitrines de la Galleria Vittorio Emanuele II déclinent le cuir et la lumière dorée des vitraux. Les bancs de la piazza Mercanti vibrent d’un passé marchand qui affleure encore sous les conversations. On {trouve,trouvez} ici plus de sobriété que d’exubérance, mais la ville sait surprendre, du Parco Sempione à la cour discrète de Santa Maria delle Grazie.
-
-Une Milanese sur son vélo, un espresso avalé debout à un zinc, une loggia Renaissance cachée derrière une rue affairée : {laisses-toi,laissez-vous} happer par ces transitions, jamais tout à fait attendues, qui font le charme réel de Milan.
+Erreurs : - [PRENOM] apparaît 0× (attendu : exactement 1).
 
 ---HISTOIRE_BASES---
 Première étape : oublier la légende d’une Milan éternelle, figée dans le marbre. La ville, fondée à l’époque romaine sous le nom de Mediolanum, fut un carrefour stratégique de la péninsule italienne. Si elle brille aujourd’hui par son dynamisme économique et culturel, son histoire a souvent été marquée par sa capacité d’adaptation.
@@ -27,11 +23,7 @@ Le Duomo s’impose par sa blancheur et sa forêt de flèches : {prends,prenez
 En soirée, {file,filez} vers les Navigli : les canaux s’animent, les terrasses tendent leurs chaises sur les pavés irréguliers, et l’heure de l’aperitivo transforme le quartier en un théâtre vivant, où le spritz rivalise avec les éclats de conversation.
 
 ---QUE_FAIRE_INCONNU---
-{Éloigne-toi,Éloignez-vous} du centre pour explorer le quartier de Brera, là où les galeries d’art côtoient les librairies confidentielles et les trattorias discrètes. {Pousse,Poussez} jusqu’à la Fondazione Prada, fabrique d’architecture contemporaine installée dans une ancienne distillerie : le contraste entre béton, dorures et installations artistiques y est saisissant.
-
-{Attrape,Attrapez} un tramway vers le quartier Isola, territoire des graffeurs et des cafés alternatifs, où la verticalité des tours se confronte aux maisons basses. {Cherche,Cherchez} Porta Romana, moins fréquentée, où les cours intérieures cachent parfois des ateliers de designers ou de tailleurs.
-
-Enfin, {tente,essayez} le cimetière Monumentale, étrange jardin de sculptures funéraires, à la fois musée à ciel ouvert et mémoire de la bourgeoisie milanaise.
+Erreurs : - Forme « tu » terminant en -ez (forme « vous ») : {tentez,essayez}. Corriger avec la vraie forme « tu ».
 
 ---MANGER_INTIME_SERRE---
 Même dans la ville du style, {tu peux,vous pouvez} trouver des tables sans manières, où l’accent milanais s’entend mieux que la playlist.
@@ -51,61 +43,19 @@ Prix : €€
 Note TA : —
 
 ---MANGER_INTIME_LARGE---
-{Si tu veux tester la Milan plus contemporaine,Réserve une table où la créativité s’invite dans l’assiette.}{Si vous voulez tester la Milan plus contemporaine,Réservez une table où la créativité s’invite dans l’assiette.}
-
-• Nom : Ratanà
-Adresse : Via Gaetano de Castillia 28, 20124 Milano
-Cuisine : lombarde revisitée
-Ambiance : volumes vastes, jardin urbain, design raffiné.
-Prix : €€
-Note TA : —
-
-• Nom : Al Garghet
-Adresse : Via Selvanesco 36, 20142 Milano
-Cuisine : cuisine familiale italienne
-Ambiance : maison de campagne, poutres, vaisselle ancienne, hors du centre.
-Prix : €€€
-Note TA : —
+Erreurs : - Accolades imbriquées détectées : {Si {tu veux,vous voulez} tester la Milan plus contemporaine, {réserve,réservez}. Aplatir en une seule paire {forme_tu,forme_vous}.
 
 ---MANGER_ANIME_SERRE---
-{Pour partager une table animée,Cherche,cherchez les adresses où la volée de verres rythme la soirée.}
-
-• Nom : Casa Tua Osteria
-Adresse : Via Muratori 10, 20135 Milano
-Cuisine : italienne décontractée
-Ambiance : tables serrées, rires, joyeux désordre.
-Prix : €
-Note TA : —
-
-• Nom : Osteria del Binari
-Adresse : Via Tortona 1, 20144 Milano
-Cuisine : spécialités milanaises
-Ambiance : véranda lumineuse, va-et-vient des serveurs, terrasse l’été.
-Prix : €€
-Note TA : —
+Erreurs : - Accolades imbriquées détectées : {Pour partager une table animée, {cherche,cherchez} les adresses où la volée de verres rythme la soirée.}. Aplatir en une seule paire {forme_tu,forme_vous}.
 
 ---MANGER_ANIME_LARGE---
-{Envie de voir Milan se réchauffer autour d’une cuisine généreuse ? Opte pour une adresse où voisins et touristes s’attablent sans gêne.}
-
-• Nom : Trattoria La Madonnina
-Adresse : Via Gentilino 6, 20136 Milano
-Cuisine : milanaise et italienne
-Ambiance : guirlandes de lumières, terrasse sous les glycines, vaisselle dépareillée.
-Prix : €€
-Note TA : —
-
-• Nom : Al Matarel
-Adresse : Via Laura Solera Mantegazza 2, 20121 Milano
-Cuisine : lombarde, risotti, ossobuco
-Ambiance : salle vivante, nappes blanches, portraits en noir et blanc.
-Prix : €€€
-Note TA : —
+Erreurs : - Accolades imbriquées détectées : {Envie de voir Milan se réchauffer autour d’une cuisine généreuse ? {Opte,Optez} pour une adresse où voisins et touristes s’attablent sans gêne.}. Aplatir en une seule paire {forme_tu,forme_vous}.
 
 ---BONUS_COUPLE---
 [Prenom], [PARTENAIRE], laissez-vous surprendre par l’atmosphère feutrée du cloître de San Maurizio al Monastero Maggiore : à la tombée du jour, les fresques prennent des reflets inattendus et vous vous sentirez vraiment [privilégiés,privilégiées] dans ce cocon hors du temps.
 
 ---BONUS_SEUL---
-Mila, profite d’un matin paisible pour parcourir la Pinacothèque de Brera : à cette heure, tu croiseras surtout des étudiants en dessin et l’impression d’avoir le musée rien que pour toi, ce qui n’est pas si courant à Milan pour un[e] [ravi,ravie] de solitude.
+Erreurs : - Accolades trouvées dans un BONUS (interdit) : {profite}. BONUS_SEUL = tout en « tu », BONUS_COUPLE/FAMILLE/AMIS = tout en « vous », sans accolades.
 
 ---BONUS_FAMILLE---
 [Prenom], [PARTENAIRE], [ENFANTS_SUJET], partez explorer le Museo Nazionale della Scienza e della Tecnologia Leonardo da Vinci : entre sous-marins et inventions, la curiosité de vos enfants sera sans doute éveillée par la diversité des expériences à manipuler.

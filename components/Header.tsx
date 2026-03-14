@@ -9,6 +9,7 @@ const NAV_LINKS = [
   { href: "/accueil", label: "Accueil" },
   { href: "/maintenance", label: "Maintenance" },
   { href: "/batch-status", label: "Batch" },
+  { href: "/selection-photos", label: "Sélection photos" },
   { href: "/planning", label: "Planning" },
   { href: "/book", label: "Book" },
   { href: "/data", label: "Data" },

@@ -1,10 +1,10 @@
 /**
  * GET /api/commons-photos?slug=domme
  * Récupère les 3 meilleures photos Commons pour le header et chaque lieu (---PHOTOS---).
- * Requêtes header adaptées au type de lieu + cascade fallback.
+ * Utilise commons-candidates.json si présent (batch), sinon appelle l'API Commons.
  */
 import { NextResponse } from "next/server";
-import { existsSync } from "fs";
+import { existsSync, readFileSync } from "fs";
 import { join } from "path";
 import { getDescriptionForSlug, getPhotoSlotsFromDescription } from "../../../lib/description-lieu";
 import { getLieuBySlug } from "../../../lib/lieux-central";
@@ -53,6 +53,23 @@ export async function GET(request: Request) {
       { error: "Dossier photos inexistant pour ce lieu" },
       { status: 404 }
     );
+  }
+
+  const candidatesPath = join(photosDir, "commons-candidates.json");
+  if (existsSync(candidatesPath)) {
+    try {
+      const raw = readFileSync(candidatesPath, "utf-8");
+      if (!raw?.trim()) throw new Error("Fichier vide");
+      const cached = JSON.parse(raw) as { header?: CommonsPhoto[]; lieux?: { label: string; photos: CommonsPhoto[] }[] };
+      return NextResponse.json({
+        slug,
+        nom: cached.nom ?? slug.replace(/-/g, " "),
+        header: cached.header ?? [],
+        lieux: cached.lieux ?? [],
+      });
+    } catch {
+      // fallback to API
+    }
   }
 
   const description = getDescriptionForSlug(slug);

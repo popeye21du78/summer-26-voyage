@@ -9,7 +9,3 @@
 - `chateau-de-bormes-les-mimosas/` — Château de Bormes-les-Mimosas
 - `parc-gonzalez/` — Parc Gonzalez
 - `rue-carnot/` — Rue Carnot
-
-## Restaurants (dossier `restos/`)
-- `lou-portaou/` — Lou Portaou
-- `la-rastegue/` — La Rastegue

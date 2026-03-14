@@ -20,5 +20,3 @@
 - `les-enfants-sages/` — Les Enfants Sages
 - `le-grignot/` — Le Grignot
 - `bistro-quai/` — Bistro Quai
-- `la-taverne-paillette/` — La Taverne Paillette
-- `le-bouchon-normand/` — Le Bouchon Normand

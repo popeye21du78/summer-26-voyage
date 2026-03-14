@@ -14,8 +14,6 @@
 - `marche-central/` — Marché central
 
 ## Restaurants (dossier `restos/`)
-- `bistrot-des-bonnes-femmes/` — Bistrot des Bonnes Femmes
-- `l-atelier-des-cousins/` — L’Atelier des Cousins
 - `la-yole-de-chris/` — La Yole de Chris
 - `le-comptoir-saoufe/` — Le Comptoir Saoufé
 - `l-astrolabe/` — L’Astrolabe

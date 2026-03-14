@@ -10,7 +10,3 @@
 - `phare-de-capbreton/` — Phare de Capbreton
 - `marche-aux-poissons/` — Marché aux poissons
 - `plage-du-santocha/` — Plage du Santocha
-
-## Restaurants (dossier `restos/`)
-- `le-bellevue/` — Le Bellevue
-- `le-regalty/` — Le Régalty

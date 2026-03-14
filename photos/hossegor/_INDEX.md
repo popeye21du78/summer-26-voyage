@@ -20,5 +20,3 @@
 - `jean-des-sables/` — Jean des Sables
 - `louvine/` — Louvine
 - `green-cantine/` — Green Cantine
-- `la-paillote-du-lac/` — La Paillote du Lac
-- `rock-food/` — Rock Food

@@ -19,5 +19,3 @@
 - `la-table-de-jumieges/` — La Table de Jumièges
 - `le-cafe-du-bac/` — Le Café du Bac
 - `bar-des-sports/` — Bar des Sports
-- `la-bouille-sur-seine/` — La Bouille sur Seine
-- `auberge-du-bac/` — Auberge du Bac

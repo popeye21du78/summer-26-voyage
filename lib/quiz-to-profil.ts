@@ -89,6 +89,9 @@ export interface ProfilRecherche {
   randoNiveauSouhaite?: "facile" | "modere" | "difficile" | "peu_importe";
   randoDuree?: "courte" | "moyenne" | "longue" | "peu_importe";
   randoDenivele?: "faible" | "moyen" | "fort" | "peu_importe";
+
+  /** Nombre max de nuits en Airbnb toléré (0 = tout en van, undefined = pas de limite) */
+  maxAirbnbNights?: number;
 }
 
 const MIXEUR_TYPES = ["plages", "randos", "chateaux", "villages", "villes", "musees"] as const;
@@ -296,6 +299,8 @@ export function quizToProfilRecherche(
     randoNiveauSouhaite: prevoyage.randoNiveauSouhaite,
     randoDuree: prevoyage.randoDuree,
     randoDenivele: prevoyage.randoDenivele,
+
+    maxAirbnbNights: prevoyage.maxAirbnbNights ?? prevoyage.hebergement?.airbnb,
   };
 }
 

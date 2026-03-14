@@ -18,12 +18,8 @@ La forêt, quant à elle, conserve une aura particulière. L’ancienne « terra
 ---QUE_FAIRE_CONNU---
 {Parcours,Parcourez} la place du Château, centre névralgique où s’alignent cafés et librairies sous l’œil du monumental édifice Renaissance. {Entre,Entrez} dans la cour intérieure du château pour {sentir,ressentir} le poids de l’histoire, puis {monte,montez} jusqu’à la terrasse dessinée par Le Nôtre : la vue sur Paris, au loin, laisse rarement indifférent.
 
-{Suis,Suivez} les allées du parc jusqu’à la forêt domaniale, dont les sentiers invitent à des balades à l’ombre des chênes centenaires. Le centre piéton offre une succession de ruelles pavées, de boutiques indépendantes et de pâtisseries où les spécialités locales (comme la Duchesse de Saint-Germain) {peuvent,pouvez} {te,vous} tenter sans difficulté particulière. Le marché couvert, animé le mercredi et le samedi, donne un aperçu du goût local pour les produits choisis.
-
 ---QUE_FAIRE_INCONNU---
 {Bifurque,Bifurquez} vers le quartier du Bel-Air, moins touristique, où les villas 1900 font oublier la proximité de Paris. {Repère,Repérez} l’église Saint-Léger, discrète mais étonnamment lumineuse, et {cherche,cherchez} le musée Claude-Debussy, installé dans la maison natale du compositeur : un espace intime, loin du circuit classique.
-
-{Prends,Prenez} le temps de {t’aventurer,vous aventurer} sur la petite promenade des Loges, à l’orée de la forêt : les bancs y sont souvent libres, et le panorama sur la vallée de la Seine change selon la saison et l’heure. En soirée, certains bars à vins du centre {propose,proposent} des concerts improvisés, atmosphère confidentielle et clientèle d’habitués qui {parle,parlent} aussi bien d’opéra que de rugby.
 
 ---MANGER_INTIME_SERRE---
 {Trouve,Trouvez} refuge dans une salle feutrée où le bois ciré dialogue avec les nappes blanches.
@@ -77,27 +73,13 @@ Prix : €€
 Note TA : —
 
 ---MANGER_ANIME_LARGE---
-{Prépare-toi,Préparez-vous} à partager un repas où l’espace et l’agitation {créent,créez} une scène à part entière.
-
-• Nom : L’Escargot
-Adresse : 10, rue Saint-Pierre, 78100 Saint-Germain-en-Laye
-Cuisine : Française traditionnelle
-Ambiance : Grandes tablées, vaisselle à l’ancienne, rires et enfance retrouvée sur les plats signatures.
-Prix : €€
-Note TA : —
-
-• Nom : El Sol
-Adresse : 17, rue de Poissy, 78100 Saint-Germain-en-Laye
-Cuisine : Espagnole, tapas
-Ambiance : Couleurs vives, portions à partager, discussions qui débordent jusqu’au trottoir.
-Prix : €€€
-Note TA : —
+{Prépare-toi,Préparez-vous} à partager un repas où l’espace et l’agitation {créent,crée} une scène à part entière.
 
 ---BONUS_COUPLE---
 [PRENOM], [PARTENAIRE], offrez-vous une fin d’après-midi sur la Terrasse de Le Nôtre, quand la lumière décline sur Paris et que la ville laisse place à une promenade à deux, main sur la rambarde, pour discuter de tout sauf du temps qui passe. C’est une façon singulière d’être [unis,unies] sans effort, le regard suspendu là où la ville touche l’horizon.
 
 ---BONUS_SEUL---
-[PRENOM], prends un carnet et file t’installer dans le jardin du musée Claude-Debussy. Entouré de rosiers et d’ombre discrète, tu peux griffonner ou simplement écouter les bruits de la ville, en te sentant [privilégié,privilégiée] d’être seul à savourer ce recoin oublié.
+[PRENOM], prends un carnet et file t’installer dans le jardin du musée Claude-Debussy. Entouré de rosiers et d’ombre discrète, tu pourras griffonner ou simplement écouter les bruits de la ville, en te sentant [privilégié,privilégiée] d’être seul à savourer ce recoin oublié.
 
 ---BONUS_FAMILLE---
 [PRENOM], [PARTENAIRE], [ENFANTS_SUJET], partez explorer le Pavillon Henri IV et ses abords, où les jardins en terrasses accueillent vos courses et vos pauses. La perspective sur la Seine amuse petits et grands, et les allées offrent l’occasion d’être [curieux,curieuses] sans contrainte, à la recherche d’un écureuil ou d’une anecdote historique à raconter sur le chemin du retour.

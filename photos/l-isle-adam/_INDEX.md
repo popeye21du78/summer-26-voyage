@@ -18,7 +18,3 @@
 - `chez-nous/` — Chez Nous
 - `l-auberge-de-la-plage/` — L’Auberge de la Plage
 - `la-table-du-parc/` — La Table du Parc
-- `le-saint-pierre/` — Le Saint Pierre
-- `le-7eme-art/` — Le 7ème Art
-- `la-guinguette-de-l-oise/` — La Guinguette de l’Oise
-- `le-pavillon-bleu/` — Le Pavillon Bleu

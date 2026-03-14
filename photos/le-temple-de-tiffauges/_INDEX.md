@@ -15,9 +15,5 @@
 ## Restaurants (dossier `restos/`)
 - `auberge-du-donjon/` — Auberge du Donjon
 - `la-petite-table/` — La Petite Table
-- `la-table-de-melusine/` — La Table de Mélusine
-- `le-relais-du-chateau/` — Le Relais du Château
 - `creperie-la-sarrasine/` — Crêperie La Sarrasine
 - `le-bistrot-du-pont/` — Le Bistrot du Pont
-- `la-table-d-augustine/` — La Table d’Augustine
-- `l-ecu-de-france/` — L’Écu de France

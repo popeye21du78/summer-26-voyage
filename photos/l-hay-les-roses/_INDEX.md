@@ -19,5 +19,3 @@
 - `l-auberge-des-saveurs/` — L'Auberge des Saveurs
 - `la-table-d-elisa/` — La Table d'Elisa
 - `le-saint-leonard/` — Le Saint-Léonard
-- `le-jardin-de-l-hay/` — Le Jardin de L'Haÿ
-- `casa-bella/` — Casa Bella

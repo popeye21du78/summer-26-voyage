@@ -1,0 +1,100 @@
+{
+  "slug": "lods",
+  "nom": "Lods",
+  "fetchedAt": "2026-03-13T15:56:03.766Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Lods%2C_la_fontaine_du_bas.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALods%2C%20la%20fontaine%20du%20bas.jpg",
+      "title": "Lods, la fontaine du bas.jpg",
+      "width": 3445,
+      "height": 2584,
+      "size": 2812283,
+      "timestamp": "2022-04-30T14:10:59Z",
+      "author": "JGS25",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Lods%2C_le_lavoir.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALods%2C%20le%20lavoir.jpg",
+      "title": "Lods, le lavoir.jpg",
+      "width": 3394,
+      "height": 2546,
+      "size": 6266527,
+      "timestamp": "2024-12-03T11:12:28Z",
+      "author": "JGS25",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Lods%2C_les_anciennes_forges_sur_la_Loue.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALods%2C%20les%20anciennes%20forges%20sur%20la%20Loue.jpg",
+      "title": "Lods, les anciennes forges sur la Loue.jpg",
+      "width": 6153,
+      "height": 3461,
+      "size": 19602909,
+      "timestamp": "2025-09-16T09:20:56Z",
+      "author": "JGS25",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Musée de la Vigne et du Vin",
+      "photos": []
+    },
+    {
+      "label": "Église Saint-Théodule",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Lods_-_Eglise_22.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALods%20-%20Eglise%2022.jpg",
+          "title": "Lods - Eglise 22.jpg",
+          "width": 4866,
+          "height": 3186,
+          "size": 7623390,
+          "timestamp": "2024-04-28T09:06:13Z",
+          "author": "Renhour48",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Lods%2C_%C3%89glise_Saint_Theodule.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALods%2C%20%C3%89glise%20Saint%20Theodule.jpg",
+          "title": "Lods, Église Saint Theodule.jpg",
+          "width": 3810,
+          "height": 2900,
+          "size": 5631814,
+          "timestamp": "2024-07-13T10:22:37Z",
+          "author": "Arie m den toom",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/%C3%89glise_Saint_Theodule%2C_Lods.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint%20Theodule%2C%20Lods.jpg",
+          "title": "Église Saint Theodule, Lods.jpg",
+          "width": 4200,
+          "height": 2107,
+          "size": 2722402,
+          "timestamp": "2024-07-19T14:43:46Z",
+          "author": "Arie m den toom",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
+    },
+    {
+      "label": "Rocher du Moine",
+      "photos": []
+    }
+  ]
+}

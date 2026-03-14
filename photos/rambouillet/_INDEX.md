@@ -20,5 +20,3 @@
 - `le-cheval-blanc/` — Le Cheval Blanc
 - `le-palais-du-bonheur/` — Le Palais du Bonheur
 - `l-usine-a-pates/` — L’Usine à Pâtes
-- `le-santa-monica/` — Le Santa Monica
-- `le-kiosque-a-pizzas/` — Le Kiosque à Pizzas

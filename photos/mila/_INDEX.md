@@ -16,9 +16,3 @@
 ## Restaurants (dossier `restos/`)
 - `trattoria-sabbioneda/` — Trattoria Sabbioneda
 - `osteria-dell-acquabella/` — Osteria dell’Acquabella
-- `ratana/` — Ratanà
-- `al-garghet/` — Al Garghet
-- `casa-tua-osteria/` — Casa Tua Osteria
-- `osteria-del-binari/` — Osteria del Binari
-- `trattoria-la-madonnina/` — Trattoria La Madonnina
-- `al-matarel/` — Al Matarel

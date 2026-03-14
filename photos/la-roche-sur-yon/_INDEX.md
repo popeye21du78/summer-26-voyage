@@ -19,5 +19,3 @@
 - `l-aparte/` — L’Aparté
 - `l-atelier-gourmand/` — L’Atelier Gourmand
 - `chez-pepe/` — Chez Pépé
-- `la-table-du-vendeen/` — La Table du Vendéen
-- `le-vestiaire/` — Le Vestiaire

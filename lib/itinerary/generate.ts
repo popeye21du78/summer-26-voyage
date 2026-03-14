@@ -35,6 +35,8 @@ export interface ItineraryConfig {
   rythme: "cool" | "normal" | "intense";
   clusterRadius?: number;
   corridorWidth?: number;
+  /** Nombre max de nuits en Airbnb (0 = tout van, undefined = pas de limite) */
+  maxAirbnbNights?: number;
 }
 
 export interface Itinerary {
@@ -153,7 +155,9 @@ export function generateItinerary(
   }
 
   // 4. Placement des nuits
-  const days = assignNights(orderedPoints, config.totalNights, config.rythme);
+  const days = assignNights(orderedPoints, config.totalNights, config.rythme, {
+    maxAirbnbNights: config.maxAirbnbNights,
+  });
 
   // 5. Distance totale
   const routeGeo: GeoPoint[] = [

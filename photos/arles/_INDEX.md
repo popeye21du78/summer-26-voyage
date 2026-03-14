@@ -16,9 +16,5 @@
 ## Restaurants (dossier `restos/`)
 - `la-chassagnette-bistro/` — La Chassagnette Bistro
 - `le-gibolin/` — Le Gibolin
-- `chardon/` — Chardon
-- `la-cuisine-de-comptoir/` — La Cuisine de Comptoir
 - `le-galoubet/` — Le Galoubet
 - `l-autruche/` — L’Autruche
-- `le-bistrot-arlesien/` — Le Bistrot Arlésien
-- `la-gueule-du-loup/` — La Gueule du Loup

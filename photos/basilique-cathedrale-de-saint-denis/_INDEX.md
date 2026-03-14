@@ -20,5 +20,3 @@
 - `les-mets-du-roy/` — Les Mets du Roy
 - `au-petit-landais/` — Au Petit Landais
 - `le-new-resto/` — Le New Resto
-- `la-3eme-mi-temps/` — La 3ème Mi-Temps
-- `la-table-ronde/` — La Table Ronde

@@ -1,0 +1,104 @@
+{
+  "slug": "chateau-de-bayers",
+  "nom": "Château de Bayers",
+  "fetchedAt": "2026-03-13T12:42:25.703Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Bayers_ch1.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABayers%20ch1.JPG",
+      "title": "Bayers ch1.JPG",
+      "width": 1600,
+      "height": 1200,
+      "size": 259250,
+      "timestamp": "2010-10-10T08:31:51Z",
+      "author": "Jack ma",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 5
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Lich%C3%A8res_-_Puychenin_-_bo%C3%AEte_%C3%A0_livres.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALich%C3%A8res%20-%20Puychenin%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
+      "title": "Lichères - Puychenin - boîte à livres.jpg",
+      "width": 2500,
+      "height": 1875,
+      "size": 800880,
+      "timestamp": "2024-09-22T11:19:42Z",
+      "author": "<span lang=\"en\">Anonymous</span><span style=\"display:none\">Unknown author</span>",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Moutonneau_-_mairie_-_bo%C3%AEte_%C3%A0_livres.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMoutonneau%20-%20mairie%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
+      "title": "Moutonneau - mairie - boîte à livres.jpg",
+      "width": 2500,
+      "height": 1875,
+      "size": 907496,
+      "timestamp": "2024-09-22T11:20:01Z",
+      "author": "<span lang=\"en\">Anonymous</span><span style=\"display:none\">Unknown author</span>",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Porte fortifiée",
+      "photos": []
+    },
+    {
+      "label": "Chemin de ronde",
+      "photos": []
+    },
+    {
+      "label": "Cour intérieure",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Beaupr%C3%A9au_%28Maine-et-Loire%29_%2821376310424%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeaupr%C3%A9au%20(Maine-et-Loire)%20(21376310424).jpg",
+          "title": "Beaupréau (Maine-et-Loire) (21376310424).jpg",
+          "width": 4928,
+          "height": 3264,
+          "size": 6482739,
+          "timestamp": "2017-11-16T15:06:45Z",
+          "author": "Daniel Jolivet",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Beaupr%C3%A9au_%28Maine-et-Loire%29_%2821811242638%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeaupr%C3%A9au%20(Maine-et-Loire)%20(21811242638).jpg",
+          "title": "Beaupréau (Maine-et-Loire) (21811242638).jpg",
+          "width": 4928,
+          "height": 3264,
+          "size": 7220912,
+          "timestamp": "2017-11-16T15:06:45Z",
+          "author": "Daniel Jolivet",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Beaupr%C3%A9au_%28Maine-et-Loire%29_%2821986697042%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeaupr%C3%A9au%20(Maine-et-Loire)%20(21986697042).jpg",
+          "title": "Beaupréau (Maine-et-Loire) (21986697042).jpg",
+          "width": 4928,
+          "height": 3264,
+          "size": 10538200,
+          "timestamp": "2017-11-16T15:06:57Z",
+          "author": "Daniel Jolivet",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "label": "Terrasse panoramique",
+      "photos": []
+    }
+  ]
+}

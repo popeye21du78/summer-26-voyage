@@ -20,5 +20,3 @@
 - `les-temps-changent/` — Les Temps Changent
 - `l-atelier/` — L’Atelier
 - `la-comete/` — La Comète
-- `le-carillon-gourmand/` — Le Carillon Gourmand
-- `la-maison-de-marie-caroline/` — La Maison de Marie Caroline

@@ -20,5 +20,3 @@
 - `le-quai-17/` — Le Quai 17
 - `brasserie-la-cigogne/` — Brasserie La Cigogne
 - `le-bistrot-a-biere/` — Le Bistrot à Bière
-- `le-2moiselles/` — Le 2Moiselles
-- `brasserie-le-fox/` — Brasserie Le Fox

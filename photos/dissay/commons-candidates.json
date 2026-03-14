@@ -1,0 +1,91 @@
+{
+  "slug": "dissay",
+  "nom": "Dissay",
+  "fetchedAt": "2026-03-13T14:04:56.841Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Dissay_-_camping_-_bo%C3%AEte_%C3%A0_livres.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADissay%20-%20camping%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
+      "title": "Dissay - camping - boîte à livres.jpg",
+      "width": 2500,
+      "height": 1875,
+      "size": 848099,
+      "timestamp": "2024-08-01T06:53:35Z",
+      "author": "<span lang=\"en\">Anonymous</span><span style=\"display:none\">Unknown author</span>",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Dissay_-_plage_-_bo%C3%AEte_%C3%A0_livres.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADissay%20-%20plage%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
+      "title": "Dissay - plage - boîte à livres.jpg",
+      "width": 2500,
+      "height": 1875,
+      "size": 1097202,
+      "timestamp": "2024-08-01T06:54:11Z",
+      "author": "<span lang=\"en\">Anonymous</span><span style=\"display:none\">Unknown author</span>",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Dissay_-_Avenue_du_Clain_-_bo%C3%AEte_%C3%A0_livres.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADissay%20-%20Avenue%20du%20Clain%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
+      "title": "Dissay - Avenue du Clain - boîte à livres.jpg",
+      "width": 2500,
+      "height": 1875,
+      "size": 869249,
+      "timestamp": "2024-08-01T06:54:42Z",
+      "author": "<span lang=\"en\">Anonymous</span><span style=\"display:none\">Unknown author</span>",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Grande salle voûtée",
+      "photos": []
+    },
+    {
+      "label": "Pont dormant et douves",
+      "photos": []
+    },
+    {
+      "label": "Chapelle du château",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Pierre_tombale_de_Pierre_d%27Amboise_%28cropped%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APierre%20tombale%20de%20Pierre%20d'Amboise%20(cropped).jpg",
+          "title": "Pierre tombale de Pierre d'Amboise (cropped).jpg",
+          "width": 1733,
+          "height": 3210,
+          "size": 3040697,
+          "timestamp": "2016-02-01T11:39:03Z",
+          "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Pierre_tombale_de_Pierre_d%27Amboise_%28original%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APierre%20tombale%20de%20Pierre%20d'Amboise%20(original).jpg",
+          "title": "Pierre tombale de Pierre d'Amboise (original).jpg",
+          "width": 2984,
+          "height": 4552,
+          "size": 5248742,
+          "timestamp": "2016-02-01T11:39:04Z",
+          "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "label": "Cour intérieure",
+      "photos": []
+    }
+  ]
+}

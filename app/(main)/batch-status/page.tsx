@@ -16,6 +16,7 @@ import {
   AlertTriangle,
   ChevronDown,
   ChevronRight,
+  Camera,
 } from "lucide-react";
 
 /* ──────────── Types ──────────── */
@@ -94,14 +95,16 @@ export default function BatchStatusPage() {
   const [actionLoading, setActionLoading] = useState<string | null>(null);
   const [actionOutput, setActionOutput] = useState<string | null>(null);
   const [expandedOutput, setExpandedOutput] = useState(false);
+  const [photosBatchStatus, setPhotosBatchStatus] = useState<{ total: number; done: number; remaining: number } | null>(null);
 
   const fetchStatus = useCallback(async (light = false) => {
     setLoading(true);
     setError(null);
+    const timeoutMs = light ? 15_000 : 180_000;
     try {
       const url = light ? "/api/batch-desc-status?light=1" : "/api/batch-desc-status";
       const ctrl = new AbortController();
-      const timeout = setTimeout(() => ctrl.abort(), light ? 10_000 : 90_000);
+      const timeout = setTimeout(() => ctrl.abort(), timeoutMs);
       const res = await fetch(url, {
         cache: "no-store",
         signal: ctrl.signal,
@@ -123,7 +126,7 @@ export default function BatchStatusPage() {
       const msg =
         e instanceof Error
           ? e.name === "AbortError"
-            ? "Délai dépassé (90s). L'API est lente, réessaie."
+            ? `Délai dépassé (${timeoutMs / 1000}s). L'API est lente, réessaie. Les lots continuent sur OpenAI.`
             : e.message
           : String(e);
       setError(msg);
@@ -136,6 +139,41 @@ export default function BatchStatusPage() {
   useEffect(() => {
     fetchStatus(true);
   }, [fetchStatus]);
+
+  const fetchPhotosBatchStatus = useCallback(async () => {
+    try {
+      const res = await fetch("/api/photos-commons-batch");
+      if (res.ok) {
+        const text = await res.text();
+        const data = text?.trim() ? (JSON.parse(text) as { total?: number; done?: number; remaining?: number }) : {};
+        setPhotosBatchStatus({ total: data.total ?? 0, done: data.done ?? 0, remaining: data.remaining ?? 0 });
+      }
+    } catch {
+      setPhotosBatchStatus(null);
+    }
+  }, []);
+
+  useEffect(() => {
+    fetchPhotosBatchStatus();
+  }, [fetchPhotosBatchStatus, actionOutput]);
+
+  async function runPhotosBatch(count: number) {
+    setActionLoading(`photos-batch-${count}`);
+    setActionOutput(null);
+    setExpandedOutput(true);
+    try {
+      const res = await fetch(`/api/photos-commons-batch?count=${count}`, { method: "POST" });
+      const text = await res.text();
+      const data = text?.trim() ? (JSON.parse(text) as { error?: string; message?: string; processed?: number; remaining?: number }) : {};
+      if (!res.ok) throw new Error(data.error ?? "Erreur");
+      setActionOutput(data.message ?? `${data.processed} traités, ${data.remaining} restants`);
+      await fetchPhotosBatchStatus();
+    } catch (e) {
+      setActionOutput(e instanceof Error ? e.message : String(e));
+    } finally {
+      setActionLoading(null);
+    }
+  }
 
   // Rafraîchir (sans light) = appel OpenAI pour statut en temps réel. Uniquement au clic ou après soumission.
 
@@ -613,6 +651,58 @@ export default function BatchStatusPage() {
           </div>
         </section>
       )}
+
+      {/* ── Batch photos Wikimedia Commons ── */}
+      <section className="mb-8 rounded-lg border border-[#A55734]/20 bg-[#FFF2EB]/30 p-5">
+        <h2 className="mb-4 flex items-center gap-2 text-lg font-medium text-[#333]">
+          <Camera className="h-5 w-5 text-[#A55734]" />
+          Batch photos Wikimedia Commons
+        </h2>
+        <p className="mb-4 text-sm text-[#333]/70">
+          Remplit <code className="rounded bg-[#FFF2EB] px-1">photos/{`{slug}`}/commons-candidates.json</code> pour chaque lieu.
+          API Commons (gratuit), ~1,2 s entre requêtes.
+        </p>
+        {photosBatchStatus && photosBatchStatus.total > 0 && (
+          <p className="mb-4 text-sm font-medium text-[#333]">
+            {photosBatchStatus.done} / {photosBatchStatus.total} lieux traités
+            {photosBatchStatus.remaining > 0 && (
+              <span className="ml-2 text-amber-600">({photosBatchStatus.remaining} restants)</span>
+            )}
+          </p>
+        )}
+        <div className="flex flex-wrap gap-3">
+          <button
+            type="button"
+            onClick={() => runPhotosBatch(5)}
+            disabled={!!actionLoading || (photosBatchStatus?.remaining ?? 0) === 0}
+            className="flex items-center gap-2 rounded-lg border border-[#A55734] bg-white px-4 py-2 text-sm font-medium text-[#A55734] hover:bg-[#FFF2EB] disabled:opacity-50 disabled:cursor-not-allowed"
+          >
+            {actionLoading?.startsWith("photos-batch") ? (
+              <Loader2 className="h-4 w-4 animate-spin" />
+            ) : (
+              <Play className="h-4 w-4" />
+            )}
+            Lancer 5 lieux
+          </button>
+          <button
+            type="button"
+            onClick={() => runPhotosBatch(20)}
+            disabled={!!actionLoading || (photosBatchStatus?.remaining ?? 0) === 0}
+            className="flex items-center gap-2 rounded-lg border border-[#A55734] bg-white px-4 py-2 text-sm font-medium text-[#A55734] hover:bg-[#FFF2EB] disabled:opacity-50 disabled:cursor-not-allowed"
+          >
+            {actionLoading?.startsWith("photos-batch") ? (
+              <Loader2 className="h-4 w-4 animate-spin" />
+            ) : (
+              <Play className="h-4 w-4" />
+            )}
+            Lancer 20 lieux
+          </button>
+        </div>
+        <p className="mt-3 text-xs text-[#333]/60">
+          Pour tout traiter en arrière-plan :{" "}
+          <code className="rounded bg-white px-1.5 py-0.5">npx tsx scripts/fetch-commons-photos-batch.ts</code>
+        </p>
+      </section>
 
       {/* ── Processing indicator ── */}
       {data?.processing && (

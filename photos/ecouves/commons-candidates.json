@@ -1,0 +1,78 @@
+{
+  "slug": "ecouves",
+  "nom": "Écouves",
+  "fetchedAt": "2026-03-13T14:09:38.866Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/ISS053-E-77297_-_View_of_Earth.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS053-E-77297%20-%20View%20of%20Earth.jpg",
+      "title": "ISS053-E-77297 - View of Earth.jpg",
+      "width": 4928,
+      "height": 3280,
+      "size": 1527844,
+      "timestamp": "2021-04-01T20:01:55Z",
+      "author": "Earth Science and Remote Sensing Unit",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/ISS026-E-10935_-_View_of_France.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS026-E-10935%20-%20View%20of%20France.jpg",
+      "title": "ISS026-E-10935 - View of France.jpg",
+      "width": 4256,
+      "height": 2913,
+      "size": 1779389,
+      "timestamp": "2021-10-22T08:08:25Z",
+      "author": "Earth Science and Remote Sensing Unit",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/ISS006-E-5325_-_View_of_Europe.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS006-E-5325%20-%20View%20of%20Europe.jpg",
+      "title": "ISS006-E-5325 - View of Europe.jpg",
+      "width": 3032,
+      "height": 2064,
+      "size": 714901,
+      "timestamp": "2022-08-08T10:18:53Z",
+      "author": "Earth Science and Remote Sensing Unit",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Signal d’Écouves",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Signal_d_Ecouve.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASignal%20d%20Ecouve.jpg",
+          "title": "Signal d Ecouve.jpg",
+          "width": 1120,
+          "height": 744,
+          "size": 120548,
+          "timestamp": "2012-04-13T19:36:53Z",
+          "author": "Laurent Beaussart",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "label": "Croix de Médavy",
+      "photos": []
+    },
+    {
+      "label": "Roche d’Oëtre",
+      "photos": []
+    },
+    {
+      "label": "Fontaine de la Motte",
+      "photos": []
+    }
+  ]
+}

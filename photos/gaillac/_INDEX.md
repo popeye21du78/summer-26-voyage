@@ -14,11 +14,7 @@
 - `pigeonniers-du-vignoble/` — Pigeonniers du vignoble
 
 ## Restaurants (dossier `restos/`)
-- `au-fil-des-saisons/` — Au Fil des Saisons
-- `l-ispiens/` — L’Ispiens
 - `vigne-en-foule/` — Vigne en Foule
 - `la-table-du-sommelier/` — La Table du Sommelier
 - `le-panda-d-or/` — Le Panda d'Or
 - `le-saint-pierre/` — Le Saint Pierre
-- `l-occitan/` — L’Occitan
-- `le-florida/` — Le Florida

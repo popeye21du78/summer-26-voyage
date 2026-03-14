@@ -30,7 +30,7 @@ Note TA : —
 [PRENOM], installe-toi sur un banc du square du Champ de Foire, là où les conversations s’effilochent sous les platanes et où tu peux te sentir libre de regarder passer la Creuse sans autre ambition que celle de profiter du silence.
 
 ---BONUS_FAMILLE---
-[PRENOM], [PARTENAIRE], [ENFANTS_SUJET], faites halte au Musée d’Argentomagus pour explorer en famille les maquettes, mosaïques et secrets d’une ville gallo-romaine, [curieux,curieuses] de relier passé et présent le temps d’un après-midi.
+[PRENOM], [PARTENAIRE], [ENFANTS_SUJET], faites halte au Musée d’Argentomagus pour explorer en famille les maquettes, mosaïques et secrets d’une ville gallo-romaine, [curieuxses,curieuses] de relier passé et présent le temps d’un après-midi.
 
 ---BONUS_AMIS---
 [PRENOM], [LISTE_AMIS], rejoignez la guinguette de la plage d’Argenton-sur-Creuse : un endroit parfait pour trinquer en terrasse, [heureux,heureuses] de savourer le bruit doux de la rivière tout en refaisant le monde.
@@ -42,21 +42,7 @@ lieu: Musée de la Chemiserie
 lieu: Vestiges d’Argentomagus
 
 ---VAN---
-• Parking du Champ de Foire  
-Adresse : Place du Champ de Foire, 36200 Argenton-sur-Creuse  
-Places : ~40, gabarit OK  
-Tarif : gratuit  
-Services : eau (fontaine à proximité)  
-Accès centre : 5 min à pied
-
-• Aire de camping-cars d’Argentomagus  
-Adresse : Rue de la République, 36200 Saint-Marcel  
-Places : ~8, gabarit OK  
-Tarif : ~6 €/24h  
-Services : eau, vidange  
-Accès centre : 15 min à pied (par le pont)
-
-À savoir : Les rues du centre ancien sont étroites, mieux vaut stationner tôt en saison. Le marché hebdomadaire anime le Champ de Foire le samedi matin — {pense,pensez} à quitter l’aire la veille si {tu veux,vous voulez} éviter la foule. Aucun service sur les quais eux-mêmes.
+• Parking du Champ de Foire
 
 ---DUREE---
 recommandee: 1 journée  

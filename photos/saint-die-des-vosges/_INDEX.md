@@ -18,7 +18,5 @@
 - `le-p-tit-bouchon/` — Le P’tit Bouchon
 - `le-palais-gourmand/` — Le Palais Gourmand
 - `restaurant-le-15/` — Restaurant Le 15
-- `cafe-des-sports/` — Café des Sports
-- `la-table-des-halles/` — La Table des Halles
 - `le-chalet/` — Le Chalet
 - `le-29/` — Le 29

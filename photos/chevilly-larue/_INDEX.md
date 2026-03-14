@@ -19,5 +19,3 @@
 - `l-olivier/` — L’Olivier
 - `la-brasserie-du-marche/` — La Brasserie du Marché
 - `le-rendez-vous/` — Le Rendez-Vous
-- `les-saveurs-d-asie/` — Les Saveurs d’Asie
-- `da-vinci/` — Da Vinci

@@ -1,0 +1,104 @@
+{
+  "slug": "domfront",
+  "nom": "Domfront",
+  "fetchedAt": "2026-03-13T14:06:37.187Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Ch%C3%A2teau_de_Domfront_-_Vue_g%C3%A9n%C3%A9rale.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Domfront%20-%20Vue%20g%C3%A9n%C3%A9rale.jpg",
+      "title": "Château de Domfront - Vue générale.jpg",
+      "width": 3882,
+      "height": 2911,
+      "size": 6532806,
+      "timestamp": "2025-12-31T17:24:08Z",
+      "author": "JackyM59",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Chateau_de_Domfront_-_panoramio.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau%20de%20Domfront%20-%20panoramio.jpg",
+      "title": "Chateau de Domfront - panoramio.jpg",
+      "width": 3072,
+      "height": 2304,
+      "size": 3240110,
+      "timestamp": "2016-12-16T06:00:27Z",
+      "author": "Johnny CHAUVIN",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Chateau_de_Domfront_-_panoramio_%281%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau%20de%20Domfront%20-%20panoramio%20(1).jpg",
+      "title": "Chateau de Domfront - panoramio (1).jpg",
+      "width": 3072,
+      "height": 2304,
+      "size": 3199528,
+      "timestamp": "2016-12-16T06:00:46Z",
+      "author": "Johnny CHAUVIN",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Donjon de Domfront",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/FranceNormandieDomfrontDonjon.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFranceNormandieDomfrontDonjon.jpg",
+          "title": "FranceNormandieDomfrontDonjon.jpg",
+          "width": 3264,
+          "height": 2203,
+          "size": 4757021,
+          "timestamp": "2016-12-22T23:13:00Z",
+          "author": "Ikmo-ned",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Orne_Domfront_Chateau_Donjon_-_panoramio.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOrne%20Domfront%20Chateau%20Donjon%20-%20panoramio.jpg",
+          "title": "Orne Domfront Chateau Donjon - panoramio.jpg",
+          "width": 1600,
+          "height": 1200,
+          "size": 887386,
+          "timestamp": "2017-06-21T12:22:27Z",
+          "author": "rene boulay",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Orne_Domfront_Chateau_Donjon_-_panoramio_%281%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOrne%20Domfront%20Chateau%20Donjon%20-%20panoramio%20(1).jpg",
+          "title": "Orne Domfront Chateau Donjon - panoramio (1).jpg",
+          "width": 1600,
+          "height": 1200,
+          "size": 744928,
+          "timestamp": "2017-06-21T12:22:37Z",
+          "author": "rene boulay",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "label": "Porte Saint-Jean",
+      "photos": []
+    },
+    {
+      "label": "Chapelle romane",
+      "photos": []
+    },
+    {
+      "label": "Panorama sur la vallée de la Varenne",
+      "photos": []
+    }
+  ]
+}

@@ -19,5 +19,3 @@
 - `le-jardin-des-saveurs/` — Le Jardin des Saveurs
 - `la-brasserie-du-pont/` — La Brasserie du Pont
 - `la-cantina/` — La Cantina
-- `le-grand-cafe-du-centre/` — Le Grand Café du Centre
-- `bistrot-du-marche/` — Bistrot du Marché

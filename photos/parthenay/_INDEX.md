@@ -19,5 +19,3 @@
 - `le-patio/` — Le Patio
 - `le-cafe-du-boulevard/` — Le Café du Boulevard
 - `le-bistrot-saint-jacques/` — Le Bistrot Saint-Jacques
-- `le-moulin-des-saveurs/` — Le Moulin des Saveurs
-- `la-pizzeria-du-donjon/` — La Pizzeria du Donjon

@@ -9,6 +9,3 @@
 - `abbaye-notre-dame-de-l-oder/` — Abbaye Notre-Dame de l’Oder
 - `prieure-benedictin/` — Prieuré bénédictin
 - `pont-de-pierre-sur-le-tarn/` — Pont de pierre sur le Tarn
-
-## Restaurants (dossier `restos/`)
-- `le-vieux-porche/` — Le Vieux Porche

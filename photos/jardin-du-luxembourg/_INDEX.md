@@ -14,8 +14,6 @@
 - `roseraie/` — Roseraie
 
 ## Restaurants (dossier `restos/`)
-- `la-table-du-luxembourg/` — La Table du Luxembourg
-- `le-petit-medicis/` — Le Petit Médicis
 - `bread-roses/` — Bread & Roses
 - `le-bon-saint-pourcain/` — Le Bon Saint Pourçain
 - `le-rostand/` — Le Rostand

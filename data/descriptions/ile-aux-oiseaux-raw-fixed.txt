@@ -42,20 +42,6 @@ Note TA : —
 
 ---MANGER_INTIME_LARGE---
 {Offre-toi,Offrez-vous} un déjeuner à L’Hôtel de la Plage, où la carte oscille entre poisson du jour et desserts maison. {Choisis,Choisissez} la véranda pour profiter de la lumière douce.
-• Nom : Hôtel de la Plage
-Adresse : 2, avenue de l’Océan, 33970 Cap-Ferret
-Cuisine : Cuisine française, poissons, produits locaux
-Ambiance : Véranda lumineuse, nappes blanches, ambiance sereine
-Prix : €€
-Note TA : —
-
-{Pousse,Poussez} un peu plus loin pour découvrir Le Bouchon du Ferret, où tu peux savourer une table soignée, idéale pour partager un turbot rôti face à la dune du Pilat, loin du brouhaha des plages.
-• Nom : Le Bouchon du Ferret
-Adresse : 10, rue des Goélands, 33970 Cap-Ferret
-Cuisine : Poissons, spécialités du bassin
-Ambiance : Salle intime, vue maritime, service attentif
-Prix : €€€
-Note TA : —
 
 ---MANGER_ANIME_SERRE---
 {Retrouve,Retrouvez} l’animation du port à La Cabane 57, où {tu croiseras,vous croiserez} ostréiculteurs, cyclistes et vacanciers venus déguster un plateau d’huîtres sur des tables en bois.
@@ -101,7 +87,7 @@ Note TA : —
 [PRENOM], [PARTENAIRE], [ENFANTS_SUJET], enfilez vos bottes et partez à la pêche aux crabes dans les flaques laissées par la marée, là où l’aventure se cache toujours sous une algue. Les éclats de rire résonneront longtemps et vous rappelleront des vacances vraiment heureuses.
 
 ---BONUS_AMIS---
-[PRENOM], [LISTE_AMIS], grimpez sur un bateau à fond plat pour un pique-nique improvisé sur le sable blond, entre deux baignades et quelques histoires de marins. Vous repartirez aussi complices qu’au départ, mais un peu plus salés.
+[PRENOM], [LISTE_AMIS], montez sur un bateau à fond plat pour un pique-nique improvisé sur le sable blond, entre deux baignades et quelques histoires de marins. Vous repartirez aussi complices qu’au départ, mais un peu plus salés.
 
 ---PHOTOS---
 lieu: Cabanes tchanquées

@@ -1,0 +1,100 @@
+{
+  "slug": "la-vigne",
+  "nom": "La Vigne",
+  "fetchedAt": "2026-03-13T15:11:27.969Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Plaque-StMartin.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlaque-StMartin.jpg",
+      "title": "Plaque-StMartin.jpg",
+      "width": 2960,
+      "height": 2452,
+      "size": 1990136,
+      "timestamp": "2025-06-15T02:52:28Z",
+      "author": "Dave osm",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Histoire_cloche-StMartin.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHistoire%20cloche-StMartin.jpg",
+      "title": "Histoire cloche-StMartin.jpg",
+      "width": 4032,
+      "height": 3024,
+      "size": 3130843,
+      "timestamp": "2025-06-15T02:54:20Z",
+      "author": "Dave osm",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/ColSaintMartin-Calvados.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AColSaintMartin-Calvados.jpg",
+      "title": "ColSaintMartin-Calvados.jpg",
+      "width": 3600,
+      "height": 2844,
+      "size": 633427,
+      "timestamp": "2023-08-25T08:10:53Z",
+      "author": "Dave osm",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Église de Culey-le-Patry",
+      "photos": []
+    },
+    {
+      "label": "Ruisseau du Val",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Saint-Paterne-Racan_%28Indre-et-Loire%29_-_32426071594.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Paterne-Racan%20(Indre-et-Loire)%20-%2032426071594.jpg",
+          "title": "Saint-Paterne-Racan (Indre-et-Loire) - 32426071594.jpg",
+          "width": 4928,
+          "height": 3264,
+          "size": 10867094,
+          "timestamp": "2023-11-28T12:36:42Z",
+          "author": "Daniel Jolivet",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Saint-Paterne-Racan_%28Indre-et-Loire%29_-_32454739113.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Paterne-Racan%20(Indre-et-Loire)%20-%2032454739113.jpg",
+          "title": "Saint-Paterne-Racan (Indre-et-Loire) - 32454739113.jpg",
+          "width": 4928,
+          "height": 3264,
+          "size": 13185344,
+          "timestamp": "2023-11-28T12:36:42Z",
+          "author": "Daniel Jolivet",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Saint-Paterne-Racan_%28Indre-et-Loire%29_-_33269143065.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Paterne-Racan%20(Indre-et-Loire)%20-%2033269143065.jpg",
+          "title": "Saint-Paterne-Racan (Indre-et-Loire) - 33269143065.jpg",
+          "width": 4928,
+          "height": 3264,
+          "size": 11409763,
+          "timestamp": "2023-11-28T12:36:42Z",
+          "author": "Daniel Jolivet",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
+    },
+    {
+      "label": "Point de vue sur la vallée de l’Orne",
+      "photos": []
+    }
+  ]
+}

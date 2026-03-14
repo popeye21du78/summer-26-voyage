@@ -16,9 +16,5 @@
 ## Restaurants (dossier `restos/`)
 - `la-petite-folie/` — La Petite Folie
 - `la-terrasse-du-jardin-d-acclimatation/` — La Terrasse du Jardin d’Acclimatation
-- `le-pre-catelan/` — Le Pré Catelan
-- `le-chalet-des-iles/` — Le Chalet des Îles
 - `le-pavillon-des-oiseaux/` — Le Pavillon des Oiseaux
 - `rosa-bonheur-a-l-ouest/` — Rosa Bonheur à l’Ouest
-- `le-chalet-des-iles/` — Le Chalet des Îles
-- `le-bal-de-la-marine/` — Le Bal de la Marine

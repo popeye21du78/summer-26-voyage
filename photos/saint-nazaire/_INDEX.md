@@ -19,5 +19,3 @@
 - `le-skipper/` — Le Skipper
 - `la-cantine-du-port/` — La Cantine du Port
 - `la-musardiere/` — La Musardière
-- `la-guinguette/` — La Guinguette
-- `le-cafe-scott/` — Le Café Scott

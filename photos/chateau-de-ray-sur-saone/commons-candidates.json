@@ -1,0 +1,78 @@
+{
+  "slug": "chateau-de-ray-sur-saone",
+  "nom": "Château de Ray-sur-Saône",
+  "fetchedAt": "2026-03-13T13:14:17.237Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Ray-sur-Sa%C3%B4ne%2C_la_poterne_du_ch%C3%A2teau.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARay-sur-Sa%C3%B4ne%2C%20la%20poterne%20du%20ch%C3%A2teau.jpg",
+      "title": "Ray-sur-Saône, la poterne du château.jpg",
+      "width": 4907,
+      "height": 2760,
+      "size": 8305482,
+      "timestamp": "2020-09-04T07:13:10Z",
+      "author": "JGS25",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Ray-sur-Sa%C3%B4ne%2C_le_ch%C3%A2teau.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARay-sur-Sa%C3%B4ne%2C%20le%20ch%C3%A2teau.jpg",
+      "title": "Ray-sur-Saône, le château.jpg",
+      "width": 4786,
+      "height": 2692,
+      "size": 9912828,
+      "timestamp": "2020-09-05T08:06:44Z",
+      "author": "JGS25",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Vellexon-Queutrey-et-Vaudey%2C_Ch%C3%A2teau_d%27eau.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVellexon-Queutrey-et-Vaudey%2C%20Ch%C3%A2teau%20d'eau.jpg",
+      "title": "Vellexon-Queutrey-et-Vaudey, Château d'eau.jpg",
+      "width": 2856,
+      "height": 2034,
+      "size": 400332,
+      "timestamp": "2025-12-28T18:24:35Z",
+      "author": "Rauenstein",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Façade principale et tours d’angle",
+      "photos": []
+    },
+    {
+      "label": "Grand salon",
+      "photos": []
+    },
+    {
+      "label": "Bibliothèque",
+      "photos": []
+    },
+    {
+      "label": "Terrasse sur la Saône",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Ray-sur-Sa%C3%B4ne_%28Haute-Sa%C3%B4ne%29_vu_depuis_la_terrasse_du_ch%C3%A2teau.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARay-sur-Sa%C3%B4ne%20(Haute-Sa%C3%B4ne)%20vu%20depuis%20la%20terrasse%20du%20ch%C3%A2teau.jpg",
+          "title": "Ray-sur-Saône (Haute-Saône) vu depuis la terrasse du château.jpg",
+          "width": 3000,
+          "height": 2000,
+          "size": 1446013,
+          "timestamp": "2022-08-04T05:03:17Z",
+          "author": "Jean de l'Auxois",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
+    }
+  ]
+}

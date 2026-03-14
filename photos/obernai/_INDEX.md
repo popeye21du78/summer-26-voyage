@@ -15,9 +15,5 @@
 ## Restaurants (dossier `restos/`)
 - `le-freiberg/` — Le Freiberg
 - `l-edel/` — L’Edel
-- `la-halle-aux-bles/` — La Halle aux Blés
-- `le-parc-hotel-restaurant/` — Le Parc Hôtel – Restaurant
 - `winstub-le-freiberg/` — Winstub Le Freiberg
 - `la-cloche/` — La Cloche
-- `la-dime/` — La Dime
-- `l-original/` — L’Original

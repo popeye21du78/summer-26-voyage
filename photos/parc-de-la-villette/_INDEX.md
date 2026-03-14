@@ -20,5 +20,3 @@
 - `simonetta/` — Simonetta
 - `dock-b/` — Dock B
 - `paname-brewing-company/` — Paname Brewing Company
-- `la-rotonde-stalingrad/` — La Rotonde Stalingrad
-- `le-pavillon-des-canaux/` — Le Pavillon des Canaux

@@ -1,0 +1,78 @@
+{
+  "slug": "cime-de-baudon",
+  "nom": "Cime de Baudon",
+  "fetchedAt": "2026-03-13T13:25:41.313Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Vue_hivernale_du_village_de_Peille_pr%C3%A8s_du_col_de_Saint-Pancrace.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20hivernale%20du%20village%20de%20Peille%20pr%C3%A8s%20du%20col%20de%20Saint-Pancrace.jpg",
+      "title": "Vue hivernale du village de Peille près du col de Saint-Pancrace.jpg",
+      "width": 6240,
+      "height": 4160,
+      "size": 3626434,
+      "timestamp": "2020-12-10T16:28:58Z",
+      "author": "Jpchevreau",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/ISS056-E-6307_-_View_of_France.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS056-E-6307%20-%20View%20of%20France.jpg",
+      "title": "ISS056-E-6307 - View of France.jpg",
+      "width": 5568,
+      "height": 3712,
+      "size": 2463879,
+      "timestamp": "2021-04-16T06:09:44Z",
+      "author": "Earth Science and Remote Sensing Unit, NASA Johnson Space Center",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/ISS056-E-32491_-_View_of_France.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS056-E-32491%20-%20View%20of%20France.jpg",
+      "title": "ISS056-E-32491 - View of France.jpg",
+      "width": 5568,
+      "height": 3712,
+      "size": 3582738,
+      "timestamp": "2021-04-16T11:13:56Z",
+      "author": "Earth Science and Remote Sensing Unit, NASA Johnson Space Center",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Peille",
+      "photos": []
+    },
+    {
+      "label": "Col du Razet",
+      "photos": []
+    },
+    {
+      "label": "Crête de la Cime de Baudon",
+      "photos": []
+    },
+    {
+      "label": "Sommet de la Cime de Baudon",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Cime_de_Baudon.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACime%20de%20Baudon.jpg",
+          "title": "Cime de Baudon.jpg",
+          "width": 4608,
+          "height": 2981,
+          "size": 2868132,
+          "timestamp": "2019-03-08T16:21:15Z",
+          "author": "Gaëlix",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
+    }
+  ]
+}

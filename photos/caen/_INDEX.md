@@ -18,7 +18,3 @@
 - `l-accolade/` — L’Accolade
 - `la-planche-a-bar/` — La Planche à Bar
 - `l-initial/` — L’Initial
-- `chez-flavia/` — Chez Flavia
-- `les-fils-a-maman/` — Les Fils à Maman
-- `le-dolly-s/` — Le Dolly’s
-- `bistro-basque/` — Bistro Basque

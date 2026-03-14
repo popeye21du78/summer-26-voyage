@@ -13,11 +13,7 @@
 - `lavoir-de-villequier/` — Lavoir de Villequier
 
 ## Restaurants (dossier `restos/`)
-- `la-bonne-famille/` — La Bonne Famille
-- `les-deux-rivieres/` — Les Deux Rivières
 - `relais-victor-hugo/` — Relais Victor Hugo
 - `la-marine/` — La Marine
 - `le-petit-quai/` — Le Petit Quai
 - `la-pause-gourmande/` — La Pause Gourmande
-- `la-table-de-villequier/` — La Table de Villequier
-- `le-quai-des-saveurs/` — Le Quai des Saveurs

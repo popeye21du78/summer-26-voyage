@@ -20,5 +20,3 @@
 - `tempero/` — Tempero
 - `mk2-cafe/` — MK2 Café
 - `le-bateau-el-alamein/` — Le Bateau El Alamein
-- `la-felicita/` — La Felicità
-- `le-comptoir-tempero/` — Le Comptoir Tempero

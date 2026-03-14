@@ -18,7 +18,3 @@
 - `le-cosy-grill/` — Le Cosy Grill
 - `la-courtine/` — La Courtine
 - `le-19/` — Le 19
-- `le-zag/` — Le Zag
-- `la-tomate/` — La Tomate
-- `creperie-ahna/` — Crêperie Ahna
-- `le-longueville/` — Le Longueville

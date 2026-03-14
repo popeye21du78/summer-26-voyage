@@ -13,11 +13,5 @@
 - `aires-de-jeux-centrales/` — Aires de jeux centrales
 
 ## Restaurants (dossier `restos/`)
-- `le-pavillon-du-lac/` — Le Pavillon du Lac
-- `le-petit-gourmet/` — Le Petit Gourmet
-- `la-table-de-l-escale/` — La Table de l’Escale
-- `la-pergola/` — La Pergola
 - `le-relais-du-parc/` — Le Relais du Parc
 - `chez-momo/` — Chez Momo
-- `l-atelier/` — L’Atelier
-- `le-saint-exupery/` — Le Saint-Exupéry

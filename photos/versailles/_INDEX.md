@@ -14,11 +14,7 @@
 - `place-du-marche-notre-dame/` — Place du Marché Notre-Dame
 
 ## Restaurants (dossier `restos/`)
-- `la-petite-venise/` — La Petite Venise
-- `le-limousin/` — Le Limousin
 - `le-bistrot-du-11/` — Le Bistrot du 11
 - `la-table-du-11/` — La Table du 11
 - `le-boeuf-a-la-mode/` — Le Boeuf à la Mode
 - `le-montbauron/` — Le Montbauron
-- `chez-tiouiche/` — Chez Tiouiche
-- `big-fernand/` — Big Fernand

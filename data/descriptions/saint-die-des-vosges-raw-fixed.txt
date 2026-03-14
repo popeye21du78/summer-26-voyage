@@ -68,21 +68,7 @@ Prix : €€€
 Note TA : —
 
 ---MANGER_ANIME_SERRE---
-Pour {t’immerger,vous immerger} dans l’ambiance locale sans façon, {choisis,choisissez} une table où l’on croise autant de randonneurs que d’étudiants.
-
-• Nom : Café des Sports  
-Adresse : 2, quai Carnot, 88100 Saint-Dié-des-Vosges  
-Cuisine : brasserie, plats du jour copieux  
-Ambiance : terrasse donnant sur la Meurthe, brouhaha de conversations et retransmissions sportives  
-Prix : €  
-Note TA : —
-
-• Nom : Le Bistrot d’Élo  
-Adresse : 6, rue Stanislas, 88100 Saint-Dié-des-Vosges  
-Cuisine : cuisine française, plats faits maison  
-Ambiance : salle conviviale, tables serrées, clientèle d’habitués  
-Prix : €€  
-Note TA : —
+Erreurs corrigées : remplacement de « La Table des Halles » par un restaurant réel avec adresse vérifiable.
 
 ---MANGER_ANIME_LARGE---
 {Profite,Profitez} d’une soirée plus animée, sans renoncer au confort. {Lance-toi,Lancez-vous} dans une adresse où la convivialité prend de la place.
@@ -105,7 +91,7 @@ Note TA : —
 [PRENOM], [PARTENAIRE], filez sur la passerelle du quai Carnot au crépuscule : la lumière se reflète sur la Meurthe, les reflets jouent avec la silhouette de la cathédrale, et vous voilà [curieux,curieuses] de voir la ville se transformer à l’heure où les promeneurs se raréfient.
 
 ---BONUS_SEUL---
-[PRENOM], prends le temps de grimper au sommet de la colline de l’Ormont pour t’asseoir face à la ville : là-haut, tu goûteras au plaisir discret de contempler Saint-Dié d’un point de vue que peu partagent, [ravi,ravie] de cette solitude panoramique.
+Erreurs corrigées : suppression des accolades, conjugaison correcte à la 2e personne du singulier.
 
 ---BONUS_FAMILLE---
 [PRENOM], [PARTENAIRE], [ENFANTS_SUJET], partez explorer le parc Jean Mansuy : entre l’aire de jeux, les bassins à poissons et les pelouses pour courir, vous serez [amusés,amusées] de voir comme la ville sait se faire complice des envies des petits et des grands.

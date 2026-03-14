@@ -20,5 +20,3 @@
 - `la-grignotiere/` — La Grignotière
 - `le-saint-amand-bar-brasserie/` — Le Saint-Amand Bar Brasserie
 - `le-ch-ti-gourmet/` — Le Ch’ti Gourmet
-- `le-medieval/` — Le Médiéval
-- `le-casino-cafe/` — Le Casino Café

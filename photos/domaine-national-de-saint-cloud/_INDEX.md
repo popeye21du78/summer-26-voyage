@@ -19,5 +19,3 @@
 - `le-val-d-or/` — Le Val d’Or
 - `le-cafe-du-parc/` — Le Café du Parc
 - `le-bistrot-de-la-place/` — Le Bistrot de la Place
-- `la-villa-saint-cloud/` — La Villa Saint-Cloud
-- `le-comptoir-de-saint-cloud/` — Le Comptoir de Saint-Cloud

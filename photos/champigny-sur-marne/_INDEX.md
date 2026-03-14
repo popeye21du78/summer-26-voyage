@@ -16,9 +16,5 @@
 ## Restaurants (dossier `restos/`)
 - `la-petite-marmite/` — La Petite Marmite
 - `le-coin-des-amis/` — Le Coin des Amis
-- `l-olivier/` — L’Olivier
-- `le-bistrot-du-marche/` — Le Bistrot du Marché
 - `le-petit-resto/` — Le Petit Resto
 - `le-classico/` — Le Classico
-- `chez-gegene/` — Chez Gégène
-- `le-jardin-du-kashmir/` — Le Jardin du Kashmir

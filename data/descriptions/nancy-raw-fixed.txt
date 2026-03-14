@@ -43,55 +43,13 @@ Prix : €€
 Note TA : —
 
 ---MANGER_INTIME_LARGE---
-{Si tu veux voir la ville se réinventer dans l’assiette,Opte pour une table qui joue la carte du contemporain.}{Si vous voulez voir la ville se réinventer dans l’assiette,Optez pour une table qui joue la carte du contemporain.}
-
-• Nom : Restaurant Transparence
-Adresse : 64 Avenue du Général Leclerc, 54000 Nancy
-Cuisine : cuisine inventive, produits locaux revisités
-Ambiance : salle épurée, lumière douce, service attentif
-Prix : €€
-Note TA : —
-
-• Nom : La Table du Bon Roi Stanislas
-Adresse : 19 Rue Stanislas, 54000 Nancy
-Cuisine : gastronomie française, inspirations lorraines
-Ambiance : cadre élégant, vaisselle fine, ambiance feutrée sans excès
-Prix : €€€
-Note TA : —
+{Si {tu veux,vous voulez} voir la ville se réinventer dans l’assiette, {opte,optez} pour une table qui joue la carte du contemporain.}
 
 ---MANGER_ANIME_SERRE---
-{Pour croiser l’énergie étudiante et partager un plat convivial,Visez un lieu où le brouhaha fait partie du menu.}
-
-• Nom : Le Petit Malouin
-Adresse : 14 Rue Saint-Julien, 54000 Nancy
-Cuisine : crêperie, galettes bretonnes et salades
-Ambiance : tables serrées, rires et discussions qui débordent sur le trottoir
-Prix : €
-Note TA : —
-
-• Nom : L’Artisan du Burger
-Adresse : 2 Place Charles III, 54000 Nancy
-Cuisine : burgers créatifs, produits locaux
-Ambiance : décoration urbaine, clientèle jeune et animée
-Prix : €€
-Note TA : —
+{Pour croiser l’énergie étudiante et partager un plat convivial, {vise,visez} un lieu où le brouhaha fait partie du menu.}
 
 ---MANGER_ANIME_LARGE---
-{Pour dîner sans regarder la montre, {choisis,choisissez} une adresse où la convivialité s’étire jusqu’à la fermeture.}
-
-• Nom : Brasserie Jean Lamour
-Adresse : 1 Place Stanislas, 54000 Nancy
-Cuisine : brasserie moderne, plats régionaux et classiques revisités
-Ambiance : grande salle lumineuse, vue sur la place, mouvement continu
-Prix : €€
-Note TA : —
-
-• Nom : La Manufacture
-Adresse : 10 Rue Stanislas, 54000 Nancy
-Cuisine : cuisine française contemporaine
-Ambiance : espace vaste, déco industrielle, ambiance effervescente
-Prix : €€€
-Note TA : —
+{Pour dîner sans regarder {ta,votre} montre, {choisis,choisissez} une adresse où la convivialité s’étire jusqu’à la fermeture.}
 
 ---BONUS_COUPLE---
 [PRENOM], [PARTENAIRE], si vous cherchez à savourer un instant complice, laissez-vous porter en soirée jusqu’au quai Sainte-Catherine, là où la Meurthe reflète les lumières de la ville et le murmure de l’eau accompagne discrètement vos pas. Loin de l’agitation du centre, c’est un coin parfait pour discuter sans hâte et redécouvrir l’art de prendre son temps à deux.

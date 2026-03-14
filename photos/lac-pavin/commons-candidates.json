@@ -1,0 +1,104 @@
+{
+  "slug": "lac-pavin",
+  "nom": "Lac Pavin",
+  "fetchedAt": "2026-03-13T15:16:25.482Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Place_de_la_Gayme.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlace%20de%20la%20Gayme.jpg",
+      "title": "Place de la Gayme.jpg",
+      "width": 2816,
+      "height": 2112,
+      "size": 2132822,
+      "timestamp": "2014-11-10T18:20:39Z",
+      "author": "Tangopaso",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 5
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Besse-en-Chandesse_-_Place_du_Dr_Pipet.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABesse-en-Chandesse%20-%20Place%20du%20Dr%20Pipet.JPG",
+      "title": "Besse-en-Chandesse - Place du Dr Pipet.JPG",
+      "width": 4000,
+      "height": 3000,
+      "size": 4899893,
+      "timestamp": "2014-11-19T22:37:22Z",
+      "author": "PIERRE ANDRE LECLERCQ",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 5
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Fontaine_place_Gayme.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFontaine%20place%20Gayme.JPG",
+      "title": "Fontaine place Gayme.JPG",
+      "width": 2304,
+      "height": 3072,
+      "size": 3966961,
+      "timestamp": "2011-08-03T12:10:09Z",
+      "author": "Sylenius",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 4
+    }
+  ],
+  "lieux": [
+    {
+      "label": "Belvédère sud du Lac Pavin",
+      "photos": []
+    },
+    {
+      "label": "Ponton nord",
+      "photos": []
+    },
+    {
+      "label": "Sentier de la rive ouest",
+      "photos": []
+    },
+    {
+      "label": "Puy de Montchal",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Besse_Lac_Pavin3.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABesse%20Lac%20Pavin3.JPG",
+          "title": "Besse Lac Pavin3.JPG",
+          "width": 2560,
+          "height": 1920,
+          "size": 1886455,
+          "timestamp": "2012-03-14T22:04:52Z",
+          "author": "Torsade de Pointes",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Besse_Lac_Pavin1.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABesse%20Lac%20Pavin1.JPG",
+          "title": "Besse Lac Pavin1.JPG",
+          "width": 2560,
+          "height": 1920,
+          "size": 2425762,
+          "timestamp": "2012-03-14T21:54:19Z",
+          "author": "Torsade de Pointes",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Besse_Lac_Pavin7.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABesse%20Lac%20Pavin7.JPG",
+          "title": "Besse Lac Pavin7.JPG",
+          "width": 2560,
+          "height": 1920,
+          "size": 2028147,
+          "timestamp": "2012-03-14T21:55:07Z",
+          "author": "Torsade de Pointes",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
+    }
+  ]
+}

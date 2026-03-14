@@ -19,5 +19,3 @@
 - `le-rive-gauche/` — Le Rive Gauche
 - `cafe-de-la-gare/` — Café de la Gare
 - `la-p-tite-creperie/` — La P’tite Crêperie
-- `le-soprano/` — Le Soprano
-- `brasserie-le-clemenceau/` — Brasserie Le Clemenceau

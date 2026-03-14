@@ -20,5 +20,3 @@
 - `restaurant-la-casa-de-nava/` — Restaurant : La Casa de Nava
 - `restaurant-lou-baracouda/` — Restaurant : Lou Baracouda
 - `restaurant-le-bleu-banane/` — Restaurant : Le Bleu Banane
-- `restaurant-la-siesta/` — Restaurant : La Siesta
-- `restaurant-le-surf-palace/` — Restaurant : Le Surf Palace

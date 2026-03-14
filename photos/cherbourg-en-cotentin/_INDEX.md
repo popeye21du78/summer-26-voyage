@@ -14,11 +14,7 @@
 - `promenade-du-becquet/` — Promenade du Becquet
 
 ## Restaurants (dossier `restos/`)
-- `le-p-tit-gavroche/` — Le P’tit Gavroche
-- `le-plouc-2/` — Le Plouc 2
 - `l-antidote/` — L’Antidote
 - `le-pantagruel/` — Le Pantagruel
 - `le-commerce/` — Le Commerce
 - `l-escale/` — L’Escale
-- `le-cafe-de-paris/` — Le Café de Paris
-- `la-marina/` — La Marina

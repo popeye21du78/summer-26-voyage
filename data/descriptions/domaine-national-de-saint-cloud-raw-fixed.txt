@@ -18,16 +18,8 @@ L’incendie de 1870 marque un tournant. Le château, autrefois scintillant de d
 ---QUE_FAIRE_CONNU---
 {Suis,Suivez} l’allée des Tilleuls jusqu’à la Grande Cascade, chef-d’œuvre d’hydraulique et de mise en scène, où l’eau se déploie sur des degrés de pierre ornés de statues. {Arrête-toi,Arrêtez-vous} un instant sur la terrasse du château, là où la vue sur Paris s’ouvre, délicate et panoramique, offrant la Tour Eiffel en ligne de mire les jours de ciel clair.
 
-{Prolonge,Prolongez} la balade en explorant le jardin du Trocadéro, puis {remonte,remontez} vers le jardin du Val d'Or pour admirer les parterres de roses et les charmilles épaisses. Les vastes pelouses du parc accueillent les pique-niques, tandis que les allées ombragées {t’attirent,vous attirent} les flâneurs qui {cherches,cherchez} un moment de calme à l’écart du tumulte parisien.
-
-En été, {profite,profitez} des expositions de sculptures contemporaines ou {assiste,assistez} à un concert en plein air, quand le parc devient une scène à ciel ouvert. Le Domaine de Saint-Cloud sait conjuguer l’héritage classique et la vie moderne sans jamais se forcer.
-
 ---QUE_FAIRE_INCONNU---
-{Bifurque,Bifurquez} vers les sentiers moins fréquentés du parc de la Lanterne : les sculptures moussues et les bancs de pierre y {t’attendent,vous attendent} en tant que promeneur[s] discret[s]. {Cherche,Cherchez} la fabrique du Pavillon de Breteuil, petite folie architecturale cachée derrière un rideau d’arbres, qui offre une atmosphère presque hors du temps.
-
-{Ose t’aventurer,Osez vous aventurer} dans le Jardin des Enfants du Domaine, terrain de jeux discret et charmant où les rires résonnent au milieu des topiaires. Plus loin, {découvre,découvrez} la Petite Galerie, souvent ignorée, qui accueille des expositions temporaires dans un cadre intime.
-
-En t’éloignant des axes principaux, {tombe,tombez} sur les anciens réservoirs, vestiges d’un passé hydraulique méconnu, ou {observe,observez} les abeilles des ruchers pédagogiques. Ces recoins du parc offrent une expérience plus confidentielle, loin des circuits balisés.
+{Bifurque,Bifurquez} vers les sentiers moins fréquentés du parc de la Lanterne : les sculptures moussues et les bancs de pierre y {t’attendent,vous attendent} les promeneurs discrets. {Cherche,Cherchez} la fabrique du Pavillon de Breteuil, petite folie architecturale cachée derrière un rideau d’arbres, qui offre une atmosphère presque hors du temps.
 
 ---MANGER_INTIME_SERRE---
 {Cherche,Cherchez} une parenthèse paisible à deux pas des bosquets.
@@ -82,20 +74,6 @@ Note TA : —
 
 ---MANGER_ANIME_LARGE---
 {Partage,Partagez} un repas animé dans un décor spacieux.
-
-• Nom : La Villa Saint-Cloud
-Adresse : 42, boulevard de la République, 92210 Saint-Cloud
-Cuisine : italienne et méditerranéenne
-Ambiance : grande salle lumineuse, tables généreuses, atmosphère familiale
-Prix : €€€
-Note TA : —
-
-• Nom : Le Comptoir de Saint-Cloud
-Adresse : 10, place de l’Eglise, 92210 Saint-Cloud
-Cuisine : française, plats à partager
-Ambiance : salle ouverte sur la place, ambiance animée aux heures de marché
-Prix : €€
-Note TA : —
 
 ---BONUS_COUPLE---
 [PRENOM], [PARTENAIRE], laissez-vous tenter par une escapade discrète à la Roseraie du domaine : en vous glissant parmi les allées fleuries, vous trouverez un banc oublié sous les rosiers anciens, parfait pour échanger quelques confidences, loin des regards et du passage.

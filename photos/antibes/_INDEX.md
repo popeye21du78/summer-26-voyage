@@ -20,5 +20,3 @@
 - `l-arazur/` — L’Arazur
 - `le-cafe-brun/` — Le Café Brun
 - `l-altro/` — L’Altro
-- `le-vauban/` — Le Vauban
-- `les-vieux-murs/` — Les Vieux Murs
