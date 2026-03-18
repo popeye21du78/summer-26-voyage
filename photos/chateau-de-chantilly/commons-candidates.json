@@ -1,12 +1,13 @@
 {
   "slug": "chateau-de-chantilly",
   "nom": "Château de Chantilly",
-  "fetchedAt": "2026-03-13T12:50:36.201Z",
+  "fetchedAt": "2026-03-15T21:19:14.066Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Rallye_Aston_Martin_Chantilly_Arts_%26_Elegance_Richard_Mille_2017_01.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARallye%20Aston%20Martin%20Chantilly%20Arts%20%26%20Elegance%20Richard%20Mille%202017%2001.jpg",
       "title": "Rallye Aston Martin Chantilly Arts & Elegance Richard Mille 2017 01.jpg",
+      "description": "Rallye Aston Martin Chantilly Arts &amp; Elegance Richard Mille 2017",
       "width": 3950,
       "height": 2400,
       "size": 4671264,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Renault_TreZor_Concours_d%27Elegance_Chantilly.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARenault%20TreZor%20Concours%20d'Elegance%20Chantilly.jpg",
       "title": "Renault TreZor Concours d'Elegance Chantilly.jpg",
+      "description": "Chantilly Arts &amp; Elegance Richard Mille 2017",
       "width": 4656,
       "height": 2620,
       "size": 2516620,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Gilles_Vidal_Chantilly_Arts_%26_Elegance_2017.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGilles%20Vidal%20Chantilly%20Arts%20%26%20Elegance%202017.jpg",
       "title": "Gilles Vidal Chantilly Arts & Elegance 2017.jpg",
+      "description": "Gilles Vidal au Chantilly Arts &amp; Elegance Richard Mille 2017",
       "width": 4000,
       "height": 3000,
       "size": 1439865,
@@ -46,49 +49,95 @@
   "lieux": [
     {
       "label": "Façade Renaissance sur douves",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Chantilly%2C_ch%C3%A2teau_Fa%C3%A7ade_du_pavillon_Oront%C3%A9e_du_c%C3%B4t%C3%A9_de_la_Gallerie_des_Cerfs_-_dessin_-_btv1b6939023g.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChantilly%2C%20ch%C3%A2teau%20Fa%C3%A7ade%20du%20pavillon%20Oront%C3%A9e%20du%20c%C3%B4t%C3%A9%20de%20la%20Gallerie%20des%20Cerfs%20-%20dessin%20-%20btv1b6939023g.jpg",
+          "title": "Chantilly, château Façade du pavillon Orontée du côté de la Gallerie des Cerfs - dessin - btv1b6939023g.jpg",
+          "description": "Sujet : Chantilly (Oise, France) -- Château\nDessins et plans -- 17e siècle\nRéférence bibliographique : Robert de Cotte, 195\nRéférence bibliographique : Fossier, 187\nAppartient à l’ensemble documentaire : Des18Cotte\nAppartient à l’ensemble documentaire : Picardi1\n\nCoupe",
+          "width": 2991,
+          "height": 4061,
+          "size": 1015348,
+          "timestamp": "2025-03-01T22:39:21Z",
+          "author": "Inconnu",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Chantilly%2C_ch%C3%A2teau_Fa%C3%A7ade_du_pavillon_d%27Oront%C3%A9e_du_cost%C3%A9_du_parterre_et_du_cost%C3%A9_oppos%C3%A9_-_dessin_-_btv1b6939024w.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChantilly%2C%20ch%C3%A2teau%20Fa%C3%A7ade%20du%20pavillon%20d'Oront%C3%A9e%20du%20cost%C3%A9%20du%20parterre%20et%20du%20cost%C3%A9%20oppos%C3%A9%20-%20dessin%20-%20btv1b6939024w.jpg",
+          "title": "Chantilly, château Façade du pavillon d'Orontée du costé du parterre et du costé opposé - dessin - btv1b6939024w.jpg",
+          "description": "Sujet : Chantilly (Oise, France) -- Château\nDessins et plans -- 17e siècle\nRéférence bibliographique : Robert de Cotte, 196\nRéférence bibliographique : Fossier, 187\nAppartient à l’ensemble documentaire : Des18Cotte\nAppartient à l’ensemble documentaire : Picardi1\nÉlévation\n\nLangue : français",
+          "width": 3060,
+          "height": 4134,
+          "size": 1105618,
+          "timestamp": "2025-03-14T22:17:26Z",
+          "author": "Inconnu",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Chateau_de_Chantilly_020.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau%20de%20Chantilly%20020.JPG",
+          "title": "Chateau de Chantilly 020.JPG",
+          "description": "",
+          "width": 2600,
+          "height": 1895,
+          "size": 336694,
+          "timestamp": "2022-06-03T21:49:02Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q113131436\" class=\"extiw\" title=\"d:Q113131436\">Paul Boulat</a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Galerie de Peinture",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Ch%C3%A2teau_de_Chantilly%2C_the_gallery_of_paintings.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Chantilly%2C%20the%20gallery%20of%20paintings.JPG",
-          "title": "Château de Chantilly, the gallery of paintings.JPG",
-          "width": 5060,
-          "height": 3442,
-          "size": 4143426,
-          "timestamp": "2019-01-08T08:18:28Z",
-          "author": "Dguendel",
-          "license": "CC BY 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Chantilly_Ch%C3%A2teau_de_Chantilly_Innen_Galerie_de_Peinture_01.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChantilly%20Ch%C3%A2teau%20de%20Chantilly%20Innen%20Galerie%20de%20Peinture%2001.jpg",
-          "title": "Chantilly Château de Chantilly Innen Galerie de Peinture 01.jpg",
-          "width": 4353,
-          "height": 3426,
-          "size": 6382739,
-          "timestamp": "2019-06-26T14:33:57Z",
-          "author": "Zairon",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Chantilly_%2860%29%2C_ch%C3%A2teau_de_Chantilly%2C_mus%C3%A9e_Cond%C3%A9%2C_galerie_des_Cerfs_8.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChantilly%20(60)%2C%20ch%C3%A2teau%20de%20Chantilly%2C%20mus%C3%A9e%20Cond%C3%A9%2C%20galerie%20des%20Cerfs%208.jpg",
+          "title": "Chantilly (60), château de Chantilly, musée Condé, galerie des Cerfs 8.jpg",
+          "description": "Château de Chantilly, musée Condé, galerie des Cerfs.",
+          "width": 5184,
+          "height": 3456,
+          "size": 2847418,
+          "timestamp": "2019-09-26T20:20:53Z",
+          "author": "Pierre Poschadel",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Chantilly_Ch%C3%A2teau_de_Chantilly_Innen_Galerie_de_Peinture_03.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChantilly%20Ch%C3%A2teau%20de%20Chantilly%20Innen%20Galerie%20de%20Peinture%2003.jpg",
-          "title": "Chantilly Château de Chantilly Innen Galerie de Peinture 03.jpg",
-          "width": 4411,
-          "height": 3324,
-          "size": 6469463,
-          "timestamp": "2019-06-26T14:33:57Z",
-          "author": "Zairon",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Chantilly_%2860%29%2C_ch%C3%A2teau_de_Chantilly%2C_mus%C3%A9e_Cond%C3%A9%2C_galerie_des_Cerfs_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChantilly%20(60)%2C%20ch%C3%A2teau%20de%20Chantilly%2C%20mus%C3%A9e%20Cond%C3%A9%2C%20galerie%20des%20Cerfs%201.jpg",
+          "title": "Chantilly (60), château de Chantilly, musée Condé, galerie des Cerfs 1.jpg",
+          "description": "Château de Chantilly, musée Condé, galerie des Cerfs.",
+          "width": 5184,
+          "height": 3456,
+          "size": 3030180,
+          "timestamp": "2019-09-26T20:20:55Z",
+          "author": "Pierre Poschadel",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Chantilly_%2860%29%2C_ch%C3%A2teau_de_Chantilly%2C_mus%C3%A9e_Cond%C3%A9%2C_galerie_des_Cerfs_5.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChantilly%20(60)%2C%20ch%C3%A2teau%20de%20Chantilly%2C%20mus%C3%A9e%20Cond%C3%A9%2C%20galerie%20des%20Cerfs%205.jpg",
+          "title": "Chantilly (60), château de Chantilly, musée Condé, galerie des Cerfs 5.jpg",
+          "description": "Château de Chantilly, musée Condé, galerie des Cerfs.",
+          "width": 5184,
+          "height": 3456,
+          "size": 2985947,
+          "timestamp": "2019-09-26T20:20:56Z",
+          "author": "Pierre Poschadel",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
         }
       ]
     },
@@ -96,43 +145,46 @@
       "label": "Grandes Écuries",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Chantilly_%2860%29_Ch%C3%A2teau_Grandes_%C3%89curies_463.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChantilly%20(60)%20Ch%C3%A2teau%20Grandes%20%C3%89curies%20463.jpg",
-          "title": "Chantilly (60) Château Grandes Écuries 463.jpg",
-          "width": 4896,
-          "height": 3264,
-          "size": 12420211,
-          "timestamp": "2023-07-02T14:41:04Z",
-          "author": "GFreihalter",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Ch%C3%A2teau_de_Chantilly_autumn_colors.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Chantilly%20autumn%20colors.jpg",
+          "title": "Château de Chantilly autumn colors.jpg",
+          "description": "Autumn colors in the gardens of the Château de Chantilly.  André Le Nôtre designed the original gardens for the Grand Condé.",
+          "width": 2560,
+          "height": 1920,
+          "size": 873952,
+          "timestamp": "2022-12-01T16:38:34Z",
+          "author": "Formulavee",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Chantilly_%2860%29_Ch%C3%A2teau_Grandes_%C3%89curies_465.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChantilly%20(60)%20Ch%C3%A2teau%20Grandes%20%C3%89curies%20465.jpg",
-          "title": "Chantilly (60) Château Grandes Écuries 465.jpg",
-          "width": 4896,
-          "height": 3264,
-          "size": 12831293,
-          "timestamp": "2023-07-02T14:41:04Z",
-          "author": "GFreihalter",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Aerial_image_of_Grandes_%C3%89curies_du_Ch%C3%A2teau_de_Chantilly_%28view_from_the_south%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAerial%20image%20of%20Grandes%20%C3%89curies%20du%20Ch%C3%A2teau%20de%20Chantilly%20(view%20from%20the%20south).jpg",
+          "title": "Aerial image of Grandes Écuries du Château de Chantilly (view from the south).jpg",
+          "description": "Aerial image of Grandes Écuries du Château de Chantilly (view from the south)",
+          "width": 4700,
+          "height": 2700,
+          "size": 6729572,
+          "timestamp": "2025-10-08T18:51:18Z",
+          "author": "Carsten Steger",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Chantilly_%2860%29_Ch%C3%A2teau_Grandes_%C3%89curies_464.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChantilly%20(60)%20Ch%C3%A2teau%20Grandes%20%C3%89curies%20464.jpg",
-          "title": "Chantilly (60) Château Grandes Écuries 464.jpg",
-          "width": 4896,
-          "height": 3264,
-          "size": 12805732,
-          "timestamp": "2023-07-02T14:41:04Z",
-          "author": "GFreihalter",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Chantilly%2C_Oise%2C_Fr%2C_ch%C3%A2teau%2C_grandes_%C3%A9curies.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChantilly%2C%20Oise%2C%20Fr%2C%20ch%C3%A2teau%2C%20grandes%20%C3%A9curies.jpg",
+          "title": "Chantilly, Oise, Fr, château, grandes écuries.jpg",
+          "description": "Chantilly, Oise, Fr, château, grandes écuries",
+          "width": 3648,
+          "height": 2736,
+          "size": 1982379,
+          "timestamp": "2018-02-14T16:11:48Z",
+          "author": "APictche",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 8
         }
       ]
     },
@@ -140,43 +192,46 @@
       "label": "Parc Le Nôtre",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Ch%C3%A2teau_de_Chantilly%2C_petit_parc%2C_la_Grande_Cascade.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Chantilly%2C%20petit%20parc%2C%20la%20Grande%20Cascade.jpg",
-          "title": "Château de Chantilly, petit parc, la Grande Cascade.jpg",
-          "width": 3634,
-          "height": 2726,
-          "size": 2733664,
-          "timestamp": "2011-05-06T13:32:46Z",
-          "author": "P.poschadel",
-          "license": "CC BY-SA 2.0 fr",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Ch%C3%A2teau_de_Chantilly%2C_jardin_anglo-chinois%2C_canal_des_Morfondus.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Chantilly%2C%20jardin%20anglo-chinois%2C%20canal%20des%20Morfondus.jpg",
-          "title": "Château de Chantilly, jardin anglo-chinois, canal des Morfondus.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Ch%C3%A2teau_de_Chantilly%2C_petit_parc%2C_%C3%A9tang_de_Sylvie.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Chantilly%2C%20petit%20parc%2C%20%C3%A9tang%20de%20Sylvie.jpg",
+          "title": "Château de Chantilly, petit parc, étang de Sylvie.jpg",
+          "description": "L'étang de Sylvie à l'ouest du Petit Parc, avec l'extrémité du château d'Enghien en arrière-plan.",
           "width": 3664,
           "height": 2748,
-          "size": 2173030,
-          "timestamp": "2011-05-06T15:36:20Z",
+          "size": 1527343,
+          "timestamp": "2011-05-06T20:44:10Z",
           "author": "P.poschadel",
           "license": "CC BY-SA 2.0 fr",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/All%C3%A9e_des_philosophes_ch%C3%A2teau_Chantilly.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAll%C3%A9e%20des%20philosophes%20ch%C3%A2teau%20Chantilly.jpg",
-          "title": "Allée des philosophes château Chantilly.jpg",
-          "width": 3135,
-          "height": 2091,
-          "size": 4653558,
-          "timestamp": "2011-07-05T22:47:53Z",
-          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Andr%C3%A9_Le_N%C3%B4tre\" class=\"extiw\" title=\"w:en:André Le Nôtre\"><span title=\"French landscape architect and the principal gardener of King Louis XIV of France (1613–1700)\">André Le Nôtre</span></a></bdi>",
-          "license": "CC0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Vineuil-Saint-Firmin_%2860%29%2C_ch%C3%A2teau_de_Saint-Firmin_dans_le_parc_de_Chantilly.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVineuil-Saint-Firmin%20(60)%2C%20ch%C3%A2teau%20de%20Saint-Firmin%20dans%20le%20parc%20de%20Chantilly.jpg",
+          "title": "Vineuil-Saint-Firmin (60), château de Saint-Firmin dans le parc de Chantilly.jpg",
+          "description": "Le château de Saint-Firmin dans le parc de Chantilly, près de la grande cascade ; propriété de l'Institut, il est loué à des particuliers.",
+          "width": 3664,
+          "height": 2748,
+          "size": 2057778,
+          "timestamp": "2011-10-04T08:13:04Z",
+          "author": "P.poschadel",
+          "license": "CC BY-SA 2.0 fr",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Vineuil-Saint-Firmin_%2860%29%2C_ch%C3%A2teau_de_Saint-Firmin_dans_le_parc_de_Chantilly_et_pont.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVineuil-Saint-Firmin%20(60)%2C%20ch%C3%A2teau%20de%20Saint-Firmin%20dans%20le%20parc%20de%20Chantilly%20et%20pont.jpg",
+          "title": "Vineuil-Saint-Firmin (60), château de Saint-Firmin dans le parc de Chantilly et pont.jpg",
+          "description": "Le château de Saint-Firmin dans le parc du château de Chantilly, au nord du bassin octogonal, et pont sur un canal secondaire.",
+          "width": 3664,
+          "height": 2748,
+          "size": 2947257,
+          "timestamp": "2011-10-04T11:59:09Z",
+          "author": "P.poschadel",
+          "license": "CC BY-SA 2.0 fr",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
         }
       ]
     }

@@ -1,12 +1,13 @@
 {
   "slug": "sainte-menehould",
   "nom": "Sainte-Menehould",
-  "fetchedAt": "2026-03-14T12:21:41.707Z",
+  "fetchedAt": "2026-03-18T18:55:40.807Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Vue_sur_le_centre_ville_de_Sainte-Menehould.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20sur%20le%20centre%20ville%20de%20Sainte-Menehould.jpg",
       "title": "Vue sur le centre ville de Sainte-Menehould.jpg",
+      "description": "Vue sur le centre ville de Sainte-Menehould",
       "width": 4032,
       "height": 3024,
       "size": 2580008,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Quai_de_la_gare_de_Sainte-Menehould.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQuai%20de%20la%20gare%20de%20Sainte-Menehould.jpg",
       "title": "Quai de la gare de Sainte-Menehould.jpg",
+      "description": "Quai de la gare de Sainte-Menehould",
       "width": 4032,
       "height": 3024,
       "size": 3437168,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Rue_Camille_Margaine_%C3%A0_Sainte-Menehould.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARue%20Camille%20Margaine%20%C3%A0%20Sainte-Menehould.jpg",
       "title": "Rue Camille Margaine à Sainte-Menehould.jpg",
+      "description": "Rue Camille Margaine à Sainte-Menehould",
       "width": 4032,
       "height": 3024,
       "size": 2910674,
@@ -46,19 +49,191 @@
   "lieux": [
     {
       "label": "Église Saint-Charles-Borromée",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Sainte_Menehould_%C3%A9glise_Notre-Dame.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASainte%20Menehould%20%C3%A9glise%20Notre-Dame.JPG",
+          "title": "Sainte Menehould église Notre-Dame.JPG",
+          "description": "Sainte Menehould église Notre-Dame",
+          "width": 4000,
+          "height": 3000,
+          "size": 3456973,
+          "timestamp": "2015-07-12T10:05:36Z",
+          "author": "Aimelaime~commonswiki",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Sainte_Menehould_%C3%A9glise_Saint-Charles.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASainte%20Menehould%20%C3%A9glise%20Saint-Charles.JPG",
+          "title": "Sainte Menehould église Saint-Charles.JPG",
+          "description": "Sainte Menehould église Saint-Charles",
+          "width": 4000,
+          "height": 3000,
+          "size": 3427019,
+          "timestamp": "2015-07-12T10:17:41Z",
+          "author": "Aimelaime~commonswiki",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Sainte-Menehould_la_Grange_Aux_Bois_%C3%A9glise_Saint-Nicolas.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASainte-Menehould%20la%20Grange%20Aux%20Bois%20%C3%A9glise%20Saint-Nicolas.JPG",
+          "title": "Sainte-Menehould la Grange Aux Bois église Saint-Nicolas.JPG",
+          "description": "Sainte-Menehould la Grange Aux Bois église Saint-Nicolas",
+          "width": 4000,
+          "height": 3000,
+          "size": 3243113,
+          "timestamp": "2015-07-12T12:21:40Z",
+          "author": "Aimelaime~commonswiki",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Grand’Place et halle au blé",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Mairie_de_Sainte-M%C3%A9nehould.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMairie%20de%20Sainte-M%C3%A9nehould.JPG",
+          "title": "Mairie de Sainte-Ménehould.JPG",
+          "description": "Mairie de Sainte-Ménehould vue depuis la place Leclerc. Reconstruction en brique et gaize en 1730.",
+          "width": 3664,
+          "height": 2442,
+          "size": 2131350,
+          "timestamp": "2010-11-01T18:34:38Z",
+          "author": "Gérald Garitan",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/M_125_10_sainte-Menehoulde_place_centrale_Cadorna.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AM%20125%2010%20sainte-Menehoulde%20place%20centrale%20Cadorna.jpg",
+          "title": "M 125 10 sainte-Menehoulde place centrale Cadorna.jpg",
+          "description": "Le Miroir N°_125, page_10_une vue de la place principale (derière sa tête l'actuelle Poste) de Sainte-Menehould_avec le général _Cadorna.",
+          "width": 2531,
+          "height": 1837,
+          "size": 982589,
+          "timestamp": "2012-01-01T17:07:33Z",
+          "author": "Garitan",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Sainte-Menehould_%2851%29_Place_du_G%C3%A9n%C3%A9ral-Leclerc_950.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASainte-Menehould%20(51)%20Place%20du%20G%C3%A9n%C3%A9ral-Leclerc%20950.jpg",
+          "title": "Sainte-Menehould (51) Place du Général-Leclerc 950.jpg",
+          "description": "Place du Général-Leclerc/Rue de l'Arbre Sec in Sainte-Menehould im Département Marne in der Region Grand Est (früher Champagne-Ardenne)/Frankreich",
+          "width": 7728,
+          "height": 5152,
+          "size": 31186581,
+          "timestamp": "2024-11-12T09:45:03Z",
+          "author": "GFreihalter",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Vestiges du château",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Sainte-Menehould%2C_Cimeti%C3%A8re_du_Ch%C3%A2teau%2C_Chapelle_fun%C3%A9raire_de_la_famille_Margaine_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASainte-Menehould%2C%20Cimeti%C3%A8re%20du%20Ch%C3%A2teau%2C%20Chapelle%20fun%C3%A9raire%20de%20la%20famille%20Margaine%201.jpg",
+          "title": "Sainte-Menehould, Cimetière du Château, Chapelle funéraire de la famille Margaine 1.jpg",
+          "description": "Vue de la chapelle funéraire de la famille Margaine au cimetière du Château de Sainte-Menehould dans la Marne. Parmi les membres de la famille sont inhumés Camille Margaine (1829–1893), ancien député de la Marne, ancien sénateur de la Marne et ancien maire de Sainte-Menehould, et son fils Alfred Margaine (1870–1953), ancien député de la Marne et ancien ministre.",
+          "width": 4608,
+          "height": 3456,
+          "size": 5609484,
+          "timestamp": "2025-01-09T10:38:38Z",
+          "author": "Antoine Rex",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Sainte-Menehould%2C_Cimeti%C3%A8re_du_Ch%C3%A2teau%2C_Chapelle_fun%C3%A9raire_de_la_famille_Margaine_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASainte-Menehould%2C%20Cimeti%C3%A8re%20du%20Ch%C3%A2teau%2C%20Chapelle%20fun%C3%A9raire%20de%20la%20famille%20Margaine%202.jpg",
+          "title": "Sainte-Menehould, Cimetière du Château, Chapelle funéraire de la famille Margaine 2.jpg",
+          "description": "Vue de la chapelle funéraire de la famille Margaine au cimetière du Château de Sainte-Menehould dans la Marne. Parmi les membres de la famille sont inhumés Camille Margaine (1829–1893), ancien député de la Marne, ancien sénateur de la Marne et ancien maire de Sainte-Menehould, et son fils Alfred Margaine (1870–1953), ancien député de la Marne et ancien ministre.",
+          "width": 3456,
+          "height": 4608,
+          "size": 4921601,
+          "timestamp": "2025-01-09T10:38:38Z",
+          "author": "Antoine Rex",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/L%27Argonne_apres_la_Guerre_-_Vienne-Le-Chateau_-_La_Gare_et_l%27Hotel_ou_Hostelle_%28P._Desingly%2C_editeur%2C_Sainte-Menehould%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AL'Argonne%20apres%20la%20Guerre%20-%20Vienne-Le-Chateau%20-%20La%20Gare%20et%20l'Hotel%20ou%20Hostelle%20(P.%20Desingly%2C%20editeur%2C%20Sainte-Menehould).jpg",
+          "title": "L'Argonne apres la Guerre - Vienne-Le-Chateau - La Gare et l'Hotel ou Hostelle (P. Desingly, editeur, Sainte-Menehould).jpg",
+          "description": "L'Argonne apres la Guerre - Vienne-Le-Chateau - La Gare et l'Hotel ou Hostelle (P. Desingly, editeur, Sainte-Menehould)",
+          "width": 1625,
+          "height": 1073,
+          "size": 631416,
+          "timestamp": "2023-03-10T16:40:31Z",
+          "author": "Unknown photographer",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Lavoir de la rue du Moulin",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Gezicht_op_de_Rue_des_Bois_met_de_stallen_van_de_postpaarden_te_Sainte-Menehould%2C_RP-F-2001-7-1683-4.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGezicht%20op%20de%20Rue%20des%20Bois%20met%20de%20stallen%20van%20de%20postpaarden%20te%20Sainte-Menehould%2C%20RP-F-2001-7-1683-4.jpg",
+          "title": "Gezicht op de Rue des Bois met de stallen van de postpaarden te Sainte-Menehould, RP-F-2001-7-1683-4.jpg",
+          "description": "IdentificatieTitel(s): Gezicht op de Rue des Bois met de stallen van de postpaarden te Sainte-Menehould Vue de la poste-aux-chevaux (titel op object)Objecttype: foto bladzijde Objectnummer: RP-F-2001-7-1683-4Opschriften / Merken: opschrift, recto, gedrukt: ‘dans la rue des Bois, à Ste Ménehould’ VervaardigingVervaardiger: fotograaf: Charles Leymarie (vermeld op object) Plaats vervaardiging: Sainte-MenehouldDatering: ca. 1861 - in of voor 1866Materiaal en TechniekFysieke kenmerken: albuminedrukMa",
+          "width": 6778,
+          "height": 5398,
+          "size": 4499380,
+          "timestamp": "2024-05-29T19:40:11Z",
+          "author": "Rijksmuseum",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Rue_Camille_Margaine_%C3%A0_Sainte-Menehould.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARue%20Camille%20Margaine%20%C3%A0%20Sainte-Menehould.jpg",
+          "title": "Rue Camille Margaine à Sainte-Menehould.jpg",
+          "description": "Rue Camille Margaine à Sainte-Menehould",
+          "width": 4032,
+          "height": 3024,
+          "size": 2910674,
+          "timestamp": "2022-01-26T12:19:28Z",
+          "author": "AirScott",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Rue_Chanzy_%C3%A0_Sainte-Menehould.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARue%20Chanzy%20%C3%A0%20Sainte-Menehould.jpg",
+          "title": "Rue Chanzy à Sainte-Menehould.jpg",
+          "description": "Rue Chanzy à Sainte-Menehould",
+          "width": 4032,
+          "height": 3024,
+          "size": 2530130,
+          "timestamp": "2022-01-26T12:19:30Z",
+          "author": "AirScott",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

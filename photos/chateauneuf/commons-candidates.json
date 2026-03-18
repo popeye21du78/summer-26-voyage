@@ -1,79 +1,132 @@
 {
   "slug": "chateauneuf",
   "nom": "Châteauneuf",
-  "fetchedAt": "2026-03-13T13:21:12.828Z",
+  "fetchedAt": "2026-03-15T15:06:05.827Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Ch%C3%A2teauneuf_%2821%29_Maison_du_Mouton_-_Ext%C3%A9rieur_-_02.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teauneuf%20(21)%20Maison%20du%20Mouton%20-%20Ext%C3%A9rieur%20-%2002.jpg",
-      "title": "Châteauneuf (21) Maison du Mouton - Extérieur - 02.jpg",
-      "width": 2100,
-      "height": 1400,
-      "size": 1958846,
-      "timestamp": "2021-02-22T17:47:50Z",
-      "author": "GO69",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Ch%C3%A2teauneuf-de-Grasse_-_dessin_-_HR_%28Henri_Rivi%C3%A8re%29_%28monogr.%29_-_btv1b53259084h.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teauneuf-de-Grasse%20-%20dessin%20-%20HR%20(Henri%20Rivi%C3%A8re)%20(monogr.)%20-%20btv1b53259084h.jpg",
+      "title": "Châteauneuf-de-Grasse - dessin - HR (Henri Rivière) (monogr.) - btv1b53259084h.jpg",
+      "width": 6924,
+      "height": 4682,
+      "size": 6059267,
+      "timestamp": "2024-11-01T03:41:54Z",
+      "author": "<div class=\"fn value\">\nRivière, Henri (1864-1951). Dessinateur</div>",
+      "license": "Public domain",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Ch%C3%A2teauneuf_%2821%29_Maison_Bichot_-_Ext%C3%A9rieur_-_01.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teauneuf%20(21)%20Maison%20Bichot%20-%20Ext%C3%A9rieur%20-%2001.jpg",
-      "title": "Châteauneuf (21) Maison Bichot - Extérieur - 01.jpg",
-      "width": 2100,
-      "height": 1400,
-      "size": 1664080,
-      "timestamp": "2021-02-22T17:55:02Z",
-      "author": "GO69",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Chateauneuf-d%27Is%C3%A8re._-_Les_4_Chemins_%2834063007500%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateauneuf-d'Is%C3%A8re.%20-%20Les%204%20Chemins%20(34063007500).jpg",
+      "title": "Chateauneuf-d'Isère. - Les 4 Chemins (34063007500).jpg",
+      "width": 3423,
+      "height": 2242,
+      "size": 773197,
+      "timestamp": "2017-07-29T11:37:38Z",
+      "author": "Médiathèques Valence Romans agglomération",
+      "license": "No restrictions",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 6
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Ch%C3%A2teau_de_Ch%C3%A2teauneuf_%2835433422176%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Ch%C3%A2teauneuf%20(35433422176).jpg",
-      "title": "Château de Châteauneuf (35433422176).jpg",
-      "width": 4608,
-      "height": 3456,
-      "size": 5925376,
-      "timestamp": "2021-03-06T10:01:47Z",
-      "author": "Elliott Brown",
-      "license": "CC BY-SA 2.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Ch%C3%A2teauneuf-de-Mazenc_-_Vue_g%C3%A9n%C3%A9rale_%2834407473362%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teauneuf-de-Mazenc%20-%20Vue%20g%C3%A9n%C3%A9rale%20(34407473362).jpg",
+      "title": "Châteauneuf-de-Mazenc - Vue générale (34407473362).jpg",
+      "width": 3467,
+      "height": 2216,
+      "size": 853805,
+      "timestamp": "2017-07-29T11:48:18Z",
+      "author": "Médiathèques Valence Romans agglomération",
+      "license": "No restrictions",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 6
     }
   ],
   "lieux": [
     {
       "label": "Chemin de ronde",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Chateauneuf-d%27Is%C3%A8re._-_Les_4_Chemins_%2834063007500%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateauneuf-d'Is%C3%A8re.%20-%20Les%204%20Chemins%20(34063007500).jpg",
+          "title": "Chateauneuf-d'Isère. - Les 4 Chemins (34063007500).jpg",
+          "width": 3423,
+          "height": 2242,
+          "size": 773197,
+          "timestamp": "2017-07-29T11:37:38Z",
+          "author": "Médiathèques Valence Romans agglomération",
+          "license": "No restrictions",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Chateauneuf-du-Rhone_-_La_Gare_et_les_Montagnes_du_Robinet_%2834317298371%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateauneuf-du-Rhone%20-%20La%20Gare%20et%20les%20Montagnes%20du%20Robinet%20(34317298371).jpg",
+          "title": "Chateauneuf-du-Rhone - La Gare et les Montagnes du Robinet (34317298371).jpg",
+          "width": 3434,
+          "height": 2242,
+          "size": 895538,
+          "timestamp": "2017-07-29T11:53:38Z",
+          "author": "Médiathèques Valence Romans agglomération",
+          "license": "No restrictions",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Ch%C3%A2teauneuf_2005-06-12.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teauneuf%202005-06-12.jpg",
+          "title": "Châteauneuf 2005-06-12.jpg",
+          "width": 1600,
+          "height": 1200,
+          "size": 804186,
+          "timestamp": "2005-06-20T06:53:47Z",
+          "author": "Inconnu",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     },
     {
       "label": "Cour intérieure",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Ch%C3%A2teauneuf-FR-21-ch%C3%A2teau-cour_int%C3%A9rieure-02.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teauneuf-FR-21-ch%C3%A2teau-cour%20int%C3%A9rieure-02.jpg",
-          "title": "Châteauneuf-FR-21-château-cour intérieure-02.jpg",
-          "width": 3481,
-          "height": 2857,
-          "size": 3654926,
-          "timestamp": "2019-07-07T15:36:14Z",
-          "author": "François GOGLINS",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Ch%C3%A2teauneuf-de-Grasse_-_dessin_-_HR_%28Henri_Rivi%C3%A8re%29_%28monogr.%29_-_btv1b53259084h.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teauneuf-de-Grasse%20-%20dessin%20-%20HR%20(Henri%20Rivi%C3%A8re)%20(monogr.)%20-%20btv1b53259084h.jpg",
+          "title": "Châteauneuf-de-Grasse - dessin - HR (Henri Rivière) (monogr.) - btv1b53259084h.jpg",
+          "width": 6924,
+          "height": 4682,
+          "size": 6059267,
+          "timestamp": "2024-11-01T03:41:54Z",
+          "author": "<div class=\"fn value\">\nRivière, Henri (1864-1951). Dessinateur</div>",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Ch%C3%A2teauneuf-FR-21-ch%C3%A2teau-cour_int%C3%A9rieure-01.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teauneuf-FR-21-ch%C3%A2teau-cour%20int%C3%A9rieure-01.jpg",
-          "title": "Châteauneuf-FR-21-château-cour intérieure-01.jpg",
-          "width": 3481,
-          "height": 2857,
-          "size": 3786410,
-          "timestamp": "2019-07-07T15:36:14Z",
-          "author": "François GOGLINS",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/%2826-9-24%29%2C_Ch%C3%A2teauneuf-du-Pape%2C_ce_qui_reste_d%27une_vigne_du_Clos_des_Papes%2C_la_vigne_est_presque_compl%C3%A9tement_recouverte_de_galets_-_btv1b531384031.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A(26-9-24)%2C%20Ch%C3%A2teauneuf-du-Pape%2C%20ce%20qui%20reste%20d'une%20vigne%20du%20Clos%20des%20Papes%2C%20la%20vigne%20est%20presque%20compl%C3%A9tement%20recouverte%20de%20galets%20-%20btv1b531384031.jpg",
+          "title": "(26-9-24), Châteauneuf-du-Pape, ce qui reste d'une vigne du Clos des Papes, la vigne est presque complétement recouverte de galets - btv1b531384031.jpg",
+          "width": 8436,
+          "height": 6085,
+          "size": 4370114,
+          "timestamp": "2025-03-08T15:42:16Z",
+          "author": "<div class=\"fn value\">\nAgence Rol. Agence photographique (commanditaire)</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Chateauneuf-d%27Is%C3%A8re._-_Les_Baumes_%2833605683554%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateauneuf-d'Is%C3%A8re.%20-%20Les%20Baumes%20(33605683554).jpg",
+          "title": "Chateauneuf-d'Isère. - Les Baumes (33605683554).jpg",
+          "width": 3423,
+          "height": 2242,
+          "size": 808767,
+          "timestamp": "2017-07-29T11:56:42Z",
+          "author": "Médiathèques Valence Romans agglomération",
+          "license": "No restrictions",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
         }
@@ -81,7 +134,47 @@
     },
     {
       "label": "Chapelle gothique",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Chateauneuf-d%27Is%C3%A8re._-_Les_4_Chemins_%2834063007500%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateauneuf-d'Is%C3%A8re.%20-%20Les%204%20Chemins%20(34063007500).jpg",
+          "title": "Chateauneuf-d'Isère. - Les 4 Chemins (34063007500).jpg",
+          "width": 3423,
+          "height": 2242,
+          "size": 773197,
+          "timestamp": "2017-07-29T11:37:38Z",
+          "author": "Médiathèques Valence Romans agglomération",
+          "license": "No restrictions",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Chateauneuf-d%27Is%C3%A8re_%28Dr%C3%B4me%29._-_Vue_g%C3%A9n%C3%A9rale_%2834063007760%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateauneuf-d'Is%C3%A8re%20(Dr%C3%B4me).%20-%20Vue%20g%C3%A9n%C3%A9rale%20(34063007760).jpg",
+          "title": "Chateauneuf-d'Isère (Drôme). - Vue générale (34063007760).jpg",
+          "width": 3423,
+          "height": 2242,
+          "size": 845944,
+          "timestamp": "2017-07-29T11:56:03Z",
+          "author": "Médiathèques Valence Romans agglomération",
+          "license": "No restrictions",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Chateauneuf_castle_-_Look_to_the_chapel_from_the_appartments.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateauneuf%20castle%20-%20Look%20to%20the%20chapel%20from%20the%20appartments.jpg",
+          "title": "Chateauneuf castle - Look to the chapel from the appartments.jpg",
+          "width": 2112,
+          "height": 2816,
+          "size": 1005290,
+          "timestamp": "2016-10-06T13:24:43Z",
+          "author": "Tangopaso",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Terrasse sur les jardins",

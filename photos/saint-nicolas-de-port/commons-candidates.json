@@ -1,12 +1,13 @@
 {
   "slug": "saint-nicolas-de-port",
   "nom": "Saint-Nicolas-de-Port",
-  "fetchedAt": "2026-03-14T12:10:16.820Z",
+  "fetchedAt": "2026-03-18T18:32:46.295Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Saint-Nicolas-de-Port_%28Meurthe-et-Moselle%29_-_Basilique_Saint-Nicolas_-_Vo%C3%BBtes_de_la_nef.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Nicolas-de-Port%20(Meurthe-et-Moselle)%20-%20Basilique%20Saint-Nicolas%20-%20Vo%C3%BBtes%20de%20la%20nef.jpg",
       "title": "Saint-Nicolas-de-Port (Meurthe-et-Moselle) - Basilique Saint-Nicolas - Voûtes de la nef.jpg",
+      "description": "Saint-Nicolas-de-Port (Meurthe-et-Moselle) - Basilique Saint-Nicolas  - Voûtes de la nef.",
       "width": 4645,
       "height": 3140,
       "size": 3616048,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Saint-Nicolas-de-Port_%28Meurthe-et-Moselle%29_-_Basilique_Saint-Nicolas_-_Nef.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Nicolas-de-Port%20(Meurthe-et-Moselle)%20-%20Basilique%20Saint-Nicolas%20-%20Nef.jpg",
       "title": "Saint-Nicolas-de-Port (Meurthe-et-Moselle) - Basilique Saint-Nicolas - Nef.jpg",
+      "description": "Saint-Nicolas-de-Port (Meurthe-et-Moselle) - Basilique Saint-Nicolas  - Nef.",
       "width": 4790,
       "height": 3175,
       "size": 5761606,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Saint-Nicolas-de-Port_%28Meurthe-et-Moselle%29_-_Basilique_Saint-Nicolas.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Nicolas-de-Port%20(Meurthe-et-Moselle)%20-%20Basilique%20Saint-Nicolas.jpg",
       "title": "Saint-Nicolas-de-Port (Meurthe-et-Moselle) - Basilique Saint-Nicolas.jpg",
+      "description": "Saint-Nicolas-de-Port (Meurthe-et-Moselle) - Basilique Saint-Nicolas.",
       "width": 4893,
       "height": 3240,
       "size": 5266003,
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Basilique_Saint-Nicolas_de-Port_de_nuit_01.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABasilique%20Saint-Nicolas%20de-Port%20de%20nuit%2001.jpg",
           "title": "Basilique Saint-Nicolas de-Port de nuit 01.jpg",
+          "description": "Basilique Saint-Nicolas (Saint-Nicolas-de-Port) de nuit. Vue depuis la rue des Cailloux.",
           "width": 5568,
           "height": 3712,
           "size": 3384316,
@@ -58,12 +62,13 @@
           "author": "Antoine Taveneaux",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Basilique_Saint-Nicolas_de-Port_de_nuit_03.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABasilique%20Saint-Nicolas%20de-Port%20de%20nuit%2003.jpg",
           "title": "Basilique Saint-Nicolas de-Port de nuit 03.jpg",
+          "description": "Basilique Saint-Nicolas (Saint-Nicolas-de-Port) de nuit. Vue depuis la rue des Cailloux.",
           "width": 5568,
           "height": 3712,
           "size": 2699307,
@@ -71,20 +76,21 @@
           "author": "Antoine Taveneaux",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Saint-Nicolas-de-Port_Basilique_Saint-Nicolas_808.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Nicolas-de-Port%20Basilique%20Saint-Nicolas%20808.jpg",
-          "title": "Saint-Nicolas-de-Port Basilique Saint-Nicolas 808.jpg",
-          "width": 3685,
-          "height": 2457,
-          "size": 6415448,
-          "timestamp": "2015-04-30T18:27:48Z",
-          "author": "GFreihalter",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Basilique_Saint-Nicolas_de-Port_de_nuit_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABasilique%20Saint-Nicolas%20de-Port%20de%20nuit%2002.jpg",
+          "title": "Basilique Saint-Nicolas de-Port de nuit 02.jpg",
+          "description": "Basilique Saint-Nicolas (Saint-Nicolas-de-Port) de nuit. Vue depuis la rue des Cailloux.",
+          "width": 3565,
+          "height": 5348,
+          "size": 5931574,
+          "timestamp": "2020-09-20T07:57:55Z",
+          "author": "Antoine Taveneaux",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         }
       ]
     },
@@ -92,53 +98,114 @@
       "label": "Musée Français de la Brasserie",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Decauville_wagonettes_-_Transport_de_blocs_de_glace_sur_les_bords_du_canal_de_la_Marne_au_Rhin_vers_les_Grandes_Brasseries_R%C3%A9unies_%C3%A0_Max%C3%A9ville_%28Meurthe-et-Moselle_%28Image%27Est_FI-0517-0019%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADecauville%20wagonettes%20-%20Transport%20de%20blocs%20de%20glace%20sur%20les%20bords%20du%20canal%20de%20la%20Marne%20au%20Rhin%20vers%20les%20Grandes%20Brasseries%20R%C3%A9unies%20%C3%A0%20Max%C3%A9ville%20(Meurthe-et-Moselle%20(Image'Est%20FI-0517-0019).jpg",
-          "title": "Decauville wagonettes - Transport de blocs de glace sur les bords du canal de la Marne au Rhin vers les Grandes Brasseries Réunies à Maxéville (Meurthe-et-Moselle (Image'Est FI-0517-0019).jpg",
-          "width": 1920,
-          "height": 1276,
-          "size": 1606715,
-          "timestamp": "2025-01-20T09:38:05Z",
-          "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/La_grue_du_port_Saint-Nicolas%2C_D.5347.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20grue%20du%20port%20Saint-Nicolas%2C%20D.5347.jpg",
+          "title": "La grue du port Saint-Nicolas, D.5347.jpg",
+          "description": "Auteur(s):\n\nSaint-Aubin, Gabriel de (Paris, 14–04–1724 - Paris, 14–02–1780), dessinateur\n\n\nDate de production:\n\nEn 1775\n\n\nType(s) d'objet(s):\n\nArts graphiques, Dessin\n\n\nDénomination(s):\n\nDessin\n\n\nDimensions - Oeuvre:\n\n\n   Hauteur : 10.3 cm\n   Largeur : 13 cm\n\nDimensions - Passe-partout:\n\n   Hauteur : 50 cm\n   Largeur : 40 cm\n\n\n\nMarques, inscriptions, poinçons:\n\nSignature et date - en bas à gauche : 1775\nInscription - en bas de la main de Destailleur : \"vue de la pompe (sic) à St Nicolas\" et en b",
+          "width": 1636,
+          "height": 1308,
+          "size": 1781297,
+          "timestamp": "2023-06-26T12:17:52Z",
+          "author": "Saint-Aubin, Gabriel de (Paris, 14–04–1724 - Paris, 14–02–1780), dessinateur",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/La_grue_du_port_Saint-Nicolas%2C_D.5347%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20grue%20du%20port%20Saint-Nicolas%2C%20D.5347(2).jpg",
+          "title": "La grue du port Saint-Nicolas, D.5347(2).jpg",
+          "description": "Auteur(s):\n\nSaint-Aubin, Gabriel de (Paris, 14–04–1724 - Paris, 14–02–1780), dessinateur\n\n\nDate de production:\n\nEn 1775\n\n\nType(s) d'objet(s):\n\nArts graphiques, Dessin\n\n\nDénomination(s):\n\nDessin\n\n\nDimensions - Oeuvre:\n\n\n   Hauteur : 10.3 cm\n   Largeur : 13 cm\n\nDimensions - Passe-partout:\n\n   Hauteur : 50 cm\n   Largeur : 40 cm\n\n\n\nMarques, inscriptions, poinçons:\n\nSignature et date - en bas à gauche : 1775\nInscription - en bas de la main de Destailleur : \"vue de la pompe (sic) à St Nicolas\" et en b",
+          "width": 4008,
+          "height": 3137,
+          "size": 2258473,
+          "timestamp": "2023-06-26T12:18:14Z",
+          "author": "Saint-Aubin, Gabriel de (Paris, 14–04–1724 - Paris, 14–02–1780), dessinateur",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Nicolas_Jean-Baptiste_Raguenet_-_Le_Port_Saint-Bernard%2C_vu_de_l%27Arsenal_-_P281_-_Mus%C3%A9e_Carnavalet.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANicolas%20Jean-Baptiste%20Raguenet%20-%20Le%20Port%20Saint-Bernard%2C%20vu%20de%20l'Arsenal%20-%20P281%20-%20Mus%C3%A9e%20Carnavalet.jpg",
+          "title": "Nicolas Jean-Baptiste Raguenet - Le Port Saint-Bernard, vu de l'Arsenal - P281 - Musée Carnavalet.jpg",
+          "description": "",
+          "width": 5603,
+          "height": 2983,
+          "size": 2568033,
+          "timestamp": "2020-12-31T02:41:47Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Nicolas-Jean-Baptiste_Raguenet\" class=\"extiw\" title=\"w:en:Nicolas-Jean-Baptiste Raguenet\"><span title=\"French painter (1715-1793)\">Nicolas-Jean-Baptiste Raguenet</span></a></bdi>",
           "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Grandes-brasseries-de-Saint-Nicolas-de-Port.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrandes-brasseries-de-Saint-Nicolas-de-Port.jpg",
-          "title": "Grandes-brasseries-de-Saint-Nicolas-de-Port.jpg",
-          "width": 3872,
-          "height": 2592,
-          "size": 2441791,
-          "timestamp": "2012-01-02T18:40:32Z",
-          "author": "Cédric Amey",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/French_museum_of_brewery.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrench%20museum%20of%20brewery.jpg",
-          "title": "French museum of brewery.jpg",
-          "width": 4928,
-          "height": 3264,
-          "size": 3419070,
-          "timestamp": "2013-02-11T12:43:55Z",
-          "author": "Antoine Taveneaux",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
         }
       ]
     },
     {
       "label": "Passerelle sur la Meurthe",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Le_port_Saint-Nicolas%2C_PPG3148.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20port%20Saint-Nicolas%2C%20PPG3148.jpg",
+          "title": "Le port Saint-Nicolas, PPG3148.jpg",
+          "description": "Auteur(s):\n\nRaffaëlli, Jean-François (Paris, 20–04–1850 - Paris, 29–02–1924), graveur\n\n\nDate de production:\n\nEn 1911\nDatation en siècle: \n1er quart du 20e siècle\n\n\n\nType(s) d'objet(s):\n\nArts graphiques, Estampe\n\n\nDénomination(s):\n\nEstampe originale\n\n\nMatériaux et techniques:\n\nPointe sèche, Papier Japon, Estampe en couleurs\n\n\nDimensions - Oeuvre:\n\n\n   Hauteur : 47.5 cm\n   Largeur : 65.2 cm\n\nDimensions - Image:\n\n   Hauteur : 36.5 cm\n   Largeur : 57.5 cm\n\n\n\nDescription iconographique:\n\n\nL'estampe r",
+          "width": 6744,
+          "height": 4516,
+          "size": 3593019,
+          "timestamp": "2023-08-06T08:06:19Z",
+          "author": "Raffaëlli, Jean-François (Paris, 20–04–1850 - Paris, 29–02–1924), graveur",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Jardin du Cloître",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Vue_g%C3%A9n%C3%A9rale_de_Paris%2C_prise_du_belv%C3%A9d%C3%A8re_de_la_maison_de_monsieur_Fournel%2C_rue_des_Boulangers%2C_foss%C3%A9s_Saint-Victor%2C_5%C3%A8m%2C_PH18627.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20g%C3%A9n%C3%A9rale%20de%20Paris%2C%20prise%20du%20belv%C3%A9d%C3%A8re%20de%20la%20maison%20de%20monsieur%20Fournel%2C%20rue%20des%20Boulangers%2C%20foss%C3%A9s%20Saint-Victor%2C%205%C3%A8m%2C%20PH18627.jpg",
+          "title": "Vue générale de Paris, prise du belvédère de la maison de monsieur Fournel, rue des Boulangers, fossés Saint-Victor, 5èm, PH18627.jpg",
+          "description": "Auteur(s):\n\nMarville, Charles (Charles-François Bossu, dit) (17–07–1813 - 01–06–1879), photographe\nMarville, Charles (Charles-François Bossu, dit) (17–07–1813 - 01–06–1879), tireur de photographies\nLespinasse, Louis-Nicolas de, Chevalier (Pouilly-sur-Loire, en 1734 - Paris, entre 1803 et 1808), dessinateur\n\n\n\nAutre titre:\n\nVue intérieure de Paris prise du belveder de la maison de Mr Fournel, rue des Boulangers, Fossés St Victor, c'est à dire à deux cents pieds du niveau de la rivière de Seine. (",
+          "width": 6011,
+          "height": 3451,
+          "size": 3800928,
+          "timestamp": "2023-05-18T18:47:42Z",
+          "author": "Marville, Charles (Charles-François Bossu, dit) (17–07–1813 - 01–06–1879), photographe",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Vue_g%C3%A9n%C3%A9rale_de_Paris%2C_prise_du_belv%C3%A9d%C3%A8re_de_la_maison_de_monsieur_Fournel%2C_rue_des_Boulangers%2C_foss%C3%A9s_Saint-Victor%2C_5%C3%A8m%2C_PH18627%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20g%C3%A9n%C3%A9rale%20de%20Paris%2C%20prise%20du%20belv%C3%A9d%C3%A8re%20de%20la%20maison%20de%20monsieur%20Fournel%2C%20rue%20des%20Boulangers%2C%20foss%C3%A9s%20Saint-Victor%2C%205%C3%A8m%2C%20PH18627(2).jpg",
+          "title": "Vue générale de Paris, prise du belvédère de la maison de monsieur Fournel, rue des Boulangers, fossés Saint-Victor, 5èm, PH18627(2).jpg",
+          "description": "Auteur(s):\n\nMarville, Charles (Charles-François Bossu, dit) (17–07–1813 - 01–06–1879), photographe\nMarville, Charles (Charles-François Bossu, dit) (17–07–1813 - 01–06–1879), tireur de photographies\nLespinasse, Louis-Nicolas de, Chevalier (Pouilly-sur-Loire, en 1734 - Paris, entre 1803 et 1808), dessinateur\n\n\n\nAutre titre:\n\nVue intérieure de Paris prise du belveder de la maison de Mr Fournel, rue des Boulangers, Fossés St Victor, c'est à dire à deux cents pieds du niveau de la rivière de Seine. (",
+          "width": 5802,
+          "height": 4423,
+          "size": 3373281,
+          "timestamp": "2023-05-18T18:48:14Z",
+          "author": "Marville, Charles (Charles-François Bossu, dit) (17–07–1813 - 01–06–1879), photographe",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Vue_g%C3%A9n%C3%A9rale_de_Paris%2C_prise_du_belv%C3%A9d%C3%A8re_de_la_maison_de_Monsieur_Fournel%2C_rue_des_Boulangers%2C_Foss%C3%A9s_Saint-Victor%2C_5%C3%A8m%2C_PH18630.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20g%C3%A9n%C3%A9rale%20de%20Paris%2C%20prise%20du%20belv%C3%A9d%C3%A8re%20de%20la%20maison%20de%20Monsieur%20Fournel%2C%20rue%20des%20Boulangers%2C%20Foss%C3%A9s%20Saint-Victor%2C%205%C3%A8m%2C%20PH18630.jpg",
+          "title": "Vue générale de Paris, prise du belvédère de la maison de Monsieur Fournel, rue des Boulangers, Fossés Saint-Victor, 5èm, PH18630.jpg",
+          "description": "Auteur(s):\n\nMarville, Charles (Charles-François Bossu, dit) (17–07–1813 - 01–06–1879), photographe\nMarville, Charles (Charles-François Bossu, dit) (17–07–1813 - 01–06–1879), tireur de photographies\n\n\n\nAutre titre:\n\nVue intérieure de Paris prise du belveder de la maison de Mr Fournel, rue des Boulangers, Fossés St Victor, c'est à dire à deux cents pieds du niveau de la rivière de Seine. (Titre inscrit (lettre))\n\n\nDate de production:\n\nEntre 1871 et 1878\nDatation en siècle: \n2e moitié du 19e siècle",
+          "width": 5948,
+          "height": 3722,
+          "size": 4590644,
+          "timestamp": "2023-05-18T18:49:28Z",
+          "author": "Marville, Charles (Charles-François Bossu, dit) (17–07–1813 - 01–06–1879), photographe",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     }
   ]
 }

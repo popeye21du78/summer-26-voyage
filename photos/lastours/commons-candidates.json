@@ -1,136 +1,59 @@
 {
   "slug": "lastours",
   "nom": "Lastours",
-  "fetchedAt": "2026-03-13T15:22:33.599Z",
+  "fetchedAt": "2026-03-16T19:40:09.665Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/ISS050-E-53488_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS050-E-53488%20-%20View%20of%20Earth.jpg",
-      "title": "ISS050-E-53488 - View of Earth.jpg",
-      "width": 4928,
-      "height": 3280,
-      "size": 2002965,
-      "timestamp": "2021-03-28T17:45:19Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Lastours_-_Orbiel.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALastours%20-%20Orbiel.jpg",
+      "title": "Lastours - Orbiel.jpg",
+      "description": "L'Orbiel à Lastours, vu depuis les châteaux de Lastours.",
+      "width": 6000,
+      "height": 4000,
+      "size": 12616380,
+      "timestamp": "2022-04-15T15:03:53Z",
+      "author": "Tylwyth Eldar",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/ISS053-E-332487_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS053-E-332487%20-%20View%20of%20Earth.jpg",
-      "title": "ISS053-E-332487 - View of Earth.jpg",
-      "width": 5568,
-      "height": 3712,
-      "size": 5568051,
-      "timestamp": "2021-04-07T12:49:18Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Lastours_ch%C3%A2teau.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALastours%20ch%C3%A2teau.jpg",
+      "title": "Lastours château.jpg",
+      "description": "Le château de Lastours, Rilhac, Lastours, Haute-Vienne, France.",
+      "width": 3156,
+      "height": 2366,
+      "size": 2024473,
+      "timestamp": "2016-06-09T15:29:01Z",
+      "author": "Père Igor",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 8
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/ISS053-E-334455_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS053-E-334455%20-%20View%20of%20Earth.jpg",
-      "title": "ISS053-E-334455 - View of Earth.jpg",
-      "width": 5568,
-      "height": 3712,
-      "size": 5459617,
-      "timestamp": "2021-04-07T16:44:13Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Lastours_ch%C3%A2teau_%281%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALastours%20ch%C3%A2teau%20(1).jpg",
+      "title": "Lastours château (1).jpg",
+      "description": "Les ruines du château de Lastours, Rilhac-Lastours, Haute-Vienne, France.",
+      "width": 2996,
+      "height": 2251,
+      "size": 1380544,
+      "timestamp": "2016-06-10T20:24:53Z",
+      "author": "Père Igor",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 8
     }
   ],
   "lieux": [
     {
       "label": "Tour Cabaret",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Lastours_-_Cabaret_03.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALastours%20-%20Cabaret%2003.jpg",
-          "title": "Lastours - Cabaret 03.jpg",
-          "width": 6000,
-          "height": 4000,
-          "size": 13340289,
-          "timestamp": "2022-02-27T17:24:59Z",
-          "author": "Tylwyth Eldar",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Lastours_-_Cabaret_04.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALastours%20-%20Cabaret%2004.jpg",
-          "title": "Lastours - Cabaret 04.jpg",
-          "width": 6000,
-          "height": 4000,
-          "size": 14069390,
-          "timestamp": "2022-02-27T17:25:28Z",
-          "author": "Tylwyth Eldar",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Lastours_-_Cabaret_08.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALastours%20-%20Cabaret%2008.jpg",
-          "title": "Lastours - Cabaret 08.jpg",
-          "width": 6000,
-          "height": 4000,
-          "size": 13805414,
-          "timestamp": "2022-02-27T17:26:06Z",
-          "author": "Tylwyth Eldar",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Tour Régine",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Tour_R%C3%A9gine.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATour%20R%C3%A9gine.jpg",
-          "title": "Tour Régine.jpg",
-          "width": 3968,
-          "height": 2240,
-          "size": 1600135,
-          "timestamp": "2020-05-30T16:20:03Z",
-          "author": "Hernandlucas",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Vue_d%27ensemble_ch%C3%A2teaux_de_Lastours.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20d'ensemble%20ch%C3%A2teaux%20de%20Lastours.jpg",
-          "title": "Vue d'ensemble châteaux de Lastours.jpg",
-          "width": 2240,
-          "height": 3968,
-          "size": 1849192,
-          "timestamp": "2020-05-30T16:20:04Z",
-          "author": "Hernandlucas",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Tour_R%C3%A9gine_2.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATour%20R%C3%A9gine%202.jpg",
-          "title": "Tour Régine 2.jpg",
-          "width": 2240,
-          "height": 3968,
-          "size": 3033349,
-          "timestamp": "2020-05-30T16:20:06Z",
-          "author": "Hernandlucas",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        }
-      ]
+      "photos": []
     },
     {
       "label": "belvédère sur les quatre tours",

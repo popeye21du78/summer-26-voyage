@@ -1,52 +1,70 @@
 {
   "slug": "puy-mary",
   "nom": "Puy Mary",
-  "fetchedAt": "2026-03-14T11:40:02.752Z",
+  "fetchedAt": "2026-03-18T17:17:00.960Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Murat_Entremont_Bas_Farmhouse.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMurat%20Entremont%20Bas%20Farmhouse.jpg",
-      "title": "Murat Entremont Bas Farmhouse.jpg",
-      "width": 6008,
-      "height": 4008,
-      "size": 23395400,
-      "timestamp": "2024-12-29T18:27:38Z",
-      "author": "Ymblanter",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Vue_depuis_le_Puy_Mary_2.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20depuis%20le%20Puy%20Mary%202.jpg",
+      "title": "Vue depuis le Puy Mary 2.jpg",
+      "description": "Vue depuis le Puy Mary dans le département du Cantal en région Auvergne-Rhône-Alpes (France).",
+      "width": 4032,
+      "height": 3024,
+      "size": 4583876,
+      "timestamp": "2021-08-21T18:15:34Z",
+      "author": "Maciej Poltorak / Vanupied",
+      "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Murat_Entremont_Bas_view_to_the_east.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMurat%20Entremont%20Bas%20view%20to%20the%20east.jpg",
-      "title": "Murat Entremont Bas view to the east.jpg",
-      "width": 6008,
-      "height": 4008,
-      "size": 23776464,
-      "timestamp": "2024-12-29T19:27:26Z",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Le_Claux_View_of_Puy_de_Sancy_from_Puy_Mary.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Claux%20View%20of%20Puy%20de%20Sancy%20from%20Puy%20Mary.jpg",
+      "title": "Le Claux View of Puy de Sancy from Puy Mary.jpg",
+      "description": "View of Puy de Sancy from Puy Mary, Le Claux, Cantal, France",
+      "width": 6000,
+      "height": 4000,
+      "size": 17510016,
+      "timestamp": "2025-01-03T22:56:19Z",
       "author": "Ymblanter",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Murat_Entremont_Bas_view_to_the_northeast.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMurat%20Entremont%20Bas%20view%20to%20the%20northeast.jpg",
-      "title": "Murat Entremont Bas view to the northeast.jpg",
-      "width": 6008,
-      "height": 4008,
-      "size": 25125505,
-      "timestamp": "2024-12-29T19:27:26Z",
-      "author": "Ymblanter",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Puy_Mary_2020-08_1.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APuy%20Mary%202020-08%201.jpg",
+      "title": "Puy Mary 2020-08 1.jpg",
+      "description": "Vue depuis le parking en direction de l'ouest",
+      "width": 9284,
+      "height": 4927,
+      "size": 18688357,
+      "timestamp": "2025-03-03T18:27:33Z",
+      "author": "Pierre Goiffon",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     }
   ],
   "lieux": [
     {
       "label": "Escalier du Pas de Peyrol",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Pas_de_Peyrol_et_Puy_Mary.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APas%20de%20Peyrol%20et%20Puy%20Mary.JPG",
+          "title": "Pas de Peyrol et Puy Mary.JPG",
+          "description": "Le Puy Mary vu depuis le Pas de Peyrol. Escaliers en béton pour y grimper.",
+          "width": 2592,
+          "height": 1944,
+          "size": 2321377,
+          "timestamp": "2009-06-03T06:57:22Z",
+          "author": "Anthospace",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     },
     {
       "label": "Brèche de Roland",
@@ -55,6 +73,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Vue_depuis_le_sommet_du_Puy_Mary_sur_la_br%C3%AAche_de_Roland.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20depuis%20le%20sommet%20du%20Puy%20Mary%20sur%20la%20br%C3%AAche%20de%20Roland.jpg",
           "title": "Vue depuis le sommet du Puy Mary sur la brêche de Roland.jpg",
+          "description": "Vue depuis le sommet du Puy Mary sur la brêche de Roland",
           "width": 4608,
           "height": 3456,
           "size": 5678520,
@@ -62,12 +81,13 @@
           "author": "Yvesdebxl",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/F-Puy-Mary-2.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AF-Puy-Mary-2.jpg",
           "title": "F-Puy-Mary-2.jpg",
+          "description": "Blick vom Le Puy Mary (1783 m) in den Monts Cantal",
           "width": 2048,
           "height": 1360,
           "size": 1005656,
@@ -78,13 +98,14 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Puy_Mary_depuis_le_puy_de_Peyre-Arse_%282%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APuy%20Mary%20depuis%20le%20puy%20de%20Peyre-Arse%20(2).jpg",
-          "title": "Puy Mary depuis le puy de Peyre-Arse (2).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Puy_Mary_depuis_le_puy_de_Peyre-Arse.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APuy%20Mary%20depuis%20le%20puy%20de%20Peyre-Arse.jpg",
+          "title": "Puy Mary depuis le puy de Peyre-Arse.jpg",
+          "description": "Vue sur le Puy Mary et la Brèche de Roland‎ depuis le puy de Peyre-Arse‎ en mai 2022. Le puy Chavaroche est visible en arrière plan à gauche.",
           "width": 4000,
           "height": 2992,
-          "size": 4957034,
-          "timestamp": "2022-06-19T19:41:48Z",
+          "size": 4805535,
+          "timestamp": "2022-06-19T19:41:44Z",
           "author": "Nouill",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -96,23 +117,67 @@
       "label": "Col d’Eylac",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/FR-15-Puy_Mary24.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFR-15-Puy%20Mary24.JPG",
-          "title": "FR-15-Puy Mary24.JPG",
-          "width": 1600,
-          "height": 1200,
-          "size": 541527,
-          "timestamp": "2008-03-16T20:33:02Z",
-          "author": "Szeder László",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/PuyMary-1.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APuyMary-1.JPG",
+          "title": "PuyMary-1.JPG",
+          "description": "Blick vom Col de Serre auf den Puy Mary in den Monts Cantal",
+          "width": 2048,
+          "height": 1360,
+          "size": 712755,
+          "timestamp": "2012-06-21T09:21:22Z",
+          "author": "SchiDD",
+          "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Panorama_des_montagnes_du_Cantal%2C_pris_du_Puy_Griou%2C_19_juillet_1898_%286004733531%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanorama%20des%20montagnes%20du%20Cantal%2C%20pris%20du%20Puy%20Griou%2C%2019%20juillet%201898%20(6004733531).jpg",
+          "title": "Panorama des montagnes du Cantal, pris du Puy Griou, 19 juillet 1898 (6004733531).jpg",
+          "description": "Fonds Trutat - Photographie ancienne\nCote : TRU C 2359\nLocalisation : Fonds ancien (S 30) \nOriginal non communicable\nTitre : Panorama des montagnes du Cantal, pris du Puy Griou, 19 juillet 1898\nAuteur : Trutat, Eugène\nRôle de l’auteur : Photographe\nLieu de création : Cantal (Auvergne)\nDate de création : 1898\nMesures : : 9 x 12 cm\nObservations :  Note manuscrite de Trutat : \" Panorama des montagnes du Cantal, pris du Puy Griou, n° 4, 19 juillet 1898, obj. Goerz, pl. rouge \". \nMot(s)-clé(s) : \n-- ",
+          "width": 626,
+          "height": 424,
+          "size": 46855,
+          "timestamp": "2015-07-18T20:11:33Z",
+          "author": "Bibliothèque de Toulouse",
+          "license": "No restrictions",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Panorama_des_montagnes_du_Cantal%2C_pris_du_col_de_Griou%2C_Puy_Mary%2C_19_juillet_1898_%286004733529%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanorama%20des%20montagnes%20du%20Cantal%2C%20pris%20du%20col%20de%20Griou%2C%20Puy%20Mary%2C%2019%20juillet%201898%20(6004733529).jpg",
+          "title": "Panorama des montagnes du Cantal, pris du col de Griou, Puy Mary, 19 juillet 1898 (6004733529).jpg",
+          "description": "Fonds Trutat - Photographie ancienne\nCote : TRU C 2358\nLocalisation : Fonds ancien (S 30) \nOriginal non communicable\nTitre : Panorama des montagnes du Cantal, pris du col de Griou, Puy Mary, 19 juillet 1898\nAuteur : Trutat, Eugène\nRôle de l’auteur : Photographe\nLieu de création : Cantal (Auvergne)\nDate de création : 1898\nMesures : : 9 x 12 cm\nObservations :  Note manuscrite de Trutat : \" Panorama des montagnes du Cantal, pris du col de Griou, n° 3, Puy Mary, 19 juillet 1898, obj. Goerz, pl. roug",
+          "width": 628,
+          "height": 437,
+          "size": 39104,
+          "timestamp": "2015-07-18T20:10:54Z",
+          "author": "Bibliothèque de Toulouse",
+          "license": "No restrictions",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
         }
       ]
     },
     {
       "label": "Roc de la Tourte",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/J%C3%A9sus_mourant_des_martyrs_est_la_gloire_-_Puy_de_1634_%28copie%2C_Claude_Vignon%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJ%C3%A9sus%20mourant%20des%20martyrs%20est%20la%20gloire%20-%20Puy%20de%201634%20(copie%2C%20Claude%20Vignon).jpg",
+          "title": "Jésus mourant des martyrs est la gloire - Puy de 1634 (copie, Claude Vignon).jpg",
+          "description": "Jésus mourant des martyrs est la gloire - Puy de 1634 (copie, Claude Vignon)",
+          "width": 2766,
+          "height": 4003,
+          "size": 5099854,
+          "timestamp": "2021-09-14T22:05:21Z",
+          "author": "Seudo",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

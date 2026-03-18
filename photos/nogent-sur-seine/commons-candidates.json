@@ -1,12 +1,13 @@
 {
   "slug": "nogent-sur-seine",
   "nom": "Nogent-sur-Seine",
-  "fetchedAt": "2026-03-13T16:36:58.147Z",
+  "fetchedAt": "2026-03-17T21:53:23.953Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Nogent-sur-Seine_%2810%29_%C3%89glise_Saint-Laurent_-_Ext%C3%A9rieur_05.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANogent-sur-Seine%20(10)%20%C3%89glise%20Saint-Laurent%20-%20Ext%C3%A9rieur%2005.jpg",
       "title": "Nogent-sur-Seine (10) Église Saint-Laurent - Extérieur 05.jpg",
+      "description": "Extérieur de l'église Saint-Laurent de Nogent-sur-Seine (10). Transept sud et chapelles adjacentes.",
       "width": 1800,
       "height": 1200,
       "size": 844735,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Nogent-sur-Seine_%2810%29_%C3%89glise_Saint-Laurent_-_Ext%C3%A9rieur_08.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANogent-sur-Seine%20(10)%20%C3%89glise%20Saint-Laurent%20-%20Ext%C3%A9rieur%2008.jpg",
       "title": "Nogent-sur-Seine (10) Église Saint-Laurent - Extérieur 08.jpg",
+      "description": "Extérieur de l'église Saint-Laurent de Nogent-sur-Seine (10). Transept nord et chapelles adjacentes.",
       "width": 1800,
       "height": 1200,
       "size": 506870,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Nogent-sur-Seine_%2810%29_%C3%89glise_Saint-Laurent_-_Ext%C3%A9rieur_09.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANogent-sur-Seine%20(10)%20%C3%89glise%20Saint-Laurent%20-%20Ext%C3%A9rieur%2009.jpg",
       "title": "Nogent-sur-Seine (10) Église Saint-Laurent - Extérieur 09.jpg",
+      "description": "Extérieur de l'église Saint-Laurent de Nogent-sur-Seine (10). Couronnement de la première chapelle nord du choeur.",
       "width": 1800,
       "height": 1200,
       "size": 429888,
@@ -48,9 +51,24 @@
       "label": "Musée Camille Claudel",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Guerrier_d%27Antoine_Bourdelle_%28Mus%C3%A9e_Camille_Claudel%2C_Nogent-sur-Seine%29_%2843959097001%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGuerrier%20d'Antoine%20Bourdelle%20(Mus%C3%A9e%20Camille%20Claudel%2C%20Nogent-sur-Seine)%20(43959097001).jpg",
+          "title": "Guerrier d'Antoine Bourdelle (Musée Camille Claudel, Nogent-sur-Seine) (43959097001).jpg",
+          "description": "Guerrier allongé au glaive (au premier plan)\nÉtude pour le monument aux combattants et défenseurs du Tarn-et-Garonne de 1870-1871 (1893-1902)\nOeuvre d'Antoine Bourdelle (1861-1929)\n1909\nBronze, fonte Susse frères, épreuve n°7, 1989\nFemme bras sur la tête ou Femme bras levés, en blouse\nOeuvre d'Antoine Bourdelle (1861-1929)\n1907\nFonte Coubertin, épreuve n°6, 1990\nDeux oeuvres en dépôt du musée Bourdelle, Paris, 2017\nLegs Rhodia Dufet-Bourdelle à la ville de Paris, 2002\nMusée Camille Claudel à Nog",
+          "width": 2400,
+          "height": 1600,
+          "size": 2094359,
+          "timestamp": "2018-12-07T16:51:12Z",
+          "author": "Jean-Pierre Dalbéra",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Buste_de_Paul_Claudel_par_Camille_Claudel_%28Mus%C3%A9e_Camille_Claudel%2C_Nogent-sur-Seine%29_%2843928631272%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABuste%20de%20Paul%20Claudel%20par%20Camille%20Claudel%20(Mus%C3%A9e%20Camille%20Claudel%2C%20Nogent-sur-Seine)%20(43928631272).jpg",
           "title": "Buste de Paul Claudel par Camille Claudel (Musée Camille Claudel, Nogent-sur-Seine) (43928631272).jpg",
+          "description": "Buste de Paul Claudel à 37 ans\nOeuvre de Camille Claudel (1864-1943)\n1905\nBronze fonte Converset, 1912\nExemplaire ayant appartenu à Paul Claudel \nAchat aux descendants du modèle avec la participation du fonds du patrimoine, 2016 \nCollection du musée Camille Claudel à Nogent-sur-Seine\n\nSite du musée Camille Claudel\n\n&lt;a href=\"http://www.museecamilleclaudel.fr/fr/\" rel=\"nofollow\"&gt;www.museecamilleclaudel.fr/fr/&lt;/a&gt;",
           "width": 2133,
           "height": 1600,
           "size": 1555157,
@@ -64,23 +82,11 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Le_Mus%C3%A9e_Camille_Claudel_%28Nogent-sur-Seine%29_%2843261343084%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Mus%C3%A9e%20Camille%20Claudel%20(Nogent-sur-Seine)%20(43261343084).jpg",
           "title": "Le Musée Camille Claudel (Nogent-sur-Seine) (43261343084).jpg",
+          "description": "L'atrium du musée et les salles consacrées aux oeuvres de Camille Claudel\nLe bâtiment du musée Camille Claudel a été conçu par l’architecte Adelfo Scaranello ; associé dans sa réalisation au cabinet A.N.A.U.\nIl a ouvert ses portes en 2017\nL'histoire du musée Camille Claudel à Nogent-sur-Seine\n\n&lt;a href=\"http://www.museecamilleclaudel.fr/fr/musee/histoire-du-musee\" rel=\"nofollow\"&gt;www.museecamilleclaudel.fr/fr/musee/histoire-du-musee&lt;/a&gt;",
           "width": 2844,
           "height": 1600,
           "size": 3238661,
           "timestamp": "2018-12-07T16:51:18Z",
-          "author": "Jean-Pierre Dalbéra",
-          "license": "CC BY 2.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/L%27Aurore_de_Camille_Claudel_%28Mus%C3%A9e_Camille_Claudel%2C_Nogent-sur-Seine%29_%2843262267394%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AL'Aurore%20de%20Camille%20Claudel%20(Mus%C3%A9e%20Camille%20Claudel%2C%20Nogent-sur-Seine)%20(43262267394).jpg",
-          "title": "L'Aurore de Camille Claudel (Musée Camille Claudel, Nogent-sur-Seine) (43262267394).jpg",
-          "width": 2402,
-          "height": 1600,
-          "size": 2925944,
-          "timestamp": "2018-12-07T16:51:22Z",
           "author": "Jean-Pierre Dalbéra",
           "license": "CC BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -92,9 +98,24 @@
       "label": "Église Saint-Laurent",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Nogent-sur-Seine_%2810%29_%C3%89glise_Saint-Laurent_-_Int%C3%A9rieur_-_Tableau_de_Mo%C3%AFse_mourant_en_vue_de_la_terre_promise.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANogent-sur-Seine%20(10)%20%C3%89glise%20Saint-Laurent%20-%20Int%C3%A9rieur%20-%20Tableau%20de%20Mo%C3%AFse%20mourant%20en%20vue%20de%20la%20terre%20promise.jpg",
+          "title": "Nogent-sur-Seine (10) Église Saint-Laurent - Intérieur - Tableau de Moïse mourant en vue de la terre promise.jpg",
+          "description": "Moïse mourant en vue de la terre promise. Tableau en l'église Saint-Laurent de Nogent-sur-Seine (10).",
+          "width": 1766,
+          "height": 1051,
+          "size": 388282,
+          "timestamp": "2019-06-26T17:51:03Z",
+          "author": "GO69",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Nogent-sur-Seine-FR-10-%C3%A9glise-1.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANogent-sur-Seine-FR-10-%C3%A9glise-1.jpg",
           "title": "Nogent-sur-Seine-FR-10-église-1.jpg",
+          "description": "Église Saint-Laurent de Nogent-sur-Seine (Aube, France)",
           "width": 4032,
           "height": 3024,
           "size": 3054560,
@@ -108,6 +129,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Nogent-sur-Seine-FR-10-%C3%A9glise-2.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANogent-sur-Seine-FR-10-%C3%A9glise-2.jpg",
           "title": "Nogent-sur-Seine-FR-10-église-2.jpg",
+          "description": "Église Saint-Laurent de Nogent-sur-Seine (Aube, France)",
           "width": 4032,
           "height": 3024,
           "size": 3070429,
@@ -116,43 +138,59 @@
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Nogent-sur-Seine_%2810%29_%C3%89glise_Saint-Laurent_-_Int%C3%A9rieur_-_Tableau_de_la_Crucifixion.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANogent-sur-Seine%20(10)%20%C3%89glise%20Saint-Laurent%20-%20Int%C3%A9rieur%20-%20Tableau%20de%20la%20Crucifixion.jpg",
-          "title": "Nogent-sur-Seine (10) Église Saint-Laurent - Intérieur - Tableau de la Crucifixion.jpg",
-          "width": 1727,
-          "height": 1199,
-          "size": 599026,
-          "timestamp": "2018-08-19T13:28:15Z",
-          "author": "GO69",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
         }
       ]
     },
     {
       "label": "Jardin Botanique de Marnay",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Vue_de_la_Chapelle_et_Menagerie_-_a_la_Chapelle_pres_de_Nogent_sur_Seine_-_a_M._de_Boulogne_-_estampe_-_Dessin%C3%A9_par_Bettini_%3B_%28non_identifi%C3%A9%29_-_btv1b10024361q.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20de%20la%20Chapelle%20et%20Menagerie%20-%20a%20la%20Chapelle%20pres%20de%20Nogent%20sur%20Seine%20-%20a%20M.%20de%20Boulogne%20-%20estampe%20-%20Dessin%C3%A9%20par%20Bettini%20%3B%20(non%20identifi%C3%A9)%20-%20btv1b10024361q.jpg",
+          "title": "Vue de la Chapelle et Menagerie - a la Chapelle pres de Nogent sur Seine - a M. de Boulogne - estampe - Dessiné par Bettini ; (non identifié) - btv1b10024361q.jpg",
+          "description": "Sujet : Boullongne, Jean-Nicolas de (1726-1787) -- Habitations\nJardins à l'anglaise\nMénageries -- 18e siècle\nLacs de jardin\nSaint-Aubin (Aube) -- Château de la Chapelle-Godefroy -- Parc\nPaysages -- 18e siècle\nLangue : sans contenu linguistique\n\nÉditeur : [G. L. Le Rouge] (Paris)",
+          "width": 7153,
+          "height": 4744,
+          "size": 5124685,
+          "timestamp": "2025-03-05T07:26:58Z",
+          "author": "<div class=\"fn value\">\nBettini, Francesco (1735?-1805). Illustrateur</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Vue_du_Tombeau_ruine_a_la_Chapelle._-_pr%C3%A8s_Nogent_sur_Seine%2C_a_M._de_Boulogne_%3B_Autre_c%C3%B4t%C3%A9_du_Tombeau_en_retour_-_estampe_-_par_F._Bettini_%3B_%28non_identifi%C3%A9%29_-_btv1b10024262s.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20du%20Tombeau%20ruine%20a%20la%20Chapelle.%20-%20pr%C3%A8s%20Nogent%20sur%20Seine%2C%20a%20M.%20de%20Boulogne%20%3B%20Autre%20c%C3%B4t%C3%A9%20du%20Tombeau%20en%20retour%20-%20estampe%20-%20par%20F.%20Bettini%20%3B%20(non%20identifi%C3%A9)%20-%20btv1b10024262s.jpg",
+          "title": "Vue du Tombeau ruine a la Chapelle. - près Nogent sur Seine, a M. de Boulogne ; Autre côté du Tombeau en retour - estampe - par F. Bettini ; (non identifié) - btv1b10024262s.jpg",
+          "description": "Sujet : Boullongne, Jean-Nicolas de (1726-1787) -- Habitations\nFabriques de jardins -- 18e siècle\nRuines artificielles (18e siècle)\nTombeaux de jardin (18e siècle)\nSaint-Aubin (Aube) -- Château de la Chapelle-Godefroy -- Parc\nVues d'architecture -- 18e siècle\nLangue : sans contenu linguistique\n\nÉditeur : [G. L. Le Rouge] (Paris)",
+          "width": 7160,
+          "height": 4771,
+          "size": 5693920,
+          "timestamp": "2025-03-16T12:04:22Z",
+          "author": "<div class=\"fn value\">\nBettini, Francesco (1735?-1805). Illustrateur</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/V%C3%BCe_du_chateau_ruine_-_dans_les_Jardins_Anglais_de_la_Chapelle_-_pres_de_Nogent_sur_Seine_-_a_M._de_Boulogne_-_1784_-_par_M._Bettini_-_estampe_-_non_identifi%C3%A9_-_btv1b10024302p.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AV%C3%BCe%20du%20chateau%20ruine%20-%20dans%20les%20Jardins%20Anglais%20de%20la%20Chapelle%20-%20pres%20de%20Nogent%20sur%20Seine%20-%20a%20M.%20de%20Boulogne%20-%201784%20-%20par%20M.%20Bettini%20-%20estampe%20-%20non%20identifi%C3%A9%20-%20btv1b10024302p.jpg",
+          "title": "Vüe du chateau ruine - dans les Jardins Anglais de la Chapelle - pres de Nogent sur Seine - a M. de Boulogne - 1784 - par M. Bettini - estampe - non identifié - btv1b10024302p.jpg",
+          "description": "Sujet : Boullongne, Jean-Nicolas de (1726-1787) -- Habitations\nJardins à l'anglaise\nFabriques de jardins -- 18e siècle\nTours de jardins -- 18e siècle\nRuines artificielles (18e siècle)\nSaint-Aubin (Aube) -- Château de la Chapelle-Godefroy -- Parc\nPaysages -- 1701-1788\nLangue : sans contenu linguistique\n\nÉditeur : [G. L. Le Rouge] (Paris)",
+          "width": 7186,
+          "height": 4721,
+          "size": 5189668,
+          "timestamp": "2025-03-22T10:01:34Z",
+          "author": "<div class=\"fn value\">\nBettini, Francesco (1735?-1805). Illustrateur</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     },
     {
       "label": "Quais de Seine",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Gare_de_Flamboin-Gouaix_02.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGare%20de%20Flamboin-Gouaix%2002.jpg",
-          "title": "Gare de Flamboin-Gouaix 02.jpg",
-          "width": 2560,
-          "height": 1920,
-          "size": 1311126,
-          "timestamp": "2011-04-11T09:19:43Z",
-          "author": "Geralix",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        }
-      ]
+      "photos": []
     }
   ]
 }

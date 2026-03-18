@@ -1,46 +1,49 @@
 {
   "slug": "chateau-de-malbrouck",
   "nom": "Château de Malbrouck",
-  "fetchedAt": "2026-03-13T13:11:38.094Z",
+  "fetchedAt": "2026-03-15T21:37:44.678Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Mondorff%2C_Mairie.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMondorff%2C%20Mairie.jpg",
-      "title": "Mondorff, Mairie.jpg",
-      "width": 2590,
-      "height": 2185,
-      "size": 828289,
-      "timestamp": "2025-05-26T16:18:31Z",
-      "author": "Rauenstein",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Ch%C3%A2teau_de_Malbrouck_2018.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Malbrouck%202018.jpg",
+      "title": "Château de Malbrouck 2018.jpg",
+      "description": "Château de Malbrouck",
+      "width": 5520,
+      "height": 4144,
+      "size": 9344705,
+      "timestamp": "2020-09-16T18:15:34Z",
+      "author": "Nyoman Juniarta",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Chateau_de_Malbrouck_03_cropped.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau%20de%20Malbrouck%2003%20cropped.jpg",
+      "title": "Chateau de Malbrouck 03 cropped.jpg",
+      "description": "Le château de Malbrouck",
+      "width": 811,
+      "height": 600,
+      "size": 372626,
+      "timestamp": "2023-07-16T00:21:23Z",
+      "author": "Thierry Draus",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Ch%C3%A2teau_de_Malbrouck_4567.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Malbrouck%204567.jpg",
+      "title": "Château de Malbrouck 4567.jpg",
+      "description": "Château de Malbrouck",
+      "width": 2385,
+      "height": 1640,
+      "size": 965750,
+      "timestamp": "2010-09-19T21:07:03Z",
+      "author": "Orchi",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Synagog_Munneref%2C_M%C3%A4erz_2015-102.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASynagog%20Munneref%2C%20M%C3%A4erz%202015-102.jpg",
-      "title": "Synagog Munneref, Mäerz 2015-102.jpg",
-      "width": 5529,
-      "height": 4571,
-      "size": 12061199,
-      "timestamp": "2015-03-21T15:50:58Z",
-      "author": "Jwh",
-      "license": "CC BY-SA 3.0 lu",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Sch%C3%ABld_Kleng_Gare%2C_Munneref.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASch%C3%ABld%20Kleng%20Gare%2C%20Munneref.jpg",
-      "title": "Schëld Kleng Gare, Munneref.jpg",
-      "width": 2964,
-      "height": 1978,
-      "size": 3334038,
-      "timestamp": "2015-03-25T01:39:17Z",
-      "author": "Jwh",
-      "license": "CC BY-SA 3.0 lu",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 7
     }
   ],
   "lieux": [
@@ -55,6 +58,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Ch%C3%A2teau_de_Malbrouck_DSCF6996.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Malbrouck%20DSCF6996.jpg",
           "title": "Château de Malbrouck DSCF6996.jpg",
+          "description": "Cour intérieure du château de Malbrouck à Manderen (Moselle) à la tombée de la nuit.",
           "width": 6000,
           "height": 4000,
           "size": 13154374,
@@ -62,12 +66,13 @@
           "author": "Musicaline",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 4
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Ch%C3%A2teau_de_Malbrouck_DSCF6980.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Malbrouck%20DSCF6980.jpg",
           "title": "Château de Malbrouck DSCF6980.jpg",
+          "description": "Cour intérieure du château de Malbrouck à Manderen (Moselle) vue depuis la courtine sud.",
           "width": 5614,
           "height": 4032,
           "size": 15386139,
@@ -75,7 +80,7 @@
           "author": "Musicaline",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 4
         }
       ]
     },

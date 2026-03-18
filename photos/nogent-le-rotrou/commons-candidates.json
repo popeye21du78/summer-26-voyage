@@ -1,12 +1,13 @@
 {
   "slug": "nogent-le-rotrou",
   "nom": "Nogent-le-Rotrou",
-  "fetchedAt": "2026-03-13T16:36:42.849Z",
+  "fetchedAt": "2026-03-17T21:51:45.171Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Nogent-le-Rotrou_-_Ch%C3%A2teau_Saint-Jean_%28CP_ND%29_-_Verso.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANogent-le-Rotrou%20-%20Ch%C3%A2teau%20Saint-Jean%20(CP%20ND)%20-%20Verso.jpg",
       "title": "Nogent-le-Rotrou - Château Saint-Jean (CP ND) - Verso.jpg",
+      "description": "Carte postale du Château Saint-Jean à Nogent-le-Rotrou (Eure-et-Loir).\nTexte de la carte : « Nogent mardi matin- Ma [Pri] - Je pars pour mes affaires et je ne sais pas encore où je coucherai ce soir, à Blois, à Orléans ou ailleurs mais je te télégraphierai. »",
       "width": 3216,
       "height": 2096,
       "size": 1565988,
@@ -14,12 +15,13 @@
       "author": "Editions ND (début 20e siècle)",
       "license": "Public domain",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Nogent-le-Rotrou_-_Ch%C3%A2teau_Saint-Jean_%28CP_ND%29_-_Recto.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANogent-le-Rotrou%20-%20Ch%C3%A2teau%20Saint-Jean%20(CP%20ND)%20-%20Recto.jpg",
       "title": "Nogent-le-Rotrou - Château Saint-Jean (CP ND) - Recto.jpg",
+      "description": "Carte postale du Château Saint-Jean à Nogent-le-Rotrou (Eure-et-Loir).",
       "width": 3208,
       "height": 2096,
       "size": 3660747,
@@ -27,20 +29,21 @@
       "author": "Editions ND (début 20e siècle)",
       "license": "Public domain",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Gare_de_Nogent-le-Rotrou_-_R%C3%A9novation_Quai_1.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGare%20de%20Nogent-le-Rotrou%20-%20R%C3%A9novation%20Quai%201.jpg",
-      "title": "Gare de Nogent-le-Rotrou - Rénovation Quai 1.jpg",
-      "width": 4624,
-      "height": 3468,
-      "size": 5886244,
-      "timestamp": "2022-05-05T21:13:10Z",
-      "author": "Floww28",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Charpente_du_Ch%C3%A2teau_de_Nogent_le_Rotrou.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACharpente%20du%20Ch%C3%A2teau%20de%20Nogent%20le%20Rotrou.JPG",
+      "title": "Charpente du Château de Nogent le Rotrou.JPG",
+      "description": "Charpente du Château Saint-Jean à Nogent-le-Rotrou",
+      "width": 2560,
+      "height": 1440,
+      "size": 1691400,
+      "timestamp": "2015-09-22T08:59:00Z",
+      "author": "Claurin",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 8
     }
   ],
   "lieux": [
@@ -48,43 +51,46 @@
       "label": "Château Saint-Jean",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Nogent_le_rotrou_Ch%C3%A2teau_cour_int%C3%A9rieure.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANogent%20le%20rotrou%20Ch%C3%A2teau%20cour%20int%C3%A9rieure.JPG",
-          "title": "Nogent le rotrou Château cour intérieure.JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Nogent-le-Rotrou_-_Ch%C3%A2teau_Saint-Jean_%28CP_ND%29_-_Verso.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANogent-le-Rotrou%20-%20Ch%C3%A2teau%20Saint-Jean%20(CP%20ND)%20-%20Verso.jpg",
+          "title": "Nogent-le-Rotrou - Château Saint-Jean (CP ND) - Verso.jpg",
+          "description": "Carte postale du Château Saint-Jean à Nogent-le-Rotrou (Eure-et-Loir).\nTexte de la carte : « Nogent mardi matin- Ma [Pri] - Je pars pour mes affaires et je ne sais pas encore où je coucherai ce soir, à Blois, à Orléans ou ailleurs mais je te télégraphierai. »",
+          "width": 3216,
+          "height": 2096,
+          "size": 1565988,
+          "timestamp": "2020-12-06T18:39:18Z",
+          "author": "Editions ND (début 20e siècle)",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Nogent-le-Rotrou_-_Ch%C3%A2teau_Saint-Jean_%28CP_ND%29_-_Recto.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANogent-le-Rotrou%20-%20Ch%C3%A2teau%20Saint-Jean%20(CP%20ND)%20-%20Recto.jpg",
+          "title": "Nogent-le-Rotrou - Château Saint-Jean (CP ND) - Recto.jpg",
+          "description": "Carte postale du Château Saint-Jean à Nogent-le-Rotrou (Eure-et-Loir).",
+          "width": 3208,
+          "height": 2096,
+          "size": 3660747,
+          "timestamp": "2020-12-06T18:39:18Z",
+          "author": "Editions ND (début 20e siècle)",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Charpente_du_Ch%C3%A2teau_de_Nogent_le_Rotrou.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACharpente%20du%20Ch%C3%A2teau%20de%20Nogent%20le%20Rotrou.JPG",
+          "title": "Charpente du Château de Nogent le Rotrou.JPG",
+          "description": "Charpente du Château Saint-Jean à Nogent-le-Rotrou",
           "width": 2560,
           "height": 1440,
-          "size": 1691173,
-          "timestamp": "2015-09-22T08:54:09Z",
+          "size": 1691400,
+          "timestamp": "2015-09-22T08:59:00Z",
           "author": "Claurin",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Nogent-le-Rotrou_-_Ch%C3%A2teau_Saint-Jean_-_1.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANogent-le-Rotrou%20-%20Ch%C3%A2teau%20Saint-Jean%20-%201.jpg",
-          "title": "Nogent-le-Rotrou - Château Saint-Jean - 1.jpg",
-          "width": 5184,
-          "height": 3456,
-          "size": 4389063,
-          "timestamp": "2011-01-12T12:14:00Z",
-          "author": "Benjamin Smith",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Nogent-le-Rotrou_-_Ch%C3%A2teau_Saint-Jean_-_2.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANogent-le-Rotrou%20-%20Ch%C3%A2teau%20Saint-Jean%20-%202.jpg",
-          "title": "Nogent-le-Rotrou - Château Saint-Jean - 2.jpg",
-          "width": 5184,
-          "height": 3456,
-          "size": 3506558,
-          "timestamp": "2011-01-12T12:14:11Z",
-          "author": "Benjamin Smith",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 8
         }
       ]
     },
@@ -95,6 +101,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Maurice_Utrillo_%C3%89glise_Saint-Laurent_%C3%A0_Nogent-le-Rotrou_1928.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaurice%20Utrillo%20%C3%89glise%20Saint-Laurent%20%C3%A0%20Nogent-le-Rotrou%201928.jpg",
           "title": "Maurice Utrillo Église Saint-Laurent à Nogent-le-Rotrou 1928.jpg",
+          "description": "Église Saint-Laurent à Nogent-le-Rotrou. 1928. Öl auf Leinwand. Unten rechts signiert und datiert: Maurice, Utrillo, V, / 1928. Unten links betitelt: Eglise Saint Laurent, / à Nogent-le-Rotrou, / (Eure et Loire). 65 × 81 cm.",
           "width": 3740,
           "height": 3000,
           "size": 2026491,
@@ -105,30 +112,32 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Eure-et-Loir_Nogent-le-Rotrou_Eglise_Saint-Laurent_082001_-_panoramio.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEure-et-Loir%20Nogent-le-Rotrou%20Eglise%20Saint-Laurent%20082001%20-%20panoramio.jpg",
-          "title": "Eure-et-Loir Nogent-le-Rotrou Eglise Saint-Laurent 082001 - panoramio.jpg",
-          "width": 3272,
-          "height": 2144,
-          "size": 982347,
-          "timestamp": "2017-03-29T11:15:56Z",
-          "author": "rene boulay",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Nogent-le-Rotrou_Notre-Dame_363.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANogent-le-Rotrou%20Notre-Dame%20363.JPG",
+          "title": "Nogent-le-Rotrou Notre-Dame 363.JPG",
+          "description": "Kirche Notre-Dame in Nogent-le-Rotrou im Département Eure-et-Loir (Centre-Val de Loire/Frankreich), Archivolten des Westportals",
+          "width": 3580,
+          "height": 2382,
+          "size": 649940,
+          "timestamp": "2015-08-27T08:56:57Z",
+          "author": "GFreihalter",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Nogent-le-Rotrou_-_Town_Museum_-_Louis_Moullin_-_%C3%89glise_Saint-Laurent_et_Ch%C3%A2teau_Saint-Jean%2C_vue_des_prairies_de_la_cascade_%C3%A0_Nogent-le-Rotrou.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANogent-le-Rotrou%20-%20Town%20Museum%20-%20Louis%20Moullin%20-%20%C3%89glise%20Saint-Laurent%20et%20Ch%C3%A2teau%20Saint-Jean%2C%20vue%20des%20prairies%20de%20la%20cascade%20%C3%A0%20Nogent-le-Rotrou.JPG",
-          "title": "Nogent-le-Rotrou - Town Museum - Louis Moullin - Église Saint-Laurent et Château Saint-Jean, vue des prairies de la cascade à Nogent-le-Rotrou.JPG",
-          "width": 2892,
-          "height": 2362,
-          "size": 2984655,
-          "timestamp": "2011-01-12T14:02:07Z",
-          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q26791579\" class=\"extiw\" title=\"d:Q26791579\"><span title=\"French painter (1817-1876)\">Louis Moullin</span></a></bdi>",
-          "license": "Public domain",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Nogent-le-Rotrou_%C3%A9glise_Saint-Hilaire_autel_vitraux_choeur_Eure-et-Loir_%28France%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANogent-le-Rotrou%20%C3%A9glise%20Saint-Hilaire%20autel%20vitraux%20choeur%20Eure-et-Loir%20(France).jpg",
+          "title": "Nogent-le-Rotrou église Saint-Hilaire autel vitraux choeur Eure-et-Loir (France).jpg",
+          "description": "Autel et vitraux du chœur, église Saint-Hilaire, Nogent-le-Rotrou, Eure-et-Loir (France).",
+          "width": 4000,
+          "height": 3000,
+          "size": 5036544,
+          "timestamp": "2016-08-02T09:46:25Z",
+          "author": "Le Passant",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 6
         }
       ]
     },
@@ -139,6 +148,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/1896-08-01_-_Nogent-le-Rotrou_-_Rue_Saint-Hilaire.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1896-08-01%20-%20Nogent-le-Rotrou%20-%20Rue%20Saint-Hilaire.jpg",
           "title": "1896-08-01 - Nogent-le-Rotrou - Rue Saint-Hilaire.jpg",
+          "description": "Immeuble à l'angle de la rue Saint-Hilaire (à gauche) et Rémy-Belleau (à droite) peu avant la construction de l'hôtel de la Caisse d'épargne à cet emplacement, à Nogent-le-Rotrou.",
           "width": 1200,
           "height": 848,
           "size": 938334,
@@ -147,12 +157,83 @@
           "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Nogent-le-Rotrou_-_Town_Museum_-_Louis_Moullin_-_%C3%89glise_Notre-Dame%2C_fontaine_et_Rue_Dor%C3%A9e%2C_vers_1860.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANogent-le-Rotrou%20-%20Town%20Museum%20-%20Louis%20Moullin%20-%20%C3%89glise%20Notre-Dame%2C%20fontaine%20et%20Rue%20Dor%C3%A9e%2C%20vers%201860.JPG",
+          "title": "Nogent-le-Rotrou - Town Museum - Louis Moullin - Église Notre-Dame, fontaine et Rue Dorée, vers 1860.JPG",
+          "description": "",
+          "width": 2638,
+          "height": 2141,
+          "size": 2542690,
+          "timestamp": "2011-01-12T14:01:48Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q26791579\" class=\"extiw\" title=\"d:Q26791579\"><span title=\"French painter (1817-1876)\">Louis Moullin</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Nogent-le-Rotrou_-_Old_town_hall_-_4.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANogent-le-Rotrou%20-%20Old%20town%20hall%20-%204.JPG",
+          "title": "Nogent-le-Rotrou - Old town hall - 4.JPG",
+          "description": "The old town hall of Nogent-le-Rotrou, Eure-et-Loir, France, seen from Villette Gâté Street.",
+          "width": 5184,
+          "height": 3456,
+          "size": 2790672,
+          "timestamp": "2011-01-19T09:18:27Z",
+          "author": "Benjamin Smith",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
         }
       ]
     },
     {
       "label": "Jardin Remarque",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/N09_vitrail_%C3%A9glise_Notre-Dame_Nogent-le-Rotrou_Eure-et-Loir_France_%28baie_9%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AN09%20vitrail%20%C3%A9glise%20Notre-Dame%20Nogent-le-Rotrou%20Eure-et-Loir%20France%20(baie%209).jpg",
+          "title": "N09 vitrail église Notre-Dame Nogent-le-Rotrou Eure-et-Loir France (baie 9).jpg",
+          "description": "Vitrail de l'église de Notre-Dame, Nogent-le-Rotrou, Eure-et-Loir, France (baie 9).\nJésus au jardin des oliviers, la Flagellation, Charles Lorin 1924 (baie 9).",
+          "width": 2165,
+          "height": 3848,
+          "size": 1412846,
+          "timestamp": "2021-01-06T17:12:27Z",
+          "author": "Le Passant",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Nogent-le-Rotrou_-_Ch%C3%A2teau_Saint-Jean_-_4.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANogent-le-Rotrou%20-%20Ch%C3%A2teau%20Saint-Jean%20-%204.jpg",
+          "title": "Nogent-le-Rotrou - Château Saint-Jean - 4.jpg",
+          "description": "The garden inside Saint John's Castle, in Nogent-le-Rotrou, Eure-et-Loir, France.",
+          "width": 5184,
+          "height": 3456,
+          "size": 5944601,
+          "timestamp": "2011-01-12T12:14:41Z",
+          "author": "Benjamin Smith",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Nogent-le-Rotrou_-_Ch%C3%A2teau_Saint-Jean_-_5.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANogent-le-Rotrou%20-%20Ch%C3%A2teau%20Saint-Jean%20-%205.jpg",
+          "title": "Nogent-le-Rotrou - Château Saint-Jean - 5.jpg",
+          "description": "The garden inside Saint John's Castle, in Nogent-le-Rotrou, Eure-et-Loir, France.",
+          "width": 5184,
+          "height": 3456,
+          "size": 6351216,
+          "timestamp": "2011-01-12T12:14:58Z",
+          "author": "Benjamin Smith",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     }
   ]
 }

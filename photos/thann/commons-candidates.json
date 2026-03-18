@@ -1,12 +1,41 @@
 {
   "slug": "thann",
   "nom": "Thann",
-  "fetchedAt": "2026-03-14T12:49:45.509Z",
+  "fetchedAt": "2026-03-18T20:02:55.981Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/2013-09-19_14-30-57-collegiale-thann-PA00085696.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2013-09-19%2014-30-57-collegiale-thann-PA00085696.jpg",
+      "title": "2013-09-19 14-30-57-collegiale-thann-PA00085696.jpg",
+      "description": "NOTE: This image is a panorama  consisting of multiple frames that were merged or stitched in software. As a result, this image necessarily underwent some form of digital manipulation. These manipulations may include blending, blurring, cloning, and colour and perspective adjustments. As a result of these adjustments, the image content may be slightly different from reality at the points where multiple images were combined. This manipulation is often required due to lens, perspective, and parall",
+      "width": 8962,
+      "height": 7123,
+      "size": 80022787,
+      "timestamp": "2013-09-21T08:02:33Z",
+      "author": "<bdi><a href=\"//commons.wikimedia.org/wiki/User:ComputerHotline\" title=\"User:ComputerHotline\">Thomas Bresson</a></bdi>",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/2013-09-19_14-39-50-collegiale-thann-PA00085696.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2013-09-19%2014-39-50-collegiale-thann-PA00085696.jpg",
+      "title": "2013-09-19 14-39-50-collegiale-thann-PA00085696.jpg",
+      "description": "NOTE: This image is a panorama  consisting of multiple frames that were merged or stitched in software. As a result, this image necessarily underwent some form of digital manipulation. These manipulations may include blending, blurring, cloning, and colour and perspective adjustments. As a result of these adjustments, the image content may be slightly different from reality at the points where multiple images were combined. This manipulation is often required due to lens, perspective, and parall",
+      "width": 5873,
+      "height": 2915,
+      "size": 21107516,
+      "timestamp": "2013-09-21T08:13:35Z",
+      "author": "<bdi><a href=\"//commons.wikimedia.org/wiki/User:ComputerHotline\" title=\"User:ComputerHotline\">Thomas Bresson</a></bdi>",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Thann_-_Fontaine_Saint-Thi%C3%A9baut.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AThann%20-%20Fontaine%20Saint-Thi%C3%A9baut.jpg",
       "title": "Thann - Fontaine Saint-Thiébaut.jpg",
+      "description": "Thann - Fontaine Saint-Thiébaut",
       "width": 4032,
       "height": 3024,
       "size": 3681708,
@@ -15,32 +44,6 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Thann_-_Fuente_de_Saint-Thi%C3%A9baut_-_DSC_6861_W.JPG",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AThann%20-%20Fuente%20de%20Saint-Thi%C3%A9baut%20-%20DSC%206861%20W.JPG",
-      "title": "Thann - Fuente de Saint-Thiébaut - DSC 6861 W.JPG",
-      "width": 1771,
-      "height": 2555,
-      "size": 1540713,
-      "timestamp": "2023-12-19T15:23:45Z",
-      "author": "Juanje 2712",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Coll%C3%A9giale_Saint-Thi%C3%A9baut_%28Thann%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AColl%C3%A9giale%20Saint-Thi%C3%A9baut%20(Thann).jpg",
-      "title": "Collégiale Saint-Thiébaut (Thann).jpg",
-      "width": 2592,
-      "height": 1944,
-      "size": 489850,
-      "timestamp": "2016-10-25T10:16:00Z",
-      "author": "Gzen92",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
     }
   ],
   "lieux": [
@@ -48,41 +51,44 @@
       "label": "Collégiale Saint-Thiébaut",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Coll%C3%A9giale_Saint-Thi%C3%A9baut%2C_Thann%2C_Haut-Rhin.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AColl%C3%A9giale%20Saint-Thi%C3%A9baut%2C%20Thann%2C%20Haut-Rhin.jpg",
-          "title": "Collégiale Saint-Thiébaut, Thann, Haut-Rhin.jpg",
-          "width": 5184,
-          "height": 3888,
-          "size": 13512221,
-          "timestamp": "2022-11-06T08:56:53Z",
-          "author": "olive.titus",
-          "license": "CC BY 2.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Thann_%281%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AThann%20(1).jpg",
+          "title": "Thann (1).jpg",
+          "description": "Vue de Thann (Haut-Rhin, France).",
+          "width": 2592,
+          "height": 1944,
+          "size": 544410,
+          "timestamp": "2016-10-25T10:16:25Z",
+          "author": "Gzen92",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/2013-09-19_14-30-57-collegiale-thann-PA00085696.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2013-09-19%2014-30-57-collegiale-thann-PA00085696.jpg",
+          "title": "2013-09-19 14-30-57-collegiale-thann-PA00085696.jpg",
+          "description": "NOTE: This image is a panorama  consisting of multiple frames that were merged or stitched in software. As a result, this image necessarily underwent some form of digital manipulation. These manipulations may include blending, blurring, cloning, and colour and perspective adjustments. As a result of these adjustments, the image content may be slightly different from reality at the points where multiple images were combined. This manipulation is often required due to lens, perspective, and parall",
+          "width": 8962,
+          "height": 7123,
+          "size": 80022787,
+          "timestamp": "2013-09-21T08:02:33Z",
+          "author": "<bdi><a href=\"//commons.wikimedia.org/wiki/User:ComputerHotline\" title=\"User:ComputerHotline\">Thomas Bresson</a></bdi>",
+          "license": "CC BY 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Coll%C3%A9giale_Saint-Thi%C3%A9baut%2C_Thann%2C_Haut-Rhin_-_52468737701.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AColl%C3%A9giale%20Saint-Thi%C3%A9baut%2C%20Thann%2C%20Haut-Rhin%20-%2052468737701.jpg",
-          "title": "Collégiale Saint-Thiébaut, Thann, Haut-Rhin - 52468737701.jpg",
-          "width": 5184,
-          "height": 3888,
-          "size": 4926681,
-          "timestamp": "2022-11-06T08:56:54Z",
-          "author": "olive.titus",
-          "license": "CC BY 2.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Coll%C3%A9giale_Saint-Thi%C3%A9baut%2C_Thann%2C_Haut-Rhin_-_52468754586.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AColl%C3%A9giale%20Saint-Thi%C3%A9baut%2C%20Thann%2C%20Haut-Rhin%20-%2052468754586.jpg",
-          "title": "Collégiale Saint-Thiébaut, Thann, Haut-Rhin - 52468754586.jpg",
-          "width": 5184,
-          "height": 3888,
-          "size": 7191169,
-          "timestamp": "2022-11-06T08:57:09Z",
-          "author": "olive.titus",
-          "license": "CC BY 2.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/2013-09-19_14-39-50-collegiale-thann-PA00085696.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2013-09-19%2014-39-50-collegiale-thann-PA00085696.jpg",
+          "title": "2013-09-19 14-39-50-collegiale-thann-PA00085696.jpg",
+          "description": "NOTE: This image is a panorama  consisting of multiple frames that were merged or stitched in software. As a result, this image necessarily underwent some form of digital manipulation. These manipulations may include blending, blurring, cloning, and colour and perspective adjustments. As a result of these adjustments, the image content may be slightly different from reality at the points where multiple images were combined. This manipulation is often required due to lens, perspective, and parall",
+          "width": 5873,
+          "height": 2915,
+          "size": 21107516,
+          "timestamp": "2013-09-21T08:13:35Z",
+          "author": "<bdi><a href=\"//commons.wikimedia.org/wiki/User:ComputerHotline\" title=\"User:ComputerHotline\">Thomas Bresson</a></bdi>",
+          "license": "CC BY 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         }
@@ -90,81 +96,16 @@
     },
     {
       "label": "Porte de Thann",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Cernay._Porte_de_Thann._%281%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACernay.%20Porte%20de%20Thann.%20(1).jpg",
-          "title": "Cernay. Porte de Thann. (1).jpg",
-          "width": 3996,
-          "height": 2996,
-          "size": 2984380,
-          "timestamp": "2022-01-18T14:30:59Z",
-          "author": "Espirat",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Porte_Haute_ou_Oberthor%2C_Cernay%2C_Haut-Rhin.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APorte%20Haute%20ou%20Oberthor%2C%20Cernay%2C%20Haut-Rhin.jpg",
-          "title": "Porte Haute ou Oberthor, Cernay, Haut-Rhin.jpg",
-          "width": 5184,
-          "height": 3888,
-          "size": 18297943,
-          "timestamp": "2022-11-06T10:42:43Z",
-          "author": "olive.titus",
-          "license": "CC BY 2.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Porte_Haute_ou_Oberthor%2C_Cernay%2C_Haut-Rhin_-_52469032539.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APorte%20Haute%20ou%20Oberthor%2C%20Cernay%2C%20Haut-Rhin%20-%2052469032539.jpg",
-          "title": "Porte Haute ou Oberthor, Cernay, Haut-Rhin - 52469032539.jpg",
-          "width": 5184,
-          "height": 3888,
-          "size": 5968445,
-          "timestamp": "2022-11-06T10:42:46Z",
-          "author": "olive.titus",
-          "license": "CC BY 2.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Château de l’Engelbourg",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Ch%C3%A2teau_de_l%27Engelsbourg_cutout.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20l'Engelsbourg%20cutout.jpg",
-          "title": "Château de l'Engelsbourg cutout.jpg",
-          "width": 1410,
-          "height": 1000,
-          "size": 235879,
-          "timestamp": "2020-09-26T16:57:25Z",
-          "author": "Gzen92",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Ch%C3%A2teau_de_l%27Engelbourg_mit_Hexenauge_%28l%27oeil_de_la_sorci%C3%A8re%29_in_Thann.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20l'Engelbourg%20mit%20Hexenauge%20(l'oeil%20de%20la%20sorci%C3%A8re)%20in%20Thann.jpg",
-          "title": "Château de l'Engelbourg mit Hexenauge (l'oeil de la sorcière) in Thann.jpg",
-          "width": 3996,
-          "height": 2832,
-          "size": 4739013,
-          "timestamp": "2020-10-20T06:17:40Z",
-          "author": "Andreas Schwarzkopf",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Hexenauge_%28l%27oeil_de_la_sorci%C3%A8re%29_des_Ch%C3%A2teau_de_l%27Engelbourg_in_Thann_2.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHexenauge%20(l'oeil%20de%20la%20sorci%C3%A8re)%20des%20Ch%C3%A2teau%20de%20l'Engelbourg%20in%20Thann%202.jpg",
           "title": "Hexenauge (l'oeil de la sorcière) des Château de l'Engelbourg in Thann 2.jpg",
+          "description": "Hexenauge (l'oeil de la sorcière) des Château de l'Engelbourg in Thann",
           "width": 4000,
           "height": 3000,
           "size": 3185561,
@@ -172,53 +113,41 @@
           "author": "Andreas Schwarzkopf",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Hexenauge_%28l%27oeil_de_la_sorci%C3%A8re%29_des_Ch%C3%A2teau_de_l%27Engelbourg_in_Thann_3.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHexenauge%20(l'oeil%20de%20la%20sorci%C3%A8re)%20des%20Ch%C3%A2teau%20de%20l'Engelbourg%20in%20Thann%203.jpg",
+          "title": "Hexenauge (l'oeil de la sorcière) des Château de l'Engelbourg in Thann 3.jpg",
+          "description": "Hexenauge (l'oeil de la sorcière) des Château de l'Engelbourg in Thann",
+          "width": 4000,
+          "height": 3000,
+          "size": 3802814,
+          "timestamp": "2020-10-20T06:18:13Z",
+          "author": "Andreas Schwarzkopf",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Hexenauge_%28l%27oeil_de_la_sorci%C3%A8re%29_des_Ch%C3%A2teau_de_l%27Engelbourg_in_Thann_5.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHexenauge%20(l'oeil%20de%20la%20sorci%C3%A8re)%20des%20Ch%C3%A2teau%20de%20l'Engelbourg%20in%20Thann%205.jpg",
+          "title": "Hexenauge (l'oeil de la sorcière) des Château de l'Engelbourg in Thann 5.jpg",
+          "description": "Hexenauge (l'oeil de la sorcière) des Château de l'Engelbourg in Thann",
+          "width": 4000,
+          "height": 3000,
+          "size": 1886235,
+          "timestamp": "2020-10-20T06:18:41Z",
+          "author": "Andreas Schwarzkopf",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
         }
       ]
     },
     {
       "label": "Vignoble du Rangen",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Thann_41.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AThann%2041.jpg",
-          "title": "Thann 41.jpg",
-          "width": 1964,
-          "height": 1156,
-          "size": 896071,
-          "timestamp": "2025-09-21T11:54:12Z",
-          "author": "Rauenstein",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Thann_42.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AThann%2042.jpg",
-          "title": "Thann 42.jpg",
-          "width": 1941,
-          "height": 1023,
-          "size": 590594,
-          "timestamp": "2025-09-21T11:56:20Z",
-          "author": "Rauenstein",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Thann%2Cvu_depuis_le_Rangen.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AThann%2Cvu%20depuis%20le%20Rangen.jpg",
-          "title": "Thann,vu depuis le Rangen.jpg",
-          "width": 1701,
-          "height": 989,
-          "size": 1869267,
-          "timestamp": "2016-05-24T13:23:33Z",
-          "author": "Espirat",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        }
-      ]
+      "photos": []
     }
   ]
 }

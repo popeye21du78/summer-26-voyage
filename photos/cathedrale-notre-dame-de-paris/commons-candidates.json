@@ -1,12 +1,27 @@
 {
   "slug": "cathedrale-notre-dame-de-paris",
   "nom": "Cathédrale Notre-Dame de Paris",
-  "fetchedAt": "2026-03-13T12:32:21.325Z",
+  "fetchedAt": "2026-03-15T20:50:11.055Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Notre_Dame_de_Paris_850_ans.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANotre%20Dame%20de%20Paris%20850%20ans.JPG",
+      "title": "Notre Dame de Paris 850 ans.JPG",
+      "description": "Vue de la façade de Notre Dame de Paris et de la galerie des Rois depuis le podium des 850 ans de la cathédrale.",
+      "width": 3264,
+      "height": 2448,
+      "size": 2811090,
+      "timestamp": "2013-03-02T23:17:01Z",
+      "author": "Loïc LLH",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Cath%C3%A9drale_Notre_Dame_-_Paris_IV_%28FR75%29_-_2025-03-01_-_6.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale%20Notre%20Dame%20-%20Paris%20IV%20(FR75)%20-%202025-03-01%20-%206.jpg",
       "title": "Cathédrale Notre Dame - Paris IV (FR75) - 2025-03-01 - 6.jpg",
+      "description": "Cathédrale Notre-Dame, Paris.",
       "width": 4032,
       "height": 3024,
       "size": 4198901,
@@ -20,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Parvis_Notre_Dame_Place_Jean_Paul_II_-_Paris_IV_%28FR75%29_-_2025-03-01_-_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParvis%20Notre%20Dame%20Place%20Jean%20Paul%20II%20-%20Paris%20IV%20(FR75)%20-%202025-03-01%20-%201.jpg",
       "title": "Parvis Notre Dame Place Jean Paul II - Paris IV (FR75) - 2025-03-01 - 1.jpg",
+      "description": "Parvis Notre-Dame - place Jean-Paul-II, Paris.",
       "width": 4032,
       "height": 3024,
       "size": 2709295,
@@ -28,59 +44,64 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Cath%C3%A9drale_Notre-Dame_de_Paris_-_panoramio_%283%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale%20Notre-Dame%20de%20Paris%20-%20panoramio%20(3).jpg",
-      "title": "Cathédrale Notre-Dame de Paris - panoramio (3).jpg",
-      "width": 4288,
-      "height": 3216,
-      "size": 2983423,
-      "timestamp": "2017-01-21T07:12:44Z",
-      "author": "Mister No",
-      "license": "CC BY 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
     }
   ],
   "lieux": [
     {
       "label": "Portails sculptés de la façade ouest",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Vue_du_pont_de_bateaux_et_de_la_cath%C3%A9drale_de_la_ville_de_Rouen_prise_de_la_descente_du_port_Saint-Ouen.jpeg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20du%20pont%20de%20bateaux%20et%20de%20la%20cath%C3%A9drale%20de%20la%20ville%20de%20Rouen%20prise%20de%20la%20descente%20du%20port%20Saint-Ouen.jpeg",
+          "title": "Vue du pont de bateaux et de la cathédrale de la ville de Rouen prise de la descente du port Saint-Ouen.jpeg",
+          "description": "Vue du pont de bateaux et de la cathédrale de la ville de Rouen prise de la descente du port Saint-Ouen",
+          "width": 1536,
+          "height": 860,
+          "size": 284984,
+          "timestamp": "2015-11-07T21:29:53Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Jean-Baptiste_Lallemand\" class=\"extiw\" title=\"w:en:Jean-Baptiste Lallemand\"><span title=\"French painter (1716-1803)\">Jean-Baptiste Lallemand</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Vue_de_la_ville%2C_du_port_et_de_la_cath%C3%A9drale_de_Rouen_prise_de_l%27autre_c%C3%B4t%C3%A9_de_la_rivi%C3%A8re.jpeg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20de%20la%20ville%2C%20du%20port%20et%20de%20la%20cath%C3%A9drale%20de%20Rouen%20prise%20de%20l'autre%20c%C3%B4t%C3%A9%20de%20la%20rivi%C3%A8re.jpeg",
+          "title": "Vue de la ville, du port et de la cathédrale de Rouen prise de l'autre côté de la rivière.jpeg",
+          "description": "Vue de la ville, du port et de la cathédrale de Rouen prise de l'autre côté de la rivière",
+          "width": 1536,
+          "height": 1012,
+          "size": 372908,
+          "timestamp": "2015-11-07T21:29:54Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Jean-Baptiste_Lallemand\" class=\"extiw\" title=\"w:en:Jean-Baptiste Lallemand\"><span title=\"French painter (1716-1803)\">Jean-Baptiste Lallemand</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Notre-Dame_de_Paris%2C_April_2008.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANotre-Dame%20de%20Paris%2C%20April%202008.jpg",
+          "title": "Notre-Dame de Paris, April 2008.jpg",
+          "description": "Cathédrale Notre-Dame de Paris vue du Port Henri IV.",
+          "width": 3872,
+          "height": 1998,
+          "size": 4795171,
+          "timestamp": "2013-07-25T19:56:40Z",
+          "author": "art Buck",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Rosace sud",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/South_rose_window_of_Notre-Dame_de_Paris%2C_De._2024_%281%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASouth%20rose%20window%20of%20Notre-Dame%20de%20Paris%2C%20De.%202024%20(1).jpg",
-          "title": "South rose window of Notre-Dame de Paris, De. 2024 (1).jpg",
-          "width": 4956,
-          "height": 3594,
-          "size": 4869842,
-          "timestamp": "2025-01-03T16:10:47Z",
-          "author": "Ibex73",
-          "license": "CC BY 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/South_rose_window_of_Notre-Dame_de_Paris%2C_De._2024_%282%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASouth%20rose%20window%20of%20Notre-Dame%20de%20Paris%2C%20De.%202024%20(2).jpg",
-          "title": "South rose window of Notre-Dame de Paris, De. 2024 (2).jpg",
-          "width": 5357,
-          "height": 3571,
-          "size": 6184355,
-          "timestamp": "2025-01-03T16:10:50Z",
-          "author": "Ibex73",
-          "license": "CC BY 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Paris_%2875004%29_Cath%C3%A9drale_Notre-Dame_Int%C3%A9rieur_Rosace_sud.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParis%20(75004)%20Cath%C3%A9drale%20Notre-Dame%20Int%C3%A9rieur%20Rosace%20sud.jpg",
           "title": "Paris (75004) Cathédrale Notre-Dame Intérieur Rosace sud.jpg",
+          "description": "Rosace du transept sud de la cathédrale Notre-Dame de Paris.",
           "width": 2544,
           "height": 1696,
           "size": 5392090,
@@ -89,33 +110,92 @@
           "license": "CC BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Rosace_fa%C3%A7ade_sud_Cath%C3%A9drale_Notre-Dame_Paris_3.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARosace%20fa%C3%A7ade%20sud%20Cath%C3%A9drale%20Notre-Dame%20Paris%203.jpg",
+          "title": "Rosace façade sud Cathédrale Notre-Dame Paris 3.jpg",
+          "description": "Rosace de la façade sud de la cathédrale Notre-Dame de Paris.",
+          "width": 5184,
+          "height": 3456,
+          "size": 6831399,
+          "timestamp": "2016-12-21T21:17:18Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Stained_glass_rose_window_in_Notre-Dame_de_Paris%2C_1981.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStained%20glass%20rose%20window%20in%20Notre-Dame%20de%20Paris%2C%201981.jpg",
+          "title": "Stained glass rose window in Notre-Dame de Paris, 1981.jpg",
+          "description": "img334",
+          "width": 16170,
+          "height": 10282,
+          "size": 13956841,
+          "timestamp": "2017-09-12T04:40:40Z",
+          "author": "foundin_a_attic",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
         }
       ]
     },
     {
       "label": "Arcs-boutants du côté sud",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Somewhere_in_Paris_%2850324133841%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASomewhere%20in%20Paris%20(50324133841).jpg",
+          "title": "Somewhere in Paris (50324133841).jpg",
+          "description": "Arcs-boutants consolidés. \n\nNotre Dame de Paris",
+          "width": 4608,
+          "height": 3072,
+          "size": 6710087,
+          "timestamp": "2020-10-13T19:09:27Z",
+          "author": "Jeanne Menjoulet",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Chevet_de_la_cath%C3%A9drale_Notre-Dame_de_Paris%2C_mai_1899_-_btv1b10578750p.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChevet%20de%20la%20cath%C3%A9drale%20Notre-Dame%20de%20Paris%2C%20mai%201899%20-%20btv1b10578750p.jpg",
+          "title": "Chevet de la cathédrale Notre-Dame de Paris, mai 1899 - btv1b10578750p.jpg",
+          "description": "Sujet : Architecture religieuse\nTête\nParis (France)\nCathédrale\nAbside\nChevet\nArc-boutant\nGrille\nArbre\nCathédrale Notre-Dame (Paris)\nIle-de-France (France)\nAppartient à l’ensemble documentaire : RsAlis000\nAppartient à l’ensemble documentaire : RsAlis014\n\nAppartient à l’ensemble documentaire : RsAlis007",
+          "width": 3909,
+          "height": 2989,
+          "size": 1752628,
+          "timestamp": "2024-11-01T04:59:18Z",
+          "author": "<div class=\"fn value\">\nTrutat, Eugène (1840-1910). Photographe</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Vue_g%C3%A9n%C3%A9rale_de_l%27abside_de_la_cath%C3%A9drale_Notre-Dame_de_Paris%2C_mai_1899_-_btv1b10578268s.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20g%C3%A9n%C3%A9rale%20de%20l'abside%20de%20la%20cath%C3%A9drale%20Notre-Dame%20de%20Paris%2C%20mai%201899%20-%20btv1b10578268s.jpg",
+          "title": "Vue générale de l'abside de la cathédrale Notre-Dame de Paris, mai 1899 - btv1b10578268s.jpg",
+          "description": "Sujet : Paris (France)\nCathédrale\nAbside\nChevet\nArc-boutant\nTour\nFlèche\nVitrail\nRosace\nCathédrale Notre-Dame (Paris)\nIle-de-France (France)\nAppartient à l’ensemble documentaire : RsAlis000\nAppartient à l’ensemble documentaire : RsAlis014\n\nAppartient à l’ensemble documentaire : RsAlis007",
+          "width": 3880,
+          "height": 2967,
+          "size": 1158931,
+          "timestamp": "2025-03-08T12:32:17Z",
+          "author": "<div class=\"fn value\">\nTrutat, Eugène (1840-1910). Photographe</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Gargouilles",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Gargouille_incompl%C3%A8te_de_Notre-Dame.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGargouille%20incompl%C3%A8te%20de%20Notre-Dame.jpg",
-          "title": "Gargouille incomplète de Notre-Dame.jpg",
-          "width": 6202,
-          "height": 4193,
-          "size": 2814016,
-          "timestamp": "2020-07-10T19:32:34Z",
-          "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
-          "license": "CC0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Chim%C3%A8res_et_gargouilles_de_Notre-Dame_de_Paris%2C_2024_03.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChim%C3%A8res%20et%20gargouilles%20de%20Notre-Dame%20de%20Paris%2C%202024%2003.jpg",
           "title": "Chimères et gargouilles de Notre-Dame de Paris, 2024 03.jpg",
+          "description": "Chimeras and gargoyles of Notre-Dame de Paris, 2024",
           "width": 5472,
           "height": 3648,
           "size": 3868844,
@@ -129,9 +209,24 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Chim%C3%A8res_et_gargouilles_de_Notre-Dame_de_Paris%2C_2024_02.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChim%C3%A8res%20et%20gargouilles%20de%20Notre-Dame%20de%20Paris%2C%202024%2002.jpg",
           "title": "Chimères et gargouilles de Notre-Dame de Paris, 2024 02.jpg",
+          "description": "Chimeras and gargoyles of Notre-Dame de Paris, 2024",
           "width": 5472,
           "height": 3648,
           "size": 3552712,
+          "timestamp": "2025-09-15T19:54:28Z",
+          "author": "Ibex73",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Chim%C3%A8res_et_gargouilles_de_Notre-Dame_de_Paris%2C_2024_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChim%C3%A8res%20et%20gargouilles%20de%20Notre-Dame%20de%20Paris%2C%202024%2001.jpg",
+          "title": "Chimères et gargouilles de Notre-Dame de Paris, 2024 01.jpg",
+          "description": "Chimeras and gargoyles of Notre-Dame de Paris, 2024",
+          "width": 5472,
+          "height": 3648,
+          "size": 4257863,
           "timestamp": "2025-09-15T19:54:28Z",
           "author": "Ibex73",
           "license": "CC BY-SA 4.0",

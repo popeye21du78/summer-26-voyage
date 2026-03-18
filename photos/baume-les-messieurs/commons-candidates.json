@@ -1,12 +1,13 @@
 {
   "slug": "baume-les-messieurs",
   "nom": "Baume-les-Messieurs",
-  "fetchedAt": "2026-03-13T00:09:35.618Z",
+  "fetchedAt": "2026-03-15T19:22:43.581Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Baume-les-Messieurs_%2839%29_Abbatiale_Saint-Pierre_-_Retable_du_ma%C3%AEtre-autel_-_07.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaume-les-Messieurs%20(39)%20Abbatiale%20Saint-Pierre%20-%20Retable%20du%20ma%C3%AEtre-autel%20-%2007.jpg",
       "title": "Baume-les-Messieurs (39) Abbatiale Saint-Pierre - Retable du maître-autel - 07.jpg",
+      "description": "Retable du maître-autel de l'abbatiale Saint-Pierre de Baume-les-Messieurs (39).",
       "width": 2100,
       "height": 1400,
       "size": 1111741,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Baume-les-Messieurs_%2839%29_Abbatiale_Saint-Pierre_-_Retable_du_ma%C3%AEtre-autel_-_08.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaume-les-Messieurs%20(39)%20Abbatiale%20Saint-Pierre%20-%20Retable%20du%20ma%C3%AEtre-autel%20-%2008.jpg",
       "title": "Baume-les-Messieurs (39) Abbatiale Saint-Pierre - Retable du maître-autel - 08.jpg",
+      "description": "Retable du maître-autel de l'abbatiale Saint-Pierre de Baume-les-Messieurs (39).",
       "width": 2001,
       "height": 1347,
       "size": 918714,
@@ -30,14 +32,15 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Pyrog_20191130_112410.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APyrog%2020191130%20112410.jpg",
-      "title": "Pyrog 20191130 112410.jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 5617891,
-      "timestamp": "2020-09-06T19:23:22Z",
-      "author": "Pyrog",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Baume-les-Messieurs_%2839%29_Abbatiale_Saint-Pierre_-_Chevet_-_02.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaume-les-Messieurs%20(39)%20Abbatiale%20Saint-Pierre%20-%20Chevet%20-%2002.jpg",
+      "title": "Baume-les-Messieurs (39) Abbatiale Saint-Pierre - Chevet - 02.jpg",
+      "description": "Chevet de l'abbatiale Saint-Pierre à Baume-les-Messieurs (39).",
+      "width": 6000,
+      "height": 4000,
+      "size": 12418599,
+      "timestamp": "2020-09-30T12:54:04Z",
+      "author": "GO69",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
@@ -45,12 +48,41 @@
   ],
   "lieux": [
     {
-      "label": "Abbaye impériale de Baume-les-Messieurs",
+      "label": "Cloître de l’abbaye",
       "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Abbaye_de_Baume-les-Messieurs.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20de%20Baume-les-Messieurs.jpg",
+          "title": "Abbaye de Baume-les-Messieurs.jpg",
+          "description": "Vue générale de la face sud de l'abbaye",
+          "width": 4320,
+          "height": 3240,
+          "size": 9572535,
+          "timestamp": "2015-01-26T17:33:23Z",
+          "author": "Malebre",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Baume-les-Messieurs_--_abbaye_01.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaume-les-Messieurs%20--%20abbaye%2001.JPG",
+          "title": "Baume-les-Messieurs -- abbaye 01.JPG",
+          "description": "Baume-les-Messieurs -- abbaye",
+          "width": 3264,
+          "height": 2448,
+          "size": 1318592,
+          "timestamp": "2015-09-07T14:23:12Z",
+          "author": "Remi Mathis",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Baume-les-Messieurs_--_abbaye_02.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaume-les-Messieurs%20--%20abbaye%2002.JPG",
           "title": "Baume-les-Messieurs -- abbaye 02.JPG",
+          "description": "Baume-les-Messieurs -- abbaye",
           "width": 3264,
           "height": 2448,
           "size": 1259916,
@@ -59,72 +91,49 @@
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Baume-les-Messieurs_--_abbaye_04.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaume-les-Messieurs%20--%20abbaye%2004.JPG",
-          "title": "Baume-les-Messieurs -- abbaye 04.JPG",
-          "width": 3264,
-          "height": 2448,
-          "size": 1365224,
-          "timestamp": "2015-09-07T14:23:14Z",
-          "author": "Remi Mathis",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Baume-les-Messieurs_--_abbaye_05.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaume-les-Messieurs%20--%20abbaye%2005.JPG",
-          "title": "Baume-les-Messieurs -- abbaye 05.JPG",
-          "width": 3264,
-          "height": 2448,
-          "size": 1177690,
-          "timestamp": "2015-09-07T14:23:14Z",
-          "author": "Remi Mathis",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
         }
       ]
     },
     {
-      "label": "Cascade des Tufs",
+      "label": "Nef abbatiale",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Baume-les-Messieurs_%2839%29_Cascade_des_tufs_-_02.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaume-les-Messieurs%20(39)%20Cascade%20des%20tufs%20-%2002.jpg",
-          "title": "Baume-les-Messieurs (39) Cascade des tufs - 02.jpg",
-          "width": 3000,
-          "height": 2000,
-          "size": 3553351,
-          "timestamp": "2022-03-05T13:44:58Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Baume-les-Messieurs_%2839%29_Abbatiale_Saint-Pierre_-_Chevet_-_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaume-les-Messieurs%20(39)%20Abbatiale%20Saint-Pierre%20-%20Chevet%20-%2002.jpg",
+          "title": "Baume-les-Messieurs (39) Abbatiale Saint-Pierre - Chevet - 02.jpg",
+          "description": "Chevet de l'abbatiale Saint-Pierre à Baume-les-Messieurs (39).",
+          "width": 6000,
+          "height": 4000,
+          "size": 12418599,
+          "timestamp": "2020-09-30T12:54:04Z",
           "author": "GO69",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Baume-les-Messieurs_%2839%29_Cascade_des_tufs_-_01.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaume-les-Messieurs%20(39)%20Cascade%20des%20tufs%20-%2001.jpg",
-          "title": "Baume-les-Messieurs (39) Cascade des tufs - 01.jpg",
-          "width": 3000,
-          "height": 2000,
-          "size": 3359312,
-          "timestamp": "2022-03-05T13:44:58Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Baume-les-Messieurs_%2839%29_Abbatiale_Saint-Pierre_-_Chevet_-_03.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaume-les-Messieurs%20(39)%20Abbatiale%20Saint-Pierre%20-%20Chevet%20-%2003.jpg",
+          "title": "Baume-les-Messieurs (39) Abbatiale Saint-Pierre - Chevet - 03.jpg",
+          "description": "Chevet de l'abbatiale Saint-Pierre à Baume-les-Messieurs (39).",
+          "width": 6000,
+          "height": 4000,
+          "size": 11238863,
+          "timestamp": "2020-09-30T12:54:04Z",
           "author": "GO69",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Baume-les-Messieurs_%2839%29_Cascade_des_tufs_-_03.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaume-les-Messieurs%20(39)%20Cascade%20des%20tufs%20-%2003.jpg",
-          "title": "Baume-les-Messieurs (39) Cascade des tufs - 03.jpg",
-          "width": 3000,
-          "height": 2000,
-          "size": 3034468,
-          "timestamp": "2022-03-05T13:44:58Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Baume-les-Messieurs_%2839%29_Abbatiale_Saint-Pierre_-_Chevet_-_04.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaume-les-Messieurs%20(39)%20Abbatiale%20Saint-Pierre%20-%20Chevet%20-%2004.jpg",
+          "title": "Baume-les-Messieurs (39) Abbatiale Saint-Pierre - Chevet - 04.jpg",
+          "description": "Chevet de l'abbatiale Saint-Pierre à Baume-les-Messieurs (39).",
+          "width": 6000,
+          "height": 4000,
+          "size": 12314120,
+          "timestamp": "2020-09-30T12:54:07Z",
           "author": "GO69",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -133,51 +142,7 @@
       ]
     },
     {
-      "label": "Grotte de Baume",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Baume-les-Messieurs_39-_Las_escaleras_met%C3%A1licas_de_la_entrada_a_la_cueva-_BSWCTD.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaume-les-Messieurs%2039-%20Las%20escaleras%20met%C3%A1licas%20de%20la%20entrada%20a%20la%20cueva-%20BSWCTD.jpg",
-          "title": "Baume-les-Messieurs 39- Las escaleras metálicas de la entrada a la cueva- BSWCTD.jpg",
-          "width": 3456,
-          "height": 2592,
-          "size": 4449547,
-          "timestamp": "2026-02-25T10:37:21Z",
-          "author": "Anthospace",
-          "license": "CC BY 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Baume-les-Messieurs_39-_The_cave_ticket_office-_WSBBW.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaume-les-Messieurs%2039-%20The%20cave%20ticket%20office-%20WSBBW.jpg",
-          "title": "Baume-les-Messieurs 39- The cave ticket office- WSBBW.jpg",
-          "width": 3456,
-          "height": 2592,
-          "size": 4693792,
-          "timestamp": "2026-02-25T10:37:21Z",
-          "author": "Anthospace",
-          "license": "CC BY 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Baume-les-Messieurs_39-_Pi%C3%B9_in_basso%2C_la_biglietteria_della_grotta-_BIWCSO.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaume-les-Messieurs%2039-%20Pi%C3%B9%20in%20basso%2C%20la%20biglietteria%20della%20grotta-%20BIWCSO.jpg",
-          "title": "Baume-les-Messieurs 39- Più in basso, la biglietteria della grotta- BIWCSO.jpg",
-          "width": 3456,
-          "height": 2592,
-          "size": 4810435,
-          "timestamp": "2026-02-25T10:37:21Z",
-          "author": "Anthospace",
-          "license": "CC BY 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        }
-      ]
-    },
-    {
-      "label": "Belvédère du Grangeon",
+      "label": "Salle capitulaire",
       "photos": []
     }
   ]

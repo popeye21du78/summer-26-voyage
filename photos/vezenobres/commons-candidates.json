@@ -1,12 +1,27 @@
 {
   "slug": "vezenobres",
   "nom": "Vézénobres",
-  "fetchedAt": "2026-03-14T14:32:55.756Z",
+  "fetchedAt": "2026-03-18T20:48:52.359Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/V%C3%A9z%C3%A8nobres-Tour_de_Sabran-20200702.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AV%C3%A9z%C3%A8nobres-Tour%20de%20Sabran-20200702.jpg",
+      "title": "Vézènobres-Tour de Sabran-20200702.jpg",
+      "description": "City gate of Sabran, view from the old road to Uzès",
+      "width": 3497,
+      "height": 5245,
+      "size": 19557591,
+      "timestamp": "2020-07-07T09:04:37Z",
+      "author": "Daniel VILLAFRUELA",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/V%C3%A9z%C3%A8nobres-Ch%C3%A2teau_de_Girard-20200702.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AV%C3%A9z%C3%A8nobres-Ch%C3%A2teau%20de%20Girard-20200702.jpg",
       "title": "Vézènobres-Château de Girard-20200702.jpg",
+      "description": "The Castle  de Girard was built by the de Girard family in the 14th century, this castle is integrated into the fortifications.The Marquis of Thoiras sold the castle to the community in the seventeenth century, it serves as a town house housing Hötel de Ville, tourist office and museum-conservatory of the fig ...",
       "width": 5282,
       "height": 3521,
       "size": 18353646,
@@ -20,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/V%C3%A9z%C3%A8nobres-M%C3%A9canisme_de_l%27horloge-20200702.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AV%C3%A9z%C3%A8nobres-M%C3%A9canisme%20de%20l'horloge-20200702.jpg",
       "title": "Vézènobres-Mécanisme de l'horloge-20200702.jpg",
+      "description": "Clockwork of the weight-driven clock",
       "width": 4710,
       "height": 3423,
       "size": 14081859,
@@ -28,19 +44,6 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/V%C3%A9z%C3%A8nobres-Porte_de_Sabran-20200702.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AV%C3%A9z%C3%A8nobres-Porte%20de%20Sabran-20200702.jpg",
-      "title": "Vézènobres-Porte de Sabran-20200702.jpg",
-      "width": 3387,
-      "height": 5538,
-      "size": 17822042,
-      "timestamp": "2020-07-06T23:03:19Z",
-      "author": "Daniel VILLAFRUELA",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
     }
   ],
   "lieux": [
@@ -50,7 +53,50 @@
     },
     {
       "label": "Maison de l’Evêque",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Montfaucon%28V%C3%A9z%C3%A9nobres%2914.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMontfaucon(V%C3%A9z%C3%A9nobres)14.jpg",
+          "title": "Montfaucon(Vézénobres)14.jpg",
+          "description": "Vézénobres (Gard, Languedoc, France), Montfaucon mansion, Renaissance period and style private mansion built in 1547 for the Baroness of Vézénobres Françoise de Montfaucon ; also known as Adam et Eve House.",
+          "width": 4000,
+          "height": 2248,
+          "size": 5489964,
+          "timestamp": "2021-08-31T14:10:25Z",
+          "author": "Finoskov",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Montfaucon%28V%C3%A9z%C3%A9nobres%2913.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMontfaucon(V%C3%A9z%C3%A9nobres)13.jpg",
+          "title": "Montfaucon(Vézénobres)13.jpg",
+          "description": "Vézénobres (Gard, Languedoc, France), Montfaucon mansion, Renaissance period and style private mansion built in 1547 for the Baroness of Vézénobres Françoise de Montfaucon ; also known as Adam et Eve House.",
+          "width": 4000,
+          "height": 2248,
+          "size": 5192455,
+          "timestamp": "2021-08-31T14:10:26Z",
+          "author": "Finoskov",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Montfaucon%28V%C3%A9z%C3%A9nobres%2909.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMontfaucon(V%C3%A9z%C3%A9nobres)09.jpg",
+          "title": "Montfaucon(Vézénobres)09.jpg",
+          "description": "Vézénobres (Gard, Languedoc, France), Montfaucon mansion, Renaissance period and style private mansion built in 1547 for the Baroness of Vézénobres Françoise de Montfaucon ; also known as Adam et Eve House.",
+          "width": 3570,
+          "height": 2855,
+          "size": 7429010,
+          "timestamp": "2021-08-31T14:10:58Z",
+          "author": "Finoskov",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Jardin des Figuiers",
@@ -58,7 +104,22 @@
     },
     {
       "label": "Tour de l’Horloge",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/V%C3%A9z%C3%A8nobres-Tour_de_Sabran-20200702.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AV%C3%A9z%C3%A8nobres-Tour%20de%20Sabran-20200702.jpg",
+          "title": "Vézènobres-Tour de Sabran-20200702.jpg",
+          "description": "City gate of Sabran, view from the old road to Uzès",
+          "width": 3497,
+          "height": 5245,
+          "size": 19557591,
+          "timestamp": "2020-07-07T09:04:37Z",
+          "author": "Daniel VILLAFRUELA",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        }
+      ]
     }
   ]
 }

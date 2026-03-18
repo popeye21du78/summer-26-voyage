@@ -1,12 +1,13 @@
 {
   "slug": "saint-suliac",
   "nom": "Saint-Suliac",
-  "fetchedAt": "2026-03-14T12:16:17.606Z",
+  "fetchedAt": "2026-03-18T18:44:23.061Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Saint-Suliac_-_%C3%A9glise_20210520.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Suliac%20-%20%C3%A9glise%2020210520.jpg",
       "title": "Saint-Suliac - église 20210520.jpg",
+      "description": "Église de Saint-Suliac.",
       "width": 5472,
       "height": 3648,
       "size": 11674928,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Saint-Suliac%2C_panorama_de_la_ville.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Suliac%2C%20panorama%20de%20la%20ville.jpg",
       "title": "Saint-Suliac, panorama de la ville.jpg",
+      "description": "Saint-Suliac, Église de Saint-Suliac",
       "width": 3456,
       "height": 2592,
       "size": 3142770,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/%C3%89glise_de_Saint-Suliac%2C_int%C3%A9rieur_de_l%27%C3%A9glise.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20de%20Saint-Suliac%2C%20int%C3%A9rieur%20de%20l'%C3%A9glise.jpg",
       "title": "Église de Saint-Suliac, intérieur de l'église.jpg",
+      "description": "Saint-Suliac, Église de Saint-Suliac",
       "width": 3456,
       "height": 2592,
       "size": 3176607,
@@ -48,9 +51,24 @@
       "label": "Église Saint-Suliac",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/%C3%89glise_saint_suliac_jardin.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20saint%20suliac%20jardin.jpg",
+          "title": "Église saint suliac jardin.jpg",
+          "description": "Vue depuis le jardin de l'Église de Saint-Suliac (Bretagne, France)",
+          "width": 4000,
+          "height": 3000,
+          "size": 2992001,
+          "timestamp": "2019-12-15T22:14:24Z",
+          "author": "Lepocheux",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Saint-Suliac_-_%C3%A9glise_20210520.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Suliac%20-%20%C3%A9glise%2020210520.jpg",
           "title": "Saint-Suliac - église 20210520.jpg",
+          "description": "Église de Saint-Suliac.",
           "width": 5472,
           "height": 3648,
           "size": 11674928,
@@ -61,28 +79,16 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/%C3%89glise_de_Saint-Suliac%2C_int%C3%A9rieur_de_l%27%C3%A9glise.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20de%20Saint-Suliac%2C%20int%C3%A9rieur%20de%20l'%C3%A9glise.jpg",
-          "title": "Église de Saint-Suliac, intérieur de l'église.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Saint-Suliac%2C_panorama_de_la_ville.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Suliac%2C%20panorama%20de%20la%20ville.jpg",
+          "title": "Saint-Suliac, panorama de la ville.jpg",
+          "description": "Saint-Suliac, Église de Saint-Suliac",
           "width": 3456,
           "height": 2592,
-          "size": 3176607,
+          "size": 3142770,
           "timestamp": "2021-09-29T15:41:44Z",
           "author": "Edward Knapczyk",
           "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Eglise_Saint-Suliac_de_Saint-Suliac_-_Cl%C3%A9_de_vo%C3%BBte.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Saint-Suliac%20de%20Saint-Suliac%20-%20Cl%C3%A9%20de%20vo%C3%BBte.jpg",
-          "title": "Eglise Saint-Suliac de Saint-Suliac - Clé de voûte.jpg",
-          "width": 1617,
-          "height": 1131,
-          "size": 1136464,
-          "timestamp": "2023-11-06T17:36:29Z",
-          "author": "Renhour48",
-          "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         }
@@ -90,7 +96,22 @@
     },
     {
       "label": "Camp viking (pieux de la grève)",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Saint-Suliac%2C_le_camp_viking.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Suliac%2C%20le%20camp%20viking.jpg",
+          "title": "Saint-Suliac, le camp viking.jpg",
+          "description": "Le camp viking de la Rance (Saint-Suliac)",
+          "width": 4032,
+          "height": 2268,
+          "size": 6504729,
+          "timestamp": "2023-03-12T13:20:20Z",
+          "author": "Pierre Lapointe",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Sentier du GR34 vers la butte de la Châtel",

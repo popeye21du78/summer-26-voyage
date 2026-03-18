@@ -1,12 +1,13 @@
 {
   "slug": "plage-de-banyuls-sur-mer",
   "nom": "Plage de Banyuls-sur-Mer",
-  "fetchedAt": "2026-03-14T10:52:24.098Z",
+  "fetchedAt": "2026-03-17T22:38:19.826Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Banyuls-sur-Mer_-_51019191043.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABanyuls-sur-Mer%20-%2051019191043.jpg",
       "title": "Banyuls-sur-Mer - 51019191043.jpg",
+      "description": "Banyuls-sur-Mer (Côte Vermeille, France)",
       "width": 4260,
       "height": 2838,
       "size": 9203949,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Banyuls_Maillol_l-air_1938_%287%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABanyuls%20Maillol%20l-air%201938%20(7).jpg",
       "title": "Banyuls Maillol l-air 1938 (7).jpg",
+      "description": "Bronze sculpture L'Air (1938) by Aristide Maillol, in Banyuls-sur-Mer",
       "width": 4371,
       "height": 2618,
       "size": 3254990,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Banyuls_mairie.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABanyuls%20mairie.jpg",
       "title": "Banyuls mairie.jpg",
+      "description": "Town hall of Banyuls-sur-Mer",
       "width": 4297,
       "height": 2801,
       "size": 1990312,
@@ -46,21 +49,7 @@
   "lieux": [
     {
       "label": "Port de Banyuls-sur-Mer",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Panorama_C%C3%B4te_Vermeille.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanorama%20C%C3%B4te%20Vermeille.JPG",
-          "title": "Panorama Côte Vermeille.JPG",
-          "width": 6301,
-          "height": 1376,
-          "size": 3857939,
-          "timestamp": "2013-03-12T11:02:37Z",
-          "author": "Florian Pépellin, improved by <a href=\"//commons.wikimedia.org/wiki/User:Poke2001\" title=\"User:Poke2001\">Poke2001</a>",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Promenade du front de mer",

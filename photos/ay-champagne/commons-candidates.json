@@ -1,38 +1,13 @@
 {
   "slug": "ay-champagne",
   "nom": "Aÿ-Champagne",
-  "fetchedAt": "2026-03-13T00:01:38.138Z",
+  "fetchedAt": "2026-03-15T19:04:57.566Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Epernay_Caves_Mercier_09.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEpernay%20Caves%20Mercier%2009.jpg",
-      "title": "Epernay Caves Mercier 09.jpg",
-      "width": 4576,
-      "height": 3701,
-      "size": 5103589,
-      "timestamp": "2022-07-01T13:10:34Z",
-      "author": "Ad Meskens",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/%C3%89pernay_-_Place_Lasnier_-_bo%C3%AEte_%C3%A0_livres.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89pernay%20-%20Place%20Lasnier%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
-      "title": "Épernay - Place Lasnier - boîte à livres.jpg",
-      "width": 2500,
-      "height": 1875,
-      "size": 1070297,
-      "timestamp": "2025-05-06T19:25:07Z",
-      "author": "PhL5651",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/A%C3%BF-Champagne_-_MJC_rue_de_la_libert%C3%A9_-_bo%C3%AEte_%C3%A0_livres.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AA%C3%BF-Champagne%20-%20MJC%20rue%20de%20la%20libert%C3%A9%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
       "title": "Aÿ-Champagne - MJC rue de la liberté - boîte à livres.jpg",
+      "description": "Boîte à livres à Aÿ-Champagne",
       "width": 1600,
       "height": 1200,
       "size": 242421,
@@ -41,6 +16,34 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/A%C3%BF-Champagne_-_boulevard_Charles-de-Gaulle_-_bo%C3%AEte_%C3%A0_livres.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AA%C3%BF-Champagne%20-%20boulevard%20Charles-de-Gaulle%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
+      "title": "Aÿ-Champagne - boulevard Charles-de-Gaulle - boîte à livres.jpg",
+      "description": "Boîte à livres à Aÿ-Champagne",
+      "width": 1024,
+      "height": 768,
+      "size": 220438,
+      "timestamp": "2025-05-09T17:09:42Z",
+      "author": "PhL5651",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/AY_7054.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAY%207054.JPG",
+      "title": "AY 7054.JPG",
+      "description": "La gare d'Ay (Marne, France), côté voies.",
+      "width": 3664,
+      "height": 2442,
+      "size": 1991593,
+      "timestamp": "2012-06-11T08:16:16Z",
+      "author": "Garitan",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 5
     }
   ],
   "lieux": [
@@ -48,9 +51,24 @@
       "label": "Eglise Saint-Brice",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Plan_de_l%27Eglise_d%27Ay_%28Champagne%29._Echelle_de_10_M%C3%A8tres_%28%3DOm._075_%3B_1_-_165_env%29_-_Durand%2C_Arch._del_%3B_Hibon_sc._-_btv1b8444822r.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlan%20de%20l'Eglise%20d'Ay%20(Champagne).%20Echelle%20de%2010%20M%C3%A8tres%20(%3DOm.%20075%20%3B%201%20-%20165%20env)%20-%20Durand%2C%20Arch.%20del%20%3B%20Hibon%20sc.%20-%20btv1b8444822r.jpg",
+          "title": "Plan de l'Eglise d'Ay (Champagne). Echelle de 10 Mètres (=Om. 075 ; 1 - 165 env) - Durand, Arch. del ; Hibon sc. - btv1b8444822r.jpg",
+          "description": "Sujet : Églises\nAy\nAppartient à l’ensemble documentaire : ChArdenn1\nCouverture : France – Grand-Est – Marne\nLangue : français\n\nÉditeur : Dien imp.",
+          "width": 5038,
+          "height": 7695,
+          "size": 3916046,
+          "timestamp": "2022-08-14T13:00:36Z",
+          "author": "<div class=\"fn value\">\n<p>Durand, Hippolyte (1809-1881). Fonction indéterminée\n</p>\nHibon, Auguste (1780-1857). Graveur</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Voyages_dans_l_ancienne_France_1570752_Ay.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVoyages%20dans%20l%20ancienne%20France%201570752%20Ay.jpg",
           "title": "Voyages dans l ancienne France 1570752 Ay.jpg",
+          "description": "extrait de  Voyages pittoresques et romantiques dans l'ancienne France - Champagne.",
           "width": 1782,
           "height": 3377,
           "size": 2928128,
@@ -64,6 +82,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Ay_eglise_par_monthelier_bmr_70_406.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAy%20eglise%20par%20monthelier%20bmr%2070%20406.jpg",
           "title": "Ay eglise par monthelier bmr 70 406.jpg",
+          "description": "vue ancienne de l'église extraite de \"Voyages pittoresques et romantiques dans l'ancienne France - Champagne\".",
           "width": 1653,
           "height": 2338,
           "size": 1207147,
@@ -72,25 +91,55 @@
           "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 5
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/No%C3%ABl_de_Champagne_10180.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANo%C3%ABl%20de%20Champagne%2010180.JPG",
-          "title": "Noël de Champagne 10180.JPG",
-          "width": 2576,
-          "height": 4592,
-          "size": 2770746,
-          "timestamp": "2013-01-03T16:25:09Z",
-          "author": "G.Garitan",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
         }
       ]
     },
     {
       "label": "Maison Bollinger (façade)",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Champagne_Geoffroy_09432.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChampagne%20Geoffroy%2009432.JPG",
+          "title": "Champagne Geoffroy 09432.JPG",
+          "description": "Maison de champagne Geoffroy au 4 rue de Janson à Ay. Les bâtiments sont de Couvreur Duchesnay .",
+          "width": 4592,
+          "height": 2576,
+          "size": 4433944,
+          "timestamp": "2013-06-24T15:46:51Z",
+          "author": "G.Garitan",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Ay_Lanson_1555969.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAy%20Lanson%201555969.jpg",
+          "title": "Ay Lanson 1555969.jpg",
+          "description": "Lanson champagne label",
+          "width": 1120,
+          "height": 756,
+          "size": 162283,
+          "timestamp": "2025-01-18T09:29:24Z",
+          "author": "Protogonos69",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/1911_Maison_de_Champagne_de_Ay_incendi%C3%A9e_par_les_vignerons.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1911%20Maison%20de%20Champagne%20de%20Ay%20incendi%C3%A9e%20par%20les%20vignerons.jpg",
+          "title": "1911 Maison de Champagne de Ay incendiée par les vignerons.jpg",
+          "description": "La Maison Ducoin à Ay incendiée le 12 avril 1911",
+          "width": 992,
+          "height": 640,
+          "size": 336459,
+          "timestamp": "2011-06-16T06:13:15Z",
+          "author": "Maison d'édition ELD",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     },
     {
       "label": "Parc Vix",

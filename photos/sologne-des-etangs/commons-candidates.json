@@ -1,52 +1,98 @@
 {
   "slug": "sologne-des-etangs",
   "nom": "Sologne des Étangs",
-  "fetchedAt": "2026-03-14T12:42:56.006Z",
+  "fetchedAt": "2026-03-18T19:46:03.797Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Th%C3%A9s%C3%A9e-la-Romaine_%28Loir-et-Cher%29._%287677088916%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATh%C3%A9s%C3%A9e-la-Romaine%20(Loir-et-Cher).%20(7677088916).jpg",
-      "title": "Thésée-la-Romaine (Loir-et-Cher). (7677088916).jpg",
-      "width": 3648,
-      "height": 2736,
-      "size": 3828404,
-      "timestamp": "2024-08-31T14:59:03Z",
-      "author": "Daniel Jolivet",
-      "license": "CC BY 2.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Etang_de_Montrieux-en-Sologne.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEtang%20de%20Montrieux-en-Sologne.jpg",
+      "title": "Etang de Montrieux-en-Sologne.jpg",
+      "description": "Etang situé près de la rue du lavoir",
+      "width": 4608,
+      "height": 2592,
+      "size": 4977394,
+      "timestamp": "2021-11-02T17:49:33Z",
+      "author": "Chbo91",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Th%C3%A9s%C3%A9e-la-Romaine_%28Loir-et-Cher%29_%288441500644%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATh%C3%A9s%C3%A9e-la-Romaine%20(Loir-et-Cher)%20(8441500644).jpg",
-      "title": "Thésée-la-Romaine (Loir-et-Cher) (8441500644).jpg",
-      "width": 4928,
-      "height": 3264,
-      "size": 11484278,
-      "timestamp": "2024-08-31T14:59:12Z",
-      "author": "Daniel Jolivet",
-      "license": "CC BY 2.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Gemeindeverband_Sologne_des_%C3%89tangs_2019.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGemeindeverband%20Sologne%20des%20%C3%89tangs%202019.png",
+      "title": "Gemeindeverband Sologne des Étangs 2019.png",
+      "description": "Lage des Gemeindeverbandes Sologne des Étangs",
+      "width": 3500,
+      "height": 3619,
+      "size": 2694920,
+      "timestamp": "2021-01-21T13:25:47Z",
+      "author": "Tschubby",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 6
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Th%C3%A9s%C3%A9e-la-Romaine_%28Loir-et-Cher%29_%2811370941913%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATh%C3%A9s%C3%A9e-la-Romaine%20(Loir-et-Cher)%20(11370941913).jpg",
-      "title": "Thésée-la-Romaine (Loir-et-Cher) (11370941913).jpg",
-      "width": 4928,
-      "height": 3264,
-      "size": 11562677,
-      "timestamp": "2024-08-31T15:01:51Z",
-      "author": "Daniel Jolivet",
-      "license": "CC BY 2.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/La_Marolle-en-Sologne_dans_son_Intercommunalit%C3%A9.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Marolle-en-Sologne%20dans%20son%20Intercommunalit%C3%A9.png",
+      "title": "La Marolle-en-Sologne dans son Intercommunalité.png",
+      "description": "Location of the commune of La Marolle-en-Sologne in the Communauté de communes de la Sologne des Étangs (Loir-et-Cher)",
+      "width": 2000,
+      "height": 1684,
+      "size": 421547,
+      "timestamp": "2016-01-22T15:26:15Z",
+      "author": "FCK-Iceman",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 5
     }
   ],
   "lieux": [
     {
       "label": "Étang du Puits",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Etang_de_Montrieux-en-Sologne.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEtang%20de%20Montrieux-en-Sologne.jpg",
+          "title": "Etang de Montrieux-en-Sologne.jpg",
+          "description": "Etang situé près de la rue du lavoir",
+          "width": 4608,
+          "height": 2592,
+          "size": 4977394,
+          "timestamp": "2021-11-02T17:49:33Z",
+          "author": "Chbo91",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Gemeindeverband_Sologne_des_%C3%89tangs_2019.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGemeindeverband%20Sologne%20des%20%C3%89tangs%202019.png",
+          "title": "Gemeindeverband Sologne des Étangs 2019.png",
+          "description": "Lage des Gemeindeverbandes Sologne des Étangs",
+          "width": 3500,
+          "height": 3619,
+          "size": 2694920,
+          "timestamp": "2021-01-21T13:25:47Z",
+          "author": "Tschubby",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/La_Marolle-en-Sologne_dans_son_Intercommunalit%C3%A9.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Marolle-en-Sologne%20dans%20son%20Intercommunalit%C3%A9.png",
+          "title": "La Marolle-en-Sologne dans son Intercommunalité.png",
+          "description": "Location of the commune of La Marolle-en-Sologne in the Communauté de communes de la Sologne des Étangs (Loir-et-Cher)",
+          "width": 2000,
+          "height": 1684,
+          "size": 421547,
+          "timestamp": "2016-01-22T15:26:15Z",
+          "author": "FCK-Iceman",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Observatoire de l’étang de Beaumont",
@@ -54,11 +100,97 @@
     },
     {
       "label": "Étang du Ravoir",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Etang_de_Montrieux-en-Sologne.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEtang%20de%20Montrieux-en-Sologne.jpg",
+          "title": "Etang de Montrieux-en-Sologne.jpg",
+          "description": "Etang situé près de la rue du lavoir",
+          "width": 4608,
+          "height": 2592,
+          "size": 4977394,
+          "timestamp": "2021-11-02T17:49:33Z",
+          "author": "Chbo91",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Gemeindeverband_Sologne_des_%C3%89tangs_2019.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGemeindeverband%20Sologne%20des%20%C3%89tangs%202019.png",
+          "title": "Gemeindeverband Sologne des Étangs 2019.png",
+          "description": "Lage des Gemeindeverbandes Sologne des Étangs",
+          "width": 3500,
+          "height": 3619,
+          "size": 2694920,
+          "timestamp": "2021-01-21T13:25:47Z",
+          "author": "Tschubby",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/La_Marolle-en-Sologne_dans_son_Intercommunalit%C3%A9.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Marolle-en-Sologne%20dans%20son%20Intercommunalit%C3%A9.png",
+          "title": "La Marolle-en-Sologne dans son Intercommunalité.png",
+          "description": "Location of the commune of La Marolle-en-Sologne in the Communauté de communes de la Sologne des Étangs (Loir-et-Cher)",
+          "width": 2000,
+          "height": 1684,
+          "size": 421547,
+          "timestamp": "2016-01-22T15:26:15Z",
+          "author": "FCK-Iceman",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Étang de la Gabrière",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Etang_de_Montrieux-en-Sologne.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEtang%20de%20Montrieux-en-Sologne.jpg",
+          "title": "Etang de Montrieux-en-Sologne.jpg",
+          "description": "Etang situé près de la rue du lavoir",
+          "width": 4608,
+          "height": 2592,
+          "size": 4977394,
+          "timestamp": "2021-11-02T17:49:33Z",
+          "author": "Chbo91",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Gemeindeverband_Sologne_des_%C3%89tangs_2019.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGemeindeverband%20Sologne%20des%20%C3%89tangs%202019.png",
+          "title": "Gemeindeverband Sologne des Étangs 2019.png",
+          "description": "Lage des Gemeindeverbandes Sologne des Étangs",
+          "width": 3500,
+          "height": 3619,
+          "size": 2694920,
+          "timestamp": "2021-01-21T13:25:47Z",
+          "author": "Tschubby",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/La_Marolle-en-Sologne_dans_son_Intercommunalit%C3%A9.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Marolle-en-Sologne%20dans%20son%20Intercommunalit%C3%A9.png",
+          "title": "La Marolle-en-Sologne dans son Intercommunalité.png",
+          "description": "Location of the commune of La Marolle-en-Sologne in the Communauté de communes de la Sologne des Étangs (Loir-et-Cher)",
+          "width": 2000,
+          "height": 1684,
+          "size": 421547,
+          "timestamp": "2016-01-22T15:26:15Z",
+          "author": "FCK-Iceman",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     }
   ]
 }

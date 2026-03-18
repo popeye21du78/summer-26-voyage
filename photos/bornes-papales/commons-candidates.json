@@ -1,52 +1,42 @@
 {
   "slug": "bornes-papales",
   "nom": "Bornes Papales",
-  "fetchedAt": "2026-03-13T12:16:00.239Z",
+  "fetchedAt": "2026-03-15T19:54:45.090Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/En_suspension_-_Vignes_de_Vinsobres_%2826328943201%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEn%20suspension%20-%20Vignes%20de%20Vinsobres%20(26328943201).jpg",
-      "title": "En suspension - Vignes de Vinsobres (26328943201).jpg",
-      "width": 6331,
-      "height": 3879,
-      "size": 25860819,
-      "timestamp": "2025-08-17T14:46:01Z",
-      "author": "Ylliab Photo",
-      "license": "CC BY 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Val_des_rois_3.JPG",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVal%20des%20rois%203.JPG",
-      "title": "Val des rois 3.JPG",
-      "width": 4608,
-      "height": 3072,
-      "size": 4221252,
-      "timestamp": "2013-10-23T16:55:48Z",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Valr%C3%A9as_-_bornes_papales.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AValr%C3%A9as%20-%20bornes%20papales.jpg",
+      "title": "Valréas - bornes papales.jpg",
+      "description": "production de la Cave La Gaillarde de Valréas",
+      "width": 3000,
+      "height": 4000,
+      "size": 1917568,
+      "timestamp": "2013-04-21T17:35:58Z",
       "author": "Marianne Casamance",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Val_des_rois_2.JPG",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVal%20des%20rois%202.JPG",
-      "title": "Val des rois 2.JPG",
-      "width": 4608,
-      "height": 3072,
-      "size": 3832353,
-      "timestamp": "2013-10-23T16:55:49Z",
-      "author": "Marianne Casamance",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
+      "score": 4
     }
   ],
   "lieux": [
     {
       "label": "Borne papale de Valréas",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Valr%C3%A9as_-_bornes_papales.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AValr%C3%A9as%20-%20bornes%20papales.jpg",
+          "title": "Valréas - bornes papales.jpg",
+          "description": "production de la Cave La Gaillarde de Valréas",
+          "width": 3000,
+          "height": 4000,
+          "size": 1917568,
+          "timestamp": "2013-04-21T17:35:58Z",
+          "author": "Marianne Casamance",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     },
     {
       "label": "Pont de la Coronne",

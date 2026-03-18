@@ -1,12 +1,13 @@
 {
   "slug": "uomo-di-cagna",
   "nom": "Uomo di Cagna",
-  "fetchedAt": "2026-03-14T12:59:30.642Z",
+  "fetchedAt": "2026-03-18T20:26:52.700Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Omu_di_Cagna.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOmu%20di%20Cagna.jpg",
       "title": "Omu di Cagna.jpg",
+      "description": "These balanced granite boulders, located 1217 meters above sea level in the Cagna Mountain (Corse-du-Sud), look like a human shape, hence the name \"Omu di Cagna\" (\"Man Of Cagna\").",
       "width": 4016,
       "height": 3016,
       "size": 2555899,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Montagne_de_Cagna.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMontagne%20de%20Cagna.jpg",
       "title": "Montagne de Cagna.jpg",
+      "description": "Cagna Mountain (Corse-du-Sud) as seen from the Olmeto Tower (southwest).\nThe two highest peaks are, from left to right:\n\nCima di Cagna (1224 m)\nUomo di Cagna (1217 m), notice its peculiar shape: a large \"balancing rock\"\nThe village on the left side is Monacia-d'Aullène.",
       "width": 6213,
       "height": 3252,
       "size": 5009864,
@@ -28,6 +30,20 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 5
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/La_Cagna_vue_depuis_les_bouches_de_Bonifacio.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Cagna%20vue%20depuis%20les%20bouches%20de%20Bonifacio.jpg",
+      "title": "La Cagna vue depuis les bouches de Bonifacio.jpg",
+      "description": "La Cagna vue depuis les bouches de Bonifacio",
+      "width": 5176,
+      "height": 1459,
+      "size": 3587205,
+      "timestamp": "2015-10-19T07:55:56Z",
+      "author": "niall62",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
     }
   ],
   "lieux": [
@@ -35,23 +51,67 @@
       "label": "Uomo di Cagna (le rocher)",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Montagne_de_Cagna.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMontagne%20de%20Cagna.jpg",
-          "title": "Montagne de Cagna.jpg",
-          "width": 6213,
-          "height": 3252,
-          "size": 5009864,
-          "timestamp": "2011-08-21T21:07:12Z",
-          "author": "Telperion",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/La_Cagna_vue_depuis_les_bouches_de_Bonifacio.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Cagna%20vue%20depuis%20les%20bouches%20de%20Bonifacio.jpg",
+          "title": "La Cagna vue depuis les bouches de Bonifacio.jpg",
+          "description": "La Cagna vue depuis les bouches de Bonifacio",
+          "width": 5176,
+          "height": 1459,
+          "size": 3587205,
+          "timestamp": "2015-10-19T07:55:56Z",
+          "author": "niall62",
+          "license": "CC BY-SA 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Gloeden%2C_Wilhelm_von_%281856-1931%29_-_n._0332_-_Uomo_e_cagna_nera.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGloeden%2C%20Wilhelm%20von%20(1856-1931)%20-%20n.%200332%20-%20Uomo%20e%20cagna%20nera.jpg",
+          "title": "Gloeden, Wilhelm von (1856-1931) - n. 0332 - Uomo e cagna nera.jpg",
+          "description": "Wilhelm von Gloeden (1856-1931), Man wearing a toga, near Gloeden's black bitch, \"Nedda\", by a cave. Catalogue number: 0332. Cm 22,5x17.",
+          "width": 2120,
+          "height": 1701,
+          "size": 1899497,
+          "timestamp": "2021-03-19T21:01:17Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Wilhelm_von_Gloeden\" class=\"extiw\" title=\"w:en:Wilhelm von Gloeden\"><span title=\"German photographer (1856-1931)\">Wilhelm von Gloeden</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Gloeden%2C_Wilhelm_von_%281856-1931%29_-_n._0431_-_Uomo_e_cagna.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGloeden%2C%20Wilhelm%20von%20(1856-1931)%20-%20n.%200431%20-%20Uomo%20e%20cagna.jpg",
+          "title": "Gloeden, Wilhelm von (1856-1931) - n. 0431 - Uomo e cagna.jpg",
+          "description": "Wilhelm von Gloeden (1856-1931), Naked man, near Gloeden's black bitch, \"Nedda\", by a cave. Catalogue number: 0431. Cm 17x22,5.",
+          "width": 2130,
+          "height": 2826,
+          "size": 1875168,
+          "timestamp": "2021-03-19T21:01:26Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Wilhelm_von_Gloeden\" class=\"extiw\" title=\"w:en:Wilhelm von Gloeden\"><span title=\"German photographer (1856-1931)\">Wilhelm von Gloeden</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
         }
       ]
     },
     {
       "label": "Col d’Urnucciu",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/La_Cagna_vue_depuis_les_bouches_de_Bonifacio.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Cagna%20vue%20depuis%20les%20bouches%20de%20Bonifacio.jpg",
+          "title": "La Cagna vue depuis les bouches de Bonifacio.jpg",
+          "description": "La Cagna vue depuis les bouches de Bonifacio",
+          "width": 5176,
+          "height": 1459,
+          "size": 3587205,
+          "timestamp": "2015-10-19T07:55:56Z",
+          "author": "niall62",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Arête sommitale",

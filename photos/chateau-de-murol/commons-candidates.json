@@ -1,12 +1,13 @@
 {
   "slug": "chateau-de-murol",
   "nom": "Château de Murol",
-  "fetchedAt": "2026-03-13T13:13:26.898Z",
+  "fetchedAt": "2026-03-15T21:40:44.491Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Ch%C3%A2teau_de_Murol_2006-04-19_13.16.34.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Murol%202006-04-19%2013.16.34.jpg",
       "title": "Château de Murol 2006-04-19 13.16.34.jpg",
+      "description": "Château de Murol",
       "width": 2592,
       "height": 1944,
       "size": 2581734,
@@ -14,31 +15,33 @@
       "author": "Alexander Hoernigk",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Murol_chateau_3.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMurol%20chateau%203.jpg",
-      "title": "Murol chateau 3.jpg",
-      "width": 3264,
-      "height": 2448,
-      "size": 1926768,
-      "timestamp": "2011-09-05T13:59:50Z",
-      "author": "Cruccone",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Parc_naturel_r%C3%A9gional_des_Volcans_d%27Auvergne.-_Murol_et_son_Ch%C3%A2teau.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParc%20naturel%20r%C3%A9gional%20des%20Volcans%20d'Auvergne.-%20Murol%20et%20son%20Ch%C3%A2teau.jpg",
+      "title": "Parc naturel régional des Volcans d'Auvergne.- Murol et son Château.jpg",
+      "description": "Au cœur du Parc naturel régional des Volcans d'Auvergne.- Le Château de  Murol Puy-de-Dôme France",
+      "width": 3908,
+      "height": 1746,
+      "size": 3487774,
+      "timestamp": "2015-05-12T15:46:50Z",
+      "author": "PIERRE ANDRE LECLERCQ",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
+      "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Murol_chateau_5.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMurol%20chateau%205.jpg",
-      "title": "Murol chateau 5.jpg",
-      "width": 3264,
-      "height": 2448,
-      "size": 1906315,
-      "timestamp": "2011-09-05T13:59:57Z",
-      "author": "Cruccone",
-      "license": "CC BY-SA 3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Murol_et_son_Ch%C3%A2teau_%285%29.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMurol%20et%20son%20Ch%C3%A2teau%20(5).JPG",
+      "title": "Murol et son Château (5).JPG",
+      "description": "Murol Puy-de-Dôme",
+      "width": 4000,
+      "height": 3000,
+      "size": 4963885,
+      "timestamp": "2014-11-19T23:20:55Z",
+      "author": "PIERRE ANDRE LECLERCQ",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 5
     }
@@ -48,9 +51,24 @@
       "label": "Chemin de ronde",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Murol_Ch%C3%A2teau18.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMurol%20Ch%C3%A2teau18.JPG",
+          "title": "Murol Château18.JPG",
+          "description": "Murol, comm. du Puy-de-Dôme (Auvergne, France). Château. Vue prise du haut de la forteresse, sur le chemin de ronde. Coup d'œil vers l'est. La montagne à l'arrière-plan au centre est le Puy d'Éraigne (alt. 925 m), comm. de saint-Nectaire.",
+          "width": 2560,
+          "height": 1920,
+          "size": 1980272,
+          "timestamp": "2011-08-22T20:54:43Z",
+          "author": "Torsade de Pointes",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Murol_Ch%C3%A2teau19.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMurol%20Ch%C3%A2teau19.JPG",
           "title": "Murol Château19.JPG",
+          "description": "Murol, comm. du Puy-de-Dôme (Auvergne, France). Château, vu depuis le chemin de ronde, au sommet de la forteresse.",
           "width": 2560,
           "height": 1920,
           "size": 1922177,
@@ -58,13 +76,42 @@
           "author": "Torsade de Pointes",
           "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Murol_castle_%28look_to_low_yard%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMurol%20castle%20(look%20to%20low%20yard).jpg",
+          "title": "Murol castle (look to low yard).jpg",
+          "description": "Look from the wall of the Murol castle (Puy-de-Dôme, France) to the low yard. Wee see the almond-shaped towers.",
+          "width": 2816,
+          "height": 2112,
+          "size": 3925891,
+          "timestamp": "2014-09-29T20:15:41Z",
+          "author": "Tangopaso",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 5
         }
       ]
     },
     {
       "label": "Salle du seigneur",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Int%C3%A9rieur_du_ch%C3%A2teau_de_Murol_4.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AInt%C3%A9rieur%20du%20ch%C3%A2teau%20de%20Murol%204.jpg",
+          "title": "Intérieur du château de Murol 4.jpg",
+          "description": "salle repas",
+          "width": 4608,
+          "height": 2592,
+          "size": 2675240,
+          "timestamp": "2017-08-02T08:54:33Z",
+          "author": "Camulogene77",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Terrasse sommitale",
@@ -72,7 +119,22 @@
     },
     {
       "label": "Chapelle castrale",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Chapelles_du_castel_de_Murol.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelles%20du%20castel%20de%20Murol.JPG",
+          "title": "Chapelles du castel de Murol.JPG",
+          "description": "On distingue, en bas à gauche du cliché, les deux chapelles dont celle du XVe siècle où un squelette est retrouvé dans sa crypte en 2008 ; il pourrait s'agir de Guillaume de Murol, qui avait fait le souhait d'être enterré dans la chapelle de son castel.",
+          "width": 3968,
+          "height": 2976,
+          "size": 2778213,
+          "timestamp": "2013-09-16T13:50:16Z",
+          "author": "Bearnaise",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     }
   ]
 }

@@ -1,12 +1,13 @@
 {
   "slug": "marciac",
   "nom": "Marciac",
-  "fetchedAt": "2026-03-13T16:04:03.606Z",
+  "fetchedAt": "2026-03-16T21:16:31.645Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Town_hall_of_Marciac_%282%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATown%20hall%20of%20Marciac%20(2).jpg",
       "title": "Town hall of Marciac (2).jpg",
+      "description": "Upper part of the facade of the town hall of Marciac, Gers, France",
       "width": 4787,
       "height": 2950,
       "size": 8602473,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Our_Lady_church_in_Marciac_%284%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOur%20Lady%20church%20in%20Marciac%20(4).jpg",
       "title": "Our Lady church in Marciac (4).jpg",
+      "description": "Altar in the Our Lady church in Marciac, Gers, France",
       "width": 4244,
       "height": 2723,
       "size": 16372780,
@@ -30,13 +32,14 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Our_Lady_church_in_Marciac_%287%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOur%20Lady%20church%20in%20Marciac%20(7).jpg",
-      "title": "Our Lady church in Marciac (7).jpg",
-      "width": 3065,
-      "height": 2358,
-      "size": 8808311,
-      "timestamp": "2025-09-21T13:52:16Z",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Our_Lady_church_in_Marciac_%2812%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOur%20Lady%20church%20in%20Marciac%20(12).jpg",
+      "title": "Our Lady church in Marciac (12).jpg",
+      "description": "Chandelier in the Our Lady church in Marciac, Gers, France",
+      "width": 2888,
+      "height": 2404,
+      "size": 7642491,
+      "timestamp": "2025-09-21T13:52:29Z",
       "author": "Tournasol7",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
@@ -46,7 +49,50 @@
   "lieux": [
     {
       "label": "Place de l’Hôtel de Ville (arcades)",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Marciac_-_Place_de_L%27H%C3%B4tel-de-Ville_22.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarciac%20-%20Place%20de%20L'H%C3%B4tel-de-Ville%2022.jpg",
+          "title": "Marciac - Place de L'Hôtel-de-Ville 22.jpg",
+          "description": "Marciac - Place de L'Hôtel-de-Ville",
+          "width": 6000,
+          "height": 4000,
+          "size": 16618693,
+          "timestamp": "2025-01-09T15:05:27Z",
+          "author": "Renhour48",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Marciac_-_Place_de_L%27H%C3%B4tel-de-Ville_21.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarciac%20-%20Place%20de%20L'H%C3%B4tel-de-Ville%2021.jpg",
+          "title": "Marciac - Place de L'Hôtel-de-Ville 21.jpg",
+          "description": "Marciac - Place de L'Hôtel-de-Ville",
+          "width": 6000,
+          "height": 4000,
+          "size": 13526246,
+          "timestamp": "2025-01-09T15:05:27Z",
+          "author": "Renhour48",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Marciac_-_Place_de_L%27H%C3%B4tel-de-Ville_24.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarciac%20-%20Place%20de%20L'H%C3%B4tel-de-Ville%2024.jpg",
+          "title": "Marciac - Place de L'Hôtel-de-Ville 24.jpg",
+          "description": "Marciac - Place de L'Hôtel-de-Ville",
+          "width": 6000,
+          "height": 4000,
+          "size": 13655832,
+          "timestamp": "2025-01-09T15:05:32Z",
+          "author": "Renhour48",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Église Notre-Dame de l’Assomption",
@@ -55,6 +101,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Marciac_-_Eglise_Notre-Dame_de_l%27Assomption_-_Tronc.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarciac%20-%20Eglise%20Notre-Dame%20de%20l'Assomption%20-%20Tronc.jpg",
           "title": "Marciac - Eglise Notre-Dame de l'Assomption - Tronc.jpg",
+          "description": "Eglise Notre-Dame de l'Assomption",
           "width": 4111,
           "height": 2756,
           "size": 6477219,
@@ -65,26 +112,28 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Marciac_-_Eglise_Notre-Dame_de_l%27Assomption_22.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarciac%20-%20Eglise%20Notre-Dame%20de%20l'Assomption%2022.jpg",
-          "title": "Marciac - Eglise Notre-Dame de l'Assomption 22.jpg",
-          "width": 6000,
-          "height": 4000,
-          "size": 17559703,
-          "timestamp": "2025-01-07T17:17:44Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Marciac_-_Eglise_Notre-Dame_de_l%27Assomption_35.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarciac%20-%20Eglise%20Notre-Dame%20de%20l'Assomption%2035.jpg",
+          "title": "Marciac - Eglise Notre-Dame de l'Assomption 35.jpg",
+          "description": "Eglise Notre-Dame de l'Assomption",
+          "width": 1673,
+          "height": 1140,
+          "size": 1117275,
+          "timestamp": "2025-01-07T17:22:42Z",
           "author": "Renhour48",
           "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Marciac_-_Eglise_Notre-Dame_de_l%27Assomption_27.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarciac%20-%20Eglise%20Notre-Dame%20de%20l'Assomption%2027.jpg",
-          "title": "Marciac - Eglise Notre-Dame de l'Assomption 27.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Marciac_-_Eglise_Notre-Dame_de_l%27Assomption_37.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarciac%20-%20Eglise%20Notre-Dame%20de%20l'Assomption%2037.jpg",
+          "title": "Marciac - Eglise Notre-Dame de l'Assomption 37.jpg",
+          "description": "Eglise Notre-Dame de l'Assomption",
           "width": 6000,
           "height": 4000,
-          "size": 16534805,
-          "timestamp": "2025-01-07T17:17:54Z",
+          "size": 16865861,
+          "timestamp": "2025-01-07T17:22:44Z",
           "author": "Renhour48",
           "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -94,11 +143,69 @@
     },
     {
       "label": "Lac de Marciac",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Marciac_vue_de_son_lac%2C_Gers%2C_France_-_20110728.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarciac%20vue%20de%20son%20lac%2C%20Gers%2C%20France%20-%2020110728.jpg",
+          "title": "Marciac vue de son lac, Gers, France - 20110728.jpg",
+          "description": "View of the lake in Marciac, Gers, Midi-Pyrénées, France.",
+          "width": 4000,
+          "height": 3000,
+          "size": 4448474,
+          "timestamp": "2011-07-28T22:00:08Z",
+          "author": "Florent Pécassou",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Maison du Chevalier",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Marciac_-_maison_%C3%A0_colombages_A.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarciac%20-%20maison%20%C3%A0%20colombages%20A.jpg",
+          "title": "Marciac - maison à colombages A.jpg",
+          "description": "Marciac - maison à colombages",
+          "width": 6000,
+          "height": 4000,
+          "size": 14251333,
+          "timestamp": "2025-01-09T15:46:41Z",
+          "author": "Renhour48",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Marciac_-_maison_%C3%A0_pans_de_bois_A.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarciac%20-%20maison%20%C3%A0%20pans%20de%20bois%20A.jpg",
+          "title": "Marciac - maison à pans de bois A.jpg",
+          "description": "Marciac - maison à pans de bois",
+          "width": 6000,
+          "height": 4000,
+          "size": 12924348,
+          "timestamp": "2025-01-09T15:46:41Z",
+          "author": "Renhour48",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Marciac_-_maison_%C3%A0_pans_de_bois_E.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarciac%20-%20maison%20%C3%A0%20pans%20de%20bois%20E.jpg",
+          "title": "Marciac - maison à pans de bois E.jpg",
+          "description": "Marciac - maison à pans de bois",
+          "width": 5033,
+          "height": 3553,
+          "size": 9472390,
+          "timestamp": "2025-01-09T15:46:46Z",
+          "author": "Renhour48",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

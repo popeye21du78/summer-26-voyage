@@ -1,12 +1,13 @@
 {
   "slug": "creteil",
   "nom": "Créteil",
-  "fetchedAt": "2026-03-13T00:50:47.965Z",
+  "fetchedAt": "2026-03-16T12:31:37.848Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/All%C3%A9e_Toison_Or_-_Cr%C3%A9teil_%28FR94%29_-_2021-04-01_-_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAll%C3%A9e%20Toison%20Or%20-%20Cr%C3%A9teil%20(FR94)%20-%202021-04-01%20-%201.jpg",
       "title": "Allée Toison Or - Créteil (FR94) - 2021-04-01 - 1.jpg",
+      "description": "Allée de la Toison d'Or, Créteil.",
       "width": 4032,
       "height": 3024,
       "size": 3531196,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/All%C3%A9e_Toison_Or_-_Cr%C3%A9teil_%28FR94%29_-_2021-04-01_-_2.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAll%C3%A9e%20Toison%20Or%20-%20Cr%C3%A9teil%20(FR94)%20-%202021-04-01%20-%202.jpg",
       "title": "Allée Toison Or - Créteil (FR94) - 2021-04-01 - 2.jpg",
+      "description": "Allée de la Toison d'Or, Créteil.",
       "width": 4032,
       "height": 3024,
       "size": 6169314,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Place_R%C3%A9sistance_D%C3%A9portation_-_Cr%C3%A9teil_%28FR94%29_-_2021-04-01_-_3.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlace%20R%C3%A9sistance%20D%C3%A9portation%20-%20Cr%C3%A9teil%20(FR94)%20-%202021-04-01%20-%203.jpg",
       "title": "Place Résistance Déportation - Créteil (FR94) - 2021-04-01 - 3.jpg",
+      "description": "Place de la Résistance et de la Déportation, Créteil.",
       "width": 4032,
       "height": 3024,
       "size": 5401174,
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Lac_Cr%C3%A9teil_-_Cr%C3%A9teil_%28FR94%29_-_2021-04-01_-_2.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALac%20Cr%C3%A9teil%20-%20Cr%C3%A9teil%20(FR94)%20-%202021-04-01%20-%202.jpg",
           "title": "Lac Créteil - Créteil (FR94) - 2021-04-01 - 2.jpg",
+          "description": "Lac de Créteil, Créteil.",
           "width": 4032,
           "height": 3024,
           "size": 4131504,
@@ -64,6 +68,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Lac_Cr%C3%A9teil_-_Cr%C3%A9teil_%28FR94%29_-_2021-04-01_-_1.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALac%20Cr%C3%A9teil%20-%20Cr%C3%A9teil%20(FR94)%20-%202021-04-01%20-%201.jpg",
           "title": "Lac Créteil - Créteil (FR94) - 2021-04-01 - 1.jpg",
+          "description": "Lac de Créteil, Créteil.",
           "width": 4032,
           "height": 3024,
           "size": 5203126,
@@ -77,6 +82,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Lac_Cr%C3%A9teil_-_Cr%C3%A9teil_%28FR94%29_-_2021-04-01_-_3.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALac%20Cr%C3%A9teil%20-%20Cr%C3%A9teil%20(FR94)%20-%202021-04-01%20-%203.jpg",
           "title": "Lac Créteil - Créteil (FR94) - 2021-04-01 - 3.jpg",
+          "description": "Lac de Créteil, Créteil.",
           "width": 4032,
           "height": 3024,
           "size": 4922004,
@@ -90,23 +96,95 @@
     },
     {
       "label": "Cathédrale Saint-Louis de Créteil",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Cr%C3%A9teil%2C_Cath%C3%A9drale_Notre-Dame%2C_ext%C3%A9rieur_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACr%C3%A9teil%2C%20Cath%C3%A9drale%20Notre-Dame%2C%20ext%C3%A9rieur%202.jpg",
+          "title": "Créteil, Cathédrale Notre-Dame, extérieur 2.jpg",
+          "description": "Vue de la façade principale de la cathédrale Notre-Dame de Créteil dans le Val-de-Marne.",
+          "width": 4608,
+          "height": 3456,
+          "size": 3901150,
+          "timestamp": "2025-04-09T16:14:56Z",
+          "author": "Antoine Rex",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Cr%C3%A9teil%2C_Cath%C3%A9drale_Notre-Dame%2C_ext%C3%A9rieur_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACr%C3%A9teil%2C%20Cath%C3%A9drale%20Notre-Dame%2C%20ext%C3%A9rieur%201.jpg",
+          "title": "Créteil, Cathédrale Notre-Dame, extérieur 1.jpg",
+          "description": "Vue de la façade principale de la cathédrale Notre-Dame de Créteil dans le Val-de-Marne.",
+          "width": 4608,
+          "height": 3456,
+          "size": 3632605,
+          "timestamp": "2025-04-09T16:14:56Z",
+          "author": "Antoine Rex",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Cr%C3%A9teil%2C_Cath%C3%A9drale_Notre-Dame%2C_ext%C3%A9rieur_3.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACr%C3%A9teil%2C%20Cath%C3%A9drale%20Notre-Dame%2C%20ext%C3%A9rieur%203.jpg",
+          "title": "Créteil, Cathédrale Notre-Dame, extérieur 3.jpg",
+          "description": "Vue du chevet de la cathédrale Notre-Dame de Créteil dans le Val-de-Marne.",
+          "width": 4608,
+          "height": 3456,
+          "size": 5665725,
+          "timestamp": "2025-04-09T16:14:57Z",
+          "author": "Antoine Rex",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     },
     {
       "label": "Parc Dupeyroux",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Matthieu_Suc_Cr%C3%A9teil_en_Poche_2025.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMatthieu%20Suc%20Cr%C3%A9teil%20en%20Poche%202025.jpg",
-          "title": "Matthieu Suc Créteil en Poche 2025.jpg",
-          "width": 3456,
-          "height": 4618,
-          "size": 2920919,
-          "timestamp": "2025-07-13T17:37:09Z",
-          "author": "ArtyElAnanas",
-          "license": "CC BY 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Panneau_Parc_%C3%8Ele_Ravageurs_-_Cr%C3%A9teil_%28FR94%29_-_2021-03-04_-_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanneau%20Parc%20%C3%8Ele%20Ravageurs%20-%20Cr%C3%A9teil%20(FR94)%20-%202021-03-04%20-%201.jpg",
+          "title": "Panneau Parc Île Ravageurs - Créteil (FR94) - 2021-03-04 - 1.jpg",
+          "description": "Panneau à l'entrée du parc de l'île des Ravageurs, Créteil.",
+          "width": 4032,
+          "height": 3024,
+          "size": 2191814,
+          "timestamp": "2021-03-04T20:14:09Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Panneau_Parc_%C3%8Ele_Ravageurs_-_Cr%C3%A9teil_%28FR94%29_-_2021-03-04_-_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanneau%20Parc%20%C3%8Ele%20Ravageurs%20-%20Cr%C3%A9teil%20(FR94)%20-%202021-03-04%20-%202.jpg",
+          "title": "Panneau Parc Île Ravageurs - Créteil (FR94) - 2021-03-04 - 2.jpg",
+          "description": "Panneau à l'entrée du parc de l'île des Ravageurs, Créteil.",
+          "width": 4032,
+          "height": 3024,
+          "size": 3895444,
+          "timestamp": "2021-03-04T20:14:23Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Parc_Bordi%C3%A8res_-_Cr%C3%A9teil_%28FR94%29_-_2021-03-21_-_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParc%20Bordi%C3%A8res%20-%20Cr%C3%A9teil%20(FR94)%20-%202021-03-21%20-%201.jpg",
+          "title": "Parc Bordières - Créteil (FR94) - 2021-03-21 - 1.jpg",
+          "description": "Parc des Bordières, Créteil.",
+          "width": 4032,
+          "height": 3024,
+          "size": 6508214,
+          "timestamp": "2021-03-21T22:00:15Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
         }
       ]
     },
@@ -114,39 +192,42 @@
       "label": "Île Sainte-Catherine",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Bras_Sainte_Catherine_-_Cr%C3%A9teil_%28FR94%29_-_2021-03-04_-_1.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABras%20Sainte%20Catherine%20-%20Cr%C3%A9teil%20(FR94)%20-%202021-03-04%20-%201.jpg",
-          "title": "Bras Sainte Catherine - Créteil (FR94) - 2021-03-04 - 1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/%C3%8Ele_Brise_Pain_-_Cr%C3%A9teil_%28FR94%29_-_2021-02-25_-_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%8Ele%20Brise%20Pain%20-%20Cr%C3%A9teil%20(FR94)%20-%202021-02-25%20-%201.jpg",
+          "title": "Île Brise Pain - Créteil (FR94) - 2021-02-25 - 1.jpg",
+          "description": "Île de Brise-Pain, Créteil.",
           "width": 4032,
           "height": 3024,
-          "size": 6968867,
-          "timestamp": "2021-03-04T18:53:37Z",
+          "size": 5584864,
+          "timestamp": "2021-02-25T23:40:56Z",
           "author": "Chabe01",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Bras_Sainte_Catherine_-_Cr%C3%A9teil_%28FR94%29_-_2021-03-04_-_2.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABras%20Sainte%20Catherine%20-%20Cr%C3%A9teil%20(FR94)%20-%202021-03-04%20-%202.jpg",
-          "title": "Bras Sainte Catherine - Créteil (FR94) - 2021-03-04 - 2.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/%C3%8Ele_Guy%C3%A8re_-_Cr%C3%A9teil_%28FR94%29_-_2021-03-04_-_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%8Ele%20Guy%C3%A8re%20-%20Cr%C3%A9teil%20(FR94)%20-%202021-03-04%20-%201.jpg",
+          "title": "Île Guyère - Créteil (FR94) - 2021-03-04 - 1.jpg",
+          "description": "Île de Guyère, Créteil.",
           "width": 4032,
           "height": 3024,
-          "size": 6590847,
-          "timestamp": "2021-03-04T18:53:39Z",
+          "size": 6842903,
+          "timestamp": "2021-03-04T19:36:43Z",
           "author": "Chabe01",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Bras_Sainte_Catherine_-_Cr%C3%A9teil_%28FR94%29_-_2021-03-04_-_3.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABras%20Sainte%20Catherine%20-%20Cr%C3%A9teil%20(FR94)%20-%202021-03-04%20-%203.jpg",
-          "title": "Bras Sainte Catherine - Créteil (FR94) - 2021-03-04 - 3.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/%C3%8Ele_Guy%C3%A8re_-_Cr%C3%A9teil_%28FR94%29_-_2021-03-04_-_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%8Ele%20Guy%C3%A8re%20-%20Cr%C3%A9teil%20(FR94)%20-%202021-03-04%20-%202.jpg",
+          "title": "Île Guyère - Créteil (FR94) - 2021-03-04 - 2.jpg",
+          "description": "Île de Guyère, Créteil.",
           "width": 4032,
           "height": 3024,
-          "size": 6886789,
-          "timestamp": "2021-03-04T18:53:51Z",
+          "size": 7126898,
+          "timestamp": "2021-03-04T19:36:59Z",
           "author": "Chabe01",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -156,7 +237,50 @@
     },
     {
       "label": "Vieille église Saint-Christophe",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/%C3%89glise_Saint_Christophe_-_Cr%C3%A9teil_%28FR94%29_-_2021-02-25_-_3.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint%20Christophe%20-%20Cr%C3%A9teil%20(FR94)%20-%202021-02-25%20-%203.jpg",
+          "title": "Église Saint Christophe - Créteil (FR94) - 2021-02-25 - 3.jpg",
+          "description": "Église Saint-Christophe de Créteil.",
+          "width": 4032,
+          "height": 3024,
+          "size": 2836448,
+          "timestamp": "2021-02-25T23:40:25Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/%C3%89glise_Saint_Christophe_-_Cr%C3%A9teil_%28FR94%29_-_2021-03-04_-_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint%20Christophe%20-%20Cr%C3%A9teil%20(FR94)%20-%202021-03-04%20-%201.jpg",
+          "title": "Église Saint Christophe - Créteil (FR94) - 2021-03-04 - 1.jpg",
+          "description": "Église Saint-Christophe de Créteil.",
+          "width": 4032,
+          "height": 3024,
+          "size": 3581568,
+          "timestamp": "2021-03-04T19:17:51Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arr%C3%AAt_Bus_TVM_%C3%89glise_Cr%C3%A9teil_Avenue_Verdun_-_Cr%C3%A9teil_%28FR94%29_-_2021-03-21_-_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArr%C3%AAt%20Bus%20TVM%20%C3%89glise%20Cr%C3%A9teil%20Avenue%20Verdun%20-%20Cr%C3%A9teil%20(FR94)%20-%202021-03-21%20-%201.jpg",
+          "title": "Arrêt Bus TVM Église Créteil Avenue Verdun - Créteil (FR94) - 2021-03-21 - 1.jpg",
+          "description": "Arrêt de bus TVM Église de Créteil, avenue de Verdun, Créteil.",
+          "width": 4032,
+          "height": 3024,
+          "size": 5616654,
+          "timestamp": "2021-03-21T21:35:20Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

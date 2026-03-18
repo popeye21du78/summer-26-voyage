@@ -1,12 +1,13 @@
 {
   "slug": "pont-audemer",
   "nom": "Pont-Audemer",
-  "fetchedAt": "2026-03-13T01:44:13.506Z",
+  "fetchedAt": "2026-03-18T16:51:32.541Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Gare_de_Pont-Audemer_JUL2016_03.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGare%20de%20Pont-Audemer%20JUL2016%2003.jpg",
       "title": "Gare de Pont-Audemer JUL2016 03.jpg",
+      "description": "Het station van Pont-Audemer",
       "width": 3264,
       "height": 2448,
       "size": 2860884,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Gare_de_Pont-Audemer_JUL2016_01.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGare%20de%20Pont-Audemer%20JUL2016%2001.jpg",
       "title": "Gare de Pont-Audemer JUL2016 01.jpg",
+      "description": "Het station van Pont-Audemer",
       "width": 3264,
       "height": 2448,
       "size": 2918241,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Gare_de_Pont-Audemer_JUL2016_02.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGare%20de%20Pont-Audemer%20JUL2016%2002.jpg",
       "title": "Gare de Pont-Audemer JUL2016 02.jpg",
+      "description": "Het station van Pont-Audemer",
       "width": 3264,
       "height": 2448,
       "size": 1940774,
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/France_Normandie_27_Pont_Audemer_04.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20Normandie%2027%20Pont%20Audemer%2004.jpg",
           "title": "France Normandie 27 Pont Audemer 04.jpg",
+          "description": "Église Saint-Ouen de Pont-Audemer",
           "width": 3008,
           "height": 2000,
           "size": 2041468,
@@ -61,14 +65,15 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Pont-Audemer_Eglise_StOuen_R01.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont-Audemer%20Eglise%20StOuen%20R01.jpg",
-          "title": "Pont-Audemer Eglise StOuen R01.jpg",
-          "width": 3844,
-          "height": 2816,
-          "size": 8298029,
-          "timestamp": "2019-09-25T15:03:12Z",
-          "author": "Marc Ryckaert",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/%C3%89glise_Saint-Ouen_de_Pont-Audemer_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-Ouen%20de%20Pont-Audemer%2001.jpg",
+          "title": "Église Saint-Ouen de Pont-Audemer 01.jpg",
+          "description": "Statue de Sainte Jeanne d'Arc",
+          "width": 3456,
+          "height": 4608,
+          "size": 4461762,
+          "timestamp": "2023-06-06T06:18:42Z",
+          "author": "FredSeiller",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
@@ -77,6 +82,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/%C3%89glise_Saint-Ouen_de_Pont-Audemer_02.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-Ouen%20de%20Pont-Audemer%2002.jpg",
           "title": "Église Saint-Ouen de Pont-Audemer 02.jpg",
+          "description": "Statue de Saint Fiacre",
           "width": 3456,
           "height": 4608,
           "size": 4138592,
@@ -90,11 +96,69 @@
     },
     {
       "label": "Ruelles à colombages du centre",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Pont-Audemer_%28rue_Place_de_Ville%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont-Audemer%20(rue%20Place%20de%20Ville).jpg",
+          "title": "Pont-Audemer (rue Place de Ville).jpg",
+          "description": "Rue Place de Ville à Pont-Audemer",
+          "width": 4608,
+          "height": 3456,
+          "size": 4952640,
+          "timestamp": "2023-06-06T21:23:44Z",
+          "author": "FredSeiller",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Pont-Audemer_%28rue_de_la_R%C3%A9publique%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont-Audemer%20(rue%20de%20la%20R%C3%A9publique).jpg",
+          "title": "Pont-Audemer (rue de la République).jpg",
+          "description": "Maisons à pans de bois, rue de la République à Pont-Audemer",
+          "width": 4608,
+          "height": 3456,
+          "size": 4917655,
+          "timestamp": "2023-06-06T21:24:58Z",
+          "author": "FredSeiller",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Pont-Audemer_Republic_Street.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont-Audemer%20Republic%20Street.jpg",
+          "title": "Pont-Audemer Republic Street.jpg",
+          "description": "Rue de la République, Pont-Audemer.",
+          "width": 1616,
+          "height": 1080,
+          "size": 538393,
+          "timestamp": "2017-07-31T13:12:07Z",
+          "author": "Marc Baronnet",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Canaux de la Risle",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Canaux_de_Pont-Audemer.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACanaux%20de%20Pont-Audemer.JPG",
+          "title": "Canaux de Pont-Audemer.JPG",
+          "description": "Canaux de Pont-Audemer",
+          "width": 2048,
+          "height": 1352,
+          "size": 547052,
+          "timestamp": "2015-08-26T10:10:45Z",
+          "author": "LeNanou",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Quai Felix Faure",

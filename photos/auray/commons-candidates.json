@@ -1,12 +1,27 @@
 {
   "slug": "auray",
   "nom": "Auray",
-  "fetchedAt": "2026-03-12T23:57:03.271Z",
+  "fetchedAt": "2026-03-15T15:21:44.539Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Vue_du_port_de_St-Goustan%2C_Auray_-_panoramio.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20du%20port%20de%20St-Goustan%2C%20Auray%20-%20panoramio.jpg",
+      "title": "Vue du port de St-Goustan, Auray - panoramio.jpg",
+      "description": "Vue du port de St-Goustan, Auray",
+      "width": 3264,
+      "height": 2448,
+      "size": 1943365,
+      "timestamp": "2017-03-24T02:50:25Z",
+      "author": "Gilles Guillamot",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Auray_Place_de_la_R%C3%A9publique.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAuray%20Place%20de%20la%20R%C3%A9publique.jpg",
       "title": "Auray Place de la République.jpg",
+      "description": "Maison 5 place de la République, Auray (PA00090998).  Morbihan.",
       "width": 4000,
       "height": 3000,
       "size": 4029756,
@@ -20,25 +35,13 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Auray_Rue_du_P%C3%A8re_%C3%89ternel%2C_56400.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAuray%20Rue%20du%20P%C3%A8re%20%C3%89ternel%2C%2056400.jpg",
       "title": "Auray Rue du Père Éternel, 56400.jpg",
+      "description": "Maison  Rue du Père Éternel,  (Auray).-  Morbihan.",
       "width": 3764,
       "height": 2936,
       "size": 7475589,
       "timestamp": "2022-03-30T09:54:01Z",
       "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q97949455\" class=\"extiw\" title=\"d:Q97949455\"><span title=\"French photographer and Wikimedian\">Pierre André Leclercq</span></a></bdi>",
       "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Auray_-_houses_%2848590634127%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAuray%20-%20houses%20(48590634127).jpg",
-      "title": "Auray - houses (48590634127).jpg",
-      "width": 4896,
-      "height": 3264,
-      "size": 6486833,
-      "timestamp": "2023-03-03T00:11:18Z",
-      "author": "Mike Finn",
-      "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     }
@@ -48,9 +51,38 @@
       "label": "Port de Saint-Goustan",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Vue_du_port_de_St-Goustan%2C_Auray_-_panoramio.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20du%20port%20de%20St-Goustan%2C%20Auray%20-%20panoramio.jpg",
+          "title": "Vue du port de St-Goustan, Auray - panoramio.jpg",
+          "description": "Vue du port de St-Goustan, Auray",
+          "width": 3264,
+          "height": 2448,
+          "size": 1943365,
+          "timestamp": "2017-03-24T02:50:25Z",
+          "author": "Gilles Guillamot",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Auray_1870.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAuray%201870.jpg",
+          "title": "Auray 1870.jpg",
+          "description": "Jules Duclos : Le port (Auray, Morbihan, vers 1870, musée français de la photographie, Bièvres).",
+          "width": 1364,
+          "height": 946,
+          "size": 839871,
+          "timestamp": "2020-04-28T03:24:22Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q29022676\" class=\"extiw\" title=\"d:Q29022676\"><span title=\"French photographer\">Jules Duclos</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Auray_.-_Port_Saint-Goustan_la_place_Saint-Sauveur.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAuray%20.-%20Port%20Saint-Goustan%20la%20place%20Saint-Sauveur.jpg",
           "title": "Auray .- Port Saint-Goustan la place Saint-Sauveur.jpg",
+          "description": "Wharf \"Quai Franklin\" in Auray, France",
           "width": 3818,
           "height": 2258,
           "size": 4854948,
@@ -59,38 +91,55 @@
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/20190504_25_Auray_-_Port_de_Saint_Goustan_%2847054286604%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20190504%2025%20Auray%20-%20Port%20de%20Saint%20Goustan%20(47054286604).jpg",
-          "title": "20190504 25 Auray - Port de Saint Goustan (47054286604).jpg",
-          "width": 5184,
-          "height": 3456,
-          "size": 8727372,
-          "timestamp": "2021-11-22T14:32:04Z",
-          "author": "Sjaak Kempe",
-          "license": "CC BY 2.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/20190504_28_Auray_-_Port_de_Saint_Goustan_%2833966464358%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20190504%2028%20Auray%20-%20Port%20de%20Saint%20Goustan%20(33966464358).jpg",
-          "title": "20190504 28 Auray - Port de Saint Goustan (33966464358).jpg",
-          "width": 5184,
-          "height": 3456,
-          "size": 9616581,
-          "timestamp": "2021-11-22T14:33:29Z",
-          "author": "Sjaak Kempe",
-          "license": "CC BY 2.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
         }
       ]
     },
     {
       "label": "Vieille ville d'Auray",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Vieille_rue_d%27Auray_1925.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVieille%20rue%20d'Auray%201925.jpg",
+          "title": "Vieille rue d'Auray 1925.jpg",
+          "description": "Vieille rue d'Auray en 1925 (photographie Agence Rol).",
+          "width": 1222,
+          "height": 785,
+          "size": 551879,
+          "timestamp": "2022-12-11T05:15:56Z",
+          "author": "Agence Rol",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Auray%2C_une_vieille_rue_%2825-7-27%29_-_btv1b53186036z.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAuray%2C%20une%20vieille%20rue%20(25-7-27)%20-%20btv1b53186036z.jpg",
+          "title": "Auray, une vieille rue (25-7-27) - btv1b53186036z.jpg",
+          "description": "Sujet : Rues -- Sainte-Anne-d'Auray (Morbihan, France)\nSainte-Anne-d'Auray (Morbihan, France)\nRéférence bibliographique : Rol, 121531\nAppartient à l’ensemble documentaire : Pho20Rol\nImage de presse\nCouverture : 25 juillet 1927\n\nLangue : français",
+          "width": 8674,
+          "height": 6186,
+          "size": 6772927,
+          "timestamp": "2025-03-21T03:27:32Z",
+          "author": "<div class=\"fn value\">\nAgence Rol. Agence photographique (commanditaire)</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Auray_-_Panoramique_Vieille_Ville.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAuray%20-%20Panoramique%20Vieille%20Ville.jpg",
+          "title": "Auray - Panoramique Vieille Ville.jpg",
+          "description": "Panoramique de la vieille ville",
+          "width": 6334,
+          "height": 1778,
+          "size": 4129741,
+          "timestamp": "2015-12-30T20:32:42Z",
+          "author": "Jean-Christophe BENOIST",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Pont de Saint-Goustan",
@@ -99,6 +148,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Auray_Pont_de_Saint-Goustan.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAuray%20Pont%20de%20Saint-Goustan.jpg",
           "title": "Auray Pont de Saint-Goustan.jpg",
+          "description": "Le Port Saint-Goustan en bordure de la rivière d'Auray.-  Morbihan.",
           "width": 4000,
           "height": 3000,
           "size": 4530566,
@@ -112,6 +162,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Auray_%28Riviere%29_%C3%A0_Auray_%284%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAuray%20(Riviere)%20%C3%A0%20Auray%20(4).jpg",
           "title": "Auray (Riviere) à Auray (4).jpg",
+          "description": "Le Port Saint-Goustan en bordure de la rivière d'Auray.-  Morbihan.",
           "width": 4000,
           "height": 3000,
           "size": 4238377,
@@ -122,14 +173,15 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Auray_Pont_de_Saint-Goustan_1.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAuray%20Pont%20de%20Saint-Goustan%201.jpg",
-          "title": "Auray Pont de Saint-Goustan 1.jpg",
-          "width": 4583,
-          "height": 3358,
-          "size": 6417538,
-          "timestamp": "2022-08-14T07:38:54Z",
-          "author": "Zairon",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Auray_Pont_de_Kerplouz.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAuray%20Pont%20de%20Kerplouz.jpg",
+          "title": "Auray Pont de Kerplouz.jpg",
+          "description": "Pont de Kerplouz sre la rivière d'Auray.-  Morbihan.",
+          "width": 3025,
+          "height": 2269,
+          "size": 4274338,
+          "timestamp": "2022-03-24T09:58:33Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q97949455\" class=\"extiw\" title=\"d:Q97949455\"><span title=\"French photographer and Wikimedian\">Pierre André Leclercq</span></a></bdi>",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
@@ -142,11 +194,97 @@
     },
     {
       "label": "Bois du Château",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/290_Rivi%C3%A8re_d%27Auray.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A290%20Rivi%C3%A8re%20d'Auray.jpg",
+          "title": "290 Rivière d'Auray.jpg",
+          "description": "Le schorre du Banc de la Sarcelle au niveau de la Pointe de Kerisper ; à l'arrière-plan, au-delà de la Rivière d'Auray, le château de Rosnarho en Crach.",
+          "width": 4278,
+          "height": 3184,
+          "size": 6178500,
+          "timestamp": "2022-11-24T04:21:00Z",
+          "author": "Moreau.henri",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/288_Rivi%C3%A8re_d%27Auray.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A288%20Rivi%C3%A8re%20d'Auray.jpg",
+          "title": "288 Rivière d'Auray.jpg",
+          "description": "Le château de Rosnarho (en Crach, rive droite de la Rivière d'Auray) vu depuis la Pointe de Kerisper (en Pluneret, rive gauche de la Rivière d'Auray).",
+          "width": 4246,
+          "height": 3140,
+          "size": 6628509,
+          "timestamp": "2022-11-24T04:29:02Z",
+          "author": "Moreau.henri",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/289_Rivi%C3%A8re_d%27Auray.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A289%20Rivi%C3%A8re%20d'Auray.jpg",
+          "title": "289 Rivière d'Auray.jpg",
+          "description": "Slikke et schorre sur la rive gauche de la Rivière d'Auray au niveau de la Pointe de Kerisper ; à l'arrière-plan le château de Rosnarho en Crach (rive droite de la Rivière d'Auray).",
+          "width": 4320,
+          "height": 3240,
+          "size": 4993113,
+          "timestamp": "2022-11-24T04:51:17Z",
+          "author": "Moreau.henri",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     },
     {
       "label": "Chapelle de la Sainte-Trinité",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Chapelle_de_la_Congr%C3%A9gation_%28Auray%293.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20de%20la%20Congr%C3%A9gation%20(Auray)3.jpg",
+          "title": "Chapelle de la Congrégation (Auray)3.jpg",
+          "description": "Historique de la chapelle",
+          "width": 4067,
+          "height": 2486,
+          "size": 2164652,
+          "timestamp": "2024-01-02T17:03:43Z",
+          "author": "FredSeiller",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Chapelle_du_P%C3%A8re_%C3%89ternel_%28Auray%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20du%20P%C3%A8re%20%C3%89ternel%20(Auray).jpg",
+          "title": "Chapelle du Père Éternel (Auray).jpg",
+          "description": "Chapelle du couvent des Sœurs de la Charité de Saint-Louis",
+          "width": 4608,
+          "height": 3456,
+          "size": 4547065,
+          "timestamp": "2024-01-02T17:14:43Z",
+          "author": "FredSeiller",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Chapelle_du_P%C3%A8re_%C3%89ternel_%28Auray%292.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20du%20P%C3%A8re%20%C3%89ternel%20(Auray)2.jpg",
+          "title": "Chapelle du Père Éternel (Auray)2.jpg",
+          "description": "Chapelle du couvent des Sœurs de la Charité de Saint Louis",
+          "width": 4608,
+          "height": 3456,
+          "size": 4448198,
+          "timestamp": "2024-01-02T17:24:27Z",
+          "author": "FredSeiller",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

@@ -1,12 +1,27 @@
 {
   "slug": "fronton",
   "nom": "Fronton",
-  "fetchedAt": "2026-03-13T14:29:20.354Z",
+  "fetchedAt": "2026-03-16T13:34:48.149Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Fronton_-_Eglise_vue_interieure.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFronton%20-%20Eglise%20vue%20interieure.jpg",
+      "title": "Fronton - Eglise vue interieure.jpg",
+      "description": "NOTE: This image is a panorama of 2 photos consisting of multiple frames that were merged or stitched in software. As a result, this image necessarily underwent some form of digital manipulation. These manipulations may include blending, blurring, cloning, and colour and perspective adjustments. As a result of these adjustments, the image content may be slightly different from reality at the points where multiple images were combined. This manipulation is often required due to lens, perspective,",
+      "width": 9027,
+      "height": 5093,
+      "size": 47615204,
+      "timestamp": "2021-02-23T18:47:25Z",
+      "author": "Didier Descouens",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Fronton_Fa%C3%A7ade_de_l%27%C3%A9glise.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFronton%20Fa%C3%A7ade%20de%20l'%C3%A9glise.jpg",
       "title": "Fronton Façade de l'église.jpg",
+      "description": "Fronton, Haute-Garonne, France. Facade of the church \"Notre Dame de l'Assomption\".",
       "width": 6223,
       "height": 4111,
       "size": 30485642,
@@ -17,22 +32,10 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Fronton_-_Eglise_vue_interieure.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFronton%20-%20Eglise%20vue%20interieure.jpg",
-      "title": "Fronton - Eglise vue interieure.jpg",
-      "width": 9027,
-      "height": 5093,
-      "size": 47615204,
-      "timestamp": "2021-02-23T18:47:25Z",
-      "author": "Didier Descouens",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Fronton_-_Eglise_vue_interieure_-_Plafond_du_choeur_-_P%C3%A9doya.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFronton%20-%20Eglise%20vue%20interieure%20-%20Plafond%20du%20choeur%20-%20P%C3%A9doya.jpg",
       "title": "Fronton - Eglise vue interieure - Plafond du choeur - Pédoya.jpg",
+      "description": "Fronton, Haute-Garonne, France. Church \"Notre Dame de l'Assomption\" - decoration of the vault of the choir, Pédoya workshop.",
       "width": 8256,
       "height": 5504,
       "size": 52926960,
@@ -46,19 +49,191 @@
   "lieux": [
     {
       "label": "Maison des Vins de Fronton",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Maison%2C_ancienne_rue_de_la_Goutte%2C_Cusset_-_d%C3%A9tail_du_fronton_coquille_Saint-Jacques.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison%2C%20ancienne%20rue%20de%20la%20Goutte%2C%20Cusset%20-%20d%C3%A9tail%20du%20fronton%20coquille%20Saint-Jacques.jpg",
+          "title": "Maison, ancienne rue de la Goutte, Cusset - détail du fronton coquille Saint-Jacques.jpg",
+          "description": "",
+          "width": 4032,
+          "height": 3024,
+          "size": 5313062,
+          "timestamp": "2020-05-07T22:45:46Z",
+          "author": "TCY",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Lyon_4e_-_Rue_de_Belfort%2C_maison_de_Claudius_Linossier_-_fronton_porte_entree.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALyon%204e%20-%20Rue%20de%20Belfort%2C%20maison%20de%20Claudius%20Linossier%20-%20fronton%20porte%20entree.jpg",
+          "title": "Lyon 4e - Rue de Belfort, maison de Claudius Linossier - fronton porte entree.jpg",
+          "description": "Maison de Claudius Linossier, rue de Belfort, Lyon 4e - Fronton porte d'entrée",
+          "width": 3616,
+          "height": 2712,
+          "size": 1839417,
+          "timestamp": "2020-05-30T10:25:25Z",
+          "author": "Gnrc",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Epinal_Maison_Romaine_Fronton_portail.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEpinal%20Maison%20Romaine%20Fronton%20portail.jpg",
+          "title": "Epinal Maison Romaine Fronton portail.jpg",
+          "description": "Epinal Maison Romaine Fronton portail",
+          "width": 4000,
+          "height": 2798,
+          "size": 11601095,
+          "timestamp": "2021-06-01T16:09:52Z",
+          "author": "Clément293",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Église Sainte-Germaine",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Fronton_-_Eglise_vue_interieure.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFronton%20-%20Eglise%20vue%20interieure.jpg",
+          "title": "Fronton - Eglise vue interieure.jpg",
+          "description": "NOTE: This image is a panorama of 2 photos consisting of multiple frames that were merged or stitched in software. As a result, this image necessarily underwent some form of digital manipulation. These manipulations may include blending, blurring, cloning, and colour and perspective adjustments. As a result of these adjustments, the image content may be slightly different from reality at the points where multiple images were combined. This manipulation is often required due to lens, perspective,",
+          "width": 9027,
+          "height": 5093,
+          "size": 47615204,
+          "timestamp": "2021-02-23T18:47:25Z",
+          "author": "Didier Descouens",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Fronton_Fa%C3%A7ade_de_l%27%C3%A9glise.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFronton%20Fa%C3%A7ade%20de%20l'%C3%A9glise.jpg",
+          "title": "Fronton Façade de l'église.jpg",
+          "description": "Fronton, Haute-Garonne, France. Facade of the church \"Notre Dame de l'Assomption\".",
+          "width": 6223,
+          "height": 4111,
+          "size": 30485642,
+          "timestamp": "2021-02-25T07:49:06Z",
+          "author": "Didier Descouens",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/%C3%89glise_du_Souvenir_-_fronton_%28Berlin%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20du%20Souvenir%20-%20fronton%20(Berlin).jpg",
+          "title": "Église du Souvenir - fronton (Berlin).jpg",
+          "description": "Pediment of the Memorial Church in Berlin (Germany).",
+          "width": 5472,
+          "height": 3648,
+          "size": 3868789,
+          "timestamp": "2020-03-27T10:51:03Z",
+          "author": "Gzen92",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Parc municipal de Fronton",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Le_ch%C3%A2teau_et_son_fronton_%2822756451779%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20ch%C3%A2teau%20et%20son%20fronton%20(22756451779).jpg",
+          "title": "Le château et son fronton (22756451779).jpg",
+          "description": "Vue du château de Seneffe et de son parc.",
+          "width": 6016,
+          "height": 4016,
+          "size": 12991185,
+          "timestamp": "2018-03-14T09:32:56Z",
+          "author": "Stephane Mignon",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/%C3%89glise_Saint-L%C3%A9onard_de_Saint-L%C3%A9onard-des-Parcs_-_Fronton.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-L%C3%A9onard%20de%20Saint-L%C3%A9onard-des-Parcs%20-%20Fronton.jpg",
+          "title": "Église Saint-Léonard de Saint-Léonard-des-Parcs - Fronton.jpg",
+          "description": "Saint-Léonard-des-Parcs, Orne",
+          "width": 5184,
+          "height": 3456,
+          "size": 8028024,
+          "timestamp": "2020-07-17T21:13:53Z",
+          "author": "Xfigpower",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Carte_postale_-_Saint-Cloud_-_Le_Parc%2C_ancien_Fronton_du_Palais_de_l%27Industrie.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarte%20postale%20-%20Saint-Cloud%20-%20Le%20Parc%2C%20ancien%20Fronton%20du%20Palais%20de%20l'Industrie.jpg",
+          "title": "Carte postale - Saint-Cloud - Le Parc, ancien Fronton du Palais de l'Industrie.jpg",
+          "description": "Le Parc, ancien Fronton du Palais de l'Industrie",
+          "width": 3603,
+          "height": 2369,
+          "size": 6492865,
+          "timestamp": "2020-10-10T17:09:58Z",
+          "author": "<div class=\"fn value\">\nUnknown author<span style=\"display: none;\">Unknown author</span></div>",
+          "license": "Licence Ouverte",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Château de Capdeville",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Fronton_de_la_fa%C3%A7ade_arri%C3%A8re_du_ch%C3%A2teau_de_la_No%C3%AB.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFronton%20de%20la%20fa%C3%A7ade%20arri%C3%A8re%20du%20ch%C3%A2teau%20de%20la%20No%C3%AB.jpg",
+          "title": "Fronton de la façade arrière du château de la Noë.jpg",
+          "description": "Tracy-sur-Mer, fronton de la façade arrière du château de la Noë qui représente une charrue et des outils agricoles",
+          "width": 4896,
+          "height": 3672,
+          "size": 3401870,
+          "timestamp": "2020-09-23T14:21:30Z",
+          "author": "Pimprenel",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Ch%C3%A2teau_de_Magny-en-Bessin_avant-corps_et_fronton_sept_2020.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Magny-en-Bessin%20avant-corps%20et%20fronton%20sept%202020.jpg",
+          "title": "Château de Magny-en-Bessin avant-corps et fronton sept 2020.jpg",
+          "description": "Château de Magny-en-Bessin avant-corps et fronton sept 2020",
+          "width": 5184,
+          "height": 3456,
+          "size": 6765428,
+          "timestamp": "2020-09-24T16:31:50Z",
+          "author": "Pascal RADIGUE",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Ch%C3%A2teau_de_Magny-en-Bessin_fronton_arri%C3%A8re.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Magny-en-Bessin%20fronton%20arri%C3%A8re.jpg",
+          "title": "Château de Magny-en-Bessin fronton arrière.jpg",
+          "description": "Château de Magny-en-Bessin fronton arrière",
+          "width": 5184,
+          "height": 3456,
+          "size": 6214739,
+          "timestamp": "2020-09-24T17:23:42Z",
+          "author": "Pascal RADIGUE",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     }
   ]
 }

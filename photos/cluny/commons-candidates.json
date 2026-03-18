@@ -1,12 +1,13 @@
 {
   "slug": "cluny",
   "nom": "Cluny",
-  "fetchedAt": "2026-03-13T13:49:31.168Z",
+  "fetchedAt": "2026-03-16T12:10:45.024Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Plaque_Petite_rue_Lamartine_Cluny_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlaque%20Petite%20rue%20Lamartine%20Cluny%201.jpg",
       "title": "Plaque Petite rue Lamartine Cluny 1.jpg",
+      "description": "Plaque de la Petite rue Lamartine, Cluny.",
       "width": 4032,
       "height": 3024,
       "size": 3047031,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Plaque_Petite_rue_Lamartine_Cluny_2.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlaque%20Petite%20rue%20Lamartine%20Cluny%202.jpg",
       "title": "Plaque Petite rue Lamartine Cluny 2.jpg",
+      "description": "Plaque de la Petite rue Lamartine, Cluny.",
       "width": 3080,
       "height": 1804,
       "size": 1061497,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Petite_rue_Lamartine_Cluny_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APetite%20rue%20Lamartine%20Cluny%201.jpg",
       "title": "Petite rue Lamartine Cluny 1.jpg",
+      "description": "Petite rue Lamartine, Cluny.",
       "width": 4032,
       "height": 3024,
       "size": 5196121,
@@ -46,49 +49,95 @@
   "lieux": [
     {
       "label": "Abbaye de Cluny (vestiges et cloître)",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Abbaye_de_Cluny_hdsr_IMG_6798.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20de%20Cluny%20hdsr%20IMG%206798.jpg",
+          "title": "Abbaye de Cluny hdsr IMG 6798.jpg",
+          "description": "image montrant une photographie prise sur le site de l'abbaye du  Cluny : vue des bâtiment coté parc",
+          "width": 3648,
+          "height": 2736,
+          "size": 4492246,
+          "timestamp": "2022-12-14T09:03:35Z",
+          "author": "Hyppolyte de Saint-Rambert",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Abbaye_de_Cluny_hdsr_IMG_6799.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20de%20Cluny%20hdsr%20IMG%206799.jpg",
+          "title": "Abbaye de Cluny hdsr IMG 6799.jpg",
+          "description": "image montrant une photographie prise sur le site de l'abbaye du  Cluny : vue des bâtiment coté parc",
+          "width": 3577,
+          "height": 2683,
+          "size": 5830300,
+          "timestamp": "2022-12-14T09:03:36Z",
+          "author": "Hyppolyte de Saint-Rambert",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Abbaye_de_Cluny_hdsr_IMG_6846.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20de%20Cluny%20hdsr%20IMG%206846.jpg",
+          "title": "Abbaye de Cluny hdsr IMG 6846.jpg",
+          "description": "image montrant une photographie prise sur le site de l'abbaye du  Cluny : vue des bâtiment coté parc",
+          "width": 3539,
+          "height": 2654,
+          "size": 5506516,
+          "timestamp": "2022-12-14T09:03:45Z",
+          "author": "Hyppolyte de Saint-Rambert",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     },
     {
       "label": "Tour des Fromages",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Int%C3%A9rieur_Tour_Fromages_-_Cluny_%28FR71%29_-_2024-09-29_-_4.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AInt%C3%A9rieur%20Tour%20Fromages%20-%20Cluny%20(FR71)%20-%202024-09-29%20-%204.jpg",
-          "title": "Intérieur Tour Fromages - Cluny (FR71) - 2024-09-29 - 4.jpg",
-          "width": 4032,
-          "height": 3024,
-          "size": 3777178,
-          "timestamp": "2024-09-30T00:20:40Z",
-          "author": "Chabe01",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Cluny_-_Vue_depuis_la_Tour_des_Fromages_-_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACluny%20-%20Vue%20depuis%20la%20Tour%20des%20Fromages%20-%2002.jpg",
+          "title": "Cluny - Vue depuis la Tour des Fromages - 02.jpg",
+          "description": "Cluny (Saône-et-Loire, France) - View from the Cheeses Tower - Southeast of town",
+          "width": 6428,
+          "height": 4289,
+          "size": 14637306,
+          "timestamp": "2025-09-19T17:31:12Z",
+          "author": "Benjamin Smith",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Int%C3%A9rieur_Tour_Fromages_-_Cluny_%28FR71%29_-_2024-09-29_-_6.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AInt%C3%A9rieur%20Tour%20Fromages%20-%20Cluny%20(FR71)%20-%202024-09-29%20-%206.jpg",
-          "title": "Intérieur Tour Fromages - Cluny (FR71) - 2024-09-29 - 6.jpg",
-          "width": 4032,
-          "height": 3024,
-          "size": 4204334,
-          "timestamp": "2024-09-30T00:20:51Z",
-          "author": "Chabe01",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Cluny_-_Vue_depuis_la_Tour_des_Fromages_-_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACluny%20-%20Vue%20depuis%20la%20Tour%20des%20Fromages%20-%2001.jpg",
+          "title": "Cluny - Vue depuis la Tour des Fromages - 01.jpg",
+          "description": "Cluny (Saône-et-Loire, France) - View from the Cheeses Tower - The abbey buildings",
+          "width": 6590,
+          "height": 4397,
+          "size": 11172600,
+          "timestamp": "2025-09-19T17:31:12Z",
+          "author": "Benjamin Smith",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Tour_des_Fromages_de_la_Cl%C3%B4ture_de_l%27abbaye_de_ClunY_2025-03.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATour%20des%20Fromages%20de%20la%20Cl%C3%B4ture%20de%20l'abbaye%20de%20ClunY%202025-03.jpg",
-          "title": "Tour des Fromages de la Clôture de l'abbaye de ClunY 2025-03.jpg",
-          "width": 6000,
-          "height": 4000,
-          "size": 6657194,
-          "timestamp": "2025-05-24T19:59:11Z",
-          "author": "Chatsam",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Cluny_-_Vue_depuis_la_Tour_des_Fromages_-_04.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACluny%20-%20Vue%20depuis%20la%20Tour%20des%20Fromages%20-%2004.jpg",
+          "title": "Cluny - Vue depuis la Tour des Fromages - 04.jpg",
+          "description": "Cluny (Saône-et-Loire, France) - View from the Cheeses Tower - West of town",
+          "width": 6228,
+          "height": 4156,
+          "size": 12996800,
+          "timestamp": "2025-09-19T17:31:18Z",
+          "author": "Benjamin Smith",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         }
       ]
     },
@@ -96,39 +145,42 @@
       "label": "Place du Commerce",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Plaque_Place_Commerce_-_Cluny_%28FR71%29_-_2024-09-29_-_1.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlaque%20Place%20Commerce%20-%20Cluny%20(FR71)%20-%202024-09-29%20-%201.jpg",
-          "title": "Plaque Place Commerce - Cluny (FR71) - 2024-09-29 - 1.jpg",
-          "width": 3306,
-          "height": 1776,
-          "size": 1388350,
-          "timestamp": "2024-09-29T23:14:10Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Cluny_-_Vue_depuis_la_Tour_des_Fromages_-_04.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACluny%20-%20Vue%20depuis%20la%20Tour%20des%20Fromages%20-%2004.jpg",
+          "title": "Cluny - Vue depuis la Tour des Fromages - 04.jpg",
+          "description": "Cluny (Saône-et-Loire, France) - View from the Cheeses Tower - West of town",
+          "width": 6228,
+          "height": 4156,
+          "size": 12996800,
+          "timestamp": "2025-09-19T17:31:18Z",
+          "author": "Benjamin Smith",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Plaque_place_Champ_Foire_Cluny_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlaque%20place%20Champ%20Foire%20Cluny%201.jpg",
+          "title": "Plaque place Champ Foire Cluny 1.jpg",
+          "description": "Plaque de la place du Champ de Foire, Cluny.",
+          "width": 4032,
+          "height": 3024,
+          "size": 5067901,
+          "timestamp": "2020-08-12T22:11:03Z",
           "author": "Chabe01",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Plaque_Place_Commerce_-_Cluny_%28FR71%29_-_2024-09-29_-_2.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlaque%20Place%20Commerce%20-%20Cluny%20(FR71)%20-%202024-09-29%20-%202.jpg",
-          "title": "Plaque Place Commerce - Cluny (FR71) - 2024-09-29 - 2.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Fontaine_Place_Notre_Dame_Cluny_4.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFontaine%20Place%20Notre%20Dame%20Cluny%204.jpg",
+          "title": "Fontaine Place Notre Dame Cluny 4.jpg",
+          "description": "Fontaine de la place Notre-Dame, Cluny.",
           "width": 4032,
           "height": 3024,
-          "size": 4443743,
-          "timestamp": "2024-09-29T23:14:27Z",
-          "author": "Chabe01",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Place_Commerce_-_Cluny_%28FR71%29_-_2024-09-29_-_1.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlace%20Commerce%20-%20Cluny%20(FR71)%20-%202024-09-29%20-%201.jpg",
-          "title": "Place Commerce - Cluny (FR71) - 2024-09-29 - 1.jpg",
-          "width": 4032,
-          "height": 3024,
-          "size": 4936594,
-          "timestamp": "2024-09-30T00:39:46Z",
+          "size": 5913051,
+          "timestamp": "2020-08-12T22:46:53Z",
           "author": "Chabe01",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -138,7 +190,50 @@
     },
     {
       "label": "Promenade des remparts",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Remparts_impasse_Tanneries_Cluny_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARemparts%20impasse%20Tanneries%20Cluny%202.jpg",
+          "title": "Remparts impasse Tanneries Cluny 2.jpg",
+          "description": "Remparts vers l'impasse des Tanneries, Cluny.",
+          "width": 5184,
+          "height": 3456,
+          "size": 9943290,
+          "timestamp": "2017-04-10T10:35:23Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Remparts_impasse_Tanneries_Cluny_6.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARemparts%20impasse%20Tanneries%20Cluny%206.jpg",
+          "title": "Remparts impasse Tanneries Cluny 6.jpg",
+          "description": "Remparts vers l'impasse des Tanneries, Cluny.",
+          "width": 5184,
+          "height": 3456,
+          "size": 7133346,
+          "timestamp": "2017-04-10T10:35:33Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Remparts_pr%C3%A8s_Tour_Ronde_Cluny_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARemparts%20pr%C3%A8s%20Tour%20Ronde%20Cluny%201.jpg",
+          "title": "Remparts près Tour Ronde Cluny 1.jpg",
+          "description": "Remparts vers la tour Ronde, Cluny.",
+          "width": 5184,
+          "height": 3456,
+          "size": 9291874,
+          "timestamp": "2017-04-10T10:35:40Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

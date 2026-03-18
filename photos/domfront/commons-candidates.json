@@ -1,12 +1,13 @@
 {
   "slug": "domfront",
   "nom": "Domfront",
-  "fetchedAt": "2026-03-13T14:06:37.187Z",
+  "fetchedAt": "2026-03-16T12:49:23.211Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Ch%C3%A2teau_de_Domfront_-_Vue_g%C3%A9n%C3%A9rale.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Domfront%20-%20Vue%20g%C3%A9n%C3%A9rale.jpg",
       "title": "Château de Domfront - Vue générale.jpg",
+      "description": "Château de Domfront - Vue générale",
       "width": 3882,
       "height": 2911,
       "size": 6532806,
@@ -14,33 +15,35 @@
       "author": "JackyM59",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Ch%C3%A2teau_de_Domfront_-_Remparts_01.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Domfront%20-%20Remparts%2001.jpg",
+      "title": "Château de Domfront - Remparts 01.jpg",
+      "description": "Château de Domfront - Remparts",
+      "width": 2878,
+      "height": 3881,
+      "size": 5837461,
+      "timestamp": "2025-12-31T17:24:08Z",
+      "author": "JackyM59",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Domfront_-_vestiges_du_ch%C3%A2teau_-_01.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADomfront%20-%20vestiges%20du%20ch%C3%A2teau%20-%2001.JPG",
+      "title": "Domfront - vestiges du château - 01.JPG",
+      "description": "Vestiges du château de Domfront, détruit sur ordre de Sully en 1608.",
+      "width": 4752,
+      "height": 3168,
+      "size": 8483938,
+      "timestamp": "2010-08-03T19:50:53Z",
+      "author": "Thesupermat",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Chateau_de_Domfront_-_panoramio.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau%20de%20Domfront%20-%20panoramio.jpg",
-      "title": "Chateau de Domfront - panoramio.jpg",
-      "width": 3072,
-      "height": 2304,
-      "size": 3240110,
-      "timestamp": "2016-12-16T06:00:27Z",
-      "author": "Johnny CHAUVIN",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Chateau_de_Domfront_-_panoramio_%281%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau%20de%20Domfront%20-%20panoramio%20(1).jpg",
-      "title": "Chateau de Domfront - panoramio (1).jpg",
-      "width": 3072,
-      "height": 2304,
-      "size": 3199528,
-      "timestamp": "2016-12-16T06:00:46Z",
-      "author": "Johnny CHAUVIN",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
     }
   ],
   "lieux": [
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/FranceNormandieDomfrontDonjon.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFranceNormandieDomfrontDonjon.jpg",
           "title": "FranceNormandieDomfrontDonjon.jpg",
+          "description": "Domfront (Normandie, France). La ruine du donjon du château.",
           "width": 3264,
           "height": 2203,
           "size": 4757021,
@@ -58,12 +62,13 @@
           "author": "Ikmo-ned",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Orne_Domfront_Chateau_Donjon_-_panoramio.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOrne%20Domfront%20Chateau%20Donjon%20-%20panoramio.jpg",
           "title": "Orne Domfront Chateau Donjon - panoramio.jpg",
+          "description": "Orne Domfront Chateau Donjon",
           "width": 1600,
           "height": 1200,
           "size": 887386,
@@ -77,6 +82,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Orne_Domfront_Chateau_Donjon_-_panoramio_%281%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOrne%20Domfront%20Chateau%20Donjon%20-%20panoramio%20(1).jpg",
           "title": "Orne Domfront Chateau Donjon - panoramio (1).jpg",
+          "description": "Orne Domfront Chateau Donjon",
           "width": 1600,
           "height": 1200,
           "size": 744928,
@@ -94,11 +100,69 @@
     },
     {
       "label": "Chapelle romane",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Eglise_Saint-Julien_de_Domfront_-_coupe_longitudinale_de_la_nef_du_c%C3%B4t%C3%A9_de_la_chapelle_de_la_Vierge_-_dessin_-_btv1b550010236.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Saint-Julien%20de%20Domfront%20-%20coupe%20longitudinale%20de%20la%20nef%20du%20c%C3%B4t%C3%A9%20de%20la%20chapelle%20de%20la%20Vierge%20-%20dessin%20-%20btv1b550010236.jpg",
+          "title": "Eglise Saint-Julien de Domfront - coupe longitudinale de la nef du côté de la chapelle de la Vierge - dessin - btv1b550010236.jpg",
+          "description": "Sujet : Domfront (Orne, France) -- Église Saint-Julien\nRéférence bibliographique : Robert de Cotte, 2225\nRéférence bibliographique : Fossier, 202\nAppartient à l’ensemble documentaire : Des18Cotte\nAppartient à l’ensemble documentaire : BNormand1\nCoupe longitudinale\n\nLangue : français",
+          "width": 5558,
+          "height": 4333,
+          "size": 1641563,
+          "timestamp": "2025-02-26T15:07:52Z",
+          "author": "Inconnu",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Eglise_Saint-Julien_de_Domfront_-_coupe_longitudinale_de_l%27%C3%A9glise_du_c%C3%B4t%C3%A9_de_la_chapelle_de_la_Vierge_-_dessin_-_btv1b550009327.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Saint-Julien%20de%20Domfront%20-%20coupe%20longitudinale%20de%20l'%C3%A9glise%20du%20c%C3%B4t%C3%A9%20de%20la%20chapelle%20de%20la%20Vierge%20-%20dessin%20-%20btv1b550009327.jpg",
+          "title": "Eglise Saint-Julien de Domfront - coupe longitudinale de l'église du côté de la chapelle de la Vierge - dessin - btv1b550009327.jpg",
+          "description": "Sujet : Domfront (Orne, France) -- Église Saint-Julien\nRéférence bibliographique : Robert de Cotte, 2205\nRéférence bibliographique : Fossier, 202\nAppartient à l’ensemble documentaire : Des18Cotte\nAppartient à l’ensemble documentaire : BNormand1\nCoupe longitudinale\n\nLangue : français",
+          "width": 5582,
+          "height": 4034,
+          "size": 1985570,
+          "timestamp": "2025-03-03T22:56:49Z",
+          "author": "Inconnu",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Domfront_le_chateau_%283%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADomfront%20le%20chateau%20(3).jpg",
+          "title": "Domfront le chateau (3).jpg",
+          "description": "ruines de la chapelle St Symphorien",
+          "width": 4160,
+          "height": 3120,
+          "size": 5998860,
+          "timestamp": "2018-02-28T18:10:24Z",
+          "author": "Mazal87",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Panorama sur la vallée de la Varenne",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/PanoramaBocageDomfront61.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanoramaBocageDomfront61.jpg",
+          "title": "PanoramaBocageDomfront61.jpg",
+          "description": "Bocage Domfrontais (Orne - France)",
+          "width": 800,
+          "height": 600,
+          "size": 538004,
+          "timestamp": "2005-12-22T06:13:24Z",
+          "author": "No machine-readable author provided. <a href=\"//commons.wikimedia.org/wiki/User:EveLaF%C3%A9e\" title=\"User:EveLaFée\">EveLaFée</a> assumed (based on copyright claims).",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 3
+        }
+      ]
     }
   ]
 }

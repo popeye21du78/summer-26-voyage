@@ -1,12 +1,27 @@
 {
   "slug": "hesdin",
   "nom": "Hesdin",
-  "fetchedAt": "2026-03-13T14:43:11.876Z",
+  "fetchedAt": "2026-03-16T14:05:52.218Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Hesdin%2C_vestiges_de_la_Brasserie-malterie_Georges%2C_puis_Cousin.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHesdin%2C%20vestiges%20de%20la%20Brasserie-malterie%20Georges%2C%20puis%20Cousin.jpg",
+      "title": "Hesdin, vestiges de la Brasserie-malterie Georges, puis Cousin.jpg",
+      "description": "Hesdin, remains of the Georges Brewery-malthouse, then Cousin, on Canche river side, view from the bridge the Ancienne Poissonnerie",
+      "width": 2403,
+      "height": 2150,
+      "size": 3663056,
+      "timestamp": "2025-09-23T10:55:49Z",
+      "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q97949455\" class=\"extiw\" title=\"d:Q97949455\"><span title=\"French photographer and Wikimedian\">Pierre André Leclercq</span></a></bdi>",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Town_hall_of_Hesdin_en2025_%282%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATown%20hall%20of%20Hesdin%20en2025%20(2).jpg",
       "title": "Town hall of Hesdin en2025 (2).jpg",
+      "description": "Town hall of Hesdin. The entrance has a 17th century machicolation designed by Jacques Bidan, Pierre Guimopre and Roussel",
       "width": 4896,
       "height": 3672,
       "size": 6733438,
@@ -20,23 +35,11 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Hesdin_Maison_natale_de_l%27abb%C3%A9-Pr%C3%A9vost_PA00108313_%282%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHesdin%20Maison%20natale%20de%20l'abb%C3%A9-Pr%C3%A9vost%20PA00108313%20(2).jpg",
       "title": "Hesdin Maison natale de l'abbé-Prévost PA00108313 (2).jpg",
+      "description": "Hesdin Maison natale de l'abbé-Prévost",
       "width": 4896,
       "height": 3672,
       "size": 6834397,
       "timestamp": "2025-09-16T10:08:39Z",
-      "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q97949455\" class=\"extiw\" title=\"d:Q97949455\"><span title=\"French photographer and Wikimedian\">Pierre André Leclercq</span></a></bdi>",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Hesdin%2C_h%C3%B4tel_de_ville_ancien_palais_de_Marie_d%27Hongrie_PA00108312.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHesdin%2C%20h%C3%B4tel%20de%20ville%20ancien%20palais%20de%20Marie%20d'Hongrie%20PA00108312.jpg",
-      "title": "Hesdin, hôtel de ville ancien palais de Marie d'Hongrie PA00108312.jpg",
-      "width": 4563,
-      "height": 3143,
-      "size": 9093913,
-      "timestamp": "2025-09-16T10:54:50Z",
       "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q97949455\" class=\"extiw\" title=\"d:Q97949455\"><span title=\"French photographer and Wikimedian\">Pierre André Leclercq</span></a></bdi>",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
@@ -48,27 +51,43 @@
       "label": "Hôtel de ville d’Hesdin",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Town_hall_of_Hesdin_en2025_%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATown%20hall%20of%20Hesdin%20en2025%20(2).jpg",
+          "title": "Town hall of Hesdin en2025 (2).jpg",
+          "description": "Town hall of Hesdin. The entrance has a 17th century machicolation designed by Jacques Bidan, Pierre Guimopre and Roussel",
+          "width": 4896,
+          "height": 3672,
+          "size": 6733438,
+          "timestamp": "2025-09-11T21:31:46Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q97949455\" class=\"extiw\" title=\"d:Q97949455\"><span title=\"French photographer and Wikimedian\">Pierre André Leclercq</span></a></bdi>",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Hesdin%2C_h%C3%B4tel_de_ville_ancien_palais_de_Marie_d%27Hongrie_PA00108312.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHesdin%2C%20h%C3%B4tel%20de%20ville%20ancien%20palais%20de%20Marie%20d'Hongrie%20PA00108312.jpg",
+          "title": "Hesdin, hôtel de ville ancien palais de Marie d'Hongrie PA00108312.jpg",
+          "description": "The belfry of the Hesdin town hall. The entrance has a 17th century machicolation designed by Jacques Bidan, Pierre Guimopre and Roussel",
+          "width": 4563,
+          "height": 3143,
+          "size": 9093913,
+          "timestamp": "2025-09-16T10:54:50Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q97949455\" class=\"extiw\" title=\"d:Q97949455\"><span title=\"French photographer and Wikimedian\">Pierre André Leclercq</span></a></bdi>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Hesdin_mairie_beffroi.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHesdin%20mairie%20beffroi.jpg",
           "title": "Hesdin mairie beffroi.jpg",
+          "description": "Hôtel de ville et beffroi d'Hesdin (Pas-de-Calais)",
           "width": 3108,
           "height": 2331,
           "size": 5069430,
           "timestamp": "2017-04-21T21:20:21Z",
           "author": "Bateloupreaut",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Hesdin%2C_porte_basse_de_l%27h%C3%B4tel_de_ville_PA00108312.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHesdin%2C%20porte%20basse%20de%20l'h%C3%B4tel%20de%20ville%20PA00108312.jpg",
-          "title": "Hesdin, porte basse de l'hôtel de ville PA00108312.jpg",
-          "width": 1952,
-          "height": 2629,
-          "size": 2606677,
-          "timestamp": "2025-09-16T10:52:03Z",
-          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q97949455\" class=\"extiw\" title=\"d:Q97949455\"><span title=\"French photographer and Wikimedian\">Pierre André Leclercq</span></a></bdi>",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
@@ -79,9 +98,38 @@
       "label": "Église Notre-Dame d’Hesdin",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/%C3%89glise_de_Vieil-Hesdin.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20de%20Vieil-Hesdin.jpg",
+          "title": "Église de Vieil-Hesdin.jpg",
+          "description": "Church in Vieil-Hesdin",
+          "width": 4038,
+          "height": 2692,
+          "size": 6070423,
+          "timestamp": "2020-04-05T12:01:46Z",
+          "author": "KL KL",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/PM_149569_F_Hesdin.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APM%20149569%20F%20Hesdin.jpg",
+          "title": "PM 149569 F Hesdin.jpg",
+          "description": "L'église Notre-Dame. Hesdin. Hauts-de-France, Pas-de-Calais. France. vue de l'extérieur. Parish church (L'église Notre-Dame). Exterior. . Photo: Paul M.R. Maeyaert. © Paul M.R. Maeyaert,pmrmaeyaert@gmail.com. Europe|France,Europe|France|Hauts-de-France|Pas-de-Calais,Europe|France|Hauts-de-France,Europe|France|Hauts-de-France|Pas-de-Calais|Hesdin,Cultural heritage|Monuments|Church. ref: PM_149569_F_Hesdin. DO NOT CHANGE THE FILE NAME. NE PAS CHANGER LE NOM DE FICHIER.",
+          "width": 600,
+          "height": 400,
+          "size": 296268,
+          "timestamp": "2023-07-20T08:07:49Z",
+          "author": "PMRMaeyaert",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Infobord_kerk_Hesdin_-_Frankrijk.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AInfobord%20kerk%20Hesdin%20-%20Frankrijk.jpg",
           "title": "Infobord kerk Hesdin - Frankrijk.jpg",
+          "description": "Église Notre-Dame d'Hesdin - Arrondissement Montreuil - Département Pas-de-Calais - Région Hauts-de-France - France",
           "width": 2628,
           "height": 1916,
           "size": 1347272,
@@ -90,32 +138,6 @@
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/PM_149569_F_Hesdin.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APM%20149569%20F%20Hesdin.jpg",
-          "title": "PM 149569 F Hesdin.jpg",
-          "width": 600,
-          "height": 400,
-          "size": 296268,
-          "timestamp": "2023-07-20T08:07:49Z",
-          "author": "PMRMaeyaert",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Hesdin_%28%C3%A9glise_Notre-Dame%29_2.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHesdin%20(%C3%A9glise%20Notre-Dame)%202.jpg",
-          "title": "Hesdin (église Notre-Dame) 2.jpg",
-          "width": 1944,
-          "height": 2972,
-          "size": 1875612,
-          "timestamp": "2011-12-13T09:06:08Z",
-          "author": "isamiga76",
-          "license": "CC BY 2.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
         }
       ]
     },
@@ -130,6 +152,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Hesdin%2C_vestiges_de_la_Brasserie-malterie_Georges%2C_puis_Cousin.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHesdin%2C%20vestiges%20de%20la%20Brasserie-malterie%20Georges%2C%20puis%20Cousin.jpg",
           "title": "Hesdin, vestiges de la Brasserie-malterie Georges, puis Cousin.jpg",
+          "description": "Hesdin, remains of the Georges Brewery-malthouse, then Cousin, on Canche river side, view from the bridge the Ancienne Poissonnerie",
           "width": 2403,
           "height": 2150,
           "size": 3663056,
@@ -137,7 +160,35 @@
           "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q97949455\" class=\"extiw\" title=\"d:Q97949455\"><span title=\"French photographer and Wikimedian\">Pierre André Leclercq</span></a></bdi>",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Evangelia._-_Noribergae._III._3s_Tomus..._%28Archadelt%2C_J._Bentel%2C_S._Bouleau_%28_Boyleau%29%2C_J._Buus%2C_C._Canis%2C_Clemens_non_papa%2C_B._Comes%2C_Th._Crequillon%2C_D._Finot%2C_Fevin%2C_Gascongne%2C_Gombert%2C_Hesdin...%29_-_btv1b10875530w_%2802_of_69%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEvangelia.%20-%20Noribergae.%20III.%203s%20Tomus...%20(Archadelt%2C%20J.%20Bentel%2C%20S.%20Bouleau%20(%20Boyleau)%2C%20J.%20Buus%2C%20C.%20Canis%2C%20Clemens%20non%20papa%2C%20B.%20Comes%2C%20Th.%20Crequillon%2C%20D.%20Finot%2C%20Fevin%2C%20Gascongne%2C%20Gombert%2C%20Hesdin...)%20-%20btv1b10875530w%20(02%20of%2069).jpg",
+          "title": "Evangelia. - Noribergae. III. 3s Tomus... (Archadelt, J. Bentel, S. Bouleau ( Boyleau), J. Buus, C. Canis, Clemens non papa, B. Comes, Th. Crequillon, D. Finot, Fevin, Gascongne, Gombert, Hesdin...) - btv1b10875530w (02 of 69).jpg",
+          "description": "Arcadelt, Jacques (1507?-1568). Auteur ou responsable intellectuel\nBentel, J.. Auteur ou responsable intellectuel\nBouleau, S.. Auteur ou responsable intellectuel\nBuus, Jacques (1500?-1565). Auteur ou responsable intellectuel\nCanis, Cornelius (1506?-1562?). Auteur ou responsable intellectuel\nClemens non Papa, Jacobus (151.-1556?). Auteur ou responsable intellectuel\nCrequillon, Th.. Auteur ou responsable intellectuel\nFinot, D.. Auteur ou responsable intellectuel\nFévin, Antoine de (1470?-1511?). Au",
+          "width": 7547,
+          "height": 3794,
+          "size": 2600905,
+          "timestamp": "2025-08-12T12:40:59Z",
+          "author": "<div class=\"fn value\">\n<p>Comes, Bartholomaeus. Compositeur\nLupi, Johannes (1506?-1539). Compositeur\nDu Pont, Jacques (1510?-154.). Compositeur\nWillaert, Adrian (1490?-1562). Compositeur\nJachet de Berchem (1505?-1565?). Compositeur\nHellinck, Lupus (1494?-1541). Compositeur\n</p>\nVaet, Jacobus (1529?-1567). Compositeur</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Evangelia._-_Noribergae._III._3s_Tomus..._%28Archadelt%2C_J._Bentel%2C_S._Bouleau_%28_Boyleau%29%2C_J._Buus%2C_C._Canis%2C_Clemens_non_papa%2C_B._Comes%2C_Th._Crequillon%2C_D._Finot%2C_Fevin%2C_Gascongne%2C_Gombert%2C_Hesdin...%29_-_btv1b10875530w_%2804_of_69%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEvangelia.%20-%20Noribergae.%20III.%203s%20Tomus...%20(Archadelt%2C%20J.%20Bentel%2C%20S.%20Bouleau%20(%20Boyleau)%2C%20J.%20Buus%2C%20C.%20Canis%2C%20Clemens%20non%20papa%2C%20B.%20Comes%2C%20Th.%20Crequillon%2C%20D.%20Finot%2C%20Fevin%2C%20Gascongne%2C%20Gombert%2C%20Hesdin...)%20-%20btv1b10875530w%20(04%20of%2069).jpg",
+          "title": "Evangelia. - Noribergae. III. 3s Tomus... (Archadelt, J. Bentel, S. Bouleau ( Boyleau), J. Buus, C. Canis, Clemens non papa, B. Comes, Th. Crequillon, D. Finot, Fevin, Gascongne, Gombert, Hesdin...) - btv1b10875530w (04 of 69).jpg",
+          "description": "Arcadelt, Jacques (1507?-1568). Auteur ou responsable intellectuel\nBentel, J.. Auteur ou responsable intellectuel\nBouleau, S.. Auteur ou responsable intellectuel\nBuus, Jacques (1500?-1565). Auteur ou responsable intellectuel\nCanis, Cornelius (1506?-1562?). Auteur ou responsable intellectuel\nClemens non Papa, Jacobus (151.-1556?). Auteur ou responsable intellectuel\nCrequillon, Th.. Auteur ou responsable intellectuel\nFinot, D.. Auteur ou responsable intellectuel\nFévin, Antoine de (1470?-1511?). Au",
+          "width": 7547,
+          "height": 3794,
+          "size": 2644176,
+          "timestamp": "2025-08-12T12:41:21Z",
+          "author": "<div class=\"fn value\">\n<p>Comes, Bartholomaeus. Compositeur\nLupi, Johannes (1506?-1539). Compositeur\nDu Pont, Jacques (1510?-154.). Compositeur\nWillaert, Adrian (1490?-1562). Compositeur\nJachet de Berchem (1505?-1565?). Compositeur\nHellinck, Lupus (1494?-1541). Compositeur\n</p>\nVaet, Jacobus (1529?-1567). Compositeur</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
         }
       ]
     }

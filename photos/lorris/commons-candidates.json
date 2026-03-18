@@ -1,12 +1,13 @@
 {
   "slug": "lorris",
   "nom": "Lorris",
-  "fetchedAt": "2026-03-13T15:57:21.488Z",
+  "fetchedAt": "2026-03-16T20:58:27.035Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Mus%C3%A9e_de_la_R%C3%A9sistance_%28Lorris%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e%20de%20la%20R%C3%A9sistance%20(Lorris).jpg",
       "title": "Musée de la Résistance (Lorris).jpg",
+      "description": "Vue de l'exposition consacrée au camps de concentration",
       "width": 3000,
       "height": 4000,
       "size": 6012094,
@@ -14,12 +15,13 @@
       "author": "Artgaux",
       "license": "CC0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Lorris_orgues_ensemble.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALorris%20orgues%20ensemble.jpg",
       "title": "Lorris orgues ensemble.jpg",
+      "description": "The oldest organ of France - 1501 : Lorris (Loiret) - neary Orleans",
       "width": 1984,
       "height": 1488,
       "size": 789706,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Lorris_halle_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALorris%20halle%201.jpg",
       "title": "Lorris halle 1.jpg",
+      "description": "12th century market hall in Lorris, natural region of Gâtinais, Loiret, Centre region, France.",
       "width": 2144,
       "height": 1424,
       "size": 1831535,
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Lorris_Halle3865.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALorris%20Halle3865.JPG",
           "title": "Lorris Halle3865.JPG",
+          "description": "Markthalle in Lorris im Département Loiret der Region Centre",
           "width": 4246,
           "height": 2834,
           "size": 6404418,
@@ -64,6 +68,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Lorris_halles.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALorris%20halles.jpg",
           "title": "Lorris halles.jpg",
+          "description": "Les Halles du XIIe siècle de Lorris dans le Loiret (France)",
           "width": 1984,
           "height": 1488,
           "size": 668014,
@@ -77,6 +82,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Lorris_halle_1.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALorris%20halle%201.jpg",
           "title": "Lorris halle 1.jpg",
+          "description": "12th century market hall in Lorris, natural region of Gâtinais, Loiret, Centre region, France.",
           "width": 2144,
           "height": 1424,
           "size": 1831535,
@@ -90,25 +96,54 @@
     },
     {
       "label": "Église Saint-Louis",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/MIs%C3%A9ricorde%2C_homme_combattant_un_griffon%3B_%C3%A9glise_de_Lorris_%2845%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMIs%C3%A9ricorde%2C%20homme%20combattant%20un%20griffon%3B%20%C3%A9glise%20de%20Lorris%20(45).jpg",
+          "title": "MIséricorde, homme combattant un griffon; église de Lorris (45).jpg",
+          "description": "Miséricorde montrant un homme armé d'un sabre et d'un bouclier combattant un griffon; église de Lorris dans le Loiret.",
+          "width": 1840,
+          "height": 1318,
+          "size": 1199899,
+          "timestamp": "2024-04-21T15:57:11Z",
+          "author": "Trevalb",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Mis%C3%A9ricorde%2C_homme_allong%C3%A9%2C_%C3%A9glise_de_Lorris_%2845%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMis%C3%A9ricorde%2C%20homme%20allong%C3%A9%2C%20%C3%A9glise%20de%20Lorris%20(45).jpg",
+          "title": "Miséricorde, homme allongé, église de Lorris (45).jpg",
+          "description": "Miséricorde montrant un homme grand et barbu, allongé avec un personnage de petite taille debout, à côté de lui;  église de Lorris dans le Loiret.",
+          "width": 1900,
+          "height": 1446,
+          "size": 902529,
+          "timestamp": "2024-04-21T16:09:36Z",
+          "author": "Trevalb",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Mis%C3%A9ricorde%2C_cavalier_chevauchant_arm%C3%A9_d%27un_fusuil%2C_%C3%A9glise_de_Lorris_%2845%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMis%C3%A9ricorde%2C%20cavalier%20chevauchant%20arm%C3%A9%20d'un%20fusuil%2C%20%C3%A9glise%20de%20Lorris%20(45).jpg",
+          "title": "Miséricorde, cavalier chevauchant armé d'un fusuil, église de Lorris (45).jpg",
+          "description": "Miséricorde montrant un cavalier chevauchant et portant un fusil dans la main droite; église de Lorris dans le Loiret.",
+          "width": 1900,
+          "height": 1266,
+          "size": 913761,
+          "timestamp": "2024-04-21T16:50:01Z",
+          "author": "Trevalb",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Canal d’Orléans",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Rigole_de_Courpalet.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARigole%20de%20Courpalet.jpg",
-          "title": "Rigole de Courpalet.jpg",
-          "width": 768,
-          "height": 1024,
-          "size": 398187,
-          "timestamp": "2018-09-05T09:54:37Z",
-          "author": "Desmoric",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 3
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Maison de la Forêt",

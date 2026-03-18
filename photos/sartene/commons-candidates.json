@@ -1,25 +1,13 @@
 {
   "slug": "sartene",
   "nom": "Sartène",
-  "fetchedAt": "2026-03-14T12:26:24.973Z",
+  "fetchedAt": "2026-03-18T19:06:14.542Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Tignolella%2C_Sart%C3%A8ne%2C_Corse-du-Sud%2C_Corse_-_panoramio.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATignolella%2C%20Sart%C3%A8ne%2C%20Corse-du-Sud%2C%20Corse%20-%20panoramio.jpg",
-      "title": "Tignolella, Sartène, Corse-du-Sud, Corse - panoramio.jpg",
-      "width": 3456,
-      "height": 2592,
-      "size": 3714576,
-      "timestamp": "2016-12-09T00:13:10Z",
-      "author": "Patrick Nouhailler's…",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Vue_depuis_le_76_Avenue_Gabriel_P%C3%A9ri%2C_Sart%C3%A8ne%2C_Corse-du-Sud%2C_Corse_-_panoramio.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20depuis%20le%2076%20Avenue%20Gabriel%20P%C3%A9ri%2C%20Sart%C3%A8ne%2C%20Corse-du-Sud%2C%20Corse%20-%20panoramio.jpg",
       "title": "Vue depuis le 76 Avenue Gabriel Péri, Sartène, Corse-du-Sud, Corse - panoramio.jpg",
+      "description": "Vue depuis le 76 Avenue Gabriel Péri, Sartène, Corse-du-Sud, Corse",
       "width": 3456,
       "height": 2592,
       "size": 4626881,
@@ -27,12 +15,13 @@
       "author": "Patrick Nouhailler's…",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Vue_depuis_le_76_Avenue_Gabriel_P%C3%A9ri%2C_Sart%C3%A8ne%2C_Corse-du-Sud%2C_Corse_-_panoramio_%281%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20depuis%20le%2076%20Avenue%20Gabriel%20P%C3%A9ri%2C%20Sart%C3%A8ne%2C%20Corse-du-Sud%2C%20Corse%20-%20panoramio%20(1).jpg",
       "title": "Vue depuis le 76 Avenue Gabriel Péri, Sartène, Corse-du-Sud, Corse - panoramio (1).jpg",
+      "description": "Vue depuis le 76 Avenue Gabriel Péri, Sartène, Corse-du-Sud, Corse",
       "width": 3456,
       "height": 2592,
       "size": 3432961,
@@ -40,13 +29,70 @@
       "author": "Patrick Nouhailler's…",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Sartene_-_view_of_Citadelle_%26_old_town_-_panoramio.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASartene%20-%20view%20of%20Citadelle%20%26%20old%20town%20-%20panoramio.jpg",
+      "title": "Sartene - view of Citadelle & old town - panoramio.jpg",
+      "description": "Sartene - view of Citadelle &amp; old town",
+      "width": 1024,
+      "height": 768,
+      "size": 236565,
+      "timestamp": "2015-07-21T02:17:35Z",
+      "author": "jeffwarder",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
     }
   ],
   "lieux": [
     {
       "label": "Église Santa Maria Assunta",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/%C3%89chauguette_de_Sart%C3%A8ne.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89chauguette%20de%20Sart%C3%A8ne.jpg",
+          "title": "Échauguette de Sartène.jpg",
+          "description": "Vue depuis l'avenue du Général Péri",
+          "width": 3456,
+          "height": 4608,
+          "size": 5110603,
+          "timestamp": "2018-09-18T21:47:05Z",
+          "author": "Quirinalis",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Sartene%2C_santa_maria%2C_esterno_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASartene%2C%20santa%20maria%2C%20esterno%2001.jpg",
+          "title": "Sartene, santa maria, esterno 01.jpg",
+          "description": "Église Sainte-Marie de Sartène",
+          "width": 5472,
+          "height": 3648,
+          "size": 11105511,
+          "timestamp": "2020-04-28T13:46:20Z",
+          "author": "Sailko",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Sart%C3%A8ne_ch%C5%93ur_de_l%27%C3%A9glise_Sainte-Marie.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASart%C3%A8ne%20ch%C5%93ur%20de%20l'%C3%A9glise%20Sainte-Marie.jpg",
+          "title": "Sartène chœur de l'église Sainte-Marie.jpg",
+          "description": "Sartène, Corse-du-Sud - Chœur de l'église paroissiale Sainte-Marie. L'autel (maître-autel, gradins, tabernacle) est classé au titre des Monuments historiques",
+          "width": 2288,
+          "height": 1712,
+          "size": 3939939,
+          "timestamp": "2017-02-15T14:33:25Z",
+          "author": "Pierre Bona",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Musée de la Préhistoire Corse et de l’Archéologie",

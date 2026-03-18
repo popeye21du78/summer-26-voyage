@@ -1,12 +1,13 @@
 {
   "slug": "ploumanac-h",
   "nom": "ploumanac h",
-  "fetchedAt": "2026-03-14T11:29:04.849Z",
+  "fetchedAt": "2026-03-18T16:45:24.854Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Phare_de_Mean_Ruz_-_Ploumanac%60h_Lighthouse_-_panoramio_%281%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APhare%20de%20Mean%20Ruz%20-%20Ploumanac%60h%20Lighthouse%20-%20panoramio%20(1).jpg",
       "title": "Phare de Mean Ruz - Ploumanac`h Lighthouse - panoramio (1).jpg",
+      "description": "Phare de Mean Ruz / Ploumanac`h Lighthouse",
       "width": 3200,
       "height": 2400,
       "size": 1642941,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Ploumanac%60h_Lighthouse_-_Phare_de_Mean_Ruz_-_panoramio_%281%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APloumanac%60h%20Lighthouse%20-%20Phare%20de%20Mean%20Ruz%20-%20panoramio%20(1).jpg",
       "title": "Ploumanac`h Lighthouse - Phare de Mean Ruz - panoramio (1).jpg",
+      "description": "Ploumanac`h Lighthouse / Phare de Mean Ruz",
       "width": 2048,
       "height": 1536,
       "size": 746853,
@@ -30,13 +32,14 @@
       "score": 6
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/00_0676_Rocks_of_C%C3%B4te_de_granit_rose_-_Ploumanac%C2%B4h%2C_France.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A00%200676%20Rocks%20of%20C%C3%B4te%20de%20granit%20rose%20-%20Ploumanac%C2%B4h%2C%20France.jpg",
-      "title": "00 0676 Rocks of Côte de granit rose - Ploumanac´h, France.jpg",
-      "width": 3600,
-      "height": 2400,
-      "size": 8754306,
-      "timestamp": "2018-08-24T18:00:48Z",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/00_0723_Ploumanac%C2%B4h_-_Sentier_des_Douaniers_%28Z%C3%B6llnerpfad%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A00%200723%20Ploumanac%C2%B4h%20-%20Sentier%20des%20Douaniers%20(Z%C3%B6llnerpfad).jpg",
+      "title": "00 0723 Ploumanac´h - Sentier des Douaniers (Zöllnerpfad).jpg",
+      "description": "Ploumanac´h: Sentier des Douaniers (Zöllnerpfad). Ein Wanderweg durch bizarre Felsen an der Côte de Granit (Bretagne).",
+      "width": 3636,
+      "height": 2424,
+      "size": 6536813,
+      "timestamp": "2018-05-21T18:04:31Z",
       "author": "W. Bulach",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Phare_de_Mean_Ruz_-_Ploumanac%60h_Lighthouse_-_panoramio_%281%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APhare%20de%20Mean%20Ruz%20-%20Ploumanac%60h%20Lighthouse%20-%20panoramio%20(1).jpg",
           "title": "Phare de Mean Ruz - Ploumanac`h Lighthouse - panoramio (1).jpg",
+          "description": "Phare de Mean Ruz / Ploumanac`h Lighthouse",
           "width": 3200,
           "height": 2400,
           "size": 1642941,
@@ -64,6 +68,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Ploumanac%60h_Lighthouse_-_Phare_de_Mean_Ruz_-_panoramio_%281%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APloumanac%60h%20Lighthouse%20-%20Phare%20de%20Mean%20Ruz%20-%20panoramio%20(1).jpg",
           "title": "Ploumanac`h Lighthouse - Phare de Mean Ruz - panoramio (1).jpg",
+          "description": "Ploumanac`h Lighthouse / Phare de Mean Ruz",
           "width": 2048,
           "height": 1536,
           "size": 746853,
@@ -77,6 +82,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Phare_de_Mean_Ruz_Ploumanac%60h_Lighthouse_Perros-Guirec_France_%2815242248123%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APhare%20de%20Mean%20Ruz%20Ploumanac%60h%20Lighthouse%20Perros-Guirec%20France%20(15242248123).jpg",
           "title": "Phare de Mean Ruz Ploumanac`h Lighthouse Perros-Guirec France (15242248123).jpg",
+          "description": "OLYMPUS DIGITAL CAMERA",
           "width": 2400,
           "height": 3200,
           "size": 1721500,
@@ -90,7 +96,50 @@
     },
     {
       "label": "Sentier des douaniers (GR 34)",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/00_0723_Ploumanac%C2%B4h_-_Sentier_des_Douaniers_%28Z%C3%B6llnerpfad%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A00%200723%20Ploumanac%C2%B4h%20-%20Sentier%20des%20Douaniers%20(Z%C3%B6llnerpfad).jpg",
+          "title": "00 0723 Ploumanac´h - Sentier des Douaniers (Zöllnerpfad).jpg",
+          "description": "Ploumanac´h: Sentier des Douaniers (Zöllnerpfad). Ein Wanderweg durch bizarre Felsen an der Côte de Granit (Bretagne).",
+          "width": 3636,
+          "height": 2424,
+          "size": 6536813,
+          "timestamp": "2018-05-21T18:04:31Z",
+          "author": "W. Bulach",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/00_0665_Ploumanac%C2%B4h_-_Sentier_des_Douaniers_%28Z%C3%B6llnerpfad%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A00%200665%20Ploumanac%C2%B4h%20-%20Sentier%20des%20Douaniers%20(Z%C3%B6llnerpfad).jpg",
+          "title": "00 0665 Ploumanac´h - Sentier des Douaniers (Zöllnerpfad).jpg",
+          "description": "Ploumanac´h: Sentier des Douaniers (Zöllnerpfad). Ein Wanderweg durch bizarre Felsen an der Côte de Granit (Bretagne).",
+          "width": 3636,
+          "height": 2424,
+          "size": 6928566,
+          "timestamp": "2018-05-21T18:19:43Z",
+          "author": "W. Bulach",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/00_0656_Ploumanac%C2%B4h_-_Sentier_des_Douaniers_%28Z%C3%B6llnerpfad%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A00%200656%20Ploumanac%C2%B4h%20-%20Sentier%20des%20Douaniers%20(Z%C3%B6llnerpfad).jpg",
+          "title": "00 0656 Ploumanac´h - Sentier des Douaniers (Zöllnerpfad).jpg",
+          "description": "Ploumanac´h: Sentier des Douaniers (Zöllnerpfad). Ein Wanderweg durch bizarre Felsen an der Côte de Granit (Bretagne).",
+          "width": 3636,
+          "height": 2424,
+          "size": 8365933,
+          "timestamp": "2018-05-21T18:32:10Z",
+          "author": "W. Bulach",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Plage de Saint-Guirec",

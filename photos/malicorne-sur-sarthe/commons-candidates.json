@@ -1,25 +1,13 @@
 {
   "slug": "malicorne-sur-sarthe",
   "nom": "Malicorne-sur-Sarthe",
-  "fetchedAt": "2026-03-13T16:02:57.371Z",
+  "fetchedAt": "2026-03-16T21:14:10.748Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Malicorne-sur-Sarthe_-_Place_de_la_Republique_-_bo%C3%AEte_%C3%A0_livres.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMalicorne-sur-Sarthe%20-%20Place%20de%20la%20Republique%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
-      "title": "Malicorne-sur-Sarthe - Place de la Republique - boîte à livres.jpg",
-      "width": 1875,
-      "height": 2500,
-      "size": 1145568,
-      "timestamp": "2025-08-14T08:31:24Z",
-      "author": "yannou72",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Malicorne-sur-Sarthe_-_Ch%C3%A2teau_de_Malicorne_%282%29.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMalicorne-sur-Sarthe%20-%20Ch%C3%A2teau%20de%20Malicorne%20(2).JPG",
       "title": "Malicorne-sur-Sarthe - Château de Malicorne (2).JPG",
+      "description": "Château, douves et pavillon d'entrée - Château de Malicorne - Malicorne-sur-Sarthe - Sarthe (72)",
       "width": 4135,
       "height": 2623,
       "size": 3442218,
@@ -27,12 +15,13 @@
       "author": "Gregofhuest",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
+      "score": 7
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Malicorne-sur-Sarthe_-_Ch%C3%A2teau_de_Malicorne_%283%29.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMalicorne-sur-Sarthe%20-%20Ch%C3%A2teau%20de%20Malicorne%20(3).JPG",
       "title": "Malicorne-sur-Sarthe - Château de Malicorne (3).JPG",
+      "description": "Portail du parc et pont d'accès - Château de Malicorne - Malicorne-sur-Sarthe - Sarthe (72)",
       "width": 4039,
       "height": 2963,
       "size": 3386817,
@@ -40,13 +29,42 @@
       "author": "Gregofhuest",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Noyen-sur-Sarthe_-_Ch%C3%A2teau_de_RiveSarthe.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANoyen-sur-Sarthe%20-%20Ch%C3%A2teau%20de%20RiveSarthe.JPG",
+      "title": "Noyen-sur-Sarthe - Château de RiveSarthe.JPG",
+      "description": "Château de RiveSarthe - Noyen-sur-Sarthe - Sarthe (72)",
+      "width": 4320,
+      "height": 3240,
+      "size": 3697659,
+      "timestamp": "2014-11-05T11:13:28Z",
+      "author": "Gregofhuest",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
     }
   ],
   "lieux": [
     {
       "label": "Musée de la faïence et de la céramique",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Passerelle_Malicorne_Espace_Faience.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APasserelle%20Malicorne%20Espace%20Faience.jpg",
+          "title": "Passerelle Malicorne Espace Faience.jpg",
+          "description": "Musée Malicorne Espace Faïence",
+          "width": 2008,
+          "height": 1339,
+          "size": 1644935,
+          "timestamp": "2016-07-21T12:25:09Z",
+          "author": "Mairie de Malicorne, CemjikaPao, Vu 2 o, Guy Durand",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Pont sur la Sarthe",
@@ -56,9 +74,38 @@
       "label": "Parc du château",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Ve%C3%BCe_de_la_ville_et_du_chasteau_de_Malicorne%2C_dans_le_Maine%2C_a_Sept_lie%C3%BCes_de_la_Ville_du_Mans_et_%C3%A0_trois_lie%C3%BCes_de_La_Fl%C3%A8che%3B_1695_-_dessin_-_Louis_Boudan_-_btv1b6902344p.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVe%C3%BCe%20de%20la%20ville%20et%20du%20chasteau%20de%20Malicorne%2C%20dans%20le%20Maine%2C%20a%20Sept%20lie%C3%BCes%20de%20la%20Ville%20du%20Mans%20et%20%C3%A0%20trois%20lie%C3%BCes%20de%20La%20Fl%C3%A8che%3B%201695%20-%20dessin%20-%20Louis%20Boudan%20-%20btv1b6902344p.jpg",
+          "title": "Veüe de la ville et du chasteau de Malicorne, dans le Maine, a Sept lieües de la Ville du Mans et à trois lieües de La Flèche; 1695 - dessin - Louis Boudan - btv1b6902344p.jpg",
+          "description": "Sujet : Moulins à eau\nSarthe (France ; cours d'eau)\nMalicorne-sur-Sarthe -- Vues générales\nMalicorne-sur-Sarthe -- Château\nPaysages -- 17e siècle\nRéférence bibliographique : Gaignières, 5796\nAppartient à l’ensemble documentaire : Des17Gaig\n\nAppartient à l’ensemble documentaire : PaysLoir1",
+          "width": 3552,
+          "height": 3944,
+          "size": 2279505,
+          "timestamp": "2025-02-26T11:01:17Z",
+          "author": "<div class=\"fn value\">\nBoudan, Louis (16..-17.. ; dessinateur et graveur). Dessinateur</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Malicorne-sur-Sarthe_-_Ch%C3%A2teau_de_Malicorne_%282%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMalicorne-sur-Sarthe%20-%20Ch%C3%A2teau%20de%20Malicorne%20(2).JPG",
+          "title": "Malicorne-sur-Sarthe - Château de Malicorne (2).JPG",
+          "description": "Château, douves et pavillon d'entrée - Château de Malicorne - Malicorne-sur-Sarthe - Sarthe (72)",
+          "width": 4135,
+          "height": 2623,
+          "size": 3442218,
+          "timestamp": "2014-10-21T20:19:52Z",
+          "author": "Gregofhuest",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Malicorne-sur-Sarthe_-_Ch%C3%A2teau_de_Malicorne_%283%29.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMalicorne-sur-Sarthe%20-%20Ch%C3%A2teau%20de%20Malicorne%20(3).JPG",
           "title": "Malicorne-sur-Sarthe - Château de Malicorne (3).JPG",
+          "description": "Portail du parc et pont d'accès - Château de Malicorne - Malicorne-sur-Sarthe - Sarthe (72)",
           "width": 4039,
           "height": 2963,
           "size": 3386817,
@@ -66,13 +113,56 @@
           "author": "Gregofhuest",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
         }
       ]
     },
     {
       "label": "Église Saint-Silvestre",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Malicorne-sur-Sarthe_-_Eglise_Saint-Sylvestre.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMalicorne-sur-Sarthe%20-%20Eglise%20Saint-Sylvestre.jpg",
+          "title": "Malicorne-sur-Sarthe - Eglise Saint-Sylvestre.jpg",
+          "description": "Malicorne-sur-Sarthe - Eglise Saint-Sylvestre\nLa nef vue du Sud",
+          "width": 4272,
+          "height": 2848,
+          "size": 5332545,
+          "timestamp": "2017-02-12T10:58:35Z",
+          "author": "Antoine Garnier",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Malicorne-sur-Sarthe_-_Eglise_Saint-Sylvestre_%2817%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMalicorne-sur-Sarthe%20-%20Eglise%20Saint-Sylvestre%20(17).JPG",
+          "title": "Malicorne-sur-Sarthe - Eglise Saint-Sylvestre (17).JPG",
+          "description": "Gisant d'un seigneur de Malicorne de la famille de Chaources (de Sourches), 15e siècle - Eglise Saint-Sylvestre - Malicorne-sur-Sarthe - Sarthe (72)",
+          "width": 4320,
+          "height": 2724,
+          "size": 3440381,
+          "timestamp": "2014-10-24T17:09:37Z",
+          "author": "Gregofhuest",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Malicorne-sur-Sarthe_Credit_photo_CEMJIKA_PAO.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMalicorne-sur-Sarthe%20Credit%20photo%20CEMJIKA%20PAO.jpg",
+          "title": "Malicorne-sur-Sarthe Credit photo CEMJIKA PAO.jpg",
+          "description": "Vue Malicorne",
+          "width": 3744,
+          "height": 5616,
+          "size": 6295208,
+          "timestamp": "2016-07-21T12:25:07Z",
+          "author": "Mairie de Malicorne, CemjikaPao, Vu 2 o, Guy Durand",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     }
   ]
 }

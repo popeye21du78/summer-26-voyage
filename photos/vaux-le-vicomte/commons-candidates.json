@@ -1,64 +1,225 @@
 {
   "slug": "vaux-le-vicomte",
   "nom": "Vaux-le-Vicomte",
-  "fetchedAt": "2026-03-14T13:05:56.030Z",
+  "fetchedAt": "2026-03-18T20:40:02.266Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/ISS060-E-52993_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS060-E-52993%20-%20View%20of%20Earth.jpg",
-      "title": "ISS060-E-52993 - View of Earth.jpg",
-      "width": 5568,
-      "height": 3712,
-      "size": 2416179,
-      "timestamp": "2021-04-24T00:01:20Z",
-      "author": "Earth Science and Remote Sensing Unit, NASA Johnson Space Center",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/0_Jardins_et_ch%C3%A2teau_de_Vaux-le-Vicomte_%286%29.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A0%20Jardins%20et%20ch%C3%A2teau%20de%20Vaux-le-Vicomte%20(6).JPG",
+      "title": "0 Jardins et château de Vaux-le-Vicomte (6).JPG",
+      "description": "Jardins et château de  Vaux-le-Vicomte -  Maincy (Seine-et-Marne, France).",
+      "width": 5091,
+      "height": 3394,
+      "size": 9835475,
+      "timestamp": "2020-07-22T10:19:15Z",
+      "author": "Jean-Pol GRANDMONT",
+      "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Ch%C3%A2teau_de_Louvois_rotation-corrected.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Louvois%20rotation-corrected.jpg",
-      "title": "Château de Louvois rotation-corrected.jpg",
-      "width": 4500,
-      "height": 2424,
-      "size": 1676679,
-      "timestamp": "2024-09-18T06:43:41Z",
-      "author": "G.Garitan",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Fontaine-sur-Ay_-_Grande_Rue_-_bo%C3%AEte_%C3%A0_livres.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFontaine-sur-Ay%20-%20Grande%20Rue%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
-      "title": "Fontaine-sur-Ay - Grande Rue - boîte à livres.jpg",
-      "width": 1280,
-      "height": 960,
-      "size": 260743,
-      "timestamp": "2025-07-24T12:28:09Z",
-      "author": "PhL5651",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Aerial_image_of_Ch%C3%A2teau_de_Vaux-le-Vicomte_%28view_from_the_south%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAerial%20image%20of%20Ch%C3%A2teau%20de%20Vaux-le-Vicomte%20(view%20from%20the%20south).jpg",
+      "title": "Aerial image of Château de Vaux-le-Vicomte (view from the south).jpg",
+      "description": "Aerial image of Château de Vaux-le-Vicomte (view from the south)",
+      "width": 5100,
+      "height": 2800,
+      "size": 9480227,
+      "timestamp": "2025-10-08T17:26:57Z",
+      "author": "Carsten Steger",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Ch%C3%A2teau_de_Vaux-le-Vicomte%2C_Maincy%2C_France_01.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Vaux-le-Vicomte%2C%20Maincy%2C%20France%2001.jpg",
+      "title": "Château de Vaux-le-Vicomte, Maincy, France 01.jpg",
+      "description": "The Château de Vaux-le-Vicomte is a baroque French château located in Maincy, near Melun, 55 kilometres (34 mi) southeast of Paris in the Seine-et-Marne département of France.\nConstructed from 1658 to 1661 for Nicolas Fouquet, Marquis de Belle Île, Viscount of Melun and Vaux, the superintendent of finances of Louis XIV, the château was an influential work of architecture in mid-17th-century Europe. At Vaux-le-Vicomte, the architect Louis Le Vau, the landscape architect André le Nôtre, and the pa",
+      "width": 1616,
+      "height": 1080,
+      "size": 599026,
+      "timestamp": "2017-10-03T11:38:17Z",
+      "author": "Rene Cortin",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
     }
   ],
   "lieux": [
     {
       "label": "Grand Salon sous coupole",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/0_Vaux-le-Vicomte_-_Grandes_%C3%A9curies_%281%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A0%20Vaux-le-Vicomte%20-%20Grandes%20%C3%A9curies%20(1).JPG",
+          "title": "0 Vaux-le-Vicomte - Grandes écuries (1).JPG",
+          "description": "Anciennes grande écuries et actuelles musée des équipages du château de  Vaux-le-Vicomte -  Maincy (Seine-et-Marne, France).",
+          "width": 5037,
+          "height": 3358,
+          "size": 8797995,
+          "timestamp": "2020-07-24T10:28:38Z",
+          "author": "Jean-Pol GRANDMONT",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/0_Vaux-le-Vicomte_-_Grandes_%C3%A9curies_%282%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A0%20Vaux-le-Vicomte%20-%20Grandes%20%C3%A9curies%20(2).JPG",
+          "title": "0 Vaux-le-Vicomte - Grandes écuries (2).JPG",
+          "description": "Anciennes grande écuries et actuelle musée des équipages du château de  Vaux-le-Vicomte -  Maincy (Seine-et-Marne, France).",
+          "width": 5003,
+          "height": 3336,
+          "size": 9480273,
+          "timestamp": "2020-07-24T10:34:24Z",
+          "author": "Jean-Pol GRANDMONT",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/0_Vaux-le-Vicomte_-_Grandes_%C3%A9curies_%283%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A0%20Vaux-le-Vicomte%20-%20Grandes%20%C3%A9curies%20(3).JPG",
+          "title": "0 Vaux-le-Vicomte - Grandes écuries (3).JPG",
+          "description": "Anciennes grande écuries et actuelle musée des équipages du château de  Vaux-le-Vicomte -  Maincy (Seine-et-Marne, France).",
+          "width": 5118,
+          "height": 3412,
+          "size": 9348396,
+          "timestamp": "2020-07-24T11:56:08Z",
+          "author": "Jean-Pol GRANDMONT",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     },
     {
       "label": "Jardin à la française et ses bassins",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/0_Jardins_et_ch%C3%A2teau_de_Vaux-le-Vicomte_%286%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A0%20Jardins%20et%20ch%C3%A2teau%20de%20Vaux-le-Vicomte%20(6).JPG",
+          "title": "0 Jardins et château de Vaux-le-Vicomte (6).JPG",
+          "description": "Jardins et château de  Vaux-le-Vicomte -  Maincy (Seine-et-Marne, France).",
+          "width": 5091,
+          "height": 3394,
+          "size": 9835475,
+          "timestamp": "2020-07-22T10:19:15Z",
+          "author": "Jean-Pol GRANDMONT",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/0_Ch%C3%A2teau_de_Vaux-le-Vicomte_-_Jardins_%281%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A0%20Ch%C3%A2teau%20de%20Vaux-le-Vicomte%20-%20Jardins%20(1).JPG",
+          "title": "0 Château de Vaux-le-Vicomte - Jardins (1).JPG",
+          "description": "Les jardins du château de  Vaux-le-Vicomte -  Maincy (Seine-et-Marne, France).",
+          "width": 5184,
+          "height": 3456,
+          "size": 7254666,
+          "timestamp": "2020-07-25T09:00:39Z",
+          "author": "Jean-Pol GRANDMONT",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Vaux-le-Vicomte_-_88.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVaux-le-Vicomte%20-%2088.jpg",
+          "title": "Vaux-le-Vicomte - 88.jpg",
+          "description": "View of visit to Vaux le Vicomte",
+          "width": 5184,
+          "height": 3456,
+          "size": 6946089,
+          "timestamp": "2022-09-04T20:22:40Z",
+          "author": "Micheletb",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     },
     {
       "label": "Escalier d’eau",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/0_Vaux-le-Vicomte_-_%27Le_Lion_et_la_Lionne%27_-_Georges_Gardet_%281%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A0%20Vaux-le-Vicomte%20-%20'Le%20Lion%20et%20la%20Lionne'%20-%20Georges%20Gardet%20(1).jpg",
+          "title": "0 Vaux-le-Vicomte - 'Le Lion et la Lionne' - Georges Gardet (1).jpg",
+          "description": "« Le Lion et la Lionne », sculpture réalisée par   Georges Gardet pour orner le sommet des escaliers permettant d’accéder au second niveau de terrasse les jardins du château de  Vaux-le-Vicomte -  Maincy (Seine-et-Marne, France).",
+          "width": 4952,
+          "height": 3302,
+          "size": 7510500,
+          "timestamp": "2020-07-27T08:03:54Z",
+          "author": "Jean-Pol GRANDMONT",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/0_Vaux-le-Vicomte_-_%27Le_Lion_et_la_Lionne%27_-_Georges_Gardet_%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A0%20Vaux-le-Vicomte%20-%20'Le%20Lion%20et%20la%20Lionne'%20-%20Georges%20Gardet%20(2).jpg",
+          "title": "0 Vaux-le-Vicomte - 'Le Lion et la Lionne' - Georges Gardet (2).jpg",
+          "description": "« Le Lion et la Lionne », sculpture réalisée par   Georges Gardet pour orner le sommet des escaliers permettant d’accéder au second niveau de terrasse les jardins du château de  Vaux-le-Vicomte -  Maincy (Seine-et-Marne, France).",
+          "width": 5184,
+          "height": 3456,
+          "size": 9247178,
+          "timestamp": "2020-07-27T08:07:08Z",
+          "author": "Jean-Pol GRANDMONT",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/0_Vaux-le-Vicomte_-_%27La_Tigresse_et_le_Tigre%27_-_Georges_Gardet_%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A0%20Vaux-le-Vicomte%20-%20'La%20Tigresse%20et%20le%20Tigre'%20-%20Georges%20Gardet%20(2).jpg",
+          "title": "0 Vaux-le-Vicomte - 'La Tigresse et le Tigre' - Georges Gardet (2).jpg",
+          "description": "« La Tigresse et le Tigre », sculpture réalisée par  Georges Gardet pour orner le sommet des escaliers permettant d’accéder au second niveau de terrasse les jardins du château de Vaux-le-Vicomte - Maincy (Seine-et-Marne, France).",
+          "width": 5160,
+          "height": 3425,
+          "size": 7529049,
+          "timestamp": "2020-07-27T09:10:27Z",
+          "author": "Jean-Pol GRANDMONT",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     },
     {
       "label": "Caves voûtées",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Ch%C3%A2teau_de_Vaux-le-Vicomte_-_Cuisines_cave.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Vaux-le-Vicomte%20-%20Cuisines%20cave.JPG",
+          "title": "Château de Vaux-le-Vicomte - Cuisines cave.JPG",
+          "description": "Château de Vaux-le-Vicomte - Cuisines cave",
+          "width": 4320,
+          "height": 3240,
+          "size": 3079607,
+          "timestamp": "2014-05-19T07:14:04Z",
+          "author": "Chatsam",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Vaux_le_Vicomte_Dummy_Man_in_the_Iron_Mask.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVaux%20le%20Vicomte%20Dummy%20Man%20in%20the%20Iron%20Mask.jpg",
+          "title": "Vaux le Vicomte Dummy Man in the Iron Mask.jpg",
+          "description": "Castle of Vaux-le-Vicomte : cellar. Dummy Man in the Iron Mask, imprisoned in the castle for several years.",
+          "width": 3264,
+          "height": 2448,
+          "size": 319845,
+          "timestamp": "2012-07-02T10:59:16Z",
+          "author": "Prosopee",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     }
   ]
 }

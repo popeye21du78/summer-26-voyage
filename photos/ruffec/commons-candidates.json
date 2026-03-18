@@ -1,12 +1,13 @@
 {
   "slug": "ruffec",
   "nom": "Ruffec",
-  "fetchedAt": "2026-03-14T11:54:17.848Z",
+  "fetchedAt": "2026-03-18T17:53:33.959Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Ruffec_-_Bois_des_foss%C3%A9s_-_bo%C3%AEte_%C3%A0_livres.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARuffec%20-%20Bois%20des%20foss%C3%A9s%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
       "title": "Ruffec - Bois des fossés - boîte à livres.jpg",
+      "description": "Boîte à livres à Ruffec",
       "width": 2500,
       "height": 1875,
       "size": 699120,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Ruffec_-_rue_Paszto_-_bo%C3%AEte_%C3%A0_livres.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARuffec%20-%20rue%20Paszto%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
       "title": "Ruffec - rue Paszto - boîte à livres.jpg",
+      "description": "Boîte à livres à Ruffec",
       "width": 2500,
       "height": 1875,
       "size": 1163717,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Ruffec_%2816%29_%C3%89glise_Saint-Andr%C3%A9_01.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARuffec%20(16)%20%C3%89glise%20Saint-Andr%C3%A9%2001.jpg",
       "title": "Ruffec (16) Église Saint-André 01.jpg",
+      "description": "Église Saint-André de Ruffec (16). Façade occidentale et flanc sud.",
       "width": 1984,
       "height": 1488,
       "size": 1485672,
@@ -48,43 +51,46 @@
       "label": "Église Saint-André de Ruffec",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/%C3%89glise_Saint-Andr%C3%A9_de_Ruffec_-_J-A_Brutails_-_Universit%C3%A9_Bordeaux_Montaigne_-_1283.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-Andr%C3%A9%20de%20Ruffec%20-%20J-A%20Brutails%20-%20Universit%C3%A9%20Bordeaux%20Montaigne%20-%201283.jpg",
-          "title": "Église Saint-André de Ruffec - J-A Brutails - Université Bordeaux Montaigne - 1283.jpg",
-          "width": 4525,
-          "height": 3142,
-          "size": 981653,
-          "timestamp": "2017-08-23T11:12:51Z",
-          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q3163743\" class=\"extiw\" title=\"d:Q3163743\"><span title=\"French archivist and art historian (1859–1926)\">Jean-Auguste Brutails</span></a></bdi>",
-          "license": "Public domain",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Ruffec_-_Ancienne_priorale_Saint-Alpinien_-_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARuffec%20-%20Ancienne%20priorale%20Saint-Alpinien%20-%2002.jpg",
+          "title": "Ruffec - Ancienne priorale Saint-Alpinien - 02.jpg",
+          "description": "Ruffec - Ancienne priorale Saint-Alpinien",
+          "width": 4272,
+          "height": 2848,
+          "size": 5180418,
+          "timestamp": "2022-03-20T15:02:31Z",
+          "author": "Antoine Garnier",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/France_illustr%C3%A9e_I_p687.png",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20illustr%C3%A9e%20I%20p687.png",
-          "title": "France illustrée I p687.png",
-          "width": 1419,
-          "height": 1143,
-          "size": 247615,
-          "timestamp": "2010-07-03T12:22:09Z",
-          "author": "H. Clerget",
-          "license": "Public domain",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Ruffec_-_Ancienne_priorale_Saint-Alpinien_-_04.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARuffec%20-%20Ancienne%20priorale%20Saint-Alpinien%20-%2004.jpg",
+          "title": "Ruffec - Ancienne priorale Saint-Alpinien - 04.jpg",
+          "description": "Ruffec - Ancienne priorale Saint-Alpinien",
+          "width": 4272,
+          "height": 2848,
+          "size": 4897645,
+          "timestamp": "2022-03-20T15:02:31Z",
+          "author": "Antoine Garnier",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Ruffec_eg1.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARuffec%20eg1.JPG",
-          "title": "Ruffec eg1.JPG",
-          "width": 1600,
-          "height": 1200,
-          "size": 231748,
-          "timestamp": "2010-10-10T13:26:11Z",
-          "author": "Jack ma",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Ruffec_-_Ancienne_priorale_Saint-Alpinien_-_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARuffec%20-%20Ancienne%20priorale%20Saint-Alpinien%20-%2001.jpg",
+          "title": "Ruffec - Ancienne priorale Saint-Alpinien - 01.jpg",
+          "description": "Ruffec - Ancienne priorale Saint-Alpinien",
+          "width": 4272,
+          "height": 2848,
+          "size": 5004423,
+          "timestamp": "2022-03-20T15:02:34Z",
+          "author": "Antoine Garnier",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
         }
       ]
     },
@@ -98,7 +104,50 @@
     },
     {
       "label": "Place du Marché et halle",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/%C3%89glise_Saint-Andr%C3%A9_de_Ruffec_-_J-A_Brutails_-_Universit%C3%A9_Bordeaux_Montaigne_-_1283.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-Andr%C3%A9%20de%20Ruffec%20-%20J-A%20Brutails%20-%20Universit%C3%A9%20Bordeaux%20Montaigne%20-%201283.jpg",
+          "title": "Église Saint-André de Ruffec - J-A Brutails - Université Bordeaux Montaigne - 1283.jpg",
+          "description": "Église Saint-André de Ruffec; Façade occidentale",
+          "width": 4525,
+          "height": 3142,
+          "size": 981653,
+          "timestamp": "2017-08-23T11:12:51Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q3163743\" class=\"extiw\" title=\"d:Q3163743\"><span title=\"French archivist and art historian (1859–1926)\">Jean-Auguste Brutails</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Eglise_Saint-Andr%C3%A9_-_Fa%C3%A7ade_ouest_-_partie_sup%C3%A9rieure_-_Ruffec_-_M%C3%A9diath%C3%A8que_de_l%27architecture_et_du_patrimoine_-_APMH00002388.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Saint-Andr%C3%A9%20-%20Fa%C3%A7ade%20ouest%20-%20partie%20sup%C3%A9rieure%20-%20Ruffec%20-%20M%C3%A9diath%C3%A8que%20de%20l'architecture%20et%20du%20patrimoine%20-%20APMH00002388.jpg",
+          "title": "Eglise Saint-André - Façade ouest - partie supérieure - Ruffec - Médiathèque de l'architecture et du patrimoine - APMH00002388.jpg",
+          "description": "Façade ouest : partie supérieure.",
+          "width": 706,
+          "height": 512,
+          "size": 103204,
+          "timestamp": "2020-04-27T09:45:36Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:S%C3%A9raphin-M%C3%A9d%C3%A9ric_Mieusement\" class=\"extiw\" title=\"w:en:Séraphin-Médéric Mieusement\"><span title=\"French photographer (1840-1905)\">Séraphin-Médéric Mieusement</span></a></bdi>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Eglise_Saint-Andr%C3%A9_-_Fa%C3%A7ade_ouest_-_Partie_centrale_-_Ruffec_-_M%C3%A9diath%C3%A8que_de_l%27architecture_et_du_patrimoine_-_APMH00002389.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Saint-Andr%C3%A9%20-%20Fa%C3%A7ade%20ouest%20-%20Partie%20centrale%20-%20Ruffec%20-%20M%C3%A9diath%C3%A8que%20de%20l'architecture%20et%20du%20patrimoine%20-%20APMH00002389.jpg",
+          "title": "Eglise Saint-André - Façade ouest - Partie centrale - Ruffec - Médiathèque de l'architecture et du patrimoine - APMH00002389.jpg",
+          "description": "Façade ouest : Partie centrale.",
+          "width": 708,
+          "height": 512,
+          "size": 110540,
+          "timestamp": "2020-04-28T07:59:40Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:S%C3%A9raphin-M%C3%A9d%C3%A9ric_Mieusement\" class=\"extiw\" title=\"w:en:Séraphin-Médéric Mieusement\"><span title=\"French photographer (1840-1905)\">Séraphin-Médéric Mieusement</span></a></bdi>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     }
   ]
 }

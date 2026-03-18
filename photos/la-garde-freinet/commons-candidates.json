@@ -1,136 +1,56 @@
 {
   "slug": "la-garde-freinet",
   "nom": "La Garde-Freinet",
-  "fetchedAt": "2026-03-13T15:03:17.103Z",
+  "fetchedAt": "2026-03-15T21:15:55.110Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/ISS043-E-138323_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS043-E-138323%20-%20View%20of%20Earth.jpg",
-      "title": "ISS043-E-138323 - View of Earth.jpg",
-      "width": 4928,
-      "height": 3280,
-      "size": 3356963,
-      "timestamp": "2021-03-16T20:29:55Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Southern_France%2C_including_Corsica-_handbook_for_travellers_%281902%29_%2814767857345%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASouthern%20France%2C%20including%20Corsica-%20handbook%20for%20travellers%20(1902)%20(14767857345).jpg",
+      "title": "Southern France, including Corsica- handbook for travellers (1902) (14767857345).jpg",
+      "width": 4022,
+      "height": 2394,
+      "size": 2882355,
+      "timestamp": "2015-10-03T04:37:59Z",
+      "author": "Karl Baedeker (Firm)",
+      "license": "No restrictions",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 6
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/ISS043-E-138324_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS043-E-138324%20-%20View%20of%20Earth.jpg",
-      "title": "ISS043-E-138324 - View of Earth.jpg",
-      "width": 4928,
-      "height": 3280,
-      "size": 2920123,
-      "timestamp": "2021-03-16T20:29:58Z",
-      "author": "Earth Science and Remote Sensing Unit",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Garde-freinet-eglise-01.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGarde-freinet-eglise-01.jpg",
+      "title": "Garde-freinet-eglise-01.jpg",
+      "width": 2272,
+      "height": 1704,
+      "size": 581711,
+      "timestamp": "2007-06-26T09:46:42Z",
+      "author": "Patricia.fidi",
       "license": "Public domain",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 4
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Orchis_laxiflora_2.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOrchis%20laxiflora%202.jpg",
-      "title": "Orchis laxiflora 2.jpg",
-      "width": 2560,
-      "height": 1920,
-      "size": 1631252,
-      "timestamp": "2021-03-20T15:02:02Z",
-      "author": "Thomas Krucker",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Garde-freinet-place-fontaine-vieille-03.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGarde-freinet-place-fontaine-vieille-03.jpg",
+      "title": "Garde-freinet-place-fontaine-vieille-03.jpg",
+      "width": 2272,
+      "height": 1704,
+      "size": 950053,
+      "timestamp": "2007-06-26T09:52:17Z",
+      "author": "Patricia.fidi",
+      "license": "Public domain",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 4
     }
   ],
   "lieux": [
     {
       "label": "Fort-Freinet",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Janvier_2015_-_Fort_Freinet_%282%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJanvier%202015%20-%20Fort%20Freinet%20(2).jpg",
-          "title": "Janvier 2015 - Fort Freinet (2).jpg",
-          "width": 2592,
-          "height": 1944,
-          "size": 1858279,
-          "timestamp": "2015-01-15T20:06:27Z",
-          "author": "Blaue Max",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Janvier_2015_-_Fort_Freinet_%281%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJanvier%202015%20-%20Fort%20Freinet%20(1).jpg",
-          "title": "Janvier 2015 - Fort Freinet (1).jpg",
-          "width": 2592,
-          "height": 1944,
-          "size": 1939226,
-          "timestamp": "2015-01-15T20:06:30Z",
-          "author": "Blaue Max",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Janvier_2015_-_Fort_Freinet_%285%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJanvier%202015%20-%20Fort%20Freinet%20(5).jpg",
-          "title": "Janvier 2015 - Fort Freinet (5).jpg",
-          "width": 2592,
-          "height": 1944,
-          "size": 1820631,
-          "timestamp": "2015-01-15T20:06:30Z",
-          "author": "Blaue Max",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Croix des Maures",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Janvier_2015_-_Croix_des_Maures_%281%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJanvier%202015%20-%20Croix%20des%20Maures%20(1).jpg",
-          "title": "Janvier 2015 - Croix des Maures (1).jpg",
-          "width": 2592,
-          "height": 1944,
-          "size": 1598701,
-          "timestamp": "2015-01-15T20:06:27Z",
-          "author": "Blaue Max",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Croix_et_fort_du_Freinet_83.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACroix%20et%20fort%20du%20Freinet%2083.JPG",
-          "title": "Croix et fort du Freinet 83.JPG",
-          "width": 2592,
-          "height": 1944,
-          "size": 2242793,
-          "timestamp": "2014-05-27T00:01:27Z",
-          "author": "Anthospace",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Janvier_2015_-_Croix_des_Maures_%282%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJanvier%202015%20-%20Croix%20des%20Maures%20(2).jpg",
-          "title": "Janvier 2015 - Croix des Maures (2).jpg",
-          "width": 1944,
-          "height": 2592,
-          "size": 1705142,
-          "timestamp": "2015-01-15T20:06:28Z",
-          "author": "Blaue Max",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Église Saint-Clément",
@@ -152,7 +72,47 @@
     },
     {
       "label": "Place Neuve",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Garde-freinet-place-fontaine-vieille-03.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGarde-freinet-place-fontaine-vieille-03.jpg",
+          "title": "Garde-freinet-place-fontaine-vieille-03.jpg",
+          "width": 2272,
+          "height": 1704,
+          "size": 950053,
+          "timestamp": "2007-06-26T09:52:17Z",
+          "author": "Patricia.fidi",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Garde-freinet-place-fontaine-vieille-01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGarde-freinet-place-fontaine-vieille-01.jpg",
+          "title": "Garde-freinet-place-fontaine-vieille-01.jpg",
+          "width": 1704,
+          "height": 2272,
+          "size": 1053663,
+          "timestamp": "2007-06-26T09:50:09Z",
+          "author": "Patricia.fidi",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 3
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Garde-freinet-place-fontaine-vieille-02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGarde-freinet-place-fontaine-vieille-02.jpg",
+          "title": "Garde-freinet-place-fontaine-vieille-02.jpg",
+          "width": 1704,
+          "height": 2272,
+          "size": 898706,
+          "timestamp": "2007-06-26T09:51:41Z",
+          "author": "Patricia.fidi",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 3
+        }
+      ]
     }
   ]
 }

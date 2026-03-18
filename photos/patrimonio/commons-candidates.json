@@ -1,12 +1,13 @@
 {
   "slug": "patrimonio",
   "nom": "Patrimonio",
-  "fetchedAt": "2026-03-13T16:46:45.867Z",
+  "fetchedAt": "2026-03-17T22:16:33.789Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Vue_Village_-_Patrimonio_%28FR2B%29_-_2021-09-10_-_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20Village%20-%20Patrimonio%20(FR2B)%20-%202021-09-10%20-%201.jpg",
       "title": "Vue Village - Patrimonio (FR2B) - 2021-09-10 - 1.jpg",
+      "description": "Vue du village de Patrimonio.",
       "width": 4032,
       "height": 3024,
       "size": 5099080,
@@ -14,12 +15,13 @@
       "author": "Chabe01",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Vue_Village_-_Patrimonio_%28FR2B%29_-_2021-09-10_-_2.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20Village%20-%20Patrimonio%20(FR2B)%20-%202021-09-10%20-%202.jpg",
       "title": "Vue Village - Patrimonio (FR2B) - 2021-09-10 - 2.jpg",
+      "description": "Vue du village de Patrimonio.",
       "width": 4032,
       "height": 3024,
       "size": 4934643,
@@ -27,20 +29,21 @@
       "author": "Chabe01",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Vue_depuis_Col_Teghime_-_Patrimonio_%28FR2B%29_-_2021-09-12_-_1.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20depuis%20Col%20Teghime%20-%20Patrimonio%20(FR2B)%20-%202021-09-12%20-%201.jpg",
-      "title": "Vue depuis Col Teghime - Patrimonio (FR2B) - 2021-09-12 - 1.jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 4552510,
-      "timestamp": "2021-09-13T15:42:17Z",
-      "author": "Chabe01",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/20253_Patrimonio%2C_France_-_panoramio.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20253%20Patrimonio%2C%20France%20-%20panoramio.jpg",
+      "title": "20253 Patrimonio, France - panoramio.jpg",
+      "description": "20253 Patrimonio, France",
+      "width": 1632,
+      "height": 1224,
+      "size": 535275,
+      "timestamp": "2016-12-03T18:32:19Z",
+      "author": "Clemens Pohl",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 6
     }
   ],
   "lieux": [
@@ -48,43 +51,46 @@
       "label": "Église San Martinu",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Haute-Corse_Patriminio_Eglise_San_Martinu_071989_-_panoramio_%282%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHaute-Corse%20Patriminio%20Eglise%20San%20Martinu%20071989%20-%20panoramio%20(2).jpg",
-          "title": "Haute-Corse Patriminio Eglise San Martinu 071989 - panoramio (2).jpg",
-          "width": 2404,
-          "height": 1572,
-          "size": 1069496,
-          "timestamp": "2017-06-30T15:33:25Z",
-          "author": "rene boulay",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Patrimonio%2C_saint-martin%2C_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APatrimonio%2C%20saint-martin%2C%2002.jpg",
+          "title": "Patrimonio, saint-martin, 02.jpg",
+          "description": "Patrimonio (Haute-Corse)",
+          "width": 4464,
+          "height": 3376,
+          "size": 10762855,
+          "timestamp": "2020-04-27T21:53:57Z",
+          "author": "Sailko",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Eglise_Saint_Martin_De_Patrimonio.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Saint%20Martin%20De%20Patrimonio.jpg",
+          "title": "Eglise Saint Martin De Patrimonio.jpg",
+          "description": "Eglise Saint Martin De Patrimonio",
+          "width": 3264,
+          "height": 4928,
+          "size": 5789983,
+          "timestamp": "2023-01-04T15:47:04Z",
+          "author": "TolengaDany",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Patrimonio-San_Martinu.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APatrimonio-San%20Martinu.jpg",
-          "title": "Patrimonio-San Martinu.jpg",
-          "width": 4032,
-          "height": 3024,
-          "size": 10480953,
-          "timestamp": "2010-11-20T21:13:32Z",
-          "author": "Pierre Bona",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Patrimonio%2C_saint-martin%2C_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APatrimonio%2C%20saint-martin%2C%2001.jpg",
+          "title": "Patrimonio, saint-martin, 01.jpg",
+          "description": "Patrimonio (Haute-Corse)",
+          "width": 3648,
+          "height": 5472,
+          "size": 9890728,
+          "timestamp": "2020-04-27T21:53:57Z",
+          "author": "Sailko",
+          "license": "CC BY 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Patrimonio-San_Martinu-3.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APatrimonio-San%20Martinu-3.jpg",
-          "title": "Patrimonio-San Martinu-3.jpg",
-          "width": 4032,
-          "height": 3024,
-          "size": 10369365,
-          "timestamp": "2010-11-21T08:40:45Z",
-          "author": "Pierre Bona",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 6
         }
       ]
     },
@@ -94,7 +100,36 @@
     },
     {
       "label": "Hameau de Mucchieta",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Patrimonio_Santa_Maria.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APatrimonio%20Santa%20Maria.jpg",
+          "title": "Patrimonio Santa Maria.jpg",
+          "description": "Patrimonio (Corsica) - Hameau de Santa Maria",
+          "width": 3136,
+          "height": 2352,
+          "size": 7308455,
+          "timestamp": "2010-11-21T10:18:40Z",
+          "author": "Pierre Bona",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Patrimonio_Calvello.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APatrimonio%20Calvello.jpg",
+          "title": "Patrimonio Calvello.jpg",
+          "description": "Patrimonio (Corsica) - Hameau de Calvello",
+          "width": 3136,
+          "height": 2352,
+          "size": 7324078,
+          "timestamp": "2010-11-21T16:54:27Z",
+          "author": "Pierre Bona",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Cave Saint Nicolas",

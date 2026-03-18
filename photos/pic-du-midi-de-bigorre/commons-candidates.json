@@ -1,12 +1,13 @@
 {
   "slug": "pic-du-midi-de-bigorre",
   "nom": "Pic du Midi de Bigorre",
-  "fetchedAt": "2026-03-14T10:48:15.656Z",
+  "fetchedAt": "2026-03-17T22:29:30.684Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Piscine_de_Bagn%C3%A8res-de-Bigorre_%28Hautes-Pyr%C3%A9n%C3%A9es%29_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APiscine%20de%20Bagn%C3%A8res-de-Bigorre%20(Hautes-Pyr%C3%A9n%C3%A9es)%201.jpg",
       "title": "Piscine de Bagnères-de-Bigorre (Hautes-Pyrénées) 1.jpg",
+      "description": "Piscine de Bagnères-de-Bigorre (Hautes-Pyrénées)",
       "width": 5184,
       "height": 2442,
       "size": 6115616,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Pump_track_de_Bagn%C3%A8res-de-Bigorre_%28Hautes-Pyr%C3%A9n%C3%A9es%29_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APump%20track%20de%20Bagn%C3%A8res-de-Bigorre%20(Hautes-Pyr%C3%A9n%C3%A9es)%201.jpg",
       "title": "Pump track de Bagnères-de-Bigorre (Hautes-Pyrénées) 1.jpg",
+      "description": "Pump track de Bagnères-de-Bigorre (Hautes-Pyrénées)",
       "width": 5184,
       "height": 3456,
       "size": 5465940,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Maison_de_Jeanne_d%27Albret_%C3%A0_Bagn%C3%A8res-de-Bigorre.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison%20de%20Jeanne%20d'Albret%20%C3%A0%20Bagn%C3%A8res-de-Bigorre.jpg",
       "title": "Maison de Jeanne d'Albret à Bagnères-de-Bigorre.jpg",
+      "description": "Maison de Jeanne d'Albret à Bagnères-de-Bigorre située au 5 rue du Vieux Moulin",
       "width": 4624,
       "height": 3468,
       "size": 4785668,
@@ -46,19 +49,134 @@
   "lieux": [
     {
       "label": "Terrasse sommitale du Pic du Midi",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Pic_du_Midi_10.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APic%20du%20Midi%2010.jpg",
+          "title": "Pic du Midi 10.jpg",
+          "description": "Sur la terrasse du Pic du Midi de Bigorre",
+          "width": 1920,
+          "height": 1200,
+          "size": 561186,
+          "timestamp": "2021-03-02T08:14:42Z",
+          "author": "Jcb-caz-11",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Pic_du_Midi_de_Bigorre_-_terrasse_sud-_coupole_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APic%20du%20Midi%20de%20Bigorre%20-%20terrasse%20sud-%20coupole%201.jpg",
+          "title": "Pic du Midi de Bigorre - terrasse sud- coupole 1.jpg",
+          "description": "Pic du Midi de Bigorre -  terrasse sud- coupole",
+          "width": 3264,
+          "height": 1836,
+          "size": 2071279,
+          "timestamp": "2011-08-30T20:43:28Z",
+          "author": "Serge Ottaviani",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Pic_du_Midi_de_Bigorre_-_terrasse_nord_-_table_d%27orientation.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APic%20du%20Midi%20de%20Bigorre%20-%20terrasse%20nord%20-%20table%20d'orientation.jpg",
+          "title": "Pic du Midi de Bigorre - terrasse nord - table d'orientation.jpg",
+          "description": "Pic du Midi de Bigorre - terrasse nord - table d'orientation",
+          "width": 3264,
+          "height": 1836,
+          "size": 2320803,
+          "timestamp": "2011-08-30T20:43:28Z",
+          "author": "Serge Ottaviani",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Passerelle autour de l’observatoire",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/GRP_2022-_Ultra_Tour_160-_Estabamos_escalando_el_Pico_del_Midi-_TRWVF.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGRP%202022-%20Ultra%20Tour%20160-%20Estabamos%20escalando%20el%20Pico%20del%20Midi-%20TRWVF.jpg",
+          "title": "GRP 2022- Ultra Tour 160- Estabamos escalando el Pico del Midi- TRWVF.jpg",
+          "description": "Coureurs grimpant le pic du Midi de Bigorre (2876m), le point culminant de la course",
+          "width": 3456,
+          "height": 2592,
+          "size": 4210160,
+          "timestamp": "2022-10-08T09:28:54Z",
+          "author": "Anthospace",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/GRP_2022-_Ultra_Tour_160-_Los_corredores_terminan_la_subida_del_Pico_del_Midi_2876m-_HPOR.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGRP%202022-%20Ultra%20Tour%20160-%20Los%20corredores%20terminan%20la%20subida%20del%20Pico%20del%20Midi%202876m-%20HPOR.jpg",
+          "title": "GRP 2022- Ultra Tour 160- Los corredores terminan la subida del Pico del Midi 2876m- HPOR.jpg",
+          "description": "En arrière des coureurs qui grimpent le pic du Midi de Bigorre (2876m), le point culminant de la course. Ils sont dans les derniers hectomètres de l'ascension.",
+          "width": 3456,
+          "height": 2592,
+          "size": 4345063,
+          "timestamp": "2022-10-08T09:28:54Z",
+          "author": "Anthospace",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Hautes-Pyr%C3%A9n%C3%A9es_-_Bagn%C3%A8res_de_Bigorre_et_Pic_du_Midi_-_Vue_prise_du_c%C3%B4t%C3%A9_de_la_Route_de_Toulouse_-_btv1b105723342.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHautes-Pyr%C3%A9n%C3%A9es%20-%20Bagn%C3%A8res%20de%20Bigorre%20et%20Pic%20du%20Midi%20-%20Vue%20prise%20du%20c%C3%B4t%C3%A9%20de%20la%20Route%20de%20Toulouse%20-%20btv1b105723342.jpg",
+          "title": "Hautes-Pyrénées - Bagnères de Bigorre et Pic du Midi - Vue prise du côté de la Route de Toulouse - btv1b105723342.jpg",
+          "description": "Sujet : Stations climatiques, thermales, etc. -- Bagnères-de-Bigorre (Hautes-Pyrénées, France) -- 19e siècle\nHautes-Pyrénées (France)\nBagnères-de-Bigorre (Hautes-Pyrénées, France)\nMontagne\nVallée\nVille\nTour\nMaison\nRoute\nRivière\nAppartient à l’ensemble documentaire : RsAlis000\nAppartient à l’ensemble documentaire : RsAlis009\nAppartient à l’ensemble documentaire : RsAlis005\nAppartient à l’ensemble documentaire : PrnS001\nLangue : français\n\nÉditeur : Auguste Bassy (Luchon)",
+          "width": 4520,
+          "height": 2952,
+          "size": 2182365,
+          "timestamp": "2025-03-22T18:54:02Z",
+          "author": "<div class=\"fn value\">\n<p>Petit, Victor (1817-1871). Illustrateur\nBassy, Auguste. Fonction indéterminée\nThierry. Fonction indéterminée\n</p>\nLemercier. Fonction indéterminée</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Crête de l’Arbizon",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/France_-_Midi-Pyr%C3%A9n%C3%A9es_-_Hautes-Pyr%C3%A9n%C3%A9es_-_Sers_-_La_cha%C3%AEne_des_Pyr%C3%A9n%C3%A9es_depuis_le_Pic_du_Midi_de_Bigorre%2C_vers_le_Sud_-_Prise_de_vue_2-2_%28M%C3%A9diHAL_1269756%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20-%20Midi-Pyr%C3%A9n%C3%A9es%20-%20Hautes-Pyr%C3%A9n%C3%A9es%20-%20Sers%20-%20La%20cha%C3%AEne%20des%20Pyr%C3%A9n%C3%A9es%20depuis%20le%20Pic%20du%20Midi%20de%20Bigorre%2C%20vers%20le%20Sud%20-%20Prise%20de%20vue%202-2%20(M%C3%A9diHAL%201269756).jpg",
+          "title": "France - Midi-Pyrénées - Hautes-Pyrénées - Sers - La chaîne des Pyrénées depuis le Pic du Midi de Bigorre, vers le Sud - Prise de vue 2-2 (MédiHAL 1269756).jpg",
+          "description": "Handwritten caption on the original document: \"France: South-West: Pyrenees: Hautes Pyrenees: From the Pic du Midi to the South\" The glass plates deposited at Prodig date from 1891 to 1954. Geolocation: hypothesis of exact geolocation",
+          "width": 4167,
+          "height": 2613,
+          "size": 636237,
+          "timestamp": "2024-12-21T12:02:23Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Emmanuel_de_Martonne\" class=\"extiw\" title=\"w:en:Emmanuel de Martonne\"><span title=\"French geographer (1873–1955)\">Emmanuel de Martonne</span></a></bdi>",
+          "license": "Licence Ouverte",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/France_-_Midi-Pyr%C3%A9n%C3%A9es_-_Hautes-Pyr%C3%A9n%C3%A9es_-_Sers_-_La_cha%C3%AEne_des_Pyr%C3%A9n%C3%A9es_depuis_le_Pic_du_Midi_de_Bigorre%2C_vers_l%E2%80%99Ouest_%28M%C3%A9diHAL_1269729%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20-%20Midi-Pyr%C3%A9n%C3%A9es%20-%20Hautes-Pyr%C3%A9n%C3%A9es%20-%20Sers%20-%20La%20cha%C3%AEne%20des%20Pyr%C3%A9n%C3%A9es%20depuis%20le%20Pic%20du%20Midi%20de%20Bigorre%2C%20vers%20l%E2%80%99Ouest%20(M%C3%A9diHAL%201269729).jpg",
+          "title": "France - Midi-Pyrénées - Hautes-Pyrénées - Sers - La chaîne des Pyrénées depuis le Pic du Midi de Bigorre, vers l’Ouest (MédiHAL 1269729).jpg",
+          "description": "Handwritten caption on the original document: \"France: South-West: Pyrenees: Hautes Pyrenees: From the Pic du Midi towards the West\" The glass plates deposited at Prodig date from 1891 to 1954. Geolocation: hypothesis of exact geolocation",
+          "width": 4167,
+          "height": 2648,
+          "size": 583392,
+          "timestamp": "2024-12-21T12:02:42Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Emmanuel_de_Martonne\" class=\"extiw\" title=\"w:en:Emmanuel de Martonne\"><span title=\"French geographer (1873–1955)\">Emmanuel de Martonne</span></a></bdi>",
+          "license": "Licence Ouverte",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Massif_de_l%27Arbizon_depuis_le_Pic_du_Midi_de_Bigorre_-_2.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMassif%20de%20l'Arbizon%20depuis%20le%20Pic%20du%20Midi%20de%20Bigorre%20-%202.jpg",
           "title": "Massif de l'Arbizon depuis le Pic du Midi de Bigorre - 2.jpg",
+          "description": "\"Arbizon massif\" from \"Pic du Midi de Bigorre\"",
           "width": 2600,
           "height": 1193,
           "size": 2503079,
@@ -72,7 +190,50 @@
     },
     {
       "label": "Vallée d’Aure vue du sommet",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Eaux-Chaudes_-_Vall%C3%A9e_de_Gabas_et_Pic-du-Midi-de-Pau_-_Vue_prise_du_Col_de_Gourzy_-_Fonds_Ancely_-_B315556101_A_PETIT_2_033.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEaux-Chaudes%20-%20Vall%C3%A9e%20de%20Gabas%20et%20Pic-du-Midi-de-Pau%20-%20Vue%20prise%20du%20Col%20de%20Gourzy%20-%20Fonds%20Ancely%20-%20B315556101%20A%20PETIT%202%20033.jpg",
+          "title": "Eaux-Chaudes - Vallée de Gabas et Pic-du-Midi-de-Pau - Vue prise du Col de Gourzy - Fonds Ancely - B315556101 A PETIT 2 033.jpg",
+          "description": "Imprimerie Lemercier à Paris et imprimerie Thierry frères à Paris\nFait partie d'un recueil de 5 albums (Souvenirs de Pau; Souvenirs des Eaux-Bonnes; Souvenirs des Eaux-Chaudes; Souvenirs de Cauterets; Souvenirs des Hautes-Pyrénées) composés d'une page de titre lithographiée, d'une notice explicative et de plusieurs vues.\nPièce jointe dans le 1er album : Panorama des Pyrénées - Côté du Pic du Midi de Pau - Panorama des Pyrénées. Côté du Pic du Midi de Bigorre - Vue prise de la Place Royale à Pau ",
+          "width": 2219,
+          "height": 1476,
+          "size": 727300,
+          "timestamp": "2013-05-24T09:33:40Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q3557496\" class=\"extiw\" title=\"d:Q3557496\"><span title=\"1817?-1871 French lithographer, architectural draftsman, writer (1817–1871)\">Victor Petit</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Eaux-Chaudes_-_Pic_du_Midi_d%27Ossau_-_Vue_prise_du_3e_plateau_de_Bious-Artigues_-_Fonds_Ancely_-_B315556101_A_PETIT_2_035.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEaux-Chaudes%20-%20Pic%20du%20Midi%20d'Ossau%20-%20Vue%20prise%20du%203e%20plateau%20de%20Bious-Artigues%20-%20Fonds%20Ancely%20-%20B315556101%20A%20PETIT%202%20035.jpg",
+          "title": "Eaux-Chaudes - Pic du Midi d'Ossau - Vue prise du 3e plateau de Bious-Artigues - Fonds Ancely - B315556101 A PETIT 2 035.jpg",
+          "description": "Imprimerie Lemercier à Paris et imprimerie Thierry frères à Paris\nFait partie d'un recueil de 5 albums (Souvenirs de Pau; Souvenirs des Eaux-Bonnes; Souvenirs des Eaux-Chaudes; Souvenirs de Cauterets; Souvenirs des Hautes-Pyrénées) composés d'une page de titre lithographiée, d'une notice explicative et de plusieurs vues.\nPièce jointe dans le 1er album : Panorama des Pyrénées - Côté du Pic du Midi de Pau - Panorama des Pyrénées. Côté du Pic du Midi de Bigorre - Vue prise de la Place Royale à Pau ",
+          "width": 2260,
+          "height": 1476,
+          "size": 647937,
+          "timestamp": "2013-05-24T11:29:31Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q3557496\" class=\"extiw\" title=\"d:Q3557496\"><span title=\"1817?-1871 French lithographer, architectural draftsman, writer (1817–1871)\">Victor Petit</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Cabanes_de_Tremes-Aigues_%28i.e._Tramezaygues%29_et_Pic_du_Midi_de_Bigorre%2C_Tourmalet_%28Hautes_Pyr%C3%A9n%C3%A9es%29_-_Fonds_Ancely_-_B315556101_A_JACOTTET_1_048.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACabanes%20de%20Tremes-Aigues%20(i.e.%20Tramezaygues)%20et%20Pic%20du%20Midi%20de%20Bigorre%2C%20Tourmalet%20(Hautes%20Pyr%C3%A9n%C3%A9es)%20-%20Fonds%20Ancely%20-%20B315556101%20A%20JACOTTET%201%20048.jpg",
+          "title": "Cabanes de Tremes-Aigues (i.e. Tramezaygues) et Pic du Midi de Bigorre, Tourmalet (Hautes Pyrénées) - Fonds Ancely - B315556101 A JACOTTET 1 048.jpg",
+          "description": "Fait partie de la première partie d'un recueil de planches lithographiées. Titre lithographié et 50 lithographies numérotées de 1 à 50, plus 4 lithographies supplémentaires numérotées de 1 à 3 (ici pl. 53, 54, 55) et une sans numéro (ici pl. 52). Deux planches sont numérotées 10, ce qui fait en tout un album de 55 pl. L'ouvrage de Jacottet est très rare quand il est complet des deux parties.\nVignette lithographiée au titre : \"Visite aux ruines de Beaucens, Vallée d'Argelez (Hautes Pyrénées)\"\n\nAn",
+          "width": 1871,
+          "height": 1430,
+          "size": 1269801,
+          "timestamp": "2020-12-22T20:43:54Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q18508473\" class=\"extiw\" title=\"d:Q18508473\"><span title=\"(1806-1880)\">Louis-Julien Jacottet</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

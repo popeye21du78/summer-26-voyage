@@ -13,6 +13,8 @@ export interface CommonsPhoto {
   sourceUrl: string;
   /** Titre du fichier (ex. File:Domme_vue.jpg) */
   title: string;
+  /** Description Commons (pour scoring vue/détail) */
+  description?: string;
   /** Dimensions en pixels */
   width: number;
   height: number;
@@ -51,7 +53,8 @@ function scoreCandidate(
   width: number,
   height: number,
   size: number,
-  timestamp: string
+  timestamp: string,
+  description = ""
 ): number {
   let score = 0;
   const year = new Date(timestamp).getFullYear();
@@ -69,7 +72,22 @@ function scoreCandidate(
   const ratio = width / (height || 1);
   if (ratio >= 1.2 && ratio <= 2.2) score += 1;
 
+  const desc = description.toLowerCase();
+  if (/window|fenêtre|interior|intérieur|detail|détail|close-?up|gros plan/i.test(desc)) score -= 3;
+  else if (/mauersegler|apus apus|oiseau|bird|animal|insecte|spider|araignée/i.test(desc)) score -= 4;
+  else if (/view of|view from|vue de|vue du|vue depuis|panorama|from the (castle|east|south)|château/i.test(desc)) score += 2;
+
   return score;
+}
+
+function extractDescription(extmetadata: Record<string, { value?: string }> | undefined): string {
+  const raw = extmetadata?.ImageDescription?.value ?? "";
+  if (!raw) return "";
+  try {
+    return raw.replace(/<[^>]+>/g, "").trim().slice(0, 500);
+  } catch {
+    return "";
+  }
 }
 
 function extractLegalInfo(extmetadata: Record<string, { value?: string }> | undefined): {
@@ -112,7 +130,7 @@ async function searchCommons(query: string, limit = 15): Promise<CommonsPhoto[]>
     prop: "imageinfo",
     iiprop: "url|size|timestamp|extmetadata",
     iiurlwidth: "1200",
-    iiextmetadatafilter: "Artist|LicenseShortName|License",
+    iiextmetadatafilter: "Artist|LicenseShortName|License|ImageDescription",
   });
 
   const res = await fetch(`${COMMONS_API}?${params}`, {
@@ -124,7 +142,7 @@ async function searchCommons(query: string, limit = 15): Promise<CommonsPhoto[]>
   const data = (await res.json()) as { query?: { pages?: Record<string, SearchResult> } };
   const pages = data?.query?.pages ?? {};
 
-  const REJECT_TITLE = /panneau|signalétique|enseigne|street sign/i;
+  const REJECT_TITLE = /gravure|engraving|etching|lithograph|peinture|painting|satellite|NASA|ISS|Landsat|Sentinel|Copernicus|orbital|vue aérienne satellite|fra le belve|Due cuori|Totò|Vera Carmi/i;
   const IMAGE_EXT = /\.(jpg|jpeg|png|webp)$/i;
 
   const candidates: CommonsPhoto[] = [];
@@ -146,12 +164,14 @@ async function searchCommons(query: string, limit = 15): Promise<CommonsPhoto[]>
     if (size < 20_000) continue;
 
     const { author, license, licenseUrl } = extractLegalInfo(info.extmetadata);
+    const description = extractDescription(info.extmetadata);
     const sourceUrl = `https://commons.wikimedia.org/wiki/${encodeURIComponent(page.title)}`;
 
     candidates.push({
       url: info.url ?? info.thumburl ?? "",
       sourceUrl,
       title: fileTitle,
+      description,
       width,
       height,
       size,
@@ -159,7 +179,7 @@ async function searchCommons(query: string, limit = 15): Promise<CommonsPhoto[]>
       author,
       license,
       licenseUrl,
-      score: scoreCandidate(width, height, size, timestamp),
+      score: scoreCandidate(width, height, size, timestamp, description),
     });
   }
 
@@ -186,7 +206,7 @@ async function searchCommonsByGeo(
     prop: "imageinfo",
     iiprop: "url|size|timestamp|extmetadata",
     iiurlwidth: "1200",
-    iiextmetadatafilter: "Artist|LicenseShortName|License",
+    iiextmetadatafilter: "Artist|LicenseShortName|License|ImageDescription",
   });
 
   const res = await fetch(`${COMMONS_API}?${params}`, {
@@ -198,7 +218,7 @@ async function searchCommonsByGeo(
   const data = (await res.json()) as { query?: { pages?: Record<string, SearchResult> } };
   const pages = data?.query?.pages ?? {};
 
-  const REJECT_TITLE = /panneau|signalétique|enseigne|street sign/i;
+  const REJECT_TITLE = /gravure|engraving|etching|lithograph|peinture|painting|satellite|NASA|ISS|Landsat|Sentinel|Copernicus|orbital|vue aérienne satellite|fra le belve|Due cuori|Totò|Vera Carmi/i;
   const IMAGE_EXT = /\.(jpg|jpeg|png|webp)$/i;
 
   const candidates: CommonsPhoto[] = [];
@@ -220,12 +240,14 @@ async function searchCommonsByGeo(
     if (size < 20_000) continue;
 
     const { author, license, licenseUrl } = extractLegalInfo(info.extmetadata);
+    const description = extractDescription(info.extmetadata);
     const sourceUrl = `https://commons.wikimedia.org/wiki/${encodeURIComponent(page.title)}`;
 
     candidates.push({
       url: info.url ?? info.thumburl ?? "",
       sourceUrl,
       title: fileTitle,
+      description,
       width,
       height,
       size,
@@ -233,7 +255,7 @@ async function searchCommonsByGeo(
       author,
       license,
       licenseUrl,
-      score: scoreCandidate(width, height, size, timestamp),
+      score: scoreCandidate(width, height, size, timestamp, description),
     });
   }
 
@@ -251,18 +273,40 @@ export async function fetchTopCommonsPhotosByGeo(
   return candidates.slice(0, topN);
 }
 
-/** Suffixe pour exclure plans, zones, schémas, panneaux, signalétique. */
-const SEARCH_FILTERS =
-  " -zone -plan -carte -schéma -diagramme -panneau -signalétique -enseigne";
-
-/** Recherche les 3 meilleures photos pour un slot (header ou lieu). */
+/** Recherche les N meilleures photos. Requête brute (pas de -zone -plan etc. qui casse la recherche). */
 export async function fetchTopCommonsPhotos(
   searchQuery: string,
   topN = 3
 ): Promise<CommonsPhoto[]> {
-  const fullQuery = searchQuery.trim() + SEARCH_FILTERS;
-  const candidates = await searchCommons(fullQuery, 30);
+  const candidates = await searchCommons(searchQuery.trim(), 50);
   return candidates.slice(0, topN);
+}
+
+/** Plusieurs requêtes FR+EN en parallèle, fusion, déduplication, top N par concept. */
+export async function fetchPhotosByConcepts(
+  concepts: { label: string; queries: string[] }[],
+  perConcept: number
+): Promise<{ label: string; photos: CommonsPhoto[] }[]> {
+  const results = await Promise.all(
+    concepts.map(async ({ label, queries }) => {
+      const all = await Promise.all(
+        queries.map((q) => searchCommons(q.trim(), 30))
+      );
+      const seen = new Set<string>();
+      const merged: CommonsPhoto[] = [];
+      for (const list of all) {
+        for (const p of list) {
+          if (!seen.has(p.url)) {
+            seen.add(p.url);
+            merged.push(p);
+          }
+        }
+      }
+      merged.sort((a, b) => b.score - a.score);
+      return { label, photos: merged.slice(0, perConcept) };
+    })
+  );
+  return results;
 }
 
 /** Délai entre requêtes (étiquette API). */

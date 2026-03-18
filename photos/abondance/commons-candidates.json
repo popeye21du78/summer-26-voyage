@@ -1,68 +1,143 @@
 {
   "slug": "abondance",
   "nom": "Abondance",
-  "fetchedAt": "2026-03-12T23:38:27.071Z",
+  "fetchedAt": "2026-03-15T14:44:23.437Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Town_hall_of_Abondance_01.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATown%20hall%20of%20Abondance%2001.jpg",
-      "title": "Town hall of Abondance 01.jpg",
-      "width": 4524,
-      "height": 3441,
-      "size": 10457459,
-      "timestamp": "2020-11-07T16:46:12Z",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/View_of_Abondance.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AView%20of%20Abondance.jpg",
+      "title": "View of Abondance.jpg",
+      "description": "View of Abondance, Haute-Savoie, France",
+      "width": 5993,
+      "height": 3413,
+      "size": 19216827,
+      "timestamp": "2020-11-07T21:17:19Z",
       "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q51955005\" class=\"extiw\" title=\"d:Q51955005\"><span title=\"Wikimedian\">Krzysztof Golik</span></a></bdi>",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Our_Lady_church_in_Abondance_05.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOur%20Lady%20church%20in%20Abondance%2005.jpg",
-      "title": "Our Lady church in Abondance 05.jpg",
-      "width": 4164,
-      "height": 3109,
-      "size": 8891142,
-      "timestamp": "2020-11-07T21:16:51Z",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Our_Lady_church_in_Abondance_19.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOur%20Lady%20church%20in%20Abondance%2019.jpg",
+      "title": "Our Lady church in Abondance 19.jpg",
+      "description": "View of the Our Lady church in Abondance, Haute-Savoie, France",
+      "width": 5135,
+      "height": 3438,
+      "size": 17329131,
+      "timestamp": "2020-11-07T21:17:19Z",
       "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q51955005\" class=\"extiw\" title=\"d:Q51955005\"><span title=\"Wikimedian\">Krzysztof Golik</span></a></bdi>",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Our_Lady_church_in_Abondance_06.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOur%20Lady%20church%20in%20Abondance%2006.jpg",
-      "title": "Our Lady church in Abondance 06.jpg",
-      "width": 3072,
-      "height": 2327,
-      "size": 5844695,
-      "timestamp": "2020-11-07T21:16:54Z",
-      "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q51955005\" class=\"extiw\" title=\"d:Q51955005\"><span title=\"Wikimedian\">Krzysztof Golik</span></a></bdi>",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Abondance_%282024%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbondance%20(2024).jpg",
+      "title": "Abondance (2024).jpg",
+      "description": "The village of Abondance seen from the south-east in 2024.",
+      "width": 9351,
+      "height": 5260,
+      "size": 35668604,
+      "timestamp": "2024-11-12T21:45:10Z",
+      "author": "Christian David",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     }
   ],
   "lieux": [
     {
       "label": "Abbaye Sainte-Marie d’Abondance",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Abbaye_Abondance_terrasse_monument_aux_morts_2016.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20Abondance%20terrasse%20monument%20aux%20morts%202016.jpg",
+          "title": "Abbaye Abondance terrasse monument aux morts 2016.jpg",
+          "description": "Vue de la façade sud de l'abbaye et de la façade orientale de la maison abbatiale.",
+          "width": 6000,
+          "height": 4000,
+          "size": 6043523,
+          "timestamp": "2026-01-20T21:10:49Z",
+          "author": "Sido74500",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Abbaye_Abondance_aile_orientale_fa%C3%A7ade_ext%C3%A9rieure.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20Abondance%20aile%20orientale%20fa%C3%A7ade%20ext%C3%A9rieure.jpg",
+          "title": "Abbaye Abondance aile orientale façade extérieure.jpg",
+          "description": "Vue de la façade extérieure de l'aile orientale au niveau du chapitre moderne (au centre)",
+          "width": 5472,
+          "height": 3648,
+          "size": 8485477,
+          "timestamp": "2026-01-20T21:12:17Z",
+          "author": "Sido74500",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Abbaye_Abondance_%C3%A9glise_tribune_transept.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20Abondance%20%C3%A9glise%20tribune%20transept.jpg",
+          "title": "Abbaye Abondance église tribune transept.jpg",
+          "description": "Vue de la tribune dans le bras sud du transept de l'église d'Abondance.",
+          "width": 6000,
+          "height": 4000,
+          "size": 7349662,
+          "timestamp": "2026-01-20T21:15:11Z",
+          "author": "Sido74500",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     },
     {
       "label": "Cloître et fresques de l’abbaye",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Abondance%2C_l%27abbaye_et_le_village._Fresques_de_Giacomo_Jacquerio%2C_v.1430.La_C%C3%A8ne_%280%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbondance%2C%20l'abbaye%20et%20le%20village.%20Fresques%20de%20Giacomo%20Jacquerio%2C%20v.1430.La%20C%C3%A8ne%20(0).jpg",
-          "title": "Abondance, l'abbaye et le village. Fresques de Giacomo Jacquerio, v.1430.La Cène (0).jpg",
-          "width": 3888,
-          "height": 2592,
-          "size": 2576287,
-          "timestamp": "2020-05-22T22:00:48Z",
-          "author": "Franzrycou",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Abbaye_Abondance_terrasse_monument_aux_morts_2016.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20Abondance%20terrasse%20monument%20aux%20morts%202016.jpg",
+          "title": "Abbaye Abondance terrasse monument aux morts 2016.jpg",
+          "description": "Vue de la façade sud de l'abbaye et de la façade orientale de la maison abbatiale.",
+          "width": 6000,
+          "height": 4000,
+          "size": 6043523,
+          "timestamp": "2026-01-20T21:10:49Z",
+          "author": "Sido74500",
+          "license": "CC BY 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Abbaye_Abondance_aile_orientale_fa%C3%A7ade_ext%C3%A9rieure.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20Abondance%20aile%20orientale%20fa%C3%A7ade%20ext%C3%A9rieure.jpg",
+          "title": "Abbaye Abondance aile orientale façade extérieure.jpg",
+          "description": "Vue de la façade extérieure de l'aile orientale au niveau du chapitre moderne (au centre)",
+          "width": 5472,
+          "height": 3648,
+          "size": 8485477,
+          "timestamp": "2026-01-20T21:12:17Z",
+          "author": "Sido74500",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Abbaye_Abondance_%C3%A9glise_tribune_transept.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20Abondance%20%C3%A9glise%20tribune%20transept.jpg",
+          "title": "Abbaye Abondance église tribune transept.jpg",
+          "description": "Vue de la tribune dans le bras sud du transept de l'église d'Abondance.",
+          "width": 6000,
+          "height": 4000,
+          "size": 7349662,
+          "timestamp": "2026-01-20T21:15:11Z",
+          "author": "Sido74500",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
         }
       ]
     },

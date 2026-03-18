@@ -1,12 +1,13 @@
 {
   "slug": "versailles",
   "nom": "Versailles",
-  "fetchedAt": "2026-03-13T02:07:42.717Z",
+  "fetchedAt": "2026-03-18T20:44:32.679Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Versailles_-_%C3%89glise_Notre-Dame_-_Chapelle_du_Sacr%C3%A9-C%C5%93ur_-_Depuis_l%27entr%C3%A9e.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVersailles%20-%20%C3%89glise%20Notre-Dame%20-%20Chapelle%20du%20Sacr%C3%A9-C%C5%93ur%20-%20Depuis%20l'entr%C3%A9e.jpg",
       "title": "Versailles - Église Notre-Dame - Chapelle du Sacré-Cœur - Depuis l'entrée.jpg",
+      "description": "Depuis l'entrée.",
       "width": 4032,
       "height": 3024,
       "size": 3288987,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Versailles_-_%C3%89glise_Notre-Dame_-_Plaque_%C3%A0_Edm%C3%A9-Pierre_Ploix.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVersailles%20-%20%C3%89glise%20Notre-Dame%20-%20Plaque%20%C3%A0%20Edm%C3%A9-Pierre%20Ploix.jpg",
       "title": "Versailles - Église Notre-Dame - Plaque à Edmé-Pierre Ploix.jpg",
+      "description": "Plaque : \"À la mémoire de Edmé-Pierre Ploix, maire de Versailles, décédé le 31 août 1880, fondation à perpétuité d'une messe anniversaire pour lui et sa famille\".",
       "width": 4032,
       "height": 3024,
       "size": 2083826,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Versailles_-_%C3%89glise_Notre-Dame_-_M%C3%A9daillon_de_saint_Jacques_le_Majeur_%28G%C3%A9rard-L%C3%A9onard_H%C3%A9rard%2C_1670%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVersailles%20-%20%C3%89glise%20Notre-Dame%20-%20M%C3%A9daillon%20de%20saint%20Jacques%20le%20Majeur%20(G%C3%A9rard-L%C3%A9onard%20H%C3%A9rard%2C%201670).jpg",
       "title": "Versailles - Église Notre-Dame - Médaillon de saint Jacques le Majeur (Gérard-Léonard Hérard, 1670).jpg",
+      "description": "Médaillon de saint Jacques le Majeur, par Gérard-Léonard Hérard.\nMarbre, 1670.\nOrnait les salles de l'Académie royale de peinture et de sculpture au palais du Louvre jusqu'à la Révolution.\n\nEnvoi du musée royal en 1815.",
       "width": 4032,
       "height": 3024,
       "size": 2430963,
@@ -48,66 +51,10 @@
       "label": "Château de Versailles",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Water_reflection_of_the_Orangerie_garden_and_Palace_of_Versailles_with_blue_sky_in_France.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWater%20reflection%20of%20the%20Orangerie%20garden%20and%20Palace%20of%20Versailles%20with%20blue%20sky%20in%20France.jpg",
-          "title": "Water reflection of the Orangerie garden and Palace of Versailles with blue sky in France.jpg",
-          "width": 8192,
-          "height": 4096,
-          "size": 13195027,
-          "timestamp": "2026-02-14T02:18:49Z",
-          "author": "Basile Morin",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Parterre_du_Midi_Garden_pond_and_Palace_of_Versailles_at_golden_hour_with_blue_sky_in_France.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParterre%20du%20Midi%20Garden%20pond%20and%20Palace%20of%20Versailles%20at%20golden%20hour%20with%20blue%20sky%20in%20France.jpg",
-          "title": "Parterre du Midi Garden pond and Palace of Versailles at golden hour with blue sky in France.jpg",
-          "width": 7761,
-          "height": 4070,
-          "size": 23265298,
-          "timestamp": "2026-02-14T02:56:17Z",
-          "author": "Basile Morin",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/2017_Cour_de_Marbre_du_Ch%C3%A2teau_de_Versailles_P22.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2017%20Cour%20de%20Marbre%20du%20Ch%C3%A2teau%20de%20Versailles%20P22.jpg",
-          "title": "2017 Cour de Marbre du Château de Versailles P22.jpg",
-          "width": 4069,
-          "height": 2713,
-          "size": 7398216,
-          "timestamp": "2018-03-29T20:49:24Z",
-          "author": "Luis Miguel Bugallo Sánchez (Lmbuga)",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        }
-      ]
-    },
-    {
-      "label": "Jardins du Château de Versailles",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Palace_of_Versailles_seem_from_its_Gardens.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APalace%20of%20Versailles%20seem%20from%20its%20Gardens.jpg",
-          "title": "Palace of Versailles seem from its Gardens.jpg",
-          "width": 4000,
-          "height": 3000,
-          "size": 3060337,
-          "timestamp": "2022-06-09T20:20:41Z",
-          "author": "DiscoA340",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Ch%C3%A2teau_de_Versailles_Gardens_in_July_2022.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Versailles%20Gardens%20in%20July%202022.jpg",
           "title": "Château de Versailles Gardens in July 2022.jpg",
+          "description": "Château de Versailles Gardens in Paris, France.",
           "width": 4000,
           "height": 3000,
           "size": 2850562,
@@ -115,20 +62,82 @@
           "author": "DiscoA340",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Ch%C3%A2teau_de_Versailles_Gardens_in_July_2022_2.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Versailles%20Gardens%20in%20July%202022%202.jpg",
-          "title": "Château de Versailles Gardens in July 2022 2.jpg",
-          "width": 4000,
-          "height": 3000,
-          "size": 2644913,
-          "timestamp": "2022-10-13T02:18:07Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Fa%C3%A7ade_de_la_gare_de_Versailles-Ch%C3%A2teau-RG.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFa%C3%A7ade%20de%20la%20gare%20de%20Versailles-Ch%C3%A2teau-RG.jpg",
+          "title": "Façade de la gare de Versailles-Château-RG.jpg",
+          "description": "Vue de la façade de la gare de Versailles-Château-Rive-Gauche, Yvelines, France.",
+          "width": 4889,
+          "height": 3668,
+          "size": 2037946,
+          "timestamp": "2017-03-25T21:27:45Z",
+          "author": "Remontees",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Panorama_at_the_Ch%C3%A2teau_de_Versailles_-_Front_of_the_Grand_Trianon.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanorama%20at%20the%20Ch%C3%A2teau%20de%20Versailles%20-%20Front%20of%20the%20Grand%20Trianon.jpg",
+          "title": "Panorama at the Château de Versailles - Front of the Grand Trianon.jpg",
+          "description": "Panorama at the Château de Versailles - Front of the Grand Trianon, Versailles, France.",
+          "width": 11512,
+          "height": 3060,
+          "size": 19078260,
+          "timestamp": "2022-10-08T04:00:18Z",
           "author": "DiscoA340",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 8
+        }
+      ]
+    },
+    {
+      "label": "Jardins du Château de Versailles",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Ch%C3%A2teau_de_Versailles_Gardens_in_July_2022.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Versailles%20Gardens%20in%20July%202022.jpg",
+          "title": "Château de Versailles Gardens in July 2022.jpg",
+          "description": "Château de Versailles Gardens in Paris, France.",
+          "width": 4000,
+          "height": 3000,
+          "size": 2850562,
+          "timestamp": "2022-10-13T02:16:30Z",
+          "author": "DiscoA340",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Fa%C3%A7ade_de_la_gare_de_Versailles-Ch%C3%A2teau-RG.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFa%C3%A7ade%20de%20la%20gare%20de%20Versailles-Ch%C3%A2teau-RG.jpg",
+          "title": "Façade de la gare de Versailles-Château-RG.jpg",
+          "description": "Vue de la façade de la gare de Versailles-Château-Rive-Gauche, Yvelines, France.",
+          "width": 4889,
+          "height": 3668,
+          "size": 2037946,
+          "timestamp": "2017-03-25T21:27:45Z",
+          "author": "Remontees",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Panorama_at_the_Ch%C3%A2teau_de_Versailles_-_Front_of_the_Grand_Trianon.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanorama%20at%20the%20Ch%C3%A2teau%20de%20Versailles%20-%20Front%20of%20the%20Grand%20Trianon.jpg",
+          "title": "Panorama at the Château de Versailles - Front of the Grand Trianon.jpg",
+          "description": "Panorama at the Château de Versailles - Front of the Grand Trianon, Versailles, France.",
+          "width": 11512,
+          "height": 3060,
+          "size": 19078260,
+          "timestamp": "2022-10-08T04:00:18Z",
+          "author": "DiscoA340",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
         }
       ]
     },
@@ -136,35 +145,10 @@
       "label": "Grand Canal",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Grand_Canal_de_Versailles%2C_24.07.13.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrand%20Canal%20de%20Versailles%2C%2024.07.13.jpg",
-          "title": "Grand Canal de Versailles, 24.07.13.jpg",
-          "width": 4730,
-          "height": 3153,
-          "size": 11033550,
-          "timestamp": "2020-09-30T15:49:45Z",
-          "author": "Liberaler Humanist",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Grand_Canal_de_Versailles_near_Grand_Trianon%2C_24.07.13.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrand%20Canal%20de%20Versailles%20near%20Grand%20Trianon%2C%2024.07.13.jpg",
-          "title": "Grand Canal de Versailles near Grand Trianon, 24.07.13.jpg",
-          "width": 4752,
-          "height": 3168,
-          "size": 8671222,
-          "timestamp": "2020-09-30T15:50:30Z",
-          "author": "Liberaler Humanist",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Grand_Canal_Jardin_Ch%C3%A2teau_Versailles_-_Versailles_%28FR78%29_-_2021-12-19_-_1.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrand%20Canal%20Jardin%20Ch%C3%A2teau%20Versailles%20-%20Versailles%20(FR78)%20-%202021-12-19%20-%201.jpg",
           "title": "Grand Canal Jardin Château Versailles - Versailles (FR78) - 2021-12-19 - 1.jpg",
+          "description": "Grand canal au jardin du château de Versailles, Versailles.",
           "width": 4032,
           "height": 3024,
           "size": 3314167,
@@ -172,7 +156,35 @@
           "author": "Chabe01",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Grand_Canal_Jardin_Ch%C3%A2teau_Versailles_-_Versailles_%28FR78%29_-_2021-12-19_-_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrand%20Canal%20Jardin%20Ch%C3%A2teau%20Versailles%20-%20Versailles%20(FR78)%20-%202021-12-19%20-%202.jpg",
+          "title": "Grand Canal Jardin Château Versailles - Versailles (FR78) - 2021-12-19 - 2.jpg",
+          "description": "Grand canal au jardin du château de Versailles, Versailles.",
+          "width": 4032,
+          "height": 3024,
+          "size": 2957218,
+          "timestamp": "2021-12-20T21:49:00Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Grand_Canal_Jardin_Ch%C3%A2teau_Versailles_-_Versailles_%28FR78%29_-_2021-12-19_-_3.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrand%20Canal%20Jardin%20Ch%C3%A2teau%20Versailles%20-%20Versailles%20(FR78)%20-%202021-12-19%20-%203.jpg",
+          "title": "Grand Canal Jardin Château Versailles - Versailles (FR78) - 2021-12-19 - 3.jpg",
+          "description": "Grand canal au jardin du château de Versailles, Versailles.",
+          "width": 4032,
+          "height": 3024,
+          "size": 3179474,
+          "timestamp": "2021-12-20T21:49:08Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
         }
       ]
     },
@@ -180,17 +192,46 @@
       "label": "Domaine de Marie-Antoinette (Petit Trianon et hameau)",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Bureau_Marie-Antoinette_Riesener_Versailles.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABureau%20Marie-Antoinette%20Riesener%20Versailles.jpg",
-          "title": "Bureau Marie-Antoinette Riesener Versailles.jpg",
-          "width": 1400,
-          "height": 1230,
-          "size": 1463520,
-          "timestamp": "2011-06-13T10:14:29Z",
-          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Jean_Henri_Riesener\" class=\"extiw\" title=\"w:en:Jean Henri Riesener\"><span title=\"German royal ébéniste (1734–1806)\">Jean Henri Riesener</span></a></bdi>",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Hameau_de_la_Reine_-_Ch%C3%A2teau_de_Versailles_-_sept_2025.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHameau%20de%20la%20Reine%20-%20Ch%C3%A2teau%20de%20Versailles%20-%20sept%202025.jpg",
+          "title": "Hameau de la Reine - Château de Versailles - sept 2025.jpg",
+          "description": "Hameau de la Reine, bâtiment principal, sur le Domaine de Trianon (Château de Versailles)",
+          "width": 1536,
+          "height": 2048,
+          "size": 843876,
+          "timestamp": "2025-09-25T15:15:57Z",
+          "author": "Epanorthose",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Service_s%C3%A9curit%C3%A9_incendie_-_Domaine_de_Versailles_-_Fourgon_incendie.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AService%20s%C3%A9curit%C3%A9%20incendie%20-%20Domaine%20de%20Versailles%20-%20Fourgon%20incendie.JPG",
+          "title": "Service sécurité incendie - Domaine de Versailles - Fourgon incendie.JPG",
+          "description": "Fire fight and security engine for the Château de Versailles",
+          "width": 3008,
+          "height": 2000,
+          "size": 2662931,
+          "timestamp": "2011-02-24T13:46:00Z",
+          "author": "Trizek",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Vue_a%C3%A9rienne_du_domaine_de_Versailles_par_ToucanWings_-_Creative_Commons_By_Sa_3.0_-_002.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20a%C3%A9rienne%20du%20domaine%20de%20Versailles%20par%20ToucanWings%20-%20Creative%20Commons%20By%20Sa%203.0%20-%20002.jpg",
+          "title": "Vue aérienne du domaine de Versailles par ToucanWings - Creative Commons By Sa 3.0 - 002.jpg",
+          "description": "Aerial view of the central part of the Palace of Versailles, France",
+          "width": 4608,
+          "height": 3456,
+          "size": 11469796,
+          "timestamp": "2013-09-23T15:27:12Z",
+          "author": "ToucanWings",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
         }
       ]
     },
@@ -198,22 +239,10 @@
       "label": "Potager du Roi",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Versailles_potager_du_roi_porte_royale.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVersailles%20potager%20du%20roi%20porte%20royale.jpg",
-          "title": "Versailles potager du roi porte royale.jpg",
-          "width": 4000,
-          "height": 3000,
-          "size": 5043318,
-          "timestamp": "2015-08-31T08:48:36Z",
-          "author": "Utilisateur:Djampa",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Versailles_potager_du_roi_allee_centrale.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVersailles%20potager%20du%20roi%20allee%20centrale.jpg",
           "title": "Versailles potager du roi allee centrale.jpg",
+          "description": "Château de Versailles, potager du roi, allée centrale. Pour un potager, c'est un joli potager...",
           "width": 4000,
           "height": 3000,
           "size": 4441539,
@@ -221,12 +250,13 @@
           "author": "Utilisateur:Djampa",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Versailles_potager_du_roi_le_grand_bassin.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVersailles%20potager%20du%20roi%20le%20grand%20bassin.jpg",
           "title": "Versailles potager du roi le grand bassin.jpg",
+          "description": "Château de Versailles, potager du roi, le grand bassin",
           "width": 4000,
           "height": 3000,
           "size": 4616163,
@@ -234,7 +264,21 @@
           "author": "Utilisateur:Djampa",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Versailles_Potager_du_Roi_Grille_du_Roi_fronton.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVersailles%20Potager%20du%20Roi%20Grille%20du%20Roi%20fronton.jpg",
+          "title": "Versailles Potager du Roi Grille du Roi fronton.jpg",
+          "description": "Château de Versailles, Potager du Roi, Grille du Roi, fronton",
+          "width": 4000,
+          "height": 3000,
+          "size": 5426159,
+          "timestamp": "2015-09-10T11:59:01Z",
+          "author": "Utilisateur:Djampa",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
         }
       ]
     },
@@ -242,40 +286,43 @@
       "label": "Place du Marché Notre-Dame",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Versailles_-_Place_du_March%C3%A9_Notre-Dame_-_Fin_du_march%C3%A9.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVersailles%20-%20Place%20du%20March%C3%A9%20Notre-Dame%20-%20Fin%20du%20march%C3%A9.jpg",
-          "title": "Versailles - Place du Marché Notre-Dame - Fin du marché.jpg",
-          "width": 4032,
-          "height": 3024,
-          "size": 4361852,
-          "timestamp": "2022-11-25T22:01:09Z",
-          "author": "Romainbehar",
-          "license": "CC0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Versailles_view_from_the_Parterre_d%27eau.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVersailles%20view%20from%20the%20Parterre%20d'eau.jpg",
+          "title": "Versailles view from the Parterre d'eau.jpg",
+          "description": "Versailles gardens view from \"Parterre d'eau\".",
+          "width": 3933,
+          "height": 2474,
+          "size": 6139730,
+          "timestamp": "2011-11-02T06:15:45Z",
+          "author": "Paolo Costa Baldi",
+          "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Versailles_%2878%29_Place_du_March%C3%A9_Notre-Dame_897.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVersailles%20(78)%20Place%20du%20March%C3%A9%20Notre-Dame%20897.jpg",
-          "title": "Versailles (78) Place du Marché Notre-Dame 897.jpg",
-          "width": 7728,
-          "height": 5152,
-          "size": 29123165,
-          "timestamp": "2025-04-07T08:48:56Z",
-          "author": "GFreihalter",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Versailles_July_1974_-_Louis_XVI.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVersailles%20July%201974%20-%20Louis%20XVI.jpg",
+          "title": "Versailles July 1974 - Louis XVI.jpg",
+          "description": "Versailles",
+          "width": 5291,
+          "height": 4129,
+          "size": 9657699,
+          "timestamp": "2021-04-18T22:18:09Z",
+          "author": "Infrogmation",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Versailles_%2878%29_Place_du_March%C3%A9_Notre-Dame_898.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVersailles%20(78)%20Place%20du%20March%C3%A9%20Notre-Dame%20898.jpg",
-          "title": "Versailles (78) Place du Marché Notre-Dame 898.jpg",
-          "width": 7719,
-          "height": 5146,
-          "size": 29816976,
-          "timestamp": "2025-04-07T08:48:57Z",
-          "author": "GFreihalter",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Plaque_Place_Porte_Versailles_-_Paris_XV_%28FR75%29_-_2021-08-10_-_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlaque%20Place%20Porte%20Versailles%20-%20Paris%20XV%20(FR75)%20-%202021-08-10%20-%202.jpg",
+          "title": "Plaque Place Porte Versailles - Paris XV (FR75) - 2021-08-10 - 2.jpg",
+          "description": "Plaque de la place de la Porte de Versailles, Paris.",
+          "width": 4032,
+          "height": 3024,
+          "size": 6709330,
+          "timestamp": "2021-08-12T19:06:02Z",
+          "author": "Chabe01",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7

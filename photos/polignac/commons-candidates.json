@@ -1,12 +1,27 @@
 {
   "slug": "polignac",
   "nom": "Polignac",
-  "fetchedAt": "2026-03-14T11:29:51.912Z",
+  "fetchedAt": "2026-03-18T16:48:56.368Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Chateau_de_polignac.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau%20de%20polignac.jpg",
+      "title": "Chateau de polignac.jpg",
+      "description": "Château de Polignac",
+      "width": 1600,
+      "height": 1200,
+      "size": 375610,
+      "timestamp": "2017-09-01T11:15:53Z",
+      "author": "Otaku36",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Chateau_Polignac_189mod.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau%20Polignac%20189mod.jpg",
       "title": "Chateau Polignac 189mod.jpg",
+      "description": "Castle and village of Polignac, Haute-Loire, France.",
       "width": 1876,
       "height": 930,
       "size": 1490150,
@@ -17,28 +32,16 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Polignac_-_panoramio.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APolignac%20-%20panoramio.jpg",
-      "title": "Polignac - panoramio.jpg",
-      "width": 2432,
-      "height": 1615,
-      "size": 901361,
-      "timestamp": "2016-11-06T08:09:27Z",
-      "author": "Neil Aitkenhead",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Chateau_de_polignac.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau%20de%20polignac.jpg",
-      "title": "Chateau de polignac.jpg",
-      "width": 1600,
-      "height": 1200,
-      "size": 375610,
-      "timestamp": "2017-09-01T11:15:53Z",
-      "author": "Otaku36",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Ch%C3%A2teau_de_Polignac.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Polignac.jpg",
+      "title": "Château de Polignac.jpg",
+      "description": "Vue du château de Polignac (Haute-Loire) depuis le nord. Vers le coin gauche on aperçoit le haut du clocher de l'église Saint-Martin dépassant d'une rangée d'arbres.",
+      "width": 2304,
+      "height": 1728,
+      "size": 1218314,
+      "timestamp": "2008-09-06T06:59:37Z",
+      "author": "Wikijoe",
+      "license": "Public domain",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 6
     }
@@ -46,7 +49,50 @@
   "lieux": [
     {
       "label": "Donjon carré du château",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Ch%C3%A2teau_Lavoute_Polignac_%2851003696106%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20Lavoute%20Polignac%20(51003696106).jpg",
+          "title": "Château Lavoute Polignac (51003696106).jpg",
+          "description": "Château Lavoute Polignac",
+          "width": 2643,
+          "height": 1487,
+          "size": 3345013,
+          "timestamp": "2021-08-23T02:37:52Z",
+          "author": "@ S@ndrine",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Chateau_de_polignac.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau%20de%20polignac.jpg",
+          "title": "Chateau de polignac.jpg",
+          "description": "Château de Polignac",
+          "width": 1600,
+          "height": 1200,
+          "size": 375610,
+          "timestamp": "2017-09-01T11:15:53Z",
+          "author": "Otaku36",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Lavo%C3%BBte-sur-Loire_-_Ch%C3%A2teau_de_Lavo%C3%BBte-Polignac_-1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALavo%C3%BBte-sur-Loire%20-%20Ch%C3%A2teau%20de%20Lavo%C3%BBte-Polignac%20-1.jpg",
+          "title": "Lavoûte-sur-Loire - Château de Lavoûte-Polignac -1.jpg",
+          "description": "Château de Lavoûte-Polignac dominant la Loire",
+          "width": 3648,
+          "height": 2736,
+          "size": 2576246,
+          "timestamp": "2010-12-12T10:56:10Z",
+          "author": "MOSSOT",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Terrasse panoramique",
@@ -54,7 +100,50 @@
     },
     {
       "label": "Grande cour intérieure",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Palazzi_Contarini_Polignac_%26_Brandolin_Rota%2C_Venice_%2837060688894%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APalazzi%20Contarini%20Polignac%20%26%20Brandolin%20Rota%2C%20Venice%20(37060688894).jpg",
+          "title": "Palazzi Contarini Polignac & Brandolin Rota, Venice (37060688894).jpg",
+          "description": "Palazzi Contarini Polignac &amp; Brandolin Rota, Venice",
+          "width": 4608,
+          "height": 3456,
+          "size": 3609918,
+          "timestamp": "2022-05-22T10:54:14Z",
+          "author": "Dimitris Kamaras",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Palazzo_Contarini_Polignac%2C_Venice_%2837100753233%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APalazzo%20Contarini%20Polignac%2C%20Venice%20(37100753233).jpg",
+          "title": "Palazzo Contarini Polignac, Venice (37100753233).jpg",
+          "description": "Palazzo Contarini Polignac, Venice",
+          "width": 4608,
+          "height": 3456,
+          "size": 3542396,
+          "timestamp": "2022-05-22T13:57:07Z",
+          "author": "Dimitris Kamaras",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Palazzo_Contarini_del_Zaffo_Polignac_Venezia.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APalazzo%20Contarini%20del%20Zaffo%20Polignac%20Venezia.jpg",
+          "title": "Palazzo Contarini del Zaffo Polignac Venezia.jpg",
+          "description": "Palazzo Contarini Polignac, Venice",
+          "width": 6000,
+          "height": 4004,
+          "size": 13831163,
+          "timestamp": "2015-09-25T18:39:59Z",
+          "author": "<table class=\"toccolours\" style=\"width:100%; margin-top:10px;\" cellpadding=\"2\">\n\n<tbody><tr class=\"plainlinks\">\n<td><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Emblem-camera.svg\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Emblem-camera.svg/40px-Emblem-camera.svg.png\" decoding=\"async\" width=\"25\" height=\"25\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Emblem-camera.svg/60px-Emblem-camera.svg.png 2x\" data-file-width=\"64\" data-file-height=\"64\"></a></span>  <a href=\"https://upload.wikimedia.org/wikipedia/commons/f/fb/Palazzo_Contarini_del_Zaffo_Polignac_Venezia.jpg\" class=\"internal\" title=\"Palazzo Contarini del Zaffo Polignac Venezia.jpg\">This Photo</a> was taken by <i><b><a href=\"//commons.wikimedia.org/wiki/User:Moroder\" title=\"User:Moroder\">Wolfgang Moroder</a></b></i>.  <span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:User_with_smile.svg\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/User_with_smile.svg/40px-User_with_smile.svg.png\" decoding=\"async\" width=\"25\" height=\"25\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/User_with_smile.svg/60px-User_with_smile.svg.png 2x\" data-file-width=\"128\" data-file-height=\"128\"></a></span>\n</td>\n<td align=\"right\">Feel free to use my photos, but please mention me as the author and send me a  <a class=\"external text\" href=\"https://commons.wikimedia.org/w/index.php?title=User_talk:Moroder&amp;action=edit&amp;section=new\">message</a>. <span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Crystal_128_mail.png\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Crystal_128_mail.png/40px-Crystal_128_mail.png\" decoding=\"async\" width=\"25\" height=\"25\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Crystal_128_mail.png/60px-Crystal_128_mail.png 2x\" data-file-width=\"128\" data-file-height=\"128\"></a></span>\n</td></tr></tbody></table>\n<div style=\"clear:both; border:2px solid #cc0000; background-color:#f7f7f7; margin-top:6px;\">\n<table><tbody><tr><td style=\"padding:4px;\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Control_copyright_icon.svg\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Control_copyright_icon.svg/120px-Control_copyright_icon.svg.png\" decoding=\"async\" width=\"64\" height=\"61\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Control_copyright_icon.svg/250px-Control_copyright_icon.svg.png 2x\" data-file-width=\"171\" data-file-height=\"163\"></a></span>\n</td><td style=\"padding:4px;\"><div style=\"margin-top:0.5em;\">This image is <b>not in the <a href=\"https://en.wikipedia.org/wiki/Public_domain\" class=\"extiw\" title=\"en:Public domain\">public domain</a></b>. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically <b>excludes use in social media</b>, if applicable terms of the licenses listed here not appropriate.</div>\n</td></tr></tbody></table></div>\n<div style=\"clear:both; border:2px solid #00cc00; background-color:#f7f7f7; margin-top:6px;\">\n<table><tbody><tr><td style=\"padding:4px;\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Upload-problem2.svg\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Upload-problem2.svg/120px-Upload-problem2.svg.png\" decoding=\"async\" width=\"64\" height=\"57\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Upload-problem2.svg/250px-Upload-problem2.svg.png 2x\" data-file-width=\"159\" data-file-height=\"142\"></a></span>\n</td><td style=\"padding:4px;\"><div style=\"margin-top:0.5em;\">Please do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.<br>Please if you think that any changes should be required, please inform the author.<br>Otherwise you can upload a new image with a new name. Please use one of the templates <a href=\"//commons.wikimedia.org/wiki/Template:Derived_from\" title=\"Template:Derived from\">derivative</a> or <a href=\"//commons.wikimedia.org/wiki/Template:Extracted_from\" title=\"Template:Extracted from\">extract</a>.</div>\n</td></tr></tbody></table></div>",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Croix monumentale du promontoire",

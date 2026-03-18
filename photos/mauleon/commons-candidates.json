@@ -1,12 +1,13 @@
 {
   "slug": "mauleon",
   "nom": "Mauléon",
-  "fetchedAt": "2026-03-13T16:07:01.092Z",
+  "fetchedAt": "2026-03-16T21:24:22.718Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Maul%C3%A9on_-_3.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaul%C3%A9on%20-%203.jpg",
       "title": "Mauléon - 3.jpg",
+      "description": "Mauléon - un restaurant",
       "width": 4032,
       "height": 3024,
       "size": 1843276,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Maul%C3%A9on_-_2.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaul%C3%A9on%20-%202.jpg",
       "title": "Mauléon - 2.jpg",
+      "description": "Mauléon - centre ville",
       "width": 4032,
       "height": 3024,
       "size": 2025095,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Maul%C3%A9on_-_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaul%C3%A9on%20-%201.jpg",
       "title": "Mauléon - 1.jpg",
+      "description": "Mauléon - centre ville",
       "width": 4032,
       "height": 3024,
       "size": 2259642,
@@ -48,43 +51,46 @@
       "label": "Château fort de Mauléon",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Vue_du_ch%C3%A2teau-fort_depuis_la_rue_de_la_Navarre_%C3%A0_Maul%C3%A9on-Licharre.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20du%20ch%C3%A2teau-fort%20depuis%20la%20rue%20de%20la%20Navarre%20%C3%A0%20Maul%C3%A9on-Licharre.jpg",
-          "title": "Vue du château-fort depuis la rue de la Navarre à Mauléon-Licharre.jpg",
-          "width": 2816,
-          "height": 2112,
-          "size": 1963594,
-          "timestamp": "2024-06-14T16:36:57Z",
-          "author": "Tangopaso",
-          "license": "Public domain",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Ch%C3%A2teau_de_Maul%C3%A9on-Barousse_%28Hautes-Pyr%C3%A9n%C3%A9es%29_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Maul%C3%A9on-Barousse%20(Hautes-Pyr%C3%A9n%C3%A9es)%201.jpg",
+          "title": "Château de Mauléon-Barousse (Hautes-Pyrénées) 1.jpg",
+          "description": "Château de Mauléon-Barousse (Hautes-Pyrénées)",
+          "width": 4639,
+          "height": 3244,
+          "size": 4600202,
+          "timestamp": "2023-09-25T09:34:28Z",
+          "author": "Sotos",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Vue_du_chateau-fort_de_Maul%C3%A9on_depuis_le_pont_de_Viodos.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20du%20chateau-fort%20de%20Maul%C3%A9on%20depuis%20le%20pont%20de%20Viodos.jpg",
-          "title": "Vue du chateau-fort de Mauléon depuis le pont de Viodos.jpg",
-          "width": 2816,
-          "height": 2112,
-          "size": 2359252,
-          "timestamp": "2024-06-16T20:47:15Z",
-          "author": "Tangopaso",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Vue_a%C3%A9rienne_du_ch%C3%A2teau_de_Maul%C3%A9on.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20a%C3%A9rienne%20du%20ch%C3%A2teau%20de%20Maul%C3%A9on.jpg",
+          "title": "Vue aérienne du château de Mauléon.jpg",
+          "description": "Aerial view of the castle of Mauléon-Licharre (Pyrénées-Atlantiques, France).",
+          "width": 1595,
+          "height": 1111,
+          "size": 625926,
+          "timestamp": "2023-10-24T19:22:22Z",
+          "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
           "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/%C3%89glise_de_la_Haute-Ville_et_ch%C3%A2teau-fort_de_Maul%C3%A9on.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20de%20la%20Haute-Ville%20et%20ch%C3%A2teau-fort%20de%20Maul%C3%A9on.jpg",
-          "title": "Église de la Haute-Ville et château-fort de Mauléon.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Hostellerie_du_ch%C3%A2teau_%C3%A0_Maul%C3%A9on-Licharre.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHostellerie%20du%20ch%C3%A2teau%20%C3%A0%20Maul%C3%A9on-Licharre.jpg",
+          "title": "Hostellerie du château à Mauléon-Licharre.jpg",
+          "description": "Hostellerie du château in Mauléon-Licharre (Pyrénées-Atlantiques, France).",
           "width": 2816,
           "height": 2112,
-          "size": 2639298,
-          "timestamp": "2025-06-27T15:45:11Z",
+          "size": 1769949,
+          "timestamp": "2024-06-14T16:26:13Z",
           "author": "Tangopaso",
           "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         }
       ]
     },
@@ -94,7 +100,22 @@
     },
     {
       "label": "Atelier Don Quichosse",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Maul%C3%A9on-Sortie_des_Ateliers_B%C3%A9guerie-Arthapignet_3.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaul%C3%A9on-Sortie%20des%20Ateliers%20B%C3%A9guerie-Arthapignet%203.jpg",
+          "title": "Mauléon-Sortie des Ateliers Béguerie-Arthapignet 3.jpg",
+          "description": "Mauléon-Licharre-Workers of Béguerie shoe workshops (Pyrénées-Atlantiques, France). Mailed in august 1909.",
+          "width": 3294,
+          "height": 2094,
+          "size": 3730645,
+          "timestamp": "2016-12-28T19:43:32Z",
+          "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

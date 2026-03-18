@@ -1,12 +1,13 @@
 {
   "slug": "royon",
   "nom": "Royon",
-  "fetchedAt": "2026-03-14T11:53:34.753Z",
+  "fetchedAt": "2026-03-18T17:52:28.394Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Royon_Ch%C3%A2teau.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARoyon%20Ch%C3%A2teau.jpg",
       "title": "Royon Château.jpg",
+      "description": "Propriété privée de la famille de Hauteclocque. Détruit en 1944, Le château a été reconstruit vers 1960.",
       "width": 7866,
       "height": 5247,
       "size": 20778646,
@@ -14,25 +15,13 @@
       "author": "Jacques Rocquet",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Royon_La_Cr%C3%A9quoise.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARoyon%20La%20Cr%C3%A9quoise.jpg",
-      "title": "Royon La Créquoise.jpg",
-      "width": 7864,
-      "height": 5245,
-      "size": 25901111,
-      "timestamp": "2021-08-17T19:15:24Z",
-      "author": "Jacques Rocquet",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Royon_Eglise_int%C3%A9rieur.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARoyon%20Eglise%20int%C3%A9rieur.jpg",
       "title": "Royon Eglise intérieur.jpg",
+      "description": "Une vue de la nef et du chœur.",
       "width": 7917,
       "height": 5281,
       "size": 16639246,
@@ -40,7 +29,21 @@
       "author": "Jacques Rocquet",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Royon_Eglise_ext%C3%A9rieur.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARoyon%20Eglise%20ext%C3%A9rieur.jpg",
+      "title": "Royon Eglise extérieur.jpg",
+      "description": "L'église vue de la D130 à l'arrière du château.",
+      "width": 6792,
+      "height": 4530,
+      "size": 14729286,
+      "timestamp": "2021-08-18T05:40:45Z",
+      "author": "Jacques Rocquet",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
     }
   ],
   "lieux": [
@@ -48,17 +51,46 @@
       "label": "Église Saint-Martin de Royon",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Taradeau_02.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATaradeau%2002.jpg",
-          "title": "Taradeau 02.jpg",
-          "width": 1536,
-          "height": 2048,
-          "size": 1317010,
-          "timestamp": "2015-09-09T19:05:29Z",
-          "author": "<div style=\"clear:both; border: 1px solid #999; margin: 1em; padding: 1em; background-color: #eeefff;\">\n<p>This illustration was made by (<b>User:Royonx</b>) and released under the license(s) stated above. You are free to use it for any purpose as long as you credit me and follow the terms of the license.\n</p><p>Example :  © Michel Royon / Wikimedia Commons\n</p><p>If you use this image outside of the Wikimedia projects, I would be happy to <a href=\"//commons.wikimedia.org/wiki/Special:EmailUser/Royonx\" title=\"Special:EmailUser/Royonx\">hear from you</a> par courriel (<span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Nuvola_apps_email.png\" class=\"mw-file-description\" title=\"mail\"><img alt=\"mail\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Nuvola_apps_email.png/20px-Nuvola_apps_email.png\" decoding=\"async\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Nuvola_apps_email.png/40px-Nuvola_apps_email.png 1.5x\" data-file-width=\"128\" data-file-height=\"128\"></a></span> royonx <span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:At_char.svg\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/At_char.svg/20px-At_char.svg.png\" decoding=\"async\" width=\"12\" height=\"12\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/At_char.svg/40px-At_char.svg.png 2x\" data-file-width=\"10\" data-file-height=\"10\"></a></span> gmail.com). Thanks !\n</p>\n<hr>\n<small><a href=\"//commons.wikimedia.org/wiki/User:Royonx/Credits-fr\" title=\"User:Royonx/Credits-fr\">Ce message en français</a></small></div>",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Royon_Eglise_int%C3%A9rieur.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARoyon%20Eglise%20int%C3%A9rieur.jpg",
+          "title": "Royon Eglise intérieur.jpg",
+          "description": "Une vue de la nef et du chœur.",
+          "width": 7917,
+          "height": 5281,
+          "size": 16639246,
+          "timestamp": "2021-08-18T05:40:45Z",
+          "author": "Jacques Rocquet",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Royon_Eglise_ext%C3%A9rieur.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARoyon%20Eglise%20ext%C3%A9rieur.jpg",
+          "title": "Royon Eglise extérieur.jpg",
+          "description": "L'église vue de la D130 à l'arrière du château.",
+          "width": 6792,
+          "height": 4530,
+          "size": 14729286,
+          "timestamp": "2021-08-18T05:40:45Z",
+          "author": "Jacques Rocquet",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Royon_Fonts_baptismaux.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARoyon%20Fonts%20baptismaux.jpg",
+          "title": "Royon Fonts baptismaux.jpg",
+          "description": "12,13 zt 16° siècle. Classés MH au titre des objets en 1984.",
+          "width": 5179,
+          "height": 7764,
+          "size": 13159129,
+          "timestamp": "2021-08-18T05:40:43Z",
+          "author": "Jacques Rocquet",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
         }
       ]
     },

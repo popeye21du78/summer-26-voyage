@@ -1,12 +1,27 @@
 {
   "slug": "pezenas",
   "nom": "Pézenas",
-  "fetchedAt": "2026-03-14T14:29:21.162Z",
+  "fetchedAt": "2026-03-17T22:26:56.528Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/P%C3%A9zenas_5_Rue_du_Chateau.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AP%C3%A9zenas%205%20Rue%20du%20Chateau.jpg",
+      "title": "Pézenas 5 Rue du Chateau.jpg",
+      "description": "Wooden door of the house on 5 Rue du Château, Pézenas, Hérault, France",
+      "width": 4000,
+      "height": 6000,
+      "size": 18564816,
+      "timestamp": "2017-07-18T16:00:06Z",
+      "author": "Krzysztof Golik",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/H%C3%B4tel_de_ville_de_P%C3%A9zenas.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AH%C3%B4tel%20de%20ville%20de%20P%C3%A9zenas.jpg",
       "title": "Hôtel de ville de Pézenas.jpg",
+      "description": "hôtel de ville",
       "width": 4608,
       "height": 2240,
       "size": 4709314,
@@ -20,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Statue_de_saint_Roch%2C_h%C3%B4tel_Flottes_de_S%C3%A9bazan%2C_P%C3%A9zenas%2C_France.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStatue%20de%20saint%20Roch%2C%20h%C3%B4tel%20Flottes%20de%20S%C3%A9bazan%2C%20P%C3%A9zenas%2C%20France.jpg",
       "title": "Statue de saint Roch, hôtel Flottes de Sébazan, Pézenas, France.jpg",
+      "description": "Statue restaurée de saint Roch à l'angle de l'hôtel Flottes de Sébazan à Pézenas (France).",
       "width": 5022,
       "height": 3348,
       "size": 6242650,
@@ -28,111 +44,90 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 6
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/P%C3%A9zenas_H.LandesStPalais_16-09_MH-MC_1505.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AP%C3%A9zenas%20H.LandesStPalais%2016-09%20MH-MC%201505.jpg",
-      "title": "Pézenas H.LandesStPalais 16-09 MH-MC 1505.jpg",
-      "width": 4950,
-      "height": 3300,
-      "size": 12005011,
-      "timestamp": "2016-09-20T15:29:22Z",
-      "author": "Meria Geoian",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
     }
   ],
   "lieux": [
     {
       "label": "Collégiale Saint-Jean",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Clock_on_bell_tower_of_Collegiate_Church_of_St._John.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AClock%20on%20bell%20tower%20of%20Collegiate%20Church%20of%20St.%20John.jpg",
-          "title": "Clock on bell tower of Collegiate Church of St. John.jpg",
-          "width": 4073,
-          "height": 3316,
-          "size": 9423087,
-          "timestamp": "2017-05-31T22:14:53Z",
-          "author": "Krzysztof Golik",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Coll%C3%A9giale_Saint-Jean_05.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AColl%C3%A9giale%20Saint-Jean%2005.jpg",
-          "title": "Collégiale Saint-Jean 05.jpg",
-          "width": 4272,
-          "height": 2848,
-          "size": 5172465,
-          "timestamp": "2019-11-22T17:05:16Z",
-          "author": "Tylwyth Eldar",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Coll%C3%A9giale_Saint-Jean_-_Sacristie_02.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AColl%C3%A9giale%20Saint-Jean%20-%20Sacristie%2002.jpg",
-          "title": "Collégiale Saint-Jean - Sacristie 02.jpg",
-          "width": 4000,
-          "height": 6000,
-          "size": 11954942,
-          "timestamp": "2021-07-23T19:30:54Z",
-          "author": "Tylwyth Eldar",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Hôtel de Lacoste",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/P%C3%A9zenas_portes_rue_de_la_Foire.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AP%C3%A9zenas%20portes%20rue%20de%20la%20Foire.jpg",
+          "title": "Pézenas portes rue de la Foire.jpg",
+          "description": "Pézenas, historic dowtown, medieval architecture, doors of Hôtel de Landes de Saint-Palais in rue de la Foire",
+          "width": 4000,
+          "height": 3000,
+          "size": 4089783,
+          "timestamp": "2020-05-26T12:14:18Z",
+          "author": "HHParis",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/P%C3%A9zenas_vue_depuis_la_place_Gambetta.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AP%C3%A9zenas%20vue%20depuis%20la%20place%20Gambetta.jpg",
+          "title": "Pézenas vue depuis la place Gambetta.jpg",
+          "description": "Pézenas (France), from the place Gambetta views on medieval buildings",
+          "width": 4000,
+          "height": 3000,
+          "size": 3874006,
+          "timestamp": "2020-05-26T12:30:21Z",
+          "author": "HHParis",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/P%C3%A9zenas_120622_Hotel-Lacoste-in-P%C3%A9zenas.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AP%C3%A9zenas%20120622%20Hotel-Lacoste-in-P%C3%A9zenas.jpg",
+          "title": "Pézenas 120622 Hotel-Lacoste-in-Pézenas.jpg",
+          "description": "Treppenhaus des Hotel Lacoste in Pézenas. Hier übernachtete Ludwig XIV. während seines Aufenthalts in Pézenas.",
+          "width": 2600,
+          "height": 1733,
+          "size": 4002687,
+          "timestamp": "2022-09-08T12:04:14Z",
+          "author": "Hps-poll www.reserv-art.de",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Porte Faugères",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/P%C3%A9zenas_-_porte_Faug%C3%A8res_-_btv1b10661043h.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AP%C3%A9zenas%20-%20porte%20Faug%C3%A8res%20-%20btv1b10661043h.jpg",
-          "title": "Pézenas - porte Faugères - btv1b10661043h.jpg",
-          "width": 1830,
-          "height": 2181,
-          "size": 674346,
-          "timestamp": "2025-03-20T09:50:58Z",
-          "author": "<div class=\"fn value\">\nFabre, Albert (1845-1919). Graveur</div>",
-          "license": "Public domain",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Porte_Faug%C3%A8res.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APorte%20Faug%C3%A8res.jpg",
-          "title": "Porte Faugères.jpg",
-          "width": 3000,
-          "height": 4000,
-          "size": 4068794,
-          "timestamp": "2017-12-27T22:10:25Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/P%C3%A9zenas_portes_rue_de_la_Foire.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AP%C3%A9zenas%20portes%20rue%20de%20la%20Foire.jpg",
+          "title": "Pézenas portes rue de la Foire.jpg",
+          "description": "Pézenas, historic dowtown, medieval architecture, doors of Hôtel de Landes de Saint-Palais in rue de la Foire",
+          "width": 4000,
+          "height": 3000,
+          "size": 4089783,
+          "timestamp": "2020-05-26T12:14:18Z",
           "author": "HHParis",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/P%C3%A9zenas_-_Porte_biaise_-230.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AP%C3%A9zenas%20-%20Porte%20biaise%20-230.jpg",
-          "title": "Pézenas - Porte biaise -230.jpg",
-          "width": 2252,
-          "height": 2830,
-          "size": 1766301,
-          "timestamp": "2011-05-27T07:48:38Z",
-          "author": "MOSSOT",
-          "license": "CC BY 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Mus%C3%A9e_P%C3%A9zenas_-_Port_de_p%C3%AAche.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e%20P%C3%A9zenas%20-%20Port%20de%20p%C3%AAche.jpg",
+          "title": "Musée Pézenas - Port de pêche.jpg",
+          "description": "Port de pêche par temps calme. Aquarelle, auteur inconnu. École française XVIIIe siècle.",
+          "width": 4272,
+          "height": 2848,
+          "size": 5538124,
+          "timestamp": "2019-11-22T16:11:28Z",
+          "author": "<div class=\"fn value\">\n<table cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><td><a href=\"https://www.wikidata.org/wiki/Q4233718\" class=\"extiw\" title=\"d:Q4233718\"><span title='unknown creator of a work (do not use as value of P50; use \"unknown value\" instead)'>anonymous</span></a></td><td valign=\"top\"> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q106346752#P170\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png\" decoding=\"async\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></td></tr></tbody></table></div>",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 6
         }
       ]
     },

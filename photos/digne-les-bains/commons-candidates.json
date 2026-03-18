@@ -1,12 +1,13 @@
 {
   "slug": "digne-les-bains",
   "nom": "Digne-les-Bains",
-  "fetchedAt": "2026-03-13T00:53:05.395Z",
+  "fetchedAt": "2026-03-16T12:43:36.969Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Plaque_hommage_3e_bataillon_%C3%A0_Digne_%281914%29.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlaque%20hommage%203e%20bataillon%20%C3%A0%20Digne%20(1914).JPG",
       "title": "Plaque hommage 3e bataillon à Digne (1914).JPG",
+      "description": "Plaque hommage 3e bataillon à Digne (1914) : sur la mairie de la ville.",
       "width": 2469,
       "height": 1755,
       "size": 4452281,
@@ -17,44 +18,104 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Ravin_de_Richelme%2C_versant_gauche_-_Aubert_-_btv1b10684997f.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARavin%20de%20Richelme%2C%20versant%20gauche%20-%20Aubert%20-%20btv1b10684997f.jpg",
-      "title": "Ravin de Richelme, versant gauche - Aubert - btv1b10684997f.jpg",
-      "width": 3780,
-      "height": 3016,
-      "size": 1200099,
-      "timestamp": "2025-02-23T19:16:14Z",
-      "author": "<div class=\"fn value\">\nAubert, agent public de l'inspection des eaux et forêts</div>",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Vall%C3%A9e_de_la_Bl%C3%A9one_%28vue_de_la_Bl%C3%A9one_en_aval_de_digne-les-bains%29_-_Trotabas_-_btv1b10685011c.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVall%C3%A9e%20de%20la%20Bl%C3%A9one%20(vue%20de%20la%20Bl%C3%A9one%20en%20aval%20de%20digne-les-bains)%20-%20Trotabas%20-%20btv1b10685011c.jpg",
+      "title": "Vallée de la Bléone (vue de la Bléone en aval de digne-les-bains) - Trotabas - btv1b10685011c.jpg",
+      "description": "Photographie en noir et blanc de la restauration des terrains en montagne. \nMots-clés : Vallées ; Digne (Alpes-de-Haute-Provence, France ; région) ; Alpes-de-Haute-Provence (France)",
+      "width": 3936,
+      "height": 2671,
+      "size": 1028588,
+      "timestamp": "2025-03-07T03:11:56Z",
+      "author": "<div class=\"fn value\">\nTrotabas, agent public de l'inspection des eaux et forêts</div>",
       "license": "Public domain",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Ravin_du_pas_de_Tartonne_%28barre_des_Dourbes_et_ravin%2C_barrages_rustiques_construits_en_1895%29_-_Aubert_-_btv1b107001469.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARavin%20du%20pas%20de%20Tartonne%20(barre%20des%20Dourbes%20et%20ravin%2C%20barrages%20rustiques%20construits%20en%201895)%20-%20Aubert%20-%20btv1b107001469.jpg",
-      "title": "Ravin du pas de Tartonne (barre des Dourbes et ravin, barrages rustiques construits en 1895) - Aubert - btv1b107001469.jpg",
-      "width": 4035,
-      "height": 3224,
-      "size": 1452805,
-      "timestamp": "2025-02-25T03:16:12Z",
-      "author": "<div class=\"fn value\">\nAubert, agent public de l'inspection des eaux et forêts</div>",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/March%C3%A9_de_Digne_les_Bains.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarch%C3%A9%20de%20Digne%20les%20Bains.jpg",
+      "title": "Marché de Digne les Bains.jpg",
+      "description": "Provencal Digne les Bains summer market, Alpes de Haute Provence, France",
+      "width": 3072,
+      "height": 2041,
+      "size": 5231952,
+      "timestamp": "2016-06-15T14:55:19Z",
+      "author": "Larid1804",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 6
     }
   ],
   "lieux": [
     {
       "label": "Place du Général-de-Gaulle",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Panorama_Digne-les-Bains.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanorama%20Digne-les-Bains.jpg",
+          "title": "Panorama Digne-les-Bains.jpg",
+          "description": "Panorama of Digne-les-Bains (France).",
+          "width": 12622,
+          "height": 3378,
+          "size": 21251291,
+          "timestamp": "2016-03-15T00:43:27Z",
+          "author": "Ianaré Sévi",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Fontaines_G%C3%A9oparc_Mus%C3%A9e_Digne.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFontaines%20G%C3%A9oparc%20Mus%C3%A9e%20Digne.jpg",
+          "title": "Fontaines Géoparc Musée Digne.jpg",
+          "description": "fontaines Géoparc Musée promenade, Digne-les-Bains (04), France",
+          "width": 4320,
+          "height": 3240,
+          "size": 5807616,
+          "timestamp": "2023-10-26T22:37:33Z",
+          "author": "Wisi eu",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/La_place_de_la_gare_de_Digne-les-Bains_avec_le_b%C3%A2timent_voyageurs_principal_et_un_autocar_arr%C3%AAt%C3%A9_devant_la_gare.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20place%20de%20la%20gare%20de%20Digne-les-Bains%20avec%20le%20b%C3%A2timent%20voyageurs%20principal%20et%20un%20autocar%20arr%C3%AAt%C3%A9%20devant%20la%20gare.jpg",
+          "title": "La place de la gare de Digne-les-Bains avec le bâtiment voyageurs principal et un autocar arrêté devant la gare.jpg",
+          "description": "La place de la gare de Digne-les-Bains avec le bâtiment voyageurs principal et un autocar arrêté devant la gare.",
+          "width": 5934,
+          "height": 3955,
+          "size": 4007447,
+          "timestamp": "2024-07-07T23:10:12Z",
+          "author": "Remontees",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Cathédrale Saint-Jérôme",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Vue_cavali%C3%A8re_-_entr%C3%A9e_de_digne_les_bains.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20cavali%C3%A8re%20-%20entr%C3%A9e%20de%20digne%20les%20bains.jpg",
+          "title": "Vue cavalière - entrée de digne les bains.jpg",
+          "description": "vue de la ville préfecture de digne les bains (04) en entrée de ville, en venant de la \"traversante\", direction Nice, longeant la RN85",
+          "width": 3264,
+          "height": 4896,
+          "size": 4098367,
+          "timestamp": "2015-11-03T10:59:44Z",
+          "author": "Grégory ROOSE",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Digne-les-Bains_Cath%C3%A9drale_Saint-J%C3%A9r%C3%B4me_Ext%C3%A9rieure_Facade_1.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADigne-les-Bains%20Cath%C3%A9drale%20Saint-J%C3%A9r%C3%B4me%20Ext%C3%A9rieure%20Facade%201.jpg",
           "title": "Digne-les-Bains Cathédrale Saint-Jérôme Extérieure Facade 1.jpg",
+          "description": "Facade of the Cathedral of St. Jerome, Digne-les-Bains, Department of Alpes-de-Haute-Provence, Region of Provence-Alpes-Côte d'Azur, France",
           "width": 5038,
           "height": 3878,
           "size": 2224226,
@@ -68,22 +129,10 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Digne-les-Bains_Cath%C3%A9drale_Saint-J%C3%A9r%C3%B4me_Ext%C3%A9rieure_Facade_2.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADigne-les-Bains%20Cath%C3%A9drale%20Saint-J%C3%A9r%C3%B4me%20Ext%C3%A9rieure%20Facade%202.jpg",
           "title": "Digne-les-Bains Cathédrale Saint-Jérôme Extérieure Facade 2.jpg",
+          "description": "Facade of the Cathedral of St. Jerome, Digne-les-Bains, Department of Alpes-de-Haute-Provence, Region of Provence-Alpes-Côte d'Azur, France",
           "width": 5018,
           "height": 3762,
           "size": 6740125,
-          "timestamp": "2025-07-02T19:18:07Z",
-          "author": "Zairon",
-          "license": "CC BY 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Digne-les-Bains_Cath%C3%A9drale_Saint-J%C3%A9r%C3%B4me_Ext%C3%A9rieure_Clocher.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADigne-les-Bains%20Cath%C3%A9drale%20Saint-J%C3%A9r%C3%B4me%20Ext%C3%A9rieure%20Clocher.jpg",
-          "title": "Digne-les-Bains Cathédrale Saint-Jérôme Extérieure Clocher.jpg",
-          "width": 5180,
-          "height": 3884,
-          "size": 5380947,
           "timestamp": "2025-07-02T19:18:07Z",
           "author": "Zairon",
           "license": "CC BY 4.0",
@@ -96,66 +145,10 @@
       "label": "Musée Gassendi",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Jean_Caire_-_A_Barcelonnette.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJean%20Caire%20-%20A%20Barcelonnette.jpg",
-          "title": "Jean Caire - A Barcelonnette.jpg",
-          "width": 2728,
-          "height": 1525,
-          "size": 1775877,
-          "timestamp": "2017-10-22T14:45:57Z",
-          "author": "JoJan",
-          "license": "Public domain",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Mus%C3%A9e_Gassendi%2C_River_of_Earth_-_dsmm00314.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e%20Gassendi%2C%20River%20of%20Earth%20-%20dsmm00314.jpg",
-          "title": "Musée Gassendi, River of Earth - dsmm00314.jpg",
-          "width": 4719,
-          "height": 3087,
-          "size": 11997214,
-          "timestamp": "2019-06-07T14:40:19Z",
-          "author": "Pmau",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Ponson-calanque_de_Sormion.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APonson-calanque%20de%20Sormion.JPG",
-          "title": "Ponson-calanque de Sormion.JPG",
-          "width": 2244,
-          "height": 1318,
-          "size": 659672,
-          "timestamp": "2013-06-15T20:57:16Z",
-          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q3419511\" class=\"extiw\" title=\"d:Q3419511\"><span title=\"French painter (1835-1904)\">Raphaël Luc Ponson</span></a></bdi>",
-          "license": "Public domain",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        }
-      ]
-    },
-    {
-      "label": "Maison Alexandra David-Néel",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Maison_d%27Alexandra_David_Neel_%2804000_Digne-les-Bains%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison%20d'Alexandra%20David%20Neel%20(04000%20Digne-les-Bains).jpg",
-          "title": "Maison d'Alexandra David Neel (04000 Digne-les-Bains).jpg",
-          "width": 4608,
-          "height": 2592,
-          "size": 4420026,
-          "timestamp": "2020-09-30T15:31:11Z",
-          "author": "MERLEJP",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Maison-mus%C3%A9e_d%27Alexandra_David_Nee_%C3%A0_Digne-les-Bains_%28Alpes_de_Haute_Provence%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison-mus%C3%A9e%20d'Alexandra%20David%20Nee%20%C3%A0%20Digne-les-Bains%20(Alpes%20de%20Haute%20Provence).jpg",
           "title": "Maison-musée d'Alexandra David Nee à Digne-les-Bains (Alpes de Haute Provence).jpg",
+          "description": "Maison d'Alexandra David-Neel",
           "width": 4608,
           "height": 2592,
           "size": 4163320,
@@ -166,17 +159,79 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Costume_de_cantatrice.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACostume%20de%20cantatrice.jpg",
-          "title": "Costume de cantatrice.jpg",
-          "width": 2736,
-          "height": 3648,
-          "size": 3230519,
-          "timestamp": "2020-09-06T12:50:25Z",
-          "author": "Mogen11",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Fontaines_G%C3%A9oparc_Mus%C3%A9e_Digne.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFontaines%20G%C3%A9oparc%20Mus%C3%A9e%20Digne.jpg",
+          "title": "Fontaines Géoparc Musée Digne.jpg",
+          "description": "fontaines Géoparc Musée promenade, Digne-les-Bains (04), France",
+          "width": 4320,
+          "height": 3240,
+          "size": 5807616,
+          "timestamp": "2023-10-26T22:37:33Z",
+          "author": "Wisi eu",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Mus%C3%A9e_d%27art_centre_CAIRN_-_Digne_les_bains.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e%20d'art%20centre%20CAIRN%20-%20Digne%20les%20bains.JPG",
+          "title": "Musée d'art centre CAIRN - Digne les bains.JPG",
+          "description": "Musée centre d'art CAIRN, situé dans le Géoparc de Digne les Bains",
+          "width": 4896,
+          "height": 3264,
+          "size": 10312464,
+          "timestamp": "2015-11-03T10:59:45Z",
+          "author": "Grégory ROOSE",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
+        }
+      ]
+    },
+    {
+      "label": "Maison Alexandra David-Néel",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Evian-les-Bains_%28Haute-Savoie%29_%2810004673326%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEvian-les-Bains%20(Haute-Savoie)%20(10004673326).jpg",
+          "title": "Evian-les-Bains (Haute-Savoie) (10004673326).jpg",
+          "description": "Le Casino.\nLa création du Casino s'inscrit dans un programme d'aménageant de la Société des Eaux d'Evian: établissement thermal, hôtel luxueux, golf, etc.\nEn 1877, le baron Louis Ennemont de Blonay, maire de la ville, lègue à la communeson château familial aux fins d'établir une \"maison de jeux\" digne de ce nom.\nC'est l'architecte Jean-Albert Hébrard , également architecte de l'Hôtel Royal, qui donnera au casino, reconstruit en 1911, l'aspect \"byzantin\" que l'on voit aujourd'hui.\nThe Casino.\nThe",
+          "width": 4928,
+          "height": 3264,
+          "size": 5896270,
+          "timestamp": "2017-11-27T13:29:00Z",
+          "author": "Daniel Jolivet",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Evian-les-Bains_%28Haute-Savoie%29_%2810004749413%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEvian-les-Bains%20(Haute-Savoie)%20(10004749413).jpg",
+          "title": "Evian-les-Bains (Haute-Savoie) (10004749413).jpg",
+          "description": "Le Casino.\nLa création du Casino s'inscrit dans un programme d'aménageant de la Société des Eaux d'Evian: établissement thermal, hôtel luxueux, golf, etc.\nEn 1877, le baron Louis Ennemont de Blonay, maire de la ville, lègue à la communeson château familial aux fins d'établir une \"maison de jeux\" digne de ce nom.\nC'est l'architecte Jean-Albert Hébrard , également architecte de l'Hôtel Royal, qui donnera au casino, reconstruit en 1911, l'aspect \"byzantin\" que l'on voit aujourd'hui.\nThe Casino.\nThe",
+          "width": 4928,
+          "height": 3264,
+          "size": 5458804,
+          "timestamp": "2017-11-27T13:29:05Z",
+          "author": "Daniel Jolivet",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Evian-les-Bains_%28Haute-Savoie%29_%2810004966976%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEvian-les-Bains%20(Haute-Savoie)%20(10004966976).jpg",
+          "title": "Evian-les-Bains (Haute-Savoie) (10004966976).jpg",
+          "description": "Le Casino.\nLa création du Casino s'inscrit dans un programme d'aménageant de la Société des Eaux d'Evian: établissement thermal, hôtel luxueux, golf, etc.\nEn 1877, le baron Louis Ennemont de Blonay, maire de la ville, lègue à la communeson château familial aux fins d'établir une \"maison de jeux\" digne de ce nom.\nC'est l'architecte Jean-Albert Hébrard , également architecte de l'Hôtel Royal, qui donnera au casino, reconstruit en 1911, l'aspect \"byzantin\" que l'on voit aujourd'hui.\nThe Casino.\nThe",
+          "width": 4928,
+          "height": 3264,
+          "size": 6497428,
+          "timestamp": "2017-11-27T13:30:11Z",
+          "author": "Daniel Jolivet",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
         }
       ]
     },
@@ -187,6 +242,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Digne-les-Bains_Dalle_%C3%A0_Ammonites_1.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADigne-les-Bains%20Dalle%20%C3%A0%20Ammonites%201.jpg",
           "title": "Digne-les-Bains Dalle à Ammonites 1.jpg",
+          "description": "Ammonites Slab, Digne-les-Bains, Department of Alpes-de-Haute-Provence, Region of Provence-Alpes-Côte d'Azur, France",
           "width": 5184,
           "height": 3888,
           "size": 11568237,
@@ -200,6 +256,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Digne-les-Bains_Dalle_%C3%A0_Ammonites_3.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADigne-les-Bains%20Dalle%20%C3%A0%20Ammonites%203.jpg",
           "title": "Digne-les-Bains Dalle à Ammonites 3.jpg",
+          "description": "Ammonites Slab, Digne-les-Bains, Department of Alpes-de-Haute-Provence, Region of Provence-Alpes-Côte d'Azur, France",
           "width": 5184,
           "height": 3888,
           "size": 12916754,
@@ -213,6 +270,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Digne-les-Bains_Dalle_%C3%A0_Ammonites_2.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADigne-les-Bains%20Dalle%20%C3%A0%20Ammonites%202.jpg",
           "title": "Digne-les-Bains Dalle à Ammonites 2.jpg",
+          "description": "Ammonites Slab, Digne-les-Bains, Department of Alpes-de-Haute-Provence, Region of Provence-Alpes-Côte d'Azur, France",
           "width": 5184,
           "height": 3888,
           "size": 12623653,
@@ -226,7 +284,50 @@
     },
     {
       "label": "Plan d’eau des Ferréols",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Plan_et_perspective_des_Bains_de_Digne_-_btv1b71006948_%281_of_3%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlan%20et%20perspective%20des%20Bains%20de%20Digne%20-%20btv1b71006948%20(1%20of%203).jpg",
+          "title": "Plan et perspective des Bains de Digne - btv1b71006948 (1 of 3).jpg",
+          "description": "Sujet : Plan\nObjectifs militaires\nDigne-les-Bains\nAncien possesseur : Paulmy, Antoine-René de Voyer d'Argenson marquis de (1722-1787). Ancien possesseur\nÉchelle(s) : Echelle de 10 toises [= 13,2 cm]\nCouverture : France – Provence-Alpes-Côte-d'Azur – Alpes-de-Haute-Provence\nLangue : français\n\nfrançais",
+          "width": 10530,
+          "height": 5087,
+          "size": 6006694,
+          "timestamp": "2022-07-01T10:17:42Z",
+          "author": "Inconnu",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Plan_et_perspective_des_Bains_de_Digne_-_btv1b71006948_%282_of_3%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlan%20et%20perspective%20des%20Bains%20de%20Digne%20-%20btv1b71006948%20(2%20of%203).jpg",
+          "title": "Plan et perspective des Bains de Digne - btv1b71006948 (2 of 3).jpg",
+          "description": "Sujet : Plan\nObjectifs militaires\nDigne-les-Bains\nAncien possesseur : Paulmy, Antoine-René de Voyer d'Argenson marquis de (1722-1787). Ancien possesseur\nÉchelle(s) : Echelle de 10 toises [= 13,2 cm]\nCouverture : France – Provence-Alpes-Côte-d'Azur – Alpes-de-Haute-Provence\nLangue : français\n\nfrançais",
+          "width": 10630,
+          "height": 7559,
+          "size": 7007317,
+          "timestamp": "2022-07-01T10:18:04Z",
+          "author": "Inconnu",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Plan_et_perspective_des_Bains_de_Digne_-_btv1b71006948_%283_of_3%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlan%20et%20perspective%20des%20Bains%20de%20Digne%20-%20btv1b71006948%20(3%20of%203).jpg",
+          "title": "Plan et perspective des Bains de Digne - btv1b71006948 (3 of 3).jpg",
+          "description": "Sujet : Plan\nObjectifs militaires\nDigne-les-Bains\nAncien possesseur : Paulmy, Antoine-René de Voyer d'Argenson marquis de (1722-1787). Ancien possesseur\nÉchelle(s) : Echelle de 10 toises [= 13,2 cm]\nCouverture : France – Provence-Alpes-Côte-d'Azur – Alpes-de-Haute-Provence\nLangue : français\n\nfrançais",
+          "width": 10630,
+          "height": 5273,
+          "size": 3301337,
+          "timestamp": "2022-07-01T10:18:19Z",
+          "author": "Inconnu",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

@@ -1,44 +1,47 @@
 {
   "slug": "aubazine",
   "nom": "Aubazine",
-  "fetchedAt": "2026-03-13T12:07:32.787Z",
+  "fetchedAt": "2026-03-15T15:16:26.652Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Sa-DSCF5359-gimel-buvette.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASa-DSCF5359-gimel-buvette.jpg",
-      "title": "Sa-DSCF5359-gimel-buvette.jpg",
-      "width": 4608,
-      "height": 2592,
-      "size": 4353814,
-      "timestamp": "2020-07-25T08:38:49Z",
-      "author": "Eggvert",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Aubazine_10.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAubazine%2010.jpg",
+      "title": "Aubazine 10.jpg",
+      "description": "Panorama du village.",
+      "width": 5065,
+      "height": 2925,
+      "size": 9237666,
+      "timestamp": "2018-11-15T09:28:08Z",
+      "author": "René Hourdry",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 8
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/ISS047-E-82193_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS047-E-82193%20-%20View%20of%20Earth.jpg",
-      "title": "ISS047-E-82193 - View of Earth.jpg",
-      "width": 4928,
-      "height": 3280,
-      "size": 2062493,
-      "timestamp": "2021-03-24T05:49:36Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/France_NA_19_Aubazines_03.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20NA%2019%20Aubazines%2003.jpg",
+      "title": "France NA 19 Aubazines 03.jpg",
+      "description": "Aubazines",
+      "width": 6016,
+      "height": 4016,
+      "size": 9359132,
+      "timestamp": "2020-03-15T13:43:01Z",
+      "author": "Calips",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/ISS041-E-66368_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS041-E-66368%20-%20View%20of%20Earth.jpg",
-      "title": "ISS041-E-66368 - View of Earth.jpg",
-      "width": 4256,
-      "height": 2832,
-      "size": 2566264,
-      "timestamp": "2021-08-12T20:29:58Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Aubazines%2C_canal_des_moines_01.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAubazines%2C%20canal%20des%20moines%2001.jpg",
+      "title": "Aubazines, canal des moines 01.jpg",
+      "description": "The construction of the canal, by the monks of Cistercian Abbey of Aubazine, begins in the year 1142",
+      "width": 4896,
+      "height": 3672,
+      "size": 8187304,
+      "timestamp": "2020-09-08T09:08:21Z",
+      "author": "Celeda",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     }
@@ -46,28 +49,31 @@
   "lieux": [
     {
       "label": "Cloître d’Aubazine",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Abbaye_%28ancienne%29_-_Clo%C3%AEtre_-_Aubazines_-_M%C3%A9diath%C3%A8que_de_l%27architecture_et_du_patrimoine_-_APMH00036531.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20(ancienne)%20-%20Clo%C3%AEtre%20-%20Aubazines%20-%20M%C3%A9diath%C3%A8que%20de%20l'architecture%20et%20du%20patrimoine%20-%20APMH00036531.jpg",
+          "title": "Abbaye (ancienne) - Cloître - Aubazines - Médiathèque de l'architecture et du patrimoine - APMH00036531.jpg",
+          "description": "Cloître.",
+          "width": 669,
+          "height": 512,
+          "size": 56532,
+          "timestamp": "2020-05-03T11:12:58Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q26690111\" class=\"extiw\" title=\"d:Q26690111\"><span title=\"French architect (1847-1919)\">Henri Chaine</span></a></bdi>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     },
     {
       "label": "Église abbatiale",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/France_NA_19_Aubazines_04.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20NA%2019%20Aubazines%2004.jpg",
-          "title": "France NA 19 Aubazines 04.jpg",
-          "width": 6016,
-          "height": 4016,
-          "size": 8984421,
-          "timestamp": "2020-03-15T13:43:05Z",
-          "author": "Calips",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/France_NA_19_Aubazines_05.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20NA%2019%20Aubazines%2005.jpg",
           "title": "France NA 19 Aubazines 05.jpg",
+          "description": "Abbaye d'Aubazine",
           "width": 6016,
           "height": 4016,
           "size": 8024849,
@@ -78,65 +84,98 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Abbaye_d%27Aubazine_Info.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20d'Aubazine%20Info.jpg",
-          "title": "Abbaye d'Aubazine Info.jpg",
-          "width": 4864,
-          "height": 3648,
-          "size": 9330176,
-          "timestamp": "2020-10-19T19:47:09Z",
-          "author": "Akiramifune",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Aubazine-_Corr%C3%A8ze-_France_%2850381359501%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAubazine-%20Corr%C3%A8ze-%20France%20(50381359501).jpg",
+          "title": "Aubazine- Corrèze- France (50381359501).jpg",
+          "description": "Aubazines (avec s ou sans s).\nL'église abbatiale d' Aubazine commencée en 1156 fut l'une des plus grandes églises du Limousin.\n\nLe clocher-mur limousin comporte un pignon triangulaire percé de 3 baies pour les cloches.",
+          "width": 6002,
+          "height": 4675,
+          "size": 5308698,
+          "timestamp": "2021-08-23T02:14:57Z",
+          "author": "Globetrotteur17... Ici, là-bas ou ailleurs...",
+          "license": "CC BY-SA 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Aubazines_abbatiale_%281%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAubazines%20abbatiale%20(1).JPG",
+          "title": "Aubazines abbatiale (1).JPG",
+          "description": "L'église abbatiale d'Aubazine vue du sud-ouest, Corrèze, France",
+          "width": 3264,
+          "height": 2448,
+          "size": 3940895,
+          "timestamp": "2009-12-06T11:32:11Z",
+          "author": "Père Igor",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
         }
       ]
     },
     {
       "label": "Salle capitulaire",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Abbaye_%28ancienne%29_-_Salle_capitulaire_-_Aubazines_-_M%C3%A9diath%C3%A8que_de_l%27architecture_et_du_patrimoine_-_APMH00033264.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20(ancienne)%20-%20Salle%20capitulaire%20-%20Aubazines%20-%20M%C3%A9diath%C3%A8que%20de%20l'architecture%20et%20du%20patrimoine%20-%20APMH00033264.jpg",
+          "title": "Abbaye (ancienne) - Salle capitulaire - Aubazines - Médiathèque de l'architecture et du patrimoine - APMH00033264.jpg",
+          "description": "Salle capitulaire.",
+          "width": 721,
+          "height": 512,
+          "size": 81736,
+          "timestamp": "2020-04-30T12:56:45Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Camille_Enlart\" class=\"extiw\" title=\"w:en:Camille Enlart\"><span title=\"French art historian and photographer (1862-1927)\">Camille Enlart</span></a></bdi>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     },
     {
       "label": "Canal des moines",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Ecrevisse_attrap%C3%A9e_dans_le_Canal_des_Moines.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEcrevisse%20attrap%C3%A9e%20dans%20le%20Canal%20des%20Moines.jpg",
-          "title": "Ecrevisse attrapée dans le Canal des Moines.jpg",
-          "width": 4021,
-          "height": 3017,
-          "size": 2175292,
-          "timestamp": "2021-05-03T08:20:02Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Aubazines%2C_canal_des_moines_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAubazines%2C%20canal%20des%20moines%2001.jpg",
+          "title": "Aubazines, canal des moines 01.jpg",
+          "description": "The construction of the canal, by the monks of Cistercian Abbey of Aubazine, begins in the year 1142",
+          "width": 4896,
+          "height": 3672,
+          "size": 8187304,
+          "timestamp": "2020-09-08T09:08:21Z",
           "author": "Celeda",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Aubazines%2C_canal_des_moines_05.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAubazines%2C%20canal%20des%20moines%2005.jpg",
-          "title": "Aubazines, canal des moines 05.jpg",
-          "width": 3672,
-          "height": 4896,
-          "size": 9066758,
-          "timestamp": "2020-09-08T09:08:24Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Aubazines%2C_canal_des_moines_03.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAubazines%2C%20canal%20des%20moines%2003.jpg",
+          "title": "Aubazines, canal des moines 03.jpg",
+          "description": "The construction of the canal, by the monks of Cistercian Abbey of Aubazine, begins in the year 1142",
+          "width": 3589,
+          "height": 4785,
+          "size": 4843909,
+          "timestamp": "2020-09-08T09:08:20Z",
           "author": "Celeda",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Le_canal_des_Moines_%C3%A0_Aubazines.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20canal%20des%20Moines%20%C3%A0%20Aubazines.JPG",
-          "title": "Le canal des Moines à Aubazines.JPG",
-          "width": 2896,
-          "height": 1944,
-          "size": 3709135,
-          "timestamp": "2012-09-12T21:05:49Z",
-          "author": "Nathalie Boudet",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Aubazines%2C_canal_des_moines_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAubazines%2C%20canal%20des%20moines%2002.jpg",
+          "title": "Aubazines, canal des moines 02.jpg",
+          "description": "The construction of the canal, by the monks of Cistercian Abbey of Aubazine, begins in the year 1142",
+          "width": 3672,
+          "height": 4896,
+          "size": 9011135,
+          "timestamp": "2020-09-08T09:08:20Z",
+          "author": "Celeda",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 6
         }
       ]
     }

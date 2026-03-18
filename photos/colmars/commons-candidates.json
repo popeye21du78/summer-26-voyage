@@ -1,12 +1,13 @@
 {
   "slug": "colmars",
   "nom": "Colmars",
-  "fetchedAt": "2026-03-13T13:51:23.925Z",
+  "fetchedAt": "2026-03-16T12:15:26.800Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Carte_postale_ancienne_%E2%80%93_Colmars-les-Alpes_%288418814435%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarte%20postale%20ancienne%20%E2%80%93%20Colmars-les-Alpes%20(8418814435).jpg",
       "title": "Carte postale ancienne – Colmars-les-Alpes (8418814435).jpg",
+      "description": "Carte postale ancienne du Haut-Verdon en haute définition et libre de droits",
       "width": 3425,
       "height": 2283,
       "size": 8390246,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Carte_postale_ancienne_%E2%80%93_Colmars-les-Alpes_%288419841726%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarte%20postale%20ancienne%20%E2%80%93%20Colmars-les-Alpes%20(8419841726).jpg",
       "title": "Carte postale ancienne – Colmars-les-Alpes (8419841726).jpg",
+      "description": "Carte postale ancienne du Haut-Verdon en haute définition et libre de droits",
       "width": 3425,
       "height": 2283,
       "size": 6854174,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Alpes_Haute_Provence_Colmars_Place_Girieud_Chapelle_13072013_-_panoramio.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlpes%20Haute%20Provence%20Colmars%20Place%20Girieud%20Chapelle%2013072013%20-%20panoramio.jpg",
       "title": "Alpes Haute Provence Colmars Place Girieud Chapelle 13072013 - panoramio.jpg",
+      "description": "Alpes Haute Provence Colmars Place Girieud Chapelle 13072013",
       "width": 1600,
       "height": 1200,
       "size": 609191,
@@ -46,55 +49,30 @@
   "lieux": [
     {
       "label": "Porte de France",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Rue_Porte_Neuve_-_V%C3%A9zelay_%28FR89%29_-_2021-05-17_-_1.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARue%20Porte%20Neuve%20-%20V%C3%A9zelay%20(FR89)%20-%202021-05-17%20-%201.jpg",
-          "title": "Rue Porte Neuve - Vézelay (FR89) - 2021-05-17 - 1.jpg",
-          "width": 4032,
-          "height": 3024,
-          "size": 6475715,
-          "timestamp": "2021-05-18T14:42:56Z",
-          "author": "Chabe01",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Rue_Porte_Neuve_-_V%C3%A9zelay_%28FR89%29_-_2021-05-17_-_2.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARue%20Porte%20Neuve%20-%20V%C3%A9zelay%20(FR89)%20-%202021-05-17%20-%202.jpg",
-          "title": "Rue Porte Neuve - Vézelay (FR89) - 2021-05-17 - 2.jpg",
-          "width": 4032,
-          "height": 3024,
-          "size": 7310568,
-          "timestamp": "2021-05-18T14:43:01Z",
-          "author": "Chabe01",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Rue_de_la_porte_neuve%2C%2C_c%C3%B4t%C3%A9_mairie.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARue%20de%20la%20porte%20neuve%2C%2C%20c%C3%B4t%C3%A9%20mairie.jpg",
-          "title": "Rue de la porte neuve,, côté mairie.jpg",
-          "width": 2084,
-          "height": 1563,
-          "size": 1407678,
-          "timestamp": "2023-01-04T13:19:07Z",
-          "author": "Espirat",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Fort de Savoie",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Colmars_les_Alpes%2C_Ensemble_Fortifi%C3%A9_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AColmars%20les%20Alpes%2C%20Ensemble%20Fortifi%C3%A9%2001.jpg",
+          "title": "Colmars les Alpes, Ensemble Fortifié 01.jpg",
+          "description": "Fort de France (au sud) à Colmars, Alpes de Haute-Provence, Provence-Alpes-Côte d'Azur, France",
+          "width": 4769,
+          "height": 3577,
+          "size": 4781038,
+          "timestamp": "2020-09-12T08:24:47Z",
+          "author": "Celeda",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Colmars_les_Alpes%2C_Ensemble_Fortifi%C3%A9_05.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AColmars%20les%20Alpes%2C%20Ensemble%20Fortifi%C3%A9%2005.jpg",
           "title": "Colmars les Alpes, Ensemble Fortifié 05.jpg",
+          "description": "Fort de Savoie, de l'ensemble fortifié de Colmars, Alpes de Haute-Provence, Provence-Alpes-Côte d'Azur, France",
           "width": 4896,
           "height": 3672,
           "size": 4583227,
@@ -108,23 +86,11 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Colmars_les_Alpes%2C_Ensemble_Fortifi%C3%A9_04.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AColmars%20les%20Alpes%2C%20Ensemble%20Fortifi%C3%A9%2004.jpg",
           "title": "Colmars les Alpes, Ensemble Fortifié 04.jpg",
+          "description": "Fort de Savoie (au nord) aujourd'hui appelé Fort Desaix, de l'ensemble fortifié de Colmars, Alpes de Haute-Provence, Provence-Alpes-Côte d'Azur, France",
           "width": 4896,
           "height": 3672,
           "size": 8931426,
           "timestamp": "2020-09-12T08:24:51Z",
-          "author": "Celeda",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Colmars_les_Alpes%2C_Ensemble_Fortifi%C3%A9_07.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AColmars%20les%20Alpes%2C%20Ensemble%20Fortifi%C3%A9%2007.jpg",
-          "title": "Colmars les Alpes, Ensemble Fortifié 07.jpg",
-          "width": 4896,
-          "height": 3672,
-          "size": 7719544,
-          "timestamp": "2020-09-12T08:24:54Z",
           "author": "Celeda",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -136,9 +102,24 @@
       "label": "Église Saint-Martin",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Colmars_les_Alpes%2C_%C3%A9glise_Saint_Martin.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AColmars%20les%20Alpes%2C%20%C3%A9glise%20Saint%20Martin.jpg",
+          "title": "Colmars les Alpes, église Saint Martin.jpg",
+          "description": "L'église de style gothique provençal ( entre l'art roman et gothique ) date du 17° siècle.",
+          "width": 4785,
+          "height": 3589,
+          "size": 6240509,
+          "timestamp": "2020-09-12T07:45:56Z",
+          "author": "Celeda",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/PICT7763_-_Colmars_%2826029584767%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APICT7763%20-%20Colmars%20(26029584767).jpg",
           "title": "PICT7763 - Colmars (26029584767).jpg",
+          "description": "COLMARS\nCOLMARS: Colmars\n\nAHP: D%c3%a9partement_Alpes-de-Haute-Provence",
           "width": 2000,
           "height": 1330,
           "size": 757913,
@@ -149,30 +130,18 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Colmar_-_Eglise_St-Martin_-_btv1b102227954.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AColmar%20-%20Eglise%20St-Martin%20-%20btv1b102227954.jpg",
-          "title": "Colmar - Eglise St-Martin - btv1b102227954.jpg",
-          "width": 1652,
-          "height": 1020,
-          "size": 357381,
-          "timestamp": "2025-02-28T19:57:41Z",
-          "author": "Inconnu",
-          "license": "Public domain",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/PICT7760_-_Colmars_%2840008408935%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APICT7760%20-%20Colmars%20(40008408935).jpg",
+          "title": "PICT7760 - Colmars (40008408935).jpg",
+          "description": "COLMARS\nCOLMARS: Colmars\n\nAHP: D%C3%A9partement_Alpes-de-Haute-Provence",
+          "width": 1330,
+          "height": 2000,
+          "size": 508373,
+          "timestamp": "2021-11-22T15:35:52Z",
+          "author": "Heribert Bechen, 5 million visits - many thanks!",
+          "license": "CC BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Colmar_-_Eglise_St-Martin_-_Les_trois_autels_du_choeur_-_btv1b10222798g.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AColmar%20-%20Eglise%20St-Martin%20-%20Les%20trois%20autels%20du%20choeur%20-%20btv1b10222798g.jpg",
-          "title": "Colmar - Eglise St-Martin - Les trois autels du choeur - btv1b10222798g.jpg",
-          "width": 1652,
-          "height": 1034,
-          "size": 375933,
-          "timestamp": "2025-03-13T15:53:51Z",
-          "author": "Inconnu",
-          "license": "Public domain",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 6
         }
       ]
     },

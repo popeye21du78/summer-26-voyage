@@ -1,12 +1,13 @@
 {
   "slug": "ambialet",
   "nom": "Ambialet",
-  "fetchedAt": "2026-03-12T23:43:52.738Z",
+  "fetchedAt": "2026-03-15T14:59:06.875Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Ambialet_-_Tarn_01.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAmbialet%20-%20Tarn%2001.jpg",
       "title": "Ambialet - Tarn 01.jpg",
+      "description": "Ambialet est une commune du Tarn située sur une presqu'ile dans un méandre du Tarn",
       "width": 6000,
       "height": 4000,
       "size": 9913618,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Ambialet_-_Tarn_04.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAmbialet%20-%20Tarn%2004.jpg",
       "title": "Ambialet - Tarn 04.jpg",
+      "description": "Ambialet est une commune du Tarn située sur une presqu'ile dans un méandre du Tarn",
       "width": 6000,
       "height": 4000,
       "size": 8390118,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Ambialet_-_Tarn_06.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAmbialet%20-%20Tarn%2006.jpg",
       "title": "Ambialet - Tarn 06.jpg",
+      "description": "Ambialet est une commune du Tarn située sur une presqu'ile dans un méandre du Tarn",
       "width": 6000,
       "height": 4000,
       "size": 12745307,
@@ -50,11 +53,69 @@
     },
     {
       "label": "Prieuré bénédictin",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Ambialet_prieur%C3%A9_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAmbialet%20prieur%C3%A9%201.jpg",
+          "title": "Ambialet prieuré 1.jpg",
+          "description": "Le prieuré d'Ambialet, Tarn",
+          "width": 2560,
+          "height": 1440,
+          "size": 1166944,
+          "timestamp": "2020-12-29T10:57:10Z",
+          "author": "Jcb-caz-11",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Ambialet_prieur%C3%A9_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAmbialet%20prieur%C3%A9%202.jpg",
+          "title": "Ambialet prieuré 2.jpg",
+          "description": "Vue générale, prieuré d'Ambialet",
+          "width": 2560,
+          "height": 1440,
+          "size": 1403625,
+          "timestamp": "2020-12-29T10:58:32Z",
+          "author": "Jcb-caz-11",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Prieur%C3%A9_Notre-Dame_de_l%27Oder_d%27Ambialet_03.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APrieur%C3%A9%20Notre-Dame%20de%20l'Oder%20d'Ambialet%2003.jpg",
+          "title": "Prieuré Notre-Dame de l'Oder d'Ambialet 03.jpg",
+          "description": "Prieuré Notre-Dame de l'Oder d'Ambialet ː édifice religieux situé à Ambialet",
+          "width": 6000,
+          "height": 4000,
+          "size": 13621562,
+          "timestamp": "2022-06-22T18:32:02Z",
+          "author": "Selmoval",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Pont de pierre sur le Tarn",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Ambialet_4.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAmbialet%204.jpg",
+          "title": "Ambialet 4.jpg",
+          "description": "Le pont sur le Tarn",
+          "width": 2560,
+          "height": 1440,
+          "size": 1054344,
+          "timestamp": "2020-12-29T10:42:19Z",
+          "author": "Jcb-caz-11",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

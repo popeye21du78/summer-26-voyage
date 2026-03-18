@@ -1,12 +1,13 @@
 {
   "slug": "plage-de-calais",
   "nom": "Plage de Calais",
-  "fetchedAt": "2026-03-14T10:54:34.699Z",
+  "fetchedAt": "2026-03-17T22:42:38.433Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/CalaisTour_01.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACalaisTour%2001.jpg",
       "title": "CalaisTour 01.jpg",
+      "description": "Tour du Guet, Calais, 2016.",
       "width": 5644,
       "height": 3762,
       "size": 13805855,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/CalaisTour_03.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACalaisTour%2003.jpg",
       "title": "CalaisTour 03.jpg",
+      "description": "Tour du Guet, Calais, 2016.",
       "width": 5187,
       "height": 3458,
       "size": 12095995,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/CalaisTour_02.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACalaisTour%2002.jpg",
       "title": "CalaisTour 02.jpg",
+      "description": "Tour du Guet, Calais, 2016.",
       "width": 6016,
       "height": 4016,
       "size": 18282741,
@@ -46,29 +49,130 @@
   "lieux": [
     {
       "label": "Cabines blanches du front de mer",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/WIMEREUX_Le_Grand_H%C3%B4tel_et_la_plage.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWIMEREUX%20Le%20Grand%20H%C3%B4tel%20et%20la%20plage.jpg",
+          "title": "WIMEREUX Le Grand Hôtel et la plage.jpg",
+          "description": "WIMEREUX - Grand Hôtel and the beach.\nBuilt at the end of nineteenth century, the “Grand Hotel” is part of the history of Wimereux. The building still have its original style: elevator, spacious corridors with parquets. Entrance hall with mosaic tiles.",
+          "width": 3272,
+          "height": 2112,
+          "size": 3003928,
+          "timestamp": "2018-02-19T20:15:17Z",
+          "author": "LL. Paris, c-à-d : Moyse Léon et Isaac Lévy, Côté correspondance : ajout mention Imprimerie Nouvelle Photographique - Paris-",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Les_cabines_du_Touquet_Paris-Plage.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20cabines%20du%20Touquet%20Paris-Plage.jpg",
+          "title": "Les cabines du Touquet Paris-Plage.jpg",
+          "description": "Le Touquet-Paris-Plage est une commune française située dans le département du Pas-de-Calais, en région Hauts-de-France.\nSituée sur la Côte d'Opale, au sud de Boulogne-sur-Mer, au bord de la Manche et à l'embouchure de la Canche, cette station balnéaire de 4 285 habitants accueille jusqu'à 250 000 personnes l'été. Couramment nommée « Arcachon du Nord », « Jardin de la Manche », « Perle de la Côte d'Opale », « Paradis des sports » ou « Station des quatre saisons », elle bénéficie d'une très vaste",
+          "width": 3872,
+          "height": 2592,
+          "size": 5344441,
+          "timestamp": "2018-09-19T12:26:20Z",
+          "author": "SimonCourtecuisse",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Calais_plage_cabines.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACalais%20plage%20cabines.jpg",
+          "title": "Calais plage cabines.jpg",
+          "description": "Cabines de plage à Calais.",
+          "width": 3500,
+          "height": 1705,
+          "size": 5855199,
+          "timestamp": "2014-05-27T22:21:08Z",
+          "author": "Velvet",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Blockhaus dans les dunes",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Le_Touquet_sud_%E2%80%98le_domaine_des_dunes_blockhaus.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Touquet%20sud%20%E2%80%98le%20domaine%20des%20dunes%20blockhaus.jpg",
-          "title": "Le Touquet sud ‘le domaine des dunes blockhaus.jpg",
-          "width": 762,
-          "height": 465,
-          "size": 128064,
-          "timestamp": "2021-03-06T13:25:37Z",
-          "author": "Dr Dobeaucoup",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Le_Ch%E2%80%99ti_Blockhaus_sur_la_plage_d%E2%80%99Audresselles.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Ch%E2%80%99ti%20Blockhaus%20sur%20la%20plage%20d%E2%80%99Audresselles.jpg",
+          "title": "Le Ch’ti Blockhaus sur la plage d’Audresselles.jpg",
+          "description": "Le Ch’ti Blockhaus sur la plage dAudresselles (Pas-de-Calais) –",
+          "width": 4267,
+          "height": 2818,
+          "size": 2253936,
+          "timestamp": "2022-08-21T09:35:42Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q97949455\" class=\"extiw\" title=\"d:Q97949455\"><span title=\"French photographer and Wikimedian\">Pierre André Leclercq</span></a></bdi>",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Sangatte-Bl%C3%A9riot-Plage_en_2019.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASangatte-Bl%C3%A9riot-Plage%20en%202019.jpg",
+          "title": "Sangatte-Blériot-Plage en 2019.jpg",
+          "description": "Les dunes du fort Mahon  Sangatte-Blériot-Plage,",
+          "width": 4896,
+          "height": 3672,
+          "size": 5982623,
+          "timestamp": "2019-05-21T09:56:16Z",
+          "author": "Pierre André Leclercq",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
         }
       ]
     },
     {
       "label": "Digue et chenal du port",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Boulogne-sur-Mer_le_Port_et_la_plage_%28cropped%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABoulogne-sur-Mer%20le%20Port%20et%20la%20plage%20(cropped).JPG",
+          "title": "Boulogne-sur-Mer le Port et la plage (cropped).JPG",
+          "description": "L'aquarium Nausicaà Centre National de la Mer à Boulogne-sur-Mer,  Pas-de-Calais, Hauts-de-France",
+          "width": 2320,
+          "height": 1616,
+          "size": 1870023,
+          "timestamp": "2023-04-24T15:45:32Z",
+          "author": "Pierre André",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Boulogne-sur-Mer_%28le_casino%2C_la_plage%2C_la_jet%C3%A9e_et_la_digue%29_-_btv1b531539673.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABoulogne-sur-Mer%20(le%20casino%2C%20la%20plage%2C%20la%20jet%C3%A9e%20et%20la%20digue)%20-%20btv1b531539673.jpg",
+          "title": "Boulogne-sur-Mer (le casino, la plage, la jetée et la digue) - btv1b531539673.jpg",
+          "description": "Sujet : Plages -- Boulogne-sur-Mer (Pas-de-Calais, France)\nJetées -- Boulogne-sur-Mer (Pas-de-Calais, France)\nPorts -- Boulogne-sur-Mer (Pas-de-Calais, France)\nBoulogne-sur-Mer (Pas-de-Calais, France)\nCasino municipal (Boulogne-sur-Mer, Pas-de-Calais)\nRéférence bibliographique : Rol, 103960\nAppartient à l’ensemble documentaire : Pho20Rol\nAppartient à l’ensemble documentaire : NordPdeC1\nImage de presse\nCouverture : .. août 1925\n\nLangue : français",
+          "width": 8631,
+          "height": 6262,
+          "size": 6238404,
+          "timestamp": "2025-02-28T14:04:53Z",
+          "author": "<div class=\"fn value\">\nAgence Rol. Agence photographique (commanditaire)</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Boulogne-sur-Mer_le_Port_et_la_plage.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABoulogne-sur-Mer%20le%20Port%20et%20la%20plage.JPG",
+          "title": "Boulogne-sur-Mer le Port et la plage.JPG",
+          "description": "Les jetées du port de et leurs phares, le port et la plage de Boulogne-sur-Mer   Pas-de-Calais Hauts-de-France",
+          "width": 4765,
+          "height": 2770,
+          "size": 2024123,
+          "timestamp": "2017-09-25T09:41:24Z",
+          "author": "Pierre André",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

@@ -1,12 +1,13 @@
 {
   "slug": "villecroze",
   "nom": "Villecroze",
-  "fetchedAt": "2026-03-14T14:36:29.218Z",
+  "fetchedAt": "2026-03-18T21:00:39.912Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/A_house_built_into_the_town_wall%2C_Villecroze%2C_Var%2C_Provence_-_Flickr_-_Spencer_Means.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AA%20house%20built%20into%20the%20town%20wall%2C%20Villecroze%2C%20Var%2C%20Provence%20-%20Flickr%20-%20Spencer%20Means.jpg",
       "title": "A house built into the town wall, Villecroze, Var, Provence - Flickr - Spencer Means.jpg",
+      "description": "A house built into the town wall, Villecroze, Var, Provence",
       "width": 3903,
       "height": 2819,
       "size": 3906209,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Cascade_Villecroze.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACascade%20Villecroze.jpg",
       "title": "Cascade Villecroze.jpg",
+      "description": "cascade",
       "width": 4032,
       "height": 3024,
       "size": 1944040,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Vue_sur_le_village_de_Villecroze_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20sur%20le%20village%20de%20Villecroze%201.jpg",
       "title": "Vue sur le village de Villecroze 1.jpg",
+      "description": "viewpoint",
       "width": 4032,
       "height": 3024,
       "size": 2057720,
@@ -48,58 +51,10 @@
       "label": "Grottes troglodytes de Villecroze",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Park_Troglodyte_Caves_01.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APark%20Troglodyte%20Caves%2001.jpg",
-          "title": "Park Troglodyte Caves 01.jpg",
-          "width": 6020,
-          "height": 4024,
-          "size": 15016989,
-          "timestamp": "2025-09-16T09:02:56Z",
-          "author": "Polibil",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Park_Troglodyte_Caves_02.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APark%20Troglodyte%20Caves%2002.jpg",
-          "title": "Park Troglodyte Caves 02.jpg",
-          "width": 3715,
-          "height": 5827,
-          "size": 13908255,
-          "timestamp": "2025-09-16T09:02:59Z",
-          "author": "Polibil",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        }
-      ]
-    },
-    {
-      "label": "Parc municipal de Villecroze",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Villecroze_cascade_et_parc.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVillecroze%20cascade%20et%20parc.JPG",
-          "title": "Villecroze cascade et parc.JPG",
-          "width": 4288,
-          "height": 3216,
-          "size": 3284357,
-          "timestamp": "2014-07-23T15:01:35Z",
-          "author": "René Dinkel",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        }
-      ]
-    },
-    {
-      "label": "Cascade de Villecroze",
-      "photos": [
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Villecroze-Grottes_troglodytiques_01.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVillecroze-Grottes%20troglodytiques%2001.jpg",
           "title": "Villecroze-Grottes troglodytiques 01.jpg",
+          "description": "Vue panoramique du parc, des grottes troglodytiques et de la cascade de Villecroze (Var, France)",
           "width": 10478,
           "height": 6356,
           "size": 72290946,
@@ -110,30 +65,126 @@
           "score": 6
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Villecroze_cascade_et_parc.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVillecroze%20cascade%20et%20parc.JPG",
-          "title": "Villecroze cascade et parc.JPG",
-          "width": 4288,
-          "height": 3216,
-          "size": 3284357,
-          "timestamp": "2014-07-23T15:01:35Z",
-          "author": "René Dinkel",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Villecroze-Grottes_troglodytiques_06.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVillecroze-Grottes%20troglodytiques%2006.jpg",
+          "title": "Villecroze-Grottes troglodytiques 06.jpg",
+          "description": "Accès aux grottes troglodytiques de Villecroze (Var, France)",
+          "width": 6016,
+          "height": 4016,
+          "size": 16276247,
+          "timestamp": "2015-09-21T22:03:57Z",
+          "author": "François de Dijon",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 6
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Villecroze_Cascade.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVillecroze%20Cascade.JPG",
-          "title": "Villecroze Cascade.JPG",
-          "width": 4288,
-          "height": 3216,
-          "size": 3210572,
-          "timestamp": "2014-07-23T15:20:52Z",
-          "author": "René Dinkel",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Villecroze-Grottes_troglodytiques_04.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVillecroze-Grottes%20troglodytiques%2004.jpg",
+          "title": "Villecroze-Grottes troglodytiques 04.jpg",
+          "description": "Accès aux grottes troglodytiques de Villecroze (Var, France)",
+          "width": 6016,
+          "height": 4016,
+          "size": 26109953,
+          "timestamp": "2015-09-21T22:03:58Z",
+          "author": "François de Dijon",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 6
+        }
+      ]
+    },
+    {
+      "label": "Parc municipal de Villecroze",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Villecroze-Grottes_troglodytiques_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVillecroze-Grottes%20troglodytiques%2001.jpg",
+          "title": "Villecroze-Grottes troglodytiques 01.jpg",
+          "description": "Vue panoramique du parc, des grottes troglodytiques et de la cascade de Villecroze (Var, France)",
+          "width": 10478,
+          "height": 6356,
+          "size": 72290946,
+          "timestamp": "2015-09-21T21:22:12Z",
+          "author": "François de Dijon",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Parc_de_Villecroze.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParc%20de%20Villecroze.jpg",
+          "title": "Parc de Villecroze.jpg",
+          "description": "Falaise de tuf",
+          "width": 2048,
+          "height": 1536,
+          "size": 1438654,
+          "timestamp": "2016-09-08T07:49:46Z",
+          "author": "Dumontant maud",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Parc_des_Grottes_Villecroze_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParc%20des%20Grottes%20Villecroze%201.jpg",
+          "title": "Parc des Grottes Villecroze 1.jpg",
+          "description": "parc cave",
+          "width": 4032,
+          "height": 3024,
+          "size": 5150442,
+          "timestamp": "2018-09-11T07:37:04Z",
+          "author": "Phjarry83",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "label": "Cascade de Villecroze",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Villecroze-Grottes_troglodytiques_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVillecroze-Grottes%20troglodytiques%2001.jpg",
+          "title": "Villecroze-Grottes troglodytiques 01.jpg",
+          "description": "Vue panoramique du parc, des grottes troglodytiques et de la cascade de Villecroze (Var, France)",
+          "width": 10478,
+          "height": 6356,
+          "size": 72290946,
+          "timestamp": "2015-09-21T21:22:12Z",
+          "author": "François de Dijon",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Mobeye-%C3%89t%C3%A9DesVilles-Villecroze-771.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMobeye-%C3%89t%C3%A9DesVilles-Villecroze-771.jpg",
+          "title": "Mobeye-ÉtéDesVilles-Villecroze-771.jpg",
+          "description": "cascade et grottes",
+          "width": 1280,
+          "height": 720,
+          "size": 364577,
+          "timestamp": "2015-10-09T16:52:32Z",
+          "author": "Pim",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Cascade_Villecroze.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACascade%20Villecroze.jpg",
+          "title": "Cascade Villecroze.jpg",
+          "description": "cascade",
+          "width": 4032,
+          "height": 3024,
+          "size": 1944040,
+          "timestamp": "2018-09-11T10:01:29Z",
+          "author": "Phjarry83",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
         }
       ]
     },

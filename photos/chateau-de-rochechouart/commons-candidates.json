@@ -1,12 +1,13 @@
 {
   "slug": "chateau-de-rochechouart",
   "nom": "Château de Rochechouart",
-  "fetchedAt": "2026-03-13T13:14:35.262Z",
+  "fetchedAt": "2026-03-15T21:42:12.961Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Ch%C3%A2teau_Rochechouart_All%C3%A9es.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20Rochechouart%20All%C3%A9es.jpg",
       "title": "Château Rochechouart Allées.jpg",
+      "description": "Vue depuis les allées du Château de Rochechouart (Après les travaux de rénovation)",
       "width": 4032,
       "height": 3024,
       "size": 4539862,
@@ -14,31 +15,33 @@
       "author": "NewMaxou87",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Rochechouart_-_place_Pontville.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARochechouart%20-%20place%20Pontville.jpg",
-      "title": "Rochechouart - place Pontville.jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 2875842,
-      "timestamp": "2025-08-06T10:18:10Z",
-      "author": "Yzergues",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Rochechouart_-_Ch%C3%A2teau_-2.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARochechouart%20-%20Ch%C3%A2teau%20-2.JPG",
+      "title": "Rochechouart - Château -2.JPG",
+      "description": "Rochechouart - Château - Vu de la place de la mairie",
+      "width": 3639,
+      "height": 1989,
+      "size": 3188054,
+      "timestamp": "2016-09-01T11:40:25Z",
+      "author": "MOSSOT",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 8
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Rochechouart_-_arr%C3%AAt_d%27autocar.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARochechouart%20-%20arr%C3%AAt%20d'autocar.jpg",
-      "title": "Rochechouart - arrêt d'autocar.jpg",
-      "width": 3584,
-      "height": 2688,
-      "size": 2424353,
-      "timestamp": "2025-08-06T10:18:10Z",
-      "author": "Yzergues",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Ch%C3%A2teau_de_Rochechouart_colonnades_torses_1.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Rochechouart%20colonnades%20torses%201.jpg",
+      "title": "Château de Rochechouart colonnades torses 1.jpg",
+      "description": "Château de Rochechouart, Haute-Vienne",
+      "width": 2592,
+      "height": 1936,
+      "size": 2257492,
+      "timestamp": "2011-09-14T19:45:06Z",
+      "author": "Philippe hirou",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     }
@@ -46,11 +49,83 @@
   "lieux": [
     {
       "label": "Salle des Chasses",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Beaubrun_workshop_-_Fran%C3%A7oise_de_Rochechouart%2C_later_Madame_de_Montespan%2C_octogonal_portrait.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeaubrun%20workshop%20-%20Fran%C3%A7oise%20de%20Rochechouart%2C%20later%20Madame%20de%20Montespan%2C%20octogonal%20portrait.jpg",
+          "title": "Beaubrun workshop - Françoise de Rochechouart, later Madame de Montespan, octogonal portrait.jpg",
+          "description": "Portrait of Françoise de Rochechouart (1640-1707) (future Madame de Montespan, mistress of Louis XIV of France",
+          "width": 1620,
+          "height": 2000,
+          "size": 988002,
+          "timestamp": "2018-01-20T15:17:41Z",
+          "author": "<bdi>Workshop of <a href=\"https://www.wikidata.org/wiki/Q64669632\" class=\"extiw\" title=\"d:Q64669632\"><span title=\"french painters\">Henri and Charles Beaubrun</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Portrait_of_Gabriel_de_Rochechouart%2C_Duke_of_Mortemart_wearing_the_Order_of_the_Holy_Spirit_%28Versailles%2C_unknown_artist%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APortrait%20of%20Gabriel%20de%20Rochechouart%2C%20Duke%20of%20Mortemart%20wearing%20the%20Order%20of%20the%20Holy%20Spirit%20(Versailles%2C%20unknown%20artist).jpg",
+          "title": "Portrait of Gabriel de Rochechouart, Duke of Mortemart wearing the Order of the Holy Spirit (Versailles, unknown artist).jpg",
+          "description": "",
+          "width": 1449,
+          "height": 1945,
+          "size": 2445408,
+          "timestamp": "2014-07-06T11:27:32Z",
+          "author": "<div class=\"fn value\">\n<table cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><td><a href=\"https://www.wikidata.org/wiki/Q4233718\" class=\"extiw\" title=\"d:Q4233718\"><span title='unknown creator of a work (do not use as value of P50; use \"unknown value\" instead)'>anonymous</span></a></td><td valign=\"top\"> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q65097500#P170\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png\" decoding=\"async\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></td></tr></tbody></table></div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Fran%C3%A7oise-Ath%C3%A9na%C3%AFs_de_Rochechouart%2C_marquise_de_Montespan.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFran%C3%A7oise-Ath%C3%A9na%C3%AFs%20de%20Rochechouart%2C%20marquise%20de%20Montespan.jpg",
+          "title": "Françoise-Athénaïs de Rochechouart, marquise de Montespan.jpg",
+          "description": "Portrait of Madame de Montespan (1640-1707)",
+          "width": 595,
+          "height": 707,
+          "size": 55954,
+          "timestamp": "2019-12-21T16:14:12Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Jean-Pierre_Franque\" class=\"extiw\" title=\"w:en:Jean-Pierre Franque\"><span title=\"French painter (1774-1860)\">Jean-Pierre Franque</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 2
+        }
+      ]
     },
     {
       "label": "galerie Renaissance",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Beaubrun_workshop_-_Fran%C3%A7oise_de_Rochechouart%2C_later_Madame_de_Montespan%2C_octogonal_portrait.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeaubrun%20workshop%20-%20Fran%C3%A7oise%20de%20Rochechouart%2C%20later%20Madame%20de%20Montespan%2C%20octogonal%20portrait.jpg",
+          "title": "Beaubrun workshop - Françoise de Rochechouart, later Madame de Montespan, octogonal portrait.jpg",
+          "description": "Portrait of Françoise de Rochechouart (1640-1707) (future Madame de Montespan, mistress of Louis XIV of France",
+          "width": 1620,
+          "height": 2000,
+          "size": 988002,
+          "timestamp": "2018-01-20T15:17:41Z",
+          "author": "<bdi>Workshop of <a href=\"https://www.wikidata.org/wiki/Q64669632\" class=\"extiw\" title=\"d:Q64669632\"><span title=\"french painters\">Henri and Charles Beaubrun</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Joseph_Werner_-_Portrait_de_Fran%C3%A7oise-Ath%C3%A9na%C3%AFs_de_Rochechouart_de_Mortemart.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJoseph%20Werner%20-%20Portrait%20de%20Fran%C3%A7oise-Ath%C3%A9na%C3%AFs%20de%20Rochechouart%20de%20Mortemart.jpg",
+          "title": "Joseph Werner - Portrait de Françoise-Athénaïs de Rochechouart de Mortemart.jpg",
+          "description": "Portrait of a Lady\nlabel QS:Lit,\"Ritratto di Gentildonna\"\nlabel QS:Lhu,\"Hölgy portréja\"\nlabel QS:Lpl,\"Portret damy\"\nlabel QS:Lsl,\"Portret dame\"\nlabel QS:Lnl,\"Portret van een dame\"\nlabel QS:Lru,\"Портрет дамы\"\nlabel QS:Les,\"Retrato de una dama\"\nlabel QS:Lde,\"Bildnis einer Dame\"\nlabel QS:Lpt,\"Retrato de uma senhora\"\nlabel QS:Lbe,\"Партрэт дамы\"\nlabel QS:Lfr,\"Portrait d'une dame\"\nlabel QS:Lmk,\"Портрет на дама\"\nlabel QS:Len,\"Portrait of a Lady\", presumably Madame de Montespan (1640-1707), mistress of ",
+          "width": 1107,
+          "height": 1456,
+          "size": 584458,
+          "timestamp": "2025-01-18T17:51:05Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Joseph_Werner\" class=\"extiw\" title=\"w:en:Joseph Werner\"><span title=\"Swiss painter (1637-1710)\">Joseph Werner the Younger</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "belvédère sur la vallée",

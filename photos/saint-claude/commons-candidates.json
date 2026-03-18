@@ -1,91 +1,111 @@
 {
   "slug": "saint-claude",
   "nom": "Saint-Claude",
-  "fetchedAt": "2026-03-14T11:59:48.409Z",
+  "fetchedAt": "2026-03-18T18:07:47.558Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Saint-Claude_-_Plaque_comm%C3%A9morative_F%C3%A9licien_Regad_%28nov_2022%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Claude%20-%20Plaque%20comm%C3%A9morative%20F%C3%A9licien%20Regad%20(nov%202022).jpg",
-      "title": "Saint-Claude - Plaque commémorative Félicien Regad (nov 2022).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Saint-Claude_-_Rue_Antide_Janvier_%28nov_2022%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Claude%20-%20Rue%20Antide%20Janvier%20(nov%202022).jpg",
+      "title": "Saint-Claude - Rue Antide Janvier (nov 2022).jpg",
+      "description": "Vue de la rue Antide Janvier à Saint-Claude (Jura, France).",
       "width": 4032,
       "height": 3024,
-      "size": 2764439,
-      "timestamp": "2023-06-02T20:00:17Z",
+      "size": 3701535,
+      "timestamp": "2023-06-02T20:01:00Z",
       "author": "Sebleouf",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Saint-Claude_-_Plaque_m%C3%A9moire_Joseph_Chevassu_%28nov_2022%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Claude%20-%20Plaque%20m%C3%A9moire%20Joseph%20Chevassu%20(nov%202022).jpg",
-      "title": "Saint-Claude - Plaque mémoire Joseph Chevassu (nov 2022).jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 2557840,
-      "timestamp": "2023-06-02T20:00:17Z",
-      "author": "Sebleouf",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Cathedrale_de_Saint-Claude_-_img_43844.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACathedrale%20de%20Saint-Claude%20-%20img%2043844.jpg",
+      "title": "Cathedrale de Saint-Claude - img 43844.jpg",
+      "description": "Vue de la cathédrale de Saint-Claude (Jura).",
+      "width": 5115,
+      "height": 3684,
+      "size": 15880506,
+      "timestamp": "2016-07-14T17:23:56Z",
+      "author": "Pmau",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 8
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Saint-Claude_-_Plaque_hommage_r%C3%A9sistants_service_P%C3%A9ricl%C3%A8s_et_maquis_Haut-Jura_%28nov_2022%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Claude%20-%20Plaque%20hommage%20r%C3%A9sistants%20service%20P%C3%A9ricl%C3%A8s%20et%20maquis%20Haut-Jura%20(nov%202022).jpg",
-      "title": "Saint-Claude - Plaque hommage résistants service Périclès et maquis Haut-Jura (nov 2022).jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 3052536,
-      "timestamp": "2023-06-02T20:00:20Z",
-      "author": "Sebleouf",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Saint-Claude_-_img_43838.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Claude%20-%20img%2043838.jpg",
+      "title": "Saint-Claude - img 43838.jpg",
+      "description": "Vue du vallon du Tacon à Saint-Claude (Jura).",
+      "width": 5616,
+      "height": 3744,
+      "size": 8259085,
+      "timestamp": "2016-07-14T18:49:23Z",
+      "author": "Pmau",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 8
     }
   ],
   "lieux": [
     {
       "label": "Stalles sculptées du chœur",
-      "photos": []
-    },
-    {
-      "label": "Chaire Renaissance",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/P1250486_Paris_V_eglise_St-Etienne_chaire_bis_rwk.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AP1250486%20Paris%20V%20eglise%20St-Etienne%20chaire%20bis%20rwk.jpg",
-          "title": "P1250486 Paris V eglise St-Etienne chaire bis rwk.jpg",
-          "width": 1502,
-          "height": 2000,
-          "size": 2270851,
-          "timestamp": "2014-06-15T14:04:35Z",
-          "author": "Mbzt",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Saint-Jean04.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Jean04.JPG",
+          "title": "Saint-Jean04.JPG",
+          "description": "Stalles de l'église Saint-Jean de Châtillon-sur-Seine (Côte-d'Or)",
+          "width": 4320,
+          "height": 2432,
+          "size": 1302013,
+          "timestamp": "2016-04-26T12:44:51Z",
+          "author": "Claude PIARD",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Saint-Jean13.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Jean13.JPG",
+          "title": "Saint-Jean13.JPG",
+          "description": "Stalles de l'église Saint-Jean de Châtillon-sur-Seine (Côte-d'Or)",
+          "width": 4320,
+          "height": 2432,
+          "size": 1311292,
+          "timestamp": "2016-04-26T12:52:01Z",
+          "author": "Claude PIARD",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Stalles-eglise-saint-claude.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStalles-eglise-saint-claude.jpg",
+          "title": "Stalles-eglise-saint-claude.jpg",
+          "description": "Stalles du choeur de l'église de l'ancienne abbaye de Saint-Claude, Jura, France",
+          "width": 3000,
+          "height": 2171,
+          "size": 2145193,
+          "timestamp": "2008-06-27T11:43:20Z",
+          "author": "Fragonard",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 4
         }
       ]
     },
     {
+      "label": "Chaire Renaissance",
+      "photos": []
+    },
+    {
       "label": "Tombeau de saint Claude",
       "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Cancale_%2835%29_%C3%89glise_Saint-M%C3%A9en_-_Int%C3%A9rieur_-_14.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACancale%20(35)%20%C3%89glise%20Saint-M%C3%A9en%20-%20Int%C3%A9rieur%20-%2014.jpg",
-          "title": "Cancale (35) Église Saint-Méen - Intérieur - 14.jpg",
-          "width": 5819,
-          "height": 3176,
-          "size": 3264616,
-          "timestamp": "2022-03-25T07:06:02Z",
-          "author": "GO69",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Tombeau_de_Claude-Hippolyte_Clausel_de_Montals_%281769%E2%80%931857%29_1.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATombeau%20de%20Claude-Hippolyte%20Clausel%20de%20Montals%20(1769%E2%80%931857)%201.jpg",
           "title": "Tombeau de Claude-Hippolyte Clausel de Montals (1769–1857) 1.jpg",
+          "description": "Le tombeau de Claude-Hippolyte Clausel de Montals, évêque de Chartres de 1824 à 1852, dans le transept nord de l'Église Saint-Martin-au-Val de Chartres dans l'Eure-et-Loir.",
           "width": 4608,
           "height": 3456,
           "size": 4139808,
@@ -99,9 +119,24 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Tombeau_de_Claude-Hippolyte_Clausel_de_Montals_%281769%E2%80%931857%29_2.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATombeau%20de%20Claude-Hippolyte%20Clausel%20de%20Montals%20(1769%E2%80%931857)%202.jpg",
           "title": "Tombeau de Claude-Hippolyte Clausel de Montals (1769–1857) 2.jpg",
+          "description": "Le tombeau de Claude-Hippolyte Clausel de Montals, évêque de Chartres de 1824 à 1852, dans le transept nord de l'Église Saint-Martin-au-Val de Chartres dans l'Eure-et-Loir.",
           "width": 4608,
           "height": 3456,
           "size": 3304115,
+          "timestamp": "2025-01-05T13:35:18Z",
+          "author": "Antoine Rex",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Tombeau_de_Claude-Hippolyte_Clausel_de_Montals_%281769%E2%80%931857%29_3.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATombeau%20de%20Claude-Hippolyte%20Clausel%20de%20Montals%20(1769%E2%80%931857)%203.jpg",
+          "title": "Tombeau de Claude-Hippolyte Clausel de Montals (1769–1857) 3.jpg",
+          "description": "Le tombeau de Claude-Hippolyte Clausel de Montals, évêque de Chartres de 1824 à 1852, dans le transept nord de l'Église Saint-Martin-au-Val de Chartres dans l'Eure-et-Loir.",
+          "width": 4608,
+          "height": 3456,
+          "size": 3240610,
           "timestamp": "2025-01-05T13:35:18Z",
           "author": "Antoine Rex",
           "license": "CC0",
@@ -112,7 +147,50 @@
     },
     {
       "label": "Vitraux du XIXe siècle",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/La_Boussac_%2835%29_%C3%89glise_Saint-Pierre_-_Int%C3%A9rieur_-_Baie_114-1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Boussac%20(35)%20%C3%89glise%20Saint-Pierre%20-%20Int%C3%A9rieur%20-%20Baie%20114-1.jpg",
+          "title": "La Boussac (35) Église Saint-Pierre - Intérieur - Baie 114-1.jpg",
+          "description": "Baie 114 de l'église Saint-Pierre de La Boussac (35). La Transfiguration.",
+          "width": 2644,
+          "height": 1595,
+          "size": 929687,
+          "timestamp": "2023-07-21T19:16:50Z",
+          "author": "GO69",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/La_Boussac_%2835%29_%C3%89glise_Saint-Pierre_-_Int%C3%A9rieur_-_Baie_113-1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Boussac%20(35)%20%C3%89glise%20Saint-Pierre%20-%20Int%C3%A9rieur%20-%20Baie%20113-1.jpg",
+          "title": "La Boussac (35) Église Saint-Pierre - Intérieur - Baie 113-1.jpg",
+          "description": "Baie 113 de l'église Saint-Pierre de La Boussac (35). L'Assomption.",
+          "width": 2567,
+          "height": 1524,
+          "size": 893874,
+          "timestamp": "2023-07-21T19:29:58Z",
+          "author": "GO69",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Gisors_%2827%29%2C_coll%C3%A9giale_St-Gervais-et-St-Protais%2C_collat%C3%A9ral_sud%2C_verri%C3%A8re_n%C2%B0_26_-_vie_de_saint_Claude_3.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGisors%20(27)%2C%20coll%C3%A9giale%20St-Gervais-et-St-Protais%2C%20collat%C3%A9ral%20sud%2C%20verri%C3%A8re%20n%C2%B0%2026%20-%20vie%20de%20saint%20Claude%203.jpg",
+          "title": "Gisors (27), collégiale St-Gervais-et-St-Protais, collatéral sud, verrière n° 26 - vie de saint Claude 3.jpg",
+          "description": "Vitraux Renaissance - voir titre.",
+          "width": 4716,
+          "height": 3537,
+          "size": 1294567,
+          "timestamp": "2016-08-19T18:55:56Z",
+          "author": "Pierre Poschadel",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

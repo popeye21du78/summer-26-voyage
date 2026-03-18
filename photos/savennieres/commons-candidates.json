@@ -1,12 +1,13 @@
 {
   "slug": "savennieres",
   "nom": "Savennières",
-  "fetchedAt": "2026-03-14T12:27:27.623Z",
+  "fetchedAt": "2026-03-18T19:08:49.924Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Savenni%C3%A8res_-_bo%C3%AEte_%C3%A0_livres_-_02.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASavenni%C3%A8res%20-%20bo%C3%AEte%20%C3%A0%20livres%20-%2002.jpg",
       "title": "Savennières - boîte à livres - 02.jpg",
+      "description": "Boîte à livres à Savennières",
       "width": 3648,
       "height": 2736,
       "size": 4013012,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Savenni%C3%A8res_%2849%29_Presbyt%C3%A8re.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASavenni%C3%A8res%20(49)%20Presbyt%C3%A8re.jpg",
       "title": "Savennières (49) Presbytère.jpg",
+      "description": "Presbytère de Savennières (49).",
       "width": 3648,
       "height": 2056,
       "size": 3495538,
@@ -30,17 +32,18 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Savenni%C3%A8res_%2849%29_%C3%89glise_Saint-Pierre-et-Saint-Romain_-_Int%C3%A9rieur_03.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASavenni%C3%A8res%20(49)%20%C3%89glise%20Saint-Pierre-et-Saint-Romain%20-%20Int%C3%A9rieur%2003.jpg",
-      "title": "Savennières (49) Église Saint-Pierre-et-Saint-Romain - Intérieur 03.jpg",
-      "width": 2400,
-      "height": 1600,
-      "size": 963653,
-      "timestamp": "2018-07-30T18:23:36Z",
-      "author": "GO69",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Savenni%C3%A8res%2C_trois_producteurs.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASavenni%C3%A8res%2C%20trois%20producteurs.jpg",
+      "title": "Savennières, trois producteurs.jpg",
+      "description": "Luc Blizard, château d'Épiré, Évelyne de Pontbriand, domaine du Closel, Florent Baumard, domaine des Baumard",
+      "width": 4000,
+      "height": 3000,
+      "size": 2820396,
+      "timestamp": "2012-12-25T02:51:03Z",
+      "author": "jamesonf",
+      "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 7
     }
   ],
   "lieux": [
@@ -48,22 +51,10 @@
       "label": "Église Saint-Pierre de Savennières",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/P1290095_Savenni%C3%A8res_eglise_St-Pierre-St-Romain_nef_rwk.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AP1290095%20Savenni%C3%A8res%20eglise%20St-Pierre-St-Romain%20nef%20rwk.jpg",
-          "title": "P1290095 Savennières eglise St-Pierre-St-Romain nef rwk.jpg",
-          "width": 2000,
-          "height": 1558,
-          "size": 1196597,
-          "timestamp": "2015-03-08T11:05:05Z",
-          "author": "Mbzt",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/P1290034_Savenni%C3%A8res_eglise_St-Pierre-St-Romain_facade_NE_bw_rwk1.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AP1290034%20Savenni%C3%A8res%20eglise%20St-Pierre-St-Romain%20facade%20NE%20bw%20rwk1.jpg",
           "title": "P1290034 Savennières eglise St-Pierre-St-Romain facade NE bw rwk1.jpg",
+          "description": "Église Saint-Pierre-et-Saint-Romain (vue du nord-est) - Savennières (France)",
           "width": 2000,
           "height": 1565,
           "size": 1903490,
@@ -71,16 +62,31 @@
           "author": "Mbzt",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/P1290091_Savenni%C3%A8res_eglise_St-Pierre-St-Romain_autel_rwk1.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AP1290091%20Savenni%C3%A8res%20eglise%20St-Pierre-St-Romain%20autel%20rwk1.jpg",
-          "title": "P1290091 Savennières eglise St-Pierre-St-Romain autel rwk1.jpg",
-          "width": 2200,
-          "height": 1128,
-          "size": 2029964,
-          "timestamp": "2015-03-08T11:21:03Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/P1290041_Savenni%C3%A8res_eglise_St-Pierre-St-Romain_vue_SO_bw_rwk1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AP1290041%20Savenni%C3%A8res%20eglise%20St-Pierre-St-Romain%20vue%20SO%20bw%20rwk1.jpg",
+          "title": "P1290041 Savennières eglise St-Pierre-St-Romain vue SO bw rwk1.jpg",
+          "description": "Église Saint-Pierre-et-Saint-Romain (vue du sud-ouest) - Savennières (France)",
+          "width": 1487,
+          "height": 2000,
+          "size": 1535112,
+          "timestamp": "2015-03-08T11:21:06Z",
+          "author": "Mbzt",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/P1290095_Savenni%C3%A8res_eglise_St-Pierre-St-Romain_nef_rwk.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AP1290095%20Savenni%C3%A8res%20eglise%20St-Pierre-St-Romain%20nef%20rwk.jpg",
+          "title": "P1290095 Savennières eglise St-Pierre-St-Romain nef rwk.jpg",
+          "description": "Église Saint-Pierre-et-Saint-Romain (nef) - Savennières (France)",
+          "width": 2000,
+          "height": 1558,
+          "size": 1196597,
+          "timestamp": "2015-03-08T11:05:05Z",
           "author": "Mbzt",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -96,17 +102,18 @@
       "label": "Château de la Roche-aux-Moines",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Den%C3%A9e%2C_Maine-et-Loire%2C_France_%2851401243062%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADen%C3%A9e%2C%20Maine-et-Loire%2C%20France%20(51401243062).jpg",
-          "title": "Denée, Maine-et-Loire, France (51401243062).jpg",
-          "width": 2500,
-          "height": 2500,
-          "size": 4329732,
-          "timestamp": "2021-12-02T00:42:52Z",
-          "author": "Pom'",
-          "license": "CC BY-SA 2.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Savenni%C3%A8res%2C_trois_producteurs.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASavenni%C3%A8res%2C%20trois%20producteurs.jpg",
+          "title": "Savennières, trois producteurs.jpg",
+          "description": "Luc Blizard, château d'Épiré, Évelyne de Pontbriand, domaine du Closel, Florent Baumard, domaine des Baumard",
+          "width": 4000,
+          "height": 3000,
+          "size": 2820396,
+          "timestamp": "2012-12-25T02:51:03Z",
+          "author": "jamesonf",
+          "license": "CC BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         }
       ]
     }

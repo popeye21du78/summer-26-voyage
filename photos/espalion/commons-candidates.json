@@ -1,12 +1,13 @@
 {
   "slug": "espalion",
   "nom": "Espalion",
-  "fetchedAt": "2026-03-13T14:15:09.118Z",
+  "fetchedAt": "2026-03-16T13:08:01.652Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Lot_river_in_Espalion_%282%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALot%20river%20in%20Espalion%20(2).jpg",
       "title": "Lot river in Espalion (2).jpg",
+      "description": "Lot river in Espalion, Aveyron, France",
       "width": 5441,
       "height": 3528,
       "size": 10234633,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Lot_river_in_Espalion_%283%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALot%20river%20in%20Espalion%20(3).jpg",
       "title": "Lot river in Espalion (3).jpg",
+      "description": "Lot river in Espalion, Aveyron, France",
       "width": 5418,
       "height": 3320,
       "size": 10120371,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Lot_river_in_Espalion_%281%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALot%20river%20in%20Espalion%20(1).jpg",
       "title": "Lot river in Espalion (1).jpg",
+      "description": "Lot river in Espalion, Aveyron, France",
       "width": 5478,
       "height": 3344,
       "size": 9859955,
@@ -48,40 +51,137 @@
       "label": "Pont Vieux",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Old_bridge_in_Espalion_02.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOld%20bridge%20in%20Espalion%2002.jpg",
-          "title": "Old bridge in Espalion 02.jpg",
-          "width": 5329,
-          "height": 3553,
-          "size": 10142923,
-          "timestamp": "2020-09-14T21:18:08Z",
-          "author": "Krzysztof Golik",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Espalion_vieux_pont_%285%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEspalion%20vieux%20pont%20(5).jpg",
+          "title": "Espalion vieux pont (5).jpg",
+          "description": "La chaussée du Pont-Vieux vue depuis la rive droite, Espalion, Aveyron, France.",
+          "width": 3145,
+          "height": 2359,
+          "size": 973766,
+          "timestamp": "2017-09-23T16:53:41Z",
+          "author": "Père Igor",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Espalion_vieux_pont_%284%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEspalion%20vieux%20pont%20(4).jpg",
+          "title": "Espalion vieux pont (4).jpg",
+          "description": "La chaussée du Pont-Vieux vue depuis la rive gauche, Espalion, Aveyron, France.",
+          "width": 3263,
+          "height": 2448,
+          "size": 1547879,
+          "timestamp": "2017-09-23T16:53:42Z",
+          "author": "Père Igor",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/AuvEspalionLotBr%C3%BCcke2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAuvEspalionLotBr%C3%BCcke2.jpg",
+          "title": "AuvEspalionLotBrücke2.jpg",
+          "description": "Espalion",
+          "width": 3098,
+          "height": 2019,
+          "size": 4762241,
+          "timestamp": "2023-08-30T12:52:38Z",
+          "author": "Ziegler175",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
+    },
+    {
+      "label": "Maisons sur pilotis du Lot",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Espalion_maison.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEspalion%20maison.jpg",
+          "title": "Espalion maison.jpg",
+          "description": "maisons d'Espalion",
+          "width": 6016,
+          "height": 4016,
+          "size": 6559332,
+          "timestamp": "2025-09-30T19:03:16Z",
+          "author": "Mikette.fr",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Espalion_-_Pont_vieux_-02.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEspalion%20-%20Pont%20vieux%20-02.JPG",
+          "title": "Espalion - Pont vieux -02.JPG",
+          "description": "Espalion - Pont vieux - Le pont avec les maisons à galerie",
+          "width": 3648,
+          "height": 2736,
+          "size": 2070031,
+          "timestamp": "2012-09-05T13:30:13Z",
+          "author": "MOSSOT",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Espalion_place_du_Puits_maison_d%27Assezat.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEspalion%20place%20du%20Puits%20maison%20d'Assezat.jpg",
+          "title": "Espalion place du Puits maison d'Assezat.jpg",
+          "description": "Ancienne maison consulaire du XVIe siècle, la maison d'Assezat se situe place du Puits à Espalion, Aveyron, France.",
+          "width": 2326,
+          "height": 3102,
+          "size": 1633850,
+          "timestamp": "2017-09-20T14:36:15Z",
+          "author": "Père Igor",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "label": "Chapelle de Perse",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Espalion_ch%C3%A2teau_Calmont_chapelle_%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEspalion%20ch%C3%A2teau%20Calmont%20chapelle%20(2).jpg",
+          "title": "Espalion château Calmont chapelle (2).jpg",
+          "description": "Le seul vestige subsistant de l'ancienne chapelle castrale, château de Calmont d'Olt, Espalion, Aveyron, France.",
+          "width": 3264,
+          "height": 2448,
+          "size": 4785664,
+          "timestamp": "2017-12-30T11:23:39Z",
+          "author": "Père Igor",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Espalion_ch%C3%A2teau_Calmont_chapelle_%281%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEspalion%20ch%C3%A2teau%20Calmont%20chapelle%20(1).jpg",
+          "title": "Espalion château Calmont chapelle (1).jpg",
+          "description": "Le seul vestige subsistant de l'ancienne chapelle castrale, château de Calmont d'Olt, Espalion, Aveyron, France.",
+          "width": 2388,
+          "height": 3183,
+          "size": 1762709,
+          "timestamp": "2017-12-30T11:23:39Z",
+          "author": "Père Igor",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Old_bridge_in_Espalion_%281%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOld%20bridge%20in%20Espalion%20(1).jpg",
-          "title": "Old bridge in Espalion (1).jpg",
-          "width": 5505,
-          "height": 3495,
-          "size": 12191877,
-          "timestamp": "2024-03-16T21:42:53Z",
-          "author": "Tournasol7",
-          "license": "CC BY 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Lot_Espalion_vieux_pont_%281%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALot%20Espalion%20vieux%20pont%20(1).jpg",
-          "title": "Lot Espalion vieux pont (1).jpg",
-          "width": 3190,
-          "height": 2393,
-          "size": 1674530,
-          "timestamp": "2017-08-15T15:53:56Z",
-          "author": "Père Igor",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Espalion_%C3%A9glise_de_Perse.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEspalion%20%C3%A9glise%20de%20Perse.jpg",
+          "title": "Espalion église de Perse.jpg",
+          "description": "Eglise de Perse à Espalion (Aveyron)",
+          "width": 3264,
+          "height": 2448,
+          "size": 3334457,
+          "timestamp": "2016-08-27T21:05:09Z",
+          "author": "Christelle Molinié",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
@@ -89,73 +189,13 @@
       ]
     },
     {
-      "label": "Maisons sur pilotis du Lot",
-      "photos": []
-    },
-    {
-      "label": "Chapelle de Perse",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Perse_-_Eglise_Saint-Hilarian_-_03.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APerse%20-%20Eglise%20Saint-Hilarian%20-%2003.jpg",
-          "title": "Perse - Eglise Saint-Hilarian - 03.jpg",
-          "width": 5957,
-          "height": 3972,
-          "size": 3843998,
-          "timestamp": "2023-01-24T22:11:43Z",
-          "author": "Antoine Garnier",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Perse_-_Eglise_Saint-Hilarian_-_06.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APerse%20-%20Eglise%20Saint-Hilarian%20-%2006.jpg",
-          "title": "Perse - Eglise Saint-Hilarian - 06.jpg",
-          "width": 5697,
-          "height": 3800,
-          "size": 3454599,
-          "timestamp": "2023-01-24T22:11:46Z",
-          "author": "Antoine Garnier",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Perse_-_Eglise_Saint-Hilarian_-_05.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APerse%20-%20Eglise%20Saint-Hilarian%20-%2005.jpg",
-          "title": "Perse - Eglise Saint-Hilarian - 05.jpg",
-          "width": 6000,
-          "height": 4000,
-          "size": 4258592,
-          "timestamp": "2023-01-24T22:11:47Z",
-          "author": "Antoine Garnier",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        }
-      ]
-    },
-    {
       "label": "Château de Calmont d’Olt",
       "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Espalion_-_Calmont_d%27Olt.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEspalion%20-%20Calmont%20d'Olt.jpg",
-          "title": "Espalion - Calmont d'Olt.jpg",
-          "width": 1614,
-          "height": 1040,
-          "size": 614266,
-          "timestamp": "2020-10-18T04:46:36Z",
-          "author": "<div class=\"fn value\">\nE. Carrère</div>",
-          "license": "Public domain",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Espalion_-_Ch%C3%A2teau_de_Calmont_d%27Olt_%282%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEspalion%20-%20Ch%C3%A2teau%20de%20Calmont%20d'Olt%20(2).jpg",
           "title": "Espalion - Château de Calmont d'Olt (2).jpg",
+          "description": "Espalion - Château de Calmont d'Olt (2)",
           "width": 1625,
           "height": 1045,
           "size": 578841,
@@ -163,12 +203,13 @@
           "author": "<div class=\"fn value\">\n<span lang=\"en\">Anonymous</span><span style=\"display:none\">Unknown author</span></div>",
           "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Espalion_-_Ch%C3%A2teau_de_Calmont_d%27Olt_1a.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEspalion%20-%20Ch%C3%A2teau%20de%20Calmont%20d'Olt%201a.jpg",
           "title": "Espalion - Château de Calmont d'Olt 1a.jpg",
+          "description": "Espalion - Château de Calmont d'Olt",
           "width": 1603,
           "height": 1025,
           "size": 509277,
@@ -176,7 +217,21 @@
           "author": "<div class=\"fn value\">\nAygalenq</div>",
           "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Espalion_-_Ch%C3%A2teau_de_Calmont_d%27Olt_1b.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEspalion%20-%20Ch%C3%A2teau%20de%20Calmont%20d'Olt%201b.jpg",
+          "title": "Espalion - Château de Calmont d'Olt 1b.jpg",
+          "description": "Espalion - Château de Calmont d'Olt",
+          "width": 1625,
+          "height": 1073,
+          "size": 570410,
+          "timestamp": "2020-10-18T04:47:57Z",
+          "author": "<div class=\"fn value\">\nMigne</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
         }
       ]
     }

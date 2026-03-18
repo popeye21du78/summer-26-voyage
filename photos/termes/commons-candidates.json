@@ -1,46 +1,49 @@
 {
   "slug": "termes",
   "nom": "Termes",
-  "fetchedAt": "2026-03-14T12:48:55.540Z",
+  "fetchedAt": "2026-03-18T20:02:02.278Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Andorra_%289279816170%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAndorra%20(9279816170).jpg",
-      "title": "Andorra (9279816170).jpg",
-      "width": 2100,
-      "height": 1365,
-      "size": 3132325,
-      "timestamp": "2024-09-08T07:48:46Z",
-      "author": "Pedro de Carvalho Ponchio",
-      "license": "CC BY 2.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Senuc_Termes_%28Vouziers%2C_Grandpr%C3%A9%29_Panorama_de_la_gare.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASenuc%20Termes%20(Vouziers%2C%20Grandpr%C3%A9)%20Panorama%20de%20la%20gare.jpg",
+      "title": "Senuc Termes (Vouziers, Grandpré) Panorama de la gare.jpg",
+      "description": "Senuc Termes (Vouziers, Grandpré) Panorama de la gare",
+      "width": 1625,
+      "height": 1002,
+      "size": 231377,
+      "timestamp": "2021-04-10T18:22:30Z",
+      "author": "Own work by <a href=\"//commons.wikimedia.org/wiki/User:NearEMPTiness\" title=\"User:NearEMPTiness\">NearEMPTiness</a> retouching an old postcard by unknown photographer",
+      "license": "Public domain",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Ecole_Marcel_Pagnol_%281071128314%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEcole%20Marcel%20Pagnol%20(1071128314).jpg",
-      "title": "Ecole Marcel Pagnol (1071128314).jpg",
-      "width": 2560,
-      "height": 1920,
-      "size": 2228407,
-      "timestamp": "2018-07-02T17:23:23Z",
-      "author": "Caitriana Nicholson",
-      "license": "CC BY-SA 2.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Le_Ch%C3%A2teau_de_Termes_dominant_les_Hautes-Corbi%C3%A8res_et_la_clue_du_Terminet.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Ch%C3%A2teau%20de%20Termes%20dominant%20les%20Hautes-Corbi%C3%A8res%20et%20la%20clue%20du%20Terminet.jpg",
+      "title": "Le Château de Termes dominant les Hautes-Corbières et la clue du Terminet.jpg",
+      "description": "Les premiers rayons du soleil éclairent le sommet des collines, le château de Termes, le rocher du Termenet.",
+      "width": 2400,
+      "height": 1600,
+      "size": 329846,
+      "timestamp": "2019-10-29T14:38:25Z",
+      "author": "OlivierDeTermes",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Fire-fighting-facility_node-7116159608.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFire-fighting-facility%20node-7116159608.jpg",
-      "title": "Fire-fighting-facility node-7116159608.jpg",
-      "width": 1024,
-      "height": 521,
-      "size": 364408,
-      "timestamp": "2020-01-08T07:19:50Z",
-      "author": "Tlacambra",
-      "license": "CC BY 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Les_hautes-Corbi%C3%A8res_%C3%A0_l%27automne._Vue_sur_le_village_de_Termes.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20hautes-Corbi%C3%A8res%20%C3%A0%20l'automne.%20Vue%20sur%20le%20village%20de%20Termes.jpg",
+      "title": "Les hautes-Corbières à l'automne. Vue sur le village de Termes.jpg",
+      "description": "Vue depuis l'est sur le village et le château de Termes.",
+      "width": 2400,
+      "height": 1600,
+      "size": 972210,
+      "timestamp": "2019-10-29T14:39:24Z",
+      "author": "OlivierDeTermes",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
     }
   ],
   "lieux": [
@@ -54,7 +57,22 @@
     },
     {
       "label": "Panorama depuis la table d’orientation",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Senuc_Termes_%28Vouziers%2C_Grandpr%C3%A9%29_Panorama_de_la_gare.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASenuc%20Termes%20(Vouziers%2C%20Grandpr%C3%A9)%20Panorama%20de%20la%20gare.jpg",
+          "title": "Senuc Termes (Vouziers, Grandpré) Panorama de la gare.jpg",
+          "description": "Senuc Termes (Vouziers, Grandpré) Panorama de la gare",
+          "width": 1625,
+          "height": 1002,
+          "size": 231377,
+          "timestamp": "2021-04-10T18:22:30Z",
+          "author": "Own work by <a href=\"//commons.wikimedia.org/wiki/User:NearEMPTiness\" title=\"User:NearEMPTiness\">NearEMPTiness</a> retouching an old postcard by unknown photographer",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     }
   ]
 }

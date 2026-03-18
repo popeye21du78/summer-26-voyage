@@ -1,12 +1,13 @@
 {
   "slug": "courseulles-sur-mer",
   "nom": "Courseulles-sur-Mer",
-  "fetchedAt": "2026-03-13T13:57:01.680Z",
+  "fetchedAt": "2026-03-16T12:26:02.689Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/%C3%89glise_Saint-Martin_de_Tracy-sur-Mer_2.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-Martin%20de%20Tracy-sur-Mer%202.jpg",
       "title": "Église Saint-Martin de Tracy-sur-Mer 2.jpg",
+      "description": "église Saint-Martin de Tracy-sur-Mer",
       "width": 4032,
       "height": 3024,
       "size": 3647088,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Juno_Beach_%28Courseulles-sur-Mer%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJuno%20Beach%20(Courseulles-sur-Mer).jpg",
       "title": "Juno Beach (Courseulles-sur-Mer).jpg",
+      "description": "Juno Beach à Courseulles-sur-Mer (Calvados, France).",
       "width": 5472,
       "height": 3648,
       "size": 3805556,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Canon_anti-chars_allemand_KWK_39_%28Courseulles-sur-Mer%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACanon%20anti-chars%20allemand%20KWK%2039%20(Courseulles-sur-Mer).jpg",
       "title": "Canon anti-chars allemand KWK 39 (Courseulles-sur-Mer).jpg",
+      "description": "Canon anti-chars allemand KWK 39 à Courseulles-sur-Mer (Calvados, France).",
       "width": 5472,
       "height": 3648,
       "size": 4186313,
@@ -48,35 +51,10 @@
       "label": "Centre Juno Beach",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/MurAltantique-2-CentreJuno.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMurAltantique-2-CentreJuno.jpg",
-          "title": "MurAltantique-2-CentreJuno.jpg",
-          "width": 4056,
-          "height": 1880,
-          "size": 2040570,
-          "timestamp": "2023-08-27T06:08:41Z",
-          "author": "Dave osm",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/MurAltantique-1-CentreJuno.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMurAltantique-1-CentreJuno.jpg",
-          "title": "MurAltantique-1-CentreJuno.jpg",
-          "width": 4024,
-          "height": 1912,
-          "size": 2256117,
-          "timestamp": "2023-08-27T06:08:42Z",
-          "author": "Dave osm",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Vue_d%27ensemble_du_centre_Juno_Beach_%C3%A0_Courseulles_sur_mer.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20d'ensemble%20du%20centre%20Juno%20Beach%20%C3%A0%20Courseulles%20sur%20mer.jpg",
           "title": "Vue d'ensemble du centre Juno Beach à Courseulles sur mer.jpg",
+          "description": "photographie grand angle montrant une vue d'ensemble du centre canadien Juno Beach situé à Courseulles sur mer.",
           "width": 4160,
           "height": 3120,
           "size": 5073322,
@@ -85,6 +63,34 @@
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Centre_d%27incendie_et_de_secours_de_Courseulles-sur-Mer.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACentre%20d'incendie%20et%20de%20secours%20de%20Courseulles-sur-Mer.jpg",
+          "title": "Centre d'incendie et de secours de Courseulles-sur-Mer.jpg",
+          "description": "centre d'incendie et de secours de Courseulles-sur-Mer",
+          "width": 4096,
+          "height": 3072,
+          "size": 6290222,
+          "timestamp": "2025-05-31T19:26:32Z",
+          "author": "Remiforall",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Stele_RemembranceWay-Courseulles.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStele%20RemembranceWay-Courseulles.jpg",
+          "title": "Stele RemembranceWay-Courseulles.jpg",
+          "description": "Stele marking the starting point of the 'Remembrance Way' at the Juno Beach Centre in Courseulles-sur-Mer",
+          "width": 2931,
+          "height": 3778,
+          "size": 4366912,
+          "timestamp": "2025-05-02T11:09:10Z",
+          "author": "Dave osm",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
         }
       ]
     },
@@ -92,30 +98,46 @@
       "label": "Port de plaisance de Courseulles",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Port_de_plaisance_de_Courseulles.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APort%20de%20plaisance%20de%20Courseulles.jpg",
-          "title": "Port de plaisance de Courseulles.jpg",
-          "width": 4096,
-          "height": 3072,
-          "size": 5890003,
-          "timestamp": "2025-05-31T19:23:49Z",
-          "author": "Remiforall",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Port_de_p%C3%AAche%2C_Courseulles-sur-Mer.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APort%20de%20p%C3%AAche%2C%20Courseulles-sur-Mer.jpg",
+          "title": "Port de pêche, Courseulles-sur-Mer.jpg",
+          "description": "Port de pêche, Courseulles-sur-Mer",
+          "width": 4032,
+          "height": 3024,
+          "size": 4654352,
+          "timestamp": "2020-10-16T13:35:55Z",
+          "author": "TCY",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Courseulle-sur-Mer_jetty%2C_France_%281%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACourseulle-sur-Mer%20jetty%2C%20France%20(1).jpg",
+          "title": "Courseulle-sur-Mer jetty, France (1).jpg",
+          "description": "Jetée de Courseulles-sur-Mer, France",
+          "width": 1920,
+          "height": 1080,
+          "size": 501558,
+          "timestamp": "2020-11-05T20:18:07Z",
+          "author": "Ibex73",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Courseulles-sur-mer-calvados-france-port-de-plaisance.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACourseulles-sur-mer-calvados-france-port-de-plaisance.JPG",
-          "title": "Courseulles-sur-mer-calvados-france-port-de-plaisance.JPG",
-          "width": 3504,
-          "height": 2336,
-          "size": 3165122,
-          "timestamp": "2008-03-06T12:55:14Z",
-          "author": "Nitot",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Courseulle-sur-Mer_jetty%2C_France_%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACourseulle-sur-Mer%20jetty%2C%20France%20(2).jpg",
+          "title": "Courseulle-sur-Mer jetty, France (2).jpg",
+          "description": "Jetée de Courseulles-sur-Mer, France",
+          "width": 1920,
+          "height": 1080,
+          "size": 634830,
+          "timestamp": "2020-11-05T20:18:12Z",
+          "author": "Ibex73",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 7
         }
       ]
     },
@@ -126,6 +148,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Rien_ne_dure._A_Courseulles_sur_Mer%2C_cairn_de_plage_%C3%A9ph%C3%A9m%C3%A8re.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARien%20ne%20dure.%20A%20Courseulles%20sur%20Mer%2C%20cairn%20de%20plage%20%C3%A9ph%C3%A9m%C3%A8re.jpg",
           "title": "Rien ne dure. A Courseulles sur Mer, cairn de plage éphémère.jpg",
+          "description": "Rien ne dure. A Courseulles sur Mer, cairn de plage éphémère [#100wikicommonsdays day 100]",
           "width": 5184,
           "height": 3456,
           "size": 6549955,
@@ -136,9 +159,24 @@
           "score": 6
         },
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Courseulles-sur-Mer_Plage_10.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACourseulles-sur-Mer%20Plage%2010.jpg",
+          "title": "Courseulles-sur-Mer Plage 10.jpg",
+          "description": "La Plage Juno",
+          "width": 6000,
+          "height": 4000,
+          "size": 8588316,
+          "timestamp": "2019-11-05T07:20:06Z",
+          "author": "René Hourdry",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Croix_de_Lorraine_sur_la_dune_surplombant_la_plage_de_Graye_sur_mer_%28juno_beach%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACroix%20de%20Lorraine%20sur%20la%20dune%20surplombant%20la%20plage%20de%20Graye%20sur%20mer%20(juno%20beach).jpg",
           "title": "Croix de Lorraine sur la dune surplombant la plage de Graye sur mer (juno beach).jpg",
+          "description": "monument en forme de croix de lorraine symbole du général de Gaulle érigé sur la dune surplombant la plage de Graye sur mer située dans le secteur de Juno Beach. Ce monument a été dressé en 1990 pour identifier où le Général de Gaulle a posé pied en France en 1944.",
           "width": 3000,
           "height": 4000,
           "size": 5049634,
@@ -147,19 +185,6 @@
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Croix_de_Lorraine_sur_la_plage_de_Courseulles-sur-Mer.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACroix%20de%20Lorraine%20sur%20la%20plage%20de%20Courseulles-sur-Mer.jpg",
-          "title": "Croix de Lorraine sur la plage de Courseulles-sur-Mer.jpg",
-          "width": 3690,
-          "height": 5664,
-          "size": 9410600,
-          "timestamp": "2019-11-05T08:03:09Z",
-          "author": "René Hourdry",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
         }
       ]
     },
@@ -167,9 +192,24 @@
       "label": "Église Saint-Germain",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Berni%C3%A8res-sur-Mer_road_and_church.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABerni%C3%A8res-sur-Mer%20road%20and%20church.jpg",
+          "title": "Bernières-sur-Mer road and church.jpg",
+          "description": "Bernières-sur-Mer, left the east pavillon of the Castle de Sémilly, road to the church of the Virgin Mary Nativity",
+          "width": 4080,
+          "height": 3060,
+          "size": 5106671,
+          "timestamp": "2025-08-23T12:50:43Z",
+          "author": "Dobroš",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/%C3%89glise_Saint-Germain_de_Courseulles-sur-Mer_%282%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-Germain%20de%20Courseulles-sur-Mer%20(2).jpg",
           "title": "Église Saint-Germain de Courseulles-sur-Mer (2).jpg",
+          "description": "Courseulles-sur-Mer (Calvados)",
           "width": 3008,
           "height": 2008,
           "size": 1205870,
@@ -183,6 +223,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/%C3%89glise_Saint-Germain_de_Courseulles-sur-Mer_%281%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-Germain%20de%20Courseulles-sur-Mer%20(1).jpg",
           "title": "Église Saint-Germain de Courseulles-sur-Mer (1).jpg",
+          "description": "Courseulles-sur-Mer (Calvados)",
           "width": 3089,
           "height": 3800,
           "size": 1527264,

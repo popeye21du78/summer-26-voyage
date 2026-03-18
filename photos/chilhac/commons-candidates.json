@@ -1,12 +1,13 @@
 {
   "slug": "chilhac",
   "nom": "Chilhac",
-  "fetchedAt": "2026-03-13T13:25:22.222Z",
+  "fetchedAt": "2026-03-16T11:47:43.683Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Mus%C3%A9e_de_pal%C3%A9ontologie_de_Chilhac.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e%20de%20pal%C3%A9ontologie%20de%20Chilhac.jpg",
       "title": "Musée de paléontologie de Chilhac.jpg",
+      "description": "Musée de paléontologie Christian Guth, à Chilhac (Haute-Loire)",
       "width": 3617,
       "height": 2713,
       "size": 6657537,
@@ -17,36 +18,81 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Pont_de_la_Lavo%C3%BBte-Chilhac.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20de%20la%20Lavo%C3%BBte-Chilhac.jpg",
-      "title": "Pont de la Lavoûte-Chilhac.jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 2906762,
-      "timestamp": "2021-08-21T18:14:50Z",
-      "author": "Maciej Poltorak / Vanupied",
-      "license": "CC BY 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Vue_sur_Chilhac.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20sur%20Chilhac.jpg",
+      "title": "Vue sur Chilhac.jpg",
+      "description": "vue sur Chilhac, petit village médiéval perché au-dessus de l'Allier",
+      "width": 2736,
+      "height": 1824,
+      "size": 1842744,
+      "timestamp": "2020-04-07T13:52:44Z",
+      "author": "Onnaplusqua",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Pont_de_Lavo%C3%BBte_Chilhac_1.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20de%20Lavo%C3%BBte%20Chilhac%201.jpg",
-      "title": "Pont de Lavoûte Chilhac 1.jpg",
-      "width": 3360,
-      "height": 2592,
-      "size": 700914,
-      "timestamp": "2012-09-08T20:13:24Z",
-      "author": "Ivanjou",
-      "license": "CC BY-SA 3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Lavo%C3%BBte_Chilhac.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALavo%C3%BBte%20Chilhac.jpg",
+      "title": "Lavoûte Chilhac.jpg",
+      "description": "L'Allier à Lavoûte Chilhac",
+      "width": 4032,
+      "height": 3024,
+      "size": 3197956,
+      "timestamp": "2020-06-06T10:35:01Z",
+      "author": "Paul Lorant le geek",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
+      "score": 7
     }
   ],
   "lieux": [
     {
       "label": "Église Saint-Roch de Chilhac",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Eglise_-_Nef%2C_vue_de_l%27entr%C3%A9e_-_Lavo%C3%BBte-Chilhac_-_M%C3%A9diath%C3%A8que_de_l%27architecture_et_du_patrimoine_-_APMH00006421.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20-%20Nef%2C%20vue%20de%20l'entr%C3%A9e%20-%20Lavo%C3%BBte-Chilhac%20-%20M%C3%A9diath%C3%A8que%20de%20l'architecture%20et%20du%20patrimoine%20-%20APMH00006421.jpg",
+          "title": "Eglise - Nef, vue de l'entrée - Lavoûte-Chilhac - Médiathèque de l'architecture et du patrimoine - APMH00006421.jpg",
+          "description": "Nef, vue de l'entrée.",
+          "width": 696,
+          "height": 512,
+          "size": 68225,
+          "timestamp": "2020-05-01T20:01:34Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q3165380\" class=\"extiw\" title=\"d:Q3165380\"><span title=\"French photographer (1845-1926)\">Jean-Eugène Durand</span></a></bdi>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Reliekschrijn_afkomstig_van_Lavo%C3%BBte-Chilhac_Ch%C3%A2sse_en_cuivre_emaill%C3%A9_%28titel_op_object%29%2C_RP-F-2001-7-1577-14.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AReliekschrijn%20afkomstig%20van%20Lavo%C3%BBte-Chilhac%20Ch%C3%A2sse%20en%20cuivre%20emaill%C3%A9%20(titel%20op%20object)%2C%20RP-F-2001-7-1577-14.jpg",
+          "title": "Reliekschrijn afkomstig van Lavoûte-Chilhac Châsse en cuivre emaillé (titel op object), RP-F-2001-7-1577-14.jpg",
+          "description": "IdentificatieTitel(s): Reliekschrijn afkomstig van Lavoûte-Chilhac. Châsse en cuivre emaillé (titel op object)Objecttype: foto bladzijde Objectnummer: RP-F-2001-7-1577-14Opschriften / Merken: nummer, recto, gedrukt: ‘PL. 14.’opschrift, recto, gedrukt: ‘eglise de Lavoute-Chillac (Haute-Loire).’VervaardigingVervaardiger: fotograaf: Hippolyte Malègue (vermeld op object)Plaats vervaardiging: FrankrijkDatering: ca. 1850 - in of voor 1857Materiaal: fotopapier Techniek: zoutdrukAfmetingen: foto: h 207 ",
+          "width": 4956,
+          "height": 6790,
+          "size": 3475222,
+          "timestamp": "2019-12-07T09:36:06Z",
+          "author": "Rijksmuseum",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Ivoren_reliekschrijn_afkomstig_van_Lavo%C3%BBte-Chilhac_Custode_en_cuivre_avec_panse_d%27ivoire_%28titel_op_object%29%2C_RP-F-2001-7-1577-16.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AIvoren%20reliekschrijn%20afkomstig%20van%20Lavo%C3%BBte-Chilhac%20Custode%20en%20cuivre%20avec%20panse%20d'ivoire%20(titel%20op%20object)%2C%20RP-F-2001-7-1577-16.jpg",
+          "title": "Ivoren reliekschrijn afkomstig van Lavoûte-Chilhac Custode en cuivre avec panse d'ivoire (titel op object), RP-F-2001-7-1577-16.jpg",
+          "description": "IdentificatieTitel(s): Ivoren reliekschrijn afkomstig van Lavoûte-Chilhac. Custode en cuivre avec panse d'ivoire (titel op object)Objecttype: foto bladzijde Objectnummer: RP-F-2001-7-1577-16Opschriften / Merken: nummer, recto, gedrukt: ‘PL. 16.’opschrift, recto, gedrukt: ‘eglise de Lavoute-Chillac (Haute-Loire).’VervaardigingVervaardiger: fotograaf: Hippolyte Malègue (vermeld op object)Plaats vervaardiging: FrankrijkDatering: ca. 1850 - in of voor 1857Materiaal: fotopapier Techniek: zoutdrukAfme",
+          "width": 4940,
+          "height": 6804,
+          "size": 2740818,
+          "timestamp": "2019-12-07T09:58:44Z",
+          "author": "Rijksmuseum",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Porte fortifiée de Chilhac",
@@ -58,7 +104,22 @@
     },
     {
       "label": "Musée paléontologique de Chilhac",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Mus%C3%A9e_de_pal%C3%A9ontologie_de_Chilhac.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e%20de%20pal%C3%A9ontologie%20de%20Chilhac.jpg",
+          "title": "Musée de paléontologie de Chilhac.jpg",
+          "description": "Musée de paléontologie Christian Guth, à Chilhac (Haute-Loire)",
+          "width": 3617,
+          "height": 2713,
+          "size": 6657537,
+          "timestamp": "2020-08-27T15:23:01Z",
+          "author": "Anthony Morel",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

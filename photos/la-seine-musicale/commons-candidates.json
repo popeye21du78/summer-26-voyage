@@ -1,52 +1,98 @@
 {
   "slug": "la-seine-musicale",
   "nom": "La Seine Musicale",
-  "fetchedAt": "2026-03-13T01:10:20.659Z",
+  "fetchedAt": "2026-03-16T19:17:25.296Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Carte_postale_-_Boulogne-Billancourt_-_Boulevard_de_Strasbourg.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarte%20postale%20-%20Boulogne-Billancourt%20-%20Boulevard%20de%20Strasbourg.jpg",
-      "title": "Carte postale - Boulogne-Billancourt - Boulevard de Strasbourg.jpg",
-      "width": 3734,
-      "height": 2591,
-      "size": 938551,
-      "timestamp": "2020-10-10T19:55:22Z",
-      "author": "<div class=\"fn value\">\nUnknown author<span style=\"display: none;\">Unknown author</span></div>",
-      "license": "Licence Ouverte",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Vue_artistique_de_la_seine_musicale.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20artistique%20de%20la%20seine%20musicale.jpg",
+      "title": "Vue artistique de la seine musicale.jpg",
+      "description": "view of behind the \"seine musicale\"",
+      "width": 4160,
+      "height": 3120,
+      "size": 6305006,
+      "timestamp": "2025-03-16T09:12:14Z",
+      "author": "ChamoisCmoi",
+      "license": "CC0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Carte_postale_-_Boulogne-Billancourt_-_Rue_Georges-Sorel.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarte%20postale%20-%20Boulogne-Billancourt%20-%20Rue%20Georges-Sorel.jpg",
-      "title": "Carte postale - Boulogne-Billancourt - Rue Georges-Sorel.jpg",
-      "width": 3778,
-      "height": 2647,
-      "size": 1081569,
-      "timestamp": "2020-10-10T21:08:59Z",
-      "author": "<div class=\"fn value\">\nUnknown author<span style=\"display: none;\">Unknown author</span></div>",
-      "license": "Licence Ouverte",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/La_Tour_Eiffel_vue_du_jardin_de_la_Seine_Musicale.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Tour%20Eiffel%20vue%20du%20jardin%20de%20la%20Seine%20Musicale.jpg",
+      "title": "La Tour Eiffel vue du jardin de la Seine Musicale.jpg",
+      "description": "La Tour Eiffel vue du jardin de la Seine Musicale",
+      "width": 4000,
+      "height": 3000,
+      "size": 5608675,
+      "timestamp": "2025-10-26T13:26:46Z",
+      "author": "JackyM59",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Carte_postale_-_Boulogne-Billancourt_-_La_Mairie_-_Entr%C3%A9e_principale_-_9FI-BOU_74.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarte%20postale%20-%20Boulogne-Billancourt%20-%20La%20Mairie%20-%20Entr%C3%A9e%20principale%20-%209FI-BOU%2074.jpg",
-      "title": "Carte postale - Boulogne-Billancourt - La Mairie - Entrée principale - 9FI-BOU 74.jpg",
-      "width": 3712,
-      "height": 2525,
-      "size": 666484,
-      "timestamp": "2020-10-11T18:06:27Z",
-      "author": "<div class=\"fn value\">\nUnknown author<span style=\"display: none;\">Unknown author</span></div>",
-      "license": "Licence Ouverte",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Ile_Seguin_-_Jan_2016_-_Cit%C3%A9_Musicale_en_construction_vue_du_pont_de_S%C3%A8vres.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AIle%20Seguin%20-%20Jan%202016%20-%20Cit%C3%A9%20Musicale%20en%20construction%20vue%20du%20pont%20de%20S%C3%A8vres.jpg",
+      "title": "Ile Seguin - Jan 2016 - Cité Musicale en construction vue du pont de Sèvres.jpg",
+      "description": "Cité Musicale en construction vue du pont de Sèvres",
+      "width": 4000,
+      "height": 3000,
+      "size": 2161950,
+      "timestamp": "2016-01-16T16:52:11Z",
+      "author": "Jmdigne",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 8
     }
   ],
   "lieux": [
     {
       "label": "La Seine Musicale (extérieur)",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Vue_artistique_de_la_seine_musicale.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20artistique%20de%20la%20seine%20musicale.jpg",
+          "title": "Vue artistique de la seine musicale.jpg",
+          "description": "view of behind the \"seine musicale\"",
+          "width": 4160,
+          "height": 3120,
+          "size": 6305006,
+          "timestamp": "2025-03-16T09:12:14Z",
+          "author": "ChamoisCmoi",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/La_Tour_Eiffel_vue_du_jardin_de_la_Seine_Musicale.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Tour%20Eiffel%20vue%20du%20jardin%20de%20la%20Seine%20Musicale.jpg",
+          "title": "La Tour Eiffel vue du jardin de la Seine Musicale.jpg",
+          "description": "La Tour Eiffel vue du jardin de la Seine Musicale",
+          "width": 4000,
+          "height": 3000,
+          "size": 5608675,
+          "timestamp": "2025-10-26T13:26:46Z",
+          "author": "JackyM59",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Ile_Seguin_-_Jan_2016_-_Cit%C3%A9_Musicale_en_construction_vue_du_pont_de_S%C3%A8vres.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AIle%20Seguin%20-%20Jan%202016%20-%20Cit%C3%A9%20Musicale%20en%20construction%20vue%20du%20pont%20de%20S%C3%A8vres.jpg",
+          "title": "Ile Seguin - Jan 2016 - Cité Musicale en construction vue du pont de Sèvres.jpg",
+          "description": "Cité Musicale en construction vue du pont de Sèvres",
+          "width": 4000,
+          "height": 3000,
+          "size": 2161950,
+          "timestamp": "2016-01-16T16:52:11Z",
+          "author": "Jmdigne",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        }
+      ]
     },
     {
       "label": "Belvédère de La Seine Musicale",
@@ -54,7 +100,36 @@
     },
     {
       "label": "Jardin suspendu",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/La_Tour_Eiffel_vue_du_jardin_de_la_Seine_Musicale.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Tour%20Eiffel%20vue%20du%20jardin%20de%20la%20Seine%20Musicale.jpg",
+          "title": "La Tour Eiffel vue du jardin de la Seine Musicale.jpg",
+          "description": "La Tour Eiffel vue du jardin de la Seine Musicale",
+          "width": 4000,
+          "height": 3000,
+          "size": 5608675,
+          "timestamp": "2025-10-26T13:26:46Z",
+          "author": "JackyM59",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/EXPOSITION_DE_1900_Au_Cours_la_Reine%2C_sur_la_Berge_de_la_Seine_Rive_Droite_AQUARIUM_Sous_les_Jardins_du_Palais_d%27HORT%2C_AFF1596.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEXPOSITION%20DE%201900%20Au%20Cours%20la%20Reine%2C%20sur%20la%20Berge%20de%20la%20Seine%20Rive%20Droite%20AQUARIUM%20Sous%20les%20Jardins%20du%20Palais%20d'HORT%2C%20AFF1596.jpg",
+          "title": "EXPOSITION DE 1900 Au Cours la Reine, sur la Berge de la Seine Rive Droite AQUARIUM Sous les Jardins du Palais d'HORT, AFF1596.jpg",
+          "description": "Auteur(s):\n\nGuillet, V., dessinateur\nImprimerie Paul Dupont, imprimeur\n\n\n\nDate de production:\n\nEn 1900\nDatation en siècle: \n19e siècle\n\n\n\nType(s) d'objet(s):\n\nArts graphiques, Estampe\n\n\nDénomination(s):\n\nAffiche\n\n\nMatériaux et techniques:\n\nLithographie\n\n\nDimensions - Oeuvre:\n\n\n   Hauteur : 138.8 cm\n   Largeur : 106 cm\n\nDimensions - Montage:\n\n   Hauteur : 142.2 cm\n   Largeur : 109.5 cm\n\n\n\nDescription:\n\n\nAffiche\n\n\n\nMarques, inscriptions, poinçons:\n\nSignature - S.B.G.: \" V Guillet LITH \"\nLettre - \"",
+          "width": 3867,
+          "height": 5059,
+          "size": 3988145,
+          "timestamp": "2023-09-09T18:39:51Z",
+          "author": "Guillet, V., dessinateur",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Parvis et voilure solaire",

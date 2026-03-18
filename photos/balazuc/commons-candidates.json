@@ -1,44 +1,47 @@
 {
   "slug": "balazuc",
   "nom": "Balazuc",
-  "fetchedAt": "2026-03-13T00:03:34.467Z",
+  "fetchedAt": "2026-03-15T19:10:15.577Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Balazuc_1_%2817456505656%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABalazuc%201%20(17456505656).jpg",
-      "title": "Balazuc 1 (17456505656).jpg",
-      "width": 4928,
-      "height": 3264,
-      "size": 15817720,
-      "timestamp": "2021-09-23T11:37:46Z",
-      "author": "Sébastien FAILLON",
-      "license": "CC BY 2.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Balazuc_-_porte_de_la_Sabli%C3%A8re_%28bas%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABalazuc%20-%20porte%20de%20la%20Sabli%C3%A8re%20(bas).jpg",
+      "title": "Balazuc - porte de la Sablière (bas).jpg",
+      "description": "Porte de la Sablière, vue de l'extérieur (côté plage).",
+      "width": 4128,
+      "height": 2322,
+      "size": 4513072,
+      "timestamp": "2017-07-29T14:36:48Z",
+      "author": "Romainbehar",
+      "license": "CC0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 8
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Balazuc_2_%2816862393713%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABalazuc%202%20(16862393713).jpg",
-      "title": "Balazuc 2 (16862393713).jpg",
-      "width": 4928,
-      "height": 3264,
-      "size": 13904784,
-      "timestamp": "2021-09-23T11:38:27Z",
-      "author": "Sébastien FAILLON",
-      "license": "CC BY 2.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Balazuc_-_village_et_tour_de_la_Reine_Jeanne.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABalazuc%20-%20village%20et%20tour%20de%20la%20Reine%20Jeanne.jpg",
+      "title": "Balazuc - village et tour de la Reine Jeanne.jpg",
+      "description": "Vue de Balazuc avec la tour de la Reine Jeanne en fond.",
+      "width": 4128,
+      "height": 2322,
+      "size": 4280271,
+      "timestamp": "2017-07-29T14:36:59Z",
+      "author": "Romainbehar",
+      "license": "CC0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 8
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Balazuc_3_%2816860106874%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABalazuc%203%20(16860106874).jpg",
-      "title": "Balazuc 3 (16860106874).jpg",
-      "width": 4928,
-      "height": 3264,
-      "size": 16030933,
-      "timestamp": "2021-09-23T11:38:36Z",
-      "author": "Sébastien FAILLON",
-      "license": "CC BY 2.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Panorama_depuis_Balazuc.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanorama%20depuis%20Balazuc.jpg",
+      "title": "Panorama depuis Balazuc.jpg",
+      "description": "Panorama depuis l'église romane de Balazuc",
+      "width": 4205,
+      "height": 1000,
+      "size": 598323,
+      "timestamp": "2018-08-28T17:56:40Z",
+      "author": "Serge Golovanow",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     }
@@ -46,53 +49,157 @@
   "lieux": [
     {
       "label": "Église Saint-Madeleine",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Balazuc%2C_%C3%A9glise_romane_Notre-Dame%2C_clocher_peigne-2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABalazuc%2C%20%C3%A9glise%20romane%20Notre-Dame%2C%20clocher%20peigne-2.jpg",
+          "title": "Balazuc, église romane Notre-Dame, clocher peigne-2.jpg",
+          "description": "Clocher peigne de l'église romane Notre-Dame (11e siècle) à Balazuc",
+          "width": 4724,
+          "height": 3150,
+          "size": 12180178,
+          "timestamp": "2026-01-05T17:56:55Z",
+          "author": "Eagertourist",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Balazuc_%28Ard%C3%A8che%29_village_et_%C3%A9glise_romane.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABalazuc%20(Ard%C3%A8che)%20village%20et%20%C3%A9glise%20romane.jpg",
+          "title": "Balazuc (Ardèche) village et église romane.jpg",
+          "description": "Village médiéval de Balazuc et l'Eglise romane à droite",
+          "width": 2000,
+          "height": 1333,
+          "size": 873360,
+          "timestamp": "2016-09-20T10:12:31Z",
+          "author": "Bernard CONSTANT",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Balazuc_-_%C3%89glise_Sainte_Marie-Madeleine_-_au-dessus_de_l%27entr%C3%A9e.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABalazuc%20-%20%C3%89glise%20Sainte%20Marie-Madeleine%20-%20au-dessus%20de%20l'entr%C3%A9e.jpg",
+          "title": "Balazuc - Église Sainte Marie-Madeleine - au-dessus de l'entrée.jpg",
+          "description": "Église Sainte Marie-Madeleine - au-dessus de l'entrée.",
+          "width": 4128,
+          "height": 2322,
+          "size": 2353838,
+          "timestamp": "2017-09-06T19:21:50Z",
+          "author": "Romainbehar",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "La Grand Rue",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Balazuc_-_rue.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABalazuc%20-%20rue.jpg",
+          "title": "Balazuc - rue.jpg",
+          "description": "Ruelle.",
+          "width": 2322,
+          "height": 4128,
+          "size": 3873034,
+          "timestamp": "2017-07-29T14:36:51Z",
+          "author": "Romainbehar",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/100806_Balazuc321.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A100806%20Balazuc321.jpg",
+          "title": "100806 Balazuc321.jpg",
+          "description": "A street in Balazuc.",
+          "width": 2112,
+          "height": 2816,
+          "size": 1316592,
+          "timestamp": "2012-09-05T21:43:22Z",
+          "author": "Mypouss",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     },
     {
       "label": "Plage de la Baume",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Balazuc_-_porte_de_la_Sabli%C3%A8re_%28bas%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABalazuc%20-%20porte%20de%20la%20Sabli%C3%A8re%20(bas).jpg",
+          "title": "Balazuc - porte de la Sablière (bas).jpg",
+          "description": "Porte de la Sablière, vue de l'extérieur (côté plage).",
+          "width": 4128,
+          "height": 2322,
+          "size": 4513072,
+          "timestamp": "2017-07-29T14:36:48Z",
+          "author": "Romainbehar",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/La_plage_-_Balazuc_-_Ard%C3%A8che_%C2%A9_by_Besenbinder_-_panoramio.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20plage%20-%20Balazuc%20-%20Ard%C3%A8che%20%C2%A9%20by%20Besenbinder%20-%20panoramio.jpg",
+          "title": "La plage - Balazuc - Ardèche © by Besenbinder - panoramio.jpg",
+          "description": "La plage / Balazuc / Ardèche © by Besenbinder",
+          "width": 2048,
+          "height": 1536,
+          "size": 1302464,
+          "timestamp": "2017-02-22T16:27:20Z",
+          "author": "Besenbinder",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Pont de Balazuc",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/La_plage_-_Balazuc_-_Ard%C3%A8che_%C2%A9_by_Besenbinder_-_panoramio.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20plage%20-%20Balazuc%20-%20Ard%C3%A8che%20%C2%A9%20by%20Besenbinder%20-%20panoramio.jpg",
+          "title": "La plage - Balazuc - Ardèche © by Besenbinder - panoramio.jpg",
+          "description": "La plage / Balazuc / Ardèche © by Besenbinder",
+          "width": 2048,
+          "height": 1536,
+          "size": 1302464,
+          "timestamp": "2017-02-22T16:27:20Z",
+          "author": "Besenbinder",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Balazuc._-_Pont_sur_l%27Ard%C3%A8che_%2834186256440%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABalazuc.%20-%20Pont%20sur%20l'Ard%C3%A8che%20(34186256440).jpg",
+          "title": "Balazuc. - Pont sur l'Ardèche (34186256440).jpg",
+          "description": "Ponts and viaducs Ardèche",
+          "width": 3455,
+          "height": 2242,
+          "size": 971108,
+          "timestamp": "2017-07-29T17:18:16Z",
+          "author": "Médiathèques Valence Romans agglomération",
+          "license": "No restrictions",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Balazuc-01.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABalazuc-01.jpg",
           "title": "Balazuc-01.jpg",
+          "description": "Pont sur l'Ardèche, Balazuc, Ardèche, France.",
           "width": 4896,
           "height": 3672,
           "size": 8016716,
           "timestamp": "2017-10-21T15:07:11Z",
-          "author": "Wayne77",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Balazuc-02.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABalazuc-02.jpg",
-          "title": "Balazuc-02.jpg",
-          "width": 4896,
-          "height": 3672,
-          "size": 7717876,
-          "timestamp": "2017-10-21T15:11:53Z",
-          "author": "Wayne77",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Balazuc-03.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABalazuc-03.jpg",
-          "title": "Balazuc-03.jpg",
-          "width": 4896,
-          "height": 3672,
-          "size": 6763924,
-          "timestamp": "2017-10-21T15:19:54Z",
           "author": "Wayne77",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",

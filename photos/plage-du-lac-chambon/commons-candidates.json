@@ -1,12 +1,27 @@
 {
   "slug": "plage-du-lac-chambon",
   "nom": "Plage du Lac Chambon",
-  "fetchedAt": "2026-03-14T11:22:28.355Z",
+  "fetchedAt": "2026-03-18T16:32:14.436Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/LacChambon_-_Chambon-sur-Lac.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALacChambon%20-%20Chambon-sur-Lac.jpg",
+      "title": "LacChambon - Chambon-sur-Lac.jpg",
+      "description": "Vue du village depuis la rive ouest du lac",
+      "width": 3264,
+      "height": 1836,
+      "size": 2570042,
+      "timestamp": "2015-08-08T20:17:54Z",
+      "author": "Shawabunga",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Lac_Chambon_-_route.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALac%20Chambon%20-%20route.jpg",
       "title": "Lac Chambon - route.jpg",
+      "description": "Avec les montagnes enneigés en arrière plan",
       "width": 4000,
       "height": 3000,
       "size": 3143037,
@@ -20,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/France_-_Massif_Central_-_Auvergne_-_Puy-de-D%C3%B4me_-_Le_lac_Chambon_%28M%C3%A9diHAL_1267343%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20-%20Massif%20Central%20-%20Auvergne%20-%20Puy-de-D%C3%B4me%20-%20Le%20lac%20Chambon%20(M%C3%A9diHAL%201267343).jpg",
       "title": "France - Massif Central - Auvergne - Puy-de-Dôme - Le lac Chambon (MédiHAL 1267343).jpg",
+      "description": "Handwritten caption on the original document: \"France: Massif central: Auvergne: Monts Dore and du Cézallier: Lac Chambon\". The glass plates deposited at Prodig date from 1891 to 1954. Geolocation: hypothesis of exact geolocation.",
       "width": 2715,
       "height": 1676,
       "size": 389956,
@@ -28,19 +44,6 @@
       "license": "Licence Ouverte",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Murol.-_la_Gouze_de_Chambon.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMurol.-%20la%20Gouze%20de%20Chambon.jpg",
-      "title": "Murol.- la Gouze de Chambon.jpg",
-      "width": 3247,
-      "height": 2687,
-      "size": 5343924,
-      "timestamp": "2015-08-02T16:39:59Z",
-      "author": "PIERRE ANDRE LECLERCQ",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
     }
   ],
   "lieux": [
@@ -54,7 +57,50 @@
     },
     {
       "label": "Plage de sable et graviers",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/GRP_du_Val_de_Creuse_de_Plage_de_Foug%C3%A8res_%C3%A0_Fresselines_-_Lac_de_Chambon_-_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGRP%20du%20Val%20de%20Creuse%20de%20Plage%20de%20Foug%C3%A8res%20%C3%A0%20Fresselines%20-%20Lac%20de%20Chambon%20-%201.jpg",
+          "title": "GRP du Val de Creuse de Plage de Fougères à Fresselines - Lac de Chambon - 1.jpg",
+          "description": "Le GR 654, GRP du Val de Creuse et PR 12 (Le Rocher de la Fileuse), entre la plage de Fougères et Fresselines.",
+          "width": 4032,
+          "height": 3024,
+          "size": 5423468,
+          "timestamp": "2017-08-02T14:46:32Z",
+          "author": "Floppy36",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/GRP_du_Val_de_Creuse_de_Plage_de_Foug%C3%A8res_%C3%A0_Fresselines_-_Lac_de_Chambon_-_7.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGRP%20du%20Val%20de%20Creuse%20de%20Plage%20de%20Foug%C3%A8res%20%C3%A0%20Fresselines%20-%20Lac%20de%20Chambon%20-%207.jpg",
+          "title": "GRP du Val de Creuse de Plage de Fougères à Fresselines - Lac de Chambon - 7.jpg",
+          "description": "Le GR 654, GRP du Val de Creuse et PR 12 (Le Rocher de la Fileuse), entre la plage de Fougères et Fresselines.",
+          "width": 4032,
+          "height": 3024,
+          "size": 3246493,
+          "timestamp": "2017-08-02T14:46:37Z",
+          "author": "Floppy36",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/GRP_du_Val_de_Creuse_de_Plage_de_Foug%C3%A8res_%C3%A0_Fresselines_-_Lac_de_Chambon_-_9.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGRP%20du%20Val%20de%20Creuse%20de%20Plage%20de%20Foug%C3%A8res%20%C3%A0%20Fresselines%20-%20Lac%20de%20Chambon%20-%209.jpg",
+          "title": "GRP du Val de Creuse de Plage de Fougères à Fresselines - Lac de Chambon - 9.jpg",
+          "description": "Le GR 654, GRP du Val de Creuse et PR 12 (Le Rocher de la Fileuse), entre la plage de Fougères et Fresselines.",
+          "width": 4032,
+          "height": 3024,
+          "size": 4132660,
+          "timestamp": "2017-08-02T14:46:38Z",
+          "author": "Floppy36",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

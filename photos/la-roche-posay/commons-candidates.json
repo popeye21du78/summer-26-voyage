@@ -1,12 +1,27 @@
 {
   "slug": "la-roche-posay",
   "nom": "La Roche-Posay",
-  "fetchedAt": "2026-03-13T15:07:17.855Z",
+  "fetchedAt": "2026-03-16T19:11:10.950Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/La_Roche-Posay_-_la_vue_depuis_le_pont.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Roche-Posay%20-%20la%20vue%20depuis%20le%20pont.jpg",
+      "title": "La Roche-Posay - la vue depuis le pont.jpg",
+      "description": "La Roche-Posay - la vue depuis le pont",
+      "width": 4032,
+      "height": 3024,
+      "size": 6681370,
+      "timestamp": "2026-01-11T20:26:31Z",
+      "author": "Yzergues",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/La_Roche-Posay_-_dsmm08248.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Roche-Posay%20-%20dsmm08248.jpg",
       "title": "La Roche-Posay - dsmm08248.jpg",
+      "description": "La Roche-Posay, rue Pierre-Denis Rousseau.",
       "width": 4896,
       "height": 3264,
       "size": 7357952,
@@ -20,23 +35,11 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/La_Roche-Posay%2C_hotel_-_dsmm08242.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Roche-Posay%2C%20hotel%20-%20dsmm08242.jpg",
       "title": "La Roche-Posay, hotel - dsmm08242.jpg",
+      "description": "La Roche-Posay, hôtel des Loges du Parc.",
       "width": 4896,
       "height": 3264,
       "size": 6977024,
       "timestamp": "2023-10-27T15:29:51Z",
-      "author": "Pmau",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/La_Roche-Posay_-_dsmm08254.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Roche-Posay%20-%20dsmm08254.jpg",
-      "title": "La Roche-Posay - dsmm08254.jpg",
-      "width": 4896,
-      "height": 3264,
-      "size": 8100864,
-      "timestamp": "2023-10-27T15:29:52Z",
       "author": "Pmau",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
@@ -48,9 +51,24 @@
       "label": "Donjon de La Roche-Posay",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Le_donjon_de_La_Roche-Posay_-_partie_haute_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20donjon%20de%20La%20Roche-Posay%20-%20partie%20haute%2001.jpg",
+          "title": "Le donjon de La Roche-Posay - partie haute 01.jpg",
+          "description": "Le donjon de La Roche-Posay - partie haute, vue depuis un angle, au coucher du soleil",
+          "width": 2000,
+          "height": 1600,
+          "size": 960653,
+          "timestamp": "2017-09-27T21:42:56Z",
+          "author": "Jean-Marie Vugnon",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/2025_Donjon_de_la_Roche-Posay_%284%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2025%20Donjon%20de%20la%20Roche-Posay%20(4).jpg",
           "title": "2025 Donjon de la Roche-Posay (4).jpg",
+          "description": "Donjon de la Roche-Posay",
           "width": 2128,
           "height": 1581,
           "size": 966792,
@@ -64,6 +82,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/2025_Donjon_de_la_Roche-Posay_%285%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2025%20Donjon%20de%20la%20Roche-Posay%20(5).jpg",
           "title": "2025 Donjon de la Roche-Posay (5).jpg",
+          "description": "Donjon de la Roche-Posay",
           "width": 2560,
           "height": 1626,
           "size": 659145,
@@ -72,19 +91,6 @@
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Le_donjon_de_La_Roche-Posay_-_partie_haute_01.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20donjon%20de%20La%20Roche-Posay%20-%20partie%20haute%2001.jpg",
-          "title": "Le donjon de La Roche-Posay - partie haute 01.jpg",
-          "width": 2000,
-          "height": 1600,
-          "size": 960653,
-          "timestamp": "2017-09-27T21:42:56Z",
-          "author": "Jean-Marie Vugnon",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
         }
       ]
     },
@@ -94,15 +100,73 @@
     },
     {
       "label": "Parc Thermal",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/La_Roche-Posay%2C_hotel_-_dsmm08242.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Roche-Posay%2C%20hotel%20-%20dsmm08242.jpg",
+          "title": "La Roche-Posay, hotel - dsmm08242.jpg",
+          "description": "La Roche-Posay, hôtel des Loges du Parc.",
+          "width": 4896,
+          "height": 3264,
+          "size": 6977024,
+          "timestamp": "2023-10-27T15:29:51Z",
+          "author": "Pmau",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/La_Roche-Posay%2C_hotel_-_dsmm08244.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Roche-Posay%2C%20hotel%20-%20dsmm08244.jpg",
+          "title": "La Roche-Posay, hotel - dsmm08244.jpg",
+          "description": "La Roche-Posay, hôtel des Loges du Parc.",
+          "width": 4896,
+          "height": 3264,
+          "size": 6813184,
+          "timestamp": "2023-10-27T15:29:53Z",
+          "author": "Pmau",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/La_Roche-Posay%2C_hotel_-_dsmm08243.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Roche-Posay%2C%20hotel%20-%20dsmm08243.jpg",
+          "title": "La Roche-Posay, hotel - dsmm08243.jpg",
+          "description": "La Roche-Posay, hôtel des Loges du Parc.",
+          "width": 4896,
+          "height": 3264,
+          "size": 6708736,
+          "timestamp": "2023-10-27T15:29:53Z",
+          "author": "Pmau",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Pont sur la Creuse",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/La_Roche-Posay_-_la_vue_depuis_le_pont.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Roche-Posay%20-%20la%20vue%20depuis%20le%20pont.jpg",
+          "title": "La Roche-Posay - la vue depuis le pont.jpg",
+          "description": "La Roche-Posay - la vue depuis le pont",
+          "width": 4032,
+          "height": 3024,
+          "size": 6681370,
+          "timestamp": "2026-01-11T20:26:31Z",
+          "author": "Yzergues",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/La_Roche-Posay_-_img_51599.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Roche-Posay%20-%20img%2051599.jpg",
           "title": "La Roche-Posay - img 51599.jpg",
+          "description": "La Roche-Posay, entrée et pont sur la Creuse.",
           "width": 5616,
           "height": 3744,
           "size": 6022766,
@@ -116,22 +180,10 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/La_Roche-Posay%2C_pont_sur_la_Creuse_-_dsmm08262.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Roche-Posay%2C%20pont%20sur%20la%20Creuse%20-%20dsmm08262.jpg",
           "title": "La Roche-Posay, pont sur la Creuse - dsmm08262.jpg",
+          "description": "Le Pont sur la Creuse de l'ancienne ligne de Chatellerault à Launay.",
           "width": 4896,
           "height": 3264,
           "size": 8173056,
-          "timestamp": "2023-10-27T15:31:44Z",
-          "author": "Pmau",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/La_Roche-Posay%2C_pont_sur_la_Creuse_-_dsmm08264.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Roche-Posay%2C%20pont%20sur%20la%20Creuse%20-%20dsmm08264.jpg",
-          "title": "La Roche-Posay, pont sur la Creuse - dsmm08264.jpg",
-          "width": 4896,
-          "height": 3264,
-          "size": 8403456,
           "timestamp": "2023-10-27T15:31:44Z",
           "author": "Pmau",
           "license": "CC BY-SA 4.0",

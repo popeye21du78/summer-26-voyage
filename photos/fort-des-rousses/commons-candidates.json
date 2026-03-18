@@ -1,12 +1,27 @@
 {
   "slug": "fort-des-rousses",
   "nom": "Fort des Rousses",
-  "fetchedAt": "2026-03-13T14:26:57.705Z",
+  "fetchedAt": "2026-03-16T13:29:55.012Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/LesRousses_01.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALesRousses%2001.jpg",
+      "title": "LesRousses 01.jpg",
+      "description": "prise de vue depuis les remparts du fort en hiver",
+      "width": 3008,
+      "height": 2000,
+      "size": 2745801,
+      "timestamp": "2010-02-09T13:34:47Z",
+      "author": "Sobralnet",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Gendarmerie-des-Rousses-39-byRundvald.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGendarmerie-des-Rousses-39-byRundvald.jpg",
       "title": "Gendarmerie-des-Rousses-39-byRundvald.jpg",
+      "description": "La gendarmerie des Rousses dans le Jura.",
       "width": 2651,
       "height": 1988,
       "size": 5875058,
@@ -20,23 +35,11 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Route_du_Lac-Br%C3%BCcke_%C3%BCber_die_Orbe%2C_Les_Rousses_d%27Amont%2C_Frankreich_20221102-jag9889.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARoute%20du%20Lac-Br%C3%BCcke%20%C3%BCber%20die%20Orbe%2C%20Les%20Rousses%20d'Amont%2C%20Frankreich%2020221102-jag9889.jpg",
       "title": "Route du Lac-Brücke über die Orbe, Les Rousses d'Amont, Frankreich 20221102-jag9889.jpg",
+      "description": "Road Bridge over the Orbe River, Les Rousses, France",
       "width": 4608,
       "height": 3456,
       "size": 12209058,
       "timestamp": "2023-02-18T12:17:50Z",
-      "author": "Jag9889",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Unbenannter_Steg_%C3%BCber_die_Orbe%2C_Les_Rousses_d%27Amont%2C_Frankreich_20221102-jag9889.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AUnbenannter%20Steg%20%C3%BCber%20die%20Orbe%2C%20Les%20Rousses%20d'Amont%2C%20Frankreich%2020221102-jag9889.jpg",
-      "title": "Unbenannter Steg über die Orbe, Les Rousses d'Amont, Frankreich 20221102-jag9889.jpg",
-      "width": 4608,
-      "height": 3456,
-      "size": 12211118,
-      "timestamp": "2023-02-18T12:50:25Z",
       "author": "Jag9889",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
@@ -46,15 +49,102 @@
   "lieux": [
     {
       "label": "Fort des Rousses (extérieur)",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Fort_des_Rousses.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFort%20des%20Rousses.jpg",
+          "title": "Fort des Rousses.jpg",
+          "description": "Eingang",
+          "width": 4032,
+          "height": 3024,
+          "size": 3120660,
+          "timestamp": "2024-10-28T10:35:07Z",
+          "author": "ChristophKirschbaum",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Plan_des_Fontainettes_%40_Fort_de_Ronce.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlan%20des%20Fontainettes%20%40%20Fort%20de%20Ronce.jpg",
+          "title": "Plan des Fontainettes @ Fort de Ronce.jpg",
+          "description": "Le Plan des Fontainettes depuis le fort de Ronce, Val-Cenis, Savoie, France",
+          "width": 5184,
+          "height": 3888,
+          "size": 3405605,
+          "timestamp": "2024-11-21T11:05:48Z",
+          "author": "Rémih",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Belleface-Rousses-Lancebranlette_enneig%C3%A9s_%28d%C3%A9cembre_2025%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABelleface-Rousses-Lancebranlette%20enneig%C3%A9s%20(d%C3%A9cembre%202025).JPG",
+          "title": "Belleface-Rousses-Lancebranlette enneigés (décembre 2025).JPG",
+          "description": "Sight, in winter from La Redoute Ruinée fortification, of the south side of Belleface, Les Rousses and Lancebranlette mountains below Petit-St-Bernard pass (not visible on the right), in Savoie, France.",
+          "width": 3192,
+          "height": 2388,
+          "size": 3451059,
+          "timestamp": "2026-01-18T20:17:31Z",
+          "author": "Florian Pépellin",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Église Saint-Pierre",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Fort_de_Loyasse_-_B%C3%A2timent_nord_-_Vue_sur_Lyon_9e_et_1er.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFort%20de%20Loyasse%20-%20B%C3%A2timent%20nord%20-%20Vue%20sur%20Lyon%209e%20et%201er.jpg",
+          "title": "Fort de Loyasse - Bâtiment nord - Vue sur Lyon 9e et 1er.jpg",
+          "description": "Bâtiment nord : vue sur Lyon 9e et 1er.",
+          "width": 4128,
+          "height": 3096,
+          "size": 4767981,
+          "timestamp": "2018-07-08T12:35:31Z",
+          "author": "Romainbehar",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Lac des Rousses",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Plan_des_Fontainettes_%40_Fort_de_Ronce.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlan%20des%20Fontainettes%20%40%20Fort%20de%20Ronce.jpg",
+          "title": "Plan des Fontainettes @ Fort de Ronce.jpg",
+          "description": "Le Plan des Fontainettes depuis le fort de Ronce, Val-Cenis, Savoie, France",
+          "width": 5184,
+          "height": 3888,
+          "size": 3405605,
+          "timestamp": "2024-11-21T11:05:48Z",
+          "author": "Rémih",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Barrage_du_Mont-Cenis_%40_Fort_de_Ronce.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABarrage%20du%20Mont-Cenis%20%40%20Fort%20de%20Ronce.jpg",
+          "title": "Barrage du Mont-Cenis @ Fort de Ronce.jpg",
+          "description": "Le barrage du Mont-Cenis depuis le fort de Ronce, Val-Cenis, Savoie, France",
+          "width": 5184,
+          "height": 3888,
+          "size": 3505009,
+          "timestamp": "2024-11-21T11:05:51Z",
+          "author": "Rémih",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Belvédère du Mont Fier",

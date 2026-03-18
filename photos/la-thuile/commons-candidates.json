@@ -1,12 +1,13 @@
 {
   "slug": "la-thuile",
   "nom": "La Thuile",
-  "fetchedAt": "2026-03-13T15:09:38.688Z",
+  "fetchedAt": "2026-03-16T19:18:29.208Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Lac_de_Thuile_en_partie_gel%C3%A9_%28d%C3%A9cembre_2021%29.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALac%20de%20Thuile%20en%20partie%20gel%C3%A9%20(d%C3%A9cembre%202021).JPG",
       "title": "Lac de Thuile en partie gelé (décembre 2021).JPG",
+      "description": "Sight, after snowfalls, of partly frozen La Thuile lake in La Thuile, Savoie, France.",
       "width": 3132,
       "height": 2296,
       "size": 3838283,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/La_Thuile_et_lac_de_la_Thuile_enneig%C3%A9s_%28d%C3%A9cembre_2021%29.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Thuile%20et%20lac%20de%20la%20Thuile%20enneig%C3%A9s%20(d%C3%A9cembre%202021).JPG",
       "title": "La Thuile et lac de la Thuile enneigés (décembre 2021).JPG",
+      "description": "Sight, after snowfalls, of La Thuile village and partly frozen La Thuile lake in Bauges mountain range, Savoie, France.",
       "width": 3208,
       "height": 2388,
       "size": 5039256,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Lac_de_la_Thuile_enneig%C3%A9_en_fin_d%27apr%C3%A8s-midi_%28d%C3%A9cembre_2021%29.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALac%20de%20la%20Thuile%20enneig%C3%A9%20en%20fin%20d'apr%C3%A8s-midi%20(d%C3%A9cembre%202021).JPG",
       "title": "Lac de la Thuile enneigé en fin d'après-midi (décembre 2021).JPG",
+      "description": "Sight, after snowfalls, of partly frozen La Thuile lake in La Thuile, Savoie, France.",
       "width": 3264,
       "height": 2448,
       "size": 3549535,
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Vue_prise_de_La_Thuile_-_estampe_-_1854_J_Baron_-_btv1b104633106.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20prise%20de%20La%20Thuile%20-%20estampe%20-%201854%20J%20Baron%20-%20btv1b104633106.jpg",
           "title": "Vue prise de La Thuile - estampe - 1854 J Baron - btv1b104633106.jpg",
+          "description": "Sujet : Moulins à eau\nPêcheurs\nÉtangs\nLa Thuile\nPaysages -- 19e siècle\nRéférence bibliographique : Bidon, 152\n\nÉditeur : [s.n.]",
           "width": 3226,
           "height": 2171,
           "size": 796029,
@@ -64,7 +68,50 @@
     },
     {
       "label": "Église Saint-Maurice",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Nef_%C3%89glise_St-Nicolas_de_La_Thuile_%28juin_2024%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANef%20%C3%89glise%20St-Nicolas%20de%20La%20Thuile%20(juin%202024).JPG",
+          "title": "Nef Église St-Nicolas de La Thuile (juin 2024).JPG",
+          "description": "Inside sight of the nave of San Nicola church of La Thuile, in Aosta Valley, Italy.",
+          "width": 3152,
+          "height": 2420,
+          "size": 4097288,
+          "timestamp": "2024-06-28T17:50:27Z",
+          "author": "Florian Pépellin",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/%C3%89glise_Saint-Barth%C3%A9lemy_de_Sainte-Foy-Tarentaise_%28la_Thuile%29._vue_sud-ouest.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-Barth%C3%A9lemy%20de%20Sainte-Foy-Tarentaise%20(la%20Thuile).%20vue%20sud-ouest.jpg",
+          "title": "Église Saint-Barthélemy de Sainte-Foy-Tarentaise (la Thuile). vue sud-ouest.jpg",
+          "description": "Sainte-Foy-Tarentaise (Savoie)",
+          "width": 2500,
+          "height": 3136,
+          "size": 1246690,
+          "timestamp": "2018-10-17T21:23:49Z",
+          "author": "ChBougui",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/%C3%89glise_Saint-Barth%C3%A9lemy_de_Sainte-Foy-Tarentaise_%28la_Thuile%29._vue_ouest.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-Barth%C3%A9lemy%20de%20Sainte-Foy-Tarentaise%20(la%20Thuile).%20vue%20ouest.jpg",
+          "title": "Église Saint-Barthélemy de Sainte-Foy-Tarentaise (la Thuile). vue ouest.jpg",
+          "description": "Sainte-Foy-Tarentaise (Savoie)",
+          "width": 2008,
+          "height": 3008,
+          "size": 971072,
+          "timestamp": "2018-10-17T21:23:49Z",
+          "author": "ChBougui",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Passerelle en bois sur l’étang",

@@ -1,12 +1,13 @@
 {
   "slug": "plage-de-donnant",
   "nom": "Plage de Donnant",
-  "fetchedAt": "2026-03-14T10:58:10.145Z",
+  "fetchedAt": "2026-03-17T22:49:06.708Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Plage_de_Donnant_-_dsmm05333.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlage%20de%20Donnant%20-%20dsmm05333.jpg",
       "title": "Plage de Donnant - dsmm05333.jpg",
+      "description": "Plage de Donnant à Belle-Ile",
       "width": 4896,
       "height": 3264,
       "size": 6524928,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Plage_de_Donnant_-_dsmm05334.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlage%20de%20Donnant%20-%20dsmm05334.jpg",
       "title": "Plage de Donnant - dsmm05334.jpg",
+      "description": "Plage de Donnant à Belle-Ile",
       "width": 4896,
       "height": 3264,
       "size": 7946752,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Plage_de_Donnant_-_dsmm05337.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlage%20de%20Donnant%20-%20dsmm05337.jpg",
       "title": "Plage de Donnant - dsmm05337.jpg",
+      "description": "Plage de Donnant à Belle-Ile",
       "width": 4896,
       "height": 3264,
       "size": 8354816,
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Plage_vue_depuis_la_dune_de_Donnant.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlage%20vue%20depuis%20la%20dune%20de%20Donnant.jpg",
           "title": "Plage vue depuis la dune de Donnant.jpg",
+          "description": "Ganivelle sur la Dune de Donnant",
           "width": 4320,
           "height": 3240,
           "size": 2785567,
@@ -64,7 +68,36 @@
     },
     {
       "label": "Rochers noirs à l’extrémité ouest",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Rochers_%C3%A0_la_Plage_de_Donnant.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARochers%20%C3%A0%20la%20Plage%20de%20Donnant.JPG",
+          "title": "Rochers à la Plage de Donnant.JPG",
+          "description": "Rochers à la Plage de Donnant",
+          "width": 4320,
+          "height": 3240,
+          "size": 2787943,
+          "timestamp": "2013-12-14T18:49:47Z",
+          "author": "Patrice78500",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Belle-Ile_plage_rochers.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABelle-Ile%20plage%20rochers.jpg",
+          "title": "Belle-Ile plage rochers.jpg",
+          "description": "Plage de Donnant",
+          "width": 1280,
+          "height": 853,
+          "size": 326670,
+          "timestamp": "2008-04-02T20:57:20Z",
+          "author": "Remi Jouan",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     }
   ]
 }

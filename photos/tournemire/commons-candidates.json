@@ -1,12 +1,13 @@
 {
   "slug": "tournemire",
   "nom": "Tournemire",
-  "fetchedAt": "2026-03-14T12:56:01.982Z",
+  "fetchedAt": "2026-03-18T20:18:21.473Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Tournemire_%C3%89glise_Saint-Jean-Baptiste_de_Tournemire_and_Ch%C3%A2teau_d%27Anjony_seen_from_D60_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATournemire%20%C3%89glise%20Saint-Jean-Baptiste%20de%20Tournemire%20and%20Ch%C3%A2teau%20d'Anjony%20seen%20from%20D60%201.jpg",
       "title": "Tournemire Église Saint-Jean-Baptiste de Tournemire and Château d'Anjony seen from D60 1.jpg",
+      "description": "Église Saint-Jean-Baptiste de Tournemire and Château d'Anjony seen from D60, Tournemire, Cantal, France",
       "width": 6008,
       "height": 4008,
       "size": 15793679,
@@ -14,12 +15,13 @@
       "author": "Ymblanter",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Tournemire_%C3%89glise_Saint-Jean-Baptiste_de_Tournemire_and_Ch%C3%A2teau_d%27Anjony_seen_from_D60_2.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATournemire%20%C3%89glise%20Saint-Jean-Baptiste%20de%20Tournemire%20and%20Ch%C3%A2teau%20d'Anjony%20seen%20from%20D60%202.jpg",
       "title": "Tournemire Église Saint-Jean-Baptiste de Tournemire and Château d'Anjony seen from D60 2.jpg",
+      "description": "Église Saint-Jean-Baptiste de Tournemire and Château d'Anjony seen from D60, Tournemire, Cantal, France",
       "width": 6008,
       "height": 4008,
       "size": 17778028,
@@ -27,20 +29,21 @@
       "author": "Ymblanter",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Tournemire_Rue_du_Lavoir_seen_from_D60.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATournemire%20Rue%20du%20Lavoir%20seen%20from%20D60.jpg",
-      "title": "Tournemire Rue du Lavoir seen from D60.jpg",
-      "width": 5816,
-      "height": 3840,
-      "size": 19271308,
-      "timestamp": "2025-01-05T15:29:12Z",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Tournemire_Rue_des_Ch%C3%A2teaux_street_sign.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATournemire%20Rue%20des%20Ch%C3%A2teaux%20street%20sign.jpg",
+      "title": "Tournemire Rue des Châteaux street sign.jpg",
+      "description": "Street sign at Rue des Châteaux, Tournemire, Cantal, France",
+      "width": 5400,
+      "height": 3680,
+      "size": 15767890,
+      "timestamp": "2025-01-05T18:15:45Z",
       "author": "Ymblanter",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     }
   ],
   "lieux": [
@@ -48,49 +51,67 @@
       "label": "Château d’Anjony",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Ch%C3%A2teau_d%27Anjony_101.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20d'Anjony%20101.jpg",
-          "title": "Château d'Anjony 101.jpg",
-          "width": 6000,
-          "height": 4000,
-          "size": 7166304,
-          "timestamp": "2020-09-03T17:43:19Z",
-          "author": "Chatsam",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Ch%C3%A2teau_d%27Anjony_%C3%A0_Tournemire_%2815%29_-_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20d'Anjony%20%C3%A0%20Tournemire%20(15)%20-%2001.jpg",
+          "title": "Château d'Anjony à Tournemire (15) - 01.jpg",
+          "description": "Château d'Anjony à Tournemire (Cantal, France)",
+          "width": 4000,
+          "height": 3000,
+          "size": 5047296,
+          "timestamp": "2023-09-06T19:58:34Z",
+          "author": "Thérèse Gaigé",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Ch%C3%A2teau_d%27Anjony_100.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20d'Anjony%20100.jpg",
-          "title": "Château d'Anjony 100.jpg",
-          "width": 6000,
-          "height": 4000,
-          "size": 6615565,
-          "timestamp": "2020-09-03T17:43:20Z",
-          "author": "Chatsam",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Ch%C3%A2teau_d%27Anjony_102.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20d'Anjony%20102.jpg",
-          "title": "Château d'Anjony 102.jpg",
-          "width": 6000,
-          "height": 4000,
-          "size": 6065881,
-          "timestamp": "2020-09-03T17:43:19Z",
-          "author": "Chatsam",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         }
       ]
     },
     {
       "label": "Chapelle Saint-Illide",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Int%C3%A9rieur_de_l%27%C3%A9glise_de_Tournemire_%2815%29_-_07.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AInt%C3%A9rieur%20de%20l'%C3%A9glise%20de%20Tournemire%20(15)%20-%2007.jpg",
+          "title": "Intérieur de l'église de Tournemire (15) - 07.jpg",
+          "description": "Retable de la décollation de saint Jean-Baptiste dans l'une des chapelles situées au sud (Église Saint-Jean-Baptiste de Tournemire, Cantal)",
+          "width": 4000,
+          "height": 3000,
+          "size": 5370880,
+          "timestamp": "2023-09-06T14:48:14Z",
+          "author": "Thérèse Gaigé",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Int%C3%A9rieur_de_l%27%C3%A9glise_de_Tournemire_%2815%29_-_09.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AInt%C3%A9rieur%20de%20l'%C3%A9glise%20de%20Tournemire%20(15)%20-%2009.jpg",
+          "title": "Intérieur de l'église de Tournemire (15) - 09.jpg",
+          "description": "Retable de saint Georges combattant le dragon dans l'une des chapelles sud de l'église Saint-Jean-Baptiste de Tournemire",
+          "width": 4000,
+          "height": 3000,
+          "size": 5049344,
+          "timestamp": "2023-09-06T15:10:23Z",
+          "author": "Thérèse Gaigé",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Int%C3%A9rieur_de_l%27%C3%A9glise_de_Tournemire_%2815%29_-_11.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AInt%C3%A9rieur%20de%20l'%C3%A9glise%20de%20Tournemire%20(15)%20-%2011.jpg",
+          "title": "Intérieur de l'église de Tournemire (15) - 11.jpg",
+          "description": "L'une des chapelles sud de l'église Saint-Jean-Baptiste de Tournemire (Cantal, France)",
+          "width": 4000,
+          "height": 3000,
+          "size": 5192704,
+          "timestamp": "2023-09-06T15:16:03Z",
+          "author": "Thérèse Gaigé",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Fontaine centrale",
@@ -98,34 +119,7 @@
     },
     {
       "label": "Croix de Tournemire",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Vue_d%E2%80%99ensemble_de_Tournemire_%28Aveyron%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20d%E2%80%99ensemble%20de%20Tournemire%20(Aveyron).jpg",
-          "title": "Vue d’ensemble de Tournemire (Aveyron).jpg",
-          "width": 4496,
-          "height": 3000,
-          "size": 3580000,
-          "timestamp": "2017-09-07T17:01:25Z",
-          "author": "Ltrlg",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Cirque_du_Brias.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACirque%20du%20Brias.jpg",
-          "title": "Cirque du Brias.jpg",
-          "width": 4496,
-          "height": 3000,
-          "size": 4181943,
-          "timestamp": "2017-09-07T18:04:49Z",
-          "author": "Ltrlg",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        }
-      ]
+      "photos": []
     }
   ]
 }

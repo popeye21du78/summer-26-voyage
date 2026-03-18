@@ -1,64 +1,168 @@
 {
   "slug": "balma",
   "nom": "Balma",
-  "fetchedAt": "2026-03-13T00:03:53.901Z",
+  "fetchedAt": "2026-03-15T19:11:23.915Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/ISS053-E-80971_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS053-E-80971%20-%20View%20of%20Earth.jpg",
-      "title": "ISS053-E-80971 - View of Earth.jpg",
-      "width": 4928,
-      "height": 3280,
-      "size": 2240562,
-      "timestamp": "2021-04-01T21:22:40Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Balma_-_Ancienne_Mairie.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABalma%20-%20Ancienne%20Mairie.jpg",
+      "title": "Balma - Ancienne Mairie.jpg",
+      "description": "Facade of former town hall of  Balma, Haute-Garonne, France. Converted into a public library.",
+      "width": 4781,
+      "height": 2649,
+      "size": 11430002,
+      "timestamp": "2015-04-11T10:50:02Z",
+      "author": "Didier Descouens",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 6
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/ISS053-E-80972_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS053-E-80972%20-%20View%20of%20Earth.jpg",
-      "title": "ISS053-E-80972 - View of Earth.jpg",
-      "width": 4928,
-      "height": 3280,
-      "size": 2228077,
-      "timestamp": "2021-04-01T21:22:41Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Balma_-_La_Mairie.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABalma%20-%20La%20Mairie.jpg",
+      "title": "Balma - La Mairie.jpg",
+      "description": "Facade of town hall of Balma, Haute-Garonne, France.",
+      "width": 7116,
+      "height": 4655,
+      "size": 27321991,
+      "timestamp": "2015-08-26T17:32:31Z",
+      "author": "Didier Descouens",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 6
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/ISS053-E-85651_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS053-E-85651%20-%20View%20of%20Earth.jpg",
-      "title": "ISS053-E-85651 - View of Earth.jpg",
-      "width": 4928,
-      "height": 3280,
-      "size": 1888964,
-      "timestamp": "2021-04-01T21:47:21Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Balma_-_Chemin_de_Sironis_-_bo%C3%AEte_%C3%A0_livres.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABalma%20-%20Chemin%20de%20Sironis%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
+      "title": "Balma - Chemin de Sironis - boîte à livres.jpg",
+      "description": "Boîte à livres à Balma",
+      "width": 1408,
+      "height": 2500,
+      "size": 622076,
+      "timestamp": "2025-10-03T04:59:12Z",
+      "author": "MLD",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 6
     }
   ],
   "lieux": [
     {
       "label": "Parc Vidailhan",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Balma_de_la_Pinassa.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABalma%20de%20la%20Pinassa.jpg",
+          "title": "Balma de la Pinassa.jpg",
+          "description": "Balma de la Pinassa. Parc Natural de Sant Llorenç i l'Obac",
+          "width": 4032,
+          "height": 3024,
+          "size": 5727817,
+          "timestamp": "2021-03-29T17:39:52Z",
+          "author": "Romang",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Balma_de_Puig_Andreu%2C_t_Parc_natural_de_Sant_Lloren%C3%A7_del_Munt_i_l%27Obac.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABalma%20de%20Puig%20Andreu%2C%20t%20Parc%20natural%20de%20Sant%20Lloren%C3%A7%20del%20Munt%20i%20l'Obac.jpg",
+          "title": "Balma de Puig Andreu, t Parc natural de Sant Llorenç del Munt i l'Obac.jpg",
+          "description": "Balma de Puig Andreu, Parc natural de Sant Llorenç del Munt i l'Obac",
+          "width": 4032,
+          "height": 3024,
+          "size": 4319237,
+          "timestamp": "2024-02-29T17:20:09Z",
+          "author": "Romang",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Balma_de_Puig_Andreu%2C_Parc_natural_de_Sant_Lloren%C3%A7_del_Munt_i_l%27Obac.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABalma%20de%20Puig%20Andreu%2C%20Parc%20natural%20de%20Sant%20Lloren%C3%A7%20del%20Munt%20i%20l'Obac.jpg",
+          "title": "Balma de Puig Andreu, Parc natural de Sant Llorenç del Munt i l'Obac.jpg",
+          "description": "Balma de Puig Andreu, Parc natural de Sant Llorenç del Munt i l'Obac",
+          "width": 4032,
+          "height": 3024,
+          "size": 6077005,
+          "timestamp": "2024-02-29T17:20:09Z",
+          "author": "Romang",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Place de la Libération",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Balma_-_Ch%C3%A2teau_de_Th%C3%A9gra.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABalma%20-%20Ch%C3%A2teau%20de%20Th%C3%A9gra.jpg",
+          "title": "Balma - Château de Thégra.jpg",
+          "description": "Balma - Château de Thégra, 16ème siècle.",
+          "width": 5472,
+          "height": 3648,
+          "size": 9022835,
+          "timestamp": "2022-11-25T07:16:32Z",
+          "author": "Frédéric Neupont",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/31044-Balma-argile.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A31044-Balma-argile.jpg",
+          "title": "31044-Balma-argile.jpg",
+          "description": "Carte de l'aléa retrait-gonflement des argiles sur la commune de fr:Balma (France).",
+          "width": 3057,
+          "height": 2480,
+          "size": 580917,
+          "timestamp": "2022-09-06T07:35:43Z",
+          "author": "Roland45",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Spring_blossom_at_Balma_Glaster_-_geograph.org.uk_-_5877590.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASpring%20blossom%20at%20Balma%20Glaster%20-%20geograph.org.uk%20-%205877590.jpg",
+          "title": "Spring blossom at Balma Glaster - geograph.org.uk - 5877590.jpg",
+          "description": "Spring blossom at Balma Glaster",
+          "width": 1600,
+          "height": 1131,
+          "size": 451115,
+          "timestamp": "2023-12-06T11:01:54Z",
+          "author": "Alan Reid",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Église Saint-Joseph de Balma",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Santuario_Virgen_de_la_Balma.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASantuario%20Virgen%20de%20la%20Balma.jpg",
+          "title": "Santuario Virgen de la Balma.jpg",
+          "description": "Vistas desde el Santuario de la Virgen de la Balma",
+          "width": 4272,
+          "height": 2848,
+          "size": 6298051,
+          "timestamp": "2020-10-17T15:37:30Z",
+          "author": "Ripoll531",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Eglise_Saint_Martin_%28Lasbordes%29_%C3%A0_BALMA.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Saint%20Martin%20(Lasbordes)%20%C3%A0%20BALMA.jpg",
           "title": "Eglise Saint Martin (Lasbordes) à BALMA.jpg",
+          "description": "Church St. Martin, Balma-Lasbordes, Haute-Garonne, France",
           "width": 7015,
           "height": 4857,
           "size": 19083780,
@@ -69,37 +173,24 @@
           "score": 6
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Balma_-_Eglise_saint-Joseph.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABalma%20-%20Eglise%20saint-Joseph.jpg",
-          "title": "Balma - Eglise saint-Joseph.jpg",
-          "width": 5368,
-          "height": 5895,
-          "size": 15198806,
-          "timestamp": "2015-04-09T12:47:07Z",
-          "author": "Didier Descouens",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        }
-      ]
-    },
-    {
-      "label": "Lac Saint-Clair",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Le_Lac_Saint-Clair.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Lac%20Saint-Clair.jpg",
-          "title": "Le Lac Saint-Clair.jpg",
-          "width": 3264,
-          "height": 2176,
-          "size": 1284165,
-          "timestamp": "2016-12-24T12:09:44Z",
-          "author": "Adrianstork",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Porche_Eglise_Saint_Pierre_de_Pin-Balma.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APorche%20Eglise%20Saint%20Pierre%20de%20Pin-Balma.jpg",
+          "title": "Porche Eglise Saint Pierre de Pin-Balma.jpg",
+          "description": "Porche",
+          "width": 2472,
+          "height": 1136,
+          "size": 1809920,
+          "timestamp": "2017-07-27T07:42:51Z",
+          "author": "Mairie31",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
         }
       ]
+    },
+    {
+      "label": "Lac Saint-Clair",
+      "photos": []
     },
     {
       "label": "Aérodrome de Lasbordes",

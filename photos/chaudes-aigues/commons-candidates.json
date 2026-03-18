@@ -1,12 +1,13 @@
 {
   "slug": "chaudes-aigues",
   "nom": "Chaudes-Aigues",
-  "fetchedAt": "2026-03-13T13:23:29.657Z",
+  "fetchedAt": "2026-03-16T11:42:10.360Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Our_Lady_of_Mercy_chapel_in_Chaudes-Aigues_%281%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOur%20Lady%20of%20Mercy%20chapel%20in%20Chaudes-Aigues%20(1).jpg",
       "title": "Our Lady of Mercy chapel in Chaudes-Aigues (1).jpg",
+      "description": "Our Lady of Mercy chapel in Chaudes-Aigues, Cantal, France\n\n\n\n\n\n \nThis building is inscrit au titre des monuments historiques de la France. It is indexed in the base Mérimée, a database of architectural heritage maintained by the French Ministry of Culture, under the reference PA15000032 .\n\nbrezhoneg ∙ català ∙ Deutsch ∙ English ∙ español ∙ Esperanto ∙ euskara ∙ français ∙ italiano ∙ magyar ∙ Nederlands ∙ português do Brasil ∙ português ∙ română ∙ sicilianu ∙ slovenščina ∙ suomi ∙ svenska ∙ Ελλη",
       "width": 2203,
       "height": 1241,
       "size": 3050175,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Sts_Blaise_%26_Martin_church_in_Chaudes-Aigues_%283%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASts%20Blaise%20%26%20Martin%20church%20in%20Chaudes-Aigues%20(3).jpg",
       "title": "Sts Blaise & Martin church in Chaudes-Aigues (3).jpg",
+      "description": "Saints Blaise and Martin church in Chaudes-Aigues, Cantal, France",
       "width": 5128,
       "height": 3695,
       "size": 19656902,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/29_av._Pierre_Vialard_in_Chaudes-Aigues_%281%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A29%20av.%20Pierre%20Vialard%20in%20Chaudes-Aigues%20(1).jpg",
       "title": "29 av. Pierre Vialard in Chaudes-Aigues (1).jpg",
+      "description": "Building at 29 avenue Pierre Vialard in Chaudes-Aigues, Cantal, France",
       "width": 4222,
       "height": 3264,
       "size": 12267671,
@@ -46,47 +49,79 @@
   "lieux": [
     {
       "label": "Fontaine du Par",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Fontaine_du_lys_a_Chaudes_Aigues_%28Cantul%29_onz%2C_RP-F-F17827-W.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFontaine%20du%20lys%20a%20Chaudes%20Aigues%20(Cantul)%20onz%2C%20RP-F-F17827-W.jpg",
+          "title": "Fontaine du lys a Chaudes Aigues (Cantul) onz, RP-F-F17827-W.jpg",
+          "description": "IdentificatieTitel(s): Fontaine du lys a Chaudes Aigues (Cantul) [onz]Objecttype: foto stereofoto Objectnummer: RP-F-F17827-WVervaardigingVervaardiger: fotograaf: anoniemDatering: 1860 - 1900Fysieke kenmerken: fotografie op kartonMateriaal: karton Techniek: fotografieAfmetingen: secundaire drager: h 75 mm × b 150 mmVerwerving en rechtenVerwerving: overdracht van beheer 1994Copyright: Publiek domein",
+          "width": 7818,
+          "height": 3890,
+          "size": 3240726,
+          "timestamp": "2020-01-03T23:26:32Z",
+          "author": "Rijksmuseum",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Chaudes-Aigues_Couffour_fontaine.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChaudes-Aigues%20Couffour%20fontaine.jpg",
+          "title": "Chaudes-Aigues Couffour fontaine.jpg",
+          "description": "Fontaine à Couffour, Chaudes-Aigues, Cantal, France.",
+          "width": 2862,
+          "height": 2150,
+          "size": 1948328,
+          "timestamp": "2016-07-06T15:16:45Z",
+          "author": "Père Igor",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Église Saint-Martin",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Chaudes-Aigues_-_Eglise_Saint-Blaise-et-Saint-Martin_%281-2016%29_P1040666.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChaudes-Aigues%20-%20Eglise%20Saint-Blaise-et-Saint-Martin%20(1-2016)%20P1040666.jpg",
-          "title": "Chaudes-Aigues - Eglise Saint-Blaise-et-Saint-Martin (1-2016) P1040666.jpg",
-          "width": 2560,
-          "height": 1440,
-          "size": 2836992,
-          "timestamp": "2016-09-05T13:22:48Z",
-          "author": "BUFO88",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Sts_Blaise_%26_Martin_church_in_Chaudes-Aigues_%283%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASts%20Blaise%20%26%20Martin%20church%20in%20Chaudes-Aigues%20(3).jpg",
+          "title": "Sts Blaise & Martin church in Chaudes-Aigues (3).jpg",
+          "description": "Saints Blaise and Martin church in Chaudes-Aigues, Cantal, France",
+          "width": 5128,
+          "height": 3695,
+          "size": 19656902,
+          "timestamp": "2024-03-16T21:03:06Z",
+          "author": "Tournasol7",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/%C3%89glise_Saint-R%C3%A9mi_de_Saint-R%C3%A9my-de-Chaudes-Aigues_02.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-R%C3%A9mi%20de%20Saint-R%C3%A9my-de-Chaudes-Aigues%2002.JPG",
+          "title": "Église Saint-Rémi de Saint-Rémy-de-Chaudes-Aigues 02.JPG",
+          "description": "Église Saint-Rémi de Saint-Rémy-de-Chaudes-Aigues (Cantal, France)",
+          "width": 4608,
+          "height": 3456,
+          "size": 6669736,
+          "timestamp": "2016-05-14T19:35:12Z",
+          "author": "Jibi44",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Chaudes-Aigues_kerk_%282%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChaudes-Aigues%20kerk%20(2).jpg",
-          "title": "Chaudes-Aigues kerk (2).jpg",
-          "width": 2560,
-          "height": 1920,
-          "size": 1982780,
-          "timestamp": "2017-06-08T16:02:16Z",
-          "author": "JoJan",
-          "license": "CC BY 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Chaudes-Aigues_kerk_%285%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChaudes-Aigues%20kerk%20(5).jpg",
-          "title": "Chaudes-Aigues kerk (5).jpg",
-          "width": 2560,
-          "height": 1920,
-          "size": 2524322,
-          "timestamp": "2017-06-08T16:02:19Z",
-          "author": "JoJan",
-          "license": "CC BY 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/%C3%89glise_Saint-R%C3%A9mi_de_Saint-R%C3%A9my-de-Chaudes-Aigues_01.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-R%C3%A9mi%20de%20Saint-R%C3%A9my-de-Chaudes-Aigues%2001.JPG",
+          "title": "Église Saint-Rémi de Saint-Rémy-de-Chaudes-Aigues 01.JPG",
+          "description": "Église Saint-Rémi de Saint-Rémy-de-Chaudes-Aigues (Cantal, France)",
+          "width": 4608,
+          "height": 3456,
+          "size": 6885915,
+          "timestamp": "2016-05-14T19:35:13Z",
+          "author": "Jibi44",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
         }
@@ -94,7 +129,22 @@
     },
     {
       "label": "Musée de la Géothermie et du Thermalisme",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Chaudes-Aigues-Source-Mus%C3%A9e.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChaudes-Aigues-Source-Mus%C3%A9e.JPG",
+          "title": "Chaudes-Aigues-Source-Musée.JPG",
+          "description": "Chaudes-Aigues, station thermale unique dans le Cantal avec ses sources d'eaux chaudes (Cantal)",
+          "width": 3072,
+          "height": 2304,
+          "size": 1359820,
+          "timestamp": "2008-10-10T15:36:41Z",
+          "author": "User:OT chaudes aigues",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     },
     {
       "label": "Parc thermal Caleden",

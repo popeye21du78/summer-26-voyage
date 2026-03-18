@@ -1,46 +1,49 @@
 {
   "slug": "parc-naturel-regional-perigord-limousin",
   "nom": "Parc naturel régional Périgord-Limousin",
-  "fetchedAt": "2026-03-13T16:45:58.038Z",
+  "fetchedAt": "2026-03-17T22:14:35.500Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Windmills_in_Pleumartin_-_panoramio.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWindmills%20in%20Pleumartin%20-%20panoramio.jpg",
-      "title": "Windmills in Pleumartin - panoramio.jpg",
-      "width": 1600,
-      "height": 1200,
-      "size": 618170,
-      "timestamp": "2016-12-14T00:56:45Z",
-      "author": "Jeff Harding",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Le_parc_du_ch%C3%A2teau_de_Jumilhac.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20parc%20du%20ch%C3%A2teau%20de%20Jumilhac.jpg",
+      "title": "Le parc du château de Jumilhac.jpg",
+      "description": "Le parc du château",
+      "width": 4210,
+      "height": 2386,
+      "size": 2845421,
+      "timestamp": "2018-03-22T14:57:28Z",
+      "author": "La Vieille Maison de Pensol",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Parc_Naturel_R%C3%A9gional_P%C3%A9rigord_Limousin.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParc%20Naturel%20R%C3%A9gional%20P%C3%A9rigord%20Limousin.JPG",
+      "title": "Parc Naturel Régional Périgord Limousin.JPG",
+      "description": "Châtaignier Maraval couvert de fruits",
+      "width": 3872,
+      "height": 2176,
+      "size": 6314588,
+      "timestamp": "2015-05-12T14:11:00Z",
+      "author": "Blandine gacka",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 6
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Pleumartin_-_Place_de_l%27H%C3%B4tel_de_Ville_-_bo%C3%AEte_%C3%A0_livres.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APleumartin%20-%20Place%20de%20l'H%C3%B4tel%20de%20Ville%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
-      "title": "Pleumartin - Place de l'Hôtel de Ville - boîte à livres.jpg",
-      "width": 1125,
-      "height": 2000,
-      "size": 464919,
-      "timestamp": "2024-07-09T06:31:10Z",
-      "author": "<span lang=\"en\">Anonymous</span><span style=\"display:none\">Unknown author</span>",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Parc_naturel_r%C3%A9gional_P%C3%A9rigord_Limousin.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParc%20naturel%20r%C3%A9gional%20P%C3%A9rigord%20Limousin.jpg",
+      "title": "Parc naturel régional Périgord Limousin.jpg",
+      "description": "Panneau du parc naturel régional Périgord-Limousin",
+      "width": 4388,
+      "height": 2904,
+      "size": 2391286,
+      "timestamp": "2009-11-30T00:18:34Z",
+      "author": "Boklm",
+      "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/LaCoquille-LaBarde_01.JPG",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALaCoquille-LaBarde%2001.JPG",
-      "title": "LaCoquille-LaBarde 01.JPG",
-      "width": 3125,
-      "height": 2313,
-      "size": 2047410,
-      "timestamp": "2022-02-04T01:45:15Z",
-      "author": "Traumrune",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 4
     }
   ],
   "lieux": [
@@ -54,47 +57,7 @@
     },
     {
       "label": "Étang de Saint-Estèphe",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Ludwigia_grandiflora%2C_Etang-StEstephe-sept_05_Jussie.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALudwigia%20grandiflora%2C%20Etang-StEstephe-sept%2005%20Jussie.jpg",
-          "title": "Ludwigia grandiflora, Etang-StEstephe-sept 05 Jussie.jpg",
-          "width": 4288,
-          "height": 2848,
-          "size": 4583276,
-          "timestamp": "2012-10-05T18:01:28Z",
-          "author": "Traumrune",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Ludwigia_grandiflora%2C_Etang-StEstephe-sept_06_Jussie.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALudwigia%20grandiflora%2C%20Etang-StEstephe-sept%2006%20Jussie.jpg",
-          "title": "Ludwigia grandiflora, Etang-StEstephe-sept 06 Jussie.jpg",
-          "width": 4288,
-          "height": 2848,
-          "size": 4871479,
-          "timestamp": "2012-10-05T18:02:35Z",
-          "author": "Traumrune",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Ludwigia_grandiflora%2C_Etang-StEstephe-sept_08_Jussie.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALudwigia%20grandiflora%2C%20Etang-StEstephe-sept%2008%20Jussie.jpg",
-          "title": "Ludwigia grandiflora, Etang-StEstephe-sept 08 Jussie.jpg",
-          "width": 4288,
-          "height": 2848,
-          "size": 5456137,
-          "timestamp": "2012-10-05T18:22:53Z",
-          "author": "Traumrune",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Forêt de Rochechouart (astroblème)",

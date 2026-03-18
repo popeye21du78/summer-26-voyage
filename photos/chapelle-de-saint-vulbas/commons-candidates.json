@@ -1,12 +1,13 @@
 {
   "slug": "chapelle-de-saint-vulbas",
   "nom": "Chapelle de Saint-Vulbas",
-  "fetchedAt": "2026-03-13T12:38:32.758Z",
+  "fetchedAt": "2026-03-15T21:04:58.350Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/%C3%89glise_St_Vulbas_St_Vulbas_7.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20St%20Vulbas%20St%20Vulbas%207.jpg",
       "title": "Église St Vulbas St Vulbas 7.jpg",
+      "description": "Église Saint-Vulbas de Saint-Vulbas.",
       "width": 4032,
       "height": 3024,
       "size": 5194106,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/%C3%89glise_St_Vulbas_St_Vulbas_9.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20St%20Vulbas%20St%20Vulbas%209.jpg",
       "title": "Église St Vulbas St Vulbas 9.jpg",
+      "description": "Église Saint-Vulbas de Saint-Vulbas.",
       "width": 4032,
       "height": 3024,
       "size": 5119665,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/%C3%89glise_St_Vulbas_St_Vulbas_11.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20St%20Vulbas%20St%20Vulbas%2011.jpg",
       "title": "Église St Vulbas St Vulbas 11.jpg",
+      "description": "Église Saint-Vulbas de Saint-Vulbas.",
       "width": 4032,
       "height": 3024,
       "size": 5128166,
@@ -46,7 +49,36 @@
   "lieux": [
     {
       "label": "Façade de la chapelle et son clocher-mur",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Chapelle_de_Marcilleux_%28cropped%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20de%20Marcilleux%20(cropped).JPG",
+          "title": "Chapelle de Marcilleux (cropped).JPG",
+          "description": "Chapelle de Marcilleux, Marcilleux (Classé, 1944)",
+          "width": 1425,
+          "height": 1067,
+          "size": 376135,
+          "timestamp": "2022-09-22T15:58:39Z",
+          "author": "Soviflo",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Chapelle_de_Marcilleux.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20de%20Marcilleux.JPG",
+          "title": "Chapelle de Marcilleux.JPG",
+          "description": "Chapelle de Marcilleux, Marcilleux (Classé, 1944)",
+          "width": 2592,
+          "height": 1944,
+          "size": 911000,
+          "timestamp": "2012-09-27T16:09:35Z",
+          "author": "Soviflo",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Abside intérieure en cul-de-four",

@@ -1,44 +1,47 @@
 {
   "slug": "devesset",
   "nom": "Devesset",
-  "fetchedAt": "2026-03-13T14:04:20.858Z",
+  "fetchedAt": "2026-03-16T12:40:58.379Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Dig_Devesset%2C_07.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADig%20Devesset%2C%2007.jpg",
-      "title": "Dig Devesset, 07.jpg",
-      "width": 1136,
-      "height": 852,
-      "size": 269681,
-      "timestamp": "2018-01-23T14:20:51Z",
-      "author": "Nanzig",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Eglise_Saint-Jean-Baptiste_de_Devesset_2.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Saint-Jean-Baptiste%20de%20Devesset%202.jpg",
+      "title": "Eglise Saint-Jean-Baptiste de Devesset 2.jpg",
+      "description": "Eglise Saint-Jean-Baptiste de Devesset sous la neige.",
+      "width": 2894,
+      "height": 2169,
+      "size": 736729,
+      "timestamp": "2021-03-21T06:58:59Z",
+      "author": "PASQUION",
       "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/ISS044-E-6847_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS044-E-6847%20-%20View%20of%20Earth.jpg",
-      "title": "ISS044-E-6847 - View of Earth.jpg",
-      "width": 4928,
-      "height": 3280,
-      "size": 1531578,
-      "timestamp": "2021-03-19T07:45:07Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/ISS044-E-6848_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS044-E-6848%20-%20View%20of%20Earth.jpg",
-      "title": "ISS044-E-6848 - View of Earth.jpg",
-      "width": 4928,
-      "height": 3280,
-      "size": 1525601,
-      "timestamp": "2021-03-19T07:45:08Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/07080-Devesset-Sols.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A07080-Devesset-Sols.png",
+      "title": "07080-Devesset-Sols.png",
+      "description": "Carte des infrastructures et de l’occupation des sols en 2018 de la commune de fr:Devesset (France).",
+      "width": 3270,
+      "height": 2598,
+      "size": 2379874,
+      "timestamp": "2021-04-21T12:53:17Z",
+      "author": "Roland45",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Temple_de_Devesset.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATemple%20de%20Devesset.jpg",
+      "title": "Temple de Devesset.jpg",
+      "description": "Temple de l'église protestante unie de France",
+      "width": 4608,
+      "height": 3456,
+      "size": 4487226,
+      "timestamp": "2022-05-28T19:49:20Z",
+      "author": "FredSeiller",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     }
@@ -54,7 +57,22 @@
     },
     {
       "label": "Sentier de la rive est",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Bl_lac_Devesset%2C_07.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABl%20lac%20Devesset%2C%2007.jpg",
+          "title": "Bl lac Devesset, 07.jpg",
+          "description": "Lac et base de loisirs de Devesset, nord Ardèche.\nA 1h de route au sud de Saint-Etienne le site, géré par un syndicat intercommunal regroupant les communes de Saint-Agrève, Devesset et le Chambon sur Lignon (Haute-Loire), est aménagé en 1974-75.\nLa retenue, réalisée par endiguement de l’Eyrieux au sein du plateau Vivarais-Lignon, à une altitude de 1 075 m, s’étend sur 50 ha pour une dizaine de mètres de fond. Ce qui représente un volume total d’environ 2,3 millions de m3.\nOn peut en faire le tou",
+          "width": 1136,
+          "height": 852,
+          "size": 266280,
+          "timestamp": "2018-01-23T14:20:51Z",
+          "author": "Nanzig",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Lande au sud du lac",

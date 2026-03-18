@@ -1,12 +1,13 @@
 {
   "slug": "fort-la-latte",
   "nom": "Fort La Latte",
-  "fetchedAt": "2026-03-13T14:27:18.558Z",
+  "fetchedAt": "2026-03-16T13:30:31.935Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Menhir_de_La_Latte.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMenhir%20de%20La%20Latte.jpg",
       "title": "Menhir de La Latte.jpg",
+      "description": "Le menhir de La Latte, (dent de Gargantua) situé dans le chemin privé du parc du château de la Roche Goyon sur le village de Plévenon (Côtes d'Armor)",
       "width": 2048,
       "height": 1536,
       "size": 504660,
@@ -14,33 +15,35 @@
       "author": "Andrewsmasbath",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Fort-La-Latte%2C_August_2021.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFort-La-Latte%2C%20August%202021.jpg",
-      "title": "Fort-La-Latte, August 2021.jpg",
-      "width": 4608,
-      "height": 3456,
-      "size": 6437678,
-      "timestamp": "2021-08-28T16:53:41Z",
-      "author": "Mathieu Chollet",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Fort-la-Latte_-_Entr%C3%A9e_des_visiteurs.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFort-la-Latte%20-%20Entr%C3%A9e%20des%20visiteurs.jpg",
+      "title": "Fort-la-Latte - Entrée des visiteurs.jpg",
+      "description": "Visitors entrance and general view of fort-la-Latte (Côtes-d'Armor, France).",
+      "width": 2816,
+      "height": 2112,
+      "size": 2140075,
+      "timestamp": "2021-09-26T09:37:47Z",
+      "author": "Tangopaso",
+      "license": "Public domain",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Pl%C3%A9venon_-_Fort_la_Latte_20210519-01.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APl%C3%A9venon%20-%20Fort%20la%20Latte%2020210519-01.jpg",
-      "title": "Plévenon - Fort la Latte 20210519-01.jpg",
-      "width": 5472,
-      "height": 3648,
-      "size": 14016292,
-      "timestamp": "2021-09-03T21:16:11Z",
-      "author": "Pymouss",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Fort-la-Latte_-_Premi%C3%A8re_entr%C3%A9e_vue_g%C3%A9n%C3%A9rale.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFort-la-Latte%20-%20Premi%C3%A8re%20entr%C3%A9e%20vue%20g%C3%A9n%C3%A9rale.jpg",
+      "title": "Fort-la-Latte - Première entrée vue générale.jpg",
+      "description": "General view of the first entrance of fort-la-Latte (Côtes-d'Armor, France).",
+      "width": 2816,
+      "height": 2112,
+      "size": 2420076,
+      "timestamp": "2021-09-26T14:29:50Z",
+      "author": "Tangopaso",
+      "license": "Public domain",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     }
   ],
   "lieux": [
@@ -48,22 +51,24 @@
       "label": "Donjon du Fort La Latte",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Fort-la-Latte_-_La_base_du_donjon.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFort-la-Latte%20-%20La%20base%20du%20donjon.jpg",
-          "title": "Fort-la-Latte - La base du donjon.jpg",
-          "width": 2816,
-          "height": 2112,
-          "size": 1979174,
-          "timestamp": "2021-09-28T07:42:24Z",
-          "author": "Tangopaso",
-          "license": "Public domain",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Vue_depuis_le_donjon_de_Fort_la_Latte_%28Pl%C3%A9venon%2C_22%29_-_001.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20depuis%20le%20donjon%20de%20Fort%20la%20Latte%20(Pl%C3%A9venon%2C%2022)%20-%20001.jpg",
+          "title": "Vue depuis le donjon de Fort la Latte (Plévenon, 22) - 001.jpg",
+          "description": "Vue de l'anse des Sévignés et, en arrière-plan, du Cap Fréhel depuis le sommet du donjon (Château de la Roche Goyon à Plévenon, Côtes-d'Armor)",
+          "width": 4000,
+          "height": 3000,
+          "size": 5211648,
+          "timestamp": "2025-10-19T20:40:51Z",
+          "author": "Thérèse Gaigé",
+          "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Vue_depuis_le_donjon_de_Fort_la_Latte_%28Pl%C3%A9venon%2C_22%29_-_003.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20depuis%20le%20donjon%20de%20Fort%20la%20Latte%20(Pl%C3%A9venon%2C%2022)%20-%20003.jpg",
           "title": "Vue depuis le donjon de Fort la Latte (Plévenon, 22) - 003.jpg",
+          "description": "Vue depuis le donjon du château de la Roche Goyon, le cap Fréhel (Plévenon, Côtes-d'Armor)",
           "width": 4000,
           "height": 3000,
           "size": 5145088,
@@ -71,12 +76,13 @@
           "author": "Thérèse Gaigé",
           "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Vue_depuis_le_donjon_de_Fort_la_Latte_%28Pl%C3%A9venon%2C_22%29_-_002.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20depuis%20le%20donjon%20de%20Fort%20la%20Latte%20(Pl%C3%A9venon%2C%2022)%20-%20002.jpg",
           "title": "Vue depuis le donjon de Fort la Latte (Plévenon, 22) - 002.jpg",
+          "description": "Vue de la côte rocheuse de l'anse des Sévignés depuis le donjon du château de la Roche Goyon (Plévenon, Côtes-d'Armor)",
           "width": 4000,
           "height": 3000,
           "size": 5376000,
@@ -84,35 +90,150 @@
           "author": "Thérèse Gaigé",
           "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         }
       ]
     },
     {
       "label": "Chemin de ronde avec vue sur le Cap Fréhel",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Flore_et_jardins_au_Fort_la_Latte_%28Pl%C3%A9venon%2C_22%29_-_035.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlore%20et%20jardins%20au%20Fort%20la%20Latte%20(Pl%C3%A9venon%2C%2022)%20-%20035.jpg",
+          "title": "Flore et jardins au Fort la Latte (Plévenon, 22) - 035.jpg",
+          "description": "Dans le parc du Fort la Latte, des massifs de plantes en bordure du chemin d'accès au château de la Roche Goyon (Plévenon, Côtes-d'Armor)",
+          "width": 4000,
+          "height": 3000,
+          "size": 5402624,
+          "timestamp": "2025-10-19T17:09:30Z",
+          "author": "Thérèse Gaigé",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Premier_ch%C3%A2telet_de_Fort_la_Latte_%28Pl%C3%A9venon%2C_22%29_-_004.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APremier%20ch%C3%A2telet%20de%20Fort%20la%20Latte%20(Pl%C3%A9venon%2C%2022)%20-%20004.jpg",
+          "title": "Premier châtelet de Fort la Latte (Plévenon, 22) - 004.jpg",
+          "description": "Accolé au passage du premier châtelet, cet escalier permet d'accéder à ce qui reste du chemin de ronde dominant la barbacane du château de la Roche Goyon (Plévenon, Côtes-d'Armor)",
+          "width": 4000,
+          "height": 3000,
+          "size": 5207552,
+          "timestamp": "2025-10-23T18:50:11Z",
+          "author": "Thérèse Gaigé",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/La_tour_des_archers_du_Fort_la_Latte_%28Pl%C3%A9venon%2C_C%C3%B4tes-d%27Armor%29_-_002.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20tour%20des%20archers%20du%20Fort%20la%20Latte%20(Pl%C3%A9venon%2C%20C%C3%B4tes-d'Armor)%20-%20002.jpg",
+          "title": "La tour des archers du Fort la Latte (Plévenon, Côtes-d'Armor) - 002.jpg",
+          "description": "Dernier étage d'une tour des remparts, la salle de guet, ou salle des archers, communiquait avec le chemin de ronde du château de la Roche Goyon (Plévenon, Côtes-d'Armor)",
+          "width": 4000,
+          "height": 3000,
+          "size": 4932096,
+          "timestamp": "2025-10-23T20:24:29Z",
+          "author": "Thérèse Gaigé",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     },
     {
       "label": "Cour intérieure et pont-levis",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Fort-la-Latte_cour_int%C3%A9rieure.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFort-la-Latte%20cour%20int%C3%A9rieure.jpg",
-          "title": "Fort-la-Latte cour intérieure.jpg",
-          "width": 2592,
-          "height": 1944,
-          "size": 3152885,
-          "timestamp": "2008-08-04T12:08:45Z",
-          "author": "Abujoy",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Second_ch%C3%A2telet_de_Fort_la_Latte_%28Pl%C3%A9venon%2C_22%29_-_002.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASecond%20ch%C3%A2telet%20de%20Fort%20la%20Latte%20(Pl%C3%A9venon%2C%2022)%20-%20002.jpg",
+          "title": "Second châtelet de Fort la Latte (Plévenon, 22) - 002.jpg",
+          "description": "Gouffre au-dessus duquel se trouve le second pont-levis du château de la Roche-Goyon (Plévenon, Côtes-d'Armor)",
+          "width": 4000,
+          "height": 3000,
+          "size": 4912128,
+          "timestamp": "2025-10-22T12:49:27Z",
+          "author": "Thérèse Gaigé",
+          "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Second_ch%C3%A2telet_de_Fort_la_Latte_%28Pl%C3%A9venon%2C_22%29_-_001.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASecond%20ch%C3%A2telet%20de%20Fort%20la%20Latte%20(Pl%C3%A9venon%2C%2022)%20-%20001.jpg",
+          "title": "Second châtelet de Fort la Latte (Plévenon, 22) - 001.jpg",
+          "description": "Pont-levis et passage vers la cour du château de la Roche Goyon (Plévenon, Côte-d'Armor)",
+          "width": 4000,
+          "height": 3000,
+          "size": 4892672,
+          "timestamp": "2025-10-22T12:49:27Z",
+          "author": "Thérèse Gaigé",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Premier_ch%C3%A2telet_de_Fort_la_Latte_%28Pl%C3%A9venon%2C_22%29_-_001.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APremier%20ch%C3%A2telet%20de%20Fort%20la%20Latte%20(Pl%C3%A9venon%2C%2022)%20-%20001.jpg",
+          "title": "Premier châtelet de Fort la Latte (Plévenon, 22) - 001.jpg",
+          "description": "Pont-levis et passage du premier châtelet du Fort la Latte (Château de la Roche Goyon à Plévenon, Côtes-d'Armor)",
+          "width": 3000,
+          "height": 4000,
+          "size": 4962816,
+          "timestamp": "2025-10-22T03:28:18Z",
+          "author": "Thérèse Gaigé",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
         }
       ]
     },
     {
       "label": "Jardin clos",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Flore_et_jardins_au_Fort_la_Latte_%28Pl%C3%A9venon%2C_22%29_-_002.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlore%20et%20jardins%20au%20Fort%20la%20Latte%20(Pl%C3%A9venon%2C%2022)%20-%20002.jpg",
+          "title": "Flore et jardins au Fort la Latte (Plévenon, 22) - 002.jpg",
+          "description": "Rosiers rugueux plantés en bordure du passage de la barbacane séparant les deux châtelets du château de la Roche-Goyon (Plévenon, Côtes-d'Armor)",
+          "width": 4000,
+          "height": 3000,
+          "size": 4962816,
+          "timestamp": "2025-10-15T21:17:56Z",
+          "author": "Thérèse Gaigé",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Flore_et_jardins_au_Fort_la_Latte_%28Pl%C3%A9venon%2C_22%29_-_003.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlore%20et%20jardins%20au%20Fort%20la%20Latte%20(Pl%C3%A9venon%2C%2022)%20-%20003.jpg",
+          "title": "Flore et jardins au Fort la Latte (Plévenon, 22) - 003.jpg",
+          "description": "Rosiers rugueux de part et d'autre du passage de la barbacane reliant les deux châtelets du château de la Roche-Goyon (Plévenon, Côtes-d'Armor)",
+          "width": 4000,
+          "height": 3000,
+          "size": 5370880,
+          "timestamp": "2025-10-15T21:17:56Z",
+          "author": "Thérèse Gaigé",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Flore_et_jardins_au_Fort_la_Latte_%28Pl%C3%A9venon%2C_22%29_-_001.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlore%20et%20jardins%20au%20Fort%20la%20Latte%20(Pl%C3%A9venon%2C%2022)%20-%20001.jpg",
+          "title": "Flore et jardins au Fort la Latte (Plévenon, 22) - 001.jpg",
+          "description": "Découverte du château de la Roche-Goyon depuis la lande (Plévenon, Côtes-d'Armor)",
+          "width": 4000,
+          "height": 3000,
+          "size": 5236736,
+          "timestamp": "2025-10-15T21:17:56Z",
+          "author": "Thérèse Gaigé",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     }
   ]
 }

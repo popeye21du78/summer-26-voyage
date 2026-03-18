@@ -1,12 +1,27 @@
 {
   "slug": "vezelay",
   "nom": "Vézelay",
-  "fetchedAt": "2026-03-14T14:32:45.506Z",
+  "fetchedAt": "2026-03-18T20:48:32.493Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/V%C3%A9zelay_rue_Saint-Etienne.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AV%C3%A9zelay%20rue%20Saint-Etienne.jpg",
+      "title": "Vézelay rue Saint-Etienne.jpg",
+      "description": "Vue de la rue Saint-Étienne au pied de la colline de Vézelay, prise depuis une chambre de l'hôtel de la Poste et du Lion d'Or. On aperçoit les clochers de l'ancienne église Saint-Pierre et de la basilique Sainte-Marie Madeleine.",
+      "width": 3264,
+      "height": 1836,
+      "size": 1789455,
+      "timestamp": "2023-06-18T19:24:42Z",
+      "author": "Pemberlaid",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Ancienne_%C3%89glise_Saint_%C3%89tienne_-_V%C3%A9zelay_%28FR89%29_-_2021-05-17_-_2.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAncienne%20%C3%89glise%20Saint%20%C3%89tienne%20-%20V%C3%A9zelay%20(FR89)%20-%202021-05-17%20-%202.jpg",
       "title": "Ancienne Église Saint Étienne - Vézelay (FR89) - 2021-05-17 - 2.jpg",
+      "description": "Ancienne église Saint-Étienne de Vézelay.",
       "width": 4032,
       "height": 3024,
       "size": 5648230,
@@ -20,23 +35,11 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Ancienne_%C3%89glise_Saint_%C3%89tienne_-_V%C3%A9zelay_%28FR89%29_-_2021-05-17_-_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAncienne%20%C3%89glise%20Saint%20%C3%89tienne%20-%20V%C3%A9zelay%20(FR89)%20-%202021-05-17%20-%201.jpg",
       "title": "Ancienne Église Saint Étienne - Vézelay (FR89) - 2021-05-17 - 1.jpg",
+      "description": "Ancienne église Saint-Étienne de Vézelay.",
       "width": 4032,
       "height": 3024,
       "size": 4027561,
       "timestamp": "2021-05-18T00:14:57Z",
-      "author": "Chabe01",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Ancienne_%C3%89glise_Saint_%C3%89tienne_-_V%C3%A9zelay_%28FR89%29_-_2021-05-17_-_4.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAncienne%20%C3%89glise%20Saint%20%C3%89tienne%20-%20V%C3%A9zelay%20(FR89)%20-%202021-05-17%20-%204.jpg",
-      "title": "Ancienne Église Saint Étienne - Vézelay (FR89) - 2021-05-17 - 4.jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 4130997,
-      "timestamp": "2021-05-18T00:15:25Z",
       "author": "Chabe01",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
@@ -48,40 +51,43 @@
       "label": "Basilique Sainte-Marie-Madeleine",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Basilique_Sainte_Marie-Madeleine_de_V%C3%A9zelay%2C_fa%C3%A7ade_occidentale_%281%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABasilique%20Sainte%20Marie-Madeleine%20de%20V%C3%A9zelay%2C%20fa%C3%A7ade%20occidentale%20(1).jpg",
-          "title": "Basilique Sainte Marie-Madeleine de Vézelay, façade occidentale (1).jpg",
-          "width": 4896,
-          "height": 2752,
-          "size": 3081644,
-          "timestamp": "2020-09-07T18:57:06Z",
-          "author": "Ibex73",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Aerial_image_of_V%C3%A9zelay_Abbey_%28view_from_the_southwest%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAerial%20image%20of%20V%C3%A9zelay%20Abbey%20(view%20from%20the%20southwest).jpg",
+          "title": "Aerial image of Vézelay Abbey (view from the southwest).jpg",
+          "description": "Aerial image of Vézelay Abbey (view from the southwest)",
+          "width": 5000,
+          "height": 3300,
+          "size": 9745263,
+          "timestamp": "2025-09-18T18:23:47Z",
+          "author": "Carsten Steger",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Mary_Magdalene_basilica_in_Vezelay_07.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMary%20Magdalene%20basilica%20in%20Vezelay%2007.jpg",
+          "title": "Mary Magdalene basilica in Vezelay 07.jpg",
+          "description": "Capitals in the Mary Magdalene basilica in Vézelay, Yonne, France.",
+          "width": 4882,
+          "height": 3656,
+          "size": 11953216,
+          "timestamp": "2020-09-24T13:47:58Z",
+          "author": "Krzysztof Golik",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Basilique_Sainte-Marie-Madeleine_de_V%C3%A9zelay%2C_flanc_sud_%281%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABasilique%20Sainte-Marie-Madeleine%20de%20V%C3%A9zelay%2C%20flanc%20sud%20(1).jpg",
-          "title": "Basilique Sainte-Marie-Madeleine de Vézelay, flanc sud (1).jpg",
-          "width": 4721,
-          "height": 2653,
-          "size": 2314865,
-          "timestamp": "2020-09-07T19:07:32Z",
-          "author": "Ibex73",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Basilique_Sainte-Marie-Madeleine_de_V%C3%A9zelay%2C_flanc_sud_%285%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABasilique%20Sainte-Marie-Madeleine%20de%20V%C3%A9zelay%2C%20flanc%20sud%20(5).jpg",
-          "title": "Basilique Sainte-Marie-Madeleine de Vézelay, flanc sud (5).jpg",
-          "width": 4896,
-          "height": 2752,
-          "size": 3271983,
-          "timestamp": "2020-09-07T19:07:36Z",
-          "author": "Ibex73",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/V%C3%A9zelay_-_Basilique_Sainte-Marie-Madeleine_-_Ext%C3%A9rieur_-_03.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AV%C3%A9zelay%20-%20Basilique%20Sainte-Marie-Madeleine%20-%20Ext%C3%A9rieur%20-%2003.jpg",
+          "title": "Vézelay - Basilique Sainte-Marie-Madeleine - Extérieur - 03.jpg",
+          "description": "Vézelay (Yonne, France) - Saint Mary Magdalene basilica - Fence, towers and South facade",
+          "width": 6264,
+          "height": 4180,
+          "size": 11063452,
+          "timestamp": "2025-12-02T18:12:12Z",
+          "author": "Benjamin Smith",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
@@ -90,11 +96,97 @@
     },
     {
       "label": "Terrasse panoramique derrière la basilique",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Vue_Village_depuis_Terasse_Ancien_Ch%C3%A2teau_Abbatial_V%C3%A9zelay_-_Saint-P%C3%A8re_%28FR89%29_-_2021-05-17_-_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20Village%20depuis%20Terasse%20Ancien%20Ch%C3%A2teau%20Abbatial%20V%C3%A9zelay%20-%20Saint-P%C3%A8re%20(FR89)%20-%202021-05-17%20-%201.jpg",
+          "title": "Vue Village depuis Terasse Ancien Château Abbatial Vézelay - Saint-Père (FR89) - 2021-05-17 - 1.jpg",
+          "description": "Vue du village de Saint-Père depuis la terrasse de l'Ancien Château Abbatial de Vézelay, Saint-Père, Yonne.",
+          "width": 4032,
+          "height": 3024,
+          "size": 4667691,
+          "timestamp": "2021-05-17T21:52:50Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Vue_Village_depuis_Terasse_Ancien_Ch%C3%A2teau_Abbatial_V%C3%A9zelay_-_Saint-P%C3%A8re_%28FR89%29_-_2021-05-17_-_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20Village%20depuis%20Terasse%20Ancien%20Ch%C3%A2teau%20Abbatial%20V%C3%A9zelay%20-%20Saint-P%C3%A8re%20(FR89)%20-%202021-05-17%20-%202.jpg",
+          "title": "Vue Village depuis Terasse Ancien Château Abbatial Vézelay - Saint-Père (FR89) - 2021-05-17 - 2.jpg",
+          "description": "Vue du village de Saint-Père depuis la terrasse de l'Ancien Château Abbatial de Vézelay, Saint-Père, Yonne.",
+          "width": 4032,
+          "height": 3024,
+          "size": 4952302,
+          "timestamp": "2021-05-17T21:52:50Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Mur_Ancien_Ch%C3%A2teau_Jardins_Terrasse_-_V%C3%A9zelay_%28FR89%29_-_2021-05-17_-_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMur%20Ancien%20Ch%C3%A2teau%20Jardins%20Terrasse%20-%20V%C3%A9zelay%20(FR89)%20-%202021-05-17%20-%201.jpg",
+          "title": "Mur Ancien Château Jardins Terrasse - Vézelay (FR89) - 2021-05-17 - 1.jpg",
+          "description": "Mur de l'ancien château abbatial, jardins de la Terrasse, Vézelay.",
+          "width": 4032,
+          "height": 3024,
+          "size": 5060449,
+          "timestamp": "2021-05-18T13:28:54Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     },
     {
       "label": "Jardins de la Cordelle",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Mur_Ancien_Ch%C3%A2teau_Jardins_Terrasse_-_V%C3%A9zelay_%28FR89%29_-_2021-05-17_-_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMur%20Ancien%20Ch%C3%A2teau%20Jardins%20Terrasse%20-%20V%C3%A9zelay%20(FR89)%20-%202021-05-17%20-%201.jpg",
+          "title": "Mur Ancien Château Jardins Terrasse - Vézelay (FR89) - 2021-05-17 - 1.jpg",
+          "description": "Mur de l'ancien château abbatial, jardins de la Terrasse, Vézelay.",
+          "width": 4032,
+          "height": 3024,
+          "size": 5060449,
+          "timestamp": "2021-05-18T13:28:54Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Mur_Ancien_Ch%C3%A2teau_Jardins_Terrasse_-_V%C3%A9zelay_%28FR89%29_-_2021-05-17_-_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMur%20Ancien%20Ch%C3%A2teau%20Jardins%20Terrasse%20-%20V%C3%A9zelay%20(FR89)%20-%202021-05-17%20-%202.jpg",
+          "title": "Mur Ancien Château Jardins Terrasse - Vézelay (FR89) - 2021-05-17 - 2.jpg",
+          "description": "Mur de l'ancien château abbatial, jardins de la Terrasse, Vézelay.",
+          "width": 4032,
+          "height": 3024,
+          "size": 7007560,
+          "timestamp": "2021-05-18T13:28:57Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Mur_Ancien_Ch%C3%A2teau_Jardins_Terrasse_-_V%C3%A9zelay_%28FR89%29_-_2021-05-17_-_3.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMur%20Ancien%20Ch%C3%A2teau%20Jardins%20Terrasse%20-%20V%C3%A9zelay%20(FR89)%20-%202021-05-17%20-%203.jpg",
+          "title": "Mur Ancien Château Jardins Terrasse - Vézelay (FR89) - 2021-05-17 - 3.jpg",
+          "description": "Mur de l'ancien château abbatial, jardins de la Terrasse, Vézelay.",
+          "width": 4032,
+          "height": 3024,
+          "size": 6065824,
+          "timestamp": "2021-05-18T13:29:01Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     }
   ]
 }

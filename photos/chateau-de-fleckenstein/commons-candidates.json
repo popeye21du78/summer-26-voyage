@@ -1,52 +1,70 @@
 {
   "slug": "chateau-de-fleckenstein",
   "nom": "Château de Fleckenstein",
-  "fetchedAt": "2026-03-13T13:05:15.612Z",
+  "fetchedAt": "2026-03-15T21:27:07.033Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/R%C5%93schwoog%2C_Mairie.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AR%C5%93schwoog%2C%20Mairie.jpg",
-      "title": "Rœschwoog, Mairie.jpg",
-      "width": 1923,
-      "height": 1531,
-      "size": 352155,
-      "timestamp": "2025-08-05T21:36:31Z",
-      "author": "Rauenstein",
-      "license": "Public domain",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Roeschwoog_activ%27Diet_rue_immenlach8.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARoeschwoog%20activ'Diet%20rue%20immenlach8.jpg",
-      "title": "Roeschwoog activ'Diet rue immenlach8.jpg",
-      "width": 4164,
-      "height": 2015,
-      "size": 882274,
-      "timestamp": "2024-06-16T08:02:25Z",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Roeschwoog_chateau_d%27eau_rue_des_fleckenstein.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARoeschwoog%20chateau%20d'eau%20rue%20des%20fleckenstein.jpg",
+      "title": "Roeschwoog chateau d'eau rue des fleckenstein.jpg",
+      "description": "Château d'eau Rue des Fleckenstein à Rœschwoog",
+      "width": 2084,
+      "height": 4624,
+      "size": 2095572,
+      "timestamp": "2024-06-16T08:28:55Z",
       "author": "Didivo67",
       "license": "CC0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 8
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Roeschwoog_plaque_de_rue1.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARoeschwoog%20plaque%20de%20rue1.jpg",
-      "title": "Roeschwoog plaque de rue1.jpg",
-      "width": 3276,
-      "height": 1671,
-      "size": 591048,
-      "timestamp": "2024-06-17T06:53:17Z",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Roeschwoog_crucifix_rue_du_chateau_d%27eau2.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARoeschwoog%20crucifix%20rue%20du%20chateau%20d'eau2.jpg",
+      "title": "Roeschwoog crucifix rue du chateau d'eau2.jpg",
+      "description": "Crucifix Rue du château d'eau à Rœschwoog",
+      "width": 2330,
+      "height": 3799,
+      "size": 2845560,
+      "timestamp": "2024-06-16T08:36:10Z",
       "author": "Didivo67",
       "license": "CC0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 8
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Roeschwoog_crucifix_rue_du_chateau_d%27eau3.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARoeschwoog%20crucifix%20rue%20du%20chateau%20d'eau3.jpg",
+      "title": "Roeschwoog crucifix rue du chateau d'eau3.jpg",
+      "description": "Crucifix Rue du château d'eau à Rœschwoog",
+      "width": 2472,
+      "height": 4058,
+      "size": 3974198,
+      "timestamp": "2024-06-16T08:36:11Z",
+      "author": "Didivo67",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
     }
   ],
   "lieux": [
     {
       "label": "Escalier troglodytique",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Fleckenstein_-_escalier_troglodyte.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFleckenstein%20-%20escalier%20troglodyte.jpg",
+          "title": "Fleckenstein - escalier troglodyte.jpg",
+          "description": "Escalier troglodyte du château de Fleckenstein (Bas-Rhin, Alsace, France).",
+          "width": 3264,
+          "height": 4928,
+          "size": 7694137,
+          "timestamp": "2011-08-17T00:05:12Z",
+          "author": "DC",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Panorama du sommet du rocher",

@@ -1,12 +1,13 @@
 {
   "slug": "erdeven",
   "nom": "Erdeven",
-  "fetchedAt": "2026-03-13T14:14:11.543Z",
+  "fetchedAt": "2026-03-16T13:06:49.541Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/La-chapelle-de-Lann-Gro%C3%ABz-ou-chapelle-de-la-Vraie-Croix-%C3%A0-Erdeven-Juillet-2022.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa-chapelle-de-Lann-Gro%C3%ABz-ou-chapelle-de-la-Vraie-Croix-%C3%A0-Erdeven-Juillet-2022.jpg",
       "title": "La-chapelle-de-Lann-Groëz-ou-chapelle-de-la-Vraie-Croix-à-Erdeven-Juillet-2022.jpg",
+      "description": "La chapelle de Lann Groëz aussi nommée en français « chapelle de la Vraie-Croix » datée du XVIe siècle et se site dans le bourg d'Erdeven tout près de l'église paroissiale Saint-Pierre-et-Saint-Paul de l'autre côté vers de la rue principale à l'est...\nUn belle chapelle typiquement bretonne montrant un porche en arc en plein cintre surmonté d'un oculus et dominé par un clocher simple avec de petits pinacles d'une simplicité austère... Pas de sculpture sur cette façade.\nSur la façade sud, au début",
       "width": 4864,
       "height": 3648,
       "size": 7782730,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/La_mairie_avec_l%27extension_de_Erdeven-1966.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20mairie%20avec%20l'extension%20de%20Erdeven-1966.jpg",
       "title": "La mairie avec l'extension de Erdeven-1966.jpg",
+      "description": "La mairie avec l'extension de Erdeven",
       "width": 5875,
       "height": 3305,
       "size": 12440166,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/La_mairie_avec_l%27extension_de_Erdeven-1967.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20mairie%20avec%20l'extension%20de%20Erdeven-1967.jpg",
       "title": "La mairie avec l'extension de Erdeven-1967.jpg",
+      "description": "La mairie avec l'extension de Erdeven",
       "width": 6720,
       "height": 3780,
       "size": 17398653,
@@ -48,43 +51,46 @@
       "label": "Alignements de menhirs de Kerzerho",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Erdeven%2C_France_-_panoramio_%282%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AErdeven%2C%20France%20-%20panoramio%20(2).jpg",
-          "title": "Erdeven, France - panoramio (2).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Erdeven_-_Les_Alignemens_de_Kerzerho_%28Collection_H._Laurent%2C_Port-Louis%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AErdeven%20-%20Les%20Alignemens%20de%20Kerzerho%20(Collection%20H.%20Laurent%2C%20Port-Louis).jpg",
+          "title": "Erdeven - Les Alignemens de Kerzerho (Collection H. Laurent, Port-Louis).jpg",
+          "description": "Erdeven - Les Alignemens de Kerzerho (Collection H. Laurent, Port-Louis)",
+          "width": 1537,
+          "height": 976,
+          "size": 747413,
+          "timestamp": "2024-07-07T17:41:35Z",
+          "author": "Collection H. Laurent, Port-Louis",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Erdeven%2C_France_-_panoramio.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AErdeven%2C%20France%20-%20panoramio.jpg",
+          "title": "Erdeven, France - panoramio.jpg",
+          "description": "Erdeven, France",
           "width": 1536,
           "height": 1024,
-          "size": 1025958,
-          "timestamp": "2016-11-14T07:26:21Z",
+          "size": 1271312,
+          "timestamp": "2016-11-14T07:26:01Z",
           "author": "Wee Bugger",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Menhirs_de_Kerz%C3%A9rho_%28Erdeven%29-cd02.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMenhirs%20de%20Kerz%C3%A9rho%20(Erdeven)-cd02.jpg",
-          "title": "Menhirs de Kerzérho (Erdeven)-cd02.jpg",
-          "width": 5260,
-          "height": 3505,
-          "size": 18633594,
-          "timestamp": "2018-02-09T14:21:47Z",
-          "author": "Christian Duprez",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Erdeven%2C_France_-_panoramio_%281%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AErdeven%2C%20France%20-%20panoramio%20(1).jpg",
+          "title": "Erdeven, France - panoramio (1).jpg",
+          "description": "Erdeven, France",
+          "width": 1536,
+          "height": 1024,
+          "size": 1227011,
+          "timestamp": "2016-11-14T07:26:11Z",
+          "author": "Wee Bugger",
+          "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Tours_-_gare_centrale_%2810%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATours%20-%20gare%20centrale%20(10).jpg",
-          "title": "Tours - gare centrale (10).jpg",
-          "width": 2448,
-          "height": 3264,
-          "size": 3318560,
-          "timestamp": "2017-09-09T09:02:01Z",
-          "author": "Fab5669",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
         }
       ]
     },
@@ -92,17 +98,46 @@
       "label": "Plage de Kerhillio",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Le_Moulin_du_Narbon_-_Erdeven_-_Juillet_2022.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Moulin%20du%20Narbon%20-%20Erdeven%20-%20Juillet%202022.jpg",
-          "title": "Le Moulin du Narbon - Erdeven - Juillet 2022.jpg",
-          "width": 3200,
-          "height": 2400,
-          "size": 979971,
-          "timestamp": "2022-07-15T08:53:03Z",
-          "author": "Erwan Corre",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/015_Erdeven_Plage_de_Kerouriec.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A015%20Erdeven%20Plage%20de%20Kerouriec.jpg",
+          "title": "015 Erdeven Plage de Kerouriec.jpg",
+          "description": "Erdeven : la plage de Kerouriec vue depuis la Pointe de la Roche Sèche.",
+          "width": 4320,
+          "height": 2160,
+          "size": 4080823,
+          "timestamp": "2021-07-07T03:50:10Z",
+          "author": "Moreau.henri",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/354_Erdeven.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A354%20Erdeven.jpg",
+          "title": "354 Erdeven.jpg",
+          "description": "Erdeven : la plage de Kerouriec l'hiver vue de l'accès à la Pointe de la Roche Sèche.",
+          "width": 4320,
+          "height": 1492,
+          "size": 2649260,
+          "timestamp": "2021-07-07T04:20:06Z",
+          "author": "Moreau.henri",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/732_Erdeven.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A732%20Erdeven.jpg",
+          "title": "732 Erdeven.jpg",
+          "description": "Erdeven : la plage de Porh Kerhuet vue depuis les rocher de Karreg Vraz (au premier plan) ; au milieu de la photographie la pointe de Porh Lineneü ; à l'arrière-plan à droite la pointe de la Roche Sèche et, en mer, l'îlot des Rouzes et l'île de Roëlan.",
+          "width": 4320,
+          "height": 1673,
+          "size": 3129903,
+          "timestamp": "2021-07-08T03:28:21Z",
+          "author": "Moreau.henri",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
         }
       ]
     },
@@ -112,7 +147,50 @@
     },
     {
       "label": "Chapelle Saint-Germain",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/La-chapelle-de-Lann-Gro%C3%ABz-ou-chapelle-de-la-Vraie-Croix-%C3%A0-Erdeven-Juillet-2022.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa-chapelle-de-Lann-Gro%C3%ABz-ou-chapelle-de-la-Vraie-Croix-%C3%A0-Erdeven-Juillet-2022.jpg",
+          "title": "La-chapelle-de-Lann-Groëz-ou-chapelle-de-la-Vraie-Croix-à-Erdeven-Juillet-2022.jpg",
+          "description": "La chapelle de Lann Groëz aussi nommée en français « chapelle de la Vraie-Croix » datée du XVIe siècle et se site dans le bourg d'Erdeven tout près de l'église paroissiale Saint-Pierre-et-Saint-Paul de l'autre côté vers de la rue principale à l'est...\nUn belle chapelle typiquement bretonne montrant un porche en arc en plein cintre surmonté d'un oculus et dominé par un clocher simple avec de petits pinacles d'une simplicité austère... Pas de sculpture sur cette façade.\nSur la façade sud, au début",
+          "width": 4864,
+          "height": 3648,
+          "size": 7782730,
+          "timestamp": "2022-07-31T13:34:24Z",
+          "author": "Erwan Corre",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/La_chapelle_des_sept_saints_a_erdeven_-_panoramio.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20chapelle%20des%20sept%20saints%20a%20erdeven%20-%20panoramio.jpg",
+          "title": "La chapelle des sept saints a erdeven - panoramio.jpg",
+          "description": "la chapelle des sept saints a erdeven",
+          "width": 4000,
+          "height": 3000,
+          "size": 4931584,
+          "timestamp": "2017-05-07T06:18:22Z",
+          "author": "chisloup",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Erdeven_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AErdeven%202.jpg",
+          "title": "Erdeven 2.jpg",
+          "description": "excellent example of britanny renaissance architecture",
+          "width": 1920,
+          "height": 2560,
+          "size": 2181904,
+          "timestamp": "2020-09-27T10:19:31Z",
+          "author": "Kernevest",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

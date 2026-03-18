@@ -1,25 +1,13 @@
 {
   "slug": "turenne",
   "nom": "Turenne",
-  "fetchedAt": "2026-03-14T12:59:01.061Z",
+  "fetchedAt": "2026-03-18T20:26:02.502Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Turenne_-_Overall_view_-_1.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATurenne%20-%20Overall%20view%20-%201.jpg",
-      "title": "Turenne - Overall view - 1.jpg",
-      "width": 5420,
-      "height": 3608,
-      "size": 6105650,
-      "timestamp": "2020-03-21T09:19:42Z",
-      "author": "Austral Lights",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Drapeau_Ch%C3%A2teau_de_Turenne_Corr%C3%A8ze_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADrapeau%20Ch%C3%A2teau%20de%20Turenne%20Corr%C3%A8ze%201.jpg",
       "title": "Drapeau Château de Turenne Corrèze 1.jpg",
+      "description": "Drapeau Château de Turenne Corrèze",
       "width": 5184,
       "height": 2920,
       "size": 4754926,
@@ -27,12 +15,13 @@
       "author": "Selmoval",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Drapeau_Ch%C3%A2teau_de_Turenne_Corr%C3%A8ze_2.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADrapeau%20Ch%C3%A2teau%20de%20Turenne%20Corr%C3%A8ze%202.jpg",
       "title": "Drapeau Château de Turenne Corrèze 2.jpg",
+      "description": "Drapeau Château de Turenne Corrèze",
       "width": 5184,
       "height": 2920,
       "size": 4453231,
@@ -40,7 +29,21 @@
       "author": "Selmoval",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Chateau_Turenne.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau%20Turenne.jpg",
+      "title": "Chateau Turenne.jpg",
+      "description": "Vue générale du Château de Turenne",
+      "width": 3264,
+      "height": 1836,
+      "size": 2846269,
+      "timestamp": "2017-09-11T17:02:32Z",
+      "author": "Shawabunga",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
     }
   ],
   "lieux": [
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/France_NA_19_Turenne_01.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20NA%2019%20Turenne%2001.jpg",
           "title": "France NA 19 Turenne 01.jpg",
+          "description": "Château de Turenne",
           "width": 6016,
           "height": 4016,
           "size": 7832061,
@@ -58,12 +62,13 @@
           "author": "Calips",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/France_NA_19_Turenne_02.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20NA%2019%20Turenne%2002.jpg",
           "title": "France NA 19 Turenne 02.jpg",
+          "description": "Château de Turenne",
           "width": 6016,
           "height": 4016,
           "size": 9077329,
@@ -71,12 +76,13 @@
           "author": "Calips",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/France_NA_19_Turenne_03.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20NA%2019%20Turenne%2003.jpg",
           "title": "France NA 19 Turenne 03.jpg",
+          "description": "Château de Turenne",
           "width": 6016,
           "height": 4016,
           "size": 9374109,
@@ -84,7 +90,7 @@
           "author": "Calips",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         }
       ]
     },
@@ -92,22 +98,10 @@
       "label": "Tour César",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Causse_corr%C3%A9zien_depuis_Turenne.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACausse%20corr%C3%A9zien%20depuis%20Turenne.jpg",
-          "title": "Causse corrézien depuis Turenne.jpg",
-          "width": 3456,
-          "height": 2304,
-          "size": 2099043,
-          "timestamp": "2024-04-19T21:36:24Z",
-          "author": "Lucas Destrem",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Turenne_-_Ch%C3%A2teau_-_Tour_de_C%C3%A9sar_-2.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATurenne%20-%20Ch%C3%A2teau%20-%20Tour%20de%20C%C3%A9sar%20-2.JPG",
           "title": "Turenne - Château - Tour de César -2.JPG",
+          "description": "Château de Turenne - Tour de César",
           "width": 3264,
           "height": 2448,
           "size": 4358381,
@@ -115,65 +109,126 @@
           "author": "MOSSOT",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Vue_sur_Turenne_et_le_donjon_depuis_la_tour_C%C3%A9sar.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20sur%20Turenne%20et%20le%20donjon%20depuis%20la%20tour%20C%C3%A9sar.JPG",
-          "title": "Vue sur Turenne et le donjon depuis la tour César.JPG",
-          "width": 4608,
-          "height": 3072,
-          "size": 7210398,
-          "timestamp": "2012-09-05T08:34:04Z",
-          "author": "Babsy",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Armoiries_Turenne_Chantilly.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArmoiries%20Turenne%20Chantilly.jpg",
+          "title": "Armoiries Turenne Chantilly.jpg",
+          "description": "CoA of Turenne, ceiling of the library of the Château de Chantilly, France.",
+          "width": 2209,
+          "height": 1537,
+          "size": 1971362,
+          "timestamp": "2011-07-04T22:21:32Z",
+          "author": "Jebulon",
+          "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Turenne_-_Ch%C3%A2teau_-_Tour_de_C%C3%A9sar.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATurenne%20-%20Ch%C3%A2teau%20-%20Tour%20de%20C%C3%A9sar.JPG",
+          "title": "Turenne - Château - Tour de César.JPG",
+          "description": "Château de Turenne - Tour de César",
+          "width": 2448,
+          "height": 3264,
+          "size": 2907146,
+          "timestamp": "2015-08-28T19:49:21Z",
+          "author": "MOSSOT",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
         }
       ]
     },
     {
       "label": "Jardin du château",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/France_NA_19_Turenne_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20NA%2019%20Turenne%2001.jpg",
+          "title": "France NA 19 Turenne 01.jpg",
+          "description": "Château de Turenne",
+          "width": 6016,
+          "height": 4016,
+          "size": 7832061,
+          "timestamp": "2020-03-15T15:22:42Z",
+          "author": "Calips",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/France_NA_19_Turenne_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20NA%2019%20Turenne%2002.jpg",
+          "title": "France NA 19 Turenne 02.jpg",
+          "description": "Château de Turenne",
+          "width": 6016,
+          "height": 4016,
+          "size": 9077329,
+          "timestamp": "2020-03-15T15:22:42Z",
+          "author": "Calips",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/France_NA_19_Turenne_03.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20NA%2019%20Turenne%2003.jpg",
+          "title": "France NA 19 Turenne 03.jpg",
+          "description": "Château de Turenne",
+          "width": 6016,
+          "height": 4016,
+          "size": 9374109,
+          "timestamp": "2020-03-15T15:22:42Z",
+          "author": "Calips",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     },
     {
       "label": "Église Saint-Paul",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Turenne_-_Coll%C3%A9giale_Notre-Dame-et-Saint-Pantal%C3%A9on_-2.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATurenne%20-%20Coll%C3%A9giale%20Notre-Dame-et-Saint-Pantal%C3%A9on%20-2.jpg",
-          "title": "Turenne - Collégiale Notre-Dame-et-Saint-Pantaléon -2.jpg",
-          "width": 3264,
-          "height": 2448,
-          "size": 2583063,
-          "timestamp": "2019-07-22T23:00:40Z",
-          "author": "MOSSOT",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Coupe_et_%C3%A9l%C3%A9vation_int%C3%A9rieure_de_l%27%C3%A9glise_Saint_Denis_du_Saint_Sacrement_%28actuelle_rue_de_Turenne%29%2C_D.12968.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACoupe%20et%20%C3%A9l%C3%A9vation%20int%C3%A9rieure%20de%20l'%C3%A9glise%20Saint%20Denis%20du%20Saint%20Sacrement%20(actuelle%20rue%20de%20Turenne)%2C%20D.12968.jpg",
+          "title": "Coupe et élévation intérieure de l'église Saint Denis du Saint Sacrement (actuelle rue de Turenne), D.12968.jpg",
+          "description": "Auteur(s):\n\nGodde, Etienne Hippolyte (Breteuil, 26–12–1781 - Paris, 07–12–1869), dessinateur\n\n\nAutre titre:\n\nCoupe en long de l'église du Saint Sacrement à construire rue Saint Louis au marais (Titre inscrit (lettre))\n\n\nDate de production:\n\n23–04–1823\n\n\nType(s) d'objet(s):\n\nDessin\n\n\nDénomination(s):\n\nDessin d'architecture\n\n\nDimensions - Oeuvre:\n\n\n   Hauteur : 62 cm\n   Largeur : 89 cm\n\nDimensions - Montage:\n\n   Hauteur : 72 cm\n   Largeur : 102 cm\n\n\n\nMarques, inscriptions, poinçons:\n\nInscription m",
+          "width": 3000,
+          "height": 2044,
+          "size": 500188,
+          "timestamp": "2023-09-01T11:20:23Z",
+          "author": "Godde, Etienne Hippolyte (Breteuil, 26–12–1781 - Paris, 07–12–1869), dessinateur",
+          "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Turenne_-_Coll%C3%A9giale_Notre-Dame-et-Saint-Pantal%C3%A9on_-3.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATurenne%20-%20Coll%C3%A9giale%20Notre-Dame-et-Saint-Pantal%C3%A9on%20-3.jpg",
-          "title": "Turenne - Collégiale Notre-Dame-et-Saint-Pantaléon -3.jpg",
-          "width": 3264,
-          "height": 2448,
-          "size": 2351449,
-          "timestamp": "2019-07-22T23:00:40Z",
-          "author": "MOSSOT",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Fa%C3%A7ade_lat%C3%A9rale_de_l%27%C3%A9glise_Saint_Denis_du_Saint_Sacrement_%28actuelle_rue_de_Turenne%29%2C_D.12967.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFa%C3%A7ade%20lat%C3%A9rale%20de%20l'%C3%A9glise%20Saint%20Denis%20du%20Saint%20Sacrement%20(actuelle%20rue%20de%20Turenne)%2C%20D.12967.jpg",
+          "title": "Façade latérale de l'église Saint Denis du Saint Sacrement (actuelle rue de Turenne), D.12967.jpg",
+          "description": "Auteur(s):\n\nGodde, Etienne Hippolyte (Breteuil, 26–12–1781 - Paris, 07–12–1869), dessinateur\n\n\nAutre titre:\n\nFaçade latérale de l'église du Saint Sacrement à construire rue St Louis au marais (Titre inscrit (lettre))\n\n\nDate de production:\n\n23–04–1823\n\n\nType(s) d'objet(s):\n\nDessin\n\n\nDénomination(s):\n\nDessin d'architecture\n\n\nDimensions - Oeuvre:\n\n\n   Hauteur : 64.3 cm\n   Largeur : 90.2 cm\n\nDimensions - Montage:\n\n   Hauteur : 72 cm\n   Largeur : 102 cm\n\n\n\nMarques, inscriptions, poinçons:\n\nInscriptio",
+          "width": 5277,
+          "height": 3687,
+          "size": 1659933,
+          "timestamp": "2023-09-11T17:21:24Z",
+          "author": "Godde, Etienne Hippolyte (Breteuil, 26–12–1781 - Paris, 07–12–1869), dessinateur",
+          "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/02-24_Turenne_%C3%A9glise_et_toits_PA00099932.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A02-24%20Turenne%20%C3%A9glise%20et%20toits%20PA00099932.jpg",
-          "title": "02-24 Turenne église et toits PA00099932.jpg",
-          "width": 3072,
-          "height": 4608,
-          "size": 3557993,
-          "timestamp": "2020-09-01T14:08:41Z",
-          "author": "Marianne Casamance",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Bayard_Turennes_Combes.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABayard%20Turennes%20Combes.JPG",
+          "title": "Bayard Turennes Combes.JPG",
+          "description": "vue de l'église de Hans : Notre-Dame du Soldat.",
+          "width": 2576,
+          "height": 4592,
+          "size": 2030922,
+          "timestamp": "2014-09-18T14:53:07Z",
+          "author": "G.Garitan",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6

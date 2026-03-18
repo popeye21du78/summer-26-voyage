@@ -1,12 +1,27 @@
 {
   "slug": "beaucaire",
   "nom": "Beaucaire",
-  "fetchedAt": "2026-03-13T00:11:06.962Z",
+  "fetchedAt": "2026-03-15T19:26:48.316Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Beaucaire%2Crue_du_Ch%C3%A2teau21-2.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeaucaire%2Crue%20du%20Ch%C3%A2teau21-2.jpg",
+      "title": "Beaucaire,rue du Château21-2.jpg",
+      "description": "Beaucaire (Gard, France), au 21 rue du Château, niche architecturée abritant autrefois une statue de St Marc, aujourd'hui disparue.",
+      "width": 2112,
+      "height": 2639,
+      "size": 1189126,
+      "timestamp": "2016-03-20T15:29:14Z",
+      "author": "Finoskov",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Beaucaire%2Ch%C3%B4tel_de_Fermineau02bis.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeaucaire%2Ch%C3%B4tel%20de%20Fermineau02bis.jpg",
       "title": "Beaucaire,hôtel de Fermineau02bis.jpg",
+      "description": "Beaucaire (Gard, France), sur la place Georges Clémenceau, presque en face de l'hôtel de ville, hôtel particulier de Fermineau, ayant fait partie du couvent des Ursulines.",
       "width": 2022,
       "height": 1618,
       "size": 788345,
@@ -20,22 +35,10 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Beaucaire%2Ch%C3%B4tel_de_Fermineau02.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeaucaire%2Ch%C3%B4tel%20de%20Fermineau02.jpg",
       "title": "Beaucaire,hôtel de Fermineau02.jpg",
+      "description": "Beaucaire (Gard, France), sur la place Georges Clémenceau, presque en face de l'hôtel de ville, hôtel particulier de Fermineau, ayant fait partie du couvent des Ursulines.",
       "width": 2554,
       "height": 2043,
       "size": 1327629,
-      "timestamp": "2016-02-24T18:58:31Z",
-      "author": "Finoskov",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Beaucaire%2Ch%C3%B4tel_de_Fermineau01.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeaucaire%2Ch%C3%B4tel%20de%20Fermineau01.jpg",
-      "title": "Beaucaire,hôtel de Fermineau01.jpg",
-      "width": 2639,
-      "height": 2112,
-      "size": 1370813,
       "timestamp": "2016-02-24T18:58:31Z",
       "author": "Finoskov",
       "license": "CC BY-SA 4.0",
@@ -48,43 +51,46 @@
       "label": "Château de Beaucaire",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Gare_de_Beaucaire_05.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGare%20de%20Beaucaire%2005.jpg",
-          "title": "Gare de Beaucaire 05.jpg",
-          "width": 4608,
-          "height": 3456,
-          "size": 3942357,
-          "timestamp": "2017-01-01T13:30:14Z",
-          "author": "Olivier",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Beaucaire%2Crue_du_Ch%C3%A2teau21-3.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeaucaire%2Crue%20du%20Ch%C3%A2teau21-3.jpg",
+          "title": "Beaucaire,rue du Château21-3.jpg",
+          "description": "Beaucaire (Gard, France), au 21 rue du Château, niche architecturée abritant autrefois une statue de St Marc, aujourd'hui disparue.",
+          "width": 2640,
+          "height": 2112,
+          "size": 1140934,
+          "timestamp": "2016-03-20T15:29:14Z",
+          "author": "Finoskov",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Ruins_of_the_castle_Beaucaire_in_Nauviale_03.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARuins%20of%20the%20castle%20Beaucaire%20in%20Nauviale%2003.jpg",
-          "title": "Ruins of the castle Beaucaire in Nauviale 03.jpg",
-          "width": 3482,
-          "height": 2625,
-          "size": 10718199,
-          "timestamp": "2018-02-15T18:25:03Z",
-          "author": "Krzysztof Golik",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Beaucaire%2Crue_du_Ch%C3%A2teau21-4.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeaucaire%2Crue%20du%20Ch%C3%A2teau21-4.jpg",
+          "title": "Beaucaire,rue du Château21-4.jpg",
+          "description": "Beaucaire (Gard, France), au 21 rue du Château, niche architecturée abritant autrefois une statue de St Marc, aujourd'hui disparue.",
+          "width": 2641,
+          "height": 2112,
+          "size": 1174303,
+          "timestamp": "2016-03-20T15:29:15Z",
+          "author": "Finoskov",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Ruins_of_the_castle_Beaucaire_in_Nauviale_10.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARuins%20of%20the%20castle%20Beaucaire%20in%20Nauviale%2010.jpg",
-          "title": "Ruins of the castle Beaucaire in Nauviale 10.jpg",
-          "width": 4194,
-          "height": 2796,
-          "size": 11246947,
-          "timestamp": "2018-02-15T18:25:08Z",
-          "author": "Krzysztof Golik",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Ch%C3%A2teau_de_Beaucaire-bjs180813-01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Beaucaire-bjs180813-01.jpg",
+          "title": "Château de Beaucaire-bjs180813-01.jpg",
+          "description": "Château de Beaucaire, vom Dach des Château de Tarascon aus gesehen.",
+          "width": 4059,
+          "height": 2706,
+          "size": 2695476,
+          "timestamp": "2018-09-23T16:01:24Z",
+          "author": "Bjs",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         }
       ]
     },
@@ -92,39 +98,42 @@
       "label": "Place de la République",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Beaucaire%2Cplace_de_la_R%C3%A9publique_N%C2%B00.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeaucaire%2Cplace%20de%20la%20R%C3%A9publique%20N%C2%B00.jpg",
-          "title": "Beaucaire,place de la République N°0.jpg",
-          "width": 2640,
-          "height": 2112,
-          "size": 1522869,
-          "timestamp": "2016-03-23T12:35:34Z",
-          "author": "Finoskov",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Beaucaire_vue.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeaucaire%20vue.JPG",
+          "title": "Beaucaire vue.JPG",
+          "description": "Beaucaire vue du chateau du Roi René à Tarascon",
+          "width": 3264,
+          "height": 2448,
+          "size": 2319275,
+          "timestamp": "2010-02-01T20:42:44Z",
+          "author": "Eponimm",
+          "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Beaucaire%2Cplace_de_la_R%C3%A9publique_N%C2%B008a.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeaucaire%2Cplace%20de%20la%20R%C3%A9publique%20N%C2%B008a.jpg",
-          "title": "Beaucaire,place de la République N°08a.jpg",
-          "width": 2639,
-          "height": 2112,
-          "size": 1207192,
-          "timestamp": "2016-03-23T12:35:37Z",
-          "author": "Finoskov",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Beaucaire_vue_%28cropped%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeaucaire%20vue%20(cropped).JPG",
+          "title": "Beaucaire vue (cropped).JPG",
+          "description": "Beaucaire vue du chateau du Roi René à Tarascon",
+          "width": 2800,
+          "height": 400,
+          "size": 302790,
+          "timestamp": "2018-07-12T08:39:58Z",
+          "author": "Eponimm",
+          "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Beaucaire%2Cplace_de_la_R%C3%A9publique_N%C2%B015_%26_13_rue_des_Bijoutiers.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeaucaire%2Cplace%20de%20la%20R%C3%A9publique%20N%C2%B015%20%26%2013%20rue%20des%20Bijoutiers.jpg",
-          "title": "Beaucaire,place de la République N°15 & 13 rue des Bijoutiers.jpg",
-          "width": 2566,
-          "height": 2053,
-          "size": 1176304,
-          "timestamp": "2016-03-23T12:35:41Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Beaucaire%2Ch%C3%B4tel_de_Fermineau02bis.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeaucaire%2Ch%C3%B4tel%20de%20Fermineau02bis.jpg",
+          "title": "Beaucaire,hôtel de Fermineau02bis.jpg",
+          "description": "Beaucaire (Gard, France), sur la place Georges Clémenceau, presque en face de l'hôtel de ville, hôtel particulier de Fermineau, ayant fait partie du couvent des Ursulines.",
+          "width": 2022,
+          "height": 1618,
+          "size": 788345,
+          "timestamp": "2016-02-24T18:58:31Z",
           "author": "Finoskov",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -134,7 +143,22 @@
     },
     {
       "label": "Port de plaisance du canal du Rhône à Sète",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Immeuble_Beaucaire_Gard_-_15%C2%B0_si%C3%A8cle.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AImmeuble%20Beaucaire%20Gard%20-%2015%C2%B0%20si%C3%A8cle.jpg",
+          "title": "Immeuble Beaucaire Gard - 15° siècle.jpg",
+          "description": "Portes et fenêtre à meneau simple; 17 E. Jamais Beaucaire Gard ; présence d'une fenêtre à meneau",
+          "width": 3000,
+          "height": 4000,
+          "size": 4354298,
+          "timestamp": "2011-09-30T05:59:43Z",
+          "author": "Ingrando",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 1
+        }
+      ]
     },
     {
       "label": "Fontaine du Drac",
@@ -142,7 +166,50 @@
     },
     {
       "label": "Parc de la Gayonne",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Ch%C3%A2teau_beaucaire.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20beaucaire.jpg",
+          "title": "Château beaucaire.jpg",
+          "description": "Vue sur la ville depuis l'entrée du parc du château de Beaucaire",
+          "width": 4000,
+          "height": 3000,
+          "size": 4791461,
+          "timestamp": "2011-09-29T21:56:04Z",
+          "author": "Ingrando",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Ch%C3%A2teau_de_Beaucaire_Gard.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Beaucaire%20Gard.jpg",
+          "title": "Château de Beaucaire Gard.jpg",
+          "description": "Entrée du parc du château de Beaucaire",
+          "width": 3000,
+          "height": 4000,
+          "size": 4547955,
+          "timestamp": "2011-09-29T21:56:04Z",
+          "author": "Ingrando",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Chateau_de_Beaucaire_tourelle.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau%20de%20Beaucaire%20tourelle.JPG",
+          "title": "Chateau de Beaucaire tourelle.JPG",
+          "description": "tourelle Château de Beaucaire (Gard)",
+          "width": 2736,
+          "height": 3648,
+          "size": 2229519,
+          "timestamp": "2012-09-15T19:28:40Z",
+          "author": "Chatsam",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

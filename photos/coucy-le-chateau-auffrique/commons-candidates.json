@@ -1,12 +1,13 @@
 {
   "slug": "coucy-le-chateau-auffrique",
   "nom": "Coucy-le-Château-Auffrique",
-  "fetchedAt": "2026-03-13T13:56:29.096Z",
+  "fetchedAt": "2026-03-16T12:24:50.826Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Coucy-le-Ch%C3%A2teau-Auffrique_%28Aisne%29_city_limit_sign_%28ville_basse%29.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACoucy-le-Ch%C3%A2teau-Auffrique%20(Aisne)%20city%20limit%20sign%20(ville%20basse).JPG",
       "title": "Coucy-le-Château-Auffrique (Aisne) city limit sign (ville basse).JPG",
+      "description": "Coucy-le-Château-Auffrique (Aisne) city limit sign (ville basse)",
       "width": 3648,
       "height": 2736,
       "size": 4257884,
@@ -14,12 +15,13 @@
       "author": "Havang(nl)",
       "license": "CC0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Coucy-le-Ch%C3%A2teau-Auffrique_%28Aisne%29_%C3%A9cole_%28ville_basse%29.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACoucy-le-Ch%C3%A2teau-Auffrique%20(Aisne)%20%C3%A9cole%20(ville%20basse).JPG",
       "title": "Coucy-le-Château-Auffrique (Aisne) école (ville basse).JPG",
+      "description": "Coucy-le-Château-Auffrique (Aisne) école (ville basse)",
       "width": 3648,
       "height": 2736,
       "size": 4115584,
@@ -27,26 +29,70 @@
       "author": "Havang(nl)",
       "license": "CC0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Coucy_le_Chateau_Auffrique_-_panoramio.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACoucy%20le%20Chateau%20Auffrique%20-%20panoramio.jpg",
-      "title": "Coucy le Chateau Auffrique - panoramio.jpg",
-      "width": 2592,
-      "height": 1944,
-      "size": 1444917,
-      "timestamp": "2016-12-25T23:01:06Z",
-      "author": "Huurenkamp",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/View_from_a_ruined_tower_-_Coucy_le_Chateau_Auffrique_-_panoramio.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AView%20from%20a%20ruined%20tower%20-%20Coucy%20le%20Chateau%20Auffrique%20-%20panoramio.jpg",
+      "title": "View from a ruined tower - Coucy le Chateau Auffrique - panoramio.jpg",
+      "description": "View from a ruined tower - Coucy le Chateau Auffrique",
+      "width": 4928,
+      "height": 3264,
+      "size": 7172682,
+      "timestamp": "2017-02-09T18:06:32Z",
+      "author": "Adrian Farwell",
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
     }
   ],
   "lieux": [
     {
       "label": "Remparts et courtines",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/France_-_Bassin_parisien_-_Picardie_-_Aisne_-_Le_ch%C3%A2teau_de_Coucy_%28M%C3%A9diHAL_1266451%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20-%20Bassin%20parisien%20-%20Picardie%20-%20Aisne%20-%20Le%20ch%C3%A2teau%20de%20Coucy%20(M%C3%A9diHAL%201266451).jpg",
+          "title": "France - Bassin parisien - Picardie - Aisne - Le château de Coucy (MédiHAL 1266451).jpg",
+          "description": "Handwritten caption on the original document: \"France: Paris Basin: Île-de-France: Valois, Vexin, Soissonnais: Château de Coucy on a witness mound of coarse limestone detached from the Saint-Gobain massif\". The glass plates deposited at Prodig date from 1891 to 1954. Geolocation: hypothesis of exact geolocation.",
+          "width": 3240,
+          "height": 2315,
+          "size": 271871,
+          "timestamp": "2024-12-21T12:37:55Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Emmanuel_de_Martonne\" class=\"extiw\" title=\"w:en:Emmanuel de Martonne\"><span title=\"French geographer (1873–1955)\">Emmanuel de Martonne</span></a></bdi>",
+          "license": "Licence Ouverte",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Ramparts_of_Coucy_le_Chateau_l_Auffrique_P1070792.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARamparts%20of%20Coucy%20le%20Chateau%20l%20Auffrique%20P1070792.JPG",
+          "title": "Ramparts of Coucy le Chateau l Auffrique P1070792.JPG",
+          "description": "Ramparts of Coucy-le-Château-Auffrique, Aisne, France",
+          "width": 4000,
+          "height": 2248,
+          "size": 3759905,
+          "timestamp": "2010-10-14T20:36:19Z",
+          "author": "Pline",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Coucy_%C3%A9glise_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACoucy%20%C3%A9glise%201.jpg",
+          "title": "Coucy église 1.jpg",
+          "description": "Coucy-le-Château (Aisne, France) - Eglise St-Sauveur (à l'arrière plan) dans la cité fortifiée.\nLa pelouse au premier plan est celle du Domaine de la Grangère (autrefois jardin de la maison du gouverneur).\n\nL'escalier ne mène pas directement à l'église mais à la \"gloriette\", surplombant le rempart.",
+          "width": 2745,
+          "height": 2012,
+          "size": 3357755,
+          "timestamp": "2007-06-11T19:55:50Z",
+          "author": "Markus3",
+          "license": "CC BY-SA 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Vestiges du donjon",
@@ -55,6 +101,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/France_-_Bassin_parisien_-_Picardie_-_Aisne_-_Le_ch%C3%A2teau_de_Coucy_%28M%C3%A9diHAL_1266451%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20-%20Bassin%20parisien%20-%20Picardie%20-%20Aisne%20-%20Le%20ch%C3%A2teau%20de%20Coucy%20(M%C3%A9diHAL%201266451).jpg",
           "title": "France - Bassin parisien - Picardie - Aisne - Le château de Coucy (MédiHAL 1266451).jpg",
+          "description": "Handwritten caption on the original document: \"France: Paris Basin: Île-de-France: Valois, Vexin, Soissonnais: Château de Coucy on a witness mound of coarse limestone detached from the Saint-Gobain massif\". The glass plates deposited at Prodig date from 1891 to 1954. Geolocation: hypothesis of exact geolocation.",
           "width": 3240,
           "height": 2315,
           "size": 271871,
@@ -62,17 +109,103 @@
           "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Emmanuel_de_Martonne\" class=\"extiw\" title=\"w:en:Emmanuel de Martonne\"><span title=\"French geographer (1873–1955)\">Emmanuel de Martonne</span></a></bdi>",
           "license": "Licence Ouverte",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Coucy-le-Ch%C3%A2teau_%28Aisne%29_rails_anciens.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACoucy-le-Ch%C3%A2teau%20(Aisne)%20rails%20anciens.jpg",
+          "title": "Coucy-le-Château (Aisne) rails anciens.jpg",
+          "description": "Vestiges de la ligne d'anizy - Pinon à Chauny, des rails non déposé à Coucy-le-Château.",
+          "width": 2448,
+          "height": 2088,
+          "size": 1987973,
+          "timestamp": "2012-05-31T13:20:37Z",
+          "author": "Cl9f",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
         }
       ]
     },
     {
       "label": "Terrasse belvédère",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Coucy-le-Ch%C3%A2teau-Auffrique_%2802%29_Ch%C3%A2teau_de_Coucy_14.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACoucy-le-Ch%C3%A2teau-Auffrique%20(02)%20Ch%C3%A2teau%20de%20Coucy%2014.jpg",
+          "title": "Coucy-le-Château-Auffrique (02) Château de Coucy 14.jpg",
+          "description": "Coucy-le-Château (02). Intérieur de la Tour de la Terrasse. Voûtes.",
+          "width": 4608,
+          "height": 2592,
+          "size": 2616762,
+          "timestamp": "2018-09-16T18:42:50Z",
+          "author": "Shep~commonswiki",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 3
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Coucy-le-Ch%C3%A2teau-Auffrique_%2802%29_Ch%C3%A2teau_de_Coucy_11.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACoucy-le-Ch%C3%A2teau-Auffrique%20(02)%20Ch%C3%A2teau%20de%20Coucy%2011.jpg",
+          "title": "Coucy-le-Château-Auffrique (02) Château de Coucy 11.jpg",
+          "description": "Coucy-le-Château (02). Intérieur de la Tour de la Terrasse.",
+          "width": 4608,
+          "height": 2592,
+          "size": 3090849,
+          "timestamp": "2018-09-16T18:43:08Z",
+          "author": "Shep~commonswiki",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 3
+        }
+      ]
     },
     {
       "label": "Salle des gardes",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Coucy-le-Ch%C3%A2teau-Auffrique_%2802%29_Ch%C3%A2teau_de_Coucy_13.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACoucy-le-Ch%C3%A2teau-Auffrique%20(02)%20Ch%C3%A2teau%20de%20Coucy%2013.jpg",
+          "title": "Coucy-le-Château-Auffrique (02) Château de Coucy 13.jpg",
+          "description": "Salle base d'une des tour du château de Coucy (02).",
+          "width": 4608,
+          "height": 2592,
+          "size": 4137236,
+          "timestamp": "2018-09-16T18:42:53Z",
+          "author": "Shep~commonswiki",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Coucy-le-Ch%C3%A2teau-Auffrique_%2802%29_Ch%C3%A2teau_de_Coucy_08.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACoucy-le-Ch%C3%A2teau-Auffrique%20(02)%20Ch%C3%A2teau%20de%20Coucy%2008.jpg",
+          "title": "Coucy-le-Château-Auffrique (02) Château de Coucy 08.jpg",
+          "description": "Salle basse d'une des tour du château de Coucy (02).",
+          "width": 2592,
+          "height": 4608,
+          "size": 4453819,
+          "timestamp": "2018-09-16T18:43:00Z",
+          "author": "Shep~commonswiki",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Description_du_chateau_de_coucy_Figure_02.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADescription%20du%20chateau%20de%20coucy%20Figure%2002.png",
+          "title": "Description du chateau de coucy Figure 02.png",
+          "description": "Dessin extrait de l'ouvrage Description du château de Coucy par Eugène Viollet le Duc. Le dessin est intitulé : Salle supérieure du donjon.\nNotice Gallica:\n\nAuteur(s) : Viollet-le-Duc, Eugène- Emmanuel (1814-1879)\nTitre(s) : Description du château de Coucy [Texte imprimé] / par M. Viollet-le-Duc,...\nÉdition : 4e éd. Publication : Paris : Vve A. Morel, 1875\nDescription matérielle : 31 p. : ill. ; in-8 Note(s) : Les pl. sont comprises dans la pagination\nSujet(s) : Coucy-le-Château-Auffrique (Aisne",
+          "width": 1121,
+          "height": 1894,
+          "size": 208247,
+          "timestamp": "2005-02-27T07:54:35Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Eug%C3%A8ne_Viollet-le-Duc\" class=\"extiw\" title=\"w:en:Eugène Viollet-le-Duc\"><span title=\"French architect (1814-1879)\">Eugène Viollet-le-Duc</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     }
   ]
 }

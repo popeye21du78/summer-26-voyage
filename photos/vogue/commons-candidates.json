@@ -1,12 +1,13 @@
 {
   "slug": "vogue",
   "nom": "Vogüé",
-  "fetchedAt": "2026-03-14T14:39:31.754Z",
+  "fetchedAt": "2026-03-18T21:10:22.568Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/10_ARA_-_Ard%C3%A8che_-_Vog%C3%BC%C3%A9_%282007-04-11_11-57-30%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A10%20ARA%20-%20Ard%C3%A8che%20-%20Vog%C3%BC%C3%A9%20(2007-04-11%2011-57-30).jpg",
       "title": "10 ARA - Ardèche - Vogüé (2007-04-11 11-57-30).jpg",
+      "description": "Château de Vogüé",
       "width": 3029,
       "height": 1704,
       "size": 1023524,
@@ -14,12 +15,13 @@
       "author": "Johan Allard",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/10_ARA_-_Ard%C3%A8che_-_Vog%C3%BC%C3%A9_%282007-04-11_12-10-07%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A10%20ARA%20-%20Ard%C3%A8che%20-%20Vog%C3%BC%C3%A9%20(2007-04-11%2012-10-07).jpg",
       "title": "10 ARA - Ardèche - Vogüé (2007-04-11 12-10-07).jpg",
+      "description": "Château de Vogüé",
       "width": 3264,
       "height": 2448,
       "size": 3180041,
@@ -27,12 +29,13 @@
       "author": "Johan Allard",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/10_ARA_-_Ard%C3%A8che_-_Vog%C3%BC%C3%A9_%282007-04-11_12-31-33%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A10%20ARA%20-%20Ard%C3%A8che%20-%20Vog%C3%BC%C3%A9%20(2007-04-11%2012-31-33).jpg",
       "title": "10 ARA - Ardèche - Vogüé (2007-04-11 12-31-33).jpg",
+      "description": "Château de Vogüé",
       "width": 3264,
       "height": 2448,
       "size": 2427170,
@@ -40,7 +43,7 @@
       "author": "Johan Allard",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     }
   ],
   "lieux": [
@@ -48,43 +51,46 @@
       "label": "Château de Vogüé",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Fa%C3%A7ade_du_ch%C3%A2teau_de_Vog%C3%BC%C3%A9.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFa%C3%A7ade%20du%20ch%C3%A2teau%20de%20Vog%C3%BC%C3%A9.jpg",
-          "title": "Façade du château de Vogüé.jpg",
-          "width": 3264,
-          "height": 2448,
-          "size": 2295749,
-          "timestamp": "2020-09-17T11:23:46Z",
-          "author": "Fredy LECLERCQ",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/France_ARA_07_Vogue_04.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20ARA%2007%20Vogue%2004.jpg",
+          "title": "France ARA 07 Vogue 04.jpg",
+          "description": "Château de Vogüé",
+          "width": 3008,
+          "height": 2000,
+          "size": 3427981,
+          "timestamp": "2020-03-22T11:59:37Z",
+          "author": "Calips",
+          "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Vue_d%27ensemble_du_ch%C3%A2teau_de_Vog%C3%BC%C3%A9.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20d'ensemble%20du%20ch%C3%A2teau%20de%20Vog%C3%BC%C3%A9.jpg",
-          "title": "Vue d'ensemble du château de Vogüé.jpg",
-          "width": 3264,
-          "height": 2448,
-          "size": 2852062,
-          "timestamp": "2020-09-17T11:23:46Z",
-          "author": "Fredy LECLERCQ",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/France_ARA_07_Vogue_06.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20ARA%2007%20Vogue%2006.jpg",
+          "title": "France ARA 07 Vogue 06.jpg",
+          "description": "Château de Vogüé",
+          "width": 3008,
+          "height": 2000,
+          "size": 2874952,
+          "timestamp": "2020-03-22T11:59:37Z",
+          "author": "Calips",
+          "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/10_ARA_-_Ard%C3%A8che_-_Vog%C3%BC%C3%A9_%282007-04-11_12-10-07%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A10%20ARA%20-%20Ard%C3%A8che%20-%20Vog%C3%BC%C3%A9%20(2007-04-11%2012-10-07).jpg",
-          "title": "10 ARA - Ardèche - Vogüé (2007-04-11 12-10-07).jpg",
-          "width": 3264,
-          "height": 2448,
-          "size": 3180041,
-          "timestamp": "2021-09-21T18:18:23Z",
-          "author": "Johan Allard",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/France_ARA_07_Vogue_05.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20ARA%2007%20Vogue%2005.jpg",
+          "title": "France ARA 07 Vogue 05.jpg",
+          "description": "Château de Vogüé",
+          "width": 3008,
+          "height": 2000,
+          "size": 3270279,
+          "timestamp": "2020-03-22T11:59:37Z",
+          "author": "Calips",
+          "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         }
       ]
     },
@@ -94,7 +100,50 @@
     },
     {
       "label": "Chapelle Sainte-Cerice",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Vog%C3%BC%C3%A9%2C_ch%C3%A2teau%2C_Chapelle-2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVog%C3%BC%C3%A9%2C%20ch%C3%A2teau%2C%20Chapelle-2.jpg",
+          "title": "Vogüé, château, Chapelle-2.jpg",
+          "description": "Chapelle du château de Vogüé",
+          "width": 3543,
+          "height": 5315,
+          "size": 19192911,
+          "timestamp": "2026-01-06T20:48:37Z",
+          "author": "Eagertourist",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Vog%C3%BC%C3%A9%2C_ch%C3%A2teau%2C_Chapelle-1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVog%C3%BC%C3%A9%2C%20ch%C3%A2teau%2C%20Chapelle-1.jpg",
+          "title": "Vogüé, château, Chapelle-1.jpg",
+          "description": "Le volume de la chapelle est considérablement réduit lors de la construction du grand escalier.\nOn y a déposé, pour les mettre à l’abri, plusieurs pièces provenant de la chapelle de Rochecolombe, à 4km de Vogüé, également propriété de la famille de Vogüé:\n•\tle bas-relief des douze Apôtres (16es) figurant le Christ et les douze apôtres\n•\tune monstrance de style gothique (15es), également en pierre, ayant contenu les reliques de Saint Barthélémy, offerte en 1448 par Arnaud de Vogué\n\n•\tun blason du",
+          "width": 5315,
+          "height": 3543,
+          "size": 20629179,
+          "timestamp": "2026-01-06T20:48:36Z",
+          "author": "Eagertourist",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Vog%C3%BC%C3%A9-ch%C3%A2teau-chapelle-basRelief-Apotres.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVog%C3%BC%C3%A9-ch%C3%A2teau-chapelle-basRelief-Apotres.jpg",
+          "title": "Vogüé-château-chapelle-basRelief-Apotres.jpg",
+          "description": "Château de Vogüé, Ardèche, France. Chapelle : bas-relief des Apôtres, XVIe siècle.",
+          "width": 3476,
+          "height": 766,
+          "size": 502630,
+          "timestamp": "2013-10-21T08:35:00Z",
+          "author": "Morburre",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

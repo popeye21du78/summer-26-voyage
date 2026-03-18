@@ -1,12 +1,13 @@
 {
   "slug": "le-canigou",
   "nom": "Le Canigou",
-  "fetchedAt": "2026-03-13T15:27:13.438Z",
+  "fetchedAt": "2026-03-16T19:50:57.894Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Vernet-les-Bains_Canigou_Quazemi.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVernet-les-Bains%20Canigou%20Quazemi.jpg",
       "title": "Vernet-les-Bains Canigou Quazemi.jpg",
+      "description": "Vernet-les-Bains, Pic du Canigou (2785m) (à gauche) et Pic Quazemi (2422m) (à droite), en février 2022.",
       "width": 4608,
       "height": 3456,
       "size": 7097184,
@@ -17,28 +18,30 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Kipling_Bridge_Vernet-les-Bains_France.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKipling%20Bridge%20Vernet-les-Bains%20France.jpg",
-      "title": "Kipling Bridge Vernet-les-Bains France.jpg",
-      "width": 4509,
-      "height": 3113,
-      "size": 2617725,
-      "timestamp": "2021-04-02T17:23:43Z",
-      "author": "Alan Mattingly",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Le_Canigou_et_le_ch%C3%A2teau_de_Thorrent_en_1886.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Canigou%20et%20le%20ch%C3%A2teau%20de%20Thorrent%20en%201886.jpg",
+      "title": "Le Canigou et le château de Thorrent en 1886.jpg",
+      "description": "Château de Thorrent et vue du Canigou",
+      "width": 3841,
+      "height": 2789,
+      "size": 1394358,
+      "timestamp": "2015-05-27T07:36:41Z",
+      "author": "Unknown (probably Élisée Reclus, 1830-1905), photo from 1886",
+      "license": "Public domain",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 8
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Vernet-les-Bains_St_George%27s_church.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVernet-les-Bains%20St%20George's%20church.jpg",
-      "title": "Vernet-les-Bains St George's church.jpg",
-      "width": 3264,
-      "height": 2448,
-      "size": 2665054,
-      "timestamp": "2021-06-01T16:29:30Z",
-      "author": "Alan Mattingly",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Fort_de_Leucate_2025_-_Vue_sur_Le_Canigou_A.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFort%20de%20Leucate%202025%20-%20Vue%20sur%20Le%20Canigou%20A.jpg",
+      "title": "Fort de Leucate 2025 - Vue sur Le Canigou A.jpg",
+      "description": "Fort de Leucate 2025",
+      "width": 6000,
+      "height": 4000,
+      "size": 12284061,
+      "timestamp": "2025-08-14T15:19:21Z",
+      "author": "Renhour48",
+      "license": "CC0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     }
@@ -50,21 +53,7 @@
     },
     {
       "label": "Cheminée du Canigou",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Vista_de_les_Xemeneies_del_Canig%C3%B3.jpeg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVista%20de%20les%20Xemeneies%20del%20Canig%C3%B3.jpeg",
-          "title": "Vista de les Xemeneies del Canigó.jpeg",
-          "width": 1024,
-          "height": 509,
-          "size": 88060,
-          "timestamp": "2019-03-04T14:37:31Z",
-          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q61896461\" class=\"extiw\" title=\"d:Q61896461\"><span title=\"Spanish photographer\">Frederic Bordas Altarriba</span></a></bdi>",
-          "license": "Public domain",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Crête du Barbet",

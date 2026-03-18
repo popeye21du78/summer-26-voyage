@@ -1,12 +1,13 @@
 {
   "slug": "marle",
   "nom": "Marle",
-  "fetchedAt": "2026-03-13T16:04:49.140Z",
+  "fetchedAt": "2026-03-16T21:17:49.377Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Le_bourdon_de_l%27%C3%89glise_de_Marle.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20bourdon%20de%20l'%C3%89glise%20de%20Marle.jpg",
       "title": "Le bourdon de l'Église de Marle.jpg",
+      "description": "Le bourdon de l'Église de Marle",
       "width": 2846,
       "height": 3795,
       "size": 1727616,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Marle_%28relais_de_poste%29_9331.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarle%20(relais%20de%20poste)%209331.jpg",
       "title": "Marle (relais de poste) 9331.jpg",
+      "description": "Marle (Aisne, France) -\nLe relais de poste.\n.\n\n\n\n\n\n \nThis building is indexed in the base Mérimée, a database of architectural heritage maintained by the French Ministry of Culture, under the reference PA00115808 .\n\nbrezhoneg ∙ català ∙ Deutsch ∙ English ∙ español ∙ Esperanto ∙ euskara ∙ français ∙ italiano ∙ magyar ∙ Nederlands ∙ português do Brasil ∙ português ∙ română ∙ sicilianu ∙ slovenščina ∙ suomi ∙ svenska ∙ Ελληνικά ∙ беларуская (тарашкевіца) ∙ македонски ∙ русский ∙ українська ∙ বাংলা ",
       "width": 2816,
       "height": 2112,
       "size": 4160884,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Marle_%28relais_de_poste%29_9331a.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarle%20(relais%20de%20poste)%209331a.jpg",
       "title": "Marle (relais de poste) 9331a.jpg",
+      "description": "Marle (Aisne, France) -\nLe relais de poste.\n.\n\n\n\n\n\n \nThis building is indexed in the base Mérimée, a database of architectural heritage maintained by the French Ministry of Culture, under the reference PA00115808 .\n\nbrezhoneg ∙ català ∙ Deutsch ∙ English ∙ español ∙ Esperanto ∙ euskara ∙ français ∙ italiano ∙ magyar ∙ Nederlands ∙ português do Brasil ∙ português ∙ română ∙ sicilianu ∙ slovenščina ∙ suomi ∙ svenska ∙ Ελληνικά ∙ беларуская (тарашкевіца) ∙ македонски ∙ русский ∙ українська ∙ বাংলা ",
       "width": 1883,
       "height": 1242,
       "size": 1981832,
@@ -46,7 +49,50 @@
   "lieux": [
     {
       "label": "Église fortifiée Saint-Médard",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Montigny-sous-Marle_Eglise_10.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMontigny-sous-Marle%20Eglise%2010.jpg",
+          "title": "Montigny-sous-Marle Eglise 10.jpg",
+          "description": "L'église",
+          "width": 5406,
+          "height": 3671,
+          "size": 12990869,
+          "timestamp": "2020-10-04T10:13:19Z",
+          "author": "René Hourdry",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Montigny-sous-Marle_Eglise_11.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMontigny-sous-Marle%20Eglise%2011.jpg",
+          "title": "Montigny-sous-Marle Eglise 11.jpg",
+          "description": "L'église",
+          "width": 6000,
+          "height": 4000,
+          "size": 13644994,
+          "timestamp": "2020-10-04T10:13:20Z",
+          "author": "René Hourdry",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Montigny-sous-Marle_Eglise_15.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMontigny-sous-Marle%20Eglise%2015.jpg",
+          "title": "Montigny-sous-Marle Eglise 15.jpg",
+          "description": "L'église",
+          "width": 6000,
+          "height": 4000,
+          "size": 16037198,
+          "timestamp": "2020-10-04T10:13:29Z",
+          "author": "René Hourdry",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Musée des Temps Barbares",
@@ -55,6 +101,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Marle_Ancien_moulin_1.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarle%20Ancien%20moulin%201.jpg",
           "title": "Marle Ancien moulin 1.jpg",
+          "description": "Marle (Aisne), ancien moulin transformé en musée, sur le Vilpion",
           "width": 6000,
           "height": 4000,
           "size": 16497581,
@@ -68,6 +115,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Marle_mus%C3%A9e_11.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarle%20mus%C3%A9e%2011.jpg",
           "title": "Marle musée 11.jpg",
+          "description": "Marle (Aisne), parc archéologique du musée des Temps barbares, ferme mérovingienne reconstituée en torchis couverte de chaume.",
           "width": 6000,
           "height": 4000,
           "size": 16981554,
@@ -81,6 +129,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Mus%C3%A9e_Marle_Aisne_01.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e%20Marle%20Aisne%2001.jpg",
           "title": "Musée Marle Aisne 01.jpg",
+          "description": "Marle (Aisne), ancien moulin transformé en musée des Temps barbares.",
           "width": 5568,
           "height": 3712,
           "size": 13258841,
@@ -94,7 +143,50 @@
     },
     {
       "label": "Pont sur la Serre",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Marle_Pont_sur_le_Vilpion_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarle%20Pont%20sur%20le%20Vilpion%201.jpg",
+          "title": "Marle Pont sur le Vilpion 1.jpg",
+          "description": "Le pont sur le vilpion",
+          "width": 5536,
+          "height": 3286,
+          "size": 11377794,
+          "timestamp": "2020-10-27T16:14:41Z",
+          "author": "René Hourdry",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Marle_Pont_sur_le_Vilpion.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarle%20Pont%20sur%20le%20Vilpion.jpg",
+          "title": "Marle Pont sur le Vilpion.jpg",
+          "description": "Pont sur le Vilpion",
+          "width": 5816,
+          "height": 3456,
+          "size": 10728449,
+          "timestamp": "2020-10-27T16:14:42Z",
+          "author": "René Hourdry",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Henri_de_Marle.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHenri%20de%20Marle.png",
+          "title": "Henri de Marle.png",
+          "description": "Vue d'artiste représentant Henri de Marle, chancelier de France. Gravure du XVIIe siècle.",
+          "width": 2137,
+          "height": 2911,
+          "size": 9010103,
+          "timestamp": "2022-01-13T10:01:41Z",
+          "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

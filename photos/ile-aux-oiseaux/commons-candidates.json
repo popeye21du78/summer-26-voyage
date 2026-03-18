@@ -1,46 +1,49 @@
 {
   "slug": "ile-aux-oiseaux",
   "nom": "Île aux Oiseaux",
-  "fetchedAt": "2026-03-13T01:05:21.862Z",
+  "fetchedAt": "2026-03-16T14:11:25.928Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/La_Teste-de-Buch_%C3%89glise_2.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Teste-de-Buch%20%C3%89glise%202.jpg",
-      "title": "La Teste-de-Buch Église 2.jpg",
-      "width": 3883,
-      "height": 2379,
-      "size": 2661395,
-      "timestamp": "2020-04-30T20:03:13Z",
-      "author": "Gitouche",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Nukufotu_%28%C3%AEle_aux_oiseaux%29_%C3%A0_mar%C3%A9e_basse.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANukufotu%20(%C3%AEle%20aux%20oiseaux)%20%C3%A0%20mar%C3%A9e%20basse.jpg",
+      "title": "Nukufotu (île aux oiseaux) à marée basse.jpg",
+      "description": "Nukufotu islet at low tide, in the north of Wallis lagoon, Wallis and Futuna",
+      "width": 1600,
+      "height": 1200,
+      "size": 445431,
+      "timestamp": "2022-01-07T02:08:00Z",
+      "author": "Skimel",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/LTdB_N%C3%A9cropole_du_Natus_02.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALTdB%20N%C3%A9cropole%20du%20Natus%2002.jpg",
-      "title": "LTdB Nécropole du Natus 02.jpg",
-      "width": 3701,
-      "height": 2409,
-      "size": 3971001,
-      "timestamp": "2020-02-23T17:02:01Z",
-      "author": "Gitouche",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/St%C3%A8le_%C3%A0_la_m%C3%A9moire_de_Nicolas_Br%C3%A9montier.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt%C3%A8le%20%C3%A0%20la%20m%C3%A9moire%20de%20Nicolas%20Br%C3%A9montier.jpg",
-      "title": "Stèle à la mémoire de Nicolas Brémontier.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Parc_naturel_marin_du_bassin_d%27Arcachon_vu_du_ciel_-_%C3%8Ele_aux_oiseaux_%282%29.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParc%20naturel%20marin%20du%20bassin%20d'Arcachon%20vu%20du%20ciel%20-%20%C3%8Ele%20aux%20oiseaux%20(2).JPG",
+      "title": "Parc naturel marin du bassin d'Arcachon vu du ciel - Île aux oiseaux (2).JPG",
+      "description": "Parc naturel marin du bassin d'Arcachon vu du ciel, depuis un avion léger, un Tecnam P2002",
       "width": 3264,
       "height": 2448,
-      "size": 4201887,
-      "timestamp": "2020-09-27T17:36:14Z",
-      "author": "SerysE",
-      "license": "CC BY-SA 4.0",
+      "size": 2012516,
+      "timestamp": "2015-05-10T16:15:57Z",
+      "author": "Dorian BENTEJAC",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Parc_naturel_marin_du_bassin_d%27Arcachon_vu_du_ciel_-_%C3%8Ele_aux_oiseaux_%281%29.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParc%20naturel%20marin%20du%20bassin%20d'Arcachon%20vu%20du%20ciel%20-%20%C3%8Ele%20aux%20oiseaux%20(1).JPG",
+      "title": "Parc naturel marin du bassin d'Arcachon vu du ciel - Île aux oiseaux (1).JPG",
+      "description": "Parc naturel marin du bassin d'Arcachon vu du ciel, depuis un avion léger, un Tecnam P2002",
+      "width": 3264,
+      "height": 2448,
+      "size": 1960849,
+      "timestamp": "2015-05-10T16:15:57Z",
+      "author": "Dorian BENTEJAC",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
     }
   ],
   "lieux": [
@@ -48,22 +51,10 @@
       "label": "Cabanes tchanquées",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Bassin_d%27Arcachon_-_Cabanes_tchanqu%C3%A9es.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABassin%20d'Arcachon%20-%20Cabanes%20tchanqu%C3%A9es.jpg",
-          "title": "Bassin d'Arcachon - Cabanes tchanquées.jpg",
-          "width": 2888,
-          "height": 1923,
-          "size": 7042490,
-          "timestamp": "2022-10-14T16:26:22Z",
-          "author": "Karine Deydier",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Vue_aerienne_%C3%8Ele_Oiseaux.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20aerienne%20%C3%8Ele%20Oiseaux.JPG",
           "title": "Vue aerienne Île Oiseaux.JPG",
+          "description": "Aerial view of the Île aux Oiseaux (near Arcachon).",
           "width": 3648,
           "height": 2736,
           "size": 2356564,
@@ -71,12 +62,13 @@
           "author": "Prométhée33",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 2
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/%C3%8Ele_aux_oiseaux_-_%C3%A9chouage_voilier_au_pied_des_cabanes_Tchanqu%C3%A9es_-_panoramio.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%8Ele%20aux%20oiseaux%20-%20%C3%A9chouage%20voilier%20au%20pied%20des%20cabanes%20Tchanqu%C3%A9es%20-%20panoramio.jpg",
           "title": "Île aux oiseaux - échouage voilier au pied des cabanes Tchanquées - panoramio.jpg",
+          "description": "île aux oiseaux - échouage voilier au pied des cabanes Tchanquées",
           "width": 3648,
           "height": 2736,
           "size": 4119650,
@@ -84,17 +76,117 @@
           "author": "ydecaseneuve",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 2
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Ile_aux_iseaux.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AIle%20aux%20iseaux.jpg",
+          "title": "Ile aux iseaux.jpg",
+          "description": "dessin à la plume de l'île aux Oiseaux dans le bassin d'Arcachon avec ses deux cabanes tchanquées.",
+          "width": 1179,
+          "height": 737,
+          "size": 472643,
+          "timestamp": "2008-10-23T00:51:39Z",
+          "author": "Michel mans",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": -1
         }
       ]
     },
     {
       "label": "Plages et vasières",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/960630_21a_Grosse_Ile.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A960630%2021a%20Grosse%20Ile.jpg",
+          "title": "960630 21a Grosse Ile.jpg",
+          "description": "MRC Les Îles-de-la-Madeleine, Gulf of St. Lawrence, Grosse Île, Grosse-Île (Municipality), Old-Harry (Hamlet), at the port, 4 boats pulled on the beach covered with wood (slip). View of the Grande Échouerie Beach in the Pointe-de-l'Est Wildlife Refuge, Sunday, June 30, 1996",
+          "width": 3547,
+          "height": 2342,
+          "size": 8898021,
+          "timestamp": "2024-03-01T19:32:14Z",
+          "author": "Nichole Ouellette",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Plage_des_%C3%AEles_des_oiseaux_du_parc_national_des_%C3%AEles_du_saloum_au_S%C3%A9n%C3%A9gal_03.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlage%20des%20%C3%AEles%20des%20oiseaux%20du%20parc%20national%20des%20%C3%AEles%20du%20saloum%20au%20S%C3%A9n%C3%A9gal%2003.jpg",
+          "title": "Plage des îles des oiseaux du parc national des îles du saloum au Sénégal 03.jpg",
+          "description": "Belle plage des îles aux oiseaux du parc national du Delta du Saloum au Sénégal.",
+          "width": 4000,
+          "height": 3000,
+          "size": 2318905,
+          "timestamp": "2023-08-08T01:14:40Z",
+          "author": "Mouhamadoulmansour",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 3
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Plage_des_%C3%AEles_des_oiseaux_du_parc_national_des_%C3%AEles_du_saloum_au_S%C3%A9n%C3%A9gal_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlage%20des%20%C3%AEles%20des%20oiseaux%20du%20parc%20national%20des%20%C3%AEles%20du%20saloum%20au%20S%C3%A9n%C3%A9gal%2002.jpg",
+          "title": "Plage des îles des oiseaux du parc national des îles du saloum au Sénégal 02.jpg",
+          "description": "Belle plage des îles aux oiseaux du parc national du Delta du Saloum au Sénégal.",
+          "width": 4000,
+          "height": 3000,
+          "size": 2300974,
+          "timestamp": "2023-08-08T01:14:40Z",
+          "author": "Mouhamadoulmansour",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 3
+        }
+      ]
     },
     {
       "label": "Parcs à huîtres de l’île",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Parc_naturel_marin_du_bassin_d%27Arcachon_vu_du_ciel_-_%C3%8Ele_aux_oiseaux_%282%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParc%20naturel%20marin%20du%20bassin%20d'Arcachon%20vu%20du%20ciel%20-%20%C3%8Ele%20aux%20oiseaux%20(2).JPG",
+          "title": "Parc naturel marin du bassin d'Arcachon vu du ciel - Île aux oiseaux (2).JPG",
+          "description": "Parc naturel marin du bassin d'Arcachon vu du ciel, depuis un avion léger, un Tecnam P2002",
+          "width": 3264,
+          "height": 2448,
+          "size": 2012516,
+          "timestamp": "2015-05-10T16:15:57Z",
+          "author": "Dorian BENTEJAC",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Parc_naturel_marin_du_bassin_d%27Arcachon_vu_du_ciel_-_%C3%8Ele_aux_oiseaux_%281%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParc%20naturel%20marin%20du%20bassin%20d'Arcachon%20vu%20du%20ciel%20-%20%C3%8Ele%20aux%20oiseaux%20(1).JPG",
+          "title": "Parc naturel marin du bassin d'Arcachon vu du ciel - Île aux oiseaux (1).JPG",
+          "description": "Parc naturel marin du bassin d'Arcachon vu du ciel, depuis un avion léger, un Tecnam P2002",
+          "width": 3264,
+          "height": 2448,
+          "size": 1960849,
+          "timestamp": "2015-05-10T16:15:57Z",
+          "author": "Dorian BENTEJAC",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Alopochen_aegyptiaca_Marais_aux_oiseaux_20250508.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlopochen%20aegyptiaca%20Marais%20aux%20oiseaux%2020250508.jpg",
+          "title": "Alopochen aegyptiaca Marais aux oiseaux 20250508.jpg",
+          "description": "Egyptian goose suffering from the angel-wing syndrome at the Marais aux Oiseaux in Oléron, France.",
+          "width": 7152,
+          "height": 4768,
+          "size": 6481532,
+          "timestamp": "2025-06-01T08:42:12Z",
+          "author": "Marie-Lan Taÿ Pamart",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 3
+        }
+      ]
     },
     {
       "label": "Bancs de sable au lever du soleil",

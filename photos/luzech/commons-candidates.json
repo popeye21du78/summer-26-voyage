@@ -1,12 +1,27 @@
 {
   "slug": "luzech",
   "nom": "Luzech",
-  "fetchedAt": "2026-03-13T16:00:23.443Z",
+  "fetchedAt": "2026-03-16T21:06:47.641Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Ch%C3%A2teau_%28ancien%29_-_Entr%C3%A9e_du_ch%C3%A2teau_-_Luzech_-_M%C3%A9diath%C3%A8que_de_l%27architecture_et_du_patrimoine_-_APMH00036848.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20(ancien)%20-%20Entr%C3%A9e%20du%20ch%C3%A2teau%20-%20Luzech%20-%20M%C3%A9diath%C3%A8que%20de%20l'architecture%20et%20du%20patrimoine%20-%20APMH00036848.jpg",
+      "title": "Château (ancien) - Entrée du château - Luzech - Médiathèque de l'architecture et du patrimoine - APMH00036848.jpg",
+      "description": "Entrée du château.",
+      "width": 680,
+      "height": 512,
+      "size": 64992,
+      "timestamp": "2020-05-02T11:55:11Z",
+      "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q26690111\" class=\"extiw\" title=\"d:Q26690111\"><span title=\"French architect (1847-1919)\">Henri Chaine</span></a></bdi>",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Luzech_Place_des_Consuls.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALuzech%20Place%20des%20Consuls.JPG",
       "title": "Luzech Place des Consuls.JPG",
+      "description": "Luzech, ville dans le département du Lot, région Midi-Pyrénées, France. Place des Consuls, avec, à gauche, la dite maison des Consuls (XIIe siècle), et à droite, la façade orientale avec clocher de la chapelle Saint-Jacques, appelée aussi chapelle des Pénitents bleus (XIIIe siècle).",
       "width": 2560,
       "height": 1920,
       "size": 2203421,
@@ -20,25 +35,13 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Luzech1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALuzech1.jpg",
       "title": "Luzech1.jpg",
+      "description": "Blick vom Donjon auf Luzech mit der Lot-Schleife",
       "width": 2048,
       "height": 1536,
       "size": 481370,
       "timestamp": "2012-06-25T14:13:42Z",
       "author": "SchiDD",
       "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/LUZECH_%28Lot%29_-_Eglise_Saint-Martin_de_Ca%C3%AFx.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALUZECH%20(Lot)%20-%20Eglise%20Saint-Martin%20de%20Ca%C3%AFx.jpg",
-      "title": "LUZECH (Lot) - Eglise Saint-Martin de Caïx.jpg",
-      "width": 3008,
-      "height": 2000,
-      "size": 1674049,
-      "timestamp": "2014-11-17T12:32:03Z",
-      "author": "Michel Chanaud",
-      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 5
     }
@@ -54,11 +57,97 @@
     },
     {
       "label": "Vieux pont suspendu",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Luzech20.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALuzech20.jpg",
+          "title": "Luzech20.jpg",
+          "description": "Vue sur Luzech depuis la colline de la Pistoule.",
+          "width": 4032,
+          "height": 3024,
+          "size": 1787325,
+          "timestamp": "2021-03-24T10:01:44Z",
+          "author": "Arbref",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Halte_du_pont_de_Luzech.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHalte%20du%20pont%20de%20Luzech.jpg",
+          "title": "Halte du pont de Luzech.jpg",
+          "description": "Halte du pont de Luzech",
+          "width": 5184,
+          "height": 3888,
+          "size": 7169485,
+          "timestamp": "2023-11-03T09:46:40Z",
+          "author": "VVVCFFrance",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Pont_ferroviaire_de_Luzech.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20ferroviaire%20de%20Luzech.jpg",
+          "title": "Pont ferroviaire de Luzech.jpg",
+          "description": "Pont ferroviaire de Luzech",
+          "width": 5184,
+          "height": 3888,
+          "size": 5596336,
+          "timestamp": "2023-11-04T08:08:03Z",
+          "author": "VVVCFFrance",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Sentier botanique derrière l’église",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Luzech_Vue_g%C3%A9n%C3%A9rale8.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALuzech%20Vue%20g%C3%A9n%C3%A9rale8.JPG",
+          "title": "Luzech Vue générale8.JPG",
+          "description": "Luzech, ville dans le département du Lot, région Midi-Pyrénées, France. \nVue de la ville prise depuis le sommet de la montagne de la Pistoule (alt. 189m), située au sud de la ville. Coup d’œil vers le nord-nord-ouest. On aperçoit : la ville de Luzech sur le bord du Lot ; en contrebas de nous, tout à gauche, église Saint-Pierre (un peu surexposée) ; au fond à droite, la centrale électrique, sur la rive du Lot ; au fond à droite, près du bord droit de la photo, le donjon, perché sur le rocher de S",
+          "width": 2560,
+          "height": 1920,
+          "size": 1970939,
+          "timestamp": "2010-08-28T21:35:08Z",
+          "author": "Torsade de Pointes",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Luzech_%C3%89glise_Saint-Pierre1.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALuzech%20%C3%89glise%20Saint-Pierre1.JPG",
+          "title": "Luzech Église Saint-Pierre1.JPG",
+          "description": "Luzech, ville dans le département du Lot, région Midi-Pyrénées, France. Église Saint-Pierre, de style gothique, datée du XIVe siècle. À l'arrière-plan, la rivière Lot.",
+          "width": 2560,
+          "height": 1920,
+          "size": 1929029,
+          "timestamp": "2010-08-26T20:21:52Z",
+          "author": "Torsade de Pointes",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Luzech_%C3%89glise_Saint-Pierre2.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALuzech%20%C3%89glise%20Saint-Pierre2.JPG",
+          "title": "Luzech Église Saint-Pierre2.JPG",
+          "description": "Luzech, ville dans le département du Lot, région Midi-Pyrénées, France. Église Saint-Pierre, de style gothique, datée du XIVe siècle. En haut sur la photo, la rivière Lot.",
+          "width": 2560,
+          "height": 1920,
+          "size": 1893090,
+          "timestamp": "2010-08-26T20:31:20Z",
+          "author": "Torsade de Pointes",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     }
   ]
 }

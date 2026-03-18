@@ -1,12 +1,13 @@
 {
   "slug": "plage-de-boulogne-sur-mer",
   "nom": "Plage de Boulogne-sur-Mer",
-  "fetchedAt": "2026-03-14T10:53:56.967Z",
+  "fetchedAt": "2026-03-17T22:41:29.903Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Boulogne-sur-Mer_-_Rue_des_Pipos_-_View_SE.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABoulogne-sur-Mer%20-%20Rue%20des%20Pipos%20-%20View%20SE.jpg",
       "title": "Boulogne-sur-Mer - Rue des Pipos - View SE.jpg",
+      "description": "Boulogne-sur-Mer - Rue des Pipos - View SE",
       "width": 3024,
       "height": 2016,
       "size": 3723645,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Boulogne-sur-Mer_-_Ville_Haute_-_Rampart_of_Fortifications_-_View_NW_towards_Square_Mariette.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABoulogne-sur-Mer%20-%20Ville%20Haute%20-%20Rampart%20of%20Fortifications%20-%20View%20NW%20towards%20Square%20Mariette.jpg",
       "title": "Boulogne-sur-Mer - Ville Haute - Rampart of Fortifications - View NW towards Square Mariette.jpg",
+      "description": "Boulogne-sur-Mer - Ville Haute - Rampart of Fortifications - View NW towards Square Mariette",
       "width": 3024,
       "height": 2016,
       "size": 3381797,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Boulogne-sur-Mer_-_Ville_Haute_-_Rampart_of_Fortifications_-_View_NW_towards_le_Beffroi_-_Belfry_de_Boulogne.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABoulogne-sur-Mer%20-%20Ville%20Haute%20-%20Rampart%20of%20Fortifications%20-%20View%20NW%20towards%20le%20Beffroi%20-%20Belfry%20de%20Boulogne.jpg",
       "title": "Boulogne-sur-Mer - Ville Haute - Rampart of Fortifications - View NW towards le Beffroi - Belfry de Boulogne.jpg",
+      "description": "Boulogne-sur-Mer - Ville Haute - Rampart of Fortifications - View NW towards le Beffroi / Belfry de Boulogne",
       "width": 3024,
       "height": 2016,
       "size": 3955914,
@@ -48,9 +51,24 @@
       "label": "digue de Boulogne-sur-Mer",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/E._S._1407_-_Environs_de_Boulogne-sur-Mer_%E2%80%94_Wimereux_%E2%80%93_Le_Grand_H%C3%B4tel._v%C2%BA.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AE.%20S.%201407%20-%20Environs%20de%20Boulogne-sur-Mer%20%E2%80%94%20Wimereux%20%E2%80%93%20Le%20Grand%20H%C3%B4tel.%20v%C2%BA.jpg",
+          "title": "E. S. 1407 - Environs de Boulogne-sur-Mer — Wimereux – Le Grand Hôtel. vº.jpg",
+          "description": "Wimereux – Le Grand Hôtel et son perron permettant l'accès à la plage.La digue n'a pas encore été construite, aussi, les vagues éclatent sur le mur brise lames de l'hôtel lors de grandes marées.Carte voyagée le 24 07 1914, peu avant la Grande Guerre Mondiale (https://www.retronews.fr/journal/les-nouvelles/24-jul-1914/703/2083221/1)",
+          "width": 3262,
+          "height": 2114,
+          "size": 4591468,
+          "timestamp": "2022-06-06T21:40:51Z",
+          "author": "Stevenard, éditeur. — Boulogne sur Mer",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Boulogne-sur-Mer_%28le_casino%2C_la_plage%2C_la_jet%C3%A9e_et_la_digue%29_-_btv1b531539673.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABoulogne-sur-Mer%20(le%20casino%2C%20la%20plage%2C%20la%20jet%C3%A9e%20et%20la%20digue)%20-%20btv1b531539673.jpg",
           "title": "Boulogne-sur-Mer (le casino, la plage, la jetée et la digue) - btv1b531539673.jpg",
+          "description": "Sujet : Plages -- Boulogne-sur-Mer (Pas-de-Calais, France)\nJetées -- Boulogne-sur-Mer (Pas-de-Calais, France)\nPorts -- Boulogne-sur-Mer (Pas-de-Calais, France)\nBoulogne-sur-Mer (Pas-de-Calais, France)\nCasino municipal (Boulogne-sur-Mer, Pas-de-Calais)\nRéférence bibliographique : Rol, 103960\nAppartient à l’ensemble documentaire : Pho20Rol\nAppartient à l’ensemble documentaire : NordPdeC1\nImage de presse\nCouverture : .. août 1925\n\nLangue : français",
           "width": 8631,
           "height": 6262,
           "size": 6238404,
@@ -64,6 +82,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/La_digue_Ste_Beuve_%C3%A0_Boulogne-sur-Mer_Albert_Marquet.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20digue%20Ste%20Beuve%20%C3%A0%20Boulogne-sur-Mer%20Albert%20Marquet.jpg",
           "title": "La digue Ste Beuve à Boulogne-sur-Mer Albert Marquet.jpg",
+          "description": "La digue Sainte-Beuve à Boulogne-sur-Mer (also known as Au Bord de la Plage) Albert Marquet",
           "width": 1280,
           "height": 971,
           "size": 470660,
@@ -77,49 +96,67 @@
     },
     {
       "label": "cabines de plage rayées",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Les_cabines_du_Touquet_Paris-Plage.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20cabines%20du%20Touquet%20Paris-Plage.jpg",
+          "title": "Les cabines du Touquet Paris-Plage.jpg",
+          "description": "Le Touquet-Paris-Plage est une commune française située dans le département du Pas-de-Calais, en région Hauts-de-France.\nSituée sur la Côte d'Opale, au sud de Boulogne-sur-Mer, au bord de la Manche et à l'embouchure de la Canche, cette station balnéaire de 4 285 habitants accueille jusqu'à 250 000 personnes l'été. Couramment nommée « Arcachon du Nord », « Jardin de la Manche », « Perle de la Côte d'Opale », « Paradis des sports » ou « Station des quatre saisons », elle bénéficie d'une très vaste",
+          "width": 3872,
+          "height": 2592,
+          "size": 5344441,
+          "timestamp": "2018-09-19T12:26:20Z",
+          "author": "SimonCourtecuisse",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "jetée du port",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Boulogne-sur-Mer_%28le_casino%2C_la_plage%2C_la_jet%C3%A9e_et_la_digue%29_-_btv1b531539673.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABoulogne-sur-Mer%20(le%20casino%2C%20la%20plage%2C%20la%20jet%C3%A9e%20et%20la%20digue)%20-%20btv1b531539673.jpg",
-          "title": "Boulogne-sur-Mer (le casino, la plage, la jetée et la digue) - btv1b531539673.jpg",
-          "width": 8631,
-          "height": 6262,
-          "size": 6238404,
-          "timestamp": "2025-02-28T14:04:53Z",
-          "author": "<div class=\"fn value\">\nAgence Rol. Agence photographique (commanditaire)</div>",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Entr%C3%A9e_du_port_de_Boulogne._Vue_de_la_plage%2C_GP00826.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEntr%C3%A9e%20du%20port%20de%20Boulogne.%20Vue%20de%20la%20plage%2C%20GP00826.jpg",
+          "title": "Entrée du port de Boulogne. Vue de la plage, GP00826.jpg",
+          "description": "TitleEntrée du port de Boulogne. Vue de la plageContributorLanglumé, Pierre (1790-) (lithographer)Bichebois, Alphonse (1801-1850) (lithographer)Adam, Victor (1801-1866) (lithographer)Date[1830]Publisher[Paris]Uniform titleFrankrijk. Boulogne-sur-MerSeriesFrance. Estampes topographiquesFrance. Topographical printsFrankrijk. Topografische prentenOther title(s)Gezicht op de haven en het strand van Boulogne-sur-MerGenreTopographical picturesExtentvoorstelling: 152 x 210 mm voorstelling met opschrift",
+          "width": 10228,
+          "height": 7253,
+          "size": 9158226,
+          "timestamp": "2025-08-14T15:22:26Z",
+          "author": "Langlumé, Pierre (1790-) (lithographer)",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/835._Environs_de_Boulogne-sur-Mer_%E2%80%94_Wimereux_%E2%80%93_Laboratoire_Giard.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A835.%20Environs%20de%20Boulogne-sur-Mer%20%E2%80%94%20Wimereux%20%E2%80%93%20Laboratoire%20Giard.jpg",
+          "title": "835. Environs de Boulogne-sur-Mer — Wimereux – Laboratoire Giard.jpg",
+          "description": "Wimereux (France - département  du Pas-de-Calais) — Pointe aux Oies, Laboratoire Giard vu de la plage.\nEn 1899, Alfred Giard*, professeur à la Sorbonne, titulaire de la Chaire d'Évolution des Êtres Organisés, installe à la Pointe aux Oies, au Nord de Wimereux, le laboratoire de biologie et de zoologie marine dans de nouveaux locaux dus à l'architecte Louis Bonnier, frère de Jules Bonnier**, un des principaux collaborateurs de Giard.\nLe précédent laboratoire, à l'étroit dans le chalet Le Sorézien",
+          "width": 1620,
+          "height": 1039,
+          "size": 795953,
+          "timestamp": "2021-02-21T22:36:09Z",
+          "author": "Éditions L'Hirondelle – Paris",
           "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Boulogne-sur-Mer_le_Port_et_la_plage.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABoulogne-sur-Mer%20le%20Port%20et%20la%20plage.JPG",
-          "title": "Boulogne-sur-Mer le Port et la plage.JPG",
-          "width": 4765,
-          "height": 2770,
-          "size": 2024123,
-          "timestamp": "2017-09-25T09:41:24Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Boulogne-sur-Mer_le_Port_et_la_plage_%28cropped%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABoulogne-sur-Mer%20le%20Port%20et%20la%20plage%20(cropped).JPG",
+          "title": "Boulogne-sur-Mer le Port et la plage (cropped).JPG",
+          "description": "L'aquarium Nausicaà Centre National de la Mer à Boulogne-sur-Mer,  Pas-de-Calais, Hauts-de-France",
+          "width": 2320,
+          "height": 1616,
+          "size": 1870023,
+          "timestamp": "2023-04-24T15:45:32Z",
           "author": "Pierre André",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Boulogne-sur-Mer.-_Hobie_cat_4246.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABoulogne-sur-Mer.-%20Hobie%20cat%204246.jpg",
-          "title": "Boulogne-sur-Mer.- Hobie cat 4246.jpg",
-          "width": 4912,
-          "height": 1475,
-          "size": 3675981,
-          "timestamp": "2023-09-07T09:02:53Z",
-          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q97949455\" class=\"extiw\" title=\"d:Q97949455\"><span title=\"French photographer and Wikimedian\">Pierre André Leclercq</span></a></bdi>",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         }
       ]
     }

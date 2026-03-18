@@ -1,12 +1,13 @@
 {
   "slug": "citadelle-de-blaye",
   "nom": "Citadelle de Blaye",
-  "fetchedAt": "2026-03-13T13:33:32.298Z",
+  "fetchedAt": "2026-03-16T12:04:06.272Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Blaye_%E2%80%94_Rue_Andr%C3%A9_Lamand%C3%A9.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABlaye%20%E2%80%94%20Rue%20Andr%C3%A9%20Lamand%C3%A9.jpg",
       "title": "Blaye — Rue André Lamandé.jpg",
+      "description": "Blaye (France - département de la Gironde) — Rue André Lamandé. Ancien tribunal sur la droite.",
       "width": 4608,
       "height": 3456,
       "size": 6505078,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Blaye_%E2%80%94_Sous-Pr%C3%A9fecture%2C_rue_Andr%C3%A9_Lafon.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABlaye%20%E2%80%94%20Sous-Pr%C3%A9fecture%2C%20rue%20Andr%C3%A9%20Lafon.jpg",
       "title": "Blaye — Sous-Préfecture, rue André Lafon.jpg",
+      "description": "Blaye (France - département de la Gironde) – La Sous-Préfecture.",
       "width": 4450,
       "height": 3336,
       "size": 4323126,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Blaye_%E2%80%94_Blaye_%E2%80%94_Maison_rue_Grosperrin_%28N%C2%BA7%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABlaye%20%E2%80%94%20Blaye%20%E2%80%94%20Maison%20rue%20Grosperrin%20(N%C2%BA7).jpg",
       "title": "Blaye — Blaye — Maison rue Grosperrin (Nº7).jpg",
+      "description": "Blaye (France - département de la Gironde) —   Maison néo-gothique, 7 rue Grosperrin.https://inventaire.nouvelle-aquitaine.fr/dossier/maison-d-architecte/49b0228d-b976-4c93-9131-70ab9af59ca3#description",
       "width": 4608,
       "height": 3456,
       "size": 5805090,
@@ -48,43 +51,46 @@
       "label": "Porte Royale",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Blaye_citadelle_corps_de_garde_porte_Royale_-_2016b.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABlaye%20citadelle%20corps%20de%20garde%20porte%20Royale%20-%202016b.jpg",
-          "title": "Blaye citadelle corps de garde porte Royale - 2016b.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Plan_de_la_citadelle_de_Blaye_-_Tourondel_-_btv1b531427432_%281_of_2%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlan%20de%20la%20citadelle%20de%20Blaye%20-%20Tourondel%20-%20btv1b531427432%20(1%20of%202).jpg",
+          "title": "Plan de la citadelle de Blaye - Tourondel - btv1b531427432 (1 of 2).jpg",
+          "description": "Sujet : Blaye\nGironde (cours d'eau)\nÉchelle(s) : 150 to[ises] [= 11 cm]\nCouverture : France – Nouvelle-Aquitaine – Gironde\nW 39'29\" / N 45°7'40\"\n\nLangue : français",
+          "width": 9348,
+          "height": 6328,
+          "size": 7810984,
+          "timestamp": "2022-08-15T23:26:37Z",
+          "author": "<div class=\"fn value\">\nTourondel (16..-17..). Cartographe</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Plan_de_la_citadelle_de_Blaye_-_Tourondel_-_btv1b531427432_%282_of_2%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlan%20de%20la%20citadelle%20de%20Blaye%20-%20Tourondel%20-%20btv1b531427432%20(2%20of%202).jpg",
+          "title": "Plan de la citadelle de Blaye - Tourondel - btv1b531427432 (2 of 2).jpg",
+          "description": "Sujet : Blaye\nGironde (cours d'eau)\nÉchelle(s) : 150 to[ises] [= 11 cm]\nCouverture : France – Nouvelle-Aquitaine – Gironde\nW 39'29\" / N 45°7'40\"\n\nLangue : français",
+          "width": 9348,
+          "height": 6328,
+          "size": 5933668,
+          "timestamp": "2022-08-15T23:26:51Z",
+          "author": "<div class=\"fn value\">\nTourondel (16..-17..). Cartographe</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Blaye_citadelle_porte_Dauphine_-_2016b.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABlaye%20citadelle%20porte%20Dauphine%20-%202016b.jpg",
+          "title": "Blaye citadelle porte Dauphine - 2016b.jpg",
+          "description": "Porte Dauphine de la citadelle de Blaye (Gironde, France), complexe militaire de 38 hectares édifié au XVIIe siècle sur un promontoire rocheux. Le site comporte deux portes, la porte Dauphine, vers la ville, et la porte Royale. Voir aussi autre cliché.",
           "width": 4288,
           "height": 3216,
-          "size": 6486705,
-          "timestamp": "2016-07-21T15:49:22Z",
+          "size": 6351635,
+          "timestamp": "2016-07-21T16:23:46Z",
           "author": "Franck-fnba",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Blaye_citadelle_place_porte_Royale_-_2016a.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABlaye%20citadelle%20place%20porte%20Royale%20-%202016a.jpg",
-          "title": "Blaye citadelle place porte Royale - 2016a.jpg",
-          "width": 4288,
-          "height": 3216,
-          "size": 6524323,
-          "timestamp": "2016-07-21T16:23:44Z",
-          "author": "Franck-fnba",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Blaye%2C_La_Citadelle_%282785092226%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABlaye%2C%20La%20Citadelle%20(2785092226).jpg",
-          "title": "Blaye, La Citadelle (2785092226).jpg",
-          "width": 2048,
-          "height": 1536,
-          "size": 878014,
-          "timestamp": "2013-01-29T23:40:58Z",
-          "author": "michael clarke stuff",
-          "license": "CC BY-SA 2.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
         }
       ]
     },
@@ -95,6 +101,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Promenade_de_S.A.R._Madame_avec_Melle_de_Kersabiec._Sur_les_Remparts_de_la_Citadelle_de_Blaye._N%C2%B010._Paris_Mus%C3%A9es_20231121130950.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APromenade%20de%20S.A.R.%20Madame%20avec%20Melle%20de%20Kersabiec.%20Sur%20les%20Remparts%20de%20la%20Citadelle%20de%20Blaye.%20N%C2%B010.%20Paris%20Mus%C3%A9es%2020231121130950.jpg",
           "title": "Promenade de S.A.R. Madame avec Melle de Kersabiec. Sur les Remparts de la Citadelle de Blaye. N°10. Paris Musées 20231121130950.jpg",
+          "description": "Auteur(s):\n\nAnonyme, dessinateur-lithographe\nFonrouge, Antoine Adolphe Catherine (Bordeaux, 24–01–1798 - après 1855), imprimeur-lithographe\n\n\n\nAutre titre:\n\nSérie chronologie. (Titre de la série)\n\n\nDate de production:\n\nAprès 1832\nDatation en siècle: \n19e siècle\n\n\n\nType(s) d'objet(s):\n\nEstampe, Arts graphiques\n\n\nDénomination(s):\n\nEstampe\n\n\nMatériaux et techniques:\n\nLithographie\n\n\nDimensions - Oeuvre:\n\n\n   Hauteur : 35 cm\n   Largeur : 26.2 cm\n\nDimensions - Montage:\n\n   Hauteur : 50.3 cm\n   Largeur",
           "width": 3131,
           "height": 4158,
           "size": 7966671,
@@ -103,16 +110,88 @@
           "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Citadelle_de_Blaye_6.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACitadelle%20de%20Blaye%206.jpg",
+          "title": "Citadelle de Blaye 6.jpg",
+          "description": "Citadelle de Blaye, Gironde.\nLa Gironde et le Rempart Ouest.",
+          "width": 2304,
+          "height": 3072,
+          "size": 2356282,
+          "timestamp": "2011-10-07T16:25:02Z",
+          "author": "Guiguilacagouille",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
         }
       ]
     },
     {
       "label": "Église Saint-Romain",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Cit_Blaye_%C3%A9glise_couvent_Minimes_2.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACit%20Blaye%20%C3%A9glise%20couvent%20Minimes%202.JPG",
+          "title": "Cit Blaye église couvent Minimes 2.JPG",
+          "description": "Eglise du couvent des Minimes, dans la citadelle de Blaye (Gironde, France)",
+          "width": 2048,
+          "height": 1536,
+          "size": 520103,
+          "timestamp": "2009-10-07T10:07:04Z",
+          "author": "Jibi44",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     },
     {
       "label": "Esplanade du fort Napoléonien",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Blaye12.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABlaye12.jpg",
+          "title": "Blaye12.jpg",
+          "description": "Esplanade de la citadelle de Blaye",
+          "width": 2048,
+          "height": 1536,
+          "size": 1661307,
+          "timestamp": "2008-07-11T01:11:05Z",
+          "author": "Cobber17",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Ville_de_Blaye2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVille%20de%20Blaye2.jpg",
+          "title": "Ville de Blaye2.jpg",
+          "description": "Ville de Blaye - Esplanade de la Citadelle",
+          "width": 2048,
+          "height": 1536,
+          "size": 1714793,
+          "timestamp": "2009-11-17T05:34:00Z",
+          "author": "Cobber17",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Ville_de_Blaye3.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVille%20de%20Blaye3.jpg",
+          "title": "Ville de Blaye3.jpg",
+          "description": "Esplanade de la citadelle",
+          "width": 2048,
+          "height": 1536,
+          "size": 1614977,
+          "timestamp": "2009-11-17T05:35:52Z",
+          "author": "Cobber17",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     }
   ]
 }

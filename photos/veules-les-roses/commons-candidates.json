@@ -1,12 +1,13 @@
 {
   "slug": "veules-les-roses",
   "nom": "Veules-les-Roses",
-  "fetchedAt": "2026-03-14T14:32:29.457Z",
+  "fetchedAt": "2026-03-18T20:47:52.876Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/%C3%89glise_Saint-Martin%2C_Veules-les-Roses.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-Martin%2C%20Veules-les-Roses.jpg",
       "title": "Église Saint-Martin, Veules-les-Roses.jpg",
+      "description": "Église Saint-Martin (Veules-les-Roses)",
       "width": 4080,
       "height": 3072,
       "size": 2722985,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Veules-les-Roses%2C_Rue_Victor_Hugo.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVeules-les-Roses%2C%20Rue%20Victor%20Hugo.jpg",
       "title": "Veules-les-Roses, Rue Victor Hugo.jpg",
+      "description": "Veules-les-Roses, Rue Victor Hugo",
       "width": 4080,
       "height": 3072,
       "size": 5314440,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Rue_Victor_Hugo_22%2C_Veules-les-Roses.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARue%20Victor%20Hugo%2022%2C%20Veules-les-Roses.jpg",
       "title": "Rue Victor Hugo 22, Veules-les-Roses.jpg",
+      "description": "Rue Victor Hugo 22, Veules-les-Roses",
       "width": 4080,
       "height": 3072,
       "size": 3990087,
@@ -46,11 +49,69 @@
   "lieux": [
     {
       "label": "Plage de galets et falaises",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Villa_de_Paul_Meurice_%C3%A0_Veules-les-Roses%2C_3670.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVilla%20de%20Paul%20Meurice%20%C3%A0%20Veules-les-Roses%2C%203670.jpg",
+          "title": "Villa de Paul Meurice à Veules-les-Roses, 3670.jpg",
+          "description": "Auteur(s):\n\nAnonyme, photographe\n\n\nDate de production:\n\nVers 1910\nDatation en siècle: \n1er quart du 20e siècle\n\n\n\nType(s) d'objet(s):\n\nPhotographie\n\n\nDénomination(s):\n\nPhotographie\n\n\nMatériaux et techniques:\n\nTirage sur papier albuminé\nLieu(x) d'exécution / réalisation: \nVeules-les-Roses\n\n\n\nDimensions - Oeuvre:\n\n\n   Hauteur : 11.5 cm\n   Largeur : 16 cm\n\nDimensions - Montage ancien:\n\n   Hauteur : 13.8 cm\n   Largeur : 18.3 cm\n\n\n\nDimensions - Montage du musée:\n\n\n   Hauteur : 53 cm\n   Largeur : 38 c",
+          "width": 6937,
+          "height": 5045,
+          "size": 3417586,
+          "timestamp": "2023-05-04T18:38:42Z",
+          "author": "Anonyme, photographe",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Plage_de_Veules-les-Roses%2C_3669.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlage%20de%20Veules-les-Roses%2C%203669.jpg",
+          "title": "Plage de Veules-les-Roses, 3669.jpg",
+          "description": "Auteur(s):\n\nAnonyme, photographe\n\n\nDate de production:\n\nEn 09–1911\nDatation en siècle: \n1er quart du 20e siècle\n\n\n\nType(s) d'objet(s):\n\nPhotographie\n\n\nDénomination(s):\n\nPhotographie\n\n\nMatériaux et techniques:\n\nTirage gélatino-argentique développé\nLieu(x) d'exécution / réalisation: \nVeules-les-Roses\n\n\n\nDimensions - Oeuvre:\n\n\n   Hauteur : 11.5 cm\n   Largeur : 16 cm\n\nDimensions - Montage ancien:\n\n   Hauteur : 13.8 cm\n   Largeur : 18.3 cm\n\n\n\nDimensions - Montage du musée:\n\n\n   Hauteur : 53 cm\n   Lar",
+          "width": 6833,
+          "height": 5121,
+          "size": 3403565,
+          "timestamp": "2023-05-04T22:36:27Z",
+          "author": "Anonyme, photographe",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/VeulesLesRosesPlageOuest.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVeulesLesRosesPlageOuest.jpg",
+          "title": "VeulesLesRosesPlageOuest.jpg",
+          "description": "Veules-les-Roses and the cliffs, view from the beach toward west",
+          "width": 8100,
+          "height": 3200,
+          "size": 4108845,
+          "timestamp": "2011-10-30T17:28:24Z",
+          "author": "Cqui",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Moulin à eau",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Watermolen_in_Veules%2C_RP-P-1902-A-22554.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWatermolen%20in%20Veules%2C%20RP-P-1902-A-22554.jpg",
+          "title": "Watermolen in Veules, RP-P-1902-A-22554.jpg",
+          "description": "IdentificatieTitel(s): Watermolen in Veules Moulin dans les cressonnières à Veules (originele titel) Souvenir du Hâvre (originele serietitel)Objecttype: prent Objectnummer: RP-P-1902-A-22554Catalogusreferentie: Aantal staten bekend-3 of 4(4) Opschriften / Merken: datum VervaardigingVervaardiger: prentmaker: Carel Nicolaas Storm van 's-Gravesande (vermeld op object) Datering: 1873Materiaal en TechniekMateriaal: Japans papier Techniek: etsen / plaattoonAfmetingen: blad: hoogte 251 mm (binnen de pl",
+          "width": 6184,
+          "height": 4692,
+          "size": 4878755,
+          "timestamp": "2024-07-25T08:37:30Z",
+          "author": "Rijksmuseum",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Jardin Victor Hugo",
@@ -59,6 +120,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Victor_Hugo%2C_Paul_Meurice_et_Auguste_Vacquerie_%C3%A0_Veules-les-Roses%2C_3798.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVictor%20Hugo%2C%20Paul%20Meurice%20et%20Auguste%20Vacquerie%20%C3%A0%20Veules-les-Roses%2C%203798.jpg",
           "title": "Victor Hugo, Paul Meurice et Auguste Vacquerie à Veules-les-Roses, 3798.jpg",
+          "description": "Auteur(s):\n\nQuinet, Louis Emmanuel Alexandre, photographe\n\n\nDate de production:\n\nEn 1882\nDatation en siècle: \n2e moitié du 19e siècle\n\n\n\nType(s) d'objet(s):\n\nPhotographie\n\n\nDénomination(s):\n\nPhotographie\n\n\nMatériaux et techniques:\n\nTirage sur papier albuminé\nLieu(x) d'exécution / réalisation: \nVeules-les-Roses\n\n\n\nDimensions - Oeuvre:\n\n\n   Hauteur : 11.6 cm\n   Largeur : 16.2 cm\n\nDimensions - Montage ancien:\n\n   Hauteur : 13.3 cm\n   Largeur : 18.5 cm\n\n\n\nDimensions - Montage du musée:\n\n\n   Hauteur ",
           "width": 6977,
           "height": 5015,
           "size": 2711679,
@@ -72,6 +134,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Victor_Hugo%2C_famille_de_Paul_Meurice_et_Auguste_Vacquerie_%C3%A0_Veules-les-Roses%2C_3269.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVictor%20Hugo%2C%20famille%20de%20Paul%20Meurice%20et%20Auguste%20Vacquerie%20%C3%A0%20Veules-les-Roses%2C%203269.jpg",
           "title": "Victor Hugo, famille de Paul Meurice et Auguste Vacquerie à Veules-les-Roses, 3269.jpg",
+          "description": "Auteur(s):\n\nQuinet, Louis Emmanuel Alexandre, photographe\n\n\nDate de production:\n\nEn 1882\nDatation en siècle: \n2e moitié du 19e siècle\n\n\n\nType(s) d'objet(s):\n\nPhotographie\n\n\nDénomination(s):\n\nPhotographie\n\n\nMatériaux et techniques:\n\nTirage sur papier albuminé\nLieu(x) d'exécution / réalisation: \nVeules-les-Roses\n\n\n\nDimensions - Oeuvre:\n\n\n   Hauteur : 11.2 cm\n   Largeur : 14.7 cm\n\n\n\nDimensions - Montage du musée:\n\n\n   Hauteur : 30 cm\n   Largeur : 40 cm\n\n\n\nDescription:\n\n\nTirage inséré dans un montag",
           "width": 6376,
           "height": 4929,
           "size": 4298682,
@@ -80,19 +143,6 @@
           "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Victor_Hugo_entour%C3%A9_de_Paul_Meurice_et_de_deux_de_ses_filles%2C_1311.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVictor%20Hugo%20entour%C3%A9%20de%20Paul%20Meurice%20et%20de%20deux%20de%20ses%20filles%2C%201311.jpg",
-          "title": "Victor Hugo entouré de Paul Meurice et de deux de ses filles, 1311.jpg",
-          "width": 5069,
-          "height": 6904,
-          "size": 4396919,
-          "timestamp": "2023-06-06T18:24:31Z",
-          "author": "Anonyme, photographe",
-          "license": "CC0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
         }
       ]
     },
@@ -100,17 +150,32 @@
       "label": "Cressonnières de la Veules",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Les_Cressonni%C3%A8res.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20Cressonni%C3%A8res.JPG",
-          "title": "Les Cressonnières.JPG",
-          "width": 2048,
-          "height": 1536,
-          "size": 1572317,
-          "timestamp": "2005-04-11T08:33:13Z",
-          "author": "Gegeours",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Watermolen_in_Veules%2C_RP-P-1902-A-22554.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWatermolen%20in%20Veules%2C%20RP-P-1902-A-22554.jpg",
+          "title": "Watermolen in Veules, RP-P-1902-A-22554.jpg",
+          "description": "IdentificatieTitel(s): Watermolen in Veules Moulin dans les cressonnières à Veules (originele titel) Souvenir du Hâvre (originele serietitel)Objecttype: prent Objectnummer: RP-P-1902-A-22554Catalogusreferentie: Aantal staten bekend-3 of 4(4) Opschriften / Merken: datum VervaardigingVervaardiger: prentmaker: Carel Nicolaas Storm van 's-Gravesande (vermeld op object) Datering: 1873Materiaal en TechniekMateriaal: Japans papier Techniek: etsen / plaattoonAfmetingen: blad: hoogte 251 mm (binnen de pl",
+          "width": 6184,
+          "height": 4692,
+          "size": 4878755,
+          "timestamp": "2024-07-25T08:37:30Z",
+          "author": "Rijksmuseum",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Veules-les-Roses_Cressonni%C3%A8re_B1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVeules-les-Roses%20Cressonni%C3%A8re%20B1.jpg",
+          "title": "Veules-les-Roses Cressonnière B1.jpg",
+          "description": "Cressonnière sur la Veules, à Veules-les-Roses (Seine-Maritime, France).",
+          "width": 1024,
+          "height": 768,
+          "size": 504510,
+          "timestamp": "2009-03-31T18:39:35Z",
+          "author": "Brunodesacacias",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 3
         }
       ]
     }

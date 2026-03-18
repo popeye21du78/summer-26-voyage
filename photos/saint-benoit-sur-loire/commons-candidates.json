@@ -1,12 +1,13 @@
 {
   "slug": "saint-benoit-sur-loire",
   "nom": "Saint-Benoît-sur-Loire",
-  "fetchedAt": "2026-03-14T11:57:09.353Z",
+  "fetchedAt": "2026-03-18T18:01:53.171Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Capitals_of_Abbatiale_Saint-Beno%C3%AEt_03.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACapitals%20of%20Abbatiale%20Saint-Beno%C3%AEt%2003.jpg",
       "title": "Capitals of Abbatiale Saint-Benoît 03.jpg",
+      "description": "Capitals of Abbatiale Saint-Benoît",
       "width": 4032,
       "height": 3024,
       "size": 1566926,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Saint-Beno%C3%AEt-sur-Loire_-_8_place_de_l%27universit%C3%A9_01.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Beno%C3%AEt-sur-Loire%20-%208%20place%20de%20l'universit%C3%A9%2001.JPG",
       "title": "Saint-Benoît-sur-Loire - 8 place de l'université 01.JPG",
+      "description": "Maison du 13e siècle située 8 place de l'Université à Saint-Benoît-sur-Loire.",
       "width": 5472,
       "height": 3648,
       "size": 8514931,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Saint-Beno%C3%AEt-sur-Loire_-_8_place_de_l%27universit%C3%A9_02.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Beno%C3%AEt-sur-Loire%20-%208%20place%20de%20l'universit%C3%A9%2002.JPG",
       "title": "Saint-Benoît-sur-Loire - 8 place de l'université 02.JPG",
+      "description": "Maison du 13e siècle située 8 place de l'Université à Saint-Benoît-sur-Loire.",
       "width": 5472,
       "height": 3648,
       "size": 8983052,
@@ -48,39 +51,42 @@
       "label": "Abbatiale de Fleury",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Saint-Beno%C3%AEt-sur-Loire_-_%C3%A9glise_abbatiale%2C_ext%C3%A9rieur_%2828%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Beno%C3%AEt-sur-Loire%20-%20%C3%A9glise%20abbatiale%2C%20ext%C3%A9rieur%20(28).jpg",
+          "title": "Saint-Benoît-sur-Loire - église abbatiale, extérieur (28).jpg",
+          "description": "Saint Benedictus abbey church of Saint-Benoît-sur-Loire (Loiret, France) : bell tower seen from the south",
+          "width": 2448,
+          "height": 3264,
+          "size": 3569525,
+          "timestamp": "2019-09-01T12:13:20Z",
+          "author": "Fab5669",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Saint-Beno%C3%AEt-sur-Loire_-_Abbatiale_Saint-Beno%C3%AEt_32.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Beno%C3%AEt-sur-Loire%20-%20Abbatiale%20Saint-Beno%C3%AEt%2032.JPG",
+          "title": "Saint-Benoît-sur-Loire - Abbatiale Saint-Benoît 32.JPG",
+          "description": "Abbatiale Saint-Benoît de Saint-Benoît-sur-Loire : stalles dans le chœur.",
+          "width": 5472,
+          "height": 3648,
+          "size": 5462015,
+          "timestamp": "2015-09-09T21:22:49Z",
+          "author": "Pymouss",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Saint-B%C3%A9no%C3%AEt-sur-Loire_Abbatiale_de_Fleury_1.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-B%C3%A9no%C3%AEt-sur-Loire%20Abbatiale%20de%20Fleury%201.jpg",
           "title": "Saint-Bénoît-sur-Loire Abbatiale de Fleury 1.jpg",
+          "description": "Abbey Church of Fleury, Saint-Benoît-sur-Loire, Department of Loiret, Region of Centre-Loire Valley, France",
           "width": 4452,
           "height": 3293,
           "size": 5321174,
           "timestamp": "2019-07-10T14:23:23Z",
-          "author": "Zairon",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Saint-B%C3%A9no%C3%AEt-sur-Loire_Abbatiale_de_Fleury_2.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-B%C3%A9no%C3%AEt-sur-Loire%20Abbatiale%20de%20Fleury%202.jpg",
-          "title": "Saint-Bénoît-sur-Loire Abbatiale de Fleury 2.jpg",
-          "width": 4510,
-          "height": 3403,
-          "size": 6106560,
-          "timestamp": "2019-07-10T14:23:24Z",
-          "author": "Zairon",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Saint-B%C3%A9no%C3%AEt-sur-Loire_Abbatiale_de_Fleury_3.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-B%C3%A9no%C3%AEt-sur-Loire%20Abbatiale%20de%20Fleury%203.jpg",
-          "title": "Saint-Bénoît-sur-Loire Abbatiale de Fleury 3.jpg",
-          "width": 4583,
-          "height": 3353,
-          "size": 5479049,
-          "timestamp": "2019-07-10T14:23:26Z",
           "author": "Zairon",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -90,11 +96,41 @@
     },
     {
       "label": "Digue de la Loire",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/ZI-Saint-Beno%C3%AEt-sur-Loire.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AZI-Saint-Beno%C3%AEt-sur-Loire.png",
+          "title": "ZI-Saint-Benoît-sur-Loire.png",
+          "description": "Zone inondable et réseaux hydrographique et routier de la commune de Saint-Benoît-sur-Loire.",
+          "width": 5457,
+          "height": 3578,
+          "size": 5527378,
+          "timestamp": "2017-04-01T08:17:29Z",
+          "author": "Roland45",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Jardin public de Saint-Benoît-sur-Loire",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Abbaye_St-Benoit-sur-Loire.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20St-Benoit-sur-Loire.jpg",
+          "title": "Abbaye St-Benoit-sur-Loire.jpg",
+          "description": "Abbaye de Saint-Benoit-sur-Loire, France",
+          "width": 850,
+          "height": 524,
+          "size": 202582,
+          "timestamp": "2011-11-01T23:10:10Z",
+          "author": "Gilbertus",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     }
   ]
 }

@@ -1,12 +1,13 @@
 {
   "slug": "saint-lary-soulan",
   "nom": "Saint-Lary-Soulan",
-  "fetchedAt": "2026-03-14T12:05:17.258Z",
+  "fetchedAt": "2026-03-18T18:22:46.477Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/St_Mary_chapel_in_St-Lary-Soulan_%283%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt%20Mary%20chapel%20in%20St-Lary-Soulan%20(3).jpg",
       "title": "St Mary chapel in St-Lary-Soulan (3).jpg",
+      "description": "Saint Mary chapel in Saint-Lary-Soulan, Hautes-Pyrénées, France",
       "width": 5503,
       "height": 3905,
       "size": 16241687,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/St_Mary_chapel_in_St-Lary-Soulan_%284%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt%20Mary%20chapel%20in%20St-Lary-Soulan%20(4).jpg",
       "title": "St Mary chapel in St-Lary-Soulan (4).jpg",
+      "description": "Saint Mary chapel in Saint-Lary-Soulan, Hautes-Pyrénées, France",
       "width": 5202,
       "height": 3529,
       "size": 15209235,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/St_Mary_chapel_in_St-Lary-Soulan_%281%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt%20Mary%20chapel%20in%20St-Lary-Soulan%20(1).jpg",
       "title": "St Mary chapel in St-Lary-Soulan (1).jpg",
+      "description": "Saint Mary chapel in Saint-Lary-Soulan, Hautes-Pyrénées, France",
       "width": 5894,
       "height": 3929,
       "size": 16895074,
@@ -46,7 +49,50 @@
   "lieux": [
     {
       "label": "Église Saint-Laurent",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Chapelle_Sainte-Marie-Madeleine_de_Guirande.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20Sainte-Marie-Madeleine%20de%20Guirande.jpg",
+          "title": "Chapelle Sainte-Marie-Madeleine de Guirande.jpg",
+          "description": "Vue de l'extérieur",
+          "width": 2592,
+          "height": 1944,
+          "size": 2488752,
+          "timestamp": "2023-06-10T18:55:15Z",
+          "author": "Nokuwe",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Annonay_Chapelle_Sainte-Marie_%28sud%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAnnonay%20Chapelle%20Sainte-Marie%20(sud).jpg",
+          "title": "Annonay Chapelle Sainte-Marie (sud).jpg",
+          "description": "Sainte-Marie, from South: the central part of the picture shows the remnants of the chapel",
+          "width": 1633,
+          "height": 1168,
+          "size": 654836,
+          "timestamp": "2020-04-21T17:38:58Z",
+          "author": "Sarang",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Chapelle_Sainte-Marie-du-M%C3%A9nez-Hom_-_enclos.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20Sainte-Marie-du-M%C3%A9nez-Hom%20-%20enclos.jpg",
+          "title": "Chapelle Sainte-Marie-du-Ménez-Hom - enclos.jpg",
+          "description": "Enclosure of the Sainte-Marie-du-Ménez-Hom chapel in Plomodiern (Finistère, France).",
+          "width": 5472,
+          "height": 3648,
+          "size": 4445836,
+          "timestamp": "2020-09-16T08:41:34Z",
+          "author": "Gzen92",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Passerelle sur la Neste d’Aure",
@@ -56,9 +102,38 @@
       "label": "Maison du Parc National des Pyrénées",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/St_lary_maison_du_parc_national.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt%20lary%20maison%20du%20parc%20national.jpg",
+          "title": "St lary maison du parc national.jpg",
+          "description": "Maison du Parc National",
+          "width": 3096,
+          "height": 4128,
+          "size": 5713919,
+          "timestamp": "2023-02-22T21:36:26Z",
+          "author": "LySioS",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/St_lary_maison_du_parc_national_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt%20lary%20maison%20du%20parc%20national%202.jpg",
+          "title": "St lary maison du parc national 2.jpg",
+          "description": "Maison du Parc National",
+          "width": 3096,
+          "height": 4128,
+          "size": 5519105,
+          "timestamp": "2023-02-22T21:38:17Z",
+          "author": "LySioS",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Maison_du_Parc_national_des_Pyrenees_in_St-Lary-Soulan_%281%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison%20du%20Parc%20national%20des%20Pyrenees%20in%20St-Lary-Soulan%20(1).jpg",
           "title": "Maison du Parc national des Pyrenees in St-Lary-Soulan (1).jpg",
+          "description": "Maison du Parc national des Pyrénées in Saint-Lary-Soulan, Hautes-Pyrénées, France",
           "width": 3854,
           "height": 5781,
           "size": 17731686,

@@ -1,12 +1,13 @@
 {
   "slug": "vianne",
   "nom": "Vianne",
-  "fetchedAt": "2026-03-14T14:34:07.225Z",
+  "fetchedAt": "2026-03-18T20:50:58.197Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Vianne_-_%C3%89glise.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVianne%20-%20%C3%89glise.jpg",
       "title": "Vianne - Église.jpg",
+      "description": "Église Saint-Christophe de Vianne",
       "width": 5794,
       "height": 3868,
       "size": 13816077,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Vianne_-_Enceinte.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVianne%20-%20Enceinte.jpg",
       "title": "Vianne - Enceinte.jpg",
+      "description": "Enceinte et tours de Vianne",
       "width": 5794,
       "height": 3868,
       "size": 11656748,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Vianne_-_Pont_suspendu_-4.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVianne%20-%20Pont%20suspendu%20-4.JPG",
       "title": "Vianne - Pont suspendu -4.JPG",
+      "description": "Vianne - Pont suspendu sur la Baïse - Suspension",
       "width": 3672,
       "height": 4896,
       "size": 8800749,
@@ -46,7 +49,36 @@
   "lieux": [
     {
       "label": "Remparts et porte nord",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Vianne_-_%C3%89glise_Saint-Christophe_-_Ext%C3%A9rieur_-9.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVianne%20-%20%C3%89glise%20Saint-Christophe%20-%20Ext%C3%A9rieur%20-9.JPG",
+          "title": "Vianne - Église Saint-Christophe - Extérieur -9.JPG",
+          "description": "Vianne - Église Saint-Christophe - Côté proche du rempart est",
+          "width": 3862,
+          "height": 2929,
+          "size": 7112219,
+          "timestamp": "2015-05-27T07:07:53Z",
+          "author": "MOSSOT",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Vianne-tour-d%27angle-remparts.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVianne-tour-d'angle-remparts.jpg",
+          "title": "Vianne-tour-d'angle-remparts.jpg",
+          "description": "Tour d'angle et remparts de la cité de Vianne",
+          "width": 770,
+          "height": 1042,
+          "size": 1049789,
+          "timestamp": "2011-09-21T08:49:33Z",
+          "author": "JC Allin",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 2
+        }
+      ]
     },
     {
       "label": "Halle centrale",

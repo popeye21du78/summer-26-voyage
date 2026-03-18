@@ -1,12 +1,13 @@
 {
   "slug": "manosque",
   "nom": "Manosque",
-  "fetchedAt": "2026-03-13T01:23:29.737Z",
+  "fetchedAt": "2026-03-16T21:15:53.214Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/%C3%89glise_Saint-Sauveur_de_Manosque_03.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-Sauveur%20de%20Manosque%2003.jpg",
       "title": "Église Saint-Sauveur de Manosque 03.jpg",
+      "description": "Église Saint-Sauveur de Manosque.",
       "width": 3264,
       "height": 2448,
       "size": 3266594,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/%C3%89glise_Saint-Sauveur_de_Manosque_02.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-Sauveur%20de%20Manosque%2002.jpg",
       "title": "Église Saint-Sauveur de Manosque 02.jpg",
+      "description": "Église Saint-Sauveur de Manosque.",
       "width": 3264,
       "height": 2448,
       "size": 3053548,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/%C3%89glise_Saint-Sauveur_de_Manosque_10.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-Sauveur%20de%20Manosque%2010.jpg",
       "title": "Église Saint-Sauveur de Manosque 10.jpg",
+      "description": "Église Saint-Sauveur de Manosque.",
       "width": 3264,
       "height": 2448,
       "size": 2628084,
@@ -46,41 +49,48 @@
   "lieux": [
     {
       "label": "Porte Saunerie",
+      "photos": []
+    },
+    {
+      "label": "Vieille ville de Manosque (rue Grande)",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/France_PACA_04_Manosque_01.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20PACA%2004%20Manosque%2001.jpg",
-          "title": "France PACA 04 Manosque 01.jpg",
-          "width": 3008,
-          "height": 2000,
-          "size": 2663038,
-          "timestamp": "2015-08-02T13:08:12Z",
-          "author": "Calips",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Manosque_-_Rue_du_Tribunal_-_bo%C3%AEte_%C3%A0_livres.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AManosque%20-%20Rue%20du%20Tribunal%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
+          "title": "Manosque - Rue du Tribunal - boîte à livres.jpg",
+          "description": "Boîte à livres à Manosque",
+          "width": 4160,
+          "height": 3120,
+          "size": 2462427,
+          "timestamp": "2024-05-21T03:54:49Z",
+          "author": "<span lang=\"en\">Anonymous</span><span style=\"display:none\">Unknown author</span>",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Porte_Saunerie_Manosque_1.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APorte%20Saunerie%20Manosque%201.jpg",
-          "title": "Porte Saunerie Manosque 1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Fontaine_rue_Libert%C3%A9_Manosque_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFontaine%20rue%20Libert%C3%A9%20Manosque%202.jpg",
+          "title": "Fontaine rue Liberté Manosque 2.jpg",
+          "description": "Fontaine située rue de la Liberté, Manosque.",
           "width": 5184,
           "height": 3456,
-          "size": 6657980,
-          "timestamp": "2017-06-16T06:52:52Z",
+          "size": 8635709,
+          "timestamp": "2017-06-15T13:36:44Z",
           "author": "Chabe01",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Porte_Saunerie_Manosque_3.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APorte%20Saunerie%20Manosque%203.jpg",
-          "title": "Porte Saunerie Manosque 3.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Fontaine_rue_Libert%C3%A9_Manosque_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFontaine%20rue%20Libert%C3%A9%20Manosque%201.jpg",
+          "title": "Fontaine rue Liberté Manosque 1.jpg",
+          "description": "Fontaine située rue de la Liberté, Manosque.",
           "width": 5184,
           "height": 3456,
-          "size": 7466486,
-          "timestamp": "2017-06-16T06:52:54Z",
+          "size": 9445867,
+          "timestamp": "2017-06-15T13:36:48Z",
           "author": "Chabe01",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -89,16 +99,41 @@
       ]
     },
     {
-      "label": "Vieille ville de Manosque (rue Grande)",
-      "photos": []
-    },
-    {
       "label": "Église Saint-Sauveur",
       "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/%C3%89glise_Saint-Sauveur_de_Manosque.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-Sauveur%20de%20Manosque.jpg",
+          "title": "Église Saint-Sauveur de Manosque.jpg",
+          "description": "Church Saint-Sauveur of Manosque",
+          "width": 4272,
+          "height": 2848,
+          "size": 4927616,
+          "timestamp": "2020-11-02T22:33:15Z",
+          "author": "Mich-nguyen",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/%C3%89glise_Saint-Sauveur_de_Manosque_03.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-Sauveur%20de%20Manosque%2003.jpg",
+          "title": "Église Saint-Sauveur de Manosque 03.jpg",
+          "description": "Église Saint-Sauveur de Manosque.",
+          "width": 3264,
+          "height": 2448,
+          "size": 3266594,
+          "timestamp": "2021-09-07T20:51:25Z",
+          "author": "Sebastien.leroy2",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/%C3%89glise_Saint-Sauveur_de_Manosque_02.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-Sauveur%20de%20Manosque%2002.jpg",
           "title": "Église Saint-Sauveur de Manosque 02.jpg",
+          "description": "Église Saint-Sauveur de Manosque.",
           "width": 3264,
           "height": 2448,
           "size": 3053548,
@@ -107,32 +142,6 @@
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/%C3%89glise_Saint-Sauveur_de_Manosque_10.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-Sauveur%20de%20Manosque%2010.jpg",
-          "title": "Église Saint-Sauveur de Manosque 10.jpg",
-          "width": 3264,
-          "height": 2448,
-          "size": 2628084,
-          "timestamp": "2021-09-07T20:51:42Z",
-          "author": "Sebastien.leroy2",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Manosque-Saint_Sauveur-CTH_06.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AManosque-Saint%20Sauveur-CTH%2006.jpg",
-          "title": "Manosque-Saint Sauveur-CTH 06.jpg",
-          "width": 3216,
-          "height": 2136,
-          "size": 2364529,
-          "timestamp": "2018-09-15T17:43:05Z",
-          "author": "CTHOE",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
         }
       ]
     },
@@ -143,6 +152,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Maison_Para%C3%AFs_Manosque_1.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison%20Para%C3%AFs%20Manosque%201.jpg",
           "title": "Maison Paraïs Manosque 1.jpg",
+          "description": "Maison « Le Paraïs », Manosque.",
           "width": 5184,
           "height": 3456,
           "size": 9118068,
@@ -156,6 +166,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Maison_Para%C3%AFs_Manosque_3.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison%20Para%C3%AFs%20Manosque%203.jpg",
           "title": "Maison Paraïs Manosque 3.jpg",
+          "description": "Maison « Le Paraïs », Manosque.",
           "width": 5151,
           "height": 3939,
           "size": 21338709,
@@ -169,6 +180,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Maison_Para%C3%AFs_Manosque_6.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison%20Para%C3%AFs%20Manosque%206.jpg",
           "title": "Maison Paraïs Manosque 6.jpg",
+          "description": "Maison « Le Paraïs », Manosque.",
           "width": 5184,
           "height": 3456,
           "size": 7389147,
@@ -182,23 +194,67 @@
     },
     {
       "label": "Mont d’Or (vue sur la ville)",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Vue_centre_Manosque_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20centre%20Manosque%202.jpg",
+          "title": "Vue centre Manosque 2.jpg",
+          "description": "Vue de Manosque depuis le Mont d'Or.",
+          "width": 5184,
+          "height": 3456,
+          "size": 8490017,
+          "timestamp": "2017-06-13T06:55:21Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Vue_centre_Manosque_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20centre%20Manosque%201.jpg",
+          "title": "Vue centre Manosque 1.jpg",
+          "description": "Vue de Manosque depuis le Mont d'Or.",
+          "width": 5184,
+          "height": 3456,
+          "size": 8752004,
+          "timestamp": "2017-06-13T06:55:23Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Vue_centre_Manosque_4.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20centre%20Manosque%204.jpg",
+          "title": "Vue centre Manosque 4.jpg",
+          "description": "Vue de Manosque depuis le Mont d'Or.",
+          "width": 5184,
+          "height": 3456,
+          "size": 9688742,
+          "timestamp": "2017-06-13T06:55:25Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        }
+      ]
     },
     {
       "label": "Chapelle Notre-Dame de Romigier",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/ND_Romigier_-_chapelle_anexe.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AND%20Romigier%20-%20chapelle%20anexe.JPG",
-          "title": "ND Romigier - chapelle anexe.JPG",
-          "width": 3000,
-          "height": 4000,
-          "size": 2475357,
-          "timestamp": "2011-04-23T09:19:46Z",
-          "author": "Véronique PAGNIER",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Manosque_Eglise_Notre-Dame-De-Romigier_Bas_Cote_Gauche_Chapelle_Vierge_Noire_-_panoramio.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AManosque%20Eglise%20Notre-Dame-De-Romigier%20Bas%20Cote%20Gauche%20Chapelle%20Vierge%20Noire%20-%20panoramio.jpg",
+          "title": "Manosque Eglise Notre-Dame-De-Romigier Bas Cote Gauche Chapelle Vierge Noire - panoramio.jpg",
+          "description": "Manosque Eglise Notre-Dame-De-Romigier Bas Cote Gauche Chapelle Vierge Noire",
+          "width": 1200,
+          "height": 1600,
+          "size": 695711,
+          "timestamp": "2017-06-19T03:39:12Z",
+          "author": "rene boulay",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 5
         }
       ]
     }

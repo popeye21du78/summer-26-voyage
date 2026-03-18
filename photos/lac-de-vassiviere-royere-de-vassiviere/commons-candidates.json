@@ -1,25 +1,41 @@
 {
   "slug": "lac-de-vassiviere-royere-de-vassiviere",
   "nom": "Lac de Vassivière, Royère-de-Vassivière",
-  "fetchedAt": "2026-03-13T15:15:26.122Z",
+  "fetchedAt": "2026-03-16T19:27:41.532Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Sur_le_GR_46_-_lac_de_Vassivi%C3%A8re_%281%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASur%20le%20GR%2046%20-%20lac%20de%20Vassivi%C3%A8re%20(1).jpg",
-      "title": "Sur le GR 46 - lac de Vassivière (1).jpg",
-      "width": 1280,
-      "height": 960,
-      "size": 365728,
-      "timestamp": "2022-07-24T17:39:18Z",
-      "author": "Nebru09",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Roy%C3%A8re_de_Vassivi%C3%A8re_%C3%89glise_Saint-Germain.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARoy%C3%A8re%20de%20Vassivi%C3%A8re%20%C3%89glise%20Saint-Germain.JPG",
+      "title": "Royère de Vassivière Église Saint-Germain.JPG",
+      "description": "Église Saint-Germain à Royère de Vassivière en Creuse (France)",
+      "width": 2448,
+      "height": 3264,
+      "size": 1556424,
+      "timestamp": "2009-06-18T19:43:03Z",
+      "author": "Langladure",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 3
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Ch%C3%A2teau_de_Beaumont-du-Lac.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Beaumont-du-Lac.jpg",
+      "title": "Château de Beaumont-du-Lac.jpg",
+      "description": "Le château de Beaumont-du-Lac, sur l'île de Vassivière.",
+      "width": 3264,
+      "height": 2448,
+      "size": 3154918,
+      "timestamp": "2017-01-19T20:34:51Z",
+      "author": "Bnico",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Vassiviere544408747_-_panoramio.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVassiviere544408747%20-%20panoramio.jpg",
       "title": "Vassiviere544408747 - panoramio.jpg",
+      "description": "Vassiviere544408747",
       "width": 2048,
       "height": 1536,
       "size": 804309,
@@ -28,25 +44,27 @@
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 6
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Vassiviere2310484_-_panoramio.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVassiviere2310484%20-%20panoramio.jpg",
-      "title": "Vassiviere2310484 - panoramio.jpg",
-      "width": 1536,
-      "height": 2048,
-      "size": 980320,
-      "timestamp": "2016-12-30T20:28:36Z",
-      "author": "Chadel",
-      "license": "CC BY 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
     }
   ],
   "lieux": [
     {
       "label": "Plage de Broussas",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Vassiviere231564_-_panoramio.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVassiviere231564%20-%20panoramio.jpg",
+          "title": "Vassiviere231564 - panoramio.jpg",
+          "description": "Vassiviere231564",
+          "width": 1934,
+          "height": 1450,
+          "size": 775726,
+          "timestamp": "2016-12-30T20:57:18Z",
+          "author": "Chadel",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Passerelle de l’île de Vassivière",
@@ -55,6 +73,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Vassivi%C3%A8re_depuis_le_Puy_de_la_Croix.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVassivi%C3%A8re%20depuis%20le%20Puy%20de%20la%20Croix.jpg",
           "title": "Vassivière depuis le Puy de la Croix.jpg",
+          "description": "Vue sur le lac de Vassivière depuis la lande du Puy de la Croix (Royère-de-Vassivière, Creuse). On aperçoit l'île de Vauveix, reliée à la berge par une passerelle.",
           "width": 3456,
           "height": 2304,
           "size": 2127157,

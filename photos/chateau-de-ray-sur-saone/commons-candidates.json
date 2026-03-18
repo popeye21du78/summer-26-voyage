@@ -1,12 +1,13 @@
 {
   "slug": "chateau-de-ray-sur-saone",
   "nom": "Château de Ray-sur-Saône",
-  "fetchedAt": "2026-03-13T13:14:17.237Z",
+  "fetchedAt": "2026-03-15T21:41:48.978Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Ray-sur-Sa%C3%B4ne%2C_la_poterne_du_ch%C3%A2teau.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARay-sur-Sa%C3%B4ne%2C%20la%20poterne%20du%20ch%C3%A2teau.jpg",
       "title": "Ray-sur-Saône, la poterne du château.jpg",
+      "description": "Château de Ray-sur-Saône (la poterne)",
       "width": 4907,
       "height": 2760,
       "size": 8305482,
@@ -14,12 +15,13 @@
       "author": "JGS25",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Ray-sur-Sa%C3%B4ne%2C_le_ch%C3%A2teau.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARay-sur-Sa%C3%B4ne%2C%20le%20ch%C3%A2teau.jpg",
       "title": "Ray-sur-Saône, le château.jpg",
+      "description": "Château de Ray-sur-Saône (façade sud)",
       "width": 4786,
       "height": 2692,
       "size": 9912828,
@@ -27,26 +29,56 @@
       "author": "JGS25",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Vellexon-Queutrey-et-Vaudey%2C_Ch%C3%A2teau_d%27eau.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVellexon-Queutrey-et-Vaudey%2C%20Ch%C3%A2teau%20d'eau.jpg",
-      "title": "Vellexon-Queutrey-et-Vaudey, Château d'eau.jpg",
-      "width": 2856,
-      "height": 2034,
-      "size": 400332,
-      "timestamp": "2025-12-28T18:24:35Z",
-      "author": "Rauenstein",
-      "license": "CC BY-SA 3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Parc_et_ch%C3%A2teau_de_Ray-sur-Sa%C3%B4ne_%28Haute-Sa%C3%B4ne%29_01.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParc%20et%20ch%C3%A2teau%20de%20Ray-sur-Sa%C3%B4ne%20(Haute-Sa%C3%B4ne)%2001.jpg",
+      "title": "Parc et château de Ray-sur-Saône (Haute-Saône) 01.jpg",
+      "description": "Parc et château de Ray-sur-Saône (Haute-Saône).",
+      "width": 3000,
+      "height": 2000,
+      "size": 2491228,
+      "timestamp": "2022-08-04T04:59:28Z",
+      "author": "Jean de l'Auxois",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     }
   ],
   "lieux": [
     {
       "label": "Façade principale et tours d’angle",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Ray-sur-Sa%C3%B4ne._Muraille_Est_du_ch%C3%A2teau_et_tour_Patelot_ou_tour_neuve._2016-03-11.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARay-sur-Sa%C3%B4ne.%20Muraille%20Est%20du%20ch%C3%A2teau%20et%20tour%20Patelot%20ou%20tour%20neuve.%202016-03-11.JPG",
+          "title": "Ray-sur-Saône. Muraille Est du château et tour Patelot ou tour neuve. 2016-03-11.JPG",
+          "description": "Muraille Est et tour Patelot ou tour neuve, du château.",
+          "width": 4000,
+          "height": 3000,
+          "size": 2060210,
+          "timestamp": "2016-03-16T13:53:35Z",
+          "author": "Espirat",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Ray-sur-Sa%C3%B4ne._Tour_de_la_Porterie_de_la_forteresse._2016-03-11.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARay-sur-Sa%C3%B4ne.%20Tour%20de%20la%20Porterie%20de%20la%20forteresse.%202016-03-11.JPG",
+          "title": "Ray-sur-Saône. Tour de la Porterie de la forteresse. 2016-03-11.JPG",
+          "description": "Tour de la Porterie de l'ancienne forteresse",
+          "width": 4000,
+          "height": 3000,
+          "size": 2606420,
+          "timestamp": "2016-03-16T13:53:37Z",
+          "author": "Espirat",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Grand salon",
@@ -63,6 +95,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Ray-sur-Sa%C3%B4ne_%28Haute-Sa%C3%B4ne%29_vu_depuis_la_terrasse_du_ch%C3%A2teau.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARay-sur-Sa%C3%B4ne%20(Haute-Sa%C3%B4ne)%20vu%20depuis%20la%20terrasse%20du%20ch%C3%A2teau.jpg",
           "title": "Ray-sur-Saône (Haute-Saône) vu depuis la terrasse du château.jpg",
+          "description": "Ray-sur-Saône (Haute-Saône) vu depuis la terrasse du château.",
           "width": 3000,
           "height": 2000,
           "size": 1446013,
@@ -70,7 +103,7 @@
           "author": "Jean de l'Auxois",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         }
       ]
     }

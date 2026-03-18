@@ -1,25 +1,13 @@
 {
   "slug": "charny-sur-meuse",
   "nom": "Charny-sur-Meuse",
-  "fetchedAt": "2026-03-13T12:40:11.414Z",
+  "fetchedAt": "2026-03-15T21:07:26.828Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Belleville-sur-Meuse_-_terrain_de_foot.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABelleville-sur-Meuse%20-%20terrain%20de%20foot.jpg",
-      "title": "Belleville-sur-Meuse - terrain de foot.jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 10276093,
-      "timestamp": "2024-10-22T20:16:31Z",
-      "author": "Yzergues",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Bras-sur-Meuse_la_mairie.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABras-sur-Meuse%20la%20mairie.JPG",
       "title": "Bras-sur-Meuse la mairie.JPG",
+      "description": "Bras-sur-Meuse la mairie",
       "width": 4000,
       "height": 3000,
       "size": 3300649,
@@ -33,10 +21,25 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Charny-sur-Meuse_%28Meuse%29_ancienne_gare_%2802%29.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACharny-sur-Meuse%20(Meuse)%20ancienne%20gare%20(02).JPG",
       "title": "Charny-sur-Meuse (Meuse) ancienne gare (02).JPG",
+      "description": "Charny-sur-Meuse (Meuse) ancienne gare",
       "width": 3648,
       "height": 2736,
       "size": 4516137,
       "timestamp": "2015-08-19T19:49:11Z",
+      "author": "Havang(nl)",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Charny-sur-Meuse_%28Meuse%29_mairie.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACharny-sur-Meuse%20(Meuse)%20mairie.JPG",
+      "title": "Charny-sur-Meuse (Meuse) mairie.JPG",
+      "description": "Charny-sur-Meuse (Meuse) mairie",
+      "width": 3648,
+      "height": 2736,
+      "size": 4222738,
+      "timestamp": "2015-08-19T19:49:13Z",
       "author": "Havang(nl)",
       "license": "CC0",
       "licenseUrl": "https://creativecommons.org/licenses/",
@@ -46,7 +49,22 @@
   "lieux": [
     {
       "label": "Église Saint-Martin",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Charny-sur-Meuse_%28Meuse%29_%C3%A9glise.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACharny-sur-Meuse%20(Meuse)%20%C3%A9glise.JPG",
+          "title": "Charny-sur-Meuse (Meuse) église.JPG",
+          "description": "Charny-sur-Meuse (Meuse) église",
+          "width": 2736,
+          "height": 3648,
+          "size": 3477049,
+          "timestamp": "2015-08-19T19:49:13Z",
+          "author": "Havang(nl)",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Pont de Charny-sur-Meuse",

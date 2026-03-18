@@ -1,25 +1,13 @@
 {
   "slug": "lac-du-bourdon",
   "nom": "Lac du Bourdon",
-  "fetchedAt": "2026-03-13T15:15:55.202Z",
+  "fetchedAt": "2026-03-16T19:28:26.171Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Voilier_Poisson_d%27avril%2C_lac_du_Bourdon.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVoilier%20Poisson%20d'avril%2C%20lac%20du%20Bourdon.jpg",
-      "title": "Voilier Poisson d'avril, lac du Bourdon.jpg",
-      "width": 4608,
-      "height": 3456,
-      "size": 4007200,
-      "timestamp": "2020-04-01T01:33:16Z",
-      "author": "Cjp24",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Rep%C3%A8re_du_r%C3%A9seau_NGF%2C_lac_du_Bourdon%2C_218_m.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARep%C3%A8re%20du%20r%C3%A9seau%20NGF%2C%20lac%20du%20Bourdon%2C%20218%20m.jpg",
       "title": "Repère du réseau NGF, lac du Bourdon, 218 m.jpg",
+      "description": "Repère de nivellement général, altitude 218 m ; sur un pilier de la digue du lac du Bourdon, Yonne, France.",
       "width": 4608,
       "height": 3456,
       "size": 4055742,
@@ -30,17 +18,32 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Reservoir_du_Bourdon.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AReservoir%20du%20Bourdon.jpg",
-      "title": "Reservoir du Bourdon.jpg",
-      "width": 1920,
-      "height": 1080,
-      "size": 693833,
-      "timestamp": "2023-07-02T15:33:53Z",
-      "author": "Elgaard",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Barrage_du_r%C3%A9servoir_du_Bourdon_%281%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABarrage%20du%20r%C3%A9servoir%20du%20Bourdon%20(1).jpg",
+      "title": "Barrage du réservoir du Bourdon (1).jpg",
+      "description": "Vue Ouest du réservoir du Bourdon",
+      "width": 4032,
+      "height": 3024,
+      "size": 11382537,
+      "timestamp": "2023-09-27T08:28:16Z",
+      "author": "Éole",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Vue_a%C3%A9rienne_du_lac_du_Bourdon.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20a%C3%A9rienne%20du%20lac%20du%20Bourdon.jpg",
+      "title": "Vue aérienne du lac du Bourdon.jpg",
+      "description": "Vue Est du réservoir du Bourdon",
+      "width": 3024,
+      "height": 4032,
+      "size": 12941470,
+      "timestamp": "2023-09-27T08:28:16Z",
+      "author": "Éole",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
     }
   ],
   "lieux": [
@@ -50,7 +53,22 @@
     },
     {
       "label": "sentier longeant la rive",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Rives_du_Bourdon%2C_marques_de_balisage_PR.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARives%20du%20Bourdon%2C%20marques%20de%20balisage%20PR.jpg",
+          "title": "Rives du Bourdon, marques de balisage PR.jpg",
+          "description": "Deux marques jaunes de balisage disposées sur un arbre, concernant des sentiers de petite randonnée (PR) ; lac du Bourdon, Saint-Fargeau, Yonne, France.",
+          "width": 4608,
+          "height": 3456,
+          "size": 4237520,
+          "timestamp": "2019-12-09T23:16:49Z",
+          "author": "Cjp24",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

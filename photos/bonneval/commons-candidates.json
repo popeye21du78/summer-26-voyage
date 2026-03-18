@@ -1,12 +1,13 @@
 {
   "slug": "bonneval",
   "nom": "Bonneval",
-  "fetchedAt": "2026-03-13T00:22:40.801Z",
+  "fetchedAt": "2026-03-15T19:50:49.959Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Bonneval_%2828%29_%C3%89glise_Notre-Dame_-_Ext%C3%A9rieur_-_02.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABonneval%20(28)%20%C3%89glise%20Notre-Dame%20-%20Ext%C3%A9rieur%20-%2002.jpg",
       "title": "Bonneval (28) Église Notre-Dame - Extérieur - 02.jpg",
+      "description": "Extérieur de l'église Notre-Dame à Bonneval (28).",
       "width": 2029,
       "height": 1400,
       "size": 808757,
@@ -17,27 +18,29 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/%E5%8D%9A%E8%AE%B7%E7%93%A6%E5%8B%92.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%E5%8D%9A%E8%AE%B7%E7%93%A6%E5%8B%92.jpg",
-      "title": "博讷瓦勒.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Fortifications_de_Bonneval_01.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFortifications%20de%20Bonneval%2001.jpg",
+      "title": "Fortifications de Bonneval 01.jpg",
+      "description": "Fortifications de Bonneval",
       "width": 4032,
       "height": 3024,
-      "size": 3012941,
-      "timestamp": "2020-12-06T20:05:24Z",
-      "author": "AirScott",
+      "size": 3334209,
+      "timestamp": "2024-08-02T10:19:35Z",
+      "author": "Codas",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/%E5%8D%9A%E8%AE%B7%E7%93%A6%E5%8B%92%E5%B8%82%E6%94%BF%E5%8E%85.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%E5%8D%9A%E8%AE%B7%E7%93%A6%E5%8B%92%E5%B8%82%E6%94%BF%E5%8E%85.jpg",
-      "title": "博讷瓦勒市政厅.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Fortifications_de_Bonneval_02.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFortifications%20de%20Bonneval%2002.jpg",
+      "title": "Fortifications de Bonneval 02.jpg",
+      "description": "Fortifications de Bonneval",
       "width": 4032,
       "height": 3024,
-      "size": 2580326,
-      "timestamp": "2020-12-06T20:05:24Z",
-      "author": "AirScott",
+      "size": 4498586,
+      "timestamp": "2024-08-02T10:19:35Z",
+      "author": "Codas",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
@@ -48,43 +51,46 @@
       "label": "Abbaye Saint-Florentin",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Abbaye_Saint-Florentin_de_Bonneval.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20Saint-Florentin%20de%20Bonneval.jpg",
-          "title": "Abbaye Saint-Florentin de Bonneval.jpg",
-          "width": 4032,
-          "height": 3024,
-          "size": 3154642,
-          "timestamp": "2024-08-02T11:57:15Z",
-          "author": "Codas",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Abbaye_de_Bonneval_-_autre_vue.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20de%20Bonneval%20-%20autre%20vue.jpg",
+          "title": "Abbaye de Bonneval - autre vue.jpg",
+          "description": "Autre vue de l'abbaye de Bonneval, prise au sud des bâtiments, depuis l'autre rive de la Boralde.",
+          "width": 4608,
+          "height": 3456,
+          "size": 3246253,
+          "timestamp": "2016-04-10T17:30:13Z",
+          "author": "Cd12cd",
           "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Abbaye_de_Bonneval_juin_2013.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20de%20Bonneval%20juin%202013.jpg",
+          "title": "Abbaye de Bonneval juin 2013.jpg",
+          "description": "Une autre vue de l'abbaye de Bonneval",
+          "width": 4608,
+          "height": 3072,
+          "size": 3727831,
+          "timestamp": "2014-12-23T17:58:54Z",
+          "author": "Cd12cd",
+          "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Boralde_Bonneval.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABoralde%20Bonneval.JPG",
-          "title": "Boralde Bonneval.JPG",
-          "width": 3648,
-          "height": 2736,
-          "size": 7881645,
-          "timestamp": "2016-05-01T12:13:25Z",
-          "author": "Martha e",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Town_hall_of_St-Hilaire-Bonneval_%283%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATown%20hall%20of%20St-Hilaire-Bonneval%20(3).jpg",
+          "title": "Town hall of St-Hilaire-Bonneval (3).jpg",
+          "description": "Town hall of Saint-Hilaire-Bonneval, Haute-Vienne, France",
+          "width": 5441,
+          "height": 3628,
+          "size": 12013393,
+          "timestamp": "2021-04-26T08:49:50Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q51955005\" class=\"extiw\" title=\"d:Q51955005\"><span title=\"Wikimedian\">Krzysztof Golik</span></a></bdi>",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Bonneval_-_Abbaye_Saint-Florentin_02.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABonneval%20-%20Abbaye%20Saint-Florentin%2002.jpg",
-          "title": "Bonneval - Abbaye Saint-Florentin 02.jpg",
-          "width": 4355,
-          "height": 2884,
-          "size": 3548202,
-          "timestamp": "2012-09-30T20:54:49Z",
-          "author": "Selbymay",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
         }
       ]
     },
@@ -95,6 +101,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Porte_Saint-Roch_-_Bonneval_%2828%29.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APorte%20Saint-Roch%20-%20Bonneval%20(28).JPG",
           "title": "Porte Saint-Roch - Bonneval (28).JPG",
+          "description": "Portes de Bonneval,  (Inscrit, 1927)",
           "width": 4000,
           "height": 3000,
           "size": 2787075,
@@ -105,9 +112,118 @@
           "score": 5
         },
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Bonneval_-_Porte_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABonneval%20-%20Porte%2002.jpg",
+          "title": "Bonneval - Porte 02.jpg",
+          "description": "Porte de ville - Bonneval, Eure-et-Loir",
+          "width": 4811,
+          "height": 3187,
+          "size": 8698302,
+          "timestamp": "2012-09-30T21:05:59Z",
+          "author": "Selbymay",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Bonneval_-_Porte_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABonneval%20-%20Porte%2001.jpg",
+          "title": "Bonneval - Porte 01.jpg",
+          "description": "Porte de ville - Bonneval, Eure-et-Loir",
+          "width": 4808,
+          "height": 3242,
+          "size": 8369918,
+          "timestamp": "2012-09-30T21:05:59Z",
+          "author": "Selbymay",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "label": "Les lavoirs sur le Loir",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/28396-Trizay-l%C3%A8s-Bonneval-Sols.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A28396-Trizay-l%C3%A8s-Bonneval-Sols.png",
+          "title": "28396-Trizay-lès-Bonneval-Sols.png",
+          "description": "Carte des infrastructures et de l’occupation des sols en 2018 de la commune de fr:Trizay-lès-Bonneval (France).",
+          "width": 3270,
+          "height": 2598,
+          "size": 1378750,
+          "timestamp": "2021-05-03T17:06:29Z",
+          "author": "Roland45",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/28051-Bonneval-argile.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A28051-Bonneval-argile.png",
+          "title": "28051-Bonneval-argile.png",
+          "description": "Carte de l'aléa retrait-gonflement des argiles sur la commune de fr:Bonneval (Eure-et-Loir) (France).",
+          "width": 3057,
+          "height": 2480,
+          "size": 2951852,
+          "timestamp": "2022-08-17T09:44:45Z",
+          "author": "Roland45",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/28396-Trizay-l%C3%A8s-Bonneval-argile.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A28396-Trizay-l%C3%A8s-Bonneval-argile.png",
+          "title": "28396-Trizay-lès-Bonneval-argile.png",
+          "description": "Carte de l'aléa retrait-gonflement des argiles sur la commune de fr:Trizay-lès-Bonneval (France).",
+          "width": 3057,
+          "height": 2480,
+          "size": 1745010,
+          "timestamp": "2022-08-17T10:37:54Z",
+          "author": "Roland45",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
+    },
+    {
+      "label": "Le Mail et les remparts",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Entree_Bonneval.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEntree%20Bonneval.jpg",
+          "title": "Entree Bonneval.jpg",
+          "description": "Bonneval Abbey, Aveyron, France.",
+          "width": 1215,
+          "height": 791,
+          "size": 401261,
+          "timestamp": "2009-11-30T08:57:16Z",
+          "author": "Martha e",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Porte_de_Ville%3BRemparts_-_Ensemble_avec_le_pont_-_Bonneval_-_M%C3%A9diath%C3%A8que_de_l%27architecture_et_du_patrimoine_-_APMH00000491.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APorte%20de%20Ville%3BRemparts%20-%20Ensemble%20avec%20le%20pont%20-%20Bonneval%20-%20M%C3%A9diath%C3%A8que%20de%20l'architecture%20et%20du%20patrimoine%20-%20APMH00000491.jpg",
+          "title": "Porte de Ville;Remparts - Ensemble avec le pont - Bonneval - Médiathèque de l'architecture et du patrimoine - APMH00000491.jpg",
+          "description": "Ensemble avec le pont.",
+          "width": 707,
+          "height": 512,
+          "size": 71307,
+          "timestamp": "2020-04-27T11:49:54Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:S%C3%A9raphin-M%C3%A9d%C3%A9ric_Mieusement\" class=\"extiw\" title=\"w:en:Séraphin-Médéric Mieusement\"><span title=\"French photographer (1840-1905)\">Séraphin-Médéric Mieusement</span></a></bdi>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Porte_Saint-Roch%3BRemparts_-_Ensemble%2C_c%C3%B4t%C3%A9_rivi%C3%A8re_-_Bonneval_-_M%C3%A9diath%C3%A8que_de_l%27architecture_et_du_patrimoine_-_APMH00000489.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APorte%20Saint-Roch%3BRemparts%20-%20Ensemble%2C%20c%C3%B4t%C3%A9%20rivi%C3%A8re%20-%20Bonneval%20-%20M%C3%A9diath%C3%A8que%20de%20l'architecture%20et%20du%20patrimoine%20-%20APMH00000489.jpg",
           "title": "Porte Saint-Roch;Remparts - Ensemble, côté rivière - Bonneval - Médiathèque de l'architecture et du patrimoine - APMH00000489.jpg",
+          "description": "Ensemble, côté rivière.",
           "width": 689,
           "height": 512,
           "size": 96149,
@@ -118,14 +234,6 @@
           "score": 4
         }
       ]
-    },
-    {
-      "label": "Les lavoirs sur le Loir",
-      "photos": []
-    },
-    {
-      "label": "Le Mail et les remparts",
-      "photos": []
     }
   ]
 }

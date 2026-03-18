@@ -1,43 +1,46 @@
 {
   "slug": "rosieres-pres-troyes",
   "nom": "Rosières-près-Troyes",
-  "fetchedAt": "2026-03-14T11:50:41.362Z",
+  "fetchedAt": "2026-03-18T17:46:21.473Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Arr%C3%AAt_Bus_Rosi%C3%A8res_Boulevard_Dijon_-_Saint-Julien-les-Villas_%28FR10%29_-_2026-02-27_-_1.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArr%C3%AAt%20Bus%20Rosi%C3%A8res%20Boulevard%20Dijon%20-%20Saint-Julien-les-Villas%20(FR10)%20-%202026-02-27%20-%201.jpg",
-      "title": "Arrêt Bus Rosières Boulevard Dijon - Saint-Julien-les-Villas (FR10) - 2026-02-27 - 1.jpg",
-      "width": 5712,
-      "height": 4284,
-      "size": 6481411,
-      "timestamp": "2026-02-27T23:20:39Z",
-      "author": "Chabe01",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Rosi%C3%A8res-pr%C3%A8s-Troyes_Ch%C3%A2teau.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARosi%C3%A8res-pr%C3%A8s-Troyes%20Ch%C3%A2teau.JPG",
+      "title": "Rosières-près-Troyes Château.JPG",
+      "description": "Château de Rosières-près-Troyes construit par Perrault",
+      "width": 2272,
+      "height": 1704,
+      "size": 1307332,
+      "timestamp": "2011-03-13T21:40:10Z",
+      "author": "Hg marigny",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/81230-Rosi%C3%A8res-Sols.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A81230-Rosi%C3%A8res-Sols.png",
+      "title": "81230-Rosières-Sols.png",
+      "description": "Carte des infrastructures et de l’occupation des sols en 2018 de la commune de fr:Rosières (France).",
+      "width": 7015,
+      "height": 4960,
+      "size": 9322805,
+      "timestamp": "2021-03-19T18:30:35Z",
+      "author": "Roland45",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Arr%C3%AAt_Bus_Rosi%C3%A8res_Boulevard_Dijon_-_Saint-Julien-les-Villas_%28FR10%29_-_2026-02-27_-_2.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArr%C3%AAt%20Bus%20Rosi%C3%A8res%20Boulevard%20Dijon%20-%20Saint-Julien-les-Villas%20(FR10)%20-%202026-02-27%20-%202.jpg",
-      "title": "Arrêt Bus Rosières Boulevard Dijon - Saint-Julien-les-Villas (FR10) - 2026-02-27 - 2.jpg",
-      "width": 5712,
-      "height": 4284,
-      "size": 6595775,
-      "timestamp": "2026-02-27T23:20:53Z",
-      "author": "Chabe01",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Plaque_Route_Rosi%C3%A8res_-_Saint-Julien-les-Villas_%28FR10%29_-_2026-02-27_-_1.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlaque%20Route%20Rosi%C3%A8res%20-%20Saint-Julien-les-Villas%20(FR10)%20-%202026-02-27%20-%201.jpg",
-      "title": "Plaque Route Rosières - Saint-Julien-les-Villas (FR10) - 2026-02-27 - 1.jpg",
-      "width": 3426,
-      "height": 1997,
-      "size": 2108718,
-      "timestamp": "2026-02-27T23:28:38Z",
-      "author": "Chabe01",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/07199-Rosi%C3%A8res-Sols.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A07199-Rosi%C3%A8res-Sols.png",
+      "title": "07199-Rosières-Sols.png",
+      "description": "Carte des infrastructures et de l’occupation des sols en 2018 de la commune de fr:Rosières (France).",
+      "width": 3270,
+      "height": 2598,
+      "size": 3668682,
+      "timestamp": "2021-04-22T13:17:17Z",
+      "author": "Roland45",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
@@ -46,7 +49,50 @@
   "lieux": [
     {
       "label": "Parc du Château",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Rosi%C3%A8res-pr%C3%A8s-Troyes_Ch%C3%A2teau.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARosi%C3%A8res-pr%C3%A8s-Troyes%20Ch%C3%A2teau.JPG",
+          "title": "Rosières-près-Troyes Château.JPG",
+          "description": "Château de Rosières-près-Troyes construit par Perrault",
+          "width": 2272,
+          "height": 1704,
+          "size": 1307332,
+          "timestamp": "2011-03-13T21:40:10Z",
+          "author": "Hg marigny",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Rosi%C3%A8re-pr%C3%A8s-Troyes_tour_du_ch%C3%A2teau.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARosi%C3%A8re-pr%C3%A8s-Troyes%20tour%20du%20ch%C3%A2teau.JPG",
+          "title": "Rosière-près-Troyes tour du château.JPG",
+          "description": "Château de Rosières-près-Troyes (Aube)",
+          "width": 1704,
+          "height": 2272,
+          "size": 1148401,
+          "timestamp": "2011-03-13T21:46:02Z",
+          "author": "Hg marigny",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Rosi%C3%A8res_le_ch%C3%A2teau_Stat_monum_Aube_C00974.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARosi%C3%A8res%20le%20ch%C3%A2teau%20Stat%20monum%20Aube%20C00974.jpg",
+          "title": "Rosières le château Stat monum Aube C00974.jpg",
+          "description": "par un dessin de Fichot.",
+          "width": 2024,
+          "height": 914,
+          "size": 1416799,
+          "timestamp": "2017-01-10T09:45:12Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q18511841\" class=\"extiw\" title=\"d:Q18511841\"><span title=\"French draughtsman and architect\">Charles Fichot</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Église Saint-Pierre-ès-Liens",

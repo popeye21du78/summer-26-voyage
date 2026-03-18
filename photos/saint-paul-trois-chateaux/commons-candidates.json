@@ -1,12 +1,13 @@
 {
   "slug": "saint-paul-trois-chateaux",
   "nom": "Saint-Paul-Trois-Châteaux",
-  "fetchedAt": "2026-03-14T12:11:08.661Z",
+  "fetchedAt": "2026-03-18T18:35:59.761Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Cath%C3%A9drale_Notre-Dame_de_Saint-Paul-Trois-Ch%C3%A2teaux_-_fa%C3%A7ade_-_01.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale%20Notre-Dame%20de%20Saint-Paul-Trois-Ch%C3%A2teaux%20-%20fa%C3%A7ade%20-%2001.jpg",
       "title": "Cathédrale Notre-Dame de Saint-Paul-Trois-Châteaux - façade - 01.jpg",
+      "description": "Cathédrale de Saint-Paul-Trois-Châteaux",
       "width": 3421,
       "height": 2592,
       "size": 5913142,
@@ -14,12 +15,13 @@
       "author": "EmDee",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Saint-Paul-Trois-Ch%C3%A2teaux_-_rue_de_l%27Eglise.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Paul-Trois-Ch%C3%A2teaux%20-%20rue%20de%20l'Eglise.jpg",
       "title": "Saint-Paul-Trois-Châteaux - rue de l'Eglise.jpg",
+      "description": "Saint-Paul-Trois-Châteaux - rue de l'Eglise",
       "width": 4032,
       "height": 3024,
       "size": 2500825,
@@ -27,12 +29,13 @@
       "author": "AirScott",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Saint-Paul-Trois-Ch%C3%A2teaux_-_place_de_la_Lib%C3%A9ration.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Paul-Trois-Ch%C3%A2teaux%20-%20place%20de%20la%20Lib%C3%A9ration.jpg",
       "title": "Saint-Paul-Trois-Châteaux - place de la Libération.jpg",
+      "description": "Saint-Paul-Trois-Châteaux - place de la Libération",
       "width": 4032,
       "height": 3024,
       "size": 3003617,
@@ -40,39 +43,197 @@
       "author": "AirScott",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     }
   ],
   "lieux": [
     {
       "label": "Tour carrée du château",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/%C3%8Elot_de_la_tour_juiverie%2C_St_Paul_trois_ch%C3%A2teaux%2C_Dr%C3%B4me%2C_France.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%8Elot%20de%20la%20tour%20juiverie%2C%20St%20Paul%20trois%20ch%C3%A2teaux%2C%20Dr%C3%B4me%2C%20France.jpg",
+          "title": "Îlot de la tour juiverie, St Paul trois châteaux, Drôme, France.jpg",
+          "description": "Saint-Paul-Trois-Châteaux (Drome, France), the block of the Juiverie Tower; completely renovated, this block seems to be of little interest.",
+          "width": 4896,
+          "height": 3672,
+          "size": 6349094,
+          "timestamp": "2018-09-22T14:48:29Z",
+          "author": "Celeda",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Saint-Paul-Trois-Ch%C3%A2teaux%2C_cath_ND-07%2C_clocher.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Paul-Trois-Ch%C3%A2teaux%2C%20cath%20ND-07%2C%20clocher.jpg",
+          "title": "Saint-Paul-Trois-Châteaux, cath ND-07, clocher.jpg",
+          "description": "Alors que le clocher est généralement construit au centre du transept, sur la cathédrale Notre-Dame de Saint-Paul-Trois-Châteaux il est décalé sur le bras Sud (d’ailleurs plus vaste que le bras Nord). C’est un clocher roman carré avec ouïes en plein cintre de l’étage campanile. Refait au 17e siècle, sans doute à son emplacement d'origine, après avoir été abattu au 16e siècle. Sa toiture pyramidale date d’une restauration en 1848.",
+          "width": 3543,
+          "height": 5315,
+          "size": 20413561,
+          "timestamp": "2026-01-12T20:45:03Z",
+          "author": "Eagertourist",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Saint-Paul-Trois-Ch%C3%A2teaux%2C_cath_ND%2C_mosa%C3%AEque_du_choeur-01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Paul-Trois-Ch%C3%A2teaux%2C%20cath%20ND%2C%20mosa%C3%AEque%20du%20choeur-01.jpg",
+          "title": "Saint-Paul-Trois-Châteaux, cath ND, mosaîque du choeur-01.jpg",
+          "description": "Mosaïque des 12es et 13es représentant de manière très stylisée l’architecture d’une ville avec coupole, toits pointus et tours crénelées. Son nom est indiqué en toutes lettres JERUSALÈ. On estime que cette mosaïque serait postérieure d’une trentaine d’années au début de la construction de la cathédrale et contemporaine des Croisades. Le sol aurait donc été exhaussé et recouvert de cette mosaïque découverte lors de travaux vers 1880.",
+          "width": 5315,
+          "height": 3543,
+          "size": 18153188,
+          "timestamp": "2026-01-13T16:11:33Z",
+          "author": "Eagertourist",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Place Castellane",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/St-paul_hoteldeville.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt-paul%20hoteldeville.jpg",
-          "title": "St-paul hoteldeville.jpg",
-          "width": 750,
-          "height": 499,
-          "size": 409014,
-          "timestamp": "2007-03-12T15:08:45Z",
-          "author": "No machine-readable author provided. <a href=\"//commons.wikimedia.org/w/index.php?title=User:Saintpaultroischateaux&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Saintpaultroischateaux (page does not exist)\">Saintpaultroischateaux</a> assumed (based on copyright claims).",
-          "license": "CC BY-SA 2.5",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Saint-Paul-Trois-Ch%C3%A2teaux_-_rue_de_l%27Eglise.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Paul-Trois-Ch%C3%A2teaux%20-%20rue%20de%20l'Eglise.jpg",
+          "title": "Saint-Paul-Trois-Châteaux - rue de l'Eglise.jpg",
+          "description": "Saint-Paul-Trois-Châteaux - rue de l'Eglise",
+          "width": 4032,
+          "height": 3024,
+          "size": 2500825,
+          "timestamp": "2023-06-10T06:44:17Z",
+          "author": "AirScott",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 2
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Saint-Paul-Trois-Ch%C3%A2teaux_-_cours_de_la_Valaurie.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Paul-Trois-Ch%C3%A2teaux%20-%20cours%20de%20la%20Valaurie.jpg",
+          "title": "Saint-Paul-Trois-Châteaux - cours de la Valaurie.jpg",
+          "description": "Saint-Paul-Trois-Châteaux - cours de la Valaurie",
+          "width": 4032,
+          "height": 3024,
+          "size": 2463493,
+          "timestamp": "2023-06-10T06:44:18Z",
+          "author": "AirScott",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Saint-Paul-Trois-Ch%C3%A2teaux_-_place_de_la_Lib%C3%A9ration.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Paul-Trois-Ch%C3%A2teaux%20-%20place%20de%20la%20Lib%C3%A9ration.jpg",
+          "title": "Saint-Paul-Trois-Châteaux - place de la Libération.jpg",
+          "description": "Saint-Paul-Trois-Châteaux - place de la Libération",
+          "width": 4032,
+          "height": 3024,
+          "size": 3003617,
+          "timestamp": "2023-06-10T06:44:18Z",
+          "author": "AirScott",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
         }
       ]
     },
     {
       "label": "Portail roman de la cathédrale",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Cath%C3%A9drale_Notre-Dame_de_Saint-Paul-Trois-Ch%C3%A2teaux_-_fa%C3%A7ade_-_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale%20Notre-Dame%20de%20Saint-Paul-Trois-Ch%C3%A2teaux%20-%20fa%C3%A7ade%20-%2001.jpg",
+          "title": "Cathédrale Notre-Dame de Saint-Paul-Trois-Châteaux - façade - 01.jpg",
+          "description": "Cathédrale de Saint-Paul-Trois-Châteaux",
+          "width": 3421,
+          "height": 2592,
+          "size": 5913142,
+          "timestamp": "2020-12-27T12:18:16Z",
+          "author": "EmDee",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Saint-Paul-Trois-Ch%C3%A2teaux_CH_01.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Paul-Trois-Ch%C3%A2teaux%20CH%2001.JPG",
+          "title": "Saint-Paul-Trois-Châteaux CH 01.JPG",
+          "description": "Cathédrale Notre-Dame de Saint-Paul-Trois-Châteaux",
+          "width": 3620,
+          "height": 2592,
+          "size": 5822450,
+          "timestamp": "2022-11-08T16:01:08Z",
+          "author": "EmDee",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Cath%C3%A9drale_Notre-Dame_de_Saint-Paul-Trois-Ch%C3%A2teaux_Info.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale%20Notre-Dame%20de%20Saint-Paul-Trois-Ch%C3%A2teaux%20Info.jpg",
+          "title": "Cathédrale Notre-Dame de Saint-Paul-Trois-Châteaux Info.jpg",
+          "description": "Cathédrale Notre-Dame de Saint-Paul-Trois-Châteaux Info",
+          "width": 4592,
+          "height": 2584,
+          "size": 6790144,
+          "timestamp": "2024-08-19T16:05:43Z",
+          "author": "Moleskine",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     },
     {
       "label": "Rue du Serre",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Saint-Paul-Trois-Ch%C3%A2teaux_-_rue_de_l%27Eglise.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Paul-Trois-Ch%C3%A2teaux%20-%20rue%20de%20l'Eglise.jpg",
+          "title": "Saint-Paul-Trois-Châteaux - rue de l'Eglise.jpg",
+          "description": "Saint-Paul-Trois-Châteaux - rue de l'Eglise",
+          "width": 4032,
+          "height": 3024,
+          "size": 2500825,
+          "timestamp": "2023-06-10T06:44:17Z",
+          "author": "AirScott",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/St-Paul-Trois-Ch%C3%A2teaux_-_Vieille_Tour_%2834439936601%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt-Paul-Trois-Ch%C3%A2teaux%20-%20Vieille%20Tour%20(34439936601).jpg",
+          "title": "St-Paul-Trois-Châteaux - Vieille Tour (34439936601).jpg",
+          "description": "CA 1900",
+          "width": 2279,
+          "height": 3467,
+          "size": 1133035,
+          "timestamp": "2017-07-29T11:05:59Z",
+          "author": "Médiathèques Valence Romans agglomération",
+          "license": "No restrictions",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Saint-Paul-Trois-Ch%C3%A2teaux._-_La_Rue_Serp_%2834439936351%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Paul-Trois-Ch%C3%A2teaux.%20-%20La%20Rue%20Serp%20(34439936351).jpg",
+          "title": "Saint-Paul-Trois-Châteaux. - La Rue Serp (34439936351).jpg",
+          "description": "Souvenir des grandes manœuvres des XIVe et Xve Corps armée (1903) ; CA 1900",
+          "width": 2279,
+          "height": 3472,
+          "size": 816620,
+          "timestamp": "2017-07-29T11:06:40Z",
+          "author": "Médiathèques Valence Romans agglomération",
+          "license": "No restrictions",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     }
   ]
 }

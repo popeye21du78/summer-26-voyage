@@ -1,7 +1,7 @@
 {
   "slug": "monesties",
   "nom": "Monestiés",
-  "fetchedAt": "2026-03-13T16:13:45.269Z",
+  "fetchedAt": "2026-03-16T13:17:26.750Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Mairie_de_Monesti%C3%A9s.jpg",
@@ -54,47 +54,7 @@
     },
     {
       "label": "Place de la Mairie",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Buildings_at_Place_de_la_Mairie_in_Monesties.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABuildings%20at%20Place%20de%20la%20Mairie%20in%20Monesties.jpg",
-          "title": "Buildings at Place de la Mairie in Monesties.jpg",
-          "width": 4770,
-          "height": 3809,
-          "size": 10982061,
-          "timestamp": "2017-08-08T22:07:01Z",
-          "author": "Krzysztof Golik",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Monesti%C3%A9s.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMonesti%C3%A9s.JPG",
-          "title": "Monestiés.JPG",
-          "width": 3264,
-          "height": 2448,
-          "size": 2031914,
-          "timestamp": "2012-05-12T18:16:10Z",
-          "author": "J. P. Le Ridant",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/4_Place_de_la_Mairie.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A4%20Place%20de%20la%20Mairie.jpg",
-          "title": "4 Place de la Mairie.jpg",
-          "width": 3012,
-          "height": 5427,
-          "size": 10245018,
-          "timestamp": "2017-08-09T18:39:28Z",
-          "author": "Krzysztof Golik",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        }
-      ]
+      "photos": []
     }
   ]
 }

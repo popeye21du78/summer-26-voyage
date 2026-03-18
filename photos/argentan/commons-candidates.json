@@ -1,42 +1,45 @@
 {
   "slug": "argentan",
   "nom": "Argentan",
-  "fetchedAt": "2026-03-12T23:51:20.137Z",
+  "fetchedAt": "2026-03-15T15:11:16.803Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/%E9%98%BF%E8%AE%A9%E5%94%90%E5%BB%BA%E7%AD%91.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%E9%98%BF%E8%AE%A9%E5%94%90%E5%BB%BA%E7%AD%91.jpg",
-      "title": "阿让唐建筑.jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 2486899,
-      "timestamp": "2020-06-24T09:33:21Z",
-      "author": "AirScott",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/%E9%98%BF%E8%AE%A9%E5%94%90%E5%AD%A6%E6%A0%A1.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%E9%98%BF%E8%AE%A9%E5%94%90%E5%AD%A6%E6%A0%A1.jpg",
-      "title": "阿让唐学校.jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 3195198,
-      "timestamp": "2020-06-24T09:34:51Z",
-      "author": "AirScott",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Ch%C3%A2teau_des_Ducs%2C_Argentan_20241116_145542.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20des%20Ducs%2C%20Argentan%2020241116%20145542.jpg",
       "title": "Château des Ducs, Argentan 20241116 145542.jpg",
+      "description": "Château des Ducs",
       "width": 3468,
       "height": 2453,
       "size": 2413859,
       "timestamp": "2024-11-18T21:55:33Z",
+      "author": "Railwayfan2005",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Ch%C3%A2teau_des_Ducs%2C_Argentan_20241116_145821.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20des%20Ducs%2C%20Argentan%2020241116%20145821.jpg",
+      "title": "Château des Ducs, Argentan 20241116 145821.jpg",
+      "description": "Château des Ducs",
+      "width": 3468,
+      "height": 2611,
+      "size": 2664792,
+      "timestamp": "2024-11-18T21:55:36Z",
+      "author": "Railwayfan2005",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/%C3%89glise_Saint-Germain_d%27Argentan_20241116_150148.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-Germain%20d'Argentan%2020241116%20150148.jpg",
+      "title": "Église Saint-Germain d'Argentan 20241116 150148.jpg",
+      "description": "Église Saint-Germain d'Argentan",
+      "width": 4624,
+      "height": 2846,
+      "size": 4743219,
+      "timestamp": "2024-11-18T21:55:40Z",
       "author": "Railwayfan2005",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
@@ -46,7 +49,50 @@
   "lieux": [
     {
       "label": "Place Henri-IV",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Eglise_Saint-Germain_-_Nef%2C_vue_de_la_tribune_-_Argentan_-_M%C3%A9diath%C3%A8que_de_l%27architecture_et_du_patrimoine_-_APMH00000186.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Saint-Germain%20-%20Nef%2C%20vue%20de%20la%20tribune%20-%20Argentan%20-%20M%C3%A9diath%C3%A8que%20de%20l'architecture%20et%20du%20patrimoine%20-%20APMH00000186.jpg",
+          "title": "Eglise Saint-Germain - Nef, vue de la tribune - Argentan - Médiathèque de l'architecture et du patrimoine - APMH00000186.jpg",
+          "description": "Nef, vue de la tribune.",
+          "width": 696,
+          "height": 512,
+          "size": 83759,
+          "timestamp": "2020-04-29T09:13:38Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:S%C3%A9raphin-M%C3%A9d%C3%A9ric_Mieusement\" class=\"extiw\" title=\"w:en:Séraphin-Médéric Mieusement\"><span title=\"French photographer (1840-1905)\">Séraphin-Médéric Mieusement</span></a></bdi>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/FranceNormandieArgentanHippodromeTargetKronos.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFranceNormandieArgentanHippodromeTargetKronos.jpg",
+          "title": "FranceNormandieArgentanHippodromeTargetKronos.jpg",
+          "description": "Target Kronos après sa 4e place dans le Critérium de vitesse de Basse-Normandie 2017, à Argentan (Normandie, France).",
+          "width": 2285,
+          "height": 2081,
+          "size": 4144280,
+          "timestamp": "2022-03-31T20:41:25Z",
+          "author": "Ikmo-ned",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Argentan_-_Abbaye_Notre-Dame_de_la_Place.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArgentan%20-%20Abbaye%20Notre-Dame%20de%20la%20Place.JPG",
+          "title": "Argentan - Abbaye Notre-Dame de la Place.JPG",
+          "description": "Former abbey, now a restaurant, in Argentan, Orne, France.",
+          "width": 3264,
+          "height": 2448,
+          "size": 4106135,
+          "timestamp": "2009-06-26T10:06:41Z",
+          "author": "Benjism89",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     },
     {
       "label": "Église Saint-Germain",
@@ -55,6 +101,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/FranceNormandieArgentanEgliseSaintGermain.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFranceNormandieArgentanEgliseSaintGermain.jpg",
           "title": "FranceNormandieArgentanEgliseSaintGermain.jpg",
+          "description": "Argentan (Normandie, France). La façade sud de l'église Saint-Germain.",
           "width": 3072,
           "height": 1685,
           "size": 3528255,
@@ -68,6 +115,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/FranceNormandieArgentanEgliseSaintGermainTableauEntreeMehmetIIEgliseSteSophie.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFranceNormandieArgentanEgliseSaintGermainTableauEntreeMehmetIIEgliseSteSophie.jpg",
           "title": "FranceNormandieArgentanEgliseSaintGermainTableauEntreeMehmetIIEgliseSteSophie.jpg",
+          "description": "Argentan (Normandie, France). Dans l'église Saint-Germaine, le tableau Entrée de Mahomet II dans l'église Sainte-Sophie de Constantinople, par Eugène-Ernest Hillemacher, inscrit à titre d'objet aux Monuments historiques.",
           "width": 2255,
           "height": 1525,
           "size": 2295046,
@@ -78,15 +126,16 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Argentan_-_la_cath%C3%A9drale_-_btv1b10664794q.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArgentan%20-%20la%20cath%C3%A9drale%20-%20btv1b10664794q.jpg",
-          "title": "Argentan - la cathédrale - btv1b10664794q.jpg",
-          "width": 2407,
-          "height": 1140,
-          "size": 321819,
-          "timestamp": "2024-10-26T17:49:35Z",
-          "author": "<div class=\"fn value\">\nDuchemin, Émile (1862-1914). Photographe</div>",
-          "license": "Public domain",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/FranceNormandieArgentanMauvaisvilleEglise.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFranceNormandieArgentanMauvaisvilleEglise.jpg",
+          "title": "FranceNormandieArgentanMauvaisvilleEglise.jpg",
+          "description": "Argentan (Normandie, France). L'église Saint-Martin-des-Champs de Mauvaisville.",
+          "width": 2880,
+          "height": 1512,
+          "size": 3421223,
+          "timestamp": "2023-01-13T16:44:24Z",
+          "author": "Ikmo-ned",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         }
@@ -99,6 +148,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Ch%C3%A2teau_des_Ducs%2C_Argentan_20241116_145542.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20des%20Ducs%2C%20Argentan%2020241116%20145542.jpg",
           "title": "Château des Ducs, Argentan 20241116 145542.jpg",
+          "description": "Château des Ducs",
           "width": 3468,
           "height": 2453,
           "size": 2413859,
@@ -106,12 +156,13 @@
           "author": "Railwayfan2005",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Ch%C3%A2teau_des_Ducs%2C_Argentan_20241116_145821.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20des%20Ducs%2C%20Argentan%2020241116%20145821.jpg",
           "title": "Château des Ducs, Argentan 20241116 145821.jpg",
+          "description": "Château des Ducs",
           "width": 3468,
           "height": 2611,
           "size": 2664792,
@@ -119,20 +170,21 @@
           "author": "Railwayfan2005",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Tribunal_de_grande_instance_Argentan.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATribunal%20de%20grande%20instance%20Argentan.jpg",
-          "title": "Tribunal de grande instance Argentan.jpg",
-          "width": 5528,
-          "height": 3110,
-          "size": 1705197,
-          "timestamp": "2019-03-09T17:45:48Z",
-          "author": "Claude Gardères",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Ch%C3%A2teau_des_Ducs_%28Argentan%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20des%20Ducs%20(Argentan).jpg",
+          "title": "Château des Ducs (Argentan).jpg",
+          "description": "Le château en 2024, façade Est",
+          "width": 3461,
+          "height": 3461,
+          "size": 9966530,
+          "timestamp": "2024-09-14T16:58:52Z",
+          "author": "Pom 49",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         }
       ]
     },
@@ -144,36 +196,95 @@
       "label": "Musée Fernand Léger – André Mare",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Musee_Leger_Mare.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMusee%20Leger%20Mare.jpg",
-          "title": "Musee Leger Mare.jpg",
-          "width": 850,
-          "height": 1134,
-          "size": 428596,
-          "timestamp": "2019-09-04T08:23:52Z",
-          "author": "Madeleine Marguerite",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Empreinte_Comit%C3%A9_de_surveillance_de_Cuy%2C_district_d%27Argentan%2C_d%C3%A9partement_de_l%27Orne%2C_R%C3%A9volution_fran%C3%A7aise%2C_NE557.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEmpreinte%20Comit%C3%A9%20de%20surveillance%20de%20Cuy%2C%20district%20d'Argentan%2C%20d%C3%A9partement%20de%20l'Orne%2C%20R%C3%A9volution%20fran%C3%A7aise%2C%20NE557.jpg",
+          "title": "Empreinte Comité de surveillance de Cuy, district d'Argentan, département de l'Orne, Révolution française, NE557.jpg",
+          "description": "Type(s) d'objet(s):\n\nNumismatique, Révolution française\n\n\nDénomination(s):\n\nSceau\n\n\nMatériaux et techniques:\n\nCire, Papier\n\n\nDimensions - Oeuvre:\n\n\n   Hauteur : 3.9 cm\n   Largeur : 3.1 cm\n   Poids (type dimension) : 0.69 g\n\n\n\nDescription:\n\n\nRelief uniface ; profil ovale ; cire rouge avec traces de suie.\n\n\n\nInstitution:\n\nMusée Carnavalet, Histoire de Paris\n\n\nNuméro d’inventaire:\n\nNE557\n\n\nIIIF Manifest:\n\nhttps://apicollections.parismusees.paris.fr/iiif/320211150/manifest",
+          "width": 4256,
+          "height": 2832,
+          "size": 6314434,
+          "timestamp": "2023-05-03T22:10:16Z",
+          "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+          "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Argentan_-_Fernand_L%C3%A9ger%27s_house.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArgentan%20-%20Fernand%20L%C3%A9ger's%20house.JPG",
-          "title": "Argentan - Fernand Léger's house.JPG",
-          "width": 2448,
-          "height": 3264,
-          "size": 3951560,
-          "timestamp": "2009-06-26T12:02:25Z",
-          "author": "Benjism89",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Empreinte_Comit%C3%A9_de_surveillance_de_Cuy%2C_district_d%27Argentan%2C_d%C3%A9partement_de_l%27Orne%2C_R%C3%A9volution_fran%C3%A7aise%2C_NE557%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEmpreinte%20Comit%C3%A9%20de%20surveillance%20de%20Cuy%2C%20district%20d'Argentan%2C%20d%C3%A9partement%20de%20l'Orne%2C%20R%C3%A9volution%20fran%C3%A7aise%2C%20NE557(2).jpg",
+          "title": "Empreinte Comité de surveillance de Cuy, district d'Argentan, département de l'Orne, Révolution française, NE557(2).jpg",
+          "description": "Type(s) d'objet(s):\n\nNumismatique, Révolution française\n\n\nDénomination(s):\n\nSceau\n\n\nMatériaux et techniques:\n\nCire, Papier\n\n\nDimensions - Oeuvre:\n\n\n   Hauteur : 3.9 cm\n   Largeur : 3.1 cm\n   Poids (type dimension) : 0.69 g\n\n\n\nDescription:\n\n\nRelief uniface ; profil ovale ; cire rouge avec traces de suie.\n\n\n\nInstitution:\n\nMusée Carnavalet, Histoire de Paris\n\n\nNuméro d’inventaire:\n\nNE557\n\n\nIIIF Manifest:\n\nhttps://apicollections.parismusees.paris.fr/iiif/320211150/manifest",
+          "width": 4256,
+          "height": 2832,
+          "size": 4950671,
+          "timestamp": "2023-05-03T22:10:39Z",
+          "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+          "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 3
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Empreinte_Comit%C3%A9_de_surveillance_de_Sepvigny%2C_canton_et_district_d%27Argentan%2C_Premi%C3%A8re_R%C3%A9publique%2C_NE752.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEmpreinte%20Comit%C3%A9%20de%20surveillance%20de%20Sepvigny%2C%20canton%20et%20district%20d'Argentan%2C%20Premi%C3%A8re%20R%C3%A9publique%2C%20NE752.jpg",
+          "title": "Empreinte Comité de surveillance de Sepvigny, canton et district d'Argentan, Première République, NE752.jpg",
+          "description": "Type(s) d'objet(s):\n\nNumismatique, Révolution française\n\n\nDénomination(s):\n\nSceau\n\n\nMatériaux et techniques:\n\nCire, Papier\n\n\nDimensions - Oeuvre:\n\n\n   Hauteur : 3.8 cm\n   Largeur : 3.4 cm\n   Poids (type dimension) : 0.81 g\n\n\n\nDescription:\n\n\nRelief uniface ; profil ovale ; cire rouge avec quelques traces de suie.\n\n\n\nInstitution:\n\nMusée Carnavalet, Histoire de Paris\n\n\nNuméro d’inventaire:\n\nNE752\n\n\nIIIF Manifest:\n\nhttps://apicollections.parismusees.paris.fr/iiif/320211515/manifest",
+          "width": 4256,
+          "height": 2832,
+          "size": 6182446,
+          "timestamp": "2023-05-24T20:10:29Z",
+          "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
         }
       ]
     },
     {
       "label": "Parc de la Forêt domaniale de Gouffern",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Parc_du_Plan_d%27eau_d%27Argentan%2C_au_printemps_2015.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParc%20du%20Plan%20d'eau%20d'Argentan%2C%20au%20printemps%202015.jpg",
+          "title": "Parc du Plan d'eau d'Argentan, au printemps 2015.jpg",
+          "description": "Picture of the public park of the Plan d'eau in the town of Argentan in Normandy, France.",
+          "width": 4096,
+          "height": 2304,
+          "size": 5399248,
+          "timestamp": "2018-08-11T15:44:34Z",
+          "author": "Harmonide",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Cano%C3%AB-kayak_au_parc_du_Plan_d%27Eau_d%27Argentan.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACano%C3%AB-kayak%20au%20parc%20du%20Plan%20d'Eau%20d'Argentan.jpg",
+          "title": "Canoë-kayak au parc du Plan d'Eau d'Argentan.jpg",
+          "description": "A canoe-kayak in a tree on the bank of a pond in Argentan, Normandy, France.",
+          "width": 4096,
+          "height": 2304,
+          "size": 3933490,
+          "timestamp": "2018-08-11T15:59:43Z",
+          "author": "Harmonide",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Parc_enneig%C3%A9_d%27Argentan_%28Orne%2C_Normandie%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParc%20enneig%C3%A9%20d'Argentan%20(Orne%2C%20Normandie).jpg",
+          "title": "Parc enneigé d'Argentan (Orne, Normandie).jpg",
+          "description": "The \"Plan d'Eau\" public park of Argentan under the snow, during Winter 2017. Normandy, France.",
+          "width": 2304,
+          "height": 4096,
+          "size": 3390783,
+          "timestamp": "2018-08-12T10:00:55Z",
+          "author": "Harmonide",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     }
   ]
 }

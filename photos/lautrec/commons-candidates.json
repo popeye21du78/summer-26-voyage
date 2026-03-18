@@ -1,12 +1,13 @@
 {
   "slug": "lautrec",
   "nom": "Lautrec",
-  "fetchedAt": "2026-03-13T15:23:06.731Z",
+  "fetchedAt": "2026-03-16T19:43:14.715Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Town_hall_of_Lautrec_%284%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATown%20hall%20of%20Lautrec%20(4).jpg",
       "title": "Town hall of Lautrec (4).jpg",
+      "description": "Town hall of Lautrec, Tarn, France",
       "width": 4711,
       "height": 3693,
       "size": 14317372,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Town_hall_of_Lautrec_%286%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATown%20hall%20of%20Lautrec%20(6).jpg",
       "title": "Town hall of Lautrec (6).jpg",
+      "description": "Town hall of Lautrec, Tarn, France",
       "width": 5586,
       "height": 3668,
       "size": 16271007,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Town_hall_of_Lautrec_%288%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATown%20hall%20of%20Lautrec%20(8).jpg",
       "title": "Town hall of Lautrec (8).jpg",
+      "description": "Town hall of Lautrec, Tarn, France",
       "width": 5262,
       "height": 3710,
       "size": 14256842,
@@ -46,23 +49,95 @@
   "lieux": [
     {
       "label": "Moulin à vent de la Salette",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Moulin_de_la_Salette_in_Lautrec_%283%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMoulin%20de%20la%20Salette%20in%20Lautrec%20(3).jpg",
+          "title": "Moulin de la Salette in Lautrec (3).jpg",
+          "description": "Moulin de la Salette in Lautrec, Tarn, France",
+          "width": 5038,
+          "height": 3938,
+          "size": 12628142,
+          "timestamp": "2021-12-09T12:12:13Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q51955005\" class=\"extiw\" title=\"d:Q51955005\"><span title=\"Wikimedian\">Krzysztof Golik</span></a></bdi>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Toulouse-Lautrec_-_At_the_Moulin_Rouge_The_Dance%2C_1986-26-32.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AToulouse-Lautrec%20-%20At%20the%20Moulin%20Rouge%20The%20Dance%2C%201986-26-32.jpg",
+          "title": "Toulouse-Lautrec - At the Moulin Rouge The Dance, 1986-26-32.jpg",
+          "description": "",
+          "width": 4096,
+          "height": 3130,
+          "size": 2049294,
+          "timestamp": "2024-03-17T01:38:53Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Henri_de_Toulouse-Lautrec\" class=\"extiw\" title=\"w:en:Henri de Toulouse-Lautrec\"><span title=\"French painter and illustrator (1864–1901)\">Henri de Toulouse-Lautrec</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Lautrec_at_the_moulin_rouge_1892.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALautrec%20at%20the%20moulin%20rouge%201892.jpg",
+          "title": "Lautrec at the moulin rouge 1892.jpg",
+          "description": "",
+          "width": 1500,
+          "height": 1308,
+          "size": 410645,
+          "timestamp": "2021-03-07T07:13:18Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Henri_de_Toulouse-Lautrec\" class=\"extiw\" title=\"w:en:Henri de Toulouse-Lautrec\"><span title=\"French painter and illustrator (1864–1901)\">Henri de Toulouse-Lautrec</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Collégiale Saint-Rémy",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Choeur_de_la_coll%C3%A9giale_st_R%C3%A9my_de_Lautrec.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChoeur%20de%20la%20coll%C3%A9giale%20st%20R%C3%A9my%20de%20Lautrec.jpg",
-          "title": "Choeur de la collégiale st Rémy de Lautrec.jpg",
-          "width": 599,
-          "height": 389,
-          "size": 42254,
-          "timestamp": "2008-01-09T23:00:30Z",
-          "author": "TOUTAIN",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Lautrec_-_Coll%C3%A9giale_Saint-R%C3%A9my_-_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALautrec%20-%20Coll%C3%A9giale%20Saint-R%C3%A9my%20-%2002.jpg",
+          "title": "Lautrec - Collégiale Saint-Rémy - 02.jpg",
+          "description": "View of church Saint-Rémy (Lautrec, Tarn, France)",
+          "width": 6016,
+          "height": 4016,
+          "size": 7356332,
+          "timestamp": "2018-03-17T18:05:47Z",
+          "author": "<p><a href=\"//commons.wikimedia.org/wiki/User:MathieuMD\" title=\"User:MathieuMD\">MathieuMD</a>\n</p>",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 1
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Lautrec_-_Coll%C3%A9giale_Saint-R%C3%A9my_-_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALautrec%20-%20Coll%C3%A9giale%20Saint-R%C3%A9my%20-%2001.jpg",
+          "title": "Lautrec - Collégiale Saint-Rémy - 01.jpg",
+          "description": "View of church Saint-Rémy (Lautrec, Tarn, France)",
+          "width": 6016,
+          "height": 4016,
+          "size": 4679609,
+          "timestamp": "2018-03-17T18:06:35Z",
+          "author": "<p><a href=\"//commons.wikimedia.org/wiki/User:MathieuMD\" title=\"User:MathieuMD\">MathieuMD</a>\n</p>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Lautrec_-_Coll%C3%A9giale_Saint-R%C3%A9my_-_03.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALautrec%20-%20Coll%C3%A9giale%20Saint-R%C3%A9my%20-%2003.jpg",
+          "title": "Lautrec - Collégiale Saint-Rémy - 03.jpg",
+          "description": "View of church Saint-Rémy (Lautrec, Tarn, France)",
+          "width": 4016,
+          "height": 6016,
+          "size": 6274683,
+          "timestamp": "2018-03-17T18:04:24Z",
+          "author": "<p><a href=\"//commons.wikimedia.org/wiki/User:MathieuMD\" title=\"User:MathieuMD\">MathieuMD</a>\n</p>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
         }
       ]
     },
@@ -74,41 +149,16 @@
       "label": "Porte de la Caussade",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Lautrec_-_Porte_de_la_Caussade_-_07.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALautrec%20-%20Porte%20de%20la%20Caussade%20-%2007.jpg",
-          "title": "Lautrec - Porte de la Caussade - 07.jpg",
-          "width": 6016,
-          "height": 4016,
-          "size": 7263349,
-          "timestamp": "2018-03-17T18:19:19Z",
-          "author": "<p><a href=\"//commons.wikimedia.org/wiki/User:MathieuMD\" title=\"User:MathieuMD\">MathieuMD</a>\n</p>",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Lautrec_-_Porte_de_la_Caussade_-_05.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALautrec%20-%20Porte%20de%20la%20Caussade%20-%2005.jpg",
-          "title": "Lautrec - Porte de la Caussade - 05.jpg",
-          "width": 6016,
-          "height": 4016,
-          "size": 6012915,
-          "timestamp": "2018-03-17T18:20:14Z",
-          "author": "<p><a href=\"//commons.wikimedia.org/wiki/User:MathieuMD\" title=\"User:MathieuMD\">MathieuMD</a>\n</p>",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Lautrec_-_Porte_de_la_Caussade_-_06.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALautrec%20-%20Porte%20de%20la%20Caussade%20-%2006.jpg",
-          "title": "Lautrec - Porte de la Caussade - 06.jpg",
-          "width": 6016,
-          "height": 4016,
-          "size": 6290595,
-          "timestamp": "2018-03-17T18:21:11Z",
-          "author": "<p><a href=\"//commons.wikimedia.org/wiki/User:MathieuMD\" title=\"User:MathieuMD\">MathieuMD</a>\n</p>",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Adieu_-_%28estampe%29_%28%C3%89preuve_de_la_1%C3%A8re_%C3%A9dition%29_%28Un_seul_%C3%A9tat%29_-_HTL_%28monogramme_de_Henri_de_Toulouse-Lautrec%29_-_btv1b53229057p.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAdieu%20-%20(estampe)%20(%C3%89preuve%20de%20la%201%C3%A8re%20%C3%A9dition)%20(Un%20seul%20%C3%A9tat)%20-%20HTL%20(monogramme%20de%20Henri%20de%20Toulouse-Lautrec)%20-%20btv1b53229057p.jpg",
+          "title": "Adieu - (estampe) (Épreuve de la 1ère édition) (Un seul état) - HTL (monogramme de Henri de Toulouse-Lautrec) - btv1b53229057p.jpg",
+          "description": "Sujet : Ports\nClair de lune\nAdieux\nScènes -- 1870-1913\nRéférence bibliographique : Delteil, 129-1\nRéférence bibliographique : Adhémar, 158-1\nRéférence bibliographique : Wittrock, 124 (première édition)\nPartition illustrée\nPage de titre\nLangue : sans contenu linguistique\n\nÉditeur : [C. Joubert Editeur] (Paris)",
+          "width": 4764,
+          "height": 6522,
+          "size": 5875214,
+          "timestamp": "2024-10-30T16:58:22Z",
+          "author": "<div class=\"fn value\">\n<p>Toulouse-Lautrec, Henri de (1864-1901). Lithographe\nDihau, Désiré (1833-1909). Compositeur\n</p>\nRichepin, Jean (1849-1926). Parolier</div>",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
         }

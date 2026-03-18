@@ -1,52 +1,70 @@
 {
   "slug": "le-mole-depuis-la-tour",
   "nom": "Le Môle depuis La Tour",
-  "fetchedAt": "2026-03-13T15:33:40.669Z",
+  "fetchedAt": "2026-03-16T20:06:03.778Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Le_M%C3%B4le_%2815094380667%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20M%C3%B4le%20(15094380667).jpg",
-      "title": "Le Môle (15094380667).jpg",
-      "width": 6016,
-      "height": 4016,
-      "size": 18844138,
-      "timestamp": "2024-02-14T12:41:20Z",
-      "author": "Didier Baertschiger",
-      "license": "CC BY-SA 2.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/View_From_Le_Mole_-_panoramio.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AView%20From%20Le%20Mole%20-%20panoramio.jpg",
+      "title": "View From Le Mole - panoramio.jpg",
+      "description": "View From Le Mole",
+      "width": 3072,
+      "height": 2304,
+      "size": 2980461,
+      "timestamp": "2016-03-25T03:09:07Z",
+      "author": "Patrick Nouhailler's…",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 8
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/View_onto_Cluses_from_Le_M%C3%B4le_%2812815649005%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AView%20onto%20Cluses%20from%20Le%20M%C3%B4le%20(12815649005).jpg",
-      "title": "View onto Cluses from Le Môle (12815649005).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Panoramic_view_from_Le_M%C3%B4le_-_panoramio.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanoramic%20view%20from%20Le%20M%C3%B4le%20-%20panoramio.jpg",
+      "title": "Panoramic view from Le Môle - panoramio.jpg",
+      "description": "Panoramic view from from Le Môle",
       "width": 5184,
       "height": 3456,
-      "size": 7621893,
-      "timestamp": "2015-05-07T13:55:52Z",
-      "author": "Björn S...",
-      "license": "CC BY-SA 2.0",
+      "size": 8351661,
+      "timestamp": "2017-03-03T08:08:07Z",
+      "author": "Björn S.",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Chaine_du_Bargy_seen_from_Le_M%C3%B4le_%2812815654465%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChaine%20du%20Bargy%20seen%20from%20Le%20M%C3%B4le%20(12815654465).jpg",
-      "title": "Chaine du Bargy seen from Le Môle (12815654465).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Panoramic_view_from_Le_M%C3%B4le_-_panoramio_%281%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanoramic%20view%20from%20Le%20M%C3%B4le%20-%20panoramio%20(1).jpg",
+      "title": "Panoramic view from Le Môle - panoramio (1).jpg",
+      "description": "Panoramic view from from Le Môle",
       "width": 5184,
       "height": 3456,
-      "size": 8391115,
-      "timestamp": "2015-05-07T13:55:58Z",
-      "author": "Björn S...",
-      "license": "CC BY-SA 2.0",
+      "size": 9361183,
+      "timestamp": "2017-03-03T08:08:29Z",
+      "author": "Björn S.",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
     }
   ],
   "lieux": [
     {
       "label": "La Tour (départ)",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Le_M%C3%B4le_%40_Sal%C3%A8ve.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20M%C3%B4le%20%40%20Sal%C3%A8ve.jpg",
+          "title": "Le Môle @ Salève.jpg",
+          "description": "Le Môle depuis le Salève, La Muraz, Haute-Savoie, France",
+          "width": 5067,
+          "height": 3801,
+          "size": 1996695,
+          "timestamp": "2025-03-04T14:21:38Z",
+          "author": "Rémih",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Ruisseau de la Menoge",

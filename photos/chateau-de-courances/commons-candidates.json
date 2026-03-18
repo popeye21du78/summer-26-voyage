@@ -1,12 +1,13 @@
 {
   "slug": "chateau-de-courances",
   "nom": "Château de Courances",
-  "fetchedAt": "2026-03-13T13:03:57.612Z",
+  "fetchedAt": "2026-03-15T21:24:18.368Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Ch%C3%A2teau_de_Courances_02.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Courances%2002.jpg",
       "title": "Château de Courances 02.jpg",
+      "description": "Château de Courances, Essonne, France",
       "width": 4608,
       "height": 3456,
       "size": 3886819,
@@ -14,12 +15,13 @@
       "author": "Rémih",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Ch%C3%A2teau_de_Courances_01.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Courances%2001.jpg",
       "title": "Château de Courances 01.jpg",
+      "description": "Château de Courances, Essonne, France",
       "width": 4608,
       "height": 3456,
       "size": 4901948,
@@ -27,12 +29,13 @@
       "author": "Rémih",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Courances_-_Ch%C3%A2teau_%281%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACourances%20-%20Ch%C3%A2teau%20(1).jpg",
       "title": "Courances - Château (1).jpg",
+      "description": "Courances. - Château",
       "width": 1892,
       "height": 1280,
       "size": 336351,
@@ -40,7 +43,7 @@
       "author": "<div class=\"fn value\">\nM. Henrot</div>",
       "license": "CC0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     }
   ],
   "lieux": [
@@ -56,43 +59,46 @@
       "label": "Jardin japonais",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Courances_chateau_jardin_japonais.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACourances%20chateau%20jardin%20japonais.jpg",
-          "title": "Courances chateau jardin japonais.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Courances_chateau_cote_jardin_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACourances%20chateau%20cote%20jardin%2001.jpg",
+          "title": "Courances chateau cote jardin 01.jpg",
+          "description": "Château de Courances (Essonne, France) côté jardin",
           "width": 1800,
-          "height": 1183,
-          "size": 607054,
-          "timestamp": "2010-07-09T15:34:47Z",
+          "height": 1176,
+          "size": 624161,
+          "timestamp": "2010-07-09T15:17:53Z",
           "author": "Patrick GIRAUD",
           "license": "CC BY-SA 1.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Parc-chateau-courances-essonne%2C_partie_du_jardin_japonais.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParc-chateau-courances-essonne%2C%20partie%20du%20jardin%20japonais.jpg",
-          "title": "Parc-chateau-courances-essonne, partie du jardin japonais.jpg",
-          "width": 2400,
-          "height": 1600,
-          "size": 1605038,
-          "timestamp": "2014-09-13T14:16:54Z",
-          "author": "Philippebajcik",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Courances_chateau_cote_jardin_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACourances%20chateau%20cote%20jardin%2002.jpg",
+          "title": "Courances chateau cote jardin 02.jpg",
+          "description": "Château de Courances (Essonne, France) côté jardin",
+          "width": 1800,
+          "height": 1168,
+          "size": 496647,
+          "timestamp": "2010-07-09T15:24:33Z",
+          "author": "Patrick GIRAUD",
+          "license": "CC BY-SA 1.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Parc-chateau-courances-essonne%2C_toujours_le_jardin_japonais%2C_tr%C3%A8s_joli.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParc-chateau-courances-essonne%2C%20toujours%20le%20jardin%20japonais%2C%20tr%C3%A8s%20joli.jpg",
-          "title": "Parc-chateau-courances-essonne, toujours le jardin japonais, très joli.jpg",
-          "width": 2400,
-          "height": 1600,
-          "size": 1853972,
-          "timestamp": "2014-09-13T14:17:10Z",
-          "author": "Philippebajcik",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Ch%C3%A2teau_de_Courances_-_Courances_04.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Courances%20-%20Courances%2004.jpg",
+          "title": "Château de Courances - Courances 04.jpg",
+          "description": "Château de Courances, jardin",
+          "width": 2592,
+          "height": 1944,
+          "size": 2218546,
+          "timestamp": "2011-08-11T13:06:13Z",
+          "author": "Esther Westerveld",
+          "license": "CC BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
         }
       ]
     },

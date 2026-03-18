@@ -1,38 +1,13 @@
 {
   "slug": "chateau-de-joux",
   "nom": "Château de Joux",
-  "fetchedAt": "2026-03-13T13:07:14.365Z",
+  "fetchedAt": "2026-03-15T21:30:00.292Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/M%C3%A9morial_de_Toussaint_Louverture_au_fort_de_Joux.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AM%C3%A9morial%20de%20Toussaint%20Louverture%20au%20fort%20de%20Joux.jpg",
-      "title": "Mémorial de Toussaint Louverture au fort de Joux.jpg",
-      "width": 3264,
-      "height": 2448,
-      "size": 3199073,
-      "timestamp": "2016-08-03T13:12:16Z",
-      "author": "Chris93",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/M%C3%A9morial_de_Toussaint_Louverture_au_fort_de_Joux_-_gros_plan.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AM%C3%A9morial%20de%20Toussaint%20Louverture%20au%20fort%20de%20Joux%20-%20gros%20plan.jpg",
-      "title": "Mémorial de Toussaint Louverture au fort de Joux - gros plan.jpg",
-      "width": 3264,
-      "height": 2448,
-      "size": 1241503,
-      "timestamp": "2016-08-03T13:47:37Z",
-      "author": "Chris93",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/La_Cluse-et-Mijoux_centre_ville.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Cluse-et-Mijoux%20centre%20ville.jpg",
       "title": "La Cluse-et-Mijoux centre ville.jpg",
+      "description": "Vue du centre-ville de La Cluse-et-Mijoux (Doubs) avec à gauche la Distillerie les fils d'Émile Pernot",
       "width": 3264,
       "height": 2448,
       "size": 1998903,
@@ -40,7 +15,35 @@
       "author": "Chris93",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/2011-04-17-fort-joux-1.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2011-04-17-fort-joux-1.jpg",
+      "title": "2011-04-17-fort-joux-1.jpg",
+      "description": "This   file was uploaded  with Commonist. This photograph was taken with a Nikon D300\nFort de Joux : vue du fossé nord de la 5e enceinte (HDR).",
+      "width": 4232,
+      "height": 2762,
+      "size": 9610575,
+      "timestamp": "2011-04-19T17:53:01Z",
+      "author": "<bdi><a href=\"//commons.wikimedia.org/wiki/User:ComputerHotline\" title=\"User:ComputerHotline\">Thomas Bresson</a></bdi>",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/2011-04-17-fort-joux-3.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2011-04-17-fort-joux-3.jpg",
+      "title": "2011-04-17-fort-joux-3.jpg",
+      "description": "This   file was uploaded  with Commonist. This photograph was taken with a Nikon D300\nFort de Joux : vue de l'ensemble avec, en arrière-plan, le fort du Larmont inférieur (HDR).",
+      "width": 4216,
+      "height": 2768,
+      "size": 8930603,
+      "timestamp": "2011-04-20T17:27:55Z",
+      "author": "<bdi><a href=\"//commons.wikimedia.org/wiki/User:ComputerHotline\" title=\"User:ComputerHotline\">Thomas Bresson</a></bdi>",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
     }
   ],
   "lieux": [
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Toussaint_L%27Ouverture_meurt_dans_la_prison_du_Ch%C3%A2teau_de_Joux_le_7_avril_1803.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AToussaint%20L'Ouverture%20meurt%20dans%20la%20prison%20du%20Ch%C3%A2teau%20de%20Joux%20le%207%20avril%201803.jpg",
           "title": "Toussaint L'Ouverture meurt dans la prison du Château de Joux le 7 avril 1803.jpg",
+          "description": "Death of General Toussaint Louverture in the prison of Fort de Joux (Jura), on 7 April 1803.\nDrawing by François Grenier de Saint-Martin, lithography by Jean-François Villain, 1821.",
           "width": 737,
           "height": 1024,
           "size": 254484,
@@ -64,6 +68,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Toussaint_L%27Ouverture_meurt_dans_la_prison_du_Ch%C3%A2teau_de_Joux_le_7_avril_1803_%28cropped%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AToussaint%20L'Ouverture%20meurt%20dans%20la%20prison%20du%20Ch%C3%A2teau%20de%20Joux%20le%207%20avril%201803%20(cropped).jpg",
           "title": "Toussaint L'Ouverture meurt dans la prison du Château de Joux le 7 avril 1803 (cropped).jpg",
+          "description": "Death of General Toussaint Louverture in the prison of Fort de Joux (Jura), on 7 April 1803.\nDrawing by François Grenier de Saint-Martin, lithography by Jean-François Villain, 1821.",
           "width": 709,
           "height": 882,
           "size": 334188,

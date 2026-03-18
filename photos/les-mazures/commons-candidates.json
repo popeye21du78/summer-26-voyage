@@ -1,12 +1,13 @@
 {
   "slug": "les-mazures",
   "nom": "Les Mazures",
-  "fetchedAt": "2026-03-13T15:50:57.949Z",
+  "fetchedAt": "2026-03-16T20:42:10.702Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Les_Mazures-FR-08-centre_socioculturel-a3.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20Mazures-FR-08-centre%20socioculturel-a3.jpg",
       "title": "Les Mazures-FR-08-centre socioculturel-a3.jpg",
+      "description": "Centre socio-culturel  Mathilde Divo- Peccavet des Mazures (Ardennes, France)",
       "width": 3636,
       "height": 2766,
       "size": 5404539,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Les_Mazures-FR-08-mairie-a2.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20Mazures-FR-08-mairie-a2.jpg",
       "title": "Les Mazures-FR-08-mairie-a2.jpg",
+      "description": "Mairie des Mazures (Ardennes, France)",
       "width": 4032,
       "height": 3024,
       "size": 5398258,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Les_Mazures-FR-08-eglise-a3.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20Mazures-FR-08-eglise-a3.jpg",
       "title": "Les Mazures-FR-08-eglise-a3.jpg",
+      "description": "Église Saint-Remy des Mazures (Ardennes, France)",
       "width": 4032,
       "height": 3024,
       "size": 4968927,
@@ -46,7 +49,50 @@
   "lieux": [
     {
       "label": "Église Saint-Martin des Mazures",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Les_Mazures-FR-08-eglise-a3.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20Mazures-FR-08-eglise-a3.jpg",
+          "title": "Les Mazures-FR-08-eglise-a3.jpg",
+          "description": "Église Saint-Remy des Mazures (Ardennes, France)",
+          "width": 4032,
+          "height": 3024,
+          "size": 4968927,
+          "timestamp": "2023-07-11T10:49:07Z",
+          "author": "François GOGLINS",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Les_Mazures-FR-08-eglise-a2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20Mazures-FR-08-eglise-a2.jpg",
+          "title": "Les Mazures-FR-08-eglise-a2.jpg",
+          "description": "Église Saint-Remy des Mazures (Ardennes, France)",
+          "width": 4032,
+          "height": 3024,
+          "size": 4473728,
+          "timestamp": "2023-07-11T10:49:07Z",
+          "author": "François GOGLINS",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Les_Mazures-FR-08-eglise-a4.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20Mazures-FR-08-eglise-a4.jpg",
+          "title": "Les Mazures-FR-08-eglise-a4.jpg",
+          "description": "Église Saint-Remy des Mazures (Ardennes, France)",
+          "width": 3777,
+          "height": 2481,
+          "size": 5262063,
+          "timestamp": "2023-07-11T10:49:09Z",
+          "author": "François GOGLINS",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Étang de la Motte",

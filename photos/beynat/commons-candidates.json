@@ -1,44 +1,47 @@
 {
   "slug": "beynat",
   "nom": "Beynat",
-  "fetchedAt": "2026-03-13T00:18:13.895Z",
+  "fetchedAt": "2026-03-15T19:41:54.132Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/ISS065-E-28615_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS065-E-28615%20-%20View%20of%20Earth.jpg",
-      "title": "ISS065-E-28615 - View of Earth.jpg",
-      "width": 5568,
-      "height": 3712,
-      "size": 3737126,
-      "timestamp": "2022-06-25T16:52:34Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Beynat_-_mont%C3%A9e_de_la_place_du_Champ_de_Foire.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeynat%20-%20mont%C3%A9e%20de%20la%20place%20du%20Champ%20de%20Foire.jpg",
+      "title": "Beynat - montée de la place du Champ de Foire.jpg",
+      "description": "Beynat - montée de la place du Champ de Foire",
+      "width": 4032,
+      "height": 3024,
+      "size": 2524260,
+      "timestamp": "2023-06-27T19:56:22Z",
+      "author": "AirScott",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/ISS065-E-28616_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS065-E-28616%20-%20View%20of%20Earth.jpg",
-      "title": "ISS065-E-28616 - View of Earth.jpg",
-      "width": 5568,
-      "height": 3712,
-      "size": 3723580,
-      "timestamp": "2022-06-25T16:52:41Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Beynat_-_place_du_Champ_de_Foire.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeynat%20-%20place%20du%20Champ%20de%20Foire.jpg",
+      "title": "Beynat - place du Champ de Foire.jpg",
+      "description": "Beynat - place du Champ de Foire",
+      "width": 4032,
+      "height": 3024,
+      "size": 2684705,
+      "timestamp": "2023-06-27T19:56:22Z",
+      "author": "AirScott",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/ISS065-E-133867_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS065-E-133867%20-%20View%20of%20Earth.jpg",
-      "title": "ISS065-E-133867 - View of Earth.jpg",
-      "width": 5568,
-      "height": 3712,
-      "size": 2329659,
-      "timestamp": "2022-06-30T18:05:02Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Beynat_-_place_du_8_mai.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeynat%20-%20place%20du%208%20mai.jpg",
+      "title": "Beynat - place du 8 mai.jpg",
+      "description": "Beynat - place du 8 mai",
+      "width": 4032,
+      "height": 3024,
+      "size": 3349206,
+      "timestamp": "2023-06-27T19:56:22Z",
+      "author": "AirScott",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     }
@@ -48,9 +51,24 @@
       "label": "Église Saint-Pierre de Beynat",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/02-24_Beynat_panneau_%C3%A9glise.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A02-24%20Beynat%20panneau%20%C3%A9glise.jpg",
+          "title": "02-24 Beynat panneau église.jpg",
+          "description": "à Beynat, en Corrèze",
+          "width": 4608,
+          "height": 3072,
+          "size": 3846701,
+          "timestamp": "2020-03-05T06:29:33Z",
+          "author": "Marianne Casamance",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/02-24_Beynat_%C3%A9glise_clocher.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A02-24%20Beynat%20%C3%A9glise%20clocher.jpg",
           "title": "02-24 Beynat église clocher.jpg",
+          "description": "à Beynat, en Corrèze",
           "width": 3072,
           "height": 4608,
           "size": 3332996,
@@ -64,23 +82,11 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/02-24_Beynat_%C3%A9glise_fa%C3%A7ade.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A02-24%20Beynat%20%C3%A9glise%20fa%C3%A7ade.jpg",
           "title": "02-24 Beynat église façade.jpg",
+          "description": "à Beynat, en Corrèze",
           "width": 3072,
           "height": 4608,
           "size": 1494679,
           "timestamp": "2020-03-05T06:29:22Z",
-          "author": "Marianne Casamance",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/02-24_Beynat_%C3%A9glise_cloches.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A02-24%20Beynat%20%C3%A9glise%20cloches.jpg",
-          "title": "02-24 Beynat église cloches.jpg",
-          "width": 3072,
-          "height": 4608,
-          "size": 1274201,
-          "timestamp": "2020-03-05T06:29:23Z",
           "author": "Marianne Casamance",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -90,11 +96,69 @@
     },
     {
       "label": "Halle couverte de Beynat",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/02-24_Beynat_Halle.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A02-24%20Beynat%20Halle.jpg",
+          "title": "02-24 Beynat Halle.jpg",
+          "description": "à Beynat, en Corrèze",
+          "width": 4503,
+          "height": 3001,
+          "size": 973839,
+          "timestamp": "2020-03-05T06:29:26Z",
+          "author": "Marianne Casamance",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Plan d'eau de Miel",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/19023-Beynat-ZNIEFF2.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A19023-Beynat-ZNIEFF2.png",
+          "title": "19023-Beynat-ZNIEFF2.png",
+          "description": "Carte des zones naturelles d'intérêt écologique faunistique et floristique de type 2  sur la commune de fr:Beynat (France).",
+          "width": 5866,
+          "height": 4133,
+          "size": 13715634,
+          "timestamp": "2022-03-07T15:34:05Z",
+          "author": "Roland45",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/19023-Beynat-ZNIEFF1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A19023-Beynat-ZNIEFF1.jpg",
+          "title": "19023-Beynat-ZNIEFF1.jpg",
+          "description": "Carte des zones naturelles d'intérêt écologique, faunistique et floristique (ZNIEFF) de type 1 de la commune de fr:Beynat (France).",
+          "width": 3519,
+          "height": 2480,
+          "size": 944179,
+          "timestamp": "2022-03-18T09:52:14Z",
+          "author": "Roland45",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/19023-Beynat-argile.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A19023-Beynat-argile.jpg",
+          "title": "19023-Beynat-argile.jpg",
+          "description": "Carte de l'aléa retrait-gonflement des argiles sur la commune de fr:Beynat (France).",
+          "width": 3057,
+          "height": 2480,
+          "size": 911635,
+          "timestamp": "2022-09-20T12:06:51Z",
+          "author": "Roland45",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

@@ -1,25 +1,13 @@
 {
   "slug": "luneville",
   "nom": "Lunéville",
-  "fetchedAt": "2026-03-13T01:20:30.873Z",
+  "fetchedAt": "2026-03-16T21:03:11.185Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Hotel_de_Ville_-_panoramio_%2811%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHotel%20de%20Ville%20-%20panoramio%20(11).jpg",
-      "title": "Hotel de Ville - panoramio (11).jpg",
-      "width": 3871,
-      "height": 2177,
-      "size": 4384417,
-      "timestamp": "2022-08-14T09:28:37Z",
-      "author": "Romain.D.C",
-      "license": "CC BY 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Plaque_en_hommage_%C3%A0_%C3%89milie_du_Ch%C3%A2telet_%C3%A0_Lun%C3%A9ville.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlaque%20en%20hommage%20%C3%A0%20%C3%89milie%20du%20Ch%C3%A2telet%20%C3%A0%20Lun%C3%A9ville.jpg",
       "title": "Plaque en hommage à Émilie du Châtelet à Lunéville.jpg",
+      "description": "Plaque en hommage à Émilie du Châtelet dans l'église Saint-Jacques de Lunéville",
       "width": 4096,
       "height": 2304,
       "size": 3470190,
@@ -33,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Lun%C3%A9ville_-_Rue_Banaudon_-_bo%C3%AEte_%C3%A0_livres.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALun%C3%A9ville%20-%20Rue%20Banaudon%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
       "title": "Lunéville - Rue Banaudon - boîte à livres.jpg",
+      "description": "Boîte à livres à Lunéville",
       "width": 2500,
       "height": 1875,
       "size": 1030225,
@@ -41,6 +30,20 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/France%2C_Lun%C3%A9ville_la_syngagogue.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%2C%20Lun%C3%A9ville%20la%20syngagogue.jpg",
+      "title": "France, Lunéville la syngagogue.jpg",
+      "description": "Synagogue de Lunéville à l'est de la France (Meurthe et Moselle),construite en 1786, suite à l'autorisation accordée par Louis XVI, Roi de France, à condition qu'elle ne soit pas visible de la rue. A l'époque, elle fut la 1re construite depuis le Moyen-Age. et reste l'une des plus ancienne subsistant à ce jour",
+      "width": 2220,
+      "height": 1692,
+      "size": 2379623,
+      "timestamp": "2017-01-26T14:57:48Z",
+      "author": "jpcuvelier",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
     }
   ],
   "lieux": [
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Ch%C3%A2teau_de_Lun%C3%A9ville_vu_des_Bosquets.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Lun%C3%A9ville%20vu%20des%20Bosquets.jpg",
           "title": "Château de Lunéville vu des Bosquets.jpg",
+          "description": "Château de Lunéville vu des Bosquets",
           "width": 4032,
           "height": 3024,
           "size": 3997760,
@@ -58,12 +62,13 @@
           "author": "Pierre-Philippe Arnould",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Ch%C3%A2teau_de_Lun%C3%A9ville%2C_vue_d%27ensemble.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Lun%C3%A9ville%2C%20vue%20d'ensemble.jpg",
           "title": "Château de Lunéville, vue d'ensemble.jpg",
+          "description": "Château de Lunéville, vue d'ensemble",
           "width": 3648,
           "height": 2736,
           "size": 3017748,
@@ -71,12 +76,13 @@
           "author": "Havang(nl)",
           "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Ch%C3%A2teau_de_Lun%C3%A9ville%2C_aile_centrale_vue_de_la_cour.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Lun%C3%A9ville%2C%20aile%20centrale%20vue%20de%20la%20cour.jpg",
           "title": "Château de Lunéville, aile centrale vue de la cour.jpg",
+          "description": "Château de Lunéville, aile centrale vue de la cour",
           "width": 3648,
           "height": 2736,
           "size": 4067837,
@@ -84,7 +90,7 @@
           "author": "Havang(nl)",
           "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         }
       ]
     },
@@ -92,43 +98,46 @@
       "label": "Parc des Bosquets",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Apollon_foulant_un_dragon_-_Parc_des_Bosquets_du_Ch%C3%A2teau_de_Lun%C3%A9ville.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AApollon%20foulant%20un%20dragon%20-%20Parc%20des%20Bosquets%20du%20Ch%C3%A2teau%20de%20Lun%C3%A9ville.jpg",
-          "title": "Apollon foulant un dragon - Parc des Bosquets du Château de Lunéville.jpg",
-          "width": 3024,
-          "height": 4032,
-          "size": 6197977,
-          "timestamp": "2021-04-10T20:48:37Z",
-          "author": "Pierre-Philippe Arnould",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Ch%C3%A2teau_de_Lun%C3%A9ville_aile_centrale_et_aile_de_l%27arm%C3%A9e%2C_vue_du_parc.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Lun%C3%A9ville%20aile%20centrale%20et%20aile%20de%20l'arm%C3%A9e%2C%20vue%20du%20parc.jpg",
+          "title": "Château de Lunéville aile centrale et aile de l'armée, vue du parc.jpg",
+          "description": "Château de Lunéville aile centrale et aile de l'armée, vue du parc",
+          "width": 3648,
+          "height": 2736,
+          "size": 4529452,
+          "timestamp": "2016-09-13T17:28:38Z",
+          "author": "Havang(nl)",
+          "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Dama_dama_-_Lun%C3%A9ville_-_2012-05-16.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADama%20dama%20-%20Lun%C3%A9ville%20-%202012-05-16.jpg",
-          "title": "Dama dama - Lunéville - 2012-05-16.jpg",
-          "width": 4777,
-          "height": 3185,
-          "size": 16822485,
-          "timestamp": "2012-05-16T21:38:32Z",
-          "author": "PierreSelim",
-          "license": "CC BY 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Ch%C3%A2teau_de_Lun%C3%A9ville%2C_aile_centrale_vue_du_parc.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Lun%C3%A9ville%2C%20aile%20centrale%20vue%20du%20parc.jpg",
+          "title": "Château de Lunéville, aile centrale vue du parc.jpg",
+          "description": "Château de Lunéville, aile centrale vue du parc",
+          "width": 3648,
+          "height": 2736,
+          "size": 4152961,
+          "timestamp": "2016-09-13T17:28:38Z",
+          "author": "Havang(nl)",
+          "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 8
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Apollon%2C_Barth%C3%A9lemy_Guibal.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AApollon%2C%20Barth%C3%A9lemy%20Guibal.jpg",
-          "title": "Apollon, Barthélemy Guibal.jpg",
-          "width": 1169,
-          "height": 1558,
-          "size": 841807,
-          "timestamp": "2023-05-04T20:37:59Z",
-          "author": "Pierre-Philippe Arnould",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Ch%C3%A2teau_de_Lun%C3%A9ville%2C_le_parc.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Lun%C3%A9ville%2C%20le%20parc.jpg",
+          "title": "Château de Lunéville, le parc.jpg",
+          "description": "Château de Lunéville, le parc",
+          "width": 3648,
+          "height": 2736,
+          "size": 4273920,
+          "timestamp": "2016-09-13T17:28:44Z",
+          "author": "Havang(nl)",
+          "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 8
         }
       ]
     },
@@ -136,40 +145,90 @@
       "label": "Place Léopold",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Compte_general_de_la_depense_des_Edifices_et_Batimens_que_le_Roi_de_Pologne_1761_%28128752448%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACompte%20general%20de%20la%20depense%20des%20Edifices%20et%20Batimens%20que%20le%20Roi%20de%20Pologne%201761%20(128752448).jpg",
-          "title": "Compte general de la depense des Edifices et Batimens que le Roi de Pologne 1761 (128752448).jpg",
-          "width": 16034,
-          "height": 10596,
-          "size": 25202662,
-          "timestamp": "2021-04-27T19:13:48Z",
-          "author": "<div class=\"fn value\">\nNicolas Léopold Michel</div>",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Ch%C3%A2teau_de_Lun%C3%A9ville_vu_des_Bosquets.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Lun%C3%A9ville%20vu%20des%20Bosquets.jpg",
+          "title": "Château de Lunéville vu des Bosquets.jpg",
+          "description": "Château de Lunéville vu des Bosquets",
+          "width": 4032,
+          "height": 3024,
+          "size": 3997760,
+          "timestamp": "2021-04-10T20:48:36Z",
+          "author": "Pierre-Philippe Arnould",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Ch%C3%A2teau_de_Lun%C3%A9ville%2C_vue_d%27ensemble.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Lun%C3%A9ville%2C%20vue%20d'ensemble.jpg",
+          "title": "Château de Lunéville, vue d'ensemble.jpg",
+          "description": "Château de Lunéville, vue d'ensemble",
+          "width": 3648,
+          "height": 2736,
+          "size": 3017748,
+          "timestamp": "2016-09-12T16:11:23Z",
+          "author": "Havang(nl)",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Ch%C3%A2teau_de_Lun%C3%A9ville%2C_aile_centrale_vue_de_la_cour.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Lun%C3%A9ville%2C%20aile%20centrale%20vue%20de%20la%20cour.jpg",
+          "title": "Château de Lunéville, aile centrale vue de la cour.jpg",
+          "description": "Château de Lunéville, aile centrale vue de la cour",
+          "width": 3648,
+          "height": 2736,
+          "size": 4067837,
+          "timestamp": "2016-09-13T17:28:37Z",
+          "author": "Havang(nl)",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        }
+      ]
+    },
+    {
+      "label": "Maison des Broderies",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Environs_de_Lun%C3%A9ville._Maison_en_Ruines_pr%C3%A8s_d%27H%C3%A9rim%C3%A9nil%2C_Guerre_1914-1915_P-FG-CP-00183.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEnvirons%20de%20Lun%C3%A9ville.%20Maison%20en%20Ruines%20pr%C3%A8s%20d'H%C3%A9rim%C3%A9nil%2C%20Guerre%201914-1915%20P-FG-CP-00183.jpg",
+          "title": "Environs de Lunéville. Maison en Ruines près d'Hériménil, Guerre 1914-1915 P-FG-CP-00183.jpg",
+          "description": "",
+          "width": 3364,
+          "height": 2115,
+          "size": 1763879,
+          "timestamp": "2020-05-30T20:16:15Z",
+          "author": "Inconnu",
           "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Compte_general_de_la_depense_des_Edifices_et_Batimens_que_le_Roi_de_Pologne_1761_%28128752463%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACompte%20general%20de%20la%20depense%20des%20Edifices%20et%20Batimens%20que%20le%20Roi%20de%20Pologne%201761%20(128752463).jpg",
-          "title": "Compte general de la depense des Edifices et Batimens que le Roi de Pologne 1761 (128752463).jpg",
-          "width": 14730,
-          "height": 10544,
-          "size": 24091707,
-          "timestamp": "2021-04-27T19:14:25Z",
-          "author": "<div class=\"fn value\">\nNicolas Léopold Michel</div>",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Porte_coch%C3%A8re_de_la_maison_Lepan_%C3%A0_Lun%C3%A9ville_%28profil_de_porte%29_M-PI-AL-00001-012.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APorte%20coch%C3%A8re%20de%20la%20maison%20Lepan%20%C3%A0%20Lun%C3%A9ville%20(profil%20de%20porte)%20M-PI-AL-00001-012.jpg",
+          "title": "Porte cochère de la maison Lepan à Lunéville (profil de porte) M-PI-AL-00001-012.jpg",
+          "description": "Profil de coupe. Nombreuses légendes manuscrites. Don Joseph Piroux entre 1884 et 1890",
+          "width": 7516,
+          "height": 4461,
+          "size": 1622826,
+          "timestamp": "2020-05-30T20:20:18Z",
+          "author": "Inconnu",
           "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Compte_general_de_la_depense_des_Edifices_et_Batimens_que_le_Roi_de_Pologne_1761_%28128752478%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACompte%20general%20de%20la%20depense%20des%20Edifices%20et%20Batimens%20que%20le%20Roi%20de%20Pologne%201761%20(128752478).jpg",
-          "title": "Compte general de la depense des Edifices et Batimens que le Roi de Pologne 1761 (128752478).jpg",
-          "width": 14906,
-          "height": 10043,
-          "size": 22551980,
-          "timestamp": "2021-04-27T19:14:55Z",
-          "author": "<div class=\"fn value\">\nNicolas Léopold Michel</div>",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Ruines_de_maisons%2C_rue_Castara_%C3%A0_Lun%C3%A9ville_%28quartier_juif%29_-_btv1b69082498.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARuines%20de%20maisons%2C%20rue%20Castara%20%C3%A0%20Lun%C3%A9ville%20(quartier%20juif)%20-%20btv1b69082498.jpg",
+          "title": "Ruines de maisons, rue Castara à Lunéville (quartier juif) - btv1b69082498.jpg",
+          "description": "Sujet : Lunéville (Meurthe-et-Moselle, France)\nGuerre mondiale (1914-1918) -- Destruction et pillage -- France -- Lunéville\nDommages de guerre -- France -- Lunéville\nHabitations -- France -- Lunéville\nPhotographie de presse -- 1900-1945\nRéférence bibliographique : Rol, 44880\nAppartient à l’ensemble documentaire : Pho20Rol\nCouverture : .. juin 1915\n\nLangue : français",
+          "width": 4120,
+          "height": 2984,
+          "size": 1893364,
+          "timestamp": "2025-02-22T19:07:58Z",
+          "author": "<div class=\"fn value\">\nAgence Rol. Agence photographique (commanditaire)</div>",
           "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
@@ -177,12 +236,51 @@
       ]
     },
     {
-      "label": "Maison des Broderies",
-      "photos": []
-    },
-    {
       "label": "Cimetière israélite de Lunéville",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Environs_de_Lun%C3%A9ville._Chapelle_du_Cimeti%C3%A8re_Militaire_de_Friscati_-_fresque_de_E._Burguin_P-FG-CP-00248.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEnvirons%20de%20Lun%C3%A9ville.%20Chapelle%20du%20Cimeti%C3%A8re%20Militaire%20de%20Friscati%20-%20fresque%20de%20E.%20Burguin%20P-FG-CP-00248.jpg",
+          "title": "Environs de Lunéville. Chapelle du Cimetière Militaire de Friscati - fresque de E. Burguin P-FG-CP-00248.jpg",
+          "description": "",
+          "width": 3190,
+          "height": 2028,
+          "size": 872430,
+          "timestamp": "2020-05-30T20:06:34Z",
+          "author": "Inconnu",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Lun%C3%A9ville_%28M-et-M%29_cimeti%C3%A8re%2C_carr%C3%A9_militaire_%2803%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALun%C3%A9ville%20(M-et-M)%20cimeti%C3%A8re%2C%20carr%C3%A9%20militaire%20(03).jpg",
+          "title": "Lunéville (M-et-M) cimetière, carré militaire (03).jpg",
+          "description": "Lunéville (M-et-M) cimetière, carré militaire",
+          "width": 3648,
+          "height": 2736,
+          "size": 4473350,
+          "timestamp": "2016-07-10T08:27:47Z",
+          "author": "Havang(nl)",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Lun%C3%A9ville_%28M-et-M%29_cimeti%C3%A8re%2C_carr%C3%A9_militaire_%2801%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALun%C3%A9ville%20(M-et-M)%20cimeti%C3%A8re%2C%20carr%C3%A9%20militaire%20(01).jpg",
+          "title": "Lunéville (M-et-M) cimetière, carré militaire (01).jpg",
+          "description": "Lunéville (M-et-M) cimetière, carré militaire",
+          "width": 3648,
+          "height": 2736,
+          "size": 4483110,
+          "timestamp": "2016-07-10T08:27:47Z",
+          "author": "Havang(nl)",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Pont sur la Vezouze",

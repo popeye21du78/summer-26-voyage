@@ -1,12 +1,13 @@
 {
   "slug": "chateau-de-commarin",
   "nom": "Château de Commarin",
-  "fetchedAt": "2026-03-13T13:03:09.556Z",
+  "fetchedAt": "2026-03-15T21:23:17.849Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Commarin_%2821%29_Ch%C3%A2teau_-_Ext%C3%A9rieur_-_01.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACommarin%20(21)%20Ch%C3%A2teau%20-%20Ext%C3%A9rieur%20-%2001.jpg",
       "title": "Commarin (21) Château - Extérieur - 01.jpg",
+      "description": "Extérieur du château de Commarin (21).",
       "width": 6000,
       "height": 2955,
       "size": 7076839,
@@ -14,12 +15,13 @@
       "author": "GO69",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Commarin_%2821%29_Ch%C3%A2teau_-_Ext%C3%A9rieur_-_04.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACommarin%20(21)%20Ch%C3%A2teau%20-%20Ext%C3%A9rieur%20-%2004.jpg",
       "title": "Commarin (21) Château - Extérieur - 04.jpg",
+      "description": "Extérieur du château de Commarin (21).",
       "width": 6000,
       "height": 4000,
       "size": 6569536,
@@ -27,12 +29,13 @@
       "author": "GO69",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Commarin_%2821%29_Ch%C3%A2teau_-_Ext%C3%A9rieur_-_05.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACommarin%20(21)%20Ch%C3%A2teau%20-%20Ext%C3%A9rieur%20-%2005.jpg",
       "title": "Commarin (21) Château - Extérieur - 05.jpg",
+      "description": "Extérieur du château de Commarin (21).",
       "width": 6000,
       "height": 4000,
       "size": 11150970,
@@ -40,13 +43,28 @@
       "author": "GO69",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     }
   ],
   "lieux": [
     {
       "label": "Façade principale et douves",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Ch%C3%A2teau_de_Commarin-La_fa%C3%A7ade_18e_s.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Commarin-La%20fa%C3%A7ade%2018e%20s.jpg",
+          "title": "Château de Commarin-La façade 18e s.jpg",
+          "description": "The facade of the last building constructed open on a garden at the english mode.",
+          "width": 4272,
+          "height": 2848,
+          "size": 2585636,
+          "timestamp": "2012-03-07T05:47:58Z",
+          "author": "Daniel VILLAFRUELA",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Salons aux tapisseries d’Aubusson",

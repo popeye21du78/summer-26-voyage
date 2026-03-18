@@ -1,12 +1,13 @@
 {
   "slug": "gorze",
   "nom": "Gorze",
-  "fetchedAt": "2026-03-13T14:35:47.799Z",
+  "fetchedAt": "2026-03-16T13:48:13.539Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Gorze_-_Palais_abbatial_%2801%29.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGorze%20-%20Palais%20abbatial%20(01).JPG",
       "title": "Gorze - Palais abbatial (01).JPG",
+      "description": "Abbey palace of Gorze (Moselle, France). Facade on Castle square",
       "width": 3264,
       "height": 2448,
       "size": 3348456,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Gorze_-_Palais_abbatial_%2805%29.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGorze%20-%20Palais%20abbatial%20(05).JPG",
       "title": "Gorze - Palais abbatial (05).JPG",
+      "description": "Abbey palace of Gorze (Moselle, France). Plaque in the entry",
       "width": 3264,
       "height": 2448,
       "size": 2482673,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Gorze_-_Palais_abbatial_%2806%29.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGorze%20-%20Palais%20abbatial%20(06).JPG",
       "title": "Gorze - Palais abbatial (06).JPG",
+      "description": "Abbey palace of Gorze (Moselle, France). Entry building seen from the courtyard",
       "width": 3264,
       "height": 2448,
       "size": 3728735,
@@ -48,22 +51,10 @@
       "label": "Abbaye de Gorze",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/La_Sacra_ammantata_dalla_neve.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Sacra%20ammantata%20dalla%20neve.jpg",
-          "title": "La Sacra ammantata dalla neve.jpg",
-          "width": 8000,
-          "height": 3733,
-          "size": 14538490,
-          "timestamp": "2015-11-07T08:19:25Z",
-          "author": "<div class=\"fn value\">\n<a href=\"//commons.wikimedia.org/wiki/User_talk:Elio_Pallard\" title=\"User talk:Elio Pallard\">Elio Pallard</a></div>",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Monnaie_-_Lorraine%2C_Abbaye_de_Gorze%2C_Charles_de_Lorraine-Remoncourt%2C_double_pistole%2C_1608-1630_-_btv1b11329131h_%281_of_2%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMonnaie%20-%20Lorraine%2C%20Abbaye%20de%20Gorze%2C%20Charles%20de%20Lorraine-Remoncourt%2C%20double%20pistole%2C%201608-1630%20-%20btv1b11329131h%20(1%20of%202).jpg",
           "title": "Monnaie - Lorraine, Abbaye de Gorze, Charles de Lorraine-Remoncourt, double pistole, 1608-1630 - btv1b11329131h (1 of 2).jpg",
+          "description": "Sujet : Numismatique médiévale\nLorraine (France)\nAppartient à l’ensemble documentaire : MonnFeo\n\nLangue : latin",
           "width": 3232,
           "height": 3232,
           "size": 1753871,
@@ -77,6 +68,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Monnaie_-_Lorraine%2C_Abbaye_de_Gorze%2C_Charles_de_Lorraine-Remoncourt%2C_double_pistole%2C_1608-1630_-_btv1b11329131h_%282_of_2%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMonnaie%20-%20Lorraine%2C%20Abbaye%20de%20Gorze%2C%20Charles%20de%20Lorraine-Remoncourt%2C%20double%20pistole%2C%201608-1630%20-%20btv1b11329131h%20(2%20of%202).jpg",
           "title": "Monnaie - Lorraine, Abbaye de Gorze, Charles de Lorraine-Remoncourt, double pistole, 1608-1630 - btv1b11329131h (2 of 2).jpg",
+          "description": "Sujet : Numismatique médiévale\nLorraine (France)\nAppartient à l’ensemble documentaire : MonnFeo\n\nLangue : latin",
           "width": 3232,
           "height": 3232,
           "size": 1786209,
@@ -85,12 +77,55 @@
           "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Gorze_-_%C3%A9glise_Saint-%C3%89tienne_%2802%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGorze%20-%20%C3%A9glise%20Saint-%C3%89tienne%20(02).JPG",
+          "title": "Gorze - église Saint-Étienne (02).JPG",
+          "description": "Saint Stephen collegiate church of Gorze (Moselle, France)",
+          "width": 3264,
+          "height": 2448,
+          "size": 3339970,
+          "timestamp": "2013-09-08T12:40:39Z",
+          "author": "Fab5669",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
         }
       ]
     },
     {
       "label": "Fontaine Saint-Clément",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Statues_fontaine_Gorze.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStatues%20fontaine%20Gorze.jpg",
+          "title": "Statues fontaine Gorze.jpg",
+          "description": "DescriptionStatues fontaine Gorze.jpg\n\nstatues fontaine Gorze\n\n\n\nDate\n\n25 September 2011\n\n\n\nSource\n\nmon appareil photo\n\n\n\nAuthor\n\nAimelaime\n\n\n\nPermission(Reusing this file)\n\n\n\nPublic domainPublic domainfalsefalse\n\n\n\n\n\nI, the copyright holder of this work, release this work into the public domain. This applies worldwide.In some countries this may not be legally possible; if so:I grant anyone the right to use this work for any purpose, without any conditions, unless such conditions are required by",
+          "width": 4000,
+          "height": 3000,
+          "size": 3455446,
+          "timestamp": "2011-09-26T11:35:51Z",
+          "author": "Aimelaime",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Detail_fontaine_Gorze.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADetail%20fontaine%20Gorze.jpg",
+          "title": "Detail fontaine Gorze.jpg",
+          "description": "DescriptionDetail fontaine Gorze.jpg\n\ndetail fontaine Gorze\n\n\n\nDate\n\n25 September 2011\n\n\n\nSource\n\nmon appareil photo\n\n\n\nAuthor\n\nAimelaime\n\n\n\nPermission(Reusing this file)\n\n\n\nPublic domainPublic domainfalsefalse\n\n\n\n\n\nI, the copyright holder of this work, release this work into the public domain. This applies worldwide.In some countries this may not be legally possible; if so:I grant anyone the right to use this work for any purpose, without any conditions, unless such conditions are required by l",
+          "width": 4000,
+          "height": 3000,
+          "size": 2984266,
+          "timestamp": "2011-09-26T11:46:02Z",
+          "author": "Aimelaime",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 2
+        }
+      ]
     },
     {
       "label": "Parc municipal de Gorze",
@@ -103,6 +138,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Chapelle_St_Clement_Gorze.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20St%20Clement%20Gorze.jpg",
           "title": "Chapelle St Clement Gorze.jpg",
+          "description": "DescriptionChapelle St Clement Gorze.jpg\n\nchapelle St Clement Gorze\n\n\n\nDate\n\n25 September 2011\n\n\n\nSource\n\nmon appareil photo\n\n\n\nAuthor\n\nAimelaime\n\n\n\nPermission(Reusing this file)\n\n\n\nPublic domainPublic domainfalsefalse\n\n\n\n\n\nI, the copyright holder of this work, release this work into the public domain. This applies worldwide.In some countries this may not be legally possible; if so:I grant anyone the right to use this work for any purpose, without any conditions, unless such conditions are requi",
           "width": 4000,
           "height": 3000,
           "size": 2780758,
@@ -116,6 +152,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Gorze_-_Chapelle_Saint-Cl%C3%A9ment_%281%29.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGorze%20-%20Chapelle%20Saint-Cl%C3%A9ment%20(1).JPG",
           "title": "Gorze - Chapelle Saint-Clément (1).JPG",
+          "description": "Saint Clement chapel of Gorze (Moselle, France)",
           "width": 3264,
           "height": 2448,
           "size": 3678270,
@@ -129,6 +166,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Gorze_-_Chapelle_Saint-Cl%C3%A9ment_%286%29.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGorze%20-%20Chapelle%20Saint-Cl%C3%A9ment%20(6).JPG",
           "title": "Gorze - Chapelle Saint-Clément (6).JPG",
+          "description": "Saint Clement chapel of Gorze (Moselle, France). Relief of coat of arms",
           "width": 3264,
           "height": 2448,
           "size": 3433196,

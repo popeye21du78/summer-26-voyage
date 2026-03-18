@@ -1,25 +1,13 @@
 {
   "slug": "lavoute-chilhac",
   "nom": "Lavoûte-Chilhac",
-  "fetchedAt": "2026-03-13T15:24:53.753Z",
+  "fetchedAt": "2026-03-16T19:46:31.090Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Mus%C3%A9e_de_pal%C3%A9ontologie_de_Chilhac.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e%20de%20pal%C3%A9ontologie%20de%20Chilhac.jpg",
-      "title": "Musée de paléontologie de Chilhac.jpg",
-      "width": 3617,
-      "height": 2713,
-      "size": 6657537,
-      "timestamp": "2020-08-27T15:23:01Z",
-      "author": "Anthony Morel",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Pont_de_la_Lavo%C3%BBte-Chilhac.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20de%20la%20Lavo%C3%BBte-Chilhac.jpg",
       "title": "Pont de la Lavoûte-Chilhac.jpg",
+      "description": "Pont de la Lavoûte-Chilhac dans le département de la Haute-Loire en région Auvergne-Rhône-Alpes (France).",
       "width": 4032,
       "height": 3024,
       "size": 2906762,
@@ -30,9 +18,24 @@
       "score": 7
     },
     {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Eglise_-_Nef%2C_vue_de_l%27entr%C3%A9e_-_Lavo%C3%BBte-Chilhac_-_M%C3%A9diath%C3%A8que_de_l%27architecture_et_du_patrimoine_-_APMH00006421.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20-%20Nef%2C%20vue%20de%20l'entr%C3%A9e%20-%20Lavo%C3%BBte-Chilhac%20-%20M%C3%A9diath%C3%A8que%20de%20l'architecture%20et%20du%20patrimoine%20-%20APMH00006421.jpg",
+      "title": "Eglise - Nef, vue de l'entrée - Lavoûte-Chilhac - Médiathèque de l'architecture et du patrimoine - APMH00006421.jpg",
+      "description": "Nef, vue de l'entrée.",
+      "width": 696,
+      "height": 512,
+      "size": 68225,
+      "timestamp": "2020-05-01T20:01:34Z",
+      "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q3165380\" class=\"extiw\" title=\"d:Q3165380\"><span title=\"French photographer (1845-1926)\">Jean-Eugène Durand</span></a></bdi>",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    },
+    {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Pont_de_Lavo%C3%BBte_Chilhac_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20de%20Lavo%C3%BBte%20Chilhac%201.jpg",
       "title": "Pont de Lavoûte Chilhac 1.jpg",
+      "description": "Pont de Lavoûte-Chilhac,  (Inscrit, 1926)",
       "width": 3360,
       "height": 2592,
       "size": 700914,
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Pont_de_la_Lavo%C3%BBte-Chilhac.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20de%20la%20Lavo%C3%BBte-Chilhac.jpg",
           "title": "Pont de la Lavoûte-Chilhac.jpg",
+          "description": "Pont de la Lavoûte-Chilhac dans le département de la Haute-Loire en région Auvergne-Rhône-Alpes (France).",
           "width": 4032,
           "height": 3024,
           "size": 2906762,
@@ -64,6 +68,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Lavo%C3%BBte-Chilhac_-_Pont_-1.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALavo%C3%BBte-Chilhac%20-%20Pont%20-1.jpg",
           "title": "Lavoûte-Chilhac - Pont -1.jpg",
+          "description": "Lavoûte-Chilhac - Pont -1",
           "width": 2584,
           "height": 1700,
           "size": 1114543,
@@ -77,6 +82,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Pont_de_Lavo%C3%BBte_Chilhac_1.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20de%20Lavo%C3%BBte%20Chilhac%201.jpg",
           "title": "Pont de Lavoûte Chilhac 1.jpg",
+          "description": "Pont de Lavoûte-Chilhac,  (Inscrit, 1926)",
           "width": 3360,
           "height": 2592,
           "size": 700914,
@@ -90,7 +96,50 @@
     },
     {
       "label": "Prieuré clunisien",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Eglise_-_Nef%2C_vue_de_l%27entr%C3%A9e_-_Lavo%C3%BBte-Chilhac_-_M%C3%A9diath%C3%A8que_de_l%27architecture_et_du_patrimoine_-_APMH00006421.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20-%20Nef%2C%20vue%20de%20l'entr%C3%A9e%20-%20Lavo%C3%BBte-Chilhac%20-%20M%C3%A9diath%C3%A8que%20de%20l'architecture%20et%20du%20patrimoine%20-%20APMH00006421.jpg",
+          "title": "Eglise - Nef, vue de l'entrée - Lavoûte-Chilhac - Médiathèque de l'architecture et du patrimoine - APMH00006421.jpg",
+          "description": "Nef, vue de l'entrée.",
+          "width": 696,
+          "height": 512,
+          "size": 68225,
+          "timestamp": "2020-05-01T20:01:34Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q3165380\" class=\"extiw\" title=\"d:Q3165380\"><span title=\"French photographer (1845-1926)\">Jean-Eugène Durand</span></a></bdi>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Lavo%C3%BBte-Chilhac_-_Prieur%C3%A9_-1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALavo%C3%BBte-Chilhac%20-%20Prieur%C3%A9%20-1.jpg",
+          "title": "Lavoûte-Chilhac - Prieuré -1.jpg",
+          "description": "Lavoûte-Chilhac - Prieuré -1",
+          "width": 2539,
+          "height": 1633,
+          "size": 890802,
+          "timestamp": "2010-02-21T08:26:47Z",
+          "author": "MOSSOT",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Lavo%C3%BBte-Chilhac_%28Auvergne%29_310-dLh.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALavo%C3%BBte-Chilhac%20(Auvergne)%20310-dLh.jpg",
+          "title": "Lavoûte-Chilhac (Auvergne) 310-dLh.jpg",
+          "description": "Lavoûte-Chilhac in der Auvergne",
+          "width": 1738,
+          "height": 1271,
+          "size": 550960,
+          "timestamp": "2012-12-05T12:49:32Z",
+          "author": "Pedelecs",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Plage de galets de l’Allier",

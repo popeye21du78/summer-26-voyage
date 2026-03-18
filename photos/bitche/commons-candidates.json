@@ -1,12 +1,13 @@
 {
   "slug": "bitche",
   "nom": "Bitche",
-  "fetchedAt": "2026-03-13T12:14:33.116Z",
+  "fetchedAt": "2026-03-15T19:45:58.759Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Bitche_chapelle_etang1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABitche%20chapelle%20etang1.jpg",
       "title": "Bitche chapelle etang1.jpg",
+      "description": "Chapelle de l'étang à Bitche",
       "width": 4624,
       "height": 2604,
       "size": 3285227,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Bitche_chapelle_etang5.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABitche%20chapelle%20etang5.jpg",
       "title": "Bitche chapelle etang5.jpg",
+      "description": "Chapelle de l'étang à Bitche",
       "width": 4601,
       "height": 2829,
       "size": 2838475,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Bitche_chemin_croix_eglise_ste_catherine02.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABitche%20chemin%20croix%20eglise%20ste%20catherine02.jpg",
       "title": "Bitche chemin croix eglise ste catherine02.jpg",
+      "description": "Chemin de croix de l'église Sainte-Catherine de Bitche",
       "width": 3608,
       "height": 2656,
       "size": 2199678,
@@ -54,21 +57,7 @@
     },
     {
       "label": "Poudrière",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Bitsch%2C_Pulvermagazin_der_Zitadelle%2C_2.jpeg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABitsch%2C%20Pulvermagazin%20der%20Zitadelle%2C%202.jpeg",
-          "title": "Bitsch, Pulvermagazin der Zitadelle, 2.jpeg",
-          "width": 3264,
-          "height": 2160,
-          "size": 2330017,
-          "timestamp": "2018-06-16T17:46:17Z",
-          "author": "Renardo la vulpo",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Remparts et douves",

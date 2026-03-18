@@ -1,12 +1,27 @@
 {
   "slug": "plage-de-zuydcoote",
   "nom": "Plage de Zuydcoote",
-  "fetchedAt": "2026-03-14T11:17:19.336Z",
+  "fetchedAt": "2026-03-18T16:19:08.226Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Zuydcoote.-_vue_de_la_Ferme_Nord.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AZuydcoote.-%20vue%20de%20la%20Ferme%20Nord.jpg",
+      "title": "Zuydcoote.- vue de la Ferme Nord.jpg",
+      "description": "Vue de la Ferme Nord Zuydcoote  département du Nord, France. Construite en 1910 pour les besoins exclusifs du Sanatorium,  la \"Ferme Nord\" est désaffectée, ce sont les gardes départementaux qui l’occupent.",
+      "width": 4912,
+      "height": 3264,
+      "size": 2892415,
+      "timestamp": "2019-07-25T10:16:34Z",
+      "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q97949455\" class=\"extiw\" title=\"d:Q97949455\"><span title=\"French photographer and Wikimedian\">Pierre André Leclercq</span></a></bdi>",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Zuydcoote.-_vue_de_la_Ferme_Nord_2022_%281%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AZuydcoote.-%20vue%20de%20la%20Ferme%20Nord%202022%20(1).jpg",
       "title": "Zuydcoote.- vue de la Ferme Nord 2022 (1).jpg",
+      "description": "Zuydcoote (Nord department, France): former Ferme Nord farm",
       "width": 4896,
       "height": 3672,
       "size": 6843018,
@@ -20,23 +35,11 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Zuydcoote.-_vue_de_la_Ferme_Nord_2022_%282%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AZuydcoote.-%20vue%20de%20la%20Ferme%20Nord%202022%20(2).jpg",
       "title": "Zuydcoote.- vue de la Ferme Nord 2022 (2).jpg",
+      "description": "Zuydcoote (Nord department, France): former Ferme Nord farm",
       "width": 2558,
       "height": 1399,
       "size": 1201663,
       "timestamp": "2022-07-22T22:08:35Z",
-      "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q97949455\" class=\"extiw\" title=\"d:Q97949455\"><span title=\"French photographer and Wikimedian\">Pierre André Leclercq</span></a></bdi>",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Zuydcoote_Beach_en_2022_%282%29..jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AZuydcoote%20Beach%20en%202022%20(2)..jpg",
-      "title": "Zuydcoote Beach en 2022 (2)..jpg",
-      "width": 4896,
-      "height": 3672,
-      "size": 5553569,
-      "timestamp": "2022-07-23T10:03:34Z",
       "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q97949455\" class=\"extiw\" title=\"d:Q97949455\"><span title=\"French photographer and Wikimedian\">Pierre André Leclercq</span></a></bdi>",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
@@ -54,7 +57,36 @@
     },
     {
       "label": "épave visible à marée basse",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Leffrinckoucke_Et%C3%A92016_Plage_menant_%C3%A0_Zuytcoote_%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALeffrinckoucke%20Et%C3%A92016%20Plage%20menant%20%C3%A0%20Zuytcoote%20(2).jpg",
+          "title": "Leffrinckoucke Eté2016 Plage menant à Zuytcoote (2).jpg",
+          "description": "Epave sur la plage de  Leffrinckoucke en direction de Zuydcoote Nord",
+          "width": 4912,
+          "height": 3264,
+          "size": 4554752,
+          "timestamp": "2016-08-20T20:41:03Z",
+          "author": "PIERRE ANDRE LECLERCQ",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Leffrinckoucke_Et%C3%A92016_Plage_menant_%C3%A0_Zuytcoote_%283%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALeffrinckoucke%20Et%C3%A92016%20Plage%20menant%20%C3%A0%20Zuytcoote%20(3).jpg",
+          "title": "Leffrinckoucke Eté2016 Plage menant à Zuytcoote (3).jpg",
+          "description": "Epave sur la plage de  Leffrinckoucke en direction de Zuydcoote Nord",
+          "width": 4912,
+          "height": 3264,
+          "size": 5275648,
+          "timestamp": "2016-08-20T20:41:03Z",
+          "author": "PIERRE ANDRE LECLERCQ",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

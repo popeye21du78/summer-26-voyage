@@ -1,12 +1,13 @@
 {
   "slug": "culoz",
   "nom": "Culoz",
-  "fetchedAt": "2026-03-13T14:01:08.784Z",
+  "fetchedAt": "2026-03-16T12:34:34.241Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Tour_de_France_2020%2C_%C3%A9tape_15%2C_Culoz_%2813%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATour%20de%20France%202020%2C%20%C3%A9tape%2015%2C%20Culoz%20(13).jpg",
       "title": "Tour de France 2020, étape 15, Culoz (13).jpg",
+      "description": "Tour de France 2020, étape 15, Culoz.",
       "width": 1704,
       "height": 1408,
       "size": 2009408,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Tour_de_France_2020%2C_%C3%A9tape_15%2C_Culoz_%282%29_%28cropped%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATour%20de%20France%202020%2C%20%C3%A9tape%2015%2C%20Culoz%20(2)%20(cropped).jpg",
       "title": "Tour de France 2020, étape 15, Culoz (2) (cropped).jpg",
+      "description": "Tour de France 2020, étape 15, Culoz.",
       "width": 2552,
       "height": 1660,
       "size": 3895701,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Mairie_-_Culoz_%28FR01%29_-_2020-09-16_-_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMairie%20-%20Culoz%20(FR01)%20-%202020-09-16%20-%201.jpg",
       "title": "Mairie - Culoz (FR01) - 2020-09-16 - 1.jpg",
+      "description": "Mairie de Culoz.",
       "width": 4032,
       "height": 3024,
       "size": 4068718,
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Tour_de_France_2016%2C_%C3%A9tape_15_-_Culoz_-_Ch%C3%A2teau_de_Montv%C3%A9ran.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATour%20de%20France%202016%2C%20%C3%A9tape%2015%20-%20Culoz%20-%20Ch%C3%A2teau%20de%20Montv%C3%A9ran.JPG",
           "title": "Tour de France 2016, étape 15 - Culoz - Château de Montvéran.JPG",
+          "description": "Château de Montvéran,Culoz",
           "width": 4928,
           "height": 3264,
           "size": 4516120,
@@ -58,26 +62,56 @@
           "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q42790984\" class=\"extiw\" title=\"d:Q42790984\"><span title=\"French computing engineer\">Benoît Prieur</span></a></bdi>",
           "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Culoz-FR-01-ch%C3%A2teau-1.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACuloz-FR-01-ch%C3%A2teau-1.jpg",
-          "title": "Culoz-FR-01-château-1.jpg",
-          "width": 4032,
-          "height": 3024,
-          "size": 3290043,
-          "timestamp": "2016-07-19T08:36:24Z",
-          "author": "François GOGLINS",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Emetteur_FC_Radio_Culoz_3.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEmetteur%20FC%20Radio%20Culoz%203.jpg",
+          "title": "Emetteur FC Radio Culoz 3.jpg",
+          "description": "Vue de face du château d'eau accueillant l'émetteur de FC Radio pour Culoz.",
+          "width": 1951,
+          "height": 3903,
+          "size": 1557646,
+          "timestamp": "2019-11-14T22:35:19Z",
+          "author": "Wikigaël",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Emetteur_FC_Radio_Culoz_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEmetteur%20FC%20Radio%20Culoz%201.jpg",
+          "title": "Emetteur FC Radio Culoz 1.jpg",
+          "description": "Vue de profil du château d'eau accueillant l'émetteur de FC Radio pour Culoz.",
+          "width": 1989,
+          "height": 3977,
+          "size": 1481149,
+          "timestamp": "2019-11-14T22:35:19Z",
+          "author": "Wikigaël",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
         }
       ]
     },
     {
       "label": "Viaduc ferroviaire de Culoz",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Pont_sur_le_Rhone_a_Culoz_-_Les_Travaux_Publics_de_la_France.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20sur%20le%20Rhone%20a%20Culoz%20-%20Les%20Travaux%20Publics%20de%20la%20France.jpg",
+          "title": "Pont sur le Rhone a Culoz - Les Travaux Publics de la France.jpg",
+          "description": "Title: Pont sur le Rhone a Culoz\nAlternative Title: Bridge on the Rhone in Culoz\nCreator: Unknown\nDate: 1883\nPart Of: Les Travaux Publics de la France, Tome Deuxieme: Chemins de Fer\nPlace: Culoz, Ain, Rhone-Alpes, France\nPhysical Description: 1 photographic print: collotype; 26 x 35 cm on 40 x 56 cm mount\nFile: vault_folio_2_ta71_a4_1883_2_39_opt.jpg\nRights: Please cite Southern Methodist University, Central University Libraries, DeGolyer Library when \nusing this image file. A high-quality versi",
+          "width": 3000,
+          "height": 2319,
+          "size": 5242553,
+          "timestamp": "2013-11-25T05:51:57Z",
+          "author": "SMU Central University Libraries",
+          "license": "No restrictions",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Lac de Chavoley",

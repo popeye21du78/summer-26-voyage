@@ -1,12 +1,13 @@
 {
   "slug": "cazeres",
   "nom": "Cazères",
-  "fetchedAt": "2026-03-13T12:33:50.075Z",
+  "fetchedAt": "2026-03-15T20:52:54.192Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Caz%C3%A8res_-_square_Lafayette_-_bo%C3%AEte_%C3%A0_livres.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACaz%C3%A8res%20-%20square%20Lafayette%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
       "title": "Cazères - square Lafayette - boîte à livres.jpg",
+      "description": "Boîte à livres à Cazères",
       "width": 1875,
       "height": 2500,
       "size": 932197,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Office_de_Tourisme_de_Caz%C3%A8res_sur_Garonne.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOffice%20de%20Tourisme%20de%20Caz%C3%A8res%20sur%20Garonne.jpg",
       "title": "Office de Tourisme de Cazères sur Garonne.jpg",
+      "description": "Case de Montserrat. Office de Tourisme",
       "width": 2976,
       "height": 3968,
       "size": 2577639,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Eglise_de_Caz%C3%A8res.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20de%20Caz%C3%A8res.jpg",
       "title": "Eglise de Cazères.jpg",
+      "description": "Eglise de Cazères",
       "width": 768,
       "height": 1024,
       "size": 233476,
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/%C3%89glise_Notre-Dame-de-l%27Assomption_de_Caz%C3%A8res_12.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Notre-Dame-de-l'Assomption%20de%20Caz%C3%A8res%2012.jpg",
           "title": "Église Notre-Dame-de-l'Assomption de Cazères 12.jpg",
+          "description": "Chapelle des parents de Marie et de saint Joseph",
           "width": 2048,
           "height": 1536,
           "size": 673030,
@@ -64,6 +68,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/%C3%89glise_Notre-Dame-de-l%27Assomption_de_Caz%C3%A8res_13.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Notre-Dame-de-l'Assomption%20de%20Caz%C3%A8res%2013.jpg",
           "title": "Église Notre-Dame-de-l'Assomption de Cazères 13.jpg",
+          "description": "Chapelle de la Vierge Marie",
           "width": 2048,
           "height": 1536,
           "size": 684616,
@@ -74,13 +79,14 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/%C3%89glise_Notre-Dame-de-l%27Assomption_de_Caz%C3%A8res_15.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Notre-Dame-de-l'Assomption%20de%20Caz%C3%A8res%2015.jpg",
-          "title": "Église Notre-Dame-de-l'Assomption de Cazères 15.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/%C3%89glise_Notre-Dame-de-l%27Assomption_de_Caz%C3%A8res_14.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Notre-Dame-de-l'Assomption%20de%20Caz%C3%A8res%2014.jpg",
+          "title": "Église Notre-Dame-de-l'Assomption de Cazères 14.jpg",
+          "description": "Chapelle de la Vierge Marie. Statue de Notre-Dame de Lourdes, au socle est écrit \"Immaculée Conception\"",
           "width": 2048,
           "height": 1536,
-          "size": 853280,
-          "timestamp": "2020-01-19T08:04:24Z",
+          "size": 856656,
+          "timestamp": "2020-01-19T08:04:23Z",
           "author": "Patrice Bon",
           "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -96,9 +102,24 @@
       "label": "Pont sur la Garonne",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Caz%C3%A8res_04.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACaz%C3%A8res%2004.jpg",
+          "title": "Cazères 04.jpg",
+          "description": "Cazères (Haute-Garonne). La rivière Bernès à sa confluence avec la rive gauche (côté nord) de la Garonne, 230 m en amont du pont de la D6 (route du Plan). Vue vers le sud-est. La Garonne coule d'ouest en est (de droite à gauche). La berge en face est sur Couladère, jusqu'aux Tambourets (la maison en arrière-plan à gauche). La commune de Saint-Christaud commence à gauche des Tambourets.",
+          "width": 2048,
+          "height": 1536,
+          "size": 810463,
+          "timestamp": "2020-01-18T14:55:43Z",
+          "author": "Patrice Bon",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Pont_de_Caz%C3%A8res.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20de%20Caz%C3%A8res.jpg",
           "title": "Pont de Cazères.jpg",
+          "description": "Pont sur la Garonne à de Cazères",
           "width": 3264,
           "height": 2448,
           "size": 1440577,
@@ -107,6 +128,20 @@
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Pont_Eiffel_Cazeres_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20Eiffel%20Cazeres%202.jpg",
+          "title": "Pont Eiffel Cazeres 2.jpg",
+          "description": "Pont métallique franchissant l'Adour sur la commune de Cazères-sur-l'Adour, œuvre de l'ingénieur Gustave Eiffel.",
+          "width": 2048,
+          "height": 1536,
+          "size": 4543263,
+          "timestamp": "2012-02-25T11:12:47Z",
+          "author": "Jibi44",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
         }
       ]
     },

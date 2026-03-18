@@ -1,12 +1,13 @@
 {
   "slug": "jardins-de-marqueyssac",
   "nom": "Jardins de Marqueyssac",
-  "fetchedAt": "2026-03-13T14:49:04.985Z",
+  "fetchedAt": "2026-03-16T14:20:00.040Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/09_NAQ_-_Dordogne_-_V%C3%A9zac_-_De_tuinen_van_Marqueyssac_%282024-04-25_11-46-39%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A09%20NAQ%20-%20Dordogne%20-%20V%C3%A9zac%20-%20De%20tuinen%20van%20Marqueyssac%20(2024-04-25%2011-46-39).jpg",
       "title": "09 NAQ - Dordogne - Vézac - De tuinen van Marqueyssac (2024-04-25 11-46-39).jpg",
+      "description": "Château et jardin de Marqueyssac, à Vézac, en Dordogne.",
       "width": 6240,
       "height": 4160,
       "size": 26406355,
@@ -14,25 +15,13 @@
       "author": "Johan Allard",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Windows_of_the_castle_of_Marqueyssac.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWindows%20of%20the%20castle%20of%20Marqueyssac.jpg",
-      "title": "Windows of the castle of Marqueyssac.jpg",
-      "width": 3265,
-      "height": 2005,
-      "size": 3820805,
-      "timestamp": "2017-09-30T07:22:12Z",
-      "author": "Krzysztof Golik",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/V%C3%A9zac_-_Ch%C3%A2teau_de_Marqueyssac_-_PA00083058_-_011.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AV%C3%A9zac%20-%20Ch%C3%A2teau%20de%20Marqueyssac%20-%20PA00083058%20-%20011.jpg",
       "title": "Vézac - Château de Marqueyssac - PA00083058 - 011.jpg",
+      "description": "Vue du château de Marqueyssac depuis le château de Beynac.",
       "width": 2608,
       "height": 1739,
       "size": 5166575,
@@ -40,7 +29,21 @@
       "author": "Thesupermat",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/V%C3%A9zac_-_Ch%C3%A2teau_de_Marqueyssac_-_PA00083058_-_012.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AV%C3%A9zac%20-%20Ch%C3%A2teau%20de%20Marqueyssac%20-%20PA00083058%20-%20012.jpg",
+      "title": "Vézac - Château de Marqueyssac - PA00083058 - 012.jpg",
+      "description": "Vue du château de Marqueyssac depuis le château de Beynac.",
+      "width": 2493,
+      "height": 1662,
+      "size": 4321438,
+      "timestamp": "2012-09-12T20:23:01Z",
+      "author": "Thesupermat",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
     }
   ],
   "lieux": [
@@ -48,9 +51,24 @@
       "label": "Belvédère des Jardins de Marqueyssac",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Ch%C3%A2teau_de_Marqueyssac_%28V%C3%A9zac%29_-_Belvedere.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Marqueyssac%20(V%C3%A9zac)%20-%20Belvedere.jpg",
+          "title": "Château de Marqueyssac (Vézac) - Belvedere.jpg",
+          "description": "Château de Marqueyssac (Vézac). Viewpoint.",
+          "width": 4000,
+          "height": 3000,
+          "size": 5806270,
+          "timestamp": "2018-01-15T22:19:24Z",
+          "author": "Wolfgang Sauber",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Les_jardins_de_Marqueyssac_-_10.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20jardins%20de%20Marqueyssac%20-%2010.jpg",
           "title": "Les jardins de Marqueyssac - 10.jpg",
+          "description": "Le belvédère des jardins de Marqueyssac vu depuis une gabare sur la Dordogne (Vézac, Dordogne)",
           "width": 6000,
           "height": 4000,
           "size": 9957693,
@@ -64,6 +82,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Les_jardins_de_Marqueyssac_-_11.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20jardins%20de%20Marqueyssac%20-%2011.jpg",
           "title": "Les jardins de Marqueyssac - 11.jpg",
+          "description": "La Roque-Gageac et son environnement depuis le belvédère des jardins de Marqueyssac à Vézac (Dordogne)",
           "width": 4000,
           "height": 3000,
           "size": 5281792,
@@ -77,11 +96,83 @@
     },
     {
       "label": "Allée des buis",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Les_jardins_de_Marqueyssac_-_22.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20jardins%20de%20Marqueyssac%20-%2022.jpg",
+          "title": "Les jardins de Marqueyssac - 22.jpg",
+          "description": "Vue de Beynac et son château depuis la grande allée des jardins de Marqueyssac (Vézac, Dordogne)",
+          "width": 4000,
+          "height": 3000,
+          "size": 4918272,
+          "timestamp": "2019-12-02T09:22:30Z",
+          "author": "Thérèse Gaigé",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Les_jardins_de_Marqueyssac_-_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20jardins%20de%20Marqueyssac%20-%2001.jpg",
+          "title": "Les jardins de Marqueyssac - 01.jpg",
+          "description": "Allée  des jardins de Marqueyssac (Vézac, Dordogne) avec vue sur le château de Castelnaud",
+          "width": 3000,
+          "height": 4000,
+          "size": 5362688,
+          "timestamp": "2019-12-01T19:56:19Z",
+          "author": "Thérèse Gaigé",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Les_jardins_de_Marqueyssac_-_17.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20jardins%20de%20Marqueyssac%20-%2017.jpg",
+          "title": "Les jardins de Marqueyssac - 17.jpg",
+          "description": "Allée entre les buis aux jardins de Marqueyssac (Vézac, Dordogne)",
+          "width": 4000,
+          "height": 3000,
+          "size": 5431808,
+          "timestamp": "2019-12-02T09:04:02Z",
+          "author": "Thérèse Gaigé",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Cabane en pierre sèche",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Les_jardins_de_Marqueyssac_-_08.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20jardins%20de%20Marqueyssac%20-%2008.jpg",
+          "title": "Les jardins de Marqueyssac - 08.jpg",
+          "description": "Cabanes dans les jardins de Marqueyssac à Vézac (Dordogne)",
+          "width": 4000,
+          "height": 3000,
+          "size": 5264384,
+          "timestamp": "2019-12-01T23:03:16Z",
+          "author": "Thérèse Gaigé",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Les_jardins_de_Marqueyssac_-_12.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20jardins%20de%20Marqueyssac%20-%2012.jpg",
+          "title": "Les jardins de Marqueyssac - 12.jpg",
+          "description": "Cabane en brande dans les jardins de Marqueyssac à Vézac (Dordogne)",
+          "width": 3000,
+          "height": 4000,
+          "size": 5207552,
+          "timestamp": "2019-12-01T23:29:48Z",
+          "author": "Thérèse Gaigé",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Filets suspendus dans les arbres",

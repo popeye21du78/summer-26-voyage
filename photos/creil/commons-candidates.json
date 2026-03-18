@@ -1,12 +1,13 @@
 {
   "slug": "creil",
   "nom": "Creil",
-  "fetchedAt": "2026-03-13T00:50:30.101Z",
+  "fetchedAt": "2026-03-16T12:28:42.941Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Creil4.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACreil4.JPG",
       "title": "Creil4.JPG",
+      "description": "Musée Gallé-Juillet de Creil, France. Vue depuis le nord. Les maisons vues en caméra de rue sur google maps.",
       "width": 1534,
       "height": 1245,
       "size": 487703,
@@ -14,33 +15,35 @@
       "author": "Patrick.charpiat",
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
+      "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Creil_%2860%29%2C_%C3%A9glise_Saint-M%C3%A9dard_%283%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACreil%20(60)%2C%20%C3%A9glise%20Saint-M%C3%A9dard%20(3).jpg",
-      "title": "Creil (60), église Saint-Médard (3).jpg",
-      "width": 3664,
-      "height": 2748,
-      "size": 2207330,
-      "timestamp": "2011-08-02T17:27:31Z",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Cit%C3%A9_Lucile_Creil_8_%283356036735%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACit%C3%A9%20Lucile%20Creil%208%20(3356036735).jpg",
+      "title": "Cité Lucile Creil 8 (3356036735).jpg",
+      "description": "Cité Lucile à Creil (Oise). Vue du bâtiment à l'entrée de la cité et donnant sur la rue des usines.",
+      "width": 800,
+      "height": 602,
+      "size": 522436,
+      "timestamp": "2019-01-20T21:02:17Z",
+      "author": "Melaine",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Creil_%2860%29%2C_%C3%A9glise_Saint-M%C3%A9dard_%281%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACreil%20(60)%2C%20%C3%A9glise%20Saint-M%C3%A9dard%20(1).jpg",
+      "title": "Creil (60), église Saint-Médard (1).jpg",
+      "description": "L'église Saint-Médard, vue depuis la rue de la République. Les immeubles récents ne gardent que peu de distance vis-à-vis du vénérable monument historique, qui est peu valorisé par son entourage.",
+      "width": 2748,
+      "height": 3664,
+      "size": 1386566,
+      "timestamp": "2011-08-02T17:23:54Z",
       "author": "P.poschadel",
       "license": "CC BY-SA 2.0 fr",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Creil_%2860%29%2C_mus%C3%A9e_Gall%C3%A9-Juillet%2C_vu_depuis_le_sud-ouest.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACreil%20(60)%2C%20mus%C3%A9e%20Gall%C3%A9-Juillet%2C%20vu%20depuis%20le%20sud-ouest.jpg",
-      "title": "Creil (60), musée Gallé-Juillet, vu depuis le sud-ouest.jpg",
-      "width": 3664,
-      "height": 2748,
-      "size": 2615588,
-      "timestamp": "2011-08-02T20:06:41Z",
-      "author": "P.poschadel",
-      "license": "CC BY-SA 2.0 fr",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
+      "score": 6
     }
   ],
   "lieux": [
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Creil_%2860%29%2C_maison_construite_sur_les_vestiges_du_ch%C3%A2teau_royal%2C_%C3%AEle_Saint-Maurice.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACreil%20(60)%2C%20maison%20construite%20sur%20les%20vestiges%20du%20ch%C3%A2teau%20royal%2C%20%C3%AEle%20Saint-Maurice.jpg",
           "title": "Creil (60), maison construite sur les vestiges du château royal, île Saint-Maurice.jpg",
+          "description": "Maison construite au XIXe siècle sur les vestiges du château.",
           "width": 3530,
           "height": 2648,
           "size": 1733207,
@@ -58,66 +62,41 @@
           "author": "P.poschadel",
           "license": "CC BY-SA 2.0 fr",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Creil_%2860%29%2C_maison_construite_sur_les_vestiges_du_ch%C3%A2teau_royal%2C_%C3%AEle_Saint-Maurice_%282%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACreil%20(60)%2C%20maison%20construite%20sur%20les%20vestiges%20du%20ch%C3%A2teau%20royal%2C%20%C3%AEle%20Saint-Maurice%20(2).jpg",
-          "title": "Creil (60), maison construite sur les vestiges du château royal, île Saint-Maurice (2).jpg",
-          "width": 2748,
-          "height": 3664,
-          "size": 2180635,
-          "timestamp": "2011-09-28T19:47:33Z",
-          "author": "P.poschadel",
-          "license": "CC BY-SA 2.0 fr",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Pont_Creil_-_Pierrefitte-sur-Seine_%28FR93%29_-_2022-08-14_-_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20Creil%20-%20Pierrefitte-sur-Seine%20(FR93)%20-%202022-08-14%20-%201.jpg",
+          "title": "Pont Creil - Pierrefitte-sur-Seine (FR93) - 2022-08-14 - 1.jpg",
+          "description": "Pont de Creil, Pierrefitte-sur-Seine.",
+          "width": 4032,
+          "height": 3024,
+          "size": 4082872,
+          "timestamp": "2022-08-16T15:43:47Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Pont_Creil_-_Pierrefitte-sur-Seine_%28FR93%29_-_2022-08-14_-_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20Creil%20-%20Pierrefitte-sur-Seine%20(FR93)%20-%202022-08-14%20-%202.jpg",
+          "title": "Pont Creil - Pierrefitte-sur-Seine (FR93) - 2022-08-14 - 2.jpg",
+          "description": "Pont de Creil, Pierrefitte-sur-Seine.",
+          "width": 4032,
+          "height": 3024,
+          "size": 4155506,
+          "timestamp": "2022-08-16T15:43:52Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
         }
       ]
     },
     {
       "label": "Manufacture de faïence",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Gu%C3%A9ridon%2C_PPO03728.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGu%C3%A9ridon%2C%20PPO03728.jpg",
-          "title": "Guéridon, PPO03728.jpg",
-          "width": 6237,
-          "height": 4876,
-          "size": 2898443,
-          "timestamp": "2023-04-20T18:35:50Z",
-          "author": "Bracquemond, Félix (Paris, 22–05–1833 - Sèvres, 29–10–1914), auteur du modèle",
-          "license": "CC0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Coupe%2C_PPO03729.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACoupe%2C%20PPO03729.jpg",
-          "title": "Coupe, PPO03729.jpg",
-          "width": 2973,
-          "height": 2089,
-          "size": 751705,
-          "timestamp": "2023-04-20T18:36:56Z",
-          "author": "Bracquemond, Félix (Paris, 22–05–1833 - Sèvres, 29–10–1914), auteur du modèle",
-          "license": "CC0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Sauci%C3%A8re_du_service_%C3%A0_Fleurs_et_rubans%2C_PPO03700.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASauci%C3%A8re%20du%20service%20%C3%A0%20Fleurs%20et%20rubans%2C%20PPO03700.jpg",
-          "title": "Saucière du service à Fleurs et rubans, PPO03700.jpg",
-          "width": 4631,
-          "height": 3619,
-          "size": 599136,
-          "timestamp": "2023-07-16T18:10:01Z",
-          "author": "Bracquemond, Félix (Paris, 22–05–1833 - Sèvres, 29–10–1914), graveur",
-          "license": "CC0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Forêt d’Halatte",
@@ -127,39 +106,89 @@
       "label": "Place Carnot",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Fontaine_place_Carnot_Creil_1.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFontaine%20place%20Carnot%20Creil%201.jpg",
-          "title": "Fontaine place Carnot Creil 1.jpg",
-          "width": 5184,
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Creil_-_vue_a%C3%A9rienne_nocturne_20191028.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACreil%20-%20vue%20a%C3%A9rienne%20nocturne%2020191028.jpg",
+          "title": "Creil - vue aérienne nocturne 20191028.jpg",
+          "description": "Night aerial view of Creil during a flight from TXL to CDG.",
+          "width": 5472,
+          "height": 3648,
+          "size": 12596525,
+          "timestamp": "2019-11-24T21:40:13Z",
+          "author": "Pymouss",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/60175-Creil-Sols.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A60175-Creil-Sols.png",
+          "title": "60175-Creil-Sols.png",
+          "description": "Carte des infrastructures et de l’occupation des sols en 2018 de la commune de fr:Creil (France).",
+          "width": 3270,
+          "height": 2598,
+          "size": 4693530,
+          "timestamp": "2021-05-17T07:14:38Z",
+          "author": "Roland45",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Creil%2C_6-1-26_%28inondations%29_place_du_March%C3%A9_-_btv1b531569261.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACreil%2C%206-1-26%20(inondations)%20place%20du%20March%C3%A9%20-%20btv1b531569261.jpg",
+          "title": "Creil, 6-1-26 (inondations) place du Marché - btv1b531569261.jpg",
+          "description": "Sujet : Inondations -- Creil (Oise, France)\nDommages causés par les inondations -- Creil (Oise, France)\nCreil (Oise, France)\nRéférence bibliographique : Rol, 106403\nAppartient à l’ensemble documentaire : Pho20Rol\nAppartient à l’ensemble documentaire : Picardi1\nImage de presse\nCouverture : 06 janvier 1926\n\nLangue : français",
+          "width": 8396,
+          "height": 6027,
+          "size": 4080698,
+          "timestamp": "2024-10-27T01:20:16Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q18507700\" class=\"extiw\" title=\"d:Q18507700\"><span title=\"French photo agency\">Agence Rol</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
+    },
+    {
+      "label": "Quai d’Aval",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/RER_D_%C3%A0_quai_voie_2_en_direction_de_Creil_en_gare_souterraine_de_Paris-Gare-de-Lyon.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARER%20D%20%C3%A0%20quai%20voie%202%20en%20direction%20de%20Creil%20en%20gare%20souterraine%20de%20Paris-Gare-de-Lyon.jpg",
+          "title": "RER D à quai voie 2 en direction de Creil en gare souterraine de Paris-Gare-de-Lyon.jpg",
+          "description": "RER D à quai voie 2 en direction de Creil en gare souterraine de Paris-Gare-de-Lyon.",
+          "width": 5703,
+          "height": 3802,
+          "size": 4168992,
+          "timestamp": "2025-01-11T01:01:19Z",
+          "author": "Remontees",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Garges-Sarcelles_RER_D_Quais_Creil.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGarges-Sarcelles%20RER%20D%20Quais%20Creil.jpg",
+          "title": "Garges-Sarcelles RER D Quais Creil.jpg",
+          "description": "Photo du quai Nord de la gare de Garges-Sarcelles, en 2018. Le quai Sud est visible, au fond, avec le bâtiment voyageurs.",
+          "width": 4608,
           "height": 3456,
-          "size": 6393197,
-          "timestamp": "2019-05-29T22:25:30Z",
-          "author": "Chabe01",
+          "size": 6239803,
+          "timestamp": "2018-10-25T15:08:25Z",
+          "author": "Idris2000",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Creil_%2860%29%2C_place_Carnot.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACreil%20(60)%2C%20place%20Carnot.jpg",
-          "title": "Creil (60), place Carnot.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Boran-sur-Oise_%2860%29%2C_gare_SNCF%2C_abri_sur_le_quai_direction_Creil.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABoran-sur-Oise%20(60)%2C%20gare%20SNCF%2C%20abri%20sur%20le%20quai%20direction%20Creil.jpg",
+          "title": "Boran-sur-Oise (60), gare SNCF, abri sur le quai direction Creil.jpg",
+          "description": "Le quai sur le quai 1, direction de Creil.",
           "width": 3664,
           "height": 2748,
-          "size": 2097701,
-          "timestamp": "2011-08-02T20:09:38Z",
-          "author": "P.poschadel",
-          "license": "CC BY-SA 2.0 fr",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Creil_%2860%29%2C_place_Carnot%2C_sculpture_florale.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACreil%20(60)%2C%20place%20Carnot%2C%20sculpture%20florale.jpg",
-          "title": "Creil (60), place Carnot, sculpture florale.jpg",
-          "width": 3664,
-          "height": 2748,
-          "size": 2907836,
-          "timestamp": "2011-08-02T20:13:05Z",
+          "size": 1623712,
+          "timestamp": "2011-08-02T14:18:32Z",
           "author": "P.poschadel",
           "license": "CC BY-SA 2.0 fr",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -168,12 +197,51 @@
       ]
     },
     {
-      "label": "Quai d’Aval",
-      "photos": []
-    },
-    {
       "label": "Parc du Château de la Brèche",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Ch%C3%A2teau_Creil_3.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20Creil%203.jpg",
+          "title": "Château Creil 3.jpg",
+          "description": "Château de Creil.",
+          "width": 5184,
+          "height": 3456,
+          "size": 6206915,
+          "timestamp": "2019-05-29T22:18:25Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Ch%C3%A2teau_Creil_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20Creil%202.jpg",
+          "title": "Château Creil 2.jpg",
+          "description": "Château de Creil.",
+          "width": 5184,
+          "height": 3456,
+          "size": 5677355,
+          "timestamp": "2019-05-29T22:18:25Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Ch%C3%A2teau_Creil_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20Creil%201.jpg",
+          "title": "Château Creil 1.jpg",
+          "description": "Château de Creil.",
+          "width": 5184,
+          "height": 3456,
+          "size": 5851519,
+          "timestamp": "2019-05-29T22:18:25Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        }
+      ]
     }
   ]
 }

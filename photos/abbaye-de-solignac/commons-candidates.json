@@ -1,12 +1,13 @@
 {
   "slug": "abbaye-de-solignac",
   "nom": "Abbaye de Solignac",
-  "fetchedAt": "2026-03-13T12:02:41.234Z",
+  "fetchedAt": "2026-03-15T14:41:36.925Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Le_Vieux_Pont_de_Solignac_-_Flickr_-_Avel-Breizh.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Vieux%20Pont%20de%20Solignac%20-%20Flickr%20-%20Avel-Breizh.jpg",
       "title": "Le Vieux Pont de Solignac - Flickr - Avel-Breizh.jpg",
+      "description": "Pont roman du XIIIe siècle. Il enjambe la Briance, affluent de la Vienne, il est situé sur un chemin de Compostelle.",
       "width": 2514,
       "height": 1681,
       "size": 2061856,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Le_Vieux_Pont_de_Solignac_%2849801057683%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Vieux%20Pont%20de%20Solignac%20(49801057683).jpg",
       "title": "Le Vieux Pont de Solignac (49801057683).jpg",
+      "description": "Pont roman du XIIIe siècle. Il enjambe la Briance, affluent de la Vienne, il est situé sur un chemin de Compostelle.",
       "width": 2514,
       "height": 1681,
       "size": 2083259,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/%C3%89glise_de_Solignac_%2849809017307%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20de%20Solignac%20(49809017307).jpg",
       "title": "Église de Solignac (49809017307).jpg",
+      "description": "Nef à file de coupoles de l'église abbatiale de Solignac (Haute-Vienne). XIIe siècle.",
       "width": 1681,
       "height": 2514,
       "size": 2049937,
@@ -50,7 +53,50 @@
     },
     {
       "label": "Nef de l’église abbatiale",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Solignac_-_Eglise_abbatiale_-_Ext%C3%A9rieur_avec_fa%C3%A7ade_occidentale.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASolignac%20-%20Eglise%20abbatiale%20-%20Ext%C3%A9rieur%20avec%20fa%C3%A7ade%20occidentale.JPG",
+          "title": "Solignac - Eglise abbatiale - Extérieur avec façade occidentale.JPG",
+          "description": "Solignac - Abbatiale - Façade occidentale",
+          "width": 2048,
+          "height": 1536,
+          "size": 729044,
+          "timestamp": "2010-03-17T17:48:09Z",
+          "author": "MOSSOT",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Solignac_%2887%29_%C3%A9glise_abbatiale_Saint-Pierre_4.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASolignac%20(87)%20%C3%A9glise%20abbatiale%20Saint-Pierre%204.jpg",
+          "title": "Solignac (87) église abbatiale Saint-Pierre 4.jpg",
+          "description": "Misericord from Saint-Pierre abbaye in Solignac (Haute-Vienne/FRANCE)",
+          "width": 2592,
+          "height": 1944,
+          "size": 1450391,
+          "timestamp": "2014-07-28T15:08:05Z",
+          "author": "Jacques CHAZARD",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Solignac_%2887%29_%C3%A9glise_abbatiale_Saint-Pierre_3.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASolignac%20(87)%20%C3%A9glise%20abbatiale%20Saint-Pierre%203.jpg",
+          "title": "Solignac (87) église abbatiale Saint-Pierre 3.jpg",
+          "description": "Misericord from Saint-Pierre abbaye in Solignac (Haute-Vienne/FRANCE)",
+          "width": 2592,
+          "height": 1944,
+          "size": 1445988,
+          "timestamp": "2014-07-28T15:08:06Z",
+          "author": "Jacques CHAZARD",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Salle capitulaire",
@@ -58,7 +104,50 @@
     },
     {
       "label": "Jardin de l’abbaye",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Solignac_Abbaye_067.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASolignac%20Abbaye%20067.jpg",
+          "title": "Solignac Abbaye 067.jpg",
+          "description": "Mauer der ehemaligen Abtei in Solignac im Département Haute-Vienne (Nouvelle-Aquitaine/Frankreich)",
+          "width": 4896,
+          "height": 3264,
+          "size": 16082994,
+          "timestamp": "2017-01-27T18:27:13Z",
+          "author": "GFreihalter",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Solignac_Abbaye_055.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASolignac%20Abbaye%20055.jpg",
+          "title": "Solignac Abbaye 055.jpg",
+          "description": "Mauer der ehemaligen Abtei in Solignac im Département Haute-Vienne (Nouvelle-Aquitaine/Frankreich)",
+          "width": 4896,
+          "height": 3264,
+          "size": 18011999,
+          "timestamp": "2017-01-27T18:27:21Z",
+          "author": "GFreihalter",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Solignac_Abbaye_068.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASolignac%20Abbaye%20068.jpg",
+          "title": "Solignac Abbaye 068.jpg",
+          "description": "Tor zur ehemaligen Abtei in Solignac im Département Haute-Vienne (Nouvelle-Aquitaine/Frankreich)",
+          "width": 4896,
+          "height": 3264,
+          "size": 11913293,
+          "timestamp": "2017-01-27T18:27:23Z",
+          "author": "GFreihalter",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

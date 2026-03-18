@@ -1,43 +1,46 @@
 {
   "slug": "plage-de-collioure",
   "nom": "Plage de Collioure",
-  "fetchedAt": "2026-03-14T10:56:43.538Z",
+  "fetchedAt": "2026-03-17T22:45:51.062Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Villeneuve-de-la-Raho_Saint-Julien-et-Sainte-Basilisse_%28signs%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVilleneuve-de-la-Raho%20Saint-Julien-et-Sainte-Basilisse%20(signs).jpg",
-      "title": "Villeneuve-de-la-Raho Saint-Julien-et-Sainte-Basilisse (signs).jpg",
-      "width": 2874,
-      "height": 2086,
-      "size": 4191899,
-      "timestamp": "2021-07-01T07:27:26Z",
-      "author": "Palauenc05",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Eglise_Notre-Dame-des-Anges%2C_Collioure_%2866%29.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Notre-Dame-des-Anges%2C%20Collioure%20(66).JPG",
+      "title": "Eglise Notre-Dame-des-Anges, Collioure (66).JPG",
+      "description": "Vue de la plage.",
+      "width": 4352,
+      "height": 3264,
+      "size": 3286968,
+      "timestamp": "2012-09-30T12:57:37Z",
+      "author": "Citevia",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Collioure_-_View_ENE_on_Plage_Nord_%26_Chapelle_Saint-Vincent.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACollioure%20-%20View%20ENE%20on%20Plage%20Nord%20%26%20Chapelle%20Saint-Vincent.jpg",
+      "title": "Collioure - View ENE on Plage Nord & Chapelle Saint-Vincent.jpg",
+      "description": "Collioure - View ENE on Plage Nord &amp; Chapelle Saint-Vincent",
+      "width": 3024,
+      "height": 2016,
+      "size": 3158313,
+      "timestamp": "2021-03-06T16:59:57Z",
+      "author": "Txllxt TxllxT",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Espace_Andr%C3%A9_Sanac_%2866%29_01.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEspace%20Andr%C3%A9%20Sanac%20(66)%2001.jpg",
-      "title": "Espace André Sanac (66) 01.jpg",
-      "width": 4912,
-      "height": 3264,
-      "size": 8060928,
-      "timestamp": "2022-03-12T09:55:18Z",
-      "author": "LySioS-wkp",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Espace_Andr%C3%A9_Sanac_%2866%29_02.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEspace%20Andr%C3%A9%20Sanac%20(66)%2002.jpg",
-      "title": "Espace André Sanac (66) 02.jpg",
-      "width": 4912,
-      "height": 3264,
-      "size": 5439488,
-      "timestamp": "2022-03-12T09:55:18Z",
-      "author": "LySioS-wkp",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Collioure_-_Rue_de_l%27%C3%89glise_-_View_SSW_on_Plage_%26_Boulevard_de_Boramar.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACollioure%20-%20Rue%20de%20l'%C3%89glise%20-%20View%20SSW%20on%20Plage%20%26%20Boulevard%20de%20Boramar.jpg",
+      "title": "Collioure - Rue de l'Église - View SSW on Plage & Boulevard de Boramar.jpg",
+      "description": "Collioure - Rue de l'Église - View SSW on Plage &amp; Boulevard de Boramar",
+      "width": 3024,
+      "height": 2016,
+      "size": 2852895,
+      "timestamp": "2021-03-06T16:58:06Z",
+      "author": "Txllxt TxllxT",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
@@ -46,11 +49,97 @@
   "lieux": [
     {
       "label": "Clocher et façades pastel du front de mer",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/L%27%C3%A9glise_ND_des_Anges_dont_le_clocher_au_pied_marin_fait_trempette_entre_2_plages.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AL'%C3%A9glise%20ND%20des%20Anges%20dont%20le%20clocher%20au%20pied%20marin%20fait%20trempette%20entre%202%20plages.jpg",
+          "title": "L'église ND des Anges dont le clocher au pied marin fait trempette entre 2 plages.jpg",
+          "description": "Depuis la coursive supérieure Est accédant aux bâtiments du Château Royal, une vue plongeante donne directement sur l'église Notre Dame des Anges, dont le clocher revendique sa forte identité pointée vers le ciel, se reflétant aussi sur la Méditerranée, comme le signe évident d'un ancien port royal remarquable, visible de mer ou de terre.",
+          "width": 3840,
+          "height": 2880,
+          "size": 2648309,
+          "timestamp": "2021-02-12T15:32:55Z",
+          "author": "Damusmedia",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Le_chenal_du_port_de_Collioure_vu_depuis_les_abords_Fort_St-Elme.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20chenal%20du%20port%20de%20Collioure%20vu%20depuis%20les%20abords%20Fort%20St-Elme.jpg",
+          "title": "Le chenal du port de Collioure vu depuis les abords Fort St-Elme.jpg",
+          "description": "Dès l'entrée du port de Collioure, le village s'avance sur la Méditerranée, en présentant sa jetée conduisant à son fanal, la chapelle St-Vincent et sa plage, et son église immédiatement repérable par son clocher, précédant la plage des pêcheurs.",
+          "width": 3840,
+          "height": 2880,
+          "size": 2607460,
+          "timestamp": "2021-01-27T15:16:41Z",
+          "author": "Damusmedia",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/La_plage_des_p%C3%AAcheurs_et_l%27%C3%A9glise_Notre_Dame_des_Anges%2C_vue_Sud-Ouest.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20plage%20des%20p%C3%AAcheurs%20et%20l'%C3%A9glise%20Notre%20Dame%20des%20Anges%2C%20vue%20Sud-Ouest.jpg",
+          "title": "La plage des pêcheurs et l'église Notre Dame des Anges, vue Sud-Ouest.jpg",
+          "description": "Le chenal de Collioure offre aux baigneurs de la plage des Pêcheurs le paisible défilé de quelques voiliers de plaisance faisant doucement un petit détour par là, pour apprécier encore de plus près l'inoubliable clocher semblant flotter comme eux sur la Méditerranée.",
+          "width": 3840,
+          "height": 2880,
+          "size": 2612893,
+          "timestamp": "2021-01-27T16:01:21Z",
+          "author": "Damusmedia",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Barques catalanes tirées sur la plage",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Vue_de_Collioure_-_btv1b10578923j.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20de%20Collioure%20-%20btv1b10578923j.jpg",
+          "title": "Vue de Collioure - btv1b10578923j.jpg",
+          "description": "Sujet : Mer\nCollioure (Pyrénées-Orientales, France)\nPyrénées (France)\nBord de mer\nPort\nBarque\nPlage\nTour\nPhare\nMaison\nMéditerranée, Mer (France)\nCôte Vermeille (France)\nPyrénées-Orientales (Languedoc-Roussillon)\nAppartient à l’ensemble documentaire : RsAlis000\nAppartient à l’ensemble documentaire : RsAlis014\nAppartient à l’ensemble documentaire : RsAlis007\nAppartient à l’ensemble documentaire : RsAlis009\n\nAppartient à l’ensemble documentaire : PrnS001",
+          "width": 3399,
+          "height": 2916,
+          "size": 825947,
+          "timestamp": "2025-02-28T11:32:33Z",
+          "author": "<div class=\"fn value\">\nTrutat, Eugène (1840-1910). Photographe</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Rade_de_Collioure_-_btv1b105789240.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARade%20de%20Collioure%20-%20btv1b105789240.jpg",
+          "title": "Rade de Collioure - btv1b105789240.jpg",
+          "description": "Sujet : Mer\nCollioure (Pyrénées-Orientales, France)\nPyrénées (France)\nBord de mer\nPort\nBarque\nBateau à voiles\nMarin\nBassin d'eau\nPlage\nMéditerranée, Mer (France)\nCôte Vermeille (France)\nPyrénées-Orientales (Languedoc-Roussillon)\nAppartient à l’ensemble documentaire : RsAlis000\nAppartient à l’ensemble documentaire : RsAlis014\nAppartient à l’ensemble documentaire : RsAlis007\nAppartient à l’ensemble documentaire : RsAlis009\n\nAppartient à l’ensemble documentaire : PrnS001",
+          "width": 3417,
+          "height": 2881,
+          "size": 605703,
+          "timestamp": "2025-03-12T20:31:47Z",
+          "author": "<div class=\"fn value\">\nTrutat, Eugène (1840-1910). Photographe</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Barque_hors_d%27eau%2C_Collioure%2C_27_novembre_1903_-_btv1b10574465t.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABarque%20hors%20d'eau%2C%20Collioure%2C%2027%20novembre%201903%20-%20btv1b10574465t.jpg",
+          "title": "Barque hors d'eau, Collioure, 27 novembre 1903 - btv1b10574465t.jpg",
+          "description": "Sujet : Mer\nCollioure (Pyrénées-Orientales, France)\nPyrénées (France)\nBord de mer\nPort\nBarque\nPhare\nPlage\nMéditerranée, Mer (France)\nCôte Vermeille (France)\nPyrénées-Orientales (Languedoc-Roussillon)\nAppartient à l’ensemble documentaire : RsAlis000\nAppartient à l’ensemble documentaire : RsAlis014\nAppartient à l’ensemble documentaire : RsAlis007\n\nAppartient à l’ensemble documentaire : RsAlis009",
+          "width": 6987,
+          "height": 3037,
+          "size": 1866579,
+          "timestamp": "2025-03-21T14:15:19Z",
+          "author": "<div class=\"fn value\">\nTrutat, Eugène (1840-1910). Photographe</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Jetée et remparts de Collioure",

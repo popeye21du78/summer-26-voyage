@@ -1,25 +1,13 @@
 {
   "slug": "gorges-de-l-ardeche",
   "nom": "gorges de l ardeche",
-  "fetchedAt": "2026-03-13T14:35:24.172Z",
+  "fetchedAt": "2026-03-16T13:47:42.065Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Pont_d%27Arc%2C_gorges_de_l%27Ard%C3%A8che%2C_France_-_panoramio.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20d'Arc%2C%20gorges%20de%20l'Ard%C3%A8che%2C%20France%20-%20panoramio.jpg",
-      "title": "Pont d'Arc, gorges de l'Ardèche, France - panoramio.jpg",
-      "width": 1896,
-      "height": 1448,
-      "size": 747227,
-      "timestamp": "2016-06-16T01:29:35Z",
-      "author": "Jfdo",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Gorges_Ard%C3%A8che_point_vue.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGorges%20Ard%C3%A8che%20point%20vue.jpg",
       "title": "Gorges Ardèche point vue.jpg",
+      "description": "Photographies aux points de vue des Gorges de l'Ardèche à St-Remèze",
       "width": 2560,
       "height": 1920,
       "size": 3011584,
@@ -27,17 +15,32 @@
       "author": "Jacques Le Letty",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Gorges_de_l%27Ard%C3%A8che_2.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGorges%20de%20l'Ard%C3%A8che%202.jpg",
+      "title": "Gorges de l'Ardèche 2.jpg",
+      "description": "Blick in die Schlucht der 'Ardèche",
+      "width": 5184,
+      "height": 3456,
+      "size": 9408124,
+      "timestamp": "2015-08-07T09:14:30Z",
+      "author": "Superbass",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 6
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Les_gorges_de_l%27Ard%C3%A8che_vues_de_la_route_01.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20gorges%20de%20l'Ard%C3%A8che%20vues%20de%20la%20route%2001.jpg",
-      "title": "Les gorges de l'Ardèche vues de la route 01.jpg",
-      "width": 4000,
-      "height": 3000,
-      "size": 3953651,
-      "timestamp": "2018-05-21T09:12:41Z",
-      "author": "Celeda",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/2015_Gorges_de_l%27Ard%C3%A8che_1.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2015%20Gorges%20de%20l'Ard%C3%A8che%201.jpg",
+      "title": "2015 Gorges de l'Ardèche 1.jpg",
+      "description": "Blick in die Schlucht der 'Ardèche",
+      "width": 5184,
+      "height": 3456,
+      "size": 18864783,
+      "timestamp": "2015-08-07T09:14:31Z",
+      "author": "Superbass",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 6
@@ -48,9 +51,38 @@
       "label": "Pont d’Arc",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Gorges_de_l_Ardeche_-_img_42029.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGorges%20de%20l%20Ardeche%20-%20img%2042029.jpg",
+          "title": "Gorges de l Ardeche - img 42029.jpg",
+          "description": "L'Ardèche en amont du Pont-d'Arc.",
+          "width": 5616,
+          "height": 3744,
+          "size": 8143520,
+          "timestamp": "2016-04-11T07:23:35Z",
+          "author": "Pmau",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Gorges_de_l_Ardeche_-_img_42026.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGorges%20de%20l%20Ardeche%20-%20img%2042026.jpg",
+          "title": "Gorges de l Ardeche - img 42026.jpg",
+          "description": "L'Ardèche en amont du Pont-d'Arc.",
+          "width": 5616,
+          "height": 3744,
+          "size": 11835801,
+          "timestamp": "2016-04-11T07:23:47Z",
+          "author": "Pmau",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Pont_d%27Arc%2C_gorges_de_l%27Ard%C3%A8che%2C_France_-_panoramio.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20d'Arc%2C%20gorges%20de%20l'Ard%C3%A8che%2C%20France%20-%20panoramio.jpg",
           "title": "Pont d'Arc, gorges de l'Ardèche, France - panoramio.jpg",
+          "description": "Pont d'Arc, gorges de l'Ardèche, France",
           "width": 1896,
           "height": 1448,
           "size": 747227,
@@ -59,29 +91,74 @@
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Backeljaia_gigaxii_%28MNHN-IM-2010-13186%29.jpeg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABackeljaia%20gigaxii%20(MNHN-IM-2010-13186).jpeg",
-          "title": "Backeljaia gigaxii (MNHN-IM-2010-13186).jpeg",
-          "width": 1719,
-          "height": 2579,
-          "size": 2238641,
-          "timestamp": "2020-05-03T18:19:14Z",
-          "author": "<div class=\"fn value\">\nGargominy O.</div>",
-          "license": "CC BY 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
         }
       ]
     },
     {
       "label": "Belvédère du Serre de Tourre",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/L%60Ardeche_pr%C3%A8s_%22Le_Moure_de_la_Tour%22_-_panoramio.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AL%60Ardeche%20pr%C3%A8s%20%22Le%20Moure%20de%20la%20Tour%22%20-%20panoramio.jpg",
+          "title": "L`Ardeche près \"Le Moure de la Tour\" - panoramio.jpg",
+          "description": "L`Ardeche près \"Le Moure de la Tour\"",
+          "width": 1920,
+          "height": 2560,
+          "size": 2179345,
+          "timestamp": "2017-02-23T13:43:30Z",
+          "author": "Besenbinder",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Cirque de Gaud",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/00_0115_Gorges_de_l%C3%81rd%C3%A8che_-_Cirque_de_la_Madeleine.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A00%200115%20Gorges%20de%20l%C3%81rd%C3%A8che%20-%20Cirque%20de%20la%20Madeleine.jpg",
+          "title": "00 0115 Gorges de lÁrdèche - Cirque de la Madeleine.jpg",
+          "description": "Gorges de lÁrdèche (Cirque de la Madeleine), eine Schlucht des Flusses Ardèche im Département Ardèche, Frankreich.",
+          "width": 3300,
+          "height": 2200,
+          "size": 8147744,
+          "timestamp": "2018-10-03T11:41:12Z",
+          "author": "W. Bulach",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/00_0108_Gorges_de_l%C3%81rd%C3%A8che_%28Felsformationen%29_-_Cirque_de_la_Madeleine.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A00%200108%20Gorges%20de%20l%C3%81rd%C3%A8che%20(Felsformationen)%20-%20Cirque%20de%20la%20Madeleine.jpg",
+          "title": "00 0108 Gorges de lÁrdèche (Felsformationen) - Cirque de la Madeleine.jpg",
+          "description": "Gorges de lÁrdèche (Felsformationen), eine Schlucht des Flusses Ardèche im Département Ardèche, Frankreich.",
+          "width": 3300,
+          "height": 2200,
+          "size": 8931515,
+          "timestamp": "2018-10-03T11:47:15Z",
+          "author": "W. Bulach",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/00_0106_Gorges_de_l%C3%A2rd%C3%A8che_-_Cirque_de_la_Madeleine.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A00%200106%20Gorges%20de%20l%C3%A2rd%C3%A8che%20-%20Cirque%20de%20la%20Madeleine.jpg",
+          "title": "00 0106 Gorges de lârdèche - Cirque de la Madeleine.jpg",
+          "description": "Gorges de lÁrdèche (Felsformationen), eine Schlucht des Flusses Ardèche im Département Ardèche, Frankreich.",
+          "width": 3600,
+          "height": 2400,
+          "size": 8188587,
+          "timestamp": "2018-10-03T11:55:06Z",
+          "author": "W. Bulach",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Plage de la Grotte de la Madeleine",

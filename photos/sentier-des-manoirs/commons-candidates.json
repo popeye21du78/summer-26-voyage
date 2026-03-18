@@ -1,56 +1,145 @@
 {
   "slug": "sentier-des-manoirs",
   "nom": "Sentier des manoirs",
-  "fetchedAt": "2026-03-14T12:35:05.206Z",
+  "fetchedAt": "2026-03-18T19:29:28.029Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/ISS045-E-161516_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS045-E-161516%20-%20View%20of%20Earth.jpg",
-      "title": "ISS045-E-161516 - View of Earth.jpg",
-      "width": 4928,
-      "height": 3280,
-      "size": 2070079,
-      "timestamp": "2021-03-21T11:09:19Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Sentier_botanique_du_Clos_Luc%C3%A9.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASentier%20botanique%20du%20Clos%20Luc%C3%A9.JPG",
+      "title": "Sentier botanique du Clos Lucé.JPG",
+      "description": "Botanical garden in Clos Lucé and landscapes by Leonard de Vinci.",
+      "width": 5760,
+      "height": 3840,
+      "size": 17092848,
+      "timestamp": "2015-08-14T23:07:23Z",
+      "author": "Als33120",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 6
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/ISS045-E-161519_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS045-E-161519%20-%20View%20of%20Earth.jpg",
-      "title": "ISS045-E-161519 - View of Earth.jpg",
-      "width": 4928,
-      "height": 3280,
-      "size": 1857049,
-      "timestamp": "2021-03-21T11:09:21Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Foug%C3%A8res_du_sentier_botanique_du_Clos_Luc%C3%A9.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFoug%C3%A8res%20du%20sentier%20botanique%20du%20Clos%20Luc%C3%A9.JPG",
+      "title": "Fougères du sentier botanique du Clos Lucé.JPG",
+      "description": "Botanical garden in Clos Lucé, Amboise.",
+      "width": 4320,
+      "height": 3240,
+      "size": 6036480,
+      "timestamp": "2015-08-21T17:03:47Z",
+      "author": "Als33120",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 6
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/ISS045-E-161517_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS045-E-161517%20-%20View%20of%20Earth.jpg",
-      "title": "ISS045-E-161517 - View of Earth.jpg",
-      "width": 4928,
-      "height": 3280,
-      "size": 2615768,
-      "timestamp": "2021-03-21T11:09:21Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Sentier_botanique_au_Clos_Luc%C3%A9.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASentier%20botanique%20au%20Clos%20Luc%C3%A9.JPG",
+      "title": "Sentier botanique au Clos Lucé.JPG",
+      "description": "Nature walk in the botanical garden, along the river Amasse in Clos Lucé, Amboise.",
+      "width": 3840,
+      "height": 5760,
+      "size": 12130390,
+      "timestamp": "2015-08-12T21:12:09Z",
+      "author": "Als33120",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 5
     }
   ],
   "lieux": [
     {
       "label": "Manoir de La Touche",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Sentier_botanique_du_Clos_Luc%C3%A9.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASentier%20botanique%20du%20Clos%20Luc%C3%A9.JPG",
+          "title": "Sentier botanique du Clos Lucé.JPG",
+          "description": "Botanical garden in Clos Lucé and landscapes by Leonard de Vinci.",
+          "width": 5760,
+          "height": 3840,
+          "size": 17092848,
+          "timestamp": "2015-08-14T23:07:23Z",
+          "author": "Als33120",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Foug%C3%A8res_du_sentier_botanique_du_Clos_Luc%C3%A9.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFoug%C3%A8res%20du%20sentier%20botanique%20du%20Clos%20Luc%C3%A9.JPG",
+          "title": "Fougères du sentier botanique du Clos Lucé.JPG",
+          "description": "Botanical garden in Clos Lucé, Amboise.",
+          "width": 4320,
+          "height": 3240,
+          "size": 6036480,
+          "timestamp": "2015-08-21T17:03:47Z",
+          "author": "Als33120",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Sentier_botanique_au_Clos_Luc%C3%A9.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASentier%20botanique%20au%20Clos%20Luc%C3%A9.JPG",
+          "title": "Sentier botanique au Clos Lucé.JPG",
+          "description": "Nature walk in the botanical garden, along the river Amasse in Clos Lucé, Amboise.",
+          "width": 3840,
+          "height": 5760,
+          "size": 12130390,
+          "timestamp": "2015-08-12T21:12:09Z",
+          "author": "Als33120",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Manoir de la Hunaudière",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Sentier_botanique_du_Clos_Luc%C3%A9.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASentier%20botanique%20du%20Clos%20Luc%C3%A9.JPG",
+          "title": "Sentier botanique du Clos Lucé.JPG",
+          "description": "Botanical garden in Clos Lucé and landscapes by Leonard de Vinci.",
+          "width": 5760,
+          "height": 3840,
+          "size": 17092848,
+          "timestamp": "2015-08-14T23:07:23Z",
+          "author": "Als33120",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Foug%C3%A8res_du_sentier_botanique_du_Clos_Luc%C3%A9.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFoug%C3%A8res%20du%20sentier%20botanique%20du%20Clos%20Luc%C3%A9.JPG",
+          "title": "Fougères du sentier botanique du Clos Lucé.JPG",
+          "description": "Botanical garden in Clos Lucé, Amboise.",
+          "width": 4320,
+          "height": 3240,
+          "size": 6036480,
+          "timestamp": "2015-08-21T17:03:47Z",
+          "author": "Als33120",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Sentier_botanique_au_Clos_Luc%C3%A9.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASentier%20botanique%20au%20Clos%20Luc%C3%A9.JPG",
+          "title": "Sentier botanique au Clos Lucé.JPG",
+          "description": "Nature walk in the botanical garden, along the river Amasse in Clos Lucé, Amboise.",
+          "width": 3840,
+          "height": 5760,
+          "size": 12130390,
+          "timestamp": "2015-08-12T21:12:09Z",
+          "author": "Als33120",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Moulin Neuf",

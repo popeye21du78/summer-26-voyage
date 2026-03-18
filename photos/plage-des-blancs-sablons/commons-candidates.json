@@ -1,12 +1,13 @@
 {
   "slug": "plage-des-blancs-sablons",
   "nom": "Plage des Blancs Sablons",
-  "fetchedAt": "2026-03-14T11:17:51.650Z",
+  "fetchedAt": "2026-03-18T16:20:52.487Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Le_Conquet%2C_Plage_des_Blancs-Sablons_02.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Conquet%2C%20Plage%20des%20Blancs-Sablons%2002.jpg",
       "title": "Le Conquet, Plage des Blancs-Sablons 02.jpg",
+      "description": "Le Conquet, Plage des Blancs-Sablons",
       "width": 3264,
       "height": 1836,
       "size": 1428905,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Le_Conquet%2C_Plage_des_Blancs-Sablons_03.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Conquet%2C%20Plage%20des%20Blancs-Sablons%2003.jpg",
       "title": "Le Conquet, Plage des Blancs-Sablons 03.jpg",
+      "description": "Le Conquet, Plage des Blancs-Sablons",
       "width": 3264,
       "height": 1836,
       "size": 1405220,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Le_Conquet%2C_Plage_des_Blancs-Sablons_01.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Conquet%2C%20Plage%20des%20Blancs-Sablons%2001.jpg",
       "title": "Le Conquet, Plage des Blancs-Sablons 01.jpg",
+      "description": "Le Conquet, Plage des Blancs-Sablons",
       "width": 3264,
       "height": 1836,
       "size": 1318074,
@@ -46,7 +49,22 @@
   "lieux": [
     {
       "label": "dunes tapissées d’oyats",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Chemin_vers_la_plage_des_Blancs_Sablons_%28Le_Conquet%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChemin%20vers%20la%20plage%20des%20Blancs%20Sablons%20(Le%20Conquet).jpg",
+          "title": "Chemin vers la plage des Blancs Sablons (Le Conquet).jpg",
+          "description": "Allée de sable protégée sur la dune des Blancs Sablons.",
+          "width": 3212,
+          "height": 2392,
+          "size": 3631331,
+          "timestamp": "2018-05-26T12:08:43Z",
+          "author": "Bebmazi",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "sentier côtier vers Molène et Ouessant",

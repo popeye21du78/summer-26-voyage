@@ -1,12 +1,13 @@
 {
   "slug": "plage-du-port-vieux",
   "nom": "Plage du Port Vieux",
-  "fetchedAt": "2026-03-14T11:25:35.937Z",
+  "fetchedAt": "2026-03-18T16:38:04.520Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Le_Port-Vieux_de_Biarritz_et_la_villa_Belza.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Port-Vieux%20de%20Biarritz%20et%20la%20villa%20Belza.jpg",
       "title": "Le Port-Vieux de Biarritz et la villa Belza.jpg",
+      "description": "The Port-Vieux in Biarritz and the villa Belza (Pyrénées-Atlantiques, France).",
       "width": 2816,
       "height": 2112,
       "size": 918335,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Vieux-Port_de_Biarritz_%281910%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVieux-Port%20de%20Biarritz%20(1910).jpg",
       "title": "Vieux-Port de Biarritz (1910).jpg",
+      "description": "Old postcard of the Vieux-Port (=old harbour) in Biarritz (Pyrénées-Atlantiques, France).",
       "width": 1643,
       "height": 1084,
       "size": 1454035,
@@ -30,17 +32,18 @@
       "score": 6
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Biarritz-Port_des_p%C3%AAcheurs-GHV_9.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABiarritz-Port%20des%20p%C3%AAcheurs-GHV%209.jpg",
-      "title": "Biarritz-Port des pêcheurs-GHV 9.jpg",
-      "width": 3310,
-      "height": 2127,
-      "size": 4727119,
-      "timestamp": "2016-12-11T08:38:51Z",
-      "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Plage_du_Port_Vieux_de_Biarritz.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlage%20du%20Port%20Vieux%20de%20Biarritz.jpg",
+      "title": "Plage du Port Vieux de Biarritz.jpg",
+      "description": "La plage du Port Vieux de Biarritz vue depuis l'esplanade du rocher de la Vierge.",
+      "width": 6128,
+      "height": 4085,
+      "size": 19277885,
+      "timestamp": "2025-06-25T19:32:10Z",
+      "author": "Christian David",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 9
     }
   ],
   "lieux": []

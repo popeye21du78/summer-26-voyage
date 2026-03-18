@@ -1,38 +1,13 @@
 {
   "slug": "plage-du-mourillon",
   "nom": "Plage du Mourillon",
-  "fetchedAt": "2026-03-14T11:25:05.269Z",
+  "fetchedAt": "2026-03-18T16:36:48.065Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Rocbaron_-_panoramio.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARocbaron%20-%20panoramio.jpg",
-      "title": "Rocbaron - panoramio.jpg",
-      "width": 1280,
-      "height": 851,
-      "size": 648259,
-      "timestamp": "2020-09-27T11:10:31Z",
-      "author": "elenetti",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Mobeye-%C3%89t%C3%A9DesVilles-Marseille-103.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMobeye-%C3%89t%C3%A9DesVilles-Marseille-103.jpg",
-      "title": "Mobeye-ÉtéDesVilles-Marseille-103.jpg",
-      "width": 1536,
-      "height": 2048,
-      "size": 414311,
-      "timestamp": "2015-10-09T06:34:30Z",
-      "author": "Tristan L.",
-      "license": "CC BY 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/D%C3%A9bouch%C3%A9_de_l%27Eygoutier%2C_Mourillon.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AD%C3%A9bouch%C3%A9%20de%20l'Eygoutier%2C%20Mourillon.jpg",
       "title": "Débouché de l'Eygoutier, Mourillon.jpg",
+      "description": "Débouché dans la rade de Toulon de l'Eygoutier, fleuve côtier de l'agglomération toulonnaise, passant au travers de la digue de protection en enrochement de l'anse Mistral (à l'ouest) et l'anse de la Source (à l'est) des plages du Mourillon. Visible à droite, sur la digue, au droit du passage de l'Eygoutier se dresse une plaque commémorative de l'expédition d'Alger.",
       "width": 4032,
       "height": 3024,
       "size": 5234547,
@@ -41,6 +16,34 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Mourillon%2C_Toulon%2C_Provence-Alpes-C%C3%B4te_d%27Azur%2C_France_-_panoramio.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMourillon%2C%20Toulon%2C%20Provence-Alpes-C%C3%B4te%20d'Azur%2C%20France%20-%20panoramio.jpg",
+      "title": "Mourillon, Toulon, Provence-Alpes-Côte d'Azur, France - panoramio.jpg",
+      "description": "Mourillon, Toulon, Provence-Alpes-Côte d'Azur, France",
+      "width": 5184,
+      "height": 3456,
+      "size": 6585543,
+      "timestamp": "2017-02-23T17:06:41Z",
+      "author": "trolvag",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Mourillon%2C_Toulon%2C_France_-_panoramio.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMourillon%2C%20Toulon%2C%20France%20-%20panoramio.jpg",
+      "title": "Mourillon, Toulon, France - panoramio.jpg",
+      "description": "Mourillon, Toulon, France",
+      "width": 2835,
+      "height": 1890,
+      "size": 3470167,
+      "timestamp": "2017-02-23T18:07:12Z",
+      "author": "trolvag",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
     }
   ],
   "lieux": [
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/D%C3%A9bouch%C3%A9_de_l%27Eygoutier%2C_Mourillon.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AD%C3%A9bouch%C3%A9%20de%20l'Eygoutier%2C%20Mourillon.jpg",
           "title": "Débouché de l'Eygoutier, Mourillon.jpg",
+          "description": "Débouché dans la rade de Toulon de l'Eygoutier, fleuve côtier de l'agglomération toulonnaise, passant au travers de la digue de protection en enrochement de l'anse Mistral (à l'ouest) et l'anse de la Source (à l'est) des plages du Mourillon. Visible à droite, sur la digue, au droit du passage de l'Eygoutier se dresse une plaque commémorative de l'expédition d'Alger.",
           "width": 4032,
           "height": 3024,
           "size": 5234547,
@@ -64,6 +68,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Plages_du_Mourillon_a_Toulon.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlages%20du%20Mourillon%20a%20Toulon.jpg",
           "title": "Plages du Mourillon a Toulon.jpg",
+          "description": "Une des trois plages dans des anses aménagée au quartier du Mourillon. Des digues ont été construites et le sable apporté, équipement de restaurants, transats, jeux etc. Plus à l'est, marina et école de voile.",
           "width": 2919,
           "height": 1794,
           "size": 2166886,
@@ -72,19 +77,6 @@
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 4
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Plaque_1830_Toulon.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlaque%201830%20Toulon.jpg",
-          "title": "Plaque 1830 Toulon.jpg",
-          "width": 3008,
-          "height": 912,
-          "size": 692889,
-          "timestamp": "2009-08-21T20:31:40Z",
-          "author": "Siren-Com",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 3
         }
       ]
     },

@@ -1,12 +1,13 @@
 {
   "slug": "ahun",
   "nom": "Ahun",
-  "fetchedAt": "2026-03-12T23:40:30.517Z",
+  "fetchedAt": "2026-03-15T14:48:14.850Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Centre_d%E2%80%99%C3%A9levage_de_Ahun.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACentre%20d%E2%80%99%C3%A9levage%20de%20Ahun.jpg",
       "title": "Centre d’élevage de Ahun.jpg",
+      "description": "Centre d’élevage de Ahun",
       "width": 4000,
       "height": 2250,
       "size": 2030404,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Moutier-d%27Ahun%2C_Creuse%2C_Limousin%2C_France_-_panoramio.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMoutier-d'Ahun%2C%20Creuse%2C%20Limousin%2C%20France%20-%20panoramio.jpg",
       "title": "Moutier-d'Ahun, Creuse, Limousin, France - panoramio.jpg",
+      "description": "Moutier-d'Ahun, Creuse,  Limousin, France",
       "width": 3648,
       "height": 2736,
       "size": 2224765,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Moutier-d%27Ahun%2C_Creuse%2C_Limousin%2C_France_-_panoramio_%281%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMoutier-d'Ahun%2C%20Creuse%2C%20Limousin%2C%20France%20-%20panoramio%20(1).jpg",
       "title": "Moutier-d'Ahun, Creuse, Limousin, France - panoramio (1).jpg",
+      "description": "Moutier-d'Ahun, Creuse,  Limousin, France",
       "width": 3648,
       "height": 2736,
       "size": 3584236,
@@ -46,19 +49,77 @@
   "lieux": [
     {
       "label": "Pont médiéval sur la Creuse",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Viaduc_de_Busseau_d%27Ahun_-_Etat_du_chantier_de_montage_au_19_Octobre_1864_-_btv1b10482220h.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AViaduc%20de%20Busseau%20d'Ahun%20-%20Etat%20du%20chantier%20de%20montage%20au%2019%20Octobre%201864%20-%20btv1b10482220h.jpg",
+          "title": "Viaduc de Busseau d'Ahun - Etat du chantier de montage au 19 Octobre 1864 - btv1b10482220h.jpg",
+          "description": "Sujet : Chantiers de construction\nConstructions en aluminium\nGrues (appareils)\nPonts métalliques\nAhun (Creuse, France)\nCreuse (France)\nMontluçon-Limoges, Chemin de fer (France)\nNordling, Wilhelm de (1821-1908)\nAppartient à l’ensemble documentaire : EnPC000\nAppartient à l’ensemble documentaire : EnPCthèm02\nAppartient à l’ensemble documentaire : EnPCcorp09\nAppartient à l’ensemble documentaire : EnPCtypo02\n\nÉditeur : [s.n.]",
+          "width": 6968,
+          "height": 5040,
+          "size": 3585712,
+          "timestamp": "2024-10-25T15:28:38Z",
+          "author": "Inconnu",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Ligne_de_Montlu%C3%A7on_%C3%A0_Limoges._Viaduc_de_Busseau-d%27Ahun_-_Etat_d%27avancement_au_20_octobre_1864_-_Garin%2C_Guilleminot%2C_Berthaud_-_btv1b104830544.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALigne%20de%20Montlu%C3%A7on%20%C3%A0%20Limoges.%20Viaduc%20de%20Busseau-d'Ahun%20-%20Etat%20d'avancement%20au%2020%20octobre%201864%20-%20Garin%2C%20Guilleminot%2C%20Berthaud%20-%20btv1b104830544.jpg",
+          "title": "Ligne de Montluçon à Limoges. Viaduc de Busseau-d'Ahun - Etat d'avancement au 20 octobre 1864 - Garin, Guilleminot, Berthaud - btv1b104830544.jpg",
+          "description": "Sujet : Chantiers de construction\nChemins de fer\nPonts métalliques\nAhun (Creuse, France)\nCreuse (France)\nCompagnie des chemins de fer de la Vendée\nCompagnie de Fives-Lille\nMontluçon-Limoges, Chemin de fer (France)\nNordling, Wilhelm de (1821-1908)\nAppartient à l’ensemble documentaire : EnPC000\nAppartient à l’ensemble documentaire : EnPCthèm02\nAppartient à l’ensemble documentaire : EnPCcorp09\nAppartient à l’ensemble documentaire : EnPCtypo02\n\nÉditeur : [s.n.]",
+          "width": 7248,
+          "height": 5496,
+          "size": 3650882,
+          "timestamp": "2024-10-26T20:23:46Z",
+          "author": "<div class=\"fn value\">\nImprimerie photographique Garin, Guilleminot, Berthaud (Paris). Éditeur scientifique</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Busseau-d%27Ahun_-_Garin%2C_Guilleminot%2C_Berthaud_-_btv1b10482223v.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABusseau-d'Ahun%20-%20Garin%2C%20Guilleminot%2C%20Berthaud%20-%20btv1b10482223v.jpg",
+          "title": "Busseau-d'Ahun - Garin, Guilleminot, Berthaud - btv1b10482223v.jpg",
+          "description": "Sujet : Chemins de fer\nPaysage\nPonts métalliques\nAhun (Creuse, France)\nCreuse (France)\nMontluçon-Limoges, Chemin de fer (France)\nNordling, Wilhelm de (1821-1908)\nAppartient à l’ensemble documentaire : EnPC000\nAppartient à l’ensemble documentaire : EnPCthèm02\nAppartient à l’ensemble documentaire : EnPCcorp09\nAppartient à l’ensemble documentaire : EnPCtypo02\n\nÉditeur : [s.n.]",
+          "width": 6936,
+          "height": 5040,
+          "size": 3303756,
+          "timestamp": "2024-10-28T03:40:04Z",
+          "author": "<div class=\"fn value\">\nImprimerie photographique Garin, Guilleminot, Berthaud (Paris). Auteur du texte</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Église Saint-Sylvain",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Ahun_-_%C3%A9glise_Saint-Sylvain%2C_crypte_%2805%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAhun%20-%20%C3%A9glise%20Saint-Sylvain%2C%20crypte%20(05).jpg",
-          "title": "Ahun - église Saint-Sylvain, crypte (05).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Ahun_-_%C3%A9glise_Saint-Sylvain%2C_int%C3%A9rieur_%2804%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAhun%20-%20%C3%A9glise%20Saint-Sylvain%2C%20int%C3%A9rieur%20(04).jpg",
+          "title": "Ahun - église Saint-Sylvain, intérieur (04).jpg",
+          "description": "Saint Sylvain church of Ahun (Creuse, France), 16th-century Pietà",
           "width": 3264,
           "height": 2448,
-          "size": 3504158,
-          "timestamp": "2018-09-29T10:55:19Z",
+          "size": 3176545,
+          "timestamp": "2018-09-29T12:47:29Z",
+          "author": "Fab5669",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Ahun_-_%C3%A9glise_Saint-Sylvain%2C_int%C3%A9rieur_%2814%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAhun%20-%20%C3%A9glise%20Saint-Sylvain%2C%20int%C3%A9rieur%20(14).jpg",
+          "title": "Ahun - église Saint-Sylvain, intérieur (14).jpg",
+          "description": "Saint Sylvain church of Ahun (Creuse, France), choir stalls",
+          "width": 3264,
+          "height": 2448,
+          "size": 3446084,
+          "timestamp": "2018-09-29T12:48:13Z",
           "author": "Fab5669",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -68,23 +129,11 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Ahun_-_%C3%A9glise_Saint-Sylvain%2C_int%C3%A9rieur_%2815%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAhun%20-%20%C3%A9glise%20Saint-Sylvain%2C%20int%C3%A9rieur%20(15).jpg",
           "title": "Ahun - église Saint-Sylvain, intérieur (15).jpg",
+          "description": "Saint Sylvain church of Ahun (Creuse, France), altar",
           "width": 3264,
           "height": 2448,
           "size": 3651832,
           "timestamp": "2018-09-29T12:48:15Z",
-          "author": "Fab5669",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Ahun_-_%C3%A9glise_Saint-Sylvain_%2804%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAhun%20-%20%C3%A9glise%20Saint-Sylvain%20(04).jpg",
-          "title": "Ahun - église Saint-Sylvain (04).jpg",
-          "width": 3264,
-          "height": 2448,
-          "size": 3552350,
-          "timestamp": "2018-09-29T12:53:12Z",
           "author": "Fab5669",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -94,11 +143,97 @@
     },
     {
       "label": "Place du Marché",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Viaduc_de_Busseau_dAhun_-_Les_Travaux_Publics_de_la_France.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AViaduc%20de%20Busseau%20dAhun%20-%20Les%20Travaux%20Publics%20de%20la%20France.jpg",
+          "title": "Viaduc de Busseau dAhun - Les Travaux Publics de la France.jpg",
+          "description": "Title: Viaduc de Busseau d'Ahun\nAlternative Title: Busseau Viaduct\nCreator: Bertaud, Michel\nDate: 1883\nPart Of: Les Travaux Publics de la France, Tome Deuxieme: Chemins de Fer\nPlace: Busseau-sur-Creuse, Ahun, Creuse, Limousin, France\nPhysical Description: 1 photographic print: collotype; 26 x 35 cm on 40 x 56 cm mount\nFile: vault_folio_2_ta71_a4_1883_2_17_opt.jpg\nRights: Please cite Southern Methodist University, Central University Libraries, DeGolyer Library when \nusing this image file. A high-",
+          "width": 3000,
+          "height": 2300,
+          "size": 5133491,
+          "timestamp": "2013-11-25T05:50:45Z",
+          "author": "SMU Central University Libraries",
+          "license": "No restrictions",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Ahun_-_fontaine_%2801%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAhun%20-%20fontaine%20(01).jpg",
+          "title": "Ahun - fontaine (01).jpg",
+          "description": "Fountain, Doctor Couderc square, Ahun (Creuse, France)",
+          "width": 2448,
+          "height": 3264,
+          "size": 3648104,
+          "timestamp": "2018-09-29T14:58:04Z",
+          "author": "Fab5669",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Eglise_Saint-Sylvain_-_Ensemble_est_-_Ahun_-_M%C3%A9diath%C3%A8que_de_l%27architecture_et_du_patrimoine_-_APMH00033214.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Saint-Sylvain%20-%20Ensemble%20est%20-%20Ahun%20-%20M%C3%A9diath%C3%A8que%20de%20l'architecture%20et%20du%20patrimoine%20-%20APMH00033214.jpg",
+          "title": "Eglise Saint-Sylvain - Ensemble est - Ahun - Médiathèque de l'architecture et du patrimoine - APMH00033214.jpg",
+          "description": "Ensemble est.",
+          "width": 725,
+          "height": 512,
+          "size": 66687,
+          "timestamp": "2020-05-02T10:13:22Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Camille_Enlart\" class=\"extiw\" title=\"w:en:Camille Enlart\"><span title=\"French art historian and photographer (1862-1927)\">Camille Enlart</span></a></bdi>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     },
     {
       "label": "Jardin Public d’Ahun",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Ahun_-_jardin_Jacques-Lagrange_%2803%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAhun%20-%20jardin%20Jacques-Lagrange%20(03).jpg",
+          "title": "Ahun - jardin Jacques-Lagrange (03).jpg",
+          "description": "Jacques Lagrange lapidary garden, in Ahun (Creuse, France) : sarcophagi (7th - 13th century)",
+          "width": 3264,
+          "height": 2448,
+          "size": 3948940,
+          "timestamp": "2018-10-13T13:22:39Z",
+          "author": "Fab5669",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Ahun_-_jardin_Jacques-Lagrange_%2801%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAhun%20-%20jardin%20Jacques-Lagrange%20(01).jpg",
+          "title": "Ahun - jardin Jacques-Lagrange (01).jpg",
+          "description": "Jacques Lagrange lapidary garden, in Ahun (Creuse, France)",
+          "width": 3264,
+          "height": 2448,
+          "size": 3541411,
+          "timestamp": "2018-10-13T13:22:39Z",
+          "author": "Fab5669",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Ahun_-_jardin_Jacques-Lagrange_%2802%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAhun%20-%20jardin%20Jacques-Lagrange%20(02).jpg",
+          "title": "Ahun - jardin Jacques-Lagrange (02).jpg",
+          "description": "Jacques Lagrange lapidary garden, in Ahun (Creuse, France) : Gallo-Roman funeral chests and cippas (2nd - 3rd century)",
+          "width": 3264,
+          "height": 2448,
+          "size": 3573626,
+          "timestamp": "2018-10-13T13:22:39Z",
+          "author": "Fab5669",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

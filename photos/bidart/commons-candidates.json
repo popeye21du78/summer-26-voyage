@@ -1,12 +1,13 @@
 {
   "slug": "bidart",
   "nom": "Bidart",
-  "fetchedAt": "2026-03-13T00:20:04.500Z",
+  "fetchedAt": "2026-03-15T19:44:03.684Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Bidart_-_Lavoir_-_2.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABidart%20-%20Lavoir%20-%202.jpg",
       "title": "Bidart - Lavoir - 2.jpg",
+      "description": "Washouse in Bidart (Pyrénées-Atlantiques, Nouvelle-Aquitaine, France).",
       "width": 3000,
       "height": 2000,
       "size": 1665837,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Bidart_-_Chapelle_de_la_maison_de_retraite_-_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABidart%20-%20Chapelle%20de%20la%20maison%20de%20retraite%20-%201.jpg",
       "title": "Bidart - Chapelle de la maison de retraite - 1.jpg",
+      "description": "Chapel in Bidart (Pyrénées-Atlantiques, Nouvelle-Aquitaine, France).",
       "width": 3000,
       "height": 2000,
       "size": 1120390,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Bidart_-_Chapelle_de_la_maison_de_retraite_-_2.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABidart%20-%20Chapelle%20de%20la%20maison%20de%20retraite%20-%202.jpg",
       "title": "Bidart - Chapelle de la maison de retraite - 2.jpg",
+      "description": "Chapel in Bidart (Pyrénées-Atlantiques, Nouvelle-Aquitaine, France).",
       "width": 3000,
       "height": 2000,
       "size": 1141209,
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Bidart-plage-Erretegia.jpeg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABidart-plage-Erretegia.jpeg",
           "title": "Bidart-plage-Erretegia.jpeg",
+          "description": "",
           "width": 4032,
           "height": 3024,
           "size": 4233756,
@@ -64,6 +68,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Plage_d%27Erretegia_-_Bidart%2C_France_-_July_18%2C_2024.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlage%20d'Erretegia%20-%20Bidart%2C%20France%20-%20July%2018%2C%202024.jpg",
           "title": "Plage d'Erretegia - Bidart, France - July 18, 2024.jpg",
+          "description": "Plage d'Erretegia - Bidart, France",
           "width": 10000,
           "height": 4771,
           "size": 42416118,
@@ -74,17 +79,18 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Plage_d%27Erretegia.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlage%20d'Erretegia.jpg",
-          "title": "Plage d'Erretegia.jpg",
-          "width": 4608,
-          "height": 3456,
-          "size": 4045538,
-          "timestamp": "2016-07-18T06:53:52Z",
-          "author": "Anne-Liam",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Plage_des_100_Marches_-_Bidart%2C_France_-_July_18%2C_2024.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlage%20des%20100%20Marches%20-%20Bidart%2C%20France%20-%20July%2018%2C%202024.jpg",
+          "title": "Plage des 100 Marches - Bidart, France - July 18, 2024.jpg",
+          "description": "Plage des 100 Marches - Bidart, France",
+          "width": 10000,
+          "height": 4665,
+          "size": 23995679,
+          "timestamp": "2024-10-25T11:12:19Z",
+          "author": "Giorgio Galeotti",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         }
       ]
     },
@@ -92,43 +98,46 @@
       "label": "Chapelle Sainte-Madeleine",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Madalenaren_kapera._Bidart.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMadalenaren%20kapera.%20Bidart.jpg",
-          "title": "Madalenaren kapera. Bidart.jpg",
-          "width": 4000,
-          "height": 3000,
-          "size": 4249200,
-          "timestamp": "2024-09-04T17:41:05Z",
-          "author": "Txapisotegi",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Chapelle_Sainte-Madeleine_de_Bidart.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20Sainte-Madeleine%20de%20Bidart.JPG",
+          "title": "Chapelle Sainte-Madeleine de Bidart.JPG",
+          "description": "Vue de la chapelle Sainte-Madeleine de Bidart",
+          "width": 3456,
+          "height": 4608,
+          "size": 3229653,
+          "timestamp": "2015-07-15T13:00:53Z",
+          "author": "Thomon",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Chapelle_Ste_Madeleine_de_Bidart.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20Ste%20Madeleine%20de%20Bidart.JPG",
-          "title": "Chapelle Ste Madeleine de Bidart.JPG",
-          "width": 4608,
-          "height": 3456,
-          "size": 4258864,
-          "timestamp": "2015-07-15T13:00:53Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Vue_de_la_Madeleine_%C3%A0_Bidart.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20de%20la%20Madeleine%20%C3%A0%20Bidart.JPG",
+          "title": "Vue de la Madeleine à Bidart.JPG",
+          "description": "Vue derrière la chapelle Sainte-Madeleine de Bidart",
+          "width": 3456,
+          "height": 4608,
+          "size": 3678129,
+          "timestamp": "2015-07-15T15:18:47Z",
           "author": "Thomon",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Chapelle_Sainte-Madeleine_Nord.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20Sainte-Madeleine%20Nord.JPG",
-          "title": "Chapelle Sainte-Madeleine Nord.JPG",
-          "width": 4608,
-          "height": 3456,
-          "size": 5090414,
-          "timestamp": "2015-07-15T13:45:11Z",
-          "author": "Thomon",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Bidart_-_Chapelle_de_la_maison_de_retraite_-_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABidart%20-%20Chapelle%20de%20la%20maison%20de%20retraite%20-%201.jpg",
+          "title": "Bidart - Chapelle de la maison de retraite - 1.jpg",
+          "description": "Chapel in Bidart (Pyrénées-Atlantiques, Nouvelle-Aquitaine, France).",
+          "width": 3000,
+          "height": 2000,
+          "size": 1120390,
+          "timestamp": "2020-08-05T20:17:03Z",
+          "author": "<table style=\"margin: 1.5em auto; width:60%; background-color:#CCCCCC; border:2px solid #aaaaaa; padding:1px;\" cellspacing=\"10\">\n\n<tbody><tr>\n<td><i><a href=\"https://upload.wikimedia.org/wikipedia/commons/9/91/Bidart_-_Chapelle_de_la_maison_de_retraite_-_1.jpg\" class=\"internal\" title=\"Bidart - Chapelle de la maison de retraite - 1.jpg\"><b>This illustration</b></a> <b>was made by</b> </i><b><a href=\"//commons.wikimedia.org/wiki/User:Peter17\" title=\"User:Peter17\">Peter Potrowl</a></b><i>.</i>\n<p>Please credit this with : <b>© Peter Potrowl</b> in the immediate vicinity of the image. A link to my website <a rel=\"nofollow\" class=\"external text\" href=\"https://www.sitemai.eu\">sitemai.eu</a> would be much appreciated but isn't mandatory.\n</p><p>An email to\n<span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:UserIconMail.svg\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/40px-UserIconMail.svg.png\" decoding=\"async\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/60px-UserIconMail.svg.png 2x\" data-file-width=\"700\" data-file-height=\"700\"></a></span>\n<a href=\"//commons.wikimedia.org/wiki/Special:EmailUser/Peter17\" title=\"Special:EmailUser/Peter17\">Peter Potrowl</a> would be appreciated too.\n</p><p>Do not copy this image illegally by ignoring the terms of the license below, as it is <b>not</b> in the public domain.\nIf you would like special permission to use, license, or purchase the image please contact me <span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:UserIconMail.svg\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/40px-UserIconMail.svg.png\" decoding=\"async\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/60px-UserIconMail.svg.png 2x\" data-file-width=\"700\" data-file-height=\"700\"></a></span><a href=\"//commons.wikimedia.org/wiki/Special:EmailUser/Peter17\" title=\"Special:EmailUser/Peter17\">Peter Potrowl</a> to negotiate terms.\n</p><p>More free pictures in my <a rel=\"nofollow\" class=\"external text\" href=\"https://www.sitemai.eu\">website</a>. Donations are accepted <a rel=\"nofollow\" class=\"external text\" href=\"https://paypal.me/Peter017\">here</a> and <a rel=\"nofollow\" class=\"external text\" href=\"https://buymeacoffee.com/peter17\">here</a>.\n</p>\n</td></tr></tbody></table>",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         }
       ]
     },
@@ -136,9 +145,38 @@
       "label": "Église Notre-Dame-de-l’Assomption",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/BIDART_%28Pyr%C3%A9n%C3%A9es-Atlantiques%29_%C3%A9glise.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABIDART%20(Pyr%C3%A9n%C3%A9es-Atlantiques)%20%C3%A9glise.JPG",
+          "title": "BIDART (Pyrénées-Atlantiques) église.JPG",
+          "description": "Vue de l'église de Bidart (côté nord).",
+          "width": 4608,
+          "height": 3456,
+          "size": 4404754,
+          "timestamp": "2015-07-15T12:51:47Z",
+          "author": "Thomon",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/%C3%89glise_Bidart_28082014.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Bidart%2028082014.JPG",
+          "title": "Église Bidart 28082014.JPG",
+          "description": "Église de Bidart vue de la RD 810.",
+          "width": 3872,
+          "height": 2592,
+          "size": 3407172,
+          "timestamp": "2014-09-01T22:35:12Z",
+          "author": "Kvardek du",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Jasokundeko_Andre_Mariaren_eliza_%28Bidarte%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJasokundeko%20Andre%20Mariaren%20eliza%20(Bidarte).jpg",
           "title": "Jasokundeko Andre Mariaren eliza (Bidarte).jpg",
+          "description": "Jasokundeko Andre Mariaren eliza Bidarten (Lapurdi)",
           "width": 4000,
           "height": 3000,
           "size": 2858469,
@@ -147,32 +185,6 @@
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/%C3%89glise_de_Bidart_Sud.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20de%20Bidart%20Sud.JPG",
-          "title": "Église de Bidart Sud.JPG",
-          "width": 4608,
-          "height": 3456,
-          "size": 4220694,
-          "timestamp": "2015-07-15T12:35:14Z",
-          "author": "Thomon",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/BIDART_%28Pyr%C3%A9n%C3%A9es-Atlantiques%29_%C3%A9glise.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABIDART%20(Pyr%C3%A9n%C3%A9es-Atlantiques)%20%C3%A9glise.JPG",
-          "title": "BIDART (Pyrénées-Atlantiques) église.JPG",
-          "width": 4608,
-          "height": 3456,
-          "size": 4404754,
-          "timestamp": "2015-07-15T12:51:47Z",
-          "author": "Thomon",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
         }
       ]
     }

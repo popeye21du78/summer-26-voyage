@@ -1,25 +1,13 @@
 {
   "slug": "bareges",
   "nom": "Barèges",
-  "fetchedAt": "2026-03-13T00:06:35.771Z",
+  "fetchedAt": "2026-03-15T19:17:20.139Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Geranium_phaeum_151163519.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGeranium%20phaeum%20151163519.jpg",
-      "title": "Geranium phaeum 151163519.jpg",
-      "width": 1280,
-      "height": 960,
-      "size": 494315,
-      "timestamp": "2022-05-12T18:07:23Z",
-      "author": "François-Xavier Taxil",
-      "license": "CC BY 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/%C3%89cole_de_Bar%C3%A8ges_%28Hautes-Pyr%C3%A9n%C3%A9es%29_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89cole%20de%20Bar%C3%A8ges%20(Hautes-Pyr%C3%A9n%C3%A9es)%201.jpg",
       "title": "École de Barèges (Hautes-Pyrénées) 1.jpg",
+      "description": "École de Barèges (Hautes-Pyrénées)",
       "width": 5140,
       "height": 3426,
       "size": 2706691,
@@ -33,10 +21,25 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Foyer_rural_de_Bar%C3%A8ges_%28Hautes-Pyr%C3%A9n%C3%A9es%29_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFoyer%20rural%20de%20Bar%C3%A8ges%20(Hautes-Pyr%C3%A9n%C3%A9es)%201.jpg",
       "title": "Foyer rural de Barèges (Hautes-Pyrénées) 1.jpg",
+      "description": "Foyer rural de Barèges (Hautes-Pyrénées)",
       "width": 4274,
       "height": 3126,
       "size": 2377688,
       "timestamp": "2025-12-18T08:09:30Z",
+      "author": "Sotos",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Centre_de_secours_de_Bar%C3%A8ges_%28Hautes-Pyr%C3%A9n%C3%A9es%29_1.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACentre%20de%20secours%20de%20Bar%C3%A8ges%20(Hautes-Pyr%C3%A9n%C3%A9es)%201.jpg",
+      "title": "Centre de secours de Barèges (Hautes-Pyrénées) 1.jpg",
+      "description": "Centre de secours de Barèges (Hautes-Pyrénées)",
+      "width": 4251,
+      "height": 2647,
+      "size": 2275470,
+      "timestamp": "2025-12-18T08:24:39Z",
       "author": "Sotos",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
@@ -48,9 +51,24 @@
       "label": "Église Saint-Pierre de Barèges",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Luz_en_regardant_la_Vall%C3%A9e_de_Bar%C3%A8ges_%28Hautes-Pyr%C3%A9n%C3%A9es%29_-_btv1b10572232s.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALuz%20en%20regardant%20la%20Vall%C3%A9e%20de%20Bar%C3%A8ges%20(Hautes-Pyr%C3%A9n%C3%A9es)%20-%20btv1b10572232s.jpg",
+          "title": "Luz en regardant la Vallée de Barèges (Hautes-Pyrénées) - btv1b10572232s.jpg",
+          "description": "Sujet : Stations climatiques, thermales, etc. -- Luz-Saint-Sauveur (Hautes-Pyrénées, France) -- 19e siècle\nMontagnes -- Luz-Saint-Sauveur (Hautes-Pyrénées, France) -- 19e siècle\nRuines\nHautes-Pyrénées (France)\nLuz-Saint-Sauveur (Hautes-Pyrénées, France)\nVille\nMaison\nEglise\nClocher\nChâteau\nAppartient à l’ensemble documentaire : RsAlis000\nAppartient à l’ensemble documentaire : RsAlis009\nAppartient à l’ensemble documentaire : PrnS001\nLangue : français\n\nÉditeur : Thierry frères (A Paris)",
+          "width": 5760,
+          "height": 3968,
+          "size": 3850827,
+          "timestamp": "2024-10-27T12:41:10Z",
+          "author": "<div class=\"fn value\">\n<p>Paris, Edouard. Fonction indéterminée\n</p>\nThierry. Fonction indéterminée</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/St._Sauveur_%28Hautes-Pyr%C3%A9n%C3%A9es_-_Vall%C3%A9e_de_Bar%C3%A8ges%29_-_btv1b10572824j.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt.%20Sauveur%20(Hautes-Pyr%C3%A9n%C3%A9es%20-%20Vall%C3%A9e%20de%20Bar%C3%A8ges)%20-%20btv1b10572824j.jpg",
           "title": "St. Sauveur (Hautes-Pyrénées - Vallée de Barèges) - btv1b10572824j.jpg",
+          "description": "Sujet : Montagnes -- Hautes-Pyrénées (France) -- 19e siècle\nVues topographiques -- Hautes-Pyrénées (France) -- 19e siècle\nVues topographiques -- Luz-Saint-Sauveur (Hautes-Pyrénées, France) -- 19e siècle\nHautes-Pyrénées (France)\nLuz-Saint-Sauveur (Hautes-Pyrénées, France)\nVille\nMontagne\nMaison\nEglise\nHalle\nBarèges, Vallée de (Hautes-Pyrénées)\nAppartient à l’ensemble documentaire : RsAlis000\nAppartient à l’ensemble documentaire : RsAlis009\nAppartient à l’ensemble documentaire : PrnS001\nLangue : fr",
           "width": 4184,
           "height": 3196,
           "size": 1968131,
@@ -64,6 +82,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Hautes_Pyr%C3%A9n%C3%A9es_-_Luz_et_Bar%C3%A8ges_-_btv1b10572836v.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHautes%20Pyr%C3%A9n%C3%A9es%20-%20Luz%20et%20Bar%C3%A8ges%20-%20btv1b10572836v.jpg",
           "title": "Hautes Pyrénées - Luz et Barèges - btv1b10572836v.jpg",
+          "description": "Sujet : Vues topographiques -- Hautes-Pyrénées (France) -- 19e siècle\nMoeurs et coutumes -- Hautes-Pyrénées (France) -- 19e siècle\nCostume -- Luz-Saint-Sauveur (Hautes-Pyrénées, France) -- 19e siècle\nCommerçants ambulants -- Hautes-Pyrénées (France) -- Luz-Saint-Sauveur (Hautes-Pyrénées, France) -- 19e siècle\nHautes-Pyrénées (France)\nLuz-Saint-Sauveur (Hautes-Pyrénées, France)\nEglises fortifiées -- France -- Luz-Saint-Sauveur (Hautes-Pyrénées) -- 19e siècle\nVille\nEglise\nRempart\nAppartient à l’en",
           "width": 4080,
           "height": 3184,
           "size": 1636918,
@@ -79,9 +98,38 @@
       "label": "Thermes de Barèges",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Plan_des_bains_de_Bar%C3%A8ges_-_dessin_-_btv1b6937193v_%281_of_2%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlan%20des%20bains%20de%20Bar%C3%A8ges%20-%20dessin%20-%20btv1b6937193v%20(1%20of%202).jpg",
+          "title": "Plan des bains de Barèges - dessin - btv1b6937193v (1 of 2).jpg",
+          "description": "Sujet : Barèges (Hautes-Pyrénées, France) -- Thermes\nDessins et plans -- 17e siècle\nRéférence bibliographique : Robert de Cotte, 433\nRéférence bibliographique : Fossier, 169\nAppartient à l’ensemble documentaire : Des18Cotte\nAppartient à l’ensemble documentaire : MidiPyren1\nAppartient à l’ensemble documentaire : RsAlis000\nAppartient à l’ensemble documentaire : RsAlis005\nAppartient à l’ensemble documentaire : RsAlis009\nAppartient à l’ensemble documentaire : PrnS001\nPlan\n\nLangue : français",
+          "width": 4876,
+          "height": 3317,
+          "size": 1428531,
+          "timestamp": "2024-10-26T20:29:26Z",
+          "author": "Inconnu",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Plan_des_bains_de_Bar%C3%A8ges_-_dessin_-_btv1b6937193v_%282_of_2%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlan%20des%20bains%20de%20Bar%C3%A8ges%20-%20dessin%20-%20btv1b6937193v%20(2%20of%202).jpg",
+          "title": "Plan des bains de Barèges - dessin - btv1b6937193v (2 of 2).jpg",
+          "description": "Sujet : Barèges (Hautes-Pyrénées, France) -- Thermes\nDessins et plans -- 17e siècle\nRéférence bibliographique : Robert de Cotte, 433\nRéférence bibliographique : Fossier, 169\nAppartient à l’ensemble documentaire : Des18Cotte\nAppartient à l’ensemble documentaire : MidiPyren1\nAppartient à l’ensemble documentaire : RsAlis000\nAppartient à l’ensemble documentaire : RsAlis005\nAppartient à l’ensemble documentaire : RsAlis009\nAppartient à l’ensemble documentaire : PrnS001\nPlan\n\nLangue : français",
+          "width": 4900,
+          "height": 3266,
+          "size": 1193682,
+          "timestamp": "2024-10-26T20:29:37Z",
+          "author": "Inconnu",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Thermes_de_Bar%C3%A8ges_en_regardant_Luz_%28Hautes-Pyr%C3%A9n%C3%A9es%29_-_btv1b105722282.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AThermes%20de%20Bar%C3%A8ges%20en%20regardant%20Luz%20(Hautes-Pyr%C3%A9n%C3%A9es)%20-%20btv1b105722282.jpg",
           "title": "Thermes de Barèges en regardant Luz (Hautes-Pyrénées) - btv1b105722282.jpg",
+          "description": "Sujet : Montagnes -- Barèges (Hautes-Pyrénées, France) -- 19e siècle\nStations climatiques, thermales, etc. -- Barèges (Hautes-Pyrénées, France) -- 19e siècle\nPastoralisme -- Barèges (Hautes-Pyrénées, France) -- 19e siècle\nHautes-Pyrénées (France)\nBarèges (Hautes-Pyrénées, France)\nVille\nMaison\nVallée\nMontagne\nSapin\nAppartient à l’ensemble documentaire : RsAlis000\nAppartient à l’ensemble documentaire : RsAlis009\nAppartient à l’ensemble documentaire : PrnS001\nLangue : français\n\nÉditeur : Thierry fr",
           "width": 5760,
           "height": 3880,
           "size": 3446826,
@@ -90,29 +138,50 @@
           "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
-        },
+        }
+      ]
+    },
+    {
+      "label": "Pont sur le Bastan",
+      "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Thermes_de_Bar%C3%A8ges_en_regardant_le_Tourmalet_-_PARIS%2C_Edouard_-_btv1b10568144g.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AThermes%20de%20Bar%C3%A8ges%20en%20regardant%20le%20Tourmalet%20-%20PARIS%2C%20Edouard%20-%20btv1b10568144g.jpg",
-          "title": "Thermes de Barèges en regardant le Tourmalet - PARIS, Edouard - btv1b10568144g.jpg",
-          "width": 3491,
-          "height": 2250,
-          "size": 779182,
-          "timestamp": "2024-10-29T06:58:35Z",
-          "author": "<div class=\"fn value\">\nPARIS, Edouard. Fonction indéterminée</div>",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Bar%C3%A8ges-les-Bains_-_Vue_prise_au-dessus_de_la_route_-_Fonds_Ancely_-_B315556101_A_PETIT_3_024.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABar%C3%A8ges-les-Bains%20-%20Vue%20prise%20au-dessus%20de%20la%20route%20-%20Fonds%20Ancely%20-%20B315556101%20A%20PETIT%203%20024.jpg",
+          "title": "Barèges-les-Bains - Vue prise au-dessus de la route - Fonds Ancely - B315556101 A PETIT 3 024.jpg",
+          "description": "Fait partie d'un recueil de deux albums (Bagnères de Luchon et ses environs; Souvenirs des Pyrénées) composés d'une page de titre lithographiée et de lithographies.\nVignettes aux titres : Hospice de Luchon (Haute-Vallée de la Pique) (en couleurs) et Pont Napoléon, à Saint-Sauveur.\nDulon publie à plusieurs reprises, après Souvenirs des Pyrénées (album de 30 pl. (cf. A-PETIT (1)), des recueils de vues de Luchon et autres sites des Pyrénées par Victor Petit, dont la composition est très variable. L",
+          "width": 2336,
+          "height": 1596,
+          "size": 819762,
+          "timestamp": "2020-12-28T15:41:15Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q3557496\" class=\"extiw\" title=\"d:Q3557496\"><span title=\"1817?-1871 French lithographer, architectural draftsman, writer (1817–1871)\">Victor Petit</span></a></bdi>",
           "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Thermes_de_Bar%C3%A8ges_-_PARIS%2C_Edouard_-_btv1b105681431.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AThermes%20de%20Bar%C3%A8ges%20-%20PARIS%2C%20Edouard%20-%20btv1b105681431.jpg",
-          "title": "Thermes de Barèges - PARIS, Edouard - btv1b105681431.jpg",
-          "width": 3228,
-          "height": 2227,
-          "size": 519450,
-          "timestamp": "2025-02-25T17:34:43Z",
-          "author": "<div class=\"fn value\">\nPARIS, Edouard. Fonction indéterminée</div>",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Vue_de_Bar%C3%A8ges_%28Hautes_Pyr%C3%A9n%C3%A9es%29_-_Fonds_Ancely_-_B315556101_A_DEFER_011.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20de%20Bar%C3%A8ges%20(Hautes%20Pyr%C3%A9n%C3%A9es)%20-%20Fonds%20Ancely%20-%20B315556101%20A%20DEFER%20011.jpg",
+          "title": "Vue de Barèges (Hautes Pyrénées) - Fonds Ancely - B315556101 A DEFER 011.jpg",
+          "description": "L'ouvrage est paru vers 1843 en plusieurs livraisons : la couverture de chaque livraison porte le titre simplifié \"Souvenirs des Pyrennées (sic)\" et est illustrée d'une vue des Sources de la Garonne.\n49 lithographies numérotées de 1 à 48, la dernière n'étant pas chiffrée.  Chaque planche porte en haut, la mention du département correspondant au sujet. - Page de couverture portant le titre simplifié \"Souvenirs pittoresques des Pyrennées\" et une vue intitulée \"Sources de la Garonne\". - Suivie d'un",
+          "width": 2030,
+          "height": 1353,
+          "size": 589571,
+          "timestamp": "2013-05-10T12:17:09Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q18508354\" class=\"extiw\" title=\"d:Q18508354\">Jean-Joseph-Jules Defer</a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Route_de_Bagn%C3%A8res_%28correction_ms.%2C_Bar%C3%A8ges%29_%C3%A0_Luz_%28Hautes_Pyr%C3%A9n%C3%A9es%29_-_Fonds_Ancely_-_B315556101_A_DEFER_049.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARoute%20de%20Bagn%C3%A8res%20(correction%20ms.%2C%20Bar%C3%A8ges)%20%C3%A0%20Luz%20(Hautes%20Pyr%C3%A9n%C3%A9es)%20-%20Fonds%20Ancely%20-%20B315556101%20A%20DEFER%20049.jpg",
+          "title": "Route de Bagnères (correction ms., Barèges) à Luz (Hautes Pyrénées) - Fonds Ancely - B315556101 A DEFER 049.jpg",
+          "description": "L'ouvrage est paru vers 1843 en plusieurs livraisons : la couverture de chaque livraison porte le titre simplifié \"Souvenirs des Pyrennées (sic)\" et est illustrée d'une vue des Sources de la Garonne.\n49 lithographies numérotées de 1 à 48, la dernière n'étant pas chiffrée.  Chaque planche porte en haut, la mention du département correspondant au sujet. - Page de couverture portant le titre simplifié \"Souvenirs pittoresques des Pyrennées\" et une vue intitulée \"Sources de la Garonne\". - Suivie d'un",
+          "width": 2054,
+          "height": 1481,
+          "size": 678735,
+          "timestamp": "2013-05-24T09:00:41Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q18508354\" class=\"extiw\" title=\"d:Q18508354\">Jean-Joseph-Jules Defer</a></bdi>",
           "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
@@ -120,12 +189,23 @@
       ]
     },
     {
-      "label": "Pont sur le Bastan",
-      "photos": []
-    },
-    {
       "label": "Plateau du Lienz",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Maison_prot%C3%A9g%C3%A9e_contre_les_avalanches%2C_plateau_de_Midon_%C3%A0_Bar%C3%A8ges_-_Fron_-_btv1b10684087m.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison%20prot%C3%A9g%C3%A9e%20contre%20les%20avalanches%2C%20plateau%20de%20Midon%20%C3%A0%20Bar%C3%A8ges%20-%20Fron%20-%20btv1b10684087m.jpg",
+          "title": "Maison protégée contre les avalanches, plateau de Midon à Barèges - Fron - btv1b10684087m.jpg",
+          "description": "Sujet : Cours d'eau\nBarèges (Hautes-Pyrénées, France)\nHautes-Alpes\nAppartient à l’ensemble documentaire : Inr000\nAppartient à l’ensemble documentaire : Inr001\n\nLangue : français",
+          "width": 3000,
+          "height": 2358,
+          "size": 640574,
+          "timestamp": "2025-03-07T04:39:36Z",
+          "author": "<div class=\"fn value\">\nFron. Photographe</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

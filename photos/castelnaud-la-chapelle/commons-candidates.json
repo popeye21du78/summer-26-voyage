@@ -1,38 +1,13 @@
 {
   "slug": "castelnaud-la-chapelle",
   "nom": "Castelnaud-la-Chapelle",
-  "fetchedAt": "2026-03-13T12:31:26.309Z",
+  "fetchedAt": "2026-03-15T20:48:20.044Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Castelnaud-la-Chapelle%2C_Dordogne_-_France_%286241758620%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACastelnaud-la-Chapelle%2C%20Dordogne%20-%20France%20(6241758620).jpg",
-      "title": "Castelnaud-la-Chapelle, Dordogne - France (6241758620).jpg",
-      "width": 3780,
-      "height": 2580,
-      "size": 5848447,
-      "timestamp": "2015-03-03T23:58:52Z",
-      "author": "Mic",
-      "license": "CC BY 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Castelnaud-la-Chapelle%2C_Dordogne_-_France_%286241245997%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACastelnaud-la-Chapelle%2C%20Dordogne%20-%20France%20(6241245997).jpg",
-      "title": "Castelnaud-la-Chapelle, Dordogne - France (6241245997).jpg",
-      "width": 3965,
-      "height": 2689,
-      "size": 6128591,
-      "timestamp": "2015-03-03T23:58:57Z",
-      "author": "Mic",
-      "license": "CC BY 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Ch%C3%A2teau_de_Castelnaud_-_panoramio_-_Infernal_Quack_%28Shif%E2%80%A6.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Castelnaud%20-%20panoramio%20-%20Infernal%20Quack%20(Shif%E2%80%A6.jpg",
       "title": "Château de Castelnaud - panoramio - Infernal Quack (Shif….jpg",
+      "description": "Château de Castelnaud",
       "width": 1632,
       "height": 1224,
       "size": 337223,
@@ -40,7 +15,35 @@
       "author": "Infernal Quack (Shif…",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/1_Castelnaud-la-Chapelle_2016.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1%20Castelnaud-la-Chapelle%202016.jpg",
+      "title": "1 Castelnaud-la-Chapelle 2016.jpg",
+      "description": "aerial panorama Castelnaud-la-Chapelle 2016 dordogne",
+      "width": 6645,
+      "height": 3513,
+      "size": 13028516,
+      "timestamp": "2016-07-24T13:55:53Z",
+      "author": "Chensiyuan",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Ribaudequin_-_Ch%C3%A2teau_de_Castelnaud_-_20090926.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARibaudequin%20-%20Ch%C3%A2teau%20de%20Castelnaud%20-%2020090926.jpg",
+      "title": "Ribaudequin - Château de Castelnaud - 20090926.jpg",
+      "description": "Ribauldequin (or organ gun), 16th century, Germany. This mobile weapon consisting of 12 barrels of 66.5 cm long, can shoot lead balls of 16 to 18 mm. The frame was reconstructed from a drawing by Leonardo da Vinci. Photo taken in the Château de Castelnaud, Castelnaud-la-Chapelle, Dordogne, Aquitaine, France.",
+      "width": 3888,
+      "height": 2592,
+      "size": 1938423,
+      "timestamp": "2010-01-16T09:54:16Z",
+      "author": "Sémhur",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
     }
   ],
   "lieux": [
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Castelnaud-la-Chapelle_-_View_from_Chemin_de_Halage_-_2.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACastelnaud-la-Chapelle%20-%20View%20from%20Chemin%20de%20Halage%20-%202.jpg",
           "title": "Castelnaud-la-Chapelle - View from Chemin de Halage - 2.jpg",
+          "description": "Vézac (Dordogne, France) - Towpath from La Roque-Gageac and Castelnaud-la-Chapelle, with a view of Castelnaud castle and village",
           "width": 6446,
           "height": 4301,
           "size": 16004816,
@@ -58,12 +62,13 @@
           "author": "Benjamin Smith",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Castelnaud-la-Chapelle_-_View_from_the_church_parvise.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACastelnaud-la-Chapelle%20-%20View%20from%20the%20church%20parvise.jpg",
           "title": "Castelnaud-la-Chapelle - View from the church parvise.jpg",
+          "description": "Castelnaud-la-Chapelle (Dordogne, France) - View of the village and castle from St. Michael's church parvise",
           "width": 6255,
           "height": 4483,
           "size": 12631020,
@@ -71,17 +76,65 @@
           "author": "Benjamin Smith",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Castelnaud-la-Chapelle_-_Pont_de_Castelnaud.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACastelnaud-la-Chapelle%20-%20Pont%20de%20Castelnaud.jpg",
+          "title": "Castelnaud-la-Chapelle - Pont de Castelnaud.jpg",
+          "description": "Castelnaud-la-Chapelle (Dordogne, France) - Le pont de Castelnaud vu depuis le château",
+          "width": 6720,
+          "height": 4480,
+          "size": 15565299,
+          "timestamp": "2024-11-10T12:35:20Z",
+          "author": "Benjamin Smith",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
+    },
+    {
+      "label": "Église Saint-Michel",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/La_Chapelle-P%C3%A9chaud_%C3%A9glise_%281%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Chapelle-P%C3%A9chaud%20%C3%A9glise%20(1).jpg",
+          "title": "La Chapelle-Péchaud église (1).jpg",
+          "description": "L'église de La Chapelle-Péchaud, Castelnaud-la-Chapelle, Dordogne, France.",
+          "width": 3107,
+          "height": 2330,
+          "size": 1682403,
+          "timestamp": "2022-07-22T17:22:14Z",
+          "author": "Père Igor",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Castelnaud-la-Chapelle_-_Ch%C3%A2teau_de_Castelnaud_-_02.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACastelnaud-la-Chapelle%20-%20Ch%C3%A2teau%20de%20Castelnaud%20-%2002.jpg",
-          "title": "Castelnaud-la-Chapelle - Château de Castelnaud - 02.jpg",
-          "width": 6574,
-          "height": 4387,
-          "size": 10441771,
-          "timestamp": "2024-11-10T13:01:18Z",
-          "author": "Benjamin Smith",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/La_Chapelle-P%C3%A9chaud_%C3%A9glise_%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Chapelle-P%C3%A9chaud%20%C3%A9glise%20(2).jpg",
+          "title": "La Chapelle-Péchaud église (2).jpg",
+          "description": "L'église de La Chapelle-Péchaud, Castelnaud-la-Chapelle, Dordogne, France.",
+          "width": 2893,
+          "height": 2171,
+          "size": 1201995,
+          "timestamp": "2022-07-22T17:22:14Z",
+          "author": "Père Igor",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/La_Chapelle-P%C3%A9chaud_%C3%A9glise_cloche.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Chapelle-P%C3%A9chaud%20%C3%A9glise%20cloche.jpg",
+          "title": "La Chapelle-Péchaud église cloche.jpg",
+          "description": "La cloche de l'église de La Chapelle-Péchaud, Castelnaud-la-Chapelle, Dordogne, France.",
+          "width": 3264,
+          "height": 2448,
+          "size": 1234955,
+          "timestamp": "2022-07-22T17:22:16Z",
+          "author": "Père Igor",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
@@ -89,16 +142,55 @@
       ]
     },
     {
-      "label": "Église Saint-Michel",
-      "photos": []
-    },
-    {
       "label": "Plage sur la Dordogne",
       "photos": []
     },
     {
       "label": "Lavoir du village",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Castelnaud_Lacoste_lavoir.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACastelnaud%20Lacoste%20lavoir.JPG",
+          "title": "Castelnaud Lacoste lavoir.JPG",
+          "description": "Lavoir dans le parc du château de Lacoste, Castelnaud-la-Chapelle, Dordogne, France.",
+          "width": 3264,
+          "height": 2448,
+          "size": 4219410,
+          "timestamp": "2012-10-13T08:44:05Z",
+          "author": "Père Igor",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Castelnaud_Lacoste_lavoir_%282%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACastelnaud%20Lacoste%20lavoir%20(2).JPG",
+          "title": "Castelnaud Lacoste lavoir (2).JPG",
+          "description": "Lavoir dans le parc du château de Lacoste, Castelnaud-la-Chapelle, Dordogne, France.",
+          "width": 3264,
+          "height": 2448,
+          "size": 3996784,
+          "timestamp": "2012-10-13T08:44:07Z",
+          "author": "Père Igor",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/La_Chapelle-P%C3%A9chaud_lavoir_%281%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Chapelle-P%C3%A9chaud%20lavoir%20(1).jpg",
+          "title": "La Chapelle-Péchaud lavoir (1).jpg",
+          "description": "Lavoir à La Chapelle-Péchaud, Castelnaud-la-Chapelle, Dordogne, France.",
+          "width": 3075,
+          "height": 2307,
+          "size": 2209754,
+          "timestamp": "2022-07-22T16:24:10Z",
+          "author": "Père Igor",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

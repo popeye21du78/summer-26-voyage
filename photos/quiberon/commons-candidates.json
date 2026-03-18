@@ -1,12 +1,41 @@
 {
   "slug": "quiberon",
   "nom": "Quiberon",
-  "fetchedAt": "2026-03-14T11:41:03.930Z",
+  "fetchedAt": "2026-03-18T17:19:59.461Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Grand_Plage_Quiberon-41386.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrand%20Plage%20Quiberon-41386.jpg",
+      "title": "Grand Plage Quiberon-41386.jpg",
+      "description": "Grand Plage Quiberon, Panorama",
+      "width": 13370,
+      "height": 3930,
+      "size": 31857881,
+      "timestamp": "2024-01-04T07:48:24Z",
+      "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q108103612\" class=\"extiw\" title=\"d:Q108103612\"><span title=\"Wikipedian and OpenStreetMap mapper from Cologne, Open Data activist\">Raimond Spekking</span></a></bdi>",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Grand_Plage_Quiberon-41389.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrand%20Plage%20Quiberon-41389.jpg",
+      "title": "Grand Plage Quiberon-41389.jpg",
+      "description": "Grand Plage Quiberon, Panorama",
+      "width": 8340,
+      "height": 3545,
+      "size": 17939454,
+      "timestamp": "2024-01-04T07:55:22Z",
+      "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q108103612\" class=\"extiw\" title=\"d:Q108103612\"><span title=\"Wikipedian and OpenStreetMap mapper from Cologne, Open Data activist\">Raimond Spekking</span></a></bdi>",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Grand_Plage_Quiberon-41384.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrand%20Plage%20Quiberon-41384.jpg",
       "title": "Grand Plage Quiberon-41384.jpg",
+      "description": "Grand Plage Quiberon",
       "width": 8990,
       "height": 4102,
       "size": 17730398,
@@ -15,38 +44,55 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Morbihan_Quiberon_La_Grand_Plage_La_Brasserie_24092016_-_panoramio.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMorbihan%20Quiberon%20La%20Grand%20Plage%20La%20Brasserie%2024092016%20-%20panoramio.jpg",
-      "title": "Morbihan Quiberon La Grand Plage La Brasserie 24092016 - panoramio.jpg",
-      "width": 2592,
-      "height": 1936,
-      "size": 1507414,
-      "timestamp": "2016-10-18T01:18:27Z",
-      "author": "rene boulay",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Morbihan_Quiberon_La_Grand_Plage_La_Brasserie_24092016_-_panoramio_-_rene_boulay.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMorbihan%20Quiberon%20La%20Grand%20Plage%20La%20Brasserie%2024092016%20-%20panoramio%20-%20rene%20boulay.jpg",
-      "title": "Morbihan Quiberon La Grand Plage La Brasserie 24092016 - panoramio - rene boulay.jpg",
-      "width": 2612,
-      "height": 1919,
-      "size": 1286855,
-      "timestamp": "2016-10-18T01:19:26Z",
-      "author": "rene boulay",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
     }
   ],
   "lieux": [
     {
       "label": "Côte Sauvage (sentier côtier)",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/C%C3%B4te_Sauvage_%28Quiberon%29-Jute_blankets-02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AC%C3%B4te%20Sauvage%20(Quiberon)-Jute%20blankets-02.jpg",
+          "title": "Côte Sauvage (Quiberon)-Jute blankets-02.jpg",
+          "description": "Travaux de restauration de la végétation sur la Côte Sauvage (Presqu'île de Quiberon). Treillis dégradables retenant le sol.",
+          "width": 2684,
+          "height": 2021,
+          "size": 1973709,
+          "timestamp": "2025-11-02T13:53:50Z",
+          "author": "MHM55",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/C%C3%B4te_Sauvage_%28Quiberon%29-Jute_blankets-03.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AC%C3%B4te%20Sauvage%20(Quiberon)-Jute%20blankets-03.jpg",
+          "title": "Côte Sauvage (Quiberon)-Jute blankets-03.jpg",
+          "description": "Travaux de restauration de la végétation sur la Côte Sauvage (Presqu'île de Quiberon). Treillis dégradables retenant le sol.",
+          "width": 2282,
+          "height": 1841,
+          "size": 1663330,
+          "timestamp": "2025-11-02T13:54:01Z",
+          "author": "MHM55",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/C%C3%B4te_Sauvage_%28Quiberon%29-Jute_blankets-05.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AC%C3%B4te%20Sauvage%20(Quiberon)-Jute%20blankets-05.jpg",
+          "title": "Côte Sauvage (Quiberon)-Jute blankets-05.jpg",
+          "description": "Travaux de restauration de la végétation sur la Côte Sauvage (Presqu'île de Quiberon). Treillis dégradables retenant le sol.",
+          "width": 2304,
+          "height": 1708,
+          "size": 1395596,
+          "timestamp": "2025-11-02T13:54:06Z",
+          "author": "MHM55",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Château Turpault",
@@ -55,6 +101,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/France_Bretagne_56_Quiberon_01.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20Bretagne%2056%20Quiberon%2001.jpg",
           "title": "France Bretagne 56 Quiberon 01.jpg",
+          "description": "Quiberon, château Turpault",
           "width": 3008,
           "height": 2000,
           "size": 3041768,
@@ -62,33 +109,35 @@
           "author": "Calips",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Chateau_Turpault_-_dsmm05234.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau%20Turpault%20-%20dsmm05234.jpg",
-          "title": "Chateau Turpault - dsmm05234.jpg",
-          "width": 4636,
-          "height": 2586,
-          "size": 5223051,
-          "timestamp": "2021-05-17T10:11:00Z",
-          "author": "Pmau",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/La_c%C3%B4te_sauvage_%C3%A0_la_pointe_de_la_Presqu%27%C3%AEle_de_Quiberon_2012_%289%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20c%C3%B4te%20sauvage%20%C3%A0%20la%20pointe%20de%20la%20Presqu'%C3%AEle%20de%20Quiberon%202012%20(9).jpg",
+          "title": "La côte sauvage à la pointe de la Presqu'île de Quiberon 2012 (9).jpg",
+          "description": "Le Château Turpault vu de la côte sauvage à la pointe de la Presqu'île de Quiberon   Morbihan,  France",
+          "width": 4000,
+          "height": 3000,
+          "size": 6998433,
+          "timestamp": "2022-03-26T16:28:13Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q97949455\" class=\"extiw\" title=\"d:Q97949455\"><span title=\"French photographer and Wikimedian\">Pierre André Leclercq</span></a></bdi>",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Chateau_Turpault_-_dsmm05235.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau%20Turpault%20-%20dsmm05235.jpg",
-          "title": "Chateau Turpault - dsmm05235.jpg",
-          "width": 4097,
-          "height": 2437,
-          "size": 4841587,
-          "timestamp": "2021-05-17T10:11:01Z",
-          "author": "Pmau",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Le_Chateau_Turpault%2C_%28pointe_de_Beg_er_Lann%29.-_Quiberon_bis_%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Chateau%20Turpault%2C%20(pointe%20de%20Beg%20er%20Lann).-%20Quiberon%20bis%20(2).jpg",
+          "title": "Le Chateau Turpault, (pointe de Beg er Lann).- Quiberon bis (2).jpg",
+          "description": "Le Château Turpault vu de la côte sauvage à la pointe de la Presqu'île de Quiberon   Morbihan,  France",
+          "width": 4000,
+          "height": 2274,
+          "size": 5131585,
+          "timestamp": "2022-03-26T17:00:34Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q97949455\" class=\"extiw\" title=\"d:Q97949455\"><span title=\"French photographer and Wikimedian\">Pierre André Leclercq</span></a></bdi>",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         }
       ]
     },
@@ -99,6 +148,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Plaque_retour_Dreyfus_Quiberon_Port-Haliguen.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlaque%20retour%20Dreyfus%20Quiberon%20Port-Haliguen.jpg",
           "title": "Plaque retour Dreyfus Quiberon Port-Haliguen.jpg",
+          "description": "Plaque commémorant le retour d'Alfred Dreyfus de l'île du Diable (Guyane) le 1er juillet 1899, au Port-Haliguen de Quiberon. Plaque apposée le 17 juillet 1932 par la ligue française des droits de l'homme et du citoyen.",
           "width": 3968,
           "height": 2976,
           "size": 3038198,
@@ -112,6 +162,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Port_Haliguen%2C_Quiberon%2C_Brittany_%286961945127%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APort%20Haliguen%2C%20Quiberon%2C%20Brittany%20(6961945127).jpg",
           "title": "Port Haliguen, Quiberon, Brittany (6961945127).jpg",
+          "description": "Port Haliguen, Quiberon, Brittany",
           "width": 1280,
           "height": 1024,
           "size": 722347,
@@ -122,17 +173,18 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Port_Haliguen_lighthouse_-_panoramio.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APort%20Haliguen%20lighthouse%20-%20panoramio.jpg",
-          "title": "Port Haliguen lighthouse - panoramio.jpg",
-          "width": 1536,
-          "height": 1024,
-          "size": 618101,
-          "timestamp": "2016-11-14T07:25:01Z",
-          "author": "Wee Bugger",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Armand_Jamar_-_Port_de_Quiberon%2C_Bretagne_%281931%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArmand%20Jamar%20-%20Port%20de%20Quiberon%2C%20Bretagne%20(1931).jpg",
+          "title": "Armand Jamar - Port de Quiberon, Bretagne (1931).jpg",
+          "description": "Technique: Oil on canvas\nSize picture (in cm): 74 cm x 54 cm",
+          "width": 1631,
+          "height": 1200,
+          "size": 217676,
+          "timestamp": "2021-10-16T19:06:44Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q21395955\" class=\"extiw\" title=\"d:Q21395955\"><span title=\"Belgian painter (1870-1946)\">Armand Jamar</span></a></bdi>",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         }
       ]
     },
@@ -140,43 +192,46 @@
       "label": "Pointe du Conguel",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Quiberon-ville-2025-15-Conguel.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQuiberon-ville-2025-15-Conguel.jpg",
-          "title": "Quiberon-ville-2025-15-Conguel.jpg",
-          "width": 2154,
-          "height": 1436,
-          "size": 1185086,
-          "timestamp": "2025-11-09T07:53:06Z",
-          "author": "MHM55",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/022_Saint-Pierre-Quiberon_Pointe_du_Percho.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A022%20Saint-Pierre-Quiberon%20Pointe%20du%20Percho.jpg",
+          "title": "022 Saint-Pierre-Quiberon Pointe du Percho.jpg",
+          "description": "Saint-Pierre-Quiberon : la pointe du Percho vue du sud.",
+          "width": 4308,
+          "height": 2150,
+          "size": 4189431,
+          "timestamp": "2021-08-01T04:19:02Z",
+          "author": "Moreau.henri",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Quiberon-ville-2025-16a-Conguel.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQuiberon-ville-2025-16a-Conguel.jpg",
-          "title": "Quiberon-ville-2025-16a-Conguel.jpg",
-          "width": 2860,
-          "height": 1453,
-          "size": 1498165,
-          "timestamp": "2025-11-09T07:53:33Z",
-          "author": "MHM55",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/La_c%C3%B4te_sauvage_%C3%A0_la_pointe_de_la_Presqu%27%C3%AEle_de_Quiberon_2012_%289%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20c%C3%B4te%20sauvage%20%C3%A0%20la%20pointe%20de%20la%20Presqu'%C3%AEle%20de%20Quiberon%202012%20(9).jpg",
+          "title": "La côte sauvage à la pointe de la Presqu'île de Quiberon 2012 (9).jpg",
+          "description": "Le Château Turpault vu de la côte sauvage à la pointe de la Presqu'île de Quiberon   Morbihan,  France",
+          "width": 4000,
+          "height": 3000,
+          "size": 6998433,
+          "timestamp": "2022-03-26T16:28:13Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q97949455\" class=\"extiw\" title=\"d:Q97949455\"><span title=\"French photographer and Wikimedian\">Pierre André Leclercq</span></a></bdi>",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Quiberon-ville-2025-16c-Conguel.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQuiberon-ville-2025-16c-Conguel.jpg",
-          "title": "Quiberon-ville-2025-16c-Conguel.jpg",
-          "width": 3260,
-          "height": 1870,
-          "size": 2328172,
-          "timestamp": "2025-11-09T07:53:58Z",
-          "author": "MHM55",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Le_Chateau_Turpault%2C_%28pointe_de_Beg_er_Lann%29.-_Quiberon_bis_%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Chateau%20Turpault%2C%20(pointe%20de%20Beg%20er%20Lann).-%20Quiberon%20bis%20(2).jpg",
+          "title": "Le Chateau Turpault, (pointe de Beg er Lann).- Quiberon bis (2).jpg",
+          "description": "Le Château Turpault vu de la côte sauvage à la pointe de la Presqu'île de Quiberon   Morbihan,  France",
+          "width": 4000,
+          "height": 2274,
+          "size": 5131585,
+          "timestamp": "2022-03-26T17:00:34Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q97949455\" class=\"extiw\" title=\"d:Q97949455\"><span title=\"French photographer and Wikimedian\">Pierre André Leclercq</span></a></bdi>",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         }
       ]
     }

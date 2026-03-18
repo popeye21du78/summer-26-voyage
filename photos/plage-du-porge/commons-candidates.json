@@ -1,12 +1,13 @@
 {
   "slug": "plage-du-porge",
   "nom": "Plage du Porge",
-  "fetchedAt": "2026-03-14T11:25:33.087Z",
+  "fetchedAt": "2026-03-18T16:37:53.069Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/LE_PORGE_EGLISE_SAINT_SEURIN_INTERIEUR.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALE%20PORGE%20EGLISE%20SAINT%20SEURIN%20INTERIEUR.jpg",
       "title": "LE PORGE EGLISE SAINT SEURIN INTERIEUR.jpg",
+      "description": "Vue de l'intérieur de l'église Saint Seurin Le Porge, la nef centrale, la chaire, l'abside et le chœur.",
       "width": 3351,
       "height": 4260,
       "size": 10324809,
@@ -14,31 +15,19 @@
       "author": "LE PORGE OT",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
+      "score": 2
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/ISS053-E-44881_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS053-E-44881%20-%20View%20of%20Earth.jpg",
-      "title": "ISS053-E-44881 - View of Earth.jpg",
-      "width": 4928,
-      "height": 3280,
-      "size": 2036571,
-      "timestamp": "2021-04-01T10:18:47Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/ISS042-E-80647_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS042-E-80647%20-%20View%20of%20Earth.jpg",
-      "title": "ISS042-E-80647 - View of Earth.jpg",
-      "width": 4928,
-      "height": 3280,
-      "size": 1370561,
-      "timestamp": "2021-08-13T22:20:08Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Porge_Ocean_Coucher_de_soleil.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APorge%20Ocean%20Coucher%20de%20soleil.JPG",
+      "title": "Porge Ocean Coucher de soleil.JPG",
+      "description": "Photo d'un coucher de soleil à la plage du Porge Ocean (Gironde, France)",
+      "width": 4424,
+      "height": 3318,
+      "size": 6221713,
+      "timestamp": "2021-11-10T22:49:40Z",
+      "author": "Michel BUZE",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     }

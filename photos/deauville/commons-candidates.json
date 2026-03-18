@@ -1,12 +1,13 @@
 {
   "slug": "deauville",
   "nom": "Deauville",
-  "fetchedAt": "2026-03-13T14:02:45.127Z",
+  "fetchedAt": "2026-03-16T12:38:39.119Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Deauville_-_Place_Morny_-_View_NNW.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADeauville%20-%20Place%20Morny%20-%20View%20NNW.jpg",
       "title": "Deauville - Place Morny - View NNW.jpg",
+      "description": "Deauville - Place Morny - View NNW",
       "width": 3024,
       "height": 2016,
       "size": 2661174,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Deauville_-_Place_Morny_-_View_North.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADeauville%20-%20Place%20Morny%20-%20View%20North.jpg",
       "title": "Deauville - Place Morny - View North.jpg",
+      "description": "Deauville - Place Morny - View North",
       "width": 3024,
       "height": 2016,
       "size": 2752611,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Deauville_-_Place_Morny_-_View_NNE.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADeauville%20-%20Place%20Morny%20-%20View%20NNE.jpg",
       "title": "Deauville - Place Morny - View NNE.jpg",
+      "description": "Deauville - Place Morny - View NNE",
       "width": 3024,
       "height": 2016,
       "size": 2864730,
@@ -46,7 +49,50 @@
   "lieux": [
     {
       "label": "Les Planches (promenade en bois)",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Deauville_2008_PD_32.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADeauville%202008%20PD%2032.JPG",
+          "title": "Deauville 2008 PD 32.JPG",
+          "description": "Deauville, Frankreich",
+          "width": 2248,
+          "height": 1686,
+          "size": 658138,
+          "timestamp": "2020-03-21T02:18:08Z",
+          "author": "Kamel15",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/End_of_the_season._Deauville%2C_France.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEnd%20of%20the%20season.%20Deauville%2C%20France.jpg",
+          "title": "End of the season. Deauville, France.jpg",
+          "description": "End of the season. Deauville, France",
+          "width": 3333,
+          "height": 2125,
+          "size": 4811296,
+          "timestamp": "2021-02-10T07:25:43Z",
+          "author": "Ввласенко",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Promenade_Planches_-_Deauville_%28FR14%29_-_2021-11-12_-_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APromenade%20Planches%20-%20Deauville%20(FR14)%20-%202021-11-12%20-%201.jpg",
+          "title": "Promenade Planches - Deauville (FR14) - 2021-11-12 - 1.jpg",
+          "description": "Promenade des Planches, Deauville.",
+          "width": 4032,
+          "height": 3024,
+          "size": 3654444,
+          "timestamp": "2021-11-15T21:25:19Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Villa Strassburger",
@@ -55,6 +101,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Deauville_2008_PD_04.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADeauville%202008%20PD%2004.JPG",
           "title": "Deauville 2008 PD 04.JPG",
+          "description": "Villa Strassburger (ehemalige villa Rothschild) in Deauville (Calvados, Frankreich)",
           "width": 2272,
           "height": 1704,
           "size": 1546563,
@@ -65,26 +112,28 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Deauville_Villa_Strassburger_01.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADeauville%20Villa%20Strassburger%2001.jpg",
-          "title": "Deauville Villa Strassburger 01.jpg",
-          "width": 4534,
-          "height": 2959,
-          "size": 7455069,
-          "timestamp": "2020-06-17T16:36:34Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Deauville_Villa_Augeval_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADeauville%20Villa%20Augeval%201.jpg",
+          "title": "Deauville Villa Augeval 1.jpg",
+          "description": "Villa Augeval, Deauville, Department of Calvados, Region of Normandy (former Lower Normandy), France",
+          "width": 4172,
+          "height": 3000,
+          "size": 4925643,
+          "timestamp": "2020-06-17T16:36:30Z",
           "author": "Zairon",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Deauville_Villa_Strassburger_02.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADeauville%20Villa%20Strassburger%2002.jpg",
-          "title": "Deauville Villa Strassburger 02.jpg",
-          "width": 4574,
-          "height": 3030,
-          "size": 5105993,
-          "timestamp": "2020-06-17T16:36:35Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Deauville_Villa_Augeval_4.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADeauville%20Villa%20Augeval%204.jpg",
+          "title": "Deauville Villa Augeval 4.jpg",
+          "description": "Villa Augeval, Deauville, Department of Calvados, Region of Normandy (former Lower Normandy), France",
+          "width": 4451,
+          "height": 3158,
+          "size": 5061389,
+          "timestamp": "2020-06-17T16:36:33Z",
           "author": "Zairon",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -99,6 +148,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Hippodrome_-_Deauville_%28FR14%29_-_2021-11-12_-_1.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHippodrome%20-%20Deauville%20(FR14)%20-%202021-11-12%20-%201.jpg",
           "title": "Hippodrome - Deauville (FR14) - 2021-11-12 - 1.jpg",
+          "description": "Hippodrome de Deauville.",
           "width": 4032,
           "height": 3024,
           "size": 5376994,
@@ -112,6 +162,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Hippodrome_-_Deauville_%28FR14%29_-_2021-11-12_-_2.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHippodrome%20-%20Deauville%20(FR14)%20-%202021-11-12%20-%202.jpg",
           "title": "Hippodrome - Deauville (FR14) - 2021-11-12 - 2.jpg",
+          "description": "Hippodrome de Deauville.",
           "width": 4032,
           "height": 3024,
           "size": 3682949,
@@ -122,17 +173,18 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Deauville-La_Touques_racecourse_001.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADeauville-La%20Touques%20racecourse%20001.jpg",
-          "title": "Deauville-La Touques racecourse 001.jpg",
-          "width": 4256,
-          "height": 2832,
-          "size": 7636642,
-          "timestamp": "2011-06-12T16:33:59Z",
-          "author": "Guillaume Paumier",
-          "license": "CC BY 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Deauville%2C_17-8-30%2C_Pearl_Cap_%28cheval_de_course%29_mont%C3%A9_par_Garner%2C_gagnant_du_Prix_Morny_-_%28photographie_de_presse%29_-_%28Agence_Rol%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADeauville%2C%2017-8-30%2C%20Pearl%20Cap%20(cheval%20de%20course)%20mont%C3%A9%20par%20Garner%2C%20gagnant%20du%20Prix%20Morny%20-%20(photographie%20de%20presse)%20-%20(Agence%20Rol).jpg",
+          "title": "Deauville, 17-8-30, Pearl Cap (cheval de course) monté par Garner, gagnant du Prix Morny - (photographie de presse) - (Agence Rol).jpg",
+          "description": "Pearl Cap, winning the Prix Morny (17 August 1930, Deauville). Ridden by Guy Garner.",
+          "width": 1420,
+          "height": 1054,
+          "size": 217009,
+          "timestamp": "2023-10-01T05:28:52Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q18507700\" class=\"extiw\" title=\"d:Q18507700\"><span title=\"French photo agency\">Agence Rol</span></a></bdi>",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
         }
       ]
     }

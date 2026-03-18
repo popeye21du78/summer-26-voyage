@@ -1,12 +1,13 @@
 {
   "slug": "champigny-sur-marne",
   "nom": "Champigny-sur-Marne",
-  "fetchedAt": "2026-03-13T00:43:26.527Z",
+  "fetchedAt": "2026-03-15T21:01:18.109Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Ancien_H%C3%B4tel_ville_Champigny_Marne_7.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAncien%20H%C3%B4tel%20ville%20Champigny%20Marne%207.jpg",
       "title": "Ancien Hôtel ville Champigny Marne 7.jpg",
+      "description": "Ancien hôtel de ville de Champigny-sur-Marne.",
       "width": 4032,
       "height": 3024,
       "size": 3852838,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/H%C3%B4tel_Ville_-_Champigny-sur-Marne_%28FR94%29_-_2020-08-27_-_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AH%C3%B4tel%20Ville%20-%20Champigny-sur-Marne%20(FR94)%20-%202020-08-27%20-%201.jpg",
       "title": "Hôtel Ville - Champigny-sur-Marne (FR94) - 2020-08-27 - 1.jpg",
+      "description": "Hôtel de ville de Champigny-sur-Marne.",
       "width": 3885,
       "height": 2022,
       "size": 4148331,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Place_Francis_Jourdain_-_Champigny-sur-Marne_%28FR94%29_-_2021-02-07_-_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlace%20Francis%20Jourdain%20-%20Champigny-sur-Marne%20(FR94)%20-%202021-02-07%20-%201.jpg",
       "title": "Place Francis Jourdain - Champigny-sur-Marne (FR94) - 2021-02-07 - 1.jpg",
+      "description": "Place Francis Jourdain, Champigny-sur-Marne.",
       "width": 4032,
       "height": 3024,
       "size": 6551242,
@@ -48,9 +51,24 @@
       "label": "Parc du Tremblay",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Rivi%C3%A8re_Marne_vue_depuis_Pont_Petit_Parc_-_Champigny-sur-Marne_%28FR94%29_-_2020-08-27_-_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARivi%C3%A8re%20Marne%20vue%20depuis%20Pont%20Petit%20Parc%20-%20Champigny-sur-Marne%20(FR94)%20-%202020-08-27%20-%201.jpg",
+          "title": "Rivière Marne vue depuis Pont Petit Parc - Champigny-sur-Marne (FR94) - 2020-08-27 - 1.jpg",
+          "description": "La Marne vue depuis le pont du Petit Parc, Champigny-sur-Marne.",
+          "width": 4032,
+          "height": 3024,
+          "size": 3588461,
+          "timestamp": "2020-08-27T18:31:30Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Parc_du_Tremblay_-_Champigny-sur-Marne_-_2012-07-17_-_1.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParc%20du%20Tremblay%20-%20Champigny-sur-Marne%20-%202012-07-17%20-%201.jpg",
           "title": "Parc du Tremblay - Champigny-sur-Marne - 2012-07-17 - 1.jpg",
+          "description": "Parc du Tremblay à Champigny-sur-Marne, 17 juillet 2012.",
           "width": 3648,
           "height": 2736,
           "size": 4076162,
@@ -64,22 +82,10 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Parc_du_Tremblay_-_Champigny-sur-Marne_-_2012-07-17_-_2.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParc%20du%20Tremblay%20-%20Champigny-sur-Marne%20-%202012-07-17%20-%202.jpg",
           "title": "Parc du Tremblay - Champigny-sur-Marne - 2012-07-17 - 2.jpg",
+          "description": "Parc du Tremblay à Champigny-sur-Marne, 17 juillet 2012.",
           "width": 3648,
           "height": 2736,
           "size": 4172795,
-          "timestamp": "2020-04-10T04:59:35Z",
-          "author": "Chabe01",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Parc_du_Tremblay_-_Champigny-sur-Marne_-_2012-07-17_-_3.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParc%20du%20Tremblay%20-%20Champigny-sur-Marne%20-%202012-07-17%20-%203.jpg",
-          "title": "Parc du Tremblay - Champigny-sur-Marne - 2012-07-17 - 3.jpg",
-          "width": 3648,
-          "height": 2736,
-          "size": 4289988,
           "timestamp": "2020-04-10T04:59:35Z",
           "author": "Chabe01",
           "license": "CC BY-SA 4.0",
@@ -92,49 +98,95 @@
       "label": "Musée de la Résistance nationale",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Mus%C3%A9e_R%C3%A9sistance_Nationale_Champigny_Marne_1.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e%20R%C3%A9sistance%20Nationale%20Champigny%20Marne%201.jpg",
-          "title": "Musée Résistance Nationale Champigny Marne 1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Vue_de_la_Place_d%27armes%2C_Champigny-sur-Marne._PH29062.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20de%20la%20Place%20d'armes%2C%20Champigny-sur-Marne.%20PH29062.jpg",
+          "title": "Vue de la Place d'armes, Champigny-sur-Marne. PH29062.jpg",
+          "description": "Auteur(s):\n\nBlancard, Hippolyte (1843 - 1924), photographe\nAutres titres :\nChampigny / vue de la place d'armes. (Titre inscrit (lettre)), Le Siège et la Commune de Paris (1870-1871) (Titre de la série)\n\n\n\nDate de production:\n\nEntre 28–01–1871 et 16–3–1871\n\n\nType(s) d'objet(s):\n\nPhotographie, Arts graphiques\n\n\nDénomination(s):\n\nPhotographie\n\n\nMatériaux et techniques:\n\nTirage au platine\n\n\nDimensions - Oeuvre:\n\n\n   Hauteur : 9.3 cm\n   Largeur : 8.9 cm\n\n\n\nDescription:\n\n\nTirage conservé dans pochette",
+          "width": 4478,
+          "height": 4712,
+          "size": 3785876,
+          "timestamp": "2023-07-09T06:46:57Z",
+          "author": "Blancard, Hippolyte (1843 - 1924), photographe",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Vue_de_la_Place_d%27armes%2C_Champigny-sur-Marne._PH29062%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20de%20la%20Place%20d'armes%2C%20Champigny-sur-Marne.%20PH29062(2).jpg",
+          "title": "Vue de la Place d'armes, Champigny-sur-Marne. PH29062(2).jpg",
+          "description": "Auteur(s):\n\nBlancard, Hippolyte (1843 - 1924), photographe\nAutres titres :\nChampigny / vue de la place d'armes. (Titre inscrit (lettre)), Le Siège et la Commune de Paris (1870-1871) (Titre de la série)\n\n\n\nDate de production:\n\nEntre 28–01–1871 et 16–3–1871\n\n\nType(s) d'objet(s):\n\nPhotographie, Arts graphiques\n\n\nDénomination(s):\n\nPhotographie\n\n\nMatériaux et techniques:\n\nTirage au platine\n\n\nDimensions - Oeuvre:\n\n\n   Hauteur : 9.3 cm\n   Largeur : 8.9 cm\n\n\n\nDescription:\n\n\nTirage conservé dans pochette",
+          "width": 4314,
+          "height": 4523,
+          "size": 2032089,
+          "timestamp": "2023-07-09T06:47:14Z",
+          "author": "Blancard, Hippolyte (1843 - 1924), photographe",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Panorama_du_pont_de_Champigny%2C_Champigny-sur-Marne._PH29320.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanorama%20du%20pont%20de%20Champigny%2C%20Champigny-sur-Marne.%20PH29320.jpg",
+          "title": "Panorama du pont de Champigny, Champigny-sur-Marne. PH29320.jpg",
+          "description": "Auteur(s):\n\nBlancard, Hippolyte (1843 - 1924), photographe\nAutres titres :\nChampigny / Panorama du pont de Champigny. (Titre inscrit (lettre)), Le Siège et la Commune de Paris (1870-1871) (Titre de la série)\n\n\n\nDate de production:\n\nEntre 28–01–1871 et 16–3–1871\n\n\nType(s) d'objet(s):\n\nPhotographie, Arts graphiques\n\n\nDénomination(s):\n\nPanorama, Photographie\n\n\nMatériaux et techniques:\n\nTirage au platine\n\n\nDimensions - Oeuvre:\n\n\n   Hauteur : 8.7 cm\n   Largeur : 9.7 cm\n\n\n\nDescription:\n\n\nTirage conser",
+          "width": 4584,
+          "height": 4367,
+          "size": 2535627,
+          "timestamp": "2023-07-09T13:08:18Z",
+          "author": "Blancard, Hippolyte (1843 - 1924), photographe",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        }
+      ]
+    },
+    {
+      "label": "Île des Loups",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Monument_morts_Champigny_Marne_11.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMonument%20morts%20Champigny%20Marne%2011.jpg",
+          "title": "Monument morts Champigny Marne 11.jpg",
+          "description": "Monument aux morts de Champigny-sur-Marne.",
           "width": 4032,
           "height": 3024,
-          "size": 4156502,
-          "timestamp": "2020-06-25T17:24:19Z",
+          "size": 5579625,
+          "timestamp": "2020-01-04T18:13:05Z",
           "author": "Chabe01",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Mus%C3%A9e_R%C3%A9sistance_Nationale_Champigny_Marne_3.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e%20R%C3%A9sistance%20Nationale%20Champigny%20Marne%203.jpg",
-          "title": "Musée Résistance Nationale Champigny Marne 3.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Nouveau_Cimeti%C3%A8re_Champigny_Marne_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANouveau%20Cimeti%C3%A8re%20Champigny%20Marne%202.jpg",
+          "title": "Nouveau Cimetière Champigny Marne 2.jpg",
+          "description": "Nouveau cimetière de Champigny-sur-Marne.",
           "width": 4032,
           "height": 3024,
-          "size": 4171491,
-          "timestamp": "2020-06-25T17:24:25Z",
+          "size": 5269482,
+          "timestamp": "2020-01-04T18:34:01Z",
           "author": "Chabe01",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Mus%C3%A9e_R%C3%A9sistance_Nationale_Champigny_Marne_4.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e%20R%C3%A9sistance%20Nationale%20Champigny%20Marne%204.jpg",
-          "title": "Musée Résistance Nationale Champigny Marne 4.jpg",
-          "width": 4032,
-          "height": 3024,
-          "size": 4726797,
-          "timestamp": "2020-06-25T17:24:26Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/H%C3%B4tel_Ville_-_Champigny-sur-Marne_%28FR94%29_-_2020-08-27_-_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AH%C3%B4tel%20Ville%20-%20Champigny-sur-Marne%20(FR94)%20-%202020-08-27%20-%202.jpg",
+          "title": "Hôtel Ville - Champigny-sur-Marne (FR94) - 2020-08-27 - 2.jpg",
+          "description": "Hôtel de ville de Champigny-sur-Marne.",
+          "width": 3756,
+          "height": 2022,
+          "size": 4352598,
+          "timestamp": "2020-08-27T18:31:22Z",
           "author": "Chabe01",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         }
       ]
-    },
-    {
-      "label": "Île des Loups",
-      "photos": []
     },
     {
       "label": "Château de Coeuilly",
@@ -143,6 +195,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Ch%C3%A2teau_C%C5%93uilly_-_Champigny-sur-Marne_%28FR94%29_-_2021-02-19_-_2.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20C%C5%93uilly%20-%20Champigny-sur-Marne%20(FR94)%20-%202021-02-19%20-%202.jpg",
           "title": "Château Cœuilly - Champigny-sur-Marne (FR94) - 2021-02-19 - 2.jpg",
+          "description": "Château de Cœuilly, Champigny-sur-Marne.",
           "width": 4032,
           "height": 3024,
           "size": 2929316,
@@ -150,12 +203,13 @@
           "author": "Chabe01",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Ch%C3%A2teau_C%C5%93uilly_-_Champigny-sur-Marne_%28FR94%29_-_2021-02-19_-_3.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20C%C5%93uilly%20-%20Champigny-sur-Marne%20(FR94)%20-%202021-02-19%20-%203.jpg",
           "title": "Château Cœuilly - Champigny-sur-Marne (FR94) - 2021-02-19 - 3.jpg",
+          "description": "Château de Cœuilly, Champigny-sur-Marne.",
           "width": 4032,
           "height": 3024,
           "size": 5175622,
@@ -163,12 +217,13 @@
           "author": "Chabe01",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Ch%C3%A2teau_C%C5%93uilly_-_Champigny-sur-Marne_%28FR94%29_-_2021-02-19_-_1.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20C%C5%93uilly%20-%20Champigny-sur-Marne%20(FR94)%20-%202021-02-19%20-%201.jpg",
           "title": "Château Cœuilly - Champigny-sur-Marne (FR94) - 2021-02-19 - 1.jpg",
+          "description": "Château de Cœuilly, Champigny-sur-Marne.",
           "width": 4733,
           "height": 2724,
           "size": 15634303,
@@ -176,7 +231,7 @@
           "author": "Chabe01",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         }
       ]
     },
@@ -184,39 +239,42 @@
       "label": "Quartier du Maroc",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Terrains_%C3%A0_rendre_pr%C3%A8s_la_station_de_Champigny%2C_quartier_de_Champignol_-_btv1b8445775v.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATerrains%20%C3%A0%20rendre%20pr%C3%A8s%20la%20station%20de%20Champigny%2C%20quartier%20de%20Champignol%20-%20btv1b8445775v.jpg",
+          "title": "Terrains à rendre près la station de Champigny, quartier de Champignol - btv1b8445775v.jpg",
+          "description": "Sujet : Champigny\nCouverture : France – Grand-Est – Marne\nLangue : français\n\nÉditeur : E. Cherrier (Paris)",
+          "width": 8732,
+          "height": 6790,
+          "size": 6562106,
+          "timestamp": "2022-07-30T05:28:28Z",
+          "author": "Inconnu",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/1916%2C_inondation_au_Maroc_%28quartier_du_Maroc_%C3%A0_Champigny-sur-Marne%29_-_btv1b6945804x.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1916%2C%20inondation%20au%20Maroc%20(quartier%20du%20Maroc%20%C3%A0%20Champigny-sur-Marne)%20-%20btv1b6945804x.jpg",
+          "title": "1916, inondation au Maroc (quartier du Maroc à Champigny-sur-Marne) - btv1b6945804x.jpg",
+          "description": "Sujet : Inondations -- Champigny-sur-Marne (Val-de-Marne, France)\nChampigny-sur-Marne (Val-de-Marne, France)\nRéférence bibliographique : Rol, 46315\nAppartient à l’ensemble documentaire : Pho20Rol\nImage de presse\nCouverture : 00 février 1916\n\nLangue : français",
+          "width": 4104,
+          "height": 3008,
+          "size": 1265659,
+          "timestamp": "2024-10-29T12:38:14Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q18507700\" class=\"extiw\" title=\"d:Q18507700\"><span title=\"French photo agency\">Agence Rol</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/1916%2C_inondation_au_Maroc_pr%C3%A8s_Champigny_%28quartier_du_Maroc_%C3%A0_Champigny-sur-Marne%29_-_btv1b6945808k.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1916%2C%20inondation%20au%20Maroc%20pr%C3%A8s%20Champigny%20(quartier%20du%20Maroc%20%C3%A0%20Champigny-sur-Marne)%20-%20btv1b6945808k.jpg",
           "title": "1916, inondation au Maroc près Champigny (quartier du Maroc à Champigny-sur-Marne) - btv1b6945808k.jpg",
+          "description": "Sujet : Inondations -- Champigny-sur-Marne (Val-de-Marne, France)\nChampigny-sur-Marne (Val-de-Marne, France)\nRéférence bibliographique : Rol, 46319\nAppartient à l’ensemble documentaire : Pho20Rol\nImage de presse\nCouverture : 00 février 1916\n\nLangue : français",
           "width": 4224,
           "height": 3032,
           "size": 1620660,
           "timestamp": "2025-02-21T13:49:33Z",
-          "author": "<div class=\"fn value\">\nAgence Rol. Agence photographique (commanditaire)</div>",
-          "license": "Public domain",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/1916%2C_inondation_au_Maroc_pr%C3%A8s_Champigny_%28quartier_du_Maroc_%C3%A0_Champigny-sur-Marne%29_-_btv1b6945826h.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1916%2C%20inondation%20au%20Maroc%20pr%C3%A8s%20Champigny%20(quartier%20du%20Maroc%20%C3%A0%20Champigny-sur-Marne)%20-%20btv1b6945826h.jpg",
-          "title": "1916, inondation au Maroc près Champigny (quartier du Maroc à Champigny-sur-Marne) - btv1b6945826h.jpg",
-          "width": 4168,
-          "height": 3008,
-          "size": 1913662,
-          "timestamp": "2025-03-03T22:46:23Z",
-          "author": "<div class=\"fn value\">\nAgence Rol. Agence photographique (commanditaire)</div>",
-          "license": "Public domain",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/1916%2C_inondation_au_Maroc_%28quartier_du_Maroc_%C3%A0_Champigny-sur-Marne%29_-_btv1b69458075.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1916%2C%20inondation%20au%20Maroc%20(quartier%20du%20Maroc%20%C3%A0%20Champigny-sur-Marne)%20-%20btv1b69458075.jpg",
-          "title": "1916, inondation au Maroc (quartier du Maroc à Champigny-sur-Marne) - btv1b69458075.jpg",
-          "width": 4168,
-          "height": 3104,
-          "size": 1404975,
-          "timestamp": "2025-03-12T00:13:33Z",
           "author": "<div class=\"fn value\">\nAgence Rol. Agence photographique (commanditaire)</div>",
           "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",

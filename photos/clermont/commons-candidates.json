@@ -1,12 +1,13 @@
 {
   "slug": "clermont",
   "nom": "Clermont",
-  "fetchedAt": "2026-03-13T00:46:57.492Z",
+  "fetchedAt": "2026-03-16T12:08:11.069Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Clermont_-_arr%C3%AAt_de_bus.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AClermont%20-%20arr%C3%AAt%20de%20bus.jpg",
       "title": "Clermont - arrêt de bus.jpg",
+      "description": "Clermont - arrêt de bus",
       "width": 4032,
       "height": 3024,
       "size": 3703206,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Clermont_-_rue_de_Paris%2C_croisement_rue_des_Fontaines.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AClermont%20-%20rue%20de%20Paris%2C%20croisement%20rue%20des%20Fontaines.jpg",
       "title": "Clermont - rue de Paris, croisement rue des Fontaines.jpg",
+      "description": "Clermont - rue de Paris, croisement rue des Fontaines",
       "width": 4032,
       "height": 3024,
       "size": 2264853,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Clermont_-_laverie_Passage_des_Gloriettes_-_bo%C3%AEte_%C3%A0_livres.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AClermont%20-%20laverie%20Passage%20des%20Gloriettes%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
       "title": "Clermont - laverie Passage des Gloriettes - boîte à livres.jpg",
+      "description": "Boîte à livres à Clermont",
       "width": 1500,
       "height": 2000,
       "size": 204113,
@@ -48,41 +51,44 @@
       "label": "Église Saint-Genès",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Vitraux_-_%C3%A9glise_Saint-Gen%C3%A8s_des_Carmes%2C_Clermont-Ferrand_27.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVitraux%20-%20%C3%A9glise%20Saint-Gen%C3%A8s%20des%20Carmes%2C%20Clermont-Ferrand%2027.jpg",
-          "title": "Vitraux - église Saint-Genès des Carmes, Clermont-Ferrand 27.jpg",
-          "width": 3066,
-          "height": 2464,
-          "size": 1281094,
-          "timestamp": "2024-07-17T15:45:20Z",
-          "author": "François-Rémy Roqueton",
-          "license": "CC BY 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Cambronne-l%C3%A8s-Clermont_%2860%29%2C_%C3%A9glise_Saint-%C3%89tienne%2C_nef_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACambronne-l%C3%A8s-Clermont%20(60)%2C%20%C3%A9glise%20Saint-%C3%89tienne%2C%20nef%202.jpg",
+          "title": "Cambronne-lès-Clermont (60), église Saint-Étienne, nef 2.jpg",
+          "description": "La nef, vue depuis le sud.",
+          "width": 3648,
+          "height": 2736,
+          "size": 1831819,
+          "timestamp": "2013-04-16T09:13:05Z",
+          "author": "P.poschadel",
+          "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Vitraux_-_%C3%A9glise_Saint-Gen%C3%A8s_des_Carmes%2C_Clermont-Ferrand_28.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVitraux%20-%20%C3%A9glise%20Saint-Gen%C3%A8s%20des%20Carmes%2C%20Clermont-Ferrand%2028.jpg",
-          "title": "Vitraux - église Saint-Genès des Carmes, Clermont-Ferrand 28.jpg",
-          "width": 3130,
-          "height": 2563,
-          "size": 1384285,
-          "timestamp": "2024-07-17T15:45:23Z",
-          "author": "François-Rémy Roqueton",
-          "license": "CC BY 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Cambronne-l%C3%A8s-Clermont_%2860%29%2C_%C3%A9glise_Saint-%C3%89tienne%2C_vue_depuis_le_sud-est_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACambronne-l%C3%A8s-Clermont%20(60)%2C%20%C3%A9glise%20Saint-%C3%89tienne%2C%20vue%20depuis%20le%20sud-est%202.jpg",
+          "title": "Cambronne-lès-Clermont (60), église Saint-Étienne, vue depuis le sud-est 2.jpg",
+          "description": "Vue depuis le sud-est.",
+          "width": 3648,
+          "height": 2736,
+          "size": 1291219,
+          "timestamp": "2013-04-16T09:16:24Z",
+          "author": "P.poschadel",
+          "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Vitraux_-_%C3%A9glise_Saint-Gen%C3%A8s_des_Carmes%2C_Clermont-Ferrand_38.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVitraux%20-%20%C3%A9glise%20Saint-Gen%C3%A8s%20des%20Carmes%2C%20Clermont-Ferrand%2038.jpg",
-          "title": "Vitraux - église Saint-Genès des Carmes, Clermont-Ferrand 38.jpg",
-          "width": 3760,
-          "height": 3023,
-          "size": 2011048,
-          "timestamp": "2024-07-17T15:45:36Z",
-          "author": "François-Rémy Roqueton",
-          "license": "CC BY 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Cambronne-l%C3%A8s-Clermont_%2860%29%2C_%C3%A9glise_Saint-%C3%89tienne%2C_vue_depuis_le_sud-est_3.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACambronne-l%C3%A8s-Clermont%20(60)%2C%20%C3%A9glise%20Saint-%C3%89tienne%2C%20vue%20depuis%20le%20sud-est%203.jpg",
+          "title": "Cambronne-lès-Clermont (60), église Saint-Étienne, vue depuis le sud-est 3.jpg",
+          "description": "Vue depuis le sud-est.",
+          "width": 3648,
+          "height": 2736,
+          "size": 1303141,
+          "timestamp": "2013-04-16T09:16:55Z",
+          "author": "P.poschadel",
+          "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         }
@@ -90,33 +96,191 @@
     },
     {
       "label": "Place du Donjon",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Clermont-Ferrand_-_Place_Royale_%28juil_2020%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AClermont-Ferrand%20-%20Place%20Royale%20(juil%202020).jpg",
+          "title": "Clermont-Ferrand - Place Royale (juil 2020).jpg",
+          "description": "Vue de la place Royale Clermont-Ferrand, en France.",
+          "width": 4032,
+          "height": 3016,
+          "size": 3589661,
+          "timestamp": "2020-07-10T19:36:54Z",
+          "author": "Sebleouf",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Grande_roue_-_Clermont-Ferrand.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrande%20roue%20-%20Clermont-Ferrand.jpg",
+          "title": "Grande roue - Clermont-Ferrand.jpg",
+          "description": "A view of Clermont-Ferrand taken from the top of a Ferris wheel.",
+          "width": 4968,
+          "height": 3311,
+          "size": 6586782,
+          "timestamp": "2023-09-17T08:06:39Z",
+          "author": "bebatut",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Clermont-Ferrand_Place_Hippolyte_Renoux_seen_from_the_southeast.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AClermont-Ferrand%20Place%20Hippolyte%20Renoux%20seen%20from%20the%20southeast.jpg",
+          "title": "Clermont-Ferrand Place Hippolyte Renoux seen from the southeast.jpg",
+          "description": "Place Hippolyte Renoux seen from the southeast, Clermont-Ferrand, Puy-de-Dôme, France",
+          "width": 6008,
+          "height": 4008,
+          "size": 21512043,
+          "timestamp": "2025-06-13T15:23:54Z",
+          "author": "Ymblanter",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     },
     {
       "label": "Grand’Rue",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Stolperstein_pour_Jaques_Makowski_%28Strasbourg%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStolperstein%20pour%20Jaques%20Makowski%20(Strasbourg).jpg",
-          "title": "Stolperstein pour Jaques Makowski (Strasbourg).jpg",
-          "width": 1977,
-          "height": 1993,
-          "size": 888669,
-          "timestamp": "2024-05-31T06:20:29Z",
-          "author": "Dd1gj",
-          "license": "CC0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Clermont-Ferrand_-_Rue_Beauregard_%28juil_2020%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AClermont-Ferrand%20-%20Rue%20Beauregard%20(juil%202020).jpg",
+          "title": "Clermont-Ferrand - Rue Beauregard (juil 2020).jpg",
+          "description": "Vue de la rue Beauregard, à Clermont-Ferrand, en France.",
+          "width": 4032,
+          "height": 3016,
+          "size": 3906899,
+          "timestamp": "2020-07-08T19:06:40Z",
+          "author": "Sebleouf",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Clermont-Ferrand_-_Rue_d%27Ambert_%28juil_2020%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AClermont-Ferrand%20-%20Rue%20d'Ambert%20(juil%202020).jpg",
+          "title": "Clermont-Ferrand - Rue d'Ambert (juil 2020).jpg",
+          "description": "Vue de la rue d'Ambert, à Clermont-Ferrand, en France.",
+          "width": 4032,
+          "height": 3016,
+          "size": 3455934,
+          "timestamp": "2020-07-08T20:19:25Z",
+          "author": "Sebleouf",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Clermont-Ferrand_-_Rue_Delarbre_%28juil_2020%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AClermont-Ferrand%20-%20Rue%20Delarbre%20(juil%202020).jpg",
+          "title": "Clermont-Ferrand - Rue Delarbre (juil 2020).jpg",
+          "description": "Vue de la rue Delarbre, à Clermont-Ferrand, en France.",
+          "width": 4032,
+          "height": 3016,
+          "size": 5193370,
+          "timestamp": "2020-07-08T20:19:28Z",
+          "author": "Sebleouf",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
         }
       ]
     },
     {
       "label": "Lavoir du Faubourg",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Parois_%28Clermont-en-Argonne%2C_Meuse%29_lavoir.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParois%20(Clermont-en-Argonne%2C%20Meuse)%20lavoir.JPG",
+          "title": "Parois (Clermont-en-Argonne, Meuse) lavoir.JPG",
+          "description": "Parois (Clermont-en-Argonne, Meuse) lavoir",
+          "width": 3648,
+          "height": 2736,
+          "size": 4547232,
+          "timestamp": "2015-08-21T19:22:09Z",
+          "author": "Havang(nl)",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Cambronne-l%C3%A8s-Clermont%2C_%2895%29%2C_lavoir_de_Vaux_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACambronne-l%C3%A8s-Clermont%2C%20(95)%2C%20lavoir%20de%20Vaux%201.jpg",
+          "title": "Cambronne-lès-Clermont, (95), lavoir de Vaux 1.jpg",
+          "description": "Lavoir de Vaux.",
+          "width": 3648,
+          "height": 2736,
+          "size": 1868200,
+          "timestamp": "2013-07-10T11:29:21Z",
+          "author": "P.poschadel",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Cambronne-l%C3%A8s-Clermont%2C_%2895%29%2C_lavoir_de_Vaux_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACambronne-l%C3%A8s-Clermont%2C%20(95)%2C%20lavoir%20de%20Vaux%202.jpg",
+          "title": "Cambronne-lès-Clermont, (95), lavoir de Vaux 2.jpg",
+          "description": "Lavoir de Vaux.",
+          "width": 3648,
+          "height": 2736,
+          "size": 1582326,
+          "timestamp": "2013-07-10T11:30:04Z",
+          "author": "P.poschadel",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Colline du Calvaire",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Presqu%27%C3%AEle_du_Rouens%2C_Clermont-l%27H%C3%A9rault_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APresqu'%C3%AEle%20du%20Rouens%2C%20Clermont-l'H%C3%A9rault%2001.jpg",
+          "title": "Presqu'île du Rouens, Clermont-l'Hérault 01.jpg",
+          "description": "The Presque-isle of Rouens (253m) and the Salagou Lake (\"Lac du Salagou\") in the commune of Clermont-l'Hérault.  The Salagou Lake is an artificial lake dating from the beginning of 1969. The hill has a red aspect because it is constituted by ruffes, a local name indicating the red lands formed by detrital sedimentary rocks. Photo taken from the South in  the commune of Liausson. Hérault, France.",
+          "width": 6016,
+          "height": 3760,
+          "size": 28640429,
+          "timestamp": "2014-07-26T10:47:02Z",
+          "author": "Christian Ferrer",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/En_Argonne_-_la_colline_Sainte_Anne_vue_de_Clermont_-_btv1b9043575s.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEn%20Argonne%20-%20la%20colline%20Sainte%20Anne%20vue%20de%20Clermont%20-%20btv1b9043575s.jpg",
+          "title": "En Argonne - la colline Sainte Anne vue de Clermont - btv1b9043575s.jpg",
+          "description": "Sujet : Bataille de l'Argonne (1915)\nClermont-en-Argonne (Meuse, France)\nRéférence bibliographique : Meurisse, 57032 bis\nAppartient à l’ensemble documentaire : Pho20Meu\nImage de presse\nCouverture : 19 mai 1915\nLangue : français\n\nÉditeur : diff. par l'Agence Meurisse (Paris)",
+          "width": 7000,
+          "height": 4142,
+          "size": 4242747,
+          "timestamp": "2025-02-24T14:11:16Z",
+          "author": "<div class=\"fn value\">\nAgence de presse Meurisse. Agence photographique (commanditaire)</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/En_Argonne_-_la_colline_Sainte_Anne_vue_de_Clermont_-_btv1b9043572j.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEn%20Argonne%20-%20la%20colline%20Sainte%20Anne%20vue%20de%20Clermont%20-%20btv1b9043572j.jpg",
+          "title": "En Argonne - la colline Sainte Anne vue de Clermont - btv1b9043572j.jpg",
+          "description": "Sujet : Bataille de l'Argonne (1915)\nClermont-en-Argonne (Meuse, France)\nRéférence bibliographique : Meurisse, 57032\nAppartient à l’ensemble documentaire : Pho20Meu\nImage de presse\nCouverture : 19 mai 1915\nLangue : français\n\nÉditeur : diff. par l'Agence Meurisse (Paris)",
+          "width": 7000,
+          "height": 5074,
+          "size": 5335871,
+          "timestamp": "2025-03-20T07:17:18Z",
+          "author": "<div class=\"fn value\">\nAgence de presse Meurisse. Agence photographique (commanditaire)</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

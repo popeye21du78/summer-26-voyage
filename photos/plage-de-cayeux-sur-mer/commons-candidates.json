@@ -1,44 +1,47 @@
 {
   "slug": "plage-de-cayeux-sur-mer",
   "nom": "Plage de Cayeux-sur-Mer",
-  "fetchedAt": "2026-03-14T10:55:34.830Z",
+  "fetchedAt": "2026-03-17T22:44:08.349Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Kiosque_de_Cayeux-sur-Mer_1.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKiosque%20de%20Cayeux-sur-Mer%201.jpg",
-      "title": "Kiosque de Cayeux-sur-Mer 1.jpg",
-      "width": 1972,
-      "height": 1550,
-      "size": 626212,
-      "timestamp": "2023-10-31T11:17:29Z",
-      "author": "Ybroc",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Vue_du_front_de_mer_de_Cayeux-sur-Mer_au_cr%C3%A9puscule.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20du%20front%20de%20mer%20de%20Cayeux-sur-Mer%20au%20cr%C3%A9puscule.jpg",
+      "title": "Vue du front de mer de Cayeux-sur-Mer au crépuscule.jpg",
+      "description": "View of Cayeux-sur-Mer's seafront at dusk",
+      "width": 3130,
+      "height": 2075,
+      "size": 2894241,
+      "timestamp": "2025-01-26T18:34:51Z",
+      "author": "Namdaa",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Kiosque_de_Cayeux-sur-Mer_2.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKiosque%20de%20Cayeux-sur-Mer%202.jpg",
-      "title": "Kiosque de Cayeux-sur-Mer 2.jpg",
-      "width": 1937,
-      "height": 1501,
-      "size": 586662,
-      "timestamp": "2023-10-31T11:16:14Z",
-      "author": "Ybroc",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Profil_notre_dame_de_la_mer_cayeux.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AProfil%20notre%20dame%20de%20la%20mer%20cayeux.jpg",
+      "title": "Profil notre dame de la mer cayeux.jpg",
+      "description": "Vue de profil de la chapelle Notre-Dame-de-la-Mer à Cayeux-sur-Mer dans le département de la Somme",
+      "width": 5184,
+      "height": 3456,
+      "size": 7388607,
+      "timestamp": "2018-06-24T09:07:38Z",
+      "author": "Nils Demandre",
+      "license": "CC0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 8
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Cayeux-sur-Mer_%283586430352%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACayeux-sur-Mer%20(3586430352).jpg",
-      "title": "Cayeux-sur-Mer (3586430352).jpg",
-      "width": 1200,
-      "height": 800,
-      "size": 732024,
-      "timestamp": "2021-05-10T15:57:09Z",
-      "author": "Tourism office, Cayeux-sur-Mer",
-      "license": "CC BY-SA 2.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Facade_notre_dame_de_la_mer_cayeux.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFacade%20notre%20dame%20de%20la%20mer%20cayeux.jpg",
+      "title": "Facade notre dame de la mer cayeux.jpg",
+      "description": "Vue de face de la chapelle Notre-Dame-de-la-Mer à Cayeux-sur-Mer dans le département de la Somme",
+      "width": 3456,
+      "height": 5184,
+      "size": 6573864,
+      "timestamp": "2018-06-24T09:07:38Z",
+      "author": "Nils Demandre",
+      "license": "CC0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     }
@@ -46,11 +49,69 @@
   "lieux": [
     {
       "label": "Promenade en planches de Cayeux",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Cayeux-sur-Mer_%283314371224%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACayeux-sur-Mer%20(3314371224).jpg",
+          "title": "Cayeux-sur-Mer (3314371224).jpg",
+          "description": "Longue de 14 Km, la plage de Cayeux-sur-Mer s’étire de l’extrémité  sud de la station jusqu’à la Pointe Hourdel.\n\nA marée haute les visiteurs pourront profiter pleinement des différentes zones de baignade surveillées de la station et bénéficier des joies des « Bains de mer »  alors qu’à marée basse, une grandiose plage de sable apparait afin de laisser libre court aux activités de plein air : cerf-volant, châteaux de sable, pêche à pied, promenades.",
+          "width": 800,
+          "height": 533,
+          "size": 195657,
+          "timestamp": "2021-05-10T15:47:35Z",
+          "author": "Tourism office, Cayeux-sur-Mer",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Cabines de plage alignées",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Cabines_de_plage_%C3%A0_Cayeux-sur-Mer.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACabines%20de%20plage%20%C3%A0%20Cayeux-sur-Mer.jpg",
+          "title": "Cabines de plage à Cayeux-sur-Mer.jpg",
+          "description": "Cabines de plage à Cayeux-sur-Mer",
+          "width": 4608,
+          "height": 3072,
+          "size": 3423828,
+          "timestamp": "2022-07-25T07:15:14Z",
+          "author": "Paul.schrepfer",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Cabines_de_Cayeux044.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACabines%20de%20Cayeux044.JPG",
+          "title": "Cabines de Cayeux044.JPG",
+          "description": "Cabines de plage, Cayeux-sur-Mer, département de la Somme, région Hauts-de-France (ancienne Picardie), France.",
+          "width": 2048,
+          "height": 1536,
+          "size": 295835,
+          "timestamp": "2016-04-01T14:57:24Z",
+          "author": "Pippobuono",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Cabines_de_Cayeux045.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACabines%20de%20Cayeux045.JPG",
+          "title": "Cabines de Cayeux045.JPG",
+          "description": "Cabines sur la plage de Cayeux",
+          "width": 2048,
+          "height": 1536,
+          "size": 346827,
+          "timestamp": "2016-04-01T14:57:24Z",
+          "author": "Pippobuono",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Sentier dunaire du Hable d’Ault",

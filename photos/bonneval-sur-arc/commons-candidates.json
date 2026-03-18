@@ -1,12 +1,13 @@
 {
   "slug": "bonneval-sur-arc",
   "nom": "Bonneval-sur-Arc",
-  "fetchedAt": "2026-03-13T00:23:03.568Z",
+  "fetchedAt": "2026-03-15T19:51:20.432Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Maisons_au_village_de_Bonneval-sur-Arc_enneig%C3%A9_%28f%C3%A9vrier_2023%29.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaisons%20au%20village%20de%20Bonneval-sur-Arc%20enneig%C3%A9%20(f%C3%A9vrier%202023).JPG",
       "title": "Maisons au village de Bonneval-sur-Arc enneigé (février 2023).JPG",
+      "description": "Sight, in winter, of houses in Bonneval-sur-Arc village, in Savoie, France.",
       "width": 3264,
       "height": 2448,
       "size": 3786318,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Pont-Vieux_de_Bonneval-sur-Arc_enneig%C3%A9_%28f%C3%A9vrier_2023%29.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont-Vieux%20de%20Bonneval-sur-Arc%20enneig%C3%A9%20(f%C3%A9vrier%202023).JPG",
       "title": "Pont-Vieux de Bonneval-sur-Arc enneigé (février 2023).JPG",
+      "description": "Sight, in winter, of the arches of Vieux-Pont bridge, also called Pont de la Lame, in Bonneval-sur-Arc, Savoie, France.",
       "width": 3927,
       "height": 2909,
       "size": 5634706,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Vieux-Pont_de_Bonneval-sur-Arc_en_%C3%A9t%C3%A9_%28juillet_2023%29.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVieux-Pont%20de%20Bonneval-sur-Arc%20en%20%C3%A9t%C3%A9%20(juillet%202023).JPG",
       "title": "Vieux-Pont de Bonneval-sur-Arc en été (juillet 2023).JPG",
+      "description": "Sight of Vieux-Pont bridge, also called Pont de la Lame bridge, in Bonneval-sur-Arc, Savoie, France.",
       "width": 3264,
       "height": 2448,
       "size": 4295199,
@@ -46,45 +49,91 @@
   "lieux": [
     {
       "label": "Église Saint-Benoît",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/20210817_Bonneval-sur-Arc%2C_ruelle_et_%C3%A9glise_du_village_%28inscrit_MH_partiellement_Base_M%C3%A9rim%C3%A9e_PA00118207%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20210817%20Bonneval-sur-Arc%2C%20ruelle%20et%20%C3%A9glise%20du%20village%20(inscrit%20MH%20partiellement%20Base%20M%C3%A9rim%C3%A9e%20PA00118207).jpg",
+          "title": "20210817 Bonneval-sur-Arc, ruelle et église du village (inscrit MH partiellement Base Mérimée PA00118207).jpg",
+          "description": "View of the village centre towards Vanoise mountains",
+          "width": 2801,
+          "height": 3976,
+          "size": 1749298,
+          "timestamp": "2021-09-17T22:15:20Z",
+          "author": "Limfjord69",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Clocher_%C3%89glise_de_Bonneval-sur-Arc_%28f%C3%A9vrier_2023%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AClocher%20%C3%89glise%20de%20Bonneval-sur-Arc%20(f%C3%A9vrier%202023).JPG",
+          "title": "Clocher Église de Bonneval-sur-Arc (février 2023).JPG",
+          "description": "Sight, in winter from Rue de l'Église street, of Bonneval-sur-Arc village church tower, in Savoie, France.",
+          "width": 4000,
+          "height": 3000,
+          "size": 4753553,
+          "timestamp": "2023-02-19T13:40:38Z",
+          "author": "Florian Pépellin",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Clocher_de_l%27%C3%A9glise_de_Bonneval-sur-Arc_%28f%C3%A9vrier_2023%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AClocher%20de%20l'%C3%A9glise%20de%20Bonneval-sur-Arc%20(f%C3%A9vrier%202023).JPG",
+          "title": "Clocher de l'église de Bonneval-sur-Arc (février 2023).JPG",
+          "description": "Sight, in winter from Rue de l'Église street, of Bonneval-sur-Arc village church tower, in Savoie, France.",
+          "width": 3264,
+          "height": 2448,
+          "size": 4042268,
+          "timestamp": "2023-02-19T13:43:04Z",
+          "author": "Florian Pépellin",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Hameau de l’Écot",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/%C3%89claircies_aux_environs_de_l%27%C3%89cot_%C3%A0_Bonneval-sur-Arc_%28mars_2024%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89claircies%20aux%20environs%20de%20l'%C3%89cot%20%C3%A0%20Bonneval-sur-Arc%20(mars%202024).JPG",
+          "title": "Éclaircies aux environs de l'Écot à Bonneval-sur-Arc (mars 2024).JPG",
+          "description": "Sight, at the end of winter, of clouds vanishing over Évettes cirque at Bonneval-sur-Arc, after snow and rainfalls, at the very east of Savoie department, France.",
+          "width": 3264,
+          "height": 2448,
+          "size": 3485999,
+          "timestamp": "2024-03-24T19:29:30Z",
+          "author": "Florian Pépellin",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Panneaux_de_randonn%C3%A9e_dans_la_neige_%C3%A0_L%27%C3%89cot_%C3%A0_Bonneval_%28mars_2024%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanneaux%20de%20randonn%C3%A9e%20dans%20la%20neige%20%C3%A0%20L'%C3%89cot%20%C3%A0%20Bonneval%20(mars%202024).JPG",
+          "title": "Panneaux de randonnée dans la neige à L'Écot à Bonneval (mars 2024).JPG",
+          "description": "Sight, in the end of winter, of snow-covered hiking signs near L'Écot village in Bonneval-sur-Arc, Savoie, France.",
+          "width": 3264,
+          "height": 2448,
+          "size": 5416435,
+          "timestamp": "2024-03-24T21:48:39Z",
+          "author": "Florian Pépellin",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Village_de_L%27%C3%89cot_enneig%C3%A9_%C3%A0_Bonneval-sur-Arc_%28mars_2024%29.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVillage%20de%20L'%C3%89cot%20enneig%C3%A9%20%C3%A0%20Bonneval-sur-Arc%20(mars%202024).JPG",
           "title": "Village de L'Écot enneigé à Bonneval-sur-Arc (mars 2024).JPG",
+          "description": "Sight, in the end of winter, of L'Écot hamlet on the heights of Bonneval-sur-Arc, Savoie, France.",
           "width": 4000,
           "height": 3000,
           "size": 6881188,
           "timestamp": "2024-03-26T13:17:18Z",
-          "author": "Florian Pépellin",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Village_de_L%27%C3%89cot_surplombant_l%27Arc_en_hiver_%28mars_2024%29.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVillage%20de%20L'%C3%89cot%20surplombant%20l'Arc%20en%20hiver%20(mars%202024).JPG",
-          "title": "Village de L'Écot surplombant l'Arc en hiver (mars 2024).JPG",
-          "width": 4000,
-          "height": 3000,
-          "size": 7326510,
-          "timestamp": "2024-03-26T13:19:26Z",
-          "author": "Florian Pépellin",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Retour_du_soleil_sur_L%27%C3%89cot_%C3%A0_Bonneval-sur-Arc_en_hiver_%28mars_2024%29.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARetour%20du%20soleil%20sur%20L'%C3%89cot%20%C3%A0%20Bonneval-sur-Arc%20en%20hiver%20(mars%202024).JPG",
-          "title": "Retour du soleil sur L'Écot à Bonneval-sur-Arc en hiver (mars 2024).JPG",
-          "width": 3020,
-          "height": 2292,
-          "size": 4766280,
-          "timestamp": "2024-03-26T13:22:03Z",
           "author": "Florian Pépellin",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",

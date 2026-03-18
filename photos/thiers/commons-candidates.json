@@ -1,12 +1,13 @@
 {
   "slug": "thiers",
   "nom": "Thiers",
-  "fetchedAt": "2026-03-14T12:49:59.920Z",
+  "fetchedAt": "2026-03-18T20:03:40.991Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/H%C3%B4tel_de_ville_de_Thiers.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AH%C3%B4tel%20de%20ville%20de%20Thiers.jpg",
       "title": "Hôtel de ville de Thiers.jpg",
+      "description": "Mairie de Thiers la nuit.",
       "width": 3264,
       "height": 1836,
       "size": 2148698,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Blason_de_Thiers_-_M%C3%A9diath%C3%A8que_municipale.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABlason%20de%20Thiers%20-%20M%C3%A9diath%C3%A8que%20municipale.jpg",
       "title": "Blason de Thiers - Médiathèque municipale.jpg",
+      "description": "Blason de Thiers",
       "width": 2880,
       "height": 2160,
       "size": 5203776,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/19_rue_Conchette_in_Thiers_%281%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A19%20rue%20Conchette%20in%20Thiers%20(1).jpg",
       "title": "19 rue Conchette in Thiers (1).jpg",
+      "description": "Portal of the building at 19 rue Conchette in Thiers, Puy-de-Dôme, France",
       "width": 3239,
       "height": 4851,
       "size": 11081770,
@@ -46,15 +49,116 @@
   "lieux": [
     {
       "label": "Belvédère du Creux de l’Enfer",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Rudolf_Ribarz_-_Pont_de_Moutiers_in_Thiers_-_5286_-_%C3%96sterreichische_Galerie_Belvedere.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARudolf%20Ribarz%20-%20Pont%20de%20Moutiers%20in%20Thiers%20-%205286%20-%20%C3%96sterreichische%20Galerie%20Belvedere.jpg",
+          "title": "Rudolf Ribarz - Pont de Moutiers in Thiers - 5286 - Österreichische Galerie Belvedere.jpg",
+          "description": "",
+          "width": 3508,
+          "height": 2208,
+          "size": 10096384,
+          "timestamp": "2019-04-03T17:09:30Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Rudolf_Ribarz\" class=\"extiw\" title=\"w:en:Rudolf Ribarz\"><span title=\"Austrian painter (1848-1904)\">Rudolf Ribarz</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Passerelle du Martinet",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Passerelle_Thiers.20220102_130337.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APasserelle%20Thiers.20220102%20130337.jpg",
+          "title": "Passerelle Thiers.20220102 130337.jpg",
+          "description": "Passerelle Thiers",
+          "width": 4032,
+          "height": 3024,
+          "size": 5421052,
+          "timestamp": "2022-01-08T16:35:17Z",
+          "author": "Rc1959",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Passerelle_Thiers_-_Saint-Denis_%28FR93%29_-_2022-07-17_-_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APasserelle%20Thiers%20-%20Saint-Denis%20(FR93)%20-%202022-07-17%20-%202.jpg",
+          "title": "Passerelle Thiers - Saint-Denis (FR93) - 2022-07-17 - 2.jpg",
+          "description": "Passerelle de Thiers, Saint-Denis en Seine-Saint-Denis.",
+          "width": 4032,
+          "height": 3024,
+          "size": 6601149,
+          "timestamp": "2022-07-18T17:38:43Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Passerelle_Thiers_-_Saint-Denis_%28FR93%29_-_2022-07-17_-_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APasserelle%20Thiers%20-%20Saint-Denis%20(FR93)%20-%202022-07-17%20-%201.jpg",
+          "title": "Passerelle Thiers - Saint-Denis (FR93) - 2022-07-17 - 1.jpg",
+          "description": "Passerelle de Thiers, Saint-Denis en Seine-Saint-Denis.",
+          "width": 4032,
+          "height": 3024,
+          "size": 6065549,
+          "timestamp": "2022-07-18T17:38:44Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Passerelle du Moulin Bleu",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Passerelle_Thiers.20220102_130337.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APasserelle%20Thiers.20220102%20130337.jpg",
+          "title": "Passerelle Thiers.20220102 130337.jpg",
+          "description": "Passerelle Thiers",
+          "width": 4032,
+          "height": 3024,
+          "size": 5421052,
+          "timestamp": "2022-01-08T16:35:17Z",
+          "author": "Rc1959",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Passerelle_Thiers_-_Saint-Denis_%28FR93%29_-_2022-07-17_-_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APasserelle%20Thiers%20-%20Saint-Denis%20(FR93)%20-%202022-07-17%20-%202.jpg",
+          "title": "Passerelle Thiers - Saint-Denis (FR93) - 2022-07-17 - 2.jpg",
+          "description": "Passerelle de Thiers, Saint-Denis en Seine-Saint-Denis.",
+          "width": 4032,
+          "height": 3024,
+          "size": 6601149,
+          "timestamp": "2022-07-18T17:38:43Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Passerelle_Thiers_-_Saint-Denis_%28FR93%29_-_2022-07-17_-_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APasserelle%20Thiers%20-%20Saint-Denis%20(FR93)%20-%202022-07-17%20-%201.jpg",
+          "title": "Passerelle Thiers - Saint-Denis (FR93) - 2022-07-17 - 1.jpg",
+          "description": "Passerelle de Thiers, Saint-Denis en Seine-Saint-Denis.",
+          "width": 4032,
+          "height": 3024,
+          "size": 6065549,
+          "timestamp": "2022-07-18T17:38:44Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Table d’orientation du belvédère Saint-Roch",

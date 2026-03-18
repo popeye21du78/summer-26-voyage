@@ -1,12 +1,13 @@
 {
   "slug": "grasse",
   "nom": "Grasse",
-  "fetchedAt": "2026-03-13T14:37:38.915Z",
+  "fetchedAt": "2026-03-16T13:52:35.319Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Notre_Dame_du_Puy_cathedral_.Grasse_-_panoramio.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANotre%20Dame%20du%20Puy%20cathedral%20.Grasse%20-%20panoramio.jpg",
       "title": "Notre Dame du Puy cathedral .Grasse - panoramio.jpg",
+      "description": "Notre Dame du Puy cathedral .Grasse",
       "width": 3476,
       "height": 2084,
       "size": 436208,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Notre_dame_du_Puy.Grasse_-_panoramio.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANotre%20dame%20du%20Puy.Grasse%20-%20panoramio.jpg",
       "title": "Notre dame du Puy.Grasse - panoramio.jpg",
+      "description": "Notre dame du Puy.Grasse",
       "width": 2997,
       "height": 2037,
       "size": 575233,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Place_aux_Aires%2C_Grasse%2C_Provence-Alpes-C%C3%B4te_d%27Azur%2C_France_-_panoramio.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlace%20aux%20Aires%2C%20Grasse%2C%20Provence-Alpes-C%C3%B4te%20d'Azur%2C%20France%20-%20panoramio.jpg",
       "title": "Place aux Aires, Grasse, Provence-Alpes-Côte d'Azur, France - panoramio.jpg",
+      "description": "Place aux Aires, Grasse, Provence-Alpes-Côte d'Azur, France",
       "width": 2816,
       "height": 2112,
       "size": 2943420,
@@ -46,7 +49,50 @@
   "lieux": [
     {
       "label": "Chemin du Paradis",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Chemin_Peau_Grasse_-_Chelles_%28FR77%29_-_2025-02-16_-_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChemin%20Peau%20Grasse%20-%20Chelles%20(FR77)%20-%202025-02-16%20-%201.jpg",
+          "title": "Chemin Peau Grasse - Chelles (FR77) - 2025-02-16 - 1.jpg",
+          "description": "Chemin de la Peau-Grasse, Chelles en Seine-et-Marne.",
+          "width": 4032,
+          "height": 3024,
+          "size": 5413771,
+          "timestamp": "2025-02-17T02:13:46Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Chemin_Peau_Grasse_-_Chelles_%28FR77%29_-_2025-02-16_-_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChemin%20Peau%20Grasse%20-%20Chelles%20(FR77)%20-%202025-02-16%20-%202.jpg",
+          "title": "Chemin Peau Grasse - Chelles (FR77) - 2025-02-16 - 2.jpg",
+          "description": "Chemin de la Peau-Grasse, Chelles en Seine-et-Marne.",
+          "width": 4032,
+          "height": 3024,
+          "size": 6158862,
+          "timestamp": "2025-02-17T02:14:40Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Grasse_-_La_Ferrage.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrasse%20-%20La%20Ferrage.jpg",
+          "title": "Grasse - La Ferrage.jpg",
+          "description": "Domaine de la Ferrage, à Grasse",
+          "width": 3840,
+          "height": 2160,
+          "size": 5251650,
+          "timestamp": "2019-09-23T14:01:06Z",
+          "author": "Patrick Rouzet",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Plateau de Roquevignon",

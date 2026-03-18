@@ -1,12 +1,27 @@
 {
   "slug": "saint-savin",
   "nom": "Saint-Savin",
-  "fetchedAt": "2026-03-14T12:15:36.122Z",
+  "fetchedAt": "2026-03-18T18:43:22.134Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Abbaye_Saint-Savin_01.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20Saint-Savin%2001.jpg",
+      "title": "Abbaye Saint-Savin 01.jpg",
+      "description": "Vue de l'église abbatiale de Saint-Savin et de son cloître (Hautes-Pyrénées, Occitanie, France).",
+      "width": 5058,
+      "height": 3372,
+      "size": 9509902,
+      "timestamp": "2018-07-22T13:10:49Z",
+      "author": "Yann Gwilhoù",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/St_Savin_Hautes_Pyrenees_02.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt%20Savin%20Hautes%20Pyrenees%2002.jpg",
       "title": "St Savin Hautes Pyrenees 02.jpg",
+      "description": "Abbaye of Saint-Savin-en-Lavedan (Hautes-Pyrénées, France)",
       "width": 4592,
       "height": 3448,
       "size": 7345914,
@@ -20,23 +35,11 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/St_Savin_Hautes_Pyrenees_03.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt%20Savin%20Hautes%20Pyrenees%2003.jpg",
       "title": "St Savin Hautes Pyrenees 03.jpg",
+      "description": "Bench in the garden of the abbaye of Saint-Savin-en-Lavedan (Hautes-Pyrénées, France)",
       "width": 4592,
       "height": 3448,
       "size": 10401393,
       "timestamp": "2016-03-16T21:28:57Z",
-      "author": "Basotxerri",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Fontaine_St_Savin_03.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFontaine%20St%20Savin%2003.jpg",
-      "title": "Fontaine St Savin 03.jpg",
-      "width": 4592,
-      "height": 3448,
-      "size": 8147780,
-      "timestamp": "2016-03-16T21:29:00Z",
       "author": "Basotxerri",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
@@ -46,11 +49,69 @@
   "lieux": [
     {
       "label": "Nef et voûte peinte",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Fresque_de_la_nef_de_l%27Eglise_de_Saint-Savin_%28Compartiment_A1_%C3%A0_D2%29_DSC_1685.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFresque%20de%20la%20nef%20de%20l'Eglise%20de%20Saint-Savin%20(Compartiment%20A1%20%C3%A0%20D2)%20DSC%201685.jpg",
+          "title": "Fresque de la nef de l'Eglise de Saint-Savin (Compartiment A1 à D2) DSC 1685.jpg",
+          "description": "Voir vue compartimentation",
+          "width": 3787,
+          "height": 2499,
+          "size": 1930134,
+          "timestamp": "2022-02-05T14:29:11Z",
+          "author": "GuyFrancis",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Fresque_de_la_nef_de_l%27Eglise_de_Saint-Savin_%28Compartiment_A5_%C3%A0_D6%29_DSC_1693.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFresque%20de%20la%20nef%20de%20l'Eglise%20de%20Saint-Savin%20(Compartiment%20A5%20%C3%A0%20D6)%20DSC%201693.jpg",
+          "title": "Fresque de la nef de l'Eglise de Saint-Savin (Compartiment A5 à D6) DSC 1693.jpg",
+          "description": "Voir compartimentation",
+          "width": 3328,
+          "height": 2500,
+          "size": 1776545,
+          "timestamp": "2022-02-05T14:33:32Z",
+          "author": "GuyFrancis",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Fresque_de_la_nef_de_l%27Eglise_de_Saint-Savin_%28Compartiment_A3_%C3%A0_D5%29_DSC_1688.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFresque%20de%20la%20nef%20de%20l'Eglise%20de%20Saint-Savin%20(Compartiment%20A3%20%C3%A0%20D5)%20DSC%201688.jpg",
+          "title": "Fresque de la nef de l'Eglise de Saint-Savin (Compartiment A3 à D5) DSC 1688.jpg",
+          "description": "Voir compartimentation",
+          "width": 4081,
+          "height": 2499,
+          "size": 2084102,
+          "timestamp": "2022-02-05T14:32:07Z",
+          "author": "GuyFrancis",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Cloître roman",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Abbaye_Saint-Savin_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20Saint-Savin%2001.jpg",
+          "title": "Abbaye Saint-Savin 01.jpg",
+          "description": "Vue de l'église abbatiale de Saint-Savin et de son cloître (Hautes-Pyrénées, Occitanie, France).",
+          "width": 5058,
+          "height": 3372,
+          "size": 9509902,
+          "timestamp": "2018-07-22T13:10:49Z",
+          "author": "Yann Gwilhoù",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        }
+      ]
     },
     {
       "label": "Crypte",
@@ -58,7 +119,22 @@
     },
     {
       "label": "Jardin potager",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/St_Savin_Hautes_Pyrenees_03.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt%20Savin%20Hautes%20Pyrenees%2003.jpg",
+          "title": "St Savin Hautes Pyrenees 03.jpg",
+          "description": "Bench in the garden of the abbaye of Saint-Savin-en-Lavedan (Hautes-Pyrénées, France)",
+          "width": 4592,
+          "height": 3448,
+          "size": 10401393,
+          "timestamp": "2016-03-16T21:28:57Z",
+          "author": "Basotxerri",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

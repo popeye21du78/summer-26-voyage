@@ -1,12 +1,27 @@
 {
   "slug": "saint-romain-en-gal",
   "nom": "Saint-Romain-en-Gal",
-  "fetchedAt": "2026-03-14T12:14:02.439Z",
+  "fetchedAt": "2026-03-18T18:40:44.584Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Mus%C3%A9e_GR_de_Saint-Romain-en-Gal_27_07_2011_35.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e%20GR%20de%20Saint-Romain-en-Gal%2027%2007%202011%2035.jpg",
+      "title": "Musée GR de Saint-Romain-en-Gal 27 07 2011 35.jpg",
+      "description": "Vue du musée de Saint-Romain-en-Gal-Vienne.",
+      "width": 3588,
+      "height": 2616,
+      "size": 3685532,
+      "timestamp": "2011-08-16T14:31:32Z",
+      "author": "Vassil",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/France_ARA_69_Saint_Romain_en_Gal_Musee_02.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20ARA%2069%20Saint%20Romain%20en%20Gal%20Musee%2002.jpg",
       "title": "France ARA 69 Saint Romain en Gal Musee 02.jpg",
+      "description": "Thermes des Lutteurs",
       "width": 6016,
       "height": 4016,
       "size": 7313531,
@@ -20,22 +35,10 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/France_ARA_69_Saint_Romain_en_Gal_Musee_01.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20ARA%2069%20Saint%20Romain%20en%20Gal%20Musee%2001.jpg",
       "title": "France ARA 69 Saint Romain en Gal Musee 01.jpg",
+      "description": "Thermes des Lutteurs",
       "width": 6016,
       "height": 4016,
       "size": 7557388,
-      "timestamp": "2023-07-30T13:34:32Z",
-      "author": "Calips",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/France_ARA_69_Saint_Romain_en_Gal_Musee_03.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20ARA%2069%20Saint%20Romain%20en%20Gal%20Musee%2003.jpg",
-      "title": "France ARA 69 Saint Romain en Gal Musee 03.jpg",
-      "width": 6016,
-      "height": 4016,
-      "size": 9703752,
       "timestamp": "2023-07-30T13:34:32Z",
       "author": "Calips",
       "license": "CC BY-SA 3.0",
@@ -48,53 +51,114 @@
       "label": "Maison des Dieux Océan",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Mus%C3%A9e_GR_de_Saint-Romain-en-Gal_27_07_2011_01.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e%20GR%20de%20Saint-Romain-en-Gal%2027%2007%202011%2001.jpg",
-          "title": "Musée GR de Saint-Romain-en-Gal 27 07 2011 01.jpg",
-          "width": 2876,
-          "height": 2068,
-          "size": 3317576,
-          "timestamp": "2011-08-01T17:25:09Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Opus_sectile_floor_from_a_Roman_house_at_Nymph%C3%A9as%2C_Vienne_%28St-Rom-en-Gal%2C_Mus_Gall-Rom%29_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOpus%20sectile%20floor%20from%20a%20Roman%20house%20at%20Nymph%C3%A9as%2C%20Vienne%20(St-Rom-en-Gal%2C%20Mus%20Gall-Rom)%2001.jpg",
+          "title": "Opus sectile floor from a Roman house at Nymphéas, Vienne (St-Rom-en-Gal, Mus Gall-Rom) 01.jpg",
+          "description": "",
+          "width": 3072,
+          "height": 2304,
+          "size": 4297305,
+          "timestamp": "2024-12-09T22:34:42Z",
+          "author": "Mark Landon",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Opus_sectile_floor_from_a_Roman_house_at_Nymph%C3%A9as%2C_Vienne_%28St-Rom-en-Gal%2C_Mus_Gall-Rom%29_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOpus%20sectile%20floor%20from%20a%20Roman%20house%20at%20Nymph%C3%A9as%2C%20Vienne%20(St-Rom-en-Gal%2C%20Mus%20Gall-Rom)%2002.jpg",
+          "title": "Opus sectile floor from a Roman house at Nymphéas, Vienne (St-Rom-en-Gal, Mus Gall-Rom) 02.jpg",
+          "description": "",
+          "width": 3072,
+          "height": 2304,
+          "size": 4375347,
+          "timestamp": "2024-12-09T22:35:02Z",
+          "author": "Mark Landon",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Opus_sectile_floor_from_a_Roman_house%2C_Nymph%C3%A9as%2C_Vienne_%28St-Rom-en-Gal%2C_Mus_Gall-Rom%29_03.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOpus%20sectile%20floor%20from%20a%20Roman%20house%2C%20Nymph%C3%A9as%2C%20Vienne%20(St-Rom-en-Gal%2C%20Mus%20Gall-Rom)%2003.jpg",
+          "title": "Opus sectile floor from a Roman house, Nymphéas, Vienne (St-Rom-en-Gal, Mus Gall-Rom) 03.jpg",
+          "description": "",
+          "width": 2949,
+          "height": 2094,
+          "size": 2972521,
+          "timestamp": "2024-12-11T23:33:32Z",
+          "author": "Mark Landon",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
+    },
+    {
+      "label": "Ensemble thermal antique",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Mus%C3%A9e_GR_de_Saint-Romain-en-Gal_27_07_2011_05.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e%20GR%20de%20Saint-Romain-en-Gal%2027%2007%202011%2005.jpg",
+          "title": "Musée GR de Saint-Romain-en-Gal 27 07 2011 05.jpg",
+          "description": "Lutteurs, peinture murale d'un ensemble représentant les jeux de la palestre, qui décorait les latrines des Thermes des Lutteurs. 3ème siècle, Vienna Allobrogum. Musée gallo-romain de Saint-Romain-en-Gal-Vienne.",
+          "width": 3144,
+          "height": 2392,
+          "size": 3574591,
+          "timestamp": "2011-08-01T20:11:18Z",
           "author": "Vassil",
           "license": "CC0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Vienne%2C_Saint-Romain-en-Gal%2C_Roman_Columns.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVienne%2C%20Saint-Romain-en-Gal%2C%20Roman%20Columns.JPG",
-          "title": "Vienne, Saint-Romain-en-Gal, Roman Columns.JPG",
-          "width": 2563,
-          "height": 1834,
-          "size": 1734551,
-          "timestamp": "2012-10-07T16:17:34Z",
-          "author": "Karl-Heinz Wellmann",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/01_Maison_des_Dieux_Ocean_01.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A01%20Maison%20des%20Dieux%20Ocean%2001.jpg",
-          "title": "01 Maison des Dieux Ocean 01.jpg",
-          "width": 2816,
-          "height": 1880,
-          "size": 4724312,
-          "timestamp": "2012-11-25T11:44:18Z",
-          "author": "Hélène Rival",
-          "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 5
         }
       ]
     },
     {
-      "label": "Ensemble thermal antique",
-      "photos": []
-    },
-    {
       "label": "Rue principale pavée",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Vienne_-_Quai_Pajot_-_Pont_de_chemin_de_fer_de_la_rue_Francisque_Bonnier%2C_vu_depuis_le_mus%C3%A9e_gallo-romain_de_Saint-Romain-en-Gal.jpeg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVienne%20-%20Quai%20Pajot%20-%20Pont%20de%20chemin%20de%20fer%20de%20la%20rue%20Francisque%20Bonnier%2C%20vu%20depuis%20le%20mus%C3%A9e%20gallo-romain%20de%20Saint-Romain-en-Gal.jpeg",
+          "title": "Vienne - Quai Pajot - Pont de chemin de fer de la rue Francisque Bonnier, vu depuis le musée gallo-romain de Saint-Romain-en-Gal.jpeg",
+          "description": "Pont de chemin de fer de la rue Francisque Bonnier, vu depuis le musée gallo-romain de Saint-Romain-en-Gal.",
+          "width": 3456,
+          "height": 2592,
+          "size": 5742592,
+          "timestamp": "2021-06-27T09:17:58Z",
+          "author": "Romainbehar",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Mosaic_of_krater_and_birds_-_partridge_01_%28St-Rom-en-Gal%2C_Mus_Gall-Rom%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMosaic%20of%20krater%20and%20birds%20-%20partridge%2001%20(St-Rom-en-Gal%2C%20Mus%20Gall-Rom).jpg",
+          "title": "Mosaic of krater and birds - partridge 01 (St-Rom-en-Gal, Mus Gall-Rom).jpg",
+          "description": "",
+          "width": 2955,
+          "height": 1947,
+          "size": 3059602,
+          "timestamp": "2024-12-08T01:06:00Z",
+          "author": "Mark Landon",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Mosaic_of_krater_and_birds_-_partridge_02_%28St-Rom-en-Gal%2C_Mus_Gall-Rom%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMosaic%20of%20krater%20and%20birds%20-%20partridge%2002%20(St-Rom-en-Gal%2C%20Mus%20Gall-Rom).jpg",
+          "title": "Mosaic of krater and birds - partridge 02 (St-Rom-en-Gal, Mus Gall-Rom).jpg",
+          "description": "",
+          "width": 3072,
+          "height": 2304,
+          "size": 4037665,
+          "timestamp": "2024-12-08T01:06:26Z",
+          "author": "Mark Landon",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Passerelle panoramique",

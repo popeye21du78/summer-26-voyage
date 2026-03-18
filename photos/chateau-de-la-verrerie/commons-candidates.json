@@ -1,12 +1,13 @@
 {
   "slug": "chateau-de-la-verrerie",
   "nom": "Château de La Verrerie",
-  "fetchedAt": "2026-03-13T13:09:57.220Z",
+  "fetchedAt": "2026-03-15T21:34:48.183Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Ch%C3%A2teau_de_la_Verrerie.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20la%20Verrerie.jpg",
       "title": "Château de la Verrerie.jpg",
+      "description": "fr:Château de la Verrerie (Cher)",
       "width": 2295,
       "height": 3245,
       "size": 6841221,
@@ -14,47 +15,136 @@
       "author": "Dmitry Gurtovoy",
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 3
+      "score": 5
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/ISS038-E-68376_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS038-E-68376%20-%20View%20of%20Earth.jpg",
-      "title": "ISS038-E-68376 - View of Earth.jpg",
-      "width": 6048,
-      "height": 4032,
-      "size": 3986548,
-      "timestamp": "2021-05-24T20:52:10Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Le_Creusot_-_musee_verrerie_109.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Creusot%20-%20musee%20verrerie%20109.jpg",
+      "title": "Le Creusot - musee verrerie 109.jpg",
+      "description": "Château de la Verrerie, Le Creusot, Saone et Loire, Bourgogne, France",
+      "width": 3909,
+      "height": 2179,
+      "size": 1189858,
+      "timestamp": "2020-12-31T15:27:16Z",
+      "author": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/ISS065-E-51493_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS065-E-51493%20-%20View%20of%20Earth.jpg",
-      "title": "ISS065-E-51493 - View of Earth.jpg",
-      "width": 5568,
-      "height": 3712,
-      "size": 3633487,
-      "timestamp": "2022-06-26T16:06:59Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Le_Creusot_-_musee_verrerie_112.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Creusot%20-%20musee%20verrerie%20112.jpg",
+      "title": "Le Creusot - musee verrerie 112.jpg",
+      "description": "Château de la Verrerie, Le Creusot, Saone et Loire, Bourgogne, France",
+      "width": 4000,
+      "height": 3000,
+      "size": 8633165,
+      "timestamp": "2020-12-31T15:27:55Z",
+      "author": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     }
   ],
   "lieux": [
     {
       "label": "Galerie à arcades",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Verrerie_04_2009.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVerrerie%2004%202009.jpg",
+          "title": "Verrerie 04 2009.jpg",
+          "description": "Schloss La Verrerie im französischen Département Cher - Wohngebäude mit Galerie",
+          "width": 4051,
+          "height": 2597,
+          "size": 5527018,
+          "timestamp": "2009-09-16T10:29:12Z",
+          "author": "Manfred Heyde",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     },
     {
       "label": "Salle à manger",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Le_Creusot_-_Parc_de_la_Verrerie_-_Salle_du_jeu_de_paume.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Creusot%20-%20Parc%20de%20la%20Verrerie%20-%20Salle%20du%20jeu%20de%20paume.jpg",
+          "title": "Le Creusot - Parc de la Verrerie - Salle du jeu de paume.jpg",
+          "description": "Parc du Château de la Verrerie, Le Creusot, France",
+          "width": 3380,
+          "height": 1898,
+          "size": 1857713,
+          "timestamp": "2011-06-12T13:51:28Z",
+          "author": "photography taken by <a href=\"https://fr.wikipedia.org/wiki/Utilisateur:Christophe.Finot\" class=\"extiw\" title=\"fr:Utilisateur:Christophe.Finot\">Christophe.Finot</a>",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Concerts_verrerie.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AConcerts%20verrerie.JPG",
+          "title": "Concerts verrerie.JPG",
+          "description": "Salle de Concert du Château de La Verrerie",
+          "width": 1536,
+          "height": 2056,
+          "size": 1107730,
+          "timestamp": "2014-04-13T13:16:45Z",
+          "author": "Agence26",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Parc anglais",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Parc_de_la_Verrerie_Le_Creusot.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParc%20de%20la%20Verrerie%20Le%20Creusot.jpg",
+          "title": "Parc de la Verrerie Le Creusot.jpg",
+          "description": "Le château de la Verrerie au Creusot, vu depuis son parc, le 03 mai 2003.",
+          "width": 2272,
+          "height": 1704,
+          "size": 2410695,
+          "timestamp": "2025-01-15T01:17:11Z",
+          "author": "Nicolas Richoffer",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Le_Creusot_-_Parc_de_la_Verrerie_2.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Creusot%20-%20Parc%20de%20la%20Verrerie%202.JPG",
+          "title": "Le Creusot - Parc de la Verrerie 2.JPG",
+          "description": "par du Château de la Verrerie, (Le Creusot, Saône-et-Loire, Bourgogne, France",
+          "width": 3456,
+          "height": 2304,
+          "size": 4682316,
+          "timestamp": "2015-05-02T20:15:48Z",
+          "author": "photography taken by <a href=\"https://fr.wikipedia.org/wiki/Utilisateur:Christophe.Finot\" class=\"extiw\" title=\"fr:Utilisateur:Christophe.Finot\">Christophe.Finot</a>",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Le_Creusot_-_Parc_de_la_Verrerie.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Creusot%20-%20Parc%20de%20la%20Verrerie.JPG",
+          "title": "Le Creusot - Parc de la Verrerie.JPG",
+          "description": "par du Château de la Verrerie, (Le Creusot, Saône-et-Loire, Bourgogne, France",
+          "width": 3456,
+          "height": 2304,
+          "size": 6420793,
+          "timestamp": "2015-05-02T20:16:49Z",
+          "author": "photography taken by <a href=\"https://fr.wikipedia.org/wiki/Utilisateur:Christophe.Finot\" class=\"extiw\" title=\"fr:Utilisateur:Christophe.Finot\">Christophe.Finot</a>",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        }
+      ]
     },
     {
       "label": "Chapelle néogothique",

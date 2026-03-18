@@ -1,12 +1,13 @@
 {
   "slug": "paimpont",
   "nom": "Paimpont",
-  "fetchedAt": "2026-03-13T16:43:40.604Z",
+  "fetchedAt": "2026-03-17T22:06:17.249Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Paimpont_%2835%29_Abbatiale_Notre-Dame_-_Int%C3%A9rieur_-_Vo%C3%BBte_de_la_nef_-_Sabli%C3%A8res_ouest_03.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APaimpont%20(35)%20Abbatiale%20Notre-Dame%20-%20Int%C3%A9rieur%20-%20Vo%C3%BBte%20de%20la%20nef%20-%20Sabli%C3%A8res%20ouest%2003.jpg",
       "title": "Paimpont (35) Abbatiale Notre-Dame - Intérieur - Voûte de la nef - Sablières ouest 03.jpg",
+      "description": "Sablières ouest de la voûte de la nef de l'abbatiale Notre-Dame de Paimpont (35).",
       "width": 2100,
       "height": 1400,
       "size": 1179423,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Paimpont_%2835%29_Abbatiale_Notre-Dame_-_Int%C3%A9rieur_-_Vo%C3%BBte_de_la_nef_-_Sabli%C3%A8res_nord_02.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APaimpont%20(35)%20Abbatiale%20Notre-Dame%20-%20Int%C3%A9rieur%20-%20Vo%C3%BBte%20de%20la%20nef%20-%20Sabli%C3%A8res%20nord%2002.jpg",
       "title": "Paimpont (35) Abbatiale Notre-Dame - Intérieur - Voûte de la nef - Sablières nord 02.jpg",
+      "description": "Sablières nord de la voûte de la nef de l'abbatiale Notre-Dame de Paimpont (35).",
       "width": 2100,
       "height": 1400,
       "size": 1202879,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Paimpont_%2835%29_Abbatiale_Notre-Dame_-_Int%C3%A9rieur_-_Vo%C3%BBte_de_la_nef_-_Sabli%C3%A8res_nord_13.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APaimpont%20(35)%20Abbatiale%20Notre-Dame%20-%20Int%C3%A9rieur%20-%20Vo%C3%BBte%20de%20la%20nef%20-%20Sabli%C3%A8res%20nord%2013.jpg",
       "title": "Paimpont (35) Abbatiale Notre-Dame - Intérieur - Voûte de la nef - Sablières nord 13.jpg",
+      "description": "Sablières nord de la voûte de la nef de l'abbatiale Notre-Dame de Paimpont (35).",
       "width": 2100,
       "height": 1400,
       "size": 819233,
@@ -48,43 +51,46 @@
       "label": "Val sans Retour",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Val_sans_retour_-_rocher_des_faux_amants_%28Paimpont%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVal%20sans%20retour%20-%20rocher%20des%20faux%20amants%20(Paimpont).jpg",
-          "title": "Val sans retour - rocher des faux amants (Paimpont).jpg",
-          "width": 5472,
-          "height": 3648,
-          "size": 7646507,
-          "timestamp": "2024-08-16T05:50:40Z",
-          "author": "Gzen92",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Val_sans_retour_-_panoramio.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVal%20sans%20retour%20-%20panoramio.jpg",
-          "title": "Val sans retour - panoramio.jpg",
-          "width": 3264,
-          "height": 2448,
-          "size": 3997329,
-          "timestamp": "2016-11-14T16:05:10Z",
-          "author": "franek2",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/2013-07-09_Tour_de_France_-_Paimpont_%2819%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2013-07-09%20Tour%20de%20France%20-%20Paimpont%20(19).JPG",
+          "title": "2013-07-09 Tour de France - Paimpont (19).JPG",
+          "description": "Tour de France 2013 à Paimpont. Balayage de la route avant le passage des coureurs.",
+          "width": 4896,
+          "height": 3672,
+          "size": 6295528,
+          "timestamp": "2013-08-27T04:16:58Z",
+          "author": "Jejecam",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 5
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Strates_de_schiste_mises_%C3%A0_nu_par_le_passage_des_visiteurs_-_panoramio.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStrates%20de%20schiste%20mises%20%C3%A0%20nu%20par%20le%20passage%20des%20visiteurs%20-%20panoramio.jpg",
-          "title": "Strates de schiste mises à nu par le passage des visiteurs - panoramio.jpg",
-          "width": 3264,
-          "height": 2448,
-          "size": 3674186,
-          "timestamp": "2016-11-14T16:06:30Z",
-          "author": "franek2",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/2013-07-09_Tour_de_France_-_Paimpont_%2825%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2013-07-09%20Tour%20de%20France%20-%20Paimpont%20(25).JPG",
+          "title": "2013-07-09 Tour de France - Paimpont (25).JPG",
+          "description": "Tour de France 2013 à Paimpont. Le groupe de tête.",
+          "width": 4896,
+          "height": 3672,
+          "size": 6567806,
+          "timestamp": "2013-08-27T04:17:05Z",
+          "author": "Jejecam",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/2013-07-09_Tour_de_France_-_Paimpont_%2826%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2013-07-09%20Tour%20de%20France%20-%20Paimpont%20(26).JPG",
+          "title": "2013-07-09 Tour de France - Paimpont (26).JPG",
+          "description": "Tour de France 2013 à Paimpont.",
+          "width": 4896,
+          "height": 3672,
+          "size": 7403077,
+          "timestamp": "2013-08-27T04:17:05Z",
+          "author": "Jejecam",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
         }
       ]
     },
@@ -95,6 +101,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Arbre_d%27Or_%28Paimpont%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArbre%20d'Or%20(Paimpont).jpg",
           "title": "Arbre d'Or (Paimpont).jpg",
+          "description": "Arbre d'Or à Paimpont (Ille-et-Vilaine, France).",
           "width": 3648,
           "height": 5472,
           "size": 8515939,
@@ -103,19 +110,6 @@
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Nojhan_-_Stones_of_the_golden_chesnut.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANojhan%20-%20Stones%20of%20the%20golden%20chesnut.jpg",
-          "title": "Nojhan - Stones of the golden chesnut.jpg",
-          "width": 3456,
-          "height": 2304,
-          "size": 4230297,
-          "timestamp": "2011-09-05T22:29:08Z",
-          "author": "Johann Dréo",
-          "license": "CC BY-SA 2.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
         }
       ]
     },
@@ -123,30 +117,18 @@
       "label": "miroir aux fées",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Broc%C3%A9liande_-_Ille-et-Vilaine_-_Miroir_des_f%C3%A9es_et_Val_sans_retour.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABroc%C3%A9liande%20-%20Ille-et-Vilaine%20-%20Miroir%20des%20f%C3%A9es%20et%20Val%20sans%20retour.jpg",
-          "title": "Brocéliande - Ille-et-Vilaine - Miroir des fées et Val sans retour.jpg",
-          "width": 1062,
-          "height": 1788,
-          "size": 619929,
-          "timestamp": "2013-06-15T14:38:31Z",
-          "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
-          "license": "Public domain",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Miroir_des_f%C3%A9es_Paimpont.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMiroir%20des%20f%C3%A9es%20Paimpont.jpg",
+          "title": "Miroir des fées Paimpont.jpg",
+          "description": "Photo étang miroir des fée dans la forêt de Brocéliande - Paimpont",
+          "width": 2956,
+          "height": 3941,
+          "size": 2674603,
+          "timestamp": "2025-11-14T13:58:30Z",
+          "author": "Arwenn22",
+          "license": "CC BY 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 3
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Miroir_aux_fees.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMiroir%20aux%20fees.JPG",
-          "title": "Miroir aux fees.JPG",
-          "width": 1024,
-          "height": 768,
-          "size": 183654,
-          "timestamp": "2006-09-15T18:44:25Z",
-          "author": "Argv23",
-          "license": "CC BY-SA 2.5",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 2
+          "score": 6
         }
       ]
     },
@@ -154,43 +136,46 @@
       "label": "étang du Pas-du-Houx",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/La_for%C3%AAt_de_Broc%C3%A9liande_en_automne_-_04.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20for%C3%AAt%20de%20Broc%C3%A9liande%20en%20automne%20-%2004.jpg",
-          "title": "La forêt de Brocéliande en automne - 04.jpg",
-          "width": 6000,
-          "height": 4000,
-          "size": 9177921,
-          "timestamp": "2021-12-22T20:15:01Z",
-          "author": "Thérèse Gaigé",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/La_for%C3%AAt_de_Broc%C3%A9liande_en_automne_-_03.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20for%C3%AAt%20de%20Broc%C3%A9liande%20en%20automne%20-%2003.jpg",
-          "title": "La forêt de Brocéliande en automne - 03.jpg",
-          "width": 6000,
-          "height": 4000,
-          "size": 5938653,
-          "timestamp": "2021-12-22T20:15:01Z",
-          "author": "Thérèse Gaigé",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Paimpont_-_Pas_du_houx.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APaimpont%20-%20Pas%20du%20houx.jpg",
-          "title": "Paimpont - Pas du houx.jpg",
-          "width": 3284,
-          "height": 2096,
-          "size": 1730141,
-          "timestamp": "2011-01-29T17:17:04Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Paimpont_-_Abbaye_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APaimpont%20-%20Abbaye%201.jpg",
+          "title": "Paimpont - Abbaye 1.jpg",
+          "description": "Paimpont : Abbaye de Paimpont, date du XVIe siècle. Vue de l'étang.",
+          "width": 3328,
+          "height": 2144,
+          "size": 1518692,
+          "timestamp": "2011-01-29T17:06:57Z",
           "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
           "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Les_Forges_de_Paimpont_%2835%29_-_04.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20Forges%20de%20Paimpont%20(35)%20-%2004.jpg",
+          "title": "Les Forges de Paimpont (35) - 04.jpg",
+          "description": "Étang alimentant en eau les Forges de Paimpont et dominant tout le site historique (Ille-et-Vilaine, France)",
+          "width": 6000,
+          "height": 4000,
+          "size": 7821675,
+          "timestamp": "2021-12-18T16:47:51Z",
+          "author": "Thérèse Gaigé",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Etang_de_Paimpont_1.jpeg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEtang%20de%20Paimpont%201.jpeg",
+          "title": "Etang de Paimpont 1.jpeg",
+          "description": "",
+          "width": 3264,
+          "height": 1836,
+          "size": 2147027,
+          "timestamp": "2015-07-22T08:31:36Z",
+          "author": "Isa2886",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
         }
       ]
     }

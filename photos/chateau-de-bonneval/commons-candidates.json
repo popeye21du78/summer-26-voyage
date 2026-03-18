@@ -1,44 +1,47 @@
 {
   "slug": "chateau-de-bonneval",
   "nom": "Château de Bonneval",
-  "fetchedAt": "2026-03-13T12:43:59.458Z",
+  "fetchedAt": "2026-03-15T21:14:13.510Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Coussac-Bonneval_gare_02.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACoussac-Bonneval%20gare%2002.jpg",
-      "title": "Coussac-Bonneval gare 02.jpg",
-      "width": 8000,
-      "height": 6000,
-      "size": 19265173,
-      "timestamp": "2023-08-30T18:20:04Z",
-      "author": "Pablo xnovax",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Chateau_de_Bonneval_-_Family_Appartments.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau%20de%20Bonneval%20-%20Family%20Appartments.JPG",
+      "title": "Chateau de Bonneval - Family Appartments.JPG",
+      "description": "Château de Coussac-Bonneval",
+      "width": 3872,
+      "height": 2592,
+      "size": 2384030,
+      "timestamp": "2014-09-29T13:26:49Z",
+      "author": "Emmenngee",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/BV_de_Coussac-Bonneval_%281%29_par_Cramos.JPG",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABV%20de%20Coussac-Bonneval%20(1)%20par%20Cramos.JPG",
-      "title": "BV de Coussac-Bonneval (1) par Cramos.JPG",
-      "width": 3500,
-      "height": 2625,
-      "size": 1356569,
-      "timestamp": "2024-01-27T22:50:09Z",
-      "author": "Cramos",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Chateau_de_Bonneval_-_Front_Lawns.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau%20de%20Bonneval%20-%20Front%20Lawns.JPG",
+      "title": "Chateau de Bonneval - Front Lawns.JPG",
+      "description": "Château de Coussac-Bonneval",
+      "width": 3872,
+      "height": 2592,
+      "size": 2551061,
+      "timestamp": "2014-09-29T13:26:50Z",
+      "author": "Emmenngee",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/BV_de_Coussac-Bonneval_%283%29_par_Cramos.JPG",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABV%20de%20Coussac-Bonneval%20(3)%20par%20Cramos.JPG",
-      "title": "BV de Coussac-Bonneval (3) par Cramos.JPG",
-      "width": 5000,
-      "height": 3750,
-      "size": 3533052,
-      "timestamp": "2024-01-27T22:50:37Z",
-      "author": "Cramos",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Chateau_de_Bonneval_-_Facing_East.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau%20de%20Bonneval%20-%20Facing%20East.JPG",
+      "title": "Chateau de Bonneval - Facing East.JPG",
+      "description": "Château de Coussac-Bonneval",
+      "width": 3872,
+      "height": 2592,
+      "size": 2518928,
+      "timestamp": "2014-09-29T13:26:52Z",
+      "author": "Emmenngee",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     }
@@ -46,11 +49,83 @@
   "lieux": [
     {
       "label": "Façade avec tours et douves",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Ch%C3%A2teau_de_Bonneval_fa%C3%A7ade_Est.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Bonneval%20fa%C3%A7ade%20Est.jpg",
+          "title": "Château de Bonneval façade Est.jpg",
+          "description": "L'entrée dans le château se fait par un double pont levis en dessous d'une tour carrée de défense",
+          "width": 4627,
+          "height": 3470,
+          "size": 2981970,
+          "timestamp": "2022-06-27T14:57:32Z",
+          "author": "Judith lacelle",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Chateau_de_Coussac_Bonneval_c%C3%B4t%C3%A9_sud-est.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau%20de%20Coussac%20Bonneval%20c%C3%B4t%C3%A9%20sud-est.jpg",
+          "title": "Chateau de Coussac Bonneval côté sud-est.jpg",
+          "description": "Château bâti en grande partie au XIV ème siècle La tour sud, coiffée de créneaux est un ajout en rehauts du 19è siècle. Privé, il a la particularité d'appartenir à la même famille depuis plus d'un millénaire",
+          "width": 4617,
+          "height": 3463,
+          "size": 2597790,
+          "timestamp": "2022-06-27T14:57:32Z",
+          "author": "Judith lacelle",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     },
     {
       "label": "Grand salon aux boiseries XVIIIe",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Chateau_de_Bonneval_-_Le_Grand_Toit.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau%20de%20Bonneval%20-%20Le%20Grand%20Toit.JPG",
+          "title": "Chateau de Bonneval - Le Grand Toit.JPG",
+          "description": "Château de Coussac-Bonneval",
+          "width": 3872,
+          "height": 2592,
+          "size": 2446320,
+          "timestamp": "2014-09-29T13:27:00Z",
+          "author": "Emmenngee",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Ve%C3%BCe_perspective_de_la_d%C3%A9coration_%C3%A9lev%C3%A9e_sur_la_terrasse_du_chateau_de_Versailles_pour_l%27illumination_et_le_feu_d%27artifice_qui_a_%C3%A9t%C3%A9_tir%C3%A9_%C3%A0_l%27occasion_-_du_mariage_de_Madame_Louise-Elizabeth_de_France_avec..._-_btv1b69473413.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVe%C3%BCe%20perspective%20de%20la%20d%C3%A9coration%20%C3%A9lev%C3%A9e%20sur%20la%20terrasse%20du%20chateau%20de%20Versailles%20pour%20l'illumination%20et%20le%20feu%20d'artifice%20qui%20a%20%C3%A9t%C3%A9%20tir%C3%A9%20%C3%A0%20l'occasion%20-%20du%20mariage%20de%20Madame%20Louise-Elizabeth%20de%20France%20avec...%20-%20btv1b69473413.jpg",
+          "title": "Veüe perspective de la décoration élevée sur la terrasse du chateau de Versailles pour l'illumination et le feu d'artifice qui a été tiré à l'occasion - du mariage de Madame Louise-Elizabeth de France avec... - btv1b69473413.jpg",
+          "description": "Sujet : Scènes historiques -- 1701-1788\n[Vue perspective de la décoration élevée sur la terrasse du chateau de Versailles pour l'illumination et le feu d'artifice qui a été tiré à l'occasion du mariage de Madame Louise-Elizabeth de France avec Don Philippe second Infant d'Espagne le XXVI août M.DCC.XXXIX]\nRéférence bibliographique : IFF18 COCHIN (Charles-Nicolas) le fils, 104\nRéférence bibliographique : Jombert, Cochin, 62\nRéférence bibliographique : Hennin, 8306\nCouverture : 26 août 1739\n\nLangu",
+          "width": 11340,
+          "height": 5729,
+          "size": 9834160,
+          "timestamp": "2025-02-27T21:58:32Z",
+          "author": "<div class=\"fn value\">\n<p>Cochin, Charles-Nicolas (1715-1790). Graveur\nPerrot, Pierre-Josse Joseph (1678-1750). Peintre du modèle\nBonneval, De (17..-17.. ; graveur). Dessinateur du modèle\n</p>\nBonneval, Michel de (17..-1766). Dessinateur prétendu</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Vue_perspective_de_la_d%C3%A9coration_%C3%A9lev%C3%A9e_sur_la_terrasse_du_ch%C3%A2teau_de_Versailles_pour_l%27illumination_et_le_feu_d%27artifice_qui_a_%C3%A9t%C3%A9_tir%C3%A9_%C3%A0_l%27occasion_du_mariage_de_Madame_Louis-Elisabeth_de_France_avec_Don..._-_btv1b53251227c.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20perspective%20de%20la%20d%C3%A9coration%20%C3%A9lev%C3%A9e%20sur%20la%20terrasse%20du%20ch%C3%A2teau%20de%20Versailles%20pour%20l'illumination%20et%20le%20feu%20d'artifice%20qui%20a%20%C3%A9t%C3%A9%20tir%C3%A9%20%C3%A0%20l'occasion%20du%20mariage%20de%20Madame%20Louis-Elisabeth%20de%20France%20avec%20Don...%20-%20btv1b53251227c.jpg",
+          "title": "Vue perspective de la décoration élevée sur la terrasse du château de Versailles pour l'illumination et le feu d'artifice qui a été tiré à l'occasion du mariage de Madame Louis-Elisabeth de France avec Don... - btv1b53251227c.jpg",
+          "description": "Sujet : Vues perspectives -- 1701-1788\nCouverture : 26 août 1739\nLangue : sans contenu linguistique\n\nÉditeur : [s.n.]",
+          "width": 15001,
+          "height": 7310,
+          "size": 30468012,
+          "timestamp": "2025-03-16T11:54:36Z",
+          "author": "<div class=\"fn value\">\n<p>Cochin, Charles-Nicolas (1715-1790). Graveur\nBonneval, Michel de (17..-1766). Dessinateur du modèle\n</p>\nPerrot, Pierre-Josse Joseph (1678-1750). Peintre du modèle</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Parc arboré et allée d’ifs",

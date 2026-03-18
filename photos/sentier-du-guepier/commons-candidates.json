@@ -1,52 +1,42 @@
 {
   "slug": "sentier-du-guepier",
   "nom": "Sentier du Guêpier",
-  "fetchedAt": "2026-03-14T12:36:30.556Z",
+  "fetchedAt": "2026-03-18T19:32:43.833Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/%C3%89glise_Saint-%C3%89tienne_d%27Orchamps.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-%C3%89tienne%20d'Orchamps.jpg",
-      "title": "Église Saint-Étienne d'Orchamps.jpg",
-      "width": 5027,
-      "height": 3349,
-      "size": 7770568,
-      "timestamp": "2025-10-02T20:59:43Z",
-      "author": "Oeil Comtois",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Histoire_naturelle_des_promerops%2C_et_des_gu%C3%AApiers_%28No._23%29_%2821323417285%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHistoire%20naturelle%20des%20promerops%2C%20et%20des%20gu%C3%AApiers%20(No.%2023)%20(21323417285).jpg",
+      "title": "Histoire naturelle des promerops, et des guêpiers (No. 23) (21323417285).jpg",
+      "description": "DES PROMEROPS. 5; \nces oiseaux ont la faculté de les relever avec force. Telles sont les aigrettes \ndes cacatoès, les plumes subalaires de certains oiseaux de paradis, celles de \nla nuque du magnifique, celles des épaules du superbe, celles du croupion \ndu paon, celles enfin de tous les oiseaux auxquels la nature a accordé de \nces plumes de luxe, avec lesquelles ils se parent en les étalant chacun à leur \nmaniera, par le moyen d'un muscle extenseur sur lequel elles sont toutes \nimplantées. Or, c",
+      "width": 2021,
+      "height": 3200,
+      "size": 435879,
+      "timestamp": "2015-09-13T00:24:26Z",
+      "author": "Le Vaillant, François",
+      "license": "Public domain",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Fontaine-lavoir_d%27Orchamps.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFontaine-lavoir%20d'Orchamps.jpg",
-      "title": "Fontaine-lavoir d'Orchamps.jpg",
-      "width": 5119,
-      "height": 3410,
-      "size": 10363604,
-      "timestamp": "2025-10-02T21:00:21Z",
-      "author": "Oeil Comtois",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/B268b690cedbcc5c16b57b0543b03c46_large.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AB268b690cedbcc5c16b57b0543b03c46%20large.jpg",
-      "title": "B268b690cedbcc5c16b57b0543b03c46 large.jpg",
-      "width": 2560,
-      "height": 1600,
-      "size": 2120289,
-      "timestamp": "2015-11-10T22:00:14Z",
-      "author": "Patsy39700",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 1
     }
   ],
   "lieux": [
     {
       "label": "Bois des Granges",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Histoire_naturelle_des_promerops%2C_et_des_gu%C3%AApiers_%28No._23%29_%2821323417285%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHistoire%20naturelle%20des%20promerops%2C%20et%20des%20gu%C3%AApiers%20(No.%2023)%20(21323417285).jpg",
+          "title": "Histoire naturelle des promerops, et des guêpiers (No. 23) (21323417285).jpg",
+          "description": "DES PROMEROPS. 5; \nces oiseaux ont la faculté de les relever avec force. Telles sont les aigrettes \ndes cacatoès, les plumes subalaires de certains oiseaux de paradis, celles de \nla nuque du magnifique, celles des épaules du superbe, celles du croupion \ndu paon, celles enfin de tous les oiseaux auxquels la nature a accordé de \nces plumes de luxe, avec lesquelles ils se parent en les étalant chacun à leur \nmaniera, par le moyen d'un muscle extenseur sur lequel elles sont toutes \nimplantées. Or, c",
+          "width": 2021,
+          "height": 3200,
+          "size": 435879,
+          "timestamp": "2015-09-13T00:24:26Z",
+          "author": "Le Vaillant, François",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 1
+        }
+      ]
     },
     {
       "label": "Carrefour du Chemin des Planches",

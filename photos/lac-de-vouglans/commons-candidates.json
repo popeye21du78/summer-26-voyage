@@ -1,44 +1,47 @@
 {
   "slug": "lac-de-vouglans",
   "nom": "Lac de Vouglans",
-  "fetchedAt": "2026-03-13T15:15:42.145Z",
+  "fetchedAt": "2026-03-16T19:28:02.326Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Pyrog_DSC00024.JPG",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APyrog%20DSC00024.JPG",
-      "title": "Pyrog DSC00024.JPG",
-      "width": 5184,
-      "height": 3888,
-      "size": 7587510,
-      "timestamp": "2020-06-17T16:39:00Z",
-      "author": "Pyrog",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Aerial_image_of_Lac_de_Vouglans_%28view_from_the_southwest%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAerial%20image%20of%20Lac%20de%20Vouglans%20(view%20from%20the%20southwest).jpg",
+      "title": "Aerial image of Lac de Vouglans (view from the southwest).jpg",
+      "description": "Aerial image of Lac de Vouglans (view from the southwest)",
+      "width": 5500,
+      "height": 3400,
+      "size": 12194438,
+      "timestamp": "2025-08-19T19:27:39Z",
+      "author": "Carsten Steger",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Pyrog_DSC00045.JPG",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APyrog%20DSC00045.JPG",
-      "title": "Pyrog DSC00045.JPG",
-      "width": 5184,
-      "height": 3888,
-      "size": 6403716,
-      "timestamp": "2020-06-17T16:39:11Z",
-      "author": "Pyrog",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Lac_Vouglans.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALac%20Vouglans.jpg",
+      "title": "Lac Vouglans.jpg",
+      "description": "Vue depuis un bélvédère",
+      "width": 3840,
+      "height": 2160,
+      "size": 2679268,
+      "timestamp": "2019-08-14T09:43:16Z",
+      "author": "Pipouchat",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 8
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Pyrog_20190817_130810.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APyrog%2020190817%20130810.jpg",
-      "title": "Pyrog 20190817 130810.jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 7841691,
-      "timestamp": "2020-06-17T16:42:21Z",
-      "author": "Pyrog",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Lac_de_Vouglans_Surchauffant.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALac%20de%20Vouglans%20Surchauffant.JPG",
+      "title": "Lac de Vouglans Surchauffant.JPG",
+      "description": "Lac de Vouglans view in the direction of the north from the point of view of Auberge du Surchauffant (Jura, France).",
+      "width": 2304,
+      "height": 1728,
+      "size": 909612,
+      "timestamp": "2012-08-13T19:54:58Z",
+      "author": "Juraastro",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     }
@@ -46,11 +49,69 @@
   "lieux": [
     {
       "label": "Via Ferrata du Regardoir",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Lac_de_Vouglans_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALac%20de%20Vouglans%202.jpg",
+          "title": "Lac de Vouglans 2.jpg",
+          "description": "Lac de Vouglans",
+          "width": 4000,
+          "height": 2250,
+          "size": 7714861,
+          "timestamp": "2022-06-16T15:16:39Z",
+          "author": "Thilo Parg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Lac_de_Vouglans_vu_de_sur_Faucon.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALac%20de%20Vouglans%20vu%20de%20sur%20Faucon.jpg",
+          "title": "Lac de Vouglans vu de sur Faucon.jpg",
+          "description": "Lac de Vouglans, from \"sur Faucon\", 560 m high and a view over the barrage, Haut-Jura Natural Park, France",
+          "width": 5445,
+          "height": 3063,
+          "size": 7945246,
+          "timestamp": "2016-05-09T17:07:15Z",
+          "author": "Annick Monnier",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Lac_de_Vouglans_depuis_Charchilla_%28Jura%2C_France%29_en_juillet_2018.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALac%20de%20Vouglans%20depuis%20Charchilla%20(Jura%2C%20France)%20en%20juillet%202018.JPG",
+          "title": "Lac de Vouglans depuis Charchilla (Jura, France) en juillet 2018.JPG",
+          "description": "Image de Charchilla, Jura, France.",
+          "width": 4032,
+          "height": 3024,
+          "size": 3946875,
+          "timestamp": "2018-07-26T07:37:15Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q42790984\" class=\"extiw\" title=\"d:Q42790984\"><span title=\"French computing engineer\">Benoît Prieur</span></a></bdi>",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Belvédère de la Scierie",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Lac_Vouglans.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALac%20Vouglans.jpg",
+          "title": "Lac Vouglans.jpg",
+          "description": "Vue depuis un bélvédère",
+          "width": 3840,
+          "height": 2160,
+          "size": 2679268,
+          "timestamp": "2019-08-14T09:43:16Z",
+          "author": "Pipouchat",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        }
+      ]
     },
     {
       "label": "Plage de Surchauffant",
@@ -59,6 +120,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Lac_de_Vouglans_Surchauffant.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALac%20de%20Vouglans%20Surchauffant.JPG",
           "title": "Lac de Vouglans Surchauffant.JPG",
+          "description": "Lac de Vouglans view in the direction of the north from the point of view of Auberge du Surchauffant (Jura, France).",
           "width": 2304,
           "height": 1728,
           "size": 909612,
@@ -66,7 +128,21 @@
           "author": "Juraastro",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Lac_de_Vouglans_Le_Gringalet.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALac%20de%20Vouglans%20Le%20Gringalet.JPG",
+          "title": "Lac de Vouglans Le Gringalet.JPG",
+          "description": "View of the Lac de Vouglans in the direction to the south-east in Le Gringalet (Jura, France).",
+          "width": 2304,
+          "height": 1728,
+          "size": 777666,
+          "timestamp": "2012-08-13T19:55:00Z",
+          "author": "Juraastro",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
         }
       ]
     },

@@ -1,12 +1,13 @@
 {
   "slug": "chateau-de-clos-de-vougeot",
   "nom": "Château de Clos de Vougeot",
-  "fetchedAt": "2026-03-13T13:02:51.564Z",
+  "fetchedAt": "2026-03-15T21:22:59.534Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Arr%C3%AAt_Bus_Clos_Vougeot_Rue_Corbi%C3%A8res_-_Cr%C3%A9teil_%28FR94%29_-_2021-03-26_-_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArr%C3%AAt%20Bus%20Clos%20Vougeot%20Rue%20Corbi%C3%A8res%20-%20Cr%C3%A9teil%20(FR94)%20-%202021-03-26%20-%201.jpg",
       "title": "Arrêt Bus Clos Vougeot Rue Corbières - Créteil (FR94) - 2021-03-26 - 1.jpg",
+      "description": "Arrêt de bus Clos Vougeot, rue des Corbières, Créteil.",
       "width": 4032,
       "height": 3024,
       "size": 4613253,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Arr%C3%AAt_Bus_Clos_Vougeot_Rue_Corbi%C3%A8res_-_Cr%C3%A9teil_%28FR94%29_-_2021-03-26_-_2.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArr%C3%AAt%20Bus%20Clos%20Vougeot%20Rue%20Corbi%C3%A8res%20-%20Cr%C3%A9teil%20(FR94)%20-%202021-03-26%20-%202.jpg",
       "title": "Arrêt Bus Clos Vougeot Rue Corbières - Créteil (FR94) - 2021-03-26 - 2.jpg",
+      "description": "Arrêt de bus Clos Vougeot, rue des Corbières, Créteil.",
       "width": 4032,
       "height": 3024,
       "size": 4702252,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Place_Clos_Saint_Jacques_-_Cr%C3%A9teil_%28FR94%29_-_2021-03-26_-_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlace%20Clos%20Saint%20Jacques%20-%20Cr%C3%A9teil%20(FR94)%20-%202021-03-26%20-%201.jpg",
       "title": "Place Clos Saint Jacques - Créteil (FR94) - 2021-03-26 - 1.jpg",
+      "description": "Place du Clos Saint-Jacques, Créteil.",
       "width": 4032,
       "height": 3024,
       "size": 5906595,
@@ -46,53 +49,142 @@
   "lieux": [
     {
       "label": "pressoirs cisterciens",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pressoir_du_Ch%C3%A2teau_du_Clos_de_Vougeot.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APressoir%20du%20Ch%C3%A2teau%20du%20Clos%20de%20Vougeot.jpg",
+          "title": "Pressoir du Château du Clos de Vougeot.jpg",
+          "description": "Vue d'un des quatre pressoirs du XVe siècle exposé au Château du Clos de Vougeot",
+          "width": 4032,
+          "height": 3024,
+          "size": 3713755,
+          "timestamp": "2023-08-08T10:11:22Z",
+          "author": "Margot1934",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Clos_Vougeot_806.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AClos%20Vougeot%20806.jpg",
+          "title": "Clos Vougeot 806.jpg",
+          "description": "Château du Clos de Vougeot, département de la Côte-d'Or en bourgogne, France. Pressoir à vin en bois de chêne\n\nChâteau du Clos de Vougeot, department of Côte-d'Or in Burgundy, France. Oak wine press",
+          "width": 3888,
+          "height": 2592,
+          "size": 2597159,
+          "timestamp": "2008-10-08T19:19:33Z",
+          "author": "Michel wal",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Ch%C3%A2teau_du_Clos_de_Vougeot_05.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20du%20Clos%20de%20Vougeot%2005.JPG",
+          "title": "Château du Clos de Vougeot 05.JPG",
+          "description": "Château du Clos de Vougeot Pressoirs",
+          "width": 1936,
+          "height": 2592,
+          "size": 2068440,
+          "timestamp": "2012-09-26T19:30:37Z",
+          "author": "Edlitolc",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "salle à manger cistercienne",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Ch%C3%A2teau_du_Clos_de_Vougeot_003.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20du%20Clos%20de%20Vougeot%20003.jpg",
+          "title": "Château du Clos de Vougeot 003.jpg",
+          "description": "Salle d'entrée de la partie Manoire du Château du Clos de Vougeot",
+          "width": 2048,
+          "height": 1536,
+          "size": 911584,
+          "timestamp": "2016-09-27T20:26:22Z",
+          "author": "Arnaud 25",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Chateau_Clos_Vougeot_115.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau%20Clos%20Vougeot%20115.jpg",
+          "title": "Chateau Clos Vougeot 115.jpg",
+          "description": "Interiors of Clos Vougeot, ancien dortoir des  moines convers, actuel musée / salle de cinéma",
+          "width": 2048,
+          "height": 1536,
+          "size": 1012151,
+          "timestamp": "2016-08-10T01:47:16Z",
+          "author": "Arnaud 25",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 3
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Chateau_Clos_Vougeot_128.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau%20Clos%20Vougeot%20128.jpg",
+          "title": "Chateau Clos Vougeot 128.jpg",
+          "description": "Interiors of Clos Vougeot, ancien dortoir des  moines convers, actuel musée / salle de cinéma",
+          "width": 2048,
+          "height": 1536,
+          "size": 913416,
+          "timestamp": "2016-08-10T01:48:24Z",
+          "author": "Arnaud 25",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 3
+        }
+      ]
     },
     {
       "label": "cour intérieure",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Livres_en_Vignes_009.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALivres%20en%20Vignes%20009.JPG",
-          "title": "Livres en Vignes 009.JPG",
-          "width": 2048,
-          "height": 1536,
-          "size": 1340795,
-          "timestamp": "2015-09-27T12:20:29Z",
-          "author": "Arnaud 25",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Bourgogne%2C_le_Clos_Vougeot_-_btv1b53132035k.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABourgogne%2C%20le%20Clos%20Vougeot%20-%20btv1b53132035k.jpg",
+          "title": "Bourgogne, le Clos Vougeot - btv1b53132035k.jpg",
+          "description": "Sujet : Établissements vinicoles -- Vougeot (Côte-d'Or, France)\nVougeot (Côte-d'Or, France) -- Château du Clos de Vougeot\nRéférence bibliographique : Rol, 93350\nAppartient à l’ensemble documentaire : Pho20Rol\nAppartient à l’ensemble documentaire : Bourgogn1\nImage de presse\nCouverture : .. juin 1924\n\nLangue : français",
+          "width": 8537,
+          "height": 6145,
+          "size": 6546296,
+          "timestamp": "2024-10-29T01:58:41Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q18507700\" class=\"extiw\" title=\"d:Q18507700\"><span title=\"French photo agency\">Agence Rol</span></a></bdi>",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Grand_cellier_et_dortoir_des_moines_du_Ch%C3%A2teau_du_Clos_de_Vougeot.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrand%20cellier%20et%20dortoir%20des%20moines%20du%20Ch%C3%A2teau%20du%20Clos%20de%20Vougeot.jpg",
-          "title": "Grand cellier et dortoir des moines du Château du Clos de Vougeot.jpg",
-          "width": 3024,
-          "height": 3265,
-          "size": 2234902,
-          "timestamp": "2023-08-08T10:57:08Z",
-          "author": "Margot1934",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Bourgogne%2C_le_Clos_Vougeot_-_btv1b53132037g.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABourgogne%2C%20le%20Clos%20Vougeot%20-%20btv1b53132037g.jpg",
+          "title": "Bourgogne, le Clos Vougeot - btv1b53132037g.jpg",
+          "description": "Sujet : Établissements vinicoles -- Vougeot (Côte-d'Or, France)\nVougeot (Côte-d'Or, France) -- Château du Clos de Vougeot\nRéférence bibliographique : Rol, 93353\nAppartient à l’ensemble documentaire : Pho20Rol\nAppartient à l’ensemble documentaire : Bourgogn1\nImage de presse\nCouverture : .. juin 1924\n\nLangue : français",
+          "width": 8537,
+          "height": 6145,
+          "size": 5568185,
+          "timestamp": "2025-03-06T12:14:00Z",
+          "author": "<div class=\"fn value\">\nAgence Rol. Agence photographique (commanditaire)</div>",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Ch%C3%A2teau_du_Clos_de_Vougeot_03.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20du%20Clos%20de%20Vougeot%2003.JPG",
-          "title": "Château du Clos de Vougeot 03.JPG",
-          "width": 1936,
-          "height": 2592,
-          "size": 2457280,
-          "timestamp": "2012-09-26T19:30:31Z",
-          "author": "Edlitolc",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Bourgogne%2C_le_Clos_Vougeot_-_btv1b531320361.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABourgogne%2C%20le%20Clos%20Vougeot%20-%20btv1b531320361.jpg",
+          "title": "Bourgogne, le Clos Vougeot - btv1b531320361.jpg",
+          "description": "Sujet : Établissements vinicoles -- Vougeot (Côte-d'Or, France)\nVougeot (Côte-d'Or, France) -- Château du Clos de Vougeot\nRéférence bibliographique : Rol, 93352\nAppartient à l’ensemble documentaire : Pho20Rol\nAppartient à l’ensemble documentaire : Bourgogn1\nImage de presse\nCouverture : .. juin 1924\n\nLangue : français",
+          "width": 8537,
+          "height": 6145,
+          "size": 4985361,
+          "timestamp": "2025-03-11T13:04:28Z",
+          "author": "<div class=\"fn value\">\nAgence Rol. Agence photographique (commanditaire)</div>",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 9
         }
       ]
     },

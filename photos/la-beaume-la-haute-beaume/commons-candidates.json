@@ -1,25 +1,13 @@
 {
   "slug": "la-beaume-la-haute-beaume",
   "nom": "la beaume la haute beaume",
-  "fetchedAt": "2026-03-13T14:54:44.398Z",
+  "fetchedAt": "2026-03-16T14:34:16.122Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/La_Beaume_-_Flickr_-_Isaszas.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Beaume%20-%20Flickr%20-%20Isaszas.jpg",
-      "title": "La Beaume - Flickr - Isaszas.jpg",
-      "width": 2592,
-      "height": 1728,
-      "size": 4386257,
-      "timestamp": "2020-07-27T07:54:19Z",
-      "author": "Isabelle Blanchemain",
-      "license": "CC0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/La_Beaume_-_Ch%C3%A2teau_d%27Agoult%2C_plaque_%28juin_2025%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Beaume%20-%20Ch%C3%A2teau%20d'Agoult%2C%20plaque%20(juin%202025).jpg",
       "title": "La Beaume - Château d'Agoult, plaque (juin 2025).jpg",
+      "description": "Plaque indiquant le château d'Agoult, à La Beaume (Hautes-Alpes, France).",
       "width": 4032,
       "height": 3024,
       "size": 3087325,
@@ -27,12 +15,13 @@
       "author": "Sebleouf",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/La_Beaume_-_Ch%C3%A2teau_d%27Agoult%2C_depuis_la_route_%28juin_2025%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Beaume%20-%20Ch%C3%A2teau%20d'Agoult%2C%20depuis%20la%20route%20(juin%202025).jpg",
       "title": "La Beaume - Château d'Agoult, depuis la route (juin 2025).jpg",
+      "description": "Vue de la tour principale du château d'Agoult, dans le village de La Beaume (Hautes-Alpes, France).",
       "width": 4032,
       "height": 3024,
       "size": 3870433,
@@ -40,21 +29,122 @@
       "author": "Sebleouf",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/La_Beaume_-_Place_du_Jeu_de_Paume_%28juin_2025%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Beaume%20-%20Place%20du%20Jeu%20de%20Paume%20(juin%202025).jpg",
+      "title": "La Beaume - Place du Jeu de Paume (juin 2025).jpg",
+      "description": "Vue de la place du Jeu de Paume, dans le village de La Beaume (Hautes-Alpes, France).",
+      "width": 4032,
+      "height": 3024,
+      "size": 4567255,
+      "timestamp": "2025-06-19T15:08:28Z",
+      "author": "Sebleouf",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
     }
   ],
   "lieux": [
     {
       "label": "La Haute-Beaume (village de départ)",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/La_Beaume_-_Ch%C3%A2teau_d%27Agoult%2C_plaque_%28juin_2025%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Beaume%20-%20Ch%C3%A2teau%20d'Agoult%2C%20plaque%20(juin%202025).jpg",
+          "title": "La Beaume - Château d'Agoult, plaque (juin 2025).jpg",
+          "description": "Plaque indiquant le château d'Agoult, à La Beaume (Hautes-Alpes, France).",
+          "width": 4032,
+          "height": 3024,
+          "size": 3087325,
+          "timestamp": "2025-06-19T15:08:20Z",
+          "author": "Sebleouf",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/La_Beaume_-_Ch%C3%A2teau_d%27Agoult%2C_depuis_la_route_%28juin_2025%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Beaume%20-%20Ch%C3%A2teau%20d'Agoult%2C%20depuis%20la%20route%20(juin%202025).jpg",
+          "title": "La Beaume - Château d'Agoult, depuis la route (juin 2025).jpg",
+          "description": "Vue de la tour principale du château d'Agoult, dans le village de La Beaume (Hautes-Alpes, France).",
+          "width": 4032,
+          "height": 3024,
+          "size": 3870433,
+          "timestamp": "2025-06-19T15:08:20Z",
+          "author": "Sebleouf",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/La_Beaume_-_Place_du_Jeu_de_Paume_%28juin_2025%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Beaume%20-%20Place%20du%20Jeu%20de%20Paume%20(juin%202025).jpg",
+          "title": "La Beaume - Place du Jeu de Paume (juin 2025).jpg",
+          "description": "Vue de la place du Jeu de Paume, dans le village de La Beaume (Hautes-Alpes, France).",
+          "width": 4032,
+          "height": 3024,
+          "size": 4567255,
+          "timestamp": "2025-06-19T15:08:28Z",
+          "author": "Sebleouf",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     },
     {
       "label": "Point de vue sur la vallée de La Beaume",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Cascade_Beaume-2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACascade%20Beaume-2.jpg",
+          "title": "Cascade Beaume-2.jpg",
+          "description": "Wasserfall Cascade de la Beaume, Frankreich, Département Haute-Loire - gesehen vom Point de Vue",
+          "width": 2048,
+          "height": 1536,
+          "size": 1594706,
+          "timestamp": "2013-10-27T12:49:42Z",
+          "author": "Wolfgang Bauer",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Cascade_de_la_Beaume.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACascade%20de%20la%20Beaume.JPG",
+          "title": "Cascade de la Beaume.JPG",
+          "description": "Cascade de la Beaume, sur la riv. la Beaume, dans la commune de Solignac-sur-Loire, dép. de la Haute-Loire, France (région Auvergne).",
+          "width": 1536,
+          "height": 2048,
+          "size": 601340,
+          "timestamp": "2009-08-21T18:24:46Z",
+          "author": "Torsade de Pointes",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 3
+        }
+      ]
     },
     {
       "label": "Draille ancienne (chemin de retour)",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/La_Beaume_-_Ch%C3%A2teau_d%27Agoult%2C_depuis_la_route_%28juin_2025%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Beaume%20-%20Ch%C3%A2teau%20d'Agoult%2C%20depuis%20la%20route%20(juin%202025).jpg",
+          "title": "La Beaume - Château d'Agoult, depuis la route (juin 2025).jpg",
+          "description": "Vue de la tour principale du château d'Agoult, dans le village de La Beaume (Hautes-Alpes, France).",
+          "width": 4032,
+          "height": 3024,
+          "size": 3870433,
+          "timestamp": "2025-06-19T15:08:20Z",
+          "author": "Sebleouf",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     }
   ]
 }

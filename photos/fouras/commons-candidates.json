@@ -1,46 +1,49 @@
 {
   "slug": "fouras",
   "nom": "Fouras",
-  "fetchedAt": "2026-03-13T14:28:05.490Z",
+  "fetchedAt": "2026-03-16T13:31:47.779Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Fouras_%2848440004896%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFouras%20(48440004896).jpg",
-      "title": "Fouras (48440004896).jpg",
-      "width": 2851,
-      "height": 1813,
-      "size": 1259142,
-      "timestamp": "2021-12-04T08:15:24Z",
-      "author": "Jean-Marc Bilquez",
-      "license": "CC BY-SA 2.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Fouras_donjon2.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFouras%20donjon2.JPG",
+      "title": "Fouras donjon2.JPG",
+      "description": "Vue du Fort de Fouras",
+      "width": 4896,
+      "height": 3672,
+      "size": 7336960,
+      "timestamp": "2014-09-10T13:16:33Z",
+      "author": "Jacques Le Letty",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Fouras-Rochefort_.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFouras-Rochefort%20.jpg",
-      "title": "Fouras-Rochefort .jpg",
-      "width": 2048,
-      "height": 1152,
-      "size": 992627,
-      "timestamp": "2017-08-31T12:27:51Z",
-      "author": "Wald-Burger8",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Fort_Vauban_Fouras.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFort%20Vauban%20Fouras.jpg",
-      "title": "Fort Vauban Fouras.jpg",
-      "width": 4000,
-      "height": 3000,
-      "size": 2862161,
-      "timestamp": "2011-09-07T19:04:54Z",
-      "author": "Pichasso",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Fouras_donjon3.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFouras%20donjon3.JPG",
+      "title": "Fouras donjon3.JPG",
+      "description": "Vue du Fort de Fouras",
+      "width": 4896,
+      "height": 3672,
+      "size": 6690816,
+      "timestamp": "2014-09-10T13:16:33Z",
+      "author": "Jacques Le Letty",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Fouras_donjon4.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFouras%20donjon4.JPG",
+      "title": "Fouras donjon4.JPG",
+      "description": "Vue du Fort de Fouras",
+      "width": 4896,
+      "height": 3672,
+      "size": 6894080,
+      "timestamp": "2014-09-10T13:16:37Z",
+      "author": "Jacques Le Letty",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
     }
   ],
   "lieux": [
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Fort_Vauban_de_Fouras.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFort%20Vauban%20de%20Fouras.jpg",
           "title": "Fort Vauban de Fouras.jpg",
+          "description": "FOURAS. Le château Vauban et son donjon.Construit au 11ème siècle, c'est au 17ème siècle qu'il est devenu un \"Fort de la mer\". Actuellement, il abrite le Musée d'Histoire régionale.",
           "width": 3918,
           "height": 2426,
           "size": 3411897,
@@ -58,12 +62,13 @@
           "author": "Jacques DASSIÉ",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Fouras_Fort_Vauban_2016b.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFouras%20Fort%20Vauban%202016b.jpg",
           "title": "Fouras Fort Vauban 2016b.jpg",
+          "description": "Vue du fort Vauban et de l'océan Atlantique à Fouras (Charente-Maritime, France), juin 2016.",
           "width": 2592,
           "height": 1456,
           "size": 1746442,
@@ -71,12 +76,13 @@
           "author": "Nataloche",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Fouras_Fort_Vauban_2016a.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFouras%20Fort%20Vauban%202016a.jpg",
           "title": "Fouras Fort Vauban 2016a.jpg",
+          "description": "Vue du fort Vauban et de l'océan Atlantique à Fouras (Charente-Maritime, France), juin 2016.",
           "width": 2592,
           "height": 1456,
           "size": 1762552,
@@ -84,7 +90,7 @@
           "author": "Nataloche",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         }
       ]
     },
@@ -94,49 +100,95 @@
     },
     {
       "label": "Cabanes de pêche sur pilotis",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Carrelet_%C3%A0_Fouras.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarrelet%20%C3%A0%20Fouras.jpg",
+          "title": "Carrelet à Fouras.jpg",
+          "description": "Carrelet cabane de pêcheurs océan Atlantique",
+          "width": 2783,
+          "height": 1565,
+          "size": 2010283,
+          "timestamp": "2024-09-02T19:59:56Z",
+          "author": "Gil.b 92",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Cabanes_%C3%A0_carrelet_Fouras_%281%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACabanes%20%C3%A0%20carrelet%20Fouras%20(1).JPG",
+          "title": "Cabanes à carrelet Fouras (1).JPG",
+          "description": "Cabanes à carrelet Fouras, Charente maritime",
+          "width": 2608,
+          "height": 1952,
+          "size": 1339354,
+          "timestamp": "2016-04-04T19:17:42Z",
+          "author": "Ibex73",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Cabanes_%C3%A0_carrelet_Fouras_%282%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACabanes%20%C3%A0%20carrelet%20Fouras%20(2).JPG",
+          "title": "Cabanes à carrelet Fouras (2).JPG",
+          "description": "Cabanes à carrelet Fouras, Charente maritime",
+          "width": 2112,
+          "height": 1584,
+          "size": 881807,
+          "timestamp": "2016-04-04T19:17:42Z",
+          "author": "Ibex73",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Plage de la Grande Plage",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/GrandePlage_de_Fouras.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrandePlage%20de%20Fouras.jpg",
-          "title": "GrandePlage de Fouras.jpg",
-          "width": 4320,
-          "height": 3240,
-          "size": 5492736,
-          "timestamp": "2012-08-15T15:54:45Z",
-          "author": "Serge Lacotte",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/012_-_Grande_Plage_-_Fouras.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A012%20-%20Grande%20Plage%20-%20Fouras.jpg",
+          "title": "012 - Grande Plage - Fouras.jpg",
+          "description": "La Grande Plage à marée basse vue du Fort Vauban Fouras Charente Maritime France",
+          "width": 2560,
+          "height": 1920,
+          "size": 3186892,
+          "timestamp": "2012-03-14T01:22:59Z",
+          "author": "Patrick Despoix",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Grande_Plage_De_Fouras_%28223462749%29.jpeg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrande%20Plage%20De%20Fouras%20(223462749).jpeg",
-          "title": "Grande Plage De Fouras (223462749).jpeg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Carrelet_Plage_Nord_De_Fouras_%28223587555%29.jpeg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarrelet%20Plage%20Nord%20De%20Fouras%20(223587555).jpeg",
+          "title": "Carrelet Plage Nord De Fouras (223587555).jpeg",
+          "description": "500px provided description: Coucher de soleil sur la plage Nord de Fouras avec les carrelets. [#lake ,#hdr ,#calm ,#peaceful ,#panorama ,#plage ,#lake district ,#mountain lake ,#ullswater ,#cumbria ,#lakeside ,#maritime ,#charente ,#coucher de soleil ,#derwent water ,#fouras ,#fells ,#buttermere ,#almsee ,#poitou]",
           "width": 2048,
-          "height": 541,
-          "size": 398946,
-          "timestamp": "2018-08-06T18:53:24Z",
+          "height": 556,
+          "size": 445610,
+          "timestamp": "2018-08-06T18:53:58Z",
           "author": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/PetitBleuPhotos\">Petit Bleu Photos</a></div>",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Fourras_plage.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFourras%20plage.JPG",
-          "title": "Fourras plage.JPG",
-          "width": 2592,
-          "height": 1724,
-          "size": 2632761,
-          "timestamp": "2006-09-25T16:17:08Z",
-          "author": "No machine-readable author provided. <a href=\"//commons.wikimedia.org/wiki/User:CaptainHaddock\" title=\"User:CaptainHaddock\">CaptainHaddock</a> assumed (based on copyright claims).",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Fouras_%2817%29_Plage_368.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFouras%20(17)%20Plage%20368.jpg",
+          "title": "Fouras (17) Plage 368.jpg",
+          "description": "Strand in Fouras im Département Charente-Maritime (Region Nouvelle-Aquitaine/Frankreich)",
+          "width": 4867,
+          "height": 3244,
+          "size": 13730108,
+          "timestamp": "2022-09-29T17:29:43Z",
+          "author": "GFreihalter",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 7
         }
       ]
     }

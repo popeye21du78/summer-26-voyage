@@ -1,12 +1,13 @@
 {
   "slug": "pirou",
   "nom": "Pirou",
-  "fetchedAt": "2026-03-14T10:49:51.652Z",
+  "fetchedAt": "2026-03-17T22:32:17.744Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Ch%C3%A2teau_de_Pirou_%28Manche%29_%2850182986093%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Pirou%20(Manche)%20(50182986093).jpg",
       "title": "Château de Pirou (Manche) (50182986093).jpg",
+      "description": "Château de Pirou (Manche)",
       "width": 4765,
       "height": 3156,
       "size": 5719920,
@@ -14,12 +15,13 @@
       "author": "Patrick",
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Ch%C3%A2teau_de_Pirou_%28Manche%29_%2850182985918%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Pirou%20(Manche)%20(50182985918).jpg",
       "title": "Château de Pirou (Manche) (50182985918).jpg",
+      "description": "Château de Pirou (Manche)",
       "width": 4859,
       "height": 3218,
       "size": 5340513,
@@ -27,12 +29,13 @@
       "author": "Patrick",
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Ch%C3%A2teau_de_Pirou_%28Manche%29_-_Entr%C3%A9e_%2850182986163%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Pirou%20(Manche)%20-%20Entr%C3%A9e%20(50182986163).jpg",
       "title": "Château de Pirou (Manche) - Entrée (50182986163).jpg",
+      "description": "Château de Pirou (Manche) - Entrée",
       "width": 4928,
       "height": 3264,
       "size": 6547246,
@@ -40,7 +43,7 @@
       "author": "Patrick",
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     }
   ],
   "lieux": [
@@ -48,9 +51,24 @@
       "label": "Château de Pirou",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Ch%C3%A2teau_du_Pirou_Thiers.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20du%20Pirou%20Thiers.jpg",
+          "title": "Château du Pirou Thiers.jpg",
+          "description": "Le château du Pirou à Thiers",
+          "width": 4032,
+          "height": 3024,
+          "size": 4843837,
+          "timestamp": "2020-10-24T13:30:38Z",
+          "author": "Pierre Contie",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/PirouChateau_01.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APirouChateau%2001.jpg",
           "title": "PirouChateau 01.jpg",
+          "description": "Château de Pirou, Manche. \n\n\n\n\n \nThis building is indexed in the base Mérimée, a database of architectural heritage maintained by the French Ministry of Culture, under the reference PA00110540 .\n\nbrezhoneg ∙ català ∙ Deutsch ∙ English ∙ español ∙ Esperanto ∙ euskara ∙ français ∙ italiano ∙ magyar ∙ Nederlands ∙ português do Brasil ∙ português ∙ română ∙ sicilianu ∙ slovenščina ∙ suomi ∙ svenska ∙ Ελληνικά ∙ беларуская (тарашкевіца) ∙ македонски ∙ русский ∙ українська ∙ বাংলা ∙ +/−",
           "width": 5715,
           "height": 3814,
           "size": 9771632,
@@ -58,33 +76,21 @@
           "author": "Selbymay",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Ch%C3%A2teau_du_Pirou_%C3%A0_Thiers.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20du%20Pirou%20%C3%A0%20Thiers.jpg",
-          "title": "Château du Pirou à Thiers.jpg",
-          "width": 5312,
-          "height": 2988,
-          "size": 7229886,
-          "timestamp": "2017-04-20T15:41:47Z",
-          "author": "Lethiernois",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/PirouChateau_03.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APirouChateau%2003.jpg",
+          "title": "PirouChateau 03.jpg",
+          "description": "Château de Pirou, Manche. \n\n\n\n\n \nThis building is indexed in the base Mérimée, a database of architectural heritage maintained by the French Ministry of Culture, under the reference PA00110540 .\n\nbrezhoneg ∙ català ∙ Deutsch ∙ English ∙ español ∙ Esperanto ∙ euskara ∙ français ∙ italiano ∙ magyar ∙ Nederlands ∙ português do Brasil ∙ português ∙ română ∙ sicilianu ∙ slovenščina ∙ suomi ∙ svenska ∙ Ελληνικά ∙ беларуская (тарашкевіца) ∙ македонски ∙ русский ∙ українська ∙ বাংলা ∙ +/−",
+          "width": 5951,
+          "height": 3347,
+          "size": 9378691,
+          "timestamp": "2021-09-29T11:59:03Z",
+          "author": "Selbymay",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Ch%C3%A2teau_fort_de_Pirou_et_la_Tapisserie_de_Madame_Th%C3%A9r%C3%A8se_Ozenne.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20fort%20de%20Pirou%20et%20la%20Tapisserie%20de%20Madame%20Th%C3%A9r%C3%A8se%20Ozenne.jpg",
-          "title": "Château fort de Pirou et la Tapisserie de Madame Thérèse Ozenne.jpg",
-          "width": 3840,
-          "height": 2160,
-          "size": 3786267,
-          "timestamp": "2017-09-25T12:17:40Z",
-          "author": "Elizabeth-Jeanne",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 9
         }
       ]
     },
@@ -92,28 +98,16 @@
       "label": "Plage de Pirou",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Culture_des_moules_5.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACulture%20des%20moules%205.jpg",
-          "title": "Culture des moules 5.jpg",
-          "width": 4320,
-          "height": 2880,
-          "size": 5192704,
-          "timestamp": "2016-09-19T20:57:37Z",
-          "author": "Zythème",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Culture_des_moules_7.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACulture%20des%20moules%207.jpg",
-          "title": "Culture des moules 7.jpg",
-          "width": 4320,
-          "height": 2880,
-          "size": 4828160,
-          "timestamp": "2016-09-19T20:57:38Z",
-          "author": "Zythème",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Pirou%2C_panorama.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APirou%2C%20panorama.jpg",
+          "title": "Pirou, panorama.jpg",
+          "description": "panorama de la plage",
+          "width": 8553,
+          "height": 2061,
+          "size": 2832121,
+          "timestamp": "2013-03-02T07:22:14Z",
+          "author": "OldLion alias Stephvvv",
+          "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
         },
@@ -121,12 +115,27 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Village_fant%C3%B4me_de_Pirou.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVillage%20fant%C3%B4me%20de%20Pirou.jpg",
           "title": "Village fantôme de Pirou.jpg",
+          "description": "Village en ruines près de la plage de Pirou, à la suite de l'échec d'un projet immobilier, réinvesti par des artistes.",
           "width": 4320,
           "height": 2880,
           "size": 4882944,
           "timestamp": "2016-09-25T09:37:27Z",
           "author": "Zythème",
           "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Chapelle_Saint-Michel_de_Pirou._Vue_sud-ouest.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20Saint-Michel%20de%20Pirou.%20Vue%20sud-ouest.jpg",
+          "title": "Chapelle Saint-Michel de Pirou. Vue sud-ouest.jpg",
+          "description": "Pirou Plage (Manche)",
+          "width": 3008,
+          "height": 2256,
+          "size": 807881,
+          "timestamp": "2018-09-27T19:58:14Z",
+          "author": "ChBougui",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
         }

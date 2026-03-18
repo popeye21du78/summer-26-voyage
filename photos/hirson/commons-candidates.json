@@ -1,12 +1,13 @@
 {
   "slug": "hirson",
   "nom": "Hirson",
-  "fetchedAt": "2026-03-13T14:43:27.468Z",
+  "fetchedAt": "2026-03-16T14:06:16.135Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/2025-H%C3%B4tel_de_Ville-Hirson-Aisne.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2025-H%C3%B4tel%20de%20Ville-Hirson-Aisne.jpg",
       "title": "2025-Hôtel de Ville-Hirson-Aisne.jpg",
+      "description": "Nouvel Hôtel de Ville de la Commune d'Hirson.",
       "width": 5472,
       "height": 3648,
       "size": 10279139,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/France_Rail_040_Hirson_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20Rail%20040%20Hirson%201.jpg",
       "title": "France Rail 040 Hirson 1.jpg",
+      "description": "SNCF Nord 4-6-0 on a freight at Hirson (Aisne), 1958.",
       "width": 2387,
       "height": 1393,
       "size": 1493355,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/France_Rail_043_Hirson_2.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20Rail%20043%20Hirson%202.jpg",
       "title": "France Rail 043 Hirson 2.jpg",
+      "description": "Hirson (Aisne), 1958: Bo-Bo electric on heavy freight on Lille - Aulnoye - Metz main line.",
       "width": 2231,
       "height": 1249,
       "size": 1812622,
@@ -46,11 +49,69 @@
   "lieux": [
     {
       "label": "Viaduc d’Hirson",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Viaduc_de_la_ligne_de_la_Plaine_a_Hirson_-_Saint-Denis_%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AViaduc%20de%20la%20ligne%20de%20la%20Plaine%20a%20Hirson%20-%20Saint-Denis%20(2).jpg",
+          "title": "Viaduc de la ligne de la Plaine a Hirson - Saint-Denis (2).jpg",
+          "description": "Viaduc de la ligne de la Plaine à Hirson au dessus de la nationale 1 et du tunnel du Landy",
+          "width": 3264,
+          "height": 2448,
+          "size": 2956324,
+          "timestamp": "2012-04-16T17:16:29Z",
+          "author": "Akiry",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Viaduc_de_la_ligne_de_la_plaine_a_hirson_-_saint-denis_%283%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AViaduc%20de%20la%20ligne%20de%20la%20plaine%20a%20hirson%20-%20saint-denis%20(3).jpg",
+          "title": "Viaduc de la ligne de la plaine a hirson - saint-denis (3).jpg",
+          "description": "Viaduc de la ligne de la Plaine à Hirson au dessus de la nationale 1 et du tunnel du Landy",
+          "width": 3264,
+          "height": 2448,
+          "size": 3355541,
+          "timestamp": "2012-04-16T17:16:47Z",
+          "author": "Akiry",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Viaduc_de_la_ligne_de_la_plaine_a_hirson_-_saint-denis.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AViaduc%20de%20la%20ligne%20de%20la%20plaine%20a%20hirson%20-%20saint-denis.jpg",
+          "title": "Viaduc de la ligne de la plaine a hirson - saint-denis.jpg",
+          "description": "Viaduc de la ligne de la Plaine à Hirson au dessus de la nationale 1 et du tunnel du Landy",
+          "width": 3264,
+          "height": 2448,
+          "size": 3353944,
+          "timestamp": "2012-04-16T17:16:53Z",
+          "author": "Akiry",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Place Victor-Hugo",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Hirson_IMG_2722.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHirson%20IMG%202722.jpg",
+          "title": "Hirson IMG 2722.jpg",
+          "description": "Place Emile Villemant in Hirson",
+          "width": 3888,
+          "height": 2592,
+          "size": 3945868,
+          "timestamp": "2024-08-29T09:56:07Z",
+          "author": "Roehrensee",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Forêt domaniale d’Hirson",

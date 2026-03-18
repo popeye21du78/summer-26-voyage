@@ -1,25 +1,13 @@
 {
   "slug": "plage-de-fort-mahon",
   "nom": "Plage de Fort-Mahon",
-  "fetchedAt": "2026-03-14T10:58:36.446Z",
+  "fetchedAt": "2026-03-17T22:49:49.739Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Quend-plage_%2850224702167%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQuend-plage%20(50224702167).jpg",
-      "title": "Quend-plage (50224702167).jpg",
-      "width": 4816,
-      "height": 3046,
-      "size": 3342348,
-      "timestamp": "2020-08-21T07:11:07Z",
-      "author": "Trainiac",
-      "license": "Public domain",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Baie_Authie_-_Fort-Mahon-Plage_%28FR80%29_-_2021-05-29_-_3.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaie%20Authie%20-%20Fort-Mahon-Plage%20(FR80)%20-%202021-05-29%20-%203.jpg",
       "title": "Baie Authie - Fort-Mahon-Plage (FR80) - 2021-05-29 - 3.jpg",
+      "description": "Baie d'Authie, Fort-Mahon-Plage.",
       "width": 4032,
       "height": 3024,
       "size": 4373297,
@@ -33,10 +21,25 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Baie_Authie_-_Fort-Mahon-Plage_%28FR80%29_-_2021-05-29_-_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaie%20Authie%20-%20Fort-Mahon-Plage%20(FR80)%20-%202021-05-29%20-%201.jpg",
       "title": "Baie Authie - Fort-Mahon-Plage (FR80) - 2021-05-29 - 1.jpg",
+      "description": "Baie d'Authie, Fort-Mahon-Plage.",
       "width": 4032,
       "height": 3024,
       "size": 4434179,
       "timestamp": "2021-05-31T00:00:20Z",
+      "author": "Chabe01",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Baie_Authie_-_Fort-Mahon-Plage_%28FR80%29_-_2021-05-29_-_2.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaie%20Authie%20-%20Fort-Mahon-Plage%20(FR80)%20-%202021-05-29%20-%202.jpg",
+      "title": "Baie Authie - Fort-Mahon-Plage (FR80) - 2021-05-29 - 2.jpg",
+      "description": "Baie d'Authie, Fort-Mahon-Plage.",
+      "width": 4032,
+      "height": 3024,
+      "size": 4385740,
+      "timestamp": "2021-05-31T00:00:21Z",
       "author": "Chabe01",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/PLAGE_FMAHON.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APLAGE%20FMAHON.JPG",
           "title": "PLAGE FMAHON.JPG",
+          "description": "Les étendues de sable de Fort-Mahon-Plage : plage et digue-promenade en front de mer.",
           "width": 1600,
           "height": 1200,
           "size": 193509,
@@ -64,7 +68,50 @@
     },
     {
       "label": "Dunes de la baie d’Authie",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Dunes_de_Fort_Mahon_%28Eden62%29_%2810%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADunes%20de%20Fort%20Mahon%20(Eden62)%20(10).jpg",
+          "title": "Dunes de Fort Mahon (Eden62) (10).jpg",
+          "description": "Les dunes du fort Mahon  Sangatte-Blériot-Plage.",
+          "width": 4231,
+          "height": 2840,
+          "size": 8726761,
+          "timestamp": "2023-11-16T10:20:43Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q97949455\" class=\"extiw\" title=\"d:Q97949455\"><span title=\"French photographer and Wikimedian\">Pierre André Leclercq</span></a></bdi>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Port_de_Calais_vu_de_Bl%C3%A9riot-Plage%2Cen_2019.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APort%20de%20Calais%20vu%20de%20Bl%C3%A9riot-Plage%2Cen%202019.jpg",
+          "title": "Port de Calais vu de Blériot-Plage,en 2019.jpg",
+          "description": "Le Port de Calais vu de Blériot-Plage,  Sangatte-Blériot-Plage.",
+          "width": 4896,
+          "height": 3672,
+          "size": 6304196,
+          "timestamp": "2019-05-21T09:38:29Z",
+          "author": "Pierre André Leclercq",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Dunes_de_Fort_Mahon_%28Eden62%29_%281%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADunes%20de%20Fort%20Mahon%20(Eden62)%20(1).jpg",
+          "title": "Dunes de Fort Mahon (Eden62) (1).jpg",
+          "description": "Les dunes du fort Mahon  Sangatte-Blériot-Plage,  accueillent les ruines d’un ancien fort construit à la fin du XIXème siècle, dit « fort lapin ».",
+          "width": 4896,
+          "height": 3672,
+          "size": 7226092,
+          "timestamp": "2019-05-21T09:06:31Z",
+          "author": "Pierre André Leclercq",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Cabines de plage colorées",

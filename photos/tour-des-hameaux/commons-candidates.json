@@ -1,12 +1,13 @@
 {
   "slug": "tour-des-hameaux",
   "nom": "Tour des Hameaux",
-  "fetchedAt": "2026-03-14T12:53:10.800Z",
+  "fetchedAt": "2026-03-18T20:11:16.699Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Serres-sur-Arget_-_Route_de_la_Tour_Laffont_-_bo%C3%AEte_%C3%A0_livres.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASerres-sur-Arget%20-%20Route%20de%20la%20Tour%20Laffont%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
       "title": "Serres-sur-Arget - Route de la Tour Laffont - boîte à livres.jpg",
+      "description": "Boîte à livres à Serres-sur-Arget",
       "width": 1079,
       "height": 1441,
       "size": 149723,
@@ -17,28 +18,16 @@
       "score": 4
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/ISS021-E-6912_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS021-E-6912%20-%20View%20of%20Earth.jpg",
-      "title": "ISS021-E-6912 - View of Earth.jpg",
-      "width": 4288,
-      "height": 2848,
-      "size": 1305110,
-      "timestamp": "2022-08-22T01:28:20Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/ISS021-E-6911_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS021-E-6911%20-%20View%20of%20Earth.jpg",
-      "title": "ISS021-E-6911 - View of Earth.jpg",
-      "width": 4288,
-      "height": 2848,
-      "size": 1157612,
-      "timestamp": "2022-08-21T22:07:33Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Le_Mas-La_Tour-La_C%C3%B4te_Derri%C3%A8re_Vall%C3%A9e_des_Belleville_%28d%C3%A9cembre_2024%29.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Mas-La%20Tour-La%20C%C3%B4te%20Derri%C3%A8re%20Vall%C3%A9e%20des%20Belleville%20(d%C3%A9cembre%202024).JPG",
+      "title": "Le Mas-La Tour-La Côte Derrière Vallée des Belleville (décembre 2024).JPG",
+      "description": "Sight, in winter, of Le Mas, La Tour and La Côte Derrière hamlets in Les Belleville valley, Savoie, France.",
+      "width": 3200,
+      "height": 2356,
+      "size": 3759465,
+      "timestamp": "2025-01-05T13:01:07Z",
+      "author": "Florian Pépellin",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     }

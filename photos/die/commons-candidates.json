@@ -1,12 +1,13 @@
 {
   "slug": "die",
   "nom": "Die",
-  "fetchedAt": "2026-03-13T14:04:40.659Z",
+  "fetchedAt": "2026-03-16T12:41:26.750Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Railway_Station%2C_Die_France.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARailway%20Station%2C%20Die%20France.jpg",
       "title": "Railway Station, Die France.jpg",
+      "description": "Die Railway Station in the Rhone-Alpes region built in 1885",
       "width": 3243,
       "height": 2164,
       "size": 1612639,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Die_-_Viaduc.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADie%20-%20Viaduc.jpg",
       "title": "Die - Viaduc.jpg",
+      "description": "Die - Viaduc",
       "width": 4032,
       "height": 3024,
       "size": 2066764,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Die_-_Terrain_des_sports.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADie%20-%20Terrain%20des%20sports.jpg",
       "title": "Die - Terrain des sports.jpg",
+      "description": "Die - Terrain des sports",
       "width": 4032,
       "height": 3024,
       "size": 2530985,
@@ -48,40 +51,29 @@
       "label": "Cathédrale Notre-Dame de Die",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Rouen_C%C3%B4te_Sainte-Cath%C3%A9rine_Blick_auf_die_Cath%C3%A9drale_Primatiale_Notre-Dame-de-l%27Assomption_1.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARouen%20C%C3%B4te%20Sainte-Cath%C3%A9rine%20Blick%20auf%20die%20Cath%C3%A9drale%20Primatiale%20Notre-Dame-de-l'Assomption%201.jpg",
-          "title": "Rouen Côte Sainte-Cathérine Blick auf die Cathédrale Primatiale Notre-Dame-de-l'Assomption 1.jpg",
-          "width": 4582,
-          "height": 3298,
-          "size": 6462287,
-          "timestamp": "2020-05-18T18:14:31Z",
-          "author": "Zairon",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/00_3380_Cath%C3%A9drale_Saint-Di%C3%A9_de_Saint-Di%C3%A9-des-Vosges_-_Frankreich.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A00%203380%20Cath%C3%A9drale%20Saint-Di%C3%A9%20de%20Saint-Di%C3%A9-des-Vosges%20-%20Frankreich.jpg",
+          "title": "00 3380 Cathédrale Saint-Dié de Saint-Dié-des-Vosges - Frankreich.jpg",
+          "description": "Saint-Dié Cathedral. The cathedral was built in 1777 and blown up by the German Wehrmacht in 1944. The current church was reconstructed and consecrated again in 1974. Saint-Dié-des-Vosges is a town of about 20,000 inhabitants in the Vosges department, France.",
+          "width": 2892,
+          "height": 2200,
+          "size": 4590755,
+          "timestamp": "2022-04-28T09:51:57Z",
+          "author": "W. Bulach",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Rouen_C%C3%B4te_Sainte-Cath%C3%A9rine_Blick_auf_die_Cath%C3%A9drale_Primatiale_Notre-Dame-de-l%27Assomption_2.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARouen%20C%C3%B4te%20Sainte-Cath%C3%A9rine%20Blick%20auf%20die%20Cath%C3%A9drale%20Primatiale%20Notre-Dame-de-l'Assomption%202.jpg",
-          "title": "Rouen Côte Sainte-Cathérine Blick auf die Cathédrale Primatiale Notre-Dame-de-l'Assomption 2.jpg",
-          "width": 4457,
-          "height": 3120,
-          "size": 6320821,
-          "timestamp": "2020-05-18T18:14:30Z",
-          "author": "Zairon",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Rouen_C%C3%B4te_Sainte-Cath%C3%A9rine_Blick_auf_die_Cath%C3%A9drale_Primatiale_Notre-Dame-de-l%27Assomption_3.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARouen%20C%C3%B4te%20Sainte-Cath%C3%A9rine%20Blick%20auf%20die%20Cath%C3%A9drale%20Primatiale%20Notre-Dame-de-l'Assomption%203.jpg",
-          "title": "Rouen Côte Sainte-Cathérine Blick auf die Cathédrale Primatiale Notre-Dame-de-l'Assomption 3.jpg",
-          "width": 4559,
-          "height": 3166,
-          "size": 6226448,
-          "timestamp": "2020-05-18T18:14:31Z",
-          "author": "Zairon",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Cath%C3%A9drale_Notre_Dame_de_Die_by_night.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale%20Notre%20Dame%20de%20Die%20by%20night.jpg",
+          "title": "Cathédrale Notre Dame de Die by night.jpg",
+          "description": "As I was sitting on a bench this summer late evening, after a nice friendly dinner, I suddenly wondered about the history of this Cathedral and Wikipedia, then Wikimediated it and was inspired to take a nice picture so that I could share this beauty…",
+          "width": 4032,
+          "height": 3024,
+          "size": 2361919,
+          "timestamp": "2024-07-31T21:44:59Z",
+          "author": "Zuryan S",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
@@ -90,55 +82,73 @@
     },
     {
       "label": "Porte Saint-Marcel",
+      "photos": []
+    },
+    {
+      "label": "Remparts gallo-romains (rue du Viaduc)",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Die_st-marcel.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADie%20st-marcel.jpg",
-          "title": "Die st-marcel.jpg",
-          "width": 2304,
-          "height": 1728,
-          "size": 1216719,
-          "timestamp": "2020-06-13T15:20:34Z",
-          "author": "ArchéOdyssée",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Echternach%2C_die_Rue_de_La_S%C3%BBre.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEchternach%2C%20die%20Rue%20de%20La%20S%C3%BBre.jpg",
+          "title": "Echternach, die Rue de La Sûre.jpg",
+          "description": "Echternach, the Rue de La Sûre",
+          "width": 4905,
+          "height": 3445,
+          "size": 4288397,
+          "timestamp": "2025-12-06T14:01:43Z",
+          "author": "Dguendel",
+          "license": "CC BY 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Porte_Saint_Marcel._%C3%A0_Die.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APorte%20Saint%20Marcel.%20%C3%A0%20Die.jpg",
-          "title": "Porte Saint Marcel. à Die.jpg",
-          "width": 4000,
-          "height": 3000,
-          "size": 2312617,
-          "timestamp": "2020-10-28T11:18:18Z",
-          "author": "Espirat",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Echternach%2C_die_Rue_de_Luxembourg%2C_nord%C3%B6stliches_Ende.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEchternach%2C%20die%20Rue%20de%20Luxembourg%2C%20nord%C3%B6stliches%20Ende.jpg",
+          "title": "Echternach, die Rue de Luxembourg, nordöstliches Ende.jpg",
+          "description": "Echternach, the Rue de Luxembourg, northeast end",
+          "width": 4868,
+          "height": 3434,
+          "size": 3501394,
+          "timestamp": "2025-12-08T20:28:47Z",
+          "author": "Dguendel",
+          "license": "CC BY 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/France_ARA_26_Die_Porte_Saint-Marcel_01.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20ARA%2026%20Die%20Porte%20Saint-Marcel%2001.jpg",
-          "title": "France ARA 26 Die Porte Saint-Marcel 01.jpg",
-          "width": 6016,
-          "height": 4016,
-          "size": 8005936,
-          "timestamp": "2023-07-01T16:49:03Z",
-          "author": "Calips",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Echternach%2C_die_Rue_de_La_Gare%2C_Bild_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEchternach%2C%20die%20Rue%20de%20La%20Gare%2C%20Bild%202.jpg",
+          "title": "Echternach, die Rue de La Gare, Bild 2.jpg",
+          "description": "Echternach, the Rue de La Gare",
+          "width": 5096,
+          "height": 3447,
+          "size": 4091914,
+          "timestamp": "2025-12-10T07:12:37Z",
+          "author": "Dguendel",
+          "license": "CC BY 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         }
       ]
     },
     {
-      "label": "Remparts gallo-romains (rue du Viaduc)",
-      "photos": []
-    },
-    {
       "label": "Quai de la Digue (rives de la Drôme)",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Saint-Di%C3%A9_%28Vosges%29%2C_Quai_Pastourelle_CP_5442_PsurR.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Di%C3%A9%20(Vosges)%2C%20Quai%20Pastourelle%20CP%205442%20PsurR.jpg",
+          "title": "Saint-Dié (Vosges), Quai Pastourelle CP 5442 PsurR.jpg",
+          "description": "Carte postale n°7638",
+          "width": 1649,
+          "height": 1052,
+          "size": 478031,
+          "timestamp": "2020-05-25T15:40:09Z",
+          "author": "Inconnu",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

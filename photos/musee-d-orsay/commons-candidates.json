@@ -1,78 +1,155 @@
 {
   "slug": "musee-d-orsay",
   "nom": "musee d orsay",
-  "fetchedAt": "2026-03-13T16:30:26.867Z",
+  "fetchedAt": "2026-03-17T21:36:17.092Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Mus%C3%A9e_d%27Orsay%2C_vue_interne_-_GT_2024_08_28.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e%20d'Orsay%2C%20vue%20interne%20-%20GT%202024%2008%2028.jpg",
-      "title": "Musée d'Orsay, vue interne - GT 2024 08 28.jpg",
-      "width": 8186,
-      "height": 6021,
-      "size": 38245423,
-      "timestamp": "2024-10-18T15:38:50Z",
-      "author": "Terragio67",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Pont_Royal_and_Mus%C3%A9e_d%27Orsay%2C_Paris_10_July_2020.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20Royal%20and%20Mus%C3%A9e%20d'Orsay%2C%20Paris%2010%20July%202020.jpg",
+      "title": "Pont Royal and Musée d'Orsay, Paris 10 July 2020.jpg",
+      "description": "Pont Royal and Musée d'Orsay at dusk, Paris, France.",
+      "width": 5626,
+      "height": 3175,
+      "size": 6548241,
+      "timestamp": "2020-08-23T06:28:53Z",
+      "author": "Pierre Blaché",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Musee_d_orsay_pendule.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMusee%20d%20orsay%20pendule.jpg",
+      "title": "Musee d orsay pendule.jpg",
+      "description": "Pendule du Musée d'Orsay avec groupe de personnes en ombre chinoise.",
+      "width": 4608,
+      "height": 3456,
+      "size": 3373270,
+      "timestamp": "2021-09-30T21:57:26Z",
+      "author": "KnipsKnipsFotoDude",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Inside_D%27Orsay_Musee_-_panoramio.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AInside%20D'Orsay%20Musee%20-%20panoramio.jpg",
-      "title": "Inside D'Orsay Musee - panoramio.jpg",
-      "width": 2272,
-      "height": 1704,
-      "size": 1290475,
-      "timestamp": "2015-04-09T13:18:20Z",
-      "author": "hakkun",
-      "license": "CC BY-SA 3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Mus%C3%A9e_d%E2%80%9DOrsay_09_12_24_947000.jpeg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e%20d%E2%80%9DOrsay%2009%2012%2024%20947000.jpeg",
+      "title": "Musée d”Orsay 09 12 24 947000.jpeg",
+      "description": "L'Abîme 1901 by Just Becquet in the Musée d'Orsay, Paris",
+      "width": 4032,
+      "height": 2268,
+      "size": 2349566,
+      "timestamp": "2023-06-13T08:12:49Z",
+      "author": "Cnbrb",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Mus%C3%A9e_d%27Orsay_-_panoramio_%288%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e%20d'Orsay%20-%20panoramio%20(8).jpg",
-      "title": "Musée d'Orsay - panoramio (8).jpg",
-      "width": 1632,
-      "height": 1224,
-      "size": 422115,
-      "timestamp": "2016-04-05T03:48:59Z",
-      "author": "Infernal Quack (Shif…",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 7
     }
   ],
   "lieux": [
     {
       "label": "Verrière de la nef",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Verri%C3%A8re_du_mus%C3%A9e_dOrsay_%28PTX1557%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVerri%C3%A8re%20du%20mus%C3%A9e%20dOrsay%20(PTX1557).jpg",
+          "title": "Verrière du musée dOrsay (PTX1557).jpg",
+          "description": "Verrière du musée d'Orsay",
+          "width": 4928,
+          "height": 3264,
+          "size": 11248699,
+          "timestamp": "2025-09-26T22:35:43Z",
+          "author": "Lucas Tabary-Maujean",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "« L’Origine du monde » de Courbet",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Melle_Queniaux_op%C3%A9ra_%28ballet%29_par_Nadar_%281820-1910%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMelle%20Queniaux%20op%C3%A9ra%20(ballet)%20par%20Nadar%20(1820-1910).jpg",
-          "title": "Melle Queniaux opéra (ballet) par Nadar (1820-1910).jpg",
-          "width": 2393,
-          "height": 2916,
-          "size": 284922,
-          "timestamp": "2018-09-26T15:38:17Z",
-          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Nadar\" class=\"extiw\" title=\"w:en:Nadar\"><span title=\"French photographer and balloonist (1820–1910)\">Nadar</span></a></bdi>",
-          "license": "Public domain",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Pont_Royal_and_Mus%C3%A9e_d%27Orsay%2C_Paris_10_July_2020.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20Royal%20and%20Mus%C3%A9e%20d'Orsay%2C%20Paris%2010%20July%202020.jpg",
+          "title": "Pont Royal and Musée d'Orsay, Paris 10 July 2020.jpg",
+          "description": "Pont Royal and Musée d'Orsay at dusk, Paris, France.",
+          "width": 5626,
+          "height": 3175,
+          "size": 6548241,
+          "timestamp": "2020-08-23T06:28:53Z",
+          "author": "Pierre Blaché",
+          "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Musee_d_orsay_pendule.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMusee%20d%20orsay%20pendule.jpg",
+          "title": "Musee d orsay pendule.jpg",
+          "description": "Pendule du Musée d'Orsay avec groupe de personnes en ombre chinoise.",
+          "width": 4608,
+          "height": 3456,
+          "size": 3373270,
+          "timestamp": "2021-09-30T21:57:26Z",
+          "author": "KnipsKnipsFotoDude",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Mus%C3%A9e_d%E2%80%9DOrsay_09_12_24_947000.jpeg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e%20d%E2%80%9DOrsay%2009%2012%2024%20947000.jpeg",
+          "title": "Musée d”Orsay 09 12 24 947000.jpeg",
+          "description": "L'Abîme 1901 by Just Becquet in the Musée d'Orsay, Paris",
+          "width": 4032,
+          "height": 2268,
+          "size": 2349566,
+          "timestamp": "2023-06-13T08:12:49Z",
+          "author": "Cnbrb",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
         }
       ]
     },
     {
       "label": "Horloge monumentale du dernier étage",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Grande_horloge_du_mus%C3%A9e_dOrsay_%28PTX1538%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrande%20horloge%20du%20mus%C3%A9e%20dOrsay%20(PTX1538).jpg",
+          "title": "Grande horloge du musée dOrsay (PTX1538).jpg",
+          "description": "Grande horloge du musée d'Orsay",
+          "width": 4928,
+          "height": 3264,
+          "size": 16177048,
+          "timestamp": "2025-09-26T22:35:37Z",
+          "author": "Lucas Tabary-Maujean",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Ours blanc de Pompon",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Mus%C3%A9e_dOrsay%2C_4_November_2003_002.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e%20dOrsay%2C%204%20November%202003%20002.jpg",
+          "title": "Musée dOrsay, 4 November 2003 002.jpg",
+          "description": "This polar bear is an artwork, though I neglected to get the information on title and sculptor. Nevertheless, this was one of the more unusual sights I saw here.\n\nAnother surprise was the entirety of Auguste Rodin's \"Gates of Hell,\" in plaster. The original bronze version is nearby at Musée Rodin, housed in his residence.",
+          "width": 800,
+          "height": 600,
+          "size": 176072,
+          "timestamp": "2013-01-27T17:26:44Z",
+          "author": "InSapphoWeTrust",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 3
+        }
+      ]
     }
   ]
 }

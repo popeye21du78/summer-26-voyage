@@ -1,46 +1,49 @@
 {
   "slug": "chateau-de-chinon",
   "nom": "Château de Chinon",
-  "fetchedAt": "2026-03-13T12:52:23.122Z",
+  "fetchedAt": "2026-03-15T21:22:17.167Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Fa%C3%A7ade_IRBI.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFa%C3%A7ade%20IRBI.jpg",
-      "title": "Façade IRBI.jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 2011532,
-      "timestamp": "2020-02-09T11:43:38Z",
-      "author": "Kevin Chuca",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Aerial_image_of_Ch%C3%A2teau_de_Chinon_%28view_from_the_south%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAerial%20image%20of%20Ch%C3%A2teau%20de%20Chinon%20(view%20from%20the%20south).jpg",
+      "title": "Aerial image of Château de Chinon (view from the south).jpg",
+      "description": "Aerial image of Château de Chinon (view from the south)",
+      "width": 5200,
+      "height": 3000,
+      "size": 10077899,
+      "timestamp": "2025-09-22T18:45:19Z",
+      "author": "Carsten Steger",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Fa%C3%A7ade_IRBI_2.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFa%C3%A7ade%20IRBI%202.jpg",
-      "title": "Façade IRBI 2.jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 3398250,
-      "timestamp": "2020-02-09T11:48:13Z",
-      "author": "Kevin Chuca",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Ch%C3%A2teau_de_Chinon_-_Remparts_et_La_Vienne.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Chinon%20-%20Remparts%20et%20La%20Vienne.jpg",
+      "title": "Château de Chinon - Remparts et La Vienne.jpg",
+      "description": "Château de Chinon - Remparts et la Vienne",
+      "width": 3875,
+      "height": 2972,
+      "size": 5078112,
+      "timestamp": "2026-01-09T17:28:16Z",
+      "author": "JackyM59",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Jou%C3%A9-l%C3%A8s-Tours_-_commerce_de_proximit%C3%A9.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJou%C3%A9-l%C3%A8s-Tours%20-%20commerce%20de%20proximit%C3%A9.jpg",
-      "title": "Joué-lès-Tours - commerce de proximité.jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 2960228,
-      "timestamp": "2023-04-02T14:53:37Z",
-      "author": "AirScott",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Ch%C3%A2teau_de_Chinon_-_Logis_royaux.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Chinon%20-%20Logis%20royaux.jpg",
+      "title": "Château de Chinon - Logis royaux.jpg",
+      "description": "Château de Chinon - Logis royaux",
+      "width": 4000,
+      "height": 2712,
+      "size": 6551311,
+      "timestamp": "2026-01-09T17:28:19Z",
+      "author": "JackyM59",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     }
   ],
   "lieux": [
@@ -48,35 +51,10 @@
       "label": "Tour de l’Horloge",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/07_CVL_-_Indre-et-Loire_-_Chinon_-_La_Forteresse_Royale_%282015-09-02_11-19-57%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A07%20CVL%20-%20Indre-et-Loire%20-%20Chinon%20-%20La%20Forteresse%20Royale%20(2015-09-02%2011-19-57).jpg",
-          "title": "07 CVL - Indre-et-Loire - Chinon - La Forteresse Royale (2015-09-02 11-19-57).jpg",
-          "width": 4000,
-          "height": 3000,
-          "size": 2804109,
-          "timestamp": "2021-09-17T19:52:10Z",
-          "author": "Johan Allard",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Chinon_%28le_pied_de_la_tour_de_l%27horloge%29_-_btv1b6921396n.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChinon%20(le%20pied%20de%20la%20tour%20de%20l'horloge)%20-%20btv1b6921396n.jpg",
-          "title": "Chinon (le pied de la tour de l'horloge) - btv1b6921396n.jpg",
-          "width": 2734,
-          "height": 2000,
-          "size": 760323,
-          "timestamp": "2025-03-14T15:22:28Z",
-          "author": "<div class=\"fn value\">\nAgence Rol. Agence photographique (commanditaire)</div>",
-          "license": "Public domain",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Ch%C3%A2teau_de_Chinon_-_Remparts_et_Tour_de_l%27horloge.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Chinon%20-%20Remparts%20et%20Tour%20de%20l'horloge.jpg",
           "title": "Château de Chinon - Remparts et Tour de l'horloge.jpg",
+          "description": "Château de Chinon - Remparts et Tour de l'horloge",
           "width": 3714,
           "height": 2865,
           "size": 4699886,
@@ -84,7 +62,35 @@
           "author": "JackyM59",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Ch%C3%A2teau_de_Chinon%2C_Tour_de_l%27Horloge.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Chinon%2C%20Tour%20de%20l'Horloge.JPG",
+          "title": "Château de Chinon, Tour de l'Horloge.JPG",
+          "description": "Château de Chinon, Tour de l'Horloge",
+          "width": 3405,
+          "height": 2270,
+          "size": 4151504,
+          "timestamp": "2016-03-22T23:23:03Z",
+          "author": "Nono vlf",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Ch%C3%A2teau_de_Chinon%2C_East_view_20170611_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Chinon%2C%20East%20view%2020170611%201.jpg",
+          "title": "Château de Chinon, East view 20170611 1.jpg",
+          "description": "An east view of the Château de Chinon, depicting the Tour d'Horloge, and the remains of two further towers",
+          "width": 6518,
+          "height": 4583,
+          "size": 13754158,
+          "timestamp": "2017-06-27T10:34:12Z",
+          "author": "DXR",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
         }
       ]
     },
@@ -92,9 +98,38 @@
       "label": "chemin de ronde",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Chinon_%28Indre-et-Loire%29_%2822518913346%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChinon%20(Indre-et-Loire)%20(22518913346).jpg",
+          "title": "Chinon (Indre-et-Loire) (22518913346).jpg",
+          "description": "Chinon (Indre-et-Loire)\nLa forteresse royale de Chinon. \nLa tour de Boissy. \nLa forteresse royale est divisée en trois châteaux: Le château du Milieu, le fort du Coudray et  le fort Saint Georges (actuellement détruit). \nLa tour de Boissy fait partie du fort du Coudray construit au XIIe siècle.\nAu XIIIe siècle fut bâtie la grosse tour de Boissy, au plan en U, afin de renforcer l'angle sud-est du fort du Coudray.  Cette tour dite  d'abord « Tour du Beffroy », est rebaptisée au XVIe siècle en  «To",
+          "width": 4928,
+          "height": 3264,
+          "size": 8035932,
+          "timestamp": "2017-11-17T16:26:29Z",
+          "author": "Daniel Jolivet",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Chinon_%28Indre-et-Loire%29_%2822531403772%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChinon%20(Indre-et-Loire)%20(22531403772).jpg",
+          "title": "Chinon (Indre-et-Loire) (22531403772).jpg",
+          "description": "Chinon (Indre-et-Loire)\nLa forteresse royale de Chinon. \nLa tour de Boissy. \nLa forteresse royale est divisée en trois châteaux: Le château du Milieu, le fort du Coudray et  le fort Saint Georges (actuellement détruit). \nLa tour de Boissy fait partie du fort du Coudray construit au XIIe siècle.\nAu XIIIe siècle fut bâtie la grosse tour de Boissy, au plan en U, afin de renforcer l'angle sud-est du fort du Coudray.  Cette tour dite  d'abord « Tour du Beffroy », est rebaptisée au XVIe siècle en  «To",
+          "width": 4928,
+          "height": 3264,
+          "size": 8366969,
+          "timestamp": "2017-11-17T16:27:25Z",
+          "author": "Daniel Jolivet",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Chinon_%28Indre-et-Loire%29_%2822622294481%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChinon%20(Indre-et-Loire)%20(22622294481).jpg",
           "title": "Chinon (Indre-et-Loire) (22622294481).jpg",
+          "description": "Chinon (Indre-et-Loire)\nLa forteresse royale de Chinon. \nLa Tour de l'Horloge.\n\nLa forteresse royale est divisée en trois châteaux: Le château du Milieu, le fort du Coudray et  le fort Saint Georges (actuellement détruit). \nLa Tour de l'Horloge sert d’entrée au château du Milieu depuis le XIIe siècle. A l'origine, il s'agit d'une porte percée dans une construction massive longue et étroite. \nLa Tour de l'Horloge doit son nom à l'horloge très ancienne qu'elle abrite dans  le clocheton.\nAu début d",
           "width": 4928,
           "height": 3264,
           "size": 12238665,
@@ -102,60 +137,46 @@
           "author": "Daniel Jolivet",
           "license": "CC BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Chinon_%28Indre-et-Loire%29_%2822622179911%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChinon%20(Indre-et-Loire)%20(22622179911).jpg",
-          "title": "Chinon (Indre-et-Loire) (22622179911).jpg",
-          "width": 4928,
-          "height": 3264,
-          "size": 11325017,
-          "timestamp": "2017-11-17T16:27:54Z",
-          "author": "Daniel Jolivet",
-          "license": "CC BY 2.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Chinon_%28Indre-et-Loire%29_%2822507323031%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChinon%20(Indre-et-Loire)%20(22507323031).jpg",
-          "title": "Chinon (Indre-et-Loire) (22507323031).jpg",
-          "width": 4928,
-          "height": 3264,
-          "size": 8603604,
-          "timestamp": "2017-11-17T16:27:58Z",
-          "author": "Daniel Jolivet",
-          "license": "CC BY 2.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         }
       ]
     },
     {
       "label": "terrasse sud",
-      "photos": []
-    },
-    {
-      "label": "Tour du Coudray",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Chinon_-_Ch%C3%A2teau_-_10.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChinon%20-%20Ch%C3%A2teau%20-%2010.jpg",
-          "title": "Chinon - Château - 10.jpg",
-          "width": 6372,
-          "height": 4471,
-          "size": 12785867,
-          "timestamp": "2025-07-25T17:51:48Z",
-          "author": "Benjamin Smith",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Ve%C3%BCe_du_chasteau_et_des_terraces_d%27Uc%C3%A9%2C_en_Touraine%2C_%C3%A0_2_lie%C3%BCes_de_Chinon_et_%C3%A0_2_lie%C3%BCes_de_St_Michau%2C_appartenant_%C3%A0_M._de_Valentiney_-_1699_-_dessin_-_Louis_Boudan_-_btv1b6902568s.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVe%C3%BCe%20du%20chasteau%20et%20des%20terraces%20d'Uc%C3%A9%2C%20en%20Touraine%2C%20%C3%A0%202%20lie%C3%BCes%20de%20Chinon%20et%20%C3%A0%202%20lie%C3%BCes%20de%20St%20Michau%2C%20appartenant%20%C3%A0%20M.%20de%20Valentiney%20-%201699%20-%20dessin%20-%20Louis%20Boudan%20-%20btv1b6902568s.jpg",
+          "title": "Veüe du chasteau et des terraces d'Ucé, en Touraine, à 2 lieües de Chinon et à 2 lieües de St Michau, appartenant à M. de Valentiney - 1699 - dessin - Louis Boudan - btv1b6902568s.jpg",
+          "description": "Sujet : Ussé, Château d' (Indre-et-Loire, France)\nJardins en terrasses (17e siècle)\nRigny-Ussé -- Collégiale\nPaysages -- 17e siècle\nRéférence bibliographique : Gaignières, 5311\nAppartient à l’ensemble documentaire : Des17Gaig\n\nAppartient à l’ensemble documentaire : Centre1",
+          "width": 7216,
+          "height": 5592,
+          "size": 6369599,
+          "timestamp": "2025-03-05T23:07:23Z",
+          "author": "<div class=\"fn value\">\nBoudan, Louis (16..-17.. ; dessinateur et graveur). Dessinateur</div>",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Chinon_%28Indre-et-Loire%29_%2822518913346%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChinon%20(Indre-et-Loire)%20(22518913346).jpg",
+          "title": "Chinon (Indre-et-Loire) (22518913346).jpg",
+          "description": "Chinon (Indre-et-Loire)\nLa forteresse royale de Chinon. \nLa tour de Boissy. \nLa forteresse royale est divisée en trois châteaux: Le château du Milieu, le fort du Coudray et  le fort Saint Georges (actuellement détruit). \nLa tour de Boissy fait partie du fort du Coudray construit au XIIe siècle.\nAu XIIIe siècle fut bâtie la grosse tour de Boissy, au plan en U, afin de renforcer l'angle sud-est du fort du Coudray.  Cette tour dite  d'abord « Tour du Beffroy », est rebaptisée au XVIe siècle en  «To",
+          "width": 4928,
+          "height": 3264,
+          "size": 8035932,
+          "timestamp": "2017-11-17T16:26:29Z",
+          "author": "Daniel Jolivet",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Chinon_%28Indre-et-Loire%29_%2822415606670%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChinon%20(Indre-et-Loire)%20(22415606670).jpg",
           "title": "Chinon (Indre-et-Loire) (22415606670).jpg",
+          "description": "Chinon (Indre-et-Loire)\nLa forteresse royale de Chinon. \nLa tour du Coudray\nLa forteresse royale est divisée en trois châteaux: Le château du Milieu, le fort du Coudray et  le fort Saint Georges (actuellement détruit). \nLa tour du Coudray fait partie du fort du Coudray construit au XIIe siècle. Le nom de \"Coudray daterait  du Moyen-Age.  Peut-être ce nom vient-il simplement de la présence d’un bosquet de noisetiers dans le fort (« coudres ou coudrier» en vieux français)*.\nLe Donjon du Coudray a ",
           "width": 4928,
           "height": 3264,
           "size": 8703860,
@@ -163,20 +184,54 @@
           "author": "Daniel Jolivet",
           "license": "CC BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
+        }
+      ]
+    },
+    {
+      "label": "Tour du Coudray",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Ch%C3%A2teau_de_Chinon_-_Remparts_et_Tour_de_l%27horloge.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Chinon%20-%20Remparts%20et%20Tour%20de%20l'horloge.jpg",
+          "title": "Château de Chinon - Remparts et Tour de l'horloge.jpg",
+          "description": "Château de Chinon - Remparts et Tour de l'horloge",
+          "width": 3714,
+          "height": 2865,
+          "size": 4699886,
+          "timestamp": "2026-01-09T17:28:21Z",
+          "author": "JackyM59",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Chinon_%28Indre-et-Loire%29_%2822603392905%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChinon%20(Indre-et-Loire)%20(22603392905).jpg",
-          "title": "Chinon (Indre-et-Loire) (22603392905).jpg",
-          "width": 4928,
-          "height": 3264,
-          "size": 10618293,
-          "timestamp": "2017-11-17T16:27:43Z",
-          "author": "Daniel Jolivet",
-          "license": "CC BY 2.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Ch%C3%A2teau_de_Chinon%2C_Tour_de_l%27Horloge.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Chinon%2C%20Tour%20de%20l'Horloge.JPG",
+          "title": "Château de Chinon, Tour de l'Horloge.JPG",
+          "description": "Château de Chinon, Tour de l'Horloge",
+          "width": 3405,
+          "height": 2270,
+          "size": 4151504,
+          "timestamp": "2016-03-22T23:23:03Z",
+          "author": "Nono vlf",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Ch%C3%A2teau_de_Chinon%2C_East_view_20170611_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Chinon%2C%20East%20view%2020170611%201.jpg",
+          "title": "Château de Chinon, East view 20170611 1.jpg",
+          "description": "An east view of the Château de Chinon, depicting the Tour d'Horloge, and the remains of two further towers",
+          "width": 6518,
+          "height": 4583,
+          "size": 13754158,
+          "timestamp": "2017-06-27T10:34:12Z",
+          "author": "DXR",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
         }
       ]
     }

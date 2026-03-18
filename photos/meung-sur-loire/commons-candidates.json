@@ -1,12 +1,13 @@
 {
   "slug": "meung-sur-loire",
   "nom": "Meung-sur-Loire",
-  "fetchedAt": "2026-03-13T16:10:12.197Z",
+  "fetchedAt": "2026-03-16T21:34:24.886Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/07_CVL_-_Loiret_-_Meung-sur-Loire_%282017-04-29_16-12-20%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A07%20CVL%20-%20Loiret%20-%20Meung-sur-Loire%20(2017-04-29%2016-12-20).jpg",
       "title": "07 CVL - Loiret - Meung-sur-Loire (2017-04-29 16-12-20).jpg",
+      "description": "Château de Meung-sur-Loire",
       "width": 4000,
       "height": 2248,
       "size": 2720959,
@@ -14,12 +15,13 @@
       "author": "Johan Allard",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/07_CVL_-_Loiret_-_Meung-sur-Loire_%282017-04-29_16-00-38%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A07%20CVL%20-%20Loiret%20-%20Meung-sur-Loire%20(2017-04-29%2016-00-38).jpg",
       "title": "07 CVL - Loiret - Meung-sur-Loire (2017-04-29 16-00-38).jpg",
+      "description": "Château de Meung-sur-Loire",
       "width": 4000,
       "height": 2248,
       "size": 2661881,
@@ -27,12 +29,13 @@
       "author": "Johan Allard",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/07_CVL_-_Loiret_-_Meung-sur-Loire_%282017-04-29_15-43-20%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A07%20CVL%20-%20Loiret%20-%20Meung-sur-Loire%20(2017-04-29%2015-43-20).jpg",
       "title": "07 CVL - Loiret - Meung-sur-Loire (2017-04-29 15-43-20).jpg",
+      "description": "Château de Meung-sur-Loire",
       "width": 3779,
       "height": 2124,
       "size": 5375842,
@@ -40,7 +43,7 @@
       "author": "Johan Allard",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     }
   ],
   "lieux": [
@@ -48,39 +51,42 @@
       "label": "Château de Meung-sur-Loire",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Meung-sur-Loire_-_ch%C3%A2teau%2C_int%C3%A9rieur_%2808%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMeung-sur-Loire%20-%20ch%C3%A2teau%2C%20int%C3%A9rieur%20(08).jpg",
-          "title": "Meung-sur-Loire - château, intérieur (08).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Meung-sur-Loire_-_ch%C3%A2teau%2C_orangerie_%2801%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMeung-sur-Loire%20-%20ch%C3%A2teau%2C%20orangerie%20(01).jpg",
+          "title": "Meung-sur-Loire - château, orangerie (01).jpg",
+          "description": "Castle of Meung-sur-Loire (Loiret, France), orangery",
           "width": 3264,
           "height": 2448,
-          "size": 3267775,
-          "timestamp": "2018-09-27T05:52:32Z",
+          "size": 3153424,
+          "timestamp": "2018-09-26T05:46:34Z",
           "author": "Fab5669",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Meung-sur-Loire_-_ch%C3%A2teau%2C_int%C3%A9rieur_%2813%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMeung-sur-Loire%20-%20ch%C3%A2teau%2C%20int%C3%A9rieur%20(13).jpg",
-          "title": "Meung-sur-Loire - château, intérieur (13).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Meung-sur-Loire_-_ch%C3%A2teau%2C_fa%C3%A7ade_m%C3%A9di%C3%A9vale_%2802%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMeung-sur-Loire%20-%20ch%C3%A2teau%2C%20fa%C3%A7ade%20m%C3%A9di%C3%A9vale%20(02).jpg",
+          "title": "Meung-sur-Loire - château, façade médiévale (02).jpg",
+          "description": "Castle of Meung-sur-Loire (Loiret, France), north-east facade",
           "width": 3264,
           "height": 2448,
-          "size": 3414008,
-          "timestamp": "2018-09-27T05:52:42Z",
+          "size": 3250715,
+          "timestamp": "2018-09-26T05:46:34Z",
           "author": "Fab5669",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Meung-sur-Loire_-_ch%C3%A2teau%2C_int%C3%A9rieur_%2814%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMeung-sur-Loire%20-%20ch%C3%A2teau%2C%20int%C3%A9rieur%20(14).jpg",
-          "title": "Meung-sur-Loire - château, intérieur (14).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Meung-sur-Loire_-_ch%C3%A2teau%2C_glaci%C3%A8re_%2801%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMeung-sur-Loire%20-%20ch%C3%A2teau%2C%20glaci%C3%A8re%20(01).jpg",
+          "title": "Meung-sur-Loire - château, glacière (01).jpg",
+          "description": "Castle of Meung-sur-Loire (Loiret, France), icehouse",
           "width": 3264,
           "height": 2448,
-          "size": 3533994,
-          "timestamp": "2018-09-27T05:52:42Z",
+          "size": 5003028,
+          "timestamp": "2018-09-26T05:46:36Z",
           "author": "Fab5669",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -95,6 +101,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Meung-sur-Loire_-_coll%C3%A9giale_Saint-Liphard_%2801%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMeung-sur-Loire%20-%20coll%C3%A9giale%20Saint-Liphard%20(01).jpg",
           "title": "Meung-sur-Loire - collégiale Saint-Liphard (01).jpg",
+          "description": "Saint Liphard collegiate church of Meung-sur-Loire (Loiret, France), northern facade",
           "width": 3264,
           "height": 2448,
           "size": 3581839,
@@ -108,6 +115,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Meung-sur-Loire_-_coll%C3%A9giale_Saint-Liphard_%2802%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMeung-sur-Loire%20-%20coll%C3%A9giale%20Saint-Liphard%20(02).jpg",
           "title": "Meung-sur-Loire - collégiale Saint-Liphard (02).jpg",
+          "description": "Saint Liphard collegiate church of Meung-sur-Loire (Loiret, France), northern facade",
           "width": 3264,
           "height": 2448,
           "size": 2900329,
@@ -121,6 +129,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Meung-sur-Loire_-_coll%C3%A9giale_Saint-Liphard_%2803%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMeung-sur-Loire%20-%20coll%C3%A9giale%20Saint-Liphard%20(03).jpg",
           "title": "Meung-sur-Loire - collégiale Saint-Liphard (03).jpg",
+          "description": "Saint Liphard collegiate church of Meung-sur-Loire (Loiret, France), northern facade",
           "width": 3264,
           "height": 2448,
           "size": 3058083,
@@ -134,47 +143,7 @@
     },
     {
       "label": "Bords de Loire",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Ingres_-_MI.867.4284%2C_Un_village_au_bord_de_la_mer.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AIngres%20-%20MI.867.4284%2C%20Un%20village%20au%20bord%20de%20la%20mer.jpg",
-          "title": "Ingres - MI.867.4284, Un village au bord de la mer.jpg",
-          "width": 745,
-          "height": 500,
-          "size": 89627,
-          "timestamp": "2021-07-24T13:37:17Z",
-          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Jean-Auguste-Dominique_Ingres\" class=\"extiw\" title=\"w:en:Jean-Auguste-Dominique Ingres\"><span title=\"French painter (1780–1867)\">Jean-Auguste-Dominique Ingres</span></a></bdi>",
-          "license": "Public domain",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Ingres_-_MI.867.4511%2C_Croquis_pris_au_bord_de_la_mer.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AIngres%20-%20MI.867.4511%2C%20Croquis%20pris%20au%20bord%20de%20la%20mer.jpg",
-          "title": "Ingres - MI.867.4511, Croquis pris au bord de la mer.jpg",
-          "width": 682,
-          "height": 500,
-          "size": 79806,
-          "timestamp": "2021-07-26T00:58:11Z",
-          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Jean-Auguste-Dominique_Ingres\" class=\"extiw\" title=\"w:en:Jean-Auguste-Dominique Ingres\"><span title=\"French painter (1780–1867)\">Jean-Auguste-Dominique Ingres</span></a></bdi>",
-          "license": "Public domain",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Ingres_-_MI.867.4512%2C_Bord_de_mer.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AIngres%20-%20MI.867.4512%2C%20Bord%20de%20mer.jpg",
-          "title": "Ingres - MI.867.4512, Bord de mer.jpg",
-          "width": 1134,
-          "height": 494,
-          "size": 33921,
-          "timestamp": "2021-07-26T00:58:21Z",
-          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Jean-Auguste-Dominique_Ingres\" class=\"extiw\" title=\"w:en:Jean-Auguste-Dominique Ingres\"><span title=\"French painter (1780–1867)\">Jean-Auguste-Dominique Ingres</span></a></bdi>",
-          "license": "Public domain",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Moulin de Meung-sur-Loire",
@@ -183,6 +152,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Meung-sur-Loire_%28Loiret%29_%289083319641%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMeung-sur-Loire%20(Loiret)%20(9083319641).jpg",
           "title": "Meung-sur-Loire (Loiret) (9083319641).jpg",
+          "description": "Voie communale du Grand-Moulin.\nLes Mauves sont un ensemble de trois petites rivières qui traversent la ville. \nElles sont alimentées par la nappe de Beauce. \nLes Mauves ne sont pas \"naturelles\", mais mais façonnées par la main de l'homme, quand les marécages ont été assainis (Saint-Liphard)\nJadis force motrice permettant aux moulins à roues à aube de Meung de fonctionner, les Mauves s'écoulent en petits bras d'eau limpides qui se rejoignent en une seule rivière à la sortie de Meung-sur-Loire, a",
           "width": 4928,
           "height": 3264,
           "size": 6337737,
@@ -193,9 +163,24 @@
           "score": 6
         },
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Meung-sur-Loire_-_moulin_des_Marais.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMeung-sur-Loire%20-%20moulin%20des%20Marais.jpg",
+          "title": "Meung-sur-Loire - moulin des Marais.jpg",
+          "description": "Swamps' mill, on Mauves river, in Meung-sur-Loire (Loiret, France)",
+          "width": 3264,
+          "height": 2448,
+          "size": 3572644,
+          "timestamp": "2018-10-09T20:36:42Z",
+          "author": "Fab5669",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Meung-sur-Loire_-_moulin_de_la_Nivelle_%2801%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMeung-sur-Loire%20-%20moulin%20de%20la%20Nivelle%20(01).jpg",
           "title": "Meung-sur-Loire - moulin de la Nivelle (01).jpg",
+          "description": "Nivelle mill, on Mauves river, in Meung-sur-Loire (Loiret, France)",
           "width": 3264,
           "height": 2448,
           "size": 2994398,

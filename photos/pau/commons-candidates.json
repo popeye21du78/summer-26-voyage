@@ -1,12 +1,13 @@
 {
   "slug": "pau",
   "nom": "Pau",
-  "fetchedAt": "2026-03-13T01:41:31.867Z",
+  "fetchedAt": "2026-03-17T22:17:55.634Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Pau_Castle_Entrance.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APau%20Castle%20Entrance.jpg",
       "title": "Pau Castle Entrance.jpg",
+      "description": "Entrance of Pau Castle (Château de Pau), in Pyrénées-Atlantiques, France",
       "width": 5452,
       "height": 3067,
       "size": 3681752,
@@ -14,25 +15,13 @@
       "author": "Benh LIEU SONG",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Pau_-_ch%C3%A2teau_-_bo%C3%AEte_%C3%A0_livres.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APau%20-%20ch%C3%A2teau%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
-      "title": "Pau - château - boîte à livres.jpg",
-      "width": 2500,
-      "height": 1875,
-      "size": 870054,
-      "timestamp": "2025-03-12T05:03:22Z",
-      "author": "Unuaiga",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Ch%C3%A2teau_Henri_IV_Pau_%283%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20Henri%20IV%20Pau%20(3).jpg",
       "title": "Château Henri IV Pau (3).jpg",
+      "description": "Cour du Château en 1989",
       "width": 1709,
       "height": 1155,
       "size": 297965,
@@ -40,7 +29,21 @@
       "author": "Selmoval",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Ch%C3%A2teau_Henri_IV_Pau_%284%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20Henri%20IV%20Pau%20(4).jpg",
+      "title": "Château Henri IV Pau (4).jpg",
+      "description": "Cour du Château avec la statue d'Henry IV en 1989",
+      "width": 1693,
+      "height": 1100,
+      "size": 249860,
+      "timestamp": "2025-03-15T20:05:13Z",
+      "author": "Selmoval",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
     }
   ],
   "lieux": [
@@ -48,9 +51,24 @@
       "label": "Boulevard des Pyrénées",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Pau_Le_Boulevard_des_Pyr%C3%A9n%C3%A9es.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APau%20Le%20Boulevard%20des%20Pyr%C3%A9n%C3%A9es.jpg",
+          "title": "Pau Le Boulevard des Pyrénées.jpg",
+          "description": "Pau Le Boulevard des Pyrénées",
+          "width": 1295,
+          "height": 838,
+          "size": 277709,
+          "timestamp": "2020-02-04T20:04:51Z",
+          "author": "Bibliothèque Pireneas (Pau)",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Boulevard_des_Pyr%C3%A9n%C3%A9es_Pau_01.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABoulevard%20des%20Pyr%C3%A9n%C3%A9es%20Pau%2001.jpg",
           "title": "Boulevard des Pyrénées Pau 01.jpg",
+          "description": "Boulevard des Pyrénées, Pau, Francia",
           "width": 4608,
           "height": 3456,
           "size": 3904930,
@@ -61,22 +79,10 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Celou_Arrasco_au_Boulevard_des_Pyr%C3%A9n%C3%A9es%2C_photo_de_Jean_Lebrau.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACelou%20Arrasco%20au%20Boulevard%20des%20Pyr%C3%A9n%C3%A9es%2C%20photo%20de%20Jean%20Lebrau.jpg",
-          "title": "Celou Arrasco au Boulevard des Pyrénées, photo de Jean Lebrau.jpg",
-          "width": 2094,
-          "height": 1209,
-          "size": 484301,
-          "timestamp": "2021-04-14T08:19:06Z",
-          "author": "Jean Lebrau",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/H%C3%B4tel_de_Cadaval_depuis_le_boulevard_des_Pyr%C3%A9n%C3%A9es_-_Pau.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AH%C3%B4tel%20de%20Cadaval%20depuis%20le%20boulevard%20des%20Pyr%C3%A9n%C3%A9es%20-%20Pau.jpg",
           "title": "Hôtel de Cadaval depuis le boulevard des Pyrénées - Pau.jpg",
+          "description": "L'hôtel de Cadaval - Façade sud donnant sur le boulevard des Pyrénées",
           "width": 4032,
           "height": 3024,
           "size": 4800074,
@@ -95,6 +101,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Pau_Castle_Entrance.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APau%20Castle%20Entrance.jpg",
           "title": "Pau Castle Entrance.jpg",
+          "description": "Entrance of Pau Castle (Château de Pau), in Pyrénées-Atlantiques, France",
           "width": 5452,
           "height": 3067,
           "size": 3681752,
@@ -102,33 +109,35 @@
           "author": "Benh LIEU SONG",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Ch%C3%A2teau_de_Pau_4319.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Pau%204319.jpg",
-          "title": "Château de Pau 4319.jpg",
-          "width": 4288,
-          "height": 2848,
-          "size": 8461139,
-          "timestamp": "2021-08-30T18:33:01Z",
-          "author": "Don-vip",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Ch%C3%A2teau_Pau_Enceinte.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20Pau%20Enceinte.jpg",
+          "title": "Château Pau Enceinte.jpg",
+          "description": "Le château de Pau depuis le parc national.",
+          "width": 3586,
+          "height": 2689,
+          "size": 1941239,
+          "timestamp": "2019-12-03T09:10:19Z",
+          "author": "Capbourrut",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 8
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Ch%C3%A2teau_de_Pau_4318.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Pau%204318.jpg",
-          "title": "Château de Pau 4318.jpg",
-          "width": 4288,
-          "height": 2848,
-          "size": 8778070,
-          "timestamp": "2021-08-30T18:33:08Z",
-          "author": "Don-vip",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Le_ch%C3%A2teau_de_Pau.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20ch%C3%A2teau%20de%20Pau.jpg",
+          "title": "Le château de Pau.jpg",
+          "description": "La façade nord du château de Pau depuis le 13 place Gramont",
+          "width": 3024,
+          "height": 4032,
+          "size": 3775107,
+          "timestamp": "2020-11-18T15:23:40Z",
+          "author": "Will6475",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 8
         }
       ]
     },
@@ -139,6 +148,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Pau%2C_quartier_du_H%C3%A9das_en_1928.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APau%2C%20quartier%20du%20H%C3%A9das%20en%201928.jpg",
           "title": "Pau, quartier du Hédas en 1928.jpg",
+          "description": "Pau, vue du Taudis du Hédas en 1928",
           "width": 8622,
           "height": 6259,
           "size": 9118911,
@@ -146,81 +156,129 @@
           "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q18507700\" class=\"extiw\" title=\"d:Q18507700\"><span title=\"French photo agency\">Agence Rol</span></a></bdi>",
           "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/La_Devarada_02_-_Nueit_deus_Becuts_-_Carnaval_Biarn%C3%A9s_2016.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Devarada%2002%20-%20Nueit%20deus%20Becuts%20-%20Carnaval%20Biarn%C3%A9s%202016.jpg",
-          "title": "La Devarada 02 - Nueit deus Becuts - Carnaval Biarnés 2016.jpg",
-          "width": 2400,
-          "height": 1600,
-          "size": 776654,
-          "timestamp": "2016-02-17T16:35:21Z",
-          "author": "Unuaiga",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Pau_-_Le_vieux_quartier_du_Ch%C3%A2teau_et_le_Parc_National_-_btv1b10560522h.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APau%20-%20Le%20vieux%20quartier%20du%20Ch%C3%A2teau%20et%20le%20Parc%20National%20-%20btv1b10560522h.jpg",
+          "title": "Pau - Le vieux quartier du Château et le Parc National - btv1b10560522h.jpg",
+          "description": "Sujet : Pau (Pyrénées-Atlantiques) -- Château -- 20e siècle -- Cartes postales\nQuartiers (urbanisme) -- Pau (Pyrénées-Atlantiques) -- 20e siècle -- Cartes postales\nPau, Gave de (France) -- 20e siècle -- Cartes postales\nAppartient à l’ensemble documentaire : PrnS001\n\nLangue : sans contenu linguistique",
+          "width": 1290,
+          "height": 830,
+          "size": 184170,
+          "timestamp": "2025-02-25T04:56:03Z",
+          "author": "Inconnu",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/La_Devarada_03_-_Nueit_deus_Becuts_-_Carnaval_Biarn%C3%A9s_2016.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Devarada%2003%20-%20Nueit%20deus%20Becuts%20-%20Carnaval%20Biarn%C3%A9s%202016.jpg",
-          "title": "La Devarada 03 - Nueit deus Becuts - Carnaval Biarnés 2016.jpg",
-          "width": 2400,
-          "height": 1600,
-          "size": 680116,
-          "timestamp": "2016-02-17T16:35:21Z",
-          "author": "Unuaiga",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Pau_%28B.-P.%29_-_C%C3%B4te_du_Moulin_-_Le_Vieux_Quartier_de_la_Monnaie_-_Le_Parlement_-_btv1b105630038.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APau%20(B.-P.)%20-%20C%C3%B4te%20du%20Moulin%20-%20Le%20Vieux%20Quartier%20de%20la%20Monnaie%20-%20Le%20Parlement%20-%20btv1b105630038.jpg",
+          "title": "Pau (B.-P.) - Côte du Moulin - Le Vieux Quartier de la Monnaie - Le Parlement - btv1b105630038.jpg",
+          "description": "Sujet : Places -- Pau (Pyrénées-Atlantiques) -- 20e siècle -- Cartes postales\nPortes de ville -- Pau (Pyrénées-Atlantiques) -- 20e siècle -- Cartes postales\nFrance. Parlement de Pau -- 20e siècle -- Cartes postales\nPau (Pyrénées-Atlantiques) -- Château -- 20e siècle -- Cartes postales\nAppartient à l’ensemble documentaire : PrnS001\n\nLangue : sans contenu linguistique",
+          "width": 1308,
+          "height": 834,
+          "size": 199953,
+          "timestamp": "2025-03-06T15:15:35Z",
+          "author": "Inconnu",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         }
       ]
     },
     {
       "label": "Jardins de Kōfuku-no-niwa",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Jardin_Partage_Arrosoir_Pau_UPPA.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJardin%20Partage%20Arrosoir%20Pau%20UPPA.jpg",
+          "title": "Jardin Partage Arrosoir Pau UPPA.jpg",
+          "description": "Vue des espaces verts (jardin partagé l'Arrosoir) et des bâtiments (à droite la bibliothèque universitaire, au milieu l'institut Claude Laugénie) de l'Université de Pau et des Pays de l'Adour",
+          "width": 3264,
+          "height": 1836,
+          "size": 2891346,
+          "timestamp": "2020-09-17T13:36:10Z",
+          "author": "Delphine Montagne",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Ch%C3%A2teau_de_Pau_et_jardins_4328.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Pau%20et%20jardins%204328.jpg",
+          "title": "Château de Pau et jardins 4328.jpg",
+          "description": "Château de Pau et jardins",
+          "width": 4040,
+          "height": 2683,
+          "size": 8094993,
+          "timestamp": "2021-08-30T18:33:11Z",
+          "author": "Don-vip",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Petit_jardin_Pau.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APetit%20jardin%20Pau.jpg",
+          "title": "Petit jardin Pau.jpg",
+          "description": "Petit jardin du château de Pau.",
+          "width": 4608,
+          "height": 3456,
+          "size": 3098966,
+          "timestamp": "2019-12-01T13:00:25Z",
+          "author": "Capbourrut",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        }
+      ]
     },
     {
       "label": "Musée Bernadotte",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Maison_natale_de_Bernadotte_-_%C3%89tat_actuel%2C_Mai_1951_-_Ville_de_Pau%2C_Services_Techniques_-_btv1b10584804q_%281_of_7%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison%20natale%20de%20Bernadotte%20-%20%C3%89tat%20actuel%2C%20Mai%201951%20-%20Ville%20de%20Pau%2C%20Services%20Techniques%20-%20btv1b10584804q%20(1%20of%207).jpg",
-          "title": "Maison natale de Bernadotte - État actuel, Mai 1951 - Ville de Pau, Services Techniques - btv1b10584804q (1 of 7).jpg",
-          "width": 3202,
-          "height": 2651,
-          "size": 847051,
-          "timestamp": "2022-07-13T08:23:01Z",
-          "author": "<div class=\"fn value\">\nVille de Pau. Fonction indéterminée</div>",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Le_ch%C3%A2teau_de_Pau_et_son_mus%C3%A9e_%28Carnet_de_cartes_postales%29_-_btv1b10583593h_%2818_of_49%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20ch%C3%A2teau%20de%20Pau%20et%20son%20mus%C3%A9e%20(Carnet%20de%20cartes%20postales)%20-%20btv1b10583593h%20(18%20of%2049).jpg",
+          "title": "Le château de Pau et son musée (Carnet de cartes postales) - btv1b10583593h (18 of 49).jpg",
+          "description": "Sujet : Pau (Pyrénées-Atlantiques) -- Château -- 20e siècle -- Cartes postales\nTapisserie -- Pau (Pyrénées-Atlantiques) -- 20e siècle -- Cartes postales\nLits -- Pau (Pyrénées-Atlantiques) -- 20e siècle -- Cartes postales\nChambres à coucher -- Coarraze (Pyrénées-Atlantiques) -- 20e siècle -- Cartes postales\nPyrénées-Atlantiques\nAppartient à l’ensemble documentaire : PrnS001\n\nLangue : sans contenu linguistique",
+          "width": 1263,
+          "height": 819,
+          "size": 209374,
+          "timestamp": "2025-02-26T20:05:15Z",
+          "author": "Inconnu",
           "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Maison_natale_de_Bernadotte_-_%C3%89tat_actuel%2C_Mai_1951_-_Ville_de_Pau%2C_Services_Techniques_-_btv1b10584804q_%282_of_7%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison%20natale%20de%20Bernadotte%20-%20%C3%89tat%20actuel%2C%20Mai%201951%20-%20Ville%20de%20Pau%2C%20Services%20Techniques%20-%20btv1b10584804q%20(2%20of%207).jpg",
-          "title": "Maison natale de Bernadotte - État actuel, Mai 1951 - Ville de Pau, Services Techniques - btv1b10584804q (2 of 7).jpg",
-          "width": 3099,
-          "height": 2556,
-          "size": 1299382,
-          "timestamp": "2022-07-13T08:23:08Z",
-          "author": "<div class=\"fn value\">\nVille de Pau. Fonction indéterminée</div>",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Le_ch%C3%A2teau_de_Pau_et_son_mus%C3%A9e_%28Carnet_de_cartes_postales%29_-_btv1b10583593h_%2822_of_49%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20ch%C3%A2teau%20de%20Pau%20et%20son%20mus%C3%A9e%20(Carnet%20de%20cartes%20postales)%20-%20btv1b10583593h%20(22%20of%2049).jpg",
+          "title": "Le château de Pau et son musée (Carnet de cartes postales) - btv1b10583593h (22 of 49).jpg",
+          "description": "Sujet : Pau (Pyrénées-Atlantiques) -- Château -- 20e siècle -- Cartes postales\nTapisserie -- Pau (Pyrénées-Atlantiques) -- 20e siècle -- Cartes postales\nLits -- Pau (Pyrénées-Atlantiques) -- 20e siècle -- Cartes postales\nChambres à coucher -- Coarraze (Pyrénées-Atlantiques) -- 20e siècle -- Cartes postales\nPyrénées-Atlantiques\nAppartient à l’ensemble documentaire : PrnS001\n\nLangue : sans contenu linguistique",
+          "width": 1281,
+          "height": 828,
+          "size": 200464,
+          "timestamp": "2025-02-26T20:06:04Z",
+          "author": "Inconnu",
           "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Maison_natale_de_Bernadotte_-_%C3%89tat_actuel%2C_Mai_1951_-_Ville_de_Pau%2C_Services_Techniques_-_btv1b10584804q_%283_of_7%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison%20natale%20de%20Bernadotte%20-%20%C3%89tat%20actuel%2C%20Mai%201951%20-%20Ville%20de%20Pau%2C%20Services%20Techniques%20-%20btv1b10584804q%20(3%20of%207).jpg",
-          "title": "Maison natale de Bernadotte - État actuel, Mai 1951 - Ville de Pau, Services Techniques - btv1b10584804q (3 of 7).jpg",
-          "width": 3099,
-          "height": 2549,
-          "size": 1131944,
-          "timestamp": "2022-07-13T08:23:13Z",
-          "author": "<div class=\"fn value\">\nVille de Pau. Fonction indéterminée</div>",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Le_ch%C3%A2teau_de_Pau_et_son_mus%C3%A9e_%28Carnet_de_cartes_postales%29_-_btv1b10583593h_%2826_of_49%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20ch%C3%A2teau%20de%20Pau%20et%20son%20mus%C3%A9e%20(Carnet%20de%20cartes%20postales)%20-%20btv1b10583593h%20(26%20of%2049).jpg",
+          "title": "Le château de Pau et son musée (Carnet de cartes postales) - btv1b10583593h (26 of 49).jpg",
+          "description": "Sujet : Pau (Pyrénées-Atlantiques) -- Château -- 20e siècle -- Cartes postales\nTapisserie -- Pau (Pyrénées-Atlantiques) -- 20e siècle -- Cartes postales\nLits -- Pau (Pyrénées-Atlantiques) -- 20e siècle -- Cartes postales\nChambres à coucher -- Coarraze (Pyrénées-Atlantiques) -- 20e siècle -- Cartes postales\nPyrénées-Atlantiques\nAppartient à l’ensemble documentaire : PrnS001\n\nLangue : sans contenu linguistique",
+          "width": 1272,
+          "height": 825,
+          "size": 211058,
+          "timestamp": "2025-02-26T20:06:52Z",
+          "author": "Inconnu",
           "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         }
       ]
     },
@@ -228,9 +286,24 @@
       "label": "Palais Beaumont",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Pau_Le_Palais_des_Pyr%C3%A9n%C3%A9es.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APau%20Le%20Palais%20des%20Pyr%C3%A9n%C3%A9es.jpg",
+          "title": "Pau Le Palais des Pyrénées.jpg",
+          "description": "Pau : Le Palais des Pyrénées",
+          "width": 1305,
+          "height": 820,
+          "size": 286398,
+          "timestamp": "2020-02-04T18:50:13Z",
+          "author": "Bibliothèque Pireneas (Pau)",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Pau_Le_Palais_d%27Hiver.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APau%20Le%20Palais%20d'Hiver.jpg",
           "title": "Pau Le Palais d'Hiver.jpg",
+          "description": "Pau : Le Palais d'Hiver - Le Palmarium et les Petits Chevaux",
           "width": 1259,
           "height": 819,
           "size": 381069,
@@ -241,22 +314,10 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Palais_Beaumont_Pau.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APalais%20Beaumont%20Pau.jpg",
-          "title": "Palais Beaumont Pau.jpg",
-          "width": 4608,
-          "height": 3456,
-          "size": 4012074,
-          "timestamp": "2020-04-28T19:21:47Z",
-          "author": "Superchilum",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Palmarium_du_Palais_d%27Hiver_de_Pau_en_1900.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APalmarium%20du%20Palais%20d'Hiver%20de%20Pau%20en%201900.jpg",
           "title": "Palmarium du Palais d'Hiver de Pau en 1900.jpg",
+          "description": "Palmarium du Palais d'Hiver de Pau en 1900",
           "width": 2073,
           "height": 1555,
           "size": 734429,

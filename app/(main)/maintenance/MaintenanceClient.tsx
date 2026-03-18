@@ -27,6 +27,7 @@ export default function MaintenanceClient() {
           <Link
             key={href}
             href={href}
+            prefetch={false}
             className="flex items-center gap-4 rounded-lg border border-[#A55734]/20 bg-white p-5 transition hover:border-[#A55734]/40 hover:bg-[#FFF2EB]/30"
           >
             <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-[#A55734]/10">

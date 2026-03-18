@@ -1,12 +1,13 @@
 {
   "slug": "pradelles",
   "nom": "Pradelles",
-  "fetchedAt": "2026-03-14T11:36:25.604Z",
+  "fetchedAt": "2026-03-18T17:09:35.653Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Pradelles_BD_Ortho.png",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APradelles%20BD%20Ortho.png",
       "title": "Pradelles BD Ortho.png",
+      "description": "Vue de la commune de Pradelles (43420) à partir des données de la BD ORTHO. La différence de colorimétrie entre la partie Nord et la partir Sud de l'image est due à la juxtaposition de deux chantiers d'acquisition produits à des dates différentes.",
       "width": 1219,
       "height": 742,
       "size": 1605169,
@@ -14,12 +15,13 @@
       "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Institut_national_de_l%27information_g%C3%A9ographique_et_foresti%C3%A8re\" class=\"extiw\" title=\"w:en:Institut national de l'information géographique et forestière\"><span title=\"French public state administrative establishment producing geographical information\">Institut national de l'information géographique et forestière</span></a>\n</bdi>",
       "license": "Licence Ouverte",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Pradelles_%28Fran%C3%A7a%29_-_panoramio.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APradelles%20(Fran%C3%A7a)%20-%20panoramio.jpg",
       "title": "Pradelles (França) - panoramio.jpg",
+      "description": "Pradelles (França)",
       "width": 2048,
       "height": 1536,
       "size": 696246,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Pradelles%2C_43.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APradelles%2C%2043.jpg",
       "title": "Pradelles, 43.jpg",
+      "description": "Pradelles, environ 600 hab. perchés à 1 150 m sur la route de Langogne, Lozère.\nMembre de l’association « Les plus beaux villages de France » en compagnie d’Arlempdes, la localité, qui en comptait presque 2 000 fin XIXe (maximum atteint au cours de son histoire), s’est ainsi vidée des 2/3 de sa population en un siècle...\n\nLa rue de l'Entressac que l'on voit ici, jouait le rôle de boulevard de ceinture au moyen-âge: elle permettait aux voyageurs ne souhaitant pas se rendre en plein bourg, d'en év",
       "width": 1136,
       "height": 852,
       "size": 393980,
@@ -56,41 +59,44 @@
       "label": "Église Saint-Pierre",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/268_Pradelle_%2826340%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A268%20Pradelle%20(26340).jpg",
-          "title": "268 Pradelle (26340).jpg",
-          "width": 1380,
-          "height": 920,
-          "size": 777008,
-          "timestamp": "2020-07-11T13:52:00Z",
-          "author": "Bastien marie-françoise",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/11_Aude_Pradelles-Cabard%C3%A8s_%C3%A9glise_nef.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A11%20Aude%20Pradelles-Cabard%C3%A8s%20%C3%A9glise%20nef.jpg",
+          "title": "11 Aude Pradelles-Cabardès église nef.jpg",
+          "description": "La nef vue de l'entrée de l'église.",
+          "width": 4032,
+          "height": 1816,
+          "size": 1996121,
+          "timestamp": "2025-08-06T15:26:32Z",
+          "author": "Simon de l'Ouest",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Eglise_de_Pradelles_%28Nord%29_-_3.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20de%20Pradelles%20(Nord)%20-%203.JPG",
+          "title": "Eglise de Pradelles (Nord) - 3.JPG",
+          "description": "Vue de l'église de Pradelles dans le Nord.",
+          "width": 3264,
+          "height": 2448,
+          "size": 1881166,
+          "timestamp": "2013-10-19T17:36:17Z",
+          "author": "Floflo62",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/St_Andrew_church_in_Pradelles-en-Val_%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt%20Andrew%20church%20in%20Pradelles-en-Val%20(2).jpg",
+          "title": "St Andrew church in Pradelles-en-Val (2).jpg",
+          "description": "Saint Andrew church in Pradelles-en-Val, Aude, France",
+          "width": 5809,
+          "height": 3461,
+          "size": 15894012,
+          "timestamp": "2023-01-16T17:49:45Z",
+          "author": "Krzysztof Golik",
           "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Pradelle_-_%C3%89glise_Saint-Pierre-%C3%A8s-Liens_-_C%C3%B4t%C3%A9_sud.jpeg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APradelle%20-%20%C3%89glise%20Saint-Pierre-%C3%A8s-Liens%20-%20C%C3%B4t%C3%A9%20sud.jpeg",
-          "title": "Pradelle - Église Saint-Pierre-ès-Liens - Côté sud.jpeg",
-          "width": 3456,
-          "height": 2592,
-          "size": 5126144,
-          "timestamp": "2022-05-31T21:14:21Z",
-          "author": "Romainbehar",
-          "license": "CC0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Pradelle_-_%C3%89glise_Saint-Pierre-%C3%A8s-Liens_-_C%C3%B4t%C3%A9_nord.jpeg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APradelle%20-%20%C3%89glise%20Saint-Pierre-%C3%A8s-Liens%20-%20C%C3%B4t%C3%A9%20nord.jpeg",
-          "title": "Pradelle - Église Saint-Pierre-ès-Liens - Côté nord.jpeg",
-          "width": 3456,
-          "height": 2592,
-          "size": 5415424,
-          "timestamp": "2022-05-31T21:14:28Z",
-          "author": "Romainbehar",
-          "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         }
@@ -98,7 +104,50 @@
     },
     {
       "label": "Place du Foirail",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Pradelles_BD_Ortho.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APradelles%20BD%20Ortho.png",
+          "title": "Pradelles BD Ortho.png",
+          "description": "Vue de la commune de Pradelles (43420) à partir des données de la BD ORTHO. La différence de colorimétrie entre la partie Nord et la partir Sud de l'image est due à la juxtaposition de deux chantiers d'acquisition produits à des dates différentes.",
+          "width": 1219,
+          "height": 742,
+          "size": 1605169,
+          "timestamp": "2025-07-16T12:51:29Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Institut_national_de_l%27information_g%C3%A9ographique_et_foresti%C3%A8re\" class=\"extiw\" title=\"w:en:Institut national de l'information géographique et forestière\"><span title=\"French public state administrative establishment producing geographical information\">Institut national de l'information géographique et forestière</span></a>\n</bdi>",
+          "license": "Licence Ouverte",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Monument_aux_morts_de_Pradelles_%28Nord%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMonument%20aux%20morts%20de%20Pradelles%20(Nord).JPG",
+          "title": "Monument aux morts de Pradelles (Nord).JPG",
+          "description": "Vue du monument aux morts de Pradelles dans le Nord.",
+          "width": 3264,
+          "height": 2448,
+          "size": 1512375,
+          "timestamp": "2013-10-19T17:36:12Z",
+          "author": "Floflo62",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Mairie_de_Pradelles_%28Nord%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMairie%20de%20Pradelles%20(Nord).JPG",
+          "title": "Mairie de Pradelles (Nord).JPG",
+          "description": "Vue de la mairie de Pradelles dans le Nord.",
+          "width": 3264,
+          "height": 2448,
+          "size": 1445633,
+          "timestamp": "2013-10-19T17:36:22Z",
+          "author": "Floflo62",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

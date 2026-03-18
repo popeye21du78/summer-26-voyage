@@ -1,12 +1,13 @@
 {
   "slug": "musee-des-beaux-arts-de-dijon",
   "nom": "Musée des Beaux-Arts de Dijon",
-  "fetchedAt": "2026-03-13T16:30:38.971Z",
+  "fetchedAt": "2026-03-17T21:37:07.782Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Dijon_%2821%29_Palais_des_Ducs_de_Bourgogne_-_Chapelle_des_%C3%89lus_-_08.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADijon%20(21)%20Palais%20des%20Ducs%20de%20Bourgogne%20-%20Chapelle%20des%20%C3%89lus%20-%2008.jpg",
       "title": "Dijon (21) Palais des Ducs de Bourgogne - Chapelle des Élus - 08.jpg",
+      "description": "Chapelle des Élus sise Palais des Ducs et des États de Bourgogne, Commune de Dijon (21).",
       "width": 6000,
       "height": 4000,
       "size": 7171863,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Dijon_%2821%29_Palais_des_Ducs_de_Bourgogne_-_Chapelle_des_%C3%89lus_-_41.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADijon%20(21)%20Palais%20des%20Ducs%20de%20Bourgogne%20-%20Chapelle%20des%20%C3%89lus%20-%2041.jpg",
       "title": "Dijon (21) Palais des Ducs de Bourgogne - Chapelle des Élus - 41.jpg",
+      "description": "Chapelle des Élus sise Palais des Ducs et des États de Bourgogne, Commune de Dijon (21).",
       "width": 6000,
       "height": 4000,
       "size": 11550072,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Dijon_%2821%29_Palais_des_Ducs_de_Bourgogne_-_Chapelle_des_%C3%89lus_-_50.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADijon%20(21)%20Palais%20des%20Ducs%20de%20Bourgogne%20-%20Chapelle%20des%20%C3%89lus%20-%2050.jpg",
       "title": "Dijon (21) Palais des Ducs de Bourgogne - Chapelle des Élus - 50.jpg",
+      "description": "Chapelle des Élus sise Palais des Ducs et des États de Bourgogne, Commune de Dijon (21).",
       "width": 6000,
       "height": 4000,
       "size": 12036293,
@@ -48,53 +51,142 @@
       "label": "Tombeaux de Philippe le Hardi et Jean sans Peur",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Dijon_%28C%C3%B4te-d%27Or%29_-_Mus%C3%A9e_des_Beaux-Arts_-_Tombeaux_des_ducs_de_Bourgogne_%28Philippe-le-Hardi%2C_Jean-sans-Peur_et_Marguerite_de_Bavi%C3%A8re%29_%28explore_19-08-14%29_%2814783777258%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADijon%20(C%C3%B4te-d'Or)%20-%20Mus%C3%A9e%20des%20Beaux-Arts%20-%20Tombeaux%20des%20ducs%20de%20Bourgogne%20(Philippe-le-Hardi%2C%20Jean-sans-Peur%20et%20Marguerite%20de%20Bavi%C3%A8re)%20(explore%2019-08-14)%20(14783777258).jpg",
-          "title": "Dijon (Côte-d'Or) - Musée des Beaux-Arts - Tombeaux des ducs de Bourgogne (Philippe-le-Hardi, Jean-sans-Peur et Marguerite de Bavière) (explore 19-08-14) (14783777258).jpg",
-          "width": 4692,
-          "height": 3606,
-          "size": 6121853,
-          "timestamp": "2021-05-04T08:12:49Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Mus%C3%A9e_des_Beaux-Arts_de_Dijon_-_50308376381.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e%20des%20Beaux-Arts%20de%20Dijon%20-%2050308376381.jpg",
+          "title": "Musée des Beaux-Arts de Dijon - 50308376381.jpg",
+          "description": "Provide all information that will help others understand what this file represents.",
+          "width": 2732,
+          "height": 1818,
+          "size": 3385540,
+          "timestamp": "2022-06-06T08:52:07Z",
+          "author": "Gilles Messian",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Mus%C3%A9e_des_Beaux-Arts_de_Dijon_-_50308537597.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e%20des%20Beaux-Arts%20de%20Dijon%20-%2050308537597.jpg",
+          "title": "Musée des Beaux-Arts de Dijon - 50308537597.jpg",
+          "description": "Provide all information that will help others understand what this file represents.",
+          "width": 2732,
+          "height": 1818,
+          "size": 3739792,
+          "timestamp": "2022-06-06T08:52:07Z",
+          "author": "Gilles Messian",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Mus%C3%A9e_des_Beaux-Arts_de_Dijon_-_50308537962.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e%20des%20Beaux-Arts%20de%20Dijon%20-%2050308537962.jpg",
+          "title": "Musée des Beaux-Arts de Dijon - 50308537962.jpg",
+          "description": "Provide all information that will help others understand what this file represents.",
+          "width": 2732,
+          "height": 1818,
+          "size": 4119893,
+          "timestamp": "2022-06-06T08:52:08Z",
+          "author": "Gilles Messian",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
+    },
+    {
+      "label": "Salle des Primitifs flamands",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Dijon_%2821%29_Mus%C3%A9e_des_Beaux-Arts_-_Chemin%C3%A9e_de_la_grande_salle_de_l%27h%C3%B4tel_de_Philippe_le_Bon_-_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADijon%20(21)%20Mus%C3%A9e%20des%20Beaux-Arts%20-%20Chemin%C3%A9e%20de%20la%20grande%20salle%20de%20l'h%C3%B4tel%20de%20Philippe%20le%20Bon%20-%2002.jpg",
+          "title": "Dijon (21) Musée des Beaux-Arts - Cheminée de la grande salle de l'hôtel de Philippe le Bon - 02.jpg",
+          "description": "Cheminée de la grande salle de l'hôtel de Philippe le Bon. Musée des Beaux-Arts de Dijon (21).",
+          "width": 2100,
+          "height": 1400,
+          "size": 588316,
+          "timestamp": "2020-04-13T08:40:14Z",
+          "author": "GO69",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Dijon_%28C%C3%B4te-d%27Or%29_-_Mus%C3%A9e_des_Beaux-Arts_-_Salle_Pompon_%2811771669726%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADijon%20(C%C3%B4te-d'Or)%20-%20Mus%C3%A9e%20des%20Beaux-Arts%20-%20Salle%20Pompon%20(11771669726).jpg",
+          "title": "Dijon (Côte-d'Or) - Musée des Beaux-Arts - Salle Pompon (11771669726).jpg",
+          "description": "Dijon - Musée des Beaux-Arts - Salle Pompon.",
+          "width": 4928,
+          "height": 3264,
+          "size": 5478089,
+          "timestamp": "2021-05-04T08:08:31Z",
           "author": "Patrick",
           "license": "CC BY-SA 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Dijon_%28C%C3%B4te-d%27Or%29_-_Mus%C3%A9e_des_Beaux-Arts_-_Tombeaux_des_ducs_de_Bourgogne_%28Philippe-le-Hardi%2C_Jean-sans-Peur_et_Marguerite_de_Bavi%C3%A8re%29_%2814947414596%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADijon%20(C%C3%B4te-d'Or)%20-%20Mus%C3%A9e%20des%20Beaux-Arts%20-%20Tombeaux%20des%20ducs%20de%20Bourgogne%20(Philippe-le-Hardi%2C%20Jean-sans-Peur%20et%20Marguerite%20de%20Bavi%C3%A8re)%20(14947414596).jpg",
-          "title": "Dijon (Côte-d'Or) - Musée des Beaux-Arts - Tombeaux des ducs de Bourgogne (Philippe-le-Hardi, Jean-sans-Peur et Marguerite de Bavière) (14947414596).jpg",
-          "width": 3186,
-          "height": 5182,
-          "size": 5759283,
-          "timestamp": "2021-05-04T08:12:17Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Dijon_%28C%C3%B4te-d%27Or%29_-_Mus%C3%A9e_des_Beaux-Arts_-_Salle_Pompon_-_Ours_blanc_%2811771139543%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADijon%20(C%C3%B4te-d'Or)%20-%20Mus%C3%A9e%20des%20Beaux-Arts%20-%20Salle%20Pompon%20-%20Ours%20blanc%20(11771139543).jpg",
+          "title": "Dijon (Côte-d'Or) - Musée des Beaux-Arts - Salle Pompon - Ours blanc (11771139543).jpg",
+          "description": "Dijon - Musée des Beaux-Arts - Salle Pompon - Ours blanc.",
+          "width": 4928,
+          "height": 3264,
+          "size": 10477454,
+          "timestamp": "2021-05-04T08:08:39Z",
           "author": "Patrick",
           "license": "CC BY-SA 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Dijon_%28C%C3%B4te-d%27Or%29_-_Mus%C3%A9e_des_Beaux-Arts_-_Tombeaux_des_ducs_de_Bourgogne_%28Philippe-le-Hardi%2C_Jean-sans-Peur_et_Marguerite_de_Bavi%C3%A8re%29_%2814947409286%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADijon%20(C%C3%B4te-d'Or)%20-%20Mus%C3%A9e%20des%20Beaux-Arts%20-%20Tombeaux%20des%20ducs%20de%20Bourgogne%20(Philippe-le-Hardi%2C%20Jean-sans-Peur%20et%20Marguerite%20de%20Bavi%C3%A8re)%20(14947409286).jpg",
-          "title": "Dijon (Côte-d'Or) - Musée des Beaux-Arts - Tombeaux des ducs de Bourgogne (Philippe-le-Hardi, Jean-sans-Peur et Marguerite de Bavière) (14947409286).jpg",
-          "width": 3264,
-          "height": 4928,
-          "size": 6142862,
-          "timestamp": "2021-05-04T08:12:33Z",
-          "author": "Patrick",
-          "license": "CC BY-SA 2.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         }
       ]
     },
     {
-      "label": "Salle des Primitifs flamands",
-      "photos": []
-    },
-    {
       "label": "Galerie des sculptures médiévales",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Vol_d%27oiseau_du_palais_de_l%27Industrie%2C_de_des_annexes_%26_du_palais_des_Beaux-Arts._1855._Paris_Mus%C3%A9es_20230613082822.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVol%20d'oiseau%20du%20palais%20de%20l'Industrie%2C%20de%20des%20annexes%20%26%20du%20palais%20des%20Beaux-Arts.%201855.%20Paris%20Mus%C3%A9es%2020230613082822.jpg",
+          "title": "Vol d'oiseau du palais de l'Industrie, de des annexes & du palais des Beaux-Arts. 1855. Paris Musées 20230613082822.jpg",
+          "description": "Auteur(s):\n\nClerget, Hubert (Dijon, 29–07–1818 - Saint-Denis, 01–03–1899), dessinateur-lithographe\nClerget, Hubert (Dijon, 29–07–1818 - Saint-Denis, 01–03–1899), auteur du modèle\nImprimerie Jacomme et Cie, imprimeur-lithographe\n\n\n\nAutre titre:\n\nVe, VIe, VIIe arrondissements (Titre de la série)\n\n\nDate de production:\n\nEn 1855\nDatation en siècle: \n19e siècle\n\n\n\nType(s) d'objet(s):\n\nEstampe, Arts graphiques\n\n\nDénomination(s):\n\nEstampe\n\n\nMatériaux et techniques:\n\nLithographie\n\n\nDimensions - Oeuvre:\n\n",
+          "width": 11725,
+          "height": 10661,
+          "size": 92875107,
+          "timestamp": "2023-06-13T06:29:33Z",
+          "author": "Clerget, Hubert (Dijon, 29–07–1818 - Saint-Denis, 01–03–1899), dessinateur-lithographe",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Galerie_en_ruines_-_Hubert_Robert_-_MBA_Dijon_D3998.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGalerie%20en%20ruines%20-%20Hubert%20Robert%20-%20MBA%20Dijon%20D3998.jpg",
+          "title": "Galerie en ruines - Hubert Robert - MBA Dijon D3998.jpg",
+          "description": "Galerie en ruine, peint par Hubert Robert",
+          "width": 1244,
+          "height": 1658,
+          "size": 1127292,
+          "timestamp": "2023-09-24T22:03:25Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Hubert_Robert\" class=\"extiw\" title=\"w:en:Hubert Robert\"><span title=\"French painter (1733-1808)\">Hubert Robert</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Galerie_d%27objets_d%27art_-_Attribu%C3%A9_%C3%A0_Hieronymus_Francken_%28II%29_-_MBA_Dijon_DE_21.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGalerie%20d'objets%20d'art%20-%20Attribu%C3%A9%20%C3%A0%20Hieronymus%20Francken%20(II)%20-%20MBA%20Dijon%20DE%2021.jpg",
+          "title": "Galerie d'objets d'art - Attribué à Hieronymus Francken (II) - MBA Dijon DE 21.jpg",
+          "description": "Galerie d'objets d'art, attribué à Hieronymus Francken (II)",
+          "width": 1105,
+          "height": 782,
+          "size": 384200,
+          "timestamp": "2025-01-14T14:05:52Z",
+          "author": "Attribué à Hieronymus Francken (II)",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Cabinet des Arts graphiques",

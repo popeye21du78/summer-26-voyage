@@ -1,12 +1,13 @@
 {
   "slug": "esparros",
   "nom": "Esparros",
-  "fetchedAt": "2026-03-13T14:15:21.797Z",
+  "fetchedAt": "2026-03-16T13:08:20.940Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Croix_de_Esparros_%28Hautes-Pyr%C3%A9n%C3%A9es%29_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACroix%20de%20Esparros%20(Hautes-Pyr%C3%A9n%C3%A9es)%201.jpg",
       "title": "Croix de Esparros (Hautes-Pyrénées) 1.jpg",
+      "description": "Croix d'Esparros (Hautes-Pyrénées)",
       "width": 2991,
       "height": 4360,
       "size": 7085657,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Oratoire_de_Esparros_%28Hautes-Pyr%C3%A9n%C3%A9es%29_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOratoire%20de%20Esparros%20(Hautes-Pyr%C3%A9n%C3%A9es)%201.jpg",
       "title": "Oratoire de Esparros (Hautes-Pyrénées) 1.jpg",
+      "description": "Oratoire d'Esparros (Hautes-Pyrénées)",
       "width": 2300,
       "height": 3430,
       "size": 2396480,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/W1976-Esparros_Eglise_89005.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AW1976-Esparros%20Eglise%2089005.JPG",
       "title": "W1976-Esparros Eglise 89005.JPG",
+      "description": "Église, Fr-65-Esparros.",
       "width": 4752,
       "height": 3168,
       "size": 5406913,
@@ -46,7 +49,22 @@
   "lieux": [
     {
       "label": "Salle du Grand Lac",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Salle_des_f%C3%AAtes_de_Esparros_%28Hautes-Pyr%C3%A9n%C3%A9es%29_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASalle%20des%20f%C3%AAtes%20de%20Esparros%20(Hautes-Pyr%C3%A9n%C3%A9es)%201.jpg",
+          "title": "Salle des fêtes de Esparros (Hautes-Pyrénées) 1.jpg",
+          "description": "Salle des fêtes d'Esparros (Hautes-Pyrénées)",
+          "width": 5108,
+          "height": 2507,
+          "size": 4412472,
+          "timestamp": "2020-08-11T07:50:28Z",
+          "author": "Sotos",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Couloir des Excentriques",
@@ -54,7 +72,22 @@
     },
     {
       "label": "Salle des Draperies",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Salle_des_f%C3%AAtes_de_Esparros_%28Hautes-Pyr%C3%A9n%C3%A9es%29_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASalle%20des%20f%C3%AAtes%20de%20Esparros%20(Hautes-Pyr%C3%A9n%C3%A9es)%201.jpg",
+          "title": "Salle des fêtes de Esparros (Hautes-Pyrénées) 1.jpg",
+          "description": "Salle des fêtes d'Esparros (Hautes-Pyrénées)",
+          "width": 5108,
+          "height": 2507,
+          "size": 4412472,
+          "timestamp": "2020-08-11T07:50:28Z",
+          "author": "Sotos",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Belvédère du Signal de Bassia",

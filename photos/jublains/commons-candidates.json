@@ -1,12 +1,13 @@
 {
   "slug": "jublains",
   "nom": "Jublains",
-  "fetchedAt": "2026-03-13T14:51:21.327Z",
+  "fetchedAt": "2026-03-16T14:25:06.691Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Jublains_-_th%C3%A9%C3%A2tre_romain_02.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJublains%20-%20th%C3%A9%C3%A2tre%20romain%2002.jpg",
       "title": "Jublains - théâtre romain 02.jpg",
+      "description": "Ancient Roman theater of Jublains (Mayenne, France), from its summit",
       "width": 5472,
       "height": 3648,
       "size": 10662400,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Jublains_-_th%C3%A9%C3%A2tre_romain_01.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJublains%20-%20th%C3%A9%C3%A2tre%20romain%2001.jpg",
       "title": "Jublains - théâtre romain 01.jpg",
+      "description": "Ancient Roman theater of Jublains (Mayenne, France), from its summit",
       "width": 5472,
       "height": 3648,
       "size": 10396672,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Jublains_-_th%C3%A9%C3%A2tre_romain_03.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJublains%20-%20th%C3%A9%C3%A2tre%20romain%2003.jpg",
       "title": "Jublains - théâtre romain 03.jpg",
+      "description": "Ancient Roman theater of Jublains (Mayenne, France), from its summit",
       "width": 5472,
       "height": 3648,
       "size": 10747904,
@@ -48,9 +51,24 @@
       "label": "Forteresse romaine",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Jublains_-_mus%C3%A9e_arch%C3%A9ologique_d%C3%A9partemental_32.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJublains%20-%20mus%C3%A9e%20arch%C3%A9ologique%20d%C3%A9partemental%2032.jpg",
+          "title": "Jublains - musée archéologique départemental 32.jpg",
+          "description": "Departmental archaeological museum of Jublains (Mayenne, France) : pillars decorated with masks, 3rd centruy, Jublains fortress",
+          "width": 5472,
+          "height": 3648,
+          "size": 8408576,
+          "timestamp": "2022-05-15T15:09:26Z",
+          "author": "Fab5669",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Jublains_-_mus%C3%A9e_arch%C3%A9ologique_d%C3%A9partemental_45.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJublains%20-%20mus%C3%A9e%20arch%C3%A9ologique%20d%C3%A9partemental%2045.jpg",
           "title": "Jublains - musée archéologique départemental 45.jpg",
+          "description": "Departmental archaeological museum of Jublains (Mayenne, France) : chest handle, Roman Gauls, Jublains fortress",
           "width": 5472,
           "height": 3648,
           "size": 9310720,
@@ -61,40 +79,114 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Fort_romain_de_Jublains_963_mod.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFort%20romain%20de%20Jublains%20963%20mod.jpg",
-          "title": "Fort romain de Jublains 963 mod.jpg",
-          "width": 8000,
-          "height": 3776,
-          "size": 14489881,
-          "timestamp": "2025-08-15T11:19:37Z",
-          "author": "JYB Devot",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Jublains_-_forteresse_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJublains%20-%20forteresse%2001.jpg",
+          "title": "Jublains - forteresse 01.jpg",
+          "description": "Ancient Roman fortress of Jublains (Mayenne, France) : exterior enclosure, north-west wall",
+          "width": 5472,
+          "height": 3648,
+          "size": 10403840,
+          "timestamp": "2022-09-30T16:21:25Z",
+          "author": "Fab5669",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Jublains_-_Roman_fortress_-_1.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJublains%20-%20Roman%20fortress%20-%201.jpg",
-          "title": "Jublains - Roman fortress - 1.jpg",
-          "width": 2048,
-          "height": 1536,
-          "size": 920085,
-          "timestamp": "2010-09-22T06:32:18Z",
-          "author": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
         }
       ]
     },
     {
       "label": "Thermes antiques",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Jublains_-_%C3%A9glise_Saint-Gervais-et-Saint-Protais_08.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJublains%20-%20%C3%A9glise%20Saint-Gervais-et-Saint-Protais%2008.jpg",
+          "title": "Jublains - église Saint-Gervais-et-Saint-Protais 08.jpg",
+          "description": "Saint Gervasius and Protasius church of Jublains (Mayenne, France) : basement of the church, where the thermal baths are located. Sarcophagi",
+          "width": 5472,
+          "height": 3648,
+          "size": 9864704,
+          "timestamp": "2022-02-21T17:33:39Z",
+          "author": "Fab5669",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Jublains_-_%C3%A9glise_Saint-Gervais-et-Saint-Protais_10.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJublains%20-%20%C3%A9glise%20Saint-Gervais-et-Saint-Protais%2010.jpg",
+          "title": "Jublains - église Saint-Gervais-et-Saint-Protais 10.jpg",
+          "description": "Saint Gervasius and Protasius church of Jublains (Mayenne, France) : basement of the church, where the thermal baths are located",
+          "width": 5472,
+          "height": 3648,
+          "size": 8531456,
+          "timestamp": "2022-02-21T17:33:41Z",
+          "author": "Fab5669",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Jublains_-_%C3%A9glise_Saint-Gervais-et-Saint-Protais_09.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJublains%20-%20%C3%A9glise%20Saint-Gervais-et-Saint-Protais%2009.jpg",
+          "title": "Jublains - église Saint-Gervais-et-Saint-Protais 09.jpg",
+          "description": "Saint Gervasius and Protasius church of Jublains (Mayenne, France) : basement of the church, where the thermal baths are located. Mosaic of the coat of arms of the Estourmel family",
+          "width": 5472,
+          "height": 3648,
+          "size": 8999936,
+          "timestamp": "2022-02-21T17:33:42Z",
+          "author": "Fab5669",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Théâtre gallo-romain",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Jublains_-_DSCN1268.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJublains%20-%20DSCN1268.JPG",
+          "title": "Jublains - DSCN1268.JPG",
+          "description": "Théatre avec panorama sur le Mont Rochard",
+          "width": 1600,
+          "height": 1200,
+          "size": 375621,
+          "timestamp": "2011-04-03T16:25:40Z",
+          "author": "Gwendoland",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Jublains_-_th%C3%A9%C3%A2tre_romain_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJublains%20-%20th%C3%A9%C3%A2tre%20romain%2002.jpg",
+          "title": "Jublains - théâtre romain 02.jpg",
+          "description": "Ancient Roman theater of Jublains (Mayenne, France), from its summit",
+          "width": 5472,
+          "height": 3648,
+          "size": 10662400,
+          "timestamp": "2021-09-28T20:14:11Z",
+          "author": "Fab5669",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Jublains_-_th%C3%A9%C3%A2tre_romain_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJublains%20-%20th%C3%A9%C3%A2tre%20romain%2001.jpg",
+          "title": "Jublains - théâtre romain 01.jpg",
+          "description": "Ancient Roman theater of Jublains (Mayenne, France), from its summit",
+          "width": 5472,
+          "height": 3648,
+          "size": 10396672,
+          "timestamp": "2021-09-28T20:14:11Z",
+          "author": "Fab5669",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Sanctuaire",
@@ -103,6 +195,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Jublains_-_sanctuaire_romain_01.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJublains%20-%20sanctuaire%20romain%2001.jpg",
           "title": "Jublains - sanctuaire romain 01.jpg",
+          "description": "Ancient Roman sanctuary of Jublains (Mayenne, France)",
           "width": 5472,
           "height": 3648,
           "size": 8517632,
@@ -116,6 +209,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Jublains_-_sanctuaire_romain_03.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJublains%20-%20sanctuaire%20romain%2003.jpg",
           "title": "Jublains - sanctuaire romain 03.jpg",
+          "description": "Ancient Roman sanctuary of Jublains (Mayenne, France)",
           "width": 5472,
           "height": 3648,
           "size": 9169408,
@@ -129,6 +223,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Jublains_-_sanctuaire_romain_02.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJublains%20-%20sanctuaire%20romain%2002.jpg",
           "title": "Jublains - sanctuaire romain 02.jpg",
+          "description": "Ancient Roman sanctuary of Jublains (Mayenne, France)",
           "width": 5472,
           "height": 3648,
           "size": 9783808,

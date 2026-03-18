@@ -1,12 +1,13 @@
 {
   "slug": "calanques-de-piana",
   "nom": "Calanques de Piana",
-  "fetchedAt": "2026-03-13T12:24:59.168Z",
+  "fetchedAt": "2026-03-15T20:29:48.238Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/France_-_Corse_-_Corse-du-Sud_-_Calanques_de_Piana_-_Prise_de_vue_1-3_-_Vue_vers_les_montagnes_%28M%C3%A9diHAL_1271774%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20-%20Corse%20-%20Corse-du-Sud%20-%20Calanques%20de%20Piana%20-%20Prise%20de%20vue%201-3%20-%20Vue%20vers%20les%20montagnes%20(M%C3%A9diHAL%201271774).jpg",
       "title": "France - Corse - Corse-du-Sud - Calanques de Piana - Prise de vue 1-3 - Vue vers les montagnes (MédiHAL 1271774).jpg",
+      "description": "Handwritten caption on the original document: \"France: Mediterranean Countries: Corsica: Western Coast: Calanques of Piana\" The glass plates deposited at Prodig date from 1891 to 1954. Geolocation: approximate centered on Piana.",
       "width": 2700,
       "height": 1718,
       "size": 252856,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Piana_les_Calanches_-_panoramio_-_ren%C3%A9_mikkers.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APiana%20les%20Calanches%20-%20panoramio%20-%20ren%C3%A9%20mikkers.jpg",
       "title": "Piana les Calanches - panoramio - rené mikkers.jpg",
+      "description": "Piana les Calanches",
       "width": 3008,
       "height": 2000,
       "size": 3472967,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Van_uit_Piana_Corse_-_panoramio.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVan%20uit%20Piana%20Corse%20-%20panoramio.jpg",
       "title": "Van uit Piana Corse - panoramio.jpg",
+      "description": "Van uit Piana Corse",
       "width": 3888,
       "height": 2592,
       "size": 4884477,
@@ -46,7 +49,36 @@
   "lieux": [
     {
       "label": "Sentier du Château Fort",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Corse-04860-calanche_de_Piana-ch%C3%A2teau_fort.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACorse-04860-calanche%20de%20Piana-ch%C3%A2teau%20fort.jpg",
+          "title": "Corse-04860-calanche de Piana-château fort.jpg",
+          "description": "France, Corse-du-Sud (2A), Piana, les calanches depuis le rocher en forme de \"château fort\"",
+          "width": 2048,
+          "height": 1536,
+          "size": 1506876,
+          "timestamp": "2007-08-21T19:37:07Z",
+          "author": "Pinpin",
+          "license": "CC BY 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Piana_-_Le_Chateau_Fort.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APiana%20-%20Le%20Chateau%20Fort.jpg",
+          "title": "Piana - Le Chateau Fort.jpg",
+          "description": "\"Chateau Fort\" of Piana, Corsica, France",
+          "width": 3648,
+          "height": 2736,
+          "size": 2514183,
+          "timestamp": "2013-06-09T08:41:44Z",
+          "author": "Thebaud julien",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Point de vue de la Tête de Chien",

@@ -1,12 +1,27 @@
 {
   "slug": "calanque-d-en-vau",
   "nom": "calanque d en vau",
-  "fetchedAt": "2026-03-13T12:24:20.267Z",
+  "fetchedAt": "2026-03-15T20:28:49.353Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/2021-07-30-marseille-belvedere-d-en-vau.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2021-07-30-marseille-belvedere-d-en-vau.jpg",
+      "title": "2021-07-30-marseille-belvedere-d-en-vau.jpg",
+      "description": "Belvédère d'En Vau",
+      "width": 8384,
+      "height": 4716,
+      "size": 3468198,
+      "timestamp": "2022-03-02T16:16:21Z",
+      "author": "Mmullie (WMF)",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Calanque_d%22En-vau.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACalanque%20d%22En-vau.jpg",
       "title": "Calanque d\"En-vau.jpg",
+      "description": "Calanque d'En-vau near Cassis, France",
       "width": 2944,
       "height": 1681,
       "size": 1867308,
@@ -20,23 +35,11 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Calanque_d%60en_Vau%2C_Marseille%2C_Provence-Alpes-C%C3%B4te_d%27Azur%2C_France_-_panoramio.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACalanque%20d%60en%20Vau%2C%20Marseille%2C%20Provence-Alpes-C%C3%B4te%20d'Azur%2C%20France%20-%20panoramio.jpg",
       "title": "Calanque d`en Vau, Marseille, Provence-Alpes-Côte d'Azur, France - panoramio.jpg",
+      "description": "Calanque d`en Vau, Marseille, Provence-Alpes-Côte d'Azur, France",
       "width": 4288,
       "height": 2848,
       "size": 5273801,
       "timestamp": "2017-01-01T12:51:07Z",
-      "author": "M.Strīķis",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Calanque_d%60en_Vau%2C_Marseille%2C_Provence-Alpes-C%C3%B4te_d%27Azur%2C_France_-_panoramio_%281%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACalanque%20d%60en%20Vau%2C%20Marseille%2C%20Provence-Alpes-C%C3%B4te%20d'Azur%2C%20France%20-%20panoramio%20(1).jpg",
-      "title": "Calanque d`en Vau, Marseille, Provence-Alpes-Côte d'Azur, France - panoramio (1).jpg",
-      "width": 4288,
-      "height": 2848,
-      "size": 6526958,
-      "timestamp": "2017-01-01T12:51:28Z",
       "author": "M.Strīķis",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
@@ -50,7 +53,22 @@
     },
     {
       "label": "Pin solitaire en équilibre sur la falaise",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Calanque_d%60en_Vau%2C_Marseille%2C_Provence-Alpes-C%C3%B4te_d%27Azur%2C_France_-_panoramio.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACalanque%20d%60en%20Vau%2C%20Marseille%2C%20Provence-Alpes-C%C3%B4te%20d'Azur%2C%20France%20-%20panoramio.jpg",
+          "title": "Calanque d`en Vau, Marseille, Provence-Alpes-Côte d'Azur, France - panoramio.jpg",
+          "description": "Calanque d`en Vau, Marseille, Provence-Alpes-Côte d'Azur, France",
+          "width": 4288,
+          "height": 2848,
+          "size": 5273801,
+          "timestamp": "2017-01-01T12:51:07Z",
+          "author": "M.Strīķis",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

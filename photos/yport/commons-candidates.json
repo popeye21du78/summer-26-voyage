@@ -1,12 +1,13 @@
 {
   "slug": "yport",
   "nom": "Yport",
-  "fetchedAt": "2026-03-14T14:41:18.671Z",
+  "fetchedAt": "2026-03-18T21:13:42.964Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Yport_-_Rue_Alfred_Nun%C3%A9s_-_View_SE_towards_%C3%89glise_Saint-Martin_1838.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AYport%20-%20Rue%20Alfred%20Nun%C3%A9s%20-%20View%20SE%20towards%20%C3%89glise%20Saint-Martin%201838.jpg",
       "title": "Yport - Rue Alfred Nunés - View SE towards Église Saint-Martin 1838.jpg",
+      "description": "Yport - Rue Alfred Nunés - View SE towards Église Saint-Martin 1838",
       "width": 3024,
       "height": 2016,
       "size": 2773260,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Yport_-_Rue_Alfred_Nun%C3%A8s_-_View_WNW.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AYport%20-%20Rue%20Alfred%20Nun%C3%A8s%20-%20View%20WNW.jpg",
       "title": "Yport - Rue Alfred Nunès - View WNW.jpg",
+      "description": "Yport - Rue Alfred Nunès - View WNW",
       "width": 3024,
       "height": 2016,
       "size": 3518359,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Yport_-_Promenade_Roger_Denouette_-_Pier_-_View_WNW.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AYport%20-%20Promenade%20Roger%20Denouette%20-%20Pier%20-%20View%20WNW.jpg",
       "title": "Yport - Promenade Roger Denouette - Pier - View WNW.jpg",
+      "description": "Yport - Promenade Roger Denouette - Pier - View WNW",
       "width": 3024,
       "height": 2016,
       "size": 3593683,
@@ -48,17 +51,32 @@
       "label": "Plage de galets d’Yport",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Plage_D_Yport_%28192133359%29.jpeg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlage%20D%20Yport%20(192133359).jpeg",
-          "title": "Plage D Yport (192133359).jpeg",
-          "width": 2048,
-          "height": 1536,
-          "size": 1209966,
-          "timestamp": "2018-08-09T05:36:21Z",
-          "author": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/PhilippeRoudaut\">Philippe Roudaut</a></div>",
-          "license": "CC0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Remorqueur_V.B_Yport%2C_Le_Havre%2C_2014.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARemorqueur%20V.B%20Yport%2C%20Le%20Havre%2C%202014.jpg",
+          "title": "Remorqueur V.B Yport, Le Havre, 2014.jpg",
+          "description": "Tugboat  V.B Yport, in port of Le Havre (France, Normandy), 2014",
+          "width": 4288,
+          "height": 2848,
+          "size": 6353006,
+          "timestamp": "2014-12-05T09:49:48Z",
+          "author": "Philippe Alès",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Remorqueur_V.B._Yport%2C_Le_Havre%2C_2014.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARemorqueur%20V.B.%20Yport%2C%20Le%20Havre%2C%202014.jpg",
+          "title": "Remorqueur V.B. Yport, Le Havre, 2014.jpg",
+          "description": "Tugboat V.B. Yport, Le Havre (France,, Normandy), 2014",
+          "width": 4288,
+          "height": 2848,
+          "size": 7021504,
+          "timestamp": "2014-12-05T10:06:26Z",
+          "author": "Philippe Alès",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
         }
       ]
     },
@@ -66,9 +84,24 @@
       "label": "Église Saint-Martin d’Yport",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Yport_-_Rue_Alfred_Nun%C3%A9s_-_View_SE_towards_%C3%89glise_Saint-Martin_1838.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AYport%20-%20Rue%20Alfred%20Nun%C3%A9s%20-%20View%20SE%20towards%20%C3%89glise%20Saint-Martin%201838.jpg",
+          "title": "Yport - Rue Alfred Nunés - View SE towards Église Saint-Martin 1838.jpg",
+          "description": "Yport - Rue Alfred Nunés - View SE towards Église Saint-Martin 1838",
+          "width": 3024,
+          "height": 2016,
+          "size": 2773260,
+          "timestamp": "2021-04-06T19:38:24Z",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Yport_-_Eglise_-_Ex-voto_P.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AYport%20-%20Eglise%20-%20Ex-voto%20P.jpg",
           "title": "Yport - Eglise - Ex-voto P.jpg",
+          "description": "Eglise Saint-Martin d'Yport",
           "width": 3761,
           "height": 2713,
           "size": 5799117,
@@ -79,26 +112,14 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Yport_-_Eglise_-_mosa%C3%AFque.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AYport%20-%20Eglise%20-%20mosa%C3%AFque.jpg",
-          "title": "Yport - Eglise - mosaïque.jpg",
-          "width": 3911,
-          "height": 2786,
-          "size": 6167031,
-          "timestamp": "2025-07-12T07:53:09Z",
-          "author": "Renhour48",
-          "license": "CC0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Yport_-_Eglise_24.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AYport%20-%20Eglise%2024.jpg",
-          "title": "Yport - Eglise 24.jpg",
-          "width": 4466,
-          "height": 3156,
-          "size": 8024607,
-          "timestamp": "2025-07-12T07:53:21Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Yport_-_Eglise_-_Le_choeur.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AYport%20-%20Eglise%20-%20Le%20choeur.jpg",
+          "title": "Yport - Eglise - Le choeur.jpg",
+          "description": "Eglise Saint-Martin d'Yport",
+          "width": 6000,
+          "height": 4000,
+          "size": 13255165,
+          "timestamp": "2025-07-12T07:53:04Z",
           "author": "Renhour48",
           "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -108,7 +129,50 @@
     },
     {
       "label": "Falaises de la Côte d’Albâtre",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/E_Vernier_Bateau_%C3%A0_Yport_1887.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AE%20Vernier%20Bateau%20%C3%A0%20Yport%201887.jpg",
+          "title": "E Vernier Bateau à Yport 1887.jpg",
+          "description": "",
+          "width": 2827,
+          "height": 1852,
+          "size": 3563242,
+          "timestamp": "2020-02-17T14:32:45Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:%C3%89mile_Louis_Vernier\" class=\"extiw\" title=\"w:en:Émile Louis Vernier\"><span title=\"French painter and lithographer (1829-1887)\">Émile Louis Vernier</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Yport_Falaises_de_F%C3%A9camp_%26_d%27Yport_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AYport%20Falaises%20de%20F%C3%A9camp%20%26%20d'Yport%2001.jpg",
+          "title": "Yport Falaises de Fécamp & d'Yport 01.jpg",
+          "description": "Cliffs of Fécamp &amp; Yport, Yport, Department of Seine-Maritime, Region of Normandy (former Upper Normandy), France",
+          "width": 4553,
+          "height": 2828,
+          "size": 6239435,
+          "timestamp": "2020-06-06T16:44:22Z",
+          "author": "Zairon",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Yport_Falaises_de_F%C3%A9camp_%26_d%27Yport_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AYport%20Falaises%20de%20F%C3%A9camp%20%26%20d'Yport%2002.jpg",
+          "title": "Yport Falaises de Fécamp & d'Yport 02.jpg",
+          "description": "Cliffs of Fécamp &amp; Yport, Yport, Department of Seine-Maritime, Region of Normandy (former Upper Normandy), France",
+          "width": 4536,
+          "height": 2508,
+          "size": 3988246,
+          "timestamp": "2020-06-06T16:44:22Z",
+          "author": "Zairon",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

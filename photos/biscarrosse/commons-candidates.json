@@ -1,44 +1,47 @@
 {
   "slug": "biscarrosse",
   "nom": "Biscarrosse",
-  "fetchedAt": "2026-03-13T00:20:41.849Z",
+  "fetchedAt": "2026-03-15T19:45:34.184Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Biscarosse_%C3%89glise_1.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABiscarosse%20%C3%89glise%201.jpg",
-      "title": "Biscarosse Église 1.jpg",
-      "width": 3216,
-      "height": 2537,
-      "size": 2621642,
-      "timestamp": "2020-03-31T22:15:51Z",
-      "author": "Gitouche",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Biscarrosse_%28Landes%29_-_le_ch%C3%A2teau.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABiscarrosse%20(Landes)%20-%20le%20ch%C3%A2teau.jpg",
+      "title": "Biscarrosse (Landes) - le château.jpg",
+      "description": "Biscarosse (Landes) - le château",
+      "width": 1448,
+      "height": 949,
+      "size": 897956,
+      "timestamp": "2021-02-19T06:37:51Z",
+      "author": "<div class=\"fn value\">\nPaul</div>",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/40-Biscarrosse-AAV2020.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A40-Biscarrosse-AAV2020.png",
+      "title": "40-Biscarrosse-AAV2020.png",
+      "description": "Carte de l'aire d'attraction de Biscarrosse dans le département des Landes (France). Zonage 2020 - Découpage communal au 1er janvier 2020.",
+      "width": 3519,
+      "height": 2930,
+      "size": 607992,
+      "timestamp": "2020-11-20T11:21:39Z",
+      "author": "Roland45",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Biscarosse_%C3%89glise_3.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABiscarosse%20%C3%89glise%203.jpg",
-      "title": "Biscarosse Église 3.jpg",
-      "width": 3313,
-      "height": 2669,
-      "size": 2441933,
-      "timestamp": "2020-03-31T22:17:21Z",
-      "author": "Gitouche",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/North_American_Rockwell_OV-10_Bronco_%2827246271205%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANorth%20American%20Rockwell%20OV-10%20Bronco%20(27246271205).jpg",
-      "title": "North American Rockwell OV-10 Bronco (27246271205).jpg",
-      "width": 4928,
-      "height": 3264,
-      "size": 5447412,
-      "timestamp": "2020-12-20T10:53:29Z",
-      "author": "Falcon® Photography",
-      "license": "CC BY-SA 2.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Biscarrosse_%28Landes%29_-_Camp_militaire_de_Naouas_3.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABiscarrosse%20(Landes)%20-%20Camp%20militaire%20de%20Naouas%203.jpg",
+      "title": "Biscarrosse (Landes) - Camp militaire de Naouas 3.jpg",
+      "description": "Biscarosse (Landes) - Camp militaire de Naouas",
+      "width": 1482,
+      "height": 989,
+      "size": 532937,
+      "timestamp": "2021-02-19T06:34:30Z",
+      "author": "<div class=\"fn value\">\n<span lang=\"en\">Anonymous</span><span style=\"display:none\">Unknown author</span></div>",
+      "license": "Public domain",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     }
@@ -46,41 +49,59 @@
   "lieux": [
     {
       "label": "Plage centrale de Biscarrosse",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Biscarrosse_%28Landes%29_-_H%C3%B4tel_de_la_plage_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABiscarrosse%20(Landes)%20-%20H%C3%B4tel%20de%20la%20plage%202.jpg",
+          "title": "Biscarrosse (Landes) - Hôtel de la plage 2.jpg",
+          "description": "Biscarosse (Landes) - Hôtel de la plage",
+          "width": 1565,
+          "height": 1008,
+          "size": 391412,
+          "timestamp": "2021-02-19T06:36:29Z",
+          "author": "<div class=\"fn value\">\nPaul</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Biscarrosse_%28Landes%29_-_Plage_3.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABiscarrosse%20(Landes)%20-%20Plage%203.jpg",
+          "title": "Biscarrosse (Landes) - Plage 3.jpg",
+          "description": "Biscarosse (Landes) – Plage",
+          "width": 1572,
+          "height": 982,
+          "size": 634088,
+          "timestamp": "2021-02-19T06:39:40Z",
+          "author": "<div class=\"fn value\">\n<span lang=\"en\">Anonymous</span><span style=\"display:none\">Unknown author</span></div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Biscarrosse_%28Landes%29_-_Plage_5.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABiscarrosse%20(Landes)%20-%20Plage%205.jpg",
+          "title": "Biscarrosse (Landes) - Plage 5.jpg",
+          "description": "Biscarosse (Landes) – Plage",
+          "width": 1560,
+          "height": 1002,
+          "size": 713499,
+          "timestamp": "2021-02-19T06:39:49Z",
+          "author": "<div class=\"fn value\">\n<span lang=\"en\">Anonymous</span><span style=\"display:none\">Unknown author</span></div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Lac de Biscarrosse",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Port_Vermillon_Parentis.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APort%20Vermillon%20Parentis.jpg",
-          "title": "Port Vermillon Parentis.jpg",
-          "width": 5664,
-          "height": 4248,
-          "size": 1259042,
-          "timestamp": "2021-09-21T08:13:56Z",
-          "author": "Jibi44",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Parentis_port_Piaou.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParentis%20port%20Piaou.jpg",
-          "title": "Parentis port Piaou.jpg",
-          "width": 5664,
-          "height": 4248,
-          "size": 3346014,
-          "timestamp": "2021-09-21T08:18:24Z",
-          "author": "Jibi44",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Late_521_Biscarrosse-03_%28cropped%2C_enhanced%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALate%20521%20Biscarrosse-03%20(cropped%2C%20enhanced).jpg",
           "title": "Late 521 Biscarrosse-03 (cropped, enhanced).jpg",
+          "description": "Latécoère 521 - Biscarrosse Lake",
           "width": 3516,
           "height": 2124,
           "size": 375849,
@@ -89,52 +110,40 @@
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Gastes%2C_carte_du_lac_de_Biscarrosse-Parentis.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGastes%2C%20carte%20du%20lac%20de%20Biscarrosse-Parentis.JPG",
+          "title": "Gastes, carte du lac de Biscarrosse-Parentis.JPG",
+          "description": "An unusual and artistic map of the lake of Parentis, on the beach.",
+          "width": 5760,
+          "height": 3840,
+          "size": 8583275,
+          "timestamp": "2015-08-02T09:25:39Z",
+          "author": "Als33120",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/GASTES_LAC_DE_BISCARROSSE.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGASTES%20LAC%20DE%20BISCARROSSE.jpg",
+          "title": "GASTES LAC DE BISCARROSSE.jpg",
+          "description": "LE LAC",
+          "width": 4000,
+          "height": 2250,
+          "size": 3481394,
+          "timestamp": "2016-08-22T06:34:23Z",
+          "author": "Christel vilcot",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
         }
       ]
     },
     {
       "label": "Musée de l’Hydraviation",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Musee.hydraviation.Grumman.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMusee.hydraviation.Grumman.jpg",
-          "title": "Musee.hydraviation.Grumman.jpg",
-          "width": 4706,
-          "height": 3340,
-          "size": 1935648,
-          "timestamp": "2022-02-18T16:51:13Z",
-          "author": "Musée de l'Hydraviation",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Amenagements-pavillon-2-Late631.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAmenagements-pavillon-2-Late631.jpg",
-          "title": "Amenagements-pavillon-2-Late631.jpg",
-          "width": 2000,
-          "height": 1500,
-          "size": 409554,
-          "timestamp": "2022-02-24T09:27:52Z",
-          "author": "Musée de l'Hydraviation",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Amenagements-pavillon-2-521.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAmenagements-pavillon-2-521.jpg",
-          "title": "Amenagements-pavillon-2-521.jpg",
-          "width": 2000,
-          "height": 1500,
-          "size": 384800,
-          "timestamp": "2022-02-24T09:29:05Z",
-          "author": "Musée de l'Hydraviation",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Forêt Domaniale de Biscarrosse",
@@ -142,7 +151,36 @@
     },
     {
       "label": "Fontaine Saint-Roch",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Place_de_la_Fontaine%2C_Biscarrosse-Plage%2C_2015.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlace%20de%20la%20Fontaine%2C%20Biscarrosse-Plage%2C%202015.jpg",
+          "title": "Place de la Fontaine, Biscarrosse-Plage, 2015.jpg",
+          "description": "Place de la Fontaine, Biscarrosse-Plage, 2015",
+          "width": 5020,
+          "height": 3338,
+          "size": 9219248,
+          "timestamp": "2023-01-20T13:20:05Z",
+          "author": "DimiTalen",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Biscarrosse_-_Place_de_la_Fontaine_-_bo%C3%AEte_%C3%A0_livres.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABiscarrosse%20-%20Place%20de%20la%20Fontaine%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
+          "title": "Biscarrosse - Place de la Fontaine - boîte à livres.jpg",
+          "description": "Boîte à livres à Biscarrosse",
+          "width": 1882,
+          "height": 2500,
+          "size": 515958,
+          "timestamp": "2025-08-28T04:38:09Z",
+          "author": "Pascale BARBIER",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Passerelle du lac",

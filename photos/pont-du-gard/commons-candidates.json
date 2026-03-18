@@ -1,12 +1,13 @@
 {
   "slug": "pont-du-gard",
   "nom": "Pont du Gard",
-  "fetchedAt": "2026-03-14T11:32:03.222Z",
+  "fetchedAt": "2026-03-18T16:55:00.703Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Le_bleu_du_gard_%2A_pont_du_gard_%2824897041217%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20bleu%20du%20gard%20*%20pont%20du%20gard%20(24897041217).jpg",
       "title": "Le bleu du gard * pont du gard (24897041217).jpg",
+      "description": "&lt;a href=\"http://whc.unesco.org/en/list/344\" rel=\"noreferrer nofollow\"&gt;whc.unesco.org/en/list/344&lt;/a&gt;",
       "width": 6000,
       "height": 3000,
       "size": 13406333,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Gardon_%2825759217798%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGardon%20(25759217798).jpg",
       "title": "Gardon (25759217798).jpg",
+      "description": "gardon",
       "width": 6000,
       "height": 3000,
       "size": 16591808,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Pont_du_Gard-5845.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20du%20Gard-5845.jpg",
       "title": "Pont du Gard-5845.jpg",
+      "description": "Pont du Gard",
       "width": 5528,
       "height": 3110,
       "size": 12084361,
@@ -46,27 +49,142 @@
   "lieux": [
     {
       "label": "Arches du pont (vue latérale sur les trois niveaux)",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/1011_Pont_du_Gard_Photo_by_Giles_Laurent.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1011%20Pont%20du%20Gard%20Photo%20by%20Giles%20Laurent.jpg",
+          "title": "1011 Pont du Gard Photo by Giles Laurent.jpg",
+          "description": "Aerial view of Pont du Gard, France",
+          "width": 3426,
+          "height": 2570,
+          "size": 10633198,
+          "timestamp": "2025-10-28T20:10:14Z",
+          "author": "Giles Laurent",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/1012_Pont_du_Gard_Photo_by_Giles_Laurent.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1012%20Pont%20du%20Gard%20Photo%20by%20Giles%20Laurent.jpg",
+          "title": "1012 Pont du Gard Photo by Giles Laurent.jpg",
+          "description": "Aerial view of Pont du Gard, France",
+          "width": 3479,
+          "height": 2610,
+          "size": 10402532,
+          "timestamp": "2025-10-28T20:10:58Z",
+          "author": "Giles Laurent",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/1015_Pont_du_Gard_Photo_by_Giles_Laurent.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1015%20Pont%20du%20Gard%20Photo%20by%20Giles%20Laurent.jpg",
+          "title": "1015 Pont du Gard Photo by Giles Laurent.jpg",
+          "description": "Aerial view of Pont du Gard, France",
+          "width": 3169,
+          "height": 2377,
+          "size": 9058114,
+          "timestamp": "2025-10-28T20:11:18Z",
+          "author": "Giles Laurent",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     },
     {
       "label": "Canal supérieur de l’aqueduc",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Pont_du_Gard-Sortie_du_canal_de_l%27aqueduc-20160725.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20du%20Gard-Sortie%20du%20canal%20de%20l'aqueduc-20160725.jpg",
+          "title": "Pont du Gard-Sortie du canal de l'aqueduc-20160725.jpg",
+          "description": "The view from the end of the aqueduct canal shows that the bridge, initially straight, was bent by the dilatation over the centuries.",
+          "width": 3648,
+          "height": 5472,
+          "size": 3286376,
+          "timestamp": "2016-07-26T13:09:15Z",
+          "author": "Daniel VILLAFRUELA",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Aqueduc_romain%2C_le_Pont_du_Gard.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAqueduc%20romain%2C%20le%20Pont%20du%20Gard.jpg",
+          "title": "Aqueduc romain, le Pont du Gard.jpg",
+          "description": "Built in the first century AD, the objective of the work was to bring water from the mountain to the city of Nîmes.\nThe canal-tunnel is on the third level.",
+          "width": 4000,
+          "height": 3000,
+          "size": 4091139,
+          "timestamp": "2021-02-05T09:53:22Z",
+          "author": "Celeda",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Plan_Figuratif_de_la_marche_de_l%27Acqueduc_du_Pont_du_Gard%2C_remis_par_le_Citoyen_Alexandre_Delon%2C_aux_Citoyens_Verdier%2C_Officier_Municipal_%3B_Pons%2C_Notable%2C_and_Bancal%2C_Directeur_des_Travaux_Publics_de_la..._-_btv1b10102016q_%282_of_2%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlan%20Figuratif%20de%20la%20marche%20de%20l'Acqueduc%20du%20Pont%20du%20Gard%2C%20remis%20par%20le%20Citoyen%20Alexandre%20Delon%2C%20aux%20Citoyens%20Verdier%2C%20Officier%20Municipal%20%3B%20Pons%2C%20Notable%2C%20and%20Bancal%2C%20Directeur%20des%20Travaux%20Publics%20de%20la...%20-%20btv1b10102016q%20(2%20of%202).jpg",
+          "title": "Plan Figuratif de la marche de l'Acqueduc du Pont du Gard, remis par le Citoyen Alexandre Delon, aux Citoyens Verdier, Officier Municipal ; Pons, Notable, and Bancal, Directeur des Travaux Publics de la... - btv1b10102016q (2 of 2).jpg",
+          "description": "Numérisé par le partenaire\nAppartient à l’ensemble documentaire : LangRous1\nAppartient à l’ensemble documentaire : 3M000\nLangue : français\n\nÉditeur : de l'Imprimerie Nationale du Sans-Culotte B. Farge (A Nismes)",
+          "width": 6331,
+          "height": 4613,
+          "size": 3283853,
+          "timestamp": "2022-08-20T01:42:15Z",
+          "author": "<div class=\"fn value\">\nDelon, Alexandre (1752-1802). Cartographe</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Rives du Gardon sous le pont",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Pont_du_Gard_Merchandising_%282357454785%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20du%20Gard%20Merchandising%20(2357454785).jpg",
-          "title": "Pont du Gard Merchandising (2357454785).jpg",
-          "width": 4288,
-          "height": 2848,
-          "size": 5974244,
-          "timestamp": "2013-01-29T17:39:20Z",
-          "author": "Wolfgang Staudt",
-          "license": "CC BY 2.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/1011_Pont_du_Gard_Photo_by_Giles_Laurent.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1011%20Pont%20du%20Gard%20Photo%20by%20Giles%20Laurent.jpg",
+          "title": "1011 Pont du Gard Photo by Giles Laurent.jpg",
+          "description": "Aerial view of Pont du Gard, France",
+          "width": 3426,
+          "height": 2570,
+          "size": 10633198,
+          "timestamp": "2025-10-28T20:10:14Z",
+          "author": "Giles Laurent",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/1012_Pont_du_Gard_Photo_by_Giles_Laurent.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1012%20Pont%20du%20Gard%20Photo%20by%20Giles%20Laurent.jpg",
+          "title": "1012 Pont du Gard Photo by Giles Laurent.jpg",
+          "description": "Aerial view of Pont du Gard, France",
+          "width": 3479,
+          "height": 2610,
+          "size": 10402532,
+          "timestamp": "2025-10-28T20:10:58Z",
+          "author": "Giles Laurent",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/1015_Pont_du_Gard_Photo_by_Giles_Laurent.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1015%20Pont%20du%20Gard%20Photo%20by%20Giles%20Laurent.jpg",
+          "title": "1015 Pont du Gard Photo by Giles Laurent.jpg",
+          "description": "Aerial view of Pont du Gard, France",
+          "width": 3169,
+          "height": 2377,
+          "size": 9058114,
+          "timestamp": "2025-10-28T20:11:18Z",
+          "author": "Giles Laurent",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
         }
       ]
     },

@@ -1,12 +1,13 @@
 {
   "slug": "cotignac",
   "nom": "Cotignac",
-  "fetchedAt": "2026-03-13T13:56:11.808Z",
+  "fetchedAt": "2026-03-16T12:24:29.109Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Cotignac_-_Vue_depuis_les_Tours_Sarrasines.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACotignac%20-%20Vue%20depuis%20les%20Tours%20Sarrasines.jpg",
       "title": "Cotignac - Vue depuis les Tours Sarrasines.jpg",
+      "description": "Cotignac - Vue depuis les Tours Sarrasines",
       "width": 4032,
       "height": 2268,
       "size": 3731372,
@@ -14,12 +15,13 @@
       "author": "Mathieu BROSSAIS",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Cotignac_ruines_du_ch%C3%A2teau_sur_le_rocher.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACotignac%20ruines%20du%20ch%C3%A2teau%20sur%20le%20rocher.jpg",
       "title": "Cotignac ruines du château sur le rocher.jpg",
+      "description": "Cotignanc, Var (Provence) - Le rocher de Cotignac avec ses deux tours, vestiges de l'ancien château féodal (1033)",
       "width": 6016,
       "height": 4016,
       "size": 11266197,
@@ -27,12 +29,13 @@
       "author": "Pierre Bona",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Mobeye-%C3%89t%C3%A9DesVilles-Cotignac-766.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMobeye-%C3%89t%C3%A9DesVilles-Cotignac-766.jpg",
       "title": "Mobeye-ÉtéDesVilles-Cotignac-766.jpg",
+      "description": "Moulin",
       "width": 3264,
       "height": 2448,
       "size": 1266657,
@@ -46,15 +49,87 @@
   "lieux": [
     {
       "label": "Falaise de tuf et grottes troglodytes",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Cotignac_-_falaise_2.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACotignac%20-%20falaise%202.JPG",
+          "title": "Cotignac - falaise 2.JPG",
+          "description": "falaise au dessus de Cotignac",
+          "width": 4608,
+          "height": 3072,
+          "size": 3756897,
+          "timestamp": "2015-09-14T07:13:11Z",
+          "author": "Marianne Casamance",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Cotignac_-_falaise.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACotignac%20-%20falaise.JPG",
+          "title": "Cotignac - falaise.JPG",
+          "description": "falaise au dessus de Cotignac",
+          "width": 4608,
+          "height": 3072,
+          "size": 4088939,
+          "timestamp": "2015-09-14T07:13:11Z",
+          "author": "Marianne Casamance",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Cotignac_falaise.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACotignac%20falaise.jpg",
+          "title": "Cotignac falaise.jpg",
+          "description": "Une falaise au-dessus du village Cotignac faite d'une longue barre de tuf calcaire (80 m de haut, 400 m de long).",
+          "width": 1536,
+          "height": 2048,
+          "size": 2001364,
+          "timestamp": "2006-04-02T23:23:30Z",
+          "author": "Samuel Rochas",
+          "license": "GPL",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 3
+        }
+      ]
     },
     {
       "label": "Cours Gambetta",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/83046-Cotignac-Sols.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A83046-Cotignac-Sols.png",
+          "title": "83046-Cotignac-Sols.png",
+          "description": "Carte des infrastructures et de l’occupation des sols en 2018 de la commune de fr:Cotignac (France).",
+          "width": 3270,
+          "height": 2598,
+          "size": 1956833,
+          "timestamp": "2021-05-18T13:07:46Z",
+          "author": "Roland45",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/83046-Cotignac-Hydro.jpeg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A83046-Cotignac-Hydro.jpeg",
+          "title": "83046-Cotignac-Hydro.jpeg",
+          "description": "Carte du réseau hydrographique de la commune de fr:Cotignac (France).",
+          "width": 5846,
+          "height": 4133,
+          "size": 2835441,
+          "timestamp": "2024-02-24T13:58:30Z",
+          "author": "Roland45",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Fontaine_du_lavoir_-_Cotignac.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFontaine%20du%20lavoir%20-%20Cotignac.jpg",
           "title": "Fontaine du lavoir - Cotignac.jpg",
+          "description": "Fontaine du lavoir, Cours Gambetta (Inscrit, 1948)",
           "width": 2272,
           "height": 1704,
           "size": 1238528,
@@ -63,19 +138,6 @@
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 5
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Fontaine_du_lavoir_-_d%C3%A9tail_-_Cotignac.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFontaine%20du%20lavoir%20-%20d%C3%A9tail%20-%20Cotignac.jpg",
-          "title": "Fontaine du lavoir - détail - Cotignac.jpg",
-          "width": 1704,
-          "height": 2272,
-          "size": 994442,
-          "timestamp": "2012-09-08T00:20:28Z",
-          "author": "Claude jullien",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
         }
       ]
     },
@@ -83,43 +145,46 @@
       "label": "Église Saint-Pierre",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Cotignac_-_%C3%A9glise_1.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACotignac%20-%20%C3%A9glise%201.JPG",
-          "title": "Cotignac - église 1.JPG",
-          "width": 4608,
-          "height": 3072,
-          "size": 3822772,
-          "timestamp": "2015-09-14T07:13:08Z",
-          "author": "Marianne Casamance",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Eglise_ND_de_Graces_Cotignac.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20ND%20de%20Graces%20Cotignac.jpg",
+          "title": "Eglise ND de Graces Cotignac.jpg",
+          "description": "Entrée de l'église ND de Grâces dans le sanctuaire de Cotignac",
+          "width": 4128,
+          "height": 3096,
+          "size": 3536630,
+          "timestamp": "2025-11-07T19:54:43Z",
+          "author": "FERNANDES Gilbert",
+          "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Cotignac_-_%C3%A9glise_orgue.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACotignac%20-%20%C3%A9glise%20orgue.JPG",
-          "title": "Cotignac - église orgue.JPG",
-          "width": 4435,
-          "height": 2957,
-          "size": 2045723,
-          "timestamp": "2015-09-14T07:13:09Z",
-          "author": "Marianne Casamance",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Transept_dediee_a_la_Vierge_dans_eglise_ND_de_Cotignac.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATransept%20dediee%20a%20la%20Vierge%20dans%20eglise%20ND%20de%20Cotignac.jpg",
+          "title": "Transept dediee a la Vierge dans eglise ND de Cotignac.jpg",
+          "description": "Transept gauche dédiée à la Vierge Marie dans l'église ND de Grâces à Cotignac",
+          "width": 4128,
+          "height": 3096,
+          "size": 3301042,
+          "timestamp": "2025-11-07T19:55:14Z",
+          "author": "FERNANDES Gilbert",
+          "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Cotignac_-_nef_%C3%A9glise.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACotignac%20-%20nef%20%C3%A9glise.JPG",
-          "title": "Cotignac - nef église.JPG",
-          "width": 4608,
-          "height": 3072,
-          "size": 3030226,
-          "timestamp": "2015-09-14T07:13:14Z",
-          "author": "Marianne Casamance",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Exvoto_dans_eglise_ND_de_Graces_Cotignac.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AExvoto%20dans%20eglise%20ND%20de%20Graces%20Cotignac.jpg",
+          "title": "Exvoto dans eglise ND de Graces Cotignac.jpg",
+          "description": "Mur d'ex-votos dans l'église ND de Graces de Cotignac",
+          "width": 4128,
+          "height": 3096,
+          "size": 3176415,
+          "timestamp": "2025-11-07T19:55:14Z",
+          "author": "FERNANDES Gilbert",
+          "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         }
       ]
     },
@@ -127,9 +192,24 @@
       "label": "Sanctuaire Notre-Dame de Grâces",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Portail_chemin_du_sanctuaire_ND_de_Graces_Cotignac.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APortail%20chemin%20du%20sanctuaire%20ND%20de%20Graces%20Cotignac.jpg",
+          "title": "Portail chemin du sanctuaire ND de Graces Cotignac.jpg",
+          "description": "Portail d'entrée du sanctuaire de ND de Grâce pour le chemin montant de Cotignac. Vue du sanctuaire.",
+          "width": 4128,
+          "height": 3096,
+          "size": 3702367,
+          "timestamp": "2025-11-07T19:54:44Z",
+          "author": "FERNANDES Gilbert",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Chapelle_St_Bernard_sanctuaire_Cotignac.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20St%20Bernard%20sanctuaire%20Cotignac.jpg",
           "title": "Chapelle St Bernard sanctuaire Cotignac.jpg",
+          "description": "Chapelle Saint Bernard à coté de l'église Notre-Dame de Grâces (Cotignac)",
           "width": 4128,
           "height": 3096,
           "size": 4069451,
@@ -143,23 +223,11 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Entr%C3%A9e_du_sanctuaire_ND_de_graces_Cotignac.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEntr%C3%A9e%20du%20sanctuaire%20ND%20de%20graces%20Cotignac.jpg",
           "title": "Entrée du sanctuaire ND de graces Cotignac.jpg",
+          "description": "Entrée du sanctuaire de ND de Grâces à Cotignac",
           "width": 4128,
           "height": 3096,
           "size": 3608669,
           "timestamp": "2025-11-07T19:54:38Z",
-          "author": "FERNANDES Gilbert",
-          "license": "CC0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Chemin_de_croix_sanctuaire_ND_Graces_Cotignac.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChemin%20de%20croix%20sanctuaire%20ND%20Graces%20Cotignac.jpg",
-          "title": "Chemin de croix sanctuaire ND Graces Cotignac.jpg",
-          "width": 4128,
-          "height": 3096,
-          "size": 4456100,
-          "timestamp": "2025-11-07T19:54:39Z",
           "author": "FERNANDES Gilbert",
           "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",

@@ -1,64 +1,225 @@
 {
   "slug": "severac-le-chateau",
   "nom": "Sévérac-le-Château",
-  "fetchedAt": "2026-03-14T12:40:46.112Z",
+  "fetchedAt": "2026-03-18T19:41:00.605Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/ISS051-E-13584_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS051-E-13584%20-%20View%20of%20Earth.jpg",
-      "title": "ISS051-E-13584 - View of Earth.jpg",
-      "width": 4928,
-      "height": 3280,
-      "size": 1752446,
-      "timestamp": "2021-03-29T02:05:20Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Fontaine_Romaine-Romane_S%C3%A9verac_le_Ch%C3%A2teau_03.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFontaine%20Romaine-Romane%20S%C3%A9verac%20le%20Ch%C3%A2teau%2003.jpg",
+      "title": "Fontaine Romaine-Romane Séverac le Château 03.jpg",
+      "description": "Panneau Description Fontaine Romaine-Romane située Rue du Duc d'Arpajon à Séverac le Château (Séverac d'Aveyron) (lien).",
+      "width": 3264,
+      "height": 1836,
+      "size": 2182203,
+      "timestamp": "2021-10-03T12:40:42Z",
+      "author": "Selmoval",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/ISS051-E-14822_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS051-E-14822%20-%20View%20of%20Earth.jpg",
-      "title": "ISS051-E-14822 - View of Earth.jpg",
-      "width": 4928,
-      "height": 3280,
-      "size": 1025255,
-      "timestamp": "2021-03-29T02:22:41Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/S%C3%A9v%C3%A9rac_d%27Aveyron_-_voie_1_de_la_gare_de_S%C3%A9v%C3%A9rac-le-Ch%C3%A2teau.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AS%C3%A9v%C3%A9rac%20d'Aveyron%20-%20voie%201%20de%20la%20gare%20de%20S%C3%A9v%C3%A9rac-le-Ch%C3%A2teau.jpg",
+      "title": "Sévérac d'Aveyron - voie 1 de la gare de Sévérac-le-Château.jpg",
+      "description": "Sévérac d'Aveyron - voie 1 de la gare de Sévérac-le-Château",
+      "width": 4032,
+      "height": 3024,
+      "size": 3427611,
+      "timestamp": "2023-04-15T16:07:49Z",
+      "author": "AirScott",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/ISS062-E-31027_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS062-E-31027%20-%20View%20of%20Earth.jpg",
-      "title": "ISS062-E-31027 - View of Earth.jpg",
-      "width": 5568,
-      "height": 3712,
-      "size": 2331622,
-      "timestamp": "2021-04-27T03:19:36Z",
-      "author": "Earth Science and Remote Sensing Unit, NASA Johnson Space Center",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Gare_de_S%C3%A9v%C3%A9rac-le-Ch%C3%A2teau_-_2023.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGare%20de%20S%C3%A9v%C3%A9rac-le-Ch%C3%A2teau%20-%202023.jpg",
+      "title": "Gare de Sévérac-le-Château - 2023.jpg",
+      "description": "BV de la gare de Sévérac-le-Château en avril 2023",
+      "width": 4032,
+      "height": 3024,
+      "size": 3995072,
+      "timestamp": "2023-04-15T17:21:44Z",
+      "author": "AirScott",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     }
   ],
   "lieux": [
     {
       "label": "Chemin de ronde panoramique",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/ATER_%C3%A0_S%C3%A9v%C3%A9rac_par_Cramos.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AATER%20%C3%A0%20S%C3%A9v%C3%A9rac%20par%20Cramos.jpg",
+          "title": "ATER à Sévérac par Cramos.jpg",
+          "description": "Le TER n° 870133 (Rodez 17h15 - Millau 18h30, circulant les samedis) assuré par l'X 73633 dessert la gare de Sévérac-le-Château.",
+          "width": 3000,
+          "height": 2000,
+          "size": 2048373,
+          "timestamp": "2020-04-25T16:48:00Z",
+          "author": "Cramos",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Severac-le-Chateau_gare.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASeverac-le-Chateau%20gare.JPG",
+          "title": "Severac-le-Chateau gare.JPG",
+          "description": "Sévérac-le-Château (Aveyron) - gare.",
+          "width": 3456,
+          "height": 2304,
+          "size": 4413886,
+          "timestamp": "2008-09-26T18:25:30Z",
+          "author": "Fagairolles 34",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Cour d’honneur",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Ch%C3%A2teau_de_S%C3%A9verac_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20S%C3%A9verac%201.jpg",
+          "title": "Château de Séverac 1.jpg",
+          "description": "Le château a appartenu à plusieurs familles : les Sévérac (dont le dernier descendant direct était Amaury de Sévérac, Maréchal de France et condottiere en Italie, étranglé à Gages sur l'ordre des Armagnac), les Armagnac, puis les Arpajon (dont le dernier descendant est Louis d'Arpajon, marquis de Sévérac et duc d'Arpajon). Ce sont ces derniers qui firent transformer le château de forteresse en palais de style Renaissance - par un architecte italien qui réalisa aussi la mise au style Renaissance ",
+          "width": 3648,
+          "height": 2736,
+          "size": 3886293,
+          "timestamp": "2021-09-20T19:00:47Z",
+          "author": "Selmoval",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Ch%C3%A2teau_de_S%C3%A9verac_16.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20S%C3%A9verac%2016.jpg",
+          "title": "Château de Séverac 16.jpg",
+          "description": "Le château a appartenu à plusieurs familles : les Sévérac (dont le dernier descendant direct était Amaury de Sévérac, Maréchal de France et condottiere en Italie, étranglé à Gages sur l'ordre des Armagnac), les Armagnac, puis les Arpajon (dont le dernier descendant est Louis d'Arpajon, marquis de Sévérac et duc d'Arpajon). Ce sont ces derniers qui firent transformer le château de forteresse en palais de style Renaissance - par un architecte italien qui réalisa aussi la mise au style Renaissance ",
+          "width": 3648,
+          "height": 2736,
+          "size": 4545663,
+          "timestamp": "2021-09-20T19:01:23Z",
+          "author": "Selmoval",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Ch%C3%A2teau_de_S%C3%A9verac_29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20S%C3%A9verac%2029.jpg",
+          "title": "Château de Séverac 29.jpg",
+          "description": "Le château a appartenu à plusieurs familles : les Sévérac (dont le dernier descendant direct était Amaury de Sévérac, Maréchal de France et condottiere en Italie, étranglé à Gages sur l'ordre des Armagnac), les Armagnac, puis les Arpajon (dont le dernier descendant est Louis d'Arpajon, marquis de Sévérac et duc d'Arpajon). Ce sont ces derniers qui firent transformer le château de forteresse en palais de style Renaissance - par un architecte italien qui réalisa aussi la mise au style Renaissance ",
+          "width": 3648,
+          "height": 2736,
+          "size": 4126807,
+          "timestamp": "2021-09-20T19:02:02Z",
+          "author": "Selmoval",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     },
     {
       "label": "Cuisine médiévale",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Ch%C3%A2teau_de_S%C3%A9verac_3.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20S%C3%A9verac%203.jpg",
+          "title": "Château de Séverac 3.jpg",
+          "description": "Le château a appartenu à plusieurs familles : les Sévérac (dont le dernier descendant direct était Amaury de Sévérac, Maréchal de France et condottiere en Italie, étranglé à Gages sur l'ordre des Armagnac), les Armagnac, puis les Arpajon (dont le dernier descendant est Louis d'Arpajon, marquis de Sévérac et duc d'Arpajon). Ce sont ces derniers qui firent transformer le château de forteresse en palais de style Renaissance - par un architecte italien qui réalisa aussi la mise au style Renaissance ",
+          "width": 3648,
+          "height": 2736,
+          "size": 2944804,
+          "timestamp": "2021-09-20T19:00:47Z",
+          "author": "Selmoval",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Ch%C3%A2teau_de_S%C3%A9verac_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20S%C3%A9verac%202.jpg",
+          "title": "Château de Séverac 2.jpg",
+          "description": "Le château a appartenu à plusieurs familles : les Sévérac (dont le dernier descendant direct était Amaury de Sévérac, Maréchal de France et condottiere en Italie, étranglé à Gages sur l'ordre des Armagnac), les Armagnac, puis les Arpajon (dont le dernier descendant est Louis d'Arpajon, marquis de Sévérac et duc d'Arpajon). Ce sont ces derniers qui firent transformer le château de forteresse en palais de style Renaissance - par un architecte italien qui réalisa aussi la mise au style Renaissance ",
+          "width": 3648,
+          "height": 2736,
+          "size": 2648208,
+          "timestamp": "2021-09-20T19:00:47Z",
+          "author": "Selmoval",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Ch%C3%A2teau_de_S%C3%A9verac_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20S%C3%A9verac%201.jpg",
+          "title": "Château de Séverac 1.jpg",
+          "description": "Le château a appartenu à plusieurs familles : les Sévérac (dont le dernier descendant direct était Amaury de Sévérac, Maréchal de France et condottiere en Italie, étranglé à Gages sur l'ordre des Armagnac), les Armagnac, puis les Arpajon (dont le dernier descendant est Louis d'Arpajon, marquis de Sévérac et duc d'Arpajon). Ce sont ces derniers qui firent transformer le château de forteresse en palais de style Renaissance - par un architecte italien qui réalisa aussi la mise au style Renaissance ",
+          "width": 3648,
+          "height": 2736,
+          "size": 3886293,
+          "timestamp": "2021-09-20T19:00:47Z",
+          "author": "Selmoval",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     },
     {
       "label": "Tour sud",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Ch%C3%A2teau_de_S%C3%A9verac_3.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20S%C3%A9verac%203.jpg",
+          "title": "Château de Séverac 3.jpg",
+          "description": "Le château a appartenu à plusieurs familles : les Sévérac (dont le dernier descendant direct était Amaury de Sévérac, Maréchal de France et condottiere en Italie, étranglé à Gages sur l'ordre des Armagnac), les Armagnac, puis les Arpajon (dont le dernier descendant est Louis d'Arpajon, marquis de Sévérac et duc d'Arpajon). Ce sont ces derniers qui firent transformer le château de forteresse en palais de style Renaissance - par un architecte italien qui réalisa aussi la mise au style Renaissance ",
+          "width": 3648,
+          "height": 2736,
+          "size": 2944804,
+          "timestamp": "2021-09-20T19:00:47Z",
+          "author": "Selmoval",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Ch%C3%A2teau_de_S%C3%A9verac_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20S%C3%A9verac%202.jpg",
+          "title": "Château de Séverac 2.jpg",
+          "description": "Le château a appartenu à plusieurs familles : les Sévérac (dont le dernier descendant direct était Amaury de Sévérac, Maréchal de France et condottiere en Italie, étranglé à Gages sur l'ordre des Armagnac), les Armagnac, puis les Arpajon (dont le dernier descendant est Louis d'Arpajon, marquis de Sévérac et duc d'Arpajon). Ce sont ces derniers qui firent transformer le château de forteresse en palais de style Renaissance - par un architecte italien qui réalisa aussi la mise au style Renaissance ",
+          "width": 3648,
+          "height": 2736,
+          "size": 2648208,
+          "timestamp": "2021-09-20T19:00:47Z",
+          "author": "Selmoval",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Ch%C3%A2teau_de_S%C3%A9verac_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20S%C3%A9verac%201.jpg",
+          "title": "Château de Séverac 1.jpg",
+          "description": "Le château a appartenu à plusieurs familles : les Sévérac (dont le dernier descendant direct était Amaury de Sévérac, Maréchal de France et condottiere en Italie, étranglé à Gages sur l'ordre des Armagnac), les Armagnac, puis les Arpajon (dont le dernier descendant est Louis d'Arpajon, marquis de Sévérac et duc d'Arpajon). Ce sont ces derniers qui firent transformer le château de forteresse en palais de style Renaissance - par un architecte italien qui réalisa aussi la mise au style Renaissance ",
+          "width": 3648,
+          "height": 2736,
+          "size": 3886293,
+          "timestamp": "2021-09-20T19:00:47Z",
+          "author": "Selmoval",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     }
   ]
 }

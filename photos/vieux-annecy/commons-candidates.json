@@ -1,42 +1,45 @@
 {
   "slug": "vieux-annecy",
   "nom": "Vieux Annecy",
-  "fetchedAt": "2026-03-13T02:10:01.808Z",
+  "fetchedAt": "2026-03-18T20:55:07.890Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Canal_%2851227065109%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACanal%20(51227065109).jpg",
-      "title": "Canal (51227065109).jpg",
-      "width": 6240,
-      "height": 4160,
-      "size": 9891606,
-      "timestamp": "2021-06-05T21:31:24Z",
-      "author": "Guilhem Vellut",
-      "license": "CC BY 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Old_town_%2851227065164%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOld%20town%20(51227065164).jpg",
-      "title": "Old town (51227065164).jpg",
-      "width": 6240,
-      "height": 4160,
-      "size": 7386395,
-      "timestamp": "2021-06-05T21:31:35Z",
-      "author": "Guilhem Vellut",
-      "license": "CC BY 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Annecy_%2850883882433%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAnnecy%20(50883882433).jpg",
       "title": "Annecy (50883882433).jpg",
+      "description": "Annecy",
       "width": 4864,
       "height": 3648,
       "size": 6550756,
       "timestamp": "2021-06-07T19:05:29Z",
+      "author": "Guilhem Vellut",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Annecy_%2850884706897%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAnnecy%20(50884706897).jpg",
+      "title": "Annecy (50884706897).jpg",
+      "description": "Annecy",
+      "width": 4864,
+      "height": 3648,
+      "size": 8864770,
+      "timestamp": "2021-06-07T19:05:31Z",
+      "author": "Guilhem Vellut",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Annecy_%2850884707632%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAnnecy%20(50884707632).jpg",
+      "title": "Annecy (50884707632).jpg",
+      "description": "Annecy",
+      "width": 4864,
+      "height": 3648,
+      "size": 9320377,
+      "timestamp": "2021-06-07T19:05:35Z",
       "author": "Guilhem Vellut",
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Annecy_%2819891918765%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAnnecy%20(19891918765).jpg",
           "title": "Annecy (19891918765).jpg",
+          "description": "Annecy",
           "width": 1600,
           "height": 901,
           "size": 765275,
@@ -64,6 +68,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Annecy.Vieux_palais_et_canal.1890.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAnnecy.Vieux%20palais%20et%20canal.1890.jpg",
           "title": "Annecy.Vieux palais et canal.1890.jpg",
+          "description": "Annecy.Vieux palais et canal.1890",
           "width": 1193,
           "height": 868,
           "size": 178015,
@@ -77,6 +82,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Old_palace_and_canal%2C_Annecy.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOld%20palace%20and%20canal%2C%20Annecy.jpg",
           "title": "Old palace and canal, Annecy.jpg",
+          "description": "Old palace and canal, Annecy, France.",
           "width": 3293,
           "height": 2429,
           "size": 3162795,
@@ -92,9 +98,38 @@
       "label": "Château d’Annecy",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Mont_de_Boisy_%40_Viewpoint_%40_Ch%C3%A2teau-Vieux_%40_Ch%C3%A2teaux_des_Allinges_%40_Walk_from_Thonon-les-Bains_to_Yvoire_%2847954837483%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMont%20de%20Boisy%20%40%20Viewpoint%20%40%20Ch%C3%A2teau-Vieux%20%40%20Ch%C3%A2teaux%20des%20Allinges%20%40%20Walk%20from%20Thonon-les-Bains%20to%20Yvoire%20(47954837483).jpg",
+          "title": "Mont de Boisy @ Viewpoint @ Château-Vieux @ Châteaux des Allinges @ Walk from Thonon-les-Bains to Yvoire (47954837483).jpg",
+          "description": "Mont de Boisy @ Viewpoint @ Château-Vieux @ Châteaux des Allinges @ Walk from Thonon-les-Bains to Yvoire",
+          "width": 5472,
+          "height": 3648,
+          "size": 7891743,
+          "timestamp": "2020-11-26T18:51:24Z",
+          "author": "Guilhem Vellut",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Annecy_%28Haute-Savoie%29_-_Ch%C3%A2teau_-_%22Vieux_Logis%22_-_%22Grande_Salle%22.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAnnecy%20(Haute-Savoie)%20-%20Ch%C3%A2teau%20-%20%22Vieux%20Logis%22%20-%20%22Grande%20Salle%22.jpg",
+          "title": "Annecy (Haute-Savoie) - Château - \"Vieux Logis\" - \"Grande Salle\".jpg",
+          "description": "Annecy (Haute-Savoie) - Château - \"Vieux Logis\" - \"Grande Salle\"",
+          "width": 4771,
+          "height": 3160,
+          "size": 4898567,
+          "timestamp": "2021-12-19T16:10:51Z",
+          "author": "Patrick",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Annecy%C2%B0Seynod_-_74600_-_2022.12.29_-_Parking-relais_de_P%C3%A9riaz_%C2%A9_Anthony_Levrot.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAnnecy%C2%B0Seynod%20-%2074600%20-%202022.12.29%20-%20Parking-relais%20de%20P%C3%A9riaz%20%C2%A9%20Anthony%20Levrot.jpg",
           "title": "Annecy°Seynod - 74600 - 2022.12.29 - Parking-relais de Périaz © Anthony Levrot.jpg",
+          "description": "Le parking-relais de Périaz, situé dans le Chemin de Château-Vieux (Seynod, commune déléguée d’Annecy), le 29 décembre 2022. Ouvert en 2011, il peut accueillir 135 véhicules et est desservi du lundi au samedi par la ligne 2 du réseau Sibra, dont on aperçoit un Iveco Urbanway 18 à droite de l’image. Les dimanches et jours fériés, cette ligne devient la J.",
           "width": 6000,
           "height": 4000,
           "size": 15206390,
@@ -102,43 +137,103 @@
           "author": "Anthony Levrot",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Annecy%C2%B0Seynod_-_74600_-_2026.02.05_-_Ch%C3%A2teau_de_Ch%C3%A2teauvieux_%C2%A9_Anthony_Levrot.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAnnecy%C2%B0Seynod%20-%2074600%20-%202026.02.05%20-%20Ch%C3%A2teau%20de%20Ch%C3%A2teauvieux%20%C2%A9%20Anthony%20Levrot.jpg",
-          "title": "Annecy°Seynod - 74600 - 2026.02.05 - Château de Châteauvieux © Anthony Levrot.jpg",
-          "width": 4000,
-          "height": 3000,
-          "size": 6765784,
-          "timestamp": "2026-02-06T21:17:38Z",
-          "author": "Anthony Levrot",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Vue_de_l%27entr%C3%A9e_et_des_logis.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20de%20l'entr%C3%A9e%20et%20des%20logis.jpg",
-          "title": "Vue de l'entrée et des logis.jpg",
-          "width": 4272,
-          "height": 2848,
-          "size": 2680479,
-          "timestamp": "2016-08-07T10:10:34Z",
-          "author": "B. Brassoud",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 9
         }
       ]
     },
     {
       "label": "Rue Sainte-Claire",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Annecy-le-Vieux_-_Rue_du_Pr%C3%A9-Joli_-_IMG_9954.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAnnecy-le-Vieux%20-%20Rue%20du%20Pr%C3%A9-Joli%20-%20IMG%209954.jpg",
+          "title": "Annecy-le-Vieux - Rue du Pré-Joli - IMG 9954.jpg",
+          "description": "Vue de la rue du Pré-Joli à Annecy-le-Vieux, en août 2014",
+          "width": 4272,
+          "height": 2848,
+          "size": 2769846,
+          "timestamp": "2017-08-25T21:46:49Z",
+          "author": "Poudou99",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Annecy-le-Vieux_-_Rue_du_Talabar_-IMG_9953.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAnnecy-le-Vieux%20-%20Rue%20du%20Talabar%20-IMG%209953.jpg",
+          "title": "Annecy-le-Vieux - Rue du Talabar -IMG 9953.jpg",
+          "description": "Vue de la rue du Talabar à Annecy-le-Vieux, en août 2014",
+          "width": 4272,
+          "height": 2848,
+          "size": 3510083,
+          "timestamp": "2017-08-25T21:47:25Z",
+          "author": "Poudou99",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Rue_des_Carillons_%40_Annecy-le-Vieux_%2850694630846%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARue%20des%20Carillons%20%40%20Annecy-le-Vieux%20(50694630846).jpg",
+          "title": "Rue des Carillons @ Annecy-le-Vieux (50694630846).jpg",
+          "description": "Rue des Carillons @ Annecy-le-Vieux",
+          "width": 5472,
+          "height": 3648,
+          "size": 7684283,
+          "timestamp": "2021-05-24T23:21:04Z",
+          "author": "Guilhem Vellut",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Quai de l’Évêché",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Vieux_Port_%40_Ville-Marie_%40_Montr%C3%A9al_%2830500943016%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVieux%20Port%20%40%20Ville-Marie%20%40%20Montr%C3%A9al%20(30500943016).jpg",
+          "title": "Vieux Port @ Ville-Marie @ Montréal (30500943016).jpg",
+          "description": "Vieux Port @ Ville-Marie @ Montréal",
+          "width": 5472,
+          "height": 3648,
+          "size": 8739176,
+          "timestamp": "2021-03-18T17:58:18Z",
+          "author": "Guilhem Vellut",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Clock_Tower_%40_Vieux_Port_%40_Ville-Marie_%40_Montr%C3%A9al_%2830500525806%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AClock%20Tower%20%40%20Vieux%20Port%20%40%20Ville-Marie%20%40%20Montr%C3%A9al%20(30500525806).jpg",
+          "title": "Clock Tower @ Vieux Port @ Ville-Marie @ Montréal (30500525806).jpg",
+          "description": "Clock Tower @ Vieux Port @ Ville-Marie @ Montréal",
+          "width": 5472,
+          "height": 3648,
+          "size": 6447360,
+          "timestamp": "2021-03-18T17:58:40Z",
+          "author": "Guilhem Vellut",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Clock_Tower_%40_Vieux_Port_%40_Ville-Marie_%40_Montr%C3%A9al_%2829906565104%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AClock%20Tower%20%40%20Vieux%20Port%20%40%20Ville-Marie%20%40%20Montr%C3%A9al%20(29906565104).jpg",
+          "title": "Clock Tower @ Vieux Port @ Ville-Marie @ Montréal (29906565104).jpg",
+          "description": "Clock Tower @ Vieux Port @ Ville-Marie @ Montréal",
+          "width": 5472,
+          "height": 3648,
+          "size": 8977583,
+          "timestamp": "2021-03-18T17:58:44Z",
+          "author": "Guilhem Vellut",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Jardin de l’Europe",
@@ -146,7 +241,50 @@
     },
     {
       "label": "Pont Morens",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Pont_%40_Annecy-le-Vieux_%2851040365592%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20%40%20Annecy-le-Vieux%20(51040365592).jpg",
+          "title": "Pont @ Annecy-le-Vieux (51040365592).jpg",
+          "description": "Pont @ Annecy-le-Vieux",
+          "width": 4864,
+          "height": 3648,
+          "size": 8627975,
+          "timestamp": "2021-03-15T22:25:14Z",
+          "author": "Guilhem Vellut",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Chemin_du_Pont_de_la_Bornalle_%40_La_Varde_%40_Annecy-le-Vieux_%2825388662707%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChemin%20du%20Pont%20de%20la%20Bornalle%20%40%20La%20Varde%20%40%20Annecy-le-Vieux%20(25388662707).jpg",
+          "title": "Chemin du Pont de la Bornalle @ La Varde @ Annecy-le-Vieux (25388662707).jpg",
+          "description": "Chemin du Pont de la Bornalle @ La Varde @ Annecy-le-Vieux",
+          "width": 5472,
+          "height": 3648,
+          "size": 9027278,
+          "timestamp": "2021-03-16T03:29:07Z",
+          "author": "Guilhem Vellut",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Pont_d%27Onnex_%40_Annecy-le-Vieux_%2851104883158%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20d'Onnex%20%40%20Annecy-le-Vieux%20(51104883158).jpg",
+          "title": "Pont d'Onnex @ Annecy-le-Vieux (51104883158).jpg",
+          "description": "Pont d'Onnex @ Annecy-le-Vieux",
+          "width": 6240,
+          "height": 4160,
+          "size": 10656481,
+          "timestamp": "2021-05-01T11:38:32Z",
+          "author": "Guilhem Vellut",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

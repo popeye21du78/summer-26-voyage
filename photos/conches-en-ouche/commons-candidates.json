@@ -1,12 +1,13 @@
 {
   "slug": "conches-en-ouche",
   "nom": "Conches-en-Ouche",
-  "fetchedAt": "2026-03-13T13:53:09.036Z",
+  "fetchedAt": "2026-03-16T12:19:48.019Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Eglise_Sainte-Foy_Conches-en-Ouche.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Sainte-Foy%20Conches-en-Ouche.jpg",
       "title": "Eglise Sainte-Foy Conches-en-Ouche.jpg",
+      "description": "Sainte-Foy Church in Conches-en-Ouche, Eure, France.",
       "width": 3264,
       "height": 2448,
       "size": 1098195,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Donjon_Conches_en_Ouches.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADonjon%20Conches%20en%20Ouches.jpg",
       "title": "Donjon Conches en Ouches.jpg",
+      "description": "Keep at Conches-en-Ouche, Eure, France",
       "width": 3014,
       "height": 2009,
       "size": 1099127,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Conches-en-Ouche_donjon.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AConches-en-Ouche%20donjon.jpg",
       "title": "Conches-en-Ouche donjon.jpg",
+      "description": "Keep (donjon) of Conches-en-Ouche, departement Eure, Normandie, France. It was built 1035 by Roger I of Tosny and destroyed 1591 in the French Wars of Religion.",
       "width": 2297,
       "height": 1518,
       "size": 1244151,
@@ -46,15 +49,45 @@
   "lieux": [
     {
       "label": "Tour du château de Conches-en-Ouche",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Conches_parc_public.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AConches%20parc%20public.jpg",
+          "title": "Conches parc public.jpg",
+          "description": "Public park and statue of Maurice Quentin de La Tour in Conches-en-Ouche in the département Eure in France in February.",
+          "width": 1841,
+          "height": 1705,
+          "size": 1070355,
+          "timestamp": "2010-07-23T10:39:54Z",
+          "author": "Stanzilla",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     },
     {
       "label": "Église Sainte-Foy",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/2016_-_Conches-en-Ouche_-_%C3%A9glise_Sainte-Foy03.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2016%20-%20Conches-en-Ouche%20-%20%C3%A9glise%20Sainte-Foy03.jpg",
+          "title": "2016 - Conches-en-Ouche - église Sainte-Foy03.jpg",
+          "description": "Église Sainte-Foy de Conches-en-Ouche, Eure, France",
+          "width": 5472,
+          "height": 3648,
+          "size": 7523024,
+          "timestamp": "2016-09-06T18:02:10Z",
+          "author": "Eponimm",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Eglise_Sainte-Foy_%28Conches-en-Ouche%29_03.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Sainte-Foy%20(Conches-en-Ouche)%2003.jpg",
           "title": "Eglise Sainte-Foy (Conches-en-Ouche) 03.jpg",
+          "description": "Eglise Sainte-Foy de Conches-en-Ouche.",
           "width": 4000,
           "height": 3000,
           "size": 4325425,
@@ -68,6 +101,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Eglise_Sainte-Foy_%28Conches-en-Ouche%29_07.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Sainte-Foy%20(Conches-en-Ouche)%2007.jpg",
           "title": "Eglise Sainte-Foy (Conches-en-Ouche) 07.jpg",
+          "description": "Mise au tombeau, toile du XVIIe siècle.",
           "width": 4000,
           "height": 3000,
           "size": 2769341,
@@ -76,19 +110,6 @@
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Conches-en-Ouche_%C3%89glise_Sainte-Foy_7255.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AConches-en-Ouche%20%C3%89glise%20Sainte-Foy%207255.jpg",
-          "title": "Conches-en-Ouche Église Sainte-Foy 7255.jpg",
-          "width": 4896,
-          "height": 3264,
-          "size": 11019735,
-          "timestamp": "2013-09-14T14:52:22Z",
-          "author": "Reinhardhauke",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
         }
       ]
     },
@@ -96,22 +117,10 @@
       "label": "Musée du Verre François Décorchemont",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Mus%C3%A9e_du_verre_%28Eu%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e%20du%20verre%20(Eu).jpg",
-          "title": "Musée du verre (Eu).jpg",
-          "width": 4000,
-          "height": 2700,
-          "size": 3190338,
-          "timestamp": "2021-08-23T10:06:30Z",
-          "author": "Gzen92",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Mus%C3%A9e-du-verre-Conches-20220702_02.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e-du-verre-Conches-20220702%2002.jpg",
           "title": "Musée-du-verre-Conches-20220702 02.jpg",
+          "description": "Musée du verre François-Décorchemont.",
           "width": 4128,
           "height": 3096,
           "size": 5212030,
@@ -125,10 +134,25 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Mus%C3%A9e-du-verre-Conches-20220702_08.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e-du-verre-Conches-20220702%2008.jpg",
           "title": "Musée-du-verre-Conches-20220702 08.jpg",
+          "description": "Musée du verre François-Décorchemont.",
           "width": 4128,
           "height": 3096,
           "size": 3419860,
           "timestamp": "2022-07-02T15:44:24Z",
+          "author": "Totorvdr59",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Mus%C3%A9e_du_verre-Conches-Bony-20220702.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e%20du%20verre-Conches-Bony-20220702.jpg",
+          "title": "Musée du verre-Conches-Bony-20220702.jpg",
+          "description": "Signature du maître verrier Jacques Bony.",
+          "width": 4128,
+          "height": 3096,
+          "size": 2534138,
+          "timestamp": "2022-07-02T19:07:58Z",
           "author": "Totorvdr59",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",

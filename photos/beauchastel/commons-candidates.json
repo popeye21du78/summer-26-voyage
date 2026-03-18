@@ -1,44 +1,47 @@
 {
   "slug": "beauchastel",
   "nom": "Beauchastel",
-  "fetchedAt": "2026-03-13T12:11:59.103Z",
+  "fetchedAt": "2026-03-15T19:27:02.977Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Moto_Guzzi_V50_%C3%A0_l%27usine_hydro%C3%A9lectrique_de_Beauchastel_%2850953264053%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMoto%20Guzzi%20V50%20%C3%A0%20l'usine%20hydro%C3%A9lectrique%20de%20Beauchastel%20(50953264053).jpg",
-      "title": "Moto Guzzi V50 à l'usine hydroélectrique de Beauchastel (50953264053).jpg",
-      "width": 2573,
-      "height": 1716,
-      "size": 904193,
-      "timestamp": "2024-10-02T19:31:51Z",
-      "author": "Nicolas Buffler",
-      "license": "CC BY 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Mairie_de_Beauchastel.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMairie%20de%20Beauchastel.jpg",
-      "title": "Mairie de Beauchastel.jpg",
-      "width": 3264,
-      "height": 2448,
-      "size": 4491406,
-      "timestamp": "2025-10-04T08:13:04Z",
-      "author": "Marianne Casamance",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Beauchastel_2004-04-25_040.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeauchastel%202004-04-25%20040.jpg",
+      "title": "Beauchastel 2004-04-25 040.jpg",
+      "description": "view of the old village Beauchastel",
+      "width": 2048,
+      "height": 1536,
+      "size": 773661,
+      "timestamp": "2010-08-29T13:25:53Z",
+      "author": "Sequajectrof",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Mairie_de_Beauchastel_%2820756%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMairie%20de%20Beauchastel%20(20756).jpg",
-      "title": "Mairie de Beauchastel (20756).jpg",
-      "width": 3264,
-      "height": 2448,
-      "size": 3603507,
-      "timestamp": "2025-10-04T08:13:26Z",
-      "author": "Marianne Casamance",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Beauchastel_%28Ard%C3%A8che%2C_Fr%29_vue_du_village.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeauchastel%20(Ard%C3%A8che%2C%20Fr)%20vue%20du%20village.JPG",
+      "title": "Beauchastel (Ardèche, Fr) vue du village.JPG",
+      "description": "Beauchastel (Ardèche, Fr) vue du village.",
+      "width": 4000,
+      "height": 3000,
+      "size": 4349704,
+      "timestamp": "2011-02-28T12:54:46Z",
+      "author": "Havang(nl)",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Reste_de_ch%C3%A2teau_de_Beauchastel.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AReste%20de%20ch%C3%A2teau%20de%20Beauchastel.jpg",
+      "title": "Reste de château de Beauchastel.jpg",
+      "description": "pan de mur du château",
+      "width": 4288,
+      "height": 2848,
+      "size": 8932937,
+      "timestamp": "2012-01-20T07:21:24Z",
+      "author": "Toutaitanous",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     }
@@ -54,7 +57,22 @@
     },
     {
       "label": "Passage voûté des calades",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Beauchastel_-_Passage_des_%C3%A9coles_-_bo%C3%AEte_%C3%A0_livres.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeauchastel%20-%20Passage%20des%20%C3%A9coles%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
+          "title": "Beauchastel - Passage des écoles - boîte à livres.jpg",
+          "description": "Boîte à livres à Beauchastel",
+          "width": 1170,
+          "height": 1551,
+          "size": 276209,
+          "timestamp": "2025-10-11T16:36:50Z",
+          "author": "CC",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     }
   ]
 }

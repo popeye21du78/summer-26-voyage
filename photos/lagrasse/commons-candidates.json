@@ -1,12 +1,13 @@
 {
   "slug": "lagrasse",
   "nom": "Lagrasse",
-  "fetchedAt": "2026-03-13T15:18:15.960Z",
+  "fetchedAt": "2026-03-16T19:31:43.943Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/St_Michael_church_in_Lagrasse_%284%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt%20Michael%20church%20in%20Lagrasse%20(4).jpg",
       "title": "St Michael church in Lagrasse (4).jpg",
+      "description": "Saint Michael church in Lagrasse, Aude, France",
       "width": 3768,
       "height": 2565,
       "size": 8383291,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Lagrasse-Presbyt%C3%A8re-CH3_IIb3-fou_mordant_chat.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALagrasse-Presbyt%C3%A8re-CH3%20IIb3-fou%20mordant%20chat.jpg",
       "title": "Lagrasse-Presbytère-CH3 IIb3-fou mordant chat.jpg",
+      "description": "Lagrasse, ancien presbytère. Voir Gauthier Langlois, Jean-Pierre Sarret, Georges Puchal, Laura Ceccantini et Julien Foltran, « Afficher son imaginaire et son réseau social en 1492 : le programme iconographique et héraldique des plafonds de la maison du camérier Audoin d'Abzac à Lagrasse (Aude) », Bulletin de la Société d’études scientifiques de l’Aude, vol. CXXII,‎ 2022, p. 41–72.",
       "width": 1908,
       "height": 931,
       "size": 687764,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Lagrasse_town_hall.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALagrasse%20town%20hall.jpg",
       "title": "Lagrasse town hall.jpg",
+      "description": "Town hall of Lagrasse, dept. Aude, France",
       "width": 3456,
       "height": 2304,
       "size": 1232351,
@@ -48,43 +51,46 @@
       "label": "Abbaye Sainte-Marie de Lagrasse",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Lagrasse_-_Abbaye_Sainte-Marie_-_02.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALagrasse%20-%20Abbaye%20Sainte-Marie%20-%2002.jpg",
-          "title": "Lagrasse - Abbaye Sainte-Marie - 02.jpg",
-          "width": 5919,
-          "height": 3946,
-          "size": 7724793,
-          "timestamp": "2024-06-16T22:07:20Z",
-          "author": "Cantepien",
-          "license": "CC BY 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Lagrasse_-_Abbaye_Sainte-Marie_-_06.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALagrasse%20-%20Abbaye%20Sainte-Marie%20-%2006.jpg",
-          "title": "Lagrasse - Abbaye Sainte-Marie - 06.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Lagrasse_-_Abbaye_Sainte-Marie_-_19.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALagrasse%20-%20Abbaye%20Sainte-Marie%20-%2019.jpg",
+          "title": "Lagrasse - Abbaye Sainte-Marie - 19.jpg",
+          "description": "Lagrasse - Abbaye Sainte-Marie",
           "width": 6000,
           "height": 4000,
-          "size": 10245105,
-          "timestamp": "2024-06-16T22:07:24Z",
+          "size": 7202338,
+          "timestamp": "2024-06-22T09:58:57Z",
           "author": "Cantepien",
           "license": "CC BY 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Lagrasse_-_Abbaye_Sainte-Marie_-_04.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALagrasse%20-%20Abbaye%20Sainte-Marie%20-%2004.jpg",
-          "title": "Lagrasse - Abbaye Sainte-Marie - 04.jpg",
-          "width": 5931,
-          "height": 3954,
-          "size": 7997168,
-          "timestamp": "2024-06-16T22:07:24Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Lagrasse_-_Abbaye_Sainte-Marie_-_18.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALagrasse%20-%20Abbaye%20Sainte-Marie%20-%2018.jpg",
+          "title": "Lagrasse - Abbaye Sainte-Marie - 18.jpg",
+          "description": "Lagrasse - Abbaye Sainte-Marie",
+          "width": 5683,
+          "height": 3789,
+          "size": 11236933,
+          "timestamp": "2024-06-22T09:58:57Z",
           "author": "Cantepien",
           "license": "CC BY 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Panorama_lagrasse_abbaye.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanorama%20lagrasse%20abbaye.jpg",
+          "title": "Panorama lagrasse abbaye.jpg",
+          "description": "Abbaye Sainte-Marie de Lagrasse vue depuis le village",
+          "width": 6000,
+          "height": 2500,
+          "size": 1172313,
+          "timestamp": "2011-09-21T14:53:34Z",
+          "author": "Bertrand Bouret",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
         }
       ]
     },
@@ -92,14 +98,15 @@
       "label": "Pont Vieux",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Pont-Vieux_%C3%A0_Lagrasse.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont-Vieux%20%C3%A0%20Lagrasse.jpg",
-          "title": "Pont-Vieux à Lagrasse.jpg",
-          "width": 4160,
-          "height": 3120,
-          "size": 5408136,
-          "timestamp": "2025-04-16T01:24:02Z",
-          "author": "Enrevseluj",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Lagrasse_-_Pont_de_l%27abbaye.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALagrasse%20-%20Pont%20de%20l'abbaye.jpg",
+          "title": "Lagrasse - Pont de l'abbaye.jpg",
+          "description": "Pont de l'Abbaye sur l'Orbieu",
+          "width": 3648,
+          "height": 2736,
+          "size": 3146051,
+          "timestamp": "2021-09-11T20:43:11Z",
+          "author": "Gi.bareau",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
@@ -108,6 +115,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Pont-Vieux_%C3%A0_Lagrasse_2.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont-Vieux%20%C3%A0%20Lagrasse%202.jpg",
           "title": "Pont-Vieux à Lagrasse 2.jpg",
+          "description": "Pont-Vieux à Lagrasse",
           "width": 4160,
           "height": 3120,
           "size": 6052695,
@@ -118,23 +126,67 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Lagrasse_%28Aude%29_village_et_vieux_pont_en_%C3%A9t%C3%A9.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALagrasse%20(Aude)%20village%20et%20vieux%20pont%20en%20%C3%A9t%C3%A9.jpg",
-          "title": "Lagrasse (Aude) village et vieux pont en été.jpg",
-          "width": 5212,
-          "height": 3468,
-          "size": 13523020,
-          "timestamp": "2012-08-18T14:33:02Z",
-          "author": "Piero d'Houin dit Inocybe",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Pont-Neuf_%C3%A0_Lagrasse.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont-Neuf%20%C3%A0%20Lagrasse.jpg",
+          "title": "Pont-Neuf à Lagrasse.jpg",
+          "description": "Pont-Neuf à Lagrasse",
+          "width": 4160,
+          "height": 3120,
+          "size": 5338468,
+          "timestamp": "2025-04-16T01:30:16Z",
+          "author": "Enrevseluj",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
         }
       ]
     },
     {
       "label": "Halle couverte",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Market_hall_in_Lagrasse_%283%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarket%20hall%20in%20Lagrasse%20(3).jpg",
+          "title": "Market hall in Lagrasse (3).jpg",
+          "description": "Market hall in Lagrasse, Aude, France",
+          "width": 4137,
+          "height": 2896,
+          "size": 9333611,
+          "timestamp": "2025-09-17T15:27:41Z",
+          "author": "Tournasol7",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Market_hall_in_Lagrasse_%281%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarket%20hall%20in%20Lagrasse%20(1).jpg",
+          "title": "Market hall in Lagrasse (1).jpg",
+          "description": "Market hall in Lagrasse, Aude, France",
+          "width": 4332,
+          "height": 2888,
+          "size": 10260676,
+          "timestamp": "2025-09-17T15:27:40Z",
+          "author": "Tournasol7",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Market_hall_in_Lagrasse_%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarket%20hall%20in%20Lagrasse%20(2).jpg",
+          "title": "Market hall in Lagrasse (2).jpg",
+          "description": "Market hall in Lagrasse, Aude, France",
+          "width": 6643,
+          "height": 4149,
+          "size": 15127945,
+          "timestamp": "2025-09-17T15:27:41Z",
+          "author": "Tournasol7",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Promenade des Moulins",

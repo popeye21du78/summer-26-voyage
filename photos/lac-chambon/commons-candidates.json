@@ -1,12 +1,27 @@
 {
   "slug": "lac-chambon",
   "nom": "Lac Chambon",
-  "fetchedAt": "2026-03-13T15:12:10.316Z",
+  "fetchedAt": "2026-03-16T19:22:40.321Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/LacChambon_-_Chambon-sur-Lac.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALacChambon%20-%20Chambon-sur-Lac.jpg",
+      "title": "LacChambon - Chambon-sur-Lac.jpg",
+      "description": "Vue du village depuis la rive ouest du lac",
+      "width": 3264,
+      "height": 1836,
+      "size": 2570042,
+      "timestamp": "2015-08-08T20:17:54Z",
+      "author": "Shawabunga",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Entr%C3%A9e_de_Chambon-sur-Lac_par_la_D_996_2021-08-19.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEntr%C3%A9e%20de%20Chambon-sur-Lac%20par%20la%20D%20996%202021-08-19.JPG",
       "title": "Entrée de Chambon-sur-Lac par la D 996 2021-08-19.JPG",
+      "description": "Entrée de Chambon-sur-Lac par la route départementale 996 en direction de Murol. Les panneaux d'entrée d'agglomération, fabriqués en 2020, sont complétés par d'autres panneaux non réglementaires (Pavillon bleu 2021, Famille Plus, etc.).",
       "width": 2992,
       "height": 2000,
       "size": 3176030,
@@ -20,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Lac_Chambon_-_route.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALac%20Chambon%20-%20route.jpg",
       "title": "Lac Chambon - route.jpg",
+      "description": "Avec les montagnes enneigés en arrière plan",
       "width": 4000,
       "height": 3000,
       "size": 3143037,
@@ -28,25 +44,55 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Entr%C3%A9e_de_Chambon-sur-Lac_par_la_route_du_Mont-Dore_%28N_496_historique%29_2021-08-19.JPG",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEntr%C3%A9e%20de%20Chambon-sur-Lac%20par%20la%20route%20du%20Mont-Dore%20(N%20496%20historique)%202021-08-19.JPG",
-      "title": "Entrée de Chambon-sur-Lac par la route du Mont-Dore (N 496 historique) 2021-08-19.JPG",
-      "width": 2992,
-      "height": 2000,
-      "size": 2617834,
-      "timestamp": "2023-10-11T18:21:13Z",
-      "author": "Tabl-trai",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
     }
   ],
   "lieux": [
     {
       "label": "Plage de sable volcanique (rive sud)",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Bonnu_%28Cuzion%29_-_Plage_et_lac_de_Chambon_bis.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABonnu%20(Cuzion)%20-%20Plage%20et%20lac%20de%20Chambon%20bis.jpg",
+          "title": "Bonnu (Cuzion) - Plage et lac de Chambon bis.jpg",
+          "description": "Bonnu (commune de Cuzion) : La plage et le lac de Chambon.",
+          "width": 3264,
+          "height": 2448,
+          "size": 2828172,
+          "timestamp": "2016-06-26T13:14:56Z",
+          "author": "Floppy36",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Bonnu_%28Cuzion%29_-_Plage_et_lac_de_Chambon.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABonnu%20(Cuzion)%20-%20Plage%20et%20lac%20de%20Chambon.jpg",
+          "title": "Bonnu (Cuzion) - Plage et lac de Chambon.jpg",
+          "description": "Bonnu (commune de Cuzion) : La plage et le lac de Chambon.",
+          "width": 3264,
+          "height": 2448,
+          "size": 3869019,
+          "timestamp": "2015-11-15T17:33:23Z",
+          "author": "Floppy36",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Chambon_%28commune_d%27%C3%89guzon-Chant%C3%B4me%29_-_Plage_et_lac_de_Chambon.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChambon%20(commune%20d'%C3%89guzon-Chant%C3%B4me)%20-%20Plage%20et%20lac%20de%20Chambon.jpg",
+          "title": "Chambon (commune d'Éguzon-Chantôme) - Plage et lac de Chambon.jpg",
+          "description": "Chambon (commune d'Éguzon-Chantôme) : La plage et le lac de Chambon.",
+          "width": 3264,
+          "height": 2448,
+          "size": 2362448,
+          "timestamp": "2015-11-15T20:20:40Z",
+          "author": "Floppy36",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Passerelle de bois (rive est)",
@@ -58,7 +104,50 @@
     },
     {
       "label": "Marais de la Pêcherie",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Lac_Chambon_%28GeoDIL_number_-_2748%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALac%20Chambon%20(GeoDIL%20number%20-%202748).jpg",
+          "title": "Lac Chambon (GeoDIL number - 2748).jpg",
+          "description": "Lac Chambon is a lake - about 30,000 years old - between scoria cones related to the Puy de Tartaret, a volcanic peak. The water is held back by a natural dam (a landslide that removed the top of an old volcano called Dent du Marais). The mountains in the background in this photo are the Monts Dore chain, including the Puy de Sancy, the highest point in central France.",
+          "width": 1728,
+          "height": 1116,
+          "size": 468085,
+          "timestamp": "2025-04-12T17:54:57Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q112435816\" class=\"extiw\" title=\"d:Q112435816\"><span title=\"geologist from the United States\">Dexter Perkins</span></a></bdi>",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/La_dent_du_Marais_-_Lac_Chambon_-_polka_pour_piano_-_par_Alo%C3%BFs_Claussmann_%3B_%28ill._par%29_Bertrand_-_bpt6k396112t_%2801_of_10%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20dent%20du%20Marais%20-%20Lac%20Chambon%20-%20polka%20pour%20piano%20-%20par%20Alo%C3%BFs%20Claussmann%20%3B%20(ill.%20par)%20Bertrand%20-%20bpt6k396112t%20(01%20of%2010).jpg",
+          "title": "La dent du Marais - Lac Chambon - polka pour piano - par Aloÿs Claussmann ; (ill. par) Bertrand - bpt6k396112t (01 of 10).jpg",
+          "description": "Titre uniforme : Claussmann, Aloys (1850-1926). Compositeur. [La dent du Marais. Piano]\nPolkas (piano) -- +* 1800......- 1899......+:19e siècle:\nPiano, Musique de -- +* 1800......- 1899......+:19e siècle:\nBertrand (18..-18..? ; illustrateur). Illustrateur\n\nÉditeur : Laussedat (Clermont-Ferrand)",
+          "width": 3105,
+          "height": 4047,
+          "size": 1309336,
+          "timestamp": "2025-08-19T05:31:22Z",
+          "author": "<div class=\"fn value\">\nClaussmann, Aloys (1850-1926). Compositeur</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/La_dent_du_Marais_-_Lac_Chambon_-_polka_pour_piano_-_par_Alo%C3%BFs_Claussmann_%3B_%28ill._par%29_Bertrand_-_bpt6k396112t_%2802_of_10%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20dent%20du%20Marais%20-%20Lac%20Chambon%20-%20polka%20pour%20piano%20-%20par%20Alo%C3%BFs%20Claussmann%20%3B%20(ill.%20par)%20Bertrand%20-%20bpt6k396112t%20(02%20of%2010).jpg",
+          "title": "La dent du Marais - Lac Chambon - polka pour piano - par Aloÿs Claussmann ; (ill. par) Bertrand - bpt6k396112t (02 of 10).jpg",
+          "description": "Titre uniforme : Claussmann, Aloys (1850-1926). Compositeur. [La dent du Marais. Piano]\nPolkas (piano) -- +* 1800......- 1899......+:19e siècle:\nPiano, Musique de -- +* 1800......- 1899......+:19e siècle:\nBertrand (18..-18..? ; illustrateur). Illustrateur\n\nÉditeur : Laussedat (Clermont-Ferrand)",
+          "width": 3110,
+          "height": 4052,
+          "size": 816689,
+          "timestamp": "2025-08-19T05:31:35Z",
+          "author": "<div class=\"fn value\">\nClaussmann, Aloys (1850-1926). Compositeur</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

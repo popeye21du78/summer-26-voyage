@@ -1,38 +1,13 @@
 {
   "slug": "bozouls",
   "nom": "Bozouls",
-  "fetchedAt": "2026-03-13T12:22:01.444Z",
+  "fetchedAt": "2026-03-15T20:13:42.408Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Saint_Fausta_church_of_Bozouls_11.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint%20Fausta%20church%20of%20Bozouls%2011.jpg",
-      "title": "Saint Fausta church of Bozouls 11.jpg",
-      "width": 5668,
-      "height": 3456,
-      "size": 13727390,
-      "timestamp": "2020-02-27T21:52:54Z",
-      "author": "Krzysztof Golik",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Saint_Fausta_church_of_Bozouls_09.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint%20Fausta%20church%20of%20Bozouls%2009.jpg",
-      "title": "Saint Fausta church of Bozouls 09.jpg",
-      "width": 5264,
-      "height": 3741,
-      "size": 14810185,
-      "timestamp": "2020-02-27T21:52:54Z",
-      "author": "Krzysztof Golik",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Vue_de_Bozouls_2.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20de%20Bozouls%202.jpg",
       "title": "Vue de Bozouls 2.jpg",
+      "description": "Vue de Bozouls",
       "width": 3968,
       "height": 2240,
       "size": 1974732,
@@ -40,7 +15,35 @@
       "author": "Hernandlucas",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Vue_de_Bozouls_3.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20de%20Bozouls%203.jpg",
+      "title": "Vue de Bozouls 3.jpg",
+      "description": "Vue de Bozouls",
+      "width": 3968,
+      "height": 2240,
+      "size": 3398161,
+      "timestamp": "2020-05-30T13:24:53Z",
+      "author": "Hernandlucas",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Vue_de_Bozouls.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20de%20Bozouls.jpg",
+      "title": "Vue de Bozouls.jpg",
+      "description": "Vue de Bozouls",
+      "width": 3968,
+      "height": 2240,
+      "size": 1983413,
+      "timestamp": "2020-05-30T13:24:56Z",
+      "author": "Hernandlucas",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
     }
   ],
   "lieux": [
@@ -55,6 +58,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Bozouls_-_Eglise_Sainte-Fauste_-_02.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABozouls%20-%20Eglise%20Sainte-Fauste%20-%2002.jpg",
           "title": "Bozouls - Eglise Sainte-Fauste - 02.jpg",
+          "description": "Bozouls - Eglise Sainte-Fauste",
           "width": 6000,
           "height": 4000,
           "size": 6873450,
@@ -68,6 +72,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Bozouls_-_Eglise_Sainte-Fauste_-_01.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABozouls%20-%20Eglise%20Sainte-Fauste%20-%2001.jpg",
           "title": "Bozouls - Eglise Sainte-Fauste - 01.jpg",
+          "description": "Bozouls - Eglise Sainte-Fauste",
           "width": 6000,
           "height": 4000,
           "size": 7260488,
@@ -81,6 +86,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Bozouls_-_Eglise_Sainte-Fauste-_05.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABozouls%20-%20Eglise%20Sainte-Fauste-%2005.jpg",
           "title": "Bozouls - Eglise Sainte-Fauste- 05.jpg",
+          "description": "Bozouls - Eglise Sainte-Fauste",
           "width": 6000,
           "height": 4000,
           "size": 4593875,
@@ -98,7 +104,50 @@
     },
     {
       "label": "Pont de pierre",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Residential_houses_in_Trou_de_Bozouls_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AResidential%20houses%20in%20Trou%20de%20Bozouls%2001.jpg",
+          "title": "Residential houses in Trou de Bozouls 01.jpg",
+          "description": "Residential houses in Trou de Bozouls, Aveyron, France",
+          "width": 6000,
+          "height": 4000,
+          "size": 12447035,
+          "timestamp": "2017-04-26T21:10:44Z",
+          "author": "Krzysztof Golik",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Bozouls_vieux_pont_%281%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABozouls%20vieux%20pont%20(1).jpg",
+          "title": "Bozouls vieux pont (1).jpg",
+          "description": "Le vieux pont sur le Dourdou de Conques, Bozouls, Aveyron, France.",
+          "width": 3190,
+          "height": 2393,
+          "size": 2377760,
+          "timestamp": "2018-04-16T12:37:09Z",
+          "author": "Père Igor",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Bozouls_vieux_pont_%283%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABozouls%20vieux%20pont%20(3).jpg",
+          "title": "Bozouls vieux pont (3).jpg",
+          "description": "Le vieux pont sur le Dourdou de Conques, Bozouls, Aveyron, France.",
+          "width": 3264,
+          "height": 2448,
+          "size": 4561408,
+          "timestamp": "2018-04-16T12:37:09Z",
+          "author": "Père Igor",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

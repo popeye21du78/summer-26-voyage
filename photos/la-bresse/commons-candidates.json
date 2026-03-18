@@ -1,25 +1,27 @@
 {
   "slug": "la-bresse",
   "nom": "La Bresse",
-  "fetchedAt": "2026-03-13T14:56:22.365Z",
+  "fetchedAt": "2026-03-16T14:37:10.238Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/La_Bresse%2C_%C3%89glise_Saint-Laurent_%C3%A0_l%27int%C3%A9rieur.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Bresse%2C%20%C3%89glise%20Saint-Laurent%20%C3%A0%20l'int%C3%A9rieur.jpg",
-      "title": "La Bresse, Église Saint-Laurent à l'intérieur.jpg",
-      "width": 3264,
-      "height": 2448,
-      "size": 2212906,
-      "timestamp": "2020-12-13T17:42:25Z",
-      "author": "Rauenstein",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/La_Bresse_2015.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Bresse%202015.JPG",
+      "title": "La Bresse 2015.JPG",
+      "description": "La Bresse vue du centre depuis la roche du Daval",
+      "width": 3648,
+      "height": 2736,
+      "size": 3109574,
+      "timestamp": "2015-07-21T15:23:45Z",
+      "author": "Epiceavert",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 8
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/La_Bresse%2C_Monument_aux_morts.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Bresse%2C%20Monument%20aux%20morts.jpg",
       "title": "La Bresse, Monument aux morts.jpg",
+      "description": "Monument aux morts à La Bresse",
       "width": 3558,
       "height": 2674,
       "size": 1392340,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/La_Bresse%2C_%C3%89glise_Saint-Laurent_2.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Bresse%2C%20%C3%89glise%20Saint-Laurent%202.jpg",
       "title": "La Bresse, Église Saint-Laurent 2.jpg",
+      "description": "L'église Saint-Laurent de La Bresse, côté ouest",
       "width": 4359,
       "height": 3213,
       "size": 2325323,
@@ -46,51 +49,140 @@
   "lieux": [
     {
       "label": "Étang de Pontoux",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Vue_Bresse_-_M%C3%A2connais_4.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20Bresse%20-%20M%C3%A2connais%204.jpg",
+          "title": "Vue Bresse - Mâconnais 4.jpg",
+          "description": "Vue sur la Bresse et le Mâconnais. La photo a été prise au sommet de la roche de Solutré.\nEn premier plan, on voit la zone commerciale des Bouchardes à Crêches-sur-Saône qui se situe devant le pont d'Arciat, qui lui-même est devant le château d'eau de Bey.",
+          "width": 4743,
+          "height": 3119,
+          "size": 5705682,
+          "timestamp": "2024-03-25T22:43:32Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Vue_Bresse_-_M%C3%A2con_5.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20Bresse%20-%20M%C3%A2con%205.jpg",
+          "title": "Vue Bresse - Mâcon 5.jpg",
+          "description": "Vue sur la Bresse et le nord de Mâcon depuis la roche de Solutré.\nEn premier plan est située la zone industrielle du Stand à Mâcon.\nEn second plan, on trouve le village de Pont-de-Veyle.\nL'A406 se situe entre les deux.\n\nEn arrière plan, on peut voir les deux château d'eau de Saint-Rémy.",
+          "width": 5184,
+          "height": 3456,
+          "size": 6158951,
+          "timestamp": "2016-09-01T11:52:52Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Plaque_Rue_Pont_Ch%C3%A8vres_-_Bourg-en-Bresse_%28FR01%29_-_2024-03-21_-_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlaque%20Rue%20Pont%20Ch%C3%A8vres%20-%20Bourg-en-Bresse%20(FR01)%20-%202024-03-21%20-%201.jpg",
+          "title": "Plaque Rue Pont Chèvres - Bourg-en-Bresse (FR01) - 2024-03-21 - 1.jpg",
+          "description": "Plaque de la rue du Pont-des-Chèvres, Bourg-en-Bresse.",
+          "width": 3454,
+          "height": 1931,
+          "size": 1269306,
+          "timestamp": "2024-03-21T22:03:23Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Chemin de la forêt de la Chaux",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Chemin_enneig%C3%A9_%C3%A0_La_Bresse.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChemin%20enneig%C3%A9%20%C3%A0%20La%20Bresse.jpg",
+          "title": "Chemin enneigé à La Bresse.jpg",
+          "description": "La Bresse",
+          "width": 2640,
+          "height": 1760,
+          "size": 1323827,
+          "timestamp": "2023-10-23T11:44:03Z",
+          "author": "ManoSolo13241324",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Bourg-en-Bresse_-_Gare_-_Plaque_d%27altitude_PLM.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABourg-en-Bresse%20-%20Gare%20-%20Plaque%20d'altitude%20PLM.jpg",
+          "title": "Bourg-en-Bresse - Gare - Plaque d'altitude PLM.jpg",
+          "description": "Plaque d'altitude PLM. Matricule : C'J' - 157.",
+          "width": 4128,
+          "height": 2322,
+          "size": 3077714,
+          "timestamp": "2022-08-13T11:59:03Z",
+          "author": "Romainbehar",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Chemin_Minute_-_Sainte-Croix-en-Bresse_%28FR71%29_-_2024-03-19_-_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChemin%20Minute%20-%20Sainte-Croix-en-Bresse%20(FR71)%20-%202024-03-19%20-%201.jpg",
+          "title": "Chemin Minute - Sainte-Croix-en-Bresse (FR71) - 2024-03-19 - 1.jpg",
+          "description": "Chemin de la Minute, Sainte-Croix-en-Bresse.",
+          "width": 4032,
+          "height": 3024,
+          "size": 3552217,
+          "timestamp": "2024-03-20T01:29:53Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Chapelle de Brou",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Bourg-en-Bresse_Monast%C3%A8re_Royal_de_Brou_%C3%89glise_Saint-Nicolas-de-Tolentin_Int%C3%A9rieur_Choeur_Autel_des_Sept_Joies_de_la_Vierge_8.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABourg-en-Bresse%20Monast%C3%A8re%20Royal%20de%20Brou%20%C3%89glise%20Saint-Nicolas-de-Tolentin%20Int%C3%A9rieur%20Choeur%20Autel%20des%20Sept%20Joies%20de%20la%20Vierge%208.jpg",
-          "title": "Bourg-en-Bresse Monastère Royal de Brou Église Saint-Nicolas-de-Tolentin Intérieur Choeur Autel des Sept Joies de la Vierge 8.jpg",
-          "width": 4554,
-          "height": 3327,
-          "size": 18188220,
-          "timestamp": "2020-12-29T10:45:28Z",
-          "author": "Zairon",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Chapelle_Ste-Madeleine_Bourg_Bresse_14.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20Ste-Madeleine%20Bourg%20Bresse%2014.jpg",
+          "title": "Chapelle Ste-Madeleine Bourg Bresse 14.jpg",
+          "description": "Chapelle Sainte-Madeleine vue depuis le parc de la Madeleine à Bourg-en-Bresse.",
+          "width": 3456,
+          "height": 5184,
+          "size": 6652727,
+          "timestamp": "2016-12-24T23:20:49Z",
+          "author": "Chabe01",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Bourg-en-Bresse_Monast%C3%A8re_Royal_de_Brou_%C3%89glise_Saint-Nicolas-de-Tolentin_Int%C3%A9rieur_Choeur_Autel_des_Sept_Joies_de_la_Vierge_9.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABourg-en-Bresse%20Monast%C3%A8re%20Royal%20de%20Brou%20%C3%89glise%20Saint-Nicolas-de-Tolentin%20Int%C3%A9rieur%20Choeur%20Autel%20des%20Sept%20Joies%20de%20la%20Vierge%209.jpg",
-          "title": "Bourg-en-Bresse Monastère Royal de Brou Église Saint-Nicolas-de-Tolentin Intérieur Choeur Autel des Sept Joies de la Vierge 9.jpg",
-          "width": 4312,
-          "height": 3220,
-          "size": 13613148,
-          "timestamp": "2020-12-29T10:45:32Z",
-          "author": "Zairon",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Chapelle_Ste-Madeleine_Bourg_Bresse_16.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20Ste-Madeleine%20Bourg%20Bresse%2016.jpg",
+          "title": "Chapelle Ste-Madeleine Bourg Bresse 16.jpg",
+          "description": "Chapelle Sainte-Madeleine vue depuis le parc de la Madeleine à Bourg-en-Bresse.",
+          "width": 3456,
+          "height": 5184,
+          "size": 5891327,
+          "timestamp": "2016-12-24T23:20:52Z",
+          "author": "Chabe01",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Bourg-en-Bresse_-_Monast%C3%A8re_de_Brou_-_%C3%89glise_Saint-Nicolas-de-Tolentin_-_Chapelle_de_la_Vierge_-_Retable_des_Sept_Joies_de_la_Vierge_-_Sainte_Marthe%2C_Vierge_%C3%A0_l%27Enfant_et_sainte_Catherine.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABourg-en-Bresse%20-%20Monast%C3%A8re%20de%20Brou%20-%20%C3%89glise%20Saint-Nicolas-de-Tolentin%20-%20Chapelle%20de%20la%20Vierge%20-%20Retable%20des%20Sept%20Joies%20de%20la%20Vierge%20-%20Sainte%20Marthe%2C%20Vierge%20%C3%A0%20l'Enfant%20et%20sainte%20Catherine.jpg",
-          "title": "Bourg-en-Bresse - Monastère de Brou - Église Saint-Nicolas-de-Tolentin - Chapelle de la Vierge - Retable des Sept Joies de la Vierge - Sainte Marthe, Vierge à l'Enfant et sainte Catherine.jpg",
-          "width": 1383,
-          "height": 1056,
-          "size": 777575,
-          "timestamp": "2023-06-08T20:32:06Z",
-          "author": "Romainbehar",
-          "license": "CC0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Chapelle_Ste-Madeleine_Bourg_Bresse_15.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20Ste-Madeleine%20Bourg%20Bresse%2015.jpg",
+          "title": "Chapelle Ste-Madeleine Bourg Bresse 15.jpg",
+          "description": "Chapelle Sainte-Madeleine vue depuis le parc de la Madeleine à Bourg-en-Bresse.",
+          "width": 3456,
+          "height": 5184,
+          "size": 7085889,
+          "timestamp": "2016-12-24T23:20:53Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         }
@@ -98,7 +190,50 @@
     },
     {
       "label": "Marché de Louhans",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/March%C3%A9_No%C3%ABl_Place_Bons_Enfants_-_Bourg-en-Bresse_%28FR01%29_-_2021-12-22_-_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarch%C3%A9%20No%C3%ABl%20Place%20Bons%20Enfants%20-%20Bourg-en-Bresse%20(FR01)%20-%202021-12-22%20-%201.jpg",
+          "title": "Marché Noël Place Bons Enfants - Bourg-en-Bresse (FR01) - 2021-12-22 - 1.jpg",
+          "description": "Marché de Noël sur la place des Bons Enfants, Bourg-en-Bresse.",
+          "width": 4032,
+          "height": 3024,
+          "size": 5039567,
+          "timestamp": "2021-12-23T02:09:35Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/March%C3%A9_No%C3%ABl_Place_Bons_Enfants_-_Bourg-en-Bresse_%28FR01%29_-_2021-12-22_-_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarch%C3%A9%20No%C3%ABl%20Place%20Bons%20Enfants%20-%20Bourg-en-Bresse%20(FR01)%20-%202021-12-22%20-%202.jpg",
+          "title": "Marché Noël Place Bons Enfants - Bourg-en-Bresse (FR01) - 2021-12-22 - 2.jpg",
+          "description": "Marché de Noël sur la place des Bons Enfants, Bourg-en-Bresse.",
+          "width": 4032,
+          "height": 3024,
+          "size": 4670701,
+          "timestamp": "2021-12-23T02:09:35Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/March%C3%A9_No%C3%ABl_Place_Bons_Enfants_-_Bourg-en-Bresse_%28FR01%29_-_2021-12-22_-_3.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarch%C3%A9%20No%C3%ABl%20Place%20Bons%20Enfants%20-%20Bourg-en-Bresse%20(FR01)%20-%202021-12-22%20-%203.jpg",
+          "title": "Marché Noël Place Bons Enfants - Bourg-en-Bresse (FR01) - 2021-12-22 - 3.jpg",
+          "description": "Marché de Noël sur la place des Bons Enfants, Bourg-en-Bresse.",
+          "width": 4032,
+          "height": 3024,
+          "size": 3978342,
+          "timestamp": "2021-12-23T02:09:35Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

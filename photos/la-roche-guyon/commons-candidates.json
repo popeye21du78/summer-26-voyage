@@ -1,12 +1,13 @@
 {
   "slug": "la-roche-guyon",
   "nom": "La Roche-Guyon",
-  "fetchedAt": "2026-03-13T15:07:00.020Z",
+  "fetchedAt": "2026-03-16T19:10:51.535Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/La_Roche-Guyon_-_Ch%C3%A2teau.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Roche-Guyon%20-%20Ch%C3%A2teau.jpg",
       "title": "La Roche-Guyon - Château.jpg",
+      "description": "La Roche-Guyon - Château",
       "width": 4000,
       "height": 3000,
       "size": 2230678,
@@ -14,33 +15,35 @@
       "author": "Jean-Christophe BENOIST",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/La_Roche-Guyon_grand_salon_tapisserie_Esther_IMG_20220321_150621.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Roche-Guyon%20grand%20salon%20tapisserie%20Esther%20IMG%2020220321%20150621.jpg",
-      "title": "La Roche-Guyon grand salon tapisserie Esther IMG 20220321 150621.jpg",
-      "width": 4160,
-      "height": 3120,
-      "size": 4201655,
-      "timestamp": "2022-04-23T19:31:20Z",
-      "author": "Wuyouyuan",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Ch%C3%A2teau_de_La_Roche-Guyon_-_panoramio.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20La%20Roche-Guyon%20-%20panoramio.jpg",
+      "title": "Château de La Roche-Guyon - panoramio.jpg",
+      "description": "Château de La Roche-Guyon",
+      "width": 2592,
+      "height": 1944,
+      "size": 1381778,
+      "timestamp": "2016-03-10T04:49:17Z",
+      "author": "arjenD",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 8
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Mus%C3%A9e_Novera_Ahmed_%C3%A0_La_Roche-Guyon.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e%20Novera%20Ahmed%20%C3%A0%20La%20Roche-Guyon.jpg",
-      "title": "Musée Novera Ahmed à La Roche-Guyon.jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 7129880,
-      "timestamp": "2025-05-17T08:29:38Z",
-      "author": "Sukkoria",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Coteaux_de_la_Seine_depuis_La_Roche-Guyon_2017-09.jpg_n02.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACoteaux%20de%20la%20Seine%20depuis%20La%20Roche-Guyon%202017-09.jpg%20n02.jpg",
+      "title": "Coteaux de la Seine depuis La Roche-Guyon 2017-09.jpg n02.jpg",
+      "description": "La réserve naturelle nationale des coteaux de la Seine vue depuis le sentier du GR2 à La Roche-Guyon.",
+      "width": 6864,
+      "height": 4581,
+      "size": 10345523,
+      "timestamp": "2017-09-30T22:52:03Z",
+      "author": "Marie-Lan Nguyen",
+      "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 8
     }
   ],
   "lieux": [
@@ -48,27 +51,142 @@
       "label": "Donjon médiéval",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Ch%C3%A2teau_de_La_Roche-Guyon%2C_donjon%2C_latrines.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20La%20Roche-Guyon%2C%20donjon%2C%20latrines.jpg",
-          "title": "Château de La Roche-Guyon, donjon, latrines.jpg",
-          "width": 2930,
-          "height": 3907,
-          "size": 4419574,
-          "timestamp": "2021-09-14T02:24:36Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Ch%C3%A2teau_de_La_Roche-Guyon%2C_vue_sur_potager.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20La%20Roche-Guyon%2C%20vue%20sur%20potager.jpg",
+          "title": "Château de La Roche-Guyon, vue sur potager.jpg",
+          "description": "Potager et toits du château de La Roche-Guyon vus depuis son donjon.",
+          "width": 3907,
+          "height": 2930,
+          "size": 4769705,
+          "timestamp": "2021-09-14T02:03:22Z",
           "author": "Fanfwah",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Ch%C3%A2teau_de_La_Roche-Guyon_avec_donjon_et_potager.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20La%20Roche-Guyon%20avec%20donjon%20et%20potager.jpg",
+          "title": "Château de La Roche-Guyon avec donjon et potager.jpg",
+          "description": "Le château de La Roche-Guyon surmonté de son donjon, vu depuis son potager.",
+          "width": 4032,
+          "height": 3024,
+          "size": 4577545,
+          "timestamp": "2021-09-14T02:03:26Z",
+          "author": "Fanfwah",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/La_Roche-Guyon_escalier_souterrain_IMG_20220321_145547.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Roche-Guyon%20escalier%20souterrain%20IMG%2020220321%20145547.jpg",
+          "title": "La Roche-Guyon escalier souterrain IMG 20220321 145547.jpg",
+          "description": "La Roche-Guyon. Première volée de l'escalier souterrain qui relie le château au donjon.",
+          "width": 4160,
+          "height": 3120,
+          "size": 3510838,
+          "timestamp": "2022-04-23T18:51:15Z",
+          "author": "Wuyouyuan",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
         }
       ]
     },
     {
       "label": "Escalier troglodytique",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/La_Roche-Guyon_escalier_souterrain_IMG_20220321_145547.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Roche-Guyon%20escalier%20souterrain%20IMG%2020220321%20145547.jpg",
+          "title": "La Roche-Guyon escalier souterrain IMG 20220321 145547.jpg",
+          "description": "La Roche-Guyon. Première volée de l'escalier souterrain qui relie le château au donjon.",
+          "width": 4160,
+          "height": 3120,
+          "size": 3510838,
+          "timestamp": "2022-04-23T18:51:15Z",
+          "author": "Wuyouyuan",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Chateau_de_la_Roche-Guyon.Le_grand_escalier.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau%20de%20la%20Roche-Guyon.Le%20grand%20escalier.jpg",
+          "title": "Chateau de la Roche-Guyon.Le grand escalier.jpg",
+          "description": "Château de La Roche-Guyon.",
+          "width": 4272,
+          "height": 2848,
+          "size": 1828768,
+          "timestamp": "2011-09-18T19:01:13Z",
+          "author": "BANDJOE",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Le_Chateau_de_la_Roche-Guyon.Le_Grand_escalier_de_l%27entr%C3%A9e_du_Chateau..jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Chateau%20de%20la%20Roche-Guyon.Le%20Grand%20escalier%20de%20l'entr%C3%A9e%20du%20Chateau..jpg",
+          "title": "Le Chateau de la Roche-Guyon.Le Grand escalier de l'entrée du Chateau..jpg",
+          "description": "Château de La Roche-Guyon.",
+          "width": 4272,
+          "height": 2848,
+          "size": 3575608,
+          "timestamp": "2011-09-18T20:52:33Z",
+          "author": "BANDJOE",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Potager en terrasses",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/France_IDF_95_La_Roche-Guyon_03.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20IDF%2095%20La%20Roche-Guyon%2003.jpg",
+          "title": "France IDF 95 La Roche-Guyon 03.jpg",
+          "description": "Potager du château de la Roche-Guyon",
+          "width": 6016,
+          "height": 4016,
+          "size": 10889498,
+          "timestamp": "2020-04-04T07:17:25Z",
+          "author": "Calips",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/France_IDF_95_La_Roche-Guyon_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20IDF%2095%20La%20Roche-Guyon%2001.jpg",
+          "title": "France IDF 95 La Roche-Guyon 01.jpg",
+          "description": "Potager du château de la Roche-Guyon",
+          "width": 6016,
+          "height": 4016,
+          "size": 17485724,
+          "timestamp": "2020-04-04T07:17:26Z",
+          "author": "Calips",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/France_IDF_95_La_Roche-Guyon_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20IDF%2095%20La%20Roche-Guyon%2002.jpg",
+          "title": "France IDF 95 La Roche-Guyon 02.jpg",
+          "description": "Potager du château de la Roche-Guyon",
+          "width": 6016,
+          "height": 4016,
+          "size": 16202733,
+          "timestamp": "2020-04-04T07:17:26Z",
+          "author": "Calips",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     },
     {
       "label": "Terrasse sur la Seine",

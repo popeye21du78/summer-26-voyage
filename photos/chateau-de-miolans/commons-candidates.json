@@ -1,44 +1,47 @@
 {
   "slug": "chateau-de-miolans",
   "nom": "Château de Miolans",
-  "fetchedAt": "2026-03-13T13:12:54.139Z",
+  "fetchedAt": "2026-03-15T21:40:08.145Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Ch%C3%A2teau_de_Miolans_vu_du_nord-ouest_en_%C3%A9t%C3%A9_%28ao%C3%BBt_2021%29.JPG",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Miolans%20vu%20du%20nord-ouest%20en%20%C3%A9t%C3%A9%20(ao%C3%BBt%202021).JPG",
-      "title": "Château de Miolans vu du nord-ouest en été (août 2021).JPG",
-      "width": 3888,
-      "height": 2926,
-      "size": 7918203,
-      "timestamp": "2021-09-19T19:42:45Z",
-      "author": "Florian Pépellin",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Fortress_of_Miolans.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFortress%20of%20Miolans.jpg",
+      "title": "Fortress of Miolans.jpg",
+      "description": "Château de Miolans, a former fortress in Savoy (French Alps)",
+      "width": 4032,
+      "height": 3024,
+      "size": 4810292,
+      "timestamp": "2022-10-12T13:08:19Z",
+      "author": "OpaleRacoon",
       "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/048._Ch%C3%A2teau_de_Miolans.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A048.%20Ch%C3%A2teau%20de%20Miolans.JPG",
+      "title": "048. Château de Miolans.JPG",
+      "description": "Château de Miolans.",
+      "width": 4272,
+      "height": 2848,
+      "size": 8527343,
+      "timestamp": "2012-10-07T11:29:23Z",
+      "author": "Otourly",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Hameau_et_ch%C3%A2teau_de_Miolans_en_%C3%A9t%C3%A9_%28ao%C3%BBt_2021%29.JPG",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHameau%20et%20ch%C3%A2teau%20de%20Miolans%20en%20%C3%A9t%C3%A9%20(ao%C3%BBt%202021).JPG",
-      "title": "Hameau et château de Miolans en été (août 2021).JPG",
-      "width": 3068,
-      "height": 2324,
-      "size": 4973012,
-      "timestamp": "2021-09-19T19:44:13Z",
-      "author": "Florian Pépellin",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Ch%C3%A2teau_de_Miolans_et_son_entr%C3%A9e_au_hameau_%28ao%C3%BBt_2021%29.JPG",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Miolans%20et%20son%20entr%C3%A9e%20au%20hameau%20(ao%C3%BBt%202021).JPG",
-      "title": "Château de Miolans et son entrée au hameau (août 2021).JPG",
-      "width": 3664,
-      "height": 2644,
-      "size": 6328407,
-      "timestamp": "2021-09-21T18:58:45Z",
-      "author": "Florian Pépellin",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/053._Ch%C3%A2teau_de_Miolans.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A053.%20Ch%C3%A2teau%20de%20Miolans.JPG",
+      "title": "053. Château de Miolans.JPG",
+      "description": "Château de Miolans.",
+      "width": 4272,
+      "height": 2848,
+      "size": 4528823,
+      "timestamp": "2012-10-07T11:29:34Z",
+      "author": "Otourly",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     }
@@ -46,15 +49,130 @@
   "lieux": [
     {
       "label": "Donjon et panorama sur la vallée",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Sud_Combe_de_Savoie_depuis_le_donjon_de_Miolans_%28%C3%A9t%C3%A9_2021%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASud%20Combe%20de%20Savoie%20depuis%20le%20donjon%20de%20Miolans%20(%C3%A9t%C3%A9%202021).JPG",
+          "title": "Sud Combe de Savoie depuis le donjon de Miolans (été 2021).JPG",
+          "description": "Panoramic sight, in the evening from Miolans castle dungeon, of Combe de Savoie valley towards Grésivaudan valley, in Savoie, France.",
+          "width": 3933,
+          "height": 2916,
+          "size": 6178354,
+          "timestamp": "2021-09-19T13:51:59Z",
+          "author": "Florian Pépellin",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Terrase_du_donjon_de_Miolans_en_soir%C3%A9e_%28%C3%A9t%C3%A9_2021%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATerrase%20du%20donjon%20de%20Miolans%20en%20soir%C3%A9e%20(%C3%A9t%C3%A9%202021).JPG",
+          "title": "Terrase du donjon de Miolans en soirée (été 2021).JPG",
+          "description": "Sight, in a summer evening, of a terrace of the dungeon of Miolans castle, in Savoie, France.",
+          "width": 3200,
+          "height": 2404,
+          "size": 3406038,
+          "timestamp": "2021-09-19T14:35:07Z",
+          "author": "Florian Pépellin",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Grand_foss%C3%A9_de_Miolans_vu_du_pied_du_donjon_%28%C3%A9t%C3%A9_2021%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrand%20foss%C3%A9%20de%20Miolans%20vu%20du%20pied%20du%20donjon%20(%C3%A9t%C3%A9%202021).JPG",
+          "title": "Grand fossé de Miolans vu du pied du donjon (été 2021).JPG",
+          "description": "Sight, from the bottom of the dungeon, of the great ditch separating both sides of Miolans castle, Savoie, France.",
+          "width": 3264,
+          "height": 2448,
+          "size": 4581376,
+          "timestamp": "2021-09-19T14:38:20Z",
+          "author": "Florian Pépellin",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Cour intérieure et remparts",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Vue_depuis_le_nord_de_la_haute_cour_de_Miolans_%28%C3%A9t%C3%A9_2021%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20depuis%20le%20nord%20de%20la%20haute%20cour%20de%20Miolans%20(%C3%A9t%C3%A9%202021).JPG",
+          "title": "Vue depuis le nord de la haute cour de Miolans (été 2021).JPG",
+          "description": "Sight from the high court of Miolans castle, Savoie, France.",
+          "width": 3927,
+          "height": 2931,
+          "size": 7964904,
+          "timestamp": "2021-09-22T18:27:27Z",
+          "author": "Florian Pépellin",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Rampe_d%27acc%C3%A8s_de_Miolans_vu_de_la_haute_cour_%28ao%C3%BBt_2021%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARampe%20d'acc%C3%A8s%20de%20Miolans%20vu%20de%20la%20haute%20cour%20(ao%C3%BBt%202021).JPG",
+          "title": "Rampe d'accès de Miolans vu de la haute cour (août 2021).JPG",
+          "description": "Sight, from the high court, of the access ramp to Miolans castle, Savoie, France.",
+          "width": 2448,
+          "height": 3264,
+          "size": 4177829,
+          "timestamp": "2021-09-22T18:26:07Z",
+          "author": "Florian Pépellin",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Anciennes geôles du château",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/048._Ch%C3%A2teau_de_Miolans.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A048.%20Ch%C3%A2teau%20de%20Miolans.JPG",
+          "title": "048. Château de Miolans.JPG",
+          "description": "Château de Miolans.",
+          "width": 4272,
+          "height": 2848,
+          "size": 8527343,
+          "timestamp": "2012-10-07T11:29:23Z",
+          "author": "Otourly",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/055._Ch%C3%A2teau_de_Miolans.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A055.%20Ch%C3%A2teau%20de%20Miolans.JPG",
+          "title": "055. Château de Miolans.JPG",
+          "description": "Château de Miolans.",
+          "width": 4272,
+          "height": 2848,
+          "size": 7334704,
+          "timestamp": "2012-10-07T11:29:48Z",
+          "author": "Otourly",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/056._Ch%C3%A2teau_de_Miolans.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A056.%20Ch%C3%A2teau%20de%20Miolans.JPG",
+          "title": "056. Château de Miolans.JPG",
+          "description": "Château de Miolans.",
+          "width": 4272,
+          "height": 2848,
+          "size": 7502514,
+          "timestamp": "2012-10-07T11:30:06Z",
+          "author": "Otourly",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Jardins en terrasses",
@@ -63,6 +181,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Haute-cour_de_Miolans_vue_de_la_terrasse_du_donjon_%28%C3%A9t%C3%A9_2021%29.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHaute-cour%20de%20Miolans%20vue%20de%20la%20terrasse%20du%20donjon%20(%C3%A9t%C3%A9%202021).JPG",
           "title": "Haute-cour de Miolans vue de la terrasse du donjon (été 2021).JPG",
+          "description": "Sight, in the evening from the highest terrace of the dungeon, on the high court gardens of Miolans castle, Savoie, France.",
           "width": 4000,
           "height": 3000,
           "size": 6374037,
@@ -73,30 +192,32 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Jardins_du_ch%C3%A2teau_de_Miolans_vus_du_donjon_%28avril_2019%29.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJardins%20du%20ch%C3%A2teau%20de%20Miolans%20vus%20du%20donjon%20(avril%202019).JPG",
-          "title": "Jardins du château de Miolans vus du donjon (avril 2019).JPG",
-          "width": 3210,
-          "height": 2374,
-          "size": 5787253,
-          "timestamp": "2019-05-04T14:49:18Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Haute-cour_et_citerne_de_Miolans_en_soir%C3%A9e_%28%C3%A9t%C3%A9_2021%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHaute-cour%20et%20citerne%20de%20Miolans%20en%20soir%C3%A9e%20(%C3%A9t%C3%A9%202021).JPG",
+          "title": "Haute-cour et citerne de Miolans en soirée (été 2021).JPG",
+          "description": "Sight, from the high court gardens, of Miolans castle, Savoie, France.",
+          "width": 3948,
+          "height": 2965,
+          "size": 5002063,
+          "timestamp": "2021-09-19T17:33:46Z",
           "author": "Florian Pépellin",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Haute-cour_de_Miolans_et_Arclusaz_en_soir%C3%A9e_%28ao%C3%BBt_2021%29.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHaute-cour%20de%20Miolans%20et%20Arclusaz%20en%20soir%C3%A9e%20(ao%C3%BBt%202021).JPG",
-          "title": "Haute-cour de Miolans et Arclusaz en soirée (août 2021).JPG",
-          "width": 3000,
-          "height": 4000,
-          "size": 4807435,
-          "timestamp": "2021-09-19T17:30:47Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Haute-cour_et_jardins_du_ch%C3%A2teau_de_Miolans_%28ao%C3%BBt_2021%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHaute-cour%20et%20jardins%20du%20ch%C3%A2teau%20de%20Miolans%20(ao%C3%BBt%202021).JPG",
+          "title": "Haute-cour et jardins du château de Miolans (août 2021).JPG",
+          "description": "Sight, from the high court gardens, of Miolans castle, Savoie, France.",
+          "width": 3956,
+          "height": 2964,
+          "size": 8648277,
+          "timestamp": "2021-09-19T17:36:38Z",
           "author": "Florian Pépellin",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         }
       ]
     }

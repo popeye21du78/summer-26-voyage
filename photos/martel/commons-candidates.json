@@ -1,12 +1,13 @@
 {
   "slug": "martel",
   "nom": "Martel",
-  "fetchedAt": "2026-03-13T16:06:06.267Z",
+  "fetchedAt": "2026-03-16T21:21:21.419Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Martel_-_Lot_6.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMartel%20-%20Lot%206.jpg",
       "title": "Martel - Lot 6.jpg",
+      "description": "Village de Martel dans le Lot",
       "width": 5184,
       "height": 3888,
       "size": 7756553,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Martel_Palais_Raymondie_2.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMartel%20Palais%20Raymondie%202.jpg",
       "title": "Martel Palais Raymondie 2.jpg",
+      "description": "Village de Martel dans le Lot",
       "width": 5184,
       "height": 3888,
       "size": 8506027,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Martel_Palais_Raymondie_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMartel%20Palais%20Raymondie%201.jpg",
       "title": "Martel Palais Raymondie 1.jpg",
+      "description": "Village de Martel dans le Lot",
       "width": 5184,
       "height": 3888,
       "size": 8709861,
@@ -46,23 +49,95 @@
   "lieux": [
     {
       "label": "Halle centrale",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/France_Occitanie_46_Martel_03.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20Occitanie%2046%20Martel%2003.jpg",
+          "title": "France Occitanie 46 Martel 03.jpg",
+          "description": "Halle de Martel",
+          "width": 6016,
+          "height": 4016,
+          "size": 7997598,
+          "timestamp": "2020-03-27T06:28:00Z",
+          "author": "Calips",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/France_Occitanie_46_Martel_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20Occitanie%2046%20Martel%2002.jpg",
+          "title": "France Occitanie 46 Martel 02.jpg",
+          "description": "Hôtel de ville, halle de Martel",
+          "width": 6016,
+          "height": 4016,
+          "size": 4856443,
+          "timestamp": "2020-03-27T06:28:00Z",
+          "author": "Calips",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Martel_Halles_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMartel%20Halles%202.jpg",
+          "title": "Martel Halles 2.jpg",
+          "description": "halle construite avec une charpente en châtaignier et des \"conques\" (mesures à grain) sur l'emplacement de l'arsenal et du premier hôtel de ville après leur démolition en 1792",
+          "width": 5184,
+          "height": 3888,
+          "size": 5381414,
+          "timestamp": "2022-06-27T13:08:34Z",
+          "author": "Selmoval",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Tour Tournemire",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Martel%2C_la_ville_aux_7_tours.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMartel%2C%20la%20ville%20aux%207%20tours.jpg",
-          "title": "Martel, la ville aux 7 tours.jpg",
-          "width": 1713,
-          "height": 2770,
-          "size": 1468718,
-          "timestamp": "2022-01-09T16:17:27Z",
-          "author": "Louis Blanchard 1975",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Martel_-_Tour_de_Mirandol_Maison_Blanchard_%C2%A9_Christian_Girault.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMartel%20-%20Tour%20de%20Mirandol%20Maison%20Blanchard%20%C2%A9%20Christian%20Girault.jpg",
+          "title": "Martel - Tour de Mirandol Maison Blanchard © Christian Girault.jpg",
+          "description": "La tour de Mirandol est l'une des tours de la tradition qui confère à Martel dans le département français du Lot son appellation de \"ville aux sept tours\".",
+          "width": 4288,
+          "height": 2848,
+          "size": 9876972,
+          "timestamp": "2020-07-06T14:03:26Z",
+          "author": "Christian Girault",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Lyon_-_Palais_de_justice_et_Coteau_de_Fourvi%C3%A8re_%28CP_Martel%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALyon%20-%20Palais%20de%20justice%20et%20Coteau%20de%20Fourvi%C3%A8re%20(CP%20Martel).jpg",
+          "title": "Lyon - Palais de justice et Coteau de Fourvière (CP Martel).jpg",
+          "description": "Palais de justice et coteau de Fourvière.",
+          "width": 3240,
+          "height": 2008,
+          "size": 3068210,
+          "timestamp": "2021-01-31T16:14:32Z",
+          "author": "Editions P. Martel (Lyon), début 20e siècle",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Martel_-_Tour_de_Mirandol_-_Maison_Blanchard.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMartel%20-%20Tour%20de%20Mirandol%20-%20Maison%20Blanchard.jpg",
+          "title": "Martel - Tour de Mirandol - Maison Blanchard.jpg",
+          "description": "La tour de Mirandol est l'une des tours de la tradition qui confère à Martel dans le département français du Lot son appellation de \"ville aux sept tours\".",
+          "width": 1334,
+          "height": 750,
+          "size": 400237,
+          "timestamp": "2022-09-26T11:02:09Z",
+          "author": "Pierre-Yves REDON",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
         }
       ]
     },
@@ -73,6 +148,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Martel_-_Eglise_Saint-Maur_-_01.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMartel%20-%20Eglise%20Saint-Maur%20-%2001.jpg",
           "title": "Martel - Eglise Saint-Maur - 01.jpg",
+          "description": "Martel - Eglise Saint-Maur",
           "width": 6000,
           "height": 4000,
           "size": 10111647,
@@ -86,6 +162,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Martel_-_Eglise_Saint-Maur_-_06.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMartel%20-%20Eglise%20Saint-Maur%20-%2006.jpg",
           "title": "Martel - Eglise Saint-Maur - 06.jpg",
+          "description": "Martel - Eglise Saint-Maur",
           "width": 6000,
           "height": 4000,
           "size": 10592333,
@@ -99,6 +176,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Martel_-_Eglise_Saint-Maur_-_07.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMartel%20-%20Eglise%20Saint-Maur%20-%2007.jpg",
           "title": "Martel - Eglise Saint-Maur - 07.jpg",
+          "description": "Martel - Eglise Saint-Maur",
           "width": 6000,
           "height": 4000,
           "size": 8624562,

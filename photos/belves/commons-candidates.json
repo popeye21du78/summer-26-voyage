@@ -1,56 +1,146 @@
 {
   "slug": "belves",
   "nom": "Belvès",
-  "fetchedAt": "2026-03-13T00:16:09.168Z",
+  "fetchedAt": "2026-03-16T19:35:21.359Z",
+  "strategyVersion": 2,
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Centre_village_de_Bouillac.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACentre%20village%20de%20Bouillac.jpg",
-      "title": "Centre village de Bouillac.jpg",
-      "width": 4160,
-      "height": 3120,
-      "size": 3711848,
-      "timestamp": "2019-08-08T07:03:05Z",
-      "author": "Tesad",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Belv%C3%A8s_-_Panorama_21.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABelv%C3%A8s%20-%20Panorama%2021.jpg",
+      "title": "Belvès - Panorama 21.jpg",
+      "description": "Belvès - Panorama",
+      "width": 3093,
+      "height": 1909,
+      "size": 3569496,
+      "timestamp": "2024-11-15T10:37:10Z",
+      "author": "Renhour48",
+      "license": "CC0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Centre_de_Bouillac.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACentre%20de%20Bouillac.jpg",
-      "title": "Centre de Bouillac.jpg",
-      "width": 4160,
-      "height": 3120,
-      "size": 6544039,
-      "timestamp": "2019-08-09T14:27:05Z",
-      "author": "Tesad",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Belv%C3%A8s_-_Panorama_20.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABelv%C3%A8s%20-%20Panorama%2020.jpg",
+      "title": "Belvès - Panorama 20.jpg",
+      "description": "Belvès - Panorama",
+      "width": 5731,
+      "height": 3396,
+      "size": 10615331,
+      "timestamp": "2024-11-15T10:37:11Z",
+      "author": "Renhour48",
+      "license": "CC0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/SaintBarnab%C3%A9ChurchDordogne1.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaintBarnab%C3%A9ChurchDordogne1.jpg",
-      "title": "SaintBarnabéChurchDordogne1.jpg",
-      "width": 4288,
-      "height": 2848,
-      "size": 3077691,
-      "timestamp": "2010-09-03T22:28:21Z",
-      "author": "Flblbl",
-      "license": "CC BY-SA 3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/View_of_Belves_02.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AView%20of%20Belves%2002.jpg",
+      "title": "View of Belves 02.jpg",
+      "description": "View of Belvès, Dordogne, France",
+      "width": 3689,
+      "height": 2345,
+      "size": 7175034,
+      "timestamp": "2017-12-26T16:58:29Z",
+      "author": "Krzysztof Golik",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
+      "score": 8
     }
   ],
   "lieux": [
     {
       "label": "Halle médiévale de Belvès",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Belv%C3%A8s_-_Les_hallles_-_Le_pilori_-_historique.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABelv%C3%A8s%20-%20Les%20hallles%20-%20Le%20pilori%20-%20historique.jpg",
+          "title": "Belvès - Les hallles - Le pilori - historique.jpg",
+          "description": "Belvès - Les hallles",
+          "width": 3859,
+          "height": 2947,
+          "size": 7098227,
+          "timestamp": "2024-11-14T17:45:44Z",
+          "author": "Renhour48",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Belv%C3%A8s_-_Les_hallles_20.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABelv%C3%A8s%20-%20Les%20hallles%2020.jpg",
+          "title": "Belvès - Les hallles 20.jpg",
+          "description": "Belvès - Les hallles",
+          "width": 6000,
+          "height": 4000,
+          "size": 13650279,
+          "timestamp": "2024-11-14T17:45:48Z",
+          "author": "Renhour48",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Belv%C3%A8s_-_Les_hallles_21.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABelv%C3%A8s%20-%20Les%20hallles%2021.jpg",
+          "title": "Belvès - Les hallles 21.jpg",
+          "description": "Belvès - Les hallles",
+          "width": 6000,
+          "height": 4000,
+          "size": 13661020,
+          "timestamp": "2024-11-14T17:45:48Z",
+          "author": "Renhour48",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Maisons troglodytiques sous la place centrale",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Belv%C3%A8s_-_mairie_12.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABelv%C3%A8s%20-%20mairie%2012.jpg",
+          "title": "Belvès - mairie 12.jpg",
+          "description": "Belvès - La mairie",
+          "width": 6000,
+          "height": 4000,
+          "size": 13384151,
+          "timestamp": "2024-11-15T09:21:30Z",
+          "author": "Renhour48",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Belv%C3%A8s_-_mairie_11.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABelv%C3%A8s%20-%20mairie%2011.jpg",
+          "title": "Belvès - mairie 11.jpg",
+          "description": "Belvès - La mairie",
+          "width": 6000,
+          "height": 4000,
+          "size": 12993841,
+          "timestamp": "2024-11-15T09:21:32Z",
+          "author": "Renhour48",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Belv%C3%A8s_-_mairie_10.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABelv%C3%A8s%20-%20mairie%2010.jpg",
+          "title": "Belvès - mairie 10.jpg",
+          "description": "Belvès - La mairie",
+          "width": 6000,
+          "height": 4000,
+          "size": 14099086,
+          "timestamp": "2024-11-15T09:21:32Z",
+          "author": "Renhour48",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Tour de l’Auditeur",
@@ -59,6 +149,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Belv%C3%A8s_-_C%C3%B4t%C3%A9_sud_-_L%27ancien_coll%C3%A8ge_et_la_tour_de_l%27Auditeur.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABelv%C3%A8s%20-%20C%C3%B4t%C3%A9%20sud%20-%20L'ancien%20coll%C3%A8ge%20et%20la%20tour%20de%20l'Auditeur.jpg",
           "title": "Belvès - Côté sud - L'ancien collège et la tour de l'Auditeur.jpg",
+          "description": "Belvès - Côté sud - L'ancien collège et la tour de l'Auditeur",
           "width": 4837,
           "height": 2555,
           "size": 2825178,
@@ -69,30 +160,32 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Belv%C3%A8s_-_La_Tour_de_l%27Auditeur_A.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABelv%C3%A8s%20-%20La%20Tour%20de%20l'Auditeur%20A.jpg",
-          "title": "Belvès - La Tour de l'Auditeur A.jpg",
-          "width": 3785,
-          "height": 6000,
-          "size": 12973719,
-          "timestamp": "2024-11-15T10:29:51Z",
-          "author": "Renhour48",
-          "license": "CC0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Tour_de_l%27H%C3%B4pital_in_Belves_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATour%20de%20l'H%C3%B4pital%20in%20Belves%2002.jpg",
+          "title": "Tour de l'Hôpital in Belves 02.jpg",
+          "description": "Tour de l'Hôpital in Belvès, Dordogne, France\n\n\n\n\n\n \nThis building is inscrit au titre des monuments historiques de la France. It is indexed in the base Mérimée, a database of architectural heritage maintained by the French Ministry of Culture, under the reference PA00082369 .\n\nbrezhoneg ∙ català ∙ Deutsch ∙ English ∙ español ∙ Esperanto ∙ euskara ∙ français ∙ italiano ∙ magyar ∙ Nederlands ∙ português do Brasil ∙ português ∙ română ∙ sicilianu ∙ slovenščina ∙ suomi ∙ svenska ∙ Ελληνικά ∙ белару",
+          "width": 3647,
+          "height": 2494,
+          "size": 6561647,
+          "timestamp": "2017-12-25T18:42:37Z",
+          "author": "Krzysztof Golik",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Belv%C3%A8s_-_Tour_de_l%27Auditeur.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABelv%C3%A8s%20-%20Tour%20de%20l'Auditeur.JPG",
-          "title": "Belvès - Tour de l'Auditeur.JPG",
-          "width": 2736,
-          "height": 3648,
-          "size": 4914742,
-          "timestamp": "2010-01-24T15:54:35Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Belv%C3%A8s_-_Mairie_et_clocher_du_couvent_des_Fr%C3%A8res_Pr%C3%AAcheurs_ou_tour_de_la_mairie.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABelv%C3%A8s%20-%20Mairie%20et%20clocher%20du%20couvent%20des%20Fr%C3%A8res%20Pr%C3%AAcheurs%20ou%20tour%20de%20la%20mairie.jpg",
+          "title": "Belvès - Mairie et clocher du couvent des Frères Prêcheurs ou tour de la mairie.jpg",
+          "description": "Belvès - Mairie et clocher du couvent des Frères Prêcheurs ou tour de la mairie",
+          "width": 4896,
+          "height": 3672,
+          "size": 6611160,
+          "timestamp": "2018-02-02T23:01:52Z",
           "author": "MOSSOT",
-          "license": "CC BY-SA 3.0",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 6
         }
       ]
     },

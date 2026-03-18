@@ -1,12 +1,13 @@
 {
   "slug": "maillezais",
   "nom": "Maillezais",
-  "fetchedAt": "2026-03-13T16:01:45.124Z",
+  "fetchedAt": "2026-03-16T21:09:51.543Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Marais_Poitevin_%40_Maillezais_07.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarais%20Poitevin%20%40%20Maillezais%2007.jpg",
       "title": "Marais Poitevin @ Maillezais 07.jpg",
+      "description": "Le marais poitevin à Maillezais, Vendée, France",
       "width": 4608,
       "height": 3456,
       "size": 5949598,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Marais_Poitevin_%40_Maillezais_10.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarais%20Poitevin%20%40%20Maillezais%2010.jpg",
       "title": "Marais Poitevin @ Maillezais 10.jpg",
+      "description": "Le marais poitevin à Maillezais, Vendée, France",
       "width": 4608,
       "height": 3456,
       "size": 6365557,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Porche_de_l%27%C3%A9glise_Saint-Nicolas_de_Maillezais.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APorche%20de%20l'%C3%A9glise%20Saint-Nicolas%20de%20Maillezais.jpg",
       "title": "Porche de l'église Saint-Nicolas de Maillezais.jpg",
+      "description": "Église Saint Nicolas de Maillezais  Vendée Pays de la Loire.- France",
       "width": 2941,
       "height": 2154,
       "size": 1482264,
@@ -46,11 +49,69 @@
   "lieux": [
     {
       "label": "Nef ouverte",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Abbaye_de_Maillezais_03.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20de%20Maillezais%2003.jpg",
+          "title": "Abbaye de Maillezais 03.jpg",
+          "description": "L'abbaye de Maillezais, Vendée, France",
+          "width": 4608,
+          "height": 3456,
+          "size": 5584967,
+          "timestamp": "2023-08-25T08:41:29Z",
+          "author": "Rémih",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Abbaye_de_Maillezais_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20de%20Maillezais%2002.jpg",
+          "title": "Abbaye de Maillezais 02.jpg",
+          "description": "L'abbaye de Maillezais, Vendée, France",
+          "width": 4608,
+          "height": 3456,
+          "size": 4677078,
+          "timestamp": "2023-08-25T08:41:29Z",
+          "author": "Rémih",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Abbaye_de_Maillezais_04.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20de%20Maillezais%2004.jpg",
+          "title": "Abbaye de Maillezais 04.jpg",
+          "description": "L'abbaye de Maillezais, Vendée, France",
+          "width": 3456,
+          "height": 4608,
+          "size": 4272978,
+          "timestamp": "2023-08-25T08:41:33Z",
+          "author": "Rémih",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Cloître",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Ancienne_abbaye_Saint-Pierre_de_Maillezais.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAncienne%20abbaye%20Saint-Pierre%20de%20Maillezais.jpg",
+          "title": "Ancienne abbaye Saint-Pierre de Maillezais.jpg",
+          "description": "Les ruines de l'ancienne abbaye de Maillezais (Vendée) comprennent l'église abbatiale et son cloitre, le réfectoire, le dortoir des moines, la cuisine octogonale, les caves voûtées, les remparts avec leurs échauguettes. Ici l'église abbatiale, construite entre le XIe et le XIVe siècles.",
+          "width": 3648,
+          "height": 2736,
+          "size": 2487558,
+          "timestamp": "2011-09-18T21:13:37Z",
+          "author": "Antistrophe",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Réfectoire",
@@ -59,6 +120,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Abbaye_de_Maillezais_%40_Canal_de_la_jeune_Autise.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20de%20Maillezais%20%40%20Canal%20de%20la%20jeune%20Autise.jpg",
           "title": "Abbaye de Maillezais @ Canal de la jeune Autise.jpg",
+          "description": "L'abbaye de Maillezais vue depuis le canal de la jeune Autise, Maillezais, Vendée, France",
           "width": 4608,
           "height": 3456,
           "size": 4677745,
@@ -66,12 +128,13 @@
           "author": "Rémih",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/La_cath%C3%A9drale_Saint-Pierre_de_Maillezais_%282%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20cath%C3%A9drale%20Saint-Pierre%20de%20Maillezais%20(2).jpg",
           "title": "La cathédrale Saint-Pierre de Maillezais (2).jpg",
+          "description": "Cathédrale Saint-Pierre de Maillezais  Vendée Pays de la Loire.- France",
           "width": 4740,
           "height": 2982,
           "size": 3354673,
@@ -85,6 +148,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/La_cath%C3%A9drale_Saint-Pierre_de_Maillezais_%283%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20cath%C3%A9drale%20Saint-Pierre%20de%20Maillezais%20(3).jpg",
           "title": "La cathédrale Saint-Pierre de Maillezais (3).jpg",
+          "description": "Remains of Reectoiry in Abbaye de Maillezais, vus du canal de la Jeune-Autise.- Maillezais, Vendée [Pays de la Loire.- France",
           "width": 3902,
           "height": 1244,
           "size": 3584049,
@@ -98,7 +162,36 @@
     },
     {
       "label": "Salle capitulaire",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Salle_vout%C3%A9e_%C3%A0_l%27abbaye_Saint-Pierre_de_Maillezais.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASalle%20vout%C3%A9e%20%C3%A0%20l'abbaye%20Saint-Pierre%20de%20Maillezais.jpg",
+          "title": "Salle voutée à l'abbaye Saint-Pierre de Maillezais.jpg",
+          "description": "Salle voutée à l'abbaye de Maillezais servant de réserve",
+          "width": 3872,
+          "height": 2592,
+          "size": 2684616,
+          "timestamp": "2011-09-10T10:04:59Z",
+          "author": "Dflandre",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Salle_vout%C3%A9e_%C3%A0_l%27abbaye_de_Maillezais.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASalle%20vout%C3%A9e%20%C3%A0%20l'abbaye%20de%20Maillezais.jpg",
+          "title": "Salle voutée à l'abbaye de Maillezais.jpg",
+          "description": "Salle voutée à l'abbaye de Maillezais servant de réserve",
+          "width": 3872,
+          "height": 2592,
+          "size": 4070558,
+          "timestamp": "2011-09-10T10:04:59Z",
+          "author": "Dflandre",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     }
   ]
 }

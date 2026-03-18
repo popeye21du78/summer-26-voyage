@@ -1,12 +1,13 @@
 {
   "slug": "gerberoy",
   "nom": "Gerberoy",
-  "fetchedAt": "2026-03-13T14:32:50.479Z",
+  "fetchedAt": "2026-03-16T13:41:13.141Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Panoramas_sur_Gerberoy_en_2015_%281%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanoramas%20sur%20Gerberoy%20en%202015%20(1).jpg",
       "title": "Panoramas sur Gerberoy en 2015 (1).jpg",
+      "description": "Panoramic view of Gerberoy (Oise department, France)",
       "width": 3574,
       "height": 1840,
       "size": 2812143,
@@ -14,12 +15,13 @@
       "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q97949455\" class=\"extiw\" title=\"d:Q97949455\"><span title=\"French photographer and Wikimedian\">Pierre André Leclercq</span></a></bdi>",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Panoramas_sur_Gerberoy_en_2015_%282%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanoramas%20sur%20Gerberoy%20en%202015%20(2).jpg",
       "title": "Panoramas sur Gerberoy en 2015 (2).jpg",
+      "description": "Panoramic view of Gerberoy (Oise department, France)",
       "width": 3800,
       "height": 2850,
       "size": 5742591,
@@ -27,17 +29,18 @@
       "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q97949455\" class=\"extiw\" title=\"d:Q97949455\"><span title=\"French photographer and Wikimedian\">Pierre André Leclercq</span></a></bdi>",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Water_wells_in_Gerberoy-_rue_Henri_le_Sidaner_%282%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWater%20wells%20in%20Gerberoy-%20rue%20Henri%20le%20Sidaner%20(2).jpg",
-      "title": "Water wells in Gerberoy- rue Henri le Sidaner (2).jpg",
-      "width": 2258,
-      "height": 1685,
-      "size": 2730173,
-      "timestamp": "2025-06-09T10:44:22Z",
-      "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q97949455\" class=\"extiw\" title=\"d:Q97949455\"><span title=\"French photographer and Wikimedian\">Pierre André Leclercq</span></a></bdi>",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Gerberoy_les_jardins_Henri_le_Sidaner_%286%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGerberoy%20les%20jardins%20Henri%20le%20Sidaner%20(6).jpg",
+      "title": "Gerberoy les jardins Henri le Sidaner (6).jpg",
+      "description": "La collégiale St Pierre vue des jardins Henri Le Sidaner   Gerberoy   Picardie",
+      "width": 2724,
+      "height": 2326,
+      "size": 1439225,
+      "timestamp": "2015-05-04T13:42:21Z",
+      "author": "PIERRE ANDRE LECLERCQ",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
@@ -46,15 +49,26 @@
   "lieux": [
     {
       "label": "Porte de l’Horloge",
-      "photos": []
-    },
-    {
-      "label": "Jardins Le Sidaner",
       "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Henri_le_sidaner_terrasse_a_gerberoy011046%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHenri%20le%20sidaner%20terrasse%20a%20gerberoy011046).jpg",
+          "title": "Henri le sidaner terrasse a gerberoy011046).jpg",
+          "description": "",
+          "width": 3200,
+          "height": 2194,
+          "size": 3744149,
+          "timestamp": "2022-06-30T22:16:45Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Henri_Le_Sidaner\" class=\"extiw\" title=\"w:en:Henri Le Sidaner\"><span title=\"French painter (1862-1939)\">Henri Le Sidaner</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Henri_Le_Sidaner_-_La_table_sur_le_jardin_fleuri_au_cr%C3%A9puscule%2C_Gerberoy.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHenri%20Le%20Sidaner%20-%20La%20table%20sur%20le%20jardin%20fleuri%20au%20cr%C3%A9puscule%2C%20Gerberoy.jpg",
           "title": "Henri Le Sidaner - La table sur le jardin fleuri au crépuscule, Gerberoy.jpg",
+          "description": "",
           "width": 1920,
           "height": 1543,
           "size": 1495902,
@@ -68,6 +82,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Henri_Le_Sidaner_-_The_Table_in_the_White_Garden_at_Gerberoy_-_1493_-_Collectie_Vlaamse_Gemeenschap.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHenri%20Le%20Sidaner%20-%20The%20Table%20in%20the%20White%20Garden%20at%20Gerberoy%20-%201493%20-%20Collectie%20Vlaamse%20Gemeenschap.jpg",
           "title": "Henri Le Sidaner - The Table in the White Garden at Gerberoy - 1493 - Collectie Vlaamse Gemeenschap.jpg",
+          "description": "",
           "width": 7553,
           "height": 5906,
           "size": 9231374,
@@ -76,19 +91,53 @@
           "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
+        }
+      ]
+    },
+    {
+      "label": "Jardins Le Sidaner",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Gerberoy_les_jardins_Henri_le_Sidaner_%286%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGerberoy%20les%20jardins%20Henri%20le%20Sidaner%20(6).jpg",
+          "title": "Gerberoy les jardins Henri le Sidaner (6).jpg",
+          "description": "La collégiale St Pierre vue des jardins Henri Le Sidaner   Gerberoy   Picardie",
+          "width": 2724,
+          "height": 2326,
+          "size": 1439225,
+          "timestamp": "2015-05-04T13:42:21Z",
+          "author": "PIERRE ANDRE LECLERCQ",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Gerberoy_les_jardins_Henri_le_Sidaner_%281%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGerberoy%20les%20jardins%20Henri%20le%20Sidaner%20(1).jpg",
-          "title": "Gerberoy les jardins Henri le Sidaner (1).jpg",
-          "width": 4608,
-          "height": 3456,
-          "size": 11767609,
-          "timestamp": "2015-05-01T16:09:37Z",
-          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q97949455\" class=\"extiw\" title=\"d:Q97949455\"><span title=\"French photographer and Wikimedian\">Pierre André Leclercq</span></a></bdi>",
-          "license": "CC BY 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Henri_Le_Sidaner_-_La_table_sur_le_jardin_fleuri_au_cr%C3%A9puscule%2C_Gerberoy.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHenri%20Le%20Sidaner%20-%20La%20table%20sur%20le%20jardin%20fleuri%20au%20cr%C3%A9puscule%2C%20Gerberoy.jpg",
+          "title": "Henri Le Sidaner - La table sur le jardin fleuri au crépuscule, Gerberoy.jpg",
+          "description": "",
+          "width": 1920,
+          "height": 1543,
+          "size": 1495902,
+          "timestamp": "2022-11-09T00:22:11Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Henri_Le_Sidaner\" class=\"extiw\" title=\"w:en:Henri Le Sidaner\"><span title=\"French painter (1862-1939)\">Henri Le Sidaner</span></a></bdi>",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Henri_Le_Sidaner_-_The_Table_in_the_White_Garden_at_Gerberoy_-_1493_-_Collectie_Vlaamse_Gemeenschap.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHenri%20Le%20Sidaner%20-%20The%20Table%20in%20the%20White%20Garden%20at%20Gerberoy%20-%201493%20-%20Collectie%20Vlaamse%20Gemeenschap.jpg",
+          "title": "Henri Le Sidaner - The Table in the White Garden at Gerberoy - 1493 - Collectie Vlaamse Gemeenschap.jpg",
+          "description": "",
+          "width": 7553,
+          "height": 5906,
+          "size": 9231374,
+          "timestamp": "2023-11-06T17:16:04Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Henri_Le_Sidaner\" class=\"extiw\" title=\"w:en:Henri Le Sidaner\"><span title=\"French painter (1862-1939)\">Henri Le Sidaner</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
         }
       ]
     },
@@ -96,9 +145,24 @@
       "label": "Église Saint-Pierre",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/%C3%89glise_Notre-Dame_de_Lachapelle-sous-Gerberoy_8.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Notre-Dame%20de%20Lachapelle-sous-Gerberoy%208.jpg",
+          "title": "Église Notre-Dame de Lachapelle-sous-Gerberoy 8.jpg",
+          "description": "Église Notre-Dame de Lachapelle-sous-Gerberoy - Vue de l'Est",
+          "width": 2848,
+          "height": 4272,
+          "size": 2025892,
+          "timestamp": "2016-09-17T13:55:18Z",
+          "author": "Antoine Garnier",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Lille_PdBA_le_sidaner_eglise_gerberoy.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALille%20PdBA%20le%20sidaner%20eglise%20gerberoy.JPG",
           "title": "Lille PdBA le sidaner eglise gerberoy.JPG",
+          "description": "",
           "width": 2413,
           "height": 2357,
           "size": 5048595,
@@ -109,30 +173,18 @@
           "score": 6
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Vitrail_Chapelle_de_la_Viege_Coll%C3%A9giale_St-Pierre%2C_Gerberoy.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVitrail%20Chapelle%20de%20la%20Viege%20Coll%C3%A9giale%20St-Pierre%2C%20Gerberoy.jpg",
-          "title": "Vitrail Chapelle de la Viege Collégiale St-Pierre, Gerberoy.jpg",
-          "width": 2716,
-          "height": 4390,
-          "size": 8363029,
-          "timestamp": "2015-05-01T15:26:51Z",
-          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q97949455\" class=\"extiw\" title=\"d:Q97949455\"><span title=\"French photographer and Wikimedian\">Pierre André Leclercq</span></a></bdi>",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/%C3%89glise_Notre-Dame_de_Lachapelle-sous-Gerberoy_2.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Notre-Dame%20de%20Lachapelle-sous-Gerberoy%202.JPG",
+          "title": "Église Notre-Dame de Lachapelle-sous-Gerberoy 2.JPG",
+          "description": "Église Notre-Dame de Lachapelle-sous-Gerberoy",
+          "width": 3648,
+          "height": 2736,
+          "size": 2043115,
+          "timestamp": "2015-08-23T21:44:25Z",
+          "author": "Chatsam",
+          "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Vitrail_du_portail_Coll%C3%A9giale_St-Pierre%2C_Gerberoy.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVitrail%20du%20portail%20Coll%C3%A9giale%20St-Pierre%2C%20Gerberoy.jpg",
-          "title": "Vitrail du portail Collégiale St-Pierre, Gerberoy.jpg",
-          "width": 1727,
-          "height": 3009,
-          "size": 3341426,
-          "timestamp": "2015-05-01T14:46:38Z",
-          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q97949455\" class=\"extiw\" title=\"d:Q97949455\"><span title=\"French photographer and Wikimedian\">Pierre André Leclercq</span></a></bdi>",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 6
         }
       ]
     }

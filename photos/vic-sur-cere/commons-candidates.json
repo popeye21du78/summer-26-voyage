@@ -1,12 +1,13 @@
 {
   "slug": "vic-sur-cere",
   "nom": "Vic-sur-Cère",
-  "fetchedAt": "2026-03-14T14:34:25.595Z",
+  "fetchedAt": "2026-03-18T20:51:42.629Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/La_Prade%2C_Vic-sur-C%C3%A8re%2C_France%2C_1987.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Prade%2C%20Vic-sur-C%C3%A8re%2C%20France%2C%201987.jpg",
       "title": "La Prade, Vic-sur-Cère, France, 1987.jpg",
+      "description": "La Prade, a farm near Vic-sur-Cère, Auvergne, France, in 1987",
       "width": 2399,
       "height": 1613,
       "size": 1049555,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Engin_ferroviaire_Vic_sur_Cere.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEngin%20ferroviaire%20Vic%20sur%20Cere.jpg",
       "title": "Engin ferroviaire Vic sur Cere.jpg",
+      "description": "Un engin ferroviaire stationné en gare de Vic sur Cere (Cantal)",
       "width": 3264,
       "height": 1836,
       "size": 3427763,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Gare_de_Vic_sur_Cere.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGare%20de%20Vic%20sur%20Cere.jpg",
       "title": "Gare de Vic sur Cere.jpg",
+      "description": "La gare de Vic sur Cere (Cantal), sur la ligne Clermont-Ferrand Aurillac",
       "width": 3264,
       "height": 1836,
       "size": 2676679,
@@ -46,11 +49,55 @@
   "lieux": [
     {
       "label": "Halle couverte de Vic-sur-Cère",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/03933_Vic_gare_auvent_halle.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A03933%20Vic%20gare%20auvent%20halle.jpg",
+          "title": "03933 Vic gare auvent halle.jpg",
+          "description": "Gare de Gic-sur-Cère, auvent",
+          "width": 480,
+          "height": 640,
+          "size": 226260,
+          "timestamp": "2008-10-25T11:24:57Z",
+          "author": "Heurtelions",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 1
+        }
+      ]
     },
     {
       "label": "Parc thermal et kiosque des eaux",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/C%C3%A8re_%C3%A0_Vic-sur-C%C3%A8re.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AC%C3%A8re%20%C3%A0%20Vic-sur-C%C3%A8re.JPG",
+          "title": "Cère à Vic-sur-Cère.JPG",
+          "description": "La Cère, parc de Vic a1, 2008",
+          "width": 640,
+          "height": 480,
+          "size": 150540,
+          "timestamp": "2008-10-20T14:44:35Z",
+          "author": "Heurtelions",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 1
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/C%C3%A8re_Vic-sur-C%C3%A8re_3.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AC%C3%A8re%20Vic-sur-C%C3%A8re%203.JPG",
+          "title": "Cère Vic-sur-Cère 3.JPG",
+          "description": "Cère, parc Vic-sur-Cère a2",
+          "width": 640,
+          "height": 480,
+          "size": 149979,
+          "timestamp": "2008-10-20T14:47:43Z",
+          "author": "Heurtelions",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 1
+        }
+      ]
     },
     {
       "label": "Roche du Loup",
@@ -58,47 +105,7 @@
     },
     {
       "label": "Église Saint-Pierre",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Saint-Pierre-%C3%89glise_%C3%89glise_Saint-Pierre_Nordost.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Pierre-%C3%89glise%20%C3%89glise%20Saint-Pierre%20Nordost.jpg",
-          "title": "Saint-Pierre-Église Église Saint-Pierre Nordost.jpg",
-          "width": 4582,
-          "height": 3134,
-          "size": 2942084,
-          "timestamp": "2020-07-11T18:37:17Z",
-          "author": "Zairon",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Saint-Pierre-%C3%89glise_%C3%89glise_Saint-Pierre_S%C3%BCdost.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Pierre-%C3%89glise%20%C3%89glise%20Saint-Pierre%20S%C3%BCdost.jpg",
-          "title": "Saint-Pierre-Église Église Saint-Pierre Südost.jpg",
-          "width": 4503,
-          "height": 3193,
-          "size": 7138913,
-          "timestamp": "2020-07-11T18:37:18Z",
-          "author": "Zairon",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/%C3%89glise_Saint-Pierre_-_int%C3%A9rieur_-_orgue_%28Arromanches-les-Bains%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-Pierre%20-%20int%C3%A9rieur%20-%20orgue%20(Arromanches-les-Bains).jpg",
-          "title": "Église Saint-Pierre - intérieur - orgue (Arromanches-les-Bains).jpg",
-          "width": 5130,
-          "height": 3648,
-          "size": 3426761,
-          "timestamp": "2022-08-10T15:59:26Z",
-          "author": "Gzen92",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        }
-      ]
+      "photos": []
     }
   ]
 }

@@ -1,42 +1,45 @@
 {
   "slug": "antraigues-sur-volane",
   "nom": "Antraigues-sur-Volane",
-  "fetchedAt": "2026-03-12T23:48:23.970Z",
+  "fetchedAt": "2026-03-15T15:06:25.098Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Antraigues_sur_Volane-FR-07-espace_culturel_Christine_Sevres-a1.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAntraigues%20sur%20Volane-FR-07-espace%20culturel%20Christine%20Sevres-a1.jpg",
-      "title": "Antraigues sur Volane-FR-07-espace culturel Christine Sevres-a1.jpg",
-      "width": 3730,
-      "height": 2798,
-      "size": 4225712,
-      "timestamp": "2024-09-13T05:38:35Z",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Antraigues_sur_Volane-FR-07-cimetiere-a1.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAntraigues%20sur%20Volane-FR-07-cimetiere-a1.jpg",
+      "title": "Antraigues sur Volane-FR-07-cimetiere-a1.jpg",
+      "description": "Cimetière d'Antraigues-sur-Volane (Ardèche, France)",
+      "width": 4796,
+      "height": 2761,
+      "size": 7801328,
+      "timestamp": "2024-09-12T11:41:15Z",
       "author": "François GOGLINS",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Antraigues_sur_Volane-FR-07-mairie-a2.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAntraigues%20sur%20Volane-FR-07-mairie-a2.jpg",
-      "title": "Antraigues sur Volane-FR-07-mairie-a2.jpg",
-      "width": 4355,
-      "height": 2989,
-      "size": 6295786,
-      "timestamp": "2024-09-13T07:13:10Z",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Antraigues_sur_Volane-FR-07-cimetiere-a3.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAntraigues%20sur%20Volane-FR-07-cimetiere-a3.jpg",
+      "title": "Antraigues sur Volane-FR-07-cimetiere-a3.jpg",
+      "description": "Cimetière d'Antraigues-sur-Volane (Ardèche, France)",
+      "width": 5231,
+      "height": 2771,
+      "size": 7702911,
+      "timestamp": "2024-09-12T11:41:15Z",
       "author": "François GOGLINS",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Antraigues_sur_Volane-FR-07-gendarmerie-a2.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAntraigues%20sur%20Volane-FR-07-gendarmerie-a2.jpg",
-      "title": "Antraigues sur Volane-FR-07-gendarmerie-a2.jpg",
-      "width": 3458,
-      "height": 2596,
-      "size": 3514166,
-      "timestamp": "2024-09-13T13:57:34Z",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Antraigues_sur_Volane-FR-07-cimetiere-a5.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAntraigues%20sur%20Volane-FR-07-cimetiere-a5.jpg",
+      "title": "Antraigues sur Volane-FR-07-cimetiere-a5.jpg",
+      "description": "Cimetière d'Antraigues-sur-Volane (Ardèche, France)",
+      "width": 3585,
+      "height": 2651,
+      "size": 6837937,
+      "timestamp": "2024-09-12T11:41:19Z",
       "author": "François GOGLINS",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
@@ -46,11 +49,83 @@
   "lieux": [
     {
       "label": "Place de la Résistance",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Antraigues_sur_Volane-FR-07-fontaine_place-a1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAntraigues%20sur%20Volane-FR-07-fontaine%20place-a1.jpg",
+          "title": "Antraigues sur Volane-FR-07-fontaine place-a1.jpg",
+          "description": "Antraigues-sur-Volane  (Ardèche, France)",
+          "width": 3024,
+          "height": 4032,
+          "size": 5859879,
+          "timestamp": "2024-09-13T13:57:30Z",
+          "author": "François GOGLINS",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Antraigues_sur_Volane-FR-07-fontaine_place-a2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAntraigues%20sur%20Volane-FR-07-fontaine%20place-a2.jpg",
+          "title": "Antraigues sur Volane-FR-07-fontaine place-a2.jpg",
+          "description": "Antraigues-sur-Volane  (Ardèche, France)",
+          "width": 3024,
+          "height": 4032,
+          "size": 5594058,
+          "timestamp": "2024-09-13T13:57:33Z",
+          "author": "François GOGLINS",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Église Saint-Andéol",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Vue_sur_le_clocher_d%27Antraigues-sur-Volane.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20sur%20le%20clocher%20d'Antraigues-sur-Volane.jpg",
+          "title": "Vue sur le clocher d'Antraigues-sur-Volane.jpg",
+          "description": "Vue sur le clocher d'Antraigues-sur-Volane",
+          "width": 2826,
+          "height": 2122,
+          "size": 2385665,
+          "timestamp": "2020-11-23T10:53:39Z",
+          "author": "Daniel CULSAN",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Antraigues_sur_Volane-FR-07-vue_panoramique-a4.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAntraigues%20sur%20Volane-FR-07-vue%20panoramique-a4.jpg",
+          "title": "Antraigues sur Volane-FR-07-vue panoramique-a4.jpg",
+          "description": "Vue générale d'Antraigues-sur-Volane (Ardèche, France)",
+          "width": 4032,
+          "height": 3024,
+          "size": 4273849,
+          "timestamp": "2024-09-13T15:56:30Z",
+          "author": "François GOGLINS",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/France_Rhone-Alpes_Ardeche_Antraigues-sur-Volane_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20Rhone-Alpes%20Ardeche%20Antraigues-sur-Volane%2001.jpg",
+          "title": "France Rhone-Alpes Ardeche Antraigues-sur-Volane 01.jpg",
+          "description": "Antraigues-sur-Volane",
+          "width": 3008,
+          "height": 2000,
+          "size": 2390917,
+          "timestamp": "2014-08-01T18:38:19Z",
+          "author": "Calips",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Belvédère d’Antraigues",
@@ -63,6 +138,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Vall%C3%A9e_de_la_Volane_-_La_Volane_%C3%A0_Antraigues_%2834186260510%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVall%C3%A9e%20de%20la%20Volane%20-%20La%20Volane%20%C3%A0%20Antraigues%20(34186260510).jpg",
           "title": "Vallée de la Volane - La Volane à Antraigues (34186260510).jpg",
+          "description": "Ardèche",
           "width": 3455,
           "height": 2269,
           "size": 1039582,

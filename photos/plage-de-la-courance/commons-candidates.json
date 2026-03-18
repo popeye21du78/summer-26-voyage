@@ -1,12 +1,13 @@
 {
   "slug": "plage-de-la-courance",
   "nom": "Plage de la Courance",
-  "fetchedAt": "2026-03-14T11:03:27.899Z",
+  "fetchedAt": "2026-03-17T22:59:19.541Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Grande_plage_Saint-Nazaire.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrande%20plage%20Saint-Nazaire.jpg",
       "title": "Grande plage Saint-Nazaire.jpg",
+      "description": "Grande plage de Saint-Nazaire.",
       "width": 3872,
       "height": 2592,
       "size": 3105103,
@@ -17,30 +18,18 @@
       "score": 6
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Cadran_solaire_Pierre_Bourriaud_-_Saint_Nazaire_-_face_ouest.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACadran%20solaire%20Pierre%20Bourriaud%20-%20Saint%20Nazaire%20-%20face%20ouest.jpg",
-      "title": "Cadran solaire Pierre Bourriaud - Saint Nazaire - face ouest.jpg",
-      "width": 4608,
-      "height": 2592,
-      "size": 3457227,
-      "timestamp": "2021-08-21T07:32:37Z",
-      "author": "Kiroule",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Saint-Marc-sur-Mer_Plage_de_la_Courance.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Marc-sur-Mer%20Plage%20de%20la%20Courance.JPG",
+      "title": "Saint-Marc-sur-Mer Plage de la Courance.JPG",
+      "description": "Plage de la Courance, Saint-Marc-sur-Mer (Commune de Saint-Nazaire)",
+      "width": 3264,
+      "height": 2448,
+      "size": 3413952,
+      "timestamp": "2009-07-27T10:01:29Z",
+      "author": "Demeester",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Cadran_solaire_Pierre_Bourriaud_-_Saint_Nazaire_-_notice.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACadran%20solaire%20Pierre%20Bourriaud%20-%20Saint%20Nazaire%20-%20notice.jpg",
-      "title": "Cadran solaire Pierre Bourriaud - Saint Nazaire - notice.jpg",
-      "width": 4608,
-      "height": 2592,
-      "size": 3695608,
-      "timestamp": "2021-08-21T07:32:37Z",
-      "author": "Kiroule",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 4
     }
   ],
   "lieux": [

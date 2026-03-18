@@ -1,12 +1,41 @@
 {
   "slug": "massat",
   "nom": "Massat",
-  "fetchedAt": "2026-03-13T16:06:50.137Z",
+  "fetchedAt": "2026-03-16T21:24:05.383Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Vue_de_Massat.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20de%20Massat.jpg",
+      "title": "Vue de Massat.jpg",
+      "description": "Vue de Massat et l'église",
+      "width": 3000,
+      "height": 4000,
+      "size": 5447680,
+      "timestamp": "2019-09-07T15:39:37Z",
+      "author": "Daieuxetdailleurs",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Ker_de_Massat_%28Ari%C3%A8ge%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKer%20de%20Massat%20(Ari%C3%A8ge).jpg",
+      "title": "Ker de Massat (Ariège).jpg",
+      "description": "Grotte du Ker de Massat, dite \"grotte inférieure\", à Massat, Ariège : grotte ornée de gravures rupestres du Magdalénien (Paléolithique supérieur).",
+      "width": 1024,
+      "height": 680,
+      "size": 148998,
+      "timestamp": "2015-09-17T19:00:34Z",
+      "author": "Pierre Goujet",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 4
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Int%C3%A9rieur_de_l%27%C3%A9glise_de_Massat_01.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AInt%C3%A9rieur%20de%20l'%C3%A9glise%20de%20Massat%2001.jpg",
       "title": "Intérieur de l'église de Massat 01.jpg",
+      "description": "Intérieur de l'église de Massat",
       "width": 3000,
       "height": 4000,
       "size": 5241344,
@@ -14,33 +43,7 @@
       "author": "Daieuxetdailleurs",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Int%C3%A9rieur_de_l%27%C3%A9glise_de_Massat_03.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AInt%C3%A9rieur%20de%20l'%C3%A9glise%20de%20Massat%2003.jpg",
-      "title": "Intérieur de l'église de Massat 03.jpg",
-      "width": 3000,
-      "height": 4000,
-      "size": 5013504,
-      "timestamp": "2019-09-07T15:32:00Z",
-      "author": "Daieuxetdailleurs",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Int%C3%A9rieur_de_l%27%C3%A9glise_de_Massat_02.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AInt%C3%A9rieur%20de%20l'%C3%A9glise%20de%20Massat%2002.jpg",
-      "title": "Intérieur de l'église de Massat 02.jpg",
-      "width": 3000,
-      "height": 4000,
-      "size": 5066240,
-      "timestamp": "2019-09-07T15:32:00Z",
-      "author": "Daieuxetdailleurs",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
+      "score": 2
     }
   ],
   "lieux": [
@@ -48,17 +51,46 @@
       "label": "Église Saint-Pierre de Massat",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Les_Liadoures.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20Liadoures.jpg",
-          "title": "Les Liadoures.jpg",
-          "width": 3872,
-          "height": 2592,
-          "size": 4100595,
-          "timestamp": "2021-03-06T23:07:51Z",
-          "author": "PierreG_09",
-          "license": "CC BY-SA 2.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Vue_de_Massat.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20de%20Massat.jpg",
+          "title": "Vue de Massat.jpg",
+          "description": "Vue de Massat et l'église",
+          "width": 3000,
+          "height": 4000,
+          "size": 5447680,
+          "timestamp": "2019-09-07T15:39:37Z",
+          "author": "Daieuxetdailleurs",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Massat_-_%C3%89glise_Saint-Paxent_-_Vitraux_-21.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMassat%20-%20%C3%89glise%20Saint-Paxent%20-%20Vitraux%20-21.JPG",
+          "title": "Massat - Église Saint-Paxent - Vitraux -21.JPG",
+          "description": "Massat - Église Saint-Paxent - Vitrail (atelier Gaspard Gsell) - Vie de sainte Solange",
+          "width": 3103,
+          "height": 2977,
+          "size": 5015673,
+          "timestamp": "2014-11-07T08:40:21Z",
+          "author": "Jacques MOSSOT",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Int%C3%A9rieur_de_l%27%C3%A9glise_de_Massat_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AInt%C3%A9rieur%20de%20l'%C3%A9glise%20de%20Massat%2001.jpg",
+          "title": "Intérieur de l'église de Massat 01.jpg",
+          "description": "Intérieur de l'église de Massat",
+          "width": 3000,
+          "height": 4000,
+          "size": 5241344,
+          "timestamp": "2019-09-07T15:32:00Z",
+          "author": "Daieuxetdailleurs",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 2
         }
       ]
     },

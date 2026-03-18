@@ -1,44 +1,47 @@
 {
   "slug": "plage-des-salins",
   "nom": "Plage des Salins",
-  "fetchedAt": "2026-03-14T11:20:55.080Z",
+  "fetchedAt": "2026-03-18T16:29:18.994Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Straatgezicht_te_Hy%C3%A8res%2C_RP-F-F01156-BP.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStraatgezicht%20te%20Hy%C3%A8res%2C%20RP-F-F01156-BP.jpg",
-      "title": "Straatgezicht te Hyères, RP-F-F01156-BP.jpg",
-      "width": 4568,
-      "height": 3595,
-      "size": 10737225,
-      "timestamp": "2025-05-27T21:24:59Z",
-      "author": "Rijksmuseum",
-      "license": "CC0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Salins_des_Embiez.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASalins%20des%20Embiez.jpg",
+      "title": "Salins des Embiez.jpg",
+      "description": "Carte postale d'avant 1900 représentant les marais salants de l'île des Embiez, orthographié à l'époque \"Ambiers\". A doite un douanier, au centre un tas de sel ou Camelle et en arrière plan le château.",
+      "width": 1635,
+      "height": 1060,
+      "size": 628208,
+      "timestamp": "2013-12-28T13:36:14Z",
+      "author": "Rvalette",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/La_villa_Alberti-Tholozan.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20villa%20Alberti-Tholozan.jpg",
-      "title": "La villa Alberti-Tholozan.jpg",
-      "width": 2592,
-      "height": 1944,
-      "size": 881581,
-      "timestamp": "2021-05-30T11:32:48Z",
-      "author": "Jchrisrobert",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Les_Salins_d%27Hy%C3%A8res_%2815316762750%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20Salins%20d'Hy%C3%A8res%20(15316762750).jpg",
+      "title": "Les Salins d'Hyères (15316762750).jpg",
+      "description": "Var. France",
+      "width": 4032,
+      "height": 3024,
+      "size": 2551423,
+      "timestamp": "2023-10-25T09:45:31Z",
+      "author": "Francisco Gonzalez",
+      "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Sainte-Douceline-JV_%284%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASainte-Douceline-JV%20(4).jpg",
-      "title": "Sainte-Douceline-JV (4).jpg",
-      "width": 2048,
-      "height": 1536,
-      "size": 1295497,
-      "timestamp": "2021-11-24T14:43:03Z",
-      "author": "Hyerestourisme",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Au_bout_de_la_plage_de_l%27Espiguette_-_Flickr_-_Jeanne_Menjoulet.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAu%20bout%20de%20la%20plage%20de%20l'Espiguette%20-%20Flickr%20-%20Jeanne%20Menjoulet.jpg",
+      "title": "Au bout de la plage de l'Espiguette - Flickr - Jeanne Menjoulet.jpg",
+      "description": "Camargue, France\nJ'adore cet endroit sauvage, qui donne l'impression d'être au bout du monde, alors que la ville touristique du Grau-du-Roi n'est pas très loin.\n\nCette plage s'étend sur plusieurs kilomètres, le bout de la plage se situe à l'embouchure d'un bras du petit Rhône au milieu des salins du midi",
+      "width": 4368,
+      "height": 2912,
+      "size": 4904612,
+      "timestamp": "2025-11-24T03:02:47Z",
+      "author": "Jeanne Menjoulet",
+      "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     }
@@ -54,7 +57,22 @@
     },
     {
       "label": "anciens salins à l’arrière",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Les_vieux_salins_de_La_Londe-les-Maures.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20vieux%20salins%20de%20La%20Londe-les-Maures.jpg",
+          "title": "Les vieux salins de La Londe-les-Maures.jpg",
+          "description": "The swamps of the former salt evaporation ponds of les vieux salins in La Londe-les-Maures (Var, France).",
+          "width": 2816,
+          "height": 2112,
+          "size": 2291735,
+          "timestamp": "2017-04-06T20:15:14Z",
+          "author": "Tangopaso",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

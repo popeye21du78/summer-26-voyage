@@ -1,12 +1,13 @@
 {
   "slug": "essoyes",
   "nom": "Essoyes",
-  "fetchedAt": "2026-03-13T14:16:14.625Z",
+  "fetchedAt": "2026-03-16T13:09:46.792Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Ange_gardien_%28Eglise_d%27Essoyes%2C_Aube%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAnge%20gardien%20(Eglise%20d'Essoyes%2C%20Aube).jpg",
       "title": "Ange gardien (Eglise d'Essoyes, Aube).jpg",
+      "description": "Ange gardien (Eglise d'Essoyes, Aube). Terre cuite polychrome, œuvre de la Manufacture de Vendeuvre sur Barse dite la \"Sainterie\"",
       "width": 3000,
       "height": 4000,
       "size": 2645605,
@@ -17,30 +18,32 @@
       "score": 6
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Chapelle_Saint-Bernard_de_Servigny.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20Saint-Bernard%20de%20Servigny.jpg",
-      "title": "Chapelle Saint-Bernard de Servigny.jpg",
-      "width": 5312,
-      "height": 2988,
-      "size": 10794620,
-      "timestamp": "2016-08-08T20:37:52Z",
-      "author": "Mathdatech",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Loches_sur_Ource_le_pont_romain_avril_2009.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALoches%20sur%20Ource%20le%20pont%20romain%20avril%202009.jpg",
-      "title": "Loches sur Ource le pont romain avril 2009.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Essoyes_l%27Ource.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEssoyes%20l'Ource.jpg",
+      "title": "Essoyes l'Ource.jpg",
+      "description": "Vue de l'Ource à Essoyes",
       "width": 2272,
       "height": 1704,
-      "size": 1215397,
-      "timestamp": "2011-07-20T06:02:55Z",
-      "author": "Hg marigny",
+      "size": 1025689,
+      "timestamp": "2018-12-09T11:14:22Z",
+      "author": "René Hourdry",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Essoyes_Maison_Heriot.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEssoyes%20Maison%20Heriot.jpg",
+      "title": "Essoyes Maison Heriot.jpg",
+      "description": "Essoyes (Aube, France), Maison d'Auguste Hériot (le château), donné à la commune, abrite aujourd'hui l'école communale.",
+      "width": 3072,
+      "height": 2304,
+      "size": 2407597,
+      "timestamp": "2010-11-01T19:50:43Z",
+      "author": "Siren-Com",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
+      "score": 7
     }
   ],
   "lieux": [
@@ -48,9 +51,24 @@
       "label": "Maison Renoir",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Essoyes_Maison_Heriot.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEssoyes%20Maison%20Heriot.jpg",
+          "title": "Essoyes Maison Heriot.jpg",
+          "description": "Essoyes (Aube, France), Maison d'Auguste Hériot (le château), donné à la commune, abrite aujourd'hui l'école communale.",
+          "width": 3072,
+          "height": 2304,
+          "size": 2407597,
+          "timestamp": "2010-11-01T19:50:43Z",
+          "author": "Siren-Com",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/%28pierre-auguste_renoir_maisons_a_essoyes021701%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A(pierre-auguste%20renoir%20maisons%20a%20essoyes021701).jpg",
           "title": "(pierre-auguste renoir maisons a essoyes021701).jpg",
+          "description": "",
           "width": 3200,
           "height": 2067,
           "size": 1892176,
@@ -61,17 +79,18 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Renoir_plaque_%C3%A0_Essoyes.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARenoir%20plaque%20%C3%A0%20Essoyes.jpg",
-          "title": "Renoir plaque à Essoyes.jpg",
-          "width": 1766,
-          "height": 2186,
-          "size": 1658280,
-          "timestamp": "2010-11-02T09:27:02Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Essoyes_bas_relief.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEssoyes%20bas%20relief.jpg",
+          "title": "Essoyes bas relief.jpg",
+          "description": "Jean-Baptiste Gustave Deloye (1838-1899), La Fortune et la Force, bas-relief en marbre ornant la maison d'Auguste Hériot à Essoyes (Aube, France). Lettre « L » au centre de la composition et mention « Louvre » sur un ballon que tient un enfant. Hériot est le fondateur des Grands Magasins du Louvre à Paris.",
+          "width": 2777,
+          "height": 1485,
+          "size": 1327762,
+          "timestamp": "2010-11-01T20:10:59Z",
           "author": "Siren-Com",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 5
         }
       ]
     },
@@ -82,6 +101,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Renoir_plaque_%C3%A0_Essoyes.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARenoir%20plaque%20%C3%A0%20Essoyes.jpg",
           "title": "Renoir plaque à Essoyes.jpg",
+          "description": "Essoyes (Aube, France), plaque sur la maison de Pierre-Auguste Renoir.",
           "width": 1766,
           "height": 2186,
           "size": 1658280,
@@ -95,6 +115,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Essoyes_atelier_Renoir.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEssoyes%20atelier%20Renoir.jpg",
           "title": "Essoyes atelier Renoir.jpg",
+          "description": "L'atelier de Renoir à Essoyes (Aube, France)",
           "width": 1944,
           "height": 2592,
           "size": 1985549,
@@ -113,6 +134,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Essoyes_lavoir_sur_l%27Ource.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEssoyes%20lavoir%20sur%20l'Ource.JPG",
           "title": "Essoyes lavoir sur l'Ource.JPG",
+          "description": "Lavoir d'Essoyes sur l'Ource",
           "width": 2272,
           "height": 1704,
           "size": 1193754,
@@ -131,6 +153,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Essoyes_Pont_sur_l%27Ource_1.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEssoyes%20Pont%20sur%20l'Ource%201.jpg",
           "title": "Essoyes Pont sur l'Ource 1.jpg",
+          "description": "Pont sur l'Ource à Essoyes",
           "width": 2272,
           "height": 1704,
           "size": 1010513,
@@ -144,6 +167,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Essoyes.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEssoyes.JPG",
           "title": "Essoyes.JPG",
+          "description": "Essoyes et son pont sur l'Ource",
           "width": 2272,
           "height": 1704,
           "size": 1248426,

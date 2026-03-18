@@ -1,43 +1,46 @@
 {
   "slug": "ecouves",
   "nom": "Écouves",
-  "fetchedAt": "2026-03-13T14:09:38.866Z",
+  "fetchedAt": "2026-03-16T12:55:54.601Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/ISS053-E-77297_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS053-E-77297%20-%20View%20of%20Earth.jpg",
-      "title": "ISS053-E-77297 - View of Earth.jpg",
-      "width": 4928,
-      "height": 3280,
-      "size": 1527844,
-      "timestamp": "2021-04-01T20:01:55Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/61341-%C3%89couves-Sols.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A61341-%C3%89couves-Sols.png",
+      "title": "61341-Écouves-Sols.png",
+      "description": "Carte des infrastructures et de l’occupation des sols en 2018 de la commune de fr:Écouves (France).",
+      "width": 3270,
+      "height": 2598,
+      "size": 2379551,
+      "timestamp": "2021-05-11T17:03:51Z",
+      "author": "Roland45",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/ISS026-E-10935_-_View_of_France.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS026-E-10935%20-%20View%20of%20France.jpg",
-      "title": "ISS026-E-10935 - View of France.jpg",
-      "width": 4256,
-      "height": 2913,
-      "size": 1779389,
-      "timestamp": "2021-10-22T08:08:25Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/61341-%C3%89couves-Hydro.jpeg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A61341-%C3%89couves-Hydro.jpeg",
+      "title": "61341-Écouves-Hydro.jpeg",
+      "description": "Carte du réseau hydrographique de la commune de fr:Écouves (France).",
+      "width": 5846,
+      "height": 4133,
+      "size": 2571212,
+      "timestamp": "2024-02-23T09:44:33Z",
+      "author": "Roland45",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/ISS006-E-5325_-_View_of_Europe.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS006-E-5325%20-%20View%20of%20Europe.jpg",
-      "title": "ISS006-E-5325 - View of Europe.jpg",
-      "width": 3032,
-      "height": 2064,
-      "size": 714901,
-      "timestamp": "2022-08-08T10:18:53Z",
-      "author": "Earth Science and Remote Sensing Unit",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Plan_de_la_for%C3%AAt_d%27Ecouves%2C_contenant_15.234_arpens%2C_divis%C3%A9e_en_22_triages_-_btv1b53063695b.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlan%20de%20la%20for%C3%AAt%20d'Ecouves%2C%20contenant%2015.234%20arpens%2C%20divis%C3%A9e%20en%2022%20triages%20-%20btv1b53063695b.jpg",
+      "title": "Plan de la forêt d'Ecouves, contenant 15.234 arpens, divisée en 22 triages - btv1b53063695b.jpg",
+      "description": "Sujet : Écouves, Forêt domaniale\nAppartient à l’ensemble documentaire : BNormand1\nCouverture : France – Normandie – Orne\nLangue : français\n\nÉditeur : [s.n.]",
+      "width": 11480,
+      "height": 7640,
+      "size": 10215129,
+      "timestamp": "2022-08-15T13:13:34Z",
+      "author": "Inconnu",
       "license": "Public domain",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
@@ -46,25 +49,26 @@
   "lieux": [
     {
       "label": "Signal d’Écouves",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Signal_d_Ecouve.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASignal%20d%20Ecouve.jpg",
-          "title": "Signal d Ecouve.jpg",
-          "width": 1120,
-          "height": 744,
-          "size": 120548,
-          "timestamp": "2012-04-13T19:36:53Z",
-          "author": "Laurent Beaussart",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 3
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Croix de Médavy",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/FranceNormandieSaintDidierSous%C3%89couvesBorne.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFranceNormandieSaintDidierSous%C3%89couvesBorne.jpg",
+          "title": "FranceNormandieSaintDidierSousÉcouvesBorne.jpg",
+          "description": "Saint-Didier-sous-Écouves (Normandie, France). Une des bornes de la forêt d'Écouves classées Monuments historiques, au carrefour de la Croix Rouge, sur la route forestière de Carrouges.",
+          "width": 2329,
+          "height": 3456,
+          "size": 6765387,
+          "timestamp": "2017-10-08T07:27:59Z",
+          "author": "Ikmo-ned",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Roche d’Oëtre",

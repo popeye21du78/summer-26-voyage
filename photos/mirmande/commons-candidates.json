@@ -1,12 +1,13 @@
 {
   "slug": "mirmande",
   "nom": "Mirmande",
-  "fetchedAt": "2026-03-13T16:12:02.294Z",
+  "fetchedAt": "2026-03-16T21:38:42.835Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Mirmande_-_Vue_du_Village_04.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMirmande%20-%20Vue%20du%20Village%2004.jpg",
       "title": "Mirmande - Vue du Village 04.jpg",
+      "description": "Mirmande - Vue du Village",
       "width": 4000,
       "height": 3000,
       "size": 6581299,
@@ -14,12 +15,13 @@
       "author": "Blueberry-026",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Mirmande_-_Vue_du_Village_08.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMirmande%20-%20Vue%20du%20Village%2008.jpg",
       "title": "Mirmande - Vue du Village 08.jpg",
+      "description": "Mirmande - Vue du Village",
       "width": 4000,
       "height": 3000,
       "size": 5807189,
@@ -27,12 +29,13 @@
       "author": "Blueberry-026",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Mirmande_-_Vue_du_Village_13.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMirmande%20-%20Vue%20du%20Village%2013.jpg",
       "title": "Mirmande - Vue du Village 13.jpg",
+      "description": "Mirmande - Vue du Village (Eglise Sainte Foy)",
       "width": 4000,
       "height": 3000,
       "size": 6121151,
@@ -40,7 +43,7 @@
       "author": "Blueberry-026",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     }
   ],
   "lieux": [
@@ -48,22 +51,10 @@
       "label": "Église Sainte-Foy",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/%C3%89glise_Sainte-Foy_de_Mirmande_%28Dr%C3%B4me%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Sainte-Foy%20de%20Mirmande%20(Dr%C3%B4me).jpg",
-          "title": "Église Sainte-Foy de Mirmande (Drôme).jpg",
-          "width": 4332,
-          "height": 3252,
-          "size": 3782770,
-          "timestamp": "2020-10-16T09:35:23Z",
-          "author": "Daniel CULSAN",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Mirmande_-_Vue_du_Village_13.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMirmande%20-%20Vue%20du%20Village%2013.jpg",
           "title": "Mirmande - Vue du Village 13.jpg",
+          "description": "Mirmande - Vue du Village (Eglise Sainte Foy)",
           "width": 4000,
           "height": 3000,
           "size": 6121151,
@@ -71,12 +62,13 @@
           "author": "Blueberry-026",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Mirmande_-_Vue_du_Village_15.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMirmande%20-%20Vue%20du%20Village%2015.jpg",
           "title": "Mirmande - Vue du Village 15.jpg",
+          "description": "Mirmande - Vue du Village",
           "width": 4000,
           "height": 3000,
           "size": 7243325,
@@ -84,7 +76,21 @@
           "author": "Blueberry-026",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Mirmande_-_Vue_du_Village_14.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMirmande%20-%20Vue%20du%20Village%2014.jpg",
+          "title": "Mirmande - Vue du Village 14.jpg",
+          "description": "Mirmande - Vue du Village (Eglise Sainte Foy)",
+          "width": 3000,
+          "height": 4000,
+          "size": 6376220,
+          "timestamp": "2021-08-24T19:35:53Z",
+          "author": "Blueberry-026",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
         }
       ]
     },
@@ -98,7 +104,36 @@
     },
     {
       "label": "Grande Rue",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Mirmande-rue2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMirmande-rue2.jpg",
+          "title": "Mirmande-rue2.jpg",
+          "description": "Rue, haut du village de Mirmande (Drôme), France",
+          "width": 3456,
+          "height": 2304,
+          "size": 2003180,
+          "timestamp": "2009-07-29T08:16:29Z",
+          "author": "Morburre",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Mirmande-rue.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMirmande-rue.jpg",
+          "title": "Mirmande-rue.jpg",
+          "description": "Rue de Mirmande (Drôme), France",
+          "width": 2304,
+          "height": 3456,
+          "size": 2057065,
+          "timestamp": "2009-07-29T08:00:18Z",
+          "author": "Morburre",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 3
+        }
+      ]
     }
   ]
 }

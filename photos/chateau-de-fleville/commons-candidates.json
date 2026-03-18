@@ -1,12 +1,13 @@
 {
   "slug": "chateau-de-fleville",
   "nom": "Château de Fléville",
-  "fetchedAt": "2026-03-13T13:05:28.994Z",
+  "fetchedAt": "2026-03-15T21:27:30.142Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Ch%C3%A2teau_de_Fl%C3%A9ville_%28Meurthe-et-Moselle%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Fl%C3%A9ville%20(Meurthe-et-Moselle).jpg",
       "title": "Château de Fléville (Meurthe-et-Moselle).jpg",
+      "description": "Fleville Castle in Fléville-devant-Nancy (Meurthe-et-Moselle, France).",
       "width": 5472,
       "height": 3648,
       "size": 4562496,
@@ -17,28 +18,30 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/CAT_320E_L_%2851345520791%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACAT%20320E%20L%20(51345520791).jpg",
-      "title": "CAT 320E L (51345520791).jpg",
-      "width": 3000,
-      "height": 2000,
-      "size": 6159333,
-      "timestamp": "2021-08-28T06:46:00Z",
-      "author": "Alexandre Prevot",
-      "license": "CC BY-SA 2.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Chateau_de_Fleville_01.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau%20de%20Fleville%2001.jpg",
+      "title": "Chateau de Fleville 01.jpg",
+      "description": "Douves asséchées du château de Fléville",
+      "width": 2048,
+      "height": 1536,
+      "size": 810718,
+      "timestamp": "2010-10-27T08:58:52Z",
+      "author": "alainalele",
+      "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/CAT_320F_L_%2851353874255%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACAT%20320F%20L%20(51353874255).jpg",
-      "title": "CAT 320F L (51353874255).jpg",
-      "width": 3000,
-      "height": 2000,
-      "size": 4281521,
-      "timestamp": "2021-08-28T06:46:04Z",
-      "author": "Alexandre Prevot",
-      "license": "CC BY-SA 2.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Chateau_de_Fleville_03.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau%20de%20Fleville%2003.jpg",
+      "title": "Chateau de Fleville 03.jpg",
+      "description": "Sculptures in the garden of the Château de Fléville",
+      "width": 2048,
+      "height": 1536,
+      "size": 765445,
+      "timestamp": "2010-10-27T09:01:53Z",
+      "author": "alainalele",
+      "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     }
@@ -54,7 +57,50 @@
     },
     {
       "label": "Parc et arbres centenaires",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Ch%C3%A2teau_de_Fl%C3%A9ville-Ile_du_Faune.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Fl%C3%A9ville-Ile%20du%20Faune.jpg",
+          "title": "Château de Fléville-Ile du Faune.jpg",
+          "description": "A droite, île du Faune dans le parc du Château de Fléville (Meurthe-et-Moselle)",
+          "width": 3648,
+          "height": 2736,
+          "size": 2041184,
+          "timestamp": "2009-07-11T13:28:45Z",
+          "author": "Ji-Elle",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Ch%C3%A2teau_de_Fl%C3%A9ville-Parc.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Fl%C3%A9ville-Parc.jpg",
+          "title": "Château de Fléville-Parc.jpg",
+          "description": "Le Château de Fléville (Meurthe-et-Moselle), vu depuis le parc",
+          "width": 2400,
+          "height": 1779,
+          "size": 745389,
+          "timestamp": "2009-07-11T13:33:55Z",
+          "author": "Ji-Elle",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Ch%C3%A2teau_de_Fl%C3%A9ville-Roseraie_c%C3%B4t%C3%A9_parc.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Fl%C3%A9ville-Roseraie%20c%C3%B4t%C3%A9%20parc.jpg",
+          "title": "Château de Fléville-Roseraie côté parc.jpg",
+          "description": "Château de Fléville (Meurthe-et-Moselle), la roseraie côté parc",
+          "width": 2560,
+          "height": 1920,
+          "size": 1626876,
+          "timestamp": "2009-07-11T18:04:28Z",
+          "author": "Ji-Elle",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Escalier en colimaçon de la tour",

@@ -1,12 +1,13 @@
 {
   "slug": "plage-des-americains",
   "nom": "Plage des Américains",
-  "fetchedAt": "2026-03-14T11:17:32.984Z",
+  "fetchedAt": "2026-03-18T16:19:59.498Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/%C3%8Ele-Tudy_-_Plage_02.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%8Ele-Tudy%20-%20Plage%2002.jpg",
       "title": "Île-Tudy - Plage 02.jpg",
+      "description": "Île-Tudy - Plage",
       "width": 4272,
       "height": 2848,
       "size": 4524600,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/%C3%8Ele-Tudy_-_Plage_01.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%8Ele-Tudy%20-%20Plage%2001.jpg",
       "title": "Île-Tudy - Plage 01.jpg",
+      "description": "Île-Tudy - Plage",
       "width": 4272,
       "height": 2848,
       "size": 5319912,
@@ -30,15 +32,16 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Dimanche_20_janvier_2013_Finist%C3%A8re_sud_%288400109588%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADimanche%2020%20janvier%202013%20Finist%C3%A8re%20sud%20(8400109588).jpg",
-      "title": "Dimanche 20 janvier 2013 Finistère sud (8400109588).jpg",
-      "width": 4505,
-      "height": 3003,
-      "size": 9205536,
-      "timestamp": "2020-11-21T17:39:03Z",
-      "author": "Jean-Jacques Abalain",
-      "license": "CC BY 2.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Soldats_am%C3%A9ricains_lors_du_d%C3%A9barquement_de_Normandie_%2838530094406%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASoldats%20am%C3%A9ricains%20lors%20du%20d%C3%A9barquement%20de%20Normandie%20(38530094406).jpg",
+      "title": "Soldats américains lors du débarquement de Normandie (38530094406).jpg",
+      "description": "Description : Soldats se déployant en colonnes sur une plage lors du débarquement des forces alliées en Normandie\nPhotographe : inconnu\nDate : Juin 1944\nFonds Famille Dubuc\nCote :02C_P1, S6, SS2, SSS3, D1, P87\nLieu de conservation : BAnQ Saguenay\n\n&lt;a href=\"https://advitam.banq.qc.ca/notice/16673\" rel=\"noreferrer nofollow\"&gt;advitam.banq.qc.ca/notice/16673&lt;/a&gt;",
+      "width": 1675,
+      "height": 932,
+      "size": 936029,
+      "timestamp": "2024-12-29T15:18:54Z",
+      "author": "Bibliothèque et Archives nationales du Québec",
+      "license": "Public domain",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     }

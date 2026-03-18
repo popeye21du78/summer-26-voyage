@@ -1,12 +1,13 @@
 {
   "slug": "abbaye-de-flaran",
   "nom": "Abbaye de Flaran",
-  "fetchedAt": "2026-03-13T12:00:20.331Z",
+  "fetchedAt": "2026-03-15T14:38:02.541Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/%28Toulouse%29_Th%C3%A9odule_Ribot_-_Portrait_de_la_m%C3%A8re_de_l%27artiste_-_Abbaye_de_Flaran_Collection_Michael_Simonow.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A(Toulouse)%20Th%C3%A9odule%20Ribot%20-%20Portrait%20de%20la%20m%C3%A8re%20de%20l'artiste%20-%20Abbaye%20de%20Flaran%20Collection%20Michael%20Simonow.jpg",
       "title": "(Toulouse) Théodule Ribot - Portrait de la mère de l'artiste - Abbaye de Flaran Collection Michael Simonow.jpg",
+      "description": "",
       "width": 5346,
       "height": 6753,
       "size": 12999461,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/%28Toulouse%29_Th%C3%A9odule_Ribot_-_Les_empiriques_-_Abbaye_de_Flaran_Collection_Michael_Simonow.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A(Toulouse)%20Th%C3%A9odule%20Ribot%20-%20Les%20empiriques%20-%20Abbaye%20de%20Flaran%20Collection%20Michael%20Simonow.jpg",
       "title": "(Toulouse) Théodule Ribot - Les empiriques - Abbaye de Flaran Collection Michael Simonow.jpg",
+      "description": "",
       "width": 6951,
       "height": 9335,
       "size": 33110478,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Iron_gate_of_Flaran_Abbey%2C_Valence-sur-Ba%C3%AFse%2C_Gers%2C_France.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AIron%20gate%20of%20Flaran%20Abbey%2C%20Valence-sur-Ba%C3%AFse%2C%20Gers%2C%20France.JPG",
       "title": "Iron gate of Flaran Abbey, Valence-sur-Baïse, Gers, France.JPG",
+      "description": "Iron gate of Flaran Abbey, Valence-sur-Baïse, Gers, France",
       "width": 3664,
       "height": 2748,
       "size": 1525287,
@@ -46,15 +49,130 @@
   "lieux": [
     {
       "label": "Cloître de l’abbaye de Flaran",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Abbaye_de_Flaran_%2817%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20de%20Flaran%20(17).jpg",
+          "title": "Abbaye de Flaran (17).jpg",
+          "description": "Abbaye de Flaran",
+          "width": 3840,
+          "height": 2160,
+          "size": 1776762,
+          "timestamp": "2023-10-02T06:40:48Z",
+          "author": "Jcb-caz-11",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Abbaye_de_Flaran_%289%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20de%20Flaran%20(9).jpg",
+          "title": "Abbaye de Flaran (9).jpg",
+          "description": "Abbaye de Flaran",
+          "width": 3840,
+          "height": 2160,
+          "size": 1545095,
+          "timestamp": "2023-10-02T06:41:26Z",
+          "author": "Jcb-caz-11",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Abbaye_de_Flaran_%286%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20de%20Flaran%20(6).jpg",
+          "title": "Abbaye de Flaran (6).jpg",
+          "description": "Abbaye de Flaran",
+          "width": 3840,
+          "height": 2160,
+          "size": 1747676,
+          "timestamp": "2023-10-02T06:42:07Z",
+          "author": "Jcb-caz-11",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Salle capitulaire",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Valence-sur-Ba%C3%AFse_%2832%29_Abbaye_de_Flaran_Salle_capitulaire_03.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AValence-sur-Ba%C3%AFse%20(32)%20Abbaye%20de%20Flaran%20Salle%20capitulaire%2003.JPG",
+          "title": "Valence-sur-Baïse (32) Abbaye de Flaran Salle capitulaire 03.JPG",
+          "description": "Salle capitulaire de l'Abbaye de Flaran (32).",
+          "width": 2381,
+          "height": 1786,
+          "size": 2545637,
+          "timestamp": "2014-01-11T08:42:27Z",
+          "author": "GO69",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Valence-sur-Ba%C3%AFse_%2832%29_Abbaye_de_Flaran_Salle_capitulaire_05.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AValence-sur-Ba%C3%AFse%20(32)%20Abbaye%20de%20Flaran%20Salle%20capitulaire%2005.JPG",
+          "title": "Valence-sur-Baïse (32) Abbaye de Flaran Salle capitulaire 05.JPG",
+          "description": "Salle capitulaire de l'Abbaye de Flaran (32). Voûtes.",
+          "width": 2381,
+          "height": 1786,
+          "size": 2192590,
+          "timestamp": "2014-01-11T08:42:32Z",
+          "author": "GO69",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Valence-sur-Ba%C3%AFse_%2832%29_Abbaye_de_Flaran_Salle_capitulaire_01.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AValence-sur-Ba%C3%AFse%20(32)%20Abbaye%20de%20Flaran%20Salle%20capitulaire%2001.JPG",
+          "title": "Valence-sur-Baïse (32) Abbaye de Flaran Salle capitulaire 01.JPG",
+          "description": "Salle capitulaire de l'Abbaye de Flaran (32). Pile gauche de l'entrée.",
+          "width": 1786,
+          "height": 2381,
+          "size": 2055595,
+          "timestamp": "2014-01-11T08:42:26Z",
+          "author": "GO69",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     },
     {
       "label": "Jardin médiéval",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Valence-sur-Ba%C3%AFse_%2832%29_Abbaye_de_Flaran_05.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AValence-sur-Ba%C3%AFse%20(32)%20Abbaye%20de%20Flaran%2005.JPG",
+          "title": "Valence-sur-Baïse (32) Abbaye de Flaran 05.JPG",
+          "description": "Abbaye de Flaran, commune de Valence-sur-Baïse (32). Jardins.",
+          "width": 2381,
+          "height": 1507,
+          "size": 1841241,
+          "timestamp": "2014-01-11T11:17:00Z",
+          "author": "GO69",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Valence-sur-Ba%C3%AFse_%2832%29_Abbaye_de_Flaran_07.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AValence-sur-Ba%C3%AFse%20(32)%20Abbaye%20de%20Flaran%2007.JPG",
+          "title": "Valence-sur-Baïse (32) Abbaye de Flaran 07.JPG",
+          "description": "Abbaye de Flaran, commune de Valence-sur-Baïse (32). Jardins.",
+          "width": 2381,
+          "height": 1786,
+          "size": 2492718,
+          "timestamp": "2014-01-11T11:17:06Z",
+          "author": "GO69",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     }
   ]
 }

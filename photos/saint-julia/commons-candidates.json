@@ -1,12 +1,27 @@
 {
   "slug": "saint-julia",
   "nom": "Saint-Julia",
-  "fetchedAt": "2026-03-14T12:05:04.888Z",
+  "fetchedAt": "2026-03-18T18:22:26.145Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Parc_%C3%A9olien_du_Lauragais_vu_de_SaintJulia.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParc%20%C3%A9olien%20du%20Lauragais%20vu%20de%20SaintJulia.jpg",
+      "title": "Parc éolien du Lauragais vu de SaintJulia.jpg",
+      "description": "Windfarm in Lauragais, consisting of 11 machines spread over three communes of Haute-Garonne: Saint-Félix-Lauragais, Roumens and Montegut-Lauragais. View from Saint-Julia.",
+      "width": 7360,
+      "height": 4912,
+      "size": 18773227,
+      "timestamp": "2013-07-07T07:33:34Z",
+      "author": "Didier Descouens",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/StJulia2017_Eglise_dos.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStJulia2017%20Eglise%20dos.jpg",
       "title": "StJulia2017 Eglise dos.jpg",
+      "description": "Église Sainte-Agathe-et-Saint-Julien de Saint-Julia",
       "width": 6000,
       "height": 4000,
       "size": 7768293,
@@ -20,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/StJulia2017_Eglise_11.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStJulia2017%20Eglise%2011.jpg",
       "title": "StJulia2017 Eglise 11.jpg",
+      "description": "Église Sainte-Agathe-et-Saint-Julien de Saint-Julia",
       "width": 6016,
       "height": 4014,
       "size": 4214190,
@@ -28,19 +44,6 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 6
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Saint-Julia_L%27%C3%A9glise_interieur.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Julia%20L'%C3%A9glise%20interieur.jpg",
-      "title": "Saint-Julia L'église interieur.jpg",
-      "width": 6828,
-      "height": 4915,
-      "size": 23549193,
-      "timestamp": "2013-05-28T06:32:10Z",
-      "author": "Didier Descouens",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
     }
   ],
   "lieux": [
@@ -52,9 +55,38 @@
       "label": "Église Saint-Julien",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Saint_Julian_church%2C_Faleria.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint%20Julian%20church%2C%20Faleria.jpg",
+          "title": "Saint Julian church, Faleria.jpg",
+          "description": "chiesa collegiata di San Giuliano\nLa Chiesa di San Giuliano in Piazza della Collegiata, Faleria",
+          "width": 4608,
+          "height": 3456,
+          "size": 7723373,
+          "timestamp": "2021-09-01T13:44:49Z",
+          "author": "Albarubescens",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Sant_Juli%C3%A0_de_Vallventosa.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASant%20Juli%C3%A0%20de%20Vallventosa.jpg",
+          "title": "Sant Julià de Vallventosa.jpg",
+          "description": "Sant Julià de Vallventosa, a restored Romanesque church of the tenth century, Corbère commune, Pyrénées-Orientales, France.",
+          "width": 4608,
+          "height": 3456,
+          "size": 8616653,
+          "timestamp": "2026-03-02T21:47:13Z",
+          "author": "Alan Mattingly",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/StJulia2017_Eglise_dos.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStJulia2017%20Eglise%20dos.jpg",
           "title": "StJulia2017 Eglise dos.jpg",
+          "description": "Église Sainte-Agathe-et-Saint-Julien de Saint-Julia",
           "width": 6000,
           "height": 4000,
           "size": 7768293,
@@ -63,38 +95,55 @@
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/StJulia2017_Eglise_11.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStJulia2017%20Eglise%2011.jpg",
-          "title": "StJulia2017 Eglise 11.jpg",
-          "width": 6016,
-          "height": 4014,
-          "size": 4214190,
-          "timestamp": "2017-09-29T13:00:22Z",
-          "author": "Jmld31",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/El_Soler._Sant_Juli%C3%A0_i_Santa_Basilissa_11.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEl%20Soler.%20Sant%20Juli%C3%A0%20i%20Santa%20Basilissa%2011.jpg",
-          "title": "El Soler. Sant Julià i Santa Basilissa 11.jpg",
-          "width": 5152,
-          "height": 3864,
-          "size": 4667598,
-          "timestamp": "2017-11-05T22:08:40Z",
-          "author": "Claudefà",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
         }
       ]
     },
     {
       "label": "Porte fortifiée",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Le_cotre_de_plaisance_BELLA_JULIA_%281%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20cotre%20de%20plaisance%20BELLA%20JULIA%20(1).JPG",
+          "title": "Le cotre de plaisance BELLA JULIA (1).JPG",
+          "description": "Le cotre de plaisance « BELLA JULIA » amarré à triple dans le bassin d’échouage du port de Saint- Martin-de-Ré. Ce bateau est le modèle CORNISH CRABBER 30 Open fabriqué par le constructeur de voiliers traditionnels  CORNISH CRABBERS (Pays de Galles). « BELLA JULIA » a été lancé en 2006. Dimanche 31 juillet 2011.\nSaint -Martin- de-Ré, Île de Ré, Charente-Maritime, France.",
+          "width": 4752,
+          "height": 3168,
+          "size": 6124968,
+          "timestamp": "2015-10-04T21:05:52Z",
+          "author": "Jean-Pierre Bazard <a href=\"//commons.wikimedia.org/wiki/User:Jpbazard\" title=\"User:Jpbazard\">Jpbazard</a>",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Le_cotre_de_plaisance_BELLA_JULIA_%283%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20cotre%20de%20plaisance%20BELLA%20JULIA%20(3).JPG",
+          "title": "Le cotre de plaisance BELLA JULIA (3).JPG",
+          "description": "Le cotre de plaisance « BELLA JULIA » amarré dans le port d'Ars-en-Ré. Ce bateau est le modèle CORNISH CRABBER 30 Open fabriqué par le constructeur de voiliers traditionnels  CORNISH CRABBERS (Pays de Galles). « BELLA JULIA » a été lancé en 2006. \nSaint -Martin- de-Ré, Île de Ré, Charente-Maritime, France.",
+          "width": 7360,
+          "height": 4912,
+          "size": 6865854,
+          "timestamp": "2015-10-04T21:14:16Z",
+          "author": "Jean-Pierre Bazard <a href=\"//commons.wikimedia.org/wiki/User:Jpbazard\" title=\"User:Jpbazard\">Jpbazard</a>",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Le_cotre_de_plaisance_BELLA_JULIA_%284%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20cotre%20de%20plaisance%20BELLA%20JULIA%20(4).JPG",
+          "title": "Le cotre de plaisance BELLA JULIA (4).JPG",
+          "description": "Le cotre de plaisance « BELLA JULIA » amarré dans le port d'Ars-en-Ré. Ce bateau est le modèle CORNISH CRABBER 30 Open fabriqué par le constructeur de voiliers traditionnels  CORNISH CRABBERS (Pays de Galles). « BELLA JULIA » a été lancé en 2006. \nSaint-Martin-de-Ré, Île de Ré, Charente-Maritime, France.",
+          "width": 7360,
+          "height": 4912,
+          "size": 6920557,
+          "timestamp": "2015-10-04T21:19:11Z",
+          "author": "Jean-Pierre Bazard <a href=\"//commons.wikimedia.org/wiki/User:Jpbazard\" title=\"User:Jpbazard\">Jpbazard</a>",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Table d’orientation (chemin du château d’eau)",

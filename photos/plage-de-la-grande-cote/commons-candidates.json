@@ -1,12 +1,13 @@
 {
   "slug": "plage-de-la-grande-cote",
   "nom": "Plage de la Grande Côte",
-  "fetchedAt": "2026-03-14T11:04:31.395Z",
+  "fetchedAt": "2026-03-17T23:01:08.251Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Saint-Palais-sur-Mer.-_Grande_c%C3%B4te.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Palais-sur-Mer.-%20Grande%20c%C3%B4te.jpg",
       "title": "Saint-Palais-sur-Mer.- Grande côte.jpg",
+      "description": "Saint-Palais-sur-Mer   Charente-Maritime, Aquitaine-Limousin-Poitou-Charentes",
       "width": 2592,
       "height": 1944,
       "size": 3149513,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Saint-Palais-sur-Mer.-La_plage_du_Platin.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Palais-sur-Mer.-La%20plage%20du%20Platin.jpg",
       "title": "Saint-Palais-sur-Mer.-La plage du Platin.jpg",
+      "description": "Saint-Palais-sur-Mer   Charente-Maritime, Aquitaine-Limousin-Poitou-Charentes",
       "width": 2592,
       "height": 1944,
       "size": 3457923,
@@ -30,17 +32,18 @@
       "score": 6
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/La_c%C3%B4te_%C3%A0_Saint-Palais_-_panoramio_%282%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20c%C3%B4te%20%C3%A0%20Saint-Palais%20-%20panoramio%20(2).jpg",
-      "title": "La côte à Saint-Palais - panoramio (2).jpg",
-      "width": 3648,
-      "height": 2736,
-      "size": 4055534,
-      "timestamp": "2016-11-23T02:38:13Z",
-      "author": "FrenchCobber",
-      "license": "CC BY-SA 3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/La_Grande_Plage_%28Saint-Cast-le-Guildo%2C_22%29_-_01.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Grande%20Plage%20(Saint-Cast-le-Guildo%2C%2022)%20-%2001.jpg",
+      "title": "La Grande Plage (Saint-Cast-le-Guildo, 22) - 01.jpg",
+      "description": "La Grande Plage de Saint-Cast-le-Guildo vue depuis la pointe de la Garde (Côtes-d'Armor, France)",
+      "width": 6000,
+      "height": 4000,
+      "size": 8782644,
+      "timestamp": "2022-07-05T15:39:25Z",
+      "author": "Thérèse Gaigé",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 9
     }
   ],
   "lieux": [
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Saint-Palais-sur-Mer_17_Grande_C%C3%B4te_For%C3%AAt%26restes_blockhauss_2014.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Palais-sur-Mer%2017%20Grande%20C%C3%B4te%20For%C3%AAt%26restes%20blockhauss%202014.jpg",
           "title": "Saint-Palais-sur-Mer 17 Grande Côte Forêt&restes blockhauss 2014.jpg",
+          "description": "Forest of martimie pines (Pinus pinaster) and remains of a bunker, beach of the Grande-Côte, Saint-Palais-sur-Mer, Charente-Martitime, France.",
           "width": 4928,
           "height": 3264,
           "size": 16766002,
@@ -69,25 +73,13 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Saint-Palais-sur-Mer_17_Grande_C%C3%B4te_For%C3%AAt%26restes_blockhauss_2014.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Palais-sur-Mer%2017%20Grande%20C%C3%B4te%20For%C3%AAt%26restes%20blockhauss%202014.jpg",
           "title": "Saint-Palais-sur-Mer 17 Grande Côte Forêt&restes blockhauss 2014.jpg",
+          "description": "Forest of martimie pines (Pinus pinaster) and remains of a bunker, beach of the Grande-Côte, Saint-Palais-sur-Mer, Charente-Martitime, France.",
           "width": 4928,
           "height": 3264,
           "size": 16766002,
           "timestamp": "2014-11-26T14:45:41Z",
           "author": "<p><a href=\"//commons.wikimedia.org/wiki/User:JLPC\" title=\"User:JLPC\">JLPC</a>\n</p>",
           "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/La_Pointe_de_Grave_depuis_Royan_-_Gironde_Garonne_Charente-Maritime_-_Image_Picture_Photography_%2813951593275%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Pointe%20de%20Grave%20depuis%20Royan%20-%20Gironde%20Garonne%20Charente-Maritime%20-%20Image%20Picture%20Photography%20(13951593275).jpg",
-          "title": "La Pointe de Grave depuis Royan - Gironde Garonne Charente-Maritime - Image Picture Photography (13951593275).jpg",
-          "width": 4104,
-          "height": 2592,
-          "size": 4193812,
-          "timestamp": "2014-12-15T20:40:53Z",
-          "author": "Grand Parc - Bordeaux, France",
-          "license": "CC BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 5
         }

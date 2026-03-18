@@ -1,25 +1,13 @@
 {
   "slug": "crest",
   "nom": "Crest",
-  "fetchedAt": "2026-03-13T13:59:04.782Z",
+  "fetchedAt": "2026-03-16T12:29:55.972Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Crest_-_Man%C3%A8ge_quai_de_Verdun_%28juin_2021%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACrest%20-%20Man%C3%A8ge%20quai%20de%20Verdun%20(juin%202021).jpg",
-      "title": "Crest - Manège quai de Verdun (juin 2021).jpg",
-      "width": 4032,
-      "height": 3016,
-      "size": 4810548,
-      "timestamp": "2022-05-23T20:02:22Z",
-      "author": "Sebleouf",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Crest_-_Quai_de_Verdun_%28juin_2021%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACrest%20-%20Quai%20de%20Verdun%20(juin%202021).jpg",
       "title": "Crest - Quai de Verdun (juin 2021).jpg",
+      "description": "Vue du quai de Verdun, à Crest (Drôme, France).",
       "width": 4032,
       "height": 3016,
       "size": 5145875,
@@ -27,20 +15,35 @@
       "author": "Sebleouf",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Crest_-_Vue_%C3%A9glise_Saint-Sauveur_%28juin_2021%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACrest%20-%20Vue%20%C3%A9glise%20Saint-Sauveur%20(juin%202021).jpg",
-      "title": "Crest - Vue église Saint-Sauveur (juin 2021).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Crest_-_Place_G%C3%A9n%C3%A9ral_de_Gaulle%2C_un_jour_de_march%C3%A9_1_%28juin_2021%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACrest%20-%20Place%20G%C3%A9n%C3%A9ral%20de%20Gaulle%2C%20un%20jour%20de%20march%C3%A9%201%20(juin%202021).jpg",
+      "title": "Crest - Place Général de Gaulle, un jour de marché 1 (juin 2021).jpg",
+      "description": "Vue de la place Général de Gaulle un jour de marché, à Crest (Drôme, France).",
       "width": 4032,
       "height": 3016,
-      "size": 4623479,
-      "timestamp": "2022-05-23T20:02:38Z",
+      "size": 4111970,
+      "timestamp": "2022-05-23T20:02:49Z",
       "author": "Sebleouf",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Crest_-_Place_G%C3%A9n%C3%A9ral_de_Gaulle%2C_un_jour_de_march%C3%A9_2_%28juin_2021%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACrest%20-%20Place%20G%C3%A9n%C3%A9ral%20de%20Gaulle%2C%20un%20jour%20de%20march%C3%A9%202%20(juin%202021).jpg",
+      "title": "Crest - Place Général de Gaulle, un jour de marché 2 (juin 2021).jpg",
+      "description": "Vue de la place Général de Gaulle un jour de marché, à Crest (Drôme, France).",
+      "width": 4032,
+      "height": 3016,
+      "size": 4659347,
+      "timestamp": "2022-05-23T20:02:52Z",
+      "author": "Sebleouf",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
     }
   ],
   "lieux": [
@@ -48,9 +51,24 @@
       "label": "Tour de Crest",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/TOUR_DE_CREST.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATOUR%20DE%20CREST.jpg",
+          "title": "TOUR DE CREST.jpg",
+          "description": "Tour de Crest, vue du chemin du donjon (à son pied).",
+          "width": 3053,
+          "height": 4579,
+          "size": 2410049,
+          "timestamp": "2015-09-18T13:04:26Z",
+          "author": "Sanaryves",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/View_from_the_Tour_de_Crest.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AView%20from%20the%20Tour%20de%20Crest.jpg",
           "title": "View from the Tour de Crest.jpg",
+          "description": "Tour de Crest (castle)",
           "width": 2066,
           "height": 1660,
           "size": 1531858,
@@ -64,6 +82,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Tour_de_Crest_sunset.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATour%20de%20Crest%20sunset.jpg",
           "title": "Tour de Crest sunset.jpg",
+          "description": "tour de Crest sunset",
           "width": 4000,
           "height": 3000,
           "size": 2011787,
@@ -72,25 +91,55 @@
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Tour_de_Crest_Dr%C3%B4me.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATour%20de%20Crest%20Dr%C3%B4me.jpg",
-          "title": "Tour de Crest Drôme.jpg",
-          "width": 2048,
-          "height": 1320,
-          "size": 509061,
-          "timestamp": "2017-09-14T11:16:46Z",
-          "author": "Mmo75",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
         }
       ]
     },
     {
       "label": "Place du Général de Gaulle",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Crest_-_Place_G%C3%A9n%C3%A9ral_de_Gaulle%2C_un_jour_de_march%C3%A9_1_%28juin_2021%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACrest%20-%20Place%20G%C3%A9n%C3%A9ral%20de%20Gaulle%2C%20un%20jour%20de%20march%C3%A9%201%20(juin%202021).jpg",
+          "title": "Crest - Place Général de Gaulle, un jour de marché 1 (juin 2021).jpg",
+          "description": "Vue de la place Général de Gaulle un jour de marché, à Crest (Drôme, France).",
+          "width": 4032,
+          "height": 3016,
+          "size": 4111970,
+          "timestamp": "2022-05-23T20:02:49Z",
+          "author": "Sebleouf",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Crest_-_Place_G%C3%A9n%C3%A9ral_de_Gaulle%2C_un_jour_de_march%C3%A9_2_%28juin_2021%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACrest%20-%20Place%20G%C3%A9n%C3%A9ral%20de%20Gaulle%2C%20un%20jour%20de%20march%C3%A9%202%20(juin%202021).jpg",
+          "title": "Crest - Place Général de Gaulle, un jour de marché 2 (juin 2021).jpg",
+          "description": "Vue de la place Général de Gaulle un jour de marché, à Crest (Drôme, France).",
+          "width": 4032,
+          "height": 3016,
+          "size": 4659347,
+          "timestamp": "2022-05-23T20:02:52Z",
+          "author": "Sebleouf",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/France_Drome_Crest_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20Drome%20Crest%202.jpg",
+          "title": "France Drome Crest 2.jpg",
+          "description": "View of the City and the Tower of Crest, Drôme, France",
+          "width": 1704,
+          "height": 2272,
+          "size": 1251296,
+          "timestamp": "2016-08-15T20:34:22Z",
+          "author": "Rolf Süßbrich",
+          "license": "CC BY 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Église Saint-Sauveur",
@@ -99,6 +148,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Crest_-_Vue_%C3%A9glise_Saint-Sauveur_%28juin_2021%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACrest%20-%20Vue%20%C3%A9glise%20Saint-Sauveur%20(juin%202021).jpg",
           "title": "Crest - Vue église Saint-Sauveur (juin 2021).jpg",
+          "description": "Clocher de l'église Saint-Sauveur de Crest (Drôme, France).",
           "width": 4032,
           "height": 3016,
           "size": 4623479,
@@ -112,6 +162,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Crest_-_Int%C3%A9rieur_%C3%A9glise_Saint-Sauveur%2C_monument_aux_morts_%28juin_2021%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACrest%20-%20Int%C3%A9rieur%20%C3%A9glise%20Saint-Sauveur%2C%20monument%20aux%20morts%20(juin%202021).jpg",
           "title": "Crest - Intérieur église Saint-Sauveur, monument aux morts (juin 2021).jpg",
+          "description": "Monument aux morts dans l'église Saint-Sauveur de Crest (Drôme, France).",
           "width": 4032,
           "height": 3016,
           "size": 3264259,
@@ -122,17 +173,18 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/%C3%89glise_Saint-Sauveur_de_Crest_en_mars_2015.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-Sauveur%20de%20Crest%20en%20mars%202015.jpg",
-          "title": "Église Saint-Sauveur de Crest en mars 2015.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Nef_et_narthex_%C3%89glise_de_Crest-Voland_%28d%C3%A9cembre_2024%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANef%20et%20narthex%20%C3%89glise%20de%20Crest-Voland%20(d%C3%A9cembre%202024).JPG",
+          "title": "Nef et narthex Église de Crest-Voland (décembre 2024).JPG",
+          "description": "Inside sight of the nave and narthex of Crest-Voland church, in Savoie, France.",
           "width": 3264,
-          "height": 2353,
-          "size": 2548859,
-          "timestamp": "2015-03-22T16:52:31Z",
-          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q42790984\" class=\"extiw\" title=\"d:Q42790984\"><span title=\"French computing engineer\">Benoît Prieur</span></a></bdi>",
-          "license": "CC0",
+          "height": 2448,
+          "size": 4099018,
+          "timestamp": "2025-01-11T16:31:21Z",
+          "author": "Florian Pépellin",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         }
       ]
     },

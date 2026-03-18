@@ -1,12 +1,13 @@
 {
   "slug": "cabrerets",
   "nom": "Cabrerets",
-  "fetchedAt": "2026-03-13T12:24:12.168Z",
+  "fetchedAt": "2026-03-15T20:26:18.430Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Cabrerets_-_panoramio_%2881%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACabrerets%20-%20panoramio%20(81).jpg",
       "title": "Cabrerets - panoramio (81).jpg",
+      "description": "Cabrerets",
       "width": 4272,
       "height": 2848,
       "size": 12406497,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Cabrerets_-_panoramio_%2882%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACabrerets%20-%20panoramio%20(82).jpg",
       "title": "Cabrerets - panoramio (82).jpg",
+      "description": "Cabrerets",
       "width": 4272,
       "height": 2848,
       "size": 9352562,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Cabrerets_-_panoramio_%2883%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACabrerets%20-%20panoramio%20(83).jpg",
       "title": "Cabrerets - panoramio (83).jpg",
+      "description": "Cabrerets",
       "width": 4272,
       "height": 2848,
       "size": 14187532,
@@ -50,7 +53,50 @@
     },
     {
       "label": "Falaises de calcaire du causse",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Cabrerets_fr46330_banner.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACabrerets%20fr46330%20banner.jpg",
+          "title": "Cabrerets fr46330 banner.jpg",
+          "description": "Cabrerets (fr46330), village au pied de la falaise de Rochecourbe.",
+          "width": 3648,
+          "height": 521,
+          "size": 810659,
+          "timestamp": "2018-01-27T06:22:21Z",
+          "author": "<ul><li><a href=\"//commons.wikimedia.org/wiki/File:Cabrerets_-_2014-09-21_-_i3025.jpg\" title=\"File:Cabrerets - 2014-09-21 - i3025.jpg\">File:Cabrerets - 2014-09-21 - i3025.jpg</a> : <a href=\"//commons.wikimedia.org/wiki/User:MathieuMD\" title=\"User:MathieuMD\">MathieuMD</a></li>\n<li>derivative work : <a href=\"//commons.wikimedia.org/wiki/User:Barbe-sauvage\" title=\"User:Barbe-sauvage\">Barbe-sauvage</a></li></ul>",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Cabrerets_Ch%C3%A2teau_du_Diable1.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACabrerets%20Ch%C3%A2teau%20du%20Diable1.JPG",
+          "title": "Cabrerets Château du Diable1.JPG",
+          "description": "Cabrerets, commune et village dans le département du Lot (région Midi-Pyrénées, France), situés sur le Célé, affluent droit du Lot, à une vingtaine de km (à vol d’oiseau) à l’est-nord-est de Cahors. \nLa rivière Célé, avec à gauche ruines du château troglodyte dit des Anglais ou du Diable, adossé à la falaise de Rochecourbe, sur la rive droite de la rivière, à peu de distance en amont du village.",
+          "width": 2560,
+          "height": 1920,
+          "size": 1945113,
+          "timestamp": "2010-10-16T20:26:32Z",
+          "author": "Torsade de Pointes",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 1
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Cabrerets_Ch%C3%A2teau_du_Diable3.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACabrerets%20Ch%C3%A2teau%20du%20Diable3.JPG",
+          "title": "Cabrerets Château du Diable3.JPG",
+          "description": "Cabrerets, commune et village dans le département du Lot (région Midi-Pyrénées, France), situés sur le Célé, affluent droit du Lot, à une vingtaine de km (à vol d’oiseau) à l’est-nord-est de Cahors. \nLa rivière Célé, avec à gauche ruines du château troglodyte dit des Anglais ou du Diable, adossé à la falaise de Rochecourbe, sur la rive droite de la rivière, à peu de distance en amont du village.",
+          "width": 2560,
+          "height": 1920,
+          "size": 1926594,
+          "timestamp": "2010-10-16T20:29:05Z",
+          "author": "Torsade de Pointes",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 1
+        }
+      ]
     },
     {
       "label": "Lavoir de Cabrerets",
@@ -58,7 +104,50 @@
     },
     {
       "label": "Belvédère du château",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Cabrerets_1.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACabrerets%201.JPG",
+          "title": "Cabrerets 1.JPG",
+          "description": "Château de Cabrerets, Lot, France",
+          "width": 3264,
+          "height": 2448,
+          "size": 1787567,
+          "timestamp": "2010-09-09T17:12:01Z",
+          "author": "Dr Brains",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Cabrerets_2.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACabrerets%202.JPG",
+          "title": "Cabrerets 2.JPG",
+          "description": "Château de Cabrerets, Lot, France",
+          "width": 3264,
+          "height": 2448,
+          "size": 1563975,
+          "timestamp": "2010-09-09T17:13:02Z",
+          "author": "Dr Brains",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Cabrerets_3.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACabrerets%203.JPG",
+          "title": "Cabrerets 3.JPG",
+          "description": "Château de Cabrerets, Lot, France",
+          "width": 3264,
+          "height": 2448,
+          "size": 1806602,
+          "timestamp": "2010-09-09T17:14:13Z",
+          "author": "Dr Brains",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

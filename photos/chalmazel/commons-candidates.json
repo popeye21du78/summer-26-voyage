@@ -1,31 +1,19 @@
 {
   "slug": "chalmazel",
   "nom": "Chalmazel",
-  "fetchedAt": "2026-03-13T12:36:34.460Z",
+  "fetchedAt": "2026-03-15T20:57:38.055Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Ruisseau_de_la_Morte_%C3%A0_Chalmazel.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARuisseau%20de%20la%20Morte%20%C3%A0%20Chalmazel.jpg",
-      "title": "Ruisseau de la Morte à Chalmazel.jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 4892033,
-      "timestamp": "2021-08-22T14:42:31Z",
-      "author": "Maciej Poltorak / Vanupied",
-      "license": "CC BY 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/For%C3%AAt_de_la_commune_de_Chalmazel-Jeansagni%C3%A8re.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFor%C3%AAt%20de%20la%20commune%20de%20Chalmazel-Jeansagni%C3%A8re.jpg",
-      "title": "Forêt de la commune de Chalmazel-Jeansagnière.jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 4266058,
-      "timestamp": "2021-08-22T14:42:31Z",
-      "author": "Maciej Poltorak / Vanupied",
-      "license": "CC BY 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/42-_Chalmazel_Ch%C3%A2teau.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A42-%20Chalmazel%20Ch%C3%A2teau.jpg",
+      "title": "42- Chalmazel Château.jpg",
+      "description": "Vue du château",
+      "width": 2216,
+      "height": 1628,
+      "size": 766772,
+      "timestamp": "2011-09-12T04:11:38Z",
+      "author": "Thierry de Villepin",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
@@ -33,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Chalmazel_wayside_cross.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChalmazel%20wayside%20cross.jpg",
       "title": "Chalmazel wayside cross.jpg",
+      "description": "Croix de chemin à Chalmazel, dans le département de la Loire.",
       "width": 3024,
       "height": 4032,
       "size": 5948166,
@@ -41,6 +30,20 @@
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Chalmazel_-_panoramio.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChalmazel%20-%20panoramio.jpg",
+      "title": "Chalmazel - panoramio.jpg",
+      "description": "Chalmazel",
+      "width": 3263,
+      "height": 1460,
+      "size": 910587,
+      "timestamp": "2017-04-08T06:05:29Z",
+      "author": "Gilles Guillamot",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 5
     }
   ],
   "lieux": [
@@ -48,22 +51,104 @@
       "label": "Hautes Chaumes",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Hautes_Chaumes_du_Forez_-_arbre_esseul%C3%A9_dans_la_neige.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHautes%20Chaumes%20du%20Forez%20-%20arbre%20esseul%C3%A9%20dans%20la%20neige.jpg",
-          "title": "Hautes Chaumes du Forez - arbre esseulé dans la neige.jpg",
-          "width": 4032,
-          "height": 3024,
-          "size": 3469868,
-          "timestamp": "2020-12-21T13:55:01Z",
-          "author": "Nezdek",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Chalmazel%2C_monts_du_Forez_1300_%C3%A0_1400m_-_p%C3%A2turages%2C_bruy%C3%A8res%2C_genevriers_-_Alverny_%28d%27%29_-_btv1b106833753.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChalmazel%2C%20monts%20du%20Forez%201300%20%C3%A0%201400m%20-%20p%C3%A2turages%2C%20bruy%C3%A8res%2C%20genevriers%20-%20Alverny%20(d')%20-%20btv1b106833753.jpg",
+          "title": "Chalmazel, monts du Forez 1300 à 1400m - pâturages, bruyères, genevriers - Alverny (d') - btv1b106833753.jpg",
+          "description": "Sujet : Alpes-de-Haute-Provence (France)\nPâturages\nChalmazel\nAppartient à l’ensemble documentaire : Inr000\nAppartient à l’ensemble documentaire : Inr001\n\nLangue : français",
+          "width": 3000,
+          "height": 2399,
+          "size": 713918,
+          "timestamp": "2025-03-07T02:28:30Z",
+          "author": "<div class=\"fn value\">\nAlverny, André d' (1873-1930). Photographe</div>",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Chalmazel_%2842%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChalmazel%20(42).jpg",
+          "title": "Chalmazel (42).jpg",
+          "description": "Village de Chalmazel (Loire), connu aussi pour sa station de sports d'hiver, dont les pistes s'étirent jusqu'au sommet de Pierre sur Haute.",
+          "width": 3648,
+          "height": 2736,
+          "size": 4461426,
+          "timestamp": "2017-02-15T08:16:08Z",
+          "author": "Floraliën Gent",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Pierre-sur-Haute_Chalmazel.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APierre-sur-Haute%20Chalmazel.jpg",
+          "title": "Pierre-sur-Haute Chalmazel.jpg",
+          "description": "Pierre-sur-Haute (1 634 m) and the Chalmazel ski resort",
+          "width": 1464,
+          "height": 940,
+          "size": 619654,
+          "timestamp": "2010-12-24T13:45:14Z",
+          "author": "Lolo42",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "label": "Jasseries du Forez",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/TSDChalmazel_00021.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATSDChalmazel%2000021.jpg",
+          "title": "TSDChalmazel 00021.jpg",
+          "description": "Chairlift Les Jasseries at Chalmazel (Loire, France)",
+          "width": 635,
+          "height": 476,
+          "size": 244202,
+          "timestamp": "2010-09-17T16:13:34Z",
+          "author": "Laurent Berne",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 3
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/G1_t%C3%A9l%C3%A9si%C3%A8ge_chalmazel.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AG1%20t%C3%A9l%C3%A9si%C3%A8ge%20chalmazel.jpg",
+          "title": "G1 télésiège chalmazel.jpg",
+          "description": "Chairlift \"Les Jasseries\", Leitner, Chalmazel ski resort (France, Loire)",
+          "width": 617,
+          "height": 409,
+          "size": 197891,
+          "timestamp": "2010-09-17T16:10:47Z",
+          "author": "Lolo42",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 2
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Chalmazel_piste_des_Granges.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChalmazel%20piste%20des%20Granges.jpg",
+          "title": "Chalmazel piste des Granges.jpg",
+          "description": "Chalmazel ski resort (France, Massif central, Loire)",
+          "width": 580,
+          "height": 411,
+          "size": 126204,
+          "timestamp": "2010-09-20T09:20:34Z",
+          "author": "Lolo42",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "label": "Rocher de l’Olme",
+      "photos": [
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Panoramic_Chalmazel.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanoramic%20Chalmazel.jpg",
           "title": "Panoramic Chalmazel.jpg",
+          "description": "Panoramic of Chalmazel Ski Resort (France, Loire)",
           "width": 4767,
           "height": 1500,
           "size": 1350139,
@@ -76,43 +161,37 @@
       ]
     },
     {
-      "label": "Jasseries du Forez",
-      "photos": []
-    },
-    {
-      "label": "Rocher de l’Olme",
+      "label": "Col de la Loge",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Panoramaforez.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanoramaforez.jpg",
-          "title": "Panoramaforez.jpg",
-          "width": 6870,
-          "height": 1812,
-          "size": 3266120,
-          "timestamp": "2010-05-22T09:12:13Z",
-          "author": "Rayman78",
-          "license": "Public domain",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Oratoire_Sainte-Catherine_chalmazel_2019.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOratoire%20Sainte-Catherine%20chalmazel%202019.jpg",
+          "title": "Oratoire Sainte-Catherine chalmazel 2019.jpg",
+          "description": "Oratoire Sainte-Catherine, situé à l'est du Col du Béal, sur la commune de Chalmazel-Jeansagnières.",
+          "width": 872,
+          "height": 1584,
+          "size": 749260,
+          "timestamp": "2021-05-11T15:55:44Z",
+          "author": "Hoancat",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 5
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Loire_banner.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALoire%20banner.jpg",
-          "title": "Loire banner.jpg",
-          "width": 2100,
-          "height": 300,
-          "size": 499929,
-          "timestamp": "2013-08-26T13:54:14Z",
-          "author": "<ul><li><a href=\"//commons.wikimedia.org/wiki/File:Panoramaforez.jpg\" title=\"File:Panoramaforez.jpg\">Panoramaforez.jpg</a>: <a href=\"//commons.wikimedia.org/w/index.php?title=User:Rayman78&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Rayman78 (page does not exist)\">Rayman78</a></li>\n<li>derivative work: <a href=\"//commons.wikimedia.org/wiki/User:Inkey\" title=\"User:Inkey\">Inkey</a></li></ul>",
-          "license": "Public domain",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Panoramic_Chalmazel.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanoramic%20Chalmazel.jpg",
+          "title": "Panoramic Chalmazel.jpg",
+          "description": "Panoramic of Chalmazel Ski Resort (France, Loire)",
+          "width": 4767,
+          "height": 1500,
+          "size": 1350139,
+          "timestamp": "2010-09-14T11:09:54Z",
+          "author": "Lolo42",
+          "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 4
         }
       ]
-    },
-    {
-      "label": "Col de la Loge",
-      "photos": []
     }
   ]
 }

@@ -1,12 +1,13 @@
 {
   "slug": "chateau-de-tanlay-tanlay",
   "nom": "Château de Tanlay, Tanlay",
-  "fetchedAt": "2026-03-13T13:16:07.014Z",
+  "fetchedAt": "2026-03-15T21:44:37.736Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Tanlay_%2889%29_Ch%C3%A2teau_-_Ext%C3%A9rieur_-_07.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATanlay%20(89)%20Ch%C3%A2teau%20-%20Ext%C3%A9rieur%20-%2007.jpg",
       "title": "Tanlay (89) Château - Extérieur - 07.jpg",
+      "description": "Extérieur du château de Tanlay (89).",
       "width": 6000,
       "height": 3205,
       "size": 8669719,
@@ -14,12 +15,13 @@
       "author": "GO69",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Tanlay_%2889%29_Ch%C3%A2teau_-_Ext%C3%A9rieur_-_08.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATanlay%20(89)%20Ch%C3%A2teau%20-%20Ext%C3%A9rieur%20-%2008.jpg",
       "title": "Tanlay (89) Château - Extérieur - 08.jpg",
+      "description": "Extérieur du château de Tanlay (89).",
       "width": 6000,
       "height": 3717,
       "size": 10482195,
@@ -27,12 +29,13 @@
       "author": "GO69",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Tanlay_%2889%29_Ch%C3%A2teau_-_Ext%C3%A9rieur_-_06.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATanlay%20(89)%20Ch%C3%A2teau%20-%20Ext%C3%A9rieur%20-%2006.jpg",
       "title": "Tanlay (89) Château - Extérieur - 06.jpg",
+      "description": "Extérieur du château de Tanlay (89).",
       "width": 6000,
       "height": 4000,
       "size": 9967687,
@@ -40,37 +43,195 @@
       "author": "GO69",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     }
   ],
   "lieux": [
     {
       "label": "Cour d'honneur et galeries à arcades",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Cour_et_entr%C3%A9e_sud_du_ch%C3%A2teau_de_Tanlay.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACour%20et%20entr%C3%A9e%20sud%20du%20ch%C3%A2teau%20de%20Tanlay.jpg",
+          "title": "Cour et entrée sud du château de Tanlay.jpg",
+          "description": "Cour et porterie du château",
+          "width": 3821,
+          "height": 2867,
+          "size": 3928475,
+          "timestamp": "2023-08-20T10:27:56Z",
+          "author": "Espirat",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Plan_g%C3%A9n%C3%A9ral_du_Ch%C3%A2teau_de_Tanlay%2C_Bourgogne._Des._par_E._Sagot_et_Lahorey_-_btv1b84432476_%281_of_3%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlan%20g%C3%A9n%C3%A9ral%20du%20Ch%C3%A2teau%20de%20Tanlay%2C%20Bourgogne.%20Des.%20par%20E.%20Sagot%20et%20Lahorey%20-%20btv1b84432476%20(1%20of%203).jpg",
+          "title": "Plan général du Château de Tanlay, Bourgogne. Des. par E. Sagot et Lahorey - btv1b84432476 (1 of 3).jpg",
+          "description": "Sujet : Châteaux\nTanlay\nÉchelle(s) : 5 M[ètres = Om. 111 ; 1:45 ca]\nCouverture : France – Bourgogne-Franche-Comté – Yonne\nLangue : français\n\nÉditeur : A.F. Lemaître (Paris)",
+          "width": 5796,
+          "height": 8844,
+          "size": 5469966,
+          "timestamp": "2022-07-16T14:15:47Z",
+          "author": "<div class=\"fn value\">\n<p>Sagot, Émile (1805-1888). Auteur du texte\nLaborey (18..-18..?). Auteur du texte\n</p>\nLemaître, Augustin François (1797-1870). Éditeur scientifique</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Plan_g%C3%A9n%C3%A9ral_du_Ch%C3%A2teau_de_Tanlay%2C_Bourgogne._Des._par_E._Sagot_et_Lahorey_-_btv1b84432476_%282_of_3%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlan%20g%C3%A9n%C3%A9ral%20du%20Ch%C3%A2teau%20de%20Tanlay%2C%20Bourgogne.%20Des.%20par%20E.%20Sagot%20et%20Lahorey%20-%20btv1b84432476%20(2%20of%203).jpg",
+          "title": "Plan général du Château de Tanlay, Bourgogne. Des. par E. Sagot et Lahorey - btv1b84432476 (2 of 3).jpg",
+          "description": "Sujet : Châteaux\nTanlay\nÉchelle(s) : 5 M[ètres = Om. 111 ; 1:45 ca]\nCouverture : France – Bourgogne-Franche-Comté – Yonne\nLangue : français\n\nÉditeur : A.F. Lemaître (Paris)",
+          "width": 5783,
+          "height": 8830,
+          "size": 6952744,
+          "timestamp": "2022-07-16T14:16:01Z",
+          "author": "<div class=\"fn value\">\n<p>Sagot, Émile (1805-1888). Auteur du texte\nLaborey (18..-18..?). Auteur du texte\n</p>\nLemaître, Augustin François (1797-1870). Éditeur scientifique</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        }
+      ]
     },
     {
       "label": "Salle aux fresques maniéristes",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Salle_des_C%C3%A9sars%2C_Ch%C3%A2teau_de_Tanlay_%283%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASalle%20des%20C%C3%A9sars%2C%20Ch%C3%A2teau%20de%20Tanlay%20(3).jpg",
+          "title": "Salle des Césars, Château de Tanlay (3).jpg",
+          "description": "Salle des Césars, Château de Tanlay",
+          "width": 4896,
+          "height": 2752,
+          "size": 1666140,
+          "timestamp": "2018-09-07T19:13:03Z",
+          "author": "Ibex73",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Salle_des_C%C3%A9sars%2C_Ch%C3%A2teau_de_Tanlay_%284%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASalle%20des%20C%C3%A9sars%2C%20Ch%C3%A2teau%20de%20Tanlay%20(4).jpg",
+          "title": "Salle des Césars, Château de Tanlay (4).jpg",
+          "description": "Salle des Césars, Château de Tanlay",
+          "width": 4896,
+          "height": 2752,
+          "size": 1866725,
+          "timestamp": "2018-09-07T19:13:14Z",
+          "author": "Ibex73",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Salle_des_C%C3%A9sars%2C_Ch%C3%A2teau_de_Tanlay_%281%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASalle%20des%20C%C3%A9sars%2C%20Ch%C3%A2teau%20de%20Tanlay%20(1).jpg",
+          "title": "Salle des Césars, Château de Tanlay (1).jpg",
+          "description": "Salle des Césars, Château de Tanlay",
+          "width": 2752,
+          "height": 4896,
+          "size": 4371954,
+          "timestamp": "2018-09-07T19:13:01Z",
+          "author": "Ibex73",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Parc et perspective sur le canal",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Tanlay_parc_et_canal_13654_Zeiller.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATanlay%20parc%20et%20canal%2013654%20Zeiller.jpg",
+          "title": "Tanlay parc et canal 13654 Zeiller.jpg",
+          "description": "extrait de \"topographia galliae\".",
+          "width": 2188,
+          "height": 1668,
+          "size": 2687459,
+          "timestamp": "2018-07-04T08:02:36Z",
+          "author": "Martin Zeiller ; versement et modifications ː G.Garitan",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Tanlay_parc_%C3%A9tang_13654_Zeiller.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATanlay%20parc%20%C3%A9tang%2013654%20Zeiller.jpg",
+          "title": "Tanlay parc étang 13654 Zeiller.jpg",
+          "description": "extrait de \"topographia galliae\".",
+          "width": 2204,
+          "height": 1732,
+          "size": 2733744,
+          "timestamp": "2018-07-04T08:02:36Z",
+          "author": "Martin Zeiller ; versement et modifications ː G.Garitan",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Chateau_de_Tanlay_Silvestre_06.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau%20de%20Tanlay%20Silvestre%2006.jpg",
+          "title": "Chateau de Tanlay Silvestre 06.jpg",
+          "description": "Veuë du Parc, et du Canal de Tanlai",
+          "width": 3228,
+          "height": 1554,
+          "size": 1428285,
+          "timestamp": "2012-12-19T16:24:17Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Israel_Silvestre\" class=\"extiw\" title=\"w:en:Israel Silvestre\"><span title=\"French artist (1621-1691)\">Israel Silvestre</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Tour des archives",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Castles_and_chateaux_of_old_Burgundy_and_the_border_provinces_%281909%29_%2814597713228%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACastles%20and%20chateaux%20of%20old%20Burgundy%20and%20the%20border%20provinces%20(1909)%20(14597713228).jpg",
-          "title": "Castles and chateaux of old Burgundy and the border provinces (1909) (14597713228).jpg",
-          "width": 2400,
-          "height": 1390,
-          "size": 975517,
-          "timestamp": "2016-08-02T20:02:23Z",
-          "author": "Internet Archive Book Images",
-          "license": "No restrictions",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Tanlay_%28Yonne%29_-_Le_Ch%C3%A2teau_-_Tour_de_la_Ligue_-_Vo%C3%BBte.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATanlay%20(Yonne)%20-%20Le%20Ch%C3%A2teau%20-%20Tour%20de%20la%20Ligue%20-%20Vo%C3%BBte.jpg",
+          "title": "Tanlay (Yonne) - Le Château - Tour de la Ligue - Voûte.jpg",
+          "description": "Tanlay - Le Château - Tour de la Ligue - Voûte.",
+          "width": 5050,
+          "height": 3264,
+          "size": 6753233,
+          "timestamp": "2021-05-12T18:38:47Z",
+          "author": "Patrick",
+          "license": "CC BY-SA 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Tanlay_%28Yonne%29_-_Le_Ch%C3%A2teau_-_Tour_de_la_Ligue_-_Vo%C3%BBte_-_10140573576.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATanlay%20(Yonne)%20-%20Le%20Ch%C3%A2teau%20-%20Tour%20de%20la%20Ligue%20-%20Vo%C3%BBte%20-%2010140573576.jpg",
+          "title": "Tanlay (Yonne) - Le Château - Tour de la Ligue - Voûte - 10140573576.jpg",
+          "description": "Tanlay - Le Château - Tour de la Ligue - Voûte.",
+          "width": 4928,
+          "height": 3264,
+          "size": 6665265,
+          "timestamp": "2021-05-12T18:38:53Z",
+          "author": "Patrick",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Tanlay_%28Yonne%29_-_Le_Ch%C3%A2teau_-_Tour_de_la_Ligue_-_Vo%C3%BBte_-_10140487355.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATanlay%20(Yonne)%20-%20Le%20Ch%C3%A2teau%20-%20Tour%20de%20la%20Ligue%20-%20Vo%C3%BBte%20-%2010140487355.jpg",
+          "title": "Tanlay (Yonne) - Le Château - Tour de la Ligue - Voûte - 10140487355.jpg",
+          "description": "Tanlay - Le Château - Tour de la Ligue - Voûte.",
+          "width": 4928,
+          "height": 3264,
+          "size": 6711504,
+          "timestamp": "2021-05-12T18:38:53Z",
+          "author": "Patrick",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
         }
       ]
     }

@@ -1,92 +1,41 @@
 {
   "slug": "les-belvederes",
   "nom": "Les Belvédères",
-  "fetchedAt": "2026-03-13T15:45:34.695Z",
+  "fetchedAt": "2026-03-16T20:30:35.046Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Mouthier-Haute-Pierre%2C_pano_360%C2%B0_sur_la_centrale_hydro%C3%A9lectrique.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMouthier-Haute-Pierre%2C%20pano%20360%C2%B0%20sur%20la%20centrale%20hydro%C3%A9lectrique.jpg",
-      "title": "Mouthier-Haute-Pierre, pano 360° sur la centrale hydroélectrique.jpg",
-      "width": 8192,
-      "height": 4096,
-      "size": 30207774,
-      "timestamp": "2020-02-09T17:26:17Z",
-      "author": "JGS25",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/La_Duch%C3%A8re_%28Lyon%29_-_Esplanade_des_Belv%C3%A9d%C3%A8res_2_%28ao%C3%BBt_2022%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Duch%C3%A8re%20(Lyon)%20-%20Esplanade%20des%20Belv%C3%A9d%C3%A8res%202%20(ao%C3%BBt%202022).jpg",
+      "title": "La Duchère (Lyon) - Esplanade des Belvédères 2 (août 2022).jpg",
+      "description": "Vue de l'esplanade des Belvédères, dans le quartier de La Duchère (Lyon, France).",
+      "width": 4032,
+      "height": 3024,
+      "size": 5279375,
+      "timestamp": "2022-08-05T13:43:46Z",
+      "author": "Sebleouf",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Mouthier-haute-Pierre%2C_le_pont_sur_la_Loue_%C3%A0_la_centrale_hydraulique.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMouthier-haute-Pierre%2C%20le%20pont%20sur%20la%20Loue%20%C3%A0%20la%20centrale%20hydraulique.jpg",
-      "title": "Mouthier-haute-Pierre, le pont sur la Loue à la centrale hydraulique.jpg",
-      "width": 3561,
-      "height": 2003,
-      "size": 7291472,
-      "timestamp": "2020-04-02T14:39:17Z",
-      "author": "JGS25",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/La_Duch%C3%A8re_%28Lyon%29_-_Esplanade_des_Belv%C3%A9d%C3%A8res_1_%28ao%C3%BBt_2022%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Duch%C3%A8re%20(Lyon)%20-%20Esplanade%20des%20Belv%C3%A9d%C3%A8res%201%20(ao%C3%BBt%202022).jpg",
+      "title": "La Duchère (Lyon) - Esplanade des Belvédères 1 (août 2022).jpg",
+      "description": "Vue de l'esplanade des Belvédères, dans le quartier de La Duchère (Lyon, France).",
+      "width": 4032,
+      "height": 3024,
+      "size": 4473841,
+      "timestamp": "2022-08-05T13:43:49Z",
+      "author": "Sebleouf",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Baume_Archee_P1010177mod.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaume%20Archee%20P1010177mod.jpg",
-      "title": "Baume Archee P1010177mod.jpg",
-      "width": 2472,
-      "height": 1811,
-      "size": 4584213,
-      "timestamp": "2022-04-10T13:39:06Z",
-      "author": "JYB Devot",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     }
   ],
   "lieux": [
     {
       "label": "Belvédère du Doubs",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Villers-le-Lac%2C_panorama_depuis_le_belv%C3%A9d%C3%A8re_du_Bassin_du_Doubs.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVillers-le-Lac%2C%20panorama%20depuis%20le%20belv%C3%A9d%C3%A8re%20du%20Bassin%20du%20Doubs.jpg",
-          "title": "Villers-le-Lac, panorama depuis le belvédère du Bassin du Doubs.jpg",
-          "width": 4942,
-          "height": 3295,
-          "size": 5597565,
-          "timestamp": "2020-01-23T13:43:54Z",
-          "author": "JGS25",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gorges_de_Nouailles_depuis_le_belv%C3%A9d%C3%A8re_du_Moine_%C3%A0_Mouthier-Haute-Pierre_%28Doubs%29_02.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGorges%20de%20Nouailles%20depuis%20le%20belv%C3%A9d%C3%A8re%20du%20Moine%20%C3%A0%20Mouthier-Haute-Pierre%20(Doubs)%2002.jpg",
-          "title": "Gorges de Nouailles depuis le belvédère du Moine à Mouthier-Haute-Pierre (Doubs) 02.jpg",
-          "width": 6000,
-          "height": 4000,
-          "size": 10997853,
-          "timestamp": "2022-09-05T20:46:39Z",
-          "author": "Jean de l'Auxois",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Gorges_de_Nouailles_depuis_le_belv%C3%A9d%C3%A8re_du_Moine_%C3%A0_Mouthier-Haute-Pierre_%28Doubs%29_03.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGorges%20de%20Nouailles%20depuis%20le%20belv%C3%A9d%C3%A8re%20du%20Moine%20%C3%A0%20Mouthier-Haute-Pierre%20(Doubs)%2003.jpg",
-          "title": "Gorges de Nouailles depuis le belvédère du Moine à Mouthier-Haute-Pierre (Doubs) 03.jpg",
-          "width": 6000,
-          "height": 4000,
-          "size": 11936683,
-          "timestamp": "2022-09-05T20:46:39Z",
-          "author": "Jean de l'Auxois",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Combe de Renédale",

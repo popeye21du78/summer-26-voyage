@@ -1,12 +1,13 @@
 {
   "slug": "lac-pavin",
   "nom": "Lac Pavin",
-  "fetchedAt": "2026-03-13T15:16:25.482Z",
+  "fetchedAt": "2026-03-16T19:29:12.813Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Place_de_la_Gayme.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlace%20de%20la%20Gayme.jpg",
       "title": "Place de la Gayme.jpg",
+      "description": "Place de la Gayme in Besse-et-Saint-Anastaise (Puy-de-Dôme, France).",
       "width": 2816,
       "height": 2112,
       "size": 2132822,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Besse-en-Chandesse_-_Place_du_Dr_Pipet.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABesse-en-Chandesse%20-%20Place%20du%20Dr%20Pipet.JPG",
       "title": "Besse-en-Chandesse - Place du Dr Pipet.JPG",
+      "description": "Place du Dr Pipet  Besse-et-Saint-Anastaise dans les   Monts_Dore Puy-de-Dôme",
       "width": 4000,
       "height": 3000,
       "size": 4899893,
@@ -30,17 +32,18 @@
       "score": 5
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Fontaine_place_Gayme.JPG",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFontaine%20place%20Gayme.JPG",
-      "title": "Fontaine place Gayme.JPG",
-      "width": 2304,
-      "height": 3072,
-      "size": 3966961,
-      "timestamp": "2011-08-03T12:10:09Z",
-      "author": "Sylenius",
-      "license": "CC BY-SA 3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Lac_Pavin_gel%C3%A9_hiver_2018.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALac%20Pavin%20gel%C3%A9%20hiver%202018.jpg",
+      "title": "Lac Pavin gelé hiver 2018.jpg",
+      "description": "Vue du lac Pavin gelé (avec en arrière plan la station de ski de Super Besse).",
+      "width": 2560,
+      "height": 1920,
+      "size": 2776240,
+      "timestamp": "2018-03-10T21:24:59Z",
+      "author": "DC",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 4
+      "score": 8
     }
   ],
   "lieux": [
@@ -54,49 +57,67 @@
     },
     {
       "label": "Sentier de la rive ouest",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Path_around_Pavin_lake.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APath%20around%20Pavin%20lake.jpg",
+          "title": "Path around Pavin lake.jpg",
+          "description": "Path around Pavin lake (Puy-de-Dôme, France).",
+          "width": 4000,
+          "height": 3000,
+          "size": 6541072,
+          "timestamp": "2014-11-17T20:12:28Z",
+          "author": "Tangopaso",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Puy de Montchal",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Besse_Lac_Pavin3.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABesse%20Lac%20Pavin3.JPG",
-          "title": "Besse Lac Pavin3.JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Besse_Lac_Pavin4.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABesse%20Lac%20Pavin4.JPG",
+          "title": "Besse Lac Pavin4.JPG",
+          "description": "Le lac Pavin, dans la commune de Besse-et-Saint-Anastaise, Puy-de-Dôme (France, région Auvergne). Vue du lac depuis la rive est, en regardant vers l'ouest. Au fond à droite, massif du Sancy (puy de Paillaret, dont le sommet est masqué par les nuages).",
           "width": 2560,
           "height": 1920,
-          "size": 1886455,
-          "timestamp": "2012-03-14T22:04:52Z",
+          "size": 1997123,
+          "timestamp": "2012-03-14T21:54:37Z",
           "author": "Torsade de Pointes",
           "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Besse_Lac_Pavin1.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABesse%20Lac%20Pavin1.JPG",
-          "title": "Besse Lac Pavin1.JPG",
-          "width": 2560,
-          "height": 1920,
-          "size": 2425762,
-          "timestamp": "2012-03-14T21:54:19Z",
-          "author": "Torsade de Pointes",
-          "license": "CC0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Balade_sur_le_lac_-_Flickr_-_%40_S%40ndrine.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABalade%20sur%20le%20lac%20-%20Flickr%20-%20%40%20S%40ndrine.jpg",
+          "title": "Balade sur le lac - Flickr - @ S@ndrine.jpg",
+          "description": "Balade sur le lac Pavin",
+          "width": 2048,
+          "height": 1152,
+          "size": 3096077,
+          "timestamp": "2024-09-24T08:18:02Z",
+          "author": "@ S@ndrine",
+          "license": "CC BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Besse_Lac_Pavin7.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABesse%20Lac%20Pavin7.JPG",
-          "title": "Besse Lac Pavin7.JPG",
-          "width": 2560,
-          "height": 1920,
-          "size": 2028147,
-          "timestamp": "2012-03-14T21:55:07Z",
-          "author": "Torsade de Pointes",
-          "license": "CC0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Lac_Pavin%2C_le_dolmen%2C_All%C3%A9e_sous_bois_%28Rive_Ouest%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALac%20Pavin%2C%20le%20dolmen%2C%20All%C3%A9e%20sous%20bois%20(Rive%20Ouest).jpg",
+          "title": "Lac Pavin, le dolmen, Allée sous bois (Rive Ouest).jpg",
+          "description": "Le dolmen, Allée sous bois (Rive Ouest) du  Lac_Pavin,  Puy-de-Dôme.- (Auvergne).-  France.",
+          "width": 3622,
+          "height": 2700,
+          "size": 6692902,
+          "timestamp": "2015-08-02T22:15:16Z",
+          "author": "PIERRE ANDRE LECLERCQ",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 6
         }
       ]
     }

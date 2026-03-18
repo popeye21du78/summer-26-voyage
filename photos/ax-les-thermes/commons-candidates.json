@@ -1,12 +1,13 @@
 {
   "slug": "ax-les-thermes",
   "nom": "Ax-les-Thermes",
-  "fetchedAt": "2026-03-13T00:01:25.440Z",
+  "fetchedAt": "2026-03-15T19:04:17.422Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Saint_Vincent_church_in_Ax-les-Thermes_%284%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint%20Vincent%20church%20in%20Ax-les-Thermes%20(4).jpg",
       "title": "Saint Vincent church in Ax-les-Thermes (4).jpg",
+      "description": "Saint Vincent church in Ax-les-Thermes, Ariège, France",
       "width": 4493,
       "height": 3411,
       "size": 8607627,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Bains_du_Couloubret_in_Ax-les-Thermes_%281%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABains%20du%20Couloubret%20in%20Ax-les-Thermes%20(1).jpg",
       "title": "Bains du Couloubret in Ax-les-Thermes (1).jpg",
+      "description": "Bains du Couloubret in Ax-les-Thermes, Ariège, France",
       "width": 5711,
       "height": 2715,
       "size": 10020399,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Casino_in_Ax-les-Thermes_%281%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACasino%20in%20Ax-les-Thermes%20(1).jpg",
       "title": "Casino in Ax-les-Thermes (1).jpg",
+      "description": "Casino in Ax-les-Thermes, Ariège, France",
       "width": 7541,
       "height": 3864,
       "size": 16248012,
@@ -48,41 +51,44 @@
       "label": "Bassin des Ladres",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Bassin_de_la_Basse_Ax-les-Thermes_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABassin%20de%20la%20Basse%20Ax-les-Thermes%2001.jpg",
+          "title": "Bassin de la Basse Ax-les-Thermes 01.jpg",
+          "description": "Le bassin de la Basse, Ax-les-Thermes, Ariège, France",
+          "width": 5184,
+          "height": 3888,
+          "size": 5140660,
+          "timestamp": "2025-11-19T09:44:54Z",
+          "author": "Rémih",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Bassin_de_la_Basse_Ax-les-Thermes_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABassin%20de%20la%20Basse%20Ax-les-Thermes%2002.jpg",
+          "title": "Bassin de la Basse Ax-les-Thermes 02.jpg",
+          "description": "Le bassin de la Basse, Ax-les-Thermes, Ariège, France",
+          "width": 5184,
+          "height": 3888,
+          "size": 5031937,
+          "timestamp": "2025-11-19T09:44:54Z",
+          "author": "Rémih",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Hopital_St._Louis_%28_Ax_les_Thermes%29_-_panoramio.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHopital%20St.%20Louis%20(%20Ax%20les%20Thermes)%20-%20panoramio.jpg",
           "title": "Hopital St. Louis ( Ax les Thermes) - panoramio.jpg",
+          "description": "Hopital St. Louis ( Ax les Thermes)",
           "width": 1654,
           "height": 1235,
           "size": 2047979,
           "timestamp": "2016-12-22T09:07:28Z",
           "author": "Javier B",
           "license": "CC BY 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Ax-les-Thermes_-_Bassin_des_Ladres.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAx-les-Thermes%20-%20Bassin%20des%20Ladres.jpg",
-          "title": "Ax-les-Thermes - Bassin des Ladres.jpg",
-          "width": 2592,
-          "height": 1944,
-          "size": 2236427,
-          "timestamp": "2018-08-10T22:00:48Z",
-          "author": "MOSSOT",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Bassin_des_Ladres.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABassin%20des%20Ladres.jpg",
-          "title": "Bassin des Ladres.jpg",
-          "width": 2240,
-          "height": 3968,
-          "size": 2464516,
-          "timestamp": "2020-02-12T18:27:20Z",
-          "author": "Hernandlucas",
-          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
         }
@@ -95,6 +101,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Ax-les-Thermes_-_parc_du_casino_-_bo%C3%AEte_%C3%A0_livres.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAx-les-Thermes%20-%20parc%20du%20casino%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
           "title": "Ax-les-Thermes - parc du casino - boîte à livres.jpg",
+          "description": "Boîte à livres à Ax-les-Thermes",
           "width": 1875,
           "height": 2500,
           "size": 771701,
@@ -103,19 +110,6 @@
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Parc_du_Casino.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParc%20du%20Casino.jpg",
-          "title": "Parc du Casino.jpg",
-          "width": 1024,
-          "height": 768,
-          "size": 226098,
-          "timestamp": "2019-04-24T14:33:22Z",
-          "author": "Anaïs Comet",
-          "license": "CC0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
         }
       ]
     },
@@ -126,6 +120,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Ax-les-Thermes_Passerelle.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAx-les-Thermes%20Passerelle.jpg",
           "title": "Ax-les-Thermes Passerelle.jpg",
+          "description": "Footbridge over Oriège River in Ax-les-Thermes, Ariège, France.",
           "width": 2826,
           "height": 2181,
           "size": 1134093,

@@ -1,8 +1,37 @@
 {
   "slug": "signy-l-abbaye",
   "nom": "signy l abbaye",
-  "fetchedAt": "2026-03-14T12:41:56.081Z",
-  "header": [],
+  "fetchedAt": "2026-03-18T19:43:00.483Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Plan_du_Terrein_acquis_par_Monsieur_l%27Abb%C3%A9_d%27Harcourt_joignant_celui_dependant_du_Palais_Abbatial_de_l%27Abbaye_Royalle_de_Signy_-_btv1b84906382.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlan%20du%20Terrein%20acquis%20par%20Monsieur%20l'Abb%C3%A9%20d'Harcourt%20joignant%20celui%20dependant%20du%20Palais%20Abbatial%20de%20l'Abbaye%20Royalle%20de%20Signy%20-%20btv1b84906382.jpg",
+      "title": "Plan du Terrein acquis par Monsieur l'Abbé d'Harcourt joignant celui dependant du Palais Abbatial de l'Abbaye Royalle de Signy - btv1b84906382.jpg",
+      "description": "Sujet : Abbayes\nSigny-l'Abbaye -- Environs\nÉchelle(s) : 35 Toises [=Om. 093 ; 1:750 ca]\nAppartient à l’ensemble documentaire : ChArdenn1\nCouverture : France – Grand-Est – Ardennes\nLangue : français\n\nÉditeur : [s.n.]",
+      "width": 7028,
+      "height": 8900,
+      "size": 6643418,
+      "timestamp": "2022-08-13T01:25:46Z",
+      "author": "Inconnu",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/La_Vaux_%C3%A0_Signy-L-Abbaye.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Vaux%20%C3%A0%20Signy-L-Abbaye.jpg",
+      "title": "La Vaux à Signy-L-Abbaye.jpg",
+      "description": "La Vaux à Signy l'Abbaye",
+      "width": 634,
+      "height": 476,
+      "size": 55364,
+      "timestamp": "2014-11-21T12:45:46Z",
+      "author": "Thierrydavesne1965",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 2
+    }
+  ],
   "lieux": [
     {
       "label": "Place Aristide Briand",
@@ -10,15 +39,102 @@
     },
     {
       "label": "Vestiges de l’abbaye cistercienne",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Plan_du_Terrein_acquis_par_Monsieur_l%27Abb%C3%A9_d%27Harcourt_joignant_celui_dependant_du_Palais_Abbatial_de_l%27Abbaye_Royalle_de_Signy_-_btv1b84906382.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlan%20du%20Terrein%20acquis%20par%20Monsieur%20l'Abb%C3%A9%20d'Harcourt%20joignant%20celui%20dependant%20du%20Palais%20Abbatial%20de%20l'Abbaye%20Royalle%20de%20Signy%20-%20btv1b84906382.jpg",
+          "title": "Plan du Terrein acquis par Monsieur l'Abbé d'Harcourt joignant celui dependant du Palais Abbatial de l'Abbaye Royalle de Signy - btv1b84906382.jpg",
+          "description": "Sujet : Abbayes\nSigny-l'Abbaye -- Environs\nÉchelle(s) : 35 Toises [=Om. 093 ; 1:750 ca]\nAppartient à l’ensemble documentaire : ChArdenn1\nCouverture : France – Grand-Est – Ardennes\nLangue : français\n\nÉditeur : [s.n.]",
+          "width": 7028,
+          "height": 8900,
+          "size": 6643418,
+          "timestamp": "2022-08-13T01:25:46Z",
+          "author": "Inconnu",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/La_Vaux_%C3%A0_Signy-L-Abbaye.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Vaux%20%C3%A0%20Signy-L-Abbaye.jpg",
+          "title": "La Vaux à Signy-L-Abbaye.jpg",
+          "description": "La Vaux à Signy l'Abbaye",
+          "width": 634,
+          "height": 476,
+          "size": 55364,
+          "timestamp": "2014-11-21T12:45:46Z",
+          "author": "Thierrydavesne1965",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 2
+        }
+      ]
     },
     {
       "label": "Église Saint-Léger",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Chapelle_nord_01829_%C3%A9glise_signy.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20nord%2001829%20%C3%A9glise%20signy.JPG",
+          "title": "Chapelle nord 01829 église signy.JPG",
+          "description": "vue de la chapelle du bas-côté nord.",
+          "width": 1416,
+          "height": 2128,
+          "size": 2555904,
+          "timestamp": "2016-07-25T09:13:56Z",
+          "author": "G. Garitan",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Chapelle_sud_%C3%A9glise_signy_01864.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20sud%20%C3%A9glise%20signy%2001864.JPG",
+          "title": "Chapelle sud église signy 01864.JPG",
+          "description": "vue de la chapelle du bas-côté sud.",
+          "width": 1416,
+          "height": 2128,
+          "size": 2457600,
+          "timestamp": "2016-07-25T09:18:55Z",
+          "author": "G. Garitan",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/M%C3%A9daillon_%C3%A9glise_signy_01837.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AM%C3%A9daillon%20%C3%A9glise%20signy%2001837.JPG",
+          "title": "Médaillon église signy 01837.JPG",
+          "description": "panneau avec Médaillon_en l'église_de signy.",
+          "width": 2128,
+          "height": 1416,
+          "size": 2916352,
+          "timestamp": "2016-07-25T08:51:05Z",
+          "author": "G.Garitan",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Lavoir de la Vaux",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/La_Vaux_%C3%A0_Signy-L-Abbaye.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Vaux%20%C3%A0%20Signy-L-Abbaye.jpg",
+          "title": "La Vaux à Signy-L-Abbaye.jpg",
+          "description": "La Vaux à Signy l'Abbaye",
+          "width": 634,
+          "height": 476,
+          "size": 55364,
+          "timestamp": "2014-11-21T12:45:46Z",
+          "author": "Thierrydavesne1965",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 2
+        }
+      ]
     }
   ]
 }

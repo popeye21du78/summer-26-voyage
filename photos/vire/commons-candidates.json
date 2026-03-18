@@ -1,25 +1,13 @@
 {
   "slug": "vire",
   "nom": "Vire",
-  "fetchedAt": "2026-03-13T02:12:38.379Z",
+  "fetchedAt": "2026-03-18T21:08:33.971Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/%E7%BB%B4%E5%B0%94%E9%99%84%E8%BF%91%E7%9A%84%E7%BB%BF%E5%9C%B0.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%E7%BB%B4%E5%B0%94%E9%99%84%E8%BF%91%E7%9A%84%E7%BB%BF%E5%9C%B0.jpg",
-      "title": "维尔附近的绿地.jpg",
-      "width": 3264,
-      "height": 2448,
-      "size": 2885878,
-      "timestamp": "2020-07-17T22:47:39Z",
-      "author": "AirScott",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Fa%C3%A7ade_du_mus%C3%A9e_de_Vire_Normandie.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFa%C3%A7ade%20du%20mus%C3%A9e%20de%20Vire%20Normandie.jpg",
       "title": "Façade du musée de Vire Normandie.jpg",
+      "description": "Façade du musée de Vire Normandie",
       "width": 4032,
       "height": 3024,
       "size": 5356672,
@@ -30,14 +18,29 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Andouillesespacemus%C3%A9e.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAndouillesespacemus%C3%A9e.jpg",
-      "title": "Andouillesespacemusée.jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 4475558,
-      "timestamp": "2023-12-15T11:12:49Z",
-      "author": "Lucie614",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Tribunal_d%27instance_de_Vire.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATribunal%20d'instance%20de%20Vire.jpg",
+      "title": "Tribunal d'instance de Vire.jpg",
+      "description": "tribunal d’instance de Vire",
+      "width": 4080,
+      "height": 3072,
+      "size": 4017014,
+      "timestamp": "2024-02-17T10:34:41Z",
+      "author": "Pradigue",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Tribunal_d%27instance_de_Vire_2.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATribunal%20d'instance%20de%20Vire%202.jpg",
+      "title": "Tribunal d'instance de Vire 2.jpg",
+      "description": "tribunal d'instance de Vire 2",
+      "width": 4080,
+      "height": 3072,
+      "size": 2615603,
+      "timestamp": "2024-02-17T10:36:35Z",
+      "author": "Pradigue",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
@@ -48,43 +51,32 @@
       "label": "Porte Horloge",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Porte_Horloge.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APorte%20Horloge.jpg",
-          "title": "Porte Horloge.jpg",
-          "width": 4080,
-          "height": 3072,
-          "size": 3747859,
-          "timestamp": "2024-05-16T18:57:39Z",
-          "author": "Pradigue",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Autumn_on_Vire_Island%2C_yacht_moored_on_The_Dart_-_geograph.org.uk_-_5608431.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAutumn%20on%20Vire%20Island%2C%20yacht%20moored%20on%20The%20Dart%20-%20geograph.org.uk%20-%205608431.jpg",
+          "title": "Autumn on Vire Island, yacht moored on The Dart - geograph.org.uk - 5608431.jpg",
+          "description": "Autumn on Vire Island, yacht moored on The Dart",
+          "width": 3648,
+          "height": 2736,
+          "size": 6540509,
+          "timestamp": "2023-10-25T05:52:14Z",
+          "author": "David Hawgood",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/FranceNormandieVireMuseePanneauPaulHuetLEntreeAuPort.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFranceNormandieVireMuseePanneauPaulHuetLEntreeAuPort.jpg",
+          "title": "FranceNormandieVireMuseePanneauPaulHuetLEntreeAuPort.jpg",
+          "description": "Vire (Normandie, France). Le panneau L'Entrée du port de Paul Huet, dans le musée.",
+          "width": 2193,
+          "height": 3922,
+          "size": 5396434,
+          "timestamp": "2023-07-22T22:11:04Z",
+          "author": "Ikmo-ned",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Vire_Normandie_Porte_Horloge%283%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVire%20Normandie%20Porte%20Horloge(3).jpg",
-          "title": "Vire Normandie Porte Horloge(3).jpg",
-          "width": 2799,
-          "height": 1819,
-          "size": 1048615,
-          "timestamp": "2024-07-30T13:03:33Z",
-          "author": "Suzelfe",
-          "license": "CC BY 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Vire_Normandie_Porte_Horloge%281%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVire%20Normandie%20Porte%20Horloge(1).jpg",
-          "title": "Vire Normandie Porte Horloge(1).jpg",
-          "width": 2880,
-          "height": 1920,
-          "size": 3662667,
-          "timestamp": "2024-07-30T13:03:33Z",
-          "author": "Suzelfe",
-          "license": "CC BY 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 6
         }
       ]
     },
@@ -92,43 +84,46 @@
       "label": "Église Notre-Dame",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Vire_-_Eglise_Notre-Dame_-_01.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVire%20-%20Eglise%20Notre-Dame%20-%2001.jpg",
-          "title": "Vire - Eglise Notre-Dame - 01.jpg",
-          "width": 3984,
-          "height": 2656,
-          "size": 1822713,
-          "timestamp": "2023-07-31T21:30:33Z",
-          "author": "Antoine Garnier",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Torigni-sur-Vire%2C_%C3%89glise_Saint-Laurent%2C_ext%C3%A9rieur_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATorigni-sur-Vire%2C%20%C3%89glise%20Saint-Laurent%2C%20ext%C3%A9rieur%201.jpg",
+          "title": "Torigni-sur-Vire, Église Saint-Laurent, extérieur 1.jpg",
+          "description": "Vue du côté nord-ouest de l'Église Saint-Laurent de Torigni-sur-Vire à Torigny-les-Villes dans la Manche.",
+          "width": 4608,
+          "height": 3456,
+          "size": 4526158,
+          "timestamp": "2025-01-07T17:18:11Z",
+          "author": "Antoine Rex",
+          "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Vire_-_Eglise_Notre-Dame_-_03.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVire%20-%20Eglise%20Notre-Dame%20-%2003.jpg",
-          "title": "Vire - Eglise Notre-Dame - 03.jpg",
-          "width": 3984,
-          "height": 2656,
-          "size": 2187090,
-          "timestamp": "2023-07-31T21:30:33Z",
-          "author": "Antoine Garnier",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Torigni-sur-Vire%2C_%C3%89glise_Saint-Laurent%2C_ext%C3%A9rieur_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATorigni-sur-Vire%2C%20%C3%89glise%20Saint-Laurent%2C%20ext%C3%A9rieur%202.jpg",
+          "title": "Torigni-sur-Vire, Église Saint-Laurent, extérieur 2.jpg",
+          "description": "Vue du côté ouest de l'Église Saint-Laurent de Torigni-sur-Vire à Torigny-les-Villes dans la Manche.",
+          "width": 4608,
+          "height": 3456,
+          "size": 4243800,
+          "timestamp": "2025-01-07T17:18:11Z",
+          "author": "Antoine Rex",
+          "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Vire_-_Eglise_Notre-Dame_-_04.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVire%20-%20Eglise%20Notre-Dame%20-%2004.jpg",
-          "title": "Vire - Eglise Notre-Dame - 04.jpg",
-          "width": 3984,
-          "height": 2656,
-          "size": 2353752,
-          "timestamp": "2023-07-31T21:30:35Z",
-          "author": "Antoine Garnier",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Torigni-sur-Vire%2C_%C3%89glise_Saint-Laurent%2C_ext%C3%A9rieur_3.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATorigni-sur-Vire%2C%20%C3%89glise%20Saint-Laurent%2C%20ext%C3%A9rieur%203.jpg",
+          "title": "Torigni-sur-Vire, Église Saint-Laurent, extérieur 3.jpg",
+          "description": "Vue du côté sud de l'Église Saint-Laurent de Torigni-sur-Vire à Torigny-les-Villes dans la Manche.",
+          "width": 4608,
+          "height": 3456,
+          "size": 4680367,
+          "timestamp": "2025-01-07T17:18:11Z",
+          "author": "Antoine Rex",
+          "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         }
       ]
     },
@@ -139,6 +134,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/FranceNormandieVireChateauEtKiosque.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFranceNormandieVireChateauEtKiosque.jpg",
           "title": "FranceNormandieVireChateauEtKiosque.jpg",
+          "description": "Vire (Normandy, France). The place du Château with the ruin of the keep (12th century) and the bandstand (1906).",
           "width": 1600,
           "height": 900,
           "size": 570885,
@@ -146,7 +142,35 @@
           "author": "Ikmo-ned",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/FranceNormandieVireChateauVueNord.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFranceNormandieVireChateauVueNord.jpg",
+          "title": "FranceNormandieVireChateauVueNord.jpg",
+          "description": "Vire (Normandy, France). Ruin of the keep (northern side).",
+          "width": 2002,
+          "height": 2564,
+          "size": 1385840,
+          "timestamp": "2021-02-06T03:58:51Z",
+          "author": "Ikmo-ned",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Vire_1944.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVire%201944.jpg",
+          "title": "Vire 1944.jpg",
+          "description": "Vue aérienne de la ville de Vire après les bombardements du 6 juin, l'église Notre-Dame est le seul édifice debout au milieu des immeubles en ruines.",
+          "width": 3020,
+          "height": 2480,
+          "size": 2979882,
+          "timestamp": "2010-03-24T09:47:41Z",
+          "author": "Conseil Régional de Basse-Normandie / National Archives USA",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
         }
       ]
     },
@@ -156,11 +180,97 @@
     },
     {
       "label": "Chapelle Saint-Martin",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Vire_Normandie_Chapelle_Sainte-Th%C3%A9r%C3%A8se%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVire%20Normandie%20Chapelle%20Sainte-Th%C3%A9r%C3%A8se(2).jpg",
+          "title": "Vire Normandie Chapelle Sainte-Thérèse(2).jpg",
+          "description": "Chapelle Sainte-Thérèse, vue depuis la rue des Cordeliers, à Vire Normandie.",
+          "width": 1920,
+          "height": 2880,
+          "size": 3666313,
+          "timestamp": "2024-07-30T17:06:33Z",
+          "author": "Suzelfe",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Vire_Normandie_Chapelle_Sainte-Th%C3%A9r%C3%A8se%281%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVire%20Normandie%20Chapelle%20Sainte-Th%C3%A9r%C3%A8se(1).jpg",
+          "title": "Vire Normandie Chapelle Sainte-Thérèse(1).jpg",
+          "description": "Chapelle Sainte-Thérèse, vue depuis la rue des Cordeliers, à Vire Normandie.",
+          "width": 1920,
+          "height": 2880,
+          "size": 3101333,
+          "timestamp": "2024-07-30T17:06:34Z",
+          "author": "Suzelfe",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Chapelle_Saint-%C3%89loi_de_Torigni-sur-Vire_-_JEP_2021_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20Saint-%C3%89loi%20de%20Torigni-sur-Vire%20-%20JEP%202021%2002.jpg",
+          "title": "Chapelle Saint-Éloi de Torigni-sur-Vire - JEP 2021 02.jpg",
+          "description": "chapelle de la maison de retraite",
+          "width": 4608,
+          "height": 3456,
+          "size": 3563636,
+          "timestamp": "2022-01-08T19:02:56Z",
+          "author": "Xfigpower",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Square André Brouillet",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Vire_Normandie_Porte_Horloge%281%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVire%20Normandie%20Porte%20Horloge(1).jpg",
+          "title": "Vire Normandie Porte Horloge(1).jpg",
+          "description": "La porte Horloge, façade est, vue depuis la place du 6 juin à Vire Normandie, décorée à l'occasion du 80ème anniversaire du débarquement.",
+          "width": 2880,
+          "height": 1920,
+          "size": 3662667,
+          "timestamp": "2024-07-30T13:03:33Z",
+          "author": "Suzelfe",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Vire_Normandie_Porte_Horloge%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVire%20Normandie%20Porte%20Horloge(2).jpg",
+          "title": "Vire Normandie Porte Horloge(2).jpg",
+          "description": "La porte Horloge, façade est, vue depuis la place du 6 juin à Vire Normandie, décorée à l'occasion du 80ème anniversaire du débarquement.",
+          "width": 2880,
+          "height": 1920,
+          "size": 3898788,
+          "timestamp": "2024-07-30T13:03:33Z",
+          "author": "Suzelfe",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Vire_Normandie_Porte_Horloge%284%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVire%20Normandie%20Porte%20Horloge(4).jpg",
+          "title": "Vire Normandie Porte Horloge(4).jpg",
+          "description": "La porte Horloge, façade est, vue depuis la place du 6 juin à Vire Normandie.",
+          "width": 1920,
+          "height": 2880,
+          "size": 3407013,
+          "timestamp": "2024-07-30T13:03:36Z",
+          "author": "Suzelfe",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        }
+      ]
     }
   ]
 }

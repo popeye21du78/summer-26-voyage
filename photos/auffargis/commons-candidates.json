@@ -1,46 +1,49 @@
 {
   "slug": "auffargis",
   "nom": "Auffargis",
-  "fetchedAt": "2026-03-12T23:56:22.187Z",
+  "fetchedAt": "2026-03-15T15:20:01.064Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/ISS043-E-186746_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS043-E-186746%20-%20View%20of%20Earth.jpg",
-      "title": "ISS043-E-186746 - View of Earth.jpg",
-      "width": 4928,
-      "height": 3280,
-      "size": 2194257,
-      "timestamp": "2021-03-17T13:45:39Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Auffargis_ancien_lavoir.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAuffargis%20ancien%20lavoir.jpg",
+      "title": "Auffargis ancien lavoir.jpg",
+      "description": "Ancien lavoir transformé en abri à Auffargis. (Yvelines, région Île-de-France).",
+      "width": 2592,
+      "height": 1944,
+      "size": 3935325,
+      "timestamp": "2022-01-09T18:32:03Z",
+      "author": "Thor19",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/ISS043-E-186745_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS043-E-186745%20-%20View%20of%20Earth.jpg",
-      "title": "ISS043-E-186745 - View of Earth.jpg",
-      "width": 4928,
-      "height": 3280,
-      "size": 2130420,
-      "timestamp": "2021-03-17T13:45:37Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Ch%C3%A2teau_de_La_Fontaine_%28Auffargis%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20La%20Fontaine%20(Auffargis).jpg",
+      "title": "Château de La Fontaine (Auffargis).jpg",
+      "description": "Château de la Fontaine du xviiie siècle construit en pierre meulière.",
+      "width": 1600,
+      "height": 995,
+      "size": 2369949,
+      "timestamp": "2024-01-26T17:09:42Z",
+      "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+      "license": "CC BY 2.5",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/ISS043-E-186747_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS043-E-186747%20-%20View%20of%20Earth.jpg",
-      "title": "ISS043-E-186747 - View of Earth.jpg",
-      "width": 4928,
-      "height": 3280,
-      "size": 2129760,
-      "timestamp": "2021-03-17T13:45:41Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/%C3%89tang_des_Vall%C3%A9es_%C3%A0_Auffargis_le_10_mai_2015_-_01.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89tang%20des%20Vall%C3%A9es%20%C3%A0%20Auffargis%20le%2010%20mai%202015%20-%2001.jpg",
+      "title": "Étang des Vallées à Auffargis le 10 mai 2015 - 01.jpg",
+      "description": "View of the Vallées pond next to the Vaux de Cernay street in Auffargis, France.",
+      "width": 5184,
+      "height": 3456,
+      "size": 11783357,
+      "timestamp": "2015-05-10T20:24:02Z",
+      "author": "Lionel Allorge",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 8
     }
   ],
   "lieux": [
@@ -48,9 +51,24 @@
       "label": "Église Saint-André",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Reliques_de_St_Thibault_de_Marly_%C3%A0_Auffargis.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AReliques%20de%20St%20Thibault%20de%20Marly%20%C3%A0%20Auffargis.jpg",
+          "title": "Reliques de St Thibault de Marly à Auffargis.jpg",
+          "description": "Relics of Saint Thibaut de Marly in their shrine. They were kept in the church of St-Brice in Cernay-la-Ville when I asked the parish priest to put them on display.",
+          "width": 582,
+          "height": 322,
+          "size": 91130,
+          "timestamp": "2024-05-19T20:36:16Z",
+          "author": "P.-O. Combelles",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Auffargis_%C3%89glise.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAuffargis%20%C3%89glise.JPG",
           "title": "Auffargis Église.JPG",
+          "description": "Église d'Auffargis (Yvelines, France)",
           "width": 1932,
           "height": 2576,
           "size": 1021348,
@@ -64,6 +82,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Auffargis_%C3%89glise2.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAuffargis%20%C3%89glise2.JPG",
           "title": "Auffargis Église2.JPG",
+          "description": "Église d'Auffargis (Yvelines, France)",
           "width": 1932,
           "height": 2576,
           "size": 1021776,
@@ -77,7 +96,36 @@
     },
     {
       "label": "Lavoir d’Auffargis",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Auffargis_ancien_lavoir.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAuffargis%20ancien%20lavoir.jpg",
+          "title": "Auffargis ancien lavoir.jpg",
+          "description": "Ancien lavoir transformé en abri à Auffargis. (Yvelines, région Île-de-France).",
+          "width": 2592,
+          "height": 1944,
+          "size": 3935325,
+          "timestamp": "2022-01-09T18:32:03Z",
+          "author": "Thor19",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Auffargis_ancien_lavoir_source.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAuffargis%20ancien%20lavoir%20source.jpg",
+          "title": "Auffargis ancien lavoir source.jpg",
+          "description": "Ancien lavoir à Auffargis, source. (Yvelines, région Île-de-France).",
+          "width": 1944,
+          "height": 2592,
+          "size": 3780188,
+          "timestamp": "2022-01-09T18:38:14Z",
+          "author": "Thor19",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Sentier le long de l’Yvette",

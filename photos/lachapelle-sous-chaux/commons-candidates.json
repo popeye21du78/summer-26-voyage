@@ -1,12 +1,13 @@
 {
   "slug": "lachapelle-sous-chaux",
   "nom": "Lachapelle-sous-Chaux",
-  "fetchedAt": "2026-03-13T15:17:22.802Z",
+  "fetchedAt": "2026-03-16T19:30:46.156Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Chaux%2C_Mairie.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChaux%2C%20Mairie.JPG",
       "title": "Chaux, Mairie.JPG",
+      "description": "La mairie de Chaux",
       "width": 4224,
       "height": 2716,
       "size": 1652117,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Chaux%2C_%C3%89glise_Saint-Martin_2.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChaux%2C%20%C3%89glise%20Saint-Martin%202.jpg",
       "title": "Chaux, Église Saint-Martin 2.jpg",
+      "description": "L'église Saint-Martin à Chaux, côté sud-est",
       "width": 3795,
       "height": 2728,
       "size": 1911295,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Lachapelle-sous-Chaux%2C_Mairie.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALachapelle-sous-Chaux%2C%20Mairie.jpg",
       "title": "Lachapelle-sous-Chaux, Mairie.jpg",
+      "description": "La mairie de Lachapelle-sous-Chaux",
       "width": 3938,
       "height": 2468,
       "size": 1886185,
@@ -46,7 +49,22 @@
   "lieux": [
     {
       "label": "Église Saint-Antoine",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Lachapelle-sous-Chaux%2C_%C3%89glise_Saint-Vincent.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALachapelle-sous-Chaux%2C%20%C3%89glise%20Saint-Vincent.jpg",
+          "title": "Lachapelle-sous-Chaux, Église Saint-Vincent.jpg",
+          "description": "L'église Saint-Vincent à Lachapelle-sous-Chaux",
+          "width": 3472,
+          "height": 6448,
+          "size": 2265200,
+          "timestamp": "2025-11-22T20:25:34Z",
+          "author": "Rauenstein",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Étang de la Véronne",

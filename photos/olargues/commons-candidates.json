@@ -1,44 +1,47 @@
 {
   "slug": "olargues",
   "nom": "Olargues",
-  "fetchedAt": "2026-03-13T16:39:52.343Z",
+  "fetchedAt": "2026-03-17T21:59:01.128Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Olargues%2C_H%C3%A9rault_01.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOlargues%2C%20H%C3%A9rault%2001.jpg",
+      "title": "Olargues, Hérault 01.jpg",
+      "description": "Le village d'Olargues vue depuis le Pont ferroviaire. Sur la droite la D908. Hérault, France. Parc naturel régional du Haut-Languedoc.",
+      "width": 6639,
+      "height": 4149,
+      "size": 6604951,
+      "timestamp": "2015-05-31T12:19:21Z",
+      "author": "Christian Ferrer",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Olargues_from_Pont_de_Diable.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOlargues%20from%20Pont%20de%20Diable.jpg",
+      "title": "Olargues from Pont de Diable.jpg",
+      "description": "View of Olargues, dept. Hérault, France, from the Pont de Diable. On the top of the hill is the Église Saint-Laurent.",
+      "width": 9326,
+      "height": 2779,
+      "size": 5254645,
+      "timestamp": "2021-10-28T14:58:01Z",
+      "author": "MartinD",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Natrix_maura%2C_Olargues_02.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANatrix%20maura%2C%20Olargues%2002.jpg",
       "title": "Natrix maura, Olargues 02.jpg",
+      "description": "Natrix maura (Viperine water snake).",
       "width": 7360,
       "height": 4140,
       "size": 33424957,
       "timestamp": "2015-05-02T14:04:25Z",
       "author": "<div class=\"fn value\">\n<a href=\"//commons.wikimedia.org/wiki/User:Christian_Ferrer\" title=\"User:Christian Ferrer\">Christian Ferrer</a></div>",
       "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Olargues_railway_bridge%2C_H%C3%A9rault_01.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOlargues%20railway%20bridge%2C%20H%C3%A9rault%2001.jpg",
-      "title": "Olargues railway bridge, Hérault 01.jpg",
-      "width": 7214,
-      "height": 3983,
-      "size": 30595393,
-      "timestamp": "2015-06-14T13:53:17Z",
-      "author": "Christian Ferrer",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Pont_du_Diable_%28Olargues%29_01.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20du%20Diable%20(Olargues)%2001.jpg",
-      "title": "Pont du Diable (Olargues) 01.jpg",
-      "width": 7291,
-      "height": 4101,
-      "size": 7841806,
-      "timestamp": "2015-05-30T20:22:13Z",
-      "author": "Christian Ferrer",
-      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 6
     }
@@ -48,43 +51,46 @@
       "label": "Pont du Diable",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Le_pont_de_Tarassac%2C_aux_environs_d%27Olargues_-_btv1b10489248b.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20pont%20de%20Tarassac%2C%20aux%20environs%20d'Olargues%20-%20btv1b10489248b.jpg",
-          "title": "Le pont de Tarassac, aux environs d'Olargues - btv1b10489248b.jpg",
-          "width": 3842,
-          "height": 2992,
-          "size": 2693860,
-          "timestamp": "2025-03-22T09:23:35Z",
-          "author": "<div class=\"fn value\">\n<p>Bertrand, Simon. Dessinateur\n</p>\nPons. Lithographe</div>",
-          "license": "Public domain",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Olargues_from_Pont_de_Diable.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOlargues%20from%20Pont%20de%20Diable.jpg",
+          "title": "Olargues from Pont de Diable.jpg",
+          "description": "View of Olargues, dept. Hérault, France, from the Pont de Diable. On the top of the hill is the Église Saint-Laurent.",
+          "width": 9326,
+          "height": 2779,
+          "size": 5254645,
+          "timestamp": "2021-10-28T14:58:01Z",
+          "author": "MartinD",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Rochelongue_293_Olargues.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARochelongue%20293%20Olargues.JPG",
+          "title": "Rochelongue 293 Olargues.JPG",
+          "description": "View of Olargues and the old bridge Pont du Diable from the Avenue du Champ des Horts.",
+          "width": 3264,
+          "height": 2448,
+          "size": 3784781,
+          "timestamp": "2010-08-12T06:05:35Z",
+          "author": "Demeester",
+          "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Pont_du_Diable_%28Olargues%29_01.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20du%20Diable%20(Olargues)%2001.jpg",
-          "title": "Pont du Diable (Olargues) 01.jpg",
-          "width": 7291,
-          "height": 4101,
-          "size": 7841806,
-          "timestamp": "2015-05-30T20:22:13Z",
-          "author": "Christian Ferrer",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Olargues_10.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOlargues%2010.jpg",
+          "title": "Olargues 10.jpg",
+          "description": "Sous le pont",
+          "width": 2560,
+          "height": 1440,
+          "size": 1014230,
+          "timestamp": "2020-11-14T08:42:58Z",
+          "author": "Jcb-caz-11",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/LSOlargues2.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALSOlargues2.jpg",
-          "title": "LSOlargues2.jpg",
-          "width": 2170,
-          "height": 3304,
-          "size": 1584249,
-          "timestamp": "2020-04-02T15:43:25Z",
-          "author": "Ziegler175",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         }
       ]
     },
@@ -94,7 +100,50 @@
     },
     {
       "label": "Ruelles médiévales d’Olargues",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Olargues_-_rue_M%C3%A9geane_-_bo%C3%AEte_%C3%A0_livres.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOlargues%20-%20rue%20M%C3%A9geane%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
+          "title": "Olargues - rue Mégeane - boîte à livres.jpg",
+          "description": "Boîte à livres à Olargues",
+          "width": 1875,
+          "height": 2500,
+          "size": 1168282,
+          "timestamp": "2025-11-02T14:20:58Z",
+          "author": "Flip.",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Rochelongue_306_Olargues.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARochelongue%20306%20Olargues.JPG",
+          "title": "Rochelongue 306 Olargues.JPG",
+          "description": "Alley in Olargues, France.",
+          "width": 3264,
+          "height": 2448,
+          "size": 4656286,
+          "timestamp": "2010-08-12T11:03:40Z",
+          "author": "Demeester",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Rue_du_Pont_Vieux._Olargues_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARue%20du%20Pont%20Vieux.%20Olargues%2001.jpg",
+          "title": "Rue du Pont Vieux. Olargues 01.jpg",
+          "description": "Rue du Pont Vieux. Olargues, Hérault, France.",
+          "width": 4128,
+          "height": 7322,
+          "size": 6191503,
+          "timestamp": "2015-05-31T11:42:27Z",
+          "author": "Christian Ferrer",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     }
   ]
 }

@@ -1,8 +1,23 @@
 {
   "slug": "les-terres-de-l-abbaye",
   "nom": "les terres de l abbaye",
-  "fetchedAt": "2026-03-13T15:53:34.493Z",
-  "header": [],
+  "fetchedAt": "2026-03-16T20:47:32.223Z",
+  "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Plan_de_la_commune_du_Quesnoy%2C_indiquant_les_limites_des_terres_de_l%27ancienne_abbaye_de_Saint-Georges._-_btv1b53063443m.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlan%20de%20la%20commune%20du%20Quesnoy%2C%20indiquant%20les%20limites%20des%20terres%20de%20l'ancienne%20abbaye%20de%20Saint-Georges.%20-%20btv1b53063443m.jpg",
+      "title": "Plan de la commune du Quesnoy, indiquant les limites des terres de l'ancienne abbaye de Saint-Georges. - btv1b53063443m.jpg",
+      "description": "Sujet : Le Quesnoy-en-Artois\nCouverture : France– Hauts-de-France – Pas-de-Calais\nLangue : français\n\nÉditeur : [s.n.]",
+      "width": 26233,
+      "height": 8936,
+      "size": 21268491,
+      "timestamp": "2022-07-17T03:20:49Z",
+      "author": "Inconnu",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    }
+  ],
   "lieux": [
     {
       "label": "Église d’Ouville-l’Abbaye",
@@ -10,7 +25,22 @@
     },
     {
       "label": "Plateau bocager près de l’abbaye",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Plan_de_la_commune_du_Quesnoy%2C_indiquant_les_limites_des_terres_de_l%27ancienne_abbaye_de_Saint-Georges._-_btv1b53063443m.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlan%20de%20la%20commune%20du%20Quesnoy%2C%20indiquant%20les%20limites%20des%20terres%20de%20l'ancienne%20abbaye%20de%20Saint-Georges.%20-%20btv1b53063443m.jpg",
+          "title": "Plan de la commune du Quesnoy, indiquant les limites des terres de l'ancienne abbaye de Saint-Georges. - btv1b53063443m.jpg",
+          "description": "Sujet : Le Quesnoy-en-Artois\nCouverture : France– Hauts-de-France – Pas-de-Calais\nLangue : français\n\nÉditeur : [s.n.]",
+          "width": 26233,
+          "height": 8936,
+          "size": 21268491,
+          "timestamp": "2022-07-17T03:20:49Z",
+          "author": "Inconnu",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Haies et pommiers du chemin",

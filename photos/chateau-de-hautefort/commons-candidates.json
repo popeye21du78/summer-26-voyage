@@ -1,25 +1,13 @@
 {
   "slug": "chateau-de-hautefort",
   "nom": "Château de Hautefort",
-  "fetchedAt": "2026-03-13T13:06:54.207Z",
+  "fetchedAt": "2026-03-15T21:29:29.735Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Ch%C3%A2teau_des_Bories.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20des%20Bories.jpg",
-      "title": "Château des Bories.jpg",
-      "width": 5647,
-      "height": 3879,
-      "size": 4485856,
-      "timestamp": "2017-08-11T21:01:31Z",
-      "author": "Jean-Christophe BENOIST",
-      "license": "CC BY 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Le_Change_ch%C3%A2teau_la_Sandre_%281%29.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Change%20ch%C3%A2teau%20la%20Sandre%20(1).JPG",
       "title": "Le Change château la Sandre (1).JPG",
+      "description": "La façade est du château de la Sandre, Le Change, Dordogne, France",
       "width": 3264,
       "height": 2448,
       "size": 3743250,
@@ -27,30 +15,117 @@
       "author": "Père Igor",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
+      "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Escoire_ch%C3%A2teau.JPG",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEscoire%20ch%C3%A2teau.JPG",
-      "title": "Escoire château.JPG",
-      "width": 2174,
-      "height": 1630,
-      "size": 913479,
-      "timestamp": "2008-06-23T07:15:42Z",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Le_Change_ch%C3%A2teau_la_Sandre.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Change%20ch%C3%A2teau%20la%20Sandre.JPG",
+      "title": "Le Change château la Sandre.JPG",
+      "description": "Le château de la Sandre, Le Change, Dordogne, France",
+      "width": 3264,
+      "height": 2448,
+      "size": 1605533,
+      "timestamp": "2008-11-28T14:29:01Z",
       "author": "Père Igor",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 4
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Ch%C3%A2teau_de_la_Faurie.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20la%20Faurie.jpg",
+      "title": "Château de la Faurie.jpg",
+      "description": "Château de la Faurie",
+      "width": 1944,
+      "height": 2592,
+      "size": 1159549,
+      "timestamp": "2011-09-20T16:43:20Z",
+      "author": "Dimimis",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
     }
   ],
   "lieux": [
     {
       "label": "Grand escalier d’honneur",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Chateau_de_Hautefort_%284709151979%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau%20de%20Hautefort%20(4709151979).jpg",
+          "title": "Chateau de Hautefort (4709151979).jpg",
+          "description": "Château de Hautefort, grand staircase",
+          "width": 1272,
+          "height": 845,
+          "size": 227958,
+          "timestamp": "2015-10-23T18:04:22Z",
+          "author": "Ben Salter",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Hautefort_entrance.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHautefort%20entrance.jpg",
+          "title": "Hautefort entrance.jpg",
+          "description": "Entrance of the Château de Hautefort",
+          "width": 2736,
+          "height": 3648,
+          "size": 1941459,
+          "timestamp": "2010-03-11T20:05:52Z",
+          "author": "Joseph Plotz",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Jardins à la française",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/France_NA_24_Hautefort_14.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20NA%2024%20Hautefort%2014.jpg",
+          "title": "France NA 24 Hautefort 14.jpg",
+          "description": "Jardin du château de Hautefort",
+          "width": 6016,
+          "height": 4016,
+          "size": 19085467,
+          "timestamp": "2020-03-15T16:47:43Z",
+          "author": "Calips",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Ch%C3%A2teau_de_Hautefort_entr%C3%A9e_et_jardin.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Hautefort%20entr%C3%A9e%20et%20jardin.jpg",
+          "title": "Château de Hautefort entrée et jardin.jpg",
+          "description": "Château de Hautefort : Château de style classique, XVIème siècle",
+          "width": 4608,
+          "height": 3456,
+          "size": 2296338,
+          "timestamp": "2021-09-24T10:00:24Z",
+          "author": "Jacquym",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Ch%C3%A2teau_de_Hautefort_Jardins_3.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Hautefort%20Jardins%203.jpg",
+          "title": "Château de Hautefort Jardins 3.jpg",
+          "description": "Part of the formal gardens of Château de Hautefort, Dordogne, France.",
+          "width": 4445,
+          "height": 3056,
+          "size": 3128905,
+          "timestamp": "2013-09-15T15:56:30Z",
+          "author": "Jebulon",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Terrasse balustrée",
@@ -60,17 +135,18 @@
       "label": "Bibliothèque",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Eug%C3%A8ne_Le_Roy_-_Carnet_de_notes_d%E2%80%99une_excursion_de_quinze_jours_en_P%C3%A9rigord%2C_1901_-_p39.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEug%C3%A8ne%20Le%20Roy%20-%20Carnet%20de%20notes%20d%E2%80%99une%20excursion%20de%20quinze%20jours%20en%20P%C3%A9rigord%2C%201901%20-%20p39.jpg",
-          "title": "Eugène Le Roy - Carnet de notes d’une excursion de quinze jours en Périgord, 1901 - p39.jpg",
-          "width": 663,
-          "height": 385,
-          "size": 204013,
-          "timestamp": "2023-03-24T23:04:08Z",
-          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q67187136\" class=\"extiw\" title=\"d:Q67187136\"><span title=\"French artist and linguist (1859-1928)\">Jean-Louis Daniel</span></a></bdi>",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Le_Chateau_de_haute_fort_sur_les_fronti%C3%A8res_-_d%27auvergne_et_de_perigord_appartenant_a_Monsieur_-_de_hautefort_-_dessin%2C_plan_-_btv1b6901792t.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Chateau%20de%20haute%20fort%20sur%20les%20fronti%C3%A8res%20-%20d'auvergne%20et%20de%20perigord%20appartenant%20a%20Monsieur%20-%20de%20hautefort%20-%20dessin%2C%20plan%20-%20btv1b6901792t.jpg",
+          "title": "Le Chateau de haute fort sur les frontières - d'auvergne et de perigord appartenant a Monsieur - de hautefort - dessin, plan - btv1b6901792t.jpg",
+          "description": "Sujet : Hautefort, Jacques-François de (16..-1680)\nHautefort (Dordogne, France) -- Château\nDessins et plans -- 17e siècle\nRéférence bibliographique : Gaignières, 5166\nAppartient à l’ensemble documentaire : Des17Gaig\nAppartient à l’ensemble documentaire : Aquit1\nAppartient à l’ensemble documentaire : Auvergn1\nPlan\n\nLangue : français",
+          "width": 4632,
+          "height": 6128,
+          "size": 3695050,
+          "timestamp": "2025-03-01T06:20:14Z",
+          "author": "Inconnu",
           "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 8
         }
       ]
     }

@@ -1,12 +1,13 @@
 {
   "slug": "valenciennes",
   "nom": "Valenciennes",
-  "fetchedAt": "2026-03-14T13:02:14.040Z",
+  "fetchedAt": "2026-03-18T20:32:52.275Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Valenciennes_postcard_EC.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AValenciennes%20postcard%20EC.jpg",
       "title": "Valenciennes postcard EC.jpg",
+      "description": "Grote stadsplein (Wapenplein) in Valenciennes (Frankrijk - Noorderdepartement). 1933-08-3 (posted).",
       "width": 3290,
       "height": 2116,
       "size": 4368994,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Valenciennes_%E2%80%94_Le_Th%C3%A9%C3%A2tre_L.L._v%C2%BA.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AValenciennes%20%E2%80%94%20Le%20Th%C3%A9%C3%A2tre%20L.L.%20v%C2%BA.jpg",
       "title": "Valenciennes — Le Théâtre L.L. vº.jpg",
+      "description": "Valenciennes — Place d'Armes. Vue sur le Théâtre. A sa gauche, l'Hôtel de Ville et la rue de la Halle, à sa droite, l'Hôtel restaurant \"Le Premier\"et l'estaminet \"Lenne Arthur\".",
       "width": 3287,
       "height": 2065,
       "size": 4352187,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Valenciennes_%E2%80%94_L%27H%C3%B4tel_de_Ville_-_v%C2%BA.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AValenciennes%20%E2%80%94%20L'H%C3%B4tel%20de%20Ville%20-%20v%C2%BA.jpg",
       "title": "Valenciennes — L'Hôtel de Ville - vº.jpg",
+      "description": "L'Hôtel de Ville de Valenciennes situé place d'Armes, fut détruit durant la 2ème Guerre Mondiale ; la façade a pu néanmoins être restaurée. Au dernier plan, à gauche on peut apercevoir des maisons scaldiennes, dites maladroitement Maisons espagnoles.Architecte : Jules Batigny ; sculpteur : Jean-Baptiste CarpeauxReconstruction : 1953  : Jean Vergnaud ; Robert Marlière.  Paul Guislain (architectes).\n.https://books.openedition.org/pufr/8335?lang=fr",
       "width": 3257,
       "height": 2126,
       "size": 3641953,
@@ -46,59 +49,77 @@
   "lieux": [
     {
       "label": "Porte de Paris",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Valenciennes_%28upload_2021-07-21_16%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AValenciennes%20(upload%202021-07-21%2016).jpg",
-          "title": "Valenciennes (upload 2021-07-21 16).jpg",
-          "width": 3072,
-          "height": 1966,
-          "size": 921677,
-          "timestamp": "2021-07-21T21:19:20Z",
-          "author": "<div class=\"fn value\">\nUnknown author<span style=\"display: none;\">Unknown author</span></div>",
-          "license": "Public domain",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Porte-de-Paris_Lille.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APorte-de-Paris%20Lille.jpg",
-          "title": "Porte-de-Paris Lille.jpg",
-          "width": 3400,
-          "height": 2205,
-          "size": 1377251,
-          "timestamp": "2022-04-27T18:34:23Z",
-          "author": "acediscovery",
-          "license": "CC BY 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Porte_de_Paris_%28Cambrai%29_%281%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APorte%20de%20Paris%20(Cambrai)%20(1).jpg",
-          "title": "Porte de Paris (Cambrai) (1).jpg",
-          "width": 3548,
-          "height": 2662,
-          "size": 2423042,
-          "timestamp": "2022-06-27T12:48:00Z",
-          "author": "Chris06",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Jardin de la Rhônelle",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Valenciennes_%28Nord%29_-_Mus%C3%A9e_des_beaux-arts_-_%22Jardin_%C3%A0_Hampton-Court%22_%28Henri_Le_Sidaner%2C_1862-1939%29_%2843474864682%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AValenciennes%20(Nord)%20-%20Mus%C3%A9e%20des%20beaux-arts%20-%20%22Jardin%20%C3%A0%20Hampton-Court%22%20(Henri%20Le%20Sidaner%2C%201862-1939)%20(43474864682).jpg",
+          "title": "Valenciennes (Nord) - Musée des beaux-arts - \"Jardin à Hampton-Court\" (Henri Le Sidaner, 1862-1939) (43474864682).jpg",
+          "description": "",
+          "width": 2688,
+          "height": 3076,
+          "size": 3593282,
+          "timestamp": "2021-05-04T06:37:31Z",
+          "author": "Patrick",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Chevalement_Dutemple-VALENCIENNES-1920.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChevalement%20Dutemple-VALENCIENNES-1920.jpg",
+          "title": "Chevalement Dutemple-VALENCIENNES-1920.jpg",
+          "description": "Chevalement subsistant du puits numéro 2 de l'ancienne fosse Dutemple à Valenciennes, foncée pour la Compagnie des Mines d'Anzin. Isolé aujourd'hui dans un jardin public, le puits ayant cessé son activité en 1949, ce chevalement datant de 1920 et réalisé en béton armé sur le modèle des chevalements métalliques, est un témoin des chevalements construits après la Première Guerre mondiale\nmonumentum.fr/ancienne-fosse-dutemple-pa00107922.html\n\nwhc.unesco.org/fr/list/1360/multiple=1&amp;unique_number",
+          "width": 2988,
+          "height": 3984,
+          "size": 2006825,
+          "timestamp": "2021-09-05T17:58:43Z",
+          "author": "jsmaur",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Fontaine_de_Watteau_%C3%A0_Valenciennes.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFontaine%20de%20Watteau%20%C3%A0%20Valenciennes.jpg",
+          "title": "Fontaine de Watteau à Valenciennes.jpg",
+          "description": "Vue orientée au nord-ouest en direction de la rue de Paris, prise dans le jardin Saint-Géry près de l'église Saint-Géry. La fontaine et la sculpture d'Antoine Watteau sont vues de trois-quart arrière gauche en plan rapproché ; seule la partie supérieure de la fontaine est visible.",
+          "width": 3072,
+          "height": 4096,
+          "size": 2624304,
+          "timestamp": "2023-12-10T13:58:33Z",
+          "author": "Pemberlaid",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Place d’Armes",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Valenciennes.-_Litanie_%282007%29_sur_la_place_d%27Armes.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AValenciennes.-%20Litanie%20(2007)%20sur%20la%20place%20d'Armes.JPG",
+          "title": "Valenciennes.- Litanie (2007) sur la place d'Armes.JPG",
+          "description": "Cette photo a été censurée sur Commons car la Liberté de panorama n'existe pas en France.",
+          "width": 2752,
+          "height": 4896,
+          "size": 4206003,
+          "timestamp": "2016-03-21T13:53:15Z",
+          "author": "PIERRE ANDRE LECLERCQ",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Valenciennes_postcard_EC.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AValenciennes%20postcard%20EC.jpg",
           "title": "Valenciennes postcard EC.jpg",
+          "description": "Grote stadsplein (Wapenplein) in Valenciennes (Frankrijk - Noorderdepartement). 1933-08-3 (posted).",
           "width": 3290,
           "height": 2116,
           "size": 4368994,
@@ -109,28 +130,16 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Valenciennes_%E2%80%94_Les_Maisons_%27Espagnoles%2C_sur_la_Place_d%27Armes.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AValenciennes%20%E2%80%94%20Les%20Maisons%20'Espagnoles%2C%20sur%20la%20Place%20d'Armes.jpg",
-          "title": "Valenciennes — Les Maisons 'Espagnoles, sur la Place d'Armes.jpg",
-          "width": 3329,
-          "height": 2168,
-          "size": 3867427,
-          "timestamp": "2022-01-12T09:38:44Z",
-          "author": "P. &amp; G. Giard, librairie à Valenciennes",
-          "license": "Public domain",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/105_-_Valenciennes_%28apr%C3%A8s_1945%29_%E2%80%94_Vue_sur_la_Place_d%27Armes_._-_E.C.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A105%20-%20Valenciennes%20(apr%C3%A8s%201945)%20%E2%80%94%20Vue%20sur%20la%20Place%20d'Armes%20.%20-%20E.C.jpg",
-          "title": "105 - Valenciennes (après 1945) — Vue sur la Place d'Armes . - E.C.jpg",
-          "width": 3317,
-          "height": 2116,
-          "size": 4391268,
-          "timestamp": "2022-06-13T10:13:23Z",
-          "author": "Édit. : Cailteux - Maison Gorlier, Succrs [Edmond Cailteux] - Lille",
-          "license": "Public domain",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Place_Valenciennes_-_Paris_X_%28FR75%29_-_2021-06-25_-_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlace%20Valenciennes%20-%20Paris%20X%20(FR75)%20-%202021-06-25%20-%201.jpg",
+          "title": "Place Valenciennes - Paris X (FR75) - 2021-06-25 - 1.jpg",
+          "description": "Place de Valenciennes, Paris.",
+          "width": 4032,
+          "height": 3024,
+          "size": 5460596,
+          "timestamp": "2021-06-27T00:21:53Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         }
@@ -140,43 +149,46 @@
       "label": "Moulin sur l’Escaut",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Travaux_de_la_branche_vers_Vieux-Cond%C3%A9_de_la_ligne_B_du_tramway_de_Valenciennes_en_mai_2012_%28172%29.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATravaux%20de%20la%20branche%20vers%20Vieux-Cond%C3%A9%20de%20la%20ligne%20B%20du%20tramway%20de%20Valenciennes%20en%20mai%202012%20(172).JPG",
-          "title": "Travaux de la branche vers Vieux-Condé de la ligne B du tramway de Valenciennes en mai 2012 (172).JPG",
-          "width": 3648,
-          "height": 2736,
-          "size": 4149665,
-          "timestamp": "2012-05-26T18:02:29Z",
-          "author": "<bdi><a href=\"https://fr.wikipedia.org/wiki/Utilisateur:J%C3%A9r%C3%A9my-G%C3%BCnther-Heinz_J%C3%A4hnick\" class=\"extiw\" title=\"fr:Utilisateur:Jérémy-Günther-Heinz Jähnick\">Jérémy-Günther-Heinz Jähnick</a></bdi>",
-          "license": "GFDL 1.2",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/37._Valenciennes_-_Vue_du_Faubourg_de_Paris.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A37.%20Valenciennes%20-%20Vue%20du%20Faubourg%20de%20Paris.jpg",
+          "title": "37. Valenciennes - Vue du Faubourg de Paris.jpg",
+          "description": "Valenciennes (France - département du Nord).Vue du Faubourg de Paris à proximité de l'écluse Notre-Dame et du moulin Gillard.",
+          "width": 3256,
+          "height": 2016,
+          "size": 5889238,
+          "timestamp": "2021-12-06T12:03:22Z",
+          "author": "Édition spéciale «Magasins Modernes»",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Travaux_de_la_branche_vers_Vieux-Cond%C3%A9_de_la_ligne_B_du_tramway_de_Valenciennes_en_mai_2012_%28173%29.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATravaux%20de%20la%20branche%20vers%20Vieux-Cond%C3%A9%20de%20la%20ligne%20B%20du%20tramway%20de%20Valenciennes%20en%20mai%202012%20(173).JPG",
-          "title": "Travaux de la branche vers Vieux-Condé de la ligne B du tramway de Valenciennes en mai 2012 (173).JPG",
-          "width": 3648,
-          "height": 2736,
-          "size": 4052095,
-          "timestamp": "2012-05-26T18:03:10Z",
-          "author": "<bdi><a href=\"https://fr.wikipedia.org/wiki/Utilisateur:J%C3%A9r%C3%A9my-G%C3%BCnther-Heinz_J%C3%A4hnick\" class=\"extiw\" title=\"fr:Utilisateur:Jérémy-Günther-Heinz Jähnick\">Jérémy-Günther-Heinz Jähnick</a></bdi>",
-          "license": "GFDL 1.2",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Valenciennes_%28Nord%29_-_Mus%C3%A9e_des_beaux-arts_-_%22Paysage_au_moulin%22_%28Jan_I_Brueghel%2C_1568-1625%29_%2842844506804%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AValenciennes%20(Nord)%20-%20Mus%C3%A9e%20des%20beaux-arts%20-%20%22Paysage%20au%20moulin%22%20(Jan%20I%20Brueghel%2C%201568-1625)%20(42844506804).jpg",
+          "title": "Valenciennes (Nord) - Musée des beaux-arts - \"Paysage au moulin\" (Jan I Brueghel, 1568-1625) (42844506804).jpg",
+          "description": "",
+          "width": 3581,
+          "height": 2904,
+          "size": 3950423,
+          "timestamp": "2021-05-04T06:38:21Z",
+          "author": "Patrick",
+          "license": "CC BY-SA 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Travaux_de_la_branche_vers_Vieux-Cond%C3%A9_de_la_ligne_B_du_tramway_de_Valenciennes_en_mai_2012_%28174%29.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATravaux%20de%20la%20branche%20vers%20Vieux-Cond%C3%A9%20de%20la%20ligne%20B%20du%20tramway%20de%20Valenciennes%20en%20mai%202012%20(174).JPG",
-          "title": "Travaux de la branche vers Vieux-Condé de la ligne B du tramway de Valenciennes en mai 2012 (174).JPG",
-          "width": 3648,
-          "height": 2736,
-          "size": 4493994,
-          "timestamp": "2012-05-26T18:04:00Z",
-          "author": "<bdi><a href=\"https://fr.wikipedia.org/wiki/Utilisateur:J%C3%A9r%C3%A9my-G%C3%BCnther-Heinz_J%C3%A4hnick\" class=\"extiw\" title=\"fr:Utilisateur:Jérémy-Günther-Heinz Jähnick\">Jérémy-Günther-Heinz Jähnick</a></bdi>",
-          "license": "GFDL 1.2",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Henri_Joseph_Harpignies_-_Windmill_in_Valenciennes_-_1951-B_-_Museum_of_Fine_Arts_Ghent_%28MSK%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHenri%20Joseph%20Harpignies%20-%20Windmill%20in%20Valenciennes%20-%201951-B%20-%20Museum%20of%20Fine%20Arts%20Ghent%20(MSK).jpg",
+          "title": "Henri Joseph Harpignies - Windmill in Valenciennes - 1951-B - Museum of Fine Arts Ghent (MSK).jpg",
+          "description": "",
+          "width": 3697,
+          "height": 2457,
+          "size": 1842310,
+          "timestamp": "2023-11-06T15:18:44Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Henri_Harpignies\" class=\"extiw\" title=\"w:en:Henri Harpignies\"><span title=\"French painter (1819–1916)\">Henri Harpignies</span></a></bdi>",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
         }
       ]
     }

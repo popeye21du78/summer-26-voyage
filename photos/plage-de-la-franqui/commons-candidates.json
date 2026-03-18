@@ -1,12 +1,13 @@
 {
   "slug": "plage-de-la-franqui",
   "nom": "Plage de La Franqui",
-  "fetchedAt": "2026-03-14T11:04:02.459Z",
+  "fetchedAt": "2026-03-17T23:00:14.499Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/%C3%89tang_de_Lapalme_depuis_les_hauteurs_de_la_Franqui.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89tang%20de%20Lapalme%20depuis%20les%20hauteurs%20de%20la%20Franqui.jpg",
       "title": "Étang de Lapalme depuis les hauteurs de la Franqui.jpg",
+      "description": "Étang de Lapalme depuis les hauteurs de la Franqui. Au loin, sous les éoliennes: la ville de La Palme. L'étang est traversé par une ligne de chemin de fer électrifiée, la ligne de Narbonne à Port-Bou.",
       "width": 3137,
       "height": 1765,
       "size": 1114509,
@@ -17,27 +18,29 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Redoute_de_la_Franqui005.JPG",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARedoute%20de%20la%20Franqui005.JPG",
-      "title": "Redoute de la Franqui005.JPG",
-      "width": 3264,
-      "height": 2448,
-      "size": 1839339,
-      "timestamp": "2014-09-15T17:17:50Z",
-      "author": "Tournasol7",
-      "license": "CC BY-SA 3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Vue_du_village_de_la_Franqui_depuis_la_falaise.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20du%20village%20de%20la%20Franqui%20depuis%20la%20falaise.JPG",
+      "title": "Vue du village de la Franqui depuis la falaise.JPG",
+      "description": "Vue de la plage de la Franqui depuis la falaise avec l'étang en arrière plan.",
+      "width": 4320,
+      "height": 3240,
+      "size": 4657053,
+      "timestamp": "2015-07-24T08:33:33Z",
+      "author": "Xenophon75",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
+      "score": 8
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Estany_de_Salses_03.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEstany%20de%20Salses%2003.jpg",
-      "title": "Estany de Salses 03.jpg",
-      "width": 4128,
-      "height": 3096,
-      "size": 2362969,
-      "timestamp": "2020-10-03T15:52:51Z",
-      "author": "Jordi Gili",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/La_Franqui_-_Capsule_oeuf_de_raie_01.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Franqui%20-%20Capsule%20oeuf%20de%20raie%2001.jpg",
+      "title": "La Franqui - Capsule oeuf de raie 01.jpg",
+      "description": "Laisse de mer sur la plage de La Franqui : Capsule d’œuf de raie.",
+      "width": 6000,
+      "height": 4000,
+      "size": 14043073,
+      "timestamp": "2021-03-18T18:20:57Z",
+      "author": "Tylwyth Eldar",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
@@ -46,7 +49,50 @@
   "lieux": [
     {
       "label": "falaise de Leucate",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Vue_du_village_de_la_Franqui_depuis_la_falaise.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20du%20village%20de%20la%20Franqui%20depuis%20la%20falaise.JPG",
+          "title": "Vue du village de la Franqui depuis la falaise.JPG",
+          "description": "Vue de la plage de la Franqui depuis la falaise avec l'étang en arrière plan.",
+          "width": 4320,
+          "height": 3240,
+          "size": 4657053,
+          "timestamp": "2015-07-24T08:33:33Z",
+          "author": "Xenophon75",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Plage_de_la_Nouvelle_et_le_massif_de_la_Clape%2C_PNR_de_la_Narbonnaise_en_M%C3%A9diterran%C3%A9e.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlage%20de%20la%20Nouvelle%20et%20le%20massif%20de%20la%20Clape%2C%20PNR%20de%20la%20Narbonnaise%20en%20M%C3%A9diterran%C3%A9e.JPG",
+          "title": "Plage de la Nouvelle et le massif de la Clape, PNR de la Narbonnaise en Méditerranée.JPG",
+          "description": "Photo prise depuis la falaise de Leucate, avec au premier plan le Grau de la Franqui (étang de la Palme).",
+          "width": 3872,
+          "height": 2592,
+          "size": 970978,
+          "timestamp": "2015-05-13T14:04:06Z",
+          "author": "Genheuh",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/La_Franqui_c._1905.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Franqui%20c.%201905.jpg",
+          "title": "La Franqui c. 1905.jpg",
+          "description": "Plage et falaise de La Franqui, près du Cap Leucate (Aude). Carte postale publiée vers 1902-1905 (la photo peut être plus ancienne).\n\n\nHenry de Monfreid (1879-1974) passa toute sa jeune enfance, puis par la suite de nombreux étés, dans cette petite station balnéaire où la famille de sa mère exploitait un établissement pour vacanciers. \"La perspective de la rentrée flétrissait toutes mes joies, qui s'en allaient, en ces jours d'automne, comme tombent les feuilles jaunies. Partir, m'en aller sans ",
+          "width": 931,
+          "height": 523,
+          "size": 231441,
+          "timestamp": "2014-05-27T13:56:25Z",
+          "author": "Labouche Frères, Toulouse, c. 1905",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     },
     {
       "label": "digue de La Franqui",

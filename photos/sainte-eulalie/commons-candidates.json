@@ -1,12 +1,13 @@
 {
   "slug": "sainte-eulalie",
   "nom": "Sainte-Eulalie",
-  "fetchedAt": "2026-03-14T12:20:14.346Z",
+  "fetchedAt": "2026-03-18T18:52:55.173Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Ferme_de_Clastres%2C_Sainte-Eulalie%2C_Ard%C3%A8che%2C_France.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFerme%20de%20Clastres%2C%20Sainte-Eulalie%2C%20Ard%C3%A8che%2C%20France.jpg",
       "title": "Ferme de Clastres, Sainte-Eulalie, Ardèche, France.jpg",
+      "description": "In Sainte-Eulalie (Ardeche, France), the Clastres farm, located not far from mont Gerbier de Jonc, should benefit from the benefits of Lotto Heritage.",
       "width": 4313,
       "height": 3502,
       "size": 3089551,
@@ -17,48 +18,208 @@
       "score": 6
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Ferme_Rudel%2C_Sainte-Eulalie%2C_Ard%C3%A8che%2C_France_01.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFerme%20Rudel%2C%20Sainte-Eulalie%2C%20Ard%C3%A8che%2C%20France%2001.jpg",
-      "title": "Ferme Rudel, Sainte-Eulalie, Ardèche, France 01.jpg",
-      "width": 4545,
-      "height": 3206,
-      "size": 3462825,
-      "timestamp": "2018-09-23T14:46:55Z",
-      "author": "Celeda",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/France_Occitanie_12_Sainte_Eulalie_de_Cernon_05.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20Occitanie%2012%20Sainte%20Eulalie%20de%20Cernon%2005.jpg",
+      "title": "France Occitanie 12 Sainte Eulalie de Cernon 05.jpg",
+      "description": "Église Sainte-Eulalie de Sainte-Eulalie-de-Cernon",
+      "width": 6016,
+      "height": 4016,
+      "size": 13412599,
+      "timestamp": "2020-03-27T17:43:51Z",
+      "author": "Calips",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Ferme_Rudel%2C_Sainte-Eulalie%2C_Ard%C3%A8che%2C_France_03.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFerme%20Rudel%2C%20Sainte-Eulalie%2C%20Ard%C3%A8che%2C%20France%2003.jpg",
-      "title": "Ferme Rudel, Sainte-Eulalie, Ardèche, France 03.jpg",
-      "width": 4641,
-      "height": 3481,
-      "size": 3304436,
-      "timestamp": "2018-09-23T14:46:55Z",
-      "author": "Celeda",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Fresquel_%C3%A0_Ste_Eulalie.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFresquel%20%C3%A0%20Ste%20Eulalie.jpg",
+      "title": "Fresquel à Ste Eulalie.jpg",
+      "description": "Le Fresquel",
+      "width": 2560,
+      "height": 1440,
+      "size": 643250,
+      "timestamp": "2020-11-06T13:51:21Z",
+      "author": "Jcb-caz-11",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 7
     }
   ],
   "lieux": [
     {
       "label": "Église Saint-Amans de Sainte-Eulalie",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Montblanc_-_%C3%89glise_de_Sainte-Eulalie_16.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMontblanc%20-%20%C3%89glise%20de%20Sainte-Eulalie%2016.jpg",
+          "title": "Montblanc - Église de Sainte-Eulalie 16.jpg",
+          "description": "Église de Sainte-Eulalie de Montblanc (Hérault)",
+          "width": 6000,
+          "height": 4000,
+          "size": 13444865,
+          "timestamp": "2022-02-19T14:28:02Z",
+          "author": "Tylwyth Eldar",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Montblanc_-_%C3%89glise_de_Sainte-Eulalie_21.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMontblanc%20-%20%C3%89glise%20de%20Sainte-Eulalie%2021.jpg",
+          "title": "Montblanc - Église de Sainte-Eulalie 21.jpg",
+          "description": "Église de Sainte-Eulalie de Montblanc (Hérault)",
+          "width": 6000,
+          "height": 4000,
+          "size": 13116844,
+          "timestamp": "2022-02-19T14:28:39Z",
+          "author": "Tylwyth Eldar",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Montblanc_-_%C3%89glise_de_Sainte-Eulalie_24.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMontblanc%20-%20%C3%89glise%20de%20Sainte-Eulalie%2024.jpg",
+          "title": "Montblanc - Église de Sainte-Eulalie 24.jpg",
+          "description": "Église de Sainte-Eulalie de Montblanc (Hérault)",
+          "width": 6000,
+          "height": 4000,
+          "size": 14102332,
+          "timestamp": "2022-02-19T14:29:16Z",
+          "author": "Tylwyth Eldar",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Lavoir du village",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Ste_eulalie_lavoir.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASte%20eulalie%20lavoir.jpg",
+          "title": "Ste eulalie lavoir.jpg",
+          "description": "Ancien lavoir de Sainte-Eulalie-en-Born, Landes, France",
+          "width": 2048,
+          "height": 1536,
+          "size": 3960151,
+          "timestamp": "2011-05-10T08:52:55Z",
+          "author": "Jibi44",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Sainte_Eulalie_en_Royans%2C_le_lavoir.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASainte%20Eulalie%20en%20Royans%2C%20le%20lavoir.jpg",
+          "title": "Sainte Eulalie en Royans, le lavoir.jpg",
+          "description": "Le lavoir rénové il y a quelques années",
+          "width": 1728,
+          "height": 2592,
+          "size": 961837,
+          "timestamp": "2016-06-23T16:11:30Z",
+          "author": "GGBox",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Fontaine centrale",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Sainte-Eulalie-de-Cernon_%2812%29_-_33.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASainte-Eulalie-de-Cernon%20(12)%20-%2033.jpg",
+          "title": "Sainte-Eulalie-de-Cernon (12) - 33.jpg",
+          "description": "La Grande Rue vue depuis la place de la Fontaine (Sainte-Eulalie-de-Cernon, Aveyron)",
+          "width": 3000,
+          "height": 4000,
+          "size": 4086602,
+          "timestamp": "2023-09-09T09:31:02Z",
+          "author": "Thérèse Gaigé",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Ste_Eulalie_de_Cernon_41.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASte%20Eulalie%20de%20Cernon%2041.jpg",
+          "title": "Ste Eulalie de Cernon 41.jpg",
+          "description": "Commanderie Templière et Hospitalière",
+          "width": 3648,
+          "height": 2736,
+          "size": 6406203,
+          "timestamp": "2021-10-18T21:22:06Z",
+          "author": "Selmoval",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Sainte-Eulalie-de-Cernon_%2812%29_-_49.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASainte-Eulalie-de-Cernon%20(12)%20-%2049.jpg",
+          "title": "Sainte-Eulalie-de-Cernon (12) - 49.jpg",
+          "description": "La place de la Fontaine à Sainte-Eulalie-de-Cernon (Aveyron, France)",
+          "width": 4000,
+          "height": 3000,
+          "size": 4974080,
+          "timestamp": "2023-09-09T11:22:07Z",
+          "author": "Thérèse Gaigé",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Sentier du Roc de Peyrelade",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Sainte-Eulalie-d%27Ans_causse_Cubjac.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASainte-Eulalie-d'Ans%20causse%20Cubjac.JPG",
+          "title": "Sainte-Eulalie-d'Ans causse Cubjac.JPG",
+          "description": "Le sentier de grande randonnée GR 646 sur le causse de Cubjac, au nord de Petit Grand Champ, Sainte-Eulalie-d'Ans, Dordogne, France.",
+          "width": 3264,
+          "height": 2448,
+          "size": 2591484,
+          "timestamp": "2010-08-04T12:58:42Z",
+          "author": "Père Igor",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Sainte-Eulalie-d%27Ans_causse_Cubjac_%282%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASainte-Eulalie-d'Ans%20causse%20Cubjac%20(2).JPG",
+          "title": "Sainte-Eulalie-d'Ans causse Cubjac (2).JPG",
+          "description": "Le sentier de grande randonnée GR 646 sur le causse de Cubjac, au nord de Petit Grand Champ, Sainte-Eulalie-d'Ans, Dordogne, France.",
+          "width": 3264,
+          "height": 2448,
+          "size": 3138609,
+          "timestamp": "2010-08-04T13:01:29Z",
+          "author": "Père Igor",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Chemin_de_randonn%C3%A9es_de_Sainte-Eulalie.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChemin%20de%20randonn%C3%A9es%20de%20Sainte-Eulalie.jpg",
+          "title": "Chemin de randonnées de Sainte-Eulalie.jpg",
+          "description": "Plusieurs parcours sont à découvrir, tous différents permettant aux promeneurs de traverser différents paysages. Pour notre commune le départ est donné depuis le parking du complexe sportif. Avec la boucle Baron de 5,28 km et la boucle Greyseau de 5,43 km.",
+          "width": 2584,
+          "height": 2280,
+          "size": 2836251,
+          "timestamp": "2016-05-30T20:38:38Z",
+          "author": "Mairiedesainteeulalie",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     }
   ]
 }

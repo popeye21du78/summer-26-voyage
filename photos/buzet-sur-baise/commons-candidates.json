@@ -1,25 +1,13 @@
 {
   "slug": "buzet-sur-baise",
   "nom": "Buzet-sur-Baïse",
-  "fetchedAt": "2026-03-13T00:33:55.486Z",
+  "fetchedAt": "2026-03-15T20:25:17.832Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Abandoned_summer_camp_along_the_Canal_de_Garonne%2C_near_Buzet-sur-Ba%C3%AFse%2C_d%C3%A9partement_Lot-et-Garonne%2C_France_-_panoramio.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbandoned%20summer%20camp%20along%20the%20Canal%20de%20Garonne%2C%20near%20Buzet-sur-Ba%C3%AFse%2C%20d%C3%A9partement%20Lot-et-Garonne%2C%20France%20-%20panoramio.jpg",
-      "title": "Abandoned summer camp along the Canal de Garonne, near Buzet-sur-Baïse, département Lot-et-Garonne, France - panoramio.jpg",
-      "width": 1600,
-      "height": 1200,
-      "size": 1048151,
-      "timestamp": "2016-12-21T12:29:46Z",
-      "author": "Maarten Sepp",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Kiosque_de_Buzet-sur-Ba%C3%AFse_11-7-2016.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKiosque%20de%20Buzet-sur-Ba%C3%AFse%2011-7-2016.jpg",
       "title": "Kiosque de Buzet-sur-Baïse 11-7-2016.jpg",
+      "description": "Kiosque de Buzet-sur-Baïse en 2016",
       "width": 2751,
       "height": 1987,
       "size": 1239153,
@@ -30,23 +18,81 @@
       "score": 6
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/SAINT-MARCELIN.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASAINT-MARCELIN.jpg",
-      "title": "SAINT-MARCELIN.jpg",
-      "width": 2998,
-      "height": 2760,
-      "size": 2513330,
-      "timestamp": "2023-08-26T13:01:42Z",
-      "author": "ALVES G",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Buzet-sur-Ba%C3%AFse_Mairie.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABuzet-sur-Ba%C3%AFse%20Mairie.jpg",
+      "title": "Buzet-sur-Baïse Mairie.jpg",
+      "description": "Town hall of Buzet-sur-Baïse (Lot-et-Garonne, France)",
+      "width": 2576,
+      "height": 1716,
+      "size": 908182,
+      "timestamp": "2012-05-07T10:41:45Z",
+      "author": "Henry Salomé",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 5
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Chateau_buzet.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau%20buzet.jpg",
+      "title": "Chateau buzet.jpg",
+      "description": "Château de Buzet-sur-Baïse",
+      "width": 636,
+      "height": 474,
+      "size": 207988,
+      "timestamp": "2008-09-17T13:11:16Z",
+      "author": "KoS",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 4
     }
   ],
   "lieux": [
     {
       "label": "Église Saint-Martin de Buzet-sur-Baïse",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/EGLISE_BUZET-SUR-BAISE.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEGLISE%20BUZET-SUR-BAISE.jpg",
+          "title": "EGLISE BUZET-SUR-BAISE.jpg",
+          "description": "Eglise Buzet-sur-Baïse côté nord",
+          "width": 2317,
+          "height": 1850,
+          "size": 1380955,
+          "timestamp": "2015-07-17T14:17:03Z",
+          "author": "JLMOLINIE",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Buzet-sur-Ba%C3%AFse_%C3%89glise_ND_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABuzet-sur-Ba%C3%AFse%20%C3%89glise%20ND%2001.jpg",
+          "title": "Buzet-sur-Baïse Église ND 01.jpg",
+          "description": "Church Notre-Dame of Buzet-sur-Baïse (Lot-et-Garonne, France)",
+          "width": 1716,
+          "height": 2576,
+          "size": 734979,
+          "timestamp": "2012-05-07T10:22:22Z",
+          "author": "Henry Salomé",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Buzet-sur-Ba%C3%AFse_%C3%89glise_ND_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABuzet-sur-Ba%C3%AFse%20%C3%89glise%20ND%2002.jpg",
+          "title": "Buzet-sur-Baïse Église ND 02.jpg",
+          "description": "Church Notre-Dame of Buzet-sur-Baïse (Lot-et-Garonne, France)",
+          "width": 1716,
+          "height": 2576,
+          "size": 801311,
+          "timestamp": "2012-05-07T10:25:35Z",
+          "author": "Henry Salomé",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     },
     {
       "label": "Port de Buzet-sur-Baïse",
@@ -55,6 +101,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Port_de_Buzet-sur-Ba%C3%AFse.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APort%20de%20Buzet-sur-Ba%C3%AFse.jpg",
           "title": "Port de Buzet-sur-Baïse.jpg",
+          "description": "Port de Buzet-sur-Baïse (Lot-et-Garonne) sur le canal de Garonne",
           "width": 4000,
           "height": 3000,
           "size": 5267456,
@@ -68,6 +115,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Ecluse_d%27acc%C3%A8s_%C3%A0_la_Ba%C3%AFse_au_port_de_Buzet-sur-Ba%C3%AFse.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEcluse%20d'acc%C3%A8s%20%C3%A0%20la%20Ba%C3%AFse%20au%20port%20de%20Buzet-sur-Ba%C3%AFse.jpg",
           "title": "Ecluse d'accès à la Baïse au port de Buzet-sur-Baïse.jpg",
+          "description": "La première de la double écluse de descente en Baïse  au port de Buzet-en-Baïse (Lot-et-Garonne)",
           "width": 4000,
           "height": 3000,
           "size": 5187072,
@@ -81,7 +129,50 @@
     },
     {
       "label": "Château de Buzet (vue extérieure)",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Plafonds_peints_du_ch%C3%A2teau_de_Buzet.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlafonds%20peints%20du%20ch%C3%A2teau%20de%20Buzet.jpg",
+          "title": "Plafonds peints du château de Buzet.jpg",
+          "description": "Plafonds peints du château de Buzet (Lot-et-Garonne), 2019",
+          "width": 3782,
+          "height": 1903,
+          "size": 1637306,
+          "timestamp": "2021-09-12T14:01:29Z",
+          "author": "Pierre Courroux",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Photographie_a%C3%A9rienne_ch%C3%A2teau_Buzet.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APhotographie%20a%C3%A9rienne%20ch%C3%A2teau%20Buzet.jpg",
+          "title": "Photographie aérienne château Buzet.jpg",
+          "description": "Photographie aérienne du château Buzet par Ray DELVERT en 1949 (AD Lot et Garonne, 1769W 485)",
+          "width": 3508,
+          "height": 2480,
+          "size": 350520,
+          "timestamp": "2021-09-12T14:17:30Z",
+          "author": "Pierre Courroux",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Chateau-de-Buzet-120.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau-de-Buzet-120.jpg",
+          "title": "Chateau-de-Buzet-120.jpg",
+          "description": "Le potager, la maison en ruine du jardinier et l'église Notre-Dame, dans le parc du château",
+          "width": 2500,
+          "height": 1667,
+          "size": 687618,
+          "timestamp": "2021-09-12T15:12:01Z",
+          "author": "Pierre Courroux",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     },
     {
       "label": "Voie verte le long du canal",

@@ -1,12 +1,13 @@
 {
   "slug": "kaysersberg",
   "nom": "Kaysersberg",
-  "fetchedAt": "2026-03-13T14:51:58.945Z",
+  "fetchedAt": "2026-03-16T14:26:49.998Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Hiking_in_Kaysersberg_%281%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHiking%20in%20Kaysersberg%20(1).jpg",
       "title": "Hiking in Kaysersberg (1).jpg",
+      "description": "The idyllic village in Alsace.",
       "width": 5430,
       "height": 3620,
       "size": 4991728,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Kaysersberg_-_panoramio.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKaysersberg%20-%20panoramio.jpg",
       "title": "Kaysersberg - panoramio.jpg",
+      "description": "Kaysersberg",
       "width": 2048,
       "height": 1536,
       "size": 715315,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Village_%28Kaysersberg%29_%282%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVillage%20(Kaysersberg)%20(2).jpg",
       "title": "Village (Kaysersberg) (2).jpg",
+      "description": "Rue à Kaysersberg (Haut-Rhin, France).",
       "width": 2592,
       "height": 1944,
       "size": 445462,
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Ch%C3%A2teau_de_Kaysersberg_Blick.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Kaysersberg%20Blick.jpg",
           "title": "Château de Kaysersberg Blick.jpg",
+          "description": "Château de Kaysersberg Blick",
           "width": 4592,
           "height": 3448,
           "size": 5838848,
@@ -58,12 +62,13 @@
           "author": "Moleskine",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Ch%C3%A2teau_de_Kaysersberg_Turmanlage.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Kaysersberg%20Turmanlage.jpg",
           "title": "Château de Kaysersberg Turmanlage.jpg",
+          "description": "Château de Kaysersberg Turmanlage",
           "width": 4592,
           "height": 3448,
           "size": 9328128,
@@ -71,12 +76,13 @@
           "author": "Moleskine",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/00_2076_Monuments_historiques_in_Kaysersberg.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A00%202076%20Monuments%20historiques%20in%20Kaysersberg.jpg",
           "title": "00 2076 Monuments historiques in Kaysersberg.jpg",
+          "description": "Kaysersberg Castle (Château de Kaysersberg). The ruins of the castle, built around 1200, stand on a rocky ridge above the French town of Kaysersberg in Alsace. In the foreground the historic Kessler Tower with a stork's nest.",
           "width": 3300,
           "height": 2200,
           "size": 7828219,
@@ -84,7 +90,7 @@
           "author": "W. Bulach",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         }
       ]
     },
@@ -92,43 +98,46 @@
       "label": "Église Sainte-Croix",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Kaysersberg_Altstadt_%26_Ste._Croix.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKaysersberg%20Altstadt%20%26%20Ste.%20Croix.jpg",
-          "title": "Kaysersberg Altstadt & Ste. Croix.jpg",
-          "width": 4275,
-          "height": 3058,
-          "size": 4767225,
-          "timestamp": "2016-06-10T04:00:24Z",
-          "author": "Zairon",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Holy_Cross_church_in_Kaysersberg_%288%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHoly%20Cross%20church%20in%20Kaysersberg%20(8).jpg",
-          "title": "Holy Cross church in Kaysersberg (8).jpg",
-          "width": 3749,
-          "height": 3066,
-          "size": 8957105,
-          "timestamp": "2019-09-10T19:58:04Z",
-          "author": "Krzysztof Golik",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Kaysersberg%2C_Eglise_la_Sainte-Croix-PM_49806.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKaysersberg%2C%20Eglise%20la%20Sainte-Croix-PM%2049806.jpg",
-          "title": "Kaysersberg, Eglise la Sainte-Croix-PM 49806.jpg",
-          "width": 600,
-          "height": 461,
-          "size": 262855,
-          "timestamp": "2026-03-01T19:42:48Z",
-          "author": "PMRMaeyaert",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Kaysersberg-Ch%C3%A2teau_et_%C3%A9glise.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKaysersberg-Ch%C3%A2teau%20et%20%C3%A9glise.jpg",
+          "title": "Kaysersberg-Château et église.jpg",
+          "description": "Kaysersberg (Haut-Rhin) : vue sur le château et l'église",
+          "width": 3648,
+          "height": 2736,
+          "size": 2768465,
+          "timestamp": "2012-08-31T10:14:19Z",
+          "author": "Ji-Elle",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/%C3%89glise_Sainte-Croix_%28Kaysersberg%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Sainte-Croix%20(Kaysersberg).jpg",
+          "title": "Église Sainte-Croix (Kaysersberg).jpg",
+          "description": "Holy Cross Church in Kaysersberg (Haut-Rhin, France).",
+          "width": 5130,
+          "height": 3648,
+          "size": 5917252,
+          "timestamp": "2024-08-31T21:36:53Z",
+          "author": "Gzen92",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Ch%C3%A2teau_du_Schlossberg_%28Kaysersberg%29_%281%29_edited_%281%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20du%20Schlossberg%20(Kaysersberg)%20(1)%20edited%20(1).jpg",
+          "title": "Château du Schlossberg (Kaysersberg) (1) edited (1).jpg",
+          "description": "Schlossberg Castle in Kaysersberg (Haut-Rhin, France).",
+          "width": 5400,
+          "height": 3100,
+          "size": 4979653,
+          "timestamp": "2024-10-09T21:00:59Z",
+          "author": "Gzen92",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
         }
       ]
     },
@@ -136,30 +145,46 @@
       "label": "Pont fortifié sur la Weiss",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/0_Kaysersberg_-_Pont_fortifi%C3%A9_et_Schlossberg.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A0%20Kaysersberg%20-%20Pont%20fortifi%C3%A9%20et%20Schlossberg.JPG",
-          "title": "0 Kaysersberg - Pont fortifié et Schlossberg.JPG",
-          "width": 3989,
-          "height": 5910,
-          "size": 10586164,
-          "timestamp": "2025-12-03T16:32:56Z",
-          "author": "Jean-Pol GRANDMONT",
-          "license": "CC BY 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Kaysersberg_-_dessin_-_HR_%28Henri_Rivi%C3%A8re%29_%28cachet_rouge%29_-_btv1b53239377z.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKaysersberg%20-%20dessin%20-%20HR%20(Henri%20Rivi%C3%A8re)%20(cachet%20rouge)%20-%20btv1b53239377z.jpg",
+          "title": "Kaysersberg - dessin - HR (Henri Rivière) (cachet rouge) - btv1b53239377z.jpg",
+          "description": "Sujet : Ponts en pierre\nHabitations à colombage\nKaysersberg (Haut-Rhin, France)\nPaysages -- 1914-1945\n\nLangue : français",
+          "width": 3750,
+          "height": 2823,
+          "size": 1975297,
+          "timestamp": "2024-10-26T04:07:30Z",
+          "author": "<div class=\"fn value\">\nRivière, Henri (1864-1951). Dessinateur</div>",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Kaysersberg_Weiss%26maisons_2011.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKaysersberg%20Weiss%26maisons%202011.jpg",
-          "title": "Kaysersberg Weiss&maisons 2011.jpg",
-          "width": 2592,
-          "height": 3872,
-          "size": 6778541,
-          "timestamp": "2012-06-13T20:17:42Z",
-          "author": "JLPC",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Kaysersberg_-_btv1b102280676.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKaysersberg%20-%20btv1b102280676.jpg",
+          "title": "Kaysersberg - btv1b102280676.jpg",
+          "description": "Sujet : Kaysersberg\nKAYSERSBERG, Pont\nAppartient à l’ensemble documentaire : BNUStr003\nAppartient à l’ensemble documentaire : BNUStras1\nAppartient à l’ensemble documentaire : BNUStr000\nLangue : français\nallemand\n\nÉditeur : Noiriel J (Strasbourg)",
+          "width": 1744,
+          "height": 1264,
+          "size": 352919,
+          "timestamp": "2024-10-27T04:31:24Z",
+          "author": "<div class=\"fn value\">\nChristmann, Louis ((photogr)). Fonction indéterminée</div>",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Kaysersberg_du_Pont_au_Ch%C3%A2teau_-_btv1b102182092.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKaysersberg%20du%20Pont%20au%20Ch%C3%A2teau%20-%20btv1b102182092.jpg",
+          "title": "Kaysersberg du Pont au Château - btv1b102182092.jpg",
+          "description": "Sujet : Kaysersberg\nKAYSERSBERG, Pont, Château\nAppartient à l’ensemble documentaire : BNUStr003\nAppartient à l’ensemble documentaire : BNUStras1\nAppartient à l’ensemble documentaire : BNUStr000\nLangue : français\n\nÉditeur : Desbuissons L (Paris)",
+          "width": 1198,
+          "height": 1436,
+          "size": 372919,
+          "timestamp": "2025-03-16T13:58:59Z",
+          "author": "<div class=\"fn value\">\nDesbuissons, Léon. Illustrateur</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
         }
       ]
     }

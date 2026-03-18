@@ -1,12 +1,13 @@
 {
   "slug": "plage-de-saint-jorioz",
   "nom": "Plage de Saint-Jorioz",
-  "fetchedAt": "2026-03-14T11:13:17.172Z",
+  "fetchedAt": "2026-03-18T16:12:26.440Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/LIHSA_bus_stop_%40_Saint-Jorioz_%2850489302242%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALIHSA%20bus%20stop%20%40%20Saint-Jorioz%20(50489302242).jpg",
       "title": "LIHSA bus stop @ Saint-Jorioz (50489302242).jpg",
+      "description": "LIHSA bus stop @ Saint-Jorioz",
       "width": 4864,
       "height": 3648,
       "size": 6048814,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Clouds_over_La_Tournette_%40_Saint-Jorioz_%2850488445018%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AClouds%20over%20La%20Tournette%20%40%20Saint-Jorioz%20(50488445018).jpg",
       "title": "Clouds over La Tournette @ Saint-Jorioz (50488445018).jpg",
+      "description": "Clouds over La Tournette @ Saint-Jorioz",
       "width": 4864,
       "height": 3648,
       "size": 4753082,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/LIHSA_bus_stop_%40_Saint-Jorioz_%2850488447013%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALIHSA%20bus%20stop%20%40%20Saint-Jorioz%20(50488447013).jpg",
       "title": "LIHSA bus stop @ Saint-Jorioz (50488447013).jpg",
+      "description": "LIHSA bus stop @ Saint-Jorioz",
       "width": 4864,
       "height": 3648,
       "size": 6762421,
@@ -54,7 +57,22 @@
     },
     {
       "label": "Vue sur les montagnes depuis le sable",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Passerelle_sur_le_Laudon_Plage_de_St-Jorioz_%28novembre_2022%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APasserelle%20sur%20le%20Laudon%20Plage%20de%20St-Jorioz%20(novembre%202022).JPG",
+          "title": "Passerelle sur le Laudon Plage de St-Jorioz (novembre 2022).JPG",
+          "description": "Sight of the footbridge crossing Laudon river at Saint-Jorioz beach, a few meters from Annecy Lake in which in flows, in Haute-Savoie, France.",
+          "width": 2048,
+          "height": 1536,
+          "size": 1716545,
+          "timestamp": "2022-12-03T11:38:26Z",
+          "author": "Florian Pépellin",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

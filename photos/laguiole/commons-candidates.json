@@ -1,12 +1,27 @@
 {
   "slug": "laguiole",
   "nom": "Laguiole",
-  "fetchedAt": "2026-03-13T15:18:35.260Z",
+  "fetchedAt": "2026-03-16T19:32:05.118Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/View_of_Laguiole.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AView%20of%20Laguiole.jpg",
+      "title": "View of Laguiole.jpg",
+      "description": "View of Laguiole, Aveyron, France",
+      "width": 5980,
+      "height": 3987,
+      "size": 12367991,
+      "timestamp": "2020-01-13T16:00:11Z",
+      "author": "Krzysztof Golik",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Landscape_near_Laguiole.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALandscape%20near%20Laguiole.jpg",
       "title": "Landscape near Laguiole.jpg",
+      "description": "Landscape near Laguiole, Aveyron, France",
       "width": 4725,
       "height": 2174,
       "size": 6717289,
@@ -17,26 +32,14 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/View_of_Laguiole.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AView%20of%20Laguiole.jpg",
-      "title": "View of Laguiole.jpg",
-      "width": 5980,
-      "height": 3987,
-      "size": 12367991,
-      "timestamp": "2020-01-13T16:00:11Z",
-      "author": "Krzysztof Golik",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/St_Matthew_church_in_Laguiole_04.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt%20Matthew%20church%20in%20Laguiole%2004.jpg",
-      "title": "St Matthew church in Laguiole 04.jpg",
-      "width": 4719,
-      "height": 3660,
-      "size": 9954080,
-      "timestamp": "2020-09-15T13:24:04Z",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/St_Matthew_church_in_Laguiole_09.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt%20Matthew%20church%20in%20Laguiole%2009.jpg",
+      "title": "St Matthew church in Laguiole 09.jpg",
+      "description": "Saint Matthew church in Laguiole, Aveyron, France",
+      "width": 5502,
+      "height": 3740,
+      "size": 12107527,
+      "timestamp": "2020-09-15T13:24:09Z",
       "author": "Krzysztof Golik",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
@@ -50,46 +53,92 @@
     },
     {
       "label": "Place du Foirail et statue du taureau",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Former_presbytery_in_Laguiole_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFormer%20presbytery%20in%20Laguiole%2001.jpg",
+          "title": "Former presbytery in Laguiole 01.jpg",
+          "description": "Former presbytery in Laguiole, Aveyron, France",
+          "width": 4693,
+          "height": 3700,
+          "size": 10809958,
+          "timestamp": "2020-09-15T13:40:29Z",
+          "author": "Krzysztof Golik",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Aveyron_Pittoresque_44_-_Laguiole_-_vue_g%C3%A9n%C3%A9rale.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAveyron%20Pittoresque%2044%20-%20Laguiole%20-%20vue%20g%C3%A9n%C3%A9rale.jpg",
+          "title": "Aveyron Pittoresque 44 - Laguiole - vue générale.jpg",
+          "description": "Aveyron Pittoresque 44 - Laguiole - vue générale",
+          "width": 1608,
+          "height": 1013,
+          "size": 450508,
+          "timestamp": "2020-10-09T05:11:39Z",
+          "author": "<div class=\"fn value\">\nUnknown<span style=\"display: none;\">Unknown </span></div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/12119-Laguiole-Arron.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A12119-Laguiole-Arron.png",
+          "title": "12119-Laguiole-Arron.png",
+          "description": "Carte de localisation de la commune Laguiole (Aveyron)]] (Aveyron, France) dans son arrondissement de rattachement.",
+          "width": 3057,
+          "height": 2480,
+          "size": 1315746,
+          "timestamp": "2020-10-22T15:26:42Z",
+          "author": "Roland45",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Coopérative Jeune Montagne",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Cooperative_Jeune_Montagne_01_by_Line1.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACooperative%20Jeune%20Montagne%2001%20by%20Line1.jpg",
-          "title": "Cooperative Jeune Montagne 01 by Line1.jpg",
-          "width": 3072,
-          "height": 2304,
-          "size": 2005467,
-          "timestamp": "2011-08-24T11:14:04Z",
-          "author": "Liné1",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Laguiole_SISQA_2013_3.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALaguiole%20SISQA%202013%203.JPG",
+          "title": "Laguiole SISQA 2013 3.JPG",
+          "description": "Fromage de Laguiole AOP : stand de la coopérative Jeune Montagne au SISQA 2013 Toulouse",
+          "width": 2896,
+          "height": 1944,
+          "size": 2358006,
+          "timestamp": "2013-12-12T17:39:40Z",
+          "author": "Darreenvt",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 5
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Cooperative_Jeune_Montagne_02_by_Line1.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACooperative%20Jeune%20Montagne%2002%20by%20Line1.jpg",
-          "title": "Cooperative Jeune Montagne 02 by Line1.jpg",
-          "width": 3072,
-          "height": 2304,
-          "size": 2882449,
-          "timestamp": "2011-08-24T11:15:31Z",
-          "author": "Liné1",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Laguiole_SISQA_2013_2.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALaguiole%20SISQA%202013%202.JPG",
+          "title": "Laguiole SISQA 2013 2.JPG",
+          "description": "Fromage de Laguiole AOP : stand de la coopérative Jeune Montagne au SISQA 2013 Toulouse",
+          "width": 2896,
+          "height": 1944,
+          "size": 2566052,
+          "timestamp": "2013-12-12T17:39:40Z",
+          "author": "Darreenvt",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 5
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Cooperative_Jeune_Montagne_03_by_Line1.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACooperative%20Jeune%20Montagne%2003%20by%20Line1.jpg",
-          "title": "Cooperative Jeune Montagne 03 by Line1.jpg",
-          "width": 3072,
-          "height": 2304,
-          "size": 2519734,
-          "timestamp": "2011-08-24T11:15:34Z",
-          "author": "Liné1",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Laguiole_SISQA_2013_1.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALaguiole%20SISQA%202013%201.JPG",
+          "title": "Laguiole SISQA 2013 1.JPG",
+          "description": "Fromage de Laguiole AOP : stand de la coopérative Jeune Montagne au SISQA 2013 Toulouse",
+          "width": 2896,
+          "height": 1944,
+          "size": 2429484,
+          "timestamp": "2013-12-12T17:39:39Z",
+          "author": "Darreenvt",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 5
@@ -98,7 +147,50 @@
     },
     {
       "label": "Croix du Poujade",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Laguiole_-_Hospice_ou_ancien_presbyt%C3%A8re_-02.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALaguiole%20-%20Hospice%20ou%20ancien%20presbyt%C3%A8re%20-02.JPG",
+          "title": "Laguiole - Hospice ou ancien presbytère -02.JPG",
+          "description": "Laguiole - Hospice ou ancien presbytère - Croix du XVe siècle sur une console",
+          "width": 2736,
+          "height": 3648,
+          "size": 2959224,
+          "timestamp": "2012-09-01T18:33:09Z",
+          "author": "MOSSOT",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Laguiole_-_Hospice_ou_ancien_presbyt%C3%A8re_-04.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALaguiole%20-%20Hospice%20ou%20ancien%20presbyt%C3%A8re%20-04.JPG",
+          "title": "Laguiole - Hospice ou ancien presbytère -04.JPG",
+          "description": "Laguiole - Hospice ou ancien presbytère - La croix sur une console avec une Crucifixion",
+          "width": 2322,
+          "height": 3442,
+          "size": 2674321,
+          "timestamp": "2012-09-01T20:41:24Z",
+          "author": "MOSSOT",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Laguiole_-_Hospice_ou_ancien_presbyt%C3%A8re_-05.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALaguiole%20-%20Hospice%20ou%20ancien%20presbyt%C3%A8re%20-05.JPG",
+          "title": "Laguiole - Hospice ou ancien presbytère -05.JPG",
+          "description": "Laguiole - Hospice ou ancien presbytère - La croix et la porte du XVe siècle",
+          "width": 2736,
+          "height": 3648,
+          "size": 3109217,
+          "timestamp": "2012-09-01T20:41:23Z",
+          "author": "MOSSOT",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     }
   ]
 }

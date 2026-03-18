@@ -1,12 +1,13 @@
 {
   "slug": "fontevraud-l-abbaye",
   "nom": "fontevraud l abbaye",
-  "fetchedAt": "2026-03-13T14:24:46.680Z",
+  "fetchedAt": "2026-03-16T13:25:40.388Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Vue_de_l%27ensemble_abbatial_de_Fontevraud_pris_depuis_le_Nord.png",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20de%20l'ensemble%20abbatial%20de%20Fontevraud%20pris%20depuis%20le%20Nord.png",
       "title": "Vue de l'ensemble abbatial de Fontevraud pris depuis le Nord.png",
+      "description": "View of the abbey and village of Fontevraud",
       "width": 1419,
       "height": 1054,
       "size": 2567987,
@@ -14,12 +15,13 @@
       "author": "Louis Boudan",
       "license": "Public domain",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/France_PdlL_49_Fontevraud_03.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20PdlL%2049%20Fontevraud%2003.jpg",
       "title": "France PdlL 49 Fontevraud 03.jpg",
+      "description": "Cuisine, abbaye Notre-Dame de Fontevraud",
       "width": 6016,
       "height": 4016,
       "size": 7394081,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/France_PdlL_49_Fontevraud_02.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20PdlL%2049%20Fontevraud%2002.jpg",
       "title": "France PdlL 49 Fontevraud 02.jpg",
+      "description": "Cour Saint-Benoît, abbaye Notre-Dame de Fontevraud",
       "width": 6016,
       "height": 4016,
       "size": 7634830,
@@ -46,7 +49,50 @@
   "lieux": [
     {
       "label": "Abbaye Royale de Fontevraud",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Vue_de_l%27ensemble_abbatial_de_Fontevraud_pris_depuis_le_Nord.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20de%20l'ensemble%20abbatial%20de%20Fontevraud%20pris%20depuis%20le%20Nord.png",
+          "title": "Vue de l'ensemble abbatial de Fontevraud pris depuis le Nord.png",
+          "description": "View of the abbey and village of Fontevraud",
+          "width": 1419,
+          "height": 1054,
+          "size": 2567987,
+          "timestamp": "2021-10-20T12:13:03Z",
+          "author": "Louis Boudan",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/France_PdlL_49_Fontevraud_03.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20PdlL%2049%20Fontevraud%2003.jpg",
+          "title": "France PdlL 49 Fontevraud 03.jpg",
+          "description": "Cuisine, abbaye Notre-Dame de Fontevraud",
+          "width": 6016,
+          "height": 4016,
+          "size": 7394081,
+          "timestamp": "2022-09-04T12:08:43Z",
+          "author": "Calips",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/France_PdlL_49_Fontevraud_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20PdlL%2049%20Fontevraud%2002.jpg",
+          "title": "France PdlL 49 Fontevraud 02.jpg",
+          "description": "Cour Saint-Benoît, abbaye Notre-Dame de Fontevraud",
+          "width": 6016,
+          "height": 4016,
+          "size": 7634830,
+          "timestamp": "2022-09-04T12:08:44Z",
+          "author": "Calips",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Jardin du prieuré Saint-Lazare",
@@ -54,7 +100,50 @@
     },
     {
       "label": "Place des Plantagenêts",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Vue_de_l%27ensemble_abbatial_de_Fontevraud_pris_depuis_le_Nord.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20de%20l'ensemble%20abbatial%20de%20Fontevraud%20pris%20depuis%20le%20Nord.png",
+          "title": "Vue de l'ensemble abbatial de Fontevraud pris depuis le Nord.png",
+          "description": "View of the abbey and village of Fontevraud",
+          "width": 1419,
+          "height": 1054,
+          "size": 2567987,
+          "timestamp": "2021-10-20T12:13:03Z",
+          "author": "Louis Boudan",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Fontevraud-l%27Abbaye_-_4_place_des_Plantagen%C3%AAts_03.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFontevraud-l'Abbaye%20-%204%20place%20des%20Plantagen%C3%AAts%2003.jpg",
+          "title": "Fontevraud-l'Abbaye - 4 place des Plantagenêts 03.jpg",
+          "description": "Backery, 4 Plantagenet square, in Fontevraud-l'Abbaye (Maine-et-Loire, France)",
+          "width": 5472,
+          "height": 3648,
+          "size": 7940608,
+          "timestamp": "2022-10-23T12:14:55Z",
+          "author": "Fab5669",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/2025_Fontevraud_Mairie.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2025%20Fontevraud%20Mairie.jpg",
+          "title": "2025 Fontevraud Mairie.jpg",
+          "description": "Town hall of Fontevraud-l'Abbaye",
+          "width": 4562,
+          "height": 3421,
+          "size": 5590433,
+          "timestamp": "2025-05-14T13:02:21Z",
+          "author": "Stefan Oemisch (Germany/Allemagne)",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

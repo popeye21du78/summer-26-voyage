@@ -1,12 +1,13 @@
 {
   "slug": "guebwiller",
   "nom": "Guebwiller",
-  "fetchedAt": "2026-03-13T01:03:20.900Z",
+  "fetchedAt": "2026-03-16T13:58:09.113Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Rue_de_la_Republique_in_Guebwiller_%281%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARue%20de%20la%20Republique%20in%20Guebwiller%20(1).jpg",
       "title": "Rue de la Republique in Guebwiller (1).jpg",
+      "description": "Rue de la République in Guebwiller, Haut-Rhin, France",
       "width": 4862,
       "height": 3705,
       "size": 12063302,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Guebwiller_H%C3%B4telVille_07.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGuebwiller%20H%C3%B4telVille%2007.JPG",
       "title": "Guebwiller HôtelVille 07.JPG",
+      "description": "Alsace, Haut-Rhin, Guebwiller, Hôtel de ville (1514), 73 rue de la République. \n\n\n\n\n\n \nThis building is classé au titre des monuments historiques de la France. It is indexed in the base Mérimée, a database of architectural heritage maintained by the French Ministry of Culture, under the references PA00085442   and IA00054849 .\n\nbrezhoneg ∙ català ∙ Deutsch ∙ English ∙ español ∙ Esperanto ∙ euskara ∙ français ∙ italiano ∙ magyar ∙ Nederlands ∙ português do Brasil ∙ português ∙ română ∙ sicilianu ",
       "width": 3648,
       "height": 2461,
       "size": 2248184,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Guebwiller_rChanoines_13.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGuebwiller%20rChanoines%2013.JPG",
       "title": "Guebwiller rChanoines 13.JPG",
+      "description": "Alsace, Haut-Rhin, Guebwiller, Ecole maternelle des Remparts, 13, rue des Chanoines.",
       "width": 3648,
       "height": 2736,
       "size": 2729375,
@@ -46,7 +49,50 @@
   "lieux": [
     {
       "label": "Place de l’Hôtel de Ville",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Fountain_in_front_of_the_Our_Lady_church_in_Guebwiller_%281%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFountain%20in%20front%20of%20the%20Our%20Lady%20church%20in%20Guebwiller%20(1).jpg",
+          "title": "Fountain in front of the Our Lady church in Guebwiller (1).jpg",
+          "description": "Fountain in front of the Our Lady church in Guebwiller, Haut-Rhin, France",
+          "width": 5117,
+          "height": 3604,
+          "size": 13382537,
+          "timestamp": "2024-07-27T06:26:58Z",
+          "author": "Tournasol7",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Guebwiller_-_Le_couvent_des_dominicains_vu_%C3%A0_vol_d%27oiseau_-_btv1b101129741.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGuebwiller%20-%20Le%20couvent%20des%20dominicains%20vu%20%C3%A0%20vol%20d'oiseau%20-%20btv1b101129741.jpg",
+          "title": "Guebwiller - Le couvent des dominicains vu à vol d'oiseau - btv1b101129741.jpg",
+          "description": "Sujet : Guebwiller (Haut-Rhin) -- Cartes postales\nCartes postales -- France -- Guebwiller (Haut-Rhin)\nNumérisé par le partenaire\nAppartient à l’ensemble documentaire : BNUStr003\nAppartient à l’ensemble documentaire : BNUStras1\nAppartient à l’ensemble documentaire : BNUStr000\nLangue : sans contenu linguistique\n\nÉditeur : Braun &amp; cie (Mulhouse Dornach)",
+          "width": 2421,
+          "height": 1546,
+          "size": 692403,
+          "timestamp": "2024-10-27T14:40:11Z",
+          "author": "Inconnu",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Guebwiller_r4-F%C3%A9vrier_1_%281%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGuebwiller%20r4-F%C3%A9vrier%201%20(1).jpg",
+          "title": "Guebwiller r4-Février 1 (1).jpg",
+          "description": "Alsace, Haut-Rhin, Guebwiller, Ancien hôtel du Grand-Doyen (1765), aujourd'hui Musée Deck, 1 rue du 4 février. \n\n\n\n\n\n \nThis building is inscrit au titre des monuments historiques de la France. It is indexed in the base Mérimée, a database of architectural heritage maintained by the French Ministry of Culture, under the references PA00085441   and IA00054867 .\n\nbrezhoneg ∙ català ∙ Deutsch ∙ English ∙ español ∙ Esperanto ∙ euskara ∙ français ∙ italiano ∙ magyar ∙ Nederlands ∙ português do Brasil ",
+          "width": 3648,
+          "height": 2736,
+          "size": 2874876,
+          "timestamp": "2015-10-24T13:34:14Z",
+          "author": "© Ralph Hammann - Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Église Saint-Léger",
@@ -55,6 +101,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Eglise_Saint_L%C3%A9ger%2C_de_Guebwiller.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Saint%20L%C3%A9ger%2C%20de%20Guebwiller.jpg",
           "title": "Eglise Saint Léger, de Guebwiller.jpg",
+          "description": "Eglise Saint-Léger",
           "width": 4000,
           "height": 3000,
           "size": 3917672,
@@ -68,6 +115,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/2015_Eglise_Saint-L%C3%A9ger%2C_Guebwiller_%281%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2015%20Eglise%20Saint-L%C3%A9ger%2C%20Guebwiller%20(1).jpg",
           "title": "2015 Eglise Saint-Léger, Guebwiller (1).jpg",
+          "description": "Église Saint-Léger, Guebwiller",
           "width": 1831,
           "height": 1511,
           "size": 436014,
@@ -81,6 +129,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Porch_of_%C3%89glise_Saint-L%C3%A9ger_%28Guebwiller%29_Arkaden.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APorch%20of%20%C3%89glise%20Saint-L%C3%A9ger%20(Guebwiller)%20Arkaden.jpg",
           "title": "Porch of Église Saint-Léger (Guebwiller) Arkaden.jpg",
+          "description": "Porch of Église Saint-Léger (Guebwiller) Arkaden",
           "width": 4592,
           "height": 2584,
           "size": 7351808,
@@ -99,6 +148,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Guebwiller._Parc_de_la_Marseillaise.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGuebwiller.%20Parc%20de%20la%20Marseillaise.jpg",
           "title": "Guebwiller. Parc de la Marseillaise.jpg",
+          "description": "Parc de la Marseillaise",
           "width": 4000,
           "height": 3000,
           "size": 7537889,
@@ -112,6 +162,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Parc_de_la_Marseillaise_in_Guebwiller_%2812%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParc%20de%20la%20Marseillaise%20in%20Guebwiller%20(12).jpg",
           "title": "Parc de la Marseillaise in Guebwiller (12).jpg",
+          "description": "Theodore Deck Memorial in Parc de la Marseillaise in Guebwiller, Haut-Rhin, France",
           "width": 5011,
           "height": 3341,
           "size": 19714625,
@@ -125,6 +176,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Parc_de_la_Marseillaise_in_Guebwiller_%2810%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParc%20de%20la%20Marseillaise%20in%20Guebwiller%20(10).jpg",
           "title": "Parc de la Marseillaise in Guebwiller (10).jpg",
+          "description": "Bandstand in the Parc de la Marseillaise in Guebwiller, Haut-Rhin, France",
           "width": 4371,
           "height": 2914,
           "size": 16114971,
@@ -138,7 +190,36 @@
     },
     {
       "label": "Fondation François Schneider",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/68112-Guebwiller-Hydro.jpeg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A68112-Guebwiller-Hydro.jpeg",
+          "title": "68112-Guebwiller-Hydro.jpeg",
+          "description": "Carte du réseau hydrographique de la commune de fr:Guebwiller (France).",
+          "width": 5846,
+          "height": 4133,
+          "size": 2360251,
+          "timestamp": "2024-02-19T18:04:48Z",
+          "author": "Roland45",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/68274-Rimbach-pr%C3%A8s-Guebwiller-Hydro.jpeg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A68274-Rimbach-pr%C3%A8s-Guebwiller-Hydro.jpeg",
+          "title": "68274-Rimbach-près-Guebwiller-Hydro.jpeg",
+          "description": "Carte du réseau hydrographique de la commune de fr:Rimbach-près-Guebwiller (France).",
+          "width": 5846,
+          "height": 4133,
+          "size": 2218472,
+          "timestamp": "2024-02-19T18:30:46Z",
+          "author": "Roland45",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Vignoble du Kitterlé",
@@ -146,7 +227,22 @@
     },
     {
       "label": "Sentier botanique du Silberthal",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Guebwiller%2C_vu_depuis_le_chemin_sup%C3%A9rieur_des_vignes.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGuebwiller%2C%20vu%20depuis%20le%20chemin%20sup%C3%A9rieur%20des%20vignes.jpg",
+          "title": "Guebwiller, vu depuis le chemin supérieur des vignes.jpg",
+          "description": "Panorama",
+          "width": 2304,
+          "height": 1728,
+          "size": 1856871,
+          "timestamp": "2022-01-22T14:56:39Z",
+          "author": "Espirat",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     }
   ]
 }

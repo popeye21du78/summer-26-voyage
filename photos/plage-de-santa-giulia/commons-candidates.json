@@ -1,25 +1,13 @@
 {
   "slug": "plage-de-santa-giulia",
   "nom": "Plage de Santa Giulia",
-  "fetchedAt": "2026-03-14T11:14:48.956Z",
+  "fetchedAt": "2026-03-18T16:15:04.973Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Tout_%C3%A0_la_Plage_de_Palombaggia_%28septembre_2018%29_%2831083258838%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATout%20%C3%A0%20la%20Plage%20de%20Palombaggia%20(septembre%202018)%20(31083258838).jpg",
-      "title": "Tout à la Plage de Palombaggia (septembre 2018) (31083258838).jpg",
-      "width": 2000,
-      "height": 1332,
-      "size": 1102212,
-      "timestamp": "2021-11-30T02:52:15Z",
-      "author": "gianni",
-      "license": "CC BY-SA 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Etang_de_Santa_Giulia_01.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEtang%20de%20Santa%20Giulia%2001.JPG",
       "title": "Etang de Santa Giulia 01.JPG",
+      "description": "Etang de Santa Giulia",
       "width": 3264,
       "height": 2448,
       "size": 3661367,
@@ -33,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Porto-Vecchio_blockhaus_de_Santa_Giulia.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APorto-Vecchio%20blockhaus%20de%20Santa%20Giulia.jpg",
       "title": "Porto-Vecchio blockhaus de Santa Giulia.jpg",
+      "description": "Porto-Vecchio, Freto (Corse-du-Sud) - Le blockhaus de Santa Giulia, ouvrage de la ligne Maginot dans l'organisation défensive de la Corse.",
       "width": 6016,
       "height": 4016,
       "size": 7551782,
@@ -41,6 +30,20 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Plage_de_Sta-Giulia_%288132718542%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlage%20de%20Sta-Giulia%20(8132718542).jpg",
+      "title": "Plage de Sta-Giulia (8132718542).jpg",
+      "description": "Plage de Sta-Giulia",
+      "width": 4037,
+      "height": 2804,
+      "size": 6301169,
+      "timestamp": "2013-02-03T03:03:55Z",
+      "author": "Michal Osmenda",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 5
     }
   ],
   "lieux": [

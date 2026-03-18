@@ -1,12 +1,13 @@
 {
   "slug": "cellettes",
   "nom": "Cellettes",
-  "fetchedAt": "2026-03-13T12:34:32.143Z",
+  "fetchedAt": "2026-03-15T20:54:02.469Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Cellettes_%28Loir-et-Cher%29_%288592218778%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACellettes%20(Loir-et-Cher)%20(8592218778).jpg",
       "title": "Cellettes (Loir-et-Cher) (8592218778).jpg",
+      "description": "Le Moulin et le Pont sur le Beuvron.\nLe pont a été construit en 1852 en remplacement d'un vieux pont de bois.\nLa rivière \"le Beuvron\" est un affluent de la Loire d'une longueur d'environ 115 km. \nLa rivière doit son nom aux castors qui la peuplaient au Moyen-Âge.\n( bièvre, du latin beber, gaulois bébros. En anglais beaver, allemand Biber, ). \nLe castor recoloniserait le Beuvron depuis sa réintroduction dans la Loire en 1974.\n\nThe Mill and the Bridge Beuvron.\nThe bridge was built in 1852 to repla",
       "width": 4928,
       "height": 3264,
       "size": 7320548,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Cellettes_%28Loir-et-Cher%29_%2817220732400%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACellettes%20(Loir-et-Cher)%20(17220732400).jpg",
       "title": "Cellettes (Loir-et-Cher) (17220732400).jpg",
+      "description": "Cellettes (Loir-et-Cher).\n\nInondation du Beuvron.",
       "width": 4928,
       "height": 3264,
       "size": 10933184,
@@ -30,23 +32,67 @@
       "score": 6
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/La_Rozelle_Facade_Nord_H%C3%B4tel_4_%C3%A9toiles_pr%C3%A8s_de_Chambord%2C_Blois%2C_Cheverny_et_Chaumont_sur_Loire.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Rozelle%20Facade%20Nord%20H%C3%B4tel%204%20%C3%A9toiles%20pr%C3%A8s%20de%20Chambord%2C%20Blois%2C%20Cheverny%20et%20Chaumont%20sur%20Loire.jpg",
-      "title": "La Rozelle Facade Nord Hôtel 4 étoiles près de Chambord, Blois, Cheverny et Chaumont sur Loire.jpg",
-      "width": 4000,
-      "height": 2751,
-      "size": 6963788,
-      "timestamp": "2021-01-23T13:03:23Z",
-      "author": "Nadine Brocault",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Ch%C3%A2teau_de_Beauregard-138-Kirche_in_Cellettes-2008-gje.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Beauregard-138-Kirche%20in%20Cellettes-2008-gje.jpg",
+      "title": "Château de Beauregard-138-Kirche in Cellettes-2008-gje.jpg",
+      "description": "Château de Beauregard",
+      "width": 3072,
+      "height": 2048,
+      "size": 2901884,
+      "timestamp": "2019-06-10T06:32:02Z",
+      "author": "Gerd Eichmann",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 8
     }
   ],
   "lieux": [
     {
       "label": "Église Saint-Georges de Cellettes",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Ch%C3%A2teau_de_Beauregard-138-Kirche_in_Cellettes-2008-gje.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Beauregard-138-Kirche%20in%20Cellettes-2008-gje.jpg",
+          "title": "Château de Beauregard-138-Kirche in Cellettes-2008-gje.jpg",
+          "description": "Château de Beauregard",
+          "width": 3072,
+          "height": 2048,
+          "size": 2901884,
+          "timestamp": "2019-06-10T06:32:02Z",
+          "author": "Gerd Eichmann",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Ch%C3%A2teau_de_Beauregard-140-Kirche_in_Cellettes-2008-gje.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Beauregard-140-Kirche%20in%20Cellettes-2008-gje.jpg",
+          "title": "Château de Beauregard-140-Kirche in Cellettes-2008-gje.jpg",
+          "description": "Château de Beauregard",
+          "width": 3072,
+          "height": 2048,
+          "size": 2233801,
+          "timestamp": "2019-06-10T06:32:06Z",
+          "author": "Gerd Eichmann",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/CellettesEglise.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACellettesEglise.JPG",
+          "title": "CellettesEglise.JPG",
+          "description": "Église de Cellettes, en Charente. L'arrière et le clocher.",
+          "width": 4032,
+          "height": 3024,
+          "size": 2558205,
+          "timestamp": "2012-09-07T19:09:04Z",
+          "author": "Rosier",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Château de Beauregard",
@@ -55,6 +101,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Ch%C3%A2teau_de_Beauregard-138-Kirche_in_Cellettes-2008-gje.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Beauregard-138-Kirche%20in%20Cellettes-2008-gje.jpg",
           "title": "Château de Beauregard-138-Kirche in Cellettes-2008-gje.jpg",
+          "description": "Château de Beauregard",
           "width": 3072,
           "height": 2048,
           "size": 2901884,
@@ -62,12 +109,13 @@
           "author": "Gerd Eichmann",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Ch%C3%A2teau_de_Beauregard-140-Kirche_in_Cellettes-2008-gje.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Beauregard-140-Kirche%20in%20Cellettes-2008-gje.jpg",
           "title": "Château de Beauregard-140-Kirche in Cellettes-2008-gje.jpg",
+          "description": "Château de Beauregard",
           "width": 3072,
           "height": 2048,
           "size": 2233801,
@@ -75,26 +123,70 @@
           "author": "Gerd Eichmann",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Ch%C3%A2teau_de_Beauregard_-_Galerie_des_Illustres_05.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Beauregard%20-%20Galerie%20des%20Illustres%2005.jpg",
-          "title": "Château de Beauregard - Galerie des Illustres 05.jpg",
-          "width": 2432,
-          "height": 2876,
-          "size": 1860708,
-          "timestamp": "2022-01-10T19:28:17Z",
-          "author": "<bdi>Unknown<span style=\"display: none;\">Unknown </span>, French School</bdi> / <bdi>After <a href=\"https://en.wikipedia.org/wiki/en:Fran%C3%A7ois_Clouet\" class=\"extiw\" title=\"w:en:François Clouet\"><span title=\"French Renaissance miniaturist and painter (c.1510-1572)\">François Clouet</span></a></bdi>",
-          "license": "CC BY 2.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/CellettesChateau1.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACellettesChateau1.JPG",
+          "title": "CellettesChateau1.JPG",
+          "description": "Château de Cellettes, en Charente, en France (inscrit, 2004)",
+          "width": 4032,
+          "height": 3024,
+          "size": 2655229,
+          "timestamp": "2012-09-07T19:09:08Z",
+          "author": "Rosier",
+          "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         }
       ]
     },
     {
       "label": "Château de Troussay",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Ch%C3%A2teau_de_Beauregard-138-Kirche_in_Cellettes-2008-gje.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Beauregard-138-Kirche%20in%20Cellettes-2008-gje.jpg",
+          "title": "Château de Beauregard-138-Kirche in Cellettes-2008-gje.jpg",
+          "description": "Château de Beauregard",
+          "width": 3072,
+          "height": 2048,
+          "size": 2901884,
+          "timestamp": "2019-06-10T06:32:02Z",
+          "author": "Gerd Eichmann",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Ch%C3%A2teau_de_Beauregard-140-Kirche_in_Cellettes-2008-gje.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Beauregard-140-Kirche%20in%20Cellettes-2008-gje.jpg",
+          "title": "Château de Beauregard-140-Kirche in Cellettes-2008-gje.jpg",
+          "description": "Château de Beauregard",
+          "width": 3072,
+          "height": 2048,
+          "size": 2233801,
+          "timestamp": "2019-06-10T06:32:06Z",
+          "author": "Gerd Eichmann",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/CellettesChateau1.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACellettesChateau1.JPG",
+          "title": "CellettesChateau1.JPG",
+          "description": "Château de Cellettes, en Charente, en France (inscrit, 2004)",
+          "width": 4032,
+          "height": 3024,
+          "size": 2655229,
+          "timestamp": "2012-09-07T19:09:08Z",
+          "author": "Rosier",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Pont sur le Beuvron",
@@ -103,6 +195,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Cellettes_%28Loir-et-Cher%29_%288592218778%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACellettes%20(Loir-et-Cher)%20(8592218778).jpg",
           "title": "Cellettes (Loir-et-Cher) (8592218778).jpg",
+          "description": "Le Moulin et le Pont sur le Beuvron.\nLe pont a été construit en 1852 en remplacement d'un vieux pont de bois.\nLa rivière \"le Beuvron\" est un affluent de la Loire d'une longueur d'environ 115 km. \nLa rivière doit son nom aux castors qui la peuplaient au Moyen-Âge.\n( bièvre, du latin beber, gaulois bébros. En anglais beaver, allemand Biber, ). \nLe castor recoloniserait le Beuvron depuis sa réintroduction dans la Loire en 1974.\n\nThe Mill and the Bridge Beuvron.\nThe bridge was built in 1852 to repla",
           "width": 4928,
           "height": 3264,
           "size": 7320548,

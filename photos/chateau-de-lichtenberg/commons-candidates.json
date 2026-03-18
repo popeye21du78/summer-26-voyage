@@ -1,38 +1,13 @@
 {
   "slug": "chateau-de-lichtenberg",
   "nom": "Château de Lichtenberg",
-  "fetchedAt": "2026-03-13T13:10:37.589Z",
+  "fetchedAt": "2026-03-15T21:36:02.219Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Lichtenberg_memorial_1870_allemand1.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALichtenberg%20memorial%201870%20allemand1.jpg",
-      "title": "Lichtenberg memorial 1870 allemand1.jpg",
-      "width": 3264,
-      "height": 1836,
-      "size": 2419793,
-      "timestamp": "2021-07-16T13:36:51Z",
-      "author": "Didivo67",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Lichtenberg_monument_morts.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALichtenberg%20monument%20morts.jpg",
-      "title": "Lichtenberg monument morts.jpg",
-      "width": 3264,
-      "height": 1836,
-      "size": 2693415,
-      "timestamp": "2021-07-16T13:57:49Z",
-      "author": "Didivo67",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Ch%C3%A2teau_de_Lichtenberg.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Lichtenberg.jpg",
       "title": "Château de Lichtenberg.jpg",
+      "description": "Château de Lichtenberg (Bas-Rhin, France).",
       "width": 2592,
       "height": 1944,
       "size": 569366,
@@ -40,13 +15,84 @@
       "author": "Gzen92",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Lichtenberg_rCh%C3%A2teau_39.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALichtenberg%20rCh%C3%A2teau%2039.JPG",
+      "title": "Lichtenberg rChâteau 39.JPG",
+      "description": "Alsace, Bas-Rhin, Lichtenberg, Maison (XIXe), 39 rue du Château.",
+      "width": 3648,
+      "height": 2736,
+      "size": 4483157,
+      "timestamp": "2017-08-17T07:24:42Z",
+      "author": "© Ralph Hammann - Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Lichtenberg_rCh%C3%A2teau_56.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALichtenberg%20rCh%C3%A2teau%2056.JPG",
+      "title": "Lichtenberg rChâteau 56.JPG",
+      "description": "Alsace, Bas-Rhin, Lichtenberg, Ferme (1867), 56 rue du Château. \n\n\n\n\n \nThis building is indexed in the base Mérimée, a database of architectural heritage maintained by the French Ministry of Culture, under the reference IA67006970 .\n\nbrezhoneg ∙ català ∙ Deutsch ∙ English ∙ español ∙ Esperanto ∙ euskara ∙ français ∙ italiano ∙ magyar ∙ Nederlands ∙ português do Brasil ∙ português ∙ română ∙ sicilianu ∙ slovenščina ∙ suomi ∙ svenska ∙ Ελληνικά ∙ беларуская (тарашкевіца) ∙ македонски ∙ русский ∙ у",
+      "width": 3648,
+      "height": 2736,
+      "size": 3844383,
+      "timestamp": "2017-08-17T07:25:23Z",
+      "author": "© Ralph Hammann - Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
     }
   ],
   "lieux": [
     {
       "label": "Chapelle gothique",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Lichtenberg-autel1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALichtenberg-autel1.jpg",
+          "title": "Lichtenberg-autel1.jpg",
+          "description": "Mausolée du comte Philippe V de Hanau-Lichtenberg, chapelle du château de Lichtenberg, Alsace, France",
+          "width": 2448,
+          "height": 3264,
+          "size": 2719173,
+          "timestamp": "2012-03-26T16:59:14Z",
+          "author": "Buchsweiler",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Lichtenberg-autel2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALichtenberg-autel2.jpg",
+          "title": "Lichtenberg-autel2.jpg",
+          "description": "Mausolée du comte Philippe V de Hanau-Lichtenberg, chapelle du château de Lichtenberg, Alsace, France",
+          "width": 2448,
+          "height": 3264,
+          "size": 2399994,
+          "timestamp": "2012-03-26T16:59:14Z",
+          "author": "Buchsweiler",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Lichtenberg-chapelle1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALichtenberg-chapelle1.jpg",
+          "title": "Lichtenberg-chapelle1.jpg",
+          "description": "Chapelle du château de Lichtenberg, côté est. Alsace, France.",
+          "width": 500,
+          "height": 375,
+          "size": 65479,
+          "timestamp": "2012-03-26T16:59:14Z",
+          "author": "Buchsweiler",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     },
     {
       "label": "Chemin de ronde",

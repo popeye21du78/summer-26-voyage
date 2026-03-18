@@ -1,18 +1,33 @@
 {
   "slug": "senones",
   "nom": "Senones",
-  "fetchedAt": "2026-03-14T12:30:51.914Z",
+  "fetchedAt": "2026-03-18T19:18:27.890Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/M%C3%A9nil-de-Senones%2C_Mairie.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AM%C3%A9nil-de-Senones%2C%20Mairie.jpg",
-      "title": "Ménil-de-Senones, Mairie.jpg",
-      "width": 3501,
-      "height": 2265,
-      "size": 1324011,
-      "timestamp": "2025-05-14T21:09:44Z",
-      "author": "Rauenstein",
-      "license": "CC BY-SA 2.5",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Senones-Second_ch%C3%A2teau_des_princes_de_Salm_%284%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASenones-Second%20ch%C3%A2teau%20des%20princes%20de%20Salm%20(4).jpg",
+      "title": "Senones-Second château des princes de Salm (4).jpg",
+      "description": "Senones (Vosges) : Second château des princes de Salm",
+      "width": 3648,
+      "height": 2736,
+      "size": 2148238,
+      "timestamp": "2011-12-12T10:07:39Z",
+      "author": "Ji-Elle",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Senones-Ancien_h%C3%B4tel_de_Bilistein-Place_Thumann_%286%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASenones-Ancien%20h%C3%B4tel%20de%20Bilistein-Place%20Thumann%20(6).jpg",
+      "title": "Senones-Ancien hôtel de Bilistein-Place Thumann (6).jpg",
+      "description": "Senones (Vosges) : Ancien hôtel de Bilistein (côté place Charles-Thumann), premier château des princes de Salm. Toiture ravagée par un incendie en 1994. Façades, toitures et passage charretier classés MH en 1997.",
+      "width": 3648,
+      "height": 2736,
+      "size": 2080219,
+      "timestamp": "2011-12-12T20:30:29Z",
+      "author": "Ji-Elle",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
@@ -20,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Senones-Biblioth%C3%A8que_municipale_Louis_Aragon_%28100%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASenones-Biblioth%C3%A8que%20municipale%20Louis%20Aragon%20(100).jpg",
       "title": "Senones-Bibliothèque municipale Louis Aragon (100).jpg",
+      "description": "Senones (Vosges), 6 place Clémenceau : Bibliothèque municipale Louis Aragon, ancien Hôtel de Montfort, puis Hôtel du prince Charles. Inscrit aux MH,  escalier de la terrasse avec sa rampe en fer forgé classé en 1982.",
       "width": 5472,
       "height": 3648,
       "size": 7255021,
@@ -28,37 +44,196 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 6
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Jardin_du_Prince_Charles_Senones.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJardin%20du%20Prince%20Charles%20Senones.jpg",
-      "title": "Jardin du Prince Charles Senones.jpg",
-      "width": 4608,
-      "height": 3456,
-      "size": 2714048,
-      "timestamp": "2019-03-08T08:01:06Z",
-      "author": "Anachro",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
     }
   ],
   "lieux": [
     {
       "label": "Abbaye Saint-Maur de Senones",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Lutin_Abbaye_Saint-Pierre_%28Senones%2C_Vosges%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALutin%20Abbaye%20Saint-Pierre%20(Senones%2C%20Vosges).jpg",
+          "title": "Lutin Abbaye Saint-Pierre (Senones, Vosges).jpg",
+          "description": "Drôlerie extraite des Statuts de Toul (bmi Epinal, ms 171) représentant un bonhomme aux grands pieds et portant un bonnet",
+          "width": 1920,
+          "height": 951,
+          "size": 821139,
+          "timestamp": "2020-05-14T18:03:47Z",
+          "author": "<span lang=\"en\">Anonymous</span><span style=\"display:none\">Unknown author</span>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Abbaye_de_Senones.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20de%20Senones.jpg",
+          "title": "Abbaye de Senones.jpg",
+          "description": "Numérisation du LV in-4/82 P/R de la bmi Epinal-Golbey",
+          "width": 1969,
+          "height": 1426,
+          "size": 948838,
+          "timestamp": "2021-10-23T12:50:01Z",
+          "author": "<div class=\"fn value\">\nRavignat E.</div>",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Carte_postale%2C_Senones%2C_Vue_g%C3%A9n%C3%A9rale.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarte%20postale%2C%20Senones%2C%20Vue%20g%C3%A9n%C3%A9rale.jpg",
+          "title": "Carte postale, Senones, Vue générale.jpg",
+          "description": "Carte postale n°215  Carte postale représentant une vue générale de Senones et de son abbaye  Nom de la collection : Les Vosges pittoresques",
+          "width": 1645,
+          "height": 1068,
+          "size": 323600,
+          "timestamp": "2022-03-18T13:57:19Z",
+          "author": "<div class=\"fn value\">\nCh. Cablé fils (Senones). Editeur</div>",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Bibliothèque Dom Calmet",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Carte_postale%2C_Senones%2C_Vue_g%C3%A9n%C3%A9rale.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarte%20postale%2C%20Senones%2C%20Vue%20g%C3%A9n%C3%A9rale.jpg",
+          "title": "Carte postale, Senones, Vue générale.jpg",
+          "description": "Carte postale n°215  Carte postale représentant une vue générale de Senones et de son abbaye  Nom de la collection : Les Vosges pittoresques",
+          "width": 1645,
+          "height": 1068,
+          "size": 323600,
+          "timestamp": "2022-03-18T13:57:19Z",
+          "author": "<div class=\"fn value\">\nCh. Cablé fils (Senones). Editeur</div>",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Carte_postale%2C_Senones_%28Vosges%29%2C_Les_Gouttes.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarte%20postale%2C%20Senones%20(Vosges)%2C%20Les%20Gouttes.jpg",
+          "title": "Carte postale, Senones (Vosges), Les Gouttes.jpg",
+          "description": "Carte postale n°25186  Carte postale représentant les Gouttes à Senones",
+          "width": 1647,
+          "height": 1061,
+          "size": 368497,
+          "timestamp": "2022-03-18T20:09:11Z",
+          "author": "<div class=\"fn value\">\nEtablissements C. Lardier (CLB) (Besançon). Editeur</div>",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Carte_postale%2C_Senones_%28Vosges%29%2C_Un_coin_de_Senones_et_T%C3%AAte_de_la_Forain.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarte%20postale%2C%20Senones%20(Vosges)%2C%20Un%20coin%20de%20Senones%20et%20T%C3%AAte%20de%20la%20Forain.jpg",
+          "title": "Carte postale, Senones (Vosges), Un coin de Senones et Tête de la Forain.jpg",
+          "description": "Carte postale n°12236  Carte postale représentant un coin de Senones et la tête de Forain",
+          "width": 1650,
+          "height": 1064,
+          "size": 333248,
+          "timestamp": "2022-03-18T20:09:30Z",
+          "author": "<div class=\"fn value\">\nWeick, Adolphe (Saint-Dié). Editeur</div>",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Parc public de Senones",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Senones-Parc_de_l%27Abbaye_%281%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASenones-Parc%20de%20l'Abbaye%20(1).jpg",
+          "title": "Senones-Parc de l'Abbaye (1).jpg",
+          "description": "Senones (Vosges) : le parc de l'abbaye, avec les ruines du colombier à six piliers, symbole de Seigneurie. Aujourd'hui propriété de la ville.",
+          "width": 4320,
+          "height": 3240,
+          "size": 6099018,
+          "timestamp": "2014-06-28T18:49:23Z",
+          "author": "Ji-Elle",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Senones-Parc_de_l%27Abbaye_%285%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASenones-Parc%20de%20l'Abbaye%20(5).jpg",
+          "title": "Senones-Parc de l'Abbaye (5).jpg",
+          "description": "Senones (Vosges) : le parc de l'abbaye, avec les ruines du colombier à six piliers, symbole de Seigneurie. Aujourd'hui propriété de la ville.",
+          "width": 4320,
+          "height": 3240,
+          "size": 6597009,
+          "timestamp": "2014-06-28T18:49:26Z",
+          "author": "Ji-Elle",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Senones-Parc_de_l%27Abbaye_%283%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASenones-Parc%20de%20l'Abbaye%20(3).jpg",
+          "title": "Senones-Parc de l'Abbaye (3).jpg",
+          "description": "Senones (Vosges) : le parc de l'abbaye, avec les ruines du colombier à six piliers, symbole de Seigneurie. Aujourd'hui propriété de la ville.",
+          "width": 3240,
+          "height": 4320,
+          "size": 3980235,
+          "timestamp": "2014-06-28T18:49:23Z",
+          "author": "Ji-Elle",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     },
     {
       "label": "Fontaine monumentale de la Place Dom Calmet",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Senones-Place_Charles-Thumann.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASenones-Place%20Charles-Thumann.jpg",
+          "title": "Senones-Place Charles-Thumann.jpg",
+          "description": "Senones (Vosges) : place Charles-Thumann. A gauche le second château des princes de Salm",
+          "width": 3648,
+          "height": 2392,
+          "size": 1858669,
+          "timestamp": "2011-12-12T10:21:13Z",
+          "author": "Ji-Elle",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Senones-Place_Cl%C3%A9menceau_%281%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASenones-Place%20Cl%C3%A9menceau%20(1).jpg",
+          "title": "Senones-Place Clémenceau (1).jpg",
+          "description": "Senones (Vosges) : place Clémenceau, où se trouvent la plupart des monuments historiques.  A gauche l'hôtel de ville, au centre le premier château des princes de Salm",
+          "width": 3648,
+          "height": 2736,
+          "size": 1900275,
+          "timestamp": "2011-12-12T10:21:13Z",
+          "author": "Ji-Elle",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Senones-Place_Cl%C3%A9menceau_%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASenones-Place%20Cl%C3%A9menceau%20(2).jpg",
+          "title": "Senones-Place Clémenceau (2).jpg",
+          "description": "Senones (Vosges) : place Clémenceau, où se trouvent la plupart des monuments historiques.  A gauche l'hôtel de ville, au centre le premier château des princes de Salm",
+          "width": 3648,
+          "height": 2736,
+          "size": 1904978,
+          "timestamp": "2011-12-12T10:21:14Z",
+          "author": "Ji-Elle",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

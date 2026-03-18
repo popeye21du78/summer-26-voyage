@@ -1,25 +1,13 @@
 {
   "slug": "plage-d-omaha-beach",
   "nom": "plage d omaha beach",
-  "fetchedAt": "2026-03-14T10:52:10.006Z",
+  "fetchedAt": "2026-03-17T22:37:53.189Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Bunker_R636a_d%E2%80%99observation_de_tir_%2827406926219%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABunker%20R636a%20d%E2%80%99observation%20de%20tir%20(27406926219).jpg",
-      "title": "Bunker R636a d’observation de tir (27406926219).jpg",
-      "width": 6000,
-      "height": 3836,
-      "size": 9714195,
-      "timestamp": "2021-05-17T14:40:08Z",
-      "author": "Falcon® Photography",
-      "license": "CC BY-SA 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/SOMECA_511_am_Landungsstrand_Omaha_Beach_in_der_Normandie.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASOMECA%20511%20am%20Landungsstrand%20Omaha%20Beach%20in%20der%20Normandie.jpg",
       "title": "SOMECA 511 am Landungsstrand Omaha Beach in der Normandie.jpg",
+      "description": "The SOMECA 511 on Omaha Beach, Normandy, site of the D-Day landings",
       "width": 7884,
       "height": 5219,
       "size": 26938541,
@@ -33,12 +21,27 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Plage_d%27Omaha_-_panoramio.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlage%20d'Omaha%20-%20panoramio.jpg",
       "title": "Plage d'Omaha - panoramio.jpg",
+      "description": "Plage d`Omaha",
       "width": 3900,
       "height": 2447,
       "size": 944189,
       "timestamp": "2017-04-02T05:26:51Z",
       "author": "Mario Hains",
       "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Plage_de_Zanuck-d.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlage%20de%20Zanuck-d.jpg",
+      "title": "Plage de Zanuck-d.jpg",
+      "description": "La « plage de Zanuck » sur l'île de Ré où furent tournées des scènes du film Le Jour le plus long en 1961 (Omaha Beach).",
+      "width": 1440,
+      "height": 1080,
+      "size": 1146236,
+      "timestamp": "2019-06-18T10:37:17Z",
+      "author": "Didier Duforest",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 6
     }

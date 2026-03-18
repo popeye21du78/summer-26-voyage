@@ -1,12 +1,13 @@
 {
   "slug": "mansle",
   "nom": "Mansle",
-  "fetchedAt": "2026-03-13T16:03:43.920Z",
+  "fetchedAt": "2026-03-16T21:16:07.743Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Mansle-les-Fontaines_-_m%C3%A9diath%C3%A8que_-_bo%C3%AEte_%C3%A0_livres.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMansle-les-Fontaines%20-%20m%C3%A9diath%C3%A8que%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
       "title": "Mansle-les-Fontaines - médiathèque - boîte à livres.jpg",
+      "description": "Boîte à livres à Mansle-les-Fontaines",
       "width": 2500,
       "height": 1875,
       "size": 467494,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Mansle-les-Fontaines_-_office_de_tourisme_-_bo%C3%AEte_%C3%A0_livres.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMansle-les-Fontaines%20-%20office%20de%20tourisme%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
       "title": "Mansle-les-Fontaines - office de tourisme - boîte à livres.jpg",
+      "description": "Boîte à livres à Mansle-les-Fontaines",
       "width": 2500,
       "height": 1875,
       "size": 734522,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Mansle-les-Fontaines_-_espace_Arc-en-ciel_-_bo%C3%AEte_%C3%A0_livres.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMansle-les-Fontaines%20-%20espace%20Arc-en-ciel%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
       "title": "Mansle-les-Fontaines - espace Arc-en-ciel - boîte à livres.jpg",
+      "description": "Boîte à livres à Mansle-les-Fontaines",
       "width": 2500,
       "height": 1875,
       "size": 772350,
@@ -48,9 +51,24 @@
       "label": "Pont de Mansle",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Mansle%2C_le_pont_et_la_Charente.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMansle%2C%20le%20pont%20et%20la%20Charente.JPG",
+          "title": "Mansle, le pont et la Charente.JPG",
+          "description": "Mansle, la Charente (France 16230)",
+          "width": 5472,
+          "height": 3648,
+          "size": 5364253,
+          "timestamp": "2013-06-16T20:03:54Z",
+          "author": "Arnaud Randon",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Mansles2.5.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMansles2.5.JPG",
           "title": "Mansles2.5.JPG",
+          "description": "Pont de Mansle sur la Charente",
           "width": 2048,
           "height": 1536,
           "size": 683378,
@@ -64,23 +82,11 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Mansles2.9.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMansles2.9.JPG",
           "title": "Mansles2.9.JPG",
+          "description": "Pont de Mansle sur la Charente",
           "width": 2048,
           "height": 1536,
           "size": 657244,
           "timestamp": "2008-08-24T14:03:05Z",
-          "author": "rosier",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Mansles2.6.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMansles2.6.JPG",
-          "title": "Mansles2.6.JPG",
-          "width": 2048,
-          "height": 1536,
-          "size": 692183,
-          "timestamp": "2008-08-24T14:05:02Z",
           "author": "rosier",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -99,6 +105,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Mansle_-_%C3%89glise_Saint-L%C3%A9ger_et_Mairie.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMansle%20-%20%C3%89glise%20Saint-L%C3%A9ger%20et%20Mairie.jpg",
           "title": "Mansle - Église Saint-Léger et Mairie.jpg",
+          "description": "Photographie aérienne du centre de Mansle (Charente). En haut, à droite de l’image, on distingue l’Église Saint-Léger, ainsi que la Mairie.",
           "width": 3000,
           "height": 2054,
           "size": 2136822,
@@ -107,32 +114,6 @@
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Mansle_Manlha_l%27%C3%A9glise_la_kirko.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMansle%20Manlha%20l'%C3%A9glise%20la%20kirko.jpg",
-          "title": "Mansle Manlha l'église la kirko.jpg",
-          "width": 1536,
-          "height": 2048,
-          "size": 1972957,
-          "timestamp": "2023-04-13T10:23:38Z",
-          "author": "rosier",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Mansle%2C_l%27%C3%A9glise_et_la_mairie.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMansle%2C%20l'%C3%A9glise%20et%20la%20mairie.JPG",
-          "title": "Mansle, l'église et la mairie.JPG",
-          "width": 5472,
-          "height": 3648,
-          "size": 7379809,
-          "timestamp": "2013-06-16T19:15:48Z",
-          "author": "Arnaud Randon",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
         }
       ]
     }

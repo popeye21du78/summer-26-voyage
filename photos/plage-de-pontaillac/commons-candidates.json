@@ -1,12 +1,13 @@
 {
   "slug": "plage-de-pontaillac",
   "nom": "Plage de Pontaillac",
-  "fetchedAt": "2026-03-14T11:11:15.275Z",
+  "fetchedAt": "2026-03-18T16:07:25.993Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Plage_du_Chay.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlage%20du%20Chay.jpg",
       "title": "Plage du Chay.jpg",
+      "description": "La plage du Chay en été",
       "width": 4608,
       "height": 3456,
       "size": 3920199,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Plage_du_Chay_et_carrelet.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlage%20du%20Chay%20et%20carrelet.jpg",
       "title": "Plage du Chay et carrelet.jpg",
+      "description": "Plage du Chay et carrelet",
       "width": 4896,
       "height": 3264,
       "size": 2055057,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Les_falaises_surplombant_le_quartier_de_Pontaillac%2C_Royan_-_panoramio.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20falaises%20surplombant%20le%20quartier%20de%20Pontaillac%2C%20Royan%20-%20panoramio.jpg",
       "title": "Les falaises surplombant le quartier de Pontaillac, Royan - panoramio.jpg",
+      "description": "Les falaises surplombant le quartier de Pontaillac, Royan",
       "width": 2048,
       "height": 1536,
       "size": 1539774,
@@ -54,7 +57,50 @@
     },
     {
       "label": "front de mer et villas années 50",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Le_Front_de_mer_%C3%A0_Pontaillac%2C_Royan_-_panoramio.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Front%20de%20mer%20%C3%A0%20Pontaillac%2C%20Royan%20-%20panoramio.jpg",
+          "title": "Le Front de mer à Pontaillac, Royan - panoramio.jpg",
+          "description": "Le Front de mer à Pontaillac, Royan",
+          "width": 2048,
+          "height": 1536,
+          "size": 1675168,
+          "timestamp": "2016-01-27T03:04:55Z",
+          "author": "FrenchCobber",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Front_de_mer_de_Pontaillac_-_panoramio.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFront%20de%20mer%20de%20Pontaillac%20-%20panoramio.jpg",
+          "title": "Front de mer de Pontaillac - panoramio.jpg",
+          "description": "Front de mer de Pontaillac",
+          "width": 2048,
+          "height": 1536,
+          "size": 1632580,
+          "timestamp": "2016-01-27T03:05:44Z",
+          "author": "FrenchCobber",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Carrelets_de_la_Conche_de_Pontaillac_%2813%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarrelets%20de%20la%20Conche%20de%20Pontaillac%20(13).JPG",
+          "title": "Carrelets de la Conche de Pontaillac (13).JPG",
+          "description": "Les vingt et un pontons de pêche au carrelet sur pilotis construits sur les petites falaises de la Conche de Pontaillac côté Vaux-sur-Mer. Ils sont tous peints en blanc.\nVaux-sur-Mer, Charente-Maritime, France.",
+          "width": 7360,
+          "height": 4912,
+          "size": 3601979,
+          "timestamp": "2019-09-10T14:50:39Z",
+          "author": "Jean-Pierre Bazard <a href=\"//commons.wikimedia.org/wiki/User:Jpbazard\" title=\"User:Jpbazard\">Jpbazard</a>",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

@@ -1,43 +1,46 @@
 {
   "slug": "cassini",
   "nom": "Cassini",
-  "fetchedAt": "2026-03-13T12:29:56.842Z",
+  "fetchedAt": "2026-03-15T20:45:31.104Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/ISS050-E-16342_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS050-E-16342%20-%20View%20of%20Earth.jpg",
-      "title": "ISS050-E-16342 - View of Earth.jpg",
-      "width": 4928,
-      "height": 3280,
-      "size": 3496403,
-      "timestamp": "2021-03-28T08:07:57Z",
-      "author": "Earth Science and Remote Sensing Unit",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Cassini_Rev_230_-_Enceladus_%2840974335232%29.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACassini%20Rev%20230%20-%20Enceladus%20(40974335232).png",
+      "title": "Cassini Rev 230 - Enceladus (40974335232).png",
+      "description": "Three frame CLR filter mosaic of Enceladus taken on January 14, 2016 from a distance of 72,000 km. This image captures the moon's leading hemisphere, which has been heavily fractured and coated with ice erupted from the southern hemisphere's geyser systems.\nThe night side is lit by reflected light from Saturn, but a small wedge near the south pole is not. In this region, the Sun is below the horizon during a 15 year long polar night, and Saturn is below the horizon. \n\nImage Credit: NASA / JPL / ",
+      "width": 1500,
+      "height": 1500,
+      "size": 2066923,
+      "timestamp": "2020-12-03T12:21:37Z",
+      "author": "Justin Cowart",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Enceladusstripes_cassini.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEnceladusstripes%20cassini.jpg",
+      "title": "Enceladusstripes cassini.jpg",
+      "description": "As it swooped past the south pole of Saturn's moon Enceladus on July 14, 2005, Cassini acquired high resolution views of this puzzling ice world. From afar, Enceladus exhibits a bizarre mixture of softened craters and complex, fractured terrains.\nThis large mosaic of 21 narrow-angle camera images have been arranged to provide a full-disk view of the anti-Saturn hemisphere on Enceladus. This mosaic is a false-color view that includes images taken at wavelengths from the ultraviolet to the infrare",
+      "width": 3237,
+      "height": 3812,
+      "size": 3782397,
+      "timestamp": "2019-08-28T07:14:55Z",
+      "author": "NASA",
       "license": "Public domain",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/ISS053-E-104634_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS053-E-104634%20-%20View%20of%20Earth.jpg",
-      "title": "ISS053-E-104634 - View of Earth.jpg",
-      "width": 4928,
-      "height": 3280,
-      "size": 1895841,
-      "timestamp": "2021-04-02T02:47:12Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/ISS053-E-105780_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS053-E-105780%20-%20View%20of%20Earth.jpg",
-      "title": "ISS053-E-105780 - View of Earth.jpg",
-      "width": 4928,
-      "height": 3280,
-      "size": 1966969,
-      "timestamp": "2021-04-02T03:02:38Z",
-      "author": "Earth Science and Remote Sensing Unit",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Cassini_Saturn_Orbit_Insertion.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACassini%20Saturn%20Orbit%20Insertion.jpg",
+      "title": "Cassini Saturn Orbit Insertion.jpg",
+      "description": "Original Caption Released with Image: This is an artists concept of Cassini during the Saturn Orbit Insertion (SOI) maneuver, just after the main engine has begun firing. The spacecraft is moving out of the plane of the page and to the right (firing to reduce its spacecraft velocity with respect to Saturn) and has just crossed the ring plane.\nThe SOI maneuver, which is approximately 90 minutes long, will allow Cassini to be captured by Saturn's gravity into a five-month orbit. Cassini's close pr",
+      "width": 14400,
+      "height": 9600,
+      "size": 4392985,
+      "timestamp": "2022-08-08T16:10:16Z",
+      "author": "NASA/JPL",
       "license": "Public domain",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
@@ -48,43 +51,46 @@
       "label": "Signal de Cassini",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Grande_Aiguille_%40_S%C3%A9a.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrande%20Aiguille%20%40%20S%C3%A9a.jpg",
-          "title": "Grande Aiguille @ Séa.jpg",
-          "width": 5184,
-          "height": 3888,
-          "size": 2801437,
-          "timestamp": "2025-04-09T13:56:32Z",
-          "author": "Rémih",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Saint-Andr%C3%A9-la-C%C3%B4te_-_Signal_de_Cassini.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Andr%C3%A9-la-C%C3%B4te%20-%20Signal%20de%20Cassini.jpg",
-          "title": "Saint-André-la-Côte - Signal de Cassini.jpg",
-          "width": 1534,
-          "height": 1077,
-          "size": 1324829,
-          "timestamp": "2014-10-27T14:15:25Z",
-          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q16219232\" class=\"extiw\" title=\"d:Q16219232\"><span title=\"French painter (1854-1940)\">Jean-Baptiste Drevet</span></a></bdi>",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Titan_-_Cassini_%2831558173341%29.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATitan%20-%20Cassini%20(31558173341).png",
+          "title": "Titan - Cassini (31558173341).png",
+          "description": "Cassini ISS view of Titan during the T-108 flyby on January 11, 2015. This image uses 4 frames taken during the spacecraft's approach. Each subframe uses three median-stacked CB3 filter images, with atmospheric signal removed by subtracting the difference between the CB3 stack and an MT1 filter image.\nThis image is centered on the Fensal-Aztlan region, focusing mainly on the Elba Facula region. When this image was taken, Cassini was approximately 330,000 km from Titan.\n\nImage Credit: NASA / JPL ",
+          "width": 1900,
+          "height": 1900,
+          "size": 6078274,
+          "timestamp": "2020-12-03T12:27:18Z",
+          "author": "Justin Cowart",
           "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 8
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Enceladus_atmosphere_fr.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEnceladus%20atmosphere%20fr.jpg",
-          "title": "Enceladus atmosphere fr.jpg",
-          "width": 1222,
-          "height": 916,
-          "size": 36760,
-          "timestamp": "2006-04-08T12:09:56Z",
-          "author": "Inconnu",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Titan_-_Cassini_%2831526515062%29.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATitan%20-%20Cassini%20(31526515062).png",
+          "title": "Titan - Cassini (31526515062).png",
+          "description": "Cassini ISS view of Titan during the T-99 flyby on March 6, 2014. This image uses 9 frames taken during the spacecraft's approach. Each subframe uses three median-stacked CB3 filter images, with atmospheric signal removed by subtracting the difference between the CB3 stack and an MT1 filter image.\nThis image focuses on lakes around Titan's North Pole, and was intended to help map a large portion of the northern hemisphere that was mapped at much lower resolution previously. This mosaic was acqui",
+          "width": 2000,
+          "height": 2000,
+          "size": 5852031,
+          "timestamp": "2020-12-03T12:27:24Z",
+          "author": "Justin Cowart",
           "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 3
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Listening_for_Cassini_ESA377001.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AListening%20for%20Cassini%20ESA377001.jpg",
+          "title": "Listening for Cassini ESA377001.jpg",
+          "description": "ESA’s sensitive tracking antennas at New Norcia, Western Australia, and Malargüe, Argentina (seen here in 2012), are being called in to help gather crucial science data during Cassini’s last months in orbit, dubbed the Grand Finale.\nThe mission will end on 15 September, when Cassini plunges into Saturn’s atmosphere, bringing to a close one of the most successful exploration endeavours ever.\nThe craft isn’t exiting meekly, however, and its Grand Finale orbits are proving to be immensely valuable.",
+          "width": 1955,
+          "height": 1100,
+          "size": 340059,
+          "timestamp": "2017-05-24T08:33:48Z",
+          "author": "European Space Agency",
+          "license": "CC BY-SA 3.0 igo",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
         }
       ]
     },
@@ -94,11 +100,83 @@
     },
     {
       "label": "rivière Tarn (au départ)",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Cassini_Braconne.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACassini%20Braconne.png",
+          "title": "Cassini Braconne.png",
+          "description": "Carte de Cassini (XVIIIe) centrée sur la rivière la Braconne, affluent de l'Arroux, affluent de la Loire. On distingue notamment le mont Beuvray, les communes de Poil (Nièvre), La Comelle (Saône-et-Loire), Saint-Léger-sous-Beuvray et Étang-sur-Arroux.",
+          "width": 1332,
+          "height": 760,
+          "size": 1865976,
+          "timestamp": "2021-12-10T20:56:04Z",
+          "author": "Cassini",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Josnes-beaugency-cassini_01.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJosnes-beaugency-cassini%2001.png",
+          "title": "Josnes-beaugency-cassini 01.png",
+          "description": "Portion of Cassini map (18th cent.) showing the Loire river and the towns of Meung-sur-Loire (\"Meun\") and Beaugency, south of the natural region of Beauce.",
+          "width": 1216,
+          "height": 564,
+          "size": 1560304,
+          "timestamp": "2017-08-17T03:06:34Z",
+          "author": "Cassini family (18th century)",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Baon-Tanlay-Cruzy-Villon-Rugny-Gland-Tonnerre--cassini.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaon-Tanlay-Cruzy-Villon-Rugny-Gland-Tonnerre--cassini.png",
+          "title": "Baon-Tanlay-Cruzy-Villon-Rugny-Gland-Tonnerre--cassini.png",
+          "description": "Portion of Cassini map (18th cent.) showing an area of about 15 km North-South x 26 km East-West, on the east of Tonnerre in the present Yonne departement, east of Burgundy.\nThe Armançon river flows from the middle of the bottom side of the picture, to the upper left corner. Settlements along the river, going downstream: see description below.\n\nTonnerre is about half-way up near the left side of the picture.",
+          "width": 1220,
+          "height": 566,
+          "size": 2035911,
+          "timestamp": "2017-08-19T14:19:37Z",
+          "author": "Cassini family (18th century)",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "plateau du Mont Lozère",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Carte_Cassini_Millevache.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarte%20Cassini%20Millevache.png",
+          "title": "Carte Cassini Millevache.png",
+          "description": "Communes de Meymac, Saint-Merd-les-Oussines, Millevaches Chavanac Peyrol-sur-Vézère.",
+          "width": 4290,
+          "height": 3060,
+          "size": 6540321,
+          "timestamp": "2025-08-17T03:47:38Z",
+          "author": "<p>Carte établie sous la direction de César-François Cassini de Thury\nMiquel (17..-18..? ; cadet). Cartographe\nJean-Louis Dupain-Triel (1722-18..). Graveur\n</p>\nGobert-Denis Chambon, (17..-1781). Graveur en lettres",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Baon-Tanlay-Cruzy-Villon-Rugny-Gland-Tonnerre--cassini.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaon-Tanlay-Cruzy-Villon-Rugny-Gland-Tonnerre--cassini.png",
+          "title": "Baon-Tanlay-Cruzy-Villon-Rugny-Gland-Tonnerre--cassini.png",
+          "description": "Portion of Cassini map (18th cent.) showing an area of about 15 km North-South x 26 km East-West, on the east of Tonnerre in the present Yonne departement, east of Burgundy.\nThe Armançon river flows from the middle of the bottom side of the picture, to the upper left corner. Settlements along the river, going downstream: see description below.\n\nTonnerre is about half-way up near the left side of the picture.",
+          "width": 1220,
+          "height": 566,
+          "size": 2035911,
+          "timestamp": "2017-08-19T14:19:37Z",
+          "author": "Cassini family (18th century)",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

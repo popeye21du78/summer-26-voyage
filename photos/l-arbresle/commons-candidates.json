@@ -1,12 +1,13 @@
 {
   "slug": "l-arbresle",
   "nom": "l arbresle",
-  "fetchedAt": "2026-03-13T14:52:34.173Z",
+  "fetchedAt": "2026-03-16T14:27:46.550Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Cloches_de_l%27Arbresle.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACloches%20de%20l'Arbresle.jpg",
       "title": "Cloches de l'Arbresle.jpg",
+      "description": "Les 2 cloches de l'église de l'Arbresle RHÔNE(69)",
       "width": 4160,
       "height": 3120,
       "size": 2895428,
@@ -17,28 +18,16 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Arbr_1.JPG",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArbr%201.JPG",
-      "title": "Arbr 1.JPG",
-      "width": 2272,
-      "height": 1704,
-      "size": 903560,
-      "timestamp": "2011-01-23T08:17:27Z",
-      "author": "Julien Bertrand",
-      "license": "Public domain",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Arbr_2.JPG",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArbr%202.JPG",
-      "title": "Arbr 2.JPG",
-      "width": 2272,
-      "height": 1704,
-      "size": 777541,
-      "timestamp": "2011-01-23T08:20:40Z",
-      "author": "Julien Bertrand",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/L%27Arbresle_-_mairie_-_bo%C3%AEte_%C3%A0_livres.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AL'Arbresle%20-%20mairie%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
+      "title": "L'Arbresle - mairie - boîte à livres.jpg",
+      "description": "Boîte à livres à L'Arbresle",
+      "width": 1154,
+      "height": 2500,
+      "size": 646486,
+      "timestamp": "2025-02-19T16:04:08Z",
+      "author": "Brunoco",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 5
     }
@@ -46,7 +35,50 @@
   "lieux": [
     {
       "label": "Église Saint-Jean-Baptiste de L'Arbresle",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Fleurieux-sur-l%27Arbresle_-_Place_Benoit_Dubost.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFleurieux-sur-l'Arbresle%20-%20Place%20Benoit%20Dubost.jpg",
+          "title": "Fleurieux-sur-l'Arbresle - Place Benoit Dubost.jpg",
+          "description": "Place Benoit Dubost, avec l'église Saint-Barthélémy de Fleurieux-sur-l'Arbresle (Rhône, France).",
+          "width": 4608,
+          "height": 3456,
+          "size": 4191971,
+          "timestamp": "2017-11-16T18:45:55Z",
+          "author": "Sebleouf",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Fleurieux-sur-l%27Arbresle_-_Portail_%C3%A9glise_Saint-Barth%C3%A9l%C3%A9my.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFleurieux-sur-l'Arbresle%20-%20Portail%20%C3%A9glise%20Saint-Barth%C3%A9l%C3%A9my.jpg",
+          "title": "Fleurieux-sur-l'Arbresle - Portail église Saint-Barthélémy.jpg",
+          "description": "Portail de l'église Saint-Barthélémy de Fleurieux-sur-l'Arbresle (Rhône, France).",
+          "width": 3456,
+          "height": 4608,
+          "size": 3497529,
+          "timestamp": "2017-11-16T18:46:02Z",
+          "author": "Sebleouf",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Fleurieux-sur-l%27Arbresle_-_%C3%89glise_Saint-Barth%C3%A9l%C3%A9my.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFleurieux-sur-l'Arbresle%20-%20%C3%89glise%20Saint-Barth%C3%A9l%C3%A9my.jpg",
+          "title": "Fleurieux-sur-l'Arbresle - Église Saint-Barthélémy.jpg",
+          "description": "Église Saint-Barthélémy de Fleurieux-sur-l'Arbresle (Rhône, France).",
+          "width": 3456,
+          "height": 4608,
+          "size": 3321061,
+          "timestamp": "2017-11-16T18:46:03Z",
+          "author": "Sebleouf",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Château de Sarrasin",
@@ -54,7 +86,36 @@
     },
     {
       "label": "Place Sapéon",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Cloches_de_l%27Arbresle.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACloches%20de%20l'Arbresle.jpg",
+          "title": "Cloches de l'Arbresle.jpg",
+          "description": "Les 2 cloches de l'église de l'Arbresle RHÔNE(69)",
+          "width": 4160,
+          "height": 3120,
+          "size": 2895428,
+          "timestamp": "2022-07-19T17:29:30Z",
+          "author": "Cloches du rhone",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/L%27Arbresle_-_mairie_-_bo%C3%AEte_%C3%A0_livres.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AL'Arbresle%20-%20mairie%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
+          "title": "L'Arbresle - mairie - boîte à livres.jpg",
+          "description": "Boîte à livres à L'Arbresle",
+          "width": 1154,
+          "height": 2500,
+          "size": 646486,
+          "timestamp": "2025-02-19T16:04:08Z",
+          "author": "Brunoco",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Pont sur la Brévenne",

@@ -1,56 +1,131 @@
 {
   "slug": "neuville-sur-ain",
   "nom": "Neuville-sur-Ain",
-  "fetchedAt": "2026-03-13T16:34:09.690Z",
+  "fetchedAt": "2026-03-17T21:46:28.209Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Cimeti%C3%A8re_Pont_Ain_1.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACimeti%C3%A8re%20Pont%20Ain%201.jpg",
-      "title": "Cimetière Pont Ain 1.jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 3832841,
-      "timestamp": "2020-08-07T23:38:07Z",
-      "author": "Chabe01",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Neuville-sur-Ain_-_Place_Joseph_Rynois_-_bo%C3%AEte_%C3%A0_livres.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANeuville-sur-Ain%20-%20Place%20Joseph%20Rynois%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
+      "title": "Neuville-sur-Ain - Place Joseph Rynois - boîte à livres.jpg",
+      "description": "Boîte à livres à Neuville-sur-Ain",
+      "width": 1875,
+      "height": 2500,
+      "size": 643191,
+      "timestamp": "2025-10-11T16:38:27Z",
+      "author": "Fred",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 6
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Carr%C3%A9_Pr%C3%AAtres_Cimeti%C3%A8re_Pont_Ain_2.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarr%C3%A9%20Pr%C3%AAtres%20Cimeti%C3%A8re%20Pont%20Ain%202.jpg",
-      "title": "Carré Prêtres Cimetière Pont Ain 2.jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 4583407,
-      "timestamp": "2020-08-07T23:43:23Z",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Ch%C3%A2teau_Tour_Neuville_Ain_1.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20Tour%20Neuville%20Ain%201.jpg",
+      "title": "Château Tour Neuville Ain 1.jpg",
+      "description": "Château de la Tour de Neuville-sur-Ain.",
+      "width": 5184,
+      "height": 3456,
+      "size": 10125875,
+      "timestamp": "2017-08-09T20:51:47Z",
       "author": "Chabe01",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 8
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Carr%C3%A9_Pr%C3%AAtres_Cimeti%C3%A8re_Pont_Ain_3.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarr%C3%A9%20Pr%C3%AAtres%20Cimeti%C3%A8re%20Pont%20Ain%203.jpg",
-      "title": "Carré Prêtres Cimetière Pont Ain 3.jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 6233109,
-      "timestamp": "2020-08-07T23:43:23Z",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Ch%C3%A2teau_Tour_Neuville_Ain_2.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20Tour%20Neuville%20Ain%202.jpg",
+      "title": "Château Tour Neuville Ain 2.jpg",
+      "description": "Château de la Tour de Neuville-sur-Ain.",
+      "width": 5184,
+      "height": 3456,
+      "size": 11954755,
+      "timestamp": "2017-08-09T20:51:51Z",
       "author": "Chabe01",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 8
     }
   ],
   "lieux": [
     {
       "label": "Église Saint-Maurice",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/%C3%89glise_St_Martin_Neuville_Ain_4.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20St%20Martin%20Neuville%20Ain%204.jpg",
+          "title": "Église St Martin Neuville Ain 4.jpg",
+          "description": "Église Saint-Martin de Neuville-sur-Ain.",
+          "width": 5184,
+          "height": 3456,
+          "size": 7262821,
+          "timestamp": "2017-08-09T20:55:58Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/%C3%89glise_St_Martin_Neuville_Ain_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20St%20Martin%20Neuville%20Ain%202.jpg",
+          "title": "Église St Martin Neuville Ain 2.jpg",
+          "description": "Église Saint-Martin de Neuville-sur-Ain.",
+          "width": 3456,
+          "height": 5184,
+          "size": 5763243,
+          "timestamp": "2017-08-09T20:55:55Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/%C3%89glise_St_Martin_Neuville_Ain_5.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20St%20Martin%20Neuville%20Ain%205.jpg",
+          "title": "Église St Martin Neuville Ain 5.jpg",
+          "description": "Église Saint-Martin de Neuville-sur-Ain.",
+          "width": 3456,
+          "height": 5184,
+          "size": 5184450,
+          "timestamp": "2017-08-09T20:56:01Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Pont de Neuville-sur-Ain",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Panneau_Entr%C3%A9e_Neuville_Ain_Route_Pont_Ain_-_Neuville-sur-Ain_%28FR01%29_-_2018-10-30_-_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanneau%20Entr%C3%A9e%20Neuville%20Ain%20Route%20Pont%20Ain%20-%20Neuville-sur-Ain%20(FR01)%20-%202018-10-30%20-%201.jpg",
+          "title": "Panneau Entrée Neuville Ain Route Pont Ain - Neuville-sur-Ain (FR01) - 2018-10-30 - 1.jpg",
+          "description": "Panneau d'entrée dans Neuville-sur-Ain, route de Pont-d'Ain, Neuville-sur-Ain.",
+          "width": 2976,
+          "height": 1350,
+          "size": 2277970,
+          "timestamp": "2022-12-03T13:57:28Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Carte_postale_ancienne_du_pont_de_Neuville-sur-Ain.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarte%20postale%20ancienne%20du%20pont%20de%20Neuville-sur-Ain.jpg",
+          "title": "Carte postale ancienne du pont de Neuville-sur-Ain.jpg",
+          "description": "Carte postale ancienne du pont de-Neuville-sur-Ain.",
+          "width": 915,
+          "height": 582,
+          "size": 79190,
+          "timestamp": "2013-11-30T20:08:29Z",
+          "author": "Inconnu<br>L.Ferrand (éditeur à Bourg-en-Bresse).",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 3
+        }
+      ]
     },
     {
       "label": "Moulin de la Révole",
@@ -58,7 +133,50 @@
     },
     {
       "label": "Place de la Mairie",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Ch%C3%A2teau_Chevigney_Neuville_Dames_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20Chevigney%20Neuville%20Dames%201.jpg",
+          "title": "Château Chevigney Neuville Dames 1.jpg",
+          "description": "Château de Chevigney sur la place du Chapitre de Neuville-les-Dames.",
+          "width": 5184,
+          "height": 3456,
+          "size": 6694559,
+          "timestamp": "2016-12-24T00:36:49Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Ch%C3%A2teau_Chevigney_Neuville_Dames_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20Chevigney%20Neuville%20Dames%202.jpg",
+          "title": "Château Chevigney Neuville Dames 2.jpg",
+          "description": "Château de Chevigney sur la place du Chapitre de Neuville-les-Dames.",
+          "width": 5184,
+          "height": 3456,
+          "size": 6606915,
+          "timestamp": "2016-12-24T00:36:49Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Ch%C3%A2teau_Chevigney_Neuville_Dames_4.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20Chevigney%20Neuville%20Dames%204.jpg",
+          "title": "Château Chevigney Neuville Dames 4.jpg",
+          "description": "Château de Chevigney sur la place du Chapitre de Neuville-les-Dames.",
+          "width": 5184,
+          "height": 3456,
+          "size": 6325606,
+          "timestamp": "2016-12-24T00:36:52Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        }
+      ]
     }
   ]
 }

@@ -1,12 +1,13 @@
 {
   "slug": "moustiers-sainte-marie",
   "nom": "Moustiers-Sainte-Marie",
-  "fetchedAt": "2026-03-13T16:28:37.604Z",
+  "fetchedAt": "2026-03-17T21:32:10.284Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Houses_between_rocks_and_cascades_in_Moustiers-Sainte-Marie%2C_France_%2851694941921%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHouses%20between%20rocks%20and%20cascades%20in%20Moustiers-Sainte-Marie%2C%20France%20(51694941921).jpg",
       "title": "Houses between rocks and cascades in Moustiers-Sainte-Marie, France (51694941921).jpg",
+      "description": "France",
       "width": 6073,
       "height": 4049,
       "size": 22390645,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Aper%C3%A7u_de_Moustiers-Sainte-Marie%2C_Alpes-de-Haute-Provence%2C_France_-_panoramio.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAper%C3%A7u%20de%20Moustiers-Sainte-Marie%2C%20Alpes-de-Haute-Provence%2C%20France%20-%20panoramio.jpg",
       "title": "Aperçu de Moustiers-Sainte-Marie, Alpes-de-Haute-Provence, France - panoramio.jpg",
+      "description": "Aperçu de Moustiers-Sainte-Marie, Alpes-de-Haute-Provence, France",
       "width": 3024,
       "height": 1998,
       "size": 1034480,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Moustiers-Saint-Marie_-_panoramio.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMoustiers-Saint-Marie%20-%20panoramio.jpg",
       "title": "Moustiers-Saint-Marie - panoramio.jpg",
+      "description": "Moustiers-Saint-Marie",
       "width": 3872,
       "height": 2592,
       "size": 2954715,
@@ -48,53 +51,142 @@
       "label": "Chapelle Notre-Dame de Beauvoir",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Chapelle_Notre-Dame_de_Beauvoir_%28DSC03211%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20Notre-Dame%20de%20Beauvoir%20(DSC03211).jpg",
-          "title": "Chapelle Notre-Dame de Beauvoir (DSC03211).jpg",
-          "width": 5983,
-          "height": 3968,
-          "size": 16408350,
-          "timestamp": "2025-09-17T13:58:44Z",
-          "author": "Polibil",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Moustiers6.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMoustiers6.jpg",
+          "title": "Moustiers6.jpg",
+          "description": "Vue de Moustiers-Sainte-Marie et de la chapelle Notre-Dame de Beauvoir",
+          "width": 2100,
+          "height": 1400,
+          "size": 945074,
+          "timestamp": "2024-04-29T23:42:14Z",
+          "author": "O.Taris",
           "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Moustiers7.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMoustiers7.jpg",
+          "title": "Moustiers7.jpg",
+          "description": "Vue de Moustiers-Sainte-Marie et de la chapelle Notre-Dame de Beauvoir",
+          "width": 1500,
+          "height": 1000,
+          "size": 339438,
+          "timestamp": "2026-01-26T21:20:07Z",
+          "author": "O.Taris",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Moustiers5.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMoustiers5.jpg",
+          "title": "Moustiers5.jpg",
+          "description": "Vue de Moustiers-Sainte-Marie et de la chapelle Notre-Dame de Beauvoir",
+          "width": 1200,
+          "height": 800,
+          "size": 394621,
+          "timestamp": "2018-11-06T21:03:33Z",
+          "author": "O.Taris",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        }
+      ]
+    },
+    {
+      "label": "Cascade du Riou",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Houses_between_rocks_and_cascades_in_Moustiers-Sainte-Marie%2C_France_%2851694941921%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHouses%20between%20rocks%20and%20cascades%20in%20Moustiers-Sainte-Marie%2C%20France%20(51694941921).jpg",
+          "title": "Houses between rocks and cascades in Moustiers-Sainte-Marie, France (51694941921).jpg",
+          "description": "France",
+          "width": 6073,
+          "height": 4049,
+          "size": 22390645,
+          "timestamp": "2021-11-23T21:53:13Z",
+          "author": "dronepicr",
+          "license": "CC BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Chapelle_Notre-Dame_de_Beauvoir_%28DSC03284%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20Notre-Dame%20de%20Beauvoir%20(DSC03284).jpg",
-          "title": "Chapelle Notre-Dame de Beauvoir (DSC03284).jpg",
-          "width": 6020,
-          "height": 4024,
-          "size": 32025495,
-          "timestamp": "2025-09-17T13:59:29Z",
-          "author": "Polibil",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Moustiers_%28France_through_my_eyes%29_%2830358156461%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMoustiers%20(France%20through%20my%20eyes)%20(30358156461).jpg",
+          "title": "Moustiers (France through my eyes) (30358156461).jpg",
+          "description": "The day was stormy as we drove from Provence to Nice via the mountainous Alpes-de-Haute-Provence, but it was still stunning - definitely on my \"hope to return here someday\" list. The town of Moustiers-Sainte-Marie is nestled against the cliffs, complete with cascading stream and waterfall splitting the town. The sun nicely cooperated by poking its head out briefly so I could grab this shot.\n\nIf you look closely, there is a yellow star hanging between the cliffs. It was hung in the 10th century, ",
+          "width": 2048,
+          "height": 1360,
+          "size": 2696778,
+          "timestamp": "2018-11-21T18:01:26Z",
+          "author": "Sheila Sund",
+          "license": "CC BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 6
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Aper%C3%A7u_de_Moustiers-Sainte-Marie%2C_Alpes-de-Haute-Provence%2C_France_-_panoramio.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAper%C3%A7u%20de%20Moustiers-Sainte-Marie%2C%20Alpes-de-Haute-Provence%2C%20France%20-%20panoramio.jpg",
-          "title": "Aperçu de Moustiers-Sainte-Marie, Alpes-de-Haute-Provence, France - panoramio.jpg",
-          "width": 3024,
-          "height": 1998,
-          "size": 1034480,
-          "timestamp": "2016-11-01T09:13:26Z",
-          "author": "Jfdo",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Cascade_in_Moustiers-Sainte-Marie%2C_Provence%2C_France_%2851695621474%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACascade%20in%20Moustiers-Sainte-Marie%2C%20Provence%2C%20France%20(51695621474).jpg",
+          "title": "Cascade in Moustiers-Sainte-Marie, Provence, France (51695621474).jpg",
+          "description": "France",
+          "width": 3851,
+          "height": 5776,
+          "size": 15900276,
+          "timestamp": "2021-11-23T21:53:06Z",
+          "author": "dronepicr",
+          "license": "CC BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
         }
       ]
     },
     {
-      "label": "Cascade du Riou",
-      "photos": []
-    },
-    {
       "label": "Place de l’Église",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/%C3%89glise_Notre-Dame-de-l%27Assomption_de_Moustiers-Sainte-Marie_4.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Notre-Dame-de-l'Assomption%20de%20Moustiers-Sainte-Marie%204.jpg",
+          "title": "Église Notre-Dame-de-l'Assomption de Moustiers-Sainte-Marie 4.jpg",
+          "description": "view of Moustiers-Sainte-Marie",
+          "width": 4272,
+          "height": 2848,
+          "size": 2941255,
+          "timestamp": "2020-10-27T20:43:57Z",
+          "author": "Mich-nguyen",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/%C3%89glise_Notre-Dame-de-l%27Assomption_de_Moustiers-Sainte-Marie_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Notre-Dame-de-l'Assomption%20de%20Moustiers-Sainte-Marie%202.jpg",
+          "title": "Église Notre-Dame-de-l'Assomption de Moustiers-Sainte-Marie 2.jpg",
+          "description": "Church Notre-Dame-de-l'Assomption, Moustiers-Sainte-Marie",
+          "width": 4272,
+          "height": 2848,
+          "size": 5034986,
+          "timestamp": "2020-10-27T20:43:48Z",
+          "author": "Mich-nguyen",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/%C3%89glise_Notre-Dame-de-l%27Assomption_de_Moustiers-Sainte-Marie_3.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Notre-Dame-de-l'Assomption%20de%20Moustiers-Sainte-Marie%203.jpg",
+          "title": "Église Notre-Dame-de-l'Assomption de Moustiers-Sainte-Marie 3.jpg",
+          "description": "viex of Moustiers and its church",
+          "width": 4272,
+          "height": 2848,
+          "size": 3228977,
+          "timestamp": "2020-10-27T20:43:56Z",
+          "author": "Mich-nguyen",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Ateliers de faïence (Bondil, Soleil)",

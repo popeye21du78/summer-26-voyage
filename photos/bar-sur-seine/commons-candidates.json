@@ -1,12 +1,13 @@
 {
   "slug": "bar-sur-seine",
   "nom": "Bar-sur-Seine",
-  "fetchedAt": "2026-03-13T00:05:09.403Z",
+  "fetchedAt": "2026-03-15T19:14:38.827Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Bar-sur-Seine_-_Mairie_-_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABar-sur-Seine%20-%20Mairie%20-%201.jpg",
       "title": "Bar-sur-Seine - Mairie - 1.jpg",
+      "description": "The city hall in Bar-sur-Seine (Aube, Champagne-Ardenne, France).",
       "width": 3000,
       "height": 2250,
       "size": 1192297,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Bar-sur-Seine_-_Ancien_ch%C3%A2teau_des_comtes_de_Bar_-_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABar-sur-Seine%20-%20Ancien%20ch%C3%A2teau%20des%20comtes%20de%20Bar%20-%201.jpg",
       "title": "Bar-sur-Seine - Ancien château des comtes de Bar - 1.jpg",
+      "description": "The former castle of the counts of Bar-sur-Seine (Aube, Champagne-Ardenne, France).",
       "width": 3000,
       "height": 2250,
       "size": 1410367,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Bar-sur-Seine_-_vue_vers_le_centre_ville_depuis_le_pont.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABar-sur-Seine%20-%20vue%20vers%20le%20centre%20ville%20depuis%20le%20pont.jpg",
       "title": "Bar-sur-Seine - vue vers le centre ville depuis le pont.jpg",
+      "description": "Bar-sur-Seine - vue vers le centre ville depuis le pont",
       "width": 4032,
       "height": 3024,
       "size": 2366276,
@@ -48,43 +51,46 @@
       "label": "Église Saint-Étienne",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Bar-sur-Seine_%2810%29_%C3%89glise_Saint-%C3%89tienne_-_Int%C3%A9rieur_-_Tableau_-_01.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABar-sur-Seine%20(10)%20%C3%89glise%20Saint-%C3%89tienne%20-%20Int%C3%A9rieur%20-%20Tableau%20-%2001.jpg",
-          "title": "Bar-sur-Seine (10) Église Saint-Étienne - Intérieur - Tableau - 01.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Bar-sur-Seine_%2810%29_%C3%89glise_Saint-%C3%89tienne_-_Ext%C3%A9rieur_-_03.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABar-sur-Seine%20(10)%20%C3%89glise%20Saint-%C3%89tienne%20-%20Ext%C3%A9rieur%20-%2003.jpg",
+          "title": "Bar-sur-Seine (10) Église Saint-Étienne - Extérieur - 03.jpg",
+          "description": "Extérieur de l'église Saint-Étienne à Bar-sur-Seine (10).",
           "width": 2100,
           "height": 1400,
-          "size": 736467,
-          "timestamp": "2021-11-06T17:30:35Z",
+          "size": 1058824,
+          "timestamp": "2021-10-17T05:44:35Z",
           "author": "GO69",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Bar-sur-Seine_%2810%29_%C3%89glise_Saint-%C3%89tienne_-_Int%C3%A9rieur_-_Tableau_-_02.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABar-sur-Seine%20(10)%20%C3%89glise%20Saint-%C3%89tienne%20-%20Int%C3%A9rieur%20-%20Tableau%20-%2002.jpg",
-          "title": "Bar-sur-Seine (10) Église Saint-Étienne - Intérieur - Tableau - 02.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Bar-sur-Seine_%2810%29_%C3%89glise_Saint-%C3%89tienne_-_Ext%C3%A9rieur_-_05.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABar-sur-Seine%20(10)%20%C3%89glise%20Saint-%C3%89tienne%20-%20Ext%C3%A9rieur%20-%2005.jpg",
+          "title": "Bar-sur-Seine (10) Église Saint-Étienne - Extérieur - 05.jpg",
+          "description": "Extérieur de l'église Saint-Étienne à Bar-sur-Seine (10).",
           "width": 2100,
           "height": 1400,
-          "size": 699328,
-          "timestamp": "2021-11-06T17:30:36Z",
+          "size": 1295282,
+          "timestamp": "2021-10-17T05:44:38Z",
           "author": "GO69",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Bar-sur-Seine_%2810%29_%C3%89glise_Saint-%C3%89tienne_-_Int%C3%A9rieur_-_Tableau_-_06.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABar-sur-Seine%20(10)%20%C3%89glise%20Saint-%C3%89tienne%20-%20Int%C3%A9rieur%20-%20Tableau%20-%2006.jpg",
-          "title": "Bar-sur-Seine (10) Église Saint-Étienne - Intérieur - Tableau - 06.jpg",
-          "width": 2100,
-          "height": 1400,
-          "size": 819784,
-          "timestamp": "2021-11-06T17:30:38Z",
-          "author": "GO69",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/%C3%89glise_bar_sur_seine_07380.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20bar%20sur%20seine%2007380.jpg",
+          "title": "Église bar sur seine 07380.jpg",
+          "description": "dessin pour le livre de A F Arnaud.",
+          "width": 2676,
+          "height": 2076,
+          "size": 3463314,
+          "timestamp": "2016-09-28T19:06:32Z",
+          "author": "Anne François Arnaud",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 6
         }
       ]
     },
@@ -94,11 +100,69 @@
     },
     {
       "label": "Hôtel Renaissance (rue de la République)",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Bar-sur-Seine_-_Grande_rue_de_la_R%C3%A9sistance.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABar-sur-Seine%20-%20Grande%20rue%20de%20la%20R%C3%A9sistance.jpg",
+          "title": "Bar-sur-Seine - Grande rue de la Résistance.jpg",
+          "description": "Bar-sur-Seine - Grande rue de la Résistance",
+          "width": 4032,
+          "height": 3024,
+          "size": 3308287,
+          "timestamp": "2023-04-07T10:20:55Z",
+          "author": "AirScott",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Maison_%C3%A0_pans_de_bois_Bar-sur-Seine_03.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison%20%C3%A0%20pans%20de%20bois%20Bar-sur-Seine%2003.JPG",
+          "title": "Maison à pans de bois Bar-sur-Seine 03.JPG",
+          "description": "Maison à pans de bois, Rue de République, 10110 Bar-sur-Seine",
+          "width": 3648,
+          "height": 2736,
+          "size": 2138995,
+          "timestamp": "2014-01-19T16:09:45Z",
+          "author": "Philippesalv",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Maison_%C3%A0_pans_de_bois_Bar-sur-Seine_02.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison%20%C3%A0%20pans%20de%20bois%20Bar-sur-Seine%2002.JPG",
+          "title": "Maison à pans de bois Bar-sur-Seine 02.JPG",
+          "description": "Maison à pans de bois, Rue de République, 10110 Bar-sur-Seine",
+          "width": 2736,
+          "height": 3648,
+          "size": 2161247,
+          "timestamp": "2013-12-22T18:27:19Z",
+          "author": "Philippesalv",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     },
     {
       "label": "Promenade du Mail",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Bar-sur-Seine_St_Etienne_15_07_2011_Vitraux_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABar-sur-Seine%20St%20Etienne%2015%2007%202011%20Vitraux%2002.jpg",
+          "title": "Bar-sur-Seine St Etienne 15 07 2011 Vitraux 02.jpg",
+          "description": "La promenade du boeuf gras, vitrail de l'église Saint-Étienne de Bar-sur-Seine ( dans la chapelle Sainte Marguerite ), premier quart du XVIème siècle.",
+          "width": 1540,
+          "height": 1300,
+          "size": 1553064,
+          "timestamp": "2015-10-28T08:53:54Z",
+          "author": "Vassil",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     }
   ]
 }

@@ -1,12 +1,41 @@
 {
   "slug": "saint-aignan-sur-cher",
   "nom": "Saint-Aignan-sur-Cher",
-  "fetchedAt": "2026-03-14T11:55:12.554Z",
+  "fetchedAt": "2026-03-18T17:55:51.372Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Saint_Anianus_collegiate_church_of_Saint-Aignan_02.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint%20Anianus%20collegiate%20church%20of%20Saint-Aignan%2002.jpg",
+      "title": "Saint Anianus collegiate church of Saint-Aignan 02.jpg",
+      "description": "View of the Saint Anianus collegiate church of Saint-Aignan from Rue du Four, Loir-et-Cher, France\n\n\n\n\n\n \nThis building is classé au titre des monuments historiques de la France. It is indexed in the base Mérimée, a database of architectural heritage maintained by the French Ministry of Culture, under the reference PA00098564 .\n\nbrezhoneg ∙ català ∙ Deutsch ∙ English ∙ español ∙ Esperanto ∙ euskara ∙ français ∙ italiano ∙ magyar ∙ Nederlands ∙ português do Brasil ∙ português ∙ română ∙ sicilianu",
+      "width": 1775,
+      "height": 3000,
+      "size": 3937911,
+      "timestamp": "2018-08-20T17:55:21Z",
+      "author": "Krzysztof Golik",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Saint_Anianus_collegiate_church_of_Saint-Aignan_03.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint%20Anianus%20collegiate%20church%20of%20Saint-Aignan%2003.jpg",
+      "title": "Saint Anianus collegiate church of Saint-Aignan 03.jpg",
+      "description": "View of the Saint Anianus collegiate church of Saint-Aignan from Rue du Four, Loir-et-Cher, France\n\n\n\n\n\n \nThis building is classé au titre des monuments historiques de la France. It is indexed in the base Mérimée, a database of architectural heritage maintained by the French Ministry of Culture, under the reference PA00098564 .\n\nbrezhoneg ∙ català ∙ Deutsch ∙ English ∙ español ∙ Esperanto ∙ euskara ∙ français ∙ italiano ∙ magyar ∙ Nederlands ∙ português do Brasil ∙ português ∙ română ∙ sicilianu",
+      "width": 2065,
+      "height": 3400,
+      "size": 4841619,
+      "timestamp": "2018-08-20T17:55:21Z",
+      "author": "Krzysztof Golik",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Rue_Constant_Ragot_in_Saint-Aignan_02.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARue%20Constant%20Ragot%20in%20Saint-Aignan%2002.jpg",
       "title": "Rue Constant Ragot in Saint-Aignan 02.jpg",
+      "description": "Rue Constant Ragot in Saint-Aignan, Loir-et-Cher, France",
       "width": 4084,
       "height": 2723,
       "size": 8262230,
@@ -15,32 +44,6 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 6
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Saint_Anianus_collegiate_church_of_Saint-Aignan_02.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint%20Anianus%20collegiate%20church%20of%20Saint-Aignan%2002.jpg",
-      "title": "Saint Anianus collegiate church of Saint-Aignan 02.jpg",
-      "width": 1775,
-      "height": 3000,
-      "size": 3937911,
-      "timestamp": "2018-08-20T17:55:21Z",
-      "author": "Krzysztof Golik",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Saint_Anianus_collegiate_church_of_Saint-Aignan_03.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint%20Anianus%20collegiate%20church%20of%20Saint-Aignan%2003.jpg",
-      "title": "Saint Anianus collegiate church of Saint-Aignan 03.jpg",
-      "width": 2065,
-      "height": 3400,
-      "size": 4841619,
-      "timestamp": "2018-08-20T17:55:21Z",
-      "author": "Krzysztof Golik",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
     }
   ],
   "lieux": [
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Saint-Aignan-sur-Cher_%28Loir-et-Cher%29_-_50082551787.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Aignan-sur-Cher%20(Loir-et-Cher)%20-%2050082551787.jpg",
           "title": "Saint-Aignan-sur-Cher (Loir-et-Cher) - 50082551787.jpg",
+          "description": "Saint-Aignan-sur-Cher (Loir-et-Cher)\nLe château Renaissance.\n\nLe château actuel fut reconstruit au XVIe siècle par le duc de Beauvilliers, comte de Saint-Aignan.",
           "width": 4928,
           "height": 3264,
           "size": 9863418,
@@ -58,12 +62,13 @@
           "author": "Daniel Jolivet",
           "license": "CC BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Pont_routier_sur_le_Cher_Saint-Aignan.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20routier%20sur%20le%20Cher%20Saint-Aignan.jpg",
           "title": "Pont routier sur le Cher Saint-Aignan.jpg",
+          "description": "Pont routier sur le Cher Saint-Aignan De gauche à droite : la collégiale Saint Aignan, édifiée entre le XIème et le XIIème, le château avec son donjon (la tour dite Agar, à droite) du Xe siècle, le bâtiment principal étant du XVIe siècle, le pont routier sur le Cher.",
           "width": 5321,
           "height": 3283,
           "size": 8521058,
@@ -71,12 +76,13 @@
           "author": "Daniel Jolivet",
           "license": "CC BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Ch%C3%A9mery_%28Loir-et-Cher%29_%2820873536119%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A9mery%20(Loir-et-Cher)%20(20873536119).jpg",
           "title": "Chémery (Loir-et-Cher) (20873536119).jpg",
+          "description": "Chémery (Loir-et-Cher)\nLe château.\nLe château est entouré de douves sur trois côtés. \nLe pont-levis aboutit à une porte fortifiée avec une tourelle du XVe.\nDans la cour se trouvent les restes des constructions du 13e siècle.\nL'accès au premier étage se fait par un escalier contenu dans une tour.\nA la droite de l'entrée, se trouvent les constructions plus importantes du 15e siècle, avec remaniements au 16e siècle.  \n\nLa destruction des archives à la révolution fait que l'on connait mal l'histoire",
           "width": 4928,
           "height": 3264,
           "size": 8308144,
@@ -84,7 +90,7 @@
           "author": "Daniel Jolivet",
           "license": "CC BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         }
       ]
     },
@@ -95,6 +101,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Pont_routier_sur_le_Cher_Saint-Aignan.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20routier%20sur%20le%20Cher%20Saint-Aignan.jpg",
           "title": "Pont routier sur le Cher Saint-Aignan.jpg",
+          "description": "Pont routier sur le Cher Saint-Aignan De gauche à droite : la collégiale Saint Aignan, édifiée entre le XIème et le XIIème, le château avec son donjon (la tour dite Agar, à droite) du Xe siècle, le bâtiment principal étant du XVIe siècle, le pont routier sur le Cher.",
           "width": 5321,
           "height": 3283,
           "size": 8521058,
@@ -102,12 +109,27 @@
           "author": "Daniel Jolivet",
           "license": "CC BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Saint-Aignan-sur-Cher_%28Loir-et-Cher%29_-_50081650653.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Aignan-sur-Cher%20(Loir-et-Cher)%20-%2050081650653.jpg",
+          "title": "Saint-Aignan-sur-Cher (Loir-et-Cher) - 50081650653.jpg",
+          "description": "Saint-Aignan-sur-Cher (Loir-et-Cher)\nCollégiale Saint-Aignan et le château.\nLa collégiale Saint Aignan, édifiée entre le XIème et le XIIème, est en pur style roman.\nL'abside, le sanctuaire et le transept surmonté de son clocher central datent du XIe siècle.\nLa nef atteignant une hauteur de 16,4 mètres est supportée par 8 colonnes à chapiteaux.\nVendue aux enchères à la Révolution, la collégiale est rendue au culte en 1800.  En 1870, un beffroi fut construit afin d’abriter les cloches. \nDe l'ancie",
+          "width": 7409,
+          "height": 3152,
+          "size": 12405913,
+          "timestamp": "2020-08-27T19:18:21Z",
+          "author": "Daniel Jolivet",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Saint-Aignan-sur-Cher_%28Loir-et-Cher%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Aignan-sur-Cher%20(Loir-et-Cher).jpg",
           "title": "Saint-Aignan-sur-Cher (Loir-et-Cher).jpg",
+          "description": "L'église Collégiale, dédiée à Saint Aignan, a été construite à partir du XIème siècle, l'abside, le transept et les clochers sont de cette époque. La nef est du XIIème et certains éléments dont la Chapelle Notre Dame des Miracles sont du XVème siècle. Des Fresques Murales intéressantes se trouvent dans la crypte.\n\nCollegiate Church, dedicated to Saint Aignan, was built from the eleventh century, the apse, the transept and towers are then.The nave is the twelfth and some elements of which the Cha",
           "width": 3648,
           "height": 2736,
           "size": 2958933,
@@ -121,7 +143,50 @@
     },
     {
       "label": "Quartier du Château et maisons troglodytes",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Saint-Aignan-sur-Cher_%28Loir-et-Cher%29_-_50082551787.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Aignan-sur-Cher%20(Loir-et-Cher)%20-%2050082551787.jpg",
+          "title": "Saint-Aignan-sur-Cher (Loir-et-Cher) - 50082551787.jpg",
+          "description": "Saint-Aignan-sur-Cher (Loir-et-Cher)\nLe château Renaissance.\n\nLe château actuel fut reconstruit au XVIe siècle par le duc de Beauvilliers, comte de Saint-Aignan.",
+          "width": 4928,
+          "height": 3264,
+          "size": 9863418,
+          "timestamp": "2020-08-27T19:18:21Z",
+          "author": "Daniel Jolivet",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Pont_routier_sur_le_Cher_Saint-Aignan.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20routier%20sur%20le%20Cher%20Saint-Aignan.jpg",
+          "title": "Pont routier sur le Cher Saint-Aignan.jpg",
+          "description": "Pont routier sur le Cher Saint-Aignan De gauche à droite : la collégiale Saint Aignan, édifiée entre le XIème et le XIIème, le château avec son donjon (la tour dite Agar, à droite) du Xe siècle, le bâtiment principal étant du XVIe siècle, le pont routier sur le Cher.",
+          "width": 5321,
+          "height": 3283,
+          "size": 8521058,
+          "timestamp": "2021-05-15T13:29:13Z",
+          "author": "Daniel Jolivet",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Ch%C3%A9mery_%28Loir-et-Cher%29_%2820873536119%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A9mery%20(Loir-et-Cher)%20(20873536119).jpg",
+          "title": "Chémery (Loir-et-Cher) (20873536119).jpg",
+          "description": "Chémery (Loir-et-Cher)\nLe château.\nLe château est entouré de douves sur trois côtés. \nLe pont-levis aboutit à une porte fortifiée avec une tourelle du XVe.\nDans la cour se trouvent les restes des constructions du 13e siècle.\nL'accès au premier étage se fait par un escalier contenu dans une tour.\nA la droite de l'entrée, se trouvent les constructions plus importantes du 15e siècle, avec remaniements au 16e siècle.  \n\nLa destruction des archives à la révolution fait que l'on connait mal l'histoire",
+          "width": 4928,
+          "height": 3264,
+          "size": 8308144,
+          "timestamp": "2017-11-17T15:41:46Z",
+          "author": "Daniel Jolivet",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        }
+      ]
     },
     {
       "label": "Square Anne de Bretagne",

@@ -1,12 +1,27 @@
 {
   "slug": "belley",
   "nom": "Belley",
-  "fetchedAt": "2026-03-13T00:15:58.567Z",
+  "fetchedAt": "2026-03-15T19:38:16.394Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Le_Caf%C3%A9_Neuf_%28Belley%29%2C_hamburger%2C_salade_et_frites%2C_vue_de_haut.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Caf%C3%A9%20Neuf%20(Belley)%2C%20hamburger%2C%20salade%20et%20frites%2C%20vue%20de%20haut.jpg",
+      "title": "Le Café Neuf (Belley), hamburger, salade et frites, vue de haut.jpg",
+      "description": "Le Café Neuf (Belley), hamburger, salade et frites, vue de haut.",
+      "width": 3984,
+      "height": 2192,
+      "size": 7001469,
+      "timestamp": "2019-11-18T22:00:38Z",
+      "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q42790984\" class=\"extiw\" title=\"d:Q42790984\"><span title=\"French computing engineer\">Benoît Prieur</span></a></bdi>",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Fontaine_Place_Terreaux_-_Belley_%28FR01%29_-_2022-06-12_-_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFontaine%20Place%20Terreaux%20-%20Belley%20(FR01)%20-%202022-06-12%20-%201.jpg",
       "title": "Fontaine Place Terreaux - Belley (FR01) - 2022-06-12 - 1.jpg",
+      "description": "Fontaine de la place des Terreaux, Belley.",
       "width": 4032,
       "height": 3024,
       "size": 5367093,
@@ -20,23 +35,11 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Fontaine_Place_Terreaux_-_Belley_%28FR01%29_-_2022-06-12_-_2.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFontaine%20Place%20Terreaux%20-%20Belley%20(FR01)%20-%202022-06-12%20-%202.jpg",
       "title": "Fontaine Place Terreaux - Belley (FR01) - 2022-06-12 - 2.jpg",
+      "description": "Fontaine de la place des Terreaux, Belley.",
       "width": 4032,
       "height": 3024,
       "size": 2827870,
       "timestamp": "2022-06-13T15:50:27Z",
-      "author": "Chabe01",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Salle_F%C3%AAtes_-_Belley_%28FR01%29_-_2022-06-12_-_2.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASalle%20F%C3%AAtes%20-%20Belley%20(FR01)%20-%202022-06-12%20-%202.jpg",
-      "title": "Salle Fêtes - Belley (FR01) - 2022-06-12 - 2.jpg",
-      "width": 5966,
-      "height": 4064,
-      "size": 21294255,
-      "timestamp": "2022-06-13T15:56:39Z",
       "author": "Chabe01",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Cath%C3%A9drale_Saint_Jean_-_Belley_%28FR01%29_-_2022-06-12_-_9.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale%20Saint%20Jean%20-%20Belley%20(FR01)%20-%202022-06-12%20-%209.jpg",
           "title": "Cathédrale Saint Jean - Belley (FR01) - 2022-06-12 - 9.jpg",
+          "description": "Cathédrale Saint-Jean de Belley.",
           "width": 4032,
           "height": 3024,
           "size": 4206989,
@@ -64,6 +68,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Cath%C3%A9drale_Saint_Jean_-_Belley_%28FR01%29_-_2022-06-12_-_10.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale%20Saint%20Jean%20-%20Belley%20(FR01)%20-%202022-06-12%20-%2010.jpg",
           "title": "Cathédrale Saint Jean - Belley (FR01) - 2022-06-12 - 10.jpg",
+          "description": "Cathédrale Saint-Jean de Belley.",
           "width": 4032,
           "height": 3024,
           "size": 3860064,
@@ -74,15 +79,16 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/La_cath%C3%A9drale_de_Belley_en_travaux_en_septembre_2019%2C_photographi%C3%A9e_depuis_la_cour_du_palais_%C3%A9piscopal_%28%C3%A0_gauche%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20cath%C3%A9drale%20de%20Belley%20en%20travaux%20en%20septembre%202019%2C%20photographi%C3%A9e%20depuis%20la%20cour%20du%20palais%20%C3%A9piscopal%20(%C3%A0%20gauche).jpg",
-          "title": "La cathédrale de Belley en travaux en septembre 2019, photographiée depuis la cour du palais épiscopal (à gauche).jpg",
-          "width": 4032,
-          "height": 3024,
-          "size": 6581773,
-          "timestamp": "2019-09-15T13:04:05Z",
-          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q42790984\" class=\"extiw\" title=\"d:Q42790984\"><span title=\"French computing engineer\">Benoît Prieur</span></a></bdi>",
-          "license": "CC0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/20170304_Belley_grandes_orgues.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20170304%20Belley%20grandes%20orgues.jpg",
+          "title": "20170304 Belley grandes orgues.jpg",
+          "description": "Pipe organ of city of Belley cathedral, in Ain, France.",
+          "width": 1200,
+          "height": 800,
+          "size": 633144,
+          "timestamp": "2017-03-11T12:09:26Z",
+          "author": "Pierre Tribhou",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
         }
@@ -95,6 +101,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Palais_%C3%89piscopal_-_Belley_%28FR01%29_-_2022-06-12_-_1.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APalais%20%C3%89piscopal%20-%20Belley%20(FR01)%20-%202022-06-12%20-%201.jpg",
           "title": "Palais Épiscopal - Belley (FR01) - 2022-06-12 - 1.jpg",
+          "description": "Palais épiscopal de Belley.",
           "width": 4032,
           "height": 3024,
           "size": 4872747,
@@ -108,6 +115,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Palais_%C3%89piscopal_-_Belley_%28FR01%29_-_2022-06-12_-_2.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APalais%20%C3%89piscopal%20-%20Belley%20(FR01)%20-%202022-06-12%20-%202.jpg",
           "title": "Palais Épiscopal - Belley (FR01) - 2022-06-12 - 2.jpg",
+          "description": "Palais épiscopal de Belley.",
           "width": 4032,
           "height": 3024,
           "size": 4152540,
@@ -121,6 +129,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Palais_%C3%89piscopal_-_Belley_%28FR01%29_-_2022-06-12_-_3.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APalais%20%C3%89piscopal%20-%20Belley%20(FR01)%20-%202022-06-12%20-%203.jpg",
           "title": "Palais Épiscopal - Belley (FR01) - 2022-06-12 - 3.jpg",
+          "description": "Palais épiscopal de Belley.",
           "width": 4032,
           "height": 3024,
           "size": 4969982,
@@ -138,7 +147,50 @@
     },
     {
       "label": "Jardin du Clos Landar",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Plaque_Parc_Jean_Pierre_Camus_-_Belley_%28FR01%29_-_2022-06-12_-_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlaque%20Parc%20Jean%20Pierre%20Camus%20-%20Belley%20(FR01)%20-%202022-06-12%20-%201.jpg",
+          "title": "Plaque Parc Jean Pierre Camus - Belley (FR01) - 2022-06-12 - 1.jpg",
+          "description": "Plaque du parc Jean-Pierre Camus, Belley.",
+          "width": 3457,
+          "height": 2252,
+          "size": 2285965,
+          "timestamp": "2022-06-13T15:57:39Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Plaque_Parc_Jean_Pierre_Camus_-_Belley_%28FR01%29_-_2022-06-12_-_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlaque%20Parc%20Jean%20Pierre%20Camus%20-%20Belley%20(FR01)%20-%202022-06-12%20-%202.jpg",
+          "title": "Plaque Parc Jean Pierre Camus - Belley (FR01) - 2022-06-12 - 2.jpg",
+          "description": "Plaque du parc Jean-Pierre Camus, Belley.",
+          "width": 4032,
+          "height": 3024,
+          "size": 5201508,
+          "timestamp": "2022-06-13T15:57:42Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Belley_parc_jean-pierre_camus_abri.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABelley%20parc%20jean-pierre%20camus%20abri.jpg",
+          "title": "Belley parc jean-pierre camus abri.jpg",
+          "description": "A belley, dans le parc Jean-Pierre Camus aussi appelé jardin de l'évêché, un ensemble de pierre gallo-romaines ː cippes, stèles, sarcophage portant des inscriptions, avec d'autres fragments anépigraphes d'un enclos funéraire, abrités par des colonnes en fonte et une charpente métallique récupérés à la caserne Sibuet. Deux vestiges proviennent de l'ancienne collection Lépaulle, neuf ont été trouvés dans le lit du Rhône à Anglefort.",
+          "width": 2000,
+          "height": 1333,
+          "size": 910912,
+          "timestamp": "2017-06-25T08:58:52Z",
+          "author": "Pierre Tribhou",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

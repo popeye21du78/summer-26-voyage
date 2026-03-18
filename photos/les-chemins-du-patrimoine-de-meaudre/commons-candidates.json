@@ -1,12 +1,13 @@
 {
   "slug": "les-chemins-du-patrimoine-de-meaudre",
   "nom": "Les chemins du patrimoine de Méaudre",
-  "fetchedAt": "2026-03-13T15:46:41.836Z",
+  "fetchedAt": "2026-03-16T20:33:51.849Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/M%C3%A9audre_-_T%C3%A9l%C3%A9ski_Le_Cray.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AM%C3%A9audre%20-%20T%C3%A9l%C3%A9ski%20Le%20Cray.jpg",
       "title": "Méaudre - Téléski Le Cray.jpg",
+      "description": "Téléski Le Cray à Méaudre en mai 2020.",
       "width": 4128,
       "height": 3096,
       "size": 6718975,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/M%C3%A9audre_-_T%C3%A9l%C3%A9si%C3%A8ge_de_La_For%C3%AAt.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AM%C3%A9audre%20-%20T%C3%A9l%C3%A9si%C3%A8ge%20de%20La%20For%C3%AAt.jpg",
       "title": "Méaudre - Télésiège de La Forêt.jpg",
+      "description": "Télésiège de La Forêt à Méaudre en mai 2020.",
       "width": 4128,
       "height": 3096,
       "size": 4861401,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Autrans-M%C3%A9audre_en_Vercors_-_Place_Locmaria_-_bo%C3%AEte_%C3%A0_livres.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAutrans-M%C3%A9audre%20en%20Vercors%20-%20Place%20Locmaria%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
       "title": "Autrans-Méaudre en Vercors - Place Locmaria - boîte à livres.jpg",
+      "description": "Autrans-Méaudre en Vercors - Place Locmaria - boîte à livres",
       "width": 1536,
       "height": 2048,
       "size": 786679,
@@ -46,34 +49,7 @@
   "lieux": [
     {
       "label": "Méaudre",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/De_Autrans_vers_ENS_La_Moli%C3%A8re_et_Sornin_abc10_cascade.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADe%20Autrans%20vers%20ENS%20La%20Moli%C3%A8re%20et%20Sornin%20abc10%20cascade.jpg",
-          "title": "De Autrans vers ENS La Molière et Sornin abc10 cascade.jpg",
-          "width": 1712,
-          "height": 2288,
-          "size": 1603705,
-          "timestamp": "2016-08-01T11:40:57Z",
-          "author": "Patafisik",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/De_Autrans_vers_ENS_La_Moli%C3%A8re_et_Sornin_abc11.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADe%20Autrans%20vers%20ENS%20La%20Moli%C3%A8re%20et%20Sornin%20abc11.jpg",
-          "title": "De Autrans vers ENS La Molière et Sornin abc11.jpg",
-          "width": 1712,
-          "height": 2288,
-          "size": 1679115,
-          "timestamp": "2016-08-01T11:40:58Z",
-          "author": "Patafisik",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Bois Noir",

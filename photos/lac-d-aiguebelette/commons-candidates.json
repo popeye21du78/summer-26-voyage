@@ -1,12 +1,13 @@
 {
   "slug": "lac-d-aiguebelette",
   "nom": "lac d aiguebelette",
-  "fetchedAt": "2026-03-13T15:12:27.132Z",
+  "fetchedAt": "2026-03-16T19:22:59.937Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Lac_Aiguebelette_%28FRA%29_2003.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALac%20Aiguebelette%20(FRA)%202003.JPG",
       "title": "Lac Aiguebelette (FRA) 2003.JPG",
+      "description": "Sight from the Mont Grelle mount, of the lac d'Aiguebelette lake, in Savoie, France.",
       "width": 1284,
       "height": 853,
       "size": 477084,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Aiguebelette_-_panorama_du_lac_-_btv1b106698975.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAiguebelette%20-%20panorama%20du%20lac%20-%20btv1b106698975.jpg",
       "title": "Aiguebelette - panorama du lac - btv1b106698975.jpg",
+      "description": "Sujet : Aiguebelette, Lac d' (Savoie, France)\nAppartient à l’ensemble documentaire : BnGren00\n\nLangue : français",
       "width": 2055,
       "height": 1444,
       "size": 351925,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Aiguebelette_-_panorama_du_lac_-_btv1b10669894t.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAiguebelette%20-%20panorama%20du%20lac%20-%20btv1b10669894t.jpg",
       "title": "Aiguebelette - panorama du lac - btv1b10669894t.jpg",
+      "description": "Sujet : Aiguebelette, Lac d' (Savoie, France)\nAppartient à l’ensemble documentaire : BnGren00\n\nLangue : français",
       "width": 2022,
       "height": 1450,
       "size": 333195,
@@ -54,7 +57,50 @@
     },
     {
       "label": "Réserve naturelle du Bout du Lac",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Lac_Aiguebelette_%28FRA%29_2003.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALac%20Aiguebelette%20(FRA)%202003.JPG",
+          "title": "Lac Aiguebelette (FRA) 2003.JPG",
+          "description": "Sight from the Mont Grelle mount, of the lac d'Aiguebelette lake, in Savoie, France.",
+          "width": 1284,
+          "height": 853,
+          "size": 477084,
+          "timestamp": "2024-02-28T02:19:55Z",
+          "author": "Jean-Pierre Couffinhal",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Lac_d%27Aiguebelette.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALac%20d'Aiguebelette.jpg",
+          "title": "Lac d'Aiguebelette.jpg",
+          "description": "Aiguebelette Lake from the Mont Grelle (France)",
+          "width": 5198,
+          "height": 3462,
+          "size": 13580270,
+          "timestamp": "2015-07-22T12:50:45Z",
+          "author": "N.B.",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Lac_Aiguebelette_panoramique.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALac%20Aiguebelette%20panoramique.JPG",
+          "title": "Lac Aiguebelette panoramique.JPG",
+          "description": "Sight from the Mont Grelle mount, of the lac d'Aiguebelette lake, in Savoie, France.",
+          "width": 1600,
+          "height": 1200,
+          "size": 765745,
+          "timestamp": "2013-04-29T14:11:39Z",
+          "author": "Jean-Pierre Couffinhal",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     }
   ]
 }

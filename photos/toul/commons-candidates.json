@@ -1,12 +1,13 @@
 {
   "slug": "toul",
   "nom": "Toul",
-  "fetchedAt": "2026-03-14T12:52:41.683Z",
+  "fetchedAt": "2026-03-18T20:08:39.703Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/St_Gangolf_church_in_Toul_02.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt%20Gangolf%20church%20in%20Toul%2002.jpg",
       "title": "St Gangolf church in Toul 02.jpg",
+      "description": "Vaulting in the cloister of the Saint Gangolf church in Toul, Meurthe-et-Moselle, France",
       "width": 4437,
       "height": 2912,
       "size": 12195345,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/St_Gangolf_church_in_Toul_05.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt%20Gangolf%20church%20in%20Toul%2005.jpg",
       "title": "St Gangolf church in Toul 05.jpg",
+      "description": "Cloister of the Saint Gangolf church in Toul, Meurthe-et-Moselle, France",
       "width": 4454,
       "height": 2969,
       "size": 8315694,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/St_Gangolf_church_in_Toul_10.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt%20Gangolf%20church%20in%20Toul%2010.jpg",
       "title": "St Gangolf church in Toul 10.jpg",
+      "description": "Altar in the Saint Gangolf church in Toul, Meurthe-et-Moselle, France",
       "width": 4446,
       "height": 2964,
       "size": 9271718,
@@ -46,21 +49,65 @@
   "lieux": [
     {
       "label": "Cathédrale Saint-Étienne (façade et cloître)",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Toul%2C_Cath%C3%A9drale_Saint_Etienne_Fa%C3%A7ade_occidentale..jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AToul%2C%20Cath%C3%A9drale%20Saint%20Etienne%20Fa%C3%A7ade%20occidentale..jpg",
+          "title": "Toul, Cathédrale Saint Etienne Façade occidentale..jpg",
+          "description": "Vue de la Place du Général de Gaulle, début de construction 1221et se pousuit du 13è au 15è siècle.",
+          "width": 2288,
+          "height": 1712,
+          "size": 782072,
+          "timestamp": "2011-09-12T17:16:00Z",
+          "author": "DEPRUN",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/France_Grand_Est_54_Toul_04.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20Grand%20Est%2054%20Toul%2004.jpg",
+          "title": "France Grand Est 54 Toul 04.jpg",
+          "description": "Cathédrale Saint-Étienne de Toul",
+          "width": 6016,
+          "height": 4016,
+          "size": 15660971,
+          "timestamp": "2020-03-08T12:55:07Z",
+          "author": "Calips",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Cath%C3%A9drale_Saint-%C3%89tienne_de_Toul_-_Choir_with_Canvases_-_20220301_PvE_%28Q1136951%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale%20Saint-%C3%89tienne%20de%20Toul%20-%20Choir%20with%20Canvases%20-%2020220301%20PvE%20(Q1136951).jpg",
+          "title": "Cathédrale Saint-Étienne de Toul - Choir with Canvases - 20220301 PvE (Q1136951).jpg",
+          "description": "Choir with 6 of the 16 Canvases in the Cathédrale Saint-Étienne de Toul",
+          "width": 5732,
+          "height": 3768,
+          "size": 12289312,
+          "timestamp": "2022-03-13T19:14:29Z",
+          "author": "Pieter van Everdingen",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Remparts de Toul",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Cath%C3%A9drale_St_%C3%89tienne_DSCF8091.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale%20St%20%C3%89tienne%20DSCF8091.jpg",
-          "title": "Cathédrale St Étienne DSCF8091.jpg",
-          "width": 5878,
-          "height": 3927,
-          "size": 18568771,
-          "timestamp": "2021-09-25T17:25:33Z",
-          "author": "Musicaline",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Cath%C3%A9drale_of_Toul_2014_%28alicialaprayphoto.fr%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale%20of%20Toul%202014%20(alicialaprayphoto.fr).jpg",
+          "title": "Cathédrale of Toul 2014 (alicialaprayphoto.fr).jpg",
+          "description": "Vue de la cathédrale de Toul depuis les remparts de la cité.",
+          "width": 4758,
+          "height": 2964,
+          "size": 6832529,
+          "timestamp": "2014-04-23T18:49:27Z",
+          "author": "Alicia LAPRAY",
+          "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
@@ -68,6 +115,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Remparts_gallo-romains-Toul_%282%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARemparts%20gallo-romains-Toul%20(2).jpg",
           "title": "Remparts gallo-romains-Toul (2).jpg",
+          "description": "Toul (Meurthe-et-Moselle) : remparts gallo-romains, passage B, près de la place des Trois-Evêchés. Vestiges de l'ancien Castrum romain édifié au IVe siècle sous le régime de l'empereur Valentinien 1er. Classement MH en 1949",
           "width": 4320,
           "height": 3240,
           "size": 4788657,
@@ -78,14 +126,15 @@
           "score": 5
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Cath%C3%A9drale_of_Toul_2014_%28alicialaprayphoto.fr%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale%20of%20Toul%202014%20(alicialaprayphoto.fr).jpg",
-          "title": "Cathédrale of Toul 2014 (alicialaprayphoto.fr).jpg",
-          "width": 4758,
-          "height": 2964,
-          "size": 6832529,
-          "timestamp": "2014-04-23T18:49:27Z",
-          "author": "Alicia LAPRAY",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Remparts_gallo-romains-Toul_%281%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARemparts%20gallo-romains-Toul%20(1).jpg",
+          "title": "Remparts gallo-romains-Toul (1).jpg",
+          "description": "Toul (Meurthe-et-Moselle) : remparts gallo-romains, passage B, près de la place des Trois-Evêchés. Vestiges de l'ancien Castrum romain édifié au IVe siècle sous le régime de l'empereur Valentinien 1er. Classement MH en 1949",
+          "width": 4320,
+          "height": 3240,
+          "size": 5131961,
+          "timestamp": "2013-05-23T05:57:24Z",
+          "author": "Ji-Elle",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 5
@@ -96,40 +145,43 @@
       "label": "Porte de France",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/France_Grand_Est_54_Toul_06.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20Grand%20Est%2054%20Toul%2006.jpg",
-          "title": "France Grand Est 54 Toul 06.jpg",
-          "width": 6016,
-          "height": 4016,
-          "size": 13524632,
-          "timestamp": "2020-03-08T12:55:08Z",
-          "author": "Calips",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Toul_%C3%A0_Blancoc_1930.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AToul%20%C3%A0%20Blancoc%201930.jpg",
+          "title": "Toul à Blancoc 1930.jpg",
+          "description": "Goémoniers et le château de Toul à Blandoc vers 1930.",
+          "width": 1544,
+          "height": 998,
+          "size": 787113,
+          "timestamp": "2019-08-02T04:13:41Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q121163921\" class=\"extiw\" title=\"d:Q121163921\"><span title=\"French photographer\">Joseph-Marie Villard</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Leuci._Archidiac%28on%29n%C3%A9_de_Port_et_Prevost%C3%A9_de_St_Diey_dans_l%27Evesch%C3%A9_de_Toul..._-_Par_N._Sanson_d%27Abbeville..._-_btv1b8493021n.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALeuci.%20Archidiac(on)n%C3%A9%20de%20Port%20et%20Prevost%C3%A9%20de%20St%20Diey%20dans%20l'Evesch%C3%A9%20de%20Toul...%20-%20Par%20N.%20Sanson%20d'Abbeville...%20-%20btv1b8493021n.jpg",
+          "title": "Leuci. Archidiac(on)né de Port et Prevosté de St Diey dans l'Evesché de Toul... - Par N. Sanson d'Abbeville... - btv1b8493021n.jpg",
+          "description": "Sujet : Divisions ecclésiastiques\nCartouches (ornement)\nArchidiaconé\nSaint-Nicolas-de-Port, Archidiaconé de\nSaint-Dié, Prévôté de\nAmours\nÉchelle(s) : Eschelle, 10 Mille Pas Geometriques [=Om. 075 ; 1:245 000 environ]\nCouverture : Monde\nLangue : français\n\nÉditeur : l'Autheur (Paris)",
+          "width": 9536,
+          "height": 6956,
+          "size": 12712108,
+          "timestamp": "2022-07-14T00:12:48Z",
+          "author": "<div class=\"fn value\">\nSanson, Nicolas (1600-1667). Auteur du texte</div>",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/France_Grand_Est_54_Toul_07.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20Grand%20Est%2054%20Toul%2007.jpg",
-          "title": "France Grand Est 54 Toul 07.jpg",
-          "width": 6016,
-          "height": 4016,
-          "size": 16906581,
-          "timestamp": "2020-03-08T12:55:11Z",
-          "author": "Calips",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Remise_de_l%27%C3%A9tendard_du_39e_RAC_%C3%A0_la_batterie_de_tradition_%2813e_batterie%29_du_8e_RAD_de_Toul%2C_en_octobre_1929.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARemise%20de%20l'%C3%A9tendard%20du%2039e%20RAC%20%C3%A0%20la%20batterie%20de%20tradition%20(13e%20batterie)%20du%208e%20RAD%20de%20Toul%2C%20en%20octobre%201929.jpg",
-          "title": "Remise de l'étendard du 39e RAC à la batterie de tradition (13e batterie) du 8e RAD de Toul, en octobre 1929.jpg",
-          "width": 1553,
-          "height": 1173,
-          "size": 428840,
-          "timestamp": "2021-03-15T08:31:40Z",
-          "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Leuci._Archidiaconn%C3%A9_de_Port%2C_et_prevost%C3%A9_de_St_Diey%2C_dans_l%27Evesch%C3%A9_de_Toul_-_ou_sont_Partie_du_Temporel_de_l%27Evesch%C3%A9_de_Metz_-_le_Balliage_Fran%C3%A7ois%2C_ou_de_Nancy%2C_dans_le_Duch%C3%A9_de_Lorraine_-_et_Terres..._-_btv1b8592383q.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALeuci.%20Archidiaconn%C3%A9%20de%20Port%2C%20et%20prevost%C3%A9%20de%20St%20Diey%2C%20dans%20l'Evesch%C3%A9%20de%20Toul%20-%20ou%20sont%20Partie%20du%20Temporel%20de%20l'Evesch%C3%A9%20de%20Metz%20-%20le%20Balliage%20Fran%C3%A7ois%2C%20ou%20de%20Nancy%2C%20dans%20le%20Duch%C3%A9%20de%20Lorraine%20-%20et%20Terres...%20-%20btv1b8592383q.jpg",
+          "title": "Leuci. Archidiaconné de Port, et prevosté de St Diey, dans l'Evesché de Toul - ou sont Partie du Temporel de l'Evesché de Metz - le Balliage François, ou de Nancy, dans le Duché de Lorraine - et Terres... - btv1b8592383q.jpg",
+          "description": "Sujet : Toul, Évêché de -- Nord-Est\nLorraine, Duché de\nNancy, Châtellenie de\nMetz, Diocèse de\nAppartient à l’ensemble documentaire : AnvilFr\nAppartient à l’ensemble documentaire : MAEDI008\nAppartient à l’ensemble documentaire : MAEDIGen0\nLangue : français\n\nÉditeur : Chez P Mariette (A Paris)",
+          "width": 9739,
+          "height": 7331,
+          "size": 15158825,
+          "timestamp": "2022-07-19T14:31:54Z",
+          "author": "<div class=\"fn value\">\nSanson, Nicolas (1600-1667). Cartographe</div>",
           "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
@@ -138,7 +190,22 @@
     },
     {
       "label": "Quais de la Moselle",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Plestin-les-Gr%C3%A8ves_-_quai_de_Toul_An_Henry_-_bo%C3%AEte_%C3%A0_livres.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlestin-les-Gr%C3%A8ves%20-%20quai%20de%20Toul%20An%20Henry%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
+          "title": "Plestin-les-Grèves - quai de Toul An Henry - boîte à livres.jpg",
+          "description": "Boîte à livres à Plestin-les-Grèves",
+          "width": 1875,
+          "height": 2500,
+          "size": 587181,
+          "timestamp": "2025-07-17T20:22:19Z",
+          "author": "<span lang=\"en\">Anonymous</span><span style=\"display:none\">Unknown author</span>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

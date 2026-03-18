@@ -1,12 +1,13 @@
 {
   "slug": "la-chapelle-agnon",
   "nom": "La Chapelle-Agnon",
-  "fetchedAt": "2026-03-13T14:57:45.106Z",
+  "fetchedAt": "2026-03-16T14:40:02.716Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Vers_La_Chapelle_Agnon_-_panoramio_%281%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVers%20La%20Chapelle%20Agnon%20-%20panoramio%20(1).jpg",
       "title": "Vers La Chapelle Agnon - panoramio (1).jpg",
+      "description": "Vers La Chapelle Agnon",
       "width": 3264,
       "height": 1620,
       "size": 1647332,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Vers_La_Chapelle_Agnon_-_panoramio.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVers%20La%20Chapelle%20Agnon%20-%20panoramio.jpg",
       "title": "Vers La Chapelle Agnon - panoramio.jpg",
+      "description": "Vers La Chapelle Agnon",
       "width": 3264,
       "height": 1454,
       "size": 1084352,
@@ -30,14 +32,15 @@
       "score": 5
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Avenue_de_Lattre_%28Olliergues%29_direction_Vichy_2023-02-26.JPG",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAvenue%20de%20Lattre%20(Olliergues)%20direction%20Vichy%202023-02-26.JPG",
-      "title": "Avenue de Lattre (Olliergues) direction Vichy 2023-02-26.JPG",
-      "width": 2992,
-      "height": 2000,
-      "size": 2093899,
-      "timestamp": "2023-03-02T17:55:17Z",
-      "author": "Tabl-trai",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/63086-La_Chapelle-Agnon-Sols.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A63086-La%20Chapelle-Agnon-Sols.png",
+      "title": "63086-La Chapelle-Agnon-Sols.png",
+      "description": "Carte des infrastructures et de l’occupation des sols en 2018 de la commune de fr:La Chapelle-Agnon (France).",
+      "width": 3270,
+      "height": 2598,
+      "size": 2687427,
+      "timestamp": "2021-04-21T06:51:36Z",
+      "author": "Roland45",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
@@ -46,7 +49,50 @@
   "lieux": [
     {
       "label": "La hêtraie ancienne",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/63086-La_Chapelle-Agnon-Sols.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A63086-La%20Chapelle-Agnon-Sols.png",
+          "title": "63086-La Chapelle-Agnon-Sols.png",
+          "description": "Carte des infrastructures et de l’occupation des sols en 2018 de la commune de fr:La Chapelle-Agnon (France).",
+          "width": 3270,
+          "height": 2598,
+          "size": 2687427,
+          "timestamp": "2021-04-21T06:51:36Z",
+          "author": "Roland45",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Funeral_of_Shmuel_Yosef_Agnon_II.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFuneral%20of%20Shmuel%20Yosef%20Agnon%20II.jpg",
+          "title": "Funeral of Shmuel Yosef Agnon II.jpg",
+          "description": "THE COFFIN WITH REMAIN OF THE HEBREW WRITER AND NOBEL LAUREATE SHMUEL YOSEF (SHAI) AGNON LYING IN STATE IN THE MUNICIPAL COUNCIL CHAMBER IN JERUSALEM.",
+          "width": 3072,
+          "height": 2048,
+          "size": 722644,
+          "timestamp": "2021-09-25T14:44:54Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q28750411\" class=\"extiw\" title=\"d:Q28750411\"><span title=\"Israeli photographer\">Moshe Milner</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/63086-La_Chapelle-Agnon-Hydro.jpeg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A63086-La%20Chapelle-Agnon-Hydro.jpeg",
+          "title": "63086-La Chapelle-Agnon-Hydro.jpeg",
+          "description": "Carte du réseau hydrographique de la commune de fr:La Chapelle-Agnon (France).",
+          "width": 5846,
+          "height": 4133,
+          "size": 2557910,
+          "timestamp": "2024-02-13T09:13:40Z",
+          "author": "Roland45",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Plateau de Saint-Amant-Roche-Savine (vue)",
@@ -58,7 +104,50 @@
     },
     {
       "label": "Le ru bordé de frênes",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/63086-La_Chapelle-Agnon-Sols.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A63086-La%20Chapelle-Agnon-Sols.png",
+          "title": "63086-La Chapelle-Agnon-Sols.png",
+          "description": "Carte des infrastructures et de l’occupation des sols en 2018 de la commune de fr:La Chapelle-Agnon (France).",
+          "width": 3270,
+          "height": 2598,
+          "size": 2687427,
+          "timestamp": "2021-04-21T06:51:36Z",
+          "author": "Roland45",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/63086-La_Chapelle-Agnon-Hydro.jpeg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A63086-La%20Chapelle-Agnon-Hydro.jpeg",
+          "title": "63086-La Chapelle-Agnon-Hydro.jpeg",
+          "description": "Carte du réseau hydrographique de la commune de fr:La Chapelle-Agnon (France).",
+          "width": 5846,
+          "height": 4133,
+          "size": 2557910,
+          "timestamp": "2024-02-13T09:13:40Z",
+          "author": "Roland45",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/La_Chapelle-Agnon-Mairie.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Chapelle-Agnon-Mairie.jpg",
+          "title": "La Chapelle-Agnon-Mairie.jpg",
+          "description": "Mairie de La Chapelle-Agnon.",
+          "width": 3456,
+          "height": 2592,
+          "size": 4090292,
+          "timestamp": "2011-08-10T19:34:29Z",
+          "author": "Jules78120",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     }
   ]
 }

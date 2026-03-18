@@ -1,60 +1,192 @@
 {
   "slug": "gigondas",
   "nom": "Gigondas",
-  "fetchedAt": "2026-03-13T14:33:12.480Z",
+  "fetchedAt": "2026-03-16T13:42:31.541Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/FR84%2CSABLET%2C_ZAE_de_Camp_Bernard.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFR84%2CSABLET%2C%20ZAE%20de%20Camp%20Bernard.jpg",
-      "title": "FR84,SABLET, ZAE de Camp Bernard.jpg",
-      "width": 4896,
-      "height": 3672,
-      "size": 7328456,
-      "timestamp": "2022-03-04T10:00:39Z",
-      "author": "JLZIMMERMANN",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Gigondas_-_Ch%C3%A2teau_1.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGigondas%20-%20Ch%C3%A2teau%201.JPG",
+      "title": "Gigondas - Château 1.JPG",
+      "description": "extérieur du Château de Gigondas",
+      "width": 4608,
+      "height": 3456,
+      "size": 2801204,
+      "timestamp": "2016-05-15T07:13:02Z",
+      "author": "Marianne Casamance",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 8
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Mont_Ventoux_et_Dentelles_de_Montmirail.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMont%20Ventoux%20et%20Dentelles%20de%20Montmirail.jpg",
-      "title": "Mont Ventoux et Dentelles de Montmirail.jpg",
-      "width": 4032,
-      "height": 2268,
-      "size": 3385964,
-      "timestamp": "2024-07-31T13:15:34Z",
-      "author": "Mathieu BROSSAIS",
-      "license": "CC BY 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/France_-_Gigondas_-_Chapelle_Saint-Cosme_et_Saint-Damien_-_01.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20-%20Gigondas%20-%20Chapelle%20Saint-Cosme%20et%20Saint-Damien%20-%2001.jpg",
+      "title": "France - Gigondas - Chapelle Saint-Cosme et Saint-Damien - 01.jpg",
+      "description": "France - Chapelle Saint-Cosme et Saint-Damien de Gigondas",
+      "width": 3340,
+      "height": 2592,
+      "size": 6015616,
+      "timestamp": "2024-10-15T12:20:29Z",
+      "author": "EmDee",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/View_eastward_from_the_Dentelles_de_Montmirail_-_panoramio.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AView%20eastward%20from%20the%20Dentelles%20de%20Montmirail%20-%20panoramio.jpg",
-      "title": "View eastward from the Dentelles de Montmirail - panoramio.jpg",
-      "width": 2592,
-      "height": 1952,
-      "size": 1605952,
-      "timestamp": "2016-11-30T20:15:28Z",
-      "author": "hennejg",
-      "license": "CC BY 3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/France_-_Gigondas_-_Chapelle_Saint-Cosme_et_Saint-Damien_-_05.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20-%20Gigondas%20-%20Chapelle%20Saint-Cosme%20et%20Saint-Damien%20-%2005.jpg",
+      "title": "France - Gigondas - Chapelle Saint-Cosme et Saint-Damien - 05.jpg",
+      "description": "France - Chapelle Saint-Cosme et Saint-Damien de Gigondas",
+      "width": 3824,
+      "height": 2484,
+      "size": 8107841,
+      "timestamp": "2024-10-16T13:05:45Z",
+      "author": "EmDee",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 7
     }
   ],
   "lieux": [
     {
       "label": "Château de Gigondas (ruines)",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Gigondas_-_Ch%C3%A2teau_1.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGigondas%20-%20Ch%C3%A2teau%201.JPG",
+          "title": "Gigondas - Château 1.JPG",
+          "description": "extérieur du Château de Gigondas",
+          "width": 4608,
+          "height": 3456,
+          "size": 2801204,
+          "timestamp": "2016-05-15T07:13:02Z",
+          "author": "Marianne Casamance",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Ch%C3%A2teau_Raspail_%C3%A0_Gigondas.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20Raspail%20%C3%A0%20Gigondas.jpg",
+          "title": "Château Raspail à Gigondas.jpg",
+          "description": "Château Raspail à Gigondas, Vaucluse",
+          "width": 4000,
+          "height": 3000,
+          "size": 3863996,
+          "timestamp": "2010-06-29T05:18:21Z",
+          "author": "Véronique PAGNIER",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Gigondas_-_Ch%C3%A2teau_2.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGigondas%20-%20Ch%C3%A2teau%202.JPG",
+          "title": "Gigondas - Château 2.JPG",
+          "description": "château de Gigondas",
+          "width": 3456,
+          "height": 4608,
+          "size": 2602472,
+          "timestamp": "2016-05-15T07:13:01Z",
+          "author": "Marianne Casamance",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Dentelles de Montmirail (vue depuis le village)",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Gigondas_84-_Col_du_Cayron_395m-_DMDS.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGigondas%2084-%20Col%20du%20Cayron%20395m-%20DMDS.jpg",
+          "title": "Gigondas 84- Col du Cayron 395m- DMDS.jpg",
+          "description": "Le col du Cayron (395m) au pied des Dentelles Sarrasines",
+          "width": 3456,
+          "height": 2592,
+          "size": 4443845,
+          "timestamp": "2022-02-05T18:24:21Z",
+          "author": "Anthospace",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Gigondas_84-_A_side_of_a_Turc_rock_627m-_LCG.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGigondas%2084-%20A%20side%20of%20a%20Turc%20rock%20627m-%20LCG.jpg",
+          "title": "Gigondas 84- A side of a Turc rock 627m- LCG.jpg",
+          "description": "Une des faces du Rocher du Turc (627m) dans les Dentelles Sarrasines",
+          "width": 3456,
+          "height": 2592,
+          "size": 4110872,
+          "timestamp": "2022-02-05T18:24:24Z",
+          "author": "Anthospace",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Gigondas_84-_Rocher_du_Midi_470m-_STCH.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGigondas%2084-%20Rocher%20du%20Midi%20470m-%20STCH.jpg",
+          "title": "Gigondas 84- Rocher du Midi 470m- STCH.jpg",
+          "description": "Table d'orientation du Rocher du Midi (470m) face aux Dentelles Sarrasines",
+          "width": 3456,
+          "height": 2592,
+          "size": 2218785,
+          "timestamp": "2022-02-05T18:34:14Z",
+          "author": "Anthospace",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Église Saint-Cosme-et-Saint-Damien",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Gigondas_-_%C3%A9glise_3.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGigondas%20-%20%C3%A9glise%203.JPG",
+          "title": "Gigondas - église 3.JPG",
+          "description": "église de Gigondas",
+          "width": 4608,
+          "height": 3456,
+          "size": 2343113,
+          "timestamp": "2016-05-15T06:56:17Z",
+          "author": "Marianne Casamance",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Gigondas_-_%C3%A9glise_cadran_solaire.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGigondas%20-%20%C3%A9glise%20cadran%20solaire.JPG",
+          "title": "Gigondas - église cadran solaire.JPG",
+          "description": "église de Gigondas",
+          "width": 4608,
+          "height": 3456,
+          "size": 2862220,
+          "timestamp": "2016-05-15T06:56:19Z",
+          "author": "Marianne Casamance",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Gigondas_-_%C3%A9glise_campanile.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGigondas%20-%20%C3%A9glise%20campanile.JPG",
+          "title": "Gigondas - église campanile.JPG",
+          "description": "église de Gigondas",
+          "width": 4608,
+          "height": 3456,
+          "size": 2550001,
+          "timestamp": "2016-05-15T06:56:21Z",
+          "author": "Marianne Casamance",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

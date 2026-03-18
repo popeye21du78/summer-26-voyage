@@ -1,25 +1,13 @@
 {
   "slug": "aubenas",
   "nom": "Aubenas",
-  "fetchedAt": "2026-03-12T23:54:47.751Z",
+  "fetchedAt": "2026-03-15T15:17:09.584Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Minibus_%C3%A0_Aubenas.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMinibus%20%C3%A0%20Aubenas.jpg",
-      "title": "Minibus à Aubenas.jpg",
-      "width": 3264,
-      "height": 2448,
-      "size": 2622805,
-      "timestamp": "2021-12-05T15:00:58Z",
-      "author": "AirScott",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Ch%C3%A2teau_d%27Aubenas_2.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20d'Aubenas%202.jpg",
       "title": "Château d'Aubenas 2.jpg",
+      "description": "Château d'Aubenas (château fort français)",
       "width": 4032,
       "height": 3024,
       "size": 4510535,
@@ -27,20 +15,35 @@
       "author": "JadeRadula",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Centre_ville_d%27Aubenas_Ard%C3%A8che_depuis_croix_du_Vinobre_janvier_2024.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACentre%20ville%20d'Aubenas%20Ard%C3%A8che%20depuis%20croix%20du%20Vinobre%20janvier%202024.jpg",
-      "title": "Centre ville d'Aubenas Ardèche depuis croix du Vinobre janvier 2024.jpg",
-      "width": 4000,
-      "height": 3000,
-      "size": 3760514,
-      "timestamp": "2024-01-22T13:07:49Z",
-      "author": "Kakoula10",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Ch%C3%A2teau_d%27Aubenas%2C_Ard%C3%A8che.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20d'Aubenas%2C%20Ard%C3%A8che.jpg",
+      "title": "Château d'Aubenas, Ardèche.jpg",
+      "description": "Le château d'Aubenas, également appelé château de Montlaur, est situé dans la commune d'Aubenas, dans le département de l'Ardèche et la région Rhône-Alpes.",
+      "width": 5456,
+      "height": 3632,
+      "size": 6750208,
+      "timestamp": "2015-09-06T06:48:26Z",
+      "author": "René Cortin",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 8
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Aubenas_-_ch%C3%A2teau_vu_du_nord.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAubenas%20-%20ch%C3%A2teau%20vu%20du%20nord.jpg",
+      "title": "Aubenas - château vu du nord.jpg",
+      "description": "Aubenas : château vu du nord",
+      "width": 2596,
+      "height": 1460,
+      "size": 858458,
+      "timestamp": "2016-11-06T12:02:24Z",
+      "author": "Robin Chubret",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
     }
   ],
   "lieux": [
@@ -48,57 +51,118 @@
       "label": "Château d’Aubenas",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Aubenas_-_ch%C3%A2teau_vu_du_nord.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAubenas%20-%20ch%C3%A2teau%20vu%20du%20nord.jpg",
-          "title": "Aubenas - château vu du nord.jpg",
-          "width": 2596,
-          "height": 1460,
-          "size": 858458,
-          "timestamp": "2016-11-06T12:02:24Z",
-          "author": "Robin Chubret",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Aubenas_illustration_P_Etienne.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAubenas%20illustration%20P%20Etienne.jpg",
+          "title": "Aubenas illustration P Etienne.jpg",
+          "description": "Illustration crayon château d'Aubenas Patrick Etienne",
+          "width": 1723,
+          "height": 1150,
+          "size": 1169420,
+          "timestamp": "2022-01-29T12:46:14Z",
+          "author": "Patrick Etienne",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Le_chateau_d%27Aubenas.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20chateau%20d'Aubenas.jpg",
-          "title": "Le chateau d'Aubenas.jpg",
-          "width": 3264,
-          "height": 2448,
-          "size": 2608776,
-          "timestamp": "2017-05-04T23:35:02Z",
-          "author": "Eva Soncin",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Ch%C3%A2teau_d%27Aubenas_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20d'Aubenas%202.jpg",
+          "title": "Château d'Aubenas 2.jpg",
+          "description": "Château d'Aubenas (château fort français)",
+          "width": 4032,
+          "height": 3024,
+          "size": 4510535,
+          "timestamp": "2022-10-12T13:04:38Z",
+          "author": "JadeRadula",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Aubenas_-_Le_Ch%C3%A2teau_%2834410404352%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAubenas%20-%20Le%20Ch%C3%A2teau%20(34410404352).jpg",
-          "title": "Aubenas - Le Château (34410404352).jpg",
-          "width": 3423,
-          "height": 2263,
-          "size": 860651,
-          "timestamp": "2017-07-29T10:42:03Z",
-          "author": "Médiathèques Valence Romans agglomération",
-          "license": "No restrictions",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Ch%C3%A2teau_d%27Aubenas%2C_Ard%C3%A8che.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20d'Aubenas%2C%20Ard%C3%A8che.jpg",
+          "title": "Château d'Aubenas, Ardèche.jpg",
+          "description": "Le château d'Aubenas, également appelé château de Montlaur, est situé dans la commune d'Aubenas, dans le département de l'Ardèche et la région Rhône-Alpes.",
+          "width": 5456,
+          "height": 3632,
+          "size": 6750208,
+          "timestamp": "2015-09-06T06:48:26Z",
+          "author": "René Cortin",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         }
       ]
     },
     {
       "label": "Place du Château",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Aubenas_illustration_P_Etienne.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAubenas%20illustration%20P%20Etienne.jpg",
+          "title": "Aubenas illustration P Etienne.jpg",
+          "description": "Illustration crayon château d'Aubenas Patrick Etienne",
+          "width": 1723,
+          "height": 1150,
+          "size": 1169420,
+          "timestamp": "2022-01-29T12:46:14Z",
+          "author": "Patrick Etienne",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Aubenas_Ch%C3%A2teau.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAubenas%20Ch%C3%A2teau.jpg",
+          "title": "Aubenas Château.jpg",
+          "description": "Château d'Aubenas",
+          "width": 1000,
+          "height": 615,
+          "size": 451446,
+          "timestamp": "2015-01-25T17:13:33Z",
+          "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/07019-Aubenas-Sols.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A07019-Aubenas-Sols.png",
+          "title": "07019-Aubenas-Sols.png",
+          "description": "Carte des infrastructures et de l’occupation des sols en 2018 de la commune de fr:Aubenas (France).",
+          "width": 3270,
+          "height": 2598,
+          "size": 4657132,
+          "timestamp": "2021-04-21T12:43:12Z",
+          "author": "Roland45",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Église Saint-Laurent",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Aubenas._-_Panorama_vers_l%27H%C3%B4tel_Belle-Vue_%2834441909891%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAubenas.%20-%20Panorama%20vers%20l'H%C3%B4tel%20Belle-Vue%20(34441909891).jpg",
+          "title": "Aubenas. - Panorama vers l'Hôtel Belle-Vue (34441909891).jpg",
+          "description": "Châteaux Bâtiments religieux Ardèche",
+          "width": 3402,
+          "height": 2210,
+          "size": 1189138,
+          "timestamp": "2017-07-29T12:41:54Z",
+          "author": "Médiathèques Valence Romans agglomération",
+          "license": "No restrictions",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Orgue_de_l%27%C3%A9glise_Saint-Laurent_d%27Aubenas.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOrgue%20de%20l'%C3%A9glise%20Saint-Laurent%20d'Aubenas.jpg",
           "title": "Orgue de l'église Saint-Laurent d'Aubenas.jpg",
+          "description": "The Saint-Laurent church is registred in the Mérimée database of French historical monuments under the reference PA00116632",
           "width": 4000,
           "height": 3000,
           "size": 5018624,
@@ -109,28 +173,16 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/%C3%89glise_Saint-Laurent_d%27Aubenas_-_Chapelle_des_Martyrs_et_de_l%27Unit%C3%A9_-_C%C3%A8ne.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-Laurent%20d'Aubenas%20-%20Chapelle%20des%20Martyrs%20et%20de%20l'Unit%C3%A9%20-%20C%C3%A8ne.jpg",
-          "title": "Église Saint-Laurent d'Aubenas - Chapelle des Martyrs et de l'Unité - Cène.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Lachapelle-sous-Aubenas_-_%C3%89glise_Notre-Dame-de-l%27Assomption_-_Chevet.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALachapelle-sous-Aubenas%20-%20%C3%89glise%20Notre-Dame-de-l'Assomption%20-%20Chevet.jpg",
+          "title": "Lachapelle-sous-Aubenas - Église Notre-Dame-de-l'Assomption - Chevet.jpg",
+          "description": "Église Notre-Dame-de-l'Assomption - Chevet.",
           "width": 4128,
-          "height": 3096,
-          "size": 3534656,
-          "timestamp": "2018-07-21T21:22:37Z",
+          "height": 2322,
+          "size": 3401405,
+          "timestamp": "2017-09-09T17:12:51Z",
           "author": "Romainbehar",
           "license": "CC0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/%C3%89glise_Saint_Laurent_d%27Aubenas_%28fa%C3%A7ade%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint%20Laurent%20d'Aubenas%20(fa%C3%A7ade).jpg",
-          "title": "Église Saint Laurent d'Aubenas (façade).jpg",
-          "width": 3456,
-          "height": 4608,
-          "size": 4600969,
-          "timestamp": "2022-12-12T17:24:24Z",
-          "author": "FredSeiller",
-          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
         }
@@ -138,15 +190,130 @@
     },
     {
       "label": "Chapelle Notre-Dame-de-la-Pont",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Chapelle_des_Antonins_%28Aubenas%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20des%20Antonins%20(Aubenas).jpg",
+          "title": "Chapelle des Antonins (Aubenas).jpg",
+          "description": "Fronton et niche avec statue de Sainte Anne et la Vierge Marie",
+          "width": 4608,
+          "height": 3456,
+          "size": 5353784,
+          "timestamp": "2022-12-12T18:28:42Z",
+          "author": "FredSeiller",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Chapelle_Saint_Pierre_de_Saint-Pierre_a_Aubenas.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20Saint%20Pierre%20de%20Saint-Pierre%20a%20Aubenas.jpg",
+          "title": "Chapelle Saint Pierre de Saint-Pierre a Aubenas.jpg",
+          "description": "Chapelle Saint-Pierre de Saint-Pierre à Aubenas (Ardèche). Le 5 mars 2023.",
+          "width": 4000,
+          "height": 3000,
+          "size": 7854795,
+          "timestamp": "2023-03-05T20:16:11Z",
+          "author": "Kakoula10",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Chapelle_Notre-Dame_des_Oliviers_%28Aubenas%2901.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20Notre-Dame%20des%20Oliviers%20(Aubenas)01.jpg",
+          "title": "Chapelle Notre-Dame des Oliviers (Aubenas)01.jpg",
+          "description": "Chapelle Notre-Dame des Oliviers à Aubenas",
+          "width": 6000,
+          "height": 4000,
+          "size": 14560996,
+          "timestamp": "2024-10-10T18:57:29Z",
+          "author": "FredSeiller",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Remparts d’Aubenas",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Lachapelle-sous-Aubenas_5.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALachapelle-sous-Aubenas%205.JPG",
+          "title": "Lachapelle-sous-Aubenas 5.JPG",
+          "description": "Remparts",
+          "width": 2592,
+          "height": 1944,
+          "size": 1470788,
+          "timestamp": "2013-11-26T20:32:17Z",
+          "author": "Alainauzas",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Aubenas_-_Vue_depuis_les_remparts.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAubenas%20-%20Vue%20depuis%20les%20remparts.jpg",
+          "title": "Aubenas - Vue depuis les remparts.jpg",
+          "description": "Photo perso été 2005 - Aubenas, Ardèche",
+          "width": 2048,
+          "height": 1536,
+          "size": 196318,
+          "timestamp": "2007-02-15T21:43:52Z",
+          "author": "The original uploader was <a href=\"https://en.wikipedia.org/wiki/fr:User:Bushido\" class=\"extiw\" title=\"w:fr:User:Bushido\">Bushido</a> at <a href=\"https://en.wikipedia.org/wiki/fr:\" class=\"extiw\" title=\"w:fr:\">French Wikipedia</a>.",
+          "license": "FAL",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 3
+        }
+      ]
     },
     {
       "label": "Maisons troglodytes",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Saint-Didier-sous-Aubenas_Maison_%C3%A0_pontin.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Didier-sous-Aubenas%20Maison%20%C3%A0%20pontin.JPG",
+          "title": "Saint-Didier-sous-Aubenas Maison à pontin.JPG",
+          "description": "Maison à pontin",
+          "width": 3456,
+          "height": 2592,
+          "size": 3599168,
+          "timestamp": "2016-02-07T15:01:16Z",
+          "author": "Marianne Casamance",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Coll%C3%A8ge_d%27Aubenas%2C_France%2C_Ard%C3%A8che_-_plans_du_rez-de-chauss%C3%A9e_et_du_premier_%C3%A9tage_sur_la_m%C3%AAme_feuille_-_dessin%2C_plan_-_P._Antoine_Hercule_de_Rochecolombe_-_btv1b53106697p_%282_of_3%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AColl%C3%A8ge%20d'Aubenas%2C%20France%2C%20Ard%C3%A8che%20-%20plans%20du%20rez-de-chauss%C3%A9e%20et%20du%20premier%20%C3%A9tage%20sur%20la%20m%C3%AAme%20feuille%20-%20dessin%2C%20plan%20-%20P.%20Antoine%20Hercule%20de%20Rochecolombe%20-%20btv1b53106697p%20(2%20of%203).jpg",
+          "title": "Collège d'Aubenas, France, Ardèche - plans du rez-de-chaussée et du premier étage sur la même feuille - dessin, plan - P. Antoine Hercule de Rochecolombe - btv1b53106697p (2 of 3).jpg",
+          "description": "Sujet : Architecture jésuite -- Aubenas (Ardèche, France)\nCollège de la Compagnie de Jésus (Aubenas, France)\nDessins et plans -- 17e siècle\nÉchelle(s) : [1:120 environ], 1 canne de Toulouse [= 179,6 cm]\nRéférence bibliographique : Vallery-Radot, 703\nAppartient à l’ensemble documentaire : Des17Inv\nAppartient à l’ensemble documentaire : RhoneAlp1\nDessins et plans\nPlan\n\nLangue : latin",
+          "width": 6411,
+          "height": 6036,
+          "size": 6146419,
+          "timestamp": "2025-03-20T01:30:29Z",
+          "author": "<div class=\"fn value\">\nVogüé, Antoine Hercule de (15..-16..). Dessinateur</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Coll%C3%A8ge_d%27Aubenas%2C_France%2C_Ard%C3%A8che_-_plans_du_rez-de-chauss%C3%A9e_et_du_premier_%C3%A9tage_sur_la_m%C3%AAme_feuille_-_dessin%2C_plan_-_P._Antoine_Hercule_de_Rochecolombe_-_btv1b53106697p_%281_of_3%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AColl%C3%A8ge%20d'Aubenas%2C%20France%2C%20Ard%C3%A8che%20-%20plans%20du%20rez-de-chauss%C3%A9e%20et%20du%20premier%20%C3%A9tage%20sur%20la%20m%C3%AAme%20feuille%20-%20dessin%2C%20plan%20-%20P.%20Antoine%20Hercule%20de%20Rochecolombe%20-%20btv1b53106697p%20(1%20of%203).jpg",
+          "title": "Collège d'Aubenas, France, Ardèche - plans du rez-de-chaussée et du premier étage sur la même feuille - dessin, plan - P. Antoine Hercule de Rochecolombe - btv1b53106697p (1 of 3).jpg",
+          "description": "Sujet : Architecture jésuite -- Aubenas (Ardèche, France)\nCollège de la Compagnie de Jésus (Aubenas, France)\nDessins et plans -- 17e siècle\nÉchelle(s) : [1:120 environ], 1 canne de Toulouse [= 179,6 cm]\nRéférence bibliographique : Vallery-Radot, 703\nAppartient à l’ensemble documentaire : Des17Inv\nAppartient à l’ensemble documentaire : RhoneAlp1\nDessins et plans\nPlan\n\nLangue : latin",
+          "width": 6406,
+          "height": 5971,
+          "size": 6126746,
+          "timestamp": "2025-03-20T15:02:26Z",
+          "author": "<div class=\"fn value\">\nVogüé, Antoine Hercule de (15..-16..). Dessinateur</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

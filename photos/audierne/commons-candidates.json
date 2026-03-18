@@ -1,12 +1,27 @@
 {
   "slug": "audierne",
   "nom": "Audierne",
-  "fetchedAt": "2026-03-12T23:56:09.104Z",
+  "fetchedAt": "2026-03-15T15:19:38.759Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Blick_auf_Audierne_%C3%BCber_den_Goyen.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABlick%20auf%20Audierne%20%C3%BCber%20den%20Goyen.jpg",
+      "title": "Blick auf Audierne über den Goyen.jpg",
+      "description": "View of Audierne across the Goyen, stitched panorama",
+      "width": 13908,
+      "height": 5256,
+      "size": 48878884,
+      "timestamp": "2024-08-09T19:29:40Z",
+      "author": "Stephan Sprinz",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Audierne_-_Le_port_depuis_la_Capitainerie.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAudierne%20-%20Le%20port%20depuis%20la%20Capitainerie.jpg",
       "title": "Audierne - Le port depuis la Capitainerie.jpg",
+      "description": "Audierne - Le port depuis la Capitainerie",
       "width": 1632,
       "height": 1224,
       "size": 453243,
@@ -20,23 +35,11 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Audierne_carte_postale_ancienne_%2850663762648%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAudierne%20carte%20postale%20ancienne%20(50663762648).jpg",
       "title": "Audierne carte postale ancienne (50663762648).jpg",
+      "description": "Audierne   embarquement des casiers aux homards",
       "width": 3393,
       "height": 2196,
       "size": 4126639,
       "timestamp": "2022-12-07T12:27:50Z",
-      "author": "Claude LACOURARIE",
-      "license": "CC0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Audierne_carte_postale_ancienne_%2850664586242%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAudierne%20carte%20postale%20ancienne%20(50664586242).jpg",
-      "title": "Audierne carte postale ancienne (50664586242).jpg",
-      "width": 3368,
-      "height": 2187,
-      "size": 3903639,
-      "timestamp": "2022-12-07T12:27:57Z",
       "author": "Claude LACOURARIE",
       "license": "CC0",
       "licenseUrl": "https://creativecommons.org/licenses/",
@@ -48,41 +51,44 @@
       "label": "Port d’Audierne",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Albert_Marquet_Le_port_d%27Audierne.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlbert%20Marquet%20Le%20port%20d'Audierne.jpg",
-          "title": "Albert Marquet Le port d'Audierne.jpg",
-          "width": 1369,
-          "height": 992,
-          "size": 938873,
-          "timestamp": "2020-04-28T02:27:07Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/192_Audierne_Loqu%C3%A9ran.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A192%20Audierne%20Loqu%C3%A9ran.JPG",
+          "title": "192 Audierne Loquéran.JPG",
+          "description": "Le port d'Audierne, le pont d'Audierne et le château de Locquéran vus depuis le quai Jean-Jaurès du port d'Audierne",
+          "width": 3022,
+          "height": 2238,
+          "size": 1849572,
+          "timestamp": "2015-08-08T04:11:11Z",
           "author": "Moreau.henri",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 8
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/437_Audierne.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A437%20Audierne.jpg",
-          "title": "437 Audierne.jpg",
-          "width": 4314,
-          "height": 2157,
-          "size": 4140254,
-          "timestamp": "2021-12-17T07:21:13Z",
-          "author": "Moreau.henri",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Le_Port_d%27Audierne_Pierre_de_Belay_1936.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Port%20d'Audierne%20Pierre%20de%20Belay%201936.jpg",
-          "title": "Le Port d'Audierne Pierre de Belay 1936.jpg",
-          "width": 4223,
-          "height": 3202,
-          "size": 7592744,
-          "timestamp": "2022-11-28T22:23:32Z",
-          "author": "Pierre Savigny de Belay (1890-1947)",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/127_Port_Audierne.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A127%20Port%20Audierne.jpg",
+          "title": "127 Port Audierne.jpg",
+          "description": "Bateaux dans le port d'Audierne et, en arrière-plan, le château de Locquéran vers 1900 (carte postale LL).",
+          "width": 2543,
+          "height": 1520,
+          "size": 2316535,
+          "timestamp": "2019-01-27T04:10:04Z",
+          "author": "Léon et Lévy (avant 1913)",
           "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Audierne_-_Le_port.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAudierne%20-%20Le%20port.jpg",
+          "title": "Audierne - Le port.jpg",
+          "description": "Audierne - Le port",
+          "width": 6000,
+          "height": 4000,
+          "size": 11582785,
+          "timestamp": "2020-04-03T13:47:05Z",
+          "author": "Tilly antoine",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         }
@@ -90,7 +96,50 @@
     },
     {
       "label": "Plage du Trescadec",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Plage_%C3%A0_Audierne.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlage%20%C3%A0%20Audierne.jpg",
+          "title": "Plage à Audierne.jpg",
+          "description": "Beach in Audierne (Finistère, France).",
+          "width": 5472,
+          "height": 3648,
+          "size": 4140203,
+          "timestamp": "2020-09-09T08:20:57Z",
+          "author": "Gzen92",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/417_Audierne.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A417%20Audierne.jpg",
+          "title": "417 Audierne.jpg",
+          "description": "La plage de Landrevet-Le Pouldu, à cheval sur les anciennes communes d'Esquibien et d'Audierne ; à l'arrière-plan la jetée du Raoulic située à l'entrée du port d'Audierne.",
+          "width": 4294,
+          "height": 2041,
+          "size": 2989468,
+          "timestamp": "2021-12-17T04:29:53Z",
+          "author": "Moreau.henri",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/419_Audierne.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A419%20Audierne.jpg",
+          "title": "419 Audierne.jpg",
+          "description": "Audierne : ouvrages précaires de protection du littoral le long de la plage de Landrevet-Le Pouldu.",
+          "width": 4304,
+          "height": 2148,
+          "size": 3506039,
+          "timestamp": "2021-12-17T04:40:29Z",
+          "author": "Moreau.henri",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Chapelle Saint-Pierre",
@@ -98,7 +147,50 @@
     },
     {
       "label": "Pointe du Millier",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/422_Audierne.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A422%20Audierne.jpg",
+          "title": "422 Audierne.jpg",
+          "description": "Audierne : la pointe du Grand Large et, juste derrière elle et en partie masquée, la jetée du Raoulic.",
+          "width": 4070,
+          "height": 2872,
+          "size": 5196695,
+          "timestamp": "2021-12-17T05:02:47Z",
+          "author": "Moreau.henri",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Baie_d%27Audierne.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaie%20d'Audierne.JPG",
+          "title": "Baie d'Audierne.JPG",
+          "description": "Baie d'Audierne entre Plouhinec et Plozévet (Finistère)",
+          "width": 3648,
+          "height": 2736,
+          "size": 5012989,
+          "timestamp": "2010-05-09T15:11:18Z",
+          "author": "Ji-Elle",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Baie_d%27Audierne-Galets.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABaie%20d'Audierne-Galets.JPG",
+          "title": "Baie d'Audierne-Galets.JPG",
+          "description": "Galets dans la baie d'Audierne entre Plouhinec et Plozévet (Finistère)",
+          "width": 3648,
+          "height": 2736,
+          "size": 4249308,
+          "timestamp": "2010-05-09T15:53:00Z",
+          "author": "Ji-Elle",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     }
   ]
 }

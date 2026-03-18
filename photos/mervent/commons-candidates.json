@@ -1,46 +1,49 @@
 {
   "slug": "mervent",
   "nom": "Mervent",
-  "fetchedAt": "2026-03-13T16:09:44.093Z",
+  "fetchedAt": "2026-03-16T21:33:14.756Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/W2370-Mervent_ErmitageMontfort_Maison_37783.JPG",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AW2370-Mervent%20ErmitageMontfort%20Maison%2037783.JPG",
-      "title": "W2370-Mervent ErmitageMontfort Maison 37783.JPG",
-      "width": 4752,
-      "height": 3168,
-      "size": 10532738,
-      "timestamp": "2015-02-08T21:48:22Z",
-      "author": "Llann Wé²",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Ch%C3%A2teau_de_la_Citardi%C3%A8re_Mervent_%282%29.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20la%20Citardi%C3%A8re%20Mervent%20(2).JPG",
+      "title": "Château de la Citardière Mervent (2).JPG",
+      "description": "Château de la Citardière à Mervent, Vendée",
+      "width": 2560,
+      "height": 1920,
+      "size": 3181282,
+      "timestamp": "2011-08-29T21:59:32Z",
+      "author": "Gaëlle Fily",
+      "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/W2372-Mervent_ErmitageMontfort_X_37708.JPG",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AW2372-Mervent%20ErmitageMontfort%20X%2037708.JPG",
-      "title": "W2372-Mervent ErmitageMontfort X 37708.JPG",
-      "width": 4752,
-      "height": 3168,
-      "size": 7445130,
-      "timestamp": "2015-02-08T21:53:27Z",
-      "author": "Llann Wé²",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Ch%C3%A2teau_de_la_Citardi%C3%A8re_Mervent_%283%29.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20la%20Citardi%C3%A8re%20Mervent%20(3).JPG",
+      "title": "Château de la Citardière Mervent (3).JPG",
+      "description": "Château de la Citardière à Mervent, Vendée",
+      "width": 2560,
+      "height": 1920,
+      "size": 3042020,
+      "timestamp": "2011-08-29T22:00:03Z",
+      "author": "Gaëlle Fily",
+      "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Mervent_%2852329092896%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMervent%20(52329092896).jpg",
-      "title": "Mervent (52329092896).jpg",
-      "width": 2995,
-      "height": 2995,
-      "size": 3356866,
-      "timestamp": "2023-07-22T04:02:37Z",
-      "author": "_Talek_",
-      "license": "CC BY-SA 2.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Ch%C3%A2teau_de_la_Citardi%C3%A8re_Mervent_%284%29.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20la%20Citardi%C3%A8re%20Mervent%20(4).JPG",
+      "title": "Château de la Citardière Mervent (4).JPG",
+      "description": "Château de la Citardière à Mervent, Vendée",
+      "width": 2560,
+      "height": 1920,
+      "size": 3178246,
+      "timestamp": "2011-08-29T22:00:34Z",
+      "author": "Gaëlle Fily",
+      "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 7
     }
   ],
   "lieux": [
@@ -56,22 +59,10 @@
       "label": "Grotte du Père Montfort",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Grotte_du_P%C3%A8re_de_Monfort.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrotte%20du%20P%C3%A8re%20de%20Monfort.jpg",
-          "title": "Grotte du Père de Monfort.jpg",
-          "width": 4608,
-          "height": 3072,
-          "size": 10655343,
-          "timestamp": "2020-04-02T13:16:38Z",
-          "author": "Jujubier",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/W2369-Mervent_ErmitageMontfort_Grotte_37711.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AW2369-Mervent%20ErmitageMontfort%20Grotte%2037711.JPG",
           "title": "W2369-Mervent ErmitageMontfort Grotte 37711.JPG",
+          "description": "Site de l'ermitage de Grignion de Montfort, sa grotte-chapelle, Fr-85-Forêt de Mervent-Vouvant.",
           "width": 3168,
           "height": 4752,
           "size": 9767207,
@@ -85,7 +76,50 @@
     },
     {
       "label": "Parc de Pierre-Brune",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Mairie_de_Mervent.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMairie%20de%20Mervent.jpg",
+          "title": "Mairie de Mervent.jpg",
+          "description": "La Mairie de Mervent (85) dans le Parc du Château",
+          "width": 2256,
+          "height": 1496,
+          "size": 794174,
+          "timestamp": "2016-06-27T08:01:06Z",
+          "author": "Mervent85",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Vue_sur_le_lac_de_Mervent.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20sur%20le%20lac%20de%20Mervent.jpg",
+          "title": "Vue sur le lac de Mervent.jpg",
+          "description": "Vue sur le lac de Mervent (85) depuis le Parc du Château",
+          "width": 2256,
+          "height": 1496,
+          "size": 751026,
+          "timestamp": "2016-06-27T08:01:12Z",
+          "author": "Mervent85",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Le_village_de_Mervent.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20village%20de%20Mervent.jpg",
+          "title": "Le village de Mervent.jpg",
+          "description": "Le village de Mervent photographié depuis la route départementale D 116, sens Parc Zoologique de Mervent - Mervent (vers le hameau des Cendrillières).\n\n\nMervent, Vendée, France.",
+          "width": 5591,
+          "height": 3732,
+          "size": 6660783,
+          "timestamp": "2012-05-09T10:51:01Z",
+          "author": "Jpbazard",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     }
   ]
 }

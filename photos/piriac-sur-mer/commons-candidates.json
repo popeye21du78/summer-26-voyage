@@ -1,12 +1,13 @@
 {
   "slug": "piriac-sur-mer",
   "nom": "Piriac-sur-Mer",
-  "fetchedAt": "2026-03-14T10:49:36.806Z",
+  "fetchedAt": "2026-03-17T22:31:58.030Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Piriac_Madame_IMG_20220422_111616_mod.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APiriac%20Madame%20IMG%2020220422%20111616%20mod.jpg",
       "title": "Piriac Madame IMG 20220422 111616 mod.jpg",
+      "description": "Grotte à Madame, Piriac-sur-Mer, Loire-Atlantique, France.",
       "width": 4640,
       "height": 3108,
       "size": 6974386,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/W8219_Piriac_AtlanticWall_201132EOS.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AW8219%20Piriac%20AtlanticWall%20201132EOS.jpg",
       "title": "W8219 Piriac AtlanticWall 201132EOS.jpg",
+      "description": "Atlantic Wall, Piriac",
       "width": 4752,
       "height": 3168,
       "size": 3135580,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/W8228_Piriac_Manoir_201134EOS.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AW8228%20Piriac%20Manoir%20201134EOS.jpg",
       "title": "W8228 Piriac Manoir 201134EOS.jpg",
+      "description": "Manoir, Piriac",
       "width": 4752,
       "height": 3168,
       "size": 3513212,
@@ -48,22 +51,10 @@
       "label": "Pointe du Castelli",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Piriac_Madame_IMG_20220422_111616_mod.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APiriac%20Madame%20IMG%2020220422%20111616%20mod.jpg",
-          "title": "Piriac Madame IMG 20220422 111616 mod.jpg",
-          "width": 4640,
-          "height": 3108,
-          "size": 6974386,
-          "timestamp": "2023-06-24T09:38:50Z",
-          "author": "JYB Devot",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Pointe_du_Castelli_%C3%A0_Piriac-sur-Mer_1.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APointe%20du%20Castelli%20%C3%A0%20Piriac-sur-Mer%201.jpg",
           "title": "Pointe du Castelli à Piriac-sur-Mer 1.jpg",
+          "description": "Vue de la côte découpée et d'affleurement rocheux dans l'océan à la pointe du Castelli.",
           "width": 3264,
           "height": 2448,
           "size": 1233054,
@@ -71,12 +62,13 @@
           "author": "Pemberlaid",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Pointe_du_Castelli_%C3%A0_Piriac-sur-Mer_3.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APointe%20du%20Castelli%20%C3%A0%20Piriac-sur-Mer%203.jpg",
           "title": "Pointe du Castelli à Piriac-sur-Mer 3.jpg",
+          "description": "Vue de la côte découpée et d'affleurement rocheux dans l'océan à la pointe du Castelli.",
           "width": 3264,
           "height": 2448,
           "size": 968185,
@@ -84,71 +76,31 @@
           "author": "Pemberlaid",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Pointe_du_Castelli_%C3%A0_Piriac-sur-Mer_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APointe%20du%20Castelli%20%C3%A0%20Piriac-sur-Mer%202.jpg",
+          "title": "Pointe du Castelli à Piriac-sur-Mer 2.jpg",
+          "description": "Vue de la côte découpée et d'affleurement rocheux dans l'océan à la pointe du Castelli. Au premier plan, de la végétation et au loin, des villas de la côte de Piriac-sur-Mer.",
+          "width": 3264,
+          "height": 2448,
+          "size": 1141116,
+          "timestamp": "2023-10-14T19:47:16Z",
+          "author": "Pemberlaid",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
         }
       ]
     },
     {
       "label": "Plage de Lérat",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Plage_de_Lerat_-_panoramio.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlage%20de%20Lerat%20-%20panoramio.jpg",
-          "title": "Plage de Lerat - panoramio.jpg",
-          "width": 3648,
-          "height": 2736,
-          "size": 4894299,
-          "timestamp": "2016-11-09T10:04:13Z",
-          "author": "ydecaseneuve",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Port de Piriac",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Mobeye-%C3%89t%C3%A9DesVilles-Piriac-sur-Mer-401.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMobeye-%C3%89t%C3%A9DesVilles-Piriac-sur-Mer-401.jpg",
-          "title": "Mobeye-ÉtéDesVilles-Piriac-sur-Mer-401.jpg",
-          "width": 3104,
-          "height": 1746,
-          "size": 679688,
-          "timestamp": "2015-10-09T06:37:23Z",
-          "author": "Arthur B.",
-          "license": "CC BY 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Port_Piriac.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APort%20Piriac.jpg",
-          "title": "Port Piriac.jpg",
-          "width": 1600,
-          "height": 1200,
-          "size": 1046896,
-          "timestamp": "2007-01-14T21:17:09Z",
-          "author": "KaTeznik",
-          "license": "CC BY-SA 2.0 fr",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Le_Juste_-_Canons.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Juste%20-%20Canons.jpg",
-          "title": "Le Juste - Canons.jpg",
-          "width": 1280,
-          "height": 853,
-          "size": 837572,
-          "timestamp": "2008-09-17T19:39:07Z",
-          "author": "Remi Jouan",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Église Saint-Pierre",
@@ -157,6 +109,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Piriac-sur-Mer%2C_%C3%A9glise_Saint-Pierre-%C3%A8s-Lien.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APiriac-sur-Mer%2C%20%C3%A9glise%20Saint-Pierre-%C3%A8s-Lien.jpg",
           "title": "Piriac-sur-Mer, église Saint-Pierre-ès-Lien.jpg",
+          "description": "Vue prise du bas-côté de l'église Saint-Pierre-ès-Lien dans le village de Piriac-sur-Mer.",
           "width": 4096,
           "height": 3072,
           "size": 6833792,
@@ -170,6 +123,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/W8233_Piriac_StPierreEsLiens_1787-1991_MaitreAutel_201206EOS.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AW8233%20Piriac%20StPierreEsLiens%201787-1991%20MaitreAutel%20201206EOS.jpg",
           "title": "W8233 Piriac StPierreEsLiens 1787-1991 MaitreAutel 201206EOS.jpg",
+          "description": "Maître-Autel, Saint-Pierre-es-Liens (1787-1991), Piriac",
           "width": 4752,
           "height": 3168,
           "size": 5089913,
@@ -183,6 +137,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/W8234_Piriac_StPierreEsLiens_1787-1991_201208EOS.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AW8234%20Piriac%20StPierreEsLiens%201787-1991%20201208EOS.jpg",
           "title": "W8234 Piriac StPierreEsLiens 1787-1991 201208EOS.jpg",
+          "description": "Saint-Pierre-es-Liens (1787-1991), Piriac",
           "width": 4752,
           "height": 3168,
           "size": 3565592,

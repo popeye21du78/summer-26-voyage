@@ -1,12 +1,13 @@
 {
   "slug": "plage-de-la-baule",
   "nom": "Plage de la Baule",
-  "fetchedAt": "2026-03-14T11:02:13.495Z",
+  "fetchedAt": "2026-03-17T22:56:43.085Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Avenue_Georges_Clemenceau_-_La_Baule-Escoublac_%28FR44%29_-_2022-09-17_-_2.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAvenue%20Georges%20Clemenceau%20-%20La%20Baule-Escoublac%20(FR44)%20-%202022-09-17%20-%202.jpg",
       "title": "Avenue Georges Clemenceau - La Baule-Escoublac (FR44) - 2022-09-17 - 2.jpg",
+      "description": "Avenue Georges Clemenceau, La Baule-Escoublac.",
       "width": 4032,
       "height": 3024,
       "size": 3721178,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Avenue_Pierre_Perc%C3%A9e_-_La_Baule-Escoublac_%28FR44%29_-_2022-09-17_-_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAvenue%20Pierre%20Perc%C3%A9e%20-%20La%20Baule-Escoublac%20(FR44)%20-%202022-09-17%20-%201.jpg",
       "title": "Avenue Pierre Percée - La Baule-Escoublac (FR44) - 2022-09-17 - 1.jpg",
+      "description": "Avenue de la Pierre Percée, La Baule-Escoublac.",
       "width": 4032,
       "height": 3024,
       "size": 4226014,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Avenue_Georges_Clemenceau_-_La_Baule-Escoublac_%28FR44%29_-_2022-09-17_-_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAvenue%20Georges%20Clemenceau%20-%20La%20Baule-Escoublac%20(FR44)%20-%202022-09-17%20-%201.jpg",
       "title": "Avenue Georges Clemenceau - La Baule-Escoublac (FR44) - 2022-09-17 - 1.jpg",
+      "description": "Avenue Georges Clemenceau, La Baule-Escoublac.",
       "width": 4032,
       "height": 3024,
       "size": 3936122,
@@ -50,7 +53,22 @@
     },
     {
       "label": "Villas balnéaires derrière les pins",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/La_Baule%2C_Les_Villas_et_la_Plage%2C_La_Navette%2C_chemin_de_fer_%C3%A0_voie_%C3%A9troite_reliant_Le_Pouliguen_%C3%A0_Pornichet_via_La_Baule_-_Narrow-gauge_railway_from_Pouliguen_via_La_Baule_to_Pornichet.webp",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Baule%2C%20Les%20Villas%20et%20la%20Plage%2C%20La%20Navette%2C%20chemin%20de%20fer%20%C3%A0%20voie%20%C3%A9troite%20reliant%20Le%20Pouliguen%20%C3%A0%20Pornichet%20via%20La%20Baule%20-%20Narrow-gauge%20railway%20from%20Pouliguen%20via%20La%20Baule%20to%20Pornichet.webp",
+          "title": "La Baule, Les Villas et la Plage, La Navette, chemin de fer à voie étroite reliant Le Pouliguen à Pornichet via La Baule - Narrow-gauge railway from Pouliguen via La Baule to Pornichet.webp",
+          "description": "Narrow-gauge railway from Pouliguen via La Baule to Pornichet",
+          "width": 578,
+          "height": 370,
+          "size": 46584,
+          "timestamp": "2025-10-25T16:12:50Z",
+          "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     },
     {
       "label": "Port du Pouliguen",
@@ -59,6 +77,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Plage_%28Pornichet%29_%2801%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlage%20(Pornichet)%20(01).jpg",
           "title": "Plage (Pornichet) (01).jpg",
+          "description": "Le port d'échouage de Pornichet, à l'extrémité orientale de la baie du Pouliguen. Bordant la baie, à droite de l'image, la plage des Libraires (toujours à Pornichet), qui se prolonge, au loin et à gauche, par celle de La Baule (Loire-Atlantique, France).",
           "width": 4288,
           "height": 3216,
           "size": 1183422,
@@ -69,9 +88,24 @@
           "score": 6
         },
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Chemins_de_fer_d%27Orl%C3%A9ans._Plages_de_Bretagne_affiche%2C_G._Fraipont_F_%26_M_Moreau%2C_95_rue_de_Vaugirard%2C_Paris.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChemins%20de%20fer%20d'Orl%C3%A9ans.%20Plages%20de%20Bretagne%20affiche%2C%20G.%20Fraipont%20F%20%26%20M%20Moreau%2C%2095%20rue%20de%20Vaugirard%2C%20Paris.jpg",
+          "title": "Chemins de fer d'Orléans. Plages de Bretagne affiche, G. Fraipont F & M Moreau, 95 rue de Vaugirard, Paris.jpg",
+          "description": "Title :  Chemins de fer d'Orléans. Plages de Bretagne : [affiche] / G. Fraipont ; F &amp; M Moreau, 95 rue de Vaugirard, ParisAuthor :  Fraipont, Gustave (1849-1923). Illustrateur  Author :  Imprimerie Fraipont et Moreau (Paris). Auteur ou responsable intellectuel  Publisher :  [Chemins de fer d'Orléans] (Paris)Publication date :  1896Subject :  Chemins de fer  Subject :  Bretagne (France)  Subject :  La Baule-Escoublac (Loire-Atlantique, France)  Subject :  Le Pouliguen (Loire-Atlantique, Franc",
+          "width": 10440,
+          "height": 13142,
+          "size": 50591925,
+          "timestamp": "2024-04-12T19:32:32Z",
+          "author": "Fraipont, Gustave (1849-1923). Illustrateur",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Chemins_de_fer_d%27Orl%C3%A9ans._Plages_de_Bretagne_-_affiche_-_G._Fraipont_%3B_F_%26_M_Moreau%2C_95_rue_de_Vaugirard%2C_Paris_-_btv1b9015852m.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChemins%20de%20fer%20d'Orl%C3%A9ans.%20Plages%20de%20Bretagne%20-%20affiche%20-%20G.%20Fraipont%20%3B%20F%20%26%20M%20Moreau%2C%2095%20rue%20de%20Vaugirard%2C%20Paris%20-%20btv1b9015852m.jpg",
           "title": "Chemins de fer d'Orléans. Plages de Bretagne - affiche - G. Fraipont ; F & M Moreau, 95 rue de Vaugirard, Paris - btv1b9015852m.jpg",
+          "description": "Sujet : Chemins de fer\nBretagne (France)\nLa Baule-Escoublac (Loire-Atlantique, France)\nLe Pouliguen (Loire-Atlantique, France)\nBelle-Île (Morbihan, France)\nSauzon -- Port\nBeg-Meil\nTransports et communications\nTransports ferroviaires\nTourisme\nPaysages -- 1870-1914\nAppartient à l’ensemble documentaire : Bretagn1\nAppartient à l’ensemble documentaire : PaysLoir1\nAffiche\nLangue : français\n\nÉditeur : [Chemins de fer d'Orléans] (Paris)",
           "width": 10440,
           "height": 13142,
           "size": 10255285,
@@ -80,19 +114,6 @@
           "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/SHOM_Benchmark%2C_Le_Pouliguen%2C_Loire-Atlantique%2C_France_-_Close_Up.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASHOM%20Benchmark%2C%20Le%20Pouliguen%2C%20Loire-Atlantique%2C%20France%20-%20Close%20Up.JPG",
-          "title": "SHOM Benchmark, Le Pouliguen, Loire-Atlantique, France - Close Up.JPG",
-          "width": 4576,
-          "height": 3056,
-          "size": 5991632,
-          "timestamp": "2012-07-10T22:37:48Z",
-          "author": "Poulpy",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
         }
       ]
     }

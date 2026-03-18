@@ -1,12 +1,13 @@
 {
   "slug": "evron",
   "nom": "Évron",
-  "fetchedAt": "2026-03-13T14:20:08.816Z",
+  "fetchedAt": "2026-03-16T13:17:18.218Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/%C3%89vron_%2853%29_Basilique_Notre-Dame_de_l%27%C3%89pine_-_Ext%C3%A9rieur_-_01.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89vron%20(53)%20Basilique%20Notre-Dame%20de%20l'%C3%89pine%20-%20Ext%C3%A9rieur%20-%2001.jpg",
       "title": "Évron (53) Basilique Notre-Dame de l'Épine - Extérieur - 01.jpg",
+      "description": "Extérieur de la basilique Notre-Dame de l'Épine d'Évron (53). Vue méridionale.",
       "width": 2400,
       "height": 1600,
       "size": 923047,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/%C3%89vron_%2853%29_Basilique_Notre-Dame_de_l%27%C3%89pine_-_Int%C3%A9rieur_-_Baies_100_%C3%A0_104.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89vron%20(53)%20Basilique%20Notre-Dame%20de%20l'%C3%89pine%20-%20Int%C3%A9rieur%20-%20Baies%20100%20%C3%A0%20104.jpg",
       "title": "Évron (53) Basilique Notre-Dame de l'Épine - Intérieur - Baies 100 à 104.jpg",
+      "description": "Baies 100 à 104 de la basilique Notre-Dame de l'Épine à Évron (53).",
       "width": 5652,
       "height": 3984,
       "size": 6980189,
@@ -30,15 +32,16 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/%C3%89vron_%2853%29_Basilique_Notre-Dame_de_l%27%C3%89pine_-_Int%C3%A9rieur_-_Tapisserie_du_bapt%C3%AAme_du_Christ_02.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89vron%20(53)%20Basilique%20Notre-Dame%20de%20l'%C3%89pine%20-%20Int%C3%A9rieur%20-%20Tapisserie%20du%20bapt%C3%AAme%20du%20Christ%2002.jpg",
-      "title": "Évron (53) Basilique Notre-Dame de l'Épine - Intérieur - Tapisserie du baptême du Christ 02.jpg",
-      "width": 3000,
-      "height": 2000,
-      "size": 2754785,
-      "timestamp": "2020-03-22T20:16:27Z",
-      "author": "GO69",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Evron_%28Mayenne%29_-_Basilique_Notre-Dame_de_l%27Epine_-_53186709768.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEvron%20(Mayenne)%20-%20Basilique%20Notre-Dame%20de%20l'Epine%20-%2053186709768.jpg",
+      "title": "Evron (Mayenne) - Basilique Notre-Dame de l'Epine - 53186709768.jpg",
+      "description": "Evron (Mayenne) - Basilique Notre-Dame de l'Epine\nfr.wikipedia.org/wiki/Abbaye_Notre-Dame_d%27%C3%89vron",
+      "width": 4637,
+      "height": 3070,
+      "size": 3241114,
+      "timestamp": "2023-09-15T18:30:26Z",
+      "author": "Morio60",
+      "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     }
@@ -46,11 +49,69 @@
   "lieux": [
     {
       "label": "Jardin monastique",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Abbaye_%C3%89vron_et_jardin.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20%C3%89vron%20et%20jardin.jpg",
+          "title": "Abbaye Évron et jardin.jpg",
+          "description": "Abtei Évron mit Garten",
+          "width": 4000,
+          "height": 2250,
+          "size": 3661606,
+          "timestamp": "2024-06-25T09:50:46Z",
+          "author": "Feldbrahi",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Abbaye_Notre-Dame_d%27%C3%89vron2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20Notre-Dame%20d'%C3%89vron2.jpg",
+          "title": "Abbaye Notre-Dame d'Évron2.jpg",
+          "description": "Abtei Notre-Dame von Évron von der Rückseite",
+          "width": 4000,
+          "height": 2250,
+          "size": 3729994,
+          "timestamp": "2024-06-25T09:54:38Z",
+          "author": "Feldbrahi",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/%C3%89vron_-_jardin_aquatique.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89vron%20-%20jardin%20aquatique.jpg",
+          "title": "Évron - jardin aquatique.jpg",
+          "description": "Water garden, swimming-pool of Évron (Mayenne, France)",
+          "width": 5472,
+          "height": 3648,
+          "size": 9891840,
+          "timestamp": "2025-03-10T20:50:24Z",
+          "author": "Fab5669",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Chœur roman de l’abbatiale",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Plan_1903_Lefevre-Pontalis_basilique_Evron.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlan%201903%20Lefevre-Pontalis%20basilique%20Evron.jpg",
+          "title": "Plan 1903 Lefevre-Pontalis basilique Evron.jpg",
+          "description": "plan de la basilique 1903, depuis les époques de construction ont été réévaluées et la chapelle saint Crépin est en fait inclinée par rapport à l'axe de la basilique",
+          "width": 1618,
+          "height": 1203,
+          "size": 241434,
+          "timestamp": "2020-05-19T22:02:58Z",
+          "author": "Lefèvre-Pontalis modifié sous paint par mes soins le 19 mai 2020",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Cloître",

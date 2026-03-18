@@ -1,12 +1,13 @@
 {
   "slug": "bouchemaine",
   "nom": "Bouchemaine",
-  "fetchedAt": "2026-03-13T00:24:07.617Z",
+  "fetchedAt": "2026-03-15T19:55:19.367Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Bouchemaine_%2849%29_La_Maine_-_02.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABouchemaine%20(49)%20La%20Maine%20-%2002.jpg",
       "title": "Bouchemaine (49) La Maine - 02.jpg",
+      "description": "La Maine à Bouchemaine (49).",
       "width": 2848,
       "height": 1990,
       "size": 1936573,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Bouchemaine_%2849%29_La_Maine_-_01.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABouchemaine%20(49)%20La%20Maine%20-%2001.jpg",
       "title": "Bouchemaine (49) La Maine - 01.jpg",
+      "description": "La Maine à Bouchemaine (49).",
       "width": 3648,
       "height": 2736,
       "size": 3651029,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Bouchemaine_%2849%29_La_Maine_-_03.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABouchemaine%20(49)%20La%20Maine%20-%2003.jpg",
       "title": "Bouchemaine (49) La Maine - 03.jpg",
+      "description": "La Maine à Bouchemaine (49).",
       "width": 3088,
       "height": 2255,
       "size": 2341199,
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Bouchemaine%2C_Quai_de_la_No%C3%AB.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABouchemaine%2C%20Quai%20de%20la%20No%C3%AB.jpg",
           "title": "Bouchemaine, Quai de la Noë.jpg",
+          "description": "Chrysler Newport Station Wagon 1962... maybe ?",
           "width": 2500,
           "height": 2500,
           "size": 4806578,
@@ -69,6 +73,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Bouchemaine_%2849%29_%C3%89glise_Saint-Symphorien_-_Ext%C3%A9rieur_-_01.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABouchemaine%20(49)%20%C3%89glise%20Saint-Symphorien%20-%20Ext%C3%A9rieur%20-%2001.jpg",
           "title": "Bouchemaine (49) Église Saint-Symphorien - Extérieur - 01.jpg",
+          "description": "Extérieur de l'église Saint-Symphorien à Bouchemaine (49).",
           "width": 3648,
           "height": 2736,
           "size": 4482639,
@@ -82,6 +87,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Eglise_St_Symphorien_de_Bouchemaine-2015b.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20St%20Symphorien%20de%20Bouchemaine-2015b.JPG",
           "title": "Eglise St Symphorien de Bouchemaine-2015b.JPG",
+          "description": "Église Saint-Symphorien à Bouchemaine (Maine-et-Loire, France), des XIe, XIIe, XIIIe, XVe et XIXe siècles, inscrite au titre des monuments historiques en 1972 (PA00108980). Vue d’ensemble. Juillet 2015.",
           "width": 4288,
           "height": 3216,
           "size": 2906434,
@@ -95,6 +101,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Eglise_St_Symphorien_de_Bouchemaine-2015a.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20St%20Symphorien%20de%20Bouchemaine-2015a.JPG",
           "title": "Eglise St Symphorien de Bouchemaine-2015a.JPG",
+          "description": "Église Saint-Symphorien à Bouchemaine (Maine-et-Loire, France), des XIe, XIIe, XIIIe, XVe et XIXe siècles, inscrite au titre des monuments historiques en 1972 (PA00108980). Vue d’ensemble. Juillet 2015.",
           "width": 4288,
           "height": 3216,
           "size": 2904966,
@@ -112,7 +119,22 @@
     },
     {
       "label": "Moulin de la Pointe",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Bouchemaine_-_Rue_des_Moulins_-_bo%C3%AEte_%C3%A0_livres.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABouchemaine%20-%20Rue%20des%20Moulins%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
+          "title": "Bouchemaine - Rue des Moulins - boîte à livres.jpg",
+          "description": "Boîte à livres à Bouchemaine",
+          "width": 2500,
+          "height": 1882,
+          "size": 873485,
+          "timestamp": "2026-02-18T22:01:49Z",
+          "author": "Raphaël Chédru",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

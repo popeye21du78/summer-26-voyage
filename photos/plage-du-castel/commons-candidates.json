@@ -1,44 +1,47 @@
 {
   "slug": "plage-du-castel",
   "nom": "Plage du Castel",
-  "fetchedAt": "2026-03-14T11:21:43.335Z",
+  "fetchedAt": "2026-03-18T16:30:52.195Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Mercedes_Sprinter_City_Nice.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMercedes%20Sprinter%20City%20Nice.jpg",
-      "title": "Mercedes Sprinter City Nice.jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 3174776,
-      "timestamp": "2020-03-22T11:18:33Z",
-      "author": "Punx",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Tr%C3%A9beurden_-_Plage_de_Tresmeur_vue_du_Castel_-_AD22_-_16FI6151.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATr%C3%A9beurden%20-%20Plage%20de%20Tresmeur%20vue%20du%20Castel%20-%20AD22%20-%2016FI6151.jpg",
+      "title": "Trébeurden - Plage de Tresmeur vue du Castel - AD22 - 16FI6151.jpg",
+      "description": "La plage de Tresmeur. Vue du Castel.",
+      "width": 1650,
+      "height": 1028,
+      "size": 320362,
+      "timestamp": "2021-01-13T20:11:08Z",
+      "author": "<div class=\"fn value\">\nà préciser</div>",
+      "license": "Licence Ouverte",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Tr%C3%A9beurden_-_Plage_de_Tresmeur_et_rochers_du_Castel_-_AD22_-_16FI6081.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATr%C3%A9beurden%20-%20Plage%20de%20Tresmeur%20et%20rochers%20du%20Castel%20-%20AD22%20-%2016FI6081.jpg",
+      "title": "Trébeurden - Plage de Tresmeur et rochers du Castel - AD22 - 16FI6081.jpg",
+      "description": "La  plage de Tresmeur et les rochers du Castel.",
+      "width": 1650,
+      "height": 1050,
+      "size": 303928,
+      "timestamp": "2021-01-13T20:00:20Z",
+      "author": "<div class=\"fn value\">\nà préciser</div>",
+      "license": "Licence Ouverte",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/LA_VOCE_DEL_CAPRONE.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALA%20VOCE%20DEL%20CAPRONE.jpg",
-      "title": "LA VOCE DEL CAPRONE.jpg",
-      "width": 2076,
-      "height": 1127,
-      "size": 764885,
-      "timestamp": "2023-04-26T20:38:13Z",
-      "author": "Pjzuni",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/BOUCtion_Seniors_%287475450066%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABOUCtion%20Seniors%20(7475450066).jpg",
-      "title": "BOUCtion Seniors (7475450066).jpg",
-      "width": 1280,
-      "height": 960,
-      "size": 1170969,
-      "timestamp": "2024-09-04T07:50:57Z",
-      "author": "Metro Centric",
-      "license": "CC BY 2.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Tr%C3%A9beurden_-_Plage_de_Trozoul_-_port_et_le_castel_-_AD22_-_16FI6086.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATr%C3%A9beurden%20-%20Plage%20de%20Trozoul%20-%20port%20et%20le%20castel%20-%20AD22%20-%2016FI6086.jpg",
+      "title": "Trébeurden - Plage de Trozoul - port et le castel - AD22 - 16FI6086.jpg",
+      "description": "Plage de Trozoul - Le port et le Castel.",
+      "width": 1637,
+      "height": 1036,
+      "size": 407059,
+      "timestamp": "2021-01-13T20:01:09Z",
+      "author": "<div class=\"fn value\">\nà préciser</div>",
+      "license": "Licence Ouverte",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     }
@@ -46,21 +49,7 @@
   "lieux": [
     {
       "label": "Colline du Château de Nice",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Beaches_along_the_Promenade_des_Anglais_%2853535057603%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeaches%20along%20the%20Promenade%20des%20Anglais%20(53535057603).jpg",
-          "title": "Beaches along the Promenade des Anglais (53535057603).jpg",
-          "width": 1953,
-          "height": 1952,
-          "size": 1201683,
-          "timestamp": "2024-08-28T13:09:51Z",
-          "author": "Carnaval.com Studios",
-          "license": "CC BY 2.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Jetée Rauba Capeu",

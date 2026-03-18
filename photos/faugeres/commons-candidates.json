@@ -1,12 +1,13 @@
 {
   "slug": "faugeres",
   "nom": "Faugères",
-  "fetchedAt": "2026-03-13T14:21:31.245Z",
+  "fetchedAt": "2026-03-16T13:19:36.016Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Moulin_de_Faug%C3%A8res.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMoulin%20de%20Faug%C3%A8res.jpg",
       "title": "Moulin de Faugères.jpg",
+      "description": "Moulin de Faugères en 2004",
       "width": 2288,
       "height": 1568,
       "size": 432987,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Vineyards_in_Faug%C3%A8res_01.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVineyards%20in%20Faug%C3%A8res%2001.jpg",
       "title": "Vineyards in Faugères 01.jpg",
+      "description": "A mazet (occitan language name for a stoneworked construction) in vineyards. Faugères, Hérault, France.",
       "width": 7360,
       "height": 4600,
       "size": 40813677,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Vineyards_in_Faug%C3%A8res_02.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVineyards%20in%20Faug%C3%A8res%2002.jpg",
       "title": "Vineyards in Faugères 02.jpg",
+      "description": "A mazet (occitan language name for a stoneworked construction) in vineyards. Faugères, Hérault, France.",
       "width": 7360,
       "height": 4912,
       "size": 40205876,
@@ -46,34 +49,7 @@
   "lieux": [
     {
       "label": "Moulin à vent de Faugères",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Faugeres_%2834%29_les_moulins.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFaugeres%20(34)%20les%20moulins.jpg",
-          "title": "Faugeres (34) les moulins.jpg",
-          "width": 3456,
-          "height": 2304,
-          "size": 4266960,
-          "timestamp": "2007-06-21T09:31:15Z",
-          "author": "Fagairolles 34",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Faugeres_%2834%29_moulin_a_vent.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFaugeres%20(34)%20moulin%20a%20vent.JPG",
-          "title": "Faugeres (34) moulin a vent.JPG",
-          "width": 2304,
-          "height": 3456,
-          "size": 2338787,
-          "timestamp": "2007-06-20T18:37:53Z",
-          "author": "Fagairolles 34",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 3
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Église Saint-Christophe",
@@ -82,6 +58,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Faugeres_%2814%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFaugeres%20(14).jpg",
           "title": "Faugeres (14).jpg",
+          "description": "Faugères",
           "width": 4256,
           "height": 2832,
           "size": 5494337,
@@ -92,9 +69,24 @@
           "score": 7
         },
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Eglise_de_Faug%C3%A8res.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20de%20Faug%C3%A8res.jpg",
+          "title": "Eglise de Faugères.jpg",
+          "description": "eglise de Faugères",
+          "width": 4640,
+          "height": 3472,
+          "size": 8609035,
+          "timestamp": "2024-08-21T10:25:09Z",
+          "author": "Copyleft",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Faug%C3%A8res_%2834%29_St-Christophe_portail_sud.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFaug%C3%A8res%20(34)%20St-Christophe%20portail%20sud.jpg",
           "title": "Faugères (34) St-Christophe portail sud.jpg",
+          "description": "Faugères (Hérault)- église Saint-Christophe - portail sud.",
           "width": 4608,
           "height": 3456,
           "size": 13435369,
@@ -103,19 +95,6 @@
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Faug%C3%A8res_%2834%29_St-Christophe_1.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFaug%C3%A8res%20(34)%20St-Christophe%201.jpg",
-          "title": "Faugères (34) St-Christophe 1.jpg",
-          "width": 3456,
-          "height": 4608,
-          "size": 11962487,
-          "timestamp": "2018-07-16T16:22:16Z",
-          "author": "Fagairolles 34",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
         }
       ]
     },

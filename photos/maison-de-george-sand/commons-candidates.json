@@ -1,12 +1,13 @@
 {
   "slug": "maison-de-george-sand",
   "nom": "Maison de George Sand",
-  "fetchedAt": "2026-03-13T16:02:44.448Z",
+  "fetchedAt": "2026-03-16T21:11:30.561Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Fa%C3%A7ade_de_la_maison_de_Georges_Sand_.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFa%C3%A7ade%20de%20la%20maison%20de%20Georges%20Sand%20.jpg",
       "title": "Façade de la maison de Georges Sand .jpg",
+      "description": "Façade de la maison de Georges Sand à Nohant, vue depuis la cours.",
       "width": 4000,
       "height": 3000,
       "size": 7850603,
@@ -14,25 +15,13 @@
       "author": "Anonimage",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Cour_de_la_maison_de_Georges_Sand_.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACour%20de%20la%20maison%20de%20Georges%20Sand%20.jpg",
-      "title": "Cour de la maison de Georges Sand .jpg",
-      "width": 4656,
-      "height": 3496,
-      "size": 8440155,
-      "timestamp": "2020-02-24T18:42:01Z",
-      "author": "Anonimage",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Salle_%C3%A0_manger_de_Georges_Sand_.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASalle%20%C3%A0%20manger%20de%20Georges%20Sand%20.jpg",
       "title": "Salle à manger de Georges Sand .jpg",
+      "description": "Vue de la salle à manger de Georges Sand, dans sa maison de Nohant, prise depuis l'entrée du salon. Au fond en enfilade, la chambre des enfants puis le cabinet de travail.",
       "width": 4000,
       "height": 3000,
       "size": 4665318,
@@ -40,13 +29,70 @@
       "author": "Anonimage",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Cabinet_de_travail_de_Georges_Sand_.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACabinet%20de%20travail%20de%20Georges%20Sand%20.jpg",
+      "title": "Cabinet de travail de Georges Sand .jpg",
+      "description": "Vue du cabinet de travail de Georges Sand, attenant à la chambre de ses enfants. Dans le miroir, le secrétaire sur lequel elle écrivait.",
+      "width": 4000,
+      "height": 3000,
+      "size": 4716466,
+      "timestamp": "2020-02-24T18:46:26Z",
+      "author": "Anonimage",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
     }
   ],
   "lieux": [
     {
       "label": "Grand salon bleu",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Maison_de_George_Sand%2C_grand_salon%2C_vue_g%C3%A9n%C3%A9rale.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison%20de%20George%20Sand%2C%20grand%20salon%2C%20vue%20g%C3%A9n%C3%A9rale.jpg",
+          "title": "Maison de George Sand, grand salon, vue générale.jpg",
+          "description": "Vue générale du grand salon dans la maison de George Sand à Nohant-Vic, dans l'Indre, en France.",
+          "width": 4608,
+          "height": 3440,
+          "size": 2749015,
+          "timestamp": "2017-04-04T20:57:44Z",
+          "author": "Eunostos",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Maison_de_George_Sand%2C_grand_salon%2C_portrait_de_la_famille_de_George_Sand.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison%20de%20George%20Sand%2C%20grand%20salon%2C%20portrait%20de%20la%20famille%20de%20George%20Sand.jpg",
+          "title": "Maison de George Sand, grand salon, portrait de la famille de George Sand.jpg",
+          "description": "Le grand salon dans la maison de George Sand à Nohant-Vic, dans l'Indre, en France. De nombreux tableaux sont accrochés aux murs. La plupart représentent la famille et les ancêtres de George Sand. Sur la gauche, le grand tableau ovale montre George and elle-même. Sur la droite, le grand tableau rectangulaire montre son fils Maurice Sand en jeune homme : il ressemble beaucoup à sa mère et porte les cheveux longs, une coiffure typique du romantisme du début du XIXe siècle en France.",
+          "width": 4608,
+          "height": 3440,
+          "size": 2849744,
+          "timestamp": "2017-04-04T20:57:45Z",
+          "author": "Eunostos",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Maison_de_George_Sand%2C_salle_%C3%A0_manger%2C_lustre.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison%20de%20George%20Sand%2C%20salle%20%C3%A0%20manger%2C%20lustre.jpg",
+          "title": "Maison de George Sand, salle à manger, lustre.jpg",
+          "description": "La salle à manger dans la maison de George Sand à Nohant-Vic, dans l'Indre, en France. L'écrivaine y recevait amis et invités. Le grand lustre est en verre de Venise.",
+          "width": 3440,
+          "height": 4608,
+          "size": 2816797,
+          "timestamp": "2017-04-04T20:57:42Z",
+          "author": "Eunostos",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Chambre de George Sand",
@@ -55,6 +101,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Salle_%C3%A0_manger_de_Georges_Sand_.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASalle%20%C3%A0%20manger%20de%20Georges%20Sand%20.jpg",
           "title": "Salle à manger de Georges Sand .jpg",
+          "description": "Vue de la salle à manger de Georges Sand, dans sa maison de Nohant, prise depuis l'entrée du salon. Au fond en enfilade, la chambre des enfants puis le cabinet de travail.",
           "width": 4000,
           "height": 3000,
           "size": 4665318,
@@ -62,29 +109,31 @@
           "author": "Anonimage",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Maison_de_George_Sand%2C_chambre_bleue.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison%20de%20George%20Sand%2C%20chambre%20bleue.jpg",
-          "title": "Maison de George Sand, chambre bleue.jpg",
-          "width": 4608,
-          "height": 3440,
-          "size": 3146793,
-          "timestamp": "2017-04-04T20:57:52Z",
-          "author": "Eunostos",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Maison_de_George_Sand%2C_cabinet_de_travail_au_premier_%C3%A9tage%2C_bureau_et_biblioth%C3%A8que.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison%20de%20George%20Sand%2C%20cabinet%20de%20travail%20au%20premier%20%C3%A9tage%2C%20bureau%20et%20biblioth%C3%A8que.jpg",
           "title": "Maison de George Sand, cabinet de travail au premier étage, bureau et bibliothèque.jpg",
+          "description": "George Sand's office, on the first floor of her house in Nohant-Vic, Indre, France. View of the writing desk and the library.\nThe writer set up this study on the site of the former room of the composer Chopin some time after their separation. The old room is divided in two rooms separated by a partition that she added: on the left the study cabinet photographed here, on the right (beyond the partition) an archive cabinet filled with large files.",
           "width": 4608,
           "height": 3440,
           "size": 2798956,
           "timestamp": "2017-04-04T20:57:53Z",
+          "author": "Eunostos",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Maison_de_George_Sand%2C_chambre_bleue.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison%20de%20George%20Sand%2C%20chambre%20bleue.jpg",
+          "title": "Maison de George Sand, chambre bleue.jpg",
+          "description": "Chambre bleue au premier étage de la maison de George Sand à Nohant-Vic, dans l'Indre, en France. George Sand y loge pendant la dernière partie de sa vie, entre 1867 et 1876.",
+          "width": 4608,
+          "height": 3440,
+          "size": 3146793,
+          "timestamp": "2017-04-04T20:57:52Z",
           "author": "Eunostos",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -99,6 +148,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Maison_de_George_Sand%2C_le_castelet_des_marionnettes.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison%20de%20George%20Sand%2C%20le%20castelet%20des%20marionnettes.jpg",
           "title": "Maison de George Sand, le castelet des marionnettes.jpg",
+          "description": "Castelet des marionnettes dans la maison de George Sand à Nohant-Vic, dans l'Indre, en France. Ce théâtre de marionnettes se trouve au rez-de-chaussée : il est aménagé en 1854 à côté d'un petit théâtre qui occupait une partie de la même pièce depuis 1850. Les marionnettes étaient fabriquées par Maurice Sand et habillées par George Sand qui en cousait les habits. Au fil des années, plus de 150 marionnettes représentant toutes sortes de personnages furent créées ainsi.",
           "width": 4608,
           "height": 3440,
           "size": 2644606,
@@ -109,36 +159,67 @@
           "score": 6
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/PM_103786_Nohant.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APM%20103786%20Nohant.jpg",
-          "title": "PM 103786 Nohant.jpg",
-          "width": 600,
-          "height": 400,
-          "size": 274829,
-          "timestamp": "2016-07-16T13:08:18Z",
-          "author": "PMRMaeyaert",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Maison_de_George_Sand%2C_le_th%C3%A9%C3%A2tre.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison%20de%20George%20Sand%2C%20le%20th%C3%A9%C3%A2tre.jpg",
+          "title": "Maison de George Sand, le théâtre.jpg",
+          "description": "Théâtre des adultes dans la maison de George Sand à Nohant-Vic, dans l'Indre, en France. Construit en 1850, il pouvait accueillir une cinquantaine de spectateurs (généralement debout). George Sand l'utilisait notamment pour créer ses propres pièces afin d'en corriger et d'en améliorer le texte avant de les proposer aux théâtres parisiens.",
+          "width": 4608,
+          "height": 3440,
+          "size": 4253592,
+          "timestamp": "2017-04-04T20:57:49Z",
+          "author": "Eunostos",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/PM_103790_Nohant.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APM%20103790%20Nohant.jpg",
-          "title": "PM 103790 Nohant.jpg",
-          "width": 600,
-          "height": 414,
-          "size": 222583,
-          "timestamp": "2016-07-16T13:08:19Z",
-          "author": "PMRMaeyaert",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 6
         }
       ]
     },
     {
       "label": "Parc à l’anglaise",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Nohant-Vic%2C_Ch%C3%A2teau_George_Sand%2C_Domaine_de_George_Sand_PM_09551.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANohant-Vic%2C%20Ch%C3%A2teau%20George%20Sand%2C%20Domaine%20de%20George%20Sand%20PM%2009551.jpg",
+          "title": "Nohant-Vic, Château George Sand, Domaine de George Sand PM 09551.jpg",
+          "description": "France. Centre-Val de Loire, Indre. Nohant-Vic. Château de George SandDomaine de George Sand, Corambé 1989-91, Françoise Vergier, statue en bronze, 150x23cm, © ADAGP; Commande publique, parc de la Maison de George Sand à Nohant. La statue est une matérialisation du dieu Corambé inventé par l’écrivain dans son enfance. Statue of a woman Corambé. Françoise Vergier. Bronze. 150x23cm. 1989-91.",
+          "width": 850,
+          "height": 567,
+          "size": 656581,
+          "timestamp": "2011-09-28T22:34:38Z",
+          "author": "PMRMaeyaert",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Nohant-Vic%2C_Ch%C3%A2teau_George_Sand%2C_Domaine_de_George_Sand_PM_09552.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANohant-Vic%2C%20Ch%C3%A2teau%20George%20Sand%2C%20Domaine%20de%20George%20Sand%20PM%2009552.jpg",
+          "title": "Nohant-Vic, Château George Sand, Domaine de George Sand PM 09552.jpg",
+          "description": "France. Centre-Val de Loire, Indre. Nohant-Vic. Château de George SandDomaine de George Sand, Corambé 1989-91, Françoise Vergier, statue en bronze, 150x23cm, © ADAGP; Commande publique, parc de la Maison de George Sand à Nohant. La statue est une matérialisation du dieu Corambé inventé par l’écrivain dans son enfance. Statue of a woman Corambé. Françoise Vergier. Bronze. 150x23cm. 1989-91.",
+          "width": 850,
+          "height": 567,
+          "size": 716760,
+          "timestamp": "2011-09-28T22:34:40Z",
+          "author": "PMRMaeyaert",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Nohant-Vic%2C_Ch%C3%A2teau_George_Sand%2C_Domaine_de_George_Sand_PM_09554.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANohant-Vic%2C%20Ch%C3%A2teau%20George%20Sand%2C%20Domaine%20de%20George%20Sand%20PM%2009554.jpg",
+          "title": "Nohant-Vic, Château George Sand, Domaine de George Sand PM 09554.jpg",
+          "description": "France. Centre-Val de Loire, Indre. Nohant-Vic. Château de George SandDomaine de George Sand, Corambé 1989-91, Françoise Vergier, statue en bronze, 150x23cm, © ADAGP; Commande publique, parc de la Maison de George Sand à Nohant. La statue est une matérialisation du dieu Corambé inventé par l’écrivain dans son enfance. Statue of a woman Corambé. Françoise Vergier. Bronze. 150x23cm. 1989-91.",
+          "width": 850,
+          "height": 567,
+          "size": 286335,
+          "timestamp": "2011-09-28T22:36:29Z",
+          "author": "PMRMaeyaert",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

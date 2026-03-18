@@ -1,12 +1,13 @@
 {
   "slug": "plage-de-sainte-anne-la-palud",
   "nom": "Plage de Sainte-Anne-la-Palud",
-  "fetchedAt": "2026-03-14T11:14:15.196Z",
+  "fetchedAt": "2026-03-18T16:14:13.939Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Pardon_de_Sainte-Anne-La-palue_repas_en_famille_%2849865765371%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APardon%20de%20Sainte-Anne-La-palue%20repas%20en%20famille%20(49865765371).jpg",
       "title": "Pardon de Sainte-Anne-La-palue repas en famille (49865765371).jpg",
+      "description": "Pardon de Sainte-Anne-La-palue repas en famille",
       "width": 3206,
       "height": 2029,
       "size": 3395651,
@@ -17,22 +18,10 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Plage_de_Kervel.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlage%20de%20Kervel.jpg",
-      "title": "Plage de Kervel.jpg",
-      "width": 4208,
-      "height": 1942,
-      "size": 941972,
-      "timestamp": "2023-02-18T09:02:45Z",
-      "author": "Michelp29",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Surf_Foil_%C3%A0_Saint-Anne-La-Palud.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASurf%20Foil%20%C3%A0%20Saint-Anne-La-Palud.jpg",
       "title": "Surf Foil à Saint-Anne-La-Palud.jpg",
+      "description": "Deux surfeurs sur leurs planches de surf à foil pas encore levée, pagayant pour prendre la vague, en mer juste devant le sud de la plage de Saint-Anne, côté Pointe de Trefeuntec (vers Saint-Anne-La-Palud, France). Au premier plan : l'extrémité rocheuse de la pointe Beg an Ty Garde",
       "width": 4896,
       "height": 3672,
       "size": 2882919,
@@ -41,12 +30,41 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Pardon_de_Sainte_Anne_la_Palue_vers_1900_%2851553336593%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APardon%20de%20Sainte%20Anne%20la%20Palue%20vers%201900%20(51553336593).jpg",
+      "title": "Pardon de Sainte Anne la Palue vers 1900 (51553336593).jpg",
+      "description": "Pardon de Sainte Anne la Palue vers 1900",
+      "width": 2032,
+      "height": 3187,
+      "size": 3748538,
+      "timestamp": "2021-12-30T10:14:29Z",
+      "author": "Claude LACOURARIE",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
     }
   ],
   "lieux": [
     {
       "label": "Dune de Sainte-Anne-la-Palud",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/406_Plage_de_Sainte-Anne-la-Palud.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A406%20Plage%20de%20Sainte-Anne-la-Palud.jpg",
+          "title": "406 Plage de Sainte-Anne-la-Palud.jpg",
+          "description": "Plage de Sainte-Anne-la-Palud : le restaurant et camping des Dunes.",
+          "width": 4262,
+          "height": 1158,
+          "size": 2257181,
+          "timestamp": "2020-08-08T04:18:36Z",
+          "author": "Moreau.henri",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Baie de Douarnenez vue du sentier côtier",

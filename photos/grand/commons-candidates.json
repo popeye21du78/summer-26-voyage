@@ -1,12 +1,13 @@
 {
   "slug": "grand",
   "nom": "Grand",
-  "fetchedAt": "2026-03-13T14:36:35.428Z",
+  "fetchedAt": "2026-03-16T13:49:59.050Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Grand%2C_Ancienne_halle_du_march%C3%A9.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrand%2C%20Ancienne%20halle%20du%20march%C3%A9.jpg",
       "title": "Grand, Ancienne halle du marché.jpg",
+      "description": "L'ancienne halle du marché à Grand",
       "width": 8428,
       "height": 6702,
       "size": 10035953,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Grand%2C_Mairie.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrand%2C%20Mairie.jpg",
       "title": "Grand, Mairie.jpg",
+      "description": "La mairie de Grand",
       "width": 8067,
       "height": 4434,
       "size": 5936617,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Grand_%28Vosges%29_-_Mosa%C3%AFque_gallo-romaine_%28explore_29-04-25%29_-_Flickr_-_Morio60.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrand%20(Vosges)%20-%20Mosa%C3%AFque%20gallo-romaine%20(explore%2029-04-25)%20-%20Flickr%20-%20Morio60.jpg",
       "title": "Grand (Vosges) - Mosaïque gallo-romaine (explore 29-04-25) - Flickr - Morio60.jpg",
+      "description": "Grand (Vosges) - Mosaïque gallo-romaine\n\nfr.wikipedia.org/wiki/Mosa%C3%AFque_de_Grand",
       "width": 4649,
       "height": 3206,
       "size": 5869403,
@@ -46,15 +49,144 @@
   "lieux": [
     {
       "label": "Amphithéâtre de Grand – gradins et arène",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/The_Sorbonne_Grand_amphitheatre_during_the_Choose_Europe_for_Science_event_-_2025_%281%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AThe%20Sorbonne%20Grand%20amphitheatre%20during%20the%20Choose%20Europe%20for%20Science%20event%20-%202025%20(1).jpg",
+          "title": "The Sorbonne Grand amphitheatre during the Choose Europe for Science event - 2025 (1).jpg",
+          "description": "General view of the Sorbonne Grand amphitheatre during the Choose Europe for Science event.",
+          "width": 4000,
+          "height": 2667,
+          "size": 3493048,
+          "timestamp": "2025-05-05T20:43:18Z",
+          "author": "Christophe Licoppe / European Union, 2025 / EC - Audiovisual Service",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/The_Sorbonne_Grand_amphitheatre_during_the_Choose_Europe_for_Science_event_-_2025_%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AThe%20Sorbonne%20Grand%20amphitheatre%20during%20the%20Choose%20Europe%20for%20Science%20event%20-%202025%20(2).jpg",
+          "title": "The Sorbonne Grand amphitheatre during the Choose Europe for Science event - 2025 (2).jpg",
+          "description": "General view of the Sorbonne Grand amphitheatre during the Choose Europe for Science event.",
+          "width": 4000,
+          "height": 2667,
+          "size": 3555354,
+          "timestamp": "2025-05-05T20:43:18Z",
+          "author": "Christophe Licoppe / European Union, 2025 / EC - Audiovisual Service",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Grand_amphitheatre_caveae.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrand%20amphitheatre%20caveae.jpg",
+          "title": "Grand amphitheatre caveae.jpg",
+          "description": "Vue des caveae de l'amphithéâtre de Grand",
+          "width": 4704,
+          "height": 3136,
+          "size": 20930206,
+          "timestamp": "2015-07-27T17:14:29Z",
+          "author": "PY54",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        }
+      ]
     },
     {
       "label": "Mosaïque gallo-romaine (abri)",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Vue_a%C3%A9rienne_d%E2%80%99une_mosa%C3%AFque_agricole_dans_la_vall%C3%A9e_du_Grand_Rift_%2817695909316%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20a%C3%A9rienne%20d%E2%80%99une%20mosa%C3%AFque%20agricole%20dans%20la%20vall%C3%A9e%20du%20Grand%20Rift%20(17695909316).jpg",
+          "title": "Vue aérienne d’une mosaïque agricole dans la vallée du Grand Rift (17695909316).jpg",
+          "description": "10 avril 2015, Nord-Kivu, RD Congo : Vue aérienne d’une mosaïque agricole dans la vallée du Grand Rift. Photo MONUSCO/Abel Kavanagh\n\n\n10 April 2015, North Kivu, DR Congo:  Aerial view of an agricultural mosaic in the Great Rift Valley. Photo MONUSCO/Abel Kavanagh",
+          "width": 5760,
+          "height": 3840,
+          "size": 2021140,
+          "timestamp": "2016-01-11T04:16:36Z",
+          "author": "MONUSCO Photos",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Grand_palais_mosaique.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrand%20palais%20mosaique.jpg",
+          "title": "Grand palais mosaique.jpg",
+          "description": "expo",
+          "width": 3164,
+          "height": 2302,
+          "size": 2158582,
+          "timestamp": "2020-03-18T16:17:49Z",
+          "author": "Gyssels stephane",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Saint-Gilles_-_maison_Hannon_-_2023-06-04_-_mosa%C3%AFque_du_grand_hall_vu_de_l%27%C3%A9tage_-_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Gilles%20-%20maison%20Hannon%20-%202023-06-04%20-%20mosa%C3%AFque%20du%20grand%20hall%20vu%20de%20l'%C3%A9tage%20-%2001.jpg",
+          "title": "Saint-Gilles - maison Hannon - 2023-06-04 - mosaïque du grand hall vu de l'étage - 01.jpg",
+          "description": "Saint-Gilles (Bruxelles-Belgique) - Maison Hannon - mosaïque du grand hall vu de l'étage.",
+          "width": 4928,
+          "height": 3264,
+          "size": 12759710,
+          "timestamp": "2023-06-12T14:33:49Z",
+          "author": "Jmh2o",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Sanctuaire antique – colonnes et vestiges",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Grand_Shrine_at_Ise_-_Flickr_-_EL._Photography.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrand%20Shrine%20at%20Ise%20-%20Flickr%20-%20EL.%20Photography.jpg",
+          "title": "Grand Shrine at Ise - Flickr - EL. Photography.jpg",
+          "description": "@ Japan",
+          "width": 4939,
+          "height": 3456,
+          "size": 8964854,
+          "timestamp": "2020-07-21T02:37:55Z",
+          "author": "Ellie",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Ise_Grand_Shrine%2C_Mie_Prefecture%3B_November_2016_%2802%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AIse%20Grand%20Shrine%2C%20Mie%20Prefecture%3B%20November%202016%20(02).jpg",
+          "title": "Ise Grand Shrine, Mie Prefecture; November 2016 (02).jpg",
+          "description": "Ise Grand Shrine, Mie Prefecture, Japan.",
+          "width": 5565,
+          "height": 3710,
+          "size": 12439042,
+          "timestamp": "2020-09-06T05:42:19Z",
+          "author": "雷太",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Ise_Grand_Shrine%2C_Mie_Prefecture%3B_November_2016_%2801%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AIse%20Grand%20Shrine%2C%20Mie%20Prefecture%3B%20November%202016%20(01).jpg",
+          "title": "Ise Grand Shrine, Mie Prefecture; November 2016 (01).jpg",
+          "description": "Ise Grand Shrine, Mie Prefecture, Japan.",
+          "width": 5634,
+          "height": 3756,
+          "size": 13589930,
+          "timestamp": "2020-09-06T05:42:20Z",
+          "author": "雷太",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

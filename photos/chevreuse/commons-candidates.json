@@ -1,12 +1,13 @@
 {
   "slug": "chevreuse",
   "nom": "Chevreuse",
-  "fetchedAt": "2026-03-13T13:25:11.197Z",
+  "fetchedAt": "2026-03-16T11:47:23.979Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Lavoir_du_Mandar_Chevreuse_2023.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALavoir%20du%20Mandar%20Chevreuse%202023.jpg",
       "title": "Lavoir du Mandar Chevreuse 2023.jpg",
+      "description": "Ruelle du Mandar\nAvant 1816 (ou 1819)\nCouvert de paille en 1849, 10 places, toit en tuiles mécaniques puis de pays, pavage et dalles en grès, murs en meulière, présence de silex et grès, ouverture sur la ruelle derrière.\nFin d'activité entre 1950 et 1960\nRestauré en 1986\n\nTransformé en halte abri sur le GR11",
       "width": 4896,
       "height": 3264,
       "size": 6658198,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Promenade_des_petits_ponts_Chevreuse_n3.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APromenade%20des%20petits%20ponts%20Chevreuse%20n3.jpg",
       "title": "Promenade des petits ponts Chevreuse n3.jpg",
+      "description": "Lavoirs le long de l'Yvette sur la promenade des petits ponts à Chevreuse, dans les Yvelines.",
       "width": 7257,
       "height": 4842,
       "size": 21274663,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Prieur%C3%A9_Saint-Saturnin_de_Chevreuse_3.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APrieur%C3%A9%20Saint-Saturnin%20de%20Chevreuse%203.jpg",
       "title": "Prieuré Saint-Saturnin de Chevreuse 3.jpg",
+      "description": "Priory Saint-Saturnin next to the church of Chevreuse, France.",
       "width": 3888,
       "height": 2592,
       "size": 6377836,
@@ -48,22 +51,38 @@
       "label": "Château de la Madeleine",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Ch%C3%A2teau_de_la_Madeleine.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20la%20Madeleine.jpg",
-          "title": "Château de la Madeleine.jpg",
-          "width": 4000,
-          "height": 3000,
-          "size": 5205516,
-          "timestamp": "2023-07-14T10:16:24Z",
-          "author": "ThomasInTheSky",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Chevreuse_%2878%29_Ch%C3%A2teau_de_la_Madeleine_152.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChevreuse%20(78)%20Ch%C3%A2teau%20de%20la%20Madeleine%20152.jpg",
+          "title": "Chevreuse (78) Château de la Madeleine 152.jpg",
+          "description": "Château de la Madeleine in Chevreuse im Département Yvelines in der Region Île-de-France (Frankreich)",
+          "width": 7728,
+          "height": 5152,
+          "size": 36414274,
+          "timestamp": "2023-11-05T20:13:22Z",
+          "author": "GFreihalter",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Chevreuse_%2878%29_Ch%C3%A2teau_de_la_Madeleine_153.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChevreuse%20(78)%20Ch%C3%A2teau%20de%20la%20Madeleine%20153.jpg",
+          "title": "Chevreuse (78) Château de la Madeleine 153.jpg",
+          "description": "Château de la Madeleine in Chevreuse im Département Yvelines in der Region Île-de-France (Frankreich)",
+          "width": 7728,
+          "height": 5152,
+          "size": 38363535,
+          "timestamp": "2023-11-05T20:13:22Z",
+          "author": "GFreihalter",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Chevreuse_%2878%29_Ch%C3%A2teau_de_la_Madeleine_151.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChevreuse%20(78)%20Ch%C3%A2teau%20de%20la%20Madeleine%20151.jpg",
           "title": "Chevreuse (78) Château de la Madeleine 151.jpg",
+          "description": "Château de la Madeleine in Chevreuse im Département Yvelines in der Region Île-de-France (Frankreich)",
           "width": 7728,
           "height": 5152,
           "size": 38888706,
@@ -71,20 +90,7 @@
           "author": "GFreihalter",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Chevreuse_%2878%29_Ch%C3%A2teau_de_la_Madeleine_154.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChevreuse%20(78)%20Ch%C3%A2teau%20de%20la%20Madeleine%20154.jpg",
-          "title": "Chevreuse (78) Château de la Madeleine 154.jpg",
-          "width": 7728,
-          "height": 5152,
-          "size": 39106936,
-          "timestamp": "2023-11-05T20:13:29Z",
-          "author": "GFreihalter",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         }
       ]
     },
@@ -95,6 +101,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Promenade_des_petits_ponts_Chevreuse_n2.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APromenade%20des%20petits%20ponts%20Chevreuse%20n2.jpg",
           "title": "Promenade des petits ponts Chevreuse n2.jpg",
+          "description": "Lavoirs le long de l'Yvette sur la promenade des petits ponts à Chevreuse, dans les Yvelines.",
           "width": 6352,
           "height": 4239,
           "size": 17992181,
@@ -108,6 +115,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Promenade_des_petits_ponts_Chevreuse_n3.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APromenade%20des%20petits%20ponts%20Chevreuse%20n3.jpg",
           "title": "Promenade des petits ponts Chevreuse n3.jpg",
+          "description": "Lavoirs le long de l'Yvette sur la promenade des petits ponts à Chevreuse, dans les Yvelines.",
           "width": 7257,
           "height": 4842,
           "size": 21274663,
@@ -121,6 +129,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Promenade_des_petits_ponts_Chevreuse_n1.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APromenade%20des%20petits%20ponts%20Chevreuse%20n1.jpg",
           "title": "Promenade des petits ponts Chevreuse n1.jpg",
+          "description": "Lavoirs le long de l'Yvette sur la promenade des petits ponts à Chevreuse, dans les Yvelines.",
           "width": 7360,
           "height": 4912,
           "size": 21442395,
@@ -139,6 +148,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Chevreuse_%2878%29_%C3%89glise_Saint-Martin_488.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChevreuse%20(78)%20%C3%89glise%20Saint-Martin%20488.jpg",
           "title": "Chevreuse (78) Église Saint-Martin 488.jpg",
+          "description": "Katholische Kirche Saint-Martin in Chevreuse im Département Yvelines in der Region Île-de-France in Frankreich",
           "width": 4447,
           "height": 2964,
           "size": 9124772,
@@ -152,6 +162,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Chevreuse_%2878%29_%C3%89glise_Saint-Martin_Int%C3%A9rieur_454.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChevreuse%20(78)%20%C3%89glise%20Saint-Martin%20Int%C3%A9rieur%20454.jpg",
           "title": "Chevreuse (78) Église Saint-Martin Intérieur 454.jpg",
+          "description": "Katholische Kirche Saint-Martin in Chevreuse im Département Yvelines in der Region Île-de-France in Frankreich, Innenraum",
           "width": 4896,
           "height": 3264,
           "size": 17118252,
@@ -162,13 +173,14 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Chevreuse_%2878%29_%C3%89glise_Saint-Martin_436.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChevreuse%20(78)%20%C3%89glise%20Saint-Martin%20436.jpg",
-          "title": "Chevreuse (78) Église Saint-Martin 436.jpg",
-          "width": 4372,
-          "height": 2914,
-          "size": 12047965,
-          "timestamp": "2022-04-02T19:11:23Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Chevreuse_%2878%29_%C3%89glise_Saint-Martin_434.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChevreuse%20(78)%20%C3%89glise%20Saint-Martin%20434.jpg",
+          "title": "Chevreuse (78) Église Saint-Martin 434.jpg",
+          "description": "Katholische Kirche Saint-Martin in Chevreuse im Département Yvelines in der Region Île-de-France in Frankreich, Liegefigur Christus im Grab, vermutlich aus dem 16. Jahrhundert",
+          "width": 4424,
+          "height": 2950,
+          "size": 14140122,
+          "timestamp": "2022-04-02T19:11:22Z",
           "author": "GFreihalter",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -178,7 +190,50 @@
     },
     {
       "label": "Jardin public Jean Racine",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Yvelines_Chevreuse_Atelier_Jardin_-_panoramio.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AYvelines%20Chevreuse%20Atelier%20Jardin%20-%20panoramio.jpg",
+          "title": "Yvelines Chevreuse Atelier Jardin - panoramio.jpg",
+          "description": "Yvelines Chevreuse Atelier Jardin",
+          "width": 1600,
+          "height": 1200,
+          "size": 935941,
+          "timestamp": "2017-05-10T14:15:01Z",
+          "author": "rene boulay",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Statue_Chevreuse_1303975.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStatue%20Chevreuse%201303975.jpg",
+          "title": "Statue Chevreuse 1303975.jpg",
+          "description": "de la ville de troyes.",
+          "width": 2656,
+          "height": 4248,
+          "size": 7785639,
+          "timestamp": "2022-01-13T14:59:56Z",
+          "author": "G.Garitan",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Troyes_-_jardin_de_Chevreuse_%2802%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATroyes%20-%20jardin%20de%20Chevreuse%20(02).jpg",
+          "title": "Troyes - jardin de Chevreuse (02).jpg",
+          "description": "Chevreuse garden, in Troyes (Aube, France) : bust of Louis Mony",
+          "width": 2448,
+          "height": 3264,
+          "size": 3479195,
+          "timestamp": "2017-01-22T12:46:59Z",
+          "author": "Fab5669",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     }
   ]
 }

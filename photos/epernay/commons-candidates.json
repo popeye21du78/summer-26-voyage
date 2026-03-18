@@ -1,12 +1,13 @@
 {
   "slug": "epernay",
   "nom": "Épernay",
-  "fetchedAt": "2026-03-13T14:13:56.231Z",
+  "fetchedAt": "2026-03-16T13:04:31.603Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Epernay_War_Memorial_and_Town_Hall_02.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEpernay%20War%20Memorial%20and%20Town%20Hall%2002.jpg",
       "title": "Epernay War Memorial and Town Hall 02.jpg",
+      "description": "War memorial and town hall in Épernay, France.",
       "width": 5184,
       "height": 3734,
       "size": 4320344,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Epernay_War_Memorial_and_Town_Hall_01.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEpernay%20War%20Memorial%20and%20Town%20Hall%2001.jpg",
       "title": "Epernay War Memorial and Town Hall 01.jpg",
+      "description": "War memorial and town hall in Épernay, France.",
       "width": 4978,
       "height": 3509,
       "size": 4847485,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/7_rue_du_Docteur-Verron_in_Epernay_%283%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A7%20rue%20du%20Docteur-Verron%20in%20Epernay%20(3).jpg",
       "title": "7 rue du Docteur-Verron in Epernay (3).jpg",
+      "description": "Building at 7 rue du Docteur-Verron in Épernay, Marne, France",
       "width": 6056,
       "height": 3681,
       "size": 15917559,
@@ -46,55 +49,101 @@
   "lieux": [
     {
       "label": "Mont Bernon",
+      "photos": []
+    },
+    {
+      "label": "Chemin de halage de la Marne",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Centre_d%27Epernay%2C_vu_du_pont_de_l%27avenue_du_mar%C3%A9chal_Joffre.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACentre%20d'Epernay%2C%20vu%20du%20pont%20de%20l'avenue%20du%20mar%C3%A9chal%20Joffre.jpg",
-          "title": "Centre d'Epernay, vu du pont de l'avenue du maréchal Joffre.jpg",
-          "width": 4000,
-          "height": 3000,
-          "size": 3629607,
-          "timestamp": "2018-06-02T13:21:10Z",
-          "author": "Espirat",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Sortie_ateliers_chemin_de_fer_%C3%A9pernay_1008060.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASortie%20ateliers%20chemin%20de%20fer%20%C3%A9pernay%201008060.jpg",
+          "title": "Sortie ateliers chemin de fer épernay 1008060.jpg",
+          "description": "sur une vue ancienne de cf. le titre.",
+          "width": 1328,
+          "height": 832,
+          "size": 304980,
+          "timestamp": "2021-06-23T08:27:23Z",
+          "author": "inconnu, versement et modifications : G.Garitan",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/%C3%89pernay_%28Marne%29_%2841114453704%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89pernay%20(Marne)%20(41114453704).jpg",
-          "title": "Épernay (Marne) (41114453704).jpg",
-          "width": 4718,
-          "height": 3194,
-          "size": 6016012,
-          "timestamp": "2018-06-11T09:56:14Z",
-          "author": "Daniel Jolivet",
-          "license": "CC BY 2.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Carte_des_projets_de_trac%C3%A9s_de_Chelin_de_fer_d%27Orl%C3%A9ans_%C3%A0_Epernay_-_btv1b8495160q.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarte%20des%20projets%20de%20trac%C3%A9s%20de%20Chelin%20de%20fer%20d'Orl%C3%A9ans%20%C3%A0%20Epernay%20-%20btv1b8495160q.jpg",
+          "title": "Carte des projets de tracés de Chelin de fer d'Orléans à Epernay - btv1b8495160q.jpg",
+          "description": "Sujet : Chemins de fer\nProjets\nChampagne, Province de -- Sud-Ouest -- Chemins de fer -- Projets\nÉchelle(s) : [1:500 000 ]\nAppartient à l’ensemble documentaire : ChArdenn1\nCouverture : France\nLangue : français\n\nÉditeur : Darras, imp. (Sens)",
+          "width": 8730,
+          "height": 6736,
+          "size": 5023739,
+          "timestamp": "2022-08-09T15:12:46Z",
+          "author": "Inconnu",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Hautvillers%2C_view_to_%C3%89pernay.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHautvillers%2C%20view%20to%20%C3%89pernay.jpg",
-          "title": "Hautvillers, view to Épernay.jpg",
-          "width": 2764,
-          "height": 1843,
-          "size": 1380230,
-          "timestamp": "2018-08-14T15:20:52Z",
-          "author": "Dguendel",
-          "license": "CC BY 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Louis-Napol%C3%A9on_Bonaparte_inaugure_le_chemin_de_fer_de_Paris_%C3%A0_Epernay%2C_2_septembre_1849%2C_ND8960.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALouis-Napol%C3%A9on%20Bonaparte%20inaugure%20le%20chemin%20de%20fer%20de%20Paris%20%C3%A0%20Epernay%2C%202%20septembre%201849%2C%20ND8960.jpg",
+          "title": "Louis-Napoléon Bonaparte inaugure le chemin de fer de Paris à Epernay, 2 septembre 1849, ND8960.jpg",
+          "description": "Auteur(s):\n\nAnonyme, graveur en médailles - Médailleur\n\n\nDate de production:\n\nEn 1849\n\n\nType(s) d'objet(s):\n\nNumismatique\n\n\nDénomination(s):\n\nMédaille\nLieu(x) d'exécution / réalisation: \nParis\n\n\n\nDimensions - Oeuvre:\n\n\n   Diamètre : 4.7 cm\n   Poids (type dimension) : 19.04 g\n\n\n\nDescription:\n\n\nRelief, droit et revers\n\n\n\nMarques, inscriptions, poinçons:\n\nLégende - Au droit circulaire supérieur : \"INAUGURATION DU CHEMIN DE FER\" ; au droit circulaire inférieur : \"PRESIDENT DE LA REPUBLIQUE\" ; au dro",
+          "width": 4256,
+          "height": 2832,
+          "size": 6332182,
+          "timestamp": "2023-06-26T12:36:22Z",
+          "author": "Anonyme, graveur en médailles - Médailleur",
+          "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         }
       ]
     },
     {
-      "label": "Chemin de halage de la Marne",
-      "photos": []
-    },
-    {
       "label": "Parc Roger-Menu",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Parc_maigret_%C3%A9pernay_1509320.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParc%20maigret%20%C3%A9pernay%201509320.jpg",
+          "title": "Parc maigret épernay 1509320.jpg",
+          "description": "compétition Indoor Épernay de roller en 2024.",
+          "width": 6336,
+          "height": 3850,
+          "size": 863205,
+          "timestamp": "2024-01-17T14:41:33Z",
+          "author": "Gérald Garitan",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Parc_maigret_%C3%A9pernay_1509309.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParc%20maigret%20%C3%A9pernay%201509309.jpg",
+          "title": "Parc maigret épernay 1509309.jpg",
+          "description": "compétition Indoor Épernay de roller en 2024.",
+          "width": 4697,
+          "height": 2288,
+          "size": 544493,
+          "timestamp": "2024-01-17T14:41:36Z",
+          "author": "Gérald Garitan",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Parc_maigret_%C3%A9pernay_1509408.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParc%20maigret%20%C3%A9pernay%201509408.jpg",
+          "title": "Parc maigret épernay 1509408.jpg",
+          "description": "compétition Indoor Épernay de roller en 2024.",
+          "width": 7359,
+          "height": 3740,
+          "size": 1112466,
+          "timestamp": "2024-01-17T14:41:36Z",
+          "author": "Gérald Garitan",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Belvédère du Chêne de Monthelon",

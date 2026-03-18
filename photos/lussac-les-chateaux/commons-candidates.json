@@ -1,12 +1,13 @@
 {
   "slug": "lussac-les-chateaux",
   "nom": "Lussac-les-Châteaux",
-  "fetchedAt": "2026-03-13T15:59:04.788Z",
+  "fetchedAt": "2026-03-16T21:04:15.494Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Lussac-les-Ch%C3%A2teaux_-_03.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALussac-les-Ch%C3%A2teaux%20-%2003.jpg",
       "title": "Lussac-les-Châteaux - 03.jpg",
+      "description": "Lussac-les-Châteaux - centre ville",
       "width": 4032,
       "height": 3024,
       "size": 1917128,
@@ -14,12 +15,13 @@
       "author": "AirScott",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Lussac-les-Ch%C3%A2teaux_-_01.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALussac-les-Ch%C3%A2teaux%20-%2001.jpg",
       "title": "Lussac-les-Châteaux - 01.jpg",
+      "description": "Lussac-les-Châteaux - un école",
       "width": 4032,
       "height": 3024,
       "size": 2392117,
@@ -27,12 +29,13 @@
       "author": "AirScott",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Lussac-les-Ch%C3%A2teaux_-_02.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALussac-les-Ch%C3%A2teaux%20-%2002.jpg",
       "title": "Lussac-les-Châteaux - 02.jpg",
+      "description": "Lussac-les-Châteaux - ruisseau",
       "width": 4032,
       "height": 3024,
       "size": 3206844,
@@ -40,7 +43,7 @@
       "author": "AirScott",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     }
   ],
   "lieux": [
@@ -52,43 +55,18 @@
       "label": "pont de pierre",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Saint-Pierre-d%27Exideuil_ligne_ferroviaire_ouest_pont_34_%282%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Pierre-d'Exideuil%20ligne%20ferroviaire%20ouest%20pont%2034%20(2).jpg",
-          "title": "Saint-Pierre-d'Exideuil ligne ferroviaire ouest pont 34 (2).jpg",
-          "width": 3249,
-          "height": 2437,
-          "size": 2653642,
-          "timestamp": "2025-04-12T13:13:44Z",
-          "author": "Père Igor",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Lussac86.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALussac86.jpg",
+          "title": "Lussac86.jpg",
+          "description": "",
+          "width": 1600,
+          "height": 1200,
+          "size": 530432,
+          "timestamp": "2010-03-17T11:06:00Z",
+          "author": "Inconnu",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Saint-Pierre-d%27Exideuil_ligne_ferroviaire_ouest_pont_34_%281%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Pierre-d'Exideuil%20ligne%20ferroviaire%20ouest%20pont%2034%20(1).jpg",
-          "title": "Saint-Pierre-d'Exideuil ligne ferroviaire ouest pont 34 (1).jpg",
-          "width": 3254,
-          "height": 2440,
-          "size": 2770289,
-          "timestamp": "2025-04-12T13:13:44Z",
-          "author": "Père Igor",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Saint-Pierre-d%27Exideuil_pont_34.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Pierre-d'Exideuil%20pont%2034.jpg",
-          "title": "Saint-Pierre-d'Exideuil pont 34.jpg",
-          "width": 3082,
-          "height": 2312,
-          "size": 2183175,
-          "timestamp": "2025-04-12T13:13:44Z",
-          "author": "Père Igor",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 5
         }
       ]
     },

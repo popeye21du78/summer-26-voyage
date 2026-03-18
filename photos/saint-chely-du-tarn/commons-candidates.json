@@ -1,12 +1,13 @@
 {
   "slug": "saint-chely-du-tarn",
   "nom": "Saint-Chely-du-Tarn",
-  "fetchedAt": "2026-03-14T11:58:44.647Z",
+  "fetchedAt": "2026-03-18T18:05:56.567Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Auberge_du_Moulin_in_Sainte-Enimie.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAuberge%20du%20Moulin%20in%20Sainte-Enimie.jpg",
       "title": "Auberge du Moulin in Sainte-Enimie.jpg",
+      "description": "Auberge du Moulin in Sainte-Enimie, Lozère, France",
       "width": 5339,
       "height": 3573,
       "size": 12872425,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Place_du_Plo_in_Sainte-Enimie_%281%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlace%20du%20Plo%20in%20Sainte-Enimie%20(1).jpg",
       "title": "Place du Plo in Sainte-Enimie (1).jpg",
+      "description": "Place du Plô in Sainte-Enimie, Lozère, France",
       "width": 4466,
       "height": 2945,
       "size": 9670177,
@@ -30,17 +32,18 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/15th_century_building_in_Sainte-Enimie_%282%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A15th%20century%20building%20in%20Sainte-Enimie%20(2).jpg",
-      "title": "15th century building in Sainte-Enimie (2).jpg",
-      "width": 4485,
-      "height": 3421,
-      "size": 10437395,
-      "timestamp": "2020-03-18T17:39:04Z",
-      "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q51955005\" class=\"extiw\" title=\"d:Q51955005\"><span title=\"Wikimedian\">Krzysztof Golik</span></a></bdi>",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Sainte-Enimie_01.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASainte-Enimie%2001.jpg",
+      "title": "Sainte-Enimie 01.jpg",
+      "description": "Panorama piture from Sainte-Enimie in France. Made by stitching 6 single pictures using Hugin.",
+      "width": 7733,
+      "height": 1927,
+      "size": 4207559,
+      "timestamp": "2010-10-20T06:14:24Z",
+      "author": "Kuebi",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 6
     }
   ],
   "lieux": [
@@ -48,43 +51,46 @@
       "label": "Pont de Saint-Chély-du-Tarn",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Bridge_over_the_Tarn_river_in_Saint-Chely-du-Tarn.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABridge%20over%20the%20Tarn%20river%20in%20Saint-Chely-du-Tarn.jpg",
-          "title": "Bridge over the Tarn river in Saint-Chely-du-Tarn.jpg",
-          "width": 4446,
-          "height": 2951,
-          "size": 12363372,
-          "timestamp": "2020-03-19T10:01:55Z",
-          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q51955005\" class=\"extiw\" title=\"d:Q51955005\"><span title=\"Wikimedian\">Krzysztof Golik</span></a></bdi>",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Pont_de_St_Ch%C3%A9ly_du_Tarn.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20de%20St%20Ch%C3%A9ly%20du%20Tarn.jpg",
-          "title": "Pont de St Chély du Tarn.jpg",
-          "width": 3088,
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/St_Ch%C3%A9ly_du_Tarn_a.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt%20Ch%C3%A9ly%20du%20Tarn%20a.jpg",
+          "title": "St Chély du Tarn a.jpg",
+          "description": "St Chély du Tarn : Vue depuis le pont sur le Tarn",
+          "width": 3096,
           "height": 2096,
-          "size": 1236000,
-          "timestamp": "2021-01-21T14:59:11Z",
+          "size": 1668722,
+          "timestamp": "2021-01-21T14:59:12Z",
           "author": "Jean-Claude MELLIN",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Pont_de_Saint-Ch%C3%A9ly_du_Tarn.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20de%20Saint-Ch%C3%A9ly%20du%20Tarn.jpg",
-          "title": "Pont de Saint-Chély du Tarn.jpg",
-          "width": 3888,
-          "height": 2592,
-          "size": 8293756,
-          "timestamp": "2023-12-22T11:10:04Z",
-          "author": "GerritR",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/St_Ch%C3%A9ly_du_Tarn_c.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt%20Ch%C3%A9ly%20du%20Tarn%20c.jpg",
+          "title": "St Chély du Tarn c.jpg",
+          "description": "St Chély du Tarn : Vue depuis le pont sur la cascade",
+          "width": 3088,
+          "height": 2087,
+          "size": 1698995,
+          "timestamp": "2021-01-21T14:59:19Z",
+          "author": "Jean-Claude MELLIN",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/St_Ch%C3%A9ly_du_Tarn_b.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt%20Ch%C3%A9ly%20du%20Tarn%20b.jpg",
+          "title": "St Chély du Tarn b.jpg",
+          "description": "St Chély du Tarn : vue depuis le pont sur le Tarn",
+          "width": 2103,
+          "height": 3063,
+          "size": 1805558,
+          "timestamp": "2021-01-21T14:59:16Z",
+          "author": "Jean-Claude MELLIN",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
         }
       ]
     },
@@ -92,9 +98,24 @@
       "label": "Église Notre-Dame de Saint-Chély-du-Tarn",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Our_Lady_church_in_St-Chely-du-Tarn_%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOur%20Lady%20church%20in%20St-Chely-du-Tarn%20(2).jpg",
+          "title": "Our Lady church in St-Chely-du-Tarn (2).jpg",
+          "description": "Our Lady of the Assumption church in Saint-Chély-du-Tarn, commune of Sainte-Enemie, Lozère, France\n\n\n\n\n\n \nThis building is classé au titre des monuments historiques de la France. It is indexed in the base Mérimée, a database of architectural heritage maintained by the French Ministry of Culture, under the reference PA00103922 .\n\nbrezhoneg ∙ català ∙ Deutsch ∙ English ∙ español ∙ Esperanto ∙ euskara ∙ français ∙ italiano ∙ magyar ∙ Nederlands ∙ português do Brasil ∙ português ∙ română ∙ sicilianu",
+          "width": 4970,
+          "height": 3638,
+          "size": 17108297,
+          "timestamp": "2020-03-19T10:01:52Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q51955005\" class=\"extiw\" title=\"d:Q51955005\"><span title=\"Wikimedian\">Krzysztof Golik</span></a></bdi>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Saint-Ch%C3%A9ly_du_Tarn%2C_Blick_von_der_rechten_Seite_des_Tarn_auf_Kirche%2C_Friedhof_und_Br%C3%BCcke.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Ch%C3%A9ly%20du%20Tarn%2C%20Blick%20von%20der%20rechten%20Seite%20des%20Tarn%20auf%20Kirche%2C%20Friedhof%20und%20Br%C3%BCcke.jpg",
           "title": "Saint-Chély du Tarn, Blick von der rechten Seite des Tarn auf Kirche, Friedhof und Brücke.jpg",
+          "description": "Saint-Chély du Tarn, Blick von der rechten Seite des Tarn auf Kirche, Friedhof und Brücke",
           "width": 3888,
           "height": 2592,
           "size": 9161603,
@@ -108,23 +129,11 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/%C3%89glise_Notre-Dame-de-l%27Assomption_de_Saint-Ch%C3%A9ly-du-Tarn.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Notre-Dame-de-l'Assomption%20de%20Saint-Ch%C3%A9ly-du-Tarn.jpg",
           "title": "Église Notre-Dame-de-l'Assomption de Saint-Chély-du-Tarn.jpg",
+          "description": "Église Notre-Dame-de-l'Assomption de Saint-Chély-du-Tarn, Juni 2018",
           "width": 3888,
           "height": 2592,
           "size": 7094800,
           "timestamp": "2023-12-30T17:07:11Z",
-          "author": "GerritR",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/%C3%89glise_Notre-Dame-de-l%27Assomption_de_Saint-Ch%C3%A9ly-du-Tarn%2C_Innenraum.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Notre-Dame-de-l'Assomption%20de%20Saint-Ch%C3%A9ly-du-Tarn%2C%20Innenraum.jpg",
-          "title": "Église Notre-Dame-de-l'Assomption de Saint-Chély-du-Tarn, Innenraum.jpg",
-          "width": 3844,
-          "height": 2525,
-          "size": 6082284,
-          "timestamp": "2023-12-30T17:10:48Z",
           "author": "GerritR",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -134,7 +143,50 @@
     },
     {
       "label": "Source résurgente du Tarn",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/View_of_Saint-Chely-du-Tarn_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AView%20of%20Saint-Chely-du-Tarn%2002.jpg",
+          "title": "View of Saint-Chely-du-Tarn 02.jpg",
+          "description": "View of Saint-Chély-du-Tarn, Lozère, France",
+          "width": 3001,
+          "height": 2001,
+          "size": 7516624,
+          "timestamp": "2018-02-08T22:57:35Z",
+          "author": "Krzysztof Golik",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/View_of_Saint-Chely-du-Tarn_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AView%20of%20Saint-Chely-du-Tarn%2001.jpg",
+          "title": "View of Saint-Chely-du-Tarn 01.jpg",
+          "description": "View of Saint-Chély-du-Tarn, Lozère, France",
+          "width": 2597,
+          "height": 1597,
+          "size": 4962724,
+          "timestamp": "2018-02-08T22:57:35Z",
+          "author": "Krzysztof Golik",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Bridge_over_the_Tarn_river_in_Saint-Chely-du-Tarn.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABridge%20over%20the%20Tarn%20river%20in%20Saint-Chely-du-Tarn.jpg",
+          "title": "Bridge over the Tarn river in Saint-Chely-du-Tarn.jpg",
+          "description": "Bridge over the Tarn river in Saint-Chély-du-Tarn, commune of Sainte-Enemie, Lozère, France",
+          "width": 4446,
+          "height": 2951,
+          "size": 12363372,
+          "timestamp": "2020-03-19T10:01:55Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q51955005\" class=\"extiw\" title=\"d:Q51955005\"><span title=\"Wikimedian\">Krzysztof Golik</span></a></bdi>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

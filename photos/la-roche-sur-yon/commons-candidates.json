@@ -1,12 +1,13 @@
 {
   "slug": "la-roche-sur-yon",
   "nom": "La Roche-sur-Yon",
-  "fetchedAt": "2026-03-13T01:09:29.925Z",
+  "fetchedAt": "2026-03-16T19:11:49.583Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/%C3%89glise_Saint-Louis_%28orgues_1%29_-_La_Roche-sur-Yon.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-Louis%20(orgues%201)%20-%20La%20Roche-sur-Yon.jpg",
       "title": "Église Saint-Louis (orgues 1) - La Roche-sur-Yon.jpg",
+      "description": "Église Saint-Louis, construite entre 1813 et 1830 - La Roche-sur-Yon",
       "width": 4222,
       "height": 3035,
       "size": 4118698,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Place_Napol%C3%A9on_%C3%A0_La_Roche-sur-Yon_au_matin_%28juin_2023%29_1.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlace%20Napol%C3%A9on%20%C3%A0%20La%20Roche-sur-Yon%20au%20matin%20(juin%202023)%201.JPG",
       "title": "Place Napoléon à La Roche-sur-Yon au matin (juin 2023) 1.JPG",
+      "description": "Sight, in the morning, of Place Napoléon Place in La Roche-sur-Yon downtown, in Vendée, France.",
       "width": 3212,
       "height": 2384,
       "size": 3548720,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Place_Napol%C3%A9on_%C3%A0_La_Roche-sur-Yon_au_matin_%28juin_2023%29_2.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlace%20Napol%C3%A9on%20%C3%A0%20La%20Roche-sur-Yon%20au%20matin%20(juin%202023)%202.JPG",
       "title": "Place Napoléon à La Roche-sur-Yon au matin (juin 2023) 2.JPG",
+      "description": "Sight, in the morning, of Place Napoléon Place in La Roche-sur-Yon downtown, in Vendée, France.",
       "width": 3200,
       "height": 2380,
       "size": 3413647,
@@ -46,93 +49,99 @@
   "lieux": [
     {
       "label": "Place Napoléon et ses animaux mécaniques",
-      "photos": []
-    },
-    {
-      "label": "Haras de la Vendée",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Le_Grand_Hiver.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Grand%20Hiver.jpg",
-          "title": "Le Grand Hiver.jpg",
-          "width": 2000,
-          "height": 1090,
-          "size": 265484,
-          "timestamp": "2022-11-15T19:29:22Z",
-          "author": "Pierre-Nvl",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Place_Napol%C3%A9on_de_La_Roche-sur-Yon_depuis_l%27%C3%A9glise.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlace%20Napol%C3%A9on%20de%20La%20Roche-sur-Yon%20depuis%20l'%C3%A9glise.jpg",
+          "title": "Place Napoléon de La Roche-sur-Yon depuis l'église.jpg",
+          "description": "View of Napoleon square. La Roche-sur-Yon / Vendée / France.",
+          "width": 4320,
+          "height": 2432,
+          "size": 3839253,
+          "timestamp": "2016-02-11T22:17:53Z",
+          "author": "William Chevillon",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Place_Napol%C3%A9on_de_La_Roche-sur-Yon_depuis_l%27%C3%A9glise_%28cropped%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlace%20Napol%C3%A9on%20de%20La%20Roche-sur-Yon%20depuis%20l'%C3%A9glise%20(cropped).jpg",
+          "title": "Place Napoléon de La Roche-sur-Yon depuis l'église (cropped).jpg",
+          "description": "View of Napoleon square. La Roche-sur-Yon / Vendée / France.",
+          "width": 3250,
+          "height": 2432,
+          "size": 3027324,
+          "timestamp": "2018-07-11T00:04:17Z",
+          "author": "William Chevillon",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Place_Napol%C3%A9on_La_Roche_sur_Yon.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlace%20Napol%C3%A9on%20La%20Roche%20sur%20Yon.jpg",
+          "title": "Place Napoléon La Roche sur Yon.jpg",
+          "description": "Statue",
+          "width": 4969,
+          "height": 3313,
+          "size": 10568009,
+          "timestamp": "2020-03-29T16:43:04Z",
+          "author": "Simon Desjobert",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Maison_du_directeur.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison%20du%20directeur.JPG",
-          "title": "Maison du directeur.JPG",
-          "width": 2352,
-          "height": 1568,
-          "size": 2054804,
-          "timestamp": "2012-03-08T09:51:51Z",
-          "author": "HVdep",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Maison_du_Directeur.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison%20du%20Directeur.JPG",
-          "title": "Maison du Directeur.JPG",
-          "width": 2352,
-          "height": 1568,
-          "size": 2665539,
-          "timestamp": "2012-03-08T09:44:14Z",
-          "author": "HVdep",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
         }
       ]
+    },
+    {
+      "label": "Haras de la Vendée",
+      "photos": []
     },
     {
       "label": "Maison Renaissance",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Fa%C3%A7ade_de_la_Maison_Renaissance_de_La_Roche-sur-Yon.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFa%C3%A7ade%20de%20la%20Maison%20Renaissance%20de%20La%20Roche-sur-Yon.jpg",
-          "title": "Façade de la Maison Renaissance de La Roche-sur-Yon.jpg",
-          "width": 1224,
-          "height": 1632,
-          "size": 489386,
-          "timestamp": "2011-09-04T16:28:00Z",
-          "author": "Powerwil85430",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Maison_Gueffier_La_Roche-sur-Yon.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison%20Gueffier%20La%20Roche-sur-Yon.jpg",
+          "title": "Maison Gueffier La Roche-sur-Yon.jpg",
+          "description": "Maison Gueffier, pôle littérature du Grand R, scène nationale de La Roche-sur-Yon",
+          "width": 5184,
+          "height": 3456,
+          "size": 6072222,
+          "timestamp": "2021-02-18T17:51:08Z",
+          "author": "William Chevillon",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Renaissancelry.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARenaissancelry.JPG",
-          "title": "Renaissancelry.JPG",
-          "width": 1536,
-          "height": 2048,
-          "size": 831791,
-          "timestamp": "2009-06-25T08:14:41Z",
-          "author": "Powerwil85430",
-          "license": "Public domain",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Ruy_Blas_Repr%C3%A9sentation_au_Th%C3%A9%C3%A2tre_de_la_Roche-sur-Yon_le_18_mai_1879%2C_2017.0.3526.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARuy%20Blas%20Repr%C3%A9sentation%20au%20Th%C3%A9%C3%A2tre%20de%20la%20Roche-sur-Yon%20le%2018%20mai%201879%2C%202017.0.3526.jpg",
+          "title": "Ruy Blas Représentation au Théâtre de la Roche-sur-Yon le 18 mai 1879, 2017.0.3526.jpg",
+          "description": "Auteur(s):\n\nIvonnet, E., imprimeur\n\n\nDate de production:\n\n18–05–1879\nDatation en siècle: \n4e quart du 19e siècle\n\n\n\nType(s) d'objet(s):\n\nManuscrits, imprimés, reliure, Arts graphiques\n\n\nDénomination(s):\n\nAffiche, Imprimé\n\n\nMatériaux et techniques:\n\nTypographie = impression typographique\n\n\nDimensions - Oeuvre:\n\n\n   Hauteur : 27.1 cm\n   Largeur : 21.5 cm\n\nDimensions - Montage:\n\n   Hauteur : 53 cm\n   Largeur : 38 cm\n\n\n\nDescription:\n\n\nOeuvre fixée dans un montage passe partout\n\n\n\nMarques, inscriptio",
+          "width": 2420,
+          "height": 3000,
+          "size": 1063205,
+          "timestamp": "2023-08-07T18:59:53Z",
+          "author": "Ivonnet, E., imprimeur",
+          "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 3
+          "score": 6
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Maison_Renaissance.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison%20Renaissance.JPG",
-          "title": "Maison Renaissance.JPG",
-          "width": 768,
-          "height": 1024,
-          "size": 308741,
-          "timestamp": "2007-08-09T17:04:46Z",
-          "author": "Ludo33",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Maison_de_La_Roche_en_hiver_%283224041845%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison%20de%20La%20Roche%20en%20hiver%20(3224041845).jpg",
+          "title": "Maison de La Roche en hiver (3224041845).jpg",
+          "description": "Maison de La Roche en hiver",
+          "width": 1740,
+          "height": 1160,
+          "size": 371146,
+          "timestamp": "2013-02-21T05:03:00Z",
+          "author": "mwanasimba",
+          "license": "CC BY-SA 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 1
+          "score": 5
         }
       ]
     },
@@ -142,7 +151,50 @@
     },
     {
       "label": "Square Bayard",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Place_Napol%C3%A9on_de_La_Roche-sur-Yon_depuis_l%27%C3%A9glise.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlace%20Napol%C3%A9on%20de%20La%20Roche-sur-Yon%20depuis%20l'%C3%A9glise.jpg",
+          "title": "Place Napoléon de La Roche-sur-Yon depuis l'église.jpg",
+          "description": "View of Napoleon square. La Roche-sur-Yon / Vendée / France.",
+          "width": 4320,
+          "height": 2432,
+          "size": 3839253,
+          "timestamp": "2016-02-11T22:17:53Z",
+          "author": "William Chevillon",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Place_Napol%C3%A9on_de_La_Roche-sur-Yon_depuis_l%27%C3%A9glise_%28cropped%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlace%20Napol%C3%A9on%20de%20La%20Roche-sur-Yon%20depuis%20l'%C3%A9glise%20(cropped).jpg",
+          "title": "Place Napoléon de La Roche-sur-Yon depuis l'église (cropped).jpg",
+          "description": "View of Napoleon square. La Roche-sur-Yon / Vendée / France.",
+          "width": 3250,
+          "height": 2432,
+          "size": 3027324,
+          "timestamp": "2018-07-11T00:04:17Z",
+          "author": "William Chevillon",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Place_Napol%C3%A9on_La_Roche_sur_Yon.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlace%20Napol%C3%A9on%20La%20Roche%20sur%20Yon.jpg",
+          "title": "Place Napoléon La Roche sur Yon.jpg",
+          "description": "Statue",
+          "width": 4969,
+          "height": 3313,
+          "size": 10568009,
+          "timestamp": "2020-03-29T16:43:04Z",
+          "author": "Simon Desjobert",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

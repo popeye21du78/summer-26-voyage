@@ -1,12 +1,13 @@
 {
   "slug": "chantelle",
   "nom": "Chantelle",
-  "fetchedAt": "2026-03-13T12:38:02.393Z",
+  "fetchedAt": "2026-03-15T21:04:11.297Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Eglise_Saint_Nicolas_-_Chantelle.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Saint%20Nicolas%20-%20Chantelle.jpg",
       "title": "Eglise Saint Nicolas - Chantelle.jpg",
+      "description": "Eglise Saint Nicolas à Chantelle",
       "width": 5472,
       "height": 3648,
       "size": 7432747,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Abbaye_Saint_Vincent_-_Chantelle_01.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20Saint%20Vincent%20-%20Chantelle%2001.jpg",
       "title": "Abbaye Saint Vincent - Chantelle 01.jpg",
+      "description": "L'abbaye Saint Vincent en premier plan, et l'église Saint Nicolas en arrière plan à gauche",
       "width": 5472,
       "height": 3648,
       "size": 11308904,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/%C3%89glise_Saint_Nicolas_%C3%A0_03140_Chantelle.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint%20Nicolas%20%C3%A0%2003140%20Chantelle.jpg",
       "title": "Église Saint Nicolas à 03140 Chantelle.jpg",
+      "description": "Église Saint Nicolas à Chantelle, dans l'Allier - France",
       "width": 5472,
       "height": 3648,
       "size": 7618910,
@@ -46,7 +49,36 @@
   "lieux": [
     {
       "label": "Cloître roman",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Abbaye_Saint-Vincent_%28ancienne%29_-_Clo%C3%AEtre_-_vue_prise_depuis_la_Courtine_-_Chantelle_-_M%C3%A9diath%C3%A8que_de_l%27architecture_et_du_patrimoine_-_APMH00018060.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20Saint-Vincent%20(ancienne)%20-%20Clo%C3%AEtre%20-%20vue%20prise%20depuis%20la%20Courtine%20-%20Chantelle%20-%20M%C3%A9diath%C3%A8que%20de%20l'architecture%20et%20du%20patrimoine%20-%20APMH00018060.jpg",
+          "title": "Abbaye Saint-Vincent (ancienne) - Cloître - vue prise depuis la Courtine - Chantelle - Médiathèque de l'architecture et du patrimoine - APMH00018060.jpg",
+          "description": "Cloître : vue prise depuis la Courtine.",
+          "width": 699,
+          "height": 512,
+          "size": 74429,
+          "timestamp": "2020-04-28T05:47:52Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q30131678\" class=\"extiw\" title=\"d:Q30131678\"><span title=\"French photographer (1851-1927)\">Henri Heuzé</span></a></bdi>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Abbaye_Saint-Vincent_%28ancienne%29_%3B_Eglise_abbatiale_-_Clo%C3%AEtre_-_vue_int%C3%A9rieure_d%27une_galerie_-_Chantelle_-_M%C3%A9diath%C3%A8que_de_l%27architecture_et_du_patrimoine_-_APMH00017912.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20Saint-Vincent%20(ancienne)%20%3B%20Eglise%20abbatiale%20-%20Clo%C3%AEtre%20-%20vue%20int%C3%A9rieure%20d'une%20galerie%20-%20Chantelle%20-%20M%C3%A9diath%C3%A8que%20de%20l'architecture%20et%20du%20patrimoine%20-%20APMH00017912.jpg",
+          "title": "Abbaye Saint-Vincent (ancienne) ; Eglise abbatiale - Cloître - vue intérieure d'une galerie - Chantelle - Médiathèque de l'architecture et du patrimoine - APMH00017912.jpg",
+          "description": "Cloître : vue intérieure d'une galerie.",
+          "width": 708,
+          "height": 512,
+          "size": 71933,
+          "timestamp": "2020-04-28T05:55:07Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q30131678\" class=\"extiw\" title=\"d:Q30131678\"><span title=\"French photographer (1851-1927)\">Henri Heuzé</span></a></bdi>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 1
+        }
+      ]
     },
     {
       "label": "Salle capitulaire",
@@ -58,7 +90,50 @@
     },
     {
       "label": "Église abbatiale",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Eglise_Saint_Nicolas_-_Chantelle.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Saint%20Nicolas%20-%20Chantelle.jpg",
+          "title": "Eglise Saint Nicolas - Chantelle.jpg",
+          "description": "Eglise Saint Nicolas à Chantelle",
+          "width": 5472,
+          "height": 3648,
+          "size": 7432747,
+          "timestamp": "2021-01-26T21:33:24Z",
+          "author": "Combraille63",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/%C3%89glise_Saint_Nicolas_%C3%A0_03140_Chantelle.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint%20Nicolas%20%C3%A0%2003140%20Chantelle.jpg",
+          "title": "Église Saint Nicolas à 03140 Chantelle.jpg",
+          "description": "Église Saint Nicolas à Chantelle, dans l'Allier - France",
+          "width": 5472,
+          "height": 3648,
+          "size": 7618910,
+          "timestamp": "2021-01-28T14:50:12Z",
+          "author": "Combraille63",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Sa-DSCF4636-chantelle-eglise-st-nicolas.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASa-DSCF4636-chantelle-eglise-st-nicolas.jpg",
+          "title": "Sa-DSCF4636-chantelle-eglise-st-nicolas.jpg",
+          "description": "L’église Saint-Nicolas fut construite sur les ruines d’une chapelle romane par l’abbé Joseph Pougnet entre 1878 et 1882, en style néogothique.",
+          "width": 4142,
+          "height": 2330,
+          "size": 9361549,
+          "timestamp": "2019-06-11T06:57:56Z",
+          "author": "Eggvert",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

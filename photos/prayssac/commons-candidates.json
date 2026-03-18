@@ -1,12 +1,13 @@
 {
   "slug": "prayssac",
   "nom": "Prayssac",
-  "fetchedAt": "2026-03-14T11:37:02.166Z",
+  "fetchedAt": "2026-03-18T17:10:19.430Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Ville_de_Prayssac%2C_46220%2C_France.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVille%20de%20Prayssac%2C%2046220%2C%20France.jpg",
       "title": "Ville de Prayssac, 46220, France.jpg",
+      "description": "Prayssac (Lot, France)",
       "width": 1832,
       "height": 1019,
       "size": 744804,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/L%27%C3%A9glise_Saint-Barth%C3%A9l%C3%A9my_de_Prayssac_-_Septembre_2015.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AL'%C3%A9glise%20Saint-Barth%C3%A9l%C3%A9my%20de%20Prayssac%20-%20Septembre%202015.jpg",
       "title": "L'église Saint-Barthélémy de Prayssac - Septembre 2015.jpg",
+      "description": "Près de la mairie...",
       "width": 3600,
       "height": 2700,
       "size": 6137399,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Le_cadran_solaire_sur_le_pignon_de_la_mairie_de_Prayssac_-_Septembre-2015.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20cadran%20solaire%20sur%20le%20pignon%20de%20la%20mairie%20de%20Prayssac%20-%20Septembre-2015.jpg",
       "title": "Le cadran solaire sur le pignon de la mairie de Prayssac - Septembre-2015.jpg",
+      "description": "Un cadran solaire exceptionnel !",
       "width": 3600,
       "height": 2700,
       "size": 5841469,
@@ -55,6 +58,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/L%27%C3%A9glise_Saint-Barth%C3%A9l%C3%A9my_de_Prayssac_-_Septembre_2015.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AL'%C3%A9glise%20Saint-Barth%C3%A9l%C3%A9my%20de%20Prayssac%20-%20Septembre%202015.jpg",
           "title": "L'église Saint-Barthélémy de Prayssac - Septembre 2015.jpg",
+          "description": "Près de la mairie...",
           "width": 3600,
           "height": 2700,
           "size": 6137399,
@@ -68,6 +72,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Prayssac_-_%C3%89glise_Saint-Barth%C3%A9lemy_-02.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APrayssac%20-%20%C3%89glise%20Saint-Barth%C3%A9lemy%20-02.jpg",
           "title": "Prayssac - Église Saint-Barthélemy -02.jpg",
+          "description": "Prayssac - Église Saint-Barthélemy - Nef centrale et collatéraux",
           "width": 4896,
           "height": 2752,
           "size": 2654004,
@@ -81,6 +86,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Prayssac_%C3%A9glise.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APrayssac%20%C3%A9glise.JPG",
           "title": "Prayssac église.JPG",
+          "description": "Église de Prayssac",
           "width": 3472,
           "height": 2578,
           "size": 5823941,
@@ -98,7 +104,22 @@
     },
     {
       "label": "Domaine de la Borie",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Prayssac_%2823780941198%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APrayssac%20(23780941198).jpg",
+          "title": "Prayssac (23780941198).jpg",
+          "description": "Domaine de Claire Rive - Terres de France à Prayssac\n\nVallée du Lot et du Vignoble",
+          "width": 1920,
+          "height": 1100,
+          "size": 404635,
+          "timestamp": "2018-10-18T12:40:02Z",
+          "author": "Terres de France Resort &amp; hotel nature",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

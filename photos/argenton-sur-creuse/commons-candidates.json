@@ -1,41 +1,44 @@
 {
   "slug": "argenton-sur-creuse",
   "nom": "Argenton-sur-Creuse",
-  "fetchedAt": "2026-03-12T23:51:49.140Z",
+  "fetchedAt": "2026-03-15T15:12:08.886Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Sceneric_streetview_of_Argenton_sur_Creuse_at_29_May_2015_-_panoramio.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASceneric%20streetview%20of%20Argenton%20sur%20Creuse%20at%2029%20May%202015%20-%20panoramio.jpg",
+      "title": "Sceneric streetview of Argenton sur Creuse at 29 May 2015 - panoramio.jpg",
+      "description": "Sceneric streetview of Argenton sur Creuse at 29 May 2015",
+      "width": 4288,
+      "height": 2848,
+      "size": 3207523,
+      "timestamp": "2017-05-16T06:32:13Z",
+      "author": "Henk Monster",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Gare_d%27Argenton-sur-Creuse_%2836%29_-_Vue_d%27ensemble.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGare%20d'Argenton-sur-Creuse%20(36)%20-%20Vue%20d'ensemble.jpg",
+      "title": "Gare d'Argenton-sur-Creuse (36) - Vue d'ensemble.jpg",
+      "description": "Gare d'Argenton-sur-Creuse (36) : Vue de l'ensemble de la gare.",
+      "width": 3264,
+      "height": 2448,
+      "size": 3447863,
+      "timestamp": "2014-08-25T14:19:42Z",
+      "author": "Floppy36",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Gare_d%27Argenton-sur-Creuse_%2836%29_-_Vue_g%C3%A9n%C3%A9rale_-_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGare%20d'Argenton-sur-Creuse%20(36)%20-%20Vue%20g%C3%A9n%C3%A9rale%20-%201.jpg",
       "title": "Gare d'Argenton-sur-Creuse (36) - Vue générale - 1.jpg",
+      "description": "Gare d'Argenton-sur-Creuse (36) : Vue générale de la gare.",
       "width": 4032,
       "height": 3024,
       "size": 2985065,
-      "timestamp": "2021-04-18T12:55:30Z",
-      "author": "Floppy36",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Gare_d%27Argenton-sur-Creuse_%2836%29_-_Vue_g%C3%A9n%C3%A9rale_-_2.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGare%20d'Argenton-sur-Creuse%20(36)%20-%20Vue%20g%C3%A9n%C3%A9rale%20-%202.jpg",
-      "title": "Gare d'Argenton-sur-Creuse (36) - Vue générale - 2.jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 3290280,
-      "timestamp": "2021-04-18T12:55:30Z",
-      "author": "Floppy36",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Gare_d%27Argenton-sur-Creuse_%2836%29_-_Vue_g%C3%A9n%C3%A9rale_-_3.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGare%20d'Argenton-sur-Creuse%20(36)%20-%20Vue%20g%C3%A9n%C3%A9rale%20-%203.jpg",
-      "title": "Gare d'Argenton-sur-Creuse (36) - Vue générale - 3.jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 3647921,
       "timestamp": "2021-04-18T12:55:30Z",
       "author": "Floppy36",
       "license": "CC BY-SA 3.0",
@@ -46,25 +49,54 @@
   "lieux": [
     {
       "label": "Maisons suspendues sur la Creuse",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Argenton-sur-Creuse_-_Bords_de_la_Creuse_-_07.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArgenton-sur-Creuse%20-%20Bords%20de%20la%20Creuse%20-%2007.jpg",
-          "title": "Argenton-sur-Creuse - Bords de la Creuse - 07.jpg",
-          "width": 5718,
-          "height": 4084,
-          "size": 11394004,
-          "timestamp": "2025-02-05T10:09:27Z",
-          "author": "Benjamin Smith",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Pont médiéval",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Argenton-sur-Creuse_Blick_von_der_Pont_Neuf_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArgenton-sur-Creuse%20Blick%20von%20der%20Pont%20Neuf%201.jpg",
+          "title": "Argenton-sur-Creuse Blick von der Pont Neuf 1.jpg",
+          "description": "View from the New Bridge to the Creuse, Argenton-sur-Creuse, Department of Creuse, Region of Centre-Loire Valley, France",
+          "width": 4580,
+          "height": 2778,
+          "size": 3697077,
+          "timestamp": "2019-07-19T15:42:33Z",
+          "author": "Zairon",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Argenton-sur-Creuse_Blick_von_der_Pont_Neuf_3.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArgenton-sur-Creuse%20Blick%20von%20der%20Pont%20Neuf%203.jpg",
+          "title": "Argenton-sur-Creuse Blick von der Pont Neuf 3.jpg",
+          "description": "View from the New Bridge to the Creuse, Argenton-sur-Creuse, Department of Creuse, Region of Centre-Loire Valley, France",
+          "width": 4524,
+          "height": 2788,
+          "size": 4161025,
+          "timestamp": "2019-07-19T15:42:33Z",
+          "author": "Zairon",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Argenton-sur-Creuse_Blick_von_der_Pont_Neuf_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArgenton-sur-Creuse%20Blick%20von%20der%20Pont%20Neuf%202.jpg",
+          "title": "Argenton-sur-Creuse Blick von der Pont Neuf 2.jpg",
+          "description": "View from the New Bridge to the Creuse, Argenton-sur-Creuse, Department of Creuse, Region of Centre-Loire Valley, France",
+          "width": 4572,
+          "height": 2870,
+          "size": 4706607,
+          "timestamp": "2019-07-19T15:42:34Z",
+          "author": "Zairon",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        }
+      ]
     },
     {
       "label": "Musée de la Chemiserie",
@@ -73,6 +105,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Mus%C3%A9e_de_la_chemiserie_et_de_l%27%C3%A9l%C3%A9gance_masculine_%C3%A0_Argenton-sur-Creuse%2C_avril_2024.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e%20de%20la%20chemiserie%20et%20de%20l'%C3%A9l%C3%A9gance%20masculine%20%C3%A0%20Argenton-sur-Creuse%2C%20avril%202024.jpg",
           "title": "Musée de la chemiserie et de l'élégance masculine à Argenton-sur-Creuse, avril 2024.jpg",
+          "description": "Vue d'une des façades du Musée de la chemiserie et de l'élégance masculine à Argenton-sur-Creuse en avril 2024.",
           "width": 3264,
           "height": 2448,
           "size": 3064583,
@@ -86,23 +119,11 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Salle_de_l%27ancien_atelier_de_confection_textile%2C_Mus%C3%A9e_de_la_chemiserie%2C_Argenton-sur-Creuse.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASalle%20de%20l'ancien%20atelier%20de%20confection%20textile%2C%20Mus%C3%A9e%20de%20la%20chemiserie%2C%20Argenton-sur-Creuse.jpg",
           "title": "Salle de l'ancien atelier de confection textile, Musée de la chemiserie, Argenton-sur-Creuse.jpg",
+          "description": "Salle de l'ancien atelier de confection textile présentant le travail et la vie quotidienne des chemisières, ouvrières textiles spécialisées dans la confection des chemises. \nMusée de la chemiserie et de l'élégance masculine à Argenton-sur-Creuse, en France. Avril 2024.",
           "width": 3264,
           "height": 2448,
           "size": 2400835,
           "timestamp": "2024-04-08T20:42:47Z",
-          "author": "Eunostos",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Plaques_de_boutons_de_manchettes%2C_maison_Osiris.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlaques%20de%20boutons%20de%20manchettes%2C%20maison%20Osiris.jpg",
-          "title": "Plaques de boutons de manchettes, maison Osiris.jpg",
-          "width": 3264,
-          "height": 2448,
-          "size": 2012135,
-          "timestamp": "2024-04-08T21:25:06Z",
           "author": "Eunostos",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",

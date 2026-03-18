@@ -1,12 +1,13 @@
 {
   "slug": "saint-wandrille-rancon",
   "nom": "Saint-Wandrille-Rançon",
-  "fetchedAt": "2026-03-14T12:18:26.530Z",
+  "fetchedAt": "2026-03-18T18:48:26.960Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Saint-Wandrille-Ran%C3%A7on_Eglise_StMichel_R01.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Wandrille-Ran%C3%A7on%20Eglise%20StMichel%20R01.jpg",
       "title": "Saint-Wandrille-Rançon Eglise StMichel R01.jpg",
+      "description": "Saint-Wandrille-Rançon (municipality of Rives-en-Seine, Seine-Maritime departmen, France): Saint Michael church",
       "width": 4871,
       "height": 3383,
       "size": 10816531,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Abbaye_de_Saint-Wandrille_R03.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20de%20Saint-Wandrille%20R03.jpg",
       "title": "Abbaye de Saint-Wandrille R03.jpg",
+      "description": "Saint-Wandrille-Rançon (municipality of Rives-en-Seine, Seine-Maritime department, France) : Notre-Dame de Fontenelle abbey, western gate or Fontenelle gate",
       "width": 4836,
       "height": 3287,
       "size": 12032038,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Saint-Wandrille-Ran%C3%A7on_Maison_R01.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Wandrille-Ran%C3%A7on%20Maison%20R01.jpg",
       "title": "Saint-Wandrille-Rançon Maison R01.jpg",
+      "description": "Saint-Wandrille-Rançon (municipality of Rives-en-Seine, Seine-Maritime department, France): timber framed house",
       "width": 4852,
       "height": 3333,
       "size": 12071788,
@@ -48,40 +51,24 @@
       "label": "Cloître de l’abbaye",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Clo%C3%AEtre_de_l%27abbaye_Saint-Wandrille_%C3%A0_Saint-Wandrille-Ran%C3%A7on_-_galerie_nord_-_btv1b105878736.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AClo%C3%AEtre%20de%20l'abbaye%20Saint-Wandrille%20%C3%A0%20Saint-Wandrille-Ran%C3%A7on%20-%20galerie%20nord%20-%20btv1b105878736.jpg",
-          "title": "Cloître de l'abbaye Saint-Wandrille à Saint-Wandrille-Rançon - galerie nord - btv1b105878736.jpg",
-          "width": 3585,
-          "height": 2099,
-          "size": 609282,
-          "timestamp": "2025-03-21T19:49:39Z",
-          "author": "<div class=\"fn value\">\nMaillard, Marcel (1899-1977). Photographe. Ancien possesseur</div>",
-          "license": "Public domain",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Saint-Wandrille-Ran%C3%A7on_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Wandrille-Ran%C3%A7on%202.jpg",
+          "title": "Saint-Wandrille-Rançon 2.jpg",
+          "description": "Saint-Wandrille-Rançon (Seine-Maritime, France)",
+          "width": 6000,
+          "height": 4000,
+          "size": 6888094,
+          "timestamp": "2025-11-10T19:14:55Z",
+          "author": "Kamel15",
+          "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Int%C3%A9rieur_du_clo%C3%AEtre_de_l%27abbaye_Saint-Wandrille_-_btv1b106598413.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AInt%C3%A9rieur%20du%20clo%C3%AEtre%20de%20l'abbaye%20Saint-Wandrille%20-%20btv1b106598413.jpg",
-          "title": "Intérieur du cloître de l'abbaye Saint-Wandrille - btv1b106598413.jpg",
-          "width": 3130,
-          "height": 4364,
-          "size": 1837916,
-          "timestamp": "2025-03-12T18:37:43Z",
-          "author": "<div class=\"fn value\">\nNoël, Michel Arthur Georges (1859-....). Photographe</div>",
-          "license": "Public domain",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        }
-      ]
-    },
-    {
-      "label": "Ruines de l’ancienne abbatiale",
-      "photos": [
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Abbaye_de_Saint-Wandrille_ruines_abbatiale_St-Pierre_5a_%28cropped%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20de%20Saint-Wandrille%20ruines%20abbatiale%20St-Pierre%205a%20(cropped).jpg",
           "title": "Abbaye de Saint-Wandrille ruines abbatiale St-Pierre 5a (cropped).jpg",
+          "description": "Saint-Wandrille-Rançon (Seine-Maritime, France)\nLes ruines de l'ancienne abbatiale Saint-Pierre.\n\n.",
           "width": 1775,
           "height": 1300,
           "size": 984778,
@@ -92,26 +79,61 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Abbaye_de_Saint-Wandrille_ruines_abbatiale_St-Pierre_1.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20de%20Saint-Wandrille%20ruines%20abbatiale%20St-Pierre%201.jpg",
-          "title": "Abbaye de Saint-Wandrille ruines abbatiale St-Pierre 1.jpg",
-          "width": 3008,
-          "height": 2000,
-          "size": 1538454,
-          "timestamp": "2011-01-06T01:32:02Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Abbaye_Saint-Wandrille_%C3%A0_Saint-Wandrille-Ran%C3%A7on_-_clo%C3%AEtre%2C_galerie_ouest_-_btv1b105885200.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20Saint-Wandrille%20%C3%A0%20Saint-Wandrille-Ran%C3%A7on%20-%20clo%C3%AEtre%2C%20galerie%20ouest%20-%20btv1b105885200.jpg",
+          "title": "Abbaye Saint-Wandrille à Saint-Wandrille-Rançon - cloître, galerie ouest - btv1b105885200.jpg",
+          "description": "Sujet : Cloîtres (galeries) -- France\nSaint-Wandrille-Rançon (Seine-Maritime, France)\nAbbaye Saint-Wandrille de Fontenelle\nDonateur : Manneville, Philippe (1937-2012). Donateur\nDonateur : Manneville, Philippe (1937-2012)\nAppartient à l’ensemble documentaire : BmLHav000\n\nLangue : sans contenu linguistique",
+          "width": 3326,
+          "height": 2044,
+          "size": 366001,
+          "timestamp": "2025-03-18T21:45:29Z",
+          "author": "<div class=\"fn value\">\nMaillard, Marcel (1899-1977). Photographe. Ancien possesseur</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
+    },
+    {
+      "label": "Ruines de l’ancienne abbatiale",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Abbaye_de_Saint-Wandrille_ruines_abbatiale_St-Pierre_5a_%28cropped%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20de%20Saint-Wandrille%20ruines%20abbatiale%20St-Pierre%205a%20(cropped).jpg",
+          "title": "Abbaye de Saint-Wandrille ruines abbatiale St-Pierre 5a (cropped).jpg",
+          "description": "Saint-Wandrille-Rançon (Seine-Maritime, France)\nLes ruines de l'ancienne abbatiale Saint-Pierre.\n\n.",
+          "width": 1775,
+          "height": 1300,
+          "size": 984778,
+          "timestamp": "2024-10-03T20:18:21Z",
+          "author": "isamiga76",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Saint-Wandrille_nouvelle_%C3%A9glise_abbatiale_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Wandrille%20nouvelle%20%C3%A9glise%20abbatiale%201.jpg",
+          "title": "Saint-Wandrille nouvelle église abbatiale 1.jpg",
+          "description": "Saint-Wandrille-Rançon (Seine-Maritime, France).\n\nÉléments provenant de l'ancienne église abbatiale exposés dans le nouvel édifice.",
+          "width": 2615,
+          "height": 1901,
+          "size": 4975746,
+          "timestamp": "2011-01-02T09:48:09Z",
           "author": "isamiga76",
           "license": "CC BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 5
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Abbaye_de_Saint-Wandrille_pavillon_de_la_Gr%C3%A2ce_1.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20de%20Saint-Wandrille%20pavillon%20de%20la%20Gr%C3%A2ce%201.jpg",
-          "title": "Abbaye de Saint-Wandrille pavillon de la Grâce 1.jpg",
-          "width": 3008,
-          "height": 2000,
-          "size": 1508343,
-          "timestamp": "2011-01-06T02:07:29Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Saint-Wandrille_nouvelle_%C3%A9glise_abbatiale_1a.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Wandrille%20nouvelle%20%C3%A9glise%20abbatiale%201a.jpg",
+          "title": "Saint-Wandrille nouvelle église abbatiale 1a.jpg",
+          "description": "Saint-Wandrille-Rançon (Seine-Maritime, France).\n\nÉléments provenant de l'ancienne église abbatiale exposés dans le nouvel édifice.",
+          "width": 2568,
+          "height": 1711,
+          "size": 4150319,
+          "timestamp": "2011-01-03T15:24:45Z",
           "author": "isamiga76",
           "license": "CC BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -121,7 +143,50 @@
     },
     {
       "label": "Salle capitulaire",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Abbaye_-_Ruines%2C_salle_-_Saint-Wandrille-Ran%C3%A7on_-_M%C3%A9diath%C3%A8que_de_l%27architecture_et_du_patrimoine_-_APMH00036166.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20-%20Ruines%2C%20salle%20-%20Saint-Wandrille-Ran%C3%A7on%20-%20M%C3%A9diath%C3%A8que%20de%20l'architecture%20et%20du%20patrimoine%20-%20APMH00036166.jpg",
+          "title": "Abbaye - Ruines, salle - Saint-Wandrille-Rançon - Médiathèque de l'architecture et du patrimoine - APMH00036166.jpg",
+          "description": "Ruines, salle.",
+          "width": 705,
+          "height": 512,
+          "size": 59047,
+          "timestamp": "2020-04-28T12:27:05Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Camille_Enlart\" class=\"extiw\" title=\"w:en:Camille Enlart\"><span title=\"French art historian and photographer (1862-1927)\">Camille Enlart</span></a></bdi>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Abbaye_-_Ruines%2C_salle_-_Saint-Wandrille-Ran%C3%A7on_-_M%C3%A9diath%C3%A8que_de_l%27architecture_et_du_patrimoine_-_APMH00036167.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20-%20Ruines%2C%20salle%20-%20Saint-Wandrille-Ran%C3%A7on%20-%20M%C3%A9diath%C3%A8que%20de%20l'architecture%20et%20du%20patrimoine%20-%20APMH00036167.jpg",
+          "title": "Abbaye - Ruines, salle - Saint-Wandrille-Rançon - Médiathèque de l'architecture et du patrimoine - APMH00036167.jpg",
+          "description": "Ruines, salle.",
+          "width": 702,
+          "height": 512,
+          "size": 68594,
+          "timestamp": "2020-05-01T07:16:21Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Camille_Enlart\" class=\"extiw\" title=\"w:en:Camille Enlart\"><span title=\"French art historian and photographer (1862-1927)\">Camille Enlart</span></a></bdi>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Abbaye_-_Ruines%2C_salle_-_Saint-Wandrille-Ran%C3%A7on_-_M%C3%A9diath%C3%A8que_de_l%27architecture_et_du_patrimoine_-_APMH00036168.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20-%20Ruines%2C%20salle%20-%20Saint-Wandrille-Ran%C3%A7on%20-%20M%C3%A9diath%C3%A8que%20de%20l'architecture%20et%20du%20patrimoine%20-%20APMH00036168.jpg",
+          "title": "Abbaye - Ruines, salle - Saint-Wandrille-Rançon - Médiathèque de l'architecture et du patrimoine - APMH00036168.jpg",
+          "description": "Ruines, salle.",
+          "width": 739,
+          "height": 512,
+          "size": 50507,
+          "timestamp": "2020-05-03T11:17:48Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Camille_Enlart\" class=\"extiw\" title=\"w:en:Camille Enlart\"><span title=\"French art historian and photographer (1862-1927)\">Camille Enlart</span></a></bdi>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     },
     {
       "label": "Jardin potager",

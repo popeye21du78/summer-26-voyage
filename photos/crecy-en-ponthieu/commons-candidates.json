@@ -1,12 +1,27 @@
 {
   "slug": "crecy-en-ponthieu",
   "nom": "Crécy-en-Ponthieu",
-  "fetchedAt": "2026-03-13T13:57:49.814Z",
+  "fetchedAt": "2026-03-16T12:27:13.353Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Cr%C3%A9cy-en-Ponthieu%2C_vue_du_champ_de_bataille_%282%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACr%C3%A9cy-en-Ponthieu%2C%20vue%20du%20champ%20de%20bataille%20(2).jpg",
+      "title": "Crécy-en-Ponthieu, vue du champ de bataille (2).jpg",
+      "description": "Crécy-en-Ponthieu, vue du champ de bataille (2)",
+      "width": 4208,
+      "height": 2368,
+      "size": 3686249,
+      "timestamp": "2018-10-25T09:55:03Z",
+      "author": "Ybroc",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Cr%C3%A9cy-en-Ponthieu_%2880-Fr%29_%28La_Poste%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACr%C3%A9cy-en-Ponthieu%20(80-Fr)%20(La%20Poste).jpg",
       "title": "Crécy-en-Ponthieu (80-Fr) (La Poste).jpg",
+      "description": "Crécy-en-Ponthieu (80-Fr). Bureau de poste, 8 rue du 8 Mai.",
       "width": 3299,
       "height": 2193,
       "size": 1954248,
@@ -20,23 +35,11 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Cr%C3%A9cy-en-Ponthieu_%2880-Fr%29_CAgricole.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACr%C3%A9cy-en-Ponthieu%20(80-Fr)%20CAgricole.jpg",
       "title": "Crécy-en-Ponthieu (80-Fr) CAgricole.jpg",
+      "description": "Crécy-en-Ponthieu (80-Fr), Crédit Agricole, 55 rue du Général-de-Gaulle.",
       "width": 2509,
       "height": 2077,
       "size": 716692,
       "timestamp": "2024-02-27T07:18:07Z",
-      "author": "APictche",
-      "license": "CC0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Cr%C3%A9cy-en-Ponthieu_%2880-Fr%29_tilleuls_%28Cyrano%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACr%C3%A9cy-en-Ponthieu%20(80-Fr)%20tilleuls%20(Cyrano).jpg",
-      "title": "Crécy-en-Ponthieu (80-Fr) tilleuls (Cyrano).jpg",
-      "width": 3413,
-      "height": 2668,
-      "size": 2053935,
-      "timestamp": "2024-02-27T07:18:09Z",
       "author": "APictche",
       "license": "CC0",
       "licenseUrl": "https://creativecommons.org/licenses/",
@@ -46,7 +49,50 @@
   "lieux": [
     {
       "label": "Église Saint-Sébastien",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Cr%C3%A9cy-en-Ponthieu_-_Eglise_24.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACr%C3%A9cy-en-Ponthieu%20-%20Eglise%2024.jpg",
+          "title": "Crécy-en-Ponthieu - Eglise 24.jpg",
+          "description": "Eglise",
+          "width": 6000,
+          "height": 4000,
+          "size": 15861842,
+          "timestamp": "2023-01-19T18:18:18Z",
+          "author": "René Hourdry",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Cr%C3%A9cy-en-Ponthieu.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACr%C3%A9cy-en-Ponthieu.JPG",
+          "title": "Crécy-en-Ponthieu.JPG",
+          "description": "Vue éloignée de l'église de Crécy-en-Ponthieu (côté sud).",
+          "width": 3648,
+          "height": 2736,
+          "size": 2228867,
+          "timestamp": "2015-06-19T09:29:50Z",
+          "author": "APictche",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/%C3%89glise_Saint-S%C3%A9verin_de_Cr%C3%A9cy-en-Ponthieu%2C_orgue_de_tribune.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-S%C3%A9verin%20de%20Cr%C3%A9cy-en-Ponthieu%2C%20orgue%20de%20tribune.jpg",
+          "title": "Église Saint-Séverin de Crécy-en-Ponthieu, orgue de tribune.jpg",
+          "description": "Église Saint-Séverin de Crécy-en-Ponthieu‎, orgue de tribune construit en 1885 par Nicolas Duputel (état d'origine).",
+          "width": 4208,
+          "height": 2368,
+          "size": 2506622,
+          "timestamp": "2018-10-20T09:47:04Z",
+          "author": "Ybroc",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Halle en bois",
@@ -54,11 +100,97 @@
     },
     {
       "label": "Fontaine de la place centrale",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Cr%C3%A9cy-au-Mont10.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACr%C3%A9cy-au-Mont10.jpg",
+          "title": "Crécy-au-Mont10.jpg",
+          "description": "Vue de l'église depuis la vallée.",
+          "width": 4551,
+          "height": 3206,
+          "size": 8733794,
+          "timestamp": "2017-12-01T15:39:03Z",
+          "author": "René Hourdry",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Cr%C3%A9cy-au-Mont11.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACr%C3%A9cy-au-Mont11.jpg",
+          "title": "Crécy-au-Mont11.jpg",
+          "description": "Vue de la partie basse du village.",
+          "width": 4949,
+          "height": 2833,
+          "size": 8745164,
+          "timestamp": "2017-12-01T15:39:03Z",
+          "author": "René Hourdry",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/80222-Cr%C3%A9cy-en-Ponthieu-Sols.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A80222-Cr%C3%A9cy-en-Ponthieu-Sols.png",
+          "title": "80222-Crécy-en-Ponthieu-Sols.png",
+          "description": "Carte des infrastructures et de l’occupation des sols en 2018 de la commune de fr:Crécy-en-Ponthieu (France).",
+          "width": 3270,
+          "height": 2598,
+          "size": 2022974,
+          "timestamp": "2021-05-17T15:56:32Z",
+          "author": "Roland45",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Forêt domaniale de Crécy",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Cr%C3%A9cy-en-Ponthieu%2C_80%2C_Fr%2C_poste_forestier_de_l%27Ermitage-2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACr%C3%A9cy-en-Ponthieu%2C%2080%2C%20Fr%2C%20poste%20forestier%20de%20l'Ermitage-2.jpg",
+          "title": "Crécy-en-Ponthieu, 80, Fr, poste forestier de l'Ermitage-2.jpg",
+          "description": "Crécy-en-Ponthieu, 80, France, poste forestier de l'Ermitage.",
+          "width": 3341,
+          "height": 1604,
+          "size": 1624125,
+          "timestamp": "2021-08-08T17:11:18Z",
+          "author": "APictche",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/For%C3%AAt_de_Cr%C3%A9cy%2C_carri%C3%A8re_de_craie.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFor%C3%AAt%20de%20Cr%C3%A9cy%2C%20carri%C3%A8re%20de%20craie.jpg",
+          "title": "Forêt de Crécy, carrière de craie.jpg",
+          "description": "Forêt de Crécy, carrière de craie, sur la commune de Crécy-en-Ponthieu.",
+          "width": 2867,
+          "height": 1717,
+          "size": 1497196,
+          "timestamp": "2023-02-16T15:48:09Z",
+          "author": "APictche",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Cr%C3%A9cy-en-Ponthieu%2C_For%C3%AAt%2C_arbre_sculpt%C3%A9%2C_la_f%C3%A9e_de_la_for%C3%AAt.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACr%C3%A9cy-en-Ponthieu%2C%20For%C3%AAt%2C%20arbre%20sculpt%C3%A9%2C%20la%20f%C3%A9e%20de%20la%20for%C3%AAt.jpg",
+          "title": "Crécy-en-Ponthieu, Forêt, arbre sculpté, la fée de la forêt.jpg",
+          "description": "Crécy-en-Ponthieu, Forest-l'Abbaye, Forêt, arbre sculpté, la fée de la forêt, panneau.",
+          "width": 3648,
+          "height": 2736,
+          "size": 2043326,
+          "timestamp": "2019-08-04T06:48:18Z",
+          "author": "APictche",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

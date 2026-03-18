@@ -1,12 +1,27 @@
 {
   "slug": "moulins",
   "nom": "Moulins",
-  "fetchedAt": "2026-03-13T16:27:55.452Z",
+  "fetchedAt": "2026-03-17T21:31:08.768Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Moulins_%2803%29_Ch%C3%A2teau_des_Ducs_de_Bourbon.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMoulins%20(03)%20Ch%C3%A2teau%20des%20Ducs%20de%20Bourbon.jpg",
+      "title": "Moulins (03) Château des Ducs de Bourbon.jpg",
+      "description": "Château des Ducs de Bourbon à Moulins (03).",
+      "width": 1723,
+      "height": 1940,
+      "size": 2430762,
+      "timestamp": "2016-06-04T15:20:47Z",
+      "author": "GO69",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Place_de_l%27Ancien_Palais_de_Moulins_en_soir%C3%A9e_%28juillet_2025%29.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlace%20de%20l'Ancien%20Palais%20de%20Moulins%20en%20soir%C3%A9e%20(juillet%202025).JPG",
       "title": "Place de l'Ancien Palais de Moulins en soirée (juillet 2025).JPG",
+      "description": "Sight, in the early evening, of Place de l'Ancien Palais Place and one of the bell towers of Notre-Dame de l'Annonciation cathedral, in Moulins, Allier, France.",
       "width": 2048,
       "height": 1536,
       "size": 2152486,
@@ -20,23 +35,11 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Chevet_%C3%89glise_du_Sacr%C3%A9-Coeur_de_Moulins_en_soir%C3%A9e_%28juillet_2025%29.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChevet%20%C3%89glise%20du%20Sacr%C3%A9-Coeur%20de%20Moulins%20en%20soir%C3%A9e%20(juillet%202025).JPG",
       "title": "Chevet Église du Sacré-Coeur de Moulins en soirée (juillet 2025).JPG",
+      "description": "Sight, in the early evening, of the back and apse of Sacré-Cœur church of Moulins, Allier, France.",
       "width": 3152,
       "height": 2396,
       "size": 4782407,
       "timestamp": "2025-08-15T18:13:01Z",
-      "author": "Florian Pépellin",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Reflet_Fontaine_du_Saincy_%C3%A0_Moulins_en_soir%C3%A9e_%28juillet_2025%29.JPG",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AReflet%20Fontaine%20du%20Saincy%20%C3%A0%20Moulins%20en%20soir%C3%A9e%20(juillet%202025).JPG",
-      "title": "Reflet Fontaine du Saincy à Moulins en soirée (juillet 2025).JPG",
-      "width": 3264,
-      "height": 2448,
-      "size": 3418016,
-      "timestamp": "2025-08-15T18:58:20Z",
       "author": "Florian Pépellin",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
@@ -48,141 +51,79 @@
       "label": "Cathédrale Notre-Dame de Moulins",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Rosace_Cath%C3%A9drale_Notre-Dame_de_Moulins_%28juillet_2025%29.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARosace%20Cath%C3%A9drale%20Notre-Dame%20de%20Moulins%20(juillet%202025).JPG",
-          "title": "Rosace Cathédrale Notre-Dame de Moulins (juillet 2025).JPG",
-          "width": 3264,
-          "height": 2448,
-          "size": 3946351,
-          "timestamp": "2025-08-15T17:30:37Z",
-          "author": "Florian Pépellin",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Fa%C3%A7ade_Cath%C3%A9drale_Notre-Dame_de_Moulins_%28juillet_2025%29.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFa%C3%A7ade%20Cath%C3%A9drale%20Notre-Dame%20de%20Moulins%20(juillet%202025).JPG",
-          "title": "Façade Cathédrale Notre-Dame de Moulins (juillet 2025).JPG",
-          "width": 3264,
-          "height": 2448,
-          "size": 4665181,
-          "timestamp": "2025-08-15T17:32:03Z",
-          "author": "Florian Pépellin",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Cath%C3%A9drale_Notre-Dame_et_%C3%A9glise_Sacr%C3%A9-Coeur_de_Moulins_%28juillet_2025%29.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale%20Notre-Dame%20et%20%C3%A9glise%20Sacr%C3%A9-Coeur%20de%20Moulins%20(juillet%202025).JPG",
-          "title": "Cathédrale Notre-Dame et église Sacré-Coeur de Moulins (juillet 2025).JPG",
-          "width": 3000,
-          "height": 2296,
-          "size": 4407176,
-          "timestamp": "2025-08-15T17:50:12Z",
-          "author": "Florian Pépellin",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        }
-      ]
-    },
-    {
-      "label": "Place d’Allier",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Moulins%2C_France_-_50480403452.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMoulins%2C%20France%20-%2050480403452.jpg",
-          "title": "Moulins, France - 50480403452.jpg",
-          "width": 4912,
-          "height": 3264,
-          "size": 14468685,
-          "timestamp": "2020-10-17T13:01:02Z",
-          "author": "David Mapletoft",
-          "license": "CC BY 2.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/631136102_GRA_N_130_Maison_Gaume_Moulins.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A631136102%20GRA%20N%20130%20Maison%20Gaume%20Moulins.jpg",
-          "title": "631136102 GRA N 130 Maison Gaume Moulins.jpg",
-          "width": 7015,
-          "height": 4960,
-          "size": 3357508,
-          "timestamp": "2023-07-24T13:20:30Z",
-          "author": "Anonymous",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Moulin_de_Moidrey_%281%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMoulin%20de%20Moidrey%20(1).jpg",
-          "title": "Moulin de Moidrey (1).jpg",
-          "width": 6000,
-          "height": 4000,
-          "size": 10447705,
-          "timestamp": "2024-08-30T09:10:03Z",
-          "author": "Lynx1211",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        }
-      ]
-    },
-    {
-      "label": "Tour Jacquemart",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Tour_Jacquemart_Moulins_Allier_3.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATour%20Jacquemart%20Moulins%20Allier%203.jpg",
-          "title": "Tour Jacquemart Moulins Allier 3.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Cath%C3%A9drale_Notre-Dame_Annonciation_Moulins_Allier_6.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale%20Notre-Dame%20Annonciation%20Moulins%20Allier%206.jpg",
+          "title": "Cathédrale Notre-Dame Annonciation Moulins Allier 6.jpg",
+          "description": "Cathédrale Notre-Dame de Moulins, Allier.",
           "width": 5184,
           "height": 3456,
-          "size": 5657256,
-          "timestamp": "2018-04-17T01:22:58Z",
+          "size": 7541163,
+          "timestamp": "2018-04-16T23:50:52Z",
           "author": "Chabe01",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Jacquemart_Moulins_01.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJacquemart%20Moulins%2001.JPG",
-          "title": "Jacquemart Moulins 01.JPG",
-          "width": 3216,
-          "height": 2136,
-          "size": 2778206,
-          "timestamp": "2013-08-07T09:07:12Z",
-          "author": "Harrie Gielen",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Tour_Jacquemart_Moulins_Allier_1.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATour%20Jacquemart%20Moulins%20Allier%201.jpg",
-          "title": "Tour Jacquemart Moulins Allier 1.jpg",
-          "width": 3456,
-          "height": 5184,
-          "size": 6803875,
-          "timestamp": "2018-04-17T01:22:58Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Cath%C3%A9drale_Notre-Dame_Annonciation_Moulins_Allier_10.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale%20Notre-Dame%20Annonciation%20Moulins%20Allier%2010.jpg",
+          "title": "Cathédrale Notre-Dame Annonciation Moulins Allier 10.jpg",
+          "description": "Cathédrale Notre-Dame de Moulins, Allier.",
+          "width": 5184,
+          "height": 3456,
+          "size": 7053558,
+          "timestamp": "2018-04-16T23:51:11Z",
           "author": "Chabe01",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Moulins_%28Allier%29_Cath%C3%A9drale_Notre-Dame-de-l%27Annonciation_572.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMoulins%20(Allier)%20Cath%C3%A9drale%20Notre-Dame-de-l'Annonciation%20572.jpg",
+          "title": "Moulins (Allier) Cathédrale Notre-Dame-de-l'Annonciation 572.jpg",
+          "description": "Kathedrale Notre-Dame-de-l’Annonciation in Moulins im Département Allier (Auvergne-Rhône-Alpes/Frankreich)",
+          "width": 4896,
+          "height": 3264,
+          "size": 14661777,
+          "timestamp": "2019-11-10T20:30:31Z",
+          "author": "GFreihalter",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
         }
       ]
+    },
+    {
+      "label": "Place d’Allier",
+      "photos": []
+    },
+    {
+      "label": "Tour Jacquemart",
+      "photos": []
     },
     {
       "label": "Maison Mantin",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Lille_maison_folie_moulins_jardin.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALille%20maison%20folie%20moulins%20jardin.jpg",
+          "title": "Lille maison folie moulins jardin.jpg",
+          "description": "The garden of the Maison Folie de Moulins, in Lille.",
+          "width": 4824,
+          "height": 3336,
+          "size": 17480655,
+          "timestamp": "2022-04-30T08:14:07Z",
+          "author": "Velvet",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Maison_Mantin_Moulins_1_cropped.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison%20Mantin%20Moulins%201%20cropped.jpg",
           "title": "Maison Mantin Moulins 1 cropped.jpg",
+          "description": "Maison Mantin - Moulins",
           "width": 1491,
           "height": 1016,
           "size": 1307329,
@@ -193,27 +134,15 @@
           "score": 6
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Maison_Mantin_Moulins_Allier_1.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison%20Mantin%20Moulins%20Allier%201.jpg",
-          "title": "Maison Mantin Moulins Allier 1.jpg",
-          "width": 5184,
-          "height": 3456,
-          "size": 6022246,
-          "timestamp": "2018-04-17T03:37:35Z",
-          "author": "Chabe01",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Maison_Mantin_Moulins_Allier_3.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison%20Mantin%20Moulins%20Allier%203.jpg",
-          "title": "Maison Mantin Moulins Allier 3.jpg",
-          "width": 5184,
-          "height": 3456,
-          "size": 8479190,
-          "timestamp": "2018-04-17T03:37:35Z",
-          "author": "Chabe01",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Folie_Moulins_3.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFolie%20Moulins%203.jpg",
+          "title": "Folie Moulins 3.jpg",
+          "description": "Folie Moulins",
+          "width": 4896,
+          "height": 3335,
+          "size": 4726268,
+          "timestamp": "2017-03-05T20:30:26Z",
+          "author": "VVVCFFrance",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6

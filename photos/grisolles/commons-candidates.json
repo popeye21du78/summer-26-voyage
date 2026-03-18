@@ -1,38 +1,13 @@
 {
   "slug": "grisolles",
   "nom": "Grisolles",
-  "fetchedAt": "2026-03-13T14:38:31.190Z",
+  "fetchedAt": "2026-03-16T13:55:18.140Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Grisolles_%28Tarn-et-Garonne%29_Eglise_St.Martin._St.Helois.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrisolles%20(Tarn-et-Garonne)%20Eglise%20St.Martin.%20St.Helois.jpg",
-      "title": "Grisolles (Tarn-et-Garonne) Eglise St.Martin. St.Helois.jpg",
-      "width": 7126,
-      "height": 4639,
-      "size": 17602581,
-      "timestamp": "2015-04-11T15:23:13Z",
-      "author": "Didier Descouens",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Grisolles_coll%C3%A8ge_Jean_Lacaze_01.JPG",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrisolles%20coll%C3%A8ge%20Jean%20Lacaze%2001.JPG",
-      "title": "Grisolles collège Jean Lacaze 01.JPG",
-      "width": 3264,
-      "height": 2448,
-      "size": 2036075,
-      "timestamp": "2015-12-25T16:48:42Z",
-      "author": "Charele",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Canal_lat%C3%A9ral_Grisolles.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACanal%20lat%C3%A9ral%20Grisolles.jpg",
       "title": "Canal latéral Grisolles.jpg",
+      "description": "Vue du canal latéral à la Garonne depuis le pont Antoine de Larroque",
       "width": 4320,
       "height": 3240,
       "size": 8998145,
@@ -40,7 +15,35 @@
       "author": "Charele",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Gare_de_Grisolles.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGare%20de%20Grisolles.jpg",
+      "title": "Gare de Grisolles.jpg",
+      "description": "Vue de la gare de Grisolles",
+      "width": 4320,
+      "height": 3240,
+      "size": 9418796,
+      "timestamp": "2015-12-28T17:22:07Z",
+      "author": "Charele",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/%C3%89cole_de_musique_Grisolles.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89cole%20de%20musique%20Grisolles.jpg",
+      "title": "École de musique Grisolles.jpg",
+      "description": "Vue de l'école de musique de Grisolles rue Antoine de Larroque",
+      "width": 3240,
+      "height": 4320,
+      "size": 7961960,
+      "timestamp": "2015-12-28T17:22:05Z",
+      "author": "Charele",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
     }
   ],
   "lieux": [
@@ -50,49 +53,67 @@
     },
     {
       "label": "Canal de Garonne à Grisolles",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Canal_lat%C3%A9ral_Grisolles.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACanal%20lat%C3%A9ral%20Grisolles.jpg",
+          "title": "Canal latéral Grisolles.jpg",
+          "description": "Vue du canal latéral à la Garonne depuis le pont Antoine de Larroque",
+          "width": 4320,
+          "height": 3240,
+          "size": 8998145,
+          "timestamp": "2015-12-28T17:22:05Z",
+          "author": "Charele",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        }
+      ]
     },
     {
       "label": "Musée Calbet",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Grisolles_%28Tarn-et-Garonne%29_Eglise_St.Martin._St.Helois.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrisolles%20(Tarn-et-Garonne)%20Eglise%20St.Martin.%20St.Helois.jpg",
-          "title": "Grisolles (Tarn-et-Garonne) Eglise St.Martin. St.Helois.jpg",
-          "width": 7126,
-          "height": 4639,
-          "size": 17602581,
-          "timestamp": "2015-04-11T15:23:13Z",
-          "author": "Didier Descouens",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Gare_de_Grisolles.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGare%20de%20Grisolles.jpg",
+          "title": "Gare de Grisolles.jpg",
+          "description": "Vue de la gare de Grisolles",
+          "width": 4320,
+          "height": 3240,
+          "size": 9418796,
+          "timestamp": "2015-12-28T17:22:07Z",
+          "author": "Charele",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Grisolles_%284%29.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrisolles%20(4).JPG",
-          "title": "Grisolles (4).JPG",
-          "width": 4000,
-          "height": 2672,
-          "size": 5380477,
-          "timestamp": "2015-01-04T21:09:48Z",
-          "author": "Pascal3012",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/82075-Grisolles-Sols.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A82075-Grisolles-Sols.png",
+          "title": "82075-Grisolles-Sols.png",
+          "description": "Carte des infrastructures et de l’occupation des sols en 2018 de la commune de fr:Grisolles (France).",
+          "width": 3270,
+          "height": 2598,
+          "size": 3260561,
+          "timestamp": "2021-04-12T13:19:48Z",
+          "author": "Roland45",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Polygonia_c-album_MHNT_CUT_2013_3_19_Grisolles_Male_Dos.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APolygonia%20c-album%20MHNT%20CUT%202013%203%2019%20Grisolles%20Male%20Dos.jpg",
-          "title": "Polygonia c-album MHNT CUT 2013 3 19 Grisolles Male Dos.jpg",
-          "width": 5371,
-          "height": 3642,
-          "size": 10539163,
-          "timestamp": "2015-08-04T09:29:51Z",
-          "author": "Didier Descouens",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/02356-Grisolles-Sols.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A02356-Grisolles-Sols.png",
+          "title": "02356-Grisolles-Sols.png",
+          "description": "Carte des infrastructures et de l’occupation des sols en 2018 de la commune de fr:Grisolles (Aisne) (France).",
+          "width": 3270,
+          "height": 2598,
+          "size": 1489923,
+          "timestamp": "2021-05-16T14:22:09Z",
+          "author": "Roland45",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         }
       ]
     }

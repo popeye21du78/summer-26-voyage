@@ -1,12 +1,27 @@
 {
   "slug": "plage-de-la-pointe-rouge",
   "nom": "Plage de la Pointe Rouge",
-  "fetchedAt": "2026-03-14T11:05:56.650Z",
+  "fetchedAt": "2026-03-17T23:04:06.842Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/View_of_Plage_de_Bonneveine_with_ferris_wheel_from_the_breakwater%2C_Marseille%2C_2012.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AView%20of%20Plage%20de%20Bonneveine%20with%20ferris%20wheel%20from%20the%20breakwater%2C%20Marseille%2C%202012.jpg",
+      "title": "View of Plage de Bonneveine with ferris wheel from the breakwater, Marseille, 2012.jpg",
+      "description": "View of Plage de Bonneveine with ferris wheel from the breakwater, Marseille, 2012",
+      "width": 2785,
+      "height": 1852,
+      "size": 3867573,
+      "timestamp": "2025-12-21T15:08:34Z",
+      "author": "DimiTalen",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Marseille%2C_pr%C3%A8s_de_Pointe_Rouge_%2811839784583%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarseille%2C%20pr%C3%A8s%20de%20Pointe%20Rouge%20(11839784583).jpg",
       "title": "Marseille, près de Pointe Rouge (11839784583).jpg",
+      "description": "digue et vue sur l'archipel du Frioul",
       "width": 2352,
       "height": 1568,
       "size": 996606,
@@ -20,25 +35,13 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plage_de_Bonneveine_at_dusk%2C_Marseille%2C_2015.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlage%20de%20Bonneveine%20at%20dusk%2C%20Marseille%2C%202015.jpg",
       "title": "Plage de Bonneveine at dusk, Marseille, 2015.jpg",
+      "description": "Plage de Bonneveine at dusk, Marseille, 2015",
       "width": 5839,
       "height": 3882,
       "size": 13312955,
       "timestamp": "2023-01-28T16:13:49Z",
       "author": "DimiTalen",
       "license": "CC0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Coucher_de_soleil_sur_la_plage_du_Prado.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACoucher%20de%20soleil%20sur%20la%20plage%20du%20Prado.jpg",
-      "title": "Coucher de soleil sur la plage du Prado.jpg",
-      "width": 4000,
-      "height": 2256,
-      "size": 2654469,
-      "timestamp": "2023-09-19T07:26:50Z",
-      "author": "Exilexi",
-      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     }
@@ -54,7 +57,22 @@
     },
     {
       "label": "digue côté Bain des Dames",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/20210701_192727_Plage_du_Mour%C3%A9_Rouge.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20210701%20192727%20Plage%20du%20Mour%C3%A9%20Rouge.jpg",
+          "title": "20210701 192727 Plage du Mouré Rouge.jpg",
+          "description": "La plage du Mouré Rouge à la pointe Croisette vue depuis la digue en rocher qui sépare la plage du Mouré Rouge de celle de Gazagnaire dans le dos de l'observateur",
+          "width": 4128,
+          "height": 1956,
+          "size": 2784348,
+          "timestamp": "2021-07-01T19:29:49Z",
+          "author": "Horizon06",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     }
   ]
 }

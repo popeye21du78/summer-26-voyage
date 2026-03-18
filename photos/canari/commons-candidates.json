@@ -1,42 +1,45 @@
 {
   "slug": "canari",
   "nom": "Canari",
-  "fetchedAt": "2026-03-13T00:38:26.720Z",
+  "fetchedAt": "2026-03-15T20:34:31.154Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Main_road_-_panoramio.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMain%20road%20-%20panoramio.jpg",
-      "title": "Main road - panoramio.jpg",
-      "width": 3072,
-      "height": 2304,
-      "size": 3508797,
-      "timestamp": "2016-04-07T04:53:18Z",
-      "author": "Qwesy",
-      "license": "CC BY 3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Canari-chateau.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACanari-chateau.jpg",
+      "title": "Canari-chateau.jpg",
+      "description": "Canari (Corsica) - Château de Cenci à Piazza",
+      "width": 4032,
+      "height": 3024,
+      "size": 10722663,
+      "timestamp": "2010-06-04T16:58:12Z",
+      "author": "Pierre Bona",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Paysage_et_mer_depuis_la_route_%C3%A0_Conchiglio_%28second_passage%29_%281%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APaysage%20et%20mer%20depuis%20la%20route%20%C3%A0%20Conchiglio%20(second%20passage)%20(1).jpg",
-      "title": "Paysage et mer depuis la route à Conchiglio (second passage) (1).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Coucher_de_soleil_%C3%A0_Canari_%281%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACoucher%20de%20soleil%20%C3%A0%20Canari%20(1).jpg",
+      "title": "Coucher de soleil à Canari (1).jpg",
+      "description": "Coucher de soleil à Canari (Haute-Corse, France).",
       "width": 4288,
       "height": 3216,
-      "size": 1205481,
-      "timestamp": "2016-10-05T10:27:57Z",
+      "size": 630046,
+      "timestamp": "2016-10-10T10:27:59Z",
       "author": "Gzen92",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 6
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Paysage_depuis_la_route_%C3%A0_Conchiglio_%28second_passage%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APaysage%20depuis%20la%20route%20%C3%A0%20Conchiglio%20(second%20passage).jpg",
-      "title": "Paysage depuis la route à Conchiglio (second passage).jpg",
-      "width": 2592,
-      "height": 1944,
-      "size": 685172,
-      "timestamp": "2016-10-05T10:27:58Z",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Coucher_de_soleil_%C3%A0_Canari_%282%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACoucher%20de%20soleil%20%C3%A0%20Canari%20(2).jpg",
+      "title": "Coucher de soleil à Canari (2).jpg",
+      "description": "Coucher de soleil à Canari (Haute-Corse, France).",
+      "width": 4288,
+      "height": 3216,
+      "size": 827711,
+      "timestamp": "2016-10-10T10:27:59Z",
       "author": "Gzen92",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
@@ -46,15 +49,102 @@
   "lieux": [
     {
       "label": "Tour génoise de Canari",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Recorrido_en_el_Centro_de_Gesti%C3%B3n_del_Pueblo_Ca%C3%B1ari.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARecorrido%20en%20el%20Centro%20de%20Gesti%C3%B3n%20del%20Pueblo%20Ca%C3%B1ari.jpg",
+          "title": "Recorrido en el Centro de Gestión del Pueblo Cañari.jpg",
+          "description": "Councilors of Nabón, canton of the province of Azuay, toured the Management Center in Yurak Kasha",
+          "width": 4800,
+          "height": 3200,
+          "size": 10484735,
+          "timestamp": "2021-08-18T15:56:43Z",
+          "author": "EMMAIPC-EP",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Clocher_%28Canari%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AClocher%20(Canari).jpg",
+          "title": "Clocher (Canari).jpg",
+          "description": "Clocher à Canari (Haute-Corse, France).",
+          "width": 1944,
+          "height": 2592,
+          "size": 245867,
+          "timestamp": "2016-10-10T10:27:57Z",
+          "author": "Gzen92",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Église Saint-François d’Assise",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Canari%2C_pieve_di_santa_maria_assunta%2C_del_1190_ca._03.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACanari%2C%20pieve%20di%20santa%20maria%20assunta%2C%20del%201190%20ca.%2003.jpg",
+          "title": "Canari, pieve di santa maria assunta, del 1190 ca. 03.jpg",
+          "description": "Église Santa Maria Assunta de Canari",
+          "width": 4944,
+          "height": 2712,
+          "size": 8098344,
+          "timestamp": "2020-04-26T13:52:45Z",
+          "author": "Sailko",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Canari%2C_pieve_di_santa_maria_assunta%2C_del_1190_ca._01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACanari%2C%20pieve%20di%20santa%20maria%20assunta%2C%20del%201190%20ca.%2001.jpg",
+          "title": "Canari, pieve di santa maria assunta, del 1190 ca. 01.jpg",
+          "description": "Église Santa Maria Assunta de Canari",
+          "width": 5472,
+          "height": 3648,
+          "size": 14804122,
+          "timestamp": "2020-04-26T13:52:46Z",
+          "author": "Sailko",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Canari%2C_pieve_di_santa_maria_assunta%2C_del_1190_ca.%2C_archetti_ciechi_con_decorazioni_a_rilievo_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACanari%2C%20pieve%20di%20santa%20maria%20assunta%2C%20del%201190%20ca.%2C%20archetti%20ciechi%20con%20decorazioni%20a%20rilievo%2001.jpg",
+          "title": "Canari, pieve di santa maria assunta, del 1190 ca., archetti ciechi con decorazioni a rilievo 01.jpg",
+          "description": "Église Santa Maria Assunta de Canari",
+          "width": 4816,
+          "height": 2488,
+          "size": 8719308,
+          "timestamp": "2020-04-26T13:52:46Z",
+          "author": "Sailko",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Chapelle Sainte-Lucie",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Canari-Sta-Maria_Assunta_chapelle_lat%C3%A9rale.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACanari-Sta-Maria%20Assunta%20chapelle%20lat%C3%A9rale.jpg",
+          "title": "Canari-Sta-Maria Assunta chapelle latérale.jpg",
+          "description": "Canari (Corsica) - Chapelle latérale ajoutée au XVIIIe siècle à l'église Santa-Maria Assunta",
+          "width": 4032,
+          "height": 3024,
+          "size": 10388903,
+          "timestamp": "2010-06-02T16:52:43Z",
+          "author": "Pierre Bona",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     }
   ]
 }

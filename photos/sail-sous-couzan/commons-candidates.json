@@ -1,44 +1,47 @@
 {
   "slug": "sail-sous-couzan",
   "nom": "Sail-sous-Couzan",
-  "fetchedAt": "2026-03-14T11:54:58.393Z",
+  "fetchedAt": "2026-03-18T17:55:20.695Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Sail-sous-Couzan_-_Route_des_Lavoirs_-_Plaque.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASail-sous-Couzan%20-%20Route%20des%20Lavoirs%20-%20Plaque.jpg",
-      "title": "Sail-sous-Couzan - Route des Lavoirs - Plaque.jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 3251814,
-      "timestamp": "2023-06-26T20:56:44Z",
-      "author": "Romainbehar",
-      "license": "CC0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Sail-sous-Couzan_-_Rue_des_Lavandi%C3%A8res%2C_plaque_%28juin_2023%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASail-sous-Couzan%20-%20Rue%20des%20Lavandi%C3%A8res%2C%20plaque%20(juin%202023).jpg",
-      "title": "Sail-sous-Couzan - Rue des Lavandières, plaque (juin 2023).jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 2233248,
-      "timestamp": "2023-07-11T20:31:14Z",
-      "author": "Sebleouf",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Sail-sous-Couzan_-_Rue_des_Lavandi%C3%A8res_%28juin_2023%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASail-sous-Couzan%20-%20Rue%20des%20Lavandi%C3%A8res%20(juin%202023).jpg",
       "title": "Sail-sous-Couzan - Rue des Lavandières (juin 2023).jpg",
+      "description": "Vue de la rue des Lavandières, au lieu-dit Culvé, à Sail-sous-Couzan (Loire, France).",
       "width": 4032,
       "height": 3024,
       "size": 4968566,
       "timestamp": "2023-07-11T20:31:14Z",
       "author": "Sebleouf",
       "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Le_ch%C3%A2teau_de_Sail-sous-Couzan%2C_en_quittant_la_vall%C3%A9e_-_panoramio.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20ch%C3%A2teau%20de%20Sail-sous-Couzan%2C%20en%20quittant%20la%20vall%C3%A9e%20-%20panoramio.jpg",
+      "title": "Le château de Sail-sous-Couzan, en quittant la vallée - panoramio.jpg",
+      "description": "Le château de Sail-sous-Couzan, en quittant la vallée",
+      "width": 2853,
+      "height": 1001,
+      "size": 568088,
+      "timestamp": "2017-04-08T06:09:10Z",
+      "author": "Gilles Guillamot",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Sail-sous-Couzan_-_Route_des_Lavoirs_-_Plaque.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASail-sous-Couzan%20-%20Route%20des%20Lavoirs%20-%20Plaque.jpg",
+      "title": "Sail-sous-Couzan - Route des Lavoirs - Plaque.jpg",
+      "description": "Plaque.",
+      "width": 4032,
+      "height": 3024,
+      "size": 3251814,
+      "timestamp": "2023-06-26T20:56:44Z",
+      "author": "Romainbehar",
+      "license": "CC0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     }
@@ -54,7 +57,50 @@
     },
     {
       "label": "Église Saint-Saturnin",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/%C3%89glise_de_sail_2012_%288%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20de%20sail%202012%20(8).JPG",
+          "title": "Église de sail 2012 (8).JPG",
+          "description": "Église Saint-André de Sail-sous-Couzan,  (Inscrit, 1928)",
+          "width": 2816,
+          "height": 2112,
+          "size": 1094488,
+          "timestamp": "2012-09-25T09:08:08Z",
+          "author": "Frédérique Défrade",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/%C3%89glise_de_sail_2012_%282%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20de%20sail%202012%20(2).JPG",
+          "title": "Église de sail 2012 (2).JPG",
+          "description": "Église Saint-André de Sail-sous-Couzan,  (Inscrit, 1928)",
+          "width": 2816,
+          "height": 2112,
+          "size": 1121966,
+          "timestamp": "2012-09-25T09:08:08Z",
+          "author": "Frédérique Défrade",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Eglise_sail.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20sail.jpg",
+          "title": "Eglise sail.jpg",
+          "description": "Eglise de Sail-sous-Couzan, commune située dans le département de la Loire, France",
+          "width": 3888,
+          "height": 2592,
+          "size": 4183897,
+          "timestamp": "2008-10-05T14:32:38Z",
+          "author": "Raymond Tarrit",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     },
     {
       "label": "Pont de pierre sur le Lignon",

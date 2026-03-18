@@ -1,38 +1,13 @@
 {
   "slug": "lac-de-saint-etienne-cantales",
   "nom": "Lac de Saint-Étienne-Cantalès",
-  "fetchedAt": "2026-03-13T15:14:41.912Z",
+  "fetchedAt": "2026-03-16T19:26:28.515Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Saint-Gerons_Mairie.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Gerons%20Mairie.jpg",
-      "title": "Saint-Gerons Mairie.jpg",
-      "width": 2360,
-      "height": 1696,
-      "size": 721126,
-      "timestamp": "2021-07-18T19:18:23Z",
-      "author": "Thierry46",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Barrage_de_Saint-%C3%89tienne-Cantales_evacuateur_crue.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABarrage%20de%20Saint-%C3%89tienne-Cantales%20evacuateur%20crue.jpg",
-      "title": "Barrage de Saint-Étienne-Cantales evacuateur crue.jpg",
-      "width": 1696,
-      "height": 1450,
-      "size": 734279,
-      "timestamp": "2021-07-18T19:55:45Z",
-      "author": "Thierry46",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Place_des_merles.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlace%20des%20merles.jpg",
       "title": "Place des merles.jpg",
+      "description": "",
       "width": 2448,
       "height": 3264,
       "size": 3659959,
@@ -41,6 +16,34 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 4
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/TER_Occitanie_sur_le_viaduc_du_Ribeyr%C3%A8s_%C3%A0_Lacapelle-Viescamp_2.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATER%20Occitanie%20sur%20le%20viaduc%20du%20Ribeyr%C3%A8s%20%C3%A0%20Lacapelle-Viescamp%202.jpg",
+      "title": "TER Occitanie sur le viaduc du Ribeyrès à Lacapelle-Viescamp 2.jpg",
+      "description": "Train régional Aurillac - Toulouse circulant sur le viaduc du Ribeyrès, au-dessus du lac de Saint-Etienne-Cantalès. Le train est un XGC 3 caisses de la région Occitanie.",
+      "width": 4608,
+      "height": 3456,
+      "size": 7499957,
+      "timestamp": "2023-09-10T11:23:01Z",
+      "author": "SimplySacha",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/TER_Occitanie_sur_le_viaduc_du_Ribeyr%C3%A8s_%C3%A0_Lacapelle-Viescamp.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATER%20Occitanie%20sur%20le%20viaduc%20du%20Ribeyr%C3%A8s%20%C3%A0%20Lacapelle-Viescamp.jpg",
+      "title": "TER Occitanie sur le viaduc du Ribeyrès à Lacapelle-Viescamp.jpg",
+      "description": "Train régional Aurillac - Toulouse circulant sur le viaduc du Ribeyrès, au-dessus du lac de Saint-Etienne-Cantalès. Le train est un XGC 3 caisses de la région Occitanie.",
+      "width": 4608,
+      "height": 3456,
+      "size": 7660790,
+      "timestamp": "2023-09-10T11:23:01Z",
+      "author": "SimplySacha",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
     }
   ],
   "lieux": [
@@ -54,7 +57,22 @@
     },
     {
       "label": "Presqu’île de Laussac",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Lac_du_Ribeyres.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALac%20du%20Ribeyres.jpg",
+          "title": "Lac du Ribeyres.jpg",
+          "description": "Vue aérienne du Lac du Ribeyrès, Cantal, France",
+          "width": 1406,
+          "height": 996,
+          "size": 1074202,
+          "timestamp": "2010-07-20T15:50:37Z",
+          "author": "Dr Brains",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Digue du barrage de Saint-Étienne-Cantalès",

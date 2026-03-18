@@ -1,25 +1,13 @@
 {
   "slug": "beaumes-de-venise",
   "nom": "Beaumes-de-Venise",
-  "fetchedAt": "2026-03-13T00:12:27.736Z",
+  "fetchedAt": "2026-03-15T19:30:23.728Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Cimeti%C3%A8re_d%27Aubignan_%2893068%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACimeti%C3%A8re%20d'Aubignan%20(93068).jpg",
-      "title": "Cimetière d'Aubignan (93068).jpg",
-      "width": 4080,
-      "height": 3060,
-      "size": 3944307,
-      "timestamp": "2025-05-02T17:44:26Z",
-      "author": "Marianne Casamance",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Cimeti%C3%A8re_de_Beaumes_de_Venise.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACimeti%C3%A8re%20de%20Beaumes%20de%20Venise.jpg",
       "title": "Cimetière de Beaumes de Venise.jpg",
+      "description": "allée du cimetière",
       "width": 3264,
       "height": 2448,
       "size": 4250749,
@@ -33,10 +21,25 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Cimeti%C3%A8re_de_Beaumes_de_Venise_%2876935%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACimeti%C3%A8re%20de%20Beaumes%20de%20Venise%20(76935).jpg",
       "title": "Cimetière de Beaumes de Venise (76935).jpg",
+      "description": "allée du cimetière",
       "width": 3264,
       "height": 2448,
       "size": 5184748,
       "timestamp": "2025-06-30T17:44:44Z",
+      "author": "Marianne Casamance",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Stade_de_Beames_de_Venise.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStade%20de%20Beames%20de%20Venise.jpg",
+      "title": "Stade de Beames de Venise.jpg",
+      "description": "stade de foot",
+      "width": 3264,
+      "height": 2448,
+      "size": 5053746,
+      "timestamp": "2025-06-30T17:47:34Z",
       "author": "Marianne Casamance",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
@@ -48,53 +51,128 @@
       "label": "Chapelle Notre-Dame d’Aubune",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Notre-Dame_d%27Aubune_01.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANotre-Dame%20d'Aubune%2001.JPG",
-          "title": "Notre-Dame d'Aubune 01.JPG",
-          "width": 3368,
-          "height": 2592,
-          "size": 6251524,
-          "timestamp": "2019-05-01T10:21:24Z",
-          "author": "EmDee",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Carte_postale_de_Beaumes-de-Venise_%28Chapelle_romane_BIS%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarte%20postale%20de%20Beaumes-de-Venise%20(Chapelle%20romane%20BIS).jpg",
+          "title": "Carte postale de Beaumes-de-Venise (Chapelle romane BIS).jpg",
+          "description": "Carte postale pleine feuille, bords dentelés, noir et blanc. Aspect brillant.",
+          "width": 1854,
+          "height": 1328,
+          "size": 2188413,
+          "timestamp": "2025-11-17T09:16:49Z",
+          "author": "<div class=\"fn value\">\nMtv84</div>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Beaumes_de_Venise_-_ND_d%27Aubune.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeaumes%20de%20Venise%20-%20ND%20d'Aubune.JPG",
+          "title": "Beaumes de Venise - ND d'Aubune.JPG",
+          "description": "Chapelle Notre-Dame d'Aubune",
+          "width": 4608,
+          "height": 3072,
+          "size": 3710803,
+          "timestamp": "2015-09-30T05:51:05Z",
+          "author": "Marianne Casamance",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Beaumes-de-Venise_Notre-Dame_d%27Aubune_4.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeaumes-de-Venise%20Notre-Dame%20d'Aubune%204.JPG",
-          "title": "Beaumes-de-Venise Notre-Dame d'Aubune 4.JPG",
-          "width": 3888,
-          "height": 2592,
-          "size": 8746379,
-          "timestamp": "2011-10-08T08:14:03Z",
-          "author": "Reinhardhauke",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Carte_postale_de_Beaumes-de-Venise_%28Chapelle_romane%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarte%20postale%20de%20Beaumes-de-Venise%20(Chapelle%20romane).jpg",
+          "title": "Carte postale de Beaumes-de-Venise (Chapelle romane).jpg",
+          "description": "Carte postale pleine feuille, bords dentelés, noir et blanc. Aspect brillant",
+          "width": 1339,
+          "height": 1856,
+          "size": 2122993,
+          "timestamp": "2025-11-17T09:16:59Z",
+          "author": "<div class=\"fn value\">\nMtv84</div>",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/ND_d%27Aubune%2C_inscription_latine.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AND%20d'Aubune%2C%20inscription%20latine.JPG",
-          "title": "ND d'Aubune, inscription latine.JPG",
-          "width": 4608,
-          "height": 3072,
-          "size": 3668461,
-          "timestamp": "2013-08-10T15:10:19Z",
-          "author": "Marianne Casamance",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 6
         }
       ]
     },
     {
       "label": "Lavoirs du village",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Beaumes_%C3%A9glise_et_lavoir_public.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeaumes%20%C3%A9glise%20et%20lavoir%20public.jpg",
+          "title": "Beaumes église et lavoir public.jpg",
+          "description": "Église et lavoir public de Beaumes",
+          "width": 1000,
+          "height": 646,
+          "size": 531780,
+          "timestamp": "2014-06-05T06:42:16Z",
+          "author": "Unknown 1920s",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Beaumes_Lavoir_public_disparu.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeaumes%20Lavoir%20public%20disparu.jpg",
+          "title": "Beaumes Lavoir public disparu.jpg",
+          "description": "Beaumes Lavoir public disparu",
+          "width": 1000,
+          "height": 642,
+          "size": 362020,
+          "timestamp": "2014-06-09T15:28:06Z",
+          "author": "Unknown early 1900s",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     },
     {
       "label": "Restes du château (vue sur les Dentelles de Montmirail)",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Ch%C3%A2teau_en_ruines_de_Beaumes-de-Venise.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20en%20ruines%20de%20Beaumes-de-Venise.jpg",
+          "title": "Château en ruines de Beaumes-de-Venise.jpg",
+          "description": "Château en ruines de Beaumes-de-Venise",
+          "width": 2048,
+          "height": 1536,
+          "size": 1817876,
+          "timestamp": "2012-12-04T01:03:27Z",
+          "author": "otbeaumes",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Ruines_du_ch%C3%A2teau_de_Beaumes-de-Venise.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARuines%20du%20ch%C3%A2teau%20de%20Beaumes-de-Venise.jpg",
+          "title": "Ruines du château de Beaumes-de-Venise.jpg",
+          "description": "Ruines du château de Beaumes-de-Venise",
+          "width": 2048,
+          "height": 1536,
+          "size": 2180517,
+          "timestamp": "2012-12-04T01:12:50Z",
+          "author": "otbeaumes",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Carte_postale_de_Beaumes-de-Venise_%28Ruines_du_ch%C3%A2teau_f%C3%A9odal%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarte%20postale%20de%20Beaumes-de-Venise%20(Ruines%20du%20ch%C3%A2teau%20f%C3%A9odal).jpg",
+          "title": "Carte postale de Beaumes-de-Venise (Ruines du château féodal).jpg",
+          "description": "Carte postale pleine feuille, noir et blanc. Aspect mat",
+          "width": 1745,
+          "height": 1147,
+          "size": 1977502,
+          "timestamp": "2025-11-17T09:17:19Z",
+          "author": "<div class=\"fn value\">\nMtv84</div>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

@@ -1,12 +1,13 @@
 {
   "slug": "rodemack",
   "nom": "Rodemack",
-  "fetchedAt": "2026-03-14T11:49:05.216Z",
+  "fetchedAt": "2026-03-18T17:41:36.256Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/20200621Rodemack08.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20200621Rodemack08.jpg",
       "title": "20200621Rodemack08.jpg",
+      "description": "View from inside the Lavoir de Rodemack‎ to houses outside.",
       "width": 5908,
       "height": 3951,
       "size": 7006674,
@@ -14,25 +15,13 @@
       "author": "Flocci Nivis",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/20200621Rodemack07.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20200621Rodemack07.jpg",
-      "title": "20200621Rodemack07.jpg",
-      "width": 6032,
-      "height": 4032,
-      "size": 6905132,
-      "timestamp": "2020-07-08T14:30:16Z",
-      "author": "Flocci Nivis",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/20200621Rodemack11.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20200621Rodemack11.jpg",
       "title": "20200621Rodemack11.jpg",
+      "description": "View from the fountain between the Rue de l'Église and Rue de la Franchise to the Église Saint-Nicolas in Rodemack.",
       "width": 5832,
       "height": 3900,
       "size": 7612902,
@@ -40,7 +29,21 @@
       "author": "Flocci Nivis",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Rodemack%2C_citadelle_vers_Cattenom_2025.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARodemack%2C%20citadelle%20vers%20Cattenom%202025.jpg",
+      "title": "Rodemack, citadelle vers Cattenom 2025.jpg",
+      "description": "Rodemack in the French Moselle department: view from the citadelle towards the south with the cooling towers of the nuclear power plant at Cattenom.",
+      "width": 8256,
+      "height": 4173,
+      "size": 21472401,
+      "timestamp": "2025-08-08T09:09:48Z",
+      "author": "Cayambe",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
     }
   ],
   "lieux": [
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/20200621_Remparts_de_Rodemack_03.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20200621%20Remparts%20de%20Rodemack%2003.jpg",
           "title": "20200621 Remparts de Rodemack 03.jpg",
+          "description": "View from outside on the Porte de Sierck, which part of the fortifications Remparts de Rodemack.",
           "width": 5312,
           "height": 3546,
           "size": 15171414,
@@ -58,12 +62,13 @@
           "author": "Flocci Nivis",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/20200621_Remparts_de_Rodemack_02.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20200621%20Remparts%20de%20Rodemack%2002.jpg",
           "title": "20200621 Remparts de Rodemack 02.jpg",
+          "description": "View from the fortifications Remparts de Rodemack on Rodemack. Among other buildings this oicture shows the communal distillery\nof Rodemack.",
           "width": 6032,
           "height": 4032,
           "size": 7063827,
@@ -71,16 +76,17 @@
           "author": "Flocci Nivis",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/20200621_Remparts_de_Rodemack_01.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20200621%20Remparts%20de%20Rodemack%2001.jpg",
-          "title": "20200621 Remparts de Rodemack 01.jpg",
-          "width": 5744,
-          "height": 3840,
-          "size": 11052521,
-          "timestamp": "2020-09-02T21:05:50Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/20200621Rodemack03.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20200621Rodemack03.jpg",
+          "title": "20200621Rodemack03.jpg",
+          "description": "A street with some houses in Rodemack, outside of the remparts.",
+          "width": 5894,
+          "height": 3941,
+          "size": 7499955,
+          "timestamp": "2020-07-08T14:30:09Z",
           "author": "Flocci Nivis",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -90,47 +96,7 @@
     },
     {
       "label": "Porte de Sierck",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/20200621Rodemack09.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20200621Rodemack09.jpg",
-          "title": "20200621Rodemack09.jpg",
-          "width": 5882,
-          "height": 3933,
-          "size": 7329422,
-          "timestamp": "2020-07-08T14:30:16Z",
-          "author": "Flocci Nivis",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/20200621_Remparts_de_Rodemack_03.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20200621%20Remparts%20de%20Rodemack%2003.jpg",
-          "title": "20200621 Remparts de Rodemack 03.jpg",
-          "width": 5312,
-          "height": 3546,
-          "size": 15171414,
-          "timestamp": "2023-01-18T22:19:31Z",
-          "author": "Flocci Nivis",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Rodemack%2C_place_de_la_Porte_de_Sierck_2025.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARodemack%2C%20place%20de%20la%20Porte%20de%20Sierck%202025.jpg",
-          "title": "Rodemack, place de la Porte de Sierck 2025.jpg",
-          "width": 8109,
-          "height": 4118,
-          "size": 21854950,
-          "timestamp": "2025-08-04T17:25:22Z",
-          "author": "Cayambe",
-          "license": "CC BY 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Château de Rodemack",
@@ -139,6 +105,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/20200621_Ch%C3%A2teau_de_Rodemack_01.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20200621%20Ch%C3%A2teau%20de%20Rodemack%2001.jpg",
           "title": "20200621 Château de Rodemack 01.jpg",
+          "description": "View at the entrance to the Château de Rodemack.",
           "width": 5833,
           "height": 3900,
           "size": 9999589,
@@ -146,12 +113,13 @@
           "author": "Flocci Nivis",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/20200621_Ch%C3%A2teau_de_Rodemack_02.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20200621%20Ch%C3%A2teau%20de%20Rodemack%2002.jpg",
           "title": "20200621 Château de Rodemack 02.jpg",
+          "description": "View at gate at the entrance to the Château de Rodemack.",
           "width": 6032,
           "height": 4032,
           "size": 10346374,
@@ -159,12 +127,13 @@
           "author": "Flocci Nivis",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/20200621_Ch%C3%A2teau_de_Rodemack_03.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20200621%20Ch%C3%A2teau%20de%20Rodemack%2003.jpg",
           "title": "20200621 Château de Rodemack 03.jpg",
+          "description": "View at the way up to the entrance to the Château de Rodemack.",
           "width": 6032,
           "height": 4032,
           "size": 11570646,
@@ -172,7 +141,7 @@
           "author": "Flocci Nivis",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         }
       ]
     },
@@ -183,6 +152,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Rodemack_%E2%80%93_Jardin_m%C3%A9di%C3%A9val_2025a.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARodemack%20%E2%80%93%20Jardin%20m%C3%A9di%C3%A9val%202025a.jpg",
           "title": "Rodemack – Jardin médiéval 2025a.jpg",
+          "description": "Medieval garden in Rodemack, department of Moselle, France.",
           "width": 8256,
           "height": 4988,
           "size": 31292227,
@@ -196,6 +166,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Rodemack_%E2%80%93_Jardin_m%C3%A9di%C3%A9val_2025b.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARodemack%20%E2%80%93%20Jardin%20m%C3%A9di%C3%A9val%202025b.jpg",
           "title": "Rodemack – Jardin médiéval 2025b.jpg",
+          "description": "Medieval garden in Rodemack, department of Moselle, France.",
           "width": 6605,
           "height": 3952,
           "size": 23028271,
@@ -209,6 +180,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Rodemack_%E2%80%93_Jardin_m%C3%A9di%C3%A9val_2025e.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARodemack%20%E2%80%93%20Jardin%20m%C3%A9di%C3%A9val%202025e.jpg",
           "title": "Rodemack – Jardin médiéval 2025e.jpg",
+          "description": "Medieval garden in Rodemack, Moselle department in France.",
           "width": 6605,
           "height": 4403,
           "size": 25725921,

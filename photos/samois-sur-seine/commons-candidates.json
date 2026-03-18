@@ -1,46 +1,49 @@
 {
   "slug": "samois-sur-seine",
   "nom": "Samois-sur-Seine",
-  "fetchedAt": "2026-03-14T12:24:09.480Z",
+  "fetchedAt": "2026-03-18T19:01:16.434Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Samois-sur-Seine_Mairie_Plaque_845.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASamois-sur-Seine%20Mairie%20Plaque%20845.jpg",
-      "title": "Samois-sur-Seine Mairie Plaque 845.jpg",
-      "width": 4896,
-      "height": 3264,
-      "size": 8916659,
-      "timestamp": "2020-03-17T15:24:21Z",
-      "author": "GFreihalter",
-      "license": "CC BY-SA 3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Samois_Sur_Seine_vue_de_Seine.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASamois%20Sur%20Seine%20vue%20de%20Seine.jpg",
+      "title": "Samois Sur Seine vue de Seine.jpg",
+      "description": "Samois sur Seine vue de la Seine",
+      "width": 4000,
+      "height": 2250,
+      "size": 4221760,
+      "timestamp": "2021-05-01T16:35:08Z",
+      "author": "Huguesdesaintperier",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Samois-sur-Seine_Rue_du_Sergent_866.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASamois-sur-Seine%20Rue%20du%20Sergent%20866.jpg",
-      "title": "Samois-sur-Seine Rue du Sergent 866.jpg",
-      "width": 4896,
-      "height": 3264,
-      "size": 14451483,
-      "timestamp": "2020-03-17T18:07:26Z",
-      "author": "GFreihalter",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Tour_de_Samois_-_nord-est_%281%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATour%20de%20Samois%20-%20nord-est%20(1).jpg",
-      "title": "Tour de Samois - nord-est (1).jpg",
-      "width": 6000,
-      "height": 4000,
-      "size": 9109060,
-      "timestamp": "2020-09-14T14:19:35Z",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Tour_de_Samois_-_rocher_%282%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATour%20de%20Samois%20-%20rocher%20(2).jpg",
+      "title": "Tour de Samois - rocher (2).jpg",
+      "description": "Le côté nord-est de la tour de Samois, vue depuis le parking en contrebas du rocher de Samois.",
+      "width": 4000,
+      "height": 6000,
+      "size": 9158655,
+      "timestamp": "2020-09-14T14:19:52Z",
       "author": "Baidax",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 8
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Tour_de_Samois_-_rocher_%283%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATour%20de%20Samois%20-%20rocher%20(3).jpg",
+      "title": "Tour de Samois - rocher (3).jpg",
+      "description": "Le côté nord-est de la tour de Samois, vue depuis le parking en contrebas du rocher de Samois.",
+      "width": 4000,
+      "height": 6000,
+      "size": 8539470,
+      "timestamp": "2020-09-14T14:19:53Z",
+      "author": "Baidax",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
     }
   ],
   "lieux": [
@@ -55,6 +58,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Samois-sur-Seine_%C3%89glise_Saint-Hilaire_842.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASamois-sur-Seine%20%C3%89glise%20Saint-Hilaire%20842.jpg",
           "title": "Samois-sur-Seine Église Saint-Hilaire 842.jpg",
+          "description": "Kirche Saint-Hilaire in Samois-sur-Seine im Département Seine-et-Marne (Île-de-France/Frankreich)",
           "width": 4179,
           "height": 2786,
           "size": 6862906,
@@ -65,36 +69,67 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/%28Agen%29_Ancienne_%C3%A9glise_Saint-Hilaire_M%C3%A9rim%C3%A9e_PA00084040.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A(Agen)%20Ancienne%20%C3%A9glise%20Saint-Hilaire%20M%C3%A9rim%C3%A9e%20PA00084040.jpg",
-          "title": "(Agen) Ancienne église Saint-Hilaire Mérimée PA00084040.jpg",
-          "width": 8187,
-          "height": 5362,
-          "size": 46362861,
-          "timestamp": "2022-05-12T05:07:50Z",
-          "author": "Didier Descouens",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Samois-sur-Seine_%C3%89glise_Saint-Hilaire_841.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASamois-sur-Seine%20%C3%89glise%20Saint-Hilaire%20841.jpg",
+          "title": "Samois-sur-Seine Église Saint-Hilaire 841.jpg",
+          "description": "Kirche Saint-Hilaire in Samois-sur-Seine im Département Seine-et-Marne (Île-de-France/Frankreich)",
+          "width": 3264,
+          "height": 4896,
+          "size": 13356235,
+          "timestamp": "2020-03-17T14:41:58Z",
+          "author": "GFreihalter",
+          "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Saint-Hilaire-des-Landes_%2835%29_%C3%89glise_Saint-Hilaire_-_Ext%C3%A9rieur_-_05.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Hilaire-des-Landes%20(35)%20%C3%89glise%20Saint-Hilaire%20-%20Ext%C3%A9rieur%20-%2005.jpg",
-          "title": "Saint-Hilaire-des-Landes (35) Église Saint-Hilaire - Extérieur - 05.jpg",
-          "width": 2340,
-          "height": 1559,
-          "size": 602844,
-          "timestamp": "2022-07-17T09:44:04Z",
-          "author": "Vains50",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 6
         }
       ]
     },
     {
       "label": "Quai de Seine et port de plaisance",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Barge_sur_la_Seine_entre_Samoreau_et_Samois-sur-Seine_%281%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABarge%20sur%20la%20Seine%20entre%20Samoreau%20et%20Samois-sur-Seine%20(1).jpg",
+          "title": "Barge sur la Seine entre Samoreau et Samois-sur-Seine (1).jpg",
+          "description": "Barge sur la Seine entre Samoreau et Samois-sur-Seine, vue depuis le port Stéphane Mallarmé à Samois-sur-Seine. À gauche, la villa « La Baignade ».",
+          "width": 6000,
+          "height": 4000,
+          "size": 9043639,
+          "timestamp": "2020-09-23T18:17:46Z",
+          "author": "Baidax",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Barge_sur_la_Seine_entre_Samoreau_et_Samois-sur-Seine_%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABarge%20sur%20la%20Seine%20entre%20Samoreau%20et%20Samois-sur-Seine%20(2).jpg",
+          "title": "Barge sur la Seine entre Samoreau et Samois-sur-Seine (2).jpg",
+          "description": "Barge sur la Seine entre Samoreau et Samois-sur-Seine, vue depuis le port Stéphane Mallarmé à Samois-sur-Seine.",
+          "width": 6000,
+          "height": 4000,
+          "size": 11697163,
+          "timestamp": "2020-09-23T18:17:47Z",
+          "author": "Baidax",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Barge_sur_la_Seine_entre_Samoreau_et_Samois-sur-Seine_%283%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABarge%20sur%20la%20Seine%20entre%20Samoreau%20et%20Samois-sur-Seine%20(3).jpg",
+          "title": "Barge sur la Seine entre Samoreau et Samois-sur-Seine (3).jpg",
+          "description": "Barge sur la Seine entre Samoreau et Samois-sur-Seine, vue depuis le port Stéphane Mallarmé à Samois-sur-Seine.",
+          "width": 6000,
+          "height": 4000,
+          "size": 10021389,
+          "timestamp": "2020-09-23T18:17:50Z",
+          "author": "Baidax",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     },
     {
       "label": "Square Léon Senet",

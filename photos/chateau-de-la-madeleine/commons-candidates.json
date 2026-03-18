@@ -1,85 +1,162 @@
 {
   "slug": "chateau-de-la-madeleine",
   "nom": "Château de la Madeleine",
-  "fetchedAt": "2026-03-13T13:08:11.641Z",
+  "fetchedAt": "2026-03-15T21:31:42.558Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/ISS053-E-58559_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS053-E-58559%20-%20View%20of%20Earth.jpg",
-      "title": "ISS053-E-58559 - View of Earth.jpg",
-      "width": 4928,
-      "height": 3280,
-      "size": 2661859,
-      "timestamp": "2021-04-01T14:53:23Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Ch%C3%A2teau_de_la_Madeleine_%28Eure%29_au_milieu_du_XIX%C3%A8me_si%C3%A8cle.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20la%20Madeleine%20(Eure)%20au%20milieu%20du%20XIX%C3%A8me%20si%C3%A8cle.jpg",
+      "title": "Château de la Madeleine (Eure) au milieu du XIXème siècle.jpg",
+      "description": "Château de la Madeleine (Eure) au milieu du XIXème siècle",
+      "width": 1444,
+      "height": 948,
+      "size": 489413,
+      "timestamp": "2021-05-05T11:00:27Z",
+      "author": "Photo prise par Rémy Lebrun, antiquaire à Pressagny-l'Orgueilleux",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/ISS019-E-9639_-_View_of_France.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS019-E-9639%20-%20View%20of%20France.jpg",
-      "title": "ISS019-E-9639 - View of France.jpg",
-      "width": 4256,
-      "height": 2832,
-      "size": 1515988,
-      "timestamp": "2022-10-05T14:48:04Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Ch%C3%A2teau_de_la_Madeleine.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20la%20Madeleine.jpg",
+      "title": "Château de la Madeleine.jpg",
+      "description": "château de la Madeleine (monument historique français)",
+      "width": 4000,
+      "height": 3000,
+      "size": 5205516,
+      "timestamp": "2023-07-14T10:16:24Z",
+      "author": "ThomasInTheSky",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/ISS027-E-7415_-_View_of_France.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS027-E-7415%20-%20View%20of%20France.jpg",
-      "title": "ISS027-E-7415 - View of France.jpg",
-      "width": 4288,
-      "height": 2929,
-      "size": 1576357,
-      "timestamp": "2021-10-22T19:29:22Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Chevreuse_%2878%29_Ch%C3%A2teau_de_la_Madeleine_152.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChevreuse%20(78)%20Ch%C3%A2teau%20de%20la%20Madeleine%20152.jpg",
+      "title": "Chevreuse (78) Château de la Madeleine 152.jpg",
+      "description": "Château de la Madeleine in Chevreuse im Département Yvelines in der Region Île-de-France (Frankreich)",
+      "width": 7728,
+      "height": 5152,
+      "size": 36414274,
+      "timestamp": "2023-11-05T20:13:22Z",
+      "author": "GFreihalter",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     }
   ],
   "lieux": [
     {
       "label": "Chemin de ronde",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Castle_Madeleine_Chevreuse_Chemin_Jean_Racine_Sign.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACastle%20Madeleine%20Chevreuse%20Chemin%20Jean%20Racine%20Sign.jpg",
+          "title": "Castle Madeleine Chevreuse Chemin Jean Racine Sign.jpg",
+          "description": "Sign of the Chemin de Jean Racine next to the castle Madeleine in Chevreuse, France",
+          "width": 3264,
+          "height": 2448,
+          "size": 3650018,
+          "timestamp": "2010-08-26T22:10:19Z",
+          "author": "Lionel Allorge",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/78-Chevreuse-La-Madeleine-vue-du-chemin.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A78-Chevreuse-La-Madeleine-vue-du-chemin.jpg",
+          "title": "78-Chevreuse-La-Madeleine-vue-du-chemin.jpg",
+          "description": "11è au 19è siècle",
+          "width": 4000,
+          "height": 3000,
+          "size": 1751052,
+          "timestamp": "2011-11-12T10:19:22Z",
+          "author": "JC Allin",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Castle_Madeleine_Chevreuse_22.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACastle%20Madeleine%20Chevreuse%2022.jpg",
+          "title": "Castle Madeleine Chevreuse 22.jpg",
+          "description": "Way to Castle Madeleine in Chevreuse, France",
+          "width": 2592,
+          "height": 3888,
+          "size": 5248655,
+          "timestamp": "2010-08-29T17:13:15Z",
+          "author": "Lionel Allorge",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     },
     {
       "label": "Donjon carré",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/ChateauMadeleine3.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateauMadeleine3.JPG",
+          "title": "ChateauMadeleine3.JPG",
+          "description": "Chevreuse: Thekeep of the Château de le Madeleine",
+          "width": 800,
+          "height": 618,
+          "size": 164544,
+          "timestamp": "2007-02-17T22:52:30Z",
+          "author": "User:M-le-mot-dit",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     },
     {
       "label": "Cour intérieure",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Amboise_%28Indre-et-Loire%29_%2814701200347%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAmboise%20(Indre-et-Loire)%20(14701200347).jpg",
-          "title": "Amboise (Indre-et-Loire) (14701200347).jpg",
-          "width": 4928,
-          "height": 3264,
-          "size": 9984833,
-          "timestamp": "2017-11-14T14:30:03Z",
-          "author": "Daniel Jolivet",
-          "license": "CC BY 2.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Chevreuse_%2878%29_Ch%C3%A2teau_de_la_Madeleine_Basse_Cour_192.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChevreuse%20(78)%20Ch%C3%A2teau%20de%20la%20Madeleine%20Basse%20Cour%20192.jpg",
+          "title": "Chevreuse (78) Château de la Madeleine Basse Cour 192.jpg",
+          "description": "Château de la Madeleine in Chevreuse im Département Yvelines in der Region Île-de-France (Frankreich), Basse Cour (unterer Hof)",
+          "width": 7728,
+          "height": 5152,
+          "size": 36775343,
+          "timestamp": "2023-11-06T09:00:37Z",
+          "author": "GFreihalter",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Amboise_%28Indre-et-Loire%29_%2814887385762%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAmboise%20(Indre-et-Loire)%20(14887385762).jpg",
-          "title": "Amboise (Indre-et-Loire) (14887385762).jpg",
-          "width": 4928,
-          "height": 3264,
-          "size": 8691535,
-          "timestamp": "2017-11-14T14:30:07Z",
-          "author": "Daniel Jolivet",
-          "license": "CC BY 2.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/1_lettre_de_Madeleine_Lemaire_%C3%A0_Jules_Massenet_%28manuscrit_autographe%29_-_btv1b53098994p_%281_of_2%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1%20lettre%20de%20Madeleine%20Lemaire%20%C3%A0%20Jules%20Massenet%20(manuscrit%20autographe)%20-%20btv1b53098994p%20(1%20of%202).jpg",
+          "title": "1 lettre de Madeleine Lemaire à Jules Massenet (manuscrit autographe) - btv1b53098994p (1 of 2).jpg",
+          "description": "Sujet : Gervex, Henri (1852-1929)\nL'informe que son ami Gervex se présente à l'Institut et demande à Massenet de soutenir sa candidature. - La lettre n'étant pas datée, elle a probablement était écrite quelques temps avant l'entrée d'Henri Gervex à l'Institut de France en 1913. - Papier à en-tête avec illustration du château de Réveillon\nCorrespondance\nMassenet, Jules (1842-1912). Destinataire de lettres\nLangue : français\n\nfrançais",
+          "width": 5148,
+          "height": 3838,
+          "size": 1244734,
+          "timestamp": "2023-11-07T13:44:15Z",
+          "author": "<div class=\"fn value\">\nLemaire, Madeleine (1845-1928). Auteur de lettres</div>",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Ch%C3%A2teau_de_la_Madeleine_Chevreuse_n3.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20la%20Madeleine%20Chevreuse%20n3.jpg",
+          "title": "Château de la Madeleine Chevreuse n3.jpg",
+          "description": "Puits au centre de la cour du château de la Madeleine à Chevreuse, dans les Yvelines.",
+          "width": 7360,
+          "height": 4912,
+          "size": 15041952,
+          "timestamp": "2017-08-07T15:57:37Z",
+          "author": "Marie-Lan Nguyen",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
         }
       ]
     },

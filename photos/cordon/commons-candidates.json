@@ -1,12 +1,13 @@
 {
   "slug": "cordon",
   "nom": "Cordon",
-  "fetchedAt": "2026-03-13T13:55:24.515Z",
+  "fetchedAt": "2026-03-16T12:23:11.805Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Sentier_vers_Sallanches_%40_Cordon_%2850864988791%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASentier%20vers%20Sallanches%20%40%20Cordon%20(50864988791).jpg",
       "title": "Sentier vers Sallanches @ Cordon (50864988791).jpg",
+      "description": "Sentier vers Sallanches @ Cordon",
       "width": 5472,
       "height": 3648,
       "size": 9336200,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Sentier_vers_Sallanches_%40_Cordon_%2850865093327%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASentier%20vers%20Sallanches%20%40%20Cordon%20(50865093327).jpg",
       "title": "Sentier vers Sallanches @ Cordon (50865093327).jpg",
+      "description": "Sentier vers Sallanches @ Cordon",
       "width": 5472,
       "height": 3648,
       "size": 9911278,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Sentier_vers_Sallanches_%40_Cordon_%2850864986656%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASentier%20vers%20Sallanches%20%40%20Cordon%20(50864986656).jpg",
       "title": "Sentier vers Sallanches @ Cordon (50864986656).jpg",
+      "description": "Sentier vers Sallanches @ Cordon",
       "width": 5472,
       "height": 3648,
       "size": 9143682,
@@ -48,43 +51,46 @@
       "label": "Église Saint-Nicolas",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Saint-Leu-d%27Esserent_%2860%29%2C_%C3%A9glise_St-Nicolas%2C_massif_occidental%2C_1er_%C3%A9tage%2C_fen%C3%AAtres_nord%2C_cordon_de_fruits_d%27arum.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Leu-d'Esserent%20(60)%2C%20%C3%A9glise%20St-Nicolas%2C%20massif%20occidental%2C%201er%20%C3%A9tage%2C%20fen%C3%AAtres%20nord%2C%20cordon%20de%20fruits%20d'arum.jpg",
-          "title": "Saint-Leu-d'Esserent (60), église St-Nicolas, massif occidental, 1er étage, fenêtres nord, cordon de fruits d'arum.jpg",
-          "width": 5184,
-          "height": 3456,
-          "size": 3747572,
-          "timestamp": "2022-10-28T20:32:54Z",
-          "author": "Pierre Poschadel",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/%C3%89glise_de_Cordon_-_img_40651.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20de%20Cordon%20-%20img%2040651.jpg",
+          "title": "Église de Cordon - img 40651.jpg",
+          "description": "L'église de Cordon vue de Mayères.",
+          "width": 5616,
+          "height": 3744,
+          "size": 8489037,
+          "timestamp": "2015-11-10T14:57:30Z",
+          "author": "Pmau",
           "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Eglise_Notre-Dame_du_Saint-Cordon_%28tour%29_Valenciennes.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Notre-Dame%20du%20Saint-Cordon%20(tour)%20Valenciennes.jpg",
+          "title": "Eglise Notre-Dame du Saint-Cordon (tour) Valenciennes.jpg",
+          "description": "tour de l'église vue depuis la rue Henri Lemaire",
+          "width": 3648,
+          "height": 2736,
+          "size": 2532114,
+          "timestamp": "2011-09-07T20:10:10Z",
+          "author": "Alex59300",
+          "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Histoire_de_Lille_et_de_la_Flandre_wallonne_%281848%29_%2814774125374%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHistoire%20de%20Lille%20et%20de%20la%20Flandre%20wallonne%20(1848)%20(14774125374).jpg",
-          "title": "Histoire de Lille et de la Flandre wallonne (1848) (14774125374).jpg",
-          "width": 3016,
-          "height": 2060,
-          "size": 1128913,
-          "timestamp": "2015-08-11T10:44:42Z",
-          "author": "Derode, Victor, 1797-1867",
-          "license": "No restrictions",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Eglise_Notre-Dame_du_Saint-Cordon_Valenciennes_%28tour%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Notre-Dame%20du%20Saint-Cordon%20Valenciennes%20(tour).jpg",
+          "title": "Eglise Notre-Dame du Saint-Cordon Valenciennes (tour).jpg",
+          "description": "tour de l'église vue de la place de l'Abbé Thellier de Poncheville",
+          "width": 3648,
+          "height": 2736,
+          "size": 2369360,
+          "timestamp": "2011-09-07T20:41:35Z",
+          "author": "Alex59300",
+          "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Saint-Leu-d%27Esserent_%2860%29%2C_%C3%A9glise_St-Nicolas%2C_tour_occidentale%2C_c%C3%B4t%C3%A9_sud%2C_fen%C3%AAtre_du_1er_%C3%A9tage%2C_cordon_au-dessus_de_l%27archivolte.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Leu-d'Esserent%20(60)%2C%20%C3%A9glise%20St-Nicolas%2C%20tour%20occidentale%2C%20c%C3%B4t%C3%A9%20sud%2C%20fen%C3%AAtre%20du%201er%20%C3%A9tage%2C%20cordon%20au-dessus%20de%20l'archivolte.jpg",
-          "title": "Saint-Leu-d'Esserent (60), église St-Nicolas, tour occidentale, côté sud, fenêtre du 1er étage, cordon au-dessus de l'archivolte.jpg",
-          "width": 3456,
-          "height": 5184,
-          "size": 9267674,
-          "timestamp": "2022-10-27T20:59:34Z",
-          "author": "Pierre Poschadel",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         }
       ]
     },
@@ -94,7 +100,50 @@
     },
     {
       "label": "Vue sur le Mont-Blanc depuis le chef-lieu",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/%C3%89glise_de_Cordon_-_img_40651.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20de%20Cordon%20-%20img%2040651.jpg",
+          "title": "Église de Cordon - img 40651.jpg",
+          "description": "L'église de Cordon vue de Mayères.",
+          "width": 5616,
+          "height": 3744,
+          "size": 8489037,
+          "timestamp": "2015-11-10T14:57:30Z",
+          "author": "Pmau",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Eglise_Notre-Dame_du_Saint-Cordon_%28tour%29_Valenciennes.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Notre-Dame%20du%20Saint-Cordon%20(tour)%20Valenciennes.jpg",
+          "title": "Eglise Notre-Dame du Saint-Cordon (tour) Valenciennes.jpg",
+          "description": "tour de l'église vue depuis la rue Henri Lemaire",
+          "width": 3648,
+          "height": 2736,
+          "size": 2532114,
+          "timestamp": "2011-09-07T20:10:10Z",
+          "author": "Alex59300",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Eglise_Notre-Dame_du_Saint-Cordon_Valenciennes_%28tour%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Notre-Dame%20du%20Saint-Cordon%20Valenciennes%20(tour).jpg",
+          "title": "Eglise Notre-Dame du Saint-Cordon Valenciennes (tour).jpg",
+          "description": "tour de l'église vue de la place de l'Abbé Thellier de Poncheville",
+          "width": 3648,
+          "height": 2736,
+          "size": 2369360,
+          "timestamp": "2011-09-07T20:41:35Z",
+          "author": "Alex59300",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

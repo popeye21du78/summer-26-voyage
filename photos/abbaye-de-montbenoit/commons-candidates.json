@@ -1,12 +1,27 @@
 {
   "slug": "abbaye-de-montbenoit",
   "nom": "Abbaye de Montbenoît",
-  "fetchedAt": "2026-03-13T12:01:23.604Z",
+  "fetchedAt": "2026-03-15T14:39:38.325Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Montbeno%C3%AEt%2C_le_ch%C3%A2teau_Morand_Val_au_bord_du_Doubs.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMontbeno%C3%AEt%2C%20le%20ch%C3%A2teau%20Morand%20Val%20au%20bord%20du%20Doubs.jpg",
+      "title": "Montbenoît, le château Morand Val au bord du Doubs.jpg",
+      "description": "Le château Morand Val au bord du Doubs",
+      "width": 3021,
+      "height": 1699,
+      "size": 5114815,
+      "timestamp": "2022-11-12T13:51:51Z",
+      "author": "JGS25",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Montbeno%C3%AEt%2C_le_clo%C3%AEtre_de_l%27Abbaye.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMontbeno%C3%AEt%2C%20le%20clo%C3%AEtre%20de%20l'Abbaye.jpg",
       "title": "Montbenoît, le cloître de l'Abbaye.jpg",
+      "description": "Abbaye de Montbenoît (ClasséClasséInscrit)",
       "width": 3721,
       "height": 2093,
       "size": 6556998,
@@ -17,22 +32,10 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Montbeno%C3%AEt%2C_le_ch%C3%A2teau_Morand_Val_au_bord_du_Doubs.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMontbeno%C3%AEt%2C%20le%20ch%C3%A2teau%20Morand%20Val%20au%20bord%20du%20Doubs.jpg",
-      "title": "Montbenoît, le château Morand Val au bord du Doubs.jpg",
-      "width": 3021,
-      "height": 1699,
-      "size": 5114815,
-      "timestamp": "2022-11-12T13:51:51Z",
-      "author": "JGS25",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Montbeno%C3%AEt_Abbaye_Bo%C3%AEte_%C3%A0_livres_04.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMontbeno%C3%AEt%20Abbaye%20Bo%C3%AEte%20%C3%A0%20livres%2004.jpg",
       "title": "Montbenoît Abbaye Boîte à livres 04.jpg",
+      "description": "Règlement de la boîte à livres de l'abbaye à Montbenoît",
       "width": 4000,
       "height": 2992,
       "size": 2389257,
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Montbeno%C3%AEt%2C_le_clo%C3%AEtre_de_l%27Abbaye.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMontbeno%C3%AEt%2C%20le%20clo%C3%AEtre%20de%20l'Abbaye.jpg",
           "title": "Montbenoît, le cloître de l'Abbaye.jpg",
+          "description": "Abbaye de Montbenoît (ClasséClasséInscrit)",
           "width": 3721,
           "height": 2093,
           "size": 6556998,
@@ -61,30 +65,32 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/01_Montbeno%C3%AEt_-_Clo%C3%AEtre_de_l%27abbaye_%281%29.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A01%20Montbeno%C3%AEt%20-%20Clo%C3%AEtre%20de%20l'abbaye%20(1).JPG",
-          "title": "01 Montbenoît - Cloître de l'abbaye (1).JPG",
-          "width": 3828,
-          "height": 2536,
-          "size": 4568914,
-          "timestamp": "2012-08-10T19:24:03Z",
-          "author": "Jean-Pol GRANDMONT",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Montbeno%C3%AEt_Abbaye_Bo%C3%AEte_%C3%A0_livres_04.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMontbeno%C3%AEt%20Abbaye%20Bo%C3%AEte%20%C3%A0%20livres%2004.jpg",
+          "title": "Montbenoît Abbaye Boîte à livres 04.jpg",
+          "description": "Règlement de la boîte à livres de l'abbaye à Montbenoît",
+          "width": 4000,
+          "height": 2992,
+          "size": 2389257,
+          "timestamp": "2024-06-29T15:21:28Z",
+          "author": "GenGavi",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/01_Montbeno%C3%AEt_-_Clo%C3%AEtre_de_l%27abbaye_%282%29.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A01%20Montbeno%C3%AEt%20-%20Clo%C3%AEtre%20de%20l'abbaye%20(2).JPG",
-          "title": "01 Montbenoît - Cloître de l'abbaye (2).JPG",
-          "width": 3888,
-          "height": 2592,
-          "size": 4353671,
-          "timestamp": "2012-08-10T19:34:43Z",
-          "author": "Jean-Pol GRANDMONT",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Montbeno%C3%AEt_Abbaye_Bo%C3%AEte_%C3%A0_livres_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMontbeno%C3%AEt%20Abbaye%20Bo%C3%AEte%20%C3%A0%20livres%2002.jpg",
+          "title": "Montbenoît Abbaye Boîte à livres 02.jpg",
+          "description": "Boîte à livres de l'abbaye à Montbenoît",
+          "width": 4000,
+          "height": 2992,
+          "size": 3907899,
+          "timestamp": "2024-06-29T15:21:28Z",
+          "author": "GenGavi",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
         }
       ]
     },
@@ -94,11 +100,97 @@
     },
     {
       "label": "Nef gothique",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Nef_de_l%27abbatiale_de_Montbenoit.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANef%20de%20l'abbatiale%20de%20Montbenoit.jpg",
+          "title": "Nef de l'abbatiale de Montbenoit.jpg",
+          "description": "Nef de l'abbatiale",
+          "width": 3264,
+          "height": 2448,
+          "size": 2421126,
+          "timestamp": "2019-10-03T10:18:10Z",
+          "author": "Espirat",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/0_Montbeno%C3%AEt_-_Nef_et_choeur_de_l%27%C3%A9glise_abbatiale.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A0%20Montbeno%C3%AEt%20-%20Nef%20et%20choeur%20de%20l'%C3%A9glise%20abbatiale.JPG",
+          "title": "0 Montbenoît - Nef et choeur de l'église abbatiale.JPG",
+          "description": "Montbenoît (Doubs) - France), das Kirchenschiff und der Chor der Abteikirche (XI-XXth centuries).",
+          "width": 2436,
+          "height": 3696,
+          "size": 3788833,
+          "timestamp": "2012-08-10T13:29:32Z",
+          "author": "Jean-Pol GRANDMONT",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Montbeno%C3%AEt._L%27Abbaye._Fen%C3%AAtres_de_la_fa%C3%A7ade_ouest_%28d%C3%A9tail%29..JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMontbeno%C3%AEt.%20L'Abbaye.%20Fen%C3%AAtres%20de%20la%20fa%C3%A7ade%20ouest%20(d%C3%A9tail)..JPG",
+          "title": "Montbenoît. L'Abbaye. Fenêtres de la façade ouest (détail)..JPG",
+          "description": "Montbenoît. L'Abbaye. Les fenêtres de la façade ouest. La nef de l'église date du 12e siècle, le choeur du 16e et le clocher a été refait en 1903.",
+          "width": 3072,
+          "height": 1728,
+          "size": 2593824,
+          "timestamp": "2012-01-07T15:31:38Z",
+          "author": "Louis-Fabrice Jean",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 2
+        }
+      ]
     },
     {
       "label": "Jardin de l’abbaye",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Montbeno%C3%AEt%2C_le_clo%C3%AEtre_de_l%27Abbaye.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMontbeno%C3%AEt%2C%20le%20clo%C3%AEtre%20de%20l'Abbaye.jpg",
+          "title": "Montbenoît, le cloître de l'Abbaye.jpg",
+          "description": "Abbaye de Montbenoît (ClasséClasséInscrit)",
+          "width": 3721,
+          "height": 2093,
+          "size": 6556998,
+          "timestamp": "2022-11-12T13:35:55Z",
+          "author": "JGS25",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Montbeno%C3%AEt_Abbaye_Bo%C3%AEte_%C3%A0_livres_04.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMontbeno%C3%AEt%20Abbaye%20Bo%C3%AEte%20%C3%A0%20livres%2004.jpg",
+          "title": "Montbenoît Abbaye Boîte à livres 04.jpg",
+          "description": "Règlement de la boîte à livres de l'abbaye à Montbenoît",
+          "width": 4000,
+          "height": 2992,
+          "size": 2389257,
+          "timestamp": "2024-06-29T15:21:28Z",
+          "author": "GenGavi",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Montbeno%C3%AEt_Abbaye_Bo%C3%AEte_%C3%A0_livres_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMontbeno%C3%AEt%20Abbaye%20Bo%C3%AEte%20%C3%A0%20livres%2002.jpg",
+          "title": "Montbenoît Abbaye Boîte à livres 02.jpg",
+          "description": "Boîte à livres de l'abbaye à Montbenoît",
+          "width": 4000,
+          "height": 2992,
+          "size": 3907899,
+          "timestamp": "2024-06-29T15:21:28Z",
+          "author": "GenGavi",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

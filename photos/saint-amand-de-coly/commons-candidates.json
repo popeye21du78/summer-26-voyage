@@ -1,12 +1,13 @@
 {
   "slug": "saint-amand-de-coly",
   "nom": "Saint-Amand-de-Coly",
-  "fetchedAt": "2026-03-14T11:55:34.648Z",
+  "fetchedAt": "2026-03-18T17:56:36.568Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/NRA_ZO_Saint-Amand-de-Coly_9V2_24.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANRA%20ZO%20Saint-Amand-de-Coly%209V2%2024.jpg",
       "title": "NRA ZO Saint-Amand-de-Coly 9V2 24.jpg",
+      "description": "PMZ NA_24364_NUQO à gauche\nNRA ZO Saint-Amand-de-Coly 9V2 24, capacité de 200 lignes, au milieu\n\nSR à droite",
       "width": 4032,
       "height": 2268,
       "size": 5550093,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/F07.St.-Amand.0052.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AF07.St.-Amand.0052.JPG",
       "title": "F07.St.-Amand.0052.JPG",
+      "description": "Saint-Amand-de-Coly, skulptierter Kragstein",
       "width": 3872,
       "height": 2592,
       "size": 2393975,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Saint-Amand-de-Coly_-_Mairie_01.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Amand-de-Coly%20-%20Mairie%2001.JPG",
       "title": "Saint-Amand-de-Coly - Mairie 01.JPG",
+      "description": "Mairie de Saint-Amand-de-Coly.",
       "width": 3840,
       "height": 2560,
       "size": 4843895,
@@ -48,15 +51,16 @@
       "label": "Abbatiale Saint-Amand-de-Coly",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Saint-Amand-de-Coly_%C3%A9glise_chapelle_nord_peintures.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Amand-de-Coly%20%C3%A9glise%20chapelle%20nord%20peintures.jpg",
-          "title": "Saint-Amand-de-Coly église chapelle nord peintures.jpg",
-          "width": 3124,
-          "height": 2343,
-          "size": 1544318,
-          "timestamp": "2018-12-11T17:16:31Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Saint-Amand-de-Coly_%C3%A9glise_%2813%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Amand-de-Coly%20%C3%A9glise%20(13).JPG",
+          "title": "Saint-Amand-de-Coly église (13).JPG",
+          "description": "Vue depuis le nord-ouest, l'ancienne église abbatiale de Saint-Amand-de-Coly, Dordogne, France",
+          "width": 3264,
+          "height": 2448,
+          "size": 3350830,
+          "timestamp": "2009-08-14T18:04:39Z",
           "author": "Père Igor",
-          "license": "CC BY-SA 4.0",
+          "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
         },
@@ -64,6 +68,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Saint-Amand-de-Coly_%C3%A9glise_chapelle_sud_niche.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Amand-de-Coly%20%C3%A9glise%20chapelle%20sud%20niche.jpg",
           "title": "Saint-Amand-de-Coly église chapelle sud niche.jpg",
+          "description": "Niche dans la chapelle sud, église abbatiale de Saint-Amand-de-Coly, Dordogne, France.",
           "width": 3190,
           "height": 2393,
           "size": 1448283,
@@ -77,6 +82,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Saint-Amand-de-Coly_%C3%A9glise_choeur_plafond.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Amand-de-Coly%20%C3%A9glise%20choeur%20plafond.jpg",
           "title": "Saint-Amand-de-Coly église choeur plafond.jpg",
+          "description": "Le plafond du chœur, l'église abbatiale de Saint-Amand-de-Coly, Dordogne, France.",
           "width": 3264,
           "height": 2448,
           "size": 1515466,
@@ -90,7 +96,50 @@
     },
     {
       "label": "Lavoir ancien",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Saint-Amand-de-Coly_lavoir_%287%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Amand-de-Coly%20lavoir%20(7).jpg",
+          "title": "Saint-Amand-de-Coly lavoir (7).jpg",
+          "description": "Le lavoir de l'hôpital, Saint-Amand-de-Coly, Dordogne, France.",
+          "width": 3190,
+          "height": 2393,
+          "size": 2830587,
+          "timestamp": "2018-12-09T18:36:39Z",
+          "author": "Père Igor",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Saint-Amand-de-Coly_lavoir_%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Amand-de-Coly%20lavoir%20(2).jpg",
+          "title": "Saint-Amand-de-Coly lavoir (2).jpg",
+          "description": "Le lavoir de l'hôpital, Saint-Amand-de-Coly, Dordogne, France.",
+          "width": 3017,
+          "height": 2263,
+          "size": 2353163,
+          "timestamp": "2018-12-09T18:36:39Z",
+          "author": "Père Igor",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Saint-Amand-de-Coly_lavoir_%283%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Amand-de-Coly%20lavoir%20(3).jpg",
+          "title": "Saint-Amand-de-Coly lavoir (3).jpg",
+          "description": "Le lavoir de l'hôpital, Saint-Amand-de-Coly, Dordogne, France.",
+          "width": 3264,
+          "height": 2448,
+          "size": 2449554,
+          "timestamp": "2018-12-09T18:36:39Z",
+          "author": "Père Igor",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Fontaine Saint-Amand",
@@ -99,6 +148,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Saint-Amand-de-Coly_lavoir_%286%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Amand-de-Coly%20lavoir%20(6).jpg",
           "title": "Saint-Amand-de-Coly lavoir (6).jpg",
+          "description": "La fontaine qui alimente le lavoir de l'hôpital, Saint-Amand-de-Coly, Dordogne, France.",
           "width": 3264,
           "height": 2448,
           "size": 3341862,
@@ -112,7 +162,50 @@
     },
     {
       "label": "Vue depuis le cimetière",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Saint-Amand-de-Coly_%C3%A9glise_%2813%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Amand-de-Coly%20%C3%A9glise%20(13).JPG",
+          "title": "Saint-Amand-de-Coly église (13).JPG",
+          "description": "Vue depuis le nord-ouest, l'ancienne église abbatiale de Saint-Amand-de-Coly, Dordogne, France",
+          "width": 3264,
+          "height": 2448,
+          "size": 3350830,
+          "timestamp": "2009-08-14T18:04:39Z",
+          "author": "Père Igor",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Chironde_Saint-Amand-de-Coly_pr%C3%A8s_Baz%C3%A9nies_aval.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChironde%20Saint-Amand-de-Coly%20pr%C3%A8s%20Baz%C3%A9nies%20aval.JPG",
+          "title": "Chironde Saint-Amand-de-Coly près Bazénies aval.JPG",
+          "description": "Ruisseau la Chironde près des Bazénies, vue vers l'aval, Saint-Amand-de-Coly, Dordogne, France",
+          "width": 3174,
+          "height": 2378,
+          "size": 2477587,
+          "timestamp": "2009-08-14T10:17:58Z",
+          "author": "Père Igor",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Chironde_Saint-Amand-de-Coly_pr%C3%A8s_Baz%C3%A9nies_aval_%281%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChironde%20Saint-Amand-de-Coly%20pr%C3%A8s%20Baz%C3%A9nies%20aval%20(1).JPG",
+          "title": "Chironde Saint-Amand-de-Coly près Bazénies aval (1).JPG",
+          "description": "Ruisseau la Chironde près des Bazénies, vue vers l'aval, Saint-Amand-de-Coly, Dordogne, France",
+          "width": 2353,
+          "height": 3137,
+          "size": 2174236,
+          "timestamp": "2009-08-14T10:19:39Z",
+          "author": "Père Igor",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 3
+        }
+      ]
     }
   ]
 }

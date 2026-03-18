@@ -1,12 +1,13 @@
 {
   "slug": "chateau-de-bayers",
   "nom": "Château de Bayers",
-  "fetchedAt": "2026-03-13T12:42:25.703Z",
+  "fetchedAt": "2026-03-15T21:11:49.193Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Bayers_ch1.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABayers%20ch1.JPG",
       "title": "Bayers ch1.JPG",
+      "description": "château de Bayers, Charente, France",
       "width": 1600,
       "height": 1200,
       "size": 259250,
@@ -14,33 +15,35 @@
       "author": "Jack ma",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Lich%C3%A8res_-_Puychenin_-_bo%C3%AEte_%C3%A0_livres.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALich%C3%A8res%20-%20Puychenin%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
-      "title": "Lichères - Puychenin - boîte à livres.jpg",
-      "width": 2500,
-      "height": 1875,
-      "size": 800880,
-      "timestamp": "2024-09-22T11:19:42Z",
-      "author": "<span lang=\"en\">Anonymous</span><span style=\"display:none\">Unknown author</span>",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Moutonneau_-_mairie_-_bo%C3%AEte_%C3%A0_livres.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMoutonneau%20-%20mairie%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
-      "title": "Moutonneau - mairie - boîte à livres.jpg",
-      "width": 2500,
-      "height": 1875,
-      "size": 907496,
-      "timestamp": "2024-09-22T11:20:01Z",
-      "author": "<span lang=\"en\">Anonymous</span><span style=\"display:none\">Unknown author</span>",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Superstructure%2Cch%C3%A2teau_du_navire_ALSEA_BAY.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASuperstructure%2Cch%C3%A2teau%20du%20navire%20ALSEA%20BAY.jpg",
+      "title": "Superstructure,château du navire ALSEA BAY.jpg",
+      "description": "Superstructure,château du navire ALSEA BAY . Casablanca - Morocco -\nIMO: 9522881\nPavillon: United Kingdom\nGenre du navire: Cargo\n\nAnnée de Construction: 2011",
+      "width": 2751,
+      "height": 1817,
+      "size": 2552478,
+      "timestamp": "2020-04-10T20:24:15Z",
+      "author": "Farid mernissi",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/58._Ch%C3%A2teau_de_Maintenon_-_Un_coin_du_Parc_%28c.1910%29_%2838530697334%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A58.%20Ch%C3%A2teau%20de%20Maintenon%20-%20Un%20coin%20du%20Parc%20(c.1910)%20(38530697334).jpg",
+      "title": "58. Château de Maintenon - Un coin du Parc (c.1910) (38530697334).jpg",
+      "description": "Postcard. Postally unused.\nPublished by Mme Rousseau, éditeur à Maintenon.\nBought from an eBay seller in Menigoute, France.\n\n&lt;a href=\"https://en.wikipedia.org/wiki/Ch%c3%a2teau_de_Maintenon\" rel=\"noreferrer nofollow\"&gt;en.wikipedia.org/wiki/Château_de_Maintenon&lt;/a&gt;",
+      "width": 3281,
+      "height": 2083,
+      "size": 5754936,
+      "timestamp": "2021-05-03T15:02:54Z",
+      "author": "pellethepoet",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
     }
   ],
   "lieux": [
@@ -56,49 +59,67 @@
       "label": "Cour intérieure",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Beaupr%C3%A9au_%28Maine-et-Loire%29_%2821376310424%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeaupr%C3%A9au%20(Maine-et-Loire)%20(21376310424).jpg",
-          "title": "Beaupréau (Maine-et-Loire) (21376310424).jpg",
-          "width": 4928,
-          "height": 3264,
-          "size": 6482739,
-          "timestamp": "2017-11-16T15:06:45Z",
-          "author": "Daniel Jolivet",
-          "license": "CC BY 2.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Expo-2021-Sophie_Dubosc-Formation-Voisins_de_campagne-Ch%C3%A2teau_d%27Yville-04-07-2021.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AExpo-2021-Sophie%20Dubosc-Formation-Voisins%20de%20campagne-Ch%C3%A2teau%20d'Yville-04-07-2021.jpg",
+          "title": "Expo-2021-Sophie Dubosc-Formation-Voisins de campagne-Château d'Yville-04-07-2021.jpg",
+          "description": "Dès son acquisition en 1708, François Le Menu de La Noë, conseiller secrétaire du roi, entreprend la construction du château actuel dont les plans sont attribués à Jules Hardouin-Mansart, hypothèse non confirmée par les recherches récentes. Le domaine passe aux mains de l'un de ses créanciers, le marquis d'Etampes, puis du financier John Law. La construction est poursuivie de 1723 à 1735 par l'ingénieur des Ponts et Chaussées Jean-Jacques Martinet pour Jean-Prosper Goujon de Gasville (intendant ",
+          "width": 3984,
+          "height": 2988,
+          "size": 3857538,
+          "timestamp": "2021-09-20T15:57:06Z",
+          "author": "jsmaur",
+          "license": "CC BY-SA 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Beaupr%C3%A9au_%28Maine-et-Loire%29_%2821811242638%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeaupr%C3%A9au%20(Maine-et-Loire)%20(21811242638).jpg",
-          "title": "Beaupréau (Maine-et-Loire) (21811242638).jpg",
-          "width": 4928,
-          "height": 3264,
-          "size": 7220912,
-          "timestamp": "2017-11-16T15:06:45Z",
-          "author": "Daniel Jolivet",
-          "license": "CC BY 2.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Vue_de_la_baie_de_Saint-S%C3%A9bastien%2C_dans_le_coin_le_ch%C3%A2teau_royal_-_btv1b69156030.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20de%20la%20baie%20de%20Saint-S%C3%A9bastien%2C%20dans%20le%20coin%20le%20ch%C3%A2teau%20royal%20-%20btv1b69156030.jpg",
+          "title": "Vue de la baie de Saint-Sébastien, dans le coin le château royal - btv1b69156030.jpg",
+          "description": "Sujet : Baies -- Saint-Sébastien (Espagne)\nLittoraux -- Saint-Sébastien (Espagne)\nSaint-Sébastien (Espagne)\nChâteaux -- Espagne -- Saint-Sébastien\nPhotographie de presse -- 1900-1945\nRéférence bibliographique : Rol, 14188\nAppartient à l’ensemble documentaire : Pho20Rol\nCouverture : .. mai 1911\n\nLangue : français",
+          "width": 2750,
+          "height": 2000,
+          "size": 520578,
+          "timestamp": "2025-02-23T11:19:48Z",
+          "author": "<div class=\"fn value\">\nAgence Rol. Agence photographique (commanditaire)</div>",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Beaupr%C3%A9au_%28Maine-et-Loire%29_%2821986697042%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeaupr%C3%A9au%20(Maine-et-Loire)%20(21986697042).jpg",
-          "title": "Beaupréau (Maine-et-Loire) (21986697042).jpg",
-          "width": 4928,
-          "height": 3264,
-          "size": 10538200,
-          "timestamp": "2017-11-16T15:06:57Z",
-          "author": "Daniel Jolivet",
-          "license": "CC BY 2.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Marseille%2C_vue_du_ch%C3%A2teau_d%27If_%28rade_de_Marseille%29_-_btv1b6929349g.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarseille%2C%20vue%20du%20ch%C3%A2teau%20d'If%20(rade%20de%20Marseille)%20-%20btv1b6929349g.jpg",
+          "title": "Marseille, vue du château d'If (rade de Marseille) - btv1b6929349g.jpg",
+          "description": "Sujet : Châteaux forts -- Bouches-du-Rhône (France)\nPrisons -- Bouches-du-Rhône (France)\nIf, Château d' (Bouches-du-Rhône, France)\nBaies -- France -- Marseille (Bouches-du-Rhône)\nMarseille (Bouches-du-Rhône) -- Environs\nPhotographie de presse -- 1900-1945\nRéférence bibliographique : Rol, 38167\nAppartient à l’ensemble documentaire : Pho20Rol\nAppartient à l’ensemble documentaire : PACA1\nCouverture : .. 1914\n\nLangue : français",
+          "width": 2757,
+          "height": 2000,
+          "size": 585434,
+          "timestamp": "2025-03-13T09:31:15Z",
+          "author": "<div class=\"fn value\">\nAgence Rol. Agence photographique (commanditaire)</div>",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 9
         }
       ]
     },
     {
       "label": "Terrasse panoramique",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Expo-2021-Sophie_Dubosc-Formation-Voisins_de_campagne-Ch%C3%A2teau_d%27Yville-04-07-2021.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AExpo-2021-Sophie%20Dubosc-Formation-Voisins%20de%20campagne-Ch%C3%A2teau%20d'Yville-04-07-2021.jpg",
+          "title": "Expo-2021-Sophie Dubosc-Formation-Voisins de campagne-Château d'Yville-04-07-2021.jpg",
+          "description": "Dès son acquisition en 1708, François Le Menu de La Noë, conseiller secrétaire du roi, entreprend la construction du château actuel dont les plans sont attribués à Jules Hardouin-Mansart, hypothèse non confirmée par les recherches récentes. Le domaine passe aux mains de l'un de ses créanciers, le marquis d'Etampes, puis du financier John Law. La construction est poursuivie de 1723 à 1735 par l'ingénieur des Ponts et Chaussées Jean-Jacques Martinet pour Jean-Prosper Goujon de Gasville (intendant ",
+          "width": 3984,
+          "height": 2988,
+          "size": 3857538,
+          "timestamp": "2021-09-20T15:57:06Z",
+          "author": "jsmaur",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     }
   ]
 }

@@ -1,52 +1,98 @@
 {
   "slug": "lessay",
   "nom": "Lessay",
-  "fetchedAt": "2026-03-13T15:54:16.501Z",
+  "fetchedAt": "2026-03-16T20:48:59.515Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Abbaye_de_Lessay-01.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20de%20Lessay-01.jpg",
-      "title": "Abbaye de Lessay-01.jpg",
-      "width": 4663,
-      "height": 3089,
-      "size": 5635952,
-      "timestamp": "2021-10-19T19:52:05Z",
-      "author": "Patrick",
-      "license": "CC BY-SA 2.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Lessay_Abbaye_2022_08_22.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALessay%20Abbaye%202022%2008%2022.jpg",
+      "title": "Lessay Abbaye 2022 08 22.jpg",
+      "description": "South-east view of Lessay Abbey",
+      "width": 6240,
+      "height": 4160,
+      "size": 18524940,
+      "timestamp": "2022-10-01T15:15:15Z",
+      "author": "Andreas F. Borchert",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Abbaye_de_Lessay-02.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20de%20Lessay-02.jpg",
-      "title": "Abbaye de Lessay-02.jpg",
-      "width": 4823,
-      "height": 3195,
-      "size": 5537256,
-      "timestamp": "2021-10-19T19:55:02Z",
-      "author": "Patrick",
-      "license": "CC BY-SA 2.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Lessay_Abbaye_S_2022_08_22.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALessay%20Abbaye%20S%202022%2008%2022.jpg",
+      "title": "Lessay Abbaye S 2022 08 22.jpg",
+      "description": "South view of Lessay Abbey",
+      "width": 6120,
+      "height": 4080,
+      "size": 16222949,
+      "timestamp": "2022-10-01T15:23:00Z",
+      "author": "Andreas F. Borchert",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Abbaye_de_Lessay-08-nef-revers.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20de%20Lessay-08-nef-revers.jpg",
-      "title": "Abbaye de Lessay-08-nef-revers.jpg",
-      "width": 4855,
-      "height": 3215,
-      "size": 5913731,
-      "timestamp": "2021-10-19T20:08:25Z",
-      "author": "Patrick",
-      "license": "CC BY-SA 2.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Abandoned_complex_Lessay_03.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbandoned%20complex%20Lessay%2003.jpg",
+      "title": "Abandoned complex Lessay 03.jpg",
+      "description": "Frontal view of the abandoned house on Rue de la Sainte-Croix in Lessay, France, fenced off and slated for demolition, with infotablets installed.",
+      "width": 3468,
+      "height": 4624,
+      "size": 5265090,
+      "timestamp": "2025-11-14T03:44:30Z",
+      "author": "Caramelia14",
+      "license": "CC0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 8
     }
   ],
   "lieux": [
     {
       "label": "Abbatiale Sainte-Marie de Lessay",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Lessay_Abbaye_2022_08_22.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALessay%20Abbaye%202022%2008%2022.jpg",
+          "title": "Lessay Abbaye 2022 08 22.jpg",
+          "description": "South-east view of Lessay Abbey",
+          "width": 6240,
+          "height": 4160,
+          "size": 18524940,
+          "timestamp": "2022-10-01T15:15:15Z",
+          "author": "Andreas F. Borchert",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Abbaye_de_Lessay-01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20de%20Lessay-01.jpg",
+          "title": "Abbaye de Lessay-01.jpg",
+          "description": "Abbatiale de la Sainte-Trinité @ Lessay",
+          "width": 4663,
+          "height": 3089,
+          "size": 5635952,
+          "timestamp": "2021-10-19T19:52:05Z",
+          "author": "Patrick",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Abbaye_de_Lessay-02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20de%20Lessay-02.jpg",
+          "title": "Abbaye de Lessay-02.jpg",
+          "description": "Abbaye Sainte-Trinité de Lessay",
+          "width": 4823,
+          "height": 3195,
+          "size": 5537256,
+          "timestamp": "2021-10-19T19:55:02Z",
+          "author": "Patrick",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Passerelle des marais de Lessay",

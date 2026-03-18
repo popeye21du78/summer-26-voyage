@@ -1,52 +1,98 @@
 {
   "slug": "fleur-de-sel",
   "nom": "Fleur de Sel",
-  "fetchedAt": "2026-03-13T14:23:25.115Z",
+  "fetchedAt": "2026-03-16T13:23:24.165Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Source-capt%C3%A9e--Agly--Col-Linas.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASource-capt%C3%A9e--Agly--Col-Linas.jpg",
-      "title": "Source-captée--Agly--Col-Linas.jpg",
-      "width": 3841,
-      "height": 2744,
-      "size": 3032839,
-      "timestamp": "2023-01-05T18:42:21Z",
-      "author": "Alan Mattingly",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/View_from_%C3%94_Fleur_De_Sel_guesthouse_in_Enfeh.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AView%20from%20%C3%94%20Fleur%20De%20Sel%20guesthouse%20in%20Enfeh.jpg",
+      "title": "View from Ô Fleur De Sel guesthouse in Enfeh.jpg",
+      "description": "Ô Fleur De Sel is a beachfront sandstone villa in Enfeh, converted into a guesthouse in 2016.",
+      "width": 3069,
+      "height": 2300,
+      "size": 5978562,
+      "timestamp": "2020-04-10T16:23:07Z",
+      "author": "Ziadkhabbaz",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Bugarach_%28berg%29_-_panoramio.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABugarach%20(berg)%20-%20panoramio.jpg",
-      "title": "Bugarach (berg) - panoramio.jpg",
-      "width": 1696,
-      "height": 960,
-      "size": 1056687,
-      "timestamp": "2017-01-09T20:36:23Z",
-      "author": "Jasper C.",
-      "license": "CC BY-SA 3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Gros_sel_gris_et_fleur_de_sel.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGros%20sel%20gris%20et%20fleur%20de%20sel.jpg",
+      "title": "Gros sel gris et fleur de sel.jpg",
+      "description": "Shown on top is \"Fleur de sel\" (\"flower of salt\" in French): a salt that forms as a thin, delicate crust on the surface of seawater as it evaporates.\nShown on bottom is \"Sel gris\" (\"gray salt\" in French): a coarse granular sea salt popularized by the French.",
+      "width": 4613,
+      "height": 3460,
+      "size": 5851597,
+      "timestamp": "2020-08-29T20:30:56Z",
+      "author": "Stéphane Gourichon",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Pic_de_Bugarach_uitzicht_-_panoramio.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APic%20de%20Bugarach%20uitzicht%20-%20panoramio.jpg",
-      "title": "Pic de Bugarach uitzicht - panoramio.jpg",
-      "width": 1696,
-      "height": 960,
-      "size": 1216200,
-      "timestamp": "2017-01-09T20:42:44Z",
-      "author": "Jasper C.",
-      "license": "CC BY-SA 3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Oogst_Fleur_de_Sel_in_de_Camargue.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOogst%20Fleur%20de%20Sel%20in%20de%20Camargue.jpg",
+      "title": "Oogst Fleur de Sel in de Camargue.jpg",
+      "description": "Oogst Fleur de Sel in de Camargue",
+      "width": 5312,
+      "height": 2988,
+      "size": 2845951,
+      "timestamp": "2020-11-05T10:43:25Z",
+      "author": "CamFl2020",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 7
     }
   ],
   "lieux": [
     {
       "label": "Source Salée",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/View_from_%C3%94_Fleur_De_Sel_guesthouse_in_Enfeh.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AView%20from%20%C3%94%20Fleur%20De%20Sel%20guesthouse%20in%20Enfeh.jpg",
+          "title": "View from Ô Fleur De Sel guesthouse in Enfeh.jpg",
+          "description": "Ô Fleur De Sel is a beachfront sandstone villa in Enfeh, converted into a guesthouse in 2016.",
+          "width": 3069,
+          "height": 2300,
+          "size": 5978562,
+          "timestamp": "2020-04-10T16:23:07Z",
+          "author": "Ziadkhabbaz",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Trappes_-_Le_Grenier_%C3%A0_Sel_-_Plaque_et_pot_de_fleurs.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATrappes%20-%20Le%20Grenier%20%C3%A0%20Sel%20-%20Plaque%20et%20pot%20de%20fleurs.jpg",
+          "title": "Trappes - Le Grenier à Sel - Plaque et pot de fleurs.jpg",
+          "description": "Plaque et pot de fleurs.",
+          "width": 4128,
+          "height": 3096,
+          "size": 5297048,
+          "timestamp": "2020-07-20T14:46:23Z",
+          "author": "Romainbehar",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Gros_sel_gris_et_fleur_de_sel.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGros%20sel%20gris%20et%20fleur%20de%20sel.jpg",
+          "title": "Gros sel gris et fleur de sel.jpg",
+          "description": "Shown on top is \"Fleur de sel\" (\"flower of salt\" in French): a salt that forms as a thin, delicate crust on the surface of seawater as it evaporates.\nShown on bottom is \"Sel gris\" (\"gray salt\" in French): a coarse granular sea salt popularized by the French.",
+          "width": 4613,
+          "height": 3460,
+          "size": 5851597,
+          "timestamp": "2020-08-29T20:30:56Z",
+          "author": "Stéphane Gourichon",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Vallée du Sals",

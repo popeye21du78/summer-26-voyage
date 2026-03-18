@@ -1,42 +1,45 @@
 {
   "slug": "ile-de-sein",
   "nom": "Île de Sein",
-  "fetchedAt": "2026-03-13T14:47:20.260Z",
+  "fetchedAt": "2026-03-16T14:14:32.679Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Plage_-_panorama_%28%C3%8Ele-de-Sein%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlage%20-%20panorama%20(%C3%8Ele-de-Sein).jpg",
+      "title": "Plage - panorama (Île-de-Sein).jpg",
+      "description": "Panorama de la plage à Île-de-Sein (Finistère, France).",
+      "width": 8192,
+      "height": 1856,
+      "size": 3522617,
+      "timestamp": "2020-09-09T08:57:45Z",
+      "author": "Gzen92",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Panoramique-Ile-de-Sein-depuis-de-Quai-des-Paimpolais-Mars-2015-01.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanoramique-Ile-de-Sein-depuis-de-Quai-des-Paimpolais-Mars-2015-01.jpg",
+      "title": "Panoramique-Ile-de-Sein-depuis-de-Quai-des-Paimpolais-Mars-2015-01.jpg",
+      "description": "On the Sein Island in Brittany... A beautiful panorama: the view of the small beach in front of the quai des Paimpolais...\nOn the left hand-side, at the end of the quay, the Men Brial lighthouse dominating the jetty. On the right on the horizon, Pointe du Raz and Baie des Trépassés. At the far middle side, on the horizon, we can see the summit of montain Ménez Hom...",
+      "width": 11400,
+      "height": 3600,
+      "size": 8328145,
+      "timestamp": "2021-05-08T10:58:47Z",
+      "author": "Erwan Corre",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/20150926_Bretagne_IleDeSein_Mar%C3%A9eBasse_DSC07684_PtrQs.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20150926%20Bretagne%20IleDeSein%20Mar%C3%A9eBasse%20DSC07684%20PtrQs.jpg",
       "title": "20150926 Bretagne IleDeSein MaréeBasse DSC07684 PtrQs.jpg",
+      "description": "Ile de Sein, Brittany/France.",
       "width": 5999,
       "height": 3375,
       "size": 12902293,
       "timestamp": "2020-04-03T01:29:07Z",
-      "author": "PtrQs",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/20150926_Bretagne_IleDeSein_Mar%C3%A9eBasse_DSC07688_PtrQs.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20150926%20Bretagne%20IleDeSein%20Mar%C3%A9eBasse%20DSC07688%20PtrQs.jpg",
-      "title": "20150926 Bretagne IleDeSein MaréeBasse DSC07688 PtrQs.jpg",
-      "width": 5916,
-      "height": 3944,
-      "size": 14347793,
-      "timestamp": "2020-04-03T01:29:12Z",
-      "author": "PtrQs",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/20150926_Bretagne_IleDeSein_Mar%C3%A9eBasse_DSC07687_PtrQs.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20150926%20Bretagne%20IleDeSein%20Mar%C3%A9eBasse%20DSC07687%20PtrQs.jpg",
-      "title": "20150926 Bretagne IleDeSein MaréeBasse DSC07687 PtrQs.jpg",
-      "width": 5724,
-      "height": 3816,
-      "size": 13742752,
-      "timestamp": "2020-04-03T01:29:12Z",
       "author": "PtrQs",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
@@ -46,7 +49,50 @@
   "lieux": [
     {
       "label": "Phare de Goulenez",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Panoramique-Ile-de-Sein-depuis-de-Quai-des-Paimpolais-Mars-2015-01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanoramique-Ile-de-Sein-depuis-de-Quai-des-Paimpolais-Mars-2015-01.jpg",
+          "title": "Panoramique-Ile-de-Sein-depuis-de-Quai-des-Paimpolais-Mars-2015-01.jpg",
+          "description": "On the Sein Island in Brittany... A beautiful panorama: the view of the small beach in front of the quai des Paimpolais...\nOn the left hand-side, at the end of the quay, the Men Brial lighthouse dominating the jetty. On the right on the horizon, Pointe du Raz and Baie des Trépassés. At the far middle side, on the horizon, we can see the summit of montain Ménez Hom...",
+          "width": 11400,
+          "height": 3600,
+          "size": 8328145,
+          "timestamp": "2021-05-08T10:58:47Z",
+          "author": "Erwan Corre",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Le_phare_de_Sein%2C_sous_le_grain....jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20phare%20de%20Sein%2C%20sous%20le%20grain....jpg",
+          "title": "Le phare de Sein, sous le grain....jpg",
+          "description": "Great lighthouse on the island of Sein",
+          "width": 1536,
+          "height": 1024,
+          "size": 325026,
+          "timestamp": "2022-01-22T20:17:11Z",
+          "author": "blue eyes photographies",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/L%27Ile_de_Sein_et_son_phare%2C_panoramique.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AL'Ile%20de%20Sein%20et%20son%20phare%2C%20panoramique.jpg",
+          "title": "L'Ile de Sein et son phare, panoramique.jpg",
+          "description": "Panoramique Ile de Sein vue de la côte (Pointe du Van)",
+          "width": 2352,
+          "height": 774,
+          "size": 1185393,
+          "timestamp": "2018-11-02T18:17:20Z",
+          "author": "Jeanne Menj",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Chapelle Saint-Corentin",
@@ -55,6 +101,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/20150926_Bretagne_IleDeSein_ChapelleSaintCorentin_DSC07881L_DSC07882R_Stereo_PtrQs_PtrQs.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20150926%20Bretagne%20IleDeSein%20ChapelleSaintCorentin%20DSC07881L%20DSC07882R%20Stereo%20PtrQs%20PtrQs.jpg",
           "title": "20150926 Bretagne IleDeSein ChapelleSaintCorentin DSC07881L DSC07882R Stereo PtrQs PtrQs.jpg",
+          "description": "Chapelle Saint Corentin on Ile de Sein, Brittany/France. stereoscopic view (side-by-side crosseye)",
           "width": 6566,
           "height": 3205,
           "size": 16251868,
@@ -65,22 +112,10 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Chapelle_Saint-Corentin.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20Saint-Corentin.jpg",
-          "title": "Chapelle Saint-Corentin.jpg",
-          "width": 5472,
-          "height": 3648,
-          "size": 6546431,
-          "timestamp": "2020-09-09T08:57:08Z",
-          "author": "Gzen92",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Ile_de_Sein_Chapelle_Saint-Corentin_%2815316206026%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AIle%20de%20Sein%20Chapelle%20Saint-Corentin%20(15316206026).jpg",
           "title": "Ile de Sein Chapelle Saint-Corentin (15316206026).jpg",
+          "description": "Reconstruite au XVIIème siècle sur les fondations initiales d'un ancien ermitage du XIIème, elle se dégrada à nouveau. C'est en 1970 qu'elle fut rebâtie telle que nous la découvrons aujourd'hui.\n\nElle est située près d'un amer,  à l'ouest de l'île.",
           "width": 4204,
           "height": 2803,
           "size": 2364695,
@@ -89,6 +124,20 @@
           "license": "CC BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Sein0078.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASein0078.jpg",
+          "title": "Sein0078.jpg",
+          "description": "Chapelle St-Corentin",
+          "width": 4608,
+          "height": 3456,
+          "size": 3874974,
+          "timestamp": "2018-08-08T06:57:24Z",
+          "author": "Raphodon",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
         }
       ]
     },
@@ -98,7 +147,50 @@
     },
     {
       "label": "Cimetière marin",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/20150926_Bretagne_IleDeSein_Cimeti%C3%A8re_DSC07770_PtrQs.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20150926%20Bretagne%20IleDeSein%20Cimeti%C3%A8re%20DSC07770%20PtrQs.jpg",
+          "title": "20150926 Bretagne IleDeSein Cimetière DSC07770 PtrQs.jpg",
+          "description": "Ile de Sein, Brittany/France",
+          "width": 5477,
+          "height": 3652,
+          "size": 10624801,
+          "timestamp": "2020-04-03T01:11:21Z",
+          "author": "PtrQs",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/20150926_Bretagne_IleDeSein_Cimeti%C3%A8reDesChol%C3%A9riques_DSC07803_PtrQs.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20150926%20Bretagne%20IleDeSein%20Cimeti%C3%A8reDesChol%C3%A9riques%20DSC07803%20PtrQs.jpg",
+          "title": "20150926 Bretagne IleDeSein CimetièreDesCholériques DSC07803 PtrQs.jpg",
+          "description": "Ile de Sein, Brittany/France",
+          "width": 6048,
+          "height": 4032,
+          "size": 18364734,
+          "timestamp": "2020-04-03T01:11:25Z",
+          "author": "PtrQs",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Sein0096.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASein0096.jpg",
+          "title": "Sein0096.jpg",
+          "description": "Cimetière des cholériques",
+          "width": 4608,
+          "height": 3456,
+          "size": 4792100,
+          "timestamp": "2018-08-08T16:15:47Z",
+          "author": "Raphodon",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

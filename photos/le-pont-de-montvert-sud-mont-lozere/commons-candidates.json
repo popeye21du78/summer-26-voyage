@@ -1,12 +1,13 @@
 {
   "slug": "le-pont-de-montvert-sud-mont-lozere",
   "nom": "Le Pont-de-Montvert-Sud-Mont-Lozère",
-  "fetchedAt": "2026-03-13T15:35:51.716Z",
+  "fetchedAt": "2026-03-16T20:10:26.637Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/2018.09.23.-01-Pont-de-Montvert-Sud-Mont-Loz%C3%A8re--Costas_Schoenschrecke-Weibchen.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2018.09.23.-01-Pont-de-Montvert-Sud-Mont-Loz%C3%A8re--Costas%20Schoenschrecke-Weibchen.jpg",
       "title": "2018.09.23.-01-Pont-de-Montvert-Sud-Mont-Lozère--Costas Schoenschrecke-Weibchen.jpg",
+      "description": "Calliptamus barbarus, male. Taken in Pont de Montvert - Sud Mont Lozère, Occitania, France.",
       "width": 2895,
       "height": 1726,
       "size": 5950565,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/2018.09.23.-02-Pont-de-Montvert-Sud-Mont-Loz%C3%A8re--Costas_Schoenschrecke-Weibchen.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2018.09.23.-02-Pont-de-Montvert-Sud-Mont-Loz%C3%A8re--Costas%20Schoenschrecke-Weibchen.jpg",
       "title": "2018.09.23.-02-Pont-de-Montvert-Sud-Mont-Lozère--Costas Schoenschrecke-Weibchen.jpg",
+      "description": "Calliptamus barbarus, male. Taken in Pont de Montvert - Sud Mont Lozère, Occitania, France.",
       "width": 3300,
       "height": 2264,
       "size": 8064992,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/2018.09.23.-03-Pont-de-Montvert-Sud-Mont-Loz%C3%A8re--Costas_Schoenschrecke-Weibchen.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2018.09.23.-03-Pont-de-Montvert-Sud-Mont-Loz%C3%A8re--Costas%20Schoenschrecke-Weibchen.jpg",
       "title": "2018.09.23.-03-Pont-de-Montvert-Sud-Mont-Lozère--Costas Schoenschrecke-Weibchen.jpg",
+      "description": "Calliptamus barbarus, male. Taken in Pont de Montvert - Sud Mont Lozère, Occitania, France.",
       "width": 3463,
       "height": 2046,
       "size": 8313252,
@@ -46,7 +49,50 @@
   "lieux": [
     {
       "label": "Pont de pierre du XVIIe siècle",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/48116-Pont_de_Montvert_-_Sud_Mont_Loz%C3%A8re-Sols.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A48116-Pont%20de%20Montvert%20-%20Sud%20Mont%20Loz%C3%A8re-Sols.png",
+          "title": "48116-Pont de Montvert - Sud Mont Lozère-Sols.png",
+          "description": "Carte des infrastructures et de l’occupation des sols en 2018 de la commune de fr:Pont de Montvert - Sud Mont Lozère (France).",
+          "width": 3270,
+          "height": 2598,
+          "size": 2987948,
+          "timestamp": "2021-04-10T13:55:22Z",
+          "author": "Roland45",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/48116-Pont_de_Montvert_-_Sud_Mont_Loz%C3%A8re-ZNIEFF1.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A48116-Pont%20de%20Montvert%20-%20Sud%20Mont%20Loz%C3%A8re-ZNIEFF1.png",
+          "title": "48116-Pont de Montvert - Sud Mont Lozère-ZNIEFF1.png",
+          "description": "Carte des zones naturelles d'intérêt écologique, faunistique et floristique (ZNIEFF) de type 1 de la commune de fr:Pont de Montvert - Sud Mont Lozère (France).",
+          "width": 3057,
+          "height": 2480,
+          "size": 8935486,
+          "timestamp": "2021-09-12T15:50:49Z",
+          "author": "Roland45",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/48116-Pont_de_Montvert_-_Sud_Mont_Loz%C3%A8re-ZNIEFF2.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A48116-Pont%20de%20Montvert%20-%20Sud%20Mont%20Loz%C3%A8re-ZNIEFF2.png",
+          "title": "48116-Pont de Montvert - Sud Mont Lozère-ZNIEFF2.png",
+          "description": "Carte des zones naturelles d'intérêt écologique, faunistique et floristique (ZNIEFF) de type 2 de la commune de fr:Pont de Montvert - Sud Mont Lozère (France).",
+          "width": 3519,
+          "height": 2480,
+          "size": 9209490,
+          "timestamp": "2021-09-18T08:39:48Z",
+          "author": "Roland45",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Église Saint-Jean-Baptiste",

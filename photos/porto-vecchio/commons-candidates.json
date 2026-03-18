@@ -1,43 +1,46 @@
 {
   "slug": "porto-vecchio",
   "nom": "Porto-Vecchio",
-  "fetchedAt": "2026-03-13T01:46:53.471Z",
+  "fetchedAt": "2026-03-18T17:08:32.361Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Perpignan_Place_de_la_R%C3%A9publique_%2851039047423%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APerpignan%20Place%20de%20la%20R%C3%A9publique%20(51039047423).jpg",
-      "title": "Perpignan Place de la République (51039047423).jpg",
-      "width": 4462,
-      "height": 2974,
-      "size": 11046381,
-      "timestamp": "2021-05-14T14:13:42Z",
-      "author": "Jorge Franganillo",
-      "license": "CC BY 2.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Porto-Vecchio_vieille_ville.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APorto-Vecchio%20vieille%20ville.jpg",
+      "title": "Porto-Vecchio vieille ville.jpg",
+      "description": "Vue de la vieille ville de Porto-Vecchio",
+      "width": 4472,
+      "height": 2970,
+      "size": 13323437,
+      "timestamp": "2016-08-21T12:29:46Z",
+      "author": "Pascal POGGI",
+      "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 8
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Taller_a_la_Viquitrobada_2021_a_la_Casa_de_la_Generalitat_de_Perpiny%C3%A0_2.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATaller%20a%20la%20Viquitrobada%202021%20a%20la%20Casa%20de%20la%20Generalitat%20de%20Perpiny%C3%A0%202.jpg",
-      "title": "Taller a la Viquitrobada 2021 a la Casa de la Generalitat de Perpinyà 2.jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 2927036,
-      "timestamp": "2021-11-21T20:52:46Z",
-      "author": "Medol",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Golfe_de_Porto-Vecchio_1.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGolfe%20de%20Porto-Vecchio%201.jpg",
+      "title": "Golfe de Porto-Vecchio 1.jpg",
+      "description": "Golfe de Porto-Vecchio",
+      "width": 6016,
+      "height": 3259,
+      "size": 610992,
+      "timestamp": "2020-05-25T07:39:58Z",
+      "author": "Edison McCullen",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Fa%C3%A7ana_de_la_Casa_de_la_Generalitat_de_Perpiny%C3%A0.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFa%C3%A7ana%20de%20la%20Casa%20de%20la%20Generalitat%20de%20Perpiny%C3%A0.jpg",
-      "title": "Façana de la Casa de la Generalitat de Perpinyà.jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 2936240,
-      "timestamp": "2021-11-21T20:52:56Z",
-      "author": "Medol",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Golfe_de_Porto-Vecchio_2.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGolfe%20de%20Porto-Vecchio%202.jpg",
+      "title": "Golfe de Porto-Vecchio 2.jpg",
+      "description": "Golfe de Porto-Vecchio",
+      "width": 6016,
+      "height": 3259,
+      "size": 2509575,
+      "timestamp": "2023-04-05T16:57:30Z",
+      "author": "Edison McCullen",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
@@ -46,23 +49,67 @@
   "lieux": [
     {
       "label": "Citadelle de Porto-Vecchio",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Vue_du_Village_et_du_Port_de_Porto_Vecchio%2C_objectnr_A_59319.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20du%20Village%20et%20du%20Port%20de%20Porto%20Vecchio%2C%20objectnr%20A%2059319.jpg",
+          "title": "Vue du Village et du Port de Porto Vecchio, objectnr A 59319.jpg",
+          "description": "IdentificatieTitel: Vue du Village et du Port de Porto Vecchio Objectnummer: A 59319Objecttype:   prent litho Huidige locatie: in depotOnderwerpen:   Corsica havengezicht boot landschap VervaardigingVervaardiger:   Godefroy Engelmann (lithograaf) Datering: 1821 Materiaal:   papier Verwerving en rechtenVerworven: aangetroffen Verzameling: Willet-Holthuysen collectieLicentie: CC PDNaamsvermelding: Amsterdam MuseumDuurzaam webadres: http://hdl.handle.net/11259/collection.106160",
+          "width": 1600,
+          "height": 1168,
+          "size": 171731,
+          "timestamp": "2020-03-08T15:12:54Z",
+          "author": "Godefroy Engelmann (lithograaf)",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Trieste_il_Porto_Vecchio_xilografia.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATrieste%20il%20Porto%20Vecchio%20xilografia.jpg",
+          "title": "Trieste il Porto Vecchio xilografia.jpg",
+          "description": "Trieste: il Porto Vecchio (xilografia).",
+          "width": 3007,
+          "height": 2179,
+          "size": 4239313,
+          "timestamp": "2020-04-22T14:05:09Z",
+          "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Golfe_de_Porto-Vecchio_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGolfe%20de%20Porto-Vecchio%201.jpg",
+          "title": "Golfe de Porto-Vecchio 1.jpg",
+          "description": "Golfe de Porto-Vecchio",
+          "width": 6016,
+          "height": 3259,
+          "size": 610992,
+          "timestamp": "2020-05-25T07:39:58Z",
+          "author": "Edison McCullen",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Plage de Palombaggia",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Plage_de_Palombaggia_%28Corse-du-Sud%29.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlage%20de%20Palombaggia%20(Corse-du-Sud).JPG",
-          "title": "Plage de Palombaggia (Corse-du-Sud).JPG",
-          "width": 1600,
-          "height": 1200,
-          "size": 348678,
-          "timestamp": "2013-01-14T13:44:34Z",
-          "author": "Arbarossa",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Porto-Vecchio_plage_de_Santa_Giulia.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APorto-Vecchio%20plage%20de%20Santa%20Giulia.jpg",
+          "title": "Porto-Vecchio plage de Santa Giulia.jpg",
+          "description": "Porto-Vecchio (Corse-du-Sud) - Une fin de saison à la plage de Santa Giulia.",
+          "width": 6016,
+          "height": 4016,
+          "size": 8813038,
+          "timestamp": "2016-12-31T15:47:04Z",
+          "author": "Pierre Bona",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 6
         }
       ]
     },
@@ -73,6 +120,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Porto-Vecchio_plage_de_Santa_Giulia.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APorto-Vecchio%20plage%20de%20Santa%20Giulia.jpg",
           "title": "Porto-Vecchio plage de Santa Giulia.jpg",
+          "description": "Porto-Vecchio (Corse-du-Sud) - Une fin de saison à la plage de Santa Giulia.",
           "width": 6016,
           "height": 4016,
           "size": 8813038,
@@ -86,7 +134,50 @@
     },
     {
       "label": "Marais salants de Porto-Vecchio",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Vue_du_Village_et_du_Port_de_Porto_Vecchio%2C_objectnr_A_59319.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20du%20Village%20et%20du%20Port%20de%20Porto%20Vecchio%2C%20objectnr%20A%2059319.jpg",
+          "title": "Vue du Village et du Port de Porto Vecchio, objectnr A 59319.jpg",
+          "description": "IdentificatieTitel: Vue du Village et du Port de Porto Vecchio Objectnummer: A 59319Objecttype:   prent litho Huidige locatie: in depotOnderwerpen:   Corsica havengezicht boot landschap VervaardigingVervaardiger:   Godefroy Engelmann (lithograaf) Datering: 1821 Materiaal:   papier Verwerving en rechtenVerworven: aangetroffen Verzameling: Willet-Holthuysen collectieLicentie: CC PDNaamsvermelding: Amsterdam MuseumDuurzaam webadres: http://hdl.handle.net/11259/collection.106160",
+          "width": 1600,
+          "height": 1168,
+          "size": 171731,
+          "timestamp": "2020-03-08T15:12:54Z",
+          "author": "Godefroy Engelmann (lithograaf)",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Trieste_il_Porto_Vecchio_xilografia.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATrieste%20il%20Porto%20Vecchio%20xilografia.jpg",
+          "title": "Trieste il Porto Vecchio xilografia.jpg",
+          "description": "Trieste: il Porto Vecchio (xilografia).",
+          "width": 3007,
+          "height": 2179,
+          "size": 4239313,
+          "timestamp": "2020-04-22T14:05:09Z",
+          "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Golfe_de_Porto-Vecchio_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGolfe%20de%20Porto-Vecchio%201.jpg",
+          "title": "Golfe de Porto-Vecchio 1.jpg",
+          "description": "Golfe de Porto-Vecchio",
+          "width": 6016,
+          "height": 3259,
+          "size": 610992,
+          "timestamp": "2020-05-25T07:39:58Z",
+          "author": "Edison McCullen",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Forteresse d’Araghju",

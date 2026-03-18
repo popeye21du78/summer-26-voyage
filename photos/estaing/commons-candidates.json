@@ -1,12 +1,13 @@
 {
   "slug": "estaing",
   "nom": "Estaing",
-  "fetchedAt": "2026-03-13T14:16:33.578Z",
+  "fetchedAt": "2026-03-16T13:10:08.392Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Estaing_%2812%29_Ch%C3%A2teau_-_Ext%C3%A9rieur_-_02.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEstaing%20(12)%20Ch%C3%A2teau%20-%20Ext%C3%A9rieur%20-%2002.jpg",
       "title": "Estaing (12) Château - Extérieur - 02.jpg",
+      "description": "Château d'Estaing (12).",
       "width": 6000,
       "height": 4000,
       "size": 11434291,
@@ -14,33 +15,35 @@
       "author": "GO69",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Le_pont_gothique_d%27Estaing_franchissant_le_Lot_2024_08.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20pont%20gothique%20d'Estaing%20franchissant%20le%20Lot%202024%2008.jpg",
-      "title": "Le pont gothique d'Estaing franchissant le Lot 2024 08.jpg",
-      "width": 2560,
-      "height": 1600,
-      "size": 1821950,
-      "timestamp": "2024-11-27T20:57:50Z",
-      "author": "Stclementader",
-      "license": "CC0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Castle_of_Estaing_18.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACastle%20of%20Estaing%2018.jpg",
+      "title": "Castle of Estaing 18.jpg",
+      "description": "View of the castle of Estaing, Aveyron, France",
+      "width": 3756,
+      "height": 2439,
+      "size": 6963413,
+      "timestamp": "2018-09-05T18:24:58Z",
+      "author": "Krzysztof Golik",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 8
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Le_pont_gothique_d%27Estaing_franchissant_le_Lot_2024_09.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20pont%20gothique%20d'Estaing%20franchissant%20le%20Lot%202024%2009.jpg",
-      "title": "Le pont gothique d'Estaing franchissant le Lot 2024 09.jpg",
-      "width": 2560,
-      "height": 1600,
-      "size": 1988681,
-      "timestamp": "2024-11-27T20:57:53Z",
-      "author": "Stclementader",
-      "license": "CC0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Estaing_%2812%29_Ch%C3%A2teau_-_Ext%C3%A9rieur_-_01.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEstaing%20(12)%20Ch%C3%A2teau%20-%20Ext%C3%A9rieur%20-%2001.jpg",
+      "title": "Estaing (12) Château - Extérieur - 01.jpg",
+      "description": "Château d'Estaing (12).",
+      "width": 6000,
+      "height": 4000,
+      "size": 8240090,
+      "timestamp": "2019-07-27T12:35:02Z",
+      "author": "GO69",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 8
     }
   ],
   "lieux": [
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Castle_of_Estaing_22.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACastle%20of%20Estaing%2022.jpg",
           "title": "Castle of Estaing 22.jpg",
+          "description": "View of the castle of Estaing, Aveyron, France",
           "width": 4378,
           "height": 2922,
           "size": 9976212,
@@ -58,12 +62,27 @@
           "author": "Krzysztof Golik",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Estaing_%2812%29_Ch%C3%A2teau_-_Ext%C3%A9rieur_-_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEstaing%20(12)%20Ch%C3%A2teau%20-%20Ext%C3%A9rieur%20-%2002.jpg",
+          "title": "Estaing (12) Château - Extérieur - 02.jpg",
+          "description": "Château d'Estaing (12).",
+          "width": 6000,
+          "height": 4000,
+          "size": 11434291,
+          "timestamp": "2020-02-09T08:24:06Z",
+          "author": "GO69",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Castle_and_bridge_in_Estaing_02.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACastle%20and%20bridge%20in%20Estaing%2002.jpg",
           "title": "Castle and bridge in Estaing 02.jpg",
+          "description": "View of the castle and bridge over the Lot River in Estaing, Aveyron, France",
           "width": 6000,
           "height": 4000,
           "size": 11499517,
@@ -71,12 +90,32 @@
           "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q51955005\" class=\"extiw\" title=\"d:Q51955005\"><span title=\"Wikimedian\">Krzysztof Golik</span></a></bdi>",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
+        }
+      ]
+    },
+    {
+      "label": "Pont gothique sur le Lot",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Castle_of_Estaing_22.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACastle%20of%20Estaing%2022.jpg",
+          "title": "Castle of Estaing 22.jpg",
+          "description": "View of the castle of Estaing, Aveyron, France",
+          "width": 4378,
+          "height": 2922,
+          "size": 9976212,
+          "timestamp": "2025-11-04T15:08:52Z",
+          "author": "Krzysztof Golik",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Ch%C3%A2teau_d%27Estaing_et_la_Croix_d%27Estaing.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20d'Estaing%20et%20la%20Croix%20d'Estaing.jpg",
           "title": "Château d'Estaing et la Croix d'Estaing.jpg",
+          "description": "Vue sur le village d'Estaing avec notamment son château fort et sa croix",
           "width": 4096,
           "height": 3072,
           "size": 5370618,
@@ -84,39 +123,37 @@
           "author": "Mommeja",
           "license": "CC BY 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Estaing_vieux_pont_et_ch%C3%A2teau_%281%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEstaing%20vieux%20pont%20et%20ch%C3%A2teau%20(1).jpg",
+          "title": "Estaing vieux pont et château (1).jpg",
+          "description": "Le pont et le château d'Estaing, Aveyron, France. Vue prise en direction de l'amont.",
+          "width": 3190,
+          "height": 2393,
+          "size": 2163691,
+          "timestamp": "2017-10-03T14:54:05Z",
+          "author": "Père Igor",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
         }
       ]
-    },
-    {
-      "label": "Pont gothique sur le Lot",
-      "photos": []
     },
     {
       "label": "Église Saint-Fleuret",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Estaing%2C%C3%A9glise%2Cint%C3%A9rieur14.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEstaing%2C%C3%A9glise%2Cint%C3%A9rieur14.jpg",
-          "title": "Estaing,église,intérieur14.jpg",
-          "width": 2639,
-          "height": 2112,
-          "size": 931237,
-          "timestamp": "2015-06-14T20:58:18Z",
-          "author": "Finoskov",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Estaing%2C%C3%A9glise%2Cint%C3%A9rieur04.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEstaing%2C%C3%A9glise%2Cint%C3%A9rieur04.jpg",
-          "title": "Estaing,église,intérieur04.jpg",
-          "width": 4069,
-          "height": 3256,
-          "size": 2663594,
-          "timestamp": "2015-06-14T20:58:19Z",
-          "author": "Finoskov",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Estaing_%C3%A9glise_%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEstaing%20%C3%A9glise%20(2).jpg",
+          "title": "Estaing église (2).jpg",
+          "description": "L'église Saint-Fleuret, Estaing, Aveyron, France.",
+          "width": 3190,
+          "height": 2393,
+          "size": 1716987,
+          "timestamp": "2017-10-08T14:41:40Z",
+          "author": "Père Igor",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
@@ -125,10 +162,25 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Estaing_%C3%A9glise_%281%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEstaing%20%C3%A9glise%20(1).jpg",
           "title": "Estaing église (1).jpg",
+          "description": "L'église Saint-Fleuret, Estaing, Aveyron, France.",
           "width": 3264,
           "height": 2448,
           "size": 2092126,
           "timestamp": "2017-10-08T14:41:40Z",
+          "author": "Père Igor",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Estaing_%C3%A9glise_croix_pierre_%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEstaing%20%C3%A9glise%20croix%20pierre%20(2).jpg",
+          "title": "Estaing église croix pierre (2).jpg",
+          "description": "L'ancienne croix de cimetière du XVIe siècle (revers), située sur le parvis de l'église Saint-Fleuret, Estaing, Aveyron, France.",
+          "width": 3073,
+          "height": 2306,
+          "size": 1495647,
+          "timestamp": "2017-10-08T15:14:58Z",
           "author": "Père Igor",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",

@@ -1,38 +1,13 @@
 {
   "slug": "fontenay-le-comte",
   "nom": "Fontenay-le-Comte",
-  "fetchedAt": "2026-03-13T14:24:34.246Z",
+  "fetchedAt": "2026-03-16T13:25:23.653Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Pont_Neuf_de_Fontenay-le-Comte.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20Neuf%20de%20Fontenay-le-Comte.jpg",
-      "title": "Pont Neuf de Fontenay-le-Comte.jpg",
-      "width": 4000,
-      "height": 3000,
-      "size": 2663372,
-      "timestamp": "2023-12-27T19:07:57Z",
-      "author": "Sallavier",
-      "license": "CC0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Fontenay-le-Comte_-_Riv%C3%A8re_Vend%C3%A9e_et_Pont_Neuf.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFontenay-le-Comte%20-%20Riv%C3%A8re%20Vend%C3%A9e%20et%20Pont%20Neuf.jpg",
-      "title": "Fontenay-le-Comte - Rivère Vendée et Pont Neuf.jpg",
-      "width": 2000,
-      "height": 1500,
-      "size": 2456017,
-      "timestamp": "2015-07-20T09:37:41Z",
-      "author": "Jmdigne",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Fontenay-Le-Comte_-_La_Vend%C3%A9e_vue_depuis_le_Pont_des_Sardines.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFontenay-Le-Comte%20-%20La%20Vend%C3%A9e%20vue%20depuis%20le%20Pont%20des%20Sardines.jpg",
       "title": "Fontenay-Le-Comte - La Vendée vue depuis le Pont des Sardines.jpg",
+      "description": "La Vendée vue depuis le Pont des Sardines",
       "width": 3840,
       "height": 2880,
       "size": 3056056,
@@ -40,7 +15,35 @@
       "author": "Jmdigne",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Fontenay_le_Comte_-_Chateau_Gaillard_%281%29.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFontenay%20le%20Comte%20-%20Chateau%20Gaillard%20(1).JPG",
+      "title": "Fontenay le Comte - Chateau Gaillard (1).JPG",
+      "description": "Hôtel dit Château-Gaillard - Fontenay-le-Comte (Vendée)",
+      "width": 4522,
+      "height": 3139,
+      "size": 4081401,
+      "timestamp": "2012-03-01T20:08:26Z",
+      "author": "Selbymay",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Fontenay-le-Comte_%2885%29_H%C3%B4tel_dit_Ch%C3%A2teau-Gaillard_Portail_03.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFontenay-le-Comte%20(85)%20H%C3%B4tel%20dit%20Ch%C3%A2teau-Gaillard%20Portail%2003.JPG",
+      "title": "Fontenay-le-Comte (85) Hôtel dit Château-Gaillard Portail 03.JPG",
+      "description": "Portail de l'Hôtel dit Château-Gaillard à Fontenay-le-Comte (85). Statue de Laocoon.",
+      "width": 1786,
+      "height": 2381,
+      "size": 1772714,
+      "timestamp": "2015-01-01T19:08:25Z",
+      "author": "GO69",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
     }
   ],
   "lieux": [
@@ -52,44 +55,118 @@
       "label": "Rue des Loges",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Fontenay_le_Comte_-_Maison_94_rue_des_loges_%282%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFontenay%20le%20Comte%20-%20Maison%2094%20rue%20des%20loges%20(2).jpg",
-          "title": "Fontenay le Comte - Maison 94 rue des loges (2).jpg",
-          "width": 4842,
-          "height": 3207,
-          "size": 4269955,
-          "timestamp": "2012-03-08T18:11:18Z",
-          "author": "Selbymay",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Fontenay-le-Comte_H%C3%B4tel_Ch%C3%A2teau-Gaillard_996.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFontenay-le-Comte%20H%C3%B4tel%20Ch%C3%A2teau-Gaillard%20996.jpg",
+          "title": "Fontenay-le-Comte Hôtel Château-Gaillard 996.jpg",
+          "description": "Hôtel Château-Gaillard, 6 rue Pont-aux-Chèvres, in Fontenay-le-Comte im Département Vendée (Pays de la Loire/Frankreich), Laokoon-Gruppe, links Diana, rechts Herkules",
+          "width": 4453,
+          "height": 2968,
+          "size": 6754803,
+          "timestamp": "2018-05-07T13:18:17Z",
+          "author": "GFreihalter",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 8
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Fontenay_le_Comte_-_Maison_94_rue_des_loges_%281%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFontenay%20le%20Comte%20-%20Maison%2094%20rue%20des%20loges%20(1).jpg",
-          "title": "Fontenay le Comte - Maison 94 rue des loges (1).jpg",
-          "width": 2718,
-          "height": 4105,
-          "size": 2249595,
-          "timestamp": "2012-03-08T18:11:18Z",
-          "author": "Selbymay",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Porte_du_Nord_a_%28sic%29_N.D._de_Fontenay_le_Comte_-_%28estampe%29_%3B_Rue_Pont_aux_Ch%C3%A8vres_%282e_%C3%A9tat%2C_eau-forte_et_pointe_s%C3%A8che%29_-_O._de_Rochebrune_inv._fec._et_exc._15_mars_1861_%3B_O._de_R_10_mars_1861_-_btv1b105402738.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APorte%20du%20Nord%20a%20(sic)%20N.D.%20de%20Fontenay%20le%20Comte%20-%20(estampe)%20%3B%20Rue%20Pont%20aux%20Ch%C3%A8vres%20(2e%20%C3%A9tat%2C%20eau-forte%20et%20pointe%20s%C3%A8che)%20-%20O.%20de%20Rochebrune%20inv.%20fec.%20et%20exc.%2015%20mars%201861%20%3B%20O.%20de%20R%2010%20mars%201861%20-%20btv1b105402738.jpg",
+          "title": "Porte du Nord a (sic) N.D. de Fontenay le Comte - (estampe) ; Rue Pont aux Chèvres (2e état, eau-forte et pointe sèche) - O. de Rochebrune inv. fec. et exc. 15 mars 1861 ; O. de R 10 mars 1861 - btv1b105402738.jpg",
+          "description": "Sujet : Fontenay-le-Comte (Vendée, France) -- Église Notre-Dame\nFontenay-le-Comte (Vendée, France)\nVues d'architecture -- 19e siècle\nRéférence bibliographique : Clouzot, 32\nAppartient à l’ensemble documentaire : PaysLoir1\nLangue : français\n\nÉditeur : [s.n.]",
+          "width": 7596,
+          "height": 5284,
+          "size": 2989025,
+          "timestamp": "2025-02-24T19:09:33Z",
+          "author": "<div class=\"fn value\">\nRochebrune, Octave de (1824-1900). Graveur</div>",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Porte_du_nord_%C3%A0_N.D._a_%28sic%29_Fontenay_le_Comte_-_%28estampe%29_%3B_Rue_Pont_aux_Ch%C3%A8vres_%281er_%C3%A9tat%2C_eau-forte_seule%29_-_O._de_Rochebrune_inv._fec._et_exc._15_mars_1861_%3B_O._de_R_10_mars_1861_-_btv1b10540237d.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APorte%20du%20nord%20%C3%A0%20N.D.%20a%20(sic)%20Fontenay%20le%20Comte%20-%20(estampe)%20%3B%20Rue%20Pont%20aux%20Ch%C3%A8vres%20(1er%20%C3%A9tat%2C%20eau-forte%20seule)%20-%20O.%20de%20Rochebrune%20inv.%20fec.%20et%20exc.%2015%20mars%201861%20%3B%20O.%20de%20R%2010%20mars%201861%20-%20btv1b10540237d.jpg",
+          "title": "Porte du nord à N.D. a (sic) Fontenay le Comte - (estampe) ; Rue Pont aux Chèvres (1er état, eau-forte seule) - O. de Rochebrune inv. fec. et exc. 15 mars 1861 ; O. de R 10 mars 1861 - btv1b10540237d.jpg",
+          "description": "Sujet : Fontenay-le-Comte (Vendée, France) -- Église Notre-Dame\nFontenay-le-Comte (Vendée, France)\nVues d'architecture -- 19e siècle\nRéférence bibliographique : Clouzot, 32\nAppartient à l’ensemble documentaire : PaysLoir1\nLangue : français\n\nÉditeur : [s.n.]",
+          "width": 7553,
+          "height": 5306,
+          "size": 3154964,
+          "timestamp": "2025-03-06T14:04:17Z",
+          "author": "<div class=\"fn value\">\nRochebrune, Octave de (1824-1900). Graveur</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
         }
       ]
     },
     {
       "label": "Hôtel de Grimouard",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Fontenay-le-Comte_H%C3%B4tel_Ch%C3%A2teau-Gaillard_996.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFontenay-le-Comte%20H%C3%B4tel%20Ch%C3%A2teau-Gaillard%20996.jpg",
+          "title": "Fontenay-le-Comte Hôtel Château-Gaillard 996.jpg",
+          "description": "Hôtel Château-Gaillard, 6 rue Pont-aux-Chèvres, in Fontenay-le-Comte im Département Vendée (Pays de la Loire/Frankreich), Laokoon-Gruppe, links Diana, rechts Herkules",
+          "width": 4453,
+          "height": 2968,
+          "size": 6754803,
+          "timestamp": "2018-05-07T13:18:17Z",
+          "author": "GFreihalter",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Fontenay_le_Comte_-_Chateau_Gaillard_%281%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFontenay%20le%20Comte%20-%20Chateau%20Gaillard%20(1).JPG",
+          "title": "Fontenay le Comte - Chateau Gaillard (1).JPG",
+          "description": "Hôtel dit Château-Gaillard - Fontenay-le-Comte (Vendée)",
+          "width": 4522,
+          "height": 3139,
+          "size": 4081401,
+          "timestamp": "2012-03-01T20:08:26Z",
+          "author": "Selbymay",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Fontenay-le-Comte_%2885%29_H%C3%B4tel_dit_Ch%C3%A2teau-Gaillard_Portail_03.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFontenay-le-Comte%20(85)%20H%C3%B4tel%20dit%20Ch%C3%A2teau-Gaillard%20Portail%2003.JPG",
+          "title": "Fontenay-le-Comte (85) Hôtel dit Château-Gaillard Portail 03.JPG",
+          "description": "Portail de l'Hôtel dit Château-Gaillard à Fontenay-le-Comte (85). Statue de Laocoon.",
+          "width": 1786,
+          "height": 2381,
+          "size": 1772714,
+          "timestamp": "2015-01-01T19:08:25Z",
+          "author": "GO69",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Parc Baron",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/%C3%89glise_N-D%2C_Fontenay_%2885%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20N-D%2C%20Fontenay%20(85).jpg",
+          "title": "Église N-D, Fontenay (85).jpg",
+          "description": "Eglise Notre-Dame de Fontenay le Comte (85) et toits de la ville depuis site de l'ancien château-fort, aujourd'hui parc Baron.",
+          "width": 988,
+          "height": 660,
+          "size": 368823,
+          "timestamp": "2023-06-25T07:09:43Z",
+          "author": "Dacia 1410 Sport",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Vieux_ch%C3%A2teau-fort%2C_actuel_parc_Baron_de_Fontenay-le-Comte_%28Vend%C3%A9e%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVieux%20ch%C3%A2teau-fort%2C%20actuel%20parc%20Baron%20de%20Fontenay-le-Comte%20(Vend%C3%A9e).jpg",
           "title": "Vieux château-fort, actuel parc Baron de Fontenay-le-Comte (Vendée).jpg",
+          "description": "Cela représente le v (actuel parc Baron)",
           "width": 4160,
           "height": 2706,
           "size": 4130078,
@@ -100,13 +177,14 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/%C3%89glise_N-D%2C_Fontenay_%2885%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20N-D%2C%20Fontenay%20(85).jpg",
-          "title": "Église N-D, Fontenay (85).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Parc_HV%2C_Fontenay_%2885%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParc%20HV%2C%20Fontenay%20(85).jpg",
+          "title": "Parc HV, Fontenay (85).jpg",
+          "description": "Parc de l'hôtel de ville, Fontenay le Comte (85).",
           "width": 988,
           "height": 660,
-          "size": 368823,
-          "timestamp": "2023-06-25T07:09:43Z",
+          "size": 465268,
+          "timestamp": "2023-06-25T07:09:46Z",
           "author": "Dacia 1410 Sport",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",

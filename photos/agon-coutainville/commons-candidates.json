@@ -1,12 +1,13 @@
 {
   "slug": "agon-coutainville",
   "nom": "Agon-Coutainville",
-  "fetchedAt": "2026-03-12T23:40:08.718Z",
+  "fetchedAt": "2026-03-15T14:47:26.664Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Manoir_de_Coutainville_-_Vue_d%27ensemble.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AManoir%20de%20Coutainville%20-%20Vue%20d'ensemble.jpg",
       "title": "Manoir de Coutainville - Vue d'ensemble.jpg",
+      "description": "Agon-Coutainville, Manche",
       "width": 5184,
       "height": 3456,
       "size": 6571144,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Manoir_de_Coutainville.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AManoir%20de%20Coutainville.jpg",
       "title": "Manoir de Coutainville.jpg",
+      "description": "Agon-Coutainville, Manche",
       "width": 5184,
       "height": 3456,
       "size": 7289415,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Manoir_de_Coutainville_%282%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AManoir%20de%20Coutainville%20(2).jpg",
       "title": "Manoir de Coutainville (2).jpg",
+      "description": "Agon-Coutainville, Manche",
       "width": 5184,
       "height": 3456,
       "size": 6914234,
@@ -50,7 +53,22 @@
     },
     {
       "label": "Digue promenade et villas Belle Époque",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Rochers_%C3%A0_Coutainville_-_France.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARochers%20%C3%A0%20Coutainville%20-%20France.jpg",
+          "title": "Rochers à Coutainville - France.jpg",
+          "description": "Groyne in Coutainville - Normandy",
+          "width": 2112,
+          "height": 2816,
+          "size": 3062598,
+          "timestamp": "2011-06-03T23:33:39Z",
+          "author": "Doudoulolita",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     },
     {
       "label": "Marché couvert d’Agon-Coutainville",
@@ -58,7 +76,36 @@
     },
     {
       "label": "Plage principale",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Coucher_de_soleil_%C3%A0_Coutainville_%282219540440%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACoucher%20de%20soleil%20%C3%A0%20Coutainville%20(2219540440).jpg",
+          "title": "Coucher de soleil à Coutainville (2219540440).jpg",
+          "description": "Coucher de soleil à Coutainville",
+          "width": 2816,
+          "height": 2112,
+          "size": 1132123,
+          "timestamp": "2023-10-14T10:11:27Z",
+          "author": "A3X",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Coutainville_Plage_du_Passous_2020.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACoutainville%20Plage%20du%20Passous%202020.jpg",
+          "title": "Coutainville Plage du Passous 2020.jpg",
+          "description": "Panoramique partie sud de Coutainville, plage du Passous, marée base. Assemblage 5 images.",
+          "width": 14200,
+          "height": 2150,
+          "size": 23354327,
+          "timestamp": "2020-09-27T17:37:04Z",
+          "author": "Siren-Com",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

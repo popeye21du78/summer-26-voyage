@@ -1,12 +1,13 @@
 {
   "slug": "mittelbergheim",
   "nom": "Mittelbergheim",
-  "fetchedAt": "2026-03-13T16:12:17.850Z",
+  "fetchedAt": "2026-03-16T21:39:03.078Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Mittelbergheim_lutherienne_nef.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMittelbergheim%20lutherienne%20nef.jpg",
       "title": "Mittelbergheim lutherienne nef.jpg",
+      "description": "vue depuis la tribune de l'orgue, à Mittelbergheim",
       "width": 4096,
       "height": 3072,
       "size": 2811607,
@@ -14,12 +15,13 @@
       "author": "Hypsibius",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Mittelbergheim_lutherienne_orgue.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMittelbergheim%20lutherienne%20orgue.jpg",
       "title": "Mittelbergheim lutherienne orgue.jpg",
+      "description": "orgue à Mittelbergheim",
       "width": 4096,
       "height": 3072,
       "size": 3225817,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Mittelbergheim_lutherienne.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMittelbergheim%20lutherienne.jpg",
       "title": "Mittelbergheim lutherienne.jpg",
+      "description": "couronne de l’Avent à Mittelbergheim",
       "width": 4096,
       "height": 3072,
       "size": 3582659,
@@ -46,7 +49,50 @@
   "lieux": [
     {
       "label": "Grand’Rue",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Rue_principale._Mittelbergheim.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARue%20principale.%20Mittelbergheim.jpg",
+          "title": "Rue principale. Mittelbergheim.jpg",
+          "description": "Rue principale de Mittelbergheim",
+          "width": 4000,
+          "height": 3000,
+          "size": 2533463,
+          "timestamp": "2024-11-09T08:35:37Z",
+          "author": "Espirat",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Mittelbergheim%2C_rue_du_village_%28TR%29_-_btv1b10108530t.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMittelbergheim%2C%20rue%20du%20village%20(TR)%20-%20btv1b10108530t.jpg",
+          "title": "Mittelbergheim, rue du village (TR) - btv1b10108530t.jpg",
+          "description": "Sujet : Mittelbergheim\nMITTELBERGHEIM, Vue partielle\nNumérisé par le partenaire\nAppartient à l’ensemble documentaire : BNUStr003\nAppartient à l’ensemble documentaire : BNUStras1\nAppartient à l’ensemble documentaire : BNUStr000\nLangue : sans contenu linguistique\n\nÉditeur : s.n (S.l)",
+          "width": 5180,
+          "height": 3965,
+          "size": 2576503,
+          "timestamp": "2025-03-05T01:20:21Z",
+          "author": "Inconnu",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/2_rue_Montagne_-_Mittelbergheim_%2847961209872%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2%20rue%20Montagne%20-%20Mittelbergheim%20(47961209872).jpg",
+          "title": "2 rue Montagne - Mittelbergheim (47961209872).jpg",
+          "description": "Travail très propre sur cette porte en bois, l'ensemble épouse très bien le mur, semble-t-il, plusieurs fois centenaire.",
+          "width": 4244,
+          "height": 3183,
+          "size": 12259550,
+          "timestamp": "2019-05-30T09:11:29Z",
+          "author": "Valentin R.",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Vignoble du Zotzenberg",
@@ -63,6 +109,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Mittelbergheim_lutherienne_nef.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMittelbergheim%20lutherienne%20nef.jpg",
           "title": "Mittelbergheim lutherienne nef.jpg",
+          "description": "vue depuis la tribune de l'orgue, à Mittelbergheim",
           "width": 4096,
           "height": 3072,
           "size": 2811607,
@@ -70,33 +117,35 @@
           "author": "Hypsibius",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Mittelbergheim_lutherienne_orgue.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMittelbergheim%20lutherienne%20orgue.jpg",
-          "title": "Mittelbergheim lutherienne orgue.jpg",
-          "width": 4096,
-          "height": 3072,
-          "size": 3225817,
-          "timestamp": "2024-12-05T22:06:59Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Mittelbergheim_lutherienne_croix.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMittelbergheim%20lutherienne%20croix.jpg",
+          "title": "Mittelbergheim lutherienne croix.jpg",
+          "description": "Vue du choeur dans l'église luthérienne de Mittelbergheim",
+          "width": 5568,
+          "height": 3712,
+          "size": 1867129,
+          "timestamp": "2024-12-11T11:08:41Z",
           "author": "Hypsibius",
-          "license": "CC BY-SA 4.0",
+          "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Mittelbergheim_lutherienne.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMittelbergheim%20lutherienne.jpg",
-          "title": "Mittelbergheim lutherienne.jpg",
-          "width": 4096,
-          "height": 3072,
-          "size": 3582659,
-          "timestamp": "2024-12-05T22:07:20Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Mittelbergheim_lutherienne_tribune.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMittelbergheim%20lutherienne%20tribune.jpg",
+          "title": "Mittelbergheim lutherienne tribune.jpg",
+          "description": "Vue de la tribune d'orgue dans l'église luthérienne de Mittelbergheim",
+          "width": 5568,
+          "height": 3712,
+          "size": 1867655,
+          "timestamp": "2024-12-11T11:08:45Z",
           "author": "Hypsibius",
-          "license": "CC BY-SA 4.0",
+          "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         }
       ]
     }

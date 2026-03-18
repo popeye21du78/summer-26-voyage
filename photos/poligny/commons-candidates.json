@@ -1,12 +1,13 @@
 {
   "slug": "poligny",
   "nom": "Poligny",
-  "fetchedAt": "2026-03-14T11:30:13.115Z",
+  "fetchedAt": "2026-03-18T16:49:31.651Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Poligny_%2839%29_Coll%C3%A8ge_-_Portail_-_02.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APoligny%20(39)%20Coll%C3%A8ge%20-%20Portail%20-%2002.jpg",
       "title": "Poligny (39) Collège - Portail - 02.jpg",
+      "description": "Portail du Collège de Poligny (39).",
       "width": 3000,
       "height": 2000,
       "size": 2237771,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Couvent_des_Ursulines_%C3%A0_Poligny_%28Jura%29_01.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACouvent%20des%20Ursulines%20%C3%A0%20Poligny%20(Jura)%2001.jpg",
       "title": "Couvent des Ursulines à Poligny (Jura) 01.jpg",
+      "description": "Couvent des Ursulines à Poligny (Jura).",
       "width": 2999,
       "height": 1388,
       "size": 1136356,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Couvent_des_Ursulines_%C3%A0_Poligny_%28Jura%29_10.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACouvent%20des%20Ursulines%20%C3%A0%20Poligny%20(Jura)%2010.jpg",
       "title": "Couvent des Ursulines à Poligny (Jura) 10.jpg",
+      "description": "Couvent des Ursulines à Poligny (Jura).",
       "width": 3000,
       "height": 2000,
       "size": 2918497,
@@ -48,41 +51,44 @@
       "label": "Église Saint-Hippolyte",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Poligny_-_Coll%C3%A9giale_Saint-Hippolyte_-_Chasse_de_sainte_Seraphine_1.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APoligny%20-%20Coll%C3%A9giale%20Saint-Hippolyte%20-%20Chasse%20de%20sainte%20Seraphine%201.jpg",
-          "title": "Poligny - Collégiale Saint-Hippolyte - Chasse de sainte Seraphine 1.jpg",
-          "width": 3264,
-          "height": 2448,
-          "size": 4658862,
-          "timestamp": "2021-01-02T21:09:59Z",
-          "author": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Poligny05-%C3%A9glise.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APoligny05-%C3%A9glise.jpg",
+          "title": "Poligny05-église.jpg",
+          "description": "L'église de Poligny (Hautes-Alpes) vue du nord. Photo faisant apparaître le toit en ardoises grises.",
+          "width": 1140,
+          "height": 800,
+          "size": 413918,
+          "timestamp": "2024-11-04T17:00:50Z",
+          "author": "Fr.Latreille",
+          "license": "CC BY 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 8
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Poligny_-_Coll%C3%A9giale_Saint-Hippolyte_-_Chasse_de_sainte_Seraphine_2.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APoligny%20-%20Coll%C3%A9giale%20Saint-Hippolyte%20-%20Chasse%20de%20sainte%20Seraphine%202.jpg",
-          "title": "Poligny - Collégiale Saint-Hippolyte - Chasse de sainte Seraphine 2.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Vaux-sur-Poligny_-_B%C3%A2timents_actuels_%28ancien_s%C3%A9minaire%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVaux-sur-Poligny%20-%20B%C3%A2timents%20actuels%20(ancien%20s%C3%A9minaire).JPG",
+          "title": "Vaux-sur-Poligny - Bâtiments actuels (ancien séminaire).JPG",
+          "description": "Vaux-sur-Poligny - Bâtiments actuels à l'emplacement de l'ancien prieuré : château (fin XIXe s.), église à tuiles vernissées, ancien séminaire.",
           "width": 4000,
           "height": 3000,
-          "size": 772172,
-          "timestamp": "2021-01-02T21:10:04Z",
-          "author": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "size": 3184589,
+          "timestamp": "2011-03-16T09:52:24Z",
+          "author": "PRA",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Poligny_-_Coll%C3%A9giale_Saint-Hippolyte_111.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APoligny%20-%20Coll%C3%A9giale%20Saint-Hippolyte%20111.jpg",
-          "title": "Poligny - Collégiale Saint-Hippolyte 111.jpg",
-          "width": 4000,
-          "height": 2992,
-          "size": 5846474,
-          "timestamp": "2021-01-02T21:11:17Z",
-          "author": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Poligny_%2839%29_%C3%89glise_Notre-Dame_de_Mouthier-le-Vieillard_-_Ext%C3%A9rieur_-_03.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APoligny%20(39)%20%C3%89glise%20Notre-Dame%20de%20Mouthier-le-Vieillard%20-%20Ext%C3%A9rieur%20-%2003.jpg",
+          "title": "Poligny (39) Église Notre-Dame de Mouthier-le-Vieillard - Extérieur - 03.jpg",
+          "description": "Extérieur de l'église Notre-Dame de Mouthier-le-Vieillard à Poligny (39).",
+          "width": 2040,
+          "height": 1400,
+          "size": 946738,
+          "timestamp": "2021-06-20T05:30:14Z",
+          "author": "GO69",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         }
@@ -92,57 +98,90 @@
       "label": "Place des Déportés",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Poligny_%28Jura%29_Place_des_D%C3%A9port%C3%A9s_5-09-2017_11-23-45.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APoligny%20(Jura)%20Place%20des%20D%C3%A9port%C3%A9s%205-09-2017%2011-23-45.JPG",
-          "title": "Poligny (Jura) Place des Déportés 5-09-2017 11-23-45.JPG",
-          "width": 5995,
-          "height": 3371,
-          "size": 18282626,
-          "timestamp": "2017-10-03T15:34:21Z",
-          "author": "Paul Hermans",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Place_d%C3%A9port%C3%A9s_Poligny_001.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlace%20d%C3%A9port%C3%A9s%20Poligny%20001.jpg",
-          "title": "Place déportés Poligny 001.jpg",
-          "width": 1600,
-          "height": 1200,
-          "size": 539028,
-          "timestamp": "2017-10-21T18:05:28Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Ch%C3%A2teau_de_Poligny_%28Jura%29_01.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Poligny%20(Jura)%2001.JPG",
+          "title": "Château de Poligny (Jura) 01.JPG",
+          "description": "Château de Poligny (Jura), fresque de l'église du monastère des Clarisses de Poligny",
+          "width": 2048,
+          "height": 1536,
+          "size": 693983,
+          "timestamp": "2015-03-20T21:31:17Z",
           "author": "Arnaud 25",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Place_d%C3%A9port%C3%A9s_Poligny_002.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlace%20d%C3%A9port%C3%A9s%20Poligny%20002.jpg",
-          "title": "Place déportés Poligny 002.jpg",
-          "width": 1600,
-          "height": 1200,
-          "size": 627538,
-          "timestamp": "2017-10-21T18:07:06Z",
-          "author": "Arnaud 25",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Poligny._Une_ruelle.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APoligny.%20Une%20ruelle.jpg",
+          "title": "Poligny. Une ruelle.jpg",
+          "description": "Une ruelle",
+          "width": 4000,
+          "height": 3000,
+          "size": 5082480,
+          "timestamp": "2021-06-05T12:18:13Z",
+          "author": "Espirat",
           "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Poligny%2C_l%27%C3%A9glise_de_Mouthier-le-Vieillard.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APoligny%2C%20l'%C3%A9glise%20de%20Mouthier-le-Vieillard.jpg",
+          "title": "Poligny, l'église de Mouthier-le-Vieillard.jpg",
+          "description": "Vue d'ensemble de l'église de Mouthier-le-Vieillard et de ses alentours, dans la commune française de Poligny (Jura), depuis le belvédère de la Croix du Dan.",
+          "width": 6016,
+          "height": 4000,
+          "size": 1470854,
+          "timestamp": "2023-07-22T20:30:34Z",
+          "author": "Wikipedro",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
+    },
+    {
+      "label": "Sentier du Trou de la Lune",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Sentier_depuis_la_crois_du_Dan_vers_Poligny.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASentier%20depuis%20la%20crois%20du%20Dan%20vers%20Poligny.jpg",
+          "title": "Sentier depuis la crois du Dan vers Poligny.jpg",
+          "description": "Sentier depuis la crois du Dan vers Poligny , Jura, France",
+          "width": 3000,
+          "height": 4000,
+          "size": 6194158,
+          "timestamp": "2025-11-23T14:03:33Z",
+          "author": "Plindenbaum",
+          "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
         }
       ]
     },
     {
-      "label": "Sentier du Trou de la Lune",
-      "photos": []
-    },
-    {
       "label": "Maison du Comté",
       "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Poligny_%2839%29_H%C3%B4tel_Regnauldot_-_Ext%C3%A9rieur_-_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APoligny%20(39)%20H%C3%B4tel%20Regnauldot%20-%20Ext%C3%A9rieur%20-%2002.jpg",
+          "title": "Poligny (39) Hôtel Regnauldot - Extérieur - 02.jpg",
+          "description": "Extérieur de l'Hôtel Regnauldot à Poligny (39).",
+          "width": 3000,
+          "height": 2000,
+          "size": 2249999,
+          "timestamp": "2022-02-09T19:52:20Z",
+          "author": "GO69",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Poligny%2C_la_maison_du_Comt%C3%A9.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APoligny%2C%20la%20maison%20du%20Comt%C3%A9.jpg",
           "title": "Poligny, la maison du Comté.jpg",
+          "description": "Vue sur la maison du Comté depuis le belvédère de la Croix du Dan, à Poligny.",
           "width": 5657,
           "height": 3761,
           "size": 1523922,
@@ -153,17 +192,18 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/The_Residence_of_the_Count_of_Wassenaar%2C_Lord_of_Obdam%2C_Kneuterdijk%2C_The_Hague.png",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AThe%20Residence%20of%20the%20Count%20of%20Wassenaar%2C%20Lord%20of%20Obdam%2C%20Kneuterdijk%2C%20The%20Hague.png",
-          "title": "The Residence of the Count of Wassenaar, Lord of Obdam, Kneuterdijk, The Hague.png",
-          "width": 1200,
-          "height": 991,
-          "size": 979496,
-          "timestamp": "2015-07-22T11:47:09Z",
-          "author": "R. Boitet Excud. Cum Privil.",
-          "license": "Public domain",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Poligny-maisons.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APoligny-maisons.jpg",
+          "title": "Poligny-maisons.jpg",
+          "description": "Le village de Poligny le long de la route du Noyer",
+          "width": 1250,
+          "height": 785,
+          "size": 422962,
+          "timestamp": "2026-02-17T17:13:38Z",
+          "author": "Fr.Latreille",
+          "license": "CC BY 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         }
       ]
     }

@@ -1,12 +1,13 @@
 {
   "slug": "delle",
   "nom": "Delle",
-  "fetchedAt": "2026-03-13T14:03:38.408Z",
+  "fetchedAt": "2026-03-16T12:39:29.107Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Rue_de_la_Paix_%C3%A0_Delle%2C_France.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARue%20de%20la%20Paix%20%C3%A0%20Delle%2C%20France.jpg",
       "title": "Rue de la Paix à Delle, France.jpg",
+      "description": "Rue de la Paix à Delle, France",
       "width": 4200,
       "height": 2800,
       "size": 7974446,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Ecole_primaires_des_marronniers_a_Delle_%282019%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEcole%20primaires%20des%20marronniers%20a%20Delle%20(2019).jpg",
       "title": "Ecole primaires des marronniers a Delle (2019).jpg",
+      "description": "Primary school in Delle, prefecture Belfort, France",
       "width": 4800,
       "height": 2700,
       "size": 8673536,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Delle%2C_Temple_luth%C3%A9rien.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADelle%2C%20Temple%20luth%C3%A9rien.jpg",
       "title": "Delle, Temple luthérien.jpg",
+      "description": "Le temple luthérienne à Delle",
       "width": 3002,
       "height": 3554,
       "size": 1195515,
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Delle%2C_%C3%89glise_Saint-L%C3%A9ger_1.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADelle%2C%20%C3%89glise%20Saint-L%C3%A9ger%201.jpg",
           "title": "Delle, Église Saint-Léger 1.jpg",
+          "description": "L'église Saint-Léger à Delle, côté ouest",
           "width": 4041,
           "height": 6192,
           "size": 2317497,
@@ -64,23 +68,11 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Delle_Saint-L%C3%A9ger_Sacr%C3%A9_Coeur_170.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADelle%20Saint-L%C3%A9ger%20Sacr%C3%A9%20Coeur%20170.jpg",
           "title": "Delle Saint-Léger Sacré Coeur 170.jpg",
+          "description": "Kirche Saint-Léger (Leodegar) in Delle im Département Territoire de Belfort (Franche-Comté/Frankreich), Bleiglasfenster (Herz Jesu) mit der Signatur: BESSAC PEINTRE PONT D'AIN, AIN (Ausschnitt)",
           "width": 3339,
           "height": 2520,
           "size": 724554,
           "timestamp": "2015-08-10T22:06:21Z",
-          "author": "GFreihalter",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Delle_Saint-L%C3%A9ger_171.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADelle%20Saint-L%C3%A9ger%20171.JPG",
-          "title": "Delle Saint-Léger 171.JPG",
-          "width": 3576,
-          "height": 2682,
-          "size": 534474,
-          "timestamp": "2015-08-10T22:09:17Z",
           "author": "GFreihalter",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -94,11 +86,97 @@
     },
     {
       "label": "Parc du Château Thiébaud",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Ch%C3%A2teau_Delle.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20Delle.jpg",
+          "title": "Château Delle.jpg",
+          "description": "Château de Delle",
+          "width": 2592,
+          "height": 1944,
+          "size": 2508631,
+          "timestamp": "2016-11-20T15:21:26Z",
+          "author": "Sacamol",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Alban_chambon%2C_decorazione_in_marmo_e_ceramica%2C_dal_castello_reale_delle_ardenne%2C_houyet%2C_1905_ca._01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlban%20chambon%2C%20decorazione%20in%20marmo%20e%20ceramica%2C%20dal%20castello%20reale%20delle%20ardenne%2C%20houyet%2C%201905%20ca.%2001.jpg",
+          "title": "Alban chambon, decorazione in marmo e ceramica, dal castello reale delle ardenne, houyet, 1905 ca. 01.jpg",
+          "description": "Faience from the Château Royal d'Ardenne in the Fin-de-Siècle Museum",
+          "width": 3324,
+          "height": 1344,
+          "size": 2774740,
+          "timestamp": "2016-05-28T12:13:16Z",
+          "author": "Sailko",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Prez-vers-Nor%C3%A9az._Castello_di_Prez%2C_dettaglio_delle_finestre.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APrez-vers-Nor%C3%A9az.%20Castello%20di%20Prez%2C%20dettaglio%20delle%20finestre.jpg",
+          "title": "Prez-vers-Noréaz. Castello di Prez, dettaglio delle finestre.jpg",
+          "description": "",
+          "width": 3000,
+          "height": 2053,
+          "size": 895930,
+          "timestamp": "2020-12-27T17:44:39Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q2847548\" class=\"extiw\" title=\"d:Q2847548\"><span title=\"Swiss professor, historian, art historian and photographer (1928-2012)\">André Corboz</span></a></bdi>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Square du Souvenir",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Eremo_delle_Carceri_esterno.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEremo%20delle%20Carceri%20esterno.jpg",
+          "title": "Eremo delle Carceri esterno.jpg",
+          "description": "Eremo delle carceri",
+          "width": 2048,
+          "height": 1536,
+          "size": 465226,
+          "timestamp": "2020-05-27T19:09:16Z",
+          "author": "Andreas Lattmann",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Perugia%2C_largo_Cacciatori_delle_Alpi_con_monumento_a_Garibaldi.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APerugia%2C%20largo%20Cacciatori%20delle%20Alpi%20con%20monumento%20a%20Garibaldi.jpg",
+          "title": "Perugia, largo Cacciatori delle Alpi con monumento a Garibaldi.jpg",
+          "description": "Perugia, largo Cacciatori delle Alpi con monumento a Garibaldi",
+          "width": 4256,
+          "height": 2839,
+          "size": 2332680,
+          "timestamp": "2023-07-20T19:38:02Z",
+          "author": "Naioli",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Piazza_S._Pietro_e_il_suo_colonnato%2C_1970_-_Archivio_Accademia_delle_Scienze_Torino%2C_Millon_64_05_083.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APiazza%20S.%20Pietro%20e%20il%20suo%20colonnato%2C%201970%20-%20Archivio%20Accademia%20delle%20Scienze%20Torino%2C%20Millon%2064%2005%20083.jpg",
+          "title": "Piazza S. Pietro e il suo colonnato, 1970 - Archivio Accademia delle Scienze Torino, Millon 64 05 083.jpg",
+          "description": "Piazza S. Pietro e il suo colonnato, 1970 - [Incisione]",
+          "width": 4952,
+          "height": 3254,
+          "size": 3575280,
+          "timestamp": "2023-08-02T14:21:36Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q18934991\" class=\"extiw\" title=\"d:Q18934991\"><span title=\"Art historian (1927-2018)\">Henry A. Millon</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

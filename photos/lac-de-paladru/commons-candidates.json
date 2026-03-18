@@ -1,12 +1,13 @@
 {
   "slug": "lac-de-paladru",
   "nom": "Lac de Paladru",
-  "fetchedAt": "2026-03-13T15:14:18.450Z",
+  "fetchedAt": "2026-03-16T19:25:56.015Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Place_C%C3%A9lestin_Adolphe_P%C3%A9goud_-_Montferrat_%28FR38%29_-_2025-08-26_-_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlace%20C%C3%A9lestin%20Adolphe%20P%C3%A9goud%20-%20Montferrat%20(FR38)%20-%202025-08-26%20-%201.jpg",
       "title": "Place Célestin Adolphe Pégoud - Montferrat (FR38) - 2025-08-26 - 1.jpg",
+      "description": "Place Célestin Adolphe Pégoud, Montferrat en Isère.",
       "width": 5712,
       "height": 4284,
       "size": 8383011,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Place_C%C3%A9lestin_Adolphe_P%C3%A9goud_-_Montferrat_%28FR38%29_-_2025-08-26_-_2.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlace%20C%C3%A9lestin%20Adolphe%20P%C3%A9goud%20-%20Montferrat%20(FR38)%20-%202025-08-26%20-%202.jpg",
       "title": "Place Célestin Adolphe Pégoud - Montferrat (FR38) - 2025-08-26 - 2.jpg",
+      "description": "Place Célestin Adolphe Pégoud, Montferrat en Isère.",
       "width": 4032,
       "height": 3024,
       "size": 3530798,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Plaque_Place_C%C3%A9lestin_Adolphe_P%C3%A9goud_-_Montferrat_%28FR38%29_-_2025-08-26_-_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlaque%20Place%20C%C3%A9lestin%20Adolphe%20P%C3%A9goud%20-%20Montferrat%20(FR38)%20-%202025-08-26%20-%201.jpg",
       "title": "Plaque Place Célestin Adolphe Pégoud - Montferrat (FR38) - 2025-08-26 - 1.jpg",
+      "description": "Plaque de la place Célestin Adolphe Pégoud, Montferrat en Isère.",
       "width": 3240,
       "height": 1787,
       "size": 1391290,
@@ -54,7 +57,50 @@
     },
     {
       "label": "Plage du Pin",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Mus%C3%A9e_depuis_la_plage_de_Paladru.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e%20depuis%20la%20plage%20de%20Paladru.jpg",
+          "title": "Musée depuis la plage de Paladru.jpg",
+          "description": "Musée depuis la plage de Paladru en avril 2022",
+          "width": 3975,
+          "height": 3048,
+          "size": 4519870,
+          "timestamp": "2022-04-18T08:58:30Z",
+          "author": "Jean-Paul Corlin",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Lac_de_paladru_%28plage_de_Charavines%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALac%20de%20paladru%20(plage%20de%20Charavines).jpg",
+          "title": "Lac de paladru (plage de Charavines).jpg",
+          "description": "Lac de paladru (plage de Charavines)",
+          "width": 2592,
+          "height": 1944,
+          "size": 1829184,
+          "timestamp": "2022-08-07T08:20:23Z",
+          "author": "Jean-Paul Corlin",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Plage_du_lac_de_Paladru._2015-07-23.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlage%20du%20lac%20de%20Paladru.%202015-07-23.JPG",
+          "title": "Plage du lac de Paladru. 2015-07-23.JPG",
+          "description": "Plage Sud du lac de Paladru.",
+          "width": 4000,
+          "height": 3000,
+          "size": 2482436,
+          "timestamp": "2015-07-27T07:47:43Z",
+          "author": "Espirat",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Passerelles du marais de Charavines",

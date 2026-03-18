@@ -1,12 +1,13 @@
 {
   "slug": "rions",
   "nom": "Rions",
-  "fetchedAt": "2026-03-14T11:47:06.974Z",
+  "fetchedAt": "2026-03-18T17:36:31.650Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Rions_-_Place_de_la_Gare_-_Circuit_D%C3%A9partementale%2C_Boucle_Locale.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARions%20-%20Place%20de%20la%20Gare%20-%20Circuit%20D%C3%A9partementale%2C%20Boucle%20Locale.jpg",
       "title": "Rions - Place de la Gare - Circuit Départementale, Boucle Locale.jpg",
+      "description": "Circuit des Bords de Garonne à 1 Km;\nBoucle de Rions 6 Km;\n\nCentre bourg à 400m;",
       "width": 2048,
       "height": 1152,
       "size": 899948,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Rions_-_Halle_-_bo%C3%AEte_%C3%A0_livres.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARions%20-%20Halle%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
       "title": "Rions - Halle - boîte à livres.jpg",
+      "description": "Boîte à livres à Rions",
       "width": 2500,
       "height": 1408,
       "size": 395259,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/%C3%89glise_Saint-Seurin_de_Rions_-_J-A_Brutails_-_Universit%C3%A9_Bordeaux_Montaigne_-_0164.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-Seurin%20de%20Rions%20-%20J-A%20Brutails%20-%20Universit%C3%A9%20Bordeaux%20Montaigne%20-%200164.jpg",
       "title": "Église Saint-Seurin de Rions - J-A Brutails - Université Bordeaux Montaigne - 0164.jpg",
+      "description": "Église Saint-Seurin de Rions; Voute et clef de voute",
       "width": 4504,
       "height": 3143,
       "size": 1359925,
@@ -55,6 +58,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/%C3%89glise_Saint-Seurin_de_Rions_-_J-A_Brutails_-_Universit%C3%A9_Bordeaux_Montaigne_-_0164.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-Seurin%20de%20Rions%20-%20J-A%20Brutails%20-%20Universit%C3%A9%20Bordeaux%20Montaigne%20-%200164.jpg",
           "title": "Église Saint-Seurin de Rions - J-A Brutails - Université Bordeaux Montaigne - 0164.jpg",
+          "description": "Église Saint-Seurin de Rions; Voute et clef de voute",
           "width": 4504,
           "height": 3143,
           "size": 1359925,
@@ -65,9 +69,24 @@
           "score": 6
         },
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Villenave-de-Rions_-_%C3%A9glise_5.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVillenave-de-Rions%20-%20%C3%A9glise%205.jpg",
+          "title": "Villenave-de-Rions - église 5.jpg",
+          "description": "Villenave-de-Rions – église",
+          "width": 972,
+          "height": 635,
+          "size": 676115,
+          "timestamp": "2020-08-21T17:54:28Z",
+          "author": "<div class=\"fn value\">\n<span lang=\"en\">Anonymous</span><span style=\"display:none\">Unknown author</span></div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Rions_%C3%89glise_Saint-Seurin_04.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARions%20%C3%89glise%20Saint-Seurin%2004.jpg",
           "title": "Rions Église Saint-Seurin 04.jpg",
+          "description": "Saint Seurin church of Rions (Gironde, France)",
           "width": 2576,
           "height": 1932,
           "size": 1057508,
@@ -76,29 +95,74 @@
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 5
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/%C3%89glise_Saint-Seurin_de_Rions.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-Seurin%20de%20Rions.jpg",
-          "title": "Église Saint-Seurin de Rions.jpg",
-          "width": 2448,
-          "height": 3264,
-          "size": 2319281,
-          "timestamp": "2016-09-27T18:47:06Z",
-          "author": "Fran Roy",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
         }
       ]
     },
     {
       "label": "Fontaine des Anglais",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Rions_Fontaine_de_la_Vierge.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARions%20Fontaine%20de%20la%20Vierge.jpg",
+          "title": "Rions Fontaine de la Vierge.jpg",
+          "description": "Fountain of the Virgin in Rions (Gironde, France)",
+          "width": 1773,
+          "height": 2368,
+          "size": 758024,
+          "timestamp": "2012-11-16T22:31:10Z",
+          "author": "Henry Salomé",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     },
     {
       "label": "Rue du Port",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Rions_-_rue_du_Lyhan_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARions%20-%20rue%20du%20Lyhan%201.jpg",
+          "title": "Rions - rue du Lyhan 1.jpg",
+          "description": "Rions (Gironde)",
+          "width": 809,
+          "height": 515,
+          "size": 257215,
+          "timestamp": "2018-04-08T17:19:21Z",
+          "author": "A. Dando",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Rions_-_rue_du_Lyhan_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARions%20-%20rue%20du%20Lyhan%202.jpg",
+          "title": "Rions - rue du Lyhan 2.jpg",
+          "description": "Rions (Gironde)",
+          "width": 812,
+          "height": 528,
+          "size": 293770,
+          "timestamp": "2018-04-08T17:19:22Z",
+          "author": "A. Huc",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Rions_-_rue_de_Lavidon_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARions%20-%20rue%20de%20Lavidon%201.jpg",
+          "title": "Rions - rue de Lavidon 1.jpg",
+          "description": "Rions (Gironde)",
+          "width": 995,
+          "height": 648,
+          "size": 135408,
+          "timestamp": "2018-04-08T17:19:19Z",
+          "author": "A. Dando",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     }
   ]
 }

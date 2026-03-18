@@ -1,12 +1,13 @@
 {
   "slug": "cirey-sur-blaise",
   "nom": "Cirey-sur-Blaise",
-  "fetchedAt": "2026-03-13T13:32:59.219Z",
+  "fetchedAt": "2026-03-16T12:03:02.800Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Ch%C3%A2teau_de_Cirey_2023_-_100.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Cirey%202023%20-%20100.jpg",
       "title": "Château de Cirey 2023 - 100.jpg",
+      "description": "Château de Cirey",
       "width": 4032,
       "height": 3024,
       "size": 4212966,
@@ -14,12 +15,13 @@
       "author": "Chatsam",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Ch%C3%A2teau_de_Cirey_2023_-_101.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Cirey%202023%20-%20101.jpg",
       "title": "Château de Cirey 2023 - 101.jpg",
+      "description": "Château de Cirey",
       "width": 4032,
       "height": 3024,
       "size": 4343372,
@@ -27,12 +29,13 @@
       "author": "Chatsam",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Ch%C3%A2teau_de_Cirey_2023_-_112.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Cirey%202023%20-%20112.jpg",
       "title": "Château de Cirey 2023 - 112.jpg",
+      "description": "Château de Cirey",
       "width": 4032,
       "height": 3024,
       "size": 3350754,
@@ -40,7 +43,7 @@
       "author": "Chatsam",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     }
   ],
   "lieux": [
@@ -48,49 +51,95 @@
       "label": "Château de Cirey",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Cirey-sur-Blaise_003.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACirey-sur-Blaise%20003.jpg",
-          "title": "Cirey-sur-Blaise 003.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Ch%C3%A2teau_de_Cirey_001.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Cirey%20001.jpg",
+          "title": "Château de Cirey 001.jpg",
+          "description": "Château de Cirey",
           "width": 6000,
           "height": 4000,
-          "size": 6265314,
-          "timestamp": "2023-08-24T17:18:42Z",
+          "size": 6746047,
+          "timestamp": "2023-08-24T17:24:54Z",
           "author": "Chatsam",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Cirey-sur-Blaise_002.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACirey-sur-Blaise%20002.jpg",
-          "title": "Cirey-sur-Blaise 002.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Ch%C3%A2teau_de_Cirey_002.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Cirey%20002.jpg",
+          "title": "Château de Cirey 002.jpg",
+          "description": "Château de Cirey - pavillon d'entrée",
           "width": 6000,
           "height": 4000,
-          "size": 6093875,
-          "timestamp": "2023-08-24T17:18:42Z",
+          "size": 6904199,
+          "timestamp": "2023-08-24T17:24:55Z",
           "author": "Chatsam",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Cirey-sur-Blaise_005.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACirey-sur-Blaise%20005.jpg",
-          "title": "Cirey-sur-Blaise 005.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Ch%C3%A2teau_de_Cirey_005.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Cirey%20005.jpg",
+          "title": "Château de Cirey 005.jpg",
+          "description": "Château de Cirey - écurie",
           "width": 6000,
           "height": 4000,
-          "size": 6187082,
-          "timestamp": "2023-08-24T17:18:44Z",
+          "size": 6832502,
+          "timestamp": "2023-08-24T17:24:57Z",
           "author": "Chatsam",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         }
       ]
     },
     {
       "label": "Église Saint-Rémy",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/%C3%89glise_Saint-Pierre-%C3%A8s-Liens_de_Cirey-sur-Blaise_100.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-Pierre-%C3%A8s-Liens%20de%20Cirey-sur-Blaise%20100.jpg",
+          "title": "Église Saint-Pierre-ès-Liens de Cirey-sur-Blaise 100.jpg",
+          "description": "Église Saint-Pierre-ès-Liens de Cirey-sur-Blaise‎",
+          "width": 3024,
+          "height": 4032,
+          "size": 2818181,
+          "timestamp": "2023-10-16T19:12:05Z",
+          "author": "Chatsam",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Cirey-sur-Blaise_Eglise.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACirey-sur-Blaise%20Eglise.jpg",
+          "title": "Cirey-sur-Blaise Eglise.jpg",
+          "description": "L'église",
+          "width": 2822,
+          "height": 4481,
+          "size": 5368990,
+          "timestamp": "2018-08-18T03:59:28Z",
+          "author": "René Hourdry",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Cirey-sur-Blaise_Monument_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACirey-sur-Blaise%20Monument%201.jpg",
+          "title": "Cirey-sur-Blaise Monument 1.jpg",
+          "description": "Le monument aux morts",
+          "width": 3414,
+          "height": 3847,
+          "size": 9898138,
+          "timestamp": "2018-08-18T03:59:29Z",
+          "author": "René Hourdry",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Vieux lavoir de Cirey",
@@ -100,9 +149,24 @@
       "label": "Pont sur la Blaise",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Pont_de_cirey_%C3%A0_publier.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20de%20cirey%20%C3%A0%20publier.jpg",
+          "title": "Pont de cirey à publier.jpg",
+          "description": "Pont de Cirey-sur-Blaise (Haute-Marne).",
+          "width": 4825,
+          "height": 3063,
+          "size": 2260662,
+          "timestamp": "2016-05-02T19:14:47Z",
+          "author": "Pentaxiste",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Cirey-sur-Blaise_Pont.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACirey-sur-Blaise%20Pont.jpg",
           "title": "Cirey-sur-Blaise Pont.jpg",
+          "description": "Le pont sur la Blaise.",
           "width": 5184,
           "height": 3456,
           "size": 8018012,
@@ -111,6 +175,20 @@
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/D%C3%A9tail_de_Cirey-sur-Blaise_03.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AD%C3%A9tail%20de%20Cirey-sur-Blaise%2003.jpg",
+          "title": "Détail de Cirey-sur-Blaise 03.jpg",
+          "description": "Cirey-sur-Blaise‎ détail pont",
+          "width": 3024,
+          "height": 4032,
+          "size": 3279020,
+          "timestamp": "2023-10-16T19:13:49Z",
+          "author": "Chatsam",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 3
         }
       ]
     }

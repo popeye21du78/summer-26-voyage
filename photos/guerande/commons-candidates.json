@@ -1,25 +1,13 @@
 {
   "slug": "guerande",
   "nom": "Guérande",
-  "fetchedAt": "2026-03-13T14:40:35.649Z",
+  "fetchedAt": "2026-03-16T13:59:06.558Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Maison%2C_2_rue_Honor%C3%A9-de-Balzac%2C_Gu%C3%A9rande_-_Fa%C3%A7ade.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison%2C%202%20rue%20Honor%C3%A9-de-Balzac%2C%20Gu%C3%A9rande%20-%20Fa%C3%A7ade.jpg",
-      "title": "Maison, 2 rue Honoré-de-Balzac, Guérande - Façade.jpg",
-      "width": 4032,
-      "height": 2268,
-      "size": 4956748,
-      "timestamp": "2021-07-22T18:02:23Z",
-      "author": "Koreller",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Coll%C3%A9giale_Saint-Aubin_de_Gu%C3%A9rande_place_c%C3%B4t%C3%A9_sud.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AColl%C3%A9giale%20Saint-Aubin%20de%20Gu%C3%A9rande%20place%20c%C3%B4t%C3%A9%20sud.jpg",
       "title": "Collégiale Saint-Aubin de Guérande place côté sud.jpg",
+      "description": "Collégiale Saint-Aubin in Guérande, France, view from the place in the south, in July 2021",
       "width": 4608,
       "height": 3072,
       "size": 6682819,
@@ -27,20 +15,35 @@
       "author": "Seb35",
       "license": "CC0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Rue_Vannetaise_%C3%A0_Gu%C3%A9rande.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARue%20Vannetaise%20%C3%A0%20Gu%C3%A9rande.jpg",
-      "title": "Rue Vannetaise à Guérande.jpg",
-      "width": 4608,
-      "height": 3072,
-      "size": 6066272,
-      "timestamp": "2021-08-22T18:40:33Z",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Coll%C3%A9giale_Saint-Aubin_de_Gu%C3%A9rande_c%C3%B4t%C3%A9_sud.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AColl%C3%A9giale%20Saint-Aubin%20de%20Gu%C3%A9rande%20c%C3%B4t%C3%A9%20sud.jpg",
+      "title": "Collégiale Saint-Aubin de Guérande côté sud.jpg",
+      "description": "Collégiale Saint-Aubin in Guérande, France, view from south, in July 2021",
+      "width": 3072,
+      "height": 4608,
+      "size": 5559977,
+      "timestamp": "2021-08-22T18:09:11Z",
       "author": "Seb35",
       "license": "CC0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 8
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Coll%C3%A9giale_Saint-Aubin_de_Gu%C3%A9rande%2C_vue_de_l%27est.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AColl%C3%A9giale%20Saint-Aubin%20de%20Gu%C3%A9rande%2C%20vue%20de%20l'est.jpg",
+      "title": "Collégiale Saint-Aubin de Guérande, vue de l'est.jpg",
+      "description": "Collégiale Saint-Aubin de Guérande, vue de l'est, en juillet 2021",
+      "width": 3072,
+      "height": 4608,
+      "size": 5222934,
+      "timestamp": "2021-08-23T20:28:38Z",
+      "author": "Seb35",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
     }
   ],
   "lieux": [
@@ -48,49 +51,81 @@
       "label": "Porte Saint-Michel",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Gu%C3%A9rande_-_Porte_Saint-Michel_2021_01.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGu%C3%A9rande%20-%20Porte%20Saint-Michel%202021%2001.jpg",
-          "title": "Guérande - Porte Saint-Michel 2021 01.jpg",
-          "width": 4000,
-          "height": 3000,
-          "size": 4992000,
-          "timestamp": "2021-07-19T16:40:44Z",
-          "author": "Tsaag Valren",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/D%C3%A9chargement_d%27une_turbine_du_champ_%C3%A9olien_de_Gu%C3%A9rande_dans_le_port_de_St_Nazaire.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AD%C3%A9chargement%20d'une%20turbine%20du%20champ%20%C3%A9olien%20de%20Gu%C3%A9rande%20dans%20le%20port%20de%20St%20Nazaire.jpg",
+          "title": "Déchargement d'une turbine du champ éolien de Guérande dans le port de St Nazaire.jpg",
+          "description": "A l'arrière plan, la grue du navire de transport vient de déposer la turbine sur son ber. La grue est encore équipée du palonnier. Au premier plan de gauche à droite on voit des sections des piles des futurs éoliennes, et des bers vides pour en accueillir de nouveaux. \nAu premier plan au milieu à gauche on distingue une plateforme automotrice (verte) qui sert à déplacer les éléments, et à l'arrière plan  à droite une des grues mobiles (verte) qui permet de manipuler les éléments... Cette \"petite",
+          "width": 2560,
+          "height": 1440,
+          "size": 1321679,
+          "timestamp": "2021-06-09T07:47:02Z",
+          "author": "Hellotheworld",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Gu%C3%A9rande_-_Porte_Saint-Michel_2021_02.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGu%C3%A9rande%20-%20Porte%20Saint-Michel%202021%2002.jpg",
-          "title": "Guérande - Porte Saint-Michel 2021 02.jpg",
-          "width": 4000,
-          "height": 3000,
-          "size": 4673536,
-          "timestamp": "2021-07-19T16:40:46Z",
-          "author": "Tsaag Valren",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/La_Baule%2C_La_Turballe%2C_Gu%C3%A9rande.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Baule%2C%20La%20Turballe%2C%20Gu%C3%A9rande.jpg",
+          "title": "La Baule, La Turballe, Guérande.jpg",
+          "description": "La Baule Beach // La Turballe habour // Guérande city walls",
+          "width": 600,
+          "height": 1180,
+          "size": 669379,
+          "timestamp": "2010-08-24T13:34:31Z",
+          "author": "Goodcityfordreamers",
+          "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Gu%C3%A9rande_-_Porte_Saint-Michel_2021_03.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGu%C3%A9rande%20-%20Porte%20Saint-Michel%202021%2003.jpg",
-          "title": "Guérande - Porte Saint-Michel 2021 03.jpg",
-          "width": 4000,
-          "height": 3000,
-          "size": 5107712,
-          "timestamp": "2021-07-19T16:40:47Z",
-          "author": "Tsaag Valren",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 2
         }
       ]
     },
     {
       "label": "Chemin de ronde des remparts",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Premi%C3%A8re_partie_des_remparts_ext%C3%A9rieurs_de_Gu%C3%A9rande_%C3%A0_gauche_de_la_porte_Bizienne.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APremi%C3%A8re%20partie%20des%20remparts%20ext%C3%A9rieurs%20de%20Gu%C3%A9rande%20%C3%A0%20gauche%20de%20la%20porte%20Bizienne.jpg",
+          "title": "Première partie des remparts extérieurs de Guérande à gauche de la porte Bizienne.jpg",
+          "description": "First part of the external ramparts of Guérande, France, on left of the Gate Bizienne and view of the Gate Bizienne, in July 2021",
+          "width": 4608,
+          "height": 3072,
+          "size": 6576339,
+          "timestamp": "2021-08-22T20:16:45Z",
+          "author": "Seb35",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Deuxi%C3%A8me_partie_des_remparts_ext%C3%A9rieurs_de_Gu%C3%A9rande_%C3%A0_droite_de_la_porte_Vannetaise.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADeuxi%C3%A8me%20partie%20des%20remparts%20ext%C3%A9rieurs%20de%20Gu%C3%A9rande%20%C3%A0%20droite%20de%20la%20porte%20Vannetaise.jpg",
+          "title": "Deuxième partie des remparts extérieurs de Guérande à droite de la porte Vannetaise.jpg",
+          "description": "Second part of the external ramparts of Guérande, France, on right of the Gate Vannetaise",
+          "width": 4608,
+          "height": 3072,
+          "size": 5507279,
+          "timestamp": "2021-08-22T20:16:07Z",
+          "author": "Seb35",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Deuxi%C3%A8me_partie_des_remparts_ext%C3%A9rieurs_de_Gu%C3%A9rande_%C3%A0_gauche_de_la_porte_Bizienne.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADeuxi%C3%A8me%20partie%20des%20remparts%20ext%C3%A9rieurs%20de%20Gu%C3%A9rande%20%C3%A0%20gauche%20de%20la%20porte%20Bizienne.jpg",
+          "title": "Deuxième partie des remparts extérieurs de Guérande à gauche de la porte Bizienne.jpg",
+          "description": "Second part of the external ramparts of Guérande, France, on left of the Gate Bizenne, in July 2021",
+          "width": 4608,
+          "height": 3072,
+          "size": 6641466,
+          "timestamp": "2021-08-22T20:16:08Z",
+          "author": "Seb35",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Collégiale Saint-Aubin",
@@ -99,6 +134,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Coll%C3%A9giale_Saint-Aubin_de_Gu%C3%A9rande_place_c%C3%B4t%C3%A9_sud.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AColl%C3%A9giale%20Saint-Aubin%20de%20Gu%C3%A9rande%20place%20c%C3%B4t%C3%A9%20sud.jpg",
           "title": "Collégiale Saint-Aubin de Guérande place côté sud.jpg",
+          "description": "Collégiale Saint-Aubin in Guérande, France, view from the place in the south, in July 2021",
           "width": 4608,
           "height": 3072,
           "size": 6682819,
@@ -106,25 +142,13 @@
           "author": "Seb35",
           "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Gu%C3%A9rande_Saint-Aubin_905.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGu%C3%A9rande%20Saint-Aubin%20905.jpg",
-          "title": "Guérande Saint-Aubin 905.jpg",
-          "width": 4896,
-          "height": 3264,
-          "size": 11203806,
-          "timestamp": "2015-09-10T20:23:53Z",
-          "author": "GFreihalter",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Coll%C3%A9giale_Saint-Aubin_de_Gu%C3%A9rande_c%C3%B4t%C3%A9_sud.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AColl%C3%A9giale%20Saint-Aubin%20de%20Gu%C3%A9rande%20c%C3%B4t%C3%A9%20sud.jpg",
           "title": "Collégiale Saint-Aubin de Guérande côté sud.jpg",
+          "description": "Collégiale Saint-Aubin in Guérande, France, view from south, in July 2021",
           "width": 3072,
           "height": 4608,
           "size": 5559977,
@@ -132,13 +156,70 @@
           "author": "Seb35",
           "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Coll%C3%A9giale_Saint-Aubin_de_Gu%C3%A9rande%2C_vue_de_l%27est.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AColl%C3%A9giale%20Saint-Aubin%20de%20Gu%C3%A9rande%2C%20vue%20de%20l'est.jpg",
+          "title": "Collégiale Saint-Aubin de Guérande, vue de l'est.jpg",
+          "description": "Collégiale Saint-Aubin de Guérande, vue de l'est, en juillet 2021",
+          "width": 3072,
+          "height": 4608,
+          "size": 5222934,
+          "timestamp": "2021-08-23T20:28:38Z",
+          "author": "Seb35",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
         }
       ]
     },
     {
       "label": "Place du Pilori",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Coll%C3%A9giale_Saint-Aubin_de_Gu%C3%A9rande_place_c%C3%B4t%C3%A9_sud.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AColl%C3%A9giale%20Saint-Aubin%20de%20Gu%C3%A9rande%20place%20c%C3%B4t%C3%A9%20sud.jpg",
+          "title": "Collégiale Saint-Aubin de Guérande place côté sud.jpg",
+          "description": "Collégiale Saint-Aubin in Guérande, France, view from the place in the south, in July 2021",
+          "width": 4608,
+          "height": 3072,
+          "size": 6682819,
+          "timestamp": "2021-08-22T18:09:13Z",
+          "author": "Seb35",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Gu%C3%A9rande%2C_rue_du_Croisic%2C_faubourg_Saint-Armel.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGu%C3%A9rande%2C%20rue%20du%20Croisic%2C%20faubourg%20Saint-Armel.jpg",
+          "title": "Guérande, rue du Croisic, faubourg Saint-Armel.jpg",
+          "description": "Musée de Bretagne, Collection Arts graphiques",
+          "width": 2500,
+          "height": 1640,
+          "size": 2913050,
+          "timestamp": "2021-06-21T19:53:49Z",
+          "author": "<span lang=\"en\">Anonymous</span><span style=\"display:none\">Unknown author</span>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Gu%C3%A9rande_18-07-2021_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGu%C3%A9rande%2018-07-2021%2002.jpg",
+          "title": "Guérande 18-07-2021 02.jpg",
+          "description": "Guérande, le 18 juillet 2021",
+          "width": 4000,
+          "height": 3000,
+          "size": 5219840,
+          "timestamp": "2021-07-19T19:24:55Z",
+          "author": "Tsaag Valren",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

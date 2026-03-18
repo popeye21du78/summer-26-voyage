@@ -1,66 +1,55 @@
 {
   "slug": "plage-des-pins",
   "nom": "Plage des Pins",
-  "fetchedAt": "2026-03-14T11:20:00.357Z",
+  "fetchedAt": "2026-03-18T16:27:09.742Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Ch%C3%A2let-de-la-Plage-Argel%C3%A8s-sur-Mer_02.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2let-de-la-Plage-Argel%C3%A8s-sur-Mer%2002.jpg",
-      "title": "Châlet-de-la-Plage-Argelès-sur-Mer 02.jpg",
-      "width": 3648,
-      "height": 2736,
-      "size": 2221649,
-      "timestamp": "2016-09-09T10:52:57Z",
-      "author": "Simon Strueux",
-      "license": "CC0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Plage_des_Pins_de_Cordouan.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlage%20des%20Pins%20de%20Cordouan.jpg",
+      "title": "Plage des Pins de Cordouan.jpg",
+      "description": "Vue de la plage des Pins de Cordouan",
+      "width": 2560,
+      "height": 1920,
+      "size": 511596,
+      "timestamp": "2016-02-28T18:04:42Z",
+      "author": "Cobber17",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Plage_d%27argeles_sur_mer_-_panoramio.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlage%20d'argeles%20sur%20mer%20-%20panoramio.jpg",
-      "title": "Plage d'argeles sur mer - panoramio.jpg",
-      "width": 2592,
-      "height": 1944,
-      "size": 1219320,
-      "timestamp": "2016-11-18T18:52:49Z",
-      "author": "Hotel Centre Plage",
-      "license": "CC BY 3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/2005_Plage_Notre-Dame_Porquerolles_34.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2005%20Plage%20Notre-Dame%20Porquerolles%2034.JPG",
+      "title": "2005 Plage Notre-Dame Porquerolles 34.JPG",
+      "description": "Vue de la pointe des Pins",
+      "width": 1944,
+      "height": 2592,
+      "size": 3963261,
+      "timestamp": "2015-06-03T15:49:58Z",
+      "author": "Jean-pierre olivier",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Parc_de_pins_a_Argelers_%28novembre_2012%29_-_panoramio.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParc%20de%20pins%20a%20Argelers%20(novembre%202012)%20-%20panoramio.jpg",
-      "title": "Parc de pins a Argelers (novembre 2012) - panoramio.jpg",
-      "width": 3648,
-      "height": 2736,
-      "size": 6782576,
-      "timestamp": "2017-01-25T22:28:24Z",
-      "author": "EliziR",
-      "license": "CC BY-SA 3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Fr%C3%A9hel_-_Sables-d%27Or-les-Pins_la_Potini%C3%A8re_-_AD22_-_16FI1277.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFr%C3%A9hel%20-%20Sables-d'Or-les-Pins%20la%20Potini%C3%A8re%20-%20AD22%20-%2016FI1277.jpg",
+      "title": "Fréhel - Sables-d'Or-les-Pins la Potinière - AD22 - 16FI1277.jpg",
+      "description": "Sables-d'Or-les-Pins. - La Potinière.",
+      "width": 1722,
+      "height": 1100,
+      "size": 312948,
+      "timestamp": "2020-12-19T15:26:43Z",
+      "author": "<div class=\"fn value\">\nR. Binet</div>",
+      "license": "Licence Ouverte",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 7
     }
   ],
   "lieux": [
     {
       "label": "Promenade des Pins",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/La_Pointe_de_Grave_depuis_Royan_-_Gironde_Garonne_Charente-Maritime_-_Image_Picture_Photography_%2813951593275%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Pointe%20de%20Grave%20depuis%20Royan%20-%20Gironde%20Garonne%20Charente-Maritime%20-%20Image%20Picture%20Photography%20(13951593275).jpg",
-          "title": "La Pointe de Grave depuis Royan - Gironde Garonne Charente-Maritime - Image Picture Photography (13951593275).jpg",
-          "width": 4104,
-          "height": 2592,
-          "size": 4193812,
-          "timestamp": "2014-12-15T20:40:53Z",
-          "author": "Grand Parc - Bordeaux, France",
-          "license": "CC BY 2.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Réserve naturelle du Mas Larrieu",
@@ -68,7 +57,22 @@
     },
     {
       "label": "Massif des Albères",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Argel%C3%A8s-Plage_%284%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArgel%C3%A8s-Plage%20(4).JPG",
+          "title": "Argelès-Plage (4).JPG",
+          "description": "La Plage des Pins au mois de décembre avec en arrière plan le massif des Albères.\nArgelès-Plage, Pyrénées-Orientales, France.",
+          "width": 4000,
+          "height": 2672,
+          "size": 1671113,
+          "timestamp": "2011-03-06T18:35:38Z",
+          "author": "Jpbazard",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     }
   ]
 }

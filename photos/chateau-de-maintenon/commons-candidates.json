@@ -1,12 +1,13 @@
 {
   "slug": "chateau-de-maintenon",
   "nom": "Château de Maintenon",
-  "fetchedAt": "2026-03-13T13:11:25.273Z",
+  "fetchedAt": "2026-03-15T21:37:24.238Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Ch%C3%A2teau_de_Maintenon%2C_Eure-et-Loir.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Maintenon%2C%20Eure-et-Loir.jpg",
       "title": "Château de Maintenon, Eure-et-Loir.jpg",
+      "description": "Château de Maintenon",
       "width": 4897,
       "height": 3266,
       "size": 2626766,
@@ -14,12 +15,13 @@
       "author": "Awaloo",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Ch%C3%A2teau_de_Maintenon_%2839242517924%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Maintenon%20(39242517924).jpg",
       "title": "Château de Maintenon (39242517924).jpg",
+      "description": "Château  de Maintenon",
       "width": 5181,
       "height": 3456,
       "size": 15741512,
@@ -27,12 +29,13 @@
       "author": "Nicolas Torquet",
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Aerial_image_of_Ch%C3%A2teau_de_Maintenon_%28view_from_the_southeast%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAerial%20image%20of%20Ch%C3%A2teau%20de%20Maintenon%20(view%20from%20the%20southeast).jpg",
       "title": "Aerial image of Château de Maintenon (view from the southeast).jpg",
+      "description": "Aerial image of Château de Maintenon (view from the southeast)",
       "width": 4000,
       "height": 2900,
       "size": 6341547,
@@ -40,65 +43,197 @@
       "author": "Carsten Steger",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     }
   ],
   "lieux": [
     {
       "label": "façade de brique et pierre",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Ch%C3%A2teau_de_Maintenon_depuis_le_jardin.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Maintenon%20depuis%20le%20jardin.jpg",
+          "title": "Château de Maintenon depuis le jardin.jpg",
+          "description": "Vue depuis le jardin à la française du château de Maintenon en avril 2023.",
+          "width": 3264,
+          "height": 1836,
+          "size": 2265443,
+          "timestamp": "2023-05-08T11:04:14Z",
+          "author": "Laure Celestia",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Ch%C3%A2teau_de_Maintenon_%281%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Maintenon%20(1).jpg",
+          "title": "Château de Maintenon (1).jpg",
+          "description": "Château de Maintenon",
+          "width": 3264,
+          "height": 2448,
+          "size": 3332175,
+          "timestamp": "2017-05-01T08:16:56Z",
+          "author": "Randy110912",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Ch%C3%A2teau_De_Maintenon_%28244162855%29.jpeg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20De%20Maintenon%20(244162855).jpeg",
+          "title": "Château De Maintenon (244162855).jpeg",
+          "description": "500px provided description: Château De Maintenon [#castle ,#landmark ,#gothic ,#ch?teau ,#historic ,#spire ,#steeple ,#2018 ,#histoire ,#Salon du chocolat ,#HDR ,#France ,#Eure-et-Loir ,#chateau ,#Maintenon]",
+          "width": 2048,
+          "height": 1366,
+          "size": 1262590,
+          "timestamp": "2018-08-05T02:03:30Z",
+          "author": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/nicolastorquet\">Nicolas Torquet</a></div>",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        }
+      ]
     },
     {
       "label": "aqueduc inachevé",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Ricois%2C_Maintenon_%28ch%C3%A2teau%2C_aqueduc%29%2C_avec_cadre.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARicois%2C%20Maintenon%20(ch%C3%A2teau%2C%20aqueduc)%2C%20avec%20cadre.jpg",
+          "title": "Ricois, Maintenon (château, aqueduc), avec cadre.jpg",
+          "description": "Le château de Maintenon vu à travers l'aqueduc (réplique d'atelier) par François-Edmée Ricois, XIXe s., huile sur toile",
+          "width": 2625,
+          "height": 1943,
+          "size": 1963337,
+          "timestamp": "2021-01-15T17:49:45Z",
+          "author": "Bobosolognot",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Aqueduc_de_Vauban_-_Ch%C3%A2teau_de_Maintenon.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAqueduc%20de%20Vauban%20-%20Ch%C3%A2teau%20de%20Maintenon.jpg",
+          "title": "Aqueduc de Vauban - Château de Maintenon.jpg",
+          "description": "Vue depuis le jardin de l'aqueduc de Vauban, un énorme ouvrage débuté sous le règne du Roi Soleil et construit sous la direction du Maréchal Vauban.",
+          "width": 3264,
+          "height": 1836,
+          "size": 2497796,
+          "timestamp": "2023-05-08T11:04:14Z",
+          "author": "Laure Celestia",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Vue_de_la_terrasse_du_1er_%C3%A9tage_du_ch%C3%A2teau_de_Maintenon_Eure-et-Loir_France.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20de%20la%20terrasse%20du%201er%20%C3%A9tage%20du%20ch%C3%A2teau%20de%20Maintenon%20Eure-et-Loir%20France.jpg",
+          "title": "Vue de la terrasse du 1er étage du château de Maintenon Eure-et-Loir France.jpg",
+          "description": "Vue de la terrasse du 1er étage du château de Maintenon, Eure-et-Loir, France.",
+          "width": 4000,
+          "height": 3000,
+          "size": 3422668,
+          "timestamp": "2024-08-14T15:31:18Z",
+          "author": "Le Passant",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     },
     {
       "label": "chambre de Madame de Maintenon",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Gabriel_Revel_-_Portrait_en_Judith%2C_pr%C3%A9sum%C3%A9_de_la_marquise_de_Montespan.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGabriel%20Revel%20-%20Portrait%20en%20Judith%2C%20pr%C3%A9sum%C3%A9%20de%20la%20marquise%20de%20Montespan.jpg",
-          "title": "Gabriel Revel - Portrait en Judith, présumé de la marquise de Montespan.jpg",
-          "width": 1300,
-          "height": 1800,
-          "size": 352264,
-          "timestamp": "2024-09-10T02:39:30Z",
-          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Gabriel_Revel\" class=\"extiw\" title=\"w:en:Gabriel Revel\"><span title=\"French painter (1643-1712)\">Gabriel Revel</span></a></bdi>",
-          "license": "Public domain",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Passage_et_au_dessus_des_appartements_du_Ch%C3%A2teau_de_Maintenon.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APassage%20et%20au%20dessus%20des%20appartements%20du%20Ch%C3%A2teau%20de%20Maintenon.jpg",
+          "title": "Passage et au dessus des appartements du Château de Maintenon.jpg",
+          "description": "Photo du passage et au dessus des appartements du Maréchal de Noailles (antichambre et chambre) du Château de Maintenon",
+          "width": 3264,
+          "height": 1836,
+          "size": 3432038,
+          "timestamp": "2023-05-08T11:04:25Z",
+          "author": "Laure Celestia",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/France-000311_-_Palace_of_Versailles_-_second_lineup..._%2814641496829%29_CROPPED.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance-000311%20-%20Palace%20of%20Versailles%20-%20second%20lineup...%20(14641496829)%20CROPPED.jpg",
-          "title": "France-000311 - Palace of Versailles - second lineup... (14641496829) CROPPED.jpg",
-          "width": 1473,
-          "height": 1437,
-          "size": 2208746,
-          "timestamp": "2026-01-04T10:01:45Z",
-          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q122977591\" class=\"extiw\" title=\"d:Q122977591\"><span title=\"photographer\">Dennis G. Jarvis</span></a></bdi>",
-          "license": "CC BY-SA 2.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Chambre_de_mme_de_maintenon_ok_6_oct_2016_Franck_Devedjian.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChambre%20de%20mme%20de%20maintenon%20ok%206%20oct%202016%20Franck%20Devedjian.jpg",
+          "title": "Chambre de mme de maintenon ok 6 oct 2016 Franck Devedjian.jpg",
+          "description": "Essai de restitution de la chambre de Mme de Maintenon, vers 1700-1711.",
+          "width": 3328,
+          "height": 1636,
+          "size": 1711475,
+          "timestamp": "2021-12-06T22:28:28Z",
+          "author": "Franck devedjian",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Fontainebleau_Castle_%282735351636%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFontainebleau%20Castle%20(2735351636).jpg",
-          "title": "Fontainebleau Castle (2735351636).jpg",
-          "width": 2592,
-          "height": 1944,
-          "size": 823880,
-          "timestamp": "2010-03-19T23:03:28Z",
-          "author": "Jamie",
-          "license": "CC BY 2.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Maintenon_Ch%C3%A2teau_de_Maintenon_Innen_Chambre_du_Roi.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaintenon%20Ch%C3%A2teau%20de%20Maintenon%20Innen%20Chambre%20du%20Roi.jpg",
+          "title": "Maintenon Château de Maintenon Innen Chambre du Roi.jpg",
+          "description": "King's Room of Maintenon Castle, Maintenon, Department of Eure-et-Loire, Region of Centre-Loire Valley, France",
+          "width": 4422,
+          "height": 2812,
+          "size": 3886096,
+          "timestamp": "2020-04-25T16:55:54Z",
+          "author": "Zairon",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
         }
       ]
     },
     {
       "label": "parterres à la française",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Maintenon%2C_ch%C3%A2teau_Autre_plan_dudit_ch%C3%A2teau_avec_projets_pour_un_parterre_-_dessin_-_btv1b53037740v_%282_of_3%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaintenon%2C%20ch%C3%A2teau%20Autre%20plan%20dudit%20ch%C3%A2teau%20avec%20projets%20pour%20un%20parterre%20-%20dessin%20-%20btv1b53037740v%20(2%20of%203).jpg",
+          "title": "Maintenon, château Autre plan dudit château avec projets pour un parterre - dessin - btv1b53037740v (2 of 3).jpg",
+          "description": "Sujet : Parterres\nMaintenon (Eure-et-Loir, France) -- Château\nDessins et plans -- 17e siècle\nRéférence bibliographique : Robert de Cotte, 365\nRéférence bibliographique : Fossier, 226\nAppartient à l’ensemble documentaire : Des18Cotte\nAppartient à l’ensemble documentaire : Centre1\n\nPlan de situation",
+          "width": 9976,
+          "height": 7736,
+          "size": 8132306,
+          "timestamp": "2025-02-27T03:09:23Z",
+          "author": "Inconnu",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Maintenon%2C_ch%C3%A2teau_Autre_plan_dudit_ch%C3%A2teau_avec_projets_pour_un_parterre_-_dessin_-_btv1b53037740v_%283_of_3%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaintenon%2C%20ch%C3%A2teau%20Autre%20plan%20dudit%20ch%C3%A2teau%20avec%20projets%20pour%20un%20parterre%20-%20dessin%20-%20btv1b53037740v%20(3%20of%203).jpg",
+          "title": "Maintenon, château Autre plan dudit château avec projets pour un parterre - dessin - btv1b53037740v (3 of 3).jpg",
+          "description": "Sujet : Parterres\nMaintenon (Eure-et-Loir, France) -- Château\nDessins et plans -- 17e siècle\nRéférence bibliographique : Robert de Cotte, 365\nRéférence bibliographique : Fossier, 226\nAppartient à l’ensemble documentaire : Des18Cotte\nAppartient à l’ensemble documentaire : Centre1\n\nPlan de situation",
+          "width": 9976,
+          "height": 7736,
+          "size": 8098112,
+          "timestamp": "2025-02-27T03:09:45Z",
+          "author": "Inconnu",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Maintenon_Jardin_Parterre.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaintenon%20Jardin%20Parterre.JPG",
+          "title": "Maintenon Jardin Parterre.JPG",
+          "description": "Jardin du château de Maintenon (Eure-et-Loir).",
+          "width": 4608,
+          "height": 3456,
+          "size": 4888664,
+          "timestamp": "2015-05-28T11:48:49Z",
+          "author": "Thomon",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        }
+      ]
     }
   ]
 }

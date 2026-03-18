@@ -1,12 +1,13 @@
 {
   "slug": "le-mont-lozere",
   "nom": "Le Mont Lozère",
-  "fetchedAt": "2026-03-13T15:34:28.253Z",
+  "fetchedAt": "2026-03-16T20:07:17.401Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Pelouse_mont_Loz%C3%A8re.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APelouse%20mont%20Loz%C3%A8re.jpg",
       "title": "Pelouse mont Lozère.jpg",
+      "description": "Pelouse subalpine sur le mont Lozère (Cévennes, Massif central, France)",
       "width": 4000,
       "height": 3000,
       "size": 2897017,
@@ -17,28 +18,30 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Reh-Rachendassel_%28Cephenemyia_stimulator%29%2C_Mont_Loz%C3%A8re%2C_C%C3%A9vennes%2C_France_%2848632170003%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AReh-Rachendassel%20(Cephenemyia%20stimulator)%2C%20Mont%20Loz%C3%A8re%2C%20C%C3%A9vennes%2C%20France%20(48632170003).jpg",
-      "title": "Reh-Rachendassel (Cephenemyia stimulator), Mont Lozère, Cévennes, France (48632170003).jpg",
-      "width": 3788,
-      "height": 2736,
-      "size": 3882618,
-      "timestamp": "2021-09-20T07:33:49Z",
-      "author": "Frank Vassen",
-      "license": "CC BY 2.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Mont_Loz%C3%A8re_panorama.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMont%20Loz%C3%A8re%20panorama.jpg",
+      "title": "Mont Lozère panorama.jpg",
+      "description": "Panorama sur les Cévennes.",
+      "width": 3456,
+      "height": 1444,
+      "size": 3911503,
+      "timestamp": "2017-05-26T10:16:38Z",
+      "author": "Didier Azéma",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Reh-Rachendassel_Roe_deer_botfly_Oestre_pharing%C3%A9_du_chevreuil_%28Cephenemyia_stimulator%29%2C_Mont_Loz%C3%A8re%2C_France_%2848341483636%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AReh-Rachendassel%20Roe%20deer%20botfly%20Oestre%20pharing%C3%A9%20du%20chevreuil%20(Cephenemyia%20stimulator)%2C%20Mont%20Loz%C3%A8re%2C%20France%20(48341483636).jpg",
-      "title": "Reh-Rachendassel Roe deer botfly Oestre pharingé du chevreuil (Cephenemyia stimulator), Mont Lozère, France (48341483636).jpg",
-      "width": 3621,
-      "height": 2697,
-      "size": 2773641,
-      "timestamp": "2021-09-20T07:33:49Z",
-      "author": "Frank Vassen",
-      "license": "CC BY 2.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Mont_Loz%C3%A8re_-_dsmm04171.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMont%20Loz%C3%A8re%20-%20dsmm04171.jpg",
+      "title": "Mont Lozère - dsmm04171.jpg",
+      "description": "Hêtres au Mont Lozère",
+      "width": 4896,
+      "height": 3264,
+      "size": 6898337,
+      "timestamp": "2020-11-02T08:18:32Z",
+      "author": "Pmau",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     }
@@ -48,9 +51,38 @@
       "label": "Sommet de Finiels",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Mont_Loz%C3%A8re_-_dsmm04350.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMont%20Loz%C3%A8re%20-%20dsmm04350.jpg",
+          "title": "Mont Lozère - dsmm04350.jpg",
+          "description": "Vue du Mont-Lozère depuis Sénéchas.",
+          "width": 4176,
+          "height": 1920,
+          "size": 4316672,
+          "timestamp": "2020-11-01T08:51:51Z",
+          "author": "Pmau",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Mont_Loz%C3%A8re_panorama.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMont%20Loz%C3%A8re%20panorama.jpg",
+          "title": "Mont Lozère panorama.jpg",
+          "description": "Panorama sur les Cévennes.",
+          "width": 3456,
+          "height": 1444,
+          "size": 3911503,
+          "timestamp": "2017-05-26T10:16:38Z",
+          "author": "Didier Azéma",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Pelouse_mont_Loz%C3%A8re.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APelouse%20mont%20Loz%C3%A8re.jpg",
           "title": "Pelouse mont Lozère.jpg",
+          "description": "Pelouse subalpine sur le mont Lozère (Cévennes, Massif central, France)",
           "width": 4000,
           "height": 3000,
           "size": 2897017,
@@ -59,29 +91,22 @@
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
-        },
+        }
+      ]
+    },
+    {
+      "label": "Sentier des Montjoies",
+      "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Mont_Loz%C3%A8re_-_dsmm04350.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMont%20Loz%C3%A8re%20-%20dsmm04350.jpg",
-          "title": "Mont Lozère - dsmm04350.jpg",
-          "width": 4176,
-          "height": 1920,
-          "size": 4316672,
-          "timestamp": "2020-11-01T08:51:51Z",
-          "author": "Pmau",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Route_du_mont_Lozere_P_Etienne.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARoute%20du%20mont%20Lozere%20P%20Etienne.jpg",
-          "title": "Route du mont Lozere P Etienne.jpg",
-          "width": 2048,
-          "height": 1567,
-          "size": 400789,
-          "timestamp": "2022-01-28T20:02:13Z",
-          "author": "Patrick Etienne",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Mont_Aigoual-_El_sendero_de_Portalet-_v%C3%A9rtice_secundario_YPPS.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMont%20Aigoual-%20El%20sendero%20de%20Portalet-%20v%C3%A9rtice%20secundario%20YPPS.jpg",
+          "title": "Mont Aigoual- El sendero de Portalet- vértice secundario YPPS.jpg",
+          "description": "Petit sentier montant au Portalet",
+          "width": 3456,
+          "height": 2592,
+          "size": 4306484,
+          "timestamp": "2021-08-26T09:32:17Z",
+          "author": "Anthospace",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
@@ -89,54 +114,96 @@
       ]
     },
     {
-      "label": "Sentier des Montjoies",
-      "photos": []
-    },
-    {
       "label": "Col de la Loubière",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Mont_Aigoual-_Le_Portalet-_los_prados_de_la_cumbre_LRAD.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMont%20Aigoual-%20Le%20Portalet-%20los%20prados%20de%20la%20cumbre%20LRAD.jpg",
+          "title": "Mont Aigoual- Le Portalet- los prados de la cumbre LRAD.jpg",
+          "description": "Vue à droite plus loin sur le croisement (1517m) entre les routes de Cabrillac et du col de la Serreyrède, à 1,3 km du sommet du mont Aigoual, visible d'ici.",
+          "width": 3456,
+          "height": 2592,
+          "size": 4537842,
+          "timestamp": "2021-08-26T09:32:14Z",
+          "author": "Anthospace",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Mont_Aigoual_30e48-_Prat_Peyrot_1411m-_En_temporada_de_verano.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMont%20Aigoual%2030e48-%20Prat%20Peyrot%201411m-%20En%20temporada%20de%20verano.jpg",
+          "title": "Mont Aigoual 30e48- Prat Peyrot 1411m- En temporada de verano.jpg",
+          "description": "Station de Prat Peyrot en été",
+          "width": 3456,
+          "height": 2592,
+          "size": 4136649,
+          "timestamp": "2022-08-23T23:09:07Z",
+          "author": "Anthospace",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Mont_Aigoual_30e48-_Prat_Peyrot_carrefour_D269b-_QRMAS.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMont%20Aigoual%2030e48-%20Prat%20Peyrot%20carrefour%20D269b-%20QRMAS.jpg",
+          "title": "Mont Aigoual 30e48- Prat Peyrot carrefour D269b- QRMAS.jpg",
+          "description": "Carrefour entre la route du col de la Serreyrède et celle du mont Aigoual",
+          "width": 3456,
+          "height": 2592,
+          "size": 4281101,
+          "timestamp": "2022-08-23T23:09:07Z",
+          "author": "Anthospace",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Pont du Tarn",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/France_Loz%C3%A8re_Parc_national_des_C%C3%A9vennes_Tarn_1.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20Loz%C3%A8re%20Parc%20national%20des%20C%C3%A9vennes%20Tarn%201.jpg",
-          "title": "France Lozère Parc national des Cévennes Tarn 1.jpg",
-          "width": 2816,
-          "height": 2112,
-          "size": 2265129,
-          "timestamp": "2008-04-17T06:25:08Z",
-          "author": "Ancalagon",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/48116-Pont_de_Montvert_-_Sud_Mont_Loz%C3%A8re-Sols.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A48116-Pont%20de%20Montvert%20-%20Sud%20Mont%20Loz%C3%A8re-Sols.png",
+          "title": "48116-Pont de Montvert - Sud Mont Lozère-Sols.png",
+          "description": "Carte des infrastructures et de l’occupation des sols en 2018 de la commune de fr:Pont de Montvert - Sud Mont Lozère (France).",
+          "width": 3270,
+          "height": 2598,
+          "size": 2987948,
+          "timestamp": "2021-04-10T13:55:22Z",
+          "author": "Roland45",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/France_Loz%C3%A8re_Parc_national_des_C%C3%A9vennes_Tarn_2.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20Loz%C3%A8re%20Parc%20national%20des%20C%C3%A9vennes%20Tarn%202.jpg",
-          "title": "France Lozère Parc national des Cévennes Tarn 2.jpg",
-          "width": 2816,
-          "height": 2112,
-          "size": 2259190,
-          "timestamp": "2008-04-17T06:32:30Z",
-          "author": "Ancalagon",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/48116-Pont_de_Montvert_-_Sud_Mont_Loz%C3%A8re-ZNIEFF1.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A48116-Pont%20de%20Montvert%20-%20Sud%20Mont%20Loz%C3%A8re-ZNIEFF1.png",
+          "title": "48116-Pont de Montvert - Sud Mont Lozère-ZNIEFF1.png",
+          "description": "Carte des zones naturelles d'intérêt écologique, faunistique et floristique (ZNIEFF) de type 1 de la commune de fr:Pont de Montvert - Sud Mont Lozère (France).",
+          "width": 3057,
+          "height": 2480,
+          "size": 8935486,
+          "timestamp": "2021-09-12T15:50:49Z",
+          "author": "Roland45",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/France_Loz%C3%A8re_Parc_national_des_C%C3%A9vennes_Tarn_3.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20Loz%C3%A8re%20Parc%20national%20des%20C%C3%A9vennes%20Tarn%203.jpg",
-          "title": "France Lozère Parc national des Cévennes Tarn 3.jpg",
-          "width": 2816,
-          "height": 2112,
-          "size": 2287269,
-          "timestamp": "2008-04-17T06:32:50Z",
-          "author": "Ancalagon",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/48116-Pont_de_Montvert_-_Sud_Mont_Loz%C3%A8re-ZNIEFF2.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A48116-Pont%20de%20Montvert%20-%20Sud%20Mont%20Loz%C3%A8re-ZNIEFF2.png",
+          "title": "48116-Pont de Montvert - Sud Mont Lozère-ZNIEFF2.png",
+          "description": "Carte des zones naturelles d'intérêt écologique, faunistique et floristique (ZNIEFF) de type 2 de la commune de fr:Pont de Montvert - Sud Mont Lozère (France).",
+          "width": 3519,
+          "height": 2480,
+          "size": 9209490,
+          "timestamp": "2021-09-18T08:39:48Z",
+          "author": "Roland45",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 7
         }
       ]
     }

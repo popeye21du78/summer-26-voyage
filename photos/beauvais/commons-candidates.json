@@ -1,12 +1,13 @@
 {
   "slug": "beauvais",
   "nom": "Beauvais",
-  "fetchedAt": "2026-03-13T12:12:13.969Z",
+  "fetchedAt": "2026-03-15T19:32:16.740Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Beauvais_-_Rue_Saint-Pierre_-_View_NW_on_la_Cath%C3%A9drale_Saint-Pierre_de_Beauvais_-_Height_67%2C23_m.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeauvais%20-%20Rue%20Saint-Pierre%20-%20View%20NW%20on%20la%20Cath%C3%A9drale%20Saint-Pierre%20de%20Beauvais%20-%20Height%2067%2C23%20m.jpg",
       "title": "Beauvais - Rue Saint-Pierre - View NW on la Cathédrale Saint-Pierre de Beauvais - Height 67,23 m.jpg",
+      "description": "Beauvais - Rue Saint-Pierre - View NW on la Cathédrale Saint-Pierre de Beauvais - Height: 67,23 m",
       "width": 6048,
       "height": 4032,
       "size": 16460799,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Fontaine_Rue_Carnot_-_Beauvais_%28FR60%29_-_2021-05-30_-_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFontaine%20Rue%20Carnot%20-%20Beauvais%20(FR60)%20-%202021-05-30%20-%201.jpg",
       "title": "Fontaine Rue Carnot - Beauvais (FR60) - 2021-05-30 - 1.jpg",
+      "description": "Fontaine de la rue Carnot, Beauvais.",
       "width": 3136,
       "height": 2078,
       "size": 2410677,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/H%C3%B4tel_Postes_T%C3%A9l%C3%A9graphes_T%C3%A9l%C3%A9phones_-_Beauvais_%28FR60%29_-_2021-05-30_-_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AH%C3%B4tel%20Postes%20T%C3%A9l%C3%A9graphes%20T%C3%A9l%C3%A9phones%20-%20Beauvais%20(FR60)%20-%202021-05-30%20-%201.jpg",
       "title": "Hôtel Postes Télégraphes Téléphones - Beauvais (FR60) - 2021-05-30 - 1.jpg",
+      "description": "Hôtel des Postes Télégraphes et Téléphones, Beauvais.",
       "width": 4032,
       "height": 3024,
       "size": 3623509,
@@ -46,7 +49,50 @@
   "lieux": [
     {
       "label": "Cathédrale Saint-Pierre (chœur et horloge astronomique)",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Cath%C3%A9drale_Saint-Pierre_de_Beauvais_%281%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale%20Saint-Pierre%20de%20Beauvais%20(1).jpg",
+          "title": "Cathédrale Saint-Pierre de Beauvais (1).jpg",
+          "description": "Cathédrale Saint-Pierre de Beauvais",
+          "width": 6000,
+          "height": 4000,
+          "size": 8246324,
+          "timestamp": "2020-09-30T22:00:02Z",
+          "author": "Baidax",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Cath%C3%A9drale_Saint-Pierre_de_Beauvais_%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale%20Saint-Pierre%20de%20Beauvais%20(2).jpg",
+          "title": "Cathédrale Saint-Pierre de Beauvais (2).jpg",
+          "description": "Cathédrale Saint-Pierre de Beauvais",
+          "width": 6000,
+          "height": 4000,
+          "size": 9195733,
+          "timestamp": "2020-09-30T22:00:03Z",
+          "author": "Baidax",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Beauvais_-_La_Cath%C3%A9drale_Saint-Pierre_de_Beauvais_-_Ambulatory_East_of_the_Choir_-_View_East_into_a_Polygonal_Apsidal_Chapel.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeauvais%20-%20La%20Cath%C3%A9drale%20Saint-Pierre%20de%20Beauvais%20-%20Ambulatory%20East%20of%20the%20Choir%20-%20View%20East%20into%20a%20Polygonal%20Apsidal%20Chapel.jpg",
+          "title": "Beauvais - La Cathédrale Saint-Pierre de Beauvais - Ambulatory East of the Choir - View East into a Polygonal Apsidal Chapel.jpg",
+          "description": "Beauvais - La Cathédrale Saint-Pierre de Beauvais - Ambulatory East of the Choir - View East into a Polygonal Apsidal Chapel",
+          "width": 6048,
+          "height": 4032,
+          "size": 17653376,
+          "timestamp": "2021-04-17T17:55:49Z",
+          "author": "Txllxt TxllxT",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Halles médiévales de Beauvais",
@@ -54,11 +100,97 @@
     },
     {
       "label": "Remparts et vue sur l’Oise",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Remparts_Rue_Beauregard_-_Beauvais_%28FR60%29_-_2021-05-30_-_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARemparts%20Rue%20Beauregard%20-%20Beauvais%20(FR60)%20-%202021-05-30%20-%202.jpg",
+          "title": "Remparts Rue Beauregard - Beauvais (FR60) - 2021-05-30 - 2.jpg",
+          "description": "Remparts le long de la rue Beauregard, Beauvais.",
+          "width": 4032,
+          "height": 3024,
+          "size": 4376877,
+          "timestamp": "2021-05-31T19:29:58Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Remparts_Rue_Beauregard_-_Beauvais_%28FR60%29_-_2021-05-30_-_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARemparts%20Rue%20Beauregard%20-%20Beauvais%20(FR60)%20-%202021-05-30%20-%201.jpg",
+          "title": "Remparts Rue Beauregard - Beauvais (FR60) - 2021-05-30 - 1.jpg",
+          "description": "Remparts le long de la rue Beauregard, Beauvais.",
+          "width": 4032,
+          "height": 3024,
+          "size": 6852407,
+          "timestamp": "2021-05-31T19:29:58Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Remparts_Rue_Jean_Racine_-_Beauvais_%28FR60%29_-_2021-05-30_-_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARemparts%20Rue%20Jean%20Racine%20-%20Beauvais%20(FR60)%20-%202021-05-30%20-%201.jpg",
+          "title": "Remparts Rue Jean Racine - Beauvais (FR60) - 2021-05-30 - 1.jpg",
+          "description": "Remparts le long de la rue Jean Racine, Beauvais.",
+          "width": 4032,
+          "height": 3024,
+          "size": 4087415,
+          "timestamp": "2021-05-31T19:30:09Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Maisons à pans de bois du centre historique",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Maison_Beauvais.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison%20Beauvais.jpg",
+          "title": "Maison Beauvais.jpg",
+          "description": "Maison Beauvais in Saint-Lambert, Corner seen from the east-south-east",
+          "width": 4032,
+          "height": 3024,
+          "size": 6268520,
+          "timestamp": "2012-09-04T00:10:49Z",
+          "author": "Pascal Normand",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Front_of_the_Maison_Beauvais.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFront%20of%20the%20Maison%20Beauvais.jpg",
+          "title": "Front of the Maison Beauvais.jpg",
+          "description": "Front of the Maison Beauvais in Saint-Lambert, seen from the east-north-east",
+          "width": 4032,
+          "height": 3024,
+          "size": 6181934,
+          "timestamp": "2012-09-04T04:42:56Z",
+          "author": "Pascal Normand",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Manoir_des_Beauvais_%28Dol-de-Bretagne%2C_35%29_-_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AManoir%20des%20Beauvais%20(Dol-de-Bretagne%2C%2035)%20-%2001.jpg",
+          "title": "Manoir des Beauvais (Dol-de-Bretagne, 35) - 01.jpg",
+          "description": "Manoir des Beauvais, actuellement Maison des Jeunes et de la Culture (Dol-de-Bretagne, Ille-et-Vilaine)",
+          "width": 6000,
+          "height": 4000,
+          "size": 10725057,
+          "timestamp": "2022-08-22T17:49:47Z",
+          "author": "Thérèse Gaigé",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

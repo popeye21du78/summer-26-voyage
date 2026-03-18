@@ -1,12 +1,13 @@
 {
   "slug": "vaureal",
   "nom": "Vauréal",
-  "fetchedAt": "2026-03-13T02:06:15.231Z",
+  "fetchedAt": "2026-03-18T20:39:22.932Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Heuliez_GX_427_n%C2%B0786_au_terminus_Vaur%C3%A9al_La_Siaule.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHeuliez%20GX%20427%20n%C2%B0786%20au%20terminus%20Vaur%C3%A9al%20La%20Siaule.jpg",
       "title": "Heuliez GX 427 n°786 au terminus Vauréal La Siaule.jpg",
+      "description": "Bus Heuliez GX 427 n°786 de la STIVO au terminus de la ligne 40 à Vauréal La Siaule.",
       "width": 2813,
       "height": 2110,
       "size": 1330796,
@@ -17,30 +18,32 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Citaro_C2_n%C2%B0547_%C3%A0_La_Marni%C3%A8re.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACitaro%20C2%20n%C2%B0547%20%C3%A0%20La%20Marni%C3%A8re.jpg",
-      "title": "Citaro C2 n°547 à La Marnière.jpg",
-      "width": 3594,
-      "height": 2692,
-      "size": 3592679,
-      "timestamp": "2020-05-28T09:12:26Z",
-      "author": "Z50000 262L",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Vaur%C3%A9al_%2895%29%2C_pont_CGB%2C_rue_des_Marais.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVaur%C3%A9al%20(95)%2C%20pont%20CGB%2C%20rue%20des%20Marais.jpg",
+      "title": "Vauréal (95), pont CGB, rue des Marais.jpg",
+      "description": "Pont de l'ancienne ligne CGB de Sagy à Pontoise, rue des Marais. Un pont similaire se trouve un peu plus au nord, rue de Puiseux.",
+      "width": 3664,
+      "height": 2748,
+      "size": 2380402,
+      "timestamp": "2012-09-11T12:49:36Z",
+      "author": "P.poschadel",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 5
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/%C3%8Ele_Loisirs_Cergy_Pontoise_-_Neuville-sur-Oise_%28FR95%29_-_2020-09-05_-_2.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%8Ele%20Loisirs%20Cergy%20Pontoise%20-%20Neuville-sur-Oise%20(FR95)%20-%202020-09-05%20-%202.jpg",
-      "title": "Île Loisirs Cergy Pontoise - Neuville-sur-Oise (FR95) - 2020-09-05 - 2.jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 7099480,
-      "timestamp": "2020-09-06T13:08:42Z",
-      "author": "Chabe01",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Vaur%C3%A9al_%2895%29%2C_lavoir_des_Dames_Gilles%2C_rue_des_Dames_Gilles.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVaur%C3%A9al%20(95)%2C%20lavoir%20des%20Dames%20Gilles%2C%20rue%20des%20Dames%20Gilles.jpg",
+      "title": "Vauréal (95), lavoir des Dames Gilles, rue des Dames Gilles.jpg",
+      "description": "Le lavoir des Dames Gilles, rue des Dames Gilles.",
+      "width": 3664,
+      "height": 2748,
+      "size": 2455570,
+      "timestamp": "2012-09-11T15:11:12Z",
+      "author": "P.poschadel",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 5
     }
   ],
   "lieux": [
@@ -50,7 +53,50 @@
     },
     {
       "label": "Église Saint-Pierre-aux-Liens",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Vaur%C3%A9al_%2895%29%2C_%C3%A9glise_Notre-Dame-de-l%27Assomption%2C_rue_Nationale_-_rue_de_l%27%C3%89glise.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVaur%C3%A9al%20(95)%2C%20%C3%A9glise%20Notre-Dame-de-l'Assomption%2C%20rue%20Nationale%20-%20rue%20de%20l'%C3%89glise.jpg",
+          "title": "Vauréal (95), église Notre-Dame-de-l'Assomption, rue Nationale - rue de l'Église.jpg",
+          "description": "Église Notre-Dame-de-l'Assomption, rue Nationale / rue de l'Église ; façade sud, vue depuis la rue Amédée-de-Caix-de-Saint-Aymour.",
+          "width": 3664,
+          "height": 2748,
+          "size": 2447986,
+          "timestamp": "2012-09-11T16:22:53Z",
+          "author": "P.poschadel",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Vaur%C3%A9al_%2895%29%2C_%C3%A9glise_Notre-Dame-de-l%27Assomption%2C_rue_de_l%27%C3%89glise.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVaur%C3%A9al%20(95)%2C%20%C3%A9glise%20Notre-Dame-de-l'Assomption%2C%20rue%20de%20l'%C3%89glise.jpg",
+          "title": "Vauréal (95), église Notre-Dame-de-l'Assomption, rue de l'Église.jpg",
+          "description": "Église Notre-Dame-de-l'Assomption, façade sud, vue depuis la rue de l'Église.",
+          "width": 2748,
+          "height": 3664,
+          "size": 2759523,
+          "timestamp": "2012-09-11T16:21:32Z",
+          "author": "P.poschadel",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Vaur%C3%A9al_%2895%29%2C_%C3%A9glise_de_l%27Assomption_de_Notre-Dame%2C_ch%C5%93ur%2C_3e_trav%C3%A9e%2C_cl%C3%A9_de_vo%C3%BBte.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVaur%C3%A9al%20(95)%2C%20%C3%A9glise%20de%20l'Assomption%20de%20Notre-Dame%2C%20ch%C5%93ur%2C%203e%20trav%C3%A9e%2C%20cl%C3%A9%20de%20vo%C3%BBte.JPG",
+          "title": "Vauréal (95), église de l'Assomption de Notre-Dame, chœur, 3e travée, clé de voûte.JPG",
+          "description": "Clé de voûte (voir titre).",
+          "width": 3648,
+          "height": 2736,
+          "size": 659949,
+          "timestamp": "2014-08-15T20:06:24Z",
+          "author": "Pierre Poschadel",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Parc de la Croix-Lieu",
@@ -66,7 +112,50 @@
     },
     {
       "label": "Sentier des Impressionnistes",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Vaur%C3%A9al_%2895%29%2C_all%C3%A9e_couverte_du_cimeti%C3%A8re_aux_Anglais_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVaur%C3%A9al%20(95)%2C%20all%C3%A9e%20couverte%20du%20cimeti%C3%A8re%20aux%20Anglais%201.jpg",
+          "title": "Vauréal (95), allée couverte du cimetière aux Anglais 1.jpg",
+          "description": "Vue depuis l'ouest (sentier de promenade). Plusieurs pierres sont couvertes de tags ; le site n'est ni protégé ni mis en valeur.",
+          "width": 3664,
+          "height": 2748,
+          "size": 2703447,
+          "timestamp": "2012-09-11T12:55:49Z",
+          "author": "P.poschadel",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Sentier_%C3%A0_Vaur%C3%A9al.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASentier%20%C3%A0%20Vaur%C3%A9al.jpg",
+          "title": "Sentier à Vauréal.jpg",
+          "description": "Sentier à Vauréal",
+          "width": 4295,
+          "height": 3703,
+          "size": 4919916,
+          "timestamp": "2025-04-01T19:26:42Z",
+          "author": "VVVCFFrance",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Vaur%C3%A9al_%2895%29%2C_lavoir_des_Carneaux%2C_sentier_des_Marettes.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVaur%C3%A9al%20(95)%2C%20lavoir%20des%20Carneaux%2C%20sentier%20des%20Marettes.jpg",
+          "title": "Vauréal (95), lavoir des Carneaux, sentier des Marettes.jpg",
+          "description": "Le lavoir des Carneaux, sentier des Marettes.",
+          "width": 3664,
+          "height": 2748,
+          "size": 2816333,
+          "timestamp": "2012-09-11T16:04:14Z",
+          "author": "P.poschadel",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     }
   ]
 }

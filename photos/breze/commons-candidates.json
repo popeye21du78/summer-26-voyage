@@ -1,12 +1,13 @@
 {
   "slug": "breze",
   "nom": "Brézé",
-  "fetchedAt": "2026-03-13T12:22:25.713Z",
+  "fetchedAt": "2026-03-15T20:16:30.691Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Br%C3%A9z%C3%A9_%2849%29_%C3%89glise_Saint-Vincent_-_Ext%C3%A9rieur_-_04.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABr%C3%A9z%C3%A9%20(49)%20%C3%89glise%20Saint-Vincent%20-%20Ext%C3%A9rieur%20-%2004.jpg",
       "title": "Brézé (49) Église Saint-Vincent - Extérieur - 04.jpg",
+      "description": "Extérieur de l'église Saint-Vincent de Brézé (49).",
       "width": 3569,
       "height": 2055,
       "size": 2703258,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Br%C3%A9z%C3%A9_%2849%29_%C3%89glise_Saint-Vincent_-_Ext%C3%A9rieur_-_02.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABr%C3%A9z%C3%A9%20(49)%20%C3%89glise%20Saint-Vincent%20-%20Ext%C3%A9rieur%20-%2002.jpg",
       "title": "Brézé (49) Église Saint-Vincent - Extérieur - 02.jpg",
+      "description": "Extérieur de l'église Saint-Vincent de Brézé (49).",
       "width": 2056,
       "height": 3648,
       "size": 3660689,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Br%C3%A9z%C3%A9_%2849%29_%C3%89glise_Saint-Vincent_-_Ext%C3%A9rieur_-_01.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABr%C3%A9z%C3%A9%20(49)%20%C3%89glise%20Saint-Vincent%20-%20Ext%C3%A9rieur%20-%2001.jpg",
       "title": "Brézé (49) Église Saint-Vincent - Extérieur - 01.jpg",
+      "description": "Extérieur de l'église Saint-Vincent de Brézé (49).",
       "width": 2056,
       "height": 3648,
       "size": 3280620,
@@ -48,53 +51,114 @@
       "label": "Douves sèches",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Br%C3%A9z%C3%A9_%C3%89chauguette.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABr%C3%A9z%C3%A9%20%C3%89chauguette.jpg",
-          "title": "Brézé Échauguette.jpg",
-          "width": 2000,
-          "height": 1500,
-          "size": 362657,
-          "timestamp": "2020-12-29T18:05:27Z",
-          "author": "Rbeaud",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Ch%C3%A2teau_de_Br%C3%A9z%C3%A9_29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Br%C3%A9z%C3%A9%2029.jpg",
+          "title": "Château de Brézé 29.jpg",
+          "description": "Corps du château vu depuis les douves",
+          "width": 5184,
+          "height": 2920,
+          "size": 5654541,
+          "timestamp": "2022-12-17T21:01:30Z",
+          "author": "Selmoval",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/2004%2C_ch%C3%A2teau_probablement_aux_alentours_de_Saumur_12.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2004%2C%20ch%C3%A2teau%20probablement%20aux%20alentours%20de%20Saumur%2012.jpg",
-          "title": "2004, château probablement aux alentours de Saumur 12.jpg",
-          "width": 1280,
-          "height": 960,
-          "size": 331711,
-          "timestamp": "2021-12-22T09:02:47Z",
-          "author": "Syced",
-          "license": "CC0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Br%C3%A9z%C3%A9_%2849%29_Ch%C3%A2teau_-_Douves_s%C3%A8ches_-_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABr%C3%A9z%C3%A9%20(49)%20Ch%C3%A2teau%20-%20Douves%20s%C3%A8ches%20-%2001.jpg",
+          "title": "Brézé (49) Château - Douves sèches - 01.jpg",
+          "description": "Douves sèches du château de Brézé (49).",
+          "width": 3648,
+          "height": 2736,
+          "size": 4910382,
+          "timestamp": "2025-03-30T13:55:10Z",
+          "author": "GO69",
+          "license": "CC BY 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/2004%2C_ch%C3%A2teau_probablement_aux_alentours_de_Saumur_13.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2004%2C%20ch%C3%A2teau%20probablement%20aux%20alentours%20de%20Saumur%2013.jpg",
-          "title": "2004, château probablement aux alentours de Saumur 13.jpg",
-          "width": 1280,
-          "height": 960,
-          "size": 334070,
-          "timestamp": "2021-12-22T09:03:06Z",
-          "author": "Syced",
-          "license": "CC0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Br%C3%A9z%C3%A9_%2849%29_Ch%C3%A2teau_-_Douves_s%C3%A8ches_-_09.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABr%C3%A9z%C3%A9%20(49)%20Ch%C3%A2teau%20-%20Douves%20s%C3%A8ches%20-%2009.jpg",
+          "title": "Brézé (49) Château - Douves sèches - 09.jpg",
+          "description": "Douves sèches du château de Brézé (49).",
+          "width": 3648,
+          "height": 2736,
+          "size": 4973438,
+          "timestamp": "2025-03-30T13:55:20Z",
+          "author": "GO69",
+          "license": "CC BY 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         }
       ]
     },
     {
       "label": "Village troglodytique",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Maille-Breze_-_1x_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaille-Breze%20-%201x%2001.jpg",
+          "title": "Maille-Breze - 1x 01.jpg",
+          "description": "The museum ship \"Maillé-Brézé\" (D627), built in 1957, was used for filming at Dunkerque in 2016. She represented two British destroyers, marked with D36 (Vivacious) on her port side and stern, and D54 (Vanquisher) on her starboard side.",
+          "width": 3397,
+          "height": 2121,
+          "size": 2136054,
+          "timestamp": "2024-07-16T03:14:11Z",
+          "author": "Davidships",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Maille-Breze_-_1x_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaille-Breze%20-%201x%2002.jpg",
+          "title": "Maille-Breze - 1x 02.jpg",
+          "description": "The museum ship \"Maillé-Brézé\" (D627), built in 1957, was used for filming at Dunkerque in 2016. She represented two British destroyers, marked with D36 (Vivacious) on her port side and stern, and D54 (Vanquisher) on her starboard side.",
+          "width": 3485,
+          "height": 2202,
+          "size": 1415396,
+          "timestamp": "2024-07-16T03:14:12Z",
+          "author": "Davidships",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Maille-Breze_communication_station-IMG_4154.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaille-Breze%20communication%20station-IMG%204154.JPG",
+          "title": "Maille-Breze communication station-IMG 4154.JPG",
+          "description": "Communication station on the French destroyer Maillé-Brézé.",
+          "width": 5616,
+          "height": 3744,
+          "size": 6937397,
+          "timestamp": "2019-07-26T19:44:09Z",
+          "author": "Rama",
+          "license": "CC BY-SA 3.0 fr",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Jardins en terrasse",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/H%C3%B4tel_Dreux-Breze_boulevard_Raspail.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AH%C3%B4tel%20Dreux-Breze%20boulevard%20Raspail.jpg",
+          "title": "Hôtel Dreux-Breze boulevard Raspail.jpg",
+          "description": "Facade of the hôtel de Dreux-Brézé on the boulevard Raspail (former garden facade)",
+          "width": 2448,
+          "height": 3264,
+          "size": 4761292,
+          "timestamp": "2017-12-20T23:01:35Z",
+          "author": "Louis H. G.",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Cuisine voûtée",

@@ -1,12 +1,13 @@
 {
   "slug": "chaux",
   "nom": "Chaux",
-  "fetchedAt": "2026-03-13T13:24:08.529Z",
+  "fetchedAt": "2026-03-16T11:43:55.998Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Chaux%2C_Mairie.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChaux%2C%20Mairie.JPG",
       "title": "Chaux, Mairie.JPG",
+      "description": "La mairie de Chaux",
       "width": 4224,
       "height": 2716,
       "size": 1652117,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Chaux%2C_%C3%89glise_Saint-Martin_2.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChaux%2C%20%C3%89glise%20Saint-Martin%202.jpg",
       "title": "Chaux, Église Saint-Martin 2.jpg",
+      "description": "L'église Saint-Martin à Chaux, côté sud-est",
       "width": 3795,
       "height": 2728,
       "size": 1911295,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/2020-12-28_17-52-15_lum-noel-Chaux.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2020-12-28%2017-52-15%20lum-noel-Chaux.jpg",
       "title": "2020-12-28 17-52-15 lum-noel-Chaux.jpg",
+      "description": "This   file was uploaded  with Commonist.\nLumières de Noël, à Chaux.",
       "width": 3997,
       "height": 2999,
       "size": 20049261,
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Chaux%2C_%C3%89glise_Saint-Martin_2.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChaux%2C%20%C3%89glise%20Saint-Martin%202.jpg",
           "title": "Chaux, Église Saint-Martin 2.jpg",
+          "description": "L'église Saint-Martin à Chaux, côté sud-est",
           "width": 3795,
           "height": 2728,
           "size": 1911295,
@@ -61,27 +65,29 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Eglise_Saint-Martin._%281%29_Chaux.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Saint-Martin.%20(1)%20Chaux.jpg",
-          "title": "Eglise Saint-Martin. (1) Chaux.jpg",
-          "width": 3055,
-          "height": 2289,
-          "size": 1836142,
-          "timestamp": "2020-01-25T10:17:40Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Eglise_Saint-Pierre._Chaux-l%C3%A8s-Clerval.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Saint-Pierre.%20Chaux-l%C3%A8s-Clerval.jpg",
+          "title": "Eglise Saint-Pierre. Chaux-lès-Clerval.jpg",
+          "description": "Eglise de Chaux-lès-Clerval",
+          "width": 4000,
+          "height": 3000,
+          "size": 3612292,
+          "timestamp": "2021-06-25T09:35:25Z",
           "author": "Espirat",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Eglise_Saint-Martin._%282%29_Chaux.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Saint-Martin.%20(2)%20Chaux.jpg",
-          "title": "Eglise Saint-Martin. (2) Chaux.jpg",
-          "width": 3056,
-          "height": 2291,
-          "size": 1857951,
-          "timestamp": "2020-01-25T10:19:32Z",
-          "author": "Espirat",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Chaux-Neuve_Eglise_26.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChaux-Neuve%20Eglise%2026.jpg",
+          "title": "Chaux-Neuve Eglise 26.jpg",
+          "description": "Eglise de Chaux-Neuve",
+          "width": 5191,
+          "height": 2432,
+          "size": 7849017,
+          "timestamp": "2022-08-29T08:44:14Z",
+          "author": "René Hourdry",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
@@ -90,11 +96,69 @@
     },
     {
       "label": "Ruisseau de la Madeleine",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Chaux-la-Loti%C3%A8re_%28Haute-Sa%C3%B4ne%29_B%C3%A2timents_et_constructions_hdsr_VLux5_b0.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChaux-la-Loti%C3%A8re%20(Haute-Sa%C3%B4ne)%20B%C3%A2timents%20et%20constructions%20hdsr%20VLux5%20b0.jpg",
+          "title": "Chaux-la-Lotière (Haute-Saône) Bâtiments et constructions hdsr VLux5 b0.jpg",
+          "description": "image montrant une photographie prise sur le territoire de la commune de Chaux-la-Lotière : pont de pierre sur le ruisseau",
+          "width": 4864,
+          "height": 3648,
+          "size": 11375743,
+          "timestamp": "2023-11-12T07:25:30Z",
+          "author": "Hyppolyte de Saint-Rambert",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Forêt domaniale de Saint-Antoine",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/39129-Chaux-des-Crotenay-Sols.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A39129-Chaux-des-Crotenay-Sols.png",
+          "title": "39129-Chaux-des-Crotenay-Sols.png",
+          "description": "Carte des infrastructures et de l’occupation des sols en 2018 de la commune de fr:Chaux-des-Crotenay (France).",
+          "width": 3270,
+          "height": 2598,
+          "size": 1786067,
+          "timestamp": "2021-05-13T09:53:30Z",
+          "author": "Roland45",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Plan_de_la_For%C3%AAt_de_Chaux%2C_de_l%27Emplacement_de_la_Saline%2C_du_Batiment_de_Graduation%2C_du_Canal_et_des_Routes_projett%C3%A9es_dans_cette_Foret_pour_le_Service_de_la_Saline_-_btv1b530999422.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlan%20de%20la%20For%C3%AAt%20de%20Chaux%2C%20de%20l'Emplacement%20de%20la%20Saline%2C%20du%20Batiment%20de%20Graduation%2C%20du%20Canal%20et%20des%20Routes%20projett%C3%A9es%20dans%20cette%20Foret%20pour%20le%20Service%20de%20la%20Saline%20-%20btv1b530999422.jpg",
+          "title": "Plan de la Forêt de Chaux, de l'Emplacement de la Saline, du Batiment de Graduation, du Canal et des Routes projettées dans cette Foret pour le Service de la Saline - btv1b530999422.jpg",
+          "description": "Sujet : Forêts\nChaux, Forêt domaniale de\nÉchelle(s) : Echelle de 2 lieues comtoises de 3000 Toises [=Om. 248 ; 1:47 500 environ]\nCouverture : France – Bourgogne-Franche-Comté – Jura\nLangue : français\n\nÉditeur : [s.n.]",
+          "width": 10928,
+          "height": 6961,
+          "size": 14657867,
+          "timestamp": "2022-07-11T19:20:47Z",
+          "author": "Inconnu",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Paysage_de_Chaux-des-Crotenay_%28Jura%29_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APaysage%20de%20Chaux-des-Crotenay%20(Jura)%2001.jpg",
+          "title": "Paysage de Chaux-des-Crotenay (Jura) 01.jpg",
+          "description": "Paysage de Chaux-des-Crotenay (Jura).",
+          "width": 3000,
+          "height": 2000,
+          "size": 2144788,
+          "timestamp": "2022-11-06T06:06:05Z",
+          "author": "Jean de l'Auxois",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

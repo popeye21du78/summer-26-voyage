@@ -1,38 +1,13 @@
 {
   "slug": "chateau-de-cheverny",
   "nom": "Château de Cheverny",
-  "fetchedAt": "2026-03-13T12:52:02.881Z",
+  "fetchedAt": "2026-03-15T21:21:48.051Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/20190413_cheverny_160257.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20190413%20cheverny%20160257.jpg",
-      "title": "20190413 cheverny 160257.jpg",
-      "width": 4608,
-      "height": 2592,
-      "size": 8855204,
-      "timestamp": "2020-02-17T14:26:17Z",
-      "author": "Chbo91",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Crystal_deer_head_in_the_private_Rooms_of_Cheverny_Castle.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACrystal%20deer%20head%20in%20the%20private%20Rooms%20of%20Cheverny%20Castle.jpg",
-      "title": "Crystal deer head in the private Rooms of Cheverny Castle.jpg",
-      "width": 4000,
-      "height": 3000,
-      "size": 2407618,
-      "timestamp": "2025-05-21T15:53:32Z",
-      "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q97949455\" class=\"extiw\" title=\"d:Q97949455\"><span title=\"French photographer and Wikimedian\">Pierre André Leclercq</span></a></bdi>",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Aerial_image_of_Ch%C3%A2teau_de_Cheverny_%28view_from_the_southwest%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAerial%20image%20of%20Ch%C3%A2teau%20de%20Cheverny%20(view%20from%20the%20southwest).jpg",
       "title": "Aerial image of Château de Cheverny (view from the southwest).jpg",
+      "description": "Aerial image of Château de Cheverny (view from the southwest)",
       "width": 4874,
       "height": 3600,
       "size": 10547830,
@@ -40,59 +15,176 @@
       "author": "Carsten Steger",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Ch%C3%A2teau_de_Troussay_en_1987.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Troussay%20en%201987.jpg",
+      "title": "Château de Troussay en 1987.jpg",
+      "description": "Château de Troussay en 1987",
+      "width": 6982,
+      "height": 4249,
+      "size": 7429846,
+      "timestamp": "2012-09-27T19:17:27Z",
+      "author": "Havang(nl)",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/41700_Cheverny%2C_France_-_panoramio.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A41700%20Cheverny%2C%20France%20-%20panoramio.jpg",
+      "title": "41700 Cheverny, France - panoramio.jpg",
+      "description": "41700 Cheverny, France",
+      "width": 3193,
+      "height": 2123,
+      "size": 2574972,
+      "timestamp": "2017-07-06T22:59:23Z",
+      "author": "mitchellma",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
     }
   ],
   "lieux": [
     {
       "label": "Façade principale et toits d’ardoise",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Ch%C3%A2teau_de_Cheverny%2C_facade_sud.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Cheverny%2C%20facade%20sud.jpg",
+          "title": "Château de Cheverny, facade sud.jpg",
+          "description": "Façade sud du Château de Cheverny, Loir-et-Cher, France.",
+          "width": 2238,
+          "height": 1492,
+          "size": 3128885,
+          "timestamp": "2026-02-19T18:02:19Z",
+          "author": "Bachelot Pierre J-P",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Cheverny-Chateau-VueFrontale.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACheverny-Chateau-VueFrontale.jpg",
+          "title": "Cheverny-Chateau-VueFrontale.jpg",
+          "description": "Château de Cheverny - Vue Frontale",
+          "width": 4192,
+          "height": 2795,
+          "size": 4115519,
+          "timestamp": "2015-06-28T00:31:42Z",
+          "author": "Jean-Christophe BENOIST",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Fa%C3%A7ade_sud_du_ch%C3%A2teau_de_Cheverny.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFa%C3%A7ade%20sud%20du%20ch%C3%A2teau%20de%20Cheverny.JPG",
+          "title": "Façade sud du château de Cheverny.JPG",
+          "description": "Château de Cheverny (façade sud)",
+          "width": 3456,
+          "height": 2304,
+          "size": 3581092,
+          "timestamp": "2016-03-23T22:09:15Z",
+          "author": "Nono vlf",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        }
+      ]
     },
     {
       "label": "Allée des tilleuls",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Ch%C3%A2teau_de_Cheverny_20_09_2022_1640.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Cheverny%2020%2009%202022%201640.jpg",
+          "title": "Château de Cheverny 20 09 2022 1640.jpg",
+          "description": "image montrant l'allée centrale du Château de Cheverny",
+          "width": 5184,
+          "height": 3456,
+          "size": 11461353,
+          "timestamp": "2022-09-30T11:58:51Z",
+          "author": "Hyppolyte de Saint-Rambert",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Ch%C3%A2teau_de_Cheverny_%28all%C3%A9e_principale%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Cheverny%20(all%C3%A9e%20principale).jpg",
+          "title": "Château de Cheverny (allée principale).jpg",
+          "description": "Château de Cheverny (allée principale)",
+          "width": 3454,
+          "height": 1780,
+          "size": 2859161,
+          "timestamp": "2016-03-24T22:33:32Z",
+          "author": "Nono vlf",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Ch%C3%A2teau_de_Cheverny%2C_fa%C3%A7ade_Sud_%28all%C3%A9e_principale%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Cheverny%2C%20fa%C3%A7ade%20Sud%20(all%C3%A9e%20principale).JPG",
+          "title": "Château de Cheverny, façade Sud (allée principale).JPG",
+          "description": "Château de Cheverny, façade Sud (allée principale)",
+          "width": 3456,
+          "height": 2304,
+          "size": 3886291,
+          "timestamp": "2016-03-24T22:33:37Z",
+          "author": "Nono vlf",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        }
+      ]
     },
     {
       "label": "Salle d’armes",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Cheverny_-_ch%C3%A2teau%2C_int%C3%A9rieur_%2823%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACheverny%20-%20ch%C3%A2teau%2C%20int%C3%A9rieur%20(23).jpg",
-          "title": "Cheverny - château, intérieur (23).jpg",
-          "width": 3264,
-          "height": 2448,
-          "size": 3023331,
-          "timestamp": "2019-09-07T13:47:19Z",
-          "author": "Fab5669",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Small_dining_room_of_Ch%C3%A2teau_de_Cheverny.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASmall%20dining%20room%20of%20Ch%C3%A2teau%20de%20Cheverny.jpg",
+          "title": "Small dining room of Château de Cheverny.jpg",
+          "description": "Vaisselle en cristal de la petite salle à manger du Château de Cheverny  Loir-et-Cher, France",
+          "width": 2427,
+          "height": 1942,
+          "size": 3002245,
+          "timestamp": "2024-10-02T10:38:59Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q97949455\" class=\"extiw\" title=\"d:Q97949455\"><span title=\"French photographer and Wikimedian\">Pierre André Leclercq</span></a></bdi>",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Cheverny-Chateau-SalleDArmes.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACheverny-Chateau-SalleDArmes.jpg",
-          "title": "Cheverny-Chateau-SalleDArmes.jpg",
-          "width": 4272,
-          "height": 2848,
-          "size": 4397652,
-          "timestamp": "2011-03-06T17:27:34Z",
-          "author": "Jean-Christophe BENOIST",
-          "license": "CC BY 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Cheverny12.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACheverny12.jpg",
-          "title": "Cheverny12.jpg",
-          "width": 2500,
-          "height": 1892,
-          "size": 2305862,
-          "timestamp": "2007-12-07T14:02:26Z",
-          "author": "Manfred Heyde",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Int%C3%A9rieur_du_ch%C3%A2teau_de_Cheverny_%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AInt%C3%A9rieur%20du%20ch%C3%A2teau%20de%20Cheverny%20(2).jpg",
+          "title": "Intérieur du château de Cheverny (2).jpg",
+          "description": "La salle d'armes du Château de Cheverny comporte un mobilier style \"Régence\" signé J.Baptiste Boulard.  Loir-et-Cher, France",
+          "width": 4912,
+          "height": 3264,
+          "size": 3844686,
+          "timestamp": "2015-09-15T09:11:26Z",
+          "author": "PIERRE ANDRE LECLERCQ",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Ch%C3%A2teau_de_Cheverny%2C_petite_salle_%C3%A0_manger.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Cheverny%2C%20petite%20salle%20%C3%A0%20manger.jpg",
+          "title": "Château de Cheverny, petite salle à manger.jpg",
+          "description": "Petite salle à Manger de l'aile est du Château de Cheverny. Département du Loire et Cher, France.",
+          "width": 2588,
+          "height": 1941,
+          "size": 3602236,
+          "timestamp": "2013-05-04T09:34:11Z",
+          "author": "Bachelot Pierre J-P",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
         }
       ]
     },
@@ -103,6 +195,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Kennel_of_Ch%C3%A2teau_de_Cheverny_2012.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKennel%20of%20Ch%C3%A2teau%20de%20Cheverny%202012.jpg",
           "title": "Kennel of Château de Cheverny 2012.jpg",
+          "description": "Kennel of Château de Cheverny",
           "width": 2560,
           "height": 1920,
           "size": 2498667,
@@ -110,12 +203,13 @@
           "author": "JopkeB",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Chenil_de_Cheverny_ViaOuest.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChenil%20de%20Cheverny%20ViaOuest.jpg",
           "title": "Chenil de Cheverny ViaOuest.jpg",
+          "description": "Une vue du chenil du château de Chevernyen Sologne dans le département de Loir-et-Cher et la région Centre-Val de Loire",
           "width": 3200,
           "height": 2368,
           "size": 2311795,
@@ -123,12 +217,13 @@
           "author": "Viaouest",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Les_chenils_du_ch%C3%A2teau_de_Cheverny.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20chenils%20du%20ch%C3%A2teau%20de%20Cheverny.jpg",
           "title": "Les chenils du château de Cheverny.jpg",
+          "description": "Les communs du  Château de Cheverny\n Cheverny  Loir-et-Cher, France",
           "width": 3301,
           "height": 2361,
           "size": 1620093,
@@ -136,7 +231,7 @@
           "author": "PIERRE ANDRE LECLERCQ",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         }
       ]
     }

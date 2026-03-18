@@ -1,12 +1,13 @@
 {
   "slug": "peyrepertuse",
   "nom": "Peyrepertuse",
-  "fetchedAt": "2026-03-13T16:50:39.700Z",
+  "fetchedAt": "2026-03-17T22:26:19.851Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Ch%C3%A2teaux_du_Pays_cathare_-_Ch%C3%A2teau_de_Peyrepertuse_-_03.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teaux%20du%20Pays%20cathare%20-%20Ch%C3%A2teau%20de%20Peyrepertuse%20-%2003.jpg",
       "title": "Châteaux du Pays cathare - Château de Peyrepertuse - 03.jpg",
+      "description": "Château de Peyrepertuse, Département Aude, France",
       "width": 5152,
       "height": 4000,
       "size": 20501960,
@@ -14,12 +15,13 @@
       "author": "H.. Zell",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/France_Occitanie_11_Peyrepertuse_01.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20Occitanie%2011%20Peyrepertuse%2001.jpg",
       "title": "France Occitanie 11 Peyrepertuse 01.jpg",
+      "description": "Château de Peyrepertuse",
       "width": 6016,
       "height": 4016,
       "size": 10569900,
@@ -27,12 +29,13 @@
       "author": "Calips",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/France_Occitanie_11_Peyrepertuse_03.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20Occitanie%2011%20Peyrepertuse%2003.jpg",
       "title": "France Occitanie 11 Peyrepertuse 03.jpg",
+      "description": "Château de Peyrepertuse",
       "width": 6016,
       "height": 4016,
       "size": 9125011,
@@ -40,7 +43,7 @@
       "author": "Calips",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     }
   ],
   "lieux": [
@@ -59,6 +62,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Ch%C3%A2teau_de_Peyrepertuse_-_%C3%89glise_Sainte_Marie_1.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Peyrepertuse%20-%20%C3%89glise%20Sainte%20Marie%201.jpg",
           "title": "Château de Peyrepertuse - Église Sainte Marie 1.jpg",
+          "description": "Château de Peyrepertuse",
           "width": 2304,
           "height": 3072,
           "size": 1540974,
@@ -66,7 +70,21 @@
           "author": "Guillaume Paumier",
           "license": "CC BY 2.5",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 3
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Chateau_de_Peyrepertuse_%28commune_de_DULHAC_SOUS_PEYREPERTUSE%296.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau%20de%20Peyrepertuse%20(commune%20de%20DULHAC%20SOUS%20PEYREPERTUSE)6.JPG",
+          "title": "Chateau de Peyrepertuse (commune de DULHAC SOUS PEYREPERTUSE)6.JPG",
+          "description": "Vu du chateau de la Chapelle Sant-Jordi",
+          "width": 3264,
+          "height": 2448,
+          "size": 2521630,
+          "timestamp": "2012-09-24T17:01:04Z",
+          "author": "Jarodtlse",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
         }
       ]
     },

@@ -1,12 +1,13 @@
 {
   "slug": "gavres",
   "nom": "Gâvres",
-  "fetchedAt": "2026-03-13T14:32:01.150Z",
+  "fetchedAt": "2026-03-16T13:39:44.524Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Plage_de_Gavres_-_panoramio.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlage%20de%20Gavres%20-%20panoramio.jpg",
       "title": "Plage de Gavres - panoramio.jpg",
+      "description": "Plage de Gavres",
       "width": 3264,
       "height": 2448,
       "size": 3190867,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Pointe_de_G%C3%A2vres_-_panoramio.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APointe%20de%20G%C3%A2vres%20-%20panoramio.jpg",
       "title": "Pointe de Gâvres - panoramio.jpg",
+      "description": "Pointe de Gâvres",
       "width": 3264,
       "height": 2448,
       "size": 3635454,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/G%C3%A2vres%2C_France_-_panoramio.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AG%C3%A2vres%2C%20France%20-%20panoramio.jpg",
       "title": "Gâvres, France - panoramio.jpg",
+      "description": "Gâvres, France",
       "width": 3264,
       "height": 2448,
       "size": 2151140,
@@ -55,6 +58,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/061_La_citadelle_de_Port-Louis_vue_de_la_Pointe_de_Gavres.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A061%20La%20citadelle%20de%20Port-Louis%20vue%20de%20la%20Pointe%20de%20Gavres.jpg",
           "title": "061 La citadelle de Port-Louis vue de la Pointe de Gavres.jpg",
+          "description": "La citadelle de Port-Louis vue de la pointe de Gâvres (gravure de G. Canali d'après un dessin de Nicolas Ozanne ; réduit de la collection des ports dessinés pour le roi en 1776 ; musée national de la Marine de Port-Louis).",
           "width": 2929,
           "height": 1737,
           "size": 3308387,
@@ -62,12 +66,13 @@
           "author": "Moreau.henri",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/1270_G%C3%A2vres.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1270%20G%C3%A2vres.jpg",
           "title": "1270 Gâvres.jpg",
+          "description": "Gâvres : canons français au service de l'armée allemande à la Pointe des Saisies en 1941.",
           "width": 2969,
           "height": 2137,
           "size": 2144367,
@@ -81,6 +86,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/1260_G%C3%A2vres.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1260%20G%C3%A2vres.jpg",
           "title": "1260 Gâvres.jpg",
+          "description": "Gâvres : falaise et estran rocheux côté ouest de la Pointe des Saisies ayant conservé des traces de leur ancienne exploitation comme carrière.",
           "width": 4320,
           "height": 3240,
           "size": 3776375,
@@ -94,11 +100,97 @@
     },
     {
       "label": "Plage de Grand Site",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/595_Gavres.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A595%20Gavres.jpg",
+          "title": "595 Gavres.jpg",
+          "description": "Gâvres : la plage près du camping de la Lande (côté est de la presqu'île de Gâvres).",
+          "width": 3072,
+          "height": 2304,
+          "size": 3677658,
+          "timestamp": "2021-01-22T05:43:02Z",
+          "author": "Moreau.henri",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Plage_de_Gavres_-_panoramio.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlage%20de%20Gavres%20-%20panoramio.jpg",
+          "title": "Plage de Gavres - panoramio.jpg",
+          "description": "Plage de Gavres",
+          "width": 3264,
+          "height": 2448,
+          "size": 3190867,
+          "timestamp": "2017-01-09T12:50:25Z",
+          "author": "mphb45",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/1265_G%C3%A2vres.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1265%20G%C3%A2vres.jpg",
+          "title": "1265 Gâvres.jpg",
+          "description": "Gâvres : la plage au nord de Porh Guerh.",
+          "width": 4176,
+          "height": 984,
+          "size": 2085455,
+          "timestamp": "2021-01-22T05:09:36Z",
+          "author": "Moreau.henri",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Blockhaus du mur de l’Atlantique",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/1261_G%C3%A2vres.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1261%20G%C3%A2vres.jpg",
+          "title": "1261 Gâvres.jpg",
+          "description": "Gâvres : un des blockhaus de la Pointe des Saisies (malheureusement taggé).",
+          "width": 4314,
+          "height": 2158,
+          "size": 3208888,
+          "timestamp": "2021-01-22T04:49:39Z",
+          "author": "Moreau.henri",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/1267_G%C3%A2vres.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1267%20G%C3%A2vres.jpg",
+          "title": "1267 Gâvres.jpg",
+          "description": "Gâvres : cordon d'enrochement, sentier littoral et blockhaus côté ouest de la Pointe des Saisies.",
+          "width": 4314,
+          "height": 2157,
+          "size": 4243912,
+          "timestamp": "2021-01-22T05:14:03Z",
+          "author": "Moreau.henri",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/596_Gavres_Blockhaus.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A596%20Gavres%20Blockhaus.jpg",
+          "title": "596 Gavres Blockhaus.jpg",
+          "description": "Gâvres : les blockhaus de la Pointe des Saisies.",
+          "width": 3017,
+          "height": 1662,
+          "size": 3159076,
+          "timestamp": "2021-01-22T05:36:29Z",
+          "author": "Moreau.henri",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

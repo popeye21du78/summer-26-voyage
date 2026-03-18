@@ -1,12 +1,13 @@
 {
   "slug": "villers-sous-chatillon",
   "nom": "Villers-sous-Châtillon",
-  "fetchedAt": "2026-03-14T14:38:43.212Z",
+  "fetchedAt": "2026-03-18T21:06:08.541Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/VILLERS_SOUS_CHATILLON_%283%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVILLERS%20SOUS%20CHATILLON%20(3).jpg",
       "title": "VILLERS SOUS CHATILLON (3).jpg",
+      "description": "Église Saint-Jacques de Villers-sous-Châtillon",
       "width": 2045,
       "height": 1534,
       "size": 966735,
@@ -17,36 +18,53 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/BAS_LIEUX_SOUS_CHATILLON_%282%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABAS%20LIEUX%20SOUS%20CHATILLON%20(2).jpg",
-      "title": "BAS LIEUX SOUS CHATILLON (2).jpg",
-      "width": 1514,
-      "height": 2019,
-      "size": 964988,
-      "timestamp": "2023-12-30T08:17:38Z",
-      "author": "WCOMFR",
-      "license": "CC BY 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Prieur%C3%A9_de_Binson_-_Ensemble_est_-_Eglise_et_b%C3%A2timent_abbatial_-_Ch%C3%A2tillon-sur-Marne_-_M%C3%A9diath%C3%A8que_de_l%27architecture_et_du_patrimoine_-_APMH00016730.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APrieur%C3%A9%20de%20Binson%20-%20Ensemble%20est%20-%20Eglise%20et%20b%C3%A2timent%20abbatial%20-%20Ch%C3%A2tillon-sur-Marne%20-%20M%C3%A9diath%C3%A8que%20de%20l'architecture%20et%20du%20patrimoine%20-%20APMH00016730.jpg",
-      "title": "Prieuré de Binson - Ensemble est - Eglise et bâtiment abbatial - Châtillon-sur-Marne - Médiathèque de l'architecture et du patrimoine - APMH00016730.jpg",
-      "width": 669,
-      "height": 512,
-      "size": 46122,
-      "timestamp": "2020-05-03T11:12:03Z",
-      "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q3165380\" class=\"extiw\" title=\"d:Q3165380\"><span title=\"French photographer (1845-1926)\">Jean-Eugène Durand</span></a></bdi>",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Villers-Plouich_-_Mairie.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVillers-Plouich%20-%20Mairie.jpg",
+      "title": "Villers-Plouich - Mairie.jpg",
+      "description": "Vue de la mairie de Villers-Plouich.",
+      "width": 5312,
+      "height": 2988,
+      "size": 4658059,
+      "timestamp": "2016-03-13T09:26:14Z",
+      "author": "Floflo62",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 4
+      "score": 8
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/View_workshops_villers_abbey.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AView%20workshops%20villers%20abbey.jpg",
+      "title": "View workshops villers abbey.jpg",
+      "description": "View of the workshops of the Villlers abbey",
+      "width": 3264,
+      "height": 2448,
+      "size": 2979661,
+      "timestamp": "2013-07-27T16:08:26Z",
+      "author": "User:Afernand74",
+      "license": "CC BY-SA 1.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
     }
   ],
   "lieux": [
     {
       "label": "Église Saint-Jacques-le-Majeur",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/VILLERS_SOUS_CHATILLON_%283%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVILLERS%20SOUS%20CHATILLON%20(3).jpg",
+          "title": "VILLERS SOUS CHATILLON (3).jpg",
+          "description": "Église Saint-Jacques de Villers-sous-Châtillon",
+          "width": 2045,
+          "height": 1534,
+          "size": 966735,
+          "timestamp": "2024-01-05T20:56:57Z",
+          "author": "WCOMFR",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Lavoir de Villers-sous-Châtillon",

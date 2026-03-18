@@ -1,43 +1,46 @@
 {
   "slug": "dampierre-sur-salon",
   "nom": "Dampierre-sur-Salon",
-  "fetchedAt": "2026-03-13T14:02:20.812Z",
+  "fetchedAt": "2026-03-16T12:37:06.376Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Biblioth%C3%A8que_Louis-Garret_%28Vesoul%29_-_12_octobre_2023_%282%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABiblioth%C3%A8que%20Louis-Garret%20(Vesoul)%20-%2012%20octobre%202023%20(2).jpg",
-      "title": "Bibliothèque Louis-Garret (Vesoul) - 12 octobre 2023 (2).jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 5234971,
-      "timestamp": "2023-10-13T09:25:38Z",
-      "author": "Petrepem",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/DAMPIERRE_ok.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADAMPIERRE%20ok.jpg",
+      "title": "DAMPIERRE ok.jpg",
+      "description": "Vue des jardins de Dampierre, depuis la terrasse supérieure.",
+      "width": 1696,
+      "height": 608,
+      "size": 401154,
+      "timestamp": "2025-11-25T12:14:48Z",
+      "author": "Franck devedjian",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/70198-Dampierre-sur-Salon-Sols.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A70198-Dampierre-sur-Salon-Sols.png",
+      "title": "70198-Dampierre-sur-Salon-Sols.png",
+      "description": "Carte des infrastructures et de l’occupation des sols en 2018 de la commune de fr:Dampierre-sur-Salon (France).",
+      "width": 3270,
+      "height": 2598,
+      "size": 2283571,
+      "timestamp": "2021-05-13T12:37:11Z",
+      "author": "Roland45",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Fresque_de_D%C3%A9caris_-_mairie_de_Vesoul_%2813_octobre_2023%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFresque%20de%20D%C3%A9caris%20-%20mairie%20de%20Vesoul%20(13%20octobre%202023).jpg",
-      "title": "Fresque de Décaris - mairie de Vesoul (13 octobre 2023).jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 5404284,
-      "timestamp": "2023-10-25T20:44:23Z",
-      "author": "Petrepem",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Fresque_de_D%C3%A9caris_-_mairie_de_Vesoul_%2813_octobre_2023%29_2.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFresque%20de%20D%C3%A9caris%20-%20mairie%20de%20Vesoul%20(13%20octobre%202023)%202.jpg",
-      "title": "Fresque de Décaris - mairie de Vesoul (13 octobre 2023) 2.jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 4520380,
-      "timestamp": "2023-10-25T20:44:23Z",
-      "author": "Petrepem",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Branche_nord_du_Salon%2C_en_aval_du_pont_de_Dampierre.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABranche%20nord%20du%20Salon%2C%20en%20aval%20du%20pont%20de%20Dampierre.jpg",
+      "title": "Branche nord du Salon, en aval du pont de Dampierre.jpg",
+      "description": "Branche nord de la rivière Salon, vue en aval du pont de Dampierre-sur-Salon",
+      "width": 2272,
+      "height": 1704,
+      "size": 1706629,
+      "timestamp": "2022-09-07T10:12:57Z",
+      "author": "Espirat",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
@@ -46,7 +49,50 @@
   "lieux": [
     {
       "label": "Église Saint-Étienne",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Eglise_de_la_Nativit%C3%A9_de_Notre-Dame._Dampierre-sur-Salon.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20de%20la%20Nativit%C3%A9%20de%20Notre-Dame.%20Dampierre-sur-Salon.jpg",
+          "title": "Eglise de la Nativité de Notre-Dame. Dampierre-sur-Salon.jpg",
+          "description": "Eglise de Dampierre-sur-Salon",
+          "width": 2173,
+          "height": 1629,
+          "size": 1338165,
+          "timestamp": "2022-09-07T10:16:44Z",
+          "author": "Espirat",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Nef_de_l%27%C3%A9glise._Dampierre-sur-Salon.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANef%20de%20l'%C3%A9glise.%20Dampierre-sur-Salon.jpg",
+          "title": "Nef de l'église. Dampierre-sur-Salon.jpg",
+          "description": "Nef de l'église",
+          "width": 2223,
+          "height": 1666,
+          "size": 1233798,
+          "timestamp": "2022-09-07T10:21:07Z",
+          "author": "Espirat",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Fonts_baptismaux._Dampierre-sur-Salon.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFonts%20baptismaux.%20Dampierre-sur-Salon.jpg",
+          "title": "Fonts baptismaux. Dampierre-sur-Salon.jpg",
+          "description": "Fonts baptismaux",
+          "width": 1704,
+          "height": 2272,
+          "size": 1303908,
+          "timestamp": "2022-09-07T10:18:53Z",
+          "author": "Espirat",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Façade du château de Dampierre-sur-Salon",
@@ -54,7 +100,22 @@
     },
     {
       "label": "Lavoir de la rue du Moulin",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Rue_Alfred_Dornier._Dampierre-sur-salon.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARue%20Alfred%20Dornier.%20Dampierre-sur-salon.jpg",
+          "title": "Rue Alfred Dornier. Dampierre-sur-salon.jpg",
+          "description": "Rue Alfred Dornier",
+          "width": 2223,
+          "height": 1666,
+          "size": 1418863,
+          "timestamp": "2022-09-07T10:24:21Z",
+          "author": "Espirat",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

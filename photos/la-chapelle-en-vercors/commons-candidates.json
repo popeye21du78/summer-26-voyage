@@ -1,12 +1,13 @@
 {
   "slug": "la-chapelle-en-vercors",
   "nom": "La Chapelle-en-Vercors",
-  "fetchedAt": "2026-03-13T14:58:13.672Z",
+  "fetchedAt": "2026-03-16T14:40:55.163Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/La_Chapelle-en-Vercors_%28Drome%29_center.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Chapelle-en-Vercors%20(Drome)%20center.jpg",
       "title": "La Chapelle-en-Vercors (Drome) center.jpg",
+      "description": "Centre of La Chapelle-en-Vercors, Drome, France",
       "width": 3456,
       "height": 2304,
       "size": 916457,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/La_Chapelle-en-Vercors_%28Drome%29_town_hall.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Chapelle-en-Vercors%20(Drome)%20town%20hall.jpg",
       "title": "La Chapelle-en-Vercors (Drome) town hall.jpg",
+      "description": "Town hall of La Chapelle-en-Vercors, Drôme, France",
       "width": 3456,
       "height": 2304,
       "size": 1058666,
@@ -30,15 +32,16 @@
       "score": 6
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/La_Chapelle_En_Vercors_First_Snow_%2856965314%29.jpeg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Chapelle%20En%20Vercors%20First%20Snow%20(56965314).jpeg",
-      "title": "La Chapelle En Vercors First Snow (56965314).jpeg",
-      "width": 1024,
-      "height": 606,
-      "size": 211439,
-      "timestamp": "2018-08-06T20:46:32Z",
-      "author": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/PeupleLoup\">Peupleloup</a></div>",
-      "license": "CC BY-SA 3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/La_Chapelle-en-Vercors_-_H%C3%B4tel_Bellier_-_bo%C3%AEte_%C3%A0_livres.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Chapelle-en-Vercors%20-%20H%C3%B4tel%20Bellier%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
+      "title": "La Chapelle-en-Vercors - Hôtel Bellier - boîte à livres.jpg",
+      "description": "Boîte à livres à La Chapelle-en-Vercors",
+      "width": 920,
+      "height": 2040,
+      "size": 378169,
+      "timestamp": "2025-02-12T14:54:02Z",
+      "author": "Sophie",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 5
     }
@@ -54,7 +57,22 @@
     },
     {
       "label": "Pré Peyret",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Un_troupeau_pr%C3%A8s_d%27une_chapelle_%2811738393173%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AUn%20troupeau%20pr%C3%A8s%20d'une%20chapelle%20(11738393173).jpg",
+          "title": "Un troupeau près d'une chapelle (11738393173).jpg",
+          "description": "Plateau du Vercors, entre la Chapelle-en-Vercors et Vassieux-en-Vercors",
+          "width": 4608,
+          "height": 3072,
+          "size": 3672118,
+          "timestamp": "2022-07-31T17:12:12Z",
+          "author": "Jeanne Menjoulet",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Pas du Gouillat",

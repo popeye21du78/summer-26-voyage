@@ -1,12 +1,13 @@
 {
   "slug": "rousset",
   "nom": "Rousset",
-  "fetchedAt": "2026-03-14T11:52:40.776Z",
+  "fetchedAt": "2026-03-18T17:50:04.285Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/L%27Eglise_-_Rousset_%2813%29.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AL'Eglise%20-%20Rousset%20(13).JPG",
       "title": "L'Eglise - Rousset (13).JPG",
+      "description": "The church of Rousset",
       "width": 1488,
       "height": 1984,
       "size": 650582,
@@ -17,28 +18,30 @@
       "score": 3
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Vue_des_vignes_et_du_village_de_Peynier.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20des%20vignes%20et%20du%20village%20de%20Peynier.jpg",
-      "title": "Vue des vignes et du village de Peynier.jpg",
-      "width": 3968,
-      "height": 1984,
-      "size": 4135328,
-      "timestamp": "2020-08-07T18:02:42Z",
-      "author": "Mathieu BROSSAIS",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Rousset-FR-13-panneau_d%27agglom%C3%A9ration-02.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARousset-FR-13-panneau%20d'agglom%C3%A9ration-02.jpg",
+      "title": "Rousset-FR-13-panneau d'agglomération-02.jpg",
+      "description": "Rousset (Bouches-du-Rhône, France) ; panneau de limite d'agglomération",
+      "width": 3881,
+      "height": 2910,
+      "size": 3017336,
+      "timestamp": "2020-09-01T16:42:56Z",
+      "author": "François GOGLINS",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/ISS043-E-138118_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS043-E-138118%20-%20View%20of%20Earth.jpg",
-      "title": "ISS043-E-138118 - View of Earth.jpg",
-      "width": 4928,
-      "height": 3280,
-      "size": 2876135,
-      "timestamp": "2021-03-16T21:29:54Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/05127-Rousset-Sols.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A05127-Rousset-Sols.png",
+      "title": "05127-Rousset-Sols.png",
+      "description": "Carte des infrastructures et de l’occupation des sols en 2018 de la commune de fr:Rousset (Hautes-Alpes) (France).",
+      "width": 3270,
+      "height": 2598,
+      "size": 1253880,
+      "timestamp": "2021-05-18T10:18:27Z",
+      "author": "Roland45",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     }
@@ -46,41 +49,59 @@
   "lieux": [
     {
       "label": "Église Saint-Denis",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Rousset-FR-13-%C3%A9glise-02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARousset-FR-13-%C3%A9glise-02.jpg",
+          "title": "Rousset-FR-13-église-02.jpg",
+          "description": "Église de l'Immaculée-Conception de Rousset (Bouches-du-Rhône, France)",
+          "width": 4032,
+          "height": 3024,
+          "size": 5890734,
+          "timestamp": "2022-09-01T21:06:08Z",
+          "author": "François GOGLINS",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Rousset-FR-13-%C3%A9glise-04.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARousset-FR-13-%C3%A9glise-04.jpg",
+          "title": "Rousset-FR-13-église-04.jpg",
+          "description": "Église de l'Immaculée-Conception de Rousset (Bouches-du-Rhône, France)",
+          "width": 4032,
+          "height": 3024,
+          "size": 5992910,
+          "timestamp": "2022-09-01T21:06:10Z",
+          "author": "François GOGLINS",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Rousset-FR-13-%C3%A9glise-05.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARousset-FR-13-%C3%A9glise-05.jpg",
+          "title": "Rousset-FR-13-église-05.jpg",
+          "description": "Église de l'Immaculée-Conception de Rousset (Bouches-du-Rhône, France)",
+          "width": 4032,
+          "height": 3024,
+          "size": 6089817,
+          "timestamp": "2022-09-01T21:06:11Z",
+          "author": "François GOGLINS",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Château de Rousset",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/ISS043-E-138122_-_View_of_Earth.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS043-E-138122%20-%20View%20of%20Earth.jpg",
-          "title": "ISS043-E-138122 - View of Earth.jpg",
-          "width": 4928,
-          "height": 3280,
-          "size": 2568501,
-          "timestamp": "2021-03-16T21:29:57Z",
-          "author": "Earth Science and Remote Sensing Unit",
-          "license": "Public domain",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/ISS065-E-82128_-_View_of_France_-_Montagne_Sainte-Victoire_-_Puyloubier_-_Plateau_du_Cengle_-_Ch%C3%A2teauneuf-le-Rouge_-_Vauvenargues_-_Ch%C3%A2teau_du_Grand_Sambuc_-_Lac_de_Bimont_-_Le_Tholonet_-_Palette_-_A8_%28cropped%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS065-E-82128%20-%20View%20of%20France%20-%20Montagne%20Sainte-Victoire%20-%20Puyloubier%20-%20Plateau%20du%20Cengle%20-%20Ch%C3%A2teauneuf-le-Rouge%20-%20Vauvenargues%20-%20Ch%C3%A2teau%20du%20Grand%20Sambuc%20-%20Lac%20de%20Bimont%20-%20Le%20Tholonet%20-%20Palette%20-%20A8%20(cropped).jpg",
-          "title": "ISS065-E-82128 - View of France - Montagne Sainte-Victoire - Puyloubier - Plateau du Cengle - Châteauneuf-le-Rouge - Vauvenargues - Château du Grand Sambuc - Lac de Bimont - Le Tholonet - Palette - A8 (cropped).jpg",
-          "width": 2361,
-          "height": 1432,
-          "size": 919821,
-          "timestamp": "2026-03-10T12:25:26Z",
-          "author": "Earth Science and Remote Sensing Unit",
-          "license": "Public domain",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Rousset05-ch%C3%A2teau-36.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARousset05-ch%C3%A2teau-36.jpg",
           "title": "Rousset05-château-36.jpg",
+          "description": "Le château de Rousset (Hautes-Alpes) et le sommet de Grand-Morgon.",
           "width": 1230,
           "height": 870,
           "size": 270992,
@@ -88,13 +109,84 @@
           "author": "Fr.Latreille",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Curbans%2C_ch%C3%A2teau_du_Rousset.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACurbans%2C%20ch%C3%A2teau%20du%20Rousset.jpg",
+          "title": "Curbans, château du Rousset.jpg",
+          "description": "Curbans, château du Rousset.",
+          "width": 4608,
+          "height": 3456,
+          "size": 5477761,
+          "timestamp": "2013-12-08T19:56:18Z",
+          "author": "Sébastien Thébault",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/AOC_Pierrevert_Ch%C3%A2teau_Rousset.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAOC%20Pierrevert%20Ch%C3%A2teau%20Rousset.JPG",
+          "title": "AOC Pierrevert Château Rousset.JPG",
+          "description": "AOC Pierrevert Château Rousset",
+          "width": 2592,
+          "height": 3456,
+          "size": 2426349,
+          "timestamp": "2016-01-04T15:50:22Z",
+          "author": "Marianne Casamance",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
         }
       ]
     },
     {
       "label": "Place du Village",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Rousset_family_%28NYPL_b12147692-5053005%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARousset%20family%20(NYPL%20b12147692-5053005).jpg",
+          "title": "Rousset family (NYPL b12147692-5053005).jpg",
+          "description": "Rousset family",
+          "width": 5350,
+          "height": 3930,
+          "size": 22994331,
+          "timestamp": "2016-07-02T08:43:49Z",
+          "author": "Scan by NYPL",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Rousset-FR-13-stele_P_Borde-a1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARousset-FR-13-stele%20P%20Borde-a1.jpg",
+          "title": "Rousset-FR-13-stele P Borde-a1.jpg",
+          "description": "Stèle à P. Borde sur la place de la mairie de Rousset (Bouches-du-Rhône, France)",
+          "width": 3024,
+          "height": 4032,
+          "size": 5553867,
+          "timestamp": "2023-09-10T18:10:48Z",
+          "author": "François GOGLINS",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Rousset%2C_Fran%C3%A7ois_%E2%80%93_Hysterotomotokia%2C_1588_%E2%80%93_BEIC_IE9030187.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARousset%2C%20Fran%C3%A7ois%20%E2%80%93%20Hysterotomotokia%2C%201588%20%E2%80%93%20BEIC%20IE9030187.jpg",
+          "title": "Rousset, François – Hysterotomotokia, 1588 – BEIC IE9030187.jpg",
+          "description": "Hysterotomotokia. Frontespizio",
+          "width": 1284,
+          "height": 2128,
+          "size": 2284242,
+          "timestamp": "2025-06-10T09:23:10Z",
+          "author": "<div class=\"fn value\">\nFrançois Rousset</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

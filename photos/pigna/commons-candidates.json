@@ -1,12 +1,13 @@
 {
   "slug": "pigna",
   "nom": "Pigna",
-  "fetchedAt": "2026-03-14T10:48:46.021Z",
+  "fetchedAt": "2026-03-17T22:30:25.515Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Vue_Village_depuis_Pigna_-_Corbara_%28FR2B%29_-_2021-09-06_-_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20Village%20depuis%20Pigna%20-%20Corbara%20(FR2B)%20-%202021-09-06%20-%201.jpg",
       "title": "Vue Village depuis Pigna - Corbara (FR2B) - 2021-09-06 - 1.jpg",
+      "description": "Vue du village depuis Pigna, Corbara.",
       "width": 4032,
       "height": 3024,
       "size": 2269709,
@@ -14,12 +15,13 @@
       "author": "Chabe01",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Vue_Village_depuis_Pigna_-_Corbara_%28FR2B%29_-_2021-09-06_-_2.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20Village%20depuis%20Pigna%20-%20Corbara%20(FR2B)%20-%202021-09-06%20-%202.jpg",
       "title": "Vue Village depuis Pigna - Corbara (FR2B) - 2021-09-06 - 2.jpg",
+      "description": "Vue du village depuis Pigna, Corbara (au fond)\nAu second plan, l'auditorium de Pigna, en terre, avec son dôme (architectes Paul et François Casalonga) [1].",
       "width": 4032,
       "height": 3024,
       "size": 4458963,
@@ -27,12 +29,13 @@
       "author": "Chabe01",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Vue_Village_-_Pigna_%28FR2B%29_-_2021-09-06_-_3.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20Village%20-%20Pigna%20(FR2B)%20-%202021-09-06%20-%203.jpg",
       "title": "Vue Village - Pigna (FR2B) - 2021-09-06 - 3.jpg",
+      "description": "Vue du village de Pigna.",
       "width": 4032,
       "height": 3024,
       "size": 3931802,
@@ -40,13 +43,28 @@
       "author": "Chabe01",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     }
   ],
   "lieux": [
     {
       "label": "Auditorium Casa Musicale",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Pigna_auditorium.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APigna%20auditorium.jpg",
+          "title": "Pigna auditorium.jpg",
+          "description": "Pigna, Balagne (Corse) - L'auditorium. Les architectes en sont Paul et François Casalonga.\n\nPour cet édifice, l’architecte Paul Casalonga a reçu le prix d’honneur spécial du Palmarès d’architecture corse (ainsi que pour l’ensemble de sa production architecturale)[1]",
+          "width": 6016,
+          "height": 4016,
+          "size": 9756320,
+          "timestamp": "2013-05-31T15:55:47Z",
+          "author": "Pierre Bona",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Atelier de céramique A Stalla",

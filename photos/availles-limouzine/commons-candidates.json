@@ -1,12 +1,13 @@
 {
   "slug": "availles-limouzine",
   "nom": "Availles-Limouzine",
-  "fetchedAt": "2026-03-13T00:00:09.130Z",
+  "fetchedAt": "2026-03-15T19:01:01.555Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Availles-Limouzine_-_Place_de_la_Libert%C3%A9_-_bo%C3%AEte_%C3%A0_livres_%282025%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAvailles-Limouzine%20-%20Place%20de%20la%20Libert%C3%A9%20-%20bo%C3%AEte%20%C3%A0%20livres%20(2025).jpg",
       "title": "Availles-Limouzine - Place de la Liberté - boîte à livres (2025).jpg",
+      "description": "Boîte à livres à Availles-Limouzine",
       "width": 2500,
       "height": 1410,
       "size": 666887,
@@ -17,22 +18,10 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/La_salle_capitulaire%2C_abbaye_Notre_Dame_de_La_R%C3%A9au.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20salle%20capitulaire%2C%20abbaye%20Notre%20Dame%20de%20La%20R%C3%A9au.jpg",
-      "title": "La salle capitulaire, abbaye Notre Dame de La Réau.jpg",
-      "width": 3264,
-      "height": 1836,
-      "size": 789688,
-      "timestamp": "2018-06-04T09:06:44Z",
-      "author": "Tugdual de Guerdavid",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
-    {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Availles-Limouzine_-_Place_de_la_Libert%C3%A9_-_bo%C3%AEte_%C3%A0_livres.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAvailles-Limouzine%20-%20Place%20de%20la%20Libert%C3%A9%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
       "title": "Availles-Limouzine - Place de la Liberté - boîte à livres.jpg",
+      "description": "Boîte à livres à Availles-Limouzine",
       "width": 1875,
       "height": 2500,
       "size": 636777,
@@ -41,6 +30,20 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/86015-Availles-Limouzine-Sols.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A86015-Availles-Limouzine-Sols.png",
+      "title": "86015-Availles-Limouzine-Sols.png",
+      "description": "Carte des infrastructures et de l’occupation des sols en 2018 de la commune de fr:Availles-Limouzine (France).",
+      "width": 3270,
+      "height": 2598,
+      "size": 2685903,
+      "timestamp": "2021-04-19T17:07:19Z",
+      "author": "Roland45",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
     }
   ],
   "lieux": [
@@ -50,7 +53,36 @@
     },
     {
       "label": "Église Saint-Sulpice",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Availles_Limouzine_church.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAvailles%20Limouzine%20church.JPG",
+          "title": "Availles Limouzine church.JPG",
+          "description": "Church at top of village viewed from South aspect",
+          "width": 3872,
+          "height": 2592,
+          "size": 4016115,
+          "timestamp": "2012-03-05T17:09:27Z",
+          "author": "Jerrycathyetal",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Availles_Limouzine_church_%28cropped%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAvailles%20Limouzine%20church%20(cropped).JPG",
+          "title": "Availles Limouzine church (cropped).JPG",
+          "description": "Church at top of village viewed from South aspect",
+          "width": 926,
+          "height": 620,
+          "size": 194573,
+          "timestamp": "2021-11-06T15:04:22Z",
+          "author": "Jerrycathyetal",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Lavoir sur la Vienne",

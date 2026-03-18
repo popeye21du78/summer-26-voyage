@@ -1,12 +1,27 @@
 {
   "slug": "evaux-les-bains",
   "nom": "Évaux-les-Bains",
-  "fetchedAt": "2026-03-13T14:19:21.572Z",
+  "fetchedAt": "2026-03-16T13:15:17.235Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Evaux-les-Bains_-_09.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEvaux-les-Bains%20-%2009.jpg",
+      "title": "Evaux-les-Bains - 09.jpg",
+      "description": "Evaux-les-Bains - château d'eau",
+      "width": 4032,
+      "height": 3024,
+      "size": 1800252,
+      "timestamp": "2022-08-28T22:00:33Z",
+      "author": "AirScott",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Evaux-les-Bains_-_01.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEvaux-les-Bains%20-%2001.jpg",
       "title": "Evaux-les-Bains - 01.jpg",
+      "description": "Evaux-les-Bains - mairie",
       "width": 4032,
       "height": 3024,
       "size": 2220795,
@@ -20,22 +35,10 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Evaux-les-Bains_-_03.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEvaux-les-Bains%20-%2003.jpg",
       "title": "Evaux-les-Bains - 03.jpg",
+      "description": "Evaux-les-Bains - jumelage avec Gonça",
       "width": 4032,
       "height": 3024,
       "size": 3404626,
-      "timestamp": "2022-08-28T22:00:27Z",
-      "author": "AirScott",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Evaux-les-Bains_-_02.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEvaux-les-Bains%20-%2002.jpg",
-      "title": "Evaux-les-Bains - 02.jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 2254001,
       "timestamp": "2022-08-28T22:00:27Z",
       "author": "AirScott",
       "license": "CC BY-SA 4.0",
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/%C3%89glise_d%27%C3%89vaux-les-Bains_1.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20d'%C3%89vaux-les-Bains%201.jpg",
           "title": "Église d'Évaux-les-Bains 1.jpg",
+          "description": "église Saint-Pierre et saint-Paul",
           "width": 4608,
           "height": 3456,
           "size": 4083021,
@@ -64,6 +68,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/%C3%89glise_d%27%C3%89vaux-les-Bains_4.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20d'%C3%89vaux-les-Bains%204.jpg",
           "title": "Église d'Évaux-les-Bains 4.jpg",
+          "description": "église saint Pierre et saint Paul",
           "width": 4608,
           "height": 3456,
           "size": 6047920,
@@ -77,6 +82,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/%C3%89glise_d%27%C3%89vaux-les-Bains_5.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20d'%C3%89vaux-les-Bains%205.jpg",
           "title": "Église d'Évaux-les-Bains 5.jpg",
+          "description": "église Saint Pierre et Saint Paul",
           "width": 4608,
           "height": 3456,
           "size": 5588224,
@@ -92,9 +98,24 @@
       "label": "Thermes d’Évaux-les-Bains",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Evaux_plan_des_thermes.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEvaux%20plan%20des%20thermes.jpg",
+          "title": "Evaux plan des thermes.jpg",
+          "description": "plan des thermes gallo-romains d'Evaux-les-Bains d'après G. Janicaud",
+          "width": 1319,
+          "height": 1817,
+          "size": 293955,
+          "timestamp": "2015-08-26T18:39:56Z",
+          "author": "Ideus520",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Evaux_Pat%C3%A8re.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEvaux%20Pat%C3%A8re.jpg",
           "title": "Evaux Patère.jpg",
+          "description": "Manche de la patère des thermes d'Evaux",
           "width": 1622,
           "height": 1106,
           "size": 107800,
@@ -103,16 +124,74 @@
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Evaux1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEvaux1.jpg",
+          "title": "Evaux1.jpg",
+          "description": "Plan de la galerie d'accès aux thermes",
+          "width": 1397,
+          "height": 2383,
+          "size": 183143,
+          "timestamp": "2015-08-26T20:57:03Z",
+          "author": "Ideus520",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
         }
       ]
     },
     {
       "label": "Pont suspendu de la Tardes",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Chat_Cros_%C3%89vaux-les-Bains_D915_aval_%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChat%20Cros%20%C3%89vaux-les-Bains%20D915%20aval%20(2).jpg",
+          "title": "Chat Cros Évaux-les-Bains D915 aval (2).jpg",
+          "description": "La vallée du Chat Cros en aval du pont de la route départementale 915, Évaux-les-Bains, Creuse, France.",
+          "width": 3264,
+          "height": 2448,
+          "size": 3058229,
+          "timestamp": "2022-06-11T16:34:14Z",
+          "author": "Père Igor",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Parc thermal",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Saint_Joseph_%28%C3%89vaux-les-Bains%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint%20Joseph%20(%C3%89vaux-les-Bains).jpg",
+          "title": "Saint Joseph (Évaux-les-Bains).jpg",
+          "description": "Statue de Saint Joseph et l'enfant Jésus, dans le parc près de l'église",
+          "width": 4608,
+          "height": 3456,
+          "size": 7468030,
+          "timestamp": "2024-02-14T13:43:36Z",
+          "author": "FredSeiller",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Saint_Joseph_%28%C3%89vaux-les-Bains%292.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint%20Joseph%20(%C3%89vaux-les-Bains)2.jpg",
+          "title": "Saint Joseph (Évaux-les-Bains)2.jpg",
+          "description": "Statue de Saint Joseph et l'enfant Jésus, dans le parc près de l'église",
+          "width": 3456,
+          "height": 4608,
+          "size": 6602064,
+          "timestamp": "2024-02-14T13:44:53Z",
+          "author": "FredSeiller",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

@@ -1,12 +1,13 @@
 {
   "slug": "villemur-sur-tarn",
   "nom": "Villemur-sur-Tarn",
-  "fetchedAt": "2026-03-14T14:37:40.669Z",
+  "fetchedAt": "2026-03-18T21:02:09.416Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Villemur-sur-Tarn_La_m%C3%A9diath%C3%A8que.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVillemur-sur-Tarn%20La%20m%C3%A9diath%C3%A8que.jpg",
       "title": "Villemur-sur-Tarn La médiathèque.jpg",
+      "description": "Villemur-sur-Tarn  The municipal multimedia library (Old hall).",
       "width": 7003,
       "height": 4829,
       "size": 30560550,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Villemur-sur-Tarn_-_place_Saint-Jean_-_bo%C3%AEte_%C3%A0_livres.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVillemur-sur-Tarn%20-%20place%20Saint-Jean%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
       "title": "Villemur-sur-Tarn - place Saint-Jean - boîte à livres.jpg",
+      "description": "Boîte à livres à Villemur-sur-Tarn",
       "width": 1600,
       "height": 1200,
       "size": 670834,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Villemur-sur-Tarn.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVillemur-sur-Tarn.jpg",
       "title": "Villemur-sur-Tarn.jpg",
+      "description": "Villemur-sur-Tarn.",
       "width": 7212,
       "height": 4770,
       "size": 21850805,
@@ -54,25 +57,26 @@
     },
     {
       "label": "Pont sur le Tarn",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Villemur-sur-Tarn_Pont_suspendu_1930.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVillemur-sur-Tarn%20Pont%20suspendu%201930.jpg",
-          "title": "Villemur-sur-Tarn Pont suspendu 1930.jpg",
-          "width": 5683,
-          "height": 3352,
-          "size": 12087880,
-          "timestamp": "2013-09-28T07:15:31Z",
-          "author": "Didier Descouens",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Halle métallique de Villemur",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Villemur-sur-Tarn_La_m%C3%A9diath%C3%A8que.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVillemur-sur-Tarn%20La%20m%C3%A9diath%C3%A8que.jpg",
+          "title": "Villemur-sur-Tarn La médiathèque.jpg",
+          "description": "Villemur-sur-Tarn  The municipal multimedia library (Old hall).",
+          "width": 7003,
+          "height": 4829,
+          "size": 30560550,
+          "timestamp": "2021-04-10T06:26:46Z",
+          "author": "Didier Descouens",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

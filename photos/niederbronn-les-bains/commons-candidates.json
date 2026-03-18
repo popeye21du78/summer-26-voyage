@@ -1,12 +1,13 @@
 {
   "slug": "niederbronn-les-bains",
   "nom": "Niederbronn-les-Bains",
-  "fetchedAt": "2026-03-13T16:35:34.828Z",
+  "fetchedAt": "2026-03-17T21:48:34.423Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Niederbronn-les-Bains_-_panoramio_%2827%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANiederbronn-les-Bains%20-%20panoramio%20(27).jpg",
       "title": "Niederbronn-les-Bains - panoramio (27).jpg",
+      "description": "Niederbronn-les-Bains",
       "width": 4272,
       "height": 2848,
       "size": 4458480,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Niederbronn-les-Bains_-_panoramio_%2837%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANiederbronn-les-Bains%20-%20panoramio%20(37).jpg",
       "title": "Niederbronn-les-Bains - panoramio (37).jpg",
+      "description": "Niederbronn-les-Bains",
       "width": 4272,
       "height": 2848,
       "size": 3995361,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Niederbronn-les-Bains_-_panoramio_%2841%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANiederbronn-les-Bains%20-%20panoramio%20(41).jpg",
       "title": "Niederbronn-les-Bains - panoramio (41).jpg",
+      "description": "Niederbronn-les-Bains",
       "width": 4272,
       "height": 2848,
       "size": 6334142,
@@ -46,59 +49,163 @@
   "lieux": [
     {
       "label": "Parc du Casino",
-      "photos": []
-    },
-    {
-      "label": "Thermes Valvital",
-      "photos": []
-    },
-    {
-      "label": "Château du Wasenbourg",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Ch%C3%A2teau_de_Wasenbourg_Entr%C3%A9e_du_logis_seigneurial_2.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Wasenbourg%20Entr%C3%A9e%20du%20logis%20seigneurial%202.jpg",
-          "title": "Château de Wasenbourg Entrée du logis seigneurial 2.jpg",
-          "width": 2560,
-          "height": 1920,
-          "size": 1847999,
-          "timestamp": "2025-03-15T20:55:35Z",
-          "author": "Torsade de Pointes",
-          "license": "CC0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Niederbronn_67-_German_graveyard-_privates_1944.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANiederbronn%2067-%20German%20graveyard-%20privates%201944.jpg",
+          "title": "Niederbronn 67- German graveyard- privates 1944.jpg",
+          "description": "Cimetière allemand de la seconde guerre mondiale à Niederbronn-les-Bains. Tombe d'un caporal-chef décédé en novembre 1944 et aussi d'un caporal décédé en octobre 1944.",
+          "width": 2592,
+          "height": 1944,
+          "size": 2199918,
+          "timestamp": "2020-09-19T01:10:02Z",
+          "author": "Anthospace",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Ch%C3%A2teau_de_Wasenbourg_Flanc_gauche_3.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Wasenbourg%20Flanc%20gauche%203.jpg",
-          "title": "Château de Wasenbourg Flanc gauche 3.jpg",
-          "width": 2560,
-          "height": 1920,
-          "size": 1862331,
-          "timestamp": "2025-03-15T20:55:38Z",
-          "author": "Torsade de Pointes",
-          "license": "CC0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Niederbronn_67-_German_graveyard-sergeant_and_lieutenant_121944.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANiederbronn%2067-%20German%20graveyard-sergeant%20and%20lieutenant%20121944.jpg",
+          "title": "Niederbronn 67- German graveyard-sergeant and lieutenant 121944.jpg",
+          "description": "Cimetière allemand de la seconde guerre mondiale à Niederbronn-les-Bains. Tombe d'un sous-officier et d'un sous-lieutenant décédés en décembre 1944, probablement durant les batailles pour libérer l'Alsace et la Lorraine, où la Wehrmacht s'était retranchée après la grande avancée des Alliés.",
+          "width": 2592,
+          "height": 1944,
+          "size": 2312274,
+          "timestamp": "2020-09-19T01:10:02Z",
+          "author": "Anthospace",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Ch%C3%A2teau_de_Wasenbourg_Logis_seigneurial_3.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Wasenbourg%20Logis%20seigneurial%203.jpg",
-          "title": "Château de Wasenbourg Logis seigneurial 3.jpg",
-          "width": 2560,
-          "height": 1920,
-          "size": 1815530,
-          "timestamp": "2025-03-15T20:55:42Z",
-          "author": "Torsade de Pointes",
-          "license": "CC0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Niederbronn_67-_German_graveyard-grenadier_121944.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANiederbronn%2067-%20German%20graveyard-grenadier%20121944.jpg",
+          "title": "Niederbronn 67- German graveyard-grenadier 121944.jpg",
+          "description": "Cimetière allemand de la seconde guerre mondiale à Niederbronn-les-Bains. Deux militaires morts en décembre 1944, probablement durant les batailles pour libérer l'Alsace et la Lorraine, où la Wehrmacht s'était retranchée après la grande avancée des Alliés.",
+          "width": 2592,
+          "height": 1944,
+          "size": 2351374,
+          "timestamp": "2020-09-19T01:10:03Z",
+          "author": "Anthospace",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         }
       ]
     },
     {
+      "label": "Thermes Valvital",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/April_2025_Niederbronn-les-Bains_20.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AApril%202025%20Niederbronn-les-Bains%2020.jpg",
+          "title": "April 2025 Niederbronn-les-Bains 20.jpg",
+          "description": "A photograph taken in Bas-Rhin, France, by Olive Titus.",
+          "width": 5184,
+          "height": 3888,
+          "size": 6316410,
+          "timestamp": "2025-05-03T12:24:04Z",
+          "author": "olive.titus",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/April_2025_Niederbronn-les-Bains_19.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AApril%202025%20Niederbronn-les-Bains%2019.jpg",
+          "title": "April 2025 Niederbronn-les-Bains 19.jpg",
+          "description": "A photograph taken in Bas-Rhin, France, by Olive Titus.",
+          "width": 5184,
+          "height": 3888,
+          "size": 6566551,
+          "timestamp": "2025-05-03T12:24:05Z",
+          "author": "olive.titus",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Les_bains_romains_%28Niederbronn-les-Bains%29_%2835469633494%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20bains%20romains%20(Niederbronn-les-Bains)%20(35469633494).jpg",
+          "title": "Les bains romains (Niederbronn-les-Bains) (35469633494).jpg",
+          "description": "Des fouilles archéologiques successives menées à Niederbronn-les-Bains ont établi l'existence d'une cité romaine entre le 1er et le 4ème siècle de notre ère, avec des installations thermales d'envergure. Les bains romains ont certainement connu une activité importante jusqu'aux invasions barbares du 5ème siècle, comme en témoignent les centaines de pièces de monnaie romaine qui ont été retrouvées lors du curage de la source. Extrait du site de la ville\n\nwww.niederbronn-les-bains.fr/la-ville/son-",
+          "width": 1800,
+          "height": 1200,
+          "size": 2003346,
+          "timestamp": "2017-08-01T14:59:57Z",
+          "author": "Jean-Pierre Dalbéra",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "label": "Château du Wasenbourg",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Niederbronn_Panorama_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANiederbronn%20Panorama%202.jpg",
+          "title": "Niederbronn Panorama 2.jpg",
+          "description": "Niederbronn-les-Bains (Bas-Rhin, Alsace, France). Panorama de la ville depuis le château de Wasenbourg.",
+          "width": 3666,
+          "height": 1813,
+          "size": 5762971,
+          "timestamp": "2025-03-21T20:59:58Z",
+          "author": "Torsade de Pointes",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
+    },
+    {
       "label": "Musée archéologique",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Niederbronn_avFoch_44_%282%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANiederbronn%20avFoch%2044%20(2).JPG",
+          "title": "Niederbronn avFoch 44 (2).JPG",
+          "description": "Alsace, Bas-Rhin, Niederbronn-les-Bains, Tribunal (1906), Musée dit maison de l'Archéologie, 44 avenue Foch. \n\n\n\n\n \nThis building is indexed in the base Mérimée, a database of architectural heritage maintained by the French Ministry of Culture, under the reference IA67005214 .\n\nbrezhoneg ∙ català ∙ Deutsch ∙ English ∙ español ∙ Esperanto ∙ euskara ∙ français ∙ italiano ∙ magyar ∙ Nederlands ∙ português do Brasil ∙ português ∙ română ∙ sicilianu ∙ slovenščina ∙ suomi ∙ svenska ∙ Ελληνικά ∙ белару",
+          "width": 3648,
+          "height": 2736,
+          "size": 3244325,
+          "timestamp": "2017-08-18T04:52:11Z",
+          "author": "© Ralph Hammann - Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Niederbronn_avFoch_44_%281%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANiederbronn%20avFoch%2044%20(1).JPG",
+          "title": "Niederbronn avFoch 44 (1).JPG",
+          "description": "Alsace, Bas-Rhin, Niederbronn-les-Bains, Tribunal (1906), Musée dit maison de l'Archéologie, 44 avenue Foch. \n\n\n\n\n \nThis building is indexed in the base Mérimée, a database of architectural heritage maintained by the French Ministry of Culture, under the reference IA67005214 .\n\nbrezhoneg ∙ català ∙ Deutsch ∙ English ∙ español ∙ Esperanto ∙ euskara ∙ français ∙ italiano ∙ magyar ∙ Nederlands ∙ português do Brasil ∙ português ∙ română ∙ sicilianu ∙ slovenščina ∙ suomi ∙ svenska ∙ Ελληνικά ∙ белару",
+          "width": 3648,
+          "height": 2736,
+          "size": 4499371,
+          "timestamp": "2017-08-18T04:52:46Z",
+          "author": "© Ralph Hammann - Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Hypocauste-Niederbronn-les-Bains.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHypocauste-Niederbronn-les-Bains.jpg",
+          "title": "Hypocauste-Niederbronn-les-Bains.jpg",
+          "description": "Musée historique de Haguenau (Bas-Rhin) : hypocauste de Niederbronn-les-Bains, 138 apr. J-C (Antonins) à la fin du IIIe siècle.",
+          "width": 3240,
+          "height": 4320,
+          "size": 2780502,
+          "timestamp": "2015-06-20T11:54:40Z",
+          "author": "Ji-Elle",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     }
   ]
 }

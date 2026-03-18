@@ -1,12 +1,13 @@
 {
   "slug": "les-cotes-de-lempdes",
   "nom": "Les Cotes de Lempdes",
-  "fetchedAt": "2026-03-13T15:47:16.869Z",
+  "fetchedAt": "2026-03-16T20:34:33.704Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/43_Lempdes_sur_Allagnon_%C3%A9glise_clocher_devise.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A43%20Lempdes%20sur%20Allagnon%20%C3%A9glise%20clocher%20devise.jpg",
       "title": "43 Lempdes sur Allagnon église clocher devise.jpg",
+      "description": "Devise républicaine sur le clocher de l'église.",
       "width": 4000,
       "height": 3000,
       "size": 2550272,
@@ -17,27 +18,29 @@
       "score": 6
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Lempdes-sur-Allagnon_-_Rue_Saint_Verny_-_bo%C3%AEte_%C3%A0_livres.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALempdes-sur-Allagnon%20-%20Rue%20Saint%20Verny%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
-      "title": "Lempdes-sur-Allagnon - Rue Saint Verny - boîte à livres.jpg",
-      "width": 1406,
-      "height": 2500,
-      "size": 610693,
-      "timestamp": "2025-08-26T05:01:33Z",
-      "author": "Sébastien Latre",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
-    {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Halles_de_lempdes.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHalles%20de%20lempdes.jpg",
       "title": "Halles de lempdes.jpg",
+      "description": "Halle de Lempdes-sur-Allagnon (Inscrit)",
       "width": 3408,
       "height": 2828,
       "size": 1746836,
       "timestamp": "2013-09-18T11:56:17Z",
       "author": "Gmbgreg2",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 5
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Lempdes-sur-Allagnon_Microbiblioth%C3%A8que_732.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALempdes-sur-Allagnon%20Microbiblioth%C3%A8que%20732.jpg",
+      "title": "Lempdes-sur-Allagnon Microbibliothèque 732.jpg",
+      "description": "Öffentlicher Bücherschrank in Lempdes-sur-Allagnon im Département Haute-Loire (Auvergne-Rhône-Alpes/Frankreich)",
+      "width": 2767,
+      "height": 4150,
+      "size": 11301726,
+      "timestamp": "2018-06-22T11:29:47Z",
+      "author": "GFreihalter",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 5

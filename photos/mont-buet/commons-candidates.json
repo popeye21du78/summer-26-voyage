@@ -1,224 +1,64 @@
 {
   "slug": "mont-buet",
   "nom": "Mont Buet",
-  "fetchedAt": "2026-03-13T16:15:06.160Z",
+  "fetchedAt": "2026-03-16T13:19:23.925Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/GRP_Tour_du_Pays_du_Mont-Blanc_%40_Vallon_de_B%C3%A9rard_01.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGRP%20Tour%20du%20Pays%20du%20Mont-Blanc%20%40%20Vallon%20de%20B%C3%A9rard%2001.jpg",
-      "title": "GRP Tour du Pays du Mont-Blanc @ Vallon de Bérard 01.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Belledonne_%28Revel%29_201510_0759_%2849909513067%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABelledonne%20(Revel)%20201510%200759%20(49909513067).jpg",
+      "title": "Belledonne (Revel) 201510 0759 (49909513067).jpg",
       "width": 4608,
       "height": 3456,
-      "size": 9638176,
-      "timestamp": "2024-02-02T10:05:55Z",
-      "author": "Rémih",
-      "license": "CC BY-SA 4.0",
+      "size": 4006537,
+      "timestamp": "2024-02-11T15:36:35Z",
+      "author": "Etienne Baudon",
+      "license": "Public domain",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/GRP_Tour_du_Pays_du_Mont-Blanc_%40_Vallon_de_B%C3%A9rard_02.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGRP%20Tour%20du%20Pays%20du%20Mont-Blanc%20%40%20Vallon%20de%20B%C3%A9rard%2002.jpg",
-      "title": "GRP Tour du Pays du Mont-Blanc @ Vallon de Bérard 02.jpg",
-      "width": 4608,
-      "height": 3456,
-      "size": 6032273,
-      "timestamp": "2024-02-02T10:06:01Z",
-      "author": "Rémih",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Belledonne_%28Revel%29_201510_0782_-_201510_0786_%2849909501817%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABelledonne%20(Revel)%20201510%200782%20-%20201510%200786%20(49909501817).jpg",
+      "title": "Belledonne (Revel) 201510 0782 - 201510 0786 (49909501817).jpg",
+      "width": 8960,
+      "height": 2812,
+      "size": 6512071,
+      "timestamp": "2024-02-11T15:37:49Z",
+      "author": "Etienne Baudon",
+      "license": "Public domain",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 6
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Mont_Oreb_%40_Refuge_de_la_Pierre_%C3%A0_B%C3%A9rard.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMont%20Oreb%20%40%20Refuge%20de%20la%20Pierre%20%C3%A0%20B%C3%A9rard.jpg",
-      "title": "Mont Oreb @ Refuge de la Pierre à Bérard.jpg",
-      "width": 4608,
-      "height": 3456,
-      "size": 5909155,
-      "timestamp": "2024-02-02T10:06:13Z",
-      "author": "Rémih",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Panoramalesgets.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanoramalesgets.jpg",
+      "title": "Panoramalesgets.jpg",
+      "width": 2368,
+      "height": 1156,
+      "size": 744651,
+      "timestamp": "2010-02-12T18:39:02Z",
+      "author": "Annom",
+      "license": "Public domain",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 5
     }
   ],
   "lieux": [
     {
       "label": "Refuge de la Pierre à Bérard",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Refuge_de_la_Pierre_%C3%A0_B%C3%A9rard_03.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARefuge%20de%20la%20Pierre%20%C3%A0%20B%C3%A9rard%2003.jpg",
-          "title": "Refuge de la Pierre à Bérard 03.jpg",
-          "width": 4608,
-          "height": 3456,
-          "size": 10034310,
-          "timestamp": "2024-02-01T18:32:08Z",
-          "author": "Rémih",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Mont_Buet_%40_Refuge_de_la_Pierre_%C3%A0_B%C3%A9rard.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMont%20Buet%20%40%20Refuge%20de%20la%20Pierre%20%C3%A0%20B%C3%A9rard.jpg",
-          "title": "Mont Buet @ Refuge de la Pierre à Bérard.jpg",
-          "width": 4608,
-          "height": 3456,
-          "size": 6403418,
-          "timestamp": "2024-02-02T10:06:12Z",
-          "author": "Rémih",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Captages_%40_Vallon_de_B%C3%A9rard.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACaptages%20%40%20Vallon%20de%20B%C3%A9rard.jpg",
-          "title": "Captages @ Vallon de Bérard.jpg",
-          "width": 4608,
-          "height": 3456,
-          "size": 8936433,
-          "timestamp": "2024-02-02T10:06:19Z",
-          "author": "Rémih",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Col de Salenton",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Lac_de_Pormenaz_T%C3%AAte_de_Mo%C3%ABde.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALac%20de%20Pormenaz%20T%C3%AAte%20de%20Mo%C3%ABde.jpg",
-          "title": "Lac de Pormenaz Tête de Moëde.jpg",
-          "width": 4608,
-          "height": 3456,
-          "size": 5888259,
-          "timestamp": "2023-04-27T10:07:31Z",
-          "author": "Rémih",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Fr%C3%AAtes_de_Mo%C3%ABde_Mont_Buet.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFr%C3%AAtes%20de%20Mo%C3%ABde%20Mont%20Buet.jpg",
-          "title": "Frêtes de Moëde Mont Buet.jpg",
-          "width": 4608,
-          "height": 3456,
-          "size": 3903801,
-          "timestamp": "2023-04-27T16:35:03Z",
-          "author": "Rémih",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Col_de_Salenton_06.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACol%20de%20Salenton%2006.jpg",
-          "title": "Col de Salenton 06.jpg",
-          "width": 4608,
-          "height": 3456,
-          "size": 6258904,
-          "timestamp": "2024-02-02T14:31:36Z",
-          "author": "Rémih",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Sommet du Mont Buet",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Sommet_de_la_T%C3%AAte_de_V%C3%A9ret_%40_Flaine_%2850887838308%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASommet%20de%20la%20T%C3%AAte%20de%20V%C3%A9ret%20%40%20Flaine%20(50887838308).jpg",
-          "title": "Sommet de la Tête de Véret @ Flaine (50887838308).jpg",
-          "width": 3968,
-          "height": 2976,
-          "size": 3048174,
-          "timestamp": "2021-05-03T03:59:59Z",
-          "author": "Guilhem Vellut",
-          "license": "CC BY 2.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Mont_Buet_%40_Sommet_de_la_T%C3%AAte_de_V%C3%A9ret_%40_Flaine_%2850888674607%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMont%20Buet%20%40%20Sommet%20de%20la%20T%C3%AAte%20de%20V%C3%A9ret%20%40%20Flaine%20(50888674607).jpg",
-          "title": "Mont Buet @ Sommet de la Tête de Véret @ Flaine (50888674607).jpg",
-          "width": 3968,
-          "height": 2976,
-          "size": 3030511,
-          "timestamp": "2021-05-03T04:00:51Z",
-          "author": "Guilhem Vellut",
-          "license": "CC BY 2.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Sommet_de_la_T%C3%AAte_de_V%C3%A9ret_%40_Flaine_%2850887842298%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASommet%20de%20la%20T%C3%AAte%20de%20V%C3%A9ret%20%40%20Flaine%20(50887842298).jpg",
-          "title": "Sommet de la Tête de Véret @ Flaine (50887842298).jpg",
-          "width": 3968,
-          "height": 2976,
-          "size": 3018643,
-          "timestamp": "2021-05-03T04:00:53Z",
-          "author": "Guilhem Vellut",
-          "license": "CC BY 2.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Vallon de Bérard",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Mont_Buet_%40_Refuge_de_la_Pierre_%C3%A0_B%C3%A9rard.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMont%20Buet%20%40%20Refuge%20de%20la%20Pierre%20%C3%A0%20B%C3%A9rard.jpg",
-          "title": "Mont Buet @ Refuge de la Pierre à Bérard.jpg",
-          "width": 4608,
-          "height": 3456,
-          "size": 6403418,
-          "timestamp": "2024-02-02T10:06:12Z",
-          "author": "Rémih",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Mont_Buet_%40_R%C3%A9serve_naturelle_nationale_du_Vallon_de_B%C3%A9rard_01.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMont%20Buet%20%40%20R%C3%A9serve%20naturelle%20nationale%20du%20Vallon%20de%20B%C3%A9rard%2001.jpg",
-          "title": "Mont Buet @ Réserve naturelle nationale du Vallon de Bérard 01.jpg",
-          "width": 4608,
-          "height": 3456,
-          "size": 4945949,
-          "timestamp": "2024-02-02T10:06:16Z",
-          "author": "Rémih",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Mont_Buet_%40_R%C3%A9serve_naturelle_nationale_du_Vallon_de_B%C3%A9rard_02.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMont%20Buet%20%40%20R%C3%A9serve%20naturelle%20nationale%20du%20Vallon%20de%20B%C3%A9rard%2002.jpg",
-          "title": "Mont Buet @ Réserve naturelle nationale du Vallon de Bérard 02.jpg",
-          "width": 4608,
-          "height": 3456,
-          "size": 6069578,
-          "timestamp": "2024-02-02T10:06:17Z",
-          "author": "Rémih",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        }
-      ]
+      "photos": []
     }
   ]
 }

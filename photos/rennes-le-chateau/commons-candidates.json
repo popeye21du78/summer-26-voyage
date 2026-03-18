@@ -1,12 +1,13 @@
 {
   "slug": "rennes-le-chateau",
   "nom": "Rennes-le-Château",
-  "fetchedAt": "2026-03-14T11:44:27.287Z",
+  "fetchedAt": "2026-03-18T17:30:25.066Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Water_tower_in_Rennes-le-Chateau_%282%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWater%20tower%20in%20Rennes-le-Chateau%20(2).jpg",
       "title": "Water tower in Rennes-le-Chateau (2).jpg",
+      "description": "Water tower in Rennes-le-Château, Aude, France",
       "width": 5552,
       "height": 3729,
       "size": 13716593,
@@ -14,12 +15,13 @@
       "author": "Krzysztof Golik",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Tour_Magdala_in_Rennes-le-Chateau_%281%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATour%20Magdala%20in%20Rennes-le-Chateau%20(1).jpg",
       "title": "Tour Magdala in Rennes-le-Chateau (1).jpg",
+      "description": "Tour Magdala in Rennes-le-Château, Aude, France",
       "width": 5939,
       "height": 3491,
       "size": 18550261,
@@ -27,12 +29,13 @@
       "author": "Krzysztof Golik",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Tour_Magdala_in_Rennes-le-Chateau_%283%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATour%20Magdala%20in%20Rennes-le-Chateau%20(3).jpg",
       "title": "Tour Magdala in Rennes-le-Chateau (3).jpg",
+      "description": "Tour Magdala in Rennes-le-Château, Aude, France",
       "width": 5937,
       "height": 3875,
       "size": 20527562,
@@ -40,7 +43,7 @@
       "author": "Krzysztof Golik",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     }
   ],
   "lieux": [
@@ -48,35 +51,10 @@
       "label": "Tour Magdala",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Vue_a%C3%A9rienne_Rennes-le-Ch%C3%A2teau.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20a%C3%A9rienne%20Rennes-le-Ch%C3%A2teau.jpg",
-          "title": "Vue aérienne Rennes-le-Château.jpg",
-          "width": 1891,
-          "height": 992,
-          "size": 1992721,
-          "timestamp": "2021-11-23T20:38:08Z",
-          "author": "Mairie de Rennes-le-Château",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Rennes-le-Ch%C3%A2teau_-_Tour_Magdala_02.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARennes-le-Ch%C3%A2teau%20-%20Tour%20Magdala%2002.jpg",
-          "title": "Rennes-le-Château - Tour Magdala 02.jpg",
-          "width": 4272,
-          "height": 2848,
-          "size": 5453786,
-          "timestamp": "2020-01-01T21:21:13Z",
-          "author": "Tylwyth Eldar",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Rennes_le_Chateau_2_jcb.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARennes%20le%20Chateau%202%20jcb.jpg",
           "title": "Rennes le Chateau 2 jcb.jpg",
+          "description": "Rennes-le-Château, le village vu du sud",
           "width": 3840,
           "height": 2160,
           "size": 1397403,
@@ -84,7 +62,35 @@
           "author": "Jcb-caz-11",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Tour_Magdala_in_Rennes-le-Chateau_%281%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATour%20Magdala%20in%20Rennes-le-Chateau%20(1).jpg",
+          "title": "Tour Magdala in Rennes-le-Chateau (1).jpg",
+          "description": "Tour Magdala in Rennes-le-Château, Aude, France",
+          "width": 5939,
+          "height": 3491,
+          "size": 18550261,
+          "timestamp": "2022-12-24T12:05:25Z",
+          "author": "Krzysztof Golik",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Tour_Magdala_in_Rennes-le-Chateau_%283%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATour%20Magdala%20in%20Rennes-le-Chateau%20(3).jpg",
+          "title": "Tour Magdala in Rennes-le-Chateau (3).jpg",
+          "description": "Tour Magdala in Rennes-le-Château, Aude, France",
+          "width": 5937,
+          "height": 3875,
+          "size": 20527562,
+          "timestamp": "2022-12-24T12:05:25Z",
+          "author": "Krzysztof Golik",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
         }
       ]
     },
@@ -96,49 +102,95 @@
       "label": "villa Béthania",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Villa_Bethanie_in_Rennes-le-Chateau_%282%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVilla%20Bethanie%20in%20Rennes-le-Chateau%20(2).jpg",
-          "title": "Villa Bethanie in Rennes-le-Chateau (2).jpg",
-          "width": 2492,
-          "height": 4228,
-          "size": 9504067,
-          "timestamp": "2022-12-26T19:34:32Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Rennes-le-Ch%C3%A2teau_vue_a%C3%A9rienne.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARennes-le-Ch%C3%A2teau%20vue%20a%C3%A9rienne.jpg",
+          "title": "Rennes-le-Château vue aérienne.jpg",
+          "description": "vue aérienne de Rennes-le-Château",
+          "width": 1920,
+          "height": 998,
+          "size": 1810511,
+          "timestamp": "2021-11-23T20:37:08Z",
+          "author": "Mairie de Rennes-le-Château",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Rennes_le_Chateau_2_jcb.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARennes%20le%20Chateau%202%20jcb.jpg",
+          "title": "Rennes le Chateau 2 jcb.jpg",
+          "description": "Rennes-le-Château, le village vu du sud",
+          "width": 3840,
+          "height": 2160,
+          "size": 1397403,
+          "timestamp": "2021-02-21T08:49:50Z",
+          "author": "Jcb-caz-11",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Water_tower_in_Rennes-le-Chateau_%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWater%20tower%20in%20Rennes-le-Chateau%20(2).jpg",
+          "title": "Water tower in Rennes-le-Chateau (2).jpg",
+          "description": "Water tower in Rennes-le-Château, Aude, France",
+          "width": 5552,
+          "height": 3729,
+          "size": 13716593,
+          "timestamp": "2022-12-24T11:50:00Z",
           "author": "Krzysztof Golik",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Villa_Bethanie_in_Rennes-le-Chateau_%281%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVilla%20Bethanie%20in%20Rennes-le-Chateau%20(1).jpg",
-          "title": "Villa Bethanie in Rennes-le-Chateau (1).jpg",
-          "width": 3868,
-          "height": 5895,
-          "size": 17292292,
-          "timestamp": "2022-12-26T19:35:43Z",
-          "author": "Krzysztof Golik",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Rennas_le_Castelh_-_Villa_Betania.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARennas%20le%20Castelh%20-%20Villa%20Betania.jpg",
-          "title": "Rennas le Castelh - Villa Betania.jpg",
-          "width": 2272,
-          "height": 1704,
-          "size": 1780697,
-          "timestamp": "2008-05-05T04:52:00Z",
-          "author": "Carquinyol",
-          "license": "CC BY-SA 2.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 9
         }
       ]
     },
     {
       "label": "cimetière accolé à l’église",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Rennes-le-Ch%C3%A2teau_%C3%A9glise.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARennes-le-Ch%C3%A2teau%20%C3%A9glise.jpg",
+          "title": "Rennes-le-Château église.jpg",
+          "description": "Église de Rennes-le-Château",
+          "width": 2048,
+          "height": 1536,
+          "size": 874617,
+          "timestamp": "2025-02-22T13:31:15Z",
+          "author": "fr:Utilisateur:Paternel 1",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Rennes-le-Ch%C3%A2teau_-_%C3%89glise_03.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARennes-le-Ch%C3%A2teau%20-%20%C3%89glise%2003.jpg",
+          "title": "Rennes-le-Château - Église 03.jpg",
+          "description": "Église Sainte-Marie-Madeleine de Rennes-le-Château",
+          "width": 4272,
+          "height": 2848,
+          "size": 4811273,
+          "timestamp": "2021-05-31T05:48:51Z",
+          "author": "Tylwyth Eldar",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Rennes-le-Ch%C3%A2teau_-_%C3%89glise_05.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARennes-le-Ch%C3%A2teau%20-%20%C3%89glise%2005.jpg",
+          "title": "Rennes-le-Château - Église 05.jpg",
+          "description": "Église Sainte-Marie-Madeleine de Rennes-le-Château",
+          "width": 4272,
+          "height": 2848,
+          "size": 6241899,
+          "timestamp": "2021-05-31T05:49:24Z",
+          "author": "Tylwyth Eldar",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     }
   ]
 }

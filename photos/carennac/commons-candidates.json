@@ -1,12 +1,13 @@
 {
   "slug": "carennac",
   "nom": "Carennac",
-  "fetchedAt": "2026-03-13T12:27:54.621Z",
+  "fetchedAt": "2026-03-15T20:41:21.315Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Street_in_Carennac_%281%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStreet%20in%20Carennac%20(1).jpg",
       "title": "Street in Carennac (1).jpg",
+      "description": "Street in Carennac, Lot, France",
       "width": 4989,
       "height": 3958,
       "size": 16375431,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Street_in_Carennac_%284%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStreet%20in%20Carennac%20(4).jpg",
       "title": "Street in Carennac (4).jpg",
+      "description": "Street in Carennac, Lot, France",
       "width": 5022,
       "height": 3882,
       "size": 15035905,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Carennac_-_panoramio.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarennac%20-%20panoramio.jpg",
       "title": "Carennac - panoramio.jpg",
+      "description": "Carennac",
       "width": 4000,
       "height": 3000,
       "size": 2202681,
@@ -56,49 +59,39 @@
       "label": "Château des Doyens",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/F%C3%A9nelon.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AF%C3%A9nelon.jpg",
-          "title": "Fénelon.jpg",
-          "width": 4000,
-          "height": 3000,
-          "size": 4898816,
-          "timestamp": "2016-07-18T13:15:13Z",
-          "author": "Thérèse Gaigé",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Carennac_-_btv1b53167424w.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarennac%20-%20btv1b53167424w.jpg",
+          "title": "Carennac - btv1b53167424w.jpg",
+          "description": "Sujet : Carennac (Lot, France) -- Château\nRéférence bibliographique : Rol, 112643\nAppartient à l’ensemble documentaire : Pho20Rol\nImage de presse\nCouverture : .. septembre 1926\n\nLangue : français",
+          "width": 6166,
+          "height": 8517,
+          "size": 6858295,
+          "timestamp": "2025-03-03T16:57:48Z",
+          "author": "<div class=\"fn value\">\nAgence Rol. Agence photographique (commanditaire)</div>",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Le_ch%C3%A2teau_des_Doyens.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20ch%C3%A2teau%20des%20Doyens.jpg",
-          "title": "Le château des Doyens.jpg",
-          "width": 4000,
-          "height": 3000,
-          "size": 5030400,
-          "timestamp": "2016-07-18T13:15:13Z",
-          "author": "Thérèse Gaigé",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Carennac_03.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarennac%2003.jpg",
-          "title": "Carennac 03.jpg",
-          "width": 2592,
-          "height": 1944,
-          "size": 1254731,
-          "timestamp": "2007-07-24T19:30:09Z",
-          "author": "Christophe.Finot",
-          "license": "CC BY-SA 2.5",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 8
         }
       ]
     },
     {
       "label": "Chemin de halage le long de la Dordogne",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Chemin-Carennac.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChemin-Carennac.JPG",
+          "title": "Chemin-Carennac.JPG",
+          "description": "A path at Carennac by Georges Emile Lebacq around 1935.",
+          "width": 2305,
+          "height": 1841,
+          "size": 712287,
+          "timestamp": "2008-08-27T18:45:23Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Georges_Lebacq\" class=\"extiw\" title=\"w:en:Georges Lebacq\"><span title=\"painter (1876-1950)\">Georges Emile Lebacq</span></a></bdi>",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     }
   ]
 }

@@ -1,12 +1,13 @@
 {
   "slug": "plage-sainte-croix",
   "nom": "Plage Sainte-Croix",
-  "fetchedAt": "2026-03-14T11:27:48.959Z",
+  "fetchedAt": "2026-03-18T16:42:13.150Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Information_board_sentier_littoral_martigues_-_geomorphologie_Saint-Croix.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AInformation%20board%20sentier%20littoral%20martigues%20-%20geomorphologie%20Saint-Croix.jpg",
       "title": "Information board sentier littoral martigues - geomorphologie Saint-Croix.jpg",
+      "description": "Geomorphologie de la plage de Sainte-Croix",
       "width": 4032,
       "height": 3024,
       "size": 4037601,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Martigues_chapelle_Sainte-Croix.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMartigues%20chapelle%20Sainte-Croix.jpg",
       "title": "Martigues chapelle Sainte-Croix.jpg",
+      "description": "Martigues, Bouches-du-Rhône (Provence-Alpes-Côte d'Azur) - La chapelle Sainte-Croix de La Couronne édifiée au XVIIe siècle au bord de la mer, devant la plage du même nom. Juste en face d'elle subsiste une ruine, celle de l'ancienne chapelle du XIIe siècle. D'après la tradition, la fameuse barque transportant sainte Marie-Madeleine et les premiers chrétiens chassés de Palestine au Ier siècle, fit une escale ici avant d'accoster aux Saintes-Maries-de-la-Mer. \nCamera location43° 19′ 51.56″ N, 5° 04",
       "width": 6016,
       "height": 4016,
       "size": 6814924,
@@ -30,14 +32,15 @@
       "score": 6
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Information_board_martigues_sentier_littoral_1.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AInformation%20board%20martigues%20sentier%20littoral%201.jpg",
-      "title": "Information board martigues sentier littoral 1.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Plage_Lac_de_Sainte-Croix_Aiguines.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlage%20Lac%20de%20Sainte-Croix%20Aiguines.jpg",
+      "title": "Plage Lac de Sainte-Croix Aiguines.jpg",
+      "description": "Plage sur le lac de Sainte-Croix à Aiguines",
       "width": 4032,
-      "height": 3024,
-      "size": 4381557,
-      "timestamp": "2020-01-10T08:30:38Z",
-      "author": "Blackfern",
+      "height": 2268,
+      "size": 2373757,
+      "timestamp": "2023-09-09T08:26:43Z",
+      "author": "Mathieu BROSSAIS",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/ChapeLa_chapelle_Saint-F%C3%A9licien%2C_son_extension_et_sa_croix-clocher.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapeLa%20chapelle%20Saint-F%C3%A9licien%2C%20son%20extension%20et%20sa%20croix-clocher.jpg",
           "title": "ChapeLa chapelle Saint-Félicien, son extension et sa croix-clocher.jpg",
+          "description": "La chapelle Saint-Félicien, son extension et sa croix-clocher à Camiers Sainte-Cécile.",
           "width": 7198,
           "height": 4496,
           "size": 12836004,
@@ -64,6 +68,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Martigues_chapelle_Sainte-Croix.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMartigues%20chapelle%20Sainte-Croix.jpg",
           "title": "Martigues chapelle Sainte-Croix.jpg",
+          "description": "Martigues, Bouches-du-Rhône (Provence-Alpes-Côte d'Azur) - La chapelle Sainte-Croix de La Couronne édifiée au XVIIe siècle au bord de la mer, devant la plage du même nom. Juste en face d'elle subsiste une ruine, celle de l'ancienne chapelle du XIIe siècle. D'après la tradition, la fameuse barque transportant sainte Marie-Madeleine et les premiers chrétiens chassés de Palestine au Ier siècle, fit une escale ici avant d'accoster aux Saintes-Maries-de-la-Mer. \nCamera location43° 19′ 51.56″ N, 5° 04",
           "width": 6016,
           "height": 4016,
           "size": 6814924,
@@ -72,25 +77,27 @@
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Chapelle_Saint-F%C3%A9licien.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20Saint-F%C3%A9licien.jpg",
-          "title": "Chapelle Saint-Félicien.jpg",
-          "width": 5106,
-          "height": 7655,
-          "size": 11062788,
-          "timestamp": "2024-07-06T10:41:17Z",
-          "author": "Jacques Rocquet",
-          "license": "CC BY 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
         }
       ]
     },
     {
       "label": "Sentier côtier derrière la plage",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Information_board_sentier_littoral_martigues_-_geomorphologie_Saint-Croix.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AInformation%20board%20sentier%20littoral%20martigues%20-%20geomorphologie%20Saint-Croix.jpg",
+          "title": "Information board sentier littoral martigues - geomorphologie Saint-Croix.jpg",
+          "description": "Geomorphologie de la plage de Sainte-Croix",
+          "width": 4032,
+          "height": 3024,
+          "size": 4037601,
+          "timestamp": "2020-01-10T12:24:47Z",
+          "author": "Blackfern",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Rochers de l’extrémité nord",

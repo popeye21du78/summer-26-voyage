@@ -1,12 +1,13 @@
 {
   "slug": "les-baux-de-provence",
   "nom": "Les Baux-de-Provence",
-  "fetchedAt": "2026-03-13T15:45:21.111Z",
+  "fetchedAt": "2026-03-16T20:29:53.529Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Les_Baux_De_Provence_3794_%2828920447165%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20Baux%20De%20Provence%203794%20(28920447165).jpg",
       "title": "Les Baux De Provence 3794 (28920447165).jpg",
+      "description": "en.wikipedia.org/wiki/Les_Baux-de-Provence",
       "width": 5276,
       "height": 3518,
       "size": 24568708,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Les_Baux_De_Provence_3798_%2828844872161%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20Baux%20De%20Provence%203798%20(28844872161).jpg",
       "title": "Les Baux De Provence 3798 (28844872161).jpg",
+      "description": "en.wikipedia.org/wiki/Les_Baux-de-Provence",
       "width": 5259,
       "height": 3506,
       "size": 25011308,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/H%C3%B4tel_de_ville_des_Baux-de-Provence_cf01.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AH%C3%B4tel%20de%20ville%20des%20Baux-de-Provence%20cf01.jpg",
       "title": "Hôtel de ville des Baux-de-Provence cf01.jpg",
+      "description": "Hôtel de ville des Baux-de-Provence (Baux-de-Provence' town hall). Les Baux-de-Provence, Bouches-du-Rhône, France",
       "width": 7289,
       "height": 4868,
       "size": 28827514,
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Ch%C3%A2teau_des_Baux-de-Provence_-_Jardin_01.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20des%20Baux-de-Provence%20-%20Jardin%2001.jpg",
           "title": "Château des Baux-de-Provence - Jardin 01.jpg",
+          "description": "Château des Baux : Jardin à l'entrée",
           "width": 6000,
           "height": 4000,
           "size": 14128155,
@@ -58,12 +62,13 @@
           "author": "Tylwyth Eldar",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Ch%C3%A2teau_des_Baux-de-Provence_-_Jardin_02.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20des%20Baux-de-Provence%20-%20Jardin%2002.jpg",
           "title": "Château des Baux-de-Provence - Jardin 02.jpg",
+          "description": "Château des Baux : Jardin à l'entrée",
           "width": 6000,
           "height": 4000,
           "size": 12671841,
@@ -71,12 +76,13 @@
           "author": "Tylwyth Eldar",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Ch%C3%A2teau_des_Baux-de-Provence_-_Jardin_03.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20des%20Baux-de-Provence%20-%20Jardin%2003.jpg",
           "title": "Château des Baux-de-Provence - Jardin 03.jpg",
+          "description": "Château des Baux : Jardin à l'entrée",
           "width": 6000,
           "height": 4000,
           "size": 12386903,
@@ -84,7 +90,7 @@
           "author": "Tylwyth Eldar",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         }
       ]
     },
@@ -92,43 +98,46 @@
       "label": "Carrières de Lumières",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Van_Gogh_-_La_nuit_%C3%A9toil%C3%A9e.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVan%20Gogh%20-%20La%20nuit%20%C3%A9toil%C3%A9e.jpg",
-          "title": "Van Gogh - La nuit étoilée.jpg",
-          "width": 2397,
-          "height": 1600,
-          "size": 965236,
-          "timestamp": "2020-12-01T15:15:29Z",
-          "author": "Immersivearteditor",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/92_phot._de_Provence_et_de_la_C%C3%B4te-d%27Azur_en_1890_par_J._Jackson-_Les_Baux%2C_Marseille%2C_Saint-Remy%2C_carri%C3%A8res_de_Sarragan%2C_Antibes%2C_Villefranche%2C_Nice%2C_Menton%2C_Bordighera._Don_du_phot._en_1890._Il_y_a..._-_btv1b8553847s_%2803_of_92%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A92%20phot.%20de%20Provence%20et%20de%20la%20C%C3%B4te-d'Azur%20en%201890%20par%20J.%20Jackson-%20Les%20Baux%2C%20Marseille%2C%20Saint-Remy%2C%20carri%C3%A8res%20de%20Sarragan%2C%20Antibes%2C%20Villefranche%2C%20Nice%2C%20Menton%2C%20Bordighera.%20Don%20du%20phot.%20en%201890.%20Il%20y%20a...%20-%20btv1b8553847s%20(03%20of%2092).jpg",
+          "title": "92 phot. de Provence et de la Côte-d'Azur en 1890 par J. Jackson- Les Baux, Marseille, Saint-Remy, carrières de Sarragan, Antibes, Villefranche, Nice, Menton, Bordighera. Don du phot. en 1890. Il y a... - btv1b8553847s (03 of 92).jpg",
+          "description": "Sujet : Amiral Baudin (cuirassé)\nChicago (croiseur ; 1885-1920)\nFormidable (cuirassé)\nTrident (cuirassé)\nAlpes-Maritimes, Département des\nBouches-du-Rhône, Département des\nVar, Département du\nFrance\nLigurie, Région\nItalie\nCôte d'Azur\nLes Baux-de-Provence\nMarseille\nSaint-Rémy-de-Provence\nSarragan -- Carrières\nAntibes\nVillefranche-sur-Mer\nNice\nMenton\nBordighera\nAppartient à l’ensemble documentaire : PhoGéo1\nAppartient à l’ensemble documentaire : PACA1\nCouverture : France – Provence-Alpes-Côte-d'Az",
+          "width": 4325,
+          "height": 3419,
+          "size": 1038273,
+          "timestamp": "2025-03-06T01:55:46Z",
+          "author": "<div class=\"fn value\">\nJackson, James (1843-1895). Photographe</div>",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/F22-200x_Carrieres-de-lumieres.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AF22-200x%20Carrieres-de-lumieres.jpg",
-          "title": "F22-200x Carrieres-de-lumieres.jpg",
-          "width": 4608,
-          "height": 3456,
-          "size": 3039459,
-          "timestamp": "2022-04-30T21:02:08Z",
-          "author": "Lusi Lindwurm",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/92_phot._de_Provence_et_de_la_C%C3%B4te-d%27Azur_en_1890_par_J._Jackson-_Les_Baux%2C_Marseille%2C_Saint-Remy%2C_carri%C3%A8res_de_Sarragan%2C_Antibes%2C_Villefranche%2C_Nice%2C_Menton%2C_Bordighera._Don_du_phot._en_1890._Il_y_a..._-_btv1b8553847s_%2805_of_92%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A92%20phot.%20de%20Provence%20et%20de%20la%20C%C3%B4te-d'Azur%20en%201890%20par%20J.%20Jackson-%20Les%20Baux%2C%20Marseille%2C%20Saint-Remy%2C%20carri%C3%A8res%20de%20Sarragan%2C%20Antibes%2C%20Villefranche%2C%20Nice%2C%20Menton%2C%20Bordighera.%20Don%20du%20phot.%20en%201890.%20Il%20y%20a...%20-%20btv1b8553847s%20(05%20of%2092).jpg",
+          "title": "92 phot. de Provence et de la Côte-d'Azur en 1890 par J. Jackson- Les Baux, Marseille, Saint-Remy, carrières de Sarragan, Antibes, Villefranche, Nice, Menton, Bordighera. Don du phot. en 1890. Il y a... - btv1b8553847s (05 of 92).jpg",
+          "description": "Sujet : Amiral Baudin (cuirassé)\nChicago (croiseur ; 1885-1920)\nFormidable (cuirassé)\nTrident (cuirassé)\nAlpes-Maritimes, Département des\nBouches-du-Rhône, Département des\nVar, Département du\nFrance\nLigurie, Région\nItalie\nCôte d'Azur\nLes Baux-de-Provence\nMarseille\nSaint-Rémy-de-Provence\nSarragan -- Carrières\nAntibes\nVillefranche-sur-Mer\nNice\nMenton\nBordighera\nAppartient à l’ensemble documentaire : PhoGéo1\nAppartient à l’ensemble documentaire : PACA1\nCouverture : France – Provence-Alpes-Côte-d'Az",
+          "width": 4318,
+          "height": 3400,
+          "size": 1258966,
+          "timestamp": "2025-03-06T01:56:13Z",
+          "author": "<div class=\"fn value\">\nJackson, James (1843-1895). Photographe</div>",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Carri%C3%A8res_de_Lumi%C3%A8res_Les_Baux_de_Provence_2.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarri%C3%A8res%20de%20Lumi%C3%A8res%20Les%20Baux%20de%20Provence%202.JPG",
-          "title": "Carrières de Lumières Les Baux de Provence 2.JPG",
-          "width": 4000,
-          "height": 2248,
-          "size": 1852401,
-          "timestamp": "2015-09-07T18:46:56Z",
-          "author": "Juanglard",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/92_phot._de_Provence_et_de_la_C%C3%B4te-d%27Azur_en_1890_par_J._Jackson-_Les_Baux%2C_Marseille%2C_Saint-Remy%2C_carri%C3%A8res_de_Sarragan%2C_Antibes%2C_Villefranche%2C_Nice%2C_Menton%2C_Bordighera._Don_du_phot._en_1890._Il_y_a..._-_btv1b8553847s_%2807_of_92%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A92%20phot.%20de%20Provence%20et%20de%20la%20C%C3%B4te-d'Azur%20en%201890%20par%20J.%20Jackson-%20Les%20Baux%2C%20Marseille%2C%20Saint-Remy%2C%20carri%C3%A8res%20de%20Sarragan%2C%20Antibes%2C%20Villefranche%2C%20Nice%2C%20Menton%2C%20Bordighera.%20Don%20du%20phot.%20en%201890.%20Il%20y%20a...%20-%20btv1b8553847s%20(07%20of%2092).jpg",
+          "title": "92 phot. de Provence et de la Côte-d'Azur en 1890 par J. Jackson- Les Baux, Marseille, Saint-Remy, carrières de Sarragan, Antibes, Villefranche, Nice, Menton, Bordighera. Don du phot. en 1890. Il y a... - btv1b8553847s (07 of 92).jpg",
+          "description": "Sujet : Amiral Baudin (cuirassé)\nChicago (croiseur ; 1885-1920)\nFormidable (cuirassé)\nTrident (cuirassé)\nAlpes-Maritimes, Département des\nBouches-du-Rhône, Département des\nVar, Département du\nFrance\nLigurie, Région\nItalie\nCôte d'Azur\nLes Baux-de-Provence\nMarseille\nSaint-Rémy-de-Provence\nSarragan -- Carrières\nAntibes\nVillefranche-sur-Mer\nNice\nMenton\nBordighera\nAppartient à l’ensemble documentaire : PhoGéo1\nAppartient à l’ensemble documentaire : PACA1\nCouverture : France – Provence-Alpes-Côte-d'Az",
+          "width": 4326,
+          "height": 3419,
+          "size": 1373954,
+          "timestamp": "2025-03-06T01:56:34Z",
+          "author": "<div class=\"fn value\">\nJackson, James (1843-1895). Photographe</div>",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         }
       ]
     },
@@ -136,22 +145,10 @@
       "label": "Église Saint-Vincent",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/12_PAC_-_Bouches-du-Rh%C3%B4ne_-_Les_Baux-de-Provence_-_Eglise_Saint-Vincent_%282014-09-26_14-08-11%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A12%20PAC%20-%20Bouches-du-Rh%C3%B4ne%20-%20Les%20Baux-de-Provence%20-%20Eglise%20Saint-Vincent%20(2014-09-26%2014-08-11).jpg",
-          "title": "12 PAC - Bouches-du-Rhône - Les Baux-de-Provence - Eglise Saint-Vincent (2014-09-26 14-08-11).jpg",
-          "width": 4000,
-          "height": 3000,
-          "size": 3062399,
-          "timestamp": "2021-09-25T19:12:08Z",
-          "author": "Johan Allard",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Ch%C3%A2teau_des_Baux-de-Provence_-_Vue_du_Village_04.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20des%20Baux-de-Provence%20-%20Vue%20du%20Village%2004.jpg",
           "title": "Château des Baux-de-Provence - Vue du Village 04.jpg",
+          "description": "Vue du Village du Château des Baux-de-Provence",
           "width": 6000,
           "height": 4000,
           "size": 13254263,
@@ -159,12 +156,27 @@
           "author": "Tylwyth Eldar",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Les_Baux-de-Provence_%2852134190190%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20Baux-de-Provence%20(52134190190).jpg",
+          "title": "Les Baux-de-Provence (52134190190).jpg",
+          "description": "Les Baux-de-Provence",
+          "width": 4950,
+          "height": 3300,
+          "size": 11740558,
+          "timestamp": "2022-09-05T17:11:23Z",
+          "author": "Kent Wang",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/%C3%89glise_Saint-Vincent_des_Baux_-_Lanterne_des_morts.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-Vincent%20des%20Baux%20-%20Lanterne%20des%20morts.jpg",
           "title": "Église Saint-Vincent des Baux - Lanterne des morts.jpg",
+          "description": "Lanterne des morts de l'Église Saint-Vincent des Baux",
           "width": 6000,
           "height": 4000,
           "size": 13749490,
@@ -180,43 +192,46 @@
       "label": "Chapelle des Pénitents Blancs",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/12_PAC_-_Bouches-du-Rh%C3%B4ne_-_Les_Baux-de-Provence_%282013-05-14_17-52-39%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A12%20PAC%20-%20Bouches-du-Rh%C3%B4ne%20-%20Les%20Baux-de-Provence%20(2013-05-14%2017-52-39).jpg",
-          "title": "12 PAC - Bouches-du-Rhône - Les Baux-de-Provence (2013-05-14 17-52-39).jpg",
-          "width": 4000,
-          "height": 3000,
-          "size": 2792878,
-          "timestamp": "2021-09-25T19:08:20Z",
-          "author": "Johan Allard",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Ch%C3%A2teau_des_Baux-de-Provence_-_Int%C3%A9rieur_du_site_37.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20des%20Baux-de-Provence%20-%20Int%C3%A9rieur%20du%20site%2037.jpg",
+          "title": "Château des Baux-de-Provence - Intérieur du site 37.jpg",
+          "description": "Château des Baux-de-Provence : Chapelle Sainte-Catherine des Baux-de-Provence",
+          "width": 6000,
+          "height": 4000,
+          "size": 13124659,
+          "timestamp": "2024-01-04T18:39:59Z",
+          "author": "Tylwyth Eldar",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/12_PAC_-_Bouches-du-Rh%C3%B4ne_-_Les_Baux-de-Provence_%282013-05-14_17-54-41%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A12%20PAC%20-%20Bouches-du-Rh%C3%B4ne%20-%20Les%20Baux-de-Provence%20(2013-05-14%2017-54-41).jpg",
-          "title": "12 PAC - Bouches-du-Rhône - Les Baux-de-Provence (2013-05-14 17-54-41).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Ch%C3%A2teau_des_Baux-de-Provence_-_Int%C3%A9rieur_du_site_38.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20des%20Baux-de-Provence%20-%20Int%C3%A9rieur%20du%20site%2038.jpg",
+          "title": "Château des Baux-de-Provence - Intérieur du site 38.jpg",
+          "description": "Château des Baux-de-Provence : Chapelle Sainte-Catherine des Baux-de-Provence",
           "width": 4000,
-          "height": 3000,
-          "size": 3031790,
-          "timestamp": "2021-09-25T19:08:21Z",
-          "author": "Johan Allard",
+          "height": 6000,
+          "size": 13843131,
+          "timestamp": "2024-01-04T18:39:59Z",
+          "author": "Tylwyth Eldar",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 8
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/12_PAC_-_Bouches-du-Rh%C3%B4ne_-_Les_Baux-de-Provence_-_Eglise_Saint-Vincent_%282014-09-26_14-08-11%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A12%20PAC%20-%20Bouches-du-Rh%C3%B4ne%20-%20Les%20Baux-de-Provence%20-%20Eglise%20Saint-Vincent%20(2014-09-26%2014-08-11).jpg",
-          "title": "12 PAC - Bouches-du-Rhône - Les Baux-de-Provence - Eglise Saint-Vincent (2014-09-26 14-08-11).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Ch%C3%A2teau_des_Baux-de-Provence_-_Int%C3%A9rieur_du_site_36.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20des%20Baux-de-Provence%20-%20Int%C3%A9rieur%20du%20site%2036.jpg",
+          "title": "Château des Baux-de-Provence - Intérieur du site 36.jpg",
+          "description": "Château des Baux-de-Provence : entrée de la Chapelle Sainte-Catherine des Baux-de-Provence",
           "width": 4000,
-          "height": 3000,
-          "size": 3062399,
-          "timestamp": "2021-09-25T19:12:08Z",
-          "author": "Johan Allard",
+          "height": 6000,
+          "size": 13816078,
+          "timestamp": "2024-01-04T18:39:59Z",
+          "author": "Tylwyth Eldar",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 8
         }
       ]
     }

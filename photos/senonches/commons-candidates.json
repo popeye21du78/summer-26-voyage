@@ -1,25 +1,13 @@
 {
   "slug": "senonches",
   "nom": "Senonches",
-  "fetchedAt": "2026-03-14T12:30:38.810Z",
+  "fetchedAt": "2026-03-18T19:17:41.920Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Eglise_de_Senonches.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20de%20Senonches.jpg",
-      "title": "Eglise de Senonches.jpg",
-      "width": 1200,
-      "height": 675,
-      "size": 275499,
-      "timestamp": "2011-09-21T07:12:11Z",
-      "author": "Marcengel",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Senonches_-_ch%C3%A2teau.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASenonches%20-%20ch%C3%A2teau.jpg",
       "title": "Senonches - château.jpg",
+      "description": "Château de Senonches.",
       "width": 3187,
       "height": 2319,
       "size": 2382550,
@@ -27,20 +15,35 @@
       "author": "Davitof",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
+      "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Senonches_vu_du_ciel.JPG",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASenonches%20vu%20du%20ciel.JPG",
-      "title": "Senonches vu du ciel.JPG",
-      "width": 2496,
-      "height": 1664,
-      "size": 1312920,
-      "timestamp": "2014-08-07T00:39:19Z",
-      "author": "Pymouss",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Saint_Andrew_among_the_Saints_Batholomew%2C_Carlo_Borromeo%2C_Lucy_and_Apollonia_1710-16_-_Frederico_Bencovich%2C_Senonches%2C_France.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint%20Andrew%20among%20the%20Saints%20Batholomew%2C%20Carlo%20Borromeo%2C%20Lucy%20and%20Apollonia%201710-16%20-%20Frederico%20Bencovich%2C%20Senonches%2C%20France.jpg",
+      "title": "Saint Andrew among the Saints Batholomew, Carlo Borromeo, Lucy and Apollonia 1710-16 - Frederico Bencovich, Senonches, France.jpg",
+      "description": "Saint André parmi les Saints Bartholomé, Carlo Borromeo, Lucie et Apollonie par Federico Bencovich, église Notre-Dame de Senonches, Eure-et-Loir, France.",
+      "width": 7888,
+      "height": 11237,
+      "size": 75636102,
+      "timestamp": "2019-06-28T11:58:50Z",
+      "author": "Didier Descouens",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 5
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Senonches_-_%C3%A9glise_Notre_Dame_%282%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASenonches%20-%20%C3%A9glise%20Notre%20Dame%20(2).jpg",
+      "title": "Senonches - église Notre Dame (2).jpg",
+      "description": "This building is indexed in the base Mérimée, a database of architectural heritage maintained by the French Ministry of Culture, under the reference PA00097213 .\n\nbrezhoneg ∙ català ∙ Deutsch ∙ English ∙ español ∙ Esperanto ∙ euskara ∙ français ∙ italiano ∙ magyar ∙ Nederlands ∙ português do Brasil ∙ português ∙ română ∙ sicilianu ∙ slovenščina ∙ suomi ∙ svenska ∙ Ελληνικά ∙ беларуская (тарашкевіца) ∙ македонски ∙ русский ∙ українська ∙ বাংলা ∙ +/−",
+      "width": 1829,
+      "height": 3158,
+      "size": 789210,
+      "timestamp": "2011-09-29T20:15:04Z",
+      "author": "Davitof",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 4
     }
   ],
   "lieux": [
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Senonches_Ch%C3%A2teau_711.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASenonches%20Ch%C3%A2teau%20711.jpg",
           "title": "Senonches Château 711.jpg",
+          "description": "Château de Senonches in Senonches im Département Eure-et-Loir (Centre-Val de Loire/Frankreich)",
           "width": 4896,
           "height": 3264,
           "size": 12219307,
@@ -58,25 +62,27 @@
           "author": "GFreihalter",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/26-Ch%C3%A2teau_de_Tardais.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A26-Ch%C3%A2teau%20de%20Tardais.jpg",
-          "title": "26-Château de Tardais.jpg",
-          "width": 4000,
-          "height": 3000,
-          "size": 5070336,
-          "timestamp": "2017-08-17T10:07:44Z",
-          "author": "Pucesurvitaminee",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Senonches_-_ch%C3%A2teau.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASenonches%20-%20ch%C3%A2teau.jpg",
+          "title": "Senonches - château.jpg",
+          "description": "Château de Senonches.",
+          "width": 3187,
+          "height": 2319,
+          "size": 2382550,
+          "timestamp": "2011-09-27T22:11:56Z",
+          "author": "Davitof",
+          "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Senonches_Ch%C3%A2teau_712.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASenonches%20Ch%C3%A2teau%20712.jpg",
           "title": "Senonches Château 712.jpg",
+          "description": "Château de Senonches in Senonches im Département Eure-et-Loir (Centre-Val de Loire/Frankreich)",
           "width": 3264,
           "height": 4896,
           "size": 14265137,
@@ -84,7 +90,7 @@
           "author": "GFreihalter",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
         }
       ]
     },

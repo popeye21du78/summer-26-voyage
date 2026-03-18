@@ -1,12 +1,13 @@
 {
   "slug": "tarare",
   "nom": "Tarare",
-  "fetchedAt": "2026-03-13T02:01:37.139Z",
+  "fetchedAt": "2026-03-18T19:57:53.565Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Tarare_-_Entr%C3%A9e_Graineterie_Jacquemot_%28avr_2019%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATarare%20-%20Entr%C3%A9e%20Graineterie%20Jacquemot%20(avr%202019).jpg",
       "title": "Tarare - Entrée Graineterie Jacquemot (avr 2019).jpg",
+      "description": "Entrée de la graineterie Jacquemot, à Tarare, dans le département du Rhône.",
       "width": 4032,
       "height": 3016,
       "size": 3632368,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Tarare_-_Graineterie_Jacquemot_%28avr_2019%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATarare%20-%20Graineterie%20Jacquemot%20(avr%202019).jpg",
       "title": "Tarare - Graineterie Jacquemot (avr 2019).jpg",
+      "description": "Graineterie Jacquemot, à Tarare, dans le département du Rhône.",
       "width": 4032,
       "height": 3016,
       "size": 3789842,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Tarare_-_parking_du_jardin_de_la_mairie.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATarare%20-%20parking%20du%20jardin%20de%20la%20mairie.jpg",
       "title": "Tarare - parking du jardin de la mairie.jpg",
+      "description": "Tarare - parking du jardin de la mairie",
       "width": 3264,
       "height": 2448,
       "size": 2506940,
@@ -46,7 +49,50 @@
   "lieux": [
     {
       "label": "Place de la Madeleine",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Tarare_-_Place_de_la_Gare_%28mars_2019%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATarare%20-%20Place%20de%20la%20Gare%20(mars%202019).jpg",
+          "title": "Tarare - Place de la Gare (mars 2019).jpg",
+          "description": "Vue de la place de la Garde à Tarare (Rhône, France).",
+          "width": 4608,
+          "height": 3456,
+          "size": 3144280,
+          "timestamp": "2019-03-06T14:11:14Z",
+          "author": "Sebleouf",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Tarare_-_McDonald%27s_%28mars_2019%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATarare%20-%20McDonald's%20(mars%202019).jpg",
+          "title": "Tarare - McDonald's (mars 2019).jpg",
+          "description": "Vue du McDonald's de Tarare (Rhône, France).",
+          "width": 4608,
+          "height": 3456,
+          "size": 3993812,
+          "timestamp": "2019-04-10T12:51:55Z",
+          "author": "Sebleouf",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Tarare_-_Boulevard_Robert_Michon_%28mars_2019%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATarare%20-%20Boulevard%20Robert%20Michon%20(mars%202019).jpg",
+          "title": "Tarare - Boulevard Robert Michon (mars 2019).jpg",
+          "description": "Vue du boulevard Robert Michon (direction RN7), à Tarare (Rhône, France).",
+          "width": 4608,
+          "height": 3456,
+          "size": 4870870,
+          "timestamp": "2019-04-10T12:51:55Z",
+          "author": "Sebleouf",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        }
+      ]
     },
     {
       "label": "Théâtre municipal de Tarare",
@@ -55,6 +101,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Tarare_-_Th%C3%A9%C3%A2tre_municipal_%28janv_2024%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATarare%20-%20Th%C3%A9%C3%A2tre%20municipal%20(janv%202024).jpg",
           "title": "Tarare - Théâtre municipal (janv 2024).jpg",
+          "description": "Théâtre municipal de Tarare (Rhône, France).",
           "width": 4032,
           "height": 3024,
           "size": 2594352,
@@ -65,9 +112,24 @@
           "score": 7
         },
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Tarare_-_Statue_Georges-Antoine_Simonet_%28janv_2024%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATarare%20-%20Statue%20Georges-Antoine%20Simonet%20(janv%202024).jpg",
+          "title": "Tarare - Statue Georges-Antoine Simonet (janv 2024).jpg",
+          "description": "Statue de Georges-Antoine Simonet, sur la place du même nom, devant le théâtre de Tarare (Rhône, France).",
+          "width": 3024,
+          "height": 4032,
+          "size": 3047703,
+          "timestamp": "2024-08-23T09:49:47Z",
+          "author": "Sebleouf",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Tarare_-_Relief_Georges-Antoine_Simonet_sur_le_th%C3%A9%C3%A2tre_municipal_%28janv_2024%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATarare%20-%20Relief%20Georges-Antoine%20Simonet%20sur%20le%20th%C3%A9%C3%A2tre%20municipal%20(janv%202024).jpg",
           "title": "Tarare - Relief Georges-Antoine Simonet sur le théâtre municipal (janv 2024).jpg",
+          "description": "Relief de Georges-Antoine Simonet sur la façade du théâtre municipal de Tarare (Rhône, France).",
           "width": 3024,
           "height": 4032,
           "size": 3072950,
@@ -76,19 +138,6 @@
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Img710-le_statue_de_Simonet.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AImg710-le%20statue%20de%20Simonet.jpg",
-          "title": "Img710-le statue de Simonet.jpg",
-          "width": 2480,
-          "height": 3622,
-          "size": 3928681,
-          "timestamp": "2017-11-27T15:43:17Z",
-          "author": "Photographie Archives municipales de Tarare.",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
         }
       ]
     },
@@ -96,39 +145,42 @@
       "label": "Église Saint-André",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Tarare_-_%C3%89glise_Sainte-Madeleine%2C_nef_%28janv_2024%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATarare%20-%20%C3%89glise%20Sainte-Madeleine%2C%20nef%20(janv%202024).jpg",
+          "title": "Tarare - Église Sainte-Madeleine, nef (janv 2024).jpg",
+          "description": "Nef de l'église Sainte-Madeleine de Tarare (Rhône, France).",
+          "width": 4032,
+          "height": 3024,
+          "size": 3122370,
+          "timestamp": "2024-01-22T10:03:18Z",
+          "author": "Sebleouf",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Tarare_-_%C3%89glise_Sainte-Madeleine%2C_portail_%28janv_2024%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATarare%20-%20%C3%89glise%20Sainte-Madeleine%2C%20portail%20(janv%202024).jpg",
+          "title": "Tarare - Église Sainte-Madeleine, portail (janv 2024).jpg",
+          "description": "Portail d'entrée de l'église Sainte-Madeleine de Tarare (Rhône, France).",
+          "width": 3682,
+          "height": 2797,
+          "size": 2343835,
+          "timestamp": "2024-01-22T10:03:35Z",
+          "author": "Sebleouf",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Tarare_-_%C3%89glise_Saint-Andr%C3%A9_1_%28janv_2024%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATarare%20-%20%C3%89glise%20Saint-Andr%C3%A9%201%20(janv%202024).jpg",
           "title": "Tarare - Église Saint-André 1 (janv 2024).jpg",
+          "description": "Vue extérieure de l'église Saint-André, à Tarare (Rhône, France).",
           "width": 4032,
           "height": 3024,
           "size": 3598810,
           "timestamp": "2024-08-23T09:50:00Z",
-          "author": "Sebleouf",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Tarare_-_%C3%89glise_Saint-Andr%C3%A9_3_%28janv_2024%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATarare%20-%20%C3%89glise%20Saint-Andr%C3%A9%203%20(janv%202024).jpg",
-          "title": "Tarare - Église Saint-André 3 (janv 2024).jpg",
-          "width": 2947,
-          "height": 1509,
-          "size": 948053,
-          "timestamp": "2024-08-23T09:50:11Z",
-          "author": "Sebleouf",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Tarare_-_%C3%89glise_Saint-Andr%C3%A9_2_%28janv_2024%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATarare%20-%20%C3%89glise%20Saint-Andr%C3%A9%202%20(janv%202024).jpg",
-          "title": "Tarare - Église Saint-André 2 (janv 2024).jpg",
-          "width": 4032,
-          "height": 3024,
-          "size": 2607457,
-          "timestamp": "2024-08-23T09:50:11Z",
           "author": "Sebleouf",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -146,7 +198,50 @@
     },
     {
       "label": "Rue de la Soierie",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Tarare_-_Rue_de_Serbie_%28mars_2019%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATarare%20-%20Rue%20de%20Serbie%20(mars%202019).jpg",
+          "title": "Tarare - Rue de Serbie (mars 2019).jpg",
+          "description": "Vue de la rue de Serbie à Tarare (Rhône, France).",
+          "width": 4608,
+          "height": 3456,
+          "size": 3379231,
+          "timestamp": "2019-03-06T14:11:18Z",
+          "author": "Sebleouf",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Trelins_-_Tarare_sous_remise%2C_rue_de_l%27%C3%89glise_%28juin_2023%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATrelins%20-%20Tarare%20sous%20remise%2C%20rue%20de%20l'%C3%89glise%20(juin%202023).jpg",
+          "title": "Trelins - Tarare sous remise, rue de l'Église (juin 2023).jpg",
+          "description": "Un tarare sous une remise, dans le village de Trelins (Loire, France).",
+          "width": 4032,
+          "height": 3024,
+          "size": 4804106,
+          "timestamp": "2023-07-16T17:55:38Z",
+          "author": "Sebleouf",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Tarare_-_Plaque_bienfaiteur_rue_Pierre_Marie_Faye_%28janv_2024%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATarare%20-%20Plaque%20bienfaiteur%20rue%20Pierre%20Marie%20Faye%20(janv%202024).jpg",
+          "title": "Tarare - Plaque bienfaiteur rue Pierre Marie Faye (janv 2024).jpg",
+          "description": "Plaque commémorative d'un bienfaiteur de l'hospice des établissement de bienfaisance de la ville de Tarare, rue Pierre Marie Faye.",
+          "width": 4032,
+          "height": 3024,
+          "size": 1570234,
+          "timestamp": "2024-08-23T09:49:59Z",
+          "author": "Sebleouf",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

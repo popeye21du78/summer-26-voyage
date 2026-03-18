@@ -1,12 +1,13 @@
 {
   "slug": "saint-benoit-du-sault",
   "nom": "Saint-Benoît-du-Sault",
-  "fetchedAt": "2026-03-14T11:56:55.452Z",
+  "fetchedAt": "2026-03-18T18:01:17.419Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/St_Benoit_du_Sault_Boutique_-_panoramio.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt%20Benoit%20du%20Sault%20Boutique%20-%20panoramio.jpg",
       "title": "St Benoit du Sault Boutique - panoramio.jpg",
+      "description": "St Benoit du Sault Boutique",
       "width": 2048,
       "height": 1536,
       "size": 549115,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Saint-Beno%C3%AEt-du-Sault_%2836%29_Prieur%C3%A9_03.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Beno%C3%AEt-du-Sault%20(36)%20Prieur%C3%A9%2003.JPG",
       "title": "Saint-Benoît-du-Sault (36) Prieuré 03.JPG",
+      "description": "Prieuré de Saint-Benoît-du-Sault (36) et chaussée de l'étang.",
       "width": 2381,
       "height": 1786,
       "size": 1303842,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Saint-Beno%C3%AEt-du-Sault_%2836%29_Prieur%C3%A9_04.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Beno%C3%AEt-du-Sault%20(36)%20Prieur%C3%A9%2004.JPG",
       "title": "Saint-Benoît-du-Sault (36) Prieuré 04.JPG",
+      "description": "Prieuré et chaussée de l'étang de Saint-Benoît-du-Sault (36).",
       "width": 2381,
       "height": 1786,
       "size": 1851714,
@@ -54,7 +57,50 @@
     },
     {
       "label": "Vieilles ruelles pavées",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Saint-Beno%C3%AEt-du-Sault_%2836%29_Vieille_maison_04.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Beno%C3%AEt-du-Sault%20(36)%20Vieille%20maison%2004.JPG",
+          "title": "Saint-Benoît-du-Sault (36) Vieille maison 04.JPG",
+          "description": "Vieille maison à Saint-Benoît-du-Sault (36). Porte, rue du 8 mai 1945.",
+          "width": 1786,
+          "height": 2381,
+          "size": 1607108,
+          "timestamp": "2014-08-22T06:11:32Z",
+          "author": "GO69",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Saint-Beno%C3%AEt-du-Sault_%2836%29_Vieille_maison_06.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Beno%C3%AEt-du-Sault%20(36)%20Vieille%20maison%2006.JPG",
+          "title": "Saint-Benoît-du-Sault (36) Vieille maison 06.JPG",
+          "description": "Vieille maison à Saint-Benoît-du-Sault (36), à l'intersection de la rue sous le mur et la rue Émile Guinepain.",
+          "width": 1786,
+          "height": 2381,
+          "size": 2039609,
+          "timestamp": "2014-08-22T06:11:32Z",
+          "author": "GO69",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Saint-Beno%C3%AEt-du-Sault_%2836%29_Vieille_maison_01.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Beno%C3%AEt-du-Sault%20(36)%20Vieille%20maison%2001.JPG",
+          "title": "Saint-Benoît-du-Sault (36) Vieille maison 01.JPG",
+          "description": "Vieille maison à Saint-Benoît-du-Sault (36). Fenêtre, rue Émile Guinnepain.",
+          "width": 1626,
+          "height": 2153,
+          "size": 2238999,
+          "timestamp": "2014-08-22T06:11:29Z",
+          "author": "GO69",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 1
+        }
+      ]
     }
   ]
 }

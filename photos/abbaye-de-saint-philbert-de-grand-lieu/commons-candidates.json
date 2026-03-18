@@ -1,12 +1,13 @@
 {
   "slug": "abbaye-de-saint-philbert-de-grand-lieu",
   "nom": "Abbaye de Saint-Philbert-de-Grand-Lieu",
-  "fetchedAt": "2026-03-13T12:02:24.525Z",
+  "fetchedAt": "2026-03-15T14:41:12.307Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/SAINT_PHILBERT_DE_GRANDLIEU_%283%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASAINT%20PHILBERT%20DE%20GRANDLIEU%20(3).jpg",
       "title": "SAINT PHILBERT DE GRANDLIEU (3).jpg",
+      "description": "Église Saint-Philbert de Saint-Philbert-de-Grand-Lieu",
       "width": 1949,
       "height": 1462,
       "size": 885224,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/W2912_StPhilbertDeGrandLieu_StPhilbert_1869-1889_Tympan1874_85020Eos.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AW2912%20StPhilbertDeGrandLieu%20StPhilbert%201869-1889%20Tympan1874%2085020Eos.jpg",
       "title": "W2912 StPhilbertDeGrandLieu StPhilbert 1869-1889 Tympan1874 85020Eos.jpg",
+      "description": "Tympan, église Saint-Philbert (1869-1889), Fr-44-Saint-Philbert-de-Grand-lieu",
       "width": 4752,
       "height": 3168,
       "size": 5621544,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/W2913_StPhilbertDeGrandLieu_StPhilbert_1869-1889_Tympan1874_85016Eos.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AW2913%20StPhilbertDeGrandLieu%20StPhilbert%201869-1889%20Tympan1874%2085016Eos.jpg",
       "title": "W2913 StPhilbertDeGrandLieu StPhilbert 1869-1889 Tympan1874 85016Eos.jpg",
+      "description": "Tympan, église Saint-Philbert (1869-1889), Fr-44-Saint-Philbert-de-Grand-lieu",
       "width": 4752,
       "height": 3168,
       "size": 8365496,
@@ -46,11 +49,83 @@
   "lieux": [
     {
       "label": "Façade occidentale de l’abbatiale",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Abbatiale_Saint-Philbert-de-Grand-Lieu_-_Crypte_vue_du_choeur.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbatiale%20Saint-Philbert-de-Grand-Lieu%20-%20Crypte%20vue%20du%20choeur.jpg",
+          "title": "Abbatiale Saint-Philbert-de-Grand-Lieu - Crypte vue du choeur.jpg",
+          "description": "Abbatiale Saint-Philbert-de-Grand-Lieu (France) - Crypte vue du choeur",
+          "width": 1600,
+          "height": 1200,
+          "size": 1311389,
+          "timestamp": "2010-09-01T20:11:00Z",
+          "author": "Rehtse",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Saint_Philibert_de_Grand_Lieu_1.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint%20Philibert%20de%20Grand%20Lieu%201.JPG",
+          "title": "Saint Philibert de Grand Lieu 1.JPG",
+          "description": "Piliers de la nef",
+          "width": 4000,
+          "height": 3000,
+          "size": 4010519,
+          "timestamp": "2015-05-31T17:31:14Z",
+          "author": "Alainauzas",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Saint_Philibert_de_Grand_Lieu_3.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint%20Philibert%20de%20Grand%20Lieu%203.JPG",
+          "title": "Saint Philibert de Grand Lieu 3.JPG",
+          "description": "Piortail",
+          "width": 4000,
+          "height": 3000,
+          "size": 4026315,
+          "timestamp": "2015-05-31T17:31:14Z",
+          "author": "Alainauzas",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Nef romane",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Abbaye_de_Saint-Philbert-de-Grand-Lieu_-_J-A_Brutails_-_Universit%C3%A9_Bordeaux_Montaigne_-_1379.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20de%20Saint-Philbert-de-Grand-Lieu%20-%20J-A%20Brutails%20-%20Universit%C3%A9%20Bordeaux%20Montaigne%20-%201379.jpg",
+          "title": "Abbaye de Saint-Philbert-de-Grand-Lieu - J-A Brutails - Université Bordeaux Montaigne - 1379.jpg",
+          "description": "Abbaye de Saint-Philbert-de-Grand-Lieu; Nef, voûte",
+          "width": 3129,
+          "height": 4494,
+          "size": 1192534,
+          "timestamp": "2017-08-23T11:39:18Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q3163743\" class=\"extiw\" title=\"d:Q3163743\"><span title=\"French archivist and art historian (1859–1926)\">Jean-Auguste Brutails</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Abbaye_de_Saint-Philbert-de-Grand-Lieu_-_J-A_Brutails_-_Universit%C3%A9_Bordeaux_Montaigne_-_1380.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20de%20Saint-Philbert-de-Grand-Lieu%20-%20J-A%20Brutails%20-%20Universit%C3%A9%20Bordeaux%20Montaigne%20-%201380.jpg",
+          "title": "Abbaye de Saint-Philbert-de-Grand-Lieu - J-A Brutails - Université Bordeaux Montaigne - 1380.jpg",
+          "description": "Abbaye de Saint-Philbert-de-Grand-Lieu; Nef, voûte",
+          "width": 3131,
+          "height": 4498,
+          "size": 1154464,
+          "timestamp": "2017-08-23T11:39:29Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q3163743\" class=\"extiw\" title=\"d:Q3163743\"><span title=\"French archivist and art historian (1859–1926)\">Jean-Auguste Brutails</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Crypte",

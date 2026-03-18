@@ -1,52 +1,70 @@
 {
   "slug": "crozant",
   "nom": "Crozant",
-  "fetchedAt": "2026-03-13T14:00:40.462Z",
+  "fetchedAt": "2026-03-16T12:34:00.593Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Fortresse_de_Crozant.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFortresse%20de%20Crozant.jpg",
-      "title": "Fortresse de Crozant.jpg",
-      "width": 3684,
-      "height": 2760,
-      "size": 3420013,
-      "timestamp": "2024-08-18T18:34:41Z",
-      "author": "Frank Markesteijn",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Chateau_de_Crozant.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau%20de%20Crozant.jpg",
+      "title": "Chateau de Crozant.jpg",
+      "description": "Château de Crozant",
+      "width": 1600,
+      "height": 1200,
+      "size": 445718,
+      "timestamp": "2017-09-01T15:16:24Z",
+      "author": "Otaku36",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 8
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Creuse_-_Crozant_%2823%29_-_Vue_vers_Fresselines.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACreuse%20-%20Crozant%20(23)%20-%20Vue%20vers%20Fresselines.jpg",
-      "title": "Creuse - Crozant (23) - Vue vers Fresselines.jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 2641924,
-      "timestamp": "2017-08-02T16:11:21Z",
-      "author": "Floppy36",
-      "license": "CC BY-SA 3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Crozant_%28Creuse%29._%2816982503704%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACrozant%20(Creuse).%20(16982503704).jpg",
+      "title": "Crozant (Creuse). (16982503704).jpg",
+      "description": "Crozant (Creuse).\nLa Creuse à la hauteur des ruines du château féodal. \n\nLa Creuse prend sa source sur le plateau de Millevaches et ce jette dans la Vienne après un parcours de 264 km.",
+      "width": 4928,
+      "height": 3264,
+      "size": 10269340,
+      "timestamp": "2017-11-24T16:30:03Z",
+      "author": "Daniel Jolivet",
+      "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Creuse_-_Crozant_%2823%29_-_Vue_vers_%C3%89guzon-Chant%C3%B4me.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACreuse%20-%20Crozant%20(23)%20-%20Vue%20vers%20%C3%89guzon-Chant%C3%B4me.jpg",
-      "title": "Creuse - Crozant (23) - Vue vers Éguzon-Chantôme.jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 3369825,
-      "timestamp": "2017-08-02T16:11:23Z",
-      "author": "Floppy36",
-      "license": "CC BY-SA 3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Crozant_%28Creuse%29._%2830486639152%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACrozant%20(Creuse).%20(30486639152).jpg",
+      "title": "Crozant (Creuse). (30486639152).jpg",
+      "description": "Crozant (Creuse).\nLa Creuse à la hauteur des ruines du château féodal. \n\nLa Creuse prend sa source sur le plateau de Millevaches et ce jette dans la Vienne après un parcours de 264 km.",
+      "width": 4928,
+      "height": 3264,
+      "size": 11435183,
+      "timestamp": "2017-11-24T16:30:15Z",
+      "author": "Daniel Jolivet",
+      "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
     }
   ],
   "lieux": [
     {
       "label": "Roche aux Moines",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Armand_guillaumin_la_roche_de_lecho_crozant.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArmand%20guillaumin%20la%20roche%20de%20lecho%20crozant.jpg",
+          "title": "Armand guillaumin la roche de lecho crozant.jpg",
+          "description": "",
+          "width": 3200,
+          "height": 2570,
+          "size": 2038537,
+          "timestamp": "2020-01-22T21:35:50Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Armand_Guillaumin\" class=\"extiw\" title=\"w:en:Armand Guillaumin\"><span title=\"French painter (1841-1927)\">Armand Guillaumin</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "belvédère du Rocher de la Fileuse",
@@ -58,7 +76,22 @@
     },
     {
       "label": "Roche Bataille",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Armand_guillaumin_la_roche_de_lecho_crozant.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArmand%20guillaumin%20la%20roche%20de%20lecho%20crozant.jpg",
+          "title": "Armand guillaumin la roche de lecho crozant.jpg",
+          "description": "",
+          "width": 3200,
+          "height": 2570,
+          "size": 2038537,
+          "timestamp": "2020-01-22T21:35:50Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Armand_Guillaumin\" class=\"extiw\" title=\"w:en:Armand Guillaumin\"><span title=\"French painter (1841-1927)\">Armand Guillaumin</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

@@ -1,56 +1,145 @@
 {
   "slug": "solesmes",
   "nom": "Solesmes",
-  "fetchedAt": "2026-03-14T12:42:43.410Z",
+  "fetchedAt": "2026-03-18T19:45:31.407Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Solesmes_-_Abbaye_%28Malicot%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASolesmes%20-%20Abbaye%20(Malicot).jpg",
-      "title": "Solesmes - Abbaye (Malicot).jpg",
-      "width": 1653,
-      "height": 1064,
-      "size": 440139,
-      "timestamp": "2016-09-04T13:36:04Z",
-      "author": "Edition J. Malicot (Sablé-sur-Sarthe), début XXème siècle (<a rel=\"nofollow\" class=\"external text\" href=\"http://cartespostalesdemestiroirs.blogspot.fr/2016/09/solesmes-abbaye-saint-pierre-malicot.html\">collection personnelle</a>)",
-      "license": "Public domain",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/SolesmesAbbaye_2.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASolesmesAbbaye%202.jpg",
-      "title": "SolesmesAbbaye 2.jpg",
-      "width": 4000,
-      "height": 2250,
-      "size": 6297871,
-      "timestamp": "2017-09-28T16:22:13Z",
-      "author": "Selbymay",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/72_Solesmes_abbaye_vue_du_port_02.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A72%20Solesmes%20abbaye%20vue%20du%20port%2002.jpg",
+      "title": "72 Solesmes abbaye vue du port 02.jpg",
+      "description": "L'abbaye vue de Port-Juigné.",
+      "width": 4032,
+      "height": 3024,
+      "size": 2526305,
+      "timestamp": "2018-08-20T04:50:31Z",
+      "author": "Simon de l'Ouest",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/SolesmesAbbaye_1.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASolesmesAbbaye%201.jpg",
-      "title": "SolesmesAbbaye 1.jpg",
-      "width": 5000,
-      "height": 2550,
-      "size": 9752419,
-      "timestamp": "2017-09-28T16:22:13Z",
-      "author": "Selbymay",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/72_Solesmes_abbaye_vue_du_port_03.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A72%20Solesmes%20abbaye%20vue%20du%20port%2003.jpg",
+      "title": "72 Solesmes abbaye vue du port 03.jpg",
+      "description": "L'abbaye vue de Port-Juigné.",
+      "width": 4032,
+      "height": 3024,
+      "size": 5550529,
+      "timestamp": "2018-08-20T04:50:31Z",
+      "author": "Simon de l'Ouest",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/72_Solesmes_abbaye_vue_du_port_01.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A72%20Solesmes%20abbaye%20vue%20du%20port%2001.jpg",
+      "title": "72 Solesmes abbaye vue du port 01.jpg",
+      "description": "L'abbaye vue de Port-Juigné.",
+      "width": 4032,
+      "height": 3024,
+      "size": 4882659,
+      "timestamp": "2018-08-20T04:50:31Z",
+      "author": "Simon de l'Ouest",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
     }
   ],
   "lieux": [
     {
       "label": "Cloître de l’abbaye",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/72_Solesmes_abbaye_vue_du_port_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A72%20Solesmes%20abbaye%20vue%20du%20port%2002.jpg",
+          "title": "72 Solesmes abbaye vue du port 02.jpg",
+          "description": "L'abbaye vue de Port-Juigné.",
+          "width": 4032,
+          "height": 3024,
+          "size": 2526305,
+          "timestamp": "2018-08-20T04:50:31Z",
+          "author": "Simon de l'Ouest",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/72_Solesmes_abbaye_vue_du_port_03.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A72%20Solesmes%20abbaye%20vue%20du%20port%2003.jpg",
+          "title": "72 Solesmes abbaye vue du port 03.jpg",
+          "description": "L'abbaye vue de Port-Juigné.",
+          "width": 4032,
+          "height": 3024,
+          "size": 5550529,
+          "timestamp": "2018-08-20T04:50:31Z",
+          "author": "Simon de l'Ouest",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/72_Solesmes_abbaye_vue_du_port_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A72%20Solesmes%20abbaye%20vue%20du%20port%2001.jpg",
+          "title": "72 Solesmes abbaye vue du port 01.jpg",
+          "description": "L'abbaye vue de Port-Juigné.",
+          "width": 4032,
+          "height": 3024,
+          "size": 4882659,
+          "timestamp": "2018-08-20T04:50:31Z",
+          "author": "Simon de l'Ouest",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        }
+      ]
     },
     {
       "label": "Nef de l’église abbatiale",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Solesmes_-_Eglise_Saint-Martin_57.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASolesmes%20-%20Eglise%20Saint-Martin%2057.jpg",
+          "title": "Solesmes - Eglise Saint-Martin 57.jpg",
+          "description": "Solesmes - Eglise Saint-Martin",
+          "width": 6000,
+          "height": 4000,
+          "size": 13049382,
+          "timestamp": "2025-04-22T09:45:13Z",
+          "author": "Renhour48",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Solesmes_-_Eglise_Saint-Martin_58.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASolesmes%20-%20Eglise%20Saint-Martin%2058.jpg",
+          "title": "Solesmes - Eglise Saint-Martin 58.jpg",
+          "description": "Solesmes - Eglise Saint-Martin",
+          "width": 6000,
+          "height": 4000,
+          "size": 12437477,
+          "timestamp": "2025-04-22T09:45:14Z",
+          "author": "Renhour48",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Solesmes_-_Eglise_Saint-Martin_69.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASolesmes%20-%20Eglise%20Saint-Martin%2069.jpg",
+          "title": "Solesmes - Eglise Saint-Martin 69.jpg",
+          "description": "Solesmes - Eglise Saint-Martin",
+          "width": 6000,
+          "height": 4000,
+          "size": 13969099,
+          "timestamp": "2025-04-22T09:45:31Z",
+          "author": "Renhour48",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Stalles du chœur",

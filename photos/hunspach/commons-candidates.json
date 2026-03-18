@@ -1,12 +1,13 @@
 {
   "slug": "hunspach",
   "nom": "Hunspach",
-  "fetchedAt": "2026-03-13T14:45:10.208Z",
+  "fetchedAt": "2026-03-16T14:09:28.234Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Hunspach_puits_%C3%A0_balancier.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHunspach%20puits%20%C3%A0%20balancier.jpg",
       "title": "Hunspach puits à balancier.jpg",
+      "description": "Covered well, or cistern, water pump and drinking trough, high street, Hunspach, Bas-Rhin département.",
       "width": 3264,
       "height": 1836,
       "size": 1310189,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/09-2024_Hunspach_04.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A09-2024%20Hunspach%2004.jpg",
       "title": "09-2024 Hunspach 04.jpg",
+      "description": "A photograph taken by Kimon Berlin",
       "width": 8192,
       "height": 5464,
       "size": 10875580,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Hunspach_maison_1744_rue_principale62.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHunspach%20maison%201744%20rue%20principale62.jpg",
       "title": "Hunspach maison 1744 rue principale62.jpg",
+      "description": "Maison à colombage de 1744 au 62 Rue principale à Hunspach",
       "width": 3882,
       "height": 2265,
       "size": 1805970,
@@ -48,53 +51,142 @@
       "label": "Église protestante de Hunspach",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Hunspach_interieur_eglise_protestante1.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHunspach%20interieur%20eglise%20protestante1.jpg",
-          "title": "Hunspach interieur eglise protestante1.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Hunspach_Orgue_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHunspach%20Orgue%201.jpg",
+          "title": "Hunspach Orgue 1.jpg",
+          "description": "Alsacde (Bas-Rhin), Hunspach, orgueéglise protestante.",
+          "width": 2560,
+          "height": 1536,
+          "size": 1337065,
+          "timestamp": "2021-03-21T09:15:07Z",
+          "author": "René Dinkel",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Hunspach_eglise_protestante1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHunspach%20eglise%20protestante1.jpg",
+          "title": "Hunspach eglise protestante1.jpg",
+          "description": "Eglise protestante d'Hunspach",
           "width": 3264,
           "height": 1836,
-          "size": 705215,
-          "timestamp": "2021-07-07T11:46:34Z",
+          "size": 1937062,
+          "timestamp": "2021-07-07T11:41:27Z",
           "author": "Didivo67",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/L%27%C3%A9glise_protestante_du_village_d%27Hunspach_%2835821979520%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AL'%C3%A9glise%20protestante%20du%20village%20d'Hunspach%20(35821979520).jpg",
-          "title": "L'église protestante du village d'Hunspach (35821979520).jpg",
-          "width": 1829,
-          "height": 1200,
-          "size": 1501861,
-          "timestamp": "2017-08-01T07:26:01Z",
-          "author": "Jean-Pierre Dalbéra",
-          "license": "CC BY 2.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Hunspach_interieur_eglise_protestante2.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHunspach%20interieur%20eglise%20protestante2.jpg",
-          "title": "Hunspach interieur eglise protestante2.jpg",
-          "width": 1836,
-          "height": 3264,
-          "size": 542206,
-          "timestamp": "2021-07-07T11:46:34Z",
-          "author": "Didivo67",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/J31_911_Hunspach%2C_evangelische_Kirche.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJ31%20911%20Hunspach%2C%20evangelische%20Kirche.jpg",
+          "title": "J31 911 Hunspach, evangelische Kirche.jpg",
+          "description": "Von der Hauptstraße Richtung Norden, zum Aufnahmezeitpunkt endet eine Hochzeit.",
+          "width": 4522,
+          "height": 3359,
+          "size": 3329285,
+          "timestamp": "2023-08-26T12:55:00Z",
+          "author": "Falk2",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         }
       ]
     },
     {
       "label": "Maison de l’Outre-Forêt",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Hunspach_maison_1824_rue_principale80.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHunspach%20maison%201824%20rue%20principale80.jpg",
+          "title": "Hunspach maison 1824 rue principale80.jpg",
+          "description": "Maison à colombage de 1824 au 80 Rue principale à Hunspach",
+          "width": 3410,
+          "height": 2346,
+          "size": 1510355,
+          "timestamp": "2025-03-20T08:35:48Z",
+          "author": "Didivo67",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Hunspach_maison_1744_rue_principale62.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHunspach%20maison%201744%20rue%20principale62.jpg",
+          "title": "Hunspach maison 1744 rue principale62.jpg",
+          "description": "Maison à colombage de 1744 au 62 Rue principale à Hunspach",
+          "width": 3882,
+          "height": 2265,
+          "size": 1805970,
+          "timestamp": "2025-03-20T08:35:48Z",
+          "author": "Didivo67",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Hunspach_maison_route_de_hoffen.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHunspach%20maison%20route%20de%20hoffen.jpg",
+          "title": "Hunspach maison route de hoffen.jpg",
+          "description": "Maison à colombage Route de Hoffen à Hunspach",
+          "width": 6195,
+          "height": 3027,
+          "size": 4096058,
+          "timestamp": "2025-03-20T08:49:42Z",
+          "author": "Didivo67",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Puits à balancier du village",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Hunspach_puits_%C3%A0_balancier.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHunspach%20puits%20%C3%A0%20balancier.jpg",
+          "title": "Hunspach puits à balancier.jpg",
+          "description": "Covered well, or cistern, water pump and drinking trough, high street, Hunspach, Bas-Rhin département.",
+          "width": 3264,
+          "height": 1836,
+          "size": 1310189,
+          "timestamp": "2021-07-07T12:14:43Z",
+          "author": "Didivo67",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Hunspach_puits_a_balancier_rue_de_la_gare.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHunspach%20puits%20a%20balancier%20rue%20de%20la%20gare.jpg",
+          "title": "Hunspach puits a balancier rue de la gare.jpg",
+          "description": "Puits couvert, pompe à eau et abreuvoir, rue de la gare à Hunspach (Bas-Rhin)",
+          "width": 4012,
+          "height": 3157,
+          "size": 3807608,
+          "timestamp": "2025-03-21T09:41:38Z",
+          "author": "Didivo67",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Hunspach_puits_balancier_rue_de_l%27ange.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHunspach%20puits%20balancier%20rue%20de%20l'ange.jpg",
+          "title": "Hunspach puits balancier rue de l'ange.jpg",
+          "description": "Puits à balancier Rue de l'ange à Hunspach",
+          "width": 5091,
+          "height": 5043,
+          "size": 6150226,
+          "timestamp": "2025-03-24T09:44:48Z",
+          "author": "Didivo67",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

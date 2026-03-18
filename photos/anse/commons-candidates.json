@@ -1,12 +1,27 @@
 {
   "slug": "anse",
   "nom": "Anse",
-  "fetchedAt": "2026-03-12T23:47:21.032Z",
+  "fetchedAt": "2026-03-15T15:04:42.994Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Vue_Anse_69.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20Anse%2069.jpg",
+      "title": "Vue Anse 69.jpg",
+      "description": "Vue de Anse (Rhône) depuis les hauteurs. On  aperçoit à gauche l'église et à droite le château des deux tours. Au centre, on voit le signe infini, œuvre qui marque la jonction des autoroutes A6 et A46.",
+      "width": 2048,
+      "height": 1536,
+      "size": 1546306,
+      "timestamp": "2010-11-14T10:48:40Z",
+      "author": "Ansesolo",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Plaque_hommage_Mgr_Jean-Claude_Neraz%2C_%C3%A9glise_d%27Anse_%28Rh%C3%B4ne%29%2C_2021.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlaque%20hommage%20Mgr%20Jean-Claude%20Neraz%2C%20%C3%A9glise%20d'Anse%20(Rh%C3%B4ne)%2C%202021.jpg",
       "title": "Plaque hommage Mgr Jean-Claude Neraz, église d'Anse (Rhône), 2021.jpg",
+      "description": "Plaque en hommage à Mgr Jean-Claude Neraz, 2e évêque de San Antonio au Texas et né à Anse, dans l'église d'Anse (Rhône).",
       "width": 3170,
       "height": 2379,
       "size": 1069540,
@@ -20,23 +35,11 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Anse_-_All%C3%A9e_du_Colombier_-_Plaque.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAnse%20-%20All%C3%A9e%20du%20Colombier%20-%20Plaque.jpg",
       "title": "Anse - Allée du Colombier - Plaque.jpg",
+      "description": "Plaque.",
       "width": 4032,
       "height": 3024,
       "size": 5362000,
       "timestamp": "2023-01-28T18:04:47Z",
-      "author": "Romainbehar",
-      "license": "CC0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Anse_-_All%C3%A9e_du_Colombier_-_Vers_le_nord%2C_en_arrivant_aux_maisons_centrales.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAnse%20-%20All%C3%A9e%20du%20Colombier%20-%20Vers%20le%20nord%2C%20en%20arrivant%20aux%20maisons%20centrales.jpg",
-      "title": "Anse - Allée du Colombier - Vers le nord, en arrivant aux maisons centrales.jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 5581704,
-      "timestamp": "2023-01-31T06:16:18Z",
       "author": "Romainbehar",
       "license": "CC0",
       "licenseUrl": "https://creativecommons.org/licenses/",
@@ -46,15 +49,73 @@
   "lieux": [
     {
       "label": "Place du Griffon",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Place_publique_-_Anse-%C3%A0-Veau.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlace%20publique%20-%20Anse-%C3%A0-Veau.jpg",
+          "title": "Place publique - Anse-à-Veau.jpg",
+          "description": "Place publique de Anse-à-Veau, vue de la facade de la cathedrale",
+          "width": 4032,
+          "height": 3024,
+          "size": 4130386,
+          "timestamp": "2022-04-17T14:42:12Z",
+          "author": "Nyou9117",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Grenada_%28Grand_Anse_Beach%29_2.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrenada%20(Grand%20Anse%20Beach)%202.JPG",
+          "title": "Grenada (Grand Anse Beach) 2.JPG",
+          "description": "View of Grand Anse Beach, St. George's, Grenada.",
+          "width": 2225,
+          "height": 1187,
+          "size": 2269684,
+          "timestamp": "2014-01-02T11:11:08Z",
+          "author": "dpursoo",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Anse_-_Place_des_Fr%C3%A8res_Fournet_-_Entr%C3%A9e_du_foyer_des_anciens_combattants.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAnse%20-%20Place%20des%20Fr%C3%A8res%20Fournet%20-%20Entr%C3%A9e%20du%20foyer%20des%20anciens%20combattants.jpg",
+          "title": "Anse - Place des Frères Fournet - Entrée du foyer des anciens combattants.jpg",
+          "description": "Entrée du foyer des anciens combattants.",
+          "width": 3456,
+          "height": 2592,
+          "size": 5607936,
+          "timestamp": "2021-03-21T20:50:33Z",
+          "author": "Romainbehar",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Église Saint-Pierre",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Les_Anses-d%27Arlet_-_%C3%89glise_Saint-Henri_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20Anses-d'Arlet%20-%20%C3%89glise%20Saint-Henri%2001.jpg",
+          "title": "Les Anses-d'Arlet - Église Saint-Henri 01.jpg",
+          "description": "Vue du village et de l'église Saint-Henri depuis le ponton",
+          "width": 4239,
+          "height": 3177,
+          "size": 2467962,
+          "timestamp": "2014-03-15T15:10:29Z",
+          "author": "Aristoi",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Plaque_hommage_Mgr_Jean-Claude_Neraz%2C_%C3%A9glise_d%27Anse_%28Rh%C3%B4ne%29%2C_2021.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlaque%20hommage%20Mgr%20Jean-Claude%20Neraz%2C%20%C3%A9glise%20d'Anse%20(Rh%C3%B4ne)%2C%202021.jpg",
           "title": "Plaque hommage Mgr Jean-Claude Neraz, église d'Anse (Rhône), 2021.jpg",
+          "description": "Plaque en hommage à Mgr Jean-Claude Neraz, 2e évêque de San Antonio au Texas et né à Anse, dans l'église d'Anse (Rhône).",
           "width": 3170,
           "height": 2379,
           "size": 1069540,
@@ -65,40 +126,114 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Porche_en_anse_de_panier_%C3%A9glise_Saint-Pierre_Happonvilliers_Eure-et-Loir_France.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APorche%20en%20anse%20de%20panier%20%C3%A9glise%20Saint-Pierre%20Happonvilliers%20Eure-et-Loir%20France.jpg",
-          "title": "Porche en anse de panier église Saint-Pierre Happonvilliers Eure-et-Loir France.jpg",
-          "width": 2992,
-          "height": 3742,
-          "size": 2840786,
-          "timestamp": "2021-03-11T10:12:40Z",
-          "author": "Le Passant",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/%C3%89glise_Saint-Denis_d%27Anse-Bertrand.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-Denis%20d'Anse-Bertrand.jpg",
+          "title": "Église Saint-Denis d'Anse-Bertrand.jpg",
+          "description": "Église Saint-Denis d'Anse-Bertrand",
+          "width": 4032,
+          "height": 3024,
+          "size": 4187626,
+          "timestamp": "2022-12-02T19:21:10Z",
+          "author": "Enrevseluj",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/EgliseAnse.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEgliseAnse.jpg",
-          "title": "EgliseAnse.jpg",
-          "width": 3024,
-          "height": 4032,
-          "size": 5124187,
-          "timestamp": "2023-03-13T09:33:30Z",
-          "author": "CrlNvl",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         }
       ]
     },
     {
       "label": "Vestiges du rempart gallo-romain",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/2022-08-27_05_View_of_L%27Anse_aux_Meadows%2C_NFL_CAN.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2022-08-27%2005%20View%20of%20L'Anse%20aux%20Meadows%2C%20NFL%20CAN.jpg",
+          "title": "2022-08-27 05 View of L'Anse aux Meadows, NFL CAN.jpg",
+          "description": "View of L'Anse aux Meadows National Historic and UNESCO World Heritage site, Newfoundland, Canada on August 27, 2022, with Hay Cove (L) and Norstead (R) at a distance. The first Norsemen arrived here in approximately 1021.",
+          "width": 5917,
+          "height": 3937,
+          "size": 13558918,
+          "timestamp": "2024-11-01T01:07:43Z",
+          "author": "Gordon Leggett",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/L%27Anse_aux_Meadows.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AL'Anse%20aux%20Meadows.jpg",
+          "title": "L'Anse aux Meadows.jpg",
+          "description": "General view of a reconstructed viking hut at L'Anse aux Meadows",
+          "width": 3648,
+          "height": 2736,
+          "size": 3877140,
+          "timestamp": "2012-09-26T06:04:20Z",
+          "author": "SemanticsDavid",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/L%27Anse_aux_Meadows-1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AL'Anse%20aux%20Meadows-1.jpg",
+          "title": "L'Anse aux Meadows-1.jpg",
+          "description": "General view of the remains of Norse building at L'Anse aux Meadows",
+          "width": 3648,
+          "height": 2736,
+          "size": 4184641,
+          "timestamp": "2012-09-26T06:04:57Z",
+          "author": "SemanticsDavid",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Plan d’eau du Colombier",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/055_Anse_de_Pouldohan.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A055%20Anse%20de%20Pouldohan.JPG",
+          "title": "055 Anse de Pouldohan.JPG",
+          "description": "La partie centrale de l'anse de Pouldohan vue de sa rive sud ; à l'arrière-plan au centre le début de l'anse du Moulin à Mer",
+          "width": 3636,
+          "height": 2722,
+          "size": 3618360,
+          "timestamp": "2015-12-28T05:00:21Z",
+          "author": "Moreau.henri",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/380_Anse_de_Penmor.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A380%20Anse%20de%20Penmor.JPG",
+          "title": "380 Anse de Penmor.JPG",
+          "description": "Riec-sur-Bélon : la rivière (ria) du Belon vue depuis la presqu'île de confluence entre l'anse de Penmor et la rivière de Belon ; à l'arrière-plan, le hameau de Bélon (en Moëlan-sur-Mer)",
+          "width": 3648,
+          "height": 2736,
+          "size": 4162640,
+          "timestamp": "2016-02-02T04:52:17Z",
+          "author": "Moreau.henri",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Anse_4bis.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAnse%204bis.jpg",
+          "title": "Anse 4bis.jpg",
+          "description": "plan du château d'Anse",
+          "width": 3054,
+          "height": 1145,
+          "size": 253630,
+          "timestamp": "2020-05-14T14:08:47Z",
+          "author": "Saitapharnès",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        }
+      ]
     }
   ]
 }

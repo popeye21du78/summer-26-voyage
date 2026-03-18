@@ -1,12 +1,13 @@
 {
   "slug": "chateau-de-commarque",
   "nom": "Château de Commarque",
-  "fetchedAt": "2026-03-13T13:03:25.682Z",
+  "fetchedAt": "2026-03-15T21:23:36.797Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Sireuil%2C_le_ch%C3%A2teau_de_Commarque.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASireuil%2C%20le%20ch%C3%A2teau%20de%20Commarque.jpg",
       "title": "Sireuil, le château de Commarque.jpg",
+      "description": "Château de Commarque",
       "width": 4352,
       "height": 2448,
       "size": 10224452,
@@ -14,12 +15,13 @@
       "author": "JGS25",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Ch%C3%A2teau_de_Commarque_Ch%C3%A2teau_fort_du_XII%C3%A8me_si%C3%A8cle.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Commarque%20Ch%C3%A2teau%20fort%20du%20XII%C3%A8me%20si%C3%A8cle.jpg",
       "title": "Château de Commarque Château fort du XIIème siècle.jpg",
+      "description": "Château de Commarque",
       "width": 4608,
       "height": 3456,
       "size": 2281705,
@@ -27,12 +29,13 @@
       "author": "Jacquym",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Les_Eyzies-de-Tayac-Sireuil_Ch%C3%A2teau_de_Commarque.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20Eyzies-de-Tayac-Sireuil%20Ch%C3%A2teau%20de%20Commarque.jpg",
       "title": "Les Eyzies-de-Tayac-Sireuil Château de Commarque.jpg",
+      "description": "Château de Commarque",
       "width": 4608,
       "height": 3456,
       "size": 2196518,
@@ -40,21 +43,150 @@
       "author": "Jacquym",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     }
   ],
   "lieux": [
     {
       "label": "Tour maîtresse",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Commarque_2011.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACommarque%202011.jpg",
+          "title": "Commarque 2011.jpg",
+          "description": "Château de Commarque, La maison noble de Commarque et, sur la gauche, les vestiges de la tour de Jehan des Escars datée du 13e siècle. Dordogne, France.",
+          "width": 2592,
+          "height": 1944,
+          "size": 2283420,
+          "timestamp": "2011-07-16T17:02:58Z",
+          "author": "Xabi Rome-Hérault",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Sireuil%2C_la_maison_tour_et_la_maison_au_four_du_castrum_de_Commarque.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASireuil%2C%20la%20maison%20tour%20et%20la%20maison%20au%20four%20du%20castrum%20de%20Commarque.jpg",
+          "title": "Sireuil, la maison tour et la maison au four du castrum de Commarque.jpg",
+          "description": "La maison tour à contreforts et la maison au four du castrum de Commarque",
+          "width": 5166,
+          "height": 2906,
+          "size": 17138009,
+          "timestamp": "2023-01-15T11:39:56Z",
+          "author": "JGS25",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Commarque_03.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACommarque%2003.JPG",
+          "title": "Commarque 03.JPG",
+          "description": "Château de Commarque, La maison noble de Commarque et sur la gauche les vestiges de la tour de Jehan des Escars datée du 13e siècle. Dordogne, France.",
+          "width": 3416,
+          "height": 2368,
+          "size": 1059529,
+          "timestamp": "2008-11-23T19:51:13Z",
+          "author": "Traumrune",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Logis troglodytiques",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Commarque_2011.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACommarque%202011.jpg",
+          "title": "Commarque 2011.jpg",
+          "description": "Château de Commarque, La maison noble de Commarque et, sur la gauche, les vestiges de la tour de Jehan des Escars datée du 13e siècle. Dordogne, France.",
+          "width": 2592,
+          "height": 1944,
+          "size": 2283420,
+          "timestamp": "2011-07-16T17:02:58Z",
+          "author": "Xabi Rome-Hérault",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Commarquechapelle_Saint_Jean.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACommarquechapelle%20Saint%20Jean.jpg",
+          "title": "Commarquechapelle Saint Jean.jpg",
+          "description": "Château de Commarque, La chapelle Saint Jean du 14e siècle dont le milieu s’est effondré et à droite la “maison au four”. Dordogne, France.",
+          "width": 2592,
+          "height": 1944,
+          "size": 2197668,
+          "timestamp": "2011-07-16T17:08:01Z",
+          "author": "Xabi Rome-Hérault",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Sireuil%2C_la_maison_tour_et_la_maison_au_four_du_castrum_de_Commarque.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASireuil%2C%20la%20maison%20tour%20et%20la%20maison%20au%20four%20du%20castrum%20de%20Commarque.jpg",
+          "title": "Sireuil, la maison tour et la maison au four du castrum de Commarque.jpg",
+          "description": "La maison tour à contreforts et la maison au four du castrum de Commarque",
+          "width": 5166,
+          "height": 2906,
+          "size": 17138009,
+          "timestamp": "2023-01-15T11:39:56Z",
+          "author": "JGS25",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Chapelle en ruine",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Commarquechapelle_Saint_Jean.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACommarquechapelle%20Saint%20Jean.jpg",
+          "title": "Commarquechapelle Saint Jean.jpg",
+          "description": "Château de Commarque, La chapelle Saint Jean du 14e siècle dont le milieu s’est effondré et à droite la “maison au four”. Dordogne, France.",
+          "width": 2592,
+          "height": 1944,
+          "size": 2197668,
+          "timestamp": "2011-07-16T17:08:01Z",
+          "author": "Xabi Rome-Hérault",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Ch%C3%A2teau_de_Commarque%2C_La_chapelle_Saint_Jean_en_1985.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Commarque%2C%20La%20chapelle%20Saint%20Jean%20en%201985.jpg",
+          "title": "Château de Commarque, La chapelle Saint Jean en 1985.jpg",
+          "description": "Château de Commarque, La chapelle Saint Jean en 1985",
+          "width": 6982,
+          "height": 4741,
+          "size": 8411724,
+          "timestamp": "2012-09-28T07:55:28Z",
+          "author": "Havang(nl)",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Ch%C3%A2teau_de_Commarque_-_Nef_de_la_chapelle_Saint-Jean.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Commarque%20-%20Nef%20de%20la%20chapelle%20Saint-Jean.JPG",
+          "title": "Château de Commarque - Nef de la chapelle Saint-Jean.JPG",
+          "description": "Château de Commarque, Dordogne",
+          "width": 4000,
+          "height": 3000,
+          "size": 3979264,
+          "timestamp": "2013-09-03T23:02:38Z",
+          "author": "Xfigpower",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Salle basse voûtée",

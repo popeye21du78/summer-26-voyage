@@ -1,12 +1,13 @@
 {
   "slug": "abbaye-de-clairvaux",
   "nom": "Abbaye de Clairvaux",
-  "fetchedAt": "2026-03-13T12:00:09.138Z",
+  "fetchedAt": "2026-03-15T14:37:47.660Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Kloster_von_Clairvaux%2C_heute_Strafanstalt.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKloster%20von%20Clairvaux%2C%20heute%20Strafanstalt.jpg",
       "title": "Kloster von Clairvaux, heute Strafanstalt.jpg",
+      "description": "Clairvaux Prison",
       "width": 1931,
       "height": 1448,
       "size": 664628,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Abbaye_de_Clairvaux_%286%29.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20de%20Clairvaux%20(6).JPG",
       "title": "Abbaye de Clairvaux (6).JPG",
+      "description": "Porterie du palais abbatial. Entrée principale de l'établissement pénitentier de Clairvaux.",
       "width": 4288,
       "height": 2848,
       "size": 6251589,
@@ -30,15 +32,16 @@
       "score": 5
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Eglise_Juvancout.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Juvancout.jpg",
-      "title": "Eglise Juvancout.jpg",
-      "width": 2307,
-      "height": 1603,
-      "size": 882609,
-      "timestamp": "2023-09-05T08:54:54Z",
-      "author": "Hamham960",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/New_Clairvaux%2C_Sacred_Stones.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANew%20Clairvaux%2C%20Sacred%20Stones.jpg",
+      "title": "New Clairvaux, Sacred Stones.jpg",
+      "description": "Chapter House of the Abbey of New Clairvaux, Vina, Northern California.\nThe Chapter House was reconstructed with stones that were brought to California by William Randolph Hearst. Hearst had a medieval building in Ovila, Spain, taken down and had the stones shipped to the United States in order to build a castle. After he ran out of money during the Great Depression, the stones ended up in Golden Gate Park, San Francisco. In 1994, the monks started the restoration project \"Sacred Stones\". They b",
+      "width": 4059,
+      "height": 2714,
+      "size": 5849003,
+      "timestamp": "2025-11-28T22:22:25Z",
+      "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q57175365\" class=\"extiw\" title=\"d:Q57175365\"><span title=\"German-American photographer, Wikipedian, and Executive Director of the Wiki Education Foundation\">Frank Schulenburg</span></a></bdi>",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     }
@@ -50,15 +53,73 @@
     },
     {
       "label": "Salle capitulaire",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Autriche-Abbaye_de_Stams-Salle_Saint_Bernard-19920804.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAutriche-Abbaye%20de%20Stams-Salle%20Saint%20Bernard-19920804.jpg",
+          "title": "Autriche-Abbaye de Stams-Salle Saint Bernard-19920804.jpg",
+          "description": "Tribune and cieiling of the hall dédicated to St. Bernard of Clairvaux.\n\n\n\n\n \n\nThis media shows the protected monument with ObjektID 13642 in Austria. (Commons, de, Wikidata)\n\n\n\n\nZEISS IKON Contessa LKE + Kadachrome 100 ASA - Numerisation 2400 ppi",
+          "width": 2071,
+          "height": 3104,
+          "size": 1578557,
+          "timestamp": "2013-06-14T14:37:17Z",
+          "author": "Daniel Villafruela",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Abbaye_de_Clairvaux_%28ancienne%29_-_Cellier%2C_b%C3%A2timent_principal_-_salle_du_premier_%C3%A9tage_-_Dijon_-_M%C3%A9diath%C3%A8que_de_l%27architecture_et_du_patrimoine_-_APMH00019092.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20de%20Clairvaux%20(ancienne)%20-%20Cellier%2C%20b%C3%A2timent%20principal%20-%20salle%20du%20premier%20%C3%A9tage%20-%20Dijon%20-%20M%C3%A9diath%C3%A8que%20de%20l'architecture%20et%20du%20patrimoine%20-%20APMH00019092.jpg",
+          "title": "Abbaye de Clairvaux (ancienne) - Cellier, bâtiment principal - salle du premier étage - Dijon - Médiathèque de l'architecture et du patrimoine - APMH00019092.jpg",
+          "description": "Cellier, bâtiment principal : salle du premier étage.",
+          "width": 669,
+          "height": 512,
+          "size": 78708,
+          "timestamp": "2020-04-30T10:31:31Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q30131678\" class=\"extiw\" title=\"d:Q30131678\"><span title=\"French photographer (1851-1927)\">Henri Heuzé</span></a></bdi>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     },
     {
       "label": "Grand cloître",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Ville-sous-la-Fert%C3%A9_-_Abbaye-prison_de_Clairvaux_-_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVille-sous-la-Fert%C3%A9%20-%20Abbaye-prison%20de%20Clairvaux%20-%201.jpg",
+          "title": "Ville-sous-la-Ferté - Abbaye-prison de Clairvaux - 1.jpg",
+          "description": "Abbaye-prison in Ville-sous-la-Ferté (Aube, Grand Est, France).",
+          "width": 3000,
+          "height": 2000,
+          "size": 1500695,
+          "timestamp": "2023-11-11T20:58:28Z",
+          "author": "<table style=\"margin: 1.5em auto; width:60%; background-color:#CCCCCC; border:2px solid #aaaaaa; padding:1px;\" cellspacing=\"10\">\n\n<tbody><tr>\n<td><i><a href=\"https://upload.wikimedia.org/wikipedia/commons/8/83/Ville-sous-la-Fert%C3%A9_-_Abbaye-prison_de_Clairvaux_-_1.jpg\" class=\"internal\" title=\"Ville-sous-la-Ferté - Abbaye-prison de Clairvaux - 1.jpg\"><b>This illustration</b></a> <b>was made by</b> </i><b><a href=\"//commons.wikimedia.org/wiki/User:Peter17\" title=\"User:Peter17\">Peter Potrowl</a></b><i>.</i>\n<p>Please credit this with : <b>© Peter Potrowl</b> in the immediate vicinity of the image. A link to my website <a rel=\"nofollow\" class=\"external text\" href=\"https://www.sitemai.eu\">sitemai.eu</a> would be much appreciated but isn't mandatory.\n</p><p>An email to\n<span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:UserIconMail.svg\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/40px-UserIconMail.svg.png\" decoding=\"async\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/60px-UserIconMail.svg.png 2x\" data-file-width=\"700\" data-file-height=\"700\"></a></span>\n<a href=\"//commons.wikimedia.org/wiki/Special:EmailUser/Peter17\" title=\"Special:EmailUser/Peter17\">Peter Potrowl</a> would be appreciated too.\n</p><p>Do not copy this image illegally by ignoring the terms of the license below, as it is <b>not</b> in the public domain.\nIf you would like special permission to use, license, or purchase the image please contact me <span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:UserIconMail.svg\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/40px-UserIconMail.svg.png\" decoding=\"async\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/60px-UserIconMail.svg.png 2x\" data-file-width=\"700\" data-file-height=\"700\"></a></span><a href=\"//commons.wikimedia.org/wiki/Special:EmailUser/Peter17\" title=\"Special:EmailUser/Peter17\">Peter Potrowl</a> to negotiate terms.\n</p><p>More free pictures in my <a rel=\"nofollow\" class=\"external text\" href=\"https://www.sitemai.eu\">website</a>. Donations are accepted <a rel=\"nofollow\" class=\"external text\" href=\"https://paypal.me/Peter017\">here</a> and <a rel=\"nofollow\" class=\"external text\" href=\"https://buymeacoffee.com/peter17\">here</a>.\n</p>\n</td></tr></tbody></table>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Ville-sous-la-Fert%C3%A9_-_Abbaye-prison_de_Clairvaux_-_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVille-sous-la-Fert%C3%A9%20-%20Abbaye-prison%20de%20Clairvaux%20-%202.jpg",
+          "title": "Ville-sous-la-Ferté - Abbaye-prison de Clairvaux - 2.jpg",
+          "description": "Abbaye-prison in Ville-sous-la-Ferté (Aube, Grand Est, France).",
+          "width": 3000,
+          "height": 2000,
+          "size": 1295955,
+          "timestamp": "2023-11-11T20:58:39Z",
+          "author": "<table style=\"margin: 1.5em auto; width:60%; background-color:#CCCCCC; border:2px solid #aaaaaa; padding:1px;\" cellspacing=\"10\">\n\n<tbody><tr>\n<td><i><a href=\"https://upload.wikimedia.org/wikipedia/commons/7/77/Ville-sous-la-Fert%C3%A9_-_Abbaye-prison_de_Clairvaux_-_2.jpg\" class=\"internal\" title=\"Ville-sous-la-Ferté - Abbaye-prison de Clairvaux - 2.jpg\"><b>This illustration</b></a> <b>was made by</b> </i><b><a href=\"//commons.wikimedia.org/wiki/User:Peter17\" title=\"User:Peter17\">Peter Potrowl</a></b><i>.</i>\n<p>Please credit this with : <b>© Peter Potrowl</b> in the immediate vicinity of the image. A link to my website <a rel=\"nofollow\" class=\"external text\" href=\"https://www.sitemai.eu\">sitemai.eu</a> would be much appreciated but isn't mandatory.\n</p><p>An email to\n<span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:UserIconMail.svg\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/40px-UserIconMail.svg.png\" decoding=\"async\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/60px-UserIconMail.svg.png 2x\" data-file-width=\"700\" data-file-height=\"700\"></a></span>\n<a href=\"//commons.wikimedia.org/wiki/Special:EmailUser/Peter17\" title=\"Special:EmailUser/Peter17\">Peter Potrowl</a> would be appreciated too.\n</p><p>Do not copy this image illegally by ignoring the terms of the license below, as it is <b>not</b> in the public domain.\nIf you would like special permission to use, license, or purchase the image please contact me <span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:UserIconMail.svg\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/40px-UserIconMail.svg.png\" decoding=\"async\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/60px-UserIconMail.svg.png 2x\" data-file-width=\"700\" data-file-height=\"700\"></a></span><a href=\"//commons.wikimedia.org/wiki/Special:EmailUser/Peter17\" title=\"Special:EmailUser/Peter17\">Peter Potrowl</a> to negotiate terms.\n</p><p>More free pictures in my <a rel=\"nofollow\" class=\"external text\" href=\"https://www.sitemai.eu\">website</a>. Donations are accepted <a rel=\"nofollow\" class=\"external text\" href=\"https://paypal.me/Peter017\">here</a> and <a rel=\"nofollow\" class=\"external text\" href=\"https://buymeacoffee.com/peter17\">here</a>.\n</p>\n</td></tr></tbody></table>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Abbey_of_Clairvaux.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbey%20of%20Clairvaux.jpg",
           "title": "Abbey of Clairvaux.jpg",
+          "description": "This picture shows the abbey of Clairvaux, converted into a prison in the 19th century and more precisely the large cloister which was used a prison walk. The site of Clairvaux is one of the few testimonies in France of the transformation of monastic sites, places of voluntary confinement, into places of punitive confinement. The constructions preserve the marks of the occupation, first by the monks and then by the convicts until the seventies. The web documentary \"The cloister and the Prison\" p",
           "width": 4090,
           "height": 2732,
           "size": 2169996,
@@ -72,7 +133,50 @@
     },
     {
       "label": "Cour des anciennes cellules",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Prison_de_Clairvaux_La_maison-centrale_et_la_cour_d%27honneur.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APrison%20de%20Clairvaux%20La%20maison-centrale%20et%20la%20cour%20d'honneur.jpg",
+          "title": "Prison de Clairvaux La maison-centrale et la cour d'honneur.jpg",
+          "description": "La cour d'honneur de la maison-centrale de Clairvaux",
+          "width": 1625,
+          "height": 1057,
+          "size": 504734,
+          "timestamp": "2017-11-01T10:25:13Z",
+          "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Abbey_of_Clairvaux.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbey%20of%20Clairvaux.jpg",
+          "title": "Abbey of Clairvaux.jpg",
+          "description": "This picture shows the abbey of Clairvaux, converted into a prison in the 19th century and more precisely the large cloister which was used a prison walk. The site of Clairvaux is one of the few testimonies in France of the transformation of monastic sites, places of voluntary confinement, into places of punitive confinement. The constructions preserve the marks of the occupation, first by the monks and then by the convicts until the seventies. The web documentary \"The cloister and the Prison\" p",
+          "width": 4090,
+          "height": 2732,
+          "size": 2169996,
+          "timestamp": "2017-11-30T13:40:48Z",
+          "author": "Thomas Salva, Lumento",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Abbaye_de_Clairvaux_%28ancienne%29_-_Cellier_-_fa%C3%A7ade_est_sur_cour_-_Dijon_-_M%C3%A9diath%C3%A8que_de_l%27architecture_et_du_patrimoine_-_APMH00019089.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20de%20Clairvaux%20(ancienne)%20-%20Cellier%20-%20fa%C3%A7ade%20est%20sur%20cour%20-%20Dijon%20-%20M%C3%A9diath%C3%A8que%20de%20l'architecture%20et%20du%20patrimoine%20-%20APMH00019089.jpg",
+          "title": "Abbaye de Clairvaux (ancienne) - Cellier - façade est sur cour - Dijon - Médiathèque de l'architecture et du patrimoine - APMH00019089.jpg",
+          "description": "Cellier : façade est sur cour.",
+          "width": 675,
+          "height": 512,
+          "size": 59322,
+          "timestamp": "2020-04-28T06:14:16Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q30131678\" class=\"extiw\" title=\"d:Q30131678\"><span title=\"French photographer (1851-1927)\">Henri Heuzé</span></a></bdi>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     }
   ]
 }

@@ -15,8 +15,10 @@ export type PhotoSelections = Record<
 function readSelections(): PhotoSelections {
   try {
     if (existsSync(SELECTIONS_FILE)) {
-      const raw = readFileSync(SELECTIONS_FILE, "utf-8");
-      return JSON.parse(raw) as PhotoSelections;
+      const raw = readFileSync(SELECTIONS_FILE, "utf-8").trim();
+      if (!raw) return {};
+      const parsed = JSON.parse(raw);
+      return typeof parsed === "object" && parsed !== null ? parsed : {};
     }
   } catch {
     /* ignore */
@@ -24,11 +26,13 @@ function readSelections(): PhotoSelections {
   return {};
 }
 
-/** GET /api/photo-selections - Retourne toutes les sélections. */
-export async function GET() {
+/** GET /api/photo-selections - Retourne les sélections. ?slug=X retourne uniquement ce lieu (payload réduit). */
+export async function GET(request: NextRequest) {
   try {
     const data = readSelections();
-    return NextResponse.json(data);
+    const slug = request.nextUrl.searchParams.get("slug");
+    const out = slug?.trim() ? (data[slug] ? { [slug]: data[slug] } : {}) : data;
+    return NextResponse.json(out);
   } catch (err) {
     return NextResponse.json(
       { error: err instanceof Error ? err.message : String(err) },
@@ -40,7 +44,16 @@ export async function GET() {
 /** POST /api/photo-selections - Sauvegarde les sélections pour un lieu. */
 export async function POST(request: NextRequest) {
   try {
-    const body = await request.json();
+    let body: unknown;
+    try {
+      const text = await request.text();
+      if (!text?.trim()) {
+        return NextResponse.json({ error: "Body vide" }, { status: 400 });
+      }
+      body = JSON.parse(text);
+    } catch {
+      return NextResponse.json({ error: "JSON invalide" }, { status: 400 });
+    }
     const { slug, header, lieux } = body as {
       slug: string;
       header: string[];

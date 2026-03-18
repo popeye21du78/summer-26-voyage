@@ -1,12 +1,13 @@
 {
   "slug": "saumur",
   "nom": "Saumur",
-  "fetchedAt": "2026-03-13T01:58:06.852Z",
+  "fetchedAt": "2026-03-18T19:07:37.088Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/France_PdlL_49_Saumur_02.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20PdlL%2049%20Saumur%2002.jpg",
       "title": "France PdlL 49 Saumur 02.jpg",
+      "description": "Château de Saumur (Maine-et-Loire, France), en bordure de la Loire.",
       "width": 6016,
       "height": 4016,
       "size": 7285176,
@@ -14,12 +15,13 @@
       "author": "Calips",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/France_PdlL_49_Saumur_04.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20PdlL%2049%20Saumur%2004.jpg",
       "title": "France PdlL 49 Saumur 04.jpg",
+      "description": "Vue sur la vieille ville de Saumur (Maine-et-Loire, France).",
       "width": 6016,
       "height": 4016,
       "size": 5816523,
@@ -30,17 +32,18 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/AMX_AuF1_Falaise_%2849070662381%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAMX%20AuF1%20Falaise%20(49070662381).jpg",
-      "title": "AMX AuF1 Falaise (49070662381).jpg",
-      "width": 6000,
-      "height": 3675,
-      "size": 9933245,
-      "timestamp": "2024-02-18T22:19:51Z",
-      "author": "Falcon® Photography",
-      "license": "CC BY-SA 2.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Saumur_et_sa_Loire_-_Aur%C3%A9lien_FANNI.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaumur%20et%20sa%20Loire%20-%20Aur%C3%A9lien%20FANNI.jpg",
+      "title": "Saumur et sa Loire - Aurélien FANNI.jpg",
+      "description": "Saumur (Maine-et-Loire, France), le château et la Loire.",
+      "width": 6217,
+      "height": 4145,
+      "size": 11365365,
+      "timestamp": "2021-04-14T20:41:15Z",
+      "author": "Aurélien Fanni",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     }
   ],
   "lieux": [
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Aerial_image_of_Ch%C3%A2teau_de_Saumur_%28view_from_the_east%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAerial%20image%20of%20Ch%C3%A2teau%20de%20Saumur%20(view%20from%20the%20east).jpg",
           "title": "Aerial image of Château de Saumur (view from the east).jpg",
+          "description": "Aerial image of Château de Saumur (view from the east)",
           "width": 3800,
           "height": 2800,
           "size": 5930407,
@@ -58,33 +62,35 @@
           "author": "Carsten Steger",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Saumur_-_Ch%C3%A2teau_de_Saumur_-_2025-09-29_20-10-15_001.jpeg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaumur%20-%20Ch%C3%A2teau%20de%20Saumur%20-%202025-09-29%2020-10-15%20001.jpeg",
-          "title": "Saumur - Château de Saumur - 2025-09-29 20-10-15 001.jpeg",
-          "width": 4032,
-          "height": 3024,
-          "size": 4045556,
-          "timestamp": "2025-09-29T19:11:11Z",
-          "author": "Simonlmf103",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/0_1106_Saumur_-_Ch%C3%A2teau_de_Saumur.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A0%201106%20Saumur%20-%20Ch%C3%A2teau%20de%20Saumur.jpg",
+          "title": "0 1106 Saumur - Château de Saumur.jpg",
+          "description": "Das Schloss Saumur (Château de Saumur) liegt an der Loire im Departemen Maine-et-Loire, Frankreich.",
+          "width": 3600,
+          "height": 2400,
+          "size": 6593606,
+          "timestamp": "2018-07-28T14:59:42Z",
+          "author": "W. Bulach",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 8
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Saumur_-_Ch%C3%A2teau_de_Saumur_-_2025-09-29_20-10-15_004.jpeg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaumur%20-%20Ch%C3%A2teau%20de%20Saumur%20-%202025-09-29%2020-10-15%20004.jpeg",
-          "title": "Saumur - Château de Saumur - 2025-09-29 20-10-15 004.jpeg",
-          "width": 4032,
-          "height": 3024,
-          "size": 2780328,
-          "timestamp": "2025-09-29T19:11:25Z",
-          "author": "Simonlmf103",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Saumur_ch%C3%A2teau.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaumur%20ch%C3%A2teau.jpg",
+          "title": "Saumur château.jpg",
+          "description": "Château de Saumur (Maine-et-Loire) 2019",
+          "width": 4288,
+          "height": 2848,
+          "size": 5883310,
+          "timestamp": "2019-09-20T07:56:29Z",
+          "author": "Philippe Alès",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 8
         }
       ]
     },
@@ -92,43 +98,46 @@
       "label": "Place Saint-Pierre",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Place_St_Pierre%2C_Saumur%2C_Pays_de_la_Loire%2C_France_-_panoramio_-_M.Str%C4%AB%C4%B7is_%281%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlace%20St%20Pierre%2C%20Saumur%2C%20Pays%20de%20la%20Loire%2C%20France%20-%20panoramio%20-%20M.Str%C4%AB%C4%B7is%20(1).jpg",
-          "title": "Place St Pierre, Saumur, Pays de la Loire, France - panoramio - M.Strīķis (1).jpg",
-          "width": 2816,
-          "height": 2112,
-          "size": 2867613,
-          "timestamp": "2016-11-01T09:59:43Z",
-          "author": "M.Strīķis",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/11_Saumur_%2813%29_%2813009292303%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A11%20Saumur%20(13)%20(13009292303).jpg",
+          "title": "11 Saumur (13) (13009292303).jpg",
+          "description": "Les châteaux de la Loire.",
+          "width": 4000,
+          "height": 2664,
+          "size": 2306021,
+          "timestamp": "2018-03-16T08:24:13Z",
+          "author": "xorge",
+          "license": "CC BY-SA 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Saumur_Place_Saint-Pierre_R02.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaumur%20Place%20Saint-Pierre%20R02.jpg",
-          "title": "Saumur Place Saint-Pierre R02.jpg",
-          "width": 4805,
-          "height": 3378,
-          "size": 12115966,
-          "timestamp": "2017-06-17T20:34:48Z",
-          "author": "Marc Ryckaert",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/0_1112_Saumur_-_Frankreich.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A0%201112%20Saumur%20-%20Frankreich.jpg",
+          "title": "0 1112 Saumur - Frankreich.jpg",
+          "description": "Blick vom Schloss (Château de Saumur) auf die Stadt Saumur an der Loire.",
+          "width": 3600,
+          "height": 2400,
+          "size": 6982140,
+          "timestamp": "2018-07-28T15:29:50Z",
+          "author": "W. Bulach",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Saumur_Place_Saint-Pierre_R03.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaumur%20Place%20Saint-Pierre%20R03.jpg",
-          "title": "Saumur Place Saint-Pierre R03.jpg",
-          "width": 4834,
-          "height": 3299,
-          "size": 11076798,
-          "timestamp": "2017-06-17T20:34:48Z",
-          "author": "Marc Ryckaert",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/0_1113_Saumur_-_Loire.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A0%201113%20Saumur%20-%20Loire.jpg",
+          "title": "0 1113 Saumur - Loire.jpg",
+          "description": "Blick vom Schloss (Château de Saumur) auf die Stadt Saumur an der Loire.",
+          "width": 3600,
+          "height": 2400,
+          "size": 7610068,
+          "timestamp": "2018-07-28T16:23:54Z",
+          "author": "W. Bulach",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         }
       ]
     },
@@ -136,9 +145,24 @@
       "label": "Île d’Offard",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Saumur_from_the_%C3%8Ele_d%27Offart%E2%80%A6_by_Joseph_Mallord_William_Turner.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaumur%20from%20the%20%C3%8Ele%20d'Offart%E2%80%A6%20by%20Joseph%20Mallord%20William%20Turner.jpg",
+          "title": "Saumur from the Île d'Offart… by Joseph Mallord William Turner.jpg",
+          "description": "Saumur from the Île d'Offart, with the Pont Cessart and the Château in the Distance by Joseph Mallord William Turner, c. 1830, watercolor and gouache with pen and black and brown ink over traces of graphite on blue wove paper, 5 x 7 9/16 in., Sterling and Francine Clark Art Institute",
+          "width": 1526,
+          "height": 1016,
+          "size": 430178,
+          "timestamp": "2018-12-26T04:02:10Z",
+          "author": "Joseph Mallord William Turner",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Loire%2C_pt._Cessart_%2B_%C3%AEle_Offard_-_Saumur_%2849%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALoire%2C%20pt.%20Cessart%20%2B%20%C3%AEle%20Offard%20-%20Saumur%20(49).jpg",
           "title": "Loire, pt. Cessart + île Offard - Saumur (49).jpg",
+          "description": "Saumur (49), quartiers nord en rive droite de Loire.\n3ème ville du département derrière Angers et Cholet, la sous-préfecture de 30 000 hab. est ici vue depuis esplanade du château.\nLe fleuve est traversé par le pont Cessart (1770), long de 275 m et joignant le centre ville à l'île d'Offard.\n\nAvant l'aménagement de la rocade ouest, c'était un maillon de l'axe Limoges-Angers via Poitiers, ou N147/D347-947.",
           "width": 988,
           "height": 660,
           "size": 358490,
@@ -146,25 +170,13 @@
           "author": "Dacia 1410 Sport",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Saumur_-_cabane_%C3%A0_lire_-_Camping_%C3%AEle_d%27Offard.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaumur%20-%20cabane%20%C3%A0%20lire%20-%20Camping%20%C3%AEle%20d'Offard.jpg",
-          "title": "Saumur - cabane à lire - Camping île d'Offard.jpg",
-          "width": 2736,
-          "height": 3648,
-          "size": 4494023,
-          "timestamp": "2023-08-16T13:13:00Z",
-          "author": "Sylvain Machefert",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Perspective_Saumur_%2849%29%2C_depuis_Pt._Cessart.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APerspective%20Saumur%20(49)%2C%20depuis%20Pt.%20Cessart.jpg",
           "title": "Perspective Saumur (49), depuis Pt. Cessart.jpg",
+          "description": "Château, hôtel de ville et Loire à Saumur (49) depuis Pt. Cessart, juste avant Ile d'Offard.",
           "width": 988,
           "height": 660,
           "size": 222321,
@@ -172,7 +184,7 @@
           "author": "Dacia 1410 Sport",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         }
       ]
     },
@@ -180,41 +192,44 @@
       "label": "École Nationale d’Équitation - Cadre Noir",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Saumur_-_ENE_02.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaumur%20-%20ENE%2002.jpg",
-          "title": "Saumur - ENE 02.jpg",
-          "width": 5472,
-          "height": 3648,
-          "size": 9713664,
-          "timestamp": "2022-10-23T09:10:07Z",
-          "author": "Fab5669",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Saumur_1935.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaumur%201935.jpg",
+          "title": "Saumur 1935.jpg",
+          "description": "Promotion des sous-lieutenants d(active du Train à Saumur (1er octobre 1935)",
+          "width": 2809,
+          "height": 2108,
+          "size": 1231282,
+          "timestamp": "2023-02-04T07:53:22Z",
+          "author": "Fakir59",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Saumur_-_ENE_01.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaumur%20-%20ENE%2001.jpg",
-          "title": "Saumur - ENE 01.jpg",
-          "width": 5472,
-          "height": 3648,
-          "size": 9915904,
-          "timestamp": "2022-10-23T09:10:07Z",
-          "author": "Fab5669",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Saumur_2018.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaumur%202018.jpg",
+          "title": "Saumur 2018.jpg",
+          "description": "Les membres de l'association devant l'école de Cavalerie à Saumur, à l'occasion du 90ème anniversaire de l'association",
+          "width": 2048,
+          "height": 1062,
+          "size": 426037,
+          "timestamp": "2023-11-29T11:36:06Z",
+          "author": "Jbr6492",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Saumur_-_ENE_16.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaumur%20-%20ENE%2016.jpg",
-          "title": "Saumur - ENE 16.jpg",
-          "width": 5472,
-          "height": 3648,
-          "size": 9326080,
-          "timestamp": "2022-10-23T09:10:34Z",
-          "author": "Fab5669",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Recueil._Souvenirs_de_l%27%C3%89cole_polytechnique_et_de_l%27%C3%89cole_de_cavalerie_de_Saumur_-_btv1b8432493j_%28009_of_109%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARecueil.%20Souvenirs%20de%20l'%C3%89cole%20polytechnique%20et%20de%20l'%C3%89cole%20de%20cavalerie%20de%20Saumur%20-%20btv1b8432493j%20(009%20of%20109).jpg",
+          "title": "Recueil. Souvenirs de l'École polytechnique et de l'École de cavalerie de Saumur - btv1b8432493j (009 of 109).jpg",
+          "description": "Sujet : Équitation\nArtillerie\nÉcole polytechnique (Palaiseau, Essonne)\nÉcole de cavalerie (Saumur, Maine-et-Loire)\nFrance. Armée\nPortraits collectifs -- 1870-1913\nScènes -- 1870-1913\nAppartient à l’ensemble documentaire : PaysLoir1\nAppartient à l’ensemble documentaire : MnS000\n\nLangue : français",
+          "width": 3886,
+          "height": 2955,
+          "size": 930628,
+          "timestamp": "2024-10-29T04:13:40Z",
+          "author": "Inconnu",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         }
@@ -222,7 +237,36 @@
     },
     {
       "label": "Caves troglodytes de Saint-Hilaire-Saint-Florent",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Saumur_%28138%29_Montsoreau_troglodyte.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaumur%20(138)%20Montsoreau%20troglodyte.jpg",
+          "title": "Saumur (138) Montsoreau troglodyte.jpg",
+          "description": "Troglodyte dwellings at Montsoreau (Maine-et-Loire)",
+          "width": 4288,
+          "height": 2848,
+          "size": 6668812,
+          "timestamp": "2019-06-09T08:10:34Z",
+          "author": "Palamède",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Caves_Ackerman_Saumur_2008.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACaves%20Ackerman%20Saumur%202008.jpg",
+          "title": "Caves Ackerman Saumur 2008.jpg",
+          "description": "Catherine Baas - Caves Ackerman Saumur 2008",
+          "width": 942,
+          "height": 1417,
+          "size": 521952,
+          "timestamp": "2012-09-30T22:05:59Z",
+          "author": "Romuald275",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 3
+        }
+      ]
     }
   ]
 }

@@ -1,17 +1,18 @@
 {
   "slug": "labastide-d-armagnac",
   "nom": "labastide d armagnac",
-  "fetchedAt": "2026-03-13T15:11:41.936Z",
+  "fetchedAt": "2026-03-16T19:21:51.248Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/ND-des-Cyclistes-1.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AND-des-Cyclistes-1.jpg",
-      "title": "ND-des-Cyclistes-1.jpg",
-      "width": 1600,
-      "height": 1200,
-      "size": 734839,
-      "timestamp": "2023-07-08T12:53:39Z",
-      "author": "Rz98",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/40131-Labastide-d%27Armagnac-Sols.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A40131-Labastide-d'Armagnac-Sols.png",
+      "title": "40131-Labastide-d'Armagnac-Sols.png",
+      "description": "Carte des infrastructures et de l’occupation des sols en 2018 de la commune de fr:Labastide-d'Armagnac (France).",
+      "width": 3270,
+      "height": 2598,
+      "size": 2422512,
+      "timestamp": "2021-04-18T11:56:15Z",
+      "author": "Roland45",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Eglise_Notre-Dame_de_Labastide-d_Armagnac_3.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Notre-Dame%20de%20Labastide-d%20Armagnac%203.jpg",
       "title": "Eglise Notre-Dame de Labastide-d Armagnac 3.jpg",
+      "description": "L'Église Notre-Dame de Labastide-d'Armagnac est situé sur la commue de Labastide-d'Armagnac, dans le département français des Landes.",
       "width": 4578,
       "height": 2892,
       "size": 4789606,
@@ -30,71 +32,62 @@
       "score": 5
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Labastide9.JPG",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALabastide9.JPG",
-      "title": "Labastide9.JPG",
-      "width": 2042,
-      "height": 1344,
-      "size": 741054,
-      "timestamp": "2007-10-09T16:54:00Z",
-      "author": "Jibi44",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/LA_BASTIDE_D_ARMAGNAC.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALA%20BASTIDE%20D%20ARMAGNAC.jpg",
+      "title": "LA BASTIDE D ARMAGNAC.jpg",
+      "description": "LA PLACE",
+      "width": 3072,
+      "height": 2048,
+      "size": 3920038,
+      "timestamp": "2011-09-29T23:25:43Z",
+      "author": "Spichou",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 4
+      "score": 5
     }
   ],
   "lieux": [
     {
       "label": "Place Royale",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/LA_BASTIDE_D_ARMAGNAC.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALA%20BASTIDE%20D%20ARMAGNAC.jpg",
+          "title": "LA BASTIDE D ARMAGNAC.jpg",
+          "description": "LA PLACE",
+          "width": 3072,
+          "height": 2048,
+          "size": 3920038,
+          "timestamp": "2011-09-29T23:25:43Z",
+          "author": "Spichou",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Église Saint-Nicolas",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Labastide_d%27Armagnac_-_panoramio.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALabastide%20d'Armagnac%20-%20panoramio.jpg",
+          "title": "Labastide d'Armagnac - panoramio.jpg",
+          "description": "Labastide d'Armagnac",
+          "width": 3264,
+          "height": 2448,
+          "size": 3249423,
+          "timestamp": "2017-05-20T00:23:55Z",
+          "author": "Gilles Guillamot",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Chapelle Notre-Dame des Cyclistes",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/ND-des-Cyclistes-1.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AND-des-Cyclistes-1.jpg",
-          "title": "ND-des-Cyclistes-1.jpg",
-          "width": 1600,
-          "height": 1200,
-          "size": 734839,
-          "timestamp": "2023-07-08T12:53:39Z",
-          "author": "Rz98",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/ND-des-Cyclistes-2.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AND-des-Cyclistes-2.jpg",
-          "title": "ND-des-Cyclistes-2.jpg",
-          "width": 1600,
-          "height": 1200,
-          "size": 852041,
-          "timestamp": "2023-07-08T12:53:39Z",
-          "author": "Rz98",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Vitrailduvelo.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVitrailduvelo.jpg",
-          "title": "Vitrailduvelo.jpg",
-          "width": 985,
-          "height": 1264,
-          "size": 224022,
-          "timestamp": "2006-10-31T20:14:40Z",
-          "author": "No machine-readable author provided. <a href=\"//commons.wikimedia.org/w/index.php?title=User:DLEROYA&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:DLEROYA (page does not exist)\">DLEROYA</a> assumed (based on copyright claims).",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 2
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Lavoir du village",

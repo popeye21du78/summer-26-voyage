@@ -1,44 +1,44 @@
 {
   "slug": "montreux-chateau",
   "nom": "Montreux-Château",
-  "fetchedAt": "2026-03-13T16:23:45.569Z",
+  "fetchedAt": "2026-03-16T13:34:14.754Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Montreux-Ch%C3%A2teau%2C_Salle_communale.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMontreux-Ch%C3%A2teau%2C%20Salle%20communale.jpg",
-      "title": "Montreux-Château, Salle communale.jpg",
-      "width": 3087,
-      "height": 1742,
-      "size": 695870,
-      "timestamp": "2025-05-27T22:01:26Z",
-      "author": "Rauenstein",
-      "license": "CC BY-SA 3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Montreux_-_le_ch%C3%A2teau_de_Chillon_-_btv1b9045776h.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMontreux%20-%20le%20ch%C3%A2teau%20de%20Chillon%20-%20btv1b9045776h.jpg",
+      "title": "Montreux - le château de Chillon - btv1b9045776h.jpg",
+      "width": 7000,
+      "height": 5258,
+      "size": 4365980,
+      "timestamp": "2025-03-13T18:49:17Z",
+      "author": "<div class=\"fn value\">\nAgence de presse Meurisse. Agence photographique (commanditaire)</div>",
+      "license": "Public domain",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Montreux-Ch%C3%A2teau%2C_%C3%89glise_Notre-Dame-de-la-Paix_1.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMontreux-Ch%C3%A2teau%2C%20%C3%89glise%20Notre-Dame-de-la-Paix%201.jpg",
-      "title": "Montreux-Château, Église Notre-Dame-de-la-Paix 1.jpg",
-      "width": 2885,
-      "height": 2232,
-      "size": 937022,
-      "timestamp": "2025-05-27T21:48:57Z",
-      "author": "Rauenstein",
-      "license": "CC BY-SA 3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Montreux_%281908%29_%2814801491443%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMontreux%20(1908)%20(14801491443).jpg",
+      "title": "Montreux (1908) (14801491443).jpg",
+      "width": 2176,
+      "height": 1614,
+      "size": 457390,
+      "timestamp": "2015-11-10T12:01:26Z",
+      "author": "Internet Archive Book Images",
+      "license": "No restrictions",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 6
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Montreux-Ch%C3%A2teau%2C_%C3%89glise_Notre-Dame-de-la-Paix_2.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMontreux-Ch%C3%A2teau%2C%20%C3%89glise%20Notre-Dame-de-la-Paix%202.jpg",
-      "title": "Montreux-Château, Église Notre-Dame-de-la-Paix 2.jpg",
-      "width": 2596,
-      "height": 4044,
-      "size": 1372410,
-      "timestamp": "2025-05-27T21:52:01Z",
-      "author": "Rauenstein",
-      "license": "CC BY-SA 3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Montreux_%281908%29_%2814781632635%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMontreux%20(1908)%20(14781632635).jpg",
+      "title": "Montreux (1908) (14781632635).jpg",
+      "width": 2288,
+      "height": 1492,
+      "size": 430037,
+      "timestamp": "2015-11-13T03:02:20Z",
+      "author": "Internet Archive Book Images",
+      "license": "No restrictions",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 6
     }
@@ -50,7 +50,21 @@
     },
     {
       "label": "Cour intérieure",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Montreux_-_le_ch%C3%A2teau_de_Chillon_-_btv1b9045776h.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMontreux%20-%20le%20ch%C3%A2teau%20de%20Chillon%20-%20btv1b9045776h.jpg",
+          "title": "Montreux - le château de Chillon - btv1b9045776h.jpg",
+          "width": 7000,
+          "height": 5258,
+          "size": 4365980,
+          "timestamp": "2025-03-13T18:49:17Z",
+          "author": "<div class=\"fn value\">\nAgence de presse Meurisse. Agence photographique (commanditaire)</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Parc arboré",

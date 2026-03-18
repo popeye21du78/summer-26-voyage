@@ -1,12 +1,13 @@
 {
   "slug": "ile-de-batz",
   "nom": "Île de Batz",
-  "fetchedAt": "2026-03-13T14:46:40.244Z",
+  "fetchedAt": "2026-03-16T14:13:19.626Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/%C3%8Ele-de-Batz_-_Plaque_Le_Rh%C3%BB.jpeg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%8Ele-de-Batz%20-%20Plaque%20Le%20Rh%C3%BB.jpeg",
       "title": "Île-de-Batz - Plaque Le Rhû.jpeg",
+      "description": "Plaque Le Rhû.",
       "width": 4128,
       "height": 2322,
       "size": 3130447,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/%C3%8Ele-de-Batz_-_Entr%C3%A9e_du_cimeti%C3%A8re.jpeg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%8Ele-de-Batz%20-%20Entr%C3%A9e%20du%20cimeti%C3%A8re.jpeg",
       "title": "Île-de-Batz - Entrée du cimetière.jpeg",
+      "description": "Entrée du cimetière.",
       "width": 4128,
       "height": 2322,
       "size": 4960993,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/%C3%8Ele-de-Batz_-_Cimeti%C3%A8re.jpeg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%8Ele-de-Batz%20-%20Cimeti%C3%A8re.jpeg",
       "title": "Île-de-Batz - Cimetière.jpeg",
+      "description": "Cimetière.",
       "width": 4128,
       "height": 2322,
       "size": 4065157,
@@ -48,43 +51,46 @@
       "label": "Phare de l’Île de Batz",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/%C3%8Ele-de-Batz_-_Phare_-_Plaque_Batz_avec_les_vents.jpeg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%8Ele-de-Batz%20-%20Phare%20-%20Plaque%20Batz%20avec%20les%20vents.jpeg",
-          "title": "Île-de-Batz - Phare - Plaque Batz avec les vents.jpeg",
-          "width": 4128,
-          "height": 2322,
-          "size": 2526653,
-          "timestamp": "2021-08-10T19:15:33Z",
-          "author": "Romainbehar",
-          "license": "CC0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/%C3%8Ele-de-Batz_Lavoir_de_Prat-ar-C%27hanab_%C3%A9tang_phare_2021.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%8Ele-de-Batz%20Lavoir%20de%20Prat-ar-C'hanab%20%C3%A9tang%20phare%202021.jpg",
-          "title": "Île-de-Batz Lavoir de Prat-ar-C'hanab étang phare 2021.jpg",
-          "width": 4032,
-          "height": 3024,
-          "size": 8925722,
-          "timestamp": "2021-10-03T14:37:55Z",
-          "author": "Quoique",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Ile-de-Batz_Maraichage_Eglise_Phare_Semaphore.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AIle-de-Batz%20Maraichage%20Eglise%20Phare%20Semaphore.jpg",
+          "title": "Ile-de-Batz Maraichage Eglise Phare Semaphore.jpg",
+          "description": "Vue de l'île de Batz\nAu premier plan, maraîchage\n\nÀ l'arrière-plan, de gauche à droite, l'église Notre-Dame-de-Bon-Secours, le bourg, le phare et le sémaphore.",
+          "width": 4608,
+          "height": 3072,
+          "size": 4781903,
+          "timestamp": "2021-01-03T15:27:20Z",
+          "author": "Babylas",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/%C3%8Ele-de-Batz_%C3%A9tang_et_phare_2021.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%8Ele-de-Batz%20%C3%A9tang%20et%20phare%202021.jpg",
-          "title": "Île-de-Batz étang et phare 2021.jpg",
-          "width": 4032,
-          "height": 3024,
-          "size": 8554675,
-          "timestamp": "2021-10-03T14:38:03Z",
-          "author": "Quoique",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Ile_de_Batz_Vue_15.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AIle%20de%20Batz%20Vue%2015.jpg",
+          "title": "Ile de Batz Vue 15.jpg",
+          "description": "Vue de la baie",
+          "width": 5911,
+          "height": 2991,
+          "size": 9276266,
+          "timestamp": "2021-11-30T11:45:27Z",
+          "author": "René Hourdry",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Ile_de_Batz_vue_g%C3%A9n%C3%A9rale_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AIle%20de%20Batz%20vue%20g%C3%A9n%C3%A9rale%202.jpg",
+          "title": "Ile de Batz vue générale 2.jpg",
+          "description": "General overview of the Batz island from the top of the lighthouse",
+          "width": 3264,
+          "height": 2448,
+          "size": 2437846,
+          "timestamp": "2018-09-03T19:38:21Z",
+          "author": "Metalheart",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
         }
       ]
     },
@@ -92,9 +98,24 @@
       "label": "Jardin Georges Delaselle",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/%C3%8Ele-de-Batz%2C_Finist%C3%A8re%2C_France.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%8Ele-de-Batz%2C%20Finist%C3%A8re%2C%20France.jpg",
+          "title": "Île-de-Batz, Finistère, France.jpg",
+          "description": "Flower ☮ Power\nРосіяни, любіть не війну 💛💙\nRussians, Make Love, Not War💛💙\nРусские, Занимайтесь любовью, а не войной💛💙\nAlysson maritime - Lobularia maritima\nfr.wikipedia.org/wiki/Alysson_maritime\nen.wikipedia.org/wiki/Lobularia_maritima\nJardin Georges Delaselle, Penn Batz\nfr.wikipedia.org/wiki/Jardin_Georges_Delaselle\nen.wikipedia.org/wiki/Jardin_Georges_Delaselle\nbr.wikipedia.org/wiki/Jardin_Georges_Delaselle\nÎle-de-Batz fr.wikipedia.org/wiki/%C3%8Ele-de-Batz\nen.wikipedia.org/wiki/%C3%8Ele",
+          "width": 2929,
+          "height": 2929,
+          "size": 7860856,
+          "timestamp": "2024-02-06T18:26:40Z",
+          "author": "Pom'",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/%C3%8Ele_de_Batz_021_Jardin_Georges_Delaselle.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%8Ele%20de%20Batz%20021%20Jardin%20Georges%20Delaselle.JPG",
           "title": "Île de Batz 021 Jardin Georges Delaselle.JPG",
+          "description": "Île de Batz : jardin Georges Delaselle",
           "width": 3712,
           "height": 2088,
           "size": 3987147,
@@ -108,23 +129,11 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/%C3%8Ele_de_Batz_022_Jardin_Georges_Delaselle_La_n%C3%A9cropole.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%8Ele%20de%20Batz%20022%20Jardin%20Georges%20Delaselle%20La%20n%C3%A9cropole.JPG",
           "title": "Île de Batz 022 Jardin Georges Delaselle La nécropole.JPG",
+          "description": "Île de Batz : jardin Georges Delaselle, la nécropole",
           "width": 3712,
           "height": 2088,
           "size": 4111156,
           "timestamp": "2012-07-12T09:28:59Z",
-          "author": "Moreau.henri",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/%C3%8Ele_de_Batz_023_Jardin_Georges_Delaselle_La_n%C3%A9cropole.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%8Ele%20de%20Batz%20023%20Jardin%20Georges%20Delaselle%20La%20n%C3%A9cropole.JPG",
-          "title": "Île de Batz 023 Jardin Georges Delaselle La nécropole.JPG",
-          "width": 3712,
-          "height": 2088,
-          "size": 4012115,
-          "timestamp": "2012-07-12T09:40:49Z",
           "author": "Moreau.henri",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -134,7 +143,50 @@
     },
     {
       "label": "Plage du Pouldu",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/%C3%8Ele-de-Batz_-_Porz_Reter_-_Panorama.jpeg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%8Ele-de-Batz%20-%20Porz%20Reter%20-%20Panorama.jpeg",
+          "title": "Île-de-Batz - Porz Reter - Panorama.jpeg",
+          "description": "Porz Reter : panorama.",
+          "width": 2512,
+          "height": 688,
+          "size": 621392,
+          "timestamp": "2021-08-10T19:15:44Z",
+          "author": "Romainbehar",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/%C3%8Ele-de-Batz_-_Poul_C%27horz_-_Fontaine.jpeg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%8Ele-de-Batz%20-%20Poul%20C'horz%20-%20Fontaine.jpeg",
+          "title": "Île-de-Batz - Poul C'horz - Fontaine.jpeg",
+          "description": "Plage de Poul C'horz : fontaine (1852).",
+          "width": 4128,
+          "height": 2322,
+          "size": 5199134,
+          "timestamp": "2021-07-29T06:01:25Z",
+          "author": "Romainbehar",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/2022-07-21-%C3%AEle_de_Batz-0813.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2022-07-21-%C3%AEle%20de%20Batz-0813.jpg",
+          "title": "2022-07-21-île de Batz-0813.jpg",
+          "description": "Strand von Rupodou, île de Batz",
+          "width": 6327,
+          "height": 4218,
+          "size": 12545180,
+          "timestamp": "2022-08-20T10:49:15Z",
+          "author": "Superbass",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

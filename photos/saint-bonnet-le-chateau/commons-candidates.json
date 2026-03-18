@@ -1,12 +1,13 @@
 {
   "slug": "saint-bonnet-le-chateau",
   "nom": "Saint-Bonnet-le-Château",
-  "fetchedAt": "2026-03-14T11:57:51.478Z",
+  "fetchedAt": "2026-03-18T18:03:03.696Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Saint-Bonnet-le-Ch%C3%A2teau_-_02.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Bonnet-le-Ch%C3%A2teau%20-%2002.jpg",
       "title": "Saint-Bonnet-le-Château - 02.jpg",
+      "description": "Saint-Bonnet-le-Château - la poste",
       "width": 4032,
       "height": 3024,
       "size": 2587500,
@@ -14,12 +15,13 @@
       "author": "AirScott",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Saint-Bonnet-le-Ch%C3%A2teau_-_01.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Bonnet-le-Ch%C3%A2teau%20-%2001.jpg",
       "title": "Saint-Bonnet-le-Château - 01.jpg",
+      "description": "Saint-Bonnet-le-Château - un car",
       "width": 4032,
       "height": 3024,
       "size": 2456571,
@@ -27,12 +29,13 @@
       "author": "AirScott",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Saint-Bonnet-le-Ch%C3%A2teau_-_03.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Bonnet-le-Ch%C3%A2teau%20-%2003.jpg",
       "title": "Saint-Bonnet-le-Château - 03.jpg",
+      "description": "Saint-Bonnet-le-Château - place de la république",
       "width": 4032,
       "height": 3024,
       "size": 1984115,
@@ -40,17 +43,89 @@
       "author": "AirScott",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     }
   ],
   "lieux": [
     {
       "label": "Salle des gardes",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Le_Castellas_%28St_Bonnet_de_Salendrinque%29-Le_mur_du_donjon_dans_la_salle_%C3%A0_manger.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Castellas%20(St%20Bonnet%20de%20Salendrinque)-Le%20mur%20du%20donjon%20dans%20la%20salle%20%C3%A0%20manger.jpg",
+          "title": "Le Castellas (St Bonnet de Salendrinque)-Le mur du donjon dans la salle à manger.jpg",
+          "description": "Le château a été construit dans l'espace entre l'enceinte et le dojon primitif, intégré dans la construction.",
+          "width": 2848,
+          "height": 4272,
+          "size": 2090708,
+          "timestamp": "2010-06-30T07:26:21Z",
+          "author": "D Villafruela",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Henry_Scheffer_-_Jean_du_Caylar_de_Saint-Bonnet%2C_marquis_de_Toiras_-_Versailles.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHenry%20Scheffer%20-%20Jean%20du%20Caylar%20de%20Saint-Bonnet%2C%20marquis%20de%20Toiras%20-%20Versailles.jpg",
+          "title": "Henry Scheffer - Jean du Caylar de Saint-Bonnet, marquis de Toiras - Versailles.jpg",
+          "description": "Portrait of Jean Caylar d'Anduze de Saint-Bonnet (1585-1636)",
+          "width": 811,
+          "height": 1255,
+          "size": 654183,
+          "timestamp": "2022-08-24T01:48:21Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Hendrik_Scheffer\" class=\"extiw\" title=\"w:en:Hendrik Scheffer\"><span title=\"Dutch painter (1798-1862)\">Hendrik Scheffer</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Tour sud",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Saint-Bonnet-les-Tours-de-Merle_ch%C3%A2teau_Rieux.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Bonnet-les-Tours-de-Merle%20ch%C3%A2teau%20Rieux.JPG",
+          "title": "Saint-Bonnet-les-Tours-de-Merle château Rieux.JPG",
+          "description": "Le château du Rieux, Saint-Bonnet-les-Tours-de-Merle, Corrèze, France.",
+          "width": 3264,
+          "height": 2448,
+          "size": 3896356,
+          "timestamp": "2015-07-12T09:38:36Z",
+          "author": "Père Igor",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Ch%C3%A2teau_du_Rieux%2C_Saint-Bonnet-les-Tours-de-Merle.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20du%20Rieux%2C%20Saint-Bonnet-les-Tours-de-Merle.jpg",
+          "title": "Château du Rieux, Saint-Bonnet-les-Tours-de-Merle.jpg",
+          "description": "Château du Rieux, Saint-Bonnet-les-Tours-de-Merle",
+          "width": 1600,
+          "height": 1200,
+          "size": 500865,
+          "timestamp": "2018-09-29T17:12:11Z",
+          "author": "Viaceslav Grecucha",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Ch%C3%A2teau_du_Rieu.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20du%20Rieu.JPG",
+          "title": "Château du Rieu.JPG",
+          "description": "Château du Rieu",
+          "width": 2896,
+          "height": 1944,
+          "size": 1441547,
+          "timestamp": "2014-08-12T09:32:18Z",
+          "author": "Teuls",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Chemin de ronde nord",
@@ -58,7 +133,50 @@
     },
     {
       "label": "Cour intérieure",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/42204-Saint-Bonnet-le-Ch%C3%A2teau-Sols.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A42204-Saint-Bonnet-le-Ch%C3%A2teau-Sols.png",
+          "title": "42204-Saint-Bonnet-le-Château-Sols.png",
+          "description": "Carte des infrastructures et de l’occupation des sols en 2018 de la commune de fr:Saint-Bonnet-le-Château (France).",
+          "width": 3270,
+          "height": 2598,
+          "size": 2088442,
+          "timestamp": "2021-04-26T16:40:37Z",
+          "author": "Roland45",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/42204-Saint-Bonnet-le-Ch%C3%A2teau-Hydro.jpeg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A42204-Saint-Bonnet-le-Ch%C3%A2teau-Hydro.jpeg",
+          "title": "42204-Saint-Bonnet-le-Château-Hydro.jpeg",
+          "description": "Carte du réseau hydrographique de la commune de fr:Saint-Bonnet-le-Château (France).",
+          "width": 5846,
+          "height": 4133,
+          "size": 1561727,
+          "timestamp": "2024-02-12T10:53:14Z",
+          "author": "Roland45",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Ve%C3%BCe_de_la_Ville_et_Chasteau_de_Saint_Bonnet_-_1460_-_dessin_-_Louis_Boudan_-_btv1b6901994b.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVe%C3%BCe%20de%20la%20Ville%20et%20Chasteau%20de%20Saint%20Bonnet%20-%201460%20-%20dessin%20-%20Louis%20Boudan%20-%20btv1b6901994b.jpg",
+          "title": "Veüe de la Ville et Chasteau de Saint Bonnet - 1460 - dessin - Louis Boudan - btv1b6901994b.jpg",
+          "description": "Sujet : Remparts -- France (Moyen âge)\nChâteaux-forts -- France (Moyen âge)\nDonjons -- France (Moyen âge)\nSaint-Bonnet-le-Château -- Vues générales\nSaint-Bonnet-le-Château -- Château\nPaysages -- 15e siècle\nRéférence bibliographique : Gaignières, 5405\n\nAppartient à l’ensemble documentaire : Des17Gaig",
+          "width": 3664,
+          "height": 4008,
+          "size": 1922979,
+          "timestamp": "2024-10-29T16:30:22Z",
+          "author": "<div class=\"fn value\">\nBoudan, Louis (16..-17.. ; dessinateur et graveur). Dessinateur</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        }
+      ]
     }
   ]
 }

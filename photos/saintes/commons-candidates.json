@@ -1,12 +1,13 @@
 {
   "slug": "saintes",
   "nom": "Saintes",
-  "fetchedAt": "2026-03-13T01:56:52.892Z",
+  "fetchedAt": "2026-03-18T18:56:51.128Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/09_NAQ_-_Charente-Maritime_-_Saintes_-_Arc_de_Germanicus_%282017-05-02_11-38-45%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A09%20NAQ%20-%20Charente-Maritime%20-%20Saintes%20-%20Arc%20de%20Germanicus%20(2017-05-02%2011-38-45).jpg",
       "title": "09 NAQ - Charente-Maritime - Saintes - Arc de Germanicus (2017-05-02 11-38-45).jpg",
+      "description": "Arc de Germanicus",
       "width": 4000,
       "height": 2248,
       "size": 2184775,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/09_NAQ_-_Charente-Maritime_-_Saintes_-_Arc_de_Germanicus_%282017-05-02_17-48-10%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A09%20NAQ%20-%20Charente-Maritime%20-%20Saintes%20-%20Arc%20de%20Germanicus%20(2017-05-02%2017-48-10).jpg",
       "title": "09 NAQ - Charente-Maritime - Saintes - Arc de Germanicus (2017-05-02 17-48-10).jpg",
+      "description": "Arc de Germanicus",
       "width": 4000,
       "height": 2248,
       "size": 2317541,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/09_NAQ_-_Charente-Maritime_-_Saintes_-_Arc_de_Germanicus_%282017-05-02_11-38-54%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A09%20NAQ%20-%20Charente-Maritime%20-%20Saintes%20-%20Arc%20de%20Germanicus%20(2017-05-02%2011-38-54).jpg",
       "title": "09 NAQ - Charente-Maritime - Saintes - Arc de Germanicus (2017-05-02 11-38-54).jpg",
+      "description": "Arc de Germanicus",
       "width": 4000,
       "height": 2248,
       "size": 2121048,
@@ -48,40 +51,15 @@
       "label": "Arc de Germanicus",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Arc_de_Germanicus.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArc%20de%20Germanicus.JPG",
-          "title": "Arc de Germanicus.JPG",
-          "width": 2300,
-          "height": 1900,
-          "size": 1408258,
-          "timestamp": "2020-10-15T20:20:58Z",
-          "author": "Propre travail",
-          "license": "CC BY-SA 2.5",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/09_NAQ_-_Charente-Maritime_-_Saintes_-_Arc_de_Germanicus_%282017-05-02_11-38-45%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A09%20NAQ%20-%20Charente-Maritime%20-%20Saintes%20-%20Arc%20de%20Germanicus%20(2017-05-02%2011-38-45).jpg",
-          "title": "09 NAQ - Charente-Maritime - Saintes - Arc de Germanicus (2017-05-02 11-38-45).jpg",
-          "width": 4000,
-          "height": 2248,
-          "size": 2184775,
-          "timestamp": "2021-09-19T19:43:57Z",
-          "author": "Johan Allard",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/09_NAQ_-_Charente-Maritime_-_Saintes_-_Arc_de_Germanicus_%282017-05-02_17-48-10%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A09%20NAQ%20-%20Charente-Maritime%20-%20Saintes%20-%20Arc%20de%20Germanicus%20(2017-05-02%2017-48-10).jpg",
-          "title": "09 NAQ - Charente-Maritime - Saintes - Arc de Germanicus (2017-05-02 17-48-10).jpg",
-          "width": 4000,
-          "height": 2248,
-          "size": 2317541,
-          "timestamp": "2021-09-19T19:43:56Z",
-          "author": "Johan Allard",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Arc_de_Germanicus_%28Saintes%2C_France%2C_2015%29_05.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArc%20de%20Germanicus%20(Saintes%2C%20France%2C%202015)%2005.jpg",
+          "title": "Arc de Germanicus (Saintes, France, 2015) 05.jpg",
+          "description": "Ehrenbogen des Germanicus, Saintes, Frankreich.",
+          "width": 6800,
+          "height": 4502,
+          "size": 23635876,
+          "timestamp": "2023-02-11T18:01:21Z",
+          "author": "Norbert Nagel",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
@@ -90,128 +68,51 @@
     },
     {
       "label": "Théâtre antique",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Theatre_romain_lisieux_2.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATheatre%20romain%20lisieux%202.jpg",
-          "title": "Theatre romain lisieux 2.jpg",
-          "width": 4000,
-          "height": 3000,
-          "size": 5575462,
-          "timestamp": "2022-04-13T20:22:12Z",
-          "author": "Pradigue",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Theatre_romain_lisieux_5.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATheatre%20romain%20lisieux%205.jpg",
-          "title": "Theatre romain lisieux 5.jpg",
-          "width": 4000,
-          "height": 3000,
-          "size": 6000032,
-          "timestamp": "2022-04-13T20:34:01Z",
-          "author": "Pradigue",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Theatre_romain_lisieux_17.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATheatre%20romain%20lisieux%2017.jpg",
-          "title": "Theatre romain lisieux 17.jpg",
-          "width": 4000,
-          "height": 3000,
-          "size": 5505129,
-          "timestamp": "2022-04-13T21:12:44Z",
-          "author": "Pradigue",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Cathédrale Saint-Pierre",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Exterior_of_Cath%C3%A9drale_Saint-Pierre_de_Nantes_10.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AExterior%20of%20Cath%C3%A9drale%20Saint-Pierre%20de%20Nantes%2010.jpg",
-          "title": "Exterior of Cathédrale Saint-Pierre de Nantes 10.jpg",
-          "width": 4272,
-          "height": 2848,
-          "size": 3124260,
-          "timestamp": "2022-08-16T08:50:44Z",
-          "author": "John Samuel",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Cath%C3%A9drale_Condom_Choeur_BLS.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale%20Condom%20Choeur%20BLS.jpg",
-          "title": "Cathédrale Condom Choeur BLS.jpg",
-          "width": 7044,
-          "height": 5677,
-          "size": 11951187,
-          "timestamp": "2015-07-20T19:01:46Z",
-          "author": "Benh LIEU SONG",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Cathedral_of_Saint_Cecilia_of_Albi_-_7095_-_Altar_and_choir.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACathedral%20of%20Saint%20Cecilia%20of%20Albi%20-%207095%20-%20Altar%20and%20choir.jpg",
-          "title": "Cathedral of Saint Cecilia of Albi - 7095 - Altar and choir.jpg",
-          "width": 4089,
-          "height": 2719,
-          "size": 9523247,
-          "timestamp": "2015-10-17T11:27:15Z",
-          "author": "Pierre-Selim Huard",
-          "license": "CC BY 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Abbaye aux Dames",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Abbaye_aux_dames_1006092.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20aux%20dames%201006092.jpg",
-          "title": "Abbaye aux dames 1006092.jpg",
-          "width": 4240,
-          "height": 2832,
-          "size": 8454144,
-          "timestamp": "2021-04-18T16:54:58Z",
-          "author": "G.Garitan",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Abbaye_aux_Dames_Saintes_%28Charente-Maritime%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20aux%20Dames%20Saintes%20(Charente-Maritime).jpg",
+          "title": "Abbaye aux Dames Saintes (Charente-Maritime).jpg",
+          "description": "Aerial view of the Abbaye aux Dames in Saintes (Charente-Maritime)",
+          "width": 3637,
+          "height": 2249,
+          "size": 2367144,
+          "timestamp": "2022-04-23T13:51:16Z",
+          "author": "Jacques DASSIÉ",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Jardin_abbaye_aux_dames_1006068.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJardin%20abbaye%20aux%20dames%201006068.jpg",
-          "title": "Jardin abbaye aux dames 1006068.jpg",
-          "width": 4240,
-          "height": 2832,
-          "size": 12288000,
-          "timestamp": "2021-04-18T16:55:02Z",
-          "author": "G.Garitan",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/09_NAQ_-_Charente-Maritime_-_Saintes_-_Abbaye_aux_Dames_%282017-05-02_18-14-09%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A09%20NAQ%20-%20Charente-Maritime%20-%20Saintes%20-%20Abbaye%20aux%20Dames%20(2017-05-02%2018-14-09).jpg",
           "title": "09 NAQ - Charente-Maritime - Saintes - Abbaye aux Dames (2017-05-02 18-14-09).jpg",
+          "description": "Abbaye aux Dames",
           "width": 4000,
           "height": 2248,
           "size": 2271611,
+          "timestamp": "2021-09-19T19:43:00Z",
+          "author": "Johan Allard",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/09_NAQ_-_Charente-Maritime_-_Saintes_-_Abbaye_aux_Dames_%282017-05-02_18-12-39%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A09%20NAQ%20-%20Charente-Maritime%20-%20Saintes%20-%20Abbaye%20aux%20Dames%20(2017-05-02%2018-12-39).jpg",
+          "title": "09 NAQ - Charente-Maritime - Saintes - Abbaye aux Dames (2017-05-02 18-12-39).jpg",
+          "description": "Abbaye aux Dames",
+          "width": 4000,
+          "height": 2248,
+          "size": 2843285,
           "timestamp": "2021-09-19T19:43:00Z",
           "author": "Johan Allard",
           "license": "CC BY-SA 4.0",
@@ -222,78 +123,11 @@
     },
     {
       "label": "Quartier Saint-Eutrope",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Saintes-Saint-Eutrope.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaintes-Saint-Eutrope.jpg",
-          "title": "Saintes-Saint-Eutrope.jpg",
-          "width": 3169,
-          "height": 2113,
-          "size": 1858458,
-          "timestamp": "2017-09-13T08:01:02Z",
-          "author": "Archeo-glen",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Images_de_papiers_%C3%A0_en-t%C3%AAte%2C_Vaucluse_%2824%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AImages%20de%20papiers%20%C3%A0%20en-t%C3%AAte%2C%20Vaucluse%20(24).jpg",
-          "title": "Images de papiers à en-tête, Vaucluse (24).jpg",
-          "width": 2162,
-          "height": 2749,
-          "size": 2406194,
-          "timestamp": "2025-06-13T10:10:39Z",
-          "author": "<div class=\"fn value\">\nMtv84</div>",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Quais de la Charente",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/L%27_entr%C3%A9e_du_Port_de_La_Rochelle_%284%29.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AL'%20entr%C3%A9e%20du%20Port%20de%20La%20Rochelle%20(4).JPG",
-          "title": "L' entrée du Port de La Rochelle (4).JPG",
-          "width": 4752,
-          "height": 3168,
-          "size": 5589464,
-          "timestamp": "2020-05-04T20:54:14Z",
-          "author": "Jean-Pierre Bazard <a href=\"//commons.wikimedia.org/wiki/User:Jpbazard\" title=\"User:Jpbazard\">Jpbazard</a>",
-          "license": "CC BY 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/L%27_entr%C3%A9e_du_Port_de_La_Rochelle_%285%29.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AL'%20entr%C3%A9e%20du%20Port%20de%20La%20Rochelle%20(5).JPG",
-          "title": "L' entrée du Port de La Rochelle (5).JPG",
-          "width": 4752,
-          "height": 3168,
-          "size": 5687429,
-          "timestamp": "2020-05-04T20:55:10Z",
-          "author": "Jean-Pierre Bazard <a href=\"//commons.wikimedia.org/wiki/User:Jpbazard\" title=\"User:Jpbazard\">Jpbazard</a>",
-          "license": "CC BY 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Quais_avec_la_Tour_Saint-Nicolas_et_la_Tour_de_la_Cha%C3%AEne%2C_La_Rochelle%2C_septembre_1907_-_btv1b105780825.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQuais%20avec%20la%20Tour%20Saint-Nicolas%20et%20la%20Tour%20de%20la%20Cha%C3%AEne%2C%20La%20Rochelle%2C%20septembre%201907%20-%20btv1b105780825.jpg",
-          "title": "Quais avec la Tour Saint-Nicolas et la Tour de la Chaîne, La Rochelle, septembre 1907 - btv1b105780825.jpg",
-          "width": 3971,
-          "height": 3011,
-          "size": 827107,
-          "timestamp": "2025-03-06T23:47:17Z",
-          "author": "<div class=\"fn value\">\nTrutat, Eugène (1840-1910). Photographe</div>",
-          "license": "Public domain",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        }
-      ]
+      "photos": []
     }
   ]
 }

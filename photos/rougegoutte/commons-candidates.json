@@ -1,12 +1,13 @@
 {
   "slug": "rougegoutte",
   "nom": "Rougegoutte",
-  "fetchedAt": "2026-03-14T11:52:01.733Z",
+  "fetchedAt": "2026-03-18T17:48:42.585Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Rougegoutte%2C_%C3%89glise_Saint-Georges_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARougegoutte%2C%20%C3%89glise%20Saint-Georges%201.jpg",
       "title": "Rougegoutte, Église Saint-Georges 1.jpg",
+      "description": "L'église Saint-Georges à Rougegoutte, côté sud",
       "width": 3928,
       "height": 2770,
       "size": 1843481,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Rougegoutte%2C_Orgue_d%27%C3%A9glise_Saint-Georges.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARougegoutte%2C%20Orgue%20d'%C3%A9glise%20Saint-Georges.jpg",
       "title": "Rougegoutte, Orgue d'église Saint-Georges.jpg",
+      "description": "L'orgue d'église Saint-Georges à Rougegoutte",
       "width": 2057,
       "height": 1099,
       "size": 400518,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Rougegoutte%2C_Mairie.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARougegoutte%2C%20Mairie.jpg",
       "title": "Rougegoutte, Mairie.jpg",
+      "description": "La mairie de Rougegoutte",
       "width": 4197,
       "height": 2790,
       "size": 1358553,
@@ -46,11 +49,69 @@
   "lieux": [
     {
       "label": "Église Saint-Valbert",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Rougegoutte%2C_%C3%89glise_Saint-Georges_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARougegoutte%2C%20%C3%89glise%20Saint-Georges%201.jpg",
+          "title": "Rougegoutte, Église Saint-Georges 1.jpg",
+          "description": "L'église Saint-Georges à Rougegoutte, côté sud",
+          "width": 3928,
+          "height": 2770,
+          "size": 1843481,
+          "timestamp": "2025-08-08T22:17:06Z",
+          "author": "Rauenstein",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Rougegoutte%2C_Orgue_d%27%C3%A9glise_Saint-Georges.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARougegoutte%2C%20Orgue%20d'%C3%A9glise%20Saint-Georges.jpg",
+          "title": "Rougegoutte, Orgue d'église Saint-Georges.jpg",
+          "description": "L'orgue d'église Saint-Georges à Rougegoutte",
+          "width": 2057,
+          "height": 1099,
+          "size": 400518,
+          "timestamp": "2025-08-08T22:59:37Z",
+          "author": "Rauenstein",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Rougegoutte%2C_Autel_d%27%C3%A9glise_Saint-Georges.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARougegoutte%2C%20Autel%20d'%C3%A9glise%20Saint-Georges.jpg",
+          "title": "Rougegoutte, Autel d'église Saint-Georges.jpg",
+          "description": "L'autel d'église Saint-Georges à Rougegoutte",
+          "width": 2016,
+          "height": 2629,
+          "size": 744549,
+          "timestamp": "2025-08-08T22:14:55Z",
+          "author": "Rauenstein",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Lavoir de la rue Principale",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Rue_des_%C3%A9coles.Rougegoutte.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARue%20des%20%C3%A9coles.Rougegoutte.jpg",
+          "title": "Rue des écoles.Rougegoutte.jpg",
+          "description": "Rue des écoles, à Rougegoutte. Territoire de Belfort",
+          "width": 4000,
+          "height": 3000,
+          "size": 2570790,
+          "timestamp": "2017-06-28T08:53:45Z",
+          "author": "Espirat",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Chapelle Notre-Dame du Mont",

@@ -1,12 +1,13 @@
 {
   "slug": "sommet-du-blayeul",
   "nom": "Sommet du Blayeul",
-  "fetchedAt": "2026-03-14T12:43:20.233Z",
+  "fetchedAt": "2026-03-18T19:46:45.990Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Torrent_de_Blayeul_%28c%C3%B4ne_de_d%C3%A9jection%2C_montagne_de_Blayeul_et_bassin_de_r%C3%A9ception_du_torrent%29_-_Aubert_-_btv1b107002133.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATorrent%20de%20Blayeul%20(c%C3%B4ne%20de%20d%C3%A9jection%2C%20montagne%20de%20Blayeul%20et%20bassin%20de%20r%C3%A9ception%20du%20torrent)%20-%20Aubert%20-%20btv1b107002133.jpg",
       "title": "Torrent de Blayeul (cône de déjection, montagne de Blayeul et bassin de réception du torrent) - Aubert - btv1b107002133.jpg",
+      "description": "Photographie en noir et blanc de la restauration des terrains en montagne. \nMots-clés : Torrents ; Alpes-de-Haute-Provence (France) ; Verdaches",
       "width": 3195,
       "height": 4097,
       "size": 1295310,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Torrent_de_Blayeul_%28c%C3%B4ne_de_d%C3%A9jection%2C_montagne_de_Blayeul_et_bassin_de_r%C3%A9ception_du_torrent%29_-_Aubert_-_btv1b10700212n.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATorrent%20de%20Blayeul%20(c%C3%B4ne%20de%20d%C3%A9jection%2C%20montagne%20de%20Blayeul%20et%20bassin%20de%20r%C3%A9ception%20du%20torrent)%20-%20Aubert%20-%20btv1b10700212n.jpg",
       "title": "Torrent de Blayeul (cône de déjection, montagne de Blayeul et bassin de réception du torrent) - Aubert - btv1b10700212n.jpg",
+      "description": "Photographie en noir et blanc de la restauration des terrains en montagne. \nMots-clés : Torrents ; Alpes-de-Haute-Provence (France) ; Verdaches",
       "width": 3219,
       "height": 4045,
       "size": 1704240,
@@ -28,65 +30,12 @@
       "license": "Public domain",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 6
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Saut_de_la_pie.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaut%20de%20la%20pie.jpg",
-      "title": "Saut de la pie.jpg",
-      "width": 2161,
-      "height": 1620,
-      "size": 476879,
-      "timestamp": "2014-01-18T17:00:53Z",
-      "author": "Etienne Baudon",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
     }
   ],
   "lieux": [
     {
       "label": "Sommet du Blayeul",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/ISS043-E-138235_-_View_of_Earth.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS043-E-138235%20-%20View%20of%20Earth.jpg",
-          "title": "ISS043-E-138235 - View of Earth.jpg",
-          "width": 4928,
-          "height": 3280,
-          "size": 2902985,
-          "timestamp": "2021-03-16T21:32:59Z",
-          "author": "Earth Science and Remote Sensing Unit",
-          "license": "Public domain",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/2013-01-05_09-56-57_France_Provence-Alpes-C%C3%B4te_d%27Azur_Enchastrayes_Bayasse.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2013-01-05%2009-56-57%20France%20Provence-Alpes-C%C3%B4te%20d'Azur%20Enchastrayes%20Bayasse.JPG",
-          "title": "2013-01-05 09-56-57 France Provence-Alpes-Côte d'Azur Enchastrayes Bayasse.JPG",
-          "width": 3200,
-          "height": 2125,
-          "size": 4268761,
-          "timestamp": "2013-01-06T19:30:19Z",
-          "author": "Hansueli Krapf",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Panorama_pays_Dignois.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanorama%20pays%20Dignois.jpg",
-          "title": "Panorama pays Dignois.jpg",
-          "width": 21216,
-          "height": 2602,
-          "size": 11447788,
-          "timestamp": "2019-05-31T09:09:55Z",
-          "author": "Arnaud04",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Crête sud du Blayeul",

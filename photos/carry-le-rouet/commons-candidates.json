@@ -1,12 +1,13 @@
 {
   "slug": "carry-le-rouet",
   "nom": "Carry-le-Rouet",
-  "fetchedAt": "2026-03-13T12:28:56.046Z",
+  "fetchedAt": "2026-03-15T20:43:43.205Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Promenade_du_bord_de_mer_%C3%A0_Carry-le-Rouet.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APromenade%20du%20bord%20de%20mer%20%C3%A0%20Carry-le-Rouet.jpg",
       "title": "Promenade du bord de mer à Carry-le-Rouet.jpg",
+      "description": "Vue depuis la promenade du bord de mer à Carry-le-Rouet (Bouches-du-Rhône)",
       "width": 4032,
       "height": 2268,
       "size": 2065468,
@@ -14,12 +15,13 @@
       "author": "Mathieu BROSSAIS",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Mobeye-%C3%89t%C3%A9DesVilles-Carry-le-Rouet-344.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMobeye-%C3%89t%C3%A9DesVilles-Carry-le-Rouet-344.jpg",
       "title": "Mobeye-ÉtéDesVilles-Carry-le-Rouet-344.jpg",
+      "description": "Plage carry le rouet",
       "width": 3264,
       "height": 2448,
       "size": 865848,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Mobeye-%C3%89t%C3%A9DesVilles-Carry-le-Rouet-343.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMobeye-%C3%89t%C3%A9DesVilles-Carry-le-Rouet-343.jpg",
       "title": "Mobeye-ÉtéDesVilles-Carry-le-Rouet-343.jpg",
+      "description": "Plage carry le rouet",
       "width": 3264,
       "height": 2448,
       "size": 837604,
@@ -46,7 +49,50 @@
   "lieux": [
     {
       "label": "Port de plaisance de Carry-le-Rouet",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Carry-Le-Rouet-Oursinades1.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarry-Le-Rouet-Oursinades1.JPG",
+          "title": "Carry-Le-Rouet-Oursinades1.JPG",
+          "description": "Les Oursinades sur le port de Carry-le-Rouet, Bouches-du-Rhône, France",
+          "width": 1600,
+          "height": 1200,
+          "size": 975274,
+          "timestamp": "2006-07-30T14:17:07Z",
+          "author": "Jddmano",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Carry-Le-Rouet-Oursinades2.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarry-Le-Rouet-Oursinades2.JPG",
+          "title": "Carry-Le-Rouet-Oursinades2.JPG",
+          "description": "Les Oursinades sur le port de Carry-le-Rouet, Bouches-du-Rhône, France",
+          "width": 1600,
+          "height": 1200,
+          "size": 1198869,
+          "timestamp": "2006-07-30T14:18:18Z",
+          "author": "Jddmano",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Carry-Le-Rouet-1.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarry-Le-Rouet-1.JPG",
+          "title": "Carry-Le-Rouet-1.JPG",
+          "description": "Le port de Carry-le-Rouet, Bouches-du-Rhône, France",
+          "width": 1600,
+          "height": 1200,
+          "size": 1034824,
+          "timestamp": "2006-07-30T14:25:35Z",
+          "author": "Jddmano",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     },
     {
       "label": "Chapelle Notre-Dame-du-Rouet",
@@ -55,6 +101,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Chapelle_du_Rouet_20180812_04.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20du%20Rouet%2020180812%2004.jpg",
           "title": "Chapelle du Rouet 20180812 04.jpg",
+          "description": "Chapelle du Rouet, Carry-le-Rouet (Bouches-du-Rhône, France)",
           "width": 5184,
           "height": 3456,
           "size": 13067956,
@@ -68,6 +115,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Chapelle_du_Rouet_20180812_05.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20du%20Rouet%2020180812%2005.jpg",
           "title": "Chapelle du Rouet 20180812 05.jpg",
+          "description": "Chapelle du Rouet, Carry-le-Rouet (Bouches-du-Rhône, France)",
           "width": 5184,
           "height": 3456,
           "size": 13084949,
@@ -81,6 +129,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Chapelle_du_Rouet_20180812_07.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20du%20Rouet%2020180812%2007.jpg",
           "title": "Chapelle du Rouet 20180812 07.jpg",
+          "description": "Chapelle du Rouet, Carry-le-Rouet (Bouches-du-Rhône, France)",
           "width": 5184,
           "height": 3456,
           "size": 11743093,
@@ -94,7 +143,22 @@
     },
     {
       "label": "Sentier du Lézard",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Sur_le_sentier_du_littoral%2C_Carry-le-rouet_%2827044360346%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASur%20le%20sentier%20du%20littoral%2C%20Carry-le-rouet%20(27044360346).jpg",
+          "title": "Sur le sentier du littoral, Carry-le-rouet (27044360346).jpg",
+          "description": "sur le sentier du littoral, Carry-le-rouet",
+          "width": 4752,
+          "height": 3168,
+          "size": 7095299,
+          "timestamp": "2024-11-06T00:24:22Z",
+          "author": "Jeanne Menjoulet",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

@@ -1,25 +1,13 @@
 {
   "slug": "chateau-de-chenonceau",
   "nom": "Château de Chenonceau",
-  "fetchedAt": "2026-03-13T12:51:47.264Z",
+  "fetchedAt": "2026-03-15T21:21:23.567Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Chateau_de_Chenonceau%2C_France_%2825479324274%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau%20de%20Chenonceau%2C%20France%20(25479324274).jpg",
-      "title": "Chateau de Chenonceau, France (25479324274).jpg",
-      "width": 3648,
-      "height": 2736,
-      "size": 4268492,
-      "timestamp": "2022-06-16T18:30:16Z",
-      "author": "krishna naudin",
-      "license": "CC BY-SA 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Ch%C3%A2teau_de_Chenonceau_-_panoramio_%284%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Chenonceau%20-%20panoramio%20(4).jpg",
       "title": "Château de Chenonceau - panoramio (4).jpg",
+      "description": "Château de Chenonceau",
       "width": 2848,
       "height": 2136,
       "size": 1486306,
@@ -27,20 +15,35 @@
       "author": "ktanaka",
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/%60Madame_Isaac_Pereire%60_at_Chenonceau_%E8%88%8D%E8%BE%B2%E7%B4%A2%E7%9A%84%E6%BC%AA%E8%8E%8E%E5%A4%AB%E4%BA%BA%E7%8E%AB%E7%91%B0_-_panoramio.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%60Madame%20Isaac%20Pereire%60%20at%20Chenonceau%20%E8%88%8D%E8%BE%B2%E7%B4%A2%E7%9A%84%E6%BC%AA%E8%8E%8E%E5%A4%AB%E4%BA%BA%E7%8E%AB%E7%91%B0%20-%20panoramio.jpg",
-      "title": "`Madame Isaac Pereire` at Chenonceau 舍農索的漪莎夫人玫瑰 - panoramio.jpg",
-      "width": 2480,
-      "height": 1792,
-      "size": 1634232,
-      "timestamp": "2016-12-26T01:43:06Z",
-      "author": "lienyuan lee",
-      "license": "CC BY 3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Ch%C3%A2teau_de_Chenonceau_-_all%C3%A9e_arbor%C3%A9e_%28Chenonceaux%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Chenonceau%20-%20all%C3%A9e%20arbor%C3%A9e%20(Chenonceaux).jpg",
+      "title": "Château de Chenonceau - allée arborée (Chenonceaux).jpg",
+      "description": "Allée arborée au château de Chenonceau (Chenonceaux, Indre-et-Loire, France).",
+      "width": 5472,
+      "height": 3648,
+      "size": 4986834,
+      "timestamp": "2019-08-25T08:16:31Z",
+      "author": "Gzen92",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Ch%C3%A2teau_de_Chenonceau_-_le_potager_des_fleurs_-_fleur_%28Echinacea%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Chenonceau%20-%20le%20potager%20des%20fleurs%20-%20fleur%20(Echinacea).jpg",
+      "title": "Château de Chenonceau - le potager des fleurs - fleur (Echinacea).jpg",
+      "description": "Fleur (Echinacea) dans le potager des fleurs du château de Chenonceau à Chenonceaux (Indre-et-Loire, France).",
+      "width": 5472,
+      "height": 3648,
+      "size": 3142500,
+      "timestamp": "2019-08-25T08:17:17Z",
+      "author": "Gzen92",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
     }
   ],
   "lieux": [
@@ -48,41 +51,44 @@
       "label": "Galerie sur le Cher",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Chenonceaux_%28Indre-et-Loire%29_%2810439225465%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChenonceaux%20(Indre-et-Loire)%20(10439225465).jpg",
-          "title": "Chenonceaux (Indre-et-Loire) (10439225465).jpg",
-          "width": 4928,
-          "height": 3264,
-          "size": 6888163,
-          "timestamp": "2017-11-17T16:03:59Z",
-          "author": "Daniel Jolivet",
-          "license": "CC BY 2.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Ch%C3%A2teau_de_Chenonceau-122-grosse_Galerie-2008-gje.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Chenonceau-122-grosse%20Galerie-2008-gje.jpg",
+          "title": "Château de Chenonceau-122-grosse Galerie-2008-gje.jpg",
+          "description": "Château de Chenonceau",
+          "width": 3072,
+          "height": 2048,
+          "size": 2943331,
+          "timestamp": "2019-06-08T13:10:01Z",
+          "author": "Gerd Eichmann",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Chenonceaux_%28Indre-et-Loire%29_%2810439390903%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChenonceaux%20(Indre-et-Loire)%20(10439390903).jpg",
-          "title": "Chenonceaux (Indre-et-Loire) (10439390903).jpg",
-          "width": 4928,
-          "height": 3264,
-          "size": 7957811,
-          "timestamp": "2017-11-17T16:04:10Z",
-          "author": "Daniel Jolivet",
-          "license": "CC BY 2.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Ch%C3%A2teau_de_Chenonceau_-_int%C3%A9rieur_-_galerie_%C3%A0_l%27%C3%A9tage_-_chemin%C3%A9e_%28Chenonceaux%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Chenonceau%20-%20int%C3%A9rieur%20-%20galerie%20%C3%A0%20l'%C3%A9tage%20-%20chemin%C3%A9e%20(Chenonceaux).jpg",
+          "title": "Château de Chenonceau - intérieur - galerie à l'étage - cheminée (Chenonceaux).jpg",
+          "description": "Cheminée dans la galerie à l'étage du château de Chenonceau (Chenonceaux, Indre-et-Loire, France).",
+          "width": 3648,
+          "height": 5472,
+          "size": 3836722,
+          "timestamp": "2019-08-25T08:16:59Z",
+          "author": "Gzen92",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Chenonceaux_%28Indre-et-Loire%29_%2822638920947%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChenonceaux%20(Indre-et-Loire)%20(22638920947).jpg",
-          "title": "Chenonceaux (Indre-et-Loire) (22638920947).jpg",
-          "width": 4928,
-          "height": 3264,
-          "size": 10020335,
-          "timestamp": "2017-11-17T16:04:17Z",
-          "author": "Daniel Jolivet",
-          "license": "CC BY 2.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Chenonceaux_Ch%C3%A2teau_de_Chenonceau_Innen_Galerie_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChenonceaux%20Ch%C3%A2teau%20de%20Chenonceau%20Innen%20Galerie%201.jpg",
+          "title": "Chenonceaux Château de Chenonceau Innen Galerie 1.jpg",
+          "description": "Gallery of Chenonceau Castle, Chenonceaux, Department of Indre-et-Loire, Region of Centre-Loire Valley, France",
+          "width": 4276,
+          "height": 3436,
+          "size": 5626557,
+          "timestamp": "2019-07-28T16:01:29Z",
+          "author": "Zairon",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
         }
@@ -95,6 +101,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Ch%C3%A2teau_de_Chenonceau_photographi%C3%A9_depuis_le_jardin_de_Diane_de_Poitiers.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Chenonceau%20photographi%C3%A9%20depuis%20le%20jardin%20de%20Diane%20de%20Poitiers.jpg",
           "title": "Château de Chenonceau photographié depuis le jardin de Diane de Poitiers.jpg",
+          "description": "Château de Chenonceau sous un autre angle de vue, celui des jardins.",
           "width": 4592,
           "height": 3448,
           "size": 7256576,
@@ -102,25 +109,27 @@
           "author": "Afgte",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Ch%C3%A2teau_de_Chenonceau_-_Northern_view_-_1.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Chenonceau%20-%20Northern%20view%20-%201.jpg",
-          "title": "Château de Chenonceau - Northern view - 1.jpg",
-          "width": 5496,
-          "height": 3670,
-          "size": 8873928,
-          "timestamp": "2022-12-29T18:51:47Z",
-          "author": "Benjamin Smith",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Ch%C3%A2teau_de_Chenonceau_jardin_2021.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Chenonceau%20jardin%202021.jpg",
+          "title": "Château de Chenonceau jardin 2021.jpg",
+          "description": "Château de Chenonceau en 2021",
+          "width": 4032,
+          "height": 3024,
+          "size": 4556368,
+          "timestamp": "2022-10-21T15:41:12Z",
+          "author": "Xeventy",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Ch%C3%A2teau_de_Chenonceau_et_Jardin_de_Diane_de_Poitiers_de_nuit.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Chenonceau%20et%20Jardin%20de%20Diane%20de%20Poitiers%20de%20nuit.jpg",
           "title": "Château de Chenonceau et Jardin de Diane de Poitiers de nuit.jpg",
+          "description": "East side of Château de Chenonceau, and Garden of Diane de Poitiers",
           "width": 4918,
           "height": 3283,
           "size": 5464183,
@@ -128,13 +137,56 @@
           "author": "Antoine Montulé",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         }
       ]
     },
     {
       "label": "Labyrinthe de buis",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Caryatides_du_jardin_de_Chenonceaux.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACaryatides%20du%20jardin%20de%20Chenonceaux.JPG",
+          "title": "Caryatides du jardin de Chenonceaux.JPG",
+          "description": "Voulues par Catherine de Médicis, retirées du château et réunies par la suite devant le labyrinthe dans le jardin du même nom.",
+          "width": 4352,
+          "height": 3264,
+          "size": 7201113,
+          "timestamp": "2012-09-30T12:57:29Z",
+          "author": "Citevia",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Ch%C3%A2teau_de_Chenonceau_-_labyrinthe_%2801%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Chenonceau%20-%20labyrinthe%20(01).jpg",
+          "title": "Château de Chenonceau - labyrinthe (01).jpg",
+          "description": "Maze of the castle of Chenonceau (Indre-et-Loire, France)",
+          "width": 3264,
+          "height": 2448,
+          "size": 3714222,
+          "timestamp": "2019-09-27T18:30:26Z",
+          "author": "Fab5669",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Ch%C3%A2teau_de_Chenonceau_-_labyrinthe_%2802%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Chenonceau%20-%20labyrinthe%20(02).jpg",
+          "title": "Château de Chenonceau - labyrinthe (02).jpg",
+          "description": "Maze of the castle of Chenonceau (Indre-et-Loire, France)",
+          "width": 3264,
+          "height": 2448,
+          "size": 3377595,
+          "timestamp": "2019-09-27T18:30:35Z",
+          "author": "Fab5669",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Ferme du XVIe siècle",
@@ -143,6 +195,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/France_CVdL_37_Chenonceau_18.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20CVdL%2037%20Chenonceau%2018.jpg",
           "title": "France CVdL 37 Chenonceau 18.jpg",
+          "description": "Château de Chenonceau, ferme du XVIe siècle",
           "width": 3008,
           "height": 2000,
           "size": 3106226,
@@ -150,12 +203,13 @@
           "author": "Calips",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/France_CVdL_37_Chenonceau_16.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20CVdL%2037%20Chenonceau%2016.jpg",
           "title": "France CVdL 37 Chenonceau 16.jpg",
+          "description": "Château de Chenonceau, ferme du XVIe siècle",
           "width": 3008,
           "height": 2000,
           "size": 3143562,
@@ -163,12 +217,13 @@
           "author": "Calips",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/France_CVdL_37_Chenonceau_17.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20CVdL%2037%20Chenonceau%2017.jpg",
           "title": "France CVdL 37 Chenonceau 17.jpg",
+          "description": "Château de Chenonceau, ferme du XVIe siècle",
           "width": 3008,
           "height": 2000,
           "size": 3033598,
@@ -176,7 +231,7 @@
           "author": "Calips",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         }
       ]
     }

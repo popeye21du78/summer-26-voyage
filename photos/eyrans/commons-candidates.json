@@ -1,12 +1,13 @@
 {
   "slug": "eyrans",
   "nom": "Eyrans",
-  "fetchedAt": "2026-03-13T14:20:45.466Z",
+  "fetchedAt": "2026-03-16T13:18:04.042Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Eyrans_Chateau_Pontet_d%27Eyrans_-_Foto_Wolfgang_Pehlemann_DSC08845.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEyrans%20Chateau%20Pontet%20d'Eyrans%20-%20Foto%20Wolfgang%20Pehlemann%20DSC08845.jpg",
       "title": "Eyrans Chateau Pontet d'Eyrans - Foto Wolfgang Pehlemann DSC08845.jpg",
+      "description": "Eyrans: das Chateau Pontet d'Eyrans - Foto Wolfgang Pehlemann DSC08845",
       "width": 5250,
       "height": 3500,
       "size": 1327528,
@@ -17,27 +18,29 @@
       "score": 6
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/ISS043-E-88862_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS043-E-88862%20-%20View%20of%20Earth.jpg",
-      "title": "ISS043-E-88862 - View of Earth.jpg",
-      "width": 4928,
-      "height": 3280,
-      "size": 5055802,
-      "timestamp": "2021-03-12T07:17:21Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Eyrans_vue_eglise.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEyrans%20vue%20eglise.JPG",
+      "title": "Eyrans vue eglise.JPG",
+      "description": "Vue depuis l'église, Eyrans, Gironde, France",
+      "width": 1600,
+      "height": 1200,
+      "size": 344301,
+      "timestamp": "2014-10-30T06:45:21Z",
+      "author": "Jack ma",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/ISS043-E-88863_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS043-E-88863%20-%20View%20of%20Earth.jpg",
-      "title": "ISS043-E-88863 - View of Earth.jpg",
-      "width": 4928,
-      "height": 3280,
-      "size": 5070877,
-      "timestamp": "2021-03-12T07:17:32Z",
-      "author": "Earth Science and Remote Sensing Unit",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Eyrans_-_Le-Pontet_-_Gare_3.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEyrans%20-%20Le-Pontet%20-%20Gare%203.jpg",
+      "title": "Eyrans - Le-Pontet - Gare 3.jpg",
+      "description": "Eyrans - Le-Pontet - Gare",
+      "width": 1600,
+      "height": 1057,
+      "size": 978927,
+      "timestamp": "2020-09-26T05:29:32Z",
+      "author": "<div class=\"fn value\">\n<span lang=\"en\">Anonymous</span><span style=\"display:none\">Unknown author</span></div>",
       "license": "Public domain",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
@@ -46,7 +49,50 @@
   "lieux": [
     {
       "label": "Église Saint-Vincent d’Eyrans",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Eyrans_vue_eglise.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEyrans%20vue%20eglise.JPG",
+          "title": "Eyrans vue eglise.JPG",
+          "description": "Vue depuis l'église, Eyrans, Gironde, France",
+          "width": 1600,
+          "height": 1200,
+          "size": 344301,
+          "timestamp": "2014-10-30T06:45:21Z",
+          "author": "Jack ma",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/%C3%89glise_St_M%C3%A9dard_d%27Eyrans.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20St%20M%C3%A9dard%20d'Eyrans.jpg",
+          "title": "Église St Médard d'Eyrans.jpg",
+          "description": "Église de Saint-Médard-d'Eyrans",
+          "width": 5760,
+          "height": 3840,
+          "size": 3563792,
+          "timestamp": "2015-01-26T21:52:37Z",
+          "author": "PA",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Saint-M%C3%A9dard-d%27Eyrans_%C3%89glise_06.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-M%C3%A9dard-d'Eyrans%20%C3%89glise%2006.jpg",
+          "title": "Saint-Médard-d'Eyrans Église 06.jpg",
+          "description": "Church Saint Médard of Saint-Médard-d'Eyrans (Gironde, France), celtic cross",
+          "width": 2576,
+          "height": 1932,
+          "size": 592682,
+          "timestamp": "2015-06-03T16:54:52Z",
+          "author": "Henry Salomé",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Port d’Eyrans",
@@ -59,6 +105,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Lavoir_saint_medard_d_eyrans.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALavoir%20saint%20medard%20d%20eyrans.jpg",
           "title": "Lavoir saint medard d eyrans.jpg",
+          "description": "Lavoir de saint Médard d'Eyrans (Gironde).",
           "width": 2848,
           "height": 2136,
           "size": 3082585,

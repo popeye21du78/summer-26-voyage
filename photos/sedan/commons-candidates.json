@@ -1,25 +1,13 @@
 {
   "slug": "sedan",
   "nom": "Sedan",
-  "fetchedAt": "2026-03-14T12:28:22.318Z",
+  "fetchedAt": "2026-03-18T19:11:30.520Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Lettrage_Sedan_20210902.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALettrage%20Sedan%2020210902.jpg",
-      "title": "Lettrage Sedan 20210902.jpg",
-      "width": 3375,
-      "height": 2250,
-      "size": 3089014,
-      "timestamp": "2022-01-31T22:00:40Z",
-      "author": "Léonard Patakreppe",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Ch%C3%A2teau_Sedan_-_Sedan_%28FR08%29_-_2024-01-27_-_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20Sedan%20-%20Sedan%20(FR08)%20-%202024-01-27%20-%201.jpg",
       "title": "Château Sedan - Sedan (FR08) - 2024-01-27 - 1.jpg",
+      "description": "Château de Sedan, Sedan.",
       "width": 4032,
       "height": 3024,
       "size": 5802478,
@@ -27,12 +15,13 @@
       "author": "Chabe01",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Ch%C3%A2teau_Sedan_-_Sedan_%28FR08%29_-_2024-01-27_-_5.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20Sedan%20-%20Sedan%20(FR08)%20-%202024-01-27%20-%205.jpg",
       "title": "Château Sedan - Sedan (FR08) - 2024-01-27 - 5.jpg",
+      "description": "Château de Sedan, Sedan.",
       "width": 4032,
       "height": 3024,
       "size": 3635183,
@@ -40,21 +29,136 @@
       "author": "Chabe01",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Ch%C3%A2teau_Sedan_-_Sedan_%28FR08%29_-_2024-01-27_-_4.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20Sedan%20-%20Sedan%20(FR08)%20-%202024-01-27%20-%204.jpg",
+      "title": "Château Sedan - Sedan (FR08) - 2024-01-27 - 4.jpg",
+      "description": "Château de Sedan, Sedan.",
+      "width": 4032,
+      "height": 3024,
+      "size": 4631763,
+      "timestamp": "2024-01-29T16:28:53Z",
+      "author": "Chabe01",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
     }
   ],
   "lieux": [
     {
       "label": "Bastion du Roy",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Le_plan_de_la_ville_de_Sedan_-_dessin_-_Non_identifi%C3%A9_-_btv1b6901699c.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20plan%20de%20la%20ville%20de%20Sedan%20-%20dessin%20-%20Non%20identifi%C3%A9%20-%20btv1b6901699c.jpg",
+          "title": "Le plan de la ville de Sedan - dessin - Non identifié - btv1b6901699c.jpg",
+          "description": "Sujet : Châteaux forts -- 15e siècle\nCitadelles -- 17e siècle\nBastions -- 17e siècle\nSedan (Ardennes, France)\nMeuse (cours d'eau)\nSedan (Ardennes) -- Citadelle\nDessins et plans -- 17e siècle\nRéférence bibliographique : Gaignières, 5064\n\nAppartient à l’ensemble documentaire : Des17Gaig",
+          "width": 4128,
+          "height": 2848,
+          "size": 1462216,
+          "timestamp": "2024-10-29T06:40:47Z",
+          "author": "Inconnu",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Plan_de_Sedan_-_dessin_-_Non_identifi%C3%A9_-_btv1b6901700k_%281_of_2%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlan%20de%20Sedan%20-%20dessin%20-%20Non%20identifi%C3%A9%20-%20btv1b6901700k%20(1%20of%202).jpg",
+          "title": "Plan de Sedan - dessin - Non identifié - btv1b6901700k (1 of 2).jpg",
+          "description": "Sujet : Châteaux forts -- 15e siècle\nCitadelles -- 17e siècle\nBastions -- 17e siècle\nSedan (Ardennes, France)\nMeuse (cours d'eau)\nSedan (Ardennes) -- Citadelle\nDessins et plans -- 17e siècle\nRéférence bibliographique : Gaignières, 5066\n\nAppartient à l’ensemble documentaire : Des17Gaig",
+          "width": 7320,
+          "height": 5872,
+          "size": 5582841,
+          "timestamp": "2025-03-03T04:59:00Z",
+          "author": "Inconnu",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Sedan_-_dessin_-_Non_identifi%C3%A9_-_btv1b69017010.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASedan%20-%20dessin%20-%20Non%20identifi%C3%A9%20-%20btv1b69017010.jpg",
+          "title": "Sedan - dessin - Non identifié - btv1b69017010.jpg",
+          "description": "Sujet : Châteaux forts -- 15e siècle\nCitadelles -- 17e siècle\nBastions -- 17e siècle\nSedan (Ardennes, France)\nMeuse (cours d'eau)\nSedan (Ardennes) -- Citadelle\nDessins et plans -- 17e siècle\nRéférence bibliographique : Gaignières, 5065\n\nAppartient à l’ensemble documentaire : Des17Gaig",
+          "width": 5904,
+          "height": 4208,
+          "size": 3816653,
+          "timestamp": "2025-03-16T17:26:26Z",
+          "author": "Inconnu",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     },
     {
       "label": "Chemin de ronde",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Sedan%2C_Ch%C3%A2teau_de_Sedan_--_2017_--_4870.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASedan%2C%20Ch%C3%A2teau%20de%20Sedan%20--%202017%20--%204870.jpg",
+          "title": "Sedan, Château de Sedan -- 2017 -- 4870.jpg",
+          "description": "Way at Château de Sedan, Sedan, France",
+          "width": 5184,
+          "height": 3456,
+          "size": 15834298,
+          "timestamp": "2017-02-25T07:10:25Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q34788025\" class=\"extiw\" title=\"d:Q34788025\"><span title=\"German photographer and mathematician\">Dietmar Rabich</span></a></bdi>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Chemin_de_fer_de_Libramont_%C3%A0_la_fronti%C3%A8re_fran%C3%A7aise_dans_la_direction_de_Sedan._Partie_comprise_entre_la_station_de_Bertrix_de_la_ligne_d%27Athus_%C3%A0_la_Meuse_et_cette_fronti%C3%A8re._Avant_projet_-_Annexe_%C3%A0_la_note..._-_btv1b530748642.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChemin%20de%20fer%20de%20Libramont%20%C3%A0%20la%20fronti%C3%A8re%20fran%C3%A7aise%20dans%20la%20direction%20de%20Sedan.%20Partie%20comprise%20entre%20la%20station%20de%20Bertrix%20de%20la%20ligne%20d'Athus%20%C3%A0%20la%20Meuse%20et%20cette%20fronti%C3%A8re.%20Avant%20projet%20-%20Annexe%20%C3%A0%20la%20note...%20-%20btv1b530748642.jpg",
+          "title": "Chemin de fer de Libramont à la frontière française dans la direction de Sedan. Partie comprise entre la station de Bertrix de la ligne d'Athus à la Meuse et cette frontière. Avant projet - Annexe à la note... - btv1b530748642.jpg",
+          "description": "Sujet : Projets\nChemins de fer\nBelgique -- Chemins de fer\nBertrix -- Environs -- Chemins de fer\nÉchelle(s) : Echelles 1/100 000 pour les longueurs et 1/2 000 pour les hauteurs\nAppartient à l’ensemble documentaire : ChArdenn1\nCouverture : Belgique – Luxembourg\n\nLangue : français",
+          "width": 6845,
+          "height": 3950,
+          "size": 2845136,
+          "timestamp": "2022-07-17T01:06:28Z",
+          "author": "<div class=\"fn value\">\nDethien, Auguste (18..-19..). Dessinateur</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Chemins_de_fer_des_Ardennes%2C_de_Rheims_%C3%A0_la_fronti%C3%A8re_de_Belgique_par_R%C3%A9thel%2C_M%C3%A9zi%C3%A8res%2C_Charleville_%26_Vireux_avec_embranchement_sur_Sedan_-_imp._lith._de_J._Cartault_-_btv1b53136177w.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChemins%20de%20fer%20des%20Ardennes%2C%20de%20Rheims%20%C3%A0%20la%20fronti%C3%A8re%20de%20Belgique%20par%20R%C3%A9thel%2C%20M%C3%A9zi%C3%A8res%2C%20Charleville%20%26%20Vireux%20avec%20embranchement%20sur%20Sedan%20-%20imp.%20lith.%20de%20J.%20Cartault%20-%20btv1b53136177w.jpg",
+          "title": "Chemins de fer des Ardennes, de Rheims à la frontière de Belgique par Réthel, Mézières, Charleville & Vireux avec embranchement sur Sedan - imp. lith. de J. Cartault - btv1b53136177w.jpg",
+          "description": "Sujet : Chemins de fer\nArdenne, Plateau de l' -- Chemins de fer\nFrance -- Chemins de fer\nBelgique -- Chemins de fer\nÉchelle(s) : [Sans échelle (exprimée)]\nCouverture : France (parties)\nBelgique\nE 2°8' - E 8°42' / N 51°26' - N 48°24'\nLangue : français\n\nÉditeur : [s.n.] (Paris)",
+          "width": 6806,
+          "height": 5315,
+          "size": 3767273,
+          "timestamp": "2022-07-25T00:33:00Z",
+          "author": "Inconnu",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Grande cour intérieure",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Grande_Prairie_Torcy_-_Sedan_%28FR08%29_-_2024-01-27_-_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrande%20Prairie%20Torcy%20-%20Sedan%20(FR08)%20-%202024-01-27%20-%201.jpg",
+          "title": "Grande Prairie Torcy - Sedan (FR08) - 2024-01-27 - 1.jpg",
+          "description": "Grande prairie de Torcy, Sedan.",
+          "width": 4032,
+          "height": 3024,
+          "size": 5155007,
+          "timestamp": "2024-01-29T17:27:22Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Casemates",

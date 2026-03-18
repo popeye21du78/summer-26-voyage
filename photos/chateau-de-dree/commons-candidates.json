@@ -1,12 +1,13 @@
 {
   "slug": "chateau-de-dree",
   "nom": "Château de Drée",
-  "fetchedAt": "2026-03-13T13:04:40.928Z",
+  "fetchedAt": "2026-03-15T21:26:04.345Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Ch%C3%A2teau_Dr%C3%A9e_-_Curbigny_%28FR71%29_-_2021-07-07_-_3.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20Dr%C3%A9e%20-%20Curbigny%20(FR71)%20-%202021-07-07%20-%203.jpg",
       "title": "Château Drée - Curbigny (FR71) - 2021-07-07 - 3.jpg",
+      "description": "Château de Drée, Curbigny.",
       "width": 4032,
       "height": 3024,
       "size": 4670393,
@@ -14,12 +15,13 @@
       "author": "Chabe01",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Ch%C3%A2teau_Dr%C3%A9e_-_Curbigny_%28FR71%29_-_2021-07-07_-_2.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20Dr%C3%A9e%20-%20Curbigny%20(FR71)%20-%202021-07-07%20-%202.jpg",
       "title": "Château Drée - Curbigny (FR71) - 2021-07-07 - 2.jpg",
+      "description": "Château de Drée, Curbigny.",
       "width": 4032,
       "height": 3024,
       "size": 4969098,
@@ -27,12 +29,13 @@
       "author": "Chabe01",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Ch%C3%A2teau_Dr%C3%A9e_-_Curbigny_%28FR71%29_-_2021-07-07_-_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20Dr%C3%A9e%20-%20Curbigny%20(FR71)%20-%202021-07-07%20-%201.jpg",
       "title": "Château Drée - Curbigny (FR71) - 2021-07-07 - 1.jpg",
+      "description": "Château de Drée, Curbigny.",
       "width": 4032,
       "height": 3024,
       "size": 4799125,
@@ -40,17 +43,103 @@
       "author": "Chabe01",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     }
   ],
   "lieux": [
     {
       "label": "Façade classique du château",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Ch%C3%A2teau_de_Dr%C3%A9e-2.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Dr%C3%A9e-2.JPG",
+          "title": "Château de Drée-2.JPG",
+          "description": "Château de Drée",
+          "width": 4608,
+          "height": 3456,
+          "size": 4539767,
+          "timestamp": "2015-09-20T19:36:50Z",
+          "author": "Eric59200",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Ch%C3%A2teau_de_Dr%C3%A9e-1.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Dr%C3%A9e-1.JPG",
+          "title": "Château de Drée-1.JPG",
+          "description": "Château de Drée",
+          "width": 4608,
+          "height": 3456,
+          "size": 4405400,
+          "timestamp": "2015-09-20T19:36:50Z",
+          "author": "Eric59200",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Ch%C3%A2teau_de_Dr%C3%A9e_-_Vue_depuis_la_roseraie.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Dr%C3%A9e%20-%20Vue%20depuis%20la%20roseraie.jpg",
+          "title": "Château de Drée - Vue depuis la roseraie.jpg",
+          "description": "Château vu depuis la roseraie.",
+          "width": 4128,
+          "height": 2322,
+          "size": 3146394,
+          "timestamp": "2017-09-18T07:04:04Z",
+          "author": "Romainbehar",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        }
+      ]
     },
     {
       "label": "Jardins à la française",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Panneau_Jardin_Remarquable_Ch%C3%A2teau_Dr%C3%A9e_-_Curbigny_%28FR71%29_-_2021-07-07_-_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanneau%20Jardin%20Remarquable%20Ch%C3%A2teau%20Dr%C3%A9e%20-%20Curbigny%20(FR71)%20-%202021-07-07%20-%201.jpg",
+          "title": "Panneau Jardin Remarquable Château Drée - Curbigny (FR71) - 2021-07-07 - 1.jpg",
+          "description": "Panneau Jardin Remarquable au château de Drée, Curbigny.",
+          "width": 4032,
+          "height": 3024,
+          "size": 1695932,
+          "timestamp": "2021-07-07T20:19:21Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Ch%C3%A2teau_de_Dr%C3%A9e_-_Bassin_du_jardin_des_topiaires.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Dr%C3%A9e%20-%20Bassin%20du%20jardin%20des%20topiaires.jpg",
+          "title": "Château de Drée - Bassin du jardin des topiaires.jpg",
+          "description": "Bassin du jardin des topiaires.",
+          "width": 4128,
+          "height": 2322,
+          "size": 3038038,
+          "timestamp": "2017-09-17T21:21:19Z",
+          "author": "Romainbehar",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Ch%C3%A2teau_de_Dr%C3%A9e_-_Jardin_de_buis_c%C3%B4t%C3%A9_nord.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Dr%C3%A9e%20-%20Jardin%20de%20buis%20c%C3%B4t%C3%A9%20nord.jpg",
+          "title": "Château de Drée - Jardin de buis côté nord.jpg",
+          "description": "Jardin de buis côté nord.",
+          "width": 4128,
+          "height": 2322,
+          "size": 4898682,
+          "timestamp": "2017-09-18T07:03:36Z",
+          "author": "Romainbehar",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Théâtre privé",

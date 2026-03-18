@@ -1,25 +1,13 @@
 {
   "slug": "cambo-les-bains",
   "nom": "Cambo-les-Bains",
-  "fetchedAt": "2026-03-13T00:36:59.894Z",
+  "fetchedAt": "2026-03-15T20:31:33.599Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Pavillon_jardin_Arnaga.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APavillon%20jardin%20Arnaga.jpg",
-      "title": "Pavillon jardin Arnaga.jpg",
-      "width": 3072,
-      "height": 2048,
-      "size": 1400141,
-      "timestamp": "2023-09-01T16:27:36Z",
-      "author": "Bachelot Pierre J-P",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Cambo-les-Bains_-_avenue_Edmond_Rostand.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACambo-les-Bains%20-%20avenue%20Edmond%20Rostand.jpg",
       "title": "Cambo-les-Bains - avenue Edmond Rostand.jpg",
+      "description": "Cambo-les-Bains - avenue Edmond Rostand",
       "width": 4032,
       "height": 3024,
       "size": 3400779,
@@ -33,9 +21,24 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Cambo-les-Bains_-_rue_Chiquito_de_Cambo.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACambo-les-Bains%20-%20rue%20Chiquito%20de%20Cambo.jpg",
       "title": "Cambo-les-Bains - rue Chiquito de Cambo.jpg",
+      "description": "Cambo-les-Bains - rue Chiquito de Cambo",
       "width": 4032,
       "height": 3024,
       "size": 2472981,
+      "timestamp": "2023-09-06T21:02:15Z",
+      "author": "Yzergues",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Cambo-les-Bains_-_boulevard_des_Terrasses.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACambo-les-Bains%20-%20boulevard%20des%20Terrasses.jpg",
+      "title": "Cambo-les-Bains - boulevard des Terrasses.jpg",
+      "description": "Cambo-les-Bains - boulevard des Terrasses",
+      "width": 4032,
+      "height": 3024,
+      "size": 2145713,
       "timestamp": "2023-09-06T21:02:15Z",
       "author": "Yzergues",
       "license": "CC BY-SA 4.0",
@@ -48,35 +51,10 @@
       "label": "Villa Arnaga",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Arnaga_la_cuisine.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArnaga%20la%20cuisine.jpg",
-          "title": "Arnaga la cuisine.jpg",
-          "width": 3072,
-          "height": 2048,
-          "size": 1428715,
-          "timestamp": "2023-09-01T16:34:41Z",
-          "author": "Bachelot Pierre J-P",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Arnaga_vue_de_cot%C3%A9.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArnaga%20vue%20de%20cot%C3%A9.jpg",
-          "title": "Arnaga vue de coté.jpg",
-          "width": 3072,
-          "height": 2048,
-          "size": 1478681,
-          "timestamp": "2024-06-16T10:01:28Z",
-          "author": "Bachelot Pierre J-P",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Cambo-les-Bains_Villa_Arnaga.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACambo-les-Bains%20Villa%20Arnaga.jpg",
           "title": "Cambo-les-Bains Villa Arnaga.jpg",
+          "description": "Villa Arnaga",
           "width": 3456,
           "height": 2454,
           "size": 1600579,
@@ -85,51 +63,111 @@
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Cambo_-_Argia.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACambo%20-%20Argia.jpg",
+          "title": "Cambo - Argia.jpg",
+          "description": "Villa Argia",
+          "width": 5760,
+          "height": 3840,
+          "size": 15353330,
+          "timestamp": "2018-11-28T20:42:54Z",
+          "author": "A1AA1A",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Cambo_Uraldia.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACambo%20Uraldia.jpg",
+          "title": "Cambo Uraldia.jpg",
+          "description": "Villa Uraldia, Cambo-les-Bains.",
+          "width": 1200,
+          "height": 800,
+          "size": 254041,
+          "timestamp": "2019-06-28T21:26:17Z",
+          "author": "Unknown author",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
         }
       ]
     },
     {
       "label": "Parc thermal de Cambo-les-Bains",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Cambo-les-Bains_-_parc_Saint-Joseph_-_bo%C3%AEte_%C3%A0_livres.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACambo-les-Bains%20-%20parc%20Saint-Joseph%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
+          "title": "Cambo-les-Bains - parc Saint-Joseph - boîte à livres.jpg",
+          "description": "Cambo-les-Bains - parc Saint-Joseph - boîte à livres",
+          "width": 4000,
+          "height": 2672,
+          "size": 4787200,
+          "timestamp": "2024-02-05T16:33:57Z",
+          "author": "Sagua",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Cambo_-_parc_thermes.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACambo%20-%20parc%20thermes.jpg",
+          "title": "Cambo - parc thermes.jpg",
+          "description": "Allée du parc",
+          "width": 5345,
+          "height": 3562,
+          "size": 8716981,
+          "timestamp": "2018-11-18T12:31:22Z",
+          "author": "A1AA1A",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Église Saint-Laurent",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Cambo-les-Bains_-_%C3%89glise_Saint-Laurent_-_3.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACambo-les-Bains%20-%20%C3%89glise%20Saint-Laurent%20-%203.jpg",
-          "title": "Cambo-les-Bains - Église Saint-Laurent - 3.jpg",
-          "width": 1824,
-          "height": 1368,
-          "size": 349969,
-          "timestamp": "2014-09-13T17:33:24Z",
-          "author": "<table style=\"margin: 1.5em auto; width:60%; background-color:#CCCCCC; border:2px solid #aaaaaa; padding:1px;\" cellspacing=\"10\">\n\n<tbody><tr>\n<td><i><a href=\"https://upload.wikimedia.org/wikipedia/commons/2/26/Cambo-les-Bains_-_%C3%89glise_Saint-Laurent_-_3.jpg\" class=\"internal\" title=\"Cambo-les-Bains - Église Saint-Laurent - 3.jpg\"><b>This illustration</b></a> <b>was made by</b> </i><b><a href=\"//commons.wikimedia.org/wiki/User:Peter17\" title=\"User:Peter17\">Peter Potrowl</a></b><i>.</i>\n<p>Please credit this with : <b>© Peter Potrowl</b> in the immediate vicinity of the image. A link to my website <a rel=\"nofollow\" class=\"external text\" href=\"https://www.sitemai.eu\">sitemai.eu</a> would be much appreciated but isn't mandatory.\n</p><p>An email to\n<span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:UserIconMail.svg\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/40px-UserIconMail.svg.png\" decoding=\"async\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/60px-UserIconMail.svg.png 2x\" data-file-width=\"700\" data-file-height=\"700\"></a></span>\n<a href=\"//commons.wikimedia.org/wiki/Special:EmailUser/Peter17\" title=\"Special:EmailUser/Peter17\">Peter Potrowl</a> would be appreciated too.\n</p><p>Do not copy this image illegally by ignoring the terms of the license below, as it is <b>not</b> in the public domain.\nIf you would like special permission to use, license, or purchase the image please contact me <span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:UserIconMail.svg\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/40px-UserIconMail.svg.png\" decoding=\"async\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/60px-UserIconMail.svg.png 2x\" data-file-width=\"700\" data-file-height=\"700\"></a></span><a href=\"//commons.wikimedia.org/wiki/Special:EmailUser/Peter17\" title=\"Special:EmailUser/Peter17\">Peter Potrowl</a> to negotiate terms.\n</p><p>More free pictures in my <a rel=\"nofollow\" class=\"external text\" href=\"https://www.sitemai.eu\">website</a>. Donations are accepted <a rel=\"nofollow\" class=\"external text\" href=\"https://paypal.me/Peter017\">here</a> and <a rel=\"nofollow\" class=\"external text\" href=\"https://buymeacoffee.com/peter17\">here</a>.\n</p>\n</td></tr></tbody></table>",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Cambo_%2864%29_-_Place_de_l%27%C3%A9glise.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACambo%20(64)%20-%20Place%20de%20l'%C3%A9glise.jpg",
+          "title": "Cambo (64) - Place de l'église.jpg",
+          "description": "Cambo (64) - Place de l'église",
+          "width": 1551,
+          "height": 1016,
+          "size": 468741,
+          "timestamp": "2020-08-13T14:43:41Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q59276203\" class=\"extiw\" title=\"d:Q59276203\"><span title=\"French photographer\">Marcel Delboy</span></a></bdi>",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Cambo-les-Bains_-_%C3%89glise_Saint-Laurent_-_31.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACambo-les-Bains%20-%20%C3%89glise%20Saint-Laurent%20-%2031.jpg",
-          "title": "Cambo-les-Bains - Église Saint-Laurent - 31.jpg",
-          "width": 1824,
-          "height": 1368,
-          "size": 298647,
-          "timestamp": "2014-09-13T17:33:51Z",
-          "author": "<table style=\"margin: 1.5em auto; width:60%; background-color:#CCCCCC; border:2px solid #aaaaaa; padding:1px;\" cellspacing=\"10\">\n\n<tbody><tr>\n<td><i><a href=\"https://upload.wikimedia.org/wikipedia/commons/0/01/Cambo-les-Bains_-_%C3%89glise_Saint-Laurent_-_31.jpg\" class=\"internal\" title=\"Cambo-les-Bains - Église Saint-Laurent - 31.jpg\"><b>This illustration</b></a> <b>was made by</b> </i><b><a href=\"//commons.wikimedia.org/wiki/User:Peter17\" title=\"User:Peter17\">Peter Potrowl</a></b><i>.</i>\n<p>Please credit this with : <b>© Peter Potrowl</b> in the immediate vicinity of the image. A link to my website <a rel=\"nofollow\" class=\"external text\" href=\"https://www.sitemai.eu\">sitemai.eu</a> would be much appreciated but isn't mandatory.\n</p><p>An email to\n<span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:UserIconMail.svg\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/40px-UserIconMail.svg.png\" decoding=\"async\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/60px-UserIconMail.svg.png 2x\" data-file-width=\"700\" data-file-height=\"700\"></a></span>\n<a href=\"//commons.wikimedia.org/wiki/Special:EmailUser/Peter17\" title=\"Special:EmailUser/Peter17\">Peter Potrowl</a> would be appreciated too.\n</p><p>Do not copy this image illegally by ignoring the terms of the license below, as it is <b>not</b> in the public domain.\nIf you would like special permission to use, license, or purchase the image please contact me <span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:UserIconMail.svg\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/40px-UserIconMail.svg.png\" decoding=\"async\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/60px-UserIconMail.svg.png 2x\" data-file-width=\"700\" data-file-height=\"700\"></a></span><a href=\"//commons.wikimedia.org/wiki/Special:EmailUser/Peter17\" title=\"Special:EmailUser/Peter17\">Peter Potrowl</a> to negotiate terms.\n</p><p>More free pictures in my <a rel=\"nofollow\" class=\"external text\" href=\"https://www.sitemai.eu\">website</a>. Donations are accepted <a rel=\"nofollow\" class=\"external text\" href=\"https://paypal.me/Peter017\">here</a> and <a rel=\"nofollow\" class=\"external text\" href=\"https://buymeacoffee.com/peter17\">here</a>.\n</p>\n</td></tr></tbody></table>",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Cambo_escalier_des_hommes.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACambo%20escalier%20des%20hommes.jpg",
+          "title": "Cambo escalier des hommes.jpg",
+          "description": "Église de Cambo-les-Bains. Escalier des hommes menant aux tribunes. CPA 1930.",
+          "width": 1600,
+          "height": 1017,
+          "size": 229502,
+          "timestamp": "2019-06-28T15:56:23Z",
+          "author": "Unknown author",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 6
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Cambo-les-Bains_-_%C3%89glise_Saint-Laurent_-_8.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACambo-les-Bains%20-%20%C3%89glise%20Saint-Laurent%20-%208.jpg",
-          "title": "Cambo-les-Bains - Église Saint-Laurent - 8.jpg",
-          "width": 1824,
-          "height": 1368,
-          "size": 466409,
-          "timestamp": "2014-09-13T17:34:16Z",
-          "author": "<table style=\"margin: 1.5em auto; width:60%; background-color:#CCCCCC; border:2px solid #aaaaaa; padding:1px;\" cellspacing=\"10\">\n\n<tbody><tr>\n<td><i><a href=\"https://upload.wikimedia.org/wikipedia/commons/1/18/Cambo-les-Bains_-_%C3%89glise_Saint-Laurent_-_8.jpg\" class=\"internal\" title=\"Cambo-les-Bains - Église Saint-Laurent - 8.jpg\"><b>This illustration</b></a> <b>was made by</b> </i><b><a href=\"//commons.wikimedia.org/wiki/User:Peter17\" title=\"User:Peter17\">Peter Potrowl</a></b><i>.</i>\n<p>Please credit this with : <b>© Peter Potrowl</b> in the immediate vicinity of the image. A link to my website <a rel=\"nofollow\" class=\"external text\" href=\"https://www.sitemai.eu\">sitemai.eu</a> would be much appreciated but isn't mandatory.\n</p><p>An email to\n<span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:UserIconMail.svg\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/40px-UserIconMail.svg.png\" decoding=\"async\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/60px-UserIconMail.svg.png 2x\" data-file-width=\"700\" data-file-height=\"700\"></a></span>\n<a href=\"//commons.wikimedia.org/wiki/Special:EmailUser/Peter17\" title=\"Special:EmailUser/Peter17\">Peter Potrowl</a> would be appreciated too.\n</p><p>Do not copy this image illegally by ignoring the terms of the license below, as it is <b>not</b> in the public domain.\nIf you would like special permission to use, license, or purchase the image please contact me <span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:UserIconMail.svg\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/40px-UserIconMail.svg.png\" decoding=\"async\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/60px-UserIconMail.svg.png 2x\" data-file-width=\"700\" data-file-height=\"700\"></a></span><a href=\"//commons.wikimedia.org/wiki/Special:EmailUser/Peter17\" title=\"Special:EmailUser/Peter17\">Peter Potrowl</a> to negotiate terms.\n</p><p>More free pictures in my <a rel=\"nofollow\" class=\"external text\" href=\"https://www.sitemai.eu\">website</a>. Donations are accepted <a rel=\"nofollow\" class=\"external text\" href=\"https://paypal.me/Peter017\">here</a> and <a rel=\"nofollow\" class=\"external text\" href=\"https://buymeacoffee.com/peter17\">here</a>.\n</p>\n</td></tr></tbody></table>",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Cambo_les_Bains-%C3%89glise_saint_Laurent-20120716.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACambo%20les%20Bains-%C3%89glise%20saint%20Laurent-20120716.jpg",
+          "title": "Cambo les Bains-Église saint Laurent-20120716.jpg",
+          "description": "Church built in the 17th century on the site of a 12th century first shrine.",
+          "width": 4200,
+          "height": 3200,
+          "size": 3513325,
+          "timestamp": "2012-07-29T16:15:32Z",
+          "author": "Daniel VILLAFRUELA",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 5
@@ -138,7 +176,36 @@
     },
     {
       "label": "Fronton municipal",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Cambo_%2864%29_-_le_Fronton.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACambo%20(64)%20-%20le%20Fronton.jpg",
+          "title": "Cambo (64) - le Fronton.jpg",
+          "description": "Cambo (64) - le Fronton",
+          "width": 1582,
+          "height": 1007,
+          "size": 504117,
+          "timestamp": "2020-08-13T14:43:19Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q59276203\" class=\"extiw\" title=\"d:Q59276203\"><span title=\"French photographer\">Marcel Delboy</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/26-5-28%2C_%C3%A9quipe_de_Cambo_%28pelote_basque_au_Fronton_de_Paris%2C_de_g._%C3%A0_d.%29_Toulet%2C_Martinez%2C_Haritschellar_-_btv1b53200045n.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A26-5-28%2C%20%C3%A9quipe%20de%20Cambo%20(pelote%20basque%20au%20Fronton%20de%20Paris%2C%20de%20g.%20%C3%A0%20d.)%20Toulet%2C%20Martinez%2C%20Haritschellar%20-%20btv1b53200045n.jpg",
+          "title": "26-5-28, équipe de Cambo (pelote basque au Fronton de Paris, de g. à d.) Toulet, Martinez, Haritschellar - btv1b53200045n.jpg",
+          "description": "Sujet : Pelote basque -- Équipes sportives -- Cambo-les-Bains (Pyrénées-Atlantiques, France)\nPelotaris -- Portraits\nBoulogne-Billancourt (Hauts-de-Seine, France)\nPortraits collectifs -- 1914-1945\nRéférence bibliographique : Rol, 129316\nAppartient à l’ensemble documentaire : Pho20Rol\nAppartient à l’ensemble documentaire : PrnS001\nAppartient à l’ensemble documentaire : MnS000\nImage de presse\nCouverture : 26 mai 1928\n\nLangue : français",
+          "width": 8724,
+          "height": 6224,
+          "size": 5448409,
+          "timestamp": "2025-02-25T02:37:39Z",
+          "author": "<div class=\"fn value\">\nAgence Rol. Agence photographique (commanditaire)</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

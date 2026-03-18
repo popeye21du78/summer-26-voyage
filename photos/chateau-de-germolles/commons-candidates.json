@@ -1,52 +1,70 @@
 {
   "slug": "chateau-de-germolles",
   "nom": "Château de Germolles",
-  "fetchedAt": "2026-03-13T13:06:24.622Z",
+  "fetchedAt": "2026-03-15T21:28:42.261Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/ISS043-E-89010_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS043-E-89010%20-%20View%20of%20Earth.jpg",
-      "title": "ISS043-E-89010 - View of Earth.jpg",
-      "width": 4928,
-      "height": 3280,
-      "size": 5062714,
-      "timestamp": "2021-03-12T07:54:41Z",
-      "author": "Earth Science and Remote Sensing Unit",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Ch%C3%A2teau_de_Gorze_%28_Germolles-sur-Grosne%29_%281%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Gorze%20(%20Germolles-sur-Grosne)%20(1).jpg",
+      "title": "Château de Gorze ( Germolles-sur-Grosne) (1).jpg",
+      "description": "Château de Gorze  Germolles-sur-Grosne  Saône-et-Loire",
+      "width": 1460,
+      "height": 950,
+      "size": 546537,
+      "timestamp": "2020-08-26T09:45:09Z",
+      "author": "Phototypie Bourgeois Frères, imp. à Chalon-sur-Saône (Saône-et-Loire). « Collection des Châteaux de Bourgogne »",
       "license": "Public domain",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/ISS043-E-89011_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS043-E-89011%20-%20View%20of%20Earth.jpg",
-      "title": "ISS043-E-89011 - View of Earth.jpg",
-      "width": 4928,
-      "height": 3280,
-      "size": 5061980,
-      "timestamp": "2021-03-12T07:54:56Z",
-      "author": "Earth Science and Remote Sensing Unit",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Ch%C3%A2teau_de_Gorze_%28_Germolles-sur-Grosne%29_%282%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Gorze%20(%20Germolles-sur-Grosne)%20(2).jpg",
+      "title": "Château de Gorze ( Germolles-sur-Grosne) (2).jpg",
+      "description": "Château de Gorze  Germolles-sur-Grosne  Saône-et-Loire",
+      "width": 1484,
+      "height": 952,
+      "size": 861393,
+      "timestamp": "2020-08-26T09:45:13Z",
+      "author": "Carte postale ancienne éditée par CIM (Combier imprimeur à Mâcon):",
       "license": "Public domain",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Cirey-l%C3%A8s-Pontailler_%2821%29_Nouvelle_mairie.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACirey-l%C3%A8s-Pontailler%20(21)%20Nouvelle%20mairie.jpg",
-      "title": "Cirey-lès-Pontailler (21) Nouvelle mairie.jpg",
-      "width": 2049,
-      "height": 1128,
-      "size": 900388,
-      "timestamp": "2021-03-23T16:36:26Z",
-      "author": "GO69",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Ch%C3%A2teau_Gorze_-_Germolles-sur-Grosne_%28FR71%29_-_2024-10-07_-_1.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20Gorze%20-%20Germolles-sur-Grosne%20(FR71)%20-%202024-10-07%20-%201.jpg",
+      "title": "Château Gorze - Germolles-sur-Grosne (FR71) - 2024-10-07 - 1.jpg",
+      "description": "Château de Gorze, Germolles-sur-Grosne.",
+      "width": 3826,
+      "height": 1942,
+      "size": 2209888,
+      "timestamp": "2024-10-08T00:38:59Z",
+      "author": "Chabe01",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     }
   ],
   "lieux": [
     {
       "label": "Grande salle aux fresques",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/T%C3%AAte_sculpt%C3%A9e_de_la_grande_chemin%C3%A9e_-_Germolles.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AT%C3%AAte%20sculpt%C3%A9e%20de%20la%20grande%20chemin%C3%A9e%20-%20Germolles.JPG",
+          "title": "Tête sculptée de la grande cheminée - Germolles.JPG",
+          "description": "Tête sculptée redécouverte lors de travaux de fouille",
+          "width": 2000,
+          "height": 3008,
+          "size": 524351,
+          "timestamp": "2011-01-02T22:03:14Z",
+          "author": "C. Degrigny",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     },
     {
       "label": "Portail d’entrée",
@@ -60,17 +78,18 @@
       "label": "Cour intérieure",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Vue_de_la_cour_int%C3%A9rieure.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20de%20la%20cour%20int%C3%A9rieure.JPG",
-          "title": "Vue de la cour intérieure.JPG",
-          "width": 1280,
-          "height": 960,
-          "size": 317513,
-          "timestamp": "2011-01-04T22:15:43Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/La_basse-cour_du_ch%C3%A2teau_avec_le_ch%C3%A2telet_au_fond.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20basse-cour%20du%20ch%C3%A2teau%20avec%20le%20ch%C3%A2telet%20au%20fond.JPG",
+          "title": "La basse-cour du château avec le châtelet au fond.JPG",
+          "description": "Vue extérieure du château",
+          "width": 1191,
+          "height": 893,
+          "size": 504856,
+          "timestamp": "2011-02-09T12:22:23Z",
           "author": "C. Degrigny",
           "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 6
         }
       ]
     }

@@ -1,46 +1,49 @@
 {
   "slug": "roubion",
   "nom": "Roubion",
-  "fetchedAt": "2026-03-14T11:50:58.583Z",
+  "fetchedAt": "2026-03-18T17:46:53.495Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Stage_20_Tour_de_France_2024_Col_de_la_Couillole_1.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStage%2020%20Tour%20de%20France%202024%20Col%20de%20la%20Couillole%201.jpg",
-      "title": "Stage 20 Tour de France 2024 Col de la Couillole 1.jpg",
-      "width": 5400,
-      "height": 3600,
-      "size": 5873563,
-      "timestamp": "2024-07-24T12:40:35Z",
-      "author": "kallerna",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Rempart_de_Roubion_-2.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARempart%20de%20Roubion%20-2.JPG",
+      "title": "Rempart de Roubion -2.JPG",
+      "description": "Château de Roubion - Porte dans le rempart fermant l'accès à la ville, à l'ouest",
+      "width": 4896,
+      "height": 3672,
+      "size": 6738455,
+      "timestamp": "2015-06-23T20:08:59Z",
+      "author": "MOSSOT",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 8
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Stage_20_Tour_de_France_2024_Col_de_la_Couillole_4.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStage%2020%20Tour%20de%20France%202024%20Col%20de%20la%20Couillole%204.jpg",
-      "title": "Stage 20 Tour de France 2024 Col de la Couillole 4.jpg",
-      "width": 5400,
-      "height": 3600,
-      "size": 8707464,
-      "timestamp": "2024-07-24T12:40:39Z",
-      "author": "kallerna",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Vestiges_de_Roubion_-1.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVestiges%20de%20Roubion%20-1.JPG",
+      "title": "Vestiges de Roubion -1.JPG",
+      "description": "Château de Roubion - Vestiges à côté du rempart ouest",
+      "width": 4896,
+      "height": 3672,
+      "size": 7869132,
+      "timestamp": "2015-06-23T20:09:01Z",
+      "author": "MOSSOT",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 8
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Stage_20_Tour_de_France_2024_Col_de_la_Couillole_5.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStage%2020%20Tour%20de%20France%202024%20Col%20de%20la%20Couillole%205.jpg",
-      "title": "Stage 20 Tour de France 2024 Col de la Couillole 5.jpg",
-      "width": 5000,
-      "height": 3500,
-      "size": 7903042,
-      "timestamp": "2024-07-24T12:40:40Z",
-      "author": "kallerna",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Vestiges_de_Roubion_-2.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVestiges%20de%20Roubion%20-2.JPG",
+      "title": "Vestiges de Roubion -2.JPG",
+      "description": "Château de Roubion- Vestiges derrière le rempart ouest",
+      "width": 4896,
+      "height": 3672,
+      "size": 9867972,
+      "timestamp": "2015-06-23T20:09:02Z",
+      "author": "MOSSOT",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 8
     }
   ],
   "lieux": [
@@ -50,25 +53,54 @@
     },
     {
       "label": "Col de la Couillole",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Stage_20_Tour_de_France_2024_Col_de_la_Couillole_55.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStage%2020%20Tour%20de%20France%202024%20Col%20de%20la%20Couillole%2055.jpg",
-          "title": "Stage 20 Tour de France 2024 Col de la Couillole 55.jpg",
-          "width": 4520,
-          "height": 3185,
-          "size": 7359946,
-          "timestamp": "2024-07-24T12:46:29Z",
-          "author": "kallerna",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Place Vieille",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Rempart_de_Roubion_-2.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARempart%20de%20Roubion%20-2.JPG",
+          "title": "Rempart de Roubion -2.JPG",
+          "description": "Château de Roubion - Porte dans le rempart fermant l'accès à la ville, à l'ouest",
+          "width": 4896,
+          "height": 3672,
+          "size": 6738455,
+          "timestamp": "2015-06-23T20:08:59Z",
+          "author": "MOSSOT",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Vestiges_de_Roubion_-1.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVestiges%20de%20Roubion%20-1.JPG",
+          "title": "Vestiges de Roubion -1.JPG",
+          "description": "Château de Roubion - Vestiges à côté du rempart ouest",
+          "width": 4896,
+          "height": 3672,
+          "size": 7869132,
+          "timestamp": "2015-06-23T20:09:01Z",
+          "author": "MOSSOT",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Vestiges_de_Roubion_-2.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVestiges%20de%20Roubion%20-2.JPG",
+          "title": "Vestiges de Roubion -2.JPG",
+          "description": "Château de Roubion- Vestiges derrière le rempart ouest",
+          "width": 4896,
+          "height": 3672,
+          "size": 9867972,
+          "timestamp": "2015-06-23T20:09:02Z",
+          "author": "MOSSOT",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        }
+      ]
     },
     {
       "label": "Sentier du Bois Noir",

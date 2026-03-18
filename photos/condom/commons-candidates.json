@@ -1,12 +1,13 @@
 {
   "slug": "condom",
   "nom": "Condom",
-  "fetchedAt": "2026-03-13T13:53:46.692Z",
+  "fetchedAt": "2026-03-16T12:20:54.608Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Condom_%2832%29_Cath%C3%A9drale_Saint-Pierre_Ext%C3%A9rieur_05.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACondom%20(32)%20Cath%C3%A9drale%20Saint-Pierre%20Ext%C3%A9rieur%2005.JPG",
       "title": "Condom (32) Cathédrale Saint-Pierre Extérieur 05.JPG",
+      "description": "Extérieur de la cathédrale Saint-Pierre de Condom (32).",
       "width": 2381,
       "height": 1786,
       "size": 2584096,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Condom_%2832%29_Cath%C3%A9drale_Saint-Pierre_Int%C3%A9rieur_Cl%C3%B4ture_du_Ch%C5%93ur_03.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACondom%20(32)%20Cath%C3%A9drale%20Saint-Pierre%20Int%C3%A9rieur%20Cl%C3%B4ture%20du%20Ch%C5%93ur%2003.JPG",
       "title": "Condom (32) Cathédrale Saint-Pierre Intérieur Clôture du Chœur 03.JPG",
+      "description": "Clôture du chœur de la cathédrale Saint-Pierre de Condom (32).",
       "width": 1984,
       "height": 1488,
       "size": 2663877,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Condom_%2832%29_Cath%C3%A9drale_Saint-Pierre_Int%C3%A9rieur_Vo%C3%BBtes_03.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACondom%20(32)%20Cath%C3%A9drale%20Saint-Pierre%20Int%C3%A9rieur%20Vo%C3%BBtes%2003.JPG",
       "title": "Condom (32) Cathédrale Saint-Pierre Intérieur Voûtes 03.JPG",
+      "description": "Voûtes de la cathédrale Saint-Pierre de Condom (32).",
       "width": 1984,
       "height": 1488,
       "size": 2797454,
@@ -46,11 +49,97 @@
   "lieux": [
     {
       "label": "Cathédrale Saint-Pierre (nef et portail)",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Condom.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACondom.jpg",
+          "title": "Condom.jpg",
+          "description": "Vue de Condom depuis la route de Fourcès",
+          "width": 2074,
+          "height": 2110,
+          "size": 1132056,
+          "timestamp": "2011-03-30T17:10:00Z",
+          "author": "Oxxo",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Cath%C3%A9drale_Condom_Choeur_BLS.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale%20Condom%20Choeur%20BLS.jpg",
+          "title": "Cathédrale Condom Choeur BLS.jpg",
+          "description": "Choir of Condom Cathedral, in Condom, Gers, France.",
+          "width": 7044,
+          "height": 5677,
+          "size": 11951187,
+          "timestamp": "2015-07-20T19:01:46Z",
+          "author": "Benh LIEU SONG",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Condom_-_Cath%C3%A9drale_Saint-Pierre_-_Vo%C3%BBte_du_choeur.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACondom%20-%20Cath%C3%A9drale%20Saint-Pierre%20-%20Vo%C3%BBte%20du%20choeur.JPG",
+          "title": "Condom - Cathédrale Saint-Pierre - Voûte du choeur.JPG",
+          "description": "Condom - Cathédrale Saint-Pierre - Voûte du choeur",
+          "width": 2048,
+          "height": 1536,
+          "size": 1247466,
+          "timestamp": "2015-07-29T11:42:18Z",
+          "author": "MOSSOT",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Cloître de la cathédrale",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Condom.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACondom.jpg",
+          "title": "Condom.jpg",
+          "description": "Vue de Condom depuis la route de Fourcès",
+          "width": 2074,
+          "height": 2110,
+          "size": 1132056,
+          "timestamp": "2011-03-30T17:10:00Z",
+          "author": "Oxxo",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Cath%C3%A9drale_Condom_Choeur_BLS.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale%20Condom%20Choeur%20BLS.jpg",
+          "title": "Cathédrale Condom Choeur BLS.jpg",
+          "description": "Choir of Condom Cathedral, in Condom, Gers, France.",
+          "width": 7044,
+          "height": 5677,
+          "size": 11951187,
+          "timestamp": "2015-07-20T19:01:46Z",
+          "author": "Benh LIEU SONG",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Condom_-_Cath%C3%A9drale_Saint-Pierre_-_Vo%C3%BBte_du_choeur.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACondom%20-%20Cath%C3%A9drale%20Saint-Pierre%20-%20Vo%C3%BBte%20du%20choeur.JPG",
+          "title": "Condom - Cathédrale Saint-Pierre - Voûte du choeur.JPG",
+          "description": "Condom - Cathédrale Saint-Pierre - Voûte du choeur",
+          "width": 2048,
+          "height": 1536,
+          "size": 1247466,
+          "timestamp": "2015-07-29T11:42:18Z",
+          "author": "MOSSOT",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Quai de la Baïse",
@@ -58,7 +147,50 @@
     },
     {
       "label": "Statue des Mousquetaires",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Statue_de_la_Vierge_%C3%A0_Salgues_%28Condom-d%27Aubrac%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStatue%20de%20la%20Vierge%20%C3%A0%20Salgues%20(Condom-d'Aubrac).jpg",
+          "title": "Statue de la Vierge à Salgues (Condom-d'Aubrac).jpg",
+          "description": "Statue de la Vierge à côté de l'église de Salgues",
+          "width": 3431,
+          "height": 5147,
+          "size": 5210449,
+          "timestamp": "2025-04-13T18:09:27Z",
+          "author": "FredSeiller",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Statue_de_la_Vierge_%C3%A0_Salgues_%28Condom-d%27Aubrac%292.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStatue%20de%20la%20Vierge%20%C3%A0%20Salgues%20(Condom-d'Aubrac)2.jpg",
+          "title": "Statue de la Vierge à Salgues (Condom-d'Aubrac)2.jpg",
+          "description": "Statue de la Vierge à côté de l'église de Salgues",
+          "width": 4000,
+          "height": 6000,
+          "size": 11925324,
+          "timestamp": "2025-04-13T18:10:46Z",
+          "author": "FredSeiller",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/20100707_Cath%C3%A9drale_Saint-Pierre_de_Condom%2C_Saint_Peter_statue.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20100707%20Cath%C3%A9drale%20Saint-Pierre%20de%20Condom%2C%20Saint%20Peter%20statue.JPG",
+          "title": "20100707 Cathédrale Saint-Pierre de Condom, Saint Peter statue.JPG",
+          "description": "Saint Peter statue in Cathédrale Saint-Pierre de Condom - one of the churches in Condom, France (Note: Picture has Geotag information stored in EXIF.)",
+          "width": 1341,
+          "height": 2675,
+          "size": 2299383,
+          "timestamp": "2010-07-07T23:57:37Z",
+          "author": "Fod",
+          "license": "CC BY 2.5 dk",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     }
   ]
 }

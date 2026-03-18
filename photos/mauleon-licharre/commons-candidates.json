@@ -1,42 +1,45 @@
 {
   "slug": "mauleon-licharre",
   "nom": "Mauléon-Licharre",
-  "fetchedAt": "2026-03-13T16:07:15.367Z",
+  "fetchedAt": "2026-03-16T21:24:42.410Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Rue_de_la_commanderie%2C_4_%28Maul%C3%A9on%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARue%20de%20la%20commanderie%2C%204%20(Maul%C3%A9on).jpg",
-      "title": "Rue de la commanderie, 4 (Mauléon).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Vue_du_ch%C3%A2teau-fort_depuis_la_rue_de_la_Navarre_%C3%A0_Maul%C3%A9on-Licharre.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20du%20ch%C3%A2teau-fort%20depuis%20la%20rue%20de%20la%20Navarre%20%C3%A0%20Maul%C3%A9on-Licharre.jpg",
+      "title": "Vue du château-fort depuis la rue de la Navarre à Mauléon-Licharre.jpg",
+      "description": "View of the castle of Mauléon-Licharre seen from the rue de la Navarre (Pyrénées-Atlantiques, France).",
       "width": 2816,
       "height": 2112,
-      "size": 2254405,
-      "timestamp": "2023-07-04T19:24:11Z",
+      "size": 1963594,
+      "timestamp": "2024-06-14T16:36:57Z",
       "author": "Tangopaso",
       "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Maul%C3%A9on-Licharre_%28Pyr-Atl%2C_Fr%29_ch%C3%A2teau_d%27Andurain.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaul%C3%A9on-Licharre%20(Pyr-Atl%2C%20Fr)%20ch%C3%A2teau%20d'Andurain.JPG",
+      "title": "Mauléon-Licharre (Pyr-Atl, Fr) château d'Andurain.JPG",
+      "description": "Mauléon-Licharre (Pyr-Atl, Fr) Château d'Andurain",
+      "width": 4000,
+      "height": 3000,
+      "size": 4381364,
+      "timestamp": "2010-07-20T14:11:29Z",
+      "author": "Havang(nl)",
+      "license": "CC0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Rue_de_la_commanderie%2C_4_%28Maul%C3%A9on%29_-_plaque.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARue%20de%20la%20commanderie%2C%204%20(Maul%C3%A9on)%20-%20plaque.jpg",
-      "title": "Rue de la commanderie, 4 (Mauléon) - plaque.jpg",
-      "width": 2816,
-      "height": 2112,
-      "size": 2917086,
-      "timestamp": "2023-07-04T19:27:04Z",
-      "author": "Tangopaso",
-      "license": "Public domain",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Rue_de_la_commanderie%2C_2_%28Maul%C3%A9on%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARue%20de%20la%20commanderie%2C%202%20(Maul%C3%A9on).jpg",
-      "title": "Rue de la commanderie, 2 (Mauléon).jpg",
-      "width": 2816,
-      "height": 2112,
-      "size": 1615680,
-      "timestamp": "2023-07-06T15:22:44Z",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Chateau_d%27Andurain_depuis_le_fort_de_Mauleon.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau%20d'Andurain%20depuis%20le%20fort%20de%20Mauleon.jpg",
+      "title": "Chateau d'Andurain depuis le fort de Mauleon.jpg",
+      "description": "The Andurain castle seen from the castle of Mauléon-Licharre, (Pyrénées-Atlantiques, France).",
+      "width": 4416,
+      "height": 3312,
+      "size": 1635057,
+      "timestamp": "2012-03-10T07:53:11Z",
       "author": "Tangopaso",
       "license": "Public domain",
       "licenseUrl": "https://creativecommons.org/licenses/",
@@ -46,7 +49,22 @@
   "lieux": [
     {
       "label": "Bois d’Aguerré",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Castle_of_Mauleon%2C_room_4%2C_wooden_door.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACastle%20of%20Mauleon%2C%20room%204%2C%20wooden%20door.jpg",
+          "title": "Castle of Mauleon, room 4, wooden door.jpg",
+          "description": "Strong wooden door of a room in the interior of the castle of Mauléon-Licharre, (Pyrénées-Atlantiques, France).",
+          "width": 2112,
+          "height": 2816,
+          "size": 1859737,
+          "timestamp": "2017-11-09T09:31:17Z",
+          "author": "Tangopaso",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 2
+        }
+      ]
     },
     {
       "label": "Passerelle du Saison",
@@ -54,7 +72,50 @@
     },
     {
       "label": "Vue depuis la butte du château fort",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Vue_a%C3%A9rienne_du_ch%C3%A2teau_de_Maul%C3%A9on.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20a%C3%A9rienne%20du%20ch%C3%A2teau%20de%20Maul%C3%A9on.jpg",
+          "title": "Vue aérienne du château de Mauléon.jpg",
+          "description": "Aerial view of the castle of Mauléon-Licharre (Pyrénées-Atlantiques, France).",
+          "width": 1595,
+          "height": 1111,
+          "size": 625926,
+          "timestamp": "2023-10-24T19:22:22Z",
+          "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Hostellerie_du_ch%C3%A2teau_%C3%A0_Maul%C3%A9on-Licharre.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHostellerie%20du%20ch%C3%A2teau%20%C3%A0%20Maul%C3%A9on-Licharre.jpg",
+          "title": "Hostellerie du château à Mauléon-Licharre.jpg",
+          "description": "Hostellerie du château in Mauléon-Licharre (Pyrénées-Atlantiques, France).",
+          "width": 2816,
+          "height": 2112,
+          "size": 1769949,
+          "timestamp": "2024-06-14T16:26:13Z",
+          "author": "Tangopaso",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Vue_du_ch%C3%A2teau-fort_depuis_la_rue_de_la_Navarre_%C3%A0_Maul%C3%A9on-Licharre.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20du%20ch%C3%A2teau-fort%20depuis%20la%20rue%20de%20la%20Navarre%20%C3%A0%20Maul%C3%A9on-Licharre.jpg",
+          "title": "Vue du château-fort depuis la rue de la Navarre à Mauléon-Licharre.jpg",
+          "description": "View of the castle of Mauléon-Licharre seen from the rue de la Navarre (Pyrénées-Atlantiques, France).",
+          "width": 2816,
+          "height": 2112,
+          "size": 1963594,
+          "timestamp": "2024-06-14T16:36:57Z",
+          "author": "Tangopaso",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     },
     {
       "label": "Coteau d’Etchebarne",

@@ -1,12 +1,13 @@
 {
   "slug": "plage-de-la-corniche",
   "nom": "Plage de la Corniche",
-  "fetchedAt": "2026-03-14T11:02:43.371Z",
+  "fetchedAt": "2026-03-17T22:57:55.123Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Waves_at_La_Corniche.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWaves%20at%20La%20Corniche.jpg",
       "title": "Waves at La Corniche.jpg",
+      "description": "Waves on rocks at sunset in Corniche (Sète, France)",
       "width": 7360,
       "height": 4912,
       "size": 35124873,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Rocks_at_Corniche.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARocks%20at%20Corniche.jpg",
       "title": "Rocks at Corniche.jpg",
+      "description": "Rocks on the shoreline in Corniche (Sète, France).",
       "width": 5472,
       "height": 3648,
       "size": 17026691,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Rocks_at_La_Corniche_-_March_2021.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARocks%20at%20La%20Corniche%20-%20March%202021.jpg",
       "title": "Rocks at La Corniche - March 2021.jpg",
+      "description": "Rocks in the sea just after sunrise on the shore of La Corniche in Sète, France",
       "width": 7360,
       "height": 4912,
       "size": 35723931,
@@ -46,25 +49,54 @@
   "lieux": [
     {
       "label": "Digue de la Corniche",
+      "photos": []
+    },
+    {
+      "label": "Promenade du Lido",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Nord_de_Br%C3%A9hec_1.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANord%20de%20Br%C3%A9hec%201.JPG",
-          "title": "Nord de Bréhec 1.JPG",
-          "width": 3648,
-          "height": 2736,
-          "size": 5801332,
-          "timestamp": "2010-08-26T13:56:55Z",
-          "author": "Moreau.henri",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Jonction_Promenade_de_la_Corniche_et_Parking-Plage_Nord_-_Le_Touquet-Paris-Plage.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJonction%20Promenade%20de%20la%20Corniche%20et%20Parking-Plage%20Nord%20-%20Le%20Touquet-Paris-Plage.jpg",
+          "title": "Jonction Promenade de la Corniche et Parking-Plage Nord - Le Touquet-Paris-Plage.jpg",
+          "description": "Aménagements Paysagers au niveau de la Jonction Promenade de la Corniche et Parking-Plage Nord - Le Touquet-Paris-Plage",
+          "width": 1600,
+          "height": 1200,
+          "size": 260317,
+          "timestamp": "2012-02-04T20:07:56Z",
+          "author": "JBCousin",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Les_Dunes_du_Touquet_le_long_de_la_Promenade_de_la_Corniche_-_Le_Touquet-Paris-Plage.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20Dunes%20du%20Touquet%20le%20long%20de%20la%20Promenade%20de%20la%20Corniche%20-%20Le%20Touquet-Paris-Plage.jpg",
+          "title": "Les Dunes du Touquet le long de la Promenade de la Corniche - Le Touquet-Paris-Plage.jpg",
+          "description": "Les Dunes du Touquet le long de la Promenade de la Corniche - Le Touquet-Paris-Plage",
+          "width": 1600,
+          "height": 1200,
+          "size": 295408,
+          "timestamp": "2012-02-04T20:07:58Z",
+          "author": "JBCousin",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Promenade_de_la_Corniche_-_Le_Touquet-Paris-Plage.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APromenade%20de%20la%20Corniche%20-%20Le%20Touquet-Paris-Plage.jpg",
+          "title": "Promenade de la Corniche - Le Touquet-Paris-Plage.jpg",
+          "description": "Promenade de la Corniche - Le Touquet-Paris-Plage\nEn lieu et place de l'ancienne route en Corniche. \n\nAménagements Paysagers pour la promenade des piétons et cyclistes.",
+          "width": 1600,
+          "height": 1200,
+          "size": 254735,
+          "timestamp": "2012-02-04T20:08:00Z",
+          "author": "JBCousin",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 5
         }
       ]
-    },
-    {
-      "label": "Promenade du Lido",
-      "photos": []
     }
   ]
 }

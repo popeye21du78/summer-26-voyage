@@ -1,38 +1,13 @@
 {
   "slug": "pierrefonds",
   "nom": "Pierrefonds",
-  "fetchedAt": "2026-03-14T10:48:34.165Z",
+  "fetchedAt": "2026-03-17T22:30:04.513Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Fonds_Achille_Dassonville_%281890-1967%29_-_France_-_Pierrefonds_-_Entr%C3%A9e_du_ch%C3%A2teau_de_Pierrefonds_%28M%C3%A9diHAL_5132533%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFonds%20Achille%20Dassonville%20(1890-1967)%20-%20France%20-%20Pierrefonds%20-%20Entr%C3%A9e%20du%20ch%C3%A2teau%20de%20Pierrefonds%20(M%C3%A9diHAL%205132533).jpg",
-      "title": "Fonds Achille Dassonville (1890-1967) - France - Pierrefonds - Entrée du château de Pierrefonds (MédiHAL 5132533).jpg",
-      "width": 4784,
-      "height": 2270,
-      "size": 919929,
-      "timestamp": "2025-07-06T14:45:40Z",
-      "author": "<div class=\"fn value\">\nMaison Méditerranéenne Des Sciences de l'Homme Phonothèque, Achille Fernand Hector Dassonville</div>",
-      "license": "Licence Ouverte",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Fonds_Achille_Dassonville_%281890-1967%29_-_France_-_Pierrefonds_-_Vue_%C3%A9loign%C3%A9e_du_ch%C3%A2teau_de_Pierrefonds_%28M%C3%A9diHAL_5132477%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFonds%20Achille%20Dassonville%20(1890-1967)%20-%20France%20-%20Pierrefonds%20-%20Vue%20%C3%A9loign%C3%A9e%20du%20ch%C3%A2teau%20de%20Pierrefonds%20(M%C3%A9diHAL%205132477).jpg",
-      "title": "Fonds Achille Dassonville (1890-1967) - France - Pierrefonds - Vue éloignée du château de Pierrefonds (MédiHAL 5132477).jpg",
-      "width": 4784,
-      "height": 2270,
-      "size": 1057485,
-      "timestamp": "2025-07-06T14:45:57Z",
-      "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q3280224\" class=\"extiw\" title=\"d:Q3280224\"><span title=\"French research institute located in Aix-en-Provence\">Maison méditerranéenne des Sciences de l'homme</span></a>\n</bdi> / <bdi><a href=\"https://en.wikipedia.org/wiki/en:French_National_Centre_for_Scientific_Research\" class=\"extiw\" title=\"w:en:French National Centre for Scientific Research\"><span title=\"French research organisation\">National Center for Scientific Research</span></a>\n</bdi>",
-      "license": "Licence Ouverte",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Pierrefonds%2C_Oise.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APierrefonds%2C%20Oise.jpg",
       "title": "Pierrefonds, Oise.jpg",
+      "description": "château de Pierrefonds, Oise, France",
       "width": 2000,
       "height": 1162,
       "size": 1789127,
@@ -40,13 +15,84 @@
       "author": "Parent Géry",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Ch%C3%A2teau_de_Pierrefonds_-_panoramio_%281%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Pierrefonds%20-%20panoramio%20(1).jpg",
+      "title": "Château de Pierrefonds - panoramio (1).jpg",
+      "description": "Château de Pierrefonds",
+      "width": 2048,
+      "height": 1356,
+      "size": 1138875,
+      "timestamp": "2017-02-22T09:57:30Z",
+      "author": "Paul Fleury",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Ch%C3%A2teau_de_Pierrefonds_-_panoramio_%283%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Pierrefonds%20-%20panoramio%20(3).jpg",
+      "title": "Château de Pierrefonds - panoramio (3).jpg",
+      "description": "Château de Pierrefonds",
+      "width": 2048,
+      "height": 1356,
+      "size": 650874,
+      "timestamp": "2017-02-22T09:58:10Z",
+      "author": "Paul Fleury",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
     }
   ],
   "lieux": [
     {
       "label": "Cour intérieure et galerie à arcades",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Binnenplaats_van_het_Kasteel_van_Pierrefonds_Ch%C3%A2teau_de_Pierrefonds._-_Cour_d%27Honneur%2C_une_Galerie._%28titel_op_object%29%2C_RP-F-00-4093.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABinnenplaats%20van%20het%20Kasteel%20van%20Pierrefonds%20Ch%C3%A2teau%20de%20Pierrefonds.%20-%20Cour%20d'Honneur%2C%20une%20Galerie.%20(titel%20op%20object)%2C%20RP-F-00-4093.jpg",
+          "title": "Binnenplaats van het Kasteel van Pierrefonds Château de Pierrefonds. - Cour d'Honneur, une Galerie. (titel op object), RP-F-00-4093.jpg",
+          "description": "IdentificatieTitel(s): Binnenplaats van het Kasteel van Pierrefonds. Château de Pierrefonds. - Cour d'Honneur, une Galerie. (titel op object)Objecttype: foto Objectnummer: RP-F-00-4093Opschriften / Merken: opschrift, recto, handgeschreven: ‘CWN.’nummer, recto: ‘244’opschrift, recto, handgeschreven: ‘Gothische Kunst - Frankrijk.’verzamelaarsmerk, verso, gestempeld: ‘KUNSTNIJVERHEIDSCHOOL QUELLINUS AMSTERDAM FRANS HALSSTRAAT 14.’verzamelaarsmerk, verso, gestempeld: ‘INSTITUUT VOOR KUNST-NIJVERHEID",
+          "width": 7182,
+          "height": 5134,
+          "size": 3675597,
+          "timestamp": "2020-01-10T22:09:39Z",
+          "author": "Rijksmuseum",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Pierrefonds_Cour_2015.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APierrefonds%20Cour%202015.JPG",
+          "title": "Pierrefonds Cour 2015.JPG",
+          "description": "Cour du château de Pierrefonds, façade de la salle des Preux.",
+          "width": 4608,
+          "height": 3456,
+          "size": 5228753,
+          "timestamp": "2015-06-25T12:15:15Z",
+          "author": "Thomon",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Cour_Pierrefonds_statues.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACour%20Pierrefonds%20statues.JPG",
+          "title": "Cour Pierrefonds statues.JPG",
+          "description": "Statues de la cour du château de Pierrefonds.",
+          "width": 4608,
+          "height": 3456,
+          "size": 4839343,
+          "timestamp": "2015-06-25T12:23:38Z",
+          "author": "Thomon",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        }
+      ]
     },
     {
       "label": "Salle des Preuses",
@@ -55,6 +101,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Salle_des_Preuses_01_-_chateau_de_Pierrefonds_-_juillet_2022.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASalle%20des%20Preuses%2001%20-%20chateau%20de%20Pierrefonds%20-%20juillet%202022.jpg",
           "title": "Salle des Preuses 01 - chateau de Pierrefonds - juillet 2022.jpg",
+          "description": "La salle des Preuses du château de Pierrefonds (Oise, France).",
           "width": 6000,
           "height": 4000,
           "size": 16657102,
@@ -62,12 +109,13 @@
           "author": "Heric",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Salle_des_Preuses_02_-_chateau_de_Pierrefonds_-_juillet_2022.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASalle%20des%20Preuses%2002%20-%20chateau%20de%20Pierrefonds%20-%20juillet%202022.jpg",
           "title": "Salle des Preuses 02 - chateau de Pierrefonds - juillet 2022.jpg",
+          "description": "La salle des Preuses du château de Pierrefonds (Oise, France).",
           "width": 6000,
           "height": 4000,
           "size": 11418856,
@@ -75,42 +123,87 @@
           "author": "Heric SAMSON",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/%22Salle_des_Preuses%22_du_ch%C3%A2teau_de_Pierrefonds_-_btv1b530245077_%281_of_2%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%22Salle%20des%20Preuses%22%20du%20ch%C3%A2teau%20de%20Pierrefonds%20-%20btv1b530245077%20(1%20of%202).jpg",
-          "title": "\"Salle des Preuses\" du château de Pierrefonds - btv1b530245077 (1 of 2).jpg",
-          "width": 3112,
-          "height": 2448,
-          "size": 972056,
-          "timestamp": "2024-10-26T05:11:41Z",
-          "author": "<div class=\"fn value\">\nChevallier, Auguste (?-1868 ; Photographe). Photographe</div>",
-          "license": "Public domain",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Pierrefonds_Salle_des_Gardes.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APierrefonds%20Salle%20des%20Gardes.JPG",
+          "title": "Pierrefonds Salle des Gardes.JPG",
+          "description": "Salle des Gardes du château de Pierrefonds.",
+          "width": 4608,
+          "height": 3456,
+          "size": 4212538,
+          "timestamp": "2015-06-25T14:46:10Z",
+          "author": "Thomon",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 8
         }
       ]
     },
     {
       "label": "Remparts et vue sur la forêt de Compiègne",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Michael_Arch._Ch%C3%A2teau_de_Pierrefonds_Oise.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMichael%20Arch.%20Ch%C3%A2teau%20de%20Pierrefonds%20Oise.jpg",
+          "title": "Michael Arch. Château de Pierrefonds Oise.jpg",
+          "description": "Michael archangel, walls of the Château de Pierrefonds, Oise, France.",
+          "width": 2799,
+          "height": 4438,
+          "size": 9995623,
+          "timestamp": "2014-06-15T17:56:34Z",
+          "author": "Jebulon",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Tour du Diable",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Description_du_chateau_de_pierrefonds_Figure_04.png",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADescription%20du%20chateau%20de%20pierrefonds%20Figure%2004.png",
-          "title": "Description du chateau de pierrefonds Figure 04.png",
-          "width": 1240,
-          "height": 1641,
-          "size": 122659,
-          "timestamp": "2005-02-26T19:32:28Z",
-          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Eug%C3%A8ne_Viollet-le-Duc\" class=\"extiw\" title=\"w:en:Eugène Viollet-le-Duc\"><span title=\"French architect (1814-1879)\">Eugène Viollet-le-Duc</span></a></bdi>",
-          "license": "Public domain",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Pierrefonds_Tour.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APierrefonds%20Tour.JPG",
+          "title": "Pierrefonds Tour.JPG",
+          "description": "Château de Pierrefonds",
+          "width": 4608,
+          "height": 3456,
+          "size": 4060897,
+          "timestamp": "2015-06-25T12:48:49Z",
+          "author": "Thomon",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 2
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Tours_du_Ch%C3%A2teau_de_Pierrefonds.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATours%20du%20Ch%C3%A2teau%20de%20Pierrefonds.jpg",
+          "title": "Tours du Château de Pierrefonds.jpg",
+          "description": "Tours du Château de Pierrefonds. Cliché pris en août 2017.",
+          "width": 4032,
+          "height": 3024,
+          "size": 3058748,
+          "timestamp": "2017-09-28T20:04:36Z",
+          "author": "Flavien Brette",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Tours_de_Pierrefonds.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATours%20de%20Pierrefonds.jpg",
+          "title": "Tours de Pierrefonds.jpg",
+          "description": "Tours et fortifications du château de Pierrefonds",
+          "width": 3008,
+          "height": 2000,
+          "size": 1125269,
+          "timestamp": "2011-09-04T21:08:42Z",
+          "author": "Vifdor",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
         }
       ]
     }

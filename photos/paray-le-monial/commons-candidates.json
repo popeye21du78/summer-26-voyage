@@ -1,12 +1,27 @@
 {
   "slug": "paray-le-monial",
   "nom": "Paray-le-Monial",
-  "fetchedAt": "2026-03-13T16:44:22.281Z",
+  "fetchedAt": "2026-03-17T22:08:29.089Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Paray-le-M.%2C_la_basilique_vue_du_pont_de_la_Bourbince.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParay-le-M.%2C%20la%20basilique%20vue%20du%20pont%20de%20la%20Bourbince.JPG",
+      "title": "Paray-le-M., la basilique vue du pont de la Bourbince.JPG",
+      "description": "Paray-le-Monial, la basilique vue du pont de la Bourbince",
+      "width": 3072,
+      "height": 2304,
+      "size": 3319873,
+      "timestamp": "2012-09-29T22:03:47Z",
+      "author": "Havang(nl)",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Bourbince_in_Paray-le-Monial_%285%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABourbince%20in%20Paray-le-Monial%20(5).jpg",
       "title": "Bourbince in Paray-le-Monial (5).jpg",
+      "description": "Bourbince in Paray-le-Monial, Saône-et-Loire, France",
       "width": 5236,
       "height": 3491,
       "size": 9852095,
@@ -20,23 +35,11 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Tourist_information_centre_in_Paray-le-Monial.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATourist%20information%20centre%20in%20Paray-le-Monial.jpg",
       "title": "Tourist information centre in Paray-le-Monial.jpg",
+      "description": "Tourist information centre in Paray-le-Monial, Saône-et-Loire, France",
       "width": 5284,
       "height": 3399,
       "size": 10356995,
       "timestamp": "2020-03-05T20:36:02Z",
-      "author": "Krzysztof Golik",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Sacred_Heart_basilica_in_Paray-le-M_02.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASacred%20Heart%20basilica%20in%20Paray-le-M%2002.jpg",
-      "title": "Sacred Heart basilica in Paray-le-M 02.jpg",
-      "width": 5331,
-      "height": 4201,
-      "size": 10897980,
-      "timestamp": "2020-09-27T18:18:45Z",
       "author": "Krzysztof Golik",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
@@ -46,7 +49,50 @@
   "lieux": [
     {
       "label": "Cloître roman",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Vue_de_clo%C3%AEtre_de_Paray.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20de%20clo%C3%AEtre%20de%20Paray.jpg",
+          "title": "Vue de cloître de Paray.jpg",
+          "description": "vue de cloître de Paray",
+          "width": 3732,
+          "height": 4851,
+          "size": 3076674,
+          "timestamp": "2022-08-04T08:58:42Z",
+          "author": "CHABERT Louis",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Paray-le-Monial_-_Clo%C3%AEtre_du_prieur%C3%A9_Notre-Dame_-_03.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParay-le-Monial%20-%20Clo%C3%AEtre%20du%20prieur%C3%A9%20Notre-Dame%20-%2003.jpg",
+          "title": "Paray-le-Monial - Cloître du prieuré Notre-Dame - 03.jpg",
+          "description": "Paray-le-Monial (Saône-et-Loire, France) - Cloister of the Priory of Our Lady",
+          "width": 6237,
+          "height": 4455,
+          "size": 12488836,
+          "timestamp": "2025-09-16T16:35:08Z",
+          "author": "Benjamin Smith",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Paray-le-Monial%2C_clo%C3%AEtre_du_prieur%C3%A9%2C_basilique.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParay-le-Monial%2C%20clo%C3%AEtre%20du%20prieur%C3%A9%2C%20basilique.jpg",
+          "title": "Paray-le-Monial, cloître du prieuré, basilique.jpg",
+          "description": "Paray-le-Monial, cloître du prieuré, basilique, vue aérienne",
+          "width": 5472,
+          "height": 3648,
+          "size": 10258432,
+          "timestamp": "2017-08-26T19:51:31Z",
+          "author": "Jackydarne",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Crypte de la basilique",
@@ -54,7 +100,50 @@
     },
     {
       "label": "Jardin du cloître",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Paray-le-Monial_-_Basilique_du_Sacr%C3%A9-Coeur_-_13.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParay-le-Monial%20-%20Basilique%20du%20Sacr%C3%A9-Coeur%20-%2013.jpg",
+          "title": "Paray-le-Monial - Basilique du Sacré-Coeur - 13.jpg",
+          "description": "Paray-le-Monial (Saône-et-Loire, France) - Sacred Heart basilica - View from Saint Hugues garden",
+          "width": 5352,
+          "height": 4447,
+          "size": 9472766,
+          "timestamp": "2025-09-15T18:05:17Z",
+          "author": "Benjamin Smith",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Grotte_agonie_de_J%C3%A9sus_au_jardin_des_oliviers_Parc_des_Chapelains_Paray-le-Monial.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrotte%20agonie%20de%20J%C3%A9sus%20au%20jardin%20des%20oliviers%20Parc%20des%20Chapelains%20Paray-le-Monial.jpg",
+          "title": "Grotte agonie de Jésus au jardin des oliviers Parc des Chapelains Paray-le-Monial.jpg",
+          "description": "Grotte agonie de Jésus au jardin des oliviers Parc des Chapelains Paray-le-Monial",
+          "width": 3264,
+          "height": 2448,
+          "size": 2180649,
+          "timestamp": "2021-05-18T11:35:28Z",
+          "author": "jean-louis Zimmermann",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Paray-le-Monial_-_janvier_2016_%2827%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParay-le-Monial%20-%20janvier%202016%20(27).JPG",
+          "title": "Paray-le-Monial - janvier 2016 (27).JPG",
+          "description": "Image de Paray-le-Monial, Saône-et-Loire, France.",
+          "width": 3264,
+          "height": 2448,
+          "size": 4660831,
+          "timestamp": "2016-01-23T11:04:04Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q42790984\" class=\"extiw\" title=\"d:Q42790984\"><span title=\"French computing engineer\">Benoît Prieur</span></a></bdi>",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Berges de la Bourbince",

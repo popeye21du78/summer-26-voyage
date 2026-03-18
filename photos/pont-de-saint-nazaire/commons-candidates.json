@@ -1,12 +1,13 @@
 {
   "slug": "pont-de-saint-nazaire",
   "nom": "Pont de Saint-Nazaire",
-  "fetchedAt": "2026-03-14T11:31:45.455Z",
+  "fetchedAt": "2026-03-18T16:54:19.988Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Saint-Brevin-les-Pins_%28Loire-Atlantique%29_-_Flickr_-_sybarite48.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Brevin-les-Pins%20(Loire-Atlantique)%20-%20Flickr%20-%20sybarite48.jpg",
       "title": "Saint-Brevin-les-Pins (Loire-Atlantique) - Flickr - sybarite48.jpg",
+      "description": "Saint-Brevin-les-Pins (Loire-Atlantique)\n\nPont de Saint-Nazaire. \n\nCe pont enjambe l'estuaire de la Loire.  Il relie la ville de Saint-Nazaire à Saint-Brevin-les-Pins. \nLe pont, supportant la Route bleue (D 213), est inauguré le 18 octobre 1975.\n\nLe pont à haubans avec les viaducs d'accès à une longueur totale de 3356 mètres.",
       "width": 4928,
       "height": 3264,
       "size": 11146381,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/W2919_StNazaire_PortMean_PontStNaz_32323Eos.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AW2919%20StNazaire%20PortMean%20PontStNaz%2032323Eos.jpg",
       "title": "W2919 StNazaire PortMean PontStNaz 32323Eos.jpg",
+      "description": "Pont de Saint-Nazaire vu de Méan, Fr-44-Saint-Nazaire",
       "width": 4752,
       "height": 3168,
       "size": 4101615,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Portique_Chantiers_Atlantique_Saint_Nazaire.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APortique%20Chantiers%20Atlantique%20Saint%20Nazaire.jpg",
       "title": "Portique Chantiers Atlantique Saint Nazaire.jpg",
+      "description": "Portique des Chantiers de l'Atlantique à Saint-Nazaire ( Loire Atlantique, France)",
       "width": 5664,
       "height": 4248,
       "size": 4728776,
@@ -46,11 +49,97 @@
   "lieux": [
     {
       "label": "Pylône central du pont",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Pont_de_Saint_Nazaire_-_vu_de_Saint_Brevin_les_Pins.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20de%20Saint%20Nazaire%20-%20vu%20de%20Saint%20Brevin%20les%20Pins.jpg",
+          "title": "Pont de Saint Nazaire - vu de Saint Brevin les Pins.jpg",
+          "description": "Pont de Saint Nazaire - vu de Saint Brevin les Pins - juin 2011",
+          "width": 5184,
+          "height": 2592,
+          "size": 957543,
+          "timestamp": "2020-09-29T15:34:41Z",
+          "author": "Jcbonnethm",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/France_PdlL_44_Saint_Nazaire_Pont_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20PdlL%2044%20Saint%20Nazaire%20Pont%2001.jpg",
+          "title": "France PdlL 44 Saint Nazaire Pont 01.jpg",
+          "description": "Pont de Saint-Nazaire",
+          "width": 6016,
+          "height": 4016,
+          "size": 5654493,
+          "timestamp": "2022-09-04T12:56:06Z",
+          "author": "Calips",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/France_PdlL_44_Saint_Nazaire_Pont_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20PdlL%2044%20Saint%20Nazaire%20Pont%2002.jpg",
+          "title": "France PdlL 44 Saint Nazaire Pont 02.jpg",
+          "description": "Pont de Saint-Nazaire",
+          "width": 6016,
+          "height": 4016,
+          "size": 7490790,
+          "timestamp": "2022-09-04T12:56:06Z",
+          "author": "Calips",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Haubans vus des berges",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/St-Nazaire-pont2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt-Nazaire-pont2.jpg",
+          "title": "St-Nazaire-pont2.jpg",
+          "description": "Pont de Saint-Nazaire, vue depuis Saint-Brevin-les-Pins.",
+          "width": 2000,
+          "height": 1333,
+          "size": 503983,
+          "timestamp": "2014-09-03T11:41:27Z",
+          "author": "Yves LC",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Saint-Brevin-les-Pins_%28Loire-Atlantique%29_-_Flickr_-_sybarite48.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Brevin-les-Pins%20(Loire-Atlantique)%20-%20Flickr%20-%20sybarite48.jpg",
+          "title": "Saint-Brevin-les-Pins (Loire-Atlantique) - Flickr - sybarite48.jpg",
+          "description": "Saint-Brevin-les-Pins (Loire-Atlantique)\n\nPont de Saint-Nazaire. \n\nCe pont enjambe l'estuaire de la Loire.  Il relie la ville de Saint-Nazaire à Saint-Brevin-les-Pins. \nLe pont, supportant la Route bleue (D 213), est inauguré le 18 octobre 1975.\n\nLe pont à haubans avec les viaducs d'accès à une longueur totale de 3356 mètres.",
+          "width": 4928,
+          "height": 3264,
+          "size": 11146381,
+          "timestamp": "2020-08-17T01:16:35Z",
+          "author": "Daniel Jolivet",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Pont_de_Saint_Nazaire_-_vu_de_Saint_Brevin_les_Pins.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20de%20Saint%20Nazaire%20-%20vu%20de%20Saint%20Brevin%20les%20Pins.jpg",
+          "title": "Pont de Saint Nazaire - vu de Saint Brevin les Pins.jpg",
+          "description": "Pont de Saint Nazaire - vu de Saint Brevin les Pins - juin 2011",
+          "width": 5184,
+          "height": 2592,
+          "size": 957543,
+          "timestamp": "2020-09-29T15:34:41Z",
+          "author": "Jcbonnethm",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Point culminant du tablier",
@@ -58,7 +147,50 @@
     },
     {
       "label": "Vasières de l’estuaire sous le pont",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Pont_de_Saint_Nazaire_-_vu_de_Saint_Brevin_les_Pins.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20de%20Saint%20Nazaire%20-%20vu%20de%20Saint%20Brevin%20les%20Pins.jpg",
+          "title": "Pont de Saint Nazaire - vu de Saint Brevin les Pins.jpg",
+          "description": "Pont de Saint Nazaire - vu de Saint Brevin les Pins - juin 2011",
+          "width": 5184,
+          "height": 2592,
+          "size": 957543,
+          "timestamp": "2020-09-29T15:34:41Z",
+          "author": "Jcbonnethm",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/France_PdlL_44_Saint_Nazaire_Pont_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20PdlL%2044%20Saint%20Nazaire%20Pont%2001.jpg",
+          "title": "France PdlL 44 Saint Nazaire Pont 01.jpg",
+          "description": "Pont de Saint-Nazaire",
+          "width": 6016,
+          "height": 4016,
+          "size": 5654493,
+          "timestamp": "2022-09-04T12:56:06Z",
+          "author": "Calips",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/France_PdlL_44_Saint_Nazaire_Pont_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20PdlL%2044%20Saint%20Nazaire%20Pont%2002.jpg",
+          "title": "France PdlL 44 Saint Nazaire Pont 02.jpg",
+          "description": "Pont de Saint-Nazaire",
+          "width": 6016,
+          "height": 4016,
+          "size": 7490790,
+          "timestamp": "2022-09-04T12:56:06Z",
+          "author": "Calips",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

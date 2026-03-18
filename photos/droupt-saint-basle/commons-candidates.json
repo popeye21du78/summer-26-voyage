@@ -1,25 +1,13 @@
 {
   "slug": "droupt-saint-basle",
   "nom": "Droupt-Saint-Basle",
-  "fetchedAt": "2026-03-13T14:08:15.176Z",
+  "fetchedAt": "2026-03-16T12:53:38.206Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Pont_%C3%A0_Vallant-Saint-Georges.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20%C3%A0%20Vallant-Saint-Georges.jpg",
-      "title": "Pont à Vallant-Saint-Georges.jpg",
-      "width": 3648,
-      "height": 2736,
-      "size": 2062203,
-      "timestamp": "2019-05-23T19:52:08Z",
-      "author": "Philippesalv",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/P_C_Droupt.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AP%20C%20Droupt.JPG",
       "title": "P C Droupt.JPG",
+      "description": "Pont-canal de Beauregard. Franchit la Rivière de Beauregard (dérivation de la Seine). Porte le canal de la Haute-Seine. 10170 Droupt-Sainte-Marie",
       "width": 3648,
       "height": 2736,
       "size": 2349274,
@@ -30,17 +18,32 @@
       "score": 5
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Ecluse_Saint-Mesmin.JPG",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEcluse%20Saint-Mesmin.JPG",
-      "title": "Ecluse Saint-Mesmin.JPG",
-      "width": 3648,
-      "height": 2736,
-      "size": 2203187,
-      "timestamp": "2013-01-27T16:48:03Z",
-      "author": "Philippesalv",
-      "license": "CC BY-SA 3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Droupt_Saint_Basle.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADroupt%20Saint%20Basle.jpg",
+      "title": "Droupt Saint Basle.jpg",
+      "description": "Église Saint-Léonard-et-Saint-Basle, portail méridional et clocher",
+      "width": 1944,
+      "height": 2592,
+      "size": 1355198,
+      "timestamp": "2015-09-05T15:59:31Z",
+      "author": "Leseb",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 5
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/10131-Droupt-Saint-Basle-Sols.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A10131-Droupt-Saint-Basle-Sols.png",
+      "title": "10131-Droupt-Saint-Basle-Sols.png",
+      "description": "Carte des infrastructures et de l’occupation des sols en 2018 de la commune de fr:Droupt-Saint-Basle (France).",
+      "width": 3270,
+      "height": 2598,
+      "size": 1075869,
+      "timestamp": "2021-05-14T12:21:44Z",
+      "author": "Roland45",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
     }
   ],
   "lieux": [
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Droupt-saint-Basle5208.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADroupt-saint-Basle5208.jpg",
           "title": "Droupt-saint-Basle5208.jpg",
+          "description": "le château.",
           "width": 1000,
           "height": 659,
           "size": 137636,
@@ -58,12 +62,13 @@
           "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
           "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 6
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Droupt-saint-Basle5209.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADroupt-saint-Basle5209.jpg",
           "title": "Droupt-saint-Basle5209.jpg",
+          "description": "le château.",
           "width": 1000,
           "height": 660,
           "size": 184990,
@@ -71,17 +76,61 @@
           "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
           "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 6
         }
       ]
     },
     {
       "label": "Église Saint-Laurent",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Droupt_Saint_Basle.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADroupt%20Saint%20Basle.jpg",
+          "title": "Droupt Saint Basle.jpg",
+          "description": "Église Saint-Léonard-et-Saint-Basle, portail méridional et clocher",
+          "width": 1944,
+          "height": 2592,
+          "size": 1355198,
+          "timestamp": "2015-09-05T15:59:31Z",
+          "author": "Leseb",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Douves du château",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Droupt-saint-Basle5208.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADroupt-saint-Basle5208.jpg",
+          "title": "Droupt-saint-Basle5208.jpg",
+          "description": "le château.",
+          "width": 1000,
+          "height": 659,
+          "size": 137636,
+          "timestamp": "2016-09-14T07:35:47Z",
+          "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Droupt-saint-Basle5209.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADroupt-saint-Basle5209.jpg",
+          "title": "Droupt-saint-Basle5209.jpg",
+          "description": "le château.",
+          "width": 1000,
+          "height": 660,
+          "size": 184990,
+          "timestamp": "2016-09-14T07:35:48Z",
+          "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Étangs de la Voire",

@@ -1,12 +1,13 @@
 {
   "slug": "plage-de-port-mer",
   "nom": "Plage de Port-Mer",
-  "fetchedAt": "2026-03-14T11:12:02.240Z",
+  "fetchedAt": "2026-03-18T16:09:19.259Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Cancale_%2835%29_Anse_de_Port_Mer.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACancale%20(35)%20Anse%20de%20Port%20Mer.jpg",
       "title": "Cancale (35) Anse de Port Mer.jpg",
+      "description": "Anse de Port Mer à Cancale (35).",
       "width": 3648,
       "height": 2736,
       "size": 4468230,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Ille-Et-Vilaine_Cancale_Port-Mer_-_panoramio.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AIlle-Et-Vilaine%20Cancale%20Port-Mer%20-%20panoramio.jpg",
       "title": "Ille-Et-Vilaine Cancale Port-Mer - panoramio.jpg",
+      "description": "Ille-Et-Vilaine Cancale Port-Mer",
       "width": 1930,
       "height": 1197,
       "size": 650347,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Ille-Et-Vilaine_Cancale_Port-Mer_-_panoramio_%281%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AIlle-Et-Vilaine%20Cancale%20Port-Mer%20-%20panoramio%20(1).jpg",
       "title": "Ille-Et-Vilaine Cancale Port-Mer - panoramio (1).jpg",
+      "description": "Ille-Et-Vilaine Cancale Port-Mer",
       "width": 1730,
       "height": 1075,
       "size": 638442,
@@ -48,49 +51,95 @@
       "label": "digue de Port-Mer",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Boulogne-sur-Mer_%28le_casino%2C_la_plage%2C_la_jet%C3%A9e_et_la_digue%29_-_btv1b531539673.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABoulogne-sur-Mer%20(le%20casino%2C%20la%20plage%2C%20la%20jet%C3%A9e%20et%20la%20digue)%20-%20btv1b531539673.jpg",
-          "title": "Boulogne-sur-Mer (le casino, la plage, la jetée et la digue) - btv1b531539673.jpg",
-          "width": 8631,
-          "height": 6262,
-          "size": 6238404,
-          "timestamp": "2025-02-28T14:04:53Z",
-          "author": "<div class=\"fn value\">\nAgence Rol. Agence photographique (commanditaire)</div>",
-          "license": "Public domain",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Batz-sur-Mer_Digue.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABatz-sur-Mer%20Digue.jpg",
-          "title": "Batz-sur-Mer Digue.jpg",
-          "width": 3008,
-          "height": 2000,
-          "size": 1464201,
-          "timestamp": "2015-05-02T07:36:28Z",
-          "author": "Harrieta171",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Saint-Briac-sur-Mer-plaisance-by-Rundvald.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Briac-sur-Mer-plaisance-by-Rundvald.JPG",
+          "title": "Saint-Briac-sur-Mer-plaisance-by-Rundvald.JPG",
+          "description": "Port et plage du Bechet à Saint-Briac-sur-Mer en Ille-et-Vilaine, la presqu’île du château du Nessay.",
+          "width": 3072,
+          "height": 1728,
+          "size": 8280838,
+          "timestamp": "2025-02-11T13:01:40Z",
+          "author": "Rundvald",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Afrique_-_Afrique_du_Nord-Est_-_Egypte_-_R%C3%A9gion_de_Haute-Egypte_-_Gouvernorat_de_la_Mer-Rouge_-_Al_Qusair_-_Vue_depuis_la_plage_%28M%C3%A9diHAL_1740934%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAfrique%20-%20Afrique%20du%20Nord-Est%20-%20Egypte%20-%20R%C3%A9gion%20de%20Haute-Egypte%20-%20Gouvernorat%20de%20la%20Mer-Rouge%20-%20Al%20Qusair%20-%20Vue%20depuis%20la%20plage%20(M%C3%A9diHAL%201740934).jpg",
-          "title": "Afrique - Afrique du Nord-Est - Egypte - Région de Haute-Egypte - Gouvernorat de la Mer-Rouge - Al Qusair - Vue depuis la plage (MédiHAL 1740934).jpg",
-          "width": 850,
-          "height": 720,
-          "size": 108402,
-          "timestamp": "2025-11-11T03:20:18Z",
-          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Emmanuel_de_Martonne\" class=\"extiw\" title=\"w:en:Emmanuel de Martonne\"><span title=\"French geographer (1873–1955)\">Emmanuel de Martonne</span></a></bdi>",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Entr%C3%A9e_du_port_de_Boulogne._Vue_de_la_plage%2C_GP00826.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEntr%C3%A9e%20du%20port%20de%20Boulogne.%20Vue%20de%20la%20plage%2C%20GP00826.jpg",
+          "title": "Entrée du port de Boulogne. Vue de la plage, GP00826.jpg",
+          "description": "TitleEntrée du port de Boulogne. Vue de la plageContributorLanglumé, Pierre (1790-) (lithographer)Bichebois, Alphonse (1801-1850) (lithographer)Adam, Victor (1801-1866) (lithographer)Date[1830]Publisher[Paris]Uniform titleFrankrijk. Boulogne-sur-MerSeriesFrance. Estampes topographiquesFrance. Topographical printsFrankrijk. Topografische prentenOther title(s)Gezicht op de haven en het strand van Boulogne-sur-MerGenreTopographical picturesExtentvoorstelling: 152 x 210 mm voorstelling met opschrift",
+          "width": 10228,
+          "height": 7253,
+          "size": 9158226,
+          "timestamp": "2025-08-14T15:22:26Z",
+          "author": "Langlumé, Pierre (1790-) (lithographer)",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Binic_-_Plage_de_l%27avant-port_%C3%A0_mer_haute_-_AD22_-_16FI274.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABinic%20-%20Plage%20de%20l'avant-port%20%C3%A0%20mer%20haute%20-%20AD22%20-%2016FI274.jpg",
+          "title": "Binic - Plage de l'avant-port à mer haute - AD22 - 16FI274.jpg",
+          "description": "Binic - Plage de l'avant-port à mer haute.",
+          "width": 1713,
+          "height": 1109,
+          "size": 295248,
+          "timestamp": "2020-12-27T17:36:21Z",
+          "author": "<div class=\"fn value\">\nMancel</div>",
           "license": "Licence Ouverte",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 7
         }
       ]
     },
     {
       "label": "pointe du Grouin",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Plage_%28Pornichet%29_%2821%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlage%20(Pornichet)%20(21).jpg",
+          "title": "Plage (Pornichet) (21).jpg",
+          "description": "La plage de Bonne-Source à Pornichet. En arrière plan, la digue du bassin en eau profonde du port de Pornichet. Un peu à la gauche de celle-ci, on distingue, plus loin, sur l'horizon, la pointe de Penchâteau au Pouliguen (Loire-Atlantique, France).",
+          "width": 4608,
+          "height": 3456,
+          "size": 1670325,
+          "timestamp": "2016-12-19T10:58:48Z",
+          "author": "Gzen92",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/835._Environs_de_Boulogne-sur-Mer_%E2%80%94_Wimereux_%E2%80%93_Laboratoire_Giard.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A835.%20Environs%20de%20Boulogne-sur-Mer%20%E2%80%94%20Wimereux%20%E2%80%93%20Laboratoire%20Giard.jpg",
+          "title": "835. Environs de Boulogne-sur-Mer — Wimereux – Laboratoire Giard.jpg",
+          "description": "Wimereux (France - département  du Pas-de-Calais) — Pointe aux Oies, Laboratoire Giard vu de la plage.\nEn 1899, Alfred Giard*, professeur à la Sorbonne, titulaire de la Chaire d'Évolution des Êtres Organisés, installe à la Pointe aux Oies, au Nord de Wimereux, le laboratoire de biologie et de zoologie marine dans de nouveaux locaux dus à l'architecte Louis Bonnier, frère de Jules Bonnier**, un des principaux collaborateurs de Giard.\nLe précédent laboratoire, à l'étroit dans le chalet Le Sorézien",
+          "width": 1620,
+          "height": 1039,
+          "size": 795953,
+          "timestamp": "2021-02-21T22:36:09Z",
+          "author": "Éditions L'Hirondelle – Paris",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/395_Port-Manech.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A395%20Port-Manech.jpg",
+          "title": "395 Port-Manech.jpg",
+          "description": "La Pointe de Penquernéo (en Riec-sur-Bélon) et les embouchures de l'Aven (au premier plan) et du Bélon (au second plan) vus depuis la pointe de Port-Manec'h : au fond à droite la plage de  Kerfany (en Moëlan-sur-Mer).",
+          "width": 4320,
+          "height": 3240,
+          "size": 2888590,
+          "timestamp": "2022-01-05T04:31:55Z",
+          "author": "Moreau.henri",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

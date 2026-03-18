@@ -1,12 +1,13 @@
 {
   "slug": "revel",
   "nom": "Revel",
-  "fetchedAt": "2026-03-14T11:45:02.105Z",
+  "fetchedAt": "2026-03-18T17:31:47.466Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Revel_-_avenue_de_Vaudreuille_-_bo%C3%AEte_%C3%A0_livres.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARevel%20-%20avenue%20de%20Vaudreuille%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
       "title": "Revel - avenue de Vaudreuille - boîte à livres.jpg",
+      "description": "Boîte à livres à Revel",
       "width": 2500,
       "height": 1875,
       "size": 1034415,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Eglise_Notre-Dame_de_Revel.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Notre-Dame%20de%20Revel.jpg",
       "title": "Eglise Notre-Dame de Revel.jpg",
+      "description": "The Church \"Notre-Dame\" in Revel, Haute-Garonne, France - Southern exposure",
       "width": 4760,
       "height": 3851,
       "size": 16487693,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Eglise_Notre-Dame_de_Revel_-_Decoration_de_la_voute_du_choeur_Henry_Lefrai.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Notre-Dame%20de%20Revel%20-%20Decoration%20de%20la%20voute%20du%20choeur%20Henry%20Lefrai.jpg",
       "title": "Eglise Notre-Dame de Revel - Decoration de la voute du choeur Henry Lefrai.jpg",
+      "description": "The Church \"Notre-Dame\" in Revel, Haute-Garonne, France - Decoration of the vault of the choir by Henry Lefrai",
       "width": 7360,
       "height": 4912,
       "size": 21919142,
@@ -46,55 +49,144 @@
   "lieux": [
     {
       "label": "Halle médiévale de Revel",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Beffroi_halle_revel_31250_france.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeffroi%20halle%20revel%2031250%20france.jpg",
+          "title": "Beffroi halle revel 31250 france.jpg",
+          "description": "Le beffroi de Revel (31250), France",
+          "width": 2688,
+          "height": 2016,
+          "size": 2555144,
+          "timestamp": "2011-05-21T19:18:22Z",
+          "author": "Ericalens",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Halle_du_Beffroi_de_Revel_en_d%C3%A9cembre_2011.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHalle%20du%20Beffroi%20de%20Revel%20en%20d%C3%A9cembre%202011.jpg",
+          "title": "Halle du Beffroi de Revel en décembre 2011.jpg",
+          "description": "Vue d'ensemble de la halle du beffroi de Revel.",
+          "width": 3264,
+          "height": 2448,
+          "size": 1995066,
+          "timestamp": "2011-12-12T15:14:20Z",
+          "author": "Symac / Sylvain Machefert",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Partie_sup%C3%A9rieure_des_halles_de_Revel.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APartie%20sup%C3%A9rieure%20des%20halles%20de%20Revel.JPG",
+          "title": "Partie supérieure des halles de Revel.JPG",
+          "description": "Halle de Revel (Classé)",
+          "width": 5184,
+          "height": 3312,
+          "size": 2290993,
+          "timestamp": "2013-09-30T19:07:46Z",
+          "author": "Jonathan.chapon",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Lac de Saint-Ferréol",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Lampy_avec_Laure%2C_Henri_et_Richard%2C_lac_de_Saint-Ferr%C3%A9ol%2C_Haute-Garonne_-_btv1b10578973m.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALampy%20avec%20Laure%2C%20Henri%20et%20Richard%2C%20lac%20de%20Saint-Ferr%C3%A9ol%2C%20Haute-Garonne%20-%20btv1b10578973m.jpg",
-          "title": "Lampy avec Laure, Henri et Richard, lac de Saint-Ferréol, Haute-Garonne - btv1b10578973m.jpg",
-          "width": 4043,
-          "height": 3024,
-          "size": 1753170,
-          "timestamp": "2025-03-09T16:35:04Z",
-          "author": "<div class=\"fn value\">\nTrutat, Eugène (1840-1910). Photographe</div>",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Belledonne_%28Revel%29_201510_0163_%2849891043323%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABelledonne%20(Revel)%20201510%200163%20(49891043323).jpg",
+          "title": "Belledonne (Revel) 201510 0163 (49891043323).jpg",
+          "description": "Lac au fond de la combe de Jasse Bralard",
+          "width": 4608,
+          "height": 3456,
+          "size": 4508754,
+          "timestamp": "2024-02-11T15:32:46Z",
+          "author": "Etienne Baudon",
           "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Groupe_de_gens_dans_un_bois%2C_lac_de_Saint-Ferr%C3%A9ol%2C_Haute-Garonne_-_btv1b105789742.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGroupe%20de%20gens%20dans%20un%20bois%2C%20lac%20de%20Saint-Ferr%C3%A9ol%2C%20Haute-Garonne%20-%20btv1b105789742.jpg",
-          "title": "Groupe de gens dans un bois, lac de Saint-Ferréol, Haute-Garonne - btv1b105789742.jpg",
-          "width": 4044,
-          "height": 3023,
-          "size": 1864996,
-          "timestamp": "2025-03-14T00:53:41Z",
-          "author": "<div class=\"fn value\">\nTrutat, Eugène (1840-1910). Photographe</div>",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Belledonne_%28Revel%29_201510_0164_%2849891042993%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABelledonne%20(Revel)%20201510%200164%20(49891042993).jpg",
+          "title": "Belledonne (Revel) 201510 0164 (49891042993).jpg",
+          "description": "Lac au fond de la combe de Jasse Bralard",
+          "width": 4608,
+          "height": 3456,
+          "size": 4302541,
+          "timestamp": "2024-02-11T15:32:47Z",
+          "author": "Etienne Baudon",
           "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Borne_Tarn%2C_Haute-Garonne_-_RD629.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABorne%20Tarn%2C%20Haute-Garonne%20-%20RD629.jpg",
-          "title": "Borne Tarn, Haute-Garonne - RD629.jpg",
-          "width": 2448,
-          "height": 3264,
-          "size": 2252925,
-          "timestamp": "2011-12-12T15:39:38Z",
-          "author": "Symac / Sylvain Machefert",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Belledonne_%28Revel%29_201510_0165_%2849891042723%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABelledonne%20(Revel)%20201510%200165%20(49891042723).jpg",
+          "title": "Belledonne (Revel) 201510 0165 (49891042723).jpg",
+          "description": "Lac au fond de la combe de Jasse Bralard",
+          "width": 4608,
+          "height": 3456,
+          "size": 5103032,
+          "timestamp": "2024-02-11T15:32:48Z",
+          "author": "Etienne Baudon",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 7
         }
       ]
     },
     {
       "label": "Musée du Bois et de la Marqueterie",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Sc%C3%A8nes_de_bataille_pour_l%27Histoire_g%C3%A9n%C3%A9rale_du_Languedoc_n%C2%B040_Bataille_de_Revel_entre_le_duc_de_Berri_et_le_comte_de_F%2C_G.3581.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASc%C3%A8nes%20de%20bataille%20pour%20l'Histoire%20g%C3%A9n%C3%A9rale%20du%20Languedoc%20n%C2%B040%20Bataille%20de%20Revel%20entre%20le%20duc%20de%20Berri%20et%20le%20comte%20de%20F%2C%20G.3581.jpg",
+          "title": "Scènes de bataille pour l'Histoire générale du Languedoc n°40 Bataille de Revel entre le duc de Berri et le comte de F, G.3581.jpg",
+          "description": "Auteur(s):\n\nCochin, Charles Nicolas (le Vieux) (Paris, 29–04–1688 - Paris, 05–07–1754), graveur\nCazes, Pierre Jacques (en 1676 - 25–06–1754), auteur du modèle\n\n\n\nDate de production:\n\nEntre 1730 et 1745\nDatation en siècle: \n18e siècle\n\n\n\nType(s) d'objet(s):\n\nEstampe, Arts graphiques\n\n\nDénomination(s):\n\nEstampe\n\n\nDimensions - Oeuvre:\n\n\n   Hauteur : 10.6 cm\n   Largeur : 18.1 cm\n\n\n\nDimensions - Montage du musée:\n\n\n   Hauteur : 32.5 cm\n   Largeur : 50 cm\n\n\n\nDescription iconographique:\n\n\nScènes de bat",
+          "width": 2863,
+          "height": 1694,
+          "size": 4111678,
+          "timestamp": "2023-04-28T12:28:32Z",
+          "author": "Cochin, Charles Nicolas (le Vieux) (Paris, 29–04–1688 - Paris, 05–07–1754), graveur",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Lettre_autographe_sign%C3%A9e_de_F._Revel_Bouilly_%C3%A0_Caroline_Branchu_%28sans_lieu_ni_date%29_%28manuscrit_autographe%29_-_btv1b530836430_%282_of_3%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALettre%20autographe%20sign%C3%A9e%20de%20F.%20Revel%20Bouilly%20%C3%A0%20Caroline%20Branchu%20(sans%20lieu%20ni%20date)%20(manuscrit%20autographe)%20-%20btv1b530836430%20(2%20of%203).jpg",
+          "title": "Lettre autographe signée de F. Revel Bouilly à Caroline Branchu (sans lieu ni date) (manuscrit autographe) - btv1b530836430 (2 of 3).jpg",
+          "description": "Branchu, Caroline (1780-1850). Destinataire de lettres\nLangue : français\n\nfrançais",
+          "width": 3010,
+          "height": 2368,
+          "size": 422606,
+          "timestamp": "2023-11-03T14:23:44Z",
+          "author": "<div class=\"fn value\">\nBouilly, F. Revel. Auteur de lettres</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Mon_p%C3%A8re..._un_secret..._vengeance%21_voil%C3%A0_mon_s%C3%A9ducteur_et_mon_assassin_%28Ang%C3%A9lina%2C_drame_de_Mr_Hyte_Rimbault%29_Acte_3%2C_sc%C3%A8ne_derni%C3%A8re_-_estampe_-_Lith_Junca_%3B_Revel_invt_-_btv1b8436581x.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMon%20p%C3%A8re...%20un%20secret...%20vengeance!%20voil%C3%A0%20mon%20s%C3%A9ducteur%20et%20mon%20assassin%20(Ang%C3%A9lina%2C%20drame%20de%20Mr%20Hyte%20Rimbault)%20Acte%203%2C%20sc%C3%A8ne%20derni%C3%A8re%20-%20estampe%20-%20Lith%20Junca%20%3B%20Revel%20invt%20-%20btv1b8436581x.jpg",
+          "title": "Mon père... un secret... vengeance! voilà mon séducteur et mon assassin (Angélina, drame de Mr Hyte Rimbault) Acte 3, scène dernière - estampe - Lith Junca ; Revel invt - btv1b8436581x.jpg",
+          "description": "Sujet : Scènes théâtrales -- 1800-1869\nIllustration\nLangue : français\n\nÉditeur : Lith Junca, pass Saulnier, 6, Paris",
+          "width": 5844,
+          "height": 4428,
+          "size": 3939789,
+          "timestamp": "2024-10-30T20:39:54Z",
+          "author": "<div class=\"fn value\">\n<p>Junca (1810-185.? ; lithographe). Lithographe\n</p>\nRevel. Dessinateur du modèle</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

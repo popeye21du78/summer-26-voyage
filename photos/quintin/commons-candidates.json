@@ -1,38 +1,13 @@
 {
   "slug": "quintin",
   "nom": "Quintin",
-  "fetchedAt": "2026-03-14T11:41:30.409Z",
+  "fetchedAt": "2026-03-18T17:21:50.821Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Quintin_-_Chauss%C3%A9e_de_l%E2%80%99%C3%89tang_-_AD22_-_16FI4565.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQuintin%20-%20Chauss%C3%A9e%20de%20l%E2%80%99%C3%89tang%20-%20AD22%20-%2016FI4565.jpg",
-      "title": "Quintin - Chaussée de l’Étang - AD22 - 16FI4565.jpg",
-      "width": 1646,
-      "height": 1010,
-      "size": 339383,
-      "timestamp": "2021-01-21T20:11:40Z",
-      "author": "<div class=\"fn value\">\nà préciser</div>",
-      "license": "Licence Ouverte",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Quintin_-_Casernement_des_troupes_ancien_couvent_des_Ursulines_-_AD22_-_16FI4567.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQuintin%20-%20Casernement%20des%20troupes%20ancien%20couvent%20des%20Ursulines%20-%20AD22%20-%2016FI4567.jpg",
-      "title": "Quintin - Casernement des troupes ancien couvent des Ursulines - AD22 - 16FI4567.jpg",
-      "width": 1630,
-      "height": 1036,
-      "size": 298152,
-      "timestamp": "2021-01-21T20:12:01Z",
-      "author": "<div class=\"fn value\">\nà préciser</div>",
-      "license": "Licence Ouverte",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Quintin_-_Ch%C3%A2teau_de_la_Salle-Verte_-_AD22_-_16FI4571.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQuintin%20-%20Ch%C3%A2teau%20de%20la%20Salle-Verte%20-%20AD22%20-%2016FI4571.jpg",
       "title": "Quintin - Château de la Salle-Verte - AD22 - 16FI4571.jpg",
+      "description": "Le château de la Salle-Verte.",
       "width": 1642,
       "height": 1026,
       "size": 368037,
@@ -40,7 +15,35 @@
       "author": "<div class=\"fn value\">\nà préciser</div>",
       "license": "Licence Ouverte",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Quintin_-_%C3%89tang_et_ch%C3%A2teau_-_AD22_-_16FI4615.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQuintin%20-%20%C3%89tang%20et%20ch%C3%A2teau%20-%20AD22%20-%2016FI4615.jpg",
+      "title": "Quintin - Étang et château - AD22 - 16FI4615.jpg",
+      "description": "Etang et château de Quintin.",
+      "width": 1657,
+      "height": 1040,
+      "size": 290232,
+      "timestamp": "2021-01-21T20:17:31Z",
+      "author": "<div class=\"fn value\">\nà préciser</div>",
+      "license": "Licence Ouverte",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Quintin_-_Ch%C3%A2teau_-_AD22_-_16FI4617.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQuintin%20-%20Ch%C3%A2teau%20-%20AD22%20-%2016FI4617.jpg",
+      "title": "Quintin - Château - AD22 - 16FI4617.jpg",
+      "description": "Le Château.",
+      "width": 1627,
+      "height": 1040,
+      "size": 292798,
+      "timestamp": "2021-01-21T20:17:51Z",
+      "author": "<div class=\"fn value\">\nà préciser</div>",
+      "license": "Licence Ouverte",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
     }
   ],
   "lieux": [
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/101_Quintin_%28C%C3%B4tes-d%27Armor%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A101%20Quintin%20(C%C3%B4tes-d'Armor).jpg",
           "title": "101 Quintin (Côtes-d'Armor).jpg",
+          "description": "Le château de Quintin.",
           "width": 3042,
           "height": 2264,
           "size": 2894195,
@@ -58,12 +62,13 @@
           "author": "Moreau.henri",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/098_Quintin_%28C%C3%B4tes-d%27Armor%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A098%20Quintin%20(C%C3%B4tes-d'Armor).jpg",
           "title": "098 Quintin (Côtes-d'Armor).jpg",
+          "description": "L'étang de Quintin vu des jardins du château.",
           "width": 2960,
           "height": 2146,
           "size": 3603261,
@@ -71,20 +76,21 @@
           "author": "Moreau.henri",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Ch%C3%A2teau_de_Quintin_%28C%C3%B4tes-d%27Armor%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Quintin%20(C%C3%B4tes-d'Armor).jpg",
-          "title": "Château de Quintin (Côtes-d'Armor).jpg",
-          "width": 4000,
-          "height": 3000,
-          "size": 4847104,
-          "timestamp": "2023-07-10T17:44:03Z",
-          "author": "Thérèse Gaigé",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Quintin_-_Ch%C3%A2teau_de_la_Salle-Verte_-_AD22_-_16FI4571.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQuintin%20-%20Ch%C3%A2teau%20de%20la%20Salle-Verte%20-%20AD22%20-%2016FI4571.jpg",
+          "title": "Quintin - Château de la Salle-Verte - AD22 - 16FI4571.jpg",
+          "description": "Le château de la Salle-Verte.",
+          "width": 1642,
+          "height": 1026,
+          "size": 368037,
+          "timestamp": "2021-01-21T20:12:42Z",
+          "author": "<div class=\"fn value\">\nà préciser</div>",
+          "license": "Licence Ouverte",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         }
       ]
     },
@@ -92,30 +98,46 @@
       "label": "Place du Martray",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Grande_Maison%2C_place_du_Martray_%28Quintin%2C_22%29_-_01.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrande%20Maison%2C%20place%20du%20Martray%20(Quintin%2C%2022)%20-%2001.jpg",
-          "title": "Grande Maison, place du Martray (Quintin, 22) - 01.jpg",
-          "width": 4080,
-          "height": 3072,
-          "size": 6416875,
-          "timestamp": "2025-09-28T16:50:49Z",
-          "author": "Thérèse Gaigé",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Quintin_-_Ch%C3%A2teau_-_AD22_-_16FI4596.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQuintin%20-%20Ch%C3%A2teau%20-%20AD22%20-%2016FI4596.jpg",
+          "title": "Quintin - Château - AD22 - 16FI4596.jpg",
+          "description": "Le château.",
+          "width": 1646,
+          "height": 1040,
+          "size": 321359,
+          "timestamp": "2021-01-21T20:14:50Z",
+          "author": "<div class=\"fn value\">\nà préciser</div>",
+          "license": "Licence Ouverte",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/H%C3%B4tel_de_ville_%28Quintin%2C_22%29_-_01.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AH%C3%B4tel%20de%20ville%20(Quintin%2C%2022)%20-%2001.jpg",
-          "title": "Hôtel de ville (Quintin, 22) - 01.jpg",
-          "width": 3264,
-          "height": 2448,
-          "size": 3272229,
-          "timestamp": "2025-09-28T17:04:59Z",
-          "author": "Thérèse Gaigé",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Quintin_-_%C3%89tang_%C3%A9glise_et_ch%C3%A2teau_-_AD22_-_16FI4601.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQuintin%20-%20%C3%89tang%20%C3%A9glise%20et%20ch%C3%A2teau%20-%20AD22%20-%2016FI4601.jpg",
+          "title": "Quintin - Étang église et château - AD22 - 16FI4601.jpg",
+          "description": "L'étang, l'église et le château.",
+          "width": 1676,
+          "height": 1052,
+          "size": 318995,
+          "timestamp": "2021-01-21T20:15:31Z",
+          "author": "<div class=\"fn value\">\nà préciser</div>",
+          "license": "Licence Ouverte",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Quintin_-_%C3%89tang_et_ch%C3%A2teau_-_AD22_-_16FI4615.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQuintin%20-%20%C3%89tang%20et%20ch%C3%A2teau%20-%20AD22%20-%2016FI4615.jpg",
+          "title": "Quintin - Étang et château - AD22 - 16FI4615.jpg",
+          "description": "Etang et château de Quintin.",
+          "width": 1657,
+          "height": 1040,
+          "size": 290232,
+          "timestamp": "2021-01-21T20:17:31Z",
+          "author": "<div class=\"fn value\">\nà préciser</div>",
+          "license": "Licence Ouverte",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
         }
       ]
     },
@@ -123,49 +145,95 @@
       "label": "Église Saint-Pierre",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Loches_%28Indre-et-Loire%29_%2834884152101%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALoches%20(Indre-et-Loire)%20(34884152101).jpg",
-          "title": "Loches (Indre-et-Loire) (34884152101).jpg",
-          "width": 4928,
-          "height": 3264,
-          "size": 7264562,
-          "timestamp": "2017-11-29T08:47:54Z",
-          "author": "Daniel Jolivet",
-          "license": "CC BY 2.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Quintin_-_%C3%89tang_%C3%A9glise_et_ch%C3%A2teau_-_AD22_-_16FI4601.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQuintin%20-%20%C3%89tang%20%C3%A9glise%20et%20ch%C3%A2teau%20-%20AD22%20-%2016FI4601.jpg",
+          "title": "Quintin - Étang église et château - AD22 - 16FI4601.jpg",
+          "description": "L'étang, l'église et le château.",
+          "width": 1676,
+          "height": 1052,
+          "size": 318995,
+          "timestamp": "2021-01-21T20:15:31Z",
+          "author": "<div class=\"fn value\">\nà préciser</div>",
+          "license": "Licence Ouverte",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Ploun%C3%A9vez-Quintin_%2822%29_%C3%89glise_Saint-Pierre_01.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APloun%C3%A9vez-Quintin%20(22)%20%C3%89glise%20Saint-Pierre%2001.JPG",
-          "title": "Plounévez-Quintin (22) Église Saint-Pierre 01.JPG",
-          "width": 2285,
-          "height": 1501,
-          "size": 1132873,
-          "timestamp": "2013-04-24T05:28:38Z",
-          "author": "GO69",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Quintin_-_%C3%89glise_fragment_de_la_ceinture_de_la_vierge_-_AD22_-_16FI4589.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQuintin%20-%20%C3%89glise%20fragment%20de%20la%20ceinture%20de%20la%20vierge%20-%20AD22%20-%2016FI4589.jpg",
+          "title": "Quintin - Église fragment de la ceinture de la vierge - AD22 - 16FI4589.jpg",
+          "description": "Eglise de Quintin - Fragment de la ceinture de la vierge.",
+          "width": 1634,
+          "height": 1060,
+          "size": 380422,
+          "timestamp": "2021-01-21T20:13:42Z",
+          "author": "<div class=\"fn value\">\nà préciser</div>",
+          "license": "Licence Ouverte",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Ploun%C3%A9vez-Quintin_%2822%29_%C3%89glise_Saint-Pierre_03.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APloun%C3%A9vez-Quintin%20(22)%20%C3%89glise%20Saint-Pierre%2003.JPG",
-          "title": "Plounévez-Quintin (22) Église Saint-Pierre 03.JPG",
-          "width": 2372,
-          "height": 1385,
-          "size": 1467718,
-          "timestamp": "2013-04-24T05:28:43Z",
-          "author": "GO69",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Quintin_-_%C3%89glise_-_AD22_-_16FI4604.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQuintin%20-%20%C3%89glise%20-%20AD22%20-%2016FI4604.jpg",
+          "title": "Quintin - Église - AD22 - 16FI4604.jpg",
+          "description": "L'église.",
+          "width": 1676,
+          "height": 1048,
+          "size": 267376,
+          "timestamp": "2021-01-21T20:15:51Z",
+          "author": "<div class=\"fn value\">\nà préciser</div>",
+          "license": "Licence Ouverte",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
         }
       ]
     },
     {
       "label": "Maison du Tisserand",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Maison_du_18%C3%A8me_si%C3%A8cle_%C3%A0_Quintin_01.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison%20du%2018%C3%A8me%20si%C3%A8cle%20%C3%A0%20Quintin%2001.JPG",
+          "title": "Maison du 18ème siècle à Quintin 01.JPG",
+          "description": "Vue de la rue",
+          "width": 4000,
+          "height": 3000,
+          "size": 6281281,
+          "timestamp": "2013-08-06T10:32:29Z",
+          "author": "Crepi22",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Quintin_-_Vieilles_maisons_de_la_rue_Notre-Dame_-_AD22_-_16FI4644.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQuintin%20-%20Vieilles%20maisons%20de%20la%20rue%20Notre-Dame%20-%20AD22%20-%2016FI4644.jpg",
+          "title": "Quintin - Vieilles maisons de la rue Notre-Dame - AD22 - 16FI4644.jpg",
+          "description": "Vieilles maisons de la rue Notre-Dame.",
+          "width": 1653,
+          "height": 1048,
+          "size": 394072,
+          "timestamp": "2021-01-21T20:21:40Z",
+          "author": "<div class=\"fn value\">\nà préciser</div>",
+          "license": "Licence Ouverte",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/006_Malestroit_Tribunal_de_la_seigneurie_de_La_Chapelle-Quintin.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A006%20Malestroit%20Tribunal%20de%20la%20seigneurie%20de%20La%20Chapelle-Quintin.jpg",
+          "title": "006 Malestroit Tribunal de la seigneurie de La Chapelle-Quintin.jpg",
+          "description": "Malestroit : la maison du tribunal de la seigneurie de La Chapelle-Quintin (dite aussi Quintin-à-Malestroit) qui y rendait grande, moyenne et basse justice. Façade Renaissance. Au-dessus de la porte figurent les armoiries mutilées des Quintin : \"un croissant accompagné de huit billettes\".",
+          "width": 3648,
+          "height": 2736,
+          "size": 4865860,
+          "timestamp": "2022-06-01T04:09:59Z",
+          "author": "Moreau.henri",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

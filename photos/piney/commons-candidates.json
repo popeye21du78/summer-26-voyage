@@ -1,12 +1,13 @@
 {
   "slug": "piney",
   "nom": "Piney",
-  "fetchedAt": "2026-03-14T10:49:19.526Z",
+  "fetchedAt": "2026-03-17T22:31:35.379Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Piney_Chapelle_Notre-Dame-des-Ormes.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APiney%20Chapelle%20Notre-Dame-des-Ormes.jpg",
       "title": "Piney Chapelle Notre-Dame-des-Ormes.jpg",
+      "description": "Piney in Frankreich. Die Kirche befindet sich auf dem Friedhof des Ortes.",
       "width": 4928,
       "height": 3264,
       "size": 7673612,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Piney_Halle_R01.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APiney%20Halle%20R01.jpg",
       "title": "Piney Halle R01.jpg",
+      "description": "Piney (Aube department, France): market hall",
       "width": 4540,
       "height": 2997,
       "size": 9866708,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Piney_Mairie_R01.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APiney%20Mairie%20R01.jpg",
       "title": "Piney Mairie R01.jpg",
+      "description": "Piney (Aube department, France): town hall and war memorial",
       "width": 4525,
       "height": 3076,
       "size": 10585847,
@@ -46,7 +49,50 @@
   "lieux": [
     {
       "label": "Halle couverte de Piney",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/2023-07-07_-_Piney_%28_F-10%29_et_sa_halle_en_bois_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2023-07-07%20-%20Piney%20(%20F-10)%20et%20sa%20halle%20en%20bois%2002.jpg",
+          "title": "2023-07-07 - Piney ( F-10) et sa halle en bois 02.jpg",
+          "description": "Piney et sa halle en bois",
+          "width": 4608,
+          "height": 3456,
+          "size": 4028209,
+          "timestamp": "2023-07-07T17:52:06Z",
+          "author": "Paul.schrepfer",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/2023-07-07_-_Piney_%28_F-10%29_et_sa_halle_en_bois_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2023-07-07%20-%20Piney%20(%20F-10)%20et%20sa%20halle%20en%20bois%2001.jpg",
+          "title": "2023-07-07 - Piney ( F-10) et sa halle en bois 01.jpg",
+          "description": "Piney et sa halle en bois",
+          "width": 4608,
+          "height": 3456,
+          "size": 3929674,
+          "timestamp": "2023-07-07T17:52:06Z",
+          "author": "Paul.schrepfer",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/2023-07-07_-_Piney_%28_F-10%29_et_sa_halle_en_bois_03.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2023-07-07%20-%20Piney%20(%20F-10)%20et%20sa%20halle%20en%20bois%2003.jpg",
+          "title": "2023-07-07 - Piney ( F-10) et sa halle en bois 03.jpg",
+          "description": "Piney et sa halle en bois",
+          "width": 4608,
+          "height": 3456,
+          "size": 3684491,
+          "timestamp": "2023-07-07T17:52:06Z",
+          "author": "Paul.schrepfer",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Église Saint-Martin de Piney",
@@ -55,6 +101,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Piney_%C3%A9glise_portails_Fichot_00409.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APiney%20%C3%A9glise%20portails%20Fichot%2000409.jpg",
           "title": "Piney église portails Fichot 00409.jpg",
+          "description": "par un dessin de Fichot.",
           "width": 3360,
           "height": 2205,
           "size": 5024225,
@@ -68,6 +115,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Piney_Eglise1.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APiney%20Eglise1.JPG",
           "title": "Piney Eglise1.JPG",
+          "description": "église paroissiale de Piney (Aube - Champagne - France)",
           "width": 2592,
           "height": 1944,
           "size": 2322479,
@@ -81,6 +129,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Piney_Eglise2.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APiney%20Eglise2.JPG",
           "title": "Piney Eglise2.JPG",
+          "description": "église paroissiale de Piney (Aube - Champagne - France)",
           "width": 2592,
           "height": 1944,
           "size": 2126170,

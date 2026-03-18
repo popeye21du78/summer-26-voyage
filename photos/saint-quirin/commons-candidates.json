@@ -1,38 +1,13 @@
 {
   "slug": "saint-quirin",
   "nom": "Saint-Quirin",
-  "fetchedAt": "2026-03-14T12:12:49.714Z",
+  "fetchedAt": "2026-03-18T18:38:52.761Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/M%C3%A9tairies-Saint-Quirin%2C_Chapelle_Notre-Dame_de_Lhor.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AM%C3%A9tairies-Saint-Quirin%2C%20Chapelle%20Notre-Dame%20de%20Lhor.jpg",
-      "title": "Métairies-Saint-Quirin, Chapelle Notre-Dame de Lhor.jpg",
-      "width": 6490,
-      "height": 5416,
-      "size": 4584791,
-      "timestamp": "2025-05-18T17:21:06Z",
-      "author": "Rauenstein",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Kirchenfenster_Eglise_Sainte_Th%C3%A9r%C3%A8se.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKirchenfenster%20Eglise%20Sainte%20Th%C3%A9r%C3%A8se.jpg",
-      "title": "Kirchenfenster Eglise Sainte Thérèse.jpg",
-      "width": 3468,
-      "height": 4624,
-      "size": 4590440,
-      "timestamp": "2024-06-30T14:58:32Z",
-      "author": "Segundonome",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Saint-Quirin_Prieur%C3%A9.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Quirin%20Prieur%C3%A9.JPG",
       "title": "Saint-Quirin Prieuré.JPG",
+      "description": "Saint-Quirin, comm. du dép. de la Moselle, France (région Lorraine). Prieuré Saint-Quirin, avec son oriel à l'angle des ailes orientale (à droite) et méridionale (à gauche). Dans cette dernière aile: portail sculpté. L'église paroissiale Saint-Quirin (anc. église prieurale), avec ses trois clochers à bulbes, est visible émergeant de derrière la toiture du prieuré et à droite. Remarquer tout à fait à droite, contre un des pans du choeur, la chapelle funéraire (ajoutée dans la 2e moitié du XIXe si",
       "width": 1433,
       "height": 915,
       "size": 661575,
@@ -41,6 +16,34 @@
       "license": "Public domain",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 4
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Saint-Quirin_Haute-Chapelle.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Quirin%20Haute-Chapelle.JPG",
+      "title": "Saint-Quirin Haute-Chapelle.JPG",
+      "description": "Saint-Quirin, dép. Moselle, France: Chapelle-Haute.",
+      "width": 1310,
+      "height": 1175,
+      "size": 315788,
+      "timestamp": "2008-06-29T20:17:25Z",
+      "author": "Torsade de Pointes",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 3
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Eglise_priorale_de_Saint-Quirin_-_panoramio.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20priorale%20de%20Saint-Quirin%20-%20panoramio.jpg",
+      "title": "Eglise priorale de Saint-Quirin - panoramio.jpg",
+      "description": "Eglise priorale de Saint-Quirin",
+      "width": 683,
+      "height": 1024,
+      "size": 456209,
+      "timestamp": "2016-12-10T04:14:50Z",
+      "author": "François Philipp",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 3
     }
   ],
   "lieux": [
@@ -48,17 +51,46 @@
       "label": "Église priorale Saint-Quirin",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Eglise_priorale_de_Saint-Quirin_-_panoramio.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20priorale%20de%20Saint-Quirin%20-%20panoramio.jpg",
-          "title": "Eglise priorale de Saint-Quirin - panoramio.jpg",
-          "width": 683,
-          "height": 1024,
-          "size": 456209,
-          "timestamp": "2016-12-10T04:14:50Z",
-          "author": "François Philipp",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Ah%C3%A9ville%2C_%C3%89glise_Saint-Quirin_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAh%C3%A9ville%2C%20%C3%89glise%20Saint-Quirin%201.jpg",
+          "title": "Ahéville, Église Saint-Quirin 1.jpg",
+          "description": "L'église Saint-Quirin d'Ahéville, côté nord-est",
+          "width": 5339,
+          "height": 3988,
+          "size": 2987142,
+          "timestamp": "2023-02-01T21:18:42Z",
+          "author": "Rauenstein",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 3
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Winseler%2C_Noertrange%2C_%C3%89glise_Saint-Quirin_%28101%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWinseler%2C%20Noertrange%2C%20%C3%89glise%20Saint-Quirin%20(101).jpg",
+          "title": "Winseler, Noertrange, Église Saint-Quirin (101).jpg",
+          "description": "L'Église Saint-Quirin à Noertrange, commune de Winseler",
+          "width": 4032,
+          "height": 2268,
+          "size": 1934679,
+          "timestamp": "2025-12-30T08:17:31Z",
+          "author": "GilPe",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Ah%C3%A9ville%2C_%C3%89glise_Saint-Quirin_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAh%C3%A9ville%2C%20%C3%89glise%20Saint-Quirin%202.jpg",
+          "title": "Ahéville, Église Saint-Quirin 2.jpg",
+          "description": "L'église Saint-Quirin d'Ahéville, côté sud-est",
+          "width": 2068,
+          "height": 3015,
+          "size": 1240914,
+          "timestamp": "2023-02-01T21:32:41Z",
+          "author": "Rauenstein",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
         }
       ]
     },
@@ -66,23 +98,95 @@
       "label": "Chapelle Sainte-Claire",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/St_Quirin_chapelle.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt%20Quirin%20chapelle.JPG",
-          "title": "St Quirin chapelle.JPG",
-          "width": 3000,
-          "height": 4000,
-          "size": 4739213,
-          "timestamp": "2015-06-16T20:09:15Z",
-          "author": "Aimelaime~commonswiki",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/406_Brech_Chapelle_Saint-Quirin.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A406%20Brech%20Chapelle%20Saint-Quirin.jpg",
+          "title": "406 Brech Chapelle Saint-Quirin.jpg",
+          "description": "Chapelle Saint-Quirin de Brech ː vue extérieure d'ensemble.",
+          "width": 3044,
+          "height": 2266,
+          "size": 2108532,
+          "timestamp": "2022-12-04T05:13:07Z",
+          "author": "Moreau.henri",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/408_Chapelle_Saint-Quirin.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A408%20Chapelle%20Saint-Quirin.jpg",
+          "title": "408 Chapelle Saint-Quirin.jpg",
+          "description": "Brech ː le retable de la chapelle Saint-Quirin.",
+          "width": 3072,
+          "height": 2304,
+          "size": 3109606,
+          "timestamp": "2022-12-04T05:16:53Z",
+          "author": "Moreau.henri",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Chapelle_Saint-Quirin_%28Ch%C3%B4des%29_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20Saint-Quirin%20(Ch%C3%B4des)%2001.jpg",
+          "title": "Chapelle Saint-Quirin (Chôdes) 01.jpg",
+          "description": "Chôdes (Malmedy), Chapelle Saint-Quirin von 1816, Südseite",
+          "width": 4452,
+          "height": 3589,
+          "size": 5300424,
+          "timestamp": "2024-10-10T11:43:12Z",
+          "author": "Thomas Hummel",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
         }
       ]
     },
     {
       "label": "Cimetière juif de Saint-Quirin",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Saint-Quirin-Eglise_depuis_le_cimeti%C3%A8re.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Quirin-Eglise%20depuis%20le%20cimeti%C3%A8re.jpg",
+          "title": "Saint-Quirin-Eglise depuis le cimetière.jpg",
+          "description": "Eglise de Saint-Quirin (Moselle), vue depuis le cimetière",
+          "width": 3240,
+          "height": 4320,
+          "size": 3388727,
+          "timestamp": "2013-04-09T07:56:06Z",
+          "author": "Ji-Elle",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Saint-Quirin-Cimeti%C3%A8re_%281%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Quirin-Cimeti%C3%A8re%20(1).jpg",
+          "title": "Saint-Quirin-Cimetière (1).jpg",
+          "description": "Cimetière de Saint-Quirin (Moselle)",
+          "width": 4320,
+          "height": 3240,
+          "size": 5902622,
+          "timestamp": "2013-04-09T07:43:37Z",
+          "author": "Ji-Elle",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Saint-Quirin-Cimeti%C3%A8re_%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Quirin-Cimeti%C3%A8re%20(2).jpg",
+          "title": "Saint-Quirin-Cimetière (2).jpg",
+          "description": "Cimetière de Saint-Quirin (Moselle)",
+          "width": 4320,
+          "height": 3240,
+          "size": 3706785,
+          "timestamp": "2013-04-09T07:43:36Z",
+          "author": "Ji-Elle",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     }
   ]
 }

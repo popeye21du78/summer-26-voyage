@@ -1,12 +1,13 @@
 {
   "slug": "salses-le-chateau",
   "nom": "Salses-le-Château",
-  "fetchedAt": "2026-03-14T12:23:36.425Z",
+  "fetchedAt": "2026-03-18T19:00:21.235Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Carpobrotus_acinaciformis_in_Salses-le-Chateau_%283%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarpobrotus%20acinaciformis%20in%20Salses-le-Chateau%20(3).jpg",
       "title": "Carpobrotus acinaciformis in Salses-le-Chateau (3).jpg",
+      "description": "Carpobrotus acinaciformis in Salses-le-Château, Pyrénées-Orientales, France",
       "width": 3300,
       "height": 2200,
       "size": 9092294,
@@ -14,12 +15,13 @@
       "author": "Krzysztof Golik",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Salses_sentry_box_entrance_and_access.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASalses%20sentry%20box%20entrance%20and%20access.jpg",
       "title": "Salses sentry box entrance and access.jpg",
+      "description": "Sentry box and access to the entrance building of Fort de Salses, Salses-le-Château, Department Pyrénées-Orientales, France.",
       "width": 4795,
       "height": 2410,
       "size": 3033766,
@@ -27,12 +29,13 @@
       "author": "Palauenc05",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Forteresse_de_Salses_%28Salses-le-Ch%C3%A2teau%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AForteresse%20de%20Salses%20(Salses-le-Ch%C3%A2teau).jpg",
       "title": "Forteresse de Salses (Salses-le-Château).jpg",
+      "description": "Forteresse de Salses à Salses-le-Château (Pyrénées-Orientales, France).",
       "width": 3410,
       "height": 2382,
       "size": 452544,
@@ -40,7 +43,7 @@
       "author": "Gzen92",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     }
   ],
   "lieux": [
@@ -50,7 +53,50 @@
     },
     {
       "label": "Chemin de ronde et bastions ronds",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Rempart_et_bastion_Ouest_du_Ch%C3%A2teau_Royal%2C_incluant_la_vue_des_b%C3%A2timents_Nord_au_fond.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARempart%20et%20bastion%20Ouest%20du%20Ch%C3%A2teau%20Royal%2C%20incluant%20la%20vue%20des%20b%C3%A2timents%20Nord%20au%20fond.jpg",
+          "title": "Rempart et bastion Ouest du Château Royal, incluant la vue des bâtiments Nord au fond.jpg",
+          "description": "Le chemin de ronde de l'enceinte Ouest permet d'observer l'architecture militaire du Château Royal, s'apparentant là plus à une forteresse qu'à une résidence princière. Un rapprochement défensif avec la citadelle de Salses se révèle à ce niveau, étant aussi contemporain. Le côté résidentiel se repère avec les bâtiments au nord de l'enceinte, en arrière plan.",
+          "width": 3840,
+          "height": 2880,
+          "size": 2571210,
+          "timestamp": "2021-02-12T16:35:00Z",
+          "author": "Damusmedia",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Ancienne_tombe_Salses-le-Ch%C3%A2teau_2020.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAncienne%20tombe%20Salses-le-Ch%C3%A2teau%202020.jpg",
+          "title": "Ancienne tombe Salses-le-Château 2020.jpg",
+          "description": "Photographie d'une ancienne tombe à Salses-le-Château, sur le chemin de l'étang.",
+          "width": 3000,
+          "height": 1634,
+          "size": 3111820,
+          "timestamp": "2021-05-11T17:45:07Z",
+          "author": "Hoancat",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/19-12-32%2C_d%C3%A9raillement_d%27une_locomotive_%C3%A0_hauteur_de_la_Rigolle_%28i.e._Rigole%29_de_Salses_le_long_de_la_voie_de_Narbonne_%C3%A0_Perpignan_%28d%C3%BB_aux_inondations%29_-_btv1b53263705j.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A19-12-32%2C%20d%C3%A9raillement%20d'une%20locomotive%20%C3%A0%20hauteur%20de%20la%20Rigolle%20(i.e.%20Rigole)%20de%20Salses%20le%20long%20de%20la%20voie%20de%20Narbonne%20%C3%A0%20Perpignan%20(d%C3%BB%20aux%20inondations)%20-%20btv1b53263705j.jpg",
+          "title": "19-12-32, déraillement d'une locomotive à hauteur de la Rigolle (i.e. Rigole) de Salses le long de la voie de Narbonne à Perpignan (dû aux inondations) - btv1b53263705j.jpg",
+          "description": "Sujet : Accidents ferroviaires -- Salses (Pyrénées-Orientales, France)\nSalses (Pyrénées-Orientales, France)\nRéférence bibliographique : Rol, 168872\nAppartient à l’ensemble documentaire : Pho20Rol\nImage de presse\nCouverture : 19 décembre 1932\n\nLangue : français",
+          "width": 8632,
+          "height": 6274,
+          "size": 5287162,
+          "timestamp": "2025-02-26T23:09:38Z",
+          "author": "<div class=\"fn value\">\nAgence Rol. Agence photographique (commanditaire)</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Galeries souterraines",
@@ -58,7 +104,36 @@
     },
     {
       "label": "Remparts sud",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Rempart_et_bastion_Ouest_du_Ch%C3%A2teau_Royal%2C_incluant_la_vue_des_b%C3%A2timents_Nord_au_fond.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARempart%20et%20bastion%20Ouest%20du%20Ch%C3%A2teau%20Royal%2C%20incluant%20la%20vue%20des%20b%C3%A2timents%20Nord%20au%20fond.jpg",
+          "title": "Rempart et bastion Ouest du Château Royal, incluant la vue des bâtiments Nord au fond.jpg",
+          "description": "Le chemin de ronde de l'enceinte Ouest permet d'observer l'architecture militaire du Château Royal, s'apparentant là plus à une forteresse qu'à une résidence princière. Un rapprochement défensif avec la citadelle de Salses se révèle à ce niveau, étant aussi contemporain. Le côté résidentiel se repère avec les bâtiments au nord de l'enceinte, en arrière plan.",
+          "width": 3840,
+          "height": 2880,
+          "size": 2571210,
+          "timestamp": "2021-02-12T16:35:00Z",
+          "author": "Damusmedia",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Salses_rempart_sud_m%C3%A9moire_AP060L03846_AP99L003772.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASalses%20rempart%20sud%20m%C3%A9moire%20AP060L03846%20AP99L003772.jpg",
+          "title": "Salses rempart sud mémoire AP060L03846 AP99L003772.jpg",
+          "description": "Southern rampart and entrance to Fort de Salses, Salses-le-Château in the Department Pyrénées-Orientales, France.",
+          "width": 5867,
+          "height": 3911,
+          "size": 6715732,
+          "timestamp": "2023-06-29T17:42:57Z",
+          "author": "Palauenc05",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     }
   ]
 }

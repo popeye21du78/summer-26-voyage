@@ -1,25 +1,13 @@
 {
   "slug": "andelot-blancheville",
   "nom": "Andelot-Blancheville",
-  "fetchedAt": "2026-03-12T23:44:53.727Z",
+  "fetchedAt": "2026-03-15T15:00:44.601Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Town_hall_of_Rimaucourt_%281%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATown%20hall%20of%20Rimaucourt%20(1).jpg",
-      "title": "Town hall of Rimaucourt (1).jpg",
-      "width": 5455,
-      "height": 3843,
-      "size": 11146969,
-      "timestamp": "2024-04-07T20:04:50Z",
-      "author": "Tournasol7",
-      "license": "CC BY 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Town_hall_of_Andelot-Blancheville_%281%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATown%20hall%20of%20Andelot-Blancheville%20(1).jpg",
       "title": "Town hall of Andelot-Blancheville (1).jpg",
+      "description": "Town hall of Andelot-Blancheville, Haute-Marne, France",
       "width": 3775,
       "height": 3117,
       "size": 7544563,
@@ -30,14 +18,29 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Abbaye_de_Septfontaines_-_le_portail.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20de%20Septfontaines%20-%20le%20portail.jpg",
-      "title": "Abbaye de Septfontaines - le portail.jpg",
-      "width": 4272,
-      "height": 2848,
-      "size": 4787804,
-      "timestamp": "2011-09-20T15:13:40Z",
-      "author": "Aetius520",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/%C3%89glise_Saint-Louvent_d%27Andelot%2C_Collat%C3%A9ral_droit.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-Louvent%20d'Andelot%2C%20Collat%C3%A9ral%20droit.jpg",
+      "title": "Église Saint-Louvent d'Andelot, Collatéral droit.jpg",
+      "description": "Église Saint-Louvent d'Andelot,  (Inscrit, 1925)",
+      "width": 5184,
+      "height": 3456,
+      "size": 9878179,
+      "timestamp": "2013-04-04T19:56:11Z",
+      "author": "Elke Wetzig",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 5
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/%C3%89glise_Saint-Louvent_d%27Andelot_01.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-Louvent%20d'Andelot%2001.jpg",
+      "title": "Église Saint-Louvent d'Andelot 01.jpg",
+      "description": "Église Saint-Louvent d'Andelot,  (Inscrit, 1925)",
+      "width": 4508,
+      "height": 3180,
+      "size": 9429298,
+      "timestamp": "2013-04-04T19:56:10Z",
+      "author": "Elke Wetzig",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 5
@@ -46,11 +49,41 @@
   "lieux": [
     {
       "label": "Église Saint-Étienne",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Blancheville10.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABlancheville10.jpg",
+          "title": "Blancheville10.jpg",
+          "description": "L'église.",
+          "width": 3264,
+          "height": 2448,
+          "size": 5050438,
+          "timestamp": "2017-08-29T10:47:29Z",
+          "author": "René Hourdry",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Lavoir d’Andelot-Blancheville",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Blancheville12.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABlancheville12.jpg",
+          "title": "Blancheville12.jpg",
+          "description": "L'ancien lavoir",
+          "width": 3235,
+          "height": 1864,
+          "size": 3726135,
+          "timestamp": "2017-08-29T10:47:32Z",
+          "author": "René Hourdry",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Pont sur la Marne",

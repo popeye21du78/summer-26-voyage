@@ -1,12 +1,27 @@
 {
   "slug": "rennes",
   "nom": "Rennes",
-  "fetchedAt": "2026-03-14T11:44:08.961Z",
+  "fetchedAt": "2026-03-18T17:29:47.045Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Rennes_-_Rue_Saint-Michel_%28juil_2024%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARennes%20-%20Rue%20Saint-Michel%20(juil%202024).jpg",
+      "title": "Rennes - Rue Saint-Michel (juil 2024).jpg",
+      "description": "Vue de la rue Saint-Michel, à Rennes (France).",
+      "width": 4032,
+      "height": 3024,
+      "size": 4341360,
+      "timestamp": "2024-07-20T08:33:21Z",
+      "author": "Sebleouf",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Street_Rennes_-_Flickr_-_Amanda_Hinault_-_Activit%C3%A9s_Humaines.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStreet%20Rennes%20-%20Flickr%20-%20Amanda%20Hinault%20-%20Activit%C3%A9s%20Humaines.jpg",
       "title": "Street Rennes - Flickr - Amanda Hinault - Activités Humaines.jpg",
+      "description": "Pentax K-1\n\nSigma 85mm F1.4 EX DG HSM",
       "width": 7323,
       "height": 3662,
       "size": 12897281,
@@ -20,23 +35,11 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Rennes_-_rue_Pong%C3%A9rard_20230521-03.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARennes%20-%20rue%20Pong%C3%A9rard%2020230521-03.jpg",
       "title": "Rennes - rue Pongérard 20230521-03.jpg",
+      "description": "Plaque en hommage à Henri-Léon Lebesgue, 4 rue Pongérard à Rennes.",
       "width": 2150,
       "height": 1433,
       "size": 2350848,
       "timestamp": "2023-05-30T20:59:23Z",
-      "author": "Pymouss",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Rennes_-_rue_Rallier_du_Baty_20230521-01.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARennes%20-%20rue%20Rallier%20du%20Baty%2020230521-01.jpg",
-      "title": "Rennes - rue Rallier du Baty 20230521-01.jpg",
-      "width": 1990,
-      "height": 1327,
-      "size": 1563638,
-      "timestamp": "2023-05-30T21:06:33Z",
       "author": "Pymouss",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
@@ -46,7 +49,50 @@
   "lieux": [
     {
       "label": "Mare de la Branchaie",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Jument_bretonne_%C3%A0_l%27%C3%A9comus%C3%A9e_du_pays_de_Rennes_2013.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJument%20bretonne%20%C3%A0%20l'%C3%A9comus%C3%A9e%20du%20pays%20de%20Rennes%202013.jpg",
+          "title": "Jument bretonne à l'écomusée du pays de Rennes 2013.jpg",
+          "description": "Breton mare at the Rennes region ecomuseum in 2013.",
+          "width": 2500,
+          "height": 1663,
+          "size": 3783885,
+          "timestamp": "2021-02-04T19:01:39Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q114008629\" class=\"extiw\" title=\"d:Q114008629\"><span title=\"French photographer\">Alain Amet</span></a></bdi>",
+          "license": "CC BY-SA 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Rennes_-_all%C3%A9e_Marion_du_Faou%C3%ABt_20230409-02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARennes%20-%20all%C3%A9e%20Marion%20du%20Faou%C3%ABt%2020230409-02.jpg",
+          "title": "Rennes - allée Marion du Faouët 20230409-02.jpg",
+          "description": "L'allée Marion du Faouët à Rennes.",
+          "width": 5472,
+          "height": 3648,
+          "size": 2738999,
+          "timestamp": "2023-04-11T20:58:43Z",
+          "author": "Pymouss",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Rennes_-_all%C3%A9e_Marion_du_Faou%C3%ABt_20230409-01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARennes%20-%20all%C3%A9e%20Marion%20du%20Faou%C3%ABt%2020230409-01.jpg",
+          "title": "Rennes - allée Marion du Faouët 20230409-01.jpg",
+          "description": "L'allée Marion du Faouët à Rennes.",
+          "width": 4461,
+          "height": 2974,
+          "size": 1899614,
+          "timestamp": "2023-04-11T20:58:43Z",
+          "author": "Pymouss",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Chêne de la Messe",
@@ -58,7 +104,50 @@
     },
     {
       "label": "Mare des Noës",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Jument_bretonne_%C3%A0_l%27%C3%A9comus%C3%A9e_du_pays_de_Rennes_2013.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJument%20bretonne%20%C3%A0%20l'%C3%A9comus%C3%A9e%20du%20pays%20de%20Rennes%202013.jpg",
+          "title": "Jument bretonne à l'écomusée du pays de Rennes 2013.jpg",
+          "description": "Breton mare at the Rennes region ecomuseum in 2013.",
+          "width": 2500,
+          "height": 1663,
+          "size": 3783885,
+          "timestamp": "2021-02-04T19:01:39Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q114008629\" class=\"extiw\" title=\"d:Q114008629\"><span title=\"French photographer\">Alain Amet</span></a></bdi>",
+          "license": "CC BY-SA 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Rennes_-_all%C3%A9e_Marion_du_Faou%C3%ABt_20230409-02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARennes%20-%20all%C3%A9e%20Marion%20du%20Faou%C3%ABt%2020230409-02.jpg",
+          "title": "Rennes - allée Marion du Faouët 20230409-02.jpg",
+          "description": "L'allée Marion du Faouët à Rennes.",
+          "width": 5472,
+          "height": 3648,
+          "size": 2738999,
+          "timestamp": "2023-04-11T20:58:43Z",
+          "author": "Pymouss",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Rennes_-_all%C3%A9e_Marion_du_Faou%C3%ABt_20230409-01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARennes%20-%20all%C3%A9e%20Marion%20du%20Faou%C3%ABt%2020230409-01.jpg",
+          "title": "Rennes - allée Marion du Faouët 20230409-01.jpg",
+          "description": "L'allée Marion du Faouët à Rennes.",
+          "width": 4461,
+          "height": 2974,
+          "size": 1899614,
+          "timestamp": "2023-04-11T20:58:43Z",
+          "author": "Pymouss",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

@@ -1,44 +1,47 @@
 {
   "slug": "plage-de-la-cote-sauvage",
   "nom": "Plage de la Côté Sauvage",
-  "fetchedAt": "2026-03-14T11:03:10.343Z",
+  "fetchedAt": "2026-03-17T22:58:47.497Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Plage_de_la_Conche_des_Baleines.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlage%20de%20la%20Conche%20des%20Baleines.jpg",
-      "title": "Plage de la Conche des Baleines.jpg",
-      "width": 4160,
-      "height": 3120,
-      "size": 6932101,
-      "timestamp": "2018-07-29T04:13:01Z",
-      "author": "Stedewa",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Citroen_Mehari_01_by-dpc.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACitroen%20Mehari%2001%20by-dpc.jpg",
-      "title": "Citroen Mehari 01 by-dpc.jpg",
-      "width": 3264,
-      "height": 2162,
-      "size": 1774609,
-      "timestamp": "2021-01-23T19:11:50Z",
-      "author": "David Perez",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Un_apr%C3%A8s-midi_sur_la_C%C3%B4te_sauvage.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AUn%20apr%C3%A8s-midi%20sur%20la%20C%C3%B4te%20sauvage.jpg",
+      "title": "Un après-midi sur la Côte sauvage.jpg",
+      "description": "Photographie en noir et blanc d'une plage Congolaise (République du Congo)",
+      "width": 6000,
+      "height": 4000,
+      "size": 4560799,
+      "timestamp": "2020-03-25T19:33:30Z",
+      "author": "Krissima POBA NGOUMA",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/XDA_PA00105165_02.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AXDA%20PA00105165%2002.jpg",
-      "title": "XDA PA00105165 02.jpg",
-      "width": 1806,
-      "height": 1200,
-      "size": 980808,
-      "timestamp": "2021-09-29T19:46:42Z",
-      "author": "Xavier D'ABRIGEON",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Plage_populaire.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlage%20populaire.jpg",
+      "title": "Plage populaire.jpg",
+      "description": "Photographie nous montrant une plage populaire.",
+      "width": 6000,
+      "height": 4000,
+      "size": 4499435,
+      "timestamp": "2020-03-25T19:33:30Z",
+      "author": "Krissima POBA NGOUMA",
       "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Plage_Marbella_%C3%A0_Biarritz_%288640437816%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlage%20Marbella%20%C3%A0%20Biarritz%20(8640437816).jpg",
+      "title": "Plage Marbella à Biarritz (8640437816).jpg",
+      "description": "Belle plage de sable en prolongation de la Côte des Basques. De par son étendue et son caractère sauvage, la plage de Marbella est particulièrement appréciée des surfeurs.",
+      "width": 3648,
+      "height": 2736,
+      "size": 2188514,
+      "timestamp": "2024-03-07T09:42:02Z",
+      "author": "patrick janicek",
+      "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     }
@@ -46,7 +49,36 @@
   "lieux": [
     {
       "label": "Phare des Baleines",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Plage_du_vieux_phare.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlage%20du%20vieux%20phare.jpg",
+          "title": "Plage du vieux phare.jpg",
+          "description": "côte sauvage de la presqu'île d'Arvert",
+          "width": 4320,
+          "height": 3240,
+          "size": 3167049,
+          "timestamp": "2011-10-02T16:47:39Z",
+          "author": "Dimimis",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Coubre_cote_sauv.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACoubre%20cote%20sauv.JPG",
+          "title": "Coubre cote sauv.JPG",
+          "description": "Plage de la Côte Sauvage au phare de la Coubre (17), France",
+          "width": 1600,
+          "height": 1200,
+          "size": 143156,
+          "timestamp": "2009-09-01T12:18:11Z",
+          "author": "Jack ma",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 3
+        }
+      ]
     },
     {
       "label": "Dunes de la Côte Sauvage",

@@ -1,60 +1,164 @@
 {
   "slug": "chateau-de-la-clayette",
   "nom": "Château de La Clayette",
-  "fetchedAt": "2026-03-13T13:07:45.894Z",
+  "fetchedAt": "2026-03-15T21:31:05.215Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/%C3%89glise_St_Joseph_Ch%C3%A2tenay_Dun_1.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20St%20Joseph%20Ch%C3%A2tenay%20Dun%201.jpg",
-      "title": "Église St Joseph Châtenay Dun 1.jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 4440167,
-      "timestamp": "2020-07-10T23:45:46Z",
-      "author": "Chabe01",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Le_Ch%C3%A2teau_de_La_Clayette.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Ch%C3%A2teau%20de%20La%20Clayette.jpg",
+      "title": "Le Château de La Clayette.jpg",
+      "description": "Vue sur le château de La Clayette et son pont-levis depuis la rue de la Promenade",
+      "width": 3952,
+      "height": 2223,
+      "size": 1219314,
+      "timestamp": "2023-01-04T21:38:22Z",
+      "author": "Anthony Baratier",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/%C3%89glise_St_Joseph_Ch%C3%A2tenay_Dun_5.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20St%20Joseph%20Ch%C3%A2tenay%20Dun%205.jpg",
-      "title": "Église St Joseph Châtenay Dun 5.jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 4158364,
-      "timestamp": "2020-07-10T23:45:55Z",
-      "author": "Chabe01",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Le_ch%C3%A2teau_de_La_Clayette.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20ch%C3%A2teau%20de%20La%20Clayette.jpg",
+      "title": "Le château de La Clayette.jpg",
+      "description": "Le château de La Clayette (XIVe – XIXe siècles) vu depuis la rue de la Promenade",
+      "width": 4000,
+      "height": 3000,
+      "size": 2381443,
+      "timestamp": "2023-01-04T21:45:45Z",
+      "author": "Anthony Baratier",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Int%C3%A9rieur_%C3%89glise_St_Joseph_Ch%C3%A2tenay_Dun_2.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AInt%C3%A9rieur%20%C3%89glise%20St%20Joseph%20Ch%C3%A2tenay%20Dun%202.jpg",
-      "title": "Intérieur Église St Joseph Châtenay Dun 2.jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 2515070,
-      "timestamp": "2020-07-10T23:46:10Z",
-      "author": "Chabe01",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Ch%C3%A2teau_de_La_Clayette_%282022%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20La%20Clayette%20(2022).jpg",
+      "title": "Château de La Clayette (2022).jpg",
+      "description": "Le château de La Clayette vu depuis la rive du lac aux dernières heures de l'année 2022",
+      "width": 4000,
+      "height": 3000,
+      "size": 1424542,
+      "timestamp": "2023-01-04T21:53:41Z",
+      "author": "Anthony Baratier",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     }
   ],
   "lieux": [
     {
       "label": "Tour hexagonale",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/%C3%89tang_de_La_Clayette_et_Parc_du_Ch%C3%A2teau.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89tang%20de%20La%20Clayette%20et%20Parc%20du%20Ch%C3%A2teau.jpg",
+          "title": "Étang de La Clayette et Parc du Château.jpg",
+          "description": "Vue depuis la Promenade ː étang de La Clayette et parc du château",
+          "width": 4000,
+          "height": 3000,
+          "size": 2284967,
+          "timestamp": "2023-01-04T21:26:26Z",
+          "author": "Anthony Baratier",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Ch%C3%A2teau_de_La_Clayette_3_-_Tour_de_guet.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20La%20Clayette%203%20-%20Tour%20de%20guet.jpg",
+          "title": "Château de La Clayette 3 - Tour de guet.jpg",
+          "description": "Tour du guet du Château de La Clayette",
+          "width": 3000,
+          "height": 4000,
+          "size": 4153662,
+          "timestamp": "2018-04-10T11:30:22Z",
+          "author": "Laurent Jerry",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Ch%C3%A2teau_de_La_Clayette_4_-_Tour_de_guet.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20La%20Clayette%204%20-%20Tour%20de%20guet.jpg",
+          "title": "Château de La Clayette 4 - Tour de guet.jpg",
+          "description": "Tour du guet du Château de La Clayette",
+          "width": 3000,
+          "height": 4000,
+          "size": 4222393,
+          "timestamp": "2018-04-10T11:30:25Z",
+          "author": "Laurent Jerry",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Pont de pierre sur les douves",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Le_Ch%C3%A2teau_de_La_Clayette.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Ch%C3%A2teau%20de%20La%20Clayette.jpg",
+          "title": "Le Château de La Clayette.jpg",
+          "description": "Vue sur le château de La Clayette et son pont-levis depuis la rue de la Promenade",
+          "width": 3952,
+          "height": 2223,
+          "size": 1219314,
+          "timestamp": "2023-01-04T21:38:22Z",
+          "author": "Anthony Baratier",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Ch%C3%A2teau_de_La_Clayette_-_Vu_depuis_le_pont-levis.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20La%20Clayette%20-%20Vu%20depuis%20le%20pont-levis.jpg",
+          "title": "Château de La Clayette - Vu depuis le pont-levis.jpg",
+          "description": "Le château vu depuis le pont-levis.",
+          "width": 4128,
+          "height": 2322,
+          "size": 2380760,
+          "timestamp": "2017-09-18T19:06:30Z",
+          "author": "Romainbehar",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Ch%C3%A2teau_de_La_Clayette_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20La%20Clayette%202.jpg",
+          "title": "Château de La Clayette 2.jpg",
+          "description": "Statue équine, pont-levis et corps principal du Château de La Clayette",
+          "width": 4000,
+          "height": 3000,
+          "size": 4980224,
+          "timestamp": "2018-04-10T11:30:22Z",
+          "author": "Laurent Jerry",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        }
+      ]
     },
     {
       "label": "Façade principale depuis l’étang",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Ch%C3%A2teau_de_La_Clayette_-_Fa%C3%A7ade_nord-est.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20La%20Clayette%20-%20Fa%C3%A7ade%20nord-est.jpg",
+          "title": "Château de La Clayette - Façade nord-est.jpg",
+          "description": "Façade nord-est.",
+          "width": 2322,
+          "height": 4128,
+          "size": 3734982,
+          "timestamp": "2017-09-18T19:06:01Z",
+          "author": "Romainbehar",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Cour intérieure",

@@ -1,12 +1,13 @@
 {
   "slug": "la-rochefoucauld",
   "nom": "La Rochefoucauld",
-  "fetchedAt": "2026-03-13T15:07:29.708Z",
+  "fetchedAt": "2026-03-16T19:12:31.133Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Ch%C3%A2teau_de_La_Rochefoucauld.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20La%20Rochefoucauld.jpg",
       "title": "Château de La Rochefoucauld.jpg",
+      "description": "Château de La Rochefoucauld",
       "width": 2048,
       "height": 1536,
       "size": 795169,
@@ -14,25 +15,13 @@
       "author": "Hferri",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/GARE_DE_LA_ROCHEFOUCAULD_%2818665555319%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGARE%20DE%20LA%20ROCHEFOUCAULD%20(18665555319).jpg",
-      "title": "GARE DE LA ROCHEFOUCAULD (18665555319).jpg",
-      "width": 3648,
-      "height": 2736,
-      "size": 2199956,
-      "timestamp": "2018-05-18T13:05:01Z",
-      "author": "patrick janicek",
-      "license": "CC BY 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Zuilengalerij_van_Ch%C3%A2teau_Larochefoucauld_Larochefoucault_%28Charente%29_%28titel_op_object%29%2C_RP-F-00-3036.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AZuilengalerij%20van%20Ch%C3%A2teau%20Larochefoucauld%20Larochefoucault%20(Charente)%20(titel%20op%20object)%2C%20RP-F-00-3036.jpg",
       "title": "Zuilengalerij van Château Larochefoucauld Larochefoucault (Charente) (titel op object), RP-F-00-3036.jpg",
+      "description": "IdentificatieTitel(s): Zuilengalerij van Château Larochefoucauld. Larochefoucault (Charente) (titel op object)Objecttype: foto Objectnummer: RP-F-00-3036Opschriften / Merken: nummer, recto: ‘No. 753’naam, recto, gepreegd: ‘MIEUSEMENT PHOTOGRAPHE’naam, recto, gepreegd: ‘MONUMENTS HISTORIQUES’opschrift, verso, handgeschreven: ‘pl 12’naam, verso, gestempeld: ‘KUNSTBOEKHANDEL J. A. G. DE LEUR PHOTOGRAAF - UITGEVER Huigenspark, 40b. DEN HAAG’verzamelaarsmerk, verso, gestempeld: Lugt 3937Vervaardiging",
       "width": 4954,
       "height": 7196,
       "size": 4395774,
@@ -40,25 +29,211 @@
       "author": "Rijksmuseum",
       "license": "CC0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Gezicht_op_de_zijgevel_en_de_toegangsbrug_van_Ch%C3%A2teau_Larochefoucauld_Larouchefoucault_%28Charente%29_Ch%C3%A2teau_%28titel_op_object%29%2C_RP-F-00-3038.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGezicht%20op%20de%20zijgevel%20en%20de%20toegangsbrug%20van%20Ch%C3%A2teau%20Larochefoucauld%20Larouchefoucault%20(Charente)%20Ch%C3%A2teau%20(titel%20op%20object)%2C%20RP-F-00-3038.jpg",
+      "title": "Gezicht op de zijgevel en de toegangsbrug van Château Larochefoucauld Larouchefoucault (Charente) Château (titel op object), RP-F-00-3038.jpg",
+      "description": "IdentificatieTitel(s): Gezicht op de zijgevel en de toegangsbrug van Château Larochefoucauld. Larouchefoucault (Charente) Château (titel op object)Objecttype: foto Objectnummer: RP-F-00-3038Opschriften / Merken: nummer, recto: ‘No. 751’naam, recto, gepreegd: ‘MIEUSEMENT PHOTOGRAPHE’naam, recto, gepreegd: ‘MONUMENTS HISTORIQUES’opschrift, verso, handgeschreven: ‘pl 12’naam, verso, gestempeld: ‘KUNSTBOEKHANDEL J. A. G. DE LEUR PHOTOGRAAF - UITGEVER Huigenspark, 40b. DEN HAAG’verzamelaarsmerk, vers",
+      "width": 4880,
+      "height": 7236,
+      "size": 4534738,
+      "timestamp": "2020-01-14T17:27:19Z",
+      "author": "Rijksmuseum",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
     }
   ],
   "lieux": [
     {
       "label": "Escalier à vis Renaissance",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Ch%C3%A2teau_de_La_Rochefoucauld_-_Escalier_-1.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20La%20Rochefoucauld%20-%20Escalier%20-1.JPG",
+          "title": "Château de La Rochefoucauld - Escalier -1.JPG",
+          "description": "Château de La Rochefoucauld - Aile Sud - Escalier",
+          "width": 2736,
+          "height": 3648,
+          "size": 1602044,
+          "timestamp": "2010-05-16T10:26:11Z",
+          "author": "MOSSOT",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Ch%C3%A2teau_de_La_Rochefoucauld_-_Aile_sud_-_Porte_sur_la_cour_donnant_acc%C3%A8s_au_grand_escalier.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20La%20Rochefoucauld%20-%20Aile%20sud%20-%20Porte%20sur%20la%20cour%20donnant%20acc%C3%A8s%20au%20grand%20escalier.JPG",
+          "title": "Château de La Rochefoucauld - Aile sud - Porte sur la cour donnant accès au grand escalier.JPG",
+          "description": "Château de La Rochefoucauld - Aile sud - Porte sur la cour donnant accès au grand escalier",
+          "width": 2736,
+          "height": 3648,
+          "size": 1841146,
+          "timestamp": "2010-05-16T12:50:06Z",
+          "author": "MOSSOT",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Ch%C3%A2teau_de_La_Rochefoucauld_-_Aile_Sud_-_Escalier_-2.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20La%20Rochefoucauld%20-%20Aile%20Sud%20-%20Escalier%20-2.JPG",
+          "title": "Château de La Rochefoucauld - Aile Sud - Escalier -2.JPG",
+          "description": "Château de La Rochefoucauld - Aile Sud - Escalier",
+          "width": 2736,
+          "height": 3648,
+          "size": 1761434,
+          "timestamp": "2010-05-16T13:21:19Z",
+          "author": "MOSSOT",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Bibliothèque lambrissée",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Fran%C3%A7ois_Flameng._Les_moralistes_de_la_cour_de_Louis_XIV%2C_La_Rochefoucauld%2C_Moli%C3%A8re.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFran%C3%A7ois%20Flameng.%20Les%20moralistes%20de%20la%20cour%20de%20Louis%20XIV%2C%20La%20Rochefoucauld%2C%20Moli%C3%A8re.jpg",
+          "title": "François Flameng. Les moralistes de la cour de Louis XIV, La Rochefoucauld, Molière.jpg",
+          "description": "Carte postale",
+          "width": 2016,
+          "height": 3216,
+          "size": 451448,
+          "timestamp": "2024-03-07T14:32:57Z",
+          "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Les_Boh%C3%A9miens_%21_Paroles_de_Maurice_Trubert%2C_musique_de_la_C.tesse_Gaston_de_La_Rochefoucauld_-_bpt6k313871x_%2801_of_10%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20Boh%C3%A9miens%20!%20Paroles%20de%20Maurice%20Trubert%2C%20musique%20de%20la%20C.tesse%20Gaston%20de%20La%20Rochefoucauld%20-%20bpt6k313871x%20(01%20of%2010).jpg",
+          "title": "Les Bohémiens ! Paroles de Maurice Trubert, musique de la C.tesse Gaston de La Rochefoucauld - bpt6k313871x (01 of 10).jpg",
+          "description": "Trubert, Maurice (1857-1922). Auteur du texte\nÉditeur : H. Heugel (Paris)",
+          "width": 4578,
+          "height": 5787,
+          "size": 1699517,
+          "timestamp": "2025-05-27T17:44:57Z",
+          "author": "<div class=\"fn value\">\nLa Rochefoucauld, Comtesse Gaston de (1824-1904). Compositeur</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Les_Boh%C3%A9miens_%21_Paroles_de_Maurice_Trubert%2C_musique_de_la_C.tesse_Gaston_de_La_Rochefoucauld_-_bpt6k313871x_%2802_of_10%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20Boh%C3%A9miens%20!%20Paroles%20de%20Maurice%20Trubert%2C%20musique%20de%20la%20C.tesse%20Gaston%20de%20La%20Rochefoucauld%20-%20bpt6k313871x%20(02%20of%2010).jpg",
+          "title": "Les Bohémiens ! Paroles de Maurice Trubert, musique de la C.tesse Gaston de La Rochefoucauld - bpt6k313871x (02 of 10).jpg",
+          "description": "Trubert, Maurice (1857-1922). Auteur du texte\nÉditeur : H. Heugel (Paris)",
+          "width": 4578,
+          "height": 5787,
+          "size": 880226,
+          "timestamp": "2025-05-27T17:45:06Z",
+          "author": "<div class=\"fn value\">\nLa Rochefoucauld, Comtesse Gaston de (1824-1904). Compositeur</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Cour d’honneur et galeries",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Ch%C3%A2teau_de_La_Rochefoucauld_-_Aile_du_18%C3%A8me_si%C3%A8cle_-1.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20La%20Rochefoucauld%20-%20Aile%20du%2018%C3%A8me%20si%C3%A8cle%20-1.JPG",
+          "title": "Château de La Rochefoucauld - Aile du 18ème siècle -1.JPG",
+          "description": "Château de La Rochefoucauld - Aile du XIIIe siècle, côté cour",
+          "width": 3648,
+          "height": 2736,
+          "size": 3359497,
+          "timestamp": "2010-05-16T11:57:05Z",
+          "author": "MOSSOT",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/16281-La_Rochefoucauld-en-Angoumois-Sols.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A16281-La%20Rochefoucauld-en-Angoumois-Sols.png",
+          "title": "16281-La Rochefoucauld-en-Angoumois-Sols.png",
+          "description": "Carte des infrastructures et de l’occupation des sols en 2018 de la commune de fr:La Rochefoucauld-en-Angoumois (France).",
+          "width": 3270,
+          "height": 2598,
+          "size": 2968172,
+          "timestamp": "2021-04-15T14:25:30Z",
+          "author": "Roland45",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/16281-La_Rochefoucauld-en-Angoumois-Routes-Hydro.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A16281-La%20Rochefoucauld-en-Angoumois-Routes-Hydro.png",
+          "title": "16281-La Rochefoucauld-en-Angoumois-Routes-Hydro.png",
+          "description": "Carte du réseau hydrographique de la commune de la commune de fr:La Rochefoucauld-en-Angoumois (France).",
+          "width": 3507,
+          "height": 2480,
+          "size": 2704008,
+          "timestamp": "2022-05-23T08:12:38Z",
+          "author": "Roland45",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Donjon et terrasse panoramique",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Ch%C3%A2teau_de_La_Rochefoucauld_-_Aile_du_18%C3%A8me_si%C3%A8cle_-2.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20La%20Rochefoucauld%20-%20Aile%20du%2018%C3%A8me%20si%C3%A8cle%20-2.JPG",
+          "title": "Château de La Rochefoucauld - Aile du 18ème siècle -2.JPG",
+          "description": "Château de La Rochefoucauld - Aile du XVIIIe siècle, à côté du donjon dont la partie occidentale s'est effondrée",
+          "width": 3648,
+          "height": 2736,
+          "size": 2266653,
+          "timestamp": "2010-05-16T12:06:38Z",
+          "author": "MOSSOT",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Ch%C3%A2teau_de_La_Rochefoucauld_Donjon.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20La%20Rochefoucauld%20Donjon.jpg",
+          "title": "Château de La Rochefoucauld Donjon.jpg",
+          "description": "Le donjon, seul vestige du premier château de La Rochefoucauld, construit sur le rocher",
+          "width": 768,
+          "height": 1024,
+          "size": 253379,
+          "timestamp": "2017-10-19T09:54:57Z",
+          "author": "Sébastien",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Le_Ch%C3%A2teau_de_La_Rochefoucauld_en_1973_%289%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Ch%C3%A2teau%20de%20La%20Rochefoucauld%20en%201973%20(9).jpg",
+          "title": "Le Château de La Rochefoucauld en 1973 (9).jpg",
+          "description": "Le sommet de La Tour Carrée (donjon) effondrée. \nLa Rochefoucauld, Charente, France.",
+          "width": 5376,
+          "height": 3591,
+          "size": 1942008,
+          "timestamp": "2014-07-31T11:17:26Z",
+          "author": "Jean-Pierre Bazard <a href=\"//commons.wikimedia.org/wiki/User:Jpbazard\" title=\"User:Jpbazard\">Jpbazard</a>",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     }
   ]
 }

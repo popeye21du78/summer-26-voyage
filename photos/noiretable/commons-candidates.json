@@ -1,25 +1,13 @@
 {
   "slug": "noiretable",
   "nom": "Noirétable",
-  "fetchedAt": "2026-03-13T16:37:22.596Z",
+  "fetchedAt": "2026-03-17T21:53:42.071Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Noir%C3%A9table_-_m%C3%A9diath%C3%A8que_-_bo%C3%AEte_%C3%A0_livres.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANoir%C3%A9table%20-%20m%C3%A9diath%C3%A8que%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
-      "title": "Noirétable - médiathèque - boîte à livres.jpg",
-      "width": 2500,
-      "height": 1882,
-      "size": 452665,
-      "timestamp": "2025-08-10T05:33:58Z",
-      "author": "Marvin Vendeville",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/GareNoiretableBV2016.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGareNoiretableBV2016.JPG",
       "title": "GareNoiretableBV2016.JPG",
+      "description": "Vue du bâtiment voyageurs, façade extérieure donnant sur la place de la Gare?",
       "width": 6000,
       "height": 4000,
       "size": 8060928,
@@ -27,26 +15,84 @@
       "author": "Quoique",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/GareNoir%C3%A9table2016_02.JPG",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGareNoir%C3%A9table2016%2002.JPG",
-      "title": "GareNoirétable2016 02.JPG",
-      "width": 6000,
-      "height": 4000,
-      "size": 8978432,
-      "timestamp": "2016-05-03T07:46:56Z",
-      "author": "Quoique",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Plan_d%27eau_de_la_Roche_de_Noir%C3%A9table_-_juil_2018_%283%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlan%20d'eau%20de%20la%20Roche%20de%20Noir%C3%A9table%20-%20juil%202018%20(3).jpg",
+      "title": "Plan d'eau de la Roche de Noirétable - juil 2018 (3).jpg",
+      "description": "Vue du Plan d'eau de la Roche à Noirétable (Loire, France).",
+      "width": 3767,
+      "height": 2847,
+      "size": 3981192,
+      "timestamp": "2018-07-18T20:14:51Z",
+      "author": "Sebleouf",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Plan_d%27eau_de_la_Roche_de_Noir%C3%A9table_-_juil_2018_%282%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlan%20d'eau%20de%20la%20Roche%20de%20Noir%C3%A9table%20-%20juil%202018%20(2).jpg",
+      "title": "Plan d'eau de la Roche de Noirétable - juil 2018 (2).jpg",
+      "description": "Vue du Plan d'eau de la Roche à Noirétable (Loire, France).",
+      "width": 3610,
+      "height": 2956,
+      "size": 3895206,
+      "timestamp": "2018-07-18T20:14:51Z",
+      "author": "Sebleouf",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
     }
   ],
   "lieux": [
     {
       "label": "Église Saint-Pardoux",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Noir%C3%A9table_-_Sanctuaire_Notre-Dame_de_l%27Hermitage_20210811-01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANoir%C3%A9table%20-%20Sanctuaire%20Notre-Dame%20de%20l'Hermitage%2020210811-01.jpg",
+          "title": "Noirétable - Sanctuaire Notre-Dame de l'Hermitage 20210811-01.jpg",
+          "description": "Sanctuaire Notre-Dame de l'Hermitage à Noirétable.",
+          "width": 5472,
+          "height": 3648,
+          "size": 5913299,
+          "timestamp": "2021-09-12T22:03:14Z",
+          "author": "Pymouss",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Noir%C3%A9table_-_Sanctuaire_Notre-Dame_de_l%27Hermitage_20210811-02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANoir%C3%A9table%20-%20Sanctuaire%20Notre-Dame%20de%20l'Hermitage%2020210811-02.jpg",
+          "title": "Noirétable - Sanctuaire Notre-Dame de l'Hermitage 20210811-02.jpg",
+          "description": "Sanctuaire Notre-Dame de l'Hermitage à Noirétable.",
+          "width": 5472,
+          "height": 3648,
+          "size": 7169827,
+          "timestamp": "2021-09-12T22:03:14Z",
+          "author": "Pymouss",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/%C3%89glise_Noir%C3%A9table_%2842%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Noir%C3%A9table%20(42).jpg",
+          "title": "Église Noirétable (42).jpg",
+          "description": "Eglise de Noirétable (Loire), XVe s. La statue au-dessus du porche représente Saint-Jean Baptiste avec, à ses pieds, l'agneau.",
+          "width": 2736,
+          "height": 3648,
+          "size": 4056416,
+          "timestamp": "2017-02-11T05:55:26Z",
+          "author": "Floraliën Gent",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Halle couverte",

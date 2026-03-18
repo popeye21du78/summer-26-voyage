@@ -1,46 +1,49 @@
 {
   "slug": "rocamadour",
   "nom": "Rocamadour",
-  "fetchedAt": "2026-03-14T11:47:40.571Z",
+  "fetchedAt": "2026-03-18T17:38:36.589Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Rocamadour_AOC.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARocamadour%20AOC.jpg",
-      "title": "Rocamadour AOC.jpg",
-      "width": 2362,
-      "height": 1772,
-      "size": 2026704,
-      "timestamp": "2019-08-17T13:04:59Z",
-      "author": "Myrabella",
-      "license": "CC BY-SA 3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Castle_of_Rocamadour_04.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACastle%20of%20Rocamadour%2004.jpg",
+      "title": "Castle of Rocamadour 04.jpg",
+      "description": "Château de Rocamadour, Lot, France",
+      "width": 6000,
+      "height": 3857,
+      "size": 8852657,
+      "timestamp": "2017-05-22T14:24:58Z",
+      "author": "Krzysztof Golik",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Rocamadour_-_panoramio_-_Colin_W_%283%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARocamadour%20-%20panoramio%20-%20Colin%20W%20(3).jpg",
-      "title": "Rocamadour - panoramio - Colin W (3).jpg",
-      "width": 2048,
-      "height": 1536,
-      "size": 558087,
-      "timestamp": "2016-02-29T05:12:20Z",
-      "author": "Colin W",
-      "license": "CC BY-SA 3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Rocamadour_-_Vue_depuis_la_route_de_la_Cit%C3%A9_-_1.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARocamadour%20-%20Vue%20depuis%20la%20route%20de%20la%20Cit%C3%A9%20-%201.jpg",
+      "title": "Rocamadour - Vue depuis la route de la Cité - 1.jpg",
+      "description": "Rocamadour (Lot, France) - View of medieval town from Cité road",
+      "width": 4416,
+      "height": 5313,
+      "size": 11220606,
+      "timestamp": "2024-12-08T11:45:19Z",
+      "author": "Benjamin Smith",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Rocamadour_-_panoramio_-_Colin_W_%284%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARocamadour%20-%20panoramio%20-%20Colin%20W%20(4).jpg",
-      "title": "Rocamadour - panoramio - Colin W (4).jpg",
-      "width": 2048,
-      "height": 1536,
-      "size": 1292082,
-      "timestamp": "2016-02-29T05:13:17Z",
-      "author": "Colin W",
-      "license": "CC BY-SA 3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Rocamadour_-_Vue_depuis_la_route_de_la_Cit%C3%A9_-_2.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARocamadour%20-%20Vue%20depuis%20la%20route%20de%20la%20Cit%C3%A9%20-%202.jpg",
+      "title": "Rocamadour - Vue depuis la route de la Cité - 2.jpg",
+      "description": "Rocamadour (Lot, France) - View of medieval town from Cité road",
+      "width": 4457,
+      "height": 6679,
+      "size": 15171267,
+      "timestamp": "2024-12-08T11:45:22Z",
+      "author": "Benjamin Smith",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
     }
   ],
   "lieux": [
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Festivalderocamadour2017.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFestivalderocamadour2017.jpg",
           "title": "Festivalderocamadour2017.jpg",
+          "description": "Un concert dans la Basilique Saint-Sauveur de Rocamadour, ici Le Concert Spirituel dirigé par Hervé Niquet",
           "width": 5602,
           "height": 3735,
           "size": 17421557,
@@ -64,6 +68,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Rocamadour_Basilique_Saint_Sauveur.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARocamadour%20Basilique%20Saint%20Sauveur.jpg",
           "title": "Rocamadour Basilique Saint Sauveur.jpg",
+          "description": "Basilique Saint-Sauveur",
           "width": 4608,
           "height": 3456,
           "size": 2226738,
@@ -77,6 +82,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Rocamadour_-_%C3%89glise_Saint-Sauveur_-_2.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARocamadour%20-%20%C3%89glise%20Saint-Sauveur%20-%202.jpg",
           "title": "Rocamadour - Église Saint-Sauveur - 2.jpg",
+          "description": "Rocamadour (Lot, France) - St. Saviour's church - Rear of the nave, with a 2-storey wooden mezzanine and a statue of St. Joseph in the middle",
           "width": 5374,
           "height": 3586,
           "size": 9088786,
@@ -92,43 +98,46 @@
       "label": "Chapelle Notre-Dame (Vierge noire)",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Chapelle_Notre-Dame_de_Rocamadour_-_Vue_%C3%A0_360.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20Notre-Dame%20de%20Rocamadour%20-%20Vue%20%C3%A0%20360.jpg",
-          "title": "Chapelle Notre-Dame de Rocamadour - Vue à 360.jpg",
-          "width": 5376,
-          "height": 2688,
-          "size": 3053114,
-          "timestamp": "2019-12-17T14:44:26Z",
-          "author": "Elfronto",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Chapelle_de_Notre-Dame-de-Rocamadour_%281%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20de%20Notre-Dame-de-Rocamadour%20(1).jpg",
+          "title": "Chapelle de Notre-Dame-de-Rocamadour (1).jpg",
+          "description": "Chapel of Notre-Dame-de-Rocamadour in Camaret-sur-Mer (Finistère, France).",
+          "width": 5472,
+          "height": 3648,
+          "size": 5181481,
+          "timestamp": "2020-09-08T12:55:56Z",
+          "author": "Gzen92",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/La_Vierge_de_Rocamadour_-_01.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Vierge%20de%20Rocamadour%20-%2001.jpg",
-          "title": "La Vierge de Rocamadour - 01.jpg",
-          "width": 3000,
-          "height": 4000,
-          "size": 4509184,
-          "timestamp": "2019-12-03T19:00:31Z",
-          "author": "Thérèse Gaigé",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Chapelle_de_Notre-Dame-de-Rocamadour_%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20de%20Notre-Dame-de-Rocamadour%20(2).jpg",
+          "title": "Chapelle de Notre-Dame-de-Rocamadour (2).jpg",
+          "description": "Chapel of Notre-Dame-de-Rocamadour in Camaret-sur-Mer (Finistère, France).",
+          "width": 5472,
+          "height": 3100,
+          "size": 3664995,
+          "timestamp": "2020-10-08T08:58:07Z",
+          "author": "Gzen92",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/La_Vierge_de_Rocamadour_-_02.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Vierge%20de%20Rocamadour%20-%2002.jpg",
-          "title": "La Vierge de Rocamadour - 02.jpg",
-          "width": 3000,
-          "height": 4000,
-          "size": 5017088,
-          "timestamp": "2019-12-03T19:00:31Z",
-          "author": "Thérèse Gaigé",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Rocamadour_-_Chapelle_Saint-Michel_-_Fresques.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARocamadour%20-%20Chapelle%20Saint-Michel%20-%20Fresques.jpg",
+          "title": "Rocamadour - Chapelle Saint-Michel - Fresques.jpg",
+          "description": "Rocamadour (Lot, France) - St. Michael's chapel - 12th-century frescos of Annunciation and Visitation on the outside wall",
+          "width": 5452,
+          "height": 3638,
+          "size": 9434473,
+          "timestamp": "2024-12-08T18:27:43Z",
+          "author": "Benjamin Smith",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
         }
       ]
     },
@@ -139,6 +148,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Rocamadour_-_Vue_de_l%27Hospitalet.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARocamadour%20-%20Vue%20de%20l'Hospitalet.jpg",
           "title": "Rocamadour - Vue de l'Hospitalet.jpg",
+          "description": "Rocamadour (Lot, France) - View of L'Hospitalet from a viewpoint near the castle : Holy Way above, modern road underneath",
           "width": 6744,
           "height": 4500,
           "size": 17824093,
@@ -146,12 +156,13 @@
           "author": "Benjamin Smith",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Rocamadour_-_Ch%C3%A2teau_de_Rocamadour_02.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARocamadour%20-%20Ch%C3%A2teau%20de%20Rocamadour%2002.jpg",
           "title": "Rocamadour - Château de Rocamadour 02.jpg",
+          "description": "Château de Rocamadour",
           "width": 6000,
           "height": 4000,
           "size": 13217544,
@@ -159,12 +170,13 @@
           "author": "Tylwyth Eldar",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Rocamadour_-_Ch%C3%A2teau_de_Rocamadour_03.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARocamadour%20-%20Ch%C3%A2teau%20de%20Rocamadour%2003.jpg",
           "title": "Rocamadour - Château de Rocamadour 03.jpg",
+          "description": "Château de Rocamadour",
           "width": 6000,
           "height": 4000,
           "size": 12126981,
@@ -172,7 +184,7 @@
           "author": "Tylwyth Eldar",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         }
       ]
     },
@@ -183,6 +195,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Rocamadour.20200313.1.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARocamadour.20200313.1.jpg",
           "title": "Rocamadour.20200313.1.jpg",
+          "description": "Rocamadour vue depuis un belvédère de L'Hospitalet le matin du 13 mars 2020.",
           "width": 3840,
           "height": 2160,
           "size": 3807368,
@@ -190,7 +203,7 @@
           "author": "Vesperal.vertigo",
           "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         }
       ]
     }

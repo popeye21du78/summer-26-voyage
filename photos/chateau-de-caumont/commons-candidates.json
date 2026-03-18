@@ -1,12 +1,13 @@
 {
   "slug": "chateau-de-caumont",
   "nom": "Château de Caumont",
-  "fetchedAt": "2026-03-13T12:45:14.952Z",
+  "fetchedAt": "2026-03-15T21:17:16.417Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Caumont_%2822%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACaumont%20(22).jpg",
       "title": "Caumont (22).jpg",
+      "description": "Château de Caumont, salle voûtée (16ème siècle).",
       "width": 4032,
       "height": 3024,
       "size": 2515628,
@@ -14,12 +15,13 @@
       "author": "Frédéric Neupont",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Caumont_%286%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACaumont%20(6).jpg",
       "title": "Caumont (6).jpg",
+      "description": "Château de Caumont, façade principale dans la cour (16ème siècle).",
       "width": 3956,
       "height": 2920,
       "size": 5537140,
@@ -27,12 +29,13 @@
       "author": "Frédéric Neupont",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Caumont_%2834%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACaumont%20(34).jpg",
       "title": "Caumont (34).jpg",
+      "description": "Le château de Caumont (Gers, 16ème siècle).",
       "width": 4032,
       "height": 3024,
       "size": 3633718,
@@ -40,13 +43,56 @@
       "author": "Frédéric Neupont",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     }
   ],
   "lieux": [
     {
       "label": "Cour intérieure et tours rondes",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Ch%C3%A2teau-Renault_%28Indre-et-Loire%29_%2824473665542%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau-Renault%20(Indre-et-Loire)%20(24473665542).jpg",
+          "title": "Château-Renault (Indre-et-Loire) (24473665542).jpg",
+          "description": "Château-Renault (Indre-et-Loire)\nDonjon de Château-Renault, XIIe siècle.\nDu Moyen-Age à la période classique, le site de Château-Renault passe aux mains de nombreux propriétaires : les comtes de Blois, la famille d’Orléans, les Dunois, les Longueville et la famille de Conti. Le domaine est érigé en marquisat au début du XVIIe siècle, sous la famille Rousselet*, dont le plus illustre représentant a été François-Louis Rousselet, vice-amiral de la marine royale et maréchal de France, et dont les ar",
+          "width": 4928,
+          "height": 3264,
+          "size": 9687738,
+          "timestamp": "2017-11-17T14:42:00Z",
+          "author": "Daniel Jolivet",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Ch%C3%A2teau-Renault_%28Indre-et-Loire%29_%2824581954965%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau-Renault%20(Indre-et-Loire)%20(24581954965).jpg",
+          "title": "Château-Renault (Indre-et-Loire) (24581954965).jpg",
+          "description": "Château-Renault (Indre-et-Loire)\nDonjon de Château-Renault, XIIe siècle.\nDu Moyen-Age à la période classique, le site de Château-Renault passe aux mains de nombreux propriétaires : les comtes de Blois, la famille d’Orléans, les Dunois, les Longueville et la famille de Conti. Le domaine est érigé en marquisat au début du XVIIe siècle, sous la famille Rousselet*, dont le plus illustre représentant a été François-Louis Rousselet, vice-amiral de la marine royale et maréchal de France, et dont les ar",
+          "width": 4928,
+          "height": 3264,
+          "size": 11021438,
+          "timestamp": "2017-11-17T14:42:07Z",
+          "author": "Daniel Jolivet",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Ch%C3%A2teau-Renault_%28Indre-et-Loire%29_%2824581921085%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau-Renault%20(Indre-et-Loire)%20(24581921085).jpg",
+          "title": "Château-Renault (Indre-et-Loire) (24581921085).jpg",
+          "description": "Château-Renault (Indre-et-Loire)\nDonjon de Château-Renault, XIIe siècle.\nDu Moyen-Age à la période classique, le site de Château-Renault passe aux mains de nombreux propriétaires : les comtes de Blois, la famille d’Orléans, les Dunois, les Longueville et la famille de Conti. Le domaine est érigé en marquisat au début du XVIIe siècle, sous la famille Rousselet*, dont le plus illustre représentant a été François-Louis Rousselet, vice-amiral de la marine royale et maréchal de France, et dont les ar",
+          "width": 4928,
+          "height": 3264,
+          "size": 12647715,
+          "timestamp": "2017-11-17T14:42:26Z",
+          "author": "Daniel Jolivet",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        }
+      ]
     },
     {
       "label": "Salon d’apparat",
@@ -59,6 +105,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Ch%C3%A2teau_de_Caumont%2C_fa%C3%A7ade_sud_de_la_partie_XVe_si%C3%A8cle%2C_orangerie.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Caumont%2C%20fa%C3%A7ade%20sud%20de%20la%20partie%20XVe%20si%C3%A8cle%2C%20orangerie.jpg",
           "title": "Château de Caumont, façade sud de la partie XVe siècle, orangerie.jpg",
+          "description": "Château de Caumont",
           "width": 800,
           "height": 600,
           "size": 114322,
@@ -66,13 +113,28 @@
           "author": "Zzabeth",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 3
+          "score": 5
         }
       ]
     },
     {
       "label": "Pigeonnier circulaire",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Ch%C3%A2teau_de_la_Ronce_%C3%A0_Caumont_-_colombier_carr%C3%A9%2C_lanternon_-_btv1b105882649.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20la%20Ronce%20%C3%A0%20Caumont%20-%20colombier%20carr%C3%A9%2C%20lanternon%20-%20btv1b105882649.jpg",
+          "title": "Château de la Ronce à Caumont - colombier carré, lanternon - btv1b105882649.jpg",
+          "description": "Sujet : Pigeonniers\nCaumont (Eure, France)\nDonateur : Manneville, Philippe (1937-2012). Donateur\nDonateur : Manneville, Philippe (1937-2012)\nAppartient à l’ensemble documentaire : BmLHav000\n\nLangue : sans contenu linguistique",
+          "width": 2046,
+          "height": 3125,
+          "size": 530747,
+          "timestamp": "2025-03-10T19:51:15Z",
+          "author": "<div class=\"fn value\">\nMaillard, Marcel (1899-1977). Photographe. Ancien possesseur</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

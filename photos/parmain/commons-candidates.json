@@ -1,12 +1,13 @@
 {
   "slug": "parmain",
   "nom": "Parmain",
-  "fetchedAt": "2026-03-13T16:46:30.162Z",
+  "fetchedAt": "2026-03-17T22:15:20.526Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Z50000_%C3%A0_L%27Isle-Adam_-_Parmain.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AZ50000%20%C3%A0%20L'Isle-Adam%20-%20Parmain.JPG",
       "title": "Z50000 à L'Isle-Adam - Parmain.JPG",
+      "description": "Un élément Z50000 quitte la gare de L'Isle-Adam - Parmain en direction de Paris-Nord",
       "width": 3264,
       "height": 2448,
       "size": 1938468,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Z50000_34H_%C3%A0_L%27Isle-Adam_-_Parmain.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AZ50000%2034H%20%C3%A0%20L'Isle-Adam%20-%20Parmain.JPG",
       "title": "Z50000 34H à L'Isle-Adam - Parmain.JPG",
+      "description": "Le train AVOP0C 124646 de Persan - Beaumont à Paris-Nord est assuré par la Z 50067/68 (34H), il arrive en gare de L'Isle-Adam - Parmain.",
       "width": 3264,
       "height": 2448,
       "size": 2599481,
@@ -30,15 +32,16 @@
       "score": 6
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Infogare_LCD_et_borne_automatique_%C3%A0_L%27Isle-Adam_-_Parmain.JPG",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AInfogare%20LCD%20et%20borne%20automatique%20%C3%A0%20L'Isle-Adam%20-%20Parmain.JPG",
-      "title": "Infogare LCD et borne automatique à L'Isle-Adam - Parmain.JPG",
-      "width": 3264,
-      "height": 2448,
-      "size": 2493251,
-      "timestamp": "2015-02-05T12:01:08Z",
-      "author": "Trainsandstations",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Parmain_%2895%29%2C_%C3%A9glise_Saint-Denis_de_Jouy-le-Comte%2C_fa%C3%A7ade_ouest%2C_rue_du_mar%C3%A9chal_Joffre.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParmain%20(95)%2C%20%C3%A9glise%20Saint-Denis%20de%20Jouy-le-Comte%2C%20fa%C3%A7ade%20ouest%2C%20rue%20du%20mar%C3%A9chal%20Joffre.jpg",
+      "title": "Parmain (95), église Saint-Denis de Jouy-le-Comte, façade ouest, rue du maréchal Joffre.jpg",
+      "description": "Vue depuis l'ouest.",
+      "width": 2748,
+      "height": 3664,
+      "size": 2320567,
+      "timestamp": "2012-08-25T13:02:48Z",
+      "author": "P.poschadel",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 6
     }
@@ -48,41 +51,44 @@
       "label": "Église Saint-Denis",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Parmain_%2895%29%2C_%C3%A9glise_Saint-Denis_de_Jouy-le-Comte%2C_fa%C3%A7ade_ouest%2C_rue_du_mar%C3%A9chal_Joffre.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParmain%20(95)%2C%20%C3%A9glise%20Saint-Denis%20de%20Jouy-le-Comte%2C%20fa%C3%A7ade%20ouest%2C%20rue%20du%20mar%C3%A9chal%20Joffre.jpg",
+          "title": "Parmain (95), église Saint-Denis de Jouy-le-Comte, façade ouest, rue du maréchal Joffre.jpg",
+          "description": "Vue depuis l'ouest.",
+          "width": 2748,
+          "height": 3664,
+          "size": 2320567,
+          "timestamp": "2012-08-25T13:02:48Z",
+          "author": "P.poschadel",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Parmain_%2895%29%2C_%C3%A9glise_Saint-Denis_de_Jouy-le-Comte%2C_fa%C3%A7ade_ouest%2C_rue_du_mar%C3%A9chal_Joffre_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParmain%20(95)%2C%20%C3%A9glise%20Saint-Denis%20de%20Jouy-le-Comte%2C%20fa%C3%A7ade%20ouest%2C%20rue%20du%20mar%C3%A9chal%20Joffre%202.jpg",
+          "title": "Parmain (95), église Saint-Denis de Jouy-le-Comte, façade ouest, rue du maréchal Joffre 2.jpg",
+          "description": "Vue depuis l'ouest.",
+          "width": 2748,
+          "height": 3664,
+          "size": 2318470,
+          "timestamp": "2012-08-25T13:03:46Z",
+          "author": "P.poschadel",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Parmain_%2895%29%2C_%C3%A9glise_Saint-Denis_de_Jouy-le-Comte%2C_plaque%2C_rue_du_mar%C3%A9chal_Joffre.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParmain%20(95)%2C%20%C3%A9glise%20Saint-Denis%20de%20Jouy-le-Comte%2C%20plaque%2C%20rue%20du%20mar%C3%A9chal%20Joffre.jpg",
           "title": "Parmain (95), église Saint-Denis de Jouy-le-Comte, plaque, rue du maréchal Joffre.jpg",
+          "description": "Plaque d'information sur l'histoire de l'église.",
           "width": 3664,
           "height": 2748,
           "size": 1785645,
           "timestamp": "2012-08-25T13:07:05Z",
           "author": "P.poschadel",
           "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Parmain_%2895%29%2C_%C3%A9glise_Saint-Denis_de_Jouy-le-Comte%2C_chapelle_orient%C3%A9e_nord%2C_vo%C3%BBte.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParmain%20(95)%2C%20%C3%A9glise%20Saint-Denis%20de%20Jouy-le-Comte%2C%20chapelle%20orient%C3%A9e%20nord%2C%20vo%C3%BBte.JPG",
-          "title": "Parmain (95), église Saint-Denis de Jouy-le-Comte, chapelle orientée nord, voûte.JPG",
-          "width": 3648,
-          "height": 2736,
-          "size": 504173,
-          "timestamp": "2014-08-24T20:28:01Z",
-          "author": "Pierre Poschadel",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Parmain_%2895%29%2C_%C3%A9glise_Saint-Denis_de_Jouy-le-Comte%2C_ch%C5%93ur%2C_2e_trav%C3%A9e%2C_arcade_c%C3%B4t%C3%A9_nord.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParmain%20(95)%2C%20%C3%A9glise%20Saint-Denis%20de%20Jouy-le-Comte%2C%20ch%C5%93ur%2C%202e%20trav%C3%A9e%2C%20arcade%20c%C3%B4t%C3%A9%20nord.JPG",
-          "title": "Parmain (95), église Saint-Denis de Jouy-le-Comte, chœur, 2e travée, arcade côté nord.JPG",
-          "width": 3648,
-          "height": 2736,
-          "size": 3532296,
-          "timestamp": "2014-08-24T20:28:07Z",
-          "author": "Pierre Poschadel",
-          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 5
         }
@@ -90,45 +96,77 @@
     },
     {
       "label": "Pont sur l’Oise",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Parmain_%2895%29%2C_jardin_de_la_mairie_3.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParmain%20(95)%2C%20jardin%20de%20la%20mairie%203.jpg",
+          "title": "Parmain (95), jardin de la mairie 3.jpg",
+          "description": "Pont dans le jardin de la mairie.",
+          "width": 3648,
+          "height": 2736,
+          "size": 1888550,
+          "timestamp": "2013-06-06T18:16:19Z",
+          "author": "P.poschadel",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Campagne_de_1914_-_Le_pont_de_Parmain_detruit_par_le_Genie_francais.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACampagne%20de%201914%20-%20Le%20pont%20de%20Parmain%20detruit%20par%20le%20Genie%20francais.jpg",
+          "title": "Campagne de 1914 - Le pont de Parmain detruit par le Genie francais.jpg",
+          "description": "",
+          "width": 750,
+          "height": 473,
+          "size": 203131,
+          "timestamp": "2007-09-11T06:21:03Z",
+          "author": "Inconnu",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 2
+        }
+      ]
     },
     {
       "label": "Rue de l’Église",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Parmain_%2895%29%2C_%C3%A9glise_Saint-Denis_de_Jouy-le-Comte%2C_fa%C3%A7ade_ouest%2C_rue_du_mar%C3%A9chal_Joffre.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParmain%20(95)%2C%20%C3%A9glise%20Saint-Denis%20de%20Jouy-le-Comte%2C%20fa%C3%A7ade%20ouest%2C%20rue%20du%20mar%C3%A9chal%20Joffre.jpg",
+          "title": "Parmain (95), église Saint-Denis de Jouy-le-Comte, façade ouest, rue du maréchal Joffre.jpg",
+          "description": "Vue depuis l'ouest.",
+          "width": 2748,
+          "height": 3664,
+          "size": 2320567,
+          "timestamp": "2012-08-25T13:02:48Z",
+          "author": "P.poschadel",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Parmain_%2895%29%2C_%C3%A9glise_Saint-Denis_de_Jouy-le-Comte%2C_fa%C3%A7ade_ouest%2C_rue_du_mar%C3%A9chal_Joffre_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParmain%20(95)%2C%20%C3%A9glise%20Saint-Denis%20de%20Jouy-le-Comte%2C%20fa%C3%A7ade%20ouest%2C%20rue%20du%20mar%C3%A9chal%20Joffre%202.jpg",
+          "title": "Parmain (95), église Saint-Denis de Jouy-le-Comte, façade ouest, rue du maréchal Joffre 2.jpg",
+          "description": "Vue depuis l'ouest.",
+          "width": 2748,
+          "height": 3664,
+          "size": 2318470,
+          "timestamp": "2012-08-25T13:03:46Z",
+          "author": "P.poschadel",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Parmain_%2895%29%2C_%C3%A9glise_Saint-Denis_de_Jouy-le-Comte%2C_plaque%2C_rue_du_mar%C3%A9chal_Joffre.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParmain%20(95)%2C%20%C3%A9glise%20Saint-Denis%20de%20Jouy-le-Comte%2C%20plaque%2C%20rue%20du%20mar%C3%A9chal%20Joffre.jpg",
           "title": "Parmain (95), église Saint-Denis de Jouy-le-Comte, plaque, rue du maréchal Joffre.jpg",
+          "description": "Plaque d'information sur l'histoire de l'église.",
           "width": 3664,
           "height": 2748,
           "size": 1785645,
           "timestamp": "2012-08-25T13:07:05Z",
-          "author": "P.poschadel",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Parmain_%2895%29%2C_lavoir_de_Jouy-le-Comte%2C_rue_du_mar%C3%A9chal_Joffre_%28impasse_depuis_la%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParmain%20(95)%2C%20lavoir%20de%20Jouy-le-Comte%2C%20rue%20du%20mar%C3%A9chal%20Joffre%20(impasse%20depuis%20la).jpg",
-          "title": "Parmain (95), lavoir de Jouy-le-Comte, rue du maréchal Joffre (impasse depuis la).jpg",
-          "width": 3664,
-          "height": 2748,
-          "size": 2838445,
-          "timestamp": "2012-08-25T13:13:27Z",
-          "author": "P.poschadel",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Parmain_%2895%29%2C_lavoir_de_Jouy-le-Comte%2C_rue_du_mar%C3%A9chal_Joffre_%28impasse_depuis_la%29_2.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParmain%20(95)%2C%20lavoir%20de%20Jouy-le-Comte%2C%20rue%20du%20mar%C3%A9chal%20Joffre%20(impasse%20depuis%20la)%202.jpg",
-          "title": "Parmain (95), lavoir de Jouy-le-Comte, rue du maréchal Joffre (impasse depuis la) 2.jpg",
-          "width": 3664,
-          "height": 2748,
-          "size": 1986219,
-          "timestamp": "2012-08-25T13:14:21Z",
           "author": "P.poschadel",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -138,7 +176,36 @@
     },
     {
       "label": "Villa Sainte-Geneviève",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Parmain_%2895%29%2C_rue_du_mar%C3%A9chal_Foch.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParmain%20(95)%2C%20rue%20du%20mar%C3%A9chal%20Foch.jpg",
+          "title": "Parmain (95), rue du maréchal Foch.jpg",
+          "description": "Une villa, rue du maréchal Foch.",
+          "width": 3664,
+          "height": 2748,
+          "size": 1656434,
+          "timestamp": "2012-08-25T13:19:31Z",
+          "author": "P.poschadel",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Parmain_%2895%29%2C_rue_du_mar%C3%A9chal_Foch_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParmain%20(95)%2C%20rue%20du%20mar%C3%A9chal%20Foch%2002.jpg",
+          "title": "Parmain (95), rue du maréchal Foch 02.jpg",
+          "description": "Une villa, rue du maréchal Foch.",
+          "width": 2748,
+          "height": 3664,
+          "size": 2124480,
+          "timestamp": "2012-08-25T13:20:25Z",
+          "author": "P.poschadel",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     }
   ]
 }

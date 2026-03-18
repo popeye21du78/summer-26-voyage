@@ -1,52 +1,98 @@
 {
   "slug": "chateau-de-dourdan",
   "nom": "Château de Dourdan",
-  "fetchedAt": "2026-03-13T13:04:24.879Z",
+  "fetchedAt": "2026-03-15T21:25:31.365Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Evry-Courcouronnes_-_2021-09-14_-_IMG_8970.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEvry-Courcouronnes%20-%202021-09-14%20-%20IMG%208970.jpg",
-      "title": "Evry-Courcouronnes - 2021-09-14 - IMG 8970.jpg",
-      "width": 3058,
-      "height": 2294,
-      "size": 4785204,
-      "timestamp": "2021-10-26T16:46:28Z",
-      "author": "Poudou99",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Ch%C3%A2teau_de_Dourdan_en_2013_01.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Dourdan%20en%202013%2001.jpg",
+      "title": "Château de Dourdan en 2013 01.jpg",
+      "description": "Castle of Dourdan, France",
+      "width": 5184,
+      "height": 3456,
+      "size": 7779765,
+      "timestamp": "2013-09-20T10:54:12Z",
+      "author": "Lionel Allorge",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 5
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Evry-Courcouronnes_-_2021-09-14_%288962%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEvry-Courcouronnes%20-%202021-09-14%20(8962).jpg",
-      "title": "Evry-Courcouronnes - 2021-09-14 (8962).jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 7563797,
-      "timestamp": "2022-11-29T01:09:08Z",
-      "author": "poudou99",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Ch%C3%A2teau_de_Dourdan_en_2013_02.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Dourdan%20en%202013%2002.jpg",
+      "title": "Château de Dourdan en 2013 02.jpg",
+      "description": "Castle of Dourdan, France",
+      "width": 5184,
+      "height": 3456,
+      "size": 8101357,
+      "timestamp": "2013-09-20T10:55:35Z",
+      "author": "Lionel Allorge",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 5
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Evry-Courcouronnes_-_2021-09-14_%288988%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEvry-Courcouronnes%20-%202021-09-14%20(8988).jpg",
-      "title": "Evry-Courcouronnes - 2021-09-14 (8988).jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 8927667,
-      "timestamp": "2022-11-29T01:09:20Z",
-      "author": "poudou99",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Ch%C3%A2teau_de_Dourdan_en_2013_03.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Dourdan%20en%202013%2003.jpg",
+      "title": "Château de Dourdan en 2013 03.jpg",
+      "description": "Castle of Dourdan, France",
+      "width": 5184,
+      "height": 3456,
+      "size": 5880597,
+      "timestamp": "2013-09-20T10:56:37Z",
+      "author": "Lionel Allorge",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 5
     }
   ],
   "lieux": [
     {
       "label": "Tour maîtresse (donjon carré)",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Foug%C3%A8res_%28Ille-et-Vilaine%29._-_Ch%C3%A2teau.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFoug%C3%A8res%20(Ille-et-Vilaine).%20-%20Ch%C3%A2teau.jpg",
+          "title": "Fougères (Ille-et-Vilaine). - Château.jpg",
+          "description": "Fougères (Ille-et-Vilaine)\nLe château médiéval de Fougères (XIIe XVe siècles).\nSituée au coeur des Marches de Bretagne, c'est l'une des plus grande forteresse d'Europe. \nAu Xe siècle, les vikings s'installent.\nAu XIe siècle, une première motte féodale en bois, assise sur un promontoire rocheux entouré de marécages, assure la défense du carrefour entre le Maine, l'Anjou, la Normandie et la Bretagne. Ce premier château* fort appartient à la famille de Fougères. En 1066, le seigneur de Fougères* pa",
+          "width": 4928,
+          "height": 3278,
+          "size": 12913079,
+          "timestamp": "2021-11-29T16:53:22Z",
+          "author": "Daniel Jolivet",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Foug%C3%A8res_%28Ille-et-Vilaine%29_et_son_ch%C3%A2teau.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFoug%C3%A8res%20(Ille-et-Vilaine)%20et%20son%20ch%C3%A2teau.jpg",
+          "title": "Fougères (Ille-et-Vilaine) et son château.jpg",
+          "description": "Fougères (Ille-et-Vilaine)\nL’entrée du château.\nElle est composée de trois tours. La tour carrée dite de La-Haye-Saint-Hilaire date de la fin du XIIe siècle. De part et d’autre de la tour carrée, deux tours circulaires ajoutées au XIIIe siècle; la tour de Guémadeuc à droite, et la tour du Hallay à gauche. \nLe château médiéval de Fougères (XIIe XVe siècles).\nSituée au coeur des Marches de Bretagne, c'est l'une des plus grande forteresse d'Europe. \nAu Xe siècle, les vikings s'installent.\nAu XIe si",
+          "width": 4759,
+          "height": 3264,
+          "size": 6792031,
+          "timestamp": "2021-11-29T16:53:22Z",
+          "author": "Daniel Jolivet",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Dourdan_%2891%29%2C_%C3%A9glise_St-Germain%2C_vue_la_tour_sud-est_du_ch%C3%A2teau.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADourdan%20(91)%2C%20%C3%A9glise%20St-Germain%2C%20vue%20la%20tour%20sud-est%20du%20ch%C3%A2teau.jpg",
+          "title": "Dourdan (91), église St-Germain, vue la tour sud-est du château.jpg",
+          "description": "Vue depuis la tour sud-est du château.",
+          "width": 2736,
+          "height": 3648,
+          "size": 1738675,
+          "timestamp": "2013-08-26T10:01:36Z",
+          "author": "P.poschadel",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Chemin de ronde",
@@ -54,11 +100,41 @@
     },
     {
       "label": "Douves et parc",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Dourdan_-_douves.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADourdan%20-%20douves.JPG",
+          "title": "Dourdan - douves.JPG",
+          "description": "Château de Dourdan",
+          "width": 3072,
+          "height": 4608,
+          "size": 3919722,
+          "timestamp": "2014-09-04T04:25:19Z",
+          "author": "Marianne Casamance",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Logis seigneurial (salles voûtées)",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Dourdan_%2891%29%2C_ch%C3%A2teau%2C_logis_neuf.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADourdan%20(91)%2C%20ch%C3%A2teau%2C%20logis%20neuf.JPG",
+          "title": "Dourdan (91), château, logis neuf.JPG",
+          "description": "Logis neuf, côté cour. Il héberge le musée de Dourdan.",
+          "width": 3648,
+          "height": 2736,
+          "size": 1746126,
+          "timestamp": "2013-08-26T11:28:03Z",
+          "author": "P.poschadel",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     }
   ]
 }

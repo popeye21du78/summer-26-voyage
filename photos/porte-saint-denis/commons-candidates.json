@@ -1,46 +1,49 @@
 {
   "slug": "porte-saint-denis",
   "nom": "Porte Saint-Denis",
-  "fetchedAt": "2026-03-13T01:46:35.972Z",
+  "fetchedAt": "2026-03-18T17:06:54.998Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Cath%C3%A9drale_Notre_Dame_-_Paris_IV_%28FR75%29_-_2025-03-01_-_6.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale%20Notre%20Dame%20-%20Paris%20IV%20(FR75)%20-%202025-03-01%20-%206.jpg",
-      "title": "Cathédrale Notre Dame - Paris IV (FR75) - 2025-03-01 - 6.jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 4198901,
-      "timestamp": "2025-03-01T16:52:26Z",
-      "author": "Chabe01",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Porte_Saint-Denis%2C_D.10209.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APorte%20Saint-Denis%2C%20D.10209.jpg",
+      "title": "Porte Saint-Denis, D.10209.jpg",
+      "description": "Auteur(s):\n\nAvero, dessinateur\n\n\nType(s) d'objet(s):\n\nDessin, Arts graphiques\n\n\nDénomination(s):\n\nDessin\n\n\nMatériaux et techniques:\n\nAquarelle\n\n\nDimensions - Oeuvre:\n\n\n   Hauteur : 32 cm\n   Largeur : 54.1 cm\n\n\n\nDimensions - Montage du musée:\n\n\n   Hauteur : 46.7 cm\n   Largeur : 62.7 cm\n\nDimensions - Passe-partout du musée:\n\n   Hauteur : 50 cm\n   Largeur : 65 cm\n\n\n\nDescription:\n\n\nVue de la Porte Saint-Denis\n\n\n\nMarques, inscriptions, poinçons:\n\nSignature de l'exécutant - Au recto, en bas à droite :",
+      "width": 5163,
+      "height": 3044,
+      "size": 1227563,
+      "timestamp": "2023-04-25T17:30:02Z",
+      "author": "Avero, dessinateur",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Porte_Saint-Denis_01.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APorte%20Saint-Denis%2001.jpg",
+      "title": "Porte Saint-Denis 01.jpg",
+      "description": "Porte Saint-Denis in Paris, from the South.",
+      "width": 4900,
+      "height": 3675,
+      "size": 19751097,
+      "timestamp": "2011-09-17T15:37:19Z",
+      "author": "<p><a href=\"//commons.wikimedia.org/wiki/User:Coyau\" title=\"User:Coyau\">Coyau</a>\n</p>",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Parvis_Notre_Dame_Place_Jean_Paul_II_-_Paris_IV_%28FR75%29_-_2025-03-01_-_1.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParvis%20Notre%20Dame%20Place%20Jean%20Paul%20II%20-%20Paris%20IV%20(FR75)%20-%202025-03-01%20-%201.jpg",
-      "title": "Parvis Notre Dame Place Jean Paul II - Paris IV (FR75) - 2025-03-01 - 1.jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 2709295,
-      "timestamp": "2025-03-01T16:55:35Z",
-      "author": "Chabe01",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Porte_Saint-Denis_02.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APorte%20Saint-Denis%2002.jpg",
+      "title": "Porte Saint-Denis 02.jpg",
+      "description": "Porte Saint-Denis, Paris. Face ouest, vue depuis le boulevard de Bonne-Nouvelle.",
+      "width": 3456,
+      "height": 2304,
+      "size": 9568273,
+      "timestamp": "2011-09-16T01:15:25Z",
+      "author": "<p><a href=\"//commons.wikimedia.org/wiki/User:Coyau\" title=\"User:Coyau\">Coyau</a>\n</p>",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Cath%C3%A9drale_Notre-Dame_de_Paris_-_panoramio_%283%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale%20Notre-Dame%20de%20Paris%20-%20panoramio%20(3).jpg",
-      "title": "Cathédrale Notre-Dame de Paris - panoramio (3).jpg",
-      "width": 4288,
-      "height": 3216,
-      "size": 2983423,
-      "timestamp": "2017-01-21T07:12:44Z",
-      "author": "Mister No",
-      "license": "CC BY 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
     }
   ],
   "lieux": [
@@ -48,65 +51,255 @@
       "label": "Porte Saint-Denis",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Porte_Saint-Denis%2C_Paris.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APorte%20Saint-Denis%2C%20Paris.jpg",
-          "title": "Porte Saint-Denis, Paris.jpg",
-          "width": 3585,
-          "height": 2793,
-          "size": 2212654,
-          "timestamp": "2023-12-12T22:47:45Z",
-          "author": "Gerda Arendt",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Vue_d%27une_des_portes_de_la_ville_de_Saint-Denis_du_c%C3%B4t%C3%A9_de_Paris._G.5142.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20d'une%20des%20portes%20de%20la%20ville%20de%20Saint-Denis%20du%20c%C3%B4t%C3%A9%20de%20Paris.%20G.5142.jpg",
+          "title": "Vue d'une des portes de la ville de Saint-Denis du côté de Paris. G.5142.jpg",
+          "description": "Auteur(s):\n\nSilvestre, Israël (Nancy, 03–08–1621 - Paris, 11–10–1691), graveur\nHenriet, Israël (Nancy, 1590 - Paris, 1661), editeur\n\n\n\nDate de production:\n\nEntre 1650 et 1660\nDatation en siècle: \n17e siècle\n\n\n\nType(s) d'objet(s):\n\nEstampe, Arts graphiques\n\n\nDénomination(s):\n\nEstampe\nLieu(x) d'exécution / réalisation: \nParis\n\n\n\nDimensions - Oeuvre:\n\n\n   Hauteur : 7.5 cm\n   Largeur : 12.2 cm\n\n\n\nDimensions - Montage du musée:\n\n\n   Hauteur : 32.5 cm\n   Largeur : 50 cm\n\n\n\nDescription:\n\n\n1er état\n\n\n\nM",
+          "width": 4866,
+          "height": 3070,
+          "size": 3986966,
+          "timestamp": "2023-06-19T18:56:04Z",
+          "author": "Silvestre, Israël (Nancy, 03–08–1621 - Paris, 11–10–1691), graveur",
           "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Pigeons_under_Porte_Saint-Denis%2C_Paris.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APigeons%20under%20Porte%20Saint-Denis%2C%20Paris.jpg",
-          "title": "Pigeons under Porte Saint-Denis, Paris.jpg",
-          "width": 3893,
-          "height": 2920,
-          "size": 4099738,
-          "timestamp": "2023-12-12T22:53:19Z",
-          "author": "Gerda Arendt",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Vue_d%27une_des_portes_de_la_ville_de_Saint-Denis_du_c%C3%B4t%C3%A9_de_Paris._G.5142%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20d'une%20des%20portes%20de%20la%20ville%20de%20Saint-Denis%20du%20c%C3%B4t%C3%A9%20de%20Paris.%20G.5142(2).jpg",
+          "title": "Vue d'une des portes de la ville de Saint-Denis du côté de Paris. G.5142(2).jpg",
+          "description": "Auteur(s):\n\nSilvestre, Israël (Nancy, 03–08–1621 - Paris, 11–10–1691), graveur\nHenriet, Israël (Nancy, 1590 - Paris, 1661), editeur\n\n\n\nDate de production:\n\nEntre 1650 et 1660\nDatation en siècle: \n17e siècle\n\n\n\nType(s) d'objet(s):\n\nEstampe, Arts graphiques\n\n\nDénomination(s):\n\nEstampe\nLieu(x) d'exécution / réalisation: \nParis\n\n\n\nDimensions - Oeuvre:\n\n\n   Hauteur : 7.5 cm\n   Largeur : 12.2 cm\n\n\n\nDimensions - Montage du musée:\n\n\n   Hauteur : 32.5 cm\n   Largeur : 50 cm\n\n\n\nDescription:\n\n\n1er état\n\n\n\nM",
+          "width": 1930,
+          "height": 1197,
+          "size": 1655045,
+          "timestamp": "2023-06-19T18:56:27Z",
+          "author": "Silvestre, Israël (Nancy, 03–08–1621 - Paris, 11–10–1691), graveur",
           "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Porte_Saint-Denis%2C_Paris%2C_vintage_postcard.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APorte%20Saint-Denis%2C%20Paris%2C%20vintage%20postcard.jpg",
-          "title": "Porte Saint-Denis, Paris, vintage postcard.jpg",
-          "width": 2848,
-          "height": 1732,
-          "size": 6971042,
-          "timestamp": "2016-01-06T13:53:58Z",
-          "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
-          "license": "Public domain",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Vue_d%27une_des_portes_de_la_Ville_St._Denis_du_cost%C3%A9_de_Paris._G.386.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20d'une%20des%20portes%20de%20la%20Ville%20St.%20Denis%20du%20cost%C3%A9%20de%20Paris.%20G.386.jpg",
+          "title": "Vue d'une des portes de la Ville St. Denis du costé de Paris. G.386.jpg",
+          "description": "Auteur(s):\n\nSilvestre, Israël (Nancy, 03–08–1621 - Paris, 11–10–1691), graveur\nHenriet, Israël (Nancy, 1590 - Paris, 1661), editeur\n\n\n\nAutre titre:\n\nVue d'une des portes de la ville de Saint-Denis du côté de Paris. (Titre factice)\n\n\nDate de production:\n\nEntre 1650 et 1660\nDatation en siècle: \n17e siècle\n\n\n\nType(s) d'objet(s):\n\nEstampe, Arts graphiques\n\n\nDénomination(s):\n\nEstampe\n\n\nMatériaux et techniques:\n\nEau-forte\nLieu(x) d'exécution / réalisation: \nParis\n\n\n\nDimensions - Oeuvre:\n\n\n   Hauteur :",
+          "width": 4956,
+          "height": 3190,
+          "size": 4167785,
+          "timestamp": "2023-06-19T18:57:15Z",
+          "author": "Silvestre, Israël (Nancy, 03–08–1621 - Paris, 11–10–1691), graveur",
+          "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         }
       ]
     },
     {
       "label": "Passage Brady",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Boulevards_de_Paris_-_A09._Porte_Saint-Denis_-_Porte_Saint-Martin.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABoulevards%20de%20Paris%20-%20A09.%20Porte%20Saint-Denis%20-%20Porte%20Saint-Martin.jpg",
+          "title": "Boulevards de Paris - A09. Porte Saint-Denis - Porte Saint-Martin.jpg",
+          "description": "Panorama of 29 cm high and about 5 m long, on 5 attached sheets engraved on wood and colored by hand, wrapped around a cardboard tube, and protected by a black percaline cover with the golden title in a rocaille style frame. Grand panorama scrolling published by the newspaper L'Illustration, showing the boulevards of Paris, the Place de la Concorde instead of the Bastille, taking in the boulevards of the right bank (Madeleine, Capuchins, Italians, Montmartre, Poissonnière, Bonne-Nouvelle, Saint-",
+          "width": 6003,
+          "height": 2400,
+          "size": 10740219,
+          "timestamp": "2020-03-27T05:08:34Z",
+          "author": "<div class=\"fn value\">\nL'Illustration</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Le_Grand_Ch%C3%A2telet%2C_vue_prise_depuis_la_rue_Saint-Denis_en_1800._D.3333.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Grand%20Ch%C3%A2telet%2C%20vue%20prise%20depuis%20la%20rue%20Saint-Denis%20en%201800.%20D.3333.jpg",
+          "title": "Le Grand Châtelet, vue prise depuis la rue Saint-Denis en 1800. D.3333.jpg",
+          "description": "Auteur(s):\n\nHoffbauer, Fédor (Neuss, 13–10–1839 - Paris, 28–10–1922), dessinateur\n\n\nAutre titre:\n\nLe Grand Châtelet, vue depuis la rue Saint-Denis, rue Saint-Leufroi, vers1800, actuellement place du Châtelet (Titre attribué)\n\n\nDate de production:\n\nEntre 1875 et 1882\nDatation en siècle: \n19e siècle\n\n\n\nType(s) d'objet(s):\n\nArts graphiques, Dessin\n\n\nDénomination(s):\n\nDessin\n\n\nDimensions - Oeuvre:\n\n\n   Hauteur : 29.3 cm\n   Largeur : 19.8 cm\n\nDimensions - Passe-partout du musée:\n\n   Hauteur : 50 cm\n ",
+          "width": 3230,
+          "height": 4947,
+          "size": 2426028,
+          "timestamp": "2023-04-29T05:55:35Z",
+          "author": "Hoffbauer, Fédor (Neuss, 13–10–1839 - Paris, 28–10–1922), dessinateur",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Porte_Saint-Denis_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APorte%20Saint-Denis%2001.jpg",
+          "title": "Porte Saint-Denis 01.jpg",
+          "description": "Porte Saint-Denis in Paris, from the South.",
+          "width": 4900,
+          "height": 3675,
+          "size": 19751097,
+          "timestamp": "2011-09-17T15:37:19Z",
+          "author": "<p><a href=\"//commons.wikimedia.org/wiki/User:Coyau\" title=\"User:Coyau\">Coyau</a>\n</p>",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Grand Rex",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Boulevards_de_Paris_-_A09._Porte_Saint-Denis_-_Porte_Saint-Martin.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABoulevards%20de%20Paris%20-%20A09.%20Porte%20Saint-Denis%20-%20Porte%20Saint-Martin.jpg",
+          "title": "Boulevards de Paris - A09. Porte Saint-Denis - Porte Saint-Martin.jpg",
+          "description": "Panorama of 29 cm high and about 5 m long, on 5 attached sheets engraved on wood and colored by hand, wrapped around a cardboard tube, and protected by a black percaline cover with the golden title in a rocaille style frame. Grand panorama scrolling published by the newspaper L'Illustration, showing the boulevards of Paris, the Place de la Concorde instead of the Bastille, taking in the boulevards of the right bank (Madeleine, Capuchins, Italians, Montmartre, Poissonnière, Bonne-Nouvelle, Saint-",
+          "width": 6003,
+          "height": 2400,
+          "size": 10740219,
+          "timestamp": "2020-03-27T05:08:34Z",
+          "author": "<div class=\"fn value\">\nL'Illustration</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Le_Grand_Ch%C3%A2telet%2C_vue_prise_depuis_la_rue_Saint-Denis_en_1800._D.3333.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Grand%20Ch%C3%A2telet%2C%20vue%20prise%20depuis%20la%20rue%20Saint-Denis%20en%201800.%20D.3333.jpg",
+          "title": "Le Grand Châtelet, vue prise depuis la rue Saint-Denis en 1800. D.3333.jpg",
+          "description": "Auteur(s):\n\nHoffbauer, Fédor (Neuss, 13–10–1839 - Paris, 28–10–1922), dessinateur\n\n\nAutre titre:\n\nLe Grand Châtelet, vue depuis la rue Saint-Denis, rue Saint-Leufroi, vers1800, actuellement place du Châtelet (Titre attribué)\n\n\nDate de production:\n\nEntre 1875 et 1882\nDatation en siècle: \n19e siècle\n\n\n\nType(s) d'objet(s):\n\nArts graphiques, Dessin\n\n\nDénomination(s):\n\nDessin\n\n\nDimensions - Oeuvre:\n\n\n   Hauteur : 29.3 cm\n   Largeur : 19.8 cm\n\nDimensions - Passe-partout du musée:\n\n   Hauteur : 50 cm\n ",
+          "width": 3230,
+          "height": 4947,
+          "size": 2426028,
+          "timestamp": "2023-04-29T05:55:35Z",
+          "author": "Hoffbauer, Fédor (Neuss, 13–10–1839 - Paris, 28–10–1922), dessinateur",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Chantilly_%2860%29%2C_porte_Saint-Denis.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChantilly%20(60)%2C%20porte%20Saint-Denis.jpg",
+          "title": "Chantilly (60), porte Saint-Denis.jpg",
+          "description": "La porte Saint-Denis, entre les Grandes écuries et le jeu de paume, rue du Connétable (RD 924a), entre le centre-ville et le château.",
+          "width": 3664,
+          "height": 2748,
+          "size": 2121696,
+          "timestamp": "2012-10-02T09:43:28Z",
+          "author": "P.poschadel",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Cour des Petites Écuries",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/La_Porte_de_Saint_Denys_-_btv1b53181592t_%281_of_2%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Porte%20de%20Saint%20Denys%20-%20btv1b53181592t%20(1%20of%202).jpg",
+          "title": "La Porte de Saint Denys - btv1b53181592t (1 of 2).jpg",
+          "description": "Sujet : Paris\nCouverture : France\nLangue : français\nfrançais\n\nÉditeur : [S. l., 17..?]",
+          "width": 3528,
+          "height": 2102,
+          "size": 991663,
+          "timestamp": "2022-08-13T09:22:33Z",
+          "author": "<div class=\"fn value\">\nLucas, Claude. Graveur</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Attaque_de_la_barricade_de_la_Porte_Saint_Denis_-_estampe_-_btv1b53015415d.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAttaque%20de%20la%20barricade%20de%20la%20Porte%20Saint%20Denis%20-%20estampe%20-%20btv1b53015415d.jpg",
+          "title": "Attaque de la barricade de la Porte Saint Denis - estampe - btv1b53015415d.jpg",
+          "description": "Sujet : Paris (France) -- 1848 (Journées de juin)\nRéférence bibliographique : De Vinck, 14557\nAppartient à l’ensemble documentaire : Est19Vinck\nÉditeur : Chez Aubert, Pl. de la Bourse A. Provost del. et lith\n\n()",
+          "width": 4416,
+          "height": 3312,
+          "size": 2293215,
+          "timestamp": "2024-10-26T05:00:12Z",
+          "author": "<div class=\"fn value\">\nProvost, A. (18..-18..). Lithographe</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Porte_Saint-Denis_-_10_Enclos_St_Laurent_-_dessin_-_Pr%C3%A9vost_-_btv1b8456669c.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APorte%20Saint-Denis%20-%2010%20Enclos%20St%20Laurent%20-%20dessin%20-%20Pr%C3%A9vost%20-%20btv1b8456669c.jpg",
+          "title": "Porte Saint-Denis - 10 Enclos St Laurent - dessin - Prévost - btv1b8456669c.jpg",
+          "description": "Sujet : Paris (France) -- Arrondissement (10e)\nPaysages urbains -- 19e siècle\n\nLangue : français",
+          "width": 3780,
+          "height": 3044,
+          "size": 2018436,
+          "timestamp": "2024-10-28T10:41:09Z",
+          "author": "<div class=\"fn value\">\nAdam, Victor (1801-1866). Dessinateur</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Square Montholon",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Boulevards_de_Paris_-_A09._Porte_Saint-Denis_-_Porte_Saint-Martin.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABoulevards%20de%20Paris%20-%20A09.%20Porte%20Saint-Denis%20-%20Porte%20Saint-Martin.jpg",
+          "title": "Boulevards de Paris - A09. Porte Saint-Denis - Porte Saint-Martin.jpg",
+          "description": "Panorama of 29 cm high and about 5 m long, on 5 attached sheets engraved on wood and colored by hand, wrapped around a cardboard tube, and protected by a black percaline cover with the golden title in a rocaille style frame. Grand panorama scrolling published by the newspaper L'Illustration, showing the boulevards of Paris, the Place de la Concorde instead of the Bastille, taking in the boulevards of the right bank (Madeleine, Capuchins, Italians, Montmartre, Poissonnière, Bonne-Nouvelle, Saint-",
+          "width": 6003,
+          "height": 2400,
+          "size": 10740219,
+          "timestamp": "2020-03-27T05:08:34Z",
+          "author": "<div class=\"fn value\">\nL'Illustration</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/R%C3%A9volution_de_1830_-_Combat_de_la_Porte_Saint-Denis_-_28.07.1830.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AR%C3%A9volution%20de%201830%20-%20Combat%20de%20la%20Porte%20Saint-Denis%20-%2028.07.1830.jpg",
+          "title": "Révolution de 1830 - Combat de la Porte Saint-Denis - 28.07.1830.jpg",
+          "description": "",
+          "width": 4551,
+          "height": 3307,
+          "size": 2721272,
+          "timestamp": "2020-07-04T11:54:50Z",
+          "author": "Inconnu",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Acc%C3%A8s_Station_M%C3%A9tro_Saint_Denis_Porte_Paris_Place_Porte_Paris_-_Saint-Denis_%28FR93%29_-_2022-01-01_-_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAcc%C3%A8s%20Station%20M%C3%A9tro%20Saint%20Denis%20Porte%20Paris%20Place%20Porte%20Paris%20-%20Saint-Denis%20(FR93)%20-%202022-01-01%20-%201.jpg",
+          "title": "Accès Station Métro Saint Denis Porte Paris Place Porte Paris - Saint-Denis (FR93) - 2022-01-01 - 1.jpg",
+          "description": "Accès de la station de métro Saint-Denis - Porte de Paris, place de la Porte de Paris, Saint-Denis en Seine-Saint-Denis.",
+          "width": 4032,
+          "height": 3024,
+          "size": 5544159,
+          "timestamp": "2022-01-03T03:31:05Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Jardin Villemin",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/H%C3%B4tel_de_Cluny_%28ancien%29_et_Palais_des_Thermes%2C_Mus%C3%A9e_de_Cluny_-_Porte_de_Saint-Denis%2C_dans_les_jardins_-_Paris_05_-_M%C3%A9diath%C3%A8que_de_l%27architecture_et_du_patrimoine_-_APMH00004581.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AH%C3%B4tel%20de%20Cluny%20(ancien)%20et%20Palais%20des%20Thermes%2C%20Mus%C3%A9e%20de%20Cluny%20-%20Porte%20de%20Saint-Denis%2C%20dans%20les%20jardins%20-%20Paris%2005%20-%20M%C3%A9diath%C3%A8que%20de%20l'architecture%20et%20du%20patrimoine%20-%20APMH00004581.jpg",
+          "title": "Hôtel de Cluny (ancien) et Palais des Thermes, Musée de Cluny - Porte de Saint-Denis, dans les jardins - Paris 05 - Médiathèque de l'architecture et du patrimoine - APMH00004581.jpg",
+          "description": "Porte de Saint-Denis, dans les jardins",
+          "width": 438,
+          "height": 600,
+          "size": 110863,
+          "timestamp": "2014-07-19T09:03:46Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q17350272\" class=\"extiw\" title=\"d:Q17350272\"><span title=\"French photographer (1866-1898)\">Paul Robert</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 1
+        }
+      ]
     }
   ]
 }

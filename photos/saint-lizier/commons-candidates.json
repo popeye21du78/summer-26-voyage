@@ -1,12 +1,13 @@
 {
   "slug": "saint-lizier",
   "nom": "Saint-Lizier",
-  "fetchedAt": "2026-03-14T12:06:27.549Z",
+  "fetchedAt": "2026-03-18T18:24:37.597Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Cath%C3%A9drale_Notre-Dame-de-la-S%C3%A8de_%28Saint-Lizier%29_101.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale%20Notre-Dame-de-la-S%C3%A8de%20(Saint-Lizier)%20101.jpg",
       "title": "Cathédrale Notre-Dame-de-la-Sède (Saint-Lizier) 101.jpg",
+      "description": "Cathédrale Notre-Dame-de-la-Sède (Saint-Lizier)",
       "width": 6000,
       "height": 4000,
       "size": 7743716,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Cath%C3%A9drale_Notre-Dame-de-la-S%C3%A8de_%28Saint-Lizier%29_105.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale%20Notre-Dame-de-la-S%C3%A8de%20(Saint-Lizier)%20105.jpg",
       "title": "Cathédrale Notre-Dame-de-la-Sède (Saint-Lizier) 105.jpg",
+      "description": "Cathédrale Notre-Dame-de-la-Sède (Saint-Lizier)",
       "width": 6000,
       "height": 4000,
       "size": 7455259,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Cath%C3%A9drale_Notre-Dame-de-la-S%C3%A8de_%28Saint-Lizier%29_109.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale%20Notre-Dame-de-la-S%C3%A8de%20(Saint-Lizier)%20109.jpg",
       "title": "Cathédrale Notre-Dame-de-la-Sède (Saint-Lizier) 109.jpg",
+      "description": "Cathédrale Notre-Dame-de-la-Sède (Saint-Lizier)",
       "width": 6000,
       "height": 4000,
       "size": 6772117,
@@ -46,59 +49,191 @@
   "lieux": [
     {
       "label": "Remparts gallo-romains",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Ancienne_cath%C3%A9drale_et_clo%C3%AEtre_de_Saint-Lizier%2C_cath%C3%A9drale_Notre-Dame-de-la-S%C3%A8de%2C_palais_%C3%A9piscopal%2C_rempart_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAncienne%20cath%C3%A9drale%20et%20clo%C3%AEtre%20de%20Saint-Lizier%2C%20cath%C3%A9drale%20Notre-Dame-de-la-S%C3%A8de%2C%20palais%20%C3%A9piscopal%2C%20rempart%202.jpg",
+          "title": "Ancienne cathédrale et cloître de Saint-Lizier, cathédrale Notre-Dame-de-la-Sède, palais épiscopal, rempart 2.jpg",
+          "description": "ancienne cathédrale et cloître de Saint-Lizier, cathédrale Notre-Dame-de-la-Sède, palais épiscopal, rempart (partie d'un site du patrimoine mondial en France)",
+          "width": 4000,
+          "height": 2256,
+          "size": 2951393,
+          "timestamp": "2024-08-05T10:47:45Z",
+          "author": "Bristow 69",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Saint_Lizier-Remparts_romains-20150501.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint%20Lizier-Remparts%20romains-20150501.jpg",
+          "title": "Saint Lizier-Remparts romains-20150501.jpg",
+          "description": "Roman wall tower  (IIIth century).",
+          "width": 6479,
+          "height": 3466,
+          "size": 10785005,
+          "timestamp": "2015-05-26T15:43:31Z",
+          "author": "Daniel VILLAFRUELA",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Saint_Lizier-Notre_Dame_de_la_S%C3%A8de_et_les_remparts-20150501.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint%20Lizier-Notre%20Dame%20de%20la%20S%C3%A8de%20et%20les%20remparts-20150501.jpg",
+          "title": "Saint Lizier-Notre Dame de la Sède et les remparts-20150501.jpg",
+          "description": "Roman ramparts on which is based the Cathedral Notre-Dame de Séde.",
+          "width": 5472,
+          "height": 3648,
+          "size": 9432210,
+          "timestamp": "2015-05-26T15:52:27Z",
+          "author": "Daniel VILLAFRUELA",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Cloître de la cathédrale Saint-Lizier",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Clo%C3%AEtre_de_la_cath%C3%A9drale_de_Saint-Lizier_120.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AClo%C3%AEtre%20de%20la%20cath%C3%A9drale%20de%20Saint-Lizier%20120.jpg",
-          "title": "Cloître de la cathédrale de Saint-Lizier 120.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Cath%C3%A9drale_Saint-Lizier_-_50309796497.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale%20Saint-Lizier%20-%2050309796497.jpg",
+          "title": "Cathédrale Saint-Lizier - 50309796497.jpg",
+          "description": "11-15 èmes siècles \nSaint-Lizier\n\nAriège",
+          "width": 8688,
+          "height": 5792,
+          "size": 33739294,
+          "timestamp": "2022-09-08T11:49:05Z",
+          "author": "Marmontel",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Ancienne_cath%C3%A9drale_et_clo%C3%AEtre_de_Saint-Lizier%2C_cath%C3%A9drale_Notre-Dame-de-la-S%C3%A8de%2C_palais_%C3%A9piscopal%2C_rempart_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAncienne%20cath%C3%A9drale%20et%20clo%C3%AEtre%20de%20Saint-Lizier%2C%20cath%C3%A9drale%20Notre-Dame-de-la-S%C3%A8de%2C%20palais%20%C3%A9piscopal%2C%20rempart%202.jpg",
+          "title": "Ancienne cathédrale et cloître de Saint-Lizier, cathédrale Notre-Dame-de-la-Sède, palais épiscopal, rempart 2.jpg",
+          "description": "ancienne cathédrale et cloître de Saint-Lizier, cathédrale Notre-Dame-de-la-Sède, palais épiscopal, rempart (partie d'un site du patrimoine mondial en France)",
+          "width": 4000,
+          "height": 2256,
+          "size": 2951393,
+          "timestamp": "2024-08-05T10:47:45Z",
+          "author": "Bristow 69",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Cath%C3%A9drale_Saint_Lizier-Ch%C5%93ur-20150501.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale%20Saint%20Lizier-Ch%C5%93ur-20150501.jpg",
+          "title": "Cathédrale Saint Lizier-Chœur-20150501.jpg",
+          "description": "Choir of the Cathedral, seen from the nave.",
+          "width": 5472,
+          "height": 3648,
+          "size": 6739082,
+          "timestamp": "2015-05-23T05:26:35Z",
+          "author": "Daniel VILLAFRUELA",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "label": "Palais des Évêques et son escalier",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Saint_Lizier_-_Palais_%C3%A9piscopal.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint%20Lizier%20-%20Palais%20%C3%A9piscopal.jpg",
+          "title": "Saint Lizier - Palais épiscopal.jpg",
+          "description": "Overlooking the town of Saint-Lizier (Ariège, France), the Episcopal Palace. View of main entrance.",
+          "width": 4000,
+          "height": 2384,
+          "size": 1712419,
+          "timestamp": "2011-09-16T22:17:50Z",
+          "author": "Jeanclaude.benech",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Palais_des_%C3%89v%C3%AAques_%28Saint-Lizier%29_101.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APalais%20des%20%C3%89v%C3%AAques%20(Saint-Lizier)%20101.jpg",
+          "title": "Palais des Évêques (Saint-Lizier) 101.jpg",
+          "description": "Palais des Évêques (Saint-Lizier)",
           "width": 6000,
           "height": 4000,
-          "size": 7751609,
-          "timestamp": "2021-09-01T20:07:29Z",
+          "size": 6148260,
+          "timestamp": "2021-09-01T20:15:07Z",
           "author": "Chatsam",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Cloitre_de_la_Cath%C3%A9drale_Saint-Lizier.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACloitre%20de%20la%20Cath%C3%A9drale%20Saint-Lizier.jpg",
-          "title": "Cloitre de la Cathédrale Saint-Lizier.jpg",
-          "width": 8688,
-          "height": 5792,
-          "size": 51671351,
-          "timestamp": "2022-09-08T11:48:33Z",
-          "author": "Marmontel",
-          "license": "CC BY 2.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Clo%C3%AEtre_de_la_cath%C3%A9drale_Saint_Lizier.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AClo%C3%AEtre%20de%20la%20cath%C3%A9drale%20Saint%20Lizier.jpg",
-          "title": "Cloître de la cathédrale Saint Lizier.jpg",
-          "width": 8688,
-          "height": 5792,
-          "size": 39808836,
-          "timestamp": "2022-09-08T11:48:50Z",
-          "author": "Marmontel",
-          "license": "CC BY 2.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Palais_des_%C3%89v%C3%AAques_%28Saint-Lizier%29_102.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APalais%20des%20%C3%89v%C3%AAques%20(Saint-Lizier)%20102.jpg",
+          "title": "Palais des Évêques (Saint-Lizier) 102.jpg",
+          "description": "Palais des Évêques (Saint-Lizier)",
+          "width": 6000,
+          "height": 4000,
+          "size": 5946516,
+          "timestamp": "2021-09-01T20:15:06Z",
+          "author": "Chatsam",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         }
       ]
     },
     {
-      "label": "Palais des Évêques et son escalier",
-      "photos": []
-    },
-    {
       "label": "Vieux lavoir",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Saint-Lizier_%28Ari%C3%A8ge%29%2C_septembre_1905_-_btv1b10577291j.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Lizier%20(Ari%C3%A8ge)%2C%20septembre%201905%20-%20btv1b10577291j.jpg",
+          "title": "Saint-Lizier (Ariège), septembre 1905 - btv1b10577291j.jpg",
+          "description": "Sujet : Cours d'eau\nSaint-Lizier (Ariège, France)\nCouserans (Ariège, France)\nPyrénées (France)\nVille\nBâtiment\nMaison\nRivière\nRocher\nSalat (France ; vallée)\nAppartient à l’ensemble documentaire : RsAlis000\nAppartient à l’ensemble documentaire : RsAlis014\nAppartient à l’ensemble documentaire : RsAlis007\nAppartient à l’ensemble documentaire : RsAlis009\n\nAppartient à l’ensemble documentaire : PrnS001",
+          "width": 2050,
+          "height": 1571,
+          "size": 423590,
+          "timestamp": "2025-02-22T07:07:52Z",
+          "author": "<div class=\"fn value\">\nTrutat, Eugène (1840-1910). Photographe</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Clo%C3%AEtre_de_l%27%C3%A9glise%2C_Saint-Lizier_-_btv1b105741469.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AClo%C3%AEtre%20de%20l'%C3%A9glise%2C%20Saint-Lizier%20-%20btv1b105741469.jpg",
+          "title": "Cloître de l'église, Saint-Lizier - btv1b105741469.jpg",
+          "description": "Sujet : Saint-Lizier (Ariège, France)\nCouserans (Ariège, France)\nVille\nEglise\nCathédrale\nCloître\nColonne\nChapiteau\nGalerie\nArcade\nCathédrale (Saint-Lizier)\nSalat (France ; rivière)\nAppartient à l’ensemble documentaire : RsAlis000\nAppartient à l’ensemble documentaire : RsAlis014\nAppartient à l’ensemble documentaire : RsAlis007\nAppartient à l’ensemble documentaire : RsAlis009\n\nAppartient à l’ensemble documentaire : PrnS001",
+          "width": 2967,
+          "height": 2158,
+          "size": 953417,
+          "timestamp": "2025-03-10T05:46:10Z",
+          "author": "<div class=\"fn value\">\nTrutat, Eugène (1840-1910). Photographe</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Vue_g%C3%A9n%C3%A9rale_de_Saint-Lizier_sous_la_neige%2C_vue_prise_dans_le_train_en_marche%2C_4_janvier_1895_-_btv1b10579067x.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20g%C3%A9n%C3%A9rale%20de%20Saint-Lizier%20sous%20la%20neige%2C%20vue%20prise%20dans%20le%20train%20en%20marche%2C%204%20janvier%201895%20-%20btv1b10579067x.jpg",
+          "title": "Vue générale de Saint-Lizier sous la neige, vue prise dans le train en marche, 4 janvier 1895 - btv1b10579067x.jpg",
+          "description": "Sujet : Neige\nHiver\nPont\nSaint-Lizier (Ariège, France)\nCouserans (Ariège, France)\nPyrénées (France)\nMidi-Pyrénées (France)\nVille\nMaison\nRivière\nToit\nTerrasse (agriculture)\nSalat (France ; vallée)\nAriège (Midi-Pyrénées)\nAppartient à l’ensemble documentaire : RsAlis000\nAppartient à l’ensemble documentaire : RsAlis014\nAppartient à l’ensemble documentaire : RsAlis007\nAppartient à l’ensemble documentaire : RsAlis009\n\nAppartient à l’ensemble documentaire : PrnS001",
+          "width": 5817,
+          "height": 4216,
+          "size": 2866819,
+          "timestamp": "2025-03-16T09:44:59Z",
+          "author": "<div class=\"fn value\">\nTrutat, Eugène (1840-1910). Photographe</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

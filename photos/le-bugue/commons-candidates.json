@@ -1,12 +1,27 @@
 {
   "slug": "le-bugue",
   "nom": "Le Bugue",
-  "fetchedAt": "2026-03-13T15:27:00.121Z",
+  "fetchedAt": "2026-03-16T19:50:26.978Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Typical_Dordogne_panorama_%28Library_of_Le_Bugue%29_with_waterfall_near_Le_Buge_-_panoramio.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATypical%20Dordogne%20panorama%20(Library%20of%20Le%20Bugue)%20with%20waterfall%20near%20Le%20Buge%20-%20panoramio.jpg",
+      "title": "Typical Dordogne panorama (Library of Le Bugue) with waterfall near Le Buge - panoramio.jpg",
+      "description": "Typical Dordogne panorama (Library of Le Bugue) with waterfall near Le Buge",
+      "width": 3648,
+      "height": 2432,
+      "size": 3081115,
+      "timestamp": "2017-05-16T14:25:23Z",
+      "author": "Henk Monster",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/NRO_Le_Bugue.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANRO%20Le%20Bugue.jpg",
       "title": "NRO Le Bugue.jpg",
+      "description": "NRO du Bugue\nNA_24067_FERA",
       "width": 4032,
       "height": 2268,
       "size": 5122476,
@@ -20,23 +35,11 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/%C3%89glise_Saint-Sulpice_du_Bugue-47257.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-Sulpice%20du%20Bugue-47257.jpg",
       "title": "Église Saint-Sulpice du Bugue-47257.jpg",
+      "description": "Église Saint-Sulpice du Bugue",
       "width": 6460,
       "height": 4307,
       "size": 15466358,
       "timestamp": "2024-02-27T07:32:56Z",
-      "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q108103612\" class=\"extiw\" title=\"d:Q108103612\"><span title=\"Wikipedian and OpenStreetMap mapper from Cologne, Open Data activist\">Raimond Spekking</span></a></bdi>",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Quai_des_Berges_de_la_V%C3%A9z%C3%A8re%2C_Le_Bugue-47263.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQuai%20des%20Berges%20de%20la%20V%C3%A9z%C3%A8re%2C%20Le%20Bugue-47263.jpg",
-      "title": "Quai des Berges de la Vézère, Le Bugue-47263.jpg",
-      "width": 6292,
-      "height": 3539,
-      "size": 13244895,
-      "timestamp": "2024-02-27T20:18:48Z",
       "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q108103612\" class=\"extiw\" title=\"d:Q108103612\"><span title=\"Wikipedian and OpenStreetMap mapper from Cologne, Open Data activist\">Raimond Spekking</span></a></bdi>",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
@@ -46,15 +49,59 @@
   "lieux": [
     {
       "label": "Place de la République",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Le_Bugue_-_Place_de_la_Volaille.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Bugue%20-%20Place%20de%20la%20Volaille.jpg",
+          "title": "Le Bugue - Place de la Volaille.jpg",
+          "description": "Le Bugue - Place de la Volaille",
+          "width": 4896,
+          "height": 2752,
+          "size": 5865259,
+          "timestamp": "2019-08-04T15:49:37Z",
+          "author": "MOSSOT",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Le_Bugue_-_Place_de_l%27H%C3%B4tel_de_Ville_-_bo%C3%AEte_%C3%A0_livres.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Bugue%20-%20Place%20de%20l'H%C3%B4tel%20de%20Ville%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
+          "title": "Le Bugue - Place de l'Hôtel de Ville - boîte à livres.jpg",
+          "description": "Boîte à livres à Le Bugue",
+          "width": 1500,
+          "height": 1125,
+          "size": 172114,
+          "timestamp": "2024-08-23T20:45:30Z",
+          "author": "Mimi81",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Église Saint-Sulpice",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Le_Bugue_%C3%A9glise_%283%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Bugue%20%C3%A9glise%20(3).JPG",
+          "title": "Le Bugue église (3).JPG",
+          "description": "Au bord de la retenue du ruisseau de Ladouch, l'église du Bugue  vue du sud-ouest, Dordogne, France.",
+          "width": 3264,
+          "height": 2448,
+          "size": 1179311,
+          "timestamp": "2011-12-15T15:51:02Z",
+          "author": "Père Igor",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/%C3%89glise_Saint-Sulpice_du_Bugue-47257.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-Sulpice%20du%20Bugue-47257.jpg",
           "title": "Église Saint-Sulpice du Bugue-47257.jpg",
+          "description": "Église Saint-Sulpice du Bugue",
           "width": 6460,
           "height": 4307,
           "size": 15466358,
@@ -68,22 +115,10 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Le_Bugue_-_%C3%89glise_Saint-Sulpice_-03.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Bugue%20-%20%C3%89glise%20Saint-Sulpice%20-03.jpg",
           "title": "Le Bugue - Église Saint-Sulpice -03.jpg",
+          "description": "Le Bugue - Église Saint-Sulpice - Chapiteaux",
           "width": 3743,
           "height": 2752,
           "size": 2041297,
-          "timestamp": "2019-08-02T21:20:51Z",
-          "author": "MOSSOT",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Le_Bugue_-_%C3%89glise_Saint-Sulpice_-02.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Bugue%20-%20%C3%89glise%20Saint-Sulpice%20-02.jpg",
-          "title": "Le Bugue - Église Saint-Sulpice -02.jpg",
-          "width": 4896,
-          "height": 2752,
-          "size": 3159461,
           "timestamp": "2019-08-02T21:20:51Z",
           "author": "MOSSOT",
           "license": "CC BY-SA 4.0",
@@ -98,7 +133,50 @@
     },
     {
       "label": "Parc du Bournat",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Le_Bugue_-_Aquarium_du_P%C3%A9rigord_noir_-_Truite_Fario_-_001.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Bugue%20-%20Aquarium%20du%20P%C3%A9rigord%20noir%20-%20Truite%20Fario%20-%20001.jpg",
+          "title": "Le Bugue - Aquarium du Périgord noir - Truite Fario - 001.jpg",
+          "description": "Une truite Fario dans un bassin de l'aquarium du Périgord noir.",
+          "width": 4752,
+          "height": 3168,
+          "size": 18497523,
+          "timestamp": "2019-11-01T15:35:03Z",
+          "author": "Thesupermat",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Le_Bugue_-_Aquarium_du_P%C3%A9rigord_noir_-_Truite_Fario_-_002.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Bugue%20-%20Aquarium%20du%20P%C3%A9rigord%20noir%20-%20Truite%20Fario%20-%20002.jpg",
+          "title": "Le Bugue - Aquarium du Périgord noir - Truite Fario - 002.jpg",
+          "description": "Une truite Fario dans un bassin de l'aquarium du Périgord noir.",
+          "width": 4752,
+          "height": 3168,
+          "size": 19546917,
+          "timestamp": "2019-11-01T15:35:21Z",
+          "author": "Thesupermat",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Le_Bugue_-_Aquarium_du_P%C3%A9rigord_noir_-_Anguille_%C3%A9lectrique_-_001.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Bugue%20-%20Aquarium%20du%20P%C3%A9rigord%20noir%20-%20Anguille%20%C3%A9lectrique%20-%20001.jpg",
+          "title": "Le Bugue - Aquarium du Périgord noir - Anguille électrique - 001.jpg",
+          "description": "Une anguille électrique (Electrophorus electricus) dans un bassin de l'aquarium du Périgord noir.",
+          "width": 4752,
+          "height": 3168,
+          "size": 14788900,
+          "timestamp": "2019-11-01T15:51:15Z",
+          "author": "Thesupermat",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

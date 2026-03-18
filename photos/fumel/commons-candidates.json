@@ -1,12 +1,13 @@
 {
   "slug": "fumel",
   "nom": "Fumel",
-  "fetchedAt": "2026-03-13T14:29:39.687Z",
+  "fetchedAt": "2026-03-16T13:35:13.503Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Fumel_-_panoramio_%281%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFumel%20-%20panoramio%20(1).jpg",
       "title": "Fumel - panoramio (1).jpg",
+      "description": "Fumel",
       "width": 2512,
       "height": 1884,
       "size": 1408368,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Fumel_-_rue_Waldeck_Rousseau.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFumel%20-%20rue%20Waldeck%20Rousseau.jpg",
       "title": "Fumel - rue Waldeck Rousseau.jpg",
+      "description": "Fumel - rue Waldeck Rousseau",
       "width": 4032,
       "height": 3024,
       "size": 10947321,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Fumel_-_place_Gambetta.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFumel%20-%20place%20Gambetta.jpg",
       "title": "Fumel - place Gambetta.jpg",
+      "description": "Fumel - place Gambetta",
       "width": 4032,
       "height": 3024,
       "size": 9138208,
@@ -48,35 +51,10 @@
       "label": "Château de Fumel",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Chemin_menant_au_ch%C3%A2teau_de_Bonaguil_-_btv1b105788129.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChemin%20menant%20au%20ch%C3%A2teau%20de%20Bonaguil%20-%20btv1b105788129.jpg",
-          "title": "Chemin menant au château de Bonaguil - btv1b105788129.jpg",
-          "width": 3623,
-          "height": 2983,
-          "size": 951053,
-          "timestamp": "2025-03-13T21:17:20Z",
-          "author": "<div class=\"fn value\">\nTrutat, Eugène (1840-1910). Photographe</div>",
-          "license": "Public domain",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Ch%C3%A2teau_de_Ladhuie_-2.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Ladhuie%20-2.jpg",
-          "title": "Château de Ladhuie -2.jpg",
-          "width": 3648,
-          "height": 2736,
-          "size": 4913167,
-          "timestamp": "2016-08-02T08:29:14Z",
-          "author": "MOSSOT",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Ch%C3%A2teau_de_Fumel_%28Lot_et_Garonne%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Fumel%20(Lot%20et%20Garonne).jpg",
           "title": "Château de Fumel (Lot et Garonne).jpg",
+          "description": "Château de Fumel (Lot et Garonne)",
           "width": 1244,
           "height": 921,
           "size": 245949,
@@ -84,25 +62,97 @@
           "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q118154198\" class=\"extiw\" title=\"d:Q118154198\"><span title=\"French writer, historian and illustrator\">Alexandre Ducourneau</span></a></bdi>",
           "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Fumel_-_Ch%C3%A2teau-mairie.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFumel%20-%20Ch%C3%A2teau-mairie.JPG",
+          "title": "Fumel - Château-mairie.JPG",
+          "description": "Château de Fumel - Façade côté Lot",
+          "width": 3648,
+          "height": 2736,
+          "size": 2696920,
+          "timestamp": "2010-08-01T19:41:02Z",
+          "author": "MOSSOT",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
         }
       ]
     },
     {
       "label": "Jardins du château de Fumel",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Ch%C3%A2teau_de_Fumel_%28Lot_et_Garonne%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Fumel%20(Lot%20et%20Garonne).jpg",
+          "title": "Château de Fumel (Lot et Garonne).jpg",
+          "description": "Château de Fumel (Lot et Garonne)",
+          "width": 1244,
+          "height": 921,
+          "size": 245949,
+          "timestamp": "2019-12-04T06:23:53Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q118154198\" class=\"extiw\" title=\"d:Q118154198\"><span title=\"French writer, historian and illustrator\">Alexandre Ducourneau</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Fumel_-_Ch%C3%A2teau-mairie.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFumel%20-%20Ch%C3%A2teau-mairie.JPG",
+          "title": "Fumel - Château-mairie.JPG",
+          "description": "Château de Fumel - Façade côté Lot",
+          "width": 3648,
+          "height": 2736,
+          "size": 2696920,
+          "timestamp": "2010-08-01T19:41:02Z",
+          "author": "MOSSOT",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Église Notre-Dame-de-Fumel",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Bonnenouvelle_-_Eglise_-2.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABonnenouvelle%20-%20Eglise%20-2.JPG",
-          "title": "Bonnenouvelle - Eglise -2.JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Church_in_Fumel_-_panoramio.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChurch%20in%20Fumel%20-%20panoramio.jpg",
+          "title": "Church in Fumel - panoramio.jpg",
+          "description": "Church in Fumel",
+          "width": 3328,
+          "height": 1872,
+          "size": 2392785,
+          "timestamp": "2017-03-05T04:46:07Z",
+          "author": "Danny van Leeuwen",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/FUMEL_%285%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFUMEL%20(5).jpg",
+          "title": "FUMEL (5).jpg",
+          "description": "Église Saint-Antoine de Fumel",
+          "width": 2017,
+          "height": 1518,
+          "size": 147557,
+          "timestamp": "2023-12-29T19:38:25Z",
+          "author": "WCOMFR",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Fumel_-_%C3%89glise_Saint-Antoine_-2.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFumel%20-%20%C3%89glise%20Saint-Antoine%20-2.JPG",
+          "title": "Fumel - Église Saint-Antoine -2.JPG",
+          "description": "Fumel - Église Saint-Antoine - Façade côté ouest",
           "width": 3648,
           "height": 2736,
-          "size": 2607017,
-          "timestamp": "2010-07-29T08:36:12Z",
+          "size": 7870536,
+          "timestamp": "2014-03-30T15:08:10Z",
           "author": "MOSSOT",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -112,7 +162,22 @@
     },
     {
       "label": "Ancienne usine métallurgique de Fumel",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Forges_de_Fumel_%28Lot-et-Garonne%29_%285491522626%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AForges%20de%20Fumel%20(Lot-et-Garonne)%20(5491522626).jpg",
+          "title": "Forges de Fumel (Lot-et-Garonne) (5491522626).jpg",
+          "description": "Fonds Trutat - Photographie ancienne\nCote : TRU C 1562\nLocalisation : Fonds ancien (S 30) \nOriginal non communicable\nTitre : Forges de Fumel (Lot-et-Garonne)\nAuteur : Trutat, Eugène\nRôle de l’auteur : Photographe\nLieu de création : Lot-et-Garonne (Aquitaine)\nDate de création :  1859-1910 [entre]\nMesures : : 9 x 10 cm\nObservations :   Note manuscrite de Trutat : \"Forges de Fumel (Lot-et-Garonne) \" \nMot(s)-clé(s) : \n-- Industrie -- Forges -- Cheminée -- Hangar -- Entrepôt -- Usine -- Fumée -- Indu",
+          "width": 544,
+          "height": 324,
+          "size": 50852,
+          "timestamp": "2013-05-04T20:55:02Z",
+          "author": "Bibliothèque de Toulouse",
+          "license": "No restrictions",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 2
+        }
+      ]
     }
   ]
 }

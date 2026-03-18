@@ -1,12 +1,13 @@
 {
   "slug": "seguret",
   "nom": "Séguret",
-  "fetchedAt": "2026-03-14T12:28:52.379Z",
+  "fetchedAt": "2026-03-18T19:12:45.441Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Village_de_S%C3%A9guret_2024.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVillage%20de%20S%C3%A9guret%202024.jpg",
       "title": "Village de Séguret 2024.jpg",
+      "description": "Village de Séguret (Vaucluse)",
       "width": 4032,
       "height": 2268,
       "size": 3748284,
@@ -17,30 +18,32 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/ISS047-E-143908_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS047-E-143908%20-%20View%20of%20Earth.jpg",
-      "title": "ISS047-E-143908 - View of Earth.jpg",
-      "width": 4928,
-      "height": 3280,
-      "size": 3471154,
-      "timestamp": "2021-03-25T17:21:16Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Seguret3.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASeguret3.jpg",
+      "title": "Seguret3.jpg",
+      "description": "la fontaine des Mascarons classée monument historique",
+      "width": 2880,
+      "height": 1620,
+      "size": 1404745,
+      "timestamp": "2011-11-29T21:31:32Z",
+      "author": "Lazz06",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 5
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/ISS030-E-203449_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS030-E-203449%20-%20View%20of%20Earth.jpg",
-      "title": "ISS030-E-203449 - View of Earth.jpg",
-      "width": 4256,
-      "height": 2832,
-      "size": 711433,
-      "timestamp": "2021-10-28T13:59:53Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/S%C3%A9guret_-_fontaine_des_mascarons_4.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AS%C3%A9guret%20-%20fontaine%20des%20mascarons%204.jpg",
+      "title": "Séguret - fontaine des mascarons 4.jpg",
+      "description": "fontaine des mascarons à Séguret (84)",
+      "width": 4000,
+      "height": 3000,
+      "size": 2871776,
+      "timestamp": "2012-09-25T05:36:38Z",
+      "author": "Marianne Casamance",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 5
     }
   ],
   "lieux": [
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/S%C3%A9guret_%282019%29_09.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AS%C3%A9guret%20(2019)%2009.jpg",
           "title": "Séguret (2019) 09.jpg",
+          "description": "Séguret - Fontaine des Mascarons",
           "width": 4000,
           "height": 3000,
           "size": 6234357,
@@ -61,84 +65,132 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Fontaine_des_Mascarrons.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFontaine%20des%20Mascarrons.jpg",
-          "title": "Fontaine des Mascarrons.jpg",
-          "width": 1872,
-          "height": 1040,
-          "size": 454916,
-          "timestamp": "2016-09-11T20:09:46Z",
-          "author": "Ophelie84mdtpi",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Seguret3.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASeguret3.jpg",
+          "title": "Seguret3.jpg",
+          "description": "la fontaine des Mascarons classée monument historique",
+          "width": 2880,
+          "height": 1620,
+          "size": 1404745,
+          "timestamp": "2011-11-29T21:31:32Z",
+          "author": "Lazz06",
+          "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 5
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Volunteering_grape_harvest_and_wine_making%2C_Domaine_Rouge-Blue%2C_Sainte-C%C3%A9cile-les-Vignes%2C_C%C3%B4tes_du_Rh%C3%B4ne%2C_France%2C_September_2020_-_231_%2850525362762%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVolunteering%20grape%20harvest%20and%20wine%20making%2C%20Domaine%20Rouge-Blue%2C%20Sainte-C%C3%A9cile-les-Vignes%2C%20C%C3%B4tes%20du%20Rh%C3%B4ne%2C%20France%2C%20September%202020%20-%20231%20(50525362762).jpg",
-          "title": "Volunteering grape harvest and wine making, Domaine Rouge-Blue, Sainte-Cécile-les-Vignes, Côtes du Rhône, France, September 2020 - 231 (50525362762).jpg",
-          "width": 3648,
-          "height": 5472,
-          "size": 20924908,
-          "timestamp": "2021-03-12T10:57:12Z",
-          "author": "Bruno Rijsman",
-          "license": "CC BY-SA 2.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/S%C3%A9guret_-_fontaine_des_mascarons_4.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AS%C3%A9guret%20-%20fontaine%20des%20mascarons%204.jpg",
+          "title": "Séguret - fontaine des mascarons 4.jpg",
+          "description": "fontaine des mascarons à Séguret (84)",
+          "width": 4000,
+          "height": 3000,
+          "size": 2871776,
+          "timestamp": "2012-09-25T05:36:38Z",
+          "author": "Marianne Casamance",
+          "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 5
         }
       ]
     },
     {
       "label": "Porte Reynier",
+      "photos": []
+    },
+    {
+      "label": "Ruines du château de Séguret",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/S%C3%A9guret_%282019%29_02.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AS%C3%A9guret%20(2019)%2002.jpg",
-          "title": "Séguret (2019) 02.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/S%C3%A9guret_%282019%29_19.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AS%C3%A9guret%20(2019)%2019.jpg",
+          "title": "Séguret (2019) 19.jpg",
+          "description": "Séguret - vue du château",
           "width": 4000,
-          "height": 3000,
-          "size": 4407296,
-          "timestamp": "2025-11-23T10:29:11Z",
+          "height": 2248,
+          "size": 4304547,
+          "timestamp": "2025-11-23T10:31:09Z",
           "author": "Hadonos",
           "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/S%C3%A9guret_%282019%29_04.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AS%C3%A9guret%20(2019)%2004.jpg",
-          "title": "Séguret (2019) 04.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/S%C3%A9guret_%282019%29_20.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AS%C3%A9guret%20(2019)%2020.jpg",
+          "title": "Séguret (2019) 20.jpg",
+          "description": "Séguret - vue du château",
           "width": 4000,
-          "height": 3000,
-          "size": 5263938,
-          "timestamp": "2025-11-23T10:29:14Z",
+          "height": 2248,
+          "size": 4002511,
+          "timestamp": "2025-11-23T10:31:18Z",
           "author": "Hadonos",
           "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/S%C3%A9guret4.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AS%C3%A9guret4.JPG",
-          "title": "Séguret4.JPG",
-          "width": 1600,
-          "height": 1200,
-          "size": 483062,
-          "timestamp": "2006-11-23T21:15:56Z",
-          "author": "Freeze750",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/S%C3%A9guret_%282019%29_21.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AS%C3%A9guret%20(2019)%2021.jpg",
+          "title": "Séguret (2019) 21.jpg",
+          "description": "Séguret - vue du château",
+          "width": 4000,
+          "height": 2248,
+          "size": 3527805,
+          "timestamp": "2025-11-23T10:31:19Z",
+          "author": "Hadonos",
+          "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 9
         }
       ]
     },
     {
-      "label": "Ruines du château de Séguret",
-      "photos": []
-    },
-    {
       "label": "Rue des Poternes",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/S%C3%A9guret_%282019%29_11.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AS%C3%A9guret%20(2019)%2011.jpg",
+          "title": "Séguret (2019) 11.jpg",
+          "description": "Séguret - rue",
+          "width": 4000,
+          "height": 3000,
+          "size": 6624768,
+          "timestamp": "2025-11-23T10:29:50Z",
+          "author": "Hadonos",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/S%C3%A9guret_%282019%29_28.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AS%C3%A9guret%20(2019)%2028.jpg",
+          "title": "Séguret (2019) 28.jpg",
+          "description": "Séguret - rue",
+          "width": 4000,
+          "height": 3000,
+          "size": 6393344,
+          "timestamp": "2025-11-23T10:32:39Z",
+          "author": "Hadonos",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/S%C3%A9guret_%282019%29_33.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AS%C3%A9guret%20(2019)%2033.jpg",
+          "title": "Séguret (2019) 33.jpg",
+          "description": "Séguret - rue",
+          "width": 4000,
+          "height": 2248,
+          "size": 5365760,
+          "timestamp": "2025-11-23T10:33:16Z",
+          "author": "Hadonos",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

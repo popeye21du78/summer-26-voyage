@@ -1,12 +1,13 @@
 {
   "slug": "vilars-sous-ecot",
   "nom": "Vilars-sous-Écot",
-  "fetchedAt": "2026-03-14T14:35:03.552Z",
+  "fetchedAt": "2026-03-18T20:55:51.223Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Villars-sous-%C3%89cot%2C_%C3%89gllise_Saint-Vit.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVillars-sous-%C3%89cot%2C%20%C3%89gllise%20Saint-Vit.jpg",
       "title": "Villars-sous-Écot, Égllise Saint-Vit.jpg",
+      "description": "L'église Saint-Vit de Villars-sous-Écot",
       "width": 1468,
       "height": 974,
       "size": 377380,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Villars-sous-%C3%89cot%2C_Mairie.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVillars-sous-%C3%89cot%2C%20Mairie.jpg",
       "title": "Villars-sous-Écot, Mairie.jpg",
+      "description": "La mairie de Villars-sous-Écot",
       "width": 2474,
       "height": 1461,
       "size": 566656,
@@ -30,15 +32,16 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/%C3%89cot%2C_%C3%89glise_Saint-L%C3%A9ger.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89cot%2C%20%C3%89glise%20Saint-L%C3%A9ger.jpg",
-      "title": "Écot, Église Saint-Léger.jpg",
-      "width": 1251,
-      "height": 1454,
-      "size": 230348,
-      "timestamp": "2025-11-09T21:18:21Z",
-      "author": "Rauenstein",
-      "license": "CC BY-SA 3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Villars-sous-%C3%89cot_Cabane_%C3%A0_livres_02.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVillars-sous-%C3%89cot%20Cabane%20%C3%A0%20livres%2002.jpg",
+      "title": "Villars-sous-Écot Cabane à livres 02.jpg",
+      "description": "\"Cabane\" à livres (c'est un frigo) décorée d'étagères de livres.\nUn panneau planté en terre indique la cabane en lettres colorées.",
+      "width": 2736,
+      "height": 3357,
+      "size": 3463143,
+      "timestamp": "2024-04-11T18:40:24Z",
+      "author": "GenGavi",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 6
     }

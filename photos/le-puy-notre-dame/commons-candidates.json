@@ -1,12 +1,13 @@
 {
   "slug": "le-puy-notre-dame",
   "nom": "Le Puy-Notre-Dame",
-  "fetchedAt": "2026-03-13T15:36:49.356Z",
+  "fetchedAt": "2026-03-16T20:12:48.518Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Portails_au_Puy-Notre-Dame_2.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APortails%20au%20Puy-Notre-Dame%202.jpg",
       "title": "Portails au Puy-Notre-Dame 2.jpg",
+      "description": "Portails au Puy-Notre-Dame",
       "width": 4608,
       "height": 3456,
       "size": 3104467,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Le_Puy-Notre-Dame_%2849%29_Coll%C3%A9giale_Notre-Dame_-_Int%C3%A9rieur_-_Stalles_002.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Puy-Notre-Dame%20(49)%20Coll%C3%A9giale%20Notre-Dame%20-%20Int%C3%A9rieur%20-%20Stalles%20002.jpg",
       "title": "Le Puy-Notre-Dame (49) Collégiale Notre-Dame - Intérieur - Stalles 002.jpg",
+      "description": "Stalles gauche de la collégiale Notre-dame du Puy-Notre-Dame (49).",
       "width": 3968,
       "height": 2976,
       "size": 2363050,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Le_Puy-Notre-Dame_%2849%29_Coll%C3%A9giale_Notre-Dame_-_Int%C3%A9rieur_-_Stalles_008.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Puy-Notre-Dame%20(49)%20Coll%C3%A9giale%20Notre-Dame%20-%20Int%C3%A9rieur%20-%20Stalles%20008.jpg",
       "title": "Le Puy-Notre-Dame (49) Collégiale Notre-Dame - Intérieur - Stalles 008.jpg",
+      "description": "Stalles basses gauche de la collégiale Notre-dame du Puy-Notre-Dame (49).",
       "width": 1588,
       "height": 1191,
       "size": 543198,
@@ -48,49 +51,95 @@
       "label": "Collégiale Notre-Dame du Puy-Notre-Dame",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Mis%C3%A9ricorde%2C_cerf%2C_%C3%A9glise_du_Puy-Notre-Dame.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMis%C3%A9ricorde%2C%20cerf%2C%20%C3%A9glise%20du%20Puy-Notre-Dame.jpg",
-          "title": "Miséricorde, cerf, église du Puy-Notre-Dame.jpg",
-          "width": 1900,
-          "height": 1204,
-          "size": 1037364,
-          "timestamp": "2024-02-07T15:52:29Z",
-          "author": "Trevalb",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Semur-en-Auxois_WLM2016_Coll%C3%A9giale_Notre-Dame_%2828%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASemur-en-Auxois%20WLM2016%20Coll%C3%A9giale%20Notre-Dame%20(28).jpg",
+          "title": "Semur-en-Auxois WLM2016 Collégiale Notre-Dame (28).jpg",
+          "description": "This object is classé Monument Historique in the base Palissy, database of the French furniture patrimony of the French ministry of culture, under the reference PM21003103.",
+          "width": 2610,
+          "height": 3658,
+          "size": 4761068,
+          "timestamp": "2023-01-11T16:47:21Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q97949455\" class=\"extiw\" title=\"d:Q97949455\"><span title=\"French photographer and Wikimedian\">Pierre André Leclercq</span></a></bdi>",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 6
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Mis%C3%A9ricorde%2C_figure_f%C3%A9minine_dans_un_cartouche%2C_le_Puy_Notre_Dame.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMis%C3%A9ricorde%2C%20figure%20f%C3%A9minine%20dans%20un%20cartouche%2C%20le%20Puy%20Notre%20Dame.jpg",
-          "title": "Miséricorde, figure féminine dans un cartouche, le Puy Notre Dame.jpg",
-          "width": 1900,
-          "height": 1502,
-          "size": 1161832,
-          "timestamp": "2024-02-07T16:08:43Z",
-          "author": "Trevalb",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Semur-en-Auxois-Coll%C3%A9giale_Notre-Dame_retable_sc%C3%A8nes_de_la_Vie_du_Christ_%281540%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASemur-en-Auxois-Coll%C3%A9giale%20Notre-Dame%20retable%20sc%C3%A8nes%20de%20la%20Vie%20du%20Christ%20(1540).jpg",
+          "title": "Semur-en-Auxois-Collégiale Notre-Dame retable scènes de la Vie du Christ (1540).jpg",
+          "description": "This object is classé Monument Historique in the base Palissy, database of the French furniture patrimony of the French ministry of culture, under the reference PM21002203.",
+          "width": 3193,
+          "height": 4731,
+          "size": 10372008,
+          "timestamp": "2023-01-12T09:36:41Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q97949455\" class=\"extiw\" title=\"d:Q97949455\"><span title=\"French photographer and Wikimedian\">Pierre André Leclercq</span></a></bdi>",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 6
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Mis%C3%A9ricorde%2C_figure_f%C3%A9minine_et_fruits%2C_Le_Puy_Notre_Dame.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMis%C3%A9ricorde%2C%20figure%20f%C3%A9minine%20et%20fruits%2C%20Le%20Puy%20Notre%20Dame.jpg",
-          "title": "Miséricorde, figure féminine et fruits, Le Puy Notre Dame.jpg",
-          "width": 1900,
-          "height": 1073,
-          "size": 938984,
-          "timestamp": "2024-02-07T16:19:20Z",
-          "author": "Trevalb",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Le_Puy-Notre-Dame_%2849%29_Coll%C3%A9giale_Notre-Dame_-_Int%C3%A9rieur_-_Stalles_001.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Puy-Notre-Dame%20(49)%20Coll%C3%A9giale%20Notre-Dame%20-%20Int%C3%A9rieur%20-%20Stalles%20001.jpg",
+          "title": "Le Puy-Notre-Dame (49) Collégiale Notre-Dame - Intérieur - Stalles 001.jpg",
+          "description": "Stalles gauche de la collégiale Notre-dame du Puy-Notre-Dame (49).",
+          "width": 1588,
+          "height": 1191,
+          "size": 498720,
+          "timestamp": "2018-07-03T15:10:11Z",
+          "author": "GO69",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 6
         }
       ]
     },
     {
       "label": "Porte Saint-Michel",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Notre-Dame-du-Port_FR-631136102_GRA_J_5045.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANotre-Dame-du-Port%20FR-631136102%20GRA%20J%205045.jpg",
+          "title": "Notre-Dame-du-Port FR-631136102 GRA J 5045.jpg",
+          "description": "Notre-Dame-du-Port à Clermont-Ferrand, vers 1790, attribué à Jacques Martin Sylvestre Bence.",
+          "width": 3546,
+          "height": 2362,
+          "size": 2007316,
+          "timestamp": "2021-08-03T12:22:51Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q106144380\" class=\"extiw\" title=\"d:Q106144380\"><span title=\"French painter and illustrator\">Jacques Martin Silvestre Bence</span></a></bdi>",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Vitrail_de_la_basilique_Notre-Dame_du_Port_-_06.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVitrail%20de%20la%20basilique%20Notre-Dame%20du%20Port%20-%2006.jpg",
+          "title": "Vitrail de la basilique Notre-Dame du Port - 06.jpg",
+          "description": "Vitrail de la basilique Notre-Dame du Port à Clermont-Ferrand (France).",
+          "width": 4608,
+          "height": 3440,
+          "size": 4215375,
+          "timestamp": "2017-08-23T11:33:20Z",
+          "author": "Eunostos",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Vierge_%C3%A0_l%27Enfant_de_Notre_Dame_du_Port.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVierge%20%C3%A0%20l'Enfant%20de%20Notre%20Dame%20du%20Port.jpg",
+          "title": "Vierge à l'Enfant de Notre Dame du Port.jpg",
+          "description": "Vierge miraculeuse située dans la chapelle souterraine de Notre-Dame du Port (crypte) à Clermont-Ferrand",
+          "width": 4592,
+          "height": 3448,
+          "size": 2934030,
+          "timestamp": "2017-12-13T22:26:44Z",
+          "author": "Quentineo",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Caves troglodytiques du village",

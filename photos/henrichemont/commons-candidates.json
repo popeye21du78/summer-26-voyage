@@ -1,12 +1,13 @@
 {
   "slug": "henrichemont",
   "nom": "Henrichemont",
-  "fetchedAt": "2026-03-13T14:42:28.861Z",
+  "fetchedAt": "2026-03-16T14:04:09.674Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Monument_aux_morts_Henrichemont.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMonument%20aux%20morts%20Henrichemont.jpg",
       "title": "Monument aux morts Henrichemont.jpg",
+      "description": "le monument aux morts",
       "width": 2448,
       "height": 3264,
       "size": 2612830,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Croquis-_Henrichemont_-_France_%2814394460179%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACroquis-%20Henrichemont%20-%20France%20(14394460179).jpg",
       "title": "Croquis- Henrichemont - France (14394460179).jpg",
+      "description": "croquis bic et aquarelle d'après photo perso / bic and wash sketch after a personal photo",
       "width": 1020,
       "height": 673,
       "size": 140250,
@@ -30,15 +32,16 @@
       "score": 4
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/STS132-E-11412_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASTS132-E-11412%20-%20View%20of%20Earth.jpg",
-      "title": "STS132-E-11412 - View of Earth.jpg",
-      "width": 4288,
-      "height": 2929,
-      "size": 2097880,
-      "timestamp": "2021-02-15T06:25:20Z",
-      "author": "NASA",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/18109-Henrichemont-Sols.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A18109-Henrichemont-Sols.png",
+      "title": "18109-Henrichemont-Sols.png",
+      "description": "Carte des infrastructures et de l’occupation des sols en 2018 de la commune de fr:Henrichemont (France).",
+      "width": 3270,
+      "height": 2598,
+      "size": 1914964,
+      "timestamp": "2021-05-03T13:17:37Z",
+      "author": "Roland45",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     }
@@ -46,42 +49,87 @@
   "lieux": [
     {
       "label": "Place Henri IV",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Henrichemont_-2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHenrichemont%20-2.jpg",
+          "title": "Henrichemont -2.jpg",
+          "description": "Henrichemont - Place centrale du village avec le puits reconstitué",
+          "width": 2592,
+          "height": 1588,
+          "size": 658219,
+          "timestamp": "2010-03-13T11:45:15Z",
+          "author": "MOSSOT",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Henrichemont_-3.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHenrichemont%20-3.jpg",
+          "title": "Henrichemont -3.jpg",
+          "description": "Henrichemont - Ancien hôtel de la Monnaie sur une des places secondaires",
+          "width": 2592,
+          "height": 1588,
+          "size": 890014,
+          "timestamp": "2010-03-13T11:50:53Z",
+          "author": "MOSSOT",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Post-medieval_coin%2C_French_double_tournois_of_Maximilien_I_of_Boisbelle-Henrichemont_%28reverse%29_%28FindID_143619%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APost-medieval%20coin%2C%20French%20double%20tournois%20of%20Maximilien%20I%20of%20Boisbelle-Henrichemont%20(reverse)%20(FindID%20143619).jpg",
+          "title": "Post-medieval coin, French double tournois of Maximilien I of Boisbelle-Henrichemont (reverse) (FindID 143619).jpg",
+          "description": "A copper alloy double tournois coin from the French state of Boisbelle &amp; Henrichemont (near Bourges), issued in 1636 for Maximilien I (ruled 1597-1641).",
+          "width": 1280,
+          "height": 960,
+          "size": 158070,
+          "timestamp": "2017-02-07T04:04:31Z",
+          "author": "<div class=\"fn value\">\nYork Museums Trust, David Evans, 2006-09-25 14:14:23</div>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Église Saint-Laurian",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Henrichemont.%C3%89glise_Saint-Laurent.wp.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHenrichemont.%C3%89glise%20Saint-Laurent.wp.jpg",
+          "title": "Henrichemont.Église Saint-Laurent.wp.jpg",
+          "description": "Église Saint-Laurent à Henrichemont, dans le Cher",
+          "width": 2322,
+          "height": 3312,
+          "size": 733310,
+          "timestamp": "2023-11-03T23:20:32Z",
+          "author": "Popolon",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Monument_aux_morts_Henrichemont.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMonument%20aux%20morts%20Henrichemont.jpg",
+          "title": "Monument aux morts Henrichemont.jpg",
+          "description": "le monument aux morts",
+          "width": 2448,
+          "height": 3264,
+          "size": 2612830,
+          "timestamp": "2016-06-23T07:28:22Z",
+          "author": "mairie d'Henrichemont",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Musée de la Poterie",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Vierge%2C_Marie-Louise_Chameron.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVierge%2C%20Marie-Louise%20Chameron.jpg",
-          "title": "Vierge, Marie-Louise Chameron.jpg",
-          "width": 499,
-          "height": 665,
-          "size": 93162,
-          "timestamp": "2021-03-02T15:48:45Z",
-          "author": "Oloof",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 3
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Fontaine%2C_Marie_Talbot.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFontaine%2C%20Marie%20Talbot.jpg",
-          "title": "Fontaine, Marie Talbot.jpg",
-          "width": 499,
-          "height": 665,
-          "size": 78885,
-          "timestamp": "2021-03-02T15:48:45Z",
-          "author": "Oloof",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 3
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Parc de la Forêt de Bellay",

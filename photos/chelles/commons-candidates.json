@@ -1,12 +1,13 @@
 {
   "slug": "chelles",
   "nom": "Chelles",
-  "fetchedAt": "2026-03-13T00:45:34.816Z",
+  "fetchedAt": "2026-03-16T11:44:54.159Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Place_Cala_-_Chelles_%28FR77%29_-_2025-02-14_-_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlace%20Cala%20-%20Chelles%20(FR77)%20-%202025-02-14%20-%201.jpg",
       "title": "Place Cala - Chelles (FR77) - 2025-02-14 - 1.jpg",
+      "description": "Place Cala, Chelles en Seine-et-Marne.",
       "width": 5712,
       "height": 4284,
       "size": 7532458,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Place_Cala_-_Chelles_%28FR77%29_-_2025-02-14_-_2.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlace%20Cala%20-%20Chelles%20(FR77)%20-%202025-02-14%20-%202.jpg",
       "title": "Place Cala - Chelles (FR77) - 2025-02-14 - 2.jpg",
+      "description": "Place Cala, Chelles en Seine-et-Marne.",
       "width": 4032,
       "height": 3024,
       "size": 4121270,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Plaque_Place_Cala_-_Chelles_%28FR77%29_-_2025-02-14_-_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlaque%20Place%20Cala%20-%20Chelles%20(FR77)%20-%202025-02-14%20-%201.jpg",
       "title": "Plaque Place Cala - Chelles (FR77) - 2025-02-14 - 1.jpg",
+      "description": "Plaque de la place Cala, Chelles en Seine-et-Marne.",
       "width": 4554,
       "height": 3569,
       "size": 5438195,
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Chelles_marche-mars_2002_%287%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChelles%20marche-mars%202002%20(7).jpg",
           "title": "Chelles marche-mars 2002 (7).jpg",
+          "description": "Marché provisoire Parc du Souvenir, Chelles, Seine-et-Marne, mars 2002.",
           "width": 3271,
           "height": 1988,
           "size": 2170546,
@@ -61,26 +65,28 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Parc_Souvenir_%C3%89mile_Fouchard_-_Chelles_%28FR77%29_-_2025-02-23_-_1.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParc%20Souvenir%20%C3%89mile%20Fouchard%20-%20Chelles%20(FR77)%20-%202025-02-23%20-%201.jpg",
-          "title": "Parc Souvenir Émile Fouchard - Chelles (FR77) - 2025-02-23 - 1.jpg",
-          "width": 4032,
-          "height": 3024,
-          "size": 6365150,
-          "timestamp": "2025-02-24T01:38:20Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Chemin_Tour_Parc_-_Chelles_%28FR77%29_-_2025-02-14_-_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChemin%20Tour%20Parc%20-%20Chelles%20(FR77)%20-%202025-02-14%20-%201.jpg",
+          "title": "Chemin Tour Parc - Chelles (FR77) - 2025-02-14 - 1.jpg",
+          "description": "Chemin du Tour-du-Parc, Chelles en Seine-et-Marne.",
+          "width": 5712,
+          "height": 4284,
+          "size": 6873398,
+          "timestamp": "2025-02-14T19:46:24Z",
           "author": "Chabe01",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Parc_Souvenir_%C3%89mile_Fouchard_-_Chelles_%28FR77%29_-_2025-02-23_-_2.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParc%20Souvenir%20%C3%89mile%20Fouchard%20-%20Chelles%20(FR77)%20-%202025-02-23%20-%202.jpg",
-          "title": "Parc Souvenir Émile Fouchard - Chelles (FR77) - 2025-02-23 - 2.jpg",
-          "width": 4032,
-          "height": 3024,
-          "size": 5977588,
-          "timestamp": "2025-02-24T01:39:16Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Chemin_Tour_Parc_-_Chelles_%28FR77%29_-_2025-02-14_-_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChemin%20Tour%20Parc%20-%20Chelles%20(FR77)%20-%202025-02-14%20-%202.jpg",
+          "title": "Chemin Tour Parc - Chelles (FR77) - 2025-02-14 - 2.jpg",
+          "description": "Chemin du Tour-du-Parc, Chelles en Seine-et-Marne.",
+          "width": 5712,
+          "height": 4284,
+          "size": 5785780,
+          "timestamp": "2025-02-14T19:47:19Z",
           "author": "Chabe01",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -90,49 +96,67 @@
     },
     {
       "label": "Rives de la Marne",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Quai_des_mariniers_%C3%A0_Chelles_%2877%29_-_vue_du_quai_oppos%C3%A9_%C3%A0_travers_les_%C3%AEles_aux_canotiers.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQuai%20des%20mariniers%20%C3%A0%20Chelles%20(77)%20-%20vue%20du%20quai%20oppos%C3%A9%20%C3%A0%20travers%20les%20%C3%AEles%20aux%20canotiers.jpg",
+          "title": "Quai des mariniers à Chelles (77) - vue du quai opposé à travers les îles aux canotiers.jpg",
+          "description": "Nous sommes à Chelles, au bord de la marne et le long des Quais des Mariniers ; depuis ce site aménagé et ombragé, à travers les trois îlots aux canotiers, nous apercevons la rive opposée de Champs sur Marne (77) longée par la promenade des Patis. Nous pouvons voir également qu'ici est un lieu d'entrainement avec des balises pour les Kayakistes.",
+          "width": 4128,
+          "height": 2006,
+          "size": 5633830,
+          "timestamp": "2019-05-24T20:28:53Z",
+          "author": "Patrice PERTUIT",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Parc du Moulin",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Arbre_jaune_au_parc_du_moulin_de_Chelles_1.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArbre%20jaune%20au%20parc%20du%20moulin%20de%20Chelles%201.jpg",
-          "title": "Arbre jaune au parc du moulin de Chelles 1.jpg",
-          "width": 2816,
-          "height": 2112,
-          "size": 3648152,
-          "timestamp": "2015-11-19T16:26:56Z",
-          "author": "Tangopaso",
-          "license": "Public domain",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Chelles_marche-mars_2002_%287%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChelles%20marche-mars%202002%20(7).jpg",
+          "title": "Chelles marche-mars 2002 (7).jpg",
+          "description": "Marché provisoire Parc du Souvenir, Chelles, Seine-et-Marne, mars 2002.",
+          "width": 3271,
+          "height": 1988,
+          "size": 2170546,
+          "timestamp": "2022-02-18T11:24:24Z",
+          "author": "Wayne77",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Arbre_jaune_au_parc_du_moulin_de_Chelles_2.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArbre%20jaune%20au%20parc%20du%20moulin%20de%20Chelles%202.jpg",
-          "title": "Arbre jaune au parc du moulin de Chelles 2.jpg",
-          "width": 2816,
-          "height": 2112,
-          "size": 3669622,
-          "timestamp": "2015-11-19T16:31:50Z",
-          "author": "Tangopaso",
-          "license": "Public domain",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Chemin_Tour_Parc_-_Chelles_%28FR77%29_-_2025-02-14_-_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChemin%20Tour%20Parc%20-%20Chelles%20(FR77)%20-%202025-02-14%20-%201.jpg",
+          "title": "Chemin Tour Parc - Chelles (FR77) - 2025-02-14 - 1.jpg",
+          "description": "Chemin du Tour-du-Parc, Chelles en Seine-et-Marne.",
+          "width": 5712,
+          "height": 4284,
+          "size": 6873398,
+          "timestamp": "2025-02-14T19:46:24Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Arbre_jaune_au_parc_du_moulin_de_Chelles_3.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArbre%20jaune%20au%20parc%20du%20moulin%20de%20Chelles%203.jpg",
-          "title": "Arbre jaune au parc du moulin de Chelles 3.jpg",
-          "width": 2816,
-          "height": 2112,
-          "size": 3406120,
-          "timestamp": "2015-11-19T16:34:29Z",
-          "author": "Tangopaso",
-          "license": "Public domain",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Chemin_Tour_Parc_-_Chelles_%28FR77%29_-_2025-02-14_-_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChemin%20Tour%20Parc%20-%20Chelles%20(FR77)%20-%202025-02-14%20-%202.jpg",
+          "title": "Chemin Tour Parc - Chelles (FR77) - 2025-02-14 - 2.jpg",
+          "description": "Chemin du Tour-du-Parc, Chelles en Seine-et-Marne.",
+          "width": 5712,
+          "height": 4284,
+          "size": 5785780,
+          "timestamp": "2025-02-14T19:47:19Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         }
       ]
     },
@@ -143,6 +167,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Mus%C3%A9e_Alfred_Bonno_-_Chelles_%28FR77%29_-_2025-09-04_-_1.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e%20Alfred%20Bonno%20-%20Chelles%20(FR77)%20-%202025-09-04%20-%201.jpg",
           "title": "Musée Alfred Bonno - Chelles (FR77) - 2025-09-04 - 1.jpg",
+          "description": "Musée Alfred Bonno, Chelles en Seine-et-Marne.",
           "width": 4032,
           "height": 3024,
           "size": 2832880,
@@ -156,6 +181,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Chelles_-_Mus%C3%A9e_Alfred_Bonno-01.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChelles%20-%20Mus%C3%A9e%20Alfred%20Bonno-01.jpg",
           "title": "Chelles - Musée Alfred Bonno-01.jpg",
+          "description": "Portrait of Abbé Alfred Bonno, founder of Alfred Bonno Museum in Chelles, Seine-et-Marne, France.",
           "width": 4896,
           "height": 3672,
           "size": 3501026,
@@ -166,15 +192,16 @@
           "score": 6
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Pierre_Gobert_portrait_of_Louise_Ad%C3%A9la%C3%AFde_d%27Orl%C3%A9ans_%281698%E2%80%931743%29_Abbess_of_Chelles_as_%22S%C5%93ur_Sainte-Bathilde%22.Jpeg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APierre%20Gobert%20portrait%20of%20Louise%20Ad%C3%A9la%C3%AFde%20d'Orl%C3%A9ans%20(1698%E2%80%931743)%20Abbess%20of%20Chelles%20as%20%22S%C5%93ur%20Sainte-Bathilde%22.Jpeg",
-          "title": "Pierre Gobert portrait of Louise Adélaïde d'Orléans (1698–1743) Abbess of Chelles as \"Sœur Sainte-Bathilde\".Jpeg",
-          "width": 1445,
-          "height": 2000,
-          "size": 1855733,
-          "timestamp": "2021-03-25T16:57:56Z",
-          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Pierre_Gobert\" class=\"extiw\" title=\"w:en:Pierre Gobert\"><span title=\"French painter (1662-1744)\">Pierre Gobert</span></a></bdi>",
-          "license": "Public domain",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Chelles_-_AMTUIR-02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChelles%20-%20AMTUIR-02.jpg",
+          "title": "Chelles - AMTUIR-02.jpg",
+          "description": "Omnibus à chevaux à impériale N°7(série de 9 véhicules) de 1863 - Réseau urbain de Toulouse.\nMusée des transports urbains, interurbains et ruraux, Chelles, Seine-et-Marne, France.",
+          "width": 4896,
+          "height": 3672,
+          "size": 2944973,
+          "timestamp": "2015-09-24T12:15:03Z",
+          "author": "Wayne77",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
         }
@@ -182,7 +209,50 @@
     },
     {
       "label": "Port de plaisance de Chelles",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Plaque_Rue_Port_-_Chelles_%28FR77%29_-_2023-09-20_-_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlaque%20Rue%20Port%20-%20Chelles%20(FR77)%20-%202023-09-20%20-%201.jpg",
+          "title": "Plaque Rue Port - Chelles (FR77) - 2023-09-20 - 1.jpg",
+          "description": "Plaque de la rue du Port, Chelles en Seine-et-Marne.",
+          "width": 2728,
+          "height": 1288,
+          "size": 657429,
+          "timestamp": "2023-09-20T21:03:01Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Plaque_Rue_Port_-_Chelles_%28FR77%29_-_2023-09-20_-_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlaque%20Rue%20Port%20-%20Chelles%20(FR77)%20-%202023-09-20%20-%202.jpg",
+          "title": "Plaque Rue Port - Chelles (FR77) - 2023-09-20 - 2.jpg",
+          "description": "Plaque de la rue du Port, Chelles en Seine-et-Marne.",
+          "width": 4032,
+          "height": 3024,
+          "size": 4685034,
+          "timestamp": "2023-09-20T21:03:14Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Rue_Port_-_Chelles_%28FR77%29_-_2023-09-20_-_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARue%20Port%20-%20Chelles%20(FR77)%20-%202023-09-20%20-%201.jpg",
+          "title": "Rue Port - Chelles (FR77) - 2023-09-20 - 1.jpg",
+          "description": "Rue du Port, Chelles en Seine-et-Marne.",
+          "width": 4032,
+          "height": 3024,
+          "size": 3932123,
+          "timestamp": "2023-09-21T05:26:39Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

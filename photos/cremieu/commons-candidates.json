@@ -1,12 +1,27 @@
 {
   "slug": "cremieu",
   "nom": "Crémieu",
-  "fetchedAt": "2026-03-13T13:58:26.613Z",
+  "fetchedAt": "2026-03-16T12:29:08.250Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/St_John_the_Baptist_church_in_Cremieu_%2810%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt%20John%20the%20Baptist%20church%20in%20Cremieu%20(10).jpg",
+      "title": "St John the Baptist church in Cremieu (10).jpg",
+      "description": "View of the Saint John the Baptist church in Crémieu, Isère, France",
+      "width": 4023,
+      "height": 2833,
+      "size": 10916007,
+      "timestamp": "2025-09-25T15:19:55Z",
+      "author": "Tournasol7",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Couvent_des_Augustins_in_Cremieu_%283%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACouvent%20des%20Augustins%20in%20Cremieu%20(3).jpg",
       "title": "Couvent des Augustins in Cremieu (3).jpg",
+      "description": "Augustinian convent in Crémieu, Isère, France",
       "width": 4831,
       "height": 3684,
       "size": 13129869,
@@ -20,23 +35,11 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Couvent_des_Augustins_in_Cremieu_%287%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACouvent%20des%20Augustins%20in%20Cremieu%20(7).jpg",
       "title": "Couvent des Augustins in Cremieu (7).jpg",
+      "description": "Augustinian convent in Crémieu, Isère, France",
       "width": 4167,
       "height": 3024,
       "size": 9913617,
       "timestamp": "2025-09-25T15:08:47Z",
-      "author": "Tournasol7",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/St_John_the_Baptist_church_in_Cremieu_%288%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt%20John%20the%20Baptist%20church%20in%20Cremieu%20(8).jpg",
-      "title": "St John the Baptist church in Cremieu (8).jpg",
-      "width": 3515,
-      "height": 2790,
-      "size": 6463531,
-      "timestamp": "2025-09-25T15:19:51Z",
       "author": "Tournasol7",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
@@ -46,7 +49,50 @@
   "lieux": [
     {
       "label": "Halle médiévale de Crémieu",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Halle_cr%C3%A9mieu_-_38.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHalle%20cr%C3%A9mieu%20-%2038.jpg",
+          "title": "Halle crémieu - 38.jpg",
+          "description": "Crémieu, petite cité iséroise de 3 500 âmes 40 km à l'est de Lyon, possède un patrimoine historique et architectural conséquents.\nToits de la ville depuis montée St-Hippolyte, menant à la ceinture de remparts est.\n\nAu centre halle (XVe s.), au fond perchés sur la colline St-Laurent, vestiges du \"château Delphinal\" (XIIe s.).",
+          "width": 1136,
+          "height": 852,
+          "size": 443126,
+          "timestamp": "2018-05-04T10:14:32Z",
+          "author": "Nanzig",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Cremieu_Halle_Ext%C3%A9rieur_Cot%C3%A9_Est_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACremieu%20Halle%20Ext%C3%A9rieur%20Cot%C3%A9%20Est%202.jpg",
+          "title": "Cremieu Halle Extérieur Coté Est 2.jpg",
+          "description": "Market Hall, Crémieu, Department of Isère, Region of Auvergne-Rhône-Alpes (former Rhône-Alpes), France",
+          "width": 4472,
+          "height": 2649,
+          "size": 13866356,
+          "timestamp": "2021-06-03T11:40:49Z",
+          "author": "Zairon",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Cremieu_Halle_Ext%C3%A9rieur_Cot%C3%A9_Est_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACremieu%20Halle%20Ext%C3%A9rieur%20Cot%C3%A9%20Est%201.jpg",
+          "title": "Cremieu Halle Extérieur Coté Est 1.jpg",
+          "description": "Market Hall, Crémieu, Department of Isère, Region of Auvergne-Rhône-Alpes (former Rhône-Alpes), France",
+          "width": 4528,
+          "height": 3217,
+          "size": 17420631,
+          "timestamp": "2021-06-03T11:40:51Z",
+          "author": "Zairon",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Château delphinal",
@@ -55,6 +101,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Cr%C3%A9mieu_-_Ch%C3%A2teau_delphinal_-_Plaque_%C3%A0_l%27entr%C3%A9e.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACr%C3%A9mieu%20-%20Ch%C3%A2teau%20delphinal%20-%20Plaque%20%C3%A0%20l'entr%C3%A9e.jpg",
           "title": "Crémieu - Château delphinal - Plaque à l'entrée.jpg",
+          "description": "Plaque à l'entrée : \"Château delphinal, ancienne propriété des Dauphins restauré et retracé en 1904 par Claude François Sornin, peintre, sculpteur et architecte paysagiste\".",
           "width": 3456,
           "height": 2592,
           "size": 5592064,
@@ -62,12 +109,13 @@
           "author": "Romainbehar",
           "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Cr%C3%A9mieu_-_Mont%C3%A9e_Saint-Laurent_-_Vue_sur_le_ch%C3%A2teau_delphinal.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACr%C3%A9mieu%20-%20Mont%C3%A9e%20Saint-Laurent%20-%20Vue%20sur%20le%20ch%C3%A2teau%20delphinal.jpg",
           "title": "Crémieu - Montée Saint-Laurent - Vue sur le château delphinal.jpg",
+          "description": "Vue sur le château delphinal.",
           "width": 3456,
           "height": 2592,
           "size": 5264896,
@@ -75,20 +123,21 @@
           "author": "Romainbehar",
           "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Cr%C3%A9mieu_-_Ch%C3%A2teau_delphinal_-_Depuis_le_centre_du_village.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACr%C3%A9mieu%20-%20Ch%C3%A2teau%20delphinal%20-%20Depuis%20le%20centre%20du%20village.jpg",
-          "title": "Crémieu - Château delphinal - Depuis le centre du village.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Cr%C3%A9mieu_-_Route_de_Siccieu_-_Ch%C3%A2teau_-_Vu_depuis_la_colline_Saint-Hippolyte.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACr%C3%A9mieu%20-%20Route%20de%20Siccieu%20-%20Ch%C3%A2teau%20-%20Vu%20depuis%20la%20colline%20Saint-Hippolyte.jpg",
+          "title": "Crémieu - Route de Siccieu - Château - Vu depuis la colline Saint-Hippolyte.jpg",
+          "description": "Château, vu depuis la colline Saint-Hippolyte.",
           "width": 3456,
           "height": 2592,
-          "size": 5440512,
-          "timestamp": "2021-02-23T19:30:22Z",
+          "size": 5385216,
+          "timestamp": "2021-02-24T20:32:38Z",
           "author": "Romainbehar",
           "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         }
       ]
     },
@@ -96,22 +145,10 @@
       "label": "Abbaye des Augustins",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Cloitre_des_Augustins_de_Cremieu-2005.png",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACloitre%20des%20Augustins%20de%20Cremieu-2005.png",
-          "title": "Cloitre des Augustins de Cremieu-2005.png",
-          "width": 831,
-          "height": 467,
-          "size": 610986,
-          "timestamp": "2009-02-22T00:45:43Z",
-          "author": "The original uploader was <a href=\"https://en.wikipedia.org/wiki/fr:User:Archeos\" class=\"extiw\" title=\"w:fr:User:Archeos\">Archeos</a> at <a href=\"https://en.wikipedia.org/wiki/fr:\" class=\"extiw\" title=\"w:fr:\">French Wikipedia</a>.",
-          "license": "CC BY-SA 1.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 3
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Bras_sud_transept_suspendu_de_Cremieu.png",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABras%20sud%20transept%20suspendu%20de%20Cremieu.png",
           "title": "Bras sud transept suspendu de Cremieu.png",
+          "description": "Sujet : bras sud du fr:Transept de l'fr:abbaye de fr:Crémieu dans l'Isère\nDate :  9 juin 2005\nSource : photo personnelle d'Archeos\nDescription : bras sud du transept de l'église de l'abbaye des fr:Augustins de Crémieu, posé au-dessus du cloître (surélevé par-rapport au niveau du sol de l'église)\nOrientation (du sujet, le photographe lui faisant face) : vers le sud (photo prise vers 12h30)\n\nLicence :\nMots-clés : fr:architecture religieuse",
           "width": 728,
           "height": 409,
           "size": 709633,
@@ -120,12 +157,69 @@
           "license": "CC BY-SA 1.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 2
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Cloitre_des_Augustins_de_Cremieu-2005.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACloitre%20des%20Augustins%20de%20Cremieu-2005.png",
+          "title": "Cloitre des Augustins de Cremieu-2005.png",
+          "description": "Sujet : fr:cloître de l'fr:abbaye de fr:Crémieu dans l'Isère\nDate :  9 juin 2005\nSource : photo personnelle d'Archeos\nDescription : intérieur du cloître de l'abbaye des fr:Augustins de Crémieu, arcades en plein cintre, bassin, jardinOrientation : vers l'est (photo prise vers 12h30)\nLicence :\nMots-clés : fr:architecture religieuse",
+          "width": 831,
+          "height": 467,
+          "size": 610986,
+          "timestamp": "2009-02-22T00:45:43Z",
+          "author": "The original uploader was <a href=\"https://en.wikipedia.org/wiki/fr:User:Archeos\" class=\"extiw\" title=\"w:fr:User:Archeos\">Archeos</a> at <a href=\"https://en.wikipedia.org/wiki/fr:\" class=\"extiw\" title=\"w:fr:\">French Wikipedia</a>.",
+          "license": "CC BY-SA 1.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 0
         }
       ]
     },
     {
       "label": "Remparts et porte de la Loi",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Vue_de_haut_des_remparts_de_Cr%C3%A9mieu.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20de%20haut%20des%20remparts%20de%20Cr%C3%A9mieu.JPG",
+          "title": "Vue de haut des remparts de Crémieu.JPG",
+          "description": "Above view of Crémieu's ramparts",
+          "width": 1600,
+          "height": 1200,
+          "size": 218323,
+          "timestamp": "2012-07-03T10:11:39Z",
+          "author": "M1tZu0",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Halle_cr%C3%A9mieu_-_38.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHalle%20cr%C3%A9mieu%20-%2038.jpg",
+          "title": "Halle crémieu - 38.jpg",
+          "description": "Crémieu, petite cité iséroise de 3 500 âmes 40 km à l'est de Lyon, possède un patrimoine historique et architectural conséquents.\nToits de la ville depuis montée St-Hippolyte, menant à la ceinture de remparts est.\n\nAu centre halle (XVe s.), au fond perchés sur la colline St-Laurent, vestiges du \"château Delphinal\" (XIIe s.).",
+          "width": 1136,
+          "height": 852,
+          "size": 443126,
+          "timestamp": "2018-05-04T10:14:32Z",
+          "author": "Nanzig",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Cremieu_Remparts_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACremieu%20Remparts%201.jpg",
+          "title": "Cremieu Remparts 1.jpg",
+          "description": "Clock Tower, Crémieu, Department of Isère, Region of Auvergne-Rhône-Alpes (former Rhône-Alpes), France",
+          "width": 4579,
+          "height": 3105,
+          "size": 18784215,
+          "timestamp": "2021-06-03T11:41:36Z",
+          "author": "Zairon",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

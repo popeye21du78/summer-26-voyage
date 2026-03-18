@@ -1,46 +1,49 @@
 {
   "slug": "guedelon",
   "nom": "Guédelon",
-  "fetchedAt": "2026-03-13T14:40:13.846Z",
+  "fetchedAt": "2026-03-16T13:58:31.843Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Brinon_place.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABrinon%20place.jpg",
-      "title": "Brinon place.jpg",
-      "width": 4618,
-      "height": 3464,
-      "size": 2319757,
-      "timestamp": "2020-08-15T19:14:54Z",
-      "author": "CVB",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Ch%C3%A2teau_du_Gu%C3%A9delon%2C_fin_mai_2014%2C_des_moutons%2C_un_enfant.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20du%20Gu%C3%A9delon%2C%20fin%20mai%202014%2C%20des%20moutons%2C%20un%20enfant.jpg",
+      "title": "Château du Guédelon, fin mai 2014, des moutons, un enfant.jpg",
+      "description": "Château du Guédelon, fin mai 2014, des moutons, un enfant.",
+      "width": 3231,
+      "height": 2439,
+      "size": 2708781,
+      "timestamp": "2020-06-05T13:00:11Z",
+      "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q42790984\" class=\"extiw\" title=\"d:Q42790984\"><span title=\"French computing engineer\">Benoît Prieur</span></a></bdi>",
+      "license": "CC0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Chevannes-Changy_mairie.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChevannes-Changy%20mairie.jpg",
-      "title": "Chevannes-Changy mairie.jpg",
-      "width": 4618,
-      "height": 3464,
-      "size": 3903799,
-      "timestamp": "2020-08-15T19:42:01Z",
-      "author": "CVB",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Gu%C3%A9delon_2021-08-25_01.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGu%C3%A9delon%202021-08-25%2001.jpg",
+      "title": "Guédelon 2021-08-25 01.jpg",
+      "description": "Château de Guédelon en 2021, Yonne, Bourgogne, France",
+      "width": 6000,
+      "height": 4000,
+      "size": 10508275,
+      "timestamp": "2021-08-27T13:35:25Z",
+      "author": "Rolf Krahl (<a href=\"//commons.wikimedia.org/wiki/User:Rotkraut\" title=\"User:Rotkraut\">Rotkraut</a>)",
+      "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Chevannes-Changy_%C3%A9glise.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChevannes-Changy%20%C3%A9glise.jpg",
-      "title": "Chevannes-Changy église.jpg",
-      "width": 4618,
-      "height": 3464,
-      "size": 3443209,
-      "timestamp": "2020-08-15T19:42:01Z",
-      "author": "CVB",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Ch%C3%A2teau_de_Gu%C3%A9delon_%28octobre_2012%29_01.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Gu%C3%A9delon%20(octobre%202012)%2001.jpg",
+      "title": "Château de Guédelon (octobre 2012) 01.jpg",
+      "description": "Château vu de l'entrée",
+      "width": 4000,
+      "height": 2248,
+      "size": 4436480,
+      "timestamp": "2015-07-11T16:36:12Z",
+      "author": "Cinoworus",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 8
     }
   ],
   "lieux": [
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Ch%C3%A2teau_du_Gu%C3%A9delon%2C_fin_mai_2014%2C_des_moutons%2C_un_enfant.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20du%20Gu%C3%A9delon%2C%20fin%20mai%202014%2C%20des%20moutons%2C%20un%20enfant.jpg",
           "title": "Château du Guédelon, fin mai 2014, des moutons, un enfant.jpg",
+          "description": "Château du Guédelon, fin mai 2014, des moutons, un enfant.",
           "width": 3231,
           "height": 2439,
           "size": 2708781,
@@ -58,25 +62,13 @@
           "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q42790984\" class=\"extiw\" title=\"d:Q42790984\"><span title=\"French computing engineer\">Benoît Prieur</span></a></bdi>",
           "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Guedelon_107.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGuedelon%20107.jpg",
-          "title": "Guedelon 107.jpg",
-          "width": 3900,
-          "height": 2917,
-          "size": 1997817,
-          "timestamp": "2021-01-06T07:17:48Z",
-          "author": "Christophe.Finot",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Gu%C3%A9delon_2021-08-25_01.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGu%C3%A9delon%202021-08-25%2001.jpg",
           "title": "Guédelon 2021-08-25 01.jpg",
+          "description": "Château de Guédelon en 2021, Yonne, Bourgogne, France",
           "width": 6000,
           "height": 4000,
           "size": 10508275,
@@ -84,13 +76,70 @@
           "author": "Rolf Krahl (<a href=\"//commons.wikimedia.org/wiki/User:Rotkraut\" title=\"User:Rotkraut\">Rotkraut</a>)",
           "license": "CC BY 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Ch%C3%A2teau_de_Gu%C3%A9delon._en_2023_%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Gu%C3%A9delon.%20en%202023%20(2).jpg",
+          "title": "Château de Guédelon. en 2023 (2).jpg",
+          "description": "Château de Guédelon en 2023",
+          "width": 3909,
+          "height": 2930,
+          "size": 3513426,
+          "timestamp": "2023-08-19T12:37:12Z",
+          "author": "Espirat",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
         }
       ]
     },
     {
       "label": "Ateliers des artisans (tailleurs de pierre, forgerons)",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Gu%C3%A9delon_IMG_1206.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGu%C3%A9delon%20IMG%201206.JPG",
+          "title": "Guédelon IMG 1206.JPG",
+          "description": "Château de Guédelon - Toit en bardeaux d'un atelier",
+          "width": 5184,
+          "height": 3456,
+          "size": 9240127,
+          "timestamp": "2015-08-08T06:34:46Z",
+          "author": "Christian Dupré",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/%28Gu%C3%A9delon%29_Cordier.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A(Gu%C3%A9delon)%20Cordier.JPG",
+          "title": "(Guédelon) Cordier.JPG",
+          "description": "Chantier médiéval du château de Guédelon en juin 2008 (Treigny, Yonne, Bourgogne, France) : Atelier du Cordier",
+          "width": 3072,
+          "height": 2304,
+          "size": 2431402,
+          "timestamp": "2008-07-21T12:28:05Z",
+          "author": "LeMorvandiau",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Atelier_du_cordier_de_Gu%C3%A9delon.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAtelier%20du%20cordier%20de%20Gu%C3%A9delon.jpg",
+          "title": "Atelier du cordier de Guédelon.jpg",
+          "description": "Atelier du cordier au château de Guédelon.",
+          "width": 2592,
+          "height": 1944,
+          "size": 1812352,
+          "timestamp": "2009-10-10T12:55:57Z",
+          "author": "Tinodela",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Mare aux roseaux",

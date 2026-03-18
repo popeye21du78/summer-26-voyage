@@ -1,12 +1,13 @@
 {
   "slug": "chateau-de-langeais",
   "nom": "Château de Langeais",
-  "fetchedAt": "2026-03-13T13:10:13.323Z",
+  "fetchedAt": "2026-03-15T21:35:20.094Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Langeais_%2837%29_Ch%C3%A2teau_-_Fa%C3%A7ade_ouest_-_03.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALangeais%20(37)%20Ch%C3%A2teau%20-%20Fa%C3%A7ade%20ouest%20-%2003.jpg",
       "title": "Langeais (37) Château - Façade ouest - 03.jpg",
+      "description": "Façade ouest du château de Langeais (37).",
       "width": 3648,
       "height": 2056,
       "size": 2979798,
@@ -14,12 +15,13 @@
       "author": "Félix le Maugeois",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Langeais_%2837%29_Ch%C3%A2teau_-_Fa%C3%A7ade_ouest_-_04.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALangeais%20(37)%20Ch%C3%A2teau%20-%20Fa%C3%A7ade%20ouest%20-%2004.jpg",
       "title": "Langeais (37) Château - Façade ouest - 04.jpg",
+      "description": "Façade ouest du château de Langeais (37).",
       "width": 3648,
       "height": 2056,
       "size": 3003637,
@@ -27,12 +29,13 @@
       "author": "Félix le Maugeois",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Langeais_%2837%29_Ch%C3%A2teau_-_Fa%C3%A7ade_ouest_-_05.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALangeais%20(37)%20Ch%C3%A2teau%20-%20Fa%C3%A7ade%20ouest%20-%2005.jpg",
       "title": "Langeais (37) Château - Façade ouest - 05.jpg",
+      "description": "Façade ouest du château de Langeais (37).",
       "width": 3648,
       "height": 2736,
       "size": 4898363,
@@ -40,13 +43,56 @@
       "author": "Félix le Maugeois",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     }
   ],
   "lieux": [
     {
       "label": "Façade médiévale côté pont-levis",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Pont_Langeais.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20Langeais.jpg",
+          "title": "Pont Langeais.jpg",
+          "description": "Vue du pont de Langeais, depuis le belvédère du château (Langeais, Indre-et-Loire, Centre-Val-de-Loire, France).",
+          "width": 4053,
+          "height": 2192,
+          "size": 7965075,
+          "timestamp": "2025-09-20T20:36:22Z",
+          "author": "Yann Gwilhoù",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Langeais_-_Pont_de_Langeais.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALangeais%20-%20Pont%20de%20Langeais.jpg",
+          "title": "Langeais - Pont de Langeais.jpg",
+          "description": "Pont de Langeais, vu du château",
+          "width": 4272,
+          "height": 2848,
+          "size": 3767095,
+          "timestamp": "2017-01-31T00:02:23Z",
+          "author": "Jean-Christophe BENOIST",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Ch%C3%A2teau_de_Langeais_%28entr%C3%A9e_principale_avec_pont-levis%29_-_btv1b53094643n.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Langeais%20(entr%C3%A9e%20principale%20avec%20pont-levis)%20-%20btv1b53094643n.jpg",
+          "title": "Château de Langeais (entrée principale avec pont-levis) - btv1b53094643n.jpg",
+          "description": "Sujet : Ponts-levis -- Langeais (Indre-et-Loire, France)\nLangeais (Indre-et-Loire, France) -- Château\nRéférence bibliographique : Rol, 79190\nAppartient à l’ensemble documentaire : Pho20Rol\nAppartient à l’ensemble documentaire : Centre1\nImage de presse\nCouverture : .. octobre 1922\n\nLangue : français",
+          "width": 6099,
+          "height": 8457,
+          "size": 4365078,
+          "timestamp": "2024-10-26T19:20:43Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q18507700\" class=\"extiw\" title=\"d:Q18507700\"><span title=\"French photo agency\">Agence Rol</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        }
+      ]
     },
     {
       "label": "Grande salle du mariage royal",
@@ -54,11 +100,97 @@
     },
     {
       "label": "Jardins suspendus et fausses ruines",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Ch%C3%A2teau_de_Langeais_%28vue_sur_le_jardin_%C3%A0_la_fran%C3%A7aise%29_-_btv1b53094638g.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Langeais%20(vue%20sur%20le%20jardin%20%C3%A0%20la%20fran%C3%A7aise)%20-%20btv1b53094638g.jpg",
+          "title": "Château de Langeais (vue sur le jardin à la française) - btv1b53094638g.jpg",
+          "description": "Sujet : Langeais (Indre-et-Loire, France) -- Château\nRéférence bibliographique : Rol, 79187\nAppartient à l’ensemble documentaire : Pho20Rol\nAppartient à l’ensemble documentaire : Centre1\nImage de presse\nCouverture : .. octobre 1922\n\nLangue : français",
+          "width": 8457,
+          "height": 6099,
+          "size": 5042856,
+          "timestamp": "2025-03-20T00:17:57Z",
+          "author": "<div class=\"fn value\">\nAgence Rol. Agence photographique (commanditaire)</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Langeais_-_Chateau_-_vu_des_jardins.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALangeais%20-%20Chateau%20-%20vu%20des%20jardins.jpg",
+          "title": "Langeais - Chateau - vu des jardins.jpg",
+          "description": "Le château de Langeais vu des jardins",
+          "width": 4228,
+          "height": 2819,
+          "size": 2177939,
+          "timestamp": "2016-04-11T23:02:59Z",
+          "author": "Jean-Christophe BENOIST",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Ch%C3%A2teau_de_Langeais_et_jardins.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Langeais%20et%20jardins.jpg",
+          "title": "Château de Langeais et jardins.jpg",
+          "description": "Château de Langeais, vu de l'échafaudage médiéval du donjon",
+          "width": 5257,
+          "height": 3505,
+          "size": 6099252,
+          "timestamp": "2019-02-25T21:20:35Z",
+          "author": "Nono vlf",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        }
+      ]
     },
     {
       "label": "Parc médiéval avec machines de siège",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Ch%C3%A2teau_de_Langeais%2C_vu_du_parc.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Langeais%2C%20vu%20du%20parc.jpg",
+          "title": "Château de Langeais, vu du parc.jpg",
+          "description": "Château de Langeais, vu du parc",
+          "width": 4000,
+          "height": 3000,
+          "size": 11874177,
+          "timestamp": "2016-10-03T18:03:21Z",
+          "author": "Cinoworus",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Langeais_-_%C3%A9glise_Saint-Jean-Baptiste_%2802%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALangeais%20-%20%C3%A9glise%20Saint-Jean-Baptiste%20(02).jpg",
+          "title": "Langeais - église Saint-Jean-Baptiste (02).jpg",
+          "description": "Saint John the Baptist church of Langeais (Indre-et-Loire, France), seen from the castle's park",
+          "width": 2448,
+          "height": 3264,
+          "size": 3252011,
+          "timestamp": "2019-09-21T20:48:19Z",
+          "author": "Fab5669",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Langeais_-_%C3%A9glise_Saint-Jean-Baptiste_%2803%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALangeais%20-%20%C3%A9glise%20Saint-Jean-Baptiste%20(03).jpg",
+          "title": "Langeais - église Saint-Jean-Baptiste (03).jpg",
+          "description": "Saint John the Baptist church of Langeais (Indre-et-Loire, France), seen from the castle's park",
+          "width": 2448,
+          "height": 3264,
+          "size": 3733193,
+          "timestamp": "2019-09-21T20:48:19Z",
+          "author": "Fab5669",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

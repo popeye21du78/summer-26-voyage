@@ -1,12 +1,13 @@
 {
   "slug": "plage-de-berck",
   "nom": "Plage de Berck",
-  "fetchedAt": "2026-03-14T10:52:56.648Z",
+  "fetchedAt": "2026-03-17T22:39:20.436Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/2012-04-14_Berck_sur_mer_015.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2012-04-14%20Berck%20sur%20mer%20015.jpg",
       "title": "2012-04-14 Berck sur mer 015.jpg",
+      "description": "Plage de   Berck_(Pas-de-Calais) , sur le GR120.-   Pas-de-Calais, Nord-Pas-de-Calais-Picardie  France.- 26ème rencontre internationale des Cerfs-volants",
       "width": 1983,
       "height": 1353,
       "size": 1276394,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/2012-04-14_Berck_sur_mer_039.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2012-04-14%20Berck%20sur%20mer%20039.jpg",
       "title": "2012-04-14 Berck sur mer 039.jpg",
+      "description": "Institut Calot/Saint-François-de-Sales,  Berck_(Pas-de-Calais) , sur le GR120.-   Pas-de-Calais, Nord-Pas-de-Calais-Picardie  France.-  26ème rencontre internationale des Cerfs-volants",
       "width": 3847,
       "height": 2536,
       "size": 5346138,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Berck-sur-Mer_Et%C3%A92016_26%C3%A8me_rencontres_internationales_de_cerfs-volants_%282%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABerck-sur-Mer%20Et%C3%A92016%2026%C3%A8me%20rencontres%20internationales%20de%20cerfs-volants%20(2).jpg",
       "title": "Berck-sur-Mer Eté2016 26ème rencontres internationales de cerfs-volants (2).jpg",
+      "description": "26ème rencontre internationale des Cerfs-volants  Berck_(Pas-de-Calais) ,  Pas-de-Calais, Nord-Pas-de-Calais-Picardie  France.",
       "width": 2627,
       "height": 1992,
       "size": 2052833,
@@ -48,22 +51,10 @@
       "label": "Baie d’Authie",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Phoques_veaux_marins%2C_baie_d%27Authie_-_img_45727.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APhoques%20veaux%20marins%2C%20baie%20d'Authie%20-%20img%2045727.jpg",
-          "title": "Phoques veaux marins, baie d'Authie - img 45727.jpg",
-          "width": 5472,
-          "height": 3492,
-          "size": 6609653,
-          "timestamp": "2020-11-12T07:37:00Z",
-          "author": "Pmau",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Berck_Baie_de_Somme_Phoca_vitulina_hdsr_1DMkIV_07.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABerck%20Baie%20de%20Somme%20Phoca%20vitulina%20hdsr%201DMkIV%2007.jpg",
           "title": "Berck Baie de Somme Phoca vitulina hdsr 1DMkIV 07.jpg",
+          "description": "image montrant une photographie de veaux marins ou phoques communs (Phoca vitulina) prise près de Berck dans la Baie d'Authie, rive sud du fleuve, à Fort-Mahon-Plage",
           "width": 4896,
           "height": 3264,
           "size": 11967253,
@@ -74,15 +65,30 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Phoques_veaux_marins_%284%29.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APhoques%20veaux%20marins%20(4).JPG",
-          "title": "Phoques veaux marins (4).JPG",
-          "width": 2592,
-          "height": 1944,
-          "size": 1397299,
-          "timestamp": "2016-05-16T07:42:48Z",
-          "author": "Ibex73",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Phoques_et_veaux_marins_%C3%A0_Berck_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APhoques%20et%20veaux%20marins%20%C3%A0%20Berck%201.jpg",
+          "title": "Phoques et veaux marins à Berck 1.jpg",
+          "description": "Common seals in Berck (Pas-de-Calais, France).",
+          "width": 2816,
+          "height": 2112,
+          "size": 983397,
+          "timestamp": "2019-07-22T12:40:28Z",
+          "author": "Tangopaso",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Phoques_et_veaux_marins_%C3%A0_Berck_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APhoques%20et%20veaux%20marins%20%C3%A0%20Berck%202.jpg",
+          "title": "Phoques et veaux marins à Berck 2.jpg",
+          "description": "Common seals in Berck (Pas-de-Calais, France).",
+          "width": 2816,
+          "height": 2112,
+          "size": 1150022,
+          "timestamp": "2019-07-22T12:41:31Z",
+          "author": "Tangopaso",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
         }
@@ -96,22 +102,10 @@
       "label": "Dunes de Berck",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/1904_ArchdeaconWithWrightGliderClone.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1904%20ArchdeaconWithWrightGliderClone.JPG",
-          "title": "1904 ArchdeaconWithWrightGliderClone.JPG",
-          "width": 2640,
-          "height": 1485,
-          "size": 2021434,
-          "timestamp": "2021-01-06T22:36:39Z",
-          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Jules_Beau\" class=\"extiw\" title=\"w:en:Jules Beau\"><span title=\"French photographer (1864-1932)\">Jules Beau</span></a></bdi>",
-          "license": "Public domain",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Dunes_Plage_de_Berck_-_panoramio.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADunes%20Plage%20de%20Berck%20-%20panoramio.jpg",
           "title": "Dunes Plage de Berck - panoramio.jpg",
+          "description": "Dunes Plage de Berck",
           "width": 3456,
           "height": 2304,
           "size": 2667912,
@@ -120,19 +114,6 @@
           "license": "CC BY 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Btv1b84333567-p006.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABtv1b84333567-p006.jpg",
-          "title": "Btv1b84333567-p006.jpg",
-          "width": 3840,
-          "height": 4980,
-          "size": 5403581,
-          "timestamp": "2016-05-01T16:01:50Z",
-          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Jules_Beau\" class=\"extiw\" title=\"w:en:Jules Beau\"><span title=\"French photographer (1864-1932)\">Jules Beau</span></a></bdi>",
-          "license": "Public domain",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
         }
       ]
     }

@@ -1,41 +1,44 @@
 {
   "slug": "cany-barville",
   "nom": "Cany-Barville",
-  "fetchedAt": "2026-03-13T12:25:42.978Z",
+  "fetchedAt": "2026-03-15T20:36:19.549Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Chateaux_cany_01.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateaux%20cany%2001.jpg",
-      "title": "Chateaux cany 01.jpg",
-      "width": 1803,
-      "height": 1349,
-      "size": 428763,
-      "timestamp": "2016-10-25T15:52:54Z",
-      "author": "Bodoklecksel",
-      "license": "CC BY-SA 3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Cany-Barville_%28Seine-Mar.%29_grille_et_douves%2C_ch%C3%A2teau_de_Cany.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACany-Barville%20(Seine-Mar.)%20grille%20et%20douves%2C%20ch%C3%A2teau%20de%20Cany.jpg",
+      "title": "Cany-Barville (Seine-Mar.) grille et douves, château de Cany.jpg",
+      "description": "Cany-Barville (Seine-Mar.) grille et douves, château de Cany",
+      "width": 3648,
+      "height": 2736,
+      "size": 4537933,
+      "timestamp": "2019-08-24T07:27:11Z",
+      "author": "Havang(nl)",
+      "license": "CC0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Cany-Barville_%28Seine-Mar.%29_v%C3%A9loroute_vall%C3%A9e_de_la_Durdent_longeant_le_ch%C3%A2teau_de_Cany.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACany-Barville%20(Seine-Mar.)%20v%C3%A9loroute%20vall%C3%A9e%20de%20la%20Durdent%20longeant%20le%20ch%C3%A2teau%20de%20Cany.jpg",
+      "title": "Cany-Barville (Seine-Mar.) véloroute vallée de la Durdent longeant le château de Cany.jpg",
+      "description": "Cany-Barville (Seine-Mar.) véloroute vallée de la Durdent longeant le château de Cany",
+      "width": 3648,
+      "height": 2736,
+      "size": 4511947,
+      "timestamp": "2019-08-24T07:27:18Z",
+      "author": "Havang(nl)",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Cany-Barville_%28Seine-Mar.%29_Chapelle_Notre-Dame_de_Barville_%2801%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACany-Barville%20(Seine-Mar.)%20Chapelle%20Notre-Dame%20de%20Barville%20(01).jpg",
       "title": "Cany-Barville (Seine-Mar.) Chapelle Notre-Dame de Barville (01).jpg",
+      "description": "Cany-Barville (Seine-Mar.) Chapelle Notre-Dame de Barville",
       "width": 3648,
       "height": 2736,
       "size": 4123020,
-      "timestamp": "2019-08-24T07:27:02Z",
-      "author": "Havang(nl)",
-      "license": "CC0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Cany-Barville_%28Seine-Mar.%29_Chapelle_Notre-Dame_de_Barville_%2802%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACany-Barville%20(Seine-Mar.)%20Chapelle%20Notre-Dame%20de%20Barville%20(02).jpg",
-      "title": "Cany-Barville (Seine-Mar.) Chapelle Notre-Dame de Barville (02).jpg",
-      "width": 3648,
-      "height": 2736,
-      "size": 4357138,
       "timestamp": "2019-08-24T07:27:02Z",
       "author": "Havang(nl)",
       "license": "CC0",
@@ -58,7 +61,22 @@
     },
     {
       "label": "Pont de pierre",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Photographie_du_fleuve_de_la_Durdent_vue_de_l%E2%80%99un_des_ponts_du_chemin_des_po%C3%A8tes_%C3%A0_Cany_Barville.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APhotographie%20du%20fleuve%20de%20la%20Durdent%20vue%20de%20l%E2%80%99un%20des%20ponts%20du%20chemin%20des%20po%C3%A8tes%20%C3%A0%20Cany%20Barville.jpg",
+          "title": "Photographie du fleuve de la Durdent vue de l’un des ponts du chemin des poètes à Cany Barville.jpg",
+          "description": "Photograph of the Durdent river as seen from one of the bridges on the Chemin des Poètes in Cany Barville.",
+          "width": 3024,
+          "height": 4032,
+          "size": 2738259,
+          "timestamp": "2023-08-17T01:03:10Z",
+          "author": "France-Pt9301",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

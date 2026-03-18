@@ -1,12 +1,27 @@
 {
   "slug": "arreau",
   "nom": "Arreau",
-  "fetchedAt": "2026-03-12T23:53:12.591Z",
+  "fetchedAt": "2026-03-15T15:14:21.537Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Arreau-Ch%C3%A2teau_de_S%C3%A9gure.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArreau-Ch%C3%A2teau%20de%20S%C3%A9gure.jpg",
+      "title": "Arreau-Château de Ségure.jpg",
+      "description": ".Château de Ségure, with Saint Exupère church in the background",
+      "width": 4379,
+      "height": 2920,
+      "size": 16811765,
+      "timestamp": "2024-03-30T16:49:31Z",
+      "author": "Daniel VILLAFRUELA",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Arreau-%C3%89glise_Saint_%C3%89xup%C3%A8re-Coffre.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArreau-%C3%89glise%20Saint%20%C3%89xup%C3%A8re-Coffre.jpg",
       "title": "Arreau-Église Saint Éxupère-Coffre.jpg",
+      "description": "Liturgical chest stamped with the monogram of St. Exupère.",
       "width": 4072,
       "height": 2714,
       "size": 16682643,
@@ -17,28 +32,16 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Arreau-Ch%C3%A2teau_de_S%C3%A9gure.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArreau-Ch%C3%A2teau%20de%20S%C3%A9gure.jpg",
-      "title": "Arreau-Château de Ségure.jpg",
-      "width": 4379,
-      "height": 2920,
-      "size": 16811765,
-      "timestamp": "2024-03-30T16:49:31Z",
-      "author": "Daniel VILLAFRUELA",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/W1952-Arreau_ChtSegure_88526.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AW1952-Arreau%20ChtSegure%2088526.JPG",
+      "title": "W1952-Arreau ChtSegure 88526.JPG",
+      "description": "Château de Ségure, Fr-65-Arreau.",
+      "width": 4752,
+      "height": 3168,
+      "size": 5150311,
+      "timestamp": "2014-08-03T10:30:53Z",
+      "author": "Llann Wé²",
       "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Maison_des_Lys_%C3%A0_Arreau_04.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison%20des%20Lys%20%C3%A0%20Arreau%2004.jpg",
-      "title": "Maison des Lys à Arreau 04.jpg",
-      "width": 3648,
-      "height": 2736,
-      "size": 2698543,
-      "timestamp": "2021-08-30T14:20:38Z",
-      "author": "Selmoval",
-      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     }
@@ -46,15 +49,73 @@
   "lieux": [
     {
       "label": "Halle médiévale d’Arreau",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Arreau_-_La_mairie_10.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArreau%20-%20La%20mairie%2010.jpg",
+          "title": "Arreau - La mairie 10.jpg",
+          "description": "La mairie",
+          "width": 2539,
+          "height": 1948,
+          "size": 3144179,
+          "timestamp": "2023-01-15T10:09:41Z",
+          "author": "René Hourdry",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Arreau_-_La_mairie_11.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArreau%20-%20La%20mairie%2011.jpg",
+          "title": "Arreau - La mairie 11.jpg",
+          "description": "La mairie",
+          "width": 3295,
+          "height": 2065,
+          "size": 4686586,
+          "timestamp": "2023-01-15T10:09:42Z",
+          "author": "René Hourdry",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Mairie_de_Arreau_%28Hautes-Pyr%C3%A9n%C3%A9es%29_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMairie%20de%20Arreau%20(Hautes-Pyr%C3%A9n%C3%A9es)%201.jpg",
+          "title": "Mairie de Arreau (Hautes-Pyrénées) 1.jpg",
+          "description": "Mairie d'Arreau (Hautes-Pyrénées)",
+          "width": 4178,
+          "height": 2769,
+          "size": 2612064,
+          "timestamp": "2025-01-07T08:49:06Z",
+          "author": "Sotos",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Église Saint-Exupère",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Arreau-%C3%89glise_Saint_%C3%89xup%C3%A8re-Vo%C3%BBte_du_narthex.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArreau-%C3%89glise%20Saint%20%C3%89xup%C3%A8re-Vo%C3%BBte%20du%20narthex.jpg",
+          "title": "Arreau-Église Saint Éxupère-Voûte du narthex.jpg",
+          "description": "Painted ceiling of the first bay in the narthex.. Four angels hold a phylactery displaying the Cardinal virtues: Prudence, Courage, Temperance and Justice",
+          "width": 3836,
+          "height": 2557,
+          "size": 9720609,
+          "timestamp": "2024-03-25T16:51:27Z",
+          "author": "Daniel VILLAFRUELA",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Arreau-%C3%89glise_Saint_%C3%89xup%C3%A8re-Coffre.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArreau-%C3%89glise%20Saint%20%C3%89xup%C3%A8re-Coffre.jpg",
           "title": "Arreau-Église Saint Éxupère-Coffre.jpg",
+          "description": "Liturgical chest stamped with the monogram of St. Exupère.",
           "width": 4072,
           "height": 2714,
           "size": 16682643,
@@ -68,25 +129,13 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Arreau-%C3%89glise_Saint_%C3%89xup%C3%A8re-Porte_du_clocher.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArreau-%C3%89glise%20Saint%20%C3%89xup%C3%A8re-Porte%20du%20clocher.jpg",
           "title": "Arreau-Église Saint Éxupère-Porte du clocher.jpg",
+          "description": "Doorway to the staircase of the bell-tower, in the narthex what was entirely painted.",
           "width": 4195,
           "height": 2738,
           "size": 21841859,
           "timestamp": "2024-03-26T16:58:07Z",
           "author": "Daniel VILLAFRUELA",
           "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Arreau.-_Chrisme_de_l%27Eglise_Saint_Exup%C3%A8re.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArreau.-%20Chrisme%20de%20l'Eglise%20Saint%20Exup%C3%A8re.jpg",
-          "title": "Arreau.- Chrisme de l'Eglise Saint Exupère.jpg",
-          "width": 2035,
-          "height": 1680,
-          "size": 2085040,
-          "timestamp": "2023-01-17T10:10:22Z",
-          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q97949455\" class=\"extiw\" title=\"d:Q97949455\"><span title=\"French photographer and Wikimedian\">Pierre André Leclercq</span></a></bdi>",
-          "license": "CC BY 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         }
@@ -99,6 +148,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Arreau_depuis_la_route_de_Saracolin._9_octobre_1821_Arreau_taken_from_the_Road_to_Saracolin._October_9_1821_%28n%C2%B049%29_-_Fonds_Ancely_-_B315556101_A_COLSTON_026.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArreau%20depuis%20la%20route%20de%20Saracolin.%209%20octobre%201821%20Arreau%20taken%20from%20the%20Road%20to%20Saracolin.%20October%209%201821%20(n%C2%B049)%20-%20Fonds%20Ancely%20-%20B315556101%20A%20COLSTON%20026.jpg",
           "title": "Arreau depuis la route de Saracolin. 9 octobre 1821 Arreau taken from the Road to Saracolin. October 9 1821 (n°49) - Fonds Ancely - B315556101 A COLSTON 026.jpg",
+          "description": "27 planches pyrénéennes extraites de \"Journal of a tour in France, Switzerland, and Italy, during the years 1819, 1820, 1821\", qui comprend 2 volumes in-8° et 1 album in-f° de 50 planches lithographiées. La partie pyrénéenne de l'ouvrage est contenue dans les chapitres XX, XXI et XXII du Tome II (p. 155-231) et les planches n°24 à 50 de l'album (toutes datées de 1821). La 49e lithographie (Arreau taken from the Road to Saracolin, October 1821) n'est pas chiffrée. Toutes les lithographies sont ic",
           "width": 2185,
           "height": 1662,
           "size": 1729236,
@@ -112,6 +162,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Arreau_et_la_Vall%C3%A9e_d%27Aure_%28Hautes_Pyr%C3%A9n%C3%A9es%29_-_Vue_prise_au_dessus_de_la_route_du_Col_d%27Aspin_-_Fonds_Ancely_-_B315556101_A_MERCEREAU_7_013.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArreau%20et%20la%20Vall%C3%A9e%20d'Aure%20(Hautes%20Pyr%C3%A9n%C3%A9es)%20-%20Vue%20prise%20au%20dessus%20de%20la%20route%20du%20Col%20d'Aspin%20-%20Fonds%20Ancely%20-%20B315556101%20A%20MERCEREAU%207%20013.jpg",
           "title": "Arreau et la Vallée d'Aure (Hautes Pyrénées) - Vue prise au dessus de la route du Col d'Aspin - Fonds Ancely - B315556101 A MERCEREAU 7 013.jpg",
+          "description": "Impression en 3 coul. par Frick frères à Paris\nFait partie d'un ensemble de recueils de lithographies de Mercereau composés de lithographies provenant de \"La France de nos jours\", vaste suite publiée par livraisons, de 1853 à 1876, et comprenant 475 planches en deux tirages, l'un à deux teintes (noir et bistre), l'autre en couleurs. Les libraires ont réuni ces planches en albums de composition variable quant au nombre de planches et aux dessinateurs (Asselineau, Mercereau, Maurice, Deroy, etc). ",
           "width": 2024,
           "height": 1458,
           "size": 1242186,
@@ -125,6 +176,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Pont_d%27Arreau_%28Hautes-Pyr%C3%A9n%C3%A9es%29_sur_la_Neste_1.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20d'Arreau%20(Hautes-Pyr%C3%A9n%C3%A9es)%20sur%20la%20Neste%201.jpg",
           "title": "Pont d'Arreau (Hautes-Pyrénées) sur la Neste 1.jpg",
+          "description": "Pont d'Arreau (Hautes-Pyrénées) sur la Neste",
           "width": 4404,
           "height": 3284,
           "size": 3724572,

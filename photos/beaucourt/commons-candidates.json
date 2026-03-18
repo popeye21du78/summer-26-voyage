@@ -1,42 +1,45 @@
 {
   "slug": "beaucourt",
   "nom": "Beaucourt",
-  "fetchedAt": "2026-03-13T00:11:23.230Z",
+  "fetchedAt": "2026-03-15T19:27:42.170Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Beaucourt%2C_Ch%C3%A2teau_d%27eau_du_rue_du_Mont_de_Dasle.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeaucourt%2C%20Ch%C3%A2teau%20d'eau%20du%20rue%20du%20Mont%20de%20Dasle.jpg",
+      "title": "Beaucourt, Château d'eau du rue du Mont de Dasle.jpg",
+      "description": "Le château d'eau du rue du Mont de Dasle à Beaucourt",
+      "width": 5528,
+      "height": 3750,
+      "size": 3375206,
+      "timestamp": "2024-09-08T20:02:08Z",
+      "author": "Rauenstein",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Beaucourt%2C_Ch%C3%A2teau_d%27eau_du_chemin_du_cimeti%C3%A8re.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeaucourt%2C%20Ch%C3%A2teau%20d'eau%20du%20chemin%20du%20cimeti%C3%A8re.jpg",
+      "title": "Beaucourt, Château d'eau du chemin du cimetière.jpg",
+      "description": "Le château d'eau du chemin du cimetière à Beaucourt",
+      "width": 3886,
+      "height": 4450,
+      "size": 2046025,
+      "timestamp": "2024-09-08T19:28:37Z",
+      "author": "Rauenstein",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Beaucourt%2C_%C3%89cole_primaire_et_%C3%A9cole_de_musique.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeaucourt%2C%20%C3%89cole%20primaire%20et%20%C3%A9cole%20de%20musique.jpg",
       "title": "Beaucourt, École primaire et école de musique.jpg",
+      "description": "L'école primaire et l'école de musique à Beaucourt",
       "width": 2492,
       "height": 1236,
       "size": 534856,
       "timestamp": "2023-04-20T20:42:24Z",
-      "author": "Rauenstein",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Beaucourt%2C_H%C3%B4tel_de_ville.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeaucourt%2C%20H%C3%B4tel%20de%20ville.jpg",
-      "title": "Beaucourt, Hôtel de ville.jpg",
-      "width": 2199,
-      "height": 1292,
-      "size": 484704,
-      "timestamp": "2023-04-22T10:37:14Z",
-      "author": "Rauenstein",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Montbouton%2C_%C3%89glise_Saint-L%C3%A9ger_2.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMontbouton%2C%20%C3%89glise%20Saint-L%C3%A9ger%202.jpg",
-      "title": "Montbouton, Église Saint-Léger 2.jpg",
-      "width": 2948,
-      "height": 2190,
-      "size": 1184997,
-      "timestamp": "2025-05-26T16:50:47Z",
       "author": "Rauenstein",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
@@ -46,11 +49,97 @@
   "lieux": [
     {
       "label": "Parc du château Grammont",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Beaucourt%2C_Ch%C3%A2teau_d%27eau_du_rue_du_Mont_de_Dasle.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeaucourt%2C%20Ch%C3%A2teau%20d'eau%20du%20rue%20du%20Mont%20de%20Dasle.jpg",
+          "title": "Beaucourt, Château d'eau du rue du Mont de Dasle.jpg",
+          "description": "Le château d'eau du rue du Mont de Dasle à Beaucourt",
+          "width": 5528,
+          "height": 3750,
+          "size": 3375206,
+          "timestamp": "2024-09-08T20:02:08Z",
+          "author": "Rauenstein",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Beaucourt%2C_Ch%C3%A2teau_d%27eau_du_chemin_du_cimeti%C3%A8re.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeaucourt%2C%20Ch%C3%A2teau%20d'eau%20du%20chemin%20du%20cimeti%C3%A8re.jpg",
+          "title": "Beaucourt, Château d'eau du chemin du cimetière.jpg",
+          "description": "Le château d'eau du chemin du cimetière à Beaucourt",
+          "width": 3886,
+          "height": 4450,
+          "size": 2046025,
+          "timestamp": "2024-09-08T19:28:37Z",
+          "author": "Rauenstein",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Maison_Beaucourt.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison%20Beaucourt.jpg",
+          "title": "Maison Beaucourt.jpg",
+          "description": "Château Bornèque-Warnery",
+          "width": 2048,
+          "height": 1536,
+          "size": 1132764,
+          "timestamp": "2012-01-21T19:06:46Z",
+          "author": "Roman.b",
+          "license": "FAL",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Château Grammont",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Beaucourt%2C_Ch%C3%A2teau_d%27eau_du_rue_du_Mont_de_Dasle.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeaucourt%2C%20Ch%C3%A2teau%20d'eau%20du%20rue%20du%20Mont%20de%20Dasle.jpg",
+          "title": "Beaucourt, Château d'eau du rue du Mont de Dasle.jpg",
+          "description": "Le château d'eau du rue du Mont de Dasle à Beaucourt",
+          "width": 5528,
+          "height": 3750,
+          "size": 3375206,
+          "timestamp": "2024-09-08T20:02:08Z",
+          "author": "Rauenstein",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Beaucourt%2C_Ch%C3%A2teau_d%27eau_du_chemin_du_cimeti%C3%A8re.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeaucourt%2C%20Ch%C3%A2teau%20d'eau%20du%20chemin%20du%20cimeti%C3%A8re.jpg",
+          "title": "Beaucourt, Château d'eau du chemin du cimetière.jpg",
+          "description": "Le château d'eau du chemin du cimetière à Beaucourt",
+          "width": 3886,
+          "height": 4450,
+          "size": 2046025,
+          "timestamp": "2024-09-08T19:28:37Z",
+          "author": "Rauenstein",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Maison_Beaucourt.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison%20Beaucourt.jpg",
+          "title": "Maison Beaucourt.jpg",
+          "description": "Château Bornèque-Warnery",
+          "width": 2048,
+          "height": 1536,
+          "size": 1132764,
+          "timestamp": "2012-01-21T19:06:46Z",
+          "author": "Roman.b",
+          "license": "FAL",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Villa Japy",
@@ -58,7 +147,36 @@
     },
     {
       "label": "Tourbière de la Combe Noire",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Beaucourt-en-Santerre_%28Somme%29_France_%282%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeaucourt-en-Santerre%20(Somme)%20France%20(2).JPG",
+          "title": "Beaucourt-en-Santerre (Somme) France (2).JPG",
+          "description": "Tour près du château.",
+          "width": 2736,
+          "height": 3648,
+          "size": 2187952,
+          "timestamp": "2014-10-29T07:27:10Z",
+          "author": "APictche",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Tour_de_France_1906_avant_la_c%C3%B4te_de_Beaucourt%2C_Aucouturier_plaisante_avec_Trousselier_et_Cadolle.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATour%20de%20France%201906%20avant%20la%20c%C3%B4te%20de%20Beaucourt%2C%20Aucouturier%20plaisante%20avec%20Trousselier%20et%20Cadolle.jpg",
+          "title": "Tour de France 1906 avant la côte de Beaucourt, Aucouturier plaisante avec Trousselier et Cadolle.jpg",
+          "description": "Tour de France 1906 avant la côte de Beaucourt, Aucouturier plaisante avec Trousselier et Cadolle.",
+          "width": 780,
+          "height": 553,
+          "size": 183739,
+          "timestamp": "2017-10-20T21:01:33Z",
+          "author": "La vie au grand Air",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 3
+        }
+      ]
     }
   ]
 }

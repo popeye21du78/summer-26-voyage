@@ -1,12 +1,13 @@
 {
   "slug": "pesmes",
   "nom": "Pesmes",
-  "fetchedAt": "2026-03-13T16:49:45.656Z",
+  "fetchedAt": "2026-03-17T22:24:21.136Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Pesmes_%2870%29_%C3%89glise_Saint-Hilaire_-_Int%C3%A9rieur_-_Chapelle_d%27Andelot_-_Autel_et_retable_-_02.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APesmes%20(70)%20%C3%89glise%20Saint-Hilaire%20-%20Int%C3%A9rieur%20-%20Chapelle%20d'Andelot%20-%20Autel%20et%20retable%20-%2002.jpg",
       "title": "Pesmes (70) Église Saint-Hilaire - Intérieur - Chapelle d'Andelot - Autel et retable - 02.jpg",
+      "description": "Autel et retable de la chapelle D'Andelot en l'église Saint-Hilaire à Pesmes (70).",
       "width": 2100,
       "height": 1400,
       "size": 1096046,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Pesmes_%2870%29_%C3%89glise_Saint-Hilaire_-_Int%C3%A9rieur_-_Chapelle_d%27Andelot_-_Autel_et_retable_-_06.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APesmes%20(70)%20%C3%89glise%20Saint-Hilaire%20-%20Int%C3%A9rieur%20-%20Chapelle%20d'Andelot%20-%20Autel%20et%20retable%20-%2006.jpg",
       "title": "Pesmes (70) Église Saint-Hilaire - Intérieur - Chapelle d'Andelot - Autel et retable - 06.jpg",
+      "description": "Autel et retable de la chapelle D'Andelot en l'église Saint-Hilaire à Pesmes (70). Baiser de Judas et arrestation du Christ.",
       "width": 2100,
       "height": 1400,
       "size": 1021130,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Pesmes_%2870%29_%C3%89glise_Saint-Hilaire_-_Int%C3%A9rieur_-_Chapelle_d%27Andelot_-_Autel_et_retable_-_07.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APesmes%20(70)%20%C3%89glise%20Saint-Hilaire%20-%20Int%C3%A9rieur%20-%20Chapelle%20d'Andelot%20-%20Autel%20et%20retable%20-%2007.jpg",
       "title": "Pesmes (70) Église Saint-Hilaire - Intérieur - Chapelle d'Andelot - Autel et retable - 07.jpg",
+      "description": "Autel et retable de la chapelle D'Andelot en l'église Saint-Hilaire à Pesmes (70). Portement de Croix.",
       "width": 2100,
       "height": 1400,
       "size": 974006,
@@ -48,43 +51,32 @@
       "label": "Porte Saint-Hilaire",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Pesmes%2C_la_porte_Saint-Hilaire.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APesmes%2C%20la%20porte%20Saint-Hilaire.jpg",
-          "title": "Pesmes, la porte Saint-Hilaire.jpg",
-          "width": 3008,
-          "height": 2000,
-          "size": 1217611,
-          "timestamp": "2022-06-12T20:59:06Z",
-          "author": "Wikipedro",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Porte_Saint-Hilaire_in_Pesmes.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APorte%20Saint-Hilaire%20in%20Pesmes.jpg",
-          "title": "Porte Saint-Hilaire in Pesmes.jpg",
-          "width": 3242,
-          "height": 5059,
-          "size": 12005176,
-          "timestamp": "2020-03-17T20:03:24Z",
-          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q51955005\" class=\"extiw\" title=\"d:Q51955005\"><span title=\"Wikimedian\">Krzysztof Golik</span></a></bdi>",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Pesmes_%C3%89glise_Saint-Hilaire_entr%C3%A9e_de_l%27%C3%A9glise.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APesmes%20%C3%89glise%20Saint-Hilaire%20entr%C3%A9e%20de%20l'%C3%A9glise.jpg",
+          "title": "Pesmes Église Saint-Hilaire entrée de l'église.jpg",
+          "description": "Photographie ddes portes d'accès à l'église.",
+          "width": 3744,
+          "height": 5616,
+          "size": 9167312,
+          "timestamp": "2022-07-17T06:30:22Z",
+          "author": "Hyppolyte de Saint-Rambert",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Pesmes_%2870%29_Porte_Saint-Hilaire_-_01.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APesmes%20(70)%20Porte%20Saint-Hilaire%20-%2001.jpg",
-          "title": "Pesmes (70) Porte Saint-Hilaire - 01.jpg",
-          "width": 1400,
-          "height": 2100,
-          "size": 1210611,
-          "timestamp": "2021-09-10T17:21:11Z",
-          "author": "GO69",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Pesmes_-_Porte_Saint_Hilaire.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APesmes%20-%20Porte%20Saint%20Hilaire.JPG",
+          "title": "Pesmes - Porte Saint Hilaire.JPG",
+          "description": "Une des deux portes existant encore à Pesmes",
+          "width": 2112,
+          "height": 2816,
+          "size": 1890470,
+          "timestamp": "2012-09-30T08:56:40Z",
+          "author": "Kessel Luc",
+          "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 4
         }
       ]
     },
@@ -92,40 +84,43 @@
       "label": "Église Saint-Hilaire",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Pesmes%2C_la_rue_Saint-Hilaire_et_l%27%C3%A9glise_Saint-Hilaire.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APesmes%2C%20la%20rue%20Saint-Hilaire%20et%20l'%C3%A9glise%20Saint-Hilaire.jpg",
-          "title": "Pesmes, la rue Saint-Hilaire et l'église Saint-Hilaire.jpg",
-          "width": 3008,
-          "height": 2000,
-          "size": 1450677,
-          "timestamp": "2022-06-12T21:04:29Z",
-          "author": "Wikipedro",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Pesmes_%C3%89glise_Saint-Hilaire_int%C3%A9rieur_de_l%27%C3%A9glise.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APesmes%20%C3%89glise%20Saint-Hilaire%20int%C3%A9rieur%20de%20l'%C3%A9glise.jpg",
-          "title": "Pesmes Église Saint-Hilaire intérieur de l'église.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Pesmes_%C3%89glise_Saint-Hilaire_le_clocher_%C3%A0_bulbe.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APesmes%20%C3%89glise%20Saint-Hilaire%20le%20clocher%20%C3%A0%20bulbe.jpg",
+          "title": "Pesmes Église Saint-Hilaire le clocher à bulbe.jpg",
+          "description": "Une vue du clocher de l'Église Saint-Hilaire",
           "width": 5616,
           "height": 3744,
-          "size": 8566945,
-          "timestamp": "2022-07-17T06:30:25Z",
+          "size": 7408942,
+          "timestamp": "2022-07-17T06:30:35Z",
           "author": "Hyppolyte de Saint-Rambert",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/%C3%89glise_Saint-Hilaire_la_Chaire.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-Hilaire%20la%20Chaire.jpg",
-          "title": "Église Saint-Hilaire la Chaire.jpg",
-          "width": 5616,
-          "height": 3744,
-          "size": 6858399,
-          "timestamp": "2022-07-17T06:30:30Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Bard-l%C3%A8s-Pesmes_%28Haute-Sa%C3%B4ne%29_%C3%89glise_hdsr_S5_10.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABard-l%C3%A8s-Pesmes%20(Haute-Sa%C3%B4ne)%20%C3%89glise%20hdsr%20S5%2010.jpg",
+          "title": "Bard-lès-Pesmes (Haute-Saône) Église hdsr S5 10.jpg",
+          "description": "image montrant une photographie prise sur le territoire de la commune de Bard-lès-Pesmes dans le département de la Haute-Saône : Église Saint-Ferréol-et-Saint-Ferjeux (vue depuis la rue)",
+          "width": 4000,
+          "height": 6000,
+          "size": 11526457,
+          "timestamp": "2023-11-14T09:38:15Z",
           "author": "Hyppolyte de Saint-Rambert",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Pesmes_%2870%29_%C3%89glise_Saint-Hilaire_-_Ext%C3%A9rieur_-_12.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APesmes%20(70)%20%C3%89glise%20Saint-Hilaire%20-%20Ext%C3%A9rieur%20-%2012.jpg",
+          "title": "Pesmes (70) Église Saint-Hilaire - Extérieur - 12.jpg",
+          "description": "Extérieur de l'église Saint-Hilaire à Pesmes (70).",
+          "width": 2100,
+          "height": 1400,
+          "size": 900545,
+          "timestamp": "2021-05-25T18:58:54Z",
+          "author": "GO69",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
@@ -136,41 +131,44 @@
       "label": "Pont sur l’Ognon",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Les_remparts_de_Pesmes_depuis_le_pont_sur_l%27Ognon.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20remparts%20de%20Pesmes%20depuis%20le%20pont%20sur%20l'Ognon.jpg",
-          "title": "Les remparts de Pesmes depuis le pont sur l'Ognon.jpg",
-          "width": 5838,
-          "height": 3882,
-          "size": 1407873,
-          "timestamp": "2022-06-11T16:32:34Z",
-          "author": "Wikipedro",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Pesmes%2C_le_pont_sur_l%27Ognon_et_la_rue_des_Tanneurs.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APesmes%2C%20le%20pont%20sur%20l'Ognon%20et%20la%20rue%20des%20Tanneurs.jpg",
-          "title": "Pesmes, le pont sur l'Ognon et la rue des Tanneurs.jpg",
-          "width": 5811,
-          "height": 3864,
-          "size": 1255083,
-          "timestamp": "2022-06-11T16:32:38Z",
-          "author": "Wikipedro",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Pesmes%2C_le_ch%C3%A2teau%2C_le_pont%2C_et_les_remparts.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APesmes%2C%20le%20ch%C3%A2teau%2C%20le%20pont%2C%20et%20les%20remparts.jpg",
           "title": "Pesmes, le château, le pont, et les remparts.jpg",
+          "description": "Vue sur les remparts et le château de Pesmes, depuis le pont sur l'Ognon.",
           "width": 2899,
           "height": 1928,
           "size": 1414032,
           "timestamp": "2022-06-12T22:27:25Z",
           "author": "Wikipedro",
           "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Pesmes%2C_le_ch%C3%A2teau_et_le_pont.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APesmes%2C%20le%20ch%C3%A2teau%20et%20le%20pont.jpg",
+          "title": "Pesmes, le château et le pont.jpg",
+          "description": "Pesmes, le château et le pont.",
+          "width": 2750,
+          "height": 1772,
+          "size": 1927673,
+          "timestamp": "2011-09-21T14:39:44Z",
+          "author": "JGS25",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Pesmes_et_lOgnon.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APesmes%20et%20lOgnon.jpg",
+          "title": "Pesmes et lOgnon.jpg",
+          "description": "General view of Pesmes from the other border of the Ognon river.",
+          "width": 1600,
+          "height": 1064,
+          "size": 377024,
+          "timestamp": "2012-06-21T09:36:13Z",
+          "author": "Jean-Louis Vandevivère",
+          "license": "CC BY-SA 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         }
@@ -183,6 +181,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Pesmes%2C_le_ch%C3%A2teau_au-dessus_de_l%27Ognon.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APesmes%2C%20le%20ch%C3%A2teau%20au-dessus%20de%20l'Ognon.jpg",
           "title": "Pesmes, le château au-dessus de l'Ognon.jpg",
+          "description": "Le château de Pesmes au-dessus de l'Ognon",
           "width": 5262,
           "height": 2960,
           "size": 8889886,
@@ -190,12 +189,13 @@
           "author": "JGS25",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Pesmes%2C_le_ch%C3%A2teau.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APesmes%2C%20le%20ch%C3%A2teau.jpg",
           "title": "Pesmes, le château.jpg",
+          "description": "Bâtiments du château du village français de Pesmes (département de la Haute-Saône).",
           "width": 5790,
           "height": 3850,
           "size": 1322889,
@@ -203,12 +203,13 @@
           "author": "Wikipedro",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Pesmes%2C_la_rue_des_Ch%C3%A2teaux_%28n%C2%B0_2_et_4%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APesmes%2C%20la%20rue%20des%20Ch%C3%A2teaux%20(n%C2%B0%202%20et%204).jpg",
           "title": "Pesmes, la rue des Châteaux (n° 2 et 4).jpg",
+          "description": "Vue partielle des bâtiments situés aux n°2 et 4 de la rue des Châteaux, dans la commune française de Pesmes (département de la Haute-Saône).",
           "width": 5664,
           "height": 3766,
           "size": 1275270,
@@ -216,7 +217,7 @@
           "author": "Wikipedro",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         }
       ]
     }

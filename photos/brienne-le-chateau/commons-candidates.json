@@ -1,12 +1,13 @@
 {
   "slug": "brienne-le-chateau",
   "nom": "Brienne-le-Château",
-  "fetchedAt": "2026-03-13T12:23:14.820Z",
+  "fetchedAt": "2026-03-15T20:18:46.356Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Muse_brienne_le_chateau.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMuse%20brienne%20le%20chateau.jpg",
       "title": "Muse brienne le chateau.jpg",
+      "description": "l'ancienne école militaire de Brienne le Château aujourd'hui reconvertie en musée",
       "width": 1548,
       "height": 1162,
       "size": 1197153,
@@ -14,12 +15,13 @@
       "author": "The original uploader was <a href=\"https://en.wikipedia.org/wiki/fr:User:Clicgauche\" class=\"extiw\" title=\"w:fr:User:Clicgauche\">Clicgauche</a> at <a href=\"https://en.wikipedia.org/wiki/fr:\" class=\"extiw\" title=\"w:fr:\">French Wikipedia</a>.",
       "license": "CC BY-SA 1.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Brienne-le-Ch%C3%A2teau_-_stade.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABrienne-le-Ch%C3%A2teau%20-%20stade.jpg",
       "title": "Brienne-le-Château - stade.jpg",
+      "description": "Brienne-le-Château - stade",
       "width": 4032,
       "height": 3024,
       "size": 8232918,
@@ -27,12 +29,13 @@
       "author": "Yzergues",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Brienne-le-Ch%C3%A2teau_-_avenue_Pasteur.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABrienne-le-Ch%C3%A2teau%20-%20avenue%20Pasteur.jpg",
       "title": "Brienne-le-Château - avenue Pasteur.jpg",
+      "description": "Brienne-le-Château - avenue Pasteur",
       "width": 4032,
       "height": 3024,
       "size": 8005769,
@@ -40,17 +43,103 @@
       "author": "Yzergues",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     }
   ],
   "lieux": [
     {
       "label": "Façade principale du château",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/10-Brienne-le-Ch%C3%A2teau-AAV2020.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A10-Brienne-le-Ch%C3%A2teau-AAV2020.png",
+          "title": "10-Brienne-le-Château-AAV2020.png",
+          "description": "Carte de l'aire d'attraction de Brienne-le-Château dans le département de l'Aube (France). Zonage 2020 - Découpage communal au 1er janvier 2020.",
+          "width": 3519,
+          "height": 2930,
+          "size": 1524548,
+          "timestamp": "2020-11-27T10:48:53Z",
+          "author": "Roland45",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/10064-Brienne-le-Ch%C3%A2teau-Sols.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A10064-Brienne-le-Ch%C3%A2teau-Sols.png",
+          "title": "10064-Brienne-le-Château-Sols.png",
+          "description": "Carte des infrastructures et de l’occupation des sols en 2018 de la commune de fr:Brienne-le-Château (France).",
+          "width": 3270,
+          "height": 2598,
+          "size": 2111821,
+          "timestamp": "2021-05-14T12:10:37Z",
+          "author": "Roland45",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/10064-Brienne-le-Ch%C3%A2teau-Hydro.jpeg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A10064-Brienne-le-Ch%C3%A2teau-Hydro.jpeg",
+          "title": "10064-Brienne-le-Château-Hydro.jpeg",
+          "description": "Carte du réseau hydrographique de la commune de fr:Brienne-le-Château (France).",
+          "width": 5846,
+          "height": 4133,
+          "size": 2288736,
+          "timestamp": "2024-02-18T17:44:04Z",
+          "author": "Roland45",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     },
     {
       "label": "Grand escalier de pierre",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Manoeuvres_d%27Arm%C3%A9e_de_l%27Est_en_1905._1_-_80_000_Feuille_A._%28Vitry-le-Fran%C3%A7ois-Ch%C3%A2lons%29._Feuille_B_%28Vitry-Brienne%29._Revision_de_1896-1901_-_btv1b530607089_%281_of_2%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AManoeuvres%20d'Arm%C3%A9e%20de%20l'Est%20en%201905.%201%20-%2080%20000%20Feuille%20A.%20(Vitry-le-Fran%C3%A7ois-Ch%C3%A2lons).%20Feuille%20B%20(Vitry-Brienne).%20Revision%20de%201896-1901%20-%20btv1b530607089%20(1%20of%202).jpg",
+          "title": "Manoeuvres d'Armée de l'Est en 1905. 1 - 80 000 Feuille A. (Vitry-le-François-Châlons). Feuille B (Vitry-Brienne). Revision de 1896-1901 - btv1b530607089 (1 of 2).jpg",
+          "description": "Sujet : Manoeuvres militaires\nVitry-le-François\nChâlons-en-Champagne\nBrienne-le-Château\nAppartient à l’ensemble documentaire : ChArdenn1\nCouverture : France – Grand-Est – Marne\nFrance – Grand-Est – Aube\nLangue : français\n\nÉditeur : Service Géographique de l'Armée (Paris)",
+          "width": 12227,
+          "height": 8780,
+          "size": 26481598,
+          "timestamp": "2022-07-13T05:10:58Z",
+          "author": "<div class=\"fn value\">\nFrance. Service géographique de l'armée. Auteur du texte</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Manoeuvres_d%27Arm%C3%A9e_de_l%27Est_en_1905._1_-_80_000_Feuille_A._%28Vitry-le-Fran%C3%A7ois-Ch%C3%A2lons%29._Feuille_B_%28Vitry-Brienne%29._Revision_de_1896-1901_-_btv1b530607089_%282_of_2%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AManoeuvres%20d'Arm%C3%A9e%20de%20l'Est%20en%201905.%201%20-%2080%20000%20Feuille%20A.%20(Vitry-le-Fran%C3%A7ois-Ch%C3%A2lons).%20Feuille%20B%20(Vitry-Brienne).%20Revision%20de%201896-1901%20-%20btv1b530607089%20(2%20of%202).jpg",
+          "title": "Manoeuvres d'Armée de l'Est en 1905. 1 - 80 000 Feuille A. (Vitry-le-François-Châlons). Feuille B (Vitry-Brienne). Revision de 1896-1901 - btv1b530607089 (2 of 2).jpg",
+          "description": "Sujet : Manoeuvres militaires\nVitry-le-François\nChâlons-en-Champagne\nBrienne-le-Château\nAppartient à l’ensemble documentaire : ChArdenn1\nCouverture : France – Grand-Est – Marne\nFrance – Grand-Est – Aube\nLangue : français\n\nÉditeur : Service Géographique de l'Armée (Paris)",
+          "width": 12188,
+          "height": 8794,
+          "size": 27618442,
+          "timestamp": "2022-07-13T05:11:31Z",
+          "author": "<div class=\"fn value\">\nFrance. Service géographique de l'armée. Auteur du texte</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Plan_du_canton_de_Brienne_en_1840._Echelle_de_1_-_50_000_-_Grav%C3%A9_sur_pierre_par_Delamare_-_btv1b8495079g.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlan%20du%20canton%20de%20Brienne%20en%201840.%20Echelle%20de%201%20-%2050%20000%20-%20Grav%C3%A9%20sur%20pierre%20par%20Delamare%20-%20btv1b8495079g.jpg",
+          "title": "Plan du canton de Brienne en 1840. Echelle de 1 - 50 000 - Gravé sur pierre par Delamare - btv1b8495079g.jpg",
+          "description": "Sujet : Divisions politiques et administratives\nBrienne-le-Château, Canton de\nAppartient à l’ensemble documentaire : ChArdenn1\nCouverture : France – Grand-Est – Aube\nLangue : français\n\nÉditeur : Bineteau (Paris)",
+          "width": 10140,
+          "height": 7744,
+          "size": 7656269,
+          "timestamp": "2022-07-23T21:15:55Z",
+          "author": "<div class=\"fn value\">\nDelamare, P. (18..-18..?). Fonction indéterminée</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     },
     {
       "label": "Parc à la française",
@@ -58,7 +147,50 @@
     },
     {
       "label": "Anciennes douves",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Abbaye_de_Basse-Fontaine_%28ancienne%29_-_Clo%C3%AEtre-_galerie_-_Brienne-le-Ch%C3%A2teau_-_M%C3%A9diath%C3%A8que_de_l%27architecture_et_du_patrimoine_-_APMH00029639.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20de%20Basse-Fontaine%20(ancienne)%20-%20Clo%C3%AEtre-%20galerie%20-%20Brienne-le-Ch%C3%A2teau%20-%20M%C3%A9diath%C3%A8que%20de%20l'architecture%20et%20du%20patrimoine%20-%20APMH00029639.jpg",
+          "title": "Abbaye de Basse-Fontaine (ancienne) - Cloître- galerie - Brienne-le-Château - Médiathèque de l'architecture et du patrimoine - APMH00029639.jpg",
+          "description": "Cloître: galerie.",
+          "width": 706,
+          "height": 512,
+          "size": 63633,
+          "timestamp": "2020-04-28T08:48:56Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Camille_Enlart\" class=\"extiw\" title=\"w:en:Camille Enlart\"><span title=\"French art historian and photographer (1862-1927)\">Camille Enlart</span></a></bdi>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Abbaye_de_Basse-Fontaine_%28ancienne%29_-_Clo%C3%AEtre-_chapiteaux_-_Brienne-le-Ch%C3%A2teau_-_M%C3%A9diath%C3%A8que_de_l%27architecture_et_du_patrimoine_-_APMH00029641.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20de%20Basse-Fontaine%20(ancienne)%20-%20Clo%C3%AEtre-%20chapiteaux%20-%20Brienne-le-Ch%C3%A2teau%20-%20M%C3%A9diath%C3%A8que%20de%20l'architecture%20et%20du%20patrimoine%20-%20APMH00029641.jpg",
+          "title": "Abbaye de Basse-Fontaine (ancienne) - Cloître- chapiteaux - Brienne-le-Château - Médiathèque de l'architecture et du patrimoine - APMH00029641.jpg",
+          "description": "Cloître: chapiteaux.",
+          "width": 758,
+          "height": 512,
+          "size": 77756,
+          "timestamp": "2020-04-28T12:30:46Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Camille_Enlart\" class=\"extiw\" title=\"w:en:Camille Enlart\"><span title=\"French art historian and photographer (1862-1927)\">Camille Enlart</span></a></bdi>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Abbaye_de_Basse-Fontaine_%28ancienne%29_-_Clo%C3%AEtre-_chapiteaux_-_Brienne-le-Ch%C3%A2teau_-_M%C3%A9diath%C3%A8que_de_l%27architecture_et_du_patrimoine_-_APMH00029640.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20de%20Basse-Fontaine%20(ancienne)%20-%20Clo%C3%AEtre-%20chapiteaux%20-%20Brienne-le-Ch%C3%A2teau%20-%20M%C3%A9diath%C3%A8que%20de%20l'architecture%20et%20du%20patrimoine%20-%20APMH00029640.jpg",
+          "title": "Abbaye de Basse-Fontaine (ancienne) - Cloître- chapiteaux - Brienne-le-Château - Médiathèque de l'architecture et du patrimoine - APMH00029640.jpg",
+          "description": "Cloître: chapiteaux.",
+          "width": 768,
+          "height": 503,
+          "size": 78689,
+          "timestamp": "2020-05-04T06:35:48Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Camille_Enlart\" class=\"extiw\" title=\"w:en:Camille Enlart\"><span title=\"French art historian and photographer (1862-1927)\">Camille Enlart</span></a></bdi>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     }
   ]
 }

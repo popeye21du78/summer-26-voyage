@@ -1,44 +1,47 @@
 {
   "slug": "trevoux",
   "nom": "Trévoux",
-  "fetchedAt": "2026-03-14T12:57:32.206Z",
+  "fetchedAt": "2026-03-18T20:21:59.888Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Gare_de_Villefranche-sur-Saone_-_2019-05-13_-_IMG_0134.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGare%20de%20Villefranche-sur-Saone%20-%202019-05-13%20-%20IMG%200134.jpg",
-      "title": "Gare de Villefranche-sur-Saone - 2019-05-13 - IMG 0134.jpg",
-      "width": 4104,
-      "height": 2736,
-      "size": 8270967,
-      "timestamp": "2021-03-28T22:15:20Z",
-      "author": "Poudou99",
-      "license": "CC BY 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Cimeti%C3%A8re_Tr%C3%A9voux_2.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACimeti%C3%A8re%20Tr%C3%A9voux%202.jpg",
+      "title": "Cimetière Trévoux 2.jpg",
+      "description": "Cimetière de Trévoux.",
+      "width": 4032,
+      "height": 3024,
+      "size": 5264946,
+      "timestamp": "2020-08-10T23:17:32Z",
+      "author": "Chabe01",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Gare_de_Villefranche-sur-Saone_-_2019-05-13_-_IMG_0415.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGare%20de%20Villefranche-sur-Saone%20-%202019-05-13%20-%20IMG%200415.jpg",
-      "title": "Gare de Villefranche-sur-Saone - 2019-05-13 - IMG 0415.jpg",
-      "width": 4104,
-      "height": 2736,
-      "size": 6734655,
-      "timestamp": "2021-03-28T22:26:37Z",
-      "author": "Poudou99",
-      "license": "CC BY 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Cimeti%C3%A8re_Tr%C3%A9voux_5.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACimeti%C3%A8re%20Tr%C3%A9voux%205.jpg",
+      "title": "Cimetière Trévoux 5.jpg",
+      "description": "Cimetière de Trévoux.",
+      "width": 4032,
+      "height": 3024,
+      "size": 4029792,
+      "timestamp": "2020-08-10T23:17:38Z",
+      "author": "Chabe01",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Gare_de_Villefranche-sur-Saone_-_2019-05-13_-_IMG_0416.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGare%20de%20Villefranche-sur-Saone%20-%202019-05-13%20-%20IMG%200416.jpg",
-      "title": "Gare de Villefranche-sur-Saone - 2019-05-13 - IMG 0416.jpg",
-      "width": 4104,
-      "height": 2736,
-      "size": 4251702,
-      "timestamp": "2021-03-28T22:26:52Z",
-      "author": "Poudou99",
-      "license": "CC BY 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Cimeti%C3%A8re_Tr%C3%A9voux_3.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACimeti%C3%A8re%20Tr%C3%A9voux%203.jpg",
+      "title": "Cimetière Trévoux 3.jpg",
+      "description": "Cimetière de Trévoux.",
+      "width": 4032,
+      "height": 3024,
+      "size": 4519308,
+      "timestamp": "2020-08-10T23:17:38Z",
+      "author": "Chabe01",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     }
@@ -46,19 +49,191 @@
   "lieux": [
     {
       "label": "Chemin de halage de la Saône",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Tr%C3%A9voux_-_chemin_de_halage_-_bo%C3%AEte_%C3%A0_livres_%282025%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATr%C3%A9voux%20-%20chemin%20de%20halage%20-%20bo%C3%AEte%20%C3%A0%20livres%20(2025).jpg",
+          "title": "Trévoux - chemin de halage - boîte à livres (2025).jpg",
+          "description": "Boîte à livres à Trévoux",
+          "width": 2500,
+          "height": 1875,
+          "size": 534797,
+          "timestamp": "2025-07-02T18:19:02Z",
+          "author": "<span lang=\"en\">Anonymous</span><span style=\"display:none\">Unknown author</span>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Neuville-sur-Sa%C3%B4ne_-_Chemin_du_Monteiller_-_Voie_de_chemin_de_fer_partant_vers_Tr%C3%A9voux.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANeuville-sur-Sa%C3%B4ne%20-%20Chemin%20du%20Monteiller%20-%20Voie%20de%20chemin%20de%20fer%20partant%20vers%20Tr%C3%A9voux.jpg",
+          "title": "Neuville-sur-Saône - Chemin du Monteiller - Voie de chemin de fer partant vers Trévoux.jpg",
+          "description": "Voie de chemin de fer partant vers Trévoux, au niveau du passage à niveau n° 27, longeant la rue Jacques.",
+          "width": 3096,
+          "height": 4128,
+          "size": 5940123,
+          "timestamp": "2021-02-11T18:05:58Z",
+          "author": "Romainbehar",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Tr%C3%A9voux_-_chemin_de_halage_bo%C3%AEte_%C3%A0_livres.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATr%C3%A9voux%20-%20chemin%20de%20halage%20bo%C3%AEte%20%C3%A0%20livres.jpg",
+          "title": "Trévoux - chemin de halage boîte à livres.jpg",
+          "description": "Boîte à livres à Trévoux",
+          "width": 2500,
+          "height": 1125,
+          "size": 317308,
+          "timestamp": "2025-02-03T21:07:13Z",
+          "author": "Pierre Baizet",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Île du Battoir",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/29300-Le_Tr%C3%A9voux-Sols.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A29300-Le%20Tr%C3%A9voux-Sols.png",
+          "title": "29300-Le Trévoux-Sols.png",
+          "description": "Carte des infrastructures et de l’occupation des sols en 2018 de la commune de fr:Le Trévoux (France).",
+          "width": 3270,
+          "height": 2598,
+          "size": 2227189,
+          "timestamp": "2021-05-01T13:48:50Z",
+          "author": "Roland45",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Le_tr%C3%A9voux_opentopomap.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20tr%C3%A9voux%20opentopomap.png",
+          "title": "Le trévoux opentopomap.png",
+          "description": "Cette carte a été créée à partir des données du projet OpenStreetMap.",
+          "width": 1525,
+          "height": 991,
+          "size": 1794100,
+          "timestamp": "2022-08-09T20:44:54Z",
+          "author": "Contributeurs du site OpenStreetMap.",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Le_tr%C3%A9voux_openorthos.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20tr%C3%A9voux%20openorthos.png",
+          "title": "Le trévoux openorthos.png",
+          "description": "Carte créée à partir des données du projet OpenStreetMap.",
+          "width": 2620,
+          "height": 2041,
+          "size": 7947469,
+          "timestamp": "2022-08-09T21:05:28Z",
+          "author": "Contributeurs du site Openstreetmap.",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Passerelle vers Saint-Bernard",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Rivi%C3%A8re_Sa%C3%B4ne_vue_depuis_Passerelle_Tr%C3%A9voux_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARivi%C3%A8re%20Sa%C3%B4ne%20vue%20depuis%20Passerelle%20Tr%C3%A9voux%201.jpg",
+          "title": "Rivière Saône vue depuis Passerelle Trévoux 1.jpg",
+          "description": "La Saône vue depuis la passerelle de Trévoux, Trévoux.",
+          "width": 4032,
+          "height": 3024,
+          "size": 5039419,
+          "timestamp": "2020-08-11T00:26:16Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Rivi%C3%A8re_Sa%C3%B4ne_vue_depuis_Passerelle_Tr%C3%A9voux_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARivi%C3%A8re%20Sa%C3%B4ne%20vue%20depuis%20Passerelle%20Tr%C3%A9voux%202.jpg",
+          "title": "Rivière Saône vue depuis Passerelle Trévoux 2.jpg",
+          "description": "La Saône vue depuis la passerelle de Trévoux, Trévoux.",
+          "width": 4032,
+          "height": 3024,
+          "size": 5653418,
+          "timestamp": "2020-08-11T00:26:16Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Vue_Centre_vue_depuis_Passerelle_Tr%C3%A9voux_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20Centre%20vue%20depuis%20Passerelle%20Tr%C3%A9voux%201.jpg",
+          "title": "Vue Centre vue depuis Passerelle Trévoux 1.jpg",
+          "description": "Vue du centre de Trévoux depuis la passerelle de Trévoux.",
+          "width": 4032,
+          "height": 3024,
+          "size": 3917225,
+          "timestamp": "2020-08-11T00:28:05Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     },
     {
       "label": "Parc de la Cerisaie",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Parc_du_ch%C3%A2teau_de_Corcelles_%28Tr%C3%A9voux%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParc%20du%20ch%C3%A2teau%20de%20Corcelles%20(Tr%C3%A9voux).JPG",
+          "title": "Parc du château de Corcelles (Trévoux).JPG",
+          "description": "Parc du château de Corcelles (Trévoux).",
+          "width": 4320,
+          "height": 3240,
+          "size": 12473215,
+          "timestamp": "2013-08-10T05:23:33Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q42790984\" class=\"extiw\" title=\"d:Q42790984\"><span title=\"French computing engineer\">Benoît Prieur</span></a></bdi>",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Parc_du_ch%C3%A2teau_de_Corcelles_%28Tr%C3%A9voux%29_-_2.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParc%20du%20ch%C3%A2teau%20de%20Corcelles%20(Tr%C3%A9voux)%20-%202.JPG",
+          "title": "Parc du château de Corcelles (Trévoux) - 2.JPG",
+          "description": "Parc du château de Corcelles (Trévoux).",
+          "width": 3240,
+          "height": 4320,
+          "size": 5846946,
+          "timestamp": "2013-08-10T05:27:15Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q42790984\" class=\"extiw\" title=\"d:Q42790984\"><span title=\"French computing engineer\">Benoît Prieur</span></a></bdi>",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Parc_du_ch%C3%A2teau_de_Corcelles_%28Tr%C3%A9voux%29_-_3.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParc%20du%20ch%C3%A2teau%20de%20Corcelles%20(Tr%C3%A9voux)%20-%203.JPG",
+          "title": "Parc du château de Corcelles (Trévoux) - 3.JPG",
+          "description": "Parc du château de Corcelles (Trévoux).",
+          "width": 3240,
+          "height": 4320,
+          "size": 8104035,
+          "timestamp": "2013-08-10T05:28:39Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q42790984\" class=\"extiw\" title=\"d:Q42790984\"><span title=\"French computing engineer\">Benoît Prieur</span></a></bdi>",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

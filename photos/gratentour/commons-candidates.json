@@ -1,12 +1,13 @@
 {
   "slug": "gratentour",
   "nom": "Gratentour",
-  "fetchedAt": "2026-03-13T14:37:49.324Z",
+  "fetchedAt": "2026-03-16T13:52:47.870Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Gratentour_-_Place_de_la_Mairie_-_bo%C3%AEte_%C3%A0_livres.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGratentour%20-%20Place%20de%20la%20Mairie%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
       "title": "Gratentour - Place de la Mairie - boîte à livres.jpg",
+      "description": "Boîte à livres à Gratentour",
       "width": 2500,
       "height": 1875,
       "size": 783844,
@@ -17,30 +18,32 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Brugui%C3%A8res_Eglise_abside.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABrugui%C3%A8res%20Eglise%20abside.jpg",
-      "title": "Bruguières Eglise abside.jpg",
-      "width": 5130,
-      "height": 4147,
-      "size": 26611221,
-      "timestamp": "2023-11-01T17:17:17Z",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Mairie_de_Gratentour.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMairie%20de%20Gratentour.jpg",
+      "title": "Mairie de Gratentour.jpg",
+      "description": "Gratentour Haute-Garonne. Facade of Town hall",
+      "width": 5972,
+      "height": 4257,
+      "size": 21850808,
+      "timestamp": "2014-04-22T10:24:06Z",
       "author": "Didier Descouens",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 5
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Brugui%C3%A8res_Eglise_interieur.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABrugui%C3%A8res%20Eglise%20interieur.jpg",
-      "title": "Bruguières Eglise interieur.jpg",
-      "width": 9807,
-      "height": 6075,
-      "size": 36238929,
-      "timestamp": "2024-01-04T18:30:53Z",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Eglise_Sainte_Quitterie_de_Gratentour.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Sainte%20Quitterie%20de%20Gratentour.jpg",
+      "title": "Eglise Sainte Quitterie de Gratentour.jpg",
+      "description": "Gratentour Haute-Garonne. Sainte-Quitterie Church.",
+      "width": 6708,
+      "height": 4912,
+      "size": 21291349,
+      "timestamp": "2014-04-23T06:51:44Z",
       "author": "Didier Descouens",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 5
     }
   ],
   "lieux": [
@@ -50,7 +53,50 @@
     },
     {
       "label": "Église Saint-Martin",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Eglise_Sainte_Quitterie_de_Gratentour.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Sainte%20Quitterie%20de%20Gratentour.jpg",
+          "title": "Eglise Sainte Quitterie de Gratentour.jpg",
+          "description": "Gratentour Haute-Garonne. Sainte-Quitterie Church.",
+          "width": 6708,
+          "height": 4912,
+          "size": 21291349,
+          "timestamp": "2014-04-23T06:51:44Z",
+          "author": "Didier Descouens",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Eglise_Sainte_Quitterie_de_Gratentour_le_clocher_mur.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Sainte%20Quitterie%20de%20Gratentour%20le%20clocher%20mur.jpg",
+          "title": "Eglise Sainte Quitterie de Gratentour le clocher mur.jpg",
+          "description": "Gratentour Haute-Garonne. Bell gables of Sainte-Quitterie Church.",
+          "width": 6052,
+          "height": 4516,
+          "size": 22407190,
+          "timestamp": "2014-04-23T07:16:28Z",
+          "author": "Didier Descouens",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Gratentour_panorama_43.706066%2C_1.431865.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGratentour%20panorama%2043.706066%2C%201.431865.jpg",
+          "title": "Gratentour panorama 43.706066, 1.431865.jpg",
+          "description": "Gratentour Haute-Garonne.",
+          "width": 6120,
+          "height": 2019,
+          "size": 11405565,
+          "timestamp": "2014-04-22T08:15:48Z",
+          "author": "Didier Descouens",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     },
     {
       "label": "Aire de jeux du parc municipal",

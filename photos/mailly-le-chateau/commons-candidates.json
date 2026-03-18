@@ -1,12 +1,13 @@
 {
   "slug": "mailly-le-chateau",
   "nom": "Mailly-le-Château",
-  "fetchedAt": "2026-03-13T16:02:07.939Z",
+  "fetchedAt": "2026-03-16T21:10:27.064Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Mailly-le-Ch%C3%A2teau_%2889%29_%C3%89glise_Saint-Adrien_-_Ext%C3%A9rieur_-_02.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMailly-le-Ch%C3%A2teau%20(89)%20%C3%89glise%20Saint-Adrien%20-%20Ext%C3%A9rieur%20-%2002.jpg",
       "title": "Mailly-le-Château (89) Église Saint-Adrien - Extérieur - 02.jpg",
+      "description": "Extérieur de l'église Saint-Adrien à Mailly-le-Château (89).",
       "width": 2100,
       "height": 1285,
       "size": 630251,
@@ -14,12 +15,13 @@
       "author": "GO69",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Mailly-le-Ch%C3%A2teau_%2889%29_%C3%89glise_Saint-Adrien_-_Ext%C3%A9rieur_-_11.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMailly-le-Ch%C3%A2teau%20(89)%20%C3%89glise%20Saint-Adrien%20-%20Ext%C3%A9rieur%20-%2011.jpg",
       "title": "Mailly-le-Château (89) Église Saint-Adrien - Extérieur - 11.jpg",
+      "description": "Extérieur de l'église Saint-Adrien à Mailly-le-Château (89).",
       "width": 2100,
       "height": 1400,
       "size": 955889,
@@ -27,12 +29,13 @@
       "author": "GO69",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Mailly-le-Ch%C3%A2teau_%2889%29_%C3%89glise_Saint-Adrien_-_Ext%C3%A9rieur_-_14.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMailly-le-Ch%C3%A2teau%20(89)%20%C3%89glise%20Saint-Adrien%20-%20Ext%C3%A9rieur%20-%2014.jpg",
       "title": "Mailly-le-Château (89) Église Saint-Adrien - Extérieur - 14.jpg",
+      "description": "Extérieur de l'église Saint-Adrien à Mailly-le-Château (89).",
       "width": 2100,
       "height": 1400,
       "size": 940868,
@@ -40,7 +43,7 @@
       "author": "GO69",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     }
   ],
   "lieux": [
@@ -48,65 +51,112 @@
       "label": "Donjon du château",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Chapelle-et-chateau-de-Mailly-le-Chateau-%28Yonne%29--DSC_0464.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle-et-chateau-de-Mailly-le-Chateau-(Yonne)--DSC%200464.jpg",
-          "title": "Chapelle-et-chateau-de-Mailly-le-Chateau-(Yonne)--DSC 0464.jpg",
-          "width": 6000,
-          "height": 4000,
-          "size": 18330501,
-          "timestamp": "2021-09-27T18:13:03Z",
-          "author": "Pline",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Mailly-le-Ch%C3%A2teau_-_Chapelle_Saint-Sim%C3%A9on_-_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMailly-le-Ch%C3%A2teau%20-%20Chapelle%20Saint-Sim%C3%A9on%20-%2001.jpg",
+          "title": "Mailly-le-Château - Chapelle Saint-Siméon - 01.jpg",
+          "description": "Mailly-le-Château - Chapelle Saint-Siméon (Yonne)",
+          "width": 4272,
+          "height": 2848,
+          "size": 4819089,
+          "timestamp": "2020-09-06T21:41:59Z",
+          "author": "Antoine Garnier",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Ch%C3%A2teau_de_Saint-Jean-d%E2%80%99Angle_Vue_du_donjon.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Saint-Jean-d%E2%80%99Angle%20Vue%20du%20donjon.jpg",
-          "title": "Château de Saint-Jean-d’Angle Vue du donjon.jpg",
-          "width": 3749,
-          "height": 2567,
-          "size": 2518362,
-          "timestamp": "2022-11-29T16:56:27Z",
-          "author": "Jacques DASSIÉ",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Mailly-le-Ch%C3%A2teau_-_Chapelle_Saint-Sim%C3%A9on_-_03.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMailly-le-Ch%C3%A2teau%20-%20Chapelle%20Saint-Sim%C3%A9on%20-%2003.jpg",
+          "title": "Mailly-le-Château - Chapelle Saint-Siméon - 03.jpg",
+          "description": "Mailly-le-Château - Chapelle Saint-Siméon (Yonne)",
+          "width": 4272,
+          "height": 2848,
+          "size": 4458921,
+          "timestamp": "2020-09-06T21:52:38Z",
+          "author": "Antoine Garnier",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Dover_-_View_from_the_castle_keep.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADover%20-%20View%20from%20the%20castle%20keep.jpg",
-          "title": "Dover - View from the castle keep.jpg",
-          "width": 5496,
-          "height": 3670,
-          "size": 8253135,
-          "timestamp": "2023-08-27T16:50:26Z",
-          "author": "Benjamin Smith",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Mailly-le-Ch%C3%A2teau_-_Chapelle_Saint-Sim%C3%A9on_-_04.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMailly-le-Ch%C3%A2teau%20-%20Chapelle%20Saint-Sim%C3%A9on%20-%2004.jpg",
+          "title": "Mailly-le-Château - Chapelle Saint-Siméon - 04.jpg",
+          "description": "Mailly-le-Château - Chapelle Saint-Siméon (Yonne)",
+          "width": 4272,
+          "height": 2848,
+          "size": 6634309,
+          "timestamp": "2020-09-06T21:52:38Z",
+          "author": "Antoine Garnier",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         }
       ]
     },
     {
       "label": "Terrasse avec vue sur la vallée de l’Yonne",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/France_-_Bourgogne_-_Yonne_-_Vue_du_plateau_calcaire_de_l%E2%80%99Yonne_depuis_la_terrasse_de_Mailly-le-Ch%C3%A2teau_%28M%C3%A9diHAL_1266858%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20-%20Bourgogne%20-%20Yonne%20-%20Vue%20du%20plateau%20calcaire%20de%20l%E2%80%99Yonne%20depuis%20la%20terrasse%20de%20Mailly-le-Ch%C3%A2teau%20(M%C3%A9diHAL%201266858).jpg",
+          "title": "France - Bourgogne - Yonne - Vue du plateau calcaire de l’Yonne depuis la terrasse de Mailly-le-Château (MédiHAL 1266858).jpg",
+          "description": "Handwritten caption on the original document: \"France: Jura, Burgundy: Lower Burgundy: Limestone plateau of the Yonne, panorama of the terrace of Mailly-le-Château\". The glass plates deposited at Prodig date from 1891 to 1954. Geolocation: hypothesis of exact geolocation.",
+          "width": 2667,
+          "height": 1017,
+          "size": 252164,
+          "timestamp": "2024-12-21T12:29:00Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Emmanuel_de_Martonne\" class=\"extiw\" title=\"w:en:Emmanuel de Martonne\"><span title=\"French geographer (1873–1955)\">Emmanuel de Martonne</span></a></bdi>",
+          "license": "Licence Ouverte",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        }
+      ]
     },
     {
       "label": "Cour intérieure et escalier extérieur",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Ceglie_Messapica_-_Castello_Ducale_-_Loggia.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACeglie%20Messapica%20-%20Castello%20Ducale%20-%20Loggia.jpg",
-          "title": "Ceglie Messapica - Castello Ducale - Loggia.jpg",
-          "width": 3664,
-          "height": 6342,
-          "size": 7418645,
-          "timestamp": "2025-06-11T17:40:05Z",
-          "author": "Benjamin Smith",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/89238-Mailly-le-Ch%C3%A2teau-Sols.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A89238-Mailly-le-Ch%C3%A2teau-Sols.png",
+          "title": "89238-Mailly-le-Château-Sols.png",
+          "description": "Carte des infrastructures et de l’occupation des sols en 2018 de la commune de fr:Mailly-le-Château (France).",
+          "width": 3270,
+          "height": 2598,
+          "size": 1963198,
+          "timestamp": "2021-05-13T17:25:08Z",
+          "author": "Roland45",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Plan_de_l%27ancien_Ch%C3%A2teau_de_Mailly_et_de_ses_Entours%2C_tel_qu%27il_existoit_en_1774%2C_lorsque_Monsieur_Defrance_a_atteint_la_Succession_de_Monsieur_Demailly%2C_son_oncle_-_btv1b8441000g.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlan%20de%20l'ancien%20Ch%C3%A2teau%20de%20Mailly%20et%20de%20ses%20Entours%2C%20tel%20qu'il%20existoit%20en%201774%2C%20lorsque%20Monsieur%20Defrance%20a%20atteint%20la%20Succession%20de%20Monsieur%20Demailly%2C%20son%20oncle%20-%20btv1b8441000g.jpg",
+          "title": "Plan de l'ancien Château de Mailly et de ses Entours, tel qu'il existoit en 1774, lorsque Monsieur Defrance a atteint la Succession de Monsieur Demailly, son oncle - btv1b8441000g.jpg",
+          "description": "Sujet : Châteaux\nMailly-le-Château\nÉchelle(s) : [?]\nCouverture : France – Bourgogne-Franche-Comté – Yonne\nLangue : français\n\nÉditeur : [s.n.]",
+          "width": 9227,
+          "height": 7241,
+          "size": 7777036,
+          "timestamp": "2022-08-18T23:18:36Z",
+          "author": "Inconnu",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/89238-Mailly-le-Ch%C3%A2teau-Hydro.jpeg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A89238-Mailly-le-Ch%C3%A2teau-Hydro.jpeg",
+          "title": "89238-Mailly-le-Château-Hydro.jpeg",
+          "description": "Carte du réseau hydrographique de la commune de fr:Mailly-le-Château (France).",
+          "width": 5846,
+          "height": 4133,
+          "size": 2269870,
+          "timestamp": "2024-02-14T14:41:18Z",
+          "author": "Roland45",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
         }
       ]
     },
@@ -114,43 +164,32 @@
       "label": "Portail d’entrée",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/SACY_LE_PETIT_%283%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASACY%20LE%20PETIT%20(3).jpg",
-          "title": "SACY LE PETIT (3).jpg",
-          "width": 1913,
-          "height": 1435,
-          "size": 610871,
-          "timestamp": "2023-11-07T15:02:07Z",
-          "author": "WCOMFR",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Maison_de_ma%C3%AEtre_%C2%AB_Port_Rothschild_%C2%BB_et_ch%C3%A2teau_de_Pregny_%281%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison%20de%20ma%C3%AEtre%20%C2%AB%20Port%20Rothschild%20%C2%BB%20et%20ch%C3%A2teau%20de%20Pregny%20(1).jpg",
+          "title": "Maison de maître « Port Rothschild » et château de Pregny (1).jpg",
+          "description": "La maison de maître « Port Rothschild » (1968), l'ancienne villa « Port Rouge » (1858) et le château de Pregny (1858-1860) vues depuis le Léman, à Pregny-Chambésy (GE), en Suisse.",
+          "width": 5568,
+          "height": 3712,
+          "size": 8209608,
+          "timestamp": "2023-08-19T09:50:06Z",
+          "author": "Jérémy Toma",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Ch%C3%A2teau_et_Port_Sirmione.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20et%20Port%20Sirmione.JPG",
+          "title": "Château et Port Sirmione.JPG",
+          "description": "Château et port de plaisance de Sirmione en Italie, vu depuis le lac de Garde.",
+          "width": 4000,
+          "height": 3000,
+          "size": 2526134,
+          "timestamp": "2011-08-21T19:50:48Z",
+          "author": "<table style=\"margin: 1.5em auto; width:60%; background-color:#ff9; border:2px solid #aaaaaa; padding:1px;\" cellspacing=\"10\">\n\n\n<tbody><tr>\n<td align=\"center\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Canon_EOS_Rebel.svg\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Canon_EOS_Rebel.svg/120px-Canon_EOS_Rebel.svg.png\" decoding=\"async\" width=\"80\" height=\"80\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Canon_EOS_Rebel.svg/250px-Canon_EOS_Rebel.svg.png 2x\" data-file-width=\"128\" data-file-height=\"128\"></a></span>\n</td>\n<td><i><a href=\"https://upload.wikimedia.org/wikipedia/commons/e/e7/Ch%C3%A2teau_et_Port_Sirmione.JPG\" class=\"internal\" title=\"Château et Port Sirmione.JPG\"><b>This picture</b></a></i> <b>belongs to</b> <a href=\"//commons.wikimedia.org/wiki/User:Rexcornot\" title=\"User:Rexcornot\"><b>Xavier Caré</b></a>.\n<p>Please credit : <i><b>Xavier Caré / Wikimedia Commons / CC-BY-SA</b></i>.\n</p><p>If you would like special permission to use, license, or purchase the image please contact me to negotiate terms.\n</p><p>I'd appreciate <a href=\"//commons.wikimedia.org/wiki/Special:EmailUser/Rexcornot\" title=\"Special:EmailUser/Rexcornot\">if you could let me know about it</a> or mail me (<span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Nuvola_apps_email.png\" class=\"mw-file-description\" title=\"mail\"><img alt=\"mail\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Nuvola_apps_email.png/20px-Nuvola_apps_email.png\" decoding=\"async\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Nuvola_apps_email.png/40px-Nuvola_apps_email.png 1.5x\" data-file-width=\"128\" data-file-height=\"128\"></a></span> <b><span class=\"nowrap\">xavier.care<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"@\"><img alt=\"@\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/At_sign.svg/20px-At_sign.svg.png\" decoding=\"async\" width=\"15\" height=\"15\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/At_sign.svg/40px-At_sign.svg.png 1.5x\" data-file-width=\"145\" data-file-height=\"145\"></span></span>pm.me</span></b>) if you want to use this picture out of the Wikimedia project scope.\n</p>\n</td></tr></tbody></table>\n<p><br>\n</p>",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Anet_01_%28RaBoe%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAnet%2001%20(RaBoe).jpg",
-          "title": "Anet 01 (RaBoe).jpg",
-          "width": 800,
-          "height": 517,
-          "size": 398566,
-          "timestamp": "2009-04-26T17:02:28Z",
-          "author": "Ra Boe",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 3
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Anet_03_%28RaBoe%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAnet%2003%20(RaBoe).jpg",
-          "title": "Anet 03 (RaBoe).jpg",
-          "width": 800,
-          "height": 592,
-          "size": 426656,
-          "timestamp": "2009-04-26T17:03:34Z",
-          "author": "Ra Boe",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 3
         }
       ]
     }

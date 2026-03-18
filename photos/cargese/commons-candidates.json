@@ -1,12 +1,13 @@
 {
   "slug": "cargese",
   "nom": "Cargèse",
-  "fetchedAt": "2026-03-13T12:28:09.698Z",
+  "fetchedAt": "2026-03-15T20:42:16.640Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/%C3%89glise_Latine_de_Carg%C3%A8se_-_panoramio_%283%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Latine%20de%20Carg%C3%A8se%20-%20panoramio%20(3).jpg",
       "title": "Église Latine de Cargèse - panoramio (3).jpg",
+      "description": "Église Latine de Cargèse",
       "width": 5184,
       "height": 3456,
       "size": 5253221,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Coast_line_near_Carg%C3%A8se_-_panoramio_%281%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACoast%20line%20near%20Carg%C3%A8se%20-%20panoramio%20(1).jpg",
       "title": "Coast line near Cargèse - panoramio (1).jpg",
+      "description": "Coast line near Cargèse",
       "width": 5184,
       "height": 3456,
       "size": 7350871,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Sea_near_Carg%C3%A8se_-_panoramio.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASea%20near%20Carg%C3%A8se%20-%20panoramio.jpg",
       "title": "Sea near Cargèse - panoramio.jpg",
+      "description": "Sea near Cargèse",
       "width": 5184,
       "height": 3456,
       "size": 5071862,
@@ -48,41 +51,44 @@
       "label": "Église grecque de Cargèse",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Corse-Du-Sud_Carghese_Eglise_Grecque_-_panoramio.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACorse-Du-Sud%20Carghese%20Eglise%20Grecque%20-%20panoramio.jpg",
-          "title": "Corse-Du-Sud Carghese Eglise Grecque - panoramio.jpg",
-          "width": 1936,
-          "height": 1245,
-          "size": 675209,
-          "timestamp": "2017-06-26T01:43:59Z",
-          "author": "rene boulay",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/%C3%89glise_de_l%27Assomption_de_Carg%C3%A8se.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20de%20l'Assomption%20de%20Carg%C3%A8se.jpg",
+          "title": "Église de l'Assomption de Cargèse.jpg",
+          "description": "Vue depuis l'Église Saint-Spyridon",
+          "width": 3456,
+          "height": 4608,
+          "size": 5081507,
+          "timestamp": "2018-09-18T20:38:07Z",
+          "author": "Quirinalis",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Carse-Carg%C3%A8se-Vue_des_deux_%C3%A9glises.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarse-Carg%C3%A8se-Vue%20des%20deux%20%C3%A9glises.jpg",
+          "title": "Carse-Cargèse-Vue des deux églises.jpg",
+          "description": "Corse, Cargèse, vue des deux églises de la ville",
+          "width": 4272,
+          "height": 2848,
+          "size": 2814652,
+          "timestamp": "2009-08-20T21:04:42Z",
+          "author": "Jean-Christophe BENOIST",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Carg%C3%A8se_%C3%A9glise_Latine.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarg%C3%A8se%20%C3%A9glise%20Latine.jpg",
+          "title": "Cargèse église Latine.jpg",
+          "description": "Cargèse, Corse-du-Suyd - L'église de l'Assomption dite « latine »",
+          "width": 4032,
+          "height": 3024,
+          "size": 8054321,
+          "timestamp": "2016-04-25T15:10:47Z",
+          "author": "Pierre Bona",
           "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Saint-Spyridon_de_Carg%C3%A8se_entr%C3%A9e_int%C3%A9rieur.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Spyridon%20de%20Carg%C3%A8se%20entr%C3%A9e%20int%C3%A9rieur.jpg",
-          "title": "Saint-Spyridon de Cargèse entrée intérieur.jpg",
-          "width": 4608,
-          "height": 3456,
-          "size": 3987409,
-          "timestamp": "2018-09-18T20:30:25Z",
-          "author": "Quirinalis",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Saint-Spyridon_de_Carg%C3%A8se_autel.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Spyridon%20de%20Carg%C3%A8se%20autel.jpg",
-          "title": "Saint-Spyridon de Cargèse autel.jpg",
-          "width": 4608,
-          "height": 3456,
-          "size": 4742710,
-          "timestamp": "2018-09-18T20:30:25Z",
-          "author": "Quirinalis",
-          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
         }
@@ -90,32 +96,63 @@
     },
     {
       "label": "Plage du Pero",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Carg%C3%A8se_-_Vue_de_la_plage_de_M%C3%A9nasina_et_du_port_au_loin.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarg%C3%A8se%20-%20Vue%20de%20la%20plage%20de%20M%C3%A9nasina%20et%20du%20port%20au%20loin.JPG",
+          "title": "Cargèse - Vue de la plage de Ménasina et du port au loin.JPG",
+          "description": "Vue de la baie Sud de Cargèse, de son port et de la plage de Ménasina",
+          "width": 4000,
+          "height": 2672,
+          "size": 4585984,
+          "timestamp": "2015-04-22T04:18:20Z",
+          "author": "John Trololo",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Carg%C3%A8se_-_Plage_M%C3%A9nasina.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarg%C3%A8se%20-%20Plage%20M%C3%A9nasina.JPG",
+          "title": "Cargèse - Plage Ménasina.JPG",
+          "description": "Coucher de soleil sur la Plage proche de Ménasina",
+          "width": 4000,
+          "height": 2672,
+          "size": 4502016,
+          "timestamp": "2015-04-22T04:14:43Z",
+          "author": "John Trololo",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Carg%C3%A8se-plage_de_Peru.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarg%C3%A8se-plage%20de%20Peru.jpg",
+          "title": "Cargèse-plage de Peru.jpg",
+          "description": "Cargère (Corse) - Plage de Peru, au nord du village",
+          "width": 3136,
+          "height": 2352,
+          "size": 5063928,
+          "timestamp": "2011-03-06T15:23:07Z",
+          "author": "Pierre Bona",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Tour d’Omigna",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Torra_d%27Omigna.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATorra%20d'Omigna.jpg",
-          "title": "Torra d'Omigna.jpg",
-          "width": 3968,
-          "height": 2976,
-          "size": 3324806,
-          "timestamp": "2021-09-22T16:20:32Z",
-          "author": "Rotavdrag",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Tour_d%27Omigna_-_panoramio.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATour%20d'Omigna%20-%20panoramio.jpg",
-          "title": "Tour d'Omigna - panoramio.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Tour_de_Carg%C3%A8se_-_panoramio.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATour%20de%20Carg%C3%A8se%20-%20panoramio.jpg",
+          "title": "Tour de Cargèse - panoramio.jpg",
+          "description": "Tour de Cargèse",
           "width": 5184,
           "height": 3456,
-          "size": 5026266,
-          "timestamp": "2017-01-21T14:00:10Z",
+          "size": 7548552,
+          "timestamp": "2017-01-21T13:57:10Z",
           "author": "Björn S.",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -125,6 +162,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Cargese-Tour_d%27Omigna.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACargese-Tour%20d'Omigna.jpg",
           "title": "Cargese-Tour d'Omigna.jpg",
+          "description": "Cargèse (Corse) - Tour génoise d'Omigna (XVIe s.)",
           "width": 3136,
           "height": 2352,
           "size": 6415403,
@@ -133,12 +171,69 @@
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Tour_de_Cargese.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATour%20de%20Cargese.jpg",
+          "title": "Tour de Cargese.jpg",
+          "description": "Genoese tower in the commune of Cargèse on the island of Corsica",
+          "width": 5463,
+          "height": 3642,
+          "size": 4028073,
+          "timestamp": "2014-05-11T17:00:14Z",
+          "author": "Aa77zz",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
         }
       ]
     },
     {
       "label": "Port de Cargèse",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Carg%C3%A8se_-_Vue_de_la_plage_de_M%C3%A9nasina_et_du_port_au_loin.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarg%C3%A8se%20-%20Vue%20de%20la%20plage%20de%20M%C3%A9nasina%20et%20du%20port%20au%20loin.JPG",
+          "title": "Cargèse - Vue de la plage de Ménasina et du port au loin.JPG",
+          "description": "Vue de la baie Sud de Cargèse, de son port et de la plage de Ménasina",
+          "width": 4000,
+          "height": 2672,
+          "size": 4585984,
+          "timestamp": "2015-04-22T04:18:20Z",
+          "author": "John Trololo",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/View_of_Cargese_on_headland_from_east.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AView%20of%20Cargese%20on%20headland%20from%20east.jpg",
+          "title": "View of Cargese on headland from east.jpg",
+          "description": "View of the village of Cargèse looking in a westerly direction. The port with the marina is on the left. The ruined Genoese tower, the Torra d'Omigna is at the top right. Another Genoese tower, the Torra di Carghjesi, sits at the highest point of the headland above the village. The buildings of the conference centre, the Études Scientifiques de Cargèse, are in the centre foreground by the sea. The road in the foreground is the D 81 that runs along the coast to the village of Sagone.",
+          "width": 5340,
+          "height": 2704,
+          "size": 1784404,
+          "timestamp": "2014-05-04T14:36:56Z",
+          "author": "Aa77zz",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Corse_-_Carg%C3%A8se_vue_du_port.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACorse%20-%20Carg%C3%A8se%20vue%20du%20port.jpg",
+          "title": "Corse - Cargèse vue du port.jpg",
+          "description": "Corse - Cargèse vue du port",
+          "width": 4272,
+          "height": 2848,
+          "size": 3752888,
+          "timestamp": "2009-08-20T21:23:08Z",
+          "author": "Jean-Christophe BENOIST",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

@@ -1,12 +1,13 @@
 {
   "slug": "abbaye-de-reigny-vermenton",
   "nom": "Abbaye de Reigny, Vermenton",
-  "fetchedAt": "2026-03-13T12:01:54.560Z",
+  "fetchedAt": "2026-03-15T14:40:18.489Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Vermenton_%2889%29_%C3%89glise_Notre-Dame_-_Ext%C3%A9rieur_-_06.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVermenton%20(89)%20%C3%89glise%20Notre-Dame%20-%20Ext%C3%A9rieur%20-%2006.jpg",
       "title": "Vermenton (89) Église Notre-Dame - Extérieur - 06.jpg",
+      "description": "Extérieur de l'église Notre-Dame de Vermenton (89).",
       "width": 2100,
       "height": 1400,
       "size": 567663,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/France_-_Bourgogne_-_Yonne_-_Vall%C3%A9e_s%C3%A8che_%C3%A0_Vermenton_%28M%C3%A9diHAL_1266875%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20-%20Bourgogne%20-%20Yonne%20-%20Vall%C3%A9e%20s%C3%A8che%20%C3%A0%20Vermenton%20(M%C3%A9diHAL%201266875).jpg",
       "title": "France - Bourgogne - Yonne - Vallée sèche à Vermenton (MédiHAL 1266875).jpg",
+      "description": "Handwritten caption on the original document: \"France: Jura, Burgundy: Lower Burgundy: Yonne, dry valley at Vermenton\". The glass plates deposited at Prodig date from 1891 to 1954. Approximate geolocation centered on Vermenton.",
       "width": 2656,
       "height": 1820,
       "size": 277250,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Gare_de_Vermenton.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGare%20de%20Vermenton.jpg",
       "title": "Gare de Vermenton.jpg",
+      "description": "Le batiment voyageurs de la gare de Vermenton et la ligne Cravant-Dracy",
       "width": 4032,
       "height": 3024,
       "size": 4850363,
@@ -50,11 +53,97 @@
     },
     {
       "label": "Réfectoire cistercien",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Vermenton_Abbaye_de_Reigny_R%C3%A9fectoire.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVermenton%20Abbaye%20de%20Reigny%20R%C3%A9fectoire.JPG",
+          "title": "Vermenton Abbaye de Reigny Réfectoire.JPG",
+          "description": "Vermenton Abbaye de Reigny Réfectoire",
+          "width": 3888,
+          "height": 2592,
+          "size": 3629064,
+          "timestamp": "2007-10-25T21:13:48Z",
+          "author": "Phil25",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Abbaye-de-Reigny%2C-Yonne_%289%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye-de-Reigny%2C-Yonne%20(9).JPG",
+          "title": "Abbaye-de-Reigny,-Yonne (9).JPG",
+          "description": "Ancienne abbaye cistercienne de Reigny (Vermenton, Yonne)\n\n l'entrée du réfectoire des moines",
+          "width": 1600,
+          "height": 1200,
+          "size": 295057,
+          "timestamp": "2009-08-21T17:26:27Z",
+          "author": "Patrick89",
+          "license": "CC BY-SA 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Vermenton_Abbaye_de_Reigny_Porte_R%C3%A9fectoire.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVermenton%20Abbaye%20de%20Reigny%20Porte%20R%C3%A9fectoire.JPG",
+          "title": "Vermenton Abbaye de Reigny Porte Réfectoire.JPG",
+          "description": "Vermenton Abbaye de Reigny Porte Réfectoire",
+          "width": 2592,
+          "height": 3888,
+          "size": 4988606,
+          "timestamp": "2007-10-25T21:20:19Z",
+          "author": "Phil25",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 3
+        }
+      ]
     },
     {
       "label": "Parc de l’abbaye",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Vermenton_Abbaye_de_Reigny.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVermenton%20Abbaye%20de%20Reigny.JPG",
+          "title": "Vermenton Abbaye de Reigny.JPG",
+          "description": "Vermenton Abbaye de Reigny",
+          "width": 3888,
+          "height": 2592,
+          "size": 4595268,
+          "timestamp": "2007-10-25T21:10:41Z",
+          "author": "Phil25",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Vermenton_Abbaye_de_Reigny_R%C3%A9fectoire.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVermenton%20Abbaye%20de%20Reigny%20R%C3%A9fectoire.JPG",
+          "title": "Vermenton Abbaye de Reigny Réfectoire.JPG",
+          "description": "Vermenton Abbaye de Reigny Réfectoire",
+          "width": 3888,
+          "height": 2592,
+          "size": 3629064,
+          "timestamp": "2007-10-25T21:13:48Z",
+          "author": "Phil25",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Abbaye-de-Reigny%2C-Yonne_%281%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye-de-Reigny%2C-Yonne%20(1).JPG",
+          "title": "Abbaye-de-Reigny,-Yonne (1).JPG",
+          "description": "Ancienne abbaye cistercienne de Reigny (Vermenton, Yonne)",
+          "width": 1600,
+          "height": 1200,
+          "size": 338696,
+          "timestamp": "2009-08-21T17:23:38Z",
+          "author": "Patrick89",
+          "license": "CC BY-SA 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     },
     {
       "label": "Grange monastique",

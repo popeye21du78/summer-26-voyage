@@ -1,12 +1,13 @@
 {
   "slug": "l-isle-adam",
   "nom": "l isle adam",
-  "fetchedAt": "2026-03-13T01:07:56.740Z",
+  "fetchedAt": "2026-03-16T14:31:49.778Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Environs_de_l%27Isle-Adam_DUPR%C3%89.Victor_Huile_sur_bois.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEnvirons%20de%20l'Isle-Adam%20DUPR%C3%89.Victor%20Huile%20sur%20bois.JPG",
       "title": "Environs de l'Isle-Adam DUPRÉ.Victor Huile sur bois.JPG",
+      "description": "Environs de l'Isle-Adam",
       "width": 6825,
       "height": 4019,
       "size": 2347182,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/MAUFRA_Maxime_Le_pont_de_l%27Isle-Adam_ou_le_Vieux_pont_Huile_sur_toile.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMAUFRA%20Maxime%20Le%20pont%20de%20l'Isle-Adam%20ou%20le%20Vieux%20pont%20Huile%20sur%20toile.jpg",
       "title": "MAUFRA Maxime Le pont de l'Isle-Adam ou le Vieux pont Huile sur toile.jpg",
+      "description": "Pont au milieu des arbres.",
       "width": 5471,
       "height": 4491,
       "size": 5589703,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/L-Isle_Adam_Band_Club_Flag_being_flown_at_half-mast_on_Good_Friday.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AL-Isle%20Adam%20Band%20Club%20Flag%20being%20flown%20at%20half-mast%20on%20Good%20Friday.jpg",
       "title": "L-Isle Adam Band Club Flag being flown at half-mast on Good Friday.jpg",
+      "description": "L-Isle Adam Band Club, one of the oldests band clubs in Malta with its flag being flown at half-mast on Good Friday at Rabat, Malta",
       "width": 5484,
       "height": 3656,
       "size": 12260959,
@@ -52,9 +55,24 @@
       "label": "Pont de Cabouillet",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/MAUFRA_Maxime_Le_pont_de_l%27Isle-Adam_ou_le_Vieux_pont_Huile_sur_toile.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMAUFRA%20Maxime%20Le%20pont%20de%20l'Isle-Adam%20ou%20le%20Vieux%20pont%20Huile%20sur%20toile.jpg",
+          "title": "MAUFRA Maxime Le pont de l'Isle-Adam ou le Vieux pont Huile sur toile.jpg",
+          "description": "Pont au milieu des arbres.",
+          "width": 5471,
+          "height": 4491,
+          "size": 5589703,
+          "timestamp": "2022-12-14T16:44:54Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Maxime_Maufra\" class=\"extiw\" title=\"w:en:Maxime Maufra\"><span title=\"French painter (1861-1918)\">Maxime Maufra</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/L_Isle-Adam_-_Pont_du_Cabouillet_01.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AL%20Isle-Adam%20-%20Pont%20du%20Cabouillet%2001.jpg",
           "title": "L Isle-Adam - Pont du Cabouillet 01.jpg",
+          "description": "",
           "width": 1280,
           "height": 960,
           "size": 584437,
@@ -72,21 +90,7 @@
     },
     {
       "label": "Parc de Cassan",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Michel_Barthelemy_Ollivier_or_Olivier_-_Fete_given_by_Louis_Francois_Joseph_de_Bourbon_Prince_of_Conti_to_Hereditary_Pri_-_%28MeisterDrucke-1022031%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMichel%20Barthelemy%20Ollivier%20or%20Olivier%20-%20Fete%20given%20by%20Louis%20Francois%20Joseph%20de%20Bourbon%20Prince%20of%20Conti%20to%20Hereditary%20Pri%20-%20(MeisterDrucke-1022031).jpg",
-          "title": "Michel Barthelemy Ollivier or Olivier - Fete given by Louis Francois Joseph de Bourbon Prince of Conti to Hereditary Pri - (MeisterDrucke-1022031).jpg",
-          "width": 1024,
-          "height": 716,
-          "size": 172995,
-          "timestamp": "2022-05-19T08:20:53Z",
-          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Michel-Barth%C3%A9l%C3%A9my_Ollivier\" class=\"extiw\" title=\"w:en:Michel-Barthélémy Ollivier\"><span title=\"French painter (1712-1784)\">Michel-Barthélémy Ollivier</span></a></bdi>",
-          "license": "Public domain",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Chemin de halage",
@@ -96,43 +100,46 @@
       "label": "Église Saint-Martin",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/L%27Isle-Adame_%2895%29%2C_%C3%A9glise_Saint-Martin%2C_nef%2C_c%C3%B4t%C3%A9_sud.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AL'Isle-Adame%20(95)%2C%20%C3%A9glise%20Saint-Martin%2C%20nef%2C%20c%C3%B4t%C3%A9%20sud.jpg",
-          "title": "L'Isle-Adame (95), église Saint-Martin, nef, côté sud.jpg",
-          "width": 3648,
-          "height": 2736,
-          "size": 1343288,
-          "timestamp": "2013-06-06T11:22:26Z",
-          "author": "P.poschadel",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/L%27Isle-Adam_-_%C3%89glise_abside.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AL'Isle-Adam%20-%20%C3%89glise%20abside.jpg",
+          "title": "L'Isle-Adam - Église abside.jpg",
+          "description": "L'Isle-Adam. - L'église : l'abside (carte postale)",
+          "width": 2243,
+          "height": 1486,
+          "size": 677061,
+          "timestamp": "2024-07-16T13:46:42Z",
+          "author": "<div class=\"fn value\">\nUnknown author<span style=\"display: none;\">Unknown author</span></div>",
+          "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/L%27Isle-Adam_%2895%29%2C_%C3%A9glise_Saint-Martin%2C_chapelle_de_la_Vierge.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AL'Isle-Adam%20(95)%2C%20%C3%A9glise%20Saint-Martin%2C%20chapelle%20de%20la%20Vierge.jpg",
-          "title": "L'Isle-Adam (95), église Saint-Martin, chapelle de la Vierge.jpg",
-          "width": 3648,
-          "height": 2736,
-          "size": 1434765,
-          "timestamp": "2013-06-06T11:37:18Z",
-          "author": "P.poschadel",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Projet_de_vitrail_pour_l%27%C3%A9glise_Saint-Martin_de_l%27Isle-Adam_%28fen%C3%AAtr_e%C3%A0_deux_trav%C3%A9es%29_Philippe_et_louis_de_Villiers_de%2C_D.16128.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AProjet%20de%20vitrail%20pour%20l'%C3%A9glise%20Saint-Martin%20de%20l'Isle-Adam%20(fen%C3%AAtr%20e%C3%A0%20deux%20trav%C3%A9es)%20Philippe%20et%20louis%20de%20Villiers%20de%2C%20D.16128.jpg",
+          "title": "Projet de vitrail pour l'église Saint-Martin de l'Isle-Adam (fenêtr eà deux travées) Philippe et louis de Villiers de, D.16128.jpg",
+          "description": "Auteur(s):\n\nGsell-Laurent, peintre-verrier\n\n\nDate de production:\n\nEntre 1847 et 1900\n\n\nType(s) d'objet(s):\n\nArts graphiques\n\n\nDénomination(s):\n\nDessin, Album\n\n\nMatériaux et techniques:\n\nAquarelle, Gouache\n\n\nDimensions - Oeuvre:\n\n\n   Hauteur : 31.5 cm\n   Largeur : 11.9 cm\n\n\n\nDescription:\n\n\nContrecollé dans un album relié de 48 feuillets contenant dessins, photographies ou estampes de projets de vitraux de la manufacture Gsell-Laurent. Chaque projet de vitrail est inséré dans un cadre dessiné sur ",
+          "width": 3682,
+          "height": 5946,
+          "size": 4243079,
+          "timestamp": "2023-11-21T05:32:13Z",
+          "author": "Gsell-Laurent, peintre-verrier",
+          "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 6
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Chevet_de_l%27%C3%A9glise_saint_martin_L%27Isle-Adam.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChevet%20de%20l'%C3%A9glise%20saint%20martin%20L'Isle-Adam.JPG",
-          "title": "Chevet de l'église saint martin L'Isle-Adam.JPG",
-          "width": 2848,
-          "height": 2144,
-          "size": 2033536,
-          "timestamp": "2007-10-10T17:57:15Z",
-          "author": "Sanchalex",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Projet_de_vitrail_pour_l%27%C3%A9glise_Saint-Martin_de_l%27Isle-Adam_%28fen%C3%AAtre_%C3%A0_deux_trav%C3%A9es%29_Anne_de_Montmorency_et_sainte_Ann%2C_D.16130.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AProjet%20de%20vitrail%20pour%20l'%C3%A9glise%20Saint-Martin%20de%20l'Isle-Adam%20(fen%C3%AAtre%20%C3%A0%20deux%20trav%C3%A9es)%20Anne%20de%20Montmorency%20et%20sainte%20Ann%2C%20D.16130.jpg",
+          "title": "Projet de vitrail pour l'église Saint-Martin de l'Isle-Adam (fenêtre à deux travées) Anne de Montmorency et sainte Ann, D.16130.jpg",
+          "description": "Auteur(s):\n\nGsell-Laurent, peintre-verrier\n\n\nDate de production:\n\nEntre 1847 et 1900\n\n\nType(s) d'objet(s):\n\nArts graphiques\n\n\nDénomination(s):\n\nDessin, Album\n\n\nMatériaux et techniques:\n\nAquarelle, Gouache\n\n\nDimensions - Oeuvre:\n\n\n   Hauteur : 31.4 cm\n   Largeur : 11.8 cm\n\n\n\nDescription:\n\n\nContrecollé dans un album relié de 48 feuillets contenant dessins, photographies ou estampes de projets de vitraux de la manufacture Gsell-Laurent. Chaque projet de vitrail est inséré dans un cadre dessiné sur ",
+          "width": 3566,
+          "height": 5928,
+          "size": 4039082,
+          "timestamp": "2023-11-21T05:32:56Z",
+          "author": "Gsell-Laurent, peintre-verrier",
+          "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 6
         }
       ]
     }

@@ -1,38 +1,13 @@
 {
   "slug": "troyes",
   "nom": "Troyes",
-  "fetchedAt": "2026-03-13T02:04:32.987Z",
+  "fetchedAt": "2026-03-18T20:23:59.271Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/On_the_way_to_southern_France_%28France%2C_September_2020%29_-_71_%2850536565192%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOn%20the%20way%20to%20southern%20France%20(France%2C%20September%202020)%20-%2071%20(50536565192).jpg",
-      "title": "On the way to southern France (France, September 2020) - 71 (50536565192).jpg",
-      "width": 5472,
-      "height": 3648,
-      "size": 19658579,
-      "timestamp": "2021-04-04T11:03:38Z",
-      "author": "Bruno Rijsman",
-      "license": "CC BY-SA 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/On_the_way_to_southern_France_%28France%2C_September_2020%29_-_65_%2850536503426%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOn%20the%20way%20to%20southern%20France%20(France%2C%20September%202020)%20-%2065%20(50536503426).jpg",
-      "title": "On the way to southern France (France, September 2020) - 65 (50536503426).jpg",
-      "width": 5472,
-      "height": 3648,
-      "size": 19483740,
-      "timestamp": "2021-04-04T11:04:04Z",
-      "author": "Bruno Rijsman",
-      "license": "CC BY-SA 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/04_GES_-_Aube_-_Troyes_-_Maison_du_Boulanger_%282014-09-13_16-45-54%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A04%20GES%20-%20Aube%20-%20Troyes%20-%20Maison%20du%20Boulanger%20(2014-09-13%2016-45-54).jpg",
       "title": "04 GES - Aube - Troyes - Maison du Boulanger (2014-09-13 16-45-54).jpg",
+      "description": "Maison du Boulanger",
       "width": 2532,
       "height": 1899,
       "size": 3031560,
@@ -41,6 +16,34 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Troyes_%2810%29_%C3%89glise_Saint-Jean-au-March%C3%A9_-_Int%C3%A9rieur_-_D%C3%A9ploration_01.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATroyes%20(10)%20%C3%89glise%20Saint-Jean-au-March%C3%A9%20-%20Int%C3%A9rieur%20-%20D%C3%A9ploration%2001.jpg",
+      "title": "Troyes (10) Église Saint-Jean-au-Marché - Intérieur - Déploration 01.jpg",
+      "description": "Déploration de l'église Saint-Jean-au-Marché de Troyes (10).",
+      "width": 1800,
+      "height": 1200,
+      "size": 757887,
+      "timestamp": "2018-08-11T16:16:40Z",
+      "author": "GO69",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Troyes_Rue_%C3%89mile_Zola_111.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATroyes%20Rue%20%C3%89mile%20Zola%20111.jpg",
+      "title": "Troyes Rue Émile Zola 111.jpg",
+      "description": "Rue Émile Zola 111, Troyes, Aube, France",
+      "width": 4008,
+      "height": 6008,
+      "size": 16665489,
+      "timestamp": "2023-05-12T20:22:22Z",
+      "author": "Ymblanter",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
     }
   ],
   "lieux": [
@@ -48,35 +51,10 @@
       "label": "Cathédrale Saint-Pierre-et-Saint-Paul",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/2022.10.30.111757_Cath%C3%A9drale_Saint-Pierre_et_Saint_Paul_Rue_de_la_Cit%C3%A9_Troyes_France.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2022.10.30.111757%20Cath%C3%A9drale%20Saint-Pierre%20et%20Saint%20Paul%20Rue%20de%20la%20Cit%C3%A9%20Troyes%20France.jpg",
-          "title": "2022.10.30.111757 Cathédrale Saint-Pierre et Saint Paul Rue de la Cité Troyes France.jpg",
-          "width": 3840,
-          "height": 2160,
-          "size": 1607372,
-          "timestamp": "2023-08-06T18:49:29Z",
-          "author": "Hermann Luyken",
-          "license": "CC0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/2022.10.30.111832_Cath%C3%A9drale_Saint-Pierre_et_Saint_Paul_Rue_de_la_Cit%C3%A9_Troyes_France.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2022.10.30.111832%20Cath%C3%A9drale%20Saint-Pierre%20et%20Saint%20Paul%20Rue%20de%20la%20Cit%C3%A9%20Troyes%20France.jpg",
-          "title": "2022.10.30.111832 Cathédrale Saint-Pierre et Saint Paul Rue de la Cité Troyes France.jpg",
-          "width": 3840,
-          "height": 2160,
-          "size": 1527593,
-          "timestamp": "2023-08-06T18:50:40Z",
-          "author": "Hermann Luyken",
-          "license": "CC0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/2022.10.30.112746_Cath%C3%A9drale_Saint-Pierre_et_Saint_Paul_Rue_de_la_Cit%C3%A9_Troyes_France.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2022.10.30.112746%20Cath%C3%A9drale%20Saint-Pierre%20et%20Saint%20Paul%20Rue%20de%20la%20Cit%C3%A9%20Troyes%20France.jpg",
           "title": "2022.10.30.112746 Cathédrale Saint-Pierre et Saint Paul Rue de la Cité Troyes France.jpg",
+          "description": "Cathédrale Saint-Pierre et Saint-Paul - Rue de la Cité, Troyes, France, 30.10.2022",
           "width": 3840,
           "height": 2160,
           "size": 1466192,
@@ -85,6 +63,34 @@
           "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Troyes_-_cath%C3%A9drale_Saint-Pierre-et-Saint-Paul_%2802%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATroyes%20-%20cath%C3%A9drale%20Saint-Pierre-et-Saint-Paul%20(02).jpg",
+          "title": "Troyes - cathédrale Saint-Pierre-et-Saint-Paul (02).jpg",
+          "description": "Saint Peter and Paul cathedral of Troyes (Aube, France) : facade",
+          "width": 3264,
+          "height": 2448,
+          "size": 3465018,
+          "timestamp": "2016-09-14T20:57:21Z",
+          "author": "Fab5669",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Troyes_-_cath%C3%A9drale_Saint-Pierre-et-Saint-Paul_%2806%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATroyes%20-%20cath%C3%A9drale%20Saint-Pierre-et-Saint-Paul%20(06).jpg",
+          "title": "Troyes - cathédrale Saint-Pierre-et-Saint-Paul (06).jpg",
+          "description": "Saint Peter and Paul cathedral of Troyes (Aube, France) : tower",
+          "width": 3264,
+          "height": 2448,
+          "size": 3607564,
+          "timestamp": "2016-09-14T20:57:24Z",
+          "author": "Fab5669",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
         }
       ]
     },
@@ -92,43 +98,46 @@
       "label": "Ruelle des Chats",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Plaque_ruelle_Chats_Troyes_2.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlaque%20ruelle%20Chats%20Troyes%202.jpg",
-          "title": "Plaque ruelle Chats Troyes 2.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/F7573_Paris_12e_rue_Chretien_de_Troyes_rwk.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AF7573%20Paris%2012e%20rue%20Chretien%20de%20Troyes%20rwk.jpg",
+          "title": "F7573 Paris 12e rue Chretien de Troyes rwk.jpg",
+          "description": "La rue Chrétien-de-Troyes vue depuis la rue de Rambouillet - Paris 12e.",
+          "width": 4000,
+          "height": 2702,
+          "size": 7466076,
+          "timestamp": "2024-08-16T16:04:43Z",
+          "author": "Mbzt",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Rue_Chr%C3%A9tien_de_Troyes_Paris_12.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARue%20Chr%C3%A9tien%20de%20Troyes%20Paris%2012.jpg",
+          "title": "Rue Chrétien de Troyes Paris 12.jpg",
+          "description": "Rue Chrétien de Troyes à Paris, vue depuis l'avenue Daumesnil.",
+          "width": 1920,
+          "height": 2560,
+          "size": 1190534,
+          "timestamp": "2017-12-26T13:50:15Z",
+          "author": "JJ Georges",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Rue_Chr%C3%A9tien_Troyes_-_Paris_XII_%28FR75%29_-_2021-05-26_-_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARue%20Chr%C3%A9tien%20Troyes%20-%20Paris%20XII%20(FR75)%20-%202021-05-26%20-%201.jpg",
+          "title": "Rue Chrétien Troyes - Paris XII (FR75) - 2021-05-26 - 1.jpg",
+          "description": "Rue Chrétien de Troyes, Paris.",
           "width": 4032,
-          "height": 1956,
-          "size": 1976212,
-          "timestamp": "2023-12-17T16:56:32Z",
+          "height": 3024,
+          "size": 5160195,
+          "timestamp": "2021-05-27T00:59:43Z",
           "author": "Chabe01",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/2022.10.30.171645_Ruelle_des_Chats_Troyes_France.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2022.10.30.171645%20Ruelle%20des%20Chats%20Troyes%20France.jpg",
-          "title": "2022.10.30.171645 Ruelle des Chats Troyes France.jpg",
-          "width": 3840,
-          "height": 2160,
-          "size": 1232542,
-          "timestamp": "2023-08-06T18:53:18Z",
-          "author": "Hermann Luyken",
-          "license": "CC0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Troyes_Ruelle-des-Chats.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATroyes%20Ruelle-des-Chats.JPG",
-          "title": "Troyes Ruelle-des-Chats.JPG",
-          "width": 3264,
-          "height": 2448,
-          "size": 1938736,
-          "timestamp": "2015-08-17T20:38:09Z",
-          "author": "Eponimm",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
         }
       ]
     },
@@ -136,41 +145,44 @@
       "label": "Basilique Saint-Urbain",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Troyes_-_basilique_Saint-Urbain_%2801%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATroyes%20-%20basilique%20Saint-Urbain%20(01).jpg",
-          "title": "Troyes - basilique Saint-Urbain (01).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Troyes_-_basilique_Saint-Urbain_%2814%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATroyes%20-%20basilique%20Saint-Urbain%20(14).jpg",
+          "title": "Troyes - basilique Saint-Urbain (14).jpg",
+          "description": "Saint Urban basilica of Troyes (Aube, France) : from the south-east",
           "width": 3264,
           "height": 2448,
-          "size": 2809200,
-          "timestamp": "2016-09-12T21:07:35Z",
+          "size": 3603355,
+          "timestamp": "2016-09-17T18:48:25Z",
           "author": "Fab5669",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Troyes_-_basilique_Saint-Urbain_%2808%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATroyes%20-%20basilique%20Saint-Urbain%20(08).jpg",
-          "title": "Troyes - basilique Saint-Urbain (08).jpg",
-          "width": 3264,
-          "height": 2448,
-          "size": 3607772,
-          "timestamp": "2016-09-13T18:52:27Z",
-          "author": "Fab5669",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Troyes_Basilique_Saint-Urbain_from_the_east.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATroyes%20Basilique%20Saint-Urbain%20from%20the%20east.jpg",
+          "title": "Troyes Basilique Saint-Urbain from the east.jpg",
+          "description": "Basilique Saint-Urbain from the east, Troyes, Aube, France",
+          "width": 4008,
+          "height": 6008,
+          "size": 17331370,
+          "timestamp": "2023-05-09T18:52:16Z",
+          "author": "Ymblanter",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Troyes_-_basilique_Saint-Urbain_%2809%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATroyes%20-%20basilique%20Saint-Urbain%20(09).jpg",
-          "title": "Troyes - basilique Saint-Urbain (09).jpg",
-          "width": 3264,
-          "height": 2448,
-          "size": 3190253,
-          "timestamp": "2016-09-13T18:52:27Z",
-          "author": "Fab5669",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Troyes_%2838%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATroyes%20(38).jpg",
+          "title": "Troyes (38).jpg",
+          "description": "Troyes.",
+          "width": 2400,
+          "height": 1800,
+          "size": 932624,
+          "timestamp": "2016-09-02T18:17:14Z",
+          "author": "AntoinePotrou",
+          "license": "FAL",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
         }
@@ -180,39 +192,42 @@
       "label": "Jardin du Rocher",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Troyes_-_kiosque_%2802%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATroyes%20-%20kiosque%20(02).jpg",
-          "title": "Troyes - kiosque (02).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Troyes_-_jardin_des_Innocents_%2805%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATroyes%20-%20jardin%20des%20Innocents%20(05).jpg",
+          "title": "Troyes - jardin des Innocents (05).jpg",
+          "description": "Portal of Innocents garden, former cemetery of Magdalene church of Troyes (Aube, France)",
           "width": 3264,
           "height": 2448,
-          "size": 3589424,
-          "timestamp": "2016-09-18T16:27:33Z",
+          "size": 3930191,
+          "timestamp": "2016-09-11T14:28:54Z",
           "author": "Fab5669",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Troyes_-_kiosque_%2805%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATroyes%20-%20kiosque%20(05).jpg",
-          "title": "Troyes - kiosque (05).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Troyes_-_jardin_des_Innocents_%2806%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATroyes%20-%20jardin%20des%20Innocents%20(06).jpg",
+          "title": "Troyes - jardin des Innocents (06).jpg",
+          "description": "Portal of Innocents garden, former cemetery of Magdalene church of Troyes (Aube, France)",
           "width": 3264,
           "height": 2448,
-          "size": 3670688,
-          "timestamp": "2016-09-18T16:27:38Z",
+          "size": 3122812,
+          "timestamp": "2016-09-11T14:28:54Z",
           "author": "Fab5669",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Troyes_-_kiosque_%2807%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATroyes%20-%20kiosque%20(07).jpg",
-          "title": "Troyes - kiosque (07).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Troyes_-_jardin_des_Innocents_%2808%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATroyes%20-%20jardin%20des%20Innocents%20(08).jpg",
+          "title": "Troyes - jardin des Innocents (08).jpg",
+          "description": "Portal of Innocents garden, former cemetery of Magdalene church of Troyes (Aube, France)",
           "width": 3264,
           "height": 2448,
-          "size": 4097493,
-          "timestamp": "2016-09-18T16:27:40Z",
+          "size": 3352948,
+          "timestamp": "2016-09-11T14:28:57Z",
           "author": "Fab5669",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -222,11 +237,69 @@
     },
     {
       "label": "Parc des Moulins",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/14-2-26%2C_Paris_-_Nice_%28motocycliste%29%2C_le_parc_des_motos_%C3%A0_Troyes_-_btv1b53158151p.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A14-2-26%2C%20Paris%20-%20Nice%20(motocycliste)%2C%20le%20parc%20des%20motos%20%C3%A0%20Troyes%20-%20btv1b53158151p.jpg",
+          "title": "14-2-26, Paris - Nice (motocycliste), le parc des motos à Troyes - btv1b53158151p.jpg",
+          "description": "Sujet : Courses motocyclistes -- Troyes (Aube, France)\nMotocyclettes de course\nTroyes (Aube, France)\nRéférence bibliographique : Rol, 107257\nAppartient à l’ensemble documentaire : Pho20Rol\nImage de presse\nCouverture : 14 février 1926\n\nLangue : français",
+          "width": 8498,
+          "height": 6122,
+          "size": 8119047,
+          "timestamp": "2025-03-07T00:02:14Z",
+          "author": "<div class=\"fn value\">\nAgence Rol. Agence photographique (commanditaire)</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Maison Rachi",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Troyes_Maison_du_Dauphin_from_the_south.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATroyes%20Maison%20du%20Dauphin%20from%20the%20south.jpg",
+          "title": "Troyes Maison du Dauphin from the south.jpg",
+          "description": "Maison du Dauphin from the south, Troyes, Aube, France",
+          "width": 3800,
+          "height": 5856,
+          "size": 18977304,
+          "timestamp": "2023-05-13T08:19:53Z",
+          "author": "Ymblanter",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Troyes_rue_Emile_Zola_maisons_pans_de_bois.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATroyes%20rue%20Emile%20Zola%20maisons%20pans%20de%20bois.jpg",
+          "title": "Troyes rue Emile Zola maisons pans de bois.jpg",
+          "description": "Troyes, Aube, Champagne-Ardenne, France: timber-frame houses located rue Émile-Zola",
+          "width": 5558,
+          "height": 3705,
+          "size": 7091626,
+          "timestamp": "2015-02-18T22:51:40Z",
+          "author": "Myrabella",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Troyes_%28322%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATroyes%20(322).jpg",
+          "title": "Troyes (322).jpg",
+          "description": "Troyes.",
+          "width": 2400,
+          "height": 1800,
+          "size": 634601,
+          "timestamp": "2016-09-02T19:05:55Z",
+          "author": "AntoinePotrou",
+          "license": "FAL",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

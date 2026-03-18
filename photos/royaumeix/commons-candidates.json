@@ -1,44 +1,47 @@
 {
   "slug": "royaumeix",
   "nom": "Royaumeix",
-  "fetchedAt": "2026-03-14T11:53:22.551Z",
+  "fetchedAt": "2026-03-18T17:52:05.640Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/ISS047-E-23021_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS047-E-23021%20-%20View%20of%20Earth.jpg",
-      "title": "ISS047-E-23021 - View of Earth.jpg",
-      "width": 4928,
-      "height": 3280,
-      "size": 5591962,
-      "timestamp": "2021-03-22T03:51:20Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/54466-Royaumeix-Sols.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A54466-Royaumeix-Sols.png",
+      "title": "54466-Royaumeix-Sols.png",
+      "description": "Carte des infrastructures et de l’occupation des sols en 2018 de la commune de fr:Royaumeix (France).",
+      "width": 3270,
+      "height": 2598,
+      "size": 1463910,
+      "timestamp": "2021-05-15T09:30:15Z",
+      "author": "Roland45",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/ISS047-E-23020_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS047-E-23020%20-%20View%20of%20Earth.jpg",
-      "title": "ISS047-E-23020 - View of Earth.jpg",
-      "width": 4928,
-      "height": 3280,
-      "size": 5868155,
-      "timestamp": "2021-03-22T03:51:28Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/54466-Royaumeix-Routes-Hydro.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A54466-Royaumeix-Routes-Hydro.png",
+      "title": "54466-Royaumeix-Routes-Hydro.png",
+      "description": "Carte du réseau hydrographique de la commune de la commune de fr:Royaumeix (France).",
+      "width": 3507,
+      "height": 2480,
+      "size": 2223723,
+      "timestamp": "2022-07-31T16:17:01Z",
+      "author": "Roland45",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/ISS053-E-292569_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS053-E-292569%20-%20View%20of%20Earth.jpg",
-      "title": "ISS053-E-292569 - View of Earth.jpg",
-      "width": 5568,
-      "height": 3712,
-      "size": 6297849,
-      "timestamp": "2021-04-06T19:25:58Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/54466-Royaumeix-Hydro.jpeg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A54466-Royaumeix-Hydro.jpeg",
+      "title": "54466-Royaumeix-Hydro.jpeg",
+      "description": "Carte du réseau hydrographique de la commune de fr:Royaumeix (France).",
+      "width": 5846,
+      "height": 4133,
+      "size": 2292594,
+      "timestamp": "2024-02-19T12:22:11Z",
+      "author": "Roland45",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     }
@@ -46,7 +49,22 @@
   "lieux": [
     {
       "label": "Église Saint-Remy",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Royaumeix_%C3%A9glise.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARoyaumeix%20%C3%A9glise.JPG",
+          "title": "Royaumeix église.JPG",
+          "description": "Royaumeix église",
+          "width": 3000,
+          "height": 4000,
+          "size": 1891995,
+          "timestamp": "2015-06-21T19:41:47Z",
+          "author": "Aimelaime~commonswiki",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Lavoir couvert de Royaumeix",

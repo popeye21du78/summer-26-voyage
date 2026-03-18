@@ -1,60 +1,93 @@
 {
   "slug": "biot",
   "nom": "Biot",
-  "fetchedAt": "2026-03-13T00:20:21.450Z",
+  "fetchedAt": "2026-03-15T19:44:50.517Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Vue_du_village_de_Biot_depuis_le_chemin_de_l%E2%80%99Orangerie_d%E2%80%99Antibes.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20du%20village%20de%20Biot%20depuis%20le%20chemin%20de%20l%E2%80%99Orangerie%20d%E2%80%99Antibes.jpg",
-      "title": "Vue du village de Biot depuis le chemin de l’Orangerie d’Antibes.jpg",
-      "width": 4753,
-      "height": 3168,
-      "size": 2308982,
-      "timestamp": "2023-03-29T04:36:39Z",
-      "author": "Jpchevreau",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Biot_Police_Toyota_Yaris_Cross.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABiot%20Police%20Toyota%20Yaris%20Cross.jpg",
+      "title": "Biot Police Toyota Yaris Cross.jpg",
+      "description": "Toyota Yaris Cross, Police municipale, Biot",
+      "width": 4809,
+      "height": 2685,
+      "size": 2776026,
+      "timestamp": "2024-04-29T14:24:41Z",
+      "author": "Paul Townley",
+      "license": "Public domain",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Construction_-_Flickr_-_Thomas_Leth-Olsen.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AConstruction%20-%20Flickr%20-%20Thomas%20Leth-Olsen.jpg",
-      "title": "Construction - Flickr - Thomas Leth-Olsen.jpg",
-      "width": 2048,
-      "height": 1367,
-      "size": 1859811,
-      "timestamp": "2020-07-22T01:01:22Z",
-      "author": "Thomas Leth-Olsen",
-      "license": "CC BY-SA 2.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Biot_%28Vieux_village%29.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABiot%20(Vieux%20village).JPG",
+      "title": "Biot (Vieux village).JPG",
+      "description": "Biot (Alpes-Maritimes). Vue sur le vieux village",
+      "width": 2592,
+      "height": 1944,
+      "size": 1431872,
+      "timestamp": "2016-05-16T14:33:53Z",
+      "author": "G CHP",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 6
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Lactarius_chrysorrheus_3316224.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALactarius%20chrysorrheus%203316224.jpg",
-      "title": "Lactarius chrysorrheus 3316224.jpg",
-      "width": 2048,
-      "height": 1532,
-      "size": 503817,
-      "timestamp": "2020-10-24T23:03:16Z",
-      "author": "Fabien Piednoir",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Mus%C3%A9e_Fernand_L%C3%A9ger%2C_Biot_-_panoramio.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e%20Fernand%20L%C3%A9ger%2C%20Biot%20-%20panoramio.jpg",
+      "title": "Musée Fernand Léger, Biot - panoramio.jpg",
+      "description": "Musée Fernand Léger, Biot",
+      "width": 1280,
+      "height": 815,
+      "size": 233542,
+      "timestamp": "2016-11-23T09:43:40Z",
+      "author": "François Philipp",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 6
     }
   ],
   "lieux": [
     {
       "label": "Verrerie de Biot",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Verrerie.Biot_-_panoramio.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVerrerie.Biot%20-%20panoramio.jpg",
+          "title": "Verrerie.Biot - panoramio.jpg",
+          "description": "Verrerie.Biot",
+          "width": 1315,
+          "height": 1054,
+          "size": 186587,
+          "timestamp": "2015-09-10T08:06:08Z",
+          "author": "Javier Branas",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Place des Arcades",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Vue_du_village_de_Biot_depuis_le_chemin_de_l%E2%80%99Orangerie_d%E2%80%99Antibes.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20du%20village%20de%20Biot%20depuis%20le%20chemin%20de%20l%E2%80%99Orangerie%20d%E2%80%99Antibes.jpg",
+          "title": "Vue du village de Biot depuis le chemin de l’Orangerie d’Antibes.jpg",
+          "description": "Vue du village de Biot depuis le chemin de l’Orangerie d’Antibes.",
+          "width": 4753,
+          "height": 3168,
+          "size": 2308982,
+          "timestamp": "2023-03-29T04:36:39Z",
+          "author": "Jpchevreau",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/BIOT_Place_des_Arcades_07.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABIOT%20Place%20des%20Arcades%2007.jpg",
           "title": "BIOT Place des Arcades 07.jpg",
+          "description": "BIOT Place des Arcades",
           "width": 4128,
           "height": 3096,
           "size": 4751154,
@@ -65,30 +98,18 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/BIOT_Place_des_Arcades_02.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABIOT%20Place%20des%20Arcades%2002.jpg",
-          "title": "BIOT Place des Arcades 02.jpg",
-          "width": 3096,
-          "height": 4128,
-          "size": 4416420,
-          "timestamp": "2020-10-06T12:37:39Z",
-          "author": "Abxbay",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Biot_Police_Toyota_Yaris_Cross.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABiot%20Police%20Toyota%20Yaris%20Cross.jpg",
+          "title": "Biot Police Toyota Yaris Cross.jpg",
+          "description": "Toyota Yaris Cross, Police municipale, Biot",
+          "width": 4809,
+          "height": 2685,
+          "size": 2776026,
+          "timestamp": "2024-04-29T14:24:41Z",
+          "author": "Paul Townley",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/BIOT_Place_des_Arcades_01.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABIOT%20Place%20des%20Arcades%2001.jpg",
-          "title": "BIOT Place des Arcades 01.jpg",
-          "width": 3096,
-          "height": 4128,
-          "size": 5655344,
-          "timestamp": "2020-10-06T12:37:39Z",
-          "author": "Abxbay",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         }
       ]
     },
@@ -96,43 +117,46 @@
       "label": "Église Sainte-Marie-Madeleine",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/%C3%89glise_Sainte-Marie-Madeleine_%283%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Sainte-Marie-Madeleine%20(3).jpg",
-          "title": "Église Sainte-Marie-Madeleine (3).jpg",
-          "width": 4656,
-          "height": 2218,
-          "size": 3637716,
-          "timestamp": "2019-06-11T20:37:59Z",
-          "author": "Guerinf",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Eglise_Saint_Nicolas_du_Biot.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Saint%20Nicolas%20du%20Biot.jpg",
+          "title": "Eglise Saint Nicolas du Biot.jpg",
+          "description": "vue de l'éxtérieur de l'église",
+          "width": 4128,
+          "height": 3096,
+          "size": 3253660,
+          "timestamp": "2021-01-02T10:21:43Z",
+          "author": "Fachimiar",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/%C3%89glise_Sainte-Marie-Madeleine_%282%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Sainte-Marie-Madeleine%20(2).jpg",
-          "title": "Église Sainte-Marie-Madeleine (2).jpg",
-          "width": 3581,
-          "height": 2192,
-          "size": 2798229,
-          "timestamp": "2019-06-11T20:38:01Z",
-          "author": "Guerinf",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/St_Nicholas_church_in_Le_Biot_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt%20Nicholas%20church%20in%20Le%20Biot%2001.jpg",
+          "title": "St Nicholas church in Le Biot 01.jpg",
+          "description": "Saint Nicholas church in Le Biot, Haute-Savoie, France",
+          "width": 4652,
+          "height": 3538,
+          "size": 10027300,
+          "timestamp": "2020-11-07T08:13:01Z",
+          "author": "Krzysztof Golik",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/%C3%89glise_Sainte-Marie-Madeleine_%285%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Sainte-Marie-Madeleine%20(5).jpg",
-          "title": "Église Sainte-Marie-Madeleine (5).jpg",
-          "width": 2746,
-          "height": 2214,
-          "size": 3066211,
-          "timestamp": "2019-06-11T20:38:04Z",
-          "author": "Guerinf",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/St_Nicholas_church_in_Le_Biot_04.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt%20Nicholas%20church%20in%20Le%20Biot%2004.jpg",
+          "title": "St Nicholas church in Le Biot 04.jpg",
+          "description": "Altar in the Saint Nicholas church in Le Biot, Haute-Savoie, France",
+          "width": 3887,
+          "height": 2664,
+          "size": 9078550,
+          "timestamp": "2020-11-07T08:13:04Z",
+          "author": "Krzysztof Golik",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         }
       ]
     },
@@ -140,30 +164,32 @@
       "label": "Fondation Fernand Léger",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/El%C3%A9ment_m%C3%A9canique_sur_fond_rouge.png",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEl%C3%A9ment%20m%C3%A9canique%20sur%20fond%20rouge.png",
-          "title": "Elément mécanique sur fond rouge.png",
-          "width": 456,
-          "height": 645,
-          "size": 428520,
-          "timestamp": "2026-01-08T23:40:32Z",
-          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Fernand_L%C3%A9ger\" class=\"extiw\" title=\"w:en:Fernand Léger\"><span title=\"French painter (1881–1955)\">Fernand Léger</span></a></bdi>",
-          "license": "Public domain",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/74034-Le_Biot-Hydro.jpeg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A74034-Le%20Biot-Hydro.jpeg",
+          "title": "74034-Le Biot-Hydro.jpeg",
+          "description": "Carte du réseau hydrographique de la commune de fr:Le Biot (France).",
+          "width": 5846,
+          "height": 4133,
+          "size": 2500950,
+          "timestamp": "2024-02-12T16:09:42Z",
+          "author": "Roland45",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Paravent%2C_Composition_sur_fond_marron_-_Fernand_L%C3%A9ger.png",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParavent%2C%20Composition%20sur%20fond%20marron%20-%20Fernand%20L%C3%A9ger.png",
-          "title": "Paravent, Composition sur fond marron - Fernand Léger.png",
-          "width": 552,
-          "height": 514,
-          "size": 403879,
-          "timestamp": "2026-01-09T00:48:10Z",
-          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Fernand_L%C3%A9ger\" class=\"extiw\" title=\"w:en:Fernand Léger\"><span title=\"French painter (1881–1955)\">Fernand Léger</span></a></bdi>",
-          "license": "Public domain",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/06018-Biot-Hydro.jpeg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A06018-Biot-Hydro.jpeg",
+          "title": "06018-Biot-Hydro.jpeg",
+          "description": "Carte du réseau hydrographique de la commune de fr:Biot (Alpes-Maritimes) (France).",
+          "width": 5846,
+          "height": 4133,
+          "size": 3401050,
+          "timestamp": "2024-02-24T09:40:19Z",
+          "author": "Roland45",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 7
         }
       ]
     }

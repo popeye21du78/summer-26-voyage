@@ -1,25 +1,13 @@
 {
   "slug": "collegiale-saint-junien",
   "nom": "Collégiale Saint-Junien",
-  "fetchedAt": "2026-03-13T13:50:21.000Z",
+  "fetchedAt": "2026-03-16T12:12:35.110Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/March%C3%A9_couvert_de_Saint-Junien_%2887%29_-_02.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarch%C3%A9%20couvert%20de%20Saint-Junien%20(87)%20-%2002.jpg",
-      "title": "Marché couvert de Saint-Junien (87) - 02.jpg",
-      "width": 4000,
-      "height": 3000,
-      "size": 5006336,
-      "timestamp": "2024-01-06T19:41:09Z",
-      "author": "Thérèse Gaigé",
-      "license": "CC0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Maison_Place_Auguste-Roche_St_Junien.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison%20Place%20Auguste-Roche%20St%20Junien.JPG",
       "title": "Maison Place Auguste-Roche St Junien.JPG",
+      "description": "Maisonmaison, caves",
       "width": 2106,
       "height": 1400,
       "size": 1273974,
@@ -33,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Saint-Junien_-_gare_-_bo%C3%AEte_%C3%A0_livres.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Junien%20-%20gare%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
       "title": "Saint-Junien - gare - boîte à livres.jpg",
+      "description": "Boîte à livres à Saint-Junien",
       "width": 1406,
       "height": 2500,
       "size": 601585,
@@ -41,6 +30,20 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/F09.St-Junien.0003.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AF09.St-Junien.0003.jpg",
+      "title": "F09.St-Junien.0003.jpg",
+      "description": "St-Junien,  Chorhaupt u. Querhaus von NO",
+      "width": 3872,
+      "height": 2592,
+      "size": 2285434,
+      "timestamp": "2010-12-19T08:16:56Z",
+      "author": "Jochen Jahnke",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 5
     }
   ],
   "lieux": [
@@ -50,7 +53,22 @@
     },
     {
       "label": "Nef centrale avec ses chapiteaux sculptés",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Coll%C3%A9giale_de_Saint-Junien_%2887%29_-_04.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AColl%C3%A9giale%20de%20Saint-Junien%20(87)%20-%2004.jpg",
+          "title": "Collégiale de Saint-Junien (87) - 04.jpg",
+          "description": "Nef de la collégiale Saint-Junien, vue depuis le chœur (Saint-Junien, Haute-Vienne)",
+          "width": 4000,
+          "height": 3000,
+          "size": 5120000,
+          "timestamp": "2024-01-14T19:34:03Z",
+          "author": "Thérèse Gaigé",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     },
     {
       "label": "Crypte de Saint-Junien",

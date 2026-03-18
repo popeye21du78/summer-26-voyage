@@ -1,12 +1,13 @@
 {
   "slug": "segur-le-chateau",
   "nom": "Ségur-le-Château",
-  "fetchedAt": "2026-03-14T12:28:37.155Z",
+  "fetchedAt": "2026-03-18T19:12:13.114Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/S%C3%A9gur_le_Ch%C3%A2teau_ch%C3%A2teau_%283%29.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AS%C3%A9gur%20le%20Ch%C3%A2teau%20ch%C3%A2teau%20(3).JPG",
       "title": "Ségur le Château château (3).JPG",
+      "description": "Au-dessus des toits du village, les ruines du château de Ségur, Ségur-le-Château, Corrèze, France",
       "width": 3264,
       "height": 2448,
       "size": 2679740,
@@ -14,12 +15,13 @@
       "author": "Père Igor",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 4
+      "score": 6
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/S%C3%A9gur_le_Ch%C3%A2teau_Henri_IV_Boyer.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AS%C3%A9gur%20le%20Ch%C3%A2teau%20Henri%20IV%20Boyer.JPG",
       "title": "Ségur le Château Henri IV Boyer.JPG",
+      "description": "Les étages de la maison Henri IV (à gauche) et de la maison Boyer (à droite), Ségur-le-Château, Corrèze, France",
       "width": 3264,
       "height": 2448,
       "size": 1860730,
@@ -27,12 +29,13 @@
       "author": "Père Igor",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 4
+      "score": 6
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/S%C3%A9gur_le_Ch%C3%A2teau_maison_15e_avec_tour_%281%29.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AS%C3%A9gur%20le%20Ch%C3%A2teau%20maison%2015e%20avec%20tour%20(1).JPG",
       "title": "Ségur le Château maison 15e avec tour (1).JPG",
+      "description": "Maison du XVe siècle avec tour et échauguette, Ségur-le-Château, Corrèze, France",
       "width": 3264,
       "height": 2448,
       "size": 2135352,
@@ -40,7 +43,7 @@
       "author": "Père Igor",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 4
+      "score": 6
     }
   ],
   "lieux": [
@@ -50,11 +53,69 @@
     },
     {
       "label": "Terrasse herbeuse sur l’Auvézère",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Vue_du_chateau_et_jardin_de_Romainville._--_Hic_Otia_Martis_-_estampe_-_non_identifi%C3%A9_-_btv1b100243553.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20du%20chateau%20et%20jardin%20de%20Romainville.%20--%20Hic%20Otia%20Martis%20-%20estampe%20-%20non%20identifi%C3%A9%20-%20btv1b100243553.jpg",
+          "title": "Vue du chateau et jardin de Romainville. -- Hic Otia Martis - estampe - non identifié - btv1b100243553.jpg",
+          "description": "Sujet : Ségur, Philippe Henri de (1724-1801) -- Résidences et lieux familiers\nJardins en terrasses -- France (18e siècle)\nKiosques de jardin -- Influence chinoise (18e siècle)\nBancs de jardin (18e siècle)\nRomainville (Seine-Saint-Denis) -- Château -- Parc\nPaysages -- 18e siècle\n\nÉditeur : [G. L. Le Rouge] (Paris)",
+          "width": 7136,
+          "height": 4833,
+          "size": 6902416,
+          "timestamp": "2025-03-22T18:36:14Z",
+          "author": "Inconnu",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     },
     {
       "label": "Tour ruinée",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Ch%C3%A2teau_de_Saint_Laurent_les_Tours.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Saint%20Laurent%20les%20Tours.jpg",
+          "title": "Château de Saint Laurent les Tours.jpg",
+          "description": "Photo du château de Saint Laurent les Tours prise du côté de la mairie",
+          "width": 1908,
+          "height": 4032,
+          "size": 1467157,
+          "timestamp": "2020-08-15T21:16:11Z",
+          "author": "Fourbyone",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Vitr%C3%A9_%2835%29_Ch%C3%A2teau_-_Tour_Saint-Laurent_-_Ext%C3%A9rieur_-_09.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVitr%C3%A9%20(35)%20Ch%C3%A2teau%20-%20Tour%20Saint-Laurent%20-%20Ext%C3%A9rieur%20-%2009.jpg",
+          "title": "Vitré (35) Château - Tour Saint-Laurent - Extérieur - 09.jpg",
+          "description": "Château de Vitré (35). Tour Saint-Laurent.",
+          "width": 2000,
+          "height": 3000,
+          "size": 1921998,
+          "timestamp": "2021-12-27T19:30:18Z",
+          "author": "GO69",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Vitr%C3%A9_%2835%29_Ch%C3%A2teau_-_Tour_Saint-Laurent_-_Ext%C3%A9rieur_-_10.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVitr%C3%A9%20(35)%20Ch%C3%A2teau%20-%20Tour%20Saint-Laurent%20-%20Ext%C3%A9rieur%20-%2010.jpg",
+          "title": "Vitré (35) Château - Tour Saint-Laurent - Extérieur - 10.jpg",
+          "description": "Château de Vitré (35). Tour Saint-Laurent.",
+          "width": 2736,
+          "height": 3648,
+          "size": 4233637,
+          "timestamp": "2025-08-18T08:27:59Z",
+          "author": "GO69",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        }
+      ]
     },
     {
       "label": "Escalier dérobé",

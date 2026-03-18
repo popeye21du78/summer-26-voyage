@@ -1,12 +1,13 @@
 {
   "slug": "sainte-adresse",
   "nom": "Sainte-Adresse",
-  "fetchedAt": "2026-03-14T12:18:43.200Z",
+  "fetchedAt": "2026-03-18T18:49:30.999Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/L%27estacade_de_Sainte_Adresse_%2824554778712%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AL'estacade%20de%20Sainte%20Adresse%20(24554778712).jpg",
       "title": "L'estacade de Sainte Adresse (24554778712).jpg",
+      "description": "L'estacade peinte par Claude Monet un jour de tempête.\n\nLe Havre",
       "width": 5238,
       "height": 3274,
       "size": 15124569,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Front_de_mer_de_Sainte-Adresse_depuis_Plage_du_Havre_%28juillet_2024%29.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFront%20de%20mer%20de%20Sainte-Adresse%20depuis%20Plage%20du%20Havre%20(juillet%202024).JPG",
       "title": "Front de mer de Sainte-Adresse depuis Plage du Havre (juillet 2024).JPG",
+      "description": "Sight, from Le Havre beach, of Sainte-Adresse sea front, in Seine-Maritime, France.",
       "width": 3188,
       "height": 2364,
       "size": 4580418,
@@ -30,17 +32,18 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/La_plage_de_Sainte-Adresse_-_panoramio.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20plage%20de%20Sainte-Adresse%20-%20panoramio.jpg",
-      "title": "La plage de Sainte-Adresse - panoramio.jpg",
-      "width": 2592,
-      "height": 1944,
-      "size": 1126788,
-      "timestamp": "2016-11-13T00:14:14Z",
-      "author": "touzainphilippe",
-      "license": "CC BY 3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Vue_de_Sainte-Adresse_%28c._1864%29_pastel_Claude_Monet.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20de%20Sainte-Adresse%20(c.%201864)%20pastel%20Claude%20Monet.jpg",
+      "title": "Vue de Sainte-Adresse (c. 1864) pastel Claude Monet.jpg",
+      "description": "\"Vue de Sainte-Adresse\" (vers 1864) par Claude Monet\nMédium et technique : pastel et fusain sur papier (vélin), collé sur support en carton\nDimensions : h. 17,5 x l. 37 cm\nSignature :  au crayon noir, en bas à droite : \"Claude Monet\"\n\n\nCollection : \n\n\nKunstmuseum Bern\n  \n\n\n\n\n\nNative name\nKunstmuseum Bern\n\nParent institution\nlist of cultural properties in Bern / Inner City (West) \n\nLocation\nBern, Switzerland\n\nCoordinates\n46° 57′ 04″ N, 7° 26′ 36″ E   \n\nEstablished\n1879\n\nWebsite\nwww.kunstmuseumber",
+      "width": 6480,
+      "height": 3219,
+      "size": 2206313,
+      "timestamp": "2024-04-16T20:17:50Z",
+      "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Claude_Monet\" class=\"extiw\" title=\"w:en:Claude Monet\"><span title=\"French painter (1840–1926)\">Claude Monet</span></a></bdi>",
+      "license": "Public domain",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 9
     }
   ],
   "lieux": [
@@ -48,41 +51,44 @@
       "label": "Jardin Suspendu",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Les_jardins_suspendus_%2852304821020%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20jardins%20suspendus%20(52304821020).jpg",
-          "title": "Les jardins suspendus (52304821020).jpg",
-          "width": 5463,
-          "height": 3073,
-          "size": 5876096,
-          "timestamp": "2024-03-04T13:34:01Z",
-          "author": "Frédéric BISSON",
-          "license": "CC BY 2.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Garden_at_Sainte-Adresse.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGarden%20at%20Sainte-Adresse.JPG",
+          "title": "Garden at Sainte-Adresse.JPG",
+          "description": "",
+          "width": 2596,
+          "height": 2100,
+          "size": 5506560,
+          "timestamp": "2024-10-30T12:55:52Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Claude_Monet\" class=\"extiw\" title=\"w:en:Claude Monet\"><span title=\"French painter (1840–1926)\">Claude Monet</span></a></bdi>",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Le_Havre_-_Jardins_suspendus_-_Roseraie_01.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Havre%20-%20Jardins%20suspendus%20-%20Roseraie%2001.jpg",
-          "title": "Le Havre - Jardins suspendus - Roseraie 01.jpg",
-          "width": 4096,
-          "height": 3072,
-          "size": 5734616,
-          "timestamp": "2024-03-24T16:17:56Z",
-          "author": "Kev22",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Garden_at_Sainte-Adresse_by_Claude_Monet_in_the_Metropolitan_Museum_of_Art.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGarden%20at%20Sainte-Adresse%20by%20Claude%20Monet%20in%20the%20Metropolitan%20Museum%20of%20Art.jpg",
+          "title": "Garden at Sainte-Adresse by Claude Monet in the Metropolitan Museum of Art.jpg",
+          "description": "Garden at Sainte-Adresse by Claude Monet in the Metropolitan Museum of Art",
+          "width": 3264,
+          "height": 2448,
+          "size": 2374057,
+          "timestamp": "2021-12-12T07:26:17Z",
+          "author": "<div class=\"fn value\">\n<a href=\"//commons.wikimedia.org/wiki/User:Yair-haklai\" title=\"User:Yair-haklai\">Yair Haklai</a></div>",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Le_Havre_-_Jardins_suspendus_-_Roseraie_06.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Havre%20-%20Jardins%20suspendus%20-%20Roseraie%2006.jpg",
-          "title": "Le Havre - Jardins suspendus - Roseraie 06.jpg",
-          "width": 4096,
-          "height": 3072,
-          "size": 6242772,
-          "timestamp": "2024-03-24T16:18:03Z",
-          "author": "Kev22",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Parc_Sainte-Marie_-_%C3%89cureuil_roux_%2851018351240%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParc%20Sainte-Marie%20-%20%C3%89cureuil%20roux%20(51018351240).jpg",
+          "title": "Parc Sainte-Marie - Écureuil roux (51018351240).jpg",
+          "description": "Pays : France 🇫🇷\nRégion : Grand Est (Lorraine)\nDépartement : Meurthe-et-Moselle (54)\nVille : Nancy (54000)\nQuartier : Nancy Sud\nAdresse : 1, avenue Boffrand\nType : Jardin d'agrément\nCréation : 1808\nOuverture au public : 1909\nSurface : 7,5 hectares\nProtection : Site inscrit (1947)\n\nProtection : Jardin remarquable",
+          "width": 3000,
+          "height": 2000,
+          "size": 4708808,
+          "timestamp": "2022-03-01T02:54:53Z",
+          "author": "Alexandre Prevot",
+          "license": "CC BY-SA 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         }
@@ -90,15 +96,144 @@
     },
     {
       "label": "Promenade François Lebel",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Promenade_en_kayak_%C3%A0_Sainte-Adresse_vue_depuis_les_falaises_du_Cap_de_la_H%C3%A8ve_-_panoramio.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APromenade%20en%20kayak%20%C3%A0%20Sainte-Adresse%20vue%20depuis%20les%20falaises%20du%20Cap%20de%20la%20H%C3%A8ve%20-%20panoramio.jpg",
+          "title": "Promenade en kayak à Sainte-Adresse vue depuis les falaises du Cap de la Hève - panoramio.jpg",
+          "description": "Promenade en kayak à Sainte-Adresse vue depuis les falaises du Cap de la Hève",
+          "width": 2947,
+          "height": 2262,
+          "size": 1187013,
+          "timestamp": "2016-10-25T15:15:27Z",
+          "author": "Eric Bajart",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Promenade_devant_les_villas_du_Nice_havrais_en_construction_-_%C3%A0_Sainte-Adresse_-_btv1b106598754.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APromenade%20devant%20les%20villas%20du%20Nice%20havrais%20en%20construction%20-%20%C3%A0%20Sainte-Adresse%20-%20btv1b106598754.jpg",
+          "title": "Promenade devant les villas du Nice havrais en construction - à Sainte-Adresse - btv1b106598754.jpg",
+          "description": "Sujet : Architecture littorale\nChantiers de construction\nVie urbaine\nLe Havre (Seine-Maritime, France) -- Quartier du Nice havrais\nSainte-Adresse (Seine-Maritime, France)\nDonateur : Manneville, Philippe (1937-2012). Donateur\nDonateur : Manneville, Philippe (1937-2012)\nAppartient à l’ensemble documentaire : BmLHav000\nAppartient à l’ensemble documentaire : BmLHav001\nAppartient à l’ensemble documentaire : AXSEI000\n\nLangue : sans contenu linguistique",
+          "width": 4362,
+          "height": 3142,
+          "size": 1541712,
+          "timestamp": "2025-03-05T10:01:23Z",
+          "author": "<div class=\"fn value\">\nNoël, Michel Arthur Georges (1859-....). Photographe</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Promenade_sur_la_falaise_de_Sainte-Adresse%2C_by_Claude_Monet%2C_1867%2C_oil_on_canvas_-_Matsuoka_Museum_of_Art_-_Tokyo%2C_Japan_-_DSC07396.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APromenade%20sur%20la%20falaise%20de%20Sainte-Adresse%2C%20by%20Claude%20Monet%2C%201867%2C%20oil%20on%20canvas%20-%20Matsuoka%20Museum%20of%20Art%20-%20Tokyo%2C%20Japan%20-%20DSC07396.JPG",
+          "title": "Promenade sur la falaise de Sainte-Adresse, by Claude Monet, 1867, oil on canvas - Matsuoka Museum of Art - Tokyo, Japan - DSC07396.JPG",
+          "description": "Exhibit in the Matsuoka Museum of Art - 5 Chome-12-6 Shirokanedai, Minato, Tokyo 108-0071, Japan.",
+          "width": 4748,
+          "height": 3217,
+          "size": 10078316,
+          "timestamp": "2016-04-02T17:31:06Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Claude_Monet\" class=\"extiw\" title=\"w:en:Claude Monet\"><span title=\"French painter (1840–1926)\">Claude Monet</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Parc de la Butte",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Parc_Sainte-Marie_-_%C3%89cureuil_roux_%2851018351240%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParc%20Sainte-Marie%20-%20%C3%89cureuil%20roux%20(51018351240).jpg",
+          "title": "Parc Sainte-Marie - Écureuil roux (51018351240).jpg",
+          "description": "Pays : France 🇫🇷\nRégion : Grand Est (Lorraine)\nDépartement : Meurthe-et-Moselle (54)\nVille : Nancy (54000)\nQuartier : Nancy Sud\nAdresse : 1, avenue Boffrand\nType : Jardin d'agrément\nCréation : 1808\nOuverture au public : 1909\nSurface : 7,5 hectares\nProtection : Site inscrit (1947)\n\nProtection : Jardin remarquable",
+          "width": 3000,
+          "height": 2000,
+          "size": 4708808,
+          "timestamp": "2022-03-01T02:54:53Z",
+          "author": "Alexandre Prevot",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Parc_Sainte-Marie_-_%C3%89cureuil_roux_%2850690648452%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParc%20Sainte-Marie%20-%20%C3%89cureuil%20roux%20(50690648452).jpg",
+          "title": "Parc Sainte-Marie - Écureuil roux (50690648452).jpg",
+          "description": "Pays : France 🇫🇷\nRégion : Grand Est (Lorraine)\nDépartement : Meurthe-et-Moselle (54)\nVille : Nancy (54000)\nQuartier : Nancy Sud\nAdresse : 1, avenue Boffrand\nType : Jardin d'agrément\nCréation : 1808\nOuverture au public : 1909\nSurface : 7,5 hectares\nProtection : Site inscrit (1947)\n\nProtection : Jardin remarquable",
+          "width": 3000,
+          "height": 2000,
+          "size": 4152613,
+          "timestamp": "2022-03-01T03:14:02Z",
+          "author": "Alexandre Prevot",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Parc_Sainte-Marie_-_Perruche_%C3%A0_collier_%2850597931422%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParc%20Sainte-Marie%20-%20Perruche%20%C3%A0%20collier%20(50597931422).jpg",
+          "title": "Parc Sainte-Marie - Perruche à collier (50597931422).jpg",
+          "description": "Pays : France 🇫🇷\nRégion : Grand Est (Lorraine)\nDépartement : Meurthe-et-Moselle (54)\nVille : Nancy (54000)\nQuartier : Nancy Sud\nAdresse : 1, avenue Boffrand\nType : Jardin d'agrément\nCréation : 1808\nOuverture au public : 1909\nSurface : 7,5 hectares\nProtection : Site inscrit (1947)\n\nProtection : Jardin remarquable",
+          "width": 3000,
+          "height": 2000,
+          "size": 3592384,
+          "timestamp": "2022-03-01T03:15:38Z",
+          "author": "Alexandre Prevot",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Plage et cabanes de Sainte-Adresse",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/La_ville_de_Sainte-Adresse_vue_de_la_plage_du_Havre%2C_1921.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20ville%20de%20Sainte-Adresse%20vue%20de%20la%20plage%20du%20Havre%2C%201921.jpg",
+          "title": "La ville de Sainte-Adresse vue de la plage du Havre, 1921.jpg",
+          "description": "La ville de Sainte-Adresse vue de la plage du Havre.",
+          "width": 2916,
+          "height": 1586,
+          "size": 2288418,
+          "timestamp": "2019-02-18T14:31:49Z",
+          "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Claude_Monet_-_The_Beach_at_Sainte-Adresse_-_Google_Art_Project.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AClaude%20Monet%20-%20The%20Beach%20at%20Sainte-Adresse%20-%20Google%20Art%20Project.jpg",
+          "title": "Claude Monet - The Beach at Sainte-Adresse - Google Art Project.jpg",
+          "description": "",
+          "width": 6793,
+          "height": 5021,
+          "size": 30040972,
+          "timestamp": "2025-03-13T18:02:23Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Claude_Monet\" class=\"extiw\" title=\"w:en:Claude Monet\"><span title=\"French painter (1840–1926)\">Claude Monet</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Sainte-Adresse_vers1908.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASainte-Adresse%20vers1908.jpg",
+          "title": "Sainte-Adresse vers1908.jpg",
+          "description": "Vue sur Sainte-Adresse depuis la plage du Havre",
+          "width": 1363,
+          "height": 938,
+          "size": 287459,
+          "timestamp": "2020-01-05T19:27:51Z",
+          "author": "Louis galibert",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

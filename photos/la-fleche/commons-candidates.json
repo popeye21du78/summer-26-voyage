@@ -1,44 +1,44 @@
 {
   "slug": "la-fleche",
   "nom": "La Flèche",
-  "fetchedAt": "2026-03-13T15:01:41.826Z",
+  "fetchedAt": "2026-03-15T21:13:51.840Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Zoo_de_La_Fleche_20180601_06.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AZoo%20de%20La%20Fleche%2020180601%2006.jpg",
-      "title": "Zoo de La Fleche 20180601 06.jpg",
-      "width": 4128,
-      "height": 3096,
-      "size": 4365851,
-      "timestamp": "2018-06-21T01:52:30Z",
-      "author": "Georges Seguin (<a href=\"//commons.wikimedia.org/wiki/User:Okki\" title=\"User:Okki\">Okki</a>)",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Imprimerie_de_Paramount_%C3%A0_Montrouge_-_btv1b90561442.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AImprimerie%20de%20Paramount%20%C3%A0%20Montrouge%20-%20btv1b90561442.jpg",
+      "title": "Imprimerie de Paramount à Montrouge - btv1b90561442.jpg",
+      "width": 7000,
+      "height": 5257,
+      "size": 4955875,
+      "timestamp": "2025-03-09T05:48:15Z",
+      "author": "<div class=\"fn value\">\nAgence de presse Meurisse. Agence photographique (commanditaire)</div>",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Le_Message_de_la_fl%C3%A8che_-_sc%C3%A9nario_%28r%C3%A9sum%C3%A9_conforme_%C3%A0_la_vue%29_avec_photogrammes_-_btv1b64035558_%281_of_3%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Message%20de%20la%20fl%C3%A8che%20-%20sc%C3%A9nario%20(r%C3%A9sum%C3%A9%20conforme%20%C3%A0%20la%20vue)%20avec%20photogrammes%20-%20btv1b64035558%20(1%20of%203).jpg",
+      "title": "Le Message de la flèche - scénario (résumé conforme à la vue) avec photogrammes - btv1b64035558 (1 of 3).jpg",
+      "width": 5168,
+      "height": 7544,
+      "size": 4527777,
+      "timestamp": "2023-10-26T05:46:04Z",
+      "author": "Inconnu",
+      "license": "Public domain",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 6
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Zoo_de_La_Fleche_20180601_05.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AZoo%20de%20La%20Fleche%2020180601%2005.jpg",
-      "title": "Zoo de La Fleche 20180601 05.jpg",
-      "width": 4128,
-      "height": 3096,
-      "size": 4340888,
-      "timestamp": "2018-06-21T01:52:30Z",
-      "author": "Georges Seguin (<a href=\"//commons.wikimedia.org/wiki/User:Okki\" title=\"User:Okki\">Okki</a>)",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Zoo_de_La_Fleche_20180601_07.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AZoo%20de%20La%20Fleche%2020180601%2007.jpg",
-      "title": "Zoo de La Fleche 20180601 07.jpg",
-      "width": 4128,
-      "height": 3096,
-      "size": 4621095,
-      "timestamp": "2018-06-21T01:52:33Z",
-      "author": "Georges Seguin (<a href=\"//commons.wikimedia.org/wiki/User:Okki\" title=\"User:Okki\">Okki</a>)",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Le_Message_de_la_fl%C3%A8che_-_sc%C3%A9nario_%28r%C3%A9sum%C3%A9_conforme_%C3%A0_la_vue%29_avec_photogrammes_-_btv1b64035558_%282_of_3%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Message%20de%20la%20fl%C3%A8che%20-%20sc%C3%A9nario%20(r%C3%A9sum%C3%A9%20conforme%20%C3%A0%20la%20vue)%20avec%20photogrammes%20-%20btv1b64035558%20(2%20of%203).jpg",
+      "title": "Le Message de la flèche - scénario (résumé conforme à la vue) avec photogrammes - btv1b64035558 (2 of 3).jpg",
+      "width": 5168,
+      "height": 7544,
+      "size": 4340216,
+      "timestamp": "2023-10-26T05:46:18Z",
+      "author": "Inconnu",
+      "license": "Public domain",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 6
     }
@@ -46,28 +46,69 @@
   "lieux": [
     {
       "label": "Pont de pierre sur les douves",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Vue_%28du_c%C3%B4t%C3%A9_nord%29_de_la_charpente_de_la_Sainte-Chapelle_lors_de_la_reconstruction_de_la_fl%C3%A8che_%28Charles_Marville%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20(du%20c%C3%B4t%C3%A9%20nord)%20de%20la%20charpente%20de%20la%20Sainte-Chapelle%20lors%20de%20la%20reconstruction%20de%20la%20fl%C3%A8che%20(Charles%20Marville).jpg",
+          "title": "Vue (du côté nord) de la charpente de la Sainte-Chapelle lors de la reconstruction de la flèche (Charles Marville).jpg",
+          "width": 2112,
+          "height": 2816,
+          "size": 1035091,
+          "timestamp": "2015-02-26T17:51:22Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Charles_Marville\" class=\"extiw\" title=\"w:en:Charles Marville\"><span title=\"French photographer (1813-1879)\">Charles Marville</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/%C3%89chafaudages_de_la_construction_de_la_fl%C3%A8che_de_Notre-Dame_de_Paris.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89chafaudages%20de%20la%20construction%20de%20la%20fl%C3%A8che%20de%20Notre-Dame%20de%20Paris.jpg",
+          "title": "Échafaudages de la construction de la flèche de Notre-Dame de Paris.jpg",
+          "width": 2012,
+          "height": 2664,
+          "size": 1462622,
+          "timestamp": "2017-05-27T11:02:29Z",
+          "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Bordeaux_Vue_du_Pont_de_Pierre_depuis_la_fl%C3%A8che_Saint_Michel.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABordeaux%20Vue%20du%20Pont%20de%20Pierre%20depuis%20la%20fl%C3%A8che%20Saint%20Michel.jpg",
+          "title": "Bordeaux Vue du Pont de Pierre depuis la flèche Saint Michel.jpg",
+          "width": 1098,
+          "height": 693,
+          "size": 684793,
+          "timestamp": "2009-09-30T18:44:21Z",
+          "author": "<span lang=\"en\">Anonymous</span><span style=\"display:none\">Unknown author</span>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 3
+        }
+      ]
     },
     {
       "label": "Porte monumentale et armoiries",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Fl%C3%A8che%2C_d%C3%A9tail_de_toiture_%2825662497850%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFl%C3%A8che%2C%20d%C3%A9tail%20de%20toiture%20(25662497850).jpg",
+          "title": "Flèche, détail de toiture (25662497850).jpg",
+          "width": 5069,
+          "height": 7876,
+          "size": 11527654,
+          "timestamp": "2016-11-05T12:54:00Z",
+          "author": "Université de Caen Normandie",
+          "license": "No restrictions",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Jardins à la française",
       "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Prosp._Regiorum_Aedificiorum_-_hortorumque_flesientium_septent._-_plagam_aspicientium_-_1612_-_Ve%C3%BCe_des_Jardins%2C_%26_de_la_Maison_royale_de_la_Fl%C3%A8che%2C_en_1612_-_dessin_-_Etienne_Martellange_-_btv1b6937429q.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AProsp.%20Regiorum%20Aedificiorum%20-%20hortorumque%20flesientium%20septent.%20-%20plagam%20aspicientium%20-%201612%20-%20Ve%C3%BCe%20des%20Jardins%2C%20%26%20de%20la%20Maison%20royale%20de%20la%20Fl%C3%A8che%2C%20en%201612%20-%20dessin%20-%20Etienne%20Martellange%20-%20btv1b6937429q.jpg",
-          "title": "Prosp. Regiorum Aedificiorum - hortorumque flesientium septent. - plagam aspicientium - 1612 - Veüe des Jardins, & de la Maison royale de la Flèche, en 1612 - dessin - Etienne Martellange - btv1b6937429q.jpg",
-          "width": 7528,
-          "height": 5814,
-          "size": 4226851,
-          "timestamp": "2025-02-26T11:29:29Z",
-          "author": "<div class=\"fn value\">\nMartellange, Étienne (1569-1641). Dessinateur</div>",
-          "license": "Public domain",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Ve%C3%BCe_du_chasteau%2C_des_canaux%2C_parterre_et_terraces_du_Marquis_de_la_Varane_a_La_Fleche_en_Anjou%2C_sur_la_Rivi%C3%A8re_de_Loyr_-_1695_-_dessin_-_Louis_Boudan_-_btv1b6902590m.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVe%C3%BCe%20du%20chasteau%2C%20des%20canaux%2C%20parterre%20et%20terraces%20du%20Marquis%20de%20la%20Varane%20a%20La%20Fleche%20en%20Anjou%2C%20sur%20la%20Rivi%C3%A8re%20de%20Loyr%20-%201695%20-%20dessin%20-%20Louis%20Boudan%20-%20btv1b6902590m.jpg",
@@ -80,19 +121,6 @@
           "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/R%C3%A9volution_fran%C3%A7aise_La_famille_royale_dans_le_jardin_du_Temple%2C_en_compagnie_de_Cl%C3%A9ry._4%C3%A8me_arrondissemnent%2C_G.23066.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AR%C3%A9volution%20fran%C3%A7aise%20La%20famille%20royale%20dans%20le%20jardin%20du%20Temple%2C%20en%20compagnie%20de%20Cl%C3%A9ry.%204%C3%A8me%20arrondissemnent%2C%20G.23066.jpg",
-          "title": "Révolution française La famille royale dans le jardin du Temple, en compagnie de Cléry. 4ème arrondissemnent, G.23066.jpg",
-          "width": 3210,
-          "height": 5050,
-          "size": 3221934,
-          "timestamp": "2023-04-18T18:07:28Z",
-          "author": "Anonyme, graveur",
-          "license": "CC0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
         }
       ]
     },
@@ -100,43 +128,17 @@
       "label": "Chapelle intérieure",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Vue_Int%C3%A9rieure_de_Paris_prise_du_milieu_du_Pont-royal_regardant_le_Pont-neuf%2C_G.14582.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20Int%C3%A9rieure%20de%20Paris%20prise%20du%20milieu%20du%20Pont-royal%20regardant%20le%20Pont-neuf%2C%20G.14582.jpg",
-          "title": "Vue Intérieure de Paris prise du milieu du Pont-royal regardant le Pont-neuf, G.14582.jpg",
-          "width": 5850,
-          "height": 3688,
-          "size": 4469631,
-          "timestamp": "2023-04-18T23:38:39Z",
-          "author": "Lespinasse, Louis-Nicolas de, Chevalier (Pouilly-sur-Loire, en 1734 - Paris, entre 1803 et 1808), dessinateur",
-          "license": "CC0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Vue_%28du_c%C3%B4t%C3%A9_nord%29_de_la_charpente_de_la_Sainte-Chapelle_lors_de_la_reconstruction_de_la_fl%C3%A8che_%28Charles_Marville%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20(du%20c%C3%B4t%C3%A9%20nord)%20de%20la%20charpente%20de%20la%20Sainte-Chapelle%20lors%20de%20la%20reconstruction%20de%20la%20fl%C3%A8che%20(Charles%20Marville).jpg",
+          "title": "Vue (du côté nord) de la charpente de la Sainte-Chapelle lors de la reconstruction de la flèche (Charles Marville).jpg",
+          "width": 2112,
+          "height": 2816,
+          "size": 1035091,
+          "timestamp": "2015-02-26T17:51:22Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Charles_Marville\" class=\"extiw\" title=\"w:en:Charles Marville\"><span title=\"French photographer (1813-1879)\">Charles Marville</span></a></bdi>",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Vue_Int%C3%A9rieure_de_Paris_prise_du_milieu_du_Pont-royal_regardant_le_Pont-neuf%2C_G.14582%282%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20Int%C3%A9rieure%20de%20Paris%20prise%20du%20milieu%20du%20Pont-royal%20regardant%20le%20Pont-neuf%2C%20G.14582(2).jpg",
-          "title": "Vue Intérieure de Paris prise du milieu du Pont-royal regardant le Pont-neuf, G.14582(2).jpg",
-          "width": 7781,
-          "height": 4919,
-          "size": 24350815,
-          "timestamp": "2023-04-18T23:39:03Z",
-          "author": "Lespinasse, Louis-Nicolas de, Chevalier (Pouilly-sur-Loire, en 1734 - Paris, entre 1803 et 1808), dessinateur",
-          "license": "CC0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Vue_Int%C3%A9rieure_de_Paris%2C_Repr%C3%A9sentant_le_Port_au_bl%C3%A9_depuis_l%27extr%C3%A9mit%C3%A9_de_l%27ancien_March%C3%A9_aux_Veaux_jusqu%27au_Pont_Notre%2C_G.14587.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20Int%C3%A9rieure%20de%20Paris%2C%20Repr%C3%A9sentant%20le%20Port%20au%20bl%C3%A9%20depuis%20l'extr%C3%A9mit%C3%A9%20de%20l'ancien%20March%C3%A9%20aux%20Veaux%20jusqu'au%20Pont%20Notre%2C%20G.14587.jpg",
-          "title": "Vue Intérieure de Paris, Représentant le Port au blé depuis l'extrémité de l'ancien Marché aux Veaux jusqu'au Pont Notre, G.14587.jpg",
-          "width": 5886,
-          "height": 3742,
-          "size": 3105728,
-          "timestamp": "2023-04-18T23:41:38Z",
-          "author": "Lespinasse, Louis-Nicolas de, Chevalier (Pouilly-sur-Loire, en 1734 - Paris, entre 1803 et 1808), dessinateur",
-          "license": "CC0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 5
         }
       ]
     }

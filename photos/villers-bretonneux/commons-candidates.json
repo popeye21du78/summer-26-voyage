@@ -1,12 +1,13 @@
 {
   "slug": "villers-bretonneux",
   "nom": "Villers-Bretonneux",
-  "fetchedAt": "2026-03-14T14:38:23.766Z",
+  "fetchedAt": "2026-03-18T21:04:36.150Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Eglise_Saint-Jean-Baptiste_de_Villers-Bretonneux_%283%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Saint-Jean-Baptiste%20de%20Villers-Bretonneux%20(3).jpg",
       "title": "Eglise Saint-Jean-Baptiste de Villers-Bretonneux (3).jpg",
+      "description": "Eglise Saint-Jean-Baptiste de Villers-Bretonneux (3)",
       "width": 4208,
       "height": 2368,
       "size": 3747617,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Eglise_Saint-Jean-Baptiste_de_Villers-Bretonneux_%286%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Saint-Jean-Baptiste%20de%20Villers-Bretonneux%20(6).jpg",
       "title": "Eglise Saint-Jean-Baptiste de Villers-Bretonneux (6).jpg",
+      "description": "Eglise Saint-Jean-Baptiste de Villers-Bretonneux (6)",
       "width": 4208,
       "height": 2368,
       "size": 4541480,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Villers-Bretonneux%2C_salle_des_f%C3%AAtes_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVillers-Bretonneux%2C%20salle%20des%20f%C3%AAtes%201.jpg",
       "title": "Villers-Bretonneux, salle des fêtes 1.jpg",
+      "description": "Villers-Bretonneux, salle des fêtes 1",
       "width": 2658,
       "height": 1978,
       "size": 1348343,
@@ -48,39 +51,42 @@
       "label": "Mémorial national australien",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Memorial_national_australien_de_Villers-Bretonneux_-_noms3.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMemorial%20national%20australien%20de%20Villers-Bretonneux%20-%20noms3.jpg",
-          "title": "Memorial national australien de Villers-Bretonneux - noms3.jpg",
-          "width": 5346,
-          "height": 3701,
-          "size": 10893457,
-          "timestamp": "2024-03-05T15:15:24Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Villers-Bretonneux_Australian_National_Memorial_5.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVillers-Bretonneux%20Australian%20National%20Memorial%205.JPG",
+          "title": "Villers-Bretonneux Australian National Memorial 5.JPG",
+          "description": "View from the top of the Memorial tower over Villers-Bretonneux Military Cemetery. Photographed in May 2014 at the Villers-Bretonneux Australian National Memorial, near Villers-Bretonneux, France.",
+          "width": 1024,
+          "height": 768,
+          "size": 323061,
+          "timestamp": "2015-01-11T22:43:20Z",
+          "author": "Carcharoth (Commons)",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Villers-Bretonneux_-_Monument_aux_morts_-_Noms_B.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVillers-Bretonneux%20-%20Monument%20aux%20morts%20-%20Noms%20B.jpg",
+          "title": "Villers-Bretonneux - Monument aux morts - Noms B.jpg",
+          "description": "Villers-Bretonneux - Monument aux morts",
+          "width": 4501,
+          "height": 3205,
+          "size": 9676338,
+          "timestamp": "2024-04-19T13:36:30Z",
           "author": "René Hourdry",
           "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Memorial_national_australien_de_Villers-Bretonneux_50.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMemorial%20national%20australien%20de%20Villers-Bretonneux%2050.jpg",
-          "title": "Memorial national australien de Villers-Bretonneux 50.jpg",
-          "width": 5331,
-          "height": 2891,
-          "size": 5053405,
-          "timestamp": "2024-03-05T15:15:35Z",
-          "author": "René Hourdry",
-          "license": "CC0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Memorial_national_australien_de_Villers-Bretonneux_54.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMemorial%20national%20australien%20de%20Villers-Bretonneux%2054.jpg",
-          "title": "Memorial national australien de Villers-Bretonneux 54.jpg",
-          "width": 6000,
-          "height": 4000,
-          "size": 13043136,
-          "timestamp": "2024-03-05T15:15:38Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Villers-Bretonneux_-_Monument_aux_morts_-_Noms_A.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVillers-Bretonneux%20-%20Monument%20aux%20morts%20-%20Noms%20A.jpg",
+          "title": "Villers-Bretonneux - Monument aux morts - Noms A.jpg",
+          "description": "Villers-Bretonneux - Monument aux morts",
+          "width": 4756,
+          "height": 3201,
+          "size": 11543262,
+          "timestamp": "2024-04-19T13:36:35Z",
           "author": "René Hourdry",
           "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -90,38 +96,54 @@
     },
     {
       "label": "Centre Sir John Monash",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Centre_Sir_John_Monash_41.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACentre%20Sir%20John%20Monash%2041.jpg",
-          "title": "Centre Sir John Monash 41.jpg",
-          "width": 6000,
-          "height": 4000,
-          "size": 12748198,
-          "timestamp": "2024-04-19T17:31:25Z",
-          "author": "René Hourdry",
-          "license": "CC0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/John_Monash_Centre_2022.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJohn%20Monash%20Centre%202022.jpg",
-          "title": "John Monash Centre 2022.jpg",
-          "width": 1600,
-          "height": 950,
-          "size": 298176,
-          "timestamp": "2024-08-29T04:27:48Z",
-          "author": "Commonwealth of Australia (Sir John Monash Centre Australian National Memorial France)",
-          "license": "CC BY 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Victoria School",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Robinvale_Villers-Bretonneux_Memorial_002.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARobinvale%20Villers-Bretonneux%20Memorial%20002.JPG",
+          "title": "Robinvale Villers-Bretonneux Memorial 002.JPG",
+          "description": "The Villers-Bretonneux Memorial at Robinvale, Victoria",
+          "width": 6016,
+          "height": 4000,
+          "size": 9190466,
+          "timestamp": "2015-01-04T08:38:09Z",
+          "author": "Mattinbgn",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Villers-Bretonneux_%2819897313661%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVillers-Bretonneux%20(19897313661).jpg",
+          "title": "Villers-Bretonneux (19897313661).jpg",
+          "description": "Item is a photograph from an album of World War One-related photographs in the William Okell Holden Dodds fonds. Brigadier General Dodds joined the Canadian Expeditionary Force in 1914 and was commanding officer of the 5th Canadian Division Artillery and served in France from 1917-1918.",
+          "width": 6065,
+          "height": 4875,
+          "size": 2531859,
+          "timestamp": "2015-09-30T15:43:34Z",
+          "author": "University of Victoria Libraries",
+          "license": "No restrictions",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Villers-Bretonneux_%28near_Amiens%29_%2819269620194%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVillers-Bretonneux%20(near%20Amiens)%20(19269620194).jpg",
+          "title": "Villers-Bretonneux (near Amiens) (19269620194).jpg",
+          "description": "Item is a photograph from an album of World War One-related photographs in the William Okell Holden Dodds fonds. Brigadier General Dodds joined the Canadian Expeditionary Force in 1914 and was commanding officer of the 5th Canadian Division Artillery and served in France from 1917-1918.",
+          "width": 5146,
+          "height": 3958,
+          "size": 2386785,
+          "timestamp": "2015-09-30T15:43:49Z",
+          "author": "University of Victoria Libraries",
+          "license": "No restrictions",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Parc du Souvenir",

@@ -1,12 +1,13 @@
 {
   "slug": "plage-de-trestraou",
   "nom": "Plage de Trestraou",
-  "fetchedAt": "2026-03-14T11:16:09.888Z",
+  "fetchedAt": "2026-03-18T16:17:22.665Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Perros-Guirec_-_Plage_de_Trestraou_vue_des_villas_-_AD22_-_16FI2963.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APerros-Guirec%20-%20Plage%20de%20Trestraou%20vue%20des%20villas%20-%20AD22%20-%2016FI2963.jpg",
       "title": "Perros-Guirec - Plage de Trestraou vue des villas - AD22 - 16FI2963.jpg",
+      "description": "Perros-Guirec. Plage de Trestraou - Vue des Villas.",
       "width": 1710,
       "height": 1123,
       "size": 234894,
@@ -14,12 +15,27 @@
       "author": "<div class=\"fn value\">\nAuteur inconnu</div>",
       "license": "Licence Ouverte",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Perros-Guirec_-_Panorama_de_la_Vall%C3%A9e_de_Trestraou_-_AD22_-_16FI3004.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APerros-Guirec%20-%20Panorama%20de%20la%20Vall%C3%A9e%20de%20Trestraou%20-%20AD22%20-%2016FI3004.jpg",
+      "title": "Perros-Guirec - Panorama de la Vallée de Trestraou - AD22 - 16FI3004.jpg",
+      "description": "Perros-Guirec. Panorama de la Vallée de Trestraou.",
+      "width": 1709,
+      "height": 1094,
+      "size": 293281,
+      "timestamp": "2020-12-10T23:19:37Z",
+      "author": "<div class=\"fn value\">\n[Léon et Lévy]</div>",
+      "license": "Licence Ouverte",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Perros-Guirec_-_Grand_H%C3%B4tel_de_Trestraou_et_plage_-_AD22_-_16FI2987.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APerros-Guirec%20-%20Grand%20H%C3%B4tel%20de%20Trestraou%20et%20plage%20-%20AD22%20-%2016FI2987.jpg",
       "title": "Perros-Guirec - Grand Hôtel de Trestraou et plage - AD22 - 16FI2987.jpg",
+      "description": "Perros-Guirec. Vue générale du Grand Hôtel de Trestraou et de la Plage Perros-Guirec.",
       "width": 1698,
       "height": 1113,
       "size": 263422,
@@ -28,25 +44,55 @@
       "license": "Licence Ouverte",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Perros-Guirec_-_Baie_de_Trestraou_et_La_Roseraie_-_AD22_-_16FI2996.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APerros-Guirec%20-%20Baie%20de%20Trestraou%20et%20La%20Roseraie%20-%20AD22%20-%2016FI2996.jpg",
-      "title": "Perros-Guirec - Baie de Trestraou et La Roseraie - AD22 - 16FI2996.jpg",
-      "width": 1714,
-      "height": 1128,
-      "size": 327305,
-      "timestamp": "2020-12-10T23:18:27Z",
-      "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q2847390\" class=\"extiw\" title=\"d:Q2847390\"><span title=\"French publisher and poet (1894-1978)\">André Bruel</span></a></bdi>",
-      "license": "Licence Ouverte",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
     }
   ],
   "lieux": [
     {
       "label": "Villas Belle Époque de la promenade",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Perros-Guirec_-_Plage_de_Trestraou_vue_des_villas_-_AD22_-_16FI2963.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APerros-Guirec%20-%20Plage%20de%20Trestraou%20vue%20des%20villas%20-%20AD22%20-%2016FI2963.jpg",
+          "title": "Perros-Guirec - Plage de Trestraou vue des villas - AD22 - 16FI2963.jpg",
+          "description": "Perros-Guirec. Plage de Trestraou - Vue des Villas.",
+          "width": 1710,
+          "height": 1123,
+          "size": 234894,
+          "timestamp": "2020-12-10T23:13:29Z",
+          "author": "<div class=\"fn value\">\nAuteur inconnu</div>",
+          "license": "Licence Ouverte",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Perros-Guirec_-_Vue_de_la_plage_et_des_villas_-_AD22_-_16FI2997.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APerros-Guirec%20-%20Vue%20de%20la%20plage%20et%20des%20villas%20-%20AD22%20-%2016FI2997.jpg",
+          "title": "Perros-Guirec - Vue de la plage et des villas - AD22 - 16FI2997.jpg",
+          "description": "Perros-Guirec. Vue de la Plage, prise des Villas.",
+          "width": 1730,
+          "height": 1126,
+          "size": 425333,
+          "timestamp": "2020-12-10T23:18:37Z",
+          "author": "<div class=\"fn value\">\nCRETE</div>",
+          "license": "Licence Ouverte",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Perros-Guirec_-_Plage_de_Trestraou_et_villas_-_AD22_-_16FI3007.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APerros-Guirec%20-%20Plage%20de%20Trestraou%20et%20villas%20-%20AD22%20-%2016FI3007.jpg",
+          "title": "Perros-Guirec - Plage de Trestraou et villas - AD22 - 16FI3007.jpg",
+          "description": "Perros-Guirec. Plage de Trestraou et les Villas.",
+          "width": 1714,
+          "height": 1117,
+          "size": 280590,
+          "timestamp": "2020-12-10T23:20:06Z",
+          "author": "<div class=\"fn value\">\nSOREL J.</div>",
+          "license": "Licence Ouverte",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Rochers de granit à l’extrémité nord",

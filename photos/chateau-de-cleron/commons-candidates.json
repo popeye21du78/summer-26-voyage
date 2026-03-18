@@ -1,12 +1,13 @@
 {
   "slug": "chateau-de-cleron",
   "nom": "Château de Cléron",
-  "fetchedAt": "2026-03-13T13:02:35.279Z",
+  "fetchedAt": "2026-03-15T21:22:35.300Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Cl%C3%A9ron%2C_le_pont%2C_le_ch%C3%A2teau_et_l%27%C3%A9glise.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACl%C3%A9ron%2C%20le%20pont%2C%20le%20ch%C3%A2teau%20et%20l'%C3%A9glise.jpg",
       "title": "Cléron, le pont, le château et l'église.jpg",
+      "description": "Le pont sur la Loue, le château et l'église",
       "width": 3443,
       "height": 2295,
       "size": 2221520,
@@ -14,12 +15,13 @@
       "author": "JGS25",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Cl%C3%A9ron%2C_l%27%C3%A9glise_et_le_ch%C3%A2teau.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACl%C3%A9ron%2C%20l'%C3%A9glise%20et%20le%20ch%C3%A2teau.jpg",
       "title": "Cléron, l'église et le château.jpg",
+      "description": "Château de Cléron et son reflet sur la Loue",
       "width": 5038,
       "height": 3779,
       "size": 8840534,
@@ -27,20 +29,21 @@
       "author": "JGS25",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Cl%C3%A9ron%2C_le_viaduc_du_Tacot_sur_la_vall%C3%A9e_de_Norvaux_%28vu_de_dessus%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACl%C3%A9ron%2C%20le%20viaduc%20du%20Tacot%20sur%20la%20vall%C3%A9e%20de%20Norvaux%20(vu%20de%20dessus).jpg",
-      "title": "Cléron, le viaduc du Tacot sur la vallée de Norvaux (vu de dessus).jpg",
-      "width": 5101,
-      "height": 2869,
-      "size": 6773596,
-      "timestamp": "2022-07-07T13:11:08Z",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Cl%C3%A9ron%2C_le_ch%C3%A2teau_au_bord_de_la_Loue-2.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACl%C3%A9ron%2C%20le%20ch%C3%A2teau%20au%20bord%20de%20la%20Loue-2.jpg",
+      "title": "Cléron, le château au bord de la Loue-2.jpg",
+      "description": "Le château de Cléron au bord de la Loue",
+      "width": 5351,
+      "height": 3010,
+      "size": 14380058,
+      "timestamp": "2025-10-04T09:16:56Z",
       "author": "JGS25",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     }
   ],
   "lieux": [
@@ -54,11 +57,69 @@
     },
     {
       "label": "grand pont de pierre",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Cl%C3%A9ron%2C_le_pont%2C_le_ch%C3%A2teau_et_l%27%C3%A9glise.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACl%C3%A9ron%2C%20le%20pont%2C%20le%20ch%C3%A2teau%20et%20l'%C3%A9glise.jpg",
+          "title": "Cléron, le pont, le château et l'église.jpg",
+          "description": "Le pont sur la Loue, le château et l'église",
+          "width": 3443,
+          "height": 2295,
+          "size": 2221520,
+          "timestamp": "2020-04-18T15:48:32Z",
+          "author": "JGS25",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     },
     {
       "label": "façade principale",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Fa%C3%A7ade_ouest_du_ch%C3%A2teau_de_Cl%C3%A9ron.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFa%C3%A7ade%20ouest%20du%20ch%C3%A2teau%20de%20Cl%C3%A9ron.jpg",
+          "title": "Façade ouest du château de Cléron.jpg",
+          "description": "Façade ouest du château de Cléron. Doubs",
+          "width": 3905,
+          "height": 2931,
+          "size": 4056934,
+          "timestamp": "2018-07-19T12:44:07Z",
+          "author": "Espirat",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Fa%C3%A7ade_sud_du_ch%C3%A2teau_de_Cl%C3%A9ron.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFa%C3%A7ade%20sud%20du%20ch%C3%A2teau%20de%20Cl%C3%A9ron.jpg",
+          "title": "Façade sud du château de Cléron.jpg",
+          "description": "Façade sud du château de Cléron. Doubs",
+          "width": 3909,
+          "height": 2933,
+          "size": 4283430,
+          "timestamp": "2018-07-19T12:45:46Z",
+          "author": "Espirat",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Cl%C3%A9ron_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACl%C3%A9ron%2002.jpg",
+          "title": "Cléron 02.jpg",
+          "description": "Château de Cléron vue de la façade sud depuis la route d'Amondans",
+          "width": 896,
+          "height": 600,
+          "size": 213089,
+          "timestamp": "2007-09-10T20:22:14Z",
+          "author": "Daniel Thiellin",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     }
   ]
 }

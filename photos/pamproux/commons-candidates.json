@@ -1,12 +1,13 @@
 {
   "slug": "pamproux",
   "nom": "Pamproux",
-  "fetchedAt": "2026-03-13T16:44:08.694Z",
+  "fetchedAt": "2026-03-17T22:08:01.496Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Pamproux_-_Place_Mendes_France_-_bo%C3%AEte_%C3%A0_livres.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APamproux%20-%20Place%20Mendes%20France%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
       "title": "Pamproux - Place Mendes France - boîte à livres.jpg",
+      "description": "Boîte à livres à Pamproux",
       "width": 2500,
       "height": 1875,
       "size": 775599,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/France_-_Deux-S%C3%A8vres_-_Pamproux_-_Clocher_de_l%27%C3%A9glise.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20-%20Deux-S%C3%A8vres%20-%20Pamproux%20-%20Clocher%20de%20l'%C3%A9glise.JPG",
       "title": "France - Deux-Sèvres - Pamproux - Clocher de l'église.JPG",
+      "description": "France - Deux-Sèvres - Pamproux - Clocher de l'église",
       "width": 2304,
       "height": 1536,
       "size": 1250124,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/France_-_Deux-S%C3%A8vres_-_Pamproux_-_La_Halle_%281%29.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20-%20Deux-S%C3%A8vres%20-%20Pamproux%20-%20La%20Halle%20(1).JPG",
       "title": "France - Deux-Sèvres - Pamproux - La Halle (1).JPG",
+      "description": "France - Deux-Sèvres - Pamproux - La Halle",
       "width": 2304,
       "height": 1536,
       "size": 1551155,
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/France_-_Deux-S%C3%A8vres_-_Pamproux_-_Clocher_de_l%27%C3%A9glise.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20-%20Deux-S%C3%A8vres%20-%20Pamproux%20-%20Clocher%20de%20l'%C3%A9glise.JPG",
           "title": "France - Deux-Sèvres - Pamproux - Clocher de l'église.JPG",
+          "description": "France - Deux-Sèvres - Pamproux - Clocher de l'église",
           "width": 2304,
           "height": 1536,
           "size": 1250124,
@@ -59,12 +63,83 @@
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Eglise_-_Ensemble_nord-est_-_Pamproux_-_M%C3%A9diath%C3%A8que_de_l%27architecture_et_du_patrimoine_-_APMH00027066.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20-%20Ensemble%20nord-est%20-%20Pamproux%20-%20M%C3%A9diath%C3%A8que%20de%20l'architecture%20et%20du%20patrimoine%20-%20APMH00027066.jpg",
+          "title": "Eglise - Ensemble nord-est - Pamproux - Médiathèque de l'architecture et du patrimoine - APMH00027066.jpg",
+          "description": "Ensemble nord-est.",
+          "width": 682,
+          "height": 512,
+          "size": 50176,
+          "timestamp": "2020-05-01T16:01:49Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q30131678\" class=\"extiw\" title=\"d:Q30131678\"><span title=\"French photographer (1851-1927)\">Henri Heuzé</span></a></bdi>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Eglise_-_Nef%2C_vue_diagonale_prise_du_sud_-_Pamproux_-_M%C3%A9diath%C3%A8que_de_l%27architecture_et_du_patrimoine_-_APMH00027064.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20-%20Nef%2C%20vue%20diagonale%20prise%20du%20sud%20-%20Pamproux%20-%20M%C3%A9diath%C3%A8que%20de%20l'architecture%20et%20du%20patrimoine%20-%20APMH00027064.jpg",
+          "title": "Eglise - Nef, vue diagonale prise du sud - Pamproux - Médiathèque de l'architecture et du patrimoine - APMH00027064.jpg",
+          "description": "Nef, vue diagonale prise du sud.",
+          "width": 681,
+          "height": 512,
+          "size": 43878,
+          "timestamp": "2020-05-01T16:01:53Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q30131678\" class=\"extiw\" title=\"d:Q30131678\"><span title=\"French photographer (1851-1927)\">Henri Heuzé</span></a></bdi>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
         }
       ]
     },
     {
       "label": "Halle métallique de Pamproux",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/France_-_Deux-S%C3%A8vres_-_Pamproux_-_La_Halle_%281%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20-%20Deux-S%C3%A8vres%20-%20Pamproux%20-%20La%20Halle%20(1).JPG",
+          "title": "France - Deux-Sèvres - Pamproux - La Halle (1).JPG",
+          "description": "France - Deux-Sèvres - Pamproux - La Halle",
+          "width": 2304,
+          "height": 1536,
+          "size": 1551155,
+          "timestamp": "2009-05-28T21:05:41Z",
+          "author": "Zewan",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/France_-_Deux-S%C3%A8vres_-_Pamproux_-_La_Halle_%282%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20-%20Deux-S%C3%A8vres%20-%20Pamproux%20-%20La%20Halle%20(2).JPG",
+          "title": "France - Deux-Sèvres - Pamproux - La Halle (2).JPG",
+          "description": "France - Deux-Sèvres - Pamproux - La Halle",
+          "width": 2304,
+          "height": 1536,
+          "size": 1800036,
+          "timestamp": "2009-05-28T21:06:41Z",
+          "author": "Zewan",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/France_-_Deux-S%C3%A8vres_-_Pamproux_-_La_Halle_%283%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20-%20Deux-S%C3%A8vres%20-%20Pamproux%20-%20La%20Halle%20(3).JPG",
+          "title": "France - Deux-Sèvres - Pamproux - La Halle (3).JPG",
+          "description": "France - Deux-Sèvres - Pamproux - La Halle",
+          "width": 2304,
+          "height": 1536,
+          "size": 1344990,
+          "timestamp": "2009-05-28T21:07:35Z",
+          "author": "Zewan",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     },
     {
       "label": "Pont sur la Sèvre Niortaise",
@@ -77,6 +152,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Halte_SNCF_Pamproux_%2879%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHalte%20SNCF%20Pamproux%20(79).jpg",
           "title": "Halte SNCF Pamproux (79).jpg",
+          "description": "Quais ancienne gare Pamproux (79) direction Poitiers, pk 35,4. Quelques TER s'y arrêtent encore !\nLa pancarte \"8V\" indique la tête de train, pour les rames à 8 voitures.\n\nVue trompeuse, car laissant supposer que la ligne est à double sens à cet endroit. Mais l'une des voies est en fait un évitement, servant au croisement des trains.",
           "width": 988,
           "height": 660,
           "size": 251131,

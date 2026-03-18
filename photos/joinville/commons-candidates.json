@@ -1,12 +1,41 @@
 {
   "slug": "joinville",
   "nom": "Joinville",
-  "fetchedAt": "2026-03-13T14:50:11.894Z",
+  "fetchedAt": "2026-03-16T14:22:19.100Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Joinville_-_vestiges_du_ch%C3%A2teau_d%27En-Haut%2C_le_12-08-2022.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJoinville%20-%20vestiges%20du%20ch%C3%A2teau%20d'En-Haut%2C%20le%2012-08-2022.jpg",
+      "title": "Joinville - vestiges du château d'En-Haut, le 12-08-2022.jpg",
+      "description": "Vestiges du château d'En-Haut de Joinville (photo du 12-08-2022).",
+      "width": 4128,
+      "height": 2322,
+      "size": 2924512,
+      "timestamp": "2022-09-21T17:31:46Z",
+      "author": "Lardouillette",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Ch%C3%A2teau_du_Grand_Jardin_%C3%A0_Joinville.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20du%20Grand%20Jardin%20%C3%A0%20Joinville.jpg",
+      "title": "Château du Grand Jardin à Joinville.jpg",
+      "description": "Façade Ouest du château du Grand Jardin.",
+      "width": 3543,
+      "height": 2372,
+      "size": 8319400,
+      "timestamp": "2017-04-05T12:03:56Z",
+      "author": "Tomoru",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Bahnhof_in_Joinville%2C_Haute-Marne%2C_2020.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABahnhof%20in%20Joinville%2C%20Haute-Marne%2C%202020.jpg",
       "title": "Bahnhof in Joinville, Haute-Marne, 2020.jpg",
+      "description": "Railway station in Joinville, Haute-Marne, (France)",
       "width": 4608,
       "height": 3456,
       "size": 8552551,
@@ -15,32 +44,6 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Joinville_-_vestiges_du_ch%C3%A2teau_d%27En-Haut%2C_le_12-08-2022.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJoinville%20-%20vestiges%20du%20ch%C3%A2teau%20d'En-Haut%2C%20le%2012-08-2022.jpg",
-      "title": "Joinville - vestiges du château d'En-Haut, le 12-08-2022.jpg",
-      "width": 4128,
-      "height": 2322,
-      "size": 2924512,
-      "timestamp": "2022-09-21T17:31:46Z",
-      "author": "Lardouillette",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Ch%C3%A2teau_du_Grand_Jardin_%C3%A0_Joinville.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20du%20Grand%20Jardin%20%C3%A0%20Joinville.jpg",
-      "title": "Château du Grand Jardin à Joinville.jpg",
-      "width": 3543,
-      "height": 2372,
-      "size": 8319400,
-      "timestamp": "2017-04-05T12:03:56Z",
-      "author": "Tomoru",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
     }
   ],
   "lieux": [
@@ -48,49 +51,95 @@
       "label": "Église Notre-Dame de Joinville",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Savigny_%E2%80%93_%C3%89glise_Notre-Dame-et-Sainte-Barbe_%E2%80%93_Abside_III_2023_08_14.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASavigny%20%E2%80%93%20%C3%89glise%20Notre-Dame-et-Sainte-Barbe%20%E2%80%93%20Abside%20III%202023%2008%2014.jpg",
-          "title": "Savigny – Église Notre-Dame-et-Sainte-Barbe – Abside III 2023 08 14.jpg",
-          "width": 5439,
-          "height": 3626,
-          "size": 9064769,
-          "timestamp": "2023-10-12T07:01:43Z",
-          "author": "Andreas F. Borchert",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Joinville-Vue_%C3%A9glise.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJoinville-Vue%20%C3%A9glise.jpg",
+          "title": "Joinville-Vue église.jpg",
+          "description": "Vue sur l'église Notre-Dame de Joinville (Haute-Marne) depuis les hauteurs de l'ancien château",
+          "width": 3515,
+          "height": 2689,
+          "size": 1734962,
+          "timestamp": "2011-03-30T18:35:06Z",
+          "author": "Ji-Elle",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/%C3%89glise_Ste_Anne_Polangis_Joinville_Pont_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Ste%20Anne%20Polangis%20Joinville%20Pont%201.jpg",
+          "title": "Église Ste Anne Polangis Joinville Pont 1.jpg",
+          "description": "Église Sainte-Anne de Polangis, Joinville-le-Pont.",
+          "width": 4032,
+          "height": 3024,
+          "size": 4290100,
+          "timestamp": "2020-01-04T18:54:55Z",
+          "author": "Chabe01",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Voyages_dans_l_ancienne_France_1570929_joinville.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVoyages%20dans%20l%20ancienne%20France%201570929%20joinville.jpg",
-          "title": "Voyages dans l ancienne France 1570929 joinville.jpg",
-          "width": 2150,
-          "height": 3162,
-          "size": 5686201,
-          "timestamp": "2025-07-06T08:30:05Z",
-          "author": "Gérald Garitan",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/%C3%89glise_Ste_Anne_Polangis_Joinville_Pont_4.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Ste%20Anne%20Polangis%20Joinville%20Pont%204.jpg",
+          "title": "Église Ste Anne Polangis Joinville Pont 4.jpg",
+          "description": "Église Sainte-Anne de Polangis, Joinville-le-Pont.",
+          "width": 4032,
+          "height": 3024,
+          "size": 4866216,
+          "timestamp": "2020-01-04T18:55:05Z",
+          "author": "Chabe01",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Eglise_Notre_Dame_Port_Joinville.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Notre%20Dame%20Port%20Joinville.jpg",
-          "title": "Eglise Notre Dame Port Joinville.jpg",
-          "width": 1024,
-          "height": 1365,
-          "size": 348090,
-          "timestamp": "2020-07-26T19:03:35Z",
-          "author": "Stéphane Batigne",
-          "license": "CC BY 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
         }
       ]
     },
     {
       "label": "Pont de Pierre sur la Marne",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/FF_-_Les_beaux_sites_de_la_Marne_-_JOINVILLE-LE-PONT_-_Panorama_du_Pont.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFF%20-%20Les%20beaux%20sites%20de%20la%20Marne%20-%20JOINVILLE-LE-PONT%20-%20Panorama%20du%20Pont.JPG",
+          "title": "FF - Les beaux sites de la Marne - JOINVILLE-LE-PONT - Panorama du Pont.JPG",
+          "description": "Carte postale ancienne éditée par FF à Paris, collection Les beaux sites de la Marne :JOINVILLE-LE-PONT - Panorama du PontVue d'un tramway de la ligne 10 (Porte de Vincennes – Champigny-gare) de la Compagnie des tramways de l'Est parisien",
+          "width": 1628,
+          "height": 1055,
+          "size": 422872,
+          "timestamp": "2012-07-09T18:13:26Z",
+          "author": "Scanné par Claude_villetaneuse",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Monument_morts_Joinville_Pont_7.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMonument%20morts%20Joinville%20Pont%207.jpg",
+          "title": "Monument morts Joinville Pont 7.jpg",
+          "description": "Monument aux morts de Joinville-le-Pont.",
+          "width": 4032,
+          "height": 3024,
+          "size": 5483826,
+          "timestamp": "2020-01-04T18:58:53Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Monument_morts_Joinville_Pont_8.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMonument%20morts%20Joinville%20Pont%208.jpg",
+          "title": "Monument morts Joinville Pont 8.jpg",
+          "description": "Monument aux morts de Joinville-le-Pont.",
+          "width": 4032,
+          "height": 3024,
+          "size": 5327441,
+          "timestamp": "2020-01-04T18:58:53Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Promenade du Pré L’Évêque",
@@ -98,7 +147,50 @@
     },
     {
       "label": "Halle métallique",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Joinville-Place_des_Halles_%281%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJoinville-Place%20des%20Halles%20(1).jpg",
+          "title": "Joinville-Place des Halles (1).jpg",
+          "description": "Place des Halles à Joinville (Haute-Marne)",
+          "width": 3317,
+          "height": 2504,
+          "size": 1083024,
+          "timestamp": "2011-03-30T18:01:07Z",
+          "author": "Ji-Elle",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Joinville-Place_des_Halles_%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJoinville-Place%20des%20Halles%20(2).jpg",
+          "title": "Joinville-Place des Halles (2).jpg",
+          "description": "Place des Halles à Joinville (Haute-Marne)",
+          "width": 3648,
+          "height": 2736,
+          "size": 1221867,
+          "timestamp": "2011-03-30T18:06:54Z",
+          "author": "Ji-Elle",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Joinville-Place_des_Halles_%283%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJoinville-Place%20des%20Halles%20(3).jpg",
+          "title": "Joinville-Place des Halles (3).jpg",
+          "description": "Place des Halles à Joinville (Haute-Marne)",
+          "width": 3468,
+          "height": 2513,
+          "size": 1006085,
+          "timestamp": "2011-03-30T18:10:59Z",
+          "author": "Ji-Elle",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     }
   ]
 }

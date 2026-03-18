@@ -1,12 +1,13 @@
 {
   "slug": "sainte-enimie",
   "nom": "Sainte-Enimie",
-  "fetchedAt": "2026-03-14T12:20:00.841Z",
+  "fetchedAt": "2026-03-18T18:52:17.504Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Auberge_du_Moulin_in_Sainte-Enimie.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAuberge%20du%20Moulin%20in%20Sainte-Enimie.jpg",
       "title": "Auberge du Moulin in Sainte-Enimie.jpg",
+      "description": "Auberge du Moulin in Sainte-Enimie, Lozère, France",
       "width": 5339,
       "height": 3573,
       "size": 12872425,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Place_du_Plo_in_Sainte-Enimie_%281%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlace%20du%20Plo%20in%20Sainte-Enimie%20(1).jpg",
       "title": "Place du Plo in Sainte-Enimie (1).jpg",
+      "description": "Place du Plô in Sainte-Enimie, Lozère, France",
       "width": 4466,
       "height": 2945,
       "size": 9670177,
@@ -30,27 +32,114 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/15th_century_building_in_Sainte-Enimie_%282%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A15th%20century%20building%20in%20Sainte-Enimie%20(2).jpg",
-      "title": "15th century building in Sainte-Enimie (2).jpg",
-      "width": 4485,
-      "height": 3421,
-      "size": 10437395,
-      "timestamp": "2020-03-18T17:39:04Z",
-      "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q51955005\" class=\"extiw\" title=\"d:Q51955005\"><span title=\"Wikimedian\">Krzysztof Golik</span></a></bdi>",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Sainte-Enimie_01.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASainte-Enimie%2001.jpg",
+      "title": "Sainte-Enimie 01.jpg",
+      "description": "Panorama piture from Sainte-Enimie in France. Made by stitching 6 single pictures using Hugin.",
+      "width": 7733,
+      "height": 1927,
+      "size": 4207559,
+      "timestamp": "2010-10-20T06:14:24Z",
+      "author": "Kuebi",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 6
     }
   ],
   "lieux": [
     {
       "label": "Pont roman de Sainte-Enimie",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Ste%C3%89nimie_-_Bourg.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASte%C3%89nimie%20-%20Bourg.jpg",
+          "title": "SteÉnimie - Bourg.jpg",
+          "description": "Vue du bourg depuis le pont",
+          "width": 5150,
+          "height": 3433,
+          "size": 9894573,
+          "timestamp": "2018-06-03T20:39:53Z",
+          "author": "A1AA1A",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Sainte-Enimie_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASainte-Enimie%2001.jpg",
+          "title": "Sainte-Enimie 01.jpg",
+          "description": "Panorama piture from Sainte-Enimie in France. Made by stitching 6 single pictures using Hugin.",
+          "width": 7733,
+          "height": 1927,
+          "size": 4207559,
+          "timestamp": "2010-10-20T06:14:24Z",
+          "author": "Kuebi",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Excursion_dans_la_r%C3%A9gion_des_Causses_%281892%29.f08.cropped.Gorges_du_Tarn%2C_Sainte-Enimie.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AExcursion%20dans%20la%20r%C3%A9gion%20des%20Causses%20(1892).f08.cropped.Gorges%20du%20Tarn%2C%20Sainte-Enimie.jpg",
+          "title": "Excursion dans la région des Causses (1892).f08.cropped.Gorges du Tarn, Sainte-Enimie.jpg",
+          "description": "Excursion dans la région des Causses, offert par le photographe Casimir Julien à James Jackson (1843-1895) en 1892",
+          "width": 2585,
+          "height": 1739,
+          "size": 769601,
+          "timestamp": "2015-06-10T13:36:10Z",
+          "author": "Casimir Julien (18..-18..)",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Source de Burle",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/View_of_Sainte-Enimie_03.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AView%20of%20Sainte-Enimie%2003.jpg",
+          "title": "View of Sainte-Enimie 03.jpg",
+          "description": "View of Sainte-Enimie, Lozère, France",
+          "width": 3675,
+          "height": 2450,
+          "size": 10208409,
+          "timestamp": "2018-02-09T23:55:21Z",
+          "author": "Krzysztof Golik",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/View_of_Sainte-Enimie_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AView%20of%20Sainte-Enimie%2001.jpg",
+          "title": "View of Sainte-Enimie 01.jpg",
+          "description": "View of Sainte-Enimie, Lozère, France",
+          "width": 4383,
+          "height": 2922,
+          "size": 12341497,
+          "timestamp": "2018-02-09T23:55:21Z",
+          "author": "Krzysztof Golik",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/View_of_Sainte-Enimie_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AView%20of%20Sainte-Enimie%2002.jpg",
+          "title": "View of Sainte-Enimie 02.jpg",
+          "description": "View of Sainte-Enimie, Lozère, France",
+          "width": 4224,
+          "height": 2816,
+          "size": 10899906,
+          "timestamp": "2018-02-09T23:55:22Z",
+          "author": "Krzysztof Golik",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        }
+      ]
     },
     {
       "label": "Chapelle Sainte-Madeleine",

@@ -1,12 +1,13 @@
 {
   "slug": "cervione",
   "nom": "Cervione",
-  "fetchedAt": "2026-03-13T12:35:20.620Z",
+  "fetchedAt": "2026-03-15T20:55:36.167Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Boite_%C3%A0_livres_in_Cervione%2C_Haute_Corse%2C_2023.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABoite%20%C3%A0%20livres%20in%20Cervione%2C%20Haute%20Corse%2C%202023.jpg",
       "title": "Boite à livres in Cervione, Haute Corse, 2023.jpg",
+      "description": "Public bookcase on the kerb in Cervione (Haute Corse)",
       "width": 3472,
       "height": 4640,
       "size": 6311916,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Boite_%C3%A0_livres_in_Cervione%2C_Haute_Corse%2C_2023%2C_02.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABoite%20%C3%A0%20livres%20in%20Cervione%2C%20Haute%20Corse%2C%202023%2C%2002.jpg",
       "title": "Boite à livres in Cervione, Haute Corse, 2023, 02.jpg",
+      "description": "Public bookcase on the kerb in Cervione (Haute Corse)",
       "width": 3472,
       "height": 4640,
       "size": 5447471,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Cath%C3%A9drale_Saint-%C3%89rasme_%28Cervione%2C_Corse%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale%20Saint-%C3%89rasme%20(Cervione%2C%20Corse).jpg",
       "title": "Cathédrale Saint-Érasme (Cervione, Corse).jpg",
+      "description": "Intérieur de la Cathédrale Saint-Érasme de Cervione",
       "width": 2736,
       "height": 3648,
       "size": 2843373,
@@ -40,7 +43,7 @@
       "author": "Rivarola",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
+      "score": 2
     }
   ],
   "lieux": [
@@ -48,35 +51,10 @@
       "label": "Cathédrale Saint-Érasme",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Cervioni_San_T%C3%A8ramu_neve.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACervioni%20San%20T%C3%A8ramu%20neve.jpg",
-          "title": "Cervioni San Tèramu neve.jpg",
-          "width": 1881,
-          "height": 1254,
-          "size": 1249601,
-          "timestamp": "2016-09-17T10:36:26Z",
-          "author": "jbgeronimi",
-          "license": "CC BY 2.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Cervioni2.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACervioni2.jpg",
-          "title": "Cervioni2.jpg",
-          "width": 3031,
-          "height": 1772,
-          "size": 1700273,
-          "timestamp": "2016-06-07T07:14:33Z",
-          "author": "Vulpachjinu",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Cath%C3%A9drale_Saint-%C3%89rasme_%28Cervione%2C_Corse%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale%20Saint-%C3%89rasme%20(Cervione%2C%20Corse).jpg",
           "title": "Cathédrale Saint-Érasme (Cervione, Corse).jpg",
+          "description": "Intérieur de la Cathédrale Saint-Érasme de Cervione",
           "width": 2736,
           "height": 3648,
           "size": 2843373,
@@ -84,7 +62,7 @@
           "author": "Rivarola",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 2
         }
       ]
     },
@@ -98,7 +76,50 @@
     },
     {
       "label": "Vue panoramique sur la plaine depuis la place du village",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/D%C3%A9p%C3%B4t_de_prisonniers_allemands_-_Cervione_-_M%C3%A9diath%C3%A8que_de_l%27architecture_et_du_patrimoine_-_APZ0001747.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AD%C3%A9p%C3%B4t%20de%20prisonniers%20allemands%20-%20Cervione%20-%20M%C3%A9diath%C3%A8que%20de%20l'architecture%20et%20du%20patrimoine%20-%20APZ0001747.jpg",
+          "title": "Dépôt de prisonniers allemands - Cervione - Médiathèque de l'architecture et du patrimoine - APZ0001747.jpg",
+          "description": "",
+          "width": 800,
+          "height": 577,
+          "size": 84041,
+          "timestamp": "2020-12-08T12:07:50Z",
+          "author": "Opérateur Z (code armée).",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/D%C3%A9p%C3%B4t_de_prisonniers_allemands_-_Cervione_-_M%C3%A9diath%C3%A8que_de_l%27architecture_et_du_patrimoine_-_APZ0001753.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AD%C3%A9p%C3%B4t%20de%20prisonniers%20allemands%20-%20Cervione%20-%20M%C3%A9diath%C3%A8que%20de%20l'architecture%20et%20du%20patrimoine%20-%20APZ0001753.jpg",
+          "title": "Dépôt de prisonniers allemands - Cervione - Médiathèque de l'architecture et du patrimoine - APZ0001753.jpg",
+          "description": "",
+          "width": 800,
+          "height": 568,
+          "size": 72057,
+          "timestamp": "2020-12-09T12:02:38Z",
+          "author": "Opérateur Z (code armée).",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/D%C3%A9p%C3%B4t_de_prisonniers_allemands_-_Cervione_-_M%C3%A9diath%C3%A8que_de_l%27architecture_et_du_patrimoine_-_APZ0001754.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AD%C3%A9p%C3%B4t%20de%20prisonniers%20allemands%20-%20Cervione%20-%20M%C3%A9diath%C3%A8que%20de%20l'architecture%20et%20du%20patrimoine%20-%20APZ0001754.jpg",
+          "title": "Dépôt de prisonniers allemands - Cervione - Médiathèque de l'architecture et du patrimoine - APZ0001754.jpg",
+          "description": "",
+          "width": 800,
+          "height": 571,
+          "size": 84447,
+          "timestamp": "2020-12-10T14:37:35Z",
+          "author": "Opérateur Z (code armée).",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     }
   ]
 }

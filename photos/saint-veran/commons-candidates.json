@@ -1,12 +1,13 @@
 {
   "slug": "saint-veran",
   "nom": "Saint-Véran",
-  "fetchedAt": "2026-03-14T12:18:03.634Z",
+  "fetchedAt": "2026-03-18T18:47:40.965Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Saint-Veran-2.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Veran-2.jpg",
       "title": "Saint-Veran-2.jpg",
+      "description": "Route des Grandes Alpes in den französischen Alpen im Juni 2000 (Scan vom Analogbild): Blick auf Saint-Véran im Queyras (2040 m) - höchstgelegene Gemeinde Europas",
       "width": 2859,
       "height": 1672,
       "size": 2294020,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Saint-Veran-1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Veran-1.jpg",
       "title": "Saint-Veran-1.jpg",
+      "description": "Route des Grandes Alpes in den französischen Alpen im Juni 2000 (Scan vom Analogbild): Saint-Véran im Queyras (2040 m) - höchstgelegene Gemeinde Europas",
       "width": 2938,
       "height": 2000,
       "size": 2400327,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Saint_V%C3%A9ran_%286342937017%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint%20V%C3%A9ran%20(6342937017).jpg",
       "title": "Saint Véran (6342937017).jpg",
+      "description": "Le hameau Le Cros dans le Quéras",
       "width": 2677,
       "height": 1910,
       "size": 2339791,
@@ -46,37 +49,31 @@
   "lieux": [
     {
       "label": "Maison du Soleil",
-      "photos": []
-    },
-    {
-      "label": "Cadrans solaires sur les façades",
-      "photos": []
-    },
-    {
-      "label": "Chapelle de Clausis",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Vall%C3%A9e_de_Saint-V%C3%A9ran_du_pic_de_Caramantran.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVall%C3%A9e%20de%20Saint-V%C3%A9ran%20du%20pic%20de%20Caramantran.jpg",
-          "title": "Vallée de Saint-Véran du pic de Caramantran.jpg",
-          "width": 4039,
-          "height": 1850,
-          "size": 4382667,
-          "timestamp": "2020-08-13T19:27:18Z",
-          "author": "Marc Mongenet",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Saint-Chaffrey%2C_Maison_Cadran_Solaire_de_Zarbula_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Chaffrey%2C%20Maison%20Cadran%20Solaire%20de%20Zarbula%2001.jpg",
+          "title": "Saint-Chaffrey, Maison Cadran Solaire de Zarbula 01.jpg",
+          "description": "La maison se trouve rue des Trois-Fontaines dans le hameau de Villard-Late, au pied du Col du Granon 2413 m. Zarbula est un artiste Piémontais \"Italien\" du 19° siècle. Il créa de très nombreux cadrans solaire dans les Alpes françaises et italiennes.",
+          "width": 4896,
+          "height": 3672,
+          "size": 4715952,
+          "timestamp": "2021-09-14T06:50:39Z",
+          "author": "Celeda",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Chapelle_Notre_Dame_de_Clausis.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20Notre%20Dame%20de%20Clausis.jpg",
-          "title": "Chapelle Notre Dame de Clausis.jpg",
-          "width": 3648,
-          "height": 2736,
-          "size": 2203281,
-          "timestamp": "2024-08-07T14:09:43Z",
-          "author": "Lucs4545",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Saint-Chaffrey%2C_Maison_Cadran_Solaire_de_Zarbula_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Chaffrey%2C%20Maison%20Cadran%20Solaire%20de%20Zarbula%2002.jpg",
+          "title": "Saint-Chaffrey, Maison Cadran Solaire de Zarbula 02.jpg",
+          "description": "La maison se trouve rue des Trois-Fontaines dans le hameau de Villard-Late, au pied du Col du Granon 2413 m. Zarbula est un artiste Piémontais \"Italien\" du 19° siècle. Il créa de très nombreux cadrans solaire dans les Alpes françaises et italiennes.",
+          "width": 4896,
+          "height": 3672,
+          "size": 5274273,
+          "timestamp": "2021-09-14T06:50:39Z",
+          "author": "Celeda",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
@@ -84,20 +81,115 @@
       ]
     },
     {
+      "label": "Cadrans solaires sur les façades",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Saint-Chaffrey%2C_Maison_Cadran_Solaire_de_Zarbula_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Chaffrey%2C%20Maison%20Cadran%20Solaire%20de%20Zarbula%2001.jpg",
+          "title": "Saint-Chaffrey, Maison Cadran Solaire de Zarbula 01.jpg",
+          "description": "La maison se trouve rue des Trois-Fontaines dans le hameau de Villard-Late, au pied du Col du Granon 2413 m. Zarbula est un artiste Piémontais \"Italien\" du 19° siècle. Il créa de très nombreux cadrans solaire dans les Alpes françaises et italiennes.",
+          "width": 4896,
+          "height": 3672,
+          "size": 4715952,
+          "timestamp": "2021-09-14T06:50:39Z",
+          "author": "Celeda",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Saint-Chaffrey%2C_Maison_Cadran_Solaire_de_Zarbula_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Chaffrey%2C%20Maison%20Cadran%20Solaire%20de%20Zarbula%2002.jpg",
+          "title": "Saint-Chaffrey, Maison Cadran Solaire de Zarbula 02.jpg",
+          "description": "La maison se trouve rue des Trois-Fontaines dans le hameau de Villard-Late, au pied du Col du Granon 2413 m. Zarbula est un artiste Piémontais \"Italien\" du 19° siècle. Il créa de très nombreux cadrans solaire dans les Alpes françaises et italiennes.",
+          "width": 4896,
+          "height": 3672,
+          "size": 5274273,
+          "timestamp": "2021-09-14T06:50:39Z",
+          "author": "Celeda",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Saint-Chaffrey%2C_Maison_Cadran_Solaire_de_Zarbula_03.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Chaffrey%2C%20Maison%20Cadran%20Solaire%20de%20Zarbula%2003.jpg",
+          "title": "Saint-Chaffrey, Maison Cadran Solaire de Zarbula 03.jpg",
+          "description": "La maison se trouve rue des Trois-Fontaines dans le hameau de Villard-Late, au pied du Col du Granon 2413 m. Zarbula est un artiste Piémontais \"Italien\" du 19° siècle. Il créa de très nombreux cadrans solaire dans les Alpes françaises et italiennes.",
+          "width": 4309,
+          "height": 3660,
+          "size": 4222608,
+          "timestamp": "2021-09-14T06:50:38Z",
+          "author": "Celeda",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "label": "Chapelle de Clausis",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Perreux_-_Chapelle_Saint-V%C3%A9rand.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APerreux%20-%20Chapelle%20Saint-V%C3%A9rand.jpg",
+          "title": "Perreux - Chapelle Saint-Vérand.jpg",
+          "description": "Perreux - Chapelle Saint-Vérand",
+          "width": 4272,
+          "height": 2848,
+          "size": 2361819,
+          "timestamp": "2022-03-20T15:59:26Z",
+          "author": "Antoine Garnier",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Saint-V%C3%A9ran_d%27Orgon_02.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-V%C3%A9ran%20d'Orgon%2002.JPG",
+          "title": "Saint-Véran d'Orgon 02.JPG",
+          "description": "France - Provence - Chapelle Saint-Véran d'Orgon",
+          "width": 3752,
+          "height": 2592,
+          "size": 8067161,
+          "timestamp": "2019-05-30T08:16:39Z",
+          "author": "EmDee",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/GENTIANA_PUNCTATA._%281%29._Chapelle_des_Clausis%2C_Saint_V%C3%A9ran._20-07-09.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGENTIANA%20PUNCTATA.%20(1).%20Chapelle%20des%20Clausis%2C%20Saint%20V%C3%A9ran.%2020-07-09.JPG",
+          "title": "GENTIANA PUNCTATA. (1). Chapelle des Clausis, Saint Véran. 20-07-09.JPG",
+          "description": "Gentiana punctata.",
+          "width": 2816,
+          "height": 1880,
+          "size": 747010,
+          "timestamp": "2015-07-07T12:20:29Z",
+          "author": "Espirat",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
+    },
+    {
       "label": "Fontaine du Chatelet",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Saint-V%C3%A9ran_-_Fontaine_du_Ch%C3%A2telet_-726.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-V%C3%A9ran%20-%20Fontaine%20du%20Ch%C3%A2telet%20-726.jpg",
-          "title": "Saint-Véran - Fontaine du Châtelet -726.jpg",
-          "width": 3529,
-          "height": 2269,
-          "size": 2081926,
-          "timestamp": "2011-09-20T16:55:24Z",
-          "author": "MOSSOT",
-          "license": "CC BY 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Merovingische_tombe_%286eE%29_graf_Veranus_van_Cavaillon_-_%C3%89glise_Notre-Dame-et-Saint-V%C3%A9ran_Fontaine-de-Vaucluse_27-05-2018.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMerovingische%20tombe%20(6eE)%20graf%20Veranus%20van%20Cavaillon%20-%20%C3%89glise%20Notre-Dame-et-Saint-V%C3%A9ran%20Fontaine-de-Vaucluse%2027-05-2018.jpg",
+          "title": "Merovingische tombe (6eE) graf Veranus van Cavaillon - Église Notre-Dame-et-Saint-Véran Fontaine-de-Vaucluse 27-05-2018.jpg",
+          "description": "Merovingische tombe (6eE) graf Veranus van Cavaillon - Église Notre-Dame-et-Saint-Véran Fontaine-de-Vaucluse",
+          "width": 6000,
+          "height": 4000,
+          "size": 4988134,
+          "timestamp": "2024-07-22T15:07:26Z",
+          "author": "Paul Hermans",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
         }
       ]
     }

@@ -1,12 +1,13 @@
 {
   "slug": "neuwiller-les-saverne",
   "nom": "Neuwiller-lès-Saverne",
-  "fetchedAt": "2026-03-13T16:34:27.105Z",
+  "fetchedAt": "2026-03-17T21:46:51.441Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Neuwiller_saverne_chapelle_st_nicolas2.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANeuwiller%20saverne%20chapelle%20st%20nicolas2.jpg",
       "title": "Neuwiller saverne chapelle st nicolas2.jpg",
+      "description": "Ancienne chapelle Saint-Nicolas de Neuwiller-lès-Saverne",
       "width": 3264,
       "height": 1836,
       "size": 2301487,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Neuwiller_saverne_fontaine_abbatiale1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANeuwiller%20saverne%20fontaine%20abbatiale1.jpg",
       "title": "Neuwiller saverne fontaine abbatiale1.jpg",
+      "description": "Fontaine de la cour du Chapitre à Neuwiller-lès-Saverne",
       "width": 3264,
       "height": 1836,
       "size": 1872212,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Neuwiller_CourChapitre_7-8_%282%29.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANeuwiller%20CourChapitre%207-8%20(2).JPG",
       "title": "Neuwiller CourChapitre 7-8 (2).JPG",
+      "description": "Alsace, Bas-Rhin, Neuwiller-lès-Saverne, Ancien hôtel de la Prévôté du Chapitre (XVIIIe), 8 Cour du Chapitre: \n\n\n\n\n\n\n \nThis building is inscrit au titre des monuments historiques de la France. It is indexed in the base Mérimée, a database of architectural heritage maintained by the French Ministry of Culture, under the references PA00084823   and IA67009932 .\n\nbrezhoneg ∙ català ∙ Deutsch ∙ English ∙ español ∙ Esperanto ∙ euskara ∙ français ∙ italiano ∙ magyar ∙ Nederlands ∙ português do Brasil ",
       "width": 3432,
       "height": 1948,
       "size": 2080551,
@@ -48,22 +51,10 @@
       "label": "Abbatiale Saints-Pierre-et-Paul",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/St_Pierre_Neuwiller.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt%20Pierre%20Neuwiller.jpg",
-          "title": "St Pierre Neuwiller.jpg",
-          "width": 1440,
-          "height": 961,
-          "size": 437521,
-          "timestamp": "2024-07-31T19:17:00Z",
-          "author": "Guesnery",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Abbatiale_de_Neuwiller-l%C3%A8s-Saverne_%281912%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbatiale%20de%20Neuwiller-l%C3%A8s-Saverne%20(1912).jpg",
           "title": "Abbatiale de Neuwiller-lès-Saverne (1912).jpg",
+          "description": "Photographie latérale de l'abbatiale Saints-Pierre-et-Paul de Neuwiller-lès-Saverne.",
           "width": 2104,
           "height": 1416,
           "size": 262570,
@@ -74,17 +65,32 @@
           "score": 6
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Saint-Pierre-et-Saint-Paul%2C_Neuwiller-l%C3%A8s-Saverne_%2848712747558%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Pierre-et-Saint-Paul%2C%20Neuwiller-l%C3%A8s-Saverne%20(48712747558).jpg",
-          "title": "Saint-Pierre-et-Saint-Paul, Neuwiller-lès-Saverne (48712747558).jpg",
-          "width": 2304,
-          "height": 3456,
-          "size": 3240433,
-          "timestamp": "2020-08-30T11:16:21Z",
-          "author": "Communauté de paroisses",
-          "license": "Public domain",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Neuwiller_st_pierre_3_edit.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANeuwiller%20st%20pierre%203%20edit.jpg",
+          "title": "Neuwiller st pierre 3 edit.jpg",
+          "description": "Abbatiale Saint-Pierre-et-Saint-Paul de Neuwiller-lès-Saverne",
+          "width": 1959,
+          "height": 1419,
+          "size": 557826,
+          "timestamp": "2010-02-09T11:58:24Z",
+          "author": "<ul><li><a href=\"//commons.wikimedia.org/wiki/File:Neuwiller_st_pierre_3.jpg\" title=\"File:Neuwiller st pierre 3.jpg\">Neuwiller_st_pierre_3.jpg</a>: Pascal RADIGUE</li>\n<li>derivative work: <a href=\"//commons.wikimedia.org/wiki/User:Coyau\" title=\"User:Coyau\">Coyau</a> (<a href=\"//commons.wikimedia.org/wiki/User_talk:Coyau\" title=\"User talk:Coyau\"><span class=\"signature-talk\">talk</span></a>)</li></ul>",
+          "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Neuwiller_StPierre-Paul_28.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANeuwiller%20StPierre-Paul%2028.JPG",
+          "title": "Neuwiller StPierre-Paul 28.JPG",
+          "description": "This object is classé Monument Historique in the base Palissy, database of the French furniture patrimony of the French ministry of culture, under the references PM67000790 and IM67015505.",
+          "width": 4000,
+          "height": 3000,
+          "size": 1103719,
+          "timestamp": "2010-09-05T19:40:41Z",
+          "author": "© Ralph Hammann - Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
         }
       ]
     },
@@ -95,6 +101,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/%C3%89glise_Saint-Adelphe%2C_Neuwiller-l%C3%A8s-Saverne_%282%29.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-Adelphe%2C%20Neuwiller-l%C3%A8s-Saverne%20(2).JPG",
           "title": "Église Saint-Adelphe, Neuwiller-lès-Saverne (2).JPG",
+          "description": "Église Saint-Adelphe, Neuwiller-lès-Saverne",
           "width": 1687,
           "height": 1368,
           "size": 564379,
@@ -108,6 +115,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Nave_of_%C3%89glise_Saint-Adelphe%2C_Neuwiller-l%C3%A8s-Saverne_Orgel.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANave%20of%20%C3%89glise%20Saint-Adelphe%2C%20Neuwiller-l%C3%A8s-Saverne%20Orgel.jpg",
           "title": "Nave of Église Saint-Adelphe, Neuwiller-lès-Saverne Orgel.jpg",
+          "description": "Nave of Église Saint-Adelphe, Neuwiller-lès-Saverne Orgel",
           "width": 4592,
           "height": 2584,
           "size": 7165440,
@@ -121,6 +129,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Nave_of_%C3%89glise_Saint-Adelphe%2C_Neuwiller-l%C3%A8s-Saverne_Pfeiler.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANave%20of%20%C3%89glise%20Saint-Adelphe%2C%20Neuwiller-l%C3%A8s-Saverne%20Pfeiler.jpg",
           "title": "Nave of Église Saint-Adelphe, Neuwiller-lès-Saverne Pfeiler.jpg",
+          "description": "Nave of Église Saint-Adelphe, Neuwiller-lès-Saverne Pfeiler",
           "width": 4592,
           "height": 2584,
           "size": 6834176,
@@ -134,7 +143,50 @@
     },
     {
       "label": "Porte fortifiée",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Neuwiller_rCerf_19.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANeuwiller%20rCerf%2019.JPG",
+          "title": "Neuwiller rCerf 19.JPG",
+          "description": "Alsace, Bas-Rhin, Neuwiller-lès-Saverne, Château Freihof (XIIIe-XVIIIe), 19 rue du Cerf. \n\n\n\n\n\n \nThis building is indexed in the base Mérimée, a database of architectural heritage maintained by the French Ministry of Culture, under the reference IA67009931 .\n\nbrezhoneg ∙ català ∙ Deutsch ∙ English ∙ español ∙ Esperanto ∙ euskara ∙ français ∙ italiano ∙ magyar ∙ Nederlands ∙ português do Brasil ∙ português ∙ română ∙ sicilianu ∙ slovenščina ∙ suomi ∙ svenska ∙ Ελληνικά ∙ беларуская (тарашкевіца) ",
+          "width": 3648,
+          "height": 2736,
+          "size": 2979222,
+          "timestamp": "2015-10-15T09:11:29Z",
+          "author": "© Ralph Hammann - Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Neuwiller_CourChapitre_p1.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANeuwiller%20CourChapitre%20p1.JPG",
+          "title": "Neuwiller CourChapitre p1.JPG",
+          "description": "Alsace, Bas-Rhin, Neuwiller-lès-Saverne, Abbaye bénédictine: Passage médiéval (XIIIe) entre la Cour du Chapitre et la rue du Général-Koenig. \n\n\n\n\n\n\n \nThis building is classé au titre des monuments historiques de la France. It is indexed in the base Mérimée, a database of architectural heritage maintained by the French Ministry of Culture, under the references PA00084820   and IA67009916 .\n\nbrezhoneg ∙ català ∙ Deutsch ∙ English ∙ español ∙ Esperanto ∙ euskara ∙ français ∙ italiano ∙ magyar ∙ Ned",
+          "width": 3648,
+          "height": 2736,
+          "size": 2446310,
+          "timestamp": "2015-10-14T15:19:58Z",
+          "author": "© Ralph Hammann - Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Neuwiller_rEglise_17-19_%281%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANeuwiller%20rEglise%2017-19%20(1).JPG",
+          "title": "Neuwiller rEglise 17-19 (1).JPG",
+          "description": "Alsace, Bas-Rhin, Neuwiller-lès-Saverne, Maison-ferme (XVe-XVIe-XVIIIe-XIXe), 17-19 rue de l'Eglise. \n\n\n\n\n\n \nThis building is indexed in the base Mérimée, a database of architectural heritage maintained by the French Ministry of Culture, under the reference IA67009947 .\n\nbrezhoneg ∙ català ∙ Deutsch ∙ English ∙ español ∙ Esperanto ∙ euskara ∙ français ∙ italiano ∙ magyar ∙ Nederlands ∙ português do Brasil ∙ português ∙ română ∙ sicilianu ∙ slovenščina ∙ suomi ∙ svenska ∙ Ελληνικά ∙ беларуская (т",
+          "width": 3648,
+          "height": 2736,
+          "size": 2359321,
+          "timestamp": "2015-10-15T09:16:56Z",
+          "author": "© Ralph Hammann - Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Jardin monastique",

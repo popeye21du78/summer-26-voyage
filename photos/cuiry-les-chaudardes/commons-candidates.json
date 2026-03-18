@@ -1,12 +1,13 @@
 {
   "slug": "cuiry-les-chaudardes",
   "nom": "Cuiry-lès-Chaudardes",
-  "fetchedAt": "2026-03-13T14:00:54.546Z",
+  "fetchedAt": "2026-03-16T12:34:14.008Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Chaudardes_%28Aisne%29_%C3%89glise_Saint-Jean_Baptiste.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChaudardes%20(Aisne)%20%C3%89glise%20Saint-Jean%20Baptiste.JPG",
       "title": "Chaudardes (Aisne) Église Saint-Jean Baptiste.JPG",
+      "description": "Chaudardes (Aisne) Église Saint-Jean Baptiste",
       "width": 3648,
       "height": 2736,
       "size": 4302624,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Chaudardes_%28Aisne%29_Mairie.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChaudardes%20(Aisne)%20Mairie.JPG",
       "title": "Chaudardes (Aisne) Mairie.JPG",
+      "description": "Chaudardes (Aisne) Mairie",
       "width": 3648,
       "height": 2736,
       "size": 3954684,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Cuiry-l%C3%A8s-Chaudardes_%28Aisne%29_%C3%89glise.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACuiry-l%C3%A8s-Chaudardes%20(Aisne)%20%C3%89glise.JPG",
       "title": "Cuiry-lès-Chaudardes (Aisne) Église.JPG",
+      "description": "Cuiry-lès-Chaudardes (Aisne) Église",
       "width": 3648,
       "height": 2736,
       "size": 4002240,
@@ -46,7 +49,22 @@
   "lieux": [
     {
       "label": "Église Saint-Martin",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Cuiry-l%C3%A8s-Chaudardes_%28Aisne%29_%C3%89glise.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACuiry-l%C3%A8s-Chaudardes%20(Aisne)%20%C3%89glise.JPG",
+          "title": "Cuiry-lès-Chaudardes (Aisne) Église.JPG",
+          "description": "Cuiry-lès-Chaudardes (Aisne) Église",
+          "width": 3648,
+          "height": 2736,
+          "size": 4002240,
+          "timestamp": "2012-07-11T09:13:40Z",
+          "author": "Havang(nl)",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Canal de l’Aisne",

@@ -1,12 +1,13 @@
 {
   "slug": "chateau-de-terre-neuve",
   "nom": "Château de Terre-Neuve",
-  "fetchedAt": "2026-03-13T13:16:26.577Z",
+  "fetchedAt": "2026-03-15T21:45:12.027Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Fontenay_le_Comte_-_Chateau_Gaillard_%281%29.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFontenay%20le%20Comte%20-%20Chateau%20Gaillard%20(1).JPG",
       "title": "Fontenay le Comte - Chateau Gaillard (1).JPG",
+      "description": "Hôtel dit Château-Gaillard - Fontenay-le-Comte (Vendée)",
       "width": 4522,
       "height": 3139,
       "size": 4081401,
@@ -14,12 +15,13 @@
       "author": "Selbymay",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
+      "score": 7
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Fontenay-le-Comte_-_Chateau_Terre_Neuve_%281%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFontenay-le-Comte%20-%20Chateau%20Terre%20Neuve%20(1).jpg",
       "title": "Fontenay-le-Comte - Chateau Terre Neuve (1).jpg",
+      "description": "Entrée du Château de Terre-Neuve - Fontenay-le-Comte (Vendée)",
       "width": 4029,
       "height": 2668,
       "size": 2509952,
@@ -27,12 +29,13 @@
       "author": "Selbymay",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
+      "score": 7
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Fontenay-le-Comte_%2885%29_H%C3%B4tel_dit_Ch%C3%A2teau-Gaillard_Portail_03.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFontenay-le-Comte%20(85)%20H%C3%B4tel%20dit%20Ch%C3%A2teau-Gaillard%20Portail%2003.JPG",
       "title": "Fontenay-le-Comte (85) Hôtel dit Château-Gaillard Portail 03.JPG",
+      "description": "Portail de l'Hôtel dit Château-Gaillard à Fontenay-le-Comte (85). Statue de Laocoon.",
       "width": 1786,
       "height": 2381,
       "size": 1772714,
@@ -40,7 +43,7 @@
       "author": "GO69",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
+      "score": 7
     }
   ],
   "lieux": [
@@ -50,7 +53,36 @@
     },
     {
       "label": "Salon lambrissé avec cheminée monumentale",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Petit_salon_de_Terre_Neuve.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APetit%20salon%20de%20Terre%20Neuve.jpg",
+          "title": "Petit salon de Terre Neuve.jpg",
+          "description": "Château de Terre Neuve",
+          "width": 2592,
+          "height": 1944,
+          "size": 2386640,
+          "timestamp": "2013-02-05T13:15:10Z",
+          "author": "Gdf85",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Grand_Salon_de_Terre_Neuve.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrand%20Salon%20de%20Terre%20Neuve.jpg",
+          "title": "Grand Salon de Terre Neuve.jpg",
+          "description": "Château de Terre Neuve",
+          "width": 3008,
+          "height": 2000,
+          "size": 1721166,
+          "timestamp": "2013-02-05T13:15:11Z",
+          "author": "Gdf85",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Parc et grand cèdre",

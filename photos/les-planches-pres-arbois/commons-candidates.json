@@ -1,12 +1,13 @@
 {
   "slug": "les-planches-pres-arbois",
   "nom": "Les Planches-près-Arbois",
-  "fetchedAt": "2026-03-13T15:51:40.945Z",
+  "fetchedAt": "2026-03-16T20:43:15.766Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Les_Planches-pr%C3%A8s-Arbois_-_Rue_de_la_Cuisance_-_bo%C3%AEte_%C3%A0_livres.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20Planches-pr%C3%A8s-Arbois%20-%20Rue%20de%20la%20Cuisance%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
       "title": "Les Planches-près-Arbois - Rue de la Cuisance - boîte à livres.jpg",
+      "description": "Boîte à livres à Les Planches-près-Arbois",
       "width": 3024,
       "height": 4032,
       "size": 4122091,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Les_Planches-pr%C3%A8s-Arbois_%28Jura%29.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20Planches-pr%C3%A8s-Arbois%20(Jura).JPG",
       "title": "Les Planches-près-Arbois (Jura).JPG",
+      "description": "Sight of the French village of Les Planches-près-Arbois near Arbois in Jura.",
       "width": 3030,
       "height": 2248,
       "size": 3334957,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Wikirencontre_Arbois_2013_-_0055.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWikirencontre%20Arbois%202013%20-%200055.jpg",
       "title": "Wikirencontre Arbois 2013 - 0055.jpg",
+      "description": "Arbois et environs.",
       "width": 4000,
       "height": 3000,
       "size": 2770243,
@@ -48,9 +51,24 @@
       "label": "Cascade des Tufs",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Fontaine_des_Tufs_-_Dessus_%28Les_Planches-pr%C3%A8s-Arbois%29_%283%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFontaine%20des%20Tufs%20-%20Dessus%20(Les%20Planches-pr%C3%A8s-Arbois)%20(3).jpg",
+          "title": "Fontaine des Tufs - Dessus (Les Planches-près-Arbois) (3).jpg",
+          "description": "Fontaine des Tufs aux Planches-près-Arbois (Jura, France).",
+          "width": 2592,
+          "height": 1944,
+          "size": 1155120,
+          "timestamp": "2016-09-23T11:02:21Z",
+          "author": "Gzen92",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Fontaine_des_Tufs_-_Dessus_%28Les_Planches-pr%C3%A8s-Arbois%29_%282%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFontaine%20des%20Tufs%20-%20Dessus%20(Les%20Planches-pr%C3%A8s-Arbois)%20(2).jpg",
           "title": "Fontaine des Tufs - Dessus (Les Planches-près-Arbois) (2).jpg",
+          "description": "Fontaine des Tufs aux Planches-près-Arbois (Jura, France).",
           "width": 2592,
           "height": 1944,
           "size": 1147099,
@@ -64,23 +82,11 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Fontaine_des_Tufs_%28Les_Planches-pr%C3%A8s-Arbois%29_%2811%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFontaine%20des%20Tufs%20(Les%20Planches-pr%C3%A8s-Arbois)%20(11).jpg",
           "title": "Fontaine des Tufs (Les Planches-près-Arbois) (11).jpg",
+          "description": "Fontaine des Tufs aux Planches-près-Arbois (Jura, France).",
           "width": 4288,
           "height": 3216,
           "size": 1080589,
           "timestamp": "2016-09-23T11:02:23Z",
-          "author": "Gzen92",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Fontaine_des_Tufs_%28Les_Planches-pr%C3%A8s-Arbois%29_%2809%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFontaine%20des%20Tufs%20(Les%20Planches-pr%C3%A8s-Arbois)%20(09).jpg",
-          "title": "Fontaine des Tufs (Les Planches-près-Arbois) (09).jpg",
-          "width": 4288,
-          "height": 3216,
-          "size": 1668970,
-          "timestamp": "2016-09-23T11:02:24Z",
           "author": "Gzen92",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -90,11 +96,55 @@
     },
     {
       "label": "Belvédère du Cirque des Planches",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Les_Planches-pr%C3%A8s-Arbois%2C_l%27h%C3%B4tel_Castel_Damandre.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20Planches-pr%C3%A8s-Arbois%2C%20l'h%C3%B4tel%20Castel%20Damandre.jpg",
+          "title": "Les Planches-près-Arbois, l'hôtel Castel Damandre.jpg",
+          "description": "Vue sur l'hôtel Castel Damandre, dans la commune française des Planches-près-Arbois (Jura), depuis le belvédère de La Châtelaine.",
+          "width": 1007,
+          "height": 670,
+          "size": 214762,
+          "timestamp": "2022-08-06T16:59:34Z",
+          "author": "Wikipedro",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Les_Planches-pr%C3%A8s-Arbois%2C_vue_depuis_le_belv%C3%A9d%C3%A8re_de_La_Ch%C3%A2telaine.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20Planches-pr%C3%A8s-Arbois%2C%20vue%20depuis%20le%20belv%C3%A9d%C3%A8re%20de%20La%20Ch%C3%A2telaine.jpg",
+          "title": "Les Planches-près-Arbois, vue depuis le belvédère de La Châtelaine.jpg",
+          "description": "Vue sur le village français des Planches-près-Arbois, dans le département du Jura, à l'été 2022, depuis le belvédère de La Châtelaine.",
+          "width": 792,
+          "height": 527,
+          "size": 487235,
+          "timestamp": "2022-08-06T16:50:20Z",
+          "author": "Wikipedro",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Église Saint-Just",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Eglise_des_Planches-pr%C3%A8s-d%27Arbois.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20des%20Planches-pr%C3%A8s-d'Arbois.jpg",
+          "title": "Eglise des Planches-près-d'Arbois.jpg",
+          "description": "Eglise des Planches-près-Arbois. Jura",
+          "width": 3676,
+          "height": 2907,
+          "size": 4502459,
+          "timestamp": "2018-01-06T10:09:53Z",
+          "author": "Espirat",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

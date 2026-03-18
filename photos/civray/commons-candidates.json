@@ -1,12 +1,13 @@
 {
   "slug": "civray",
   "nom": "Civray",
-  "fetchedAt": "2026-03-13T13:34:14.061Z",
+  "fetchedAt": "2026-03-16T12:06:03.381Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Civray_ext1_Fa%C3%A7ade.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACivray%20ext1%20Fa%C3%A7ade.jpg",
       "title": "Civray ext1 Façade.jpg",
+      "description": "Façade de l'église Saint-Nicolas de Civray, Vienne, France (vue partielle).",
       "width": 3872,
       "height": 2187,
       "size": 1828766,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Civray_ext4_Arcature_centrale_second_niveau.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACivray%20ext4%20Arcature%20centrale%20second%20niveau.jpg",
       "title": "Civray ext4 Arcature centrale second niveau.jpg",
+      "description": "Arcature centrale de second niveau, église Saint-Nicolas de Civray, Vienne, France.",
       "width": 3872,
       "height": 2178,
       "size": 1409446,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Civray_H%C3%B4tel_Louis_XIII_2012.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACivray%20H%C3%B4tel%20Louis%20XIII%202012.jpg",
       "title": "Civray Hôtel Louis XIII 2012.jpg",
+      "description": "Hôtel Louis-XIII (end of the 15th century), Civray, Vienne, France.",
       "width": 3569,
       "height": 2721,
       "size": 4789835,
@@ -50,7 +53,50 @@
     },
     {
       "label": "Pont sur la Charente",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Charente_Civray_pont_des_Barres_aval_nord.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACharente%20Civray%20pont%20des%20Barres%20aval%20nord.jpg",
+          "title": "Charente Civray pont des Barres aval nord.jpg",
+          "description": "Le bras nord de la Charente vu depuis le pont des Barres, Civray, Vienne, France. Vue prise en direction de l'aval.",
+          "width": 2465,
+          "height": 1849,
+          "size": 1220684,
+          "timestamp": "2025-04-12T14:49:54Z",
+          "author": "Père Igor",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Charente_Civray_pont_des_Barres_amont_sud.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACharente%20Civray%20pont%20des%20Barres%20amont%20sud.jpg",
+          "title": "Charente Civray pont des Barres amont sud.jpg",
+          "description": "Le bras sud de la Charente vu depuis le pont des Barres, Civray, Vienne, France. Vue prise en direction de l'amont.",
+          "width": 3035,
+          "height": 2275,
+          "size": 2275662,
+          "timestamp": "2025-04-12T14:49:54Z",
+          "author": "Père Igor",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Charente_Civray_pont_des_Barres_amont_nord.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACharente%20Civray%20pont%20des%20Barres%20amont%20nord.jpg",
+          "title": "Charente Civray pont des Barres amont nord.jpg",
+          "description": "Le bras nord de la Charente vu depuis le pont des Barres, Civray, Vienne, France. Vue prise en direction de l'amont.",
+          "width": 3264,
+          "height": 2448,
+          "size": 1848835,
+          "timestamp": "2025-04-12T14:49:54Z",
+          "author": "Père Igor",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Marché couvert de Civray",

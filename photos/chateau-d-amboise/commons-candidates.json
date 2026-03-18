@@ -1,12 +1,13 @@
 {
   "slug": "chateau-d-amboise",
   "nom": "chateau d amboise",
-  "fetchedAt": "2026-03-13T12:41:25.634Z",
+  "fetchedAt": "2026-03-15T21:09:56.840Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Ch%C3%A2teau_d%27Amboise._View_from_the_east.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20d'Amboise.%20View%20from%20the%20east.jpg",
       "title": "Château d'Amboise. View from the east.jpg",
+      "description": "Château d'Amboise. View from the east",
       "width": 4282,
       "height": 2816,
       "size": 10771464,
@@ -14,25 +15,27 @@
       "author": "Ввласенко",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/00_4241_Ch%C3%A2teau_d%27Amboise_-_France.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A00%204241%20Ch%C3%A2teau%20d'Amboise%20-%20France.jpg",
-      "title": "00 4241 Château d'Amboise - France.jpg",
-      "width": 5472,
-      "height": 3648,
-      "size": 12413044,
-      "timestamp": "2022-06-24T16:03:34Z",
-      "author": "W. Bulach",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Ch%C3%A2teau_Royal_d%27Amboise_-_Exterior_View_-_20180501_PvE_%28Q389908%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20Royal%20d'Amboise%20-%20Exterior%20View%20-%2020180501%20PvE%20(Q389908).jpg",
+      "title": "Château Royal d'Amboise - Exterior View - 20180501 PvE (Q389908).jpg",
+      "description": "Exterior View of Château Royal d'Amboise viewed from the Rue de Blois.",
+      "width": 4772,
+      "height": 3181,
+      "size": 1596430,
+      "timestamp": "2021-12-29T21:55:43Z",
+      "author": "Pieter van Everdingen",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Chateau-d-Amboise-le-logis.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau-d-Amboise-le-logis.JPG",
       "title": "Chateau-d-Amboise-le-logis.JPG",
+      "description": "Logis du Château d'Amboise",
       "width": 3264,
       "height": 2448,
       "size": 1665755,
@@ -40,13 +43,56 @@
       "author": "Vzierno2",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
     }
   ],
   "lieux": [
     {
       "label": "Chapelle Saint-Hubert",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Gezicht_op_de_kapel_van_het_Ch%C3%A2teau_d%27Amboise_Amboise_%28Chapelle%29_%28titel_op_object%29%2C_RP-F-00-3846.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGezicht%20op%20de%20kapel%20van%20het%20Ch%C3%A2teau%20d'Amboise%20Amboise%20(Chapelle)%20(titel%20op%20object)%2C%20RP-F-00-3846.jpg",
+          "title": "Gezicht op de kapel van het Château d'Amboise Amboise (Chapelle) (titel op object), RP-F-00-3846.jpg",
+          "description": "IdentificatieTitel(s): Gezicht op de kapel van het Château d'Amboise. Amboise (Chapelle) (titel op object)Objecttype: foto Objectnummer: RP-F-00-3846Opschriften / Merken: opschrift, recto, handgeschreven: ‘CWN.’naam, recto, gepreegd: ‘PAUL ROBERT PARIS’nummer, recto: ‘No. 93.’ (Kan mogelijk ook No. 99. zijn.), opschrift, recto, handgeschreven: ‘Gothische Kunst - Frankrijk.’verzamelaarsmerk, verso, gestempeld: ‘KUNSTNIJVERHEIDSCHOOL QUELLINUS AMSTERDAM FRANS HALSSTRAAT 14.’verzamelaarsmerk, verso",
+          "width": 5048,
+          "height": 7212,
+          "size": 3529463,
+          "timestamp": "2020-01-10T13:25:38Z",
+          "author": "Rijksmuseum",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Toegangsportaal_van_de_Sint-Hubertuskapel_van_het_Kasteel_van_Amboise_Ch%C3%A2teau_d%27Amboise_%28titel_op_object%29%2C_RP-F-00-4112.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AToegangsportaal%20van%20de%20Sint-Hubertuskapel%20van%20het%20Kasteel%20van%20Amboise%20Ch%C3%A2teau%20d'Amboise%20(titel%20op%20object)%2C%20RP-F-00-4112.jpg",
+          "title": "Toegangsportaal van de Sint-Hubertuskapel van het Kasteel van Amboise Château d'Amboise (titel op object), RP-F-00-4112.jpg",
+          "description": "IdentificatieTitel(s): Toegangsportaal van de Sint-Hubertuskapel van het Kasteel van Amboise. Château d'Amboise (titel op object)Objecttype: foto Objectnummer: RP-F-00-4112Opschriften / Merken: nummer, recto: ‘No 1585’opschrift, recto, gepreegd: ‘MONUMENTS HISTORIQUES’opschrift, recto, handgeschreven: ‘Gothische Kunst - Frankrijk. Ingang van de kapel van St Hubertus (...) In het gebeeldhouwde fries de H. Christoffel en St Hubertus (Karel VIII.)’opschrift, recto, handgeschreven: ‘CWN.’ (Staat voo",
+          "width": 5070,
+          "height": 7162,
+          "size": 3708937,
+          "timestamp": "2020-01-10T17:12:25Z",
+          "author": "Rijksmuseum",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/00_1225_Ch%C3%A2teau_d%60Amboise_-_Chapelle_Saint-Hubert.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A00%201225%20Ch%C3%A2teau%20d%60Amboise%20-%20Chapelle%20Saint-Hubert.jpg",
+          "title": "00 1225 Château d`Amboise - Chapelle Saint-Hubert.jpg",
+          "description": "Turm der Hubertuskapelle in der Schlossanlage Château d'Amboise.",
+          "width": 1600,
+          "height": 2400,
+          "size": 2581418,
+          "timestamp": "2018-08-04T14:21:04Z",
+          "author": "W. Bulach",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Terrasse panoramique",

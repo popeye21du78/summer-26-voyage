@@ -1,12 +1,27 @@
 {
   "slug": "la-bourboule",
   "nom": "La Bourboule",
-  "fetchedAt": "2026-03-13T14:55:54.238Z",
+  "fetchedAt": "2026-03-16T14:36:04.464Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Grands_Thermes_de_la_Bourboule_%28overview%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrands%20Thermes%20de%20la%20Bourboule%20(overview).jpg",
+      "title": "Grands Thermes de la Bourboule (overview).jpg",
+      "description": "Overview of the Grands Thermes in la Bourboule (Puy-de-Dôme, France).",
+      "width": 2816,
+      "height": 2112,
+      "size": 3077252,
+      "timestamp": "2014-12-18T17:47:59Z",
+      "author": "Tangopaso",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/La_Bourboule_-_Maison_thermale_Guillaume-Lacoste_20200811.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Bourboule%20-%20Maison%20thermale%20Guillaume-Lacoste%2020200811.jpg",
       "title": "La Bourboule - Maison thermale Guillaume-Lacoste 20200811.jpg",
+      "description": "Maison thermale Guillaume-Lacoste, ancien hôpital, 145 place Guillaume-Lacoste à La Bourboule.",
       "width": 5337,
       "height": 3558,
       "size": 9667210,
@@ -20,23 +35,11 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/La_Bourboule_-_Grands_thermes_20200811-02.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Bourboule%20-%20Grands%20thermes%2020200811-02.jpg",
       "title": "La Bourboule - Grands thermes 20200811-02.jpg",
+      "description": "Les Grands thermes de La Bourboule.",
       "width": 5472,
       "height": 3648,
       "size": 8709562,
       "timestamp": "2020-09-11T22:31:51Z",
-      "author": "Pymouss",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/La_Bourboule_-_h%C3%B4tel_de_ville_20200811.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Bourboule%20-%20h%C3%B4tel%20de%20ville%2020200811.jpg",
-      "title": "La Bourboule - hôtel de ville 20200811.jpg",
-      "width": 4797,
-      "height": 3198,
-      "size": 6001750,
-      "timestamp": "2020-09-11T23:04:26Z",
       "author": "Pymouss",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/La_Bourboule_-_parc_Fenestre_20200811-03.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Bourboule%20-%20parc%20Fenestre%2020200811-03.jpg",
           "title": "La Bourboule - parc Fenestre 20200811-03.jpg",
+          "description": "Le parc Fenestre à La Bourboule.",
           "width": 5472,
           "height": 3648,
           "size": 11887222,
@@ -64,6 +68,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/La_Bourboule_-_parc_Fenestre_20200811-02.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Bourboule%20-%20parc%20Fenestre%2020200811-02.jpg",
           "title": "La Bourboule - parc Fenestre 20200811-02.jpg",
+          "description": "Le parc Fenestre à La Bourboule.",
           "width": 5472,
           "height": 3648,
           "size": 11310782,
@@ -77,6 +82,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/La_Bourboule_-_parc_Fenestre_20200811-04.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Bourboule%20-%20parc%20Fenestre%2020200811-04.jpg",
           "title": "La Bourboule - parc Fenestre 20200811-04.jpg",
+          "description": "Le parc Fenestre à La Bourboule.",
           "width": 5472,
           "height": 3648,
           "size": 10241971,
@@ -95,6 +101,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/La_Bourboule_-_h%C3%B4tel_de_ville_20200811.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Bourboule%20-%20h%C3%B4tel%20de%20ville%2020200811.jpg",
           "title": "La Bourboule - hôtel de ville 20200811.jpg",
+          "description": "Hôtel de ville de La Bourboule, ancien casino des Thermes.",
           "width": 4797,
           "height": 3198,
           "size": 6001750,
@@ -105,22 +112,10 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Springs_of_health_in_Great_Britain_and_France_%281917%29_%2814759544686%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASprings%20of%20health%20in%20Great%20Britain%20and%20France%20(1917)%20(14759544686).jpg",
-          "title": "Springs of health in Great Britain and France (1917) (14759544686).jpg",
-          "width": 2976,
-          "height": 1604,
-          "size": 1535301,
-          "timestamp": "2015-12-20T14:01:22Z",
-          "author": "<p>Cunard Steamship Company, ltd;\n</p>\nAtlas Advertising Agency, inc., New York",
-          "license": "No restrictions",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Casino_and_baths%2C_La_Bourboule%2C_France-LCCN2001698408.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACasino%20and%20baths%2C%20La%20Bourboule%2C%20France-LCCN2001698408.jpg",
           "title": "Casino and baths, La Bourboule, France-LCCN2001698408.jpg",
+          "description": "",
           "width": 3440,
           "height": 2544,
           "size": 2624930,
@@ -129,6 +124,20 @@
           "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Vue_vers_l%27aval_de_la_Dordogne_%C3%A0_la_Bourboule.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20vers%20l'aval%20de%20la%20Dordogne%20%C3%A0%20la%20Bourboule.jpg",
+          "title": "Vue vers l'aval de la Dordogne à la Bourboule.jpg",
+          "description": "Look downstream to the Dordogne river in la Bourboule (Puy-de-Dôme, France) with the casino on the left.",
+          "width": 2112,
+          "height": 2816,
+          "size": 2281600,
+          "timestamp": "2014-11-07T18:53:55Z",
+          "author": "Tangopaso",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
         }
       ]
     },
@@ -136,49 +145,67 @@
       "label": "Source Choussy",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/La_Bourboule_-_Thermes_Choussy_20200811.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Bourboule%20-%20Thermes%20Choussy%2020200811.jpg",
-          "title": "La Bourboule - Thermes Choussy 20200811.jpg",
-          "width": 2284,
-          "height": 3426,
-          "size": 4563364,
-          "timestamp": "2020-09-11T22:22:05Z",
-          "author": "Pymouss",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Dordogne_La_Bourboule_rdpt_Choussy_aval.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADordogne%20La%20Bourboule%20rdpt%20Choussy%20aval.JPG",
-          "title": "Dordogne La Bourboule rdpt Choussy aval.JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Dordogne_La_Bourboule_rue_Dr_Ch%C3%A2teau_amont.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADordogne%20La%20Bourboule%20rue%20Dr%20Ch%C3%A2teau%20amont.JPG",
+          "title": "Dordogne La Bourboule rue Dr Château amont.JPG",
+          "description": "La Dordogne en amont de la rue du Docteur-Château, La Bourboule, Puy-de-Dôme, France.",
           "width": 3264,
           "height": 2448,
-          "size": 3917172,
-          "timestamp": "2014-04-17T19:45:04Z",
+          "size": 4061868,
+          "timestamp": "2014-04-17T19:50:10Z",
           "author": "Père Igor",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Dordogne_La_Bourboule_rdpt_Choussy_amont.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADordogne%20La%20Bourboule%20rdpt%20Choussy%20amont.JPG",
-          "title": "Dordogne La Bourboule rdpt Choussy amont.JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Dordogne_La_Bourboule_rue_Dr_Ch%C3%A2teau_aval.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADordogne%20La%20Bourboule%20rue%20Dr%20Ch%C3%A2teau%20aval.JPG",
+          "title": "Dordogne La Bourboule rue Dr Château aval.JPG",
+          "description": "La Dordogne en aval de la rue du Docteur-Château, La Bourboule, Puy-de-Dôme, France.",
           "width": 3264,
           "height": 2448,
-          "size": 3869555,
-          "timestamp": "2014-04-17T19:45:06Z",
+          "size": 4056783,
+          "timestamp": "2014-04-17T19:50:11Z",
           "author": "Père Igor",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Grands_Thermes_de_la_Bourboule_%28overview%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrands%20Thermes%20de%20la%20Bourboule%20(overview).jpg",
+          "title": "Grands Thermes de la Bourboule (overview).jpg",
+          "description": "Overview of the Grands Thermes in la Bourboule (Puy-de-Dôme, France).",
+          "width": 2816,
+          "height": 2112,
+          "size": 3077252,
+          "timestamp": "2014-12-18T17:47:59Z",
+          "author": "Tangopaso",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
         }
       ]
     },
     {
       "label": "Quai Fayolle",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Quai_de_l%27hotel_de_ville_%28La_Bourboule%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQuai%20de%20l'hotel%20de%20ville%20(La%20Bourboule).jpg",
+          "title": "Quai de l'hotel de ville (La Bourboule).jpg",
+          "description": "Quai de l'hotel de ville in la Bourboule (Puy-de-Dôme, France).",
+          "width": 2816,
+          "height": 2112,
+          "size": 2409136,
+          "timestamp": "2014-12-18T17:49:26Z",
+          "author": "Tangopaso",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     }
   ]
 }

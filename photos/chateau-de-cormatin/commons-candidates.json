@@ -1,12 +1,13 @@
 {
   "slug": "chateau-de-cormatin",
   "nom": "Château de Cormatin",
-  "fetchedAt": "2026-03-13T13:03:40.930Z",
+  "fetchedAt": "2026-03-15T21:23:57.424Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Plaque_Route_Cormatin_-_Blanot_%28FR71%29_-_2024-03-17_-_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlaque%20Route%20Cormatin%20-%20Blanot%20(FR71)%20-%202024-03-17%20-%201.jpg",
       "title": "Plaque Route Cormatin - Blanot (FR71) - 2024-03-17 - 1.jpg",
+      "description": "Plaque de la route de Cormatin, Blanot en Saône-et-Loire.",
       "width": 3641,
       "height": 2118,
       "size": 1573154,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Plaque_Route_Cormatin_-_Blanot_%28FR71%29_-_2024-03-17_-_2.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlaque%20Route%20Cormatin%20-%20Blanot%20(FR71)%20-%202024-03-17%20-%202.jpg",
       "title": "Plaque Route Cormatin - Blanot (FR71) - 2024-03-17 - 2.jpg",
+      "description": "Plaque de la route de Cormatin, Blanot en Saône-et-Loire.",
       "width": 4032,
       "height": 3024,
       "size": 3413153,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Route_Cormatin_-_Blanot_%28FR71%29_-_2024-03-17_-_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARoute%20Cormatin%20-%20Blanot%20(FR71)%20-%202024-03-17%20-%201.jpg",
       "title": "Route Cormatin - Blanot (FR71) - 2024-03-17 - 1.jpg",
+      "description": "Route de Cormatin, Blanot en Saône-et-Loire.",
       "width": 4032,
       "height": 3024,
       "size": 4412009,
@@ -46,11 +49,97 @@
   "lieux": [
     {
       "label": "Escalier d’honneur",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Ch%C3%A2teau_de_Cormatin-Cage_d%27_escalier.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Cormatin-Cage%20d'%20escalier.jpg",
+          "title": "Château de Cormatin-Cage d' escalier.jpg",
+          "description": "Cage d'escalier, jour de l'escalier vue de la cave, Château de Cormatin, Saône-et-Loire, Bourgogne, France.",
+          "width": 2848,
+          "height": 4272,
+          "size": 2337016,
+          "timestamp": "2010-11-10T03:22:56Z",
+          "author": "D Villafruela",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Ch%C3%A2teau_de_Cormatin%2C_arc_rampant_dans_le_grand_escalier.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Cormatin%2C%20arc%20rampant%20dans%20le%20grand%20escalier.JPG",
+          "title": "Château de Cormatin, arc rampant dans le grand escalier.JPG",
+          "description": "This building is indexed in the base Mérimée, a database of architectural heritage maintained by the French Ministry of Culture, under the reference PA00113246 .\n\nbrezhoneg ∙ català ∙ Deutsch ∙ English ∙ español ∙ Esperanto ∙ euskara ∙ français ∙ italiano ∙ magyar ∙ Nederlands ∙ português do Brasil ∙ português ∙ română ∙ sicilianu ∙ slovenščina ∙ suomi ∙ svenska ∙ Ελληνικά ∙ беларуская (тарашкевіца) ∙ македонски ∙ русский ∙ українська ∙ বাংলা ∙ +/−",
+          "width": 2816,
+          "height": 2112,
+          "size": 2261903,
+          "timestamp": "2012-09-30T20:22:51Z",
+          "author": "Médard",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Ch%C3%A2teau_de_Cormatin%2C_grand_escalier.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Cormatin%2C%20grand%20escalier.JPG",
+          "title": "Château de Cormatin, grand escalier.JPG",
+          "description": "This building is indexed in the base Mérimée, a database of architectural heritage maintained by the French Ministry of Culture, under the reference PA00113246 .\n\nbrezhoneg ∙ català ∙ Deutsch ∙ English ∙ español ∙ Esperanto ∙ euskara ∙ français ∙ italiano ∙ magyar ∙ Nederlands ∙ português do Brasil ∙ português ∙ română ∙ sicilianu ∙ slovenščina ∙ suomi ∙ svenska ∙ Ελληνικά ∙ беларуская (тарашкевіца) ∙ македонски ∙ русский ∙ українська ∙ বাংলা ∙ +/−",
+          "width": 2816,
+          "height": 2112,
+          "size": 2195994,
+          "timestamp": "2012-09-30T20:22:54Z",
+          "author": "Médard",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Salons XVIIe siècle",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Ch%C3%A2teau_de_Cormatin-Salon_XIX%C2%B0-01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Cormatin-Salon%20XIX%C2%B0-01.jpg",
+          "title": "Château de Cormatin-Salon XIX°-01.jpg",
+          "description": "Directeur de l' Opéra de Monte-Carlo, Raoul Gunzbourg aménagea diverses pièces du château qui furent décorées dans le style Belle-époque.",
+          "width": 4272,
+          "height": 2848,
+          "size": 2575434,
+          "timestamp": "2010-11-10T04:34:25Z",
+          "author": "D Villafruela",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Ch%C3%A2teau_de_Cormatin-Salon_XIX%C2%B0-02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Cormatin-Salon%20XIX%C2%B0-02.jpg",
+          "title": "Château de Cormatin-Salon XIX°-02.jpg",
+          "description": "Le pièces du château aménagées dans le style Belle-époque ont conservé les plafonds qui ont été simplement restaurés.",
+          "width": 4272,
+          "height": 2848,
+          "size": 2827700,
+          "timestamp": "2010-11-10T04:35:34Z",
+          "author": "D Villafruela",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Ch%C3%A2teau_de_Cormatin-Cuisine_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Cormatin-Cuisine%201.jpg",
+          "title": "Château de Cormatin-Cuisine 1.jpg",
+          "description": "La cuisine de Cormatin se trouvait dans l' aile Est aujourd' hui détruite. Celle-ci date de la Révolution, époque à laquelle la marquise fut contrainte de s'occuper elle même de la marche ordinaire du château, le marquis étant parti à l'étranger. C'est aussi pour cette raison que le mur est enfumé à cause d'un avaloir trop étroit, la cheminée étant une ancienne cheminée de salon reconvertie en cheminée de cuisine.",
+          "width": 4272,
+          "height": 2848,
+          "size": 2683881,
+          "timestamp": "2010-11-10T20:38:47Z",
+          "author": "D Villafruela",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Jardins à la française",
@@ -59,6 +148,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Ve%C3%BCe_du_chasteau_de_Cormatin_en_Bourgogne%2C_entre_Chalons_et_Mascon%2C_a_2_lieues_de_Clugny_-_dessin_-_Louis_Boudan_-_btv1b69025874.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVe%C3%BCe%20du%20chasteau%20de%20Cormatin%20en%20Bourgogne%2C%20entre%20Chalons%20et%20Mascon%2C%20a%202%20lieues%20de%20Clugny%20-%20dessin%20-%20Louis%20Boudan%20-%20btv1b69025874.jpg",
           "title": "Veüe du chasteau de Cormatin en Bourgogne, entre Chalons et Mascon, a 2 lieues de Clugny - dessin - Louis Boudan - btv1b69025874.jpg",
+          "description": "Sujet : Jardins à la française -- France -- 18e siècle\nChâteaux -- France -- 18e siècle\nCormatin (Saône-et-Loire, France) -- Château\nPaysages -- 18e siècle\nRéférence bibliographique : Gaignières, 5767\nAppartient à l’ensemble documentaire : Des17Gaig\n\nAppartient à l’ensemble documentaire : Bourgogn1",
           "width": 7496,
           "height": 5608,
           "size": 6120755,
@@ -66,25 +156,13 @@
           "author": "<div class=\"fn value\">\nBoudan, Louis (16..-17.. ; dessinateur et graveur). Dessinateur</div>",
           "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Sa%C3%B4ne-et-Loire_%28septembre_2012%29_107.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASa%C3%B4ne-et-Loire%20(septembre%202012)%20107.JPG",
-          "title": "Saône-et-Loire (septembre 2012) 107.JPG",
-          "width": 4320,
-          "height": 3240,
-          "size": 5476255,
-          "timestamp": "2012-11-27T17:49:58Z",
-          "author": "Daniel CULSAN",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/%C3%80_gauche_le_ch%C3%A2teau_et_%C3%A0_droite_le_jardin_%C3%A0_la_fran%C3%A7aise.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%80%20gauche%20le%20ch%C3%A2teau%20et%20%C3%A0%20droite%20le%20jardin%20%C3%A0%20la%20fran%C3%A7aise.JPG",
           "title": "À gauche le château et à droite le jardin à la française.JPG",
+          "description": "Château de Cormatin (ClasséClasséInscrit)",
           "width": 4608,
           "height": 3456,
           "size": 6208632,
@@ -92,7 +170,21 @@
           "author": "NicolasMo",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Vue_du_ch%C3%A2teau_depuis_les_jardins.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20du%20ch%C3%A2teau%20depuis%20les%20jardins.JPG",
+          "title": "Vue du château depuis les jardins.JPG",
+          "description": "Château de Cormatin (ClasséClasséInscrit)",
+          "width": 4608,
+          "height": 3456,
+          "size": 6201975,
+          "timestamp": "2013-09-15T12:56:58Z",
+          "author": "NicolasMo",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
         }
       ]
     },

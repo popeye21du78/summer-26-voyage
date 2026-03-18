@@ -1,12 +1,13 @@
 {
   "slug": "saint-chinian",
   "nom": "Saint-Chinian",
-  "fetchedAt": "2026-03-14T11:58:54.895Z",
+  "fetchedAt": "2026-03-18T18:06:13.047Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Panhard_24ct_Saint-Chinian_%28101%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanhard%2024ct%20Saint-Chinian%20(101).jpg",
       "title": "Panhard 24ct Saint-Chinian (101).jpg",
+      "description": "Panhard 24ct à Saint-Chinian (Hérault)",
       "width": 4032,
       "height": 2268,
       "size": 3150231,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Panhard_24ct_Saint-Chinian_%28102%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanhard%2024ct%20Saint-Chinian%20(102).jpg",
       "title": "Panhard 24ct Saint-Chinian (102).jpg",
+      "description": "Panhard 24ct à Saint-Chinian (Hérault)",
       "width": 2958,
       "height": 1664,
       "size": 2076035,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Panhard_24ct_Saint-Chinian_%28103%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanhard%2024ct%20Saint-Chinian%20(103).jpg",
       "title": "Panhard 24ct Saint-Chinian (103).jpg",
+      "description": "Panhard 24ct à Saint-Chinian (Hérault)",
       "width": 3805,
       "height": 2141,
       "size": 2652659,
@@ -46,7 +49,50 @@
   "lieux": [
     {
       "label": "Église abbatiale de Saint-Chinian",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Orgue_de_St_Chinian02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOrgue%20de%20St%20Chinian02.jpg",
+          "title": "Orgue de St Chinian02.jpg",
+          "description": "Un des trois orgues authentiquement historiques de l'ancien Régime de l'Hérault avec St Pons-de-Thomières, à quelques kilomètres de là, et St Guilhem-le-Désert.",
+          "width": 2344,
+          "height": 1873,
+          "size": 2232252,
+          "timestamp": "2011-10-11T21:06:00Z",
+          "author": "Finoskov",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Orgue_de_St_Chinian01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOrgue%20de%20St%20Chinian01.jpg",
+          "title": "Orgue de St Chinian01.jpg",
+          "description": "Dans l'église N.D.de la Barthe à St Chinian (Hérault, France), l'orgue Peyssy-Micot de 1784.",
+          "width": 2648,
+          "height": 2112,
+          "size": 3054006,
+          "timestamp": "2011-10-11T21:06:00Z",
+          "author": "Finoskov",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Orgue_de_St_Chinian03.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOrgue%20de%20St%20Chinian03.jpg",
+          "title": "Orgue de St Chinian03.jpg",
+          "description": "Le grand-corps du buffet remonte à l'orgue de Jean-Baptiste Lannes de Carcassonne, et a été édifié et sculpté par Estienne Vallette de St Chinian.",
+          "width": 2707,
+          "height": 2112,
+          "size": 2853180,
+          "timestamp": "2011-10-11T21:06:00Z",
+          "author": "Finoskov",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Allée des Tilleuls",

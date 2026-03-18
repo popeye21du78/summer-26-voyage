@@ -1,12 +1,13 @@
 {
   "slug": "abbaye-de-saint-chef",
   "nom": "Abbaye de Saint-Chef",
-  "fetchedAt": "2026-03-13T12:02:08.034Z",
+  "fetchedAt": "2026-03-15T14:40:52.873Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Grenoble_Abbaye_IMG_4483.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrenoble%20Abbaye%20IMG%204483.jpg",
       "title": "Grenoble Abbaye IMG 4483.jpg",
+      "description": "Bâtiments du quartier de l'Abbaye, Grenoble",
       "width": 4032,
       "height": 3024,
       "size": 4342804,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Grenoble_Abbaye_IMG_4482.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrenoble%20Abbaye%20IMG%204482.jpg",
       "title": "Grenoble Abbaye IMG 4482.jpg",
+      "description": "Bâtiments du quartier de l'Abbaye, Grenoble",
       "width": 4032,
       "height": 3024,
       "size": 4436812,
@@ -30,17 +32,18 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Plaque_%22L%27Abbaye_%C3%A0_la_m%C3%A9moire_de_ses_enfants_morts_pour_la_France%22.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlaque%20%22L'Abbaye%20%C3%A0%20la%20m%C3%A9moire%20de%20ses%20enfants%20morts%20pour%20la%20France%22.jpg",
-      "title": "Plaque \"L'Abbaye à la mémoire de ses enfants morts pour la France\".jpg",
-      "width": 2669,
-      "height": 2203,
-      "size": 1853327,
-      "timestamp": "2017-11-19T18:33:31Z",
-      "author": "Jvillafruela",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Saint-Chef_%C3%89glise_Saint-Theud%C3%A8re_Ext%C3%A9rieur_C%C3%B4t%C3%A9_Sud_1.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Chef%20%C3%89glise%20Saint-Theud%C3%A8re%20Ext%C3%A9rieur%20C%C3%B4t%C3%A9%20Sud%201.jpg",
+      "title": "Saint-Chef Église Saint-Theudère Extérieur Côté Sud 1.jpg",
+      "description": "South Side of the Church of St. Theudère, Saint-Chef, Department of Isère, Region of Auvergne-Rhône-Alpes (former Rhône-Alpes), France",
+      "width": 4569,
+      "height": 3160,
+      "size": 18224672,
+      "timestamp": "2021-06-02T16:05:35Z",
+      "author": "Zairon",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 7
     }
   ],
   "lieux": [
@@ -48,49 +51,81 @@
       "label": "Nef de l’église abbatiale",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Cormery_%28Indre-et-Loire%29_%2822283046831%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACormery%20(Indre-et-Loire)%20(22283046831).jpg",
-          "title": "Cormery (Indre-et-Loire) (22283046831).jpg",
-          "width": 4928,
-          "height": 3264,
-          "size": 7575432,
-          "timestamp": "2017-11-24T15:42:27Z",
-          "author": "Daniel Jolivet",
-          "license": "CC BY 2.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Saint-Chef_%C3%89glise_Saint-Theud%C3%A8re_Ext%C3%A9rieur_C%C3%B4t%C3%A9_Sud_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Chef%20%C3%89glise%20Saint-Theud%C3%A8re%20Ext%C3%A9rieur%20C%C3%B4t%C3%A9%20Sud%201.jpg",
+          "title": "Saint-Chef Église Saint-Theudère Extérieur Côté Sud 1.jpg",
+          "description": "South Side of the Church of St. Theudère, Saint-Chef, Department of Isère, Region of Auvergne-Rhône-Alpes (former Rhône-Alpes), France",
+          "width": 4569,
+          "height": 3160,
+          "size": 18224672,
+          "timestamp": "2021-06-02T16:05:35Z",
+          "author": "Zairon",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Cormery_%28Indre-et-Loire%29_%2822086569749%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACormery%20(Indre-et-Loire)%20(22086569749).jpg",
-          "title": "Cormery (Indre-et-Loire) (22086569749).jpg",
-          "width": 4928,
-          "height": 3264,
-          "size": 8342421,
-          "timestamp": "2017-11-24T15:42:50Z",
-          "author": "Daniel Jolivet",
-          "license": "CC BY 2.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Saint-Chef_%C3%89glise_Saint-Theud%C3%A8re_Ext%C3%A9rieur_Facade_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Chef%20%C3%89glise%20Saint-Theud%C3%A8re%20Ext%C3%A9rieur%20Facade%201.jpg",
+          "title": "Saint-Chef Église Saint-Theudère Extérieur Facade 1.jpg",
+          "description": "Facade of the Church of St. Theudère, Saint-Chef, Department of Isère, Region of Auvergne-Rhône-Alpes (former Rhône-Alpes), France",
+          "width": 4492,
+          "height": 3152,
+          "size": 17149400,
+          "timestamp": "2021-06-02T16:05:36Z",
+          "author": "Zairon",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Cormery_%28Indre-et-Loire%29_%2822088910118%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACormery%20(Indre-et-Loire)%20(22088910118).jpg",
-          "title": "Cormery (Indre-et-Loire) (22088910118).jpg",
-          "width": 4928,
-          "height": 3264,
-          "size": 7788499,
-          "timestamp": "2017-11-24T15:42:57Z",
-          "author": "Daniel Jolivet",
-          "license": "CC BY 2.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Saint-Chef_%C3%89glise_Saint-Theud%C3%A8re_Ext%C3%A9rieur_C%C3%B4t%C3%A9_Sud_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Chef%20%C3%89glise%20Saint-Theud%C3%A8re%20Ext%C3%A9rieur%20C%C3%B4t%C3%A9%20Sud%202.jpg",
+          "title": "Saint-Chef Église Saint-Theudère Extérieur Côté Sud 2.jpg",
+          "description": "South Side of the Church of St. Theudère, Saint-Chef, Department of Isère, Region of Auvergne-Rhône-Alpes (former Rhône-Alpes), France",
+          "width": 4572,
+          "height": 3422,
+          "size": 20410701,
+          "timestamp": "2021-06-02T16:05:36Z",
+          "author": "Zairon",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         }
       ]
     },
     {
       "label": "Chapelle Saint-Clair et ses fresques",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Abbaye_Notre-Dame_de_Boscodon_%283862208072%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20Notre-Dame%20de%20Boscodon%20(3862208072).jpg",
+          "title": "Abbaye Notre-Dame de Boscodon (3862208072).jpg",
+          "description": "Fondée en 1132, l'abbaye de Notre-Dame de Boscodon est bâtie par des moines ermites de l'Ordre monastique de Chalais grâce aux dons de Guillaume de Montmirail. La donation, datée de 1130, s'est déroulée en présence de Guillaume de Bénévent, futur archevêque d'Embrun1. En 1303, elle devient bénédictine lorsque l'ordre de Chalais passe sous la dépendance de la Chartreuse.\nLes moines vivent de l'exploitation de la forêt et du domaine, et de l'élevage de moutons.\nAu xviiie siècle, au moment de la Co",
+          "width": 3456,
+          "height": 2704,
+          "size": 5109616,
+          "timestamp": "2021-03-10T18:36:04Z",
+          "author": "troye owens",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Abbaye_Saint-Germer-de-Fly_%28Oise%29_-_Sainte-Chapelle.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20Saint-Germer-de-Fly%20(Oise)%20-%20Sainte-Chapelle.jpg",
+          "title": "Abbaye Saint-Germer-de-Fly (Oise) - Sainte-Chapelle.jpg",
+          "description": "Abbaye Saint-Germer-de-Fly (Oise) - Sainte-Chapelle.\n.\nC'est l'un des plus anciens témoignages de l'art gothique en France. Construite pendant les années 1260, elle n'apporte pas d'innovations architecturales, mais elle représente aujourd'hui l'un des rares exemples des nombreuses saintes-chapelles édifiées partout en France entre 1240 et 1260 environ. Par le raffinement de son architecture et la maîtrise remarquable dans son exécution, elle est un chef-d'œuvre de l'art rayonnant et reflète cet ",
+          "width": 4928,
+          "height": 3264,
+          "size": 3339953,
+          "timestamp": "2023-09-23T19:10:03Z",
+          "author": "Morio60",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Chevet extérieur et absides",

@@ -1,10 +1,10 @@
 import { NextRequest, NextResponse } from "next/server";
-import { readFileSync, existsSync } from "fs";
-import { join } from "path";
+import { fetchCommonsForLieu } from "../../../../lib/fetch-commons-for-lieu";
 
-const PHOTOS_DIR = join(process.cwd(), "photos");
+/** Timeout long pour les requêtes Wikimedia (3–4 min possibles). */
+export const maxDuration = 300;
 
-/** GET /api/photo-selection-lieu/[slug] - Données commons-candidates pour un lieu. */
+/** GET /api/photo-selection-lieu/[slug] - Données Commons pour un lieu. Utilise la nouvelle stratégie (v2) pour toutes les villes. */
 export async function GET(
   _request: NextRequest,
   { params }: { params: Promise<{ slug: string }> }
@@ -15,14 +15,10 @@ export async function GET(
       return NextResponse.json({ error: "slug requis" }, { status: 400 });
     }
 
-    const path = join(PHOTOS_DIR, slug, "commons-candidates.json");
-    if (!existsSync(path)) {
-      return NextResponse.json({ error: "Lieu non trouvé" }, { status: 404 });
+    const data = await fetchCommonsForLieu(slug);
+    if (!data) {
+      return NextResponse.json({ error: "Lieu non trouvé (pas de description)" }, { status: 404 });
     }
-
-    const raw = readFileSync(path, "utf-8");
-    const data = JSON.parse(raw);
-
     return NextResponse.json(data);
   } catch (err) {
     return NextResponse.json(

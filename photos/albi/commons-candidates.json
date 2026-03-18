@@ -1,12 +1,13 @@
 {
   "slug": "albi",
   "nom": "Albi",
-  "fetchedAt": "2026-03-13T12:05:11.363Z",
+  "fetchedAt": "2026-03-15T14:54:38.438Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Place_du_Patus_cr%C3%A9mat_%C3%A0_Albi.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlace%20du%20Patus%20cr%C3%A9mat%20%C3%A0%20Albi.jpg",
       "title": "Place du Patus crémat à Albi.jpg",
+      "description": "Patus Cremat square in Albi.",
       "width": 2400,
       "height": 1600,
       "size": 859359,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Jean-Fran%C3%A7ois_de_La_P%C3%A9rouse_%281741_-_1788%29%2C_Albi%2C_Midi-Pyr%C3%A9n%C3%A9es%2C_France_-_panoramio_%281%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJean-Fran%C3%A7ois%20de%20La%20P%C3%A9rouse%20(1741%20-%201788)%2C%20Albi%2C%20Midi-Pyr%C3%A9n%C3%A9es%2C%20France%20-%20panoramio%20(1).jpg",
       "title": "Jean-François de La Pérouse (1741 - 1788), Albi, Midi-Pyrénées, France - panoramio (1).jpg",
+      "description": "Jean-François de La Pérouse (1741 - 1788), Albi, Midi-Pyrénées, France",
       "width": 4288,
       "height": 2848,
       "size": 7145024,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Court_of_First_Instance_of_Albi.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACourt%20of%20First%20Instance%20of%20Albi.jpg",
       "title": "Court of First Instance of Albi.jpg",
+      "description": "Court of First Instance of Albi, Tarn, France",
       "width": 6000,
       "height": 4000,
       "size": 14109953,
@@ -46,49 +49,138 @@
   "lieux": [
     {
       "label": "Parvis de la cathédrale Sainte-Cécile",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/%28Albi%29_Cath%C3%A9drale_Sainte-C%C3%A9cile_-_View_from_the_nave_towards_the_choir.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A(Albi)%20Cath%C3%A9drale%20Sainte-C%C3%A9cile%20-%20View%20from%20the%20nave%20towards%20the%20choir.jpg",
+          "title": "(Albi) Cathédrale Sainte-Cécile - View from the nave towards the choir.jpg",
+          "description": "Albi Cathedral - View from the nave towards the choir",
+          "width": 6722,
+          "height": 6972,
+          "size": 48113401,
+          "timestamp": "2021-10-18T19:22:53Z",
+          "author": "Didier Descouens",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Albi_Sainte-C%C3%A9cile_Cathedral_Roodscreen_2009-06-25.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlbi%20Sainte-C%C3%A9cile%20Cathedral%20Roodscreen%202009-06-25.jpg",
+          "title": "Albi Sainte-Cécile Cathedral Roodscreen 2009-06-25.jpg",
+          "description": "Gothic roodscreen of Sainte-Cécile cathedral, in Albi, France.",
+          "width": 14652,
+          "height": 9675,
+          "size": 37070276,
+          "timestamp": "2020-03-24T11:21:46Z",
+          "author": "Benh LIEU SONG",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/%28Albi%29_Cit%C3%A9_%C3%A9piscopale_d%27Albi_-_Le_palais_de_la_Berbie_et_la_cath%C3%A9drale_Ste_C%C3%A9cile.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A(Albi)%20Cit%C3%A9%20%C3%A9piscopale%20d'Albi%20-%20Le%20palais%20de%20la%20Berbie%20et%20la%20cath%C3%A9drale%20Ste%20C%C3%A9cile.jpg",
+          "title": "(Albi) Cité épiscopale d'Albi - Le palais de la Berbie et la cathédrale Ste Cécile.jpg",
+          "description": "This place is a UNESCO World Heritage Site, listed as\nCité épiscopale d'Albi.",
+          "width": 8256,
+          "height": 4887,
+          "size": 43412587,
+          "timestamp": "2021-09-12T06:29:57Z",
+          "author": "Didier Descouens",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Palais de la Berbie et ses jardins",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/%28Albi%29_Quartier_de_la_Madeleine_vue_depuis_le_Palais_de_la_Berbie.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A(Albi)%20Quartier%20de%20la%20Madeleine%20vue%20depuis%20le%20Palais%20de%20la%20Berbie.jpg",
+          "title": "(Albi) Quartier de la Madeleine vue depuis le Palais de la Berbie.jpg",
+          "description": "Madeleine district, a view from the Berbie Palace.",
+          "width": 9380,
+          "height": 5340,
+          "size": 40818009,
+          "timestamp": "2026-02-09T16:49:26Z",
+          "author": "Didier Descouens",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/%28Albi%29_Palais_de_la_Berbie_-_Voute_de_l%27escalier_d%27Honneur.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A(Albi)%20Palais%20de%20la%20Berbie%20-%20Voute%20de%20l'escalier%20d'Honneur.jpg",
+          "title": "(Albi) Palais de la Berbie - Voute de l'escalier d'Honneur.jpg",
+          "description": "This place is a UNESCO World Heritage Site, listed as\nCité épiscopale d'Albi.",
+          "width": 7836,
+          "height": 6308,
+          "size": 44366885,
+          "timestamp": "2021-08-19T07:44:44Z",
+          "author": "Didier Descouens",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/%28Albi%29_Palais_de_la_Berbie_-_Galerie_du_Lude_sur_la_cour_d%27Honneur.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A(Albi)%20Palais%20de%20la%20Berbie%20-%20Galerie%20du%20Lude%20sur%20la%20cour%20d'Honneur.jpg",
+          "title": "(Albi) Palais de la Berbie - Galerie du Lude sur la cour d'Honneur.jpg",
+          "description": "This place is a UNESCO World Heritage Site, listed as\nCité épiscopale d'Albi.",
+          "width": 8256,
+          "height": 4831,
+          "size": 46267547,
+          "timestamp": "2021-08-20T12:52:14Z",
+          "author": "Didier Descouens",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Pont Vieux",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/%28Albi%29_Le_Tarn_vu_du_vieux_pont_vers_l%27ouest.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A(Albi)%20Le%20Tarn%20vu%20du%20vieux%20pont%20vers%20l'ouest.jpg",
-          "title": "(Albi) Le Tarn vu du vieux pont vers l'ouest.jpg",
-          "width": 8256,
-          "height": 4659,
-          "size": 39044622,
-          "timestamp": "2021-09-21T18:51:40Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/%28Albi%29_La_vermicellerie_et_le_pont_neuf%2C_exposition_ouest%2C_vue_du_jardin._M%C3%A9rim%C3%A9ePA00095483.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A(Albi)%20La%20vermicellerie%20et%20le%20pont%20neuf%2C%20exposition%20ouest%2C%20vue%20du%20jardin.%20M%C3%A9rim%C3%A9ePA00095483.jpg",
+          "title": "(Albi) La vermicellerie et le pont neuf, exposition ouest, vue du jardin. MériméePA00095483.jpg",
+          "description": "La vermicellerie and the new bridge, west exposure, view from the garden. The site of the Albi mills is very old (probably from the 12th century and did not cease its activity until the 20th century. Since the cessation of activity, the factory has been rehabilitated into a hotel and museums. Part, listed as historical monuments.",
+          "width": 8350,
+          "height": 5444,
+          "size": 51409430,
+          "timestamp": "2021-08-21T17:42:00Z",
           "author": "Didier Descouens",
           "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/%28Albi%29_Les_escaliers_du_pont_du_Rialto_-_Jules-Romain_Joyant_MTL.inv.203.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A(Albi)%20Les%20escaliers%20du%20pont%20du%20Rialto%20-%20Jules-Romain%20Joyant%20MTL.inv.203.jpg",
+          "title": "(Albi) Les escaliers du pont du Rialto - Jules-Romain Joyant MTL.inv.203.jpg",
+          "description": "",
+          "width": 4595,
+          "height": 3808,
+          "size": 18924495,
+          "timestamp": "2021-07-25T18:31:47Z",
+          "author": "Didier Descouens",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/%28Albi%29_Pont_ferroviaire_vu_du_Vieux_Pont.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A(Albi)%20Pont%20ferroviaire%20vu%20du%20Vieux%20Pont.jpg",
-          "title": "(Albi) Pont ferroviaire vu du Vieux Pont.jpg",
-          "width": 8256,
-          "height": 3821,
-          "size": 36154451,
-          "timestamp": "2021-10-23T06:14:53Z",
-          "author": "Didier Descouens",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/%28Albi%29_La_Vermicellerie_vue_du_Vieux_Pont.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A(Albi)%20La%20Vermicellerie%20vue%20du%20Vieux%20Pont.jpg",
-          "title": "(Albi) La Vermicellerie vue du Vieux Pont.jpg",
-          "width": 6434,
-          "height": 3482,
-          "size": 14391547,
-          "timestamp": "2021-10-30T05:35:48Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/%28Albi%29_Palais_de_la_Berbie_-_Courtine_nord_vue_de_la_tour_de_la_rivi%C3%A8re.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A(Albi)%20Palais%20de%20la%20Berbie%20-%20Courtine%20nord%20vue%20de%20la%20tour%20de%20la%20rivi%C3%A8re.jpg",
+          "title": "(Albi) Palais de la Berbie - Courtine nord vue de la tour de la rivière.jpg",
+          "description": "This place is a UNESCO World Heritage Site, listed as\nCité épiscopale d'Albi.",
+          "width": 11749,
+          "height": 5485,
+          "size": 80926841,
+          "timestamp": "2021-08-22T07:20:46Z",
           "author": "Didier Descouens",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -98,7 +190,50 @@
     },
     {
       "label": "Rues du Vieil Albi",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/%28Albi%29_Le_march%C3%A9_couvert_1905%2C_Rue_%C3%89mile_Grand.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A(Albi)%20Le%20march%C3%A9%20couvert%201905%2C%20Rue%20%C3%89mile%20Grand.jpg",
+          "title": "(Albi) Le marché couvert 1905, Rue Émile Grand.jpg",
+          "description": "The covered market of Albi, Rue Émile Grand. Strongly inspired by the Baltard pavilion in Paris; it is still in operation.",
+          "width": 8023,
+          "height": 5049,
+          "size": 37053464,
+          "timestamp": "2021-08-15T17:56:07Z",
+          "author": "Didier Descouens",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/%28Albi%29_Sc%C3%A8ne_de_rue_-_~1900_-_George_Luks_HsT.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A(Albi)%20Sc%C3%A8ne%20de%20rue%20-%20~1900%20-%20George%20Luks%20HsT.jpg",
+          "title": "(Albi) Scène de rue - ~1900 - George Luks HsT.jpg",
+          "description": "",
+          "width": 6262,
+          "height": 4893,
+          "size": 26258289,
+          "timestamp": "2021-09-28T17:13:41Z",
+          "author": "Didier Descouens",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Albi-68-typisches_Haus-2013-gje.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlbi-68-typisches%20Haus-2013-gje.jpg",
+          "title": "Albi-68-typisches Haus-2013-gje.jpg",
+          "description": "Albi en Occitanie",
+          "width": 5184,
+          "height": 3456,
+          "size": 4301149,
+          "timestamp": "2024-06-13T18:11:55Z",
+          "author": "Gerd Eichmann",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

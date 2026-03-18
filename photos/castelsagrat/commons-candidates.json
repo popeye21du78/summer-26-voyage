@@ -1,12 +1,13 @@
 {
   "slug": "castelsagrat",
   "nom": "Castelsagrat",
-  "fetchedAt": "2026-03-13T12:31:51.877Z",
+  "fetchedAt": "2026-03-15T20:49:00.927Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Castelsagrat_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACastelsagrat%201.jpg",
       "title": "Castelsagrat 1.jpg",
+      "description": "Maisons entourant la place de la Liberté",
       "width": 5472,
       "height": 3648,
       "size": 7892782,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Castelsagrat_2.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACastelsagrat%202.jpg",
       "title": "Castelsagrat 2.jpg",
+      "description": "Maisons entourant la place de la Liberté",
       "width": 5472,
       "height": 3648,
       "size": 5494583,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Castelsagrat_3.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACastelsagrat%203.jpg",
       "title": "Castelsagrat 3.jpg",
+      "description": "Maisons entourant la place de la Liberté",
       "width": 5472,
       "height": 3648,
       "size": 4257036,
@@ -46,11 +49,97 @@
   "lieux": [
     {
       "label": "Place de la Halle et ses arcades",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Castelsagrat_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACastelsagrat%201.jpg",
+          "title": "Castelsagrat 1.jpg",
+          "description": "Maisons entourant la place de la Liberté",
+          "width": 5472,
+          "height": 3648,
+          "size": 7892782,
+          "timestamp": "2017-09-04T09:27:00Z",
+          "author": "13okouran",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Castelsagrat_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACastelsagrat%202.jpg",
+          "title": "Castelsagrat 2.jpg",
+          "description": "Maisons entourant la place de la Liberté",
+          "width": 5472,
+          "height": 3648,
+          "size": 5494583,
+          "timestamp": "2017-09-04T09:28:18Z",
+          "author": "13okouran",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Castelsagrat_3.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACastelsagrat%203.jpg",
+          "title": "Castelsagrat 3.jpg",
+          "description": "Maisons entourant la place de la Liberté",
+          "width": 5472,
+          "height": 3648,
+          "size": 4257036,
+          "timestamp": "2017-09-04T09:29:21Z",
+          "author": "13okouran",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Église Saint-Pierre",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Castelsagrat_-_Eglise.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACastelsagrat%20-%20Eglise.jpg",
+          "title": "Castelsagrat - Eglise.jpg",
+          "description": "Église de l'Assomption de Castelsagrat",
+          "width": 3648,
+          "height": 5472,
+          "size": 6272871,
+          "timestamp": "2017-09-04T09:16:31Z",
+          "author": "13okouran",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Castelsagrat_-_%C3%89glise_de_l%27Assomption_%28mai_2018%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACastelsagrat%20-%20%C3%89glise%20de%20l'Assomption%20(mai%202018).jpg",
+          "title": "Castelsagrat - Église de l'Assomption (mai 2018).jpg",
+          "description": "Église de l'Assomption de Castelsagrat (Tarn-et-Garonne, France).",
+          "width": 3456,
+          "height": 4608,
+          "size": 4671291,
+          "timestamp": "2018-07-01T19:37:28Z",
+          "author": "Sebleouf",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Castelsagrat_-_%C3%89glise_de_l%27Assomption_1.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACastelsagrat%20-%20%C3%89glise%20de%20l'Assomption%201.JPG",
+          "title": "Castelsagrat - Église de l'Assomption 1.JPG",
+          "description": "Castelsagrat - Église de l'Assomption - Façade occidentale",
+          "width": 3672,
+          "height": 4896,
+          "size": 4109613,
+          "timestamp": "2013-07-20T19:06:11Z",
+          "author": "MOSSOT",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     },
     {
       "label": "Lavoir du village",

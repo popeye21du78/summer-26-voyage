@@ -1,12 +1,27 @@
 {
   "slug": "pontarlier",
   "nom": "Pontarlier",
-  "fetchedAt": "2026-03-14T11:32:55.568Z",
+  "fetchedAt": "2026-03-18T16:57:21.670Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/20170806_467_pontarlier.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20170806%20467%20pontarlier.jpg",
+      "title": "20170806 467 pontarlier.jpg",
+      "description": "Vue de Pontarlier, dans le département du Doubs en France.",
+      "width": 6000,
+      "height": 4000,
+      "size": 14717592,
+      "timestamp": "2017-08-07T21:42:51Z",
+      "author": "Jean Housen",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Chapelle_des_Annonciades_%C3%A0_Pontarlier_%28Doubs%29_01.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20des%20Annonciades%20%C3%A0%20Pontarlier%20(Doubs)%2001.jpg",
       "title": "Chapelle des Annonciades à Pontarlier (Doubs) 01.jpg",
+      "description": "Chapelle des Annonciades à Pontarlier (Doubs)",
       "width": 2379,
       "height": 1856,
       "size": 1313697,
@@ -20,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Chapelle_des_Annonciades_%C3%A0_Pontarlier_%28Doubs%29_02.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20des%20Annonciades%20%C3%A0%20Pontarlier%20(Doubs)%2002.jpg",
       "title": "Chapelle des Annonciades à Pontarlier (Doubs) 02.jpg",
+      "description": "Chapelle des Annonciades à Pontarlier (Doubs)",
       "width": 3000,
       "height": 2000,
       "size": 1421071,
@@ -28,19 +44,6 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Porte_Saint-Pierre_%28Pontarlier%29_en_septembre_2014.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APorte%20Saint-Pierre%20(Pontarlier)%20en%20septembre%202014.jpg",
-      "title": "Porte Saint-Pierre (Pontarlier) en septembre 2014.jpg",
-      "width": 2936,
-      "height": 2884,
-      "size": 4752952,
-      "timestamp": "2021-03-18T06:19:13Z",
-      "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q42790984\" class=\"extiw\" title=\"d:Q42790984\"><span title=\"French computing engineer\">Benoît Prieur</span></a></bdi>",
-      "license": "CC0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
     }
   ],
   "lieux": [
@@ -56,23 +59,95 @@
       "label": "Fontaine Ronde",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/St%C3%A8le_-_Auguste_Demesmay.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt%C3%A8le%20-%20Auguste%20Demesmay.jpg",
-          "title": "Stèle - Auguste Demesmay.jpg",
-          "width": 3888,
-          "height": 5832,
-          "size": 19377317,
-          "timestamp": "2011-11-20T10:21:52Z",
-          "author": "Ludovic Péron",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/20170807_324_pontarlier.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20170807%20324%20pontarlier.jpg",
+          "title": "20170807 324 pontarlier.jpg",
+          "description": "Vue de Pontarlier, dans le département du Doubs en France.",
+          "width": 6000,
+          "height": 4000,
+          "size": 14363399,
+          "timestamp": "2017-08-09T06:00:07Z",
+          "author": "Jean Housen",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Grande_fontaine_de_la_place_Jules_Pagnier_%C3%A0_Pontarlier_%28Doubs%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrande%20fontaine%20de%20la%20place%20Jules%20Pagnier%20%C3%A0%20Pontarlier%20(Doubs).jpg",
+          "title": "Grande fontaine de la place Jules Pagnier à Pontarlier (Doubs).jpg",
+          "description": "Grande fontaine de la place Jules Pagnier à Pontarlier (Doubs).",
+          "width": 2000,
+          "height": 3000,
+          "size": 888852,
+          "timestamp": "2022-09-07T03:58:20Z",
+          "author": "Jean de l'Auxois",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/9e_Absinthiades_-_Pontarlier_-_2009.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A9e%20Absinthiades%20-%20Pontarlier%20-%202009.jpg",
+          "title": "9e Absinthiades - Pontarlier - 2009.jpg",
+          "description": "Les absinthiades sont l'occasion de rappeler que Pontarlier fut longtemps la capitale de l'absinthe puisqu'elle comptait plus de vingt distilleries il y a 100 ans. Chaque année collectionneurs passionnés venant de l'étranger et de la France entière ou néophytes se retrouvent début octobre pour se replonger dans l'ambiance de la mythique fée verte.\nLes participants peuvent échanger des objets (fontaines, cuillères à absinthe....), découvrir les ouvrages concernant ce sujet, participer au jury pop",
+          "width": 452,
+          "height": 640,
+          "size": 161743,
+          "timestamp": "2011-01-20T16:41:37Z",
+          "author": "Thomas Barthelet",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 1
         }
       ]
     },
     {
       "label": "Tourbière de Frambourg",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/8-7-28_%28Tour_de_France_cycliste%29_Evian_-_Pontarlier%2C_les_Alcyon_viennent_de_passer_les_J._B._Louvet_-_btv1b532027433.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A8-7-28%20(Tour%20de%20France%20cycliste)%20Evian%20-%20Pontarlier%2C%20les%20Alcyon%20viennent%20de%20passer%20les%20J.%20B.%20Louvet%20-%20btv1b532027433.jpg",
+          "title": "8-7-28 (Tour de France cycliste) Evian - Pontarlier, les Alcyon viennent de passer les J. B. Louvet - btv1b532027433.jpg",
+          "description": "Sujet : Tour de France (course cycliste)\nCoureurs cyclistes\nCourses cyclistes -- Évian-les-Bains (Haute-Savoie, France ; région)\nÉvian-les-Bains (Haute-Savoie, France ; région)\nRéférence bibliographique : Rol, 130990\nAppartient à l’ensemble documentaire : Pho20Rol\nAppartient à l’ensemble documentaire : MnS000\nImage de presse\nCouverture : 08 juillet 1928\n\nLangue : français",
+          "width": 8604,
+          "height": 6250,
+          "size": 5845527,
+          "timestamp": "2025-03-12T21:17:22Z",
+          "author": "<div class=\"fn value\">\nAgence Rol. Agence photographique (commanditaire)</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Evian%2C_8-7-28_%28Tour_de_France_cycliste%2C_Evian_-_Pontarlier%2C_de_gauche_%C3%A0_droite%29_Cartel%2C_Leducq_-_btv1b53202751m.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEvian%2C%208-7-28%20(Tour%20de%20France%20cycliste%2C%20Evian%20-%20Pontarlier%2C%20de%20gauche%20%C3%A0%20droite)%20Cartel%2C%20Leducq%20-%20btv1b53202751m.jpg",
+          "title": "Evian, 8-7-28 (Tour de France cycliste, Evian - Pontarlier, de gauche à droite) Cartel, Leducq - btv1b53202751m.jpg",
+          "description": "Sujet : Curtel, Joseph (1893-19..) -- Portraits\nLeducq, André (1904-1980) -- Portraits\nTour de France (course cycliste)\nCoureurs cyclistes\nCourses cyclistes -- Évian-les-Bains (Haute-Savoie, France)\nÉvian-les-Bains (Haute-Savoie, France)\nRéférence bibliographique : Rol, 130981\nAppartient à l’ensemble documentaire : Pho20Rol\nAppartient à l’ensemble documentaire : MnS000\nImage de presse\nCouverture : 08 juillet 1928\n\nLangue : français",
+          "width": 8604,
+          "height": 6250,
+          "size": 4636286,
+          "timestamp": "2025-03-19T09:29:24Z",
+          "author": "<div class=\"fn value\">\nAgence Rol. Agence photographique (commanditaire)</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Pontarlier_-_Tour_de_France_2025-_D%C3%A9corations20.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APontarlier%20-%20Tour%20de%20France%202025-%20D%C3%A9corations20.jpg",
+          "title": "Pontarlier - Tour de France 2025- Décorations20.jpg",
+          "description": "Pontarlier - Tour de France 2025- Décorations",
+          "width": 4891,
+          "height": 3906,
+          "size": 3438093,
+          "timestamp": "2025-10-27T18:20:01Z",
+          "author": "Renhour48",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

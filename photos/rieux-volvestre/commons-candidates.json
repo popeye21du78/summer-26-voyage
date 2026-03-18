@@ -1,25 +1,27 @@
 {
   "slug": "rieux-volvestre",
   "nom": "Rieux-Volvestre",
-  "fetchedAt": "2026-03-14T11:45:58.180Z",
+  "fetchedAt": "2026-03-18T17:33:43.581Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Rieux-Volvestre_5_pl_Lastic_fen%C3%AAtre.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARieux-Volvestre%205%20pl%20Lastic%20fen%C3%AAtre.jpg",
-      "title": "Rieux-Volvestre 5 pl Lastic fenêtre.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Rieux-Volvestre_%C3%A9glise_%281%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARieux-Volvestre%20%C3%A9glise%20(1).jpg",
+      "title": "Rieux-Volvestre église (1).jpg",
+      "description": "L'ancienne cathédrale de Rieux vue depuis le nord-ouest, Haute-Garonne, France.",
       "width": 3264,
       "height": 2448,
-      "size": 2419645,
-      "timestamp": "2011-09-02T20:56:06Z",
+      "size": 3876236,
+      "timestamp": "2011-09-03T13:46:15Z",
       "author": "Père Igor",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
+      "score": 7
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Rieux-Volvestre_5_pl_Lastic.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARieux-Volvestre%205%20pl%20Lastic.jpg",
       "title": "Rieux-Volvestre 5 pl Lastic.jpg",
+      "description": "Maison à colombages, 5 place de Lastic, Rieux-Volvestre, Haute-Garonne, France.",
       "width": 3264,
       "height": 2448,
       "size": 1870628,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Rieux-Volvestre_5_pl_Lastic_porte.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARieux-Volvestre%205%20pl%20Lastic%20porte.jpg",
       "title": "Rieux-Volvestre 5 pl Lastic porte.jpg",
+      "description": "Porte de la maison à colombages, 5 place de Lastic, Rieux-Volvestre, Haute-Garonne, France.",
       "width": 3264,
       "height": 2448,
       "size": 2023374,
@@ -48,9 +51,57 @@
       "label": "Cathédrale Sainte-Marie",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Rieux-Volvestre_%C3%A9glise_%281%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARieux-Volvestre%20%C3%A9glise%20(1).jpg",
+          "title": "Rieux-Volvestre église (1).jpg",
+          "description": "L'ancienne cathédrale de Rieux vue depuis le nord-ouest, Haute-Garonne, France.",
+          "width": 3264,
+          "height": 2448,
+          "size": 3876236,
+          "timestamp": "2011-09-03T13:46:15Z",
+          "author": "Père Igor",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Rieux-Volvestre_cath%C3%A9drale_%28St_Jean_Baptiste%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARieux-Volvestre%20cath%C3%A9drale%20(St%20Jean%20Baptiste).jpg",
+          "title": "Rieux-Volvestre cathédrale (St Jean Baptiste).jpg",
+          "description": "Statue de Saint Jean Baptiste",
+          "width": 3456,
+          "height": 4608,
+          "size": 3774159,
+          "timestamp": "2023-06-08T19:37:46Z",
+          "author": "FredSeiller",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Rieux-Volvestre_%C3%A9glise_%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARieux-Volvestre%20%C3%A9glise%20(2).jpg",
+          "title": "Rieux-Volvestre église (2).jpg",
+          "description": "Le côté est de l'ancienne cathédrale de Rieux, Haute-Garonne, France.",
+          "width": 3264,
+          "height": 2448,
+          "size": 3880034,
+          "timestamp": "2011-09-03T13:46:15Z",
+          "author": "Père Igor",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "label": "Pont de pierre sur la Garonne",
+      "photos": [
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Cath%C3%A9drale_de_la_Nativit%C3%A9-de-Marie_de_Rieux.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale%20de%20la%20Nativit%C3%A9-de-Marie%20de%20Rieux.jpg",
           "title": "Cathédrale de la Nativité-de-Marie de Rieux.jpg",
+          "description": "Cathédrale de Rieux-Volvestre (Haute-Garonne, France).",
           "width": 2048,
           "height": 1536,
           "size": 949613,
@@ -61,36 +112,34 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Cath%C3%A9drale.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale.jpg",
-          "title": "Cathédrale.jpg",
-          "width": 2048,
-          "height": 1536,
-          "size": 742219,
-          "timestamp": "2012-06-12T17:06:26Z",
-          "author": "Paternel 1",
-          "license": "CC BY 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Rieux-Volvestre_angle_pl_Lastic_pont_Lajous_%281%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARieux-Volvestre%20angle%20pl%20Lastic%20pont%20Lajous%20(1).jpg",
+          "title": "Rieux-Volvestre angle pl Lastic pont Lajous (1).jpg",
+          "description": "Maison à colombages à côté du pont de Lajoux, à l'angle de la place de Lastic, Rieux-Volvestre, Haute-Garonne, France.",
+          "width": 3264,
+          "height": 2448,
+          "size": 3958899,
+          "timestamp": "2011-09-02T20:28:27Z",
+          "author": "Père Igor",
+          "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 5
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Arize_Rieux-Volvestre_pont_Lajous_aval.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArize%20Rieux-Volvestre%20pont%20Lajous%20aval.jpg",
-          "title": "Arize Rieux-Volvestre pont Lajous aval.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Rieux-Volvestre_angle_pl_Lastic_pont_Lajous.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARieux-Volvestre%20angle%20pl%20Lastic%20pont%20Lajous.jpg",
+          "title": "Rieux-Volvestre angle pl Lastic pont Lajous.jpg",
+          "description": "Maison à colombages à côté du pont de Lajoux, à l'angle de la place de Lastic, Rieux-Volvestre, Haute-Garonne, France.",
           "width": 3264,
           "height": 2448,
-          "size": 4046461,
-          "timestamp": "2011-09-06T20:47:08Z",
+          "size": 4000635,
+          "timestamp": "2011-09-02T20:28:27Z",
           "author": "Père Igor",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 5
         }
       ]
-    },
-    {
-      "label": "Pont de pierre sur la Garonne",
-      "photos": []
     },
     {
       "label": "Palais épiscopal",

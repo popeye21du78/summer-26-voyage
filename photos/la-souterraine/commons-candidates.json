@@ -1,25 +1,13 @@
 {
   "slug": "la-souterraine",
   "nom": "La Souterraine",
-  "fetchedAt": "2026-03-13T15:09:26.372Z",
+  "fetchedAt": "2026-03-16T19:18:05.186Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/La_Souterraine_-_Gare_de_La_Souterraine_-_20250303_%281%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Souterraine%20-%20Gare%20de%20La%20Souterraine%20-%2020250303%20(1).jpg",
-      "title": "La Souterraine - Gare de La Souterraine - 20250303 (1).jpg",
-      "width": 5712,
-      "height": 4284,
-      "size": 6509605,
-      "timestamp": "2025-03-03T21:49:07Z",
-      "author": "Olybrius",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/La_Souterraine_-_Rue_Hyacinthe_Montaudon_-_20250303_%281%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Souterraine%20-%20Rue%20Hyacinthe%20Montaudon%20-%2020250303%20(1).jpg",
       "title": "La Souterraine - Rue Hyacinthe Montaudon - 20250303 (1).jpg",
+      "description": "La Souterraine (Creuse, France) - La rue Hyacinthe Montaudon à l'aube, vue depuis l'hôtel \"À La Tour Saint-Jean\".",
       "width": 5712,
       "height": 4284,
       "size": 5025405,
@@ -27,16 +15,31 @@
       "author": "Olybrius",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/La_Souterraine_-_H%C3%B4tel_de_Ville_-_20250302_%281%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Souterraine%20-%20H%C3%B4tel%20de%20Ville%20-%2020250302%20(1).jpg",
-      "title": "La Souterraine - Hôtel de Ville - 20250302 (1).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/La_Souterraine_-_Rue_de_l%27Esculape_-_2050301_%281%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Souterraine%20-%20Rue%20de%20l'Esculape%20-%202050301%20(1).jpg",
+      "title": "La Souterraine - Rue de l'Esculape - 2050301 (1).jpg",
+      "description": "La Souterraine (Creuse, France) - La rue Hyacinthe Montaudon vue depuis la rue de l'Esculape.",
+      "width": 4284,
+      "height": 5712,
+      "size": 6358724,
+      "timestamp": "2025-03-01T23:02:34Z",
+      "author": "Olybrius",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/La_Souterraine_-_Gare_de_La_Souterraine_-_20250303_%281%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Souterraine%20-%20Gare%20de%20La%20Souterraine%20-%2020250303%20(1).jpg",
+      "title": "La Souterraine - Gare de La Souterraine - 20250303 (1).jpg",
+      "description": "La Souterraine (Creuse, France) - Gare de La Souterraine.",
       "width": 5712,
       "height": 4284,
-      "size": 4447416,
-      "timestamp": "2025-04-23T18:53:20Z",
+      "size": 6509605,
+      "timestamp": "2025-03-03T21:49:07Z",
       "author": "Olybrius",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
@@ -46,50 +49,111 @@
   "lieux": [
     {
       "label": "Collégiale Saint-Jean",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/La_Souterraine_%28Creuse%29._%2827994589655%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Souterraine%20(Creuse).%20(27994589655).jpg",
+          "title": "La Souterraine (Creuse). (27994589655).jpg",
+          "description": "La Souterraine (Creuse).\nEglise Notre-Dame. \nL'église Notre-Dame (De son vrai nom église paroissiale de l’Assomption-de-la-Très-Sainte-Vierge),se situe sur un des chemins menant à Saint Jacques de Compostelle. L'édifice a été restauré par l'architecte Abadie au milieu du XIXème siècle. \nLa collégiale romane, chef-d'œuvre de transition du roman vers le gothique. Restaurée par Abadie au XIXe siècle, elle conserve une crypte, construite par les moines de l'abbaye Saint-Martial de Limoges aux enviro",
+          "width": 4928,
+          "height": 3264,
+          "size": 7688128,
+          "timestamp": "2017-11-28T15:58:14Z",
+          "author": "Daniel Jolivet",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/La_Souterraine_%28Creuse%29._%2827380302823%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Souterraine%20(Creuse).%20(27380302823).jpg",
+          "title": "La Souterraine (Creuse). (27380302823).jpg",
+          "description": "La Souterraine (Creuse).\nEglise Notre-Dame. \nL'église Notre-Dame (De son vrai nom église paroissiale de l’Assomption-de-la-Très-Sainte-Vierge),se situe sur un des chemins menant à Saint Jacques de Compostelle. L'édifice a été restauré par l'architecte Abadie au milieu du XIXème siècle. \nLa collégiale romane, chef-d'œuvre de transition du roman vers le gothique. Restaurée par Abadie au XIXe siècle, elle conserve une crypte, construite par les moines de l'abbaye Saint-Martial de Limoges aux enviro",
+          "width": 3626,
+          "height": 2897,
+          "size": 5655665,
+          "timestamp": "2017-11-28T15:58:25Z",
+          "author": "Daniel Jolivet",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/La_Souterraine_%28Creuse%29._%2827714226810%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Souterraine%20(Creuse).%20(27714226810).jpg",
+          "title": "La Souterraine (Creuse). (27714226810).jpg",
+          "description": "La Souterraine (Creuse).\nEglise Notre-Dame. \nL'église Notre-Dame (De son vrai nom église paroissiale de l’Assomption-de-la-Très-Sainte-Vierge),se situe sur un des chemins menant à Saint Jacques de Compostelle. L'édifice a été restauré par l'architecte Abadie au milieu du XIXème siècle. \nLa collégiale romane, chef-d'œuvre de transition du roman vers le gothique. Restaurée par Abadie au XIXe siècle, elle conserve une crypte, construite par les moines de l'abbaye Saint-Martial de Limoges aux enviro",
+          "width": 4928,
+          "height": 3264,
+          "size": 7524319,
+          "timestamp": "2017-11-28T15:58:53Z",
+          "author": "Daniel Jolivet",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Crypte de la collégiale",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Eglise_de_Saint_Gilles._Eglise_souterraine_de_Saint_Gilles_-_btv1b104914743.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20de%20Saint%20Gilles.%20Eglise%20souterraine%20de%20Saint%20Gilles%20-%20btv1b104914743.jpg",
+          "title": "Eglise de Saint Gilles. Eglise souterraine de Saint Gilles - btv1b104914743.jpg",
+          "description": "Sujet : Architecture\nSaint-Gilles (Gard, France)\nAppartient à l’ensemble documentaire : 3M000\nAppartient à l’ensemble documentaire : 3M016\nAppartient à l’ensemble documentaire : 3M017\nLangue : sans contenu linguistique\n\nÉditeur : [s.n.]",
+          "width": 6256,
+          "height": 3904,
+          "size": 4889967,
+          "timestamp": "2025-02-26T02:29:16Z",
+          "author": "<div class=\"fn value\">\nBarnard, George. Auteur du texte</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/St_Hubert._L%27Eglise_souterraine_La_Crypte%2C_GP062250.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt%20Hubert.%20L'Eglise%20souterraine%20La%20Crypte%2C%20GP062250.jpg",
+          "title": "St Hubert. L'Eglise souterraine La Crypte, GP062250.jpg",
+          "description": "TitleSt Hubert. L'Eglise souterraine \"La Crypte\"Date[date de publication inconnue]PublisherAnvers: HermansUniform titleSaint-Hubert. Gebouwen. Kerken en kapellen. Basilique des Saints-Pierre-et-Paul. CrypteSeriesBelgique. Province de Luxembourg. Cartes postalesBelgium. Province of Luxembourg. PostcardsBelgië. Provincie Luxemburg. PrentkaartenGenrePost cardsExtent1 kaart / postcardGraphicBlack-and-whiteLanguageFrenchAdditional infoGeneral note: Titelgegevens ontleend aan de prentkaartSourceLibrar",
+          "width": 4131,
+          "height": 2710,
+          "size": 4987728,
+          "timestamp": "2025-07-18T04:29:39Z",
+          "author": "Unknown",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/St_Hubert._L%27Eglise_souterraine_La_Crypte%2C_GP062250_%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt%20Hubert.%20L'Eglise%20souterraine%20La%20Crypte%2C%20GP062250%20(2).jpg",
+          "title": "St Hubert. L'Eglise souterraine La Crypte, GP062250 (2).jpg",
+          "description": "TitleSt Hubert. L'Eglise souterraine \"La Crypte\"Date[date de publication inconnue]PublisherAnvers: HermansUniform titleSaint-Hubert. Gebouwen. Kerken en kapellen. Basilique des Saints-Pierre-et-Paul. CrypteSeriesBelgique. Province de Luxembourg. Cartes postalesBelgium. Province of Luxembourg. PostcardsBelgië. Provincie Luxemburg. PrentkaartenGenrePost cardsExtent1 kaart / postcardGraphicBlack-and-whiteLanguageFrenchAdditional infoGeneral note: Titelgegevens ontleend aan de prentkaartSourceLibrar",
+          "width": 4131,
+          "height": 2710,
+          "size": 2244041,
+          "timestamp": "2025-07-18T04:30:02Z",
+          "author": "Unknown",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Porte Saint-Jean",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/%E6%8B%89%E8%8B%8F%E6%B3%B0%E8%B5%96%E8%AE%B7%E5%B8%82%E5%8C%BA1.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%E6%8B%89%E8%8B%8F%E6%B3%B0%E8%B5%96%E8%AE%B7%E5%B8%82%E5%8C%BA1.jpg",
-          "title": "拉苏泰赖讷市区1.jpg",
-          "width": 3264,
-          "height": 2448,
-          "size": 1963221,
-          "timestamp": "2021-07-31T13:56:17Z",
-          "author": "AirScott",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/La_Souterraine_-_Rue_Hyacinthe_Montaudon_-_20250303_%281%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Souterraine%20-%20Rue%20Hyacinthe%20Montaudon%20-%2020250303%20(1).jpg",
-          "title": "La Souterraine - Rue Hyacinthe Montaudon - 20250303 (1).jpg",
-          "width": 5712,
-          "height": 4284,
-          "size": 5025405,
-          "timestamp": "2025-03-13T21:38:45Z",
-          "author": "Olybrius",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/La_Souterraine_-_H%C3%B4tel-Restaurant_%C3%80_la_Porte_Saint-Jean_-_20250303_%281%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Souterraine%20-%20H%C3%B4tel-Restaurant%20%C3%80%20la%20Porte%20Saint-Jean%20-%2020250303%20(1).jpg",
-          "title": "La Souterraine - Hôtel-Restaurant À la Porte Saint-Jean - 20250303 (1).jpg",
-          "width": 5712,
-          "height": 4284,
-          "size": 3037301,
-          "timestamp": "2025-04-23T19:09:24Z",
-          "author": "Olybrius",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Deuxi%C3%A8me_s%C3%A9rie_d%27escaliers_m%C3%A9caniques_en_gare_de_Magenta_menant_%C3%A0_la_sortie_vers_le_hall_de_la_gare_souterraine_de_Paris-Nord.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADeuxi%C3%A8me%20s%C3%A9rie%20d'escaliers%20m%C3%A9caniques%20en%20gare%20de%20Magenta%20menant%20%C3%A0%20la%20sortie%20vers%20le%20hall%20de%20la%20gare%20souterraine%20de%20Paris-Nord.jpg",
+          "title": "Deuxième série d'escaliers mécaniques en gare de Magenta menant à la sortie vers le hall de la gare souterraine de Paris-Nord.jpg",
+          "description": "Deuxième série d'escaliers mécaniques en gare de Magenta menant à la sortie vers le hall de la gare souterraine de Paris-Nord (la dernière avant les portes menant au hall).",
+          "width": 5741,
+          "height": 3827,
+          "size": 3275380,
+          "timestamp": "2025-06-01T17:20:24Z",
+          "author": "Remontees",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
@@ -98,7 +162,50 @@
     },
     {
       "label": "Fontaine monumentale",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Entr%C3%A9e_souterraine_du_canal_de_la_Bastille%2C_D.17333.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEntr%C3%A9e%20souterraine%20du%20canal%20de%20la%20Bastille%2C%20D.17333.jpg",
+          "title": "Entrée souterraine du canal de la Bastille, D.17333.jpg",
+          "description": "Auteur(s):\n\nAnonyme, dessinateur\n\n\nAutre titre:\n\nEléphant de la place de la Bastille. La Bastille: divers projets, projet d'éléphant, monuments. La Bastille: embarcadère de Paris-Vincennes. Place de la Bastille: colonne de Juillet. Fontaine de l'Eléphant de la place de la Bastille. Chemin de fer de... (Titre de la série)\n\n\nType(s) d'objet(s):\n\nDessin, Arts graphiques\n\n\nDénomination(s):\n\nDessin\n\n\nMatériaux et techniques:\n\nCrayon graphite\n\n\nDimensions - Oeuvre:\n\n\n   Hauteur : 9.2 cm\n   Largeur : 1",
+          "width": 3000,
+          "height": 2011,
+          "size": 723486,
+          "timestamp": "2023-09-08T11:03:51Z",
+          "author": "Anonyme, dessinateur",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Bordeaux-MH-Emplacement_fontaine_Daurade_souterraine.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABordeaux-MH-Emplacement%20fontaine%20Daurade%20souterraine.jpg",
+          "title": "Bordeaux-MH-Emplacement fontaine Daurade souterraine.jpg",
+          "description": "Emplacement de la Fontaine Daurade (souterraine) à Bordeaux (Gironde, France).",
+          "width": 3072,
+          "height": 4608,
+          "size": 3455933,
+          "timestamp": "2018-10-14T15:32:05Z",
+          "author": "JohnNewton8",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Panth%C3%A9on_-_Vue_de_la_chapelle_souterraine_du_Panth%C3%A9on_%28phbw12_0363%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanth%C3%A9on%20-%20Vue%20de%20la%20chapelle%20souterraine%20du%20Panth%C3%A9on%20(phbw12%200363).jpg",
+          "title": "Panthéon - Vue de la chapelle souterraine du Panthéon (phbw12 0363).jpg",
+          "description": "",
+          "width": 5380,
+          "height": 6000,
+          "size": 4223332,
+          "timestamp": "2019-11-24T17:07:53Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q76420509\" class=\"extiw\" title=\"d:Q76420509\"><span title=\"French photographer\">Philippe Berthé</span></a></bdi>",
+          "license": "Licence Ouverte",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     }
   ]
 }

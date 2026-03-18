@@ -1,12 +1,27 @@
 {
   "slug": "ornans",
   "nom": "Ornans",
-  "fetchedAt": "2026-03-13T16:42:21.394Z",
+  "fetchedAt": "2026-03-17T22:04:06.184Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Ornans_Eglise_St-Laurent_10.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOrnans%20Eglise%20St-Laurent%2010.jpg",
+      "title": "Ornans Eglise St-Laurent 10.jpg",
+      "description": "L'église Saint-Laurent: vue de la nef",
+      "width": 5916,
+      "height": 3096,
+      "size": 10862963,
+      "timestamp": "2021-08-03T08:05:03Z",
+      "author": "René Hourdry",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Ornans%2C_le_Grand_Pont_sur_la_Loue.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOrnans%2C%20le%20Grand%20Pont%20sur%20la%20Loue.jpg",
       "title": "Ornans, le Grand Pont sur la Loue.jpg",
+      "description": "Le Grand Pont sur la Loue (vue amont)",
       "width": 3538,
       "height": 1990,
       "size": 2121425,
@@ -20,24 +35,12 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Ornans%2C_la_passerelle_Courbet.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOrnans%2C%20la%20passerelle%20Courbet.jpg",
       "title": "Ornans, la passerelle Courbet.jpg",
+      "description": "La passerelle Courbet sur la Loue (vue amont)",
       "width": 2431,
       "height": 1621,
       "size": 1148378,
       "timestamp": "2020-12-16T10:54:15Z",
       "author": "JGS25",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Ornans_Eglise_St-Laurent_12.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOrnans%20Eglise%20St-Laurent%2012.jpg",
-      "title": "Ornans Eglise St-Laurent 12.jpg",
-      "width": 5416,
-      "height": 3386,
-      "size": 9517425,
-      "timestamp": "2021-08-03T08:05:02Z",
-      "author": "René Hourdry",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Gustave_Courbet_-_A_Burial_at_Ornans_-_Google_Art_Project_2.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGustave%20Courbet%20-%20A%20Burial%20at%20Ornans%20-%20Google%20Art%20Project%202.jpg",
           "title": "Gustave Courbet - A Burial at Ornans - Google Art Project 2.jpg",
+          "description": "",
           "width": 6042,
           "height": 2777,
           "size": 8193230,
@@ -61,9 +65,24 @@
           "score": 7
         },
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Mus%C3%A9e_Courbet%2C_le_miroir_d%27Ornans_de_G._Courbet.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e%20Courbet%2C%20le%20miroir%20d'Ornans%20de%20G.%20Courbet.jpg",
+          "title": "Musée Courbet, le miroir d'Ornans de G. Courbet.jpg",
+          "description": "",
+          "width": 3158,
+          "height": 2551,
+          "size": 2634982,
+          "timestamp": "2022-09-02T14:49:33Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Gustave_Courbet\" class=\"extiw\" title=\"w:en:Gustave Courbet\"><span title=\"French painter (1819–1877)\">Gustave Courbet</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Ornans_Le_mus%C3%A9e_Courbet_10.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOrnans%20Le%20mus%C3%A9e%20Courbet%2010.jpg",
           "title": "Ornans Le musée Courbet 10.jpg",
+          "description": "Le musée Courbet vu du côté de La Loue",
           "width": 5370,
           "height": 3636,
           "size": 10284660,
@@ -72,16 +91,50 @@
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
+        }
+      ]
+    },
+    {
+      "label": "Pont de la République",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Ornans%2C_le_pont_du_G%C3%A9n%C3%A9ral_De_Gaulle.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOrnans%2C%20le%20pont%20du%20G%C3%A9n%C3%A9ral%20De%20Gaulle.jpg",
+          "title": "Ornans, le pont du Général De Gaulle.jpg",
+          "description": "Le pont du Général De Gaulle",
+          "width": 4352,
+          "height": 2448,
+          "size": 8560385,
+          "timestamp": "2020-04-03T11:00:50Z",
+          "author": "JGS25",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/ORNANS_COURBET.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AORNANS%20COURBET.jpg",
-          "title": "ORNANS COURBET.jpg",
-          "width": 4252,
-          "height": 2388,
-          "size": 4333007,
-          "timestamp": "2023-11-05T18:19:32Z",
-          "author": "Lamoureuxdesarts",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Ornans%2C_la_Loue%2C_les_ponts%2C_ombres_et_reflets.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOrnans%2C%20la%20Loue%2C%20les%20ponts%2C%20ombres%20et%20reflets.jpg",
+          "title": "Ornans, la Loue, les ponts, ombres et reflets.jpg",
+          "description": "Ornans, Doubs, France, la Loue, les ponts, ombres et reflets",
+          "width": 2560,
+          "height": 1920,
+          "size": 2313616,
+          "timestamp": "2020-07-10T18:07:39Z",
+          "author": "Franzrycou",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Ornans%2C_le_Grand_Pont_sur_la_Loue.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOrnans%2C%20le%20Grand%20Pont%20sur%20la%20Loue.jpg",
+          "title": "Ornans, le Grand Pont sur la Loue.jpg",
+          "description": "Le Grand Pont sur la Loue (vue amont)",
+          "width": 3538,
+          "height": 1990,
+          "size": 2121425,
+          "timestamp": "2020-12-11T16:34:42Z",
+          "author": "JGS25",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
@@ -89,16 +142,41 @@
       ]
     },
     {
-      "label": "Pont de la République",
-      "photos": []
-    },
-    {
       "label": "Roche du Mont",
       "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Ornans%2C_panorama_depuis_la_Roche_Bottine.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOrnans%2C%20panorama%20depuis%20la%20Roche%20Bottine.jpg",
+          "title": "Ornans, panorama depuis la Roche Bottine.jpg",
+          "description": "Panorama depuis la Roche Bottine",
+          "width": 5118,
+          "height": 2879,
+          "size": 4716759,
+          "timestamp": "2019-04-04T09:19:17Z",
+          "author": "JGS25",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Ornans%2C_panorama_sur_la_ville_depuis_la_roche_du_Mont.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOrnans%2C%20panorama%20sur%20la%20ville%20depuis%20la%20roche%20du%20Mont.jpg",
+          "title": "Ornans, panorama sur la ville depuis la roche du Mont.jpg",
+          "description": "Panorama sur la ville depuis la roche du Mont",
+          "width": 5195,
+          "height": 2922,
+          "size": 5625048,
+          "timestamp": "2019-04-04T09:23:24Z",
+          "author": "JGS25",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Courbet_-_La_vendange_%C3%A0_Ornans_-_Am_R%C3%B6merholz.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACourbet%20-%20La%20vendange%20%C3%A0%20Ornans%20-%20Am%20R%C3%B6merholz.jpg",
           "title": "Courbet - La vendange à Ornans - Am Römerholz.jpg",
+          "description": "",
           "width": 2913,
           "height": 2118,
           "size": 2324559,
@@ -107,32 +185,6 @@
           "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/D%C3%A9part_Via_Ferrata_-_panoramio.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AD%C3%A9part%20Via%20Ferrata%20-%20panoramio.jpg",
-          "title": "Départ Via Ferrata - panoramio.jpg",
-          "width": 2048,
-          "height": 1536,
-          "size": 697329,
-          "timestamp": "2016-05-04T02:10:26Z",
-          "author": "lyaguy",
-          "license": "CC BY 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Via_Ferrata_-_panoramio.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVia%20Ferrata%20-%20panoramio.jpg",
-          "title": "Via Ferrata - panoramio.jpg",
-          "width": 2048,
-          "height": 1536,
-          "size": 705965,
-          "timestamp": "2016-05-04T02:10:47Z",
-          "author": "lyaguy",
-          "license": "CC BY 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
         }
       ]
     },
@@ -140,43 +192,18 @@
       "label": "Parc Gustave Courbet",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Courbet_-_Le_Parc_de_Rochemont%2C_1862%2C_lot-6011712.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACourbet%20-%20Le%20Parc%20de%20Rochemont%2C%201862%2C%20lot-6011712.jpg",
-          "title": "Courbet - Le Parc de Rochemont, 1862, lot-6011712.jpg",
-          "width": 2524,
-          "height": 1950,
-          "size": 1526682,
-          "timestamp": "2022-01-11T14:11:46Z",
-          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Gustave_Courbet\" class=\"extiw\" title=\"w:en:Gustave Courbet\"><span title=\"French painter (1819–1877)\">Gustave Courbet</span></a></bdi>",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Eug%C3%A8ne_Feyen_%281815-1908%29%2C_Courbet_peignant_dans_le_parc_du_s%C3%A9minaire_d%E2%80%99Ornans.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEug%C3%A8ne%20Feyen%20(1815-1908)%2C%20Courbet%20peignant%20dans%20le%20parc%20du%20s%C3%A9minaire%20d%E2%80%99Ornans.jpg",
+          "title": "Eugène Feyen (1815-1908), Courbet peignant dans le parc du séminaire d’Ornans.jpg",
+          "description": "Eugène Feyen (1815-1908), \"Courbet peignant dans le parc du séminaire d’Ornans\"\nPhotographe contemporaine, 1864\n22*20 cm\n\nOrnans, Musée Gustave Courbet – Inv. 1976.1.85.1",
+          "width": 536,
+          "height": 575,
+          "size": 204722,
+          "timestamp": "2022-12-22T08:41:31Z",
+          "author": "<p>Eugène Feyen (1815-1908) \n</p>\n© Musée départemental Gustave Courbet / Photo : Pierre Guenat",
           "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Vue_du_Parc_des_Cr%C3%AAtes_au-dessus_de_Clarens_-_Gustave_Courbet_-_Paris_1863_%E2%80%93_1874-_Revolution_in_der_Kunst-4662.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20du%20Parc%20des%20Cr%C3%AAtes%20au-dessus%20de%20Clarens%20-%20Gustave%20Courbet%20-%20Paris%201863%20%E2%80%93%201874-%20Revolution%20in%20der%20Kunst-4662.jpg",
-          "title": "Vue du Parc des Crêtes au-dessus de Clarens - Gustave Courbet - Paris 1863 – 1874- Revolution in der Kunst-4662.jpg",
-          "width": 4697,
-          "height": 3496,
-          "size": 14087821,
-          "timestamp": "2024-07-12T17:54:25Z",
-          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q108103612\" class=\"extiw\" title=\"d:Q108103612\"><span title=\"Wikipedian and OpenStreetMap mapper from Cologne, Open Data activist\">Raimond Spekking</span></a></bdi>",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Vue_du_Parc_des_Cr%C3%AAtes_au-dessus_de_Clarens_-_Gustave_Courbet_-_Paris_1863_%E2%80%93_1874-_Revolution_in_der_Kunst-4662_%28without_frame%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20du%20Parc%20des%20Cr%C3%AAtes%20au-dessus%20de%20Clarens%20-%20Gustave%20Courbet%20-%20Paris%201863%20%E2%80%93%201874-%20Revolution%20in%20der%20Kunst-4662%20(without%20frame).jpg",
-          "title": "Vue du Parc des Crêtes au-dessus de Clarens - Gustave Courbet - Paris 1863 – 1874- Revolution in der Kunst-4662 (without frame).jpg",
-          "width": 3313,
-          "height": 2163,
-          "size": 7497527,
-          "timestamp": "2024-07-12T18:04:06Z",
-          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Gustave_Courbet\" class=\"extiw\" title=\"w:en:Gustave Courbet\"><span title=\"French painter (1819–1877)\">Gustave Courbet</span></a></bdi>",
-          "license": "Public domain",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 4
         }
       ]
     }

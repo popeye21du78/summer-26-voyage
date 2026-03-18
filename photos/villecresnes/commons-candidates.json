@@ -1,12 +1,13 @@
 {
   "slug": "villecresnes",
   "nom": "Villecresnes",
-  "fetchedAt": "2026-03-13T02:10:59.323Z",
+  "fetchedAt": "2026-03-18T21:00:19.667Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Avenue_Atilly_-_Villecresnes_%28FR94%29_-_2022-05-22_-_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAvenue%20Atilly%20-%20Villecresnes%20(FR94)%20-%202022-05-22%20-%201.jpg",
       "title": "Avenue Atilly - Villecresnes (FR94) - 2022-05-22 - 1.jpg",
+      "description": "Avenue d'Attilly, Villecresnes.",
       "width": 4032,
       "height": 3024,
       "size": 4260228,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Avenue_Atilly_-_Villecresnes_%28FR94%29_-_2022-05-22_-_2.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAvenue%20Atilly%20-%20Villecresnes%20(FR94)%20-%202022-05-22%20-%202.jpg",
       "title": "Avenue Atilly - Villecresnes (FR94) - 2022-05-22 - 2.jpg",
+      "description": "Avenue d'Attilly, Villecresnes.",
       "width": 4032,
       "height": 3024,
       "size": 4265248,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/%C3%89cole_Merles_-_Villecresnes_%28FR94%29_-_2022-05-22_-_2.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89cole%20Merles%20-%20Villecresnes%20(FR94)%20-%202022-05-22%20-%202.jpg",
       "title": "École Merles - Villecresnes (FR94) - 2022-05-22 - 2.jpg",
+      "description": "École des Merles, Villecresnes.",
       "width": 4032,
       "height": 3024,
       "size": 4936641,
@@ -46,15 +49,144 @@
   "lieux": [
     {
       "label": "Parc du Château",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Avenue_Ch%C3%A2teau_-_Villecresnes_%28FR94%29_-_2022-05-22_-_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAvenue%20Ch%C3%A2teau%20-%20Villecresnes%20(FR94)%20-%202022-05-22%20-%201.jpg",
+          "title": "Avenue Château - Villecresnes (FR94) - 2022-05-22 - 1.jpg",
+          "description": "Avenue du Château, Villecresnes.",
+          "width": 4032,
+          "height": 3024,
+          "size": 5153880,
+          "timestamp": "2022-05-23T20:01:25Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Avenue_Ch%C3%A2teau_-_Villecresnes_%28FR94%29_-_2022-05-22_-_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAvenue%20Ch%C3%A2teau%20-%20Villecresnes%20(FR94)%20-%202022-05-22%20-%202.jpg",
+          "title": "Avenue Château - Villecresnes (FR94) - 2022-05-22 - 2.jpg",
+          "description": "Avenue du Château, Villecresnes.",
+          "width": 4032,
+          "height": 3024,
+          "size": 4889355,
+          "timestamp": "2022-05-23T20:01:25Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Avenue_Ch%C3%A2teau_-_Villecresnes_%28FR94%29_-_2022-05-22_-_3.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAvenue%20Ch%C3%A2teau%20-%20Villecresnes%20(FR94)%20-%202022-05-22%20-%203.jpg",
+          "title": "Avenue Château - Villecresnes (FR94) - 2022-05-22 - 3.jpg",
+          "description": "Avenue du Château, Villecresnes.",
+          "width": 4032,
+          "height": 3024,
+          "size": 4115574,
+          "timestamp": "2022-05-23T20:02:05Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     },
     {
       "label": "Église Saint-Christophe",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/%C3%89glise_Notre_Dame_-_Villecresnes_%28FR94%29_-_2022-05-22_-_4.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Notre%20Dame%20-%20Villecresnes%20(FR94)%20-%202022-05-22%20-%204.jpg",
+          "title": "Église Notre Dame - Villecresnes (FR94) - 2022-05-22 - 4.jpg",
+          "description": "Église Notre-Dame de Villecresnes.",
+          "width": 4032,
+          "height": 3024,
+          "size": 5983826,
+          "timestamp": "2022-05-23T20:09:52Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Presbyt%C3%A8re_%26_%C3%89glise_Notre_Dame_-_Villecresnes_%28FR94%29_-_2022-05-22_-_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APresbyt%C3%A8re%20%26%20%C3%89glise%20Notre%20Dame%20-%20Villecresnes%20(FR94)%20-%202022-05-22%20-%201.jpg",
+          "title": "Presbytère & Église Notre Dame - Villecresnes (FR94) - 2022-05-22 - 1.jpg",
+          "description": "Presbytère et église Notre-Dame de Villecresnes.",
+          "width": 4032,
+          "height": 3024,
+          "size": 3538749,
+          "timestamp": "2022-05-23T20:16:48Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Rue_%C3%89glise_-_Villecresnes_%28FR94%29_-_2022-05-22_-_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARue%20%C3%89glise%20-%20Villecresnes%20(FR94)%20-%202022-05-22%20-%201.jpg",
+          "title": "Rue Église - Villecresnes (FR94) - 2022-05-22 - 1.jpg",
+          "description": "Rue de l'Église, Villecresnes.",
+          "width": 4032,
+          "height": 3024,
+          "size": 5967471,
+          "timestamp": "2022-05-23T20:22:12Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Lavoir de la rue du Réveillon",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Panneau_Entr%C3%A9e_Villecresnes_Rue_Paul_Doumer_-_Villecresnes_%28FR94%29_-_2022-05-21_-_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanneau%20Entr%C3%A9e%20Villecresnes%20Rue%20Paul%20Doumer%20-%20Villecresnes%20(FR94)%20-%202022-05-21%20-%201.jpg",
+          "title": "Panneau Entrée Villecresnes Rue Paul Doumer - Villecresnes (FR94) - 2022-05-21 - 1.jpg",
+          "description": "Panneau d'entrée dans Villecresnes, rue Paul Doumer, Villecresnes.",
+          "width": 4032,
+          "height": 3024,
+          "size": 4712081,
+          "timestamp": "2022-05-22T20:50:02Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Panneaux_Entr%C3%A9e_Villecresnes_Rue_Paul_Doumer_-_Villecresnes_%28FR94%29_-_2022-05-21_-_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanneaux%20Entr%C3%A9e%20Villecresnes%20Rue%20Paul%20Doumer%20-%20Villecresnes%20(FR94)%20-%202022-05-21%20-%201.jpg",
+          "title": "Panneaux Entrée Villecresnes Rue Paul Doumer - Villecresnes (FR94) - 2022-05-21 - 1.jpg",
+          "description": "Panneaux à l'entrée de Villecresnes, rue Paul Doumer, Villecresnes.",
+          "width": 3613,
+          "height": 2604,
+          "size": 2823283,
+          "timestamp": "2022-05-22T20:50:10Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Plaque_Rue_%C3%89douard_Branly_-_Villecresnes_%28FR94%29_-_2022-05-21_-_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlaque%20Rue%20%C3%89douard%20Branly%20-%20Villecresnes%20(FR94)%20-%202022-05-21%20-%201.jpg",
+          "title": "Plaque Rue Édouard Branly - Villecresnes (FR94) - 2022-05-21 - 1.jpg",
+          "description": "Plaque de la rue Édouard-Branly, Villecresnes.",
+          "width": 3331,
+          "height": 1806,
+          "size": 1612101,
+          "timestamp": "2022-05-22T20:50:59Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Forêt de la Grange",
@@ -62,7 +194,50 @@
     },
     {
       "label": "Chemin des Roses",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Chemin_Vert_-_Villecresnes_%28FR94%29_-_2022-05-21_-_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChemin%20Vert%20-%20Villecresnes%20(FR94)%20-%202022-05-21%20-%202.jpg",
+          "title": "Chemin Vert - Villecresnes (FR94) - 2022-05-21 - 2.jpg",
+          "description": "Chemin Vert, Villecresnes.",
+          "width": 4032,
+          "height": 3024,
+          "size": 3318380,
+          "timestamp": "2022-05-22T20:49:47Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Chemin_Vert_-_Villecresnes_%28FR94%29_-_2022-05-21_-_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChemin%20Vert%20-%20Villecresnes%20(FR94)%20-%202022-05-21%20-%201.jpg",
+          "title": "Chemin Vert - Villecresnes (FR94) - 2022-05-21 - 1.jpg",
+          "description": "Chemin Vert, Villecresnes.",
+          "width": 4032,
+          "height": 3024,
+          "size": 4537167,
+          "timestamp": "2022-05-22T20:49:47Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Chemin_Yerres_Brie_Comte_Robert_-_Villecresnes_%28FR94%29_-_2022-05-21_-_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChemin%20Yerres%20Brie%20Comte%20Robert%20-%20Villecresnes%20(FR94)%20-%202022-05-21%20-%202.jpg",
+          "title": "Chemin Yerres Brie Comte Robert - Villecresnes (FR94) - 2022-05-21 - 2.jpg",
+          "description": "Chemin d'Yerres à Brie-Comte-Robert, Villecresnes.",
+          "width": 4032,
+          "height": 3024,
+          "size": 4967984,
+          "timestamp": "2022-05-22T20:49:55Z",
+          "author": "Chabe01",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

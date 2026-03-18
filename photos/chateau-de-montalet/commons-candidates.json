@@ -1,12 +1,13 @@
 {
   "slug": "chateau-de-montalet",
   "nom": "Château de Montalet",
-  "fetchedAt": "2026-03-13T13:13:07.344Z",
+  "fetchedAt": "2026-03-15T21:40:25.244Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Chateau_de_montalet.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau%20de%20montalet.jpg",
       "title": "Chateau de montalet.jpg",
+      "description": "Vue du château depuis la sortie d'un sentier venant de Saint Ambroix",
       "width": 2560,
       "height": 1332,
       "size": 896822,
@@ -14,12 +15,13 @@
       "author": "Webqualite",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
+      "score": 7
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Descriptif_Chateau_de_Montalet.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADescriptif%20Chateau%20de%20Montalet.jpg",
       "title": "Descriptif Chateau de Montalet.jpg",
+      "description": "Descriptif historique, panneau installé devant le château",
       "width": 2033,
       "height": 1543,
       "size": 902961,
@@ -27,12 +29,13 @@
       "author": "Webqualite",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
+      "score": 7
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Entr%C3%A9e_du_chateau_de_montalet.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEntr%C3%A9e%20du%20chateau%20de%20montalet.jpg",
       "title": "Entrée du chateau de montalet.jpg",
+      "description": "Entrée principale du château. En travaux de réfection.",
       "width": 2560,
       "height": 1920,
       "size": 1589149,
@@ -40,7 +43,7 @@
       "author": "Webqualite",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
+      "score": 7
     }
   ],
   "lieux": [
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/B%C3%A9rard-Montalet-Poteli%C3%A8res-Armes.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AB%C3%A9rard-Montalet-Poteli%C3%A8res-Armes.jpg",
           "title": "Bérard-Montalet-Potelières-Armes.jpg",
+          "description": "Armoiries de la famille de Bérard de Montalet, en ferronnerie d'art, sur le portail du château de Potelières : de gueules au demi-vol d'argent ; au chef d'azur à une étoile d'argent.",
           "width": 1200,
           "height": 1600,
           "size": 442637,
@@ -58,12 +62,13 @@
           "author": "Deferarre",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Chateau_de_montalet.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau%20de%20montalet.jpg",
           "title": "Chateau de montalet.jpg",
+          "description": "Vue du château depuis la sortie d'un sentier venant de Saint Ambroix",
           "width": 2560,
           "height": 1332,
           "size": 896822,
@@ -71,20 +76,21 @@
           "author": "Webqualite",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Entr%C3%A9e_du_chateau_de_montalet.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEntr%C3%A9e%20du%20chateau%20de%20montalet.jpg",
-          "title": "Entrée du chateau de montalet.jpg",
-          "width": 2560,
-          "height": 1920,
-          "size": 1589149,
-          "timestamp": "2011-09-04T16:21:37Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Descriptif_Chateau_de_Montalet.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADescriptif%20Chateau%20de%20Montalet.jpg",
+          "title": "Descriptif Chateau de Montalet.jpg",
+          "description": "Descriptif historique, panneau installé devant le château",
+          "width": 2033,
+          "height": 1543,
+          "size": 902961,
+          "timestamp": "2011-09-04T16:21:35Z",
           "author": "Webqualite",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
         }
       ]
     },

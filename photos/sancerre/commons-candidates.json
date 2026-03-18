@@ -1,43 +1,46 @@
 {
   "slug": "sancerre",
   "nom": "Sancerre",
-  "fetchedAt": "2026-03-14T12:24:24.015Z",
+  "fetchedAt": "2026-03-18T19:01:40.912Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Vignes_-_Sancerre_01.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVignes%20-%20Sancerre%2001.jpg",
-      "title": "Vignes - Sancerre 01.jpg",
-      "width": 4000,
-      "height": 3000,
-      "size": 8192395,
-      "timestamp": "2022-09-12T14:34:15Z",
-      "author": "Bastenbas",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Panorama_depuis_Sancerre_-_panoramio.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanorama%20depuis%20Sancerre%20-%20panoramio.jpg",
+      "title": "Panorama depuis Sancerre - panoramio.jpg",
+      "description": "panorama depuis Sancerre",
+      "width": 1548,
+      "height": 985,
+      "size": 263926,
+      "timestamp": "2017-04-09T06:23:41Z",
+      "author": "Gilles Guillamot",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 8
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Saint-Satur_-_Sancerre_03.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Satur%20-%20Sancerre%2003.jpg",
-      "title": "Saint-Satur - Sancerre 03.jpg",
-      "width": 4000,
-      "height": 3000,
-      "size": 8269122,
-      "timestamp": "2022-09-12T14:34:17Z",
-      "author": "Bastenbas",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Panorama_depuis_Sancerre_-_panoramio_%281%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanorama%20depuis%20Sancerre%20-%20panoramio%20(1).jpg",
+      "title": "Panorama depuis Sancerre - panoramio (1).jpg",
+      "description": "panorama depuis Sancerre",
+      "width": 2048,
+      "height": 1536,
+      "size": 480346,
+      "timestamp": "2017-04-09T06:24:00Z",
+      "author": "Gilles Guillamot",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 8
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Sancerre_outside_cafe.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASancerre%20outside%20cafe.jpg",
-      "title": "Sancerre outside cafe.jpg",
-      "width": 1920,
-      "height": 1080,
-      "size": 742109,
-      "timestamp": "2023-07-02T10:52:44Z",
-      "author": "Elgaard",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Sancerre_Ch%C3%A2teau_de_Sancerre.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASancerre%20Ch%C3%A2teau%20de%20Sancerre.jpg",
+      "title": "Sancerre Château de Sancerre.jpg",
+      "description": "Château de Sancerre   Sancerre   Cher (département), France",
+      "width": 3000,
+      "height": 4000,
+      "size": 3389622,
+      "timestamp": "2015-09-14T21:08:44Z",
+      "author": "PIERRE ANDRE LECLERCQ",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Sancerre_-_View_from_Tour_des_Fiefs_-_01.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASancerre%20-%20View%20from%20Tour%20des%20Fiefs%20-%2001.jpg",
           "title": "Sancerre - View from Tour des Fiefs - 01.jpg",
+          "description": "Sancerre (Cher, France) - View from Tour des Fiefs - Town center",
           "width": 6744,
           "height": 4500,
           "size": 12945056,
@@ -58,12 +62,13 @@
           "author": "Benjamin Smith",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Sancerre_-_View_from_Tour_des_Fiefs_-_02.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASancerre%20-%20View%20from%20Tour%20des%20Fiefs%20-%2002.jpg",
           "title": "Sancerre - View from Tour des Fiefs - 02.jpg",
+          "description": "Sancerre (Cher, France) - View from Tour des Fiefs - Town center",
           "width": 6720,
           "height": 4480,
           "size": 14226801,
@@ -71,12 +76,13 @@
           "author": "Benjamin Smith",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Sancerre_-_View_from_Tour_des_Fiefs_-_03.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASancerre%20-%20View%20from%20Tour%20des%20Fiefs%20-%2003.jpg",
           "title": "Sancerre - View from Tour des Fiefs - 03.jpg",
+          "description": "Sancerre (Cher, France) - View from Tour des Fiefs - Notre-Dame church",
           "width": 6088,
           "height": 4062,
           "size": 12583666,
@@ -84,7 +90,7 @@
           "author": "Benjamin Smith",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         }
       ]
     },
@@ -94,7 +100,50 @@
     },
     {
       "label": "Place de la Panneterie",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Sancerre_-_View_from_Tour_des_Fiefs_-_05.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASancerre%20-%20View%20from%20Tour%20des%20Fiefs%20-%2005.jpg",
+          "title": "Sancerre - View from Tour des Fiefs - 05.jpg",
+          "description": "Sancerre (Cher, France) - View from Tour des Fiefs - Nouvelle Place (\"New Square\")",
+          "width": 6720,
+          "height": 4480,
+          "size": 15609424,
+          "timestamp": "2024-08-03T20:40:51Z",
+          "author": "Benjamin Smith",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Sancerre_-_View_from_Tour_des_Fiefs_-_08.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASancerre%20-%20View%20from%20Tour%20des%20Fiefs%20-%2008.jpg",
+          "title": "Sancerre - View from Tour des Fiefs - 08.jpg",
+          "description": "Sancerre (Cher, France) - View from Tour des Fiefs - South end of Nouvelle Place",
+          "width": 6720,
+          "height": 4480,
+          "size": 15834505,
+          "timestamp": "2024-08-03T20:41:00Z",
+          "author": "Benjamin Smith",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Sancerre_-_View_from_Tour_des_Fiefs_-_09.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASancerre%20-%20View%20from%20Tour%20des%20Fiefs%20-%2009.jpg",
+          "title": "Sancerre - View from Tour des Fiefs - 09.jpg",
+          "description": "Sancerre (Cher, France) - View from Tour des Fiefs - Roof and turrets of the (19th-century) château de Sancerre, with river Loire in the upper-right corner",
+          "width": 6610,
+          "height": 4410,
+          "size": 12634997,
+          "timestamp": "2024-08-03T20:41:28Z",
+          "author": "Benjamin Smith",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     }
   ]
 }

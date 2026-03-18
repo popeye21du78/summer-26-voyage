@@ -1,52 +1,42 @@
 {
   "slug": "plage-des-deux-jumeaux",
   "nom": "Plage des Deux Jumeaux",
-  "fetchedAt": "2026-03-14T11:18:47.759Z",
+  "fetchedAt": "2026-03-18T16:23:42.128Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Gare_des_Deux-Jumeaux%2C_int%C3%A9rieur_%283%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGare%20des%20Deux-Jumeaux%2C%20int%C3%A9rieur%20(3).jpg",
-      "title": "Gare des Deux-Jumeaux, intérieur (3).jpg",
-      "width": 3024,
-      "height": 4032,
-      "size": 2097461,
-      "timestamp": "2024-12-04T10:31:19Z",
-      "author": "Yuilo",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Gare_des_Deux-Jumeaux-Ondarraitz.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGare%20des%20Deux-Jumeaux-Ondarraitz.jpg",
+      "title": "Gare des Deux-Jumeaux-Ondarraitz.jpg",
+      "description": "La gare des Deux-Jumeaux-Ondarraitz (Pyrénées-Atlantiques).\nLa ferme basque a inspiré la conception du bâtiment mélangé au style bord de mer. L´auvent de protection des voyageurs est complètement intégré dans l´architecture du bâtiment. A remarquer l´abri de quai qui rappelle le bâtiment voyageurs par l´emploi des mêmes matériaux et pour sa signalétique spécifique.\nLa gare est desservie par les trains TER Aquitaine, et le Corail Lunéa en provenance de Paris-Austeritz\n\nCette gare s'appelait antér",
+      "width": 3648,
+      "height": 2736,
+      "size": 2197770,
+      "timestamp": "2014-04-24T00:46:34Z",
+      "author": "patrick janicek",
+      "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Gare_des_Deux-Jumeaux%2C_int%C3%A9rieur_%281%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGare%20des%20Deux-Jumeaux%2C%20int%C3%A9rieur%20(1).jpg",
-      "title": "Gare des Deux-Jumeaux, intérieur (1).jpg",
-      "width": 3024,
-      "height": 4032,
-      "size": 2593198,
-      "timestamp": "2024-12-04T10:31:19Z",
-      "author": "Yuilo",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Gare_des_Deux-Jumeaux%2C_int%C3%A9rieur_%282%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGare%20des%20Deux-Jumeaux%2C%20int%C3%A9rieur%20(2).jpg",
-      "title": "Gare des Deux-Jumeaux, intérieur (2).jpg",
-      "width": 3024,
-      "height": 4032,
-      "size": 2294024,
-      "timestamp": "2024-12-04T10:31:29Z",
-      "author": "Yuilo",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 5
     }
   ],
   "lieux": [
     {
       "label": "Deux Jumeaux (rochers)",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Gare_des_Deux-Jumeaux-Ondarraitz.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGare%20des%20Deux-Jumeaux-Ondarraitz.jpg",
+          "title": "Gare des Deux-Jumeaux-Ondarraitz.jpg",
+          "description": "La gare des Deux-Jumeaux-Ondarraitz (Pyrénées-Atlantiques).\nLa ferme basque a inspiré la conception du bâtiment mélangé au style bord de mer. L´auvent de protection des voyageurs est complètement intégré dans l´architecture du bâtiment. A remarquer l´abri de quai qui rappelle le bâtiment voyageurs par l´emploi des mêmes matériaux et pour sa signalétique spécifique.\nLa gare est desservie par les trains TER Aquitaine, et le Corail Lunéa en provenance de Paris-Austeritz\n\nCette gare s'appelait antér",
+          "width": 3648,
+          "height": 2736,
+          "size": 2197770,
+          "timestamp": "2014-04-24T00:46:34Z",
+          "author": "patrick janicek",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "digue d’Hendaye",

@@ -1,12 +1,13 @@
 {
   "slug": "chateau-de-la-roche",
   "nom": "Château de la Roche",
-  "fetchedAt": "2026-03-13T13:08:47.689Z",
+  "fetchedAt": "2026-03-15T21:32:46.872Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Ch%C3%A2teau_de_La_Roche._Lac_de_Villerest_-_panoramio.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20La%20Roche.%20Lac%20de%20Villerest%20-%20panoramio.jpg",
       "title": "Château de La Roche. Lac de Villerest - panoramio.jpg",
+      "description": "Château de La Roche. Lac de Villerest",
       "width": 1600,
       "height": 1200,
       "size": 302363,
@@ -14,12 +15,13 @@
       "author": "Daïe43",
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Ch%C3%A2teau_de_La_Roche_%28Saint-Priest-la-Roche%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20La%20Roche%20(Saint-Priest-la-Roche).jpg",
       "title": "Château de La Roche (Saint-Priest-la-Roche).jpg",
+      "description": "The Château de La Roche is a restored castle situated in the commune of Saint-Priest-la-Roche in the Loire département of France, 20 km from Roanne. The castle stands on an island in the lake formed by the Villerest dam.",
       "width": 6008,
       "height": 4008,
       "size": 22150449,
@@ -27,12 +29,13 @@
       "author": "Anthony Morel",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Ch%C3%A2teau_de_La_Roche_%28Saint-Priest-la-Roche%29_%282%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20La%20Roche%20(Saint-Priest-la-Roche)%20(2).jpg",
       "title": "Château de La Roche (Saint-Priest-la-Roche) (2).jpg",
+      "description": "The Château de La Roche is a restored castle situated in the commune of Saint-Priest-la-Roche in the Loire département of France, 20 km from Roanne. The castle stands on an island in the lake formed by the Villerest dam.",
       "width": 6008,
       "height": 4008,
       "size": 25690505,
@@ -40,59 +43,134 @@
       "author": "Anthony Morel",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
     }
   ],
   "lieux": [
     {
       "label": "Passerelle d’accès",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Stavelot._Passerelle_sous_le_Vieux_Ch%C3%A2teau%2C_GP067520.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStavelot.%20Passerelle%20sous%20le%20Vieux%20Ch%C3%A2teau%2C%20GP067520.jpg",
+          "title": "Stavelot. Passerelle sous le Vieux Château, GP067520.jpg",
+          "description": "TitleStavelot. Passerelle sous le Vieux ChâteauDateca. 1908PublisherBruxelles: ThillUniform titleStavelot. La Passerelle des roches de ChallesSeriesBelgique. Province de Liège. Cartes postalesBelgium. Province of Liège. PostcardsBelgië. Provincie Luik. PrentkaartenGenrePost cardsExtent1 kaart / postcardGraphicSepiaLanguageFrenchAdditional infoGeneral note: Titelgegevens ontleend aan prentkaartSourceLibrary CatalogSource IDlbsn9992598236701471",
+          "width": 4088,
+          "height": 2635,
+          "size": 5630835,
+          "timestamp": "2025-07-22T06:54:56Z",
+          "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Stavelot._Passerelle_sous_le_Vieux_Ch%C3%A2teau%2C_GP067520_%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStavelot.%20Passerelle%20sous%20le%20Vieux%20Ch%C3%A2teau%2C%20GP067520%20(2).jpg",
+          "title": "Stavelot. Passerelle sous le Vieux Château, GP067520 (2).jpg",
+          "description": "TitleStavelot. Passerelle sous le Vieux ChâteauDateca. 1908PublisherBruxelles: ThillUniform titleStavelot. La Passerelle des roches de ChallesSeriesBelgique. Province de Liège. Cartes postalesBelgium. Province of Liège. PostcardsBelgië. Provincie Luik. PrentkaartenGenrePost cardsExtent1 kaart / postcardGraphicSepiaLanguageFrenchAdditional infoGeneral note: Titelgegevens ontleend aan prentkaartSourceLibrary CatalogSource IDlbsn9992598236701471",
+          "width": 4088,
+          "height": 2635,
+          "size": 3955419,
+          "timestamp": "2025-07-22T06:55:17Z",
+          "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     },
     {
       "label": "Terrasse sud",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Ch%C3%A2teau_de_la_Roche-Jagu-_Les_Jardins-6079.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20la%20Roche-Jagu-%20Les%20Jardins-6079.jpg",
+          "title": "Château de la Roche-Jagu- Les Jardins-6079.jpg",
+          "description": "Terrasses- Cosmos",
+          "width": 3008,
+          "height": 2000,
+          "size": 7496896,
+          "timestamp": "2018-03-24T15:45:10Z",
+          "author": "Colsu",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Ch%C3%A2teau_de_la_Roche-Jagu-_Les_Jardins-6080.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20la%20Roche-Jagu-%20Les%20Jardins-6080.jpg",
+          "title": "Château de la Roche-Jagu- Les Jardins-6080.jpg",
+          "description": "Terrasses-Cosmos",
+          "width": 3008,
+          "height": 2000,
+          "size": 5966855,
+          "timestamp": "2018-03-24T15:45:10Z",
+          "author": "Colsu",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/17-La-Roche-Courbon-terrasse.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A17-La-Roche-Courbon-terrasse.jpg",
+          "title": "17-La-Roche-Courbon-terrasse.jpg",
+          "description": "This building is classé au titre des monuments historiques de la France. It is indexed in the base Mérimée, a database of architectural heritage maintained by the French Ministry of Culture, under the reference PA00105221 .\n\nbrezhoneg ∙ català ∙ Deutsch ∙ English ∙ español ∙ Esperanto ∙ euskara ∙ français ∙ italiano ∙ magyar ∙ Nederlands ∙ português do Brasil ∙ português ∙ română ∙ sicilianu ∙ slovenščina ∙ suomi ∙ svenska ∙ Ελληνικά ∙ беларуская (тарашкевіца) ∙ македонски ∙ русский ∙ українська",
+          "width": 1284,
+          "height": 963,
+          "size": 857397,
+          "timestamp": "2011-09-27T10:04:48Z",
+          "author": "JC Allin",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Salle des gardes",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Salle_des_gardes_du_Fort_la_Latte_%28Pl%C3%A9venon%2C_22%29_-_003.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASalle%20des%20gardes%20du%20Fort%20la%20Latte%20(Pl%C3%A9venon%2C%2022)%20-%20003.jpg",
-          "title": "Salle des gardes du Fort la Latte (Plévenon, 22) - 003.jpg",
-          "width": 4000,
-          "height": 3000,
-          "size": 4911616,
-          "timestamp": "2025-10-22T20:34:54Z",
-          "author": "Thérèse Gaigé",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Grotte_du_Ch%C3%A2teau_de_la_Roche_009_DSCN3448.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrotte%20du%20Ch%C3%A2teau%20de%20la%20Roche%20009%20DSCN3448.jpg",
+          "title": "Grotte du Château de la Roche 009 DSCN3448.jpg",
+          "description": "Grotte du Château de la Roche",
+          "width": 4608,
+          "height": 3456,
+          "size": 3497591,
+          "timestamp": "2025-07-13T15:58:22Z",
+          "author": "Smatu",
           "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Salle_des_gardes_du_Fort_la_Latte_%28Pl%C3%A9venon%2C_22%29_-_001.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASalle%20des%20gardes%20du%20Fort%20la%20Latte%20(Pl%C3%A9venon%2C%2022)%20-%20001.jpg",
-          "title": "Salle des gardes du Fort la Latte (Plévenon, 22) - 001.jpg",
-          "width": 3000,
-          "height": 4000,
-          "size": 5051904,
-          "timestamp": "2025-10-22T13:14:32Z",
-          "author": "Thérèse Gaigé",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Grotte_du_Ch%C3%A2teau_de_la_Roche_010_DSCN3155.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrotte%20du%20Ch%C3%A2teau%20de%20la%20Roche%20010%20DSCN3155.jpg",
+          "title": "Grotte du Château de la Roche 010 DSCN3155.jpg",
+          "description": "Grotte du Château de la Roche",
+          "width": 4608,
+          "height": 3456,
+          "size": 3721908,
+          "timestamp": "2025-07-13T16:16:19Z",
+          "author": "Smatu",
           "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Salle_des_gardes_du_Fort_la_Latte_%28Pl%C3%A9venon%2C_22%29_-_002.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASalle%20des%20gardes%20du%20Fort%20la%20Latte%20(Pl%C3%A9venon%2C%2022)%20-%20002.jpg",
-          "title": "Salle des gardes du Fort la Latte (Plévenon, 22) - 002.jpg",
-          "width": 3000,
-          "height": 4000,
-          "size": 5371904,
-          "timestamp": "2025-10-22T13:14:32Z",
-          "author": "Thérèse Gaigé",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Grotte_du_Ch%C3%A2teau_de_la_Roche_011_DSCN3446.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrotte%20du%20Ch%C3%A2teau%20de%20la%20Roche%20011%20DSCN3446.jpg",
+          "title": "Grotte du Château de la Roche 011 DSCN3446.jpg",
+          "description": "Grotte du Château de la Roche",
+          "width": 4608,
+          "height": 3456,
+          "size": 3430199,
+          "timestamp": "2025-07-13T16:16:19Z",
+          "author": "Smatu",
           "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 9
         }
       ]
     },
@@ -100,43 +178,46 @@
       "label": "Cour intérieure",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Beaupr%C3%A9au_%28Maine-et-Loire%29_%2821376310424%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeaupr%C3%A9au%20(Maine-et-Loire)%20(21376310424).jpg",
-          "title": "Beaupréau (Maine-et-Loire) (21376310424).jpg",
-          "width": 4928,
-          "height": 3264,
-          "size": 6482739,
-          "timestamp": "2017-11-16T15:06:45Z",
-          "author": "Daniel Jolivet",
-          "license": "CC BY 2.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/La_Roche_de_Glun_%28vue_%C3%A0_vol_d%27oiseau_des_ruines_du_ch%C3%A2teau_de_la_Roche_de_Glun%2C_Dr%C3%B4me%29_-_btv1b8491600x.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Roche%20de%20Glun%20(vue%20%C3%A0%20vol%20d'oiseau%20des%20ruines%20du%20ch%C3%A2teau%20de%20la%20Roche%20de%20Glun%2C%20Dr%C3%B4me)%20-%20btv1b8491600x.jpg",
+          "title": "La Roche de Glun (vue à vol d'oiseau des ruines du château de la Roche de Glun, Drôme) - btv1b8491600x.jpg",
+          "description": "Sujet : Châteaux\nRoche-de-Glun, Château de (monument disparu)\nAppartient à l’ensemble documentaire : RhoneAlp1\nCouverture : France – Auvergne-Rhône-Alpes – Drôme\nLangue : français\n\nÉditeur : [s.n.]",
+          "width": 5374,
+          "height": 4236,
+          "size": 2817212,
+          "timestamp": "2022-07-13T16:30:28Z",
+          "author": "Inconnu",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Beaupr%C3%A9au_%28Maine-et-Loire%29_%2821811242638%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeaupr%C3%A9au%20(Maine-et-Loire)%20(21811242638).jpg",
-          "title": "Beaupréau (Maine-et-Loire) (21811242638).jpg",
-          "width": 4928,
-          "height": 3264,
-          "size": 7220912,
-          "timestamp": "2017-11-16T15:06:45Z",
-          "author": "Daniel Jolivet",
-          "license": "CC BY 2.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Ch%C3%A2teau_de_La_Roche_-_btv1b10227693k.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20La%20Roche%20-%20btv1b10227693k.jpg",
+          "title": "Château de La Roche - btv1b10227693k.jpg",
+          "description": "Sujet : Ban-de-la-Roche\nChâteau, La Roche, Vue générale\nAppartient à l’ensemble documentaire : BNUStr003\nAppartient à l’ensemble documentaire : BNUStras1\nAppartient à l’ensemble documentaire : BNUStr000\n\nLangue : français",
+          "width": 1800,
+          "height": 1413,
+          "size": 319937,
+          "timestamp": "2025-03-11T09:47:57Z",
+          "author": "<div class=\"fn value\">\nMassenet. Fonction indéterminée</div>",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Beaupr%C3%A9au_%28Maine-et-Loire%29_%2821986697042%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeaupr%C3%A9au%20(Maine-et-Loire)%20(21986697042).jpg",
-          "title": "Beaupréau (Maine-et-Loire) (21986697042).jpg",
-          "width": 4928,
-          "height": 3264,
-          "size": 10538200,
-          "timestamp": "2017-11-16T15:06:57Z",
-          "author": "Daniel Jolivet",
-          "license": "CC BY 2.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Ch%C3%A2teau_de_La_Roche-Guyon_cour_1.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20La%20Roche-Guyon%20cour%201.JPG",
+          "title": "Château de La Roche-Guyon cour 1.JPG",
+          "description": "Château de La Roche-Guyon",
+          "width": 3648,
+          "height": 2736,
+          "size": 1820278,
+          "timestamp": "2016-10-08T20:25:22Z",
+          "author": "Chatsam",
+          "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         }
       ]
     }

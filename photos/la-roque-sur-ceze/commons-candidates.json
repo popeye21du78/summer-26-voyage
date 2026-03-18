@@ -1,12 +1,13 @@
 {
   "slug": "la-roque-sur-ceze",
   "nom": "La Roque-sur-Cèze",
-  "fetchedAt": "2026-03-13T15:08:25.422Z",
+  "fetchedAt": "2026-03-16T19:15:15.122Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Roque_Ceze_vue.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARoque%20Ceze%20vue.jpg",
       "title": "Roque Ceze vue.jpg",
+      "description": "Vue du village de la Roque sur Cèze",
       "width": 2560,
       "height": 1920,
       "size": 2908672,
@@ -14,12 +15,13 @@
       "author": "Jacques Le Letty",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/La_Rocque_sur_C%C3%A8ze.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Rocque%20sur%20C%C3%A8ze.jpg",
       "title": "La Rocque sur Cèze.jpg",
+      "description": "Photo",
       "width": 3264,
       "height": 2448,
       "size": 2763882,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/La-Roque-sur-C%C3%A8ze_9574.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa-Roque-sur-C%C3%A8ze%209574.JPG",
       "title": "La-Roque-sur-Cèze 9574.JPG",
+      "description": "La-Roque-sur-Cèze, ( post code is F30200 and INSEE 30222). in Gard, France, has beaches on the  Cèze.",
       "width": 3488,
       "height": 2616,
       "size": 2296393,
@@ -48,22 +51,10 @@
       "label": "Pont Charles Martel",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Pont_Charles-Martel.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20Charles-Martel.jpg",
-          "title": "Pont Charles-Martel.jpg",
-          "width": 4000,
-          "height": 3000,
-          "size": 3635438,
-          "timestamp": "2021-09-06T08:37:32Z",
-          "author": "Celeda",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/La_Roque-sur-C%C3%A8ze_-_Pont_Charles-Martel_IMG_4678.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Roque-sur-C%C3%A8ze%20-%20Pont%20Charles-Martel%20IMG%204678.JPG",
           "title": "La Roque-sur-Cèze - Pont Charles-Martel IMG 4678.JPG",
+          "description": "La Roque-sur-Cèze - Charles-Martel bridge - general view",
           "width": 3072,
           "height": 2304,
           "size": 2921718,
@@ -74,13 +65,28 @@
           "score": 6
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/La_Roque-sur-C%C3%A8ze_-_Pont_Charles-Martel_IMG_4679.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Roque-sur-C%C3%A8ze%20-%20Pont%20Charles-Martel%20IMG%204679.JPG",
-          "title": "La Roque-sur-Cèze - Pont Charles-Martel IMG 4679.JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/La_Roque-sur-C%C3%A8ze_-_Pont_Charles-Martel_IMG_4680.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Roque-sur-C%C3%A8ze%20-%20Pont%20Charles-Martel%20IMG%204680.JPG",
+          "title": "La Roque-sur-Cèze - Pont Charles-Martel IMG 4680.JPG",
+          "description": "La Roque-sur-Cèze - Charles-Martel bridge",
           "width": 3072,
           "height": 2304,
-          "size": 3070261,
-          "timestamp": "2016-03-05T19:10:36Z",
+          "size": 2678958,
+          "timestamp": "2016-03-05T19:10:37Z",
+          "author": "SombreSanglier",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/La_Roque-sur-C%C3%A8ze_-_Pont_Charles-Martel_IMG_4688.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Roque-sur-C%C3%A8ze%20-%20Pont%20Charles-Martel%20IMG%204688.JPG",
+          "title": "La Roque-sur-Cèze - Pont Charles-Martel IMG 4688.JPG",
+          "description": "La Roque-sur-Cèze - Charles-Martel bridge - downward view",
+          "width": 3072,
+          "height": 2304,
+          "size": 2168477,
+          "timestamp": "2016-03-05T19:10:38Z",
           "author": "SombreSanglier",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -92,43 +98,18 @@
       "label": "Cascades du Sautadet",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Sautadet_Falls.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASautadet%20Falls.jpg",
-          "title": "Sautadet Falls.jpg",
-          "width": 4032,
-          "height": 3024,
-          "size": 4105818,
-          "timestamp": "2025-01-22T21:15:44Z",
-          "author": "Einaz80",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Roque_sur_ceze.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARoque%20sur%20ceze.jpg",
+          "title": "Roque sur ceze.jpg",
+          "description": "",
+          "width": 873,
+          "height": 588,
+          "size": 267331,
+          "timestamp": "2006-08-07T10:12:34Z",
+          "author": "Inconnu",
+          "license": "CC BY-SA 1.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Cascades_Sautadet_01.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACascades%20Sautadet%2001.jpg",
-          "title": "Cascades Sautadet 01.jpg",
-          "width": 2560,
-          "height": 1920,
-          "size": 2941952,
-          "timestamp": "2016-09-03T13:25:29Z",
-          "author": "Jacques Le Letty",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Cascades_Sautadet_06.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACascades%20Sautadet%2006.jpg",
-          "title": "Cascades Sautadet 06.jpg",
-          "width": 2560,
-          "height": 1920,
-          "size": 2807808,
-          "timestamp": "2016-09-03T13:25:32Z",
-          "author": "Jacques Le Letty",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 3
         }
       ]
     },
@@ -136,9 +117,24 @@
       "label": "Église Saint-Laurent",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/La_Roque-sur-C%C3%A8ze_Eglise_IMG_4737.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Roque-sur-C%C3%A8ze%20Eglise%20IMG%204737.JPG",
+          "title": "La Roque-sur-Cèze Eglise IMG 4737.JPG",
+          "description": "Frontview of the church",
+          "width": 2304,
+          "height": 3072,
+          "size": 2119427,
+          "timestamp": "2016-03-05T18:49:11Z",
+          "author": "SombreSanglier",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Chapelle_La_Roque-sur-C%C3%A8ze_2.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20La%20Roque-sur-C%C3%A8ze%202.jpg",
           "title": "Chapelle La Roque-sur-Cèze 2.jpg",
+          "description": "Chapelle à La Roque-sur-Cèze (France)",
           "width": 1920,
           "height": 2560,
           "size": 611905,
@@ -152,6 +148,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Chapelle_La_Roque-sur-C%C3%A8ze.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20La%20Roque-sur-C%C3%A8ze.jpg",
           "title": "Chapelle La Roque-sur-Cèze.jpg",
+          "description": "Chapelle à La Roque-sur-Cèze (France)",
           "width": 1920,
           "height": 2560,
           "size": 408641,
@@ -160,25 +157,55 @@
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/La_Roque-sur-C%C3%A8ze_Eglise_IMG_4737.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Roque-sur-C%C3%A8ze%20Eglise%20IMG%204737.JPG",
-          "title": "La Roque-sur-Cèze Eglise IMG 4737.JPG",
-          "width": 2304,
-          "height": 3072,
-          "size": 2119427,
-          "timestamp": "2016-03-05T18:49:11Z",
-          "author": "SombreSanglier",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
         }
       ]
     },
     {
       "label": "Château de La Roque-sur-Cèze (vestiges)",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Chemin_pr%C3%A8s_du_ch%C3%A2teau_de_La_Roque-sur-C%C3%A8ze.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChemin%20pr%C3%A8s%20du%20ch%C3%A2teau%20de%20La%20Roque-sur-C%C3%A8ze.JPG",
+          "title": "Chemin près du château de La Roque-sur-Cèze.JPG",
+          "description": "Chemin près du château de La Roque-sur-Cèze.",
+          "width": 3216,
+          "height": 2144,
+          "size": 3474278,
+          "timestamp": "2008-08-10T19:25:53Z",
+          "author": "Vi..Cult...",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Arches_%C3%A0_La_Roque-sur-C%C3%A8ze%2C_acc%C3%A8s_pour_aller_vers_le_ch%C3%A2teau_2.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArches%20%C3%A0%20La%20Roque-sur-C%C3%A8ze%2C%20acc%C3%A8s%20pour%20aller%20vers%20le%20ch%C3%A2teau%202.JPG",
+          "title": "Arches à La Roque-sur-Cèze, accès pour aller vers le château 2.JPG",
+          "description": "Arches à La Roque-sur-Cèze, accès pour aller vers le château.",
+          "width": 2144,
+          "height": 3216,
+          "size": 1748367,
+          "timestamp": "2008-08-10T18:45:43Z",
+          "author": "Vi..Cult...",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Arches_%C3%A0_La_Roque-sur-C%C3%A8ze%2C_acc%C3%A8s_pour_aller_vers_le_ch%C3%A2teau.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArches%20%C3%A0%20La%20Roque-sur-C%C3%A8ze%2C%20acc%C3%A8s%20pour%20aller%20vers%20le%20ch%C3%A2teau.JPG",
+          "title": "Arches à La Roque-sur-Cèze, accès pour aller vers le château.JPG",
+          "description": "Arches à La Roque-sur-Cèze, accès pour aller vers le château.",
+          "width": 2144,
+          "height": 3216,
+          "size": 1827399,
+          "timestamp": "2008-08-10T18:46:05Z",
+          "author": "Vi..Cult...",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     }
   ]
 }

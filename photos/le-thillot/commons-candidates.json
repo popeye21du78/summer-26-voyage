@@ -1,12 +1,13 @@
 {
   "slug": "le-thillot",
   "nom": "Le Thillot",
-  "fetchedAt": "2026-03-13T15:39:48.191Z",
+  "fetchedAt": "2026-03-16T20:18:47.911Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Le_Thillot%2C_H%C3%B4tel_de_ville.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Thillot%2C%20H%C3%B4tel%20de%20ville.jpg",
       "title": "Le Thillot, Hôtel de ville.jpg",
+      "description": "L'hôtel de ville á Thillot",
       "width": 4528,
       "height": 3267,
       "size": 2078484,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Le_Thillot_-_rue_Jules_Ferry.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Thillot%20-%20rue%20Jules%20Ferry.jpg",
       "title": "Le Thillot - rue Jules Ferry.jpg",
+      "description": "Le Thillot - rue Jules Ferry",
       "width": 4032,
       "height": 3024,
       "size": 8300213,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Le_Thillot_-_place_nouvelle.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Thillot%20-%20place%20nouvelle.jpg",
       "title": "Le Thillot - place nouvelle.jpg",
+      "description": "Le Thillot - place nouvelle",
       "width": 4032,
       "height": 3024,
       "size": 11133590,
@@ -46,7 +49,22 @@
   "lieux": [
     {
       "label": "Manufacture Royale du Thillot",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Carte_postale%2C_Souvenir_de_la_Foire-Exposition_d%27%C3%89pinal%2C_Le_Thillot_%28Vosges%29%2C_Vue_des_Usines.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarte%20postale%2C%20Souvenir%20de%20la%20Foire-Exposition%20d'%C3%89pinal%2C%20Le%20Thillot%20(Vosges)%2C%20Vue%20des%20Usines.jpg",
+          "title": "Carte postale, Souvenir de la Foire-Exposition d'Épinal, Le Thillot (Vosges), Vue des Usines.jpg",
+          "description": "Carte postale publicitaire représentant un dessin des usines A. Grosjean Fils &amp; Cie au Thillot (tanneries, manufactures de courroies, taquets et cuirs industriels), en souvenir de la foire-exposition d'Epinal en 1924",
+          "width": 1657,
+          "height": 1067,
+          "size": 564927,
+          "timestamp": "2022-03-10T16:13:32Z",
+          "author": "<div class=\"fn value\">\n[s.n.]</div>",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Chapelle des Mines",
@@ -56,9 +74,24 @@
       "label": "Église Saint-Jean-Baptiste",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Le_Thillot%2C_%C3%89glise_Saint-Jean-Baptiste_-_btv1b10676667f.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Thillot%2C%20%C3%89glise%20Saint-Jean-Baptiste%20-%20btv1b10676667f.jpg",
+          "title": "Le Thillot, Église Saint-Jean-Baptiste - btv1b10676667f.jpg",
+          "description": "Sujet : Vosges (France ; massif)\nCartes postales\nCarte postale\n\nLangue : français",
+          "width": 1661,
+          "height": 1076,
+          "size": 249605,
+          "timestamp": "2024-10-31T13:19:00Z",
+          "author": "Inconnu",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Le_Thillot%2C_Eglise_Saint-Jean-Baptiste.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Thillot%2C%20Eglise%20Saint-Jean-Baptiste.jpg",
           "title": "Le Thillot, Eglise Saint-Jean-Baptiste.jpg",
+          "description": "L'église Saint-Jean-Baptiste á Thillot",
           "width": 2128,
           "height": 2548,
           "size": 687279,
@@ -72,23 +105,11 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Eglise_Saint-Jean-Baptiste_du_Thillot._%281%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Saint-Jean-Baptiste%20du%20Thillot.%20(1).jpg",
           "title": "Eglise Saint-Jean-Baptiste du Thillot. (1).jpg",
+          "description": "Eglise du Thillot",
           "width": 3821,
           "height": 2867,
           "size": 2286009,
           "timestamp": "2019-08-12T08:48:35Z",
-          "author": "Espirat",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Nef_de_l%27%C3%A9glise_de_Le_Thillot.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANef%20de%20l'%C3%A9glise%20de%20Le%20Thillot.jpg",
-          "title": "Nef de l'église de Le Thillot.jpg",
-          "width": 4000,
-          "height": 3000,
-          "size": 3536851,
-          "timestamp": "2019-08-12T08:56:27Z",
           "author": "Espirat",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",

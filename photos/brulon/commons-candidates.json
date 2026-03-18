@@ -1,25 +1,13 @@
 {
   "slug": "brulon",
   "nom": "Brûlon",
-  "fetchedAt": "2026-03-13T00:33:10.820Z",
+  "fetchedAt": "2026-03-15T20:24:03.328Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Seigneurie_de_La_Boussini%C3%A8re.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASeigneurie%20de%20La%20Boussini%C3%A8re.jpg",
-      "title": "Seigneurie de La Boussinière.jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 5094467,
-      "timestamp": "2020-12-26T23:07:34Z",
-      "author": "DelPacis",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Br%C3%BBlon_-_route_de_Sill%C3%A9.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABr%C3%BBlon%20-%20route%20de%20Sill%C3%A9.jpg",
       "title": "Brûlon - route de Sillé.jpg",
+      "description": "Brûlon - route de Sillé",
       "width": 4032,
       "height": 3024,
       "size": 2037313,
@@ -30,15 +18,30 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Chevill%C3%A9_%2872%29_%C3%89glise_Notre-Dame_-_Int%C3%A9rieur_-_02.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChevill%C3%A9%20(72)%20%C3%89glise%20Notre-Dame%20-%20Int%C3%A9rieur%20-%2002.jpg",
-      "title": "Chevillé (72) Église Notre-Dame - Intérieur - 02.jpg",
-      "width": 3648,
-      "height": 2736,
-      "size": 3382205,
-      "timestamp": "2024-08-15T20:05:38Z",
-      "author": "GO69",
-      "license": "CC BY 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Br%C3%BBlon_-_Place_Albert_Liebault_-_bo%C3%AEte_%C3%A0_livres.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABr%C3%BBlon%20-%20Place%20Albert%20Liebault%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
+      "title": "Brûlon - Place Albert Liebault - boîte à livres.jpg",
+      "description": "Boîte à livres à Brûlon",
+      "width": 1875,
+      "height": 2500,
+      "size": 1018599,
+      "timestamp": "2025-07-24T21:37:52Z",
+      "author": "<span lang=\"en\">Anonymous</span><span style=\"display:none\">Unknown author</span>",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Eglise_de_Brulon_%284%29.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20de%20Brulon%20(4).JPG",
+      "title": "Eglise de Brulon (4).JPG",
+      "description": "L'église vue de la place Gauthier Chevreuil",
+      "width": 4288,
+      "height": 3216,
+      "size": 3026604,
+      "timestamp": "2013-04-07T17:03:02Z",
+      "author": "Labiloute",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     }
@@ -48,9 +51,38 @@
       "label": "Église Saint-Pierre",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Eglise_de_Brulon_%284%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20de%20Brulon%20(4).JPG",
+          "title": "Eglise de Brulon (4).JPG",
+          "description": "L'église vue de la place Gauthier Chevreuil",
+          "width": 4288,
+          "height": 3216,
+          "size": 3026604,
+          "timestamp": "2013-04-07T17:03:02Z",
+          "author": "Labiloute",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Eglise_de_Br%C3%BBlon_%285%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20de%20Br%C3%BBlon%20(5).JPG",
+          "title": "Eglise de Brûlon (5).JPG",
+          "description": "L'église de Brûlon vue de la place Gauthier Chevreuil",
+          "width": 4288,
+          "height": 3216,
+          "size": 3150503,
+          "timestamp": "2013-04-07T17:03:02Z",
+          "author": "Labiloute",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/%C3%89glise_de_Br%C3%BBlon_int%C3%A9rieur.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20de%20Br%C3%BBlon%20int%C3%A9rieur.jpg",
           "title": "Église de Brûlon intérieur.jpg",
+          "description": "Chaire en marbre et chemin de croix XIXème",
           "width": 4000,
           "height": 3000,
           "size": 6382080,
@@ -59,32 +91,6 @@
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Place_de_l%27%C3%A9glise_de_Br%C3%BBlon.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlace%20de%20l'%C3%A9glise%20de%20Br%C3%BBlon.JPG",
-          "title": "Place de l'église de Brûlon.JPG",
-          "width": 4288,
-          "height": 3216,
-          "size": 3207984,
-          "timestamp": "2013-04-07T17:02:57Z",
-          "author": "Labiloute",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Eglise_de_Br%C3%BBlon_%282%29.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20de%20Br%C3%BBlon%20(2).JPG",
-          "title": "Eglise de Brûlon (2).JPG",
-          "width": 4288,
-          "height": 3216,
-          "size": 3245303,
-          "timestamp": "2013-04-07T17:02:57Z",
-          "author": "Labiloute",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
         }
       ]
     },

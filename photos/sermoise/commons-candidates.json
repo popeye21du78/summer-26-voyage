@@ -1,12 +1,13 @@
 {
   "slug": "sermoise",
   "nom": "Sermoise",
-  "fetchedAt": "2026-03-14T12:40:15.098Z",
+  "fetchedAt": "2026-03-18T19:38:42.991Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Sermoise_%28Aisne%29_croix_de_chemin_%28ouest%29.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASermoise%20(Aisne)%20croix%20de%20chemin%20(ouest).JPG",
       "title": "Sermoise (Aisne) croix de chemin (ouest).JPG",
+      "description": "Sermoise (Aisne) croix de chemin (ouest)",
       "width": 2736,
       "height": 3648,
       "size": 3738799,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Sermoise_%28Aisne%29_croix_de_chemin_%28est%29.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASermoise%20(Aisne)%20croix%20de%20chemin%20(est).JPG",
       "title": "Sermoise (Aisne) croix de chemin (est).JPG",
+      "description": "Sermoise (Aisne) croix de chemin (est)",
       "width": 2736,
       "height": 3648,
       "size": 3716357,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Sermoise_%28Aisne%29_ancienne_voie_ferr%C3%A9e.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASermoise%20(Aisne)%20ancienne%20voie%20ferr%C3%A9e.JPG",
       "title": "Sermoise (Aisne) ancienne voie ferrée.JPG",
+      "description": "Sermoise (Aisne) ancienne voie ferrée",
       "width": 2736,
       "height": 3648,
       "size": 3652001,
@@ -46,15 +49,102 @@
   "lieux": [
     {
       "label": "Église Saint-Martin de Sermoise",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Saint-Maurice-Sermoise.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Maurice-Sermoise.JPG",
+          "title": "Saint-Maurice-Sermoise.JPG",
+          "description": "Église Saint-Maurice de Sermoise-sur-Loire, Nièvre, France.",
+          "width": 3456,
+          "height": 2592,
+          "size": 4637736,
+          "timestamp": "2013-04-23T16:07:51Z",
+          "author": "Chau7",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Sermoise_-_Eglise_%283%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASermoise%20-%20Eglise%20(3).JPG",
+          "title": "Sermoise - Eglise (3).JPG",
+          "description": "Sermoise - Eglise (3)",
+          "width": 2048,
+          "height": 1536,
+          "size": 834606,
+          "timestamp": "2014-04-23T09:48:02Z",
+          "author": "AntonyB",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Sermoise_-_Eglise_%281%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASermoise%20-%20Eglise%20(1).JPG",
+          "title": "Sermoise - Eglise (1).JPG",
+          "description": "Sermoise - Eglise (1)",
+          "width": 2048,
+          "height": 1536,
+          "size": 825346,
+          "timestamp": "2014-04-23T09:48:03Z",
+          "author": "AntonyB",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Chemin de halage sur l’Aisne",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Sermoise_%28Aisne%29_croix_de_chemin_%28ouest%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASermoise%20(Aisne)%20croix%20de%20chemin%20(ouest).JPG",
+          "title": "Sermoise (Aisne) croix de chemin (ouest).JPG",
+          "description": "Sermoise (Aisne) croix de chemin (ouest)",
+          "width": 2736,
+          "height": 3648,
+          "size": 3738799,
+          "timestamp": "2015-07-20T10:15:33Z",
+          "author": "Havang(nl)",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Sermoise_%28Aisne%29_croix_de_chemin_%28est%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASermoise%20(Aisne)%20croix%20de%20chemin%20(est).JPG",
+          "title": "Sermoise (Aisne) croix de chemin (est).JPG",
+          "description": "Sermoise (Aisne) croix de chemin (est)",
+          "width": 2736,
+          "height": 3648,
+          "size": 3716357,
+          "timestamp": "2015-07-20T10:15:33Z",
+          "author": "Havang(nl)",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Ancienne pompe à eau près de la mairie",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Sermoise_%28Aisne%29_ancienne_voie_ferr%C3%A9e.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASermoise%20(Aisne)%20ancienne%20voie%20ferr%C3%A9e.JPG",
+          "title": "Sermoise (Aisne) ancienne voie ferrée.JPG",
+          "description": "Sermoise (Aisne) ancienne voie ferrée",
+          "width": 2736,
+          "height": 3648,
+          "size": 3652001,
+          "timestamp": "2015-07-20T10:15:33Z",
+          "author": "Havang(nl)",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     }
   ]
 }

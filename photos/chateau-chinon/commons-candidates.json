@@ -1,12 +1,13 @@
 {
   "slug": "chateau-chinon",
   "nom": "Château-Chinon",
-  "fetchedAt": "2026-03-13T12:40:59.678Z",
+  "fetchedAt": "2026-03-15T21:09:14.647Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Panorama_from_Ch%C3%A2teau-Chinon%2C_France.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanorama%20from%20Ch%C3%A2teau-Chinon%2C%20France.jpg",
       "title": "Panorama from Château-Chinon, France.jpg",
+      "description": "Panorama looking from Le Calvaire at Château-Chinon",
       "width": 5911,
       "height": 3941,
       "size": 16543692,
@@ -14,12 +15,13 @@
       "author": "The405guy",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/France_-_Bourgogne_-_Morvan_-_Bourgogne_-_Ni%C3%A8vre_-_Bordure_septentrionale_du_Morvan_pr%C3%A8s_de_Ch%C3%A2teau-Chinon_%28M%C3%A9diHAL_1266961%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20-%20Bourgogne%20-%20Morvan%20-%20Bourgogne%20-%20Ni%C3%A8vre%20-%20Bordure%20septentrionale%20du%20Morvan%20pr%C3%A8s%20de%20Ch%C3%A2teau-Chinon%20(M%C3%A9diHAL%201266961).jpg",
       "title": "France - Bourgogne - Morvan - Bourgogne - Nièvre - Bordure septentrionale du Morvan près de Château-Chinon (MédiHAL 1266961).jpg",
+      "description": "Handwritten caption on the original document: \"France: Burgundy: Morvan, neighboring regions: Northern edge of Morvan near Château-Chinon\". The glass plates deposited at Prodig date from 1891 to 1954. Approximate geolocation centered on Château-Chinon (town).",
       "width": 2649,
       "height": 1642,
       "size": 397176,
@@ -27,12 +29,13 @@
       "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Emmanuel_de_Martonne\" class=\"extiw\" title=\"w:en:Emmanuel de Martonne\"><span title=\"French geographer (1873–1955)\">Emmanuel de Martonne</span></a></bdi>",
       "license": "Licence Ouverte",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Ch%C3%A2teau-Chinon_-_panoramio.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau-Chinon%20-%20panoramio.jpg",
       "title": "Château-Chinon - panoramio.jpg",
+      "description": "Château-Chinon",
       "width": 3264,
       "height": 2448,
       "size": 3615700,
@@ -40,21 +43,150 @@
       "author": "lolo1258",
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
     }
   ],
   "lieux": [
     {
       "label": "Esplanade du château",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Ch%C3%A2teau-Chinon_%2C_mus%C3%A9e_du_Septennat_N%C3%A9cessaire_de_bureau_offert_par_le_roi_du_Maroc%2C_1985._Pendule_%2813%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau-Chinon%20%2C%20mus%C3%A9e%20du%20Septennat%20N%C3%A9cessaire%20de%20bureau%20offert%20par%20le%20roi%20du%20Maroc%2C%201985.%20Pendule%20(13).jpg",
+          "title": "Château-Chinon , musée du Septennat Nécessaire de bureau offert par le roi du Maroc, 1985. Pendule (13).jpg",
+          "description": "Château-Chinon, Nièvre, France, musée du Septennat, Nécessaire de bureau offert par le roi du Maroc, 1985, avec sous-main, plumier avec horloge, etc.",
+          "width": 2212,
+          "height": 1094,
+          "size": 613437,
+          "timestamp": "2020-04-05T12:46:25Z",
+          "author": "Franzrycou",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Panorama_from_Ch%C3%A2teau-Chinon%2C_France.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanorama%20from%20Ch%C3%A2teau-Chinon%2C%20France.jpg",
+          "title": "Panorama from Château-Chinon, France.jpg",
+          "description": "Panorama looking from Le Calvaire at Château-Chinon",
+          "width": 5911,
+          "height": 3941,
+          "size": 16543692,
+          "timestamp": "2022-03-13T23:54:27Z",
+          "author": "The405guy",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Aerial_image_of_Ch%C3%A2teau_de_Chinon_%28view_from_the_south%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAerial%20image%20of%20Ch%C3%A2teau%20de%20Chinon%20(view%20from%20the%20south).jpg",
+          "title": "Aerial image of Château de Chinon (view from the south).jpg",
+          "description": "Aerial image of Château de Chinon (view from the south)",
+          "width": 5200,
+          "height": 3000,
+          "size": 10077899,
+          "timestamp": "2025-09-22T18:45:19Z",
+          "author": "Carsten Steger",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     },
     {
       "label": "Vestiges du donjon",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/France_-_Bassin_parisien_-_Touraine_-_Centre_-_Indre-et-Loire_-_Le_ch%C3%A2teau_de_Chinon_vu_du_sud_%28M%C3%A9diHAL_1266626%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20-%20Bassin%20parisien%20-%20Touraine%20-%20Centre%20-%20Indre-et-Loire%20-%20Le%20ch%C3%A2teau%20de%20Chinon%20vu%20du%20sud%20(M%C3%A9diHAL%201266626).jpg",
+          "title": "France - Bassin parisien - Touraine - Centre - Indre-et-Loire - Le château de Chinon vu du sud (MédiHAL 1266626).jpg",
+          "description": "Handwritten caption on the original document: \"France: Paris Basin: Loire Valley and Country: Touraine: Touraine. Château de Chinon\". The glass plates deposited at Prodig date from 1891 to 1954. Geolocation: hypothesis of exact geolocation.",
+          "width": 1779,
+          "height": 1550,
+          "size": 426390,
+          "timestamp": "2024-12-21T12:36:20Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Emmanuel_de_Martonne\" class=\"extiw\" title=\"w:en:Emmanuel de Martonne\"><span title=\"French geographer (1873–1955)\">Emmanuel de Martonne</span></a></bdi>",
+          "license": "Licence Ouverte",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Ruines_souterrain_-_ancien_ch%C3%A2teau_de_Ch%C3%A2teau-Chinon.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARuines%20souterrain%20-%20ancien%20ch%C3%A2teau%20de%20Ch%C3%A2teau-Chinon.jpg",
+          "title": "Ruines souterrain - ancien château de Château-Chinon.jpg",
+          "description": "Vestiges d'un ancien souterrain de l'ancien château de Château-Chinon (Ville) (Nièvre, France). La petite tour située au-dessus supporte la table d'orientation située au faîte du Calvaire qui surplombe la ville.",
+          "width": 3072,
+          "height": 2304,
+          "size": 2352159,
+          "timestamp": "2011-08-19T09:49:54Z",
+          "author": "LeMorvandiau",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Ruines_d%27une_cave_-_ancien_ch%C3%A2teau_de_Ch%C3%A2teau-Chinon.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARuines%20d'une%20cave%20-%20ancien%20ch%C3%A2teau%20de%20Ch%C3%A2teau-Chinon.jpg",
+          "title": "Ruines d'une cave - ancien château de Château-Chinon.jpg",
+          "description": "Vestige d'une ancienne cave de l'ancien château de Château-Chinon (Ville) (Nièvre, France), située sur le flanc nord-est du Calvaire qui surplombe la ville.",
+          "width": 3072,
+          "height": 2304,
+          "size": 2135843,
+          "timestamp": "2011-08-19T09:49:54Z",
+          "author": "LeMorvandiau",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Fontaine monumentale",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Ch%C3%A2teau-Chinon%2C_fontaine_Niki_de_Saint-Phalle_%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau-Chinon%2C%20fontaine%20Niki%20de%20Saint-Phalle%20(2).jpg",
+          "title": "Château-Chinon, fontaine Niki de Saint-Phalle (2).jpg",
+          "description": "Cette fontaine de l'artiste franco-américano-suisse est une version (un peu) réduite de celle qui se trouve à Paris, près de l'église Saint Merri",
+          "width": 3888,
+          "height": 2592,
+          "size": 4706366,
+          "timestamp": "2020-04-05T13:13:55Z",
+          "author": "Franzrycou",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Ch%C3%A2teau-Chinon%2C_fontaine_Niki_de_Saint-Phalle_%283%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau-Chinon%2C%20fontaine%20Niki%20de%20Saint-Phalle%20(3).jpg",
+          "title": "Château-Chinon, fontaine Niki de Saint-Phalle (3).jpg",
+          "description": "Cette fontaine de l'artiste franco-américano-suisse est une version (un peu) réduite de celle qui se trouve à Paris, près de l'église Saint Merri",
+          "width": 3888,
+          "height": 2592,
+          "size": 4691504,
+          "timestamp": "2020-04-05T13:13:55Z",
+          "author": "Franzrycou",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Ch%C3%A2teau-Chinon%2C_fontaine_Niki_de_Saint-Phalle_%281%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau-Chinon%2C%20fontaine%20Niki%20de%20Saint-Phalle%20(1).jpg",
+          "title": "Château-Chinon, fontaine Niki de Saint-Phalle (1).jpg",
+          "description": "Cette fontaine de l'artiste franco-américano-suisse est une version (un peu) réduite de celle qui se trouve à Paris, près de l'église Saint Merri",
+          "width": 3888,
+          "height": 2592,
+          "size": 4783377,
+          "timestamp": "2020-04-05T13:13:55Z",
+          "author": "Franzrycou",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Belvédère du Calvaire",

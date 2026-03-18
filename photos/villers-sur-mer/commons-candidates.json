@@ -1,12 +1,13 @@
 {
   "slug": "villers-sur-mer",
   "nom": "Villers-sur-Mer",
-  "fetchedAt": "2026-03-14T14:39:00.900Z",
+  "fetchedAt": "2026-03-18T21:06:37.839Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/5_Rue_Michel_d%27Ornano%2C_14640_Villers-sur-Mer%2C_Frankreich.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A5%20Rue%20Michel%20d'Ornano%2C%2014640%20Villers-sur-Mer%2C%20Frankreich.jpg",
       "title": "5 Rue Michel d'Ornano, 14640 Villers-sur-Mer, Frankreich.jpg",
+      "description": "5 Rue Michel d'Ornano, 14640 Villers-sur-Mer, Frankreich",
       "width": 2878,
       "height": 1737,
       "size": 1668066,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Beach_of_Villers-sur-Mer.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeach%20of%20Villers-sur-Mer.jpg",
       "title": "Beach of Villers-sur-Mer.jpg",
+      "description": "Beach of Villers-sur-Mer",
       "width": 3328,
       "height": 1765,
       "size": 1913210,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Memorial_bench_George_White-VillersSurMer.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMemorial%20bench%20George%20White-VillersSurMer.jpg",
       "title": "Memorial bench George White-VillersSurMer.jpg",
+      "description": "Bench in memory of Georges White, 9th Bataillon Parachute Regiment mis-dropped over Villers sur Mer during the night of the 5th June 1944",
       "width": 2282,
       "height": 1728,
       "size": 1750080,
@@ -46,47 +49,79 @@
   "lieux": [
     {
       "label": "Promenade Marcel Proust",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Villers-sur-Mer_%2814%29_Plage_755.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVillers-sur-Mer%20(14)%20Plage%20755.jpg",
+          "title": "Villers-sur-Mer (14) Plage 755.jpg",
+          "description": "Strand in Villers-sur-Mer im Département Calvados in der Normandie/Frankreich",
+          "width": 7646,
+          "height": 5097,
+          "size": 26174990,
+          "timestamp": "2024-09-27T17:11:21Z",
+          "author": "GFreihalter",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Villers-sur-Mer_%2814%29_Promenade_Claude_Lelouche_975.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVillers-sur-Mer%20(14)%20Promenade%20Claude%20Lelouche%20975.jpg",
+          "title": "Villers-sur-Mer (14) Promenade Claude Lelouche 975.jpg",
+          "description": "Promenade Claude Lelouch Cinéaste in Villers-sur-Mer im Département Calvados in der Region Normandie/Frankreich",
+          "width": 7728,
+          "height": 5152,
+          "size": 26797340,
+          "timestamp": "2024-10-03T10:20:10Z",
+          "author": "GFreihalter",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Villers-sur-Mer_%2814%29_Panneau_976.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVillers-sur-Mer%20(14)%20Panneau%20976.jpg",
+          "title": "Villers-sur-Mer (14) Panneau 976.jpg",
+          "description": "Schild in Villers-sur-Mer im Département Calvados in der Region Normandie/Frankreich",
+          "width": 5152,
+          "height": 7728,
+          "size": 37511614,
+          "timestamp": "2024-10-03T10:20:10Z",
+          "author": "GFreihalter",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Falaises des Vaches Noires",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Falaise_des_Vaches_noires_52.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFalaise%20des%20Vaches%20noires%2052.jpg",
-          "title": "Falaise des Vaches noires 52.jpg",
-          "width": 3416,
-          "height": 2686,
-          "size": 7237440,
-          "timestamp": "2023-10-13T15:28:13Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Villers-sur-Mer_-_Falaise_des_Vaches_noires-_Conglom%C3%A9rat_et_plantes.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVillers-sur-Mer%20-%20Falaise%20des%20Vaches%20noires-%20Conglom%C3%A9rat%20et%20plantes.jpg",
+          "title": "Villers-sur-Mer - Falaise des Vaches noires- Conglomérat et plantes.jpg",
+          "description": "Villers-sur-Mer - Falaise des Vaches noires- Conglomérat et plantes",
+          "width": 6000,
+          "height": 4000,
+          "size": 18943939,
+          "timestamp": "2024-01-19T11:17:24Z",
           "author": "René Hourdry",
-          "license": "CC BY-SA 4.0",
+          "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Falaise_des_Vaches_noires_51.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFalaise%20des%20Vaches%20noires%2051.jpg",
-          "title": "Falaise des Vaches noires 51.jpg",
-          "width": 6000,
-          "height": 4000,
-          "size": 15319025,
-          "timestamp": "2023-10-13T15:28:14Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Conglom%C3%A9rat_-Falaise_des_Vaches_noires_%C3%A0_Villers-sur-Mer.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AConglom%C3%A9rat%20-Falaise%20des%20Vaches%20noires%20%C3%A0%20Villers-sur-Mer.jpg",
+          "title": "Conglomérat -Falaise des Vaches noires à Villers-sur-Mer.jpg",
+          "description": "Conglomérat -Falaise des Vaches noires à Villers-sur-Mer",
+          "width": 4711,
+          "height": 3316,
+          "size": 13460160,
+          "timestamp": "2024-01-19T11:22:32Z",
           "author": "René Hourdry",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Falaise_des_Vaches_noires_50.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFalaise%20des%20Vaches%20noires%2050.jpg",
-          "title": "Falaise des Vaches noires 50.jpg",
-          "width": 6000,
-          "height": 4000,
-          "size": 16196612,
-          "timestamp": "2023-10-13T15:28:14Z",
-          "author": "René Hourdry",
-          "license": "CC BY-SA 4.0",
+          "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         }
@@ -94,15 +129,45 @@
     },
     {
       "label": "Parc naturel du Marais",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/M-Ren%C3%A9e_Ucciani_1919%2C_Villers%2C_parc_Montauzan_Marie-Ren%C3%A9e_avec_%C3%89dith_Coypel%2C_Coll_Ucciani.jpeg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AM-Ren%C3%A9e%20Ucciani%201919%2C%20Villers%2C%20parc%20Montauzan%20Marie-Ren%C3%A9e%20avec%20%C3%89dith%20Coypel%2C%20Coll%20Ucciani.jpeg",
+          "title": "M-Renée Ucciani 1919, Villers, parc Montauzan Marie-Renée avec Édith Coypel, Coll Ucciani.jpeg",
+          "description": "fr:Marie-Renée Ucciani avec Édith Coypel, Villers-sur-Mer 1919, parc Montauzan (ferme de Bois-Lurette)",
+          "width": 1766,
+          "height": 1181,
+          "size": 356526,
+          "timestamp": "2014-09-07T07:03:09Z",
+          "author": "Pierre-Do Lo Meo",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Église Saint-Martin",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Villers-sur-Mer_-_B%C3%A9nitier_A.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVillers-sur-Mer%20-%20B%C3%A9nitier%20A.jpg",
+          "title": "Villers-sur-Mer - Bénitier A.jpg",
+          "description": "Église Saint-Martin",
+          "width": 3746,
+          "height": 2871,
+          "size": 6242746,
+          "timestamp": "2023-09-30T17:07:11Z",
+          "author": "René Hourdry",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Villers-sur-Mer_-_Eglise_Saint-Martin_23.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVillers-sur-Mer%20-%20Eglise%20Saint-Martin%2023.jpg",
           "title": "Villers-sur-Mer - Eglise Saint-Martin 23.jpg",
+          "description": "Église Saint-Martin - Gargouille",
           "width": 1307,
           "height": 974,
           "size": 891802,
@@ -116,22 +181,10 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Villers-sur-Mer_-_Eglise_Saint-Martin_25.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVillers-sur-Mer%20-%20Eglise%20Saint-Martin%2025.jpg",
           "title": "Villers-sur-Mer - Eglise Saint-Martin 25.jpg",
+          "description": "Église Saint-Martin - Gargouille",
           "width": 1727,
           "height": 1237,
           "size": 1401403,
-          "timestamp": "2023-09-30T17:07:23Z",
-          "author": "René Hourdry",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Villers-sur-Mer_-_Eglise_Saint-Martin_24.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVillers-sur-Mer%20-%20Eglise%20Saint-Martin%2024.jpg",
-          "title": "Villers-sur-Mer - Eglise Saint-Martin 24.jpg",
-          "width": 6000,
-          "height": 4000,
-          "size": 13174562,
           "timestamp": "2023-09-30T17:07:23Z",
           "author": "René Hourdry",
           "license": "CC BY-SA 4.0",

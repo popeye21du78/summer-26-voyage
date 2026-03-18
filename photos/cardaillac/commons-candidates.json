@@ -1,12 +1,13 @@
 {
   "slug": "cardaillac",
   "nom": "Cardaillac",
-  "fetchedAt": "2026-03-13T12:27:35.115Z",
+  "fetchedAt": "2026-03-15T20:40:55.954Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Filipendula_vulgaris_in_Cardaillac_%282%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFilipendula%20vulgaris%20in%20Cardaillac%20(2).jpg",
       "title": "Filipendula vulgaris in Cardaillac (2).jpg",
+      "description": "Filipendula vulgaris in Botanical garden in Cardaillac, Lot, France",
       "width": 3005,
       "height": 2424,
       "size": 3932993,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Sempervivum_tectorum_in_Cardaillac_%283%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASempervivum%20tectorum%20in%20Cardaillac%20(3).jpg",
       "title": "Sempervivum tectorum in Cardaillac (3).jpg",
+      "description": "Sempervivum tectorum in Botanical garden in Cardaillac, Lot, France",
       "width": 3420,
       "height": 2280,
       "size": 5919563,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Sempervivum_tectorum_in_Cardaillac_%282%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASempervivum%20tectorum%20in%20Cardaillac%20(2).jpg",
       "title": "Sempervivum tectorum in Cardaillac (2).jpg",
+      "description": "Sempervivum tectorum in Botanical garden in Cardaillac, Lot, France",
       "width": 4140,
       "height": 2760,
       "size": 9252802,
@@ -48,53 +51,114 @@
       "label": "Tour de l’Horloge",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Tour_horloge_cardaillac.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATour%20horloge%20cardaillac.jpg",
-          "title": "Tour horloge cardaillac.jpg",
-          "width": 1379,
-          "height": 1057,
-          "size": 242533,
-          "timestamp": "2019-05-05T09:15:23Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Habitations_fort_cardaillac.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHabitations%20fort%20cardaillac.jpg",
+          "title": "Habitations fort cardaillac.jpg",
+          "description": "Houses in Cardaillac (Lot, France), view from the top of Sagne's tour, publicly available",
+          "width": 1845,
+          "height": 1075,
+          "size": 506601,
+          "timestamp": "2019-05-04T20:03:02Z",
           "author": "Thierry46",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Tour_des_Barons_in_Cardaillac_%283%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATour%20des%20Barons%20in%20Cardaillac%20(3).jpg",
-          "title": "Tour des Barons in Cardaillac (3).jpg",
-          "width": 2050,
-          "height": 3117,
-          "size": 4519414,
-          "timestamp": "2025-09-25T17:58:14Z",
-          "author": "Tournasol7",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/La_Grange_de_la_Tour_d%C3%A9molie_%28Cardaillac%2C_46%29_-_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Grange%20de%20la%20Tour%20d%C3%A9molie%20(Cardaillac%2C%2046)%20-%2002.jpg",
+          "title": "La Grange de la Tour démolie (Cardaillac, 46) - 02.jpg",
+          "description": "Cette pierre sculptée a été retrouvée lors de la démolition de l'ancienne tour . On y découvre un personnage tenant deux serpents ailés lui mordant les flancs (Cardaillac, Lot)",
+          "width": 4000,
+          "height": 3000,
+          "size": 5012480,
+          "timestamp": "2022-04-14T21:31:03Z",
+          "author": "Thérèse Gaigé",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Tour_des_Barons_in_Cardaillac_%282%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATour%20des%20Barons%20in%20Cardaillac%20(2).jpg",
-          "title": "Tour des Barons in Cardaillac (2).jpg",
-          "width": 2261,
-          "height": 4236,
-          "size": 7519190,
-          "timestamp": "2025-09-25T17:58:14Z",
-          "author": "Tournasol7",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/La_Grange_de_la_Tour_d%C3%A9molie_%28Cardaillac%2C_46%29_-_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Grange%20de%20la%20Tour%20d%C3%A9molie%20(Cardaillac%2C%2046)%20-%2001.jpg",
+          "title": "La Grange de la Tour démolie (Cardaillac, 46) - 01.jpg",
+          "description": "À l'emplacement de cette grange, se dressait une tour médiévale détruite en 1816. La pierre sculptée présente sur cette façade provient de l'ancienne tour (Cardaillac, Lot)",
+          "width": 4000,
+          "height": 3000,
+          "size": 5020672,
+          "timestamp": "2022-04-14T21:31:03Z",
+          "author": "Thérèse Gaigé",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         }
       ]
     },
     {
       "label": "Puits couvert",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Puits_manganel_cardaillac.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APuits%20manganel%20cardaillac.jpg",
+          "title": "Puits manganel cardaillac.jpg",
+          "description": "Puits du Manganel à Cardaillac",
+          "width": 559,
+          "height": 732,
+          "size": 69617,
+          "timestamp": "2007-12-16T20:55:26Z",
+          "author": "Thierry46",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 0
+        }
+      ]
     },
     {
       "label": "Jardin médiéval",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Geum_coccineum_in_Cardaillac_%285%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGeum%20coccineum%20in%20Cardaillac%20(5).jpg",
+          "title": "Geum coccineum in Cardaillac (5).jpg",
+          "description": "Geum coccineum in Botanical garden in Cardaillac, Lot, France",
+          "width": 3660,
+          "height": 2440,
+          "size": 5419161,
+          "timestamp": "2021-11-21T20:18:26Z",
+          "author": "Krzysztof Golik",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Geum_coccineum_in_Cardaillac_%288%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGeum%20coccineum%20in%20Cardaillac%20(8).jpg",
+          "title": "Geum coccineum in Cardaillac (8).jpg",
+          "description": "Geum coccineum in Botanical garden in Cardaillac, Lot, France",
+          "width": 4602,
+          "height": 3419,
+          "size": 14794472,
+          "timestamp": "2021-11-21T20:18:31Z",
+          "author": "Krzysztof Golik",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Sempervivum_tectorum_in_Cardaillac_%281%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASempervivum%20tectorum%20in%20Cardaillac%20(1).jpg",
+          "title": "Sempervivum tectorum in Cardaillac (1).jpg",
+          "description": "Sempervivum tectorum in Botanical garden in Cardaillac, Lot, France",
+          "width": 5244,
+          "height": 3147,
+          "size": 11432941,
+          "timestamp": "2021-11-21T20:26:18Z",
+          "author": "Krzysztof Golik",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

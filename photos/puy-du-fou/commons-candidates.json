@@ -1,12 +1,13 @@
 {
   "slug": "puy-du-fou",
   "nom": "Puy du Fou",
-  "fetchedAt": "2026-03-14T11:39:33.720Z",
+  "fetchedAt": "2026-03-18T17:15:25.207Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Puy_du_Fou%2C_la_Bataille_du_Donjon_%28bis%29_%288%29.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APuy%20du%20Fou%2C%20la%20Bataille%20du%20Donjon%20(bis)%20(8).JPG",
       "title": "Puy du Fou, la Bataille du Donjon (bis) (8).JPG",
+      "description": "Le Puy du Fou Les Epesses.-.Vendée, France",
       "width": 4812,
       "height": 3106,
       "size": 2179670,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Puy_du_Fou.-_Les_Gladiateurs_%28bis%29_%286%29.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APuy%20du%20Fou.-%20Les%20Gladiateurs%20(bis)%20(6).JPG",
       "title": "Puy du Fou.- Les Gladiateurs (bis) (6).JPG",
+      "description": "Le Puy du Fou Les Epesses.-.Vendée, France",
       "width": 4521,
       "height": 2999,
       "size": 2814555,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Puy_du_Fou.-_La_Cit%C3%A9_M%C3%A9di%C3%A9vale_%28bis%29_%287%29.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APuy%20du%20Fou.-%20La%20Cit%C3%A9%20M%C3%A9di%C3%A9vale%20(bis)%20(7).JPG",
       "title": "Puy du Fou.- La Cité Médiévale (bis) (7).JPG",
+      "description": "Le Puy du Fou Les Epesses.-.Vendée, France",
       "width": 4912,
       "height": 3264,
       "size": 5898240,
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Puy_du_Fou.-_La_Cit%C3%A9_M%C3%A9di%C3%A9vale_%28bis%29_%2813%29.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APuy%20du%20Fou.-%20La%20Cit%C3%A9%20M%C3%A9di%C3%A9vale%20(bis)%20(13).JPG",
           "title": "Puy du Fou.- La Cité Médiévale (bis) (13).JPG",
+          "description": "Le Puy du Fou Les Epesses.-.Vendée, France",
           "width": 4912,
           "height": 3264,
           "size": 7143424,
@@ -64,6 +68,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Puy_du_Fou.-_La_Cit%C3%A9_M%C3%A9di%C3%A9vale_%28bis%29_%286%29.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APuy%20du%20Fou.-%20La%20Cit%C3%A9%20M%C3%A9di%C3%A9vale%20(bis)%20(6).JPG",
           "title": "Puy du Fou.- La Cité Médiévale (bis) (6).JPG",
+          "description": "Le Puy du Fou Les Epesses.-.Vendée, France",
           "width": 4912,
           "height": 3264,
           "size": 6914048,
@@ -77,6 +82,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Puy_du_Fou.-_La_Cit%C3%A9_M%C3%A9di%C3%A9vale_%28bis%29_%287%29.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APuy%20du%20Fou.-%20La%20Cit%C3%A9%20M%C3%A9di%C3%A9vale%20(bis)%20(7).JPG",
           "title": "Puy du Fou.- La Cité Médiévale (bis) (7).JPG",
+          "description": "Le Puy du Fou Les Epesses.-.Vendée, France",
           "width": 4912,
           "height": 3264,
           "size": 5898240,
@@ -90,25 +96,26 @@
     },
     {
       "label": "Fort de l’An Mil",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Le_Fort_de_l%27An_Mil.png",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Fort%20de%20l'An%20Mil.png",
-          "title": "Le Fort de l'An Mil.png",
-          "width": 1018,
-          "height": 683,
-          "size": 1210566,
-          "timestamp": "2021-04-16T15:08:49Z",
-          "author": "Puy Du Fou",
-          "license": "CC BY 2.5",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Stadium Gallo-Romain",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Panoramas_au_Puy_du_Fou_%288703937703%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanoramas%20au%20Puy%20du%20Fou%20(8703937703).jpg",
+          "title": "Panoramas au Puy du Fou (8703937703).jpg",
+          "description": "L'arène",
+          "width": 8400,
+          "height": 2430,
+          "size": 6385611,
+          "timestamp": "2016-10-16T18:11:40Z",
+          "author": "Thomas Conté",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Vallée Fleurie",

@@ -1,43 +1,46 @@
 {
   "slug": "auger",
   "nom": "Auger",
-  "fetchedAt": "2026-03-13T12:07:43.225Z",
+  "fetchedAt": "2026-03-15T15:20:34.343Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/%C3%89gliseneuve-d%27Entraigues_-_%C3%89glise_Saint-Austremoine_20200810-02.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89gliseneuve-d'Entraigues%20-%20%C3%89glise%20Saint-Austremoine%2020200810-02.jpg",
-      "title": "Égliseneuve-d'Entraigues - Église Saint-Austremoine 20200810-02.jpg",
-      "width": 5472,
-      "height": 3648,
-      "size": 9958146,
-      "timestamp": "2020-09-03T23:05:27Z",
-      "author": "Pymouss",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/60027-Auger-Saint-Vincent-Sols.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A60027-Auger-Saint-Vincent-Sols.png",
+      "title": "60027-Auger-Saint-Vincent-Sols.png",
+      "description": "Carte des infrastructures et de l’occupation des sols en 2018 de la commune de fr:Auger-Saint-Vincent (France).",
+      "width": 3270,
+      "height": 2598,
+      "size": 1382417,
+      "timestamp": "2021-05-17T06:50:11Z",
+      "author": "Roland45",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/%C3%89gliseneuve-d%27Entraigues_-_mairie_20200810.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89gliseneuve-d'Entraigues%20-%20mairie%2020200810.jpg",
-      "title": "Égliseneuve-d'Entraigues - mairie 20200810.jpg",
-      "width": 4398,
-      "height": 2932,
-      "size": 6000523,
-      "timestamp": "2020-09-04T21:20:25Z",
-      "author": "Pymouss",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/60027-Auger-Saint-Vincent-g%C3%A9ologie.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A60027-Auger-Saint-Vincent-g%C3%A9ologie.png",
+      "title": "60027-Auger-Saint-Vincent-géologie.png",
+      "description": "Carte géologique de la commune de Auger-Saint-Vincent (Oise/France)",
+      "width": 7015,
+      "height": 4960,
+      "size": 3830587,
+      "timestamp": "2022-04-26T23:58:59Z",
+      "author": "Poudou99",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/%C3%89gliseneuve-d%27Entraigues_-_place_de_la_Fontaine_20200810.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89gliseneuve-d'Entraigues%20-%20place%20de%20la%20Fontaine%2020200810.jpg",
-      "title": "Égliseneuve-d'Entraigues - place de la Fontaine 20200810.jpg",
-      "width": 5472,
-      "height": 3648,
-      "size": 7956058,
-      "timestamp": "2020-09-04T21:26:18Z",
-      "author": "Pymouss",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/60027-Auger-Saint-Vincent-Hydro.jpeg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A60027-Auger-Saint-Vincent-Hydro.jpeg",
+      "title": "60027-Auger-Saint-Vincent-Hydro.jpeg",
+      "description": "Carte du réseau hydrographique de la commune de fr:Auger-Saint-Vincent (France).",
+      "width": 5846,
+      "height": 4133,
+      "size": 1546862,
+      "timestamp": "2024-02-20T16:55:48Z",
+      "author": "Roland45",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
@@ -46,11 +49,69 @@
   "lieux": [
     {
       "label": "Pont de pierre sur le ruisseau de la Gazelle",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Chambourg_pont_Isle-Auger.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChambourg%20pont%20Isle-Auger.jpg",
+          "title": "Chambourg pont Isle-Auger.jpg",
+          "description": "Pont sur l'Indre dit de l'Isle Auger à Chambourg-sur-Indre",
+          "width": 1451,
+          "height": 1023,
+          "size": 260142,
+          "timestamp": "2014-06-27T21:30:24Z",
+          "author": "Arcyon37",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Plateau au nord-ouest d’Égliseneuve-d’Entraigues",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Auger-Saint-Vincent_%2860%29%2C_%C3%A9glise_Saint-Caprais%2C_vue_depuis_le_nord.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAuger-Saint-Vincent%20(60)%2C%20%C3%A9glise%20Saint-Caprais%2C%20vue%20depuis%20le%20nord.JPG",
+          "title": "Auger-Saint-Vincent (60), église Saint-Caprais, vue depuis le nord.JPG",
+          "description": "Vue depuis le nord - clocher et nef romane. Il n'y a pas de bas-côté au nord.",
+          "width": 2736,
+          "height": 3648,
+          "size": 617789,
+          "timestamp": "2014-10-07T12:30:51Z",
+          "author": "Pierre Poschadel",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Auger-Saint-Vincent_%2860%29%2C_%C3%A9glise_Saint-Caprais%2C_collat%C3%A9ral_nord%2C_vue_depuis_le_nord.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAuger-Saint-Vincent%20(60)%2C%20%C3%A9glise%20Saint-Caprais%2C%20collat%C3%A9ral%20nord%2C%20vue%20depuis%20le%20nord.JPG",
+          "title": "Auger-Saint-Vincent (60), église Saint-Caprais, collatéral nord, vue depuis le nord.JPG",
+          "description": "Collatéral nord, vue depuis le nord. Cette travée, qui peut être considéré comme une sorte de faux croisillon, ne communique plus avec le reste de l'église que par une porte : l'arcade vers la 2e travée du chœur est bouchée.",
+          "width": 2736,
+          "height": 3648,
+          "size": 1134496,
+          "timestamp": "2014-10-07T12:30:52Z",
+          "author": "Pierre Poschadel",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Auger-Saint-Vincent_%2860%29%2C_%C3%A9glise_Saint-Caprais%2C_clocher%2C_%C3%A9tage_de_beffroi_c%C3%B4t%C3%A9_ouest_02.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAuger-Saint-Vincent%20(60)%2C%20%C3%A9glise%20Saint-Caprais%2C%20clocher%2C%20%C3%A9tage%20de%20beffroi%20c%C3%B4t%C3%A9%20ouest%2002.JPG",
+          "title": "Auger-Saint-Vincent (60), église Saint-Caprais, clocher, étage de beffroi côté ouest 02.JPG",
+          "description": "Église Saint-Caprais d'Auger-Saint-Vincent (voir titre).",
+          "width": 3648,
+          "height": 2736,
+          "size": 4437188,
+          "timestamp": "2015-04-16T10:43:30Z",
+          "author": "Pierre Poschadel",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Murets de pierres sèches près des prairies",

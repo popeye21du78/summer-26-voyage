@@ -1,12 +1,13 @@
 {
   "slug": "rambouillet",
   "nom": "Rambouillet",
-  "fetchedAt": "2026-03-13T01:47:56.099Z",
+  "fetchedAt": "2026-03-18T17:23:57.691Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Rambouillet_-_Ancien_temple_protestant_-_2.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARambouillet%20-%20Ancien%20temple%20protestant%20-%202.jpg",
       "title": "Rambouillet - Ancien temple protestant - 2.jpg",
+      "description": "Former protestant church in Rambouillet (Yvelines, Île-de-France, France).",
       "width": 3000,
       "height": 2000,
       "size": 2108273,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Rambouillet_-_%C3%89cole_Foch_-_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARambouillet%20-%20%C3%89cole%20Foch%20-%201.jpg",
       "title": "Rambouillet - École Foch - 1.jpg",
+      "description": "School Foch in Rambouillet (Yvelines, Île-de-France, France).",
       "width": 3000,
       "height": 2000,
       "size": 1389453,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Rambouillet_-_Temple_protestant_-_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARambouillet%20-%20Temple%20protestant%20-%201.jpg",
       "title": "Rambouillet - Temple protestant - 1.jpg",
+      "description": "Protestant church in Rambouillet (Yvelines, Île-de-France, France).",
       "width": 3000,
       "height": 2000,
       "size": 1533799,
@@ -48,43 +51,46 @@
       "label": "Château de Rambouillet",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Ch%C3%A2teau_de_Rambouillet_%2824697845148%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Rambouillet%20(24697845148).jpg",
-          "title": "Château de Rambouillet (24697845148).jpg",
-          "width": 1920,
-          "height": 1280,
-          "size": 1985972,
-          "timestamp": "2023-04-09T19:00:31Z",
-          "author": "Christophe PINARD",
-          "license": "CC BY-SA 2.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Ch%C3%A2teau_de_Rambouillet_%2849276166386%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Rambouillet%20(49276166386).jpg",
-          "title": "Château de Rambouillet (49276166386).jpg",
-          "width": 4032,
-          "height": 3024,
-          "size": 4910273,
-          "timestamp": "2023-04-09T19:05:40Z",
-          "author": "David Baron",
-          "license": "CC BY-SA 2.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Ch%C3%A2teau_de_Rambouillet_2023_03.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Rambouillet%202023%2003.jpg",
-          "title": "Château de Rambouillet 2023 03.jpg",
-          "width": 5472,
-          "height": 3648,
-          "size": 6278698,
-          "timestamp": "2023-11-13T09:28:01Z",
-          "author": "Smiley.toerist",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Ch%C3%A2teau_de_Rambouillet_%28DSC_7006%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Rambouillet%20(DSC%207006).jpg",
+          "title": "Château de Rambouillet (DSC 7006).jpg",
+          "description": "Château de Rambouillet (Rambouillet, France)",
+          "width": 4747,
+          "height": 3093,
+          "size": 9021276,
+          "timestamp": "2021-09-27T18:26:33Z",
+          "author": "Trougnouf (Benoit Brummer)",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Parc_et_Ch%C3%A2teau_de_Rambouillet_%2850029591811%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParc%20et%20Ch%C3%A2teau%20de%20Rambouillet%20(50029591811).jpg",
+          "title": "Parc et Château de Rambouillet (50029591811).jpg",
+          "description": "Château de Rambouillet, tour de Francois Ier",
+          "width": 2732,
+          "height": 1818,
+          "size": 3794038,
+          "timestamp": "2023-04-09T18:15:13Z",
+          "author": "Gilles Messian",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Parc_et_Ch%C3%A2teau_de_Rambouillet_%2850029591486%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParc%20et%20Ch%C3%A2teau%20de%20Rambouillet%20(50029591486).jpg",
+          "title": "Parc et Château de Rambouillet (50029591486).jpg",
+          "description": "Château de Rambouillet, cour d'honneur",
+          "width": 2732,
+          "height": 1818,
+          "size": 3813543,
+          "timestamp": "2023-04-09T18:15:14Z",
+          "author": "Gilles Messian",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
         }
       ]
     },
@@ -92,43 +98,46 @@
       "label": "Laiterie de la Reine",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Ch%C3%A2teau_de_Rambouillet_-_Laiterie_de_la_Reine_ext_1.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Rambouillet%20-%20Laiterie%20de%20la%20Reine%20ext%201.JPG",
-          "title": "Château de Rambouillet - Laiterie de la Reine ext 1.JPG",
-          "width": 6000,
-          "height": 4000,
-          "size": 6650585,
-          "timestamp": "2017-12-03T18:06:48Z",
-          "author": "Chatsam",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Laiterie_de_la_Reine%2C_Parc_du_Ch%C3%A2teau_de_Rambouillet%2C_France_%2850029859812%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALaiterie%20de%20la%20Reine%2C%20Parc%20du%20Ch%C3%A2teau%20de%20Rambouillet%2C%20France%20(50029859812).jpg",
+          "title": "Laiterie de la Reine, Parc du Château de Rambouillet, France (50029859812).jpg",
+          "description": "Château de Rambouillet, laiterie de la Reine",
+          "width": 2732,
+          "height": 1818,
+          "size": 4552016,
+          "timestamp": "2023-04-09T18:16:00Z",
+          "author": "Gilles Messian",
+          "license": "CC BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Ch%C3%A2teau_de_Rambouillet_-_Laiterie_de_la_Reine_ext_2.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Rambouillet%20-%20Laiterie%20de%20la%20Reine%20ext%202.JPG",
-          "title": "Château de Rambouillet - Laiterie de la Reine ext 2.JPG",
-          "width": 6000,
-          "height": 4000,
-          "size": 7020824,
-          "timestamp": "2017-12-03T18:08:16Z",
-          "author": "Chatsam",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Laiterie_de_la_Reine%2C_Parc_du_Ch%C3%A2teau_de_Rambouillet%2C_France_%2850029599901%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALaiterie%20de%20la%20Reine%2C%20Parc%20du%20Ch%C3%A2teau%20de%20Rambouillet%2C%20France%20(50029599901).jpg",
+          "title": "Laiterie de la Reine, Parc du Château de Rambouillet, France (50029599901).jpg",
+          "description": "Château de Rambouillet, laiterie de la Reine",
+          "width": 2732,
+          "height": 1818,
+          "size": 3624093,
+          "timestamp": "2023-04-09T18:16:03Z",
+          "author": "Gilles Messian",
+          "license": "CC BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Ch%C3%A2teau_de_Rambouillet_-_Laiterie_de_la_Reine_pavillon_d%27entr%C3%A9e_1.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Rambouillet%20-%20Laiterie%20de%20la%20Reine%20pavillon%20d'entr%C3%A9e%201.JPG",
-          "title": "Château de Rambouillet - Laiterie de la Reine pavillon d'entrée 1.JPG",
-          "width": 6000,
-          "height": 4000,
-          "size": 6266509,
-          "timestamp": "2017-12-03T18:09:33Z",
-          "author": "Chatsam",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Laiterie_de_la_Reine%2C_Parc_du_Ch%C3%A2teau_de_Rambouillet%2C_France_%2850029061523%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALaiterie%20de%20la%20Reine%2C%20Parc%20du%20Ch%C3%A2teau%20de%20Rambouillet%2C%20France%20(50029061523).jpg",
+          "title": "Laiterie de la Reine, Parc du Château de Rambouillet, France (50029061523).jpg",
+          "description": "Château de Rambouillet, laiterie de la Reine",
+          "width": 2732,
+          "height": 1818,
+          "size": 3910188,
+          "timestamp": "2023-04-09T18:16:03Z",
+          "author": "Gilles Messian",
+          "license": "CC BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 9
         }
       ]
     },
@@ -139,6 +148,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Ch%C3%A2teau_de_Rambouillet_29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Rambouillet%2029.jpg",
           "title": "Château de Rambouillet 29.jpg",
+          "description": "Château de Rambouillet",
           "width": 4032,
           "height": 3024,
           "size": 5535987,
@@ -146,12 +156,27 @@
           "author": "Zakarie Faibis",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Ch%C3%A2teau_de_Rambouillet_28.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Rambouillet%2028.jpg",
+          "title": "Château de Rambouillet 28.jpg",
+          "description": "Château de Rambouillet",
+          "width": 4032,
+          "height": 3024,
+          "size": 4922154,
+          "timestamp": "2020-06-26T11:32:40Z",
+          "author": "Zakarie Faibis",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Ch%C3%A2teau_de_Rambouillet_30.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Rambouillet%2030.jpg",
           "title": "Château de Rambouillet 30.jpg",
+          "description": "Château de Rambouillet",
           "width": 4032,
           "height": 3024,
           "size": 4980002,
@@ -159,20 +184,7 @@
           "author": "Zakarie Faibis",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Ch%C3%A2teau_de_Rambouillet_31.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Rambouillet%2031.jpg",
-          "title": "Château de Rambouillet 31.jpg",
-          "width": 4032,
-          "height": 3024,
-          "size": 4967234,
-          "timestamp": "2020-06-26T11:32:43Z",
-          "author": "Zakarie Faibis",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         }
       ]
     },
@@ -183,6 +195,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Colombier_de_la_Bergerie_nationale_de_Rambouillet.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AColombier%20de%20la%20Bergerie%20nationale%20de%20Rambouillet.jpg",
           "title": "Colombier de la Bergerie nationale de Rambouillet.jpg",
+          "description": "Vue de l'entrée du Colombier de la Bergerie nationale de Rambouillet édifié en 1786 par Louis XVI.",
           "width": 4000,
           "height": 2250,
           "size": 2837909,
@@ -190,25 +203,13 @@
           "author": "Xenophôn",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Gravure_de_m%C3%A9rinos_devant_la_Bergerie_de_Rambouillet_-_20160285-648-649_-_Archives_nationales_%28France%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGravure%20de%20m%C3%A9rinos%20devant%20la%20Bergerie%20de%20Rambouillet%20-%2020160285-648-649%20-%20Archives%20nationales%20(France).jpg",
-          "title": "Gravure de mérinos devant la Bergerie de Rambouillet - 20160285-648-649 - Archives nationales (France).jpg",
-          "width": 5473,
-          "height": 4092,
-          "size": 8092768,
-          "timestamp": "2022-05-02T10:13:05Z",
-          "author": "Archives nationales (France)",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Bergerie_Nationale_de_Rambouillet%2C_France_%2850029601091%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABergerie%20Nationale%20de%20Rambouillet%2C%20France%20(50029601091).jpg",
           "title": "Bergerie Nationale de Rambouillet, France (50029601091).jpg",
+          "description": "Château de Rambouillet, parc",
           "width": 2732,
           "height": 1818,
           "size": 4975707,
@@ -216,17 +217,117 @@
           "author": "Gilles Messian",
           "license": "CC BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Cour_Royale_de_la_Bergerie_nationale_de_Rambouillet.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACour%20Royale%20de%20la%20Bergerie%20nationale%20de%20Rambouillet.jpg",
+          "title": "Cour Royale de la Bergerie nationale de Rambouillet.jpg",
+          "description": "Partie-nord-ouest de la cour royale de la Bergerie nationale de Rambouillet édifiée par Louis XVI avec au premier plan des Mérinos de Rambouillet.",
+          "width": 4000,
+          "height": 2250,
+          "size": 3646221,
+          "timestamp": "2021-09-20T11:33:31Z",
+          "author": "Xenophôn",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         }
       ]
     },
     {
       "label": "Étangs de Saint-Hubert",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Rambouillet_-_Base_de_loisirs_des_%C3%89tangs_de_Hollande_-_Vue_depuis_l%27%C3%A9tang.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARambouillet%20-%20Base%20de%20loisirs%20des%20%C3%89tangs%20de%20Hollande%20-%20Vue%20depuis%20l'%C3%A9tang.jpg",
+          "title": "Rambouillet - Base de loisirs des Étangs de Hollande - Vue depuis l'étang.jpg",
+          "description": "Vue depuis l'étang.",
+          "width": 4128,
+          "height": 2322,
+          "size": 3194443,
+          "timestamp": "2021-08-23T06:59:53Z",
+          "author": "Romainbehar",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Rambouillet_-_Base_de_loisirs_des_%C3%89tangs_de_Hollande_-_P%C3%A9dalos_et_mini-golf.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARambouillet%20-%20Base%20de%20loisirs%20des%20%C3%89tangs%20de%20Hollande%20-%20P%C3%A9dalos%20et%20mini-golf.jpg",
+          "title": "Rambouillet - Base de loisirs des Étangs de Hollande - Pédalos et mini-golf.jpg",
+          "description": "Pédalos et mini-golf.",
+          "width": 4128,
+          "height": 2322,
+          "size": 4132567,
+          "timestamp": "2021-08-23T06:59:52Z",
+          "author": "Romainbehar",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Rambouillet_-_Base_de_loisirs_des_%C3%89tangs_de_Hollande_-_Limite_de_baignade_surveill%C3%A9e.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARambouillet%20-%20Base%20de%20loisirs%20des%20%C3%89tangs%20de%20Hollande%20-%20Limite%20de%20baignade%20surveill%C3%A9e.jpg",
+          "title": "Rambouillet - Base de loisirs des Étangs de Hollande - Limite de baignade surveillée.jpg",
+          "description": "Limite de baignade surveillée.",
+          "width": 4128,
+          "height": 2322,
+          "size": 3195059,
+          "timestamp": "2021-08-23T06:59:52Z",
+          "author": "Romainbehar",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Jardin de la Motte",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Vue_de_Rambouillet_proche_la_Porte_Saint_Antoine._G.371.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20de%20Rambouillet%20proche%20la%20Porte%20Saint%20Antoine.%20G.371.jpg",
+          "title": "Vue de Rambouillet proche la Porte Saint Antoine. G.371.jpg",
+          "description": "Auteur(s):\n\nSilvestre, Israël (Nancy, 03–08–1621 - Paris, 11–10–1691), graveur\nHenriet, Israël (Nancy, 1590 - Paris, 1661), editeur\nAutres titres :\nVue de Rambouillet proche la porte Saint-Antoine. (Titre factice), Vues de Paris et des environs (Titre de l'ensemble)\n\n\n\nDate de production:\n\nEntre 1650 et 1660\nDatation en siècle: \n17e siècle\n\n\n\nType(s) d'objet(s):\n\nEstampe, Arts graphiques\n\n\nDénomination(s):\n\nEstampe\n\n\nMatériaux et techniques:\n\nEau-forte\nLieu(x) d'exécution / réalisation: \nParis\n\n",
+          "width": 4446,
+          "height": 3652,
+          "size": 4089798,
+          "timestamp": "2023-06-20T13:51:27Z",
+          "author": "Silvestre, Israël (Nancy, 03–08–1621 - Paris, 11–10–1691), graveur",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Vue_de_Rambouillet_proche_la_Porte_Saint_Antoine._G.371%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20de%20Rambouillet%20proche%20la%20Porte%20Saint%20Antoine.%20G.371(2).jpg",
+          "title": "Vue de Rambouillet proche la Porte Saint Antoine. G.371(2).jpg",
+          "description": "Auteur(s):\n\nSilvestre, Israël (Nancy, 03–08–1621 - Paris, 11–10–1691), graveur\nHenriet, Israël (Nancy, 1590 - Paris, 1661), editeur\nAutres titres :\nVue de Rambouillet proche la porte Saint-Antoine. (Titre factice), Vues de Paris et des environs (Titre de l'ensemble)\n\n\n\nDate de production:\n\nEntre 1650 et 1660\nDatation en siècle: \n17e siècle\n\n\n\nType(s) d'objet(s):\n\nEstampe, Arts graphiques\n\n\nDénomination(s):\n\nEstampe\n\n\nMatériaux et techniques:\n\nEau-forte\nLieu(x) d'exécution / réalisation: \nParis\n\n",
+          "width": 1868,
+          "height": 1548,
+          "size": 1827259,
+          "timestamp": "2023-06-20T13:51:49Z",
+          "author": "Silvestre, Israël (Nancy, 03–08–1621 - Paris, 11–10–1691), graveur",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Vue_de_Rambouillet_proche_la_Porte_Saint_Antoine._G.372.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20de%20Rambouillet%20proche%20la%20Porte%20Saint%20Antoine.%20G.372.jpg",
+          "title": "Vue de Rambouillet proche la Porte Saint Antoine. G.372.jpg",
+          "description": "Auteur(s):\n\nSilvestre, Israël (Nancy, 03–08–1621 - Paris, 11–10–1691), graveur\nHenriet, Israël (Nancy, 1590 - Paris, 1661), editeur\nAutres titres :\nVue de Rambouillet proche la porte Saint-Antoine. (Titre factice), Vues de Paris et des environs (Titre de l'ensemble)\n\n\n\nDate de production:\n\nEntre 1650 et 1660\nDatation en siècle: \n17e siècle\n\n\n\nType(s) d'objet(s):\n\nEstampe, Arts graphiques\n\n\nDénomination(s):\n\nEstampe\n\n\nMatériaux et techniques:\n\nEau-forte\nLieu(x) d'exécution / réalisation: \nParis\n\n",
+          "width": 4531,
+          "height": 3618,
+          "size": 4455565,
+          "timestamp": "2023-06-20T13:52:34Z",
+          "author": "Silvestre, Israël (Nancy, 03–08–1621 - Paris, 11–10–1691), graveur",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     }
   ]
 }

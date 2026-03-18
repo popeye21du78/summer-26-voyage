@@ -1,12 +1,13 @@
 {
   "slug": "mayet",
   "nom": "Mayet",
-  "fetchedAt": "2026-03-13T16:07:42.236Z",
+  "fetchedAt": "2026-03-16T21:26:10.242Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Chateau_du_Fort-des-Salles_-_Mayet_%2872%29.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau%20du%20Fort-des-Salles%20-%20Mayet%20(72).JPG",
       "title": "Chateau du Fort-des-Salles - Mayet (72).JPG",
+      "description": "Château du Fort-des-Salles, XIVe, XVe &amp; XVIIIe (Part. MH &amp; ISMH)",
       "width": 3932,
       "height": 2177,
       "size": 3040436,
@@ -14,12 +15,13 @@
       "author": "Gregofhuest",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
+      "score": 7
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Mayet_-_Chateau_du_Fort-des-Salles_2.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMayet%20-%20Chateau%20du%20Fort-des-Salles%202.JPG",
       "title": "Mayet - Chateau du Fort-des-Salles 2.JPG",
+      "description": "Château du Fort-des-Salles, XIVe, XVe &amp; XVIIIe (Part MH &amp; ISMH)",
       "width": 3440,
       "height": 2057,
       "size": 1539935,
@@ -27,20 +29,21 @@
       "author": "Gregofhuest",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
+      "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Mayet_-_Manoir_des_Viviers.JPG",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMayet%20-%20Manoir%20des%20Viviers.JPG",
-      "title": "Mayet - Manoir des Viviers.JPG",
-      "width": 3995,
-      "height": 2877,
-      "size": 3227206,
-      "timestamp": "2014-11-17T14:06:00Z",
-      "author": "Gregofhuest",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/MayetTownSquare.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMayetTownSquare.jpg",
+      "title": "MayetTownSquare.jpg",
+      "description": "Panoramic view of Mayet Town Square, west is on the left going round to east on the right.",
+      "width": 12338,
+      "height": 3064,
+      "size": 11160906,
+      "timestamp": "2019-04-20T13:23:10Z",
+      "author": "Patrick Neame",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
+      "score": 7
     }
   ],
   "lieux": [
@@ -52,14 +55,43 @@
       "label": "Église Saint-Martin de Mayet",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/P1040677M.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AP1040677M.jpg",
-          "title": "P1040677M.jpg",
-          "width": 2560,
-          "height": 1920,
-          "size": 2928128,
-          "timestamp": "2022-06-08T05:56:48Z",
-          "author": "Mayet59",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Le_Mayet_dEcole-FR-03-eglise-a2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Mayet%20dEcole-FR-03-eglise-a2.jpg",
+          "title": "Le Mayet dEcole-FR-03-eglise-a2.jpg",
+          "description": "Église Saint-Barthélemy du Mayet-d'École (Allier, France)",
+          "width": 2910,
+          "height": 2155,
+          "size": 3651509,
+          "timestamp": "2023-07-07T06:33:25Z",
+          "author": "François GOGLINS",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Le_Mayet_dEcole-FR-03-eglise-a1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Mayet%20dEcole-FR-03-eglise-a1.jpg",
+          "title": "Le Mayet dEcole-FR-03-eglise-a1.jpg",
+          "description": "Église Saint-Barthélemy du Mayet-d'École (Allier, France)",
+          "width": 4032,
+          "height": 3024,
+          "size": 4842531,
+          "timestamp": "2023-07-07T06:33:25Z",
+          "author": "François GOGLINS",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Le_Mayet_dEcole-FR-03-eglise-a4.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Mayet%20dEcole-FR-03-eglise-a4.jpg",
+          "title": "Le Mayet dEcole-FR-03-eglise-a4.jpg",
+          "description": "Église Saint-Barthélemy du Mayet-d'École (Allier, France)",
+          "width": 4032,
+          "height": 3024,
+          "size": 4295752,
+          "timestamp": "2023-07-07T06:33:27Z",
+          "author": "François GOGLINS",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
@@ -70,41 +102,44 @@
       "label": "Gare de Mayet",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Mayet-station1.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMayet-station1.JPG",
+          "title": "Mayet-station1.JPG",
+          "description": "La gare vue des voies",
+          "width": 2048,
+          "height": 1536,
+          "size": 691879,
+          "timestamp": "2013-01-23T19:17:54Z",
+          "author": "Labiloute",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Mayet-station2.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMayet-station2.JPG",
+          "title": "Mayet-station2.JPG",
+          "description": "Le bâtiment de la gare vue de la rue (aujourd'hui devenu maison des associations)",
+          "width": 2048,
+          "height": 1536,
+          "size": 725410,
+          "timestamp": "2013-01-23T19:17:54Z",
+          "author": "Labiloute",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Gare_du_Mayet-de-Montagne_en_construction.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGare%20du%20Mayet-de-Montagne%20en%20construction.jpg",
           "title": "Gare du Mayet-de-Montagne en construction.jpg",
+          "description": "Gare du Mayet de Montagne en construction",
           "width": 1818,
           "height": 1018,
           "size": 546830,
           "timestamp": "2021-06-04T11:55:16Z",
           "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
           "license": "Public domain",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Gare_du_Mayet_de_Montagne.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGare%20du%20Mayet%20de%20Montagne.jpg",
-          "title": "Gare du Mayet de Montagne.jpg",
-          "width": 1875,
-          "height": 1236,
-          "size": 536338,
-          "timestamp": "2021-06-04T11:56:54Z",
-          "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
-          "license": "Public domain",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Gare_de_Mayet-de-Montagne_3.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGare%20de%20Mayet-de-Montagne%203.jpg",
-          "title": "Gare de Mayet-de-Montagne 3.jpg",
-          "width": 1753,
-          "height": 852,
-          "size": 410005,
-          "timestamp": "2023-05-24T08:56:33Z",
-          "author": "TCY",
-          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         }

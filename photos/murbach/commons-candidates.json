@@ -1,12 +1,41 @@
 {
   "slug": "murbach",
   "nom": "Murbach",
-  "fetchedAt": "2026-03-13T16:29:29.857Z",
+  "fetchedAt": "2026-03-17T21:34:13.257Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Murbach_abbey_entrance_gate_viewed_from_the_garden.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMurbach%20abbey%20entrance%20gate%20viewed%20from%20the%20garden.jpg",
+      "title": "Murbach abbey entrance gate viewed from the garden.jpg",
+      "description": "A view from the monastery garden onto the entrance gate into the former abbey, and the N steeple of the St. Leogedar abbey church",
+      "width": 3024,
+      "height": 4032,
+      "size": 5324814,
+      "timestamp": "2024-09-14T12:00:51Z",
+      "author": "DaLoetz",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Murbach_abbey_entrance_gate_between_monastery_buildings_and_monastic_garden.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMurbach%20abbey%20entrance%20gate%20between%20monastery%20buildings%20and%20monastic%20garden.jpg",
+      "title": "Murbach abbey entrance gate between monastery buildings and monastic garden.jpg",
+      "description": "A view from the monastic garden onto the entrance gate into the former abbey, flanked by two former buildings of the abbey, above it the S steeple of the St. Leogedar abbey church",
+      "width": 3024,
+      "height": 4032,
+      "size": 6662387,
+      "timestamp": "2024-09-14T12:03:51Z",
+      "author": "DaLoetz",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Murbach%2C_Mairie_02.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMurbach%2C%20Mairie%2002.jpg",
       "title": "Murbach, Mairie 02.jpg",
+      "description": "La mairie de Murbach, côté ouest",
       "width": 2277,
       "height": 1344,
       "size": 621113,
@@ -15,50 +44,168 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Murbach._Medieval_garden._2015-07-25_16-30-30.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMurbach.%20Medieval%20garden.%202015-07-25%2016-30-30.jpg",
-      "title": "Murbach. Medieval garden. 2015-07-25 16-30-30.jpg",
-      "width": 5184,
-      "height": 3456,
-      "size": 20739817,
-      "timestamp": "2021-08-23T13:39:00Z",
-      "author": "Shesmax",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Murbach._Abbey_entrance._Guardhouse._2015-07-25_16-30-46.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMurbach.%20Abbey%20entrance.%20Guardhouse.%202015-07-25%2016-30-46.jpg",
-      "title": "Murbach. Abbey entrance. Guardhouse. 2015-07-25 16-30-46.jpg",
-      "width": 5184,
-      "height": 3456,
-      "size": 14925201,
-      "timestamp": "2021-08-23T13:51:12Z",
-      "author": "Shesmax",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
     }
   ],
   "lieux": [
     {
       "label": "Façade ouest de l’abbatiale",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Murbach_Abbatiale_Tour_N_niv2_N_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMurbach%20Abbatiale%20Tour%20N%20niv2%20N%2001.jpg",
+          "title": "Murbach Abbatiale Tour N niv2 N 01.jpg",
+          "description": "Murbach (Alsace, France), église abbatiale, tour nord, niveau 2, côté nord, baie ouest.",
+          "width": 5632,
+          "height": 3755,
+          "size": 17162711,
+          "timestamp": "2026-02-01T20:59:04Z",
+          "author": "Runi Gerardsen",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Murbach_Abbatiale_Tour_N_niv2_N_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMurbach%20Abbatiale%20Tour%20N%20niv2%20N%2002.jpg",
+          "title": "Murbach Abbatiale Tour N niv2 N 02.jpg",
+          "description": "Murbach (Alsace, France), église abbatiale, tour nord, niveau 2, côté nord.",
+          "width": 6720,
+          "height": 4480,
+          "size": 23316527,
+          "timestamp": "2026-02-01T20:59:04Z",
+          "author": "Runi Gerardsen",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Murbach_Abbatiale_Tour_N_niv1_N_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMurbach%20Abbatiale%20Tour%20N%20niv1%20N%2001.jpg",
+          "title": "Murbach Abbatiale Tour N niv1 N 01.jpg",
+          "description": "Murbach (Alsace, France), église abbatiale, tour nord, niveau 1, côté nord.",
+          "width": 6720,
+          "height": 4480,
+          "size": 24098941,
+          "timestamp": "2026-02-01T20:59:05Z",
+          "author": "Runi Gerardsen",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Nef romane intérieure",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Murbach_Abbatiale_fa%C3%A7ade_O_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMurbach%20Abbatiale%20fa%C3%A7ade%20O%2001.jpg",
+          "title": "Murbach Abbatiale façade O 01.jpg",
+          "description": "Murbach (Alsace, France), église abbatiale, façade occidentale, partie supérieure avec arrachements des voûtes et toitures de l’ancienne nef.",
+          "width": 6720,
+          "height": 4480,
+          "size": 24111927,
+          "timestamp": "2026-02-07T08:20:53Z",
+          "author": "Runi Gerardsen",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Murbach_4.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMurbach%204.JPG",
+          "title": "Murbach 4.JPG",
+          "description": "Alsace, Haut-Rhin, Église abbatiale Saint-Léger (XIIe) de Murbach (PA00085554, IA00054802, IA00054801): Vue sur le narthex (nef détruite).",
+          "width": 4000,
+          "height": 3000,
+          "size": 977517,
+          "timestamp": "2010-07-26T17:10:51Z",
+          "author": "© Ralph Hammann - Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Murbach_Abbaye_19.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMurbach%20Abbaye%2019.JPG",
+          "title": "Murbach Abbaye 19.JPG",
+          "description": "Alsace, Haut-Rhin, Église abbatiale Saint-Léger (XIIe) de Murbach (PA00085554, IA00054802, IA00054801): Nef détruite au XVIIIe.",
+          "width": 4000,
+          "height": 3000,
+          "size": 1801977,
+          "timestamp": "2012-03-08T17:59:42Z",
+          "author": "© Ralph Hammann - Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Jardin du cloître disparu",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Murbach_090.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMurbach%20090.JPG",
+          "title": "Murbach 090.JPG",
+          "description": "L'église romane de Murbach vue du côté des jardins",
+          "width": 3072,
+          "height": 2304,
+          "size": 3199285,
+          "timestamp": "2009-08-29T20:09:45Z",
+          "author": "Bernard Chenal",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Petit cimetière attenant",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Portrait_de_B._F._A._d%27Andlau_d%27Hombourg%2C_prince_de_Murbach%2C_G.20824-15_%281_of_2%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APortrait%20de%20B.%20F.%20A.%20d'Andlau%20d'Hombourg%2C%20prince%20de%20Murbach%2C%20G.20824-15%20(1%20of%202).jpg",
+          "title": "Portrait de B. F. A. d'Andlau d'Hombourg, prince de Murbach, G.20824-15 (1 of 2).jpg",
+          "description": "Auteur(s):\n\nPetit, graveur\nLabadye, Charles Toussaint (Paris), dessinateur\n\n\n\nAutre titre:\n\nCollection des portraits des deputés a l'Assemblée nationale de 1789 (Titre de l'ensemble)\n\n\nDate de production:\n\nVers 1789\nDatation en siècle: \n18e siècle\n\n\n\nType(s) d'objet(s):\n\nEstampe, Arts graphiques\n\n\nDénomination(s):\n\nEstampe\n\n\nMatériaux et techniques:\n\nEau-forte, Burin\n\n\nDimensions - Coup de planche:\n\n\n   Hauteur : 21.5 cm\n   Largeur : 13.5 cm\n\n\n\nDimensions - Oeuvre:\n\n\n   Hauteur : 28 cm\n   Largeu",
+          "width": 1439,
+          "height": 3000,
+          "size": 1016505,
+          "timestamp": "2023-11-12T06:37:30Z",
+          "author": "Petit, graveur",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Portrait_de_B._F._A._d%27Andlau_d%27Hombourg%2C_prince_de_Murbach%2C_G.20824-15_%282_of_2%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APortrait%20de%20B.%20F.%20A.%20d'Andlau%20d'Hombourg%2C%20prince%20de%20Murbach%2C%20G.20824-15%20(2%20of%202).jpg",
+          "title": "Portrait de B. F. A. d'Andlau d'Hombourg, prince de Murbach, G.20824-15 (2 of 2).jpg",
+          "description": "Auteur(s):\n\nPetit, graveur\nLabadye, Charles Toussaint (Paris), dessinateur\n\n\n\nAutre titre:\n\nCollection des portraits des deputés a l'Assemblée nationale de 1789 (Titre de l'ensemble)\n\n\nDate de production:\n\nVers 1789\nDatation en siècle: \n18e siècle\n\n\n\nType(s) d'objet(s):\n\nEstampe, Arts graphiques\n\n\nDénomination(s):\n\nEstampe\n\n\nMatériaux et techniques:\n\nEau-forte, Burin\n\n\nDimensions - Coup de planche:\n\n\n   Hauteur : 21.5 cm\n   Largeur : 13.5 cm\n\n\n\nDimensions - Oeuvre:\n\n\n   Hauteur : 28 cm\n   Largeu",
+          "width": 2010,
+          "height": 3000,
+          "size": 900332,
+          "timestamp": "2023-11-12T06:37:57Z",
+          "author": "Petit, graveur",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Murbach_ND_Lorette_petit_autel.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMurbach%20ND%20Lorette%20petit%20autel.jpg",
+          "title": "Murbach ND Lorette petit autel.jpg",
+          "description": "Murbach (Alsace, France), chapelle Notre-Dame de Lorette, première pièce, mur Ouest, autel.",
+          "width": 4480,
+          "height": 6720,
+          "size": 27256279,
+          "timestamp": "2024-12-26T08:08:24Z",
+          "author": "Runi Gerardsen",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

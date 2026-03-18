@@ -1,12 +1,13 @@
 {
   "slug": "meymac",
   "nom": "Meymac",
-  "fetchedAt": "2026-03-13T16:10:28.848Z",
+  "fetchedAt": "2026-03-16T21:34:47.184Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Meymac_Abbatiale_Saint-Andr%C3%A9_11.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMeymac%20Abbatiale%20Saint-Andr%C3%A9%2011.jpg",
       "title": "Meymac Abbatiale Saint-André 11.jpg",
+      "description": "Église abbatiale Saint André de Meymac ― Mur sud de l'église. Emplacement de l'ancien cloître, aujourd'hui place du Bûcher",
       "width": 6000,
       "height": 4000,
       "size": 10103853,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Meymac_Abbatiale_Saint-Andr%C3%A9_10.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMeymac%20Abbatiale%20Saint-Andr%C3%A9%2010.jpg",
       "title": "Meymac Abbatiale Saint-André 10.jpg",
+      "description": "Église abbatiale Saint André de Meymac ― Chevet de l'église et bâtiments conventuels.",
       "width": 6000,
       "height": 4000,
       "size": 8653262,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Meymac_Eglise_abbatiale_Saint-Andr%C3%A9_-_Chapiteau_3.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMeymac%20Eglise%20abbatiale%20Saint-Andr%C3%A9%20-%20Chapiteau%203.jpg",
       "title": "Meymac Eglise abbatiale Saint-André - Chapiteau 3.jpg",
+      "description": "Église abbatiale Saint André de Meymac ― Chapiteaux du narthex ― Le roi prêtre Melchisédech et Abraham rendent grâce à Elyôn, Dieu très-haut (Genèse 14, 17-20).Localisation sur le plan géometral de l'église abbatiale :  chapiteau numéro 5 .",
       "width": 4029,
       "height": 2689,
       "size": 6009379,
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Meymac_Abbatiale_Saint-Andr%C3%A9_historique.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMeymac%20Abbatiale%20Saint-Andr%C3%A9%20historique.jpg",
           "title": "Meymac Abbatiale Saint-André historique.jpg",
+          "description": "Abbatiale Saint-André historique",
           "width": 5256,
           "height": 3551,
           "size": 9725517,
@@ -64,6 +68,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Meymac_Abbatiale_Saint-Andr%C3%A9_11.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMeymac%20Abbatiale%20Saint-Andr%C3%A9%2011.jpg",
           "title": "Meymac Abbatiale Saint-André 11.jpg",
+          "description": "Église abbatiale Saint André de Meymac ― Mur sud de l'église. Emplacement de l'ancien cloître, aujourd'hui place du Bûcher",
           "width": 6000,
           "height": 4000,
           "size": 10103853,
@@ -77,6 +82,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Meymac_Abbatiale_Saint-Andr%C3%A9_10.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMeymac%20Abbatiale%20Saint-Andr%C3%A9%2010.jpg",
           "title": "Meymac Abbatiale Saint-André 10.jpg",
+          "description": "Église abbatiale Saint André de Meymac ― Chevet de l'église et bâtiments conventuels.",
           "width": 6000,
           "height": 4000,
           "size": 8653262,
@@ -90,7 +96,50 @@
     },
     {
       "label": "Tour César",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Maquette_de_la_tour_du_Mont_Bessou%2C_Meymac.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaquette%20de%20la%20tour%20du%20Mont%20Bessou%2C%20Meymac.jpg",
+          "title": "Maquette de la tour du Mont Bessou, Meymac.jpg",
+          "description": "Maquette de la tour du Mont Bessou, Meymac (Corrèze, France).",
+          "width": 2304,
+          "height": 3456,
+          "size": 2024910,
+          "timestamp": "2024-04-19T10:10:27Z",
+          "author": "Lucas Destrem",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Meymac_-_Tour_croix.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMeymac%20-%20Tour%20croix.jpg",
+          "title": "Meymac - Tour croix.jpg",
+          "description": "Croix de Meymac",
+          "width": 3868,
+          "height": 5794,
+          "size": 13211007,
+          "timestamp": "2015-09-10T21:15:06Z",
+          "author": "A1AA1A",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Millevache_Plateau_near_Meymac.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMillevache%20Plateau%20near%20Meymac.JPG",
+          "title": "Millevache Plateau near Meymac.JPG",
+          "description": "View over edge of Millevaches Plateau from the Mont Bessou tower.",
+          "width": 3648,
+          "height": 2736,
+          "size": 890944,
+          "timestamp": "2008-08-12T13:59:03Z",
+          "author": "Sjwells53",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     },
     {
       "label": "Parc du château de Meymac",
@@ -98,7 +147,22 @@
     },
     {
       "label": "Centre d’art contemporain Meymac",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Peret_Bel_air%2C_l%27arriv%C3%A9e_par_la_route_de_Meymac.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APeret%20Bel%20air%2C%20l'arriv%C3%A9e%20par%20la%20route%20de%20Meymac.jpg",
+          "title": "Peret Bel air, l'arrivée par la route de Meymac.jpg",
+          "description": "A gauche la direction d'Egletons, à droite le centre de Péret Bel-Air, (Corrèze, France)",
+          "width": 3680,
+          "height": 2456,
+          "size": 2004079,
+          "timestamp": "2016-01-17T10:52:03Z",
+          "author": "Avocat jean",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

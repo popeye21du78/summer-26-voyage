@@ -1,12 +1,27 @@
 {
   "slug": "saint-jean-de-cole",
   "nom": "Saint-Jean-de-Côle",
-  "fetchedAt": "2026-03-14T12:03:51.896Z",
+  "fetchedAt": "2026-03-18T18:18:19.489Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Ch%C3%A2teau_de_la_Marthonie_%C3%A0_Saint_Jean_de_C%C3%B4le.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20la%20Marthonie%20%C3%A0%20Saint%20Jean%20de%20C%C3%B4le.jpg",
+      "title": "Château de la Marthonie à Saint Jean de Côle.jpg",
+      "description": "Château de la Marthonie",
+      "width": 3456,
+      "height": 4608,
+      "size": 2288882,
+      "timestamp": "2021-09-27T12:07:56Z",
+      "author": "Jacquym",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/NRA_Saint-Jean-de-C%C3%B4le_SJC_24.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANRA%20Saint-Jean-de-C%C3%B4le%20SJC%2024.jpg",
       "title": "NRA Saint-Jean-de-Côle SJC 24.jpg",
+      "description": "NRA Saint-Jean-de-Côle SJC 24, capacité de 450 lignes",
       "width": 4032,
       "height": 2268,
       "size": 3973086,
@@ -17,22 +32,10 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/NRA_ZO_Saint-Martin-de-Fressengeas_9S1_24.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANRA%20ZO%20Saint-Martin-de-Fressengeas%209S1%2024.jpg",
-      "title": "NRA ZO Saint-Martin-de-Fressengeas 9S1 24.jpg",
-      "width": 4032,
-      "height": 2268,
-      "size": 3739524,
-      "timestamp": "2021-12-21T11:14:33Z",
-      "author": "Pastèque24",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/St-Jean-de-C%C3%B4le_-_Rue_du_Fond_du_Bourg_-_bo%C3%AEte_%C3%A0_livres_01.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt-Jean-de-C%C3%B4le%20-%20Rue%20du%20Fond%20du%20Bourg%20-%20bo%C3%AEte%20%C3%A0%20livres%2001.jpg",
       "title": "St-Jean-de-Côle - Rue du Fond du Bourg - boîte à livres 01.jpg",
+      "description": "Boîte à livres VivalLivres à Saint-Jean-de-Côle.",
       "width": 3699,
       "height": 2774,
       "size": 4604908,
@@ -46,49 +49,95 @@
   "lieux": [
     {
       "label": "Pont médiéval de Saint-Jean-de-Côle",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/St-Jean-Cole-2016-pont_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt-Jean-Cole-2016-pont%2002.jpg",
+          "title": "St-Jean-Cole-2016-pont 02.jpg",
+          "description": "Vieux pont, Saint Jean de Côle, Dordogne, France.",
+          "width": 4288,
+          "height": 2848,
+          "size": 2319042,
+          "timestamp": "2016-09-24T20:08:32Z",
+          "author": "Traumrune",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/St-Jean-Cole-2016-pont_04.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt-Jean-Cole-2016-pont%2004.jpg",
+          "title": "St-Jean-Cole-2016-pont 04.jpg",
+          "description": "Vieux pont, Saint Jean de Côle, Dordogne, France.",
+          "width": 4288,
+          "height": 2848,
+          "size": 1902315,
+          "timestamp": "2016-09-24T20:13:56Z",
+          "author": "Traumrune",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/St-Jean-Cole-2016-pont_05.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt-Jean-Cole-2016-pont%2005.jpg",
+          "title": "St-Jean-Cole-2016-pont 05.jpg",
+          "description": "Le vieux pont et le moulin depuis le prieuré, Saint Jean de Côle, Dordogne, France.",
+          "width": 4288,
+          "height": 2848,
+          "size": 2390195,
+          "timestamp": "2016-09-24T20:16:11Z",
+          "author": "Traumrune",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Église Saint-Jean-Baptiste",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/St-Jean-Cole-eglise_01A_chapiteau.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt-Jean-Cole-eglise%2001A%20chapiteau.JPG",
-          "title": "St-Jean-Cole-eglise 01A chapiteau.JPG",
-          "width": 3434,
-          "height": 2281,
-          "size": 3274107,
-          "timestamp": "2015-04-24T20:02:19Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/St-Jean-Cole-2016-eglise_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt-Jean-Cole-2016-eglise%2001.jpg",
+          "title": "St-Jean-Cole-2016-eglise 01.jpg",
+          "description": "L'église de Saint Jean de Côle, Dordogne, France. Vue depuis le jardin du prieuré.",
+          "width": 4288,
+          "height": 2848,
+          "size": 1877795,
+          "timestamp": "2016-09-24T18:53:09Z",
           "author": "Traumrune",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/St-Jean-Cole-eglise_02-cadran.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt-Jean-Cole-eglise%2002-cadran.JPG",
-          "title": "St-Jean-Cole-eglise 02-cadran.JPG",
-          "width": 3600,
-          "height": 2391,
-          "size": 3732197,
-          "timestamp": "2015-04-24T20:13:56Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/St-Jean-Cole-2016-preure_06.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt-Jean-Cole-2016-preure%2006.jpg",
+          "title": "St-Jean-Cole-2016-preure 06.jpg",
+          "description": "Ancien prieuré, Saint Jean de Côle, Dordogne, France. Côté jardin avec l'église, la sacristie et au fond le château.",
+          "width": 4288,
+          "height": 2848,
+          "size": 1443433,
+          "timestamp": "2016-09-24T19:57:44Z",
           "author": "Traumrune",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/St-Jean-Cole-eglise_03_chapiteau.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt-Jean-Cole-eglise%2003%20chapiteau.JPG",
-          "title": "St-Jean-Cole-eglise 03 chapiteau.JPG",
-          "width": 3699,
-          "height": 2457,
-          "size": 4133813,
-          "timestamp": "2015-04-24T20:15:18Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/St-Jean-Cole-2016-eglise_05_chapiteau.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt-Jean-Cole-2016-eglise%2005%20chapiteau.jpg",
+          "title": "St-Jean-Cole-2016-eglise 05 chapiteau.jpg",
+          "description": "L'église de Saint Jean de Côle, Dordogne, France. Vue depuis le jardin du prieuré. Sculpture représentant Daniel dans la fosse aux lions.",
+          "width": 2400,
+          "height": 3614,
+          "size": 2043197,
+          "timestamp": "2016-09-24T18:57:13Z",
           "author": "Traumrune",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         }
       ]
     },
@@ -99,6 +148,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/St-Jean-Cole-chateau_01.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt-Jean-Cole-chateau%2001.JPG",
           "title": "St-Jean-Cole-chateau 01.JPG",
+          "description": "Château de la Marthonye à Saint Jean de Côle, Dordogne, France",
           "width": 3804,
           "height": 2527,
           "size": 4355919,
@@ -106,12 +156,13 @@
           "author": "Traumrune",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/St-Jean-Cole-chateau_03.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt-Jean-Cole-chateau%2003.JPG",
           "title": "St-Jean-Cole-chateau 03.JPG",
+          "description": "Château de la Marthonye à Saint Jean de Côle, Dordogne, France",
           "width": 4288,
           "height": 2848,
           "size": 5271841,
@@ -119,12 +170,13 @@
           "author": "Traumrune",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/St-Jean-Cole-chateau_04.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt-Jean-Cole-chateau%2004.JPG",
           "title": "St-Jean-Cole-chateau 04.JPG",
+          "description": "Château de la Marthonye à Saint Jean de Côle, Dordogne, France",
           "width": 4044,
           "height": 2686,
           "size": 4605787,
@@ -132,13 +184,56 @@
           "author": "Traumrune",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         }
       ]
     },
     {
       "label": "Place du village et ses arcades",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Le_chateau_de_La_Marthonie%2C_vue_d%E2%80%99ensemble_S.-S.E._en_hiver%2C_commune_de_Saint-Jean-de-Cole%2C_Dordogne%2C_France.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20chateau%20de%20La%20Marthonie%2C%20vue%20d%E2%80%99ensemble%20S.-S.E.%20en%20hiver%2C%20commune%20de%20Saint-Jean-de-Cole%2C%20Dordogne%2C%20France.jpg",
+          "title": "Le chateau de La Marthonie, vue d’ensemble S.-S.E. en hiver, commune de Saint-Jean-de-Cole, Dordogne, France.jpg",
+          "description": "Les chateaux et manoirs du Perigord, le chateau de La Marthonie (ou Marthonye) dans le village de Saint-Jean-de-Cole, le petit village medieval de Saint-Jean-de-Cole offre autour de sa place un ensemble architectural exceptionnel, une eglise romane, un prieure, une halle et le chateau de La Marthonie, ici vue d’ensemble S.-S.E. en hiver sous un ciel couvert, comme la plupart des grands chateaux perigourdins La Marthonie manque d’unite architecturale, a un premier groupe de logis et de tours des ",
+          "width": 1890,
+          "height": 1263,
+          "size": 605388,
+          "timestamp": "2018-09-27T14:18:05Z",
+          "author": "Dominique Robert Repérant",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Le_chateau_de_La_Marthonie%2C_l%27entree_du_grand_escalier_du_XVIIe_siecle%2C_commune_de_Saint-Jean-de-Cole%2C_Dordogne%2C_France.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20chateau%20de%20La%20Marthonie%2C%20l'entree%20du%20grand%20escalier%20du%20XVIIe%20siecle%2C%20commune%20de%20Saint-Jean-de-Cole%2C%20Dordogne%2C%20France.jpg",
+          "title": "Le chateau de La Marthonie, l'entree du grand escalier du XVIIe siecle, commune de Saint-Jean-de-Cole, Dordogne, France.jpg",
+          "description": "Les chateaux et manoirs du Perigord, le chateau de La Marthonie (ou Marthonye) dans le village de Saint-Jean-de-Cole, le grand escalier eclaire au crepuscule par trois projecteurs de 1000 W, ici vue partielle de l’entree en rez-de-cour d’honneur, le grand escalier a ete construit dans la seconde moitie du XVIIe siecle lors des travaux d’agrandissement du chateau Renaissance entrepris par Jean-Gaston de La Marthonie avec la dot de son epouse Marie Chapelle de Jumilhac, d’un plan dit « a rampes dr",
+          "width": 1261,
+          "height": 1890,
+          "size": 453198,
+          "timestamp": "2018-09-27T14:18:06Z",
+          "author": "Dominique Robert Repérant",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Le_chateau_de_La_Marthonie%2C_l%27etage_du_grand_escalier_du_XVIIe_siecle%2C_commune_de_Saint-Jean-de-Cole%2C_Dordogne%2C_France.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20chateau%20de%20La%20Marthonie%2C%20l'etage%20du%20grand%20escalier%20du%20XVIIe%20siecle%2C%20commune%20de%20Saint-Jean-de-Cole%2C%20Dordogne%2C%20France.jpg",
+          "title": "Le chateau de La Marthonie, l'etage du grand escalier du XVIIe siecle, commune de Saint-Jean-de-Cole, Dordogne, France.jpg",
+          "description": "Les chateaux et manoirs du Perigord, le chateau de La Marthonie (ou Marthonye) dans le village de Saint-Jean-de-Cole, le grand escalier eclaire au crepuscule par trois projecteurs de 1000 W, ici vue partielle depuis le palier du premier etage, cet escalier a ete construit dans la seconde moitie du XVIIe siecle lors des travaux d’agrandissement du chateau Renaissance entrepris par Jean-Gaston de La Marthonie avec la dot de son epouse Marie Chapelle de Jumilhac, d’un plan dit « a rampes droites » ",
+          "width": 1261,
+          "height": 1890,
+          "size": 530931,
+          "timestamp": "2018-09-27T14:18:06Z",
+          "author": "Dominique Robert Repérant",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     }
   ]
 }

@@ -1,12 +1,13 @@
 {
   "slug": "parc-du-chateau-de-mereville",
   "nom": "Parc du Château de Méréville",
-  "fetchedAt": "2026-03-13T16:44:50.195Z",
+  "fetchedAt": "2026-03-17T22:11:59.416Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Loos_parc_Danel.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALoos%20parc%20Danel.jpg",
       "title": "Loos parc Danel.jpg",
+      "description": "View of the Parc Danel, in Loos.",
       "width": 4441,
       "height": 2738,
       "size": 17400287,
@@ -14,29 +15,31 @@
       "author": "Velvet",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Loos_40_30_parc_notre_dame.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALoos%2040%2030%20parc%20notre%20dame.jpg",
-      "title": "Loos 40 30 parc notre dame.jpg",
-      "width": 5047,
-      "height": 3456,
-      "size": 16807788,
-      "timestamp": "2023-01-25T08:04:49Z",
-      "author": "Velvet",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Loos_vue_parc_danel.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALoos%20vue%20parc%20danel.jpg",
       "title": "Loos vue parc danel.jpg",
+      "description": "View of Parc Danel, in Loos.",
       "width": 5104,
       "height": 3264,
       "size": 26022734,
       "timestamp": "2023-05-22T17:52:54Z",
+      "author": "Velvet",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Loos_40_30_parc_notre_dame.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALoos%2040%2030%20parc%20notre%20dame.jpg",
+      "title": "Loos 40 30 parc notre dame.jpg",
+      "description": "Row houses, Parc Notre-Dame 40 to 30, in Loos.",
+      "width": 5047,
+      "height": 3456,
+      "size": 16807788,
+      "timestamp": "2023-01-25T08:04:49Z",
       "author": "Velvet",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",

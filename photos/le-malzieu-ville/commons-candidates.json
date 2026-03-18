@@ -1,12 +1,13 @@
 {
   "slug": "le-malzieu-ville",
   "nom": "Le Malzieu-Ville",
-  "fetchedAt": "2026-03-13T15:33:16.280Z",
+  "fetchedAt": "2026-03-16T20:04:34.764Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Marie_le_malzieu.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarie%20le%20malzieu.JPG",
       "title": "Marie le malzieu.JPG",
+      "description": "Le Malzieu-Ville (Lozère) : la mairie",
       "width": 3264,
       "height": 2448,
       "size": 1602472,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Le_Malzieu-Ville_-_Porte_Haut_-094.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Malzieu-Ville%20-%20Porte%20Haut%20-094.jpg",
       "title": "Le Malzieu-Ville - Porte Haut -094.jpg",
+      "description": "Le Malzieu-Ville - Porte Haute, côté rue Pierre-de-Mercoeur",
       "width": 3648,
       "height": 2736,
       "size": 4798756,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Le_Malzieu-Ville_-_Couvent_des_Ursulines_-110.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Malzieu-Ville%20-%20Couvent%20des%20Ursulines%20-110.jpg",
       "title": "Le Malzieu-Ville - Couvent des Ursulines -110.jpg",
+      "description": "Le Malzieu-Ville - Couvent des Ursulines et monument à Robert de Flers, place Eugène de Rozière",
       "width": 3648,
       "height": 2736,
       "size": 4685053,
@@ -46,7 +49,22 @@
   "lieux": [
     {
       "label": "Porte des Sœurs",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Le_Malzieu_La_maison_Delcroz.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Malzieu%20La%20maison%20Delcroz.jpg",
+          "title": "Le Malzieu La maison Delcroz.jpg",
+          "description": "Les portes de la maison Delcroz coté rue Florit et coté de la place du marché",
+          "width": 6912,
+          "height": 5184,
+          "size": 7716254,
+          "timestamp": "2013-09-19T14:12:12Z",
+          "author": "GillesRsl",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Pont Vieux",
@@ -56,9 +74,24 @@
       "label": "Église Saint-Hippolyte",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Le_Malzieu_Coll%C3%A9giale_St_Hippolyte_Vue_int%C3%A9rieur_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Malzieu%20Coll%C3%A9giale%20St%20Hippolyte%20Vue%20int%C3%A9rieur%201.jpg",
+          "title": "Le Malzieu Collégiale St Hippolyte Vue intérieur 1.jpg",
+          "description": "Collégiale Saint Hippolyte Vue du Chœur",
+          "width": 5023,
+          "height": 3421,
+          "size": 1186430,
+          "timestamp": "2014-05-04T16:49:25Z",
+          "author": "GillesRsl",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/%C3%89glise_du_malzieu.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20du%20malzieu.JPG",
           "title": "Église du malzieu.JPG",
+          "description": "église paroissiale Saint-Hippolyte du Malzieu-Ville (Lozère)",
           "width": 3264,
           "height": 2448,
           "size": 1628180,
@@ -72,6 +105,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Le_Malzieu-Ville_-_Eglise_Saint-Hippolyte_-125.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Malzieu-Ville%20-%20Eglise%20Saint-Hippolyte%20-125.jpg",
           "title": "Le Malzieu-Ville - Eglise Saint-Hippolyte -125.jpg",
+          "description": "Le Malzieu-Ville - Eglise Saint-Hippolyte",
           "width": 3648,
           "height": 2736,
           "size": 2475885,
@@ -80,25 +114,55 @@
           "license": "CC BY 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 5
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Le_Malzieu_Coll%C3%A9giale_St_Hippolyte_Vue_int%C3%A9rieur_1.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Malzieu%20Coll%C3%A9giale%20St%20Hippolyte%20Vue%20int%C3%A9rieur%201.jpg",
-          "title": "Le Malzieu Collégiale St Hippolyte Vue intérieur 1.jpg",
-          "width": 5023,
-          "height": 3421,
-          "size": 1186430,
-          "timestamp": "2014-05-04T16:49:25Z",
-          "author": "GillesRsl",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
         }
       ]
     },
     {
       "label": "Remparts et tour de Bodon",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Marie_le_malzieu.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarie%20le%20malzieu.JPG",
+          "title": "Marie le malzieu.JPG",
+          "description": "Le Malzieu-Ville (Lozère) : la mairie",
+          "width": 3264,
+          "height": 2448,
+          "size": 1602472,
+          "timestamp": "2010-09-06T14:29:01Z",
+          "author": "Vpe",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Le_Malzieu-Ville_-_Remparts_et_trou_de_Merle_-087.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Malzieu-Ville%20-%20Remparts%20et%20trou%20de%20Merle%20-087.jpg",
+          "title": "Le Malzieu-Ville - Remparts et trou de Merle -087.jpg",
+          "description": "Le Malzieu-Ville - Remparts et Porte Haute",
+          "width": 3648,
+          "height": 2736,
+          "size": 1589578,
+          "timestamp": "2011-08-24T16:48:03Z",
+          "author": "MOSSOT",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Le_Malzieu-Ville_-_Remparts_-107.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Malzieu-Ville%20-%20Remparts%20-107.jpg",
+          "title": "Le Malzieu-Ville - Remparts -107.jpg",
+          "description": "Le Malzieu-Ville - Remparts côté ouest avec le trou de Merle",
+          "width": 3648,
+          "height": 2626,
+          "size": 1912324,
+          "timestamp": "2011-08-24T16:48:03Z",
+          "author": "MOSSOT",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     }
   ]
 }

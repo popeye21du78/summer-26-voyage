@@ -1,12 +1,13 @@
 {
   "slug": "felletin",
   "nom": "Felletin",
-  "fetchedAt": "2026-03-13T14:22:01.862Z",
+  "fetchedAt": "2026-03-16T13:21:00.071Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/04.07.93_Felletin_X_2226_%2815449766139%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A04.07.93%20Felletin%20X%202226%20(15449766139).jpg",
       "title": "04.07.93 Felletin X 2226 (15449766139).jpg",
+      "description": "X 2226 at Felletin, Creuse on 4 July 1993.",
       "width": 1500,
       "height": 933,
       "size": 1352403,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Felletin_office_tourisme.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFelletin%20office%20tourisme.jpg",
       "title": "Felletin office tourisme.jpg",
+      "description": "Attenant à l'église Sainte-Valérie, l'office de tourisme, place Philippe-Quinault (26 Grande rue), Felletin,Creuse, France.",
       "width": 2266,
       "height": 1699,
       "size": 987462,
@@ -30,17 +32,18 @@
       "score": 6
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Felletin_tour.JPG",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFelletin%20tour.JPG",
-      "title": "Felletin tour.JPG",
-      "width": 2592,
-      "height": 1944,
-      "size": 1108142,
-      "timestamp": "2014-09-24T18:17:22Z",
-      "author": "Ivebreg",
-      "license": "CC BY-SA 3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Eglise_Sainte-Val%C3%A9rie_dite_%C3%A9glise_du_Moutier_-_Nef_vue_de_la_tribune_-_Felletin_-_M%C3%A9diath%C3%A8que_de_l%27architecture_et_du_patrimoine_-_APMH00033234.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Sainte-Val%C3%A9rie%20dite%20%C3%A9glise%20du%20Moutier%20-%20Nef%20vue%20de%20la%20tribune%20-%20Felletin%20-%20M%C3%A9diath%C3%A8que%20de%20l'architecture%20et%20du%20patrimoine%20-%20APMH00033234.jpg",
+      "title": "Eglise Sainte-Valérie dite église du Moutier - Nef vue de la tribune - Felletin - Médiathèque de l'architecture et du patrimoine - APMH00033234.jpg",
+      "description": "Nef vue de la tribune.",
+      "width": 710,
+      "height": 512,
+      "size": 53862,
+      "timestamp": "2020-04-28T08:08:34Z",
+      "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Camille_Enlart\" class=\"extiw\" title=\"w:en:Camille Enlart\"><span title=\"French art historian and photographer (1862-1927)\">Camille Enlart</span></a></bdi>",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
+      "score": 6
     }
   ],
   "lieux": [
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Felletin_%C3%A9glise_SV.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFelletin%20%C3%A9glise%20SV.jpg",
           "title": "Felletin église SV.jpg",
+          "description": "L'église Sainte-Valérie, Felletin, Creuse, France.",
           "width": 3033,
           "height": 2275,
           "size": 1291713,
@@ -64,6 +68,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Felletin_%C3%A9glise_SV_modillons_%281%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFelletin%20%C3%A9glise%20SV%20modillons%20(1).jpg",
           "title": "Felletin église SV modillons (1).jpg",
+          "description": "Modillons de l'église Sainte-Valérie, Felletin, Creuse, France.",
           "width": 2677,
           "height": 2008,
           "size": 1451278,
@@ -77,6 +82,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Felletin_%C3%A9glise_SV_gargouilles.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFelletin%20%C3%A9glise%20SV%20gargouilles.jpg",
           "title": "Felletin église SV gargouilles.jpg",
+          "description": "Gargouilles de l'église Sainte-Valérie, Felletin, Creuse, France.",
           "width": 2542,
           "height": 1907,
           "size": 1444274,
@@ -90,7 +96,50 @@
     },
     {
       "label": "Tour de l’Horloge",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Felletin_tour.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFelletin%20tour.JPG",
+          "title": "Felletin tour.JPG",
+          "description": "Tour de Felletin",
+          "width": 2592,
+          "height": 1944,
+          "size": 1108142,
+          "timestamp": "2014-09-24T18:17:22Z",
+          "author": "Ivebreg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Felletin_tour_%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFelletin%20tour%20(2).jpg",
+          "title": "Felletin tour (2).jpg",
+          "description": "La tour de Felletin, Creuse, France.",
+          "width": 2294,
+          "height": 3059,
+          "size": 1854911,
+          "timestamp": "2019-04-19T18:03:25Z",
+          "author": "Père Igor",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Tour_de_Felletin_Rue_des_foss%C3%A9s.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATour%20de%20Felletin%20Rue%20des%20foss%C3%A9s.JPG",
+          "title": "Tour de Felletin Rue des fossés.JPG",
+          "description": "Tour de Felletin",
+          "width": 2432,
+          "height": 3648,
+          "size": 3744479,
+          "timestamp": "2014-09-25T06:00:25Z",
+          "author": "Ivebreg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     },
     {
       "label": "Pont Roby",
@@ -99,6 +148,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Creuse_Felletin_amont_pont_Roby.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACreuse%20Felletin%20amont%20pont%20Roby.jpg",
           "title": "Creuse Felletin amont pont Roby.jpg",
+          "description": "La Creuse au niveau du pont Roby, Felletin, Creuse, France. Vue prise en direction de l'amont.",
           "width": 3264,
           "height": 2448,
           "size": 3059741,
@@ -112,6 +162,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Creuse_Felletin_aval_pont_Roby.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACreuse%20Felletin%20aval%20pont%20Roby.jpg",
           "title": "Creuse Felletin aval pont Roby.jpg",
+          "description": "La Creuse au niveau du pont Roby, Felletin, Creuse, France. Vue prise en direction de l'aval.",
           "width": 3190,
           "height": 2393,
           "size": 2050903,
@@ -125,6 +176,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Felletin_pont_Roby_%283%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFelletin%20pont%20Roby%20(3).jpg",
           "title": "Felletin pont Roby (3).jpg",
+          "description": "Le pont Roby sur la Creuse, Felletin, Creuse, France.",
           "width": 3223,
           "height": 2417,
           "size": 2335778,

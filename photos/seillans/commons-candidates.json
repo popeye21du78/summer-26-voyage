@@ -1,12 +1,13 @@
 {
   "slug": "seillans",
   "nom": "Seillans",
-  "fetchedAt": "2026-03-14T12:29:03.738Z",
+  "fetchedAt": "2026-03-18T19:13:12.306Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Seillans_-_Ressourcerie_l%27Aquarium_-_bo%C3%AEte_%C3%A0_livres.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASeillans%20-%20Ressourcerie%20l'Aquarium%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
       "title": "Seillans - Ressourcerie l'Aquarium - boîte à livres.jpg",
+      "description": "Boîte à livres à Seillans",
       "width": 2500,
       "height": 1870,
       "size": 626715,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Aire_de_stationnement_des_camping-cars_%C3%A0_Seillans.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAire%20de%20stationnement%20des%20camping-cars%20%C3%A0%20Seillans.jpg",
       "title": "Aire de stationnement des camping-cars à Seillans.jpg",
+      "description": "Aire municipales Camping Car Fayence 2",
       "width": 4080,
       "height": 2296,
       "size": 3828412,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Aire_camping-cars_a_Seillans.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAire%20camping-cars%20a%20Seillans.jpg",
       "title": "Aire camping-cars a Seillans.jpg",
+      "description": "Aire camping-cars a Seillans",
       "width": 4080,
       "height": 2296,
       "size": 4050515,
@@ -48,43 +51,46 @@
       "label": "Place du Thouron",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Lavoir_du_Thouron_%28Seillans%2C_Var%29_-_01.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALavoir%20du%20Thouron%20(Seillans%2C%20Var)%20-%2001.jpg",
-          "title": "Lavoir du Thouron (Seillans, Var) - 01.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Le_ch%C3%A2teau_de_Seillans_%2883%29_-_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20ch%C3%A2teau%20de%20Seillans%20(83)%20-%2001.jpg",
+          "title": "Le château de Seillans (83) - 01.jpg",
+          "description": "Château-fort, fief de l'abbaye Saint-Victor de Marseille, il fut la demeure des seigneurs et co-seigneurs de Seillans à partir du 12e s. (Var, France)",
           "width": 4000,
           "height": 3000,
-          "size": 5166080,
-          "timestamp": "2025-02-20T19:39:49Z",
+          "size": 5230080,
+          "timestamp": "2025-02-20T14:36:43Z",
           "author": "Thérèse Gaigé",
           "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Place_du_Thouron_%28Seillans%2C_Var%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlace%20du%20Thouron%20(Seillans%2C%20Var).jpg",
-          "title": "Place du Thouron (Seillans, Var).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Mairie_de_Seillans_%2883%29_-_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMairie%20de%20Seillans%20(83)%20-%2002.jpg",
+          "title": "Mairie de Seillans (83) - 02.jpg",
+          "description": "Vue depuis la rue de l'Église, au-dessus la voûte, la Maison Saint -Esprit abritant la salle de réunion de la mairie de Seillans (Var, France)",
           "width": 4000,
           "height": 3000,
-          "size": 5087744,
-          "timestamp": "2025-02-20T19:39:49Z",
+          "size": 5047808,
+          "timestamp": "2025-02-20T17:01:29Z",
           "author": "Thérèse Gaigé",
           "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Lavoir_du_Thouron_%28Seillans%2C_Var%29_-_04.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALavoir%20du%20Thouron%20(Seillans%2C%20Var)%20-%2004.jpg",
-          "title": "Lavoir du Thouron (Seillans, Var) - 04.jpg",
-          "width": 4000,
-          "height": 3000,
-          "size": 5091328,
-          "timestamp": "2025-02-20T19:39:53Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/La_Porte_Sarrasine_%28Seillans%2C_83%29_-_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Porte%20Sarrasine%20(Seillans%2C%2083)%20-%2002.jpg",
+          "title": "La Porte Sarrasine (Seillans, 83) - 02.jpg",
+          "description": "La Porte Sarrasine vue depuis la place Font d'Amont (Seillans, Var)",
+          "width": 3000,
+          "height": 4000,
+          "size": 5349888,
+          "timestamp": "2025-02-19T21:14:29Z",
           "author": "Thérèse Gaigé",
           "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 8
         }
       ]
     },
@@ -94,49 +100,81 @@
     },
     {
       "label": "Passage voûté (ruelles médiévales)",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Rue_du_Valat_%28Seillans%2C_83%29_-_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARue%20du%20Valat%20(Seillans%2C%2083)%20-%2001.jpg",
+          "title": "Rue du Valat (Seillans, 83) - 01.jpg",
+          "description": "La rue du Valat avec, à gauche, la mairie, au-dessus de la voûte, la Maison Saint-Esprit et, à droite, la montée au château (Seillans, Var)",
+          "width": 4000,
+          "height": 3000,
+          "size": 4996096,
+          "timestamp": "2025-02-20T14:53:52Z",
+          "author": "Thérèse Gaigé",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Mairie_de_Seillans_%2883%29_-_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMairie%20de%20Seillans%20(83)%20-%2002.jpg",
+          "title": "Mairie de Seillans (83) - 02.jpg",
+          "description": "Vue depuis la rue de l'Église, au-dessus la voûte, la Maison Saint -Esprit abritant la salle de réunion de la mairie de Seillans (Var, France)",
+          "width": 4000,
+          "height": 3000,
+          "size": 5047808,
+          "timestamp": "2025-02-20T17:01:29Z",
+          "author": "Thérèse Gaigé",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Rue_du_Valat_%28Seillans%2C_83%29_-_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARue%20du%20Valat%20(Seillans%2C%2083)%20-%2002.jpg",
+          "title": "Rue du Valat (Seillans, 83) - 02.jpg",
+          "description": "À l'extrémité de la rue du Valat, au-dessus de la voûte,  la \"Maison Saint-Esprit\", salle de réunion de jadis et d'aujourd'hui du Conseil Communal puis Municipal de Seillans (Var, France)",
+          "width": 4000,
+          "height": 3000,
+          "size": 4982784,
+          "timestamp": "2025-02-20T15:05:33Z",
+          "author": "Thérèse Gaigé",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Chapelle Notre-Dame de l’Ormeau",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/St-Arnoux01.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt-Arnoux01.jpg",
-          "title": "St-Arnoux01.jpg",
-          "width": 2048,
-          "height": 1536,
-          "size": 1611576,
-          "timestamp": "2015-09-09T19:01:51Z",
-          "author": "<div style=\"clear:both; border: 1px solid #999; margin: 1em; padding: 1em; background-color: #eeefff;\">\n<p>This illustration was made by (<b>User:Royonx</b>) and released under the license(s) stated above. You are free to use it for any purpose as long as you credit me and follow the terms of the license.\n</p><p>Example :  © Michel Royon / Wikimedia Commons\n</p><p>If you use this image outside of the Wikimedia projects, I would be happy to <a href=\"//commons.wikimedia.org/wiki/Special:EmailUser/Royonx\" title=\"Special:EmailUser/Royonx\">hear from you</a> par courriel (<span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Nuvola_apps_email.png\" class=\"mw-file-description\" title=\"mail\"><img alt=\"mail\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Nuvola_apps_email.png/20px-Nuvola_apps_email.png\" decoding=\"async\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Nuvola_apps_email.png/40px-Nuvola_apps_email.png 1.5x\" data-file-width=\"128\" data-file-height=\"128\"></a></span> royonx <span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:At_char.svg\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/At_char.svg/20px-At_char.svg.png\" decoding=\"async\" width=\"12\" height=\"12\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/At_char.svg/40px-At_char.svg.png 2x\" data-file-width=\"10\" data-file-height=\"10\"></a></span> gmail.com). Thanks !\n</p>\n<hr>\n<small><a href=\"//commons.wikimedia.org/wiki/User:Royonx/Credits-fr\" title=\"User:Royonx/Credits-fr\">Ce message en français</a></small></div>",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Ancien_couvent_des_Doctrinaires_%28Seillans%2C_Var%29_-_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAncien%20couvent%20des%20Doctrinaires%20(Seillans%2C%20Var)%20-%2002.jpg",
+          "title": "Ancien couvent des Doctrinaires (Seillans, Var) - 02.jpg",
+          "description": "Ancien couvent des Doctrinaires, puis Chapelle Saint-Antoine et enfin, de nos jours, cette chapelle désaffectée a été transformée en salle d'expositions (Seillans, Var)",
+          "width": 4000,
+          "height": 3000,
+          "size": 4968960,
+          "timestamp": "2025-02-20T19:47:44Z",
+          "author": "Thérèse Gaigé",
           "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Chapelle_de_L%27Ormeau_.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20de%20L'Ormeau%20.jpg",
-          "title": "Chapelle de L'Ormeau .jpg",
-          "width": 2074,
-          "height": 1383,
-          "size": 1745571,
-          "timestamp": "2018-10-25T10:24:05Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Seillans_Chapelle.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASeillans%20Chapelle.jpg",
+          "title": "Seillans Chapelle.jpg",
+          "description": "Chapelle de L'Ormeau et son labyrinthite",
+          "width": 921,
+          "height": 614,
+          "size": 124975,
+          "timestamp": "2018-10-25T10:27:43Z",
           "author": "Fouineblanche",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Chapelle_de_L%27Ormeau.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20de%20L'Ormeau.jpg",
-          "title": "Chapelle de L'Ormeau.jpg",
-          "width": 1944,
-          "height": 1296,
-          "size": 382455,
-          "timestamp": "2018-10-25T10:25:26Z",
-          "author": "Fouineblanche",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 4
         }
       ]
     }

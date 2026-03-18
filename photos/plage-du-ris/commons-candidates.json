@@ -1,56 +1,89 @@
 {
   "slug": "plage-du-ris",
   "nom": "Plage du Ris",
-  "fetchedAt": "2026-03-14T11:26:00.535Z",
+  "fetchedAt": "2026-03-18T16:38:58.008Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/ISS061-E-52956_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS061-E-52956%20-%20View%20of%20Earth.jpg",
-      "title": "ISS061-E-52956 - View of Earth.jpg",
-      "width": 5568,
-      "height": 3712,
-      "size": 5984043,
-      "timestamp": "2021-04-25T20:10:47Z",
-      "author": "Earth Science and Remote Sensing Unit, NASA Johnson Space Center",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Ch%C3%A2teaux_de_sable_%C3%A0_la_plage_du_Ris.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teaux%20de%20sable%20%C3%A0%20la%20plage%20du%20Ris.JPG",
+      "title": "Châteaux de sable à la plage du Ris.JPG",
+      "description": "Douarnenez, château de sable à la plage du Ris",
+      "width": 2304,
+      "height": 1728,
+      "size": 1924430,
+      "timestamp": "2015-07-25T00:08:48Z",
+      "author": "Tegwenn",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 8
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/ISS062-E-97200_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS062-E-97200%20-%20View%20of%20Earth.jpg",
-      "title": "ISS062-E-97200 - View of Earth.jpg",
-      "width": 5568,
-      "height": 3712,
-      "size": 1395217,
-      "timestamp": "2021-04-28T15:48:09Z",
-      "author": "Earth Science and Remote Sensing Unit, NASA Johnson Space Center",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Ch%C3%A2teaux_de_sable_%C3%A0_la_plage_du_Ris_2.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teaux%20de%20sable%20%C3%A0%20la%20plage%20du%20Ris%202.JPG",
+      "title": "Châteaux de sable à la plage du Ris 2.JPG",
+      "description": "Douarnenez, château de sable à la plage du Ris",
+      "width": 2304,
+      "height": 1728,
+      "size": 1903817,
+      "timestamp": "2015-07-25T00:08:51Z",
+      "author": "Tegwenn",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 8
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/ISS062-E-97201_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS062-E-97201%20-%20View%20of%20Earth.jpg",
-      "title": "ISS062-E-97201 - View of Earth.jpg",
-      "width": 5568,
-      "height": 3712,
-      "size": 1421959,
-      "timestamp": "2021-04-28T15:49:05Z",
-      "author": "Earth Science and Remote Sensing Unit, NASA Johnson Space Center",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/032_Douarnenez_Plage_du_Ris.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A032%20Douarnenez%20Plage%20du%20Ris.JPG",
+      "title": "032 Douarnenez Plage du Ris.JPG",
+      "description": "Douarnenez : la plage du Ris vue depuis le sentier des Plomarc'h",
+      "width": 3648,
+      "height": 2736,
+      "size": 4901598,
+      "timestamp": "2015-09-23T01:58:43Z",
+      "author": "Moreau.henri",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 8
     }
   ],
   "lieux": [
     {
       "label": "digue de la Plage du Ris",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/071_La_plage_du_Ris_Maurice_Le_Scouezec.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A071%20La%20plage%20du%20Ris%20Maurice%20Le%20Scouezec.JPG",
+          "title": "071 La plage du Ris Maurice Le Scouezec.JPG",
+          "description": "Maurice Le Scouëzec : La plage du Ris (Douarnenez, halles)",
+          "width": 1854,
+          "height": 945,
+          "size": 697095,
+          "timestamp": "2012-07-26T03:43:13Z",
+          "author": "Moreau.henri",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "sentier côtier du Cap Sizun",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/032_Douarnenez_Plage_du_Ris.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A032%20Douarnenez%20Plage%20du%20Ris.JPG",
+          "title": "032 Douarnenez Plage du Ris.JPG",
+          "description": "Douarnenez : la plage du Ris vue depuis le sentier des Plomarc'h",
+          "width": 3648,
+          "height": 2736,
+          "size": 4901598,
+          "timestamp": "2015-09-23T01:58:43Z",
+          "author": "Moreau.henri",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        }
+      ]
     },
     {
       "label": "ruisseau traversant la plage",

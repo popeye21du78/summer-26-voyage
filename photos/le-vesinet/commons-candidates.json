@@ -1,12 +1,13 @@
 {
   "slug": "le-vesinet",
   "nom": "Le Vésinet",
-  "fetchedAt": "2026-03-13T01:14:39.933Z",
+  "fetchedAt": "2026-03-16T20:23:42.991Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Carrefour_Gr%C3%A2ce_Dieu_-_Le_V%C3%A9sinet_%28FR78%29_-_2024-06-08_-_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarrefour%20Gr%C3%A2ce%20Dieu%20-%20Le%20V%C3%A9sinet%20(FR78)%20-%202024-06-08%20-%201.jpg",
       "title": "Carrefour Grâce Dieu - Le Vésinet (FR78) - 2024-06-08 - 1.jpg",
+      "description": "Carrefour de la Grâce de Dieu, Le Vésinet.",
       "width": 4032,
       "height": 3024,
       "size": 3461477,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Carrefour_Gr%C3%A2ce_Dieu_-_Le_V%C3%A9sinet_%28FR78%29_-_2024-06-08_-_2.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarrefour%20Gr%C3%A2ce%20Dieu%20-%20Le%20V%C3%A9sinet%20(FR78)%20-%202024-06-08%20-%202.jpg",
       "title": "Carrefour Grâce Dieu - Le Vésinet (FR78) - 2024-06-08 - 2.jpg",
+      "description": "Carrefour de la Grâce de Dieu, Le Vésinet.",
       "width": 4032,
       "height": 3024,
       "size": 3892669,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/%C3%89glise_Sainte_Marguerite_-_Le_V%C3%A9sinet_%28FR78%29_-_2024-06-08_-_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Sainte%20Marguerite%20-%20Le%20V%C3%A9sinet%20(FR78)%20-%202024-06-08%20-%201.jpg",
       "title": "Église Sainte Marguerite - Le Vésinet (FR78) - 2024-06-08 - 1.jpg",
+      "description": "Église Sainte-Marguerite, Le Vésinet.",
       "width": 4621,
       "height": 2851,
       "size": 13018627,
@@ -48,17 +51,46 @@
       "label": "Grand Lac du Vésinet",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/House_in_Le_V%C3%A9sinet_001.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHouse%20in%20Le%20V%C3%A9sinet%20001.JPG",
-          "title": "House in Le Vésinet 001.JPG",
-          "width": 4038,
-          "height": 2814,
-          "size": 3160110,
-          "timestamp": "2012-02-24T16:10:38Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Palais_Rose_Le_V%C3%A9sinet_001.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APalais%20Rose%20Le%20V%C3%A9sinet%20001.JPG",
+          "title": "Palais Rose Le Vésinet 001.JPG",
+          "description": "Palais Rose in Le Vésinet, department of Yvelines, France. The mansion is a replica of Grand Trianon and was built about 1899 for the shipowner Schweitzer.",
+          "width": 4096,
+          "height": 2720,
+          "size": 4057695,
+          "timestamp": "2022-12-09T22:22:26Z",
           "author": "Moonik",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Grand_Lac_des_Ibis_Le_V%C3%A9sinet_001.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrand%20Lac%20des%20Ibis%20Le%20V%C3%A9sinet%20001.JPG",
+          "title": "Grand Lac des Ibis Le Vésinet 001.JPG",
+          "description": "View of the island of Ibises and the Pavillon des Ibises (former Casino) on the Great Lake of Ibises in Le Vésinet, department of Yvelines, France.",
+          "width": 4288,
+          "height": 2848,
+          "size": 3988762,
+          "timestamp": "2012-02-22T05:15:00Z",
+          "author": "Moonik",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Palais_Rose_Le_V%C3%A9sinet_002.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APalais%20Rose%20Le%20V%C3%A9sinet%20002.JPG",
+          "title": "Palais Rose Le Vésinet 002.JPG",
+          "description": "Palais Rose in Le Vésinet, department of Yvelines, France. The mansion is a replica of Grand Trianon and was built about 1899 for the shipowner Schweitzer.",
+          "width": 3965,
+          "height": 2666,
+          "size": 2836843,
+          "timestamp": "2022-12-09T22:23:42Z",
+          "author": "Moonik",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
         }
       ]
     },
@@ -66,41 +98,44 @@
       "label": "Parc des Ibis",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Projet_de_colonisation._Vue_perspective_du_parc_du_Vesinet_-_btv1b53085068g.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AProjet%20de%20colonisation.%20Vue%20perspective%20du%20parc%20du%20Vesinet%20-%20btv1b53085068g.jpg",
+          "title": "Projet de colonisation. Vue perspective du parc du Vesinet - btv1b53085068g.jpg",
+          "description": "Sujet : Le Vésinet\nAppartient à l’ensemble documentaire : IledeFr1\nCouverture : France – Île-de-France – Yvelines\nLangue : français\n\nÉditeur : imp. de Lemercier (Paris)",
+          "width": 9741,
+          "height": 7236,
+          "size": 17729764,
+          "timestamp": "2022-07-22T22:48:45Z",
+          "author": "Inconnu",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Le_Parc_de_M._et_Mme_Utrillo_au_V%C3%A9sinet_-_Maurice_Utrillo.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Parc%20de%20M.%20et%20Mme%20Utrillo%20au%20V%C3%A9sinet%20-%20Maurice%20Utrillo.jpg",
+          "title": "Le Parc de M. et Mme Utrillo au Vésinet - Maurice Utrillo.jpg",
+          "description": "Maurice Utrillo, Le Parc de M. et Mme Utrillo au Vésinet, signed “Maurice Utrillo V.” (lower right), oil on canvas, 97,2 x 130,6 cm; 38¼ x 51⅜ in. Painted circa 1940.",
+          "width": 2048,
+          "height": 1636,
+          "size": 1431566,
+          "timestamp": "2026-02-09T20:21:45Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Maurice_Utrillo\" class=\"extiw\" title=\"w:en:Maurice Utrillo\"><span title=\"French painter (1883-1955)\">Maurice Utrillo</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Foulque_macroule_juv%C3%A9nile%2C_Le_V%C3%A9sinet.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFoulque%20macroule%20juv%C3%A9nile%2C%20Le%20V%C3%A9sinet.jpg",
           "title": "Foulque macroule juvénile, Le Vésinet.jpg",
+          "description": "Foulque macroule (Fulica atra) dans les Yvelines, au parc des Ibis (Le Vésinet).",
           "width": 5160,
           "height": 3440,
           "size": 7958787,
           "timestamp": "2015-07-12T09:13:43Z",
           "author": "Laure Ette",
           "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Foulque_macroule_juv%C3%A9nile_de_dos%2C_Le_V%C3%A9sinet.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFoulque%20macroule%20juv%C3%A9nile%20de%20dos%2C%20Le%20V%C3%A9sinet.jpg",
-          "title": "Foulque macroule juvénile de dos, Le Vésinet.jpg",
-          "width": 6000,
-          "height": 4000,
-          "size": 6332991,
-          "timestamp": "2015-07-12T09:13:43Z",
-          "author": "Laure Ette",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Fontaine_parc_des_Ibis_V%C3%A9sinet-1.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFontaine%20parc%20des%20Ibis%20V%C3%A9sinet-1.jpg",
-          "title": "Fontaine parc des Ibis Vésinet-1.jpg",
-          "width": 4160,
-          "height": 3120,
-          "size": 4676510,
-          "timestamp": "2018-02-24T15:05:28Z",
-          "author": "Tpe.g5.stan",
-          "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
         }
@@ -113,6 +148,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Le_Vesinet_Pont.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Vesinet%20Pont.jpg",
           "title": "Le Vesinet Pont.jpg",
+          "description": "Reflections",
           "width": 3696,
           "height": 2414,
           "size": 6104432,
@@ -126,6 +162,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Grand_Lac_des_Ibis_Le_V%C3%A9sinet_003.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrand%20Lac%20des%20Ibis%20Le%20V%C3%A9sinet%20003.JPG",
           "title": "Grand Lac des Ibis Le Vésinet 003.JPG",
+          "description": "The north brigde over the Grand Lac des Ibis in Le Vésinet, department of Yvelines in France.",
           "width": 4288,
           "height": 2848,
           "size": 4594135,
@@ -139,6 +176,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Grand_Lac_des_Ibis_Le_V%C3%A9sinet_004.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrand%20Lac%20des%20Ibis%20Le%20V%C3%A9sinet%20004.JPG",
           "title": "Grand Lac des Ibis Le Vésinet 004.JPG",
+          "description": "The south brigde over the Grand Lac des Ibis in Le Vésinet, department of Yvelines in France.",
           "width": 4288,
           "height": 2848,
           "size": 4547317,
@@ -157,6 +195,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/%C3%89glise_Sainte_Marguerite_-_Le_V%C3%A9sinet_%28FR78%29_-_2024-06-08_-_1.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Sainte%20Marguerite%20-%20Le%20V%C3%A9sinet%20(FR78)%20-%202024-06-08%20-%201.jpg",
           "title": "Église Sainte Marguerite - Le Vésinet (FR78) - 2024-06-08 - 1.jpg",
+          "description": "Église Sainte-Marguerite, Le Vésinet.",
           "width": 4621,
           "height": 2851,
           "size": 13018627,
@@ -170,6 +209,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/%C3%89glise_Sainte_Marguerite_-_Le_V%C3%A9sinet_%28FR78%29_-_2024-06-08_-_2.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Sainte%20Marguerite%20-%20Le%20V%C3%A9sinet%20(FR78)%20-%202024-06-08%20-%202.jpg",
           "title": "Église Sainte Marguerite - Le Vésinet (FR78) - 2024-06-08 - 2.jpg",
+          "description": "Église Sainte-Marguerite, Le Vésinet.",
           "width": 4032,
           "height": 3024,
           "size": 2984726,
@@ -183,6 +223,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/%C3%89glise_Sainte_Marguerite_-_Le_V%C3%A9sinet_%28FR78%29_-_2024-06-08_-_5.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Sainte%20Marguerite%20-%20Le%20V%C3%A9sinet%20(FR78)%20-%202024-06-08%20-%205.jpg",
           "title": "Église Sainte Marguerite - Le Vésinet (FR78) - 2024-06-08 - 5.jpg",
+          "description": "Église Sainte-Marguerite, Le Vésinet.",
           "width": 3024,
           "height": 3487,
           "size": 2732026,
@@ -196,11 +237,97 @@
     },
     {
       "label": "Parc Princesse",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Projet_de_colonisation._Vue_perspective_du_parc_du_Vesinet_-_btv1b53085068g.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AProjet%20de%20colonisation.%20Vue%20perspective%20du%20parc%20du%20Vesinet%20-%20btv1b53085068g.jpg",
+          "title": "Projet de colonisation. Vue perspective du parc du Vesinet - btv1b53085068g.jpg",
+          "description": "Sujet : Le Vésinet\nAppartient à l’ensemble documentaire : IledeFr1\nCouverture : France – Île-de-France – Yvelines\nLangue : français\n\nÉditeur : imp. de Lemercier (Paris)",
+          "width": 9741,
+          "height": 7236,
+          "size": 17729764,
+          "timestamp": "2022-07-22T22:48:45Z",
+          "author": "Inconnu",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Le_Parc_de_M._et_Mme_Utrillo_au_V%C3%A9sinet_-_Maurice_Utrillo.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Parc%20de%20M.%20et%20Mme%20Utrillo%20au%20V%C3%A9sinet%20-%20Maurice%20Utrillo.jpg",
+          "title": "Le Parc de M. et Mme Utrillo au Vésinet - Maurice Utrillo.jpg",
+          "description": "Maurice Utrillo, Le Parc de M. et Mme Utrillo au Vésinet, signed “Maurice Utrillo V.” (lower right), oil on canvas, 97,2 x 130,6 cm; 38¼ x 51⅜ in. Painted circa 1940.",
+          "width": 2048,
+          "height": 1636,
+          "size": 1431566,
+          "timestamp": "2026-02-09T20:21:45Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Maurice_Utrillo\" class=\"extiw\" title=\"w:en:Maurice Utrillo\"><span title=\"French painter (1883-1955)\">Maurice Utrillo</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Foulque_macroule_juv%C3%A9nile%2C_Le_V%C3%A9sinet.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFoulque%20macroule%20juv%C3%A9nile%2C%20Le%20V%C3%A9sinet.jpg",
+          "title": "Foulque macroule juvénile, Le Vésinet.jpg",
+          "description": "Foulque macroule (Fulica atra) dans les Yvelines, au parc des Ibis (Le Vésinet).",
+          "width": 5160,
+          "height": 3440,
+          "size": 7958787,
+          "timestamp": "2015-07-12T09:13:43Z",
+          "author": "Laure Ette",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Parc du Lac Inférieur",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Projet_de_colonisation._Vue_perspective_du_parc_du_Vesinet_-_btv1b53085068g.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AProjet%20de%20colonisation.%20Vue%20perspective%20du%20parc%20du%20Vesinet%20-%20btv1b53085068g.jpg",
+          "title": "Projet de colonisation. Vue perspective du parc du Vesinet - btv1b53085068g.jpg",
+          "description": "Sujet : Le Vésinet\nAppartient à l’ensemble documentaire : IledeFr1\nCouverture : France – Île-de-France – Yvelines\nLangue : français\n\nÉditeur : imp. de Lemercier (Paris)",
+          "width": 9741,
+          "height": 7236,
+          "size": 17729764,
+          "timestamp": "2022-07-22T22:48:45Z",
+          "author": "Inconnu",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Le_Parc_de_M._et_Mme_Utrillo_au_V%C3%A9sinet_-_Maurice_Utrillo.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Parc%20de%20M.%20et%20Mme%20Utrillo%20au%20V%C3%A9sinet%20-%20Maurice%20Utrillo.jpg",
+          "title": "Le Parc de M. et Mme Utrillo au Vésinet - Maurice Utrillo.jpg",
+          "description": "Maurice Utrillo, Le Parc de M. et Mme Utrillo au Vésinet, signed “Maurice Utrillo V.” (lower right), oil on canvas, 97,2 x 130,6 cm; 38¼ x 51⅜ in. Painted circa 1940.",
+          "width": 2048,
+          "height": 1636,
+          "size": 1431566,
+          "timestamp": "2026-02-09T20:21:45Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Maurice_Utrillo\" class=\"extiw\" title=\"w:en:Maurice Utrillo\"><span title=\"French painter (1883-1955)\">Maurice Utrillo</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Foulque_macroule_juv%C3%A9nile%2C_Le_V%C3%A9sinet.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFoulque%20macroule%20juv%C3%A9nile%2C%20Le%20V%C3%A9sinet.jpg",
+          "title": "Foulque macroule juvénile, Le Vésinet.jpg",
+          "description": "Foulque macroule (Fulica atra) dans les Yvelines, au parc des Ibis (Le Vésinet).",
+          "width": 5160,
+          "height": 3440,
+          "size": 7958787,
+          "timestamp": "2015-07-12T09:13:43Z",
+          "author": "Laure Ette",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

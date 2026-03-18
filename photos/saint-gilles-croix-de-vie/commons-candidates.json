@@ -1,12 +1,13 @@
 {
   "slug": "saint-gilles-croix-de-vie",
   "nom": "Saint-Gilles-Croix-de-Vie",
-  "fetchedAt": "2026-03-14T12:02:26.967Z",
+  "fetchedAt": "2026-03-18T18:15:49.091Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/W8446_StGillesCroixDeVie_Vie_Port_204324EOS.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AW8446%20StGillesCroixDeVie%20Vie%20Port%20204324EOS.jpg",
       "title": "W8446 StGillesCroixDeVie Vie Port 204324EOS.jpg",
+      "description": "Port sur la Vie, Saint-Gilles-Croix-de-Vie",
       "width": 4752,
       "height": 3168,
       "size": 3907185,
@@ -17,28 +18,30 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Saint-Gilles-Croix-de-Vie%2C_Vend%C3%A9e_%2852014738571%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Gilles-Croix-de-Vie%2C%20Vend%C3%A9e%20(52014738571).jpg",
-      "title": "Saint-Gilles-Croix-de-Vie, Vendée (52014738571).jpg",
-      "width": 2592,
-      "height": 2592,
-      "size": 4326876,
-      "timestamp": "2023-04-20T15:16:10Z",
-      "author": "Pom'",
-      "license": "CC BY-SA 2.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/St_gilles.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt%20gilles.jpg",
+      "title": "St gilles.jpg",
+      "description": "Saint-Gilles-Croix-de-Vie dans le département de la Vendée (France) : vue de Saint-Gilles depuis Croix-de-Vie en avril 2007.",
+      "width": 1825,
+      "height": 1063,
+      "size": 1400568,
+      "timestamp": "2008-02-27T21:57:30Z",
+      "author": "Splashview",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 6
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Saint-Gilles-Croix-de-Vie_-_Quai_du_port_fid%C3%A8le_-_bo%C3%AEte_%C3%A0_dons.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Gilles-Croix-de-Vie%20-%20Quai%20du%20port%20fid%C3%A8le%20-%20bo%C3%AEte%20%C3%A0%20dons.jpg",
-      "title": "Saint-Gilles-Croix-de-Vie - Quai du port fidèle - boîte à dons.jpg",
-      "width": 1406,
-      "height": 2500,
-      "size": 353972,
-      "timestamp": "2024-12-07T07:40:50Z",
-      "author": "Jean &amp; Malou",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/P1070915_Hotel_de_ville_de_Croix_de_vie.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AP1070915%20Hotel%20de%20ville%20de%20Croix%20de%20vie.JPG",
+      "title": "P1070915 Hotel de ville de Croix de vie.JPG",
+      "description": "Saint-Gilles-Croix-de-Vie dans le département de la Vendée (France) : Hôtel de ville côté Croix-de-Vie (vue depuis la promenade Marie de Beaucaire côté Saint-Gilles) en octobre 2008.",
+      "width": 1600,
+      "height": 1200,
+      "size": 516236,
+      "timestamp": "2008-12-20T10:33:16Z",
+      "author": "Stefi123",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 6
     }
@@ -48,9 +51,24 @@
       "label": "Port de pêche de Saint-Gilles-Croix-de-Vie",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Croix_de_vie.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACroix%20de%20vie.JPG",
+          "title": "Croix de vie.JPG",
+          "description": "vue de Croix de vie, de la petite plage et de l'entrée du port. Saint-Gilles-Croix-de-Vie",
+          "width": 3456,
+          "height": 2304,
+          "size": 1290807,
+          "timestamp": "2013-07-04T13:02:03Z",
+          "author": "Yodasky",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Saint-Gilles-Croix-de-Vie.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Gilles-Croix-de-Vie.jpg",
           "title": "Saint-Gilles-Croix-de-Vie.jpg",
+          "description": "Sortie du Port de pêche",
           "width": 4608,
           "height": 3072,
           "size": 5379516,
@@ -61,57 +79,48 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Saint-Gilles-Croix-de-Vie_fr85800_banner.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Gilles-Croix-de-Vie%20fr85800%20banner.jpg",
-          "title": "Saint-Gilles-Croix-de-Vie fr85800 banner.jpg",
-          "width": 4608,
-          "height": 658,
-          "size": 676767,
-          "timestamp": "2020-08-17T19:11:24Z",
-          "author": "<ul><li><a href=\"//commons.wikimedia.org/wiki/File:Saint-Gilles-Croix-de-Vie.jpg\" title=\"File:Saint-Gilles-Croix-de-Vie.jpg\">File:Saint-Gilles-Croix-de-Vie.jpg</a> : <a href=\"//commons.wikimedia.org/w/index.php?title=User:Jujubier.verbi&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Jujubier.verbi (page does not exist)\">Jujubier</a></li>\n<li>derivative work : <a href=\"//commons.wikimedia.org/wiki/User:Barbe-sauvage\" title=\"User:Barbe-sauvage\">Barbe-sauvage</a></li></ul>",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Eglise_Saint-Gilles_de_Saint-Gilles-sur-Vie_%281%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Saint-Gilles%20de%20Saint-Gilles-sur-Vie%20(1).jpg",
+          "title": "Eglise Saint-Gilles de Saint-Gilles-sur-Vie (1).jpg",
+          "description": "Église Saint-Gilles de Saint-Gilles-sur-Vie",
+          "width": 3100,
+          "height": 2552,
+          "size": 2248634,
+          "timestamp": "2021-07-28T07:24:26Z",
+          "author": "Chris06",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Criee.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACriee.jpg",
-          "title": "Criee.jpg",
-          "width": 1772,
-          "height": 1181,
-          "size": 1471378,
-          "timestamp": "2008-02-27T21:31:54Z",
-          "author": "Splashview",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 7
         }
       ]
     },
     {
       "label": "Quartier du Maroc",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Saint_gilles_croix_de_vie_vue_2019.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint%20gilles%20croix%20de%20vie%20vue%202019.jpg",
+          "title": "Saint gilles croix de vie vue 2019.jpg",
+          "description": "Vue générale du centre-ville en juillet 2019. Au centre, le port de croisière, Port la Vie; à gauche, le quartier Croix-de-Vie et l'église Sainte-Croix; et à droite le quartier et l'église Saint-Gilles",
+          "width": 4592,
+          "height": 2584,
+          "size": 6033920,
+          "timestamp": "2019-07-28T21:36:26Z",
+          "author": "Arnaud Touzé",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Tour Joséphine",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Tour_jos%C3%A9phine.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATour%20jos%C3%A9phine.JPG",
-          "title": "Tour joséphine.JPG",
-          "width": 1920,
-          "height": 2560,
-          "size": 1692617,
-          "timestamp": "2007-09-08T19:56:57Z",
-          "author": "Silanoc",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 3
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/P1070785_Phare_de_Croix_de_vie.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AP1070785%20Phare%20de%20Croix%20de%20vie.JPG",
           "title": "P1070785 Phare de Croix de vie.JPG",
+          "description": "Saint-Gilles-Croix-de-Vie dans le département de la Vendée (France) : Phare côté Croix-de-Vie en octobre 2008.",
           "width": 1200,
           "height": 1600,
           "size": 415523,
@@ -127,17 +136,46 @@
       "label": "Plage de Boisvinet",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Pilours_pil%27ours.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APilours%20pil'ours.JPG",
-          "title": "Pilours pil'ours.JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Croix_de_vie.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACroix%20de%20vie.JPG",
+          "title": "Croix de vie.JPG",
+          "description": "vue de Croix de vie, de la petite plage et de l'entrée du port. Saint-Gilles-Croix-de-Vie",
           "width": 3456,
           "height": 2304,
-          "size": 1978352,
+          "size": 1290807,
           "timestamp": "2013-07-04T13:02:03Z",
           "author": "Yodasky",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Saintgillescroixdevie_grandeplage_2018_5152.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaintgillescroixdevie%20grandeplage%202018%205152.jpg",
+          "title": "Saintgillescroixdevie grandeplage 2018 5152.jpg",
+          "description": "Grande plage de Saint-Gilles-Croix-de-Vie (Vendée, France).",
+          "width": 5184,
+          "height": 3456,
+          "size": 4478895,
+          "timestamp": "2022-07-24T12:40:04Z",
+          "author": "Franck-fnba",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Saintgillescroixdevie_grandeplage_2018_5153.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaintgillescroixdevie%20grandeplage%202018%205153.jpg",
+          "title": "Saintgillescroixdevie grandeplage 2018 5153.jpg",
+          "description": "Grande plage de Saint-Gilles-Croix-de-Vie (Vendée, France).",
+          "width": 5184,
+          "height": 3456,
+          "size": 5531723,
+          "timestamp": "2022-07-24T12:40:04Z",
+          "author": "Franck-fnba",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
         }
       ]
     }

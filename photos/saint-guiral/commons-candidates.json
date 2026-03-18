@@ -1,43 +1,46 @@
 {
   "slug": "saint-guiral",
   "nom": "Saint-Guiral",
-  "fetchedAt": "2026-03-14T12:03:11.883Z",
+  "fetchedAt": "2026-03-18T18:17:14.540Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Saxifraga_rotundifolia_stem_%2803%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaxifraga%20rotundifolia%20stem%20(03).jpg",
-      "title": "Saxifraga rotundifolia stem (03).jpg",
-      "width": 4928,
-      "height": 3264,
-      "size": 2793669,
-      "timestamp": "2021-11-25T14:00:20Z",
-      "author": "Jean-Jacques Houdré",
-      "license": "CC BY-SA 2.0 fr",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/La_f%C3%AAte_au_village.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20f%C3%AAte%20au%20village.jpg",
-      "title": "La fête au village.jpg",
-      "width": 3264,
-      "height": 2448,
-      "size": 2520933,
-      "timestamp": "2016-09-15T13:20:54Z",
-      "author": "Pascal PIALOT",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Pic_Saint-Guiral_30-_SLTH.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APic%20Saint-Guiral%2030-%20SLTH.jpg",
+      "title": "Pic Saint-Guiral 30- SLTH.jpg",
+      "description": "Le pic Saint-Guiral (1366m)",
+      "width": 2592,
+      "height": 1944,
+      "size": 2176689,
+      "timestamp": "2019-11-06T19:35:11Z",
+      "author": "Anthospace",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 6
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Le_camping_municipal.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20camping%20municipal.jpg",
-      "title": "Le camping municipal.jpg",
-      "width": 3264,
-      "height": 2448,
-      "size": 4108381,
-      "timestamp": "2016-09-15T13:21:00Z",
-      "author": "Pascal PIALOT",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Trail_des_Hospitaliers_2019-_passage_au_pic_Saint-Guiral.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATrail%20des%20Hospitaliers%202019-%20passage%20au%20pic%20Saint-Guiral.jpg",
+      "title": "Trail des Hospitaliers 2019- passage au pic Saint-Guiral.jpg",
+      "description": "Le pic Saint-Guiral (1366m) franchi sur le trail des Hospitaliers en octobre 2019, au 36ème kilomètre",
+      "width": 2592,
+      "height": 1944,
+      "size": 2170202,
+      "timestamp": "2019-11-06T19:35:12Z",
+      "author": "Anthospace",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Trail_des_Hospitaliers_2019-_ascension_du_pic_Saint-Guiral_1.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATrail%20des%20Hospitaliers%202019-%20ascension%20du%20pic%20Saint-Guiral%201.jpg",
+      "title": "Trail des Hospitaliers 2019- ascension du pic Saint-Guiral 1.jpg",
+      "description": "Ascension du pic Saint-Guiral sur le trail des Hospitaliers 2019",
+      "width": 2592,
+      "height": 1944,
+      "size": 2042019,
+      "timestamp": "2019-11-06T21:11:48Z",
+      "author": "Anthospace",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 6
@@ -46,7 +49,50 @@
   "lieux": [
     {
       "label": "sommet du Saint-Guiral",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Pic_Saint-Guiral_30-_SLTH.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APic%20Saint-Guiral%2030-%20SLTH.jpg",
+          "title": "Pic Saint-Guiral 30- SLTH.jpg",
+          "description": "Le pic Saint-Guiral (1366m)",
+          "width": 2592,
+          "height": 1944,
+          "size": 2176689,
+          "timestamp": "2019-11-06T19:35:11Z",
+          "author": "Anthospace",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Trail_des_Hospitaliers_2019-_passage_au_pic_Saint-Guiral.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATrail%20des%20Hospitaliers%202019-%20passage%20au%20pic%20Saint-Guiral.jpg",
+          "title": "Trail des Hospitaliers 2019- passage au pic Saint-Guiral.jpg",
+          "description": "Le pic Saint-Guiral (1366m) franchi sur le trail des Hospitaliers en octobre 2019, au 36ème kilomètre",
+          "width": 2592,
+          "height": 1944,
+          "size": 2170202,
+          "timestamp": "2019-11-06T19:35:12Z",
+          "author": "Anthospace",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Trail_des_Hospitaliers_2019-_ascension_du_pic_Saint-Guiral_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATrail%20des%20Hospitaliers%202019-%20ascension%20du%20pic%20Saint-Guiral%201.jpg",
+          "title": "Trail des Hospitaliers 2019- ascension du pic Saint-Guiral 1.jpg",
+          "description": "Ascension du pic Saint-Guiral sur le trail des Hospitaliers 2019",
+          "width": 2592,
+          "height": 1944,
+          "size": 2042019,
+          "timestamp": "2019-11-06T21:11:48Z",
+          "author": "Anthospace",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "crête de bruyères",

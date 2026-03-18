@@ -1,12 +1,13 @@
 {
   "slug": "pont-en-royans",
   "nom": "Pont-en-Royans",
-  "fetchedAt": "2026-03-14T11:32:19.339Z",
+  "fetchedAt": "2026-03-18T16:55:39.552Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Pont-en-Royans_-_Place_du_Temple_%28ao%C3%BBt_2021%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont-en-Royans%20-%20Place%20du%20Temple%20(ao%C3%BBt%202021).jpg",
       "title": "Pont-en-Royans - Place du Temple (août 2021).jpg",
+      "description": "Vue de la place du Temple, à Pont-en-Royans, dans l'Isère.",
       "width": 4032,
       "height": 3016,
       "size": 6269861,
@@ -14,12 +15,13 @@
       "author": "Sebleouf",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Pont-en-Royans_-_Maisons_surplombant_la_Bourne_%28ao%C3%BBt_2021%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont-en-Royans%20-%20Maisons%20surplombant%20la%20Bourne%20(ao%C3%BBt%202021).jpg",
       "title": "Pont-en-Royans - Maisons surplombant la Bourne (août 2021).jpg",
+      "description": "Vue des maisons donnant sur la Bourne, à Pont-en-Royans, dans l'Isère.",
       "width": 4032,
       "height": 3016,
       "size": 5388389,
@@ -27,74 +29,136 @@
       "author": "Sebleouf",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Pont-en-Royans_-_Maisons_suspendues_%28ao%C3%BBt_2021%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont-en-Royans%20-%20Maisons%20suspendues%20(ao%C3%BBt%202021).jpg",
-      "title": "Pont-en-Royans - Maisons suspendues (août 2021).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Pont-en-Royans_-_Vue_village_1_%28ao%C3%BBt_2021%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont-en-Royans%20-%20Vue%20village%201%20(ao%C3%BBt%202021).jpg",
+      "title": "Pont-en-Royans - Vue village 1 (août 2021).jpg",
+      "description": "Vue de Pont-en-Royans, dans l'Isère.",
       "width": 4032,
       "height": 3016,
-      "size": 5175873,
-      "timestamp": "2021-08-10T20:52:30Z",
+      "size": 5161119,
+      "timestamp": "2021-08-10T20:52:36Z",
       "author": "Sebleouf",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     }
   ],
   "lieux": [
     {
       "label": "Maisons suspendues sur la Bourne",
-      "photos": []
-    },
-    {
-      "label": "Vieux pont de Pont-en-Royans",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Saint-Nazaire-en-Royans._Manufacture_et_vieux_pont_sur_la_Bourne_-_btv1b540003871_%281_of_3%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Nazaire-en-Royans.%20Manufacture%20et%20vieux%20pont%20sur%20la%20Bourne%20-%20btv1b540003871%20(1%20of%203).jpg",
-          "title": "Saint-Nazaire-en-Royans. Manufacture et vieux pont sur la Bourne - btv1b540003871 (1 of 3).jpg",
-          "width": 3854,
-          "height": 3100,
-          "size": 1776076,
-          "timestamp": "2025-03-14T10:40:46Z",
-          "author": "<div class=\"fn value\">\nDuseigneur, Paul (1822-1895). Photographe</div>",
-          "license": "Public domain",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Pont-en-Royans_-_Maisons_surplombant_la_Bourne_%28ao%C3%BBt_2021%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont-en-Royans%20-%20Maisons%20surplombant%20la%20Bourne%20(ao%C3%BBt%202021).jpg",
+          "title": "Pont-en-Royans - Maisons surplombant la Bourne (août 2021).jpg",
+          "description": "Vue des maisons donnant sur la Bourne, à Pont-en-Royans, dans l'Isère.",
+          "width": 4032,
+          "height": 3016,
+          "size": 5388389,
+          "timestamp": "2021-08-10T20:52:25Z",
+          "author": "Sebleouf",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Pont-en-Royans_-_Maisons_suspendues_%28ao%C3%BBt_2021%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont-en-Royans%20-%20Maisons%20suspendues%20(ao%C3%BBt%202021).jpg",
+          "title": "Pont-en-Royans - Maisons suspendues (août 2021).jpg",
+          "description": "Maisons suspendues de Pont-en-Royans, dans l'Isère.",
+          "width": 4032,
+          "height": 3016,
+          "size": 5175873,
+          "timestamp": "2021-08-10T20:52:30Z",
+          "author": "Sebleouf",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Saint-Nazaire-en-Royans._Manufacture_et_vieux_pont_sur_la_Bourne_-_btv1b540003871_%282_of_3%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Nazaire-en-Royans.%20Manufacture%20et%20vieux%20pont%20sur%20la%20Bourne%20-%20btv1b540003871%20(2%20of%203).jpg",
-          "title": "Saint-Nazaire-en-Royans. Manufacture et vieux pont sur la Bourne - btv1b540003871 (2 of 3).jpg",
-          "width": 3886,
-          "height": 3140,
-          "size": 1468797,
-          "timestamp": "2025-03-14T10:40:56Z",
-          "author": "<div class=\"fn value\">\nDuseigneur, Paul (1822-1895). Photographe</div>",
-          "license": "Public domain",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Saint-Nazaire-en-Royans._Manufacture_et_vieux_pont_sur_la_Bourne_-_btv1b540003871_%283_of_3%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Nazaire-en-Royans.%20Manufacture%20et%20vieux%20pont%20sur%20la%20Bourne%20-%20btv1b540003871%20(3%20of%203).jpg",
-          "title": "Saint-Nazaire-en-Royans. Manufacture et vieux pont sur la Bourne - btv1b540003871 (3 of 3).jpg",
-          "width": 3854,
-          "height": 3100,
-          "size": 2017266,
-          "timestamp": "2025-03-14T10:41:09Z",
-          "author": "<div class=\"fn value\">\nDuseigneur, Paul (1822-1895). Photographe</div>",
-          "license": "Public domain",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Pont-en-Royan_by_day_%2848924539962%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont-en-Royan%20by%20day%20(48924539962).jpg",
+          "title": "Pont-en-Royan by day (48924539962).jpg",
+          "description": "Les maisons suspendues, accrochées à la roche, au-dessus de la rivière, la Bourne.\n\nVercors (côté Drôme)",
+          "width": 4608,
+          "height": 3072,
+          "size": 3687338,
+          "timestamp": "2022-07-31T17:04:16Z",
+          "author": "Jeanne Menjoulet",
+          "license": "CC BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         }
       ]
     },
     {
+      "label": "Vieux pont de Pont-en-Royans",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/View_of_Pont-en-Royans_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AView%20of%20Pont-en-Royans%2002.jpg",
+          "title": "View of Pont-en-Royans 02.jpg",
+          "description": "View of Pont-en-Royans",
+          "width": 4272,
+          "height": 2848,
+          "size": 4939526,
+          "timestamp": "2022-08-27T11:02:53Z",
+          "author": "John Samuel",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/View_of_Pont-en-Royans_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AView%20of%20Pont-en-Royans%2001.jpg",
+          "title": "View of Pont-en-Royans 01.jpg",
+          "description": "View of Pont-en-Royans",
+          "width": 4272,
+          "height": 2848,
+          "size": 3385897,
+          "timestamp": "2022-08-27T11:02:53Z",
+          "author": "John Samuel",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/View_of_Pont-en-Royans_03.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AView%20of%20Pont-en-Royans%2003.jpg",
+          "title": "View of Pont-en-Royans 03.jpg",
+          "description": "View of Pont-en-Royans",
+          "width": 4272,
+          "height": 2848,
+          "size": 4527401,
+          "timestamp": "2022-08-27T11:02:53Z",
+          "author": "John Samuel",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
+    },
+    {
       "label": "Jardin des Fontaines Pétrifiantes",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Pont-en-Royans_-_Jardin_du_souvenir_cimeti%C3%A8re_%28ao%C3%BBt_2021%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont-en-Royans%20-%20Jardin%20du%20souvenir%20cimeti%C3%A8re%20(ao%C3%BBt%202021).jpg",
+          "title": "Pont-en-Royans - Jardin du souvenir cimetière (août 2021).jpg",
+          "description": "Jardin du souvenir dans le cimetière de Pont-en-Royans, en Isère.",
+          "width": 3016,
+          "height": 4032,
+          "size": 5194315,
+          "timestamp": "2021-08-11T21:06:23Z",
+          "author": "Sebleouf",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Musée de l’Eau",
@@ -103,6 +167,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/France_Rh%C3%B4ne-Alpes_Isere_Pont-en-Royans_05.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20Rh%C3%B4ne-Alpes%20Isere%20Pont-en-Royans%2005.jpg",
           "title": "France Rhône-Alpes Isere Pont-en-Royans 05.jpg",
+          "description": "Pont-en-Royans in the département Isère, France",
           "width": 3008,
           "height": 2000,
           "size": 2648553,
@@ -116,6 +181,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/France_Rh%C3%B4ne-Alpes_Isere_Pont-en-Royans_11.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20Rh%C3%B4ne-Alpes%20Isere%20Pont-en-Royans%2011.jpg",
           "title": "France Rhône-Alpes Isere Pont-en-Royans 11.jpg",
+          "description": "Pont-en-Royans in the département Isère, France",
           "width": 3008,
           "height": 2000,
           "size": 3143802,
@@ -126,17 +192,18 @@
           "score": 5
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Mus%C3%A9e_de_l%27eau.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e%20de%20l'eau.jpg",
-          "title": "Musée de l'eau.jpg",
-          "width": 1680,
-          "height": 2240,
-          "size": 515151,
-          "timestamp": "2015-12-14T15:39:43Z",
-          "author": "Isere-culture",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Bourne_et_Pont_en_Royans.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABourne%20et%20Pont%20en%20Royans.JPG",
+          "title": "Bourne et Pont en Royans.JPG",
+          "description": "Les maisons de Pont-en-Royan, dominant la Bourne.",
+          "width": 1080,
+          "height": 1920,
+          "size": 893743,
+          "timestamp": "2009-10-11T10:19:44Z",
+          "author": "Pedro38",
+          "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 2
         }
       ]
     }

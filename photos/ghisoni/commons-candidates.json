@@ -1,38 +1,13 @@
 {
   "slug": "ghisoni",
   "nom": "Ghisoni",
-  "fetchedAt": "2026-03-13T14:33:03.462Z",
+  "fetchedAt": "2026-03-16T13:41:29.275Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/For%C3%AAt_de_Ghisoni3.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFor%C3%AAt%20de%20Ghisoni3.jpg",
-      "title": "Forêt de Ghisoni3.jpg",
-      "width": 4608,
-      "height": 3456,
-      "size": 8878705,
-      "timestamp": "2023-05-23T13:00:48Z",
-      "author": "Rémih",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/For%C3%AAt_de_Ghisoni4.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFor%C3%AAt%20de%20Ghisoni4.jpg",
-      "title": "Forêt de Ghisoni4.jpg",
-      "width": 4608,
-      "height": 3456,
-      "size": 9087664,
-      "timestamp": "2023-05-23T13:00:49Z",
-      "author": "Rémih",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Le_village_de_Ghisoni.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20village%20de%20Ghisoni.jpg",
       "title": "Le village de Ghisoni.jpg",
+      "description": "Le village de Ghisoni, avec , en fond, les montagnes du Christe Eleison (1535m) et du Kyrie Eleison (1260m)",
       "width": 5184,
       "height": 2916,
       "size": 15074291,
@@ -41,16 +16,102 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Ghisoni_plan_du_village.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGhisoni%20plan%20du%20village.jpg",
+      "title": "Ghisoni plan du village.jpg",
+      "description": "Ghisoni, Fiumorbo (Haute-Corse) - Plan du village avec ses quartiers.",
+      "width": 6016,
+      "height": 4016,
+      "size": 7986580,
+      "timestamp": "2017-01-29T07:01:50Z",
+      "author": "Pierre Bona",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Ghisoni_lavoir_municipal.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGhisoni%20lavoir%20municipal.jpg",
+      "title": "Ghisoni lavoir municipal.jpg",
+      "description": "Ghisoni, Fiumorbo (Haute-Corse) - Le lavoir municipal situé à la jonction de la route D69 (qui passe au col de Sorba) avec la rue principale du village. \nCamera location42° 06′ 01.25″ N, 9° 12′ 39.45″ E View this and other nearby images on: OpenStreetMap 42.100348;    9.210957",
+      "width": 6016,
+      "height": 4016,
+      "size": 9286927,
+      "timestamp": "2017-09-17T13:43:56Z",
+      "author": "Pierre Bona",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
     }
   ],
   "lieux": [
     {
       "label": "Pont génois du Mulinellu",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/PanneauPNRCSolaroGhisoni.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanneauPNRCSolaroGhisoni.jpg",
+          "title": "PanneauPNRCSolaroGhisoni.jpg",
+          "description": "Panneau du Parc Naturel Régional de la Corse au départ de l'itinéraire Solaro-Ghisoni, Pont de Sulinzara",
+          "width": 4128,
+          "height": 3096,
+          "size": 3791592,
+          "timestamp": "2017-09-05T12:05:12Z",
+          "author": "TeletubAstyanax",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Église Saint-Michel",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Ghisoni_%C3%A9glise_San_Franceschinu.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGhisoni%20%C3%A9glise%20San%20Franceschinu.jpg",
+          "title": "Ghisoni église San Franceschinu.jpg",
+          "description": "Ghisoni, Fiumorbo (Haute-Corse) - L'église paroissiale San Francheschinu, du nom du vénérable Franceschinu Mucchielli originaire de Ghisoni",
+          "width": 6016,
+          "height": 4016,
+          "size": 7734536,
+          "timestamp": "2017-01-30T19:00:10Z",
+          "author": "Pierre Bona",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Ghisoni_%C3%A9glise_San_Franceschinu_2017.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGhisoni%20%C3%A9glise%20San%20Franceschinu%202017.jpg",
+          "title": "Ghisoni église San Franceschinu 2017.jpg",
+          "description": "Ghisoni, Fiumorbo (Haute-Corse) - L'église paroissiale San Franceschinu",
+          "width": 6016,
+          "height": 4016,
+          "size": 8320575,
+          "timestamp": "2017-08-17T14:59:56Z",
+          "author": "Pierre Bona",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Ghisoni_%C3%A9glise_Santa_Maria.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGhisoni%20%C3%A9glise%20Santa%20Maria.jpg",
+          "title": "Ghisoni église Santa Maria.jpg",
+          "description": "Ghisoni, Fiumorbo (Haute-Corse) - Église Santa Maria, ancienne paroisse.",
+          "width": 3961,
+          "height": 3545,
+          "size": 4601597,
+          "timestamp": "2017-01-28T13:17:05Z",
+          "author": "Pierre Bona",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Station de ski de Ghisoni Capanelle",
@@ -59,6 +120,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Station_de_Ghisoni-Capanelle_parking.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStation%20de%20Ghisoni-Capanelle%20parking.jpg",
           "title": "Station de Ghisoni-Capanelle parking.jpg",
+          "description": "Station de Ghisoni-Capanelle, Ghisoni, Haute-Corse, France",
           "width": 4608,
           "height": 3456,
           "size": 6619174,
@@ -72,6 +134,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Station_de_Ghisoni-Capanelle1.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStation%20de%20Ghisoni-Capanelle1.jpg",
           "title": "Station de Ghisoni-Capanelle1.jpg",
+          "description": "Station de Ghisoni-Capanelle, Ghisoni, Haute-Corse, France",
           "width": 4608,
           "height": 3456,
           "size": 8136191,
@@ -85,6 +148,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Station_de_Ghisoni-Capanelle2.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStation%20de%20Ghisoni-Capanelle2.jpg",
           "title": "Station de Ghisoni-Capanelle2.jpg",
+          "description": "Station de Ghisoni-Capanelle, Ghisoni, Haute-Corse, France",
           "width": 4608,
           "height": 3456,
           "size": 8175770,

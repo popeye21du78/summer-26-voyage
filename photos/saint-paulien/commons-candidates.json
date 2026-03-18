@@ -1,12 +1,13 @@
 {
   "slug": "saint-paulien",
   "nom": "Saint-Paulien",
-  "fetchedAt": "2026-03-14T12:11:23.814Z",
+  "fetchedAt": "2026-03-18T18:36:24.984Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Eglise_Saint-Georges_de_Saint-Paulien_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Saint-Georges%20de%20Saint-Paulien%201.jpg",
       "title": "Eglise Saint-Georges de Saint-Paulien 1.jpg",
+      "description": "France - Velay - Église Saint-Georges de Saint-Paulien",
       "width": 1608,
       "height": 1200,
       "size": 1479267,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Cimeti%C3%A8re_de_Saint-Paulien_%28Haute-Loire%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACimeti%C3%A8re%20de%20Saint-Paulien%20(Haute-Loire).jpg",
       "title": "Cimetière de Saint-Paulien (Haute-Loire).jpg",
+      "description": "Image du cimetière de Saint-Paulien (Haute-Loire, France).",
       "width": 4608,
       "height": 3456,
       "size": 3622566,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Cimeti%C3%A8re_de_Saint-Paulien_%28Haute-Loire%29_2.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACimeti%C3%A8re%20de%20Saint-Paulien%20(Haute-Loire)%202.jpg",
       "title": "Cimetière de Saint-Paulien (Haute-Loire) 2.jpg",
+      "description": "Image du cimetière de Saint-Paulien (Haute-Loire, France).",
       "width": 4608,
       "height": 3456,
       "size": 3652370,
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Saint-Paulien_-_Coll%C3%A9giale_Saint-Georges_-8.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Paulien%20-%20Coll%C3%A9giale%20Saint-Georges%20-8.jpg",
           "title": "Saint-Paulien - Collégiale Saint-Georges -8.jpg",
+          "description": "Saint-Paulien - Collégiale Saint-Georges - Voûte assisée en berceau continu",
           "width": 3593,
           "height": 2637,
           "size": 2578240,
@@ -64,6 +68,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Saint-Paulien_-_Coll%C3%A9giale_Saint-Georges_-3.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Paulien%20-%20Coll%C3%A9giale%20Saint-Georges%20-3.jpg",
           "title": "Saint-Paulien - Collégiale Saint-Georges -3.jpg",
+          "description": "Saint-Paulien - Collégiale Saint-Georges - Chevet",
           "width": 3395,
           "height": 2726,
           "size": 2019417,
@@ -77,6 +82,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Saint-Paulien_-_Coll%C3%A9giale_Saint-Georges_-4.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Paulien%20-%20Coll%C3%A9giale%20Saint-Georges%20-4.jpg",
           "title": "Saint-Paulien - Collégiale Saint-Georges -4.jpg",
+          "description": "Saint-Paulien - Collégiale Saint-Georges - Côté nord",
           "width": 3648,
           "height": 2736,
           "size": 1994183,
@@ -90,7 +96,50 @@
     },
     {
       "label": "Parc du château",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Saint-Paulien_La_Rochelambert1.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Paulien%20La%20Rochelambert1.JPG",
+          "title": "Saint-Paulien La Rochelambert1.JPG",
+          "description": "Saint-Paulien, dép. de la Haute-Loire, France (Auvergne). Château de La Rochelambert.",
+          "width": 2048,
+          "height": 1536,
+          "size": 626800,
+          "timestamp": "2009-08-23T18:24:05Z",
+          "author": "Torsade de Pointes",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Saint-Paulien_La_Rochelambert3.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Paulien%20La%20Rochelambert3.JPG",
+          "title": "Saint-Paulien La Rochelambert3.JPG",
+          "description": "Saint-Paulien, dép. de la Haute-Loire, France (Auvergne). Château de La Rochelambert.",
+          "width": 2048,
+          "height": 1536,
+          "size": 698932,
+          "timestamp": "2009-08-23T18:28:20Z",
+          "author": "Torsade de Pointes",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Saint-Paulien_La_Rochelambert4.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Paulien%20La%20Rochelambert4.JPG",
+          "title": "Saint-Paulien La Rochelambert4.JPG",
+          "description": "Saint-Paulien, dép. de la Haute-Loire, France (Auvergne). Château de La Rochelambert.",
+          "width": 2048,
+          "height": 1536,
+          "size": 620673,
+          "timestamp": "2009-08-23T18:29:00Z",
+          "author": "Torsade de Pointes",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Grand-Rue",

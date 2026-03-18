@@ -1,25 +1,13 @@
 {
   "slug": "sentier-art-et-nature",
   "nom": "Sentier Art et Nature",
-  "fetchedAt": "2026-03-14T12:31:13.120Z",
+  "fetchedAt": "2026-03-18T19:19:47.909Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Tour_d%27Anval.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATour%20d'Anval.jpg",
-      "title": "Tour d'Anval.jpg",
-      "width": 3024,
-      "height": 4032,
-      "size": 6381075,
-      "timestamp": "2024-08-31T16:09:43Z",
-      "author": "Louvois33",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Victor-Galos--1828-1879---Sentier-de-montagne-dans-la-valle-e-du-Lutour--1857--huile-sur-toile.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVictor-Galos--1828-1879---Sentier-de-montagne-dans-la-valle-e-du-Lutour--1857--huile-sur-toile.jpg",
       "title": "Victor-Galos--1828-1879---Sentier-de-montagne-dans-la-valle-e-du-Lutour--1857--huile-sur-toile.jpg",
+      "description": "Sentier de montagne dans la vallée de Lutour. Peinture de Victor Galos (1857)",
       "width": 1575,
       "height": 1255,
       "size": 657716,
@@ -33,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Jacques_Duval_d%27Epremesnil_n%C3%A9_%C3%A0_Pondichery_le_5_d%C3%A9c.bre_1745_-_de_l%27abus_du_pouvoir_noble_et_fier_ennemi%2C_la_Loy_seule_l%27%C3%A9claire_et_la_Vertu_le_guide%2C_au_sentier_de_l%27honneur_son_pas_est_affermi._.._-_%28estampe%29_-..._-_btv1b8412249w.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJacques%20Duval%20d'Epremesnil%20n%C3%A9%20%C3%A0%20Pondichery%20le%205%20d%C3%A9c.bre%201745%20-%20de%20l'abus%20du%20pouvoir%20noble%20et%20fier%20ennemi%2C%20la%20Loy%20seule%20l'%C3%A9claire%20et%20la%20Vertu%20le%20guide%2C%20au%20sentier%20de%20l'honneur%20son%20pas%20est%20affermi.%20..%20-%20(estampe)%20-...%20-%20btv1b8412249w.jpg",
       "title": "Jacques Duval d'Epremesnil né à Pondichery le 5 déc.bre 1745 - de l'abus du pouvoir noble et fier ennemi, la Loy seule l'éclaire et la Vertu le guide, au sentier de l'honneur son pas est affermi. .. - (estampe) -... - btv1b8412249w.jpg",
+      "description": "Sujet : Eprémesnil, Jean-Jacques Duval d' (1745-1794)\nPortraits -- 18e siècle\nRéférence bibliographique : Hennin, 11878\nRéférence bibliographique : Vidéodisque, 24843-24844\nAppartient à l’ensemble documentaire : Est18Rev1\n\nÉditeur : chez Le Grand (A Paris)",
       "width": 2016,
       "height": 3352,
       "size": 1453446,
@@ -41,12 +30,69 @@
       "license": "Public domain",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Op._44._Sentes_et_chemins_%28nouvelles_%C3%A9tudes_d%27apr%C3%A8s_nature%29_-_bpt6k318438b_%2801_of_20%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOp.%2044.%20Sentes%20et%20chemins%20(nouvelles%20%C3%A9tudes%20d'apr%C3%A8s%20nature)%20-%20bpt6k318438b%20(01%20of%2020).jpg",
+      "title": "Op. 44. Sentes et chemins (nouvelles études d'après nature) - bpt6k318438b (01 of 20).jpg",
+      "description": "Comprend : I. - Ouvriers allants à l'usine - II - Promenades du philosophie - III - A travers bois - IV - Cornemuse en tête - V - Sur la route d'Amalfi - VI - Sentier de Meudon au printemps - VII - par la pluie. Pour piano\nAvec mode texte\n\nÉditeur : E. Demets (Paris)",
+      "width": 4003,
+      "height": 5181,
+      "size": 4517995,
+      "timestamp": "2025-07-12T13:17:45Z",
+      "author": "<div class=\"fn value\">\nHennessy, Swan (1866-1929). Compositeur</div>",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
     }
   ],
   "lieux": [
     {
       "label": "Bois de Fayet",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Op._44._Sentes_et_chemins_%28nouvelles_%C3%A9tudes_d%27apr%C3%A8s_nature%29_-_bpt6k318438b_%2801_of_20%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOp.%2044.%20Sentes%20et%20chemins%20(nouvelles%20%C3%A9tudes%20d'apr%C3%A8s%20nature)%20-%20bpt6k318438b%20(01%20of%2020).jpg",
+          "title": "Op. 44. Sentes et chemins (nouvelles études d'après nature) - bpt6k318438b (01 of 20).jpg",
+          "description": "Comprend : I. - Ouvriers allants à l'usine - II - Promenades du philosophie - III - A travers bois - IV - Cornemuse en tête - V - Sur la route d'Amalfi - VI - Sentier de Meudon au printemps - VII - par la pluie. Pour piano\nAvec mode texte\n\nÉditeur : E. Demets (Paris)",
+          "width": 4003,
+          "height": 5181,
+          "size": 4517995,
+          "timestamp": "2025-07-12T13:17:45Z",
+          "author": "<div class=\"fn value\">\nHennessy, Swan (1866-1929). Compositeur</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Op._44._Sentes_et_chemins_%28nouvelles_%C3%A9tudes_d%27apr%C3%A8s_nature%29_-_bpt6k318438b_%2802_of_20%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOp.%2044.%20Sentes%20et%20chemins%20(nouvelles%20%C3%A9tudes%20d'apr%C3%A8s%20nature)%20-%20bpt6k318438b%20(02%20of%2020).jpg",
+          "title": "Op. 44. Sentes et chemins (nouvelles études d'après nature) - bpt6k318438b (02 of 20).jpg",
+          "description": "Comprend : I. - Ouvriers allants à l'usine - II - Promenades du philosophie - III - A travers bois - IV - Cornemuse en tête - V - Sur la route d'Amalfi - VI - Sentier de Meudon au printemps - VII - par la pluie. Pour piano\nAvec mode texte\n\nÉditeur : E. Demets (Paris)",
+          "width": 4003,
+          "height": 5181,
+          "size": 4218281,
+          "timestamp": "2025-07-12T13:17:56Z",
+          "author": "<div class=\"fn value\">\nHennessy, Swan (1866-1929). Compositeur</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Op._44._Sentes_et_chemins_%28nouvelles_%C3%A9tudes_d%27apr%C3%A8s_nature%29_-_bpt6k318438b_%2803_of_20%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOp.%2044.%20Sentes%20et%20chemins%20(nouvelles%20%C3%A9tudes%20d'apr%C3%A8s%20nature)%20-%20bpt6k318438b%20(03%20of%2020).jpg",
+          "title": "Op. 44. Sentes et chemins (nouvelles études d'après nature) - bpt6k318438b (03 of 20).jpg",
+          "description": "Comprend : I. - Ouvriers allants à l'usine - II - Promenades du philosophie - III - A travers bois - IV - Cornemuse en tête - V - Sur la route d'Amalfi - VI - Sentier de Meudon au printemps - VII - par la pluie. Pour piano\nAvec mode texte\n\nÉditeur : E. Demets (Paris)",
+          "width": 4003,
+          "height": 5181,
+          "size": 2560479,
+          "timestamp": "2025-07-12T13:18:05Z",
+          "author": "<div class=\"fn value\">\nHennessy, Swan (1866-1929). Compositeur</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Plateau dominant la vallée de l’Alagnon",

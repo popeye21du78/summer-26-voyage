@@ -1,12 +1,13 @@
 {
   "slug": "lyons-la-foret",
   "nom": "Lyons-la-Forêt",
-  "fetchedAt": "2026-03-13T16:00:39.825Z",
+  "fetchedAt": "2026-03-16T21:07:52.797Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Lyons_la_Foret_%281788960700%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALyons%20la%20Foret%20(1788960700).jpg",
       "title": "Lyons la Foret (1788960700).jpg",
+      "description": "Lyons la Foret",
       "width": 1280,
       "height": 960,
       "size": 279758,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Les_Halles_Lyons_la_Foret_%281788958910%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20Halles%20Lyons%20la%20Foret%20(1788958910).jpg",
       "title": "Les Halles Lyons la Foret (1788958910).jpg",
+      "description": "Les Halles Lyons la Foret",
       "width": 1280,
       "height": 960,
       "size": 328627,
@@ -30,15 +32,16 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Interior_Les_Halles_Lyon_la_Foret_%281788951040%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AInterior%20Les%20Halles%20Lyon%20la%20Foret%20(1788951040).jpg",
-      "title": "Interior Les Halles Lyon la Foret (1788951040).jpg",
-      "width": 1280,
-      "height": 960,
-      "size": 234637,
-      "timestamp": "2020-04-22T12:21:57Z",
-      "author": "Amanda Slater",
-      "license": "CC BY-SA 2.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Beauficel-en-Lyons_-_%C3%A9glise_ND_12.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeauficel-en-Lyons%20-%20%C3%A9glise%20ND%2012.jpg",
+      "title": "Beauficel-en-Lyons - église ND 12.jpg",
+      "description": "Eglise Notre-Dame de Beauficel-en-Lyons",
+      "width": 4624,
+      "height": 3468,
+      "size": 3584920,
+      "timestamp": "2023-05-24T09:25:12Z",
+      "author": "Giogo",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     }
@@ -46,45 +49,91 @@
   "lieux": [
     {
       "label": "Halle centrale de Lyons-la-Forêt",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Les_Halles_Lyons_la_Foret_%281788958910%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20Halles%20Lyons%20la%20Foret%20(1788958910).jpg",
+          "title": "Les Halles Lyons la Foret (1788958910).jpg",
+          "description": "Les Halles Lyons la Foret",
+          "width": 1280,
+          "height": 960,
+          "size": 328627,
+          "timestamp": "2020-04-22T12:21:46Z",
+          "author": "Amanda Slater",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Halles_de_Lyons-la-For%C3%AAt.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHalles%20de%20Lyons-la-For%C3%AAt.JPG",
+          "title": "Halles de Lyons-la-Forêt.JPG",
+          "description": "Halles en bois du XVIIe siècle, restaurées en 1776 par le duc de Penthièvre.",
+          "width": 3056,
+          "height": 2292,
+          "size": 1189340,
+          "timestamp": "2010-11-05T12:34:48Z",
+          "author": "Giogo",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Halle_de_Lyons_La_Foret.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHalle%20de%20Lyons%20La%20Foret.jpg",
+          "title": "Halle de Lyons La Foret.jpg",
+          "description": "This building is inscrit au titre des monuments historiques de la France. It is indexed in the base Mérimée, a database of architectural heritage maintained by the French Ministry of Culture, under the reference PA00099477 .\n\nbrezhoneg ∙ català ∙ Deutsch ∙ English ∙ español ∙ Esperanto ∙ euskara ∙ français ∙ italiano ∙ magyar ∙ Nederlands ∙ português do Brasil ∙ português ∙ română ∙ sicilianu ∙ slovenščina ∙ suomi ∙ svenska ∙ Ελληνικά ∙ беларуская (тарашкевіца) ∙ македонски ∙ русский ∙ українськ",
+          "width": 4320,
+          "height": 3240,
+          "size": 3750711,
+          "timestamp": "2011-09-18T23:19:13Z",
+          "author": "BANDJOE",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Église Saint-Denis",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/02_NOR_-_l%27Eure_-_Lyons-la-For%C3%AAt_%282022-05-15_16-23-06%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A02%20NOR%20-%20l'Eure%20-%20Lyons-la-For%C3%AAt%20(2022-05-15%2016-23-06).jpg",
+          "title": "02 NOR - l'Eure - Lyons-la-Forêt (2022-05-15 16-23-06).jpg",
+          "description": "Église Saint-Denis de Lyons-la-Forêt",
+          "width": 6240,
+          "height": 4160,
+          "size": 11335937,
+          "timestamp": "2025-09-27T19:05:40Z",
+          "author": "Johan Allard",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/02_NOR_-_l%27Eure_-_Lyons-la-For%C3%AAt_%282022-05-15_16-24-08%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A02%20NOR%20-%20l'Eure%20-%20Lyons-la-For%C3%AAt%20(2022-05-15%2016-24-08).jpg",
+          "title": "02 NOR - l'Eure - Lyons-la-Forêt (2022-05-15 16-24-08).jpg",
+          "description": "Église Saint-Denis de Lyons-la-Forêt",
+          "width": 4305,
+          "height": 2870,
+          "size": 4943224,
+          "timestamp": "2025-09-27T19:05:41Z",
+          "author": "Johan Allard",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/%C3%89glise_Saint-Denis_Lyons-la-For%C3%AAt_1.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-Denis%20Lyons-la-For%C3%AAt%201.JPG",
           "title": "Église Saint-Denis Lyons-la-Forêt 1.JPG",
+          "description": "Église Saint-Denis de Lyons-la-Forêt.",
           "width": 3056,
           "height": 2292,
           "size": 1129952,
           "timestamp": "2012-10-01T09:07:25Z",
-          "author": "Giogo",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/%C3%89glise_Saint-Denis_Lyons-la-For%C3%AAt_4.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-Denis%20Lyons-la-For%C3%AAt%204.JPG",
-          "title": "Église Saint-Denis Lyons-la-Forêt 4.JPG",
-          "width": 3056,
-          "height": 2292,
-          "size": 1045228,
-          "timestamp": "2012-10-01T09:07:32Z",
-          "author": "Giogo",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/%C3%89glise_Saint-Denis_Lyons-la-For%C3%AAt_5.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-Denis%20Lyons-la-For%C3%AAt%205.JPG",
-          "title": "Église Saint-Denis Lyons-la-Forêt 5.JPG",
-          "width": 3056,
-          "height": 2292,
-          "size": 944648,
-          "timestamp": "2012-10-01T09:07:33Z",
           "author": "Giogo",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -94,7 +143,50 @@
     },
     {
       "label": "Maisons à colombages (place Benserade)",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Lyons_la_Foret_%281788960700%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALyons%20la%20Foret%20(1788960700).jpg",
+          "title": "Lyons la Foret (1788960700).jpg",
+          "description": "Lyons la Foret",
+          "width": 1280,
+          "height": 960,
+          "size": 279758,
+          "timestamp": "2020-04-22T12:21:43Z",
+          "author": "Amanda Slater",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Normandie_Dorf_Lyons-la_Foret.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANormandie%20Dorf%20Lyons-la%20Foret.jpg",
+          "title": "Normandie Dorf Lyons-la Foret.jpg",
+          "description": "eines der schönsten Dörfer in der Normandie mit der Markthalle aus dem 17. Jahrhundert",
+          "width": 3888,
+          "height": 2592,
+          "size": 5074442,
+          "timestamp": "2022-02-17T15:46:23Z",
+          "author": "Englandfan~commonswiki",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Lyon_8e_-_Place_des_Fr%C3%A8res_Voisin_-_Plaque_La_for%C3%AAt_magique.jpeg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALyon%208e%20-%20Place%20des%20Fr%C3%A8res%20Voisin%20-%20Plaque%20La%20for%C3%AAt%20magique.jpeg",
+          "title": "Lyon 8e - Place des Frères Voisin - Plaque La forêt magique.jpeg",
+          "description": "Place \"La forêt magique\".",
+          "width": 4128,
+          "height": 2322,
+          "size": 3825802,
+          "timestamp": "2022-04-30T14:20:52Z",
+          "author": "Romainbehar",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Lisière de la forêt domaniale",

@@ -1,12 +1,13 @@
 {
   "slug": "saint-martin-de-bromes",
   "nom": "Saint-Martin-de-Brômes",
-  "fetchedAt": "2026-03-14T12:08:10.374Z",
+  "fetchedAt": "2026-03-18T18:27:46.954Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Saint_Martin_de_bromes_1_-_panoramio.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint%20Martin%20de%20bromes%201%20-%20panoramio.jpg",
       "title": "Saint Martin de bromes 1 - panoramio.jpg",
+      "description": "Saint Martin de bromes 1",
       "width": 2048,
       "height": 1536,
       "size": 624416,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Saint_Martin_de_Br%C3%B4mes_1_-_panoramio.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint%20Martin%20de%20Br%C3%B4mes%201%20-%20panoramio.jpg",
       "title": "Saint Martin de Brômes 1 - panoramio.jpg",
+      "description": "Saint Martin de Brômes 1",
       "width": 2048,
       "height": 1536,
       "size": 623280,
@@ -30,17 +32,18 @@
       "score": 6
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Saint-Martin-de-Br%C3%B4mes_6.JPG",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Martin-de-Br%C3%B4mes%206.JPG",
-      "title": "Saint-Martin-de-Brômes 6.JPG",
-      "width": 3872,
-      "height": 2592,
-      "size": 4841692,
-      "timestamp": "2010-11-04T17:52:48Z",
-      "author": "EmDee",
-      "license": "CC BY-SA 3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Eglise_Saint-Martin_-_Nef_vue_de_l%27entr%C3%A9e_-_Saint-Martin-de-Br%C3%B4mes_-_M%C3%A9diath%C3%A8que_de_l%27architecture_et_du_patrimoine_-_APMH00029816.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Saint-Martin%20-%20Nef%20vue%20de%20l'entr%C3%A9e%20-%20Saint-Martin-de-Br%C3%B4mes%20-%20M%C3%A9diath%C3%A8que%20de%20l'architecture%20et%20du%20patrimoine%20-%20APMH00029816.jpg",
+      "title": "Eglise Saint-Martin - Nef vue de l'entrée - Saint-Martin-de-Brômes - Médiathèque de l'architecture et du patrimoine - APMH00029816.jpg",
+      "description": "Nef vue de l'entrée.",
+      "width": 715,
+      "height": 512,
+      "size": 66360,
+      "timestamp": "2020-04-27T08:03:27Z",
+      "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Camille_Enlart\" class=\"extiw\" title=\"w:en:Camille Enlart\"><span title=\"French art historian and photographer (1862-1927)\">Camille Enlart</span></a></bdi>",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
+      "score": 6
     }
   ],
   "lieux": [
@@ -48,9 +51,24 @@
       "label": "Tour de l’Horloge",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Saint-Martin-de-Br%C3%B4mes_6.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Martin-de-Br%C3%B4mes%206.JPG",
+          "title": "Saint-Martin-de-Brômes 6.JPG",
+          "description": "France - Provence - Tour de l’horloge de Saint-Martin-de-Brômes",
+          "width": 3872,
+          "height": 2592,
+          "size": 4841692,
+          "timestamp": "2010-11-04T17:52:48Z",
+          "author": "EmDee",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Saint-Martin-de-Br%C3%B4mes_2.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Martin-de-Br%C3%B4mes%202.JPG",
           "title": "Saint-Martin-de-Brômes 2.JPG",
+          "description": "France - Provence - Tour de l’horloge de Saint-Martin-de-Brômes",
           "width": 2592,
           "height": 3872,
           "size": 5197471,
@@ -59,6 +77,20 @@
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Saint-Martin-de-Bromes_par_Enrico_Campagnola.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Martin-de-Bromes%20par%20Enrico%20Campagnola.jpg",
+          "title": "Saint-Martin-de-Bromes par Enrico Campagnola.jpg",
+          "description": "La tour, l'église et le poulailler à Saint-Martin-de-Bromes, dessin à la plume par Enrico Campagnola.",
+          "width": 454,
+          "height": 658,
+          "size": 159204,
+          "timestamp": "2012-01-03T17:55:16Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q3054615\" class=\"extiw\" title=\"d:Q3054615\"><span title=\"Italian painter (1911-1984)\">Enrico Campagnola</span></a></bdi>",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 1
         }
       ]
     },
@@ -69,6 +101,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Eglise_Saint-Martin_-_Nef_vue_de_l%27entr%C3%A9e_-_Saint-Martin-de-Br%C3%B4mes_-_M%C3%A9diath%C3%A8que_de_l%27architecture_et_du_patrimoine_-_APMH00029816.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Saint-Martin%20-%20Nef%20vue%20de%20l'entr%C3%A9e%20-%20Saint-Martin-de-Br%C3%B4mes%20-%20M%C3%A9diath%C3%A8que%20de%20l'architecture%20et%20du%20patrimoine%20-%20APMH00029816.jpg",
           "title": "Eglise Saint-Martin - Nef vue de l'entrée - Saint-Martin-de-Brômes - Médiathèque de l'architecture et du patrimoine - APMH00029816.jpg",
+          "description": "Nef vue de l'entrée.",
           "width": 715,
           "height": 512,
           "size": 66360,
@@ -76,7 +109,7 @@
           "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Camille_Enlart\" class=\"extiw\" title=\"w:en:Camille Enlart\"><span title=\"French art historian and photographer (1862-1927)\">Camille Enlart</span></a></bdi>",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 6
         }
       ]
     },

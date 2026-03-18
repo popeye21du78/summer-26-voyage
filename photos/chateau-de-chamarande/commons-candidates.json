@@ -1,25 +1,13 @@
 {
   "slug": "chateau-de-chamarande",
   "nom": "Château de Chamarande",
-  "fetchedAt": "2026-03-13T12:45:59.706Z",
+  "fetchedAt": "2026-03-15T21:18:12.272Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Chamarande_sveti.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChamarande%20sveti.jpg",
-      "title": "Chamarande sveti.jpg",
-      "width": 1907,
-      "height": 1317,
-      "size": 830841,
-      "timestamp": "2021-01-04T21:03:53Z",
-      "author": "Sveti118",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Chateau_chamarande%282025%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau%20chamarande(2025).jpg",
       "title": "Chateau chamarande(2025).jpg",
+      "description": "Le Château de Chamarande (Essonne) en mai 2025.",
       "width": 7709,
       "height": 5678,
       "size": 14440521,
@@ -27,18 +15,33 @@
       "author": "Matgrt",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Chamarande-ch%C3%A2teau-2.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChamarande-ch%C3%A2teau-2.jpg",
+      "title": "Chamarande-château-2.jpg",
+      "description": "Le Château de Chamarande (Essonne).",
+      "width": 2019,
+      "height": 1407,
+      "size": 1838598,
+      "timestamp": "2011-09-19T13:14:13Z",
+      "author": "JC Allin",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Chamarande-Eglise_St-Quentin%282025%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChamarande-Eglise%20St-Quentin(2025).jpg",
-      "title": "Chamarande-Eglise St-Quentin(2025).jpg",
-      "width": 7997,
-      "height": 6048,
-      "size": 14647816,
-      "timestamp": "2025-05-15T16:26:00Z",
-      "author": "Matgrt",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Chamarande-ch%C3%A2teau-3.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChamarande-ch%C3%A2teau-3.jpg",
+      "title": "Chamarande-château-3.jpg",
+      "description": "Le Château de Chamarande (Essonne).",
+      "width": 2476,
+      "height": 1280,
+      "size": 1838360,
+      "timestamp": "2011-09-19T13:14:13Z",
+      "author": "JC Allin",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     }
@@ -50,7 +53,50 @@
     },
     {
       "label": "Canal et orangerie",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Canal_Chamarande_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACanal%20Chamarande%201.jpg",
+          "title": "Canal Chamarande 1.jpg",
+          "description": "Canal du parc de Chamarande",
+          "width": 2048,
+          "height": 1536,
+          "size": 1271296,
+          "timestamp": "2019-01-04T20:50:39Z",
+          "author": "Laurent Jerry",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Arbre_Chamarande.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArbre%20Chamarande.jpg",
+          "title": "Arbre Chamarande.jpg",
+          "description": "Arbre reflété dans le canal du parc de Chamarande",
+          "width": 1536,
+          "height": 2048,
+          "size": 906382,
+          "timestamp": "2019-01-04T20:50:39Z",
+          "author": "Laurent Jerry",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Canal_Chamarande_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACanal%20Chamarande%202.jpg",
+          "title": "Canal Chamarande 2.jpg",
+          "description": "Canal du parc de Chamarande",
+          "width": 1536,
+          "height": 2048,
+          "size": 837478,
+          "timestamp": "2019-01-04T20:50:39Z",
+          "author": "Laurent Jerry",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Glacière du parc",
@@ -58,7 +104,22 @@
     },
     {
       "label": "Façade sur douves",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Ch%C3%A2teau_de_Chamarande_South_facade.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Chamarande%20South%20facade.jpg",
+          "title": "Château de Chamarande South facade.jpg",
+          "description": "Château de Chamarande",
+          "width": 2048,
+          "height": 1536,
+          "size": 2294856,
+          "timestamp": "2011-07-02T14:13:20Z",
+          "author": "Remi Mathis",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

@@ -1,12 +1,13 @@
 {
   "slug": "le-poet-laval",
   "nom": "Le Poët-Laval",
-  "fetchedAt": "2026-03-13T15:35:38.091Z",
+  "fetchedAt": "2026-03-16T20:10:10.260Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Ch%C3%A2teau_du_Po%C3%ABt-Laval%2C_chapelle_et_donjon.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20du%20Po%C3%ABt-Laval%2C%20chapelle%20et%20donjon.jpg",
       "title": "Château du Poët-Laval, chapelle et donjon.jpg",
+      "description": "Le château et sa chapelle.",
       "width": 3919,
       "height": 2939,
       "size": 2778412,
@@ -14,29 +15,31 @@
       "author": "Fanfwah",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Chapelle_du_couvent-orphelinat_du_Po%C3%ABt-Laval_-_vue_int%C3%A9rieure.JPG",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20du%20couvent-orphelinat%20du%20Po%C3%ABt-Laval%20-%20vue%20int%C3%A9rieure.JPG",
-      "title": "Chapelle du couvent-orphelinat du Poët-Laval - vue intérieure.JPG",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Chapelle_du_couvent-orphelinat_du_Po%C3%ABt-Laval_-_plaque_croix.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20du%20couvent-orphelinat%20du%20Po%C3%ABt-Laval%20-%20plaque%20croix.JPG",
+      "title": "Chapelle du couvent-orphelinat du Poët-Laval - plaque croix.JPG",
+      "description": "Chapelle du couvent-orphelinat du Poët-Laval - plaque croix.",
       "width": 4032,
       "height": 3024,
-      "size": 2783771,
-      "timestamp": "2022-07-04T07:26:05Z",
+      "size": 2202307,
+      "timestamp": "2022-07-04T07:29:11Z",
       "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q42790984\" class=\"extiw\" title=\"d:Q42790984\"><span title=\"French computing engineer\">Benoît Prieur</span></a></bdi>",
       "license": "CC0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Chapelle_du_couvent-orphelinat_du_Po%C3%ABt-Laval_-_plaque_croix.JPG",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20du%20couvent-orphelinat%20du%20Po%C3%ABt-Laval%20-%20plaque%20croix.JPG",
-      "title": "Chapelle du couvent-orphelinat du Poët-Laval - plaque croix.JPG",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Chapelle_du_couvent-orphelinat_du_Po%C3%ABt-Laval_-_plaque_fondation.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20du%20couvent-orphelinat%20du%20Po%C3%ABt-Laval%20-%20plaque%20fondation.JPG",
+      "title": "Chapelle du couvent-orphelinat du Poët-Laval - plaque fondation.JPG",
+      "description": "Chapelle du couvent-orphelinat du Poët-Laval - plaque fondation.",
       "width": 4032,
       "height": 3024,
-      "size": 2202307,
-      "timestamp": "2022-07-04T07:29:11Z",
+      "size": 3065501,
+      "timestamp": "2022-07-04T07:29:51Z",
       "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q42790984\" class=\"extiw\" title=\"d:Q42790984\"><span title=\"French computing engineer\">Benoît Prieur</span></a></bdi>",
       "license": "CC0",
       "licenseUrl": "https://creativecommons.org/licenses/",
@@ -46,7 +49,50 @@
   "lieux": [
     {
       "label": "Donjon médiéval",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Ch%C3%A2teau_du_Po%C3%ABt-Laval%2C_chapelle_et_donjon.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20du%20Po%C3%ABt-Laval%2C%20chapelle%20et%20donjon.jpg",
+          "title": "Château du Poët-Laval, chapelle et donjon.jpg",
+          "description": "Le château et sa chapelle.",
+          "width": 3919,
+          "height": 2939,
+          "size": 2778412,
+          "timestamp": "2021-09-21T18:31:28Z",
+          "author": "Fanfwah",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Vue_sur_le_donjon_du_Po%C3%ABt-Laval_%2826%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20sur%20le%20donjon%20du%20Po%C3%ABt-Laval%20(26).jpg",
+          "title": "Vue sur le donjon du Poët-Laval (26).jpg",
+          "description": "Vue sur le donjon du Poët-Laval (26) .",
+          "width": 2830,
+          "height": 2126,
+          "size": 2239117,
+          "timestamp": "2020-03-29T10:22:55Z",
+          "author": "Daniel CULSAN",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Vue_sur_le_donjon_du_Po%C3%ABt-Laval.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20sur%20le%20donjon%20du%20Po%C3%ABt-Laval.jpg",
+          "title": "Vue sur le donjon du Poët-Laval.jpg",
+          "description": "Vue sur le donjon du Poët-Laval.",
+          "width": 2122,
+          "height": 2826,
+          "size": 2370579,
+          "timestamp": "2020-03-29T10:16:51Z",
+          "author": "Daniel CULSAN",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Temple protestant",
@@ -55,6 +101,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Poet_Laval_-_temple_2.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APoet%20Laval%20-%20temple%202.jpg",
           "title": "Poet Laval - temple 2.jpg",
+          "description": "Temple de Le Poët Laval (26) : dans le village récent",
           "width": 4000,
           "height": 3000,
           "size": 2159099,
@@ -68,6 +115,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Poet_Laval_-_temple.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APoet%20Laval%20-%20temple.jpg",
           "title": "Poet Laval - temple.jpg",
+          "description": "Temple de Le Poët Laval (26) : dans le village récent",
           "width": 3000,
           "height": 4000,
           "size": 3235915,
@@ -87,13 +135,42 @@
       "label": "Vieux lavoir",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Poet_Laval.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APoet%20Laval.jpg",
+          "title": "Poet Laval.jpg",
+          "description": "vieux village de Le Poët-Laval (26)",
+          "width": 2968,
+          "height": 2235,
+          "size": 1089213,
+          "timestamp": "2012-04-08T14:14:09Z",
+          "author": "Marianne Casamance",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Poet_Laval_-_lavoir_vieux_village.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APoet%20Laval%20-%20lavoir%20vieux%20village.jpg",
           "title": "Poet Laval - lavoir vieux village.jpg",
+          "description": "Lavoir dans le vieux village de Le Poët-Laval (26)",
           "width": 4000,
           "height": 3000,
           "size": 4014779,
           "timestamp": "2012-04-08T14:14:26Z",
+          "author": "Marianne Casamance",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Poet_Laval_-_bassin_ancien_village.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APoet%20Laval%20-%20bassin%20ancien%20village.jpg",
+          "title": "Poet Laval - bassin ancien village.jpg",
+          "description": "bassin dans le vieux village de Le Poët-Laval (26)",
+          "width": 4000,
+          "height": 3000,
+          "size": 4310570,
+          "timestamp": "2012-04-08T14:14:15Z",
           "author": "Marianne Casamance",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",

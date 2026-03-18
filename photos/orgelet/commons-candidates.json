@@ -1,12 +1,27 @@
 {
   "slug": "orgelet",
   "nom": "Orgelet",
-  "fetchedAt": "2026-03-13T16:41:32.311Z",
+  "fetchedAt": "2026-03-17T22:02:49.993Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Vuorgelet4.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVuorgelet4.JPG",
+      "title": "Vuorgelet4.JPG",
+      "description": "Vue depuis Orgelet",
+      "width": 3840,
+      "height": 2160,
+      "size": 5148761,
+      "timestamp": "2015-08-26T17:53:29Z",
+      "author": "Pipouchat",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Orgelet_-_Distributeur_de_Comt%C3%A9_01.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOrgelet%20-%20Distributeur%20de%20Comt%C3%A9%2001.jpg",
       "title": "Orgelet - Distributeur de Comté 01.jpg",
+      "description": "Distributeur de fromage, Orgelet",
       "width": 4032,
       "height": 2268,
       "size": 3913951,
@@ -20,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Orgelet_-_Distributeur_de_Comt%C3%A9_02.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOrgelet%20-%20Distributeur%20de%20Comt%C3%A9%2002.jpg",
       "title": "Orgelet - Distributeur de Comté 02.jpg",
+      "description": "Distributeur de fromage, Orgelet",
       "width": 3289,
       "height": 2078,
       "size": 1019061,
@@ -28,25 +44,55 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Orgelet_%2811860757733%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOrgelet%20(11860757733).jpg",
-      "title": "Orgelet (11860757733).jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 5208266,
-      "timestamp": "2021-08-23T02:43:41Z",
-      "author": "Paul-Edouard Pinot",
-      "license": "CC BY 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
     }
   ],
   "lieux": [
     {
       "label": "Église Saint-Georges d’Orgelet",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Orgelet%2C_la_vieille_ville_depuis_la_rue_du_Ch%C3%A2teau.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOrgelet%2C%20la%20vieille%20ville%20depuis%20la%20rue%20du%20Ch%C3%A2teau.jpg",
+          "title": "Orgelet, la vieille ville depuis la rue du Château.jpg",
+          "description": "La rue du Château et le clocher de l'église Notre-Dame de l'Assomption d'Orgelet.",
+          "width": 3519,
+          "height": 2639,
+          "size": 1132627,
+          "timestamp": "2025-12-08T20:10:24Z",
+          "author": "Wikipedro",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Orgelet_08.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOrgelet%2008.jpg",
+          "title": "Orgelet 08.jpg",
+          "description": "Église Notre-Dame d'Orgelet, Orgelet, Jura, Bourgogne-Franche-Comté, France",
+          "width": 3968,
+          "height": 2976,
+          "size": 1145567,
+          "timestamp": "2020-12-31T13:34:01Z",
+          "author": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Orgelet_10.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOrgelet%2010.jpg",
+          "title": "Orgelet 10.jpg",
+          "description": "Église Notre-Dame d'Orgelet, Orgelet, Jura, Bourgogne-Franche-Comté, France",
+          "width": 3968,
+          "height": 2976,
+          "size": 3056585,
+          "timestamp": "2020-12-31T13:34:23Z",
+          "author": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Porte du Bourg",

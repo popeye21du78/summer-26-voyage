@@ -1,12 +1,13 @@
 {
   "slug": "sylvanes",
   "nom": "Sylvanès",
-  "fetchedAt": "2026-03-14T12:46:45.122Z",
+  "fetchedAt": "2026-03-18T19:55:46.271Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Abbaye_de_Sylvan%C3%A8s_02.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20de%20Sylvan%C3%A8s%2002.jpg",
       "title": "Abbaye de Sylvanès 02.jpg",
+      "description": "L'abbaye de Sylvanès, fondée en 1136 par Pons de Léras, est une ancienne abbaye cistercienne située sur la commune de Sylvanès.",
       "width": 3648,
       "height": 2736,
       "size": 3280537,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Abbaye_de_Sylvan%C3%A8s_01.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20de%20Sylvan%C3%A8s%2001.jpg",
       "title": "Abbaye de Sylvanès 01.jpg",
+      "description": "L'abbaye de Sylvanès, fondée en 1136 par Pons de Léras, est une ancienne abbaye cistercienne située sur la commune de Sylvanès.",
       "width": 3648,
       "height": 2736,
       "size": 6881831,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Abbaye_de_Sylvan%C3%A8s_08.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20de%20Sylvan%C3%A8s%2008.jpg",
       "title": "Abbaye de Sylvanès 08.jpg",
+      "description": "L'abbaye de Sylvanès, fondée en 1136 par Pons de Léras, est une ancienne abbaye cistercienne située sur la commune de Sylvanès.",
       "width": 3648,
       "height": 2736,
       "size": 5123561,
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Aveyron_Sylvanes_Monastere_Eglise_Nef_14082012_-_panoramio.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAveyron%20Sylvanes%20Monastere%20Eglise%20Nef%2014082012%20-%20panoramio.jpg",
           "title": "Aveyron Sylvanes Monastere Eglise Nef 14082012 - panoramio.jpg",
+          "description": "Aveyron Sylvanes Monastere Eglise Nef 14082012",
           "width": 1200,
           "height": 1600,
           "size": 690388,
@@ -59,6 +63,34 @@
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Sylvanes_fa%C3%A7ade_occidentale.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASylvanes%20fa%C3%A7ade%20occidentale.jpg",
+          "title": "Sylvanes façade occidentale.jpg",
+          "description": "Abbaye de Sylvanès (Aveyron) - façade occidentale de l'église abbatiale",
+          "width": 3264,
+          "height": 2448,
+          "size": 8216894,
+          "timestamp": "2008-09-03T13:49:09Z",
+          "author": "Fagairolles 34",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Sylvanes_choeur_abbatiale.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASylvanes%20choeur%20abbatiale.jpg",
+          "title": "Sylvanes choeur abbatiale.jpg",
+          "description": "Abbaye de Sylvanès (Aveyron) - chœur de l'abbatiale.",
+          "width": 2094,
+          "height": 3382,
+          "size": 3061566,
+          "timestamp": "2012-04-07T08:25:39Z",
+          "author": "Fagairolles 34",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
         }
       ]
     },
@@ -69,6 +101,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Sylvan%C3%A8s_-_Abbaye_de_Sylvan%C3%A8s_-_01.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASylvan%C3%A8s%20-%20Abbaye%20de%20Sylvan%C3%A8s%20-%2001.jpg",
           "title": "Sylvanès - Abbaye de Sylvanès - 01.jpg",
+          "description": "Sylvanès - Abbaye de Sylvanès",
           "width": 6000,
           "height": 4000,
           "size": 3539323,
@@ -82,6 +115,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Sylvan%C3%A8s_-_Abbaye_de_Sylvan%C3%A8s_-_03.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASylvan%C3%A8s%20-%20Abbaye%20de%20Sylvan%C3%A8s%20-%2003.jpg",
           "title": "Sylvanès - Abbaye de Sylvanès - 03.jpg",
+          "description": "Sylvanès - Abbaye de Sylvanès",
           "width": 6000,
           "height": 4000,
           "size": 2463563,
@@ -95,6 +129,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Sylvan%C3%A8s_-_Abbaye_de_Sylvan%C3%A8s_-_02.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASylvan%C3%A8s%20-%20Abbaye%20de%20Sylvan%C3%A8s%20-%2002.jpg",
           "title": "Sylvanès - Abbaye de Sylvanès - 02.jpg",
+          "description": "Sylvanès - Abbaye de Sylvanès",
           "width": 6000,
           "height": 4000,
           "size": 3482015,
@@ -108,34 +143,7 @@
     },
     {
       "label": "salle capitulaire",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Fen%C3%AAtre_g%C3%A9min%C3%A9e_de_la_salle_capitulaire.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFen%C3%AAtre%20g%C3%A9min%C3%A9e%20de%20la%20salle%20capitulaire.JPG",
-          "title": "Fenêtre géminée de la salle capitulaire.JPG",
-          "width": 4000,
-          "height": 3000,
-          "size": 4976128,
-          "timestamp": "2015-10-21T16:14:43Z",
-          "author": "Thérèse Gaigé",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Sylvanes%2Cfen%C3%AAtre_de_la_salle_capitulaire.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASylvanes%2Cfen%C3%AAtre%20de%20la%20salle%20capitulaire.jpg",
-          "title": "Sylvanes,fenêtre de la salle capitulaire.jpg",
-          "width": 1704,
-          "height": 2272,
-          "size": 2097076,
-          "timestamp": "2008-09-03T13:56:37Z",
-          "author": "Castanet",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 3
-        }
-      ]
+      "photos": []
     },
     {
       "label": "fontaine du cloître",

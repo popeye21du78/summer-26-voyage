@@ -1,12 +1,13 @@
 {
   "slug": "clamecy",
   "nom": "Clamecy",
-  "fetchedAt": "2026-03-13T13:35:01.415Z",
+  "fetchedAt": "2026-03-16T12:07:27.798Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/24_Rue_du_Grande_March%C3%A9%2C_Clamecy.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A24%20Rue%20du%20Grande%20March%C3%A9%2C%20Clamecy.jpg",
       "title": "24 Rue du Grande Marché, Clamecy.jpg",
+      "description": "Maison",
       "width": 4608,
       "height": 3456,
       "size": 3864503,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/22_Rue_de_Grande_March%C3%A9%2C_Clamecy.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A22%20Rue%20de%20Grande%20March%C3%A9%2C%20Clamecy.jpg",
       "title": "22 Rue de Grande Marché, Clamecy.jpg",
+      "description": "Facade of building on Rue de la Monnaie",
       "width": 4608,
       "height": 3456,
       "size": 4166563,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Halle_de_Clamecy_%28Ni%C3%A8vre%29_en_ao%C3%BBt_2021_%282%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHalle%20de%20Clamecy%20(Ni%C3%A8vre)%20en%20ao%C3%BBt%202021%20(2).jpg",
       "title": "Halle de Clamecy (Nièvre) en août 2021 (2).jpg",
+      "description": "Halle de Clamecy (Nièvre).",
       "width": 4032,
       "height": 2536,
       "size": 7622766,
@@ -48,74 +51,136 @@
       "label": "Collégiale Saint-Martin",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Saint_Martin_church_in_Clamecy_%282%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint%20Martin%20church%20in%20Clamecy%20(2).jpg",
-          "title": "Saint Martin church in Clamecy (2).jpg",
-          "width": 5100,
-          "height": 3400,
-          "size": 14138976,
-          "timestamp": "2019-09-09T13:19:24Z",
-          "author": "Krzysztof Golik",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Clamecy_%2858%29_Coll%C3%A9giale_Saint-Martin_-_Int%C3%A9rieur_-_Inscription.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AClamecy%20(58)%20Coll%C3%A9giale%20Saint-Martin%20-%20Int%C3%A9rieur%20-%20Inscription.jpg",
-          "title": "Clamecy (58) Collégiale Saint-Martin - Intérieur - Inscription.jpg",
-          "width": 2000,
-          "height": 3000,
-          "size": 2210744,
-          "timestamp": "2021-12-26T19:20:24Z",
-          "author": "GO69",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Clamecy_-_Coll%C3%A9giale_Saint-Martin_-_81.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AClamecy%20-%20Coll%C3%A9giale%20Saint-Martin%20-%2081.jpg",
-          "title": "Clamecy - Collégiale Saint-Martin - 81.jpg",
-          "width": 2017,
-          "height": 2581,
-          "size": 2515888,
-          "timestamp": "2025-10-10T16:26:28Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Clamecy_-_Coll%C3%A9giale_-_Saint-Martin54.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AClamecy%20-%20Coll%C3%A9giale%20-%20Saint-Martin54.jpg",
+          "title": "Clamecy - Collégiale - Saint-Martin54.jpg",
+          "description": "Clamecy - Collégiale - Saint-Martin",
+          "width": 1429,
+          "height": 919,
+          "size": 1077926,
+          "timestamp": "2025-10-10T16:06:44Z",
           "author": "Renhour48",
           "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Clamecy_-_Coll%C3%A9giale_-_Saint-Martin55.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AClamecy%20-%20Coll%C3%A9giale%20-%20Saint-Martin55.jpg",
+          "title": "Clamecy - Collégiale - Saint-Martin55.jpg",
+          "description": "Clamecy - Collégiale - Saint-Martin",
+          "width": 3148,
+          "height": 2062,
+          "size": 5023587,
+          "timestamp": "2025-10-10T16:06:45Z",
+          "author": "Renhour48",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Clamecy_-_Coll%C3%A9giale_-_Saint-Martin57.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AClamecy%20-%20Coll%C3%A9giale%20-%20Saint-Martin57.jpg",
+          "title": "Clamecy - Collégiale - Saint-Martin57.jpg",
+          "description": "Clamecy - Collégiale - Saint-Martin",
+          "width": 2167,
+          "height": 1402,
+          "size": 2624083,
+          "timestamp": "2025-10-10T16:06:48Z",
+          "author": "Renhour48",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
+    },
+    {
+      "label": "Place du Grand-Marché",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Place_de_Bethl%C3%A9em%2C_Clamecy.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlace%20de%20Bethl%C3%A9em%2C%20Clamecy.jpg",
+          "title": "Place de Bethléem, Clamecy.jpg",
+          "description": "Place de Bethléem, Clamecy",
+          "width": 4080,
+          "height": 3072,
+          "size": 4034234,
+          "timestamp": "2025-08-07T23:17:28Z",
+          "author": "Андрей Романенко",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Hostellerie_de_la_Poste%2C_Place_%C3%89mile_Zola%2C_Clamecy.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHostellerie%20de%20la%20Poste%2C%20Place%20%C3%89mile%20Zola%2C%20Clamecy.jpg",
+          "title": "Hostellerie de la Poste, Place Émile Zola, Clamecy.jpg",
+          "description": "Hostellerie de la Poste, Place Émile Zola, Clamecy",
+          "width": 4080,
+          "height": 3072,
+          "size": 3359159,
+          "timestamp": "2025-11-23T23:14:28Z",
+          "author": "Андрей Романенко",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Clamecy_%28Ni%C3%A8vre%29._%2834952478504%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AClamecy%20(Ni%C3%A8vre).%20(34952478504).jpg",
+          "title": "Clamecy (Nièvre). (34952478504).jpg",
+          "description": "Clamecy (Nièvre)\nÉglise Notre-Dame-de-Bethléem.\n\nSur les bords de l'Yonne, cette curieuse église a été construite en 1926 et 1927 sur les plans de l'architecte Georges Théodore Renaud*.  \nPour rappeler l'existence en ces lieux d'un évêché de Bethléem, le curé  de la paroisse demanda à l'architecte de s'inspirer du style byzantin. \nL'église est bâtie en béton armé ainsi qu'une partie du mobilier (Le matériau était très en vogue à l'époque, il fut par exemple utilisé pour l'église du Raincy en 192",
+          "width": 4928,
+          "height": 3264,
+          "size": 9677907,
+          "timestamp": "2017-11-17T16:56:59Z",
+          "author": "Daniel Jolivet",
+          "license": "CC BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
         }
       ]
     },
     {
-      "label": "Place du Grand-Marché",
-      "photos": []
-    },
-    {
       "label": "Quai de la République",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Clamecy_%28Ni%C3%A8vre%29._%2835381599074%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AClamecy%20(Ni%C3%A8vre).%20(35381599074).jpg",
-          "title": "Clamecy (Nièvre). (35381599074).jpg",
-          "width": 4819,
-          "height": 2355,
-          "size": 6850944,
-          "timestamp": "2017-11-17T16:56:10Z",
-          "author": "Daniel Jolivet",
-          "license": "CC BY 2.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Ancien_quai_de_l%27%C3%A9cluse_-_avenue_de_la_R%C3%A9publique_%28Clamecy%29_-_panneau_de_rue.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAncien%20quai%20de%20l'%C3%A9cluse%20-%20avenue%20de%20la%20R%C3%A9publique%20(Clamecy)%20-%20panneau%20de%20rue.jpg",
+          "title": "Ancien quai de l'écluse - avenue de la République (Clamecy) - panneau de rue.jpg",
+          "description": "Ancien quai de l'écluse - avenue de la République (Clamecy) - panneau de rue.",
+          "width": 1414,
+          "height": 1040,
+          "size": 1243194,
+          "timestamp": "2021-09-06T17:27:07Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q42790984\" class=\"extiw\" title=\"d:Q42790984\"><span title=\"French computing engineer\">Benoît Prieur</span></a></bdi>",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Gare_auxerre_direction_clamecy.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGare%20auxerre%20direction%20clamecy.JPG",
+          "title": "Gare auxerre direction clamecy.JPG",
+          "description": "Les quais de la gare d'Auxerre direction Clamecy",
+          "width": 4000,
+          "height": 2664,
+          "size": 2875774,
+          "timestamp": "2015-06-09T23:27:32Z",
+          "author": "Raphael2307",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Clamecy_%28Ni%C3%A8vre%29._%2836217135075%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AClamecy%20(Ni%C3%A8vre).%20(36217135075).jpg",
-          "title": "Clamecy (Nièvre). (36217135075).jpg",
-          "width": 4928,
-          "height": 3264,
-          "size": 8965720,
-          "timestamp": "2017-11-17T16:56:11Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Clamecy_%28Ni%C3%A8vre%29._%2835381599074%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AClamecy%20(Ni%C3%A8vre).%20(35381599074).jpg",
+          "title": "Clamecy (Nièvre). (35381599074).jpg",
+          "description": "Clamecy (Nièvre)\nQuai des Jeux.\nPort de plaisance sur le canal du Nivernais. \n\nAu XIXe siècle, le canal du Nivernais traversait Clamecy dans le prolongement du port, il empruntait le tracé de l'actuelle avenue de la République.",
+          "width": 4819,
+          "height": 2355,
+          "size": 6850944,
+          "timestamp": "2017-11-17T16:56:10Z",
           "author": "Daniel Jolivet",
           "license": "CC BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -125,7 +190,36 @@
     },
     {
       "label": "Vieux pont sur le Beuvron",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Pont_de_Bethl%C3%A9em_%28Clamecy%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20de%20Bethl%C3%A9em%20(Clamecy).jpg",
+          "title": "Pont de Bethléem (Clamecy).jpg",
+          "description": "Pont de Bethléem (Clamecy)",
+          "width": 4080,
+          "height": 3072,
+          "size": 5707295,
+          "timestamp": "2025-08-07T08:22:12Z",
+          "author": "Андрей Романенко",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/1_Rue_du_Pont_Chatelain_in_Clamecy.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1%20Rue%20du%20Pont%20Chatelain%20in%20Clamecy.jpg",
+          "title": "1 Rue du Pont Chatelain in Clamecy.jpg",
+          "description": "Building at 1 Rue du Pont Châtelain in Clamecy, Nièvre, France\n\n\n\n\n\n \nThis building is classé au titre des monuments historiques de la France. It is indexed in the base Mérimée, a database of architectural heritage maintained by the French Ministry of Culture, under the reference PA00112856 .\n\nbrezhoneg ∙ català ∙ Deutsch ∙ English ∙ español ∙ Esperanto ∙ euskara ∙ français ∙ italiano ∙ magyar ∙ Nederlands ∙ português do Brasil ∙ português ∙ română ∙ sicilianu ∙ slovenščina ∙ suomi ∙ svenska ∙ Ε",
+          "width": 2326,
+          "height": 4021,
+          "size": 6467850,
+          "timestamp": "2018-10-28T22:38:48Z",
+          "author": "Krzysztof Golik",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     }
   ]
 }

@@ -1,12 +1,13 @@
 {
   "slug": "chateauroux",
   "nom": "Châteauroux",
-  "fetchedAt": "2026-03-13T13:22:18.037Z",
+  "fetchedAt": "2026-03-16T11:39:20.637Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Rue_des_Ponts_in_Chateauroux.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARue%20des%20Ponts%20in%20Chateauroux.jpg",
       "title": "Rue des Ponts in Chateauroux.jpg",
+      "description": "Rue des Ponts in Châteauroux, Indre, France",
       "width": 4823,
       "height": 3564,
       "size": 11942679,
@@ -14,12 +15,13 @@
       "author": "Krzysztof Golik",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Ch%C3%A2teauroux_-_rue_Bertrand%2C_au_croisement_de_rue_Joseph_Bellier.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teauroux%20-%20rue%20Bertrand%2C%20au%20croisement%20de%20rue%20Joseph%20Bellier.jpg",
       "title": "Châteauroux - rue Bertrand, au croisement de rue Joseph Bellier.jpg",
+      "description": "Châteauroux (Indre, France) - rue Bertrand, au croisement de rue Joseph Bellier",
       "width": 4032,
       "height": 3024,
       "size": 3638351,
@@ -27,12 +29,13 @@
       "author": "AirScott",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Entr%C3%A9e_de_France_Bleu_Berry_et_France_3_Centre-Val_de_Loire_%C3%A0_Ch%C3%A2teauroux_en_2024..png",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEntr%C3%A9e%20de%20France%20Bleu%20Berry%20et%20France%203%20Centre-Val%20de%20Loire%20%C3%A0%20Ch%C3%A2teauroux%20en%202024..png",
       "title": "Entrée de France Bleu Berry et France 3 Centre-Val de Loire à Châteauroux en 2024..png",
+      "description": "Entrée du nouveau site de France Bleu Berry et France 3 Centre-Val de Loire, rue de la Poste, à Châteauroux en mars 2024.",
       "width": 4032,
       "height": 3024,
       "size": 20405182,
@@ -40,7 +43,7 @@
       "author": "J. N. Squire",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     }
   ],
   "lieux": [
@@ -48,27 +51,142 @@
       "label": "Cour intérieure du château",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Cluis-Dessous_%28Indre%29_%2830909901421%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACluis-Dessous%20(Indre)%20(30909901421).jpg",
-          "title": "Cluis-Dessous (Indre) (30909901421).jpg",
-          "width": 4928,
-          "height": 3264,
-          "size": 12445057,
-          "timestamp": "2017-11-17T17:03:19Z",
-          "author": "Daniel Jolivet",
-          "license": "CC BY 2.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Ch%C3%A2teauroux_-_Ch%C3%A2teau_Raoul_-_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teauroux%20-%20Ch%C3%A2teau%20Raoul%20-%2002.jpg",
+          "title": "Châteauroux - Château Raoul - 02.jpg",
+          "description": "Châteauroux (Indre, France) - Château Raoul viewed from Gütersloh bridge",
+          "width": 6145,
+          "height": 4100,
+          "size": 9687552,
+          "timestamp": "2024-08-31T17:02:49Z",
+          "author": "Benjamin Smith",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Ch%C3%A2teauroux_-_Ch%C3%A2teau_Raoul_-_03.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teauroux%20-%20Ch%C3%A2teau%20Raoul%20-%2003.jpg",
+          "title": "Châteauroux - Château Raoul - 03.jpg",
+          "description": "Châteauroux (Indre, France) - Château Raoul viewed from Gütersloh bridge",
+          "width": 6294,
+          "height": 4387,
+          "size": 11180290,
+          "timestamp": "2024-08-31T17:02:49Z",
+          "author": "Benjamin Smith",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Ch%C3%A2teauroux_%2836%29_-_Ch%C3%A2teau_Raoul.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teauroux%20(36)%20-%20Ch%C3%A2teau%20Raoul.jpg",
+          "title": "Châteauroux (36) - Château Raoul.jpg",
+          "description": "Château Raoul de Châteauroux",
+          "width": 1920,
+          "height": 1280,
+          "size": 467665,
+          "timestamp": "2015-07-15T10:08:25Z",
+          "author": "Châteauroux Métropole",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
         }
       ]
     },
     {
       "label": "Tour de l’Horloge",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Geoffroi_de_La_Tour_Landry_teaching_to_his_daughters_%28Ch%C3%A2teauroux_-_BM_-_ms_4%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGeoffroi%20de%20La%20Tour%20Landry%20teaching%20to%20his%20daughters%20(Ch%C3%A2teauroux%20-%20BM%20-%20ms%204).jpg",
+          "title": "Geoffroi de La Tour Landry teaching to his daughters (Châteauroux - BM - ms 4).jpg",
+          "description": "Geoffroi de La Tour Landry (i.e. the Knight of the Tower, the author of the book) is teaching to his daughters. Miniature from a manuscript of the Livre pour l'enseignement de ses filles (The Book of the Knight of the Tower) (Châteauroux, Bibliothèque Municipale, Ms 004, fol. 1)",
+          "width": 1885,
+          "height": 1684,
+          "size": 1108240,
+          "timestamp": "2023-09-14T13:51:24Z",
+          "author": "<div class=\"fn value\">\nAnonymous 15th-century French artist</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Ancienne_porte_Saint-Martin_%C3%A0_Ch%C3%A2teauroux_%28Indre%29_%2805A%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAncienne%20porte%20Saint-Martin%20%C3%A0%20Ch%C3%A2teauroux%20(Indre)%20(05A).jpg",
+          "title": "Ancienne porte Saint-Martin à Châteauroux (Indre) (05A).jpg",
+          "description": "Former Saint-Martin gate of the Château Raoul, known as the Old Prison in Châteauroux in the Indre department. The door of the Old Prison tower is one of the six towers of the enclosure of the Château Raoul, built in the 13th century.",
+          "width": 1446,
+          "height": 2258,
+          "size": 773836,
+          "timestamp": "2023-04-30T12:51:53Z",
+          "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Ancienne_porte_Saint-Martin_%C3%A0_Ch%C3%A2teauroux_%28Indre%29_%2810A%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAncienne%20porte%20Saint-Martin%20%C3%A0%20Ch%C3%A2teauroux%20(Indre)%20(10A).jpg",
+          "title": "Ancienne porte Saint-Martin à Châteauroux (Indre) (10A).jpg",
+          "description": "Former Saint-Martin gate of the Château Raoul, known as the Old Prison in Châteauroux in the Indre department. The door of the Old Prison tower is one of the six towers of the enclosure of the Château Raoul, built in the 13th century. Lithograph in 1843 by Jean-Baptiste Migné (1784-1859) Printer, bookseller, lithographer and publisher in Châteauroux in the department of Indre.",
+          "width": 1820,
+          "height": 2684,
+          "size": 1094470,
+          "timestamp": "2023-05-02T00:13:23Z",
+          "author": "Jean-Baptiste Migné (1784-1859)",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        }
+      ]
     },
     {
       "label": "Jardin public attenant",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Ch%C3%A2teauroux_-_Couvent_des_Cordeliers_-_04.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teauroux%20-%20Couvent%20des%20Cordeliers%20-%2004.jpg",
+          "title": "Châteauroux - Couvent des Cordeliers - 04.jpg",
+          "description": "Châteauroux (Indre, France) - Former Cordeliers' convent - Covered pass to the gardens",
+          "width": 6720,
+          "height": 4480,
+          "size": 8831635,
+          "timestamp": "2024-09-03T17:22:44Z",
+          "author": "Benjamin Smith",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Ch%C3%A2teauroux_-_Jardin_des_Cordeliers_-_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teauroux%20-%20Jardin%20des%20Cordeliers%20-%2001.jpg",
+          "title": "Châteauroux - Jardin des Cordeliers - 01.jpg",
+          "description": "Châteauroux (Indre, France) - Cordeliers' garden",
+          "width": 6720,
+          "height": 4480,
+          "size": 14768358,
+          "timestamp": "2024-09-03T17:44:14Z",
+          "author": "Benjamin Smith",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Ch%C3%A2teauroux_-_Jardin_des_Cordeliers_-_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teauroux%20-%20Jardin%20des%20Cordeliers%20-%2002.jpg",
+          "title": "Châteauroux - Jardin des Cordeliers - 02.jpg",
+          "description": "Châteauroux (Indre, France) - Cordeliers' garden",
+          "width": 6720,
+          "height": 4480,
+          "size": 14740167,
+          "timestamp": "2024-09-03T17:44:15Z",
+          "author": "Benjamin Smith",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     }
   ]
 }

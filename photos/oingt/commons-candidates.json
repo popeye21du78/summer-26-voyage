@@ -1,12 +1,13 @@
 {
   "slug": "oingt",
   "nom": "Oingt",
-  "fetchedAt": "2026-03-13T16:39:39.284Z",
+  "fetchedAt": "2026-03-17T21:58:42.765Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Plaque_Route_Oingt_-_Moir%C3%A9_%28FR69%29_-_2026-03-06_-_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlaque%20Route%20Oingt%20-%20Moir%C3%A9%20(FR69)%20-%202026-03-06%20-%201.jpg",
       "title": "Plaque Route Oingt - Moiré (FR69) - 2026-03-06 - 1.jpg",
+      "description": "Plaque de la route d'Oingt, Moiré dans le Rhône.",
       "width": 3366,
       "height": 1914,
       "size": 1593936,
@@ -17,30 +18,32 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Plaque_Route_Oingt_-_Moir%C3%A9_%28FR69%29_-_2026-03-06_-_2.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlaque%20Route%20Oingt%20-%20Moir%C3%A9%20(FR69)%20-%202026-03-06%20-%202.jpg",
-      "title": "Plaque Route Oingt - Moiré (FR69) - 2026-03-06 - 2.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Oingt_-_Stade_Joann%C3%A8s_Minot_%28f%C3%A9v_2025%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOingt%20-%20Stade%20Joann%C3%A8s%20Minot%20(f%C3%A9v%202025).jpg",
+      "title": "Oingt - Stade Joannès Minot (fév 2025).jpg",
+      "description": "Vue du stade Joannès Minot, à Oingt (Rhône, France).",
       "width": 4032,
       "height": 3024,
-      "size": 4939108,
-      "timestamp": "2026-03-08T16:39:03Z",
-      "author": "Chabe01",
+      "size": 3307507,
+      "timestamp": "2025-02-26T23:05:44Z",
+      "author": "Sebleouf",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Route_Oingt_-_Moir%C3%A9_%28FR69%29_-_2026-03-06_-_1.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARoute%20Oingt%20-%20Moir%C3%A9%20(FR69)%20-%202026-03-06%20-%201.jpg",
-      "title": "Route Oingt - Moiré (FR69) - 2026-03-06 - 1.jpg",
-      "width": 5712,
-      "height": 4284,
-      "size": 7628456,
-      "timestamp": "2026-03-08T16:40:52Z",
-      "author": "Chabe01",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Oingt_-_Vue_et_panneau_Les_Plus_Beaux_Villages_de_France_%28mars_2022%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOingt%20-%20Vue%20et%20panneau%20Les%20Plus%20Beaux%20Villages%20de%20France%20(mars%202022).jpg",
+      "title": "Oingt - Vue et panneau Les Plus Beaux Villages de France (mars 2022).jpg",
+      "description": "Vue du village de Oingt, avec le panneau indiquant son classement parmi Les Plus Beaux Villages de France® (Rhône, France).",
+      "width": 3024,
+      "height": 4032,
+      "size": 4258729,
+      "timestamp": "2022-07-01T09:21:07Z",
+      "author": "Sebleouf",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 8
     }
   ],
   "lieux": [
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Place_%C3%89glise_Oingt_-_Val-d%27Oingt_%28FR69%29_-_2025-05-11_-_1.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlace%20%C3%89glise%20Oingt%20-%20Val-d'Oingt%20(FR69)%20-%202025-05-11%20-%201.jpg",
           "title": "Place Église Oingt - Val-d'Oingt (FR69) - 2025-05-11 - 1.jpg",
+          "description": "Place de l'Église d'Oingt, Val-d'Oingt.",
           "width": 5712,
           "height": 4284,
           "size": 5962513,
@@ -64,6 +68,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Tour_Oingt_-_Val-d%27Oingt_%28FR69%29_-_2025-05-11_-_6.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATour%20Oingt%20-%20Val-d'Oingt%20(FR69)%20-%202025-05-11%20-%206.jpg",
           "title": "Tour Oingt - Val-d'Oingt (FR69) - 2025-05-11 - 6.jpg",
+          "description": "Tour d'Oingt, Val-d'Oingt.",
           "width": 4032,
           "height": 3024,
           "size": 2066172,
@@ -74,14 +79,15 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/XDA_PA00118009.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AXDA%20PA00118009.jpg",
-          "title": "XDA PA00118009.jpg",
-          "width": 1200,
-          "height": 1798,
-          "size": 2163355,
-          "timestamp": "2021-09-27T15:46:26Z",
-          "author": "Xavier D'ABRIGEON",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Tour_Oingt_-_Val-d%27Oingt_%28FR69%29_-_2025-05-11_-_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATour%20Oingt%20-%20Val-d'Oingt%20(FR69)%20-%202025-05-11%20-%201.jpg",
+          "title": "Tour Oingt - Val-d'Oingt (FR69) - 2025-05-11 - 1.jpg",
+          "description": "Tour d'Oingt, Val-d'Oingt.",
+          "width": 3024,
+          "height": 3144,
+          "size": 4110431,
+          "timestamp": "2025-05-11T23:21:57Z",
+          "author": "Chabe01",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
@@ -92,9 +98,24 @@
       "label": "Église Saint-Mathieu",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Oingt_-_widok_z_wie%C5%BCy_-_view_from_tower_-_panoramio.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOingt%20-%20widok%20z%20wie%C5%BCy%20-%20view%20from%20tower%20-%20panoramio.jpg",
+          "title": "Oingt - widok z wieży - view from tower - panoramio.jpg",
+          "description": "Oingt - widok z wieży / view from tower",
+          "width": 2816,
+          "height": 2112,
+          "size": 1460567,
+          "timestamp": "2016-11-11T21:46:22Z",
+          "author": "Andrzej Harassek",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Oingt_-_%C3%89glise_Saint-Mathieu_1_%28ao%C3%BBt_2020%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOingt%20-%20%C3%89glise%20Saint-Mathieu%201%20(ao%C3%BBt%202020).jpg",
           "title": "Oingt - Église Saint-Mathieu 1 (août 2020).jpg",
+          "description": "Église Saint-Mathieu de Oingt (commune de Val d'Oingt, Rhône, France).",
           "width": 4032,
           "height": 3016,
           "size": 4849711,
@@ -108,23 +129,11 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/%C3%89glise_Saint_Mathieu_Oingt_-_Val-d%27Oingt_%28FR69%29_-_2025-05-11_-_2.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint%20Mathieu%20Oingt%20-%20Val-d'Oingt%20(FR69)%20-%202025-05-11%20-%202.jpg",
           "title": "Église Saint Mathieu Oingt - Val-d'Oingt (FR69) - 2025-05-11 - 2.jpg",
+          "description": "Église Saint-Mathieu d'Oingt, Val-d'Oingt.",
           "width": 5712,
           "height": 4284,
           "size": 6583204,
           "timestamp": "2025-05-11T23:11:32Z",
-          "author": "Chabe01",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/%C3%89glise_Saint_Mathieu_Oingt_-_Val-d%27Oingt_%28FR69%29_-_2025-05-11_-_4.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint%20Mathieu%20Oingt%20-%20Val-d'Oingt%20(FR69)%20-%202025-05-11%20-%204.jpg",
-          "title": "Église Saint Mathieu Oingt - Val-d'Oingt (FR69) - 2025-05-11 - 4.jpg",
-          "width": 6803,
-          "height": 5136,
-          "size": 7172028,
-          "timestamp": "2025-05-11T23:11:42Z",
           "author": "Chabe01",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -134,7 +143,50 @@
     },
     {
       "label": "Lavoir d’Oingt",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Oingt_-_Lavoir_de_Faussatz%2C_vue_1_%28f%C3%A9v_2025%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOingt%20-%20Lavoir%20de%20Faussatz%2C%20vue%201%20(f%C3%A9v%202025).jpg",
+          "title": "Oingt - Lavoir de Faussatz, vue 1 (fév 2025).jpg",
+          "description": "Vue du lavoir de Faussatz, à Oingt (Rhône, France).",
+          "width": 4032,
+          "height": 3024,
+          "size": 3074683,
+          "timestamp": "2025-02-26T21:18:02Z",
+          "author": "Sebleouf",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Oingt_-_Lavoir_de_Faussatz%2C_bassin_%28f%C3%A9v_2025%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOingt%20-%20Lavoir%20de%20Faussatz%2C%20bassin%20(f%C3%A9v%202025).jpg",
+          "title": "Oingt - Lavoir de Faussatz, bassin (fév 2025).jpg",
+          "description": "Bassin du lavoir de Faussatz, à Oingt (Rhône, France).",
+          "width": 4032,
+          "height": 3024,
+          "size": 2576693,
+          "timestamp": "2025-02-26T21:18:02Z",
+          "author": "Sebleouf",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Oingt_-_Lavoir_de_Faussatz%2C_toit_%28f%C3%A9v_2025%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOingt%20-%20Lavoir%20de%20Faussatz%2C%20toit%20(f%C3%A9v%202025).jpg",
+          "title": "Oingt - Lavoir de Faussatz, toit (fév 2025).jpg",
+          "description": "Toits du lavoir de Faussatz, à Oingt (Rhône, France).",
+          "width": 4032,
+          "height": 3024,
+          "size": 6549063,
+          "timestamp": "2025-02-26T21:18:02Z",
+          "author": "Sebleouf",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

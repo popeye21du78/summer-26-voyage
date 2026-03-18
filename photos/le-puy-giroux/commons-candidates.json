@@ -1,66 +1,41 @@
 {
   "slug": "le-puy-giroux",
   "nom": "Le Puy Giroux",
-  "fetchedAt": "2026-03-13T15:36:27.372Z",
+  "fetchedAt": "2026-03-16T20:12:19.519Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/ISS052-E-79457_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS052-E-79457%20-%20View%20of%20Earth.jpg",
-      "title": "ISS052-E-79457 - View of Earth.jpg",
-      "width": 4928,
-      "height": 3280,
-      "size": 1735232,
-      "timestamp": "2021-03-31T14:49:35Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Le_village_d%27Opme%2C_commune_de_Romagnat._63_Puy-de-d%C3%B4me.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20village%20d'Opme%2C%20commune%20de%20Romagnat.%2063%20Puy-de-d%C3%B4me.jpg",
+      "title": "Le village d'Opme, commune de Romagnat. 63 Puy-de-dôme.jpg",
+      "description": "Village d'Opme, commune de Romagnat, 63 Puy-de-Dôme.",
+      "width": 3024,
+      "height": 4032,
+      "size": 2126396,
+      "timestamp": "2022-12-10T23:09:32Z",
+      "author": "LOUGUIGARAPH",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 6
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/ISS042-E-333057_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS042-E-333057%20-%20View%20of%20Earth.jpg",
-      "title": "ISS042-E-333057 - View of Earth.jpg",
-      "width": 4928,
-      "height": 3280,
-      "size": 1852383,
-      "timestamp": "2021-08-18T09:20:49Z",
-      "author": "Earth Science and Remote Sensing Unit",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Puy_Imbert_%28pr%C3%A8s_Limoges%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APuy%20Imbert%20(pr%C3%A8s%20Limoges).jpg",
+      "title": "Puy Imbert (près Limoges).jpg",
+      "description": "Gravure noir et blanc. 23x14cm (cuvette) ; 36x26cm (feuille). Fin du XIXe.",
+      "width": 2000,
+      "height": 1345,
+      "size": 2576223,
+      "timestamp": "2011-06-16T12:33:04Z",
+      "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q2959218\" class=\"extiw\" title=\"d:Q2959218\"><span title=\"French painter and printmaker (1861–1940)\">Charles Giroux</span></a></bdi>",
       "license": "Public domain",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Cascade_d%27Auvergne_-_2%C3%A8me_Cascade_du_ch%C3%A2teau_de_la_Batisse_%2863%29_%2816557349869%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACascade%20d'Auvergne%20-%202%C3%A8me%20Cascade%20du%20ch%C3%A2teau%20de%20la%20Batisse%20(63)%20(16557349869).jpg",
-      "title": "Cascade d'Auvergne - 2ème Cascade du château de la Batisse (63) (16557349869).jpg",
-      "width": 4608,
-      "height": 2592,
-      "size": 9950947,
-      "timestamp": "2021-11-28T02:22:31Z",
-      "author": "Jonathan Garrier",
-      "license": "CC BY-SA 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 5
     }
   ],
   "lieux": [
     {
       "label": "Sommet du Puy Giroux",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Le_Crest_200610_026.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Crest%20200610%20026.jpg",
-          "title": "Le Crest 200610 026.jpg",
-          "width": 1280,
-          "height": 960,
-          "size": 657713,
-          "timestamp": "2006-10-23T19:43:13Z",
-          "author": "Romary",
-          "license": "CC BY 2.5",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Vallée de l’Artière",

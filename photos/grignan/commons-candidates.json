@@ -1,56 +1,145 @@
 {
   "slug": "grignan",
   "nom": "Grignan",
-  "fetchedAt": "2026-03-13T14:38:19.059Z",
+  "fetchedAt": "2026-03-16T13:54:48.131Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Grignan_town_hall.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrignan%20town%20hall.jpg",
-      "title": "Grignan town hall.jpg",
-      "width": 3456,
-      "height": 2304,
-      "size": 1155774,
-      "timestamp": "2021-10-23T13:46:21Z",
-      "author": "MartinD",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/France_ARA_26_Grignan_01.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20ARA%2026%20Grignan%2001.jpg",
-      "title": "France ARA 26 Grignan 01.jpg",
-      "width": 6016,
-      "height": 4016,
-      "size": 9757029,
-      "timestamp": "2023-07-01T17:12:18Z",
-      "author": "Calips",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Ch%C3%A2teau_de_Grignan%2Cext%C3%A9rieur_%2822%29.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Grignan%2Cext%C3%A9rieur%20(22).JPG",
+      "title": "Château de Grignan,extérieur (22).JPG",
+      "description": "A Grignan, dans la Drôme (France), le célèbre château, ici l'extrémité ouest de la galerie des Adhémar.",
+      "width": 2649,
+      "height": 2112,
+      "size": 1393098,
+      "timestamp": "2013-01-05T09:39:00Z",
+      "author": "Finoskov",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Grignan_2012_-_panoramio_%283%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrignan%202012%20-%20panoramio%20(3).jpg",
-      "title": "Grignan 2012 - panoramio (3).jpg",
-      "width": 4608,
-      "height": 3072,
-      "size": 3496832,
-      "timestamp": "2017-01-21T11:12:06Z",
-      "author": "TRANOS APOSTOLOS",
-      "license": "CC BY 3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Ch%C3%A2teau_de_Grignan%2Cext%C3%A9rieur_%2827%29.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Grignan%2Cext%C3%A9rieur%20(27).JPG",
+      "title": "Château de Grignan,extérieur (27).JPG",
+      "description": "A Grignan, dans la Drôme (France), le célèbre château, façade sud de la galerie des Adhémar donnant sur la cour du puits.",
+      "width": 3072,
+      "height": 1728,
+      "size": 2316606,
+      "timestamp": "2013-01-05T09:39:02Z",
+      "author": "Finoskov",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Ch%C3%A2teau_de_Grignan%2Cext%C3%A9rieur_%284%29.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Grignan%2Cext%C3%A9rieur%20(4).JPG",
+      "title": "Château de Grignan,extérieur (4).JPG",
+      "description": "A Grignan, dans la Drôme (France), le célèbre château et sa somptueuse façade Renaissance, dite aussi François Ier, récemment restaurée.",
+      "width": 3072,
+      "height": 1728,
+      "size": 2259406,
+      "timestamp": "2013-01-05T09:39:00Z",
+      "author": "Finoskov",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
     }
   ],
   "lieux": [
     {
       "label": "Terrasse panoramique",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/France_ARA_26_Grignan_Chateau_06.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20ARA%2026%20Grignan%20Chateau%2006.jpg",
+          "title": "France ARA 26 Grignan Chateau 06.jpg",
+          "description": "Château de Grignan",
+          "width": 6016,
+          "height": 4016,
+          "size": 8693837,
+          "timestamp": "2023-07-01T17:12:25Z",
+          "author": "Calips",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Ch%C3%A2teau_de_Grignan%2C_terrasse.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Grignan%2C%20terrasse.jpg",
+          "title": "Château de Grignan, terrasse.jpg",
+          "description": "Terrasse du château de Grignan",
+          "width": 3543,
+          "height": 5315,
+          "size": 24014586,
+          "timestamp": "2026-01-16T20:31:16Z",
+          "author": "Eagertourist",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Ch%C3%A2teau_de_Grignan-Tour_de_l%27aile_sud_et_cour_du_puits_vues_de_la_terrasse.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Grignan-Tour%20de%20l'aile%20sud%20et%20cour%20du%20puits%20vues%20de%20la%20terrasse.JPG",
+          "title": "Château de Grignan-Tour de l'aile sud et cour du puits vues de la terrasse.JPG",
+          "description": "Château de Grignan - Tour de l'aile sud et cour du puits vues de la terrasse",
+          "width": 3648,
+          "height": 2736,
+          "size": 2254331,
+          "timestamp": "2010-01-10T21:07:30Z",
+          "author": "MOSSOT",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Grand escalier d'honneur",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Vaucluse_Grignan_Rue_Grand_Faubourg_Fontaine_Sevigne_-_panoramio.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVaucluse%20Grignan%20Rue%20Grand%20Faubourg%20Fontaine%20Sevigne%20-%20panoramio.jpg",
+          "title": "Vaucluse Grignan Rue Grand Faubourg Fontaine Sevigne - panoramio.jpg",
+          "description": "Vaucluse Grignan Rue Grand Faubourg Fontaine Sevigne",
+          "width": 1600,
+          "height": 1200,
+          "size": 572549,
+          "timestamp": "2017-05-10T13:36:04Z",
+          "author": "rene boulay",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Grignan._-_Int%C3%A9rieur_du_Ch%C3%A2teau_-_Le_Grand_Perron_de_la_fa%C3%A7ade_Fran%C3%A7ois_Ier_-_La_Tour_S%C3%A9vign%C3%A9_%2834439010391%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrignan.%20-%20Int%C3%A9rieur%20du%20Ch%C3%A2teau%20-%20Le%20Grand%20Perron%20de%20la%20fa%C3%A7ade%20Fran%C3%A7ois%20Ier%20-%20La%20Tour%20S%C3%A9vign%C3%A9%20(34439010391).jpg",
+          "title": "Grignan. - Intérieur du Château - Le Grand Perron de la façade François Ier - La Tour Sévigné (34439010391).jpg",
+          "description": "CA 1900",
+          "width": 2300,
+          "height": 3472,
+          "size": 830058,
+          "timestamp": "2017-07-29T11:26:57Z",
+          "author": "Médiathèques Valence Romans agglomération",
+          "license": "No restrictions",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Ch%C3%A2teau_de_Bussy-Rabutin_-_Fran%C3%A7oise-Marguerite_de_S%C3%A9vign%C3%A9%2C_comtesse_de_Grignan_%28bgw19_0369%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Bussy-Rabutin%20-%20Fran%C3%A7oise-Marguerite%20de%20S%C3%A9vign%C3%A9%2C%20comtesse%20de%20Grignan%20(bgw19%200369).jpg",
+          "title": "Château de Bussy-Rabutin - Françoise-Marguerite de Sévigné, comtesse de Grignan (bgw19 0369).jpg",
+          "description": "",
+          "width": 3746,
+          "height": 6000,
+          "size": 11639130,
+          "timestamp": "2019-12-10T11:36:00Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q76429591\" class=\"extiw\" title=\"d:Q76429591\"><span title=\"French photographer\">Benjamin Gavaudo</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Cloître Renaissance",
@@ -60,43 +149,46 @@
       "label": "Chemin de ronde",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Vue_3_depuis_chemin_de_ronde_coll%C3%A9giale_Saint_Sauveur_de_Grignan.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%203%20depuis%20chemin%20de%20ronde%20coll%C3%A9giale%20Saint%20Sauveur%20de%20Grignan.jpg",
-          "title": "Vue 3 depuis chemin de ronde collégiale Saint Sauveur de Grignan.jpg",
-          "width": 2572,
-          "height": 3430,
-          "size": 11875980,
-          "timestamp": "2016-09-02T18:25:27Z",
-          "author": "Aubry Françon",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Grignan_-_croix_de_chemin_IMG_20230228_101932.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrignan%20-%20croix%20de%20chemin%20IMG%2020230228%20101932.jpg",
+          "title": "Grignan - croix de chemin IMG 20230228 101932.jpg",
+          "description": "Croix de chemin près de l'entrée du château",
+          "width": 3264,
+          "height": 1504,
+          "size": 1236300,
+          "timestamp": "2023-03-25T23:29:30Z",
+          "author": "Jwikip",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Vue_4_depuis_chemin_de_ronde_coll%C3%A9giale_Saint_Sauveur_de_Grignan.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%204%20depuis%20chemin%20de%20ronde%20coll%C3%A9giale%20Saint%20Sauveur%20de%20Grignan.jpg",
-          "title": "Vue 4 depuis chemin de ronde collégiale Saint Sauveur de Grignan.jpg",
-          "width": 3024,
-          "height": 4032,
-          "size": 16457177,
-          "timestamp": "2016-09-02T18:25:31Z",
-          "author": "Aubry Françon",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Ve%C3%BCe_de_-_GRIGNAN_-_du_cost%C3%A9_des_chastaigners%2C_sur_le_chemin_de_-_Vaureas_-_dessin_-_Louis_Boudan_-_btv1b69025570.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVe%C3%BCe%20de%20-%20GRIGNAN%20-%20du%20cost%C3%A9%20des%20chastaigners%2C%20sur%20le%20chemin%20de%20-%20Vaureas%20-%20dessin%20-%20Louis%20Boudan%20-%20btv1b69025570.jpg",
+          "title": "Veüe de - GRIGNAN - du costé des chastaigners, sur le chemin de - Vaureas - dessin - Louis Boudan - btv1b69025570.jpg",
+          "description": "Sujet : Grignan (Drôme, France)\nGrignan (Drôme, France) -- Château\nChâteaux -- France (17e siècle)\nPaysages -- 17e siècle\nRéférence bibliographique : Gaignières, 5174\nAppartient à l’ensemble documentaire : Des17Gaig\n\nAppartient à l’ensemble documentaire : RhoneAlp1",
+          "width": 7224,
+          "height": 4744,
+          "size": 5436742,
+          "timestamp": "2025-02-28T11:05:18Z",
+          "author": "<div class=\"fn value\">\nBoudan, Louis (16..-17.. ; dessinateur et graveur). Dessinateur</div>",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Vue_1_depuis_chemin_de_ronde_coll%C3%A9giale_Saint_Sauveur_de_Grignan.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%201%20depuis%20chemin%20de%20ronde%20coll%C3%A9giale%20Saint%20Sauveur%20de%20Grignan.jpg",
-          "title": "Vue 1 depuis chemin de ronde collégiale Saint Sauveur de Grignan.jpg",
-          "width": 2781,
-          "height": 3708,
-          "size": 14147037,
-          "timestamp": "2016-09-02T18:25:35Z",
-          "author": "Aubry Françon",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Grignan_-_Est_-_Entr%C3%A9e_du_ch%C3%A2teau_-_Collection_Jean-Yves_Bersio.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrignan%20-%20Est%20-%20Entr%C3%A9e%20du%20ch%C3%A2teau%20-%20Collection%20Jean-Yves%20Bersio.jpg",
+          "title": "Grignan - Est - Entrée du château - Collection Jean-Yves Bersio.jpg",
+          "description": "Grignan - Est - Entrée du château - Collection Jean-Yves Bersio",
+          "width": 1624,
+          "height": 1044,
+          "size": 705085,
+          "timestamp": "2017-12-17T12:55:54Z",
+          "author": "Unknown photographer - Edition Artistique e Aux Dis Mills Articles e Varia",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 8
         }
       ]
     }

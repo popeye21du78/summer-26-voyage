@@ -1,12 +1,13 @@
 {
   "slug": "plage-de-gouville-sur-mer",
   "nom": "Plage de Gouville-sur-Mer",
-  "fetchedAt": "2026-03-14T10:59:18.110Z",
+  "fetchedAt": "2026-03-17T22:50:55.925Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Moulin_%C3%A0_vent_de_Gouville-sur-Mer_%282%29.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMoulin%20%C3%A0%20vent%20de%20Gouville-sur-Mer%20(2).JPG",
       "title": "Moulin à vent de Gouville-sur-Mer (2).JPG",
+      "description": "Moulin à vent de Gouville-sur-Mer\nRestauré en 2010",
       "width": 5184,
       "height": 3456,
       "size": 5398743,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Moulin_%C3%A0_vent_de_Gouville-sur-Mer_%283%29.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMoulin%20%C3%A0%20vent%20de%20Gouville-sur-Mer%20(3).JPG",
       "title": "Moulin à vent de Gouville-sur-Mer (3).JPG",
+      "description": "Moulin à vent de Gouville-sur-Mer\nRestauré en 2010",
       "width": 5184,
       "height": 3456,
       "size": 4852343,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Moulin_%C3%A0_vent_de_Gouville-sur-Mer.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMoulin%20%C3%A0%20vent%20de%20Gouville-sur-Mer.JPG",
       "title": "Moulin à vent de Gouville-sur-Mer.JPG",
+      "description": "Moulin à vent de Gouville-sur-Mer\nRestauré en 2010",
       "width": 5184,
       "height": 3456,
       "size": 4531792,
@@ -46,11 +49,41 @@
   "lieux": [
     {
       "label": "Cabines de plage colorées de Gouville",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Gouville_plage.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGouville%20plage.JPG",
+          "title": "Gouville plage.JPG",
+          "description": "Cabines de plage à Gouville-sur-Mer (Manche).",
+          "width": 1867,
+          "height": 1400,
+          "size": 1810952,
+          "timestamp": "2010-12-27T18:43:38Z",
+          "author": "Velvet",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Dune et sentier côtier vers Agon",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Gouville_plage.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGouville%20plage.JPG",
+          "title": "Gouville plage.JPG",
+          "description": "Cabines de plage à Gouville-sur-Mer (Manche).",
+          "width": 1867,
+          "height": 1400,
+          "size": 1810952,
+          "timestamp": "2010-12-27T18:43:38Z",
+          "author": "Velvet",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Estran à marée basse",

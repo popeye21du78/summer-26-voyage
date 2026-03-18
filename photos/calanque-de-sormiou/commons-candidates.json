@@ -1,44 +1,47 @@
 {
   "slug": "calanque-de-sormiou",
   "nom": "Calanque de Sormiou",
-  "fetchedAt": "2026-03-13T12:24:45.650Z",
+  "fetchedAt": "2026-03-15T20:29:31.416Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/En_revenant_de_la_calanque_de_Sormiou_%28Marseille%29_%289301727826%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEn%20revenant%20de%20la%20calanque%20de%20Sormiou%20(Marseille)%20(9301727826).jpg",
-      "title": "En revenant de la calanque de Sormiou (Marseille) (9301727826).jpg",
-      "width": 2688,
-      "height": 1792,
-      "size": 2090461,
-      "timestamp": "2022-07-31T17:47:29Z",
-      "author": "Jeanne Menjoulet",
-      "license": "CC BY 2.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Col_de_Sormiou_from_the_east%2C_2015.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACol%20de%20Sormiou%20from%20the%20east%2C%202015.jpg",
+      "title": "Col de Sormiou from the east, 2015.jpg",
+      "description": "Col de Sormiou from the east, 2015",
+      "width": 5754,
+      "height": 3826,
+      "size": 14844737,
+      "timestamp": "2023-01-29T19:50:49Z",
+      "author": "DimiTalen",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/View_down_at_Sormiou%2C_Calanque_de_Sormiou%2C_2015.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AView%20down%20at%20Sormiou%2C%20Calanque%20de%20Sormiou%2C%202015.jpg",
+      "title": "View down at Sormiou, Calanque de Sormiou, 2015.jpg",
+      "description": "View down at Sormiou, Calanque de Sormiou, 2015",
+      "width": 6016,
+      "height": 4000,
+      "size": 15991231,
+      "timestamp": "2023-01-28T16:13:49Z",
+      "author": "DimiTalen",
+      "license": "CC0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/En_revenant_de_la_calanque_de_Sormiou_%289298943447%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEn%20revenant%20de%20la%20calanque%20de%20Sormiou%20(9298943447).jpg",
-      "title": "En revenant de la calanque de Sormiou (9298943447).jpg",
-      "width": 2688,
-      "height": 1792,
-      "size": 2074707,
-      "timestamp": "2022-07-31T17:47:35Z",
-      "author": "Jeanne Menjoulet",
-      "license": "CC BY 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Calanque_de_Sormiou%2C_Marseille_%289301722358%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACalanque%20de%20Sormiou%2C%20Marseille%20(9301722358).jpg",
-      "title": "Calanque de Sormiou, Marseille (9301722358).jpg",
-      "width": 2688,
-      "height": 1792,
-      "size": 2482208,
-      "timestamp": "2022-07-31T17:47:38Z",
-      "author": "Jeanne Menjoulet",
-      "license": "CC BY 2.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Calanque_de_Sormiou_Col_des_Baumettes.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACalanque%20de%20Sormiou%20Col%20des%20Baumettes.jpg",
+      "title": "Calanque de Sormiou Col des Baumettes.jpg",
+      "description": "La calanque de Sormiou depuis le col des Baumettes, Marseille, Bouches-du-Rhône, France",
+      "width": 4608,
+      "height": 3456,
+      "size": 6011798,
+      "timestamp": "2023-05-30T16:57:36Z",
+      "author": "Rémih",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     }
@@ -50,7 +53,22 @@
     },
     {
       "label": "Sentier sur les hauteurs de la calanque",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/20220529_080226_Col_de_Sormiou.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20220529%20080226%20Col%20de%20Sormiou.jpg",
+          "title": "20220529 080226 Col de Sormiou.jpg",
+          "description": "La route au col, entre Marseille et la calanque de Sormiou",
+          "width": 4128,
+          "height": 1956,
+          "size": 3018205,
+          "timestamp": "2022-05-29T13:17:27Z",
+          "author": "Indigo&amp;fushia",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Rochers en bordure de plage",

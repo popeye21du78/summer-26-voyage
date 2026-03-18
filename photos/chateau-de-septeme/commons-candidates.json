@@ -1,44 +1,47 @@
 {
   "slug": "chateau-de-septeme",
   "nom": "Château de Septème",
-  "fetchedAt": "2026-03-13T13:15:05.548Z",
+  "fetchedAt": "2026-03-15T21:42:54.085Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/ISS053-E-49993_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS053-E-49993%20-%20View%20of%20Earth.jpg",
-      "title": "ISS053-E-49993 - View of Earth.jpg",
-      "width": 4928,
-      "height": 3280,
-      "size": 2349268,
-      "timestamp": "2021-04-01T12:09:24Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Ch%C3%A2teau_de_Sept%C3%A8me_%28Is%C3%A8re%29.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Sept%C3%A8me%20(Is%C3%A8re).JPG",
+      "title": "Château de Septème (Isère).JPG",
+      "description": "Château de Septème (Isère)",
+      "width": 3986,
+      "height": 2379,
+      "size": 2422727,
+      "timestamp": "2014-12-10T14:11:45Z",
+      "author": "Daniel CULSAN",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/ISS053-E-52220_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS053-E-52220%20-%20View%20of%20Earth.jpg",
-      "title": "ISS053-E-52220 - View of Earth.jpg",
-      "width": 4928,
-      "height": 3280,
-      "size": 3346130,
-      "timestamp": "2021-04-01T12:42:05Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Ch%C3%A2teau_de_Sept%C3%A8me_%28vue_2%29.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Sept%C3%A8me%20(vue%202).JPG",
+      "title": "Château de Septème (vue 2).JPG",
+      "description": "Château de Septème (vue 2)",
+      "width": 4020,
+      "height": 3020,
+      "size": 3356343,
+      "timestamp": "2014-12-10T14:28:33Z",
+      "author": "Daniel CULSAN",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/ISS053-E-54270_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS053-E-54270%20-%20View%20of%20Earth.jpg",
-      "title": "ISS053-E-54270 - View of Earth.jpg",
-      "width": 4928,
-      "height": 3280,
-      "size": 2424852,
-      "timestamp": "2021-04-01T13:16:36Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Communs_du_ch%C3%A2teau_de_Sept%C3%A8me_%28Is%C3%A8re%29.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACommuns%20du%20ch%C3%A2teau%20de%20Sept%C3%A8me%20(Is%C3%A8re).JPG",
+      "title": "Communs du château de Septème (Isère).JPG",
+      "description": "Communs du château de Septème (Isère)",
+      "width": 4022,
+      "height": 3022,
+      "size": 4086139,
+      "timestamp": "2014-12-11T09:54:40Z",
+      "author": "Daniel CULSAN",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     }
@@ -46,7 +49,22 @@
   "lieux": [
     {
       "label": "Tour du Lion",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Ch%C3%A2teau_de_Sept%C3%A8me_%28vue_sur_une_tour_d%27angle%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Sept%C3%A8me%20(vue%20sur%20une%20tour%20d'angle).JPG",
+          "title": "Château de Septème (vue sur une tour d'angle).JPG",
+          "description": "Château de Septème (vue sur une tour d'angle)",
+          "width": 4014,
+          "height": 3014,
+          "size": 3927649,
+          "timestamp": "2014-12-11T10:14:11Z",
+          "author": "Daniel CULSAN",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "cour intérieure",

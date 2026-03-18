@@ -1,46 +1,49 @@
 {
   "slug": "capdenac",
   "nom": "Capdenac",
-  "fetchedAt": "2026-03-13T00:40:19.386Z",
+  "fetchedAt": "2026-03-15T20:38:53.211Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Capdenac_gare_pont_eiffel.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACapdenac%20gare%20pont%20eiffel.jpg",
-      "title": "Capdenac gare pont eiffel.jpg",
-      "width": 2000,
-      "height": 1500,
-      "size": 787369,
-      "timestamp": "2021-08-05T10:04:24Z",
-      "author": "Thierry46",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Town_hall_of_Capdenac_01.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATown%20hall%20of%20Capdenac%2001.jpg",
+      "title": "Town hall of Capdenac 01.jpg",
+      "description": "View of the town hall of Capdenac, Lot, France",
+      "width": 4099,
+      "height": 2662,
+      "size": 7438025,
+      "timestamp": "2018-05-21T21:13:25Z",
+      "author": "Krzysztof Golik",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Panoramic_of_Capdenac-Gare.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanoramic%20of%20Capdenac-Gare.jpg",
+      "title": "Panoramic of Capdenac-Gare.jpg",
+      "description": "NOTE: This image is a panorama  consisting of multiple frames that were merged or stitched in software. As a result, this image necessarily underwent some form of digital manipulation. These manipulations may include blending, blurring, cloning, and colour and perspective adjustments. As a result of these adjustments, the image content may be slightly different from reality at the points where multiple images were combined. This manipulation is often required due to lens, perspective, and parall",
+      "width": 5138,
+      "height": 1719,
+      "size": 5620235,
+      "timestamp": "2018-03-20T19:54:23Z",
+      "author": "Krzysztof Golik",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Saint_John_Baptist_of_Capdenac_03.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint%20John%20Baptist%20of%20Capdenac%2003.jpg",
-      "title": "Saint John Baptist of Capdenac 03.jpg",
-      "width": 4681,
-      "height": 3040,
-      "size": 7958931,
-      "timestamp": "2018-05-21T20:51:19Z",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/View_of_Capdenac-Gare_01.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AView%20of%20Capdenac-Gare%2001.jpg",
+      "title": "View of Capdenac-Gare 01.jpg",
+      "description": "View of Capdenac-Gare from Capdenac-le-Haut, Aveyron, France",
+      "width": 9528,
+      "height": 1777,
+      "size": 13766403,
+      "timestamp": "2018-05-22T18:00:28Z",
       "author": "Krzysztof Golik",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Saint_John_Baptist_of_Capdenac_02.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint%20John%20Baptist%20of%20Capdenac%2002.jpg",
-      "title": "Saint John Baptist of Capdenac 02.jpg",
-      "width": 3244,
-      "height": 2316,
-      "size": 4370492,
-      "timestamp": "2018-05-21T20:51:19Z",
-      "author": "Krzysztof Golik",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 7
     }
   ],
   "lieux": [
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Jardin_des_Cinq_Sens_%C3%A0_Capdenac-le_Haut_%28Lot%29_-_01.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJardin%20des%20Cinq%20Sens%20%C3%A0%20Capdenac-le%20Haut%20(Lot)%20-%2001.jpg",
           "title": "Jardin des Cinq Sens à Capdenac-le Haut (Lot) - 01.jpg",
+          "description": "Composé de parterres limités par des plessis et regroupant des plantes selon un critère sensitif en hommage aux cinq sens, ce jardin médiéval se situe à l'abri des remparts, non loin du donjon (Capdenac-le-Haut, Lot)",
           "width": 4000,
           "height": 3000,
           "size": 5365760,
@@ -64,6 +68,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Jardin_des_Cinq_Sens_%C3%A0_Capdenac-le_Haut_%28Lot%29_-_02.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJardin%20des%20Cinq%20Sens%20%C3%A0%20Capdenac-le%20Haut%20(Lot)%20-%2002.jpg",
           "title": "Jardin des Cinq Sens à Capdenac-le Haut (Lot) - 02.jpg",
+          "description": "Composé de parterres limités par des plessis et regroupant des plantes selon un critère sensitif en hommage aux cinq sens, ce jardin médiéval se situe à l'abri des remparts, non loin du donjon (Capdenac-le-Haut, Lot)",
           "width": 4000,
           "height": 3000,
           "size": 5608960,
@@ -77,6 +82,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Jardin_des_Cinq_Sens_%C3%A0_Capdenac-le_Haut_%28Lot%29_-_03.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJardin%20des%20Cinq%20Sens%20%C3%A0%20Capdenac-le%20Haut%20(Lot)%20-%2003.jpg",
           "title": "Jardin des Cinq Sens à Capdenac-le Haut (Lot) - 03.jpg",
+          "description": "Composé de parterres limités par des plessis et regroupant des plantes selon un critère sensitif en hommage aux cinq sens, ce jardin médiéval se situe à l'abri des remparts, non loin du donjon. Ci-dessus, le carré des plantes reliées au goût.  (Capdenac-le-Haut, Lot)",
           "width": 4000,
           "height": 3000,
           "size": 5031936,
@@ -90,11 +96,97 @@
     },
     {
       "label": "Fontaine romaine de Capdenac",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Fontaine_%C3%A0_Saint-Julien-d%27Empare_%28Capdenac-Gare%2C_12%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFontaine%20%C3%A0%20Saint-Julien-d'Empare%20(Capdenac-Gare%2C%2012).jpg",
+          "title": "Fontaine à Saint-Julien-d'Empare (Capdenac-Gare, 12).jpg",
+          "description": "Fontaine au cœur du village de saint-Julien-d'Empare (Capdenac-Gare, Aveyron)",
+          "width": 1536,
+          "height": 2048,
+          "size": 1569536,
+          "timestamp": "2022-04-23T21:09:14Z",
+          "author": "Thérèse Gaigé",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Jardin_des_Cinq_Sens_%C3%A0_Capdenac-le_Haut_%28Lot%29_-_05.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJardin%20des%20Cinq%20Sens%20%C3%A0%20Capdenac-le%20Haut%20(Lot)%20-%2005.jpg",
+          "title": "Jardin des Cinq Sens à Capdenac-le Haut (Lot) - 05.jpg",
+          "description": "Dans ce jardin médiéval  de Capdenac-le-Haut, un jardin dont les carrés sont organisés en fonction d'un critère sensitif, c'est une fontaine en bois qui est destinée à solliciter notre ouie (Lot, France).",
+          "width": 3000,
+          "height": 4000,
+          "size": 4315521,
+          "timestamp": "2022-04-24T13:22:38Z",
+          "author": "Thérèse Gaigé",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Capdenac-le-Haut%2C_chemin_fontaine.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACapdenac-le-Haut%2C%20chemin%20fontaine.JPG",
+          "title": "Capdenac-le-Haut, chemin fontaine.JPG",
+          "description": "Le chemin qui mène à la fontaine romaine, dite \"des anglais\", Capdenac-le-Haut, Lot, France",
+          "width": 2448,
+          "height": 3264,
+          "size": 1915205,
+          "timestamp": "2011-04-21T16:13:12Z",
+          "author": "Dr Brains",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     },
     {
       "label": "Place du Carol",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Croix_monolithe_%C3%A0_Capdenac-le-Haut_%28Lot%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACroix%20monolithe%20%C3%A0%20Capdenac-le-Haut%20(Lot).jpg",
+          "title": "Croix monolithe à Capdenac-le-Haut (Lot).jpg",
+          "description": "Croix monolithe sur la place Saint-Andrieu avec, en contrebas, une vue partielle de Capdenac-Gare (Capdenac-le-Haut, Lot)",
+          "width": 4000,
+          "height": 3000,
+          "size": 5155840,
+          "timestamp": "2022-04-24T09:16:18Z",
+          "author": "Thérèse Gaigé",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Le_Lot_vu_depuis_Capdenac-le-Haut_%28%2846%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Lot%20vu%20depuis%20Capdenac-le-Haut%20((46).jpg",
+          "title": "Le Lot vu depuis Capdenac-le-Haut ((46).jpg",
+          "description": "Le Lot, le pont de la D994 et une vue partielle de la ville aveyronnaise de Capdenac-Gare que l'on découvre depuis la place Saint-Andrieu à Capdenac-le-Haut (Lot)",
+          "width": 4000,
+          "height": 3000,
+          "size": 5032448,
+          "timestamp": "2022-04-24T10:13:15Z",
+          "author": "Thérèse Gaigé",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Pigeonnier_%C3%A0_Capdenac-le-Haut_%28Lot%29_-_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APigeonnier%20%C3%A0%20Capdenac-le-Haut%20(Lot)%20-%2002.jpg",
+          "title": "Pigeonnier à Capdenac-le-Haut (Lot) - 02.jpg",
+          "description": "Pigeonnier sur la place Lucter à Capdenac-le-Haut (Lot, France)",
+          "width": 4000,
+          "height": 3000,
+          "size": 4913664,
+          "timestamp": "2022-04-24T10:29:32Z",
+          "author": "Thérèse Gaigé",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

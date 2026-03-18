@@ -1,12 +1,13 @@
 {
   "slug": "premontre",
   "nom": "Prémontré",
-  "fetchedAt": "2026-03-14T11:37:16.215Z",
+  "fetchedAt": "2026-03-18T17:10:37.682Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Pr%C3%A9montr%C3%A9_18th_c.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APr%C3%A9montr%C3%A9%2018th%20c.jpg",
       "title": "Prémontré 18th c.jpg",
+      "description": "",
       "width": 2982,
       "height": 1830,
       "size": 1231300,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/B%C3%A2timent_central_de_l%27abbaye_de_Pr%C3%A9montr%C3%A9.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AB%C3%A2timent%20central%20de%20l'abbaye%20de%20Pr%C3%A9montr%C3%A9.jpg",
       "title": "Bâtiment central de l'abbaye de Prémontré.jpg",
+      "description": "Bâtiment principal de l'abbaye de Prémontré (Aisne, Picardie)",
       "width": 3264,
       "height": 2448,
       "size": 3004707,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Chapelle_de_l%27abbaye_de_pr%C3%A9montr%C3%A9.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20de%20l'abbaye%20de%20pr%C3%A9montr%C3%A9.jpg",
       "title": "Chapelle de l'abbaye de prémontré.jpg",
+      "description": "prémontré abbay church",
       "width": 3264,
       "height": 2448,
       "size": 1640548,
@@ -46,11 +49,97 @@
   "lieux": [
     {
       "label": "Abbaye de Prémontré (façade principale)",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Abbaye_des_Pr%C3%A9montr%C3%A9s.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20des%20Pr%C3%A9montr%C3%A9s.jpg",
+          "title": "Abbaye des Prémontrés.jpg",
+          "description": "vue sue l'abbaye et ses jardins depuis la Moselle",
+          "width": 4000,
+          "height": 2250,
+          "size": 2475086,
+          "timestamp": "2021-01-05T09:59:37Z",
+          "author": "Jfd54",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Abbaye_Saint-Jean_des_Pr%C3%A9montr%C3%A9s_%28Amiens%29_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20Saint-Jean%20des%20Pr%C3%A9montr%C3%A9s%20(Amiens)%2001.jpg",
+          "title": "Abbaye Saint-Jean des Prémontrés (Amiens) 01.jpg",
+          "description": "Abbaye Saint-Jean des Prémontrés (Amiens)",
+          "width": 4208,
+          "height": 2368,
+          "size": 4150752,
+          "timestamp": "2021-05-11T10:20:34Z",
+          "author": "Bycro",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Abbaye_Saint-Jean_des_Pr%C3%A9montr%C3%A9s_%28Amiens%29_03.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20Saint-Jean%20des%20Pr%C3%A9montr%C3%A9s%20(Amiens)%2003.jpg",
+          "title": "Abbaye Saint-Jean des Prémontrés (Amiens) 03.jpg",
+          "description": "Abbaye Saint-Jean des Prémontrés (Amiens)",
+          "width": 3514,
+          "height": 1978,
+          "size": 1519391,
+          "timestamp": "2021-05-11T10:20:35Z",
+          "author": "Bycro",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Petit pont sur la rivière",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Abbaye_des_Pr%C3%A9montr%C3%A9s.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20des%20Pr%C3%A9montr%C3%A9s.jpg",
+          "title": "Abbaye des Prémontrés.jpg",
+          "description": "vue sue l'abbaye et ses jardins depuis la Moselle",
+          "width": 4000,
+          "height": 2250,
+          "size": 2475086,
+          "timestamp": "2021-01-05T09:59:37Z",
+          "author": "Jfd54",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Pont-%C3%A0-Mousson_-_abbaye_des_Pr%C3%A9montr%C3%A9s%2C_ext%C3%A9rieur_%2803%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont-%C3%A0-Mousson%20-%20abbaye%20des%20Pr%C3%A9montr%C3%A9s%2C%20ext%C3%A9rieur%20(03).jpg",
+          "title": "Pont-à-Mousson - abbaye des Prémontrés, extérieur (03).jpg",
+          "description": "Praemonstratensian abbey of Pont-à-Mousson (Meurthe-et-Moselle, France) : church facade",
+          "width": 3264,
+          "height": 2448,
+          "size": 3324381,
+          "timestamp": "2016-09-03T09:18:35Z",
+          "author": "Fab5669",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Pont-%C3%A0-Mousson_-_abbaye_des_Pr%C3%A9montr%C3%A9s%2C_int%C3%A9rieur_%2803%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont-%C3%A0-Mousson%20-%20abbaye%20des%20Pr%C3%A9montr%C3%A9s%2C%20int%C3%A9rieur%20(03).jpg",
+          "title": "Pont-à-Mousson - abbaye des Prémontrés, intérieur (03).jpg",
+          "description": "Praemonstratensian abbey of Pont-à-Mousson (Meurthe-et-Moselle, France) : round stairs",
+          "width": 3264,
+          "height": 2448,
+          "size": 3347233,
+          "timestamp": "2016-09-03T09:27:50Z",
+          "author": "Fab5669",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Arboretum communal",

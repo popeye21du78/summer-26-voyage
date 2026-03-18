@@ -1,12 +1,41 @@
 {
   "slug": "parthenay",
   "nom": "Parthenay",
-  "fetchedAt": "2026-03-13T01:40:49.158Z",
+  "fetchedAt": "2026-03-17T22:16:02.049Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Rue_de_la_Vau_Saint-Jaques_Parthenay_2.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARue%20de%20la%20Vau%20Saint-Jaques%20Parthenay%202.jpg",
+      "title": "Rue de la Vau Saint-Jaques Parthenay 2.jpg",
+      "description": "The Rue de la Vau Saint-Jacques in Parthenay, photographed from the eastern wall of the citadel. The Saint-Jacques Gate can just be made made out middle-left, with the railway viaduct above and to the right. For more information, see the Wikipedia article Parthenay.",
+      "width": 2160,
+      "height": 1440,
+      "size": 784660,
+      "timestamp": "2010-07-23T18:13:08Z",
+      "author": "Chris j wood",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Rue_de_la_Vau_Saint-Jaques_Parthenay_3.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARue%20de%20la%20Vau%20Saint-Jaques%20Parthenay%203.jpg",
+      "title": "Rue de la Vau Saint-Jaques Parthenay 3.jpg",
+      "description": "The Rue de la Vau Saint-Jacques in Parthenay, at its junction with the Rue de la Place. Photographed from the eastern wall of the citadel. For more information, see the Wikipedia article Parthenay.",
+      "width": 2160,
+      "height": 1440,
+      "size": 1199879,
+      "timestamp": "2010-07-23T18:17:46Z",
+      "author": "Chris j wood",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Parthenay_-_Rue_du_Sepulcre_-_bo%C3%AEte_%C3%A0_livres.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParthenay%20-%20Rue%20du%20Sepulcre%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
       "title": "Parthenay - Rue du Sepulcre - boîte à livres.jpg",
+      "description": "Boîte à livres à Parthenay",
       "width": 2500,
       "height": 1410,
       "size": 545302,
@@ -15,122 +44,102 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Parthenay_7SC6499EC.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParthenay%207SC6499EC.jpg",
-      "title": "Parthenay 7SC6499EC.jpg",
-      "width": 1620,
-      "height": 1080,
-      "size": 1044885,
-      "timestamp": "2017-12-16T17:14:47Z",
-      "author": "JPRoche",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Parthenay_%2879%29_%C3%89glise_Sainte-Croix_-_Int%C3%A9rieur_15.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParthenay%20(79)%20%C3%89glise%20Sainte-Croix%20-%20Int%C3%A9rieur%2015.jpg",
-      "title": "Parthenay (79) Église Sainte-Croix - Intérieur 15.jpg",
-      "width": 3968,
-      "height": 2976,
-      "size": 2775408,
-      "timestamp": "2018-06-01T19:29:43Z",
-      "author": "GO69",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
     }
   ],
   "lieux": [
     {
       "label": "Porte Saint-Jacques",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Maison_%2C_n%C2%B0_97_et_n%C2%B0_99_rue_de_la_Vau_Saint-Jacques_%28Parthenay%2C_Deux-S%C3%A8vres%29_-_03.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison%20%2C%20n%C2%B0%2097%20et%20n%C2%B0%2099%20rue%20de%20la%20Vau%20Saint-Jacques%20(Parthenay%2C%20Deux-S%C3%A8vres)%20-%2003.jpg",
-          "title": "Maison , n° 97 et n° 99 rue de la Vau Saint-Jacques (Parthenay, Deux-Sèvres) - 03.jpg",
-          "width": 6000,
-          "height": 4000,
-          "size": 10206301,
-          "timestamp": "2022-09-20T16:51:45Z",
-          "author": "Thérèse Gaigé",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Maison_d%27angle%2C_5_rue_de_la_Vau_Saint-Jacques_%28Parthenay%2C_Deux-S%C3%A8vres%29_-_1.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison%20d'angle%2C%205%20rue%20de%20la%20Vau%20Saint-Jacques%20(Parthenay%2C%20Deux-S%C3%A8vres)%20-%201.jpg",
-          "title": "Maison d'angle, 5 rue de la Vau Saint-Jacques (Parthenay, Deux-Sèvres) - 1.jpg",
-          "width": 6000,
-          "height": 4000,
-          "size": 9538940,
-          "timestamp": "2022-09-20T17:44:12Z",
-          "author": "Thérèse Gaigé",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/La_Porte_Saint-Jacques_%C3%A0_Parthenay_%28Deux-S%C3%A8vres%29_-_02.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Porte%20Saint-Jacques%20%C3%A0%20Parthenay%20(Deux-S%C3%A8vres)%20-%2002.jpg",
-          "title": "La Porte Saint-Jacques à Parthenay (Deux-Sèvres) - 02.jpg",
-          "width": 6000,
-          "height": 4000,
-          "size": 7399092,
-          "timestamp": "2022-09-21T13:25:10Z",
-          "author": "Thérèse Gaigé",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Ruines du château de Parthenay",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Parthenay_%2879%29_Ch%C3%A2teau_-_Bastille_de_Richemont_-_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParthenay%20(79)%20Ch%C3%A2teau%20-%20Bastille%20de%20Richemont%20-%2001.jpg",
+          "title": "Parthenay (79) Château - Bastille de Richemont - 01.jpg",
+          "description": "Bastille Richemont du château de Parthenay (79).",
+          "width": 1984,
+          "height": 1488,
+          "size": 1048140,
+          "timestamp": "2018-09-24T17:38:26Z",
+          "author": "GO69",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Parthenay_%2879%29_Ch%C3%A2teau_-_Bastille_de_Richemont_-_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParthenay%20(79)%20Ch%C3%A2teau%20-%20Bastille%20de%20Richemont%20-%2002.jpg",
+          "title": "Parthenay (79) Château - Bastille de Richemont - 02.jpg",
+          "description": "Bastille Richemont du château de Parthenay (79).",
+          "width": 1984,
+          "height": 1488,
+          "size": 1413858,
+          "timestamp": "2018-09-24T17:38:27Z",
+          "author": "GO69",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Ext._ch%C3%A2teau%2C_Parthenay_%2879%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AExt.%20ch%C3%A2teau%2C%20Parthenay%20(79).jpg",
+          "title": "Ext. château, Parthenay (79).jpg",
+          "description": "Vestiges du château de Parthenay (79).\nL'ensemble, au nord-ouest de la cité dans une boucle du Thouet, maintes fois remanié au cours des siècles, trouve son origine dans le 1er quart du XIIIe.",
+          "width": 988,
+          "height": 660,
+          "size": 465321,
+          "timestamp": "2023-05-31T03:33:15Z",
+          "author": "Dacia 1410 Sport",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        }
+      ]
     },
     {
       "label": "Rue de la Vau Saint-Jacques",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Maison%2C_56_rue_de_la_Vau_Saint-Jacques_%28Parthenay%2C_79%29_-_03.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison%2C%2056%20rue%20de%20la%20Vau%20Saint-Jacques%20(Parthenay%2C%2079)%20-%2003.jpg",
-          "title": "Maison, 56 rue de la Vau Saint-Jacques (Parthenay, 79) - 03.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Maison_d%27angle%2C_91_rue_de_la_Vau_Saint-Jacques_%28Parthenay%2C_Deux-S%C3%A8vres%29_-_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison%20d'angle%2C%2091%20rue%20de%20la%20Vau%20Saint-Jacques%20(Parthenay%2C%20Deux-S%C3%A8vres)%20-%202.jpg",
+          "title": "Maison d'angle, 91 rue de la Vau Saint-Jacques (Parthenay, Deux-Sèvres) - 2.jpg",
+          "description": "Maison d'angle à pans de bois vue depuis la rue de la Vau Saint-Jacques à Parthenay (Deux-Sèvres, France)",
           "width": 6000,
           "height": 4000,
-          "size": 9043475,
-          "timestamp": "2022-09-19T20:24:38Z",
+          "size": 9176973,
+          "timestamp": "2022-09-20T17:27:32Z",
           "author": "Thérèse Gaigé",
           "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Rue_de_la_Vau_Saint-Jaques_Parthenay_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARue%20de%20la%20Vau%20Saint-Jaques%20Parthenay%202.jpg",
+          "title": "Rue de la Vau Saint-Jaques Parthenay 2.jpg",
+          "description": "The Rue de la Vau Saint-Jacques in Parthenay, photographed from the eastern wall of the citadel. The Saint-Jacques Gate can just be made made out middle-left, with the railway viaduct above and to the right. For more information, see the Wikipedia article Parthenay.",
+          "width": 2160,
+          "height": 1440,
+          "size": 784660,
+          "timestamp": "2010-07-23T18:13:08Z",
+          "author": "Chris j wood",
+          "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Maison%2C_56_rue_de_la_Vau_Saint-Jacques_%28Parthenay%2C_79%29_-_02.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison%2C%2056%20rue%20de%20la%20Vau%20Saint-Jacques%20(Parthenay%2C%2079)%20-%2002.jpg",
-          "title": "Maison, 56 rue de la Vau Saint-Jacques (Parthenay, 79) - 02.jpg",
-          "width": 6000,
-          "height": 4000,
-          "size": 10281835,
-          "timestamp": "2022-09-19T20:24:38Z",
-          "author": "Thérèse Gaigé",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Maison%2C_n%C2%B0_54_rue_de_la_Vau_Saint-Jacques_%28Parthenay%2C_79%29_-_01.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison%2C%20n%C2%B0%2054%20rue%20de%20la%20Vau%20Saint-Jacques%20(Parthenay%2C%2079)%20-%2001.jpg",
-          "title": "Maison, n° 54 rue de la Vau Saint-Jacques (Parthenay, 79) - 01.jpg",
-          "width": 6000,
-          "height": 4000,
-          "size": 6967714,
-          "timestamp": "2022-09-19T20:32:45Z",
-          "author": "Thérèse Gaigé",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Rue_de_la_Vau_Saint-Jaques_Parthenay_3.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARue%20de%20la%20Vau%20Saint-Jaques%20Parthenay%203.jpg",
+          "title": "Rue de la Vau Saint-Jaques Parthenay 3.jpg",
+          "description": "The Rue de la Vau Saint-Jacques in Parthenay, at its junction with the Rue de la Place. Photographed from the eastern wall of the citadel. For more information, see the Wikipedia article Parthenay.",
+          "width": 2160,
+          "height": 1440,
+          "size": 1199879,
+          "timestamp": "2010-07-23T18:17:46Z",
+          "author": "Chris j wood",
+          "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         }
@@ -138,11 +147,97 @@
     },
     {
       "label": "Pont roman sur le Thouet",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/La_Porte_Saint-Jacques_%C3%A0_Parthenay_%28Deux-S%C3%A8vres%29_-_05.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Porte%20Saint-Jacques%20%C3%A0%20Parthenay%20(Deux-S%C3%A8vres)%20-%2005.jpg",
+          "title": "La Porte Saint-Jacques à Parthenay (Deux-Sèvres) - 05.jpg",
+          "description": "La porte Saint-Jacques, à l'entrée nord de la ville, donne accès à un chemin de pèlerinage vers Saint-Jacques de Compostelle. Une borne jacquaire indiquant la distance restant à parcourir a été placée au bout du pont  (Parthenay, Deux-Sèvres).",
+          "width": 6000,
+          "height": 4000,
+          "size": 10151098,
+          "timestamp": "2022-09-21T13:25:13Z",
+          "author": "Thérèse Gaigé",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Parthenay_%2879%29_Pont_et_Porte_Saint-Jacques_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParthenay%20(79)%20Pont%20et%20Porte%20Saint-Jacques%2001.jpg",
+          "title": "Parthenay (79) Pont et Porte Saint-Jacques 01.jpg",
+          "description": "Pont et Porte Saint-Jacques à Parthenay (79).",
+          "width": 1953,
+          "height": 1459,
+          "size": 866762,
+          "timestamp": "2018-09-24T17:30:07Z",
+          "author": "GO69",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Borne_jacquaire_%C3%A0_Parthenay_%28Deux-S%C3%A8vres%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABorne%20jacquaire%20%C3%A0%20Parthenay%20(Deux-S%C3%A8vres).jpg",
+          "title": "Borne jacquaire à Parthenay (Deux-Sèvres).jpg",
+          "description": "Borne jacquaire placée à la suite du pont  enjambant le Thouet et reliant la rue de la Vau Saint-Jacques à la rue du faubourg Saint-Jacques. (Parthenay, Deux-Sèvres)",
+          "width": 4000,
+          "height": 6000,
+          "size": 7073569,
+          "timestamp": "2022-09-21T13:25:15Z",
+          "author": "Thérèse Gaigé",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Chapelle Sainte-Catherine",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Parthenay_%2879%29_%C3%89glise_des_Cordeliers_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParthenay%20(79)%20%C3%89glise%20des%20Cordeliers%2002.jpg",
+          "title": "Parthenay (79) Église des Cordeliers 02.jpg",
+          "description": "Église des Cordeliers de Parthenay (79).",
+          "width": 2976,
+          "height": 3399,
+          "size": 2441539,
+          "timestamp": "2018-06-01T17:27:32Z",
+          "author": "GO69",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Parthenay_%2879%29_%C3%89glise_des_Cordeliers_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParthenay%20(79)%20%C3%89glise%20des%20Cordeliers%2001.jpg",
+          "title": "Parthenay (79) Église des Cordeliers 01.jpg",
+          "description": "Église des Cordeliers de Parthenay (79).",
+          "width": 2976,
+          "height": 2791,
+          "size": 2002845,
+          "timestamp": "2018-06-01T17:27:32Z",
+          "author": "GO69",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Chapelle_des_Cordeliers_%28ancienne%29_-_Ensemble_sud_-_Parthenay_-_M%C3%A9diath%C3%A8que_de_l%27architecture_et_du_patrimoine_-_APMH00031084.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20des%20Cordeliers%20(ancienne)%20-%20Ensemble%20sud%20-%20Parthenay%20-%20M%C3%A9diath%C3%A8que%20de%20l'architecture%20et%20du%20patrimoine%20-%20APMH00031084.jpg",
+          "title": "Chapelle des Cordeliers (ancienne) - Ensemble sud - Parthenay - Médiathèque de l'architecture et du patrimoine - APMH00031084.jpg",
+          "description": "Ensemble sud.",
+          "width": 681,
+          "height": 512,
+          "size": 73287,
+          "timestamp": "2020-05-02T08:59:36Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q30131678\" class=\"extiw\" title=\"d:Q30131678\"><span title=\"French photographer (1851-1927)\">Henri Heuzé</span></a></bdi>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     }
   ]
 }

@@ -1,12 +1,41 @@
 {
   "slug": "bonifacio",
   "nom": "Bonifacio",
-  "fetchedAt": "2026-03-13T12:15:10.008Z",
+  "fetchedAt": "2026-03-15T19:49:12.642Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Vue_de_la_Rue_du_Clocher_depuis_la_Rue_du_Palais_Bonifacio%2C_Corse_-_panoramio.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20de%20la%20Rue%20du%20Clocher%20depuis%20la%20Rue%20du%20Palais%20Bonifacio%2C%20Corse%20-%20panoramio.jpg",
+      "title": "Vue de la Rue du Clocher depuis la Rue du Palais Bonifacio, Corse - panoramio.jpg",
+      "description": "Vue de la  Rue du Clocher depuis la Rue du Palais Bonifacio, Corse",
+      "width": 3456,
+      "height": 2592,
+      "size": 4372378,
+      "timestamp": "2016-12-05T19:07:56Z",
+      "author": "Patrick Nouhailler's…",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Citadelle_de_bonifacio.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACitadelle%20de%20bonifacio.jpg",
+      "title": "Citadelle de bonifacio.jpg",
+      "description": "la citadelle vue des remparts",
+      "width": 3888,
+      "height": 2592,
+      "size": 3193193,
+      "timestamp": "2011-09-05T13:47:13Z",
+      "author": "Charlotte.vermersch",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Bonifacio%2C_Frankreich_%28Unsplash%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABonifacio%2C%20Frankreich%20(Unsplash).jpg",
       "title": "Bonifacio, Frankreich (Unsplash).jpg",
+      "description": "Bonifacio, Frankreich",
       "width": 3500,
       "height": 2336,
       "size": 4280991,
@@ -15,32 +44,6 @@
       "license": "CC0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Corse_du_Sud%2C_Bonifacio_109_la_Halle_devant_l%27%C3%A9glise_Sainte-Marie_Majeur.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACorse%20du%20Sud%2C%20Bonifacio%20109%20la%20Halle%20devant%20l'%C3%A9glise%20Sainte-Marie%20Majeur.jpg",
-      "title": "Corse du Sud, Bonifacio 109 la Halle devant l'église Sainte-Marie Majeur.jpg",
-      "width": 4672,
-      "height": 3104,
-      "size": 14309205,
-      "timestamp": "2020-05-06T15:03:57Z",
-      "author": "Pascal POGGI",
-      "license": "CC BY-SA 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Corsina_bonifacio_-_panoramio.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACorsina%20bonifacio%20-%20panoramio.jpg",
-      "title": "Corsina bonifacio - panoramio.jpg",
-      "width": 2048,
-      "height": 1536,
-      "size": 1472801,
-      "timestamp": "2016-11-15T14:19:48Z",
-      "author": "kspltj    .Polen",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
     }
   ],
   "lieux": [
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/France_-_Corse_-_Corse-du-Sud_-_Bonifacio_-_Falaises_et_escaliers_du_roi_d%E2%80%99Aragon_-_Prise_de_vue_2-2_%28M%C3%A9diHAL_1272566%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20-%20Corse%20-%20Corse-du-Sud%20-%20Bonifacio%20-%20Falaises%20et%20escaliers%20du%20roi%20d%E2%80%99Aragon%20-%20Prise%20de%20vue%202-2%20(M%C3%A9diHAL%201272566).jpg",
           "title": "France - Corse - Corse-du-Sud - Bonifacio - Falaises et escaliers du roi d’Aragon - Prise de vue 2-2 (MédiHAL 1272566).jpg",
+          "description": "Handwritten caption on the original document: \"France: Mediterranean Countries: Corsica: Western Coast: Bonifacio, cliffs, staircase of the King of Aragon\" The glass plates deposited at Prodig date from 1891 to 1954. Geolocation: hypothesis of exact geolocation.",
           "width": 2690,
           "height": 1665,
           "size": 294471,
@@ -64,6 +68,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/France_-_Corse_-_Corse-du-Sud_-_Bonifacio_-_Falaises_et_escaliers_du_roi_d%E2%80%99Aragon_-_Prise_de_vue_1-2_%28M%C3%A9diHAL_1272559%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20-%20Corse%20-%20Corse-du-Sud%20-%20Bonifacio%20-%20Falaises%20et%20escaliers%20du%20roi%20d%E2%80%99Aragon%20-%20Prise%20de%20vue%201-2%20(M%C3%A9diHAL%201272559).jpg",
           "title": "France - Corse - Corse-du-Sud - Bonifacio - Falaises et escaliers du roi d’Aragon - Prise de vue 1-2 (MédiHAL 1272559).jpg",
+          "description": "Handwritten caption on the original document: \"France: Mediterranean Countries: Corsica: Western Coast: Bonifacio, cliffs and stairs of the King of Aragon\" The glass plates deposited at Prodig date from 1891 to 1954. Geolocation: hypothesis of exact geolocation.",
           "width": 2688,
           "height": 1808,
           "size": 283561,
@@ -77,6 +82,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Treppe_des_K%C3%B6nigs_von_Aragon_Bonifacio.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATreppe%20des%20K%C3%B6nigs%20von%20Aragon%20Bonifacio.jpg",
           "title": "Treppe des Königs von Aragon Bonifacio.jpg",
+          "description": "the staircase of king Aragon, Bonifacio",
           "width": 3089,
           "height": 2048,
           "size": 3729201,
@@ -90,15 +96,106 @@
     },
     {
       "label": "Bastion de l’Étendard",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Bastion_Bonifacio_-_panoramio.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABastion%20Bonifacio%20-%20panoramio.jpg",
+          "title": "Bastion Bonifacio - panoramio.jpg",
+          "description": "Bastion Bonifacio",
+          "width": 3648,
+          "height": 2736,
+          "size": 3825145,
+          "timestamp": "2017-04-13T23:55:11Z",
+          "author": "Cor2701",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/0105jfBaluarte_de_San_Gabriel_Intramuros_Liwasang_Bonifacio_Landmarks_Manilafvf.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A0105jfBaluarte%20de%20San%20Gabriel%20Intramuros%20Liwasang%20Bonifacio%20Landmarks%20Manilafvf.jpg",
+          "title": "0105jfBaluarte de San Gabriel Intramuros Liwasang Bonifacio Landmarks Manilafvf.jpg",
+          "description": "Baluarte de San Gabriel 14°35'38\"N   120°58'38\"E Bastión de San Gabriel Named after the Archangel Gabriel Intramuros landmarks Baluarte de San Gabriel, Intramuros Bastion Parián_(Manila) Parian de Arroceros Intramuros from and beside Liwasang Bonifacio Henry W. Lawton Padre Burgos Avenue corner Magallanes Drive \n(Note: Judge Florentino Floro, the owner, to repeat, Donor Florentino Floro of all these photos hereby donate gratuitously, freely and unconditionally all these photos to and for Wikimed",
+          "width": 4608,
+          "height": 3456,
+          "size": 6390092,
+          "timestamp": "2017-05-25T11:33:24Z",
+          "author": "Judgefloro",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/0104jfBaluarte_de_San_Gabriel_Intramuros_Liwasang_Bonifacio_Landmarks_Manilafvf.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A0104jfBaluarte%20de%20San%20Gabriel%20Intramuros%20Liwasang%20Bonifacio%20Landmarks%20Manilafvf.jpg",
+          "title": "0104jfBaluarte de San Gabriel Intramuros Liwasang Bonifacio Landmarks Manilafvf.jpg",
+          "description": "Baluarte de San Gabriel 14°35'38\"N   120°58'38\"E Bastión de San Gabriel Named after the Archangel Gabriel Intramuros landmarks Baluarte de San Gabriel, Intramuros Bastion Parián_(Manila) Parian de Arroceros Intramuros from and beside Liwasang Bonifacio Henry W. Lawton Padre Burgos Avenue corner Magallanes Drive \n(Note: Judge Florentino Floro, the owner, to repeat, Donor Florentino Floro of all these photos hereby donate gratuitously, freely and unconditionally all these photos to and for Wikimed",
+          "width": 4608,
+          "height": 3456,
+          "size": 7163898,
+          "timestamp": "2017-05-25T11:33:25Z",
+          "author": "Judgefloro",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Église Sainte-Marie-Majeure",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Bonifacio%2C_san_domenico_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABonifacio%2C%20san%20domenico%2001.jpg",
+          "title": "Bonifacio, san domenico 01.jpg",
+          "description": "Bonifacio, Corsica",
+          "width": 4878,
+          "height": 3462,
+          "size": 9345740,
+          "timestamp": "2020-04-26T13:09:53Z",
+          "author": "Sailko",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Bonifacio%2C_san_domenico_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABonifacio%2C%20san%20domenico%2002.jpg",
+          "title": "Bonifacio, san domenico 02.jpg",
+          "description": "Bonifacio, Corsica",
+          "width": 5200,
+          "height": 3648,
+          "size": 9018733,
+          "timestamp": "2020-04-26T13:09:55Z",
+          "author": "Sailko",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Bonifacio_67DSC_0514_%2849665496952%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABonifacio%2067DSC%200514%20(49665496952).jpg",
+          "title": "Bonifacio 67DSC 0514 (49665496952).jpg",
+          "description": "Bonifacio 67DSC_0514",
+          "width": 1624,
+          "height": 1154,
+          "size": 666019,
+          "timestamp": "2021-05-02T01:44:59Z",
+          "author": "János Korom Dr.  &gt;17 Million views",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
+    },
+    {
+      "label": "Loggias suspendues de la Haute Ville",
+      "photos": [
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Corse_du_Sud%2C_Bonifacio_109_la_Halle_devant_l%27%C3%A9glise_Sainte-Marie_Majeur.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACorse%20du%20Sud%2C%20Bonifacio%20109%20la%20Halle%20devant%20l'%C3%A9glise%20Sainte-Marie%20Majeur.jpg",
           "title": "Corse du Sud, Bonifacio 109 la Halle devant l'église Sainte-Marie Majeur.jpg",
+          "description": "La halle (ou loggia) de Bonifacio (France).",
           "width": 4672,
           "height": 3104,
           "size": 14309205,
@@ -109,36 +206,34 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Bonifacio_67DSC_0432_%2849635118746%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABonifacio%2067DSC%200432%20(49635118746).jpg",
-          "title": "Bonifacio 67DSC 0432 (49635118746).jpg",
-          "width": 1624,
-          "height": 1087,
-          "size": 638048,
-          "timestamp": "2021-05-01T03:25:31Z",
-          "author": "János Korom Dr.  &gt;17 Million views",
-          "license": "CC BY-SA 2.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/%C3%89glise_Sainte_Marie_Majeure_%28Bonifacio%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Sainte%20Marie%20Majeure%20(Bonifacio).jpg",
+          "title": "Église Sainte Marie Majeure (Bonifacio).jpg",
+          "description": "La loggia devant l'entrée de l'église",
+          "width": 4608,
+          "height": 3456,
+          "size": 4337681,
+          "timestamp": "2022-10-26T06:04:05Z",
+          "author": "FredSeiller",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Bonifacio_67DSC_0445_%2849634597018%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABonifacio%2067DSC%200445%20(49634597018).jpg",
-          "title": "Bonifacio 67DSC 0445 (49634597018).jpg",
-          "width": 1624,
-          "height": 1087,
-          "size": 615153,
-          "timestamp": "2021-05-02T02:23:55Z",
-          "author": "János Korom Dr.  &gt;17 Million views",
-          "license": "CC BY-SA 2.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/5_Rue_de_la_Loggia_%2CBonifacio%2C_Corse_-_panoramio.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A5%20Rue%20de%20la%20Loggia%20%2CBonifacio%2C%20Corse%20-%20panoramio.jpg",
+          "title": "5 Rue de la Loggia ,Bonifacio, Corse - panoramio.jpg",
+          "description": "5 Rue de la Loggia ,Bonifacio, Corse",
+          "width": 3456,
+          "height": 2592,
+          "size": 4020595,
+          "timestamp": "2016-12-05T19:06:36Z",
+          "author": "Patrick Nouhailler's…",
+          "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 6
         }
       ]
-    },
-    {
-      "label": "Loggias suspendues de la Haute Ville",
-      "photos": []
     }
   ]
 }

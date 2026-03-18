@@ -1,12 +1,13 @@
 {
   "slug": "nancay",
   "nom": "Nançay",
-  "fetchedAt": "2026-03-13T16:32:15.078Z",
+  "fetchedAt": "2026-03-17T21:39:39.219Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Nancay_-_panoramio.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANancay%20-%20panoramio.jpg",
       "title": "Nancay - panoramio.jpg",
+      "description": "Château de Nançay (Cher, France).",
       "width": 1920,
       "height": 2560,
       "size": 2940873,
@@ -14,30 +15,32 @@
       "author": "cisko66",
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
+      "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Jeremy_Quastel%2C_Mathematician_2012_July_6.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJeremy%20Quastel%2C%20Mathematician%202012%20July%206.jpg",
-      "title": "Jeremy Quastel, Mathematician 2012 July 6.jpg",
-      "width": 1232,
-      "height": 1082,
-      "size": 328428,
-      "timestamp": "2019-04-06T03:14:56Z",
-      "author": "Satorchi",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/18159-Nan%C3%A7ay-Sols.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A18159-Nan%C3%A7ay-Sols.png",
+      "title": "18159-Nançay-Sols.png",
+      "description": "Carte des infrastructures et de l’occupation des sols en 2018 de la commune de fr:Nançay (France).",
+      "width": 3270,
+      "height": 2598,
+      "size": 2866683,
+      "timestamp": "2021-05-03T13:25:51Z",
+      "author": "Roland45",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
+      "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Nan%C3%A7ay.%C3%89glise_Saint-Laurian.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANan%C3%A7ay.%C3%89glise%20Saint-Laurian.jpg",
-      "title": "Nançay.Église Saint-Laurian.jpg",
-      "width": 1980,
-      "height": 1554,
-      "size": 403345,
-      "timestamp": "2023-11-04T00:56:37Z",
-      "author": "Popolon",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/18159-Nan%C3%A7ay-argile.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A18159-Nan%C3%A7ay-argile.png",
+      "title": "18159-Nançay-argile.png",
+      "description": "Carte de l'aléa retrait-gonflement des argiles sur la commune de fr:Nançay (France).",
+      "width": 3057,
+      "height": 2480,
+      "size": 4583586,
+      "timestamp": "2022-08-17T08:55:22Z",
+      "author": "Roland45",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
@@ -46,49 +49,81 @@
   "lieux": [
     {
       "label": "Église Saint-Martin de Nançay",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Nan%C3%A7ay.%C3%89glise_Saint-Laurian.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANan%C3%A7ay.%C3%89glise%20Saint-Laurian.jpg",
+          "title": "Nançay.Église Saint-Laurian.jpg",
+          "description": "Église Saint-Laurian de Nançay, vue d'ensemble",
+          "width": 1980,
+          "height": 1554,
+          "size": 403345,
+          "timestamp": "2023-11-04T00:56:37Z",
+          "author": "Popolon",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Nan%C3%A7ay.%C3%89glise_Saint-Laurian.porte.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANan%C3%A7ay.%C3%89glise%20Saint-Laurian.porte.jpg",
+          "title": "Nançay.Église Saint-Laurian.porte.jpg",
+          "description": "Église Saint-Laurian de Nançay, porte d'entrée de l'extérieur",
+          "width": 2322,
+          "height": 4128,
+          "size": 1842467,
+          "timestamp": "2023-11-04T00:56:37Z",
+          "author": "Popolon",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Nan%C3%A7ay.%C3%89glise_Saint-Laurian.int%C3%A9rieur.entr%C3%A9e.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANan%C3%A7ay.%C3%89glise%20Saint-Laurian.int%C3%A9rieur.entr%C3%A9e.jpg",
+          "title": "Nançay.Église Saint-Laurian.intérieur.entrée.jpg",
+          "description": "Nançay, Église Saint-Laurian, porte depuis l'intérieur",
+          "width": 4128,
+          "height": 2322,
+          "size": 1100903,
+          "timestamp": "2023-11-04T01:03:16Z",
+          "author": "Popolon",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     },
     {
       "label": "Observatoire de radioastronomie de Nançay",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Nan%C3%A7ay_Observatory_D.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANan%C3%A7ay%20Observatory%20D.jpg",
-          "title": "Nançay Observatory D.jpg",
-          "width": 7693,
-          "height": 4523,
-          "size": 9577538,
-          "timestamp": "2015-07-20T07:56:50Z",
-          "author": "Wouter Hagens",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/18159-Nan%C3%A7ay-argile.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A18159-Nan%C3%A7ay-argile.png",
+          "title": "18159-Nançay-argile.png",
+          "description": "Carte de l'aléa retrait-gonflement des argiles sur la commune de fr:Nançay (France).",
+          "width": 3057,
+          "height": 2480,
+          "size": 4583586,
+          "timestamp": "2022-08-17T08:55:22Z",
+          "author": "Roland45",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/AntennasNenuFAR.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAntennasNenuFAR.jpg",
-          "title": "AntennasNenuFAR.jpg",
-          "width": 3264,
-          "height": 2183,
-          "size": 8376255,
-          "timestamp": "2018-10-10T08:06:17Z",
-          "author": "Fascale",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Nan%C3%A7ay_RH_SN.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANan%C3%A7ay%20RH%20SN.jpg",
+          "title": "Nançay RH SN.jpg",
+          "description": "Ligne nord-sud du radiohéliographe, vue du sud",
+          "width": 2260,
+          "height": 1452,
+          "size": 1645575,
+          "timestamp": "2008-04-24T14:19:27Z",
+          "author": "Denys",
+          "license": "CC BY 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Jeremy_Quastel%2C_Mathematician_2012_July_6.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJeremy%20Quastel%2C%20Mathematician%202012%20July%206.jpg",
-          "title": "Jeremy Quastel, Mathematician 2012 July 6.jpg",
-          "width": 1232,
-          "height": 1082,
-          "size": 328428,
-          "timestamp": "2019-04-06T03:14:56Z",
-          "author": "Satorchi",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
         }
       ]
     },
@@ -99,6 +134,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Nancay_-_panoramio.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANancay%20-%20panoramio.jpg",
           "title": "Nancay - panoramio.jpg",
+          "description": "Château de Nançay (Cher, France).",
           "width": 1920,
           "height": 2560,
           "size": 2940873,
@@ -106,20 +142,7 @@
           "author": "cisko66",
           "license": "CC BY 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Les_Beaubrun_-_Louise-Antoinette_de_la_Ch%C3%A2tre%2C_duchess_d%27Humi%C3%A8re_-_Ch%C3%A2teau_de_Bussy-Rabutin.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20Beaubrun%20-%20Louise-Antoinette%20de%20la%20Ch%C3%A2tre%2C%20duchess%20d'Humi%C3%A8re%20-%20Ch%C3%A2teau%20de%20Bussy-Rabutin.jpg",
-          "title": "Les Beaubrun - Louise-Antoinette de la Châtre, duchess d'Humière - Château de Bussy-Rabutin.jpg",
-          "width": 557,
-          "height": 646,
-          "size": 388683,
-          "timestamp": "2023-04-07T21:50:37Z",
-          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q64669632\" class=\"extiw\" title=\"d:Q64669632\"><span title=\"french painters\">Henri and Charles Beaubrun</span></a></bdi>",
-          "license": "Public domain",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 7
         }
       ]
     },

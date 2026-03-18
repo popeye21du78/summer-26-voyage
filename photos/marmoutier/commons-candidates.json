@@ -1,12 +1,27 @@
 {
   "slug": "marmoutier",
   "nom": "Marmoutier",
-  "fetchedAt": "2026-03-13T16:05:28.921Z",
+  "fetchedAt": "2026-03-16T21:19:23.309Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Marmoutier_eglise.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarmoutier%20eglise.jpg",
+      "title": "Marmoutier eglise.jpg",
+      "description": "Abbey church in Marmoutier (Alsace), view from NW",
+      "width": 2206,
+      "height": 2561,
+      "size": 3117672,
+      "timestamp": "2015-06-10T14:41:34Z",
+      "author": "Palauenc05",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Abbatiale_Saint-%C3%89tienne%2C_Marmoutier.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbatiale%20Saint-%C3%89tienne%2C%20Marmoutier.jpg",
       "title": "Abbatiale Saint-Étienne, Marmoutier.jpg",
+      "description": "The Romanesque west facade of the Marmoutier church",
       "width": 4608,
       "height": 3072,
       "size": 3460154,
@@ -20,22 +35,10 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Marmoutier_H%C3%B4tWangen_01.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarmoutier%20H%C3%B4tWangen%2001.JPG",
       "title": "Marmoutier HôtWangen 01.JPG",
+      "description": "Alsace, Bas-Rhin, Marmoutier, Ancien hôtel de Wangen (XVIe), rue des Écoles \n\n\n\n\n\n \nThis building is inscrit au titre des monuments historiques de la France. It is indexed in the base Mérimée, a database of architectural heritage maintained by the French Ministry of Culture, under the references PA67000024   and IA67007729 .\n\nbrezhoneg ∙ català ∙ Deutsch ∙ English ∙ español ∙ Esperanto ∙ euskara ∙ français ∙ italiano ∙ magyar ∙ Nederlands ∙ português do Brasil ∙ português ∙ română ∙ sicilianu ∙ ",
       "width": 3648,
       "height": 2736,
       "size": 2452676,
-      "timestamp": "2015-10-12T12:59:50Z",
-      "author": "© Ralph Hammann - Wikimedia Commons",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Marmoutier_H%C3%B4tWangen_03.JPG",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarmoutier%20H%C3%B4tWangen%2003.JPG",
-      "title": "Marmoutier HôtWangen 03.JPG",
-      "width": 3648,
-      "height": 2056,
-      "size": 1584380,
       "timestamp": "2015-10-12T12:59:50Z",
       "author": "© Ralph Hammann - Wikimedia Commons",
       "license": "CC BY-SA 4.0",
@@ -48,53 +51,142 @@
       "label": "Abbatiale Saint-Étienne de Marmoutier",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Marmoutier_%28Bas-Rhin%29_-_Abbatiale_Saint-%C3%89tienne_-_Orgue_%28explore_01-02-21%29_%2850893622917%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarmoutier%20(Bas-Rhin)%20-%20Abbatiale%20Saint-%C3%89tienne%20-%20Orgue%20(explore%2001-02-21)%20(50893622917).jpg",
-          "title": "Marmoutier (Bas-Rhin) - Abbatiale Saint-Étienne - Orgue (explore 01-02-21) (50893622917).jpg",
-          "width": 4739,
-          "height": 3139,
-          "size": 5712506,
-          "timestamp": "2021-05-02T07:38:18Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Marmoutier_eglise.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarmoutier%20eglise.jpg",
+          "title": "Marmoutier eglise.jpg",
+          "description": "Abbey church in Marmoutier (Alsace), view from NW",
+          "width": 2206,
+          "height": 2561,
+          "size": 3117672,
+          "timestamp": "2015-06-10T14:41:34Z",
+          "author": "Palauenc05",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Marmoutier_%28Bas-Rhin%29_-_Abbatiale_Saint-%C3%89tienne_%2850886234708%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarmoutier%20(Bas-Rhin)%20-%20Abbatiale%20Saint-%C3%89tienne%20(50886234708).jpg",
+          "title": "Marmoutier (Bas-Rhin) - Abbatiale Saint-Étienne (50886234708).jpg",
+          "description": "Marmoutier (Bas-Rhin) - Abbatiale Saint-Étienne",
+          "width": 4724,
+          "height": 3242,
+          "size": 4907995,
+          "timestamp": "2021-05-02T07:37:17Z",
           "author": "Patrick",
           "license": "CC BY-SA 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Ebrach_Kirche_rose_window_Orgel_P4252411efs.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEbrach%20Kirche%20rose%20window%20Orgel%20P4252411efs.jpg",
-          "title": "Ebrach Kirche rose window Orgel P4252411efs.jpg",
-          "width": 10031,
-          "height": 7772,
-          "size": 30291251,
-          "timestamp": "2019-09-28T21:09:44Z",
-          "author": "Ermell",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Marmoutier_%28Bas-Rhin%29_-_Abbatiale_Saint-%C3%89tienne_-_Monuments_fun%C3%A9raires_ou_c%C3%A9notaphes_des_avou%C3%A9s_de_l%27abbaye_de_Marmoutier_%2817e%29_%2850890091887%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarmoutier%20(Bas-Rhin)%20-%20Abbatiale%20Saint-%C3%89tienne%20-%20Monuments%20fun%C3%A9raires%20ou%20c%C3%A9notaphes%20des%20avou%C3%A9s%20de%20l'abbaye%20de%20Marmoutier%20(17e)%20(50890091887).jpg",
-          "title": "Marmoutier (Bas-Rhin) - Abbatiale Saint-Étienne - Monuments funéraires ou cénotaphes des avoués de l'abbaye de Marmoutier (17e) (50890091887).jpg",
-          "width": 2862,
-          "height": 5064,
-          "size": 5521419,
-          "timestamp": "2021-05-02T07:37:23Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Marmoutier_%28Bas-Rhin%29_-_Abbatiale_Saint-%C3%89tienne_%2850889262258%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarmoutier%20(Bas-Rhin)%20-%20Abbatiale%20Saint-%C3%89tienne%20(50889262258).jpg",
+          "title": "Marmoutier (Bas-Rhin) - Abbatiale Saint-Étienne (50889262258).jpg",
+          "description": "Marmoutier (Bas-Rhin) - Abbatiale Saint-Étienne",
+          "width": 4771,
+          "height": 3152,
+          "size": 5858619,
+          "timestamp": "2021-05-02T07:37:32Z",
           "author": "Patrick",
           "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
+    },
+    {
+      "label": "Jardin du cloître",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Marmoutier_eglise.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarmoutier%20eglise.jpg",
+          "title": "Marmoutier eglise.jpg",
+          "description": "Abbey church in Marmoutier (Alsace), view from NW",
+          "width": 2206,
+          "height": 2561,
+          "size": 3117672,
+          "timestamp": "2015-06-10T14:41:34Z",
+          "author": "Palauenc05",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Abbatiale_Saint-%C3%89tienne%2C_Marmoutier.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbatiale%20Saint-%C3%89tienne%2C%20Marmoutier.jpg",
+          "title": "Abbatiale Saint-Étienne, Marmoutier.jpg",
+          "description": "The Romanesque west facade of the Marmoutier church",
+          "width": 4608,
+          "height": 3072,
+          "size": 3460154,
+          "timestamp": "2022-02-23T16:46:46Z",
+          "author": "Tristan Schmurr",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Marmoutier_rCouvent_37.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarmoutier%20rCouvent%2037.JPG",
+          "title": "Marmoutier rCouvent 37.JPG",
+          "description": "Alsace, Bas-Rhin, Marmoutier, Ancienne infirmerie conventuelle (XVIIIe), actuellement maison, 37 rue du Couvent. \n\n\n\n\n\n \nThis building is indexed in the base Mérimée, a database of architectural heritage maintained by the French Ministry of Culture, under the reference IA67007721 .\n\nbrezhoneg ∙ català ∙ Deutsch ∙ English ∙ español ∙ Esperanto ∙ euskara ∙ français ∙ italiano ∙ magyar ∙ Nederlands ∙ português do Brasil ∙ português ∙ română ∙ sicilianu ∙ slovenščina ∙ suomi ∙ svenska ∙ Ελληνικά ∙ б",
+          "width": 3648,
+          "height": 2736,
+          "size": 2008966,
+          "timestamp": "2015-10-12T15:02:13Z",
+          "author": "© Ralph Hammann - Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
         }
       ]
     },
     {
-      "label": "Jardin du cloître",
-      "photos": []
-    },
-    {
       "label": "Ancien lavoir",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Marmoutier_H%C3%B4tWangen_01.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarmoutier%20H%C3%B4tWangen%2001.JPG",
+          "title": "Marmoutier HôtWangen 01.JPG",
+          "description": "Alsace, Bas-Rhin, Marmoutier, Ancien hôtel de Wangen (XVIe), rue des Écoles \n\n\n\n\n\n \nThis building is inscrit au titre des monuments historiques de la France. It is indexed in the base Mérimée, a database of architectural heritage maintained by the French Ministry of Culture, under the references PA67000024   and IA67007729 .\n\nbrezhoneg ∙ català ∙ Deutsch ∙ English ∙ español ∙ Esperanto ∙ euskara ∙ français ∙ italiano ∙ magyar ∙ Nederlands ∙ português do Brasil ∙ português ∙ română ∙ sicilianu ∙ ",
+          "width": 3648,
+          "height": 2736,
+          "size": 2452676,
+          "timestamp": "2015-10-12T12:59:50Z",
+          "author": "© Ralph Hammann - Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Marmoutier_H%C3%B4tWangen_03.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarmoutier%20H%C3%B4tWangen%2003.JPG",
+          "title": "Marmoutier HôtWangen 03.JPG",
+          "description": "Alsace, Bas-Rhin, Marmoutier, Ancien hôtel de Wangen (XVIe), rue des Écoles \n\n\n\n\n\n \nThis building is inscrit au titre des monuments historiques de la France. It is indexed in the base Mérimée, a database of architectural heritage maintained by the French Ministry of Culture, under the references PA67000024   and IA67007729 .\n\nbrezhoneg ∙ català ∙ Deutsch ∙ English ∙ español ∙ Esperanto ∙ euskara ∙ français ∙ italiano ∙ magyar ∙ Nederlands ∙ português do Brasil ∙ português ∙ română ∙ sicilianu ∙ ",
+          "width": 3648,
+          "height": 2056,
+          "size": 1584380,
+          "timestamp": "2015-10-12T12:59:50Z",
+          "author": "© Ralph Hammann - Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Marmoutier_CorpsGarde.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarmoutier%20CorpsGarde.JPG",
+          "title": "Marmoutier CorpsGarde.JPG",
+          "description": "Alsace, Bas-Rhin, Marmoutier, Ancien corps de garde  (1822), rue du Général-Leclerc. \n\n\n\n\n\n \nThis building is indexed in the base Mérimée, a database of architectural heritage maintained by the French Ministry of Culture, under the reference IA67007726 .\n\nbrezhoneg ∙ català ∙ Deutsch ∙ English ∙ español ∙ Esperanto ∙ euskara ∙ français ∙ italiano ∙ magyar ∙ Nederlands ∙ português do Brasil ∙ português ∙ română ∙ sicilianu ∙ slovenščina ∙ suomi ∙ svenska ∙ Ελληνικά ∙ беларуская (тарашкевіца) ∙ ма",
+          "width": 3648,
+          "height": 2736,
+          "size": 3572838,
+          "timestamp": "2015-10-12T14:53:05Z",
+          "author": "© Ralph Hammann - Wikimedia Commons",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

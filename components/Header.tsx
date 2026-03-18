@@ -59,6 +59,7 @@ export default function Header() {
             <Link
               key={href}
               href={href}
+              prefetch={false}
               className={`text-sm font-normal transition-colors ${
                 isActive
                   ? "text-[#FFFBF7] font-[400]"
@@ -90,6 +91,7 @@ export default function Header() {
               <Link
                 href="/mes-voyages"
                 role="menuitem"
+                prefetch={false}
                 className="flex items-center gap-2 px-4 py-2.5 text-sm text-[#333333] hover:bg-[#A55734]/10"
                 onClick={() => setMenuOpen(false)}
               >
@@ -98,6 +100,7 @@ export default function Header() {
               <Link
                 href="/profil"
                 role="menuitem"
+                prefetch={false}
                 className="flex items-center gap-2 px-4 py-2.5 text-sm text-[#333333] hover:bg-[#A55734]/10"
                 onClick={() => setMenuOpen(false)}
               >

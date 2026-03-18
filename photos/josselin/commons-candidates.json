@@ -1,90 +1,143 @@
 {
   "slug": "josselin",
   "nom": "Josselin",
-  "fetchedAt": "2026-03-13T01:06:42.870Z",
+  "fetchedAt": "2026-03-16T14:22:58.235Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Hotel-de-Ville-Rennes-01.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHotel-de-Ville-Rennes-01.jpg",
-      "title": "Hotel-de-Ville-Rennes-01.jpg",
-      "width": 6000,
-      "height": 3000,
-      "size": 5345011,
-      "timestamp": "2020-08-25T15:05:39Z",
-      "author": "Erwan Corre",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Hotel-de-Ville-Rennes-02.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHotel-de-Ville-Rennes-02.jpg",
-      "title": "Hotel-de-Ville-Rennes-02.jpg",
-      "width": 6000,
-      "height": 3000,
-      "size": 8974434,
-      "timestamp": "2020-08-25T15:05:39Z",
-      "author": "Erwan Corre",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Opera-de-Rennes-Juillet-2022.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOpera-de-Rennes-Juillet-2022.jpg",
-      "title": "Opera-de-Rennes-Juillet-2022.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Ch%C3%A2teau_de_Josselin_fa%C3%A7ade_sud_depuis_le_Pont_de_Sainte-Croix.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Josselin%20fa%C3%A7ade%20sud%20depuis%20le%20Pont%20de%20Sainte-Croix.jpg",
+      "title": "Château de Josselin façade sud depuis le Pont de Sainte-Croix.jpg",
+      "description": "Façade d'un château-fort de style médiéval.",
       "width": 4000,
-      "height": 2000,
-      "size": 2300800,
-      "timestamp": "2022-12-28T11:50:20Z",
-      "author": "Erwan Corre",
+      "height": 3000,
+      "size": 5044736,
+      "timestamp": "2020-08-08T12:56:53Z",
+      "author": "Tsaag Valren",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Salle_%C3%A0_manger_du_ch%C3%A2teau_de_Josselin_10.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASalle%20%C3%A0%20manger%20du%20ch%C3%A2teau%20de%20Josselin%2010.jpg",
+      "title": "Salle à manger du château de Josselin 10.jpg",
+      "description": "Salle à manger du château de Josselin",
+      "width": 4000,
+      "height": 3000,
+      "size": 4812288,
+      "timestamp": "2020-08-08T17:10:14Z",
+      "author": "Tsaag Valren",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Les_bords_de_l%27Oust_Josselin_Villard.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20bords%20de%20l'Oust%20Josselin%20Villard.jpg",
+      "title": "Les bords de l'Oust Josselin Villard.jpg",
+      "description": "Josselin ː les bords de l'Oust et le château vers 1925 (carte postale Villard).",
+      "width": 1531,
+      "height": 982,
+      "size": 843359,
+      "timestamp": "2023-12-16T05:00:02Z",
+      "author": "Joseph-Marie Villard (1868-1935)",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
     }
   ],
   "lieux": [
     {
-      "label": "Château de Josselin",
+      "label": "Façade Renaissance du château",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Ch%C3%A2teau_de_Josselin_sous_la_neige_03.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Josselin%20sous%20la%20neige%2003.jpg",
-          "title": "Château de Josselin sous la neige 03.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Ch%C3%A2teau_de_Josselin_fa%C3%A7ade_sud_depuis_le_Pont_de_Sainte-Croix.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Josselin%20fa%C3%A7ade%20sud%20depuis%20le%20Pont%20de%20Sainte-Croix.jpg",
+          "title": "Château de Josselin façade sud depuis le Pont de Sainte-Croix.jpg",
+          "description": "Façade d'un château-fort de style médiéval.",
           "width": 4000,
           "height": 3000,
-          "size": 4907520,
-          "timestamp": "2021-02-10T18:09:24Z",
+          "size": 5044736,
+          "timestamp": "2020-08-08T12:56:53Z",
           "author": "Tsaag Valren",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Ch%C3%A2teau_de_Josselin_sous_la_neige_01.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Josselin%20sous%20la%20neige%2001.jpg",
-          "title": "Château de Josselin sous la neige 01.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Jardins_du_ch%C3%A2teau_de_Josselin_-_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJardins%20du%20ch%C3%A2teau%20de%20Josselin%20-%2001.jpg",
+          "title": "Jardins du château de Josselin - 01.jpg",
+          "description": "Parc à l'anglaise du château de Josselin (Morbihan)",
           "width": 4000,
           "height": 3000,
-          "size": 5016576,
-          "timestamp": "2021-02-10T18:09:26Z",
-          "author": "Tsaag Valren",
+          "size": 4914176,
+          "timestamp": "2020-11-01T10:25:09Z",
+          "author": "Thérèse Gaigé",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Ch%C3%A2teau_de_Josselin_sous_la_neige_02.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Josselin%20sous%20la%20neige%2002.jpg",
-          "title": "Château de Josselin sous la neige 02.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Jardins_du_ch%C3%A2teau_de_Josselin_-_07.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJardins%20du%20ch%C3%A2teau%20de%20Josselin%20-%2007.jpg",
+          "title": "Jardins du château de Josselin - 07.jpg",
+          "description": "Chute du petit ruisseau Saint-Nicolas qui traverse le parc à l'anglaise du château de Josselin (Morbihan)",
           "width": 4000,
           "height": 3000,
-          "size": 4994048,
-          "timestamp": "2021-02-10T18:09:24Z",
+          "size": 4943360,
+          "timestamp": "2020-11-01T11:40:49Z",
+          "author": "Thérèse Gaigé",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
+    },
+    {
+      "label": "Pont de pierre sur l’Oust",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/France_Bretagne_56_Josselin_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20Bretagne%2056%20Josselin%2001.jpg",
+          "title": "France Bretagne 56 Josselin 01.jpg",
+          "description": "Château de Josselin",
+          "width": 3008,
+          "height": 2000,
+          "size": 2511983,
+          "timestamp": "2020-03-07T19:32:43Z",
+          "author": "Calips",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Ch%C3%A2teau_de_Josselin_fa%C3%A7ade_sud_depuis_le_Pont_de_Sainte-Croix.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Josselin%20fa%C3%A7ade%20sud%20depuis%20le%20Pont%20de%20Sainte-Croix.jpg",
+          "title": "Château de Josselin façade sud depuis le Pont de Sainte-Croix.jpg",
+          "description": "Façade d'un château-fort de style médiéval.",
+          "width": 4000,
+          "height": 3000,
+          "size": 5044736,
+          "timestamp": "2020-08-08T12:56:53Z",
           "author": "Tsaag Valren",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Jardins_du_ch%C3%A2teau_de_Josselin_-_08.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJardins%20du%20ch%C3%A2teau%20de%20Josselin%20-%2008.jpg",
+          "title": "Jardins du château de Josselin - 08.jpg",
+          "description": "Petit pont au-dessus de la chute du petit ruisseau qui traverse le parc à l'anglaise du château de Josselin (Morbihan)",
+          "width": 4000,
+          "height": 3000,
+          "size": 5173760,
+          "timestamp": "2020-11-01T11:45:02Z",
+          "author": "Thérèse Gaigé",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
         }
       ]
     },
@@ -95,6 +148,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Gargouille_%28Basilique_Notre-Dame-du-Roncier_%C3%A0_Josselin%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGargouille%20(Basilique%20Notre-Dame-du-Roncier%20%C3%A0%20Josselin).jpg",
           "title": "Gargouille (Basilique Notre-Dame-du-Roncier à Josselin).jpg",
+          "description": "Gargouille de la basilique Notre-Dame-du-Roncier à Josselin (Morbihan)",
           "width": 4000,
           "height": 3000,
           "size": 4995584,
@@ -105,25 +159,27 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Josselin_Basilique_Notre-Dame-du-Roncier_Ext%C3%A9rieure_Clocher_2.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJosselin%20Basilique%20Notre-Dame-du-Roncier%20Ext%C3%A9rieure%20Clocher%202.jpg",
-          "title": "Josselin Basilique Notre-Dame-du-Roncier Extérieure Clocher 2.jpg",
-          "width": 4404,
-          "height": 3298,
-          "size": 3429148,
-          "timestamp": "2022-08-22T14:32:01Z",
-          "author": "Zairon",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Portail_Sud_Basilique_Notre-Dame_du_Roncier_Josselin_Morbihan.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APortail%20Sud%20Basilique%20Notre-Dame%20du%20Roncier%20Josselin%20Morbihan.jpg",
+          "title": "Portail Sud Basilique Notre-Dame du Roncier Josselin Morbihan.jpg",
+          "description": "Portail Sud Basilique Notre-Dame du Roncier Josselin Morbihan",
+          "width": 4109,
+          "height": 3010,
+          "size": 7861268,
+          "timestamp": "2021-05-29T20:04:58Z",
+          "author": "Daniel Jolivet",
+          "license": "CC BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Josselin_Basilique_Notre-Dame-du-Roncier_Ext%C3%A9rieure_Clocher_1.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJosselin%20Basilique%20Notre-Dame-du-Roncier%20Ext%C3%A9rieure%20Clocher%201.jpg",
-          "title": "Josselin Basilique Notre-Dame-du-Roncier Extérieure Clocher 1.jpg",
-          "width": 4415,
-          "height": 3439,
-          "size": 4493348,
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Josselin_Basilique_Notre-Dame-du-Roncier_Ext%C3%A9rieure_Clocher_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJosselin%20Basilique%20Notre-Dame-du-Roncier%20Ext%C3%A9rieure%20Clocher%202.jpg",
+          "title": "Josselin Basilique Notre-Dame-du-Roncier Extérieure Clocher 2.jpg",
+          "description": "Belltower of the Basilica of Our Lady of Roncier, Josselin, Department of Morbihan, Region of Brittany, France",
+          "width": 4404,
+          "height": 3298,
+          "size": 3429148,
           "timestamp": "2022-08-22T14:32:01Z",
           "author": "Zairon",
           "license": "CC BY-SA 4.0",
@@ -133,20 +189,51 @@
       ]
     },
     {
-      "label": "Centre historique (maisons à pans de bois)",
-      "photos": []
-    },
-    {
-      "label": "Chemin de halage le long de l’Oust",
-      "photos": []
-    },
-    {
-      "label": "Jardin public sur la hauteur",
-      "photos": []
-    },
-    {
-      "label": "Chapelle Saint-Martin",
-      "photos": []
+      "label": "Place Saint-Martin",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Porterie_Josselin_place_de_la_Congr%C3%A9gation.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APorterie%20Josselin%20place%20de%20la%20Congr%C3%A9gation.jpg",
+          "title": "Porterie Josselin place de la Congrégation.jpg",
+          "description": "Place de la Congrégation et porterie nord du château de Josselin",
+          "width": 4000,
+          "height": 3000,
+          "size": 5067264,
+          "timestamp": "2020-08-10T10:20:26Z",
+          "author": "Tsaag Valren",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Les_bords_de_l%27Oust_Josselin_Villard.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20bords%20de%20l'Oust%20Josselin%20Villard.jpg",
+          "title": "Les bords de l'Oust Josselin Villard.jpg",
+          "description": "Josselin ː les bords de l'Oust et le château vers 1925 (carte postale Villard).",
+          "width": 1531,
+          "height": 982,
+          "size": 843359,
+          "timestamp": "2023-12-16T05:00:02Z",
+          "author": "Joseph-Marie Villard (1868-1935)",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Josselin_depuis_le_clocher_de_la_cath%C3%A9drale_04.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJosselin%20depuis%20le%20clocher%20de%20la%20cath%C3%A9drale%2004.jpg",
+          "title": "Josselin depuis le clocher de la cathédrale 04.jpg",
+          "description": "Vue de Josselin depuis le clocher de la cathédrale",
+          "width": 4000,
+          "height": 3000,
+          "size": 4897792,
+          "timestamp": "2017-05-23T07:18:15Z",
+          "author": "Tsaag Valren",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        }
+      ]
     }
   ]
 }

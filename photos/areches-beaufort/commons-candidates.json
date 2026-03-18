@@ -1,12 +1,41 @@
 {
   "slug": "areches-beaufort",
   "nom": "Arêches-Beaufort",
-  "fetchedAt": "2026-03-12T23:50:40.571Z",
+  "fetchedAt": "2026-03-15T15:10:02.615Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Village_de_Beaufort_depuis_les_hauteurs_sud_%28septembre_2023%29.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVillage%20de%20Beaufort%20depuis%20les%20hauteurs%20sud%20(septembre%202023).JPG",
+      "title": "Village de Beaufort depuis les hauteurs sud (septembre 2023).JPG",
+      "description": "Sight, from the southern heights, of Arêches village in Beaufortain mountain range, Savoie, France.",
+      "width": 3164,
+      "height": 2312,
+      "size": 4428452,
+      "timestamp": "2023-09-19T19:46:11Z",
+      "author": "Florian Pépellin",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Vue_de_beaufort_-_panoramio.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20de%20beaufort%20-%20panoramio.jpg",
+      "title": "Vue de beaufort - panoramio.jpg",
+      "description": "vue de beaufort",
+      "width": 4000,
+      "height": 3000,
+      "size": 2112467,
+      "timestamp": "2016-12-18T00:44:45Z",
+      "author": "chisloup",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Horloge_du_clocher_de_Beaufort_L._Lamy_Albertville.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHorloge%20du%20clocher%20de%20Beaufort%20L.%20Lamy%20Albertville.jpg",
       "title": "Horloge du clocher de Beaufort L. Lamy Albertville.jpg",
+      "description": "Horloge du clocher",
       "width": 5984,
       "height": 3376,
       "size": 6663825,
@@ -15,64 +44,69 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Clocher_et_fa%C3%A7ade_de_l%27%C3%A9glise_de_Beaufort-sur-Doron_%28mai_2022%29.JPG",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AClocher%20et%20fa%C3%A7ade%20de%20l'%C3%A9glise%20de%20Beaufort-sur-Doron%20(mai%202022).JPG",
-      "title": "Clocher et façade de l'église de Beaufort-sur-Doron (mai 2022).JPG",
-      "width": 3264,
-      "height": 2448,
-      "size": 4911191,
-      "timestamp": "2022-06-01T17:54:29Z",
-      "author": "Florian Pépellin",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Parvis_de_l%27%C3%A9glise_de_Beaufort-sur-Doron_%28mai_2022%29.JPG",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParvis%20de%20l'%C3%A9glise%20de%20Beaufort-sur-Doron%20(mai%202022).JPG",
-      "title": "Parvis de l'église de Beaufort-sur-Doron (mai 2022).JPG",
-      "width": 3184,
-      "height": 2380,
-      "size": 4591662,
-      "timestamp": "2022-06-01T18:19:12Z",
-      "author": "Florian Pépellin",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
     }
   ],
   "lieux": [
     {
       "label": "Église Saint-Jean-Baptiste",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Village_Beaufort_hiver.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVillage%20Beaufort%20hiver.png",
+          "title": "Village Beaufort hiver.png",
+          "description": "Village de Beaufort depuis la route d'Arêches en hiver",
+          "width": 1095,
+          "height": 820,
+          "size": 1579179,
+          "timestamp": "2016-05-25T13:01:23Z",
+          "author": "Officiel-areches-beaufort",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Barrage de Saint-Guérin",
+      "photos": []
+    },
+    {
+      "label": "Hameau de Boudin",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Vallon_de_Saint-Gu%C3%A9rin_vu_depuis_le_barrage_%28septembre_2023%29.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVallon%20de%20Saint-Gu%C3%A9rin%20vu%20depuis%20le%20barrage%20(septembre%202023).JPG",
-          "title": "Vallon de Saint-Guérin vu depuis le barrage (septembre 2023).JPG",
-          "width": 3264,
-          "height": 2448,
-          "size": 3358179,
-          "timestamp": "2023-09-14T20:42:47Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Village_Beaufort_%C3%A9t%C3%A9.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVillage%20Beaufort%20%C3%A9t%C3%A9.png",
+          "title": "Village Beaufort été.png",
+          "description": "Village de Beaufort depuis le hameau des Curtillets en été",
+          "width": 1096,
+          "height": 729,
+          "size": 1726093,
+          "timestamp": "2016-05-25T13:01:23Z",
+          "author": "Officiel-areches-beaufort",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "label": "Sentier du Col du Pré",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Sentier_sous_T%C3%AAte_de_Cuvy_%C3%A0_Ar%C3%AAches_en_%C3%A9t%C3%A9_%28juillet_2024%29.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASentier%20sous%20T%C3%AAte%20de%20Cuvy%20%C3%A0%20Ar%C3%AAches%20en%20%C3%A9t%C3%A9%20(juillet%202024).JPG",
+          "title": "Sentier sous Tête de Cuvy à Arêches en été (juillet 2024).JPG",
+          "description": "Sight, in summer, of a hiking trail beneath Tête de Cuvy mountain, in Arêches, Savoie, France.",
+          "width": 3192,
+          "height": 2396,
+          "size": 6602317,
+          "timestamp": "2024-08-01T16:44:07Z",
           "author": "Florian Pépellin",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         }
       ]
-    },
-    {
-      "label": "Hameau de Boudin",
-      "photos": []
-    },
-    {
-      "label": "Sentier du Col du Pré",
-      "photos": []
     }
   ]
 }

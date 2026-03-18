@@ -1,224 +1,24 @@
 {
   "slug": "poissy",
   "nom": "Poissy",
-  "fetchedAt": "2026-03-13T01:42:46.926Z",
-  "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/V%C3%A9hicule_S%C3%BBret%C3%A9_ferroviaire_-_SUGE%2C_Renault_Kangoo%2C_Gare_de_Poissy.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AV%C3%A9hicule%20S%C3%BBret%C3%A9%20ferroviaire%20-%20SUGE%2C%20Renault%20Kangoo%2C%20Gare%20de%20Poissy.jpg",
-      "title": "Véhicule Sûreté ferroviaire - SUGE, Renault Kangoo, Gare de Poissy.jpg",
-      "width": 3507,
-      "height": 2541,
-      "size": 3920689,
-      "timestamp": "2021-01-21T10:50:28Z",
-      "author": "Kevin.B",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Urgences_Gaz_-_GRDF_%28Poissy%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AUrgences%20Gaz%20-%20GRDF%20(Poissy).jpg",
-      "title": "Urgences Gaz - GRDF (Poissy).jpg",
-      "width": 4000,
-      "height": 3000,
-      "size": 5588456,
-      "timestamp": "2021-05-16T11:06:35Z",
-      "author": "Kevin.B",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Irisbus_Agora_Line_%22STIF%22%2C_Poissy.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AIrisbus%20Agora%20Line%20%22STIF%22%2C%20Poissy.jpg",
-      "title": "Irisbus Agora Line \"STIF\", Poissy.jpg",
-      "width": 2754,
-      "height": 2065,
-      "size": 4183297,
-      "timestamp": "2021-05-16T12:30:02Z",
-      "author": "Kevin.B",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    }
-  ],
+  "fetchedAt": "2026-03-18T16:47:04.796Z",
+  "header": [],
   "lieux": [
     {
       "label": "Collégiale Notre-Dame de Poissy",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Poissy_%2878%29%2C_coll%C3%A9giale_Notre-Dame%2C_clocher_central%2C_%C3%A9tage_de_beffroi%2C_c%C3%B4t%C3%A9_sud.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APoissy%20(78)%2C%20coll%C3%A9giale%20Notre-Dame%2C%20clocher%20central%2C%20%C3%A9tage%20de%20beffroi%2C%20c%C3%B4t%C3%A9%20sud.jpg",
-          "title": "Poissy (78), collégiale Notre-Dame, clocher central, étage de beffroi, côté sud.jpg",
-          "width": 4896,
-          "height": 3672,
-          "size": 1899648,
-          "timestamp": "2017-04-13T13:40:24Z",
-          "author": "Pierre Poschadel",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Poissy_%2878%29%2C_coll%C3%A9giale_Notre-Dame%2C_sacristie%2C_vue_depuis_le_sud.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APoissy%20(78)%2C%20coll%C3%A9giale%20Notre-Dame%2C%20sacristie%2C%20vue%20depuis%20le%20sud.jpg",
-          "title": "Poissy (78), collégiale Notre-Dame, sacristie, vue depuis le sud.jpg",
-          "width": 4896,
-          "height": 3672,
-          "size": 1918954,
-          "timestamp": "2017-04-13T13:40:43Z",
-          "author": "Pierre Poschadel",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Poissy_%2878%29%2C_coll%C3%A9giale_Notre-Dame%2C_vue_depuis_le_sud-ouest_2.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APoissy%20(78)%2C%20coll%C3%A9giale%20Notre-Dame%2C%20vue%20depuis%20le%20sud-ouest%202.jpg",
-          "title": "Poissy (78), collégiale Notre-Dame, vue depuis le sud-ouest 2.jpg",
-          "width": 4896,
-          "height": 3672,
-          "size": 1687745,
-          "timestamp": "2017-04-13T13:40:46Z",
-          "author": "Pierre Poschadel",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Parc Meissonier",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Parc_Meissonier_printemps.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParc%20Meissonier%20printemps.jpg",
-          "title": "Parc Meissonier printemps.jpg",
-          "width": 3872,
-          "height": 2592,
-          "size": 5748784,
-          "timestamp": "2017-12-10T21:25:57Z",
-          "author": "Ovidiu vaida",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Spring_colors_Parc_Meissonier.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASpring%20colors%20Parc%20Meissonier.jpg",
-          "title": "Spring colors Parc Meissonier.jpg",
-          "width": 3872,
-          "height": 2592,
-          "size": 6083299,
-          "timestamp": "2017-12-10T21:27:42Z",
-          "author": "Ovidiu vaida",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/2013_08_17_maison_Danly_toit.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2013%2008%2017%20maison%20Danly%20toit.jpg",
-          "title": "2013 08 17 maison Danly toit.jpg",
-          "width": 3264,
-          "height": 2448,
-          "size": 3819870,
-          "timestamp": "2013-08-17T16:52:22Z",
-          "author": "Hadriscus",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Villa Savoye",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Les_heures_claires...%5E1_-_Flickr_-_Biscarotte.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20heures%20claires...%5E1%20-%20Flickr%20-%20Biscarotte.jpg",
-          "title": "Les heures claires...^1 - Flickr - Biscarotte.jpg",
-          "width": 2426,
-          "height": 2558,
-          "size": 2126261,
-          "timestamp": "2025-12-25T16:54:58Z",
-          "author": "sophie &amp; cie",
-          "license": "CC BY-SA 2.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Savoye_3.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASavoye%203.JPG",
-          "title": "Savoye 3.JPG",
-          "width": 3264,
-          "height": 2448,
-          "size": 1775497,
-          "timestamp": "2011-06-11T18:28:21Z",
-          "author": "Wasily",
-          "license": "CC0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Cartello_stradale_in_Rue_de_Villiers.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACartello%20stradale%20in%20Rue%20de%20Villiers.jpg",
-          "title": "Cartello stradale in Rue de Villiers.jpg",
-          "width": 4752,
-          "height": 3168,
-          "size": 7879567,
-          "timestamp": "2013-05-07T12:07:49Z",
-          "author": "Ing.Manga",
-          "license": "CC0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Vieux pont de Poissy",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Vieux_Pont_-_Poissy_%28FR78%29_-_2025-07-12_-_1.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVieux%20Pont%20-%20Poissy%20(FR78)%20-%202025-07-12%20-%201.jpg",
-          "title": "Vieux Pont - Poissy (FR78) - 2025-07-12 - 1.jpg",
-          "width": 5712,
-          "height": 4284,
-          "size": 6606442,
-          "timestamp": "2025-07-13T03:49:12Z",
-          "author": "Chabe01",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Vieux_Pont_-_Poissy_%28FR78%29_-_2025-07-12_-_10.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVieux%20Pont%20-%20Poissy%20(FR78)%20-%202025-07-12%20-%2010.jpg",
-          "title": "Vieux Pont - Poissy (FR78) - 2025-07-12 - 10.jpg",
-          "width": 5712,
-          "height": 4284,
-          "size": 5216009,
-          "timestamp": "2025-07-13T03:50:05Z",
-          "author": "Chabe01",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Vieux_Pont_-_Poissy_%28FR78%29_-_2025-07-12_-_11.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVieux%20Pont%20-%20Poissy%20(FR78)%20-%202025-07-12%20-%2011.jpg",
-          "title": "Vieux Pont - Poissy (FR78) - 2025-07-12 - 11.jpg",
-          "width": 4032,
-          "height": 3024,
-          "size": 3344422,
-          "timestamp": "2025-07-13T03:50:36Z",
-          "author": "Chabe01",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Quartier Beauregard",

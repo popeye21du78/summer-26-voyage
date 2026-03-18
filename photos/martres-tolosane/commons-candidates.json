@@ -1,12 +1,13 @@
 {
   "slug": "martres-tolosane",
   "nom": "Martres-Tolosane",
-  "fetchedAt": "2026-03-13T16:06:16.467Z",
+  "fetchedAt": "2026-03-16T21:22:28.451Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Martres-Tolosane_-_27_boulevard_de_la_Magdeleine_-_20160922_%281%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMartres-Tolosane%20-%2027%20boulevard%20de%20la%20Magdeleine%20-%2020160922%20(1).jpg",
       "title": "Martres-Tolosane - 27 boulevard de la Magdeleine - 20160922 (1).jpg",
+      "description": "Martres-Tolosane (Haute-Garonne, Occitanie, France) - 27 boulevard de la Magdeleine.",
       "width": 3648,
       "height": 2736,
       "size": 2885754,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Martres-Tolosane_-_Place_Henri_Dulion_-_20220913_%281%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMartres-Tolosane%20-%20Place%20Henri%20Dulion%20-%2020220913%20(1).jpg",
       "title": "Martres-Tolosane - Place Henri Dulion - 20220913 (1).jpg",
+      "description": "Martres-Tolosane (Haute-Garonne, France) - Boîte à livre de la halle, place Henri Dulion.",
       "width": 3648,
       "height": 4864,
       "size": 6838107,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/%C3%89glise_Saint-Vidian_Martres-Tolosane_2012_pradigue_03.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-Vidian%20Martres-Tolosane%202012%20pradigue%2003.JPG",
       "title": "Église Saint-Vidian Martres-Tolosane 2012 pradigue 03.JPG",
+      "description": "This building is indexed in the base Mérimée, a database of architectural heritage maintained by the French Ministry of Culture, under the reference PA00094377 .\n\nbrezhoneg ∙ català ∙ Deutsch ∙ English ∙ español ∙ Esperanto ∙ euskara ∙ français ∙ italiano ∙ magyar ∙ Nederlands ∙ português do Brasil ∙ português ∙ română ∙ sicilianu ∙ slovenščina ∙ suomi ∙ svenska ∙ Ελληνικά ∙ беларуская (тарашкевіца) ∙ македонски ∙ русский ∙ українська ∙ বাংলা ∙ +/−",
       "width": 3456,
       "height": 2304,
       "size": 3200242,
@@ -50,11 +53,69 @@
     },
     {
       "label": "Villa gallo-romaine de Chiragan",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/MSR-Fouilles_Chiragan-Martres-Tolosane-IMG_9808.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMSR-Fouilles%20Chiragan-Martres-Tolosane-IMG%209808.jpg",
+          "title": "MSR-Fouilles Chiragan-Martres-Tolosane-IMG 9808.jpg",
+          "description": "",
+          "width": 5217,
+          "height": 3869,
+          "size": 10551418,
+          "timestamp": "2018-06-12T10:11:21Z",
+          "author": "<div class=\"fn value\">\nFélix Régnault</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/MSR-Fouilles_Chiragan-Martres-Tolosane-Plaque301.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMSR-Fouilles%20Chiragan-Martres-Tolosane-Plaque301.jpg",
+          "title": "MSR-Fouilles Chiragan-Martres-Tolosane-Plaque301.jpg",
+          "description": "",
+          "width": 2169,
+          "height": 1550,
+          "size": 1873428,
+          "timestamp": "2018-06-12T10:11:21Z",
+          "author": "<div class=\"fn value\">\nFélix Régnault</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/MSR-Fouilles_Chiragan-Martres-Tolosane-Plaque304.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMSR-Fouilles%20Chiragan-Martres-Tolosane-Plaque304.jpg",
+          "title": "MSR-Fouilles Chiragan-Martres-Tolosane-Plaque304.jpg",
+          "description": "",
+          "width": 4924,
+          "height": 3497,
+          "size": 3893865,
+          "timestamp": "2018-06-12T10:11:25Z",
+          "author": "<div class=\"fn value\">\nFélix Régnault</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Atelier de faïence",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Fa%C3%AFenceries_de_Martres-Tolosane_-_Atelier_St%C3%A9phanie_Joffre_Fa%C3%AFencerie_d%27Art.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFa%C3%AFenceries%20de%20Martres-Tolosane%20-%20Atelier%20St%C3%A9phanie%20Joffre%20Fa%C3%AFencerie%20d'Art.jpg",
+          "title": "Faïenceries de Martres-Tolosane - Atelier Stéphanie Joffre Faïencerie d'Art.jpg",
+          "description": "Atelier Stéphanie Joffre Faïencerie d'Art",
+          "width": 1536,
+          "height": 2048,
+          "size": 1499966,
+          "timestamp": "2019-08-06T13:13:47Z",
+          "author": "Patrice Bon",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     }
   ]
 }

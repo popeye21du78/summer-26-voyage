@@ -1,12 +1,13 @@
 {
   "slug": "piana",
   "nom": "Piana",
-  "fetchedAt": "2026-03-14T14:30:05.011Z",
+  "fetchedAt": "2026-03-17T22:27:58.782Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/France_-_Corse_-_Corse-du-Sud_-_Calanques_de_Piana_-_Prise_de_vue_1-3_-_Vue_vers_les_montagnes_%28M%C3%A9diHAL_1271774%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20-%20Corse%20-%20Corse-du-Sud%20-%20Calanques%20de%20Piana%20-%20Prise%20de%20vue%201-3%20-%20Vue%20vers%20les%20montagnes%20(M%C3%A9diHAL%201271774).jpg",
       "title": "France - Corse - Corse-du-Sud - Calanques de Piana - Prise de vue 1-3 - Vue vers les montagnes (MédiHAL 1271774).jpg",
+      "description": "Handwritten caption on the original document: \"France: Mediterranean Countries: Corsica: Western Coast: Calanques of Piana\" The glass plates deposited at Prodig date from 1891 to 1954. Geolocation: approximate centered on Piana.",
       "width": 2700,
       "height": 1718,
       "size": 252856,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Piana_les_Calanches_-_panoramio_-_ren%C3%A9_mikkers.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APiana%20les%20Calanches%20-%20panoramio%20-%20ren%C3%A9%20mikkers.jpg",
       "title": "Piana les Calanches - panoramio - rené mikkers.jpg",
+      "description": "Piana les Calanches",
       "width": 3008,
       "height": 2000,
       "size": 3472967,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Van_uit_Piana_Corse_-_panoramio.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVan%20uit%20Piana%20Corse%20-%20panoramio.jpg",
       "title": "Van uit Piana Corse - panoramio.jpg",
+      "description": "Van uit Piana Corse",
       "width": 3888,
       "height": 2592,
       "size": 4884477,
@@ -48,9 +51,24 @@
       "label": "Église Sainte-Marie de Piana",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Piana_village.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APiana%20village.jpg",
+          "title": "Piana village.jpg",
+          "description": "Piana, Corse-du-Sud - Vue de \"l'un des plus beaux villages de France\" et de son église paroissiale de Santa Maria Assunta",
+          "width": 4032,
+          "height": 3024,
+          "size": 9196170,
+          "timestamp": "2016-04-27T15:20:02Z",
+          "author": "Pierre Bona",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/%C3%89glise_de_l%27Assomption_de_Piana.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20de%20l'Assomption%20de%20Piana.jpg",
           "title": "Église de l'Assomption de Piana.jpg",
+          "description": "Église de l'Assomption de Piana (church located in Corse-du-Sud, in France)",
           "width": 3968,
           "height": 2976,
           "size": 2149267,
@@ -64,24 +82,12 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/%C3%89glise_de_l%27Assomption_de_Piana_2.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20de%20l'Assomption%20de%20Piana%202.jpg",
           "title": "Église de l'Assomption de Piana 2.jpg",
+          "description": "Église de l'Assomption de Piana (church located in Corse-du-Sud, in France)",
           "width": 3968,
           "height": 2976,
           "size": 2733067,
           "timestamp": "2021-09-26T17:35:19Z",
           "author": "Rotavdrag",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/%C3%89glise_de_Piana_2.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20de%20Piana%202.jpg",
-          "title": "Église de Piana 2.jpg",
-          "width": 4608,
-          "height": 3456,
-          "size": 5774565,
-          "timestamp": "2022-10-25T16:08:47Z",
-          "author": "FredSeiller",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
@@ -95,6 +101,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Calanques_de_Piana_-_panoramio.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACalanques%20de%20Piana%20-%20panoramio.jpg",
           "title": "Calanques de Piana - panoramio.jpg",
+          "description": "Calanques de Piana",
           "width": 5184,
           "height": 3456,
           "size": 6169631,
@@ -105,26 +112,28 @@
           "score": 6
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Calanques_de_Piana_-_panoramio_%2812%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACalanques%20de%20Piana%20-%20panoramio%20(12).jpg",
-          "title": "Calanques de Piana - panoramio (12).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Calanques_de_Piana_-_panoramio_%289%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACalanques%20de%20Piana%20-%20panoramio%20(9).jpg",
+          "title": "Calanques de Piana - panoramio (9).jpg",
+          "description": "Calanques de Piana",
           "width": 5184,
           "height": 3456,
-          "size": 6669762,
-          "timestamp": "2017-01-21T12:36:48Z",
+          "size": 6819150,
+          "timestamp": "2017-01-21T12:35:47Z",
           "author": "Björn S.",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Calanques_de_Piana_-_panoramio_%2856%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACalanques%20de%20Piana%20-%20panoramio%20(56).jpg",
-          "title": "Calanques de Piana - panoramio (56).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Calanques_de_Piana_-_panoramio_%2812%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACalanques%20de%20Piana%20-%20panoramio%20(12).jpg",
+          "title": "Calanques de Piana - panoramio (12).jpg",
+          "description": "Calanques de Piana",
           "width": 5184,
           "height": 3456,
-          "size": 4997073,
-          "timestamp": "2017-01-21T13:33:49Z",
+          "size": 6669762,
+          "timestamp": "2017-01-21T12:36:48Z",
           "author": "Björn S.",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -134,7 +143,22 @@
     },
     {
       "label": "Chapelle Sainte-Lucie",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Piana_%C3%89glise_St_Pierre_et_Paul.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APiana%20%C3%89glise%20St%20Pierre%20et%20Paul.jpg",
+          "title": "Piana Église St Pierre et Paul.jpg",
+          "description": "Piana, Ouest Corse (Corse) - Église St-Pierre et Saint-Paul, du XIe siècle, détruite puis rebâtie au XVIIe, devenue chapelle funéraire en fin XIXe.",
+          "width": 4032,
+          "height": 3024,
+          "size": 5796168,
+          "timestamp": "2012-07-14T13:58:29Z",
+          "author": "Pierre Bona",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Belvédère de Piana",

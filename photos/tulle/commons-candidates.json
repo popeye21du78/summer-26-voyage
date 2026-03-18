@@ -1,12 +1,13 @@
 {
   "slug": "tulle",
   "nom": "Tulle",
-  "fetchedAt": "2026-03-13T02:04:58.153Z",
+  "fetchedAt": "2026-03-18T20:24:59.209Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Restauration_du_clo%C3%AEtre_et_de_la_fa%C3%A7ade_de_la_cath%C3%A9drale_de_Tulle_%281876%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARestauration%20du%20clo%C3%AEtre%20et%20de%20la%20fa%C3%A7ade%20de%20la%20cath%C3%A9drale%20de%20Tulle%20(1876).jpg",
       "title": "Restauration du cloître et de la façade de la cathédrale de Tulle (1876).jpg",
+      "description": "Diocèse de Tulle. Cloître de la cathédrale. Projet de restauration. Isolement de la cathédrale, façade sur la place d'Arche\". Par Lucien Marie Michel Douillard, architecte de Tulle.",
       "width": 8200,
       "height": 5576,
       "size": 10574257,
@@ -17,30 +18,32 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Projet_d%27agrandissement_et_de_reconstruction_de_la_cath%C3%A9drale_de_Tulle_1_%281842%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AProjet%20d'agrandissement%20et%20de%20reconstruction%20de%20la%20cath%C3%A9drale%20de%20Tulle%201%20(1842).jpg",
-      "title": "Projet d'agrandissement et de reconstruction de la cathédrale de Tulle 1 (1842).jpg",
-      "width": 6291,
-      "height": 4935,
-      "size": 5783915,
-      "timestamp": "2022-12-02T14:09:55Z",
-      "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Jean-Baptiste_Lassus\" class=\"extiw\" title=\"w:en:Jean-Baptiste Lassus\"><span title=\"French architect (1807–1857)\">Jean-Baptiste-Antoine Lassus</span></a></bdi>",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/BV_de_Tulle_%282%29_par_Cramos.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABV%20de%20Tulle%20(2)%20par%20Cramos.JPG",
+      "title": "BV de Tulle (2) par Cramos.JPG",
+      "description": "Bâtiment voyageurs de la gare de Tulle.",
+      "width": 5000,
+      "height": 2813,
+      "size": 1983582,
+      "timestamp": "2024-01-28T17:10:48Z",
+      "author": "Cramos",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Projet_d%27agrandissement_et_de_reconstruction_de_la_cath%C3%A9drale_de_Tulle_2_%281842%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AProjet%20d'agrandissement%20et%20de%20reconstruction%20de%20la%20cath%C3%A9drale%20de%20Tulle%202%20(1842).jpg",
-      "title": "Projet d'agrandissement et de reconstruction de la cathédrale de Tulle 2 (1842).jpg",
-      "width": 7694,
-      "height": 6081,
-      "size": 9189012,
-      "timestamp": "2022-12-02T14:10:08Z",
-      "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Jean-Baptiste_Lassus\" class=\"extiw\" title=\"w:en:Jean-Baptiste Lassus\"><span title=\"French architect (1807–1857)\">Jean-Baptiste-Antoine Lassus</span></a></bdi>",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Tulle_Pr%C3%A9fecture.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATulle%20Pr%C3%A9fecture.jpg",
+      "title": "Tulle Préfecture.jpg",
+      "description": "J. Gardès [1] et Félix Élie Xavier Hulot (Français, 1832-1915) [2], architectes: Hôtel de la Préfecture du département de la Corrèze (1864-1880), inscrit monument historique par arrêté du 4 mai 2000, Tulle, Corrèze, France. Pavillon central orné d'une horloge flanquée de grandes figures allégoriques assises symbolisant à gauche L'Industrie et à droite L'Agriculture, exécutées par le sculpteur Aimé-Jules Dalou pour l'atelier du décorateur Eugène Pierre Lefebvre. (Cf. Maurice Dreyfous: Dalou, sa v",
+      "width": 3228,
+      "height": 2172,
+      "size": 3831051,
+      "timestamp": "2019-03-16T00:29:19Z",
+      "author": "F. Lavie",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 6
     }
   ],
   "lieux": [
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Cath%C3%A9drale_Notre-Dame_de_Tulle_et_maison_attenante.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale%20Notre-Dame%20de%20Tulle%20et%20maison%20attenante.JPG",
           "title": "Cathédrale Notre-Dame de Tulle et maison attenante.JPG",
+          "description": "Vue de la cathédrale Notre-Dame de Tulle et de la façade de la maison voisine, à Tulle, dans le département de Corrèze, en France, en janvier 2009.",
           "width": 2848,
           "height": 2136,
           "size": 1454675,
@@ -58,55 +62,101 @@
           "author": "Eunostos",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Epitaphe_Jean_de_Tulle_Eveque_Cath%C3%A9drale_Notre-Dame-de-Nazareth_d%27Orange_01.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEpitaphe%20Jean%20de%20Tulle%20Eveque%20Cath%C3%A9drale%20Notre-Dame-de-Nazareth%20d'Orange%2001.JPG",
-          "title": "Epitaphe Jean de Tulle Eveque Cathédrale Notre-Dame-de-Nazareth d'Orange 01.JPG",
-          "width": 2048,
-          "height": 3072,
-          "size": 2374946,
-          "timestamp": "2012-09-28T10:12:01Z",
-          "author": "Jane023",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Restauration_du_clo%C3%AEtre_et_de_la_fa%C3%A7ade_de_la_cath%C3%A9drale_de_Tulle_%281876%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARestauration%20du%20clo%C3%AEtre%20et%20de%20la%20fa%C3%A7ade%20de%20la%20cath%C3%A9drale%20de%20Tulle%20(1876).jpg",
+          "title": "Restauration du cloître et de la façade de la cathédrale de Tulle (1876).jpg",
+          "description": "Diocèse de Tulle. Cloître de la cathédrale. Projet de restauration. Isolement de la cathédrale, façade sur la place d'Arche\". Par Lucien Marie Michel Douillard, architecte de Tulle.",
+          "width": 8200,
+          "height": 5576,
+          "size": 10574257,
+          "timestamp": "2022-12-02T14:09:25Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q17635084\" class=\"extiw\" title=\"d:Q17635084\"><span title=\"French architect (1829–1888)\">Michel Douillard</span></a></bdi>",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Epitaphe_Jean_de_Tulle_Eveque_Cath%C3%A9drale_Notre-Dame-de-Nazareth_d%27Orange_02.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEpitaphe%20Jean%20de%20Tulle%20Eveque%20Cath%C3%A9drale%20Notre-Dame-de-Nazareth%20d'Orange%2002.JPG",
-          "title": "Epitaphe Jean de Tulle Eveque Cathédrale Notre-Dame-de-Nazareth d'Orange 02.JPG",
-          "width": 2048,
-          "height": 3072,
-          "size": 1908847,
-          "timestamp": "2012-09-28T10:12:03Z",
-          "author": "Jane023",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Cath%C3%A9drale_Notre-Dame_de_Tulle%2C_d%C3%A9tail_du_porche.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale%20Notre-Dame%20de%20Tulle%2C%20d%C3%A9tail%20du%20porche.JPG",
+          "title": "Cathédrale Notre-Dame de Tulle, détail du porche.JPG",
+          "description": "Vue du porche de la Cathédrale Notre-Dame de Tulle, à Tulle, dans le département de Corrèze, en France, en janvier 2009.",
+          "width": 2136,
+          "height": 2848,
+          "size": 1357315,
+          "timestamp": "2013-09-06T21:25:12Z",
+          "author": "Eunostos",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 6
         }
       ]
     },
     {
       "label": "Quartier du Trech",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Plan_de_la_ville_et_faubourgs_de_Tulle%2C_contenant_toutes_les_plasses%2C_ru%C3%ABs%2C_cours%2C_promenades%2C_march%C3%A9s%2C_%C3%A9glises_et_monastaires%2C_divis%C3%A9e_par_quartiers_avec_les_renvois%2C_par_le_sr_L%C3%A9onard_Tramond_en_1767_-_btv1b8445246d.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlan%20de%20la%20ville%20et%20faubourgs%20de%20Tulle%2C%20contenant%20toutes%20les%20plasses%2C%20ru%C3%ABs%2C%20cours%2C%20promenades%2C%20march%C3%A9s%2C%20%C3%A9glises%20et%20monastaires%2C%20divis%C3%A9e%20par%20quartiers%20avec%20les%20renvois%2C%20par%20le%20sr%20L%C3%A9onard%20Tramond%20en%201767%20-%20btv1b8445246d.jpg",
+          "title": "Plan de la ville et faubourgs de Tulle, contenant toutes les plasses, ruës, cours, promenades, marchés, églises et monastaires, divisée par quartiers avec les renvois, par le sr Léonard Tramond en 1767 - btv1b8445246d.jpg",
+          "description": "Sujet : Tulle\nAppartient à l’ensemble documentaire : Limous1\nCouverture : France – Nouvelle-Aquitaine – Corrèze\nLangue : français\n\nÉditeur : [s.n.]",
+          "width": 10795,
+          "height": 8094,
+          "size": 12288347,
+          "timestamp": "2022-07-15T20:14:10Z",
+          "author": "Inconnu",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Musée des Armes",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Portrait_du_chanoine_Delage.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APortrait%20du%20chanoine%20Delage.jpg",
-          "title": "Portrait du chanoine Delage.jpg",
-          "width": 916,
-          "height": 1140,
-          "size": 72720,
-          "timestamp": "2024-02-14T14:19:31Z",
-          "author": "<div class=\"fn value\">\n<a class=\"external text\" href=\"https://www.wikidata.org/wiki/Q124535745\">Anna Clément née Delautel</a></div>",
-          "license": "Public domain",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Costumes_Parisiens_Coeffure_ex%C3%A9cut%C3%A9e_par_Mr._Albin%2C_Rue_de_Castiglione._Robe_de_tulle_garnie_de_rubans_damass%C3%A9s._G.16153.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACostumes%20Parisiens%20Coeffure%20ex%C3%A9cut%C3%A9e%20par%20Mr.%20Albin%2C%20Rue%20de%20Castiglione.%20Robe%20de%20tulle%20garnie%20de%20rubans%20damass%C3%A9s.%20G.16153.jpg",
+          "title": "Costumes Parisiens Coeffure exécutée par Mr. Albin, Rue de Castiglione. Robe de tulle garnie de rubans damassés. G.16153.jpg",
+          "description": "Auteur(s):\n\nAnonyme, graveur\nJournal des Dames et des Modes, editeur\n\n\n\nAutre titre:\n\nFigure vue de profil en robe jaune pâle ornée de bouquet ; figure en robe blanche ornée de bouquets et de rubans, Figure 2766, Costume Parisien, 1830, Fonds d'estampes du XIXème siècle (Titre factice)\n\n\nDate de production:\n\nEn 1830\nDatation en siècle: \n19e siècle\n\n\n\nType(s) d'objet(s):\n\nEstampe, Manuscrits, imprimés, reliure, Arts graphiques\n\n\nDénomination(s):\n\nEstampe\n\n\nMatériaux et techniques:\n\nTaille-douce, ",
+          "width": 1983,
+          "height": 3000,
+          "size": 1004441,
+          "timestamp": "2023-05-19T09:11:50Z",
+          "author": "Anonyme, graveur",
+          "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Costumes_Parisiens_B%C3%A9ret_de_gaze_de_deux_oiseuax-de-paradis._Robe_de_mousseline%2C_garnie_d%27une_mantille_de_tulle_et_o%2C_G.16213.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACostumes%20Parisiens%20B%C3%A9ret%20de%20gaze%20de%20deux%20oiseuax-de-paradis.%20Robe%20de%20mousseline%2C%20garnie%20d'une%20mantille%20de%20tulle%20et%20o%2C%20G.16213.jpg",
+          "title": "Costumes Parisiens Béret de gaze de deux oiseuax-de-paradis. Robe de mousseline, garnie d'une mantille de tulle et o, G.16213.jpg",
+          "description": "Auteur(s):\n\nGatine, Georges-Jacques (Caen, 30–08–1773 — 1773 - entre 1824 et 1841), graveur\nLanté, Louis-Marie (Paris, 04–07–1789 — 1789 - Fontainebleau, 03–01–1871 — 1871), dessinateur\nJournal des Dames et des Modes, editeur\n\n\n\nAutre titre:\n\nFigure en robe blanche à manches à la mameluck, jupe brodée de croisillons et de fleurs et écharpe rose ; figure vue de dos en robe balcnhe à manches à la mameluck, jupe brodée de fleurs et écharpe bleue, Figure 2899, Costume Parisien, 1831, Fonds d... (Tit",
+          "width": 1939,
+          "height": 3000,
+          "size": 1149367,
+          "timestamp": "2023-05-19T09:25:19Z",
+          "author": "Gatine, Georges-Jacques (Caen, 30–08–1773 — 1773 - entre 1824 et 1841), graveur",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Costumes_Parisiens_Chapeau_de_paille_d%27Italie._Robe_de_taffetas_garnie_de_volans_bord%C3%A9s_d%27un_lacet._Fichu_de_tulle_b%2C_G.16071.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACostumes%20Parisiens%20Chapeau%20de%20paille%20d'Italie.%20Robe%20de%20taffetas%20garnie%20de%20volans%20bord%C3%A9s%20d'un%20lacet.%20Fichu%20de%20tulle%20b%2C%20G.16071.jpg",
+          "title": "Costumes Parisiens Chapeau de paille d'Italie. Robe de taffetas garnie de volans bordés d'un lacet. Fichu de tulle b, G.16071.jpg",
+          "description": "Auteur(s):\n\nAnonyme, graveur\nJournal des Dames et des Modes, editeur\n\n\n\nAutre titre:\n\nFigure en robe noire, garniture de deux volants à liseré rouge, fichu de dentelle à noeuds bleus ; figure vue de dos en robe bleue, garniture identique dans les tons de bleus, Figure 2598, Costume Parisien, 1828, Fonds d'estampes du XIXème siècle (Titre factice)\n\n\nDate de production:\n\nEn 1828\nDatation en siècle: \n19e siècle\n\n\n\nType(s) d'objet(s):\n\nEstampe, Manuscrits, imprimés, reliure, Arts graphiques\n\n\nDénomi",
+          "width": 2154,
+          "height": 3000,
+          "size": 1189344,
+          "timestamp": "2023-05-19T10:29:08Z",
+          "author": "Anonyme, graveur",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
         }
       ]
     },
@@ -120,7 +170,36 @@
     },
     {
       "label": "Maison Loyac",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Cath%C3%A9drale_Notre-Dame_de_Tulle_et_maison_attenante.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale%20Notre-Dame%20de%20Tulle%20et%20maison%20attenante.JPG",
+          "title": "Cathédrale Notre-Dame de Tulle et maison attenante.JPG",
+          "description": "Vue de la cathédrale Notre-Dame de Tulle et de la façade de la maison voisine, à Tulle, dans le département de Corrèze, en France, en janvier 2009.",
+          "width": 2848,
+          "height": 2136,
+          "size": 1454675,
+          "timestamp": "2013-09-06T21:25:12Z",
+          "author": "Eunostos",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Coll%C3%A8ge_de_Tulle%2C_France_-_projet_d%27ensemble_-_dessin%2C_plan_-_P._Christophe_Baltazar_-_btv1b8448373k_%281_of_2%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AColl%C3%A8ge%20de%20Tulle%2C%20France%20-%20projet%20d'ensemble%20-%20dessin%2C%20plan%20-%20P.%20Christophe%20Baltazar%20-%20btv1b8448373k%20(1%20of%202).jpg",
+          "title": "Collège de Tulle, France - projet d'ensemble - dessin, plan - P. Christophe Baltazar - btv1b8448373k (1 of 2).jpg",
+          "description": "Sujet : Architecture jésuite -- Tulle (Corrèze, France)\nDessins et plans -- 17e siècle\nRéférence bibliographique : Vallery-Radot, 617\nAppartient à l’ensemble documentaire : Des17Inv\nAppartient à l’ensemble documentaire : Limous1\nPlan\n\nLangue : latin",
+          "width": 9264,
+          "height": 7488,
+          "size": 7512722,
+          "timestamp": "2025-03-21T07:28:12Z",
+          "author": "<div class=\"fn value\">\nBaltazar, P. Christophe (15..-16..). Dessinateur</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

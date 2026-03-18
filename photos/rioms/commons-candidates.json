@@ -1,43 +1,32 @@
 {
   "slug": "rioms",
   "nom": "Rioms",
-  "fetchedAt": "2026-03-14T11:46:37.152Z",
+  "fetchedAt": "2026-03-18T17:35:33.908Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Riom_-_Basilique_Saint-Amable_20220820-05.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARiom%20-%20Basilique%20Saint-Amable%2020220820-05.jpg",
-      "title": "Riom - Basilique Saint-Amable 20220820-05.jpg",
-      "width": 5472,
-      "height": 3648,
-      "size": 6521709,
-      "timestamp": "2022-08-22T10:19:56Z",
-      "author": "Pymouss",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/26267-Rioms-Hydro.jpeg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A26267-Rioms-Hydro.jpeg",
+      "title": "26267-Rioms-Hydro.jpeg",
+      "description": "Carte du réseau hydrographique de la commune de fr:Rioms (France).",
+      "width": 5846,
+      "height": 4133,
+      "size": 1788486,
+      "timestamp": "2024-02-15T17:11:24Z",
+      "author": "Roland45",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Riom_-_Basilique_Saint-Amable_20220820-06.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARiom%20-%20Basilique%20Saint-Amable%2020220820-06.jpg",
-      "title": "Riom - Basilique Saint-Amable 20220820-06.jpg",
-      "width": 2530,
-      "height": 1687,
-      "size": 3018222,
-      "timestamp": "2022-08-22T10:19:59Z",
-      "author": "Pymouss",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Riom_-_Basilique_Saint-Amable_20220820-07.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARiom%20-%20Basilique%20Saint-Amable%2020220820-07.jpg",
-      "title": "Riom - Basilique Saint-Amable 20220820-07.jpg",
-      "width": 3948,
-      "height": 2632,
-      "size": 9215081,
-      "timestamp": "2022-08-22T10:19:59Z",
-      "author": "Pymouss",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/26267-Rioms-Sols.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A26267-Rioms-Sols.png",
+      "title": "26267-Rioms-Sols.png",
+      "description": "Carte des infrastructures et de l’occupation des sols en 2018 de la commune de fr:Rioms (France).",
+      "width": 3270,
+      "height": 2598,
+      "size": 1396895,
+      "timestamp": "2021-04-26T13:33:42Z",
+      "author": "Roland45",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
@@ -46,21 +35,7 @@
   "lieux": [
     {
       "label": "Église Saint-Pierre",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Bourbon_l%27Archambault-%C3%89glise_Saint_Georges-Vitrail_de_la_chapelle_de_la_Sainte_Croix-20200807.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABourbon%20l'Archambault-%C3%89glise%20Saint%20Georges-Vitrail%20de%20la%20chapelle%20de%20la%20Sainte%20Croix-20200807.jpg",
-          "title": "Bourbon l'Archambault-Église Saint Georges-Vitrail de la chapelle de la Sainte Croix-20200807.jpg",
-          "width": 5097,
-          "height": 5548,
-          "size": 29795252,
-          "timestamp": "2020-09-22T08:22:09Z",
-          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q20683718\" class=\"extiw\" title=\"d:Q20683718\"><span title=\"French stained-glass artist (1806–1896)\">Émile Thibaud</span></a></bdi>",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Chemin pavé du hameau",

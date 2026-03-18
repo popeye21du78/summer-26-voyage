@@ -1,8 +1,21 @@
 {
   "slug": "mornac-sur-seudre",
   "nom": "Mornac-sur-Seudre",
-  "fetchedAt": "2026-03-13T16:26:17.905Z",
+  "fetchedAt": "2026-03-16T13:38:30.997Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Hu%C3%AEtres_de_Mornac-sur-Seudre.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHu%C3%AEtres%20de%20Mornac-sur-Seudre.JPG",
+      "title": "Huîtres de Mornac-sur-Seudre.JPG",
+      "width": 3968,
+      "height": 2232,
+      "size": 3096252,
+      "timestamp": "2013-10-14T07:48:30Z",
+      "author": "Andre86",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 5
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Mornac_sur_Seudre_%2848688624601%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMornac%20sur%20Seudre%20(48688624601).jpg",
@@ -28,19 +41,6 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Mornac_sur_Seudre_%2848688790212%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMornac%20sur%20Seudre%20(48688790212).jpg",
-      "title": "Mornac sur Seudre (48688790212).jpg",
-      "width": 3008,
-      "height": 2000,
-      "size": 1343855,
-      "timestamp": "2021-12-04T07:12:42Z",
-      "author": "Jean-Marc Bilquez",
-      "license": "CC BY-SA 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
     }
   ],
   "lieux": [
@@ -50,47 +50,7 @@
     },
     {
       "label": "Église Saint-Pierre",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Mornac-sur-Seudre-egliseStPierre-by-Rundvald.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMornac-sur-Seudre-egliseStPierre-by-Rundvald.JPG",
-          "title": "Mornac-sur-Seudre-egliseStPierre-by-Rundvald.JPG",
-          "width": 2046,
-          "height": 1559,
-          "size": 1094001,
-          "timestamp": "2016-01-11T18:39:35Z",
-          "author": "Rundvald",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/690_-_Eglise_Saint-Pierre_vue_arri%C3%A8re_-_Mornac_sur_Seudre.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A690%20-%20Eglise%20Saint-Pierre%20vue%20arri%C3%A8re%20-%20Mornac%20sur%20Seudre.jpg",
-          "title": "690 - Eglise Saint-Pierre vue arrière - Mornac sur Seudre.jpg",
-          "width": 3456,
-          "height": 2304,
-          "size": 4431698,
-          "timestamp": "2016-01-12T00:39:18Z",
-          "author": "Patrick Despoix",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/692_-_Eglise_Saint-Pierre_vue_arri%C3%A8re_-_Mornac_sur_Seudre.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A692%20-%20Eglise%20Saint-Pierre%20vue%20arri%C3%A8re%20-%20Mornac%20sur%20Seudre.jpg",
-          "title": "692 - Eglise Saint-Pierre vue arrière - Mornac sur Seudre.jpg",
-          "width": 3168,
-          "height": 2112,
-          "size": 3426350,
-          "timestamp": "2016-01-12T00:42:50Z",
-          "author": "Patrick Despoix",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Cabanes ostréicoles du port",
@@ -98,21 +58,7 @@
     },
     {
       "label": "Marais salants de la Seudre",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Mornac17_sal.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMornac17%20sal.JPG",
-          "title": "Mornac17 sal.JPG",
-          "width": 1600,
-          "height": 1200,
-          "size": 392039,
-          "timestamp": "2016-12-17T07:55:00Z",
-          "author": "Jack ma",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        }
-      ]
+      "photos": []
     }
   ]
 }

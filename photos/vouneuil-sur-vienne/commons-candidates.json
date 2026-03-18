@@ -1,12 +1,13 @@
 {
   "slug": "vouneuil-sur-vienne",
   "nom": "Vouneuil-sur-Vienne",
-  "fetchedAt": "2026-03-14T14:39:44.615Z",
+  "fetchedAt": "2026-03-18T21:10:39.470Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Vouneuil-sur-Vienne_-_Moulin_de_Chitr%C3%A9_-_bo%C3%AEte_%C3%A0_livres.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVouneuil-sur-Vienne%20-%20Moulin%20de%20Chitr%C3%A9%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
       "title": "Vouneuil-sur-Vienne - Moulin de Chitré - boîte à livres.jpg",
+      "description": "Boîte à livres à Vouneuil-sur-Vienne",
       "width": 2000,
       "height": 1125,
       "size": 612358,
@@ -17,30 +18,32 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Site_de_la_bataille_de_Poitiers_de_732_%C3%A0_Vouneuil-sur-Vienne_le_17_juillet_2017_-_01.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASite%20de%20la%20bataille%20de%20Poitiers%20de%20732%20%C3%A0%20Vouneuil-sur-Vienne%20le%2017%20juillet%202017%20-%2001.jpg",
-      "title": "Site de la bataille de Poitiers de 732 à Vouneuil-sur-Vienne le 17 juillet 2017 - 01.jpg",
-      "width": 5184,
-      "height": 3456,
-      "size": 5739408,
-      "timestamp": "2017-07-23T12:33:45Z",
-      "author": "Lionel Allorge",
-      "license": "CC BY-SA 3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Small_Red_Damselfly%2C_86210_Vouneuil-sur-Vienne%2C_France_imported_from_iNaturalist_photo_137623526.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASmall%20Red%20Damselfly%2C%2086210%20Vouneuil-sur-Vienne%2C%20France%20imported%20from%20iNaturalist%20photo%20137623526.jpg",
+      "title": "Small Red Damselfly, 86210 Vouneuil-sur-Vienne, France imported from iNaturalist photo 137623526.jpg",
+      "description": "Photo of Small Red Damselfly uploaded from iNaturalist.",
+      "width": 2048,
+      "height": 2048,
+      "size": 809369,
+      "timestamp": "2024-12-10T03:07:11Z",
+      "author": "(c) Aurélien Coste, some rights reserved (CC BY)",
+      "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 6
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Site_de_la_bataille_de_Poitiers_de_732_%C3%A0_Vouneuil-sur-Vienne_le_17_juillet_2017_-_02.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASite%20de%20la%20bataille%20de%20Poitiers%20de%20732%20%C3%A0%20Vouneuil-sur-Vienne%20le%2017%20juillet%202017%20-%2002.jpg",
-      "title": "Site de la bataille de Poitiers de 732 à Vouneuil-sur-Vienne le 17 juillet 2017 - 02.jpg",
-      "width": 5184,
-      "height": 3456,
-      "size": 8526425,
-      "timestamp": "2017-07-23T12:35:00Z",
-      "author": "Lionel Allorge",
-      "license": "CC BY-SA 3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Vouneuil-sur-Vienne_-_Vival_-_bo%C3%AEte_%C3%A0_livres.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVouneuil-sur-Vienne%20-%20Vival%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
+      "title": "Vouneuil-sur-Vienne - Vival - boîte à livres.jpg",
+      "description": "Boîte à livres à Vouneuil-sur-Vienne",
+      "width": 1125,
+      "height": 2000,
+      "size": 387120,
+      "timestamp": "2024-07-09T06:33:54Z",
+      "author": "<span lang=\"en\">Anonymous</span><span style=\"display:none\">Unknown author</span>",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 5
     }
   ],
   "lieux": [
@@ -50,7 +53,22 @@
     },
     {
       "label": "Prairie du Vieux Pont",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Vouneuil_sur_vienne_pont.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVouneuil%20sur%20vienne%20pont.jpg",
+          "title": "Vouneuil sur vienne pont.jpg",
+          "description": "À Vouneuil-sur-Vienne, le pont enjambant la Vienne.",
+          "width": 3872,
+          "height": 2592,
+          "size": 8029463,
+          "timestamp": "2011-06-09T12:26:40Z",
+          "author": "hamon jp",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Bois de la Loge",

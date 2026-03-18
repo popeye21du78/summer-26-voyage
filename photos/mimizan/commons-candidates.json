@@ -1,12 +1,27 @@
 {
   "slug": "mimizan",
   "nom": "Mimizan",
-  "fetchedAt": "2026-03-13T16:10:52.476Z",
+  "fetchedAt": "2026-03-16T21:36:57.735Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Panneau_Mimizan_entr%C3%A9e_ville.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanneau%20Mimizan%20entr%C3%A9e%20ville.jpg",
+      "title": "Panneau Mimizan entrée ville.jpg",
+      "description": "Panneau d'entrée de ville de Mimizan (Landes, France), jumelage avec Old Orchard Beach (Maine, USA)",
+      "width": 3581,
+      "height": 2482,
+      "size": 1339607,
+      "timestamp": "2023-07-06T11:00:21Z",
+      "author": "Jibi44",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Landes_Mimizan_Etang_D%27Aureilhan_081984_-_panoramio.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALandes%20Mimizan%20Etang%20D'Aureilhan%20081984%20-%20panoramio.jpg",
       "title": "Landes Mimizan Etang D'Aureilhan 081984 - panoramio.jpg",
+      "description": "Landes Mimizan Etang D'Aureilhan 081984",
       "width": 2364,
       "height": 1576,
       "size": 1080393,
@@ -20,23 +35,11 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Mimizan_Clocher-porche_galerie_des_Ap%C3%B4tres_a.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMimizan%20Clocher-porche%20galerie%20des%20Ap%C3%B4tres%20a.jpg",
       "title": "Mimizan Clocher-porche galerie des Apôtres a.jpg",
+      "description": "Mimizan Clocher-porche galerie des Apôtres",
       "width": 5374,
       "height": 3602,
       "size": 16784464,
       "timestamp": "2019-11-23T15:47:09Z",
-      "author": "Jean-Maurice Poissonnier",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Mimizan_Clocher-porche_galerie_des_Ap%C3%B4tres_b.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMimizan%20Clocher-porche%20galerie%20des%20Ap%C3%B4tres%20b.jpg",
-      "title": "Mimizan Clocher-porche galerie des Apôtres b.jpg",
-      "width": 8688,
-      "height": 5792,
-      "size": 27825445,
-      "timestamp": "2019-11-23T15:47:11Z",
       "author": "Jean-Maurice Poissonnier",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
@@ -46,7 +49,50 @@
   "lieux": [
     {
       "label": "Clocher-porche roman de Mimizan",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Mimizan_Clocher-porche_voussure_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMimizan%20Clocher-porche%20voussure%202.jpg",
+          "title": "Mimizan Clocher-porche voussure 2.jpg",
+          "description": "Mimizan Clocher-porche voussure 2",
+          "width": 15684,
+          "height": 9220,
+          "size": 25101947,
+          "timestamp": "2020-01-28T18:39:11Z",
+          "author": "William Ellison",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Mimizan_Clocher-porche_voussure_3.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMimizan%20Clocher-porche%20voussure%203.jpg",
+          "title": "Mimizan Clocher-porche voussure 3.jpg",
+          "description": "Mimizan Clocher-porche voussure 3",
+          "width": 15684,
+          "height": 9220,
+          "size": 26948081,
+          "timestamp": "2020-01-28T18:39:12Z",
+          "author": "William Ellison",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Mimizan_Clocher-porche_voussure_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMimizan%20Clocher-porche%20voussure%201.jpg",
+          "title": "Mimizan Clocher-porche voussure 1.jpg",
+          "description": "Mimizan Clocher-porche voussure 1",
+          "width": 15684,
+          "height": 9220,
+          "size": 45567382,
+          "timestamp": "2020-01-28T18:39:12Z",
+          "author": "William Ellison",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Promenade Fleurie",
@@ -55,6 +101,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Promenade_fleurie_Mimizan_Lac.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APromenade%20fleurie%20Mimizan%20Lac.jpg",
           "title": "Promenade fleurie Mimizan Lac.jpg",
+          "description": "La promenande fleurie se situant à Mimizan Lac (40200)par temps de pluie.",
           "width": 3840,
           "height": 2160,
           "size": 2710191,
@@ -68,6 +115,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Promenade_fleurie_Mimizan.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APromenade%20fleurie%20Mimizan.JPG",
           "title": "Promenade fleurie Mimizan.JPG",
+          "description": "Promenade fleurie au lac d'Aureilhan de Mimizan, dans le département français des Landes",
           "width": 2048,
           "height": 1536,
           "size": 764170,
@@ -81,11 +129,97 @@
     },
     {
       "label": "Plage centrale de Mimizan",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Mimizan_l%27%C3%A9pave_du_Virgo_plage_de_Lespecier.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMimizan%20l'%C3%A9pave%20du%20Virgo%20plage%20de%20Lespecier.jpg",
+          "title": "Mimizan l'épave du Virgo plage de Lespecier.jpg",
+          "description": "Remains in 2010 of the Virgo ship, Lespecier beach (Fr)",
+          "width": 3363,
+          "height": 2409,
+          "size": 4088286,
+          "timestamp": "2023-09-27T08:41:38Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q97949455\" class=\"extiw\" title=\"d:Q97949455\"><span title=\"French photographer and Wikimedian\">Pierre André Leclercq</span></a></bdi>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Mimizan-Plage_premier_train.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMimizan-Plage%20premier%20train.jpg",
+          "title": "Mimizan-Plage premier train.jpg",
+          "description": "Arrivée du premier train dans la gare provisoire de Mimizan-Plage",
+          "width": 2116,
+          "height": 1272,
+          "size": 440890,
+          "timestamp": "2024-08-14T07:14:22Z",
+          "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Oc%C3%A9an_Mimizan_6.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOc%C3%A9an%20Mimizan%206.JPG",
+          "title": "Océan Mimizan 6.JPG",
+          "description": "Vue des reflets argentés sur l'Océan Atlantique à Mimizan (Landes, France)",
+          "width": 2048,
+          "height": 1536,
+          "size": 1354208,
+          "timestamp": "2007-12-14T21:29:55Z",
+          "author": "Jibi44",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Ponton du lac d’Aureilhan",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Pont_rouge_Mimizan.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20rouge%20Mimizan.jpg",
+          "title": "Pont rouge Mimizan.jpg",
+          "description": "Pont rouge de Mimizan, enjambant le Courant",
+          "width": 5664,
+          "height": 4248,
+          "size": 5584389,
+          "timestamp": "2020-09-02T09:57:07Z",
+          "author": "Jibi44",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Mimizan_pont_train_courant.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMimizan%20pont%20train%20courant.png",
+          "title": "Mimizan pont train courant.png",
+          "description": "Train franchissant le Courant de Mimizan (Landes, France)",
+          "width": 852,
+          "height": 544,
+          "size": 999139,
+          "timestamp": "2024-03-07T10:31:06Z",
+          "author": "Delescole",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Courant_Mimizan_2.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACourant%20Mimizan%202.JPG",
+          "title": "Courant Mimizan 2.JPG",
+          "description": "Courant de Mimizan et pont des Trounques",
+          "width": 2048,
+          "height": 1536,
+          "size": 474444,
+          "timestamp": "2010-08-28T11:29:11Z",
+          "author": "Jibi44",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     }
   ]
 }

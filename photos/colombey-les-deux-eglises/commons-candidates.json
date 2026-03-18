@@ -1,25 +1,13 @@
 {
   "slug": "colombey-les-deux-eglises",
   "nom": "Colombey-les-Deux-Églises",
-  "fetchedAt": "2026-03-13T13:51:47.792Z",
+  "fetchedAt": "2026-03-16T12:15:53.617Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Monument_aux_morts_de_la_Premi%C3%A8re_Guerre_mondiale_%28Colombey-les-Deux-%C3%89glises%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMonument%20aux%20morts%20de%20la%20Premi%C3%A8re%20Guerre%20mondiale%20(Colombey-les-Deux-%C3%89glises).jpg",
-      "title": "Monument aux morts de la Première Guerre mondiale (Colombey-les-Deux-Églises).jpg",
-      "width": 5472,
-      "height": 3648,
-      "size": 6921746,
-      "timestamp": "2020-09-11T11:01:33Z",
-      "author": "Gzen92",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/52330_Colombey-les-Deux-%C3%89glises%2C_France_-_panoramio.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A52330%20Colombey-les-Deux-%C3%89glises%2C%20France%20-%20panoramio.jpg",
       "title": "52330 Colombey-les-Deux-Églises, France - panoramio.jpg",
+      "description": "52330 Colombey-les-Deux-Églises, France",
       "width": 2560,
       "height": 1920,
       "size": 1508579,
@@ -30,17 +18,32 @@
       "score": 6
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Colombey-les-Deux-Eglises_Church_R03.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AColombey-les-Deux-Eglises%20Church%20R03.jpg",
-      "title": "Colombey-les-Deux-Eglises Church R03.jpg",
-      "width": 4854,
-      "height": 3263,
-      "size": 7168952,
-      "timestamp": "2018-06-23T20:39:17Z",
-      "author": "Marc Ryckaert",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/52330_Colombey-les-Deux-%C3%89glises%2C_France_-_panoramio_%28cropped%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A52330%20Colombey-les-Deux-%C3%89glises%2C%20France%20-%20panoramio%20(cropped).jpg",
+      "title": "52330 Colombey-les-Deux-Églises, France - panoramio (cropped).jpg",
+      "description": "52330 Colombey-les-Deux-Églises, France",
+      "width": 2100,
+      "height": 300,
+      "size": 160045,
+      "timestamp": "2018-06-12T09:16:51Z",
+      "author": "Gilles Guillamot",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 4
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Denkmal_General_de_Gaulle_in_Colombey_600px.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADenkmal%20General%20de%20Gaulle%20in%20Colombey%20600px.jpg",
+      "title": "Denkmal General de Gaulle in Colombey 600px.jpg",
+      "description": "Denkmal in Form eines Lothringer Kreuzes für General de Gaulle in Colombey-les-Deux-Églises",
+      "width": 600,
+      "height": 902,
+      "size": 69981,
+      "timestamp": "2011-12-19T01:32:56Z",
+      "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q106975068\" class=\"extiw\" title=\"d:Q106975068\"><span title=\"German cartographer and wikipedian in Dresden\">Stefan Kühn</span></a></bdi>",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 1
     }
   ],
   "lieux": [
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Tabac-presse_%C3%80_la_Croix_de_Lorraine_%C3%A0_Colombey-les-Deux-%C3%89glises.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATabac-presse%20%C3%80%20la%20Croix%20de%20Lorraine%20%C3%A0%20Colombey-les-Deux-%C3%89glises.jpg",
           "title": "Tabac-presse À la Croix de Lorraine à Colombey-les-Deux-Églises.jpg",
+          "description": "Tabac-presse À la Croix de Lorraine à Colombey-les-Deux-Églises.",
           "width": 3486,
           "height": 2800,
           "size": 8214533,
@@ -61,88 +65,10 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Foulard_-_carr%C3%A9_-_imprim%C3%A9_France%2C_grande_France%2C_en_avant_%28et_autres_citations_du_g%C3%A9n%C3%A9ral_de_Gaulle_1940-1945%29%2C_2020.2.1.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFoulard%20-%20carr%C3%A9%20-%20imprim%C3%A9%20France%2C%20grande%20France%2C%20en%20avant%20(et%20autres%20citations%20du%20g%C3%A9n%C3%A9ral%20de%20Gaulle%201940-1945)%2C%202020.2.1.jpg",
-          "title": "Foulard - carré - imprimé France, grande France, en avant (et autres citations du général de Gaulle 1940-1945), 2020.2.1.jpg",
-          "width": 6680,
-          "height": 5218,
-          "size": 11955979,
-          "timestamp": "2023-05-13T21:41:55Z",
-          "author": "Denise Louvet, créateur textile",
-          "license": "CC0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Foulard_-_carr%C3%A9_-_imprim%C3%A9_France%2C_grande_France%2C_en_avant_%28et_autres_citations_du_g%C3%A9n%C3%A9ral_de_Gaulle_1940-1945%29%2C_2020.2.1%282%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFoulard%20-%20carr%C3%A9%20-%20imprim%C3%A9%20France%2C%20grande%20France%2C%20en%20avant%20(et%20autres%20citations%20du%20g%C3%A9n%C3%A9ral%20de%20Gaulle%201940-1945)%2C%202020.2.1(2).jpg",
-          "title": "Foulard - carré - imprimé France, grande France, en avant (et autres citations du général de Gaulle 1940-1945), 2020.2.1(2).jpg",
-          "width": 6351,
-          "height": 4763,
-          "size": 10122856,
-          "timestamp": "2023-05-13T21:42:27Z",
-          "author": "Denise Louvet, créateur textile",
-          "license": "CC0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        }
-      ]
-    },
-    {
-      "label": "La Boisserie",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/La_Boisserie_%283%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Boisserie%20(3).jpg",
-          "title": "La Boisserie (3).jpg",
-          "width": 5472,
-          "height": 3648,
-          "size": 5669424,
-          "timestamp": "2020-11-16T12:08:06Z",
-          "author": "Gzen92",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/La_Boisserie_%284%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Boisserie%20(4).jpg",
-          "title": "La Boisserie (4).jpg",
-          "width": 5130,
-          "height": 3000,
-          "size": 3706518,
-          "timestamp": "2020-11-16T12:16:47Z",
-          "author": "Gzen92",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/La_Boisserie_%285%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Boisserie%20(5).jpg",
-          "title": "La Boisserie (5).jpg",
-          "width": 5472,
-          "height": 3000,
-          "size": 4298101,
-          "timestamp": "2020-09-16T08:59:22Z",
-          "author": "Gzen92",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        }
-      ]
-    },
-    {
-      "label": "Église Saint-Martin",
-      "photos": []
-    },
-    {
-      "label": "Mémorial Charles de Gaulle",
-      "photos": [
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Colombey-les-Deux-%C3%89glises_%28_52_%29_M%C3%A9morial_Charles-de-Gaulle.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AColombey-les-Deux-%C3%89glises%20(%2052%20)%20M%C3%A9morial%20Charles-de-Gaulle.jpg",
           "title": "Colombey-les-Deux-Églises ( 52 ) Mémorial Charles-de-Gaulle.jpg",
+          "description": "Colombey-les-Deux-Églises ( 52 ) Mémorial Charles-de-Gaulle",
           "width": 1366,
           "height": 799,
           "size": 303547,
@@ -153,30 +79,159 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Charles_de_Gaulle_Memorial_in_Sneem_-_geograph.org.uk_-_7866645.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACharles%20de%20Gaulle%20Memorial%20in%20Sneem%20-%20geograph.org.uk%20-%207866645.jpg",
-          "title": "Charles de Gaulle Memorial in Sneem - geograph.org.uk - 7866645.jpg",
-          "width": 3200,
-          "height": 2400,
-          "size": 3708518,
-          "timestamp": "2025-07-01T19:29:43Z",
-          "author": "Marathon",
-          "license": "CC BY-SA 2.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Aube_Rouvres-Les-Vignes_Croix_De_Colombey_Les_Deux_%C3%89glises_08072008_-_panoramio.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAube%20Rouvres-Les-Vignes%20Croix%20De%20Colombey%20Les%20Deux%20%C3%89glises%2008072008%20-%20panoramio.jpg",
+          "title": "Aube Rouvres-Les-Vignes Croix De Colombey Les Deux Églises 08072008 - panoramio.jpg",
+          "description": "Aube Rouvres-Les-Vignes Croix De Colombey Les Deux Églises 08072008",
+          "width": 2592,
+          "height": 1944,
+          "size": 890314,
+          "timestamp": "2017-03-13T12:57:32Z",
+          "author": "rene boulay",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "label": "La Boisserie",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Monument_aux_morts_de_la_Premi%C3%A8re_Guerre_mondiale_%28Colombey-les-Deux-%C3%89glises%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMonument%20aux%20morts%20de%20la%20Premi%C3%A8re%20Guerre%20mondiale%20(Colombey-les-Deux-%C3%89glises).jpg",
+          "title": "Monument aux morts de la Première Guerre mondiale (Colombey-les-Deux-Églises).jpg",
+          "description": "Monument to the fallen of the First World War in Colombey-les-Deux-Églises (Haute-Marne, France).",
+          "width": 5472,
+          "height": 3648,
+          "size": 6921746,
+          "timestamp": "2020-09-11T11:01:33Z",
+          "author": "Gzen92",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Plaque_with_the_Charles_de_Gaulle_Memorial_in_Sneem_-_geograph.org.uk_-_7866652.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlaque%20with%20the%20Charles%20de%20Gaulle%20Memorial%20in%20Sneem%20-%20geograph.org.uk%20-%207866652.jpg",
-          "title": "Plaque with the Charles de Gaulle Memorial in Sneem - geograph.org.uk - 7866652.jpg",
-          "width": 3200,
-          "height": 2400,
-          "size": 3819776,
-          "timestamp": "2025-07-01T19:31:41Z",
-          "author": "Marathon",
-          "license": "CC BY-SA 2.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Tabac-presse_%C3%80_la_Croix_de_Lorraine_%C3%A0_Colombey-les-Deux-%C3%89glises.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATabac-presse%20%C3%80%20la%20Croix%20de%20Lorraine%20%C3%A0%20Colombey-les-Deux-%C3%89glises.jpg",
+          "title": "Tabac-presse À la Croix de Lorraine à Colombey-les-Deux-Églises.jpg",
+          "description": "Tabac-presse À la Croix de Lorraine à Colombey-les-Deux-Églises.",
+          "width": 3486,
+          "height": 2800,
+          "size": 8214533,
+          "timestamp": "2020-10-31T05:09:52Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q42790984\" class=\"extiw\" title=\"d:Q42790984\"><span title=\"French computing engineer\">Benoît Prieur</span></a></bdi>",
+          "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/52140-Colombey-les-Deux-%C3%89glises-Sols.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A52140-Colombey-les-Deux-%C3%89glises-Sols.png",
+          "title": "52140-Colombey-les-Deux-Églises-Sols.png",
+          "description": "Carte des infrastructures et de l’occupation des sols en 2018 de la commune de fr:Colombey les Deux Églises (France).",
+          "width": 3270,
+          "height": 2598,
+          "size": 2150832,
+          "timestamp": "2021-05-14T17:14:56Z",
+          "author": "Roland45",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
+    },
+    {
+      "label": "Église Saint-Martin",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Colombey-les-Deux-Eglises_10.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AColombey-les-Deux-Eglises%2010.jpg",
+          "title": "Colombey-les-Deux-Eglises 10.jpg",
+          "description": "Panorama du village",
+          "width": 5053,
+          "height": 1945,
+          "size": 5088788,
+          "timestamp": "2018-08-14T13:09:36Z",
+          "author": "René Hourdry",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Monument_aux_morts_de_la_Premi%C3%A8re_Guerre_mondiale_%28Colombey-les-Deux-%C3%89glises%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMonument%20aux%20morts%20de%20la%20Premi%C3%A8re%20Guerre%20mondiale%20(Colombey-les-Deux-%C3%89glises).jpg",
+          "title": "Monument aux morts de la Première Guerre mondiale (Colombey-les-Deux-Églises).jpg",
+          "description": "Monument to the fallen of the First World War in Colombey-les-Deux-Églises (Haute-Marne, France).",
+          "width": 5472,
+          "height": 3648,
+          "size": 6921746,
+          "timestamp": "2020-09-11T11:01:33Z",
+          "author": "Gzen92",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Cimeti%C3%A8re_de_Colombey-les-Deux-%C3%89glises_et_l%27%C3%A9glise_Notre-Dame-de-l%27Assomption.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACimeti%C3%A8re%20de%20Colombey-les-Deux-%C3%89glises%20et%20l'%C3%A9glise%20Notre-Dame-de-l'Assomption.jpg",
+          "title": "Cimetière de Colombey-les-Deux-Églises et l'église Notre-Dame-de-l'Assomption.jpg",
+          "description": "Cimetière de Colombey-les-Deux-Églises et l'église Notre-Dame-de-l'Assomption.",
+          "width": 3977,
+          "height": 2826,
+          "size": 8580328,
+          "timestamp": "2020-10-30T19:51:00Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q42790984\" class=\"extiw\" title=\"d:Q42790984\"><span title=\"French computing engineer\">Benoît Prieur</span></a></bdi>",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
+    },
+    {
+      "label": "Mémorial Charles de Gaulle",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Monument_aux_morts_de_la_Premi%C3%A8re_Guerre_mondiale_%28Colombey-les-Deux-%C3%89glises%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMonument%20aux%20morts%20de%20la%20Premi%C3%A8re%20Guerre%20mondiale%20(Colombey-les-Deux-%C3%89glises).jpg",
+          "title": "Monument aux morts de la Première Guerre mondiale (Colombey-les-Deux-Églises).jpg",
+          "description": "Monument to the fallen of the First World War in Colombey-les-Deux-Églises (Haute-Marne, France).",
+          "width": 5472,
+          "height": 3648,
+          "size": 6921746,
+          "timestamp": "2020-09-11T11:01:33Z",
+          "author": "Gzen92",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Colombey-les-Deux-%C3%89glises_%28_52_%29_M%C3%A9morial_Charles-de-Gaulle.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AColombey-les-Deux-%C3%89glises%20(%2052%20)%20M%C3%A9morial%20Charles-de-Gaulle.jpg",
+          "title": "Colombey-les-Deux-Églises ( 52 ) Mémorial Charles-de-Gaulle.jpg",
+          "description": "Colombey-les-Deux-Églises ( 52 ) Mémorial Charles-de-Gaulle",
+          "width": 1366,
+          "height": 799,
+          "size": 303547,
+          "timestamp": "2025-02-15T19:38:21Z",
+          "author": "C DIMEY 5252",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Colombey-les-Deux-Eglises_G%C3%A9n%C3%A9ral_de_Gaulle_R01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AColombey-les-Deux-Eglises%20G%C3%A9n%C3%A9ral%20de%20Gaulle%20R01.jpg",
+          "title": "Colombey-les-Deux-Eglises Général de Gaulle R01.jpg",
+          "description": "One of the numerous memorial plaques to General Charles de Gaulle at the cemetery of Colombey-les-Deux-Eglises (Haute-Marne department, France)",
+          "width": 4860,
+          "height": 3414,
+          "size": 12050009,
+          "timestamp": "2018-06-24T18:53:36Z",
+          "author": "Marc Ryckaert",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
         }
       ]
     }

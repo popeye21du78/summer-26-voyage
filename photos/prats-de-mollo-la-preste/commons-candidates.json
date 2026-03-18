@@ -1,12 +1,27 @@
 {
   "slug": "prats-de-mollo-la-preste",
   "nom": "Prats-de-Mollo-la-Preste",
-  "fetchedAt": "2026-03-14T11:36:47.112Z",
+  "fetchedAt": "2026-03-18T17:10:00.748Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Prats-de-Mollo_Wehrerker.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APrats-de-Mollo%20Wehrerker.jpg",
+      "title": "Prats-de-Mollo Wehrerker.jpg",
+      "description": "Prats-de-Mollo-la-Preste, France: bartizan at the southern corner of the town's fortification, Fort Lagarde in the background (view from S).",
+      "width": 3566,
+      "height": 2524,
+      "size": 6053375,
+      "timestamp": "2016-07-24T16:31:43Z",
+      "author": "Palauenc05",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/20180218_-_%C3%89glise_Sainte-Juste-et-Sainte-Ruffine_de_Prats-de-Mollo-la-Preste.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20180218%20-%20%C3%89glise%20Sainte-Juste-et-Sainte-Ruffine%20de%20Prats-de-Mollo-la-Preste.jpg",
       "title": "20180218 - Église Sainte-Juste-et-Sainte-Ruffine de Prats-de-Mollo-la-Preste.jpg",
+      "description": "Église Sainte-Juste-et-Sainte-Ruffine de Prats-de-Mollo-la-Preste.",
       "width": 4000,
       "height": 3000,
       "size": 5208548,
@@ -20,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Prats-de-Mollo-la-Preste_%2854113628842%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APrats-de-Mollo-la-Preste%20(54113628842).jpg",
       "title": "Prats-de-Mollo-la-Preste (54113628842).jpg",
+      "description": "Prats-de-Mollo-la-Preste (Occitanie, France)",
       "width": 5857,
       "height": 3514,
       "size": 19084716,
@@ -28,86 +44,35 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Prats-de-mollo2.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APrats-de-mollo2.jpg",
-      "title": "Prats-de-mollo2.jpg",
-      "width": 3473,
-      "height": 2481,
-      "size": 5812471,
-      "timestamp": "2015-05-21T17:58:10Z",
-      "author": "Palauenc05",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
     }
   ],
   "lieux": [
     {
       "label": "Porte de France",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/La_porte_d%27Espagne_%28Prats-de-Mollo-la-Preste%2C_66%29_-_003.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20porte%20d'Espagne%20(Prats-de-Mollo-la-Preste%2C%2066)%20-%20003.jpg",
-          "title": "La porte d'Espagne (Prats-de-Mollo-la-Preste, 66) - 003.jpg",
-          "width": 4000,
-          "height": 3000,
-          "size": 5227008,
-          "timestamp": "2026-01-04T13:30:02Z",
-          "author": "Thérèse Gaigé",
-          "license": "CC0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/La_porte_d%27Espagne_%28Prats-de-Mollo-la-Preste%2C_66%29_-_002.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20porte%20d'Espagne%20(Prats-de-Mollo-la-Preste%2C%2066)%20-%20002.jpg",
-          "title": "La porte d'Espagne (Prats-de-Mollo-la-Preste, 66) - 002.jpg",
-          "width": 4000,
-          "height": 3000,
-          "size": 5366272,
-          "timestamp": "2026-01-04T13:30:04Z",
-          "author": "Thérèse Gaigé",
-          "license": "CC0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Prats-de-Mollo_-_Remparts_-3.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APrats-de-Mollo%20-%20Remparts%20-3.jpg",
-          "title": "Prats-de-Mollo - Remparts -3.jpg",
-          "width": 2592,
-          "height": 1944,
-          "size": 2255290,
-          "timestamp": "2018-08-19T09:46:37Z",
-          "author": "MOSSOT",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Fort Lagarde",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Vista_del_Fort_de_la_Gu%C3%A0rdia.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVista%20del%20Fort%20de%20la%20Gu%C3%A0rdia.jpg",
-          "title": "Vista del Fort de la Guàrdia.jpg",
-          "width": 4160,
-          "height": 3120,
-          "size": 1505144,
-          "timestamp": "2020-01-04T18:01:26Z",
-          "author": "Jordi Gili",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Prats-de-Mollo_Wehrerker.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APrats-de-Mollo%20Wehrerker.jpg",
+          "title": "Prats-de-Mollo Wehrerker.jpg",
+          "description": "Prats-de-Mollo-la-Preste, France: bartizan at the southern corner of the town's fortification, Fort Lagarde in the background (view from S).",
+          "width": 3566,
+          "height": 2524,
+          "size": 6053375,
+          "timestamp": "2016-07-24T16:31:43Z",
+          "author": "Palauenc05",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 8
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/France_Occitanie_66_Prats_de_Mollo_01.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20Occitanie%2066%20Prats%20de%20Mollo%2001.jpg",
           "title": "France Occitanie 66 Prats de Mollo 01.jpg",
+          "description": "Prats-de-Mollo-la-Preste\nFort Lagarde",
           "width": 6016,
           "height": 4016,
           "size": 10364073,
@@ -121,6 +86,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Prats_de_Mollo_08.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APrats%20de%20Mollo%2008.jpg",
           "title": "Prats de Mollo 08.jpg",
+          "description": "Fort Lagarde, Prats-de-Mollo-la-Preste",
           "width": 6016,
           "height": 4016,
           "size": 14494487,
@@ -134,7 +100,50 @@
     },
     {
       "label": "Vieux pont sur la Tech",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Prats-de-Mollo-la-Preste_Pont_de_la_carretera_D117_sobre_el_riu_Tec.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APrats-de-Mollo-la-Preste%20Pont%20de%20la%20carretera%20D117%20sobre%20el%20riu%20Tec.jpg",
+          "title": "Prats-de-Mollo-la-Preste Pont de la carretera D117 sobre el riu Tec.jpg",
+          "description": "Prats-de-Mollo-la-Preste Pont de la carretera D117 sobre el riu Tec",
+          "width": 4096,
+          "height": 3072,
+          "size": 5352596,
+          "timestamp": "2025-07-31T16:37:12Z",
+          "author": "Friviere",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Prats_de_Moll%C3%B3%2C_des_del_pont_sobre_el_Tec_-_panoramio.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APrats%20de%20Moll%C3%B3%2C%20des%20del%20pont%20sobre%20el%20Tec%20-%20panoramio.jpg",
+          "title": "Prats de Molló, des del pont sobre el Tec - panoramio.jpg",
+          "description": "Prats de Molló, des del pont sobre el Tec",
+          "width": 1200,
+          "height": 902,
+          "size": 343632,
+          "timestamp": "2016-11-10T13:47:11Z",
+          "author": "jordi domènech",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Prats-de-Mollo_-_Pont%2C_rempart%2C_%C3%A9glise_Saint-Juste-et-Sainte-Ruffine_et_fort_Lagarde.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APrats-de-Mollo%20-%20Pont%2C%20rempart%2C%20%C3%A9glise%20Saint-Juste-et-Sainte-Ruffine%20et%20fort%20Lagarde.jpg",
+          "title": "Prats-de-Mollo - Pont, rempart, église Saint-Juste-et-Sainte-Ruffine et fort Lagarde.jpg",
+          "description": "Prats-de-Mollo - Pont, rempart, église Saint-Juste-et-Sainte-Ruffine et fort Lagarde",
+          "width": 2592,
+          "height": 1944,
+          "size": 2431310,
+          "timestamp": "2018-08-19T11:13:00Z",
+          "author": "MOSSOT",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Fontaine du centre",

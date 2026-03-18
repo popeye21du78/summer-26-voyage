@@ -1,12 +1,13 @@
 {
   "slug": "chandon",
   "nom": "Chandon",
-  "fetchedAt": "2026-03-13T12:37:28.967Z",
+  "fetchedAt": "2026-03-15T21:02:48.225Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Chandon_-_%C3%89glise_Saint-%C3%89loi_1_%28ao%C3%BBt_2020%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChandon%20-%20%C3%89glise%20Saint-%C3%89loi%201%20(ao%C3%BBt%202020).jpg",
       "title": "Chandon - Église Saint-Éloi 1 (août 2020).jpg",
+      "description": "Vue de l'église Saint-Éloi de Chandon, dans le département de la Loire.",
       "width": 4032,
       "height": 3016,
       "size": 3374752,
@@ -14,33 +15,35 @@
       "author": "Sebleouf",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Chandon_-_Ancien_poids_public_%28ao%C3%BBt_2020%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChandon%20-%20Ancien%20poids%20public%20(ao%C3%BBt%202020).jpg",
-      "title": "Chandon - Ancien poids public (août 2020).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Chandon_-_Cimeti%C3%A8re%2C_vue_1_%28ao%C3%BBt_2020%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChandon%20-%20Cimeti%C3%A8re%2C%20vue%201%20(ao%C3%BBt%202020).jpg",
+      "title": "Chandon - Cimetière, vue 1 (août 2020).jpg",
+      "description": "Vue du cimetière de Chandon, dans le département de la Loire.",
       "width": 4032,
       "height": 3016,
-      "size": 5123516,
-      "timestamp": "2020-09-03T07:37:05Z",
+      "size": 3749275,
+      "timestamp": "2020-09-03T07:37:17Z",
       "author": "Sebleouf",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Chandon_-_%C3%89glise_Saint-%C3%89loi_3_%28ao%C3%BBt_2020%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChandon%20-%20%C3%89glise%20Saint-%C3%89loi%203%20(ao%C3%BBt%202020).jpg",
-      "title": "Chandon - Église Saint-Éloi 3 (août 2020).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Chandon_-_Cimeti%C3%A8re%2C_vue_2_%28ao%C3%BBt_2020%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChandon%20-%20Cimeti%C3%A8re%2C%20vue%202%20(ao%C3%BBt%202020).jpg",
+      "title": "Chandon - Cimetière, vue 2 (août 2020).jpg",
+      "description": "Vue du cimetière de Chandon, dans le département de la Loire.",
       "width": 4032,
       "height": 3016,
-      "size": 3329091,
-      "timestamp": "2020-09-03T07:37:07Z",
+      "size": 4113099,
+      "timestamp": "2020-09-03T07:37:22Z",
       "author": "Sebleouf",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     }
   ],
   "lieux": [
@@ -48,43 +51,46 @@
       "label": "Église Saint-Pierre de Chandon",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Hautvillers_-_%C3%A9glise_abbatiale_Saint-Sindulphe%2C_ext%C3%A9rieur_%2804%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHautvillers%20-%20%C3%A9glise%20abbatiale%20Saint-Sindulphe%2C%20ext%C3%A9rieur%20(04).jpg",
-          "title": "Hautvillers - église abbatiale Saint-Sindulphe, extérieur (04).jpg",
-          "width": 3264,
-          "height": 2448,
-          "size": 3232806,
-          "timestamp": "2016-09-01T20:23:09Z",
-          "author": "Fab5669",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Chandon_-_%C3%89glise_Saint-%C3%89loi_1_%28ao%C3%BBt_2020%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChandon%20-%20%C3%89glise%20Saint-%C3%89loi%201%20(ao%C3%BBt%202020).jpg",
+          "title": "Chandon - Église Saint-Éloi 1 (août 2020).jpg",
+          "description": "Vue de l'église Saint-Éloi de Chandon, dans le département de la Loire.",
+          "width": 4032,
+          "height": 3016,
+          "size": 3374752,
+          "timestamp": "2020-09-03T07:37:04Z",
+          "author": "Sebleouf",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 9
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Hautvillers_-_%C3%A9glise_abbatiale_Saint-Sindulphe%2C_ext%C3%A9rieur_%2805%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHautvillers%20-%20%C3%A9glise%20abbatiale%20Saint-Sindulphe%2C%20ext%C3%A9rieur%20(05).jpg",
-          "title": "Hautvillers - église abbatiale Saint-Sindulphe, extérieur (05).jpg",
-          "width": 3264,
-          "height": 2448,
-          "size": 3406923,
-          "timestamp": "2016-09-01T20:23:09Z",
-          "author": "Fab5669",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Chandon_-_%C3%89glise_Saint-%C3%89loi_3_%28ao%C3%BBt_2020%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChandon%20-%20%C3%89glise%20Saint-%C3%89loi%203%20(ao%C3%BBt%202020).jpg",
+          "title": "Chandon - Église Saint-Éloi 3 (août 2020).jpg",
+          "description": "Église Saint-Éloi de Chandon, dans le département de la Loire.",
+          "width": 4032,
+          "height": 3016,
+          "size": 3329091,
+          "timestamp": "2020-09-03T07:37:07Z",
+          "author": "Sebleouf",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Avenu_paul_chandon_%C3%A9pernay_1008030.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAvenu%20paul%20chandon%20%C3%A9pernay%201008030.jpg",
-          "title": "Avenu paul chandon épernay 1008030.jpg",
-          "width": 519,
-          "height": 353,
-          "size": 95840,
-          "timestamp": "2021-06-15T08:39:39Z",
-          "author": "Unknown author<span style=\"display: none;\">Unknown author</span>",
-          "license": "Public domain",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Chandon_-_%C3%89glise_Saint-%C3%89loi_-_Chevet_%28ao%C3%BBt_2020%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChandon%20-%20%C3%89glise%20Saint-%C3%89loi%20-%20Chevet%20(ao%C3%BBt%202020).jpg",
+          "title": "Chandon - Église Saint-Éloi - Chevet (août 2020).jpg",
+          "description": "Chevet de l'église Saint-Éloi de Chandon, dans le département de la Loire.",
+          "width": 4032,
+          "height": 3016,
+          "size": 3140039,
+          "timestamp": "2020-09-03T07:37:26Z",
+          "author": "Sebleouf",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 7
         }
       ]
     },

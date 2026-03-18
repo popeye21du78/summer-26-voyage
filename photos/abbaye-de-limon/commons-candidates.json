@@ -1,12 +1,13 @@
 {
   "slug": "abbaye-de-limon",
   "nom": "Abbaye de Limon",
-  "fetchedAt": "2026-03-13T12:01:10.232Z",
+  "fetchedAt": "2026-03-15T14:39:17.775Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Colombier_de_l%27abbaye%2C_Vauhallan_%28DSC_6959%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AColombier%20de%20l'abbaye%2C%20Vauhallan%20(DSC%206959).jpg",
       "title": "Colombier de l'abbaye, Vauhallan (DSC 6959).jpg",
+      "description": "Colombier de l'abbaye (dovecote tower of the abbey) in Vauhallan, France",
       "width": 5001,
       "height": 3709,
       "size": 13892818,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Colombier_de_l%27abbaye%2C_mars_2011_-_panoramio.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AColombier%20de%20l'abbaye%2C%20mars%202011%20-%20panoramio.jpg",
       "title": "Colombier de l'abbaye, mars 2011 - panoramio.jpg",
+      "description": "Colombier de l'abbaye, mars 2011",
       "width": 3264,
       "height": 2448,
       "size": 3774772,
@@ -30,15 +32,16 @@
       "score": 6
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Route_d%C3%A9partementale_36_le_2_juin_2013_%C3%A0_Saclay_-_13.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARoute%20d%C3%A9partementale%2036%20le%202%20juin%202013%20%C3%A0%20Saclay%20-%2013.jpg",
-      "title": "Route départementale 36 le 2 juin 2013 à Saclay - 13.jpg",
-      "width": 5184,
-      "height": 3456,
-      "size": 7032576,
-      "timestamp": "2015-01-06T19:22:34Z",
-      "author": "Lionel Allorge",
-      "license": "CC BY-SA 3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Parcelle_de_colza_%28Abbaye_de_Limon_%C3%A0_Vauhallan_essonne%29-3-cliche_Jean_Weber_%2823592589771%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParcelle%20de%20colza%20(Abbaye%20de%20Limon%20%C3%A0%20Vauhallan%20essonne)-3-cliche%20Jean%20Weber%20(23592589771).jpg",
+      "title": "Parcelle de colza (Abbaye de Limon à Vauhallan essonne)-3-cliche Jean Weber (23592589771).jpg",
+      "description": "INRA, Jean Weber",
+      "width": 2047,
+      "height": 1535,
+      "size": 3273362,
+      "timestamp": "2016-01-03T13:46:43Z",
+      "author": "INRA DIST",
+      "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 6
     }
@@ -46,7 +49,50 @@
   "lieux": [
     {
       "label": "Cloître de l’abbaye",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Parcelle_de_colza_%28Abbaye_de_Limon_%C3%A0_Vauhallan_essonne%29-3-cliche_Jean_Weber_%2823592589771%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParcelle%20de%20colza%20(Abbaye%20de%20Limon%20%C3%A0%20Vauhallan%20essonne)-3-cliche%20Jean%20Weber%20(23592589771).jpg",
+          "title": "Parcelle de colza (Abbaye de Limon à Vauhallan essonne)-3-cliche Jean Weber (23592589771).jpg",
+          "description": "INRA, Jean Weber",
+          "width": 2047,
+          "height": 1535,
+          "size": 3273362,
+          "timestamp": "2016-01-03T13:46:43Z",
+          "author": "INRA DIST",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Parcelle_de_colza_%28Abbaye_de_Limon_%C3%A0_Vauhallan_essonne%29-14-cliche_Jean_Weber_%2823046890894%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParcelle%20de%20colza%20(Abbaye%20de%20Limon%20%C3%A0%20Vauhallan%20essonne)-14-cliche%20Jean%20Weber%20(23046890894).jpg",
+          "title": "Parcelle de colza (Abbaye de Limon à Vauhallan essonne)-14-cliche Jean Weber (23046890894).jpg",
+          "description": "INRA, Jean Weber",
+          "width": 2126,
+          "height": 1472,
+          "size": 3320043,
+          "timestamp": "2016-01-03T13:46:44Z",
+          "author": "INRA DIST",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Parcelle_de_colza_%28Abbaye_de_Limon_%C3%A0_Vauhallan_91%29-1-cliche_Jean_Weber_%2823592591081%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParcelle%20de%20colza%20(Abbaye%20de%20Limon%20%C3%A0%20Vauhallan%2091)-1-cliche%20Jean%20Weber%20(23592591081).jpg",
+          "title": "Parcelle de colza (Abbaye de Limon à Vauhallan 91)-1-cliche Jean Weber (23592591081).jpg",
+          "description": "INRA, Jean Weber",
+          "width": 2047,
+          "height": 1535,
+          "size": 4148114,
+          "timestamp": "2016-01-03T13:46:47Z",
+          "author": "INRA DIST",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Salle capitulaire",

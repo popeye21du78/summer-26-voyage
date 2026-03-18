@@ -1,12 +1,13 @@
 {
   "slug": "verteuil-sur-charente",
   "nom": "Verteuil-sur-Charente",
-  "fetchedAt": "2026-03-14T14:31:18.839Z",
+  "fetchedAt": "2026-03-18T20:44:53.692Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/VerteuilChateau_02.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVerteuilChateau%2002.jpg",
       "title": "VerteuilChateau 02.jpg",
+      "description": "Château de Verteuil, Charente, 2014.",
       "width": 5852,
       "height": 3907,
       "size": 14528367,
@@ -14,33 +15,35 @@
       "author": "Selbymay",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Verteuil1.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVerteuil1.jpg",
-      "title": "Verteuil1.jpg",
-      "width": 3872,
-      "height": 2592,
-      "size": 6927040,
-      "timestamp": "2014-09-15T13:36:16Z",
-      "author": "<p><a href=\"//commons.wikimedia.org/wiki/User:JLPC\" title=\"User:JLPC\">JLPC</a>\n</p>",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Chateau_et_moulin_Verteuil.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau%20et%20moulin%20Verteuil.jpg",
+      "title": "Chateau et moulin Verteuil.jpg",
+      "description": "Château de Verteuil (Inscrit)",
+      "width": 5335,
+      "height": 3559,
+      "size": 4536684,
+      "timestamp": "2013-09-14T18:50:20Z",
+      "author": "Robin Poitou",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
+      "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Picture_002_Le_chateau_a_Verteuil.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APicture%20002%20Le%20chateau%20a%20Verteuil.jpg",
-      "title": "Picture 002 Le chateau a Verteuil.jpg",
-      "width": 2560,
-      "height": 1440,
-      "size": 1820649,
-      "timestamp": "2012-09-09T11:06:00Z",
-      "author": "Leo Donnelly",
-      "license": "CC BY-SA 3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/VerteuilChateau_01.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVerteuilChateau%2001.jpg",
+      "title": "VerteuilChateau 01.jpg",
+      "description": "Château de Verteuil, Charente, 2014.",
+      "width": 5909,
+      "height": 5909,
+      "size": 19992753,
+      "timestamp": "2017-09-12T09:53:02Z",
+      "author": "Selbymay",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 5
+      "score": 7
     }
   ],
   "lieux": [
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Verteuil_chateau_charente.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVerteuil%20chateau%20charente.JPG",
           "title": "Verteuil chateau charente.JPG",
+          "description": "La Charente et le château de Verteuil, Charente, France",
           "width": 1600,
           "height": 1200,
           "size": 581650,
@@ -58,12 +62,13 @@
           "author": "Jack ma",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Verteuil_chateau_et_moulin.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVerteuil%20chateau%20et%20moulin.JPG",
           "title": "Verteuil chateau et moulin.JPG",
+          "description": "La Charente, moulin et le château de Verteuil, Charente, France",
           "width": 1600,
           "height": 1200,
           "size": 530289,
@@ -71,12 +76,13 @@
           "author": "Jack ma",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Verteuil_moulin.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVerteuil%20moulin.JPG",
           "title": "Verteuil moulin.JPG",
+          "description": "Moulin, Charente et château de Verteuil, Charente, France",
           "width": 1600,
           "height": 1200,
           "size": 620813,
@@ -84,97 +90,17 @@
           "author": "Jack ma",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         }
       ]
     },
     {
       "label": "Église Saint-Médard",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Magny-Saint-M%C3%A9dard_%2821%29_%C3%89glise_Saint-M%C3%A9dard_-_Ext%C3%A9rieur_-_02.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMagny-Saint-M%C3%A9dard%20(21)%20%C3%89glise%20Saint-M%C3%A9dard%20-%20Ext%C3%A9rieur%20-%2002.jpg",
-          "title": "Magny-Saint-Médard (21) Église Saint-Médard - Extérieur - 02.jpg",
-          "width": 2100,
-          "height": 1400,
-          "size": 1115372,
-          "timestamp": "2021-03-06T17:31:49Z",
-          "author": "GO69",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Saint-M%C3%A9dard-en-Jalles_-_%C3%89glise_Saint-M%C3%A9dard_-_5.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-M%C3%A9dard-en-Jalles%20-%20%C3%89glise%20Saint-M%C3%A9dard%20-%205.jpg",
-          "title": "Saint-Médard-en-Jalles - Église Saint-Médard - 5.jpg",
-          "width": 3000,
-          "height": 2000,
-          "size": 1147572,
-          "timestamp": "2021-06-16T20:02:32Z",
-          "author": "<table style=\"margin: 1.5em auto; width:60%; background-color:#CCCCCC; border:2px solid #aaaaaa; padding:1px;\" cellspacing=\"10\">\n\n<tbody><tr>\n<td><i><a href=\"https://upload.wikimedia.org/wikipedia/commons/d/db/Saint-M%C3%A9dard-en-Jalles_-_%C3%89glise_Saint-M%C3%A9dard_-_5.jpg\" class=\"internal\" title=\"Saint-Médard-en-Jalles - Église Saint-Médard - 5.jpg\"><b>This illustration</b></a> <b>was made by</b> </i><b><a href=\"//commons.wikimedia.org/wiki/User:Peter17\" title=\"User:Peter17\">Peter Potrowl</a></b><i>.</i>\n<p>Please credit this with : <b>© Peter Potrowl</b> in the immediate vicinity of the image. A link to my website <a rel=\"nofollow\" class=\"external text\" href=\"https://www.sitemai.eu\">sitemai.eu</a> would be much appreciated but isn't mandatory.\n</p><p>An email to\n<span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:UserIconMail.svg\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/40px-UserIconMail.svg.png\" decoding=\"async\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/60px-UserIconMail.svg.png 2x\" data-file-width=\"700\" data-file-height=\"700\"></a></span>\n<a href=\"//commons.wikimedia.org/wiki/Special:EmailUser/Peter17\" title=\"Special:EmailUser/Peter17\">Peter Potrowl</a> would be appreciated too.\n</p><p>Do not copy this image illegally by ignoring the terms of the license below, as it is <b>not</b> in the public domain.\nIf you would like special permission to use, license, or purchase the image please contact me <span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:UserIconMail.svg\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/40px-UserIconMail.svg.png\" decoding=\"async\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/60px-UserIconMail.svg.png 2x\" data-file-width=\"700\" data-file-height=\"700\"></a></span><a href=\"//commons.wikimedia.org/wiki/Special:EmailUser/Peter17\" title=\"Special:EmailUser/Peter17\">Peter Potrowl</a> to negotiate terms.\n</p><p>More free pictures in my <a rel=\"nofollow\" class=\"external text\" href=\"https://www.sitemai.eu\">website</a>. Donations are accepted <a rel=\"nofollow\" class=\"external text\" href=\"https://paypal.me/Peter017\">here</a> and <a rel=\"nofollow\" class=\"external text\" href=\"https://buymeacoffee.com/peter17\">here</a>.\n</p>\n</td></tr></tbody></table>",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Saint-M%C3%A9dard-en-Jalles_-_%C3%89glise_Saint-M%C3%A9dard_-_15.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-M%C3%A9dard-en-Jalles%20-%20%C3%89glise%20Saint-M%C3%A9dard%20-%2015.jpg",
-          "title": "Saint-Médard-en-Jalles - Église Saint-Médard - 15.jpg",
-          "width": 3000,
-          "height": 2000,
-          "size": 1008093,
-          "timestamp": "2021-06-16T20:04:13Z",
-          "author": "<table style=\"margin: 1.5em auto; width:60%; background-color:#CCCCCC; border:2px solid #aaaaaa; padding:1px;\" cellspacing=\"10\">\n\n<tbody><tr>\n<td><i><a href=\"https://upload.wikimedia.org/wikipedia/commons/a/a6/Saint-M%C3%A9dard-en-Jalles_-_%C3%89glise_Saint-M%C3%A9dard_-_15.jpg\" class=\"internal\" title=\"Saint-Médard-en-Jalles - Église Saint-Médard - 15.jpg\"><b>This illustration</b></a> <b>was made by</b> </i><b><a href=\"//commons.wikimedia.org/wiki/User:Peter17\" title=\"User:Peter17\">Peter Potrowl</a></b><i>.</i>\n<p>Please credit this with : <b>© Peter Potrowl</b> in the immediate vicinity of the image. A link to my website <a rel=\"nofollow\" class=\"external text\" href=\"https://www.sitemai.eu\">sitemai.eu</a> would be much appreciated but isn't mandatory.\n</p><p>An email to\n<span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:UserIconMail.svg\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/40px-UserIconMail.svg.png\" decoding=\"async\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/60px-UserIconMail.svg.png 2x\" data-file-width=\"700\" data-file-height=\"700\"></a></span>\n<a href=\"//commons.wikimedia.org/wiki/Special:EmailUser/Peter17\" title=\"Special:EmailUser/Peter17\">Peter Potrowl</a> would be appreciated too.\n</p><p>Do not copy this image illegally by ignoring the terms of the license below, as it is <b>not</b> in the public domain.\nIf you would like special permission to use, license, or purchase the image please contact me <span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:UserIconMail.svg\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/40px-UserIconMail.svg.png\" decoding=\"async\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/60px-UserIconMail.svg.png 2x\" data-file-width=\"700\" data-file-height=\"700\"></a></span><a href=\"//commons.wikimedia.org/wiki/Special:EmailUser/Peter17\" title=\"Special:EmailUser/Peter17\">Peter Potrowl</a> to negotiate terms.\n</p><p>More free pictures in my <a rel=\"nofollow\" class=\"external text\" href=\"https://www.sitemai.eu\">website</a>. Donations are accepted <a rel=\"nofollow\" class=\"external text\" href=\"https://paypal.me/Peter017\">here</a> and <a rel=\"nofollow\" class=\"external text\" href=\"https://buymeacoffee.com/peter17\">here</a>.\n</p>\n</td></tr></tbody></table>",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        }
-      ]
+      "photos": []
     },
     {
       "label": "Moulin de Verteuil",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Verteuil_chateau_et_moulin.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVerteuil%20chateau%20et%20moulin.JPG",
-          "title": "Verteuil chateau et moulin.JPG",
-          "width": 1600,
-          "height": 1200,
-          "size": 530289,
-          "timestamp": "2015-07-15T10:40:31Z",
-          "author": "Jack ma",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Verteuil_moulin.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVerteuil%20moulin.JPG",
-          "title": "Verteuil moulin.JPG",
-          "width": 1600,
-          "height": 1200,
-          "size": 620813,
-          "timestamp": "2015-07-15T10:40:44Z",
-          "author": "Jack ma",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Chateau_et_moulin_Verteuil.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau%20et%20moulin%20Verteuil.jpg",
-          "title": "Chateau et moulin Verteuil.jpg",
-          "width": 5335,
-          "height": 3559,
-          "size": 4536684,
-          "timestamp": "2013-09-14T18:50:20Z",
-          "author": "Robin Poitou",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        }
-      ]
+      "photos": []
     }
   ]
 }

@@ -1,42 +1,45 @@
 {
   "slug": "carbonne",
   "nom": "Carbonne",
-  "fetchedAt": "2026-03-13T12:26:55.751Z",
+  "fetchedAt": "2026-03-15T20:40:06.978Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Carbonne_%C3%A9glise_%285%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarbonne%20%C3%A9glise%20(5).jpg",
+      "title": "Carbonne église (5).jpg",
+      "description": "L'église Saint-Laurent vue depuis le sud-ouest, Carbonne, Haute-Garonne, France.",
+      "width": 3264,
+      "height": 2448,
+      "size": 2211668,
+      "timestamp": "2011-09-02T14:50:34Z",
+      "author": "Père Igor",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Carbonne_%C3%A9glise_%284%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarbonne%20%C3%A9glise%20(4).jpg",
+      "title": "Carbonne église (4).jpg",
+      "description": "L'église Saint-Laurent vue depuis le sud-ouest, Carbonne, Haute-Garonne, France.",
+      "width": 3264,
+      "height": 2448,
+      "size": 3807889,
+      "timestamp": "2011-09-02T14:50:34Z",
+      "author": "Père Igor",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Carbonne_-_Gare_de_Carbonne_-_20250926_%282%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarbonne%20-%20Gare%20de%20Carbonne%20-%2020250926%20(2).jpg",
       "title": "Carbonne - Gare de Carbonne - 20250926 (2).jpg",
+      "description": "Carbonne (Haute-Garonne, France) - Salle d'attente de la gare de Carbonne avec son ancienne bascule.",
       "width": 4032,
       "height": 3024,
       "size": 1498341,
       "timestamp": "2025-09-26T20:12:09Z",
-      "author": "Olybrius",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Carbonne_-_Avenue_Fr%C3%A9d%C3%A9ric_Mistral_-_20251201_%281%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarbonne%20-%20Avenue%20Fr%C3%A9d%C3%A9ric%20Mistral%20-%2020251201%20(1).jpg",
-      "title": "Carbonne - Avenue Frédéric Mistral - 20251201 (1).jpg",
-      "width": 5712,
-      "height": 4284,
-      "size": 3903561,
-      "timestamp": "2025-12-01T22:14:56Z",
-      "author": "Olybrius",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Carbonne_-_Chemin_de_la_Coqu%C3%A8re_-_20251201_%281%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarbonne%20-%20Chemin%20de%20la%20Coqu%C3%A8re%20-%2020251201%20(1).jpg",
-      "title": "Carbonne - Chemin de la Coquère - 20251201 (1).jpg",
-      "width": 5712,
-      "height": 4284,
-      "size": 6286313,
-      "timestamp": "2025-12-02T18:51:25Z",
       "author": "Olybrius",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
@@ -46,45 +49,63 @@
   "lieux": [
     {
       "label": "Halle métallique de Carbonne",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Halle_de_Carbonne.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHalle%20de%20Carbonne.JPG",
+          "title": "Halle de Carbonne.JPG",
+          "description": "Halle de Carbonne",
+          "width": 3603,
+          "height": 2678,
+          "size": 3082242,
+          "timestamp": "2010-11-03T21:20:49Z",
+          "author": "Paternel 1",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Église Saint-Laurent",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Carbonne_%C3%A9glise.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarbonne%20%C3%A9glise.jpg",
-          "title": "Carbonne église.jpg",
-          "width": 3264,
-          "height": 2448,
-          "size": 3448123,
-          "timestamp": "2011-09-02T14:27:32Z",
-          "author": "Père Igor",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Carbonne_%C3%A9glise_%281%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarbonne%20%C3%A9glise%20(1).jpg",
-          "title": "Carbonne église (1).jpg",
-          "width": 3264,
-          "height": 2448,
-          "size": 3771249,
-          "timestamp": "2011-09-02T14:31:06Z",
-          "author": "Père Igor",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Carbonne_%C3%A9glise_%285%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarbonne%20%C3%A9glise%20(5).jpg",
           "title": "Carbonne église (5).jpg",
+          "description": "L'église Saint-Laurent vue depuis le sud-ouest, Carbonne, Haute-Garonne, France.",
           "width": 3264,
           "height": 2448,
           "size": 2211668,
           "timestamp": "2011-09-02T14:50:34Z",
+          "author": "Père Igor",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Carbonne_%C3%A9glise_%284%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarbonne%20%C3%A9glise%20(4).jpg",
+          "title": "Carbonne église (4).jpg",
+          "description": "L'église Saint-Laurent vue depuis le sud-ouest, Carbonne, Haute-Garonne, France.",
+          "width": 3264,
+          "height": 2448,
+          "size": 3807889,
+          "timestamp": "2011-09-02T14:50:34Z",
+          "author": "Père Igor",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Carbonne_%C3%A9glise.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarbonne%20%C3%A9glise.jpg",
+          "title": "Carbonne église.jpg",
+          "description": "L'église Saint-Laurent précédée de son porche, Carbonne, Haute-Garonne, France.",
+          "width": 3264,
+          "height": 2448,
+          "size": 3448123,
+          "timestamp": "2011-09-02T14:27:32Z",
           "author": "Père Igor",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -96,39 +117,42 @@
       "label": "Pont sur la Garonne",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Carbonne_pont_D627.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarbonne%20pont%20D627.jpg",
-          "title": "Carbonne pont D627.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Arize_Carbonne_pont_D73_amont.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArize%20Carbonne%20pont%20D73%20amont.jpg",
+          "title": "Arize Carbonne pont D73 amont.jpg",
+          "description": "L'Arize en amont du pont de la route départementale 73, Carbonne, Haute-Garonne, France.",
           "width": 3264,
           "height": 2448,
-          "size": 3983800,
-          "timestamp": "2011-11-04T13:58:06Z",
+          "size": 3874897,
+          "timestamp": "2011-10-22T16:08:46Z",
           "author": "Père Igor",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 5
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Carbonne_centrale_pont_du_Jumelage_%281%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarbonne%20centrale%20pont%20du%20Jumelage%20(1).jpg",
-          "title": "Carbonne centrale pont du Jumelage (1).jpg",
-          "width": 3070,
-          "height": 1994,
-          "size": 1182217,
-          "timestamp": "2011-11-04T14:25:52Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Arize_Carbonne_pont_D73_aval.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArize%20Carbonne%20pont%20D73%20aval.jpg",
+          "title": "Arize Carbonne pont D73 aval.jpg",
+          "description": "L'Arize en aval du pont de la route départementale 73 à Carbonne (Haute-Garonne, France).",
+          "width": 3264,
+          "height": 2448,
+          "size": 4192880,
+          "timestamp": "2011-10-22T16:08:46Z",
           "author": "Père Igor",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 5
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Garonne_Carbonne_pont_D627_amont.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGaronne%20Carbonne%20pont%20D627%20amont.jpg",
-          "title": "Garonne Carbonne pont D627 amont.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Carbonne_jumelages.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarbonne%20jumelages.jpg",
+          "title": "Carbonne jumelages.jpg",
+          "description": "Panneau du pont du Jumelage à Carbonne, Haute-Garonne, France.",
           "width": 3264,
           "height": 2448,
-          "size": 3942537,
-          "timestamp": "2011-11-06T16:34:23Z",
+          "size": 3933117,
+          "timestamp": "2011-11-04T11:37:56Z",
           "author": "Père Igor",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -138,7 +162,22 @@
     },
     {
       "label": "Parc Bouzigues",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Parc_des_Princes%2C_30-12-28%2C_rugby%2C_%C3%A9quipe_U.S._Perpignanaise_%28assis_de_g._%C3%A0_d.%29_Sicart%2C_Cerdine%2C_Julio%2C_Reig%2C_Massotte%2C_Radondy%2C_Savroux_%28debout_de_g._%C3%A0_d.%29_Cazenove%2C_Vaillejury_%28%29%2C_Carbonne_Puig%2C_Bails%2C_Sicart..._-_btv1b532076979.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParc%20des%20Princes%2C%2030-12-28%2C%20rugby%2C%20%C3%A9quipe%20U.S.%20Perpignanaise%20(assis%20de%20g.%20%C3%A0%20d.)%20Sicart%2C%20Cerdine%2C%20Julio%2C%20Reig%2C%20Massotte%2C%20Radondy%2C%20Savroux%20(debout%20de%20g.%20%C3%A0%20d.)%20Cazenove%2C%20Vaillejury%20()%2C%20Carbonne%20Puig%2C%20Bails%2C%20Sicart...%20-%20btv1b532076979.jpg",
+          "title": "Parc des Princes, 30-12-28, rugby, équipe U.S. Perpignanaise (assis de g. à d.) Sicart, Cerdine, Julio, Reig, Massotte, Radondy, Savroux (debout de g. à d.) Cazenove, Vaillejury (), Carbonne Puig, Bails, Sicart... - btv1b532076979.jpg",
+          "description": "Sujet : Rugby -- Équipes sportives -- Perpignan (Pyrénées-Orientales, France)\nJoueurs de rugby -- Perpignan (Pyrénées-Orientales, France)\nParis (France) -- Parc des princes\nPortraits collectifs -- 1914-1945\nRéférence bibliographique : Rol, 134559\nAppartient à l’ensemble documentaire : Pho20Rol\nAppartient à l’ensemble documentaire : MnS000\nImage de presse\nCouverture : 30 décembre 1928\n\nLangue : français",
+          "width": 8343,
+          "height": 5998,
+          "size": 8501398,
+          "timestamp": "2025-03-21T18:10:14Z",
+          "author": "<div class=\"fn value\">\nAgence Rol. Agence photographique (commanditaire)</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

@@ -1,25 +1,13 @@
 {
   "slug": "longwy",
   "nom": "Longwy",
-  "fetchedAt": "2026-03-13T01:17:18.068Z",
+  "fetchedAt": "2026-03-16T20:55:46.454Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/%E9%9A%86%E7%BB%B4%E7%81%AB%E8%BD%A6%E7%AB%99.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%E9%9A%86%E7%BB%B4%E7%81%AB%E8%BD%A6%E7%AB%99.jpg",
-      "title": "隆维火车站.jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 3108597,
-      "timestamp": "2020-04-04T16:36:38Z",
-      "author": "AirScott",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Longwy_%28907%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALongwy%20(907).jpg",
       "title": "Longwy (907).jpg",
+      "description": "Porte de France, entrée de la Citadelle de Longwy (Meurthe-et-Moselle)",
       "width": 5472,
       "height": 3648,
       "size": 7817667,
@@ -30,17 +18,32 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/CAT_352.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACAT%20352.jpg",
-      "title": "CAT 352.jpg",
-      "width": 3500,
-      "height": 2333,
-      "size": 8143262,
-      "timestamp": "2025-08-09T11:12:40Z",
-      "author": "Alexandre Prevot",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/France_Rail_044_Longwy.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20Rail%20044%20Longwy.jpg",
+      "title": "France Rail 044 Longwy.jpg",
+      "description": "Longwy (Meurthe-et-Moselle): SNCF Nord locomotives at the Depot, 1958.",
+      "width": 2302,
+      "height": 1575,
+      "size": 1708426,
+      "timestamp": "2015-03-17T23:21:44Z",
+      "author": "Brooksbank",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Longwy_%28Meurthe-et-M.%29_kiosque_%C3%A0_musique.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALongwy%20(Meurthe-et-M.)%20kiosque%20%C3%A0%20musique.JPG",
+      "title": "Longwy (Meurthe-et-M.) kiosque à musique.JPG",
+      "description": "Longwy (Meurthe-et-M.) kiosque à musique",
+      "width": 3648,
+      "height": 2736,
+      "size": 4340953,
+      "timestamp": "2015-08-18T09:47:22Z",
+      "author": "Havang(nl)",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
     }
   ],
   "lieux": [
@@ -48,40 +51,38 @@
       "label": "Fortifications de Vauban",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Archives_d%C3%A9partementales_de_Meurthe_et_Moselle_fa%C3%A7ade-de-la-rue-Gustave-Simon_Nancy_Lorraine.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArchives%20d%C3%A9partementales%20de%20Meurthe%20et%20Moselle%20fa%C3%A7ade-de-la-rue-Gustave-Simon%20Nancy%20Lorraine.jpg",
-          "title": "Archives départementales de Meurthe et Moselle façade-de-la-rue-Gustave-Simon Nancy Lorraine.jpg",
-          "width": 1280,
-          "height": 960,
-          "size": 1619402,
-          "timestamp": "2013-04-07T08:33:26Z",
-          "author": "François BERNARDIN",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Plattegrond_van_Longwy%2C_ca._1702_Longwy_Ville_Forte_du_Duch%C3%A9%2C_de_Bar_%28titel_op_object%29_Les_Forces_de_l%27Europe%2C_Asie%2C_Afrique_et_Amerique%2C_ou_description_des_principales_villes_avec_leurs_fortificati%2C_RP-P-OB-83.034-239.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlattegrond%20van%20Longwy%2C%20ca.%201702%20Longwy%20Ville%20Forte%20du%20Duch%C3%A9%2C%20de%20Bar%20(titel%20op%20object)%20Les%20Forces%20de%20l'Europe%2C%20Asie%2C%20Afrique%20et%20Amerique%2C%20ou%20description%20des%20principales%20villes%20avec%20leurs%20fortificati%2C%20RP-P-OB-83.034-239.jpg",
+          "title": "Plattegrond van Longwy, ca. 1702 Longwy Ville Forte du Duché, de Bar (titel op object) Les Forces de l'Europe, Asie, Afrique et Amerique, ou description des principales villes avec leurs fortificati, RP-P-OB-83.034-239.jpg",
+          "description": "IdentificatieTitel(s): Plattegrond van Longwy, ca. 1702. Longwy Ville Forte du Duché, de Bar (...) (titel op object). Les Forces de l'Europe, Asie, Afrique et Amerique, ou description des principales villes avec leurs fortifications. Dessignées par les meilleurs ingenieurs, particulierement celles qui sont sous la domination de la France (...) et ornées de plusieurs superbes edifices (serietitel op object)Objecttype: prent kaart Serienummer: 239/276Objectnummer: RP-P-OB-83.034-239Catalogusrefere",
+          "width": 4160,
+          "height": 3326,
+          "size": 2149038,
+          "timestamp": "2020-01-16T06:47:07Z",
+          "author": "Rijksmuseum",
+          "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Fortifications_de_Vauban.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFortifications%20de%20Vauban.JPG",
-          "title": "Fortifications de Vauban.JPG",
-          "width": 3872,
-          "height": 2592,
-          "size": 8298347,
-          "timestamp": "2014-09-02T12:52:02Z",
-          "author": "Ncommiss",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Longwy._Les_Fortifications_apr%C3%A8s_le_bombardement_P-FG-CP-00205.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALongwy.%20Les%20Fortifications%20apr%C3%A8s%20le%20bombardement%20P-FG-CP-00205.jpg",
+          "title": "Longwy. Les Fortifications après le bombardement P-FG-CP-00205.jpg",
+          "description": "Recto : \"GEO\" 191.-1915",
+          "width": 3350,
+          "height": 2086,
+          "size": 3165825,
+          "timestamp": "2020-05-30T20:17:07Z",
+          "author": "Inconnu",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        }
-      ]
-    },
-    {
-      "label": "Porte de France",
-      "photos": [
+          "score": 7
+        },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Longwy_%28907%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALongwy%20(907).jpg",
           "title": "Longwy (907).jpg",
+          "description": "Porte de France, entrée de la Citadelle de Longwy (Meurthe-et-Moselle)",
           "width": 5472,
           "height": 3648,
           "size": 7817667,
@@ -90,34 +91,12 @@
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Remparts_Vauban_%C3%A0_Longwy.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARemparts%20Vauban%20%C3%A0%20Longwy.jpg",
-          "title": "Remparts Vauban à Longwy.jpg",
-          "width": 2592,
-          "height": 1944,
-          "size": 2237841,
-          "timestamp": "2011-06-21T09:11:10Z",
-          "author": "Initsogan",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Longwy.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALongwy.jpg",
-          "title": "Longwy.jpg",
-          "width": 2592,
-          "height": 1944,
-          "size": 2172004,
-          "timestamp": "2011-07-12T14:59:42Z",
-          "author": "Initsogan",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
         }
       ]
+    },
+    {
+      "label": "Porte de France",
+      "photos": []
     },
     {
       "label": "Musée des Emaux et Faïences",
@@ -126,6 +105,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Emaux_de_Longwy_-_Fa%C3%AFencerie_St_Jean_l%27Aigle_%28cr%C3%A9dit_photo_-_D._Dimanche%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEmaux%20de%20Longwy%20-%20Fa%C3%AFencerie%20St%20Jean%20l'Aigle%20(cr%C3%A9dit%20photo%20-%20D.%20Dimanche).jpg",
           "title": "Emaux de Longwy - Faïencerie St Jean l'Aigle (crédit photo - D. Dimanche).jpg",
+          "description": "Vue générale de la Faïencerie St Jean l'Aigle",
           "width": 2048,
           "height": 1038,
           "size": 1121778,
@@ -136,22 +116,10 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Bacchus%2C_sculpture_de_la_chemin%C3%A9e_du_salon_d%E2%80%99honneur_%28Cr%C3%A9dit_photo_-_Jacques_Peiffer%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABacchus%2C%20sculpture%20de%20la%20chemin%C3%A9e%20du%20salon%20d%E2%80%99honneur%20(Cr%C3%A9dit%20photo%20-%20Jacques%20Peiffer).jpg",
-          "title": "Bacchus, sculpture de la cheminée du salon d’honneur (Crédit photo - Jacques Peiffer).jpg",
-          "width": 6000,
-          "height": 4000,
-          "size": 13836680,
-          "timestamp": "2023-02-05T14:39:22Z",
-          "author": "NatMT",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Logo_Mus%C3%A9e_des_%C3%A9maux_et_fa%C3%AFences_Longwy.png",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALogo%20Mus%C3%A9e%20des%20%C3%A9maux%20et%20fa%C3%AFences%20Longwy.png",
           "title": "Logo Musée des émaux et faïences Longwy.png",
+          "description": "Logo du Musée des Emaux et Faïences de Longwy",
           "width": 881,
           "height": 526,
           "size": 1871667,
@@ -167,39 +135,61 @@
       "label": "Place Darche",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Longwy%2C_Place_Darche_01.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALongwy%2C%20Place%20Darche%2001.jpg",
-          "title": "Longwy, Place Darche 01.jpg",
-          "width": 4640,
-          "height": 3488,
-          "size": 5496237,
-          "timestamp": "2024-08-21T20:20:20Z",
-          "author": "Mislep",
-          "license": "CC BY 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Longwy-Bas.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALongwy-Bas.jpg",
+          "title": "Longwy-Bas.jpg",
+          "description": "Vue de Longwy-Bas depuis le Belvédère",
+          "width": 2592,
+          "height": 1944,
+          "size": 1218687,
+          "timestamp": "2013-01-15T10:22:29Z",
+          "author": "Ncommiss",
+          "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Rue_Aristide_Briand%2C_Longwy.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARue%20Aristide%20Briand%2C%20Longwy.jpg",
-          "title": "Rue Aristide Briand, Longwy.jpg",
-          "width": 2592,
-          "height": 1944,
-          "size": 1252175,
-          "timestamp": "2013-01-15T10:22:26Z",
-          "author": "Ncommiss",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Plan_de_Longwy_1693.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlan%20de%20Longwy%201693.jpg",
+          "title": "Plan de Longwy 1693.jpg",
+          "description": "Ce document provient de l'ouvrage Recueil des plans des places du Royaume, divisées en provinces, faits en l'an 1693, Volume 1 : plan n°68.",
+          "width": 6397,
+          "height": 4969,
+          "size": 4196689,
+          "timestamp": "2020-02-04T02:24:09Z",
+          "author": "<div class=\"fn value\">\nUnknown author<span style=\"display: none;\">Unknown author</span></div>",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Place_Darche%2C_Longwy.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlace%20Darche%2C%20Longwy.jpg",
-          "title": "Place Darche, Longwy.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Longwy_%28907%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALongwy%20(907).jpg",
+          "title": "Longwy (907).jpg",
+          "description": "Porte de France, entrée de la Citadelle de Longwy (Meurthe-et-Moselle)",
+          "width": 5472,
+          "height": 3648,
+          "size": 7817667,
+          "timestamp": "2020-09-27T08:50:57Z",
+          "author": "Claude Humbert",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
+    },
+    {
+      "label": "Parc du Pâquis",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Remparts%2C_Longwy_%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARemparts%2C%20Longwy%20(2).jpg",
+          "title": "Remparts, Longwy (2).jpg",
+          "description": "Parc des Remparts",
           "width": 2592,
           "height": 1944,
-          "size": 1100856,
-          "timestamp": "2013-01-15T10:22:35Z",
+          "size": 1216147,
+          "timestamp": "2013-01-15T10:22:27Z",
           "author": "Ncommiss",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -208,12 +198,51 @@
       ]
     },
     {
-      "label": "Parc du Pâquis",
-      "photos": []
-    },
-    {
       "label": "Ville basse industrielle",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Longwy-Bas.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALongwy-Bas.jpg",
+          "title": "Longwy-Bas.jpg",
+          "description": "Vue de Longwy-Bas depuis le Belvédère",
+          "width": 2592,
+          "height": 1944,
+          "size": 1218687,
+          "timestamp": "2013-01-15T10:22:29Z",
+          "author": "Ncommiss",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Plattegrond_van_Longwy%2C_ca._1702_Longwy_Ville_Forte_du_Duch%C3%A9%2C_de_Bar_%28titel_op_object%29_Les_Forces_de_l%27Europe%2C_Asie%2C_Afrique_et_Amerique%2C_ou_description_des_principales_villes_avec_leurs_fortificati%2C_RP-P-OB-83.034-239.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlattegrond%20van%20Longwy%2C%20ca.%201702%20Longwy%20Ville%20Forte%20du%20Duch%C3%A9%2C%20de%20Bar%20(titel%20op%20object)%20Les%20Forces%20de%20l'Europe%2C%20Asie%2C%20Afrique%20et%20Amerique%2C%20ou%20description%20des%20principales%20villes%20avec%20leurs%20fortificati%2C%20RP-P-OB-83.034-239.jpg",
+          "title": "Plattegrond van Longwy, ca. 1702 Longwy Ville Forte du Duché, de Bar (titel op object) Les Forces de l'Europe, Asie, Afrique et Amerique, ou description des principales villes avec leurs fortificati, RP-P-OB-83.034-239.jpg",
+          "description": "IdentificatieTitel(s): Plattegrond van Longwy, ca. 1702. Longwy Ville Forte du Duché, de Bar (...) (titel op object). Les Forces de l'Europe, Asie, Afrique et Amerique, ou description des principales villes avec leurs fortifications. Dessignées par les meilleurs ingenieurs, particulierement celles qui sont sous la domination de la France (...) et ornées de plusieurs superbes edifices (serietitel op object)Objecttype: prent kaart Serienummer: 239/276Objectnummer: RP-P-OB-83.034-239Catalogusrefere",
+          "width": 4160,
+          "height": 3326,
+          "size": 2149038,
+          "timestamp": "2020-01-16T06:47:07Z",
+          "author": "Rijksmuseum",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Longwy_%28907%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALongwy%20(907).jpg",
+          "title": "Longwy (907).jpg",
+          "description": "Porte de France, entrée de la Citadelle de Longwy (Meurthe-et-Moselle)",
+          "width": 5472,
+          "height": 3648,
+          "size": 7817667,
+          "timestamp": "2020-09-27T08:50:57Z",
+          "author": "Claude Humbert",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

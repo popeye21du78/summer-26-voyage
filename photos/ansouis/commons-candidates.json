@@ -1,38 +1,13 @@
 {
   "slug": "ansouis",
   "nom": "Ansouis",
-  "fetchedAt": "2026-03-12T23:47:41.813Z",
+  "fetchedAt": "2026-03-15T15:05:05.006Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Ansouis_fa%C3%A7ade_%2811256596965%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAnsouis%20fa%C3%A7ade%20(11256596965).jpg",
-      "title": "Ansouis façade (11256596965).jpg",
-      "width": 1280,
-      "height": 850,
-      "size": 1291341,
-      "timestamp": "2021-08-23T02:39:52Z",
-      "author": "decar66",
-      "license": "CC BY 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Le_parvis_de_l%27%C3%A9glise_%2814577977171%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20parvis%20de%20l'%C3%A9glise%20(14577977171).jpg",
-      "title": "Le parvis de l'église (14577977171).jpg",
-      "width": 1600,
-      "height": 1060,
-      "size": 1871147,
-      "timestamp": "2021-08-23T02:44:29Z",
-      "author": "decar66",
-      "license": "CC BY 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Ch%C3%A2teau_d%27Ansouis%2C_%C3%A9chauguette.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20d'Ansouis%2C%20%C3%A9chauguette.jpg",
       "title": "Château d'Ansouis, échauguette.jpg",
+      "description": "Échauguette devant le porche d’entrée du château d'Ansouis.",
       "width": 4032,
       "height": 3024,
       "size": 4565678,
@@ -40,7 +15,35 @@
       "author": "Fanfwah",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Ch%C3%A2teau_d%27Ansouis%2C_porche.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20d'Ansouis%2C%20porche.jpg",
+      "title": "Château d'Ansouis, porche.jpg",
+      "description": "Porche d’entrée du château d'Ansouis.",
+      "width": 4032,
+      "height": 3024,
+      "size": 4541602,
+      "timestamp": "2021-09-23T03:35:09Z",
+      "author": "Fanfwah",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Panorama_depuis_le_village_d%27Ansouis.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanorama%20depuis%20le%20village%20d'Ansouis.jpg",
+      "title": "Panorama depuis le village d'Ansouis.jpg",
+      "description": "Panorama depuis le village d'Ansouis (Vaucluse)",
+      "width": 4032,
+      "height": 2268,
+      "size": 3157857,
+      "timestamp": "2024-07-28T15:41:03Z",
+      "author": "Mathieu BROSSAIS",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
     }
   ],
   "lieux": [
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Ansouis_Le_ch%C3%A2teau_1.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAnsouis%20Le%20ch%C3%A2teau%201.jpg",
           "title": "Ansouis Le château 1.jpg",
+          "description": "Vue de l'entrée",
           "width": 4746,
           "height": 3781,
           "size": 10965811,
@@ -58,12 +62,13 @@
           "author": "René Hourdry",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Ansouis_Echauguette_du_Ch%C3%A2teau.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAnsouis%20Echauguette%20du%20Ch%C3%A2teau.jpg",
           "title": "Ansouis Echauguette du Château.jpg",
+          "description": "Une échauguette du château",
           "width": 2657,
           "height": 2045,
           "size": 2503930,
@@ -71,12 +76,13 @@
           "author": "René Hourdry",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Ch%C3%A2teau_d%27Ansouis%2C_%C3%A9chauguette.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20d'Ansouis%2C%20%C3%A9chauguette.jpg",
           "title": "Château d'Ansouis, échauguette.jpg",
+          "description": "Échauguette devant le porche d’entrée du château d'Ansouis.",
           "width": 4032,
           "height": 3024,
           "size": 4565678,
@@ -84,7 +90,7 @@
           "author": "Fanfwah",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         }
       ]
     },
@@ -92,39 +98,42 @@
       "label": "Église Saint-Martin",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Ansouis_-_%C3%A9glise_et_ch%C3%A2teau.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAnsouis%20-%20%C3%A9glise%20et%20ch%C3%A2teau.jpg",
+          "title": "Ansouis - église et château.jpg",
+          "description": "château et église d'Annsouis",
+          "width": 4608,
+          "height": 3072,
+          "size": 3774283,
+          "timestamp": "2017-02-21T19:03:03Z",
+          "author": "Marianne Casamance",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/%C3%89glise_Saint-Martin_d%27Ansouis_Buckelquader.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-Martin%20d'Ansouis%20Buckelquader.jpg",
+          "title": "Église Saint-Martin d'Ansouis Buckelquader.jpg",
+          "description": "Église Saint-Martin d'Ansouis Buckelquader",
+          "width": 4592,
+          "height": 2584,
+          "size": 7602688,
+          "timestamp": "2021-07-15T21:26:49Z",
+          "author": "Moleskine",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Ansouis_Eglise_Autel.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAnsouis%20Eglise%20Autel.jpg",
           "title": "Ansouis Eglise Autel.jpg",
+          "description": "Eglise Saint-Martin d'Ansouis: l'autel",
           "width": 6000,
           "height": 4000,
           "size": 10954193,
           "timestamp": "2021-09-06T08:16:08Z",
-          "author": "René Hourdry",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Ansouis_Eglise_Autel1jpg.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAnsouis%20Eglise%20Autel1jpg.jpg",
-          "title": "Ansouis Eglise Autel1jpg.jpg",
-          "width": 6000,
-          "height": 4000,
-          "size": 13618361,
-          "timestamp": "2021-09-06T08:16:12Z",
-          "author": "René Hourdry",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Ansouis_Eglise_B%C3%A9nitier1.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAnsouis%20Eglise%20B%C3%A9nitier1.jpg",
-          "title": "Ansouis Eglise Bénitier1.jpg",
-          "width": 4489,
-          "height": 3217,
-          "size": 6953993,
-          "timestamp": "2021-09-06T08:16:16Z",
           "author": "René Hourdry",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -134,11 +143,69 @@
     },
     {
       "label": "Musée Extraordinaire",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Mus%C3%A9e_de_la_mer_%C3%A0_Ansouis_3.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e%20de%20la%20mer%20%C3%A0%20Ansouis%203.JPG",
+          "title": "Musée de la mer à Ansouis 3.JPG",
+          "description": "Musée de la mer à Ansouis.",
+          "width": 3216,
+          "height": 2144,
+          "size": 3613250,
+          "timestamp": "2008-08-09T21:00:27Z",
+          "author": "Vi..Cult...",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Mus%C3%A9e_de_la_mer_%C3%A0_Ansouis_a2.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e%20de%20la%20mer%20%C3%A0%20Ansouis%20a2.JPG",
+          "title": "Musée de la mer à Ansouis a2.JPG",
+          "description": "Musée de la mer à Ansouis.",
+          "width": 3216,
+          "height": 2144,
+          "size": 3335635,
+          "timestamp": "2008-08-09T21:01:08Z",
+          "author": "Vi..Cult...",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Mus%C3%A9e_de_la_mer_%C3%A0_Ansouis.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e%20de%20la%20mer%20%C3%A0%20Ansouis.JPG",
+          "title": "Musée de la mer à Ansouis.JPG",
+          "description": "Musée de la mer à Ansouis.",
+          "width": 3216,
+          "height": 2144,
+          "size": 3414067,
+          "timestamp": "2008-08-09T21:01:49Z",
+          "author": "Vi..Cult...",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     },
     {
       "label": "Lavoir de la rue du Vieux Lavoir",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Hotel-villeneuve-d-ansouis-9-rue-du-quatre-septembre-aix-en-provence-1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHotel-villeneuve-d-ansouis-9-rue-du-quatre-septembre-aix-en-provence-1.jpg",
+          "title": "Hotel-villeneuve-d-ansouis-9-rue-du-quatre-septembre-aix-en-provence-1.jpg",
+          "description": "Hôtel Villeneuve d'Ansouis, 9 rue du Quatre-Septembre, quartier Mazarin, Aix-en-Provence (France).",
+          "width": 2000,
+          "height": 3000,
+          "size": 1075548,
+          "timestamp": "2011-10-05T21:44:36Z",
+          "author": "Lsmpascal",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     }
   ]
 }

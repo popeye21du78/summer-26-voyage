@@ -1,25 +1,13 @@
 {
   "slug": "usson",
   "nom": "Usson",
-  "fetchedAt": "2026-03-14T12:59:43.775Z",
+  "fetchedAt": "2026-03-18T20:27:24.448Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Usson_-_rue_des_remparts_-_bo%C3%AEte_%C3%A0_livres.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AUsson%20-%20rue%20des%20remparts%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
-      "title": "Usson - rue des remparts - boîte à livres.jpg",
-      "width": 2500,
-      "height": 1406,
-      "size": 656138,
-      "timestamp": "2025-11-22T20:55:09Z",
-      "author": "Sébastien Latre",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/View_of_Usson.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AView%20of%20Usson.jpg",
       "title": "View of Usson.jpg",
+      "description": "View of Usson, Puy-de-Dôme, France",
       "width": 6000,
       "height": 4000,
       "size": 12476411,
@@ -27,74 +15,135 @@
       "author": "Krzysztof Golik",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Saint_Maurice_Church_of_Usson_03.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint%20Maurice%20Church%20of%20Usson%2003.jpg",
-      "title": "Saint Maurice Church of Usson 03.jpg",
-      "width": 5787,
-      "height": 3999,
-      "size": 17665905,
-      "timestamp": "2017-07-31T19:09:12Z",
-      "author": "Krzysztof Golik",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/L_%C3%A9glise_Saint_Maurice_D_Usson_%28230742135%29.jpeg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AL%20%C3%A9glise%20Saint%20Maurice%20D%20Usson%20(230742135).jpeg",
+      "title": "L église Saint Maurice D Usson (230742135).jpeg",
+      "description": "500px provided description: Usson conserve quelques vestiges de la triple enceinte de l'ancienne forteresse, mais ?galement des demeures des xve et xvie si?cles, ainsi que l??glise Saint Maurice (XIV?me si?cle) ,?difice mi-roman mi-gothique, d'o? l'on jouit d'un panorama exceptionnel, l'?glise Saint-Maurice renferme un int?ressant mobilier dont un retable du 17?me si?cle et surtout une Crucifixion Renaissance.\n.\n\nUsson preserves some vestiges of the triple enclosure of the old fortress, but also",
+      "width": 2048,
+      "height": 1365,
+      "size": 1238873,
+      "timestamp": "2019-03-16T16:46:42Z",
+      "author": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/manalyss\">Mahé Petit Garçon Curieux </a></div>",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/L_%C3%A9glise_Saint_Maurice_D_Usson_2_%28232396549%29.jpeg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AL%20%C3%A9glise%20Saint%20Maurice%20D%20Usson%202%20(232396549).jpeg",
+      "title": "L église Saint Maurice D Usson 2 (232396549).jpeg",
+      "description": "500px provided description: ?difice mi-roman mi-gothique du XIV?me si?cle , d'o? l'on jouit d'un panorama exceptionnel.\nL'?glise renferme un int?ressant mobilier, ? d?couvrir en ?t? apr?s avoir franchi la ganivelle, porche couvert caract?ristique de la r?gion. Dans la sacristie, ancienne chapelle dite royale, remarquez les arcs ogivaux de style flamboyant. Elle conserve deux peintures sur bois : une R?surrection de Lazare, anonyme, de la fin du 15e si?cle et une tr?s rare Crucifixion du peintre ",
+      "width": 2048,
+      "height": 1362,
+      "size": 1377157,
+      "timestamp": "2019-03-16T16:46:49Z",
+      "author": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/manalyss\">Mahé Petit Garçon Curieux </a></div>",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
     }
   ],
   "lieux": [
     {
       "label": "Église Saint-Maurice",
+      "photos": []
+    },
+    {
+      "label": "Statue de la Vierge d’Usson",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Saint_Maurice_Church_of_Usson_03.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint%20Maurice%20Church%20of%20Usson%2003.jpg",
-          "title": "Saint Maurice Church of Usson 03.jpg",
-          "width": 5787,
-          "height": 3999,
-          "size": 17665905,
-          "timestamp": "2017-07-31T19:09:12Z",
-          "author": "Krzysztof Golik",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Chapelle_de_Chambriac_%28Usson-en-Forez%29_12.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20de%20Chambriac%20(Usson-en-Forez)%2012.jpg",
+          "title": "Chapelle de Chambriac (Usson-en-Forez) 12.jpg",
+          "description": "Chapelle de Chambriac (Usson-en-Forez), 8 Chem. de Chambriac, Marienstatue, Westseite",
+          "width": 4024,
+          "height": 6048,
+          "size": 1191337,
+          "timestamp": "2025-06-09T20:31:28Z",
+          "author": "Thomas Hummel",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/L_%C3%A9glise_Saint_Maurice_D_Usson_%28230742135%29.jpeg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AL%20%C3%A9glise%20Saint%20Maurice%20D%20Usson%20(230742135).jpeg",
-          "title": "L église Saint Maurice D Usson (230742135).jpeg",
-          "width": 2048,
-          "height": 1365,
-          "size": 1238873,
-          "timestamp": "2019-03-16T16:46:42Z",
-          "author": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/manalyss\">Mahé Petit Garçon Curieux </a></div>",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Chapelle_de_Chambriac_%28Usson-en-Forez%29_33.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20de%20Chambriac%20(Usson-en-Forez)%2033.jpg",
+          "title": "Chapelle de Chambriac (Usson-en-Forez) 33.jpg",
+          "description": "Chapelle de Chambriac (Usson-en-Forez), Marienstatue mit Kind (12./13. Jh.)",
+          "width": 3585,
+          "height": 5378,
+          "size": 4926390,
+          "timestamp": "2025-06-10T08:41:09Z",
+          "author": "Thomas Hummel",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Usson_%C3%89glise_Saint-Maurice_door53.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AUsson%20%C3%89glise%20Saint-Maurice%20door53.JPG",
-          "title": "Usson Église Saint-Maurice door53.JPG",
-          "width": 3888,
-          "height": 2592,
-          "size": 3443419,
-          "timestamp": "2010-07-09T16:37:12Z",
-          "author": "Reinhardhauke",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Notre_Dame_d%27Usson.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANotre%20Dame%20d'Usson.jpg",
+          "title": "Notre Dame d'Usson.jpg",
+          "description": "Notre-Dame d'Usson, groupe en bois sculpté et peint polychrome, XIIème siècle, Musée d'art Roger-Quilliot - Clermont-Ferrand (Puy-de-Dôme)",
+          "width": 889,
+          "height": 1860,
+          "size": 262185,
+          "timestamp": "2010-02-01T18:56:09Z",
+          "author": "Pascal3012",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 3
         }
       ]
     },
     {
-      "label": "Statue de la Vierge d’Usson",
-      "photos": []
-    },
-    {
       "label": "Ruines du château de la reine Margot",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Chateau_Usson_%2811%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau%20Usson%20(11).jpg",
+          "title": "Chateau Usson (11).jpg",
+          "description": "Château d'Usson",
+          "width": 3840,
+          "height": 2160,
+          "size": 3371908,
+          "timestamp": "2021-11-01T11:05:18Z",
+          "author": "Jcb-caz-11",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Chateau_Usson_%2817%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau%20Usson%20(17).jpg",
+          "title": "Chateau Usson (17).jpg",
+          "description": "Château d'Usson automne 2021",
+          "width": 3840,
+          "height": 2160,
+          "size": 2979216,
+          "timestamp": "2021-11-01T11:09:31Z",
+          "author": "Jcb-caz-11",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Chateau_Usson_%2815%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau%20Usson%20(15).jpg",
+          "title": "Chateau Usson (15).jpg",
+          "description": "Château d'Usson flanc est",
+          "width": 3840,
+          "height": 2160,
+          "size": 2239455,
+          "timestamp": "2021-11-01T11:10:25Z",
+          "author": "Jcb-caz-11",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     },
     {
       "label": "Sentier botanique d’Usson",

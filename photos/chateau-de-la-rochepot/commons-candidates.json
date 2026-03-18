@@ -1,25 +1,13 @@
 {
   "slug": "chateau-de-la-rochepot",
   "nom": "Château de La Rochepot",
-  "fetchedAt": "2026-03-13T13:09:43.840Z",
+  "fetchedAt": "2026-03-15T21:34:15.569Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/La_Rochepot_%2821%29_%C3%89glise_Saint-Georges_-_Ext%C3%A9rieur_-_01.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Rochepot%20(21)%20%C3%89glise%20Saint-Georges%20-%20Ext%C3%A9rieur%20-%2001.jpg",
-      "title": "La Rochepot (21) Église Saint-Georges - Extérieur - 01.jpg",
-      "width": 6000,
-      "height": 4000,
-      "size": 10490817,
-      "timestamp": "2022-02-28T05:37:07Z",
-      "author": "GO69",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/La_Rochepot_%2821%29_Ch%C3%A2teau_-_Ext%C3%A9rieur_-_01.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Rochepot%20(21)%20Ch%C3%A2teau%20-%20Ext%C3%A9rieur%20-%2001.jpg",
       "title": "La Rochepot (21) Château - Extérieur - 01.jpg",
+      "description": "Extérieur du château de La Rochepot (21).",
       "width": 6000,
       "height": 4000,
       "size": 9953042,
@@ -27,12 +15,13 @@
       "author": "GO69",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/La_Rochepot_%2821%29_Ch%C3%A2teau_-_Ext%C3%A9rieur_-_02.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Rochepot%20(21)%20Ch%C3%A2teau%20-%20Ext%C3%A9rieur%20-%2002.jpg",
       "title": "La Rochepot (21) Château - Extérieur - 02.jpg",
+      "description": "Extérieur du Château de La Rochepot (21).",
       "width": 6000,
       "height": 4000,
       "size": 11691938,
@@ -40,7 +29,21 @@
       "author": "GO69",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/La_Rochepot_%2821%29_Vue_sur_le_lieudit_Ch%C3%A2teau_%28Baubigny%29_et_le_hameau_de_Melin_%28Auxey-Duresses%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Rochepot%20(21)%20Vue%20sur%20le%20lieudit%20Ch%C3%A2teau%20(Baubigny)%20et%20le%20hameau%20de%20Melin%20(Auxey-Duresses).jpg",
+      "title": "La Rochepot (21) Vue sur le lieudit Château (Baubigny) et le hameau de Melin (Auxey-Duresses).jpg",
+      "description": "Vue sur le lieudit Château (Baubigny) et le hameau de Melin (Auxey-Duresses) depuis Châtelot en La Rochepot (21).",
+      "width": 6000,
+      "height": 4000,
+      "size": 12683354,
+      "timestamp": "2023-02-23T05:57:55Z",
+      "author": "GO69",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 9
     }
   ],
   "lieux": [
@@ -50,7 +53,22 @@
     },
     {
       "label": "Salle d’armes",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Chateau_de_La_Rochepot_Salle_des_gardes.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau%20de%20La%20Rochepot%20Salle%20des%20gardes.jpg",
+          "title": "Chateau de La Rochepot Salle des gardes.jpg",
+          "description": "Burg La Rochepot in Burgund, Saal der Wachen",
+          "width": 690,
+          "height": 512,
+          "size": 73558,
+          "timestamp": "2015-04-07T06:52:12Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q33130425\" class=\"extiw\" title=\"d:Q33130425\"><span title=\"photographer, correspondent of the magazine L'Illustration, owner of a farm\">Gustave William Lemaire</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 3
+        }
+      ]
     },
     {
       "label": "Escalier en vis",

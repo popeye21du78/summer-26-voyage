@@ -1,12 +1,13 @@
 {
   "slug": "calanque-de-figuerolles",
   "nom": "Calanque de Figuerolles",
-  "fetchedAt": "2026-03-13T12:24:29.733Z",
+  "fetchedAt": "2026-03-15T20:29:07.392Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Calanque_de_Figuerolles_Rocher_du_Capucin.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACalanque%20de%20Figuerolles%20Rocher%20du%20Capucin.jpg",
       "title": "Calanque de Figuerolles Rocher du Capucin.jpg",
+      "description": "La calanque de Figuerolles et le rocher du Capucin, la Ciotat, Bouches-du-Rhône, France",
       "width": 4608,
       "height": 3456,
       "size": 7470744,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Calanque_du_Mugel%2C_13600_La_Ciotat%2C_France_-_panoramio.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACalanque%20du%20Mugel%2C%2013600%20La%20Ciotat%2C%20France%20-%20panoramio.jpg",
       "title": "Calanque du Mugel, 13600 La Ciotat, France - panoramio.jpg",
+      "description": "Calanque du Mugel, 13600 La Ciotat, France",
       "width": 7712,
       "height": 4352,
       "size": 4942063,
@@ -30,23 +32,39 @@
       "score": 6
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/5071F_Avenue_Figuerolles%2C_13600_La_Ciotat%2C_France_-_panoramio.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A5071F%20Avenue%20Figuerolles%2C%2013600%20La%20Ciotat%2C%20France%20-%20panoramio.jpg",
-      "title": "5071F Avenue Figuerolles, 13600 La Ciotat, France - panoramio.jpg",
-      "width": 3072,
-      "height": 1728,
-      "size": 1274471,
-      "timestamp": "2017-05-16T01:53:25Z",
-      "author": "4net",
-      "license": "CC BY 3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Jardin_Bouchet%2C_au_faubourg_Figuerolles%2C_Montpellier_-_btv1b10485674x.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJardin%20Bouchet%2C%20au%20faubourg%20Figuerolles%2C%20Montpellier%20-%20btv1b10485674x.jpg",
+      "title": "Jardin Bouchet, au faubourg Figuerolles, Montpellier - btv1b10485674x.jpg",
+      "description": "Sujet : Montpellier (Hérault, France)\nAppartient à l’ensemble documentaire : 3M000\nAppartient à l’ensemble documentaire : 3M016\nAppartient à l’ensemble documentaire : 3M017\nLangue : sans contenu linguistique\n\nÉditeur : [s.n.]",
+      "width": 4288,
+      "height": 3496,
+      "size": 2069165,
+      "timestamp": "2025-02-26T09:33:51Z",
+      "author": "<div class=\"fn value\">\nAmelin, Jean-Marie (1785-1858). Auteur du texte</div>",
+      "license": "Public domain",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 7
     }
   ],
   "lieux": [
     {
       "label": "Rochers rouges de la calanque",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Calanque_de_Figuerolles_Rocher_du_Capucin.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACalanque%20de%20Figuerolles%20Rocher%20du%20Capucin.jpg",
+          "title": "Calanque de Figuerolles Rocher du Capucin.jpg",
+          "description": "La calanque de Figuerolles et le rocher du Capucin, la Ciotat, Bouches-du-Rhône, France",
+          "width": 4608,
+          "height": 3456,
+          "size": 7470744,
+          "timestamp": "2023-05-30T15:06:29Z",
+          "author": "Rémih",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Sentier sur la droite dominant la crique",

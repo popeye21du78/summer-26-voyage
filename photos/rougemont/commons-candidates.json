@@ -1,12 +1,13 @@
 {
   "slug": "rougemont",
   "nom": "Rougemont",
-  "fetchedAt": "2026-03-14T11:52:25.206Z",
+  "fetchedAt": "2026-03-18T17:49:20.748Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Rougemont%2C_le_lavoir_%C3%A0_impluvium.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARougemont%2C%20le%20lavoir%20%C3%A0%20impluvium.jpg",
       "title": "Rougemont, le lavoir à impluvium.jpg",
+      "description": "Le lavoir à impluvium",
       "width": 3447,
       "height": 2573,
       "size": 6230454,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Rougemont%2C_la_fontaine-lavoir-abreuvoir.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARougemont%2C%20la%20fontaine-lavoir-abreuvoir.jpg",
       "title": "Rougemont, la fontaine-lavoir-abreuvoir.jpg",
+      "description": "La fontaine-lavoir-abreuvoir",
       "width": 3718,
       "height": 2789,
       "size": 3507592,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Rougemont%2C_la_fontaine_de_la_Vierge.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARougemont%2C%20la%20fontaine%20de%20la%20Vierge.jpg",
       "title": "Rougemont, la fontaine de la Vierge.jpg",
+      "description": "La fontaine de la Vierge",
       "width": 4117,
       "height": 2745,
       "size": 4319308,
@@ -46,57 +49,189 @@
   "lieux": [
     {
       "label": "Église Saint-Germain de Rougemont",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Rougemont._L%27%C3%A9glise.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARougemont.%20L'%C3%A9glise.jpg",
+          "title": "Rougemont. L'église.jpg",
+          "description": "Eglise de Rougemont, vue du bas du village.",
+          "width": 3936,
+          "height": 2912,
+          "size": 3529351,
+          "timestamp": "2019-01-24T11:40:58Z",
+          "author": "Espirat",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Rougemont-le-ch%C3%A2teau._Eglise_saint_Pierre.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARougemont-le-ch%C3%A2teau.%20Eglise%20saint%20Pierre.jpg",
+          "title": "Rougemont-le-château. Eglise saint Pierre.jpg",
+          "description": "Façade et clocher de l'église de Rougemont-le-Château. Territoire de Belfort",
+          "width": 3000,
+          "height": 4000,
+          "size": 1401573,
+          "timestamp": "2017-09-08T09:01:42Z",
+          "author": "Espirat",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Vitrail_Santa-Theresia%2C_%C3%A9glise_Saint-Pierre%2C_Rougemont-le-Ch%C3%A2teau%2C_Territoire_de_Belfort.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVitrail%20Santa-Theresia%2C%20%C3%A9glise%20Saint-Pierre%2C%20Rougemont-le-Ch%C3%A2teau%2C%20Territoire%20de%20Belfort.jpg",
+          "title": "Vitrail Santa-Theresia, église Saint-Pierre, Rougemont-le-Château, Territoire de Belfort.jpg",
+          "description": "Provide all information that will help others understand what this file represents.",
+          "width": 5184,
+          "height": 3888,
+          "size": 6219065,
+          "timestamp": "2022-11-06T08:44:36Z",
+          "author": "olive.titus",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Tour du château de Rougemont",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Ch%C3%A2teau_de_Rougemont._La_tour.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Rougemont.%20La%20tour.jpg",
+          "title": "Château de Rougemont. La tour.jpg",
+          "description": "Tour de l'ancien château médiéval.",
+          "width": 2048,
+          "height": 1536,
+          "size": 4258891,
+          "timestamp": "2017-03-06T14:34:45Z",
+          "author": "Espirat",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Panneau_explicatif_sur_la_tour_du_ch%C3%A2teau_de_Rougemont.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanneau%20explicatif%20sur%20la%20tour%20du%20ch%C3%A2teau%20de%20Rougemont.jpg",
+          "title": "Panneau explicatif sur la tour du château de Rougemont.jpg",
+          "description": "Panneau explicatif sur la tour du château de Rougemont.",
+          "width": 2048,
+          "height": 1536,
+          "size": 2473866,
+          "timestamp": "2017-03-06T14:43:18Z",
+          "author": "Espirat",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/2007-Rougemont-Schloss.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2007-Rougemont-Schloss.jpg",
+          "title": "2007-Rougemont-Schloss.jpg",
+          "description": "Kirche und Schloss in Rougemont (VD)",
+          "width": 1920,
+          "height": 1280,
+          "size": 2602753,
+          "timestamp": "2017-11-12T12:02:19Z",
+          "author": "Roland Zumbuehl",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Lavoir de la Fontaine Saint-Germain",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Rougemont%2C_le_lavoir_%C3%A0_impluvium.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARougemont%2C%20le%20lavoir%20%C3%A0%20impluvium.jpg",
+          "title": "Rougemont, le lavoir à impluvium.jpg",
+          "description": "Le lavoir à impluvium",
+          "width": 3447,
+          "height": 2573,
+          "size": 6230454,
+          "timestamp": "2020-04-13T12:41:52Z",
+          "author": "JGS25",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Rougemont%2C_la_fontaine-lavoir-abreuvoir.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARougemont%2C%20la%20fontaine-lavoir-abreuvoir.jpg",
+          "title": "Rougemont, la fontaine-lavoir-abreuvoir.jpg",
+          "description": "La fontaine-lavoir-abreuvoir",
+          "width": 3718,
+          "height": 2789,
+          "size": 3507592,
+          "timestamp": "2021-07-10T12:39:39Z",
+          "author": "JGS25",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Rougemont._Fontaine-lavoir_devant_l%27%C3%A9glise.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARougemont.%20Fontaine-lavoir%20devant%20l'%C3%A9glise.jpg",
+          "title": "Rougemont. Fontaine-lavoir devant l'église.jpg",
+          "description": "Fontaine-lavoir.",
+          "width": 4000,
+          "height": 3000,
+          "size": 6783494,
+          "timestamp": "2019-01-24T13:25:11Z",
+          "author": "Espirat",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Place du marché",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/2016-12-03_14-57-37_mois-givre-belfort.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2016-12-03%2014-57-37%20mois-givre-belfort.jpg",
-          "title": "2016-12-03 14-57-37 mois-givre-belfort.jpg",
-          "width": 4000,
-          "height": 2666,
-          "size": 4972787,
-          "timestamp": "2016-12-05T08:06:13Z",
-          "author": "<bdi><a href=\"//commons.wikimedia.org/wiki/User:ComputerHotline\" title=\"User:ComputerHotline\">Thomas Bresson</a></bdi>",
-          "license": "CC BY 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Boulevards_de_Paris_-_A07._Rue_Rougemont_-_Th%C3%A9%C3%A2tre_du_Gymnase.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABoulevards%20de%20Paris%20-%20A07.%20Rue%20Rougemont%20-%20Th%C3%A9%C3%A2tre%20du%20Gymnase.jpg",
+          "title": "Boulevards de Paris - A07. Rue Rougemont - Théâtre du Gymnase.jpg",
+          "description": "Panorama of 29 cm high and about 5 m long, on 5 attached sheets engraved on wood and colored by hand, wrapped around a cardboard tube, and protected by a black percaline cover with the golden title in a rocaille style frame. Grand panorama scrolling published by the newspaper L'Illustration, showing the boulevards of Paris, the Place de la Concorde instead of the Bastille, taking in the boulevards of the right bank (Madeleine, Capuchins, Italians, Montmartre, Poissonnière, Bonne-Nouvelle, Saint-",
+          "width": 5900,
+          "height": 2400,
+          "size": 9865904,
+          "timestamp": "2020-03-27T05:08:29Z",
+          "author": "<div class=\"fn value\">\nL'Illustration</div>",
+          "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/2016-12-03_14-58-59_mois-givre-belfort.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2016-12-03%2014-58-59%20mois-givre-belfort.jpg",
-          "title": "2016-12-03 14-58-59 mois-givre-belfort.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Fontaine_eau_potable_Rougemont_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFontaine%20eau%20potable%20Rougemont%201.jpg",
+          "title": "Fontaine eau potable Rougemont 1.jpg",
+          "description": "Fontaine eau potable Rougemont 1",
           "width": 4000,
-          "height": 3151,
-          "size": 4157894,
-          "timestamp": "2016-12-05T08:07:19Z",
-          "author": "<bdi><a href=\"//commons.wikimedia.org/wiki/User:ComputerHotline\" title=\"User:ComputerHotline\">Thomas Bresson</a></bdi>",
-          "license": "CC BY 4.0",
+          "height": 3000,
+          "size": 5926806,
+          "timestamp": "2020-04-21T15:03:26Z",
+          "author": "Cadachats",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/2016-12-03_15-00-31_mois-givre-belfort.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2016-12-03%2015-00-31%20mois-givre-belfort.jpg",
-          "title": "2016-12-03 15-00-31 mois-givre-belfort.jpg",
-          "width": 4000,
-          "height": 3266,
-          "size": 4729451,
-          "timestamp": "2016-12-05T08:09:26Z",
-          "author": "<bdi><a href=\"//commons.wikimedia.org/wiki/User:ComputerHotline\" title=\"User:ComputerHotline\">Thomas Bresson</a></bdi>",
-          "license": "CC BY 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Gate_to_Rougemont_Gardens%2C_Exeter_-_geograph.org.uk_-_4415090.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGate%20to%20Rougemont%20Gardens%2C%20Exeter%20-%20geograph.org.uk%20-%204415090.jpg",
+          "title": "Gate to Rougemont Gardens, Exeter - geograph.org.uk - 4415090.jpg",
+          "description": "Gate to Rougemont Gardens, Exeter",
+          "width": 1600,
+          "height": 1200,
+          "size": 1664205,
+          "timestamp": "2023-02-13T09:44:12Z",
+          "author": "David Smith",
+          "license": "CC BY-SA 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         }
       ]
     }

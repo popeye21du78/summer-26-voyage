@@ -1,12 +1,13 @@
 {
   "slug": "saint-pourcain-sur-sioule",
   "nom": "Saint-Pourçain-sur-Sioule",
-  "fetchedAt": "2026-03-14T12:12:20.338Z",
+  "fetchedAt": "2026-03-18T18:37:49.240Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/%C3%89glise_Sainte_Croix.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Sainte%20Croix.jpg",
       "title": "Église Sainte Croix.jpg",
+      "description": "Vue générale extérieure de l'église Sainte Croix à Saint Pourçain sur Sioule",
       "width": 5472,
       "height": 3648,
       "size": 7736185,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Saint-Pour%C3%A7ain-sur-Sioule_-_Salle_Mirendense_%28oct_2023%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Pour%C3%A7ain-sur-Sioule%20-%20Salle%20Mirendense%20(oct%202023).jpg",
       "title": "Saint-Pourçain-sur-Sioule - Salle Mirendense (oct 2023).jpg",
+      "description": "Façade de la salle Mirendense, à Saint-Pourçain-sur-Sioule (Allier, France).",
       "width": 4032,
       "height": 3024,
       "size": 3878175,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Holy_Cross_church_in_St-Pourcain-sur-Sioule_%285%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHoly%20Cross%20church%20in%20St-Pourcain-sur-Sioule%20(5).jpg",
       "title": "Holy Cross church in St-Pourcain-sur-Sioule (5).jpg",
+      "description": "Holy Cross church in Saint-Pourçain-sur-Sioule, Allier, France",
       "width": 4569,
       "height": 2997,
       "size": 11203225,
@@ -46,15 +49,12 @@
   "lieux": [
     {
       "label": "Halles médiévales, place Maréchal Foch",
-      "photos": []
-    },
-    {
-      "label": "Église Sainte-Croix",
       "photos": [
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/%C3%89glise_Sainte_Croix.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Sainte%20Croix.jpg",
           "title": "Église Sainte Croix.jpg",
+          "description": "Vue générale extérieure de l'église Sainte Croix à Saint Pourçain sur Sioule",
           "width": 5472,
           "height": 3648,
           "size": 7736185,
@@ -65,26 +65,75 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Holy_Cross_church_in_St-Pourcain-sur-Sioule_%284%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHoly%20Cross%20church%20in%20St-Pourcain-sur-Sioule%20(4).jpg",
-          "title": "Holy Cross church in St-Pourcain-sur-Sioule (4).jpg",
-          "width": 3882,
-          "height": 2354,
-          "size": 7514223,
-          "timestamp": "2025-09-15T19:48:29Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/03254-Saint-Pour%C3%A7ain-sur-Sioule-Sols.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A03254-Saint-Pour%C3%A7ain-sur-Sioule-Sols.png",
+          "title": "03254-Saint-Pourçain-sur-Sioule-Sols.png",
+          "description": "Carte des infrastructures et de l’occupation des sols en 2018 de la commune de fr:Saint-Pourçain-sur-Sioule (France).",
+          "width": 3270,
+          "height": 2598,
+          "size": 3634793,
+          "timestamp": "2021-04-20T11:00:05Z",
+          "author": "Roland45",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Vistes_de_Saint_Pour%C3%A7ain_sur_Sioule_03.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVistes%20de%20Saint%20Pour%C3%A7ain%20sur%20Sioule%2003.jpg",
+          "title": "Vistes de Saint Pourçain sur Sioule 03.jpg",
+          "description": "Vistes de Saint Pourçain  sur Sioule",
+          "width": 5712,
+          "height": 4284,
+          "size": 7523293,
+          "timestamp": "2025-01-17T11:15:14Z",
+          "author": "19Tarrestnom65",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
+    },
+    {
+      "label": "Église Sainte-Croix",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/%C3%89glise_Sainte_Croix.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Sainte%20Croix.jpg",
+          "title": "Église Sainte Croix.jpg",
+          "description": "Vue générale extérieure de l'église Sainte Croix à Saint Pourçain sur Sioule",
+          "width": 5472,
+          "height": 3648,
+          "size": 7736185,
+          "timestamp": "2021-01-28T18:31:47Z",
+          "author": "Combraille63",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Holy_Cross_church_in_St-Pourcain-sur-Sioule_%285%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHoly%20Cross%20church%20in%20St-Pourcain-sur-Sioule%20(5).jpg",
+          "title": "Holy Cross church in St-Pourcain-sur-Sioule (5).jpg",
+          "description": "Holy Cross church in Saint-Pourçain-sur-Sioule, Allier, France",
+          "width": 4569,
+          "height": 2997,
+          "size": 11203225,
+          "timestamp": "2025-09-15T19:48:28Z",
           "author": "Tournasol7",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Holy_Cross_church_in_St-Pourcain-sur-Sioule_%2813%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHoly%20Cross%20church%20in%20St-Pourcain-sur-Sioule%20(13).jpg",
-          "title": "Holy Cross church in St-Pourcain-sur-Sioule (13).jpg",
-          "width": 3537,
-          "height": 2556,
-          "size": 8278020,
-          "timestamp": "2025-09-15T19:49:12Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Holy_Cross_church_in_St-Pourcain-sur-Sioule_%284%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHoly%20Cross%20church%20in%20St-Pourcain-sur-Sioule%20(4).jpg",
+          "title": "Holy Cross church in St-Pourcain-sur-Sioule (4).jpg",
+          "description": "Holy Cross church in Saint-Pourçain-sur-Sioule, Allier, France",
+          "width": 3882,
+          "height": 2354,
+          "size": 7514223,
+          "timestamp": "2025-09-15T19:48:29Z",
           "author": "Tournasol7",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",

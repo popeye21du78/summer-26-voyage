@@ -1,60 +1,192 @@
 {
   "slug": "chateau-de-tanlay",
   "nom": "Château de Tanlay",
-  "fetchedAt": "2026-03-13T13:15:49.143Z",
+  "fetchedAt": "2026-03-15T21:44:15.182Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Vianges_%2821%29_Monument_aux_morts.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVianges%20(21)%20Monument%20aux%20morts.jpg",
-      "title": "Vianges (21) Monument aux morts.jpg",
-      "width": 2100,
-      "height": 1400,
-      "size": 1307809,
-      "timestamp": "2021-06-04T19:32:51Z",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Tanlay_%2889%29_Ch%C3%A2teau_-_Ext%C3%A9rieur_-_07.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATanlay%20(89)%20Ch%C3%A2teau%20-%20Ext%C3%A9rieur%20-%2007.jpg",
+      "title": "Tanlay (89) Château - Extérieur - 07.jpg",
+      "description": "Extérieur du château de Tanlay (89).",
+      "width": 6000,
+      "height": 3205,
+      "size": 8669719,
+      "timestamp": "2023-06-23T19:49:46Z",
       "author": "GO69",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Manlay_%2821%29_%C3%89glise_Saint-Laurent_-_01.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AManlay%20(21)%20%C3%89glise%20Saint-Laurent%20-%2001.jpg",
-      "title": "Manlay (21) Église Saint-Laurent - 01.jpg",
-      "width": 1913,
-      "height": 1257,
-      "size": 772829,
-      "timestamp": "2021-06-04T20:03:11Z",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Tanlay_%2889%29_Ch%C3%A2teau_-_Ext%C3%A9rieur_-_08.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATanlay%20(89)%20Ch%C3%A2teau%20-%20Ext%C3%A9rieur%20-%2008.jpg",
+      "title": "Tanlay (89) Château - Extérieur - 08.jpg",
+      "description": "Extérieur du château de Tanlay (89).",
+      "width": 6000,
+      "height": 3717,
+      "size": 10482195,
+      "timestamp": "2023-06-23T19:49:46Z",
       "author": "GO69",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Savilly_%2821%29_Mairie.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASavilly%20(21)%20Mairie.jpg",
-      "title": "Savilly (21) Mairie.jpg",
-      "width": 2100,
-      "height": 1400,
-      "size": 1048491,
-      "timestamp": "2021-06-12T12:52:22Z",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Tanlay_%2889%29_Ch%C3%A2teau_-_Ext%C3%A9rieur_-_06.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATanlay%20(89)%20Ch%C3%A2teau%20-%20Ext%C3%A9rieur%20-%2006.jpg",
+      "title": "Tanlay (89) Château - Extérieur - 06.jpg",
+      "description": "Extérieur du château de Tanlay (89).",
+      "width": 6000,
+      "height": 4000,
+      "size": 9967687,
+      "timestamp": "2023-06-23T19:49:46Z",
       "author": "GO69",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     }
   ],
   "lieux": [
     {
       "label": "Galerie couverte du grand escalier",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Tanlay_%28Yonne%29_-_Le_Ch%C3%A2teau_-_Galerie_d%27apparat.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATanlay%20(Yonne)%20-%20Le%20Ch%C3%A2teau%20-%20Galerie%20d'apparat.jpg",
+          "title": "Tanlay (Yonne) - Le Château - Galerie d'apparat.jpg",
+          "description": "Tanlay - Le Château - Galerie d'apparat.",
+          "width": 4856,
+          "height": 3093,
+          "size": 5658233,
+          "timestamp": "2021-05-12T18:37:41Z",
+          "author": "Patrick",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Tanlay_%28Yonne%29_-_Le_Ch%C3%A2teau_-_Galerie_d%27apparat_-_10118300874.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATanlay%20(Yonne)%20-%20Le%20Ch%C3%A2teau%20-%20Galerie%20d'apparat%20-%2010118300874.jpg",
+          "title": "Tanlay (Yonne) - Le Château - Galerie d'apparat - 10118300874.jpg",
+          "description": "Tanlay - Le Château - Galerie d'apparat.",
+          "width": 5013,
+          "height": 3148,
+          "size": 6787854,
+          "timestamp": "2021-05-12T18:38:38Z",
+          "author": "Patrick",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Tanlay_%2889%29_Ch%C3%A2teau_-_Int%C3%A9rieur_-_Galerie_des_Antiques_-_05.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATanlay%20(89)%20Ch%C3%A2teau%20-%20Int%C3%A9rieur%20-%20Galerie%20des%20Antiques%20-%2005.jpg",
+          "title": "Tanlay (89) Château - Intérieur - Galerie des Antiques - 05.jpg",
+          "description": "Galerie des Antiques du château de Tanlay (89).",
+          "width": 6000,
+          "height": 4000,
+          "size": 10191608,
+          "timestamp": "2023-06-24T04:51:39Z",
+          "author": "GO69",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     },
     {
       "label": "Salle des fresques",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Salle_des_C%C3%A9sars%2C_Ch%C3%A2teau_de_Tanlay_%283%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASalle%20des%20C%C3%A9sars%2C%20Ch%C3%A2teau%20de%20Tanlay%20(3).jpg",
+          "title": "Salle des Césars, Château de Tanlay (3).jpg",
+          "description": "Salle des Césars, Château de Tanlay",
+          "width": 4896,
+          "height": 2752,
+          "size": 1666140,
+          "timestamp": "2018-09-07T19:13:03Z",
+          "author": "Ibex73",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Salle_des_C%C3%A9sars%2C_Ch%C3%A2teau_de_Tanlay_%284%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASalle%20des%20C%C3%A9sars%2C%20Ch%C3%A2teau%20de%20Tanlay%20(4).jpg",
+          "title": "Salle des Césars, Château de Tanlay (4).jpg",
+          "description": "Salle des Césars, Château de Tanlay",
+          "width": 4896,
+          "height": 2752,
+          "size": 1866725,
+          "timestamp": "2018-09-07T19:13:14Z",
+          "author": "Ibex73",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Salle_des_C%C3%A9sars%2C_Ch%C3%A2teau_de_Tanlay_%281%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASalle%20des%20C%C3%A9sars%2C%20Ch%C3%A2teau%20de%20Tanlay%20(1).jpg",
+          "title": "Salle des Césars, Château de Tanlay (1).jpg",
+          "description": "Salle des Césars, Château de Tanlay",
+          "width": 2752,
+          "height": 4896,
+          "size": 4371954,
+          "timestamp": "2018-09-07T19:13:01Z",
+          "author": "Ibex73",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Parc à l’anglaise et douves",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Tanlay_parc_et_canal_13654_Zeiller.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATanlay%20parc%20et%20canal%2013654%20Zeiller.jpg",
+          "title": "Tanlay parc et canal 13654 Zeiller.jpg",
+          "description": "extrait de \"topographia galliae\".",
+          "width": 2188,
+          "height": 1668,
+          "size": 2687459,
+          "timestamp": "2018-07-04T08:02:36Z",
+          "author": "Martin Zeiller ; versement et modifications ː G.Garitan",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Tanlay_parc_%C3%A9tang_13654_Zeiller.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATanlay%20parc%20%C3%A9tang%2013654%20Zeiller.jpg",
+          "title": "Tanlay parc étang 13654 Zeiller.jpg",
+          "description": "extrait de \"topographia galliae\".",
+          "width": 2204,
+          "height": 1732,
+          "size": 2733744,
+          "timestamp": "2018-07-04T08:02:36Z",
+          "author": "Martin Zeiller ; versement et modifications ː G.Garitan",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Chateau_de_Tanlay_Silvestre_06.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau%20de%20Tanlay%20Silvestre%2006.jpg",
+          "title": "Chateau de Tanlay Silvestre 06.jpg",
+          "description": "Veuë du Parc, et du Canal de Tanlai",
+          "width": 3228,
+          "height": 1554,
+          "size": 1428285,
+          "timestamp": "2012-12-19T16:24:17Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Israel_Silvestre\" class=\"extiw\" title=\"w:en:Israel Silvestre\"><span title=\"French artist (1621-1691)\">Israel Silvestre</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Pigeonnier cylindrique",

@@ -1,12 +1,13 @@
 {
   "slug": "penne",
   "nom": "Penne",
-  "fetchedAt": "2026-03-13T16:47:39.344Z",
+  "fetchedAt": "2026-03-17T22:20:02.276Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Penne_%285976494325%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APenne%20(5976494325).jpg",
       "title": "Penne (5976494325).jpg",
+      "description": "Vieux village avec des ruelles étroites et son château en ruine, en cours de restauration, accroché à un éperon rocheux.\n\n&lt;a href=\"http://fiveprime.org/blackmagic\" rel=\"noreferrer nofollow\"&gt;En grand format&lt;/a&gt;",
       "width": 1606,
       "height": 1233,
       "size": 1049651,
@@ -14,12 +15,13 @@
       "author": "@lain G",
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Penne_%285960493524%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APenne%20(5960493524).jpg",
       "title": "Penne (5960493524).jpg",
+      "description": "En montant la petite ruelle étroite qui mène au château.\n\n&lt;a href=\"http://fiveprime.org/blackmagic\" rel=\"noreferrer nofollow\"&gt;En grand format&lt;/a&gt;",
       "width": 1417,
       "height": 942,
       "size": 1422820,
@@ -27,38 +29,197 @@
       "author": "@lain G",
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Castle_towering_over_the_town_of_Penne.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACastle%20towering%20over%20the%20town%20of%20Penne.jpg",
-      "title": "Castle towering over the town of Penne.jpg",
-      "width": 4728,
-      "height": 2791,
-      "size": 6909217,
-      "timestamp": "2017-07-14T11:24:51Z",
-      "author": "Krzysztof Golik",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Penne_et_son_ch%C3%A2teau.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APenne%20et%20son%20ch%C3%A2teau.jpg",
+      "title": "Penne et son château.jpg",
+      "description": "Le château de Penne surplombe le village sur son rocher escarpé, au-dessus des Gorges de l'Aveyron. Forteresse médiévale des XIIe et XIIIe siècles, ses vestiges offrent des histoires à conter et une vue magnifique sur les paysages alentours.",
+      "width": 1536,
+      "height": 2048,
+      "size": 801784,
+      "timestamp": "2021-05-28T10:24:59Z",
+      "author": "Ama.lgl",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
     }
   ],
   "lieux": [
     {
       "label": "Remparts et tours ruinées",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Donjon%2C_Penne_-_btv1b10576905x.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADonjon%2C%20Penne%20-%20btv1b10576905x.jpg",
+          "title": "Donjon, Penne - btv1b10576905x.jpg",
+          "description": "Sujet : Ruines\nPenne (Tarn, France)\nMidi-Pyrénées (France)\nChâteau\nTour\nFortification\nRempart\nPromontoire\nColline\nChemin\nVaour (Tarn ; canton)\nChâteau de Penne (Tarn)\nAppartient à l’ensemble documentaire : RsAlis000\nAppartient à l’ensemble documentaire : RsAlis014\n\nAppartient à l’ensemble documentaire : RsAlis007",
+          "width": 4873,
+          "height": 2952,
+          "size": 1557935,
+          "timestamp": "2025-03-22T01:09:32Z",
+          "author": "<div class=\"fn value\">\nTrutat, Eugène (1840-1910). Photographe</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/PorteRempartPenne.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APorteRempartPenne.jpg",
+          "title": "PorteRempartPenne.jpg",
+          "description": "Gate in the city wall of Penne, Tarn, France",
+          "width": 1944,
+          "height": 2592,
+          "size": 2652029,
+          "timestamp": "2008-09-11T09:54:35Z",
+          "author": "KaTeznik",
+          "license": "CC BY-SA 2.0 fr",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 3
+        }
+      ]
     },
     {
       "label": "Vue panoramique depuis la terrasse sommitale",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/1964_Penne_Philologie_Halleux_Robert_MBTE00415_%287%29_c.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1964%20Penne%20Philologie%20Halleux%20Robert%20MBTE00415%20(7)%20c.jpg",
+          "title": "1964 Penne Philologie Halleux Robert MBTE00415 (7) c.jpg",
+          "description": "Penne d'étudiant en Philologie de l'université de Liège (portée par le professeur Robert Halleux dès 1964)\nVue de côté\nCollection : Musée Belge des Traditions Estudiantines\n\nDon : Robert Halleux",
+          "width": 3648,
+          "height": 2432,
+          "size": 4969834,
+          "timestamp": "2020-06-18T22:16:18Z",
+          "author": "Ludogreg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/1964_Penne_Philologie_Halleux_Robert_MBTE00415_%285%29_c.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1964%20Penne%20Philologie%20Halleux%20Robert%20MBTE00415%20(5)%20c.jpg",
+          "title": "1964 Penne Philologie Halleux Robert MBTE00415 (5) c.jpg",
+          "description": "Penne d'étudiant en Philologie de l'université de Liège (portée par le professeur Robert Halleux dès 1964)\nVue de côté\nCollection : Musée Belge des Traditions Estudiantines\n\nDon : Robert Halleux",
+          "width": 3648,
+          "height": 2432,
+          "size": 4919532,
+          "timestamp": "2020-06-18T22:17:39Z",
+          "author": "Ludogreg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/FranceOccitanieBruniquelPenneLAveyron.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFranceOccitanieBruniquelPenneLAveyron.jpg",
+          "title": "FranceOccitanieBruniquelPenneLAveyron.jpg",
+          "description": "Vue depuis le château de Bruniquel de la vallée de l'Aveyron entre Penne, à gauche à l'arrière-plan, et Bruniquel, au premier plan (Occitanie, France).",
+          "width": 4608,
+          "height": 2592,
+          "size": 9729055,
+          "timestamp": "2021-03-10T22:00:01Z",
+          "author": "Ikmo-ned",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     },
     {
       "label": "Ateliers médiévaux dans la basse-cour",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Marlotte_atelier_d%27olivier_Charles_de_Penne%2C_monument_par_Arthur-le-Duc.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarlotte%20atelier%20d'olivier%20Charles%20de%20Penne%2C%20monument%20par%20Arthur-le-Duc.jpg",
+          "title": "Marlotte atelier d'olivier Charles de Penne, monument par Arthur-le-Duc.jpg",
+          "description": "Marlotte (Bourron-Marlotte, Seine-et-Marne) L'atelier de Charles-Olivier de Penne et le monument en son honneur, sculpteur Arthur Le Duc (1903). Carte postale vers 1910, photographe inconnu, collection particulière.",
+          "width": 1612,
+          "height": 2436,
+          "size": 3319503,
+          "timestamp": "2020-05-09T15:06:31Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q2865191\" class=\"extiw\" title=\"d:Q2865191\"><span title=\"French sculptor (1848-1918)\">Arthur Le Duc</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/M._Olivier_de_Penne_-_btv1b53112102r.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AM.%20Olivier%20de%20Penne%20-%20btv1b53112102r.jpg",
+          "title": "M. Olivier de Penne - btv1b53112102r.jpg",
+          "description": "Sujet : Penne, Olivier de (1831-1897) -- Portraits\nPortraits de studio -- 19e siècle\n\nLangue : français",
+          "width": 3362,
+          "height": 4410,
+          "size": 1923605,
+          "timestamp": "2025-02-24T01:39:43Z",
+          "author": "<div class=\"fn value\">\nAtelier Nadar. Photographe</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/M._Olivier_de_Penne_-_btv1b531121036.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AM.%20Olivier%20de%20Penne%20-%20btv1b531121036.jpg",
+          "title": "M. Olivier de Penne - btv1b531121036.jpg",
+          "description": "Sujet : Penne, Olivier de (1831-1897) -- Portraits\nPortraits de studio -- 19e siècle\n\nLangue : français",
+          "width": 3354,
+          "height": 4346,
+          "size": 2008151,
+          "timestamp": "2025-03-01T22:32:07Z",
+          "author": "<div class=\"fn value\">\nAtelier Nadar. Photographe</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Village de Penne au pied du château",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/France_Occitanie_81_Penne_Chateau_03.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20Occitanie%2081%20Penne%20Chateau%2003.jpg",
+          "title": "France Occitanie 81 Penne Chateau 03.jpg",
+          "description": "Château de Penne",
+          "width": 6016,
+          "height": 4016,
+          "size": 8752642,
+          "timestamp": "2020-03-26T12:06:25Z",
+          "author": "Calips",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/France_Occitanie_81_Penne_Chateau_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20Occitanie%2081%20Penne%20Chateau%2001.jpg",
+          "title": "France Occitanie 81 Penne Chateau 01.jpg",
+          "description": "Château de Penne",
+          "width": 6016,
+          "height": 4016,
+          "size": 16090765,
+          "timestamp": "2020-03-26T12:06:25Z",
+          "author": "Calips",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/France_Occitanie_81_Penne_Chateau_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20Occitanie%2081%20Penne%20Chateau%2002.jpg",
+          "title": "France Occitanie 81 Penne Chateau 02.jpg",
+          "description": "Château de Penne",
+          "width": 6016,
+          "height": 4016,
+          "size": 14982637,
+          "timestamp": "2020-03-26T12:06:25Z",
+          "author": "Calips",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     }
   ]
 }

@@ -1,12 +1,27 @@
 {
   "slug": "rocroi",
   "nom": "Rocroi",
-  "fetchedAt": "2026-03-14T11:48:46.534Z",
+  "fetchedAt": "2026-03-18T17:41:16.539Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Rocroi_vu_des_remparts.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARocroi%20vu%20des%20remparts.JPG",
+      "title": "Rocroi vu des remparts.JPG",
+      "description": "Une vue du point le plus haut des remparts de Rocroi",
+      "width": 4272,
+      "height": 2848,
+      "size": 5432400,
+      "timestamp": "2010-04-10T21:39:06Z",
+      "author": "ClementV",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Rue_de_Bourgogne_from_the_central_square%2C_Rocroi%2C_2020.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARue%20de%20Bourgogne%20from%20the%20central%20square%2C%20Rocroi%2C%202020.jpg",
       "title": "Rue de Bourgogne from the central square, Rocroi, 2020.jpg",
+      "description": "Rue de Bourgogne from the central square, Rocroi, 2020",
       "width": 5946,
       "height": 3954,
       "size": 13793605,
@@ -20,23 +35,11 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Rue_de_Montmorency_from_the_bastion%2C_Rocroi%2C_2020.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARue%20de%20Montmorency%20from%20the%20bastion%2C%20Rocroi%2C%202020.jpg",
       "title": "Rue de Montmorency from the bastion, Rocroi, 2020.jpg",
+      "description": "Rue de Montmorency from the bastion, Rocroi, 2020",
       "width": 5897,
       "height": 3921,
       "size": 14325898,
       "timestamp": "2023-01-11T16:20:20Z",
-      "author": "DimiTalen",
-      "license": "CC0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Rue_de_Montmorency_from_the_central_square%2C_Rocroi%2C_2020.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARue%20de%20Montmorency%20from%20the%20central%20square%2C%20Rocroi%2C%202020.jpg",
-      "title": "Rue de Montmorency from the central square, Rocroi, 2020.jpg",
-      "width": 6016,
-      "height": 4000,
-      "size": 12441422,
-      "timestamp": "2023-01-11T16:20:22Z",
       "author": "DimiTalen",
       "license": "CC0",
       "licenseUrl": "https://creativecommons.org/licenses/",
@@ -46,44 +49,90 @@
   "lieux": [
     {
       "label": "Chemin de ronde",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Les_Environs_de_Philippeville%2C_Charlemont%2C_Chimay%2C_Marienbourg%2C_Rocroix_et_Charleville_-_btv1b53241434w_%281_of_2%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20Environs%20de%20Philippeville%2C%20Charlemont%2C%20Chimay%2C%20Marienbourg%2C%20Rocroix%20et%20Charleville%20-%20btv1b53241434w%20(1%20of%202).jpg",
+          "title": "Les Environs de Philippeville, Charlemont, Chimay, Marienbourg, Rocroix et Charleville - btv1b53241434w (1 of 2).jpg",
+          "description": "Sujet : Rocroi\nPhilippeville\nCharlemont, Fort de\nMarienbourg\nÉchelle(s) : Echelle de trois Heures de Chemin [= 11,2 cm]\nCouverture : Belgique – Namur\nLangue : français\n\nÉditeur : Chez le Sr. de Fer (A Paris)",
+          "width": 7006,
+          "height": 4424,
+          "size": 6462330,
+          "timestamp": "2024-07-19T07:49:34Z",
+          "author": "<div class=\"fn value\">\nFer, Nicolas de (1647?-1720). Cartographe</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Les_Environs_de_Philippeville%2C_Charlemont%2C_Chimay%2C_Marienbourg%2C_Rocroix_et_Charleville_-_btv1b53241434w_%282_of_2%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20Environs%20de%20Philippeville%2C%20Charlemont%2C%20Chimay%2C%20Marienbourg%2C%20Rocroix%20et%20Charleville%20-%20btv1b53241434w%20(2%20of%202).jpg",
+          "title": "Les Environs de Philippeville, Charlemont, Chimay, Marienbourg, Rocroix et Charleville - btv1b53241434w (2 of 2).jpg",
+          "description": "Sujet : Rocroi\nPhilippeville\nCharlemont, Fort de\nMarienbourg\nÉchelle(s) : Echelle de trois Heures de Chemin [= 11,2 cm]\nCouverture : Belgique – Namur\nLangue : français\n\nÉditeur : Chez le Sr. de Fer (A Paris)",
+          "width": 7068,
+          "height": 4464,
+          "size": 6033773,
+          "timestamp": "2024-07-19T07:49:50Z",
+          "author": "<div class=\"fn value\">\nFer, Nicolas de (1647?-1720). Cartographe</div>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/NMVB_Zuid_Namen_%28cropped%2C_Tremblois-l%C3%A8s-Rocroi%E2%80%93Petite-Chapelle%29.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANMVB%20Zuid%20Namen%20(cropped%2C%20Tremblois-l%C3%A8s-Rocroi%E2%80%93Petite-Chapelle).png",
+          "title": "NMVB Zuid Namen (cropped, Tremblois-lès-Rocroi–Petite-Chapelle).png",
+          "description": "Map of the vicinal railways in the South of the province of Namur.",
+          "width": 1841,
+          "height": 1953,
+          "size": 368984,
+          "timestamp": "2022-07-29T11:12:50Z",
+          "author": "Smiley.toerist",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Bastion du Dauphin",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/H%C3%B4pital_Citadelle_07550_Rocroy.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AH%C3%B4pital%20Citadelle%2007550%20Rocroy.JPG",
-          "title": "Hôpital Citadelle 07550 Rocroy.JPG",
-          "width": 4240,
-          "height": 2832,
-          "size": 8781824,
-          "timestamp": "2015-08-16T17:04:07Z",
-          "author": "G.Garitan",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Rue_de_Montmorency_from_the_bastion%2C_Rocroi%2C_2020.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARue%20de%20Montmorency%20from%20the%20bastion%2C%20Rocroi%2C%202020.jpg",
+          "title": "Rue de Montmorency from the bastion, Rocroi, 2020.jpg",
+          "description": "Rue de Montmorency from the bastion, Rocroi, 2020",
+          "width": 5897,
+          "height": 3921,
+          "size": 14325898,
+          "timestamp": "2023-01-11T16:20:20Z",
+          "author": "DimiTalen",
+          "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Bastion_du_Petit_Fort%2C_Rocroi%2C_2020.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABastion%20du%20Petit%20Fort%2C%20Rocroi%2C%202020.jpg",
+          "title": "Bastion du Petit Fort, Rocroi, 2020.jpg",
+          "description": "Bastion du Petit Fort, Rocroi, 2020",
+          "width": 6016,
+          "height": 3425,
+          "size": 10915749,
+          "timestamp": "2023-01-11T16:20:36Z",
+          "author": "DimiTalen",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Bastion_du_Dauphin_Rocroi_07555.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABastion%20du%20Dauphin%20Rocroi%2007555.JPG",
           "title": "Bastion du Dauphin Rocroi 07555.JPG",
+          "description": "dans le Bastion du Dauphin de Rocroi.",
           "width": 4240,
           "height": 2832,
           "size": 7001379,
-          "timestamp": "2015-08-16T17:04:11Z",
-          "author": "G.Garitan",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/%C3%89p%C3%A9e_service_de_sant%C3%A9_07563_expo_Rocroy.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89p%C3%A9e%20service%20de%20sant%C3%A9%2007563%20expo%20Rocroy.JPG",
-          "title": "Épée service de santé 07563 expo Rocroy.JPG",
-          "width": 3752,
-          "height": 1880,
-          "size": 3975564,
           "timestamp": "2015-08-16T17:04:11Z",
           "author": "G.Garitan",
           "license": "CC BY-SA 4.0",
@@ -94,7 +143,22 @@
     },
     {
       "label": "Porte de Bourgogne",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Optocht_met_de_Spaanse_vaandels_buitgemaakt_in_de_slag_bij_Rocroi%2C_1643%2C_RP-P-OB-81.524.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOptocht%20met%20de%20Spaanse%20vaandels%20buitgemaakt%20in%20de%20slag%20bij%20Rocroi%2C%201643%2C%20RP-P-OB-81.524.jpg",
+          "title": "Optocht met de Spaanse vaandels buitgemaakt in de slag bij Rocroi, 1643, RP-P-OB-81.524.jpg",
+          "description": "IdentificatieTitel(s): Optocht met de Spaanse vaandels buitgemaakt in de slag bij Rocroi, 1643 Les Cornettes, Guidons, et Drapeaux pris sur les Ennemis en la Bataille de Rocroy, portés en Ceremonie à nostre Damé, par les cent Suisses (titel op object)Objecttype: prent nieuwsprent Objectnummer: RP-P-OB-81.524Catalogusreferentie: FMH 1868-C, Opmerking: (toegevoegd nummer RPK), IFF 636 Opschriften / Merken: verzamelaarsmerk, verso, gestempeld: Lugt 240 Omschrijving: Optocht met de tijdens de slag b",
+          "width": 6666,
+          "height": 2206,
+          "size": 4612674,
+          "timestamp": "2024-05-03T05:51:26Z",
+          "author": "Rijksmuseum",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Place Ducale",

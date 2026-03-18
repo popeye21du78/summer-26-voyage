@@ -1,12 +1,13 @@
 {
   "slug": "cite-jardin-de-stains",
   "nom": "Cité-Jardin de Stains",
-  "fetchedAt": "2026-03-13T00:46:32.776Z",
+  "fetchedAt": "2026-03-16T12:04:57.704Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Avenue_Division_Leclerc_-_Stains_%28FR93%29_-_2022-08-15_-_2.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAvenue%20Division%20Leclerc%20-%20Stains%20(FR93)%20-%202022-08-15%20-%202.jpg",
       "title": "Avenue Division Leclerc - Stains (FR93) - 2022-08-15 - 2.jpg",
+      "description": "Avenue de la Division-Leclerc, Stains en Seine-Saint-Denis.",
       "width": 4032,
       "height": 3024,
       "size": 5575533,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Avenue_Fran%C3%A7ois_B%C3%A9gu%C3%A9_-_Stains_%28FR93%29_-_2022-08-15_-_2.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAvenue%20Fran%C3%A7ois%20B%C3%A9gu%C3%A9%20-%20Stains%20(FR93)%20-%202022-08-15%20-%202.jpg",
       "title": "Avenue François Bégué - Stains (FR93) - 2022-08-15 - 2.jpg",
+      "description": "Avenue François-Bégué, Stains en Seine-Saint-Denis.",
       "width": 4032,
       "height": 3024,
       "size": 4058051,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Avenue_Fran%C3%A7ois_B%C3%A9gu%C3%A9_-_Stains_%28FR93%29_-_2022-08-15_-_1.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAvenue%20Fran%C3%A7ois%20B%C3%A9gu%C3%A9%20-%20Stains%20(FR93)%20-%202022-08-15%20-%201.jpg",
       "title": "Avenue François Bégué - Stains (FR93) - 2022-08-15 - 1.jpg",
+      "description": "Avenue François-Bégué, Stains en Seine-Saint-Denis.",
       "width": 4032,
       "height": 3024,
       "size": 5977724,
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Immeuble_2_Place_Marcel_Pointet_-_Stains_%28FR93%29_-_2022-08-15_-_1.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AImmeuble%202%20Place%20Marcel%20Pointet%20-%20Stains%20(FR93)%20-%202022-08-15%20-%201.jpg",
           "title": "Immeuble 2 Place Marcel Pointet - Stains (FR93) - 2022-08-15 - 1.jpg",
+          "description": "Immeuble, 2 place Marcel Pointet, Stains en Seine-Saint-Denis.",
           "width": 4032,
           "height": 3024,
           "size": 4828367,
@@ -64,7 +68,22 @@
     },
     {
       "label": "Avenue George Sand",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/STAINS_Avenue_Solon.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASTAINS%20Avenue%20Solon.JPG",
+          "title": "STAINS Avenue Solon.JPG",
+          "description": "Carte postale ancienne, éditée par Davoust : la Cité Jardin de Stains",
+          "width": 1629,
+          "height": 1060,
+          "size": 209483,
+          "timestamp": "2006-11-18T22:11:03Z",
+          "author": "Document scanné par Claude Shoshany",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     },
     {
       "label": "Square de la Cité-Jardin",

@@ -1,12 +1,13 @@
 {
   "slug": "blou",
   "nom": "Blou",
-  "fetchedAt": "2026-03-13T00:21:35.806Z",
+  "fetchedAt": "2026-03-15T19:47:15.386Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Blou_%2849%29_%C3%89glise_Notre-Dame_-_Ext%C3%A9rieur_-_03.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABlou%20(49)%20%C3%89glise%20Notre-Dame%20-%20Ext%C3%A9rieur%20-%2003.jpg",
       "title": "Blou (49) Église Notre-Dame - Extérieur - 03.jpg",
+      "description": "Extérieur de l'église Notre-Dame de Blou (49).",
       "width": 3648,
       "height": 2736,
       "size": 4007242,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Blou_%2849%29_%C3%89glise_Notre-Dame_-_Ext%C3%A9rieur_-_01.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABlou%20(49)%20%C3%89glise%20Notre-Dame%20-%20Ext%C3%A9rieur%20-%2001.jpg",
       "title": "Blou (49) Église Notre-Dame - Extérieur - 01.jpg",
+      "description": "Extérieur de l'église Notre-Dame de Blou (49).",
       "width": 3648,
       "height": 2333,
       "size": 2875537,
@@ -30,23 +32,67 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Saint-Philbert-du-Peuple_%2849%29_Cimeti%C3%A8re_-_01.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Philbert-du-Peuple%20(49)%20Cimeti%C3%A8re%20-%2001.jpg",
-      "title": "Saint-Philbert-du-Peuple (49) Cimetière - 01.jpg",
-      "width": 3648,
-      "height": 2056,
-      "size": 2759903,
-      "timestamp": "2026-01-24T17:27:41Z",
-      "author": "Bo35bo35",
-      "license": "CC BY 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/49_Blou_%C3%A9glise.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A49%20Blou%20%C3%A9glise.jpg",
+      "title": "49 Blou église.jpg",
+      "description": "L'église Notre-Dame de Blou (Maine-et-Loire, France).",
+      "width": 4000,
+      "height": 3000,
+      "size": 2177536,
+      "timestamp": "2017-08-20T13:33:07Z",
+      "author": "Simon de l'Ouest",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 6
     }
   ],
   "lieux": [
     {
       "label": "Église Saint-Martin de Blou",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Blou_%2849%29_%C3%89glise_Notre-Dame_-_Ext%C3%A9rieur_-_03.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABlou%20(49)%20%C3%89glise%20Notre-Dame%20-%20Ext%C3%A9rieur%20-%2003.jpg",
+          "title": "Blou (49) Église Notre-Dame - Extérieur - 03.jpg",
+          "description": "Extérieur de l'église Notre-Dame de Blou (49).",
+          "width": 3648,
+          "height": 2736,
+          "size": 4007242,
+          "timestamp": "2026-01-24T16:30:41Z",
+          "author": "Bo35bo35",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Blou_%2849%29_%C3%89glise_Notre-Dame_-_Ext%C3%A9rieur_-_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABlou%20(49)%20%C3%89glise%20Notre-Dame%20-%20Ext%C3%A9rieur%20-%2001.jpg",
+          "title": "Blou (49) Église Notre-Dame - Extérieur - 01.jpg",
+          "description": "Extérieur de l'église Notre-Dame de Blou (49).",
+          "width": 3648,
+          "height": 2333,
+          "size": 2875537,
+          "timestamp": "2026-01-24T16:30:41Z",
+          "author": "Bo35bo35",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/49_Blou_%C3%A9glise.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A49%20Blou%20%C3%A9glise.jpg",
+          "title": "49 Blou église.jpg",
+          "description": "L'église Notre-Dame de Blou (Maine-et-Loire, France).",
+          "width": 4000,
+          "height": 3000,
+          "size": 2177536,
+          "timestamp": "2017-08-20T13:33:07Z",
+          "author": "Simon de l'Ouest",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Calvaire de Blou",

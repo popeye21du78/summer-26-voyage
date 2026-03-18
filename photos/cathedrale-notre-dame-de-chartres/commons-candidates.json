@@ -1,46 +1,49 @@
 {
   "slug": "cathedrale-notre-dame-de-chartres",
   "nom": "Cathédrale Notre-Dame de Chartres",
-  "fetchedAt": "2026-03-13T12:32:03.910Z",
+  "fetchedAt": "2026-03-15T20:49:35.027Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Saint_Etienne_sous_Bailleul_-_Mairie.png",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint%20Etienne%20sous%20Bailleul%20-%20Mairie.png",
-      "title": "Saint Etienne sous Bailleul - Mairie.png",
-      "width": 3446,
-      "height": 2584,
-      "size": 10860659,
-      "timestamp": "2022-07-23T18:54:06Z",
-      "author": "www",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Roof_of_Chartres_Cathedral_20160326_2.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARoof%20of%20Chartres%20Cathedral%2020160326%202.jpg",
+      "title": "Roof of Chartres Cathedral 20160326 2.jpg",
+      "description": "A view of the roof of Chartres Cathedral as seen from the north tower",
+      "width": 6140,
+      "height": 4912,
+      "size": 14008413,
+      "timestamp": "2016-03-29T16:39:40Z",
+      "author": "DXR",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Chartres_Cath%C3%A9drale_Notre-Dame_de_Chartres_Fassade_Mittelportal_Tympanon.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChartres%20Cath%C3%A9drale%20Notre-Dame%20de%20Chartres%20Fassade%20Mittelportal%20Tympanon.jpg",
+      "title": "Chartres Cathédrale Notre-Dame de Chartres Fassade Mittelportal Tympanon.jpg",
+      "description": "Tympanum of the Central Portal of the Cathedral of Our Lady, Chartres, Department of Eure-et-Loire, Region of Centre-Loire Valley, France",
+      "width": 4534,
+      "height": 3368,
+      "size": 7754723,
+      "timestamp": "2020-04-28T18:41:16Z",
+      "author": "Zairon",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/ECLUSE_ND_de_LA_GARENNE_0804_30.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AECLUSE%20ND%20de%20LA%20GARENNE%200804%2030.jpg",
-      "title": "ECLUSE ND de LA GARENNE 0804 30.jpg",
-      "width": 1632,
-      "height": 1224,
-      "size": 886448,
-      "timestamp": "2017-03-30T16:46:11Z",
-      "author": "Totorvdr59",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Chartres_Cath%C3%A9drale_Notre-Dame_de_Chartres_Chor_08.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChartres%20Cath%C3%A9drale%20Notre-Dame%20de%20Chartres%20Chor%2008.jpg",
+      "title": "Chartres Cathédrale Notre-Dame de Chartres Chor 08.jpg",
+      "description": "Choir of the Cathedral of Our Lady, Chartres, Department of Eure-et-Loire, Region of Centre-Loire Valley, France",
+      "width": 4452,
+      "height": 3276,
+      "size": 5742499,
+      "timestamp": "2020-04-29T15:19:19Z",
+      "author": "Zairon",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Port-Mort_-_Grande_Rue_-_bo%C3%AEte_%C3%A0_livres.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APort-Mort%20-%20Grande%20Rue%20-%20bo%C3%AEte%20%C3%A0%20livres.jpg",
-      "title": "Port-Mort - Grande Rue - boîte à livres.jpg",
-      "width": 1875,
-      "height": 2500,
-      "size": 1041554,
-      "timestamp": "2024-08-21T17:01:07Z",
-      "author": "FORNACCIARI Sébastien",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 7
     }
   ],
   "lieux": [
@@ -48,39 +51,89 @@
       "label": "Portail royal (façade ouest)",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Chartres_%28Eure-et-Loir%29_-_Cath%C3%A9drale_Notre-Dame_-_Fa%C3%A7ade_ouest_-_Portail_royal_%2840900747173%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChartres%20(Eure-et-Loir)%20-%20Cath%C3%A9drale%20Notre-Dame%20-%20Fa%C3%A7ade%20ouest%20-%20Portail%20royal%20(40900747173).jpg",
-          "title": "Chartres (Eure-et-Loir) - Cathédrale Notre-Dame - Façade ouest - Portail royal (40900747173).jpg",
-          "width": 5010,
-          "height": 3201,
-          "size": 5287676,
-          "timestamp": "2022-08-21T20:24:00Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Henri_Le_Sidaner_-_Le_vitrail%2C_Chartres_-_PPP3734_-_Mus%C3%A9e_des_Beaux-Arts_de_la_ville_de_Paris.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHenri%20Le%20Sidaner%20-%20Le%20vitrail%2C%20Chartres%20-%20PPP3734%20-%20Mus%C3%A9e%20des%20Beaux-Arts%20de%20la%20ville%20de%20Paris.jpg",
+          "title": "Henri Le Sidaner - Le vitrail, Chartres - PPP3734 - Musée des Beaux-Arts de la ville de Paris.jpg",
+          "description": "",
+          "width": 3500,
+          "height": 5233,
+          "size": 3571798,
+          "timestamp": "2021-01-01T02:29:52Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Henri_Le_Sidaner\" class=\"extiw\" title=\"w:en:Henri Le Sidaner\"><span title=\"French painter (1862-1939)\">Henri Le Sidaner</span></a></bdi>",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Rue_de_l%27%C3%A9troit_degr%C3%A9_clo%C3%AEtre_Notre-Dame_de_Chartres_Eure-et-Loir_France.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARue%20de%20l'%C3%A9troit%20degr%C3%A9%20clo%C3%AEtre%20Notre-Dame%20de%20Chartres%20Eure-et-Loir%20France.jpg",
+          "title": "Rue de l'étroit degré cloître Notre-Dame de Chartres Eure-et-Loir France.jpg",
+          "description": "Rue de l'étroit degré, cloître Notre-Dame de Chartres, Eure-et-Loir, France.",
+          "width": 3000,
+          "height": 4000,
+          "size": 2699339,
+          "timestamp": "2022-01-16T13:52:54Z",
+          "author": "Le Passant",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Chartres_Cathedral_Royal_Port_Left_Bay_Tympanum_2007_08_31.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChartres%20Cathedral%20Royal%20Port%20Left%20Bay%20Tympanum%202007%2008%2031.jpg",
+          "title": "Chartres Cathedral Royal Port Left Bay Tympanum 2007 08 31.jpg",
+          "description": "Chartres, France\n\n\nTympanum of the left bay of the royal port of Chartres Cathedral.",
+          "width": 2760,
+          "height": 2336,
+          "size": 2718050,
+          "timestamp": "2008-07-31T07:15:46Z",
+          "author": "Andreas F. Borchert",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "label": "Labyrinthe de la nef",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Chartres_%28Eure-et-Loir%29_-_Cath%C3%A9drale_Notre-Dame_-_Le_labyrinthe_%2846996976884%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChartres%20(Eure-et-Loir)%20-%20Cath%C3%A9drale%20Notre-Dame%20-%20Le%20labyrinthe%20(46996976884).jpg",
+          "title": "Chartres (Eure-et-Loir) - Cathédrale Notre-Dame - Le labyrinthe (46996976884).jpg",
+          "description": "Chartres (Eure-et-Loir) - Cathédrale Notre-Dame - Le labyrinthe\nLe labyrinthe de Chartres, œuvre du XIIe siècle, est une figure géométrique circulaire de 12,89 m de diamètre inscrite dans toute la largeur du pavage de la nef principale, entre les troisième et quatrième travées. Elle représente un tracé continu déployé de 261,55 m ..................\n\n&lt;a href=\"https://fr.wikipedia.org/wiki/Cath%C3%A9drale_Notre-Dame_de_Chartres#Le_labyrinthe\" rel=\"noreferrer nofollow\"&gt;fr.wikipedia.org/wiki/C",
+          "width": 5036,
+          "height": 3246,
+          "size": 6445480,
+          "timestamp": "2022-08-21T20:17:52Z",
           "author": "Patrick",
           "license": "CC BY-SA 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Chartres_%28Eure-et-Loir%29_-_Cath%C3%A9drale_Notre-Dame_-_Fa%C3%A7ade_ouest_-_Portail_royal_%2832928917517%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChartres%20(Eure-et-Loir)%20-%20Cath%C3%A9drale%20Notre-Dame%20-%20Fa%C3%A7ade%20ouest%20-%20Portail%20royal%20(32928917517).jpg",
-          "title": "Chartres (Eure-et-Loir) - Cathédrale Notre-Dame - Façade ouest - Portail royal (32928917517).jpg",
-          "width": 4962,
-          "height": 3133,
-          "size": 6671054,
-          "timestamp": "2022-08-21T20:24:06Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Chartres_%28Eure-et-Loir%29_-_Cath%C3%A9drale_Notre-Dame_-_Le_labyrinthe_%2847005276914%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChartres%20(Eure-et-Loir)%20-%20Cath%C3%A9drale%20Notre-Dame%20-%20Le%20labyrinthe%20(47005276914).jpg",
+          "title": "Chartres (Eure-et-Loir) - Cathédrale Notre-Dame - Le labyrinthe (47005276914).jpg",
+          "description": "Chartres (Eure-et-Loir) - Cathédrale Notre-Dame - Le labyrinthe\nLe labyrinthe de Chartres, œuvre du XIIe siècle, est une figure géométrique circulaire de 12,89 m de diamètre inscrite dans toute la largeur du pavage de la nef principale, entre les troisième et quatrième travées. Elle représente un tracé continu déployé de 261,55 m ..................\n\n&lt;a href=\"https://fr.wikipedia.org/wiki/Cath%C3%A9drale_Notre-Dame_de_Chartres#Le_labyrinthe\" rel=\"noreferrer nofollow\"&gt;fr.wikipedia.org/wiki/C",
+          "width": 4597,
+          "height": 3074,
+          "size": 5994557,
+          "timestamp": "2022-08-21T20:18:23Z",
           "author": "Patrick",
           "license": "CC BY-SA 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Chartres_%28Eure-et-Loir%29_-_Cath%C3%A9drale_Notre-Dame_-_Fa%C3%A7ade_ouest_-_Portail_royal_-_Tympan_de_droite_%2832928917227%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChartres%20(Eure-et-Loir)%20-%20Cath%C3%A9drale%20Notre-Dame%20-%20Fa%C3%A7ade%20ouest%20-%20Portail%20royal%20-%20Tympan%20de%20droite%20(32928917227).jpg",
-          "title": "Chartres (Eure-et-Loir) - Cathédrale Notre-Dame - Façade ouest - Portail royal - Tympan de droite (32928917227).jpg",
-          "width": 4545,
-          "height": 3432,
-          "size": 7141860,
-          "timestamp": "2022-08-21T20:24:08Z",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Chartres_%28Eure-et-Loir%29_-_Cath%C3%A9drale_Notre-Dame_-_Le_labyrinthe_%2840894318303%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChartres%20(Eure-et-Loir)%20-%20Cath%C3%A9drale%20Notre-Dame%20-%20Le%20labyrinthe%20(40894318303).jpg",
+          "title": "Chartres (Eure-et-Loir) - Cathédrale Notre-Dame - Le labyrinthe (40894318303).jpg",
+          "description": "Chartres (Eure-et-Loir) - Cathédrale Notre-Dame - Le labyrinthe\nLe labyrinthe de Chartres, œuvre du XIIe siècle, est une figure géométrique circulaire de 12,89 m de diamètre inscrite dans toute la largeur du pavage de la nef principale, entre les troisième et quatrième travées. Elle représente un tracé continu déployé de 261,55 m ..................\n\n&lt;a href=\"https://fr.wikipedia.org/wiki/Cath%C3%A9drale_Notre-Dame_de_Chartres#Le_labyrinthe\" rel=\"noreferrer nofollow\"&gt;fr.wikipedia.org/wiki/C",
+          "width": 4550,
+          "height": 3308,
+          "size": 5228128,
+          "timestamp": "2022-08-21T20:23:24Z",
           "author": "Patrick",
           "license": "CC BY-SA 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
@@ -89,16 +142,98 @@
       ]
     },
     {
-      "label": "Labyrinthe de la nef",
-      "photos": []
-    },
-    {
       "label": "Vitraux du déambulatoire nord",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Chartres_%28Eure-et-Loir%29_-_Cath%C3%A9drale_Notre-Dame_-_Fa%C3%A7ade_ouest_-_Vitraux_49-50-51_%28XIIe%29_%2846996975964%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChartres%20(Eure-et-Loir)%20-%20Cath%C3%A9drale%20Notre-Dame%20-%20Fa%C3%A7ade%20ouest%20-%20Vitraux%2049-50-51%20(XIIe)%20(46996975964).jpg",
+          "title": "Chartres (Eure-et-Loir) - Cathédrale Notre-Dame - Façade ouest - Vitraux 49-50-51 (XIIe) (46996975964).jpg",
+          "description": "Chartres (Eure-et-Loir) - Cathédrale Notre-Dame - Façade ouest - Vitraux 49-50-51 (XIIe) (droite à gauche) :\n- Arbre de Jessé (49) : &lt;a href=\"http://www.vitraux-chartres.fr/vitraux/49_vitrail_arbre_jesse/index.htm\" rel=\"noreferrer nofollow\"&gt;www.vitraux-chartres.fr/vitraux/49_vitrail_arbre_jesse/in...&lt;/a&gt;\n- Incarnation et enfance du Christ (50) : &lt;a href=\"http://www.vitraux-chartres.fr/vitraux/50_vitrail_incarnation_et_enfance_christ/index.htm\" rel=\"noreferrer nofollow\"&gt;www.vitr",
+          "width": 4458,
+          "height": 3554,
+          "size": 5742191,
+          "timestamp": "2022-08-21T20:17:56Z",
+          "author": "Patrick",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Chartres_%28Eure-et-Loir%29_-_Cath%C3%A9drale_Notre-Dame_-_Choeur_-_Vitraux_15%2C_13%2C_11_%28de_gauche_%C3%A0_droite%29_%2846906805915%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChartres%20(Eure-et-Loir)%20-%20Cath%C3%A9drale%20Notre-Dame%20-%20Choeur%20-%20Vitraux%2015%2C%2013%2C%2011%20(de%20gauche%20%C3%A0%20droite)%20(46906805915).jpg",
+          "title": "Chartres (Eure-et-Loir) - Cathédrale Notre-Dame - Choeur - Vitraux 15, 13, 11 (de gauche à droite) (46906805915).jpg",
+          "description": "Chartres (Eure-et-Loir) - Cathédrale Notre-Dame - Choeur - Vitraux 15, 13, 11 (de gauche à droite)\n15 : Vie de Saint Chéron : &lt;a href=\"http://www.vitraux-chartres.fr/vitraux/15_vitrail_vie_st_cheron/index.htm\" rel=\"noreferrer nofollow\"&gt;www.vitraux-chartres.fr/vitraux/15_vitrail_vie_st_cheron/...&lt;/a&gt;\n13 : Vie de Saint Etienne : &lt;a href=\"http://www.vitraux-chartres.fr/vitraux/13_vitrail_vie_st_etienne/index.htm\" rel=\"noreferrer nofollow\"&gt;www.vitraux-chartres.fr/vitraux/13_vitrail",
+          "width": 4799,
+          "height": 3178,
+          "size": 4778028,
+          "timestamp": "2022-08-21T20:20:11Z",
+          "author": "Patrick",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/20150927_CathedraleDeChartres_VitrauxDelAbside_DSC08233_PtrQs.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20150927%20CathedraleDeChartres%20VitrauxDelAbside%20DSC08233%20PtrQs.jpg",
+          "title": "20150927 CathedraleDeChartres VitrauxDelAbside DSC08233 PtrQs.jpg",
+          "description": "Chartres Cathedral, Apse (baye 100)",
+          "width": 3837,
+          "height": 5743,
+          "size": 14422837,
+          "timestamp": "2020-12-12T02:19:24Z",
+          "author": "PtrQs",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Vierge au Pilier",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Chartres_%2828%29_Cath%C3%A9drale_Notre-Dame_-_Tour_du_ch%C5%93ur_-_Mariage_de_la_Vierge_-_03.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChartres%20(28)%20Cath%C3%A9drale%20Notre-Dame%20-%20Tour%20du%20ch%C5%93ur%20-%20Mariage%20de%20la%20Vierge%20-%2003.jpg",
+          "title": "Chartres (28) Cathédrale Notre-Dame - Tour du chœur - Mariage de la Vierge - 03.jpg",
+          "description": "Tour du chœur de la cathédrale Notre-Dame de Chartres (28). Mariage de la Vierge.",
+          "width": 2100,
+          "height": 1400,
+          "size": 793252,
+          "timestamp": "2020-07-26T15:55:21Z",
+          "author": "GO69",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Chartres_%2828%29_Cath%C3%A9drale_Notre-Dame_-_Tour_du_ch%C5%93ur_-_Nativit%C3%A9_de_la_Vierge_-_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChartres%20(28)%20Cath%C3%A9drale%20Notre-Dame%20-%20Tour%20du%20ch%C5%93ur%20-%20Nativit%C3%A9%20de%20la%20Vierge%20-%2002.jpg",
+          "title": "Chartres (28) Cathédrale Notre-Dame - Tour du chœur - Nativité de la Vierge - 02.jpg",
+          "description": "Tour du chœur de la cathédrale Notre-Dame de Chartres (28). Nativité de la Vierge.",
+          "width": 1400,
+          "height": 2100,
+          "size": 604470,
+          "timestamp": "2020-07-26T15:46:03Z",
+          "author": "GO69",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Chartres_%2828%29_Cath%C3%A9drale_Notre-Dame_-_Tour_du_ch%C5%93ur_-_Mariage_de_la_Vierge_-_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChartres%20(28)%20Cath%C3%A9drale%20Notre-Dame%20-%20Tour%20du%20ch%C5%93ur%20-%20Mariage%20de%20la%20Vierge%20-%2002.jpg",
+          "title": "Chartres (28) Cathédrale Notre-Dame - Tour du chœur - Mariage de la Vierge - 02.jpg",
+          "description": "Tour du chœur de la cathédrale Notre-Dame de Chartres (28). Mariage de la Vierge.",
+          "width": 1400,
+          "height": 2100,
+          "size": 636019,
+          "timestamp": "2020-07-26T15:55:20Z",
+          "author": "GO69",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     }
   ]
 }

@@ -1,12 +1,13 @@
 {
   "slug": "martigues",
   "nom": "Martigues",
-  "fetchedAt": "2026-03-13T01:24:49.727Z",
+  "fetchedAt": "2026-03-16T21:22:08.585Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Wharf_Martigues.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWharf%20Martigues.jpg",
       "title": "Wharf Martigues.jpg",
+      "description": "Quai - bord de mer - Martigues - France - 2019",
       "width": 4160,
       "height": 3120,
       "size": 4020491,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Martigues_-_Tribunal_d%27Instance_%285790807447%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMartigues%20-%20Tribunal%20d'Instance%20(5790807447).jpg",
       "title": "Martigues - Tribunal d'Instance (5790807447).jpg",
+      "description": "We were on the way to The Camargue, when we stopped off in this small town near a Lagoon, not too far away from Marseille.\nThe Etang de Berre, situated between Marseille and the Camargue, has the largest petroleum refinery industry in France, which dominates the landscape. However, on the inland side of the Canal de Caronte is the former fishing port and artists' colony of Martigues, which still attracts a holiday crowd.\nMartigues lies on both banks of the canal and on the island of Brescon, whe",
       "width": 3648,
       "height": 2736,
       "size": 2488476,
@@ -30,15 +32,16 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/ISS053-E-46405_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS053-E-46405%20-%20View%20of%20Earth.jpg",
-      "title": "ISS053-E-46405 - View of Earth.jpg",
-      "width": 4928,
-      "height": 3280,
-      "size": 1989902,
-      "timestamp": "2021-04-01T10:57:48Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/PEM_martigues.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APEM%20martigues.jpg",
+      "title": "PEM martigues.jpg",
+      "description": "Photo du pôle d'échanges (gare routière) de Martigues.",
+      "width": 2242,
+      "height": 1100,
+      "size": 738468,
+      "timestamp": "2022-05-04T18:48:25Z",
+      "author": "Mathisfi",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     }
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Martigues_-_Fa%C3%A7ades_sur_l%27%C3%8Ele.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMartigues%20-%20Fa%C3%A7ades%20sur%20l'%C3%8Ele.jpg",
           "title": "Martigues - Façades sur l'Île.jpg",
+          "description": "Martigues (Bouches-du-Rhône, France) - Coloured façades of the L'Île neighborhood",
           "width": 5496,
           "height": 3670,
           "size": 7845787,
@@ -61,28 +65,30 @@
           "score": 7
         },
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Bottazzi-art-public-Martigues-2018.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABottazzi-art-public-Martigues-2018.jpg",
+          "title": "Bottazzi-art-public-Martigues-2018.jpg",
+          "description": "80 square meters painting created by the artist Guillaume Bottazzi in the historical district of Martigues",
+          "width": 3072,
+          "height": 2304,
+          "size": 3722529,
+          "timestamp": "2018-09-26T10:51:47Z",
+          "author": "Stephanie.epelly",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Martigues_-_boats.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMartigues%20-%20boats.jpg",
           "title": "Martigues - boats.jpg",
+          "description": "Boats in Martigues",
           "width": 3648,
           "height": 2736,
           "size": 2572578,
           "timestamp": "2011-07-07T20:12:15Z",
           "author": "Elliott Brown",
           "license": "CC BY 2.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Martigues%2Cste_Madeleine-de-l%27%C3%8Ele19%2Cma%C3%AEtre-autel2.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMartigues%2Cste%20Madeleine-de-l'%C3%8Ele19%2Cma%C3%AEtre-autel2.jpg",
-          "title": "Martigues,ste Madeleine-de-l'Île19,maître-autel2.jpg",
-          "width": 2729,
-          "height": 2045,
-          "size": 1045191,
-          "timestamp": "2014-03-29T16:46:44Z",
-          "author": "Finoskov",
-          "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 5
         }
@@ -92,22 +98,10 @@
       "label": "Miroir aux Oiseaux",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Miroir_aux_oiseaux.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMiroir%20aux%20oiseaux.jpg",
-          "title": "Miroir aux oiseaux.jpg",
-          "width": 1890,
-          "height": 1330,
-          "size": 2039359,
-          "timestamp": "2022-03-10T10:17:01Z",
-          "author": "Jicehem 83",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Martigues_-_Miroir_aux_Oiseaux.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMartigues%20-%20Miroir%20aux%20Oiseaux.jpg",
           "title": "Martigues - Miroir aux Oiseaux.jpg",
+          "description": "Martigues (Bouches-du-Rhône, France) - Miroir aux Oiseaux (Birds Mirror)",
           "width": 5496,
           "height": 3670,
           "size": 9352153,
@@ -115,12 +109,13 @@
           "author": "Benjamin Smith",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 3
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Le_Miroir_aux_Oiseaux_Martigues_1.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Miroir%20aux%20Oiseaux%20Martigues%201.jpg",
           "title": "Le Miroir aux Oiseaux Martigues 1.jpg",
+          "description": "'Le Miroir aux Oiseaux' in Martigues.",
           "width": 5400,
           "height": 3600,
           "size": 6809745,
@@ -128,7 +123,21 @@
           "author": "kallerna",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 3
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Le_Miroir_aux_Oiseaux_Martigues_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Miroir%20aux%20Oiseaux%20Martigues%202.jpg",
+          "title": "Le Miroir aux Oiseaux Martigues 2.jpg",
+          "description": "'Le Miroir aux Oiseaux' in Martigues.",
+          "width": 5400,
+          "height": 3650,
+          "size": 6544092,
+          "timestamp": "2024-11-09T20:22:39Z",
+          "author": "kallerna",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 3
         }
       ]
     },
@@ -136,43 +145,46 @@
       "label": "Plage de Sainte-Croix",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Aplus_scacchianus_01.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAplus%20scacchianus%2001.jpg",
-          "title": "Aplus scacchianus 01.jpg",
-          "width": 5500,
-          "height": 4536,
-          "size": 5295407,
-          "timestamp": "2015-10-29T18:26:27Z",
-          "author": "H. Zell",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Information_board_sentier_littoral_martigues_-_geomorphologie_Saint-Croix.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AInformation%20board%20sentier%20littoral%20martigues%20-%20geomorphologie%20Saint-Croix.jpg",
+          "title": "Information board sentier littoral martigues - geomorphologie Saint-Croix.jpg",
+          "description": "Geomorphologie de la plage de Sainte-Croix",
+          "width": 4032,
+          "height": 3024,
+          "size": 4037601,
+          "timestamp": "2020-01-10T12:24:47Z",
+          "author": "Blackfern",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Ocinebrina_edwardsii_01.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOcinebrina%20edwardsii%2001.JPG",
-          "title": "Ocinebrina edwardsii 01.JPG",
-          "width": 7500,
-          "height": 5925,
-          "size": 10139109,
-          "timestamp": "2015-11-11T15:56:55Z",
-          "author": "H. Zell",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Port_de_Carro_%28Martigues%2C_13%29_-_08.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APort%20de%20Carro%20(Martigues%2C%2013)%20-%2008.jpg",
+          "title": "Port de Carro (Martigues, 13) - 08.jpg",
+          "description": "Cale de halage devant le bâtiment de la station de sauvetage en mer et, au second plan, la plage de Carro (Martigues, Bouches-du-Rhône)",
+          "width": 6000,
+          "height": 4000,
+          "size": 9160980,
+          "timestamp": "2022-04-04T14:21:32Z",
+          "author": "Thérèse Gaigé",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Homalopoma_sanguineum_01.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHomalopoma%20sanguineum%2001.JPG",
-          "title": "Homalopoma sanguineum 01.JPG",
-          "width": 7000,
-          "height": 3799,
-          "size": 5969986,
-          "timestamp": "2015-11-17T16:44:05Z",
-          "author": "H. Zell",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Martigues_-_Plage_de_Ferri%C3%A8res.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMartigues%20-%20Plage%20de%20Ferri%C3%A8res.jpg",
+          "title": "Martigues - Plage de Ferrières.jpg",
+          "description": "Plage de Ferrières (Martigues, Provence, France)",
+          "width": 5530,
+          "height": 3111,
+          "size": 13425279,
+          "timestamp": "2025-08-31T08:17:20Z",
+          "author": "Jorge Franganillo",
+          "license": "CC BY 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         }
       ]
     },
@@ -180,9 +192,24 @@
       "label": "Notre-Dame-des-Marins",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Martigues_%E2%80%94_Le_port_de_Jonqui%C3%A8res_et_%C3%A0_l%27arri%C3%A8re_plan_en_haut_%C3%A0_gauche%2C_chapelle_Notre-Dame-des-Marins.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMartigues%20%E2%80%94%20Le%20port%20de%20Jonqui%C3%A8res%20et%20%C3%A0%20l'arri%C3%A8re%20plan%20en%20haut%20%C3%A0%20gauche%2C%20chapelle%20Notre-Dame-des-Marins.JPG",
+          "title": "Martigues — Le port de Jonquières et à l'arrière plan en haut à gauche, chapelle Notre-Dame-des-Marins.JPG",
+          "description": "Martigues - Harbour of Jonquières and in the background above on the left, chapel Notre-Dame-des-Marins",
+          "width": 1024,
+          "height": 768,
+          "size": 752761,
+          "timestamp": "2008-08-07T07:19:29Z",
+          "author": "Airair",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 3
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Martigues_%E2%80%94_Lever_de_soleil_sur_l%E2%80%99%C3%A9tang_de_Berre%2C_vue_depuis_la_chapelle_Notre-Dame-des-Marin.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMartigues%20%E2%80%94%20Lever%20de%20soleil%20sur%20l%E2%80%99%C3%A9tang%20de%20Berre%2C%20vue%20depuis%20la%20chapelle%20Notre-Dame-des-Marin.jpg",
           "title": "Martigues — Lever de soleil sur l’étang de Berre, vue depuis la chapelle Notre-Dame-des-Marin.jpg",
+          "description": "Martigues — Sunrise on étang de Berre, seen since the chapel Notre-Dame-des-Marins",
           "width": 1024,
           "height": 768,
           "size": 222371,
@@ -196,6 +223,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Martigues_%E2%80%94_Vue_g%C3%A9n%C3%A9rale_depuis_la_chapelle_Notre-Dame-des-Marins.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMartigues%20%E2%80%94%20Vue%20g%C3%A9n%C3%A9rale%20depuis%20la%20chapelle%20Notre-Dame-des-Marins.jpg",
           "title": "Martigues — Vue générale depuis la chapelle Notre-Dame-des-Marins.jpg",
+          "description": "Martigues — Overview since chapel Notre-Dame-des-Marins",
           "width": 1024,
           "height": 768,
           "size": 428314,
@@ -211,9 +239,24 @@
       "label": "Port de Carro",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Martigues_-_Tribunal_d%27Instance_%285790807447%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMartigues%20-%20Tribunal%20d'Instance%20(5790807447).jpg",
+          "title": "Martigues - Tribunal d'Instance (5790807447).jpg",
+          "description": "We were on the way to The Camargue, when we stopped off in this small town near a Lagoon, not too far away from Marseille.\nThe Etang de Berre, situated between Marseille and the Camargue, has the largest petroleum refinery industry in France, which dominates the landscape. However, on the inland side of the Canal de Caronte is the former fishing port and artists' colony of Martigues, which still attracts a holiday crowd.\nMartigues lies on both banks of the canal and on the island of Brescon, whe",
+          "width": 3648,
+          "height": 2736,
+          "size": 2488476,
+          "timestamp": "2021-03-06T10:19:06Z",
+          "author": "Elliott Brown",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Port_de_Carro_%28Martigues%2C_13%29_-_03.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APort%20de%20Carro%20(Martigues%2C%2013)%20-%2003.jpg",
           "title": "Port de Carro (Martigues, 13) - 03.jpg",
+          "description": "Situé sur la Côte Bleue, à la limite du golfe de Fos, Carro n'était à l'origine qu'un village de pêcheurs sur la commune de Martigues. Aujourd'hui, Carro est également un port de plaisance",
           "width": 6000,
           "height": 4000,
           "size": 8990367,
@@ -227,22 +270,10 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Port_de_Carro_%28Martigues%2C_13%29_-_02.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APort%20de%20Carro%20(Martigues%2C%2013)%20-%2002.jpg",
           "title": "Port de Carro (Martigues, 13) - 02.jpg",
+          "description": "Situé sur la Côte Bleue, à la limite du golfe de Fos, Carro n'était à l'origine qu'un village de pêcheurs sur la commune de Martigues. Aujourd'hui, Carro est également un port de plaisance",
           "width": 6000,
           "height": 4000,
           "size": 7481124,
-          "timestamp": "2022-04-03T18:37:16Z",
-          "author": "Thérèse Gaigé",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Port_de_Carro_%28Martigues%2C_13%29_-_01.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APort%20de%20Carro%20(Martigues%2C%2013)%20-%2001.jpg",
-          "title": "Port de Carro (Martigues, 13) - 01.jpg",
-          "width": 6000,
-          "height": 4000,
-          "size": 9552542,
           "timestamp": "2022-04-03T18:37:16Z",
           "author": "Thérèse Gaigé",
           "license": "CC BY-SA 4.0",
@@ -253,7 +284,50 @@
     },
     {
       "label": "Jardin de Figuerolles",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Martigues%2C_devant_la_maison_de_Ziem%2C_PPP342.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMartigues%2C%20devant%20la%20maison%20de%20Ziem%2C%20PPP342.jpg",
+          "title": "Martigues, devant la maison de Ziem, PPP342.jpg",
+          "description": "Auteur(s):\n\nZiem, Félix (Beaune, 26–02–1821 - Paris, 10–11–1911), peintre\n\n\nAutre titre:\n\nVenise, le jardin français (Titre ancien (périmé))\nDatation en siècle: \n2e moitié du 19e siècle\n\n\n\nType(s) d'objet(s):\n\nDessin, Arts graphiques\n\n\nDénomination(s):\n\nDessin\n\n\nMatériaux et techniques:\n\nAquarelle, Papier\n\n\nDimensions - Oeuvre:\n\n\n   Hauteur : 19.6 cm\n   Largeur : 33 cm\n\nDimensions - Passe-partout:\n\n   Hauteur : 40 cm\n   Largeur : 53 cm\n\n\n\nMarques, inscriptions, poinçons:\n\nSignature - Au recto, e",
+          "width": 5505,
+          "height": 3425,
+          "size": 4862773,
+          "timestamp": "2023-08-01T18:15:58Z",
+          "author": "Ziem, Félix (Beaune, 26–02–1821 - Paris, 10–11–1911), peintre",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/T%C3%AAte_de_Charles_Maurras_dans_son_jardin_de_Martigues_%28cropped%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AT%C3%AAte%20de%20Charles%20Maurras%20dans%20son%20jardin%20de%20Martigues%20(cropped).jpg",
+          "title": "Tête de Charles Maurras dans son jardin de Martigues (cropped).jpg",
+          "description": "Tête de Charles Maurras, 1868-1952, dans son jardin de Martigues, 22, chemin du Paradis, Bouches-du-Rhône, Provence. La tête a été réalisée par l'architecte et sculpteur Henry Bernard, Grand prix de Rome, reposant sur un merlon du mur grec du site de Saint-Blaise.",
+          "width": 3432,
+          "height": 4382,
+          "size": 10224094,
+          "timestamp": "2026-01-26T01:46:47Z",
+          "author": "Renaud Camus",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/T%C3%AAte_de_Charles_Maurras_dans_son_jardin_de_Martigues.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AT%C3%AAte%20de%20Charles%20Maurras%20dans%20son%20jardin%20de%20Martigues.jpg",
+          "title": "Tête de Charles Maurras dans son jardin de Martigues.jpg",
+          "description": "Tête de Charles Maurras, 1868-1952, dans son jardin de Martigues, 22, chemin du Paradis, Bouches-du-Rhône, Provence. La tête a été réalisée par l'architecte et sculpteur Henry Bernard, Grand prix de Rome, reposant sur un merlon du mur grec du site de Saint-Blaise.",
+          "width": 3456,
+          "height": 5184,
+          "size": 12020099,
+          "timestamp": "2014-02-14T21:50:36Z",
+          "author": "Renaud Camus",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     }
   ]
 }

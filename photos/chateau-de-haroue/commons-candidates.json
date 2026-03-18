@@ -1,25 +1,13 @@
 {
   "slug": "chateau-de-haroue",
   "nom": "Château de Haroué",
-  "fetchedAt": "2026-03-13T13:06:40.120Z",
+  "fetchedAt": "2026-03-15T21:29:00.629Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Tantonville%2C_Ch%C3%A2teau.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATantonville%2C%20Ch%C3%A2teau.jpg",
-      "title": "Tantonville, Château.jpg",
-      "width": 2769,
-      "height": 2012,
-      "size": 588071,
-      "timestamp": "2025-09-18T21:09:08Z",
-      "author": "Rauenstein",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Chateau_de_Haroue_003.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau%20de%20Haroue%20003.jpg",
       "title": "Chateau de Haroue 003.jpg",
+      "description": "Château de Haroué, may 2006",
       "width": 2191,
       "height": 1457,
       "size": 581612,
@@ -27,12 +15,13 @@
       "author": "M.Minderhoud",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Ch%C3%A2teau_de_Harou%C3%A9_4.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Harou%C3%A9%204.jpg",
       "title": "Château de Haroué 4.jpg",
+      "description": "Château de Haroué",
       "width": 3648,
       "height": 2736,
       "size": 3467830,
@@ -40,13 +29,56 @@
       "author": "Havang(nl)",
       "license": "CC0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Ch%C3%A2teau_d%27Harou%C3%A9_DSCF1702.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20d'Harou%C3%A9%20DSCF1702.jpg",
+      "title": "Château d'Haroué DSCF1702.jpg",
+      "description": "Pont sur les douves du château d'Haroué.",
+      "width": 4794,
+      "height": 4160,
+      "size": 18001118,
+      "timestamp": "2021-02-20T18:01:26Z",
+      "author": "Musicaline",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
     }
   ],
   "lieux": [
     {
       "label": "Salle à manger aux boiseries claires",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Ch%C3%A2teau_de_Craon_-_Salle_%C3%A0_manger_-_Harou%C3%A9_-_M%C3%A9diath%C3%A8que_de_l%27architecture_et_du_patrimoine_-_APMH00078265.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Craon%20-%20Salle%20%C3%A0%20manger%20-%20Harou%C3%A9%20-%20M%C3%A9diath%C3%A8que%20de%20l'architecture%20et%20du%20patrimoine%20-%20APMH00078265.jpg",
+          "title": "Château de Craon - Salle à manger - Haroué - Médiathèque de l'architecture et du patrimoine - APMH00078265.jpg",
+          "description": "Salle à manger.",
+          "width": 665,
+          "height": 512,
+          "size": 68984,
+          "timestamp": "2020-04-28T05:22:32Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q30131678\" class=\"extiw\" title=\"d:Q30131678\"><span title=\"French photographer (1851-1927)\">Henri Heuzé</span></a></bdi>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Ch%C3%A2teau_de_Craon_-_Salle_de_billard_-_Harou%C3%A9_-_M%C3%A9diath%C3%A8que_de_l%27architecture_et_du_patrimoine_-_APMH00078262.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Craon%20-%20Salle%20de%20billard%20-%20Harou%C3%A9%20-%20M%C3%A9diath%C3%A8que%20de%20l'architecture%20et%20du%20patrimoine%20-%20APMH00078262.jpg",
+          "title": "Château de Craon - Salle de billard - Haroué - Médiathèque de l'architecture et du patrimoine - APMH00078262.jpg",
+          "description": "Salle de billard.",
+          "width": 678,
+          "height": 512,
+          "size": 59673,
+          "timestamp": "2020-04-30T10:35:41Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q30131678\" class=\"extiw\" title=\"d:Q30131678\"><span title=\"French photographer (1851-1927)\">Henri Heuzé</span></a></bdi>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     },
     {
       "label": "Escalier d’honneur de Jean Lamour",
@@ -54,11 +86,41 @@
     },
     {
       "label": "Parc et douves",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Chateau_de_Haroue_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChateau%20de%20Haroue%2001.jpg",
+          "title": "Chateau de Haroue 01.jpg",
+          "description": "Le château de Haroué, vue du château depuis le parc.",
+          "width": 4539,
+          "height": 2955,
+          "size": 3331697,
+          "timestamp": "2023-04-11T16:24:22Z",
+          "author": "Patrick Maire",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     },
     {
       "label": "Bibliothèque lambrissée",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Ch%C3%A2teau_de_Craon_-_Biblioth%C3%A8que_-_Harou%C3%A9_-_M%C3%A9diath%C3%A8que_de_l%27architecture_et_du_patrimoine_-_APMH00078264.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20de%20Craon%20-%20Biblioth%C3%A8que%20-%20Harou%C3%A9%20-%20M%C3%A9diath%C3%A8que%20de%20l'architecture%20et%20du%20patrimoine%20-%20APMH00078264.jpg",
+          "title": "Château de Craon - Bibliothèque - Haroué - Médiathèque de l'architecture et du patrimoine - APMH00078264.jpg",
+          "description": "Bibliothèque.",
+          "width": 668,
+          "height": 512,
+          "size": 77177,
+          "timestamp": "2020-04-29T09:46:55Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q30131678\" class=\"extiw\" title=\"d:Q30131678\"><span title=\"French photographer (1851-1927)\">Henri Heuzé</span></a></bdi>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     }
   ]
 }

@@ -1,46 +1,49 @@
 {
   "slug": "beauville",
   "nom": "Beauville",
-  "fetchedAt": "2026-03-13T00:13:25.526Z",
+  "fetchedAt": "2026-03-15T19:32:43.740Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/ISS042-E-34855_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS042-E-34855%20-%20View%20of%20Earth.jpg",
-      "title": "ISS042-E-34855 - View of Earth.jpg",
-      "width": 4928,
-      "height": 3280,
-      "size": 1865055,
-      "timestamp": "2021-08-13T15:52:35Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Campingplatz_Les_2_Lacs_in_F_47470_Beauville_-_panoramio.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACampingplatz%20Les%202%20Lacs%20in%20F%2047470%20Beauville%20-%20panoramio.jpg",
+      "title": "Campingplatz Les 2 Lacs in F 47470 Beauville - panoramio.jpg",
+      "description": "Campingplatz Les 2 Lacs in F 47470 Beauville",
+      "width": 3072,
+      "height": 2304,
+      "size": 3302351,
+      "timestamp": "2016-11-02T07:39:28Z",
+      "author": "Karl-Heinz Böhm",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 6
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/ISS042-E-35504_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS042-E-35504%20-%20View%20of%20Earth.jpg",
-      "title": "ISS042-E-35504 - View of Earth.jpg",
-      "width": 4928,
-      "height": 3280,
-      "size": 2047690,
-      "timestamp": "2021-08-13T15:59:44Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Campingplatz_Les_2_Lacs_in_F_47470_Beauville_-_panoramio_-_Karl-Heinz_B%C3%B6hm.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACampingplatz%20Les%202%20Lacs%20in%20F%2047470%20Beauville%20-%20panoramio%20-%20Karl-Heinz%20B%C3%B6hm.jpg",
+      "title": "Campingplatz Les 2 Lacs in F 47470 Beauville - panoramio - Karl-Heinz Böhm.jpg",
+      "description": "Campingplatz Les 2 Lacs in F 47470 Beauville",
+      "width": 3072,
+      "height": 2304,
+      "size": 3493537,
+      "timestamp": "2016-11-02T07:39:39Z",
+      "author": "Karl-Heinz Böhm",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 6
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/ISS030-E-47979_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS030-E-47979%20-%20View%20of%20Earth.jpg",
-      "title": "ISS030-E-47979 - View of Earth.jpg",
-      "width": 4256,
-      "height": 2832,
-      "size": 872875,
-      "timestamp": "2021-10-25T11:11:07Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Campingplatz_Les_2_Lacs_in_F_47470_Beauville_-_panoramio_-_Karl-Heinz_B%C3%B6hm_%281%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACampingplatz%20Les%202%20Lacs%20in%20F%2047470%20Beauville%20-%20panoramio%20-%20Karl-Heinz%20B%C3%B6hm%20(1).jpg",
+      "title": "Campingplatz Les 2 Lacs in F 47470 Beauville - panoramio - Karl-Heinz Böhm (1).jpg",
+      "description": "Campingplatz Les 2 Lacs in F 47470 Beauville",
+      "width": 3072,
+      "height": 2304,
+      "size": 3651934,
+      "timestamp": "2016-11-02T07:39:49Z",
+      "author": "Karl-Heinz Böhm",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 6
     }
   ],
   "lieux": [
@@ -48,9 +51,24 @@
       "label": "Église Saint-Jacques de Beauville",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Saint-Martin-de-Beauville_-_%C3%89glise_Saint-Sixte_-1.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Martin-de-Beauville%20-%20%C3%89glise%20Saint-Sixte%20-1.JPG",
+          "title": "Saint-Martin-de-Beauville - Église Saint-Sixte -1.JPG",
+          "description": "Saint-Martin-de-Beauville - Église Saint-Sixte à Saint-Sixte - Vue depuis le chevet",
+          "width": 4556,
+          "height": 3255,
+          "size": 6286751,
+          "timestamp": "2015-08-12T13:34:57Z",
+          "author": "MOSSOT",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Saint-Martin-de-Beauville_-_%C3%89glise_Saint-Martin_-2.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Martin-de-Beauville%20-%20%C3%89glise%20Saint-Martin%20-2.JPG",
           "title": "Saint-Martin-de-Beauville - Église Saint-Martin -2.JPG",
+          "description": "Saint-Martin-de-Beauville - Église Saint-Martin vue du chevet",
           "width": 3877,
           "height": 2786,
           "size": 4729206,
@@ -58,39 +76,70 @@
           "author": "Jacques MOSSOT",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Saint-Martin-de-Beauville_-_%C3%89glise_Saint-Martin_-1.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Martin-de-Beauville%20-%20%C3%89glise%20Saint-Martin%20-1.JPG",
-          "title": "Saint-Martin-de-Beauville - Église Saint-Martin -1.JPG",
-          "width": 3884,
-          "height": 3216,
-          "size": 5259837,
-          "timestamp": "2014-07-21T15:07:49Z",
-          "author": "Jacques MOSSOT",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Beauville31_eg1.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABeauville31%20eg1.JPG",
+          "title": "Beauville31 eg1.JPG",
+          "description": "Eglise de Beauville, Haute-Garonne, France",
+          "width": 1600,
+          "height": 1200,
+          "size": 477630,
+          "timestamp": "2015-07-05T06:28:07Z",
+          "author": "Jack ma",
+          "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Saint-Martin-de-Beauville_-_%C3%89glise_Saint-Martin_-3.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Martin-de-Beauville%20-%20%C3%89glise%20Saint-Martin%20-3.JPG",
-          "title": "Saint-Martin-de-Beauville - Église Saint-Martin -3.JPG",
-          "width": 4896,
-          "height": 3672,
-          "size": 7073901,
-          "timestamp": "2014-07-21T15:07:53Z",
-          "author": "Jacques MOSSOT",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 6
         }
       ]
     },
     {
       "label": "Place centrale à arcades",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Lane_to_Beauville_Farm%2C_near_Dinas_Powis_-_geograph.org.uk_-_2089522.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALane%20to%20Beauville%20Farm%2C%20near%20Dinas%20Powis%20-%20geograph.org.uk%20-%202089522.jpg",
+          "title": "Lane to Beauville Farm, near Dinas Powis - geograph.org.uk - 2089522.jpg",
+          "description": "Lane to Beauville Farm, near Dinas Powis",
+          "width": 2816,
+          "height": 2112,
+          "size": 2189513,
+          "timestamp": "2021-05-31T08:51:45Z",
+          "author": "Gareth James",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Track_between_Wrinstone_and_Beauville_Farms_-_geograph.org.uk_-_2089515.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATrack%20between%20Wrinstone%20and%20Beauville%20Farms%20-%20geograph.org.uk%20-%202089515.jpg",
+          "title": "Track between Wrinstone and Beauville Farms - geograph.org.uk - 2089515.jpg",
+          "description": "Track between Wrinstone and Beauville Farms",
+          "width": 2112,
+          "height": 2816,
+          "size": 2707339,
+          "timestamp": "2021-05-31T08:50:02Z",
+          "author": "Gareth James",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Lane_to_Beauville_Farm%2C_near_Dinas_Powis_-_geograph.org.uk_-_2089526.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALane%20to%20Beauville%20Farm%2C%20near%20Dinas%20Powis%20-%20geograph.org.uk%20-%202089526.jpg",
+          "title": "Lane to Beauville Farm, near Dinas Powis - geograph.org.uk - 2089526.jpg",
+          "description": "Lane to Beauville Farm, near Dinas Powis",
+          "width": 2112,
+          "height": 2816,
+          "size": 2847349,
+          "timestamp": "2021-05-31T08:52:49Z",
+          "author": "Gareth James",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Point de vue du calvaire",

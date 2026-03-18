@@ -1,12 +1,13 @@
 {
   "slug": "riez",
   "nom": "Riez",
-  "fetchedAt": "2026-03-14T11:46:19.916Z",
+  "fetchedAt": "2026-03-18T17:34:35.859Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Alpes-de-Haute-Provence_-_Baptist%C3%A8re_de_Riez_-_02.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlpes-de-Haute-Provence%20-%20Baptist%C3%A8re%20de%20Riez%20-%2002.jpg",
       "title": "Alpes-de-Haute-Provence - Baptistère de Riez - 02.jpg",
+      "description": "France - Provence - Riez - baptistère paléochrétien",
       "width": 3764,
       "height": 2509,
       "size": 9411787,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Alpes-de-Haute-Provence_-_Baptist%C3%A8re_de_Riez_-_03.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlpes-de-Haute-Provence%20-%20Baptist%C3%A8re%20de%20Riez%20-%2003.jpg",
       "title": "Alpes-de-Haute-Provence - Baptistère de Riez - 03.jpg",
+      "description": "France - Provence - Riez - baptistère paléochrétien",
       "width": 3656,
       "height": 2592,
       "size": 7271295,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Alpes-de-Haute-Provence_-_Baptist%C3%A8re_de_Riez_-_05.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlpes-de-Haute-Provence%20-%20Baptist%C3%A8re%20de%20Riez%20-%2005.jpg",
       "title": "Alpes-de-Haute-Provence - Baptistère de Riez - 05.jpg",
+      "description": "France - Provence - Riez - baptistère paléochrétien",
       "width": 3519,
       "height": 2530,
       "size": 9945505,
@@ -46,7 +49,50 @@
   "lieux": [
     {
       "label": "Temple romain de Riez",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Riez_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARiez%2002.jpg",
+          "title": "Riez 02.jpg",
+          "description": "Temple of Apollo in Riez",
+          "width": 3008,
+          "height": 2000,
+          "size": 3443664,
+          "timestamp": "2015-08-02T13:22:40Z",
+          "author": "Calips",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Alpes-Haute-Provence_Riez_Colonnes_Romaines_Temple_Apollon_-_panoramio.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlpes-Haute-Provence%20Riez%20Colonnes%20Romaines%20Temple%20Apollon%20-%20panoramio.jpg",
+          "title": "Alpes-Haute-Provence Riez Colonnes Romaines Temple Apollon - panoramio.jpg",
+          "description": "Alpes-Haute-Provence Riez Colonnes Romaines Temple Apollon",
+          "width": 1600,
+          "height": 1200,
+          "size": 812315,
+          "timestamp": "2017-05-10T14:01:09Z",
+          "author": "rene boulay",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Temple_of_Apollo_in_Riez_Situation.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATemple%20of%20Apollo%20in%20Riez%20Situation.jpg",
+          "title": "Temple of Apollo in Riez Situation.jpg",
+          "description": "Temple of Apollo in Riez Situation",
+          "width": 4592,
+          "height": 3448,
+          "size": 9118208,
+          "timestamp": "2019-07-28T15:08:20Z",
+          "author": "Moleskine",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Baptistère paléochrétien",
@@ -55,6 +101,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Alpes-de-Haute-Provence_-_Baptist%C3%A8re_de_Riez_-_02.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlpes-de-Haute-Provence%20-%20Baptist%C3%A8re%20de%20Riez%20-%2002.jpg",
           "title": "Alpes-de-Haute-Provence - Baptistère de Riez - 02.jpg",
+          "description": "France - Provence - Riez - baptistère paléochrétien",
           "width": 3764,
           "height": 2509,
           "size": 9411787,
@@ -68,6 +115,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Alpes-de-Haute-Provence_-_Baptist%C3%A8re_de_Riez_-_03.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlpes-de-Haute-Provence%20-%20Baptist%C3%A8re%20de%20Riez%20-%2003.jpg",
           "title": "Alpes-de-Haute-Provence - Baptistère de Riez - 03.jpg",
+          "description": "France - Provence - Riez - baptistère paléochrétien",
           "width": 3656,
           "height": 2592,
           "size": 7271295,
@@ -81,6 +129,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Alpes-de-Haute-Provence_-_Baptist%C3%A8re_de_Riez_-_05.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlpes-de-Haute-Provence%20-%20Baptist%C3%A8re%20de%20Riez%20-%2005.jpg",
           "title": "Alpes-de-Haute-Provence - Baptistère de Riez - 05.jpg",
+          "description": "France - Provence - Riez - baptistère paléochrétien",
           "width": 3519,
           "height": 2530,
           "size": 9945505,
@@ -94,7 +143,50 @@
     },
     {
       "label": "Place Maxime Javelly",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Alpes-de-Haute-Provence_-_Baptist%C3%A8re_de_Riez_-_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlpes-de-Haute-Provence%20-%20Baptist%C3%A8re%20de%20Riez%20-%2002.jpg",
+          "title": "Alpes-de-Haute-Provence - Baptistère de Riez - 02.jpg",
+          "description": "France - Provence - Riez - baptistère paléochrétien",
+          "width": 3764,
+          "height": 2509,
+          "size": 9411787,
+          "timestamp": "2020-11-28T18:04:09Z",
+          "author": "EmDee",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Alpes-de-Haute-Provence_-_Baptist%C3%A8re_de_Riez_-_03.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlpes-de-Haute-Provence%20-%20Baptist%C3%A8re%20de%20Riez%20-%2003.jpg",
+          "title": "Alpes-de-Haute-Provence - Baptistère de Riez - 03.jpg",
+          "description": "France - Provence - Riez - baptistère paléochrétien",
+          "width": 3656,
+          "height": 2592,
+          "size": 7271295,
+          "timestamp": "2020-11-28T17:54:58Z",
+          "author": "EmDee",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Alpes-de-Haute-Provence_-_Baptist%C3%A8re_de_Riez_-_05.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlpes-de-Haute-Provence%20-%20Baptist%C3%A8re%20de%20Riez%20-%2005.jpg",
+          "title": "Alpes-de-Haute-Provence - Baptistère de Riez - 05.jpg",
+          "description": "France - Provence - Riez - baptistère paléochrétien",
+          "width": 3519,
+          "height": 2530,
+          "size": 9945505,
+          "timestamp": "2020-11-28T19:13:18Z",
+          "author": "EmDee",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Colline Saint-Maxime",
@@ -103,6 +195,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Riez%2C_heuvel_Saint-Maxime_2008.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARiez%2C%20heuvel%20Saint-Maxime%202008.jpg",
           "title": "Riez, heuvel Saint-Maxime 2008.jpg",
+          "description": "Riez, Alpes-de-Haut-Provence, Provence-Alpes-Côte d' Azur, \nFrankrijk. De heuvel Saint-Maxime - oppidum.",
           "width": 3937,
           "height": 2736,
           "size": 8049222,
@@ -113,9 +206,24 @@
           "score": 5
         },
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Tempel_van_Apollo_te_Riez%2C_2008.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATempel%20van%20Apollo%20te%20Riez%2C%202008.jpg",
+          "title": "Tempel van Apollo te Riez, 2008.jpg",
+          "description": "Riez, Alpes-de-Haute-Provence, Provence-Alpes-Côte d' Azur, Frankrijk. Restanten - reconstructie - van de Romeinse tempel van Apollo die dateert uit de laatste jaren van de Ie eeuw v.C.\nOp de achtergrond de heuvel Saint-Maxime - oppidum.",
+          "width": 2814,
+          "height": 3937,
+          "size": 6943707,
+          "timestamp": "2013-04-28T17:48:48Z",
+          "author": "Hubert DENIES",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Kapel_Saint-Maxime_te_Riez%2C_Frankrijk_2008.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKapel%20Saint-Maxime%20te%20Riez%2C%20Frankrijk%202008.jpg",
           "title": "Kapel Saint-Maxime te Riez, Frankrijk 2008.jpg",
+          "description": "De kapel Saint-Maxime, op de gelijknamige heuvel, te Riez, Alpes-de-Haute-Provence, Provence-Alpes-Côte-d'Azur.",
           "width": 1701,
           "height": 2362,
           "size": 7167024,

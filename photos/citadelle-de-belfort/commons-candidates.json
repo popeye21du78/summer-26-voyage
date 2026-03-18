@@ -1,44 +1,47 @@
 {
   "slug": "citadelle-de-belfort",
   "nom": "Citadelle de Belfort",
-  "fetchedAt": "2026-03-13T13:33:13.386Z",
+  "fetchedAt": "2026-03-16T12:03:45.184Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Biblioth%C3%A8que_Louis-Garret_%28Vesoul%29_-_12_octobre_2023_%282%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABiblioth%C3%A8que%20Louis-Garret%20(Vesoul)%20-%2012%20octobre%202023%20(2).jpg",
-      "title": "Bibliothèque Louis-Garret (Vesoul) - 12 octobre 2023 (2).jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 5234971,
-      "timestamp": "2023-10-13T09:25:38Z",
-      "author": "Petrepem",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/CitadelleV5.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACitadelleV5.JPG",
+      "title": "CitadelleV5.JPG",
+      "description": "Château, actuellement musée d'Art et d'Histoire, et enceinte urbaine",
+      "width": 3888,
+      "height": 2592,
+      "size": 3752386,
+      "timestamp": "2014-09-06T12:06:07Z",
+      "author": "VincentB5",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Citadelle_de_Belfort_nuit.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACitadelle%20de%20Belfort%20nuit.jpg",
+      "title": "Citadelle de Belfort nuit.jpg",
+      "description": "NOTE: This image is a panorama  consisting of multiple frames that were merged or stitched in software. As a result, this image necessarily underwent some form of digital manipulation. These manipulations may include blending, blurring, cloning, and colour and perspective adjustments. As a result of these adjustments, the image content may be slightly different from reality at the points where multiple images were combined. This manipulation is often required due to lens, perspective, and parall",
+      "width": 22710,
+      "height": 3474,
+      "size": 86331018,
+      "timestamp": "2015-03-23T15:18:06Z",
+      "author": "0x010C",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Fresque_de_D%C3%A9caris_-_mairie_de_Vesoul_%2813_octobre_2023%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFresque%20de%20D%C3%A9caris%20-%20mairie%20de%20Vesoul%20(13%20octobre%202023).jpg",
-      "title": "Fresque de Décaris - mairie de Vesoul (13 octobre 2023).jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 5404284,
-      "timestamp": "2023-10-25T20:44:23Z",
-      "author": "Petrepem",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Fresque_de_D%C3%A9caris_-_mairie_de_Vesoul_%2813_octobre_2023%29_2.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFresque%20de%20D%C3%A9caris%20-%20mairie%20de%20Vesoul%20(13%20octobre%202023)%202.jpg",
-      "title": "Fresque de Décaris - mairie de Vesoul (13 octobre 2023) 2.jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 4520380,
-      "timestamp": "2023-10-25T20:44:23Z",
-      "author": "Petrepem",
-      "license": "CC BY-SA 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/France_BFC_90_Belfort_Citadelle_01.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20BFC%2090%20Belfort%20Citadelle%2001.jpg",
+      "title": "France BFC 90 Belfort Citadelle 01.jpg",
+      "description": "Citadelle de Belfort",
+      "width": 6016,
+      "height": 4016,
+      "size": 8578492,
+      "timestamp": "2020-07-21T20:54:27Z",
+      "author": "Calips",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     }
@@ -48,9 +51,24 @@
       "label": "Lion de Bartholdi",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/France_BFC_90_Belfort_Lion_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrance%20BFC%2090%20Belfort%20Lion%2002.jpg",
+          "title": "France BFC 90 Belfort Lion 02.jpg",
+          "description": "Lion de Belfort\nCitadelle de Belfort",
+          "width": 6016,
+          "height": 4016,
+          "size": 6679279,
+          "timestamp": "2020-07-21T20:31:46Z",
+          "author": "Calips",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Belfort_-_Citadelle_et_Lion.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABelfort%20-%20Citadelle%20et%20Lion.jpg",
           "title": "Belfort - Citadelle et Lion.jpg",
+          "description": "Belfort - The city fortress and the Lion of Bartholdi",
           "width": 4032,
           "height": 3024,
           "size": 4796015,
@@ -64,24 +82,12 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Citadelle_et_Lion_de_Belfort_-_btv1b532351731.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACitadelle%20et%20Lion%20de%20Belfort%20-%20btv1b532351731.jpg",
           "title": "Citadelle et Lion de Belfort - btv1b532351731.jpg",
+          "description": "Sujet : Bartholdi, Auguste (1834-1904). Le Lion de Belfort\nCitadelles -- Belfort (Territoire de Belfort, France)\nPaysages -- 1870-1913\nAncien possesseur : Agence Rol. Ancien possesseur\nRéférence bibliographique : K258966\nAppartient à l’ensemble documentaire : Pho20Rol\nImage de presse\nCouverture : 190.\n\nLangue : français",
           "width": 6053,
           "height": 4529,
           "size": 2681427,
           "timestamp": "2025-02-25T04:07:01Z",
           "author": "<div class=\"fn value\">\nBaumont, Jean (1891-1918). Photographe</div>",
-          "license": "Public domain",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Belfort_%28la_citadelle_et_le_lion%29_-_btv1b69521251.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABelfort%20(la%20citadelle%20et%20le%20lion)%20-%20btv1b69521251.jpg",
-          "title": "Belfort (la citadelle et le lion) - btv1b69521251.jpg",
-          "width": 4120,
-          "height": 2920,
-          "size": 1947832,
-          "timestamp": "2025-03-21T21:31:39Z",
-          "author": "<div class=\"fn value\">\nAgence Rol. Agence photographique (commanditaire)</div>",
           "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
@@ -92,9 +98,24 @@
       "label": "Remparts de la citadelle",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Citadelle_et_remparts%2C_Besan%C3%A7on.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACitadelle%20et%20remparts%2C%20Besan%C3%A7on.jpg",
+          "title": "Citadelle et remparts, Besançon.jpg",
+          "description": "Citadelle de Besançon (France)",
+          "width": 2848,
+          "height": 2136,
+          "size": 3158864,
+          "timestamp": "2012-09-11T18:48:21Z",
+          "author": "Amandefontaine",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Belfort_-_Citadelle_-_Remparts.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABelfort%20-%20Citadelle%20-%20Remparts.JPG",
           "title": "Belfort - Citadelle - Remparts.JPG",
+          "description": "Ensemble des différents niveaux de remparts de la citadelle de Belfort, avec la porte de Brisach",
           "width": 3872,
           "height": 2592,
           "size": 4388996,
@@ -108,11 +129,69 @@
     },
     {
       "label": "Panorama sur la ville depuis les bastions",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/2012-10-12_15-51-07-musee-histoire-belfort-siege-70.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2012-10-12%2015-51-07-musee-histoire-belfort-siege-70.jpg",
+          "title": "2012-10-12 15-51-07-musee-histoire-belfort-siege-70.jpg",
+          "description": "This   file was uploaded  with Commonist.\nMusée d'Histoire : Le siège de Belfort en 1870 vu depuis la colline des Perches (HDR). Étienne-Prosper Berne-Bellecour (Boulogne-sur-Mer, 1838 - Paris, 1910)\nÉtude pour le panorama du siège de Belfort\nn.d., huile sur toile\n\nColl. Musées de Belfort",
+          "width": 3482,
+          "height": 2299,
+          "size": 9767574,
+          "timestamp": "2012-10-18T16:56:18Z",
+          "author": "<bdi><a href=\"//commons.wikimedia.org/wiki/User:ComputerHotline\" title=\"User:ComputerHotline\">Thomas Bresson</a></bdi>",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Citadelle_de_Belfort_nuit.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACitadelle%20de%20Belfort%20nuit.jpg",
+          "title": "Citadelle de Belfort nuit.jpg",
+          "description": "NOTE: This image is a panorama  consisting of multiple frames that were merged or stitched in software. As a result, this image necessarily underwent some form of digital manipulation. These manipulations may include blending, blurring, cloning, and colour and perspective adjustments. As a result of these adjustments, the image content may be slightly different from reality at the points where multiple images were combined. This manipulation is often required due to lens, perspective, and parall",
+          "width": 22710,
+          "height": 3474,
+          "size": 86331018,
+          "timestamp": "2015-03-23T15:18:06Z",
+          "author": "0x010C",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Thomas_Bresson_-_Panorama_de_Belfort_%28by%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AThomas%20Bresson%20-%20Panorama%20de%20Belfort%20(by).jpg",
+          "title": "Thomas Bresson - Panorama de Belfort (by).jpg",
+          "description": "Panorama de Belfort vu depuis l'accès à la Citadelle de Belfort (HDR).",
+          "width": 14224,
+          "height": 2023,
+          "size": 17478856,
+          "timestamp": "2010-03-02T13:09:09Z",
+          "author": "<bdi><a href=\"//commons.wikimedia.org/wiki/User:ComputerHotline\" title=\"User:ComputerHotline\">Thomas Bresson</a></bdi>",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Passages voûtés de la forteresse",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Fortification_de_Belfort_-_Fresque_-_PA00101142_-_001.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFortification%20de%20Belfort%20-%20Fresque%20-%20PA00101142%20-%20001.jpg",
+          "title": "Fortification de Belfort - Fresque - PA00101142 - 001.jpg",
+          "description": "Une fresque dans un passage souterrain de la citadelle de Belfort.",
+          "width": 5139,
+          "height": 2760,
+          "size": 19536219,
+          "timestamp": "2014-09-29T19:26:02Z",
+          "author": "Thesupermat",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     }
   ]
 }

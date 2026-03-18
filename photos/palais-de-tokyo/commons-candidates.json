@@ -1,64 +1,211 @@
 {
   "slug": "palais-de-tokyo",
   "nom": "Palais de Tokyo",
-  "fetchedAt": "2026-03-13T01:38:46.067Z",
+  "fetchedAt": "2026-03-17T22:07:02.577Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Cath%C3%A9drale_Notre_Dame_-_Paris_IV_%28FR75%29_-_2025-03-01_-_6.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale%20Notre%20Dame%20-%20Paris%20IV%20(FR75)%20-%202025-03-01%20-%206.jpg",
-      "title": "Cathédrale Notre Dame - Paris IV (FR75) - 2025-03-01 - 6.jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 4198901,
-      "timestamp": "2025-03-01T16:52:26Z",
-      "author": "Chabe01",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Panorama_at_the_Palais_de_Tokyo.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanorama%20at%20the%20Palais%20de%20Tokyo.jpg",
+      "title": "Panorama at the Palais de Tokyo.jpg",
+      "description": "Panorama at the Palais de Tokyo in Paris, France.",
+      "width": 16382,
+      "height": 3056,
+      "size": 21655654,
+      "timestamp": "2022-10-02T21:25:01Z",
+      "author": "DiscoA340",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 8
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Parvis_Notre_Dame_Place_Jean_Paul_II_-_Paris_IV_%28FR75%29_-_2025-03-01_-_1.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParvis%20Notre%20Dame%20Place%20Jean%20Paul%20II%20-%20Paris%20IV%20(FR75)%20-%202025-03-01%20-%201.jpg",
-      "title": "Parvis Notre Dame Place Jean Paul II - Paris IV (FR75) - 2025-03-01 - 1.jpg",
-      "width": 4032,
-      "height": 3024,
-      "size": 2709295,
-      "timestamp": "2025-03-01T16:55:35Z",
-      "author": "Chabe01",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Panorama_at_the_Palais_de_Tokyo_2.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanorama%20at%20the%20Palais%20de%20Tokyo%202.jpg",
+      "title": "Panorama at the Palais de Tokyo 2.jpg",
+      "description": "Panorama at the Palais de Tokyo in Paris, France.",
+      "width": 11650,
+      "height": 2936,
+      "size": 14111090,
+      "timestamp": "2022-10-02T21:28:56Z",
+      "author": "DiscoA340",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 8
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Cath%C3%A9drale_Notre-Dame_de_Paris_-_panoramio_%283%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale%20Notre-Dame%20de%20Paris%20-%20panoramio%20(3).jpg",
-      "title": "Cathédrale Notre-Dame de Paris - panoramio (3).jpg",
-      "width": 4288,
-      "height": 3216,
-      "size": 2983423,
-      "timestamp": "2017-01-21T07:12:44Z",
-      "author": "Mister No",
-      "license": "CC BY 3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Palais-de-Tokyo-lumi%C3%A8re8.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APalais-de-Tokyo-lumi%C3%A8re8.JPG",
+      "title": "Palais-de-Tokyo-lumière8.JPG",
+      "description": "Vue du palais de Tokyo dans la lumière de fin de journée.",
+      "width": 3648,
+      "height": 2736,
+      "size": 2293430,
+      "timestamp": "2013-03-10T18:05:23Z",
+      "author": "Celette",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 7
     }
   ],
   "lieux": [
     {
       "label": "Hall principal du Palais de Tokyo",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Seiji_Noma%27s_Home_at_Mejiro%2C_Tokyo_%28pg_136%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASeiji%20Noma's%20Home%20at%20Mejiro%2C%20Tokyo%20(pg%20136).jpg",
+          "title": "Seiji Noma's Home at Mejiro, Tokyo (pg 136).jpg",
+          "description": "Original Caption: Seiji Noma's home at Mejiro Tokyo. The 'Otowa Palace' has now been demolished. A 2,000,000 yen Western style office building is being constructed on the site.",
+          "width": 2202,
+          "height": 1674,
+          "size": 1393521,
+          "timestamp": "2024-04-23T08:39:16Z",
+          "author": "Noma, Seiji",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Seiji_Noma%27s_Home_at_Mejiro%2C_Tokyo_%28pg_136%29_zoomed.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASeiji%20Noma's%20Home%20at%20Mejiro%2C%20Tokyo%20(pg%20136)%20zoomed.jpg",
+          "title": "Seiji Noma's Home at Mejiro, Tokyo (pg 136) zoomed.jpg",
+          "description": "Original Caption: Seiji Noma's home at Mejiro Tokyo. The 'Otowa Palace' has now been demolished. A 2,000,000 yen Western style office building is being constructed on the site.",
+          "width": 2056,
+          "height": 1387,
+          "size": 1220382,
+          "timestamp": "2024-04-23T08:39:47Z",
+          "author": "Noma, Seiji",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/1_Chome_Otowa%2C_Bunky%C5%8D-ku%2C_T%C5%8Dky%C5%8D-to_112-0013%2C_Japan_-_panoramio.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1%20Chome%20Otowa%2C%20Bunky%C5%8D-ku%2C%20T%C5%8Dky%C5%8D-to%20112-0013%2C%20Japan%20-%20panoramio.jpg",
+          "title": "1 Chome Otowa, Bunkyō-ku, Tōkyō-to 112-0013, Japan - panoramio.jpg",
+          "description": "1 Chome Otowa, Bunkyō-ku, Tōkyō-to 112-0013, Japan",
+          "width": 5184,
+          "height": 3456,
+          "size": 7962113,
+          "timestamp": "2016-12-30T06:27:51Z",
+          "author": "Fumihiko Ueno",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Terrasse avec vue sur la Seine et la tour Eiffel",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/The_Eiffel_Tower_from_the_Palais_de_Tokyo.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AThe%20Eiffel%20Tower%20from%20the%20Palais%20de%20Tokyo.jpg",
+          "title": "The Eiffel Tower from the Palais de Tokyo.jpg",
+          "description": "The Eiffel Tower from the Palais de Tokyo in Paris, France.",
+          "width": 3000,
+          "height": 4000,
+          "size": 2268130,
+          "timestamp": "2022-09-28T01:29:59Z",
+          "author": "DiscoA340",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Paris_16e_Palais_de_Tokyo_Mus%C3%A9e_d%E2%80%99Art_moderne_de_Paris_Tour_Eiffel_097.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParis%2016e%20Palais%20de%20Tokyo%20Mus%C3%A9e%20d%E2%80%99Art%20moderne%20de%20Paris%20Tour%20Eiffel%20097.jpg",
+          "title": "Paris 16e Palais de Tokyo Musée d’Art moderne de Paris Tour Eiffel 097.jpg",
+          "description": "",
+          "width": 3713,
+          "height": 5569,
+          "size": 19742213,
+          "timestamp": "2023-11-21T16:05:04Z",
+          "author": "GFreihalter",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/La_Tour_Eiffel_depuis_lesplanade_du_Palais_de_Tokyo_%28PTX1535%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Tour%20Eiffel%20depuis%20lesplanade%20du%20Palais%20de%20Tokyo%20(PTX1535).jpg",
+          "title": "La Tour Eiffel depuis lesplanade du Palais de Tokyo (PTX1535).jpg",
+          "description": "La Tour Eiffel depuis l'esplanade du Palais de Tokyo",
+          "width": 3196,
+          "height": 4883,
+          "size": 13382140,
+          "timestamp": "2025-09-26T22:35:31Z",
+          "author": "Lucas Tabary-Maujean",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Sous-sol et espaces bruts",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Carte_blanche_%C3%A0_Anne_Imhof_au_Palais_de_Tokyo_%28Paris%29_%2851289648360%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarte%20blanche%20%C3%A0%20Anne%20Imhof%20au%20Palais%20de%20Tokyo%20(Paris)%20(51289648360).jpg",
+          "title": "Carte blanche à Anne Imhof au Palais de Tokyo (Paris) (51289648360).jpg",
+          "description": "La Rotonde du Palais de Tokyo transformée en \"Scène\" par Anne Imhof \nL'artiste a dépouillé le Palais de ses cimaises pour en faire ressentir \"les strates du temps\" à la manière d'une ruine de Piranese.\nLes colonnes de la Rotonde ont été revêtues de \"paddings noirs\", que les commissaires qualifient de \"sculptures-accessoires\" pour que ce lieu scénique puisse évoquer un ring de boxe. mais tout autre lieu de représentation ou d'échange peut aussi être imaginé.\n\n\nAnne Imhof prend possession de l’ens",
+          "width": 7086,
+          "height": 4724,
+          "size": 21338555,
+          "timestamp": "2021-07-05T14:18:14Z",
+          "author": "Jean-Pierre Dalbéra",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Carte_blanche_%C3%A0_Anne_Imhof_au_Palais_de_Tokyo_%28Paris%29_%2851290562144%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarte%20blanche%20%C3%A0%20Anne%20Imhof%20au%20Palais%20de%20Tokyo%20(Paris)%20(51290562144).jpg",
+          "title": "Carte blanche à Anne Imhof au Palais de Tokyo (Paris) (51290562144).jpg",
+          "description": "\"Piste d'athlétisme dessinée par des tubes métalliques pour canaliser les corps, les inciter à la compétition\"\nAu premier plan, une plateforme en forme de plongeoir (diving board) pour surplomber l'espace. \nUn rail, transportant des enceintes mobiles, structure l'espace par le son. Les compositions musicales diffusées sont d'Anne Imhof et de son égérie Eliza Douglas.\n\n\nAnne Imhof prend possession de l’ensemble du Palais de Tokyo pour composer une oeuvre totale et polyphonique. Elle y fait fusion",
+          "width": 4045,
+          "height": 6885,
+          "size": 14761734,
+          "timestamp": "2021-07-05T14:18:02Z",
+          "author": "Jean-Pierre Dalbéra",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Esplanade extérieure et parvis",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Palais-de-Tokyo-lumi%C3%A8re6.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APalais-de-Tokyo-lumi%C3%A8re6.jpg",
+          "title": "Palais-de-Tokyo-lumière6.jpg",
+          "description": "Antoine Bourdelle (1930-1932), La France (vers 1922), esplanade du palais de Tokyo, Paris.",
+          "width": 2736,
+          "height": 3648,
+          "size": 2554705,
+          "timestamp": "2013-03-10T18:05:18Z",
+          "author": "Celette",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Antoine_Bourdelle%2C_ca.1922%2C_Monument_La_France%2C_H._9_m%2C_bronze%2C_Hohwiller_founder%2C_erected_18_June_1948%2C_Palais_de_Tokyo%2C_Paris.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAntoine%20Bourdelle%2C%20ca.1922%2C%20Monument%20La%20France%2C%20H.%209%20m%2C%20bronze%2C%20Hohwiller%20founder%2C%20erected%2018%20June%201948%2C%20Palais%20de%20Tokyo%2C%20Paris.jpg",
+          "title": "Antoine Bourdelle, ca.1922, Monument La France, H. 9 m, bronze, Hohwiller founder, erected 18 June 1948, Palais de Tokyo, Paris.jpg",
+          "description": "",
+          "width": 1273,
+          "height": 1701,
+          "size": 509810,
+          "timestamp": "2013-04-28T10:53:23Z",
+          "author": "Coldcreation",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     },
     {
       "label": "Librairie du Palais de Tokyo",

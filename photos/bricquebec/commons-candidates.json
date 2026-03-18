@@ -1,12 +1,13 @@
 {
   "slug": "bricquebec",
   "nom": "Bricquebec",
-  "fetchedAt": "2026-03-13T00:31:04.407Z",
+  "fetchedAt": "2026-03-15T20:18:04.140Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/02_NOR_-_Manche_-_Bricquebec_%282023-09-15_11-48-33%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A02%20NOR%20-%20Manche%20-%20Bricquebec%20(2023-09-15%2011-48-33).jpg",
       "title": "02 NOR - Manche - Bricquebec (2023-09-15 11-48-33).jpg",
+      "description": "Château de Bricquebec",
       "width": 4893,
       "height": 3994,
       "size": 19663730,
@@ -14,12 +15,13 @@
       "author": "Johan Allard",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/02_NOR_-_Manche_-_Bricquebec_%282023-09-15_11-50-27%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A02%20NOR%20-%20Manche%20-%20Bricquebec%20(2023-09-15%2011-50-27).jpg",
       "title": "02 NOR - Manche - Bricquebec (2023-09-15 11-50-27).jpg",
+      "description": "Château de Bricquebec",
       "width": 5627,
       "height": 3751,
       "size": 20174811,
@@ -27,12 +29,13 @@
       "author": "Johan Allard",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/02_NOR_-_Manche_-_Bricquebec_%282023-09-15_11-55-47%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A02%20NOR%20-%20Manche%20-%20Bricquebec%20(2023-09-15%2011-55-47).jpg",
       "title": "02 NOR - Manche - Bricquebec (2023-09-15 11-55-47).jpg",
+      "description": "Château de Bricquebec",
       "width": 5169,
       "height": 3446,
       "size": 16054614,
@@ -40,7 +43,7 @@
       "author": "Johan Allard",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     }
   ],
   "lieux": [
@@ -48,22 +51,10 @@
       "label": "Château de Bricquebec",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Bricquebec_-_Vue_sur_le_ch%C3%A2teau.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABricquebec%20-%20Vue%20sur%20le%20ch%C3%A2teau.jpg",
-          "title": "Bricquebec - Vue sur le château.jpg",
-          "width": 4608,
-          "height": 3456,
-          "size": 3587407,
-          "timestamp": "2021-03-13T20:46:50Z",
-          "author": "Xfigpower",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/02_NOR_-_Manche_-_Bricquebec_%282023-09-15_11-48-33%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A02%20NOR%20-%20Manche%20-%20Bricquebec%20(2023-09-15%2011-48-33).jpg",
           "title": "02 NOR - Manche - Bricquebec (2023-09-15 11-48-33).jpg",
+          "description": "Château de Bricquebec",
           "width": 4893,
           "height": 3994,
           "size": 19663730,
@@ -71,12 +62,13 @@
           "author": "Johan Allard",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Bricquebec_03.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABricquebec%2003.jpg",
           "title": "Bricquebec 03.jpg",
+          "description": "Château de Bricquebec, Manche, 2017.",
           "width": 5000,
           "height": 3334,
           "size": 13536803,
@@ -84,48 +76,164 @@
           "author": "Selbymay",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Bricquebec_05.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABricquebec%2005.jpg",
+          "title": "Bricquebec 05.jpg",
+          "description": "Château de Bricquebec, Manche, 2017.",
+          "width": 5250,
+          "height": 3500,
+          "size": 13254126,
+          "timestamp": "2017-06-09T13:10:53Z",
+          "author": "Selbymay",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
         }
       ]
     },
     {
       "label": "Place Sainte-Anne",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Bricquebec_10.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABricquebec%2010.jpg",
+          "title": "Bricquebec 10.jpg",
+          "description": "Château de Bricquebec, Manche, 2017.",
+          "width": 5392,
+          "height": 3595,
+          "size": 13805702,
+          "timestamp": "2017-06-09T13:11:14Z",
+          "author": "Selbymay",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Bricquebec-en-Cotentin_%28Manche%29_%2831475894152%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABricquebec-en-Cotentin%20(Manche)%20(31475894152).jpg",
+          "title": "Bricquebec-en-Cotentin (Manche) (31475894152).jpg",
+          "description": "Bricquebec-en-Cotentin (Manche)\nLe château.\nLe bâtiment porche de l'entrée des voitures est récent, à sa place se trouvait probablement une chapelle adossée sur la courtine qui reliait deux tours. Le long de la courtine, à gauche de l'entrée, il y avait le bâtiment des communs. \n\nLa chapelle, qui a complètement disparu, fut d'abord romane, puis Marie de Bourbon en fit construire une autre, au m^me endroit, dans le style Renaissance, en 1594.",
+          "width": 4928,
+          "height": 3264,
+          "size": 10543039,
+          "timestamp": "2017-11-16T16:28:27Z",
+          "author": "Daniel Jolivet",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Bricquebec-en-Cotentin_%28Manche%29_%2828838718616%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABricquebec-en-Cotentin%20(Manche)%20(28838718616).jpg",
+          "title": "Bricquebec-en-Cotentin (Manche) (28838718616).jpg",
+          "description": "Bricquebec-en-Cotentin (Manche). \nLe château médiéval de Bricquebec.\nPlace Le Marois. \nLe donjon et la tour de l'Horloge (le châtelet d'entrée).\nLe châtelet est construit en schiste* pour la partie inférieur et en grès pour les partie supérieures. \n\n\nLes parties les plus anciennes du château sont construites en schiste extrait sur place.",
+          "width": 4928,
+          "height": 3264,
+          "size": 7879160,
+          "timestamp": "2017-11-16T16:28:53Z",
+          "author": "Daniel Jolivet",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        }
+      ]
     },
     {
       "label": "Halles de Bricquebec",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Bricquebec-en-Cotentin_%28Manche%29_%2828837483636%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABricquebec-en-Cotentin%20(Manche)%20(28837483636).jpg",
-          "title": "Bricquebec-en-Cotentin (Manche) (28837483636).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Bricquebec-en-Cotentin_%28Manche%29_%2828715026125%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABricquebec-en-Cotentin%20(Manche)%20(28715026125).jpg",
+          "title": "Bricquebec-en-Cotentin (Manche) (28715026125).jpg",
+          "description": "Bricquebec-en-Cotentin (Manche). \nLe château médiéval de Bricquebec.\nL'Hostellerie du château de Bricquebec.\nIl reste peu de parties du logis ou résidait le seigneur. Une partie de ce logis est incluse dans \"l'Hôtel du Vieux Château\"\nLe corps principal de l'hôtel est l'ancien \"Préau des chevaliers\". Le préau était ouvert côté cour par quatre arcades gothiques actuellement murées. Cette grande halle devait permettre aux visiteurs l'accès au logis du seigneur vers l'ouest ou aux salles de réceptio",
           "width": 4928,
           "height": 3264,
-          "size": 11216143,
-          "timestamp": "2017-11-16T16:27:48Z",
+          "size": 11207883,
+          "timestamp": "2017-11-16T16:27:45Z",
           "author": "Daniel Jolivet",
           "license": "CC BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Bricquebec-en-Cotentin_%28Manche%29_%2828253657103%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABricquebec-en-Cotentin%20(Manche)%20(28253657103).jpg",
-          "title": "Bricquebec-en-Cotentin (Manche) (28253657103).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Bricquebec-en-Cotentin_%28Manche%29_%2828682274016%29_%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABricquebec-en-Cotentin%20(Manche)%20(28682274016)%20(2).jpg",
+          "title": "Bricquebec-en-Cotentin (Manche) (28682274016) (2).jpg",
+          "description": "Bricquebec-en-Cotentin (Manche). \nLe château médiéval de Bricquebec.\nL'Hostellerie du château de Bricquebec.\nIl reste peu de parties du logis ou résidait le seigneur. Une partie de ce logis est incluse dans \"l'Hôtel du Vieux Château\"\nLe corps principal de l'hôtel est l'ancien \"Préau des chevaliers\". Le préau était ouvert côté cour par quatre arcades gothiques actuellement murées. Cette grande halle devait permettre aux visiteurs l'accès au logis du seigneur vers l'ouest ou aux salles de réceptio",
           "width": 4928,
           "height": 3264,
-          "size": 10938791,
-          "timestamp": "2017-11-16T16:28:58Z",
+          "size": 9642299,
+          "timestamp": "2017-11-16T16:30:30Z",
           "author": "Daniel Jolivet",
           "license": "CC BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Bricquebec-en-Cotentin_%28Manche%29_%2836037123172%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABricquebec-en-Cotentin%20(Manche)%20(36037123172).jpg",
+          "title": "Bricquebec-en-Cotentin (Manche) (36037123172).jpg",
+          "description": "Bricquebec-en-Cotentin (Manche). \nLe château médiéval de Bricquebec.\nLa cour intérieur et l'Hostellerie du Château sur la droite. \nIl reste peu de parties du logis ou résidait le seigneur. Une partie de ce logis est incluse dans \"l'Hôtel du Vieux Château\"\n\nLe corps principal de l'hôtel est l'ancien \"Préau des chevaliers\". Le préau était ouvert côté cour par quatre arcades gothiques actuellement murées. Cette grande halle devait permettre aux visiteurs l'accès au logis du seigneur vers l'ouest ou",
+          "width": 4928,
+          "height": 3264,
+          "size": 9071327,
+          "timestamp": "2017-11-16T16:28:32Z",
+          "author": "Daniel Jolivet",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 3
         }
       ]
     },
     {
       "label": "Église Sainte-Anne",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/%C3%89glise_Notre-Dame_de_Bricquebec_-_Maitre-autel.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Notre-Dame%20de%20Bricquebec%20-%20Maitre-autel.jpg",
+          "title": "Église Notre-Dame de Bricquebec - Maitre-autel.jpg",
+          "description": "Bricquebec, Manche",
+          "width": 4608,
+          "height": 3456,
+          "size": 5129748,
+          "timestamp": "2021-03-13T20:46:37Z",
+          "author": "Xfigpower",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/%C3%89glise_Notre-Dame_de_Bricquebec_-_Anges.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Notre-Dame%20de%20Bricquebec%20-%20Anges.jpg",
+          "title": "Église Notre-Dame de Bricquebec - Anges.jpg",
+          "description": "Bricquebec, Manche",
+          "width": 4608,
+          "height": 3456,
+          "size": 3800571,
+          "timestamp": "2021-03-13T20:46:45Z",
+          "author": "Xfigpower",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/%C3%89glise_Notre-Dame_de_Bricquebec_-_Nef_vue_du_choeur.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Notre-Dame%20de%20Bricquebec%20-%20Nef%20vue%20du%20choeur.jpg",
+          "title": "Église Notre-Dame de Bricquebec - Nef vue du choeur.jpg",
+          "description": "Bricquebec, Manche",
+          "width": 4608,
+          "height": 3456,
+          "size": 4114117,
+          "timestamp": "2021-03-13T20:46:47Z",
+          "author": "Xfigpower",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

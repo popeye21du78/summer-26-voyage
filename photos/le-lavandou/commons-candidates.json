@@ -1,12 +1,27 @@
 {
   "slug": "le-lavandou",
   "nom": "Le Lavandou",
-  "fetchedAt": "2026-03-13T15:32:28.240Z",
+  "fetchedAt": "2026-03-16T20:02:08.192Z",
   "header": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Panoramique_du_Lavandou_%282017%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanoramique%20du%20Lavandou%20(2017).jpg",
+      "title": "Panoramique du Lavandou (2017).jpg",
+      "description": "Panoramic view of Le Lavandou (France)",
+      "width": 9410,
+      "height": 2709,
+      "size": 7624413,
+      "timestamp": "2017-05-14T12:42:13Z",
+      "author": "Qjafcc",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Embouchure_du_Batailler_au_Lavandou%2C_en_2021.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEmbouchure%20du%20Batailler%20au%20Lavandou%2C%20en%202021.jpg",
       "title": "Embouchure du Batailler au Lavandou, en 2021.jpg",
+      "description": "Embouchure du fleuve Batailler au Lavandou, en2021",
       "width": 3616,
       "height": 2712,
       "size": 2424579,
@@ -17,26 +32,14 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Le_Lavandou%2C_plage_de_la_fossette%2C_stele_%C3%A9vasion_g%C3%A9n%C3%A9ral_Giraud%2C_plaque_1_face.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Lavandou%2C%20plage%20de%20la%20fossette%2C%20stele%20%C3%A9vasion%20g%C3%A9n%C3%A9ral%20Giraud%2C%20plaque%201%20face.jpg",
-      "title": "Le Lavandou, plage de la fossette, stele évasion général Giraud, plaque 1 face.jpg",
-      "width": 3616,
-      "height": 2712,
-      "size": 2416335,
-      "timestamp": "2022-08-22T20:27:02Z",
-      "author": "Gnrc",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Le_Lavandou%2C_plage_de_la_fossette%2C_stele_%C3%A9vasion_g%C3%A9n%C3%A9ral_Giraud%2C_plaque_2.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Lavandou%2C%20plage%20de%20la%20fossette%2C%20stele%20%C3%A9vasion%20g%C3%A9n%C3%A9ral%20Giraud%2C%20plaque%202.jpg",
-      "title": "Le Lavandou, plage de la fossette, stele évasion général Giraud, plaque 2.jpg",
-      "width": 3616,
-      "height": 2712,
-      "size": 2415763,
-      "timestamp": "2022-08-22T20:27:06Z",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Le_Lavandou_-_Rond-point_du_Grand_Bleu%2C_cot%C3%A9_ouest.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Lavandou%20-%20Rond-point%20du%20Grand%20Bleu%2C%20cot%C3%A9%20ouest.jpg",
+      "title": "Le Lavandou - Rond-point du Grand Bleu, coté ouest.jpg",
+      "description": "Le Lavandou - Rond-point du Grand Bleu, coté ouest",
+      "width": 3393,
+      "height": 2268,
+      "size": 2828926,
+      "timestamp": "2023-02-20T19:42:10Z",
       "author": "Gnrc",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
@@ -48,43 +51,46 @@
       "label": "Plage de Saint-Clair",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/MB-Cro-03_Cross_Der-Strand-von-Saint-Clair_1.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMB-Cro-03%20Cross%20Der-Strand-von-Saint-Clair%201.jpg",
-          "title": "MB-Cro-03 Cross Der-Strand-von-Saint-Clair 1.jpg",
-          "width": 2560,
-          "height": 2125,
-          "size": 1820418,
-          "timestamp": "2021-05-26T19:05:56Z",
-          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Henri-Edmond_Cross\" class=\"extiw\" title=\"w:en:Henri-Edmond Cross\"><span title=\"French Neo-Impressionist painter (1856-1910)\">Henri-Edmond Cross</span></a></bdi>",
-          "license": "Public domain",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Plage_de_Cavali%C3%A8re._Le_Lavandou._Vue_de_la_mer._-_panoramio.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlage%20de%20Cavali%C3%A8re.%20Le%20Lavandou.%20Vue%20de%20la%20mer.%20-%20panoramio.jpg",
+          "title": "Plage de Cavalière. Le Lavandou. Vue de la mer. - panoramio.jpg",
+          "description": "Plage de Cavalière. Le Lavandou. Vue de la mer.",
+          "width": 3872,
+          "height": 2592,
+          "size": 2525843,
+          "timestamp": "2016-09-12T13:07:33Z",
+          "author": "4net",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Le_Lavandou%2C_plage_de_la_fossette%2C_stele_%C3%A9vasion_g%C3%A9n%C3%A9ral_Giraud%2C_plaque_1_face.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Lavandou%2C%20plage%20de%20la%20fossette%2C%20stele%20%C3%A9vasion%20g%C3%A9n%C3%A9ral%20Giraud%2C%20plaque%201%20face.jpg",
+          "title": "Le Lavandou, plage de la fossette, stele évasion général Giraud, plaque 1 face.jpg",
+          "description": "Stèle commémorant l' évasion du général Henry Giraud depuis la plage de la fossette, au Lavandou.\nTexte : Le 6 novembre 1942 s'évadait le général Henry Giraud à bord du \"MILAN II\" bateau de pêche du lavandourain Jules Crest pour rejoindre l'Afrique du Nord libérée. \n\nAu large un sous-marin britannique \"LE SERAPH\" l'embarquait ainsi que l'aspirant Bernard Giraud, son fils, le capitaine Beaufre et l'enseigne de vaisseau VIRET.",
+          "width": 3616,
+          "height": 2712,
+          "size": 2416335,
+          "timestamp": "2022-08-22T20:27:02Z",
+          "author": "Gnrc",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Henri_Edmond_Cross_La_Plage_de_Saint-Clair.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHenri%20Edmond%20Cross%20La%20Plage%20de%20Saint-Clair.jpg",
-          "title": "Henri Edmond Cross La Plage de Saint-Clair.jpg",
-          "width": 2000,
-          "height": 1640,
-          "size": 1971945,
-          "timestamp": "2013-01-14T07:39:22Z",
-          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Henri-Edmond_Cross\" class=\"extiw\" title=\"w:en:Henri-Edmond Cross\"><span title=\"French Neo-Impressionist painter (1856-1910)\">Henri-Edmond Cross</span></a></bdi>",
-          "license": "Public domain",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Le_Lavandou%2C_plage_de_la_fossette%2C_stele_%C3%A9vasion_g%C3%A9n%C3%A9ral_Giraud%2C_plaque_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Lavandou%2C%20plage%20de%20la%20fossette%2C%20stele%20%C3%A9vasion%20g%C3%A9n%C3%A9ral%20Giraud%2C%20plaque%202.jpg",
+          "title": "Le Lavandou, plage de la fossette, stele évasion général Giraud, plaque 2.jpg",
+          "description": "Stèle commémorant l' évasion du général Henry Giraud depuis la plage de la fossette, au Lavandou.\nTexte : Le 6 novembre 1942 s'évadait le général Henry Giraud à bord du \"MILAN II\" bateau de pêche du lavandourain Jules Crest pour rejoindre l'Afrique du Nord libérée. \n\nAu large un sous-marin britannique \"LE SERAPH\" l'embarquait ainsi que l'aspirant Bernard Giraud, son fils, le capitaine Beaufre et l'enseigne de vaisseau VIRET.",
+          "width": 3616,
+          "height": 2712,
+          "size": 2415763,
+          "timestamp": "2022-08-22T20:27:06Z",
+          "author": "Gnrc",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Saint-Clair_2013_02.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Clair%202013%2002.JPG",
-          "title": "Saint-Clair 2013 02.JPG",
-          "width": 3303,
-          "height": 2202,
-          "size": 3478128,
-          "timestamp": "2013-08-28T19:45:07Z",
-          "author": "VT98Fan",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
         }
       ]
     },
@@ -94,25 +100,54 @@
     },
     {
       "label": "Fontaine à poissons (Roger Capron)",
-      "photos": []
-    },
-    {
-      "label": "Chapelle Saint-Clair",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Saint-Clair_2013_03.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Clair%202013%2003.JPG",
-          "title": "Saint-Clair 2013 03.JPG",
-          "width": 3303,
-          "height": 2202,
-          "size": 4662990,
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Le_Lavandou_-_Place_Ernest_Reyer_-_Fontaine_du_Jumelage_-_Plaque.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Lavandou%20-%20Place%20Ernest%20Reyer%20-%20Fontaine%20du%20Jumelage%20-%20Plaque.jpg",
+          "title": "Le Lavandou - Place Ernest Reyer - Fontaine du Jumelage - Plaque.jpg",
+          "description": "Plaque : \"Jumelage Le Lavandou - Kronberg, 50e anniversaire, 1973-2023\".",
+          "width": 4032,
+          "height": 3024,
+          "size": 4293161,
+          "timestamp": "2024-08-10T13:55:29Z",
+          "author": "Romainbehar",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Le_Lavandou_-_Place_Ernest_Reyer_-_Fontaine_du_Jumelage.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Lavandou%20-%20Place%20Ernest%20Reyer%20-%20Fontaine%20du%20Jumelage.jpg",
+          "title": "Le Lavandou - Place Ernest Reyer - Fontaine du Jumelage.jpg",
+          "description": "Fontaine du Jumelage.",
+          "width": 3024,
+          "height": 4032,
+          "size": 3686582,
+          "timestamp": "2024-08-10T13:55:47Z",
+          "author": "Romainbehar",
+          "license": "CC0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Eglise_Saint_Louis_Le_Lavandou_2013_01.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20Saint%20Louis%20Le%20Lavandou%202013%2001.JPG",
+          "title": "Eglise Saint Louis Le Lavandou 2013 01.JPG",
+          "description": "Fountain in front of the Saint-Louis church in Le Lavandou, France",
+          "width": 2202,
+          "height": 3303,
+          "size": 4514383,
           "timestamp": "2013-08-28T20:22:11Z",
           "author": "VT98Fan",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 4
         }
       ]
+    },
+    {
+      "label": "Chapelle Saint-Clair",
+      "photos": []
     }
   ]
 }

@@ -1,52 +1,98 @@
 {
   "slug": "plage-blanche",
   "nom": "Plage Blanche",
-  "fetchedAt": "2026-03-14T10:50:31.635Z",
+  "fetchedAt": "2026-03-17T22:34:05.317Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Church_in_Vielle-Staint-Girons_-_panoramio.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChurch%20in%20Vielle-Staint-Girons%20-%20panoramio.jpg",
-      "title": "Church in Vielle-Staint-Girons - panoramio.jpg",
-      "width": 4128,
-      "height": 3096,
-      "size": 2393325,
-      "timestamp": "2016-10-26T04:21:39Z",
-      "author": "Andy Mendyk",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/NA_40326_BALE.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANA%2040326%20BALE.jpg",
-      "title": "NA 40326 BALE.jpg",
-      "width": 2160,
-      "height": 3840,
-      "size": 1844232,
-      "timestamp": "2021-06-28T09:24:10Z",
-      "author": "BugStorm",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/3Fi113-031_-_ST-PIERRE-QUILBIGNON_%28FINISTERE%29_-_PLAGE_DE_LA_MAISON_BLANCHE.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A3Fi113-031%20-%20ST-PIERRE-QUILBIGNON%20(FINISTERE)%20-%20PLAGE%20DE%20LA%20MAISON%20BLANCHE.jpg",
+      "title": "3Fi113-031 - ST-PIERRE-QUILBIGNON (FINISTERE) - PLAGE DE LA MAISON BLANCHE.jpg",
+      "description": "vue des enfants sur la plage de galets, à l'arrière-plan les maisons.",
+      "width": 1632,
+      "height": 1050,
+      "size": 1209322,
+      "timestamp": "2022-08-12T15:50:53Z",
+      "author": "<span lang=\"en\">Anonymous</span><span style=\"display:none\">Unknown author</span>",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/NA_40326_SEKI.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANA%2040326%20SEKI.jpg",
-      "title": "NA 40326 SEKI.jpg",
-      "width": 2160,
-      "height": 3840,
-      "size": 1643451,
-      "timestamp": "2022-06-11T20:09:16Z",
-      "author": "BugStorm",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Blanche_Hosch%C3%A9d%C3%A9-Monet_Plage_de_la_c%C3%B4te_normande.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABlanche%20Hosch%C3%A9d%C3%A9-Monet%20Plage%20de%20la%20c%C3%B4te%20normande.jpg",
+      "title": "Blanche Hoschédé-Monet Plage de la côte normande.jpg",
+      "description": "Blanche Hoschédé-Monet _Plage de la côte normande_huile sur toile, musée de Vernon",
+      "width": 4000,
+      "height": 3000,
+      "size": 4716020,
+      "timestamp": "2021-08-22T20:30:00Z",
+      "author": "Adoc",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Carantec_-_Ile_Callot_-_Vue_vers_la_Plage_de_Gr%C3%A8ve_blanche_1.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarantec%20-%20Ile%20Callot%20-%20Vue%20vers%20la%20Plage%20de%20Gr%C3%A8ve%20blanche%201.jpg",
+      "title": "Carantec - Ile Callot - Vue vers la Plage de Grève blanche 1.jpg",
+      "description": "Vue vers la Plage de Grève blanche",
+      "width": 5861,
+      "height": 3256,
+      "size": 11994110,
+      "timestamp": "2021-11-22T15:49:45Z",
+      "author": "Renhour48",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
     }
   ],
   "lieux": [
     {
       "label": "Dunes et oyats de la Plage Blanche",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Blette_Blanche.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABlette%20Blanche.jpg",
+          "title": "Blette Blanche.jpg",
+          "description": "Dune près de la plage de la Blette Blanche à Saint-Girons (Landes).",
+          "width": 5152,
+          "height": 3864,
+          "size": 5664359,
+          "timestamp": "2016-08-25T10:26:13Z",
+          "author": "Thomon",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Boite_%C3%A0_livres_dans_une_structure_bois_sur_la_plage.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABoite%20%C3%A0%20livres%20dans%20une%20structure%20bois%20sur%20la%20plage.jpg",
+          "title": "Boite à livres dans une structure bois sur la plage.jpg",
+          "description": "Photo d'une boite à livres dans une structure bois (bleue et blanche), entourée d'herbes de dunes. Derrière, la plage et la mer bleue turquoise.",
+          "width": 2976,
+          "height": 2976,
+          "size": 1521779,
+          "timestamp": "2024-07-21T17:52:23Z",
+          "author": "Bristow 69",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Le_Touquet_depuis_la_limite_entre_dunes_blanche_et_grise_de_la_pointe_Nord_-_Le_Touquet-Paris-Plage.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Touquet%20depuis%20la%20limite%20entre%20dunes%20blanche%20et%20grise%20de%20la%20pointe%20Nord%20-%20Le%20Touquet-Paris-Plage.jpg",
+          "title": "Le Touquet depuis la limite entre dunes blanche et grise de la pointe Nord - Le Touquet-Paris-Plage.jpg",
+          "description": "",
+          "width": 2553,
+          "height": 1876,
+          "size": 2539677,
+          "timestamp": "2012-02-06T20:24:31Z",
+          "author": "JBCousin",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Embouchure du Courant d’Huchet",

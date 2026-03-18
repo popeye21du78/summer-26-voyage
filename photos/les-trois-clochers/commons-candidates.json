@@ -1,44 +1,47 @@
 {
   "slug": "les-trois-clochers",
   "nom": "Les trois clochers",
-  "fetchedAt": "2026-03-13T15:53:48.961Z",
+  "fetchedAt": "2026-03-16T20:48:04.766Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/MONTMURAT_%286%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMONTMURAT%20(6).jpg",
-      "title": "MONTMURAT (6).jpg",
-      "width": 2448,
-      "height": 1836,
-      "size": 1710442,
-      "timestamp": "2023-12-19T14:59:24Z",
-      "author": "WCOMFR",
-      "license": "CC BY 4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Saint-Gervais-les-Trois-Clochers_-_L%27%C3%A9glise%2C_vue_du_clocher_%C3%A0_travers_un_porche.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Gervais-les-Trois-Clochers%20-%20L'%C3%A9glise%2C%20vue%20du%20clocher%20%C3%A0%20travers%20un%20porche.jpg",
+      "title": "Saint-Gervais-les-Trois-Clochers - L'église, vue du clocher à travers un porche.jpg",
+      "description": "Saint-Gervais-les-Trois-Clochers - L'église, vue du clocher à travers un porche",
+      "width": 3072,
+      "height": 4096,
+      "size": 1982914,
+      "timestamp": "2021-05-20T20:53:15Z",
+      "author": "Grostophe",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 8
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/86224-Saint-Gervais-les-Trois-Clochers-Sols.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A86224-Saint-Gervais-les-Trois-Clochers-Sols.png",
+      "title": "86224-Saint-Gervais-les-Trois-Clochers-Sols.png",
+      "description": "Carte des infrastructures et de l’occupation des sols en 2018 de la commune de fr:Saint-Gervais-les-Trois-Clochers (France).",
+      "width": 3270,
+      "height": 2598,
+      "size": 3070221,
+      "timestamp": "2021-04-19T17:42:02Z",
+      "author": "Roland45",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Mairie_et_%C3%A9cole_de_Saint-santin-de-maurs.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMairie%20et%20%C3%A9cole%20de%20Saint-santin-de-maurs.jpg",
-      "title": "Mairie et école de Saint-santin-de-maurs.jpg",
-      "width": 4640,
-      "height": 2610,
-      "size": 4019454,
-      "timestamp": "2024-01-19T13:45:06Z",
-      "author": "Yod4z",
-      "license": "CC0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Face_avant_du_monument_aux_morts_des_deux_villages_%28Cantal_et_Aveyron%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFace%20avant%20du%20monument%20aux%20morts%20des%20deux%20villages%20(Cantal%20et%20Aveyron).jpg",
-      "title": "Face avant du monument aux morts des deux villages (Cantal et Aveyron).jpg",
-      "width": 4640,
-      "height": 2610,
-      "size": 5018822,
-      "timestamp": "2024-01-19T13:49:15Z",
-      "author": "Yod4z",
-      "license": "CC0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Saint-Gervais-les-Trois-Clochers_-_L%27%C3%A9glise%2C_entr%C3%A9e_route.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Gervais-les-Trois-Clochers%20-%20L'%C3%A9glise%2C%20entr%C3%A9e%20route.jpg",
+      "title": "Saint-Gervais-les-Trois-Clochers - L'église, entrée route.jpg",
+      "description": "Saint-Gervais-les-Trois-Clochers - L'église, entrée route",
+      "width": 3928,
+      "height": 2954,
+      "size": 2077038,
+      "timestamp": "2021-05-20T20:53:15Z",
+      "author": "Grostophe",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     }
@@ -46,15 +49,144 @@
   "lieux": [
     {
       "label": "Église Saint-Santin",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Les_trois_cloches_d%C3%A9pos%C3%A9es_de_l%27%C3%A9glise_de_Traubach-le-Haut.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALes%20trois%20cloches%20d%C3%A9pos%C3%A9es%20de%20l'%C3%A9glise%20de%20Traubach-le-Haut.jpg",
+          "title": "Les trois cloches déposées de l'église de Traubach-le-Haut.jpg",
+          "description": "Les trois cloche déposées de l'église",
+          "width": 3264,
+          "height": 2448,
+          "size": 3714161,
+          "timestamp": "2020-08-22T09:40:50Z",
+          "author": "Espirat",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Saint-Gervais-les-Trois-Clochers_-_L%27%C3%A9glise%2C_entr%C3%A9e_route.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Gervais-les-Trois-Clochers%20-%20L'%C3%A9glise%2C%20entr%C3%A9e%20route.jpg",
+          "title": "Saint-Gervais-les-Trois-Clochers - L'église, entrée route.jpg",
+          "description": "Saint-Gervais-les-Trois-Clochers - L'église, entrée route",
+          "width": 3928,
+          "height": 2954,
+          "size": 2077038,
+          "timestamp": "2021-05-20T20:53:15Z",
+          "author": "Grostophe",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Courmelles_Eglise_Les_trois_cloches.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACourmelles%20Eglise%20Les%20trois%20cloches.jpg",
+          "title": "Courmelles Eglise Les trois cloches.jpg",
+          "description": "Les trois cloches",
+          "width": 3566,
+          "height": 2326,
+          "size": 4153514,
+          "timestamp": "2022-02-07T16:06:16Z",
+          "author": "René Hourdry",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Clocher de Saint-Étienne-de-Caplongue",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Saint-Gervais-les-Trois-Clochers_-_L%27%C3%A9glise%2C_vue_du_clocher_%C3%A0_travers_un_porche.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Gervais-les-Trois-Clochers%20-%20L'%C3%A9glise%2C%20vue%20du%20clocher%20%C3%A0%20travers%20un%20porche.jpg",
+          "title": "Saint-Gervais-les-Trois-Clochers - L'église, vue du clocher à travers un porche.jpg",
+          "description": "Saint-Gervais-les-Trois-Clochers - L'église, vue du clocher à travers un porche",
+          "width": 3072,
+          "height": 4096,
+          "size": 1982914,
+          "timestamp": "2021-05-20T20:53:15Z",
+          "author": "Grostophe",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/86224-Saint-Gervais-les-Trois-Clochers-Sols.png",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A86224-Saint-Gervais-les-Trois-Clochers-Sols.png",
+          "title": "86224-Saint-Gervais-les-Trois-Clochers-Sols.png",
+          "description": "Carte des infrastructures et de l’occupation des sols en 2018 de la commune de fr:Saint-Gervais-les-Trois-Clochers (France).",
+          "width": 3270,
+          "height": 2598,
+          "size": 3070221,
+          "timestamp": "2021-04-19T17:42:02Z",
+          "author": "Roland45",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Saint-Gervais-les-Trois-Clochers_-_L%27%C3%A9glise%2C_entr%C3%A9e_route.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASaint-Gervais-les-Trois-Clochers%20-%20L'%C3%A9glise%2C%20entr%C3%A9e%20route.jpg",
+          "title": "Saint-Gervais-les-Trois-Clochers - L'église, entrée route.jpg",
+          "description": "Saint-Gervais-les-Trois-Clochers - L'église, entrée route",
+          "width": 3928,
+          "height": 2954,
+          "size": 2077038,
+          "timestamp": "2021-05-20T20:53:15Z",
+          "author": "Grostophe",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Chapelle de La Fage",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Cath%C3%A9drale_de_Trois-Rivi%C3%A8res%2C_362%2C_rue_Bonaventure%2C_Trois-Rivi%C3%A8res_partie_de_la_fa%C3%A7ade_et_c%C3%B4t%C3%A9_gauche_de_l%27%C3%A9glise_11-d.na.civile-87-824.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale%20de%20Trois-Rivi%C3%A8res%2C%20362%2C%20rue%20Bonaventure%2C%20Trois-Rivi%C3%A8res%20partie%20de%20la%20fa%C3%A7ade%20et%20c%C3%B4t%C3%A9%20gauche%20de%20l'%C3%A9glise%2011-d.na.civile-87-824.jpg",
+          "title": "Cathédrale de Trois-Rivières, 362, rue Bonaventure, Trois-Rivières partie de la façade et côté gauche de l'église 11-d.na.civile-87-824.jpg",
+          "description": "",
+          "width": 1500,
+          "height": 979,
+          "size": 1141403,
+          "timestamp": "2021-05-21T15:23:11Z",
+          "author": "Groupe de recherche en art du Québec",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Cath%C3%A9drale_de_Trois-Rivi%C3%A8res%2C_362%2C_rue_Bonaventure%2C_Trois-Rivi%C3%A8res_partie_de_la_fa%C3%A7ade_et_nef%2C_c%C3%B4t%C3%A9_droit_11-d.na.civile-87-830.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale%20de%20Trois-Rivi%C3%A8res%2C%20362%2C%20rue%20Bonaventure%2C%20Trois-Rivi%C3%A8res%20partie%20de%20la%20fa%C3%A7ade%20et%20nef%2C%20c%C3%B4t%C3%A9%20droit%2011-d.na.civile-87-830.jpg",
+          "title": "Cathédrale de Trois-Rivières, 362, rue Bonaventure, Trois-Rivières partie de la façade et nef, côté droit 11-d.na.civile-87-830.jpg",
+          "description": "",
+          "width": 1500,
+          "height": 977,
+          "size": 1279541,
+          "timestamp": "2021-05-21T15:23:21Z",
+          "author": "Groupe de recherche en art du Québec",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Cath%C3%A9drale_de_Trois-Rivi%C3%A8res%2C_362%2C_rue_Bonaventure%2C_Trois-Rivi%C3%A8res_vue_d%27ensemble%2C_chevet_et_c%C3%B4t%C3%A9_gauche_11-d.na.civile-87-827.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale%20de%20Trois-Rivi%C3%A8res%2C%20362%2C%20rue%20Bonaventure%2C%20Trois-Rivi%C3%A8res%20vue%20d'ensemble%2C%20chevet%20et%20c%C3%B4t%C3%A9%20gauche%2011-d.na.civile-87-827.jpg",
+          "title": "Cathédrale de Trois-Rivières, 362, rue Bonaventure, Trois-Rivières vue d'ensemble, chevet et côté gauche 11-d.na.civile-87-827.jpg",
+          "description": "",
+          "width": 1500,
+          "height": 981,
+          "size": 1198693,
+          "timestamp": "2021-05-21T15:23:32Z",
+          "author": "Groupe de recherche en art du Québec",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

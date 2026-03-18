@@ -1,25 +1,13 @@
 {
   "slug": "plage-du-goulien",
   "nom": "Plage du Goulien",
-  "fetchedAt": "2026-03-14T11:21:55.442Z",
+  "fetchedAt": "2026-03-18T16:31:05.961Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Camaret-sur-Mer_-_Pointe_de_Pen-hir_-_Vue_sur_la_baie_au_sud%2C_avec_la_plage_du_Veryac%27h_%C3%A0_gauche_et_la_plage_de_Lamzoz_au_centre.jpeg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACamaret-sur-Mer%20-%20Pointe%20de%20Pen-hir%20-%20Vue%20sur%20la%20baie%20au%20sud%2C%20avec%20la%20plage%20du%20Veryac'h%20%C3%A0%20gauche%20et%20la%20plage%20de%20Lamzoz%20au%20centre.jpeg",
-      "title": "Camaret-sur-Mer - Pointe de Pen-hir - Vue sur la baie au sud, avec la plage du Veryac'h à gauche et la plage de Lamzoz au centre.jpeg",
-      "width": 4128,
-      "height": 2322,
-      "size": 3229144,
-      "timestamp": "2021-10-03T19:15:12Z",
-      "author": "Romainbehar",
-      "license": "CC0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Macro-d%C3%A9chets_sur_la_plage_de_Kersigu%C3%A9nou_%28Ifremer_00945-105643_-_54530%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMacro-d%C3%A9chets%20sur%20la%20plage%20de%20Kersigu%C3%A9nou%20(Ifremer%2000945-105643%20-%2054530).jpg",
       "title": "Macro-déchets sur la plage de Kersiguénou (Ifremer 00945-105643 - 54530).jpg",
+      "description": "Plastic bottle caps have invaded the upper reaches of Kersiguénou beach. Some are stained with fuel oil.",
       "width": 2048,
       "height": 1536,
       "size": 1014442,
@@ -30,15 +18,30 @@
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Plage_de_Kerloc%27h.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlage%20de%20Kerloc'h.jpg",
-      "title": "Plage de Kerloc'h.jpg",
-      "width": 3264,
-      "height": 2448,
-      "size": 3127903,
-      "timestamp": "2015-05-11T09:53:11Z",
-      "author": "Auregann",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Plage_de_Goulien_%28France%29.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlage%20de%20Goulien%20(France).JPG",
+      "title": "Plage de Goulien (France).JPG",
+      "description": "La plage de Goulien en presqu'île de Crozon, Finistère, France",
+      "width": 3456,
+      "height": 2304,
+      "size": 3949808,
+      "timestamp": "2015-05-20T16:19:05Z",
+      "author": "Cyaenn",
       "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Plage_de_Kerloc%27h_-_Camaret-sur-Mer%2C_Finist%C3%A8re%2C_France_-_August_17%2C_2018_02.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlage%20de%20Kerloc'h%20-%20Camaret-sur-Mer%2C%20Finist%C3%A8re%2C%20France%20-%20August%2017%2C%202018%2002.jpg",
+      "title": "Plage de Kerloc'h - Camaret-sur-Mer, Finistère, France - August 17, 2018 02.jpg",
+      "description": "Plage de Kerloc'h, Camaret-sur-Mer, Finistère, France",
+      "width": 6720,
+      "height": 4480,
+      "size": 16601733,
+      "timestamp": "2018-09-30T09:06:53Z",
+      "author": "Giorgio Galeotti",
+      "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 6
     }

@@ -1,46 +1,49 @@
 {
   "slug": "camon",
   "nom": "Camon",
-  "fetchedAt": "2026-03-13T00:37:52.602Z",
+  "fetchedAt": "2026-03-15T20:32:52.145Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/ISS033-E-6805_-_View_of_Spain.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS033-E-6805%20-%20View%20of%20Spain.jpg",
-      "title": "ISS033-E-6805 - View of Spain.jpg",
-      "width": 4256,
-      "height": 2832,
-      "size": 1611832,
-      "timestamp": "2022-06-11T04:49:56Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Arriv%C3%A9e_dans_le_village_de_Camon%2C_un_des_-_beaux_villages_de_France_-_panoramio.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArriv%C3%A9e%20dans%20le%20village%20de%20Camon%2C%20un%20des%20-%20beaux%20villages%20de%20France%20-%20panoramio.jpg",
+      "title": "Arrivée dans le village de Camon, un des - beaux villages de France - panoramio.jpg",
+      "description": "Arrivée dans le village de Camon, un des + beaux villages de France",
+      "width": 2048,
+      "height": 995,
+      "size": 314015,
+      "timestamp": "2017-04-16T04:53:58Z",
+      "author": "Gilles Guillamot",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 6
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/ISS065-E-92183_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS065-E-92183%20-%20View%20of%20Earth.jpg",
-      "title": "ISS065-E-92183 - View of Earth.jpg",
-      "width": 5568,
-      "height": 3712,
-      "size": 2721151,
-      "timestamp": "2022-06-28T20:39:36Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Remparts_et_%C3%A9glise_de_Camon.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARemparts%20et%20%C3%A9glise%20de%20Camon.JPG",
+      "title": "Remparts et église de Camon.JPG",
+      "description": "Prieuré et remparts de Camon (Ariège, France).",
+      "width": 2736,
+      "height": 1824,
+      "size": 2090712,
+      "timestamp": "2014-09-17T19:11:52Z",
+      "author": "MademoiselleMV",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 5
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/ISS065-E-92184_-_View_of_Earth.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AISS065-E-92184%20-%20View%20of%20Earth.jpg",
-      "title": "ISS065-E-92184 - View of Earth.jpg",
-      "width": 5568,
-      "height": 3712,
-      "size": 2899074,
-      "timestamp": "2022-06-28T20:39:43Z",
-      "author": "Earth Science and Remote Sensing Unit",
-      "license": "Public domain",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Arriv%C3%A9e_dans_l%27Aude%2C_vers_Camon_-_panoramio.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArriv%C3%A9e%20dans%20l'Aude%2C%20vers%20Camon%20-%20panoramio.jpg",
+      "title": "Arrivée dans l'Aude, vers Camon - panoramio.jpg",
+      "description": "Arrivée dans l'Aude, vers Camon",
+      "width": 2048,
+      "height": 864,
+      "size": 257369,
+      "timestamp": "2017-04-16T04:49:57Z",
+      "author": "Gilles Guillamot",
+      "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 5
     }
   ],
   "lieux": [
@@ -50,7 +53,50 @@
     },
     {
       "label": "Chemin de ronde (remparts)",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Camon_les_remparts.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACamon%20les%20remparts.jpg",
+          "title": "Camon les remparts.jpg",
+          "description": "Camon, Ariège (Midi-Pyrénées) - Vue de l'enceinte nord (XVIe siècle) et de la tour carrée.",
+          "width": 6016,
+          "height": 4016,
+          "size": 9201578,
+          "timestamp": "2013-04-26T10:47:29Z",
+          "author": "Pierre Bona",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Camon_remparts_nord.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACamon%20remparts%20nord.jpg",
+          "title": "Camon remparts nord.jpg",
+          "description": "Camon, Ariège (Midi-Pyrénées) - Les remparts nord de la Cité",
+          "width": 6016,
+          "height": 4016,
+          "size": 8790576,
+          "timestamp": "2013-06-09T10:29:44Z",
+          "author": "Pierre Bona",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Remparts_et_%C3%A9glise_de_Camon.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARemparts%20et%20%C3%A9glise%20de%20Camon.JPG",
+          "title": "Remparts et église de Camon.JPG",
+          "description": "Prieuré et remparts de Camon (Ariège, France).",
+          "width": 2736,
+          "height": 1824,
+          "size": 2090712,
+          "timestamp": "2014-09-17T19:11:52Z",
+          "author": "MademoiselleMV",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
     },
     {
       "label": "Promenade du canal",

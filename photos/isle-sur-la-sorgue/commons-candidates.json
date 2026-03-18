@@ -1,25 +1,13 @@
 {
   "slug": "isle-sur-la-sorgue",
   "nom": "Isle-sur-la-Sorgue",
-  "fetchedAt": "2026-03-13T01:05:39.376Z",
+  "fetchedAt": "2026-03-16T14:16:00.011Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Fondation_Villa_Datris_%2871387%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFondation%20Villa%20Datris%20(71387).jpg",
-      "title": "Fondation Villa Datris (71387).jpg",
-      "width": 3264,
-      "height": 2448,
-      "size": 4381708,
-      "timestamp": "2025-08-02T07:32:58Z",
-      "author": "Marianne Casamance",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/L%27Isle_sur_la_Sorgue_-_bord_de_rivi%C3%A8re.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AL'Isle%20sur%20la%20Sorgue%20-%20bord%20de%20rivi%C3%A8re.jpg",
       "title": "L'Isle sur la Sorgue - bord de rivière.jpg",
+      "description": "bord de sorgue",
       "width": 4608,
       "height": 3072,
       "size": 2769862,
@@ -33,10 +21,25 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/L%27Isle_sur_la_Sorgue_-_place_Rose_Goudard_2.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AL'Isle%20sur%20la%20Sorgue%20-%20place%20Rose%20Goudard%202.jpg",
       "title": "L'Isle sur la Sorgue - place Rose Goudard 2.jpg",
+      "description": "jardin de la place Rose Goudard",
       "width": 4608,
       "height": 3072,
       "size": 3717569,
       "timestamp": "2025-08-03T08:36:54Z",
+      "author": "Marianne Casamance",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/L%27Isle_sur_la_Sorgue-_place_Rose_Goudard_1.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AL'Isle%20sur%20la%20Sorgue-%20place%20Rose%20Goudard%201.jpg",
+      "title": "L'Isle sur la Sorgue- place Rose Goudard 1.jpg",
+      "description": "jardin de la place Rose Goudard",
+      "width": 4608,
+      "height": 3072,
+      "size": 3792862,
+      "timestamp": "2025-08-03T08:37:22Z",
       "author": "Marianne Casamance",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
@@ -50,7 +53,50 @@
     },
     {
       "label": "Place de l’Église Notre-Dame-des-Anges",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Isle_sur_Sorgue_Eglise_ND.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AIsle%20sur%20Sorgue%20Eglise%20ND.jpg",
+          "title": "Isle sur Sorgue Eglise ND.jpg",
+          "description": "Collégiale Notre-Dame-des-Anges de L'Isle-sur-la-Sorgue",
+          "width": 4896,
+          "height": 3672,
+          "size": 6983680,
+          "timestamp": "2017-09-03T09:12:56Z",
+          "author": "Jacques Le Letty",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/L%27Isle-sur-la-Sorgue._Eglise_Notre-Dame-de-Anges_%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AL'Isle-sur-la-Sorgue.%20Eglise%20Notre-Dame-de-Anges%20(2).jpg",
+          "title": "L'Isle-sur-la-Sorgue. Eglise Notre-Dame-de-Anges (2).jpg",
+          "description": "L'Isle-sur-la-Sorgue. Eglise Notre-Dame-de-Anges",
+          "width": 2133,
+          "height": 2711,
+          "size": 1140079,
+          "timestamp": "2020-06-26T14:14:34Z",
+          "author": "Inga Tomane",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/L%27Isle-sur-la-Sorgue._Eglise_Notre-Dame-de-Anges_%281%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AL'Isle-sur-la-Sorgue.%20Eglise%20Notre-Dame-de-Anges%20(1).jpg",
+          "title": "L'Isle-sur-la-Sorgue. Eglise Notre-Dame-de-Anges (1).jpg",
+          "description": "L'Isle-sur-la-Sorgue. Eglise Notre-Dame-de-Anges",
+          "width": 2307,
+          "height": 3064,
+          "size": 1346267,
+          "timestamp": "2020-06-26T14:14:37Z",
+          "author": "Inga Tomane",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 6
+        }
+      ]
     },
     {
       "label": "Passerelle du partage des eaux",
@@ -67,6 +113,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/L_Isle-sur-la-Sorgue_20150829_30.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AL%20Isle-sur-la-Sorgue%2020150829%2030.jpg",
           "title": "L Isle-sur-la-Sorgue 20150829 30.jpg",
+          "description": "L'Isle-sur-la-Sorgue (Vaucluse, France)",
           "width": 5184,
           "height": 3456,
           "size": 7967245,
@@ -80,6 +127,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/L_Isle-sur-la-Sorgue_20150829_31.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AL%20Isle-sur-la-Sorgue%2020150829%2031.jpg",
           "title": "L Isle-sur-la-Sorgue 20150829 31.jpg",
+          "description": "L'Isle-sur-la-Sorgue (Vaucluse, France)",
           "width": 5184,
           "height": 3456,
           "size": 7023462,

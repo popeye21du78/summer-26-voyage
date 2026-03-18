@@ -1,12 +1,13 @@
 {
   "slug": "peillon",
   "nom": "Peillon",
-  "fetchedAt": "2026-03-13T16:47:16.161Z",
+  "fetchedAt": "2026-03-17T22:19:07.109Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Peillon_Landscape.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APeillon%20Landscape.jpg",
       "title": "Peillon Landscape.jpg",
+      "description": "A view across the Paillon Valley of the town of Peillon, France.\nPeillon is a picturesque fortified village about 15 miles north of Nice, France. The village is perched on top of a high narrow rocky peak, with the compact collection of stone houses, narrow streets, vaulted passages, and sometimes steep stairs. \nThe area has been inhabited since the Iron Age age and the first fortifed town was built on the site near the end of the 10th Century.  Most of the current buildings date from the 19th Ce",
       "width": 3565,
       "height": 2368,
       "size": 3378024,
@@ -20,6 +21,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Peillon_at_night_-_panoramio.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APeillon%20at%20night%20-%20panoramio.jpg",
       "title": "Peillon at night - panoramio.jpg",
+      "description": "Peillon at night",
       "width": 3264,
       "height": 2448,
       "size": 4891040,
@@ -33,6 +35,7 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Village_Peillon_-_panoramio.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVillage%20Peillon%20-%20panoramio.jpg",
       "title": "Village Peillon - panoramio.jpg",
+      "description": "Village Peillon",
       "width": 3264,
       "height": 2448,
       "size": 5173906,
@@ -51,6 +54,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Peillon_face_sud.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APeillon%20face%20sud.jpg",
           "title": "Peillon face sud.jpg",
+          "description": "South face of Peillon",
           "width": 3636,
           "height": 2412,
           "size": 5510601,
@@ -64,6 +68,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Peillon_-_%C3%89glise_de_la_Transfiguration_-03.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APeillon%20-%20%C3%89glise%20de%20la%20Transfiguration%20-03.JPG",
           "title": "Peillon - Église de la Transfiguration -03.JPG",
+          "description": "Peillon - Église de la Transfiguration - La nef",
           "width": 4896,
           "height": 3672,
           "size": 2355766,
@@ -77,6 +82,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Peillon_-_%C3%89glise_de_la_Transfiguration_-02.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APeillon%20-%20%C3%89glise%20de%20la%20Transfiguration%20-02.JPG",
           "title": "Peillon - Église de la Transfiguration -02.JPG",
+          "description": "Peillon - Église de la Transfiguration - La place de l'église avec l'ancienne école",
           "width": 4896,
           "height": 3672,
           "size": 4386448,
@@ -96,9 +102,38 @@
       "label": "Chapelle des Pénitents Blancs",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Peillon_-_%C3%89glise_de_la_Transfiguration_-05.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APeillon%20-%20%C3%89glise%20de%20la%20Transfiguration%20-05.JPG",
+          "title": "Peillon - Église de la Transfiguration -05.JPG",
+          "description": "Peillon - Église de la Transfiguration - Le choeur de l'église à l'emplacement de l'ancienne chapelle romane dont on voit l'abside voûté en cul-de-four à droite",
+          "width": 4896,
+          "height": 3672,
+          "size": 3516451,
+          "timestamp": "2012-09-24T14:16:00Z",
+          "author": "MOSSOT",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Peillon_-_Chapelle_des_P%C3%A9nitents_Blancs_-03.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APeillon%20-%20Chapelle%20des%20P%C3%A9nitents%20Blancs%20-03.JPG",
+          "title": "Peillon - Chapelle des Pénitents Blancs -03.JPG",
+          "description": "Peillon - Chapelle des Pénitents Blancs - Fresque sur le fond de la chapelle",
+          "width": 4896,
+          "height": 3672,
+          "size": 4228601,
+          "timestamp": "2012-09-24T19:29:40Z",
+          "author": "MOSSOT",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Peillon_-_Chapelle_des_P%C3%A9nitents_Blancs_-06.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APeillon%20-%20Chapelle%20des%20P%C3%A9nitents%20Blancs%20-06.JPG",
           "title": "Peillon - Chapelle des Pénitents Blancs -06.JPG",
+          "description": "Peillon - Chapelle des Pénitents Blancs - Piéta",
           "width": 4805,
           "height": 3281,
           "size": 4026924,
@@ -107,19 +142,6 @@
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 5
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Peillon_-_Chapelle_des_P%C3%A9nitents_Blancs_-02.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APeillon%20-%20Chapelle%20des%20P%C3%A9nitents%20Blancs%20-02.JPG",
-          "title": "Peillon - Chapelle des Pénitents Blancs -02.JPG",
-          "width": 3672,
-          "height": 4896,
-          "size": 2878921,
-          "timestamp": "2012-09-24T19:29:40Z",
-          "author": "MOSSOT",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
         }
       ]
     }

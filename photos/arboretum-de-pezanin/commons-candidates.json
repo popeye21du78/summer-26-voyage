@@ -1,42 +1,45 @@
 {
   "slug": "arboretum-de-pezanin",
   "nom": "Arboretum de Pézanin",
-  "fetchedAt": "2026-03-13T12:07:17.757Z",
+  "fetchedAt": "2026-03-15T15:09:06.161Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Cimeti%C3%A8re_Arbent_1.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACimeti%C3%A8re%20Arbent%201.jpg",
-      "title": "Cimetière Arbent 1.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Arboretum_P%C3%A9zanin_Dompierre_Ormes_3.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArboretum%20P%C3%A9zanin%20Dompierre%20Ormes%203.jpg",
+      "title": "Arboretum Pézanin Dompierre Ormes 3.jpg",
+      "description": "Arboretum de Pézanin, Dompierre-les-Ormes.",
       "width": 4032,
       "height": 3024,
-      "size": 4862160,
-      "timestamp": "2020-08-16T21:23:08Z",
+      "size": 6900031,
+      "timestamp": "2020-07-12T21:19:24Z",
       "author": "Chabe01",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Cimeti%C3%A8re_Arbent_3.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACimeti%C3%A8re%20Arbent%203.jpg",
-      "title": "Cimetière Arbent 3.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Arboretum_P%C3%A9zanin_Dompierre_Ormes_2.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArboretum%20P%C3%A9zanin%20Dompierre%20Ormes%202.jpg",
+      "title": "Arboretum Pézanin Dompierre Ormes 2.jpg",
+      "description": "Arboretum de Pézanin, Dompierre-les-Ormes.",
       "width": 4032,
       "height": 3024,
-      "size": 5974623,
-      "timestamp": "2020-08-16T21:23:16Z",
+      "size": 7302556,
+      "timestamp": "2020-07-12T21:19:25Z",
       "author": "Chabe01",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 7
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Cimeti%C3%A8re_Arbent_4.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACimeti%C3%A8re%20Arbent%204.jpg",
-      "title": "Cimetière Arbent 4.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Arboretum_P%C3%A9zanin_Dompierre_Ormes_1.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArboretum%20P%C3%A9zanin%20Dompierre%20Ormes%201.jpg",
+      "title": "Arboretum Pézanin Dompierre Ormes 1.jpg",
+      "description": "Arboretum de Pézanin, Dompierre-les-Ormes.",
       "width": 4032,
       "height": 3024,
-      "size": 4728914,
-      "timestamp": "2020-08-16T21:23:17Z",
+      "size": 7594346,
+      "timestamp": "2020-07-12T21:19:25Z",
       "author": "Chabe01",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
@@ -46,7 +49,36 @@
   "lieux": [
     {
       "label": "Étang central de Pézanin",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Arboretum_de_P%C3%A9zanin_2014.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArboretum%20de%20P%C3%A9zanin%202014.jpg",
+          "title": "Arboretum de Pézanin 2014.jpg",
+          "description": "Pézanin en 2014",
+          "width": 2592,
+          "height": 1944,
+          "size": 1388957,
+          "timestamp": "2014-05-17T06:26:50Z",
+          "author": "Mdomp",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Arboretum%2C_lac_de_Pezanin.jpeg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArboretum%2C%20lac%20de%20Pezanin.jpeg",
+          "title": "Arboretum, lac de Pezanin.jpeg",
+          "description": "Arboretum de Pezanin - Dompierre les Ormes Sud Bourgogne",
+          "width": 1920,
+          "height": 1080,
+          "size": 1586404,
+          "timestamp": "2009-06-25T19:08:27Z",
+          "author": "Roland WALRAWENS",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     },
     {
       "label": "Bosquet de pins noirs d’Autriche",

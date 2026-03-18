@@ -1,12 +1,13 @@
 {
   "slug": "le-barroux",
   "nom": "Le Barroux",
-  "fetchedAt": "2026-03-13T15:25:19.025Z",
+  "fetchedAt": "2026-03-16T19:47:02.990Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Ch%C3%A2teau_du_Barroux%2C_murs.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20du%20Barroux%2C%20murs.jpg",
       "title": "Château du Barroux, murs.jpg",
+      "description": "Château du Barroux.",
       "width": 4032,
       "height": 3024,
       "size": 5563632,
@@ -14,12 +15,13 @@
       "author": "Fanfwah",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/12_PAC_-_Vaucluse_-_Le_Barroux_%282012-09-13_12-47-23%29.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A12%20PAC%20-%20Vaucluse%20-%20Le%20Barroux%20(2012-09-13%2012-47-23).jpg",
       "title": "12 PAC - Vaucluse - Le Barroux (2012-09-13 12-47-23).jpg",
+      "description": "Château du Barroux",
       "width": 4000,
       "height": 3000,
       "size": 3750404,
@@ -27,12 +29,13 @@
       "author": "Johan Allard",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Ch%C3%A2teau_du_Barroux%2C_tour.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20du%20Barroux%2C%20tour.jpg",
       "title": "Château du Barroux, tour.jpg",
+      "description": "Château du Barroux.",
       "width": 3024,
       "height": 4032,
       "size": 4254701,
@@ -40,7 +43,7 @@
       "author": "Fanfwah",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 8
     }
   ],
   "lieux": [
@@ -48,9 +51,24 @@
       "label": "Château du Barroux",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Ch%C3%A2teau_du_Barroux%2C_murs.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau%20du%20Barroux%2C%20murs.jpg",
+          "title": "Château du Barroux, murs.jpg",
+          "description": "Château du Barroux.",
+          "width": 4032,
+          "height": 3024,
+          "size": 5563632,
+          "timestamp": "2021-09-21T21:50:38Z",
+          "author": "Fanfwah",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/12_PAC_-_Vaucluse_-_Le_Barroux_-_abbaye_Notre-Dame-de-l_Annonciation_%282012-09-13_14-06-16%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A12%20PAC%20-%20Vaucluse%20-%20Le%20Barroux%20-%20abbaye%20Notre-Dame-de-l%20Annonciation%20(2012-09-13%2014-06-16).jpg",
           "title": "12 PAC - Vaucluse - Le Barroux - abbaye Notre-Dame-de-l Annonciation (2012-09-13 14-06-16).jpg",
+          "description": "Château du Barrouxchâteau, chapelle, mur",
           "width": 4000,
           "height": 3000,
           "size": 2535855,
@@ -58,12 +76,13 @@
           "author": "Johan Allard",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 9
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/12_PAC_-_Vaucluse_-_Le_Barroux_%282012-09-13_12-47-23%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A12%20PAC%20-%20Vaucluse%20-%20Le%20Barroux%20(2012-09-13%2012-47-23).jpg",
           "title": "12 PAC - Vaucluse - Le Barroux (2012-09-13 12-47-23).jpg",
+          "description": "Château du Barroux",
           "width": 4000,
           "height": 3000,
           "size": 3750404,
@@ -71,20 +90,7 @@
           "author": "Johan Allard",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/DPLeBarroux08.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADPLeBarroux08.jpg",
-          "title": "DPLeBarroux08.jpg",
-          "width": 4000,
-          "height": 3000,
-          "size": 2929078,
-          "timestamp": "2018-06-18T15:32:24Z",
-          "author": "Ziegler175",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 9
         }
       ]
     },
@@ -95,6 +101,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/%C3%89glise_Saint-Jean-Baptiste_du_Barroux_in_situ.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20Saint-Jean-Baptiste%20du%20Barroux%20in%20situ.jpg",
           "title": "Église Saint-Jean-Baptiste du Barroux in situ.jpg",
+          "description": "Église Saint-Jean-Baptiste du Barroux.",
           "width": 3024,
           "height": 4032,
           "size": 5074989,
@@ -108,6 +115,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/%C3%89glise_du_Barroux_1.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20du%20Barroux%201.jpg",
           "title": "Église du Barroux 1.jpg",
+          "description": "Église Saint-Jean-Baptiste du Barroux (Inscrit)",
           "width": 4000,
           "height": 3000,
           "size": 2391199,
@@ -121,6 +129,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/%C3%89glise_du_Barroux_4.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise%20du%20Barroux%204.jpg",
           "title": "Église du Barroux 4.jpg",
+          "description": "Église Saint-Jean-Baptiste du Barroux (Inscrit)",
           "width": 4000,
           "height": 3000,
           "size": 2149316,
@@ -136,9 +145,24 @@
       "label": "Abbaye Sainte-Madeleine du Barroux",
       "photos": [
         {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/12_PAC_-_Vaucluse_-_Le_Barroux_-_abbaye_Notre-Dame-de-l_Annonciation_%282012-09-13_14-06-16%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A12%20PAC%20-%20Vaucluse%20-%20Le%20Barroux%20-%20abbaye%20Notre-Dame-de-l%20Annonciation%20(2012-09-13%2014-06-16).jpg",
+          "title": "12 PAC - Vaucluse - Le Barroux - abbaye Notre-Dame-de-l Annonciation (2012-09-13 14-06-16).jpg",
+          "description": "Château du Barrouxchâteau, chapelle, mur",
+          "width": 4000,
+          "height": 3000,
+          "size": 2535855,
+          "timestamp": "2021-09-26T20:01:33Z",
+          "author": "Johan Allard",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Abbatiale_de_l%27abbaye_Sainte-Madeleine_du_Barroux_%28Vaucluse%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbatiale%20de%20l'abbaye%20Sainte-Madeleine%20du%20Barroux%20(Vaucluse).jpg",
           "title": "Abbatiale de l'abbaye Sainte-Madeleine du Barroux (Vaucluse).jpg",
+          "description": "Abbatiale de l'abbaye Sainte-Madeleine du Barroux (Vaucluse)",
           "width": 3937,
           "height": 2953,
           "size": 2676500,
@@ -149,28 +173,16 @@
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Vue_de_l%27abbaye_depuis_l%27ext%C3%A9rieur.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20de%20l'abbaye%20depuis%20l'ext%C3%A9rieur.jpg",
-          "title": "Vue de l'abbaye depuis l'extérieur.jpg",
-          "width": 3264,
-          "height": 2448,
-          "size": 1339636,
-          "timestamp": "2015-05-04T14:36:25Z",
-          "author": "DEO 77",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Vue_de_l%27abbaye_depuis_l%27ext%C3%A9rieur_avec_le_lever_de_soleil.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVue%20de%20l'abbaye%20depuis%20l'ext%C3%A9rieur%20avec%20le%20lever%20de%20soleil.jpg",
-          "title": "Vue de l'abbaye depuis l'extérieur avec le lever de soleil.jpg",
-          "width": 3264,
-          "height": 2448,
-          "size": 1923375,
-          "timestamp": "2015-05-04T14:36:28Z",
-          "author": "DEO 77",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Abbaye_Notre-Dame-de-l%27Annonciation_du_Barroux_%282025%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAbbaye%20Notre-Dame-de-l'Annonciation%20du%20Barroux%20(2025).jpg",
+          "title": "Abbaye Notre-Dame-de-l'Annonciation du Barroux (2025).jpg",
+          "description": "Abbaye Notre-Dame-de-l'Annonciation du Barroux (2025)",
+          "width": 1024,
+          "height": 768,
+          "size": 269514,
+          "timestamp": "2025-04-15T11:54:37Z",
+          "author": "AugustinMBRE",
+          "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
         }
@@ -178,7 +190,50 @@
     },
     {
       "label": "Lavoir ancien du village",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Le_Barroux_-_Lavoir_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Barroux%20-%20Lavoir%202.jpg",
+          "title": "Le Barroux - Lavoir 2.jpg",
+          "description": "lavoir du Barroux",
+          "width": 4000,
+          "height": 3000,
+          "size": 1971826,
+          "timestamp": "2013-05-13T19:56:26Z",
+          "author": "Marianne Casamance",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Le_Barroux_4.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Barroux%204.JPG",
+          "title": "Le Barroux 4.JPG",
+          "description": "Public wash-stand at Le Barroux, canton Malaucène, departement Vaucluse, region Provence-Alpes-Côte d'Azur",
+          "width": 2048,
+          "height": 1360,
+          "size": 1622780,
+          "timestamp": "2006-07-11T12:25:10Z",
+          "author": "Sten Porse",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Le_Barroux_-_Lavoir.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Barroux%20-%20Lavoir.jpg",
+          "title": "Le Barroux - Lavoir.jpg",
+          "description": "lavoir du Barroux",
+          "width": 3000,
+          "height": 4000,
+          "size": 2226774,
+          "timestamp": "2013-05-13T19:56:26Z",
+          "author": "Marianne Casamance",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 4
+        }
+      ]
     }
   ]
 }

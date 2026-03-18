@@ -1,66 +1,174 @@
 {
   "slug": "le-quesnoy",
   "nom": "Le Quesnoy",
-  "fetchedAt": "2026-03-13T15:37:06.248Z",
+  "fetchedAt": "2026-03-16T20:13:22.400Z",
   "header": [
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/0_%C3%89glise_Notre-Dame_de_l%27Assomption_-_Le_Quesnoy_%282%29.JPG",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A0%20%C3%89glise%20Notre-Dame%20de%20l'Assomption%20-%20Le%20Quesnoy%20(2).JPG",
-      "title": "0 Église Notre-Dame de l'Assomption - Le Quesnoy (2).JPG",
-      "width": 3338,
-      "height": 2225,
-      "size": 7840332,
-      "timestamp": "2020-07-21T22:15:54Z",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/0_Le_Quesnoy%2C_Foss%C3%A9%2C_enceinte_et_bastion_de_la_citadelle_Vauban_%286%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A0%20Le%20Quesnoy%2C%20Foss%C3%A9%2C%20enceinte%20et%20bastion%20de%20la%20citadelle%20Vauban%20(6).jpg",
+      "title": "0 Le Quesnoy, Fossé, enceinte et bastion de la citadelle Vauban (6).jpg",
+      "description": "Bastion du Château de la citadelle, Le Quesnoy (département du Nord, France).",
+      "width": 3456,
+      "height": 2304,
+      "size": 5161671,
+      "timestamp": "2020-07-21T06:41:45Z",
       "author": "Jean-Pol GRANDMONT",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/0_Le_Quesnoy%2C_place_du_G%C3%A9n%C3%A9ral_Leclerc_2.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A0%20Le%20Quesnoy%2C%20place%20du%20G%C3%A9n%C3%A9ral%20Leclerc%202.jpg",
-      "title": "0 Le Quesnoy, place du Général Leclerc 2.jpg",
-      "width": 3128,
-      "height": 2085,
-      "size": 2575365,
-      "timestamp": "2020-07-20T07:21:56Z",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/0_Le_Quesnoy_-_Ch%C3%A2teau_r%C3%A9sidence_de_Marguerite_de_Bourgogne.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A0%20Le%20Quesnoy%20-%20Ch%C3%A2teau%20r%C3%A9sidence%20de%20Marguerite%20de%20Bourgogne.JPG",
+      "title": "0 Le Quesnoy - Château résidence de Marguerite de Bourgogne.JPG",
+      "description": "Le château résidence de Marie de Bourgogne, Le Quesnoy (département du Nord, France).",
+      "width": 3425,
+      "height": 2260,
+      "size": 4795469,
+      "timestamp": "2020-07-21T09:32:32Z",
       "author": "Jean-Pol GRANDMONT",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/0_Le_Quesnoy%2C_place_du_G%C3%A9n%C3%A9ral_Leclerc_1.JPG",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A0%20Le%20Quesnoy%2C%20place%20du%20G%C3%A9n%C3%A9ral%20Leclerc%201.JPG",
-      "title": "0 Le Quesnoy, place du Général Leclerc 1.JPG",
-      "width": 2754,
-      "height": 1836,
-      "size": 2454149,
-      "timestamp": "2020-07-20T07:33:27Z",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/0_Le_Quesnoy%2C_portail_du_ch%C3%A2teau_comtal.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A0%20Le%20Quesnoy%2C%20portail%20du%20ch%C3%A2teau%20comtal.JPG",
+      "title": "0 Le Quesnoy, portail du château comtal.JPG",
+      "description": "Portail du château comtal donnant aujourd'hui accès à la place Charles de Gaulle à Le Quesnoy (département du Nord, France).",
+      "width": 3362,
+      "height": 2156,
+      "size": 4913488,
+      "timestamp": "2020-07-21T09:44:02Z",
       "author": "Jean-Pol GRANDMONT",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     }
   ],
   "lieux": [
     {
       "label": "Bastion de la Reine",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/0_Le_Quesnoy%2C_Foss%C3%A9%2C_enceinte_et_bastion_de_la_citadelle_Vauban_%286%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A0%20Le%20Quesnoy%2C%20Foss%C3%A9%2C%20enceinte%20et%20bastion%20de%20la%20citadelle%20Vauban%20(6).jpg",
+          "title": "0 Le Quesnoy, Fossé, enceinte et bastion de la citadelle Vauban (6).jpg",
+          "description": "Bastion du Château de la citadelle, Le Quesnoy (département du Nord, France).",
+          "width": 3456,
+          "height": 2304,
+          "size": 5161671,
+          "timestamp": "2020-07-21T06:41:45Z",
+          "author": "Jean-Pol GRANDMONT",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/0_Le_Quesnoy%2C_Foss%C3%A9%2C_enceinte_et_bastion_de_la_citadelle_Vauban_%281%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A0%20Le%20Quesnoy%2C%20Foss%C3%A9%2C%20enceinte%20et%20bastion%20de%20la%20citadelle%20Vauban%20(1).jpg",
+          "title": "0 Le Quesnoy, Fossé, enceinte et bastion de la citadelle Vauban (1).jpg",
+          "description": "Flanc nord du Bastion impérial de la citadelle, Le Quesnoy (département du Nord, France).",
+          "width": 3456,
+          "height": 2304,
+          "size": 5672036,
+          "timestamp": "2020-07-20T19:04:33Z",
+          "author": "Jean-Pol GRANDMONT",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/0_Le_Quesnoy%2C_Foss%C3%A9%2C_enceinte_et_bastion_de_la_citadelle_Vauban_%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A0%20Le%20Quesnoy%2C%20Foss%C3%A9%2C%20enceinte%20et%20bastion%20de%20la%20citadelle%20Vauban%20(2).jpg",
+          "title": "0 Le Quesnoy, Fossé, enceinte et bastion de la citadelle Vauban (2).jpg",
+          "description": "Fossé, bastion impérial et pont de la porte Fauroeulx, Le Quesnoy (département du Nord, France).",
+          "width": 3456,
+          "height": 2304,
+          "size": 5128880,
+          "timestamp": "2020-07-20T19:24:20Z",
+          "author": "Jean-Pol GRANDMONT",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     },
     {
       "label": "Porte Fauroeulx",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Porte_Fauroeulx.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APorte%20Fauroeulx.jpg",
-          "title": "Porte Fauroeulx.jpg",
-          "width": 1944,
-          "height": 1296,
-          "size": 643160,
-          "timestamp": "2020-02-04T14:58:36Z",
-          "author": "Denis Buisine",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Quesnoy_vue_port_eglise.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQuesnoy%20vue%20port%20eglise.jpg",
+          "title": "Quesnoy vue port eglise.jpg",
+          "description": "View of the marina and the church of Quesnoy-sur-Deûle from the Deûle canal.",
+          "width": 4725,
+          "height": 3024,
+          "size": 19914865,
+          "timestamp": "2023-09-13T11:03:41Z",
+          "author": "Velvet",
           "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Quesnoy-sur-De%C3%BBle_Le_port_de_plaisance_en_2022.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQuesnoy-sur-De%C3%BBle%20Le%20port%20de%20plaisance%20en%202022.jpg",
+          "title": "Quesnoy-sur-Deûle Le port de plaisance en 2022.jpg",
+          "description": "On the big Perne  Quesnoy-sur-Deule   (France)",
+          "width": 4896,
+          "height": 3672,
+          "size": 7051419,
+          "timestamp": "2022-01-28T22:40:18Z",
+          "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q97949455\" class=\"extiw\" title=\"d:Q97949455\"><span title=\"French photographer and Wikimedian\">Pierre André Leclercq</span></a></bdi>",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Le_Quesnoy_Port.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Quesnoy%20Port.JPG",
+          "title": "Le Quesnoy Port.JPG",
+          "description": "Le port de Quesnoy-sur-Deûle (Nord).",
+          "width": 2030,
+          "height": 1500,
+          "size": 2644004,
+          "timestamp": "2010-05-02T13:44:16Z",
+          "author": "Velvet",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "label": "Étang du Pont Rouge",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/0_Le_Quesnoy%2C_%C3%A9tang_du_Pont_Rouge.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A0%20Le%20Quesnoy%2C%20%C3%A9tang%20du%20Pont%20Rouge.JPG",
+          "title": "0 Le Quesnoy, étang du Pont Rouge.JPG",
+          "description": "Étang du Pont Rouge et fortifications du faubourg du Fauroeulx, Le Quesnoy (département du Nord, France).",
+          "width": 3285,
+          "height": 2190,
+          "size": 4109248,
+          "timestamp": "2020-07-20T08:20:30Z",
+          "author": "Jean-Pol GRANDMONT",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/0_Le_Quesnoy%2C_Foss%C3%A9%2C_enceinte_et_bastion_de_la_citadelle_Vauban_%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A0%20Le%20Quesnoy%2C%20Foss%C3%A9%2C%20enceinte%20et%20bastion%20de%20la%20citadelle%20Vauban%20(2).jpg",
+          "title": "0 Le Quesnoy, Fossé, enceinte et bastion de la citadelle Vauban (2).jpg",
+          "description": "Fossé, bastion impérial et pont de la porte Fauroeulx, Le Quesnoy (département du Nord, France).",
+          "width": 3456,
+          "height": 2304,
+          "size": 5128880,
+          "timestamp": "2020-07-20T19:24:20Z",
+          "author": "Jean-Pol GRANDMONT",
+          "license": "CC BY 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
@@ -68,6 +176,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Le_Quesnoy_-_Pont_dormant_de_la_porte_Fauroeulx._en2021_%286%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Quesnoy%20-%20Pont%20dormant%20de%20la%20porte%20Fauroeulx.%20en2021%20(6).jpg",
           "title": "Le Quesnoy - Pont dormant de la porte Fauroeulx. en2021 (6).jpg",
+          "description": "Pont dormant de la porte Fauroeulx - Citadelle Vauban de Le Quesnoy (Nord, France).",
           "width": 4456,
           "height": 2694,
           "size": 3036081,
@@ -76,69 +185,55 @@
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Le_Quesnoy_-_Pont_dormant_de_la_porte_Fauroeulx._en2021_%287%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Quesnoy%20-%20Pont%20dormant%20de%20la%20porte%20Fauroeulx.%20en2021%20(7).jpg",
-          "title": "Le Quesnoy - Pont dormant de la porte Fauroeulx. en2021 (7).jpg",
-          "width": 4912,
-          "height": 3264,
-          "size": 8192000,
-          "timestamp": "2021-09-30T19:51:33Z",
-          "author": "Pierre André Leclercq",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        }
-      ]
-    },
-    {
-      "label": "Étang du Pont Rouge",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/City_walls_of_Le_Quesnoy_in%2C_2021_%281%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACity%20walls%20of%20Le%20Quesnoy%20in%2C%202021%20(1).jpg",
-          "title": "City walls of Le Quesnoy in, 2021 (1).jpg",
-          "width": 4912,
-          "height": 3264,
-          "size": 4402049,
-          "timestamp": "2021-09-30T20:39:28Z",
-          "author": "Pierre André Leclercq",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/City_walls_of_Le_Quesnoy_in%2C_2021_%2835%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACity%20walls%20of%20Le%20Quesnoy%20in%2C%202021%20(35).jpg",
-          "title": "City walls of Le Quesnoy in, 2021 (35).jpg",
-          "width": 4912,
-          "height": 3264,
-          "size": 5767168,
-          "timestamp": "2021-09-30T20:47:33Z",
-          "author": "Pierre André Leclercq",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Citadelle_du_Quesnoy_etang_du_pont_rouge_01.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACitadelle%20du%20Quesnoy%20etang%20du%20pont%20rouge%2001.JPG",
-          "title": "Citadelle du Quesnoy etang du pont rouge 01.JPG",
-          "width": 6000,
-          "height": 4000,
-          "size": 7183529,
-          "timestamp": "2017-05-11T18:06:04Z",
-          "author": "Chatsam",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
         }
       ]
     },
     {
       "label": "Chemin de ronde des remparts",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Le_Quesnoy.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Quesnoy.JPG",
+          "title": "Le Quesnoy.JPG",
+          "description": "Vue des remparts : fortifications de Vauban.",
+          "width": 3200,
+          "height": 2400,
+          "size": 4215515,
+          "timestamp": "2012-08-13T20:35:44Z",
+          "author": "LORTHIOIR",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Le_Quesnoy_-_Pont_dormant_de_la_porte_Fauroeulx._en2021_%281%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe%20Quesnoy%20-%20Pont%20dormant%20de%20la%20porte%20Fauroeulx.%20en2021%20(1).jpg",
+          "title": "Le Quesnoy - Pont dormant de la porte Fauroeulx. en2021 (1).jpg",
+          "description": "Pont dormant de la porte Fauroeulx - Citadelle Vauban de Le Quesnoy (Nord, France).",
+          "width": 4896,
+          "height": 3672,
+          "size": 8214936,
+          "timestamp": "2021-09-30T19:51:34Z",
+          "author": "Pierre André Leclercq",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Citadelle_du_Quesnoy_pont_porte_valenciennes_zn2021_%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACitadelle%20du%20Quesnoy%20pont%20porte%20valenciennes%20zn2021%20(2).jpg",
+          "title": "Citadelle du Quesnoy pont porte valenciennes zn2021 (2).jpg",
+          "description": "Pont porte Valenciennes , Citadelle Vauban de Le Quesnoy (Nord, France).",
+          "width": 4912,
+          "height": 3264,
+          "size": 5931008,
+          "timestamp": "2021-09-30T20:18:53Z",
+          "author": "Pierre André Leclercq",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        }
+      ]
     }
   ]
 }

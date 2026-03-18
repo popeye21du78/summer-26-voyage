@@ -1,25 +1,13 @@
 {
   "slug": "apremont-la-foret",
   "nom": "Apremont-la-Forêt",
-  "fetchedAt": "2026-03-12T23:49:13.590Z",
+  "fetchedAt": "2026-03-15T15:07:36.097Z",
   "header": [
-    {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Butte_de_Montsec_WWI_memorial.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AButte%20de%20Montsec%20WWI%20memorial.jpg",
-      "title": "Butte de Montsec WWI memorial.jpg",
-      "width": 4096,
-      "height": 3072,
-      "size": 754135,
-      "timestamp": "2025-01-12T14:16:47Z",
-      "author": "Tunegravity",
-      "license": "CC0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
-    },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Croix-des-Redoutes-Apremont-la-For%C3%AAt.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACroix-des-Redoutes-Apremont-la-For%C3%AAt.jpg",
       "title": "Croix-des-Redoutes-Apremont-la-Forêt.jpg",
+      "description": "Herdenkingskruis Croix-des-Redoutes-Apremont-la-Forêt",
       "width": 1800,
       "height": 4000,
       "size": 4243516,
@@ -30,17 +18,32 @@
       "score": 6
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/German_WWI_Hospital_bunker.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGerman%20WWI%20Hospital%20bunker.jpg",
-      "title": "German WWI Hospital bunker.jpg",
-      "width": 4000,
-      "height": 1800,
-      "size": 4356676,
-      "timestamp": "2025-07-26T07:52:43Z",
-      "author": "Osmedit",
-      "license": "CC0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Eglise_-_Portail_-_Apremont-la-For%C3%AAt_-_M%C3%A9diath%C3%A8que_de_l%27architecture_et_du_patrimoine_-_APMH00028562.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEglise%20-%20Portail%20-%20Apremont-la-For%C3%AAt%20-%20M%C3%A9diath%C3%A8que%20de%20l'architecture%20et%20du%20patrimoine%20-%20APMH00028562.jpg",
+      "title": "Eglise - Portail - Apremont-la-Forêt - Médiathèque de l'architecture et du patrimoine - APMH00028562.jpg",
+      "description": "Portail.",
+      "width": 716,
+      "height": 512,
+      "size": 108652,
+      "timestamp": "2020-04-27T13:51:03Z",
+      "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Camille_Enlart\" class=\"extiw\" title=\"w:en:Camille Enlart\"><span title=\"French art historian and photographer (1862-1927)\">Camille Enlart</span></a></bdi>",
+      "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
+      "score": 4
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Apremont_%2860%29%2C_la_mairie.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AApremont%20(60)%2C%20la%20mairie.jpg",
+      "title": "Apremont (60), la mairie.jpg",
+      "description": "Autre vue de la mairie d'Apremont, entouré par un jardin public.",
+      "width": 3664,
+      "height": 2748,
+      "size": 1444577,
+      "timestamp": "2011-04-17T20:49:03Z",
+      "author": "P.poschadel",
+      "license": "CC BY-SA 2.0 fr",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 7
     }
   ],
   "lieux": [

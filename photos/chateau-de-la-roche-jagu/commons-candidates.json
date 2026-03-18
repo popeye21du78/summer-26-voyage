@@ -1,12 +1,13 @@
 {
   "slug": "chateau-de-la-roche-jagu",
   "nom": "Château de la Roche-Jagu",
-  "fetchedAt": "2026-03-13T13:09:07.153Z",
+  "fetchedAt": "2026-03-15T21:33:10.262Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Plo%C3%A9zal_-_Ch%C3%A2teau_de_la_Roche-Jagu_-_AD22_-_16FI3986.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlo%C3%A9zal%20-%20Ch%C3%A2teau%20de%20la%20Roche-Jagu%20-%20AD22%20-%2016FI3986.jpg",
       "title": "Ploézal - Château de la Roche-Jagu - AD22 - 16FI3986.jpg",
+      "description": "Ploëzal. Château de la Roche-Jagu. Ancienne demeure féodale.",
       "width": 1638,
       "height": 1064,
       "size": 376100,
@@ -14,12 +15,13 @@
       "author": "<div class=\"fn value\">\n[Neurdein]</div>",
       "license": "Public domain",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Plo%C3%A9zal_-_Ch%C3%A2teau_de_la_Roche-Jagu_-_AD22_-_16FI3987.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlo%C3%A9zal%20-%20Ch%C3%A2teau%20de%20la%20Roche-Jagu%20-%20AD22%20-%2016FI3987.jpg",
       "title": "Ploézal - Château de la Roche-Jagu - AD22 - 16FI3987.jpg",
+      "description": "Ploëzal. Château de la Roche-Jagu - Le Trieux à Frynaudour.",
       "width": 1638,
       "height": 1056,
       "size": 256151,
@@ -27,12 +29,13 @@
       "author": "<div class=\"fn value\">\nCollection A. Waron, St-Brieuc</div>",
       "license": "Public domain",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Plo%C3%A9zal_-_Ch%C3%A2teau_de_la_Roche-Jagu_-_AD22_-_16FI3989.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlo%C3%A9zal%20-%20Ch%C3%A2teau%20de%20la%20Roche-Jagu%20-%20AD22%20-%2016FI3989.jpg",
       "title": "Ploézal - Château de la Roche-Jagu - AD22 - 16FI3989.jpg",
+      "description": "Ploëzal. Château de la Roche-Jagu.",
       "width": 1642,
       "height": 1036,
       "size": 276324,
@@ -40,17 +43,103 @@
       "author": "<div class=\"fn value\">\nCollection A. Waron, St-Brieuc</div>",
       "license": "Public domain",
       "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 7
+      "score": 9
     }
   ],
   "lieux": [
     {
       "label": "Grande salle gothique",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/La_Roche-Jagu_%C3%A0_Plo%C3%ABzal_-_15.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Roche-Jagu%20%C3%A0%20Plo%C3%ABzal%20-%2015.jpg",
+          "title": "La Roche-Jagu à Ploëzal - 15.jpg",
+          "description": "Les quatre passe-plats de la cuisine et le cinquième passe-plat de la pièce supposée être celle de la sommellerie vus depuis la grande salle du rez-de-chaussée (château de la Roche-Jagu dans les Côtes-d'Armor)",
+          "width": 4000,
+          "height": 3000,
+          "size": 4193792,
+          "timestamp": "2019-07-22T15:29:24Z",
+          "author": "Thérèse Gaigé",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/La_Roche-Jagu_%C3%A0_Plo%C3%ABzal_-_16.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Roche-Jagu%20%C3%A0%20Plo%C3%ABzal%20-%2016.jpg",
+          "title": "La Roche-Jagu à Ploëzal - 16.jpg",
+          "description": "Cheminée de la grande salle du rez-de-chaussée (ou salle basse) abritant une maquette du château de la Roche-Jagu (Ploëzal, Côtes-d'Armor)",
+          "width": 4000,
+          "height": 3000,
+          "size": 4413440,
+          "timestamp": "2019-07-22T15:38:45Z",
+          "author": "Thérèse Gaigé",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/La_Roche-Jagu_%C3%A0_Plo%C3%ABzal_-_26.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Roche-Jagu%20%C3%A0%20Plo%C3%ABzal%20-%2026.jpg",
+          "title": "La Roche-Jagu à Ploëzal - 26.jpg",
+          "description": "Grande salle centrale du deuxième étage avec l'une des deux cheminées présentes dans cette pièce et une œuvre de l'exposition ARTE BOTANICA au château de La Roche-Jagu (Ploëzal, Côtes-d'Armor)",
+          "width": 4000,
+          "height": 3000,
+          "size": 4439552,
+          "timestamp": "2019-07-28T11:16:18Z",
+          "author": "Thérèse Gaigé",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 8
+        }
+      ]
     },
     {
       "label": "Jardin en terrasses",
-      "photos": []
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Plo%C3%ABzal_-_Ch%C3%A2teau_de_la_Roche-Jagu_-_Jardin_%28plante_tress%C3%A9e%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlo%C3%ABzal%20-%20Ch%C3%A2teau%20de%20la%20Roche-Jagu%20-%20Jardin%20(plante%20tress%C3%A9e).jpg",
+          "title": "Ploëzal - Château de la Roche-Jagu - Jardin (plante tressée).jpg",
+          "description": "Ploëzal - Château de la Roche-Jagu - Jardin (plante tressée)",
+          "width": 4272,
+          "height": 2848,
+          "size": 8839959,
+          "timestamp": "2021-04-08T12:55:21Z",
+          "author": "Kev22",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Plo%C3%ABzal_-_Ch%C3%A2teau_de_la_Roche-Jagu_-_Jardin_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlo%C3%ABzal%20-%20Ch%C3%A2teau%20de%20la%20Roche-Jagu%20-%20Jardin%2002.jpg",
+          "title": "Ploëzal - Château de la Roche-Jagu - Jardin 02.jpg",
+          "description": "Ploëzal - Château de la Roche-Jagu - Jardin",
+          "width": 4272,
+          "height": 2848,
+          "size": 9672354,
+          "timestamp": "2021-04-08T13:05:12Z",
+          "author": "Kev22",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Plo%C3%ABzal_-_Ch%C3%A2teau_de_la_Roche-Jagu_-_Jardin_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APlo%C3%ABzal%20-%20Ch%C3%A2teau%20de%20la%20Roche-Jagu%20-%20Jardin%2001.jpg",
+          "title": "Ploëzal - Château de la Roche-Jagu - Jardin 01.jpg",
+          "description": "Ploëzal - Château de la Roche-Jagu - Jardin",
+          "width": 4272,
+          "height": 2848,
+          "size": 8400208,
+          "timestamp": "2021-04-08T13:05:10Z",
+          "author": "Kev22",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 9
+        }
+      ]
     },
     {
       "label": "Rives du Trieux",
@@ -59,6 +148,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/La_Roche_Jagu_Trieux_3.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALa%20Roche%20Jagu%20Trieux%203.JPG",
           "title": "La Roche Jagu Trieux 3.JPG",
+          "description": "Château de la Roche-Jagu. Vues générales du château, des jardins et du Trieux. \n\nLa rivière du Trieux en aval du château de la Roche-Jagu. Sur la rive droite, la ligne de chemin de fer Guingamp-Paimpol.",
           "width": 3264,
           "height": 2448,
           "size": 2134767,
@@ -66,7 +156,7 @@
           "author": "Barbetorte",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 6
         }
       ]
     },

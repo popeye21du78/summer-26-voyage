@@ -1,12 +1,13 @@
 {
   "slug": "mende",
   "nom": "Mende",
-  "fetchedAt": "2026-03-13T01:27:17.715Z",
+  "fetchedAt": "2026-03-16T21:31:41.636Z",
   "header": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Chapelle_des_P%C3%A9nitents_Blancs_Mende_France.JPG",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle%20des%20P%C3%A9nitents%20Blancs%20Mende%20France.JPG",
       "title": "Chapelle des Pénitents Blancs Mende France.JPG",
+      "description": "Chapelle des Pénitents Blancs à Mende en France",
       "width": 2048,
       "height": 1536,
       "size": 722253,
@@ -17,22 +18,10 @@
       "score": 6
     },
     {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Solives_chantourn%C3%A9es%2C_maison_rue_du_Fournet%2C_Mende%2C_France.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASolives%20chantourn%C3%A9es%2C%20maison%20rue%20du%20Fournet%2C%20Mende%2C%20France.jpg",
-      "title": "Solives chantournées, maison rue du Fournet, Mende, France.jpg",
-      "width": 5184,
-      "height": 3456,
-      "size": 9182649,
-      "timestamp": "2015-09-27T18:47:09Z",
-      "author": "Édouard Hue (<a href=\"//commons.wikimedia.org/wiki/User:EdouardHue\" title=\"User:EdouardHue\">User:EdouardHue</a>)",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/",
-      "score": 6
-    },
-    {
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Maison_Pons%2C_Mende%2C_France.jpg",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaison%20Pons%2C%20Mende%2C%20France.jpg",
       "title": "Maison Pons, Mende, France.jpg",
+      "description": "Ancien hôtel dit « maison Pons », rue Basse à Mende (France).",
       "width": 5184,
       "height": 3456,
       "size": 10069318,
@@ -41,6 +30,20 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/",
       "score": 6
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Hotel-ressouches-mende.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHotel-ressouches-mende.jpg",
+      "title": "Hotel-ressouches-mende.jpg",
+      "description": "Hôtel de Ressouches, ancienne usine électrique puis musée Ignon-Fabre de Mende (Lozère, France)",
+      "width": 1408,
+      "height": 1056,
+      "size": 1341600,
+      "timestamp": "2011-10-15T12:40:17Z",
+      "author": "Sanguinez",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/",
+      "score": 5
     }
   ],
   "lieux": [
@@ -48,43 +51,46 @@
       "label": "Cathédrale Notre-Dame et Saint-Privat",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Cath%C3%A9drale_de_Mende.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale%20de%20Mende.jpg",
-          "title": "Cathédrale de Mende.jpg",
-          "width": 3378,
-          "height": 2250,
-          "size": 4218050,
-          "timestamp": "2016-09-08T07:28:54Z",
-          "author": "Ville de Mende",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Cath%C3%A9drale_-_Nef%2C_vue_de_l%27entr%C3%A9e_-_Mende_-_M%C3%A9diath%C3%A8que_de_l%27architecture_et_du_patrimoine_-_APMH00013936.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale%20-%20Nef%2C%20vue%20de%20l'entr%C3%A9e%20-%20Mende%20-%20M%C3%A9diath%C3%A8que%20de%20l'architecture%20et%20du%20patrimoine%20-%20APMH00013936.jpg",
+          "title": "Cathédrale - Nef, vue de l'entrée - Mende - Médiathèque de l'architecture et du patrimoine - APMH00013936.jpg",
+          "description": "Nef, vue de l'entrée.",
+          "width": 800,
+          "height": 578,
+          "size": 91270,
+          "timestamp": "2020-04-29T11:21:21Z",
+          "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:S%C3%A9raphin-M%C3%A9d%C3%A9ric_Mieusement\" class=\"extiw\" title=\"w:en:Séraphin-Médéric Mieusement\"><span title=\"French photographer (1840-1905)\">Séraphin-Médéric Mieusement</span></a></bdi>",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/7_phot._de_Loz%C3%A8re_par_Paul_Mirabaud_en_1888%2C_donateur_en_1890_-_btv1b8553840w_%281_of_7%29.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A7%20phot.%20de%20Loz%C3%A8re%20par%20Paul%20Mirabaud%20en%201888%2C%20donateur%20en%201890%20-%20btv1b8553840w%20(1%20of%207).jpg",
-          "title": "7 phot. de Lozère par Paul Mirabaud en 1888, donateur en 1890 - btv1b8553840w (1 of 7).jpg",
-          "width": 3864,
-          "height": 3360,
-          "size": 1161078,
-          "timestamp": "2024-10-28T23:37:08Z",
-          "author": "<div class=\"fn value\">\nMirabaud, Paul (1848-1908). Photographe. Donateur</div>",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Porte_d%27Aigues-Passes_et_cath%C3%A9drale_de_Mende_1821.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APorte%20d'Aigues-Passes%20et%20cath%C3%A9drale%20de%20Mende%201821.jpg",
+          "title": "Porte d'Aigues-Passes et cathédrale de Mende 1821.jpg",
+          "description": "Prison cathédrale Mende 1821",
+          "width": 4437,
+          "height": 3245,
+          "size": 3606275,
+          "timestamp": "2024-03-02T15:34:25Z",
+          "author": "Jacques Martin Sylvestre Bence",
           "license": "Public domain",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 6
+          "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Chapelle-saint-privat-cathedrale-mende.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChapelle-saint-privat-cathedrale-mende.jpg",
-          "title": "Chapelle-saint-privat-cathedrale-mende.jpg",
-          "width": 3888,
-          "height": 2592,
-          "size": 4077377,
-          "timestamp": "2010-03-15T18:38:42Z",
-          "author": "Sanguinez",
-          "license": "CC BY-SA 3.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Mende_kerk_2025.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMende%20kerk%202025.jpg",
+          "title": "Mende kerk 2025.jpg",
+          "description": "De kathedraal van Mende",
+          "width": 5472,
+          "height": 3648,
+          "size": 14396907,
+          "timestamp": "2025-06-24T09:47:21Z",
+          "author": "Smiley.toerist",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 5
+          "score": 7
         }
       ]
     },
@@ -92,66 +98,38 @@
       "label": "Place Chaptal",
       "photos": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/FR-48-Mende05.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFR-48-Mende05.JPG",
-          "title": "FR-48-Mende05.JPG",
-          "width": 1600,
-          "height": 1200,
-          "size": 414595,
-          "timestamp": "2008-01-29T15:30:10Z",
-          "author": "Szeder László",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/FR-48-Mende04.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFR-48-Mende04.JPG",
-          "title": "FR-48-Mende04.JPG",
-          "width": 1200,
-          "height": 1600,
-          "size": 402122,
-          "timestamp": "2008-01-29T15:26:32Z",
-          "author": "Szeder László",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 3
-        }
-      ]
-    },
-    {
-      "label": "Pont Notre-Dame",
-      "photos": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Pont_Notre-Dame.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20Notre-Dame.jpg",
-          "title": "Pont Notre-Dame.jpg",
-          "width": 5472,
-          "height": 3648,
-          "size": 4905839,
-          "timestamp": "2020-09-28T16:54:12Z",
-          "author": "CrisNYCa",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Monument_aux_Morts_de_Mende.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMonument%20aux%20Morts%20de%20Mende.jpg",
+          "title": "Monument aux Morts de Mende.jpg",
+          "description": "Monument aux Morts Mende",
+          "width": 4032,
+          "height": 3024,
+          "size": 4497270,
+          "timestamp": "2024-09-18T15:53:10Z",
+          "author": "Elfabriciodelamancha",
+          "license": "CC0",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 7
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Pont_Notre-Dame_de_Mende_2021_4.jpg",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20Notre-Dame%20de%20Mende%202021%204.jpg",
-          "title": "Pont Notre-Dame de Mende 2021 4.jpg",
-          "width": 5184,
-          "height": 3456,
-          "size": 8027573,
-          "timestamp": "2021-09-11T07:42:12Z",
-          "author": "Pascal RADIGUE",
-          "license": "CC BY-SA 4.0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Mende-cathedrale-1.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMende-cathedrale-1.JPG",
+          "title": "Mende-cathedrale-1.JPG",
+          "description": "Mende, Lozère, France\n\nVue de la ville autour de la cathédrale. Photo prise depuis la croix du Mont-Mimat.",
+          "width": 2048,
+          "height": 1536,
+          "size": 1457112,
+          "timestamp": "2006-08-24T20:21:40Z",
+          "author": "User:civodule",
+          "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 7
+          "score": 6
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Pont_Notre-Dame_de_Mende_%281838%29.jpg",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20Notre-Dame%20de%20Mende%20(1838).jpg",
           "title": "Pont Notre-Dame de Mende (1838).jpg",
+          "description": "Image taken from:\nTitle: \"France pittoresque, ou description des départements et colonies de la France\"\nAuthor: HUGO, Jean Abel - Count\nShelfmark: \"British Library HMNTS 10170.f.12.\"\nVolume: 02\nPage: 527\nPlace of Publishing: Paris\nDate of Publishing: 1838\nIssuance: monographic\nIdentifier: 001760873\nExplore:\n\n Find this item in the British Library catalogue, 'Explore'.\n Open the page in the British Library's itemViewer (page image 527)\n Download the PDF for this book Image found on book scan 527 ",
           "width": 1700,
           "height": 1175,
           "size": 686701,
@@ -160,6 +138,53 @@
           "license": "No restrictions",
           "licenseUrl": "https://creativecommons.org/licenses/",
           "score": 6
+        }
+      ]
+    },
+    {
+      "label": "Pont Notre-Dame",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Pont_Notre-Dame_de_Mende_2021_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20Notre-Dame%20de%20Mende%202021%201.jpg",
+          "title": "Pont Notre-Dame de Mende 2021 1.jpg",
+          "description": "Pont Notre-Dame de Mende",
+          "width": 5184,
+          "height": 3456,
+          "size": 7244485,
+          "timestamp": "2021-09-11T07:33:37Z",
+          "author": "Pascal RADIGUE",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Pont_Notre-Dame_de_Mende_2021_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20Notre-Dame%20de%20Mende%202021%202.jpg",
+          "title": "Pont Notre-Dame de Mende 2021 2.jpg",
+          "description": "Pont Notre-Dame de Mende 2021",
+          "width": 5184,
+          "height": 3456,
+          "size": 7631721,
+          "timestamp": "2021-09-11T07:42:11Z",
+          "author": "Pascal RADIGUE",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Pont_Notre-Dame_de_Mende_2021_3.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APont%20Notre-Dame%20de%20Mende%202021%203.jpg",
+          "title": "Pont Notre-Dame de Mende 2021 3.jpg",
+          "description": "Pont Notre-Dame de Mende 2021",
+          "width": 5184,
+          "height": 3456,
+          "size": 7238899,
+          "timestamp": "2021-09-11T07:42:12Z",
+          "author": "Pascal RADIGUE",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/",
+          "score": 7
         }
       ]
     },
@@ -174,6 +199,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Mende-cathedrale-1.JPG",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMende-cathedrale-1.JPG",
           "title": "Mende-cathedrale-1.JPG",
+          "description": "Mende, Lozère, France\n\nVue de la ville autour de la cathédrale. Photo prise depuis la croix du Mont-Mimat.",
           "width": 2048,
           "height": 1536,
           "size": 1457112,
@@ -181,33 +207,35 @@
           "author": "User:civodule",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 6
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Mende-panoramique-1.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMende-panoramique-1.JPG",
-          "title": "Mende-panoramique-1.JPG",
-          "width": 2048,
-          "height": 1536,
-          "size": 1339308,
-          "timestamp": "2006-08-27T20:17:47Z",
-          "author": "User:civodule",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Sommet-croix-neuve-mende.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASommet-croix-neuve-mende.jpg",
+          "title": "Sommet-croix-neuve-mende.jpg",
+          "description": "Sommet de la côte de la croix neuve (aka Montée Jalabert) à Mende, Lozère",
+          "width": 1809,
+          "height": 1210,
+          "size": 1393718,
+          "timestamp": "2010-09-04T15:13:47Z",
+          "author": "Sanguinez",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 5
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Mende-panoramique-2.JPG",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMende-panoramique-2.JPG",
-          "title": "Mende-panoramique-2.JPG",
-          "width": 2048,
-          "height": 1536,
-          "size": 1274709,
-          "timestamp": "2006-08-27T20:23:10Z",
-          "author": "User:civodule",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Mende_-_Croix_bd_des_capucins_04.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMende%20-%20Croix%20bd%20des%20capucins%2004.JPG",
+          "title": "Mende - Croix bd des capucins 04.JPG",
+          "description": "This building is indexed in the base Mérimée, a database of architectural heritage maintained by the French Ministry of Culture, under the reference PA00103861 .\n\nbrezhoneg ∙ català ∙ Deutsch ∙ English ∙ español ∙ Esperanto ∙ euskara ∙ français ∙ italiano ∙ magyar ∙ Nederlands ∙ português do Brasil ∙ português ∙ română ∙ sicilianu ∙ slovenščina ∙ suomi ∙ svenska ∙ Ελληνικά ∙ беларуская (тарашкевіца) ∙ македонски ∙ русский ∙ українська ∙ বাংলা ∙ +/−",
+          "width": 3648,
+          "height": 2736,
+          "size": 2164636,
+          "timestamp": "2012-09-13T21:53:14Z",
+          "author": "ShreCk",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/",
-          "score": 4
+          "score": 5
         }
       ]
     },
