@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap');
 @import "tailwindcss";
 
 /* Pas de défilement horizontal : clip évite overflow-y:auto implicite qui casse scroll-snap */
@@ -5,18 +6,29 @@ html {
   overflow-x: clip;
 }
 
-/* Thème Roland Garros – Terre Battue & Carnet de Route */
+/* Palette Terracotta – design moderne */
 :root {
   --background: #FAF4F0;
   --foreground: #333333;
   --primary: #A55734;
+  --terracotta-dark: #8B4513;
+  --terracotta-medium: #A0522D;
+  --terracotta-coral: #D4635B;
+  --terracotta-light: #E07856;
+  --terracotta-peach: #C9785D;
   --cream: #FAF4F0;
   --cream-dark: #FFF2EB;
+  --beige: #E8E0D5;
   --text: #333333;
   --white-off: #FFFBF7;
   --font-homemade-apple: "Homemade Apple", cursive;
   --font-typewriter: "Special Elite", serif;
   --font-motto: "Cormorant Garamond", Georgia, serif;
+  --font-courier: "Courier Prime", monospace;
+}
+
+.font-courier {
+  font-family: var(--font-courier);
 }
 
 @theme inline {
@@ -30,8 +42,9 @@ html {
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: "IBM Plex Mono", monospace;
+  font-family: var(--font-courier), monospace;
   overflow-x: clip;
+  scroll-behavior: smooth;
 }
 
 /* Machine à écrire – sections ville : caractères révélés avec délai, curseur clignotant */
@@ -213,6 +226,80 @@ input[type="number"].no-spinner::-webkit-inner-spin-button {
   50% {
     background-position: 100% 50%;
   }
+}
+
+/* Défilement horizontal des photos (compte à rebours voyage) */
+@keyframes scroll-horizontal {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll-horizontal {
+  animation: scroll-horizontal 30s linear infinite;
+}
+
+/* Barre photos amis – défilement rapide */
+.animate-scroll-horizontal-slow {
+  animation: scroll-horizontal 12s linear infinite;
+}
+
+/* Masque fondu gauche pour photos amis — disparition en fondu vers le texte */
+.photos-amis-fade {
+  mask-image: linear-gradient(to right, transparent 0%, black 40%);
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 40%);
+}
+
+/* Scroll aimanté par section */
+.snap-sections {
+  scroll-snap-type: y proximity;
+  scroll-behavior: smooth;
+}
+.snap-section {
+  scroll-snap-align: start;
+  scroll-snap-stop: normal;
+}
+
+/* Boutons modernes – effets terracotta (style Figma Van Trip) */
+.btn-terracotta {
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.btn-terracotta:hover {
+  transform: scale(1.1);
+  box-shadow: 0 25px 50px -12px rgba(224, 120, 86, 0.6);
+}
+.btn-terracotta:active {
+  transform: scale(0.95);
+}
+
+/* Boutons primaires style Figma */
+.btn-primary-figma {
+  transition: all 0.3s ease;
+}
+.btn-primary-figma:hover {
+  transform: scale(1.1);
+  box-shadow: 0 20px 40px -10px rgba(224, 120, 86, 0.7);
+}
+.btn-primary-figma:active {
+  transform: scale(0.98);
+}
+
+/* Animation fade-in */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out forwards;
 }
 
 .voyage-loading-text {

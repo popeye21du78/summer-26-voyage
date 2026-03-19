@@ -6,9 +6,11 @@ export default function MainLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="min-h-screen bg-[#FAF4F0]">
+    <div className="min-h-screen bg-[var(--cream)]">
       <Header />
-      <div className="page-signature-pattern min-h-[calc(100vh-4rem)] pt-16">{children}</div>
+      <div className="min-h-screen">
+        {children}
+      </div>
     </div>
   );
 }
