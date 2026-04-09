@@ -1,23 +1,26 @@
 import { NextRequest } from "next/server";
 import { getItinerary, updateItineraryPhotoUrl } from "../../../lib/itinerary-supabase";
 import { getDepartementForVille } from "../../../lib/photo-queries";
+import { isPremiumPatrimoineSlug } from "../../../lib/maintenance-photo-queue";
+import { getBeautyCuratedPhotosForSlug } from "../../../lib/maintenance-beauty-validations";
 import { fetchPhotosForCityFromPexels } from "../../../lib/pexels";
-import { fetchPhotoForCity } from "../../../lib/unsplash";
-import { fetchPhotoForCityFromWikipedia } from "../../../lib/wikipedia-photo";
+import { fetchPhotoForCity, fetchUnsplashPhotosForCity } from "../../../lib/unsplash";
+import { fetchPhotosForCityFromWikipedia } from "../../../lib/wikipedia-photo";
+import { slugFromNom } from "../../../lib/slug-from-nom";
 
-/** Photo 0 = Wikipedia (lead). Photos 1+ = Pexels (vraies photos, pas de panneaux). */
 const TOTAL_PHOTOS = 10;
 
+type PhotoPick = { url: string; alt: string; credit?: string };
+
 /**
- * GET /api/photo-ville?stepId=X&ville=Y&refresh=1&photoIndex=2
- * - Photo 0 : Wikipedia (FR) image principale → la bonne ville.
- * - Photos 1 à 9 : Pexels (recherche par requête) → vraies photos, pas de panneaux.
- * - refresh=1 : ignore le cache, photoIndex pour cycle.
- * - Fallback si pas Pexels : Unsplash.
+ * GET /api/photo-ville?stepId=X&ville=Y&slug=optional&refresh=1&photoIndex=2
+ * - Lieux **premium** (mieux notés / phares) : **Unsplash en premier**, puis Wikipedia + Pexels si besoin.
+ * - **Autres** : Wikipedia + Pexels, Unsplash en dernier recours.
  */
 export async function GET(req: NextRequest) {
   const stepId = req.nextUrl.searchParams.get("stepId");
   const ville = req.nextUrl.searchParams.get("ville");
+  const slugHint = req.nextUrl.searchParams.get("slug")?.trim().toLowerCase();
   const refresh = req.nextUrl.searchParams.get("refresh") === "1";
   const pageParam = req.nextUrl.searchParams.get("page");
   const page = pageParam ? Math.min(10, Math.max(1, parseInt(pageParam, 10) || 2)) : 1;
@@ -39,17 +42,72 @@ export async function GET(req: NextRequest) {
   }
 
   const departement = getDepartementForVille(ville, stepId);
+  const slug = slugHint || slugFromNom(ville.trim());
+  const premium = isPremiumPatrimoineSlug(slug);
 
-  // 1) Photo 0 = Wikipedia (lead uniquement). Photos 1+ = Pexels.
-  const [wikiLead, pexelsList] = await Promise.all([
-    fetchPhotoForCityFromWikipedia(ville, { departement: departement ?? undefined }),
+  const curatedList = getBeautyCuratedPhotosForSlug(slug, TOTAL_PHOTOS) ?? [];
+  const curatedPicks: PhotoPick[] = curatedList.map((p) => ({
+    url: p.url,
+    alt: p.title,
+    credit: p.author,
+  }));
+
+  /** URLs déjà en JSON : pas d’appel externe pour la première image. */
+  if (!refresh && curatedPicks.length > 0) {
+    const chosen = curatedPicks[0];
+    await updateItineraryPhotoUrl(stepId, chosen.url);
+    return Response.json({
+      url: chosen.url,
+      fromCache: false,
+      totalWikipedia: curatedPicks.length,
+      premiumPatrimoine: premium,
+      source: "beauty_curated",
+    });
+  }
+
+  const [wikiList, pexelsList] = await Promise.all([
+    fetchPhotosForCityFromWikipedia(ville, { departement: departement ?? undefined }),
     fetchPhotosForCityFromPexels(ville, stepId),
   ]);
 
-  const combined = [
-    ...(wikiLead ? [wikiLead] : []),
-    ...pexelsList,
-  ].slice(0, TOTAL_PHOTOS);
+  const wikiPicks: PhotoPick[] = wikiList.map((w) => ({
+    url: w.url,
+    alt: w.alt,
+    credit: w.credit,
+  }));
+  const pexelsPicks: PhotoPick[] = pexelsList.map((p) => ({
+    url: p.url,
+    alt: p.alt,
+    credit: p.credit,
+  }));
+
+  function mergeUnique(picks: PhotoPick[]): PhotoPick[] {
+    const seen = new Set<string>();
+    const out: PhotoPick[] = [];
+    for (const p of picks) {
+      if (seen.has(p.url)) continue;
+      seen.add(p.url);
+      out.push(p);
+    }
+    return out;
+  }
+
+  let combined: PhotoPick[] = [];
+
+  if (premium) {
+    const unsplashList = await fetchUnsplashPhotosForCity(ville, { stepId, max: TOTAL_PHOTOS });
+    const unsplashPicks: PhotoPick[] = unsplashList.map((u) => ({
+      url: u.url,
+      alt: u.alt,
+      credit: u.credit ? `${u.credit} / Unsplash` : "Unsplash",
+    }));
+    combined = mergeUnique([...curatedPicks, ...unsplashPicks, ...wikiPicks, ...pexelsPicks]).slice(
+      0,
+      TOTAL_PHOTOS
+    );
+  } else {
+    combined = mergeUnique([...curatedPicks, ...wikiPicks, ...pexelsPicks]).slice(0, TOTAL_PHOTOS);
+  }
 
   if (combined.length > 0) {
     const idx =
@@ -63,11 +121,11 @@ export async function GET(req: NextRequest) {
     return Response.json({
       url: chosen.url,
       fromCache: false,
-      totalWikipedia: combined.length, // total du cycle (Wikipedia + Pexels)
+      totalWikipedia: combined.length,
+      premiumPatrimoine: premium,
     });
   }
 
-  // 2) Fallback Unsplash
   const unsplashPage =
     refresh && page === 1 ? Math.floor(Math.random() * 4) + 2 : page;
   const result = await fetchPhotoForCity(ville, { stepId, page: unsplashPage });
@@ -76,5 +134,9 @@ export async function GET(req: NextRequest) {
   }
 
   await updateItineraryPhotoUrl(stepId, result.url);
-  return Response.json({ url: result.url, fromCache: false });
+  return Response.json({
+    url: result.url,
+    fromCache: false,
+    premiumPatrimoine: premium,
+  });
 }

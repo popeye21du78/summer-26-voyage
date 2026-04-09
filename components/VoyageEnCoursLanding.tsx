@@ -4,8 +4,8 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { LogOut, ChevronDown } from "lucide-react";
 import VoyageStepsMap from "./VoyageStepsMap";
-import HeroPhotoStrip from "./HeroPhotoStrip";
-import type { VoyageStateResponse } from "../app/api/voyage-state/route";
+import HeroPhotoStripResolved from "./HeroPhotoStripResolved";
+import type { VoyageStateResponse } from "@/types/voyage-state";
 
 type Props = {
   state: VoyageStateResponse;
@@ -33,13 +33,11 @@ export default function VoyageEnCoursLanding({ state }: Props) {
     contenu_voyage: { photos: [] as string[] },
   }));
 
-  const photos = (voyage.steps ?? []).flatMap((s) =>
-    (s.contenu_voyage?.photos ?? []).map((url) => ({ url, nom: s.nom }))
-  );
+  const heroSteps = (voyage.steps ?? []).map((s) => ({ id: s.id, nom: s.nom }));
 
   return (
     <section className="relative flex min-h-screen flex-col overflow-hidden">
-      <HeroPhotoStrip photos={photos} />
+      <HeroPhotoStripResolved steps={heroSteps} />
 
       {/* Contenu — style terracotta cohérent avec le reste */}
       <div className="relative z-20 flex flex-1 flex-col px-4 py-8 pt-16">

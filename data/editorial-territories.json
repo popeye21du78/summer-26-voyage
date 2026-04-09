@@ -1,0 +1,368 @@
+{
+  "territories": [
+    {
+      "id": "perigord-villages-vallees",
+      "name": "Périgord et vallées",
+      "pitch": "Villages de caractère, vallées douces et patrimoine dense.",
+      "tags": [
+        "villages",
+        "patrimoine",
+        "slow"
+      ],
+      "filter_tags": [
+        "villages",
+        "patrimoine",
+        "moins_connu"
+      ],
+      "duration_fit": [
+        "week_5_7",
+        "one_two_weeks",
+        "long"
+      ],
+      "ideal_durations": [
+        5,
+        8,
+        12
+      ],
+      "trip_styles": [
+        "boucle",
+        "multi-bases",
+        "base_fixe"
+      ],
+      "poi_clusters": [
+        "Sarlat",
+        "Rocamadour",
+        "Domme"
+      ],
+      "markers": [
+        "Villages + patrimoine",
+        "Idéal 5–12 jours",
+        "Rythme équilibré"
+      ],
+      "center": [
+        1.15,
+        44.85
+      ],
+      "region_key": "nouvelle-aquitaine",
+      "poi_sector_id": "perigord-quercy"
+    },
+    {
+      "id": "cote-basque-arriere-pays",
+      "name": "Côte basque et arrière-pays",
+      "pitch": "Océan, collines et villages entre mer et montagne.",
+      "tags": [
+        "mer",
+        "villages",
+        "nature"
+      ],
+      "filter_tags": [
+        "mer",
+        "villages",
+        "nature",
+        "road_trip"
+      ],
+      "duration_fit": [
+        "weekend",
+        "week_5_7",
+        "one_two_weeks"
+      ],
+      "ideal_durations": [
+        4,
+        7,
+        10
+      ],
+      "trip_styles": [
+        "boucle",
+        "base_fixe",
+        "multi-bases"
+      ],
+      "poi_clusters": [
+        "Biarritz",
+        "Saint-Jean-de-Luz",
+        "Espelette"
+      ],
+      "markers": [
+        "Mer + montagne",
+        "Road trip court possible",
+        "Gastronomie"
+      ],
+      "center": [
+        -1.45,
+        43.35
+      ],
+      "region_key": "nouvelle-aquitaine",
+      "poi_sector_id": "pays-basque-bearn"
+    },
+    {
+      "id": "alsace-villages",
+      "name": "Alsace des villages",
+      "pitch": "Remparts, vignoble et maisons à colombages.",
+      "tags": [
+        "villages",
+        "patrimoine"
+      ],
+      "filter_tags": [
+        "villages",
+        "patrimoine",
+        "road_trip"
+      ],
+      "duration_fit": [
+        "weekend",
+        "week_5_7",
+        "one_two_weeks"
+      ],
+      "ideal_durations": [
+        3,
+        6,
+        9
+      ],
+      "trip_styles": [
+        "boucle",
+        "base_fixe",
+        "multi-bases"
+      ],
+      "poi_clusters": [
+        "Colmar",
+        "Riquewihr",
+        "Eguisheim"
+      ],
+      "markers": [
+        "Patrimoine iconique",
+        "Vignoble",
+        "Week-end ou semaine"
+      ],
+      "center": [
+        7.35,
+        48.08
+      ],
+      "region_key": "grand-est",
+      "poi_sector_id": "alsace"
+    },
+    {
+      "id": "provence-perchee",
+      "name": "Provence perchée",
+      "pitch": "Villages en pierre, lavande et calmes du Lubéron.",
+      "tags": [
+        "villages",
+        "nature",
+        "slow"
+      ],
+      "filter_tags": [
+        "villages",
+        "nature",
+        "patrimoine",
+        "moins_connu"
+      ],
+      "duration_fit": [
+        "week_5_7",
+        "one_two_weeks"
+      ],
+      "ideal_durations": [
+        5,
+        8,
+        11
+      ],
+      "trip_styles": [
+        "base_fixe",
+        "multi-bases",
+        "boucle"
+      ],
+      "poi_clusters": [
+        "Gordes",
+        "Roussillon",
+        "Ménerbes"
+      ],
+      "markers": [
+        "Lubéron",
+        "Rythme lent",
+        "Villages perchés"
+      ],
+      "center": [
+        5.25,
+        43.9
+      ],
+      "region_key": "provence-alpes-cote-azur",
+      "poi_sector_id": "provence"
+    },
+    {
+      "id": "bretagne-sauvage",
+      "name": "Bretagne sauvage",
+      "pitch": "Côtes déchiquetées, sentiers et lumière atlantique.",
+      "tags": [
+        "mer",
+        "nature",
+        "randos"
+      ],
+      "filter_tags": [
+        "mer",
+        "nature",
+        "moins_connu"
+      ],
+      "duration_fit": [
+        "week_5_7",
+        "one_two_weeks",
+        "long"
+      ],
+      "ideal_durations": [
+        6,
+        10,
+        14
+      ],
+      "trip_styles": [
+        "boucle",
+        "mobile",
+        "multi-bases"
+      ],
+      "poi_clusters": [
+        "Pointe du Raz",
+        "Île de Sein",
+        "Crozon"
+      ],
+      "markers": [
+        "Grand air",
+        "Randos",
+        "Moins fréquenté"
+      ],
+      "center": [
+        -4.45,
+        48.25
+      ],
+      "region_key": "bretagne",
+      "poi_sector_id": "bretagne"
+    },
+    {
+      "id": "alpes-panoramiques",
+      "name": "Alpes panoramiques",
+      "pitch": "Cols, lacs et villages de montagne accessibles en douceur.",
+      "tags": [
+        "nature",
+        "randos",
+        "patrimoine"
+      ],
+      "filter_tags": [
+        "nature",
+        "patrimoine",
+        "road_trip"
+      ],
+      "duration_fit": [
+        "week_5_7",
+        "one_two_weeks"
+      ],
+      "ideal_durations": [
+        5,
+        8,
+        12
+      ],
+      "trip_styles": [
+        "boucle",
+        "mobile",
+        "multi-bases"
+      ],
+      "poi_clusters": [
+        "Annecy",
+        "Chamonix",
+        "Col de la Forclaz"
+      ],
+      "markers": [
+        "Relief",
+        "Road trip alpin",
+        "Rando + lac"
+      ],
+      "center": [
+        6.35,
+        45.85
+      ],
+      "region_key": "auvergne-rhone-alpes",
+      "poi_sector_id": "savoie"
+    },
+    {
+      "id": "camargue-littoral",
+      "name": "Camargue et littoral méditerranéen",
+      "pitch": "Flamants roses, plages longues et horizons ouverts.",
+      "tags": [
+        "mer",
+        "nature",
+        "patrimoine"
+      ],
+      "filter_tags": [
+        "mer",
+        "nature",
+        "patrimoine"
+      ],
+      "duration_fit": [
+        "weekend",
+        "week_5_7"
+      ],
+      "ideal_durations": [
+        3,
+        6,
+        9
+      ],
+      "trip_styles": [
+        "base_fixe",
+        "boucle",
+        "multi-bases"
+      ],
+      "poi_clusters": [
+        "Saintes-Maries",
+        "Aigues-Mortes",
+        "Arles"
+      ],
+      "markers": [
+        "Mer + étangs",
+        "Patrimoine romain",
+        "Court ou moyen séjour"
+      ],
+      "center": [
+        4.45,
+        43.55
+      ],
+      "region_key": "occitanie",
+      "poi_sector_id": "provence"
+    },
+    {
+      "id": "val-de-loire-patrimoine",
+      "name": "Val de Loire patrimoine",
+      "pitch": "Châteaux, jardins et douceur des bords de Loire.",
+      "tags": [
+        "patrimoine",
+        "road_trip"
+      ],
+      "filter_tags": [
+        "patrimoine",
+        "road_trip",
+        "villages"
+      ],
+      "duration_fit": [
+        "week_5_7",
+        "one_two_weeks"
+      ],
+      "ideal_durations": [
+        5,
+        7,
+        10
+      ],
+      "trip_styles": [
+        "mobile",
+        "boucle",
+        "multi-bases"
+      ],
+      "poi_clusters": [
+        "Chambord",
+        "Chenonceau",
+        "Amboise"
+      ],
+      "markers": [
+        "UNESCO",
+        "Itinéraire fluvial",
+        "Équilibré"
+      ],
+      "center": [
+        0.85,
+        47.35
+      ],
+      "region_key": "centre-val-de-loire",
+      "poi_sector_id": "val-loire-centre"
+    }
+  ]
+}

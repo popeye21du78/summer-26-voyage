@@ -55,6 +55,8 @@ export interface LieuScore extends LieuLigne {
   facteurs: string[];
   /** Famille utilisée pour le bucketing (plage, rando, ville, village, chateau, musee, site_naturel, autre) */
   bucketFamille: string;
+  /** Tags multiples (ex: village-château → ["village", "chateau"]) */
+  allTags: string[];
   /** Trace explicative de sélection (quota, groupe, fallback, etc.) */
   selectionTrace?: string[];
 }
@@ -77,6 +79,40 @@ function getBucketFamille(lieu: LieuLigne): string {
     return ft;
   }
   return "autre";
+}
+
+/**
+ * Tags multiples : un village PBVF classé famille_type=chateau
+ * obtient les tags ["village", "chateau"]. Permet un comptage
+ * intelligent dans applyProportions.
+ */
+function getAllTags(lieu: LieuLigne): string[] {
+  const primary = getBucketFamille(lieu);
+  const tags = new Set<string>([primary]);
+  const cat = String(lieu.categorie_taille ?? "").toLowerCase();
+  const ft = String(lieu.famille_type ?? "").toLowerCase();
+  const nom = String(lieu.nom ?? "").toLowerCase();
+  const activites = String(lieu.activites_notables ?? "").toLowerCase();
+
+  // Village/hameau classé comme château → double tag
+  if ((cat === "hameau" || cat === "village") && ft === "chateau") {
+    tags.add("village");
+    tags.add("chateau");
+  }
+  // Patrimoine dont le nom ou les activités mentionnent "château"
+  if (lieu.source_type === "patrimoine" && (cat === "hameau" || cat === "village")) {
+    if (nom.includes("château") || nom.includes("chateau") ||
+        activites.includes("château") || activites.includes("chateau")) {
+      tags.add("chateau");
+    }
+  }
+  // Village avec une abbaye notable
+  if ((cat === "hameau" || cat === "village") && ft === "abbaye") {
+    tags.add("village");
+    tags.add("abbaye");
+  }
+
+  return [...tags];
 }
 
 /** Vérifie si le lieu est une grande ville */
@@ -272,6 +308,13 @@ export function scoreLieux(profil: ProfilRecherche, lieux: LieuLigne[]): LieuSco
       score += est * 100;
       facteurs.push(`esthétique×100 (${est})`);
     }
+    // Plages/randos/sites naturels : score de base garanti (les données n'ont souvent pas de score_esthetique)
+    if (["plage", "rando", "site_naturel"].includes(bucketFamille)) {
+      const est = getScoreEsthetique(lieu);
+      const baseScore = Math.max(est, 5) * 100;
+      score += baseScore;
+      facteurs.push(`base nature ${baseScore} (est=${est})`);
+    }
 
     // ----- Phase 2 : villes — éviter grandes villes (option) -----
     if (bucketFamille === "ville") {
@@ -373,6 +416,7 @@ export function scoreLieux(profil: ProfilRecherche, lieux: LieuLigne[]): LieuSco
       score,
       facteurs,
       bucketFamille,
+      allTags: getAllTags(lieu),
     });
   }
 
@@ -416,9 +460,46 @@ export function applyProportions(
     villes: [],
     musees: [],
   };
+
+  // Phase 1: lieux mono-tag → bucket direct
+  // Phase 2: lieux multi-tags → bucket le plus déficitaire
+  const multiTagged: LieuScore[] = [];
   for (const lieu of scored) {
-    const propKey = BUCKET_TO_PROP[lieu.bucketFamille] ?? "villages";
-    byProp[propKey].push(lieu);
+    const tags = lieu.allTags ?? [lieu.bucketFamille];
+    if (tags.length <= 1) {
+      const propKey = BUCKET_TO_PROP[tags[0] ?? lieu.bucketFamille] ?? "villages";
+      byProp[propKey].push(lieu);
+    } else {
+      multiTagged.push(lieu);
+    }
+  }
+
+  // Quotas cibles pour choisir le bucket le plus déficitaire
+  const propKeys = Object.keys(byProp) as (keyof typeof byProp)[];
+  const quotaTargets: Record<string, number> = {};
+  for (const k of propKeys) {
+    quotaTargets[k] = Math.round((count * ((proportions as any)[k] ?? 0)) / 100);
+  }
+
+  for (const lieu of multiTagged) {
+    const candidateBuckets = lieu.allTags
+      .map((t) => BUCKET_TO_PROP[t])
+      .filter((b) => !!b) as string[];
+    if (candidateBuckets.length === 0) {
+      byProp.villages.push(lieu);
+      continue;
+    }
+    // Pick the bucket with the biggest deficit (target - current)
+    let bestBucket = candidateBuckets[0];
+    let bestDeficit = -Infinity;
+    for (const b of candidateBuckets) {
+      const deficit = (quotaTargets[b] ?? 0) - (byProp[b]?.length ?? 0);
+      if (deficit > bestDeficit) {
+        bestDeficit = deficit;
+        bestBucket = b;
+      }
+    }
+    byProp[bestBucket].push(lieu);
   }
 
   for (const k of Object.keys(byProp)) {
@@ -589,8 +670,8 @@ export function applyProportions(
   }
 
   const prop = proportions;
-  /** Marge légère sur les quotas : +10% pour éviter de casser l'optimisation (quota strict → sous-optimal) */
-  const QUOTA_MARGIN = 1.1;
+  /** Marge minimale sur les quotas pour respecter les % utilisateur */
+  const QUOTA_MARGIN = 1.02;
   const withMargin = (n: number) => Math.round(n * QUOTA_MARGIN);
 
   const nPlages = Math.min(byProp.plages.length, withMargin(Math.round((count * prop.plages) / 100)));
@@ -612,7 +693,19 @@ export function applyProportions(
   const taken = new Set(
     [...takeP, ...takeR, ...takeC, ...takeV, ...takeVi, ...takeM].map((l) => `${l.bucketFamille}-${l.slug}`)
   );
-  const restants = scored.filter((l) => !taken.has(`${l.bucketFamille}-${l.slug}`));
+  // Exclude types with 0% from complement to respect user intent
+  const zeroTypes = new Set<string>();
+  if (prop.plages === 0) zeroTypes.add("plage");
+  if (prop.randos === 0) zeroTypes.add("rando");
+  if (prop.chateaux === 0) { zeroTypes.add("chateau"); zeroTypes.add("abbaye"); }
+  if (prop.villages === 0) zeroTypes.add("village");
+  if (prop.villes === 0) zeroTypes.add("ville");
+  if (prop.musees === 0) zeroTypes.add("musee");
+  const restants = scored.filter((l) => {
+    if (taken.has(`${l.bucketFamille}-${l.slug}`) || zeroTypes.has(l.bucketFamille)) return false;
+    const pk = BUCKET_TO_PROP[l.bucketFamille] ?? "villages";
+    return ((proportions as Record<string, number>)[pk] ?? 0) > 0;
+  });
   const rest = count - takeP.length - takeR.length - takeC.length - takeV.length - takeVi.length - takeM.length;
   const complement = restants.slice(0, Math.max(0, rest)).map((ls, idx) => withTrace(ls, [`complément global: rang ${idx + 1}/${Math.max(0, rest)}`]));
 

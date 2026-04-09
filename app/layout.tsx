@@ -29,7 +29,7 @@ export default function RootLayout({
       <body
         className={`${ibmPlexMono.variable} font-mono antialiased`}
       >
-        {children}
+        <div className="app-viewport-root min-h-dvh">{children}</div>
       </body>
     </html>
   );

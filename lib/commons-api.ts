@@ -142,7 +142,8 @@ async function searchCommons(query: string, limit = 15): Promise<CommonsPhoto[]>
   const data = (await res.json()) as { query?: { pages?: Record<string, SearchResult> } };
   const pages = data?.query?.pages ?? {};
 
-  const REJECT_TITLE = /gravure|engraving|etching|lithograph|peinture|painting|satellite|NASA|ISS|Landsat|Sentinel|Copernicus|orbital|vue aérienne satellite|fra le belve|Due cuori|Totò|Vera Carmi/i;
+  const REJECT_TITLE =
+    /gravure|engraving|etching|lithograph|peinture|painting|satellite|NASA|ISS|Landsat|Sentinel|Copernicus|orbital|vue aérienne satellite|fra le belve|Due cuori|Totò|Vera Carmi|interior|intérieur|\bmap\b|plan de|ground.?plan|blason|coat of arms|écusson|panneau|diagram|schema|schéma|logo\.svg/i;
   const IMAGE_EXT = /\.(jpg|jpeg|png|webp)$/i;
 
   const candidates: CommonsPhoto[] = [];
@@ -218,7 +219,8 @@ async function searchCommonsByGeo(
   const data = (await res.json()) as { query?: { pages?: Record<string, SearchResult> } };
   const pages = data?.query?.pages ?? {};
 
-  const REJECT_TITLE = /gravure|engraving|etching|lithograph|peinture|painting|satellite|NASA|ISS|Landsat|Sentinel|Copernicus|orbital|vue aérienne satellite|fra le belve|Due cuori|Totò|Vera Carmi/i;
+  const REJECT_TITLE =
+    /gravure|engraving|etching|lithograph|peinture|painting|satellite|NASA|ISS|Landsat|Sentinel|Copernicus|orbital|vue aérienne satellite|fra le belve|Due cuori|Totò|Vera Carmi|interior|intérieur|\bmap\b|plan de|ground.?plan|blason|coat of arms|écusson|panneau|diagram|schema|schéma|logo\.svg/i;
   const IMAGE_EXT = /\.(jpg|jpeg|png|webp)$/i;
 
   const candidates: CommonsPhoto[] = [];
@@ -280,6 +282,27 @@ export async function fetchTopCommonsPhotos(
 ): Promise<CommonsPhoto[]> {
   const candidates = await searchCommons(searchQuery.trim(), 50);
   return candidates.slice(0, topN);
+}
+
+/**
+ * Fenêtre paginée sur les candidats déjà triés (outil maintenance : « afficher autres »).
+ */
+export async function fetchCommonsPhotosWindow(
+  searchQuery: string,
+  offset: number,
+  windowSize: number,
+  opts?: { minWidth?: number }
+): Promise<{ photos: CommonsPhoto[]; totalCandidates: number; query: string }> {
+  let candidates = await searchCommons(searchQuery.trim(), 50);
+  const minW = opts?.minWidth;
+  if (minW != null) {
+    candidates = candidates.filter((c) => c.width >= minW);
+  }
+  return {
+    photos: candidates.slice(offset, Math.max(0, offset) + windowSize),
+    totalCandidates: candidates.length,
+    query: searchQuery.trim(),
+  };
 }
 
 /** Plusieurs requêtes FR+EN en parallèle, fusion, déduplication, top N par concept. */

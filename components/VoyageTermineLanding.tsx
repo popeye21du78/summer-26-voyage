@@ -2,8 +2,8 @@
 
 import Link from "next/link";
 import { ChevronDown, Route } from "lucide-react";
-import type { VoyageStateResponse } from "../app/api/voyage-state/route";
-import HeroPhotoStrip from "./HeroPhotoStrip";
+import type { VoyageStateResponse } from "@/types/voyage-state";
+import HeroPhotoStripResolved from "./HeroPhotoStripResolved";
 
 type Props = {
   state: VoyageStateResponse;
@@ -12,9 +12,7 @@ type Props = {
 export default function VoyageTermineLanding({ state }: Props) {
   const dernier = state.voyagesTermines![0];
   const joursDepuis = state.joursDepuisFinDernierVoyage ?? 0;
-  const photos = (dernier.steps ?? []).flatMap((s) =>
-    (s.contenu_voyage?.photos ?? []).map((url) => ({ url, nom: s.nom }))
-  );
+  const heroSteps = (dernier.steps ?? []).map((s) => ({ id: s.id, nom: s.nom }));
   const villes = (dernier.steps ?? []).slice(0, 4).map((s) => s.nom);
 
   const texteJours =
@@ -26,7 +24,7 @@ export default function VoyageTermineLanding({ state }: Props) {
 
   return (
     <section className="relative flex min-h-screen flex-col overflow-hidden">
-      <HeroPhotoStrip photos={photos} />
+      <HeroPhotoStripResolved steps={heroSteps} />
 
       {/* Contenu centré — au-dessus des photos */}
       <div className="relative z-20 flex flex-1 flex-col items-center justify-center px-4 pt-16">
@@ -78,7 +76,7 @@ export default function VoyageTermineLanding({ state }: Props) {
 
         <div className="flex flex-wrap justify-center gap-4">
           <Link
-            href={`/viago/${dernier.id}`}
+            href={`/viago/${dernier.id}?from=termine`}
             className="btn-terracotta rounded-[50px] border-2 border-[#E07856] bg-gradient-to-r from-[#E07856] to-[#D4635B] px-10 py-4 font-courier font-bold text-white shadow-2xl transition-all duration-300 hover:scale-110 hover:shadow-[#E07856]/70"
           >
             Revivre le voyage

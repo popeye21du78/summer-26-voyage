@@ -62,7 +62,7 @@ Colonnes : Ville | Date arrivée | J+X | Nuitées | Culture € | Nourriture €
 
 ## Implémentation technique
 
-- Données : fetch `/api/itinerary` (même source que Planning)
+- Données : fetch `/api/trip-planning` (même source que Planning — lignes Supabase `itinerary`)
 - Distances : `buildRouteGeoJSON` / `getSegmentInfo` ou API `/api/directions`
 - Graphiques : Recharts (léger) ou SVG pur pour garder 0 dépendance
 - Mise en page : grille responsive, cartouches en `flex-wrap`

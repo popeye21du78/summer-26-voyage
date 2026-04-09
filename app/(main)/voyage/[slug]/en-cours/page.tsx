@@ -5,7 +5,8 @@ import Link from "next/link";
 import { useRouter, useParams } from "next/navigation";
 import { LogOut, MapPin, ChevronDown, Fuel, Route } from "lucide-react";
 import VoyageStepsMap from "../../../../../components/VoyageStepsMap";
-import type { VoyageStateResponse } from "../../../../../app/api/voyage-state/route";
+import { StepLieuThumb } from "../../../../../components/StepLieuThumb";
+import type { VoyageStateResponse } from "@/types/voyage-state";
 
 export default function VoyageEnCoursPage() {
   const router = useRouter();
@@ -48,7 +49,7 @@ export default function VoyageEnCoursPage() {
 
   if (loading) {
     return (
-      <main className="flex min-h-[50vh] items-center justify-center px-4 pt-16">
+      <main className="page-under-header flex min-h-[50vh] items-center justify-center px-4">
         <p className="font-courier text-[#333333]/70">Chargement…</p>
       </main>
     );
@@ -61,7 +62,7 @@ export default function VoyageEnCoursPage() {
 
   if (!voyage || voyage.id !== slug) {
     return (
-      <main className="flex min-h-[50vh] flex-col items-center justify-center gap-4 px-4 pt-16">
+      <main className="page-under-header flex min-h-[50vh] flex-col items-center justify-center gap-4 px-4">
         <p className="font-courier text-[#333333]/80">Voyage introuvable.</p>
         <Link
           href="/accueil"
@@ -79,14 +80,14 @@ export default function VoyageEnCoursPage() {
       : voyage.steps;
 
   return (
-    <main>
+    <main className="page-under-header">
       {isFirstConnexion && stepsDuJour.length > 0 && (
         <section
-          className="relative flex min-h-[calc(100vh-4rem)] flex-col"
+          className="relative flex min-h-[calc(100dvh-5rem)] flex-col"
           id="journee-du-jour"
         >
           <div className="flex flex-1 flex-col px-4 py-8">
-            <h1 className="mb-2 font-courier text-2xl font-bold text-[#333333]">
+            <h1 className="mb-2 scroll-mt-28 font-courier text-2xl font-bold text-[#333333]">
               Votre journée d&apos;aujourd&apos;hui
             </h1>
             <p className="mb-6 font-courier text-sm text-[#333333]/70">
@@ -148,7 +149,7 @@ export default function VoyageEnCoursPage() {
       <section
         ref={restRef}
         className={`border-t border-[#E07856]/10 px-4 py-10 ${
-          isFirstConnexion && stepsDuJour.length > 0 ? "" : "pt-4"
+          isFirstConnexion && stepsDuJour.length > 0 ? "" : "pt-6"
         }`}
         id="ce-qui-reste"
       >
@@ -168,7 +169,7 @@ export default function VoyageEnCoursPage() {
             </button>
           )}
 
-          <h2 className="mb-4 font-courier text-xl font-bold text-[#333333]">
+          <h2 className="mb-4 scroll-mt-28 font-courier text-xl font-bold text-[#333333]">
             Ce qui reste du voyage
           </h2>
           <div className="mb-8">
@@ -182,20 +183,17 @@ export default function VoyageEnCoursPage() {
 
           <ul className="mb-8 space-y-2">
             {stepsRestantsFiltered.map((s) => {
-              const photo = s.contenu_voyage?.photos?.[0];
               return (
                 <li key={s.id}>
                   <Link
                     href={`/ville/${s.id}`}
                     className="group flex items-center gap-3 overflow-hidden rounded-xl border border-[#E07856]/15 bg-white/80 p-2 transition-all hover:border-[#E07856]/40 hover:shadow-md"
                   >
-                    <div
-                      className="h-14 w-16 shrink-0 rounded-lg bg-cover bg-center"
-                      style={{
-                        backgroundImage: photo
-                          ? `url(${photo})`
-                          : "linear-gradient(135deg, var(--terracotta-light) 0%, var(--terracotta-medium) 100%)",
-                      }}
+                    <StepLieuThumb
+                      stepId={s.id}
+                      nom={s.nom}
+                      className="h-14 w-16 shrink-0"
+                      roundedClassName="rounded-lg"
                     />
                     <div className="min-w-0 flex-1">
                       <span className="font-medium text-[#333333]">{s.nom}</span>
@@ -244,7 +242,7 @@ export default function VoyageEnCoursPage() {
 
           <div className="flex flex-wrap gap-3">
             <Link
-              href={`/viago/${voyage.id}`}
+              href={`/viago/${voyage.id}?from=en-cours`}
               className="btn-terracotta rounded-[50px] border-2 border-[#E07856] bg-gradient-to-r from-[#E07856] to-[#D4635B] px-4 py-2 font-courier font-bold text-white shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-[#E07856]/50"
             >
               Voir le Viago

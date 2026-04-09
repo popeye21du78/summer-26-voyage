@@ -53,7 +53,7 @@ export default function DataPage() {
   const [segments, setSegments] = useState<Array<{ from: string; to: string; km: number; durée: string; péages: number }>>([]);
 
   useEffect(() => {
-    fetch("/api/itinerary")
+    fetch("/api/trip-planning")
       .then((r) => r.json())
       .then((data) => {
         const r = data.steps ?? [];

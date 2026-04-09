@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState, useCallback } from "react";
+import { slugForLieuPhoto } from "@/lib/slug-for-lieu-photo";
 
 /** Optimise les URLs Unsplash pour une meilleure netteté (Retina). */
 function sharpenUnsplashUrl(url: string): string {
@@ -42,6 +43,7 @@ export function CityPhoto({
       if (refresh) setUrl(null);
 
       const params = new URLSearchParams({ stepId, ville });
+      params.set("slug", slugForLieuPhoto(stepId, ville));
       if (refresh) {
         params.set("refresh", "1");
         if (nextIndex !== undefined) params.set("photoIndex", String(nextIndex));

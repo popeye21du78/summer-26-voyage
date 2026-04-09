@@ -563,7 +563,7 @@ export default function PlanningPage() {
   const load = useCallback(async () => {
     setLoading(true);
     try {
-      const res = await fetch("/api/itinerary");
+      const res = await fetch("/api/trip-planning");
       const data = await res.json();
       const steps = data.steps ?? [];
       if (steps.length > 0) {
@@ -727,7 +727,7 @@ export default function PlanningPage() {
     setSaving(true);
     setMessage(null);
     try {
-      const res = await fetch("/api/itinerary", {
+      const res = await fetch("/api/trip-planning", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -968,7 +968,7 @@ export default function PlanningPage() {
       {message === "error" && (
         <p className="mb-4 text-sm text-red-600">
           Erreur. Vérifie que Supabase est configuré et que la table
-          &quot;itinerary&quot; existe.
+          &quot;itinerary&quot; existe (via /api/trip-planning).
         </p>
       )}
 

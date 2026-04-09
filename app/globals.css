@@ -1,9 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap');
 @import "tailwindcss";
 
-/* Pas de défilement horizontal : clip évite overflow-y:auto implicite qui casse scroll-snap */
+@keyframes quiz-choice-flash {
+  0% {
+    opacity: 0;
+    transform: scale(1.08);
+  }
+  35% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.02);
+  }
+}
+
+.animate-quiz-choice-flash {
+  animation: quiz-choice-flash 0.38s ease-out forwards;
+}
+
+/*
+ * Bloque tout scroll horizontal (mobile : « écran » qui glisse sur du vide).
+ * hidden + max-width 100% (pas 100vw : inclut la barre de défilement et crée l’overflow).
+ */
 html {
-  overflow-x: clip;
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
+  overscroll-behavior-x: none;
 }
 
 /* Palette Terracotta – design moderne */
@@ -25,10 +50,27 @@ html {
   --font-typewriter: "Special Elite", serif;
   --font-motto: "Cormorant Garamond", Georgia, serif;
   --font-courier: "Courier Prime", monospace;
+  /* Aligné sur .page-under-header — pour positionner le contenu (liens) au-dessus du bandeau fixe */
+  --header-content-offset: max(
+    7.75rem,
+    calc(env(safe-area-inset-top, 0px) + 6.5rem)
+  );
 }
 
 .font-courier {
   font-family: var(--font-courier);
+}
+
+/* Contenu sous le header fixe (logo qui dépasse le bandeau) — marge suffisante sur mobile pour ne pas masquer « Retour » / liens */
+.page-under-header {
+  padding-top: max(7.75rem, calc(env(safe-area-inset-top, 0px) + 6.5rem));
+}
+
+/* Évite tout défilement horizontal parasite (éléments en 100vw, marges négatives, etc.) */
+#__next,
+main {
+  max-width: 100%;
+  overflow-x: clip;
 }
 
 @theme inline {
@@ -43,8 +85,21 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-courier), monospace;
-  overflow-x: clip;
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  position: relative;
+  overscroll-behavior-x: none;
   scroll-behavior: smooth;
+}
+
+/* Cintre global : tout ce qui dépasse en largeur est coupé (App Router) */
+.app-viewport-root {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  overflow-x: hidden;
 }
 
 /* Machine à écrire – sections ville : caractères révélés avec délai, curseur clignotant */

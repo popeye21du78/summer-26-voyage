@@ -4,19 +4,24 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import {
   UserCog,
-  BookOpen,
   Share2,
   Calendar,
   ChevronDown,
   Search,
+  Sparkles,
+  MapPinned,
+  Route,
+  MapPin,
 } from "lucide-react";
 import VoyagePrevuCountdown from "./VoyagePrevuCountdown";
 import VoyageEnCoursLanding from "./VoyageEnCoursLanding";
 import VoyageTermineLanding from "./VoyageTermineLanding";
-import HeroPhotoStrip from "./HeroPhotoStrip";
+import HeroPhotoStripResolved from "./HeroPhotoStripResolved";
+import LaissezVousTenterCarousel from "./LaissezVousTenterCarousel";
+import AmiVoyagePhotoStrip from "./AmiVoyagePhotoStrip";
 import PhilosophieCylindre from "./PhilosophieCylindre";
-import type { VoyageStateResponse } from "../app/api/voyage-state/route";
-import { VOYAGES_PREFAITS } from "../data/mock-voyages";
+import type { VoyageStateResponse } from "@/types/voyage-state";
+import { VOYAGES_PREFAITS, HERO_ACCUEIL_STEP_REFS } from "../data/mock-voyages";
 
 export default function AccueilContent({
   profileName,
@@ -31,7 +36,11 @@ export default function AccueilContent({
         id: string;
         titre: string;
         sousTitre: string;
-        steps?: Array<{ contenu_voyage?: { photos?: string[] } }>;
+        steps?: Array<{
+          id: string;
+          nom: string;
+          contenu_voyage?: { photos?: string[] };
+        }>;
       };
       type: string;
     }>
@@ -49,11 +58,30 @@ export default function AccueilContent({
       .then(([voyageData, amisData]) => {
         setState(voyageData);
         setVoyagesAmis(
-          (amisData?.voyages ?? []).map((v: any) => ({
-            profileName: v.profileName,
-            voyage: v.voyage ?? {},
-            type: v.type,
-          }))
+          (amisData?.voyages ?? []).map(
+            (v: {
+              profileName?: string;
+              voyage?: {
+                id: string;
+                titre: string;
+                sousTitre: string;
+                steps?: Array<{
+                  id: string;
+                  nom: string;
+                  contenu_voyage?: { photos?: string[] };
+                }>;
+              };
+              type?: string;
+            }) => ({
+              profileName: v.profileName ?? "",
+              voyage: v.voyage ?? {
+                id: "",
+                titre: "",
+                sousTitre: "",
+              },
+              type: v.type ?? "",
+            })
+          )
         );
         setLoading(false);
       })
@@ -111,16 +139,7 @@ export default function AccueilContent({
           id="hero-section"
           className="relative flex min-h-screen snap-start snap-always flex-col overflow-hidden"
         >
-          <HeroPhotoStrip
-            photos={
-              VOYAGES_PREFAITS[0]?.steps?.flatMap((s) =>
-                (s.contenu_voyage?.photos ?? []).map((url) => ({
-                  url,
-                  nom: s.nom,
-                }))
-              ) ?? []
-            }
-          />
+          <HeroPhotoStripResolved steps={HERO_ACCUEIL_STEP_REFS} />
           <div className="relative z-20 flex flex-1 flex-col items-center justify-center px-4 pt-16">
             <p className="mb-3 font-courier text-xl font-bold uppercase tracking-[0.3em] text-white/90 md:text-2xl">
               VAN TRIP
@@ -195,67 +214,99 @@ export default function AccueilContent({
         </button>
       </section>
 
-      {/* Section On repart — UN écran : Laissez-vous tenter (carousel) + Quiz — pt pour bandeau */}
+      {/* Section Planifier un voyage (id on-repart conservé pour le header / ancres) */}
       <section
         id="on-repart"
-        className="flex min-h-screen snap-start snap-always flex-col justify-center bg-gradient-to-br from-[#FFF8F0] to-[#F5E6D3] px-4 pt-16 pb-6"
+        className="flex min-h-screen snap-start snap-always flex-col items-center justify-center bg-gradient-to-br from-[#FFF8F0] to-[#F5E6D3] px-4 pb-12 pt-20 sm:pb-16 sm:pt-24"
       >
-        <div className="mx-auto flex w-full max-w-5xl flex-col gap-4 lg:flex-row lg:items-center lg:gap-8">
-          {/* Laissez-vous tenter — carousel horizontal défilant */}
-          <div className="flex-1 lg:max-w-[45%]">
-            <h3 className="mb-2 font-courier text-lg font-bold uppercase tracking-wider text-[#A55734] md:text-xl">
-              Laissez-vous tenter
-            </h3>
-            <div className="flex gap-2 overflow-x-auto pb-2 scroll-smooth">
-              {VOYAGES_PREFAITS.map((v) => {
-                const firstPhoto = v.steps[0]?.contenu_voyage?.photos?.[0];
-                const villes = v.steps.slice(0, 2).map((s) => s.nom).join(", ");
-                return (
-                  <Link
-                    key={v.id}
-                    href="/prevoyages"
-                    className="group flex shrink-0 flex-col overflow-hidden rounded-lg bg-white/60 shadow-sm transition-all duration-300 hover:scale-[1.02] hover:shadow-md"
-                  >
-                    <div
-                      className="h-16 w-24 shrink-0 bg-cover bg-center transition-transform group-hover:scale-105"
-                      style={{
-                        backgroundImage: firstPhoto
-                          ? `url(${firstPhoto})`
-                          : "linear-gradient(135deg, #A55734 0%, #8b4728 100%)",
-                      }}
-                    />
-                    <div className="p-1.5">
-                      <p className="truncate font-courier text-xs font-bold text-[#333333]">
-                        {v.titre}
-                      </p>
-                      <p className="font-courier text-[10px] text-[#333333]/70">
-                        {v.dureeJours}j · {villes}
-                      </p>
-                    </div>
-                  </Link>
-                );
-              })}
-            </div>
+        <div className="mb-10 w-full max-w-5xl text-center">
+          <h2
+            className="font-courier text-2xl font-bold tracking-wider md:text-3xl"
+            style={{
+              background: "linear-gradient(to right, #E07856, #D4635B, #CD853F)",
+              WebkitBackgroundClip: "text",
+              backgroundClip: "text",
+              color: "transparent",
+            }}
+          >
+            PLANIFIER UN VOYAGE
+          </h2>
+          <div className="mx-auto mt-3 h-1 w-48 rounded-full bg-gradient-to-r from-transparent via-[#E07856] to-transparent" />
+        </div>
+
+        <p className="mx-auto mb-8 max-w-xl text-center font-courier text-base font-bold text-[#333333]">
+          Comment veux-tu commencer ?
+        </p>
+
+        {/* 4 portes + piste secondaire (voyages tout faits) */}
+        <div className="mx-auto grid w-full max-w-5xl grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-10">
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+            <Link
+              href="/planifier/inspiration"
+              className="group flex flex-col rounded-2xl border-2 border-[#E07856]/40 bg-white/90 p-4 text-left shadow-md transition hover:border-[#E07856] hover:shadow-lg"
+            >
+              <Sparkles className="mb-2 h-8 w-8 text-[#E07856]" aria-hidden />
+              <span className="font-courier text-sm font-bold uppercase tracking-wide text-[#A55734]">
+                Trouver l&apos;inspiration
+              </span>
+              <span className="mt-1 font-courier text-xs leading-relaxed text-[#333]/80">
+                Carte de territoires éditoriaux pour faire émerger des envies.
+              </span>
+            </Link>
+            <Link
+              href="/planifier/zone"
+              className="group flex flex-col rounded-2xl border-2 border-[#E07856]/40 bg-white/90 p-4 text-left shadow-md transition hover:border-[#E07856] hover:shadow-lg"
+            >
+              <MapPinned className="mb-2 h-8 w-8 text-[#E07856]" aria-hidden />
+              <span className="font-courier text-sm font-bold uppercase tracking-wide text-[#A55734]">
+                Créer dans une zone
+              </span>
+              <span className="mt-1 font-courier text-xs leading-relaxed text-[#333]/80">
+                Région ou zone : cadrage, forme du voyage, structures de nuits.
+              </span>
+            </Link>
+            <Link
+              href="/planifier/axe"
+              className="group flex flex-col rounded-2xl border-2 border-[#E07856]/40 bg-white/90 p-4 text-left shadow-md transition hover:border-[#E07856] hover:shadow-lg"
+            >
+              <Route className="mb-2 h-8 w-8 text-[#E07856]" aria-hidden />
+              <span className="font-courier text-sm font-bold uppercase tracking-wide text-[#A55734]">
+                Départ → arrivée
+              </span>
+              <span className="mt-1 font-courier text-xs leading-relaxed text-[#333]/80">
+                Corridor, tendance du parcours, nuits puis enrichissements.
+              </span>
+            </Link>
+            <Link
+              href="/planifier/lieux"
+              className="group flex flex-col rounded-2xl border-2 border-[#E07856]/40 bg-white/90 p-4 text-left shadow-md transition hover:border-[#E07856] hover:shadow-lg"
+            >
+              <MapPin className="mb-2 h-8 w-8 text-[#E07856]" aria-hidden />
+              <span className="font-courier text-sm font-bold uppercase tracking-wide text-[#A55734]">
+                Autour de lieux choisis
+              </span>
+              <span className="mt-1 font-courier text-xs leading-relaxed text-[#333]/80">
+                Lieux indispensables ou bonus, diagnostic et options.
+              </span>
+            </Link>
           </div>
 
-          {/* Quiz — droite, plus compact */}
-          <div className="flex-1">
-            <h3 className="mb-2 font-courier text-lg font-bold uppercase tracking-wider text-[#A55734] md:text-xl">
-              Dites-nous qui vous êtes
-            </h3>
-            <div className="bg-transparent">
-              <p className="mb-3 font-courier text-sm leading-relaxed text-[#333333]/90">
-                Quelques questions sur vos goûts, et on vous concocte un
-                itinéraire sur mesure.
-              </p>
-              <Link
-                href="/voyage/nouveau"
-                className="btn-terracotta inline-flex items-center gap-2 rounded-[50px] border-2 border-[#E07856] bg-gradient-to-r from-[#E07856] to-[#D4635B] px-5 py-2.5 font-courier text-sm font-bold text-white shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-[#E07856]/50"
-              >
-                <BookOpen className="h-4 w-4" />
-                Commencer le quiz
-              </Link>
-            </div>
+          <div className="flex w-full max-w-md flex-col justify-start lg:mx-auto">
+            <p className="mb-2 text-center font-courier text-xs font-bold uppercase tracking-wider text-[#A55734]/90 lg:text-left">
+              Piste secondaire — voyages tout faits
+            </p>
+            <LaissezVousTenterCarousel
+              voyages={VOYAGES_PREFAITS.map((v) => ({
+                id: v.id,
+                titre: v.titre,
+                dureeJours: v.dureeJours,
+                steps: v.steps.map((s) => ({
+                  id: s.id,
+                  nom: s.nom,
+                  contenu_voyage: s.contenu_voyage,
+                })),
+              }))}
+            />
           </div>
         </div>
       </section>
@@ -312,16 +363,15 @@ export default function AccueilContent({
             </h3>
             {filteredAmis.length > 0 ? (
               <ul className="space-y-3">
-                {filteredAmis.map((va, i) => {
-                  const photos =
-                    va.voyage.steps?.flatMap(
-                      (s) => s.contenu_voyage?.photos ?? []
-                    ) ?? [];
+                {filteredAmis.map((va) => {
+                  const stepRefs =
+                    va.voyage.steps?.map((s) => ({ id: s.id, nom: s.nom })) ?? [];
+                  const amiRowKey = `${va.profileName}-${va.voyage.id}-${va.type}`;
                   return (
-                    <li key={i}>
+                    <li key={amiRowKey}>
                       <Link
                         href={`/voyage/${va.voyage.id}/prevu`}
-                        className="btn-terracotta flex overflow-hidden rounded-xl border-2 border-white/20 bg-white/10 backdrop-blur-sm transition-all duration-300 hover:scale-[1.02] hover:border-[#E07856]/50 hover:bg-white/15"
+                        className="btn-terracotta flex flex-col overflow-hidden rounded-xl border-2 border-white/20 bg-white/10 backdrop-blur-sm transition-all duration-300 hover:scale-[1.02] hover:border-[#E07856]/50 hover:bg-white/15 sm:flex-row"
                       >
                         <div className="min-w-0 flex-1 p-4">
                           <p className="font-courier text-sm font-bold text-white">
@@ -338,19 +388,8 @@ export default function AccueilContent({
                                 : "Terminé"}
                           </span>
                         </div>
-                        {photos.length > 0 && (
-                          <div className="photos-amis-fade relative hidden w-40 shrink-0 overflow-hidden sm:block md:w-48">
-                            <div className="flex h-full animate-scroll-horizontal-slow">
-                              {[...photos, ...photos].map((url, j) => (
-                                <div
-                                  key={j}
-                                  className="h-full min-w-[120px] shrink-0 bg-cover bg-center md:min-w-[140px]"
-                                  style={{ backgroundImage: `url(${url})` }}
-                                />
-                              ))}
-                            </div>
-                            <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-[#5D3A1A]/95 via-[#5D3A1A]/30 to-transparent" />
-                          </div>
+                        {stepRefs.length > 0 && (
+                          <AmiVoyagePhotoStrip key={amiRowKey} steps={stepRefs} />
                         )}
                       </Link>
                     </li>

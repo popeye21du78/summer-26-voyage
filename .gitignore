@@ -40,6 +40,9 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# géométrie source (téléchargée par npm run build:romantic-regions)
+data/geo/departements-france.geojson
+
 # batch (générés par les scripts)
 data/batch/*.jsonl
 data/batch/batch_id*.txt

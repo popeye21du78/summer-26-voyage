@@ -18,13 +18,38 @@ type Props = {
   photos: PhotoItem[];
   /** Overlay gradient (terracotta par défaut) */
   overlay?: string;
+  /**
+   * Si true et aucune photo : fond dégradé seulement (pas les Unsplash de secours).
+   * À utiliser pendant le chargement du batch lieu / Wikipédia.
+   */
+  suppressFallback?: boolean;
 };
 
-export default function HeroPhotoStrip({ photos, overlay }: Props) {
-  const items = photos.length > 0 ? photos : PHOTOS_FALLBACK;
+export default function HeroPhotoStrip({ photos, overlay, suppressFallback }: Props) {
+  const items =
+    photos.length > 0 ? photos : suppressFallback ? [] : PHOTOS_FALLBACK;
   const gradient =
     overlay ??
     "linear-gradient(to bottom, rgba(139,69,19,0.5) 0%, rgba(224,120,86,0.3) 50%, rgba(93,58,26,0.6) 100%)";
+
+  if (items.length === 0) {
+    return (
+      <div className="absolute inset-0 z-0 overflow-hidden" style={{ minHeight: "100vh" }}>
+        <div
+          className="h-full min-h-screen w-full"
+          style={{
+            background:
+              "linear-gradient(125deg, #4a2c14 0%, #6B3E1A 25%, #8B4513 50%, #A0522D 75%, #5D3A1A 100%)",
+          }}
+          aria-hidden
+        />
+        <div
+          className="absolute inset-0 z-[1]"
+          style={{ background: gradient }}
+        />
+      </div>
+    );
+  }
 
   return (
     <div className="absolute inset-0 z-0 overflow-hidden" style={{ minHeight: "100vh" }}>

@@ -156,6 +156,8 @@ export async function POST(req: NextRequest) {
   }
 
   const results: { slug: string; ok: boolean; error?: string }[] = [];
+  const totalWithFolders = readdirSync(PHOTOS_ROOT, { withFileTypes: true })
+    .filter((e) => e.isDirectory() && !e.name.startsWith(".")).length;
 
   for (const slug of slugs) {
     const description = getDescriptionForSlug(slug);
@@ -199,8 +201,6 @@ export async function POST(req: NextRequest) {
   }
 
   const remaining = getSlugsToProcess(9999).length;
-  const totalWithFolders = readdirSync(PHOTOS_ROOT, { withFileTypes: true })
-    .filter((e) => e.isDirectory() && !e.name.startsWith(".")).length;
 
   return NextResponse.json({
     processed: results.filter((r) => r.ok).length,

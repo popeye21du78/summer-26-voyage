@@ -16,6 +16,12 @@ const WIKI_API = "https://fr.wikipedia.org/w/api.php";
 export const WIKI_MAX_PHOTOS = 10;
 
 /**
+ * Fichiers souvent hors-sujet pour une photo de ville (article Wikipédia = mélange muséum, schémas, etc.).
+ */
+const REJECT_WIKI_IMAGE_TITLE_OR_URL =
+  /papillon|butterfly|lepidopter|chenille|moth|insecte|scarab|coléoptère|oiseau|bird|araignée|spider|poisson|fish|crustacé|reptile|amphibien|microscope|cellule|dna|arn\b|molécule|histolog|tissu biologique|diagram|schéma|schema|coupe géologique|section géologique|logo|icon-?|favicon|\.svg|blason|coat.?of.?arms|écusson|armoiries|gravure|lithograph|carte[_ -]?(politique|géographique|administrative)|physical map|relief map|plan de ville|ground.?plan|portrait[_ -]de|photo[_ -]de[_ -]groupe|signature\.|sceau\.|tampon/i;
+
+/**
  * Récupère jusqu’à WIKI_MAX_PHOTOS images de la page Wikipedia de la ville.
  * Ordre : image principale en premier, puis les autres. index permet de choisir une autre (0 = première).
  */
@@ -55,6 +61,11 @@ type WikiPage = {
   imageinfo?: Array<{ url?: string; thumburl?: string }>;
 };
 
+function isRejectedWikiImage(fileTitle: string | undefined, url: string | undefined): boolean {
+  const t = `${fileTitle ?? ""} ${url ?? ""}`;
+  return REJECT_WIKI_IMAGE_TITLE_OR_URL.test(t);
+}
+
 /**
  * Récupère la liste d’images d’une page : d’abord l’image principale (pageimages), puis les autres (generator=images).
  */
@@ -87,16 +98,20 @@ async function fetchPageImages(title: string): Promise<WikipediaPhotoResult[]> {
       ? mainPage.original?.source ?? mainPage.thumbnail?.source
       : null;
 
-  const results: WikipediaPhotoResult[] = [];
-  if (mainUrl) results.push({ url: mainUrl, alt: title, credit: "Wikipedia" });
+  const pageImageLabel = mainPage?.pageimage ?? mainPage?.title ?? "";
 
-  // 2) Autres images de la page (generator=images, max WIKI_MAX_PHOTOS - 1)
+  const results: WikipediaPhotoResult[] = [];
+  if (mainUrl && !isRejectedWikiImage(pageImageLabel, mainUrl)) {
+    results.push({ url: mainUrl, alt: title, credit: "Wikipedia" });
+  }
+
+  // 2) Autres images de la page (generator=images) — filtrer muséum / schémas / cartes
   const genParams = new URLSearchParams({
     action: "query",
     generator: "images",
     format: "json",
     origin: "*",
-    gimlimit: String(Math.max(1, WIKI_MAX_PHOTOS - 1)),
+    gimlimit: "40",
     titles: title,
     prop: "imageinfo",
     iiprop: "url",
@@ -111,17 +126,21 @@ async function fetchPageImages(title: string): Promise<WikipediaPhotoResult[]> {
   const genPages = genData.query?.pages;
   if (!genPages) return results;
 
-  const seen = new Set<string>(mainUrl ? [mainUrl] : []);
+  const seen = new Set<string>(results.map((r) => r.url));
+  if (mainUrl) seen.add(mainUrl);
+
   for (const p of Object.values(genPages)) {
+    if (results.length >= WIKI_MAX_PHOTOS) break;
+    const fileTitle = p.title ?? "";
     const url = p.imageinfo?.[0]?.url ?? p.imageinfo?.[0]?.thumburl;
-    if (url && !seen.has(url) && results.length < WIKI_MAX_PHOTOS) {
-      seen.add(url);
-      results.push({
-        url,
-        alt: p.title ?? title,
-        credit: "Wikipedia",
-      });
-    }
+    if (!url || seen.has(url)) continue;
+    if (isRejectedWikiImage(fileTitle, url)) continue;
+    seen.add(url);
+    results.push({
+      url,
+      alt: fileTitle.replace(/^File:/i, "").replace(/_/g, " ") || title,
+      credit: "Wikipedia",
+    });
   }
 
   return results;

@@ -18,7 +18,7 @@ export async function POST(request: NextRequest) {
     );
   }
 
-  let body: { steps?: StepMin[] };
+  let body: { steps?: StepMin[]; avoidMotorways?: boolean };
   try {
     body = await request.json();
   } catch {
@@ -26,6 +26,7 @@ export async function POST(request: NextRequest) {
   }
 
   const steps = body.steps;
+  const avoidMotorways = body.avoidMotorways !== false;
   if (!Array.isArray(steps) || steps.length < 2) {
     return NextResponse.json(
       { error: "steps doit être un tableau d'au moins 2 étapes" },
@@ -45,7 +46,8 @@ export async function POST(request: NextRequest) {
       const from = stepsLimited[i];
       const to = stepsLimited[i + 1];
       const coords = `${from.coordonnees.lng},${from.coordonnees.lat};${to.coordonnees.lng},${to.coordonnees.lat}`;
-      const url = `https://api.mapbox.com/directions/v5/mapbox/driving/${coords}?access_token=${token}&geometries=geojson`;
+      const exclude = avoidMotorways ? "&exclude=motorway" : "";
+      const url = `https://api.mapbox.com/directions/v5/mapbox/driving/${coords}?access_token=${token}&geometries=geojson${exclude}`;
       batch.push({ i, from, to, url });
     }
 
@@ -73,7 +75,16 @@ export async function POST(request: NextRequest) {
     );
 
     for (const { i, from, to, route } of results) {
-      if (!route?.geometry?.coordinates?.length) continue;
+      if (!route?.geometry?.coordinates?.length) {
+        segmentResults.push({
+          i,
+          coordinates: [
+            [from.coordonnees.lng, from.coordonnees.lat],
+            [to.coordonnees.lng, to.coordonnees.lat],
+          ],
+        });
+        continue;
+      }
 
       const coordinates = route.geometry!.coordinates as GeoJSON.Position[];
       const distanceM = route.distance ?? 0;
@@ -101,6 +112,7 @@ export async function POST(request: NextRequest) {
     }
   }
 
+  const allCoords: GeoJSON.Position[] = [];
   segmentResults.sort((a, b) => a.i - b.i);
   for (let j = 0; j < segmentResults.length; j++) {
     const { coordinates } = segmentResults[j];

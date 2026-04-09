@@ -49,8 +49,6 @@ function CityPopupOverlay({
   onClose: () => void;
   popupRef: React.RefObject<HTMLDivElement | null>;
 }) {
-  const cachedPhoto = step.contenu_voyage.photos[0] ?? null;
-
   return (
     <div
       ref={popupRef}
@@ -69,7 +67,6 @@ function CityPopupOverlay({
           <CityPhoto
             stepId={step.id}
             ville={step.nom}
-            initialUrl={cachedPhoto}
             alt={step.nom}
             className="h-full w-full object-cover"
           />

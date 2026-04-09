@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { ArrowLeft, MapPin, Calendar } from "lucide-react";
 import { VOYAGES_PREFAITS } from "../../../data/mock-voyages";
+import { LieuResolvedBackground } from "../../../components/LieuResolvedBackground";
 
 export default function PreVoyagesPage() {
   return (
@@ -19,25 +20,29 @@ export default function PreVoyagesPage() {
         Laissez-vous tenter
       </h1>
       <p className="mb-10 font-courier text-sm text-[#333333]/70">
-        Des itinéraires prêts à l&apos;emploi, avec durée et région. Cliquez pour
-        choisir le nombre de jours.
+        Aperçu des voyages préfaits. Pour lancer un nouveau parcours, passe par l&apos;accueil (section
+        Planifier).
       </p>
 
       <div className="space-y-6">
         {VOYAGES_PREFAITS.map((v) => (
           <Link
             key={v.id}
-            href={`/voyage/nouveau?prevoyage=${v.id}`}
+            href="/accueil#on-repart"
             className="block overflow-hidden rounded-xl border border-[#E07856]/20 bg-white transition-all duration-300 hover:scale-[1.01] hover:border-[#E07856]/40 hover:shadow-lg"
           >
-            <div
-              className="aspect-video bg-cover bg-center"
-              style={{
-                backgroundImage: v.steps[0]?.contenu_voyage?.photos?.[0]
-                  ? `url(${v.steps[0].contenu_voyage.photos[0]})`
-                  : "linear-gradient(135deg, #E07856 0%, #D4635B 100%)",
-              }}
-            />
+            {v.steps[0] ? (
+              <LieuResolvedBackground
+                ville={v.steps[0].nom}
+                stepId={v.steps[0].id}
+                className="aspect-video"
+              />
+            ) : (
+              <div
+                className="aspect-video bg-gradient-to-br from-[#E07856] to-[#D4635B]"
+                aria-hidden
+              />
+            )}
             <div className="p-6">
               <h2 className="font-courier text-xl font-bold text-[#333333]">
                 {v.titre}

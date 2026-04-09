@@ -2,8 +2,10 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { Map, BookOpen, Calendar } from "lucide-react";
-import type { VoyageStateResponse } from "../../api/voyage-state/route";
+import { BookOpen, Calendar } from "lucide-react";
+import type { VoyageStateResponse } from "@/types/voyage-state";
+import type { Voyage } from "../../../data/mock-voyages";
+import VoyageCoverThumb from "../../../components/VoyageCoverThumb";
 
 function formatDate(iso: string) {
   return new Date(iso).toLocaleDateString("fr-FR", {
@@ -41,6 +43,7 @@ export default function MesVoyagesPage() {
     sousTitre: string;
     href: string;
     type: "prevu" | "en_cours" | "termine";
+    voyage: Voyage;
   }> = [];
 
   if (state?.voyagePrevu) {
@@ -50,6 +53,7 @@ export default function MesVoyagesPage() {
       sousTitre: state.voyagePrevu.sousTitre,
       href: `/voyage/${state.voyagePrevu.id}/prevu`,
       type: "prevu",
+      voyage: state.voyagePrevu,
     });
   }
   if (state?.voyageEnCours) {
@@ -59,6 +63,7 @@ export default function MesVoyagesPage() {
       sousTitre: state.voyageEnCours.sousTitre,
       href: `/voyage/${state.voyageEnCours.id}/en-cours`,
       type: "en_cours",
+      voyage: state.voyageEnCours,
     });
   }
   if (state?.voyagesTermines?.length) {
@@ -69,6 +74,7 @@ export default function MesVoyagesPage() {
         sousTitre: v.sousTitre,
         href: `/voyage/${v.id}/termine`,
         type: "termine",
+        voyage: v,
       });
     });
   }
@@ -95,7 +101,7 @@ export default function MesVoyagesPage() {
             Tu n&apos;as pas encore de voyage.
           </p>
           <Link
-            href="/voyage/nouveau"
+            href="/accueil#on-repart"
             className="btn-terracotta mt-4 inline-flex items-center gap-2 rounded-[50px] border-2 border-[#E07856] bg-gradient-to-r from-[#E07856] to-[#D4635B] px-6 py-3 font-courier font-bold text-white shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-[#E07856]/50"
           >
             Créer un voyage
@@ -109,9 +115,7 @@ export default function MesVoyagesPage() {
                 href={v.href}
                 className="flex items-center gap-4 rounded-xl border border-[#E07856]/20 bg-white/80 p-4 font-courier transition-all duration-300 hover:scale-[1.01] hover:border-[#E07856]/40 hover:shadow-lg"
               >
-                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-[#E07856]/15">
-                  <Map className="h-6 w-6 text-[#E07856]" />
-                </div>
+                <VoyageCoverThumb voyage={v.voyage} />
                 <div className="min-w-0 flex-1">
                   <span className="font-courier text-xs font-bold text-[#E07856]">
                     {typeLabels[v.type]}
@@ -130,7 +134,7 @@ export default function MesVoyagesPage() {
 
       <div className="mt-10">
         <Link
-          href="/voyage/nouveau"
+          href="/accueil#on-repart"
           className="btn-terracotta inline-flex items-center gap-2 rounded-[50px] border-2 border-[#E07856] bg-gradient-to-r from-[#E07856] to-[#D4635B] px-6 py-3 font-courier font-bold text-white shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-[#E07856]/50"
         >
           Créer un nouveau voyage

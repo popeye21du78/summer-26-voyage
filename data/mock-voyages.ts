@@ -258,7 +258,7 @@ function dateFromToday(offsetDays: number): string {
 }
 
 /** Voyages préfaits (inspiration) */
-export const VOYAGES_PREFAITS: Omit<Voyage, "dateDebut">[] = [
+export const VOYAGES_PREFAITS: Voyage[] = [
   {
     id: "provence-5j",
     titre: "Provence en 5 jours",
@@ -310,6 +310,10 @@ export const VOYAGES_PREFAITS: Omit<Voyage, "dateDebut">[] = [
     stats: { km: 120, essence: 20, budget: 350 },
   },
 ];
+
+/** Étapes du 1er voyage préfait (hero accueil) — référence stable pour /api/photo-lieu-batch. */
+export const HERO_ACCUEIL_STEP_REFS: { id: string; nom: string }[] =
+  VOYAGES_PREFAITS[0]?.steps.map((s) => ({ id: s.id, nom: s.nom })) ?? [];
 
 const TEMPLATE_MAP: Record<string, typeof PROVENCE_TEMPLATE> = {
   "provence-5j": PROVENCE_TEMPLATE,

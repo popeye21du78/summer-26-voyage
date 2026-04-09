@@ -62,7 +62,13 @@ export default async function VillePage({ params, searchParams }: Props) {
   const { slug } = await params;
   const sp = searchParams ? await searchParams : {};
   const fromVoyage = sp?.from === "voyage";
-  const backHref = fromVoyage ? "/voyage/nouveau" : "/carte-villes";
+  const vRaw = sp?.v;
+  const voyagePrevuSlug =
+    typeof vRaw === "string" && /^[a-zA-Z0-9_-]+$/.test(vRaw) ? vRaw : null;
+  const backVoyageCarte = voyagePrevuSlug
+    ? `/voyage/${voyagePrevuSlug}/prevu#carte-voyage`
+    : null;
+  const backHref = backVoyageCarte ?? (fromVoyage ? "/accueil#on-repart" : "/carte-villes");
 
   // 1) Vérifier si description existe (lieu depuis carte-villes)
   const description = getDescriptionForSlug(slug);
@@ -75,17 +81,19 @@ export default async function VillePage({ params, searchParams }: Props) {
     const photoSlots = getPhotoSlotsFromDescription(description);
 
     return (
-      <div className="px-4 py-8">
-        <Suspense fallback={<div className="mx-auto max-w-2xl animate-pulse rounded-lg bg-[#FFF2EB]/50 p-8" />}>
-          <VilleDescriptionClient
-            slug={slug}
-            nom={nom}
-            description={description}
-            hasPhotosFolder={hasPhotosFolder}
-            photoSlots={photoSlots}
-          />
-        </Suspense>
-      </div>
+      <Suspense
+        fallback={
+          <div className="mx-auto min-h-[40vh] max-w-2xl animate-pulse rounded-lg bg-[#FFF2EB]/50 p-8" />
+        }
+      >
+        <VilleDescriptionClient
+          slug={slug}
+          nom={nom}
+          description={description}
+          hasPhotosFolder={hasPhotosFolder}
+          photoSlots={photoSlots}
+        />
+      </Suspense>
     );
   }
 
@@ -109,12 +117,12 @@ export default async function VillePage({ params, searchParams }: Props) {
 
     return (
       <main className="mx-auto max-w-3xl px-4 py-12">
-        <a
-          href="/#carte"
-          className="mb-6 inline-flex items-center gap-2 text-sm text-[#A55734] transition-colors hover:text-[#8b4728]"
+        <Link
+          href={backVoyageCarte ?? "/accueil"}
+          className="mb-6 inline-flex items-center gap-2 text-sm font-medium text-slate-600 transition-colors hover:text-slate-900"
         >
-          ← Retour à la carte
-        </a>
+          ← {backVoyageCarte ? "Retour au voyage" : "Retour"}
+        </Link>
         <h1 className="mb-4 text-4xl font-light text-[#333333]">{step.nom}</h1>
         <p className="mb-6 text-[#333333]/70">
           {step.date_prevue} • Budget prévu : {step.budget_prevu} €

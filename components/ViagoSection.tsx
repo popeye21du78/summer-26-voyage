@@ -10,6 +10,7 @@ import {
   saveViagoStepContent,
   type ViagoStepContent,
 } from "../lib/viago-storage";
+import { LieuResolvedBackground } from "./LieuResolvedBackground";
 
 type Props = {
   step: Step;
@@ -43,11 +44,10 @@ export default function ViagoSection({ step, voyageId, index, readOnly = false, 
     setAnecdoteDraft(step.contenu_voyage?.anecdote ?? "");
   }, [voyageId, step.id, step.contenu_voyage?.anecdote]);
 
-  const photos = [
-    ...(step.contenu_voyage?.photos ?? []),
-    ...(content?.photos ?? []),
-  ].filter(Boolean);
+  const userAddedPhotos = (content?.photos ?? []).filter(Boolean);
   const anecdote = content?.anecdote ?? step.contenu_voyage?.anecdote ?? "";
+  const heroPreferUrl =
+    userAddedPhotos.length > 0 ? userAddedPhotos[userAddedPhotos.length - 1]! : null;
 
   const handleSaveAnecdote = () => {
     const text = anecdoteDraft.trim();
@@ -72,11 +72,8 @@ export default function ViagoSection({ step, voyageId, index, readOnly = false, 
     setShowAddPhoto(false);
   };
 
-  const basePhotoCount = step.contenu_voyage?.photos?.length ?? 0;
-  const handleRemovePhoto = (idx: number) => {
-    if (idx < basePhotoCount) return; // ne pas supprimer les photos de base
-    const customPhotos = content?.photos ?? [];
-    const newPhotos = customPhotos.filter((_, i) => i !== idx - basePhotoCount);
+  const handleRemoveUserPhoto = (idx: number) => {
+    const newPhotos = (content?.photos ?? []).filter((_, i) => i !== idx);
     saveViagoStepContent(voyageId, step.id, {
       anecdote: content?.anecdote ?? "",
       photos: newPhotos,
@@ -85,6 +82,12 @@ export default function ViagoSection({ step, voyageId, index, readOnly = false, 
   };
 
   const isDark = variant === "dark";
+  const titleGradientStyle = {
+    background: "linear-gradient(to right, #E07856, #D4635B, #CD853F)",
+    WebkitBackgroundClip: "text",
+    backgroundClip: "text",
+    color: "transparent",
+  } as const;
 
   return (
     <section
@@ -92,53 +95,67 @@ export default function ViagoSection({ step, voyageId, index, readOnly = false, 
       ref={ref}
       className="relative scroll-mt-20"
     >
-      {/* Hero : full-width, style site voiture */}
       <motion.div
-        initial={{ opacity: 0, y: 40 }}
+        initial={{ opacity: 0, y: 28 }}
         animate={isInView ? { opacity: 1, y: 0 } : {}}
-        transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-        className="relative"
+        transition={{ duration: 0.65, ease: [0.22, 1, 0.36, 1] }}
+        className="flex min-h-0 flex-col overflow-hidden md:min-h-[min(72vh,640px)] md:flex-row"
       >
+        {/* Colonne texte */}
         <div
-          className="aspect-[21/9] min-h-[320px] bg-cover bg-center md:min-h-[400px]"
-          style={{
-            backgroundImage: photos[0]
-              ? `url(${photos[0]})`
-              : "linear-gradient(135deg, #5D3A1A 0%, #8B4513 50%, #A0522D 100%)",
-          }}
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0d0d0d] via-[#0d0d0d]/30 to-transparent" />
-        <div className="absolute inset-0 bg-[#E07856]/15" />
-        <div className="absolute bottom-0 left-0 right-0 p-6 md:p-12">
-          <span className="font-courier text-xs font-bold uppercase tracking-[0.3em] text-[#E07856]">
+          className={`order-2 flex flex-1 flex-col justify-center px-5 py-10 md:order-1 md:max-w-[55%] md:px-12 md:py-14 ${
+            isDark
+              ? "bg-gradient-to-b from-[#141414] to-[#0d0d0d]"
+              : "bg-gradient-to-b from-[#FFF8F0] via-[#FFFBF7] to-[#FAF4F0]"
+          }`}
+        >
+          <span className="font-courier text-[10px] font-bold uppercase tracking-[0.35em] text-[#E07856]">
             ÉTAPE {index + 1}
           </span>
-          <h2 className="mt-2 font-courier text-4xl font-bold tracking-wider text-white drop-shadow-2xl md:text-6xl">
+          <h2
+            className="mt-3 font-courier text-4xl font-bold tracking-wider md:text-5xl"
+            style={titleGradientStyle}
+          >
             {step.nom}
           </h2>
-          <p className="mt-2 font-courier text-sm font-bold text-white/90">
+          <p
+            className={`mt-2 font-courier text-sm font-bold md:text-base ${
+              isDark ? "text-white/85" : "text-[#333]/80"
+            }`}
+          >
             {formatDate(step.date_prevue)}
           </p>
         </div>
+
+        {/* Photo à droite (mobile : au-dessus), fondu vers le texte */}
+        <div className="relative order-1 min-h-[280px] w-full flex-1 md:order-2 md:min-h-full md:w-[45%]">
+          <LieuResolvedBackground
+            ville={step.nom}
+            stepId={step.id}
+            preferUrl={heroPreferUrl}
+            className="absolute inset-0"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/20 to-black/50 md:bg-gradient-to-l md:from-transparent md:via-black/10 md:to-[#0d0d0d]/85" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#0d0d0d] via-transparent to-transparent opacity-90 md:opacity-100" />
+        </div>
       </motion.div>
 
-      {/* Zone contenu éditable */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={isInView ? { opacity: 1, y: 0 } : {}}
-        transition={{ duration: 0.5, delay: 0.2 }}
-        className={`relative -mt-12 mx-4 rounded-2xl border p-6 shadow-2xl md:mx-auto md:max-w-3xl md:p-10 ${
+        transition={{ duration: 0.5, delay: 0.15 }}
+        className={`relative z-10 mx-4 -mt-6 rounded-2xl border p-6 shadow-2xl md:mx-auto md:max-w-3xl md:p-10 ${
           isDark
-            ? "border-[#E07856]/30 bg-[#1a1a1a]"
-            : "border-[#A55734]/20 bg-[#FAF4F0]"
+            ? "border-[#E07856]/35 bg-[#1a1a1a]/95"
+            : "border-[#E07856]/25 bg-gradient-to-br from-white to-[#FFF8F0]/90"
         }`}
       >
         {/* Galerie photos — style polaroid décalé */}
-        {photos.length > 0 && (
+        {userAddedPhotos.length > 0 && (
           <div className="mb-8 flex flex-wrap gap-4">
-            {photos.map((src, i) => (
+            {userAddedPhotos.map((src, i) => (
               <motion.div
-                key={i}
+                key={`${src}-${i}`}
                 initial={{ opacity: 0, rotate: -2 }}
                 animate={isInView ? { opacity: 1, rotate: i % 2 === 0 ? -1 : 1 } : {}}
                 transition={{ delay: 0.3 + i * 0.05 }}
@@ -156,10 +173,10 @@ export default function ViagoSection({ step, voyageId, index, readOnly = false, 
                     />
                   </div>
                 </div>
-                {!readOnly && i >= basePhotoCount && (
+                {!readOnly && (
                   <button
                     type="button"
-                    onClick={() => handleRemovePhoto(i)}
+                    onClick={() => handleRemoveUserPhoto(i)}
                     className="absolute -right-2 -top-2 flex h-7 w-7 items-center justify-center rounded-full bg-red-500 text-white opacity-0 transition group-hover:opacity-100"
                     aria-label="Supprimer la photo"
                   >
@@ -177,7 +194,7 @@ export default function ViagoSection({ step, voyageId, index, readOnly = false, 
             <button
               type="button"
               onClick={() => setShowAddPhoto(true)}
-              className="btn-terracotta inline-flex items-center gap-2 rounded-full border-2 border-dashed border-[#A55734]/50 bg-white px-4 py-2 font-courier text-sm font-bold text-[#A55734] transition-all duration-300 hover:scale-105 hover:border-[#A55734] hover:bg-[#FFF2EB]/50"
+              className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-[#E07856] to-[#D4635B] px-5 py-2.5 font-courier text-sm font-bold text-white shadow-lg transition hover:scale-[1.02] hover:shadow-[#E07856]/50"
             >
               <Image className="h-4 w-4" />
               Ajouter une photo
@@ -188,7 +205,7 @@ export default function ViagoSection({ step, voyageId, index, readOnly = false, 
                 setShowAddAnecdote(true);
                 setAnecdoteDraft(anecdote);
               }}
-              className="btn-terracotta inline-flex items-center gap-2 rounded-full border-2 border-dashed border-[#A55734]/50 bg-white px-4 py-2 font-courier text-sm font-bold text-[#A55734] transition-all duration-300 hover:scale-105 hover:border-[#A55734] hover:bg-[#FFF2EB]/50"
+              className="inline-flex items-center gap-2 rounded-full border-2 border-[#E07856]/50 bg-white px-5 py-2.5 font-courier text-sm font-bold text-[#A55734] shadow-sm transition hover:scale-[1.02] hover:border-[#E07856] hover:bg-[#FFF8F0]"
             >
               <FileText className="h-4 w-4" />
               {anecdote ? "Modifier l'anecdote" : "Ajouter une anecdote"}

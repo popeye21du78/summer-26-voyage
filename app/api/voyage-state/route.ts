@@ -3,34 +3,12 @@ import { cookies } from "next/headers";
 import {
   getVoyageForProfile,
   getStepsOfDay,
-  type EtatVoyage,
 } from "../../../data/mock-voyages";
-import type { Voyage } from "../../../data/mock-voyages";
+import type { VoyageStateResponse } from "@/types/voyage-state";
 
 const FIRST_LOGIN_COOKIE = "voyage_first_login_date";
 
-export interface VoyageStateResponse {
-  profileId: string;
-  etat: EtatVoyage;
-  voyageEnCours?: Voyage;
-  voyagePrevu?: Voyage;
-  voyagesTermines?: Voyage[];
-  jourActuel?: number;
-  joursRestants?: number;
-  /** Jours depuis la fin du dernier voyage (pour Léa, Thomas) */
-  joursDepuisFinDernierVoyage?: number;
-  /** Première connexion du jour (voyage en cours) → afficher full page journée */
-  premiereConnexionDuJour?: boolean;
-  /** Steps du jour (pour la page "journée du jour") */
-  stepsDuJour?: Array<{
-    id: string;
-    nom: string;
-    lat: number;
-    lng: number;
-    description: string;
-    dureeConseillee?: string;
-  }>;
-}
+export type { VoyageStateResponse };
 
 export async function GET() {
   try {

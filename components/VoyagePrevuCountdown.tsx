@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { ChevronDown } from "lucide-react";
 import type { Voyage } from "../data/mock-voyages";
-import HeroPhotoStrip from "./HeroPhotoStrip";
+import HeroPhotoStripResolved from "./HeroPhotoStripResolved";
 
 type Props = {
   voyage: Voyage;
@@ -43,13 +43,11 @@ export default function VoyagePrevuCountdown({ voyage, joursRestants }: Props) {
     return () => clearInterval(id);
   }, [voyage.dateDebut]);
 
-  const photos = voyage.steps.flatMap((s) =>
-    (s.contenu_voyage?.photos ?? []).map((url) => ({ url, nom: s.nom }))
-  );
+  const heroSteps = voyage.steps.map((s) => ({ id: s.id, nom: s.nom }));
 
   return (
     <section className="relative flex min-h-screen flex-col overflow-hidden">
-      <HeroPhotoStrip photos={photos} />
+      <HeroPhotoStripResolved steps={heroSteps} />
 
       {/* Contenu centré — au-dessus des photos */}
       <div className="relative z-20 flex flex-1 flex-col items-center justify-center px-4 pt-16">

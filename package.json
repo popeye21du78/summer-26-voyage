@@ -9,6 +9,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "build:poi-sectors": "tsx scripts/build-inspiration-poi-sectors.ts",
     "batch-photos": "tsx scripts/fetch-commons-photos-batch.ts",
     "batch-photos:bg": "powershell -ExecutionPolicy Bypass -File scripts/start-photos-batch-background.ps1"
   },
@@ -37,6 +38,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
+    "polygon-clipping": "^0.15.7",
     "tailwindcss": "^4",
     "tsx": "^4.21.0",
     "typescript": "^5"

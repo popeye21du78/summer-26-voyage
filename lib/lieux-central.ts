@@ -7,18 +7,10 @@ import * as XLSX from "xlsx";
 import path from "path";
 import fs from "fs";
 import type { LieuPoint, LieuType } from "./lieux-types";
+import { slugFromNom } from "./slug-from-nom";
 
 const CITIES_DIR = path.join(process.cwd(), "data", "cities");
 const XLSX_PATH = path.join(CITIES_DIR, "lieux-central.xlsx");
-
-function slugFromNom(nom: string): string {
-  return nom
-    .toLowerCase()
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .replace(/\s+/g, "-")
-    .replace(/[^a-z0-9-]/g, "");
-}
 
 function toNum(v: unknown): number | null {
   if (typeof v === "number" && !Number.isNaN(v)) return v;
