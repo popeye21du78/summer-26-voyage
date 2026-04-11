@@ -62,13 +62,16 @@ export default async function VillePage({ params, searchParams }: Props) {
   const { slug } = await params;
   const sp = searchParams ? await searchParams : {};
   const fromVoyage = sp?.from === "voyage";
+  const fromInspiration = sp?.from === "inspiration";
   const vRaw = sp?.v;
   const voyagePrevuSlug =
     typeof vRaw === "string" && /^[a-zA-Z0-9_-]+$/.test(vRaw) ? vRaw : null;
   const backVoyageCarte = voyagePrevuSlug
     ? `/voyage/${voyagePrevuSlug}/prevu#carte-voyage`
     : null;
-  const backHref = backVoyageCarte ?? (fromVoyage ? "/accueil#on-repart" : "/carte-villes");
+  const backHref =
+    backVoyageCarte ??
+    (fromVoyage ? "/accueil#on-repart" : fromInspiration ? "/planifier/inspiration" : "/carte-villes");
 
   // 1) Vérifier si description existe (lieu depuis carte-villes)
   const description = getDescriptionForSlug(slug);

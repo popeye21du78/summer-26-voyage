@@ -1,6 +1,13 @@
 const STORAGE_KEY = "planifier-favorites-v1";
 
-export type FavoriteKind = "territory" | "place" | "route_idea";
+export type FavoriteKind =
+  | "territory"
+  | "place"
+  | "route_idea"
+  /** Région carte inspiration (id MAP_REGIONS). */
+  | "map_region"
+  /** Itinéraire star (id content star-itineraries). */
+  | "star_itinerary";
 
 /** inspiration = simple envie ; soft = intégrer si possible ; hard = indispensable */
 export type FavoriteStatus = "inspiration" | "soft" | "hard";

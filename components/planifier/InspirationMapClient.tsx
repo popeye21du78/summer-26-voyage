@@ -1,12 +1,20 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import {
+  forwardRef,
+  useCallback,
+  useEffect,
+  useImperativeHandle,
+  useMemo,
+  useRef,
+  useState,
+} from "react";
 import dynamic from "next/dynamic";
-import Link from "next/link";
-import type { FeatureCollection } from "geojson";
+import type { Feature, FeatureCollection } from "geojson";
 import type { MapRef } from "react-map-gl/mapbox";
-import type { Map as MapboxMap, MapLayerMouseEvent } from "mapbox-gl";
+import type { Map as MapboxMap, MapMouseEvent } from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
+import * as turf from "@turf/turf";
 import type { TerritoriesFeatureCollection } from "@/lib/editorial-territories";
 import { stripInspirationBasemapClutter } from "@/lib/mapbox-strip-inspiration-basemap";
 import { VOYAGE_UI } from "@/lib/voyage-map-palette";
@@ -14,7 +22,7 @@ import { VOYAGE_UI } from "@/lib/voyage-map-palette";
 const Map = dynamic(() => import("react-map-gl/mapbox").then((m) => m.default), {
   ssr: false,
   loading: () => (
-    <div className="flex h-full min-h-[320px] items-center justify-center rounded-lg bg-[#FFF2EB]/50 font-courier text-sm text-[#333]/60">
+    <div className="flex h-full min-h-[240px] items-center justify-center bg-[#FFF2EB]/40 font-courier text-sm text-[#333]/60">
       Chargement carte…
     </div>
   ),
@@ -25,17 +33,14 @@ const Source = dynamic(() => import("react-map-gl/mapbox").then((m) => m.Source)
 const Layer = dynamic(() => import("react-map-gl/mapbox").then((m) => m.Layer), {
   ssr: false,
 });
-const Popup = dynamic(() => import("react-map-gl/mapbox").then((m) => m.Popup), {
-  ssr: false,
-});
 
-const FILL_LAYER_ID = "insp-territories-fill";
-const LINE_LAYER_ID = "insp-territories-outline";
+export const FILL_LAYER_ID = "insp-territories-fill";
+export const LINE_LAYER_ID = "insp-territories-outline";
+export const POI_LAYER_ID = "insp-territory-points";
+export const VILLE_LAYER_ID = "insp-ville-points";
+export const STAR_LINE_LAYER_ID = "insp-star-lines";
 
-/** Fond beige / sobre ; routes et labels sont masqués au chargement (voir strip). */
 const MAP_STYLE = "mapbox://styles/mapbox/light-v11";
-
-const PROTECTED_LAYERS = [FILL_LAYER_ID, LINE_LAYER_ID] as const;
 
 const FRANCE_BOUNDS: [[number, number], [number, number]] = [
   [-5.5, 41],
@@ -44,214 +49,422 @@ const FRANCE_BOUNDS: [[number, number], [number, number]] = [
 
 const DEFAULT_VIEW = { longitude: 2.5, latitude: 46.5, zoom: 5.2 };
 
-type PopupState = { lng: number; lat: number; id: string; name: string };
+function allInteractiveLayerIds(): string[] {
+  return [
+    FILL_LAYER_ID,
+    LINE_LAYER_ID,
+    POI_LAYER_ID,
+    VILLE_LAYER_ID,
+    STAR_LINE_LAYER_ID,
+  ];
+}
+
+export type FitBoundsOptions = {
+  /** Après passage carte plein écran → split : forcer resize avant le zoom (évite la coupure). */
+  afterLayout?: boolean;
+  duration?: number;
+};
+
+export type InspirationMapExpose = {
+  fitBounds: (bbox: [number, number, number, number], options?: FitBoundsOptions) => void;
+  fitFranceOverview: () => void;
+  flyTo: (lng: number, lat: number, zoom?: number) => void;
+};
 
 type InspirationMapClientProps = {
   data: TerritoriesFeatureCollection | null;
-  /** Contours régionaux (LineString / MultiLineString), générés au build. */
   outlineData: FeatureCollection | null;
   mapboxAccessToken: string;
-  selectedId: string | null;
-  onSelectTerritory: (id: string) => void;
+  selectedRegionId: string | null;
+  dimOtherRegions: boolean;
+  territoryPoints: FeatureCollection | null;
+  territoryPointCount?: number;
+  showTerritoryPoints: boolean;
+  villePoints: FeatureCollection | null;
+  villePointCount?: number;
+  showVillePoints: boolean;
+  starLineFeatures: FeatureCollection | null;
+  showStarLines: boolean;
+  onSelectRegion: (id: string) => void;
+  onTerritoryPointClick?: (territoryId: string) => void;
+  onVilleClick?: (slug: string) => void;
+  /** Clic sur la carte sans feature (eau / vide / hors couche). */
+  onMapBackgroundClick?: () => void;
+  onMapReady?: () => void;
+  /** Zoom courant (région / densité des POI). */
+  onZoomChange?: (zoom: number) => void;
   loading?: boolean;
   loadError?: boolean;
 };
 
-export default function InspirationMapClient({
-  data,
-  outlineData,
-  mapboxAccessToken,
-  selectedId,
-  onSelectTerritory,
-  loading = false,
-  loadError = false,
-}: InspirationMapClientProps) {
-  const mapRef = useRef<MapRef>(null);
-  const onSelectRef = useRef(onSelectTerritory);
-  onSelectRef.current = onSelectTerritory;
+const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClientProps>(
+  function InspirationMapClient(
+    {
+      data,
+      outlineData,
+      mapboxAccessToken,
+      selectedRegionId,
+      dimOtherRegions,
+      territoryPoints,
+      territoryPointCount = 0,
+      showTerritoryPoints,
+      villePoints,
+      villePointCount = 0,
+      showVillePoints,
+      starLineFeatures,
+      showStarLines,
+      onSelectRegion,
+      onTerritoryPointClick,
+      onVilleClick,
+      onMapBackgroundClick,
+      onMapReady,
+      onZoomChange,
+      loading = false,
+      loadError = false,
+    },
+    ref
+  ) {
+    const mapRef = useRef<MapRef>(null);
+    const onRegionRef = useRef(onSelectRegion);
+    onRegionRef.current = onSelectRegion;
+    const onPoiRef = useRef(onTerritoryPointClick);
+    onPoiRef.current = onTerritoryPointClick;
+    const onVilleRef = useRef(onVilleClick);
+    onVilleRef.current = onVilleClick;
+    const onBgRef = useRef(onMapBackgroundClick);
+    onBgRef.current = onMapBackgroundClick;
+    const onZoomRef = useRef(onZoomChange);
+    onZoomRef.current = onZoomChange;
 
-  const [mapInstance, setMapInstance] = useState<MapboxMap | null>(null);
-  const [popup, setPopup] = useState<PopupState | null>(null);
+    const [mapInstance, setMapInstance] = useState<MapboxMap | null>(null);
 
-  const none = "__none__";
-  const sel = selectedId ?? none;
+    const none = "__none__";
+    const sel = selectedRegionId ?? none;
 
-  const applyBasemapStrip = useCallback((map: MapboxMap) => {
-    stripInspirationBasemapClutter(map, [...PROTECTED_LAYERS]);
-  }, []);
+    /** Centroid longitude pour dégradé ouest → est (remplissages). */
+    const regionsDataAugmented = useMemo(() => {
+      if (!data?.features?.length) return null;
+      return {
+        ...data,
+        features: data.features.map((f) => {
+          try {
+            const c = turf.centroid(f as Feature);
+            const coords = c.geometry.type === "Point" ? c.geometry.coordinates : null;
+            const lng = coords != null && coords.length >= 2 ? coords[0] : NaN;
+            return {
+              ...f,
+              properties: {
+                ...f.properties,
+                center_lng: Number.isFinite(lng) ? lng : 2.5,
+              },
+            };
+          } catch {
+            return {
+              ...f,
+              properties: { ...f.properties, center_lng: 2.5 },
+            };
+          }
+        }),
+      } as TerritoriesFeatureCollection;
+    }, [data]);
 
-  const fillPaint = useMemo(
-    () =>
-      ({
-        "fill-color": ["coalesce", ["get", "color"], VOYAGE_UI.coral],
-        "fill-opacity": [
-          "case",
-          ["==", ["get", "id"], sel],
-          0.4,
-          0.26,
-        ],
-      }) as Record<string, unknown>,
-    [sel]
-  );
+    const applyBasemapStrip = useCallback((map: MapboxMap) => {
+      stripInspirationBasemapClutter(map, allInteractiveLayerIds());
+    }, []);
 
-  const linePaint = useMemo(
-    () =>
-      ({
-        "line-color": [
-          "case",
-          ["==", ["get", "id"], sel],
-          VOYAGE_UI.terracotta,
-          ["coalesce", ["get", "borderColor"], VOYAGE_UI.coral],
-        ],
-        "line-width": [
-          "case",
-          ["==", ["get", "id"], sel],
-          5,
-          3.5,
-        ],
-        "line-opacity": 0.95,
-        "line-blur": 0.2,
-      }) as Record<string, unknown>,
-    [sel]
-  );
+    /** Remplissages : vague corail / sable selon la longitude (comme un dégradé est→ouest). */
+    const fillPaint = useMemo(
+      () =>
+        ({
+          "fill-color": [
+            "interpolate",
+            ["linear"],
+            ["get", "center_lng"],
+            -5.5,
+            "#E8B090",
+            0,
+            "#E07856",
+            4,
+            "#E8906E",
+            9.5,
+            "#D4A574",
+          ],
+          "fill-opacity": dimOtherRegions
+            ? [
+                "case",
+                ["==", ["get", "id"], sel],
+                0.44,
+                0.14,
+              ]
+            : [
+                "case",
+                ["==", ["get", "id"], sel],
+                0.4,
+                0.26,
+              ],
+        }) as Record<string, unknown>,
+      [sel, dimOtherRegions]
+    );
 
-  useEffect(() => {
-    if (!data) setMapInstance(null);
-  }, [data]);
+    /** Toutes les frontières région : même couleur terracotta (lisibilité + cohérence). */
+    const linePaint = useMemo(
+      () =>
+        ({
+          "line-color": VOYAGE_UI.terracotta,
+          "line-width": [
+            "case",
+            ["==", ["get", "id"], sel],
+            5,
+            3,
+          ],
+          "line-opacity": 0.94,
+          "line-blur": 0.12,
+        }) as Record<string, unknown>,
+      [sel]
+    );
 
-  useEffect(() => {
-    if (!data || !mapInstance) return;
+    const starLinePaint = useMemo(
+      () =>
+        ({
+          "line-color": VOYAGE_UI.terracotta,
+          "line-width": ["case", ["==", ["get", "hl"], 1], 5, 2.2],
+          "line-opacity": 0.88,
+        }) as Record<string, unknown>,
+      []
+    );
 
-    const onClick = (e: MapLayerMouseEvent) => {
-      const f = e.features?.[0];
-      const props = f?.properties as Record<string, unknown> | undefined;
-      const id = props?.id;
-      if (typeof id !== "string") return;
-      onSelectRef.current(id);
-      setPopup({
-        lng: e.lngLat.lng,
-        lat: e.lngLat.lat,
-        id,
-        name: String(props?.name ?? id),
+    useImperativeHandle(
+      ref,
+      () => ({
+        fitBounds: (bbox, options) => {
+          const map = mapRef.current?.getMap();
+          if (!map) return;
+          const duration = options?.duration ?? 950;
+          const padding = { top: 40, bottom: 40, left: 44, right: 44 };
+          const bounds: [[number, number], [number, number]] = [
+            [bbox[0], bbox[1]],
+            [bbox[2], bbox[3]],
+          ];
+          const runFit = () => {
+            map.fitBounds(bounds, {
+              padding,
+              duration,
+              maxZoom: 8.4,
+              essential: true,
+            });
+          };
+          if (options?.afterLayout) {
+            map.resize();
+            requestAnimationFrame(() => {
+              requestAnimationFrame(() => {
+                map.resize();
+                // La grille split vient de changer : un court délai évite un fitBounds sur mauvaises dimensions.
+                window.setTimeout(() => {
+                  map.resize();
+                  runFit();
+                }, 72);
+              });
+            });
+          } else {
+            map.resize();
+            runFit();
+          }
+        },
+        fitFranceOverview: () => {
+          const map = mapRef.current?.getMap();
+          if (!map) return;
+          map.fitBounds(FRANCE_BOUNDS, { padding: 48, duration: 900, maxZoom: 6 });
+        },
+        flyTo: (lng, lat, zoom = 8) => {
+          const map = mapRef.current?.getMap();
+          if (!map) return;
+          map.easeTo({ center: [lng, lat], zoom, duration: 900 });
+        },
+      }),
+      []
+    );
+
+    useEffect(() => {
+      if (!regionsDataAugmented) setMapInstance(null);
+    }, [regionsDataAugmented]);
+
+    useEffect(() => {
+      if (!regionsDataAugmented || !mapInstance) return;
+
+      const layersPresent = (): string[] =>
+        allInteractiveLayerIds().filter((id) => {
+          try {
+            return !!mapInstance.getLayer(id);
+          } catch {
+            return false;
+          }
+        });
+
+      const onMapClick = (e: MapMouseEvent) => {
+        const layers = layersPresent();
+        if (layers.length === 0) return;
+        const feats = mapInstance.queryRenderedFeatures(e.point, { layers });
+        if (feats.length === 0) {
+          onBgRef.current?.();
+          return;
+        }
+        const topF = feats[0];
+        const lid = topF.layer?.id;
+        const props = topF.properties as Record<string, unknown> | null;
+        if (!props) return;
+        if (lid === FILL_LAYER_ID && typeof props.id === "string") {
+          onRegionRef.current(props.id);
+          return;
+        }
+        if (lid === POI_LAYER_ID && typeof props.id === "string") {
+          onPoiRef.current?.(props.id);
+          return;
+        }
+        if (lid === VILLE_LAYER_ID && typeof props.id === "string") {
+          onVilleRef.current?.(props.id);
+        }
+      };
+
+      const onMouseMove = (e: MapMouseEvent) => {
+        const layers = layersPresent();
+        if (!layers.length) return;
+        const feats = mapInstance.queryRenderedFeatures(e.point, { layers });
+        mapInstance.getCanvas().style.cursor = feats.length > 0 ? "pointer" : "";
+      };
+
+      mapInstance.on("click", onMapClick);
+      mapInstance.on("mousemove", onMouseMove);
+      return () => {
+        mapInstance.off("click", onMapClick);
+        mapInstance.off("mousemove", onMouseMove);
+      };
+    }, [
+      regionsDataAugmented,
+      mapInstance,
+      showTerritoryPoints,
+      territoryPointCount,
+      showVillePoints,
+      villePointCount,
+      showStarLines,
+    ]);
+
+    useEffect(() => {
+      if (!mapInstance) return;
+      const run = () => applyBasemapStrip(mapInstance);
+      mapInstance.on("styledata", run);
+      mapInstance.once("idle", run);
+      run();
+      return () => {
+        mapInstance.off("styledata", run);
+      };
+    }, [mapInstance, applyBasemapStrip]);
+
+    const containerRef = useRef<HTMLDivElement>(null);
+    useEffect(() => {
+      if (!mapInstance || !containerRef.current) return;
+      const el = containerRef.current;
+      const ro = new ResizeObserver(() => {
+        mapInstance.resize();
       });
-    };
-    const onEnter = () => {
-      mapInstance.getCanvas().style.cursor = "pointer";
-    };
-    const onLeave = () => {
-      mapInstance.getCanvas().style.cursor = "";
-    };
+      ro.observe(el);
+      return () => ro.disconnect();
+    }, [mapInstance]);
 
-    let attached = false;
-    const tryAttach = () => {
-      if (attached || !mapInstance.getLayer(FILL_LAYER_ID)) return;
-      attached = true;
-      mapInstance.on("click", FILL_LAYER_ID, onClick);
-      mapInstance.on("mouseenter", FILL_LAYER_ID, onEnter);
-      mapInstance.on("mouseleave", FILL_LAYER_ID, onLeave);
-    };
-
-    mapInstance.on("idle", tryAttach);
-    tryAttach();
-
-    return () => {
-      mapInstance.off("idle", tryAttach);
-      if (attached) {
-        mapInstance.off("click", FILL_LAYER_ID, onClick);
-        mapInstance.off("mouseenter", FILL_LAYER_ID, onEnter);
-        mapInstance.off("mouseleave", FILL_LAYER_ID, onLeave);
-      }
-    };
-  }, [data, mapInstance]);
-
-  useEffect(() => {
-    if (!mapInstance) return;
-    const run = () => applyBasemapStrip(mapInstance);
-    mapInstance.on("styledata", run);
-    mapInstance.once("idle", run);
-    run();
-    return () => {
-      mapInstance.off("styledata", run);
-    };
-  }, [mapInstance, applyBasemapStrip]);
-
-  return (
-    <div className="relative h-[min(55vh,420px)] w-full min-h-[280px] overflow-hidden rounded-xl border border-[#A55734]/25">
-      {data && (
-        <Map
-          ref={mapRef}
-          mapboxAccessToken={mapboxAccessToken}
-          initialViewState={DEFAULT_VIEW}
-          minZoom={4.5}
-          maxZoom={9}
-          maxBounds={FRANCE_BOUNDS}
-          mapStyle={MAP_STYLE}
-          style={{ width: "100%", height: "100%" }}
-          attributionControl={true}
-          interactiveLayerIds={[FILL_LAYER_ID]}
-          onLoad={(e) => setMapInstance(e.target)}
-        >
-          <Source id="insp-territories" type="geojson" data={data}>
-            <Layer id={FILL_LAYER_ID} type="fill" paint={fillPaint} />
-          </Source>
-          {outlineData && outlineData.features.length > 0 && (
-            <Source id="insp-territories-outline" type="geojson" data={outlineData}>
-              <Layer
-                id={LINE_LAYER_ID}
-                type="line"
-                paint={linePaint}
-                layout={{ "line-join": "round", "line-cap": "round" }}
-              />
+    return (
+      <div
+        ref={containerRef}
+        className="relative h-full min-h-[240px] w-full overflow-hidden"
+      >
+        {regionsDataAugmented && (
+          <Map
+            ref={mapRef}
+            mapboxAccessToken={mapboxAccessToken}
+            initialViewState={DEFAULT_VIEW}
+            minZoom={4.5}
+            maxZoom={11}
+            maxBounds={FRANCE_BOUNDS}
+            mapStyle={MAP_STYLE}
+            style={{ width: "100%", height: "100%" }}
+            attributionControl={false}
+            onLoad={(e) => {
+              setMapInstance(e.target);
+              onMapReady?.();
+              onZoomRef.current?.(e.target.getZoom());
+            }}
+            onMoveEnd={(e) => {
+              onZoomRef.current?.(e.viewState.zoom);
+            }}
+          >
+            <Source id="insp-territories" type="geojson" data={regionsDataAugmented}>
+              <Layer id={FILL_LAYER_ID} type="fill" paint={fillPaint} />
             </Source>
-          )}
-          {popup && (
-            <Popup
-              longitude={popup.lng}
-              latitude={popup.lat}
-              anchor="bottom"
-              onClose={() => setPopup(null)}
-              closeButton={true}
-              closeOnClick={false}
-              offset={16}
-              maxWidth="280px"
-            >
-              <div className="min-w-[200px] max-w-[260px] px-0.5 py-1 font-courier">
-                <p className="text-sm font-bold text-[#A55734]">{popup.name}</p>
-                <p className="mt-1 text-xs leading-snug text-[#333]/80">
-                  La liste ci-dessous est filtrée sur cette zone.
-                </p>
-                <div className="mt-3 flex flex-wrap gap-2">
-                  <Link
-                    href="#liste-territoires-inspiration"
-                    className="inline-flex rounded-full border-2 border-[#E07856] bg-gradient-to-r from-[#E07856] to-[#D4635B] px-3 py-1.5 text-xs font-bold text-white shadow-sm transition hover:opacity-95"
-                    onClick={() => setPopup(null)}
-                  >
-                    En savoir plus
-                  </Link>
-                  <button
-                    type="button"
-                    className="rounded-full border border-[#A55734]/35 px-3 py-1.5 text-xs font-bold text-[#A55734] hover:bg-[#FFF2EB]"
-                    onClick={() => setPopup(null)}
-                  >
-                    Fermer
-                  </button>
-                </div>
-              </div>
-            </Popup>
-          )}
-        </Map>
-      )}
-      {(loading || loadError || !data) && (
-        <div
-          className={`pointer-events-none absolute inset-0 flex items-center justify-center rounded-xl font-courier text-sm ${
-            data ? "bg-white/75" : "bg-[#FFF2EB]/50"
-          } text-[#333]/70`}
-        >
-          {loadError
-            ? "Impossible de charger les régions (fichier GeoJSON)."
-            : "Chargement des régions…"}
+            {outlineData && outlineData.features.length > 0 && (
+              <Source id="insp-territories-outline" type="geojson" data={outlineData}>
+                <Layer
+                  id={LINE_LAYER_ID}
+                  type="line"
+                  paint={linePaint}
+                  layout={{ "line-join": "round", "line-cap": "round" }}
+                />
+              </Source>
+            )}
+            {showStarLines && starLineFeatures && starLineFeatures.features.length > 0 && (
+              <Source id="insp-star-lines" type="geojson" data={starLineFeatures}>
+                <Layer
+                  id={STAR_LINE_LAYER_ID}
+                  type="line"
+                  paint={starLinePaint}
+                  layout={{ "line-join": "round", "line-cap": "round" }}
+                />
+              </Source>
+            )}
+            {showTerritoryPoints && territoryPoints && territoryPoints.features.length > 0 && (
+              <Source id="insp-territory-pts" type="geojson" data={territoryPoints}>
+                <Layer
+                  id={POI_LAYER_ID}
+                  type="circle"
+                  paint={{
+                    "circle-radius": 7,
+                    "circle-color": VOYAGE_UI.terracotta,
+                    "circle-stroke-width": 2,
+                    "circle-stroke-color": "#ffffff",
+                  }}
+                />
+              </Source>
+            )}
+            {showVillePoints && villePoints && villePoints.features.length > 0 && (
+              <Source id="insp-ville-pts" type="geojson" data={villePoints}>
+                <Layer
+                  id={VILLE_LAYER_ID}
+                  type="circle"
+                  paint={{
+                    "circle-radius": 5,
+                    "circle-color": "#2d6a6a",
+                    "circle-stroke-width": 2,
+                    "circle-stroke-color": "#ffffff",
+                  }}
+                />
+              </Source>
+            )}
+          </Map>
+        )}
+        {(loading || loadError || !regionsDataAugmented) && (
+          <div
+            className={`pointer-events-none absolute inset-0 flex items-center justify-center font-courier text-sm ${
+              regionsDataAugmented ? "bg-white/70" : "bg-[#FFF2EB]/50"
+            } text-[#333]/70`}
+          >
+            {loadError
+              ? "Impossible de charger les régions."
+              : "Chargement des régions…"}
+          </div>
+        )}
+        <div className="pointer-events-none absolute bottom-2 right-2 rounded bg-white/85 px-2 py-1 font-courier text-[10px] text-[#333]/60">
+          © Mapbox © OpenStreetMap
         </div>
-      )}
-    </div>
-  );
-}
+      </div>
+    );
+  }
+);
+
+export default InspirationMapClient;

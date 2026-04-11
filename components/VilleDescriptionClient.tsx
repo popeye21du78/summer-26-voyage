@@ -74,6 +74,7 @@ export function VilleDescriptionClient({
 }) {
   const searchParams = useSearchParams();
   const fromVoyage = searchParams.get("from") === "voyage";
+  const fromInspiration = searchParams.get("from") === "inspiration";
   const voyagePrevuSlug = searchParams.get("v");
   const backToVoyageCarte =
     voyagePrevuSlug && /^[a-zA-Z0-9_-]+$/.test(voyagePrevuSlug)
@@ -180,7 +181,8 @@ export function VilleDescriptionClient({
     structuredSections.length + (hasCommonsBlock ? 1 : 0);
 
   const backHref =
-    backToVoyageCarte ?? (fromVoyage ? "/accueil#on-repart" : "/carte-villes");
+    backToVoyageCarte ??
+    (fromVoyage ? "/accueil#on-repart" : fromInspiration ? "/planifier/inspiration" : "/carte-villes");
 
   const loadCommonsPhotos = async () => {
     setCommonsLoading(true);
@@ -313,7 +315,8 @@ export function VilleDescriptionClient({
             href={backHref}
             className="absolute top-[calc(var(--header-content-offset)+0.35rem)] left-4 z-20 inline-flex items-center gap-2 rounded-full border border-white/50 bg-black/25 px-3 py-1.5 text-xs font-semibold text-white shadow-md backdrop-blur-sm transition hover:bg-black/40 md:left-6 md:text-sm"
           >
-            ← {backToVoyageCarte ? "Voyage" : "Carte"}
+            ←{" "}
+            {backToVoyageCarte ? "Voyage" : fromInspiration ? "Inspiration" : "Carte"}
           </Link>
           <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/55 via-black/15 to-transparent p-6 pb-10 pt-16">
             <motion.h1
