@@ -133,6 +133,11 @@ export default function Header() {
 
   const logoFilter = LOGO_FILTERS[currentSection] ?? LOGO_FILTERS.default;
 
+  /** Carte inspiration : plein écran sans logo ni menu (contrôles dans l’écran carte). */
+  if (pathname === "/planifier/inspiration") {
+    return null;
+  }
+
   /** Sur mobile, le bandeau compact masquait toute la nav : on garde les liens visibles sur les écrans voyage / quiz */
   const keepNavVisibleOnMobile =
     pathname?.includes("/voyage/nouveau") ||

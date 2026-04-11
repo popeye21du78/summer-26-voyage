@@ -1,12 +1,18 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import Link from "next/link";
+import { Filter, Heart, Search } from "lucide-react";
 import type { FeatureCollection } from "geojson";
 import { useRouter } from "next/navigation";
 import {
+  AMBIANCE_OPTIONS,
+  DURATION_OPTIONS,
   filterTerritoriesByInspiration,
   getTerritoryById,
   listTerritories,
+  type InspirationAmbianceFilter,
+  type InspirationDurationFilter,
   type TerritoriesFeatureCollection,
 } from "@/lib/editorial-territories";
 import { useInspirationMap } from "@/lib/inspiration-map-context";
@@ -31,7 +37,7 @@ const MAP_REGIONS_OUTLINE_URL = "/geo/inspiration-map-regions-outline.geojson";
 
 type Props = { mapboxAccessToken: string | undefined };
 
-/** Joint carte / fiche : zone tactile dédiée (évite le conflit avec le scroll du contenu). */
+/** Joint carte / fiche : zone tactile large + touch iOS (passive: false sur touchmove). */
 function RegionSplitGutter({
   onDragStart,
   onDrag,
@@ -40,13 +46,36 @@ function RegionSplitGutter({
   onDrag?: (offsetY: number) => void;
 }) {
   const startY = useRef(0);
+  const elRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const el = elRef.current;
+    if (!el) return;
+    const onTouchStart = (e: TouchEvent) => {
+      if (e.touches.length !== 1) return;
+      startY.current = e.touches[0].clientY;
+      onDragStart?.();
+    };
+    const onTouchMove = (e: TouchEvent) => {
+      if (e.touches.length !== 1) return;
+      e.preventDefault();
+      onDrag?.(e.touches[0].clientY - startY.current);
+    };
+    el.addEventListener("touchstart", onTouchStart, { passive: true });
+    el.addEventListener("touchmove", onTouchMove, { passive: false });
+    return () => {
+      el.removeEventListener("touchstart", onTouchStart);
+      el.removeEventListener("touchmove", onTouchMove);
+    };
+  }, [onDrag, onDragStart]);
 
   return (
     <div
+      ref={elRef}
       role="separator"
       aria-orientation="horizontal"
       aria-label="Redimensionner carte et fiche"
-      className="relative z-20 flex min-h-[14px] shrink-0 cursor-row-resize touch-none select-none items-center justify-center border-y border-[#A55734]/12 bg-[#FFFBF8]"
+      className="relative z-30 flex min-h-[22px] shrink-0 cursor-row-resize touch-none select-none items-center justify-center border-y border-[#A55734]/12 bg-[#FFFBF8] active:bg-[#FFF2EB]"
       onPointerDown={(e) => {
         if (e.button !== 0) return;
         startY.current = e.clientY;
@@ -72,8 +101,140 @@ function RegionSplitGutter({
         }
       }}
     >
-      <div className="pointer-events-none h-1 w-14 rounded-full bg-[#A55734]/40 shadow-sm" />
+      <div className="pointer-events-none h-1.5 w-16 rounded-full bg-[#A55734]/45 shadow-sm" />
     </div>
+  );
+}
+
+/** Filtres / favoris / recherche — vue France mobile (desktop : TopBar). */
+function InspirationMobileChrome() {
+  const {
+    top,
+    filterSheetOpen,
+    setFilterSheetOpen,
+    searchQuery,
+    setSearchQuery,
+    ambiance,
+    setAmbiance,
+    duration,
+    setDuration,
+  } = useInspirationMap();
+  const [searchOpen, setSearchOpen] = useState(false);
+
+  function toggleAmbiance(id: InspirationAmbianceFilter) {
+    setAmbiance((prev) =>
+      prev.includes(id) ? prev.filter((x) => x !== id) : [...prev, id]
+    );
+  }
+
+  if (top.screen !== "france") return null;
+
+  return (
+    <>
+      {searchOpen && (
+        <div className="fixed inset-x-0 top-[env(safe-area-inset-top)] z-[60] flex justify-center px-3 pt-2 lg:hidden">
+          <div className="flex w-full max-w-md items-center gap-2 rounded-2xl border border-[#A55734]/20 bg-white/95 px-3 py-2 shadow-lg backdrop-blur-md">
+            <Search className="h-4 w-4 shrink-0 text-[#A55734]/60" aria-hidden />
+            <input
+              type="search"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              placeholder="Région…"
+              className="min-w-0 flex-1 bg-transparent font-courier text-sm text-[#333] outline-none placeholder:text-[#333]/45"
+              autoFocus
+            />
+            <button
+              type="button"
+              className="shrink-0 font-courier text-xs font-bold text-[#A55734]"
+              onClick={() => setSearchOpen(false)}
+            >
+              OK
+            </button>
+          </div>
+        </div>
+      )}
+      {filterSheetOpen && (
+        <button
+          type="button"
+          className="fixed inset-0 z-[50] bg-black/25 lg:hidden"
+          aria-label="Fermer les filtres"
+          onClick={() => setFilterSheetOpen(false)}
+        />
+      )}
+      <div className="pointer-events-none fixed bottom-[calc(5.5rem+env(safe-area-inset-bottom))] left-1/2 z-[52] flex -translate-x-1/2 gap-2 lg:hidden">
+        <button
+          type="button"
+          onClick={() => setSearchOpen((o) => !o)}
+          className={`pointer-events-auto flex h-12 w-12 items-center justify-center rounded-full border shadow-md backdrop-blur-sm ${
+            searchOpen || searchQuery
+              ? "border-[#E07856] bg-[#E07856] text-white"
+              : "border-[#A55734]/25 bg-white/95 text-[#A55734]"
+          }`}
+          aria-label="Recherche"
+        >
+          <Search className="h-5 w-5" />
+        </button>
+        <button
+          type="button"
+          onClick={() => setFilterSheetOpen(!filterSheetOpen)}
+          className={`pointer-events-auto flex h-12 items-center gap-1.5 rounded-full border px-4 shadow-md backdrop-blur-sm ${
+            filterSheetOpen
+              ? "border-[#E07856] bg-[#E07856] text-white"
+              : "border-[#A55734]/25 bg-white/95 text-[#A55734]"
+          }`}
+        >
+          <Filter className="h-4 w-4" />
+          <span className="font-courier text-xs font-bold">Filtres</span>
+        </button>
+        <Link
+          href="/planifier/favoris"
+          className="pointer-events-auto flex h-12 w-12 items-center justify-center rounded-full border border-[#A55734]/25 bg-white/95 text-[#A55734] shadow-md backdrop-blur-sm"
+          aria-label="Favoris"
+        >
+          <Heart className="h-5 w-5" />
+        </Link>
+      </div>
+      {filterSheetOpen && (
+        <div className="fixed inset-x-0 bottom-0 z-[55] max-h-[55vh] overflow-y-auto rounded-t-2xl border border-[#A55734]/15 bg-[#FFFBF8] px-4 pb-[max(1rem,env(safe-area-inset-bottom))] pt-3 shadow-[0_-8px_32px_rgba(0,0,0,0.12)] lg:hidden">
+          <p className="font-courier text-[10px] font-bold uppercase tracking-wide text-[#A55734]">
+            Ambiances
+          </p>
+          <div className="mt-2 flex flex-wrap gap-1.5">
+            {AMBIANCE_OPTIONS.map((o) => (
+              <button
+                key={o.id}
+                type="button"
+                onClick={() => toggleAmbiance(o.id)}
+                className={`rounded-full border px-2.5 py-1 font-courier text-[11px] font-bold transition ${
+                  ambiance.includes(o.id)
+                    ? "border-[#E07856] bg-[#E07856] text-white"
+                    : "border-[#E07856]/35 bg-white text-[#333]"
+                }`}
+              >
+                {o.label}
+              </button>
+            ))}
+          </div>
+          <p className="mt-3 font-courier text-[10px] font-bold uppercase tracking-wide text-[#A55734]">
+            Durée
+          </p>
+          <select
+            value={duration ?? ""}
+            onChange={(e) =>
+              setDuration((e.target.value || null) as InspirationDurationFilter | null)
+            }
+            className="mt-2 w-full max-w-xs rounded-lg border border-[#A55734]/25 bg-white px-3 py-2 font-courier text-xs text-[#333]"
+          >
+            <option value="">Toutes</option>
+            {DURATION_OPTIONS.map((o) => (
+              <option key={o.id} value={o.id}>
+                {o.label}
+              </option>
+            ))}
+          </select>
+        </div>
+      )}
+    </>
   );
 }
 
@@ -131,7 +292,8 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
   const prevTopScreen = useRef(top.screen);
   useEffect(() => {
     if (prevTopScreen.current === "france" && top.screen !== "france") {
-      setMapRowShare(0.5);
+      /* Plus de fiche région visible par défaut (photo + texte). */
+      setMapRowShare(0.36);
     }
     prevTopScreen.current = top.screen;
   }, [top.screen]);
@@ -300,14 +462,17 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
   };
 
   return (
-    <div className="flex h-full min-h-0 flex-col overflow-hidden rounded-2xl border border-[#A55734]/15 bg-[#FFF8F0] shadow-lg">
-      <TopBar />
+    <div className="flex h-full min-h-0 flex-col overflow-hidden bg-[#FFF8F0] md:rounded-2xl md:border md:border-[#A55734]/15 md:shadow-lg">
+      <div className="hidden lg:block">
+        <TopBar />
+      </div>
+      <InspirationMobileChrome />
       <div className="relative flex min-h-0 flex-1 flex-col">
         {showRegionSplit ? (
           <div
             className="grid min-h-0 flex-1 overflow-hidden"
             style={{
-              gridTemplateRows: `${mapRowShare}fr 14px ${1 - mapRowShare}fr`,
+              gridTemplateRows: `${mapRowShare}fr 22px ${1 - mapRowShare}fr`,
             }}
           >
             <div className="relative min-h-0 overflow-hidden">
@@ -327,7 +492,7 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
               <InspirationMapClient ref={mapRef} {...mapBaseProps} />
               {top.screen === "france" && (
                 <>
-                  <div className="pointer-events-none absolute left-0 right-0 top-2 z-10 flex justify-center px-3">
+                  <div className="pointer-events-none absolute left-0 right-0 top-2 z-10 hidden justify-center px-3 lg:flex">
                     <p className="max-w-md rounded-full border border-[#A55734]/15 bg-white/95 px-3 py-1.5 text-center font-courier text-[10px] leading-snug text-[#333]/85 shadow-sm backdrop-blur-sm">
                       Vue France — touche une région sur la carte ou fais défiler les cartes en bas
                     </p>

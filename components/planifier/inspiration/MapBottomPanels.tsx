@@ -194,17 +194,17 @@ function PreviewRegion({
       onScroll={onScroll}
       onDragClose={onDragClose}
     >
-      <div className="-mx-4 -mt-2 mb-5 h-48 overflow-hidden sm:h-56">
-        <div className="relative h-full w-full bg-[#e8dfd6]">
+      <div className="-mx-4 mb-5 overflow-hidden rounded-b-2xl bg-[#e8dfd6]">
+        <div className="relative aspect-[4/3] w-full max-h-[min(52vh,420px)] min-h-[200px]">
           <Image
             src={r.headerPhoto}
             alt=""
             fill
             priority
-            className="object-cover"
+            className="object-contain object-center"
             sizes="100vw"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/15 to-transparent" />
+          <div className="pointer-events-none absolute inset-x-0 bottom-0 top-1/2 bg-gradient-to-t from-black/55 to-transparent" />
           <div className="absolute bottom-0 left-0 right-0 p-4">
             <h2 className="font-courier text-xl font-bold leading-tight text-white drop-shadow sm:text-2xl">
               {r.name}

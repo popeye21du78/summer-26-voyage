@@ -6,24 +6,15 @@ export default function PlanifierInspirationPage() {
   const token = process.env.NEXT_PUBLIC_MAPBOX_TOKEN;
 
   return (
-    <main
-      className="fixed inset-x-0 bottom-0 z-0 flex flex-col overflow-hidden bg-[#FAF4F0]"
-      style={{ top: "var(--header-content-offset)" }}
-    >
-      <div className="shrink-0 px-3 pt-2 sm:px-4">
-        <Link
-          href="/accueil#on-repart"
-          className="inline-flex items-center gap-1 font-courier text-sm font-bold text-[#A55734] hover:text-[#8b4728]"
-        >
-          <ArrowLeft className="h-4 w-4" aria-hidden />
-          Accueil
-        </Link>
-        <h1 className="mt-1 font-courier text-xl font-bold text-[#333] sm:text-2xl">Carte d’inspiration</h1>
-        <p className="mt-0.5 max-w-2xl font-courier text-xs leading-relaxed text-[#333]/80 sm:text-sm">
-          Carte plein écran et bandeau régions — puis fiches et itinéraires.
-        </p>
-      </div>
-      <div className="min-h-0 flex-1 overflow-hidden px-2 pb-2 sm:px-3">
+    <main className="fixed inset-0 z-0 flex flex-col overflow-hidden bg-[#FAF4F0] pt-[env(safe-area-inset-top)]">
+      <Link
+        href="/planifier"
+        className="absolute left-3 top-[max(0.5rem,env(safe-area-inset-top))] z-30 inline-flex items-center gap-1 rounded-full border border-[#A55734]/20 bg-white/90 px-3 py-1.5 font-courier text-xs font-bold text-[#A55734] shadow-sm backdrop-blur-sm hover:bg-[#FFF2EB] lg:text-sm"
+      >
+        <ArrowLeft className="h-3.5 w-3.5" aria-hidden />
+        Planifier
+      </Link>
+      <div className="min-h-0 flex-1 overflow-hidden p-0">
         <InspirationExploreClient mapboxAccessToken={token} />
       </div>
     </main>
