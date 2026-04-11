@@ -13,9 +13,20 @@ import {
 } from "./city-prompts";
 import { getCityDiagnostic, upsertCitySection } from "./city-sections-supabase";
 
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
-});
+/** Initialisation paresseuse : évite d’instancier OpenAI au build (Vercel sans OPENAI_API_KEY). */
+let openaiClient: OpenAI | null = null;
+function getOpenAI(): OpenAI {
+  const apiKey = process.env.OPENAI_API_KEY?.trim();
+  if (!apiKey) {
+    throw new Error(
+      "OPENAI_API_KEY manquant — ajoute-la dans Vercel : Project → Settings → Environment Variables."
+    );
+  }
+  if (!openaiClient) {
+    openaiClient = new OpenAI({ apiKey });
+  }
+  return openaiClient;
+}
 
 const NIVEAU_LABELS: Record<number, string> = {
   1: "Désert",
@@ -30,7 +41,7 @@ export async function runDiagnostic(ville: string, stepId: string): Promise<numb
   if (cached != null) return cached;
 
   const prompt = DIAGNOSTIC_PROMPT.replace("[VILLE]", ville);
-  const res = await openai.chat.completions.create({
+  const res = await getOpenAI().chat.completions.create({
     model: OPENAI_MODEL,
     messages: [{ role: "user", content: prompt }],
     max_tokens: 10,
@@ -58,7 +69,7 @@ export async function generateSection(
     .replace(/\[VILLE\]/g, ville)
     .replace(/\[NIVEAU\]/g, `${level} (${niveauLabel})`);
 
-  const res = await openai.chat.completions.create({
+  const res = await getOpenAI().chat.completions.create({
     model: OPENAI_MODEL,
     messages: [
       { role: "system", content: SYSTEM_PROMPT },
@@ -88,7 +99,7 @@ export async function* generateSectionStream(
     .replace(/\[VILLE\]/g, ville)
     .replace(/\[NIVEAU\]/g, `${level} (${niveauLabel})`);
 
-  const stream = await openai.chat.completions.create({
+  const stream = await getOpenAI().chat.completions.create({
     model: OPENAI_MODEL,
     messages: [
       { role: "system", content: SYSTEM_PROMPT },
