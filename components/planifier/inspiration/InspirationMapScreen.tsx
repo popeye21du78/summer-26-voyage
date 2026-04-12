@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { Bookmark, CheckCircle2, Filter, GraduationCap, Search } from "lucide-react";
@@ -318,17 +318,15 @@ function InspirationMobileChrome() {
 
 export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
   const ctx = useInspirationMap();
-  const { top, selectTerritoryPoi, resetFrance, goBack } = ctx;
+  const { top, selectTerritoryPoi, resetFrance, goBack, selectRegion } = ctx;
   const router = useRouter();
 
   const mapRef = useRef<InspirationMapExpose>(null);
-  /** Premier zoom région après vue France : resize layout + easing plus doux. */
-  const pendingFirstSplitFit = useRef(true);
-  const sheetDragStartShare = useRef(0.5);
+  /** Hauteur de la fiche en fraction de la fenêtre (overlay — la carte ne redimensionne jamais). */
+  const sheetDragStartRatio = useRef(0.52);
+  const [sheetHeightRatio, setSheetHeightRatio] = useState(0.52);
   const [mapReady, setMapReady] = useState(false);
   const onMapReady = useCallback(() => setMapReady(true), []);
-  /** Part de la hauteur carte (0–1) : ~0,5 = moitié écran carte / moitié fiche. */
-  const [mapRowShare, setMapRowShare] = useState(0.5);
   const [mapZoom, setMapZoom] = useState(7.5);
   const [sectorsFc, setSectorsFc] = useState<TerritoriesFeatureCollection | null>(null);
   const [outlineFc, setOutlineFc] = useState<FeatureCollection | null>(null);
@@ -365,64 +363,49 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
   const activeRegionId =
     top.screen !== "france" && "regionId" in top ? top.regionId : null;
 
-  const showRegionSplit = top.screen !== "france";
-
-  const prevScreenRef = useRef(top.screen);
-
-  /**
-   * Split figé dès le 1er paint : l’animation 85%→36% concurrençait le fitBounds et décentrage la région.
-   * La fiche monte doucement via SheetChrome / motion (pas via la grille).
-   */
-  useLayoutEffect(() => {
-    const wasFrance = prevScreenRef.current === "france";
-    const now = top.screen;
-    if (wasFrance && now !== "france") {
-      setMapRowShare(0.36);
-    }
-    prevScreenRef.current = now;
-  }, [top.screen]);
+  const showRegionSheet = top.screen !== "france";
 
   useEffect(() => {
     if (top.screen === "france") {
-      pendingFirstSplitFit.current = true;
-      setMapRowShare(0.5);
+      setSheetHeightRatio(0.52);
     }
   }, [top.screen]);
 
   const onSheetHandleDragStart = useCallback(() => {
-    sheetDragStartShare.current = mapRowShare;
-  }, [mapRowShare]);
+    sheetDragStartRatio.current = sheetHeightRatio;
+  }, [sheetHeightRatio]);
 
+  /** Tirer vers le bas = fiche plus haute ; vers le haut = plus de carte visible. */
   const onSheetHandleDrag = useCallback((offsetY: number) => {
     const h = typeof window !== "undefined" ? window.innerHeight : 800;
-    const next = sheetDragStartShare.current + offsetY / h;
-    setMapRowShare(Math.min(0.92, Math.max(0.08, next)));
+    const next = sheetDragStartRatio.current - offsetY / h;
+    setSheetHeightRatio(Math.min(0.88, Math.max(0.12, next)));
   }, []);
 
-  const mapRowShareRef = useRef(mapRowShare);
+  const sheetHeightRatioRef = useRef(sheetHeightRatio);
   useEffect(() => {
-    mapRowShareRef.current = mapRowShare;
-  }, [mapRowShare]);
+    sheetHeightRatioRef.current = sheetHeightRatio;
+  }, [sheetHeightRatio]);
 
-  /** Fin de glisser sur la jointure : zone « presque fermée » → retour France ; sinon snap lecture. */
+  /** Petite fiche → retour France ; sinon snap confort. */
   const onGutterDragEnd = useCallback(() => {
-    const v = mapRowShareRef.current;
-    if (v >= 0.65) {
+    const sh = sheetHeightRatioRef.current;
+    if (sh <= 0.28) {
       resetFrance();
       return;
     }
-    if (v <= 0.22) {
-      setMapRowShare(0.36);
+    if (sh >= 0.78) {
+      setSheetHeightRatio(0.72);
       return;
     }
-    if (v < 0.42) setMapRowShare(0.36);
-    else setMapRowShare(0.52);
+    if (sh < 0.4) setSheetHeightRatio(0.48);
+    else setSheetHeightRatio(0.52);
   }, [resetFrance]);
 
   const [villePoints, setVillePoints] = useState<FeatureCollection | null>(null);
 
   useEffect(() => {
-    if (!activeRegionId || !showRegionSplit) {
+    if (!activeRegionId || !showRegionSheet) {
       setVillePoints(null);
       return;
     }
@@ -444,7 +427,7 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
     return () => {
       cancelled = true;
     };
-  }, [activeRegionId, showRegionSplit, ctx.ambiance, mapZoom]);
+  }, [activeRegionId, showRegionSheet, ctx.ambiance, mapZoom]);
 
   const territoryPoints = useMemo(() => {
     const show =
@@ -523,31 +506,16 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
     if (activeRegionId) {
       const b = bboxForRegionFeature(sectorsFc, activeRegionId);
       if (!b) return;
-      const isFirstSplit = pendingFirstSplitFit.current && showRegionSplit;
-      const paddingFirst = {
-        top: 52,
-        bottom: 48,
-        left: 48,
-        right: 48,
-      };
-      const runFit = () => {
-        mapRef.current?.fitBounds(b, {
-          /** 1er zoom : grille déjà à sa taille finale + resize avant cadrage = moins de coupure. */
-          afterLayout: isFirstSplit,
-          duration: isFirstSplit ? 2100 : 1050,
-          padding: isFirstSplit ? paddingFirst : undefined,
-        });
-        if (isFirstSplit) pendingFirstSplitFit.current = false;
-      };
-      if (isFirstSplit) {
-        requestAnimationFrame(() => {
-          requestAnimationFrame(runFit);
-        });
-      } else {
-        runFit();
-      }
+      const h = typeof window !== "undefined" ? window.innerHeight : 700;
+      /** Réserve visuelle pour la fiche en overlay (même logique d’un changement de région à l’autre). */
+      const bottomPad = Math.round(sheetHeightRatioRef.current * h) + 32;
+      mapRef.current.fitBounds(b, {
+        duration: 1100,
+        afterLayout: false,
+        padding: { top: 48, bottom: bottomPad, left: 44, right: 44 },
+      });
     }
-  }, [mapReady, top, sectorsFc, activeRegionId, showRegionSplit]);
+  }, [mapReady, top, sectorsFc, activeRegionId]);
 
   const dimOtherRegions = top.screen !== "france";
 
@@ -574,7 +542,7 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
     showVillePoints: !!villePoints?.features.length,
     starLineFeatures,
     showStarLines,
-    onSelectRegion: (id: string) => ctx.selectRegion(id),
+    onSelectRegion: selectRegion,
     onTerritoryPointClick: (tid: string) => selectTerritoryPoi(tid),
     onVilleClick,
     onMapBackgroundClick,
@@ -584,6 +552,8 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
     loadError: loadState === "error",
   };
 
+  const sheetHvh = `${Math.round(sheetHeightRatio * 100)}vh`;
+
   return (
     <div className="flex h-full min-h-0 flex-col overflow-hidden bg-[#FFF8F0] md:rounded-2xl md:border md:border-[#A55734]/15 md:shadow-lg">
       <div className="hidden lg:block">
@@ -591,66 +561,49 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
       </div>
       <InspirationMobileChrome />
       <div className="relative flex min-h-0 flex-1 flex-col">
-        {showRegionSplit ? (
-          <div
-            className="grid min-h-0 flex-1 overflow-hidden"
-            style={{
-              gridTemplateRows: `${mapRowShare}fr 22px ${1 - mapRowShare}fr`,
-            }}
-          >
-            <div className="relative min-h-0 overflow-hidden">
-              <InspirationMapClient ref={mapRef} {...mapBaseProps} />
-              {mapRowShare > 0.58 && (
-                <motion.div
-                  initial={false}
-                  animate={{
-                    opacity: Math.min(1, Math.max(0, (mapRowShare - 0.58) / 0.2)),
-                    y: Math.max(0, 18 - (mapRowShare - 0.58) * 120),
-                  }}
-                  transition={{ duration: 0.12, ease: "easeOut" }}
-                  className="pointer-events-auto absolute bottom-0 left-0 right-0 z-[25] max-h-[min(42vh,46%)] overflow-hidden border-t border-[#A55734]/10 bg-[#FFF8F0]/98 shadow-[0_-4px_20px_rgba(0,0,0,0.08)] backdrop-blur-sm"
-                >
-                  <RegionCarousel />
-                </motion.div>
-              )}
-            </div>
-            <RegionSplitGutter
-              onDragStart={onSheetHandleDragStart}
-              onDrag={onSheetHandleDrag}
-              onDragEnd={onGutterDragEnd}
-            />
-            <motion.div
-              key={activeRegionId ?? "split"}
-              initial={{ opacity: 0.97 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.65, ease: [0.25, 0.85, 0.35, 1] }}
-              className="flex min-h-0 min-w-0 flex-col overflow-hidden border-t border-[#A55734]/15 bg-[#FAF4F0]"
-            >
-              <MapBottomPanels />
-            </motion.div>
+        {/*
+          Une seule instance carte = pas de remontage / pas de resize WebGL au changement France → région.
+          La fiche est en overlay : la carte reste full-bleed, comme entre deux régions.
+        */}
+        <div className="relative isolate min-h-0 flex-1 overflow-hidden">
+          <div className="absolute inset-0 z-0">
+            <InspirationMapClient ref={mapRef} {...mapBaseProps} />
           </div>
-        ) : (
-          <>
-            <div className="relative min-h-0 flex-1">
-              <InspirationMapClient ref={mapRef} {...mapBaseProps} />
-              {top.screen === "france" && (
-                <>
-                  <div className="pointer-events-none absolute left-0 right-0 top-2 z-10 hidden justify-center px-3 lg:flex">
-                    <p className="max-w-md rounded-full border border-[#A55734]/15 bg-white/95 px-3 py-1.5 text-center font-courier text-[10px] leading-snug text-[#333]/85 shadow-sm backdrop-blur-sm">
-                      Vue France — touche une région sur la carte ou fais défiler les cartes en bas
-                    </p>
-                  </div>
-                  <div className="pointer-events-none absolute bottom-0 left-0 right-0 z-20">
-                    <div className="pointer-events-auto">
-                      <RegionCarousel />
-                    </div>
-                  </div>
-                </>
-              )}
-            </div>
-            <MapBottomPanels />
-          </>
-        )}
+
+          {top.screen === "france" && (
+            <>
+              <div className="pointer-events-none absolute left-0 right-0 top-2 z-10 hidden justify-center px-3 lg:flex">
+                <p className="max-w-md rounded-full border border-[#A55734]/15 bg-white/95 px-3 py-1.5 text-center font-courier text-[10px] leading-snug text-[#333]/85 shadow-sm backdrop-blur-sm">
+                  Vue France — touche une région sur la carte ou fais défiler les cartes en bas
+                </p>
+              </div>
+              <div className="pointer-events-none absolute bottom-0 left-0 right-0 z-20">
+                <div className="pointer-events-auto">
+                  <RegionCarousel />
+                </div>
+              </div>
+            </>
+          )}
+
+          {showRegionSheet && (
+            <motion.div
+              initial={{ y: "100%" }}
+              animate={{ y: 0 }}
+              transition={{ type: "spring", damping: 30, stiffness: 280 }}
+              className="absolute bottom-0 left-0 right-0 z-[45] flex max-h-[90vh] flex-col overflow-hidden rounded-t-3xl border border-[#A55734]/15 bg-[#FAF4F0] shadow-[0_-8px_40px_rgba(40,20,10,0.18)]"
+              style={{ height: sheetHvh }}
+            >
+              <RegionSplitGutter
+                onDragStart={onSheetHandleDragStart}
+                onDrag={onSheetHandleDrag}
+                onDragEnd={onGutterDragEnd}
+              />
+              <div className="min-h-0 flex-1 overflow-hidden">
+                <MapBottomPanels />
+              </div>
+            </motion.div>
+          )}
+        </div>
       </div>
     </div>
   );

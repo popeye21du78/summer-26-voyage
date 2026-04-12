@@ -3,15 +3,15 @@
 import { useState, useEffect, useRef } from "react";
 import { useInView } from "framer-motion";
 import { motion } from "framer-motion";
-import { Image, FileText, X, ImagePlus } from "lucide-react";
+import { Image, FileText, X, ImagePlus, Pencil } from "lucide-react";
 import type { Step } from "../types";
 import {
   getViagoStepContent,
   saveViagoStepContent,
-  type ViagoPhotoFont,
   type ViagoPhotoItem,
   type ViagoPhotoTextPosition,
   type ViagoStepContent,
+  type ViagoTextSize,
 } from "../lib/viago-storage";
 import { compressImageFileToDataUrl } from "../lib/viago-compress-image";
 import { LieuResolvedBackground } from "./LieuResolvedBackground";
@@ -32,15 +32,35 @@ function formatDate(iso: string) {
   });
 }
 
-function captionFontClass(font: ViagoPhotoFont | undefined, bold: boolean | undefined) {
-  const f =
-    font === "motto"
-      ? "font-motto"
-      : font === "sans"
-        ? "font-sans tracking-tight"
-        : "font-courier";
-  const w = bold ? "font-bold" : "font-normal";
-  return `${f} ${w}`;
+function toInputDate(iso: string) {
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return "";
+  return d.toISOString().slice(0, 10);
+}
+
+const SIZE_CLASS: Record<ViagoTextSize, string> = {
+  xs: "text-[10px] leading-snug",
+  sm: "text-xs leading-snug",
+  base: "text-sm leading-snug",
+  lg: "text-base leading-snug",
+};
+
+/** Gras partiel avec **mot** — uniquement Courier. */
+function RichCourier({ text, className }: { text: string; className?: string }) {
+  return (
+    <span className={className}>
+      {text.split(/(\*\*[^*]+\*\*)/g).map((part, i) => {
+        if (part.startsWith("**") && part.endsWith("**")) {
+          return (
+            <strong key={i} className="font-bold">
+              {part.slice(2, -2)}
+            </strong>
+          );
+        }
+        return <span key={i}>{part}</span>;
+      })}
+    </span>
+  );
 }
 
 function PhotoPolaroid({
@@ -50,6 +70,7 @@ function PhotoPolaroid({
   isDark,
   readOnly,
   onRemove,
+  onEdit,
 }: {
   item: ViagoPhotoItem;
   i: number;
@@ -57,10 +78,14 @@ function PhotoPolaroid({
   isDark: boolean;
   readOnly: boolean;
   onRemove: () => void;
+  onEdit: () => void;
 }) {
   const pos: ViagoPhotoTextPosition = item.textPosition ?? "below";
-  const hasCaption = Boolean(item.anecdote?.trim());
-  const overlay = hasCaption && (pos === "overlay-bottom" || pos === "overlay-top");
+  const titleSz = SIZE_CLASS[item.titleSize ?? "base"];
+  const bodySz = SIZE_CLASS[item.bodySize ?? "sm"];
+  const hasTitle = Boolean(item.photoTitle?.trim());
+  const hasBody = Boolean(item.anecdote?.trim());
+  const overlay = (pos === "overlay-bottom" || pos === "overlay-top") && (hasTitle || hasBody);
 
   return (
     <motion.div
@@ -74,44 +99,79 @@ function PhotoPolaroid({
     >
       <div className="overflow-hidden rounded-xl border-2 border-white/20 bg-white/10 p-2 shadow-xl backdrop-blur-sm">
         <div className="relative aspect-[4/3] w-full min-w-[192px] overflow-hidden md:min-w-[220px]">
-          <img
-            src={item.url}
-            alt=""
-            className="h-full w-full object-cover"
-          />
-          {overlay && hasCaption && (
-            <p
-              className={`absolute left-2 right-2 ${
+          <img src={item.url} alt="" className="h-full w-full object-cover" />
+          {overlay && (hasTitle || hasBody) && (
+            <div
+              className={`absolute left-2 right-2 space-y-1 ${
                 pos === "overlay-top" ? "top-2" : "bottom-2"
-              } ${captionFontClass(item.font, item.bold)} text-[11px] leading-snug text-white drop-shadow-[0_1px_3px_rgba(0,0,0,0.85)] md:text-xs`}
+              }`}
             >
-              {item.anecdote}
-            </p>
+              {hasTitle && (
+                <p className={`font-courier ${titleSz} text-white drop-shadow-[0_1px_3px_rgba(0,0,0,0.9)]`}>
+                  <RichCourier text={item.photoTitle!} />
+                </p>
+              )}
+              {hasBody && (
+                <p className={`font-courier ${bodySz} text-white drop-shadow-[0_1px_3px_rgba(0,0,0,0.85)]`}>
+                  <RichCourier text={item.anecdote!} />
+                </p>
+              )}
+            </div>
           )}
         </div>
-        {hasCaption && pos === "below" && (
-          <p
-            className={`mt-2 px-1 ${captionFontClass(item.font, item.bold)} text-[11px] leading-snug md:text-xs ${
-              isDark ? "text-white/88" : "text-[#333]/90"
-            }`}
-          >
-            {item.anecdote}
-          </p>
+        {!overlay && (hasTitle || hasBody) && (
+          <div className="mt-2 space-y-1 px-1">
+            {hasTitle && (
+              <p
+                className={`font-courier ${titleSz} ${
+                  isDark ? "text-white/92" : "text-[#333]/92"
+                }`}
+              >
+                <RichCourier text={item.photoTitle!} />
+              </p>
+            )}
+            {hasBody && (
+              <p
+                className={`font-courier ${bodySz} ${
+                  isDark ? "text-white/88" : "text-[#333]/90"
+                }`}
+              >
+                <RichCourier text={item.anecdote!} />
+              </p>
+            )}
+          </div>
         )}
       </div>
       {!readOnly && (
-        <button
-          type="button"
-          onClick={onRemove}
-          className="absolute -right-2 -top-2 flex h-7 w-7 items-center justify-center rounded-full bg-red-500 text-white opacity-0 transition group-hover:opacity-100"
-          aria-label="Supprimer la photo"
-        >
-          <X className="h-3 w-3" />
-        </button>
+        <div className="absolute -right-2 -top-2 flex gap-1 opacity-0 transition group-hover:opacity-100">
+          <button
+            type="button"
+            onClick={onEdit}
+            className="flex h-7 w-7 items-center justify-center rounded-full bg-[#A55734] text-white shadow"
+            aria-label="Modifier la photo"
+          >
+            <Pencil className="h-3 w-3" />
+          </button>
+          <button
+            type="button"
+            onClick={onRemove}
+            className="flex h-7 w-7 items-center justify-center rounded-full bg-red-500 text-white shadow"
+            aria-label="Supprimer la photo"
+          >
+            <X className="h-3 w-3" />
+          </button>
+        </div>
       )}
     </motion.div>
   );
 }
+
+const SIZE_OPTIONS: { id: ViagoTextSize; label: string }[] = [
+  { id: "xs", label: "XS" },
+  { id: "sm", label: "S" },
+  { id: "base", label: "M" },
+  { id: "lg", label: "L" },
+];
 
 export default function ViagoSection({
   step,
@@ -122,19 +182,26 @@ export default function ViagoSection({
 }: Props) {
   const ref = useRef<HTMLElement>(null);
   const fileRef = useRef<HTMLInputElement>(null);
+  const heroFileRef = useRef<HTMLInputElement>(null);
   const isInView = useInView(ref, { once: true, amount: 0.15 });
   const [content, setContent] = useState<ViagoStepContent | null>(null);
   const [showAddAnecdote, setShowAddAnecdote] = useState(false);
   const [showAddPhoto, setShowAddPhoto] = useState(false);
+  const [editStepOpen, setEditStepOpen] = useState(false);
+  const [editingPhotoIndex, setEditingPhotoIndex] = useState<number | null>(null);
   const [anecdoteDraft, setAnecdoteDraft] = useState("");
   const [draftUrl, setDraftUrl] = useState<string | null>(null);
+  const [draftTitle, setDraftTitle] = useState("");
   const [draftAnecdote, setDraftAnecdote] = useState("");
-  const [draftFont, setDraftFont] = useState<ViagoPhotoFont>("courier");
-  const [draftBold, setDraftBold] = useState(false);
+  const [draftTitleSize, setDraftTitleSize] = useState<ViagoTextSize>("base");
+  const [draftBodySize, setDraftBodySize] = useState<ViagoTextSize>("sm");
   const [draftPosition, setDraftPosition] = useState<ViagoPhotoTextPosition>("below");
   const [photoBusy, setPhotoBusy] = useState(false);
   const [photoError, setPhotoError] = useState<string | null>(null);
   const [fallbackUrl, setFallbackUrl] = useState("");
+  const [stepTitleDraft, setStepTitleDraft] = useState("");
+  const [stepDateDraft, setStepDateDraft] = useState("");
+  const [heroDraftUrl, setHeroDraftUrl] = useState("");
 
   useEffect(() => {
     setContent(getViagoStepContent(voyageId, step.id));
@@ -143,18 +210,36 @@ export default function ViagoSection({
 
   const userAddedPhotos = content?.photos ?? [];
   const anecdote = content?.anecdote ?? step.contenu_voyage?.anecdote ?? "";
-  const last = userAddedPhotos[userAddedPhotos.length - 1];
-  const heroPreferUrl = last?.url?.trim() ? last.url : null;
+  const displayNom = content?.displayTitleOverride?.trim() || step.nom;
+  const dateIso = content?.dateOverride || step.date_prevue;
+  const displayDate = formatDate(dateIso);
+  const heroPreferUrl = content?.heroPhotoUrl?.trim() ? content.heroPhotoUrl.trim() : undefined;
 
   const resetPhotoDraft = () => {
     setDraftUrl(null);
+    setDraftTitle("");
     setDraftAnecdote("");
-    setDraftFont("courier");
-    setDraftBold(false);
+    setDraftTitleSize("base");
+    setDraftBodySize("sm");
     setDraftPosition("below");
     setPhotoError(null);
     setFallbackUrl("");
+    setEditingPhotoIndex(null);
     if (fileRef.current) fileRef.current.value = "";
+  };
+
+  const openEditPhoto = (idx: number) => {
+    const p = userAddedPhotos[idx];
+    if (!p) return;
+    setEditingPhotoIndex(idx);
+    setDraftUrl(p.url);
+    setDraftTitle(p.photoTitle ?? "");
+    setDraftAnecdote(p.anecdote ?? "");
+    setDraftTitleSize(p.titleSize ?? "base");
+    setDraftBodySize(p.bodySize ?? "sm");
+    setDraftPosition(p.textPosition ?? "below");
+    setShowAddPhoto(true);
+    setFallbackUrl("");
   };
 
   const closeAddPhoto = () => {
@@ -167,6 +252,9 @@ export default function ViagoSection({
     saveViagoStepContent(voyageId, step.id, {
       anecdote: text,
       photos: content?.photos ?? [],
+      heroPhotoUrl: content?.heroPhotoUrl,
+      dateOverride: content?.dateOverride,
+      displayTitleOverride: content?.displayTitleOverride,
     });
     setContent(getViagoStepContent(voyageId, step.id));
     setShowAddAnecdote(false);
@@ -180,15 +268,24 @@ export default function ViagoSection({
     }
     const item: ViagoPhotoItem = {
       url,
+      photoTitle: draftTitle.trim() || undefined,
       anecdote: draftAnecdote.trim() || undefined,
-      font: draftFont,
-      bold: draftBold,
+      titleSize: draftTitleSize,
+      bodySize: draftBodySize,
       textPosition: draftPosition,
     };
-    const newPhotos = [...(content?.photos ?? []), item];
+    let newPhotos: ViagoPhotoItem[];
+    if (editingPhotoIndex !== null) {
+      newPhotos = userAddedPhotos.map((p, i) => (i === editingPhotoIndex ? item : p));
+    } else {
+      newPhotos = [...userAddedPhotos, item];
+    }
     saveViagoStepContent(voyageId, step.id, {
       anecdote: content?.anecdote ?? "",
       photos: newPhotos,
+      heroPhotoUrl: content?.heroPhotoUrl,
+      dateOverride: content?.dateOverride,
+      displayTitleOverride: content?.displayTitleOverride,
     });
     setContent(getViagoStepContent(voyageId, step.id));
     closeAddPhoto();
@@ -213,12 +310,34 @@ export default function ViagoSection({
   };
 
   const handleRemoveUserPhoto = (idx: number) => {
-    const newPhotos = (content?.photos ?? []).filter((_, i) => i !== idx);
+    const newPhotos = userAddedPhotos.filter((_, i) => i !== idx);
     saveViagoStepContent(voyageId, step.id, {
       anecdote: content?.anecdote ?? "",
       photos: newPhotos,
+      heroPhotoUrl: content?.heroPhotoUrl,
+      dateOverride: content?.dateOverride,
+      displayTitleOverride: content?.displayTitleOverride,
     });
     setContent(getViagoStepContent(voyageId, step.id));
+  };
+
+  const saveStepMeta = () => {
+    saveViagoStepContent(voyageId, step.id, {
+      photos: content?.photos ?? [],
+      anecdote: content?.anecdote ?? "",
+      displayTitleOverride: stepTitleDraft.trim() || null,
+      dateOverride: stepDateDraft.trim() || null,
+      heroPhotoUrl: heroDraftUrl.trim() || null,
+    });
+    setContent(getViagoStepContent(voyageId, step.id));
+    setEditStepOpen(false);
+  };
+
+  const openEditStep = () => {
+    setStepTitleDraft(content?.displayTitleOverride ?? step.nom);
+    setStepDateDraft(content?.dateOverride ?? toInputDate(step.date_prevue));
+    setHeroDraftUrl(content?.heroPhotoUrl ?? "");
+    setEditStepOpen(true);
   };
 
   const isDark = variant === "dark";
@@ -230,13 +349,11 @@ export default function ViagoSection({
   } as const;
 
   const previewSrc = draftUrl ?? (fallbackUrl.trim() || null);
+  const previewTitleSz = SIZE_CLASS[draftTitleSize];
+  const previewBodySz = SIZE_CLASS[draftBodySize];
 
   return (
-    <section
-      id={step.id}
-      ref={ref}
-      className="relative scroll-mt-20"
-    >
+    <section id={step.id} ref={ref} className="relative scroll-mt-20">
       <motion.div
         initial={{ opacity: 0, y: 28 }}
         animate={isInView ? { opacity: 1, y: 0 } : {}}
@@ -257,14 +374,14 @@ export default function ViagoSection({
             className="mt-3 font-courier text-4xl font-bold tracking-wider md:text-5xl"
             style={titleGradientStyle}
           >
-            {step.nom}
+            {displayNom}
           </h2>
           <p
             className={`mt-2 font-courier text-sm font-bold md:text-base ${
               isDark ? "text-white/85" : "text-[#333]/80"
             }`}
           >
-            {formatDate(step.date_prevue)}
+            {displayDate}
           </p>
         </div>
 
@@ -298,18 +415,114 @@ export default function ViagoSection({
           aria-hidden
           onChange={handlePickFile}
         />
+        <input
+          ref={heroFileRef}
+          type="file"
+          accept="image/*"
+          className="sr-only"
+          aria-hidden
+          onChange={async (e) => {
+            const f = e.target.files?.[0];
+            if (!f?.type.startsWith("image/")) return;
+            try {
+              const u = await compressImageFileToDataUrl(f);
+              setHeroDraftUrl(u);
+            } catch {
+              /* ignore */
+            }
+          }}
+        />
+
+        {!readOnly && (
+          <button
+            type="button"
+            onClick={() => (editStepOpen ? setEditStepOpen(false) : openEditStep())}
+            className="mb-4 w-full rounded-xl border border-dashed border-[#E07856]/40 px-3 py-2 text-left font-courier text-xs font-bold text-[#E07856] md:text-sm"
+          >
+            {editStepOpen ? "▼ Fermer l’édition de l’étape" : "▶ Modifier l’étape (titre, date, image colonne…)"}
+          </button>
+        )}
+
+        {!readOnly && editStepOpen && (
+          <div
+            className={`mb-6 space-y-3 rounded-xl border p-4 ${
+              isDark ? "border-[#E07856]/30 bg-[#252525]" : "border-[#A55734]/30 bg-white"
+            }`}
+          >
+            <label className={`block font-courier text-xs font-bold ${isDark ? "text-white/80" : "text-[#333]"}`}>
+              Titre affiché
+            </label>
+            <input
+              value={stepTitleDraft}
+              onChange={(e) => setStepTitleDraft(e.target.value)}
+              className={`w-full rounded-lg border px-3 py-2 font-courier text-sm ${
+                isDark ? "border-[#E07856]/30 bg-[#1a1a1a] text-white" : "border-[#A55734]/30"
+              }`}
+            />
+            <label className={`block font-courier text-xs font-bold ${isDark ? "text-white/80" : "text-[#333]"}`}>
+              Date
+            </label>
+            <input
+              type="date"
+              value={stepDateDraft}
+              onChange={(e) => setStepDateDraft(e.target.value)}
+              className={`w-full max-w-xs rounded-lg border px-3 py-2 font-courier text-sm ${
+                isDark ? "border-[#E07856]/30 bg-[#1a1a1a] text-white" : "border-[#A55734]/30"
+              }`}
+            />
+            <p className={`font-courier text-[10px] ${isDark ? "text-white/45" : "text-[#333]/55"}`}>
+              Image grande (colonne droite) : remplace la photo lieu si tu en choisis une.
+            </p>
+            <div className="flex flex-wrap gap-2">
+              <button
+                type="button"
+                onClick={() => heroFileRef.current?.click()}
+                className="rounded-lg bg-[#A55734] px-3 py-2 font-courier text-xs font-bold text-white"
+              >
+                Choisir une image
+              </button>
+              <button
+                type="button"
+                onClick={() => setHeroDraftUrl("")}
+                className="rounded-lg border px-3 py-2 font-courier text-xs"
+              >
+                Revenir à la photo lieu
+              </button>
+            </div>
+            {heroDraftUrl ? (
+              <img src={heroDraftUrl} alt="" className="mt-2 max-h-40 rounded-lg object-contain" />
+            ) : null}
+            <div className="flex gap-2 pt-2">
+              <button
+                type="button"
+                onClick={saveStepMeta}
+                className="rounded-lg bg-[#A55734] px-4 py-2 font-courier text-sm font-bold text-white"
+              >
+                Enregistrer l’étape
+              </button>
+              <button
+                type="button"
+                onClick={() => setEditStepOpen(false)}
+                className="rounded-lg border px-4 py-2 font-courier text-sm"
+              >
+                Annuler
+              </button>
+            </div>
+          </div>
+        )}
 
         {userAddedPhotos.length > 0 && (
           <div className="mb-8 flex flex-wrap gap-4">
             {userAddedPhotos.map((item, i) => (
               <PhotoPolaroid
-                key={`${item.url.slice(0, 40)}-${i}`}
+                key={`${item.url.slice(0, 36)}-${i}`}
                 item={item}
                 i={i}
                 isInView={isInView}
                 isDark={isDark}
                 readOnly={readOnly}
                 onRemove={() => handleRemoveUserPhoto(i)}
+                onEdit={() => openEditPhoto(i)}
               />
             ))}
           </div>
@@ -320,8 +533,8 @@ export default function ViagoSection({
             <button
               type="button"
               onClick={() => {
-                setShowAddPhoto(true);
                 resetPhotoDraft();
+                setShowAddPhoto(true);
               }}
               className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-[#E07856] to-[#D4635B] px-5 py-2.5 font-courier text-sm font-bold text-white shadow-lg transition hover:scale-[1.02] hover:shadow-[#E07856]/50"
             >
@@ -349,36 +562,49 @@ export default function ViagoSection({
             }`}
           >
             <div className="border-b border-[#A55734]/15 px-4 py-3">
-              <p
-                className={`font-courier text-sm font-bold ${isDark ? "text-white/90" : "text-[#333]"}`}
-              >
-                Nouvelle photo
+              <p className={`font-courier text-sm font-bold ${isDark ? "text-white/90" : "text-[#333]"}`}>
+                {editingPhotoIndex !== null ? "Modifier la photo" : "Nouvelle photo"}
               </p>
               <p className={`mt-1 font-courier text-[11px] ${isDark ? "text-white/55" : "text-[#333]/60"}`}>
-                Aperçu dans Viago dès que tu choisis une image — anecdote optionnelle sur la photo.
+                Aperçu en direct · **gras** avec astérisques · police Courier uniquement.
               </p>
             </div>
 
-            <div className="flex flex-col gap-4 p-4 md:flex-row md:items-start">
+            <div className="flex flex-col gap-4 p-4 lg:flex-row lg:items-start">
               <div
                 className={`relative flex min-h-[200px] flex-1 flex-col items-center justify-center rounded-xl border-2 border-dashed ${
-                  previewSrc
-                    ? "border-[#E07856]/40 bg-black/10"
-                    : "border-[#A55734]/35 bg-[#FFF8F0]/40"
+                  previewSrc ? "border-[#E07856]/40 bg-black/10" : "border-[#A55734]/35 bg-[#FFF8F0]/40"
                 } ${isDark ? "bg-[#1a1a1a]" : ""}`}
               >
                 {previewSrc ? (
-                  <img
-                    src={previewSrc}
-                    alt=""
-                    className="max-h-[min(52vh,320px)] w-full rounded-lg object-contain"
-                  />
+                  <div className="relative w-full">
+                    <img
+                      src={previewSrc}
+                      alt=""
+                      className="max-h-[min(40vh,280px)] w-full rounded-lg object-contain"
+                    />
+                    {draftPosition !== "below" && (draftTitle.trim() || draftAnecdote.trim()) && (
+                      <div
+                        className={`absolute left-2 right-2 space-y-1 ${
+                          draftPosition === "overlay-top" ? "top-2" : "bottom-2"
+                        }`}
+                      >
+                        {draftTitle.trim() ? (
+                          <p className={`font-courier ${previewTitleSz} text-white drop-shadow-md`}>
+                            <RichCourier text={draftTitle} />
+                          </p>
+                        ) : null}
+                        {draftAnecdote.trim() ? (
+                          <p className={`font-courier ${previewBodySz} text-white drop-shadow-md`}>
+                            <RichCourier text={draftAnecdote} />
+                          </p>
+                        ) : null}
+                      </div>
+                    )}
+                  </div>
                 ) : (
                   <div className="flex flex-col items-center gap-3 px-4 py-8 text-center">
                     <ImagePlus className={`h-12 w-12 ${isDark ? "text-white/25" : "text-[#A55734]/35"}`} />
-                    <p className={`font-courier text-xs ${isDark ? "text-white/55" : "text-[#333]/65"}`}>
-                      Emplacement de ta photo
-                    </p>
                     <button
                       type="button"
                       disabled={photoBusy}
@@ -400,64 +626,93 @@ export default function ViagoSection({
                 )}
               </div>
 
-              <div className="flex min-w-0 flex-1 flex-col gap-3">
-                <label className={`font-courier text-[11px] font-bold uppercase tracking-wide ${isDark ? "text-white/70" : "text-[#A55734]"}`}>
-                  Anecdote sur cette photo
+              <div className="flex min-w-0 flex-[1.1] flex-col gap-3">
+                <label className={`font-courier text-[11px] font-bold ${isDark ? "text-white/70" : "text-[#A55734]"}`}>
+                  Titre (taille propre)
+                </label>
+                <input
+                  value={draftTitle}
+                  onChange={(e) => setDraftTitle(e.target.value)}
+                  placeholder="Optionnel"
+                  className={`w-full rounded-lg border px-3 py-2 font-courier text-sm ${
+                    isDark ? "border-[#E07856]/30 bg-[#1a1a1a] text-white" : "border-[#A55734]/30"
+                  }`}
+                />
+                <div className="flex flex-wrap gap-1">
+                  {SIZE_OPTIONS.map((o) => (
+                    <button
+                      key={`t-${o.id}`}
+                      type="button"
+                      onClick={() => setDraftTitleSize(o.id)}
+                      className={`rounded-full border px-2 py-0.5 font-courier text-[10px] font-bold ${
+                        draftTitleSize === o.id
+                          ? "border-[#E07856] bg-[#E07856] text-white"
+                          : isDark
+                            ? "border-white/20 text-white/75"
+                            : "border-[#A55734]/30 text-[#333]"
+                      }`}
+                    >
+                      Titre {o.label}
+                    </button>
+                  ))}
+                </div>
+
+                <label className={`font-courier text-[11px] font-bold ${isDark ? "text-white/70" : "text-[#A55734]"}`}>
+                  Texte / anecdote (**gras**)
                 </label>
                 <textarea
                   value={draftAnecdote}
                   onChange={(e) => setDraftAnecdote(e.target.value)}
-                  placeholder="Un détail, un souvenir lié à cette image…"
+                  placeholder="Texte… Utilise **mot** pour le gras."
                   rows={3}
                   className={`w-full rounded-lg border p-3 font-courier text-sm ${
                     isDark ? "border-[#E07856]/30 bg-[#1a1a1a] text-white placeholder-white/45" : "border-[#A55734]/30"
                   }`}
                 />
-
-                <div className="flex flex-wrap gap-2">
-                  <span className={`w-full font-courier text-[10px] font-bold uppercase ${isDark ? "text-white/50" : "text-[#333]/55"}`}>
-                    Typo
-                  </span>
-                  {(
-                    [
-                      ["courier", "Courier"],
-                      ["motto", "Motto"],
-                      ["sans", "Sans"],
-                    ] as const
-                  ).map(([id, label]) => (
+                <div className="flex flex-wrap gap-1">
+                  {SIZE_OPTIONS.map((o) => (
                     <button
-                      key={id}
+                      key={`b-${o.id}`}
                       type="button"
-                      onClick={() => setDraftFont(id)}
-                      className={`rounded-full border px-3 py-1 font-courier text-[11px] font-bold transition ${
-                        draftFont === id
+                      onClick={() => setDraftBodySize(o.id)}
+                      className={`rounded-full border px-2 py-0.5 font-courier text-[10px] font-bold ${
+                        draftBodySize === o.id
                           ? "border-[#E07856] bg-[#E07856] text-white"
                           : isDark
-                            ? "border-white/20 text-white/80"
+                            ? "border-white/20 text-white/75"
                             : "border-[#A55734]/30 text-[#333]"
                       }`}
                     >
-                      {label}
+                      Texte {o.label}
                     </button>
                   ))}
-                  <button
-                    type="button"
-                    onClick={() => setDraftBold((b) => !b)}
-                    className={`rounded-full border px-3 py-1 font-courier text-[11px] font-bold ${
-                      draftBold
-                        ? "border-[#E07856] bg-[#E07856] text-white"
-                        : isDark
-                          ? "border-white/20 text-white/80"
-                          : "border-[#A55734]/30 text-[#333]"
+                </div>
+
+                {draftPosition === "below" && (draftTitle.trim() || draftAnecdote.trim()) ? (
+                  <div
+                    className={`rounded-lg border border-dashed p-3 ${
+                      isDark ? "border-white/15 bg-black/20" : "border-[#A55734]/20 bg-[#FFF8F0]/50"
                     }`}
                   >
-                    Gras
-                  </button>
-                </div>
+                    <p className={`mb-1 font-courier text-[10px] uppercase ${isDark ? "text-white/45" : "text-[#333]/55"}`}>
+                      Aperçu sous la photo
+                    </p>
+                    {draftTitle.trim() ? (
+                      <p className={`font-courier ${previewTitleSz} ${isDark ? "text-white/90" : "text-[#333]/90"}`}>
+                        <RichCourier text={draftTitle} />
+                      </p>
+                    ) : null}
+                    {draftAnecdote.trim() ? (
+                      <p className={`mt-1 font-courier ${previewBodySz} ${isDark ? "text-white/85" : "text-[#333]/88"}`}>
+                        <RichCourier text={draftAnecdote} />
+                      </p>
+                    ) : null}
+                  </div>
+                ) : null}
 
                 <div>
                   <span className={`font-courier text-[10px] font-bold uppercase ${isDark ? "text-white/50" : "text-[#333]/55"}`}>
-                    Texte par rapport à la photo
+                    Position
                   </span>
                   <div className="mt-1.5 flex flex-wrap gap-2">
                     {(
@@ -487,7 +742,7 @@ export default function ViagoSection({
 
                 <details className={`rounded-lg border border-dashed px-3 py-2 ${isDark ? "border-white/15" : "border-[#A55734]/25"}`}>
                   <summary className="cursor-pointer font-courier text-[11px] text-[#E07856]">
-                    Coller une URL à la place (optionnel)
+                    Coller une URL (optionnel)
                   </summary>
                   <input
                     type="url"
@@ -503,9 +758,7 @@ export default function ViagoSection({
                   />
                 </details>
 
-                {photoError && (
-                  <p className="font-courier text-xs text-red-400">{photoError}</p>
-                )}
+                {photoError && <p className="font-courier text-xs text-red-400">{photoError}</p>}
 
                 <div className="mt-2 flex flex-wrap gap-2">
                   <button
@@ -514,13 +767,9 @@ export default function ViagoSection({
                     disabled={photoBusy}
                     className="rounded-lg bg-[#A55734] px-4 py-2 font-courier text-sm font-bold text-white disabled:opacity-50"
                   >
-                    Enregistrer la photo
+                    Enregistrer
                   </button>
-                  <button
-                    type="button"
-                    onClick={closeAddPhoto}
-                    className="rounded-lg border px-4 py-2 font-courier text-sm"
-                  >
+                  <button type="button" onClick={closeAddPhoto} className="rounded-lg border px-4 py-2 font-courier text-sm">
                     Annuler
                   </button>
                 </div>
@@ -535,15 +784,13 @@ export default function ViagoSection({
               isDark ? "border-[#E07856]/30 bg-[#252525]" : "border-[#A55734]/30 bg-white"
             }`}
           >
-            <p
-              className={`mb-2 font-courier text-sm font-bold ${isDark ? "text-white/90" : "text-[#333333]"}`}
-            >
-              Ton anecdote, ton souvenir
+            <p className={`mb-2 font-courier text-sm font-bold ${isDark ? "text-white/90" : "text-[#333333]"}`}>
+              Anecdote d’étape (**gras** possible)
             </p>
             <textarea
               value={anecdoteDraft}
               onChange={(e) => setAnecdoteDraft(e.target.value)}
-              placeholder="Ce qui s'est passé, ce qu'on a aimé..."
+              placeholder="Ce qui s'est passé…"
               rows={4}
               className={`mb-3 w-full rounded-lg border p-3 font-courier text-sm ${
                 isDark ? "border-[#E07856]/30 bg-[#1a1a1a] text-white placeholder-white/50" : "border-[#A55734]/30"
@@ -577,15 +824,13 @@ export default function ViagoSection({
               isDark ? "bg-white/5 text-white/90" : "bg-white/60 text-[#333333]/90"
             }`}
           >
-            {anecdote}
+            <RichCourier text={anecdote} />
           </div>
         )}
 
         {step.description_culture && (
           <p
-            className={`mt-6 font-courier leading-relaxed ${
-              isDark ? "text-white/80" : "text-[#333333]/80"
-            }`}
+            className={`mt-6 font-courier leading-relaxed ${isDark ? "text-white/80" : "text-[#333333]/80"}`}
           >
             {step.description_culture}
           </p>

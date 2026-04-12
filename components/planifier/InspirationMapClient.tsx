@@ -65,12 +65,16 @@ export type FitBoundsOptions = {
   duration?: number;
   /** Padding dans le viewport Mapbox (px). */
   padding?: { top?: number; bottom?: number; left?: number; right?: number };
+  /** Appelé une fois le mouvement de caméra terminé (moveend). */
+  onComplete?: () => void;
 };
 
 export type InspirationMapExpose = {
   fitBounds: (bbox: [number, number, number, number], options?: FitBoundsOptions) => void;
   fitFranceOverview: () => void;
   flyTo: (lng: number, lat: number, zoom?: number) => void;
+  /** Interrompt vol / ease en cours (ex. changement de région pendant l’intro). */
+  stopCamera: () => void;
 };
 
 type InspirationMapClientProps = {
@@ -97,6 +101,8 @@ type InspirationMapClientProps = {
   onZoomChange?: (zoom: number) => void;
   loading?: boolean;
   loadError?: boolean;
+  /** Opacité des POI territoire (0–1), pour apparition en fondu après la fiche. */
+  territoryPoiOpacity?: number;
 };
 
 const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClientProps>(
@@ -123,6 +129,7 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
       onZoomChange,
       loading = false,
       loadError = false,
+      territoryPoiOpacity = 1,
     },
     ref
   ) {
@@ -255,6 +262,14 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
               maxZoom: 8.4,
               essential: true,
             });
+            const done = options?.onComplete;
+            if (done) {
+              if (duration <= 0) {
+                map.once("idle", done);
+              } else {
+                map.once("moveend", done);
+              }
+            }
           };
           if (options?.afterLayout) {
             requestAnimationFrame(() => {
@@ -278,6 +293,13 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
           const map = mapRef.current?.getMap();
           if (!map) return;
           map.easeTo({ center: [lng, lat], zoom, duration: 900 });
+        },
+        stopCamera: () => {
+          try {
+            mapRef.current?.getMap()?.stop();
+          } catch {
+            /* ignore */
+          }
         },
       }),
       []
@@ -427,6 +449,8 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
                     "circle-color": VOYAGE_UI.terracotta,
                     "circle-stroke-width": 2,
                     "circle-stroke-color": "#ffffff",
+                    "circle-opacity": territoryPoiOpacity,
+                    "circle-stroke-opacity": territoryPoiOpacity,
                   }}
                 />
               </Source>

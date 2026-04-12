@@ -6,8 +6,16 @@ import { listRegionEditorials } from "@/content/inspiration/regions";
 import { useInspirationMap } from "@/lib/inspiration-map-context";
 import FavoriteButton from "./FavoriteButton";
 
-export default function RegionCarousel() {
+type Props = {
+  /** Remplace le select du contexte (ex. zoom plein écran avant la fiche). */
+  onPickRegion?: (id: string) => void;
+  /** Surlignage carte / carrousel pendant l’intro zoom. */
+  highlightRegionId?: string | null;
+};
+
+export default function RegionCarousel({ onPickRegion, highlightRegionId }: Props = {}) {
   const { searchQuery, selectRegion, top } = useInspirationMap();
+  const pick = onPickRegion ?? selectRegion;
 
   const regions = useMemo(() => {
     const all = listRegionEditorials();
@@ -22,7 +30,8 @@ export default function RegionCarousel() {
   }, [searchQuery]);
 
   const activeId =
-    top.screen !== "france" && "regionId" in top ? top.regionId : null;
+    highlightRegionId ??
+    (top.screen !== "france" && "regionId" in top ? top.regionId : null);
 
   return (
     <div className="shrink-0 border-t border-[#A55734]/10 bg-[#FFF8F0]/95 py-3 backdrop-blur-sm">
@@ -35,11 +44,11 @@ export default function RegionCarousel() {
             key={r.id}
             role="button"
             tabIndex={0}
-            onClick={() => selectRegion(r.id)}
+            onClick={() => pick(r.id)}
             onKeyDown={(e) => {
               if (e.key === "Enter" || e.key === " ") {
                 e.preventDefault();
-                selectRegion(r.id);
+                pick(r.id);
               }
             }}
             className={`group relative flex w-[148px] shrink-0 cursor-pointer flex-col overflow-hidden rounded-2xl border text-left shadow-sm transition ${
