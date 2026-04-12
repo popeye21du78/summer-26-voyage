@@ -3,13 +3,64 @@
  * Clé : viago_{voyageId}_{stepId}
  */
 
+export type ViagoPhotoFont = "courier" | "motto" | "sans";
+export type ViagoPhotoTextPosition = "below" | "overlay-bottom" | "overlay-top";
+
+export interface ViagoPhotoItem {
+  url: string;
+  /** Anecdote affichée avec la photo */
+  anecdote?: string;
+  font?: ViagoPhotoFont;
+  bold?: boolean;
+  textPosition?: ViagoPhotoTextPosition;
+}
+
 export interface ViagoStepContent {
   anecdote?: string;
-  photos: string[];
+  /** Photos utilisateur (URL ou data URL) + métadonnées */
+  photos: ViagoPhotoItem[];
   updatedAt?: string;
 }
 
 const PREFIX = "viago_";
+
+function normalizePhoto(raw: unknown): ViagoPhotoItem | null {
+  if (typeof raw === "string" && raw.trim()) {
+    return { url: raw.trim() };
+  }
+  if (raw && typeof raw === "object" && "url" in raw) {
+    const u = (raw as { url?: unknown }).url;
+    if (typeof u === "string" && u.trim()) {
+      const o = raw as Record<string, unknown>;
+      return {
+        url: u.trim(),
+        anecdote: typeof o.anecdote === "string" ? o.anecdote : undefined,
+        font:
+          o.font === "courier" || o.font === "motto" || o.font === "sans"
+            ? o.font
+            : undefined,
+        bold: typeof o.bold === "boolean" ? o.bold : undefined,
+        textPosition:
+          o.textPosition === "below" ||
+          o.textPosition === "overlay-bottom" ||
+          o.textPosition === "overlay-top"
+            ? o.textPosition
+            : undefined,
+      };
+    }
+  }
+  return null;
+}
+
+function normalizePhotos(raw: unknown): ViagoPhotoItem[] {
+  if (!Array.isArray(raw)) return [];
+  const out: ViagoPhotoItem[] = [];
+  for (const item of raw) {
+    const p = normalizePhoto(item);
+    if (p) out.push(p);
+  }
+  return out;
+}
 
 export function getViagoStorageKey(voyageId: string, stepId: string): string {
   return `${PREFIX}${voyageId}_${stepId}`;
@@ -25,8 +76,8 @@ export function getViagoStepContent(
     if (!raw) return null;
     const parsed = JSON.parse(raw);
     return {
-      anecdote: parsed.anecdote ?? "",
-      photos: Array.isArray(parsed.photos) ? parsed.photos : [],
+      anecdote: typeof parsed.anecdote === "string" ? parsed.anecdote : "",
+      photos: normalizePhotos(parsed.photos),
       updatedAt: parsed.updatedAt,
     };
   } catch {

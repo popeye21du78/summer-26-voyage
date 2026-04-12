@@ -30,29 +30,43 @@ type SlimLieuCard = {
   description_courte?: string;
 };
 
+/** Même alternance que les pages Ville (VilleDescriptionClient) */
+const BAND_DARK =
+  "border border-white/15 bg-gradient-to-br from-[#5D3A1A] via-[#8B4513] to-[#A0522D] shadow-md";
+const BAND_LIGHT =
+  "border border-[#E07856]/25 bg-gradient-to-br from-[#FFF8F0] to-[#FAF4F0] shadow-sm";
+
 function SheetChrome({
   children,
   onBack,
   tall: _tall,
   onScroll,
   onDragClose,
+  /** Carte/fiche : une seule poignée hors sheet (jointure) — pas de 2e barre ni texte d’aide. */
+  variant = "default",
 }: {
   children: React.ReactNode;
   onBack?: () => void;
   tall?: boolean;
   onScroll?: (e: React.UIEvent<HTMLDivElement>) => void;
-  /** Swipe la poignée vers le bas pour fermer (le redimensionnement carte/fiche se fait sur la jointure au-dessus). */
   onDragClose?: () => void;
+  variant?: "default" | "split";
 }) {
+  const isSplit = variant === "split";
   return (
     <motion.div
-      initial={{ opacity: 0.96, y: 12 }}
+      initial={isSplit ? { opacity: 0.98, y: 10 } : { opacity: 0, y: 24 }}
       animate={{ opacity: 1, y: 0 }}
-      exit={{ opacity: 0, y: 20 }}
-      transition={{ type: "spring", damping: 30, stiffness: 380 }}
-      className="relative flex h-full min-h-0 flex-col rounded-t-3xl border border-[#A55734]/15 bg-[#FFFBF8] shadow-[0_-6px_32px_rgba(80,40,20,0.1)]"
+      exit={isSplit ? { opacity: 0.96, y: 12 } : { opacity: 0, y: 28 }}
+      transition={{
+        duration: isSplit ? 0.7 : 0.45,
+        ease: [0.25, 0.85, 0.35, 1],
+      }}
+      className={`relative flex h-full min-h-0 flex-col rounded-t-3xl border border-[#A55734]/15 shadow-[0_-6px_32px_rgba(80,40,20,0.1)] ${
+        isSplit ? "bg-[#FAF4F0]" : "bg-[#FFFBF8]"
+      }`}
     >
-      {onDragClose ? (
+      {!isSplit && onDragClose ? (
         <motion.div
           className="flex min-h-[48px] shrink-0 cursor-grab touch-none select-none items-center justify-center px-6 py-2 active:cursor-grabbing"
           drag="y"
@@ -65,12 +79,12 @@ function SheetChrome({
         >
           <div className="h-1.5 w-16 rounded-full bg-[#A55734]/45 shadow-sm" />
         </motion.div>
-      ) : (
+      ) : !isSplit ? (
         <div className="flex shrink-0 justify-center pt-2">
           <div className="h-1.5 w-11 rounded-full bg-[#A55734]/30" />
         </div>
-      )}
-      {onBack && (
+      ) : null}
+      {!isSplit && onBack && (
         <button
           type="button"
           onClick={onBack}
@@ -80,12 +94,14 @@ function SheetChrome({
           Retour
         </button>
       )}
-      <p className="mt-0.5 text-center font-courier text-[10px] text-[#333]/45">
-        Tire la jointure entre carte et fiche pour les proportions · coup sec sur la poignée pour fermer
-      </p>
+      {!isSplit && (
+        <p className="mt-0.5 text-center font-courier text-[10px] text-[#333]/45">
+          Tire la jointure entre carte et fiche pour les proportions · coup sec sur la poignée pour fermer
+        </p>
+      )}
       <div
         onScroll={onScroll}
-        className="min-h-0 flex-1 overflow-y-auto overscroll-contain px-4 pb-10 pt-6"
+        className={`min-h-0 flex-1 overflow-y-auto overscroll-contain px-4 pb-10 ${isSplit ? "pt-3" : "pt-6"}`}
       >
         {children}
       </div>
@@ -113,7 +129,6 @@ export default function MapBottomPanels({ onSheetScroll }: PanelsProps) {
         <PreviewRegion
           key="preview"
           regionId={top.regionId}
-          onBack={goBack}
           onExplore={goExploreRegion}
           onStars={openStarList}
           onScroll={onSheetScroll}
@@ -169,14 +184,12 @@ export default function MapBottomPanels({ onSheetScroll }: PanelsProps) {
 
 function PreviewRegion({
   regionId,
-  onBack,
   onExplore,
   onStars,
   onScroll,
   onDragClose,
 }: {
   regionId: string;
-  onBack: () => void;
   onExplore: () => void;
   onStars: () => void;
   onScroll?: (e: React.UIEvent<HTMLDivElement>) => void;
@@ -189,122 +202,123 @@ function PreviewRegion({
 
   return (
     <SheetChrome
-      onBack={onBack}
       tall
       onScroll={onScroll}
       onDragClose={onDragClose}
+      variant="split"
     >
-      <div className="-mx-4 mb-5 overflow-hidden rounded-b-2xl bg-[#e8dfd6]">
-        <div className="relative aspect-[4/3] w-full max-h-[min(52vh,420px)] min-h-[200px]">
+      <div className="-mx-4 mb-4 overflow-hidden rounded-2xl border border-[#A55734]/20 bg-[#2a1810] shadow-inner">
+        <div className="relative aspect-[4/3] w-full max-h-[min(48vh,400px)] min-h-[180px]">
           <Image
             src={r.headerPhoto}
             alt=""
             fill
             priority
-            className="object-contain object-center"
+            className="object-cover object-center"
             sizes="100vw"
           />
-          <div className="pointer-events-none absolute inset-x-0 bottom-0 top-1/2 bg-gradient-to-t from-black/55 to-transparent" />
-          <div className="absolute bottom-0 left-0 right-0 p-4">
-            <h2 className="font-courier text-xl font-bold leading-tight text-white drop-shadow sm:text-2xl">
-              {r.name}
-            </h2>
-            <p className="mt-2 font-courier text-[13px] leading-snug text-white/95 drop-shadow">
-              {r.accroche_carte}
-            </p>
+          <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/75 via-black/20 to-black/35" />
+          <h1 className="absolute left-0 right-0 top-0 px-4 pb-10 pt-4 font-courier text-2xl font-bold tracking-wide text-white drop-shadow-[0_2px_14px_rgba(0,0,0,0.85)] sm:text-3xl">
+            {r.name}
+          </h1>
+        </div>
+      </div>
+
+      <div className="space-y-4">
+        <div className={`rounded-xl px-4 py-4 ${BAND_LIGHT}`}>
+          <p className="font-courier text-sm leading-relaxed text-[#333]/90">{r.accroche_carte}</p>
+        </div>
+
+        <div className={`rounded-xl px-4 py-4 ${BAND_DARK}`}>
+          <div className="flex flex-col gap-3 sm:flex-row">
+            <button
+              type="button"
+              onClick={onExplore}
+              className="flex-1 rounded-full border-2 border-white/25 bg-gradient-to-r from-[#E07856] to-[#D4635B] py-3.5 font-courier text-sm font-bold text-white shadow-md transition hover:opacity-95"
+            >
+              Explorer la région
+            </button>
+            <button
+              type="button"
+              onClick={onStars}
+              className="flex-1 rounded-full border-2 border-white/35 bg-white/12 py-3.5 font-courier text-sm font-bold text-white backdrop-blur-sm transition hover:bg-white/20"
+            >
+              Itinéraires stars
+            </button>
           </div>
         </div>
-      </div>
 
-      <div className="flex flex-col gap-3 sm:flex-row">
-        <button
-          type="button"
-          onClick={onExplore}
-          className="flex-1 rounded-full border-2 border-[#E07856] bg-gradient-to-r from-[#E07856] to-[#D4635B] py-3.5 font-courier text-sm font-bold text-white shadow-md transition hover:opacity-95"
-        >
-          Explorer la région
-        </button>
-        <button
-          type="button"
-          onClick={onStars}
-          className="flex-1 rounded-full border-2 border-[#A55734]/35 bg-white py-3.5 font-courier text-sm font-bold text-[#A55734] transition hover:bg-[#FFF2EB]"
-        >
-          Itinéraires stars
-        </button>
-      </div>
-
-      <div className="mt-5 flex items-start justify-between gap-3 border-b border-[#A55734]/10 pb-5">
-        <p className="flex-1 font-courier text-sm leading-relaxed text-[#333]/90">
-          {r.paragraphe_explorer}
-        </p>
-        <FavoriteButton kind="map_region" refId={r.id} label={r.name} />
-      </div>
-
-      <div className="mt-5">
-        <p className="font-courier text-[10px] font-bold uppercase tracking-wide text-[#A55734]/85">
-          Ambiances
-        </p>
-        <div className="mt-2 flex gap-2 overflow-x-auto pb-1 [-webkit-overflow-scrolling:touch]">
-          {carouselIntro.map((src, i) => (
-            <div
-              key={i}
-              className="relative h-28 w-40 shrink-0 overflow-hidden rounded-xl bg-[#e8dfd6] shadow-sm"
-            >
-              <Image src={src} alt="" fill className="object-cover" sizes="160px" />
-            </div>
-          ))}
+        <div className={`flex items-start justify-between gap-3 rounded-xl px-4 py-4 ${BAND_LIGHT}`}>
+          <p className="flex-1 font-courier text-sm leading-relaxed text-[#333]/90">{r.paragraphe_explorer}</p>
+          <FavoriteButton kind="map_region" refId={r.id} label={r.name} />
         </div>
-      </div>
 
-      <section className="mt-8">
-        <h3 className="font-courier text-[10px] font-bold uppercase tracking-wide text-[#A55734]">
-          L’esprit du territoire
-        </h3>
-        <p className="mt-2 font-courier text-sm leading-relaxed text-[#333]/88">{r.intro_longue}</p>
-      </section>
-
-      <section className="mt-6">
-        <h3 className="font-courier text-[10px] font-bold uppercase tracking-wide text-[#A55734]">
-          Comment la parcourir
-        </h3>
-        <p className="mt-2 font-courier text-sm leading-relaxed text-[#333]/88">{r.ambiance_detail}</p>
-      </section>
-
-      <section className="mt-8">
-        <h3 className="font-courier text-[10px] font-bold uppercase tracking-wide text-[#A55734]">
-          Trois incontournables
-        </h3>
-        <div className="mt-3 grid gap-3 sm:grid-cols-3">
-          {r.trois_incontournables.map((nom) => {
-            const slug = slugFromNom(nom);
-            return (
-              <Link
-                key={nom}
-                href={`/ville/${slug}?from=inspiration`}
-                className="group overflow-hidden rounded-2xl border border-[#A55734]/12 bg-white shadow-sm transition hover:border-[#E07856]/40"
+        <div className={`rounded-xl px-4 py-5 ${BAND_DARK}`}>
+          <p className="font-courier text-[10px] font-bold uppercase tracking-[0.2em] text-white/75">
+            Ambiances
+          </p>
+          <div className="mt-3 flex gap-2 overflow-x-auto pb-1 [-webkit-overflow-scrolling:touch]">
+            {carouselIntro.map((src, i) => (
+              <div
+                key={i}
+                className="relative h-28 w-40 shrink-0 overflow-hidden rounded-xl bg-[#3d2818] shadow-sm ring-1 ring-white/15"
               >
-                <div className="relative h-[100px] w-full overflow-hidden bg-[#e8dfd6]">
-                  <CityPhoto
-                    stepId={slug}
-                    ville={nom}
-                    alt={nom}
-                    className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-[1.04]"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/55 to-transparent" />
-                  <span className="absolute bottom-2 left-2 right-2 text-center font-courier text-[11px] font-bold leading-tight text-white drop-shadow">
-                    {nom}
-                  </span>
-                </div>
-              </Link>
-            );
-          })}
+                <Image src={src} alt="" fill className="object-cover opacity-95" sizes="160px" />
+              </div>
+            ))}
+          </div>
         </div>
-      </section>
 
-      <aside className="mt-8 rounded-2xl border border-[#A55734]/12 bg-[#FFF8F0]/90 px-4 py-3">
-        <p className="font-courier text-[10px] font-bold uppercase text-[#A55734]/75">Note terrain</p>
-        <p className="mt-1.5 font-courier text-xs leading-relaxed text-[#333]/85">{r.note_terrain}</p>
-      </aside>
+        <section className={`rounded-xl px-4 py-5 ${BAND_LIGHT}`}>
+          <h3 className="font-courier text-[10px] font-bold uppercase tracking-[0.25em] text-[#A55734]">
+            L’esprit du territoire
+          </h3>
+          <p className="mt-3 font-courier text-sm leading-relaxed text-[#333]/88">{r.intro_longue}</p>
+        </section>
+
+        <section className={`rounded-xl px-4 py-5 ${BAND_DARK}`}>
+          <h3 className="font-courier text-[10px] font-bold uppercase tracking-[0.25em] text-white/80">
+            Comment la parcourir
+          </h3>
+          <p className="mt-3 font-courier text-sm leading-relaxed text-white/88">{r.ambiance_detail}</p>
+        </section>
+
+        <section className={`rounded-xl px-4 py-5 ${BAND_LIGHT}`}>
+          <h3 className="font-courier text-[10px] font-bold uppercase tracking-[0.25em] text-[#A55734]">
+            Trois incontournables
+          </h3>
+          <div className="mt-3 grid gap-3 sm:grid-cols-3">
+            {r.trois_incontournables.map((nom) => {
+              const slug = slugFromNom(nom);
+              return (
+                <Link
+                  key={nom}
+                  href={`/ville/${slug}?from=inspiration`}
+                  className="group overflow-hidden rounded-2xl border border-[#A55734]/15 bg-white shadow-sm transition hover:border-[#E07856]/40"
+                >
+                  <div className="relative h-[100px] w-full overflow-hidden bg-[#e8dfd6]">
+                    <CityPhoto
+                      stepId={slug}
+                      ville={nom}
+                      alt={nom}
+                      className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-[1.04]"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/55 to-transparent" />
+                    <span className="absolute bottom-2 left-2 right-2 text-center font-courier text-[11px] font-bold leading-tight text-white drop-shadow">
+                      {nom}
+                    </span>
+                  </div>
+                </Link>
+              );
+            })}
+          </div>
+        </section>
+
+        <aside className={`rounded-xl px-4 py-4 ${BAND_DARK}`}>
+          <p className="font-courier text-[10px] font-bold uppercase text-white/70">Note terrain</p>
+          <p className="mt-1.5 font-courier text-xs leading-relaxed text-white/88">{r.note_terrain}</p>
+        </aside>
+      </div>
     </SheetChrome>
   );
 }

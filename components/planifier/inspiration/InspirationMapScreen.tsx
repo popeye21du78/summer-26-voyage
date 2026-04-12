@@ -1,8 +1,9 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
-import { Filter, Heart, Search } from "lucide-react";
+import { motion } from "framer-motion";
+import { Bookmark, CheckCircle2, Filter, GraduationCap, Search } from "lucide-react";
 import type { FeatureCollection } from "geojson";
 import { useRouter } from "next/navigation";
 import {
@@ -41,9 +42,11 @@ type Props = { mapboxAccessToken: string | undefined };
 function RegionSplitGutter({
   onDragStart,
   onDrag,
+  onDragEnd,
 }: {
   onDragStart?: () => void;
   onDrag?: (offsetY: number) => void;
+  onDragEnd?: () => void;
 }) {
   const startY = useRef(0);
   const elRef = useRef<HTMLDivElement>(null);
@@ -63,11 +66,14 @@ function RegionSplitGutter({
     };
     el.addEventListener("touchstart", onTouchStart, { passive: true });
     el.addEventListener("touchmove", onTouchMove, { passive: false });
+    const onTouchEnd = () => onDragEnd?.();
+    el.addEventListener("touchend", onTouchEnd, { passive: true });
     return () => {
       el.removeEventListener("touchstart", onTouchStart);
       el.removeEventListener("touchmove", onTouchMove);
+      el.removeEventListener("touchend", onTouchEnd);
     };
-  }, [onDrag, onDragStart]);
+  }, [onDrag, onDragStart, onDragEnd]);
 
   return (
     <div
@@ -92,6 +98,7 @@ function RegionSplitGutter({
         } catch {
           /* ignore */
         }
+        onDragEnd?.();
       }}
       onPointerCancel={(e) => {
         try {
@@ -99,6 +106,7 @@ function RegionSplitGutter({
         } catch {
           /* ignore */
         }
+        onDragEnd?.();
       }}
     >
       <div className="pointer-events-none h-1.5 w-16 rounded-full bg-[#A55734]/45 shadow-sm" />
@@ -106,7 +114,7 @@ function RegionSplitGutter({
   );
 }
 
-/** Filtres / favoris / recherche — vue France mobile (desktop : TopBar). */
+/** Recherche + filtres + coups de cœur — coin haut droit mobile (desktop : TopBar). */
 function InspirationMobileChrome() {
   const {
     top,
@@ -120,6 +128,7 @@ function InspirationMobileChrome() {
     setDuration,
   } = useInspirationMap();
   const [searchOpen, setSearchOpen] = useState(false);
+  const [favoritesOpen, setFavoritesOpen] = useState(false);
 
   function toggleAmbiance(id: InspirationAmbianceFilter) {
     setAmbiance((prev) =>
@@ -132,7 +141,7 @@ function InspirationMobileChrome() {
   return (
     <>
       {searchOpen && (
-        <div className="fixed inset-x-0 top-[env(safe-area-inset-top)] z-[60] flex justify-center px-3 pt-2 lg:hidden">
+        <div className="fixed inset-x-0 top-[calc(env(safe-area-inset-top)+3.25rem)] z-[60] flex justify-center px-3 lg:hidden">
           <div className="flex w-full max-w-md items-center gap-2 rounded-2xl border border-[#A55734]/20 bg-white/95 px-3 py-2 shadow-lg backdrop-blur-md">
             <Search className="h-4 w-4 shrink-0 text-[#A55734]/60" aria-hidden />
             <input
@@ -153,46 +162,115 @@ function InspirationMobileChrome() {
           </div>
         </div>
       )}
-      {filterSheetOpen && (
+      {(filterSheetOpen || favoritesOpen) && (
         <button
           type="button"
           className="fixed inset-0 z-[50] bg-black/25 lg:hidden"
-          aria-label="Fermer les filtres"
-          onClick={() => setFilterSheetOpen(false)}
+          aria-label="Fermer le panneau"
+          onClick={() => {
+            setFilterSheetOpen(false);
+            setFavoritesOpen(false);
+          }}
         />
       )}
-      <div className="pointer-events-none fixed bottom-[calc(5.5rem+env(safe-area-inset-bottom))] left-1/2 z-[52] flex -translate-x-1/2 gap-2 lg:hidden">
+      {favoritesOpen && (
+        <div className="fixed inset-x-3 top-[calc(env(safe-area-inset-top)+3.25rem)] z-[58] max-h-[70vh] overflow-y-auto rounded-2xl border border-[#A55734]/15 bg-[#FFFBF8] p-4 shadow-xl lg:hidden">
+          <p className="font-courier text-sm font-bold text-[#A55734]">Coups de cœur</p>
+          <p className="mt-1 font-courier text-[11px] text-[#333]/65">
+            Villes &amp; POI visités (à venir) · note de connaissance régions (estimée)
+          </p>
+          <div className="mt-4 space-y-4">
+            <div>
+              <p className="font-courier text-[10px] font-bold uppercase tracking-wide text-[#A55734]/80">
+                Régions
+              </p>
+              <Link
+                href="/planifier/favoris"
+                className="mt-1 block font-courier text-xs text-[#E07856] underline"
+                onClick={() => setFavoritesOpen(false)}
+              >
+                Voir mes régions favorites →
+              </Link>
+            </div>
+            <div>
+              <p className="font-courier text-[10px] font-bold uppercase tracking-wide text-[#A55734]/80">
+                POI &amp; villes
+              </p>
+              <Link
+                href="/planifier/favoris"
+                className="mt-1 block font-courier text-xs text-[#E07856] underline"
+                onClick={() => setFavoritesOpen(false)}
+              >
+                Ouvrir les favoris planificateur →
+              </Link>
+            </div>
+            <div>
+              <p className="font-courier text-[10px] font-bold uppercase tracking-wide text-[#A55734]/80">
+                Itinéraires
+              </p>
+              <Link
+                href="/planifier/favoris"
+                className="mt-1 block font-courier text-xs text-[#E07856] underline"
+                onClick={() => setFavoritesOpen(false)}
+              >
+                Itinéraires enregistrés →
+              </Link>
+            </div>
+          </div>
+        </div>
+      )}
+      <div className="pointer-events-none fixed right-3 top-[max(0.65rem,env(safe-area-inset-top))] z-[52] flex flex-col items-end gap-2 lg:hidden">
         <button
           type="button"
           onClick={() => setSearchOpen((o) => !o)}
-          className={`pointer-events-auto flex h-12 w-12 items-center justify-center rounded-full border shadow-md backdrop-blur-sm ${
+          className={`pointer-events-auto flex h-11 w-11 items-center justify-center rounded-full border shadow-md backdrop-blur-sm ${
             searchOpen || searchQuery
               ? "border-[#E07856] bg-[#E07856] text-white"
               : "border-[#A55734]/25 bg-white/95 text-[#A55734]"
           }`}
-          aria-label="Recherche"
+          aria-label="Recherche régions"
         >
           <Search className="h-5 w-5" />
         </button>
         <button
           type="button"
           onClick={() => setFilterSheetOpen(!filterSheetOpen)}
-          className={`pointer-events-auto flex h-12 items-center gap-1.5 rounded-full border px-4 shadow-md backdrop-blur-sm ${
+          className={`pointer-events-auto flex h-11 w-11 items-center justify-center rounded-full border shadow-md backdrop-blur-sm ${
             filterSheetOpen
               ? "border-[#E07856] bg-[#E07856] text-white"
               : "border-[#A55734]/25 bg-white/95 text-[#A55734]"
           }`}
+          aria-label="Filtres"
         >
-          <Filter className="h-4 w-4" />
-          <span className="font-courier text-xs font-bold">Filtres</span>
+          <Filter className="h-5 w-5" />
         </button>
-        <Link
-          href="/planifier/favoris"
-          className="pointer-events-auto flex h-12 w-12 items-center justify-center rounded-full border border-[#A55734]/25 bg-white/95 text-[#A55734] shadow-md backdrop-blur-sm"
-          aria-label="Favoris"
+        <button
+          type="button"
+          onClick={() => setFavoritesOpen((o) => !o)}
+          className={`pointer-events-auto flex h-11 w-11 items-center justify-center rounded-full border shadow-md backdrop-blur-sm ${
+            favoritesOpen
+              ? "border-[#E07856] bg-[#E07856] text-white"
+              : "border-[#A55734]/25 bg-white/95 text-[#A55734]"
+          }`}
+          title="Coups de cœur"
+          aria-label="Coups de cœur — régions, POI, itinéraires"
         >
-          <Heart className="h-5 w-5" />
-        </Link>
+          <Bookmark className="h-5 w-5" />
+        </button>
+        <span
+          className="pointer-events-auto flex h-11 w-11 cursor-help items-center justify-center rounded-full border border-dashed border-[#A55734]/30 bg-white/80 text-[#A55734]/50 shadow-sm"
+          title="Visité (villes & POI) — bientôt"
+          aria-hidden
+        >
+          <CheckCircle2 className="h-5 w-5" />
+        </span>
+        <span
+          className="pointer-events-auto flex h-11 w-11 cursor-help items-center justify-center rounded-full border border-dashed border-[#A55734]/30 bg-white/80 text-[#A55734]/50 shadow-sm"
+          title="Niveau de connaissance des régions (estimé) — bientôt"
+          aria-hidden
+        >
+          <GraduationCap className="h-5 w-5" />
+        </span>
       </div>
       {filterSheetOpen && (
         <div className="fixed inset-x-0 bottom-0 z-[55] max-h-[55vh] overflow-y-auto rounded-t-2xl border border-[#A55734]/15 bg-[#FFFBF8] px-4 pb-[max(1rem,env(safe-area-inset-bottom))] pt-3 shadow-[0_-8px_32px_rgba(0,0,0,0.12)] lg:hidden">
@@ -289,17 +367,26 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
 
   const showRegionSplit = top.screen !== "france";
 
-  const prevTopScreen = useRef(top.screen);
-  useEffect(() => {
-    if (prevTopScreen.current === "france" && top.screen !== "france") {
-      /* Plus de fiche région visible par défaut (photo + texte). */
+  const prevScreenRef = useRef(top.screen);
+
+  /**
+   * Split figé dès le 1er paint : l’animation 85%→36% concurrençait le fitBounds et décentrage la région.
+   * La fiche monte doucement via SheetChrome / motion (pas via la grille).
+   */
+  useLayoutEffect(() => {
+    const wasFrance = prevScreenRef.current === "france";
+    const now = top.screen;
+    if (wasFrance && now !== "france") {
       setMapRowShare(0.36);
     }
-    prevTopScreen.current = top.screen;
+    prevScreenRef.current = now;
   }, [top.screen]);
 
   useEffect(() => {
-    if (top.screen === "france") pendingFirstSplitFit.current = true;
+    if (top.screen === "france") {
+      pendingFirstSplitFit.current = true;
+      setMapRowShare(0.5);
+    }
   }, [top.screen]);
 
   const onSheetHandleDragStart = useCallback(() => {
@@ -311,6 +398,26 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
     const next = sheetDragStartShare.current + offsetY / h;
     setMapRowShare(Math.min(0.92, Math.max(0.08, next)));
   }, []);
+
+  const mapRowShareRef = useRef(mapRowShare);
+  useEffect(() => {
+    mapRowShareRef.current = mapRowShare;
+  }, [mapRowShare]);
+
+  /** Fin de glisser sur la jointure : zone « presque fermée » → retour France ; sinon snap lecture. */
+  const onGutterDragEnd = useCallback(() => {
+    const v = mapRowShareRef.current;
+    if (v >= 0.65) {
+      resetFrance();
+      return;
+    }
+    if (v <= 0.22) {
+      setMapRowShare(0.36);
+      return;
+    }
+    if (v < 0.42) setMapRowShare(0.36);
+    else setMapRowShare(0.52);
+  }, [resetFrance]);
 
   const [villePoints, setVillePoints] = useState<FeatureCollection | null>(null);
 
@@ -417,12 +524,28 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
       const b = bboxForRegionFeature(sectorsFc, activeRegionId);
       if (!b) return;
       const isFirstSplit = pendingFirstSplitFit.current && showRegionSplit;
-      const duration = isFirstSplit ? 1680 : 1050;
-      mapRef.current.fitBounds(b, {
-        afterLayout: isFirstSplit,
-        duration,
-      });
-      if (isFirstSplit) pendingFirstSplitFit.current = false;
+      const paddingFirst = {
+        top: 52,
+        bottom: 48,
+        left: 48,
+        right: 48,
+      };
+      const runFit = () => {
+        mapRef.current?.fitBounds(b, {
+          /** 1er zoom : grille déjà à sa taille finale + resize avant cadrage = moins de coupure. */
+          afterLayout: isFirstSplit,
+          duration: isFirstSplit ? 2100 : 1050,
+          padding: isFirstSplit ? paddingFirst : undefined,
+        });
+        if (isFirstSplit) pendingFirstSplitFit.current = false;
+      };
+      if (isFirstSplit) {
+        requestAnimationFrame(() => {
+          requestAnimationFrame(runFit);
+        });
+      } else {
+        runFit();
+      }
     }
   }, [mapReady, top, sectorsFc, activeRegionId, showRegionSplit]);
 
@@ -477,14 +600,34 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
           >
             <div className="relative min-h-0 overflow-hidden">
               <InspirationMapClient ref={mapRef} {...mapBaseProps} />
+              {mapRowShare > 0.58 && (
+                <motion.div
+                  initial={false}
+                  animate={{
+                    opacity: Math.min(1, Math.max(0, (mapRowShare - 0.58) / 0.2)),
+                    y: Math.max(0, 18 - (mapRowShare - 0.58) * 120),
+                  }}
+                  transition={{ duration: 0.12, ease: "easeOut" }}
+                  className="pointer-events-auto absolute bottom-0 left-0 right-0 z-[25] max-h-[min(42vh,46%)] overflow-hidden border-t border-[#A55734]/10 bg-[#FFF8F0]/98 shadow-[0_-4px_20px_rgba(0,0,0,0.08)] backdrop-blur-sm"
+                >
+                  <RegionCarousel />
+                </motion.div>
+              )}
             </div>
             <RegionSplitGutter
               onDragStart={onSheetHandleDragStart}
               onDrag={onSheetHandleDrag}
+              onDragEnd={onGutterDragEnd}
             />
-            <div className="flex min-h-0 min-w-0 flex-col overflow-hidden border-t border-[#A55734]/15 bg-[#FFFBF8]">
+            <motion.div
+              key={activeRegionId ?? "split"}
+              initial={{ opacity: 0.97 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.65, ease: [0.25, 0.85, 0.35, 1] }}
+              className="flex min-h-0 min-w-0 flex-col overflow-hidden border-t border-[#A55734]/15 bg-[#FAF4F0]"
+            >
               <MapBottomPanels />
-            </div>
+            </motion.div>
           </div>
         ) : (
           <>

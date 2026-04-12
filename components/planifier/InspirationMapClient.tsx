@@ -60,9 +60,11 @@ function allInteractiveLayerIds(): string[] {
 }
 
 export type FitBoundsOptions = {
-  /** Après passage carte plein écran → split : forcer resize avant le zoom (évite la coupure). */
+  /** Après passage carte plein écran → split : resize sur 2 frames puis zoom (sans délai arbitraire). */
   afterLayout?: boolean;
   duration?: number;
+  /** Padding dans le viewport Mapbox (px). */
+  padding?: { top?: number; bottom?: number; left?: number; right?: number };
 };
 
 export type InspirationMapExpose = {
@@ -240,7 +242,8 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
           const map = mapRef.current?.getMap();
           if (!map) return;
           const duration = options?.duration ?? 950;
-          const padding = { top: 40, bottom: 40, left: 44, right: 44 };
+          const basePad = { top: 40, bottom: 40, left: 44, right: 44 };
+          const padding = { ...basePad, ...options?.padding };
           const bounds: [[number, number], [number, number]] = [
             [bbox[0], bbox[1]],
             [bbox[2], bbox[3]],
@@ -254,15 +257,11 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
             });
           };
           if (options?.afterLayout) {
-            map.resize();
             requestAnimationFrame(() => {
+              map.resize();
               requestAnimationFrame(() => {
                 map.resize();
-                // La grille split vient de changer : un court délai évite un fitBounds sur mauvaises dimensions.
-                window.setTimeout(() => {
-                  map.resize();
-                  runFit();
-                }, 72);
+                runFit();
               });
             });
           } else {
