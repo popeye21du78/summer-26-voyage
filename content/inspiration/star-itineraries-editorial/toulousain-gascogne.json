@@ -1,3 +1,615 @@
 {
-  "itineraries": []
-}
+  "itineraries": [
+  {
+  "themeTitle": "Gascogne douce, bastides et collines",
+  "durationHint": "3 jours",
+  "tripTitle": "Autour de Lectoure, le Gers le plus harmonieux",
+  "summary": "Pour trois jours, le meilleur choix consiste à rester sur le cœur le plus lisible de la Gascogne. Lectoure donne l'ouverture idéale avec sa ligne de crête et son atmosphère de petite ville de caractère, puis Lavardens apporte une étape plus noble et plus panoramique avant une fin à Fourcès, l'un des villages les plus singuliers du secteur. En van, ce parcours fonctionne très bien car les distances sont courtes, les routes sont belles et le rythme reste doux du début à la fin. On est ici dans un voyage d'ambiances, de bastides, de châteaux et de collines, avec une vraie sensation de campagne habitée et d'élégance gasconne.",
+  "overnightStyle": "Nuits typiques : ville de crête, village de château, bastide ronde au cœur des collines.",
+  "regionId": "toulousain-gascogne",
+  "itinerarySlug": "gascogne-bastides-collines-3j",
+  "steps": [
+  {
+  "slug": "lectoure",
+  "nom": "Lectoure",
+  "role": "etape"
+  },
+  {
+  "slug": "lavardens",
+  "nom": "Lavardens",
+  "role": "etape"
+  },
+  {
+  "slug": "fources",
+  "nom": "Fourcès",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": []
+  },
+  {
+  "themeTitle": "Gascogne douce, bastides et collines",
+  "durationHint": "7 jours",
+  "tripTitle": "Le grand Gers de village en village",
+  "summary": "Sur une semaine, le Gers se prête parfaitement à un road trip lent, cohérent et très agréable à vivre. On commence à Auch pour l'ancrage urbain, puis le parcours glisse vers Lavardens, Lectoure, Condom et l'Abbaye de Flaran avant de gagner Montréal et Fourcès. Le voyage fonctionne particulièrement bien en van parce qu'il suit une logique naturelle d'ouest en est puis de boucle intérieure, sans grands détours ni ruptures de paysage. On reste toujours dans le même monde de collines, de pierres blondes, de petites routes et de haltes paisibles. C'est un itinéraire très incarné, pensé pour le plaisir du parcours autant que pour les étapes elles-mêmes.",
+  "overnightStyle": "Nuits typiques : ville gasconne, château sur hauteur, bastide tranquille, campagne vallonnée.",
+  "regionId": "toulousain-gascogne",
+  "itinerarySlug": "gascogne-bastides-collines-7j",
+  "steps": [
+  {
+  "slug": "auch",
+  "nom": "Auch",
+  "role": "etape"
+  },
+  {
+  "slug": "lavardens",
+  "nom": "Lavardens",
+  "role": "etape"
+  },
+  {
+  "slug": "lectoure",
+  "nom": "Lectoure",
+  "role": "etape"
+  },
+  {
+  "slug": "condom",
+  "nom": "Condom",
+  "role": "etape"
+  },
+  {
+  "slug": "abbaye-de-flaran",
+  "nom": "Abbaye de Flaran",
+  "role": "etape"
+  },
+  {
+  "slug": "montreal",
+  "nom": "Montréal",
+  "role": "etape"
+  },
+  {
+  "slug": "fources",
+  "nom": "Fourcès",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Armagnac",
+  "raison": "Nommer le grand terroir renforcerait la cohérence éditoriale entre Lectoure, Condom, Flaran et Fourcès.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Gascogne douce, bastides et collines",
+  "durationHint": "10 jours",
+  "tripTitle": "Toute la Gascogne des bastides, des crêtes et des abbayes",
+  "summary": "En dix jours, la Gascogne devient un vrai voyage de territoire, très cohérent si l'on accepte son rythme lent et ses paysages en douceur. On ouvre à Auch puis l'itinéraire déroule un arc naturel vers Lavardens, Lectoure, Condom, l'Abbaye de Flaran, Larressingle, Montréal, Fourcès et Marciac. La présence de Sarrant en fin de parcours permet de refermer la boucle avec une autre nuance de bastide et de campagne. En van, le voyage fonctionne remarquablement bien : les liaisons sont modérées, les ambiances restent homogènes et le plaisir vient précisément de cette continuité entre villages, vallonnements et patrimoine discret. C'est un grand itinéraire rural, profondément agréable à vivre.",
+  "overnightStyle": "Nuits typiques : bourg de collines, village de pierre, abbaye de campagne, bastide paisible.",
+  "regionId": "toulousain-gascogne",
+  "itinerarySlug": "gascogne-bastides-collines-10j",
+  "steps": [
+  {
+  "slug": "auch",
+  "nom": "Auch",
+  "role": "etape"
+  },
+  {
+  "slug": "lavardens",
+  "nom": "Lavardens",
+  "role": "etape"
+  },
+  {
+  "slug": "lectoure",
+  "nom": "Lectoure",
+  "role": "etape"
+  },
+  {
+  "slug": "condom",
+  "nom": "Condom",
+  "role": "etape"
+  },
+  {
+  "slug": "abbaye-de-flaran",
+  "nom": "Abbaye de Flaran",
+  "role": "etape"
+  },
+  {
+  "slug": "larressingle",
+  "nom": "Larressingle",
+  "role": "etape"
+  },
+  {
+  "slug": "montreal",
+  "nom": "Montréal",
+  "role": "etape"
+  },
+  {
+  "slug": "fources",
+  "nom": "Fourcès",
+  "role": "etape"
+  },
+  {
+  "slug": "marciac",
+  "nom": "Marciac",
+  "role": "etape"
+  },
+  {
+  "slug": "sarrant",
+  "nom": "Sarrant",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Pays d'Armagnac",
+  "raison": "Apporterait un vrai fil de lecture régional à l'ensemble du parcours gersois.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Ariège minérale, cathare et haute vallée",
+  "durationHint": "3 jours",
+  "tripTitle": "De Foix à Montségur, l'Ariège la plus évidente",
+  "summary": "Pour trois jours, mieux vaut assumer un axe très fort plutôt que disperser les étapes. Foix pose la base parfaite, à la fois urbaine et montagneuse, puis Mirepoix apporte une respiration de bastide avant la montée vers Montségur, qui donne à l'itinéraire sa tension historique et paysagère. En van, ce parcours fonctionne très bien parce qu'il suit une géographie simple, avec des vallées lisibles et des étapes très complémentaires. On passe d'une ville de piémont à des terres plus ouvertes puis à un promontoire mythique. C'est un court road trip solide, avec une vraie identité et une montée progressive en intensité.",
+  "overnightStyle": "Nuits typiques : ville de piémont, bastide ouverte, montagne de mémoire.",
+  "regionId": "toulousain-gascogne",
+  "itinerarySlug": "ariege-cathare-haute-vallee-3j",
+  "steps": [
+  {
+  "slug": "foix",
+  "nom": "Foix",
+  "role": "etape"
+  },
+  {
+  "slug": "mirepoix",
+  "nom": "Mirepoix",
+  "role": "etape"
+  },
+  {
+  "slug": "montsegur",
+  "nom": "Montségur",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Pays cathare",
+  "raison": "Nommer ce fil culturel renforcerait la cohérence éditoriale entre Mirepoix et Montségur.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Ariège minérale, cathare et haute vallée",
+  "durationHint": "7 jours",
+  "tripTitle": "Des bastides ariégeoises aux hauts reliefs d'Ax",
+  "summary": "Sur une semaine, l'Ariège gagne à être parcourue comme une progression de piémont vers la haute montagne. On ouvre par Mirepoix et Camon, puis l'on gagne Montségur avant de suivre la vallée vers Tarascon-sur-Ariège, la Grotte de Niaux, Ax-les-Thermes et le lac de Montbel. Le parcours reste très cohérent en van : il remonte peu à peu vers l'altitude, sans zigzags inutiles, tout en conservant une forte unité de paysage entre falaises, vallées resserrées et villages de caractère. C'est un voyage très équilibré, où le thème cathare, la montagne et les grands sites naturels se renforcent mutuellement.",
+  "overnightStyle": "Nuits typiques : bastide paisible, village fleuri, vallée de montagne, station thermale.",
+  "regionId": "toulousain-gascogne",
+  "itinerarySlug": "ariege-cathare-haute-vallee-7j",
+  "steps": [
+  {
+  "slug": "mirepoix",
+  "nom": "Mirepoix",
+  "role": "etape"
+  },
+  {
+  "slug": "camon",
+  "nom": "Camon",
+  "role": "etape"
+  },
+  {
+  "slug": "montsegur",
+  "nom": "Montségur",
+  "role": "etape"
+  },
+  {
+  "slug": "tarascon-sur-ariege",
+  "nom": "Tarascon-sur-Ariège",
+  "role": "etape"
+  },
+  {
+  "slug": "grotte-de-niaux",
+  "nom": "Grotte de Niaux",
+  "role": "etape"
+  },
+  {
+  "slug": "ax-les-thermes",
+  "nom": "Ax-les-Thermes",
+  "role": "etape"
+  },
+  {
+  "slug": "lac-de-montbel",
+  "nom": "Lac de Montbel",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Plateau de Beille",
+  "raison": "Ajouterait une respiration d'altitude très naturelle autour d'Ax-les-Thermes dans une version semaine.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Ariège minérale, cathare et haute vallée",
+  "durationHint": "10 jours",
+  "tripTitle": "Toute l'Ariège, des collines cathares aux grands cols",
+  "summary": "En dix jours, l'Ariège peut devenir un vrai grand voyage de montagne et de mémoire si l'on suit une logique de vallées. On commence à Foix puis Mirepoix, Camon et Montségur avant de remonter vers Tarascon-sur-Ariège, Niaux, Ax-les-Thermes et le col de Pailhères. La fin par Seix et Saint-Lizier permet d'ouvrir le regard vers une Ariège plus large, plus pastorale, sans rompre la cohérence générale. En van, cet itinéraire est particulièrement convaincant car il ménage une montée progressive vers la haute vallée, puis une réouverture plus douce sur les reliefs de l'ouest. C'est une proposition ample, solide et très incarnée.",
+  "overnightStyle": "Nuits typiques : bastide de piémont, vallée encaissée, bourg thermal, route de col, cité ancienne.",
+  "regionId": "toulousain-gascogne",
+  "itinerarySlug": "ariege-cathare-haute-vallee-10j",
+  "steps": [
+  {
+  "slug": "foix",
+  "nom": "Foix",
+  "role": "etape"
+  },
+  {
+  "slug": "mirepoix",
+  "nom": "Mirepoix",
+  "role": "etape"
+  },
+  {
+  "slug": "camon",
+  "nom": "Camon",
+  "role": "etape"
+  },
+  {
+  "slug": "montsegur",
+  "nom": "Montségur",
+  "role": "etape"
+  },
+  {
+  "slug": "tarascon-sur-ariege",
+  "nom": "Tarascon-sur-Ariège",
+  "role": "etape"
+  },
+  {
+  "slug": "grotte-de-niaux",
+  "nom": "Grotte de Niaux",
+  "role": "etape"
+  },
+  {
+  "slug": "ax-les-thermes",
+  "nom": "Ax-les-Thermes",
+  "role": "etape"
+  },
+  {
+  "slug": "col-de-pailheres",
+  "nom": "Col de Pailhères",
+  "role": "etape"
+  },
+  {
+  "slug": "seix",
+  "nom": "Seix",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-lizier",
+  "nom": "Saint-Lizier",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Haute Ariège",
+  "raison": "Nommer ce grand ensemble renforcerait la lecture de la seconde moitié du parcours.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Toulouse, Tarn et villes de rivière",
+  "durationHint": "3 jours",
+  "tripTitle": "Toulouse et le Tarn en version courte et fluide",
+  "summary": "Pour trois jours, le plus cohérent est de rester sur un arc très simple autour de Toulouse et de la vallée du Tarn. Toulouse donne évidemment le point de départ, puis Fronton apporte une respiration de vignoble avant une fin à Villemur-sur-Tarn. En van, ce format fonctionne très bien parce qu'il limite les contraintes urbaines à une seule grande étape et laisse ensuite place à des routes faciles, des petites villes et une ambiance plus douce. C'est un itinéraire court mais crédible, pensé pour mêler ville, terroir et bord de rivière sans forcer le rythme.",
+  "overnightStyle": "Nuits typiques : grande ville du Sud-Ouest, village de vignes, bourg de rivière.",
+  "regionId": "toulousain-gascogne",
+  "itinerarySlug": "toulouse-tarn-villes-riviere-3j",
+  "steps": [
+  {
+  "slug": "toulouse",
+  "nom": "Toulouse",
+  "role": "etape"
+  },
+  {
+  "slug": "fronton",
+  "nom": "Fronton",
+  "role": "etape"
+  },
+  {
+  "slug": "villemur-sur-tarn",
+  "nom": "Villemur-sur-Tarn",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Vignoble de Fronton",
+  "raison": "Rendrait plus explicite le fil terroir de cette courte échappée.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Toulouse, Tarn et villes de rivière",
+  "durationHint": "7 jours",
+  "tripTitle": "De Toulouse au Tarn-et-Garonne, la route des villes de brique et d'eau",
+  "summary": "Sur une semaine, il est possible de construire un itinéraire très lisible en suivant les vallées et les petites villes du nord-ouest toulousain. On part de Toulouse, puis l'on remonte vers Fronton, Grisolles, Auvillar, Moissac, Lauzerte et Montpezat-de-Quercy. Le voyage fonctionne bien en van car il suit un fil géographique clair, entre Garonne, Tarn et coteaux, sans détours inutiles. Chaque étape apporte une nuance différente du Sud-Ouest : ville rose, vignoble, abbaye, bastide perchée, bourg fluvial. C'est un itinéraire très agréable, plus doux que spectaculaire, mais remarquablement cohérent.",
+  "overnightStyle": "Nuits typiques : ville de brique, quai de rivière, bastide sur hauteur, campagne de coteaux.",
+  "regionId": "toulousain-gascogne",
+  "itinerarySlug": "toulouse-tarn-villes-riviere-7j",
+  "steps": [
+  {
+  "slug": "toulouse",
+  "nom": "Toulouse",
+  "role": "etape"
+  },
+  {
+  "slug": "fronton",
+  "nom": "Fronton",
+  "role": "etape"
+  },
+  {
+  "slug": "grisolles",
+  "nom": "Grisolles",
+  "role": "etape"
+  },
+  {
+  "slug": "auvillar",
+  "nom": "Auvillar",
+  "role": "etape"
+  },
+  {
+  "slug": "moissac",
+  "nom": "Moissac",
+  "role": "etape"
+  },
+  {
+  "slug": "lauzerte",
+  "nom": "Lauzerte",
+  "role": "etape"
+  },
+  {
+  "slug": "montpezat-de-quercy",
+  "nom": "Montpezat-de-Quercy",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Canal des Deux-Mers",
+  "raison": "Nommer cet axe d'eau renforcerait la cohérence entre Toulouse, Grisolles, Auvillar et Moissac.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Toulouse, Tarn et villes de rivière",
+  "durationHint": "10 jours",
+  "tripTitle": "Le grand Toulousain, des coteaux gascons aux bastides du Tarn-et-Garonne",
+  "summary": "En dix jours, le Toulousain et ses marges forment un road trip étonnamment cohérent si l'on suit les villes de rivière et les coteaux. On ouvre à Toulouse puis le parcours glisse vers Balma, Fronton et Villemur-sur-Tarn, avant de gagner Grisolles, Auvillar, Moissac, Lauzerte, Castelsagrat et Valence d'Agen. Cette progression est particulièrement adaptée au van : les liaisons sont modérées, les paysages restent lisibles et le voyage garde toujours une vraie continuité entre ville rose, vignobles, vallées et bastides. C'est un itinéraire très agréable à vivre, plus de caractère que de spectaculaire, mais solidement construit.",
+  "overnightStyle": "Nuits typiques : grande ville méridionale, bourg de coteaux, quai de rivière, bastide paisible.",
+  "regionId": "toulousain-gascogne",
+  "itinerarySlug": "toulouse-tarn-villes-riviere-10j",
+  "steps": [
+  {
+  "slug": "toulouse",
+  "nom": "Toulouse",
+  "role": "etape"
+  },
+  {
+  "slug": "balma",
+  "nom": "Balma",
+  "role": "etape"
+  },
+  {
+  "slug": "fronton",
+  "nom": "Fronton",
+  "role": "etape"
+  },
+  {
+  "slug": "villemur-sur-tarn",
+  "nom": "Villemur-sur-Tarn",
+  "role": "etape"
+  },
+  {
+  "slug": "grisolles",
+  "nom": "Grisolles",
+  "role": "etape"
+  },
+  {
+  "slug": "auvillar",
+  "nom": "Auvillar",
+  "role": "etape"
+  },
+  {
+  "slug": "moissac",
+  "nom": "Moissac",
+  "role": "etape"
+  },
+  {
+  "slug": "lauzerte",
+  "nom": "Lauzerte",
+  "role": "etape"
+  },
+  {
+  "slug": "castelsagrat",
+  "nom": "Castelsagrat",
+  "role": "etape"
+  },
+  {
+  "slug": "valence-dagen",
+  "nom": "Valence d'Agen",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Canal latéral à la Garonne",
+  "raison": "Donnerait un fil paysager et historique plus précis à la portion Tarn-et-Garonne.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Comminges et Pyrénées centrales",
+  "durationHint": "3 jours",
+  "tripTitle": "Luchon et Saint-Bertrand, la porte la plus juste des Pyrénées",
+  "summary": "Pour trois jours, il est préférable de rester sur un axe simple de piémont et de haute vallée. Saint-Bertrand-de-Comminges donne un départ fort, monumental et parfaitement situé, puis Luchon apporte immédiatement la montagne, avant une fin à Aurignac ou Martres-Tolosane selon le tempo choisi. En van, ce parcours fonctionne très bien car il ménage une vraie montée vers les Pyrénées sans se disperser dans trop de vallées. On y gagne un road trip court mais très équilibré, entre patrimoine majeur, air de montagne et routes de piémont.",
+  "overnightStyle": "Nuits typiques : cité de piémont, station thermale, bourg du Comminges.",
+  "regionId": "toulousain-gascogne",
+  "itinerarySlug": "comminges-pyrenees-3j",
+  "steps": [
+  {
+  "slug": "saint-bertrand-de-comminges",
+  "nom": "Saint-Bertrand-de-Comminges",
+  "role": "etape"
+  },
+  {
+  "slug": "luchon",
+  "nom": "Luchon",
+  "role": "etape"
+  },
+  {
+  "slug": "aurignac",
+  "nom": "Aurignac",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Vallée de Luchon",
+  "raison": "Renforcerait la cohérence de la partie montagne dans ce format court.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Comminges et Pyrénées centrales",
+  "durationHint": "7 jours",
+  "tripTitle": "Du Comminges aux hautes vallées, la montagne la plus accessible",
+  "summary": "Sur une semaine, cet itinéraire propose une très belle montée du piémont toulousain vers les Pyrénées centrales. On commence à Saint-Bertrand-de-Comminges puis Luchon, avant de rejoindre Aurignac, Martres-Tolosane et Rieux-Volvestre pour redescendre légèrement et mieux respirer. Ensuite, Cazères et Carbonne permettent de boucler un parcours très cohérent entre montagne et collines de Garonne. En van, l'ensemble fonctionne bien car il alterne haute vallée et étapes de transition, sans accumuler les routes difficiles. C'est un voyage équilibré, très agréable, qui donne une vraie profondeur au Comminges.",
+  "overnightStyle": "Nuits typiques : vallée pyrénéenne, bourg d'art de vivre, collines du piémont, rive de Garonne.",
+  "regionId": "toulousain-gascogne",
+  "itinerarySlug": "comminges-pyrenees-7j",
+  "steps": [
+  {
+  "slug": "saint-bertrand-de-comminges",
+  "nom": "Saint-Bertrand-de-Comminges",
+  "role": "etape"
+  },
+  {
+  "slug": "luchon",
+  "nom": "Luchon",
+  "role": "etape"
+  },
+  {
+  "slug": "aurignac",
+  "nom": "Aurignac",
+  "role": "etape"
+  },
+  {
+  "slug": "martres-tolosane",
+  "nom": "Martres-Tolosane",
+  "role": "etape"
+  },
+  {
+  "slug": "rieux-volvestre",
+  "nom": "Rieux-Volvestre",
+  "role": "etape"
+  },
+  {
+  "slug": "cazeres",
+  "nom": "Cazères",
+  "role": "etape"
+  },
+  {
+  "slug": "carbonne",
+  "nom": "Carbonne",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Piémont commingeois",
+  "raison": "Nommer ce grand ensemble renforcerait la cohérence géographique entre Saint-Bertrand, Aurignac et le Volvestre.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Comminges et Pyrénées centrales",
+  "durationHint": "10 jours",
+  "tripTitle": "Le grand sud toulousain, de la Garonne aux Pyrénées centrales",
+  "summary": "En dix jours, le Comminges et le piémont toulousain forment un road trip très cohérent dès lors qu'on accepte un rythme de vallées et de petites villes. On part de Toulouse, puis l'on descend vers Carbonne, Cazères, Rieux-Volvestre, Martres-Tolosane et Aurignac. Ensuite, l'itinéraire gagne Saint-Bertrand-de-Comminges et Luchon pour la grande séquence pyrénéenne, avant un retour apaisé vers L'Isle-Jourdain ou Auch selon l'envie. En van, ce parcours fonctionne bien car il construit une montée progressive vers la montagne puis une réouverture vers les collines gasconnes. C'est un itinéraire varié mais parfaitement lisible.",
+  "overnightStyle": "Nuits typiques : ville rose, vallée de Garonne, bourg du piémont, cité de montagne, campagne gasconne.",
+  "regionId": "toulousain-gascogne",
+  "itinerarySlug": "comminges-pyrenees-10j",
+  "steps": [
+  {
+  "slug": "toulouse",
+  "nom": "Toulouse",
+  "role": "etape"
+  },
+  {
+  "slug": "carbonne",
+  "nom": "Carbonne",
+  "role": "etape"
+  },
+  {
+  "slug": "cazeres",
+  "nom": "Cazères",
+  "role": "etape"
+  },
+  {
+  "slug": "rieux-volvestre",
+  "nom": "Rieux-Volvestre",
+  "role": "etape"
+  },
+  {
+  "slug": "martres-tolosane",
+  "nom": "Martres-Tolosane",
+  "role": "etape"
+  },
+  {
+  "slug": "aurignac",
+  "nom": "Aurignac",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-bertrand-de-comminges",
+  "nom": "Saint-Bertrand-de-Comminges",
+  "role": "etape"
+  },
+  {
+  "slug": "luchon",
+  "nom": "Luchon",
+  "role": "etape"
+  },
+  {
+  "slug": "lisle-jourdain",
+  "nom": "L’Isle-Jourdain",
+  "role": "etape"
+  },
+  {
+  "slug": "auch",
+  "nom": "Auch",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Comminges",
+  "raison": "Nommer explicitement le territoire renforcerait la cohérence de la partie sud du voyage.",
+  "type": "secteur"
+  }
+  ]
+  }
+  ]
+  }
+  

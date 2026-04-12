@@ -1,3 +1,812 @@
 {
-  "itineraries": []
-}
+  "itineraries": [
+  {
+  "themeTitle": "Châteaux de la Loire incontournables",
+  "durationHint": "3 jours",
+  "tripTitle": "Le cœur royal du Val de Loire, de Blois à Chenonceau",
+  "summary": "Pour trois jours, le meilleur choix est de se concentrer sur le tronçon le plus dense et le plus iconique de la Loire et du Cher. Blois donne une entrée urbaine et historique très solide, Chambord impose immédiatement la démesure, puis Chenonceau apporte une fin plus élégante, plus raffinée, presque suspendue sur l'eau. En van, ce parcours fonctionne parfaitement parce qu'il reste compact, évite les allers-retours et permet de profiter des routes secondaires, des bords de Loire et d'un vrai rythme de visite. C'est la version la plus évidente et la plus désirable pour une première immersion dans la région.",
+  "overnightStyle": "Nuits typiques : ville royale, lisière forestière, vallée douce du Cher.",
+  "regionId": "val-loire-centre",
+  "itinerarySlug": "chateaux-loire-incontournables-3j",
+  "steps": [
+  {
+  "slug": "chateau-de-blois",
+  "nom": "Château de Blois",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-chambord",
+  "nom": "Château de Chambord",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-chenonceau",
+  "nom": "Château de Chenonceau",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Loire à Vélo",
+  "raison": "Donnerait un fil de mobilité douce et paysagère très naturel entre les grands châteaux.",
+  "type": "itineraire"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Châteaux de la Loire incontournables",
+  "durationHint": "7 jours",
+  "tripTitle": "La grande semaine royale, de Chambord à Villandry",
+  "summary": "Sur une semaine, le Val de Loire s'exprime le mieux en suivant un axe ouest-est très lisible entre les grandes résidences royales et les villes de Loire. Blois, Chambord et Cheverny forment un premier noyau cohérent, avant Chaumont-sur-Loire et Amboise. Ensuite, le voyage se prolonge très naturellement vers Chenonceau, Azay-le-Rideau et Villandry. En van, c'est un itinéraire particulièrement confortable car les étapes sont proches, les ambiances changent sans rupture et l'on alterne parfaitement jardins, châteaux et petites routes au bord du fleuve. C'est un grand classique, mais construit ici comme un vrai parcours et non comme une simple liste de monuments.",
+  "overnightStyle": "Nuits typiques : ville de Loire, domaine forestier, village-jardin, petite vallée tourangelle.",
+  "regionId": "val-loire-centre",
+  "itinerarySlug": "chateaux-loire-incontournables-7j",
+  "steps": [
+  {
+  "slug": "chateau-de-blois",
+  "nom": "Château de Blois",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-chambord",
+  "nom": "Château de Chambord",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-cheverny",
+  "nom": "Château de Cheverny",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-chaumont-sur-loire",
+  "nom": "Château de Chaumont-sur-Loire",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-damboise",
+  "nom": "Château d'Amboise",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-chenonceau",
+  "nom": "Château de Chenonceau",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-dazay-le-rideau",
+  "nom": "Château d'Azay-le-Rideau",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-villandry",
+  "nom": "Château de Villandry",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": []
+  },
+  {
+  "themeTitle": "Châteaux de la Loire incontournables",
+  "durationHint": "10 jours",
+  "tripTitle": "Le grand tour des résidences royales du Centre-Val de Loire",
+  "summary": "En dix jours, il devient possible de faire du Val de Loire un vrai voyage d'ensemble, sans casser la cohérence du parcours. On part d'Orléans puis de Meung-sur-Loire et Beaugency avant d'atteindre Blois, Chambord, Cheverny et Chaumont-sur-Loire. Ensuite viennent Amboise, Chenonceau, Tours, Azay-le-Rideau, Langeais, Villandry et Fontevraud. En van, cette progression fonctionne très bien parce qu'elle suit la Loire puis ses vallées affluentes dans un mouvement continu, avec des distances raisonnables et une vraie montée en densité patrimoniale. C'est un itinéraire ample, prestigieux, mais toujours agréable à vivre sur la route.",
+  "overnightStyle": "Nuits typiques : quai ligérien, ville royale, vallée jardinée, bourg monumental.",
+  "regionId": "val-loire-centre",
+  "itinerarySlug": "chateaux-loire-incontournables-10j",
+  "steps": [
+  {
+  "slug": "orleans",
+  "nom": "Orléans",
+  "role": "etape"
+  },
+  {
+  "slug": "meung-sur-loire",
+  "nom": "Meung-sur-Loire",
+  "role": "etape"
+  },
+  {
+  "slug": "beaugency",
+  "nom": "Beaugency",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-blois",
+  "nom": "Château de Blois",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-chambord",
+  "nom": "Château de Chambord",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-cheverny",
+  "nom": "Château de Cheverny",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-chaumont-sur-loire",
+  "nom": "Château de Chaumont-sur-Loire",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-damboise",
+  "nom": "Château d'Amboise",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-chenonceau",
+  "nom": "Château de Chenonceau",
+  "role": "etape"
+  },
+  {
+  "slug": "tours",
+  "nom": "Tours",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-dazay-le-rideau",
+  "nom": "Château d'Azay-le-Rideau",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-langeais",
+  "nom": "Château de Langeais",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-villandry",
+  "nom": "Château de Villandry",
+  "role": "etape"
+  },
+  {
+  "slug": "abbaye-royale-de-fontevraud",
+  "nom": "Abbaye Royale de Fontevraud",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Val de Loire UNESCO",
+  "raison": "Nommer explicitement le grand paysage culturel renforcerait la lecture globale de l'itinéraire.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Loire sauvage, villes de fleuve et grands villages",
+  "durationHint": "3 jours",
+  "tripTitle": "D'Orléans à Sully, la Loire la plus fluide",
+  "summary": "Pour trois jours, l'axe ligérien entre Orléans et Sully-sur-Loire offre un parfait équilibre entre ville, fleuve et patrimoine. Orléans donne une vraie entrée de voyage, Châteauneuf-sur-Loire permet une étape de transition douce, puis Sully-sur-Loire apporte le grand château et la sensation de quitter la ville pour la Loire plus sauvage. En van, le parcours est particulièrement agréable car il suit naturellement le fleuve et laisse la place aux haltes en bord d'eau, aux petites routes et aux fins de journée tranquilles. C'est une très belle version courte du Centre ligérien.",
+  "overnightStyle": "Nuits typiques : quai urbain, bourg de Loire, rive calme au pied d'un château.",
+  "regionId": "val-loire-centre",
+  "itinerarySlug": "loire-sauvage-villes-fleuve-3j",
+  "steps": [
+  {
+  "slug": "orleans",
+  "nom": "Orléans",
+  "role": "etape"
+  },
+  {
+  "slug": "chateauneuf-sur-loire",
+  "nom": "Châteauneuf-sur-Loire",
+  "role": "etape"
+  },
+  {
+  "slug": "sully-sur-loire",
+  "nom": "Sully-sur-Loire",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": []
+  },
+  {
+  "themeTitle": "Loire sauvage, villes de fleuve et grands villages",
+  "durationHint": "7 jours",
+  "tripTitle": "La Loire ligérienne, des canaux aux villages vignerons",
+  "summary": "Sur une semaine, la Loire se découvre magnifiquement en suivant ses villes de rive, ses ponts et ses villages à l'écart immédiat du fleuve. On commence à Briare puis Gien, avant de suivre l'axe vers Sully-sur-Loire, Orléans, Meung-sur-Loire et Beaugency. La fin à Candes-Saint-Martin donne un très beau point d'orgue, plus monumental et plus contemplatif. En van, cet itinéraire est très convaincant : on roule dans le sens du fleuve, les étapes restent lisibles et l'on alterne patrimoine, quais, vignes et douceur ligérienne. C'est un vrai itinéraire de Loire, pas seulement une succession de sites.",
+  "overnightStyle": "Nuits typiques : bord de canal, ville de Loire, village vigneron, confluence apaisée.",
+  "regionId": "val-loire-centre",
+  "itinerarySlug": "loire-sauvage-villes-fleuve-7j",
+  "steps": [
+  {
+  "slug": "briare",
+  "nom": "Briare",
+  "role": "etape"
+  },
+  {
+  "slug": "gien",
+  "nom": "Gien",
+  "role": "etape"
+  },
+  {
+  "slug": "sully-sur-loire",
+  "nom": "Sully-sur-Loire",
+  "role": "etape"
+  },
+  {
+  "slug": "orleans",
+  "nom": "Orléans",
+  "role": "etape"
+  },
+  {
+  "slug": "meung-sur-loire",
+  "nom": "Meung-sur-Loire",
+  "role": "etape"
+  },
+  {
+  "slug": "beaugency",
+  "nom": "Beaugency",
+  "role": "etape"
+  },
+  {
+  "slug": "candes-saint-martin",
+  "nom": "Candes-Saint-Martin",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Levée de Loire",
+  "raison": "Renforcerait la dimension routière et paysagère du parcours le long du fleuve.",
+  "type": "route"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Loire sauvage, villes de fleuve et grands villages",
+  "durationHint": "10 jours",
+  "tripTitle": "La grande traversée ligérienne du Centre",
+  "summary": "En dix jours, on peut faire du Val de Loire un vrai voyage de fleuve, en gardant une lecture continue des paysages et des villes. Le parcours ouvre à Briare puis suit Gien, Sully-sur-Loire, Orléans, Meung-sur-Loire et Beaugency, avant de gagner Blois, Chaumont-sur-Loire, Tours, Langeais et Candes-Saint-Martin. Cette progression est très naturelle en van : elle suit l'eau, ménage des étapes courtes et variées, et laisse toujours de l'espace entre les grands sites. On y trouve une Loire plus vivante que muséale, avec un vrai plaisir de route et de halte.",
+  "overnightStyle": "Nuits typiques : canal et rivière, centre ancien ligérien, bourg de confluence, rive large du soir.",
+  "regionId": "val-loire-centre",
+  "itinerarySlug": "loire-sauvage-villes-fleuve-10j",
+  "steps": [
+  {
+  "slug": "briare",
+  "nom": "Briare",
+  "role": "etape"
+  },
+  {
+  "slug": "gien",
+  "nom": "Gien",
+  "role": "etape"
+  },
+  {
+  "slug": "sully-sur-loire",
+  "nom": "Sully-sur-Loire",
+  "role": "etape"
+  },
+  {
+  "slug": "orleans",
+  "nom": "Orléans",
+  "role": "etape"
+  },
+  {
+  "slug": "meung-sur-loire",
+  "nom": "Meung-sur-Loire",
+  "role": "etape"
+  },
+  {
+  "slug": "beaugency",
+  "nom": "Beaugency",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-blois",
+  "nom": "Château de Blois",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-chaumont-sur-loire",
+  "nom": "Château de Chaumont-sur-Loire",
+  "role": "etape"
+  },
+  {
+  "slug": "tours",
+  "nom": "Tours",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-langeais",
+  "nom": "Château de Langeais",
+  "role": "etape"
+  },
+  {
+  "slug": "candes-saint-martin",
+  "nom": "Candes-Saint-Martin",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Loire à Vélo",
+  "raison": "Permettrait d'incarner plus clairement l'esprit de voyage lent et de fleuve du parcours.",
+  "type": "itineraire"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Sologne, étangs et forêts secrètes",
+  "durationHint": "3 jours",
+  "tripTitle": "La Sologne la plus apaisante, entre étangs et clairières",
+  "summary": "Pour trois jours, la Sologne fonctionne très bien si l'on assume un itinéraire d'atmosphère plus que de monuments. La Sologne des Étangs donne le cœur du voyage, puis Chailles et La Ferté-Saint-Aubin permettent de conserver la logique forestière et de varier les haltes. En van, ce format est particulièrement agréable : routes secondaires, paysages très lisibles, rythme lent et nombreuses respirations en lisière d'eau ou de bois. C'est un itinéraire discret mais très fort pour ceux qui cherchent une région de calme, de brume matinale et de campagne boisée.",
+  "overnightStyle": "Nuits typiques : lisière de forêt, bord d'étang, bourg tranquille de Sologne.",
+  "regionId": "val-loire-centre",
+  "itinerarySlug": "sologne-etangs-forets-3j",
+  "steps": [
+  {
+  "slug": "sologne-des-etangs",
+  "nom": "Sologne des Étangs",
+  "role": "etape"
+  },
+  {
+  "slug": "chailles",
+  "nom": "Chailles",
+  "role": "etape"
+  },
+  {
+  "slug": "la-ferte-saint-aubin",
+  "nom": "La Ferté-Saint-Aubin",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Lamotte-Beuvron",
+  "raison": "Créerait une vraie étape centrale naturelle dans un voyage strictement solognot.",
+  "type": "commune"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Sologne, étangs et forêts secrètes",
+  "durationHint": "7 jours",
+  "tripTitle": "La grande boucle solognote, de forêts en châteaux discrets",
+  "summary": "Sur une semaine, la Sologne révèle un très beau potentiel de road trip si l'on accepte sa douceur et sa faible densité. Orléans sert d'entrée, puis Châteauneuf-sur-Loire et Lorris glissent déjà vers un monde plus boisé. Ensuite, la Sologne des Étangs, La Ferté-Saint-Aubin, Chambord et Cheverny composent un parcours très cohérent, entre forêt, domaines et routes lentes. En van, l'ensemble fonctionne particulièrement bien car il ne demande ni longues liaisons ni logistique complexe. C'est un voyage d'ambiance, de lumière filtrée, d'étangs et de grands domaines, très agréable à vivre au fil des jours.",
+  "overnightStyle": "Nuits typiques : ville de lisière, clairière solognote, bord d'étang, domaine forestier.",
+  "regionId": "val-loire-centre",
+  "itinerarySlug": "sologne-etangs-forets-7j",
+  "steps": [
+  {
+  "slug": "orleans",
+  "nom": "Orléans",
+  "role": "etape"
+  },
+  {
+  "slug": "chateauneuf-sur-loire",
+  "nom": "Châteauneuf-sur-Loire",
+  "role": "etape"
+  },
+  {
+  "slug": "lorris",
+  "nom": "Lorris",
+  "role": "etape"
+  },
+  {
+  "slug": "sologne-des-etangs",
+  "nom": "Sologne des Étangs",
+  "role": "etape"
+  },
+  {
+  "slug": "la-ferte-saint-aubin",
+  "nom": "La Ferté-Saint-Aubin",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-chambord",
+  "nom": "Château de Chambord",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-cheverny",
+  "nom": "Château de Cheverny",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Forêt de Sologne",
+  "raison": "Nommer explicitement le grand paysage renforcerait la cohérence de l'ensemble.",
+  "type": "aire_naturelle"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Sologne, étangs et forêts secrètes",
+  "durationHint": "10 jours",
+  "tripTitle": "Des forêts d'Orléans aux étangs de Sologne, le Centre le plus secret",
+  "summary": "En dix jours, la partie la plus forestière et la plus discrète de la région permet un road trip très différent du Val de Loire monumental. On part d'Orléans puis l'on gagne Châteauneuf-sur-Loire, Saint-Benoît-sur-Loire, Lorris et Montargis avant de basculer vers la Sologne des Étangs, La Ferté-Saint-Aubin, Chambord, Cheverny et Chaumont-sur-Loire. Ce parcours fonctionne très bien en van car il progresse par transitions naturelles entre forêts, rivières et étangs. Il offre une belle alternance entre lieux de patrimoine et grandes ambiances paysagères, sans jamais perdre son calme ni son unité.",
+  "overnightStyle": "Nuits typiques : forêt de plaine, bourg de rivière, étang caché, domaine de chasse et clairières.",
+  "regionId": "val-loire-centre",
+  "itinerarySlug": "sologne-etangs-forets-10j",
+  "steps": [
+  {
+  "slug": "orleans",
+  "nom": "Orléans",
+  "role": "etape"
+  },
+  {
+  "slug": "chateauneuf-sur-loire",
+  "nom": "Châteauneuf-sur-Loire",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-benoit-sur-loire",
+  "nom": "Saint-Benoît-sur-Loire",
+  "role": "etape"
+  },
+  {
+  "slug": "lorris",
+  "nom": "Lorris",
+  "role": "etape"
+  },
+  {
+  "slug": "montargis",
+  "nom": "Montargis",
+  "role": "etape"
+  },
+  {
+  "slug": "sologne-des-etangs",
+  "nom": "Sologne des Étangs",
+  "role": "etape"
+  },
+  {
+  "slug": "la-ferte-saint-aubin",
+  "nom": "La Ferté-Saint-Aubin",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-chambord",
+  "nom": "Château de Chambord",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-cheverny",
+  "nom": "Château de Cheverny",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-chaumont-sur-loire",
+  "nom": "Château de Chaumont-sur-Loire",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Forêt d'Orléans",
+  "raison": "Donnerait une vraie assise paysagère au début du parcours entre Orléans, Châteauneuf-sur-Loire et Lorris.",
+  "type": "aire_naturelle"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Berry, Brenne et villages plus secrets",
+  "durationHint": "3 jours",
+  "tripTitle": "La Brenne et ses confins, pour un road trip de respiration",
+  "summary": "Pour trois jours, la Brenne offre une proposition très différente du reste de la région : moins monumentale, plus sensorielle, plus lente. Le Parc naturel régional de la Brenne donne le cœur du voyage, Bellebouche apporte une vraie halte de rivage intérieur, puis Le Blanc ou Saint-Benoît-du-Sault permettent de conclure sur une petite ville ou un village à forte personnalité. En van, cet itinéraire fonctionne très bien parce qu'il assume le calme, les routes lentes et les grands paysages d'étangs plutôt que l'accumulation de sites. C'est une très belle option pour qui cherche une région secrète, naturelle et apaisée.",
+  "overnightStyle": "Nuits typiques : bord d'étang, petite ville de rivière, village perché du Berry.",
+  "regionId": "val-loire-centre",
+  "itinerarySlug": "berry-brenne-secrets-3j",
+  "steps": [
+  {
+  "slug": "parc-naturel-regional-de-la-brenne",
+  "nom": "Parc naturel régional de la Brenne",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-bellebouche",
+  "nom": "Plage de Bellebouche",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-benoit-du-sault",
+  "nom": "Saint-Benoît-du-Sault",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Maison du Parc de la Brenne",
+  "raison": "Donnerait un ancrage éditorial plus incarné au cœur du séjour nature.",
+  "type": "site_naturel"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Berry, Brenne et villages plus secrets",
+  "durationHint": "7 jours",
+  "tripTitle": "Du Berry secret aux étangs de Brenne",
+  "summary": "Sur une semaine, le Berry et la Brenne forment un itinéraire très cohérent si l'on privilégie les ambiances calmes et les petites villes de caractère. On part de Bourges puis d'Apremont-sur-Allier et de l'Abbaye de Noirlac, avant de rejoindre Gargilesse-Dampierre, Argenton-sur-Creuse et le Parc naturel régional de la Brenne. La fin par Bellebouche et Le Blanc permet de rester fidèle à ce grand paysage d'eau et de silence. En van, c'est un voyage particulièrement agréable car les routes sont fluides, les étapes bien espacées et le sentiment d'espace très présent. L'ensemble a une vraie âme, loin des parcours trop attendus.",
+  "overnightStyle": "Nuits typiques : ville d'art, village de rivière, abbaye de campagne, étang et bocage.",
+  "regionId": "val-loire-centre",
+  "itinerarySlug": "berry-brenne-secrets-7j",
+  "steps": [
+  {
+  "slug": "bourges",
+  "nom": "Bourges",
+  "role": "etape"
+  },
+  {
+  "slug": "apremont-sur-allier",
+  "nom": "Apremont-sur-Allier",
+  "role": "etape"
+  },
+  {
+  "slug": "abbaye-de-noirlac",
+  "nom": "Abbaye de Noirlac",
+  "role": "etape"
+  },
+  {
+  "slug": "gargilesse-dampierre",
+  "nom": "Gargilesse-Dampierre",
+  "role": "etape"
+  },
+  {
+  "slug": "argenton-sur-creuse",
+  "nom": "Argenton-sur-Creuse",
+  "role": "etape"
+  },
+  {
+  "slug": "parc-naturel-regional-de-la-brenne",
+  "nom": "Parc naturel régional de la Brenne",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-bellebouche",
+  "nom": "Plage de Bellebouche",
+  "role": "etape"
+  },
+  {
+  "slug": "le-blanc",
+  "nom": "Le Blanc",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Vallée de la Creuse",
+  "raison": "Renforcerait la lecture paysagère entre Gargilesse-Dampierre et Argenton-sur-Creuse.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Berry, Brenne et villages plus secrets",
+  "durationHint": "10 jours",
+  "tripTitle": "Le grand Berry, des abbayes aux étangs de Brenne",
+  "summary": "En dix jours, le Berry et la Brenne deviennent un vrai voyage d'intérieur, cohérent et très agréable en van. On ouvre à Bourges puis Menetou-Salon, La Borne et Sancerre pour une première séquence de collines et de villages. Ensuite, le parcours descend vers Noirlac, Gargilesse-Dampierre, Argenton-sur-Creuse et la Maison de George Sand avant de gagner la Brenne, Bellebouche, Le Blanc et Saint-Benoît-du-Sault. Ce cheminement est particulièrement pertinent parce qu'il fait glisser le voyage d'un Berry plus culturel vers un Berry plus naturel, sans jamais rompre l'unité de ton. C'est un itinéraire de vraie profondeur régionale.",
+  "overnightStyle": "Nuits typiques : ville historique, village de coteaux, rivière berrichonne, bord d'étang, bourg perché.",
+  "regionId": "val-loire-centre",
+  "itinerarySlug": "berry-brenne-secrets-10j",
+  "steps": [
+  {
+  "slug": "bourges",
+  "nom": "Bourges",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-menetou-salon",
+  "nom": "Château de Menetou-Salon",
+  "role": "etape"
+  },
+  {
+  "slug": "la-borne",
+  "nom": "La Borne",
+  "role": "etape"
+  },
+  {
+  "slug": "sancerre",
+  "nom": "Sancerre",
+  "role": "etape"
+  },
+  {
+  "slug": "abbaye-de-noirlac",
+  "nom": "Abbaye de Noirlac",
+  "role": "etape"
+  },
+  {
+  "slug": "gargilesse-dampierre",
+  "nom": "Gargilesse-Dampierre",
+  "role": "etape"
+  },
+  {
+  "slug": "argenton-sur-creuse",
+  "nom": "Argenton-sur-Creuse",
+  "role": "etape"
+  },
+  {
+  "slug": "maison-de-george-sand",
+  "nom": "Maison de George Sand",
+  "role": "etape"
+  },
+  {
+  "slug": "parc-naturel-regional-de-la-brenne",
+  "nom": "Parc naturel régional de la Brenne",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-bellebouche",
+  "nom": "Plage de Bellebouche",
+  "role": "etape"
+  },
+  {
+  "slug": "le-blanc",
+  "nom": "Le Blanc",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-benoit-du-sault",
+  "nom": "Saint-Benoît-du-Sault",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Boischaut",
+  "raison": "Permettrait de nommer plus clairement la transition entre le Berry culturel et la Brenne naturelle.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Touraine, villages de charme et vallées plus intimes",
+  "durationHint": "3 jours",
+  "tripTitle": "Loches, Montrésor et Beaulieu, la Touraine la plus délicate",
+  "summary": "Pour trois jours, le sud-est tourangeau permet un très beau parcours de villages et de petites villes, loin du seul imaginaire des grands châteaux. Le Château de Loches donne une ouverture forte, Beaulieu-lès-Loches apporte une continuité paisible, puis Montrésor conclut sur un décor très élégant de rivière et de vieille pierre. En van, cet itinéraire est particulièrement réussi car il reste resserré, très agréable sur la route et riche en atmosphère. On voyage dans une Touraine plus intime, faite de vallées discrètes, de patrimoine dense et de belles fins de journée.",
+  "overnightStyle": "Nuits typiques : cité fortifiée, village de rivière, petite ville de pierre blonde.",
+  "regionId": "val-loire-centre",
+  "itinerarySlug": "touraine-villages-intimes-3j",
+  "steps": [
+  {
+  "slug": "chateau-de-loches",
+  "nom": "Château de Loches",
+  "role": "etape"
+  },
+  {
+  "slug": "beaulieu-les-loches",
+  "nom": "Beaulieu-lès-Loches",
+  "role": "etape"
+  },
+  {
+  "slug": "montresor",
+  "nom": "Montrésor",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": []
+  },
+  {
+  "themeTitle": "Touraine, villages de charme et vallées plus intimes",
+  "durationHint": "7 jours",
+  "tripTitle": "La Touraine des villages, des vallées et des jardins",
+  "summary": "Sur une semaine, la Touraine gagne à être parcourue par ses vallées plus discrètes autant que par ses grands noms. On commence à Tours, puis l'on suit Villandry, Azay-le-Rideau, Villaines-les-Rochers et Sainte-Maure-de-Touraine avant de remonter vers Loches, Beaulieu-lès-Loches et Montrésor. Cet itinéraire fonctionne très bien en van car il alterne parfaitement bourgs vivants, jardins, villages d'artisans et petites routes de vallée. On y trouve une Touraine moins frontale, plus habitée, très agréable à parcourir lentement. C'est un voyage de charme plus que d'accumulation, avec une vraie cohérence de ton.",
+  "overnightStyle": "Nuits typiques : ville ligérienne, jardin de vallée, village d'artisans, bourg de rivière calme.",
+  "regionId": "val-loire-centre",
+  "itinerarySlug": "touraine-villages-intimes-7j",
+  "steps": [
+  {
+  "slug": "tours",
+  "nom": "Tours",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-villandry",
+  "nom": "Château de Villandry",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-dazay-le-rideau",
+  "nom": "Château d'Azay-le-Rideau",
+  "role": "etape"
+  },
+  {
+  "slug": "villaines-les-rochers",
+  "nom": "Villaines-les-Rochers",
+  "role": "etape"
+  },
+  {
+  "slug": "sainte-maure-de-touraine",
+  "nom": "Sainte-Maure-de-Touraine",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-loches",
+  "nom": "Château de Loches",
+  "role": "etape"
+  },
+  {
+  "slug": "beaulieu-les-loches",
+  "nom": "Beaulieu-lès-Loches",
+  "role": "etape"
+  },
+  {
+  "slug": "montresor",
+  "nom": "Montrésor",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Vallée de l'Indre",
+  "raison": "Nommer cette vallée rendrait la cohérence du parcours encore plus claire entre Azay-le-Rideau, Loches et Montrésor.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Touraine, villages de charme et vallées plus intimes",
+  "durationHint": "10 jours",
+  "tripTitle": "La grande Touraine intérieure, de Loire aux vallées du sud",
+  "summary": "En dix jours, la Touraine et ses confins offrent un road trip remarquable si l'on ne se limite pas aux seuls grands châteaux. Tours ouvre naturellement le voyage, puis Rochecorbon, Amboise, Chenonceau et Pontlevoy font la transition entre Loire et Cher. Ensuite, l'itinéraire prend un ton plus intime autour de Loches, Beaulieu-lès-Loches, Montrésor, Richelieu, Crissay-sur-Manse et Candes-Saint-Martin. En van, cette progression est très convaincante : elle suit des vallées successives, ménage des temps de route doux et propose une vraie montée en subtilité. C'est une Touraine de profondeur, très cohérente et très agréable à vivre.",
+  "overnightStyle": "Nuits typiques : rive de Loire, vallée du Cher, cité fortifiée, bourg de campagne noble, confluence calme.",
+  "regionId": "val-loire-centre",
+  "itinerarySlug": "touraine-villages-intimes-10j",
+  "steps": [
+  {
+  "slug": "tours",
+  "nom": "Tours",
+  "role": "etape"
+  },
+  {
+  "slug": "sentier-saint-georges---rochecorbon",
+  "nom": "Sentier Saint Georges - Rochecorbon",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-damboise",
+  "nom": "Château d'Amboise",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-chenonceau",
+  "nom": "Château de Chenonceau",
+  "role": "etape"
+  },
+  {
+  "slug": "pontlevoy",
+  "nom": "Pontlevoy",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-loches",
+  "nom": "Château de Loches",
+  "role": "etape"
+  },
+  {
+  "slug": "beaulieu-les-loches",
+  "nom": "Beaulieu-lès-Loches",
+  "role": "etape"
+  },
+  {
+  "slug": "montresor",
+  "nom": "Montrésor",
+  "role": "etape"
+  },
+  {
+  "slug": "bourg-de-richelieu",
+  "nom": "Bourg de Richelieu",
+  "role": "etape"
+  },
+  {
+  "slug": "crissay-sur-manse",
+  "nom": "Crissay-sur-Manse",
+  "role": "etape"
+  },
+  {
+  "slug": "candes-saint-martin",
+  "nom": "Candes-Saint-Martin",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Vallée du Cher",
+  "raison": "Renforcerait la lecture de la première moitié du parcours entre Amboise, Chenonceau et Pontlevoy.",
+  "type": "secteur"
+  }
+  ]
+  }
+  ]
+  }
+  

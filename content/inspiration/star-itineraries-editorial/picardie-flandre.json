@@ -1,3 +1,761 @@
 {
-  "itineraries": []
-}
+  "itineraries": [
+  {
+  "themeTitle": "Baie de Somme et estuaires du nord",
+  "durationHint": "3 jours",
+  "tripTitle": "Le grand classique de la Baie de Somme, entre ports, lumières et horizon",
+  "summary": "Pour trois jours, la Baie de Somme est de loin le parcours le plus évident et le plus satisfaisant. Le Crotoy ouvre l'itinéraire avec sa lumière de rive nord et son rapport direct à l'estuaire, Saint-Valery-sur-Somme apporte le cœur patrimonial et la profondeur de village-port, puis Cayeux-sur-Mer installe une fin plus marine, plus brute, face aux galets et au large. En van, ce voyage fonctionne parfaitement : peu de kilomètres, un même grand paysage qui change d'heure en heure, et une vraie sensation de respiration. C'est un itinéraire compact mais très fort, pensé pour profiter des marées, des longues promenades et d'une Picardie maritime au rythme lent.",
+  "overnightStyle": "Nuits typiques : port de baie, village de quai, front de mer de galets.",
+  "regionId": "picardie-flandre",
+  "itinerarySlug": "baie-somme-estuaires-3j",
+  "steps": [
+  {
+  "slug": "le-crotoy",
+  "nom": "Le Crotoy",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-valery-sur-somme",
+  "nom": "Saint-Valery-sur-Somme",
+  "role": "etape"
+  },
+  {
+  "slug": "cayeux-sur-mer",
+  "nom": "Cayeux-sur-Mer",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": []
+  },
+  {
+  "themeTitle": "Baie de Somme et estuaires du nord",
+  "durationHint": "7 jours",
+  "tripTitle": "Toute la Baie de Somme, des dunes du Marquenterre aux quais de Saint-Valery",
+  "summary": "Sur une semaine, la Baie de Somme mérite d'être parcourue lentement plutôt que traitée comme une simple halte. Fort-Mahon-Plage et Rue donnent une belle entrée par le nord, avant de rejoindre Le Crotoy, Saint-Valery-sur-Somme, Cayeux-sur-Mer et Abbeville. La fin par Long ouvre une autre lecture, plus fluviale et intérieure, sans casser la cohérence de l'ensemble. En van, cet itinéraire est très agréable : les distances sont courtes, les ambiances changent sans rupture, et le voyage alterne dunes, baie, villages et vallée. C'est un road trip souple, contemplatif, très bien adapté à ce grand paysage mouvant où l'on vient autant pour la route que pour les haltes.",
+  "overnightStyle": "Nuits typiques : dune et plage, port de baie, bourg de vallée, petite ville d'estuaire.",
+  "regionId": "picardie-flandre",
+  "itinerarySlug": "baie-somme-estuaires-7j",
+  "steps": [
+  {
+  "slug": "fort-mahon-plage",
+  "nom": "Fort-Mahon-Plage",
+  "role": "etape"
+  },
+  {
+  "slug": "rue",
+  "nom": "Rue",
+  "role": "etape"
+  },
+  {
+  "slug": "le-crotoy",
+  "nom": "Le Crotoy",
+  "role": "etape"
+  },
+  {
+  "slug": "baie-de-somme",
+  "nom": "Baie de Somme",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-valery-sur-somme",
+  "nom": "Saint-Valery-sur-Somme",
+  "role": "etape"
+  },
+  {
+  "slug": "cayeux-sur-mer",
+  "nom": "Cayeux-sur-Mer",
+  "role": "etape"
+  },
+  {
+  "slug": "abbeville",
+  "nom": "Abbeville",
+  "role": "etape"
+  },
+  {
+  "slug": "long",
+  "nom": "Long",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Parc du Marquenterre",
+  "raison": "Renforcerait naturellement la lecture ornithologique et paysagère de l'entrée nord de la baie.",
+  "type": "aire_naturelle"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Baie de Somme et estuaires du nord",
+  "durationHint": "10 jours",
+  "tripTitle": "De la baie aux plages du sud, la grande Somme maritime et intérieure",
+  "summary": "En dix jours, la Somme permet un vrai voyage de territoire, plus ample que la seule baie mais toujours très cohérent. On ouvre au nord par Fort-Mahon-Plage et Le Crotoy, puis l'on traverse la Baie de Somme jusqu'à Saint-Valery-sur-Somme et Cayeux-sur-Mer. Ensuite, le parcours s'étire vers Abbeville, Amiens, Naours et Villers-Bretonneux, pour donner de l'épaisseur à l'arrière-pays tout en restant dans la même famille de paysages ouverts et de mémoire discrète. En van, cette version longue fonctionne bien parce qu'elle garde un cœur très lisible avant d'élargir progressivement. C'est une belle traversée de Picardie, entre estuaire, vallée et grandes plaines du ciel.",
+  "overnightStyle": "Nuits typiques : plage de baie, quai ancien, ville de rivière, campagne ouverte du soir.",
+  "regionId": "picardie-flandre",
+  "itinerarySlug": "baie-somme-estuaires-10j",
+  "steps": [
+  {
+  "slug": "fort-mahon-plage",
+  "nom": "Fort-Mahon-Plage",
+  "role": "etape"
+  },
+  {
+  "slug": "le-crotoy",
+  "nom": "Le Crotoy",
+  "role": "etape"
+  },
+  {
+  "slug": "baie-de-somme",
+  "nom": "Baie de Somme",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-valery-sur-somme",
+  "nom": "Saint-Valery-sur-Somme",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-cayeux-sur-mer",
+  "nom": "Plage de Cayeux-sur-Mer",
+  "role": "etape"
+  },
+  {
+  "slug": "abbeville",
+  "nom": "Abbeville",
+  "role": "etape"
+  },
+  {
+  "slug": "long",
+  "nom": "Long",
+  "role": "etape"
+  },
+  {
+  "slug": "amiens",
+  "nom": "Amiens",
+  "role": "etape"
+  },
+  {
+  "slug": "naours",
+  "nom": "Naours",
+  "role": "etape"
+  },
+  {
+  "slug": "villers-bretonneux",
+  "nom": "Villers-Bretonneux",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Marais d'Isle",
+  "raison": "Ajouterait une étape naturelle complémentaire si l'on voulait encore renforcer la transition entre Amiens et les plaines de mémoire.",
+  "type": "aire_naturelle"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Côte d'Opale et mer du Nord",
+  "durationHint": "3 jours",
+  "tripTitle": "Le Touquet, Boulogne et les premières grandes plages du nord",
+  "summary": "Pour trois jours, la Côte d'Opale se prête très bien à un parcours simple et tendu vers le nord. Le Touquet-Paris-Plage donne une entrée élégante, puis Boulogne-sur-Mer apporte de la densité portuaire et historique, avant une fin à Calais, plus ample, plus ouverte sur la Manche et les grands horizons. En van, cette formule fonctionne bien car elle évite de vouloir couvrir trop de côte en trop peu de temps. On garde un vrai fil maritime, entre stations, ville-port et plages balayées par le vent. C'est un itinéraire court mais robuste, très cohérent pour sentir une autre façade nordique du littoral français.",
+  "overnightStyle": "Nuits typiques : station de dunes, port en hauteur, grand front de mer du nord.",
+  "regionId": "picardie-flandre",
+  "itinerarySlug": "cote-opale-mer-du-nord-3j",
+  "steps": [
+  {
+  "slug": "le-touquet-paris-plage",
+  "nom": "Le Touquet-Paris-Plage",
+  "role": "etape"
+  },
+  {
+  "slug": "boulogne-sur-mer",
+  "nom": "Boulogne-sur-Mer",
+  "role": "etape"
+  },
+  {
+  "slug": "calais",
+  "nom": "Calais",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Cap Blanc-Nez",
+  "raison": "Renforcerait fortement la dimension paysagère entre Boulogne et Calais dans un format court.",
+  "type": "cap"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Côte d'Opale et mer du Nord",
+  "durationHint": "7 jours",
+  "tripTitle": "Du Touquet à Bray-Dunes, la grande montée vers la Flandre maritime",
+  "summary": "Sur une semaine, la côte du Pas-de-Calais jusqu'à la Flandre maritime compose un road trip très cohérent si l'on suit le rivage sans se disperser. On part du Touquet-Paris-Plage puis de Berck, avant de gagner Boulogne-sur-Mer, Calais, Malo-les-Bains et enfin les grandes plages ouvertes de Zuydcoote et Bray-Dunes. Le parcours est particulièrement convaincant en van : chaque étape garde le même fil maritime, mais les ambiances changent clairement, de la station chic aux longues plages du nord et aux horizons flamands. On y trouve beaucoup d'air, de lumière et de vent, avec une progression géographique très naturelle.",
+  "overnightStyle": "Nuits typiques : station balnéaire, port de Manche, plage du nord, dune frontalière.",
+  "regionId": "picardie-flandre",
+  "itinerarySlug": "cote-opale-mer-du-nord-7j",
+  "steps": [
+  {
+  "slug": "le-touquet-paris-plage",
+  "nom": "Le Touquet-Paris-Plage",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-berck",
+  "nom": "Plage de Berck",
+  "role": "etape"
+  },
+  {
+  "slug": "boulogne-sur-mer",
+  "nom": "Boulogne-sur-Mer",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-boulogne-sur-mer",
+  "nom": "Plage de Boulogne-sur-Mer",
+  "role": "etape"
+  },
+  {
+  "slug": "calais",
+  "nom": "Calais",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-malo-les-bains",
+  "nom": "Plage de Malo-les-Bains",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-zuydcoote",
+  "nom": "Plage de Zuydcoote",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-bray-dunes",
+  "nom": "Plage de Bray-Dunes",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Dunkerque",
+  "raison": "Apporterait un pivot urbain évident entre Calais, Malo-les-Bains et les plages flamandes.",
+  "type": "commune"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Côte d'Opale et mer du Nord",
+  "durationHint": "10 jours",
+  "tripTitle": "Toute la façade nord, des dunes picardes aux plages flamandes",
+  "summary": "En dix jours, la côte nord se prête à une très belle traversée continue, très agréable à vivre en van. On commence au sud avec Fort-Mahon-Plage et Berck, puis l'on remonte vers Le Touquet-Paris-Plage, Montreuil-sur-Mer en léger retrait, Boulogne-sur-Mer et Calais. La seconde moitié entre plus franchement en Flandre avec Saint-Omer, Cassel, Malo-les-Bains, Zuydcoote et Bray-Dunes. Cet élargissement est pertinent car il ajoute de la profondeur sans casser le fil du voyage : on passe de l'Opale aux paysages flamands, toujours dans une logique de mer, de plaines et de grands horizons. C'est un itinéraire ample mais très lisible.",
+  "overnightStyle": "Nuits typiques : dune et plage, port de côte, ville flamande, bord de mer très ouvert.",
+  "regionId": "picardie-flandre",
+  "itinerarySlug": "cote-opale-mer-du-nord-10j",
+  "steps": [
+  {
+  "slug": "fort-mahon-plage",
+  "nom": "Fort-Mahon-Plage",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-berck",
+  "nom": "Plage de Berck",
+  "role": "etape"
+  },
+  {
+  "slug": "le-touquet-paris-plage",
+  "nom": "Le Touquet-Paris-Plage",
+  "role": "etape"
+  },
+  {
+  "slug": "montreuil-sur-mer",
+  "nom": "Montreuil-sur-Mer",
+  "role": "etape"
+  },
+  {
+  "slug": "boulogne-sur-mer",
+  "nom": "Boulogne-sur-Mer",
+  "role": "etape"
+  },
+  {
+  "slug": "calais",
+  "nom": "Calais",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-omer",
+  "nom": "Saint-Omer",
+  "role": "etape"
+  },
+  {
+  "slug": "cassel",
+  "nom": "Cassel",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-malo-les-bains",
+  "nom": "Plage de Malo-les-Bains",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-zuydcoote",
+  "nom": "Plage de Zuydcoote",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-bray-dunes",
+  "nom": "Plage de Bray-Dunes",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Caps Blanc-Nez et Gris-Nez",
+  "raison": "Donneraient un vrai point d'orgue paysager entre Boulogne et Calais dans la version longue.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Flandre intérieure, beffrois et villes d'art",
+  "durationHint": "3 jours",
+  "tripTitle": "De Lille à Cassel, la Flandre des places et des hauteurs",
+  "summary": "Pour trois jours, la meilleure approche consiste à rester sur une Flandre intérieure compacte et très identitaire. Lille donne l'ouverture urbaine et culturelle, puis Cassel apporte le relief rare et la vue sur la plaine, avant Saint-Omer qui prolonge l'ambiance flamande avec plus de calme. En van, ce parcours est tout à fait crédible car il évite les grandes traversées et garde un thème clair : villes, briques, places, patrimoine et paysages ouverts. C'est un voyage plus terrien que maritime, mais très fort en personnalité et en plaisir de parcours.",
+  "overnightStyle": "Nuits typiques : grande ville flamande, village de mont, petite ville d'eau et de brique.",
+  "regionId": "picardie-flandre",
+  "itinerarySlug": "flandre-interieure-beffrois-3j",
+  "steps": [
+  {
+  "slug": "lille",
+  "nom": "Lille",
+  "role": "etape"
+  },
+  {
+  "slug": "cassel",
+  "nom": "Cassel",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-omer",
+  "nom": "Saint-Omer",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": []
+  },
+  {
+  "themeTitle": "Flandre intérieure, beffrois et villes d'art",
+  "durationHint": "7 jours",
+  "tripTitle": "Le nord des villes fortes, de Lille aux remparts du Hainaut",
+  "summary": "Sur une semaine, la Flandre et le Hainaut permettent un road trip très cohérent de villes historiques et de plaines. Lille sert de socle, puis le voyage glisse vers Douai, Arras, Lens, Valenciennes et Le Quesnoy, avec une fin à Bavay pour l'ouverture antique. Ce parcours fonctionne bien en van car il évite la dispersion et suit une logique très lisible d'ouest en est à travers les villes du nord. On y trouve une vraie variété de registres sans quitter une même atmosphère de patrimoine urbain, de briques et de fortifications. C'est une proposition solide, originale et très incarnée.",
+  "overnightStyle": "Nuits typiques : centre historique animé, ville de place, cité de remparts, plaine du nord.",
+  "regionId": "picardie-flandre",
+  "itinerarySlug": "flandre-interieure-beffrois-7j",
+  "steps": [
+  {
+  "slug": "lille",
+  "nom": "Lille",
+  "role": "etape"
+  },
+  {
+  "slug": "douai",
+  "nom": "Douai",
+  "role": "etape"
+  },
+  {
+  "slug": "arras",
+  "nom": "Arras",
+  "role": "etape"
+  },
+  {
+  "slug": "lens",
+  "nom": "Lens",
+  "role": "etape"
+  },
+  {
+  "slug": "valenciennes",
+  "nom": "Valenciennes",
+  "role": "etape"
+  },
+  {
+  "slug": "le-quesnoy",
+  "nom": "Le Quesnoy",
+  "role": "etape"
+  },
+  {
+  "slug": "bavay",
+  "nom": "Bavay",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Lewarde",
+  "raison": "Apporterait une étape très pertinente pour donner plus de profondeur à la lecture du bassin minier entre Douai, Lens et Valenciennes.",
+  "type": "commune"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Flandre intérieure, beffrois et villes d'art",
+  "durationHint": "10 jours",
+  "tripTitle": "La grande boucle du Nord, des places flamandes aux plaines du Hainaut",
+  "summary": "En dix jours, le nord urbain devient un vrai terrain de road trip si l'on assume une logique de villes et de campagnes ouvertes plutôt qu'un simple enchaînement de centres. On part de Lille puis de Saint-Amand-les-Eaux, Valenciennes et Le Quesnoy, avant de remonter vers Bavay et Cambrai. Ensuite, le parcours revient par Douai, Arras, Cassel et Saint-Omer. L'ensemble est cohérent car il dessine une large boucle sans va-et-vient inutile, en gardant toujours le même ton régional : brique, places, remparts, clochers et horizons plats. En van, cela donne un voyage original, très lisible et étonnamment agréable.",
+  "overnightStyle": "Nuits typiques : grande ville flamande, ville de remparts, bourg de plaine, centre historique du nord.",
+  "regionId": "picardie-flandre",
+  "itinerarySlug": "flandre-interieure-beffrois-10j",
+  "steps": [
+  {
+  "slug": "lille",
+  "nom": "Lille",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-amand-les-eaux",
+  "nom": "Saint-Amand-les-Eaux",
+  "role": "etape"
+  },
+  {
+  "slug": "valenciennes",
+  "nom": "Valenciennes",
+  "role": "etape"
+  },
+  {
+  "slug": "le-quesnoy",
+  "nom": "Le Quesnoy",
+  "role": "etape"
+  },
+  {
+  "slug": "bavay",
+  "nom": "Bavay",
+  "role": "etape"
+  },
+  {
+  "slug": "cambrai",
+  "nom": "Cambrai",
+  "role": "etape"
+  },
+  {
+  "slug": "douai",
+  "nom": "Douai",
+  "role": "etape"
+  },
+  {
+  "slug": "arras",
+  "nom": "Arras",
+  "role": "etape"
+  },
+  {
+  "slug": "cassel",
+  "nom": "Cassel",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-omer",
+  "nom": "Saint-Omer",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Monts de Flandre",
+  "raison": "Nommer ce secteur renforcerait très naturellement la cohérence autour de Cassel dans la version longue.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Oise royale, forêts et cités de pierre",
+  "durationHint": "3 jours",
+  "tripTitle": "Senlis, Chantilly et Pierrefonds, l'Oise la plus élégante",
+  "summary": "Pour trois jours, l'Oise offre un itinéraire particulièrement harmonieux. Senlis donne une entrée parfaite avec sa vieille pierre et sa densité historique, Chantilly apporte l'élégance aristocratique, puis Pierrefonds conclut sur une note plus romantique et forestière. En van, ce parcours est très crédible car les étapes sont proches, bien reliées et profondément cohérentes par l'ambiance. On circule entre forêts, villes anciennes et grands décors de château, avec une sensation de raffinement sans lourdeur. C'est un road trip court mais très abouti, idéal pour une échappée de patrimoine et de sous-bois.",
+  "overnightStyle": "Nuits typiques : cité de pierre, lisière de forêt, bourg de château romantique.",
+  "regionId": "picardie-flandre",
+  "itinerarySlug": "oise-royale-forets-3j",
+  "steps": [
+  {
+  "slug": "senlis",
+  "nom": "Senlis",
+  "role": "etape"
+  },
+  {
+  "slug": "chantilly",
+  "nom": "Chantilly",
+  "role": "etape"
+  },
+  {
+  "slug": "pierrefonds",
+  "nom": "Pierrefonds",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": []
+  },
+  {
+  "themeTitle": "Oise royale, forêts et cités de pierre",
+  "durationHint": "7 jours",
+  "tripTitle": "Des forêts royales aux villages d'art, l'Oise en version ample",
+  "summary": "Sur une semaine, l'Oise révèle une belle unité si l'on suit le fil des forêts, des petites villes et des lieux de séjour aristocratiques. On commence à Beauvais puis Gerberoy, avant de rejoindre Clermont, Senlis, Chantilly, Compiègne et Pierrefonds. L'ensemble est très cohérent en van : on ne fait pas de grands bonds, on reste dans une région de plateaux boisés et de villes de pierre, avec une montée progressive vers les paysages forestiers de l'est. C'est un itinéraire très agréable à vivre, plus élégant que spectaculaire, mais particulièrement bien construit pour un voyage lent.",
+  "overnightStyle": "Nuits typiques : ville de cathédrale, village fleuri, cité royale, forêt de l'Oise.",
+  "regionId": "picardie-flandre",
+  "itinerarySlug": "oise-royale-forets-7j",
+  "steps": [
+  {
+  "slug": "beauvais",
+  "nom": "Beauvais",
+  "role": "etape"
+  },
+  {
+  "slug": "gerberoy",
+  "nom": "Gerberoy",
+  "role": "etape"
+  },
+  {
+  "slug": "clermont",
+  "nom": "Clermont",
+  "role": "etape"
+  },
+  {
+  "slug": "senlis",
+  "nom": "Senlis",
+  "role": "etape"
+  },
+  {
+  "slug": "chantilly",
+  "nom": "Chantilly",
+  "role": "etape"
+  },
+  {
+  "slug": "compiegne",
+  "nom": "Compiègne",
+  "role": "etape"
+  },
+  {
+  "slug": "pierrefonds",
+  "nom": "Pierrefonds",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Forêt de Compiègne",
+  "raison": "Renforcerait le fil paysager entre Compiègne et Pierrefonds dans un itinéraire centré sur les forêts royales.",
+  "type": "aire_naturelle"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Oise royale, forêts et cités de pierre",
+  "durationHint": "10 jours",
+  "tripTitle": "La grande boucle de l'Oise, entre châteaux, forêts et villes anciennes",
+  "summary": "En dix jours, l'Oise peut devenir un voyage complet sans jamais perdre sa cohérence. On ouvre par Beauvais et Gerberoy, puis l'on gagne Clermont, Creil, Senlis, Chantilly, Ermenonville, Compiègne, Noyon et Pierrefonds. Ce parcours fonctionne très bien en van car il dessine une boucle logique et progressive, entre plateaux, vallées et forêts. Il laisse la place à plusieurs registres sans se disperser : villes anciennes, châteaux, paysages forestiers et étapes plus secrètes. C'est une région moins immédiatement spectaculaire que le littoral, mais d'une grande tenue pour un road trip patrimonial et apaisé.",
+  "overnightStyle": "Nuits typiques : ville de pierre, lisière de forêt, parc aristocratique, petite cité ancienne.",
+  "regionId": "picardie-flandre",
+  "itinerarySlug": "oise-royale-forets-10j",
+  "steps": [
+  {
+  "slug": "beauvais",
+  "nom": "Beauvais",
+  "role": "etape"
+  },
+  {
+  "slug": "gerberoy",
+  "nom": "Gerberoy",
+  "role": "etape"
+  },
+  {
+  "slug": "clermont",
+  "nom": "Clermont",
+  "role": "etape"
+  },
+  {
+  "slug": "creil",
+  "nom": "Creil",
+  "role": "etape"
+  },
+  {
+  "slug": "senlis",
+  "nom": "Senlis",
+  "role": "etape"
+  },
+  {
+  "slug": "chantilly",
+  "nom": "Chantilly",
+  "role": "etape"
+  },
+  {
+  "slug": "ermenonville",
+  "nom": "Ermenonville",
+  "role": "etape"
+  },
+  {
+  "slug": "compiegne",
+  "nom": "Compiègne",
+  "role": "etape"
+  },
+  {
+  "slug": "noyon",
+  "nom": "Noyon",
+  "role": "etape"
+  },
+  {
+  "slug": "pierrefonds",
+  "nom": "Pierrefonds",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Forêt de Chantilly",
+  "raison": "Apporterait un ancrage paysager explicite autour du duo Senlis-Chantilly.",
+  "type": "aire_naturelle"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Aisne, citadelles et chemins d'histoire",
+  "durationHint": "3 jours",
+  "tripTitle": "Laon, Coucy et Soissons, l'Aisne des hauteurs et des pierres fortes",
+  "summary": "Pour trois jours, l'Aisne offre un itinéraire très convaincant si l'on reste sur ses grandes cités de hauteur. Laon donne l'ouverture la plus forte, avec sa silhouette de ville perchée, Coucy-le-Château-Auffrique prolonge la puissance monumentale, puis Soissons apporte une fin plus urbaine et plus fluide. En van, ce parcours est particulièrement pertinent : les étapes sont proches, l'histoire est partout lisible, et la route reste simple. C'est un voyage de plateaux, de forteresses et de vieille pierre, très cohérent et étonnamment spectaculaire pour un format aussi court.",
+  "overnightStyle": "Nuits typiques : ville haute, village fortifié, cité d'abbaye et de rivière.",
+  "regionId": "picardie-flandre",
+  "itinerarySlug": "aisne-citadelles-histoire-3j",
+  "steps": [
+  {
+  "slug": "laon",
+  "nom": "Laon",
+  "role": "etape"
+  },
+  {
+  "slug": "coucy-le-chateau-auffrique",
+  "nom": "Coucy-le-Château-Auffrique",
+  "role": "etape"
+  },
+  {
+  "slug": "soissons",
+  "nom": "Soissons",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": []
+  },
+  {
+  "themeTitle": "Aisne, citadelles et chemins d'histoire",
+  "durationHint": "7 jours",
+  "tripTitle": "Du Laonnois au sud de l'Aisne, un voyage de forteresses et de mémoire",
+  "summary": "Sur une semaine, l'Aisne se découvre très bien par un axe nord-sud qui reste géographiquement simple et éditorialement fort. On part de Laon puis de Mons-en-Laonnois, avant de rejoindre Coucy-le-Château-Auffrique, Soissons, Braine et Cuiry-lès-Chaudardes. La fin vers Château-Thierry change légèrement de ton mais reste dans la même famille de paysages ouverts, de villes d'histoire et de mémoire. En van, cet itinéraire fonctionne bien car il évite les détours et garde un vrai rythme. Il propose une lecture plus intérieure, plus grave parfois, mais très cohérente de la région.",
+  "overnightStyle": "Nuits typiques : ville perchée, plateau ouvert, bourg de mémoire, vallée tranquille du sud de l'Aisne.",
+  "regionId": "picardie-flandre",
+  "itinerarySlug": "aisne-citadelles-histoire-7j",
+  "steps": [
+  {
+  "slug": "laon",
+  "nom": "Laon",
+  "role": "etape"
+  },
+  {
+  "slug": "mons-en-laonnois",
+  "nom": "Mons-en-Laonnois",
+  "role": "etape"
+  },
+  {
+  "slug": "coucy-le-chateau-auffrique",
+  "nom": "Coucy-le-Château-Auffrique",
+  "role": "etape"
+  },
+  {
+  "slug": "soissons",
+  "nom": "Soissons",
+  "role": "etape"
+  },
+  {
+  "slug": "braine",
+  "nom": "Braine",
+  "role": "etape"
+  },
+  {
+  "slug": "cuiry-les-chaudardes",
+  "nom": "Cuiry-lès-Chaudardes",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-thierry",
+  "nom": "Château-Thierry",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Chemin des Dames",
+  "raison": "Nommer explicitement ce grand axe historique renforcerait très fortement la cohérence entre Laon, Cuiry-lès-Chaudardes et Soissons.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Aisne, citadelles et chemins d'histoire",
+  "durationHint": "10 jours",
+  "tripTitle": "Toute l'Aisne en traversée, des collines du sud aux terres de Thiérache",
+  "summary": "En dix jours, l'Aisne gagne à être parcourue comme une grande diagonale, du sud vers la Thiérache. On commence par Château-Thierry, Braine et Soissons, puis l'on remonte vers Laon, Coucy-le-Château-Auffrique et Saint-Quentin. Ensuite, Guise, Vervins et Parfondeval donnent au voyage une vraie conclusion de bocage et de petites routes, très différente mais toujours cohérente. En van, ce parcours est très crédible car il suit une progression naturelle de paysages et d'ambiances, sans aller-retour artificiel. C'est un itinéraire de profondeur régionale, moins connu mais très fort en personnalité.",
+  "overnightStyle": "Nuits typiques : vallée du sud de l'Aisne, ville haute, cité fortifiée, bocage de Thiérache.",
+  "regionId": "picardie-flandre",
+  "itinerarySlug": "aisne-citadelles-histoire-10j",
+  "steps": [
+  {
+  "slug": "chateau-thierry",
+  "nom": "Château-Thierry",
+  "role": "etape"
+  },
+  {
+  "slug": "braine",
+  "nom": "Braine",
+  "role": "etape"
+  },
+  {
+  "slug": "soissons",
+  "nom": "Soissons",
+  "role": "etape"
+  },
+  {
+  "slug": "laon",
+  "nom": "Laon",
+  "role": "etape"
+  },
+  {
+  "slug": "coucy-le-chateau-auffrique",
+  "nom": "Coucy-le-Château-Auffrique",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-quentin",
+  "nom": "Saint-Quentin",
+  "role": "etape"
+  },
+  {
+  "slug": "guise",
+  "nom": "Guise",
+  "role": "etape"
+  },
+  {
+  "slug": "vervins",
+  "nom": "Vervins",
+  "role": "etape"
+  },
+  {
+  "slug": "parfondeval",
+  "nom": "Parfondeval",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Thiérache",
+  "raison": "Nommer ce secteur renforcerait la cohérence de la fin de parcours entre Guise, Vervins et Parfondeval.",
+  "type": "secteur"
+  }
+  ]
+  }
+  ]
+  }
+  

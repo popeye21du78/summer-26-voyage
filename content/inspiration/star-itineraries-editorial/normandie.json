@@ -1,3 +1,800 @@
 {
-  "itineraries": []
-}
+  "itineraries": [
+  {
+  "themeTitle": "Côte d'Albâtre et falaises de Seine-Maritime",
+  "durationHint": "3 jours",
+  "tripTitle": "Étretat, Fécamp et les plus belles falaises normandes",
+  "summary": "Pour trois jours en van, la Côte d'Albâtre offre l'un des itinéraires les plus évidents de Normandie. On part d'Étretat pour l'impact immédiat de ses arches et de ses falaises, puis l'on suit naturellement la côte vers Yport et Fécamp. Le parcours est court, dense et très cohérent : mêmes lumières changeantes, mêmes fronts de craie, mais des ambiances qui évoluent du grand site spectaculaire vers des ports plus vécus. En van, c'est un voyage facile à tenir sans se disperser, avec des trajets courts et un vrai plaisir de s'arrêter souvent. On profite ici d'une Normandie très graphique, balayée par le vent, parfaite pour un format compact mais mémorable.",
+  "overnightStyle": "Nuits typiques : falaise battue par le vent, port de pêche, petite station entre craie et galets.",
+  "regionId": "normandie",
+  "itinerarySlug": "cote-albatre-falaises-3j",
+  "steps": [
+  {
+  "slug": "etretat",
+  "nom": "Étretat",
+  "role": "etape"
+  },
+  {
+  "slug": "yport",
+  "nom": "Yport",
+  "role": "etape"
+  },
+  {
+  "slug": "fecamp",
+  "nom": "Fécamp",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Cap Fagnet",
+  "raison": "Renforcerait naturellement la lecture paysagère entre Étretat et Fécamp avec un grand belvédère côtier.",
+  "type": "cap"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Côte d'Albâtre et falaises de Seine-Maritime",
+  "durationHint": "7 jours",
+  "tripTitle": "La grande route des falaises, du Havre à Dieppe",
+  "summary": "Sur une semaine, la Côte d'Albâtre prend toute son ampleur si l'on suit le rivage d'un seul mouvement. Le départ par Le Havre et Sainte-Adresse donne une ouverture urbaine et maritime, avant de remonter vers Étretat, Fécamp, Veules-les-Roses puis Dieppe. Le parcours fonctionne parfaitement en van parce qu'il garde un fil côtier strict, sans zigzags inutiles, et fait alterner les grands sites, les ports et les villages plus délicats. Chaque étape change légèrement de ton tout en restant dans la même famille de paysages : falaises, galets, ciels mobiles et mer souvent grise-bleue. C'est un itinéraire très solide, idéal pour qui cherche une Normandie littorale, pure et rythmée par la route.",
+  "overnightStyle": "Nuits typiques : front de mer urbain, port de falaise, village marin, station de galets.",
+  "regionId": "normandie",
+  "itinerarySlug": "cote-albatre-falaises-7j",
+  "steps": [
+  {
+  "slug": "le-havre",
+  "nom": "Le Havre",
+  "role": "etape"
+  },
+  {
+  "slug": "sainte-adresse",
+  "nom": "Sainte-Adresse",
+  "role": "etape"
+  },
+  {
+  "slug": "etretat",
+  "nom": "Étretat",
+  "role": "etape"
+  },
+  {
+  "slug": "fecamp",
+  "nom": "Fécamp",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-valery-en-caux",
+  "nom": "Saint-Valery-en-Caux",
+  "role": "etape"
+  },
+  {
+  "slug": "veules-les-roses",
+  "nom": "Veules-les-Roses",
+  "role": "etape"
+  },
+  {
+  "slug": "dieppe",
+  "nom": "Dieppe",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Valleuse d'Antifer",
+  "raison": "Ajouterait une respiration plus secrète entre Le Havre et Étretat, très pertinente dans une semaine de côte.",
+  "type": "aire_naturelle"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Côte d'Albâtre et falaises de Seine-Maritime",
+  "durationHint": "10 jours",
+  "tripTitle": "Toute la Seine-Maritime maritime, des falaises aux vallées côtières",
+  "summary": "En dix jours, la Seine-Maritime permet un vrai voyage littoral, ample mais sans artificialité. On démarre au Havre, puis la route épouse la côte vers Étretat, Fécamp, Yport, Saint-Valery-en-Caux, Veules-les-Roses, Varengeville-sur-Mer, Dieppe et Le Tréport. L'intérêt de cette version longue est de ne pas se limiter aux seuls grands noms : elle laisse de la place aux haltes plus fines et aux changements subtils d'atmosphère. En van, l'itinéraire est très convaincant car on avance toujours dans le même sens, avec une vraie continuité de paysage et des étapes suffisamment rapprochées pour garder un rythme agréable. C'est une Normandie de bord de monde, de craie et de lumière, à savourer lentement.",
+  "overnightStyle": "Nuits typiques : falaise haute, port encaissé, village de jardins marins, fin de côte frontière.",
+  "regionId": "normandie",
+  "itinerarySlug": "cote-albatre-falaises-10j",
+  "steps": [
+  {
+  "slug": "le-havre",
+  "nom": "Le Havre",
+  "role": "etape"
+  },
+  {
+  "slug": "sainte-adresse",
+  "nom": "Sainte-Adresse",
+  "role": "etape"
+  },
+  {
+  "slug": "etretat",
+  "nom": "Étretat",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-detretat",
+  "nom": "Plage d'Étretat",
+  "role": "etape"
+  },
+  {
+  "slug": "yport",
+  "nom": "Yport",
+  "role": "etape"
+  },
+  {
+  "slug": "fecamp",
+  "nom": "Fécamp",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-valery-en-caux",
+  "nom": "Saint-Valery-en-Caux",
+  "role": "etape"
+  },
+  {
+  "slug": "veules-les-roses",
+  "nom": "Veules-les-Roses",
+  "role": "etape"
+  },
+  {
+  "slug": "varengeville-sur-mer",
+  "nom": "Varengeville-sur-Mer",
+  "role": "etape"
+  },
+  {
+  "slug": "dieppe",
+  "nom": "Dieppe",
+  "role": "etape"
+  },
+  {
+  "slug": "le-treport",
+  "nom": "Le Tréport",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Le Bois de Cise",
+  "raison": "Créerait une très belle transition paysagère entre Le Tréport et la fin de parcours côté falaises boisées.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Côte Fleurie, Bessin et mémoire du Débarquement",
+  "durationHint": "3 jours",
+  "tripTitle": "Entre Bayeux et les plages du Débarquement",
+  "summary": "Pour trois jours, il vaut mieux assumer un parcours resserré dans le Bessin plutôt que mêler trop de côtes différentes. Bayeux pose le socle historique, Arromanches-les-Bains apporte la dimension mémorielle face à la mer, puis Omaha Beach donne une fin plus ample et plus émotive. Cet itinéraire fonctionne très bien en van parce qu'il reste compact, avec des liaisons courtes et un vrai temps laissé à chaque étape. On passe de la ville de pierre aux plages ouvertes sans perdre le fil. C'est une proposition sobre, forte, très crédible, qui donne une lecture claire de l'une des séquences les plus marquantes de la Normandie.",
+  "overnightStyle": "Nuits typiques : petite ville historique, front de mer du Bessin, plage immense chargée de mémoire.",
+  "regionId": "normandie",
+  "itinerarySlug": "cote-fleurie-bessin-debarquement-3j",
+  "steps": [
+  {
+  "slug": "bayeux",
+  "nom": "Bayeux",
+  "role": "etape"
+  },
+  {
+  "slug": "arromanches-les-bains",
+  "nom": "Arromanches-les-Bains",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-domaha-beach",
+  "nom": "Plage d'Omaha Beach",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Colleville-sur-Mer",
+  "raison": "Renforcerait naturellement la cohérence mémorielle autour d'Omaha Beach dans un format court.",
+  "type": "commune"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Côte Fleurie, Bessin et mémoire du Débarquement",
+  "durationHint": "7 jours",
+  "tripTitle": "De Cabourg au Bessin, la côte normande entre élégance et histoire",
+  "summary": "Sur une semaine, ce parcours fait dialoguer deux visages majeurs de la Normandie littorale. On commence par la Côte Fleurie avec Cabourg, Houlgate, Villers-sur-Mer, Deauville et Trouville-sur-Mer, dans une ambiance de villas, de plage et de lumière douce. Puis l'itinéraire bifurque vers Bayeux, Arromanches-les-Bains et Courseulles-sur-Mer pour entrer dans le registre du Bessin et de la mémoire du Débarquement. En van, l'ensemble est cohérent : on suit la mer presque sans rupture, d'est en ouest, avec des étapes connues mais bien enchaînées. Le voyage garde ainsi du style, du sens et un vrai rythme, sans jamais se transformer en catalogue.",
+  "overnightStyle": "Nuits typiques : station élégante, plage de villas, petite ville du Bessin, port de mémoire.",
+  "regionId": "normandie",
+  "itinerarySlug": "cote-fleurie-bessin-debarquement-7j",
+  "steps": [
+  {
+  "slug": "cabourg",
+  "nom": "Cabourg",
+  "role": "etape"
+  },
+  {
+  "slug": "houlgate",
+  "nom": "Houlgate",
+  "role": "etape"
+  },
+  {
+  "slug": "villers-sur-mer",
+  "nom": "Villers-sur-Mer",
+  "role": "etape"
+  },
+  {
+  "slug": "deauville",
+  "nom": "Deauville",
+  "role": "etape"
+  },
+  {
+  "slug": "trouville-sur-mer",
+  "nom": "Trouville-sur-Mer",
+  "role": "etape"
+  },
+  {
+  "slug": "bayeux",
+  "nom": "Bayeux",
+  "role": "etape"
+  },
+  {
+  "slug": "arromanches-les-bains",
+  "nom": "Arromanches-les-Bains",
+  "role": "etape"
+  },
+  {
+  "slug": "courseulles-sur-mer",
+  "nom": "Courseulles-sur-Mer",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Trouville-Deauville",
+  "raison": "Le duo pourrait être mieux traité comme un ensemble, idéal pour donner plus de fluidité éditoriale à la Côte Fleurie.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Côte Fleurie, Bessin et mémoire du Débarquement",
+  "durationHint": "10 jours",
+  "tripTitle": "La grande côte du Calvados, des villas aux plages d'histoire",
+  "summary": "En dix jours, on peut parcourir toute la façade du Calvados sans casser la logique du voyage. Honfleur ouvre idéalement l'itinéraire avant la séquence de la Côte Fleurie autour de Deauville, Trouville-sur-Mer, Villers-sur-Mer, Houlgate et Cabourg. Ensuite, Caen apporte une respiration urbaine avant le basculement vers le Bessin : Bayeux, Arromanches-les-Bains, Port-en-Bessin-Huppain, Omaha Beach et Courseulles-sur-Mer. Ce qui rend ce road trip solide, c'est sa progression naturelle le long du littoral, d'est en ouest, entre élégance balnéaire et profondeur historique. En van, le rythme est très agréable, avec des étapes courtes mais suffisamment distinctes pour créer un vrai grand voyage côtier normand.",
+  "overnightStyle": "Nuits typiques : vieux port, station chic, ville de pierre, port du Bessin, plage immense.",
+  "regionId": "normandie",
+  "itinerarySlug": "cote-fleurie-bessin-debarquement-10j",
+  "steps": [
+  {
+  "slug": "honfleur",
+  "nom": "Honfleur",
+  "role": "etape"
+  },
+  {
+  "slug": "deauville",
+  "nom": "Deauville",
+  "role": "etape"
+  },
+  {
+  "slug": "trouville-sur-mer",
+  "nom": "Trouville-sur-Mer",
+  "role": "etape"
+  },
+  {
+  "slug": "villers-sur-mer",
+  "nom": "Villers-sur-Mer",
+  "role": "etape"
+  },
+  {
+  "slug": "houlgate",
+  "nom": "Houlgate",
+  "role": "etape"
+  },
+  {
+  "slug": "cabourg",
+  "nom": "Cabourg",
+  "role": "etape"
+  },
+  {
+  "slug": "caen",
+  "nom": "Caen",
+  "role": "etape"
+  },
+  {
+  "slug": "bayeux",
+  "nom": "Bayeux",
+  "role": "etape"
+  },
+  {
+  "slug": "arromanches-les-bains",
+  "nom": "Arromanches-les-Bains",
+  "role": "etape"
+  },
+  {
+  "slug": "port-en-bessin-huppain",
+  "nom": "Port-en-Bessin-Huppain",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-domaha-beach",
+  "nom": "Plage d'Omaha Beach",
+  "role": "etape"
+  },
+  {
+  "slug": "courseulles-sur-mer",
+  "nom": "Courseulles-sur-Mer",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Côte de Nacre",
+  "raison": "Nommer ce secteur clarifierait la transition entre Cabourg, Courseulles et le Bessin.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Cotentin, caps et plages de la Manche",
+  "durationHint": "3 jours",
+  "tripTitle": "Le meilleur du Cotentin entre Cherbourg et la Hague",
+  "summary": "Pour un format court mais puissant, le nord Cotentin est un choix idéal. Cherbourg-en-Cotentin sert d'entrée naturelle, puis l'on gagne La Hague pour le grand paysage, avant de finir sur la plage de Sciotot, plus ouverte, plus sensorielle. Cet itinéraire a une vraie unité : côte rocheuse, lumières changeantes, sensation de bout de terre. En van, il fonctionne très bien parce qu'il ne cherche pas à faire le tour complet de la péninsule en trois jours. Il préfère une séquence compacte et intense, très agréable à vivre, où la route devient presque aussi importante que les étapes elles-mêmes.",
+  "overnightStyle": "Nuits typiques : port du nord Cotentin, cap sauvage, plage exposée au large.",
+  "regionId": "normandie",
+  "itinerarySlug": "cotentin-caps-plages-3j",
+  "steps": [
+  {
+  "slug": "cherbourg-en-cotentin",
+  "nom": "Cherbourg-en-Cotentin",
+  "role": "etape"
+  },
+  {
+  "slug": "la-hague",
+  "nom": "La Hague",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-sciotot",
+  "nom": "Plage de Sciotot",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Nez de Jobourg",
+  "raison": "Renforcerait fortement la dimension spectaculaire de l'étape de la Hague dans un très court voyage.",
+  "type": "cap"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Cotentin, caps et plages de la Manche",
+  "durationHint": "7 jours",
+  "tripTitle": "Du Val de Saire à la côte ouest du Cotentin",
+  "summary": "Sur une semaine, le Cotentin se prête merveilleusement à une boucle cohérente, presque évidente. On démarre par Barfleur et Saint-Vaast-la-Hougue dans l'élégance du Val de Saire, puis l'on rejoint Cherbourg-en-Cotentin et La Hague pour la partie la plus brute du littoral. Ensuite, le voyage descend vers Bricquebec, Carteret et la grande plage de Gouville-sur-Mer. L'ensemble est très crédible en van : on suit la forme de la péninsule, on garde la mer comme fil conducteur, et l'on évite les allers-retours. C'est un road trip d'atmosphère, de vent, de murets et de ports, avec une vraie montée en ampleur puis un retour plus apaisé par la côte ouest.",
+  "overnightStyle": "Nuits typiques : port de pierre, cap sauvage, bourg du Cotentin, vaste plage à cabines.",
+  "regionId": "normandie",
+  "itinerarySlug": "cotentin-caps-plages-7j",
+  "steps": [
+  {
+  "slug": "barfleur",
+  "nom": "Barfleur",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-vaast-la-hougue",
+  "nom": "Saint-Vaast-la-Hougue",
+  "role": "etape"
+  },
+  {
+  "slug": "cherbourg-en-cotentin",
+  "nom": "Cherbourg-en-Cotentin",
+  "role": "etape"
+  },
+  {
+  "slug": "la-hague",
+  "nom": "La Hague",
+  "role": "etape"
+  },
+  {
+  "slug": "bricquebec",
+  "nom": "Bricquebec",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-carteret",
+  "nom": "Plage de Carteret",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-gouville-sur-mer",
+  "nom": "Plage de Gouville-sur-Mer",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Barneville-Carteret",
+  "raison": "La commune compléterait plus naturellement l'étape plage et port de Carteret.",
+  "type": "commune"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Cotentin, caps et plages de la Manche",
+  "durationHint": "10 jours",
+  "tripTitle": "Toute la Manche, du Val de Saire au Mont-Saint-Michel",
+  "summary": "En dix jours, on peut dessiner une vraie grande traversée de la Manche, très convaincante en van. Le départ se fait au nord-est avec Barfleur et Saint-Vaast-la-Hougue, puis l'on gagne Cherbourg-en-Cotentin et La Hague avant de basculer sur la côte ouest par Sciotot, Lessay, Coutances et Granville. La fin vers Jullouville, Avranches et le Mont-Saint-Michel donne une conclusion magistrale, plus ample et plus iconique. Ce parcours fonctionne remarquablement bien parce qu'il suit la géographie réelle du littoral manchois, en enchaînant caps, plages, ports et arrière-pays proches sans rupture. C'est un grand voyage maritime, rugueux et lumineux, avec une vraie sensation de bord du large.",
+  "overnightStyle": "Nuits typiques : petit port du Val de Saire, cap venté, plage immense, haute ville maritime, baie mythique.",
+  "regionId": "normandie",
+  "itinerarySlug": "cotentin-caps-plages-10j",
+  "steps": [
+  {
+  "slug": "barfleur",
+  "nom": "Barfleur",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-vaast-la-hougue",
+  "nom": "Saint-Vaast-la-Hougue",
+  "role": "etape"
+  },
+  {
+  "slug": "cherbourg-en-cotentin",
+  "nom": "Cherbourg-en-Cotentin",
+  "role": "etape"
+  },
+  {
+  "slug": "la-hague",
+  "nom": "La Hague",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-sciotot",
+  "nom": "Plage de Sciotot",
+  "role": "etape"
+  },
+  {
+  "slug": "lessay",
+  "nom": "Lessay",
+  "role": "etape"
+  },
+  {
+  "slug": "coutances",
+  "nom": "Coutances",
+  "role": "etape"
+  },
+  {
+  "slug": "granville",
+  "nom": "Granville",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-jullouville",
+  "nom": "Plage de Jullouville",
+  "role": "etape"
+  },
+  {
+  "slug": "avranches",
+  "nom": "Avranches",
+  "role": "etape"
+  },
+  {
+  "slug": "mont-saint-michel",
+  "nom": "Mont-Saint-Michel",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Baie du Mont-Saint-Michel",
+  "raison": "Nommer la baie renforcerait la cohérence de la fin de parcours entre Avranches et le Mont.",
+  "type": "aire_naturelle"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Vallée de la Seine, Eure et Normandie impressionniste",
+  "durationHint": "3 jours",
+  "tripTitle": "De Giverny aux Andelys, la Seine inspirée",
+  "summary": "Pour trois jours, ce tronçon de la vallée de la Seine est sans doute le plus évident et le plus élégant. Giverny ouvre le voyage avec sa puissance évocatrice, Vernon sert de relais naturel, puis Château-Gaillard aux Andelys donne une fin plus monumentale, plus verticale. L'itinéraire fonctionne très bien en van parce qu'il suit le fleuve et évite toute dispersion. Il propose un rythme souple, entre jardins, petites villes et grands méandres, avec la sensation d'entrer dans une Normandie de lumière et de coteaux. C'est un court road trip très éditorial, idéal pour un voyage inspiré plus que spectaculaire.",
+  "overnightStyle": "Nuits typiques : village d'artistes, bord de Seine, coteau fortifié.",
+  "regionId": "normandie",
+  "itinerarySlug": "seine-eure-impressionniste-3j",
+  "steps": [
+  {
+  "slug": "giverny",
+  "nom": "Giverny",
+  "role": "etape"
+  },
+  {
+  "slug": "vernon",
+  "nom": "Vernon",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-gaillard-les-andelys",
+  "nom": "Château-Gaillard, Les Andelys",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Les Andelys",
+  "raison": "La commune donnerait une étape plus complète autour de Château-Gaillard et renforcerait la lecture de vallée.",
+  "type": "commune"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Vallée de la Seine, Eure et Normandie impressionniste",
+  "durationHint": "7 jours",
+  "tripTitle": "Rouen, abbaye et boucles de Seine",
+  "summary": "Sur une semaine, la vallée de la Seine gagne en épaisseur si l'on combine patrimoine urbain, abbayes et paysages de méandres. Le parcours part de Giverny et Vernon, gagne Château-Gaillard puis remonte vers Rouen. Ensuite, Jumièges, Caudebec-en-Caux et Villequier installent une Normandie plus lente, plus fluviale, presque contemplative. En van, c'est un itinéraire très réussi : on suit une colonne vertébrale évidente, le fleuve, tout en variant les ambiances sans forcer les distances. Le voyage garde ainsi une grande cohérence et une vraie douceur de route, parfait pour un séjour élégant, culturel et paysager.",
+  "overnightStyle": "Nuits typiques : bord de Seine, ville gothique, abbaye en boucle de fleuve, rive paisible.",
+  "regionId": "normandie",
+  "itinerarySlug": "seine-eure-impressionniste-7j",
+  "steps": [
+  {
+  "slug": "giverny",
+  "nom": "Giverny",
+  "role": "etape"
+  },
+  {
+  "slug": "vernon",
+  "nom": "Vernon",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-gaillard-les-andelys",
+  "nom": "Château-Gaillard, Les Andelys",
+  "role": "etape"
+  },
+  {
+  "slug": "rouen",
+  "nom": "Rouen",
+  "role": "etape"
+  },
+  {
+  "slug": "jumieges",
+  "nom": "Jumièges",
+  "role": "etape"
+  },
+  {
+  "slug": "caudebec-en-caux",
+  "nom": "Caudebec-en-Caux",
+  "role": "etape"
+  },
+  {
+  "slug": "villequier",
+  "nom": "Villequier",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Boucles de la Seine",
+  "raison": "Nommer explicitement le paysage principal renforcerait la cohérence éditoriale de l'ensemble.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Vallée de la Seine, Eure et Normandie impressionniste",
+  "durationHint": "10 jours",
+  "tripTitle": "La Normandie des peintres, des forêts et des méandres",
+  "summary": "En dix jours, l'Eure et la vallée de la Seine composent un itinéraire particulièrement fin, très adapté au voyage en van. On ouvre par Giverny, Vernon et Château-Gaillard, puis l'on remonte vers Lyons-la-Forêt et Vascoeuil pour introduire la grande respiration forestière. Rouen forme le pivot urbain avant la descente par Jumièges, Saint-Wandrille-Rançon, Caudebec-en-Caux et Villequier. Cette version longue fonctionne très bien parce qu'elle garde une unité de ton : eau, lisières, patrimoine et paysages qui ont nourri l'imaginaire normand. Le rythme reste souple, les distances sont raisonnables et chaque étape renforce une Normandie plus subtile que spectaculaire.",
+  "overnightStyle": "Nuits typiques : village d'artistes, clairière de forêt, ville historique, boucle de Seine.",
+  "regionId": "normandie",
+  "itinerarySlug": "seine-eure-impressionniste-10j",
+  "steps": [
+  {
+  "slug": "giverny",
+  "nom": "Giverny",
+  "role": "etape"
+  },
+  {
+  "slug": "vernon",
+  "nom": "Vernon",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-gaillard-les-andelys",
+  "nom": "Château-Gaillard, Les Andelys",
+  "role": "etape"
+  },
+  {
+  "slug": "lyons-la-foret",
+  "nom": "Lyons-la-Forêt",
+  "role": "etape"
+  },
+  {
+  "slug": "vascoeuil",
+  "nom": "Vascoeuil",
+  "role": "etape"
+  },
+  {
+  "slug": "rouen",
+  "nom": "Rouen",
+  "role": "etape"
+  },
+  {
+  "slug": "jumieges",
+  "nom": "Jumièges",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-wandrille-rancon",
+  "nom": "Saint-Wandrille-Rançon",
+  "role": "etape"
+  },
+  {
+  "slug": "caudebec-en-caux",
+  "nom": "Caudebec-en-Caux",
+  "role": "etape"
+  },
+  {
+  "slug": "villequier",
+  "nom": "Villequier",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Forêt de Lyons",
+  "raison": "Apporterait un vrai ancrage paysager à la partie Lyons-la-Forêt et Vascoeuil.",
+  "type": "aire_naturelle"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Perche, bocage et Normandie intérieure",
+  "durationHint": "3 jours",
+  "tripTitle": "Le Perche en douceur, de Bellême à Mortagne",
+  "summary": "Pour trois jours loin de la mer, le Perche offre l'un des plus beaux formats compacts de Normandie. Bellême donne immédiatement le ton avec ses collines boisées, puis Mortagne-au-Perche prolonge cette ambiance de petite ville élégante avant une fin autour du Perche lui-même, pris comme grand paysage. L'itinéraire est parfait pour le van : routes secondaires agréables, étapes proches, rythme lent et beaucoup de plaisir de parcours. Ici, l'intérêt tient moins aux grands monuments qu'à l'harmonie d'ensemble, aux manoirs devinés, aux lisières, aux villages et aux soirs tranquilles. C'est une Normandie intérieure très désirable.",
+  "overnightStyle": "Nuits typiques : bourg de collines, petite ville percheronne, lisière de forêt et pâtures.",
+  "regionId": "normandie",
+  "itinerarySlug": "perche-bocage-interieur-3j",
+  "steps": [
+  {
+  "slug": "belleme",
+  "nom": "Bellême",
+  "role": "etape"
+  },
+  {
+  "slug": "mortagne-au-perche",
+  "nom": "Mortagne-au-Perche",
+  "role": "etape"
+  },
+  {
+  "slug": "le-perche",
+  "nom": "Le Perche",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Rémalard",
+  "raison": "Permettrait de mieux incarner la traversée du Perche au lieu de rester sur une lecture plus large du secteur.",
+  "type": "commune"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Perche, bocage et Normandie intérieure",
+  "durationHint": "7 jours",
+  "tripTitle": "Du Perche aux terres d'Orne, la Normandie des routes calmes",
+  "summary": "Sur une semaine, la Normandie intérieure se prête très bien à un road trip de campagne, de châteaux et de petites villes. Le parcours part d'Alençon puis s'enfonce dans le Perche avec Bellême et Mortagne-au-Perche. Ensuite, l'itinéraire glisse vers Carrouges, Domfront et Bagnoles-de-l'Orne, avec une progression très naturelle vers le bocage plus vallonné de l'Orne. En van, cette proposition fonctionne très bien : elle évite les grandes liaisons, donne une vraie continuité d'ambiance et fait la part belle au plaisir de route. C'est un voyage de profondeur, moins spectaculaire que le littoral mais très attachant, avec un art de vivre plus feutré.",
+  "overnightStyle": "Nuits typiques : petite ville percheronne, bourg de château, station forestière, ville haute du bocage.",
+  "regionId": "normandie",
+  "itinerarySlug": "perche-bocage-interieur-7j",
+  "steps": [
+  {
+  "slug": "alencon",
+  "nom": "Alençon",
+  "role": "etape"
+  },
+  {
+  "slug": "belleme",
+  "nom": "Bellême",
+  "role": "etape"
+  },
+  {
+  "slug": "mortagne-au-perche",
+  "nom": "Mortagne-au-Perche",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-carrouges",
+  "nom": "Château de Carrouges",
+  "role": "etape"
+  },
+  {
+  "slug": "domfront",
+  "nom": "Domfront",
+  "role": "etape"
+  },
+  {
+  "slug": "bagnoles-de-lorne",
+  "nom": "Bagnoles-de-l'Orne",
+  "role": "etape"
+  },
+  {
+  "slug": "la-ferte-mace",
+  "nom": "La Ferté-Macé",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Forêt d'Andaine",
+  "raison": "Créerait un liant paysager très naturel entre Bagnoles-de-l'Orne, La Ferté-Macé et Domfront.",
+  "type": "aire_naturelle"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Perche, bocage et Normandie intérieure",
+  "durationHint": "10 jours",
+  "tripTitle": "La grande Normandie intérieure, du Perche à la Suisse d'Orne",
+  "summary": "En dix jours, la Normandie intérieure révèle toute sa richesse dès lors qu'on la parcourt par ensembles cohérents. On ouvre avec Alençon, Bellême et Mortagne-au-Perche, puis l'on gagne Carrouges, Écouves et Bagnoles-de-l'Orne. La seconde moitié du voyage descend vers Argentan, Falaise et Vire, avec un paysage plus découpé, plus bocager, et une vraie montée en relief. L'itinéraire est très crédible en van car il avance par paliers naturels, d'une région à l'autre, sans casser le rythme. Il offre un très beau mélange de forêts, de vallons, de châteaux et de petites villes, pour une Normandie moins connue mais particulièrement plaisante à vivre sur la route.",
+  "overnightStyle": "Nuits typiques : collines du Perche, château forestier, station thermale, ville de bocage, vallée encaissée.",
+  "regionId": "normandie",
+  "itinerarySlug": "perche-bocage-interieur-10j",
+  "steps": [
+  {
+  "slug": "alencon",
+  "nom": "Alençon",
+  "role": "etape"
+  },
+  {
+  "slug": "belleme",
+  "nom": "Bellême",
+  "role": "etape"
+  },
+  {
+  "slug": "mortagne-au-perche",
+  "nom": "Mortagne-au-Perche",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-carrouges",
+  "nom": "Château de Carrouges",
+  "role": "etape"
+  },
+  {
+  "slug": "ecouves",
+  "nom": "Écouves",
+  "role": "etape"
+  },
+  {
+  "slug": "bagnoles-de-lorne",
+  "nom": "Bagnoles-de-l'Orne",
+  "role": "etape"
+  },
+  {
+  "slug": "la-ferte-mace",
+  "nom": "La Ferté-Macé",
+  "role": "etape"
+  },
+  {
+  "slug": "argentan",
+  "nom": "Argentan",
+  "role": "etape"
+  },
+  {
+  "slug": "falaise",
+  "nom": "Falaise",
+  "role": "etape"
+  },
+  {
+  "slug": "vire",
+  "nom": "Vire",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Suisse Normande",
+  "raison": "Nommer le secteur de relief autour de Falaise et Vire renforcerait la fin de parcours.",
+  "type": "secteur"
+  }
+  ]
+  }
+  ]
+  }
+  

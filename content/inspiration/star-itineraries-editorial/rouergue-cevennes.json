@@ -1,3 +1,409 @@
 {
-  "itineraries": []
-}
+  "itineraries": [
+  {
+  "themeTitle": "Gorges de l’Ardèche et villages de caractère",
+  "durationHint": "3 jours",
+  "tripTitle": "Autour des gorges de l’Ardèche, entre falaises et villages perchés",
+  "summary": "Pour trois jours, les gorges de l’Ardèche offrent un itinéraire spectaculaire et très cohérent. Vallon-Pont-d'Arc constitue le point d’entrée naturel, puis Vogüé et Balazuc prolongent l’expérience avec leurs villages accrochés à la roche. En van, ce parcours fonctionne parfaitement : les distances sont courtes, les routes sont magnifiques et chaque étape reste dans le même univers minéral et méditerranéen. C’est un voyage intense mais facile, idéal pour profiter des panoramas, des baignades et des soirées au bord de l’eau.",
+  "overnightStyle": "Nuits typiques : bord de rivière, village de falaise, plateau ensoleillé.",
+  "regionId": "rouergue-cevennes",
+  "itinerarySlug": "gorges-ardeche-villages-3j",
+  "steps": [
+  {
+  "slug": "vallon-pont-darc",
+  "nom": "Vallon-Pont-d'Arc",
+  "role": "etape"
+  },
+  {
+  "slug": "vogue",
+  "nom": "Vogüé",
+  "role": "etape"
+  },
+  {
+  "slug": "balazuc",
+  "nom": "Balazuc",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Pont d’Arc",
+  "raison": "Renforcerait l’identité visuelle et emblématique de l’entrée des gorges.",
+  "type": "site_naturel"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Gorges de l’Ardèche et villages de caractère",
+  "durationHint": "7 jours",
+  "tripTitle": "Toute l’Ardèche méridionale, des gorges aux villages de pierre",
+  "summary": "Sur une semaine, l’Ardèche méridionale se découvre idéalement en suivant la rivière et ses villages. On commence à Vallon-Pont-d'Arc, puis Ruoms, Labeaume et Balazuc structurent le cœur du parcours. Ensuite, Vogüé, Aubenas et Antraigues-sur-Volane permettent de gagner en relief et en diversité. En van, cet itinéraire est très agréable : les routes sont courtes mais riches, les paysages évoluent sans rupture et l’on passe d’un monde de gorges à celui des collines ardéchoises. C’est un road trip équilibré, entre nature, villages et ambiance méridionale.",
+  "overnightStyle": "Nuits typiques : rivière, village perché, petite ville du sud, colline boisée.",
+  "regionId": "rouergue-cevennes",
+  "itinerarySlug": "gorges-ardeche-villages-7j",
+  "steps": [
+  {
+  "slug": "vallon-pont-darc",
+  "nom": "Vallon-Pont-d'Arc",
+  "role": "etape"
+  },
+  {
+  "slug": "ruoms",
+  "nom": "Ruoms",
+  "role": "etape"
+  },
+  {
+  "slug": "labeaume",
+  "nom": "Labeaume",
+  "role": "etape"
+  },
+  {
+  "slug": "balazuc",
+  "nom": "Balazuc",
+  "role": "etape"
+  },
+  {
+  "slug": "vogue",
+  "nom": "Vogüé",
+  "role": "etape"
+  },
+  {
+  "slug": "aubenas",
+  "nom": "Aubenas",
+  "role": "etape"
+  },
+  {
+  "slug": "antraigues-sur-volane",
+  "nom": "Antraigues-sur-Volane",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Gorges de l’Ardèche",
+  "raison": "Nommer explicitement le secteur renforcerait la cohérence globale du parcours.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Gorges de l’Ardèche et villages de caractère",
+  "durationHint": "10 jours",
+  "tripTitle": "De l’Ardèche aux Cévennes, un grand voyage minéral et sauvage",
+  "summary": "En dix jours, cet itinéraire permet de relier les gorges de l’Ardèche aux paysages cévenols. On part de Vallon-Pont-d'Arc puis Ruoms, Balazuc et Vogüé, avant de rejoindre Aubenas et Thueyts. Ensuite, le parcours gagne le Mont Gerbier de Jonc et les hauts plateaux, puis redescend vers Florac et les Cévennes. Cette progression est très cohérente en van : elle suit une montée en altitude puis une ouverture vers des paysages plus sauvages. C’est un road trip très complet, entre falaises, volcans et reliefs cévenols.",
+  "overnightStyle": "Nuits typiques : gorges, plateau volcanique, vallée cévenole, village isolé.",
+  "regionId": "rouergue-cevennes",
+  "itinerarySlug": "gorges-ardeche-cevennes-10j",
+  "steps": [
+  {
+  "slug": "vallon-pont-darc",
+  "nom": "Vallon-Pont-d'Arc",
+  "role": "etape"
+  },
+  {
+  "slug": "ruoms",
+  "nom": "Ruoms",
+  "role": "etape"
+  },
+  {
+  "slug": "balazuc",
+  "nom": "Balazuc",
+  "role": "etape"
+  },
+  {
+  "slug": "vogue",
+  "nom": "Vogüé",
+  "role": "etape"
+  },
+  {
+  "slug": "aubenas",
+  "nom": "Aubenas",
+  "role": "etape"
+  },
+  {
+  "slug": "thueyts",
+  "nom": "Thueyts",
+  "role": "etape"
+  },
+  {
+  "slug": "mont-gerbier-de-jonc",
+  "nom": "Mont Gerbier de Jonc",
+  "role": "etape"
+  },
+  {
+  "slug": "florac-trois-rivieres",
+  "nom": "Florac Trois Rivières",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Sources de la Loire",
+  "raison": "Apporterait un point fort naturel autour du Mont Gerbier de Jonc.",
+  "type": "site_naturel"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Grands Causses et gorges du Tarn",
+  "durationHint": "3 jours",
+  "tripTitle": "Sainte-Enimie et les gorges du Tarn en version essentielle",
+  "summary": "Pour trois jours, les gorges du Tarn offrent un condensé spectaculaire du territoire. Sainte-Enimie constitue une base parfaite, complétée par Saint-Chely-du-Tarn et Peyre. En van, l’itinéraire est idéal : peu de kilomètres, mais une immersion totale dans les falaises calcaires et les villages au bord de l’eau. C’est un parcours court mais très puissant visuellement.",
+  "overnightStyle": "Nuits typiques : village de gorge, falaise calcaire, bord de Tarn.",
+  "regionId": "rouergue-cevennes",
+  "itinerarySlug": "causses-gorges-tarn-3j",
+  "steps": [
+  {
+  "slug": "sainte-enimie",
+  "nom": "Sainte-Enimie",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-chely-du-tarn",
+  "nom": "Saint-Chely-du-Tarn",
+  "role": "etape"
+  },
+  {
+  "slug": "peyre",
+  "nom": "Peyre",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": []
+  },
+  {
+  "themeTitle": "Grands Causses et gorges du Tarn",
+  "durationHint": "7 jours",
+  "tripTitle": "Du causse Méjean aux gorges du Tarn, un voyage minéral",
+  "summary": "Sur une semaine, les Grands Causses et les gorges du Tarn composent un itinéraire très cohérent. On commence à Florac puis Sainte-Enimie, avant de parcourir Saint-Chely-du-Tarn et Peyre. Ensuite, le causse Méjean, l’Aven Armand et La Canourgue élargissent le regard vers des paysages plus ouverts. En van, le parcours est parfait : routes spectaculaires, peu de trafic et alternance entre plateaux et gorges.",
+  "overnightStyle": "Nuits typiques : causse désertique, village de gorge, plateau ouvert, petite ville lozérienne.",
+  "regionId": "rouergue-cevennes",
+  "itinerarySlug": "causses-gorges-tarn-7j",
+  "steps": [
+  {
+  "slug": "florac-trois-rivieres",
+  "nom": "Florac Trois Rivières",
+  "role": "etape"
+  },
+  {
+  "slug": "sainte-enimie",
+  "nom": "Sainte-Enimie",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-chely-du-tarn",
+  "nom": "Saint-Chely-du-Tarn",
+  "role": "etape"
+  },
+  {
+  "slug": "peyre",
+  "nom": "Peyre",
+  "role": "etape"
+  },
+  {
+  "slug": "causse-mejean",
+  "nom": "Causse Méjean",
+  "role": "etape"
+  },
+  {
+  "slug": "aven-armand",
+  "nom": "Aven Armand",
+  "role": "etape"
+  },
+  {
+  "slug": "la-canourgue",
+  "nom": "La Canourgue",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Gorges du Tarn",
+  "raison": "Nommer explicitement le site renforcerait la cohérence du parcours.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Grands Causses et gorges du Tarn",
+  "durationHint": "10 jours",
+  "tripTitle": "La grande traversée des Causses, du Rouergue à la Lozère",
+  "summary": "En dix jours, cet itinéraire propose une immersion complète dans les paysages du sud du Massif central. On part de Millau et Peyre, puis les gorges du Tarn et Sainte-Enimie structurent le cœur du voyage. Ensuite, le causse Méjean, Florac et le Mont Lozère ouvrent vers des horizons plus sauvages. C’est un road trip très cohérent en van, avec une progression naturelle entre reliefs et plateaux.",
+  "overnightStyle": "Nuits typiques : vallée encaissée, plateau calcaire, montagne cévenole.",
+  "regionId": "rouergue-cevennes",
+  "itinerarySlug": "causses-gorges-tarn-10j",
+  "steps": [
+  {
+  "slug": "millau",
+  "nom": "Millau",
+  "role": "etape"
+  },
+  {
+  "slug": "peyre",
+  "nom": "Peyre",
+  "role": "etape"
+  },
+  {
+  "slug": "sainte-enimie",
+  "nom": "Sainte-Enimie",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-chely-du-tarn",
+  "nom": "Saint-Chely-du-Tarn",
+  "role": "etape"
+  },
+  {
+  "slug": "causse-mejean",
+  "nom": "Causse Méjean",
+  "role": "etape"
+  },
+  {
+  "slug": "florac-trois-rivieres",
+  "nom": "Florac Trois Rivières",
+  "role": "etape"
+  },
+  {
+  "slug": "le-mont-lozere",
+  "nom": "Le Mont Lozère",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": []
+  },
+  {
+  "themeTitle": "Rouergue, villages et patrimoine de l’Aveyron",
+  "durationHint": "3 jours",
+  "tripTitle": "Conques, Belcastel et Estaing, l’Aveyron le plus emblématique",
+  "summary": "Pour trois jours, l’Aveyron offre un trio particulièrement cohérent et séduisant. Conques donne une entrée forte, puis Belcastel et Estaing prolongent l’expérience avec des villages remarquablement conservés. En van, ce parcours est idéal : peu de distance, routes agréables et paysages vallonnés. C’est un itinéraire court mais très riche en patrimoine.",
+  "overnightStyle": "Nuits typiques : village médiéval, vallée boisée, rivière tranquille.",
+  "regionId": "rouergue-cevennes",
+  "itinerarySlug": "rouergue-villages-aveyron-3j",
+  "steps": [
+  {
+  "slug": "conques",
+  "nom": "Conques",
+  "role": "etape"
+  },
+  {
+  "slug": "belcastel",
+  "nom": "Belcastel",
+  "role": "etape"
+  },
+  {
+  "slug": "estaing",
+  "nom": "Estaing",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": []
+  },
+  {
+  "themeTitle": "Rouergue, villages et patrimoine de l’Aveyron",
+  "durationHint": "7 jours",
+  "tripTitle": "Du Rouergue aux plateaux de l’Aubrac",
+  "summary": "Sur une semaine, l’Aveyron révèle une grande diversité de paysages. On part de Rodez puis Conques, avant de rejoindre Belcastel et Estaing. Ensuite, Espalion, Laguiole et Sainte-Eulalie-d’Olt ouvrent vers les plateaux de l’Aubrac. L’ensemble est très cohérent en van, avec des étapes bien réparties et une progression naturelle vers des paysages plus ouverts.",
+  "overnightStyle": "Nuits typiques : ville d’art, village médiéval, plateau d’altitude, vallée paisible.",
+  "regionId": "rouergue-cevennes",
+  "itinerarySlug": "rouergue-villages-aveyron-7j",
+  "steps": [
+  {
+  "slug": "rodez",
+  "nom": "Rodez",
+  "role": "etape"
+  },
+  {
+  "slug": "conques",
+  "nom": "Conques",
+  "role": "etape"
+  },
+  {
+  "slug": "belcastel",
+  "nom": "Belcastel",
+  "role": "etape"
+  },
+  {
+  "slug": "estaing",
+  "nom": "Estaing",
+  "role": "etape"
+  },
+  {
+  "slug": "espalion",
+  "nom": "Espalion",
+  "role": "etape"
+  },
+  {
+  "slug": "laguiole",
+  "nom": "Laguiole",
+  "role": "etape"
+  },
+  {
+  "slug": "sainte-eulalie-dolt",
+  "nom": "Sainte-Eulalie-d'Olt",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Aubrac",
+  "raison": "Nommer le plateau renforcerait la cohérence de la seconde moitié du parcours.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Rouergue, villages et patrimoine de l’Aveyron",
+  "durationHint": "10 jours",
+  "tripTitle": "Le grand Aveyron, entre bastides, vallées et plateaux",
+  "summary": "En dix jours, l’Aveyron devient un territoire de road trip très complet. On commence à Rodez puis Conques, avant de rejoindre Belcastel, Najac et Villefranche-de-Rouergue. Ensuite, le parcours s’étire vers Espalion, Laguiole et les plateaux de l’Aubrac. En van, la progression est naturelle, avec une alternance entre vallées encaissées et grands espaces ouverts.",
+  "overnightStyle": "Nuits typiques : bastide, vallée encaissée, plateau sauvage.",
+  "regionId": "rouergue-cevennes",
+  "itinerarySlug": "rouergue-villages-aveyron-10j",
+  "steps": [
+  {
+  "slug": "rodez",
+  "nom": "Rodez",
+  "role": "etape"
+  },
+  {
+  "slug": "conques",
+  "nom": "Conques",
+  "role": "etape"
+  },
+  {
+  "slug": "belcastel",
+  "nom": "Belcastel",
+  "role": "etape"
+  },
+  {
+  "slug": "najac",
+  "nom": "Najac",
+  "role": "etape"
+  },
+  {
+  "slug": "villeneuve-daveyron",
+  "nom": "Villeneuve-d'Aveyron",
+  "role": "etape"
+  },
+  {
+  "slug": "espalion",
+  "nom": "Espalion",
+  "role": "etape"
+  },
+  {
+  "slug": "laguiole",
+  "nom": "Laguiole",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Aubrac",
+  "raison": "Renforcerait la cohérence paysagère globale.",
+  "type": "secteur"
+  }
+  ]
+  }
+  ]
+  }
+  

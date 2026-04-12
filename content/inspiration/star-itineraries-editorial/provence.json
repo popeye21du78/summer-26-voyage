@@ -1,3 +1,823 @@
 {
-  "itineraries": []
+  "itineraries": [
+  {
+  "themeTitle": "Luberon et villages perchés",
+  "durationHint": "3 jours",
+  "tripTitle": "Le Luberon essentiel, de Gordes à Lourmarin",
+  "summary": "Pour trois jours en Provence, le Luberon est sans doute le meilleur choix pour conjuguer beauté immédiate, cohérence géographique et vraie douceur de route. Gordes, Roussillon et Lourmarin forment un parcours limpide, qui traverse quelques-uns des paysages les plus désirables de la région sans jamais forcer le rythme. On passe des falaises blondes aux ocres, puis aux vallons plus souples du sud du massif. En van, cet itinéraire fonctionne parfaitement parce qu'il reste compact, très esthétique et agréable à vivre, avec peu de transferts et beaucoup de plaisir entre les étapes. C'est un road trip court mais pleinement provençal, pensé pour les villages, la lumière et l'art de prendre son temps.",
+  "overnightStyle": "Nuits typiques : village perché, bourg d'ocres, vallée douce du sud Luberon.",
+  "regionId": "provence",
+  "itinerarySlug": "luberon-villages-perches-3j",
+  "steps": [
+  {
+  "slug": "gordes",
+  "nom": "Gordes",
+  "role": "etape"
+  },
+  {
+  "slug": "roussillon",
+  "nom": "Roussillon",
+  "role": "etape"
+  },
+  {
+  "slug": "lourmarin",
+  "nom": "Lourmarin",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Bonnieux",
+  "raison": "Créerait une très belle transition naturelle entre Gordes, Roussillon et Lourmarin dans un court itinéraire du Luberon.",
+  "type": "commune"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Luberon et villages perchés",
+  "durationHint": "7 jours",
+  "tripTitle": "Toute la colonne vertébrale du Luberon, des villages minéraux aux vallons du sud",
+  "summary": "Sur une semaine, le Luberon se prête idéalement à un itinéraire de villages et de paysages, à condition de rester dans un même mouvement d'est en ouest ou du nord au sud. On commence par Venasque et Fontaine-de-Vaucluse, puis l'on entre dans le cœur du massif avec Gordes, Ménerbes, Oppède-le-Vieux et Lacoste. La fin à Ansouis et Lourmarin ouvre le Luberon méridional, plus doux, plus arrondi, sans casser l'identité générale du voyage. En van, c'est un parcours particulièrement convaincant : on roule peu, on s'arrête souvent, et chaque étape renforce l'ambiance d'ensemble. C'est une Provence de pierre, de cyprès et de villages perchés, très solide éditorialement.",
+  "overnightStyle": "Nuits typiques : village de plateau, résurgence fraîche, balcon du Luberon, bourg élégant du sud.",
+  "regionId": "provence",
+  "itinerarySlug": "luberon-villages-perches-7j",
+  "steps": [
+  {
+  "slug": "venasque",
+  "nom": "Venasque",
+  "role": "etape"
+  },
+  {
+  "slug": "fontaine-de-vaucluse",
+  "nom": "Fontaine-de-Vaucluse",
+  "role": "etape"
+  },
+  {
+  "slug": "gordes",
+  "nom": "Gordes",
+  "role": "etape"
+  },
+  {
+  "slug": "menerbes",
+  "nom": "Ménerbes",
+  "role": "etape"
+  },
+  {
+  "slug": "oppede-le-vieux",
+  "nom": "Oppède-le-Vieux",
+  "role": "etape"
+  },
+  {
+  "slug": "lacoste",
+  "nom": "Lacoste",
+  "role": "etape"
+  },
+  {
+  "slug": "ansouis",
+  "nom": "Ansouis",
+  "role": "etape"
+  },
+  {
+  "slug": "lourmarin",
+  "nom": "Lourmarin",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Bonnieux",
+  "raison": "Rendrait encore plus fluide la transition entre Ménerbes, Oppède-le-Vieux et Lacoste.",
+  "type": "commune"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Luberon et villages perchés",
+  "durationHint": "10 jours",
+  "tripTitle": "Le grand Luberon, des portes d'Avignon aux collines de Haute-Provence",
+  "summary": "En dix jours, le Luberon gagne à être élargi avec intelligence vers ses marges les plus naturelles. On part d'Avignon, puis Venasque et Fontaine-de-Vaucluse installent la transition entre Comtat et massif. Ensuite viennent Gordes, Roussillon, Ménerbes, Oppède-le-Vieux, Lacoste, Ansouis et Lourmarin, qui composent l'ossature la plus cohérente du voyage. La fin vers Forcalquier permet d'ouvrir légèrement vers une Provence plus haute, plus calme, sans casser le récit. En van, cet itinéraire reste très crédible : il suit une logique continue de villages, de vallons et de routes panoramiques, tout en gardant un rythme très agréable. C'est un grand road trip provençal de lumière et de relief doux.",
+  "overnightStyle": "Nuits typiques : ville de patrimoine, village de plateau, bourg d'ocres, vallée du sud Luberon, colline de Haute-Provence.",
+  "regionId": "provence",
+  "itinerarySlug": "luberon-villages-perches-10j",
+  "steps": [
+  {
+  "slug": "avignon",
+  "nom": "Avignon",
+  "role": "etape"
+  },
+  {
+  "slug": "venasque",
+  "nom": "Venasque",
+  "role": "etape"
+  },
+  {
+  "slug": "fontaine-de-vaucluse",
+  "nom": "Fontaine-de-Vaucluse",
+  "role": "etape"
+  },
+  {
+  "slug": "gordes",
+  "nom": "Gordes",
+  "role": "etape"
+  },
+  {
+  "slug": "roussillon",
+  "nom": "Roussillon",
+  "role": "etape"
+  },
+  {
+  "slug": "menerbes",
+  "nom": "Ménerbes",
+  "role": "etape"
+  },
+  {
+  "slug": "oppede-le-vieux",
+  "nom": "Oppède-le-Vieux",
+  "role": "etape"
+  },
+  {
+  "slug": "lacoste",
+  "nom": "Lacoste",
+  "role": "etape"
+  },
+  {
+  "slug": "ansouis",
+  "nom": "Ansouis",
+  "role": "etape"
+  },
+  {
+  "slug": "lourmarin",
+  "nom": "Lourmarin",
+  "role": "etape"
+  },
+  {
+  "slug": "forcalquier",
+  "nom": "Forcalquier",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Bonnieux",
+  "raison": "Créerait un maillon naturel au cœur du Luberon pour enrichir la version longue sans détour inutile.",
+  "type": "commune"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Alpilles, Avignon et Provence des vieilles pierres",
+  "durationHint": "3 jours",
+  "tripTitle": "Autour des Alpilles, la Provence la plus classique et la plus juste",
+  "summary": "Pour trois jours, les Alpilles offrent un concentré de Provence d'une cohérence rare. Saint-Rémy-de-Provence donne le départ idéal, puis Les Baux-de-Provence imposent leur décor minéral spectaculaire, avant une fin à Eygalières, plus douce, plus village. Le parcours fonctionne très bien en van parce qu'il reste compact, lisible et très agréable à vivre, entre oliviers, crêtes blanches et petites routes de plaine. Il ne cherche pas à empiler les sites : il construit un vrai rythme, avec une montée en intensité visuelle puis une redescente apaisée. C'est une proposition courte, premium et solide, pensée pour l'âme provençale la plus évidente.",
+  "overnightStyle": "Nuits typiques : village d'art de vivre, promontoire minéral, bourg calme au pied des Alpilles.",
+  "regionId": "provence",
+  "itinerarySlug": "alpilles-vieilles-pierres-3j",
+  "steps": [
+  {
+  "slug": "saint-remy-de-provence",
+  "nom": "Saint-Rémy-de-Provence",
+  "role": "etape"
+  },
+  {
+  "slug": "les-baux-de-provence",
+  "nom": "Les Baux-de-Provence",
+  "role": "etape"
+  },
+  {
+  "slug": "eygalieres",
+  "nom": "Eygalières",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": []
+  },
+  {
+  "themeTitle": "Alpilles, Avignon et Provence des vieilles pierres",
+  "durationHint": "7 jours",
+  "tripTitle": "D'Avignon aux Alpilles, entre papes, villages et lumière blanche",
+  "summary": "Sur une semaine, ce parcours relie avec beaucoup de naturel la grande Provence urbaine et les paysages les plus emblématiques des Alpilles. Avignon ouvre le voyage, puis Châteauneuf-du-Pape apporte une séquence de vignoble et de vallée du Rhône. Ensuite viennent Saint-Rémy-de-Provence, Les Baux-de-Provence, Eygalières et Tarascon, avant une fin par Arles qui élargit le regard vers la plaine et la Camargue. En van, cet itinéraire est très crédible car il avance sans zigzag, en suivant une logique ouest-est puis sud-ouest. Il offre un très bel équilibre entre patrimoine, route et ambiance provençale, sans jamais diluer le thème.",
+  "overnightStyle": "Nuits typiques : ville historique, village de vigne, massif minéral, petite cité rhodanienne.",
+  "regionId": "provence",
+  "itinerarySlug": "alpilles-vieilles-pierres-7j",
+  "steps": [
+  {
+  "slug": "avignon",
+  "nom": "Avignon",
+  "role": "etape"
+  },
+  {
+  "slug": "chateauneuf-du-pape",
+  "nom": "Châteauneuf-du-Pape",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-remy-de-provence",
+  "nom": "Saint-Rémy-de-Provence",
+  "role": "etape"
+  },
+  {
+  "slug": "les-baux-de-provence",
+  "nom": "Les Baux-de-Provence",
+  "role": "etape"
+  },
+  {
+  "slug": "eygalieres",
+  "nom": "Eygalières",
+  "role": "etape"
+  },
+  {
+  "slug": "tarascon",
+  "nom": "Tarascon",
+  "role": "etape"
+  },
+  {
+  "slug": "arles",
+  "nom": "Arles",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Saintes-Maries-de-la-Mer",
+  "raison": "Si l'on souhaitait prolonger la partie camarguaise, ce serait la conclusion la plus naturelle après Arles.",
+  "type": "commune"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Alpilles, Avignon et Provence des vieilles pierres",
+  "durationHint": "10 jours",
+  "tripTitle": "La grande Provence des pierres blondes, du Rhône aux Alpilles",
+  "summary": "En dix jours, on peut construire une très belle traversée de la Provence occidentale sans jamais casser sa cohérence. Le voyage commence à Orange, Châteauneuf-du-Pape et Avignon, avant de gagner le Barroux, Beaumes-de-Venise et Gigondas pour ajouter une épaisseur de villages et de vignes. Ensuite, la route file vers Saint-Rémy-de-Provence, Les Baux-de-Provence, Eygalières, Tarascon et Arles. L'ensemble est particulièrement agréable en van : on passe des reliefs du Comtat aux Alpilles, puis à la plaine rhodanienne et camarguaise, dans une progression continue. C'est un road trip très riche mais toujours lisible, pleinement ancré dans une Provence de caractère.",
+  "overnightStyle": "Nuits typiques : ville du Rhône, village de vigne, promontoire d'Alpilles, cité de plaine lumineuse.",
+  "regionId": "provence",
+  "itinerarySlug": "alpilles-vieilles-pierres-10j",
+  "steps": [
+  {
+  "slug": "orange",
+  "nom": "Orange",
+  "role": "etape"
+  },
+  {
+  "slug": "chateauneuf-du-pape",
+  "nom": "Châteauneuf-du-Pape",
+  "role": "etape"
+  },
+  {
+  "slug": "avignon",
+  "nom": "Avignon",
+  "role": "etape"
+  },
+  {
+  "slug": "le-barroux",
+  "nom": "Le Barroux",
+  "role": "etape"
+  },
+  {
+  "slug": "beaumes-de-venise",
+  "nom": "Beaumes-de-Venise",
+  "role": "etape"
+  },
+  {
+  "slug": "gigondas",
+  "nom": "Gigondas",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-remy-de-provence",
+  "nom": "Saint-Rémy-de-Provence",
+  "role": "etape"
+  },
+  {
+  "slug": "les-baux-de-provence",
+  "nom": "Les Baux-de-Provence",
+  "role": "etape"
+  },
+  {
+  "slug": "eygalieres",
+  "nom": "Eygalières",
+  "role": "etape"
+  },
+  {
+  "slug": "tarascon",
+  "nom": "Tarascon",
+  "role": "etape"
+  },
+  {
+  "slug": "arles",
+  "nom": "Arles",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Dentelles de Montmirail",
+  "raison": "Renforceraient fortement la cohérence paysagère entre Gigondas, Beaumes-de-Venise et le Barroux.",
+  "type": "aire_naturelle"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Calanques, Méditerranée et côte marseillaise",
+  "durationHint": "3 jours",
+  "tripTitle": "Cassis et les calanques, la Provence marine la plus spectaculaire",
+  "summary": "Pour trois jours, il faut rester concentré sur le plus beau fil côtier de la région : Marseille, Cassis et les calanques. Marseille donne la grande porte d'entrée, Cassis apporte le port et l'élégance, puis En-Vau ou Port Pin prolongent l'expérience dans un registre plus minéral et plus marin. En van, cet itinéraire est crédible à condition de penser le séjour par séquences courtes et bien choisies, sans vouloir multiplier les kilomètres ni les accès compliqués. On y gagne un road trip très fort visuellement, entre falaises blanches, pinèdes et lumière bleue, avec une vraie identité méditerranéenne du premier au dernier soir.",
+  "overnightStyle": "Nuits typiques : grande ville face à la mer, port de calanques, côte rocheuse sous les pins.",
+  "regionId": "provence",
+  "itinerarySlug": "calanques-mediterranee-3j",
+  "steps": [
+  {
+  "slug": "marseille",
+  "nom": "Marseille",
+  "role": "etape"
+  },
+  {
+  "slug": "cassis",
+  "nom": "Cassis",
+  "role": "etape"
+  },
+  {
+  "slug": "calanque-den-vau",
+  "nom": "Calanque d'En-Vau",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Route des Crêtes",
+  "raison": "Créerait une articulation paysagère idéale entre Cassis et les grandes calanques dans un format court.",
+  "type": "route"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Calanques, Méditerranée et côte marseillaise",
+  "durationHint": "7 jours",
+  "tripTitle": "De l'Estaque à La Ciotat, toute la côte calcaire de Provence",
+  "summary": "Sur une semaine, la côte entre Marseille et La Ciotat permet un road trip très cohérent, dense et spectaculaire. On commence à L'Estaque puis Marseille, avant de glisser vers les plages urbaines et les premières portes des calanques. Ensuite, l'itinéraire s'enfonce dans le duo Marseille-Cassis avec Sormiou, Port Pin, En-Vau, puis se prolonge jusqu'à La Ciotat et Figuerolles. En van, ce parcours est très agréable si l'on l'aborde comme une succession de séquences littorales plutôt que comme une pure traversée automobile. Les distances sont faibles, mais les ambiances changent fortement entre quartiers maritimes, ports et criques. C'est un voyage de Méditerranée minérale, très fort en identité.",
+  "overnightStyle": "Nuits typiques : quartier maritime, port méditerranéen, crique blanche, petite ville au bord des falaises.",
+  "regionId": "provence",
+  "itinerarySlug": "calanques-mediterranee-7j",
+  "steps": [
+  {
+  "slug": "lestaque",
+  "nom": "L'Estaque",
+  "role": "etape"
+  },
+  {
+  "slug": "marseille",
+  "nom": "Marseille",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-la-pointe-rouge",
+  "nom": "Plage de la Pointe Rouge",
+  "role": "etape"
+  },
+  {
+  "slug": "calanque-de-sormiou",
+  "nom": "Calanque de Sormiou",
+  "role": "etape"
+  },
+  {
+  "slug": "cassis",
+  "nom": "Cassis",
+  "role": "etape"
+  },
+  {
+  "slug": "calanque-de-port-pin",
+  "nom": "Calanque de Port Pin",
+  "role": "etape"
+  },
+  {
+  "slug": "calanque-den-vau",
+  "nom": "Calanque d'En-Vau",
+  "role": "etape"
+  },
+  {
+  "slug": "la-ciotat",
+  "nom": "La Ciotat",
+  "role": "etape"
+  },
+  {
+  "slug": "calanque-de-figuerolles",
+  "nom": "Calanque de Figuerolles",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Route de la Gineste",
+  "raison": "Donnerait un liant routier très naturel entre Marseille, Cassis et les calanques dans la version longue.",
+  "type": "route"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Calanques, Méditerranée et côte marseillaise",
+  "durationHint": "10 jours",
+  "tripTitle": "Toute la Méditerranée provençale, de Carry au golfe de La Ciotat",
+  "summary": "En dix jours, on peut donner à la Provence maritime une véritable ampleur sans casser le fil côtier. Le départ par Carry-le-Rouet, Martigues et les plages de la Côte Bleue installe d'abord une Méditerranée plus ouverte, puis l'on gagne Marseille et les calanques, cœur spectaculaire du voyage. Ensuite viennent Cassis, La Ciotat et Figuerolles, avec une fin de parcours encore très minérale mais plus détendue. En van, cet itinéraire fonctionne bien parce qu'il suit une progression claire d'ouest en est, avec des étapes toutes reliées par la mer, la roche et la lumière. C'est un road trip côtier dense, cohérent et très désirable pour qui cherche une Provence franchement marine.",
+  "overnightStyle": "Nuits typiques : village de Côte Bleue, grand port méditerranéen, calanque blanche, baie rocheuse de l'est.",
+  "regionId": "provence",
+  "itinerarySlug": "calanques-mediterranee-10j",
+  "steps": [
+  {
+  "slug": "carry-le-rouet",
+  "nom": "Carry-le-Rouet",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-sainte-croix",
+  "nom": "Plage Sainte-Croix",
+  "role": "etape"
+  },
+  {
+  "slug": "martigues",
+  "nom": "Martigues",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-la-couronne",
+  "nom": "Plage de la Couronne",
+  "role": "etape"
+  },
+  {
+  "slug": "lestaque",
+  "nom": "L'Estaque",
+  "role": "etape"
+  },
+  {
+  "slug": "marseille",
+  "nom": "Marseille",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-des-catalans",
+  "nom": "Plage des Catalans",
+  "role": "etape"
+  },
+  {
+  "slug": "calanque-de-sormiou",
+  "nom": "Calanque de Sormiou",
+  "role": "etape"
+  },
+  {
+  "slug": "cassis",
+  "nom": "Cassis",
+  "role": "etape"
+  },
+  {
+  "slug": "calanque-de-port-pin",
+  "nom": "Calanque de Port Pin",
+  "role": "etape"
+  },
+  {
+  "slug": "calanque-den-vau",
+  "nom": "Calanque d'En-Vau",
+  "role": "etape"
+  },
+  {
+  "slug": "la-ciotat",
+  "nom": "La Ciotat",
+  "role": "etape"
+  },
+  {
+  "slug": "calanque-de-figuerolles",
+  "nom": "Calanque de Figuerolles",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Côte Bleue",
+  "raison": "Nommer explicitement la première partie du parcours renforcerait sa cohérence éditoriale entre Carry, Martigues et L'Estaque.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Verdon, Haute-Provence et lacs d'altitude",
+  "durationHint": "3 jours",
+  "tripTitle": "Le Verdon essentiel, de Moustiers au lac de Sainte-Croix",
+  "summary": "Pour trois jours, le Verdon est l'un des meilleurs choix de Provence dès lors qu'on reste compact et centré sur les plus belles séquences. Moustiers-Sainte-Marie ouvre l'itinéraire avec sa verticalité et son charme, puis la plage du lac de Sainte-Croix apporte une respiration immédiate au bord de l'eau, avant une fin à Riez ou Castellane selon le sens choisi. En van, le rythme est parfait : peu de kilomètres, des paysages très forts et une vraie sensation d'évasion. Cet itinéraire fonctionne parce qu'il ne cherche pas à couvrir tout le Verdon en trop peu de temps ; il préfère une immersion serrée, crédible et très agréable à vivre.",
+  "overnightStyle": "Nuits typiques : village accroché, bord de lac turquoise, petite ville de Haute-Provence.",
+  "regionId": "provence",
+  "itinerarySlug": "verdon-haute-provence-lacs-3j",
+  "steps": [
+  {
+  "slug": "moustiers-sainte-marie",
+  "nom": "Moustiers-Sainte-Marie",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-du-lac-de-sainte-croix",
+  "nom": "Plage du Lac de Sainte-Croix",
+  "role": "etape"
+  },
+  {
+  "slug": "riez",
+  "nom": "Riez",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Gorges du Verdon",
+  "raison": "Nommer explicitement le grand paysage renforcerait immédiatement la cohérence du parcours.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Verdon, Haute-Provence et lacs d'altitude",
+  "durationHint": "7 jours",
+  "tripTitle": "Du Verdon aux plateaux de Haute-Provence, un road trip d'eau et de villages",
+  "summary": "Sur une semaine, la Haute-Provence se découvre idéalement par un parcours qui relie lacs, villages et petites villes perchées. On commence à Gréoux-les-Bains et au lac d'Esparron, puis Riez et Moustiers-Sainte-Marie ouvrent le grand moment du Verdon. Ensuite, l'itinéraire se prolonge vers Castellane, Saint-André-les-Alpes et Digne-les-Bains, ce qui permet d'élargir progressivement sans rompre la cohérence. En van, ce voyage est particulièrement agréable : les routes sont belles, les distances raisonnables et les ambiances changent du tout au tout entre eaux turquoise, villages suspendus et reliefs plus secs. C'est une Provence plus haute, plus ouverte et très convaincante.",
+  "overnightStyle": "Nuits typiques : station thermale, lac calme, village vertical, petite ville alpine provençale.",
+  "regionId": "provence",
+  "itinerarySlug": "verdon-haute-provence-lacs-7j",
+  "steps": [
+  {
+  "slug": "greoux-les-bains",
+  "nom": "Gréoux-les-Bains",
+  "role": "etape"
+  },
+  {
+  "slug": "lac-desparron-de-verdon---sentier-du-garde-canal",
+  "nom": "Lac d'Esparron-de-Verdon - sentier du garde-canal",
+  "role": "etape"
+  },
+  {
+  "slug": "riez",
+  "nom": "Riez",
+  "role": "etape"
+  },
+  {
+  "slug": "moustiers-sainte-marie",
+  "nom": "Moustiers-Sainte-Marie",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-du-lac-de-sainte-croix",
+  "nom": "Plage du Lac de Sainte-Croix",
+  "role": "etape"
+  },
+  {
+  "slug": "castellane",
+  "nom": "Castellane",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-andre-les-alpes",
+  "nom": "Saint-André-les-Alpes",
+  "role": "etape"
+  },
+  {
+  "slug": "digne-les-bains",
+  "nom": "Digne-les-Bains",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Route des Crêtes du Verdon",
+  "raison": "Apporterait un vrai fil routier et panoramique entre Moustiers-Sainte-Marie et Castellane.",
+  "type": "route"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Verdon, Haute-Provence et lacs d'altitude",
+  "durationHint": "10 jours",
+  "tripTitle": "De la Haute-Provence aux Alpes du Sud, lacs, forteresses et grandes vallées",
+  "summary": "En dix jours, on peut prolonger la Haute-Provence vers les Alpes du Sud sans casser l'itinéraire, à condition de suivre un axe de montée progressif. On part de Manosque, Gréoux-les-Bains, Esparron, Riez et Moustiers-Sainte-Marie, avant de gagner Castellane puis Digne-les-Bains et Sisteron. Ensuite, le voyage monte vers Gap, Serre-Ponçon et Embrun, dans une logique très fluide de vallées et de reliefs croissants. En van, ce parcours est particulièrement réussi : il élargit vraiment le voyage tout en gardant un enchaînement naturel. On passe des gorges et lacs provençaux aux grands paysages alpins, sans perdre l'âme du road trip.",
+  "overnightStyle": "Nuits typiques : petite ville de Haute-Provence, bord de lac turquoise, cluse alpine, rive de grand lac de montagne.",
+  "regionId": "provence",
+  "itinerarySlug": "verdon-haute-provence-lacs-10j",
+  "steps": [
+  {
+  "slug": "manosque",
+  "nom": "Manosque",
+  "role": "etape"
+  },
+  {
+  "slug": "greoux-les-bains",
+  "nom": "Gréoux-les-Bains",
+  "role": "etape"
+  },
+  {
+  "slug": "lac-desparron-de-verdon---sentier-du-garde-canal",
+  "nom": "Lac d'Esparron-de-Verdon - sentier du garde-canal",
+  "role": "etape"
+  },
+  {
+  "slug": "riez",
+  "nom": "Riez",
+  "role": "etape"
+  },
+  {
+  "slug": "moustiers-sainte-marie",
+  "nom": "Moustiers-Sainte-Marie",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-du-lac-de-sainte-croix",
+  "nom": "Plage du Lac de Sainte-Croix",
+  "role": "etape"
+  },
+  {
+  "slug": "castellane",
+  "nom": "Castellane",
+  "role": "etape"
+  },
+  {
+  "slug": "digne-les-bains",
+  "nom": "Digne-les-Bains",
+  "role": "etape"
+  },
+  {
+  "slug": "sisteron",
+  "nom": "Sisteron",
+  "role": "etape"
+  },
+  {
+  "slug": "gap",
+  "nom": "Gap",
+  "role": "etape"
+  },
+  {
+  "slug": "lac-de-serre-poncon",
+  "nom": "Lac de Serre-Ponçon",
+  "role": "etape"
+  },
+  {
+  "slug": "embrun",
+  "nom": "Embrun",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Gorges du Verdon",
+  "raison": "Le grand secteur donnerait un liant plus fort à la portion Moustiers-Castellane dans la version longue.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Alpes provençales, Écrins et hautes vallées",
+  "durationHint": "3 jours",
+  "tripTitle": "Autour de Briançon, la Provence la plus alpine",
+  "summary": "Pour trois jours, mieux vaut rester sur un secteur resserré et spectaculaire : celui de Briançon et des hautes vallées. Briançon offre la porte idéale, puis la vallée de la Clarée apporte la respiration paysagère majeure, avant une fin à Mont-Dauphin ou Vallouise selon l'orientation choisie. En van, cet itinéraire fonctionne très bien parce qu'il évite les grands écarts et se concentre sur l'essentiel : altitude, lumière nette, villages de montagne et routes de vallée. On tient ici un vrai road trip alpin, mais encore ancré dans la Provence par la lumière et la sécheresse du décor.",
+  "overnightStyle": "Nuits typiques : ville fortifiée d'altitude, vallée pastorale, balcon minéral des Alpes du Sud.",
+  "regionId": "provence",
+  "itinerarySlug": "alpes-provencales-ecrins-3j",
+  "steps": [
+  {
+  "slug": "briancon",
+  "nom": "Briançon",
+  "role": "etape"
+  },
+  {
+  "slug": "la-vallee-de-la-claree",
+  "nom": "La vallée de la Clarée",
+  "role": "etape"
+  },
+  {
+  "slug": "mont-dauphin",
+  "nom": "Mont-Dauphin",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Névache",
+  "raison": "Apporterait une étape très naturelle au cœur de la Clarée, parfaite pour un court séjour en van.",
+  "type": "commune"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Alpes provençales, Écrins et hautes vallées",
+  "durationHint": "7 jours",
+  "tripTitle": "Des Écrins au Queyras, l'arc alpin le plus cohérent de Provence",
+  "summary": "Sur une semaine, les Alpes du Sud provençales se parcourent très bien en suivant une logique de vallées et de forteresses. On commence à Gap, puis l'itinéraire monte vers Embrun et Serre-Ponçon avant de gagner Briançon, la Clarée, Mont-Dauphin et le Queyras. La fin à Saint-Véran donne au voyage un vrai point d'orgue, à la fois village et haute montagne. En van, ce road trip est particulièrement convaincant : les routes sont belles, les distances restent soutenables et l'on sent une vraie progression vers l'altitude. C'est un itinéraire de relief, d'air clair et de grandes routes alpines, très cohérent du début à la fin.",
+  "overnightStyle": "Nuits typiques : ville de vallée, rive de grand lac, citadelle alpine, village de très haute montagne.",
+  "regionId": "provence",
+  "itinerarySlug": "alpes-provencales-ecrins-7j",
+"steps": [
+{
+"slug": "sisteron",
+"nom": "Sisteron",
+"role": "etape"
+},
+{
+"slug": "gap",
+"nom": "Gap",
+"role": "etape"
+},
+{
+"slug": "embrun",
+"nom": "Embrun",
+"role": "etape"
+},
+{
+"slug": "lac-de-serre-poncon",
+"nom": "Lac de Serre-Ponçon",
+"role": "etape"
+},
+{
+"slug": "vallouise",
+"nom": "Vallouise",
+"role": "etape"
+},
+{
+"slug": "parc-national-des-ecrins",
+"nom": "Parc National des Écrins",
+"role": "etape"
+},
+{
+"slug": "briancon",
+"nom": "Briançon",
+"role": "etape"
+}
+],
+"suggestedPoiAdditions": [
+{
+"nom": "La Meije",
+"raison": "Renforcerait la dimension haute montagne et emblématique du secteur des Écrins.",
+"type": "sommet"
+}
+]
+},
+{
+"themeTitle": "Alpes provençales, Écrins et grands paysages d'altitude",
+"durationHint": "10 jours",
+"tripTitle": "La grande traversée alpine de Provence aux hautes vallées",
+"summary": "En dix jours, cet itinéraire devient une véritable traversée alpine, tout en restant lisible et fluide. On part de Sisteron puis Gap, avant de rejoindre Embrun et le lac de Serre-Ponçon. Ensuite, le parcours gagne Vallouise, les Écrins et Briançon, puis s’élargit vers Mont-Dauphin, le Queyras et Saint-Véran. Cette progression est particulièrement adaptée au van : elle suit une logique géographique sans retour inutile, tout en offrant une montée progressive vers des paysages de plus en plus spectaculaires. C’est un road trip d’altitude complet, entre villages perchés, grandes vallées et sommets.",
+"overnightStyle": "Nuits typiques : porte alpine, lac de montagne, vallée sauvage, village d’altitude isolé.",
+"regionId": "provence",
+"itinerarySlug": "alpes-provencales-ecrins-10j",
+"steps": [
+{
+"slug": "sisteron",
+"nom": "Sisteron",
+"role": "etape"
+},
+{
+"slug": "gap",
+"nom": "Gap",
+"role": "etape"
+},
+{
+"slug": "embrun",
+"nom": "Embrun",
+"role": "etape"
+},
+{
+"slug": "lac-de-serre-poncon",
+"nom": "Lac de Serre-Ponçon",
+"role": "etape"
+},
+{
+"slug": "vallouise",
+"nom": "Vallouise",
+"role": "etape"
+},
+{
+"slug": "parc-national-des-ecrins",
+"nom": "Parc National des Écrins",
+"role": "etape"
+},
+{
+"slug": "briancon",
+"nom": "Briançon",
+"role": "etape"
+},
+{
+"slug": "mont-dauphin",
+"nom": "Mont-Dauphin",
+"role": "etape"
+},
+{
+"slug": "queyras",
+"nom": "Queyras",
+"role": "etape"
+},
+{
+"slug": "saint-veran",
+"nom": "Saint-Véran",
+"role": "etape"
+}
+],
+"suggestedPoiAdditions": [
+{
+"nom": "Col d'Izoard",
+"raison": "Ajouterait une dimension routière mythique entre Briançon et le Queyras.",
+"type": "col"
+}
+]
+}
+]
 }

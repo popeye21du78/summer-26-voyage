@@ -1,3 +1,644 @@
 {
-  "itineraries": []
-}
+  "itineraries": [
+  {
+  "themeTitle": "Littoral charentais, îles et ports atlantiques",
+  "durationHint": "3 jours",
+  "tripTitle": "La Rochelle et l'île de Ré en version essentielle",
+  "summary": "Pour trois jours, le meilleur choix consiste à rester sur un arc côtier très lisible et très désirable. La Rochelle donne l'ouverture idéale avec son énergie de port, puis le voyage se prolonge naturellement vers Saint-Martin-de-Ré et Ars-en-Ré, qui offrent la plus belle lecture de l'île : villages blancs, ports tranquilles, marais et lumière atlantique. En van, cet itinéraire est très cohérent car il limite les kilomètres, garde un vrai fil marin et permet de profiter d'un rythme lent, ponctué de balades, de fronts de mer et de fins de journée au grand air. C'est un parcours compact mais particulièrement fort en identité.",
+  "overnightStyle": "Nuits typiques : vieux port, village insulaire, marais salants et bord d'océan.",
+  "regionId": "poitou-saintonge",
+  "itinerarySlug": "littoral-charentais-iles-ports-3j",
+  "steps": [
+  {
+  "slug": "la-rochelle",
+  "nom": "La Rochelle",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-martin-de-re",
+  "nom": "Saint-Martin-de-Ré",
+  "role": "etape"
+  },
+  {
+  "slug": "ars-en-re",
+  "nom": "Ars-en-Ré",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Les marais salants de l'île de Ré",
+  "raison": "Renforceraient la cohérence paysagère entre Saint-Martin-de-Ré et Ars-en-Ré dans un format court.",
+  "type": "aire_naturelle"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Littoral charentais, îles et ports atlantiques",
+  "durationHint": "7 jours",
+  "tripTitle": "Des quais de La Rochelle aux longues plages d'Oléron",
+  "summary": "Sur une semaine, le littoral charentais compose un road trip très fluide si l'on suit la côte sans chercher à tout mélanger. On part de La Rochelle, puis l'île de Ré s'impose avec La Flotte, Saint-Martin-de-Ré et Ars-en-Ré. Ensuite, le voyage redescend vers Châtelaillon, Rochefort et Fouras avant de basculer vers Marennes et l'île d'Oléron. L'ensemble fonctionne parfaitement en van : les distances restent raisonnables, les ambiances changent juste ce qu'il faut et le fil maritime reste évident du début à la fin. C'est un itinéraire très agréable à vivre, entre ports, plages, marais et îles, avec une vraie sensation de vacances atlantiques.",
+  "overnightStyle": "Nuits typiques : port historique, village de l'île, front de mer, pinède et plage océane.",
+  "regionId": "poitou-saintonge",
+  "itinerarySlug": "littoral-charentais-iles-ports-7j",
+  "steps": [
+  {
+  "slug": "la-rochelle",
+  "nom": "La Rochelle",
+  "role": "etape"
+  },
+  {
+  "slug": "la-flotte",
+  "nom": "La Flotte",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-martin-de-re",
+  "nom": "Saint-Martin-de-Ré",
+  "role": "etape"
+  },
+  {
+  "slug": "ars-en-re",
+  "nom": "Ars-en-Ré",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-chatelaillon",
+  "nom": "Plage de Châtelaillon",
+  "role": "etape"
+  },
+  {
+  "slug": "rochefort",
+  "nom": "Rochefort",
+  "role": "etape"
+  },
+  {
+  "slug": "fouras",
+  "nom": "Fouras",
+  "role": "etape"
+  },
+  {
+  "slug": "marennes",
+  "nom": "Marennes",
+  "role": "etape"
+  },
+  {
+  "slug": "ile-doleron",
+  "nom": "Île d'Oléron",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Le pont de l'île de Ré",
+  "raison": "Donnerait une vraie articulation narrative entre La Rochelle et la partie insulaire du parcours.",
+  "type": "pont"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Littoral charentais, îles et ports atlantiques",
+  "durationHint": "10 jours",
+  "tripTitle": "Toute la façade charentaise, des îles aux plages royannaises",
+  "summary": "En dix jours, la côte charentaise permet un grand itinéraire maritime particulièrement cohérent. On ouvre à La Rochelle, puis l'île de Ré donne une première séquence insulaire très forte. Ensuite, le voyage redescend par Châtelaillon, Rochefort, Fouras, Port-des-Barques et Marennes avant de gagner l'île d'Oléron. La fin vers Royan, Saint-Palais-sur-Mer et Talmont-sur-Gironde apporte un autre registre, plus balnéaire et plus estuarien, sans casser le fil littoral. En van, l'ensemble fonctionne très bien : la route suit naturellement la côte, les étapes sont bien rythmées et l'on passe d'une ambiance à l'autre sans rupture brutale. C'est un road trip ample, très plaisant, qui donne toute sa profondeur maritime à la région.",
+  "overnightStyle": "Nuits typiques : quai atlantique, village insulaire, plage de pinède, station de l'estuaire.",
+  "regionId": "poitou-saintonge",
+  "itinerarySlug": "littoral-charentais-iles-ports-10j",
+  "steps": [
+  {
+  "slug": "la-rochelle",
+  "nom": "La Rochelle",
+  "role": "etape"
+  },
+  {
+  "slug": "la-flotte",
+  "nom": "La Flotte",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-martin-de-re",
+  "nom": "Saint-Martin-de-Ré",
+  "role": "etape"
+  },
+  {
+  "slug": "ars-en-re",
+  "nom": "Ars-en-Ré",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-chatelaillon",
+  "nom": "Plage de Châtelaillon",
+  "role": "etape"
+  },
+  {
+  "slug": "rochefort",
+  "nom": "Rochefort",
+  "role": "etape"
+  },
+  {
+  "slug": "fouras",
+  "nom": "Fouras",
+  "role": "etape"
+  },
+  {
+  "slug": "port-des-barques",
+  "nom": "Port-des-Barques",
+  "role": "etape"
+  },
+  {
+  "slug": "marennes",
+  "nom": "Marennes",
+  "role": "etape"
+  },
+  {
+  "slug": "ile-doleron",
+  "nom": "Île d'Oléron",
+  "role": "etape"
+  },
+  {
+  "slug": "royan",
+  "nom": "Royan",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-palais-sur-mer",
+  "nom": "Saint-Palais-sur-Mer",
+  "role": "etape"
+  },
+  {
+  "slug": "talmont-sur-gironde",
+  "nom": "Talmont-sur-Gironde",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Bassin de Marennes-Oléron",
+  "raison": "Nommer explicitement ce secteur renforcerait la cohérence entre Marennes, Oléron et les ports ostréicoles.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Saintonge romane, estuaire et art de vivre charentais",
+  "durationHint": "3 jours",
+  "tripTitle": "De Saintes à Cognac, la Charente la plus élégante",
+  "summary": "Pour trois jours, le meilleur itinéraire intérieur reste celui de la Charente et de la Saintonge monumentale. Saintes donne une entrée évidente, dense et patrimoniale, puis Cognac et Jarnac déroulent un voyage plus doux, entre rivière, maisons de négoce et petites routes. En van, ce parcours est particulièrement agréable à vivre : les distances sont courtes, la circulation reste simple et les étapes se répondent naturellement autour d'un même art de vivre fluvial et viticole. On n'est pas dans le spectaculaire mais dans un road trip de caractère, très cohérent, où l'on profite autant des centres anciens que des trajets tranquilles entre eux.",
+  "overnightStyle": "Nuits typiques : ville de pierre blonde, bords de Charente, petite cité de négoce.",
+  "regionId": "poitou-saintonge",
+  "itinerarySlug": "saintonge-romane-charente-3j",
+  "steps": [
+  {
+  "slug": "saintes",
+  "nom": "Saintes",
+  "role": "etape"
+  },
+  {
+  "slug": "cognac",
+  "nom": "Cognac",
+  "role": "etape"
+  },
+  {
+  "slug": "jarnac",
+  "nom": "Jarnac",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Vallée de la Charente",
+  "raison": "Nommer la rivière comme fil directeur renforcerait la cohérence du voyage entre Saintes, Cognac et Jarnac.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Saintonge romane, estuaire et art de vivre charentais",
+  "durationHint": "7 jours",
+  "tripTitle": "La Charente et la Saintonge, des pierres romanes aux rives de l'estuaire",
+  "summary": "Sur une semaine, cet itinéraire permet de relier avec beaucoup de naturel les plus belles ambiances de Saintonge intérieure. Saintes et Cognac structurent d'abord le voyage, avant que Jarnac et Angoulême ne l'élargissent vers l'amont de la Charente. Ensuite, le retour vers Brouage, Mornac-sur-Seudre et Talmont-sur-Gironde apporte une très belle conclusion maritime et estuarienne. En van, la logique fonctionne parfaitement : on suit d'abord la rivière et les villes d'art de vivre, puis l'on glisse vers les marais et les petits ports. C'est un parcours très équilibré, à la fois patrimonial, paysager et agréable sur la route.",
+  "overnightStyle": "Nuits typiques : ville romane, bourg de Charente, port de marais, village d'estuaire.",
+  "regionId": "poitou-saintonge",
+  "itinerarySlug": "saintonge-romane-charente-7j",
+  "steps": [
+  {
+  "slug": "saintes",
+  "nom": "Saintes",
+  "role": "etape"
+  },
+  {
+  "slug": "cognac",
+  "nom": "Cognac",
+  "role": "etape"
+  },
+  {
+  "slug": "jarnac",
+  "nom": "Jarnac",
+  "role": "etape"
+  },
+  {
+  "slug": "angouleme",
+  "nom": "Angoulême",
+  "role": "etape"
+  },
+  {
+  "slug": "brouage",
+  "nom": "Brouage",
+  "role": "etape"
+  },
+  {
+  "slug": "mornac-sur-seudre",
+  "nom": "Mornac-sur-Seudre",
+  "role": "etape"
+  },
+  {
+  "slug": "talmont-sur-gironde",
+  "nom": "Talmont-sur-Gironde",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Estuaire de la Gironde",
+  "raison": "Permettrait de mieux nommer la logique de fin de parcours autour de Talmont-sur-Gironde.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Saintonge romane, estuaire et art de vivre charentais",
+  "durationHint": "10 jours",
+  "tripTitle": "La grande Charente, des villes de négoce aux villages de l'estuaire",
+  "summary": "En dix jours, la Charente et la Saintonge se prêtent à un itinéraire ample mais très cohérent. On ouvre par Angoulême puis Cognac, Jarnac et Saintes, ce qui permet de suivre une véritable colonne vertébrale fluviale. Ensuite, le voyage élargit vers Rochefort, Brouage et Mornac-sur-Seudre avant de rejoindre Royan et Talmont-sur-Gironde. Cette progression est très convaincante en van : on passe d'un arrière-pays élégant et viticole à un monde de marais, de ports et d'estuaire, sans rupture de ton. C'est un road trip très doux, où l'on alterne patrimoine urbain, petites routes et grands paysages d'eau.",
+  "overnightStyle": "Nuits typiques : ville haute, bourg de rivière, cité d'arsenal, village de marais, balcon sur l'estuaire.",
+  "regionId": "poitou-saintonge",
+  "itinerarySlug": "saintonge-romane-charente-10j",
+  "steps": [
+  {
+  "slug": "angouleme",
+  "nom": "Angoulême",
+  "role": "etape"
+  },
+  {
+  "slug": "cognac",
+  "nom": "Cognac",
+  "role": "etape"
+  },
+  {
+  "slug": "jarnac",
+  "nom": "Jarnac",
+  "role": "etape"
+  },
+  {
+  "slug": "saintes",
+  "nom": "Saintes",
+  "role": "etape"
+  },
+  {
+  "slug": "rochefort",
+  "nom": "Rochefort",
+  "role": "etape"
+  },
+  {
+  "slug": "brouage",
+  "nom": "Brouage",
+  "role": "etape"
+  },
+  {
+  "slug": "mornac-sur-seudre",
+  "nom": "Mornac-sur-Seudre",
+  "role": "etape"
+  },
+  {
+  "slug": "royan",
+  "nom": "Royan",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-palais-sur-mer",
+  "nom": "Saint-Palais-sur-Mer",
+  "role": "etape"
+  },
+  {
+  "slug": "talmont-sur-gironde",
+  "nom": "Talmont-sur-Gironde",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Vallée de la Charente",
+  "raison": "Donnerait un nom plus fort au fil directeur de la première moitié du voyage.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Poitou de pierre, rivières et cités médiévales",
+  "durationHint": "3 jours",
+  "tripTitle": "Poitiers, Chauvigny et Saint-Savin, le plus beau trio du Haut-Poitou",
+  "summary": "Pour trois jours, le Haut-Poitou offre un itinéraire d'une grande cohérence, très simple à lire et très plaisant à parcourir. Poitiers pose la base historique, Chauvigny apporte la puissance médiévale de son éperon rocheux, puis Saint-Savin conclut sur une note patrimoniale plus paisible, au bord de la Gartempe. En van, ce parcours fonctionne très bien : les étapes sont proches, les routes sont faciles et l'on garde un vrai plaisir de progression sans jamais forcer les distances. C'est un voyage compact mais très solide, qui montre un Poitou de pierre, de vallées et de centres anciens remarquablement conservés.",
+  "overnightStyle": "Nuits typiques : ville ancienne, cité de promontoire, vallée tranquille de rivière.",
+  "regionId": "poitou-saintonge",
+  "itinerarySlug": "poitou-pierre-rivieres-3j",
+  "steps": [
+  {
+  "slug": "poitiers",
+  "nom": "Poitiers",
+  "role": "etape"
+  },
+  {
+  "slug": "chauvigny",
+  "nom": "Chauvigny",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-savin",
+  "nom": "Saint-Savin",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": []
+  },
+  {
+  "themeTitle": "Poitou de pierre, rivières et cités médiévales",
+  "durationHint": "7 jours",
+  "tripTitle": "Du Haut-Poitou aux vallées de la Gartempe et de la Vienne",
+  "summary": "Sur une semaine, le Poitou se découvre très bien en suivant un arc de cités anciennes et de vallées discrètes. On commence à Poitiers puis Chauvigny, avant de rejoindre Saint-Savin, Lussac-les-Châteaux, Montmorillon et La Roche-Posay. La fin par Angles-sur-l'Anglin donne un vrai point d'orgue paysager et patrimonial. En van, cet itinéraire est particulièrement cohérent : les étapes ne sont jamais trop éloignées, les paysages évoluent lentement et l'on reste toujours dans le même monde de rivière, de pierre et de villages. C'est un road trip fin, calme, très agréable à vivre, qui valorise un Poitou souvent sous-estimé.",
+  "overnightStyle": "Nuits typiques : ville ancienne, bourg de vallée, petite cité au bord de l'eau, promontoire rocheux.",
+  "regionId": "poitou-saintonge",
+  "itinerarySlug": "poitou-pierre-rivieres-7j",
+  "steps": [
+  {
+  "slug": "poitiers",
+  "nom": "Poitiers",
+  "role": "etape"
+  },
+  {
+  "slug": "chauvigny",
+  "nom": "Chauvigny",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-savin",
+  "nom": "Saint-Savin",
+  "role": "etape"
+  },
+  {
+  "slug": "lussac-les-chateaux",
+  "nom": "Lussac-les-Châteaux",
+  "role": "etape"
+  },
+  {
+  "slug": "montmorillon",
+  "nom": "Montmorillon",
+  "role": "etape"
+  },
+  {
+  "slug": "la-roche-posay",
+  "nom": "La Roche-Posay",
+  "role": "etape"
+  },
+  {
+  "slug": "angles-sur-langlin",
+  "nom": "Angles-sur-l'Anglin",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Vallée de la Gartempe",
+  "raison": "Nommer la vallée rendrait encore plus lisible la logique géographique du parcours entre Saint-Savin, Montmorillon et Angles-sur-l'Anglin.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Poitou de pierre, rivières et cités médiévales",
+  "durationHint": "10 jours",
+  "tripTitle": "Le grand Poitou intérieur, des villes d'histoire aux villages de rivière",
+  "summary": "En dix jours, le Poitou intérieur devient un vrai terrain de road trip, très cohérent si l'on suit les vallées et les villes anciennes plutôt que de sauter d'un site à l'autre. On part de Poitiers puis de Châtellerault et Dissay, avant de gagner Chauvigny, Saint-Savin, Lussac-les-Châteaux, Montmorillon et Angles-sur-l'Anglin. Ensuite, le voyage remonte vers Civray, Ruffec et Verteuil-sur-Charente pour une conclusion plus charentaise mais toujours fluide. En van, l'ensemble fonctionne très bien grâce à des liaisons modérées, un paysage continu de vallées et de plateaux, et des étapes qui gardent toutes une vraie personnalité. C'est un itinéraire moins connu, mais très convaincant.",
+  "overnightStyle": "Nuits typiques : ville poitevine, bourg de vallée, cité médiévale, village de Charente paisible.",
+  "regionId": "poitou-saintonge",
+  "itinerarySlug": "poitou-pierre-rivieres-10j",
+  "steps": [
+  {
+  "slug": "poitiers",
+  "nom": "Poitiers",
+  "role": "etape"
+  },
+  {
+  "slug": "chatellerault",
+  "nom": "Châtellerault",
+  "role": "etape"
+  },
+  {
+  "slug": "dissay",
+  "nom": "Dissay",
+  "role": "etape"
+  },
+  {
+  "slug": "chauvigny",
+  "nom": "Chauvigny",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-savin",
+  "nom": "Saint-Savin",
+  "role": "etape"
+  },
+  {
+  "slug": "lussac-les-chateaux",
+  "nom": "Lussac-les-Châteaux",
+  "role": "etape"
+  },
+  {
+  "slug": "montmorillon",
+  "nom": "Montmorillon",
+  "role": "etape"
+  },
+  {
+  "slug": "angles-sur-langlin",
+  "nom": "Angles-sur-l'Anglin",
+  "role": "etape"
+  },
+  {
+  "slug": "civray",
+  "nom": "Civray",
+  "role": "etape"
+  },
+  {
+  "slug": "ruffec",
+  "nom": "Ruffec",
+  "role": "etape"
+  },
+  {
+  "slug": "verteuil-sur-charente",
+  "nom": "Verteuil-sur-Charente",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Vallée de la Charente",
+  "raison": "Aiderait à mieux incarner la partie finale entre Ruffec et Verteuil-sur-Charente.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Marais poitevin, Deux-Sèvres et campagnes douces",
+  "durationHint": "3 jours",
+  "tripTitle": "Coulon, Niort et les portes du marais",
+  "summary": "Pour trois jours, la meilleure approche du marais poitevin consiste à rester sur son cœur le plus paisible. Niort donne l'entrée naturelle, puis Coulon installe immédiatement l'ambiance du marais, avant une fin à Celles-sur-Belle ou Melle pour retrouver une campagne plus construite mais toujours douce. En van, ce format fonctionne très bien car il privilégie l'immersion plutôt que les kilomètres. On passe des quais urbains aux canaux et aux petites routes, avec un rythme calme et très agréable. C'est un itinéraire d'atmosphère, idéal pour ceux qui aiment les paysages d'eau lente et les petites étapes sereines.",
+  "overnightStyle": "Nuits typiques : ville de rivière, village de marais, bourg tranquille de campagne.",
+  "regionId": "poitou-saintonge",
+  "itinerarySlug": "marais-poitevin-deux-sevres-3j",
+  "steps": [
+  {
+  "slug": "niort",
+  "nom": "Niort",
+  "role": "etape"
+  },
+  {
+  "slug": "coulon",
+  "nom": "Coulon",
+  "role": "etape"
+  },
+  {
+  "slug": "celles-sur-belle",
+  "nom": "Celles-sur-Belle",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Marais poitevin",
+  "raison": "Nommer l'ensemble paysager renforcerait fortement la cohérence de ce court parcours.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Marais poitevin, Deux-Sèvres et campagnes douces",
+  "durationHint": "7 jours",
+  "tripTitle": "Du marais poitevin aux petites cités des Deux-Sèvres",
+  "summary": "Sur une semaine, cet itinéraire révèle un autre visage du Poitou-Saintonge, plus rural, plus calme et très agréable en van. On commence à Niort puis Coulon pour le cœur du marais poitevin, avant de remonter vers Celles-sur-Belle, Melle, Saint-Maixent-l'École et Airvault. La fin à Parthenay donne une vraie conclusion médiévale et structurée à l'ensemble. Le parcours fonctionne remarquablement bien car il suit une progression simple depuis les eaux basses du marais vers les campagnes et petites cités des Deux-Sèvres. C'est un voyage sans spectaculaire forcé, mais très cohérent, très reposant et riche en ambiances.",
+  "overnightStyle": "Nuits typiques : village de canaux, bourg roman, petite ville de campagne, cité médiévale.",
+  "regionId": "poitou-saintonge",
+  "itinerarySlug": "marais-poitevin-deux-sevres-7j",
+  "steps": [
+  {
+  "slug": "niort",
+  "nom": "Niort",
+  "role": "etape"
+  },
+  {
+  "slug": "coulon",
+  "nom": "Coulon",
+  "role": "etape"
+  },
+  {
+  "slug": "celles-sur-belle",
+  "nom": "Celles-sur-Belle",
+  "role": "etape"
+  },
+  {
+  "slug": "melle",
+  "nom": "Melle",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-maixent-lecole",
+  "nom": "Saint-Maixent-l'École",
+  "role": "etape"
+  },
+  {
+  "slug": "airvault",
+  "nom": "Airvault",
+  "role": "etape"
+  },
+  {
+  "slug": "parthenay",
+  "nom": "Parthenay",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": []
+  },
+  {
+  "themeTitle": "Marais poitevin, Deux-Sèvres et campagnes douces",
+  "durationHint": "10 jours",
+  "tripTitle": "La grande traversée des Deux-Sèvres, du marais aux hauts pays de bocage",
+  "summary": "En dix jours, les Deux-Sèvres et leurs marges permettent un road trip très cohérent, construit par paliers de paysages. On part de Niort et Coulon, puis l'on gagne Celles-sur-Belle, Melle, La Mothe-Saint-Héray et Pamproux pour le pays de plaines et de petites cités. Ensuite, le parcours se poursuit vers Saint-Maixent-l'École, Airvault, Saint-Loup-Lamairé, Thouars et Mauléon. Ce voyage fonctionne très bien en van car il suit une logique sud-ouest vers nord-est, sans allers-retours, avec une vraie progression depuis les terres d'eau jusqu'aux reliefs doux du bocage. C'est un itinéraire discret mais très solide, parfait pour un voyage lent.",
+  "overnightStyle": "Nuits typiques : marais tranquille, bourg roman, petite ville de campagne, lisière de bocage.",
+  "regionId": "poitou-saintonge",
+  "itinerarySlug": "marais-poitevin-deux-sevres-10j",
+  "steps": [
+  {
+  "slug": "niort",
+  "nom": "Niort",
+  "role": "etape"
+  },
+  {
+  "slug": "coulon",
+  "nom": "Coulon",
+  "role": "etape"
+  },
+  {
+  "slug": "celles-sur-belle",
+  "nom": "Celles-sur-Belle",
+  "role": "etape"
+  },
+  {
+  "slug": "melle",
+  "nom": "Melle",
+  "role": "etape"
+  },
+  {
+  "slug": "la-mothe-saint-heray",
+  "nom": "La Mothe-Saint-Héray",
+  "role": "etape"
+  },
+  {
+  "slug": "pamproux",
+  "nom": "Pamproux",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-maixent-lecole",
+  "nom": "Saint-Maixent-l'École",
+  "role": "etape"
+  },
+  {
+  "slug": "airvault",
+  "nom": "Airvault",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-loup-lamaire",
+  "nom": "Saint-Loup-Lamairé",
+  "role": "etape"
+  },
+  {
+  "slug": "thouars",
+  "nom": "Thouars",
+  "role": "etape"
+  },
+  {
+  "slug": "mauleon",
+  "nom": "Mauléon",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Gâtine poitevine",
+  "raison": "Permettrait de mieux nommer la cohérence paysagère de la seconde moitié du parcours.",
+  "type": "secteur"
+  }
+  ]
+  }
+  ]
+  }
+  

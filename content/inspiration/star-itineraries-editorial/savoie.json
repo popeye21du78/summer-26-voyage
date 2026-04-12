@@ -1,3 +1,177 @@
 {
-  "itineraries": []
+  "itineraries": [
+    {
+      "themeTitle": "Lacs alpins et douceur savoyarde",
+      "durationHint": "3 jours",
+      "tripTitle": "Annecy et le lac du Bourget, entre eau turquoise et villages élégants",
+      "summary": "Pour trois jours, cet itinéraire se concentre sur les deux plus beaux lacs de Savoie. Annecy et son vieux centre donnent le ton, puis les rives du lac (Sévrier, Saint-Jorioz) prolongent l’expérience. Ensuite, Aix-les-Bains et le lac du Bourget offrent une ambiance plus paisible et élégante. En van, ce parcours est très fluide, avec peu de kilomètres et une grande variété d’ambiances lacustres.",
+      "overnightStyle": "Nuits typiques : bord de lac, village chic, plage alpine.",
+      "regionId": "savoie",
+      "itinerarySlug": "lacs-annecy-bourget-3j",
+      "steps": [
+        { "slug": "annecy", "nom": "Annecy", "role": "etape" },
+        { "slug": "plage-de-sevrier", "nom": "Plage de Sévrier", "role": "etape" },
+        { "slug": "aix-les-bains", "nom": "Aix-les-Bains", "role": "etape" }
+      ],
+      "suggestedPoiAdditions": [
+        {
+          "nom": "Lac d’Annecy",
+          "raison": "Renforcerait l’identité centrale de l’itinéraire.",
+          "type": "lac"
+        }
+      ]
+    },
+    {
+      "themeTitle": "Lacs alpins et douceur savoyarde",
+      "durationHint": "7 jours",
+      "tripTitle": "Des rives du Léman à Annecy, la grande boucle des lacs",
+      "summary": "Sur une semaine, cet itinéraire relie les grands lacs alpins. On commence à Yvoire et Thonon-les-Bains, puis Évian, avant de rejoindre Annecy et ses plages. Enfin, le lac du Bourget et Aix-les-Bains complètent la boucle. En van, c’est un parcours très agréable, alternant villages fleuris, panoramas alpins et baignades.",
+      "overnightStyle": "Nuits typiques : lac, village médiéval, station thermale.",
+      "regionId": "savoie",
+      "itinerarySlug": "grands-lacs-alpins-7j",
+      "steps": [
+        { "slug": "yvoire", "nom": "Yvoire", "role": "etape" },
+        { "slug": "thonon-les-bains", "nom": "Thonon-les-Bains", "role": "etape" },
+        { "slug": "evian-les-bains", "nom": "Évian-les-Bains", "role": "etape" },
+        { "slug": "annecy", "nom": "Annecy", "role": "etape" },
+        { "slug": "plage-de-saint-jorioz", "nom": "Plage de Saint-Jorioz", "role": "etape" },
+        { "slug": "aix-les-bains", "nom": "Aix-les-Bains", "role": "etape" }
+      ],
+      "suggestedPoiAdditions": [
+        {
+          "nom": "Lac Léman",
+          "raison": "Apporterait une cohérence géographique claire à la première partie.",
+          "type": "lac"
+        }
+      ]
+    },
+    {
+      "themeTitle": "Lacs alpins et douceur savoyarde",
+      "durationHint": "10 jours",
+      "tripTitle": "Tous les grands lacs alpins en un seul road trip",
+      "summary": "En dix jours, cet itinéraire permet de parcourir l’ensemble des grands lacs savoyards. Du Léman à Annecy puis au Bourget et jusqu’au lac d’Aiguebelette, le voyage est fluide et varié. En van, c’est un itinéraire très confortable, avec de nombreux spots nature et des routes faciles.",
+      "overnightStyle": "Nuits typiques : lac sauvage, station thermale, plage alpine.",
+      "regionId": "savoie",
+      "itinerarySlug": "lacs-alpins-10j",
+      "steps": [
+        { "slug": "yvoire", "nom": "Yvoire", "role": "etape" },
+        { "slug": "evian-les-bains", "nom": "Évian-les-Bains", "role": "etape" },
+        { "slug": "thonon-les-bains", "nom": "Thonon-les-Bains", "role": "etape" },
+        { "slug": "annecy", "nom": "Annecy", "role": "etape" },
+        { "slug": "aix-les-bains", "nom": "Aix-les-Bains", "role": "etape" },
+        { "slug": "lac-daiguebelette", "nom": "Lac d'Aiguebelette", "role": "etape" }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Mont Blanc et haute montagne",
+      "durationHint": "3 jours",
+      "tripTitle": "Chamonix et les sommets mythiques",
+      "summary": "Pour trois jours, Chamonix offre une immersion immédiate dans la haute montagne. Entre glaciers, sommets et villages alpins comme Saint-Gervais-les-Bains, l’expérience est intense. En van, c’est un parcours court mais spectaculaire.",
+      "overnightStyle": "Nuits typiques : vallée glaciaire, village alpin, pied de sommet.",
+      "regionId": "savoie",
+      "itinerarySlug": "mont-blanc-3j",
+      "steps": [
+        { "slug": "chamonix", "nom": "Chamonix", "role": "etape" },
+        { "slug": "saint-gervais-les-bains", "nom": "Saint-Gervais-les-Bains", "role": "etape" },
+        { "slug": "megeve", "nom": "Megève", "role": "etape" }
+      ],
+      "suggestedPoiAdditions": [
+        {
+          "nom": "Mont Blanc",
+          "raison": "Renforcerait l’identité emblématique de l’itinéraire.",
+          "type": "sommet"
+        }
+      ]
+    },
+    {
+      "themeTitle": "Mont Blanc et haute montagne",
+      "durationHint": "7 jours",
+      "tripTitle": "Autour du Mont Blanc, entre vallées et stations alpines",
+      "summary": "Sur une semaine, cet itinéraire explore la région du Mont Blanc. Chamonix, Megève, Samoëns et Sixt-Fer-à-Cheval offrent une belle diversité de paysages. En van, la boucle est très agréable et variée.",
+      "overnightStyle": "Nuits typiques : vallée alpine, station, cirque naturel.",
+      "regionId": "savoie",
+      "itinerarySlug": "mont-blanc-7j",
+      "steps": [
+        { "slug": "chamonix", "nom": "Chamonix", "role": "etape" },
+        { "slug": "megeve", "nom": "Megève", "role": "etape" },
+        { "slug": "samoens", "nom": "Samoëns", "role": "etape" },
+        { "slug": "sixt-fer-a-cheval", "nom": "Sixt-Fer-à-Cheval", "role": "etape" },
+        { "slug": "la-clusaz", "nom": "La Clusaz", "role": "etape" }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Mont Blanc et haute montagne",
+      "durationHint": "10 jours",
+      "tripTitle": "La grande immersion alpine autour du Mont Blanc",
+      "summary": "En dix jours, cet itinéraire devient une vraie immersion alpine. Il relie Chamonix, Megève, Samoëns, puis descend vers Annecy avant de revenir vers les sommets. En van, c’est un road trip spectaculaire et complet.",
+      "overnightStyle": "Nuits typiques : haute montagne, lac, vallée alpine.",
+      "regionId": "savoie",
+      "itinerarySlug": "mont-blanc-10j",
+      "steps": [
+        { "slug": "chamonix", "nom": "Chamonix", "role": "etape" },
+        { "slug": "megeve", "nom": "Megève", "role": "etape" },
+        { "slug": "samoens", "nom": "Samoëns", "role": "etape" },
+        { "slug": "sixt-fer-a-cheval", "nom": "Sixt-Fer-à-Cheval", "role": "etape" },
+        { "slug": "annecy", "nom": "Annecy", "role": "etape" }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Cols alpins et Tarentaise",
+      "durationHint": "3 jours",
+      "tripTitle": "Les grands cols savoyards en version courte",
+      "summary": "Pour trois jours, cet itinéraire propose une immersion dans les cols alpins. Bourg-Saint-Maurice et Val d’Isère offrent un condensé spectaculaire. En van, les routes sont mythiques et très plaisantes.",
+      "overnightStyle": "Nuits typiques : col alpin, station de montagne.",
+      "regionId": "savoie",
+      "itinerarySlug": "cols-alpins-3j",
+      "steps": [
+        { "slug": "bourg-saint-maurice", "nom": "Bourg-Saint-Maurice", "role": "etape" },
+        { "slug": "val-disere", "nom": "Val d'Isère", "role": "etape" },
+        { "slug": "tignes", "nom": "Tignes", "role": "etape" }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Cols alpins et Tarentaise",
+      "durationHint": "7 jours",
+      "tripTitle": "La Tarentaise et ses grands paysages alpins",
+      "summary": "Sur une semaine, cet itinéraire explore la Tarentaise et ses stations emblématiques. Bourg-Saint-Maurice, Les Arcs, Tignes et Val d’Isère composent un ensemble très cohérent. En van, c’est un parcours spectaculaire mais accessible.",
+      "overnightStyle": "Nuits typiques : station, vallée alpine, col.",
+      "regionId": "savoie",
+      "itinerarySlug": "tarentaise-7j",
+      "steps": [
+        { "slug": "bourg-saint-maurice", "nom": "Bourg-Saint-Maurice", "role": "etape" },
+        { "slug": "les-arcs", "nom": "Les Arcs", "role": "etape" },
+        { "slug": "tignes", "nom": "Tignes", "role": "etape" },
+        { "slug": "val-disere", "nom": "Val d'Isère", "role": "etape" },
+        { "slug": "bonneval-sur-arc", "nom": "Bonneval-sur-Arc", "role": "etape" }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Cols alpins et Tarentaise",
+      "durationHint": "10 jours",
+      "tripTitle": "Les grands cols alpins, de la Maurienne à la Tarentaise",
+      "summary": "En dix jours, cet itinéraire devient une véritable aventure alpine. Il relie Albertville, Bourg-Saint-Maurice, Val d’Isère, Bonneval-sur-Arc et les routes de cols. En van, c’est un road trip mythique avec des panoramas exceptionnels.",
+      "overnightStyle": "Nuits typiques : col, vallée, station alpine.",
+      "regionId": "savoie",
+      "itinerarySlug": "cols-alpins-10j",
+      "steps": [
+        { "slug": "albertville", "nom": "Albertville", "role": "etape" },
+        { "slug": "bourg-saint-maurice", "nom": "Bourg-Saint-Maurice", "role": "etape" },
+        { "slug": "tignes", "nom": "Tignes", "role": "etape" },
+        { "slug": "val-disere", "nom": "Val d'Isère", "role": "etape" },
+        { "slug": "bonneval-sur-arc", "nom": "Bonneval-sur-Arc", "role": "etape" }
+      ],
+      "suggestedPoiAdditions": [
+        {
+          "nom": "Col de l’Iseran",
+          "raison": "Apporterait un point emblématique aux cols alpins.",
+          "type": "col"
+        }
+      ]
+    }
+  ]
 }

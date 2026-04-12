@@ -1,3 +1,758 @@
 {
-  "itineraries": []
-}
+  "itineraries": [
+  {
+  "themeTitle": "Vallée de la Dordogne noire et villages suspendus",
+  "durationHint": "3 jours",
+  "tripTitle": "Le grand classique du Périgord, de Sarlat aux balcons de la Dordogne",
+  "summary": "Pour un court séjour, difficile de faire plus juste que ce trio emblématique. Sarlat-la-Canéda donne l'ancrage urbain et l'ambiance médiévale, puis La Roque-Gageac et Beynac-et-Cazenac déroulent le grand décor de la Dordogne : falaises, rivière lente, villages accrochés et routes de corniche. En van, c'est un itinéraire parfait pour trois jours, car tout se tient sur un périmètre compact, sans fatigue ni kilomètres gratuits. On profite pleinement du paysage, des fins de journée au bord de l'eau et d'un vrai sentiment de voyage malgré la courte durée. C'est l'itinéraire le plus évident pour entrer dans le Périgord avec élégance.",
+  "overnightStyle": "Nuits typiques : cité médiévale, village de falaise, bord de rivière doré du soir.",
+  "regionId": "perigord-quercy",
+  "itinerarySlug": "dordogne-noire-balcons-3j",
+  "steps": [
+  {
+  "slug": "sarlat-la-caneda",
+  "nom": "Sarlat-la-Canéda",
+  "role": "etape"
+  },
+  {
+  "slug": "la-roque-gageac",
+  "nom": "La Roque-Gageac",
+  "role": "etape"
+  },
+  {
+  "slug": "beynac-et-cazenac",
+  "nom": "Beynac-et-Cazenac",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": []
+  },
+  {
+  "themeTitle": "Vallée de la Dordogne noire et villages suspendus",
+  "durationHint": "7 jours",
+  "tripTitle": "Toute la Dordogne noire, entre belvédères, jardins et villages de pierre",
+  "summary": "Sur une semaine, la vallée de la Dordogne peut être parcourue comme un grand ruban de villages et de sites majeurs. Sarlat-la-Canéda reste la meilleure porte d'entrée, avant d'enchaîner Domme, La Roque-Gageac, les Jardins de Marqueyssac, Beynac-et-Cazenac et Castelnaud-la-Chapelle. La fin par Belvès et Monpazier permet d'élargir intelligemment sans casser la cohérence : on reste dans le même monde de bastides, de vallons et de pierres blondes. En van, ce parcours fonctionne très bien car les distances restent contenues et chaque étape apporte une nuance sans redondance. C'est un itinéraire dense mais très plaisant, avec une vraie montée en richesse paysagère et patrimoniale.",
+  "overnightStyle": "Nuits typiques : bastide panoramique, village de rivière, promontoire boisé, bourg de pierre blonde.",
+  "regionId": "perigord-quercy",
+  "itinerarySlug": "dordogne-noire-balcons-7j",
+  "steps": [
+  {
+  "slug": "sarlat-la-caneda",
+  "nom": "Sarlat-la-Canéda",
+  "role": "etape"
+  },
+  {
+  "slug": "domme",
+  "nom": "Domme",
+  "role": "etape"
+  },
+  {
+  "slug": "la-roque-gageac",
+  "nom": "La Roque-Gageac",
+  "role": "etape"
+  },
+  {
+  "slug": "jardins-de-marqueyssac",
+  "nom": "Jardins de Marqueyssac",
+  "role": "etape"
+  },
+  {
+  "slug": "beynac-et-cazenac",
+  "nom": "Beynac-et-Cazenac",
+  "role": "etape"
+  },
+  {
+  "slug": "castelnaud-la-chapelle",
+  "nom": "Castelnaud-la-Chapelle",
+  "role": "etape"
+  },
+  {
+  "slug": "belves",
+  "nom": "Belvès",
+  "role": "etape"
+  },
+  {
+  "slug": "monpazier",
+  "nom": "Monpazier",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Vallée de la Dordogne",
+  "raison": "Nommer la vallée comme telle renforcerait la cohérence paysagère entre Domme, La Roque-Gageac, Beynac et Castelnaud.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Vallée de la Dordogne noire et villages suspendus",
+  "durationHint": "10 jours",
+  "tripTitle": "Le grand voyage du Périgord de la Dordogne aux bastides du sud",
+  "summary": "En dix jours, la Dordogne noire peut devenir un vrai voyage complet, à condition de garder un fil fluide. On commence par Sarlat-la-Canéda, Domme et La Roque-Gageac, puis l'itinéraire déroule naturellement les grands sites de vallée avant d'élargir vers Limeuil, Belvès, Monpazier et le Château de Biron. Ce choix est très cohérent en van : les premiers jours restent concentrés dans le cœur spectaculaire du Périgord, puis le voyage s'ouvre progressivement vers des paysages plus doux de bastides et de collines. On garde ainsi une forte identité sans tourner en rond. C'est une version ample, équilibrée, pensée pour profiter autant du décor que du plaisir de route.",
+  "overnightStyle": "Nuits typiques : cité médiévale, village de rivière, bastide calme, château de hauteur.",
+  "regionId": "perigord-quercy",
+  "itinerarySlug": "dordogne-noire-balcons-10j",
+  "steps": [
+  {
+  "slug": "sarlat-la-caneda",
+  "nom": "Sarlat-la-Canéda",
+  "role": "etape"
+  },
+  {
+  "slug": "domme",
+  "nom": "Domme",
+  "role": "etape"
+  },
+  {
+  "slug": "la-roque-gageac",
+  "nom": "La Roque-Gageac",
+  "role": "etape"
+  },
+  {
+  "slug": "jardins-de-marqueyssac",
+  "nom": "Jardins de Marqueyssac",
+  "role": "etape"
+  },
+  {
+  "slug": "beynac-et-cazenac",
+  "nom": "Beynac-et-Cazenac",
+  "role": "etape"
+  },
+  {
+  "slug": "castelnaud-la-chapelle",
+  "nom": "Castelnaud-la-Chapelle",
+  "role": "etape"
+  },
+  {
+  "slug": "limeuil",
+  "nom": "Limeuil",
+  "role": "etape"
+  },
+  {
+  "slug": "belves",
+  "nom": "Belvès",
+  "role": "etape"
+  },
+  {
+  "slug": "monpazier",
+  "nom": "Monpazier",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-biron",
+  "nom": "Château de Biron",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": []
+  },
+  {
+  "themeTitle": "Préhistoire, Vézère et falaises habitées",
+  "durationHint": "3 jours",
+  "tripTitle": "Autour des Eyzies, le Périgord préhistorique le plus cohérent",
+  "summary": "Pour trois jours, la vallée de la Vézère offre un itinéraire très dense et parfaitement calibré. Les Eyzies-de-Tayac-Sireuil constituent l'épicentre naturel, puis l'on poursuit vers l'Abri de la Madeleine et Saint-Léon-sur-Vézère. Ici, tout fait sens : même vallée, même univers de falaises, d'abris et de villages au bord de l'eau. En van, le séjour est idéal parce qu'il permet de ralentir, de s'immerger et d'éviter toute dispersion vers des zones plus éloignées. On est dans un Périgord intime, minéral et très habité, où la géographie raconte directement l'histoire humaine. C'est court, mais extrêmement fort.",
+  "overnightStyle": "Nuits typiques : vallée encaissée, village au bord de la Vézère, falaise habitée.",
+  "regionId": "perigord-quercy",
+  "itinerarySlug": "vezere-prehistoire-falaises-3j",
+  "steps": [
+  {
+  "slug": "les-eyzies-de-tayac-sireuil",
+  "nom": "Les Eyzies-de-Tayac-Sireuil",
+  "role": "etape"
+  },
+  {
+  "slug": "abri-de-la-madeleine",
+  "nom": "Abri de la Madeleine",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-leon-sur-vezere",
+  "nom": "Saint-Léon-sur-Vézère",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Vallée de la Vézère",
+  "raison": "Le grand paysage de vallée donnerait un fil éditorial encore plus clair à ce court itinéraire.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Préhistoire, Vézère et falaises habitées",
+  "durationHint": "7 jours",
+  "tripTitle": "De Lascaux aux falaises des Eyzies, le Périgord des origines",
+  "summary": "Sur une semaine, il est possible de construire un itinéraire préhistorique très convaincant sans tomber dans la simple liste de grottes et de sites. On part de la Grotte de Lascaux puis de Saint-Amand-de-Coly, avant de rejoindre Rouffignac-Saint-Cernin-de-Reilhac, Les Eyzies-de-Tayac-Sireuil, l'Abri de la Madeleine et Saint-Léon-sur-Vézère. La fin par le Château de Commarque apporte une respiration médiévale qui reste dans le même décor de forêt et de falaises. En van, tout se tient bien : le périmètre reste compact, les routes sont agréables et l'atmosphère monte en intensité au fil des vallées. C'est un voyage très identitaire, pensé pour ceux qui aiment les lieux où le paysage et le temps long se répondent.",
+  "overnightStyle": "Nuits typiques : plateau boisé, vallée préhistorique, village de falaise, château dans la forêt.",
+  "regionId": "perigord-quercy",
+  "itinerarySlug": "vezere-prehistoire-falaises-7j",
+  "steps": [
+  {
+  "slug": "grotte-de-lascaux",
+  "nom": "Grotte de Lascaux",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-amand-de-coly",
+  "nom": "Saint-Amand-de-Coly",
+  "role": "etape"
+  },
+  {
+  "slug": "rouffignac-saint-cernin-de-reilhac",
+  "nom": "Rouffignac-Saint-Cernin-de-Reilhac",
+  "role": "etape"
+  },
+  {
+  "slug": "les-eyzies-de-tayac-sireuil",
+  "nom": "Les Eyzies-de-Tayac-Sireuil",
+  "role": "etape"
+  },
+  {
+  "slug": "abri-de-la-madeleine",
+  "nom": "Abri de la Madeleine",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-leon-sur-vezere",
+  "nom": "Saint-Léon-sur-Vézère",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-commarque",
+  "nom": "Château de Commarque",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": []
+  },
+  {
+  "themeTitle": "Préhistoire, Vézère et falaises habitées",
+  "durationHint": "10 jours",
+  "tripTitle": "Le grand Périgord préhistorique, de la Vézère aux hauteurs du Sarladais",
+  "summary": "En dix jours, cet itinéraire donne toute sa profondeur au Périgord préhistorique et paysager. On commence à Lascaux puis l'on suit une logique très fluide vers Saint-Amand-de-Coly, Rouffignac, Le Bugue, Les Eyzies-de-Tayac-Sireuil, l'Abri de la Madeleine et Saint-Léon-sur-Vézère. Ensuite, le parcours s'élargit légèrement avec Limeuil et Sarlat-la-Canéda pour finir sur un point d'orgue urbain et patrimonial. Ce choix est particulièrement adapté au van : on garde un cœur de voyage très resserré, mais avec assez d'amplitude pour varier les ambiances entre vallée, falaise, plateau et ville médiévale. C'est un road trip d'immersion plus que de performance, cohérent et très riche.",
+  "overnightStyle": "Nuits typiques : lisière de plateau, bourg de vallée, village de falaise, cité médiévale dense.",
+  "regionId": "perigord-quercy",
+  "itinerarySlug": "vezere-prehistoire-falaises-10j",
+  "steps": [
+  {
+  "slug": "grotte-de-lascaux",
+  "nom": "Grotte de Lascaux",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-amand-de-coly",
+  "nom": "Saint-Amand-de-Coly",
+  "role": "etape"
+  },
+  {
+  "slug": "rouffignac-saint-cernin-de-reilhac",
+  "nom": "Rouffignac-Saint-Cernin-de-Reilhac",
+  "role": "etape"
+  },
+  {
+  "slug": "le-bugue",
+  "nom": "Le Bugue",
+  "role": "etape"
+  },
+  {
+  "slug": "les-eyzies-de-tayac-sireuil",
+  "nom": "Les Eyzies-de-Tayac-Sireuil",
+  "role": "etape"
+  },
+  {
+  "slug": "abri-de-la-madeleine",
+  "nom": "Abri de la Madeleine",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-leon-sur-vezere",
+  "nom": "Saint-Léon-sur-Vézère",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-commarque",
+  "nom": "Château de Commarque",
+  "role": "etape"
+  },
+  {
+  "slug": "limeuil",
+  "nom": "Limeuil",
+  "role": "etape"
+  },
+  {
+  "slug": "sarlat-la-caneda",
+  "nom": "Sarlat-la-Canéda",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": []
+  },
+  {
+  "themeTitle": "Quercy minéral, villages perchés et falaises du Lot",
+  "durationHint": "3 jours",
+  "tripTitle": "Le plus beau Quercy, de Cahors à Saint-Cirq-Lapopie",
+  "summary": "Pour un format court, il faut assumer la colonne vertébrale la plus forte du Quercy : la vallée du Lot. Cahors donne le départ idéal, puis le voyage prend de la hauteur à Saint-Cirq-Lapopie avec une évidence rare. Cabrerets ou Saint-Cirq complètent très naturellement ce monde de falaises, de méandres et de villages accrochés. En van, l'itinéraire est particulièrement réussi parce qu'il reste concentré sur un même paysage, sans dispersion vers des secteurs plus lointains. C'est un voyage de pierre claire, de routes sinueuses et de soirées au bord de l'eau ou sur un promontoire. Peu d'étapes, mais un vrai caractère.",
+  "overnightStyle": "Nuits typiques : ville de méandre, village suspendu, vallée de falaise calcaire.",
+  "regionId": "perigord-quercy",
+  "itinerarySlug": "quercy-mineral-lot-3j",
+  "steps": [
+  {
+  "slug": "cahors",
+  "nom": "Cahors",
+  "role": "etape"
+  },
+  {
+  "slug": "cabrerets",
+  "nom": "Cabrerets",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-cirq-lapopie",
+  "nom": "Saint-Cirq-Lapopie",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Vallée du Lot",
+  "raison": "Nommer la vallée renforcerait la cohérence du parcours entre Cahors, Cabrerets et Saint-Cirq-Lapopie.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Quercy minéral, villages perchés et falaises du Lot",
+  "durationHint": "7 jours",
+  "tripTitle": "Du cœur du Lot aux villages de belvédère du Quercy",
+  "summary": "Sur une semaine, le Quercy peut être pensé comme un voyage minéral très fluide. On ouvre à Cahors, puis Puy-l'Évêque et Luzech prolongent la lecture de la vallée du Lot avant de rejoindre Saint-Cirq-Lapopie. Ensuite, l'itinéraire remonte vers Autoire, Loubressac et Rocamadour, avec une montée progressive en relief et en caractère. Ce choix est très convaincant en van : les routes restent belles et denses sans devenir fatigantes, et l'on passe d'un Quercy viticole et fluvial à un Quercy de falaises, de causses et de villages suspendus. L'ensemble raconte vraiment quelque chose, avec un rythme agréable et beaucoup de personnalité.",
+  "overnightStyle": "Nuits typiques : village de rivière, méandre paisible, balcon calcaire, cité sacrée sur falaise.",
+  "regionId": "perigord-quercy",
+  "itinerarySlug": "quercy-mineral-lot-7j",
+  "steps": [
+  {
+  "slug": "cahors",
+  "nom": "Cahors",
+  "role": "etape"
+  },
+  {
+  "slug": "puy-leveque",
+  "nom": "Puy-l'Évêque",
+  "role": "etape"
+  },
+  {
+  "slug": "luzech",
+  "nom": "Luzech",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-cirq-lapopie",
+  "nom": "Saint-Cirq-Lapopie",
+  "role": "etape"
+  },
+  {
+  "slug": "autoire",
+  "nom": "Autoire",
+  "role": "etape"
+  },
+  {
+  "slug": "loubressac",
+  "nom": "Loubressac",
+  "role": "etape"
+  },
+  {
+  "slug": "rocamadour",
+  "nom": "Rocamadour",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Gouffre de Padirac",
+  "raison": "Renforcerait la logique de grand site entre Autoire, Loubressac et Rocamadour.",
+  "type": "aire_naturelle"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Quercy minéral, villages perchés et falaises du Lot",
+  "durationHint": "10 jours",
+  "tripTitle": "Le grand Quercy, du Lot viticole aux causses de Rocamadour",
+  "summary": "Cette version longue permet de construire un vrai voyage quercynois sans casser sa cohérence. On part de Cahors puis de Prayssac, Puy-l'Évêque et Luzech pour explorer d'abord le Lot des méandres et du vignoble. Ensuite, le parcours remonte vers Saint-Cirq-Lapopie et Cabrerets, avant de s'élargir vers Figeac, Cardaillac, Autoire, Loubressac, Carennac, Martel et Rocamadour. L'intérêt de cette progression est clair : on passe d'un sud plus fluvial à un nord plus minéral et plus spectaculaire. En van, le voyage reste crédible, car il s'étire naturellement d'une vallée à l'autre. C'est une grande traversée quercynoise, très forte en ambiance et en relief.",
+  "overnightStyle": "Nuits typiques : méandre viticole, village de falaise, petite ville du causse, balcon sur vallée, cité de pèlerinage.",
+  "regionId": "perigord-quercy",
+  "itinerarySlug": "quercy-mineral-lot-10j",
+  "steps": [
+  {
+  "slug": "cahors",
+  "nom": "Cahors",
+  "role": "etape"
+  },
+  {
+  "slug": "prayssac",
+  "nom": "Prayssac",
+  "role": "etape"
+  },
+  {
+  "slug": "puy-leveque",
+  "nom": "Puy-l'Évêque",
+  "role": "etape"
+  },
+  {
+  "slug": "luzech",
+  "nom": "Luzech",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-cirq-lapopie",
+  "nom": "Saint-Cirq-Lapopie",
+  "role": "etape"
+  },
+  {
+  "slug": "cabrerets",
+  "nom": "Cabrerets",
+  "role": "etape"
+  },
+  {
+  "slug": "figeac",
+  "nom": "Figeac",
+  "role": "etape"
+  },
+  {
+  "slug": "cardaillac",
+  "nom": "Cardaillac",
+  "role": "etape"
+  },
+  {
+  "slug": "autoire",
+  "nom": "Autoire",
+  "role": "etape"
+  },
+  {
+  "slug": "loubressac",
+  "nom": "Loubressac",
+  "role": "etape"
+  },
+  {
+  "slug": "carennac",
+  "nom": "Carennac",
+  "role": "etape"
+  },
+  {
+  "slug": "martel",
+  "nom": "Martel",
+  "role": "etape"
+  },
+  {
+  "slug": "rocamadour",
+  "nom": "Rocamadour",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": []
+  },
+  {
+  "themeTitle": "Bastides, châteaux et collines entre Périgord et Lot-et-Garonne",
+  "durationHint": "3 jours",
+  "tripTitle": "Monpazier, Biron et Monflanquin, le meilleur des bastides du sud",
+  "summary": "Pour trois jours, ce petit arc de bastides et de grands châteaux est probablement le plus cohérent. Monpazier offre la bastide idéale, Château de Biron donne l'ampleur monumentale, puis Monflanquin prolonge le voyage dans une autre ambiance de hauteur et de place régulière. En van, cet itinéraire est très agréable car il reste concentré sur un même paysage de collines, de champs et de villages structurés. On n'y cherche pas la vallée ou le grand site naturel, mais le plaisir d'une route douce entre bastides de caractère. C'est un format très solide, simple, éditorialement net et très agréable à vivre.",
+  "overnightStyle": "Nuits typiques : bastide de pierre, château de colline, village à arcades dominant la campagne.",
+  "regionId": "perigord-quercy",
+  "itinerarySlug": "bastides-chateaux-collines-3j",
+  "steps": [
+  {
+  "slug": "monpazier",
+  "nom": "Monpazier",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-biron",
+  "nom": "Château de Biron",
+  "role": "etape"
+  },
+  {
+  "slug": "monflanquin",
+  "nom": "Monflanquin",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": []
+  },
+  {
+  "themeTitle": "Bastides, châteaux et collines entre Périgord et Lot-et-Garonne",
+  "durationHint": "7 jours",
+  "tripTitle": "Le sud des bastides, de Monpazier au pays du Lot-et-Garonne",
+  "summary": "Sur une semaine, les bastides du sud-ouest peuvent composer un road trip très harmonieux si l'on reste fidèle au paysage de collines et de vallées douces. On part de Monpazier et Biron avant de glisser vers Monflanquin, Villeneuve-sur-Lot, Pujols et Penne-d'Agenais. La fin par Duras donne un élargissement malin, qui ouvre le regard vers un autre versant du Lot-et-Garonne sans rompre l'identité générale. En van, cet itinéraire fonctionne très bien car il ne multiplie pas les longues traversées et garde toujours un bon équilibre entre route, patrimoine et haltes agréables. C'est un voyage de bastides plus que de performance, calme et très crédible.",
+  "overnightStyle": "Nuits typiques : bastide perchée, petite ville de vallée, promontoire sur le Lot, château de lisière.",
+  "regionId": "perigord-quercy",
+  "itinerarySlug": "bastides-chateaux-collines-7j",
+  "steps": [
+  {
+  "slug": "monpazier",
+  "nom": "Monpazier",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-biron",
+  "nom": "Château de Biron",
+  "role": "etape"
+  },
+  {
+  "slug": "monflanquin",
+  "nom": "Monflanquin",
+  "role": "etape"
+  },
+  {
+  "slug": "villeneuve-sur-lot",
+  "nom": "Villeneuve-sur-Lot",
+  "role": "etape"
+  },
+  {
+  "slug": "pujols",
+  "nom": "Pujols",
+  "role": "etape"
+  },
+  {
+  "slug": "penne-dagenais",
+  "nom": "Penne-d'Agenais",
+  "role": "etape"
+  },
+  {
+  "slug": "duras",
+  "nom": "Duras",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Vallée du Lot",
+  "raison": "Permettrait de mieux nommer la cohérence entre Villeneuve-sur-Lot, Pujols et Penne-d'Agenais.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Bastides, châteaux et collines entre Périgord et Lot-et-Garonne",
+  "durationHint": "10 jours",
+  "tripTitle": "Du Périgord au Lot-et-Garonne, le grand voyage des bastides et des rivières lentes",
+  "summary": "En dix jours, le sud du Périgord et le Lot-et-Garonne forment un itinéraire étonnamment cohérent dès lors qu'on privilégie bastides, vallées et petites villes plutôt que les grands écarts. On part de Monpazier, Biron et Monflanquin, puis l'on suit le Lot vers Villeneuve-sur-Lot, Pujols et Penne-d'Agenais. Ensuite, le voyage gagne Agen, Nérac, Vianne et Buzet-sur-Baïse, avant de finir à Duras. Ce parcours marche très bien en van car il déroule une progression régulière, de collines en vallées, sans rupture brutale de paysage. C'est un road trip plus secret, moins iconique que la Dordogne noire, mais très fort en douceur de vivre et en plaisir de route.",
+  "overnightStyle": "Nuits typiques : bastide de hauteur, petite ville fluviale, bourg des vignes, village fortifié sur la Baïse.",
+  "regionId": "perigord-quercy",
+  "itinerarySlug": "bastides-chateaux-collines-10j",
+  "steps": [
+  {
+  "slug": "monpazier",
+  "nom": "Monpazier",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-biron",
+  "nom": "Château de Biron",
+  "role": "etape"
+  },
+  {
+  "slug": "monflanquin",
+  "nom": "Monflanquin",
+  "role": "etape"
+  },
+  {
+  "slug": "villeneuve-sur-lot",
+  "nom": "Villeneuve-sur-Lot",
+  "role": "etape"
+  },
+  {
+  "slug": "pujols",
+  "nom": "Pujols",
+  "role": "etape"
+  },
+  {
+  "slug": "penne-dagenais",
+  "nom": "Penne-d'Agenais",
+  "role": "etape"
+  },
+  {
+  "slug": "agen",
+  "nom": "Agen",
+  "role": "etape"
+  },
+  {
+  "slug": "nerac",
+  "nom": "Nérac",
+  "role": "etape"
+  },
+  {
+  "slug": "vianne",
+  "nom": "Vianne",
+  "role": "etape"
+  },
+  {
+  "slug": "buzet-sur-baise",
+  "nom": "Buzet-sur-Baïse",
+  "role": "etape"
+  },
+  {
+  "slug": "duras",
+  "nom": "Duras",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Baïse",
+  "raison": "Nommer la rivière renforcerait très clairement la cohérence entre Nérac, Vianne et Buzet-sur-Baïse.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Périgord vert et châteaux de l'intérieur",
+  "durationHint": "3 jours",
+  "tripTitle": "Autour de Hautefort, un Périgord plus secret et plus vert",
+  "summary": "Pour trois jours hors des grands axes les plus connus, le nord du Périgord propose un itinéraire très réussi. Le Château de Hautefort donne l'entrée monumentale, puis Saint-Jean-de-Côle apporte une note plus délicate avant une fin à Saint-Cirq ou Saint-Jean-de-Côle selon le rythme souhaité. Ici, le fil directeur n'est plus la grande vallée, mais un Périgord de collines, de forêts et de patrimoine plus discret. En van, cette option fonctionne bien parce qu'elle reste compacte et tranquille, avec une vraie sensation d'arrière-pays. C'est un format court mais très agréable, pour ceux qui veulent une autre facette de la région.",
+  "overnightStyle": "Nuits typiques : château de campagne, village de rivière, collines boisées et petites routes.",
+  "regionId": "perigord-quercy",
+  "itinerarySlug": "perigord-vert-chateaux-3j",
+  "steps": [
+  {
+  "slug": "chateau-de-hautefort",
+  "nom": "Château de Hautefort",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-jean-de-cole",
+  "nom": "Saint-Jean-de-Côle",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-cirq",
+  "nom": "Saint-Cirq",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Excideuil",
+  "raison": "Créerait une transition naturelle entre Hautefort et Saint-Jean-de-Côle dans un Périgord vert plus incarné.",
+  "type": "commune"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Périgord vert et châteaux de l'intérieur",
+  "durationHint": "7 jours",
+  "tripTitle": "Le nord périgourdin, entre villages secrets et grands châteaux",
+  "summary": "Sur une semaine, le Périgord vert et l'intérieur de la Dordogne forment un très bel itinéraire de campagne, de forêts et de patrimoine. On commence par Saint-Jean-de-Côle, puis le Château de Hautefort et Saint-Amand-de-Coly créent un premier noyau très cohérent. Ensuite, le voyage descend vers Rouffignac et les secteurs plus boisés, avant de s'ouvrir vers Belvès ou Limeuil pour finir sur une note plus lumineuse. En van, l'intérêt tient au rythme apaisé : peu de longues liaisons, beaucoup de routes secondaires et un sentiment continu d'arrière-pays habité. C'est une proposition plus secrète que la Dordogne noire, mais très solide et très agréable.",
+  "overnightStyle": "Nuits typiques : village de rivière, château d'intérieur, plateau boisé, bourg calme du soir.",
+  "regionId": "perigord-quercy",
+  "itinerarySlug": "perigord-vert-chateaux-7j",
+  "steps": [
+  {
+  "slug": "saint-jean-de-cole",
+  "nom": "Saint-Jean-de-Côle",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-hautefort",
+  "nom": "Château de Hautefort",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-amand-de-coly",
+  "nom": "Saint-Amand-de-Coly",
+  "role": "etape"
+  },
+  {
+  "slug": "rouffignac-saint-cernin-de-reilhac",
+  "nom": "Rouffignac-Saint-Cernin-de-Reilhac",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-commarque",
+  "nom": "Château de Commarque",
+  "role": "etape"
+  },
+  {
+  "slug": "belves",
+  "nom": "Belvès",
+  "role": "etape"
+  },
+  {
+  "slug": "limeuil",
+  "nom": "Limeuil",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": []
+  },
+  {
+  "themeTitle": "Périgord vert et châteaux de l'intérieur",
+  "durationHint": "10 jours",
+  "tripTitle": "La grande traversée intérieure, du Périgord vert aux vallées secrètes",
+  "summary": "En dix jours, le nord et l'intérieur du Périgord permettent un vrai voyage de relief doux et de patrimoine de campagne. On part de Saint-Jean-de-Côle puis l'on rejoint Hautefort, Saint-Amand-de-Coly, Rouffignac, les Eyzies-de-Tayac-Sireuil et Commarque. Ensuite, le parcours s'étire vers Limeuil, Belvès, Monpazier et Biron, ce qui élargit le voyage sans le dénaturer. La logique est bonne en van : on traverse progressivement plusieurs nuances de Périgord, du plus boisé au plus lumineux, sans grands retours en arrière. C'est un itinéraire riche, plus discret que les grands classiques mais très satisfaisant pour qui aime les châteaux, les villages et les routes lentes.",
+  "overnightStyle": "Nuits typiques : campagne boisée, château d'intérieur, vallée préhistorique, bastide paisible.",
+  "regionId": "perigord-quercy",
+  "itinerarySlug": "perigord-vert-chateaux-10j",
+  "steps": [
+  {
+  "slug": "saint-jean-de-cole",
+  "nom": "Saint-Jean-de-Côle",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-hautefort",
+  "nom": "Château de Hautefort",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-amand-de-coly",
+  "nom": "Saint-Amand-de-Coly",
+  "role": "etape"
+  },
+  {
+  "slug": "rouffignac-saint-cernin-de-reilhac",
+  "nom": "Rouffignac-Saint-Cernin-de-Reilhac",
+  "role": "etape"
+  },
+  {
+  "slug": "les-eyzies-de-tayac-sireuil",
+  "nom": "Les Eyzies-de-Tayac-Sireuil",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-commarque",
+  "nom": "Château de Commarque",
+  "role": "etape"
+  },
+  {
+  "slug": "limeuil",
+  "nom": "Limeuil",
+  "role": "etape"
+  },
+  {
+  "slug": "belves",
+  "nom": "Belvès",
+  "role": "etape"
+  },
+  {
+  "slug": "monpazier",
+  "nom": "Monpazier",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-biron",
+  "nom": "Château de Biron",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Périgord vert",
+  "raison": "Le secteur comme tel permettrait de mieux assumer éditorialement l'ouverture de l'itinéraire.",
+  "type": "secteur"
+  }
+  ]
+  }
+  ]
+  }
+  

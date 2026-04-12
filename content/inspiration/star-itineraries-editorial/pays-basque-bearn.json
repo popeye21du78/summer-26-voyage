@@ -1,3 +1,640 @@
 {
-  "itineraries": []
-}
+  "itineraries": [
+  {
+  "themeTitle": "Littoral basque, surf et villages marins",
+  "durationHint": "3 jours",
+  "tripTitle": "De Biarritz à Hendaye, la côte basque en version essentielle",
+  "summary": "Pour un court road trip en van, la côte basque offre une évidence rare : tout s'enchaîne naturellement, avec très peu de kilomètres et une vraie montée en intensité. On commence à Biarritz pour l'énergie urbaine et l'ouverture sur l'océan, puis l'on glisse vers Saint-Jean-de-Luz pour une ambiance plus douce et plus balnéaire, avant d'achever le voyage à Hendaye, où la baie ouvre l'horizon et détend le rythme. Cet itinéraire fonctionne très bien sur trois jours parce qu'il garde un fil strictement côtier, sans dispersion vers l'intérieur. C'est un voyage court mais très désirable, entre grandes plages, façades basques, lumière atlantique et soirs simples face à l'océan.",
+  "overnightStyle": "Nuits typiques : ville océanique, port basque, grande baie ouverte sur l'Atlantique.",
+  "regionId": "pays-basque-bearn",
+  "itinerarySlug": "littoral-basque-surf-3j",
+  "steps": [
+  {
+  "slug": "biarritz",
+  "nom": "Biarritz",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-jean-de-luz",
+  "nom": "Saint-Jean-de-Luz",
+  "role": "etape"
+  },
+  {
+  "slug": "hendaye",
+  "nom": "Hendaye",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Guéthary",
+  "raison": "Créerait une transition très naturelle entre Biarritz et Saint-Jean-de-Luz dans un itinéraire purement côtier.",
+  "type": "commune"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Littoral basque, surf et villages marins",
+  "durationHint": "7 jours",
+  "tripTitle": "Toute la corniche basque, des plages de Biarritz aux portes de l'Espagne",
+  "summary": "Sur une semaine, la côte basque se parcourt idéalement comme un ruban continu. Le départ par Bayonne permet d'entrer dans l'identité basque avant de rejoindre Biarritz et ses grandes plages, puis Bidart et les rivages plus découpés. Ensuite, l'itinéraire suit la côte vers Saint-Jean-de-Luz et Hendaye en multipliant les haltes de plage plutôt que les détours inutiles. En van, ce parcours est particulièrement cohérent : les distances sont très courtes, l'océan reste le fil directeur, et chaque étape renforce la précédente. On y trouve une vraie variété d'ambiances, entre ville vivante, stations basques élégantes, plages de surf et grande baie de frontière. C'est un road trip simple, dense et très agréable à vivre.",
+  "overnightStyle": "Nuits typiques : ville basque animée, plage de surf, village côtier, baie de frontière.",
+  "regionId": "pays-basque-bearn",
+  "itinerarySlug": "littoral-basque-surf-7j",
+  "steps": [
+  {
+  "slug": "bayonne",
+  "nom": "Bayonne",
+  "role": "etape"
+  },
+  {
+  "slug": "biarritz",
+  "nom": "Biarritz",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-la-cote-des-basques",
+  "nom": "Plage de la Côte des Basques",
+  "role": "etape"
+  },
+  {
+  "slug": "bidart",
+  "nom": "Bidart",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-parlementia",
+  "nom": "Plage de Parlementia",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-jean-de-luz",
+  "nom": "Saint-Jean-de-Luz",
+  "role": "etape"
+  },
+  {
+  "slug": "hendaye",
+  "nom": "Hendaye",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-des-deux-jumeaux",
+  "nom": "Plage des Deux Jumeaux",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Guéthary",
+  "raison": "Donnerait une vraie étape de village côtier entre Bidart et Saint-Jean-de-Luz, très utile éditorialement.",
+  "type": "commune"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Littoral basque, surf et villages marins",
+  "durationHint": "10 jours",
+  "tripTitle": "Le grand voyage basque, de Bayonne à la frontière par toutes les plus belles plages",
+  "summary": "En dix jours, la côte basque permet un itinéraire long sans jamais perdre sa cohérence. On ouvre par Bayonne puis Biarritz, avant de suivre le rivage plage après plage jusqu'à Hendaye. Ce format fonctionne très bien ici, car la densité d'ambiances est forte sur peu de kilomètres : grandes stations, petites plages encaissées, corniche, falaises basses et vastes baies. L'intérêt est justement de ralentir, de ne pas résumer le littoral à trois villes, et de laisser de la place à des haltes balnéaires bien choisies. En van, c'est l'un des parcours les plus simples et les plus désirables de la région, avec un vrai plaisir de route, des journées courtes et une identité océanique constante du début à la fin.",
+  "overnightStyle": "Nuits typiques : ville basque, plage de surf, corniche océanique, grande baie sableuse.",
+  "regionId": "pays-basque-bearn",
+  "itinerarySlug": "littoral-basque-surf-10j",
+  "steps": [
+  {
+  "slug": "bayonne",
+  "nom": "Bayonne",
+  "role": "etape"
+  },
+  {
+  "slug": "biarritz",
+  "nom": "Biarritz",
+  "role": "etape"
+  },
+  {
+  "slug": "grande-plage",
+  "nom": "Grande Plage",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-du-port-vieux",
+  "nom": "Plage du Port Vieux",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-la-cote-des-basques",
+  "nom": "Plage de la Côte des Basques",
+  "role": "etape"
+  },
+  {
+  "slug": "bidart",
+  "nom": "Bidart",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-dilbarritz",
+  "nom": "Plage d'Ilbarritz",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-parlementia",
+  "nom": "Plage de Parlementia",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-lafitenia",
+  "nom": "Plage de Lafitenia",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-jean-de-luz",
+  "nom": "Saint-Jean-de-Luz",
+  "role": "etape"
+  },
+  {
+  "slug": "hendaye",
+  "nom": "Hendaye",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-dhendaye",
+  "nom": "Plage d'Hendaye",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Corniche basque",
+  "raison": "Permettrait de mieux nommer le fil paysager entre Saint-Jean-de-Luz et Hendaye dans une version longue.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Villages basques, collines et art de vivre",
+  "durationHint": "3 jours",
+  "tripTitle": "Ainhoa, Espelette et Sare, le trio le plus juste du Pays basque intérieur",
+  "summary": "Pour trois jours, le meilleur du Pays basque intérieur tient dans un triangle très cohérent. Ainhoa, Espelette et Sare forment un parcours évident, où l'on passe de rues maisons blanchies à la montagne douce des premiers reliefs, sans jamais casser l'ambiance. En van, ce choix est particulièrement pertinent : les distances sont minimes, les villages ont chacun une vraie personnalité, et la route garde toujours une sensation d'intimité et de campagne habitée. On est ici dans un voyage de rythme lent, de façades rouges et blanches, de petits marchés, de collines et de soirées tranquilles. C'est sans doute l'itinéraire le plus immédiatement séduisant pour ressentir l'âme basque hors du littoral.",
+  "overnightStyle": "Nuits typiques : village-rue, bourg de collines, vallée basque au pied des reliefs.",
+  "regionId": "pays-basque-bearn",
+  "itinerarySlug": "villages-basques-collines-3j",
+  "steps": [
+  {
+  "slug": "ainhoa",
+  "nom": "Ainhoa",
+  "role": "etape"
+  },
+  {
+  "slug": "espelette",
+  "nom": "Espelette",
+  "role": "etape"
+  },
+  {
+  "slug": "sare",
+  "nom": "Sare",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": []
+  },
+  {
+  "themeTitle": "Villages basques, collines et art de vivre",
+  "durationHint": "7 jours",
+  "tripTitle": "Du Labourd aux vallées de Basse-Navarre, le Pays basque des villages",
+  "summary": "Sur une semaine, il est possible de construire un très beau voyage intérieur sans quitter le fil des villages et des petites vallées basques. Le départ par Bayonne et Cambo-les-Bains installe d'abord une douceur de piémont, avant de gagner La Bastide-Clairence, Ainhoa et Espelette. Ensuite, le parcours s'enfonce vers Sare puis Saint-Jean-Pied-de-Port, qui donne sa vraie profondeur à l'ensemble. En van, cet itinéraire est très crédible : on progresse en douceur vers l'intérieur, sans allers-retours, avec des étapes fortes mais jamais trop éloignées. On y trouve un Pays basque plus calme, plus terrien, très cohérent et particulièrement agréable à vivre.",
+  "overnightStyle": "Nuits typiques : petite ville basque, village de colline, bastide tranquille, cité de vallée.",
+  "regionId": "pays-basque-bearn",
+  "itinerarySlug": "villages-basques-collines-7j",
+  "steps": [
+  {
+  "slug": "bayonne",
+  "nom": "Bayonne",
+  "role": "etape"
+  },
+  {
+  "slug": "cambo-les-bains",
+  "nom": "Cambo-les-Bains",
+  "role": "etape"
+  },
+  {
+  "slug": "la-bastide-clairence",
+  "nom": "La Bastide-Clairence",
+  "role": "etape"
+  },
+  {
+  "slug": "ainhoa",
+  "nom": "Ainhoa",
+  "role": "etape"
+  },
+  {
+  "slug": "espelette",
+  "nom": "Espelette",
+  "role": "etape"
+  },
+  {
+  "slug": "sare",
+  "nom": "Sare",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-jean-pied-de-port",
+  "nom": "Saint-Jean-Pied-de-Port",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Itxassou",
+  "raison": "Créerait une transition géographique très naturelle entre Cambo-les-Bains, Espelette et Saint-Jean-Pied-de-Port.",
+  "type": "commune"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Villages basques, collines et art de vivre",
+  "durationHint": "10 jours",
+  "tripTitle": "Tout l'intérieur basque, des bastides aux portes de la Soule",
+  "summary": "En dix jours, l'intérieur basque peut devenir un vrai voyage, à condition de le construire par vallées successives. On part de Bayonne puis de La Bastide-Clairence, avant de rejoindre Cambo-les-Bains, Ainhoa, Espelette et Sare. Ensuite, le parcours gagne Saint-Jean-Pied-de-Port, Mauléon-Licharre puis Larrau, pour un final plus sauvage, plus montagneux, du côté de la Soule. Cet élargissement est très cohérent en van, car il fait progressivement monter le relief sans rompre l'identité basque. On passe ainsi d'un Pays basque de villages à un Pays basque de cols et de vallées plus secrètes. C'est un itinéraire fort, très incarné, qui garde une âme du début à la fin.",
+  "overnightStyle": "Nuits typiques : bastide basque, village aux façades colorées, cité de vallée, bourg montagnard.",
+  "regionId": "pays-basque-bearn",
+  "itinerarySlug": "villages-basques-collines-10j",
+  "steps": [
+  {
+  "slug": "bayonne",
+  "nom": "Bayonne",
+  "role": "etape"
+  },
+  {
+  "slug": "la-bastide-clairence",
+  "nom": "La Bastide-Clairence",
+  "role": "etape"
+  },
+  {
+  "slug": "cambo-les-bains",
+  "nom": "Cambo-les-Bains",
+  "role": "etape"
+  },
+  {
+  "slug": "ainhoa",
+  "nom": "Ainhoa",
+  "role": "etape"
+  },
+  {
+  "slug": "espelette",
+  "nom": "Espelette",
+  "role": "etape"
+  },
+  {
+  "slug": "sare",
+  "nom": "Sare",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-jean-pied-de-port",
+  "nom": "Saint-Jean-Pied-de-Port",
+  "role": "etape"
+  },
+  {
+  "slug": "mauleon-licharre",
+  "nom": "Mauléon-Licharre",
+  "role": "etape"
+  },
+  {
+  "slug": "larrau",
+  "nom": "Larrau",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Tardets-Sorholus",
+  "raison": "Donnerait un vrai pivot naturel entre Mauléon-Licharre et Larrau dans la partie souletine.",
+  "type": "commune"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Béarn, gave et cités de caractère",
+  "durationHint": "3 jours",
+  "tripTitle": "Entre Pau, Navarrenx et Salies, le Béarn le plus harmonieux",
+  "summary": "Pour trois jours, le Béarn se prête très bien à un itinéraire de petites villes et de vallées tranquilles. Pau offre une entrée naturelle et élégante, puis Navarrenx apporte sa personnalité de cité forte, avant Salies-de-Béarn et son ambiance plus douce, presque thermale. Le voyage fonctionne très bien en van parce qu'il reste compact et lisible, avec des routes faciles et une vraie continuité d'atmosphère. On n'est pas ici dans le spectaculaire montagnard, mais dans un Béarn posé, habité, agréable à parcourir lentement. C'est une excellente proposition pour un séjour court qui veut éviter l'effet trop touristique.",
+  "overnightStyle": "Nuits typiques : ville béarnaise, bastion de rivière, petite cité thermale.",
+  "regionId": "pays-basque-bearn",
+  "itinerarySlug": "bearn-gaves-cites-3j",
+  "steps": [
+  {
+  "slug": "pau",
+  "nom": "Pau",
+  "role": "etape"
+  },
+  {
+  "slug": "navarrenx",
+  "nom": "Navarrenx",
+  "role": "etape"
+  },
+  {
+  "slug": "salies-de-bearn",
+  "nom": "Salies-de-Béarn",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Orthez",
+  "raison": "Créerait une transition très crédible entre Navarrenx et Salies-de-Béarn dans une lecture de vallée.",
+  "type": "commune"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Béarn, gave et cités de caractère",
+  "durationHint": "7 jours",
+  "tripTitle": "Du piémont béarnais aux vallées d'Aspe et d'Ossau",
+  "summary": "Sur une semaine, le Béarn s'explore idéalement en suivant une progression du piémont vers les vallées. Le départ par Pau puis Navarrenx installe un rythme doux avant d'atteindre Oloron-Sainte-Marie, véritable charnière du voyage. Ensuite, l'itinéraire gagne les routes plus montagnardes autour du Vallon du Soussouéou et des Chemins de Mâture d'Issaux, avant de revenir sur une respiration plus urbaine. En van, ce parcours est intéressant car il combine petites villes fortes et séquences nature, tout en gardant une colonne vertébrale géographique crédible. C'est un voyage plus discret que les Hautes-Pyrénées voisines, mais très solide pour sentir la montée progressive vers les Pyrénées béarnaises.",
+  "overnightStyle": "Nuits typiques : ville de piémont, bastide du gave, vallée montagnarde, bourg pastoral.",
+  "regionId": "pays-basque-bearn",
+  "itinerarySlug": "bearn-gaves-cites-7j",
+  "steps": [
+  {
+  "slug": "pau",
+  "nom": "Pau",
+  "role": "etape"
+  },
+  {
+  "slug": "navarrenx",
+  "nom": "Navarrenx",
+  "role": "etape"
+  },
+  {
+  "slug": "oloron-sainte-marie",
+  "nom": "Oloron-Sainte-Marie",
+  "role": "etape"
+  },
+  {
+  "slug": "vallon-du-soussoueou",
+  "nom": "Vallon du Soussouéou",
+  "role": "etape"
+  },
+  {
+  "slug": "chemins-de-mature-dissaux-asp45",
+  "nom": "Chemins de Mâture d'Issaux asp45",
+  "role": "etape"
+  },
+  {
+  "slug": "salies-de-bearn",
+  "nom": "Salies-de-Béarn",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Vallée d'Aspe",
+  "raison": "Nommer la vallée donnerait un liant plus clair aux étapes de montagne du parcours.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Béarn, gave et cités de caractère",
+  "durationHint": "10 jours",
+  "tripTitle": "Le grand Béarn, des villes de piémont aux vallées profondes",
+  "summary": "Cette version longue donne au Béarn toute son ampleur, sans forcer la géographie. On part de Salies-de-Béarn puis Navarrenx et Pau, avant de rejoindre Oloron-Sainte-Marie pour entrer progressivement dans la montagne. Ensuite, l'itinéraire se prolonge vers les vallées plus sauvages avec le Vallon du Soussouéou, les Chemins de Mâture d'Issaux et la Tour Mâture-Arras, avant une fin plus pastorale du côté de Bosdapous. Le voyage est très cohérent en van car il suit une montée logique du piémont vers les Pyrénées, avec des étapes suffisamment espacées pour garder du plaisir de route. C'est un Béarn de profondeur, moins immédiat que la côte, mais très fort en caractère.",
+  "overnightStyle": "Nuits typiques : petite cité du gave, ville de piémont, vallée encaissée, route pastorale.",
+  "regionId": "pays-basque-bearn",
+  "itinerarySlug": "bearn-gaves-cites-10j",
+  "steps": [
+  {
+  "slug": "salies-de-bearn",
+  "nom": "Salies-de-Béarn",
+  "role": "etape"
+  },
+  {
+  "slug": "navarrenx",
+  "nom": "Navarrenx",
+  "role": "etape"
+  },
+  {
+  "slug": "pau",
+  "nom": "Pau",
+  "role": "etape"
+  },
+  {
+  "slug": "oloron-sainte-marie",
+  "nom": "Oloron-Sainte-Marie",
+  "role": "etape"
+  },
+  {
+  "slug": "vallon-du-soussoueou",
+  "nom": "Vallon du Soussouéou",
+  "role": "etape"
+  },
+  {
+  "slug": "chemins-de-mature-dissaux-asp45",
+  "nom": "Chemins de Mâture d'Issaux asp45",
+  "role": "etape"
+  },
+  {
+  "slug": "tour-mature-arras-asp62",
+  "nom": "Tour Mâture-Arras asp62",
+  "role": "etape"
+  },
+  {
+  "slug": "chemins-de-bosdapous-asp02",
+  "nom": "Chemins de Bosdapous asp02",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Vallée d'Ossau",
+  "raison": "Permettrait d'équilibrer la partie montagne avec une vraie lecture de l'autre grande vallée béarnaise.",
+  "type": "secteur"
+  },
+  {
+  "nom": "Bedous",
+  "raison": "Créerait un point d'appui naturel entre Oloron-Sainte-Marie et les séquences plus montagnardes.",
+  "type": "commune"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Hautes-Pyrénées, grands sites et vallées de montagne",
+  "durationHint": "3 jours",
+  "tripTitle": "Lourdes, Cauterets et Gavarnie, la haute montagne la plus évidente",
+  "summary": "Pour trois jours, il faut rester concentré sur un axe très fort, et celui de Lourdes vers Gavarnie est le plus convaincant. Lourdes donne le point de départ le plus naturel, puis Cauterets ouvre les portes de la montagne, avant une arrivée majeure à Gavarnie. Ce court itinéraire fonctionne parfaitement en van parce qu'il suit une vallée claire, sans détours, avec une montée progressive en puissance. On quitte la ville de piémont pour des paysages de plus en plus hauts, jusqu'à l'impression de grand théâtre minéral. C'est un voyage bref mais spectaculaire, très cohérent, idéal pour ceux qui veulent une vraie séquence pyrénéenne sans dispersion.",
+  "overnightStyle": "Nuits typiques : ville de vallée, station de montagne, village au pied des grands cirques.",
+  "regionId": "pays-basque-bearn",
+  "itinerarySlug": "hautes-pyrenees-grands-sites-3j",
+  "steps": [
+  {
+  "slug": "lourdes",
+  "nom": "Lourdes",
+  "role": "etape"
+  },
+  {
+  "slug": "cauterets",
+  "nom": "Cauterets",
+  "role": "etape"
+  },
+  {
+  "slug": "gavarnie",
+  "nom": "Gavarnie",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Cirque de Gavarnie",
+  "raison": "Nommer explicitement le grand site renforcerait la force éditoriale de l'étape finale.",
+  "type": "aire_naturelle"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Hautes-Pyrénées, grands sites et vallées de montagne",
+  "durationHint": "7 jours",
+  "tripTitle": "De Lourdes au Pic du Midi, la traversée la plus lisible des Hautes-Pyrénées",
+  "summary": "Sur une semaine, les Hautes-Pyrénées se prêtent très bien à une montée progressive de vallée en vallée. On part de Lourdes puis d'Argelès-Gazost, excellent pivot du voyage, avant de bifurquer vers Cauterets et le Pont d'Espagne. Ensuite, on rejoint Luz-Saint-Sauveur, Gavarnie et le secteur du Pic du Midi via Bagnères-de-Bigorre. Le parcours est très cohérent en van car il alterne stations, grands sites et vraies respirations routières, sans multiplier les allers-retours absurdes. C'est un voyage de relief, d'air frais et de routes mythiques, avec une vraie montée en intensité à mesure que l'on s'enfonce dans la haute montagne.",
+  "overnightStyle": "Nuits typiques : ville de piémont, station de vallée, route de col, village de haute montagne.",
+  "regionId": "pays-basque-bearn",
+  "itinerarySlug": "hautes-pyrenees-grands-sites-7j",
+  "steps": [
+  {
+  "slug": "lourdes",
+  "nom": "Lourdes",
+  "role": "etape"
+  },
+  {
+  "slug": "argeles-gazost",
+  "nom": "Argelès-Gazost",
+  "role": "etape"
+  },
+  {
+  "slug": "cauterets",
+  "nom": "Cauterets",
+  "role": "etape"
+  },
+  {
+  "slug": "pont-despagne",
+  "nom": "Pont d'Espagne",
+  "role": "etape"
+  },
+  {
+  "slug": "luz-saint-sauveur",
+  "nom": "Luz-Saint-Sauveur",
+  "role": "etape"
+  },
+  {
+  "slug": "gavarnie",
+  "nom": "Gavarnie",
+  "role": "etape"
+  },
+  {
+  "slug": "bagneres-de-bigorre",
+  "nom": "Bagnères-de-Bigorre",
+  "role": "etape"
+  },
+  {
+  "slug": "pic-du-midi-de-bigorre",
+  "nom": "Pic du Midi de Bigorre",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Tourmalet",
+  "raison": "Créerait un lien routier évident entre Luz-Saint-Sauveur et le secteur du Pic du Midi.",
+  "type": "col"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Hautes-Pyrénées, grands sites et vallées de montagne",
+  "durationHint": "10 jours",
+  "tripTitle": "Le grand arc pyrénéen, de Cauterets à Saint-Lary par les vallées majeures",
+  "summary": "En dix jours, les Hautes-Pyrénées deviennent un vrai grand voyage de montagne. On part de Lourdes puis d'Argelès-Gazost avant d'explorer le duo Cauterets-Pont d'Espagne et le Val d'Azun. Ensuite, l'itinéraire gagne Luz-Saint-Sauveur, Gavarnie, Barèges et le Pic du Midi, avant de basculer vers Bagnères-de-Bigorre, le lac de Payolle, Arreau et Saint-Lary-Soulan. Ce parcours est particulièrement réussi en van : il suit les vallées les plus lisibles, ménage de vraies respirations et élargit le voyage sans perdre sa cohérence. On tient ici un vrai road trip pyrénéen, dense mais crédible, entre grands sites, lacs, stations et villages de haute vallée.",
+  "overnightStyle": "Nuits typiques : vallée thermale, village de haute montagne, bord de lac, route de col, bourg pyrénéen.",
+  "regionId": "pays-basque-bearn",
+  "itinerarySlug": "hautes-pyrenees-grands-sites-10j",
+  "steps": [
+  {
+  "slug": "lourdes",
+  "nom": "Lourdes",
+  "role": "etape"
+  },
+  {
+  "slug": "argeles-gazost",
+  "nom": "Argelès-Gazost",
+  "role": "etape"
+  },
+  {
+  "slug": "cauterets",
+  "nom": "Cauterets",
+  "role": "etape"
+  },
+  {
+  "slug": "pont-despagne",
+  "nom": "Pont d'Espagne",
+  "role": "etape"
+  },
+  {
+  "slug": "val-dazun",
+  "nom": "Val d'Azun",
+  "role": "etape"
+  },
+  {
+  "slug": "luz-saint-sauveur",
+  "nom": "Luz-Saint-Sauveur",
+  "role": "etape"
+  },
+  {
+  "slug": "gavarnie",
+  "nom": "Gavarnie",
+  "role": "etape"
+  },
+  {
+  "slug": "bareges",
+  "nom": "Barèges",
+  "role": "etape"
+  },
+  {
+  "slug": "pic-du-midi-de-bigorre",
+  "nom": "Pic du Midi de Bigorre",
+  "role": "etape"
+  },
+  {
+  "slug": "bagneres-de-bigorre",
+  "nom": "Bagnères-de-Bigorre",
+  "role": "etape"
+  },
+  {
+  "slug": "lac-de-payolle",
+  "nom": "Lac de Payolle",
+  "role": "etape"
+  },
+  {
+  "slug": "arreau",
+  "nom": "Arreau",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-lary-soulan",
+  "nom": "Saint-Lary-Soulan",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Col du Tourmalet",
+  "raison": "Donnerait un chaînon emblématique et très logique entre Barèges et le Pic du Midi.",
+  "type": "col"
+  },
+  {
+  "nom": "Réserve du Néouvielle",
+  "raison": "Renforcerait la dimension lac et haute montagne entre Payolle, Arreau et Saint-Lary-Soulan.",
+  "type": "aire_naturelle"
+  }
+  ]
+  }
+  ]
+  }
+  

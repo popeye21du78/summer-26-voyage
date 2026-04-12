@@ -1,3 +1,487 @@
 {
-  "itineraries": []
-}
+  "itineraries": [
+  {
+  "themeTitle": "Littoral atlantique, marais et stations de caractère",
+  "durationHint": "3 jours",
+  "tripTitle": "De Pornic à Noirmoutier, l'Atlantique doux en van",
+  "summary": "Pour trois jours, le meilleur choix consiste à rester sur un littoral très lisible, sans vouloir tout couvrir. Cet itinéraire part de Pornic, belle entrée en matière avec son port et son ambiance de côte découpée, puis glisse vers Noirmoutier-en-l'Île avant de s'achever à la Plage des Dames. Le voyage fonctionne parfaitement en van : les distances sont courtes, les paysages changent sans rompre le fil maritime, et l'on passe d'une côte vivante à une île plus douce, plus lente, presque insulaire au sens plein. C'est un itinéraire simple mais très fort, pensé pour profiter de l'air marin, des fins de journée sur le sable et d'un vrai sentiment de parenthèse.",
+  "overnightStyle": "Nuits typiques : port de côte, bourg insulaire, pinède en bord de plage.",
+  "regionId": "nantais-vendee",
+  "itinerarySlug": "atlantique-marais-stations-3j",
+  "steps": [
+  {
+  "slug": "pornic",
+  "nom": "Pornic",
+  "role": "etape"
+  },
+  {
+  "slug": "noirmoutier-en-lile",
+  "nom": "Noirmoutier-en-l'Île",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-des-dames",
+  "nom": "Plage des Dames",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Passage du Gois",
+  "raison": "Donnerait une vraie porte d'entrée iconique à Noirmoutier dans un road trip côtier en van.",
+  "type": "route"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Littoral atlantique, marais et stations de caractère",
+  "durationHint": "7 jours",
+  "tripTitle": "De la côte jade aux longues plages vendéennes",
+  "summary": "Sur une semaine, ce parcours suit un vrai fil littoral, cohérent et agréable à vivre. On démarre à Pornic avant de franchir l'estuaire vers Saint-Nazaire, puis l'on remonte vers les grandes stations de la côte guérandaise avec La Baule-Escoublac, Le Croisic et Piriac-sur-Mer. Ensuite, le voyage descend vers la Vendée insulaire et balnéaire avec Noirmoutier-en-l'Île, Saint-Gilles-Croix-de-Vie et Les Sables-d'Olonne. En van, cet itinéraire est particulièrement convaincant : peu de détours, une vraie continuité de bord de mer, et des ambiances qui évoluent naturellement entre côte urbaine, plages élégantes, ports plus simples et longues bandes sableuses. C'est un voyage atlantique complet, rythmé par les marées, les ports et les soirs face à l'océan.",
+  "overnightStyle": "Nuits typiques : port atlantique, baie élégante, île vendéenne, station de front de mer.",
+  "regionId": "nantais-vendee",
+  "itinerarySlug": "atlantique-marais-stations-7j",
+  "steps": [
+  {
+  "slug": "pornic",
+  "nom": "Pornic",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-nazaire",
+  "nom": "Saint-Nazaire",
+  "role": "etape"
+  },
+  {
+  "slug": "la-baule-escoublac",
+  "nom": "La Baule-Escoublac",
+  "role": "etape"
+  },
+  {
+  "slug": "le-croisic",
+  "nom": "Le Croisic",
+  "role": "etape"
+  },
+  {
+  "slug": "piriac-sur-mer",
+  "nom": "Piriac-sur-Mer",
+  "role": "etape"
+  },
+  {
+  "slug": "noirmoutier-en-lile",
+  "nom": "Noirmoutier-en-l'Île",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-gilles-croix-de-vie",
+  "nom": "Saint-Gilles-Croix-de-Vie",
+  "role": "etape"
+  },
+  {
+  "slug": "les-sables-dolonne",
+  "nom": "Les Sables-d'Olonne",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Côte Sauvage du Croisic",
+  "raison": "Renforcerait la variété paysagère entre La Baule et Piriac avec une séquence plus brute.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Littoral atlantique, marais et stations de caractère",
+  "durationHint": "10 jours",
+  "tripTitle": "Toute la façade maritime, de la Brière aux plages du sud Vendée",
+  "summary": "En dix jours, la petite taille de la région devient un vrai atout : on peut construire un grand road trip côtier sans jamais perdre en cohérence. Le voyage commence dans les marais de Brière autour de Saint-Lyphard et de La Brière, puis rejoint la côte à Batz-sur-Mer, Le Croisic et La Baule-Escoublac. Après le passage par Saint-Nazaire et Pornic, l'itinéraire glisse vers Noirmoutier-en-l'Île, Saint-Gilles-Croix-de-Vie, Les Sables-d'Olonne et la Plage de Veillon. La fin par l'Île d'Yeu apporte une respiration insulaire très forte. En van, l'ensemble est très agréable : routes courtes, diversité des rivages, ports, marais et plages, avec un fil atlantique qui reste clair du début à la fin.",
+  "overnightStyle": "Nuits typiques : village de marais, port de presqu'île, île basse, grande station océane.",
+  "regionId": "nantais-vendee",
+  "itinerarySlug": "atlantique-marais-stations-10j",
+  "steps": [
+  {
+  "slug": "saint-lyphard",
+  "nom": "Saint-Lyphard",
+  "role": "etape"
+  },
+  {
+  "slug": "la-briere",
+  "nom": "La Brière",
+  "role": "etape"
+  },
+  {
+  "slug": "batz-sur-mer",
+  "nom": "Batz-sur-Mer",
+  "role": "etape"
+  },
+  {
+  "slug": "le-croisic",
+  "nom": "Le Croisic",
+  "role": "etape"
+  },
+  {
+  "slug": "la-baule-escoublac",
+  "nom": "La Baule-Escoublac",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-nazaire",
+  "nom": "Saint-Nazaire",
+  "role": "etape"
+  },
+  {
+  "slug": "pornic",
+  "nom": "Pornic",
+  "role": "etape"
+  },
+  {
+  "slug": "noirmoutier-en-lile",
+  "nom": "Noirmoutier-en-l'Île",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-gilles-croix-de-vie",
+  "nom": "Saint-Gilles-Croix-de-Vie",
+  "role": "etape"
+  },
+  {
+  "slug": "les-sables-dolonne",
+  "nom": "Les Sables-d'Olonne",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-veillon",
+  "nom": "Plage de Veillon",
+  "role": "etape"
+  },
+  {
+  "slug": "ile-dyeu",
+  "nom": "Île d'Yeu",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Saint-Jean-de-Monts",
+  "raison": "Créerait une transition très naturelle entre Noirmoutier et Saint-Gilles-Croix-de-Vie dans une version longue.",
+  "type": "commune"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Marais poitevin, bocage et cités de l'intérieur",
+  "durationHint": "3 jours",
+  "tripTitle": "Le sud vendéen entre abbayes et marais paisibles",
+  "summary": "Pour trois jours loin du seul imaginaire balnéaire, le sud vendéen propose un itinéraire très cohérent. Maillezais donne une ouverture forte avec son abbaye et son rapport au marais, Nieul-sur-l'Autise prolonge cette ambiance de patrimoine tranquille, puis Vouvant apporte la grande étape de caractère, entourée de forêt et de légendes. Le rythme van y est particulièrement agréable : peu de kilomètres, beaucoup de calme, et une succession de haltes où l'on prend le temps. Ce voyage a une vraie identité, plus intérieure, plus douce, entre eau lente, pierre ancienne et bocage vendéen.",
+  "overnightStyle": "Nuits typiques : bourg d'abbaye, village de marais, cité de lisière forestière.",
+  "regionId": "nantais-vendee",
+  "itinerarySlug": "marais-bocage-interieur-3j",
+  "steps": [
+  {
+  "slug": "maillezais",
+  "nom": "Maillezais",
+  "role": "etape"
+  },
+  {
+  "slug": "nieul-sur-lautise",
+  "nom": "Nieul-sur-l'Autise",
+  "role": "etape"
+  },
+  {
+  "slug": "vouvant",
+  "nom": "Vouvant",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Marais poitevin",
+  "raison": "Nommer le marais comme ensemble paysager renforcerait la cohérence du thème et du parcours.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Marais poitevin, bocage et cités de l'intérieur",
+  "durationHint": "7 jours",
+  "tripTitle": "Des marais du sud aux collines du bocage vendéen",
+  "summary": "Sur une semaine, cet itinéraire construit un vrai voyage intérieur, très complémentaire du littoral. On part de Fontenay-le-Comte, puis l'on gagne Maillezais et Nieul-sur-l'Autise pour le grand paysage de marais. Ensuite, l'itinéraire s'enfonce vers Mervent et Vouvant, avant de basculer vers Tiffauges et la Roche-sur-Yon. Ce parcours fonctionne très bien en van car il suit une progression claire, des terres humides du sud vers le bocage plus dense du nord-est. L'ensemble est varié sans être dispersé, avec un beau mélange d'abbayes, de petites villes, de forêts et de cités de caractère.",
+  "overnightStyle": "Nuits typiques : petite ville du marais, village d'abbaye, forêt vendéenne, bourg de bocage.",
+  "regionId": "nantais-vendee",
+  "itinerarySlug": "marais-bocage-interieur-7j",
+  "steps": [
+  {
+  "slug": "fontenay-le-comte",
+  "nom": "Fontenay-le-Comte",
+  "role": "etape"
+  },
+  {
+  "slug": "maillezais",
+  "nom": "Maillezais",
+  "role": "etape"
+  },
+  {
+  "slug": "nieul-sur-lautise",
+  "nom": "Nieul-sur-l'Autise",
+  "role": "etape"
+  },
+  {
+  "slug": "mervent",
+  "nom": "Mervent",
+  "role": "etape"
+  },
+  {
+  "slug": "vouvant",
+  "nom": "Vouvant",
+  "role": "etape"
+  },
+  {
+  "slug": "tiffauges",
+  "nom": "Tiffauges",
+  "role": "etape"
+  },
+  {
+  "slug": "la-roche-sur-yon",
+  "nom": "La Roche-sur-Yon",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Forêt de Mervent-Vouvant",
+  "raison": "Renforcerait très naturellement la cohérence paysagère entre Mervent et Vouvant.",
+  "type": "aire_naturelle"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Marais poitevin, bocage et cités de l'intérieur",
+  "durationHint": "10 jours",
+  "tripTitle": "Le grand intérieur vendéen et nantais, entre abbaye, vignoble et bocage",
+  "summary": "En dix jours, la région intérieure peut devenir un vrai road trip à part entière, sans dépendre du rivage. On ouvre par Nantes, puis Clisson apporte tout de suite une ambiance singulière, presque méridionale. Le voyage descend ensuite vers l'Abbaye de Saint-Philbert-de-Grand-Lieu, Fontenay-le-Comte, Maillezais et Nieul-sur-l'Autise, avant de rejoindre Mervent, Vouvant, Tiffauges et le Puy du Fou. L'intérêt de ce parcours tient à sa progression très naturelle : on quitte la Loire et le vignoble pour les marais puis le bocage. En van, cela donne un itinéraire varié mais fluide, à la fois patrimonial, rural et très agréable à vivre, avec peu d'étapes artificielles.",
+  "overnightStyle": "Nuits typiques : ville de Loire, village de vignoble, bourg d'abbaye, forêt vendéenne, bocage historique.",
+  "regionId": "nantais-vendee",
+  "itinerarySlug": "marais-bocage-interieur-10j",
+  "steps": [
+  {
+  "slug": "nantes",
+  "nom": "Nantes",
+  "role": "etape"
+  },
+  {
+  "slug": "clisson",
+  "nom": "Clisson",
+  "role": "etape"
+  },
+  {
+  "slug": "abbaye-de-saint-philbert-de-grand-lieu",
+  "nom": "Abbaye de Saint-Philbert-de-Grand-Lieu",
+  "role": "etape"
+  },
+  {
+  "slug": "fontenay-le-comte",
+  "nom": "Fontenay-le-Comte",
+  "role": "etape"
+  },
+  {
+  "slug": "maillezais",
+  "nom": "Maillezais",
+  "role": "etape"
+  },
+  {
+  "slug": "nieul-sur-lautise",
+  "nom": "Nieul-sur-l'Autise",
+  "role": "etape"
+  },
+  {
+  "slug": "mervent",
+  "nom": "Mervent",
+  "role": "etape"
+  },
+  {
+  "slug": "vouvant",
+  "nom": "Vouvant",
+  "role": "etape"
+  },
+  {
+  "slug": "tiffauges",
+  "nom": "Tiffauges",
+  "role": "etape"
+  },
+  {
+  "slug": "puy-du-fou",
+  "nom": "Puy du Fou",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Marais poitevin",
+  "raison": "Le secteur comme tel permettrait de mieux incarner la continuité entre Fontenay, Maillezais et Nieul-sur-l'Autise.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Estuaire, salines et cités atlantiques",
+  "durationHint": "3 jours",
+  "tripTitle": "Guérande, Batz et Le Croisic, la presqu'île la plus cohérente",
+  "summary": "Pour un format court, mieux vaut assumer un sous-territoire fort plutôt que disperser les étapes. La presqu'île guérandaise forme ainsi un itinéraire idéal : Guérande pour l'épaisseur historique, Batz-sur-Mer pour la bascule vers le littoral et Le Croisic pour la fin de parcours en vraie pointe maritime. En van, ce trip est particulièrement agréable car tout se fait sur de petites distances, avec un sentiment constant de proximité entre remparts, marais salants et port atlantique. Trois jours suffisent largement pour sentir une ambiance complète, précise et très attachante.",
+  "overnightStyle": "Nuits typiques : cité close, bourg de salines, port de bout du monde.",
+  "regionId": "nantais-vendee",
+  "itinerarySlug": "estuaire-salines-cites-3j",
+  "steps": [
+  {
+  "slug": "guerande",
+  "nom": "Guérande",
+  "role": "etape"
+  },
+  {
+  "slug": "batz-sur-mer",
+  "nom": "Batz-sur-Mer",
+  "role": "etape"
+  },
+  {
+  "slug": "le-croisic",
+  "nom": "Le Croisic",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Marais salants de Guérande",
+  "raison": "Donnerait un liant paysager très fort entre Guérande et Batz-sur-Mer.",
+  "type": "aire_naturelle"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Estuaire, salines et cités atlantiques",
+  "durationHint": "7 jours",
+  "tripTitle": "De Nantes à la presqu'île guérandaise, l'Atlantique des villes et des marais",
+  "summary": "Sur une semaine, cet itinéraire suit une logique territoriale très lisible. On part de Nantes puis l'on descend vers l'estuaire avec Saint-Nazaire et le Pont de Saint-Nazaire, avant de gagner les marais de Brière autour de Saint-Lyphard. La seconde moitié du parcours s'organise autour de Guérande, Batz-sur-Mer, Le Croisic et La Baule-Escoublac. Le voyage fonctionne très bien en van parce qu'il combine ville, eau, marais et côte sans grands transferts. Chaque étape renforce la suivante et l'on passe progressivement de la Loire maritime aux paysages de presqu'île. C'est un itinéraire très équilibré, à la fois urbain, naturel et atlantique.",
+  "overnightStyle": "Nuits typiques : grande ville de Loire, bord d'estuaire, village de marais, baie élégante.",
+  "regionId": "nantais-vendee",
+  "itinerarySlug": "estuaire-salines-cites-7j",
+  "steps": [
+  {
+  "slug": "nantes",
+  "nom": "Nantes",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-nazaire",
+  "nom": "Saint-Nazaire",
+  "role": "etape"
+  },
+  {
+  "slug": "pont-de-saint-nazaire",
+  "nom": "Pont de Saint-Nazaire",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-lyphard",
+  "nom": "Saint-Lyphard",
+  "role": "etape"
+  },
+  {
+  "slug": "guerande",
+  "nom": "Guérande",
+  "role": "etape"
+  },
+  {
+  "slug": "batz-sur-mer",
+  "nom": "Batz-sur-Mer",
+  "role": "etape"
+  },
+  {
+  "slug": "le-croisic",
+  "nom": "Le Croisic",
+  "role": "etape"
+  },
+  {
+  "slug": "la-baule-escoublac",
+  "nom": "La Baule-Escoublac",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Estuaire de la Loire",
+  "raison": "Nommer le grand paysage renforcerait la cohérence entre Nantes, Saint-Nazaire et le pont.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Estuaire, salines et cités atlantiques",
+  "durationHint": "10 jours",
+  "tripTitle": "Du nord nantais au bocage, une grande boucle des identités régionales",
+  "summary": "Pour une version longue, il est intéressant d'élargir le voyage sans perdre le fil des grandes identités locales. On part de Nantes avant de remonter vers Châteaubriant, puis le parcours revient vers Clisson et l'Abbaye de Saint-Philbert-de-Grand-Lieu. Ensuite, la route gagne l'estuaire à Saint-Nazaire, traverse les marais de Brière et se déploie sur la presqu'île autour de Guérande, Batz-sur-Mer et Piriac-sur-Mer. La fin par Pornic boucle l'ensemble avec élégance. En van, cet itinéraire fonctionne bien parce qu'il reste compact à l'échelle de la région tout en offrant de vraies variations : ville, vignoble, marais, cités atlantiques et côte découpée.",
+  "overnightStyle": "Nuits typiques : ville ligérienne, bourg de château, village de marais, port atlantique.",
+  "regionId": "nantais-vendee",
+  "itinerarySlug": "estuaire-salines-cites-10j",
+  "steps": [
+  {
+  "slug": "nantes",
+  "nom": "Nantes",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-chateaubriant",
+  "nom": "Château de Châteaubriant",
+  "role": "etape"
+  },
+  {
+  "slug": "clisson",
+  "nom": "Clisson",
+  "role": "etape"
+  },
+  {
+  "slug": "abbaye-de-saint-philbert-de-grand-lieu",
+  "nom": "Abbaye de Saint-Philbert-de-Grand-Lieu",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-nazaire",
+  "nom": "Saint-Nazaire",
+  "role": "etape"
+  },
+  {
+  "slug": "la-briere",
+  "nom": "La Brière",
+  "role": "etape"
+  },
+  {
+  "slug": "guerande",
+  "nom": "Guérande",
+  "role": "etape"
+  },
+  {
+  "slug": "batz-sur-mer",
+  "nom": "Batz-sur-Mer",
+  "role": "etape"
+  },
+  {
+  "slug": "piriac-sur-mer",
+  "nom": "Piriac-sur-Mer",
+  "role": "etape"
+  },
+  {
+  "slug": "pornic",
+  "nom": "Pornic",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Marais salants de Guérande",
+  "raison": "Permettrait d'exprimer plus clairement la continuité entre Guérande, Batz-sur-Mer et Piriac-sur-Mer.",
+  "type": "aire_naturelle"
+  }
+  ]
+  }
+  ]
+  }
+  
