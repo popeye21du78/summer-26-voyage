@@ -1,0 +1,469 @@
+{
+  "regionId": "ile-de-france",
+  "name": "Île-de-France",
+  "deptCodes": [
+    "75",
+    "77",
+    "78",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95"
+  ],
+  "count": 113,
+  "lieux": [
+    {
+      "slug": "a-saute-mouton-sur-la-viosne",
+      "nom": "A saute-mouton sur la Viosne"
+    },
+    {
+      "slug": "abbaye-de-limon",
+      "nom": "Abbaye de Limon"
+    },
+    {
+      "slug": "auffargis",
+      "nom": "Auffargis"
+    },
+    {
+      "slug": "auvers-sur-oise",
+      "nom": "Auvers-sur-Oise"
+    },
+    {
+      "slug": "barbizon",
+      "nom": "Barbizon"
+    },
+    {
+      "slug": "basilique-cathedrale-de-saint-denis",
+      "nom": "Basilique Cathédrale de Saint-Denis"
+    },
+    {
+      "slug": "basilique-du-sacre-cur",
+      "nom": "Basilique du Sacré-Cœur"
+    },
+    {
+      "slug": "beaumont-sur-oise",
+      "nom": "Beaumont-sur-Oise"
+    },
+    {
+      "slug": "bibliotheque-francois-mitterrand",
+      "nom": "Bibliothèque François-Mitterrand"
+    },
+    {
+      "slug": "bois-de-boulogne",
+      "nom": "Bois de Boulogne"
+    },
+    {
+      "slug": "canal-saint-martin",
+      "nom": "Canal Saint-Martin"
+    },
+    {
+      "slug": "cathedrale-notre-dame-de-paris",
+      "nom": "Cathédrale Notre-Dame de Paris"
+    },
+    {
+      "slug": "cergy",
+      "nom": "Cergy"
+    },
+    {
+      "slug": "champigny-sur-marne",
+      "nom": "Champigny-sur-Marne"
+    },
+    {
+      "slug": "champs-elysees",
+      "nom": "Champs-Élysées"
+    },
+    {
+      "slug": "chateau-de-chamarande",
+      "nom": "Château de Chamarande"
+    },
+    {
+      "slug": "chateau-de-clos-de-vougeot",
+      "nom": "Château de Clos de Vougeot"
+    },
+    {
+      "slug": "chateau-de-courances",
+      "nom": "Château de Courances"
+    },
+    {
+      "slug": "chateau-de-dourdan",
+      "nom": "Château de Dourdan"
+    },
+    {
+      "slug": "chateau-de-fontainebleau",
+      "nom": "Château de Fontainebleau"
+    },
+    {
+      "slug": "chateau-de-la-madeleine",
+      "nom": "Château de la Madeleine"
+    },
+    {
+      "slug": "chateau-de-malmaison",
+      "nom": "Château de Malmaison"
+    },
+    {
+      "slug": "chateau-de-vincennes",
+      "nom": "Château de Vincennes"
+    },
+    {
+      "slug": "chateau-landon",
+      "nom": "Château-Landon"
+    },
+    {
+      "slug": "chelles",
+      "nom": "Chelles"
+    },
+    {
+      "slug": "chevilly-larue",
+      "nom": "Chevilly-Larue"
+    },
+    {
+      "slug": "chevreuse",
+      "nom": "Chevreuse"
+    },
+    {
+      "slug": "cite-jardin-de-stains",
+      "nom": "Cité-Jardin de Stains"
+    },
+    {
+      "slug": "crecy-la-chapelle",
+      "nom": "Crécy-la-Chapelle"
+    },
+    {
+      "slug": "creteil",
+      "nom": "Créteil"
+    },
+    {
+      "slug": "domaine-national-de-saint-cloud",
+      "nom": "Domaine national de Saint-Cloud"
+    },
+    {
+      "slug": "eglise-notre-dame-de-lassomption-de-longpont-sur-orge",
+      "nom": "Église Notre-Dame-de-l'Assomption de Longpont-sur-Orge"
+    },
+    {
+      "slug": "eglise-notre-dame-des-vertus",
+      "nom": "Église Notre-Dame-des-Vertus"
+    },
+    {
+      "slug": "eglise-saint-sulpice-de-favieres",
+      "nom": "Église Saint-Sulpice de Favières"
+    },
+    {
+      "slug": "en-basse-vallee-de-lorvanne",
+      "nom": "En basse vallée de l'Orvanne"
+    },
+    {
+      "slug": "enghien-les-bains",
+      "nom": "Enghien-les-Bains"
+    },
+    {
+      "slug": "ennery",
+      "nom": "Ennery"
+    },
+    {
+      "slug": "eragny-sur-oise",
+      "nom": "Eragny-sur-Oise"
+    },
+    {
+      "slug": "giverny",
+      "nom": "Giverny"
+    },
+    {
+      "slug": "gonesse",
+      "nom": "Gonesse"
+    },
+    {
+      "slug": "grp-de-la-ceinture-verte-etape-9--de-la-montagne-de-chelles-au-canal-de-lourcq",
+      "nom": "GRP de la Ceinture Verte, étape 9 : De la montagne de Chelles au canal de l'Ourcq"
+    },
+    {
+      "slug": "jardin-des-merveilles",
+      "nom": "Jardin des Merveilles"
+    },
+    {
+      "slug": "jardin-du-luxembourg",
+      "nom": "Jardin du Luxembourg"
+    },
+    {
+      "slug": "jouarre",
+      "nom": "Jouarre"
+    },
+    {
+      "slug": "jouy-le-moutier",
+      "nom": "Jouy-le-Moutier"
+    },
+    {
+      "slug": "lhay-les-roses",
+      "nom": "L'Haÿ-les-Roses"
+    },
+    {
+      "slug": "la-bretonniere",
+      "nom": "La Bretonnière"
+    },
+    {
+      "slug": "la-defense",
+      "nom": "La Défense"
+    },
+    {
+      "slug": "la-ferte-sous-jouarre",
+      "nom": "La Ferté-sous-Jouarre"
+    },
+    {
+      "slug": "la-roche-guyon",
+      "nom": "La Roche-Guyon"
+    },
+    {
+      "slug": "la-roche-guyon",
+      "nom": "La Roche-Guyon"
+    },
+    {
+      "slug": "la-seine-musicale",
+      "nom": "La Seine Musicale"
+    },
+    {
+      "slug": "le-chemin-des-croix",
+      "nom": "Le chemin des Croix"
+    },
+    {
+      "slug": "le-parc-departemental-georges-valbon",
+      "nom": "Le parc départemental Georges-Valbon"
+    },
+    {
+      "slug": "le-perreux-sur-marne",
+      "nom": "Le Perreux-sur-Marne"
+    },
+    {
+      "slug": "le-vesinet",
+      "nom": "Le Vésinet"
+    },
+    {
+      "slug": "les-mesnuls",
+      "nom": "Les Mesnuls"
+    },
+    {
+      "slug": "maison-de-la-radio",
+      "nom": "Maison de la Radio"
+    },
+    {
+      "slug": "maison-des-examens",
+      "nom": "Maison des Examens"
+    },
+    {
+      "slug": "maison-atelier-foujita",
+      "nom": "Maison-atelier Foujita"
+    },
+    {
+      "slug": "maison-laffitte",
+      "nom": "Maison-Laffitte"
+    },
+    {
+      "slug": "marly-le-roi",
+      "nom": "Marly-le-Roi"
+    },
+    {
+      "slug": "meaux",
+      "nom": "Meaux"
+    },
+    {
+      "slug": "melun",
+      "nom": "Melun"
+    },
+    {
+      "slug": "montfort-lamaury",
+      "nom": "Montfort-l'Amaury"
+    },
+    {
+      "slug": "montigny-les-cormeilles",
+      "nom": "Montigny-lès-Cormeilles"
+    },
+    {
+      "slug": "montmartre",
+      "nom": "Montmartre"
+    },
+    {
+      "slug": "moret-sur-loing",
+      "nom": "Moret-sur-Loing"
+    },
+    {
+      "slug": "musee-dart-et-dhistoire-de-meudon",
+      "nom": "Musée d'art et d'histoire de Meudon"
+    },
+    {
+      "slug": "musee-dart-et-dhistoire-de-saint-denis",
+      "nom": "Musée d'Art et d'Histoire de Saint-Denis"
+    },
+    {
+      "slug": "musee-dorsay",
+      "nom": "Musée d'Orsay"
+    },
+    {
+      "slug": "musee-du-louvre",
+      "nom": "Musée du Louvre"
+    },
+    {
+      "slug": "musee-rodin",
+      "nom": "Musée Rodin"
+    },
+    {
+      "slug": "neauphle-le-chateau",
+      "nom": "Neauphle-le-Château"
+    },
+    {
+      "slug": "nemours",
+      "nom": "Nemours"
+    },
+    {
+      "slug": "nogent-sur-marne",
+      "nom": "Nogent-sur-Marne"
+    },
+    {
+      "slug": "opera-garnier",
+      "nom": "Opéra Garnier"
+    },
+    {
+      "slug": "palais-de-tokyo",
+      "nom": "Palais de Tokyo"
+    },
+    {
+      "slug": "parc-de-lile-saint-germain",
+      "nom": "Parc de l'île Saint-Germain"
+    },
+    {
+      "slug": "parc-de-la-villette",
+      "nom": "Parc de la Villette"
+    },
+    {
+      "slug": "parc-departemental-de-la-bergere",
+      "nom": "Parc Départemental de la Bergère"
+    },
+    {
+      "slug": "parc-des-buttes-chaumont",
+      "nom": "Parc des Buttes-Chaumont"
+    },
+    {
+      "slug": "parc-georges-valbon",
+      "nom": "Parc Georges-Valbon"
+    },
+    {
+      "slug": "parmain",
+      "nom": "Parmain"
+    },
+    {
+      "slug": "pere-lachaise",
+      "nom": "Père Lachaise"
+    },
+    {
+      "slug": "place-des-vosges",
+      "nom": "Place des Vosges"
+    },
+    {
+      "slug": "plage-de-jablines-annet",
+      "nom": "Plage de Jablines-Annet"
+    },
+    {
+      "slug": "plage-de-lisle-adam",
+      "nom": "Plage de L'Isle-Adam"
+    },
+    {
+      "slug": "plage-notre-dame",
+      "nom": "Plage Notre-Dame"
+    },
+    {
+      "slug": "poissy",
+      "nom": "Poissy"
+    },
+    {
+      "slug": "pontoise",
+      "nom": "Pontoise"
+    },
+    {
+      "slug": "porte-saint-denis",
+      "nom": "Porte Saint-Denis"
+    },
+    {
+      "slug": "promenade-du-haut-mont",
+      "nom": "Promenade du Haut Mont"
+    },
+    {
+      "slug": "provins",
+      "nom": "Provins"
+    },
+    {
+      "slug": "quartier-latin",
+      "nom": "Quartier Latin"
+    },
+    {
+      "slug": "rambouillet",
+      "nom": "Rambouillet"
+    },
+    {
+      "slug": "rochefort-en-yvelines",
+      "nom": "Rochefort-en-Yvelines"
+    },
+    {
+      "slug": "saint-germain-en-laye",
+      "nom": "Saint-Germain-en-Laye"
+    },
+    {
+      "slug": "saint-leu-la-foret",
+      "nom": "Saint-Leu-la-Forêt"
+    },
+    {
+      "slug": "saint-maur-des-fosses",
+      "nom": "Saint-Maur-des-Fossés"
+    },
+    {
+      "slug": "samois-sur-seine",
+      "nom": "Samois-sur-Seine"
+    },
+    {
+      "slug": "santeny",
+      "nom": "Santeny"
+    },
+    {
+      "slug": "sevres---manufacture-et-musee-nationaux",
+      "nom": "Sèvres - Manufacture et Musée Nationaux"
+    },
+    {
+      "slug": "stade-de-france",
+      "nom": "Stade de France"
+    },
+    {
+      "slug": "thoiry",
+      "nom": "Thoiry"
+    },
+    {
+      "slug": "thorigny-sur-marne",
+      "nom": "Thorigny-sur-Marne"
+    },
+    {
+      "slug": "tour-eiffel",
+      "nom": "Tour Eiffel"
+    },
+    {
+      "slug": "vaureal",
+      "nom": "Vauréal"
+    },
+    {
+      "slug": "versailles",
+      "nom": "Versailles"
+    },
+    {
+      "slug": "viaduc-des-arts",
+      "nom": "Viaduc des Arts"
+    },
+    {
+      "slug": "villa-corot",
+      "nom": "Villa Corot"
+    },
+    {
+      "slug": "villa-savoye",
+      "nom": "Villa Savoye"
+    },
+    {
+      "slug": "villecresnes",
+      "nom": "Villecresnes"
+    }
+  ]
+}

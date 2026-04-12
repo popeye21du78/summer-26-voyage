@@ -1,0 +1,477 @@
+{
+  "regionId": "provence",
+  "name": "Provence",
+  "deptCodes": [
+    "04",
+    "05",
+    "13",
+    "84"
+  ],
+  "count": 116,
+  "lieux": [
+    {
+      "slug": "aix-en-provence",
+      "nom": "Aix-en-Provence"
+    },
+    {
+      "slug": "allauch",
+      "nom": "Allauch"
+    },
+    {
+      "slug": "allos",
+      "nom": "Allos"
+    },
+    {
+      "slug": "annot",
+      "nom": "Annot"
+    },
+    {
+      "slug": "ansouis",
+      "nom": "Ansouis"
+    },
+    {
+      "slug": "arambre",
+      "nom": "Arambre"
+    },
+    {
+      "slug": "arles",
+      "nom": "Arles"
+    },
+    {
+      "slug": "avignon",
+      "nom": "Avignon"
+    },
+    {
+      "slug": "baou-de-parou",
+      "nom": "Baou de Parou"
+    },
+    {
+      "slug": "barcelonnette",
+      "nom": "Barcelonnette"
+    },
+    {
+      "slug": "beaumes-de-venise",
+      "nom": "Beaumes-de-Venise"
+    },
+    {
+      "slug": "belvedere-du-pidanoux",
+      "nom": "Belvédère du Pidanoux"
+    },
+    {
+      "slug": "bonnet-rouge",
+      "nom": "Bonnet Rouge"
+    },
+    {
+      "slug": "bornes-papales",
+      "nom": "Bornes Papales"
+    },
+    {
+      "slug": "boucle-du-pigeonnier-dans-le-cirque-du-gioberney",
+      "nom": "Boucle du Pigeonnier dans le cirque du Gioberney"
+    },
+    {
+      "slug": "briancon",
+      "nom": "Briançon"
+    },
+    {
+      "slug": "calanque-den-vau",
+      "nom": "Calanque d'En-Vau"
+    },
+    {
+      "slug": "calanque-de-figuerolles",
+      "nom": "Calanque de Figuerolles"
+    },
+    {
+      "slug": "calanque-de-port-pin",
+      "nom": "Calanque de Port Pin"
+    },
+    {
+      "slug": "calanque-de-sormiou",
+      "nom": "Calanque de Sormiou"
+    },
+    {
+      "slug": "carry-le-rouet",
+      "nom": "Carry-le-Rouet"
+    },
+    {
+      "slug": "cassis",
+      "nom": "Cassis"
+    },
+    {
+      "slug": "castellane",
+      "nom": "Castellane"
+    },
+    {
+      "slug": "chateau-de-tallard",
+      "nom": "Château de Tallard"
+    },
+    {
+      "slug": "chateau-plus-haut",
+      "nom": "Château plus Haut"
+    },
+    {
+      "slug": "chateau-queyras",
+      "nom": "Château-Queyras"
+    },
+    {
+      "slug": "chateauneuf-du-pape",
+      "nom": "Châteauneuf-du-Pape"
+    },
+    {
+      "slug": "colmars",
+      "nom": "Colmars"
+    },
+    {
+      "slug": "crete-de-la-colle",
+      "nom": "Crête de la Colle"
+    },
+    {
+      "slug": "digne-les-bains",
+      "nom": "Digne-les-Bains"
+    },
+    {
+      "slug": "eldorado--le-col-du-charnier",
+      "nom": "Eldorado ! Le col du Charnier"
+    },
+    {
+      "slug": "eldorado--les-agniellards",
+      "nom": "ELdorado ! Les Agniellards"
+    },
+    {
+      "slug": "embrun",
+      "nom": "Embrun"
+    },
+    {
+      "slug": "entre-calanques-et-collines",
+      "nom": "Entre calanques et collines"
+    },
+    {
+      "slug": "entre-rizieres-et-roselieres-sur-le-sentier-du-pont-de-rousty",
+      "nom": "Entre rizières et roselières sur le sentier du Pont de Rousty"
+    },
+    {
+      "slug": "entrevaux",
+      "nom": "Entrevaux"
+    },
+    {
+      "slug": "eygalieres",
+      "nom": "Eygalières"
+    },
+    {
+      "slug": "fontaine-de-vaucluse",
+      "nom": "Fontaine-de-Vaucluse"
+    },
+    {
+      "slug": "forcalquier",
+      "nom": "Forcalquier"
+    },
+    {
+      "slug": "foret-de-castillon-etangs-de-pourra-et-dengrenier",
+      "nom": "Forêt de Castillon Etangs de Pourra et d’Engrenier"
+    },
+    {
+      "slug": "fuveau",
+      "nom": "Fuveau"
+    },
+    {
+      "slug": "gap",
+      "nom": "Gap"
+    },
+    {
+      "slug": "gigondas",
+      "nom": "Gigondas"
+    },
+    {
+      "slug": "gordes",
+      "nom": "Gordes"
+    },
+    {
+      "slug": "greoux-les-bains",
+      "nom": "Gréoux-les-Bains"
+    },
+    {
+      "slug": "isle-sur-la-sorgue",
+      "nom": "Isle-sur-la-Sorgue"
+    },
+    {
+      "slug": "largentiere-la-bessee",
+      "nom": "L'Argentière-la-Bessée"
+    },
+    {
+      "slug": "lestaque",
+      "nom": "L'Estaque"
+    },
+    {
+      "slug": "la-beaume---la-haute-beaume",
+      "nom": "La Beaume - La Haute Beaume"
+    },
+    {
+      "slug": "la-breole",
+      "nom": "La Bréole"
+    },
+    {
+      "slug": "la-ciotat",
+      "nom": "La Ciotat"
+    },
+    {
+      "slug": "la-grave",
+      "nom": "La Grave"
+    },
+    {
+      "slug": "la-manche",
+      "nom": "La Manche"
+    },
+    {
+      "slug": "la-randonnee-des-amis",
+      "nom": "La randonnée des amis"
+    },
+    {
+      "slug": "la-sainte-baume",
+      "nom": "La Sainte-Baume"
+    },
+    {
+      "slug": "la-sainte-croix",
+      "nom": "La Sainte-Croix"
+    },
+    {
+      "slug": "la-vallee-de-la-claree",
+      "nom": "La vallée de la Clarée"
+    },
+    {
+      "slug": "lac-desparron-de-verdon---sentier-du-garde-canal",
+      "nom": "Lac d'Esparron-de-Verdon - sentier du garde-canal"
+    },
+    {
+      "slug": "lac-de-serre-poncon",
+      "nom": "Lac de Serre-Ponçon"
+    },
+    {
+      "slug": "lacoste",
+      "nom": "Lacoste"
+    },
+    {
+      "slug": "lancon-de-provence-et-ses-collines",
+      "nom": "Lançon-de-Provence et ses collines"
+    },
+    {
+      "slug": "le-barroux",
+      "nom": "Le Barroux"
+    },
+    {
+      "slug": "le-chemin-des-lavandes",
+      "nom": "Le Chemin des Lavandes"
+    },
+    {
+      "slug": "le-gres-dannot",
+      "nom": "Le Grès d'Annot"
+    },
+    {
+      "slug": "le-luzet",
+      "nom": "Le Luzet"
+    },
+    {
+      "slug": "le-refuge-du-tourond",
+      "nom": "Le refuge du Tourond"
+    },
+    {
+      "slug": "le-saut-du-laire",
+      "nom": "Le Saut du Laire"
+    },
+    {
+      "slug": "le-serre-du-charron",
+      "nom": "Le Serre du Charron"
+    },
+    {
+      "slug": "le-sommet-du-cousson",
+      "nom": "Le Sommet du Cousson"
+    },
+    {
+      "slug": "le-tour-de-guiziere",
+      "nom": "Le Tour de Guizière"
+    },
+    {
+      "slug": "les-alpilles",
+      "nom": "Les Alpilles"
+    },
+    {
+      "slug": "les-baux-de-provence",
+      "nom": "Les Baux-de-Provence"
+    },
+    {
+      "slug": "lourmarin",
+      "nom": "Lourmarin"
+    },
+    {
+      "slug": "lurs",
+      "nom": "Lurs"
+    },
+    {
+      "slug": "manosque",
+      "nom": "Manosque"
+    },
+    {
+      "slug": "marseille",
+      "nom": "Marseille"
+    },
+    {
+      "slug": "martigues",
+      "nom": "Martigues"
+    },
+    {
+      "slug": "maussane-les-alpilles-vers-les-baux-de-provence",
+      "nom": "Maussane-les-Alpilles vers les Baux-de-Provence"
+    },
+    {
+      "slug": "mazan",
+      "nom": "Mazan"
+    },
+    {
+      "slug": "menerbes",
+      "nom": "Ménerbes"
+    },
+    {
+      "slug": "mont-dauphin",
+      "nom": "Mont-Dauphin"
+    },
+    {
+      "slug": "moustiers-sainte-marie",
+      "nom": "Moustiers-Sainte-Marie"
+    },
+    {
+      "slug": "oppede-le-vieux",
+      "nom": "Oppède-le-Vieux"
+    },
+    {
+      "slug": "orange",
+      "nom": "Orange"
+    },
+    {
+      "slug": "orcieres-merlette-1850",
+      "nom": "Orcières Merlette 1850"
+    },
+    {
+      "slug": "parc-national-des-ecrins",
+      "nom": "Parc National des Écrins"
+    },
+    {
+      "slug": "plage-de-la-couronne",
+      "nom": "Plage de la Couronne"
+    },
+    {
+      "slug": "plage-de-la-pointe-rouge",
+      "nom": "Plage de la Pointe Rouge"
+    },
+    {
+      "slug": "plage-des-catalans",
+      "nom": "Plage des Catalans"
+    },
+    {
+      "slug": "plage-du-lac-de-sainte-croix",
+      "nom": "Plage du Lac de Sainte-Croix"
+    },
+    {
+      "slug": "plage-du-lac-de-serre-poncon",
+      "nom": "Plage du Lac de Serre-Ponçon"
+    },
+    {
+      "slug": "plage-du-plan-deau-des-ferreols",
+      "nom": "Plage du Plan d'Eau des Ferréols"
+    },
+    {
+      "slug": "plage-du-riou-clar",
+      "nom": "Plage du Riou Clar"
+    },
+    {
+      "slug": "plage-sainte-croix",
+      "nom": "Plage Sainte-Croix"
+    },
+    {
+      "slug": "puy-cervier",
+      "nom": "Puy Cervier"
+    },
+    {
+      "slug": "queyras",
+      "nom": "Queyras"
+    },
+    {
+      "slug": "riez",
+      "nom": "Riez"
+    },
+    {
+      "slug": "rousset",
+      "nom": "Rousset"
+    },
+    {
+      "slug": "roussillon",
+      "nom": "Roussillon"
+    },
+    {
+      "slug": "saint-andre-les-alpes",
+      "nom": "Saint-André-les-Alpes"
+    },
+    {
+      "slug": "saint-martin-de-bromes",
+      "nom": "Saint-Martin-de-Brômes"
+    },
+    {
+      "slug": "saint-remy-de-provence",
+      "nom": "Saint-Rémy-de-Provence"
+    },
+    {
+      "slug": "saint-veran",
+      "nom": "Saint-Véran"
+    },
+    {
+      "slug": "sainte-cecile-les-vignes",
+      "nom": "Sainte-Cécile-les-Vignes"
+    },
+    {
+      "slug": "salon-de-provence",
+      "nom": "Salon-de-Provence"
+    },
+    {
+      "slug": "seguret",
+      "nom": "Séguret"
+    },
+    {
+      "slug": "sentier-du-bastidon",
+      "nom": "Sentier du Bastidon"
+    },
+    {
+      "slug": "sentier-du-portalas",
+      "nom": "Sentier du Portalas"
+    },
+    {
+      "slug": "seyne",
+      "nom": "Seyne"
+    },
+    {
+      "slug": "sisteron",
+      "nom": "Sisteron"
+    },
+    {
+      "slug": "sommet-du-blayeul",
+      "nom": "Sommet du Blayeul"
+    },
+    {
+      "slug": "tarascon",
+      "nom": "Tarascon"
+    },
+    {
+      "slug": "trail-montee-de-lestrop",
+      "nom": "Trail Montée de l'Estrop"
+    },
+    {
+      "slug": "vallouise",
+      "nom": "Vallouise"
+    },
+    {
+      "slug": "vars",
+      "nom": "Vars"
+    },
+    {
+      "slug": "venasque",
+      "nom": "Venasque"
+    }
+  ]
+}

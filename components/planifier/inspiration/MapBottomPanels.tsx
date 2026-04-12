@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { ChevronLeft } from "lucide-react";
 import {
@@ -19,6 +19,10 @@ import {
   starItinerariesByRegion,
   starItineraryById,
 } from "@/content/inspiration/star-itineraries";
+import type {
+  StarItinerariesEditorialFile,
+  StarItineraryEditorialItem,
+} from "@/types/star-itineraries-editorial";
 import { CityPhoto } from "@/components/CityPhoto";
 import { slugFromNom } from "@/lib/slug-from-nom";
 import FavoriteButton from "./FavoriteButton";
@@ -96,7 +100,7 @@ function SheetChrome({
       )}
       {!isSplit && (
         <p className="mt-0.5 text-center font-courier text-[10px] text-[#333]/45">
-          Tire la jointure entre carte et fiche pour les proportions · coup sec sur la poignée pour fermer
+          Tire la poignée entre carte et fiche pour ajuster la hauteur · glisser vite vers le bas pour fermer
         </p>
       )}
       <div
@@ -115,8 +119,16 @@ type PanelsProps = {
 
 export default function MapBottomPanels({ onSheetScroll }: PanelsProps) {
   const ctx = useInspirationMap();
-  const { top, goBack, goExploreRegion, openStarList, selectStarItinerary, selectTerritoryPoi, resetFrance } =
-    ctx;
+  const {
+    top,
+    goBack,
+    goExploreRegion,
+    openStarList,
+    selectStarItinerary,
+    selectEditorialStarItinerary,
+    selectTerritoryPoi,
+    resetFrance,
+  } = ctx;
 
   const allTerritories = listTerritories();
 
@@ -163,15 +175,26 @@ export default function MapBottomPanels({ onSheetScroll }: PanelsProps) {
           key="stars"
           regionId={top.regionId}
           onBack={goBack}
-          onPick={(id) => selectStarItinerary(id)}
+          onPickLegacy={(id) => selectStarItinerary(id)}
+          onPickEditorial={(slug) => selectEditorialStarItinerary(slug)}
           onScroll={onSheetScroll}
           onDragClose={goBack}
         />
       )}
-      {top.screen === "star-detail" && (
-        <StarDetailSheet
+      {top.screen === "star-detail" && top.kind === "legacy" && (
+        <StarDetailSheetLegacy
           key="stard"
           itineraryId={top.itineraryId}
+          onBack={goBack}
+          onScroll={onSheetScroll}
+          onDragClose={goBack}
+        />
+      )}
+      {top.screen === "star-detail" && top.kind === "editorial" && (
+        <StarDetailSheetEditorial
+          key="starde"
+          regionId={top.regionId}
+          editorialSlug={top.editorialSlug}
           onBack={goBack}
           onScroll={onSheetScroll}
           onDragClose={goBack}
@@ -597,76 +620,284 @@ function PoiSheet({
   );
 }
 
+const DURATION_CHIPS = ["3 jours", "7 jours", "10 jours"] as const;
+
+async function fetchRegionEditorial(regionId: string): Promise<StarItinerariesEditorialFile> {
+  const r = await fetch(
+    `/api/inspiration/region-editorial?regionId=${encodeURIComponent(regionId)}`,
+    { cache: "no-store" }
+  );
+  if (!r.ok) return { itineraries: [] };
+  return (await r.json()) as StarItinerariesEditorialFile;
+}
+
 function StarListSheet({
   regionId,
   onBack,
-  onPick,
+  onPickLegacy,
+  onPickEditorial,
   onScroll,
   onDragClose,
 }: {
   regionId: string;
   onBack: () => void;
-  onPick: (id: string) => void;
+  onPickLegacy: (id: string) => void;
+  onPickEditorial: (slug: string) => void;
   onScroll?: (e: React.UIEvent<HTMLDivElement>) => void;
   onDragClose?: () => void;
 }) {
-  const items = starItinerariesByRegion(regionId);
+  const [editorialPack, setEditorialPack] = useState<StarItinerariesEditorialFile | null>(null);
+  const [editorialLoading, setEditorialLoading] = useState(true);
+
+  useEffect(() => {
+    let cancelled = false;
+    setEditorialLoading(true);
+    fetchRegionEditorial(regionId)
+      .then((data) => {
+        if (!cancelled) setEditorialPack(data);
+      })
+      .catch(() => {
+        if (!cancelled) setEditorialPack({ itineraries: [] });
+      })
+      .finally(() => {
+        if (!cancelled) setEditorialLoading(false);
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [regionId]);
+
+  const editorial = editorialPack?.itineraries ?? [];
+  const legacy = starItinerariesByRegion(regionId);
+  const hasEditorial = editorial.length > 0;
+
+  const themes = useMemo(() => {
+    const u = new Set<string>();
+    editorial.forEach((i) => u.add(i.themeTitle));
+    return [...u].sort((a, b) => a.localeCompare(b, "fr"));
+  }, [editorial]);
+
+  const [theme, setTheme] = useState<string | null>(null);
+  const [dur, setDur] = useState<string | null>(null);
+
+  const filtered = useMemo(() => {
+    return editorial.filter(
+      (i) =>
+        (!theme || i.themeTitle === theme) &&
+        (!dur || i.durationHint === dur)
+    );
+  }, [editorial, theme, dur]);
 
   return (
-    <SheetChrome
-      onBack={onBack}
-      tall
-      onScroll={onScroll}
-      onDragClose={onDragClose}
-    >
-      <h2 className="mb-4 font-courier text-lg font-bold text-[#A55734]">
-        Itinéraires stars
-      </h2>
-      <div className="grid gap-4 sm:grid-cols-2">
-        {items.map((s) => (
-          <div
-            key={s.id}
-            role="button"
-            tabIndex={0}
-            onClick={() => onPick(s.id)}
-            onKeyDown={(e) => {
-              if (e.key === "Enter" || e.key === " ") {
-                e.preventDefault();
-                onPick(s.id);
-              }
-            }}
-            className="cursor-pointer overflow-hidden rounded-2xl border border-[#A55734]/15 bg-white text-left shadow-sm transition hover:border-[#E07856]/45"
-          >
-            <div className="relative aspect-[16/10] bg-[#e8dfd6]">
-              <Image src={s.coverPhoto} alt="" fill className="object-cover" sizes="(max-width:640px) 100vw, 50vw" />
-            </div>
-            <div className="p-3">
-              <div className="flex items-start justify-between gap-2">
-                <span className="font-courier text-sm font-bold text-[#333]">{s.name}</span>
-                <span onClick={(e) => e.stopPropagation()}>
-                  <FavoriteButton kind="star_itinerary" refId={s.id} label={s.name} />
-                </span>
-              </div>
-              <p className="mt-1 line-clamp-2 font-courier text-[11px] text-[#333]/80">
-                {s.shortDescription}
-              </p>
-              {s.durationHint && (
-                <p className="mt-2 font-courier text-[10px] text-[#A55734]/75">{s.durationHint}</p>
-              )}
+    <SheetChrome onBack={onBack} tall onScroll={onScroll} onDragClose={onDragClose}>
+      <h2 className="mb-1 font-courier text-lg font-bold text-[#A55734]">Itinéraires stars</h2>
+      <p className="mb-5 font-courier text-[11px] leading-relaxed text-[#333]/72">
+        1) Choisis un <strong>thème</strong> · 2) une <strong>durée</strong> · 3) ouvre un{" "}
+        <strong>parcours</strong> : le tracé se met en avant sur la carte (actualisé depuis le fichier JSON
+        sur le serveur).
+      </p>
+
+      {editorialLoading && (
+        <p className="mb-6 font-courier text-sm text-[#333]/65">Chargement des parcours…</p>
+      )}
+
+      {!editorialLoading && !hasEditorial && (
+        <div className="mb-6 rounded-2xl border border-amber-200/90 bg-gradient-to-br from-amber-50 to-[#FFF8F0] px-4 py-3 shadow-sm">
+          <p className="font-courier text-sm font-bold text-amber-950/90">Contenu en attente</p>
+          <p className="mt-1.5 font-courier text-[11px] leading-relaxed text-[#333]/88">
+            Aucun itinéraire dans le JSON de cette région (fichier vide ou non enregistré). Après avoir
+            collé le JSON dans{" "}
+            <code className="rounded bg-white/80 px-1 text-[10px]">
+              content/inspiration/star-itineraries-editorial/{regionId}.json
+            </code>
+            , enregistre puis rafraîchis la page (F5).
+          </p>
+        </div>
+      )}
+
+      {!editorialLoading && hasEditorial && (
+        <>
+          <div className="mb-4">
+            <p className="font-courier text-[10px] font-bold uppercase tracking-[0.2em] text-[#A55734]/85">
+              1 · Thème ({themes.length} propositions)
+            </p>
+            <div className="mt-2 flex flex-wrap gap-2">
+              <button
+                type="button"
+                onClick={() => setTheme(null)}
+                className={`rounded-full border px-3 py-1.5 font-courier text-[11px] font-bold transition ${
+                  theme === null
+                    ? "border-[#E07856] bg-[#E07856]/15 text-[#A55734]"
+                    : "border-[#A55734]/20 bg-white text-[#333]/85 hover:border-[#E07856]/35"
+                }`}
+              >
+                Tous
+              </button>
+              {themes.map((t) => (
+                <button
+                  key={t}
+                  type="button"
+                  onClick={() => setTheme(t)}
+                  className={`rounded-full border px-3 py-1.5 font-courier text-[11px] font-bold transition ${
+                    theme === t
+                      ? "border-[#E07856] bg-[#E07856]/15 text-[#A55734]"
+                      : "border-[#A55734]/20 bg-white text-[#333]/85 hover:border-[#E07856]/35"
+                  }`}
+                >
+                  {t}
+                </button>
+              ))}
             </div>
           </div>
-        ))}
-      </div>
-      {items.length === 0 && (
+
+          <div className="mb-5">
+            <p className="font-courier text-[10px] font-bold uppercase tracking-[0.2em] text-[#A55734]/85">
+              2 · Durée
+            </p>
+            <div className="mt-2 flex flex-wrap gap-2">
+              <button
+                type="button"
+                onClick={() => setDur(null)}
+                className={`rounded-full border px-3 py-1.5 font-courier text-[11px] font-bold transition ${
+                  dur === null
+                    ? "border-[#E07856] bg-[#E07856]/15 text-[#A55734]"
+                    : "border-[#A55734]/20 bg-white text-[#333]/85 hover:border-[#E07856]/35"
+                }`}
+              >
+                Toutes
+              </button>
+              {DURATION_CHIPS.map((d) => (
+                <button
+                  key={d}
+                  type="button"
+                  onClick={() => setDur(d)}
+                  className={`rounded-full border px-3 py-1.5 font-courier text-[11px] font-bold transition ${
+                    dur === d
+                      ? "border-[#E07856] bg-[#E07856]/15 text-[#A55734]"
+                      : "border-[#A55734]/20 bg-white text-[#333]/85 hover:border-[#E07856]/35"
+                  }`}
+                >
+                  {d}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          <div className="mb-2 font-courier text-[10px] font-bold uppercase tracking-[0.15em] text-[#A55734]/75">
+            3 · Parcours ({filtered.length})
+          </div>
+          <div className="grid gap-4 sm:grid-cols-2">
+            {filtered.map((it) => (
+              <div
+                key={it.itinerarySlug}
+                role="button"
+                tabIndex={0}
+                onClick={() => onPickEditorial(it.itinerarySlug)}
+                onKeyDown={(e) => {
+                  if (e.key === "Enter" || e.key === " ") {
+                    e.preventDefault();
+                    onPickEditorial(it.itinerarySlug);
+                  }
+                }}
+                className="group cursor-pointer overflow-hidden rounded-2xl border-2 border-[#A55734]/18 bg-gradient-to-br from-white to-[#FAF4F0] text-left shadow-md transition hover:border-[#E07856]/55 hover:shadow-lg"
+              >
+                <div className="flex items-center justify-between gap-2 border-b border-[#A55734]/10 bg-[#FFF8F0]/80 px-3 py-2">
+                  <span className="rounded-full bg-[#E07856]/15 px-2.5 py-0.5 font-courier text-[10px] font-bold text-[#A55734]">
+                    {it.durationHint}
+                  </span>
+                  <span onClick={(e) => e.stopPropagation()}>
+                    <FavoriteButton
+                      kind="star_itinerary"
+                      refId={`editorial:${regionId}:${it.itinerarySlug}`}
+                      label={it.tripTitle}
+                    />
+                  </span>
+                </div>
+                <div className="p-3 pt-2">
+                  <p className="font-courier text-[10px] font-bold uppercase tracking-wide text-[#E07856]/95">
+                    {it.themeTitle}
+                  </p>
+                  <h3 className="mt-1 font-courier text-base font-bold leading-snug text-[#333]">
+                    {it.tripTitle}
+                  </h3>
+                  <p className="mt-2 line-clamp-3 font-courier text-[11px] leading-relaxed text-[#333]/82">
+                    {it.summary}
+                  </p>
+                  <p className="mt-3 font-courier text-[10px] font-bold text-[#E07856]">
+                    Voir le parcours sur la carte →
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {filtered.length === 0 && (
+            <p className="mt-4 font-courier text-sm text-[#333]/70">
+              Aucun parcours pour ce couple thème / durée — essaie &quot;Tous&quot; / &quot;Toutes&quot;.
+            </p>
+          )}
+        </>
+      )}
+
+      {legacy.length > 0 && (
+        <div className={hasEditorial ? "mt-10 border-t border-[#A55734]/12 pt-8" : ""}>
+          <h3 className="mb-3 font-courier text-xs font-bold uppercase tracking-wide text-[#A55734]/80">
+            Aperçus (ancien format)
+          </h3>
+          <div className="grid gap-4 sm:grid-cols-2">
+            {legacy.map((s) => (
+              <div
+                key={s.id}
+                role="button"
+                tabIndex={0}
+                onClick={() => onPickLegacy(s.id)}
+                onKeyDown={(e) => {
+                  if (e.key === "Enter" || e.key === " ") {
+                    e.preventDefault();
+                    onPickLegacy(s.id);
+                  }
+                }}
+                className="cursor-pointer overflow-hidden rounded-2xl border border-[#A55734]/15 bg-white text-left shadow-sm transition hover:border-[#E07856]/45"
+              >
+                <div className="relative aspect-[16/10] bg-[#e8dfd6]">
+                  <Image
+                    src={s.coverPhoto}
+                    alt=""
+                    fill
+                    className="object-cover"
+                    sizes="(max-width:640px) 100vw, 50vw"
+                  />
+                </div>
+                <div className="p-3">
+                  <div className="flex items-start justify-between gap-2">
+                    <span className="font-courier text-sm font-bold text-[#333]">{s.name}</span>
+                    <span onClick={(e) => e.stopPropagation()}>
+                      <FavoriteButton kind="star_itinerary" refId={s.id} label={s.name} />
+                    </span>
+                  </div>
+                  <p className="mt-1 line-clamp-2 font-courier text-[11px] text-[#333]/80">
+                    {s.shortDescription}
+                  </p>
+                  {s.durationHint && (
+                    <p className="mt-2 font-courier text-[10px] text-[#A55734]/75">{s.durationHint}</p>
+                  )}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {!hasEditorial && legacy.length === 0 && (
         <p className="font-courier text-sm text-[#333]/70">
-          Aucun itinéraire star pour cette région pour le moment.
+          Aucun itinéraire disponible pour cette région pour le moment.
         </p>
       )}
     </SheetChrome>
   );
 }
 
-function StarDetailSheet({
+function StarDetailSheetLegacy({
   itineraryId,
   onBack,
   onScroll,
@@ -683,12 +914,7 @@ function StarDetailSheet({
   const coords = s.geometry.coordinates;
 
   return (
-    <SheetChrome
-      onBack={onBack}
-      tall
-      onScroll={onScroll}
-      onDragClose={onDragClose}
-    >
+    <SheetChrome onBack={onBack} tall onScroll={onScroll} onDragClose={onDragClose}>
       <div className="relative mb-4 aspect-[16/9] w-full overflow-hidden rounded-2xl bg-[#e8dfd6]">
         <Image src={s.coverPhoto} alt="" fill className="object-cover" sizes="100vw" />
       </div>
@@ -711,7 +937,7 @@ function StarDetailSheet({
         ))}
       </div>
 
-      <h3 className="mt-6 font-courier text-xs font-bold uppercase text-[#A55734]">Étapes</h3>
+      <h3 className="mt-6 font-courier text-xs font-bold uppercase text-[#A55734]">Étapes (tracé carte)</h3>
       <ol className="mt-2 space-y-2">
         {coords.map((c, i) => (
           <li
@@ -720,11 +946,130 @@ function StarDetailSheet({
           >
             <span className="font-bold text-[#E07856]">{i + 1}</span>
             <span>
-              Point d’étape {i + 1} — {c[1].toFixed(2)}°N, {c[0].toFixed(2)}°E
+              Point {i + 1} — {c[1].toFixed(2)}°N, {c[0].toFixed(2)}°E
             </span>
           </li>
         ))}
       </ol>
+    </SheetChrome>
+  );
+}
+
+function StarDetailSheetEditorial({
+  regionId,
+  editorialSlug,
+  onBack,
+  onScroll,
+  onDragClose,
+}: {
+  regionId: string;
+  editorialSlug: string;
+  onBack: () => void;
+  onScroll?: (e: React.UIEvent<HTMLDivElement>) => void;
+  onDragClose?: () => void;
+}) {
+  const [item, setItem] = useState<StarItineraryEditorialItem | null | undefined>(undefined);
+  useEffect(() => {
+    let cancelled = false;
+    setItem(undefined);
+    fetchRegionEditorial(regionId)
+      .then((pack) => {
+        if (cancelled) return;
+        const found =
+          pack.itineraries?.find((i) => i.itinerarySlug === editorialSlug) ?? null;
+        setItem(found);
+      })
+      .catch(() => {
+        if (!cancelled) setItem(null);
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [regionId, editorialSlug]);
+
+  if (item === undefined) {
+    return (
+      <SheetChrome onBack={onBack} tall onScroll={onScroll} onDragClose={onDragClose}>
+        <p className="font-courier text-sm text-[#333]/70">Chargement du parcours…</p>
+      </SheetChrome>
+    );
+  }
+
+  if (!item) {
+    return (
+      <SheetChrome onBack={onBack} tall onScroll={onScroll} onDragClose={onDragClose}>
+        <p className="font-courier text-sm text-[#333]/70">
+          Parcours introuvable. Enregistre le JSON régional puis rafraîchis la page.
+        </p>
+      </SheetChrome>
+    );
+  }
+
+  const favRef = `editorial:${regionId}:${item.itinerarySlug}`;
+
+  return (
+    <SheetChrome onBack={onBack} tall onScroll={onScroll} onDragClose={onDragClose}>
+      <div className="relative mb-4 overflow-hidden rounded-2xl border border-[#A55734]/15 bg-gradient-to-br from-[#5D3A1A]/15 via-[#FFF8F0] to-[#E07856]/10">
+        <div className="aspect-[16/7] w-full min-h-[120px]" aria-hidden />
+        <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-black/55 via-black/10 to-transparent p-4">
+          <p className="font-courier text-[10px] font-bold uppercase tracking-wide text-white/90">
+            {item.themeTitle}
+          </p>
+          <h2 className="mt-1 font-courier text-lg font-bold leading-tight text-white drop-shadow">
+            {item.tripTitle}
+          </h2>
+          <p className="mt-1 font-courier text-[11px] text-white/88">{item.durationHint}</p>
+        </div>
+      </div>
+
+      <div className="flex items-start justify-between gap-2">
+        <p className="font-courier text-[11px] font-bold uppercase text-[#E07856]">Parcours éditorial</p>
+        <FavoriteButton kind="star_itinerary" refId={favRef} label={item.tripTitle} />
+      </div>
+
+      <p className="mt-3 font-courier text-sm leading-relaxed text-[#333]">{item.summary}</p>
+
+      <div className={`mt-4 rounded-xl border px-3 py-3 ${BAND_LIGHT}`}>
+        <p className="font-courier text-[10px] font-bold uppercase text-[#A55734]/85">Nuits</p>
+        <p className="mt-1 font-courier text-xs leading-relaxed text-[#333]/90">{item.overnightStyle}</p>
+      </div>
+
+      <h3 className="mt-6 font-courier text-xs font-bold uppercase text-[#A55734]">
+        Étapes (ordre du parcours)
+      </h3>
+      <ol className="mt-2 space-y-2">
+        {item.steps.map((st, i) => (
+          <li
+            key={`${st.slug}-${i}`}
+            className="flex gap-3 rounded-lg border border-[#A55734]/12 bg-white/90 px-3 py-2.5 font-courier text-xs text-[#333]"
+          >
+            <span className="shrink-0 font-bold text-[#E07856]">{i + 1}</span>
+            <span className="leading-snug">{st.nom}</span>
+          </li>
+        ))}
+      </ol>
+
+      {item.suggestedPoiAdditions.length > 0 && (
+        <div className="mt-8 rounded-xl border border-dashed border-[#A55734]/25 bg-amber-50/50 px-3 py-3">
+          <p className="font-courier text-[10px] font-bold uppercase tracking-wide text-amber-950/90">
+            POI à ajouter au référentiel (suggestions)
+          </p>
+          <ul className="mt-2 space-y-2">
+            {item.suggestedPoiAdditions.map((s, i) => (
+              <li key={i} className="font-courier text-[11px] leading-relaxed text-[#333]/92">
+                <span className="font-bold text-[#A55734]">{s.nom}</span>
+                <span className="text-[#333]/55"> · {s.type}</span>
+                <span className="mt-0.5 block text-[#333]/78">{s.raison}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      <p className="mt-6 font-courier text-[10px] leading-relaxed text-[#333]/55">
+        Le tracé orange sur la carte relie les lieux dans l’ordre (coordonnées issues du référentiel
+        lieux).
+      </p>
     </SheetChrome>
   );
 }

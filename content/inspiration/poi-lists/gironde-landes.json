@@ -1,0 +1,227 @@
+{
+  "regionId": "gironde-landes",
+  "name": "Gironde et Landes",
+  "deptCodes": [
+    "33",
+    "40"
+  ],
+  "count": 54,
+  "lieux": [
+    {
+      "slug": "arcachon",
+      "nom": "Arcachon"
+    },
+    {
+      "slug": "biscarrosse",
+      "nom": "Biscarrosse"
+    },
+    {
+      "slug": "bordeaux",
+      "nom": "Bordeaux"
+    },
+    {
+      "slug": "boucle-du-moulin-dauros",
+      "nom": "Boucle du Moulin d'Auros"
+    },
+    {
+      "slug": "bourg-sur-gironde",
+      "nom": "Bourg-sur-Gironde"
+    },
+    {
+      "slug": "capbreton",
+      "nom": "Capbreton"
+    },
+    {
+      "slug": "certes-graveyron",
+      "nom": "Certes-Graveyron"
+    },
+    {
+      "slug": "chateau-de-cazeneuve",
+      "nom": "Château de Cazeneuve"
+    },
+    {
+      "slug": "chateau-de-la-brede",
+      "nom": "Château de La Brède"
+    },
+    {
+      "slug": "chateau-de-roquetaillade",
+      "nom": "Château de Roquetaillade"
+    },
+    {
+      "slug": "citadelle-de-blaye",
+      "nom": "Citadelle de Blaye"
+    },
+    {
+      "slug": "dax",
+      "nom": "Dax"
+    },
+    {
+      "slug": "dune-du-pilat",
+      "nom": "Dune du Pilat"
+    },
+    {
+      "slug": "etape-3--chemin-damadour",
+      "nom": "Étape 3 • Chemin d'Amadour"
+    },
+    {
+      "slug": "eyrans",
+      "nom": "Eyrans"
+    },
+    {
+      "slug": "hossegor",
+      "nom": "Hossegor"
+    },
+    {
+      "slug": "ile-aux-oiseaux",
+      "nom": "Île aux Oiseaux"
+    },
+    {
+      "slug": "la-boucle-de-talais-par-le-port",
+      "nom": "La boucle de Talais par le port"
+    },
+    {
+      "slug": "labastide-darmagnac",
+      "nom": "Labastide-d'Armagnac"
+    },
+    {
+      "slug": "lacanau",
+      "nom": "Lacanau"
+    },
+    {
+      "slug": "langoiran",
+      "nom": "Langoiran"
+    },
+    {
+      "slug": "langon",
+      "nom": "Langon"
+    },
+    {
+      "slug": "leon",
+      "nom": "Léon"
+    },
+    {
+      "slug": "mimizan",
+      "nom": "Mimizan"
+    },
+    {
+      "slug": "mont-de-marsan",
+      "nom": "Mont-de-Marsan"
+    },
+    {
+      "slug": "plage-blanche",
+      "nom": "Plage Blanche"
+    },
+    {
+      "slug": "plage-centrale",
+      "nom": "Plage Centrale"
+    },
+    {
+      "slug": "plage-centrale-dhossegor",
+      "nom": "Plage Centrale d'Hossegor"
+    },
+    {
+      "slug": "plage-damelie",
+      "nom": "Plage d'Amélie"
+    },
+    {
+      "slug": "plage-de-biscarrosse",
+      "nom": "Plage de Biscarrosse"
+    },
+    {
+      "slug": "plage-de-contis",
+      "nom": "Plage de Contis"
+    },
+    {
+      "slug": "plage-de-lhorizon",
+      "nom": "Plage de l'Horizon"
+    },
+    {
+      "slug": "plage-de-la-garonne",
+      "nom": "Plage de la Garonne"
+    },
+    {
+      "slug": "plage-de-la-jenny",
+      "nom": "Plage de la Jenny"
+    },
+    {
+      "slug": "plage-de-la-salie",
+      "nom": "Plage de la Salie"
+    },
+    {
+      "slug": "plage-de-labenne",
+      "nom": "Plage de Labenne"
+    },
+    {
+      "slug": "plage-de-mimizan",
+      "nom": "Plage de Mimizan"
+    },
+    {
+      "slug": "plage-de-moliets",
+      "nom": "Plage de Moliets"
+    },
+    {
+      "slug": "plage-de-soustons",
+      "nom": "Plage de Soustons"
+    },
+    {
+      "slug": "plage-des-casernes",
+      "nom": "Plage des Casernes"
+    },
+    {
+      "slug": "plage-des-estagnots",
+      "nom": "Plage des Estagnots"
+    },
+    {
+      "slug": "plage-des-sableres",
+      "nom": "Plage des Sablères"
+    },
+    {
+      "slug": "plage-du-cap-de-lhomy",
+      "nom": "Plage du Cap de l'Homy"
+    },
+    {
+      "slug": "plage-du-grand-crohot",
+      "nom": "Plage du Grand Crohot"
+    },
+    {
+      "slug": "plage-du-moulleau",
+      "nom": "Plage du Moulleau"
+    },
+    {
+      "slug": "plage-du-porge",
+      "nom": "Plage du Porge"
+    },
+    {
+      "slug": "plage-pereire",
+      "nom": "Plage Pereire"
+    },
+    {
+      "slug": "rions",
+      "nom": "Rions"
+    },
+    {
+      "slug": "roquefort",
+      "nom": "Roquefort"
+    },
+    {
+      "slug": "saint-emilion",
+      "nom": "Saint-Émilion"
+    },
+    {
+      "slug": "saint-sever",
+      "nom": "Saint-Sever"
+    },
+    {
+      "slug": "sorde-labbaye",
+      "nom": "Sorde-l'Abbaye"
+    },
+    {
+      "slug": "talbot",
+      "nom": "Talbot"
+    },
+    {
+      "slug": "vielle-saint-girons",
+      "nom": "Vielle-Saint-Girons"
+    }
+  ]
+}

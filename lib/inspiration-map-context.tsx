@@ -31,6 +31,7 @@ type InspirationMapContextValue = {
   goExploreRegion: () => void;
   openStarList: () => void;
   selectStarItinerary: (itineraryId: string) => void;
+  selectEditorialStarItinerary: (editorialSlug: string) => void;
   selectTerritoryPoi: (territoryId: string) => void;
   goBack: () => void;
   resetFrance: () => void;
@@ -79,7 +80,30 @@ export function InspirationMapProvider({ children }: { children: ReactNode }) {
       if (last?.screen === "star-list") {
         return [
           ...s,
-          { screen: "star-detail", regionId: last.regionId, itineraryId },
+          {
+            screen: "star-detail",
+            regionId: last.regionId,
+            kind: "legacy",
+            itineraryId,
+          },
+        ];
+      }
+      return s;
+    });
+  }, []);
+
+  const selectEditorialStarItinerary = useCallback((editorialSlug: string) => {
+    setStack((s) => {
+      const last = s[s.length - 1];
+      if (last?.screen === "star-list") {
+        return [
+          ...s,
+          {
+            screen: "star-detail",
+            regionId: last.regionId,
+            kind: "editorial",
+            editorialSlug,
+          },
         ];
       }
       return s;
@@ -121,6 +145,7 @@ export function InspirationMapProvider({ children }: { children: ReactNode }) {
       goExploreRegion,
       openStarList,
       selectStarItinerary,
+      selectEditorialStarItinerary,
       selectTerritoryPoi,
       goBack,
       resetFrance,
@@ -136,6 +161,7 @@ export function InspirationMapProvider({ children }: { children: ReactNode }) {
       goExploreRegion,
       openStarList,
       selectStarItinerary,
+      selectEditorialStarItinerary,
       selectTerritoryPoi,
       goBack,
       resetFrance,

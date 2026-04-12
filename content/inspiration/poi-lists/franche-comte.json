@@ -1,0 +1,329 @@
+{
+  "regionId": "franche-comte",
+  "name": "Franche-Comté",
+  "deptCodes": [
+    "25",
+    "39",
+    "70",
+    "90"
+  ],
+  "count": 79,
+  "lieux": [
+    {
+      "slug": "abbaye-de-montbenoit",
+      "nom": "Abbaye de Montbenoît"
+    },
+    {
+      "slug": "arbois",
+      "nom": "Arbois"
+    },
+    {
+      "slug": "autrechene",
+      "nom": "Autrechêne"
+    },
+    {
+      "slug": "baume-les-messieurs",
+      "nom": "Baume-les-Messieurs"
+    },
+    {
+      "slug": "baume-les-messieurs",
+      "nom": "Baume-les-Messieurs"
+    },
+    {
+      "slug": "beaucourt",
+      "nom": "Beaucourt"
+    },
+    {
+      "slug": "belfort",
+      "nom": "Belfort"
+    },
+    {
+      "slug": "besancon",
+      "nom": "Besançon"
+    },
+    {
+      "slug": "chateau-doricourt",
+      "nom": "Château d'Oricourt"
+    },
+    {
+      "slug": "chateau-de-belvoir",
+      "nom": "Château de Belvoir"
+    },
+    {
+      "slug": "chateau-de-cleron",
+      "nom": "Château de Cléron"
+    },
+    {
+      "slug": "chateau-de-joux",
+      "nom": "Château de Joux"
+    },
+    {
+      "slug": "chateau-de-ray-sur-saone",
+      "nom": "Château de Ray-sur-Saône"
+    },
+    {
+      "slug": "chateau-chalon",
+      "nom": "Château-Chalon"
+    },
+    {
+      "slug": "chaux",
+      "nom": "Chaux"
+    },
+    {
+      "slug": "circuit-de-la-chapelle-des-buis",
+      "nom": "Circuit de la Chapelle des Buis"
+    },
+    {
+      "slug": "citadelle-de-belfort",
+      "nom": "Citadelle de Belfort"
+    },
+    {
+      "slug": "clairvaux-les-lacs",
+      "nom": "Clairvaux-les-Lacs"
+    },
+    {
+      "slug": "dampierre-sur-salon",
+      "nom": "Dampierre-sur-Salon"
+    },
+    {
+      "slug": "delle",
+      "nom": "Delle"
+    },
+    {
+      "slug": "dole",
+      "nom": "Dole"
+    },
+    {
+      "slug": "ecomusee-de-la-cerise",
+      "nom": "Écomusée de la Cerise"
+    },
+    {
+      "slug": "essert",
+      "nom": "Essert"
+    },
+    {
+      "slug": "etang-des-forges",
+      "nom": "Étang des Forges"
+    },
+    {
+      "slug": "fort-des-rousses",
+      "nom": "Fort des Rousses"
+    },
+    {
+      "slug": "giromagny",
+      "nom": "Giromagny"
+    },
+    {
+      "slug": "gray",
+      "nom": "Gray"
+    },
+    {
+      "slug": "grotte-de-la-glaciere",
+      "nom": "Grotte de la Glacière"
+    },
+    {
+      "slug": "la-chaux-seche",
+      "nom": "La Chaux Sèche"
+    },
+    {
+      "slug": "lac-de-vouglans",
+      "nom": "Lac de Vouglans"
+    },
+    {
+      "slug": "lac-du-malsaucy",
+      "nom": "Lac du Malsaucy"
+    },
+    {
+      "slug": "lachapelle-sous-chaux",
+      "nom": "Lachapelle-sous-Chaux"
+    },
+    {
+      "slug": "le-chemin-de-pierres-et-cultures",
+      "nom": "Le Chemin de Pierres et Cultures"
+    },
+    {
+      "slug": "le-circuit-des-19-etangs",
+      "nom": "Le Circuit des 19 étangs"
+    },
+    {
+      "slug": "le-rosiera",
+      "nom": "Le Rosièra"
+    },
+    {
+      "slug": "le-tour-de-barchet",
+      "nom": "Le Tour de Barchet"
+    },
+    {
+      "slug": "les-arcets",
+      "nom": "Les Arcets"
+    },
+    {
+      "slug": "les-belvederes",
+      "nom": "Les Belvédères"
+    },
+    {
+      "slug": "les-essarts",
+      "nom": "Les Essarts"
+    },
+    {
+      "slug": "les-hauts-de-divicius",
+      "nom": "Les Hauts de Divicius"
+    },
+    {
+      "slug": "les-planches-pres-arbois",
+      "nom": "Les Planches-près-Arbois"
+    },
+    {
+      "slug": "lods",
+      "nom": "Lods"
+    },
+    {
+      "slug": "lons-le-saunier",
+      "nom": "Lons-le-Saunier"
+    },
+    {
+      "slug": "luxeuil-les-bains",
+      "nom": "Luxeuil-les-Bains"
+    },
+    {
+      "slug": "montbeliard",
+      "nom": "Montbéliard"
+    },
+    {
+      "slug": "montreux-chateau",
+      "nom": "Montreux-Château"
+    },
+    {
+      "slug": "nozeroy",
+      "nom": "Nozeroy"
+    },
+    {
+      "slug": "orgelet",
+      "nom": "Orgelet"
+    },
+    {
+      "slug": "ornans",
+      "nom": "Ornans"
+    },
+    {
+      "slug": "pesmes",
+      "nom": "Pesmes"
+    },
+    {
+      "slug": "pic-de-laigle",
+      "nom": "Pic de l'Aigle"
+    },
+    {
+      "slug": "plage-de-la-mercantine",
+      "nom": "Plage de la Mercantine"
+    },
+    {
+      "slug": "plage-de-vaivre-et-montoille",
+      "nom": "Plage de Vaivre-et-Montoille"
+    },
+    {
+      "slug": "plage-des-rousses",
+      "nom": "Plage des Rousses"
+    },
+    {
+      "slug": "plage-du-lac-saint-point",
+      "nom": "Plage du Lac Saint-Point"
+    },
+    {
+      "slug": "plage-du-malsaucy",
+      "nom": "Plage du Malsaucy"
+    },
+    {
+      "slug": "plombieres-les-bains",
+      "nom": "Plombières-les-Bains"
+    },
+    {
+      "slug": "poligny",
+      "nom": "Poligny"
+    },
+    {
+      "slug": "pontarlier",
+      "nom": "Pontarlier"
+    },
+    {
+      "slug": "ronchamp",
+      "nom": "Ronchamp"
+    },
+    {
+      "slug": "rougegoutte",
+      "nom": "Rougegoutte"
+    },
+    {
+      "slug": "rougemont",
+      "nom": "Rougemont"
+    },
+    {
+      "slug": "saint-claude",
+      "nom": "Saint-Claude"
+    },
+    {
+      "slug": "saint-loup-sur-semouse",
+      "nom": "Saint-Loup-sur-Semouse"
+    },
+    {
+      "slug": "saint-valbert",
+      "nom": "Saint-Valbert"
+    },
+    {
+      "slug": "salins-les-bains",
+      "nom": "Salins-les-Bains"
+    },
+    {
+      "slug": "saut-du-doubs",
+      "nom": "Saut du Doubs"
+    },
+    {
+      "slug": "sentier-de-la-vigne",
+      "nom": "Sentier de la Vigne"
+    },
+    {
+      "slug": "sentier-des-diots",
+      "nom": "Sentier des Diots"
+    },
+    {
+      "slug": "sentier-des-liberateurs",
+      "nom": "Sentier des libérateurs"
+    },
+    {
+      "slug": "sentier-des-sources-1",
+      "nom": "Sentier des Sources 1"
+    },
+    {
+      "slug": "sentier-du-guepier",
+      "nom": "Sentier du Guêpier"
+    },
+    {
+      "slug": "sentier-du-lion-10-km",
+      "nom": "Sentier du Lion 10 Km"
+    },
+    {
+      "slug": "sentier-du-ruisseau",
+      "nom": "Sentier du Ruisseau"
+    },
+    {
+      "slug": "source-du-lison",
+      "nom": "Source du Lison"
+    },
+    {
+      "slug": "tour-du-monniot",
+      "nom": "Tour du Monniot"
+    },
+    {
+      "slug": "vesoul",
+      "nom": "Vesoul"
+    },
+    {
+      "slug": "via-cluny-etape-20",
+      "nom": "Via Cluny Etape 20"
+    },
+    {
+      "slug": "vilars-sous-ecot",
+      "nom": "Vilars-sous-Écot"
+    }
+  ]
+}

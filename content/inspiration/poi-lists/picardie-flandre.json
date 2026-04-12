@@ -1,0 +1,314 @@
+{
+  "regionId": "picardie-flandre",
+  "name": "Picardie et Flandre",
+  "deptCodes": [
+    "02",
+    "59",
+    "60",
+    "62",
+    "80"
+  ],
+  "count": 75,
+  "lieux": [
+    {
+      "slug": "abbeville",
+      "nom": "Abbeville"
+    },
+    {
+      "slug": "amiens",
+      "nom": "Amiens"
+    },
+    {
+      "slug": "arras",
+      "nom": "Arras"
+    },
+    {
+      "slug": "arras",
+      "nom": "Arras"
+    },
+    {
+      "slug": "baie-de-somme",
+      "nom": "Baie de Somme"
+    },
+    {
+      "slug": "bavay",
+      "nom": "Bavay"
+    },
+    {
+      "slug": "beauvais",
+      "nom": "Beauvais"
+    },
+    {
+      "slug": "boulogne-sur-mer",
+      "nom": "Boulogne-sur-Mer"
+    },
+    {
+      "slug": "braine",
+      "nom": "Braine"
+    },
+    {
+      "slug": "calais",
+      "nom": "Calais"
+    },
+    {
+      "slug": "cambrai",
+      "nom": "Cambrai"
+    },
+    {
+      "slug": "cassel",
+      "nom": "Cassel"
+    },
+    {
+      "slug": "cayeux-sur-mer",
+      "nom": "Cayeux-sur-Mer"
+    },
+    {
+      "slug": "chantilly",
+      "nom": "Chantilly"
+    },
+    {
+      "slug": "chateau-de-chantilly",
+      "nom": "Château de Chantilly"
+    },
+    {
+      "slug": "chateau-thierry",
+      "nom": "Château-Thierry"
+    },
+    {
+      "slug": "clermont",
+      "nom": "Clermont"
+    },
+    {
+      "slug": "compiegne",
+      "nom": "Compiègne"
+    },
+    {
+      "slug": "coucy-le-chateau-auffrique",
+      "nom": "Coucy-le-Château-Auffrique"
+    },
+    {
+      "slug": "crecy-en-ponthieu",
+      "nom": "Crécy-en-Ponthieu"
+    },
+    {
+      "slug": "creil",
+      "nom": "Creil"
+    },
+    {
+      "slug": "crepigny",
+      "nom": "Crépigny"
+    },
+    {
+      "slug": "cuiry-les-chaudardes",
+      "nom": "Cuiry-lès-Chaudardes"
+    },
+    {
+      "slug": "douai",
+      "nom": "Douai"
+    },
+    {
+      "slug": "ermenonville",
+      "nom": "Ermenonville"
+    },
+    {
+      "slug": "etretat",
+      "nom": "Étretat"
+    },
+    {
+      "slug": "fort-mahon-plage",
+      "nom": "Fort-Mahon-Plage"
+    },
+    {
+      "slug": "gerberoy",
+      "nom": "Gerberoy"
+    },
+    {
+      "slug": "guise",
+      "nom": "Guise"
+    },
+    {
+      "slug": "hesdin",
+      "nom": "Hesdin"
+    },
+    {
+      "slug": "hirson",
+      "nom": "Hirson"
+    },
+    {
+      "slug": "lisle-adam",
+      "nom": "L'Isle-Adam"
+    },
+    {
+      "slug": "laon",
+      "nom": "Laon"
+    },
+    {
+      "slug": "le-crotoy",
+      "nom": "Le Crotoy"
+    },
+    {
+      "slug": "le-quesnoy",
+      "nom": "Le Quesnoy"
+    },
+    {
+      "slug": "le-touquet-paris-plage",
+      "nom": "Le Touquet-Paris-Plage"
+    },
+    {
+      "slug": "lens",
+      "nom": "Lens"
+    },
+    {
+      "slug": "lille",
+      "nom": "Lille"
+    },
+    {
+      "slug": "lille",
+      "nom": "Lille"
+    },
+    {
+      "slug": "long",
+      "nom": "Long"
+    },
+    {
+      "slug": "maignelay-montigny",
+      "nom": "Maignelay-Montigny"
+    },
+    {
+      "slug": "marle",
+      "nom": "Marle"
+    },
+    {
+      "slug": "mons-en-laonnois",
+      "nom": "Mons-en-Laonnois"
+    },
+    {
+      "slug": "montreuil-sur-mer",
+      "nom": "Montreuil-sur-Mer"
+    },
+    {
+      "slug": "naours",
+      "nom": "Naours"
+    },
+    {
+      "slug": "noyon",
+      "nom": "Noyon"
+    },
+    {
+      "slug": "parc-du-chateau-de-mereville",
+      "nom": "Parc du Château de Méréville"
+    },
+    {
+      "slug": "parfondeval",
+      "nom": "Parfondeval"
+    },
+    {
+      "slug": "pierrefonds",
+      "nom": "Pierrefonds"
+    },
+    {
+      "slug": "plage-de-berck",
+      "nom": "Plage de Berck"
+    },
+    {
+      "slug": "plage-de-boulogne-sur-mer",
+      "nom": "Plage de Boulogne-sur-Mer"
+    },
+    {
+      "slug": "plage-de-bray-dunes",
+      "nom": "Plage de Bray-Dunes"
+    },
+    {
+      "slug": "plage-de-calais",
+      "nom": "Plage de Calais"
+    },
+    {
+      "slug": "plage-de-cayeux-sur-mer",
+      "nom": "Plage de Cayeux-sur-Mer"
+    },
+    {
+      "slug": "plage-de-fort-mahon",
+      "nom": "Plage de Fort-Mahon"
+    },
+    {
+      "slug": "plage-de-malo-les-bains",
+      "nom": "Plage de Malo-les-Bains"
+    },
+    {
+      "slug": "plage-de-zuydcoote",
+      "nom": "Plage de Zuydcoote"
+    },
+    {
+      "slug": "plage-du-touquet",
+      "nom": "Plage du Touquet"
+    },
+    {
+      "slug": "premontre",
+      "nom": "Prémontré"
+    },
+    {
+      "slug": "ressons-sur-matz",
+      "nom": "Ressons-sur-Matz"
+    },
+    {
+      "slug": "royon",
+      "nom": "Royon"
+    },
+    {
+      "slug": "rue",
+      "nom": "Rue"
+    },
+    {
+      "slug": "saint-amand-les-eaux",
+      "nom": "Saint-Amand-les-Eaux"
+    },
+    {
+      "slug": "saint-leu-desserent",
+      "nom": "Saint-Leu-d'Esserent"
+    },
+    {
+      "slug": "saint-omer",
+      "nom": "Saint-Omer"
+    },
+    {
+      "slug": "saint-quentin",
+      "nom": "Saint-Quentin"
+    },
+    {
+      "slug": "saint-valery-sur-somme",
+      "nom": "Saint-Valery-sur-Somme"
+    },
+    {
+      "slug": "senlis",
+      "nom": "Senlis"
+    },
+    {
+      "slug": "sermoise",
+      "nom": "Sermoise"
+    },
+    {
+      "slug": "soissons",
+      "nom": "Soissons"
+    },
+    {
+      "slug": "valenciennes",
+      "nom": "Valenciennes"
+    },
+    {
+      "slug": "vervins",
+      "nom": "Vervins"
+    },
+    {
+      "slug": "villers-bretonneux",
+      "nom": "Villers-Bretonneux"
+    },
+    {
+      "slug": "villers-cotterets",
+      "nom": "Villers-Cotterêts"
+    },
+    {
+      "slug": "vimy",
+      "nom": "Vimy"
+    }
+  ]
+}

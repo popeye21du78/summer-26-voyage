@@ -1,0 +1,422 @@
+{
+  "regionId": "dauphine-rhone",
+  "name": "Dauphiné, Lyonnais et Forez",
+  "deptCodes": [
+    "01",
+    "26",
+    "38",
+    "42",
+    "69"
+  ],
+  "count": 102,
+  "lieux": [
+    {
+      "slug": "abbaye-de-saint-chef",
+      "nom": "Abbaye de Saint-Chef"
+    },
+    {
+      "slug": "adret-de-bluye",
+      "nom": "Adret de Bluye"
+    },
+    {
+      "slug": "allevard",
+      "nom": "Allevard"
+    },
+    {
+      "slug": "anse",
+      "nom": "Anse"
+    },
+    {
+      "slug": "arboretum-de-pezanin",
+      "nom": "Arboretum de Pézanin"
+    },
+    {
+      "slug": "balcon-de-combeloup",
+      "nom": "Balcon de Combeloup"
+    },
+    {
+      "slug": "beaujeu",
+      "nom": "Beaujeu"
+    },
+    {
+      "slug": "beaujeu",
+      "nom": "Beaujeu"
+    },
+    {
+      "slug": "bel-air",
+      "nom": "Bel-Air"
+    },
+    {
+      "slug": "belleville-en-beaujolais",
+      "nom": "Belleville-en-Beaujolais"
+    },
+    {
+      "slug": "belley",
+      "nom": "Belley"
+    },
+    {
+      "slug": "belmont-de-la-loire",
+      "nom": "Belmont-de-la-Loire"
+    },
+    {
+      "slug": "bourdeaux",
+      "nom": "Bourdeaux"
+    },
+    {
+      "slug": "bourg-en-bresse",
+      "nom": "Bourg-en-Bresse"
+    },
+    {
+      "slug": "bourgoin-jallieu",
+      "nom": "Bourgoin-Jallieu"
+    },
+    {
+      "slug": "chalmazel",
+      "nom": "Chalmazel"
+    },
+    {
+      "slug": "chandon",
+      "nom": "Chandon"
+    },
+    {
+      "slug": "chapelle-de-saint-vulbas",
+      "nom": "Chapelle de Saint-Vulbas"
+    },
+    {
+      "slug": "chateau-de-ferney-voltaire",
+      "nom": "Château de Ferney-Voltaire"
+    },
+    {
+      "slug": "chateau-de-la-roche",
+      "nom": "Château de la Roche"
+    },
+    {
+      "slug": "chateau-de-septeme",
+      "nom": "Château de Septème"
+    },
+    {
+      "slug": "chateau-de-vizille",
+      "nom": "Château de Vizille"
+    },
+    {
+      "slug": "chateau-des-allymes",
+      "nom": "Château des Allymes"
+    },
+    {
+      "slug": "chateauneuf-en-thymerais",
+      "nom": "Châteauneuf-en-Thymerais"
+    },
+    {
+      "slug": "chatillon",
+      "nom": "Châtillon"
+    },
+    {
+      "slug": "chatillon-en-diois",
+      "nom": "Châtillon-en-Diois"
+    },
+    {
+      "slug": "circuit-des-cinq-cabanes",
+      "nom": "Circuit des Cinq Cabanes"
+    },
+    {
+      "slug": "circuit-des-ecoliers",
+      "nom": "Circuit des Écoliers"
+    },
+    {
+      "slug": "circuit-des-gardes",
+      "nom": "Circuit des Gardes"
+    },
+    {
+      "slug": "circuit-des-vignasses",
+      "nom": "Circuit des Vignasses"
+    },
+    {
+      "slug": "circuit-du-bit",
+      "nom": "Circuit du Bit"
+    },
+    {
+      "slug": "cremieu",
+      "nom": "Crémieu"
+    },
+    {
+      "slug": "crest",
+      "nom": "Crest"
+    },
+    {
+      "slug": "crete-de-bluye",
+      "nom": "Crête de Bluye"
+    },
+    {
+      "slug": "culoz",
+      "nom": "Culoz"
+    },
+    {
+      "slug": "die",
+      "nom": "Die"
+    },
+    {
+      "slug": "divonne-les-bains",
+      "nom": "Divonne-les-Bains"
+    },
+    {
+      "slug": "ecotay-lolme",
+      "nom": "Écotay-l'Olme"
+    },
+    {
+      "slug": "eveux",
+      "nom": "Éveux"
+    },
+    {
+      "slug": "feurs",
+      "nom": "Feurs"
+    },
+    {
+      "slug": "gorges-de-lain",
+      "nom": "Gorges de l'Ain"
+    },
+    {
+      "slug": "grignan",
+      "nom": "Grignan"
+    },
+    {
+      "slug": "jas---pierre-sur-autre",
+      "nom": "Jas - Pierre sur Autre"
+    },
+    {
+      "slug": "julienas",
+      "nom": "Juliénas"
+    },
+    {
+      "slug": "lalpe-dhuez",
+      "nom": "L'Alpe-d'Huez"
+    },
+    {
+      "slug": "larbresle",
+      "nom": "L'Arbresle"
+    },
+    {
+      "slug": "lhostunoise",
+      "nom": "L'Hostunoise"
+    },
+    {
+      "slug": "la-chapelle-en-vercors",
+      "nom": "La Chapelle-en-Vercors"
+    },
+    {
+      "slug": "la-garde-adhemar",
+      "nom": "La Garde-Adhémar"
+    },
+    {
+      "slug": "la-tour-de-revel-par-le-mollard",
+      "nom": "La Tour de Revel (par le Mollard)"
+    },
+    {
+      "slug": "la-tour-du-pin",
+      "nom": "La Tour-du-Pin"
+    },
+    {
+      "slug": "lac-de-champos",
+      "nom": "Lac de Champos"
+    },
+    {
+      "slug": "lac-de-nantua",
+      "nom": "Lac de Nantua"
+    },
+    {
+      "slug": "lac-de-paladru",
+      "nom": "Lac de Paladru"
+    },
+    {
+      "slug": "le-bois-doingt",
+      "nom": "Le Bois-d'Oingt"
+    },
+    {
+      "slug": "le-duffre",
+      "nom": "Le Duffre"
+    },
+    {
+      "slug": "le-poet-laval",
+      "nom": "Le Poët-Laval"
+    },
+    {
+      "slug": "le-tour-de-montrond",
+      "nom": "Le Tour de Montrond"
+    },
+    {
+      "slug": "les-chemins-du-patrimoine-de-meaudre",
+      "nom": "Les chemins du patrimoine de Méaudre"
+    },
+    {
+      "slug": "les-deux-alpes",
+      "nom": "Les Deux Alpes"
+    },
+    {
+      "slug": "les-grottes-de-la-balme",
+      "nom": "Les Grottes de la Balme"
+    },
+    {
+      "slug": "lyon",
+      "nom": "Lyon"
+    },
+    {
+      "slug": "mirmande",
+      "nom": "Mirmande"
+    },
+    {
+      "slug": "monastere-de-sainte-croix",
+      "nom": "Monastère de Sainte-Croix"
+    },
+    {
+      "slug": "montbrison",
+      "nom": "Montbrison"
+    },
+    {
+      "slug": "montbrun-les-bains",
+      "nom": "Montbrun-les-Bains"
+    },
+    {
+      "slug": "montrottier",
+      "nom": "Montrottier"
+    },
+    {
+      "slug": "morestel",
+      "nom": "Morestel"
+    },
+    {
+      "slug": "neuville-sur-ain",
+      "nom": "Neuville-sur-Ain"
+    },
+    {
+      "slug": "noiretable",
+      "nom": "Noirétable"
+    },
+    {
+      "slug": "notre-dame-de-la-salette",
+      "nom": "Notre-Dame-de-la-Salette"
+    },
+    {
+      "slug": "nyons",
+      "nom": "Nyons"
+    },
+    {
+      "slug": "oingt",
+      "nom": "Oingt"
+    },
+    {
+      "slug": "palais-ideal-du-facteur-cheval",
+      "nom": "Palais Idéal du Facteur Cheval"
+    },
+    {
+      "slug": "parc-naturel-regional-du-haut-jura",
+      "nom": "Parc naturel régional du Haut-Jura"
+    },
+    {
+      "slug": "perouges",
+      "nom": "Pérouges"
+    },
+    {
+      "slug": "perouges",
+      "nom": "Pérouges"
+    },
+    {
+      "slug": "pilat-n23--circuit--des-barrages-",
+      "nom": "Pilat N°23 : circuit « des barrages »"
+    },
+    {
+      "slug": "pilat-n30-des-coteaux-a-les-haies",
+      "nom": "Pilat N°30: des «Côteaux à les Haies»"
+    },
+    {
+      "slug": "plage-de-charavines",
+      "nom": "Plage de Charavines"
+    },
+    {
+      "slug": "plage-de-lile-chambod",
+      "nom": "Plage de l'Île Chambod"
+    },
+    {
+      "slug": "plage-de-villerest",
+      "nom": "Plage de Villerest"
+    },
+    {
+      "slug": "plage-du-bois-francais",
+      "nom": "Plage du Bois Français"
+    },
+    {
+      "slug": "plage-du-lac-des-sapins",
+      "nom": "Plage du lac des Sapins"
+    },
+    {
+      "slug": "pont-en-royans",
+      "nom": "Pont-en-Royans"
+    },
+    {
+      "slug": "randonnee-des-hameaux",
+      "nom": "Randonnée des Hameaux"
+    },
+    {
+      "slug": "roanne",
+      "nom": "Roanne"
+    },
+    {
+      "slug": "romans-sur-isere",
+      "nom": "Romans-sur-Isère"
+    },
+    {
+      "slug": "sail-sous-couzan",
+      "nom": "Sail-sous-Couzan"
+    },
+    {
+      "slug": "saint-antoine-labbaye",
+      "nom": "Saint-Antoine-l'Abbaye"
+    },
+    {
+      "slug": "saint-bonnet-le-chateau",
+      "nom": "Saint-Bonnet-le-Château"
+    },
+    {
+      "slug": "saint-paul-trois-chateaux",
+      "nom": "Saint-Paul-Trois-Châteaux"
+    },
+    {
+      "slug": "saint-romain-en-gal",
+      "nom": "Saint-Romain-en-Gal"
+    },
+    {
+      "slug": "sainte-croix-en-jarez",
+      "nom": "Sainte-Croix-en-Jarez"
+    },
+    {
+      "slug": "sentier-dinterpretation-du-karst",
+      "nom": "Sentier d'interprétation du karst"
+    },
+    {
+      "slug": "suze-la-rousse",
+      "nom": "Suze-la-Rousse"
+    },
+    {
+      "slug": "tarare",
+      "nom": "Tarare"
+    },
+    {
+      "slug": "trevoux",
+      "nom": "Trévoux"
+    },
+    {
+      "slug": "valence",
+      "nom": "Valence"
+    },
+    {
+      "slug": "vienne",
+      "nom": "Vienne"
+    },
+    {
+      "slug": "villard-de-lans",
+      "nom": "Villard-de-Lans"
+    },
+    {
+      "slug": "villars-les-dombes",
+      "nom": "Villars-les-Dombes"
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "regionId": "lorraine",
+  "name": "Lorraine",
+  "deptCodes": [
+    "54",
+    "55",
+    "57",
+    "88"
+  ],
+  "count": 58,
+  "lieux": [
+    {
+      "slug": "amneville",
+      "nom": "Amnéville"
+    },
+    {
+      "slug": "apremont-la-foret",
+      "nom": "Apremont-la-Forêt"
+    },
+    {
+      "slug": "bar-le-duc",
+      "nom": "Bar-le-Duc"
+    },
+    {
+      "slug": "bitche",
+      "nom": "Bitche"
+    },
+    {
+      "slug": "briey",
+      "nom": "Briey"
+    },
+    {
+      "slug": "bussang",
+      "nom": "Bussang"
+    },
+    {
+      "slug": "charmes",
+      "nom": "Charmes"
+    },
+    {
+      "slug": "charny-sur-meuse",
+      "nom": "Charny-sur-Meuse"
+    },
+    {
+      "slug": "chateau-de-fleville",
+      "nom": "Château de Fléville"
+    },
+    {
+      "slug": "chateau-de-haroue",
+      "nom": "Château de Haroué"
+    },
+    {
+      "slug": "chateau-de-malbrouck",
+      "nom": "Château de Malbrouck"
+    },
+    {
+      "slug": "circuit-de-la-haute-pierre",
+      "nom": "Circuit de la Haute Pierre"
+    },
+    {
+      "slug": "circuit-des-bornes",
+      "nom": "Circuit des Bornes"
+    },
+    {
+      "slug": "circuit-des-deux-vallons",
+      "nom": "Circuit des Deux Vallons"
+    },
+    {
+      "slug": "circuit-panoramique-du-rondfaing",
+      "nom": "Circuit panoramique du Rondfaing"
+    },
+    {
+      "slug": "commercy",
+      "nom": "Commercy"
+    },
+    {
+      "slug": "epinal",
+      "nom": "Epinal"
+    },
+    {
+      "slug": "etain",
+      "nom": "Étain"
+    },
+    {
+      "slug": "forbach",
+      "nom": "Forbach"
+    },
+    {
+      "slug": "gerardmer",
+      "nom": "Gerardmer"
+    },
+    {
+      "slug": "gorze",
+      "nom": "Gorze"
+    },
+    {
+      "slug": "grand",
+      "nom": "Grand"
+    },
+    {
+      "slug": "hattonchatel",
+      "nom": "Hattonchâtel"
+    },
+    {
+      "slug": "hombourg-haut",
+      "nom": "Hombourg-Haut"
+    },
+    {
+      "slug": "la-bresse",
+      "nom": "La Bresse"
+    },
+    {
+      "slug": "lachalade",
+      "nom": "Lachalade"
+    },
+    {
+      "slug": "le-thillot",
+      "nom": "Le Thillot"
+    },
+    {
+      "slug": "les-cretes-du-montfort",
+      "nom": "Les Crêtes du Montfort"
+    },
+    {
+      "slug": "longwy",
+      "nom": "Longwy"
+    },
+    {
+      "slug": "luneville",
+      "nom": "Lunéville"
+    },
+    {
+      "slug": "metz",
+      "nom": "Metz"
+    },
+    {
+      "slug": "mont-saint-martin",
+      "nom": "Mont-Saint-Martin"
+    },
+    {
+      "slug": "montmedy",
+      "nom": "Montmédy"
+    },
+    {
+      "slug": "moulin-le-comte",
+      "nom": "Moulin le Comte"
+    },
+    {
+      "slug": "nancy",
+      "nom": "Nancy"
+    },
+    {
+      "slug": "phalsbourg",
+      "nom": "Phalsbourg"
+    },
+    {
+      "slug": "plage-de-creutzwald",
+      "nom": "Plage de Creutzwald"
+    },
+    {
+      "slug": "plage-du-lac-de-madine",
+      "nom": "Plage du Lac de Madine"
+    },
+    {
+      "slug": "plombieres-les-bains",
+      "nom": "Plombières-les-Bains"
+    },
+    {
+      "slug": "pont-a-mousson",
+      "nom": "Pont-à-Mousson"
+    },
+    {
+      "slug": "red-ring",
+      "nom": "Red ring"
+    },
+    {
+      "slug": "remiremont",
+      "nom": "Remiremont"
+    },
+    {
+      "slug": "rodemack",
+      "nom": "Rodemack"
+    },
+    {
+      "slug": "royaumeix",
+      "nom": "Royaumeix"
+    },
+    {
+      "slug": "saint-die-des-vosges",
+      "nom": "Saint-Dié-des-Vosges"
+    },
+    {
+      "slug": "saint-mihiel",
+      "nom": "Saint-Mihiel"
+    },
+    {
+      "slug": "saint-nicolas-de-port",
+      "nom": "Saint-Nicolas-de-Port"
+    },
+    {
+      "slug": "saint-quirin",
+      "nom": "Saint-Quirin"
+    },
+    {
+      "slug": "sarrebourg",
+      "nom": "Sarrebourg"
+    },
+    {
+      "slug": "scy-chazelles",
+      "nom": "Scy-Chazelles"
+    },
+    {
+      "slug": "senones",
+      "nom": "Senones"
+    },
+    {
+      "slug": "sentier-de-jeanne",
+      "nom": "Sentier de Jeanne"
+    },
+    {
+      "slug": "sentier-du-madon",
+      "nom": "Sentier du Madon"
+    },
+    {
+      "slug": "stenay",
+      "nom": "Stenay"
+    },
+    {
+      "slug": "toul",
+      "nom": "Toul"
+    },
+    {
+      "slug": "vaucouleurs",
+      "nom": "Vaucouleurs"
+    },
+    {
+      "slug": "verdun",
+      "nom": "Verdun"
+    },
+    {
+      "slug": "vittel",
+      "nom": "Vittel"
+    }
+  ]
+}

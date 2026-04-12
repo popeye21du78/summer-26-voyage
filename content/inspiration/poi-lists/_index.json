@@ -1,0 +1,162 @@
+{
+  "generatedAt": "2026-04-12T08:50:27.833Z",
+  "source": "data/cities/lieux-central.json + lib/inspiration-map-regions-config",
+  "regions": [
+    {
+      "regionId": "bretagne",
+      "name": "Bretagne",
+      "count": 117,
+      "file": "bretagne.json"
+    },
+    {
+      "regionId": "normandie",
+      "name": "Normandie",
+      "count": 104,
+      "file": "normandie.json"
+    },
+    {
+      "regionId": "picardie-flandre",
+      "name": "Picardie et Flandre",
+      "count": 75,
+      "file": "picardie-flandre.json"
+    },
+    {
+      "regionId": "champagne",
+      "name": "Champagne",
+      "count": 63,
+      "file": "champagne.json"
+    },
+    {
+      "regionId": "lorraine",
+      "name": "Lorraine",
+      "count": 58,
+      "file": "lorraine.json"
+    },
+    {
+      "regionId": "alsace",
+      "name": "Alsace",
+      "count": 40,
+      "file": "alsace.json"
+    },
+    {
+      "regionId": "franche-comte",
+      "name": "Franche-Comté",
+      "count": 79,
+      "file": "franche-comte.json"
+    },
+    {
+      "regionId": "bourgogne",
+      "name": "Bourgogne",
+      "count": 73,
+      "file": "bourgogne.json"
+    },
+    {
+      "regionId": "ile-de-france",
+      "name": "Île-de-France",
+      "count": 113,
+      "file": "ile-de-france.json"
+    },
+    {
+      "regionId": "val-loire-centre",
+      "name": "Val de Loire et Centre",
+      "count": 90,
+      "file": "val-loire-centre.json"
+    },
+    {
+      "regionId": "angevin-maine",
+      "name": "Anjou et Maine",
+      "count": 46,
+      "file": "angevin-maine.json"
+    },
+    {
+      "regionId": "nantais-vendee",
+      "name": "Pays nantais et Vendée",
+      "count": 46,
+      "file": "nantais-vendee.json"
+    },
+    {
+      "regionId": "poitou-saintonge",
+      "name": "Poitou et Saintonge",
+      "count": 69,
+      "file": "poitou-saintonge.json"
+    },
+    {
+      "regionId": "limousin",
+      "name": "Limousin",
+      "count": 44,
+      "file": "limousin.json"
+    },
+    {
+      "regionId": "perigord-quercy",
+      "name": "Périgord et Quercy",
+      "count": 75,
+      "file": "perigord-quercy.json"
+    },
+    {
+      "regionId": "gironde-landes",
+      "name": "Gironde et Landes",
+      "count": 54,
+      "file": "gironde-landes.json"
+    },
+    {
+      "regionId": "pays-basque-bearn",
+      "name": "Pays basque et Béarn",
+      "count": 56,
+      "file": "pays-basque-bearn.json"
+    },
+    {
+      "regionId": "toulousain-gascogne",
+      "name": "Toulousain et Gascogne",
+      "count": 74,
+      "file": "toulousain-gascogne.json"
+    },
+    {
+      "regionId": "rouergue-cevennes",
+      "name": "Rouergue et Cévennes",
+      "count": 85,
+      "file": "rouergue-cevennes.json"
+    },
+    {
+      "regionId": "languedoc-roussillon",
+      "name": "Languedoc et Roussillon",
+      "count": 140,
+      "file": "languedoc-roussillon.json"
+    },
+    {
+      "regionId": "provence",
+      "name": "Provence",
+      "count": 116,
+      "file": "provence.json"
+    },
+    {
+      "regionId": "cote-dazur",
+      "name": "Côte d’Azur",
+      "count": 71,
+      "file": "cote-dazur.json"
+    },
+    {
+      "regionId": "corse",
+      "name": "Corse",
+      "count": 81,
+      "file": "corse.json"
+    },
+    {
+      "regionId": "auvergne",
+      "name": "Auvergne",
+      "count": 105,
+      "file": "auvergne.json"
+    },
+    {
+      "regionId": "savoie",
+      "name": "Savoie et Haute-Savoie",
+      "count": 55,
+      "file": "savoie.json"
+    },
+    {
+      "regionId": "dauphine-rhone",
+      "name": "Dauphiné, Lyonnais et Forez",
+      "count": 102,
+      "file": "dauphine-rhone.json"
+    }
+  ]
+}

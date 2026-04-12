@@ -1,0 +1,195 @@
+{
+  "regionId": "nantais-vendee",
+  "name": "Pays nantais et Vendée",
+  "deptCodes": [
+    "44",
+    "85"
+  ],
+  "count": 46,
+  "lieux": [
+    {
+      "slug": "abbaye-de-saint-philbert-de-grand-lieu",
+      "nom": "Abbaye de Saint-Philbert-de-Grand-Lieu"
+    },
+    {
+      "slug": "apremont",
+      "nom": "Apremont"
+    },
+    {
+      "slug": "batz-sur-mer",
+      "nom": "Batz-sur-Mer"
+    },
+    {
+      "slug": "chateau-de-chateaubriant",
+      "nom": "Château de Châteaubriant"
+    },
+    {
+      "slug": "chateau-de-terre-neuve",
+      "nom": "Château de Terre-Neuve"
+    },
+    {
+      "slug": "circuit-de-la-baraudiere",
+      "nom": "Circuit de la Baraudière"
+    },
+    {
+      "slug": "circuit-du-moulin-de-peltre",
+      "nom": "Circuit du Moulin de Peltré"
+    },
+    {
+      "slug": "clisson",
+      "nom": "Clisson"
+    },
+    {
+      "slug": "fontenay-le-comte",
+      "nom": "Fontenay-le-Comte"
+    },
+    {
+      "slug": "grande-plage-des-sables-dolonne",
+      "nom": "Grande Plage des Sables-d'Olonne"
+    },
+    {
+      "slug": "guerande",
+      "nom": "Guérande"
+    },
+    {
+      "slug": "ile-dyeu",
+      "nom": "Île d'Yeu"
+    },
+    {
+      "slug": "la-baule-escoublac",
+      "nom": "La Baule-Escoublac"
+    },
+    {
+      "slug": "la-briere",
+      "nom": "La Brière"
+    },
+    {
+      "slug": "la-roche-sur-yon",
+      "nom": "La Roche-sur-Yon"
+    },
+    {
+      "slug": "le-croisic",
+      "nom": "Le Croisic"
+    },
+    {
+      "slug": "le-temple-de-tiffauges",
+      "nom": "Le Temple de Tiffauges"
+    },
+    {
+      "slug": "les-sables-dolonne",
+      "nom": "Les Sables-d'Olonne"
+    },
+    {
+      "slug": "maillezais",
+      "nom": "Maillezais"
+    },
+    {
+      "slug": "mervent",
+      "nom": "Mervent"
+    },
+    {
+      "slug": "nantes",
+      "nom": "Nantes"
+    },
+    {
+      "slug": "nieul-sur-lautise",
+      "nom": "Nieul-sur-l'Autise"
+    },
+    {
+      "slug": "noirmoutier-en-lile",
+      "nom": "Noirmoutier-en-l'Île"
+    },
+    {
+      "slug": "piriac-sur-mer",
+      "nom": "Piriac-sur-Mer"
+    },
+    {
+      "slug": "plage-de-boisvinet",
+      "nom": "Plage de Boisvinet"
+    },
+    {
+      "slug": "plage-de-kerledec",
+      "nom": "Plage de Kerlédec"
+    },
+    {
+      "slug": "plage-de-lecluse",
+      "nom": "Plage de l'Écluse"
+    },
+    {
+      "slug": "plage-de-la-baule",
+      "nom": "Plage de la Baule"
+    },
+    {
+      "slug": "plage-de-la-conche-des-baleines",
+      "nom": "Plage de la Conche des Baleines"
+    },
+    {
+      "slug": "plage-de-la-courance",
+      "nom": "Plage de la Courance"
+    },
+    {
+      "slug": "plage-de-la-paree-grollier",
+      "nom": "Plage de la Parée Grollier"
+    },
+    {
+      "slug": "plage-de-port-lin",
+      "nom": "Plage de Port-Lin"
+    },
+    {
+      "slug": "plage-de-saint-marc",
+      "nom": "Plage de Saint-Marc"
+    },
+    {
+      "slug": "plage-de-veillon",
+      "nom": "Plage de Veillon"
+    },
+    {
+      "slug": "plage-des-dames",
+      "nom": "Plage des Dames"
+    },
+    {
+      "slug": "plage-des-libraires",
+      "nom": "Plage des Libraires"
+    },
+    {
+      "slug": "plage-du-petit-traict",
+      "nom": "Plage du Petit Traict"
+    },
+    {
+      "slug": "pont-de-saint-nazaire",
+      "nom": "Pont de Saint-Nazaire"
+    },
+    {
+      "slug": "pornic",
+      "nom": "Pornic"
+    },
+    {
+      "slug": "puy-du-fou",
+      "nom": "Puy du Fou"
+    },
+    {
+      "slug": "saint-gilles-croix-de-vie",
+      "nom": "Saint-Gilles-Croix-de-Vie"
+    },
+    {
+      "slug": "saint-lyphard",
+      "nom": "Saint-Lyphard"
+    },
+    {
+      "slug": "saint-nazaire",
+      "nom": "Saint-Nazaire"
+    },
+    {
+      "slug": "sentier-des-manoirs",
+      "nom": "Sentier des manoirs"
+    },
+    {
+      "slug": "tiffauges",
+      "nom": "Tiffauges"
+    },
+    {
+      "slug": "vouvant",
+      "nom": "Vouvant"
+    }
+  ]
+}

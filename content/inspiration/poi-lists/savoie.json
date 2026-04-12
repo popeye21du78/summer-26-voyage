@@ -1,0 +1,231 @@
+{
+  "regionId": "savoie",
+  "name": "Savoie et Haute-Savoie",
+  "deptCodes": [
+    "73",
+    "74"
+  ],
+  "count": 55,
+  "lieux": [
+    {
+      "slug": "43-chemin-des-cols-alpins",
+      "nom": "43-Chemin des cols alpins"
+    },
+    {
+      "slug": "abbaye-dhautecombe",
+      "nom": "Abbaye d'Hautecombe"
+    },
+    {
+      "slug": "abondance",
+      "nom": "Abondance"
+    },
+    {
+      "slug": "aix-les-bains",
+      "nom": "Aix-les-Bains"
+    },
+    {
+      "slug": "albertville",
+      "nom": "Albertville"
+    },
+    {
+      "slug": "annecy",
+      "nom": "Annecy"
+    },
+    {
+      "slug": "areches-beaufort",
+      "nom": "Arêches-Beaufort"
+    },
+    {
+      "slug": "b03---le-grand-coin",
+      "nom": "B03 - Le Grand Coin"
+    },
+    {
+      "slug": "b04---le-tour-des-villages-de-montvernier",
+      "nom": "B04 - Le tour des villages de Montvernier"
+    },
+    {
+      "slug": "b05---le-balcon-des-plagnes",
+      "nom": "B05 - Le Balcon des Plagnes"
+    },
+    {
+      "slug": "b06---le-balcon-du-rocher-aux-chamois",
+      "nom": "B06 - Le Balcon du Rocher aux Chamois"
+    },
+    {
+      "slug": "bonneval-sur-arc",
+      "nom": "Bonneval-sur-Arc"
+    },
+    {
+      "slug": "bourg-saint-maurice",
+      "nom": "Bourg-Saint-Maurice"
+    },
+    {
+      "slug": "chalet-des-pyramides",
+      "nom": "Chalet des Pyramides"
+    },
+    {
+      "slug": "chambery",
+      "nom": "Chambéry"
+    },
+    {
+      "slug": "chamonix",
+      "nom": "Chamonix"
+    },
+    {
+      "slug": "chateau-de-miolans",
+      "nom": "Château de Miolans"
+    },
+    {
+      "slug": "circuit-beatrice-de-savoie",
+      "nom": "Circuit Béatrice de Savoie"
+    },
+    {
+      "slug": "conflans",
+      "nom": "Conflans"
+    },
+    {
+      "slug": "cordon",
+      "nom": "Cordon"
+    },
+    {
+      "slug": "evian-les-bains",
+      "nom": "Évian-les-Bains"
+    },
+    {
+      "slug": "fort-de-tamie",
+      "nom": "Fort de Tamié"
+    },
+    {
+      "slug": "la-clusaz",
+      "nom": "La Clusaz"
+    },
+    {
+      "slug": "la-thuile",
+      "nom": "La Thuile"
+    },
+    {
+      "slug": "lac-daiguebelette",
+      "nom": "Lac d'Aiguebelette"
+    },
+    {
+      "slug": "lac-de-damoz-des-moulins",
+      "nom": "Lac de Damoz des Moulins"
+    },
+    {
+      "slug": "lac-de-darbon",
+      "nom": "Lac de Darbon"
+    },
+    {
+      "slug": "le-grand-bornand",
+      "nom": "Le Grand-Bornand"
+    },
+    {
+      "slug": "le-lac-vert",
+      "nom": "Le Lac Vert"
+    },
+    {
+      "slug": "le-mole-depuis-la-tour",
+      "nom": "Le Môle depuis La Tour"
+    },
+    {
+      "slug": "les-arcs",
+      "nom": "Les Arcs"
+    },
+    {
+      "slug": "les-cornettes-de-bise-depuis-le-refuge-de-bise",
+      "nom": "Les Cornettes de Bise depuis le refuge de Bise"
+    },
+    {
+      "slug": "manigod",
+      "nom": "Manigod"
+    },
+    {
+      "slug": "megeve",
+      "nom": "Megève"
+    },
+    {
+      "slug": "mont-buet",
+      "nom": "Mont Buet"
+    },
+    {
+      "slug": "mont-revard",
+      "nom": "Mont Revard"
+    },
+    {
+      "slug": "morzine",
+      "nom": "Morzine"
+    },
+    {
+      "slug": "peisey-nancroix",
+      "nom": "Peisey-Nancroix"
+    },
+    {
+      "slug": "plage-de-chatillon",
+      "nom": "Plage de Châtillon"
+    },
+    {
+      "slug": "plage-de-saint-jorioz",
+      "nom": "Plage de Saint-Jorioz"
+    },
+    {
+      "slug": "plage-de-sevrier",
+      "nom": "Plage de Sévrier"
+    },
+    {
+      "slug": "plage-du-bourget",
+      "nom": "Plage du Bourget"
+    },
+    {
+      "slug": "pointe-de-pelluaz-par-chalets-doche",
+      "nom": "Pointe de Pelluaz par Chalets d'Oche"
+    },
+    {
+      "slug": "saint-gervais-les-bains",
+      "nom": "Saint-Gervais-les-Bains"
+    },
+    {
+      "slug": "samoens",
+      "nom": "Samoëns"
+    },
+    {
+      "slug": "sentier-eco-sylve-de-poingt-ravier",
+      "nom": "Sentier éco-sylve de Poingt-Ravier"
+    },
+    {
+      "slug": "sixt-fer-a-cheval",
+      "nom": "Sixt-Fer-à-Cheval"
+    },
+    {
+      "slug": "thonon-les-bains",
+      "nom": "Thonon-les-Bains"
+    },
+    {
+      "slug": "tignes",
+      "nom": "Tignes"
+    },
+    {
+      "slug": "tour-du-mont-chauffe",
+      "nom": "Tour du Mont Chauffé"
+    },
+    {
+      "slug": "tour-du-roc-de-chere",
+      "nom": "Tour du Roc de Chère"
+    },
+    {
+      "slug": "tour-du-voua-de-la-motte",
+      "nom": "Tour du Voua de la Motte"
+    },
+    {
+      "slug": "val-disere",
+      "nom": "Val d'Isère"
+    },
+    {
+      "slug": "vieux-annecy",
+      "nom": "Vieux Annecy"
+    },
+    {
+      "slug": "yvoire",
+      "nom": "Yvoire"
+    }
+  ]
+}

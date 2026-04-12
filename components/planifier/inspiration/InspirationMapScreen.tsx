@@ -4,7 +4,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { Bookmark, CheckCircle2, Filter, GraduationCap, Search } from "lucide-react";
-import type { FeatureCollection } from "geojson";
+import type { FeatureCollection, LineString } from "geojson";
 import { useRouter } from "next/navigation";
 import {
   AMBIANCE_OPTIONS,
@@ -403,6 +403,7 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
   }, [resetFrance]);
 
   const [villePoints, setVillePoints] = useState<FeatureCollection | null>(null);
+  const [editorialStarLines, setEditorialStarLines] = useState<FeatureCollection | null>(null);
 
   useEffect(() => {
     if (!activeRegionId || !showRegionSheet) {
@@ -428,6 +429,30 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
       cancelled = true;
     };
   }, [activeRegionId, showRegionSheet, ctx.ambiance, mapZoom]);
+
+  useEffect(() => {
+    const showStar =
+      activeRegionId && (top.screen === "star-list" || top.screen === "star-detail");
+    if (!showStar || !activeRegionId) {
+      setEditorialStarLines(null);
+      return;
+    }
+    let cancelled = false;
+    fetch(`/api/inspiration/region-star-lines?regionId=${encodeURIComponent(activeRegionId)}`, {
+      cache: "no-store",
+    })
+      .then((r) => r.json())
+      .then((data: FeatureCollection) => {
+        if (cancelled || data?.type !== "FeatureCollection") return;
+        setEditorialStarLines(data);
+      })
+      .catch(() => {
+        if (!cancelled) setEditorialStarLines(null);
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [activeRegionId, top.screen]);
 
   const territoryPoints = useMemo(() => {
     const show =
@@ -470,16 +495,48 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
     ) {
       return { starLineFeatures: null, showStarLines: false };
     }
-    const items = starItinerariesByRegion(activeRegionId);
-    const hl =
-      top.screen === "star-detail" && "itineraryId" in top
-        ? top.itineraryId
+    const hlLegacy =
+      top.screen === "star-detail" && top.kind === "legacy" ? top.itineraryId : null;
+    const hlEditorialSlug =
+      top.screen === "star-detail" && top.kind === "editorial" ? top.editorialSlug : null;
+
+    const legacyItems = starItinerariesByRegion(activeRegionId);
+    const legacyFc =
+      legacyItems.length > 0
+        ? starItinerariesToLineCollection(legacyItems, hlLegacy)
         : null;
+
+    let editorialFc = editorialStarLines;
+    if (editorialFc?.features?.length) {
+      editorialFc = {
+        ...editorialFc,
+        features: editorialFc.features.map((f) => {
+          const id = (f.properties as { id?: string } | null)?.id;
+          return {
+            ...f,
+            properties: {
+              ...(typeof f.properties === "object" && f.properties !== null
+                ? f.properties
+                : {}),
+              hl: hlEditorialSlug && id === hlEditorialSlug ? 1 : 0,
+            },
+          };
+        }),
+      };
+    }
+
+    const features = [
+      ...(legacyFc?.features ?? []),
+      ...(editorialFc?.features ?? []),
+    ];
+    if (features.length === 0) {
+      return { starLineFeatures: null, showStarLines: false };
+    }
     return {
-      starLineFeatures: starItinerariesToLineCollection(items, hl),
-      showStarLines: items.length > 0,
+      starLineFeatures: { type: "FeatureCollection", features } as FeatureCollection,
+      showStarLines: true,
     };
-  }, [top, activeRegionId]);
+  }, [top, activeRegionId, editorialStarLines]);
 
   useEffect(() => {
     if (!mapReady || !sectorsFc || !mapRef.current) return;
@@ -489,10 +546,22 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
       return;
     }
 
-    if (top.screen === "star-detail" && "itineraryId" in top) {
+    if (top.screen === "star-detail" && top.kind === "legacy") {
       const it = starItineraryById(top.itineraryId);
       if (it) {
         mapRef.current.fitBounds(bboxFromLineString(it.geometry));
+      }
+      return;
+    }
+
+    if (top.screen === "star-detail" && top.kind === "editorial") {
+      const slug = top.editorialSlug;
+      const feat = editorialStarLines?.features.find(
+        (f) => (f.properties as { id?: string } | undefined)?.id === slug
+      );
+      const geom = feat?.geometry;
+      if (geom && geom.type === "LineString") {
+        mapRef.current.fitBounds(bboxFromLineString(geom as LineString));
       }
       return;
     }
@@ -515,7 +584,7 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
         padding: { top: 48, bottom: bottomPad, left: 44, right: 44 },
       });
     }
-  }, [mapReady, top, sectorsFc, activeRegionId]);
+  }, [mapReady, top, sectorsFc, activeRegionId, editorialStarLines]);
 
   const dimOtherRegions = top.screen !== "france";
 

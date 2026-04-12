@@ -1,0 +1,352 @@
+{
+  "regionId": "rouergue-cevennes",
+  "name": "Rouergue et Cévennes",
+  "deptCodes": [
+    "07",
+    "12",
+    "48"
+  ],
+  "count": 85,
+  "lieux": [
+    {
+      "slug": "aire-de-cote",
+      "nom": "Aire-de-Côte"
+    },
+    {
+      "slug": "antraigues-sur-volane",
+      "nom": "Antraigues-sur-Volane"
+    },
+    {
+      "slug": "antrenas",
+      "nom": "Antrenas"
+    },
+    {
+      "slug": "aubenas",
+      "nom": "Aubenas"
+    },
+    {
+      "slug": "autour-de-sylvanes",
+      "nom": "Autour de Sylvanès"
+    },
+    {
+      "slug": "aven-armand",
+      "nom": "Aven Armand"
+    },
+    {
+      "slug": "balazuc",
+      "nom": "Balazuc"
+    },
+    {
+      "slug": "baousse-del-biel",
+      "nom": "Baousse del Biel"
+    },
+    {
+      "slug": "beauchastel",
+      "nom": "Beauchastel"
+    },
+    {
+      "slug": "belcastel",
+      "nom": "Belcastel"
+    },
+    {
+      "slug": "bourg-saint-andeol",
+      "nom": "Bourg-Saint-Andéol"
+    },
+    {
+      "slug": "bozouls",
+      "nom": "Bozouls"
+    },
+    {
+      "slug": "brousse-le-chateau",
+      "nom": "Brousse-le-Château"
+    },
+    {
+      "slug": "cascade-de-runes",
+      "nom": "Cascade de Runes"
+    },
+    {
+      "slug": "cassini",
+      "nom": "Cassini"
+    },
+    {
+      "slug": "causse-mejean",
+      "nom": "Causse Méjean"
+    },
+    {
+      "slug": "chanac",
+      "nom": "Chanac"
+    },
+    {
+      "slug": "chauzon---audon",
+      "nom": "Chauzon - Audon"
+    },
+    {
+      "slug": "circuit-des-3-clochers",
+      "nom": "Circuit des 3 clochers"
+    },
+    {
+      "slug": "conques",
+      "nom": "Conques"
+    },
+    {
+      "slug": "dargilan",
+      "nom": "Dargilan"
+    },
+    {
+      "slug": "des-vignes-aux-moulins",
+      "nom": "Des Vignes aux Moulins"
+    },
+    {
+      "slug": "devesset",
+      "nom": "Devesset"
+    },
+    {
+      "slug": "domaine-des-boissets",
+      "nom": "Domaine des Boissets"
+    },
+    {
+      "slug": "entre-deux-vallees",
+      "nom": "Entre Deux Vallées"
+    },
+    {
+      "slug": "espalion",
+      "nom": "Espalion"
+    },
+    {
+      "slug": "estaing",
+      "nom": "Estaing"
+    },
+    {
+      "slug": "faussimagne---labeille",
+      "nom": "Faussimagne - L'Abeille"
+    },
+    {
+      "slug": "florac-trois-rivieres",
+      "nom": "Florac Trois Rivières"
+    },
+    {
+      "slug": "gamondes---le-soupley",
+      "nom": "Gamondès - Le Soupley"
+    },
+    {
+      "slug": "gorges-de-lardeche",
+      "nom": "Gorges de l'Ardèche"
+    },
+    {
+      "slug": "ispagnac",
+      "nom": "Ispagnac"
+    },
+    {
+      "slug": "joyeuse",
+      "nom": "Joyeuse"
+    },
+    {
+      "slug": "la-baume",
+      "nom": "La Baume"
+    },
+    {
+      "slug": "la-canourgue",
+      "nom": "La Canourgue"
+    },
+    {
+      "slug": "la-conchy---serre-de-suzon",
+      "nom": "La Conchy - Serre de Suzon"
+    },
+    {
+      "slug": "la-couvertoirade",
+      "nom": "La Couvertoirade"
+    },
+    {
+      "slug": "la-flandonenque",
+      "nom": "La Flandonenque"
+    },
+    {
+      "slug": "labeaume",
+      "nom": "Labeaume"
+    },
+    {
+      "slug": "lac-de-naussac",
+      "nom": "Lac de Naussac"
+    },
+    {
+      "slug": "laguiole",
+      "nom": "Laguiole"
+    },
+    {
+      "slug": "laissac-severac-leglise",
+      "nom": "Laissac-Sévérac l'Église"
+    },
+    {
+      "slug": "lanas---servieres",
+      "nom": "Lanas - Servières"
+    },
+    {
+      "slug": "le-lozeret",
+      "nom": "Le Lozeret"
+    },
+    {
+      "slug": "le-malzieu-ville",
+      "nom": "Le Malzieu-Ville"
+    },
+    {
+      "slug": "le-mont-lozere",
+      "nom": "Le Mont Lozère"
+    },
+    {
+      "slug": "le-moulin-des-pres---le-patio",
+      "nom": "Le Moulin des Prés - Le Patio"
+    },
+    {
+      "slug": "le-pont-de-montvert-sud-mont-lozere",
+      "nom": "Le Pont-de-Montvert-Sud-Mont-Lozère"
+    },
+    {
+      "slug": "le-tour-du-lac",
+      "nom": "Le tour du Lac"
+    },
+    {
+      "slug": "le-viala---racoules",
+      "nom": "Le Viala - Racoules"
+    },
+    {
+      "slug": "les-couronnes",
+      "nom": "Les couronnes"
+    },
+    {
+      "slug": "les-laubies",
+      "nom": "Les Laubies"
+    },
+    {
+      "slug": "les-trois-clochers",
+      "nom": "Les trois clochers"
+    },
+    {
+      "slug": "marvejols",
+      "nom": "Marvejols"
+    },
+    {
+      "slug": "mas-de-la-barque",
+      "nom": "Mas de la Barque"
+    },
+    {
+      "slug": "mende",
+      "nom": "Mende"
+    },
+    {
+      "slug": "millau",
+      "nom": "Millau"
+    },
+    {
+      "slug": "mont-gerbier-de-jonc",
+      "nom": "Mont Gerbier de Jonc"
+    },
+    {
+      "slug": "najac",
+      "nom": "Najac"
+    },
+    {
+      "slug": "naussac",
+      "nom": "Naussac"
+    },
+    {
+      "slug": "peyre",
+      "nom": "Peyre"
+    },
+    {
+      "slug": "plage-de-saint-cyr",
+      "nom": "Plage de Saint-Cyr"
+    },
+    {
+      "slug": "plage-de-sauveplantade",
+      "nom": "Plage de Sauveplantade"
+    },
+    {
+      "slug": "plage-du-lac-de-pareloup",
+      "nom": "Plage du lac de Pareloup"
+    },
+    {
+      "slug": "rodez",
+      "nom": "Rodez"
+    },
+    {
+      "slug": "ruoms",
+      "nom": "Ruoms"
+    },
+    {
+      "slug": "saint-chely-du-tarn",
+      "nom": "Saint-Chely-du-Tarn"
+    },
+    {
+      "slug": "saint-come-dolt",
+      "nom": "Saint-Côme-d'Olt"
+    },
+    {
+      "slug": "saint-montan",
+      "nom": "Saint-Montan"
+    },
+    {
+      "slug": "sainte-enimie",
+      "nom": "Sainte-Enimie"
+    },
+    {
+      "slug": "sainte-eulalie",
+      "nom": "Sainte-Eulalie"
+    },
+    {
+      "slug": "sainte-eulalie-dolt",
+      "nom": "Sainte-Eulalie-d'Olt"
+    },
+    {
+      "slug": "salles-la-source",
+      "nom": "Salles-la-Source"
+    },
+    {
+      "slug": "sauveterre-de-rouergue",
+      "nom": "Sauveterre-de-Rouergue"
+    },
+    {
+      "slug": "sentier-botanique-de-beaumont",
+      "nom": "Sentier botanique de Beaumont"
+    },
+    {
+      "slug": "serre-chevalier",
+      "nom": "Serre Chevalier"
+    },
+    {
+      "slug": "severac-le-chateau",
+      "nom": "Sévérac-le-Château"
+    },
+    {
+      "slug": "sylvanes",
+      "nom": "Sylvanès"
+    },
+    {
+      "slug": "thueyts",
+      "nom": "Thueyts"
+    },
+    {
+      "slug": "tour-du-puech-de-kaymard",
+      "nom": "Tour du Puech de Kaymard"
+    },
+    {
+      "slug": "vallon-pont-darc",
+      "nom": "Vallon-Pont-d'Arc"
+    },
+    {
+      "slug": "vdt-09--le-truel-a-brousse-le-chateau",
+      "nom": "VdT 09 : Le Truel à Brousse-le-Château"
+    },
+    {
+      "slug": "vernoux-en-vivarais",
+      "nom": "Vernoux-en-Vivarais"
+    },
+    {
+      "slug": "villeneuve-daveyron",
+      "nom": "Villeneuve-d'Aveyron"
+    },
+    {
+      "slug": "vogue",
+      "nom": "Vogüé"
+    }
+  ]
+}

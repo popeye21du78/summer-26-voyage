@@ -1,0 +1,235 @@
+{
+  "regionId": "pays-basque-bearn",
+  "name": "Pays basque et Béarn",
+  "deptCodes": [
+    "64",
+    "65"
+  ],
+  "count": 56,
+  "lieux": [
+    {
+      "slug": "ainhoa",
+      "nom": "Ainhoa"
+    },
+    {
+      "slug": "argeles-gazost",
+      "nom": "Argelès-Gazost"
+    },
+    {
+      "slug": "arreau",
+      "nom": "Arreau"
+    },
+    {
+      "slug": "bagneres-de-bigorre",
+      "nom": "Bagnères-de-Bigorre"
+    },
+    {
+      "slug": "bareges",
+      "nom": "Barèges"
+    },
+    {
+      "slug": "bayonne",
+      "nom": "Bayonne"
+    },
+    {
+      "slug": "biarritz",
+      "nom": "Biarritz"
+    },
+    {
+      "slug": "bidart",
+      "nom": "Bidart"
+    },
+    {
+      "slug": "cabanes-et-lac-dansabe-asp52",
+      "nom": "Cabanes et Lac d'Ansabe asp52"
+    },
+    {
+      "slug": "cambo-les-bains",
+      "nom": "Cambo-les-Bains"
+    },
+    {
+      "slug": "cauterets",
+      "nom": "Cauterets"
+    },
+    {
+      "slug": "chemin-des-palombieres",
+      "nom": "Chemin des Palombières"
+    },
+    {
+      "slug": "chemins-de-bosdapous-asp02",
+      "nom": "Chemins de Bosdapous asp02"
+    },
+    {
+      "slug": "chemins-de-mature-dissaux-asp45",
+      "nom": "Chemins de Mâture d'Issaux asp45"
+    },
+    {
+      "slug": "eglise-de-lassomption-de-villemaur-sur-vanne",
+      "nom": "Eglise de l'Assomption de Villemaur-sur-Vanne"
+    },
+    {
+      "slug": "esparros",
+      "nom": "Esparros"
+    },
+    {
+      "slug": "espelette",
+      "nom": "Espelette"
+    },
+    {
+      "slug": "gavarnie",
+      "nom": "Gavarnie"
+    },
+    {
+      "slug": "grande-plage",
+      "nom": "Grande Plage"
+    },
+    {
+      "slug": "hendaye",
+      "nom": "Hendaye"
+    },
+    {
+      "slug": "la-bastide-clairence",
+      "nom": "La Bastide-Clairence"
+    },
+    {
+      "slug": "la-fontaine-desteret",
+      "nom": "La fontaine d'Esteret"
+    },
+    {
+      "slug": "lac-de-payolle",
+      "nom": "Lac de Payolle"
+    },
+    {
+      "slug": "larrau",
+      "nom": "Larrau"
+    },
+    {
+      "slug": "lourdes",
+      "nom": "Lourdes"
+    },
+    {
+      "slug": "luz-saint-sauveur",
+      "nom": "Luz-Saint-Sauveur"
+    },
+    {
+      "slug": "mauleon-licharre",
+      "nom": "Mauléon-Licharre"
+    },
+    {
+      "slug": "navarrenx",
+      "nom": "Navarrenx"
+    },
+    {
+      "slug": "oloron-sainte-marie",
+      "nom": "Oloron-Sainte-Marie"
+    },
+    {
+      "slug": "pau",
+      "nom": "Pau"
+    },
+    {
+      "slug": "pic-du-midi-de-bigorre",
+      "nom": "Pic du Midi de Bigorre"
+    },
+    {
+      "slug": "plage-dhendaye",
+      "nom": "Plage d'Hendaye"
+    },
+    {
+      "slug": "plage-dilbarritz",
+      "nom": "Plage d'Ilbarritz"
+    },
+    {
+      "slug": "plage-de-la-cote-des-basques",
+      "nom": "Plage de la Côte des Basques"
+    },
+    {
+      "slug": "plage-de-lafitenia",
+      "nom": "Plage de Lafitenia"
+    },
+    {
+      "slug": "plage-de-mayarco",
+      "nom": "Plage de Mayarco"
+    },
+    {
+      "slug": "plage-de-parlementia",
+      "nom": "Plage de Parlementia"
+    },
+    {
+      "slug": "plage-des-deux-jumeaux",
+      "nom": "Plage des Deux Jumeaux"
+    },
+    {
+      "slug": "plage-du-port-vieux",
+      "nom": "Plage du Port Vieux"
+    },
+    {
+      "slug": "plateau-dourdinse-asp17",
+      "nom": "Plateau d'Ourdinse asp17"
+    },
+    {
+      "slug": "pont-despagne",
+      "nom": "Pont d'Espagne"
+    },
+    {
+      "slug": "puente-del-hospital---puerto-de-plan",
+      "nom": "Puente del Hospital - Puerto de Plan"
+    },
+    {
+      "slug": "saint-jean-de-luz",
+      "nom": "Saint-Jean-de-Luz"
+    },
+    {
+      "slug": "saint-jean-pied-de-port",
+      "nom": "Saint-Jean-Pied-de-Port"
+    },
+    {
+      "slug": "saint-lary-soulan",
+      "nom": "Saint-Lary-Soulan"
+    },
+    {
+      "slug": "saint-savin",
+      "nom": "Saint-Savin"
+    },
+    {
+      "slug": "salies-de-bearn",
+      "nom": "Salies-de-Béarn"
+    },
+    {
+      "slug": "sare",
+      "nom": "Sare"
+    },
+    {
+      "slug": "senda-de-camille-2-lizara-somport",
+      "nom": "Senda de Camille 2 (Lizara-Somport)"
+    },
+    {
+      "slug": "senda-de-los-puertos",
+      "nom": "Senda de los Puertos"
+    },
+    {
+      "slug": "tour-bilboquet-barescou-asp01",
+      "nom": "Tour Bilboquet-Barescou asp01"
+    },
+    {
+      "slug": "tour-de-la-borde-de-bouhaben-asp26",
+      "nom": "Tour de la Borde de Bouhaben asp26"
+    },
+    {
+      "slug": "tour-du-dolmen",
+      "nom": "Tour du dolmen"
+    },
+    {
+      "slug": "tour-mature-arras-asp62",
+      "nom": "Tour Mâture-Arras asp62"
+    },
+    {
+      "slug": "val-dazun",
+      "nom": "Val d'Azun"
+    },
+    {
+      "slug": "vallon-du-soussoueou",
+      "nom": "Vallon du Soussouéou"
+    }
+  ]
+}

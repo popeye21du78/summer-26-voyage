@@ -1,0 +1,430 @@
+{
+  "regionId": "normandie",
+  "name": "Normandie",
+  "deptCodes": [
+    "14",
+    "27",
+    "50",
+    "61",
+    "76"
+  ],
+  "count": 104,
+  "lieux": [
+    {
+      "slug": "agon-coutainville",
+      "nom": "Agon-Coutainville"
+    },
+    {
+      "slug": "alencon",
+      "nom": "Alençon"
+    },
+    {
+      "slug": "argentan",
+      "nom": "Argentan"
+    },
+    {
+      "slug": "arromanches-les-bains",
+      "nom": "Arromanches-les-Bains"
+    },
+    {
+      "slug": "avranches",
+      "nom": "Avranches"
+    },
+    {
+      "slug": "bagnoles-de-lorne",
+      "nom": "Bagnoles-de-l'Orne"
+    },
+    {
+      "slug": "barfleur",
+      "nom": "Barfleur"
+    },
+    {
+      "slug": "bayeux",
+      "nom": "Bayeux"
+    },
+    {
+      "slug": "bec-hellouin",
+      "nom": "Bec-Hellouin"
+    },
+    {
+      "slug": "belleme",
+      "nom": "Bellême"
+    },
+    {
+      "slug": "bernay",
+      "nom": "Bernay"
+    },
+    {
+      "slug": "beuvron-en-auge",
+      "nom": "Beuvron-en-Auge"
+    },
+    {
+      "slug": "bricquebec",
+      "nom": "Bricquebec"
+    },
+    {
+      "slug": "cabourg",
+      "nom": "Cabourg"
+    },
+    {
+      "slug": "caen",
+      "nom": "Caen"
+    },
+    {
+      "slug": "cany-barville",
+      "nom": "Cany-Barville"
+    },
+    {
+      "slug": "carentan-les-marais",
+      "nom": "Carentan-les-Marais"
+    },
+    {
+      "slug": "cathedrale-notre-dame-de-chartres",
+      "nom": "Cathédrale Notre-Dame de Chartres"
+    },
+    {
+      "slug": "caudebec-en-caux",
+      "nom": "Caudebec-en-Caux"
+    },
+    {
+      "slug": "chateau-de-carrouges",
+      "nom": "Château de Carrouges"
+    },
+    {
+      "slug": "chateau-gaillard-les-andelys",
+      "nom": "Château-Gaillard, Les Andelys"
+    },
+    {
+      "slug": "cherbourg-en-cotentin",
+      "nom": "Cherbourg-en-Cotentin"
+    },
+    {
+      "slug": "circuit-de-la-vallee-de-lante",
+      "nom": "Circuit de la Vallée de l'Ante"
+    },
+    {
+      "slug": "conches-en-ouche",
+      "nom": "Conches-en-Ouche"
+    },
+    {
+      "slug": "courseulles-sur-mer",
+      "nom": "Courseulles-sur-Mer"
+    },
+    {
+      "slug": "coutances",
+      "nom": "Coutances"
+    },
+    {
+      "slug": "creully",
+      "nom": "Creully"
+    },
+    {
+      "slug": "deauville",
+      "nom": "Deauville"
+    },
+    {
+      "slug": "dieppe",
+      "nom": "Dieppe"
+    },
+    {
+      "slug": "domfront",
+      "nom": "Domfront"
+    },
+    {
+      "slug": "ecouves",
+      "nom": "Écouves"
+    },
+    {
+      "slug": "etretat",
+      "nom": "Étretat"
+    },
+    {
+      "slug": "evreux",
+      "nom": "Évreux"
+    },
+    {
+      "slug": "falaise",
+      "nom": "Falaise"
+    },
+    {
+      "slug": "fecamp",
+      "nom": "Fécamp"
+    },
+    {
+      "slug": "giverny",
+      "nom": "Giverny"
+    },
+    {
+      "slug": "granville",
+      "nom": "Granville"
+    },
+    {
+      "slug": "harcourt",
+      "nom": "Harcourt"
+    },
+    {
+      "slug": "honfleur",
+      "nom": "Honfleur"
+    },
+    {
+      "slug": "houlgate",
+      "nom": "Houlgate"
+    },
+    {
+      "slug": "jumieges",
+      "nom": "Jumièges"
+    },
+    {
+      "slug": "la-ferte-mace",
+      "nom": "La Ferté-Macé"
+    },
+    {
+      "slug": "la-hague",
+      "nom": "La Hague"
+    },
+    {
+      "slug": "la-pernelle",
+      "nom": "La Pernelle"
+    },
+    {
+      "slug": "la-vigne",
+      "nom": "La Vigne"
+    },
+    {
+      "slug": "le-bec-hellouin",
+      "nom": "Le Bec-Hellouin"
+    },
+    {
+      "slug": "le-bois-lambert",
+      "nom": "Le Bois Lambert"
+    },
+    {
+      "slug": "le-circuit-du-pressoir",
+      "nom": "Le Circuit du Pressoir"
+    },
+    {
+      "slug": "le-havre",
+      "nom": "Le Havre"
+    },
+    {
+      "slug": "le-lioran",
+      "nom": "Le Lioran"
+    },
+    {
+      "slug": "le-mont-de-doville",
+      "nom": "Le Mont de Doville"
+    },
+    {
+      "slug": "le-perche",
+      "nom": "Le Perche"
+    },
+    {
+      "slug": "le-sentier-du-contrebandier",
+      "nom": "Le Sentier du Contrebandier"
+    },
+    {
+      "slug": "le-treport",
+      "nom": "Le Tréport"
+    },
+    {
+      "slug": "les-alpes-mancelles",
+      "nom": "Les Alpes Mancelles"
+    },
+    {
+      "slug": "les-bornes-cavalieres",
+      "nom": "Les Bornes Cavalières"
+    },
+    {
+      "slug": "les-rochers-de-brisevieille",
+      "nom": "Les Rochers de Brisevieille"
+    },
+    {
+      "slug": "les-terres-de-labbaye",
+      "nom": "Les Terres de l’Abbaye"
+    },
+    {
+      "slug": "lessay",
+      "nom": "Lessay"
+    },
+    {
+      "slug": "lisieux",
+      "nom": "Lisieux"
+    },
+    {
+      "slug": "louviers",
+      "nom": "Louviers"
+    },
+    {
+      "slug": "lyons-la-foret",
+      "nom": "Lyons-la-Forêt"
+    },
+    {
+      "slug": "mont-saint-michel",
+      "nom": "Mont-Saint-Michel"
+    },
+    {
+      "slug": "mortagne-au-perche",
+      "nom": "Mortagne-au-Perche"
+    },
+    {
+      "slug": "nobles-logis-remalard---circuit-court",
+      "nom": "Nobles logis (Rémalard - circuit court)"
+    },
+    {
+      "slug": "ouistreham",
+      "nom": "Ouistreham"
+    },
+    {
+      "slug": "pirou",
+      "nom": "Pirou"
+    },
+    {
+      "slug": "plage-detretat",
+      "nom": "Plage d'Étretat"
+    },
+    {
+      "slug": "plage-domaha-beach",
+      "nom": "Plage d'Omaha Beach"
+    },
+    {
+      "slug": "plage-de-cabourg",
+      "nom": "Plage de Cabourg"
+    },
+    {
+      "slug": "plage-de-carteret",
+      "nom": "Plage de Carteret"
+    },
+    {
+      "slug": "plage-de-courseulles",
+      "nom": "Plage de Courseulles"
+    },
+    {
+      "slug": "plage-de-deauville",
+      "nom": "Plage de Deauville"
+    },
+    {
+      "slug": "plage-de-dieppe",
+      "nom": "Plage de Dieppe"
+    },
+    {
+      "slug": "plage-de-gouville-sur-mer",
+      "nom": "Plage de Gouville-sur-Mer"
+    },
+    {
+      "slug": "plage-de-jullouville",
+      "nom": "Plage de Jullouville"
+    },
+    {
+      "slug": "plage-de-saint-martin-de-brehal",
+      "nom": "Plage de Saint-Martin-de-Bréhal"
+    },
+    {
+      "slug": "plage-de-sciotot",
+      "nom": "Plage de Sciotot"
+    },
+    {
+      "slug": "plage-de-trouville",
+      "nom": "Plage de Trouville"
+    },
+    {
+      "slug": "plage-des-sables-dor",
+      "nom": "Plage des Sables d'Or"
+    },
+    {
+      "slug": "pont-audemer",
+      "nom": "Pont-Audemer"
+    },
+    {
+      "slug": "pont-leveque",
+      "nom": "Pont-l'Évêque"
+    },
+    {
+      "slug": "pontorson",
+      "nom": "Pontorson"
+    },
+    {
+      "slug": "port-en-bessin-huppain",
+      "nom": "Port-en-Bessin-Huppain"
+    },
+    {
+      "slug": "rouen",
+      "nom": "Rouen"
+    },
+    {
+      "slug": "saint-ceneri-le-gerei",
+      "nom": "Saint-Céneri-le-Gérei"
+    },
+    {
+      "slug": "saint-lo",
+      "nom": "Saint-Lô"
+    },
+    {
+      "slug": "saint-sauveur-le-vicomte",
+      "nom": "Saint-Sauveur-le-Vicomte"
+    },
+    {
+      "slug": "saint-vaast-la-hougue",
+      "nom": "Saint-Vaast-la-Hougue"
+    },
+    {
+      "slug": "saint-valery-en-caux",
+      "nom": "Saint-Valery-en-Caux"
+    },
+    {
+      "slug": "saint-wandrille-rancon",
+      "nom": "Saint-Wandrille-Rançon"
+    },
+    {
+      "slug": "sainte-adresse",
+      "nom": "Sainte-Adresse"
+    },
+    {
+      "slug": "sur-les-traces-de-voltaire",
+      "nom": "Sur les traces de Voltaire"
+    },
+    {
+      "slug": "trouville-sur-mer",
+      "nom": "Trouville-sur-Mer"
+    },
+    {
+      "slug": "valognes",
+      "nom": "Valognes"
+    },
+    {
+      "slug": "varengeville-sur-mer",
+      "nom": "Varengeville-sur-Mer"
+    },
+    {
+      "slug": "vascoeuil",
+      "nom": "Vascoeuil"
+    },
+    {
+      "slug": "vernon",
+      "nom": "Vernon"
+    },
+    {
+      "slug": "veules-les-roses",
+      "nom": "Veules-les-Roses"
+    },
+    {
+      "slug": "villedieu-les-poeles",
+      "nom": "Villedieu-les-Poêles"
+    },
+    {
+      "slug": "villequier",
+      "nom": "Villequier"
+    },
+    {
+      "slug": "villers-sur-mer",
+      "nom": "Villers-sur-Mer"
+    },
+    {
+      "slug": "vire",
+      "nom": "Vire"
+    },
+    {
+      "slug": "yport",
+      "nom": "Yport"
+    }
+  ]
+}

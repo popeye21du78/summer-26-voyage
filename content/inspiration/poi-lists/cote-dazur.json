@@ -1,0 +1,295 @@
+{
+  "regionId": "cote-dazur",
+  "name": "Côte d’Azur",
+  "deptCodes": [
+    "06",
+    "83"
+  ],
+  "count": 71,
+  "lieux": [
+    {
+      "slug": "abbaye-du-thoronet",
+      "nom": "Abbaye du Thoronet"
+    },
+    {
+      "slug": "antibes",
+      "nom": "Antibes"
+    },
+    {
+      "slug": "bargeme",
+      "nom": "Bargème"
+    },
+    {
+      "slug": "biot",
+      "nom": "Biot"
+    },
+    {
+      "slug": "bormes-les-mimosas",
+      "nom": "Bormes-les-Mimosas"
+    },
+    {
+      "slug": "calanque-de-port-dalon",
+      "nom": "Calanque de Port d'Alon"
+    },
+    {
+      "slug": "cannes",
+      "nom": "Cannes"
+    },
+    {
+      "slug": "cap-dail",
+      "nom": "Cap-d'Ail"
+    },
+    {
+      "slug": "cime-de-baudon",
+      "nom": "Cime de Baudon"
+    },
+    {
+      "slug": "circuit-du-mont-bastide",
+      "nom": "Circuit du mont Bastide"
+    },
+    {
+      "slug": "coaraze",
+      "nom": "Coaraze"
+    },
+    {
+      "slug": "collobrieres",
+      "nom": "Collobrières"
+    },
+    {
+      "slug": "cotignac",
+      "nom": "Cotignac"
+    },
+    {
+      "slug": "cretes-des-grues",
+      "nom": "Crêtes des Grues"
+    },
+    {
+      "slug": "eze",
+      "nom": "Èze"
+    },
+    {
+      "slug": "frejus",
+      "nom": "Fréjus"
+    },
+    {
+      "slug": "gassin",
+      "nom": "Gassin"
+    },
+    {
+      "slug": "gourdon",
+      "nom": "Gourdon"
+    },
+    {
+      "slug": "grasse",
+      "nom": "Grasse"
+    },
+    {
+      "slug": "hyeres",
+      "nom": "Hyères"
+    },
+    {
+      "slug": "la-forteresse-les-meules",
+      "nom": "La Forteresse les Meules"
+    },
+    {
+      "slug": "la-garde-freinet",
+      "nom": "La Garde-Freinet"
+    },
+    {
+      "slug": "la-rigaude",
+      "nom": "La Rigaude"
+    },
+    {
+      "slug": "lac-de-sainte-croix",
+      "nom": "Lac de Sainte-Croix"
+    },
+    {
+      "slug": "le-castellet",
+      "nom": "Le Castellet"
+    },
+    {
+      "slug": "le-chemin-dengardin",
+      "nom": "Le Chemin d'Engardin"
+    },
+    {
+      "slug": "le-lavandou",
+      "nom": "Le Lavandou"
+    },
+    {
+      "slug": "le-sentier-du-littoral--saint-raphael",
+      "nom": "Le sentier du Littoral – Saint-Raphaël"
+    },
+    {
+      "slug": "les-balcons-de-carros",
+      "nom": "Les Balcons de Carros"
+    },
+    {
+      "slug": "menton",
+      "nom": "Menton"
+    },
+    {
+      "slug": "nice",
+      "nom": "Nice"
+    },
+    {
+      "slug": "peillon",
+      "nom": "Peillon"
+    },
+    {
+      "slug": "plage-de-cavaliere",
+      "nom": "Plage de Cavalière"
+    },
+    {
+      "slug": "plage-de-fossan",
+      "nom": "Plage de Fossan"
+    },
+    {
+      "slug": "plage-de-lalmanarre",
+      "nom": "Plage de l'Almanarre"
+    },
+    {
+      "slug": "plage-de-lescalet",
+      "nom": "Plage de l'Escalet"
+    },
+    {
+      "slug": "plage-de-la-coudouliere",
+      "nom": "Plage de la Coudoulière"
+    },
+    {
+      "slug": "plage-de-la-courtade",
+      "nom": "Plage de la Courtade"
+    },
+    {
+      "slug": "plage-de-la-garoupe",
+      "nom": "Plage de la Garoupe"
+    },
+    {
+      "slug": "plage-de-la-mala",
+      "nom": "Plage de la Mala"
+    },
+    {
+      "slug": "plage-de-la-salis",
+      "nom": "Plage de la Salis"
+    },
+    {
+      "slug": "plage-de-pampelonne",
+      "nom": "Plage de Pampelonne"
+    },
+    {
+      "slug": "plage-de-saint-clair",
+      "nom": "Plage de Saint Clair"
+    },
+    {
+      "slug": "plage-de-tamaris",
+      "nom": "Plage de Tamaris"
+    },
+    {
+      "slug": "plage-des-marinieres",
+      "nom": "Plage des Marinières"
+    },
+    {
+      "slug": "plage-des-sablettes",
+      "nom": "Plage des Sablettes"
+    },
+    {
+      "slug": "plage-des-salins",
+      "nom": "Plage des Salins"
+    },
+    {
+      "slug": "plage-du-castel",
+      "nom": "Plage du Castel"
+    },
+    {
+      "slug": "plage-du-midi",
+      "nom": "Plage du Midi"
+    },
+    {
+      "slug": "plage-du-mourillon",
+      "nom": "Plage du Mourillon"
+    },
+    {
+      "slug": "plateau-de-caussols",
+      "nom": "Plateau de Caussols"
+    },
+    {
+      "slug": "porquerolles",
+      "nom": "Porquerolles"
+    },
+    {
+      "slug": "puy-de-naouri",
+      "nom": "Puy de Naouri"
+    },
+    {
+      "slug": "ramatuelle",
+      "nom": "Ramatuelle"
+    },
+    {
+      "slug": "roubion",
+      "nom": "Roubion"
+    },
+    {
+      "slug": "saint-jean-cap-ferrat",
+      "nom": "Saint-Jean-Cap-Ferrat"
+    },
+    {
+      "slug": "saint-paul-de-vence",
+      "nom": "Saint-Paul-de-Vence"
+    },
+    {
+      "slug": "saint-tropez",
+      "nom": "Saint-Tropez"
+    },
+    {
+      "slug": "sainte-agnes",
+      "nom": "Sainte-Agnès"
+    },
+    {
+      "slug": "saorge",
+      "nom": "Saorge"
+    },
+    {
+      "slug": "seillans",
+      "nom": "Seillans"
+    },
+    {
+      "slug": "sentier-de-laubanede",
+      "nom": "Sentier de l'Aubanède"
+    },
+    {
+      "slug": "sentier-des-basses-gorges",
+      "nom": "Sentier des basses gorges"
+    },
+    {
+      "slug": "sentier-du-littoral---bandol",
+      "nom": "Sentier du Littoral - Bandol"
+    },
+    {
+      "slug": "sentier-du-littoral-itineraires---les-issambres",
+      "nom": "Sentier du Littoral Itineraires - Les Issambres"
+    },
+    {
+      "slug": "tende",
+      "nom": "Tende"
+    },
+    {
+      "slug": "tour-du-cap-dantibes",
+      "nom": "Tour du Cap d'Antibes"
+    },
+    {
+      "slug": "tourtour",
+      "nom": "Tourtour"
+    },
+    {
+      "slug": "vallee-de-la-brague",
+      "nom": "Vallée de la Brague"
+    },
+    {
+      "slug": "villecroze",
+      "nom": "Villecroze"
+    },
+    {
+      "slug": "villefranche-sur-mer",
+      "nom": "Villefranche-sur-Mer"
+    }
+  ]
+}

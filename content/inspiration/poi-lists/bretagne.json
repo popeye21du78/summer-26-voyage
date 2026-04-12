@@ -1,0 +1,481 @@
+{
+  "regionId": "bretagne",
+  "name": "Bretagne",
+  "deptCodes": [
+    "22",
+    "29",
+    "35",
+    "56"
+  ],
+  "count": 117,
+  "lieux": [
+    {
+      "slug": "audierne",
+      "nom": "Audierne"
+    },
+    {
+      "slug": "auray",
+      "nom": "Auray"
+    },
+    {
+      "slug": "belle-ile-en-mer",
+      "nom": "Belle-Île-en-Mer"
+    },
+    {
+      "slug": "belle-isle-en-terre",
+      "nom": "Belle-Isle-en-Terre"
+    },
+    {
+      "slug": "boucle-de-saint-jacques",
+      "nom": "Boucle de Saint-Jacques"
+    },
+    {
+      "slug": "boucle-du-vanneg",
+      "nom": "Boucle du Vanneg"
+    },
+    {
+      "slug": "brest",
+      "nom": "Brest"
+    },
+    {
+      "slug": "camaret-sur-mer",
+      "nom": "Camaret-sur-Mer"
+    },
+    {
+      "slug": "cancale",
+      "nom": "Cancale"
+    },
+    {
+      "slug": "cap-frehel",
+      "nom": "Cap Fréhel"
+    },
+    {
+      "slug": "carantec",
+      "nom": "Carantec"
+    },
+    {
+      "slug": "carnac",
+      "nom": "Carnac"
+    },
+    {
+      "slug": "carnac-plage",
+      "nom": "Carnac-Plage"
+    },
+    {
+      "slug": "chateau-de-la-roche-jagu",
+      "nom": "Château de la Roche-Jagu"
+    },
+    {
+      "slug": "circuit-de-la-grande-tranchee",
+      "nom": "Circuit de la Grande Tranchée"
+    },
+    {
+      "slug": "circuit-de-rochefort",
+      "nom": "Circuit de Rochefort"
+    },
+    {
+      "slug": "circuit-des-moulins",
+      "nom": "Circuit des Moulins"
+    },
+    {
+      "slug": "circuit-du-hil",
+      "nom": "Circuit du Hil"
+    },
+    {
+      "slug": "combourg",
+      "nom": "Combourg"
+    },
+    {
+      "slug": "concarneau",
+      "nom": "Concarneau"
+    },
+    {
+      "slug": "dinan",
+      "nom": "Dinan"
+    },
+    {
+      "slug": "dinard",
+      "nom": "Dinard"
+    },
+    {
+      "slug": "dol-de-bretagne",
+      "nom": "Dol-de-Bretagne"
+    },
+    {
+      "slug": "douarnenez",
+      "nom": "Douarnenez"
+    },
+    {
+      "slug": "erdeven",
+      "nom": "Erdeven"
+    },
+    {
+      "slug": "fort-la-latte",
+      "nom": "Fort La Latte"
+    },
+    {
+      "slug": "fougeres",
+      "nom": "Fougères"
+    },
+    {
+      "slug": "gavres",
+      "nom": "Gâvres"
+    },
+    {
+      "slug": "guingamp",
+      "nom": "Guingamp"
+    },
+    {
+      "slug": "huelgoat",
+      "nom": "Huelgoat"
+    },
+    {
+      "slug": "ile-aux-moines",
+      "nom": "Île aux Moines"
+    },
+    {
+      "slug": "ile-darz",
+      "nom": "Ile d'Arz"
+    },
+    {
+      "slug": "ile-de-batz",
+      "nom": "Île de Batz"
+    },
+    {
+      "slug": "ile-de-sein",
+      "nom": "Île de Sein"
+    },
+    {
+      "slug": "josselin",
+      "nom": "Josselin"
+    },
+    {
+      "slug": "josselin",
+      "nom": "Josselin"
+    },
+    {
+      "slug": "lile-de-brehat",
+      "nom": "L'île de Bréhat"
+    },
+    {
+      "slug": "la-roche-aux-fees-esse",
+      "nom": "La Roche-aux-Fées, Essé"
+    },
+    {
+      "slug": "la-roche-derrien",
+      "nom": "La Roche-Derrien"
+    },
+    {
+      "slug": "la-tourbiere-de-langazel",
+      "nom": "La Tourbière de Langazel"
+    },
+    {
+      "slug": "la-trinite-sur-mer",
+      "nom": "La Trinité-sur-Mer"
+    },
+    {
+      "slug": "landerneau",
+      "nom": "Landerneau"
+    },
+    {
+      "slug": "lannion",
+      "nom": "Lannion"
+    },
+    {
+      "slug": "larmor-baden",
+      "nom": "Larmor-Baden"
+    },
+    {
+      "slug": "le-circuit-des-korrigans",
+      "nom": "Le circuit des korrigans"
+    },
+    {
+      "slug": "le-faou",
+      "nom": "Le Faou"
+    },
+    {
+      "slug": "le-mont-dol",
+      "nom": "Le Mont-Dol"
+    },
+    {
+      "slug": "locronan",
+      "nom": "Locronan"
+    },
+    {
+      "slug": "lorient",
+      "nom": "Lorient"
+    },
+    {
+      "slug": "medreac---vallee-du-neal",
+      "nom": "Médréac - vallée du Néal"
+    },
+    {
+      "slug": "moncontour",
+      "nom": "Moncontour"
+    },
+    {
+      "slug": "montfort-sur-meu",
+      "nom": "Montfort-sur-Meu"
+    },
+    {
+      "slug": "morlaix",
+      "nom": "Morlaix"
+    },
+    {
+      "slug": "paimpol",
+      "nom": "Paimpol"
+    },
+    {
+      "slug": "paimpont",
+      "nom": "Paimpont"
+    },
+    {
+      "slug": "perros-guirec",
+      "nom": "Perros-Guirec"
+    },
+    {
+      "slug": "plage-de-bon-secours",
+      "nom": "Plage de Bon-Secours"
+    },
+    {
+      "slug": "plage-de-donnant",
+      "nom": "Plage de Donnant"
+    },
+    {
+      "slug": "plage-de-kerhilio",
+      "nom": "Plage de Kerhilio"
+    },
+    {
+      "slug": "plage-de-kervel",
+      "nom": "Plage de Kervel"
+    },
+    {
+      "slug": "plage-de-kervillen",
+      "nom": "Plage de Kervillen"
+    },
+    {
+      "slug": "plage-de-lanse-du-verger",
+      "nom": "Plage de l'Anse du Verger"
+    },
+    {
+      "slug": "plage-de-lile-vierge",
+      "nom": "Plage de l'Ile Vierge"
+    },
+    {
+      "slug": "plage-de-la-torche",
+      "nom": "Plage de la Torche"
+    },
+    {
+      "slug": "plage-de-la-touesse",
+      "nom": "Plage de la Touesse"
+    },
+    {
+      "slug": "plage-de-magouero",
+      "nom": "Plage de Magouero"
+    },
+    {
+      "slug": "plage-de-men-du",
+      "nom": "Plage de Men-Du"
+    },
+    {
+      "slug": "plage-de-palus",
+      "nom": "Plage de Palus"
+    },
+    {
+      "slug": "plage-de-ploumanach",
+      "nom": "Plage de Ploumanac'h"
+    },
+    {
+      "slug": "plage-de-pors-peron",
+      "nom": "Plage de Pors Péron"
+    },
+    {
+      "slug": "plage-de-port-manech",
+      "nom": "Plage de Port Manech"
+    },
+    {
+      "slug": "plage-de-port-kennan",
+      "nom": "Plage de Port-Kennan"
+    },
+    {
+      "slug": "plage-de-port-mer",
+      "nom": "Plage de Port-Mer"
+    },
+    {
+      "slug": "plage-de-raguenez",
+      "nom": "Plage de Raguenez"
+    },
+    {
+      "slug": "plage-de-sables-dor-les-pins",
+      "nom": "Plage de Sables-d'Or-les-Pins"
+    },
+    {
+      "slug": "plage-de-saint-michel-en-greve",
+      "nom": "Plage de Saint-Michel-en-Grève"
+    },
+    {
+      "slug": "plage-de-saint-pierre",
+      "nom": "Plage de Saint-Pierre"
+    },
+    {
+      "slug": "plage-de-sainte-anne-la-palud",
+      "nom": "Plage de Sainte-Anne-la-Palud"
+    },
+    {
+      "slug": "plage-de-trestraou",
+      "nom": "Plage de Trestraou"
+    },
+    {
+      "slug": "plage-des-americains",
+      "nom": "Plage des Américains"
+    },
+    {
+      "slug": "plage-des-blancs-sablons",
+      "nom": "Plage des Blancs Sablons"
+    },
+    {
+      "slug": "plage-des-grands-sables",
+      "nom": "Plage des Grands Sables"
+    },
+    {
+      "slug": "plage-du-goulien",
+      "nom": "Plage du Goulien"
+    },
+    {
+      "slug": "plage-du-ris",
+      "nom": "Plage du Ris"
+    },
+    {
+      "slug": "plage-du-sillon",
+      "nom": "Plage du Sillon"
+    },
+    {
+      "slug": "plage-du-trez",
+      "nom": "Plage du Trez"
+    },
+    {
+      "slug": "plage-du-val-andre",
+      "nom": "Plage du Val André"
+    },
+    {
+      "slug": "plouharnel",
+      "nom": "Plouharnel"
+    },
+    {
+      "slug": "ploumanach",
+      "nom": "Ploumanac'h"
+    },
+    {
+      "slug": "ploumanach",
+      "nom": "Ploumanac'h"
+    },
+    {
+      "slug": "pointe-du-raz",
+      "nom": "Pointe du Raz"
+    },
+    {
+      "slug": "pont-aven",
+      "nom": "Pont-Aven"
+    },
+    {
+      "slug": "pontivy",
+      "nom": "Pontivy"
+    },
+    {
+      "slug": "pontrieux",
+      "nom": "Pontrieux"
+    },
+    {
+      "slug": "quiberon",
+      "nom": "Quiberon"
+    },
+    {
+      "slug": "quimper",
+      "nom": "Quimper"
+    },
+    {
+      "slug": "quintin",
+      "nom": "Quintin"
+    },
+    {
+      "slug": "randabers-11",
+      "nom": "Rand'Abers 11"
+    },
+    {
+      "slug": "redon",
+      "nom": "Redon"
+    },
+    {
+      "slug": "rennes",
+      "nom": "Rennes"
+    },
+    {
+      "slug": "rochefort-en-terre",
+      "nom": "Rochefort-en-Terre"
+    },
+    {
+      "slug": "roscoff",
+      "nom": "Roscoff"
+    },
+    {
+      "slug": "saint-brieuc",
+      "nom": "Saint-Brieuc"
+    },
+    {
+      "slug": "saint-cado",
+      "nom": "Saint-Cado"
+    },
+    {
+      "slug": "saint-goustan",
+      "nom": "Saint-Goustan"
+    },
+    {
+      "slug": "saint-malo",
+      "nom": "Saint-Malo"
+    },
+    {
+      "slug": "saint-pol-de-leon",
+      "nom": "Saint-Pol-de-Léon"
+    },
+    {
+      "slug": "saint-suliac",
+      "nom": "Saint-Suliac"
+    },
+    {
+      "slug": "sentier-de-lallee-couverte",
+      "nom": "sentier de l'allée couverte"
+    },
+    {
+      "slug": "sentier-des-popinettes",
+      "nom": "Sentier des Popinettes"
+    },
+    {
+      "slug": "sentiers-des-moulins",
+      "nom": "Sentiers des Moulins"
+    },
+    {
+      "slug": "treguier",
+      "nom": "Tréguier"
+    },
+    {
+      "slug": "tro-brechoray",
+      "nom": "Tro Brec’horay"
+    },
+    {
+      "slug": "tro-sant-houarne",
+      "nom": "Tro Sant Houarne"
+    },
+    {
+      "slug": "vannes",
+      "nom": "Vannes"
+    },
+    {
+      "slug": "vers-la-ria-detel",
+      "nom": "Vers la Ria d'Étel"
+    },
+    {
+      "slug": "vitre",
+      "nom": "Vitré"
+    }
+  ]
+}

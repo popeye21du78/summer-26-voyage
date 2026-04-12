@@ -1,0 +1,335 @@
+{
+  "regionId": "corse",
+  "name": "Corse",
+  "deptCodes": [
+    "2A",
+    "2B"
+  ],
+  "count": 81,
+  "lieux": [
+    {
+      "slug": "a-vinta-di-bocca-stagnu",
+      "nom": "A Vinta di Bocca Stagnu"
+    },
+    {
+      "slug": "ajaccio",
+      "nom": "Ajaccio"
+    },
+    {
+      "slug": "algajola",
+      "nom": "Algajola"
+    },
+    {
+      "slug": "aullene",
+      "nom": "Aullène"
+    },
+    {
+      "slug": "balade-littorale-de-la-pointe-du-cap-corse",
+      "nom": "Balade Littorale de la Pointe du Cap Corse"
+    },
+    {
+      "slug": "balade-littorale-des-bruzzi",
+      "nom": "Balade Littorale des Bruzzi"
+    },
+    {
+      "slug": "balade-littorale-du-canuseddu",
+      "nom": "Balade Littorale du Canuseddu"
+    },
+    {
+      "slug": "bastia",
+      "nom": "Bastia"
+    },
+    {
+      "slug": "bavella",
+      "nom": "Bavella"
+    },
+    {
+      "slug": "bonifacio",
+      "nom": "Bonifacio"
+    },
+    {
+      "slug": "boucle-1---costa-verde",
+      "nom": "Boucle 1 - Costa Verde"
+    },
+    {
+      "slug": "boucle-1---serra-di-scopamene-aullene",
+      "nom": "Boucle 1 - Serra-di-Scopamène<->Aullène"
+    },
+    {
+      "slug": "boucle-abru-canelle",
+      "nom": "Boucle Abru-Canelle"
+    },
+    {
+      "slug": "boucle-da-ranedda",
+      "nom": "Boucle d'A Ranedda"
+    },
+    {
+      "slug": "boucle-de-calanone",
+      "nom": "Boucle de Calanone"
+    },
+    {
+      "slug": "boucle-de-la-punta-di-u-calancone",
+      "nom": "Boucle de la Punta di u Calancone"
+    },
+    {
+      "slug": "boucle-de-san-bastianu",
+      "nom": "Boucle de San Bastianu"
+    },
+    {
+      "slug": "boucle-des-7-fontaines",
+      "nom": "Boucle des 7 Fontaines"
+    },
+    {
+      "slug": "boucle-du-lac-de-creno",
+      "nom": "Boucle du Lac de Creno"
+    },
+    {
+      "slug": "boucle-du-monte-santu",
+      "nom": "Boucle du Monte Santu"
+    },
+    {
+      "slug": "boucle-littorale-de-capu-di-muru",
+      "nom": "Boucle Littorale de Capu di Muru"
+    },
+    {
+      "slug": "boucle-littorale-de-forlani-a-mortella",
+      "nom": "Boucle littorale de Forlani à Mortella"
+    },
+    {
+      "slug": "calanques-de-piana",
+      "nom": "Calanques de Piana"
+    },
+    {
+      "slug": "calvi",
+      "nom": "Calvi"
+    },
+    {
+      "slug": "canari",
+      "nom": "Canari"
+    },
+    {
+      "slug": "capo-di-feno-par-bonifacio",
+      "nom": "Capo di Feno par Bonifacio"
+    },
+    {
+      "slug": "cargese",
+      "nom": "Cargèse"
+    },
+    {
+      "slug": "castagniccia",
+      "nom": "Castagniccia"
+    },
+    {
+      "slug": "cervione",
+      "nom": "Cervione"
+    },
+    {
+      "slug": "conca",
+      "nom": "Conca"
+    },
+    {
+      "slug": "corte",
+      "nom": "Corte"
+    },
+    {
+      "slug": "filitosa",
+      "nom": "Filitosa"
+    },
+    {
+      "slug": "ghisoni",
+      "nom": "Ghisoni"
+    },
+    {
+      "slug": "grande-boucle-mare-e-stagnu",
+      "nom": "Grande boucle Mare è Stagnu"
+    },
+    {
+      "slug": "ile-rousse",
+      "nom": "Île Rousse"
+    },
+    {
+      "slug": "lama-monte-astu",
+      "nom": "Lama<->Monte Astu"
+    },
+    {
+      "slug": "levie",
+      "nom": "Levie"
+    },
+    {
+      "slug": "lumio",
+      "nom": "Lumio"
+    },
+    {
+      "slug": "mila",
+      "nom": "Mila"
+    },
+    {
+      "slug": "moltifao",
+      "nom": "Moltifao"
+    },
+    {
+      "slug": "monte-san-petrone-par-le-col-de-prato",
+      "nom": "Monte San Petrone par le col de Prato"
+    },
+    {
+      "slug": "nonza",
+      "nom": "Nonza"
+    },
+    {
+      "slug": "ota",
+      "nom": "Ota"
+    },
+    {
+      "slug": "patrimonio",
+      "nom": "Patrimonio"
+    },
+    {
+      "slug": "piana",
+      "nom": "Piana"
+    },
+    {
+      "slug": "pigna",
+      "nom": "Pigna"
+    },
+    {
+      "slug": "plage-dalga",
+      "nom": "Plage d'Alga"
+    },
+    {
+      "slug": "plage-darone",
+      "nom": "Plage d'Arone"
+    },
+    {
+      "slug": "plage-de-bodri",
+      "nom": "Plage de Bodri"
+    },
+    {
+      "slug": "plage-de-calvi",
+      "nom": "Plage de Calvi"
+    },
+    {
+      "slug": "plage-de-campomoro",
+      "nom": "Plage de Campomoro"
+    },
+    {
+      "slug": "plage-de-capo-di-feno",
+      "nom": "Plage de Capo di Feno"
+    },
+    {
+      "slug": "plage-de-cupabia",
+      "nom": "Plage de Cupabia"
+    },
+    {
+      "slug": "plage-de-ficajola",
+      "nom": "Plage de Ficajola"
+    },
+    {
+      "slug": "plage-de-ghignu",
+      "nom": "Plage de Ghignu"
+    },
+    {
+      "slug": "plage-de-lostriconi",
+      "nom": "Plage de l'Ostriconi"
+    },
+    {
+      "slug": "plage-de-la-roya",
+      "nom": "Plage de la Roya"
+    },
+    {
+      "slug": "plage-de-la-tonnara",
+      "nom": "Plage de La Tonnara"
+    },
+    {
+      "slug": "plage-de-lozari",
+      "nom": "Plage de Lozari"
+    },
+    {
+      "slug": "plage-de-mare-e-sole",
+      "nom": "Plage de Mare e Sole"
+    },
+    {
+      "slug": "plage-de-nonza",
+      "nom": "Plage de Nonza"
+    },
+    {
+      "slug": "plage-de-palombaggia",
+      "nom": "Plage de Palombaggia"
+    },
+    {
+      "slug": "plage-de-paragan",
+      "nom": "Plage de Paragan"
+    },
+    {
+      "slug": "plage-de-roccapina",
+      "nom": "Plage de Roccapina"
+    },
+    {
+      "slug": "plage-de-saint-antoine",
+      "nom": "Plage de Saint-Antoine"
+    },
+    {
+      "slug": "plage-de-saleccia",
+      "nom": "Plage de Saleccia"
+    },
+    {
+      "slug": "plage-de-santa-giulia",
+      "nom": "Plage de Santa Giulia"
+    },
+    {
+      "slug": "plage-de-tizzano",
+      "nom": "Plage de Tizzano"
+    },
+    {
+      "slug": "porticcio",
+      "nom": "Porticcio"
+    },
+    {
+      "slug": "porto",
+      "nom": "Porto"
+    },
+    {
+      "slug": "porto-vecchio",
+      "nom": "Porto-Vecchio"
+    },
+    {
+      "slug": "propriano",
+      "nom": "Propriano"
+    },
+    {
+      "slug": "saint-florent",
+      "nom": "Saint-Florent"
+    },
+    {
+      "slug": "santandrea-di-cotone",
+      "nom": "Sant'Andréa-di-Cotone"
+    },
+    {
+      "slug": "santantonino",
+      "nom": "Sant'Antonino"
+    },
+    {
+      "slug": "sartene",
+      "nom": "Sartène"
+    },
+    {
+      "slug": "sentier-du-monte-renosu",
+      "nom": "Sentier du Monte Renosu"
+    },
+    {
+      "slug": "tavaco",
+      "nom": "Tavaco"
+    },
+    {
+      "slug": "tour-genoise-domigna",
+      "nom": "Tour Génoise d'Omigna"
+    },
+    {
+      "slug": "uomo-di-cagna",
+      "nom": "Uomo di Cagna"
+    },
+    {
+      "slug": "zonza",
+      "nom": "Zonza"
+    }
+  ]
+}

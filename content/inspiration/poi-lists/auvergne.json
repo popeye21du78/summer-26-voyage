@@ -1,0 +1,433 @@
+{
+  "regionId": "auvergne",
+  "name": "Auvergne",
+  "deptCodes": [
+    "03",
+    "15",
+    "43",
+    "63"
+  ],
+  "count": 105,
+  "lieux": [
+    {
+      "slug": "arlempdes",
+      "nom": "Arlempdes"
+    },
+    {
+      "slug": "auger",
+      "nom": "Auger"
+    },
+    {
+      "slug": "aurillac",
+      "nom": "Aurillac"
+    },
+    {
+      "slug": "besse-et-saint-anastaise",
+      "nom": "Besse-et-Saint-Anastaise"
+    },
+    {
+      "slug": "blesle",
+      "nom": "Blesle"
+    },
+    {
+      "slug": "bords-dallier",
+      "nom": "Bords d'Allier"
+    },
+    {
+      "slug": "bourbon-larchambault",
+      "nom": "Bourbon-l'Archambault"
+    },
+    {
+      "slug": "brioude",
+      "nom": "Brioude"
+    },
+    {
+      "slug": "brout-vernet",
+      "nom": "Broût-Vernet"
+    },
+    {
+      "slug": "calvinet",
+      "nom": "Calvinet"
+    },
+    {
+      "slug": "chante-cigale",
+      "nom": "Chante-Cigale"
+    },
+    {
+      "slug": "chantelle",
+      "nom": "Chantelle"
+    },
+    {
+      "slug": "charroux",
+      "nom": "Charroux"
+    },
+    {
+      "slug": "chateau-dalleuze",
+      "nom": "Château d'Alleuze"
+    },
+    {
+      "slug": "chateau-de-murol",
+      "nom": "Château de Murol"
+    },
+    {
+      "slug": "chateau-de-ravel",
+      "nom": "Château de Ravel"
+    },
+    {
+      "slug": "chaudes-aigues",
+      "nom": "Chaudes-Aigues"
+    },
+    {
+      "slug": "chilhac",
+      "nom": "Chilhac"
+    },
+    {
+      "slug": "clermont-ferrand",
+      "nom": "Clermont-Ferrand"
+    },
+    {
+      "slug": "cusset",
+      "nom": "Cusset"
+    },
+    {
+      "slug": "des-ribes-au-miodet",
+      "nom": "Des Ribes au Miodet"
+    },
+    {
+      "slug": "domaine-de-chazoux",
+      "nom": "Domaine de Chazoux"
+    },
+    {
+      "slug": "etang-du-vernet",
+      "nom": "Étang du Vernet"
+    },
+    {
+      "slug": "gannat",
+      "nom": "Gannat"
+    },
+    {
+      "slug": "herisson",
+      "nom": "Hérisson"
+    },
+    {
+      "slug": "issoire",
+      "nom": "Issoire"
+    },
+    {
+      "slug": "la-bourboule",
+      "nom": "La Bourboule"
+    },
+    {
+      "slug": "la-chaise-dieu",
+      "nom": "La Chaise-Dieu"
+    },
+    {
+      "slug": "la-chapelle-agnon",
+      "nom": "La Chapelle-Agnon"
+    },
+    {
+      "slug": "la-roche-dagoux",
+      "nom": "La Roche d'Agoux"
+    },
+    {
+      "slug": "lac-chambon",
+      "nom": "Lac Chambon"
+    },
+    {
+      "slug": "lac-chambon",
+      "nom": "Lac Chambon"
+    },
+    {
+      "slug": "lac-de-saint-etienne-cantales",
+      "nom": "Lac de Saint-Étienne-Cantalès"
+    },
+    {
+      "slug": "lac-pavin",
+      "nom": "Lac Pavin"
+    },
+    {
+      "slug": "langeac",
+      "nom": "Langeac"
+    },
+    {
+      "slug": "lapalisse",
+      "nom": "Lapalisse"
+    },
+    {
+      "slug": "lavaudieu",
+      "nom": "Lavaudieu"
+    },
+    {
+      "slug": "lavoute-chilhac",
+      "nom": "Lavoûte-Chilhac"
+    },
+    {
+      "slug": "le-bois-de-rochemave",
+      "nom": "Le Bois de Rochemave"
+    },
+    {
+      "slug": "le-bois-du-vaulmier",
+      "nom": "Le Bois du Vaulmier"
+    },
+    {
+      "slug": "le-chateau-de-ligondes",
+      "nom": "Le Chateau de Ligondes"
+    },
+    {
+      "slug": "le-domaine-de-vort",
+      "nom": "Le Domaine de Vort"
+    },
+    {
+      "slug": "le-puy-de-montoncel",
+      "nom": "Le Puy de Montoncel"
+    },
+    {
+      "slug": "le-puy-de-sancy",
+      "nom": "Le Puy de Sancy"
+    },
+    {
+      "slug": "le-puy-giroux",
+      "nom": "Le Puy Giroux"
+    },
+    {
+      "slug": "le-puy-en-velay",
+      "nom": "Le Puy-en-Velay"
+    },
+    {
+      "slug": "le-sartre",
+      "nom": "Le Sartre"
+    },
+    {
+      "slug": "le-sentier-de-la-vaisse",
+      "nom": "Le Sentier de la Vaisse"
+    },
+    {
+      "slug": "les-bords-de-lallier",
+      "nom": "Les bords de l'Allier"
+    },
+    {
+      "slug": "les-cotes-de-lempdes",
+      "nom": "Les Cotes de Lempdes"
+    },
+    {
+      "slug": "les-etangs",
+      "nom": "Les Étangs"
+    },
+    {
+      "slug": "les-gorges-de-leyvaux-et-dapcher",
+      "nom": "Les Gorges de Leyvaux et d'Apcher"
+    },
+    {
+      "slug": "les-panoramas-de-dore-leglise",
+      "nom": "Les panoramas de Dore l'Eglise"
+    },
+    {
+      "slug": "les-prats-de-la-chaux",
+      "nom": "Les Prats-de-la-Chaux"
+    },
+    {
+      "slug": "les-terrasses-de-la-dore",
+      "nom": "Les terrasses de la Dore"
+    },
+    {
+      "slug": "les-trois-vallees",
+      "nom": "Les Trois Vallees"
+    },
+    {
+      "slug": "mcvl1--murat---col-de-prat-de-bouc",
+      "nom": "MCVL1 : Murat - col de Prat-de-Bouc"
+    },
+    {
+      "slug": "mcvl3--pailherols---mur-de-barrez",
+      "nom": "MCVL3 : Pailherols - Mur-de-Barrez"
+    },
+    {
+      "slug": "monistrol-sur-loire",
+      "nom": "Monistrol-sur-Loire"
+    },
+    {
+      "slug": "mont-dore",
+      "nom": "Mont-Dore"
+    },
+    {
+      "slug": "montarcher",
+      "nom": "Montarcher"
+    },
+    {
+      "slug": "montlucon",
+      "nom": "Montluçon"
+    },
+    {
+      "slug": "montpeyroux",
+      "nom": "Montpeyroux"
+    },
+    {
+      "slug": "moulins",
+      "nom": "Moulins"
+    },
+    {
+      "slug": "murat",
+      "nom": "Murat"
+    },
+    {
+      "slug": "orcival",
+      "nom": "Orcival"
+    },
+    {
+      "slug": "parc-naturel-regional-des-volcans-dauvergne",
+      "nom": "Parc naturel régional des Volcans d'Auvergne"
+    },
+    {
+      "slug": "peyre-mayou",
+      "nom": "Peyre-Mayou"
+    },
+    {
+      "slug": "plage-de-naussac",
+      "nom": "Plage de Naussac"
+    },
+    {
+      "slug": "plage-du-gour-de-tazenat",
+      "nom": "Plage du Gour de Tazenat"
+    },
+    {
+      "slug": "plage-du-lac-chambon",
+      "nom": "Plage du Lac Chambon"
+    },
+    {
+      "slug": "plage-du-tunnel",
+      "nom": "Plage du Tunnel"
+    },
+    {
+      "slug": "plomb-du-cantal",
+      "nom": "Plomb du Cantal"
+    },
+    {
+      "slug": "polignac",
+      "nom": "Polignac"
+    },
+    {
+      "slug": "pradelles",
+      "nom": "Pradelles"
+    },
+    {
+      "slug": "puy-mary",
+      "nom": "Puy Mary"
+    },
+    {
+      "slug": "rioms",
+      "nom": "Rioms"
+    },
+    {
+      "slug": "royat",
+      "nom": "Royat"
+    },
+    {
+      "slug": "saint-jean-saint-gervais",
+      "nom": "Saint Jean Saint Gervais"
+    },
+    {
+      "slug": "saint-flour",
+      "nom": "Saint-Flour"
+    },
+    {
+      "slug": "saint-jean-du-desert",
+      "nom": "Saint-Jean-du-Desert"
+    },
+    {
+      "slug": "saint-menoux",
+      "nom": "Saint-Menoux"
+    },
+    {
+      "slug": "saint-nectaire",
+      "nom": "Saint-Nectaire"
+    },
+    {
+      "slug": "saint-paulien",
+      "nom": "Saint-Paulien"
+    },
+    {
+      "slug": "saint-pourcain-sur-sioule",
+      "nom": "Saint-Pourçain-sur-Sioule"
+    },
+    {
+      "slug": "saint-saturnin",
+      "nom": "Saint-Saturnin"
+    },
+    {
+      "slug": "salers",
+      "nom": "Salers"
+    },
+    {
+      "slug": "saugues",
+      "nom": "Saugues"
+    },
+    {
+      "slug": "sentier-art-et-nature",
+      "nom": "Sentier Art et Nature"
+    },
+    {
+      "slug": "sentier-des-buissieres",
+      "nom": "Sentier des Buissières"
+    },
+    {
+      "slug": "souvigny",
+      "nom": "Souvigny"
+    },
+    {
+      "slug": "thiers",
+      "nom": "Thiers"
+    },
+    {
+      "slug": "tour-du-plan-deau-de-saint-clement",
+      "nom": "Tour du plan d'eau de Saint-Clément"
+    },
+    {
+      "slug": "tour-du-puy-de-dome",
+      "nom": "Tour du Puy de Dôme"
+    },
+    {
+      "slug": "tournemire",
+      "nom": "Tournemire"
+    },
+    {
+      "slug": "usson",
+      "nom": "Usson"
+    },
+    {
+      "slug": "va-06--blesle---massiac",
+      "nom": "VA 06 : Blesle - Massiac"
+    },
+    {
+      "slug": "va-11--saint-jacques-des-blats---vic-sur-cere",
+      "nom": "VA 11 : Saint-Jacques-des-Blats - Vic-sur-Cère"
+    },
+    {
+      "slug": "va-14--laroquebrou---camps-saint-mathurin",
+      "nom": "VA 14 : Laroquebrou - Camps-Saint-Mathurin"
+    },
+    {
+      "slug": "viaduc-de-garabit",
+      "nom": "Viaduc de Garabit"
+    },
+    {
+      "slug": "vic-sur-cere",
+      "nom": "Vic-sur-Cère"
+    },
+    {
+      "slug": "vichy",
+      "nom": "Vichy"
+    },
+    {
+      "slug": "vulcania",
+      "nom": "Vulcania"
+    },
+    {
+      "slug": "ygrande",
+      "nom": "Ygrande"
+    },
+    {
+      "slug": "yssingeaux",
+      "nom": "Yssingeaux"
+    }
+  ]
+}

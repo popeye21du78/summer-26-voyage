@@ -1,0 +1,312 @@
+{
+  "regionId": "perigord-quercy",
+  "name": "Périgord et Quercy",
+  "deptCodes": [
+    "24",
+    "46",
+    "47"
+  ],
+  "count": 75,
+  "lieux": [
+    {
+      "slug": "abri-de-la-madeleine",
+      "nom": "Abri de la Madeleine"
+    },
+    {
+      "slug": "agen",
+      "nom": "Agen"
+    },
+    {
+      "slug": "assier",
+      "nom": "Assier"
+    },
+    {
+      "slug": "autoire",
+      "nom": "Autoire"
+    },
+    {
+      "slug": "beauville",
+      "nom": "Beauville"
+    },
+    {
+      "slug": "belves",
+      "nom": "Belvès"
+    },
+    {
+      "slug": "beynac-et-cazenac",
+      "nom": "Beynac-et-Cazenac"
+    },
+    {
+      "slug": "boucle-de-cap-de-fer",
+      "nom": "Boucle de Cap de fer"
+    },
+    {
+      "slug": "boucle-de-la-foret",
+      "nom": "Boucle de la Forêt"
+    },
+    {
+      "slug": "boucle-de-saint-georges-blancaneix",
+      "nom": "Boucle de Saint-Georges-Blancaneix"
+    },
+    {
+      "slug": "boucle-des-etangs",
+      "nom": "Boucle des Étangs"
+    },
+    {
+      "slug": "boucle-du-polissoir",
+      "nom": "Boucle du Polissoir"
+    },
+    {
+      "slug": "boucle-du-rocher-du-corbeau",
+      "nom": "Boucle du rocher du corbeau"
+    },
+    {
+      "slug": "bretenoux",
+      "nom": "Bretenoux"
+    },
+    {
+      "slug": "buzet-sur-baise",
+      "nom": "Buzet-sur-Baïse"
+    },
+    {
+      "slug": "cabrerets",
+      "nom": "Cabrerets"
+    },
+    {
+      "slug": "cahors",
+      "nom": "Cahors"
+    },
+    {
+      "slug": "capdenac",
+      "nom": "Capdenac"
+    },
+    {
+      "slug": "cardaillac",
+      "nom": "Cardaillac"
+    },
+    {
+      "slug": "carennac",
+      "nom": "Carennac"
+    },
+    {
+      "slug": "casteljaloux",
+      "nom": "Casteljaloux"
+    },
+    {
+      "slug": "castelnaud-la-chapelle",
+      "nom": "Castelnaud-la-Chapelle"
+    },
+    {
+      "slug": "chateau-de-biron",
+      "nom": "Château de Biron"
+    },
+    {
+      "slug": "chateau-de-commarque",
+      "nom": "Château de Commarque"
+    },
+    {
+      "slug": "chateau-de-hautefort",
+      "nom": "Château de Hautefort"
+    },
+    {
+      "slug": "circuit-de-la-cevenne-de-bears",
+      "nom": "Circuit de la Cévenne de Bears"
+    },
+    {
+      "slug": "circuit-de-la-fontaine-de-paillas",
+      "nom": "Circuit de la fontaine de Paillas"
+    },
+    {
+      "slug": "circuit-de-lolmie",
+      "nom": "Circuit de Lolmie"
+    },
+    {
+      "slug": "circuit-de-martignac",
+      "nom": "Circuit de Martignac"
+    },
+    {
+      "slug": "circuit-des-4-croix",
+      "nom": "Circuit des 4 croix"
+    },
+    {
+      "slug": "circuit-des-chemins-anciens-de-pern",
+      "nom": "Circuit des chemins anciens de Pern"
+    },
+    {
+      "slug": "circuit-du-cap-de-la-cevenne",
+      "nom": "Circuit du Cap de la Cévenne"
+    },
+    {
+      "slug": "circuit-du-lissourgues",
+      "nom": "Circuit du Lissourgues"
+    },
+    {
+      "slug": "domme",
+      "nom": "Domme"
+    },
+    {
+      "slug": "duras",
+      "nom": "Duras"
+    },
+    {
+      "slug": "figeac",
+      "nom": "Figeac"
+    },
+    {
+      "slug": "fumel",
+      "nom": "Fumel"
+    },
+    {
+      "slug": "grotte-de-lascaux",
+      "nom": "Grotte de Lascaux"
+    },
+    {
+      "slug": "jardins-de-marqueyssac",
+      "nom": "Jardins de Marqueyssac"
+    },
+    {
+      "slug": "la-boucle-du-segala",
+      "nom": "La boucle du Ségala"
+    },
+    {
+      "slug": "la-romieu",
+      "nom": "La Romieu"
+    },
+    {
+      "slug": "la-roque-gageac",
+      "nom": "La Roque-Gageac"
+    },
+    {
+      "slug": "lac-de-clarens",
+      "nom": "Lac de Clarens"
+    },
+    {
+      "slug": "le-bugue",
+      "nom": "Le Bugue"
+    },
+    {
+      "slug": "le-vert-la-belle-et-les-chateaux",
+      "nom": "Le Vert, la belle et les châteaux"
+    },
+    {
+      "slug": "les-dolmens-de-limogne-en-quercy",
+      "nom": "Les dolmens de Limogne-en-Quercy"
+    },
+    {
+      "slug": "les-eyzies-de-tayac-sireuil",
+      "nom": "Les Eyzies-de-Tayac-Sireuil"
+    },
+    {
+      "slug": "limeuil",
+      "nom": "Limeuil"
+    },
+    {
+      "slug": "loubressac",
+      "nom": "Loubressac"
+    },
+    {
+      "slug": "luzech",
+      "nom": "Luzech"
+    },
+    {
+      "slug": "marmande",
+      "nom": "Marmande"
+    },
+    {
+      "slug": "martel",
+      "nom": "Martel"
+    },
+    {
+      "slug": "monflanquin",
+      "nom": "Monflanquin"
+    },
+    {
+      "slug": "monpazier",
+      "nom": "Monpazier"
+    },
+    {
+      "slug": "nerac",
+      "nom": "Nérac"
+    },
+    {
+      "slug": "penne-dagenais",
+      "nom": "Penne-d'Agenais"
+    },
+    {
+      "slug": "plage-de-gluges",
+      "nom": "Plage de Gluges"
+    },
+    {
+      "slug": "plage-de-neuvic",
+      "nom": "Plage de Neuvic"
+    },
+    {
+      "slug": "prayssac",
+      "nom": "Prayssac"
+    },
+    {
+      "slug": "pujols",
+      "nom": "Pujols"
+    },
+    {
+      "slug": "puy-leveque",
+      "nom": "Puy-l'Évêque"
+    },
+    {
+      "slug": "rocamadour",
+      "nom": "Rocamadour"
+    },
+    {
+      "slug": "rouffignac-saint-cernin-de-reilhac",
+      "nom": "Rouffignac-Saint-Cernin-de-Reilhac"
+    },
+    {
+      "slug": "saint-amand-de-coly",
+      "nom": "Saint-Amand-de-Coly"
+    },
+    {
+      "slug": "saint-cirq",
+      "nom": "Saint-Cirq"
+    },
+    {
+      "slug": "saint-cirq-lapopie",
+      "nom": "Saint-Cirq-Lapopie"
+    },
+    {
+      "slug": "saint-jean-de-cole",
+      "nom": "Saint-Jean-de-Côle"
+    },
+    {
+      "slug": "saint-leon-sur-vezere",
+      "nom": "Saint-Léon-sur-Vézère"
+    },
+    {
+      "slug": "saint-pierre-toirac",
+      "nom": "Saint-Pierre-Toirac"
+    },
+    {
+      "slug": "sarlat-la-caneda",
+      "nom": "Sarlat-la-Canéda"
+    },
+    {
+      "slug": "sentier-des-truffes",
+      "nom": "Sentier des truffes"
+    },
+    {
+      "slug": "souillac",
+      "nom": "Souillac"
+    },
+    {
+      "slug": "varaire",
+      "nom": "Varaire"
+    },
+    {
+      "slug": "vianne",
+      "nom": "Vianne"
+    },
+    {
+      "slug": "villeneuve-sur-lot",
+      "nom": "Villeneuve-sur-Lot"
+    }
+  ]
+}

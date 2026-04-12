@@ -1,0 +1,289 @@
+{
+  "regionId": "poitou-saintonge",
+  "name": "Poitou et Saintonge",
+  "deptCodes": [
+    "16",
+    "17",
+    "79",
+    "86"
+  ],
+  "count": 69,
+  "lieux": [
+    {
+      "slug": "airvault",
+      "nom": "Airvault"
+    },
+    {
+      "slug": "angles-sur-langlin",
+      "nom": "Angles-sur-l'Anglin"
+    },
+    {
+      "slug": "angouleme",
+      "nom": "Angoulême"
+    },
+    {
+      "slug": "ars-en-re",
+      "nom": "Ars-en-Ré"
+    },
+    {
+      "slug": "aubeterre-sur-dronne",
+      "nom": "Aubeterre-sur-Dronne"
+    },
+    {
+      "slug": "availles-limouzine",
+      "nom": "Availles-Limouzine"
+    },
+    {
+      "slug": "barbezieux-saint-hilaire",
+      "nom": "Barbezieux-Saint-Hilaire"
+    },
+    {
+      "slug": "bayers",
+      "nom": "Bayers"
+    },
+    {
+      "slug": "brouage",
+      "nom": "Brouage"
+    },
+    {
+      "slug": "celles-sur-belle",
+      "nom": "Celles-sur-Belle"
+    },
+    {
+      "slug": "chateau-de-bayers",
+      "nom": "Château de Bayers"
+    },
+    {
+      "slug": "chateau-de-la-rochefoucauld",
+      "nom": "Château de La Rochefoucauld"
+    },
+    {
+      "slug": "chatellerault",
+      "nom": "Châtellerault"
+    },
+    {
+      "slug": "chauvigny",
+      "nom": "Chauvigny"
+    },
+    {
+      "slug": "civray",
+      "nom": "Civray"
+    },
+    {
+      "slug": "cognac",
+      "nom": "Cognac"
+    },
+    {
+      "slug": "coulon",
+      "nom": "Coulon"
+    },
+    {
+      "slug": "crazannes",
+      "nom": "Crazannes"
+    },
+    {
+      "slug": "dissay",
+      "nom": "Dissay"
+    },
+    {
+      "slug": "esnandes",
+      "nom": "Esnandes"
+    },
+    {
+      "slug": "fouras",
+      "nom": "Fouras"
+    },
+    {
+      "slug": "grande-plage-doleron",
+      "nom": "Grande Plage d'Oléron"
+    },
+    {
+      "slug": "ile-doleron",
+      "nom": "Île d'Oléron"
+    },
+    {
+      "slug": "ile-de-re",
+      "nom": "Île de Ré"
+    },
+    {
+      "slug": "jarnac",
+      "nom": "Jarnac"
+    },
+    {
+      "slug": "la-flotte",
+      "nom": "La Flotte"
+    },
+    {
+      "slug": "la-mothe-saint-heray",
+      "nom": "La Mothe-Saint-Héray"
+    },
+    {
+      "slug": "la-roche-posay",
+      "nom": "La Roche-Posay"
+    },
+    {
+      "slug": "la-rochefoucauld",
+      "nom": "La Rochefoucauld"
+    },
+    {
+      "slug": "la-rochelle",
+      "nom": "La Rochelle"
+    },
+    {
+      "slug": "lussac-les-chateaux",
+      "nom": "Lussac-les-Châteaux"
+    },
+    {
+      "slug": "mansle",
+      "nom": "Mansle"
+    },
+    {
+      "slug": "marennes",
+      "nom": "Marennes"
+    },
+    {
+      "slug": "mauleon",
+      "nom": "Mauléon"
+    },
+    {
+      "slug": "melle",
+      "nom": "Melle"
+    },
+    {
+      "slug": "mirebeau",
+      "nom": "Mirebeau"
+    },
+    {
+      "slug": "montbron",
+      "nom": "Montbron"
+    },
+    {
+      "slug": "montmorillon",
+      "nom": "Montmorillon"
+    },
+    {
+      "slug": "mornac-sur-seudre",
+      "nom": "Mornac-sur-Seudre"
+    },
+    {
+      "slug": "niort",
+      "nom": "Niort"
+    },
+    {
+      "slug": "pamproux",
+      "nom": "Pamproux"
+    },
+    {
+      "slug": "parc-naturel-regional-perigord-limousin",
+      "nom": "Parc naturel régional Périgord-Limousin"
+    },
+    {
+      "slug": "parthenay",
+      "nom": "Parthenay"
+    },
+    {
+      "slug": "plage-de-chatelaillon",
+      "nom": "Plage de Chatelaillon"
+    },
+    {
+      "slug": "plage-de-la-concurrence",
+      "nom": "Plage de la Concurrence"
+    },
+    {
+      "slug": "plage-de-la-cote-sauvage",
+      "nom": "Plage de la Côté Sauvage"
+    },
+    {
+      "slug": "plage-de-la-grande-cote",
+      "nom": "Plage de la Grande Côte"
+    },
+    {
+      "slug": "plage-de-nauzan",
+      "nom": "Plage de Nauzan"
+    },
+    {
+      "slug": "plage-de-pontaillac",
+      "nom": "Plage de Pontaillac"
+    },
+    {
+      "slug": "plage-des-nonnes",
+      "nom": "Plage des Nonnes"
+    },
+    {
+      "slug": "poitiers",
+      "nom": "Poitiers"
+    },
+    {
+      "slug": "port-des-barques",
+      "nom": "Port-des-Barques"
+    },
+    {
+      "slug": "rochefort",
+      "nom": "Rochefort"
+    },
+    {
+      "slug": "royan",
+      "nom": "Royan"
+    },
+    {
+      "slug": "ruffec",
+      "nom": "Ruffec"
+    },
+    {
+      "slug": "saint-benoit",
+      "nom": "Saint-Benoît"
+    },
+    {
+      "slug": "saint-loup-lamaire",
+      "nom": "Saint-Loup-Lamairé"
+    },
+    {
+      "slug": "saint-maixent-lecole",
+      "nom": "Saint-Maixent-l'École"
+    },
+    {
+      "slug": "saint-martin-de-re",
+      "nom": "Saint-Martin-de-Ré"
+    },
+    {
+      "slug": "saint-palais-sur-mer",
+      "nom": "Saint-Palais-sur-Mer"
+    },
+    {
+      "slug": "saint-savin",
+      "nom": "Saint-Savin"
+    },
+    {
+      "slug": "saintes",
+      "nom": "Saintes"
+    },
+    {
+      "slug": "sentier-du-littoral---rivedoux-plage",
+      "nom": "Sentier du Littoral - Rivedoux-Plage"
+    },
+    {
+      "slug": "talmont-sur-gironde",
+      "nom": "Talmont-sur-Gironde"
+    },
+    {
+      "slug": "thouars",
+      "nom": "Thouars"
+    },
+    {
+      "slug": "toste",
+      "nom": "Toste"
+    },
+    {
+      "slug": "verteuil-sur-charente",
+      "nom": "Verteuil-sur-Charente"
+    },
+    {
+      "slug": "villebois-lavalette",
+      "nom": "Villebois-Lavalette"
+    },
+    {
+      "slug": "vouneuil-sur-vienne",
+      "nom": "Vouneuil-sur-Vienne"
+    }
+  ]
+}

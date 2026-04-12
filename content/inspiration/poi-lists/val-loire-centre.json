@@ -1,0 +1,375 @@
+{
+  "regionId": "val-loire-centre",
+  "name": "Val de Loire et Centre",
+  "deptCodes": [
+    "18",
+    "28",
+    "36",
+    "37",
+    "41",
+    "45"
+  ],
+  "count": 90,
+  "lieux": [
+    {
+      "slug": "abbaye-de-noirlac",
+      "nom": "Abbaye de Noirlac"
+    },
+    {
+      "slug": "abbaye-royale-de-fontevraud",
+      "nom": "Abbaye Royale de Fontevraud"
+    },
+    {
+      "slug": "apremont-sur-allier",
+      "nom": "Apremont-sur-Allier"
+    },
+    {
+      "slug": "argenton-sur-creuse",
+      "nom": "Argenton-sur-Creuse"
+    },
+    {
+      "slug": "base-de-loisirs-detampes",
+      "nom": "Base de loisirs d'Étampes"
+    },
+    {
+      "slug": "bazelle-saint-julien-sur-cher",
+      "nom": "Bazelle, Saint-Julien-sur-Cher"
+    },
+    {
+      "slug": "beaugency",
+      "nom": "Beaugency"
+    },
+    {
+      "slug": "beaugency",
+      "nom": "Beaugency"
+    },
+    {
+      "slug": "beaulieu-les-loches",
+      "nom": "Beaulieu-lès-Loches"
+    },
+    {
+      "slug": "beaune",
+      "nom": "Beaune"
+    },
+    {
+      "slug": "bonneval",
+      "nom": "Bonneval"
+    },
+    {
+      "slug": "bourg-de-richelieu",
+      "nom": "Bourg de Richelieu"
+    },
+    {
+      "slug": "bourges",
+      "nom": "Bourges"
+    },
+    {
+      "slug": "briare",
+      "nom": "Briare"
+    },
+    {
+      "slug": "candes-saint-martin",
+      "nom": "Candes-Saint-Martin"
+    },
+    {
+      "slug": "cellettes",
+      "nom": "Cellettes"
+    },
+    {
+      "slug": "chailles",
+      "nom": "Chailles"
+    },
+    {
+      "slug": "chartres",
+      "nom": "Chartres"
+    },
+    {
+      "slug": "chateau-damboise",
+      "nom": "Château d'Amboise"
+    },
+    {
+      "slug": "chateau-danet",
+      "nom": "Château d'Anet"
+    },
+    {
+      "slug": "chateau-dazay-le-rideau",
+      "nom": "Château d'Azay-le-Rideau"
+    },
+    {
+      "slug": "chateau-de-blois",
+      "nom": "Château de Blois"
+    },
+    {
+      "slug": "chateau-de-boucard",
+      "nom": "Château de Boucard"
+    },
+    {
+      "slug": "chateau-de-bouges",
+      "nom": "Château de Bouges"
+    },
+    {
+      "slug": "chateau-de-chambord",
+      "nom": "Château de Chambord"
+    },
+    {
+      "slug": "chateau-de-chaumont-sur-loire",
+      "nom": "Château de Chaumont-sur-Loire"
+    },
+    {
+      "slug": "chateau-de-chenonceau",
+      "nom": "Château de Chenonceau"
+    },
+    {
+      "slug": "chateau-de-cheverny",
+      "nom": "Château de Cheverny"
+    },
+    {
+      "slug": "chateau-de-chinon",
+      "nom": "Château de Chinon"
+    },
+    {
+      "slug": "chateau-de-fougeres-sur-bievre",
+      "nom": "Château de Fougères-sur-Bièvre"
+    },
+    {
+      "slug": "chateau-de-la-verrerie",
+      "nom": "Château de La Verrerie"
+    },
+    {
+      "slug": "chateau-de-langeais",
+      "nom": "Château de Langeais"
+    },
+    {
+      "slug": "chateau-de-loches",
+      "nom": "Château de Loches"
+    },
+    {
+      "slug": "chateau-de-maintenon",
+      "nom": "Château de Maintenon"
+    },
+    {
+      "slug": "chateau-de-meillant",
+      "nom": "Château de Meillant"
+    },
+    {
+      "slug": "chateau-de-menetou-salon",
+      "nom": "Château de Menetou-Salon"
+    },
+    {
+      "slug": "chateau-de-talcy",
+      "nom": "Château de Talcy"
+    },
+    {
+      "slug": "chateau-de-valencay",
+      "nom": "Château de Valençay"
+    },
+    {
+      "slug": "chateau-de-villandry",
+      "nom": "Château de Villandry"
+    },
+    {
+      "slug": "chateau-de-villesavin",
+      "nom": "Château de Villesavin"
+    },
+    {
+      "slug": "chateaudun",
+      "nom": "Châteaudun"
+    },
+    {
+      "slug": "chateauneuf-sur-loire",
+      "nom": "Châteauneuf-sur-Loire"
+    },
+    {
+      "slug": "chateauroux",
+      "nom": "Châteauroux"
+    },
+    {
+      "slug": "cite-medievale-de-mennetou-sur-cher",
+      "nom": "Cité médiévale de Mennetou-sur-Cher"
+    },
+    {
+      "slug": "crissay-sur-manse",
+      "nom": "Crissay-sur-Manse"
+    },
+    {
+      "slug": "dreux",
+      "nom": "Dreux"
+    },
+    {
+      "slug": "gargilesse-dampierre",
+      "nom": "Gargilesse-Dampierre"
+    },
+    {
+      "slug": "gien",
+      "nom": "Gien"
+    },
+    {
+      "slug": "henrichemont",
+      "nom": "Henrichemont"
+    },
+    {
+      "slug": "illiers-combray",
+      "nom": "Illiers-Combray"
+    },
+    {
+      "slug": "issoudun",
+      "nom": "Issoudun"
+    },
+    {
+      "slug": "la-borne",
+      "nom": "La Borne"
+    },
+    {
+      "slug": "la-fayette-dans-la-vallee-de-lindre---reignac-sur-indre-azay-sur-indre",
+      "nom": "La Fayette dans la Vallée de l'Indre - Reignac-sur-Indre, Azay-sur-Indre"
+    },
+    {
+      "slug": "la-ferte-saint-aubin",
+      "nom": "La Ferté-Saint-Aubin"
+    },
+    {
+      "slug": "la-ferte-vidame",
+      "nom": "La Ferté-Vidame"
+    },
+    {
+      "slug": "lavardin",
+      "nom": "Lavardin"
+    },
+    {
+      "slug": "le-blanc",
+      "nom": "Le Blanc"
+    },
+    {
+      "slug": "le-loir-en-vallee",
+      "nom": "Le Loir en Vallée"
+    },
+    {
+      "slug": "les-lavandieres---artannes-sur-indre",
+      "nom": "Les Lavandières - Artannes-sur-Indre"
+    },
+    {
+      "slug": "lorris",
+      "nom": "Lorris"
+    },
+    {
+      "slug": "lunery",
+      "nom": "Lunery"
+    },
+    {
+      "slug": "luynes",
+      "nom": "Luynes"
+    },
+    {
+      "slug": "maison-de-george-sand",
+      "nom": "Maison de George Sand"
+    },
+    {
+      "slug": "meung-sur-loire",
+      "nom": "Meung-sur-Loire"
+    },
+    {
+      "slug": "montargis",
+      "nom": "Montargis"
+    },
+    {
+      "slug": "montresor",
+      "nom": "Montrésor"
+    },
+    {
+      "slug": "montrichard",
+      "nom": "Montrichard"
+    },
+    {
+      "slug": "nancay",
+      "nom": "Nançay"
+    },
+    {
+      "slug": "nogent-le-rotrou",
+      "nom": "Nogent-le-Rotrou"
+    },
+    {
+      "slug": "orleans",
+      "nom": "Orléans"
+    },
+    {
+      "slug": "parc-naturel-regional-de-la-brenne",
+      "nom": "Parc naturel régional de la Brenne"
+    },
+    {
+      "slug": "pithiviers",
+      "nom": "Pithiviers"
+    },
+    {
+      "slug": "plage-de-bellebouche",
+      "nom": "Plage de Bellebouche"
+    },
+    {
+      "slug": "pontlevoy",
+      "nom": "Pontlevoy"
+    },
+    {
+      "slug": "saint-aignan-sur-cher",
+      "nom": "Saint-Aignan-sur-Cher"
+    },
+    {
+      "slug": "saint-benoit-du-sault",
+      "nom": "Saint-Benoît-du-Sault"
+    },
+    {
+      "slug": "saint-benoit-sur-loire",
+      "nom": "Saint-Benoît-sur-Loire"
+    },
+    {
+      "slug": "sainte-anne",
+      "nom": "Sainte-Anne"
+    },
+    {
+      "slug": "sainte-maure-de-touraine",
+      "nom": "Sainte-Maure-de-Touraine"
+    },
+    {
+      "slug": "sancerre",
+      "nom": "Sancerre"
+    },
+    {
+      "slug": "senonches",
+      "nom": "Senonches"
+    },
+    {
+      "slug": "sentier-saint-georges---rochecorbon",
+      "nom": "Sentier Saint Georges - Rochecorbon"
+    },
+    {
+      "slug": "sologne-des-etangs",
+      "nom": "Sologne des Étangs"
+    },
+    {
+      "slug": "sully-sur-loire",
+      "nom": "Sully-sur-Loire"
+    },
+    {
+      "slug": "thiron-gardais",
+      "nom": "Thiron-Gardais"
+    },
+    {
+      "slug": "tours",
+      "nom": "Tours"
+    },
+    {
+      "slug": "vendome",
+      "nom": "Vendôme"
+    },
+    {
+      "slug": "vierzon",
+      "nom": "Vierzon"
+    },
+    {
+      "slug": "villaines-les-rochers",
+      "nom": "Villaines-les-Rochers"
+    },
+    {
+      "slug": "yevre-le-chatel",
+      "nom": "Yèvre-le-Châtel"
+    }
+  ]
+}

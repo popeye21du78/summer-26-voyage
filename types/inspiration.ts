@@ -60,4 +60,15 @@ export type InspirationStackEntry =
   | { screen: "region-explore"; regionId: string }
   | { screen: "poi-detail"; regionId: string; territoryId: string }
   | { screen: "star-list"; regionId: string }
-  | { screen: "star-detail"; regionId: string; itineraryId: string };
+  | {
+      screen: "star-detail";
+      regionId: string;
+      kind: "legacy";
+      itineraryId: string;
+    }
+  | {
+      screen: "star-detail";
+      regionId: string;
+      kind: "editorial";
+      editorialSlug: string;
+    };

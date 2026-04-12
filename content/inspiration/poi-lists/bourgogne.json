@@ -1,0 +1,305 @@
+{
+  "regionId": "bourgogne",
+  "name": "Bourgogne",
+  "deptCodes": [
+    "21",
+    "58",
+    "71",
+    "89"
+  ],
+  "count": 73,
+  "lieux": [
+    {
+      "slug": "abbaye-de-citeaux",
+      "nom": "Abbaye de Cîteaux"
+    },
+    {
+      "slug": "abbaye-de-fontenay",
+      "nom": "Abbaye de Fontenay"
+    },
+    {
+      "slug": "abbaye-de-reigny-vermenton",
+      "nom": "Abbaye de Reigny, Vermenton"
+    },
+    {
+      "slug": "alesia",
+      "nom": "Alesia"
+    },
+    {
+      "slug": "alesia-dun-camp-a-lautre",
+      "nom": "Alésia d'un camp à l'autre"
+    },
+    {
+      "slug": "autun",
+      "nom": "Autun"
+    },
+    {
+      "slug": "autun",
+      "nom": "Autun"
+    },
+    {
+      "slug": "auxerre",
+      "nom": "Auxerre"
+    },
+    {
+      "slug": "avallon",
+      "nom": "Avallon"
+    },
+    {
+      "slug": "beaune",
+      "nom": "Beaune"
+    },
+    {
+      "slug": "brancion",
+      "nom": "Brancion"
+    },
+    {
+      "slug": "chablis",
+      "nom": "Chablis"
+    },
+    {
+      "slug": "chalon-sur-saone",
+      "nom": "Chalon-sur-Saône"
+    },
+    {
+      "slug": "charite-sur-loire",
+      "nom": "Charité-sur-Loire"
+    },
+    {
+      "slug": "chateau-de-bazoches",
+      "nom": "Château de Bazoches"
+    },
+    {
+      "slug": "chateau-de-bussy-rabutin",
+      "nom": "Château de Bussy-Rabutin"
+    },
+    {
+      "slug": "chateau-de-chateauneuf-en-auxois",
+      "nom": "Château de Châteauneuf-en-Auxois"
+    },
+    {
+      "slug": "chateau-de-commarin",
+      "nom": "Château de Commarin"
+    },
+    {
+      "slug": "chateau-de-cormatin",
+      "nom": "Château de Cormatin"
+    },
+    {
+      "slug": "chateau-de-dree",
+      "nom": "Château de Drée"
+    },
+    {
+      "slug": "chateau-de-germolles",
+      "nom": "Château de Germolles"
+    },
+    {
+      "slug": "chateau-de-la-clayette",
+      "nom": "Château de La Clayette"
+    },
+    {
+      "slug": "chateau-de-la-rochepot",
+      "nom": "Château de La Rochepot"
+    },
+    {
+      "slug": "chateau-de-ratilly-treigny",
+      "nom": "Château de Ratilly, Treigny"
+    },
+    {
+      "slug": "chateau-de-tanlay",
+      "nom": "Château de Tanlay"
+    },
+    {
+      "slug": "chateau-de-tanlay-tanlay",
+      "nom": "Château de Tanlay, Tanlay"
+    },
+    {
+      "slug": "chateau-chinon",
+      "nom": "Château-Chinon"
+    },
+    {
+      "slug": "chateauneuf",
+      "nom": "Châteauneuf"
+    },
+    {
+      "slug": "clamecy",
+      "nom": "Clamecy"
+    },
+    {
+      "slug": "cluny",
+      "nom": "Cluny"
+    },
+    {
+      "slug": "decize",
+      "nom": "Decize"
+    },
+    {
+      "slug": "dijon",
+      "nom": "Dijon"
+    },
+    {
+      "slug": "flavigny-sur-ozerain",
+      "nom": "Flavigny-sur-Ozerain"
+    },
+    {
+      "slug": "foret-de-chaux",
+      "nom": "Forêt de Chaux"
+    },
+    {
+      "slug": "guedelon",
+      "nom": "Guédelon"
+    },
+    {
+      "slug": "joigny",
+      "nom": "Joigny"
+    },
+    {
+      "slug": "la-charite-sur-loire",
+      "nom": "La Charité-sur-Loire"
+    },
+    {
+      "slug": "la-roche-de-solutre",
+      "nom": "La Roche de Solutré"
+    },
+    {
+      "slug": "la-ronde-des-mineurs",
+      "nom": "La Ronde des Mineurs"
+    },
+    {
+      "slug": "lac-du-bourdon",
+      "nom": "Lac du Bourdon"
+    },
+    {
+      "slug": "le-chemin-des-4-chataigniers",
+      "nom": "Le chemin des 4 chataigniers"
+    },
+    {
+      "slug": "le-jeu-et-les-moulins",
+      "nom": "Le Jeu et les Moulins"
+    },
+    {
+      "slug": "les-bois-de-la-chapelle",
+      "nom": "Les bois de la Chapelle"
+    },
+    {
+      "slug": "les-coteaux-depineuil",
+      "nom": "Les coteaux d'Epineuil"
+    },
+    {
+      "slug": "les-quatre-vents",
+      "nom": "Les quatre vents"
+    },
+    {
+      "slug": "lormes",
+      "nom": "Lormes"
+    },
+    {
+      "slug": "macon",
+      "nom": "Mâcon"
+    },
+    {
+      "slug": "mailly-le-chateau",
+      "nom": "Mailly-le-Château"
+    },
+    {
+      "slug": "migennes",
+      "nom": "Migennes"
+    },
+    {
+      "slug": "montagne-de-beaune",
+      "nom": "Montagne de Beaune"
+    },
+    {
+      "slug": "montbard",
+      "nom": "Montbard"
+    },
+    {
+      "slug": "montceau-les-mines",
+      "nom": "Montceau-les-Mines"
+    },
+    {
+      "slug": "moulins-engilbert",
+      "nom": "Moulins-Engilbert"
+    },
+    {
+      "slug": "musee-des-beaux-arts-de-dijon",
+      "nom": "Musée des Beaux-Arts de Dijon"
+    },
+    {
+      "slug": "n2-long---autour-de-les-clerimois",
+      "nom": "N°2 long - Autour de Les Clérimois"
+    },
+    {
+      "slug": "nevers",
+      "nom": "Nevers"
+    },
+    {
+      "slug": "noyers",
+      "nom": "Noyers"
+    },
+    {
+      "slug": "paray-le-monial",
+      "nom": "Paray-le-Monial"
+    },
+    {
+      "slug": "plage-de-baye",
+      "nom": "Plage de Baye"
+    },
+    {
+      "slug": "plage-du-lac-de-laives",
+      "nom": "Plage du Lac de Laives"
+    },
+    {
+      "slug": "pontigny",
+      "nom": "Pontigny"
+    },
+    {
+      "slug": "pouilly-sur-loire",
+      "nom": "Pouilly-sur-Loire"
+    },
+    {
+      "slug": "saint-fargeau",
+      "nom": "Saint-Fargeau"
+    },
+    {
+      "slug": "saint-gengoux-le-national",
+      "nom": "Saint-Gengoux-le-National"
+    },
+    {
+      "slug": "saint-saulge",
+      "nom": "Saint-Saulge"
+    },
+    {
+      "slug": "saint-sauveur-en-puisaye",
+      "nom": "Saint-Sauveur-en-Puisaye"
+    },
+    {
+      "slug": "semur-en-auxois",
+      "nom": "Semur-en-Auxois"
+    },
+    {
+      "slug": "semur-en-brionnais",
+      "nom": "Semur-en-Brionnais"
+    },
+    {
+      "slug": "sentier-jean-montmey",
+      "nom": "Sentier Jean Montmey"
+    },
+    {
+      "slug": "sully",
+      "nom": "Sully"
+    },
+    {
+      "slug": "tournus",
+      "nom": "Tournus"
+    },
+    {
+      "slug": "vezelay",
+      "nom": "Vézelay"
+    },
+    {
+      "slug": "via-cluny-etape-25",
+      "nom": "Via Cluny Etape 25"
+    }
+  ]
+}

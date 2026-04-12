@@ -1,0 +1,574 @@
+{
+  "regionId": "languedoc-roussillon",
+  "name": "Languedoc et Roussillon",
+  "deptCodes": [
+    "11",
+    "30",
+    "34",
+    "66",
+    "81"
+  ],
+  "count": 140,
+  "lieux": [
+    {
+      "slug": "agde",
+      "nom": "Agde"
+    },
+    {
+      "slug": "aigues-mortes",
+      "nom": "Aigues-Mortes"
+    },
+    {
+      "slug": "aigueze",
+      "nom": "Aiguèze"
+    },
+    {
+      "slug": "albi",
+      "nom": "Albi"
+    },
+    {
+      "slug": "ambialet",
+      "nom": "Ambialet"
+    },
+    {
+      "slug": "anduze",
+      "nom": "Anduze"
+    },
+    {
+      "slug": "bages",
+      "nom": "Bages"
+    },
+    {
+      "slug": "bagnols-sur-ceze",
+      "nom": "Bagnols-sur-Cèze"
+    },
+    {
+      "slug": "beaucaire",
+      "nom": "Beaucaire"
+    },
+    {
+      "slug": "beziers",
+      "nom": "Béziers"
+    },
+    {
+      "slug": "boucle-des-etangs-du-carlit-variante-9-lacs",
+      "nom": "Boucle des etangs du Carlit (variante 9 lacs)"
+    },
+    {
+      "slug": "bruniquel",
+      "nom": "Bruniquel"
+    },
+    {
+      "slug": "camprieu",
+      "nom": "Camprieu"
+    },
+    {
+      "slug": "carcassonne",
+      "nom": "Carcassonne"
+    },
+    {
+      "slug": "castelnau-de-montmiral",
+      "nom": "Castelnau-de-Montmiral"
+    },
+    {
+      "slug": "castelnou",
+      "nom": "Castelnou"
+    },
+    {
+      "slug": "ceret",
+      "nom": "Céret"
+    },
+    {
+      "slug": "chalabre",
+      "nom": "Chalabre"
+    },
+    {
+      "slug": "chateau-de-montalet",
+      "nom": "Château de Montalet"
+    },
+    {
+      "slug": "clermont-lherault",
+      "nom": "Clermont-l'Hérault"
+    },
+    {
+      "slug": "collioure",
+      "nom": "Collioure"
+    },
+    {
+      "slug": "cordes-sur-ciel",
+      "nom": "Cordes-sur-Ciel"
+    },
+    {
+      "slug": "crique-de-la-conque",
+      "nom": "Crique de la Conque"
+    },
+    {
+      "slug": "dun-gardon-a-lautre",
+      "nom": "D'un Gardon à l'autre"
+    },
+    {
+      "slug": "eus",
+      "nom": "Eus"
+    },
+    {
+      "slug": "faugeres",
+      "nom": "Faugères"
+    },
+    {
+      "slug": "fleur-de-sel",
+      "nom": "Fleur de Sel"
+    },
+    {
+      "slug": "fontfouillouse",
+      "nom": "Fontfouillouse"
+    },
+    {
+      "slug": "fontfroide",
+      "nom": "Fontfroide"
+    },
+    {
+      "slug": "gaillac",
+      "nom": "Gaillac"
+    },
+    {
+      "slug": "gruissan",
+      "nom": "Gruissan"
+    },
+    {
+      "slug": "ille-sur-tet",
+      "nom": "Ille-sur-Têt"
+    },
+    {
+      "slug": "la-grande-motte",
+      "nom": "La Grande-Motte"
+    },
+    {
+      "slug": "la-roque-sur-ceze",
+      "nom": "La Roque-sur-Cèze"
+    },
+    {
+      "slug": "la-vajol-al-santuari-i-al-puig-de-les-salines",
+      "nom": "La Vajol al Santuari i al Puig de les Salines"
+    },
+    {
+      "slug": "lagrasse",
+      "nom": "Lagrasse"
+    },
+    {
+      "slug": "larroque",
+      "nom": "Larroque"
+    },
+    {
+      "slug": "lastours",
+      "nom": "Lastours"
+    },
+    {
+      "slug": "lautrec",
+      "nom": "Lautrec"
+    },
+    {
+      "slug": "lavaur",
+      "nom": "Lavaur"
+    },
+    {
+      "slug": "le-canigou",
+      "nom": "Le Canigou"
+    },
+    {
+      "slug": "le-gue-dhiverne",
+      "nom": "Le gué d'Hiverne"
+    },
+    {
+      "slug": "le-racou",
+      "nom": "Le Racou"
+    },
+    {
+      "slug": "le-roc-troue",
+      "nom": "Le roc troué"
+    },
+    {
+      "slug": "le-sommet-du-caroux",
+      "nom": "Le Sommet du Caroux"
+    },
+    {
+      "slug": "le-vialais",
+      "nom": "Le Vialaïs"
+    },
+    {
+      "slug": "les-croix-des-trois-eveques",
+      "nom": "Les croix des trois évêques"
+    },
+    {
+      "slug": "les-dolmens-de-lismael",
+      "nom": "Les dolmens de l’Ismaël"
+    },
+    {
+      "slug": "les-martys",
+      "nom": "Les Martys"
+    },
+    {
+      "slug": "les-rhododendrons",
+      "nom": "Les rhododendrons"
+    },
+    {
+      "slug": "limoux",
+      "nom": "Limoux"
+    },
+    {
+      "slug": "lodeve",
+      "nom": "Lodève"
+    },
+    {
+      "slug": "lussan",
+      "nom": "Lussan"
+    },
+    {
+      "slug": "marseillan",
+      "nom": "Marseillan"
+    },
+    {
+      "slug": "mazamet",
+      "nom": "Mazamet"
+    },
+    {
+      "slug": "minerve",
+      "nom": "Minerve"
+    },
+    {
+      "slug": "mollo-a-espinavell-coll-pregon-i-fabert-balconada-al-canigo",
+      "nom": "Molló a Espinavell, Coll Pregon i Fabert: balconada al Canigó"
+    },
+    {
+      "slug": "mollo-coll-dares",
+      "nom": "Molló Coll d'Ares"
+    },
+    {
+      "slug": "monesties",
+      "nom": "Monestiés"
+    },
+    {
+      "slug": "montclus",
+      "nom": "Montclus"
+    },
+    {
+      "slug": "montolieu",
+      "nom": "Montolieu"
+    },
+    {
+      "slug": "montpellier",
+      "nom": "Montpellier"
+    },
+    {
+      "slug": "monts-dalban",
+      "nom": "Monts d'Alban"
+    },
+    {
+      "slug": "mosset",
+      "nom": "Mosset"
+    },
+    {
+      "slug": "murviel-les-beziers",
+      "nom": "Murviel-lès-Béziers"
+    },
+    {
+      "slug": "narbonne",
+      "nom": "Narbonne"
+    },
+    {
+      "slug": "nimes",
+      "nom": "Nîmes"
+    },
+    {
+      "slug": "olargues",
+      "nom": "Olargues"
+    },
+    {
+      "slug": "penne",
+      "nom": "Penne"
+    },
+    {
+      "slug": "perpignan",
+      "nom": "Perpignan"
+    },
+    {
+      "slug": "petite-boucle-communaute-de-commune",
+      "nom": "Petite Boucle Communauté de commune"
+    },
+    {
+      "slug": "peyrepertuse",
+      "nom": "Peyrepertuse"
+    },
+    {
+      "slug": "pezenas",
+      "nom": "Pézenas"
+    },
+    {
+      "slug": "plage-dargent",
+      "nom": "Plage d'Argent"
+    },
+    {
+      "slug": "plage-de-banyuls-sur-mer",
+      "nom": "Plage de Banyuls-sur-Mer"
+    },
+    {
+      "slug": "plage-de-cerbere",
+      "nom": "Plage de Cerbère"
+    },
+    {
+      "slug": "plage-de-collioure",
+      "nom": "Plage de Collioure"
+    },
+    {
+      "slug": "plage-de-lespiguette",
+      "nom": "Plage de l'Espiguette"
+    },
+    {
+      "slug": "plage-de-lile-des-loisirs",
+      "nom": "Plage de l'Île des Loisirs"
+    },
+    {
+      "slug": "plage-de-la-corniche",
+      "nom": "Plage de la Corniche"
+    },
+    {
+      "slug": "plage-de-la-franqui",
+      "nom": "Plage de La Franqui"
+    },
+    {
+      "slug": "plage-de-la-marenda",
+      "nom": "Plage de la Marenda"
+    },
+    {
+      "slug": "plage-de-la-tamarissiere",
+      "nom": "Plage de la Tamarissière"
+    },
+    {
+      "slug": "plage-de-la-vieille-nouvelle",
+      "nom": "Plage de la Vieille Nouvelle"
+    },
+    {
+      "slug": "plage-de-leucate",
+      "nom": "Plage de Leucate"
+    },
+    {
+      "slug": "plage-de-maguelone",
+      "nom": "Plage de Maguelone"
+    },
+    {
+      "slug": "plage-de-paulilles",
+      "nom": "Plage de Paulilles"
+    },
+    {
+      "slug": "plage-de-sainte-cyprien",
+      "nom": "Plage de Sainte-Cyprien"
+    },
+    {
+      "slug": "plage-de-tautavel",
+      "nom": "Plage de Tautavel"
+    },
+    {
+      "slug": "plage-des-aresquiers",
+      "nom": "Plage des Aresquiers"
+    },
+    {
+      "slug": "plage-des-chalets",
+      "nom": "Plage des Chalets"
+    },
+    {
+      "slug": "plage-des-lazarets",
+      "nom": "Plage des Lazarets"
+    },
+    {
+      "slug": "plage-des-pins",
+      "nom": "Plage des Pins"
+    },
+    {
+      "slug": "plage-des-quilles",
+      "nom": "Plage des Quilles"
+    },
+    {
+      "slug": "plage-du-boucanet",
+      "nom": "Plage du Boucanet"
+    },
+    {
+      "slug": "plage-du-grand-travers",
+      "nom": "Plage du Grand Travers"
+    },
+    {
+      "slug": "plage-du-lac-de-la-bancalie",
+      "nom": "Plage du Lac de la Bancalié"
+    },
+    {
+      "slug": "plage-du-petit-travers",
+      "nom": "Plage du Petit Travers"
+    },
+    {
+      "slug": "plage-du-rouet",
+      "nom": "Plage du Rouet"
+    },
+    {
+      "slug": "plage-naturiste-dagde",
+      "nom": "Plage Naturiste d'Agde"
+    },
+    {
+      "slug": "pont-du-gard",
+      "nom": "Pont du Gard"
+    },
+    {
+      "slug": "port-la-nouvelle",
+      "nom": "Port-la-Nouvelle"
+    },
+    {
+      "slug": "portbou-querroig",
+      "nom": "Portbou-Querroig"
+    },
+    {
+      "slug": "prats-de-mollo-la-preste",
+      "nom": "Prats-de-Mollo-la-Preste"
+    },
+    {
+      "slug": "puycelsi",
+      "nom": "Puycelsi"
+    },
+    {
+      "slug": "rabastens",
+      "nom": "Rabastens"
+    },
+    {
+      "slug": "randonnee-de-la-trivalle-et-ses-variantes",
+      "nom": "Randonnée de la Trivalle et ses variantes"
+    },
+    {
+      "slug": "realmont",
+      "nom": "Réalmont"
+    },
+    {
+      "slug": "rennes-le-chateau",
+      "nom": "Rennes-le-Château"
+    },
+    {
+      "slug": "roquefort-des-corbieres",
+      "nom": "Roquefort-des-Corbières"
+    },
+    {
+      "slug": "ruta-dels-4-refugis-de-tramuntana-etapa-refugi-del-coll-de-banyuls--refugi-forn-de-calc",
+      "nom": "Ruta dels 4 refugis de Tramuntana. Etapa: Refugi del Coll de Banyuls <=> Refugi \"Forn de Calç\""
+    },
+    {
+      "slug": "saint-chinian",
+      "nom": "Saint-Chinian"
+    },
+    {
+      "slug": "saint-gilles",
+      "nom": "Saint-Gilles"
+    },
+    {
+      "slug": "saint-guilhem-le-desert",
+      "nom": "Saint-Guilhem-le-Désert"
+    },
+    {
+      "slug": "saint-guiral",
+      "nom": "Saint-Guiral"
+    },
+    {
+      "slug": "salses-le-chateau",
+      "nom": "Salses-le-Château"
+    },
+    {
+      "slug": "sentier-botanique",
+      "nom": "Sentier Botanique"
+    },
+    {
+      "slug": "sentier-brenac-lasserre-gourgaoura",
+      "nom": "Sentier Brenac-Lasserre-Gourgaoura"
+    },
+    {
+      "slug": "sentier-col-de-brenac-nez-de-lhomme-roc-de-capio",
+      "nom": "Sentier Col de Brenac-Nez de l’Homme-Roc de Capio"
+    },
+    {
+      "slug": "sentier-de-lescalege",
+      "nom": "Sentier de l'Escalège"
+    },
+    {
+      "slug": "sentier-des-cretes",
+      "nom": "Sentier des Crêtes"
+    },
+    {
+      "slug": "sentier-des-cretes-raccourci-des-vignes",
+      "nom": "Sentier des Crêtes, raccourci des Vignes"
+    },
+    {
+      "slug": "sentier-des-sources",
+      "nom": "Sentier des sources"
+    },
+    {
+      "slug": "sentier-les-cayrans",
+      "nom": "Sentier les Cayrans"
+    },
+    {
+      "slug": "sequia-de-puigcerda-enveig",
+      "nom": "Sèquia de Puigcerdà Enveig"
+    },
+    {
+      "slug": "sete",
+      "nom": "Sète"
+    },
+    {
+      "slug": "sommieres",
+      "nom": "Sommières"
+    },
+    {
+      "slug": "sources-de-la-salz",
+      "nom": "Sources de la Salz"
+    },
+    {
+      "slug": "sur-la-route-des-rutenes",
+      "nom": "Sur la route des Rutènes"
+    },
+    {
+      "slug": "tautavel",
+      "nom": "Tautavel"
+    },
+    {
+      "slug": "tc063-saneja-sant-marti-daravo-puigcerda",
+      "nom": "TC063 Saneja Sant Martí d'Aravó Puigcerdà"
+    },
+    {
+      "slug": "tc066-malniu-puigpedros-molleres-dengorgs",
+      "nom": "TC066 Malniu Puigpedrós Molleres d'Engorgs"
+    },
+    {
+      "slug": "tc225-refugi-de-vilallobent",
+      "nom": "TC225 Refugi de Vilallobent"
+    },
+    {
+      "slug": "termes",
+      "nom": "Termes"
+    },
+    {
+      "slug": "uzes",
+      "nom": "Uzès"
+    },
+    {
+      "slug": "vallter-nuria",
+      "nom": "Vallter-Núria"
+    },
+    {
+      "slug": "vdt-12--ambialet-a-saint-juery",
+      "nom": "VdT 12 : Ambialet à Saint-Juéry"
+    },
+    {
+      "slug": "vezenobres",
+      "nom": "Vézénobres"
+    },
+    {
+      "slug": "viaduc-de-doulovy",
+      "nom": "Viaduc de Doulovy"
+    },
+    {
+      "slug": "villefranche-de-conflent",
+      "nom": "Villefranche-de-Conflent"
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "regionId": "champagne",
+  "name": "Champagne",
+  "deptCodes": [
+    "08",
+    "10",
+    "51",
+    "52"
+  ],
+  "count": 63,
+  "lieux": [
+    {
+      "slug": "1---western-hydra",
+      "nom": "1 - Western Hydra"
+    },
+    {
+      "slug": "abbaye-de-clairvaux",
+      "nom": "Abbaye de Clairvaux"
+    },
+    {
+      "slug": "andelot-blancheville",
+      "nom": "Andelot-Blancheville"
+    },
+    {
+      "slug": "ay-champagne",
+      "nom": "Aÿ-Champagne"
+    },
+    {
+      "slug": "bar-sur-aube",
+      "nom": "Bar-sur-Aube"
+    },
+    {
+      "slug": "bar-sur-seine",
+      "nom": "Bar-sur-Seine"
+    },
+    {
+      "slug": "bogny-sur-meuse",
+      "nom": "Bogny-sur-Meuse"
+    },
+    {
+      "slug": "bouillon",
+      "nom": "Bouillon"
+    },
+    {
+      "slug": "bourmont",
+      "nom": "Bourmont"
+    },
+    {
+      "slug": "brienne-le-chateau",
+      "nom": "Brienne-le-Château"
+    },
+    {
+      "slug": "chalons-en-champagne",
+      "nom": "Châlons-en-Champagne"
+    },
+    {
+      "slug": "charleville-mezieres",
+      "nom": "Charleville-Mézières"
+    },
+    {
+      "slug": "chateau-de-la-motte-tilly",
+      "nom": "Château de La Motte-Tilly"
+    },
+    {
+      "slug": "chateauvillain",
+      "nom": "Châteauvillain"
+    },
+    {
+      "slug": "chaumont",
+      "nom": "Chaumont"
+    },
+    {
+      "slug": "cirey-sur-blaise",
+      "nom": "Cirey-sur-Blaise"
+    },
+    {
+      "slug": "colombey-les-deux-eglises",
+      "nom": "Colombey-les-Deux-Églises"
+    },
+    {
+      "slug": "conde-sur-marne",
+      "nom": "Condé-sur-Marne"
+    },
+    {
+      "slug": "dormans",
+      "nom": "Dormans"
+    },
+    {
+      "slug": "droupt-saint-basle",
+      "nom": "Droupt-Saint-Basle"
+    },
+    {
+      "slug": "epernay",
+      "nom": "Épernay"
+    },
+    {
+      "slug": "essoyes",
+      "nom": "Essoyes"
+    },
+    {
+      "slug": "givet",
+      "nom": "Givet"
+    },
+    {
+      "slug": "goncourt",
+      "nom": "Goncourt"
+    },
+    {
+      "slug": "gr-16-liaison-vers-gr-12",
+      "nom": "GR 16 Liaison vers GR 12"
+    },
+    {
+      "slug": "hautvillers",
+      "nom": "Hautvillers"
+    },
+    {
+      "slug": "joinville",
+      "nom": "Joinville"
+    },
+    {
+      "slug": "la-chapelle-de-masmes",
+      "nom": "La Chapelle de Masmes"
+    },
+    {
+      "slug": "laifour",
+      "nom": "Laifour"
+    },
+    {
+      "slug": "langres",
+      "nom": "Langres"
+    },
+    {
+      "slug": "les-mazures",
+      "nom": "Les Mazures"
+    },
+    {
+      "slug": "les-riceys",
+      "nom": "Les Riceys"
+    },
+    {
+      "slug": "m38-diakofti-avlemonas-diakofti",
+      "nom": "M38 Diakofti-Avlemonas-Diakofti"
+    },
+    {
+      "slug": "m49-amir-ali-agios-nikolaos-plateia-ammos-amir-ali",
+      "nom": "M49 Amir Ali-Agios Nikolaos-Plateia Ammos-Amir Ali"
+    },
+    {
+      "slug": "montherme",
+      "nom": "Monthermé"
+    },
+    {
+      "slug": "montmort-lucy",
+      "nom": "Montmort-Lucy"
+    },
+    {
+      "slug": "nogent",
+      "nom": "Nogent"
+    },
+    {
+      "slug": "nogent-sur-seine",
+      "nom": "Nogent-sur-Seine"
+    },
+    {
+      "slug": "pays-dothe",
+      "nom": "Pays d'Othe"
+    },
+    {
+      "slug": "piney",
+      "nom": "Piney"
+    },
+    {
+      "slug": "plage-de-fismes",
+      "nom": "Plage de Fismes"
+    },
+    {
+      "slug": "plage-de-mesnil-saint-pere",
+      "nom": "Plage de Mesnil-Saint-Père"
+    },
+    {
+      "slug": "plage-du-lac-du-der",
+      "nom": "Plage du Lac du Der"
+    },
+    {
+      "slug": "reims",
+      "nom": "Reims"
+    },
+    {
+      "slug": "renwez",
+      "nom": "Renwez"
+    },
+    {
+      "slug": "revin",
+      "nom": "Revin"
+    },
+    {
+      "slug": "rocroi",
+      "nom": "Rocroi"
+    },
+    {
+      "slug": "rosieres-pres-troyes",
+      "nom": "Rosières-près-Troyes"
+    },
+    {
+      "slug": "sainte-marie-du-lac-nuisement",
+      "nom": "Sainte-Marie-du-Lac-Nuisement"
+    },
+    {
+      "slug": "sainte-menehould",
+      "nom": "Sainte-Menehould"
+    },
+    {
+      "slug": "sedan",
+      "nom": "Sedan"
+    },
+    {
+      "slug": "sentier-du-bois-talot",
+      "nom": "Sentier du Bois Talot"
+    },
+    {
+      "slug": "sentier-n24",
+      "nom": "Sentier n°24"
+    },
+    {
+      "slug": "sezanne",
+      "nom": "Sézanne"
+    },
+    {
+      "slug": "signy-labbaye",
+      "nom": "Signy-l'Abbaye"
+    },
+    {
+      "slug": "sommepy-tahure",
+      "nom": "Sommepy-Tahure"
+    },
+    {
+      "slug": "soulaines-dhuys",
+      "nom": "Soulaines-Dhuys"
+    },
+    {
+      "slug": "troyes",
+      "nom": "Troyes"
+    },
+    {
+      "slug": "vaux-le-vicomte",
+      "nom": "Vaux-le-Vicomte"
+    },
+    {
+      "slug": "vertus",
+      "nom": "Vertus"
+    },
+    {
+      "slug": "verzy",
+      "nom": "Verzy"
+    },
+    {
+      "slug": "vignory",
+      "nom": "Vignory"
+    },
+    {
+      "slug": "villers-sous-chatillon",
+      "nom": "Villers-sous-Châtillon"
+    }
+  ]
+}
