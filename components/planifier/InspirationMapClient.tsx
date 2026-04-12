@@ -18,6 +18,17 @@ import * as turf from "@turf/turf";
 import type { TerritoriesFeatureCollection } from "@/lib/editorial-territories";
 import { stripInspirationBasemapClutter } from "@/lib/mapbox-strip-inspiration-basemap";
 import { VOYAGE_UI } from "@/lib/voyage-map-palette";
+import type { StarItineraryStopDto } from "@/types/inspiration-star-map";
+import {
+  Building2,
+  Home,
+  Landmark,
+  MapPin,
+  Mountain,
+  Trees,
+  Waves,
+} from "lucide-react";
+import { Marker } from "react-map-gl/mapbox";
 
 const Map = dynamic(() => import("react-map-gl/mapbox").then((m) => m.default), {
   ssr: false,
@@ -41,6 +52,26 @@ export const VILLE_LAYER_ID = "insp-ville-points";
 export const STAR_LINE_LAYER_ID = "insp-star-lines";
 
 const MAP_STYLE = "mapbox://styles/mapbox/light-v11";
+
+function StopIconPicto({ iconKey }: { iconKey: string }) {
+  const c = "h-5 w-5 text-white";
+  switch (iconKey) {
+    case "ville":
+      return <Building2 className={c} />;
+    case "village":
+      return <Home className={c} />;
+    case "plage":
+      return <Waves className={c} />;
+    case "patrimoine":
+      return <Landmark className={c} />;
+    case "rando":
+      return <Mountain className={c} />;
+    case "nature":
+      return <Trees className={c} />;
+    default:
+      return <MapPin className={c} />;
+  }
+}
 
 const FRANCE_BOUNDS: [[number, number], [number, number]] = [
   [-5.5, 41],
@@ -91,6 +122,8 @@ type InspirationMapClientProps = {
   showVillePoints: boolean;
   starLineFeatures: FeatureCollection | null;
   showStarLines: boolean;
+  starItineraryStops?: StarItineraryStopDto[];
+  showStarItineraryMarkers?: boolean;
   onSelectRegion: (id: string) => void;
   onTerritoryPointClick?: (territoryId: string) => void;
   onVilleClick?: (slug: string) => void;
@@ -121,6 +154,8 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
       showVillePoints,
       starLineFeatures,
       showStarLines,
+      starItineraryStops = [],
+      showStarItineraryMarkers = false,
       onSelectRegion,
       onTerritoryPointClick,
       onVilleClick,
@@ -469,6 +504,44 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
                 />
               </Source>
             )}
+            {showStarItineraryMarkers &&
+              starItineraryStops.map((s) => (
+                <Marker
+                  key={`${s.slug}-${s.order}`}
+                  longitude={s.lng}
+                  latitude={s.lat}
+                  anchor="center"
+                >
+                  <button
+                    type="button"
+                    className="group relative flex h-[52px] w-[52px] cursor-pointer items-center justify-center rounded-full border-[3px] border-white bg-white shadow-lg ring-2 ring-[#A55734]/35 transition hover:scale-105 hover:ring-[#E07856]/55"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      onVilleClick?.(s.slug);
+                    }}
+                    aria-label={s.nom}
+                  >
+                    {s.photoUrl ? (
+                      // eslint-disable-next-line @next/next/no-img-element -- URLs dynamiques Commons / Unsplash
+                      <img
+                        src={s.photoUrl}
+                        alt=""
+                        className="h-full w-full rounded-full object-cover"
+                      />
+                    ) : (
+                      <div className="flex h-full w-full items-center justify-center rounded-full bg-gradient-to-br from-[#E07856] to-[#A55734]">
+                        <StopIconPicto iconKey={s.iconKey} />
+                      </div>
+                    )}
+                    <span className="absolute -bottom-1 -right-1 flex h-6 min-w-[1.5rem] items-center justify-center rounded-full bg-[#A55734] px-1 font-courier text-[10px] font-bold text-white shadow">
+                      {s.order}
+                    </span>
+                    <span className="pointer-events-none absolute -top-7 left-1/2 max-w-[140px] -translate-x-1/2 rounded bg-black/75 px-1.5 py-0.5 text-center font-courier text-[9px] font-bold text-white opacity-0 shadow transition group-hover:opacity-100">
+                      {s.nom}
+                    </span>
+                  </button>
+                </Marker>
+              ))}
           </Map>
         )}
         {(loading || loadError || !regionsDataAugmented) && (

@@ -7,6 +7,10 @@ import {
   type LieuCentralRow,
 } from "@/lib/inspiration-lieux-region";
 import { mapRegionById } from "@/lib/inspiration-map-regions-config";
+import {
+  buildLineStringFromResolved,
+  orderedStepsForItinerary,
+} from "@/lib/inspiration/star-itinerary-geo";
 import type { FeatureCollection, LineString } from "geojson";
 import type { StarItinerariesEditorialFile } from "@/types/star-itineraries-editorial";
 
@@ -43,23 +47,16 @@ export async function GET(req: Request) {
     (lieuxRaw as { lieux: LieuCentralRow[] }).lieux ?? [],
     regionId
   );
-  const bySlug = new Map<string, [number, number]>();
-  for (const l of lieux) {
-    if (typeof l.lat === "number" && typeof l.lng === "number" && l.slug) {
-      bySlug.set(l.slug, [l.lng, l.lat]);
-    }
-  }
 
   const features: FeatureCollection["features"] = [];
   for (const it of editorial.itineraries) {
-    const coords = it.steps
-      .map((s) => bySlug.get(s.slug))
-      .filter((c): c is [number, number] => !!c);
-    if (coords.length < 2) continue;
+    const ordered = orderedStepsForItinerary(it, lieux);
+    const geom = buildLineStringFromResolved(ordered);
+    if (!geom) continue;
     features.push({
       type: "Feature",
       properties: { id: it.itinerarySlug, hl: 0 },
-      geometry: { type: "LineString", coordinates: coords } satisfies LineString,
+      geometry: geom satisfies LineString,
     });
   }
 

@@ -4,7 +4,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { Bookmark, CheckCircle2, Filter, GraduationCap, Search } from "lucide-react";
-import type { FeatureCollection, LineString } from "geojson";
+import type { Feature, FeatureCollection, LineString } from "geojson";
 import { useRouter } from "next/navigation";
 import {
   AMBIANCE_OPTIONS,
@@ -29,6 +29,7 @@ import { starItineraryById, starItinerariesByRegion } from "@/content/inspiratio
 import InspirationMapClient, {
   type InspirationMapExpose,
 } from "@/components/planifier/InspirationMapClient";
+import type { StarItineraryStopDto } from "@/types/inspiration-star-map";
 import MapBottomPanels from "./MapBottomPanels";
 import RegionCarousel from "./RegionCarousel";
 import TopBar from "./TopBar";
@@ -318,7 +319,8 @@ function InspirationMobileChrome() {
 
 export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
   const ctx = useInspirationMap();
-  const { top, selectTerritoryPoi, resetFrance, goBack, selectRegion } = ctx;
+  const { top, selectTerritoryPoi, resetFrance, goBack, selectRegion, starListPreviewLineSlug } =
+    ctx;
   const router = useRouter();
 
   const mapRef = useRef<InspirationMapExpose>(null);
@@ -403,7 +405,13 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
   }, [resetFrance]);
 
   const [villePoints, setVillePoints] = useState<FeatureCollection | null>(null);
-  const [editorialStarLines, setEditorialStarLines] = useState<FeatureCollection | null>(null);
+  const [editorialRoadLineFc, setEditorialRoadLineFc] = useState<FeatureCollection | null>(null);
+  const [starItineraryStops, setStarItineraryStops] = useState<StarItineraryStopDto[]>([]);
+  const [starRouteDetail, setStarRouteDetail] = useState<{
+    regionId: string;
+    slug: string;
+    stops: StarItineraryStopDto[];
+  } | null>(null);
 
   useEffect(() => {
     if (!activeRegionId || !showRegionSheet) {
@@ -430,29 +438,60 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
     };
   }, [activeRegionId, showRegionSheet, ctx.ambiance, mapZoom]);
 
+  const editorialSlugForRoadLine = useMemo(() => {
+    if (!activeRegionId) return null;
+    if (top.screen === "star-list") return starListPreviewLineSlug;
+    if (top.screen === "star-detail" && top.kind === "editorial") return top.editorialSlug;
+    return null;
+  }, [activeRegionId, top, starListPreviewLineSlug]);
+
   useEffect(() => {
-    const showStar =
-      activeRegionId && (top.screen === "star-list" || top.screen === "star-detail");
-    if (!showStar || !activeRegionId) {
-      setEditorialStarLines(null);
+    if (!activeRegionId || !editorialSlugForRoadLine) {
+      setEditorialRoadLineFc(null);
+      setStarItineraryStops([]);
+      setStarRouteDetail(null);
       return;
     }
     let cancelled = false;
-    fetch(`/api/inspiration/region-star-lines?regionId=${encodeURIComponent(activeRegionId)}`, {
-      cache: "no-store",
-    })
-      .then((r) => r.json())
-      .then((data: FeatureCollection) => {
-        if (cancelled || data?.type !== "FeatureCollection") return;
-        setEditorialStarLines(data);
+    const qs = new URLSearchParams({
+      regionId: activeRegionId,
+      slug: editorialSlugForRoadLine,
+    });
+    fetch(`/api/inspiration/region-star-line?${qs.toString()}`, { cache: "no-store" })
+      .then(async (r) => {
+        const data = (await r.json()) as { line?: FeatureCollection; stops?: StarItineraryStopDto[] };
+        if (cancelled) return;
+        if (
+          !r.ok ||
+          !data?.line ||
+          data.line.type !== "FeatureCollection" ||
+          !data.line.features?.length
+        ) {
+          setEditorialRoadLineFc(null);
+          setStarItineraryStops([]);
+          setStarRouteDetail(null);
+          return;
+        }
+        setEditorialRoadLineFc(data.line);
+        const stops = Array.isArray(data.stops) ? data.stops : [];
+        setStarItineraryStops(stops);
+        setStarRouteDetail({
+          regionId: activeRegionId,
+          slug: editorialSlugForRoadLine,
+          stops,
+        });
       })
       .catch(() => {
-        if (!cancelled) setEditorialStarLines(null);
+        if (!cancelled) {
+          setEditorialRoadLineFc(null);
+          setStarItineraryStops([]);
+          setStarRouteDetail(null);
+        }
       });
     return () => {
       cancelled = true;
     };
-  }, [activeRegionId, top.screen]);
+  }, [activeRegionId, editorialSlugForRoadLine]);
 
   const territoryPoints = useMemo(() => {
     const show =
@@ -506,29 +545,22 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
         ? starItinerariesToLineCollection(legacyItems, hlLegacy)
         : null;
 
-    let editorialFc = editorialStarLines;
-    if (editorialFc?.features?.length) {
-      editorialFc = {
-        ...editorialFc,
-        features: editorialFc.features.map((f) => {
-          const id = (f.properties as { id?: string } | null)?.id;
-          return {
-            ...f,
-            properties: {
-              ...(typeof f.properties === "object" && f.properties !== null
-                ? f.properties
-                : {}),
-              hl: hlEditorialSlug && id === hlEditorialSlug ? 1 : 0,
-            },
-          };
-        }),
-      };
+    let editorialFeatures: Feature[] = [];
+    if (editorialRoadLineFc?.features?.length) {
+      if (top.screen === "star-list" && starListPreviewLineSlug) {
+        editorialFeatures = editorialRoadLineFc.features;
+      } else if (top.screen === "star-detail" && top.kind === "editorial" && hlEditorialSlug) {
+        editorialFeatures = editorialRoadLineFc.features.map((f) => ({
+          ...f,
+          properties: {
+            ...(typeof f.properties === "object" && f.properties !== null ? f.properties : {}),
+            hl: 1,
+          },
+        }));
+      }
     }
 
-    const features = [
-      ...(legacyFc?.features ?? []),
-      ...(editorialFc?.features ?? []),
-    ];
+    const features = [...(legacyFc?.features ?? []), ...editorialFeatures];
     if (features.length === 0) {
       return { starLineFeatures: null, showStarLines: false };
     }
@@ -536,7 +568,7 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
       starLineFeatures: { type: "FeatureCollection", features } as FeatureCollection,
       showStarLines: true,
     };
-  }, [top, activeRegionId, editorialStarLines]);
+  }, [top, activeRegionId, editorialRoadLineFc, starListPreviewLineSlug]);
 
   useEffect(() => {
     if (!mapReady || !sectorsFc || !mapRef.current) return;
@@ -555,10 +587,16 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
     }
 
     if (top.screen === "star-detail" && top.kind === "editorial") {
-      const slug = top.editorialSlug;
-      const feat = editorialStarLines?.features.find(
-        (f) => (f.properties as { id?: string } | undefined)?.id === slug
-      );
+      const feat = editorialRoadLineFc?.features[0];
+      const geom = feat?.geometry;
+      if (geom && geom.type === "LineString") {
+        mapRef.current.fitBounds(bboxFromLineString(geom as LineString));
+      }
+      return;
+    }
+
+    if (top.screen === "star-list" && starListPreviewLineSlug) {
+      const feat = editorialRoadLineFc?.features[0];
       const geom = feat?.geometry;
       if (geom && geom.type === "LineString") {
         mapRef.current.fitBounds(bboxFromLineString(geom as LineString));
@@ -584,7 +622,7 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
         padding: { top: 48, bottom: bottomPad, left: 44, right: 44 },
       });
     }
-  }, [mapReady, top, sectorsFc, activeRegionId, editorialStarLines]);
+  }, [mapReady, top, sectorsFc, activeRegionId, editorialRoadLineFc, starListPreviewLineSlug]);
 
   const dimOtherRegions = top.screen !== "france";
 
@@ -611,6 +649,11 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
     showVillePoints: !!villePoints?.features.length,
     starLineFeatures,
     showStarLines,
+    starItineraryStops,
+    showStarItineraryMarkers:
+      starItineraryStops.length > 0 &&
+      ((top.screen === "star-list" && !!starListPreviewLineSlug) ||
+        (top.screen === "star-detail" && top.kind === "editorial")),
     onSelectRegion: selectRegion,
     onTerritoryPointClick: (tid: string) => selectTerritoryPoi(tid),
     onVilleClick,
@@ -668,7 +711,7 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
                 onDragEnd={onGutterDragEnd}
               />
               <div className="min-h-0 flex-1 overflow-hidden">
-                <MapBottomPanels />
+                <MapBottomPanels starRouteDetail={starRouteDetail} />
               </div>
             </motion.div>
           )}

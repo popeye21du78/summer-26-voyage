@@ -4,6 +4,7 @@ import {
   createContext,
   useCallback,
   useContext,
+  useEffect,
   useMemo,
   useState,
   type ReactNode,
@@ -35,6 +36,9 @@ type InspirationMapContextValue = {
   selectTerritoryPoi: (territoryId: string) => void;
   goBack: () => void;
   resetFrance: () => void;
+  /** Liste itinéraires stars : tracé carte uniquement pour ce slug (après choix thème + durée). */
+  starListPreviewLineSlug: string | null;
+  setStarListPreviewLineSlug: (slug: string | null) => void;
 };
 
 const Ctx = createContext<InspirationMapContextValue | null>(null);
@@ -45,8 +49,15 @@ export function InspirationMapProvider({ children }: { children: ReactNode }) {
   const [duration, setDuration] = useState<InspirationDurationFilter | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
   const [filterSheetOpen, setFilterSheetOpen] = useState(false);
+  const [starListPreviewLineSlug, setStarListPreviewLineSlug] = useState<string | null>(null);
 
   const top = stack[stack.length - 1] ?? { screen: "france" as const };
+
+  useEffect(() => {
+    if (top.screen !== "star-list") {
+      setStarListPreviewLineSlug(null);
+    }
+  }, [top.screen]);
 
   const selectRegion = useCallback((regionId: string) => {
     setStack([{ screen: "france" }, { screen: "region-preview", regionId }]);
@@ -149,6 +160,8 @@ export function InspirationMapProvider({ children }: { children: ReactNode }) {
       selectTerritoryPoi,
       goBack,
       resetFrance,
+      starListPreviewLineSlug,
+      setStarListPreviewLineSlug,
     }),
     [
       stack,
@@ -157,6 +170,7 @@ export function InspirationMapProvider({ children }: { children: ReactNode }) {
       duration,
       searchQuery,
       filterSheetOpen,
+      starListPreviewLineSlug,
       selectRegion,
       goExploreRegion,
       openStarList,

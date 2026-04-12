@@ -26,6 +26,9 @@ import type {
 import { CityPhoto } from "@/components/CityPhoto";
 import { slugFromNom } from "@/lib/slug-from-nom";
 import FavoriteButton from "./FavoriteButton";
+import { themeCardImageUrl } from "@/lib/star-itinerary-theme-card-images";
+import { useCuratedAssignmentPhoto, useRegionCuratedGallery } from "@/hooks/useCuratedInspirationPhotos";
+import type { StarItineraryStopDto } from "@/types/inspiration-star-map";
 
 type SlimLieuCard = {
   slug: string;
@@ -115,9 +118,14 @@ function SheetChrome({
 
 type PanelsProps = {
   onSheetScroll?: (e: React.UIEvent<HTMLDivElement>) => void;
+  starRouteDetail?: {
+    regionId: string;
+    slug: string;
+    stops: StarItineraryStopDto[];
+  } | null;
 };
 
-export default function MapBottomPanels({ onSheetScroll }: PanelsProps) {
+export default function MapBottomPanels({ onSheetScroll, starRouteDetail }: PanelsProps) {
   const ctx = useInspirationMap();
   const {
     top,
@@ -174,6 +182,7 @@ export default function MapBottomPanels({ onSheetScroll }: PanelsProps) {
         <StarListSheet
           key="stars"
           regionId={top.regionId}
+          starRouteDetail={starRouteDetail}
           onBack={goBack}
           onPickLegacy={(id) => selectStarItinerary(id)}
           onPickEditorial={(slug) => selectEditorialStarItinerary(slug)}
@@ -221,7 +230,10 @@ function PreviewRegion({
   const r = getRegionEditorial(regionId);
   if (!r) return null;
 
-  const carouselIntro = r.photos.slice(0, 5);
+  const heroCurated = useCuratedAssignmentPhoto(`region-hero:${regionId}`, regionId);
+  const heroSrc = heroCurated ?? r.headerPhoto;
+  const stripSlots = useMemo(() => ["s0", "s1", "s2", "s3", "s4"], []);
+  const stripUrls = useRegionCuratedGallery(regionId, stripSlots);
 
   return (
     <SheetChrome
@@ -233,7 +245,7 @@ function PreviewRegion({
       <div className="-mx-4 mb-4 overflow-hidden rounded-2xl border border-[#A55734]/20 bg-[#2a1810] shadow-inner">
         <div className="relative aspect-[4/3] w-full max-h-[min(48vh,400px)] min-h-[180px]">
           <Image
-            src={r.headerPhoto}
+            src={heroSrc}
             alt=""
             fill
             priority
@@ -248,8 +260,9 @@ function PreviewRegion({
       </div>
 
       <div className="space-y-4">
-        <div className={`rounded-xl px-4 py-4 ${BAND_LIGHT}`}>
-          <p className="font-courier text-sm leading-relaxed text-[#333]/90">{r.accroche_carte}</p>
+        <div className={`flex items-start justify-between gap-3 rounded-xl px-4 py-4 ${BAND_LIGHT}`}>
+          <p className="flex-1 font-courier text-sm leading-relaxed text-[#333]/90">{r.accroche_carte}</p>
+          <FavoriteButton kind="map_region" refId={r.id} label={r.name} />
         </div>
 
         <div className={`rounded-xl px-4 py-4 ${BAND_DARK}`}>
@@ -271,40 +284,25 @@ function PreviewRegion({
           </div>
         </div>
 
-        <div className={`flex items-start justify-between gap-3 rounded-xl px-4 py-4 ${BAND_LIGHT}`}>
-          <p className="flex-1 font-courier text-sm leading-relaxed text-[#333]/90">{r.paragraphe_explorer}</p>
-          <FavoriteButton kind="map_region" refId={r.id} label={r.name} />
-        </div>
-
         <div className={`rounded-xl px-4 py-5 ${BAND_DARK}`}>
           <p className="font-courier text-[10px] font-bold uppercase tracking-[0.2em] text-white/75">
-            Ambiances
+            Aperçu
           </p>
           <div className="mt-3 flex gap-2 overflow-x-auto pb-1 [-webkit-overflow-scrolling:touch]">
-            {carouselIntro.map((src, i) => (
+            {stripUrls.map((src, i) => (
               <div
                 key={i}
                 className="relative h-28 w-40 shrink-0 overflow-hidden rounded-xl bg-[#3d2818] shadow-sm ring-1 ring-white/15"
               >
-                <Image src={src} alt="" fill className="object-cover opacity-95" sizes="160px" />
+                {src ? (
+                  <Image src={src} alt="" fill className="object-cover opacity-95" sizes="160px" />
+                ) : (
+                  <div className="h-full w-full bg-[#3d2818]" />
+                )}
               </div>
             ))}
           </div>
         </div>
-
-        <section className={`rounded-xl px-4 py-5 ${BAND_LIGHT}`}>
-          <h3 className="font-courier text-[10px] font-bold uppercase tracking-[0.25em] text-[#A55734]">
-            L’esprit du territoire
-          </h3>
-          <p className="mt-3 font-courier text-sm leading-relaxed text-[#333]/88">{r.intro_longue}</p>
-        </section>
-
-        <section className={`rounded-xl px-4 py-5 ${BAND_DARK}`}>
-          <h3 className="font-courier text-[10px] font-bold uppercase tracking-[0.25em] text-white/80">
-            Comment la parcourir
-          </h3>
-          <p className="mt-3 font-courier text-sm leading-relaxed text-white/88">{r.ambiance_detail}</p>
-        </section>
 
         <section className={`rounded-xl px-4 py-5 ${BAND_LIGHT}`}>
           <h3 className="font-courier text-[10px] font-bold uppercase tracking-[0.25em] text-[#A55734]">
@@ -620,7 +618,7 @@ function PoiSheet({
   );
 }
 
-const DURATION_CHIPS = ["3 jours", "7 jours", "10 jours"] as const;
+const DURATION_ORDER = ["3 jours", "7 jours", "10 jours"] as const;
 
 async function fetchRegionEditorial(regionId: string): Promise<StarItinerariesEditorialFile> {
   const r = await fetch(
@@ -633,6 +631,7 @@ async function fetchRegionEditorial(regionId: string): Promise<StarItinerariesEd
 
 function StarListSheet({
   regionId,
+  starRouteDetail,
   onBack,
   onPickLegacy,
   onPickEditorial,
@@ -640,12 +639,18 @@ function StarListSheet({
   onDragClose,
 }: {
   regionId: string;
+  starRouteDetail?: {
+    regionId: string;
+    slug: string;
+    stops: StarItineraryStopDto[];
+  } | null;
   onBack: () => void;
   onPickLegacy: (id: string) => void;
   onPickEditorial: (slug: string) => void;
   onScroll?: (e: React.UIEvent<HTMLDivElement>) => void;
   onDragClose?: () => void;
 }) {
+  const { setStarListPreviewLineSlug } = useInspirationMap();
   const [editorialPack, setEditorialPack] = useState<StarItinerariesEditorialFile | null>(null);
   const [editorialLoading, setEditorialLoading] = useState(true);
 
@@ -677,24 +682,63 @@ function StarListSheet({
     return [...u].sort((a, b) => a.localeCompare(b, "fr"));
   }, [editorial]);
 
-  const [theme, setTheme] = useState<string | null>(null);
-  const [dur, setDur] = useState<string | null>(null);
+  const [selectedTheme, setSelectedTheme] = useState<string | null>(null);
+  const [selectedDur, setSelectedDur] = useState<string | null>(null);
 
-  const filtered = useMemo(() => {
-    return editorial.filter(
-      (i) =>
-        (!theme || i.themeTitle === theme) &&
-        (!dur || i.durationHint === dur)
+  const durationsForTheme = useMemo(() => {
+    if (!selectedTheme) return [];
+    const set = new Set<string>();
+    editorial.forEach((i) => {
+      if (i.themeTitle === selectedTheme) set.add(i.durationHint);
+    });
+    const rest = [...set].filter(
+      (d) => !DURATION_ORDER.includes(d as (typeof DURATION_ORDER)[number])
     );
-  }, [editorial, theme, dur]);
+    return [
+      ...DURATION_ORDER.filter((d) => set.has(d)),
+      ...rest.sort((a, b) => a.localeCompare(b, "fr")),
+    ];
+  }, [editorial, selectedTheme]);
+
+  const matched = useMemo(() => {
+    if (!selectedTheme || !selectedDur) return null;
+    return (
+      editorial.find(
+        (i) => i.themeTitle === selectedTheme && i.durationHint === selectedDur
+      ) ?? null
+    );
+  }, [editorial, selectedTheme, selectedDur]);
+
+  useEffect(() => {
+    setStarListPreviewLineSlug(matched?.itinerarySlug ?? null);
+  }, [matched?.itinerarySlug, setStarListPreviewLineSlug]);
+
+  const pickTheme = (t: string) => {
+    setSelectedTheme(t);
+    setSelectedDur(null);
+  };
+
+  const backToThemes = () => {
+    setSelectedTheme(null);
+    setSelectedDur(null);
+  };
+
+  const stepSlugsCsv = matched?.steps?.map((s) => s.slug).join(",") ?? "";
+  const voyageHeroUrl = useCuratedAssignmentPhoto(
+    matched ? `voyage-hero:${regionId}:${matched.itinerarySlug}` : null,
+    regionId,
+    stepSlugsCsv || undefined
+  );
+  const routeStops =
+    starRouteDetail?.regionId === regionId && starRouteDetail.slug === matched?.itinerarySlug
+      ? starRouteDetail.stops
+      : [];
 
   return (
     <SheetChrome onBack={onBack} tall onScroll={onScroll} onDragClose={onDragClose}>
       <h2 className="mb-1 font-courier text-lg font-bold text-[#A55734]">Itinéraires stars</h2>
       <p className="mb-5 font-courier text-[11px] leading-relaxed text-[#333]/72">
-        1) Choisis un <strong>thème</strong> · 2) une <strong>durée</strong> · 3) ouvre un{" "}
-        <strong>parcours</strong> : le tracé se met en avant sur la carte (actualisé depuis le fichier JSON
-        sur le serveur).
+        Thème → durée → parcours sur la carte.
       </p>
 
       {editorialLoading && (
@@ -717,124 +761,171 @@ function StarListSheet({
 
       {!editorialLoading && hasEditorial && (
         <>
-          <div className="mb-4">
-            <p className="font-courier text-[10px] font-bold uppercase tracking-[0.2em] text-[#A55734]/85">
-              1 · Thème ({themes.length} propositions)
-            </p>
-            <div className="mt-2 flex flex-wrap gap-2">
+          {!selectedTheme && (
+            <div className="space-y-3">
+              <p className="font-courier text-[10px] font-bold uppercase tracking-[0.2em] text-[#A55734]/85">
+                Grand thème
+              </p>
+              <div className="grid gap-3">
+                {themes.map((t) => (
+                  <button
+                    key={t}
+                    type="button"
+                    onClick={() => pickTheme(t)}
+                    className="group relative h-36 w-full overflow-hidden rounded-2xl border border-[#A55734]/15 text-left shadow-md transition hover:border-[#E07856]/45 hover:shadow-lg"
+                  >
+                    <Image
+                      src={themeCardImageUrl(t)}
+                      alt=""
+                      fill
+                      className="object-cover transition duration-500 group-hover:scale-[1.03]"
+                      sizes="(max-width:640px) 100vw, 100vw"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/78 via-black/25 to-transparent" />
+                    <span className="absolute bottom-3 left-4 right-4 font-courier text-base font-bold leading-snug text-white drop-shadow-sm">
+                      {t}
+                    </span>
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {selectedTheme && !selectedDur && (
+            <div>
               <button
                 type="button"
-                onClick={() => setTheme(null)}
-                className={`rounded-full border px-3 py-1.5 font-courier text-[11px] font-bold transition ${
-                  theme === null
-                    ? "border-[#E07856] bg-[#E07856]/15 text-[#A55734]"
-                    : "border-[#A55734]/20 bg-white text-[#333]/85 hover:border-[#E07856]/35"
-                }`}
+                onClick={backToThemes}
+                className="mb-4 font-courier text-xs font-bold text-[#E07856] underline underline-offset-2"
               >
-                Tous
+                ← Changer de thème
               </button>
-              {themes.map((t) => (
-                <button
-                  key={t}
-                  type="button"
-                  onClick={() => setTheme(t)}
-                  className={`rounded-full border px-3 py-1.5 font-courier text-[11px] font-bold transition ${
-                    theme === t
-                      ? "border-[#E07856] bg-[#E07856]/15 text-[#A55734]"
-                      : "border-[#A55734]/20 bg-white text-[#333]/85 hover:border-[#E07856]/35"
-                  }`}
-                >
-                  {t}
-                </button>
-              ))}
+              <p className="mb-1 font-courier text-[10px] font-bold uppercase tracking-[0.2em] text-[#A55734]/85">
+                Durée pour « {selectedTheme} »
+              </p>
+              <p className="mb-4 font-courier text-[11px] text-[#333]/75">
+                Choisis la durée : le parcours et le texte apparaîtront ensuite.
+              </p>
+              <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
+                {durationsForTheme.map((d) => (
+                  <button
+                    key={d}
+                    type="button"
+                    onClick={() => setSelectedDur(d)}
+                    className="rounded-2xl border-2 border-[#A55734]/18 bg-gradient-to-br from-white to-[#FAF4F0] px-4 py-5 text-center font-courier text-sm font-bold text-[#333] shadow-sm transition hover:border-[#E07856]/55 hover:shadow-md"
+                  >
+                    {d}
+                  </button>
+                ))}
+              </div>
+              {durationsForTheme.length === 0 && (
+                <p className="mt-4 font-courier text-sm text-[#333]/70">
+                  Aucune durée pour ce thème dans les données.
+                </p>
+              )}
             </div>
-          </div>
+          )}
 
-          <div className="mb-5">
-            <p className="font-courier text-[10px] font-bold uppercase tracking-[0.2em] text-[#A55734]/85">
-              2 · Durée
-            </p>
-            <div className="mt-2 flex flex-wrap gap-2">
-              <button
-                type="button"
-                onClick={() => setDur(null)}
-                className={`rounded-full border px-3 py-1.5 font-courier text-[11px] font-bold transition ${
-                  dur === null
-                    ? "border-[#E07856] bg-[#E07856]/15 text-[#A55734]"
-                    : "border-[#A55734]/20 bg-white text-[#333]/85 hover:border-[#E07856]/35"
-                }`}
-              >
-                Toutes
-              </button>
-              {DURATION_CHIPS.map((d) => (
+          {selectedTheme && selectedDur && matched && (
+            <div className="space-y-4">
+              <div className="flex flex-wrap items-center justify-between gap-2">
                 <button
-                  key={d}
                   type="button"
-                  onClick={() => setDur(d)}
-                  className={`rounded-full border px-3 py-1.5 font-courier text-[11px] font-bold transition ${
-                    dur === d
-                      ? "border-[#E07856] bg-[#E07856]/15 text-[#A55734]"
-                      : "border-[#A55734]/20 bg-white text-[#333]/85 hover:border-[#E07856]/35"
-                  }`}
+                  onClick={() => setSelectedDur(null)}
+                  className="font-courier text-xs font-bold text-[#E07856] underline underline-offset-2"
                 >
-                  {d}
+                  ← Autre durée
                 </button>
-              ))}
-            </div>
-          </div>
-
-          <div className="mb-2 font-courier text-[10px] font-bold uppercase tracking-[0.15em] text-[#A55734]/75">
-            3 · Parcours ({filtered.length})
-          </div>
-          <div className="grid gap-4 sm:grid-cols-2">
-            {filtered.map((it) => (
-              <div
-                key={it.itinerarySlug}
-                role="button"
-                tabIndex={0}
-                onClick={() => onPickEditorial(it.itinerarySlug)}
-                onKeyDown={(e) => {
-                  if (e.key === "Enter" || e.key === " ") {
-                    e.preventDefault();
-                    onPickEditorial(it.itinerarySlug);
-                  }
-                }}
-                className="group cursor-pointer overflow-hidden rounded-2xl border-2 border-[#A55734]/18 bg-gradient-to-br from-white to-[#FAF4F0] text-left shadow-md transition hover:border-[#E07856]/55 hover:shadow-lg"
-              >
-                <div className="flex items-center justify-between gap-2 border-b border-[#A55734]/10 bg-[#FFF8F0]/80 px-3 py-2">
-                  <span className="rounded-full bg-[#E07856]/15 px-2.5 py-0.5 font-courier text-[10px] font-bold text-[#A55734]">
-                    {it.durationHint}
-                  </span>
+                <button
+                  type="button"
+                  onClick={backToThemes}
+                  className="font-courier text-xs font-bold text-[#A55734]/80 underline underline-offset-2"
+                >
+                  Changer de thème
+                </button>
+              </div>
+              {voyageHeroUrl ? (
+                <div className="relative aspect-[21/9] w-full overflow-hidden rounded-2xl border border-[#A55734]/15 shadow-md">
+                  <Image src={voyageHeroUrl} alt="" fill className="object-cover" sizes="100vw" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/55 to-transparent" />
+                  <p className="absolute bottom-2 left-3 right-3 font-courier text-xs font-bold text-white drop-shadow">
+                    {matched.tripTitle}
+                  </p>
+                </div>
+              ) : null}
+              {routeStops.length > 0 && (
+                <div className="-mx-1 flex gap-3 overflow-x-auto pb-1 pt-1 [-webkit-overflow-scrolling:touch]">
+                  {routeStops.map((st) => (
+                    <Link
+                      key={st.slug}
+                      href={`/ville/${encodeURIComponent(st.slug)}?from=inspiration`}
+                      className="flex w-[76px] shrink-0 flex-col items-center gap-1.5 text-center"
+                    >
+                      <div className="relative h-[68px] w-[68px] overflow-hidden rounded-full border-[3px] border-white shadow-md ring-2 ring-[#A55734]/25">
+                        {st.photoUrl ? (
+                          // eslint-disable-next-line @next/next/no-img-element
+                          <img src={st.photoUrl} alt="" className="h-full w-full object-cover" />
+                        ) : (
+                          <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-[#E07856] to-[#A55734] font-courier text-lg font-bold text-white">
+                            {st.order}
+                          </div>
+                        )}
+                        <span className="absolute -bottom-0.5 -right-0.5 flex h-5 min-w-[1.25rem] items-center justify-center rounded-full bg-[#A55734] px-0.5 font-courier text-[9px] font-bold text-white">
+                          {st.order}
+                        </span>
+                      </div>
+                      <span className="line-clamp-2 font-courier text-[9px] font-bold leading-tight text-[#333]">
+                        {st.nom}
+                      </span>
+                    </Link>
+                  ))}
+                </div>
+              )}
+              <div className="rounded-2xl border border-[#E07856]/25 bg-gradient-to-br from-[#FFF8F0] to-white p-4 shadow-sm">
+                <div className="flex items-start justify-between gap-2">
+                  <div>
+                    <p className="font-courier text-[10px] font-bold uppercase tracking-wide text-[#E07856]">
+                      {matched.themeTitle} · {matched.durationHint}
+                    </p>
+                    <h3 className="mt-1 font-courier text-lg font-bold leading-snug text-[#333]">
+                      {matched.tripTitle}
+                    </h3>
+                  </div>
                   <span onClick={(e) => e.stopPropagation()}>
                     <FavoriteButton
                       kind="star_itinerary"
-                      refId={`editorial:${regionId}:${it.itinerarySlug}`}
-                      label={it.tripTitle}
+                      refId={`editorial:${regionId}:${matched.itinerarySlug}`}
+                      label={matched.tripTitle}
                     />
                   </span>
                 </div>
-                <div className="p-3 pt-2">
-                  <p className="font-courier text-[10px] font-bold uppercase tracking-wide text-[#E07856]/95">
-                    {it.themeTitle}
-                  </p>
-                  <h3 className="mt-1 font-courier text-base font-bold leading-snug text-[#333]">
-                    {it.tripTitle}
-                  </h3>
-                  <p className="mt-2 line-clamp-3 font-courier text-[11px] leading-relaxed text-[#333]/82">
-                    {it.summary}
-                  </p>
-                  <p className="mt-3 font-courier text-[10px] font-bold text-[#E07856]">
-                    Voir le parcours sur la carte →
-                  </p>
-                </div>
+                <p className="mt-3 line-clamp-4 font-courier text-sm leading-relaxed text-[#333]/88">
+                  {matched.summary}
+                </p>
+                <button
+                  type="button"
+                  onClick={() => onPickEditorial(matched.itinerarySlug)}
+                  className="mt-5 w-full rounded-full border-2 border-[#E07856] bg-gradient-to-r from-[#E07856] to-[#D4635B] py-3 font-courier text-sm font-bold text-white shadow-md transition hover:opacity-95"
+                >
+                  Fiche complète
+                </button>
               </div>
-            ))}
-          </div>
+            </div>
+          )}
 
-          {filtered.length === 0 && (
-            <p className="mt-4 font-courier text-sm text-[#333]/70">
-              Aucun parcours pour ce couple thème / durée — essaie &quot;Tous&quot; / &quot;Toutes&quot;.
-            </p>
+          {selectedTheme && selectedDur && !matched && (
+            <div>
+              <button
+                type="button"
+                onClick={() => setSelectedDur(null)}
+                className="mb-3 font-courier text-xs font-bold text-[#E07856] underline underline-offset-2"
+              >
+                ← Autre durée
+              </button>
+              <p className="font-courier text-sm text-[#333]/70">
+                Aucun itinéraire pour cette combinaison thème / durée.
+              </p>
+            </div>
           )}
         </>
       )}
