@@ -1,3 +1,793 @@
 {
-  "itineraries": []
+  "itineraries": [
+    {
+      "themeTitle": "Bretagne du grand large",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours au bord du monde breton",
+      "summary": "Cet itineraire court fonctionne tres bien en van parce qu'il se concentre sur un morceau de Finistere extremement fort, sans multiplier les kilometres. L'idee est de vivre la Bretagne la plus oceane : ports abrites, caps vertigineux, lumiere qui change sans cesse et impression d'aller jusqu'au bout de la terre. Camaret-sur-Mer pose d'emblee une ambiance de rade et de falaises, Douarnenez ajoute un port plus habite, Audierne ouvre vers l'ouest, puis la Pointe du Raz donne un final net, spectaculaire et logique. Le parcours reste simple, realiste et peu fatigue pour un week-end prolonge. Plusieurs arrets du meme secteur peuvent se regrouper sur une meme journee selon la meteo et l'envie de marcher un peu sur les sentiers du bord de mer.",
+      "overnightStyle": "Nuits typiques : petit port, cap sauvage, bout du monde cotier.",
+      "regionId": "bretagne",
+      "itinerarySlug": "3-jours-au-bord-du-monde-breton",
+      "steps": [
+        {
+          "slug": "camaret-sur-mer",
+          "nom": "Camaret-sur-Mer",
+          "role": "etape"
+        },
+        {
+          "slug": "douarnenez",
+          "nom": "Douarnenez",
+          "role": "etape"
+        },
+        {
+          "slug": "audierne",
+          "nom": "Audierne",
+          "role": "etape"
+        },
+        {
+          "slug": "pointe-du-raz",
+          "nom": "Pointe du Raz",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": [
+        {
+          "nom": "Presqu'ile de Crozon",
+          "raison": "Grande signature paysagere du theme grand large, tres coherente entre Camaret-sur-Mer et le Finistere ouest.",
+          "type": "secteur"
+        }
+      ]
+    },
+    {
+      "themeTitle": "Bretagne du grand large",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine de caps, d'iles et de vents d'ouest",
+      "summary": "En 7 jours, tu peux construire une vraie traversee du littoral breton sans tomber dans un marathon. Le bon rythme consiste a commencer sur la cote nord pour profiter de la Cote de Granit Rose, puis a basculer progressivement vers le Finistere ouest, ou le paysage devient plus rugueux. Saint-Malo et Cap Frehel ouvrent le voyage sur une Bretagne de remparts et de falaises, Perros-Guirec et Ploumanac'h apportent la roche rose et les lumières de carte postale, Roscoff introduit une respiration plus portuaire, puis Camaret-sur-Mer et la Pointe du Raz font monter la puissance. Le van permet ici de dormir dans des ambiances tres differentes sans jamais s'eloigner du theme : station littorale, petit port, presqu'ile, cap sauvage. C'est une semaine tres grand air, pensee pour ceux qui veulent la mer comme horizon principal.",
+      "overnightStyle": "Nuits typiques : cite maritime, cote rocheuse, petit port, rivage battu par le vent.",
+      "regionId": "bretagne",
+      "itinerarySlug": "une-semaine-de-caps-diles-et-de-vents-douest",
+      "steps": [
+        {
+          "slug": "saint-malo",
+          "nom": "Saint-Malo",
+          "role": "etape"
+        },
+        {
+          "slug": "cap-frehel",
+          "nom": "Cap Fréhel",
+          "role": "etape"
+        },
+        {
+          "slug": "perros-guirec",
+          "nom": "Perros-Guirec",
+          "role": "etape"
+        },
+        {
+          "slug": "ploumanach",
+          "nom": "Ploumanac'h",
+          "role": "etape"
+        },
+        {
+          "slug": "roscoff",
+          "nom": "Roscoff",
+          "role": "etape"
+        },
+        {
+          "slug": "camaret-sur-mer",
+          "nom": "Camaret-sur-Mer",
+          "role": "etape"
+        },
+        {
+          "slug": "pointe-du-raz",
+          "nom": "Pointe du Raz",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": [
+        {
+          "nom": "Presqu'ile de Crozon",
+          "raison": "Secteur majeur pour articuler naturellement Camaret-sur-Mer avec le theme des caps et des falaises.",
+          "type": "secteur"
+        }
+      ]
+    },
+    {
+      "themeTitle": "Bretagne du grand large",
+      "durationHint": "10 jours",
+      "tripTitle": "Le tour des rivages bretons en 10 jours",
+      "summary": "Sur 10 jours, on peut enfin assumer un vrai grand itineraire cotier, du nord-est vers le sud-ouest, avec un rythme van credible. Le principe est de suivre une logique de rivage plutot que de sauter d'une carte postale a l'autre : d'abord l'emeraude et les remparts, puis les caps du nord, ensuite la Bretagne rocheuse de la Cote de Granit Rose, avant de glisser vers les ports du Leon et le Finistere le plus spectaculaire. La deuxieme moitie donne plus de place aux presqu'iles, aux pointes et aux villes maritimes du sud, ce qui evite un voyage trop monochrome. Plusieurs villages littoraux peuvent se visiter dans la meme journee entre deux nuits bien placees. Le resultat est une Bretagne maritime complete, avec assez de temps pour stationner face a l'eau, marcher un peu et laisser la meteo influer sur le programme.",
+      "overnightStyle": "Nuits typiques : littoral, port, cap sauvage, baie abritee.",
+      "regionId": "bretagne",
+      "itinerarySlug": "le-tour-des-rivages-bretons-en-10-jours",
+      "steps": [
+        {
+          "slug": "cancale",
+          "nom": "Cancale",
+          "role": "etape"
+        },
+        {
+          "slug": "saint-malo",
+          "nom": "Saint-Malo",
+          "role": "etape"
+        },
+        {
+          "slug": "cap-frehel",
+          "nom": "Cap Fréhel",
+          "role": "etape"
+        },
+        {
+          "slug": "paimpol",
+          "nom": "Paimpol",
+          "role": "etape"
+        },
+        {
+          "slug": "perros-guirec",
+          "nom": "Perros-Guirec",
+          "role": "etape"
+        },
+        {
+          "slug": "ploumanach",
+          "nom": "Ploumanac'h",
+          "role": "etape"
+        },
+        {
+          "slug": "roscoff",
+          "nom": "Roscoff",
+          "role": "etape"
+        },
+        {
+          "slug": "brest",
+          "nom": "Brest",
+          "role": "etape"
+        },
+        {
+          "slug": "camaret-sur-mer",
+          "nom": "Camaret-sur-Mer",
+          "role": "etape"
+        },
+        {
+          "slug": "douarnenez",
+          "nom": "Douarnenez",
+          "role": "etape"
+        },
+        {
+          "slug": "pointe-du-raz",
+          "nom": "Pointe du Raz",
+          "role": "etape"
+        },
+        {
+          "slug": "concarneau",
+          "nom": "Concarneau",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": [
+        {
+          "nom": "Presqu'ile de Crozon",
+          "raison": "Grand chaînon manquant pour mieux relier Brest, Camaret-sur-Mer et la logique du grand large finisterien.",
+          "type": "secteur"
+        }
+      ]
+    },
+    {
+      "themeTitle": "Bretagne corsaire et balneaire",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours entre villas, marees et cites de mer",
+      "summary": "Pour un format court, ce theme marche tres bien sur la cote d'Emeraude, ou les etapes sont proches et tres complementaires. Cancale pose un decor de baie et de marees, Saint-Malo apporte sa puissance minerale et maritime, puis Dinard donne la touche plus elegante, presque Belle Epoque, avec ses villas et sa promenade face a la mer. En van, c'est un itineraire malin parce qu'il evite les longues traversees et permet de profiter davantage des ambiances de fin de journee, quand la lumiere descend sur les remparts ou les facades. C'est une Bretagne moins rugueuse que le Finistere, plus urbaine, plus mondaine par moments, sans perdre son identite maritime. Les trois etapes se completent naturellement et laissent du temps pour flaner, marcher en bord de mer et choisir des nuits entre rivage et petites villes.",
+      "overnightStyle": "Nuits typiques : port de peche, cite historique, front de mer elegant.",
+      "regionId": "bretagne",
+      "itinerarySlug": "3-jours-entre-villas-marees-et-cites-de-mer",
+      "steps": [
+        {
+          "slug": "cancale",
+          "nom": "Cancale",
+          "role": "etape"
+        },
+        {
+          "slug": "saint-malo",
+          "nom": "Saint-Malo",
+          "role": "etape"
+        },
+        {
+          "slug": "dinard",
+          "nom": "Dinard",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Bretagne corsaire et balneaire",
+      "durationHint": "7 jours",
+      "tripTitle": "La Bretagne des villas cossues et des ports fiers",
+      "summary": "Sur une semaine, tu peux elargir ce theme en reliant les grands noms de la cote nord a quelques escales plus raffinees ou plus portuaires. On garde la cote d'Emeraude comme socle, puis on file vers Dinan pour introduire un contrepoint medieval, avant de remonter vers les stations et villes littorales qui racontent une autre Bretagne : plus bourgeoise, plus balneaire, parfois presque anglaise dans son rapport aux facades et aux jardins. Cap Frehel apporte un grand souffle paysager, Perros-Guirec ouvre sur une station plus panoramique, et Roscoff prolonge le voyage avec une silhouette maritime plus ordonnee. En van, c'est un tres bon voyage pour ceux qui aiment alterner centre ancien, promenade de front de mer et diner sur le port, sans chercher la performance kilometrque.",
+      "overnightStyle": "Nuits typiques : ville close, station de bord de mer, port plus intimiste.",
+      "regionId": "bretagne",
+      "itinerarySlug": "la-bretagne-des-villas-cossues-et-des-ports-fiers",
+      "steps": [
+        {
+          "slug": "cancale",
+          "nom": "Cancale",
+          "role": "etape"
+        },
+        {
+          "slug": "saint-malo",
+          "nom": "Saint-Malo",
+          "role": "etape"
+        },
+        {
+          "slug": "dinard",
+          "nom": "Dinard",
+          "role": "etape"
+        },
+        {
+          "slug": "dinan",
+          "nom": "Dinan",
+          "role": "etape"
+        },
+        {
+          "slug": "cap-frehel",
+          "nom": "Cap Fréhel",
+          "role": "etape"
+        },
+        {
+          "slug": "perros-guirec",
+          "nom": "Perros-Guirec",
+          "role": "etape"
+        },
+        {
+          "slug": "roscoff",
+          "nom": "Roscoff",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Bretagne corsaire et balneaire",
+      "durationHint": "10 jours",
+      "tripTitle": "La route des elegances maritimes bretonnes",
+      "summary": "En 10 jours, ce theme prend de l'ampleur et devient un itineraire tres seduisant pour un van qui aime autant les villes que les rivages. L'idee est d'enchainer les lieux ou la Bretagne maritime montre son visage le plus habite : remparts, villas, ports de caractere, stations littorales, quais vivants et centres historiques bien conserves. On demarre logiquement sur la cote d'Emeraude, puis on gagne la cote nord et le Leon avant de redescendre vers le sud pour finir dans une Bretagne plus bourgeoise, plus artistique ou plus portuaire. Le parcours fonctionne bien parce qu'il alterne intensite urbaine et pauses face a l'eau, sans casser la coherence du theme. Les petites stations ou ports voisins peuvent se visiter dans une meme journee, a condition de garder des nuits bien choisies.",
+      "overnightStyle": "Nuits typiques : ville fortifiee, station chic, port vivant, centre historique au bord de l'eau.",
+      "regionId": "bretagne",
+      "itinerarySlug": "la-route-des-elegances-maritimes-bretonnes",
+      "steps": [
+        {
+          "slug": "cancale",
+          "nom": "Cancale",
+          "role": "etape"
+        },
+        {
+          "slug": "saint-malo",
+          "nom": "Saint-Malo",
+          "role": "etape"
+        },
+        {
+          "slug": "dinard",
+          "nom": "Dinard",
+          "role": "etape"
+        },
+        {
+          "slug": "dinan",
+          "nom": "Dinan",
+          "role": "etape"
+        },
+        {
+          "slug": "perros-guirec",
+          "nom": "Perros-Guirec",
+          "role": "etape"
+        },
+        {
+          "slug": "roscoff",
+          "nom": "Roscoff",
+          "role": "etape"
+        },
+        {
+          "slug": "brest",
+          "nom": "Brest",
+          "role": "etape"
+        },
+        {
+          "slug": "concarneau",
+          "nom": "Concarneau",
+          "role": "etape"
+        },
+        {
+          "slug": "pont-aven",
+          "nom": "Pont-Aven",
+          "role": "etape"
+        },
+        {
+          "slug": "vannes",
+          "nom": "Vannes",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Megalithes, legendes et Bretagne ancienne",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours avec les pierres levees de Bretagne",
+      "summary": "Pour un court sejour en van, le Morbihan est l'option la plus forte sur ce theme : on reste dans un perimetre resserre, mais la densite symbolique est enorme. Carnac donne evidemment le ton avec ses pierres et son imaginaire tres ancien, la Trinite-sur-Mer ajoute une respiration plus maritime sans casser le fil, puis Erdeven et le sentier de l'allee couverte prolongent ce voyage dans une Bretagne des origines. Le grand avantage, c'est le rythme : peu de kilometres, des sites complementaires, et assez de temps pour laisser la narration du lieu prendre. On est ici dans une Bretagne de menhirs, de vent sale et de grands horizons. En van, c'est tres agreable parce qu'on peut alterner visite, marche sur le littoral et soirees plus calmes, avec des etapes proches qui se groupent facilement selon l'envie.",
+      "overnightStyle": "Nuits typiques : village megalithique, campagne littorale, presqu'ile balayee par l'ocean.",
+      "regionId": "bretagne",
+      "itinerarySlug": "3-jours-avec-les-pierres-levees-de-bretagne",
+      "steps": [
+        {
+          "slug": "carnac",
+          "nom": "Carnac",
+          "role": "etape"
+        },
+        {
+          "slug": "la-trinite-sur-mer",
+          "nom": "La Trinité-sur-Mer",
+          "role": "etape"
+        },
+        {
+          "slug": "erdeven",
+          "nom": "Erdeven",
+          "role": "etape"
+        },
+        {
+          "slug": "sentier-de-lallee-couverte",
+          "nom": "sentier de l'allée couverte",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": [
+        {
+          "nom": "Locmariaquer",
+          "raison": "Lieu majeur du megalthique morbihannais, tres pertinent pour renforcer la coherence archeologique du theme.",
+          "type": "commune"
+        }
+      ]
+    },
+    {
+      "themeTitle": "Megalithes, legendes et Bretagne ancienne",
+      "durationHint": "7 jours",
+      "tripTitle": "La Bretagne des druides, des menhirs et des forets basses",
+      "summary": "Sur 7 jours, il devient interessant de croiser la Bretagne megalithique avec sa part plus legendaire. Le Morbihan fournit la base la plus evidente avec Carnac, la Trinite-sur-Mer et Erdeven, mais l'itineraire gagne en personnalite en remontant vers Paimpont, ou l'on change de decor sans quitter l'impression d'ancienne Bretagne. Josselin permet ensuite de reintroduire une silhouette medievale forte avant de filer vers Huelgoat, dont les chaos rocheux et l'atmosphere forestiere prolongent tres bien le theme. Locronan offre un final plus mineral, presque intemporel. Ce n'est pas un circuit de musees, mais un parcours d'imaginaire et de paysages, fait pour un van qui prefere les lieux charges de recits aux etapes purement spectaculaires. Les sites du secteur Carnac-Erdeven peuvent se regrouper sur une meme journee sans forcer le rythme.",
+      "overnightStyle": "Nuits typiques : campagne de pierres, lisiere forestiere, petite cite, village mineral.",
+      "regionId": "bretagne",
+      "itinerarySlug": "la-bretagne-des-druides-des-menhirs-et-des-forets-basses",
+      "steps": [
+        {
+          "slug": "carnac",
+          "nom": "Carnac",
+          "role": "etape"
+        },
+        {
+          "slug": "la-trinite-sur-mer",
+          "nom": "La Trinité-sur-Mer",
+          "role": "etape"
+        },
+        {
+          "slug": "erdeven",
+          "nom": "Erdeven",
+          "role": "etape"
+        },
+        {
+          "slug": "paimpont",
+          "nom": "Paimpont",
+          "role": "etape"
+        },
+        {
+          "slug": "josselin",
+          "nom": "Josselin",
+          "role": "etape"
+        },
+        {
+          "slug": "huelgoat",
+          "nom": "Huelgoat",
+          "role": "etape"
+        },
+        {
+          "slug": "locronan",
+          "nom": "Locronan",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": [
+        {
+          "nom": "Locmariaquer",
+          "raison": "Ajout tres utile pour donner encore plus de densite megalithique au debut du parcours.",
+          "type": "commune"
+        },
+        {
+          "nom": "Brocéliande",
+          "raison": "Secteur narratif fort qui depasse Paimpont et renforcerait la lecture legende du voyage.",
+          "type": "secteur"
+        }
+      ]
+    },
+    {
+      "themeTitle": "Megalithes, legendes et Bretagne ancienne",
+      "durationHint": "10 jours",
+      "tripTitle": "Des menhirs aux forets de legende : la vieille Bretagne en 10 jours",
+      "summary": "Sur 10 jours, ce theme permet de construire une Bretagne tres singuliere, moins attendue qu'un simple itineraire cotier. On commence logiquement dans le Morbihan, la ou la memoire megalithique est la plus lisible, puis on elargit vers les villages et forets qui prolongent cette sensation d'ancien monde. Paimpont et Josselin donnent de l'epaisseur symbolique, Huelgoat et Locronan installent ensuite une Bretagne plus severe, plus interieure, presque mythologique, avant une ouverture vers Audierne et la Pointe du Raz ou la terre semble s'achever dans le vent. Ce parcours fonctionne bien en van parce qu'il alterne secteurs compacts et grandes transitions paysageres sans jamais faire de detour absurde. Plusieurs haltes du Morbihan peuvent se regrouper dans la meme journee, ce qui laisse du temps pour les foret, les chaos rocheux et les fins d'apres-midi sur les hauteurs ou au bord de l'ocean.",
+      "overnightStyle": "Nuits typiques : campagne megalithique, foret, petite cite de pierre, plateau ou bout du monde.",
+      "regionId": "bretagne",
+      "itinerarySlug": "des-menhirs-aux-forets-de-legende-la-vieille-bretagne-en-10-jours",
+      "steps": [
+        {
+          "slug": "carnac",
+          "nom": "Carnac",
+          "role": "etape"
+        },
+        {
+          "slug": "la-trinite-sur-mer",
+          "nom": "La Trinité-sur-Mer",
+          "role": "etape"
+        },
+        {
+          "slug": "sentier-de-lallee-couverte",
+          "nom": "sentier de l'allée couverte",
+          "role": "etape"
+        },
+        {
+          "slug": "quiberon",
+          "nom": "Quiberon",
+          "role": "etape"
+        },
+        {
+          "slug": "paimpont",
+          "nom": "Paimpont",
+          "role": "etape"
+        },
+        {
+          "slug": "josselin",
+          "nom": "Josselin",
+          "role": "etape"
+        },
+        {
+          "slug": "huelgoat",
+          "nom": "Huelgoat",
+          "role": "etape"
+        },
+        {
+          "slug": "locronan",
+          "nom": "Locronan",
+          "role": "etape"
+        },
+        {
+          "slug": "audierne",
+          "nom": "Audierne",
+          "role": "etape"
+        },
+        {
+          "slug": "pointe-du-raz",
+          "nom": "Pointe du Raz",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": [
+        {
+          "nom": "Locmariaquer",
+          "raison": "Point fort megalithique qui renforcerait nettement le debut d'itineraire.",
+          "type": "commune"
+        },
+        {
+          "nom": "Brocéliande",
+          "raison": "Secteur legendaire majeur pour donner plus d'ampleur a la partie forestiere du theme.",
+          "type": "secteur"
+        },
+        {
+          "nom": "Monts d'Arree",
+          "raison": "Tres bon ajout pour prolonger la Bretagne ancienne vers un paysage plus nu et mythique.",
+          "type": "secteur"
+        }
+      ]
+    },
+    {
+      "themeTitle": "Petites cites, art et villages de caractere",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours dans la Bretagne des belles pierres",
+      "summary": "Ce format court est pense comme une collection de centres anciens a tres forte personnalite, sans kilometrage excessif. Dinan donne le grand decor medieval, Moncontour offre une densite plus intime, et Saint-Suliac apporte le lien a l'eau avec une respiration plus douce. En van, c'est un itineraire confortable parce qu'il evite les grandes distances et permet de passer plus de temps a deambuler qu'a conduire. Le theme fonctionne bien pour les voyageurs qui aiment les paves, les facades, les petites places et les vues depuis les hauteurs plutot que les longues journees de route. Moncontour et Dinan peuvent meme se repartir sur une meme journee si l'on veut dormir davantage du cote de la Rance ou finir dans une ambiance plus maritime le dernier soir.",
+      "overnightStyle": "Nuits typiques : petite cite medievale, bourg de caractere, village au bord de l'eau.",
+      "regionId": "bretagne",
+      "itinerarySlug": "3-jours-dans-la-bretagne-des-belles-pierres",
+      "steps": [
+        {
+          "slug": "dinan",
+          "nom": "Dinan",
+          "role": "etape"
+        },
+        {
+          "slug": "moncontour",
+          "nom": "Moncontour",
+          "role": "etape"
+        },
+        {
+          "slug": "saint-suliac",
+          "nom": "Saint-Suliac",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Petites cites, art et villages de caractere",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine de villages parfaits et de cites d'art",
+      "summary": "Sur une semaine, ce theme devient particulierement seduisant parce qu'il permet de traverser plusieurs visages de la Bretagne batie. Dinan et Moncontour lancent tres bien le voyage cote nord, puis Locronan apporte une autre intensite minerale en Finistere. Pont-Aven fait entrer la peinture, la lumiere et les ateliers dans le parcours, tandis que Rochefort-en-Terre et Vannes concluent avec un sud breton plus raffine, plus vivant, tres agreable en van si l'on veut finir sur une ambiance de ruelles et de quais. Le parcours reste coherent car il suit une diagonale nord-ouest puis sud, sans zigzag inutile. Plusieurs villages du meme secteur peuvent se decouvrir dans une meme journee, ce qui laisse des nuits plus longues dans les lieux les plus attachants. C'est l'itineraire ideal pour ceux qui veulent une Bretagne de pierre, d'art et de centres anciens vraiment habites.",
+      "overnightStyle": "Nuits typiques : cite medievale, village d'art, petite ville tres vivante.",
+      "regionId": "bretagne",
+      "itinerarySlug": "une-semaine-de-villages-parfaits-et-de-cites-dart",
+      "steps": [
+        {
+          "slug": "dinan",
+          "nom": "Dinan",
+          "role": "etape"
+        },
+        {
+          "slug": "moncontour",
+          "nom": "Moncontour",
+          "role": "etape"
+        },
+        {
+          "slug": "saint-suliac",
+          "nom": "Saint-Suliac",
+          "role": "etape"
+        },
+        {
+          "slug": "locronan",
+          "nom": "Locronan",
+          "role": "etape"
+        },
+        {
+          "slug": "pont-aven",
+          "nom": "Pont-Aven",
+          "role": "etape"
+        },
+        {
+          "slug": "rochefort-en-terre",
+          "nom": "Rochefort-en-Terre",
+          "role": "etape"
+        },
+        {
+          "slug": "vannes",
+          "nom": "Vannes",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Petites cites, art et villages de caractere",
+      "durationHint": "10 jours",
+      "tripTitle": "La Bretagne des ruelles, des ateliers et des places tranquilles",
+      "summary": "En 10 jours, tu peux vraiment assumer un grand voyage de villages et de cites de caractere sans lasser. L'idee n'est pas d'empiler les beaux bourgs, mais de construire une montee en nuances : d'abord les villes de pierre du nord, puis les villages plus secrets ou plus interieurs, avant de finir sur le sud breton, ou l'art, les maisons anciennes et les ports rendent le theme plus vivant encore. Fougeres, Josselin et Rochefort-en-Terre donnent une vraie singularite au centre et a l'est de la region, tandis que Pont-Aven, Locronan et Quimper evitent l'effet musee a ciel ouvert grace a leur animation et a leur relief culturel. En van, c'est un itineraire tres souple, parce que les journees peuvent se raccourcir ou se densifier facilement selon les envies et la meteo.",
+      "overnightStyle": "Nuits typiques : remparts, village de caractere, petite ville d'art, centre ancien vivant.",
+      "regionId": "bretagne",
+      "itinerarySlug": "la-bretagne-des-ruelles-des-ateliers-et-des-places-tranquilles",
+      "steps": [
+        {
+          "slug": "saint-malo",
+          "nom": "Saint-Malo",
+          "role": "etape"
+        },
+        {
+          "slug": "dinan",
+          "nom": "Dinan",
+          "role": "etape"
+        },
+        {
+          "slug": "moncontour",
+          "nom": "Moncontour",
+          "role": "etape"
+        },
+        {
+          "slug": "fougeres",
+          "nom": "Fougères",
+          "role": "etape"
+        },
+        {
+          "slug": "josselin",
+          "nom": "Josselin",
+          "role": "etape"
+        },
+        {
+          "slug": "rochefort-en-terre",
+          "nom": "Rochefort-en-Terre",
+          "role": "etape"
+        },
+        {
+          "slug": "vannes",
+          "nom": "Vannes",
+          "role": "etape"
+        },
+        {
+          "slug": "pont-aven",
+          "nom": "Pont-Aven",
+          "role": "etape"
+        },
+        {
+          "slug": "locronan",
+          "nom": "Locronan",
+          "role": "etape"
+        },
+        {
+          "slug": "quimper",
+          "nom": "Quimper",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Bretagne interieure, forets et reliefs secrets",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours loin des vagues, dans la Bretagne des landes",
+      "summary": "Ce court itineraire prend volontairement le contre-pied de la Bretagne carte postale en allant chercher son coeur plus terrestre. Paimpont ouvre le voyage avec une ambiance de foret, de legendes et de chemins, Josselin apporte une silhouette de cite forte au bord de l'eau, et Pontivy prolonge tres bien ce fil plus interieur, plus calme, presque plus feutre que le littoral. C'est une bonne option pour ceux qui connaissent deja un peu la cote ou qui veulent une Bretagne plus silencieuse. Le parcours reste compact, avec des temps de route raisonnables et de vraies possibilites de ralentir. Le grand interet de ce theme est son contraste : on retrouve la matiere bretonne, la pierre, les recits et les bourgs anciens, mais dans une ambiance plus verte et souvent plus reposante pour la vie en van.",
+      "overnightStyle": "Nuits typiques : lisiere de foret, petite cite fluviale, campagne vallonnee.",
+      "regionId": "bretagne",
+      "itinerarySlug": "3-jours-loin-des-vagues-dans-la-bretagne-des-landes",
+      "steps": [
+        {
+          "slug": "paimpont",
+          "nom": "Paimpont",
+          "role": "etape"
+        },
+        {
+          "slug": "josselin",
+          "nom": "Josselin",
+          "role": "etape"
+        },
+        {
+          "slug": "pontivy",
+          "nom": "Pontivy",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": [
+        {
+          "nom": "Brocéliande",
+          "raison": "Le secteur complet donnerait plus d'ampleur au recit forestier autour de Paimpont.",
+          "type": "secteur"
+        },
+        {
+          "nom": "Vallee du Blavet",
+          "raison": "Tres bon fil conducteur paysager entre Josselin et Pontivy pour un voyage en van plus ancre dans l'eau et les chemins.",
+          "type": "secteur"
+        }
+      ]
+    },
+    {
+      "themeTitle": "Bretagne interieure, forets et reliefs secrets",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine dans la Bretagne des forets basses et des chaos de granit",
+      "summary": "Sur une semaine, l'interieur breton gagne en profondeur si l'on relie plusieurs foyers tres differents sans chercher a tout voir. Paimpont apporte l'imaginaire forestier, Montfort-sur-Meu sert de sas naturel vers le coeur de la Bretagne, puis Josselin et Pontivy structurent le parcours avec leur ancrage historique. Huelgoat fait entrer les chaos rocheux et les sous-bois, avant une sortie plus minerale par Locronan puis Quimper. En van, c'est un itineraire particulierement agreable parce qu'il permet de varier les nuits : pres d'un bourg, en lisiere de foret, au bord d'une riviere ou dans un village de pierre. Les secteurs de Paimpont et Montfort-sur-Meu peuvent facilement se combiner sur une meme journee si tu veux garder plus de temps du cote de Huelgoat. C'est une Bretagne moins attendue, mais tres forte pour qui aime les paysages habites et les ambiances terriennes.",
+      "overnightStyle": "Nuits typiques : foret, canal ou riviere, plateau boise, petite ville historique.",
+      "regionId": "bretagne",
+      "itinerarySlug": "une-semaine-dans-la-bretagne-des-forets-basses-et-des-chaos-de-granit",
+      "steps": [
+        {
+          "slug": "paimpont",
+          "nom": "Paimpont",
+          "role": "etape"
+        },
+        {
+          "slug": "montfort-sur-meu",
+          "nom": "Montfort-sur-Meu",
+          "role": "etape"
+        },
+        {
+          "slug": "josselin",
+          "nom": "Josselin",
+          "role": "etape"
+        },
+        {
+          "slug": "pontivy",
+          "nom": "Pontivy",
+          "role": "etape"
+        },
+        {
+          "slug": "huelgoat",
+          "nom": "Huelgoat",
+          "role": "etape"
+        },
+        {
+          "slug": "locronan",
+          "nom": "Locronan",
+          "role": "etape"
+        },
+        {
+          "slug": "quimper",
+          "nom": "Quimper",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": [
+        {
+          "nom": "Brocéliande",
+          "raison": "Le secteur permettrait de mieux raconter la partie legendaire et forestiere du debut de parcours.",
+          "type": "secteur"
+        },
+        {
+          "nom": "Vallee du Blavet",
+          "raison": "Axe naturel tres pertinent entre Josselin et Pontivy pour un voyage interieur plus fluide.",
+          "type": "secteur"
+        },
+        {
+          "nom": "Monts d'Arree",
+          "raison": "Ajout tres coherent pour densifier la partie reliefs secrets entre Huelgoat et le sud Finistere.",
+          "type": "secteur"
+        }
+      ]
+    },
+    {
+      "themeTitle": "Bretagne interieure, forets et reliefs secrets",
+      "durationHint": "10 jours",
+      "tripTitle": "Le coeur secret de la Bretagne en 10 jours de van",
+      "summary": "En 10 jours, ce theme peut devenir un vrai voyage d'auteur. L'idee est de prendre la Bretagne a revers en limitant volontairement le temps sur le littoral pour privilegier les forets, les reliefs modestes, les petites cites, les vallees et les zones de transition. Rennes sert d'entree urbaine avant Paimpont, puis Fougeres et Vitre installent une premiere trame de villes fortes a l'est. Josselin et Pontivy recentrent ensuite le parcours sur une Bretagne plus calme, plus fluviale, tandis que Huelgoat et Belle-Isle-en-Terre ouvrent des paysages plus boises et plus secrets. Le voyage s'acheve par Quintin, ce qui conserve une vraie coherence interieure. En van, ce type de parcours est tres confortable : moins tendu par les parkings cotiers, plus flexible, souvent plus calme le soir, et facile a adapter selon l'envie de marcher ou de simplement rouler lentement.",
+      "overnightStyle": "Nuits typiques : ville d'entree, foret, petite cite, campagne vallonnee, bourg d'art ou de marche.",
+      "regionId": "bretagne",
+      "itinerarySlug": "le-coeur-secret-de-la-bretagne-en-10-jours-de-van",
+      "steps": [
+        {
+          "slug": "rennes",
+          "nom": "Rennes",
+          "role": "etape"
+        },
+        {
+          "slug": "paimpont",
+          "nom": "Paimpont",
+          "role": "etape"
+        },
+        {
+          "slug": "fougeres",
+          "nom": "Fougères",
+          "role": "etape"
+        },
+        {
+          "slug": "vitre",
+          "nom": "Vitré",
+          "role": "etape"
+        },
+        {
+          "slug": "josselin",
+          "nom": "Josselin",
+          "role": "etape"
+        },
+        {
+          "slug": "pontivy",
+          "nom": "Pontivy",
+          "role": "etape"
+        },
+        {
+          "slug": "huelgoat",
+          "nom": "Huelgoat",
+          "role": "etape"
+        },
+        {
+          "slug": "belle-isle-en-terre",
+          "nom": "Belle-Isle-en-Terre",
+          "role": "etape"
+        },
+        {
+          "slug": "quintin",
+          "nom": "Quintin",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": [
+        {
+          "nom": "Brocéliande",
+          "raison": "Ajout structurant pour donner plus d'ampleur au noyau forestier du voyage autour de Paimpont.",
+          "type": "secteur"
+        },
+        {
+          "nom": "Vallee du Blavet",
+          "raison": "Excellent fil conducteur naturel et van-friendly entre Josselin et Pontivy.",
+          "type": "secteur"
+        },
+        {
+          "nom": "Monts d'Arree",
+          "raison": "Permettrait de renforcer la dimension reliefs secrets avant ou apres Huelgoat.",
+          "type": "secteur"
+        }
+      ]
+    }
+  ]
 }

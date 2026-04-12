@@ -1,3 +1,972 @@
 {
-  "itineraries": []
-}
+  "itineraries": [
+  {
+  "themeTitle": "Vallées impressionnistes et Vexin",
+  "durationHint": "3 jours",
+  "tripTitle": "Autour de l'Oise, des peintres et des falaises",
+  "summary": "Pour un court road trip francilien qui a une vraie respiration, le meilleur choix est de quitter vite la métropole vers l'ouest et le nord. Cet itinéraire relie La Roche-Guyon, Auvers-sur-Oise et Pontoise par un fil très cohérent : vallée, lumière, villages de bord d'eau et paysages qui ont nourri l'imaginaire impressionniste. En van, le rythme fonctionne bien car les distances restent modestes et l'on alterne belvédères, petites cités et haltes plus paisibles. C'est un parcours qui donne immédiatement la sensation d'être loin de Paris sans multiplier les kilomètres. Trois jours suffisent pour goûter à une Île-de-France plus douce, plus rurale et très visuelle.",
+  "overnightStyle": "Nuits typiques : village de vallée, bourg d'artistes, rive calme de l'Oise.",
+  "regionId": "ile-de-france",
+  "itinerarySlug": "vexin-oise-impressionniste-3j",
+  "steps": [
+  {
+  "slug": "la-roche-guyon",
+  "nom": "La Roche-Guyon",
+  "role": "etape"
+  },
+  {
+  "slug": "auvers-sur-oise",
+  "nom": "Auvers-sur-Oise",
+  "role": "etape"
+  },
+  {
+  "slug": "pontoise",
+  "nom": "Pontoise",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Vétheuil",
+  "raison": "Renforcer la continuité paysagère entre La Roche-Guyon et la vallée de l'Oise avec un grand classique des bords de Seine impressionnistes.",
+  "type": "commune"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Vallées impressionnistes et Vexin",
+  "durationHint": "7 jours",
+  "tripTitle": "Le grand tour des rives d'Oise et du Vexin sensible",
+  "summary": "Sur une semaine, ce fil impressionniste prend toute son ampleur. On part du rebord le plus spectaculaire avec La Roche-Guyon avant de remonter vers les villages et petites villes d'eau du Val-d'Oise. Le parcours gagne en densité à mesure qu'il approche d'Auvers-sur-Oise et Pontoise, puis s'ouvre vers les boucles de l'Oise autour de Parmain, Beaumont-sur-Oise et L'Isle-Adam. En van, c'est une semaine très confortable : peu de longues liaisons, une vraie variété d'ambiances et la sensation de glisser d'une rive à l'autre, entre nature, patrimoine et mémoire artistique. L'ensemble compose un road trip subtil, plus contemplatif que monumental, très juste pour l'Île-de-France.",
+  "overnightStyle": "Nuits typiques : falaise sur Seine, petite ville historique, plage fluviale, village du Vexin.",
+  "regionId": "ile-de-france",
+  "itinerarySlug": "vexin-oise-impressionniste-7j",
+  "steps": [
+  {
+  "slug": "la-roche-guyon",
+  "nom": "La Roche-Guyon",
+  "role": "etape"
+  },
+  {
+  "slug": "ennery",
+  "nom": "Ennery",
+  "role": "etape"
+  },
+  {
+  "slug": "pontoise",
+  "nom": "Pontoise",
+  "role": "etape"
+  },
+  {
+  "slug": "auvers-sur-oise",
+  "nom": "Auvers-sur-Oise",
+  "role": "etape"
+  },
+  {
+  "slug": "parmain",
+  "nom": "Parmain",
+  "role": "etape"
+  },
+  {
+  "slug": "beaumont-sur-oise",
+  "nom": "Beaumont-sur-Oise",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-lisle-adam",
+  "nom": "Plage de L'Isle-Adam",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "L'Isle-Adam",
+  "raison": "La plage est utile mais le centre de ville donnerait une étape plus complète et plus naturelle éditorialement.",
+  "type": "commune"
+  },
+  {
+  "nom": "Vallée de l'Oise",
+  "raison": "Permettrait de nommer plus clairement le fil conducteur paysager du voyage.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Vallées impressionnistes et Vexin",
+  "durationHint": "10 jours",
+  "tripTitle": "De Giverny aux villes d'eau du Val-d'Oise",
+  "summary": "En dix jours, on peut construire l'un des plus beaux itinéraires de proximité de toute l'Île-de-France. Le départ par Giverny donne une ouverture iconique, puis le parcours entre Seine et Oise trouve son vrai ton : falaises, villages tranquilles, petites cités historiques, lumière douce sur l'eau et traces constantes des peintres. La Roche-Guyon, Auvers-sur-Oise et Pontoise forment l'ossature, prolongée par les rives plus calmes d'Eragny-sur-Oise, Jouy-le-Moutier, Vauréal ou Beaumont-sur-Oise. Ce n'est pas un voyage de grands monuments mais un road trip d'atmosphère, idéal en van pour ceux qui aiment les étapes courtes, les beaux détours et les soirs posés au bord d'une rivière ou sur un coteau tranquille.",
+  "overnightStyle": "Nuits typiques : rive de Seine, bourg de peintres, boucle de rivière, petite ville d'eau.",
+  "regionId": "ile-de-france",
+  "itinerarySlug": "vexin-oise-impressionniste-10j",
+  "steps": [
+  {
+  "slug": "giverny",
+  "nom": "Giverny",
+  "role": "etape"
+  },
+  {
+  "slug": "la-roche-guyon",
+  "nom": "La Roche-Guyon",
+  "role": "etape"
+  },
+  {
+  "slug": "vaureal",
+  "nom": "Vauréal",
+  "role": "etape"
+  },
+  {
+  "slug": "jouy-le-moutier",
+  "nom": "Jouy-le-Moutier",
+  "role": "etape"
+  },
+  {
+  "slug": "eragny-sur-oise",
+  "nom": "Eragny-sur-Oise",
+  "role": "etape"
+  },
+  {
+  "slug": "pontoise",
+  "nom": "Pontoise",
+  "role": "etape"
+  },
+  {
+  "slug": "auvers-sur-oise",
+  "nom": "Auvers-sur-Oise",
+  "role": "etape"
+  },
+  {
+  "slug": "parmain",
+  "nom": "Parmain",
+  "role": "etape"
+  },
+  {
+  "slug": "beaumont-sur-oise",
+  "nom": "Beaumont-sur-Oise",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-lisle-adam",
+  "nom": "Plage de L'Isle-Adam",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Vétheuil",
+  "raison": "Étape naturelle entre Giverny et La Roche-Guyon pour renforcer l'ouverture sur la Seine des impressionnistes.",
+  "type": "commune"
+  },
+  {
+  "nom": "L'Isle-Adam",
+  "raison": "Le centre de ville permettrait une fin d'itinéraire plus incarnée que la seule plage.",
+  "type": "commune"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Forêts, grès et villages de Seine-et-Marne",
+  "durationHint": "3 jours",
+  "tripTitle": "Le sud francilien entre forêt royale et villages d'artistes",
+  "summary": "Pour trois jours en van au sud de Paris, difficile de faire plus cohérent que ce triangle. Barbizon ouvre le voyage avec son identité d'artistes et de lisière forestière, Fontainebleau apporte la puissance patrimoniale et le décor de grande forêt, puis Moret-sur-Loing prolonge l'ensemble dans une ambiance de rivière et de vieille ville. Le tout se parcourt sans fatigue, avec de belles routes secondaires et une vraie sensation de changement de décor. Cet itinéraire fonctionne très bien pour une première découverte de l'Île-de-France hors capitale : on y trouve un rythme lent, de la pierre, des sous-bois, des rives tranquilles et une élégance classique qui se prête parfaitement au voyage en van.",
+  "overnightStyle": "Nuits typiques : lisière forestière, ville royale, bords du Loing.",
+  "regionId": "ile-de-france",
+  "itinerarySlug": "foret-fontainebleau-villages-3j",
+  "steps": [
+  {
+  "slug": "barbizon",
+  "nom": "Barbizon",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-fontainebleau",
+  "nom": "Château de Fontainebleau",
+  "role": "etape"
+  },
+  {
+  "slug": "moret-sur-loing",
+  "nom": "Moret-sur-Loing",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Forêt de Fontainebleau",
+  "raison": "Nommer explicitement le massif donnerait encore plus de force à la cohérence nature de ce court parcours.",
+  "type": "aire_naturelle"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Forêts, grès et villages de Seine-et-Marne",
+  "durationHint": "7 jours",
+  "tripTitle": "Fontainebleau, Loing et vallées secrètes du sud francilien",
+  "summary": "Sur sept jours, le sud de l'Île-de-France révèle une matière étonnamment riche pour un voyage en van : une grande forêt, des villages d'artistes, des rives paisibles et une campagne plus secrète à mesure que l'on descend vers le Gâtinais. Le parcours démarre par Barbizon et Fontainebleau, se détend à Samois-sur-Seine puis glisse vers Moret-sur-Loing, Nemours et Château-Landon. La fin par la basse vallée de l'Orvanne apporte une note plus discrète, plus rurale, idéale pour éviter l'effet catalogue. C'est un itinéraire très agréable à vivre car il ne cherche pas l'accumulation : il construit une progression douce, du plus célèbre au plus intime, avec de vrais temps de route, de balade et de soirée tranquille.",
+  "overnightStyle": "Nuits typiques : village d'artistes, bord de Seine, cité ancienne, campagne du Gâtinais.",
+  "regionId": "ile-de-france",
+  "itinerarySlug": "foret-fontainebleau-villages-7j",
+  "steps": [
+  {
+  "slug": "barbizon",
+  "nom": "Barbizon",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-fontainebleau",
+  "nom": "Château de Fontainebleau",
+  "role": "etape"
+  },
+  {
+  "slug": "samois-sur-seine",
+  "nom": "Samois-sur-Seine",
+  "role": "etape"
+  },
+  {
+  "slug": "moret-sur-loing",
+  "nom": "Moret-sur-Loing",
+  "role": "etape"
+  },
+  {
+  "slug": "nemours",
+  "nom": "Nemours",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-landon",
+  "nom": "Château-Landon",
+  "role": "etape"
+  },
+  {
+  "slug": "en-basse-vallee-de-lorvanne",
+  "nom": "En basse vallée de l'Orvanne",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Poligny",
+  "raison": "Village de transition pertinent entre Nemours et Château-Landon pour densifier le sud Seine-et-Marne.",
+  "type": "commune"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Forêts, grès et villages de Seine-et-Marne",
+  "durationHint": "10 jours",
+  "tripTitle": "Le grand sud francilien, des jardins aux vallées du Gâtinais",
+  "summary": "Dix jours permettent de faire du sud francilien un vrai voyage et non une simple échappée. On part des jardins de Courances, puis l'itinéraire s'enracine dans le duo majeur Barbizon-Fontainebleau avant de suivre la Seine vers Samois-sur-Seine et Melun. Ensuite, le Loing prend le relais avec Moret-sur-Loing et Nemours, puis l'on descend vers Château-Landon et la vallée de l'Orvanne. L'intérêt de ce parcours tient à son équilibre : des sites forts, mais jamais collés les uns aux autres, et surtout un fil paysager continu entre forêts, rivières, villages de pierre et petites routes de plateau. En van, c'est un itinéraire très crédible, calme et élégant, parfait pour sentir une Île-de-France plus profonde et plus terrienne.",
+  "overnightStyle": "Nuits typiques : jardin historique, lisière de forêt, bords de Seine, village du Loing.",
+  "regionId": "ile-de-france",
+  "itinerarySlug": "foret-fontainebleau-villages-10j",
+  "steps": [
+  {
+  "slug": "chateau-de-courances",
+  "nom": "Château de Courances",
+  "role": "etape"
+  },
+  {
+  "slug": "barbizon",
+  "nom": "Barbizon",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-fontainebleau",
+  "nom": "Château de Fontainebleau",
+  "role": "etape"
+  },
+  {
+  "slug": "samois-sur-seine",
+  "nom": "Samois-sur-Seine",
+  "role": "etape"
+  },
+  {
+  "slug": "melun",
+  "nom": "Melun",
+  "role": "etape"
+  },
+  {
+  "slug": "moret-sur-loing",
+  "nom": "Moret-sur-Loing",
+  "role": "etape"
+  },
+  {
+  "slug": "nemours",
+  "nom": "Nemours",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-landon",
+  "nom": "Château-Landon",
+  "role": "etape"
+  },
+  {
+  "slug": "en-basse-vallee-de-lorvanne",
+  "nom": "En basse vallée de l'Orvanne",
+  "role": "etape"
+  },
+  {
+  "slug": "la-bretonniere",
+  "nom": "La Bretonnière",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Forêt de Fontainebleau",
+  "raison": "Apporterait une étape nature explicite au cœur du parcours, en plus de Fontainebleau et Barbizon.",
+  "type": "aire_naturelle"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Châteaux, vallées et lisières des Yvelines",
+  "durationHint": "3 jours",
+  "tripTitle": "L'essentiel des Yvelines entre Versailles et Chevreuse",
+  "summary": "Pour un week-end prolongé en van, les Yvelines offrent sans doute l'itinéraire le plus fluide de toute la région. Versailles donne la grande porte d'entrée patrimoniale, puis l'on bascule très vite dans un paysage plus boisé et plus vallonné avec Chevreuse et le Château de la Madeleine. La fin vers Rochefort-en-Yvelines installe un autre rythme, plus rural, presque déjà hors bassin parisien. Cet enchaînement est très fort parce qu'il condense plusieurs visages d'un même territoire sans se disperser : résidence royale, vallée encaissée, villages, forêts et routes secondaires. C'est un parcours court mais très satisfaisant, idéal pour ceux qui cherchent une Île-de-France noble, verte et facile à vivre en van.",
+  "overnightStyle": "Nuits typiques : lisière de parc, village de vallée, bourg forestier.",
+  "regionId": "ile-de-france",
+  "itinerarySlug": "yvelines-chateaux-vallees-3j",
+  "steps": [
+  {
+  "slug": "versailles",
+  "nom": "Versailles",
+  "role": "etape"
+  },
+  {
+  "slug": "chevreuse",
+  "nom": "Chevreuse",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-la-madeleine",
+  "nom": "Château de la Madeleine",
+  "role": "etape"
+  },
+  {
+  "slug": "rochefort-en-yvelines",
+  "nom": "Rochefort-en-Yvelines",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": []
+  },
+  {
+  "themeTitle": "Châteaux, vallées et lisières des Yvelines",
+  "durationHint": "7 jours",
+  "tripTitle": "Des palais aux forêts, la grande boucle ouest francilienne",
+  "summary": "En une semaine, l'ouest francilien devient un vrai terrain de road trip. Le parcours part du socle royal avec Versailles, puis gagne Saint-Germain-en-Laye, Marly-le-Roi et Poissy, où l'histoire bascule doucement vers l'architecture moderne avec la Villa Savoye. Ensuite, on quitte le bord de Seine pour entrer dans les Yvelines plus intérieures : Montfort-l'Amaury, Les Mesnuls, Rambouillet. La route devient plus forestière, plus respirante, sans perdre le fil patrimonial. C'est un itinéraire très bien calibré pour le van, car il alterne villes nobles, villages élégants et séquences de nature sans grands détours. Il raconte une autre Île-de-France, plus aristocratique que médiévale, mais très agréable à parcourir lentement.",
+  "overnightStyle": "Nuits typiques : ville royale, bourg élégant, clairière yvelinoise, lisière de forêt.",
+  "regionId": "ile-de-france",
+  "itinerarySlug": "yvelines-chateaux-vallees-7j",
+  "steps": [
+  {
+  "slug": "versailles",
+  "nom": "Versailles",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-germain-en-laye",
+  "nom": "Saint-Germain-en-Laye",
+  "role": "etape"
+  },
+  {
+  "slug": "marly-le-roi",
+  "nom": "Marly-le-Roi",
+  "role": "etape"
+  },
+  {
+  "slug": "poissy",
+  "nom": "Poissy",
+  "role": "etape"
+  },
+  {
+  "slug": "villa-savoye",
+  "nom": "Villa Savoye",
+  "role": "etape"
+  },
+  {
+  "slug": "montfort-lamaury",
+  "nom": "Montfort-l'Amaury",
+  "role": "etape"
+  },
+  {
+  "slug": "rambouillet",
+  "nom": "Rambouillet",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Forêt de Rambouillet",
+  "raison": "Donnerait un ancrage nature plus explicite à la seconde moitié du parcours.",
+  "type": "aire_naturelle"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Châteaux, vallées et lisières des Yvelines",
+  "durationHint": "10 jours",
+  "tripTitle": "Le grand arc royal des Yvelines au Hurepoix",
+  "summary": "Sur dix jours, on peut étirer le voyage des Yvelines vers le sud sans casser sa cohérence. La première partie assemble les hauts lieux de l'ouest francilien : Versailles, Saint-Germain-en-Laye, Marly-le-Roi, Poissy, puis les villages plus intérieurs comme Montfort-l'Amaury, Thoiry et Auffargis. La seconde moitié descend vers Chevreuse, le Château de la Madeleine, Rochefort-en-Yvelines et Dourdan, avec une tonalité plus forestière et médiévale. Ce qui rend l'ensemble convaincant, c'est le passage progressif du monde des résidences et des parcs au relief plus secret des vallées et des lisières. En van, le parcours est très naturel : peu d'axes pénibles, une succession de belles étapes et une vraie sensation d'ouest parisien habité puis ruralisé.",
+  "overnightStyle": "Nuits typiques : ville de château, village boisé, vallée encaissée, bourg fortifié.",
+  "regionId": "ile-de-france",
+  "itinerarySlug": "yvelines-chateaux-vallees-10j",
+  "steps": [
+  {
+  "slug": "versailles",
+  "nom": "Versailles",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-germain-en-laye",
+  "nom": "Saint-Germain-en-Laye",
+  "role": "etape"
+  },
+  {
+  "slug": "marly-le-roi",
+  "nom": "Marly-le-Roi",
+  "role": "etape"
+  },
+  {
+  "slug": "poissy",
+  "nom": "Poissy",
+  "role": "etape"
+  },
+  {
+  "slug": "thoiry",
+  "nom": "Thoiry",
+  "role": "etape"
+  },
+  {
+  "slug": "montfort-lamaury",
+  "nom": "Montfort-l'Amaury",
+  "role": "etape"
+  },
+  {
+  "slug": "auffargis",
+  "nom": "Auffargis",
+  "role": "etape"
+  },
+  {
+  "slug": "chevreuse",
+  "nom": "Chevreuse",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-la-madeleine",
+  "nom": "Château de la Madeleine",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-dourdan",
+  "nom": "Château de Dourdan",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Vallée de Chevreuse",
+  "raison": "Nommer la vallée comme telle renforcerait le fil paysager entre Auffargis, Chevreuse et Rochefort-en-Yvelines.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Brie, Marne et cités médiévales",
+  "durationHint": "3 jours",
+  "tripTitle": "Provins et les confins médiévaux de la Brie",
+  "summary": "Pour une courte échappée avec une forte identité, l'est et le sud-est franciliens offrent un itinéraire d'une grande lisibilité. On part de Meaux, grande porte de Brie, puis l'on file vers Jouarre pour changer d'échelle et entrer dans une campagne plus posée. Le voyage se referme magnifiquement à Provins, qui donne une ampleur patrimoniale rare pour l'Île-de-France. En van, ce parcours est réussi parce qu'il reste simple : peu d'étapes mais chacune porte une vraie couleur, avec de belles traversées de plateau et de vallons. C'est un road trip qui privilégie la continuité historique et rurale, parfait pour ceux qui veulent une région de pierres, d'abbayes, de halles et de remparts plutôt qu'un enchaînement urbain.",
+  "overnightStyle": "Nuits typiques : ville de Brie, bourg monastique, cité fortifiée.",
+  "regionId": "ile-de-france",
+  "itinerarySlug": "brie-medievale-marne-3j",
+  "steps": [
+  {
+  "slug": "meaux",
+  "nom": "Meaux",
+  "role": "etape"
+  },
+  {
+  "slug": "jouarre",
+  "nom": "Jouarre",
+  "role": "etape"
+  },
+  {
+  "slug": "provins",
+  "nom": "Provins",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": []
+  },
+  {
+  "themeTitle": "Brie, Marne et cités médiévales",
+  "durationHint": "7 jours",
+  "tripTitle": "La Brie en profondeur, de la Marne aux remparts de Provins",
+  "summary": "En sept jours, la Brie devient un territoire de voyage à part entière. Le parcours commence le long de la Marne, entre Crécy-la-Chapelle et Meaux, puis suit un fil est-ouest très naturel vers Jouarre et La Ferté-sous-Jouarre. Ensuite, on quitte les rives pour entrer dans les horizons plus ouverts de la Brie historique avant d'atteindre Provins. Cette progression est importante : elle évite l'effet de simple collection de villages et construit un vrai basculement du fluvial vers le médiéval. En van, l'itinéraire a beaucoup de sens, avec des routes faciles, des étapes bien espacées et une tonalité plus campagnarde que l'on n'imagine souvent pas si près de Paris.",
+  "overnightStyle": "Nuits typiques : bord de Marne, bourg briard, petite ville ancienne, cité médiévale.",
+  "regionId": "ile-de-france",
+  "itinerarySlug": "brie-medievale-marne-7j",
+  "steps": [
+  {
+  "slug": "crecy-la-chapelle",
+  "nom": "Crécy-la-Chapelle",
+  "role": "etape"
+  },
+  {
+  "slug": "meaux",
+  "nom": "Meaux",
+  "role": "etape"
+  },
+  {
+  "slug": "jouarre",
+  "nom": "Jouarre",
+  "role": "etape"
+  },
+  {
+  "slug": "la-ferte-sous-jouarre",
+  "nom": "La Ferté-sous-Jouarre",
+  "role": "etape"
+  },
+  {
+  "slug": "thorigny-sur-marne",
+  "nom": "Thorigny-sur-Marne",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-jablines-annet",
+  "nom": "Plage de Jablines-Annet",
+  "role": "etape"
+  },
+  {
+  "slug": "provins",
+  "nom": "Provins",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Coulommiers",
+  "raison": "Apporterait une étape de transition plus naturelle entre Jouarre, La Ferté-sous-Jouarre et Provins.",
+  "type": "commune"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Brie, Marne et cités médiévales",
+  "durationHint": "10 jours",
+  "tripTitle": "La grande traversée briarde, des rivières aux vieilles pierres",
+  "summary": "Cet itinéraire de dix jours donne à la Brie toute sa profondeur, sans forcer la géographie. On commence par les bords de Marne à Thorigny-sur-Marne et Crécy-la-Chapelle, avant de gagner Meaux, Jouarre et La Ferté-sous-Jouarre. Puis le voyage glisse vers des paysages plus ouverts avec Provins et, plus au sud, Château-Landon. Ce choix crée un vrai récit : d'abord l'eau et les petites vallées, puis la campagne briarde, enfin des cités plus austères et plus anciennes. En van, le voyage reste crédible parce qu'il progresse par grands paliers plutôt qu'en allers-retours. C'est un itinéraire moins spectaculaire que l'ouest ou le sud forestier, mais très solide, très habité et plein de caractère pour qui aime les terres tranquilles.",
+  "overnightStyle": "Nuits typiques : bords de Marne, bourg de Brie, remparts, cité de hauteur.",
+  "regionId": "ile-de-france",
+  "itinerarySlug": "brie-medievale-marne-10j",
+  "steps": [
+  {
+  "slug": "thorigny-sur-marne",
+  "nom": "Thorigny-sur-Marne",
+  "role": "etape"
+  },
+  {
+  "slug": "crecy-la-chapelle",
+  "nom": "Crécy-la-Chapelle",
+  "role": "etape"
+  },
+  {
+  "slug": "meaux",
+  "nom": "Meaux",
+  "role": "etape"
+  },
+  {
+  "slug": "jouarre",
+  "nom": "Jouarre",
+  "role": "etape"
+  },
+  {
+  "slug": "la-ferte-sous-jouarre",
+  "nom": "La Ferté-sous-Jouarre",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-jablines-annet",
+  "nom": "Plage de Jablines-Annet",
+  "role": "etape"
+  },
+  {
+  "slug": "provins",
+  "nom": "Provins",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-landon",
+  "nom": "Château-Landon",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Coulommiers",
+  "raison": "Étape charnière idéale pour mieux relier la haute Brie à Provins dans une version longue.",
+  "type": "commune"
+  },
+  {
+  "nom": "Vallée du Grand Morin",
+  "raison": "Permettrait de nommer clairement la logique de paysage entre Crécy-la-Chapelle et la Brie intérieure.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Paris monumental et Grand Paris cultivé",
+  "durationHint": "3 jours",
+  "tripTitle": "Paris majeur, à vivre en van par séquences",
+  "summary": "Même pour un voyage en van, il est possible de proposer un vrai parcours parisien à condition de penser le centre par séquences et non comme un stationnement permanent. Cet itinéraire relie les grands repères les plus évidents et les plus cohérents : Quartier Latin et Notre-Dame pour la matrice historique, Louvre et jardin du Luxembourg pour l'élégance classique, puis Tour Eiffel en clôture. Le voyage se vit comme une traversée urbaine concentrée, avec des entrées dans la ville ciblées et des nuits plutôt en périphérie proche. Cela donne un Paris lisible, fort, sans dispersion. Sur trois jours, mieux vaut assumer cette sélection dense et iconique plutôt que chercher à tout couvrir.",
+  "overnightStyle": "Nuits typiques : lisière urbaine, bord de Seine métropolitain, quartier calme en retrait.",
+  "regionId": "ile-de-france",
+  "itinerarySlug": "paris-monumental-grand-paris-3j",
+  "steps": [
+  {
+  "slug": "quartier-latin",
+  "nom": "Quartier Latin",
+  "role": "etape"
+  },
+  {
+  "slug": "cathedrale-notre-dame-de-paris",
+  "nom": "Cathédrale Notre-Dame de Paris",
+  "role": "etape"
+  },
+  {
+  "slug": "musee-du-louvre",
+  "nom": "Musée du Louvre",
+  "role": "etape"
+  },
+  {
+  "slug": "jardin-du-luxembourg",
+  "nom": "Jardin du Luxembourg",
+  "role": "etape"
+  },
+  {
+  "slug": "tour-eiffel",
+  "nom": "Tour Eiffel",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Bois de Vincennes",
+  "raison": "Serait très utile pour rendre la logique van plus concrète avec un grand appui vert à l'est de Paris.",
+  "type": "aire_naturelle"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Paris monumental et Grand Paris cultivé",
+  "durationHint": "7 jours",
+  "tripTitle": "Paris et ses grandes perspectives, du cœur historique aux rives modernes",
+  "summary": "Sur une semaine, Paris mérite un fil plus construit que la simple addition de monuments. On commence par le cœur historique avec le Quartier Latin, Notre-Dame et la Place des Vosges, puis l'on remonte vers le Louvre, le musée d'Orsay et les Invalides avec le Musée Rodin. Ensuite, le voyage glisse vers les grandes perspectives de l'ouest, de l'axe Tour Eiffel-Champs-Élysées à La Défense, avant de finir sur les bords de Seine plus contemporains vers la Bibliothèque François-Mitterrand. En van, ce choix est crédible si l'on alterne séquences urbaines et nuits sur les marges du centre. C'est un Paris ample, élégant et intelligible, qui assume autant le patrimoine que la ville vécue.",
+  "overnightStyle": "Nuits typiques : bord de Seine, périphérie élégante, rive gauche apaisée, quartier d'affaires en retrait.",
+  "regionId": "ile-de-france",
+  "itinerarySlug": "paris-monumental-grand-paris-7j",
+  "steps": [
+  {
+  "slug": "quartier-latin",
+  "nom": "Quartier Latin",
+  "role": "etape"
+  },
+  {
+  "slug": "cathedrale-notre-dame-de-paris",
+  "nom": "Cathédrale Notre-Dame de Paris",
+  "role": "etape"
+  },
+  {
+  "slug": "place-des-vosges",
+  "nom": "Place des Vosges",
+  "role": "etape"
+  },
+  {
+  "slug": "musee-du-louvre",
+  "nom": "Musée du Louvre",
+  "role": "etape"
+  },
+  {
+  "slug": "musee-dorsay",
+  "nom": "Musée d'Orsay",
+  "role": "etape"
+  },
+  {
+  "slug": "musee-rodin",
+  "nom": "Musée Rodin",
+  "role": "etape"
+  },
+  {
+  "slug": "tour-eiffel",
+  "nom": "Tour Eiffel",
+  "role": "etape"
+  },
+  {
+  "slug": "champs-elysees",
+  "nom": "Champs-Élysées",
+  "role": "etape"
+  },
+  {
+  "slug": "la-defense",
+  "nom": "La Défense",
+  "role": "etape"
+  },
+  {
+  "slug": "bibliotheque-francois-mitterrand",
+  "nom": "Bibliothèque François-Mitterrand",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Paris Rive Gauche",
+  "raison": "Nommer le secteur aiderait à mieux relier Orsay, Rodin et la Bibliothèque François-Mitterrand dans un même récit urbain.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Paris monumental et Grand Paris cultivé",
+  "durationHint": "10 jours",
+  "tripTitle": "Le très grand Paris, des collines sacrées aux rives de Seine",
+  "summary": "Cette version longue construit un vrai voyage urbain, rare mais pertinent pour l'Île-de-France. On ouvre par le nord symbolique avec Montmartre, la Basilique du Sacré-Cœur et le Canal Saint-Martin, puis l'on redescend vers les grands marqueurs historiques et muséaux du centre. La seconde partie élargit le regard au Grand Paris cultivé : Domaine national de Saint-Cloud, Sèvres, La Seine Musicale et La Défense. Le résultat n'est pas un city-break classique mais un parcours métropolitain pensé comme un road trip lent, avec des nuits sur les franges et des journées dédiées à des séquences précises. Il fonctionne parce qu'il raconte la capitale par ses lignes de force, sans chercher l'exhaustivité et sans nier les contraintes du van.",
+  "overnightStyle": "Nuits typiques : périphérie verte, bord de Seine métropolitain, colline urbaine, rive moderne.",
+  "regionId": "ile-de-france",
+  "itinerarySlug": "paris-monumental-grand-paris-10j",
+  "steps": [
+  {
+  "slug": "montmartre",
+  "nom": "Montmartre",
+  "role": "etape"
+  },
+  {
+  "slug": "basilique-du-sacre-cur",
+  "nom": "Basilique du Sacré-Cœur",
+  "role": "etape"
+  },
+  {
+  "slug": "canal-saint-martin",
+  "nom": "Canal Saint-Martin",
+  "role": "etape"
+  },
+  {
+  "slug": "place-des-vosges",
+  "nom": "Place des Vosges",
+  "role": "etape"
+  },
+  {
+  "slug": "cathedrale-notre-dame-de-paris",
+  "nom": "Cathédrale Notre-Dame de Paris",
+  "role": "etape"
+  },
+  {
+  "slug": "musee-du-louvre",
+  "nom": "Musée du Louvre",
+  "role": "etape"
+  },
+  {
+  "slug": "musee-dorsay",
+  "nom": "Musée d'Orsay",
+  "role": "etape"
+  },
+  {
+  "slug": "tour-eiffel",
+  "nom": "Tour Eiffel",
+  "role": "etape"
+  },
+  {
+  "slug": "domaine-national-de-saint-cloud",
+  "nom": "Domaine national de Saint-Cloud",
+  "role": "etape"
+  },
+  {
+  "slug": "sevres---manufacture-et-musee-nationaux",
+  "nom": "Sèvres - Manufacture et Musée Nationaux",
+  "role": "etape"
+  },
+  {
+  "slug": "la-seine-musicale",
+  "nom": "La Seine Musicale",
+  "role": "etape"
+  },
+  {
+  "slug": "la-defense",
+  "nom": "La Défense",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Bois de Vincennes",
+  "raison": "Permettrait d'offrir un contrepoint vert à l'est, utile pour un long itinéraire urbain en van.",
+  "type": "aire_naturelle"
+  },
+  {
+  "nom": "Berges de Seine",
+  "raison": "Nommer ce fil paysager clarifierait la logique globale du parcours.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Bords de Marne, eaux calmes et villes de détente",
+  "durationHint": "3 jours",
+  "tripTitle": "La Marne douce, de Nogent aux plages de l'est parisien",
+  "summary": "Pour une version très accessible et agréable de l'Île-de-France en van, les bords de Marne constituent une excellente réponse. On part de Nogent-sur-Marne et du Perreux-sur-Marne, où la rivière donne tout de suite un autre tempo, puis l'on prolonge vers les grands plans d'eau de Jablines-Annet. Ce court parcours marche bien parce qu'il garde un fil aquatique constant sans chercher la dispersion. On voyage au bord de l'eau, avec des guinguettes imaginaires en toile de fond, des promenades faciles et des soirées plus ouvertes qu'au centre de Paris. C'est un road trip léger, simple à vivre, parfait quand on veut du dépaysement proche et une ambiance estivale sans quitter la région.",
+  "overnightStyle": "Nuits typiques : boucle de Marne, rive arborée, grand plan d'eau.",
+  "regionId": "ile-de-france",
+  "itinerarySlug": "marne-eaux-calmes-3j",
+  "steps": [
+  {
+  "slug": "nogent-sur-marne",
+  "nom": "Nogent-sur-Marne",
+  "role": "etape"
+  },
+  {
+  "slug": "le-perreux-sur-marne",
+  "nom": "Le Perreux-sur-Marne",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-jablines-annet",
+  "nom": "Plage de Jablines-Annet",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Joinville-le-Pont",
+  "raison": "Renforcerait très naturellement la narration des bords de Marne entre Nogent et l'est francilien.",
+  "type": "commune"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Bords de Marne, eaux calmes et villes de détente",
+  "durationHint": "7 jours",
+  "tripTitle": "La boucle des eaux franciliennes, de la Marne à l'Oise",
+  "summary": "Sur une semaine, les eaux franciliennes peuvent devenir un vrai thème de road trip. On commence sur la Marne, entre Nogent-sur-Marne, Le Perreux-sur-Marne et Saint-Maur-des-Fossés, avant de s'échapper vers l'est jusqu'à Jablines-Annet. Puis l'itinéraire remonte plus au nord pour finir sur un autre imaginaire de villégiature à Enghien-les-Bains et L'Isle-Adam. Le lien entre ces étapes tient à l'art de vivre au bord de l'eau : promenades, plages fluviales, villes de détente, atmosphère de fin de journée. En van, ce parcours est très confortable car il repose sur des sauts raisonnables et une logique simple, presque estivale, parfaite pour une semaine sans tension.",
+  "overnightStyle": "Nuits typiques : rive arborée, boucle de rivière, base de loisirs, ville d'eau.",
+  "regionId": "ile-de-france",
+  "itinerarySlug": "marne-eaux-calmes-7j",
+  "steps": [
+  {
+  "slug": "nogent-sur-marne",
+  "nom": "Nogent-sur-Marne",
+  "role": "etape"
+  },
+  {
+  "slug": "le-perreux-sur-marne",
+  "nom": "Le Perreux-sur-Marne",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-maur-des-fosses",
+  "nom": "Saint-Maur-des-Fossés",
+  "role": "etape"
+  },
+  {
+  "slug": "champigny-sur-marne",
+  "nom": "Champigny-sur-Marne",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-jablines-annet",
+  "nom": "Plage de Jablines-Annet",
+  "role": "etape"
+  },
+  {
+  "slug": "enghien-les-bains",
+  "nom": "Enghien-les-Bains",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-lisle-adam",
+  "nom": "Plage de L'Isle-Adam",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "L'Isle-Adam",
+  "raison": "Le centre de ville donnerait une vraie conclusion de ville d'eau, plus forte que la plage seule.",
+  "type": "commune"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Bords de Marne, eaux calmes et villes de détente",
+  "durationHint": "10 jours",
+  "tripTitle": "L'Île-de-France des rivières lentes et des haltes d'été",
+  "summary": "Ce long itinéraire joue la carte d'une Île-de-France inattendue, presque balnéaire par moments. Il suit d'abord les boucles de la Marne de Nogent à Saint-Maur-des-Fossés, puis s'élargit vers Créteil et les grands plans d'eau de Jablines-Annet. Ensuite, le voyage remonte vers la Seine et l'Oise avec Meaux comme étape de transition, puis Enghien-les-Bains et L'Isle-Adam pour une fin plus élégante, plus villégiature. L'intérêt de ce parcours est de faire sentir que l'eau structure profondément la région, bien au-delà de Paris. En van, le rythme est doux, les distances restent tenables et les ambiances changent sans jamais rompre le fil conducteur des rives, des promenades et des soirs tranquilles.",
+  "overnightStyle": "Nuits typiques : bord de Marne, lac urbain, grand plan d'eau, ville de villégiature.",
+  "regionId": "ile-de-france",
+  "itinerarySlug": "marne-eaux-calmes-10j",
+  "steps": [
+  {
+  "slug": "nogent-sur-marne",
+  "nom": "Nogent-sur-Marne",
+  "role": "etape"
+  },
+  {
+  "slug": "le-perreux-sur-marne",
+  "nom": "Le Perreux-sur-Marne",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-maur-des-fosses",
+  "nom": "Saint-Maur-des-Fossés",
+  "role": "etape"
+  },
+  {
+  "slug": "champigny-sur-marne",
+  "nom": "Champigny-sur-Marne",
+  "role": "etape"
+  },
+  {
+  "slug": "creteil",
+  "nom": "Créteil",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-jablines-annet",
+  "nom": "Plage de Jablines-Annet",
+  "role": "etape"
+  },
+  {
+  "slug": "meaux",
+  "nom": "Meaux",
+  "role": "etape"
+  },
+  {
+  "slug": "enghien-les-bains",
+  "nom": "Enghien-les-Bains",
+  "role": "etape"
+  },
+  {
+  "slug": "beaumont-sur-oise",
+  "nom": "Beaumont-sur-Oise",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-lisle-adam",
+  "nom": "Plage de L'Isle-Adam",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Lac de Créteil",
+  "raison": "Donnerait une lecture plus évidente de l'étape de Créteil dans un itinéraire centré sur les eaux franciliennes.",
+  "type": "aire_naturelle"
+  },
+  {
+  "nom": "L'Isle-Adam",
+  "raison": "Étape urbaine complémentaire idéale pour clôturer le voyage sur une vraie ville de détente.",
+  "type": "commune"
+  }
+  ]
+  }
+  ]
+  }
+  

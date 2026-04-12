@@ -1,3 +1,789 @@
 {
-  "itineraries": []
+  "itineraries": [
+    {
+      "themeTitle": "Volcans, crêtes et grands paysages d'altitude",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours au coeur des géants doux d'Auvergne",
+      "summary": "Pour un court voyage en van, ce parcours concentre l'Auvergne la plus évidente et la plus puissante sans disperser les kilomètres. Royat et le Tour du Puy de Dôme posent d'abord le décor volcanique avec une entrée très lisible, puis Orcival et le Lac Chambon font glisser le voyage vers des paysages plus ouverts, avant Mont-Dore et le Puy de Sancy pour la vraie sensation de montagne. Le rythme reste très confortable, car tout s'enchaîne dans un même grand secteur avec des temps de route raisonnables et une forte cohérence paysagère. C'est un itinéraire parfait pour qui veut alterner belvédères, lacs, villages d'altitude et marches faciles, tout en gardant des soirées fraîches et des réveils face à des reliefs très présents.",
+      "overnightStyle": "Nuits typiques : station thermale, lac de montagne, village d'altitude.",
+      "regionId": "auvergne",
+      "itinerarySlug": "3-jours-au-coeur-des-geants-doux-dauvergne",
+      "steps": [
+        {
+          "slug": "royat",
+          "nom": "Royat",
+          "role": "etape"
+        },
+        {
+          "slug": "tour-du-puy-de-dome",
+          "nom": "Tour du Puy de Dôme",
+          "role": "etape"
+        },
+        {
+          "slug": "orcival",
+          "nom": "Orcival",
+          "role": "etape"
+        },
+        {
+          "slug": "lac-chambon",
+          "nom": "Lac Chambon",
+          "role": "etape"
+        },
+        {
+          "slug": "mont-dore",
+          "nom": "Mont-Dore",
+          "role": "etape"
+        },
+        {
+          "slug": "le-puy-de-sancy",
+          "nom": "Le Puy de Sancy",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Volcans, crêtes et grands paysages d'altitude",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine de dômes, de lacs noirs et de sommets ronds",
+      "summary": "Sur 7 jours, ce thème prend une vraie ampleur en suivant la grande colonne vertébrale des reliefs auvergnats. Clermont-Ferrand donne une entrée urbaine solide, puis Vulcania et le Tour du Puy de Dôme installent le vocabulaire du voyage : anciens volcans, reliefs lisibles et paysages panoramiques. Ensuite, Orcival, Saint-Nectaire, Lac Chambon, Lac Pavin, Besse-et-Saint-Anastaise, Mont-Dore et le Puy de Sancy déroulent une Auvergne à la fois montagneuse et très accessible. En van, le parcours est particulièrement crédible parce qu'il reste concentré sur le même grand ensemble, avec des étapes courtes et complémentaires. Plusieurs haltes du Sancy peuvent se regrouper sur une même journée, ce qui laisse du temps pour les lacs, les promenades et les fins de journée dans des bourgs d'altitude.",
+      "overnightStyle": "Nuits typiques : ville d'entrée, lac volcanique, village d'altitude, station de montagne.",
+      "regionId": "auvergne",
+      "itinerarySlug": "une-semaine-de-domes-de-lacs-noirs-et-de-sommets-ronds",
+      "steps": [
+        {
+          "slug": "clermont-ferrand",
+          "nom": "Clermont-Ferrand",
+          "role": "etape"
+        },
+        {
+          "slug": "vulcania",
+          "nom": "Vulcania",
+          "role": "etape"
+        },
+        {
+          "slug": "tour-du-puy-de-dome",
+          "nom": "Tour du Puy de Dôme",
+          "role": "etape"
+        },
+        {
+          "slug": "orcival",
+          "nom": "Orcival",
+          "role": "etape"
+        },
+        {
+          "slug": "saint-nectaire",
+          "nom": "Saint-Nectaire",
+          "role": "etape"
+        },
+        {
+          "slug": "lac-chambon",
+          "nom": "Lac Chambon",
+          "role": "etape"
+        },
+        {
+          "slug": "lac-pavin",
+          "nom": "Lac Pavin",
+          "role": "etape"
+        },
+        {
+          "slug": "besse-et-saint-anastaise",
+          "nom": "Besse-et-Saint-Anastaise",
+          "role": "etape"
+        },
+        {
+          "slug": "mont-dore",
+          "nom": "Mont-Dore",
+          "role": "etape"
+        },
+        {
+          "slug": "le-puy-de-sancy",
+          "nom": "Le Puy de Sancy",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Volcans, crêtes et grands paysages d'altitude",
+      "durationHint": "10 jours",
+      "tripTitle": "La grande boucle volcanique auvergnate en 10 jours",
+      "summary": "En 10 jours, ce thème devient un vrai voyage de reliefs, sans tourner au simple inventaire de sommets. Clermont-Ferrand et le Tour du Puy de Dôme ouvrent très bien le parcours, avant la séquence classique mais superbe Orcival, Saint-Nectaire, Lac Chambon, Lac Pavin, Besse-et-Saint-Anastaise, Mont-Dore et le Puy de Sancy. Ensuite, le voyage gagne en ampleur en filant vers le Cantal, où Murat, le Plomb du Cantal, le Puy Mary et Salers offrent une montagne plus vaste, plus pastorale, presque plus sauvage. En van, l'enchaînement est logique : d'abord les volcans les plus lisibles du Puy-de-Dôme, puis les grands espaces cantaliens. Certaines étapes de l'axe Sancy peuvent se combiner dans la même journée, ce qui laisse de vraies nuits d'altitude et des journées ouvertes aux points de vue, aux fromages et aux marches courtes.",
+      "overnightStyle": "Nuits typiques : piémont volcanique, bourg de montagne, col, village pastoral.",
+      "regionId": "auvergne",
+      "itinerarySlug": "la-grande-boucle-volcanique-auvergnate-en-10-jours",
+      "steps": [
+        {
+          "slug": "clermont-ferrand",
+          "nom": "Clermont-Ferrand",
+          "role": "etape"
+        },
+        {
+          "slug": "tour-du-puy-de-dome",
+          "nom": "Tour du Puy de Dôme",
+          "role": "etape"
+        },
+        {
+          "slug": "orcival",
+          "nom": "Orcival",
+          "role": "etape"
+        },
+        {
+          "slug": "saint-nectaire",
+          "nom": "Saint-Nectaire",
+          "role": "etape"
+        },
+        {
+          "slug": "lac-chambon",
+          "nom": "Lac Chambon",
+          "role": "etape"
+        },
+        {
+          "slug": "lac-pavin",
+          "nom": "Lac Pavin",
+          "role": "etape"
+        },
+        {
+          "slug": "besse-et-saint-anastaise",
+          "nom": "Besse-et-Saint-Anastaise",
+          "role": "etape"
+        },
+        {
+          "slug": "mont-dore",
+          "nom": "Mont-Dore",
+          "role": "etape"
+        },
+        {
+          "slug": "le-puy-de-sancy",
+          "nom": "Le Puy de Sancy",
+          "role": "etape"
+        },
+        {
+          "slug": "murat",
+          "nom": "Murat",
+          "role": "etape"
+        },
+        {
+          "slug": "plomb-du-cantal",
+          "nom": "Plomb du Cantal",
+          "role": "etape"
+        },
+        {
+          "slug": "puy-mary",
+          "nom": "Puy Mary",
+          "role": "etape"
+        },
+        {
+          "slug": "salers",
+          "nom": "Salers",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Villages de pierre, cités perchées et Auvergne romane",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours parmi les plus belles pierres d'Auvergne",
+      "summary": "Ce format court fonctionne à merveille parce qu'il rassemble des lieux très forts dans un rayon raisonnable. Saint-Saturnin pose d'abord une Auvergne romane, noire et claire à la fois, Montpeyroux apporte une silhouette perchée très nette, puis Usson et Blesle prolongent le voyage vers des villages de caractère qui gardent chacun une vraie personnalité. En van, c'est un itinéraire simple à vivre : peu de route, beaucoup de matière, et une impression continue de traverser une région très ancienne, très bâtie, mais jamais figée. Plusieurs villages proches peuvent parfaitement se visiter le même jour, ce qui laisse du temps pour les ruelles, les belvédères et les pauses dans une campagne qui reste partout présente autour des bourgs.",
+      "overnightStyle": "Nuits typiques : village perché, petite cité de pierre, campagne volcanique habitée.",
+      "regionId": "auvergne",
+      "itinerarySlug": "3-jours-parmi-les-plus-belles-pierres-dauvergne",
+      "steps": [
+        {
+          "slug": "saint-saturnin",
+          "nom": "Saint-Saturnin",
+          "role": "etape"
+        },
+        {
+          "slug": "montpeyroux",
+          "nom": "Montpeyroux",
+          "role": "etape"
+        },
+        {
+          "slug": "usson",
+          "nom": "Usson",
+          "role": "etape"
+        },
+        {
+          "slug": "blesle",
+          "nom": "Blesle",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Villages de pierre, cités perchées et Auvergne romane",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine de villages noirs, roses et dorés",
+      "summary": "Sur 7 jours, ce thème permet de raconter une Auvergne très habitée, très sculptée, où les bourgs et les petites cités comptent autant que les grands paysages. Saint-Saturnin, Montpeyroux et Usson lancent magnifiquement le parcours dans le Puy-de-Dôme, puis Issoire et Blesle prolongent la ligne avec une Auvergne plus méridionale. Lavaudieu et Lavoûte-Chilhac ajoutent ensuite des silhouettes de vallée très fines, avant La Chaise-Dieu pour un final plus monumental. En van, ce voyage fonctionne très bien parce qu'il suit une diagonale cohérente vers le sud-est, sans grands sauts. Plusieurs villages du même secteur peuvent se regrouper sur une journée, ce qui ménage des soirées plus longues dans les bourgs les plus séduisants et donne au parcours une vraie respiration.",
+      "overnightStyle": "Nuits typiques : village de basalte, bourg de vallée, cité religieuse, campagne de Haute-Loire.",
+      "regionId": "auvergne",
+      "itinerarySlug": "une-semaine-de-villages-noirs-roses-et-dores",
+      "steps": [
+        {
+          "slug": "saint-saturnin",
+          "nom": "Saint-Saturnin",
+          "role": "etape"
+        },
+        {
+          "slug": "montpeyroux",
+          "nom": "Montpeyroux",
+          "role": "etape"
+        },
+        {
+          "slug": "usson",
+          "nom": "Usson",
+          "role": "etape"
+        },
+        {
+          "slug": "issoire",
+          "nom": "Issoire",
+          "role": "etape"
+        },
+        {
+          "slug": "blesle",
+          "nom": "Blesle",
+          "role": "etape"
+        },
+        {
+          "slug": "lavaudieu",
+          "nom": "Lavaudieu",
+          "role": "etape"
+        },
+        {
+          "slug": "lavoute-chilhac",
+          "nom": "Lavoûte-Chilhac",
+          "role": "etape"
+        },
+        {
+          "slug": "la-chaise-dieu",
+          "nom": "La Chaise-Dieu",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Villages de pierre, cités perchées et Auvergne romane",
+      "durationHint": "10 jours",
+      "tripTitle": "La grande diagonale des villages d'Auvergne",
+      "summary": "En 10 jours, on peut composer un très beau voyage de villages et de petites cités sans jamais perdre le fil. Charroux donne une entrée auvergnate plus bourbonnaise, puis Clermont-Ferrand, Saint-Saturnin, Montpeyroux et Usson installent le cœur roman et perché du voyage. Ensuite, Issoire, Blesle, Lavaudieu, Lavoûte-Chilhac, Arlempdes et Polignac font basculer le parcours vers une Auvergne plus méridionale, plus escarpée, mais toujours très minérale. En van, ce trajet est crédible parce qu'il suit une logique de descente à travers les reliefs et les vallées, avec des journées jamais trop tendues. Certaines haltes peuvent se regrouper selon l'envie de marcher ou simplement de profiter des villages. C'est un itinéraire idéal pour ceux qui aiment les vieilles pierres, les positions dominantes, les églises romanes et les paysages bâtis avec précision.",
+      "overnightStyle": "Nuits typiques : village de caractère, bourg perché, cité basaltique, vallée historique.",
+      "regionId": "auvergne",
+      "itinerarySlug": "la-grande-diagonale-des-villages-dauvergne",
+      "steps": [
+        {
+          "slug": "charroux",
+          "nom": "Charroux",
+          "role": "etape"
+        },
+        {
+          "slug": "clermont-ferrand",
+          "nom": "Clermont-Ferrand",
+          "role": "etape"
+        },
+        {
+          "slug": "saint-saturnin",
+          "nom": "Saint-Saturnin",
+          "role": "etape"
+        },
+        {
+          "slug": "montpeyroux",
+          "nom": "Montpeyroux",
+          "role": "etape"
+        },
+        {
+          "slug": "usson",
+          "nom": "Usson",
+          "role": "etape"
+        },
+        {
+          "slug": "issoire",
+          "nom": "Issoire",
+          "role": "etape"
+        },
+        {
+          "slug": "blesle",
+          "nom": "Blesle",
+          "role": "etape"
+        },
+        {
+          "slug": "lavaudieu",
+          "nom": "Lavaudieu",
+          "role": "etape"
+        },
+        {
+          "slug": "lavoute-chilhac",
+          "nom": "Lavoûte-Chilhac",
+          "role": "etape"
+        },
+        {
+          "slug": "arlempdes",
+          "nom": "Arlempdes",
+          "role": "etape"
+        },
+        {
+          "slug": "polignac",
+          "nom": "Polignac",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Cantal pastoral, fromages et hautes terres",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours sur les estives du Cantal",
+      "summary": "Pour un court séjour en van, peu de régions en France offrent un trio aussi fort que Murat, le Plomb du Cantal et Salers. On entre directement dans une Auvergne de burons, de pentes ouvertes, de vaches en estive et de villages accrochés à la montagne. Murat sert de base parfaite, le Plomb du Cantal donne la dimension panoramique, puis Salers ferme le parcours avec une intensité patrimoniale rare. Le rythme est excellent pour trois jours : peu de détours, une montagne lisible, et assez de temps pour profiter de la route autant que des arrêts. C'est un voyage très gourmand aussi, au sens large, parce qu'il mêle grands paysages et terroir avec une cohérence évidente.",
+      "overnightStyle": "Nuits typiques : bourg de montagne, col pastoral, village de pierre volcanique.",
+      "regionId": "auvergne",
+      "itinerarySlug": "3-jours-sur-les-estives-du-cantal",
+      "steps": [
+        {
+          "slug": "murat",
+          "nom": "Murat",
+          "role": "etape"
+        },
+        {
+          "slug": "plomb-du-cantal",
+          "nom": "Plomb du Cantal",
+          "role": "etape"
+        },
+        {
+          "slug": "salers",
+          "nom": "Salers",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Cantal pastoral, fromages et hautes terres",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine de burons, de cols et de terres à fromage",
+      "summary": "Sur 7 jours, ce thème gagne en épaisseur si l'on prend le temps de traverser plusieurs visages du Cantal. Aurillac ouvre d'abord le voyage avec une base urbaine utile, puis Vic-sur-Cère et Murat installent la montée en altitude. Le Plomb du Cantal, le Puy Mary et Salers composent le coeur spectaculaire du parcours, avant Tournemire, Saint-Flour et Chaudes-Aigues, qui apportent une autre Auvergne pastorale, plus austère par endroits, mais très cohérente. En van, la boucle fonctionne bien parce qu'elle progresse par vallées et cols, sans multiplier les retours en arrière. Certaines étapes de montagne peuvent se regrouper selon la météo, ce qui laisse de longues soirées dans les villages de pierre et les paysages d'estive.",
+      "overnightStyle": "Nuits typiques : ville de vallée, bourg d'altitude, hautes terres pastorales, petite cité de basalte.",
+      "regionId": "auvergne",
+      "itinerarySlug": "une-semaine-de-burons-de-cols-et-de-terres-a-fromage",
+      "steps": [
+        {
+          "slug": "aurillac",
+          "nom": "Aurillac",
+          "role": "etape"
+        },
+        {
+          "slug": "vic-sur-cere",
+          "nom": "Vic-sur-Cère",
+          "role": "etape"
+        },
+        {
+          "slug": "murat",
+          "nom": "Murat",
+          "role": "etape"
+        },
+        {
+          "slug": "plomb-du-cantal",
+          "nom": "Plomb du Cantal",
+          "role": "etape"
+        },
+        {
+          "slug": "puy-mary",
+          "nom": "Puy Mary",
+          "role": "etape"
+        },
+        {
+          "slug": "salers",
+          "nom": "Salers",
+          "role": "etape"
+        },
+        {
+          "slug": "tournemire",
+          "nom": "Tournemire",
+          "role": "etape"
+        },
+        {
+          "slug": "saint-flour",
+          "nom": "Saint-Flour",
+          "role": "etape"
+        },
+        {
+          "slug": "chaudes-aigues",
+          "nom": "Chaudes-Aigues",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Cantal pastoral, fromages et hautes terres",
+      "durationHint": "10 jours",
+      "tripTitle": "Le grand voyage pastoral du Cantal et de l'Aubrac auvergnat",
+      "summary": "En 10 jours, ce thème devient un itinéraire très complet sur l'Auvergne la plus nourricière, la plus ample et la plus montagnarde. Aurillac et le Lac de Saint-Étienne-Cantalès ouvrent le voyage avec une entrée plus douce, puis Vic-sur-Cère, Murat, le Plomb du Cantal et le Puy Mary font monter la puissance. Salers et Tournemire donnent ensuite la plus belle synthèse entre patrimoine et estives, avant Saint-Flour, le Viaduc de Garabit et Chaudes-Aigues, qui prolongent la route vers des horizons plus austères, plus vastes. En van, l'ensemble tient très bien, car il suit des lignes de relief et de vallées logiques, avec beaucoup de lieux où l'on peut s'arrêter simplement pour regarder ou déguster. Plusieurs haltes du massif cantalien peuvent se combiner sans nuire à la cohérence du voyage.",
+      "overnightStyle": "Nuits typiques : vallée verdoyante, village d'altitude, plateau pastoral, cité de basalte.",
+      "regionId": "auvergne",
+      "itinerarySlug": "le-grand-voyage-pastoral-du-cantal-et-de-laubrac-auvergnat",
+      "steps": [
+        {
+          "slug": "aurillac",
+          "nom": "Aurillac",
+          "role": "etape"
+        },
+        {
+          "slug": "lac-de-saint-etienne-cantales",
+          "nom": "Lac de Saint-Étienne-Cantalès",
+          "role": "etape"
+        },
+        {
+          "slug": "vic-sur-cere",
+          "nom": "Vic-sur-Cère",
+          "role": "etape"
+        },
+        {
+          "slug": "murat",
+          "nom": "Murat",
+          "role": "etape"
+        },
+        {
+          "slug": "plomb-du-cantal",
+          "nom": "Plomb du Cantal",
+          "role": "etape"
+        },
+        {
+          "slug": "puy-mary",
+          "nom": "Puy Mary",
+          "role": "etape"
+        },
+        {
+          "slug": "salers",
+          "nom": "Salers",
+          "role": "etape"
+        },
+        {
+          "slug": "tournemire",
+          "nom": "Tournemire",
+          "role": "etape"
+        },
+        {
+          "slug": "saint-flour",
+          "nom": "Saint-Flour",
+          "role": "etape"
+        },
+        {
+          "slug": "viaduc-de-garabit",
+          "nom": "Viaduc de Garabit",
+          "role": "etape"
+        },
+        {
+          "slug": "chaudes-aigues",
+          "nom": "Chaudes-Aigues",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Eaux vives, lacs et vallées fraîches",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours de lacs noirs et de baignades d'altitude",
+      "summary": "Ce format court propose une Auvergne plus fraîche, plus liquide, parfaite pour un voyage d'été en van. Lac Chambon donne une première halte très accessible, la Plage du Lac Chambon permet de profiter du lieu sans complication, puis le Lac Pavin apporte une ambiance plus mystérieuse, presque plus nordique. La Bourboule ou Mont-Dore servent ensuite de relais très naturels pour boucler le séjour entre eau, forêts et montagnes rondes. L'intérêt de ce parcours tient à sa simplicité : on reste dans un secteur serré, avec de vrais contrastes entre baignade, balade et village thermal. C'est une excellente option pour qui veut une montagne douce, familiale ou contemplative, sans viser les ascensions ni les longues journées de route.",
+      "overnightStyle": "Nuits typiques : bord de lac, station thermale, vallée fraîche.",
+      "regionId": "auvergne",
+      "itinerarySlug": "3-jours-de-lacs-noirs-et-de-baignades-daltitude",
+      "steps": [
+        {
+          "slug": "lac-chambon",
+          "nom": "Lac Chambon",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-du-lac-chambon",
+          "nom": "Plage du Lac Chambon",
+          "role": "etape"
+        },
+        {
+          "slug": "lac-pavin",
+          "nom": "Lac Pavin",
+          "role": "etape"
+        },
+        {
+          "slug": "la-bourboule",
+          "nom": "La Bourboule",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Eaux vives, lacs et vallées fraîches",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine au fil des eaux froides d'Auvergne",
+      "summary": "Sur 7 jours, ce thème permet de raconter une Auvergne moins sèche qu'on l'imagine, très marquée par les lacs, les vallées et les rivières. Royat et La Bourboule ouvrent le parcours par la tradition thermale, puis Lac Chambon, la Plage du Lac Chambon et le Lac Pavin installent une séquence de moyenne montagne très agréable en van. Ensuite, Langeac, les bords de l'Allier et Lavoûte-Chilhac déplacent le voyage vers une Auvergne plus méridionale, plus fluviale et plus douce. Le rythme reste très plausible, avec des transitions progressives entre massif du Sancy et vallée de l'Allier. Plusieurs haltes lacustres peuvent se faire dans la même journée, ce qui laisse du temps pour les baignades, les balades courtes et les longues soirées fraîches au bord de l'eau.",
+      "overnightStyle": "Nuits typiques : station thermale, lac de montagne, bord d'Allier, bourg de vallée.",
+      "regionId": "auvergne",
+      "itinerarySlug": "une-semaine-au-fil-des-eaux-froides-dauvergne",
+      "steps": [
+        {
+          "slug": "royat",
+          "nom": "Royat",
+          "role": "etape"
+        },
+        {
+          "slug": "la-bourboule",
+          "nom": "La Bourboule",
+          "role": "etape"
+        },
+        {
+          "slug": "lac-chambon",
+          "nom": "Lac Chambon",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-du-lac-chambon",
+          "nom": "Plage du Lac Chambon",
+          "role": "etape"
+        },
+        {
+          "slug": "lac-pavin",
+          "nom": "Lac Pavin",
+          "role": "etape"
+        },
+        {
+          "slug": "langeac",
+          "nom": "Langeac",
+          "role": "etape"
+        },
+        {
+          "slug": "les-bords-de-lallier",
+          "nom": "Les bords de l'Allier",
+          "role": "etape"
+        },
+        {
+          "slug": "lavoute-chilhac",
+          "nom": "Lavoûte-Chilhac",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Eaux vives, lacs et vallées fraîches",
+      "durationHint": "10 jours",
+      "tripTitle": "Le grand été d'eau douce en Auvergne",
+      "summary": "En 10 jours, ce thème compose un vrai voyage d'été en Auvergne, très agréable en van parce qu'il alterne baignades, vallées fraîches, villes thermales et routes panoramiques. Vichy lance le parcours par l'eau urbaine et élégante, puis Royat et La Bourboule prennent le relais côté thermalisme et montagne. Ensuite, Lac Chambon, la Plage du Lac Chambon, Lac Pavin et Mont-Dore déroulent une séquence très cohérente autour des lacs du Sancy, avant de filer vers le sud avec Langeac, les bords de l'Allier, Lavoûte-Chilhac et enfin le Lac de Saint-Étienne-Cantalès. En van, l'ensemble est crédible car il avance du nord vers le sud en reliant des lieux où l'eau reste le vrai fil conducteur. Certaines étapes du Sancy se combinent parfaitement sur une même journée, ce qui libère du temps pour les vallées et les grands plans d'eau.",
+      "overnightStyle": "Nuits typiques : ville thermale, lac volcanique, vallée fluviale, grand plan d'eau.",
+      "regionId": "auvergne",
+      "itinerarySlug": "le-grand-ete-deau-douce-en-auvergne",
+      "steps": [
+        {
+          "slug": "vichy",
+          "nom": "Vichy",
+          "role": "etape"
+        },
+        {
+          "slug": "royat",
+          "nom": "Royat",
+          "role": "etape"
+        },
+        {
+          "slug": "la-bourboule",
+          "nom": "La Bourboule",
+          "role": "etape"
+        },
+        {
+          "slug": "lac-chambon",
+          "nom": "Lac Chambon",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-du-lac-chambon",
+          "nom": "Plage du Lac Chambon",
+          "role": "etape"
+        },
+        {
+          "slug": "lac-pavin",
+          "nom": "Lac Pavin",
+          "role": "etape"
+        },
+        {
+          "slug": "mont-dore",
+          "nom": "Mont-Dore",
+          "role": "etape"
+        },
+        {
+          "slug": "langeac",
+          "nom": "Langeac",
+          "role": "etape"
+        },
+        {
+          "slug": "les-bords-de-lallier",
+          "nom": "Les bords de l'Allier",
+          "role": "etape"
+        },
+        {
+          "slug": "lavoute-chilhac",
+          "nom": "Lavoûte-Chilhac",
+          "role": "etape"
+        },
+        {
+          "slug": "lac-de-saint-etienne-cantales",
+          "nom": "Lac de Saint-Étienne-Cantalès",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Forteresses, marcheurs et Haute-Loire de caractère",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours entre aiguilles, pèlerinage et villages en bord de gorge",
+      "summary": "Ce court parcours fonctionne très bien en Haute-Loire parce qu'il réunit des lieux très différents mais tenus par une même intensité minérale. Le Puy-en-Velay donne d'abord un départ puissant, à la fois spirituel et spectaculaire, puis Polignac apporte la forteresse et la vue dominante, avant Arlempdes et Pradelles pour un final plus rugueux, plus frontalier, presque suspendu. En van, le rythme reste excellent : peu de détours, une vraie variété de paysages et des étapes qui gardent toutes une forte présence. C'est un itinéraire idéal pour ceux qui aiment les silhouettes de rocher, les villages défensifs, les routes de plateau et les haltes où l'on sent encore l'épaisseur des siècles.",
+      "overnightStyle": "Nuits typiques : ville haute, forteresse basaltique, village de plateau ou de gorge.",
+      "regionId": "auvergne",
+      "itinerarySlug": "3-jours-entre-aiguilles-pelerinage-et-villages-en-bord-de-gorge",
+      "steps": [
+        {
+          "slug": "le-puy-en-velay",
+          "nom": "Le Puy-en-Velay",
+          "role": "etape"
+        },
+        {
+          "slug": "polignac",
+          "nom": "Polignac",
+          "role": "etape"
+        },
+        {
+          "slug": "arlempdes",
+          "nom": "Arlempdes",
+          "role": "etape"
+        },
+        {
+          "slug": "pradelles",
+          "nom": "Pradelles",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Forteresses, marcheurs et Haute-Loire de caractère",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine sur les terres hautes du Puy et du Velay",
+      "summary": "Sur 7 jours, ce thème donne un très beau voyage de hauteur, de pierre et de chemins historiques. Le Puy-en-Velay reste le point de départ évident, puis Polignac et Saint-Paulien prolongent l'empreinte basaltique du secteur. Ensuite, Saugues, Pradelles et Arlempdes font basculer le parcours vers une Haute-Loire plus rude, plus ouverte, avant Yssingeaux et Monistrol-sur-Loire pour un final un peu plus habité. En van, la logique est bonne car on traverse progressivement les grands plateaux et les vallées sans se disperser. Plusieurs haltes autour du Puy peuvent se regrouper dans la même journée, ce qui laisse davantage de temps sur les étapes les plus lointaines. C'est un itinéraire très fort pour qui aime les villages défensifs, les paysages de marche et les routes qui donnent une vraie sensation de hauteur.",
+      "overnightStyle": "Nuits typiques : ville haute, bourg de plateau, village de forteresse, vallée de Haute-Loire.",
+      "regionId": "auvergne",
+      "itinerarySlug": "une-semaine-sur-les-terres-hautes-du-puy-et-du-velay",
+      "steps": [
+        {
+          "slug": "le-puy-en-velay",
+          "nom": "Le Puy-en-Velay",
+          "role": "etape"
+        },
+        {
+          "slug": "polignac",
+          "nom": "Polignac",
+          "role": "etape"
+        },
+        {
+          "slug": "saint-paulien",
+          "nom": "Saint-Paulien",
+          "role": "etape"
+        },
+        {
+          "slug": "saugues",
+          "nom": "Saugues",
+          "role": "etape"
+        },
+        {
+          "slug": "pradelles",
+          "nom": "Pradelles",
+          "role": "etape"
+        },
+        {
+          "slug": "arlempdes",
+          "nom": "Arlempdes",
+          "role": "etape"
+        },
+        {
+          "slug": "yssingeaux",
+          "nom": "Yssingeaux",
+          "role": "etape"
+        },
+        {
+          "slug": "monistrol-sur-loire",
+          "nom": "Monistrol-sur-Loire",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Forteresses, marcheurs et Haute-Loire de caractère",
+      "durationHint": "10 jours",
+      "tripTitle": "La grande route basaltique de Haute-Loire",
+      "summary": "En 10 jours, ce thème prend la forme d'un vrai voyage de caractère, très cohérent pour un van qui aime les hauts pays plus que les stations classiques. Le Puy-en-Velay et Polignac ouvrent fortement le récit, puis Saint-Paulien, La Chaise-Dieu et Lavaudieu ajoutent une profondeur religieuse et monumentale. Plus loin, Langeac, Lavoûte-Chilhac, Saugues, Pradelles, Arlempdes et Yssingeaux dessinent un itinéraire fait de vallées profondes, de villages perchés et de routes de plateau. En van, le parcours fonctionne bien parce qu'il suit une logique de boucle allongée dans la Haute-Loire et ses marges, avec des transitions jamais absurdes. Certaines étapes de vallée peuvent se combiner facilement, ce qui permet de garder du temps pour les panoramas, les petits marchés et les réveils sur des terres hautes très silencieuses.",
+      "overnightStyle": "Nuits typiques : ville haute, bourg monastique, village perché, vallée rocheuse.",
+      "regionId": "auvergne",
+      "itinerarySlug": "la-grande-route-basaltique-de-haute-loire",
+      "steps": [
+        {
+          "slug": "le-puy-en-velay",
+          "nom": "Le Puy-en-Velay",
+          "role": "etape"
+        },
+        {
+          "slug": "polignac",
+          "nom": "Polignac",
+          "role": "etape"
+        },
+        {
+          "slug": "saint-paulien",
+          "nom": "Saint-Paulien",
+          "role": "etape"
+        },
+        {
+          "slug": "la-chaise-dieu",
+          "nom": "La Chaise-Dieu",
+          "role": "etape"
+        },
+        {
+          "slug": "lavaudieu",
+          "nom": "Lavaudieu",
+          "role": "etape"
+        },
+        {
+          "slug": "langeac",
+          "nom": "Langeac",
+          "role": "etape"
+        },
+        {
+          "slug": "lavoute-chilhac",
+          "nom": "Lavoûte-Chilhac",
+          "role": "etape"
+        },
+        {
+          "slug": "saugues",
+          "nom": "Saugues",
+          "role": "etape"
+        },
+        {
+          "slug": "pradelles",
+          "nom": "Pradelles",
+          "role": "etape"
+        },
+        {
+          "slug": "arlempdes",
+          "nom": "Arlempdes",
+          "role": "etape"
+        },
+        {
+          "slug": "yssingeaux",
+          "nom": "Yssingeaux",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    }
+  ]
 }

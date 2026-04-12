@@ -1,3 +1,648 @@
 {
-  "itineraries": []
+  "itineraries": [
+    {
+      "themeTitle": "Atlantique landais, dunes et longues plages",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours face à l'océan landais",
+      "summary": "Pour un court voyage en van, le meilleur choix consiste à se concentrer sur une portion continue du littoral landais, là où la route, les pinèdes et les plages s'enchaînent sans effort. Biscarrosse ouvre très bien le parcours, puis Mimizan et Contis installent une vraie montée en puissance, entre grands horizons, sable franc et ambiance plus sauvage. Le séjour peut se conclure vers Vielle-Saint-Girons pour garder ce sentiment d'Atlantique ample et peu interrompu. Le rythme est idéal sur trois jours : peu de kilomètres inutiles, plusieurs haltes très proches, et assez de temps pour vivre dehors, alterner baignade, marche dans les dunes et couchers de soleil sans transformer le voyage en simple collection de spots.",
+      "overnightStyle": "Nuits typiques : station de bord d'océan, pinède, plage longue et peu construite.",
+      "regionId": "gironde-landes",
+      "itinerarySlug": "3-jours-face-a-locean-landais",
+      "steps": [
+        {
+          "slug": "biscarrosse",
+          "nom": "Biscarrosse",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-biscarrosse",
+          "nom": "Plage de Biscarrosse",
+          "role": "etape"
+        },
+        {
+          "slug": "mimizan",
+          "nom": "Mimizan",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-mimizan",
+          "nom": "Plage de Mimizan",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-contis",
+          "nom": "Plage de Contis",
+          "role": "etape"
+        },
+        {
+          "slug": "vielle-saint-girons",
+          "nom": "Vielle-Saint-Girons",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Atlantique landais, dunes et longues plages",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine de pinèdes et d'embruns jusqu'au sud des Landes",
+      "summary": "Sur 7 jours, ce thème prend une vraie ampleur si l'on suit le littoral des Landes presque comme une seule ligne continue. Biscarrosse et Mimizan ouvrent la route avec de grandes plages et une ambiance d'océan très pure, puis Vielle-Saint-Girons, Léon et Moliets prolongent le voyage dans une version plus souple, entre forêt et accès au sable. Plus au sud, Soustons, Hossegor et Capbreton apportent davantage d'énergie, sans casser la cohérence d'ensemble. En van, l'itinéraire est particulièrement agréable parce qu'il avance simplement du nord vers le sud, avec beaucoup de haltes possibles et des étapes qui peuvent se regrouper selon la météo. C'est un voyage idéal pour ceux qui veulent la mer comme fil conducteur, mais sans passer leur temps à rouler.",
+      "overnightStyle": "Nuits typiques : pinède littorale, station surf, village côtier simple et vivant.",
+      "regionId": "gironde-landes",
+      "itinerarySlug": "une-semaine-de-pinedes-et-dembruns-jusquau-sud-des-landes",
+      "steps": [
+        {
+          "slug": "biscarrosse",
+          "nom": "Biscarrosse",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-biscarrosse",
+          "nom": "Plage de Biscarrosse",
+          "role": "etape"
+        },
+        {
+          "slug": "mimizan",
+          "nom": "Mimizan",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-mimizan",
+          "nom": "Plage de Mimizan",
+          "role": "etape"
+        },
+        {
+          "slug": "vielle-saint-girons",
+          "nom": "Vielle-Saint-Girons",
+          "role": "etape"
+        },
+        {
+          "slug": "leon",
+          "nom": "Léon",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-moliets",
+          "nom": "Plage de Moliets",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-soustons",
+          "nom": "Plage de Soustons",
+          "role": "etape"
+        },
+        {
+          "slug": "hossegor",
+          "nom": "Hossegor",
+          "role": "etape"
+        },
+        {
+          "slug": "capbreton",
+          "nom": "Capbreton",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Atlantique landais, dunes et longues plages",
+      "durationHint": "10 jours",
+      "tripTitle": "Le grand ruban atlantique entre Gironde et Landes",
+      "summary": "En 10 jours, ce thème devient un vrai road trip océanique, du bassin d'Arcachon jusqu'au sud des Landes, avec un rythme très crédible en van. Arcachon, le Moulleau et la Dune du Pilat ouvrent le voyage sur une façade plus iconique, puis la Salie, Biscarrosse et Mimizan installent progressivement la grande monotonie superbe des Landes. Ensuite viennent Contis, Vielle-Saint-Girons, Léon, Moliets, Soustons, Hossegor et Capbreton, qui donnent une seconde moitié plus surf, plus vivante, mais toujours parfaitement cohérente. L'intérêt du parcours est justement cette continuité : la route accompagne le rivage sans grands détours. Plusieurs plages proches peuvent se vivre dans la même journée, ce qui laisse beaucoup de temps pour les bains, les balades dans le sable et les longues soirées en pinède.",
+      "overnightStyle": "Nuits typiques : bassin et dune, plage landaise, station surf, forêt littorale.",
+      "regionId": "gironde-landes",
+      "itinerarySlug": "le-grand-ruban-atlantique-entre-gironde-et-landes",
+      "steps": [
+        {
+          "slug": "arcachon",
+          "nom": "Arcachon",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-du-moulleau",
+          "nom": "Plage du Moulleau",
+          "role": "etape"
+        },
+        {
+          "slug": "dune-du-pilat",
+          "nom": "Dune du Pilat",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-la-salie",
+          "nom": "Plage de la Salie",
+          "role": "etape"
+        },
+        {
+          "slug": "biscarrosse",
+          "nom": "Biscarrosse",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-biscarrosse",
+          "nom": "Plage de Biscarrosse",
+          "role": "etape"
+        },
+        {
+          "slug": "mimizan",
+          "nom": "Mimizan",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-mimizan",
+          "nom": "Plage de Mimizan",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-contis",
+          "nom": "Plage de Contis",
+          "role": "etape"
+        },
+        {
+          "slug": "vielle-saint-girons",
+          "nom": "Vielle-Saint-Girons",
+          "role": "etape"
+        },
+        {
+          "slug": "leon",
+          "nom": "Léon",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-moliets",
+          "nom": "Plage de Moliets",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-soustons",
+          "nom": "Plage de Soustons",
+          "role": "etape"
+        },
+        {
+          "slug": "hossegor",
+          "nom": "Hossegor",
+          "role": "etape"
+        },
+        {
+          "slug": "capbreton",
+          "nom": "Capbreton",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Bassin d'Arcachon, estuaire et Gironde maritime",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours entre bassin, cabanes et estuaire large",
+      "summary": "Pour un format court, ce thème fonctionne très bien parce qu'il relie deux visages très complémentaires de la Gironde maritime : l'intimité du bassin et l'ampleur de l'estuaire. Arcachon ouvre naturellement le séjour, puis Certes-Graveyron et l'Île aux Oiseaux apportent une lecture plus douce, plus ornithologique et plus horizontale du littoral. Le voyage peut ensuite basculer vers Bourg-sur-Gironde ou Blaye pour finir sur les rives puissantes de l'estuaire. En van, le parcours reste simple et très lisible, avec peu de kilomètres et plusieurs haltes qui peuvent se combiner dans la même journée. C'est un très bon choix pour qui aime les paysages d'eau, les ports calmes, les vasières, les carrelets et les petites routes bordées de marais.",
+      "overnightStyle": "Nuits typiques : bassin habité, port d'estuaire, petite ville haute au-dessus de l'eau.",
+      "regionId": "gironde-landes",
+      "itinerarySlug": "3-jours-entre-bassin-cabanes-et-estuaire-large",
+      "steps": [
+        {
+          "slug": "arcachon",
+          "nom": "Arcachon",
+          "role": "etape"
+        },
+        {
+          "slug": "certes-graveyron",
+          "nom": "Certes-Graveyron",
+          "role": "etape"
+        },
+        {
+          "slug": "ile-aux-oiseaux",
+          "nom": "Île aux Oiseaux",
+          "role": "etape"
+        },
+        {
+          "slug": "bourg-sur-gironde",
+          "nom": "Bourg-sur-Gironde",
+          "role": "etape"
+        },
+        {
+          "slug": "citadelle-de-blaye",
+          "nom": "Citadelle de Blaye",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Bassin d'Arcachon, estuaire et Gironde maritime",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine de marais salés, citadelles et ports de Gironde",
+      "summary": "Sur 7 jours, ce thème prend une vraie personnalité si l'on relie le bassin d'Arcachon à l'estuaire de la Gironde dans un seul mouvement maritime. Arcachon, le Moulleau, Certes-Graveyron et l'Île aux Oiseaux donnent d'abord un début très doux, très aquatique, avant que Lacanau et le Grand Crohot n'ouvrent la façade océanique. Ensuite, Bourg-sur-Gironde, la Citadelle de Blaye, Eyrans et la boucle de Talais par le port installent une Gironde plus rude, plus large, plus estuarienne. En van, le parcours est très cohérent parce qu'il suit la grande ligne ouest-nord sans grands allers-retours. Certaines haltes du bassin peuvent se regrouper facilement, ce qui laisse plus de temps pour l'estuaire et ses ambiances lentes.",
+      "overnightStyle": "Nuits typiques : bassin calme, pinède océanique, ville haute d'estuaire, port de marais.",
+      "regionId": "gironde-landes",
+      "itinerarySlug": "une-semaine-de-marais-sales-citadelles-et-ports-de-gironde",
+      "steps": [
+        {
+          "slug": "arcachon",
+          "nom": "Arcachon",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-du-moulleau",
+          "nom": "Plage du Moulleau",
+          "role": "etape"
+        },
+        {
+          "slug": "certes-graveyron",
+          "nom": "Certes-Graveyron",
+          "role": "etape"
+        },
+        {
+          "slug": "ile-aux-oiseaux",
+          "nom": "Île aux Oiseaux",
+          "role": "etape"
+        },
+        {
+          "slug": "lacanau",
+          "nom": "Lacanau",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-du-grand-crohot",
+          "nom": "Plage du Grand Crohot",
+          "role": "etape"
+        },
+        {
+          "slug": "bourg-sur-gironde",
+          "nom": "Bourg-sur-Gironde",
+          "role": "etape"
+        },
+        {
+          "slug": "citadelle-de-blaye",
+          "nom": "Citadelle de Blaye",
+          "role": "etape"
+        },
+        {
+          "slug": "eyrans",
+          "nom": "Eyrans",
+          "role": "etape"
+        },
+        {
+          "slug": "la-boucle-de-talais-par-le-port",
+          "nom": "La boucle de Talais par le port",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Bassin d'Arcachon, estuaire et Gironde maritime",
+      "durationHint": "10 jours",
+      "tripTitle": "Le grand voyage d'eau salée et d'estuaire en Gironde",
+      "summary": "En 10 jours, ce thème devient un vrai voyage d'eau, sans jamais se limiter au seul bassin. Bordeaux ouvre naturellement l'itinéraire, puis Arcachon, le Moulleau, la Dune du Pilat, Certes-Graveyron et l'Île aux Oiseaux déroulent une première moitié très cohérente autour du bassin. Ensuite, Lacanau, le Porge, Bourg-sur-Gironde, la Citadelle de Blaye, Eyrans et Talais construisent une seconde moitié plus estuarienne, plus austère et très belle si l'on aime les paysages plats et vastes. En van, le parcours fonctionne très bien parce qu'il suit des lignes d'eau continues et permet de nombreuses haltes courtes. Plusieurs points du bassin ou de l'estuaire peuvent se combiner, ce qui laisse du temps pour les ports, les marais et les soirées au bord de l'eau.",
+      "overnightStyle": "Nuits typiques : grande ville fluviale, bassin paisible, cordon dunaire, rive d'estuaire.",
+      "regionId": "gironde-landes",
+      "itinerarySlug": "le-grand-voyage-deau-salee-et-destuaire-en-gironde",
+      "steps": [
+        {
+          "slug": "bordeaux",
+          "nom": "Bordeaux",
+          "role": "etape"
+        },
+        {
+          "slug": "arcachon",
+          "nom": "Arcachon",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-du-moulleau",
+          "nom": "Plage du Moulleau",
+          "role": "etape"
+        },
+        {
+          "slug": "dune-du-pilat",
+          "nom": "Dune du Pilat",
+          "role": "etape"
+        },
+        {
+          "slug": "certes-graveyron",
+          "nom": "Certes-Graveyron",
+          "role": "etape"
+        },
+        {
+          "slug": "ile-aux-oiseaux",
+          "nom": "Île aux Oiseaux",
+          "role": "etape"
+        },
+        {
+          "slug": "lacanau",
+          "nom": "Lacanau",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-du-porge",
+          "nom": "Plage du Porge",
+          "role": "etape"
+        },
+        {
+          "slug": "bourg-sur-gironde",
+          "nom": "Bourg-sur-Gironde",
+          "role": "etape"
+        },
+        {
+          "slug": "citadelle-de-blaye",
+          "nom": "Citadelle de Blaye",
+          "role": "etape"
+        },
+        {
+          "slug": "eyrans",
+          "nom": "Eyrans",
+          "role": "etape"
+        },
+        {
+          "slug": "la-boucle-de-talais-par-le-port",
+          "nom": "La boucle de Talais par le port",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Bordeaux, vignes et vieilles pierres girondines",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours entre rive noble, vignes et bastides de pierre",
+      "summary": "Pour un court voyage en van, ce thème mise sur la Gironde intérieure la plus lisible : villes de pierre, château, vignes et bords de fleuve. Bordeaux donne l'ouverture évidente, puis Saint-Émilion construit le cœur du séjour avec sa densité patrimoniale. Le parcours peut ensuite glisser vers Langoiran ou Rions pour retrouver une Gironde plus tranquille, plus rurale, sans perdre le fil viticole. Le rythme est très bon sur trois jours, car les étapes sont proches et complémentaires. C'est un itinéraire idéal pour ceux qui aiment les ruelles, les coteaux, les châteaux et la lumière plus douce des vallées intérieures, tout en gardant de vraies soirées dans des bourgs habités.",
+      "overnightStyle": "Nuits typiques : grande ville de rive, village viticole, bourg ancien au bord du fleuve.",
+      "regionId": "gironde-landes",
+      "itinerarySlug": "3-jours-entre-rive-noble-vignes-et-bastides-de-pierre",
+      "steps": [
+        {
+          "slug": "bordeaux",
+          "nom": "Bordeaux",
+          "role": "etape"
+        },
+        {
+          "slug": "saint-emilion",
+          "nom": "Saint-Émilion",
+          "role": "etape"
+        },
+        {
+          "slug": "langoiran",
+          "nom": "Langoiran",
+          "role": "etape"
+        },
+        {
+          "slug": "rions",
+          "nom": "Rions",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Bordeaux, vignes et vieilles pierres girondines",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine entre Bordeaux, coteaux et châteaux de Gironde",
+      "summary": "Sur 7 jours, ce thème gagne en profondeur si l'on alterne les grands noms viticoles et les villages ou châteaux moins attendus. Bordeaux ouvre le voyage, puis Saint-Émilion donne tout de suite la grande signature patrimoniale. Ensuite, Bourg-sur-Gironde, le Château de La Brède, le Château de Cazeneuve, Langon, Rions et Langoiran composent une belle traversée des paysages intérieurs, entre vignes, vallées et forteresses. En van, l'ensemble fonctionne très bien parce qu'il suit des lignes de fleuve et de coteaux, avec des étapes assez rapprochées. Plusieurs villages du même secteur peuvent se visiter le même jour, ce qui laisse du temps pour les centres anciens, les points de vue et les soirées plus calmes dans l'arrière-pays.",
+      "overnightStyle": "Nuits typiques : ville de vin, bourg de coteau, château de campagne, vallée girondine.",
+      "regionId": "gironde-landes",
+      "itinerarySlug": "une-semaine-entre-bordeaux-coteaux-et-chateaux-de-gironde",
+      "steps": [
+        {
+          "slug": "bordeaux",
+          "nom": "Bordeaux",
+          "role": "etape"
+        },
+        {
+          "slug": "saint-emilion",
+          "nom": "Saint-Émilion",
+          "role": "etape"
+        },
+        {
+          "slug": "bourg-sur-gironde",
+          "nom": "Bourg-sur-Gironde",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-de-la-brede",
+          "nom": "Château de La Brède",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-de-cazeneuve",
+          "nom": "Château de Cazeneuve",
+          "role": "etape"
+        },
+        {
+          "slug": "langon",
+          "nom": "Langon",
+          "role": "etape"
+        },
+        {
+          "slug": "rions",
+          "nom": "Rions",
+          "role": "etape"
+        },
+        {
+          "slug": "langoiran",
+          "nom": "Langoiran",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Bordeaux, vignes et vieilles pierres girondines",
+      "durationHint": "10 jours",
+      "tripTitle": "Le grand tour des pierres et des vignes girondines",
+      "summary": "En 10 jours, ce thème permet de raconter une Gironde plus complète que le simple duo Bordeaux-Saint-Émilion. Bordeaux pose l'ouverture urbaine, puis Saint-Émilion, Bourg-sur-Gironde et Blaye donnent une première moitié très patrimoniale et fluviale. Ensuite, La Brède, Cazeneuve, Roquetaillade, Langon, Rions et Langoiran déploient une Gironde intérieure plus vallonnée, plus féodale parfois, toujours très agréable en van. Le rythme est cohérent parce qu'on avance par secteurs naturels, sans grands sauts. Certaines haltes de château peuvent se regrouper dans la même journée, ce qui laisse du temps pour les villages et les bords de rivière. C'est un itinéraire fort pour ceux qui aiment le vin, mais aussi la pierre et les paysages plus lents.",
+      "overnightStyle": "Nuits typiques : grande ville, village de vin, bourg ancien, campagne de châteaux.",
+      "regionId": "gironde-landes",
+      "itinerarySlug": "le-grand-tour-des-pierres-et-des-vignes-girondines",
+      "steps": [
+        {
+          "slug": "bordeaux",
+          "nom": "Bordeaux",
+          "role": "etape"
+        },
+        {
+          "slug": "saint-emilion",
+          "nom": "Saint-Émilion",
+          "role": "etape"
+        },
+        {
+          "slug": "bourg-sur-gironde",
+          "nom": "Bourg-sur-Gironde",
+          "role": "etape"
+        },
+        {
+          "slug": "citadelle-de-blaye",
+          "nom": "Citadelle de Blaye",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-de-la-brede",
+          "nom": "Château de La Brède",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-de-cazeneuve",
+          "nom": "Château de Cazeneuve",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-de-roquetaillade",
+          "nom": "Château de Roquetaillade",
+          "role": "etape"
+        },
+        {
+          "slug": "langon",
+          "nom": "Langon",
+          "role": "etape"
+        },
+        {
+          "slug": "rions",
+          "nom": "Rions",
+          "role": "etape"
+        },
+        {
+          "slug": "langoiran",
+          "nom": "Langoiran",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Landes intérieures, bastides et villages de sable",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours dans les Landes des pins et des bastides",
+      "summary": "Pour un séjour court, ce thème permet de sortir du réflexe océan et de découvrir une autre géographie landaise, plus intérieure, plus lente, mais très cohérente en van. Mont-de-Marsan donne un départ central, puis Saint-Sever apporte une première densité patrimoniale avant Labastide-d'Armagnac, qui offre l'une des plus belles silhouettes de bastide du secteur. Le parcours peut se refermer vers Roquefort pour garder ce fil de forêt, de pierre et de petites routes sous les pins. Le rythme est excellent : peu de kilomètres, un vrai contraste avec le littoral, et des soirées plus calmes dans des bourgs qui vivent à une autre cadence.",
+      "overnightStyle": "Nuits typiques : petite ville landaise, bastide ombragée, bourg forestier.",
+      "regionId": "gironde-landes",
+      "itinerarySlug": "3-jours-dans-les-landes-des-pins-et-des-bastides",
+      "steps": [
+        {
+          "slug": "mont-de-marsan",
+          "nom": "Mont-de-Marsan",
+          "role": "etape"
+        },
+        {
+          "slug": "saint-sever",
+          "nom": "Saint-Sever",
+          "role": "etape"
+        },
+        {
+          "slug": "labastide-darmagnac",
+          "nom": "Labastide-d'Armagnac",
+          "role": "etape"
+        },
+        {
+          "slug": "roquefort",
+          "nom": "Roquefort",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Landes intérieures, bastides et villages de sable",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine dans les Landes secrètes, loin des vagues",
+      "summary": "Sur 7 jours, ce thème devient très intéressant parce qu'il donne aux Landes une profondeur que le littoral masque souvent. Dax ouvre le voyage avec une vraie vie urbaine, puis Mont-de-Marsan et Saint-Sever installent l'intérieur du département. Labastide-d'Armagnac et Roquefort prolongent la route dans une ambiance de pins, de bastides et de routes droites, avant Sorde-l'Abbaye qui apporte une fin plus monumentale et plus méridionale. En van, le rythme est excellent car les étapes restent modestes et les routes très fluides. Plusieurs petites haltes peuvent se combiner facilement, ce qui laisse du temps pour les marchés, les places ombragées et les longues traversées de forêt.",
+      "overnightStyle": "Nuits typiques : ville thermale, bastide, forêt intérieure, bourg d'abbaye.",
+      "regionId": "gironde-landes",
+      "itinerarySlug": "une-semaine-dans-les-landes-secretes-loin-des-vagues",
+      "steps": [
+        {
+          "slug": "dax",
+          "nom": "Dax",
+          "role": "etape"
+        },
+        {
+          "slug": "mont-de-marsan",
+          "nom": "Mont-de-Marsan",
+          "role": "etape"
+        },
+        {
+          "slug": "saint-sever",
+          "nom": "Saint-Sever",
+          "role": "etape"
+        },
+        {
+          "slug": "labastide-darmagnac",
+          "nom": "Labastide-d'Armagnac",
+          "role": "etape"
+        },
+        {
+          "slug": "roquefort",
+          "nom": "Roquefort",
+          "role": "etape"
+        },
+        {
+          "slug": "sorde-labbaye",
+          "nom": "Sorde-l'Abbaye",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Landes intérieures, bastides et villages de sable",
+      "durationHint": "10 jours",
+      "tripTitle": "Le grand détour des Landes de l'intérieur",
+      "summary": "En 10 jours, ce thème permet de construire un vrai voyage d'arrière-pays, très différent des itinéraires de plage mais tout aussi cohérent. Bordeaux sert de porte d'entrée, puis Langon et le château de Cazeneuve ouvrent la bascule vers les Landes intérieures. Mont-de-Marsan, Saint-Sever, Labastide-d'Armagnac, Roquefort et Sorde-l'Abbaye forment le noyau du voyage, avant un retour possible vers Dax et Capbreton pour retrouver l'océan en fin de parcours. En van, l'ensemble fonctionne très bien parce qu'il alterne longues traversées de forêt et petites étapes de bourg sans tension. Certaines haltes intérieures peuvent se vivre le même jour, ce qui laisse de longs soirs dans les bastides ou sous les pins.",
+      "overnightStyle": "Nuits typiques : petite ville de vallée, bastide, bourg forestier, retour océanique plus ouvert.",
+      "regionId": "gironde-landes",
+      "itinerarySlug": "le-grand-detour-des-landes-de-linterieur",
+      "steps": [
+        {
+          "slug": "bordeaux",
+          "nom": "Bordeaux",
+          "role": "etape"
+        },
+        {
+          "slug": "langon",
+          "nom": "Langon",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-de-cazeneuve",
+          "nom": "Château de Cazeneuve",
+          "role": "etape"
+        },
+        {
+          "slug": "mont-de-marsan",
+          "nom": "Mont-de-Marsan",
+          "role": "etape"
+        },
+        {
+          "slug": "saint-sever",
+          "nom": "Saint-Sever",
+          "role": "etape"
+        },
+        {
+          "slug": "labastide-darmagnac",
+          "nom": "Labastide-d'Armagnac",
+          "role": "etape"
+        },
+        {
+          "slug": "roquefort",
+          "nom": "Roquefort",
+          "role": "etape"
+        },
+        {
+          "slug": "sorde-labbaye",
+          "nom": "Sorde-l'Abbaye",
+          "role": "etape"
+        },
+        {
+          "slug": "dax",
+          "nom": "Dax",
+          "role": "etape"
+        },
+        {
+          "slug": "capbreton",
+          "nom": "Capbreton",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    }
+  ]
 }

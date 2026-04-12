@@ -1,3 +1,643 @@
 {
-  "itineraries": []
+  "itineraries": [
+    {
+      "themeTitle": "Vercors, falaises et Dauphiné minéral",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours entre balcons calcaires et villages suspendus",
+      "summary": "Pour un court voyage en van, le Vercors et ses lisières offrent l'un des meilleurs condensés du Dauphiné : routes spectaculaires, villages de pierre, relief très lisible et vraies sensations de montagne sans logistique trop lourde. Pont-en-Royans donne une entrée immédiatement forte, puis La Chapelle-en-Vercors et Villard-de-Lans installent un rythme de plateau, de falaises et de forêts. Les chemins du patrimoine de Méaudre ajoutent un contrepoint plus doux avant une sortie possible vers le lac de Paladru si l'on veut finir par une touche d'eau. C'est un itinéraire très cohérent, avec peu de grands sauts et beaucoup de matière paysagère. Plusieurs étapes du cœur du Vercors peuvent se visiter dans la même journée, ce qui laisse de vraies soirées dans les villages ou sur les hauteurs.",
+      "overnightStyle": "Nuits typiques : village de falaise, plateau boisé, bourg de montagne et lac en lisière.",
+      "regionId": "dauphine-rhone",
+      "itinerarySlug": "3-jours-entre-balcons-calcaires-et-villages-suspendus",
+      "steps": [
+        {
+          "slug": "pont-en-royans",
+          "nom": "Pont-en-Royans",
+          "role": "etape"
+        },
+        {
+          "slug": "la-chapelle-en-vercors",
+          "nom": "La Chapelle-en-Vercors",
+          "role": "etape"
+        },
+        {
+          "slug": "villard-de-lans",
+          "nom": "Villard-de-Lans",
+          "role": "etape"
+        },
+        {
+          "slug": "les-chemins-du-patrimoine-de-meaudre",
+          "nom": "Les chemins du patrimoine de Méaudre",
+          "role": "etape"
+        },
+        {
+          "slug": "lac-de-paladru",
+          "nom": "Lac de Paladru",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Vercors, falaises et Dauphiné minéral",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine de plateaux, d'eaux claires et de routes hautes",
+      "summary": "Sur 7 jours, ce thème prend une vraie épaisseur en reliant les portes du Dauphiné aux grands reliefs du Vercors. Grenoble n'apparaît pas dans ta liste, donc Vizille fait ici une très bonne entrée de vallée avant Pont-en-Royans, La Chapelle-en-Vercors et Villard-de-Lans. Ensuite, Méaudre, le Sentier d'interprétation du karst et le lac de Paladru prolongent le voyage dans une logique très cohérente de falaises, de plateaux et d'eau. En van, cet itinéraire est particulièrement bon parce qu'il repose sur une seule famille de paysages, avec des détours plausibles et des journées assez souples. Certaines étapes de plateau peuvent se combiner, ce qui laisse de vrais temps pour marcher, lire le relief et profiter des soirées fraîches en altitude.",
+      "overnightStyle": "Nuits typiques : vallée d'entrée, village de plateau, route de falaises, bord de lac.",
+      "regionId": "dauphine-rhone",
+      "itinerarySlug": "une-semaine-de-plateaux-deaux-claires-et-de-routes-hautes",
+      "steps": [
+        {
+          "slug": "chateau-de-vizille",
+          "nom": "Château de Vizille",
+          "role": "etape"
+        },
+        {
+          "slug": "pont-en-royans",
+          "nom": "Pont-en-Royans",
+          "role": "etape"
+        },
+        {
+          "slug": "la-chapelle-en-vercors",
+          "nom": "La Chapelle-en-Vercors",
+          "role": "etape"
+        },
+        {
+          "slug": "villard-de-lans",
+          "nom": "Villard-de-Lans",
+          "role": "etape"
+        },
+        {
+          "slug": "les-chemins-du-patrimoine-de-meaudre",
+          "nom": "Les chemins du patrimoine de Méaudre",
+          "role": "etape"
+        },
+        {
+          "slug": "sentier-dinterpretation-du-karst",
+          "nom": "Sentier d'interprétation du karst",
+          "role": "etape"
+        },
+        {
+          "slug": "lac-de-paladru",
+          "nom": "Lac de Paladru",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-charavines",
+          "nom": "Plage de Charavines",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Vercors, falaises et Dauphiné minéral",
+      "durationHint": "10 jours",
+      "tripTitle": "La grande diagonale minérale du Dauphiné",
+      "summary": "En 10 jours, on peut construire un vrai voyage dauphinois de relief, de falaises et de villages très caractéristiques sans sortir du thème. Le lac de Paladru et Charavines ouvrent le trajet en douceur, puis les Grottes de la Balme et Crémieu installent une première séquence de pierre. Ensuite viennent Vizille, Pont-en-Royans, La Chapelle-en-Vercors, Villard-de-Lans et Méaudre, qui forment le cœur du Vercors. Le voyage peut se prolonger vers Die et Châtillon-en-Diois pour donner une fin plus méridionale, plus lumineuse, sans casser la cohérence minérale. En van, l'itinéraire fonctionne très bien parce qu'il avance du nord-ouest vers le sud par ensembles logiques. Certaines étapes de plateau peuvent se combiner, ce qui permet de garder de longs soirs dans les vallées ou sur les hauteurs.",
+      "overnightStyle": "Nuits typiques : bord de lac, village de pierre, plateau du Vercors, vallée claire du sud dauphinois.",
+      "regionId": "dauphine-rhone",
+      "itinerarySlug": "la-grande-diagonale-minerale-du-dauphine",
+      "steps": [
+        {
+          "slug": "lac-de-paladru",
+          "nom": "Lac de Paladru",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-charavines",
+          "nom": "Plage de Charavines",
+          "role": "etape"
+        },
+        {
+          "slug": "les-grottes-de-la-balme",
+          "nom": "Les Grottes de la Balme",
+          "role": "etape"
+        },
+        {
+          "slug": "cremieu",
+          "nom": "Crémieu",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-de-vizille",
+          "nom": "Château de Vizille",
+          "role": "etape"
+        },
+        {
+          "slug": "pont-en-royans",
+          "nom": "Pont-en-Royans",
+          "role": "etape"
+        },
+        {
+          "slug": "la-chapelle-en-vercors",
+          "nom": "La Chapelle-en-Vercors",
+          "role": "etape"
+        },
+        {
+          "slug": "villard-de-lans",
+          "nom": "Villard-de-Lans",
+          "role": "etape"
+        },
+        {
+          "slug": "les-chemins-du-patrimoine-de-meaudre",
+          "nom": "Les chemins du patrimoine de Méaudre",
+          "role": "etape"
+        },
+        {
+          "slug": "die",
+          "nom": "Die",
+          "role": "etape"
+        },
+        {
+          "slug": "chatillon-en-diois",
+          "nom": "Châtillon-en-Diois",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Drôme provençale, villages perchés et lumière du sud",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours entre lavande sèche, villages perchés et vieilles pierres",
+      "summary": "Pour un court séjour en van, le sud de la Drôme est l'un des meilleurs terrains de jeu de cette région élargie : les étapes sont proches, les paysages très lisibles et l'ambiance change vite entre vallons, villages et vignes. Grignan ouvre le voyage avec une vraie noblesse, puis La Garde-Adhémar apporte un balcon minéral très fort avant Le Poët-Laval, qui donne une tonalité plus recueillie. Montbrun-les-Bains peut fermer la boucle sur une note plus montagnarde et plus lumineuse. Le rythme est idéal sur trois jours, avec peu de route inutile et beaucoup de temps pour les ruelles, les points de vue et les soirées dans les bourgs de hauteur.",
+      "overnightStyle": "Nuits typiques : village perché, campagne sèche, bourg ancien du sud drômois.",
+      "regionId": "dauphine-rhone",
+      "itinerarySlug": "3-jours-entre-lavande-seche-villages-perches-et-vieilles-pierres",
+      "steps": [
+        {
+          "slug": "grignan",
+          "nom": "Grignan",
+          "role": "etape"
+        },
+        {
+          "slug": "la-garde-adhemar",
+          "nom": "La Garde-Adhémar",
+          "role": "etape"
+        },
+        {
+          "slug": "le-poet-laval",
+          "nom": "Le Poët-Laval",
+          "role": "etape"
+        },
+        {
+          "slug": "montbrun-les-bains",
+          "nom": "Montbrun-les-Bains",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Drôme provençale, villages perchés et lumière du sud",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine dans la Drôme la plus solaire",
+      "summary": "Sur 7 jours, ce thème permet de composer un très beau voyage méridional sans perdre la cohérence géographique. Crest introduit d'abord le sud du Dauphiné, puis Bourdeaux et Die ouvrent un décor plus vallonné. Ensuite, Châtillon-en-Diois, Grignan, Le Poët-Laval et La Garde-Adhémar déroulent une séquence de villages et de paysages secs très solide, avant Nyons et Montbrun-les-Bains pour une fin plus provençale encore. En van, le parcours tient bien parce qu'il descend naturellement vers le sud, en avançant par vallées et crêtes sans allers-retours superflus. Plusieurs villages proches peuvent se visiter dans la même journée, ce qui laisse de longues soirées dans les places ombragées et les belvédères.",
+      "overnightStyle": "Nuits typiques : petite ville de vallée, village perché, bourg sec de Provence drômoise, station douce du sud.",
+      "regionId": "dauphine-rhone",
+      "itinerarySlug": "une-semaine-dans-la-drome-la-plus-solaire",
+      "steps": [
+        {
+          "slug": "crest",
+          "nom": "Crest",
+          "role": "etape"
+        },
+        {
+          "slug": "bourdeaux",
+          "nom": "Bourdeaux",
+          "role": "etape"
+        },
+        {
+          "slug": "die",
+          "nom": "Die",
+          "role": "etape"
+        },
+        {
+          "slug": "chatillon-en-diois",
+          "nom": "Châtillon-en-Diois",
+          "role": "etape"
+        },
+        {
+          "slug": "grignan",
+          "nom": "Grignan",
+          "role": "etape"
+        },
+        {
+          "slug": "le-poet-laval",
+          "nom": "Le Poët-Laval",
+          "role": "etape"
+        },
+        {
+          "slug": "la-garde-adhemar",
+          "nom": "La Garde-Adhémar",
+          "role": "etape"
+        },
+        {
+          "slug": "nyons",
+          "nom": "Nyons",
+          "role": "etape"
+        },
+        {
+          "slug": "montbrun-les-bains",
+          "nom": "Montbrun-les-Bains",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Drôme provençale, villages perchés et lumière du sud",
+      "durationHint": "10 jours",
+      "tripTitle": "La grande route sud du Dauphiné jusqu'aux portes de Provence",
+      "summary": "En 10 jours, ce thème devient un vrai voyage d'atmosphère, où le Dauphiné glisse peu à peu vers le Midi. Valence donne une entrée de vallée, puis Crest, Bourdeaux, Die et Châtillon-en-Diois articulent très bien la transition entre montagne douce et sud lumineux. Ensuite, Grignan, Le Poët-Laval, La Garde-Adhémar, Saint-Paul-Trois-Châteaux, Suze-la-Rousse, Nyons et Montbrun-les-Bains composent une magnifique séquence finale, très dense sans être incohérente. En van, le parcours est excellent car il suit une vraie logique nord-sud, avec des routes secondaires plaisantes et beaucoup d'étapes à taille humaine. Plusieurs villages du sud drômois peuvent se regrouper, ce qui laisse du temps pour les marchés, les panoramas et les soirs dans des bourgs très habitables.",
+      "overnightStyle": "Nuits typiques : ville de vallée, village sec de crête, petite cité du sud, bourg thermal ou viticole.",
+      "regionId": "dauphine-rhone",
+      "itinerarySlug": "la-grande-route-sud-du-dauphine-jusquaux-portes-de-provence",
+      "steps": [
+        {
+          "slug": "valence",
+          "nom": "Valence",
+          "role": "etape"
+        },
+        {
+          "slug": "crest",
+          "nom": "Crest",
+          "role": "etape"
+        },
+        {
+          "slug": "bourdeaux",
+          "nom": "Bourdeaux",
+          "role": "etape"
+        },
+        {
+          "slug": "die",
+          "nom": "Die",
+          "role": "etape"
+        },
+        {
+          "slug": "chatillon-en-diois",
+          "nom": "Châtillon-en-Diois",
+          "role": "etape"
+        },
+        {
+          "slug": "grignan",
+          "nom": "Grignan",
+          "role": "etape"
+        },
+        {
+          "slug": "le-poet-laval",
+          "nom": "Le Poët-Laval",
+          "role": "etape"
+        },
+        {
+          "slug": "la-garde-adhemar",
+          "nom": "La Garde-Adhémar",
+          "role": "etape"
+        },
+        {
+          "slug": "saint-paul-trois-chateaux",
+          "nom": "Saint-Paul-Trois-Châteaux",
+          "role": "etape"
+        },
+        {
+          "slug": "suze-la-rousse",
+          "nom": "Suze-la-Rousse",
+          "role": "etape"
+        },
+        {
+          "slug": "nyons",
+          "nom": "Nyons",
+          "role": "etape"
+        },
+        {
+          "slug": "montbrun-les-bains",
+          "nom": "Montbrun-les-Bains",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Lyonnais, Beaujolais et pierres dorées",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours entre collines à vin et villages couleur miel",
+      "summary": "Pour un court voyage en van, le Beaujolais et le Lyonnais offrent une boucle très efficace : de belles routes, des villages serrés et une vraie identité de paysage. Lyon peut servir d'ouverture urbaine, puis L'Arbresle, Oingt et Le Bois-d'Oingt installent aussitôt la séquence des pierres dorées. Beaujeu et Juliénas prolongent ensuite le voyage vers des coteaux plus vineux. Le rythme est excellent sur trois jours, avec peu de distance perdue et beaucoup de variété entre ville, villages et vignobles. Certaines étapes très proches du cœur du Beaujolais peuvent se découvrir dans la même journée, ce qui permet de garder du temps pour les belvédères, les caves et les fins d'après-midi sur les collines.",
+      "overnightStyle": "Nuits typiques : grande ville de départ, village doré, coteaux du vin, bourg de collines.",
+      "regionId": "dauphine-rhone",
+      "itinerarySlug": "3-jours-entre-collines-a-vin-et-villages-couleur-miel",
+      "steps": [
+        {
+          "slug": "lyon",
+          "nom": "Lyon",
+          "role": "etape"
+        },
+        {
+          "slug": "larbresle",
+          "nom": "L'Arbresle",
+          "role": "etape"
+        },
+        {
+          "slug": "oingt",
+          "nom": "Oingt",
+          "role": "etape"
+        },
+        {
+          "slug": "le-bois-doingt",
+          "nom": "Le Bois-d'Oingt",
+          "role": "etape"
+        },
+        {
+          "slug": "beaujeu",
+          "nom": "Beaujeu",
+          "role": "etape"
+        },
+        {
+          "slug": "julienas",
+          "nom": "Juliénas",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Lyonnais, Beaujolais et pierres dorées",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine de coteaux tendres entre Lyon et Beaujolais",
+      "summary": "Sur 7 jours, ce thème permet de mêler l'énergie urbaine de Lyon à la douceur très habitée des collines du nord-ouest. Lyon donne un départ puissant, puis Anse, Trévoux et L'Arbresle amènent progressivement vers les paysages de pierres dorées. Oingt et Le Bois-d'Oingt forment le cœur le plus photogénique du voyage, avant Beaujeu, Belleville-en-Beaujolais et Juliénas, qui donnent plus de profondeur viticole. En van, l'itinéraire est particulièrement agréable car les distances restent courtes et les routes secondaires nombreuses. Plusieurs villages du même secteur peuvent se regrouper sur la même journée, ce qui laisse du temps pour flâner, déguster et dormir dans des bourgs plus calmes que la vallée.",
+      "overnightStyle": "Nuits typiques : ville de départ, village doré, bourg de vigne, coteaux habités.",
+      "regionId": "dauphine-rhone",
+      "itinerarySlug": "une-semaine-de-coteaux-tendres-entre-lyon-et-beaujolais",
+      "steps": [
+        {
+          "slug": "lyon",
+          "nom": "Lyon",
+          "role": "etape"
+        },
+        {
+          "slug": "anse",
+          "nom": "Anse",
+          "role": "etape"
+        },
+        {
+          "slug": "trevoux",
+          "nom": "Trévoux",
+          "role": "etape"
+        },
+        {
+          "slug": "larbresle",
+          "nom": "L'Arbresle",
+          "role": "etape"
+        },
+        {
+          "slug": "oingt",
+          "nom": "Oingt",
+          "role": "etape"
+        },
+        {
+          "slug": "le-bois-doingt",
+          "nom": "Le Bois-d'Oingt",
+          "role": "etape"
+        },
+        {
+          "slug": "beaujeu",
+          "nom": "Beaujeu",
+          "role": "etape"
+        },
+        {
+          "slug": "belleville-en-beaujolais",
+          "nom": "Belleville-en-Beaujolais",
+          "role": "etape"
+        },
+        {
+          "slug": "julienas",
+          "nom": "Juliénas",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Lyonnais, Beaujolais et pierres dorées",
+      "durationHint": "10 jours",
+      "tripTitle": "Le grand voyage des collines lyonnaises et beaujolaises",
+      "summary": "En 10 jours, ce thème devient un vrai road trip de collines, de vignobles et de petites villes qui vivent encore très fort. Lyon ouvre logiquement le parcours, puis Saint-Romain-en-Gal et Vienne ajoutent une première profondeur historique avant de monter vers Tarare, L'Arbresle, Oingt et Le Bois-d'Oingt. Ensuite, Beaujeu, Belleville-en-Beaujolais et Juliénas construisent la séquence du vin, avant une sortie possible vers Roanne pour élargir le regard. En van, le trajet reste très cohérent car il suit les rebords de vallées et les coteaux sans grands sauts. Plusieurs villages du cœur des pierres dorées peuvent se grouper dans la même journée, ce qui laisse de vraies soirées sur les hauteurs et un rythme très souple.",
+      "overnightStyle": "Nuits typiques : ville de fleuve, coteaux viticoles, village doré, petite ville du nord ligérien.",
+      "regionId": "dauphine-rhone",
+      "itinerarySlug": "le-grand-voyage-des-collines-lyonnaises-et-beaujolaises",
+      "steps": [
+        {
+          "slug": "lyon",
+          "nom": "Lyon",
+          "role": "etape"
+        },
+        {
+          "slug": "saint-romain-en-gal",
+          "nom": "Saint-Romain-en-Gal",
+          "role": "etape"
+        },
+        {
+          "slug": "vienne",
+          "nom": "Vienne",
+          "role": "etape"
+        },
+        {
+          "slug": "tarare",
+          "nom": "Tarare",
+          "role": "etape"
+        },
+        {
+          "slug": "larbresle",
+          "nom": "L'Arbresle",
+          "role": "etape"
+        },
+        {
+          "slug": "oingt",
+          "nom": "Oingt",
+          "role": "etape"
+        },
+        {
+          "slug": "le-bois-doingt",
+          "nom": "Le Bois-d'Oingt",
+          "role": "etape"
+        },
+        {
+          "slug": "beaujeu",
+          "nom": "Beaujeu",
+          "role": "etape"
+        },
+        {
+          "slug": "belleville-en-beaujolais",
+          "nom": "Belleville-en-Beaujolais",
+          "role": "etape"
+        },
+        {
+          "slug": "julienas",
+          "nom": "Juliénas",
+          "role": "etape"
+        },
+        {
+          "slug": "roanne",
+          "nom": "Roanne",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Lacs, vallées et Dauphiné des eaux douces",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours de lacs clairs et de vallées tranquilles",
+      "summary": "Pour un court séjour, ce thème fonctionne très bien car il s'appuie sur des étapes immédiatement lisibles et très agréables en van. Le lac de Nantua pose un départ fort, avec sa cuvette spectaculaire, puis les Gorges de l'Ain et la plage de l'Île Chambod prolongent le voyage dans une logique d'eau vive et de falaises. On peut finir sur Belley ou Culoz pour donner une sortie plus habitée au parcours. Le rythme reste très bon : peu de route inutile, des paysages complémentaires et assez de temps pour profiter de l'eau, des routes de rive et des soirs dans des petites villes calmes.",
+      "overnightStyle": "Nuits typiques : bord de lac, vallée encaissée, petite ville au pied des reliefs.",
+      "regionId": "dauphine-rhone",
+      "itinerarySlug": "3-jours-de-lacs-clairs-et-de-vallees-tranquilles",
+      "steps": [
+        {
+          "slug": "lac-de-nantua",
+          "nom": "Lac de Nantua",
+          "role": "etape"
+        },
+        {
+          "slug": "gorges-de-lain",
+          "nom": "Gorges de l'Ain",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-lile-chambod",
+          "nom": "Plage de l'Île Chambod",
+          "role": "etape"
+        },
+        {
+          "slug": "belley",
+          "nom": "Belley",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Lacs, vallées et Dauphiné des eaux douces",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine entre lacs de l'Ain, Isère et collines fraîches",
+      "summary": "Sur 7 jours, ce thème permet de composer un vrai voyage d'eau douce dans une région qu'on imagine souvent plus minérale que lacustre. Villars-les-Dombes peut servir d'entrée plus douce, puis le lac de Nantua, les Gorges de l'Ain et la plage de l'Île Chambod posent le cœur du parcours. Ensuite, Belley, Culoz, le lac de Paladru et la plage de Charavines prolongent très naturellement le thème, avec une alternance réussie entre vallées encaissées et plans d'eau plus ouverts. En van, l'itinéraire tient très bien parce qu'il avance par bassins successifs, avec des routes simples et de vraies pauses possibles. Certaines étapes lacustres peuvent se vivre le même jour, ce qui laisse du temps pour la baignade, les belvédères et les petits centres anciens.",
+      "overnightStyle": "Nuits typiques : bord d'étang, lac de montagne basse, vallée de rivière, petite ville tranquille.",
+      "regionId": "dauphine-rhone",
+      "itinerarySlug": "une-semaine-entre-lacs-de-lain-isere-et-collines-fraiches",
+      "steps": [
+        {
+          "slug": "villars-les-dombes",
+          "nom": "Villars-les-Dombes",
+          "role": "etape"
+        },
+        {
+          "slug": "lac-de-nantua",
+          "nom": "Lac de Nantua",
+          "role": "etape"
+        },
+        {
+          "slug": "gorges-de-lain",
+          "nom": "Gorges de l'Ain",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-lile-chambod",
+          "nom": "Plage de l'Île Chambod",
+          "role": "etape"
+        },
+        {
+          "slug": "belley",
+          "nom": "Belley",
+          "role": "etape"
+        },
+        {
+          "slug": "culoz",
+          "nom": "Culoz",
+          "role": "etape"
+        },
+        {
+          "slug": "lac-de-paladru",
+          "nom": "Lac de Paladru",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-charavines",
+          "nom": "Plage de Charavines",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Lacs, vallées et Dauphiné des eaux douces",
+      "durationHint": "10 jours",
+      "tripTitle": "Le grand voyage des eaux intérieures du Dauphiné",
+      "summary": "En 10 jours, ce thème peut devenir un très beau road trip frais et varié, qui relie l'Ain, l'Isère et le nord de la Drôme sans artifices. Villars-les-Dombes et Bourg-en-Bresse ouvrent en douceur, puis le lac de Nantua, les Gorges de l'Ain et l'Île Chambod donnent le premier grand bloc paysager. Ensuite, Belley et Culoz assurent la transition vers l'Isère, avant le lac de Paladru, Charavines et le Bois Français. Le voyage peut se fermer vers Valence et le lac de Champos pour une sortie plus méridionale. En van, le parcours est cohérent parce qu'il suit une progression nord-sud entre plans d'eau et vallées. Certaines plages ou petites villes proches peuvent se regrouper, ce qui laisse de belles respirations et une vraie souplesse.",
+      "overnightStyle": "Nuits typiques : étangs, lac encaissé, petite ville de rive, plan d'eau plus méridional.",
+      "regionId": "dauphine-rhone",
+      "itinerarySlug": "le-grand-voyage-des-eaux-interieures-du-dauphine",
+      "steps": [
+        {
+          "slug": "villars-les-dombes",
+          "nom": "Villars-les-Dombes",
+          "role": "etape"
+        },
+        {
+          "slug": "bourg-en-bresse",
+          "nom": "Bourg-en-Bresse",
+          "role": "etape"
+        },
+        {
+          "slug": "lac-de-nantua",
+          "nom": "Lac de Nantua",
+          "role": "etape"
+        },
+        {
+          "slug": "gorges-de-lain",
+          "nom": "Gorges de l'Ain",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-lile-chambod",
+          "nom": "Plage de l'Île Chambod",
+          "role": "etape"
+        },
+        {
+          "slug": "belley",
+          "nom": "Belley",
+          "role": "etape"
+        },
+        {
+          "slug": "culoz",
+          "nom": "Culoz",
+          "role": "etape"
+        },
+        {
+          "slug": "lac-de-paladru",
+          "nom": "Lac de Paladru",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-charavines",
+          "nom": "Plage de Charavines",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-du-bois-francais",
+          "nom": "Plage du Bois Français",
+          "role": "etape"
+        },
+        {
+          "slug": "valence",
+          "nom": "Valence",
+          "role": "etape"
+        },
+        {
+          "slug": "lac-de-champos",
+          "nom": "Lac de Champos",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    }
+  ]
 }

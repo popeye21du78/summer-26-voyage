@@ -1,3 +1,638 @@
 {
-  "itineraries": []
+  "itineraries": [
+    {
+      "themeTitle": "Riviera mythique, caps et élégance azuréenne",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours sur le balcon bleu de la Riviera",
+      "summary": "Pour un court voyage en van, la meilleure stratégie consiste à concentrer l'itinéraire sur la Riviera la plus classique, là où les caps, les plages et les villages perchés se répondent sans multiplier les kilomètres. Nice donne l'élan urbain, Villefranche-sur-Mer apporte immédiatement la carte postale, puis Saint-Jean-Cap-Ferrat et Èze font monter le niveau d'élégance avant Menton en final lumineux. Le parcours reste très crédible sur trois jours, car tout s'enchaîne sur une même frange littorale. Plusieurs étapes se visitent facilement dans la même journée, ce qui laisse du temps pour les promenades de bord de mer, les points de vue et les soirées dans des lieux où la lumière reste le vrai fil conducteur.",
+      "overnightStyle": "Nuits typiques : grande ville de riviera, baie élégante, village perché au-dessus de la mer.",
+      "regionId": "cote-dazur",
+      "itinerarySlug": "3-jours-sur-le-balcon-bleu-de-la-riviera",
+      "steps": [
+        {
+          "slug": "nice",
+          "nom": "Nice",
+          "role": "etape"
+        },
+        {
+          "slug": "villefranche-sur-mer",
+          "nom": "Villefranche-sur-Mer",
+          "role": "etape"
+        },
+        {
+          "slug": "saint-jean-cap-ferrat",
+          "nom": "Saint-Jean-Cap-Ferrat",
+          "role": "etape"
+        },
+        {
+          "slug": "eze",
+          "nom": "Èze",
+          "role": "etape"
+        },
+        {
+          "slug": "menton",
+          "nom": "Menton",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Riviera mythique, caps et élégance azuréenne",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine entre palaces invisibles et caps de lumière",
+      "summary": "Sur 7 jours, ce thème prend une vraie ampleur si l'on relie les grands noms de la Côte d'Azur sans tomber dans le catalogue de stations. Cannes ouvre le voyage par une façade très cinématographique, Antibes et le Tour du Cap d'Antibes donnent ensuite un cœur de parcours très fort, à la fois balnéaire et paysager. Plus à l'est, Nice, Villefranche-sur-Mer, Saint-Jean-Cap-Ferrat, Èze et Cap-d'Ail construisent une séquence continue où chaque étape apporte une nuance différente de l'élégance azuréenne, avant Menton en point d'orgue. En van, l'itinéraire reste cohérent car il suit un seul axe littoral. Plusieurs caps et plages proches peuvent se regrouper dans la même journée, ce qui laisse de vraies soirées dans les villages ou sur les corniches.",
+      "overnightStyle": "Nuits typiques : station mythique, cap résidentiel, baie élégante, village suspendu de la côte est.",
+      "regionId": "cote-dazur",
+      "itinerarySlug": "une-semaine-entre-palaces-invisibles-et-caps-de-lumiere",
+      "steps": [
+        {
+          "slug": "cannes",
+          "nom": "Cannes",
+          "role": "etape"
+        },
+        {
+          "slug": "antibes",
+          "nom": "Antibes",
+          "role": "etape"
+        },
+        {
+          "slug": "tour-du-cap-dantibes",
+          "nom": "Tour du Cap d'Antibes",
+          "role": "etape"
+        },
+        {
+          "slug": "nice",
+          "nom": "Nice",
+          "role": "etape"
+        },
+        {
+          "slug": "villefranche-sur-mer",
+          "nom": "Villefranche-sur-Mer",
+          "role": "etape"
+        },
+        {
+          "slug": "saint-jean-cap-ferrat",
+          "nom": "Saint-Jean-Cap-Ferrat",
+          "role": "etape"
+        },
+        {
+          "slug": "eze",
+          "nom": "Èze",
+          "role": "etape"
+        },
+        {
+          "slug": "cap-dail",
+          "nom": "Cap-d'Ail",
+          "role": "etape"
+        },
+        {
+          "slug": "menton",
+          "nom": "Menton",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Riviera mythique, caps et élégance azuréenne",
+      "durationHint": "10 jours",
+      "tripTitle": "La grande traversée chic de la Côte d'Azur",
+      "summary": "En 10 jours, on peut assumer un vrai voyage de Riviera, depuis les palmiers du Var jusqu'aux façades pastel de Menton, sans donner l'impression de collectionner les stations. Hyères et Porquerolles lancent l'itinéraire sur une note insulaire et lumineuse, puis Cannes, Antibes, Nice, Villefranche-sur-Mer et Saint-Jean-Cap-Ferrat déroulent le grand récit azuréen. Ensuite, Èze, Cap-d'Ail et Menton assurent une fin plus verticale, plus italienne dans l'atmosphère. En van, ce parcours reste crédible parce qu'il avance simplement d'ouest en est, avec de nombreuses possibilités d'étapes courtes. Plusieurs plages ou promenades de cap peuvent se vivre le même jour, ce qui permet de garder du temps pour les vieux centres, les corniches et les nuits dans des secteurs moins tendus.",
+      "overnightStyle": "Nuits typiques : station balnéaire, île ou presqu'île, grande baie, village de corniche.",
+      "regionId": "cote-dazur",
+      "itinerarySlug": "la-grande-traversee-chic-de-la-cote-dazur",
+      "steps": [
+        {
+          "slug": "hyeres",
+          "nom": "Hyères",
+          "role": "etape"
+        },
+        {
+          "slug": "porquerolles",
+          "nom": "Porquerolles",
+          "role": "etape"
+        },
+        {
+          "slug": "cannes",
+          "nom": "Cannes",
+          "role": "etape"
+        },
+        {
+          "slug": "antibes",
+          "nom": "Antibes",
+          "role": "etape"
+        },
+        {
+          "slug": "tour-du-cap-dantibes",
+          "nom": "Tour du Cap d'Antibes",
+          "role": "etape"
+        },
+        {
+          "slug": "nice",
+          "nom": "Nice",
+          "role": "etape"
+        },
+        {
+          "slug": "villefranche-sur-mer",
+          "nom": "Villefranche-sur-Mer",
+          "role": "etape"
+        },
+        {
+          "slug": "saint-jean-cap-ferrat",
+          "nom": "Saint-Jean-Cap-Ferrat",
+          "role": "etape"
+        },
+        {
+          "slug": "eze",
+          "nom": "Èze",
+          "role": "etape"
+        },
+        {
+          "slug": "cap-dail",
+          "nom": "Cap-d'Ail",
+          "role": "etape"
+        },
+        {
+          "slug": "menton",
+          "nom": "Menton",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Var secret, villages en balcon et Provence minérale",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours entre falaises blondes et villages suspendus",
+      "summary": "Pour un format court, l'arrière-pays varois offre un excellent contrepoint à la côte : moins saturé, plus minéral, très agréable en van. Cotignac ouvre le séjour avec une vraie présence de falaise et de pierre, puis Villecroze et Tourtour construisent une séquence de villages très cohérente, avant Bargème qui donne une fin plus haute, plus aérienne. Le grand intérêt de cet itinéraire est sa densité douce : peu de kilomètres, des routes de relief lisibles, et une ambiance très différente de la Riviera. C'est un voyage idéal pour ceux qui veulent des placettes, des vues larges, des ruelles fraîches et des nuits dans des bourgs où l'on sent encore le rythme de l'intérieur.",
+      "overnightStyle": "Nuits typiques : village de falaise, bourg perché, arrière-pays très calme.",
+      "regionId": "cote-dazur",
+      "itinerarySlug": "3-jours-entre-falaises-blondes-et-villages-suspendus",
+      "steps": [
+        {
+          "slug": "cotignac",
+          "nom": "Cotignac",
+          "role": "etape"
+        },
+        {
+          "slug": "villecroze",
+          "nom": "Villecroze",
+          "role": "etape"
+        },
+        {
+          "slug": "tourtour",
+          "nom": "Tourtour",
+          "role": "etape"
+        },
+        {
+          "slug": "bargeme",
+          "nom": "Bargème",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Var secret, villages en balcon et Provence minérale",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine dans l'arrière-pays varois aux pierres chaudes",
+      "summary": "Sur 7 jours, ce thème devient un très beau voyage d'intérieur en reliant les villages les plus forts du Var sans casser la cohérence géographique. Le Castellet ouvre le parcours avec une belle entrée perchée, puis l'Abbaye du Thoronet introduit une respiration minérale et monastique. Cotignac, Villecroze et Tourtour forment ensuite un cœur de voyage très solide, avant Seillans et Bargème qui installent une atmosphère plus haute et plus panoramique. En van, l'enchaînement fonctionne particulièrement bien car les étapes avancent par paliers naturels entre vignobles, collines et premiers reliefs. Plusieurs villages proches peuvent se visiter le même jour, ce qui laisse de vraies soirées dans les hauteurs et évite un itinéraire trop segmenté.",
+      "overnightStyle": "Nuits typiques : village perché, clairière de l'intérieur, bourg panoramique, campagne provençale sèche.",
+      "regionId": "cote-dazur",
+      "itinerarySlug": "une-semaine-dans-larriere-pays-varois-aux-pierres-chaudes",
+      "steps": [
+        {
+          "slug": "le-castellet",
+          "nom": "Le Castellet",
+          "role": "etape"
+        },
+        {
+          "slug": "abbaye-du-thoronet",
+          "nom": "Abbaye du Thoronet",
+          "role": "etape"
+        },
+        {
+          "slug": "cotignac",
+          "nom": "Cotignac",
+          "role": "etape"
+        },
+        {
+          "slug": "villecroze",
+          "nom": "Villecroze",
+          "role": "etape"
+        },
+        {
+          "slug": "tourtour",
+          "nom": "Tourtour",
+          "role": "etape"
+        },
+        {
+          "slug": "seillans",
+          "nom": "Seillans",
+          "role": "etape"
+        },
+        {
+          "slug": "bargeme",
+          "nom": "Bargème",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Var secret, villages en balcon et Provence minérale",
+      "durationHint": "10 jours",
+      "tripTitle": "La diagonale cachée du Var en 10 jours",
+      "summary": "En 10 jours, ce thème permet de quitter franchement le littoral pour découvrir une Côte d'Azur plus provençale, plus sèche et souvent plus profonde. Hyères et Collobrières donnent d'abord un sas boisé avant La Garde-Freinet et le duo Gassin-Ramatuelle, qui relient mer et collines. Ensuite, l'Abbaye du Thoronet, Cotignac, Villecroze, Tourtour, Seillans et Bargème déroulent une très belle diagonale intérieure jusqu'aux reliefs. En van, ce parcours est particulièrement agréable parce qu'il évite les stations tendues et privilégie les routes secondaires, les placettes et les villages de hauteur. Certaines haltes proches du centre Var peuvent se combiner facilement, ce qui permet de garder des nuits longues dans les secteurs les plus séduisants et de profiter du soir dans des villages moins fréquentés.",
+      "overnightStyle": "Nuits typiques : collines boisées, village de hauteur, campagne minérale, balcon sur l'arrière-pays.",
+      "regionId": "cote-dazur",
+      "itinerarySlug": "la-diagonale-cachee-du-var-en-10-jours",
+      "steps": [
+        {
+          "slug": "hyeres",
+          "nom": "Hyères",
+          "role": "etape"
+        },
+        {
+          "slug": "collobrieres",
+          "nom": "Collobrières",
+          "role": "etape"
+        },
+        {
+          "slug": "la-garde-freinet",
+          "nom": "La Garde-Freinet",
+          "role": "etape"
+        },
+        {
+          "slug": "gassin",
+          "nom": "Gassin",
+          "role": "etape"
+        },
+        {
+          "slug": "ramatuelle",
+          "nom": "Ramatuelle",
+          "role": "etape"
+        },
+        {
+          "slug": "abbaye-du-thoronet",
+          "nom": "Abbaye du Thoronet",
+          "role": "etape"
+        },
+        {
+          "slug": "cotignac",
+          "nom": "Cotignac",
+          "role": "etape"
+        },
+        {
+          "slug": "villecroze",
+          "nom": "Villecroze",
+          "role": "etape"
+        },
+        {
+          "slug": "tourtour",
+          "nom": "Tourtour",
+          "role": "etape"
+        },
+        {
+          "slug": "seillans",
+          "nom": "Seillans",
+          "role": "etape"
+        },
+        {
+          "slug": "bargeme",
+          "nom": "Bargème",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Méditerranée sauvage, plages longues et sentiers du littoral",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours de sable, de pinède et de sentiers au bord de l'eau",
+      "summary": "Pour un séjour court en van, la bonne idée consiste à choisir un morceau de côte où l'on peut vraiment vivre dehors, sans courir entre les stations. Hyères et la plage de l'Almanarre ouvrent parfaitement ce type de voyage, puis Porquerolles ajoute une parenthèse insulaire avant Le Lavandou et la plage de Saint Clair. Le parcours reste simple et très efficace, avec un vrai sentiment de vacances méditerranéennes sans lourdeur logistique. C'est un itinéraire idéal pour ceux qui veulent alterner eau claire, chemins faciles, plages bien dessinées et soirées dans des bourgs littoraux vivants. Plusieurs plages peuvent se visiter dans la même journée, ce qui laisse du temps pour la baignade, les traversées courtes et les couchers de soleil.",
+      "overnightStyle": "Nuits typiques : port et plage, île ou presqu'île, station balnéaire simple et lumineuse.",
+      "regionId": "cote-dazur",
+      "itinerarySlug": "3-jours-de-sable-de-pinede-et-de-sentiers-au-bord-de-leau",
+      "steps": [
+        {
+          "slug": "hyeres",
+          "nom": "Hyères",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-lalmanarre",
+          "nom": "Plage de l'Almanarre",
+          "role": "etape"
+        },
+        {
+          "slug": "porquerolles",
+          "nom": "Porquerolles",
+          "role": "etape"
+        },
+        {
+          "slug": "le-lavandou",
+          "nom": "Le Lavandou",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-saint-clair",
+          "nom": "Plage de Saint Clair",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Méditerranée sauvage, plages longues et sentiers du littoral",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine de criques claires et de sentiers salés",
+      "summary": "Sur 7 jours, ce thème permet de construire un vrai voyage littoral sans se limiter aux plages les plus connues. Hyères, l'Almanarre et Porquerolles donnent une ouverture très forte, puis Le Lavandou, Cavalière et Bormes-les-Mimosas prolongent la route sur une côte encore très végétale. Plus à l'est, Pampelonne, l'Escalet et les Salins apportent une autre lecture du littoral varois, plus ouverte, plus iconique mais toujours cohérente. En van, l'itinéraire tient bien parce qu'il reste concentré sur une même moitié de côte. Plusieurs plages d'un même secteur peuvent se visiter le même jour, ce qui laisse du temps pour les sentiers du bord de mer, les villages perchés du soir et les pauses longues sans sensation de survol.",
+      "overnightStyle": "Nuits typiques : station marine, pinède, plage longue, village littoral perché.",
+      "regionId": "cote-dazur",
+      "itinerarySlug": "une-semaine-de-criques-claires-et-de-sentiers-sales",
+      "steps": [
+        {
+          "slug": "hyeres",
+          "nom": "Hyères",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-lalmanarre",
+          "nom": "Plage de l'Almanarre",
+          "role": "etape"
+        },
+        {
+          "slug": "porquerolles",
+          "nom": "Porquerolles",
+          "role": "etape"
+        },
+        {
+          "slug": "le-lavandou",
+          "nom": "Le Lavandou",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-cavaliere",
+          "nom": "Plage de Cavalière",
+          "role": "etape"
+        },
+        {
+          "slug": "bormes-les-mimosas",
+          "nom": "Bormes-les-Mimosas",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-pampelonne",
+          "nom": "Plage de Pampelonne",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-lescalet",
+          "nom": "Plage de l'Escalet",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-des-salins",
+          "nom": "Plage des Salins",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Méditerranée sauvage, plages longues et sentiers du littoral",
+      "durationHint": "10 jours",
+      "tripTitle": "Le grand été varois de crique en crique",
+      "summary": "En 10 jours, ce thème devient un vrai road trip de bord de mer, pensé pour le van et pour un usage lent de la côte. Toulon et la plage du Mourillon peuvent servir d'entrée, puis viennent Hyères, l'Almanarre et Porquerolles pour la grande séquence des îles et des vents. Le Lavandou, Saint Clair, Cavalière et Bormes-les-Mimosas prolongent ensuite l'itinéraire sur une côte plus végétale, avant Pampelonne, l'Escalet, les Salins et le sentier du littoral des Issambres pour une fin plus découpée. Le rythme reste crédible car on suit la côte d'ouest en est, avec de nombreuses possibilités de regroupement. Plusieurs plages du même secteur peuvent se vivre dans une même journée, ce qui garde de vraies plages de repos et de belles soirées au bord de l'eau.",
+      "overnightStyle": "Nuits typiques : rade méditerranéenne, plage de pinède, station balnéaire, crique varoise plus découpée.",
+      "regionId": "cote-dazur",
+      "itinerarySlug": "le-grand-ete-varois-de-crique-en-crique",
+      "steps": [
+        {
+          "slug": "plage-du-mourillon",
+          "nom": "Plage du Mourillon",
+          "role": "etape"
+        },
+        {
+          "slug": "hyeres",
+          "nom": "Hyères",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-lalmanarre",
+          "nom": "Plage de l'Almanarre",
+          "role": "etape"
+        },
+        {
+          "slug": "porquerolles",
+          "nom": "Porquerolles",
+          "role": "etape"
+        },
+        {
+          "slug": "le-lavandou",
+          "nom": "Le Lavandou",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-saint-clair",
+          "nom": "Plage de Saint Clair",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-cavaliere",
+          "nom": "Plage de Cavalière",
+          "role": "etape"
+        },
+        {
+          "slug": "bormes-les-mimosas",
+          "nom": "Bormes-les-Mimosas",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-pampelonne",
+          "nom": "Plage de Pampelonne",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-lescalet",
+          "nom": "Plage de l'Escalet",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-des-salins",
+          "nom": "Plage des Salins",
+          "role": "etape"
+        },
+        {
+          "slug": "sentier-du-littoral-itineraires---les-issambres",
+          "nom": "Sentier du Littoral Itineraires - Les Issambres",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Alpes d'Azur, villages d'aigle et haute arrière-côte",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours au-dessus de la mer, dans les villages d'aigle",
+      "summary": "Pour un court voyage en van, ce thème permet d'attraper l'une des plus belles singularités de la Côte d'Azur : la verticalité immédiate entre mer et montagne. Gourdon donne une entrée spectaculaire, Saint-Paul-de-Vence apporte un contrepoint plus habité, puis Coaraze et Peillon emmènent déjà vers un autre monde, beaucoup plus minéral et perché. Le rythme est très bon sur trois jours, car les distances restent contenues malgré la sensation de changement total de paysage. C'est un parcours parfait pour ceux qui veulent des vues, des villages suspendus, des routes qui montent et des soirées dans l'arrière-pays, loin du bord de mer sans jamais perdre la lumière azuréenne.",
+      "overnightStyle": "Nuits typiques : village d'aigle, balcon sur la côte, arrière-pays rocheux.",
+      "regionId": "cote-dazur",
+      "itinerarySlug": "3-jours-au-dessus-de-la-mer-dans-les-villages-daigle",
+      "steps": [
+        {
+          "slug": "gourdon",
+          "nom": "Gourdon",
+          "role": "etape"
+        },
+        {
+          "slug": "saint-paul-de-vence",
+          "nom": "Saint-Paul-de-Vence",
+          "role": "etape"
+        },
+        {
+          "slug": "coaraze",
+          "nom": "Coaraze",
+          "role": "etape"
+        },
+        {
+          "slug": "peillon",
+          "nom": "Peillon",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Alpes d'Azur, villages d'aigle et haute arrière-côte",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine de villages suspendus entre mer et Alpes",
+      "summary": "Sur 7 jours, ce thème prend une belle profondeur si l'on suit la logique de l'arrière-pays niçois jusqu'aux vallées plus hautes. Grasse ouvre naturellement le voyage, puis Gourdon et le Plateau de Caussols font glisser vers une Côte d'Azur plus sèche, plus alpine. Saint-Paul-de-Vence, Coaraze et Peillon maintiennent ensuite le fil des villages d'aigle, avant Sainte-Agnès et Saorge qui emmènent l'itinéraire beaucoup plus loin, presque au bord d'une autre montagne. En van, le parcours est cohérent parce qu'il progresse par vallées et belvédères sans revenir au littoral à chaque étape. Plusieurs villages proches peuvent se visiter le même jour, ce qui laisse du temps pour les routes panoramiques et les longues soirées dans les hauteurs.",
+      "overnightStyle": "Nuits typiques : village de parfum, plateau karstique, balcon du pays niçois, vallée alpine sèche.",
+      "regionId": "cote-dazur",
+      "itinerarySlug": "une-semaine-de-villages-suspendus-entre-mer-et-alpes",
+      "steps": [
+        {
+          "slug": "grasse",
+          "nom": "Grasse",
+          "role": "etape"
+        },
+        {
+          "slug": "gourdon",
+          "nom": "Gourdon",
+          "role": "etape"
+        },
+        {
+          "slug": "plateau-de-caussols",
+          "nom": "Plateau de Caussols",
+          "role": "etape"
+        },
+        {
+          "slug": "saint-paul-de-vence",
+          "nom": "Saint-Paul-de-Vence",
+          "role": "etape"
+        },
+        {
+          "slug": "coaraze",
+          "nom": "Coaraze",
+          "role": "etape"
+        },
+        {
+          "slug": "peillon",
+          "nom": "Peillon",
+          "role": "etape"
+        },
+        {
+          "slug": "sainte-agnes",
+          "nom": "Sainte-Agnès",
+          "role": "etape"
+        },
+        {
+          "slug": "saorge",
+          "nom": "Saorge",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Alpes d'Azur, villages d'aigle et haute arrière-côte",
+      "durationHint": "10 jours",
+      "tripTitle": "La grande montée azuréenne jusqu'aux portes des Alpes",
+      "summary": "En 10 jours, ce thème devient l'un des plus beaux contrepoints possibles à la Côte d'Azur balnéaire. Nice et la vallée de la Brague servent de sas, puis Biot, Saint-Paul-de-Vence, Grasse, Gourdon et le Plateau de Caussols déroulent une première moitié très cohérente d'arrière-pays. Ensuite, Coaraze, Peillon, Sainte-Agnès, Saorge, Tende et Roubion ouvrent franchement la dimension alpine du voyage. En van, le parcours reste solide parce qu'il suit une montée progressive de la côte vers les reliefs, sans zigzags inutiles. Certaines petites étapes du pays niçois peuvent se regrouper facilement, ce qui permet de garder du temps pour les balcons, les villages perchés et les routes qui changent constamment d'altitude et de lumière.",
+      "overnightStyle": "Nuits typiques : village de colline, arrière-pays calcaire, vallée alpine, haute route suspendue.",
+      "regionId": "cote-dazur",
+      "itinerarySlug": "la-grande-montee-azureenne-jusquaux-portes-des-alpes",
+      "steps": [
+        {
+          "slug": "nice",
+          "nom": "Nice",
+          "role": "etape"
+        },
+        {
+          "slug": "vallee-de-la-brague",
+          "nom": "Vallée de la Brague",
+          "role": "etape"
+        },
+        {
+          "slug": "biot",
+          "nom": "Biot",
+          "role": "etape"
+        },
+        {
+          "slug": "saint-paul-de-vence",
+          "nom": "Saint-Paul-de-Vence",
+          "role": "etape"
+        },
+        {
+          "slug": "grasse",
+          "nom": "Grasse",
+          "role": "etape"
+        },
+        {
+          "slug": "gourdon",
+          "nom": "Gourdon",
+          "role": "etape"
+        },
+        {
+          "slug": "plateau-de-caussols",
+          "nom": "Plateau de Caussols",
+          "role": "etape"
+        },
+        {
+          "slug": "coaraze",
+          "nom": "Coaraze",
+          "role": "etape"
+        },
+        {
+          "slug": "peillon",
+          "nom": "Peillon",
+          "role": "etape"
+        },
+        {
+          "slug": "sainte-agnes",
+          "nom": "Sainte-Agnès",
+          "role": "etape"
+        },
+        {
+          "slug": "saorge",
+          "nom": "Saorge",
+          "role": "etape"
+        },
+        {
+          "slug": "tende",
+          "nom": "Tende",
+          "role": "etape"
+        },
+        {
+          "slug": "roubion",
+          "nom": "Roubion",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    }
+  ]
 }

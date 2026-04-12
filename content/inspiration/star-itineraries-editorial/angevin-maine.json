@@ -1,3 +1,608 @@
 {
-  "itineraries": []
+  "itineraries": [
+    {
+      "themeTitle": "Loire angevine, villages de tuffeau et douceur ligérienne",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours entre îles de Loire, coteaux blancs et villages suspendus",
+      "summary": "Ce court voyage fonctionne particulièrement bien en van parce qu'il se concentre sur un chapelet de lieux très proches, tous portés par la Loire et la lumière du tuffeau. Bouchemaine pose une belle entrée à la confluence, Savennières et Behuard installent une douceur ligérienne très singulière, puis Blaison-Gohier et Gennes-Val-de-Loire prolongent le fil avec une campagne habitée, des bords de fleuve et des silhouettes plus paisibles. C'est un itinéraire sans tension, parfait pour un week-end prolongé : peu de route, beaucoup de haltes courtes, et une vraie sensation de glisser d'un rivage à l'autre. Plusieurs villages peuvent se découvrir dans la même journée, ce qui laisse de longues soirées dans des paysages ouverts, entre levées, coteaux et petites rues calmes.",
+      "overnightStyle": "Nuits typiques : bord de Loire, petit bourg de pierre claire, campagne fluviale.",
+      "regionId": "angevin-maine",
+      "itinerarySlug": "3-jours-entre-iles-de-loire-coteaux-blancs-et-villages-suspendus",
+      "steps": [
+        {
+          "slug": "bouchemaine",
+          "nom": "Bouchemaine",
+          "role": "etape"
+        },
+        {
+          "slug": "savennieres",
+          "nom": "Savennières",
+          "role": "etape"
+        },
+        {
+          "slug": "behuard",
+          "nom": "Behuard",
+          "role": "etape"
+        },
+        {
+          "slug": "blaison-gohier",
+          "nom": "Blaison-Gohier",
+          "role": "etape"
+        },
+        {
+          "slug": "gennes-val-de-loire",
+          "nom": "Gennes-Val-de-Loire",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Loire angevine, villages de tuffeau et douceur ligérienne",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine sur le fil blanc de la Loire angevine",
+      "summary": "Sur 7 jours, ce thème prend une vraie ampleur en suivant la Loire angevine d'ouest en est, sans forcer le rythme. Angers apporte une entrée plus urbaine et monumentale, puis Bouchemaine, Savennières et Behuard enchaînent des ambiances très ligériennes, entre île, coteaux et lumière de rivière. Plus loin, Blaison-Gohier, Gennes-Val-de-Loire, Cunault et Montsoreau construisent une progression très cohérente vers un Val de Loire plus sculpté, avant Saumur en point d'orgue. En van, le parcours est très confortable car il suit une ligne naturelle et ménage de nombreuses journées légères. Plusieurs villages du même secteur peuvent se regrouper sans difficulté, ce qui permet de garder du temps pour les quais, les caves, les belvédères et les détours à vélo ou à pied le long du fleuve.",
+      "overnightStyle": "Nuits typiques : ville ligérienne, village de coteau, bord de fleuve, petite cité de tuffeau.",
+      "regionId": "angevin-maine",
+      "itinerarySlug": "une-semaine-sur-le-fil-blanc-de-la-loire-angevine",
+      "steps": [
+        {
+          "slug": "angers",
+          "nom": "Angers",
+          "role": "etape"
+        },
+        {
+          "slug": "bouchemaine",
+          "nom": "Bouchemaine",
+          "role": "etape"
+        },
+        {
+          "slug": "savennieres",
+          "nom": "Savennières",
+          "role": "etape"
+        },
+        {
+          "slug": "behuard",
+          "nom": "Behuard",
+          "role": "etape"
+        },
+        {
+          "slug": "blaison-gohier",
+          "nom": "Blaison-Gohier",
+          "role": "etape"
+        },
+        {
+          "slug": "gennes-val-de-loire",
+          "nom": "Gennes-Val-de-Loire",
+          "role": "etape"
+        },
+        {
+          "slug": "cunault",
+          "nom": "Cunault",
+          "role": "etape"
+        },
+        {
+          "slug": "montsoreau",
+          "nom": "Montsoreau",
+          "role": "etape"
+        },
+        {
+          "slug": "saumur",
+          "nom": "Saumur",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Loire angevine, villages de tuffeau et douceur ligérienne",
+      "durationHint": "10 jours",
+      "tripTitle": "Le grand voyage ligérien d'Anjou en 10 jours",
+      "summary": "En 10 jours, ce thème devient un vrai voyage de matière claire, de fleuve ample et de petites étapes raffinées. Angers donne le départ avec sa puissance urbaine, puis toute la Loire angevine déroule ses variations : confluences à Bouchemaine, coteaux à Savennières, île habitée à Behuard, douceur de village à Blaison-Gohier et Gennes-Val-de-Loire, puis grandes silhouettes religieuses et troglodytiques avec Cunault, Montsoreau, Turquant et Fontevraud-l'Abbaye. Saumur vient naturellement articuler la fin de parcours, tandis que Brézé et Le Puy-Notre-Dame permettent d'élargir légèrement vers l'intérieur sans perdre le fil ligérien. En van, l'ensemble est très fluide, avec beaucoup d'étapes proches qui laissent place aux pauses longues et à une vraie vie dehors. C'est un itinéraire de lumière, de pierre et de lenteur, très cohérent du début à la fin.",
+      "overnightStyle": "Nuits typiques : quai de ville, village de Loire, coteau viticole, campagne de tuffeau.",
+      "regionId": "angevin-maine",
+      "itinerarySlug": "le-grand-voyage-ligerien-danjou-en-10-jours",
+      "steps": [
+        {
+          "slug": "angers",
+          "nom": "Angers",
+          "role": "etape"
+        },
+        {
+          "slug": "bouchemaine",
+          "nom": "Bouchemaine",
+          "role": "etape"
+        },
+        {
+          "slug": "savennieres",
+          "nom": "Savennières",
+          "role": "etape"
+        },
+        {
+          "slug": "behuard",
+          "nom": "Behuard",
+          "role": "etape"
+        },
+        {
+          "slug": "blaison-gohier",
+          "nom": "Blaison-Gohier",
+          "role": "etape"
+        },
+        {
+          "slug": "gennes-val-de-loire",
+          "nom": "Gennes-Val-de-Loire",
+          "role": "etape"
+        },
+        {
+          "slug": "cunault",
+          "nom": "Cunault",
+          "role": "etape"
+        },
+        {
+          "slug": "montsoreau",
+          "nom": "Montsoreau",
+          "role": "etape"
+        },
+        {
+          "slug": "turquant",
+          "nom": "Turquant",
+          "role": "etape"
+        },
+        {
+          "slug": "fontevraud-labbaye",
+          "nom": "Fontevraud-l'Abbaye",
+          "role": "etape"
+        },
+        {
+          "slug": "saumur",
+          "nom": "Saumur",
+          "role": "etape"
+        },
+        {
+          "slug": "breze",
+          "nom": "Brézé",
+          "role": "etape"
+        },
+        {
+          "slug": "le-puy-notre-dame",
+          "nom": "Le Puy-Notre-Dame",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Châteaux, abbayes et grandes demeures de l'ouest",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours entre géants de pierre et jardins tranquilles",
+      "summary": "Pour un séjour court, ce parcours offre un très beau condensé d'Anjou monumental sans disperser les étapes. Angers pose une entrée forte, Brissac-Quincé prolonge immédiatement le thème des grandes demeures, puis Brézé et Fontevraud-l'Abbaye donnent une fin de voyage beaucoup plus dramatique, entre château souterrain, pierre blanche et silence monastique. En van, c'est un itinéraire très lisible, qui suit une progression sud-est naturelle et ménage assez de temps pour profiter vraiment des lieux au lieu de simplement les cocher. Les étapes de Brissac-Quincé et Brézé peuvent se regrouper selon le rythme choisi, ce qui laisse de longues soirées dans des paysages de jardins, de vignes et de grandes perspectives. C'est un petit voyage parfait pour qui aime l'architecture autant que la douceur rurale.",
+      "overnightStyle": "Nuits typiques : ville patrimoniale, campagne de château, bourg monastique.",
+      "regionId": "angevin-maine",
+      "itinerarySlug": "3-jours-entre-geants-de-pierre-et-jardins-tranquilles",
+      "steps": [
+        {
+          "slug": "angers",
+          "nom": "Angers",
+          "role": "etape"
+        },
+        {
+          "slug": "brissac-quince",
+          "nom": "Brissac-Quincé",
+          "role": "etape"
+        },
+        {
+          "slug": "breze",
+          "nom": "Brézé",
+          "role": "etape"
+        },
+        {
+          "slug": "fontevraud-labbaye",
+          "nom": "Fontevraud-l'Abbaye",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Châteaux, abbayes et grandes demeures de l'ouest",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine d'abbayes, de châteaux et de silhouettes nobles",
+      "summary": "Sur 7 jours, ce thème permet d'assembler plusieurs visages du patrimoine monumental local sans casser la cohérence géographique. Angers et Brissac-Quincé ouvrent très bien le voyage côté Anjou, puis Saumur, Brézé, Montsoreau et Fontevraud-l'Abbaye donnent un cœur de parcours exceptionnel, où se mêlent château, fleuve, troglodytes et abbaye. Le trajet se prolonge naturellement vers le Maine avec Solesmes, qui apporte une touche plus monastique et plus recueillie. En van, cette semaine est très confortable : les journées restent raisonnables, les paysages changent doucement, et plusieurs étapes du secteur saumurois peuvent se découvrir sur une même journée. C'est un voyage très élégant, parfait pour ceux qui aiment les grands volumes, les villages bien tenus et les transitions lentes entre patrimoine majeur et campagne apaisée.",
+      "overnightStyle": "Nuits typiques : ville d'art, village noble, bord de Loire, vallée monastique.",
+      "regionId": "angevin-maine",
+      "itinerarySlug": "une-semaine-dabbayes-de-chateaux-et-de-silhouettes-nobles",
+      "steps": [
+        {
+          "slug": "angers",
+          "nom": "Angers",
+          "role": "etape"
+        },
+        {
+          "slug": "brissac-quince",
+          "nom": "Brissac-Quincé",
+          "role": "etape"
+        },
+        {
+          "slug": "saumur",
+          "nom": "Saumur",
+          "role": "etape"
+        },
+        {
+          "slug": "breze",
+          "nom": "Brézé",
+          "role": "etape"
+        },
+        {
+          "slug": "montsoreau",
+          "nom": "Montsoreau",
+          "role": "etape"
+        },
+        {
+          "slug": "fontevraud-labbaye",
+          "nom": "Fontevraud-l'Abbaye",
+          "role": "etape"
+        },
+        {
+          "slug": "solesmes",
+          "nom": "Solesmes",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Châteaux, abbayes et grandes demeures de l'ouest",
+      "durationHint": "10 jours",
+      "tripTitle": "La route des pierres puissantes entre Anjou et Maine",
+      "summary": "En 10 jours, on peut dérouler un vrai voyage de grandes demeures, de cités solides et de lieux monastiques, sans impression d'accumulation. Angers sert d'ouverture évidente, puis l'itinéraire glisse vers Brissac-Quincé, Saumur, Brézé, Montsoreau et Fontevraud-l'Abbaye, où l'Anjou monumental atteint une très belle intensité. Ensuite, le parcours élargit le regard avec Solesmes, Sablé-sur-Sarthe, Château de Craon et Sainte-Suzanne, ce qui donne plus de variété en basculant doucement vers le Maine et la Mayenne. En van, cet enchaînement fonctionne bien parce qu'il avance par blocs cohérents plutôt que par sauts dispersés. Certaines étapes saumuroises peuvent se regrouper sur une même journée, ce qui ménage de vrais temps de pose pour les villages, les promenades et les fins de journée dans des sites chargés d'histoire.",
+      "overnightStyle": "Nuits typiques : ville monumentale, village de pierre, vallée monastique, petite cité fortifiée.",
+      "regionId": "angevin-maine",
+      "itinerarySlug": "la-route-des-pierres-puissantes-entre-anjou-et-maine",
+      "steps": [
+        {
+          "slug": "angers",
+          "nom": "Angers",
+          "role": "etape"
+        },
+        {
+          "slug": "brissac-quince",
+          "nom": "Brissac-Quincé",
+          "role": "etape"
+        },
+        {
+          "slug": "saumur",
+          "nom": "Saumur",
+          "role": "etape"
+        },
+        {
+          "slug": "breze",
+          "nom": "Brézé",
+          "role": "etape"
+        },
+        {
+          "slug": "montsoreau",
+          "nom": "Montsoreau",
+          "role": "etape"
+        },
+        {
+          "slug": "fontevraud-labbaye",
+          "nom": "Fontevraud-l'Abbaye",
+          "role": "etape"
+        },
+        {
+          "slug": "solesmes",
+          "nom": "Solesmes",
+          "role": "etape"
+        },
+        {
+          "slug": "sable-sur-sarthe",
+          "nom": "Sablé-sur-Sarthe",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-de-craon",
+          "nom": "Château de Craon",
+          "role": "etape"
+        },
+        {
+          "slug": "sainte-suzanne",
+          "nom": "Sainte-Suzanne",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Rivières, vallées calmes et haltes au bord de l'eau",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours entre Sarthe douce, quais paisibles et villages d'eau",
+      "summary": "Ce petit voyage en van mise sur le calme et les lignes d'eau plutôt que sur l'effet monument. Sablé-sur-Sarthe donne un départ très souple, Solesmes apporte une présence plus spirituelle au bord de la rivière, puis Malicorne-sur-Sarthe et La Flèche composent une suite très harmonieuse de quais, de ponts, de jardins et de paysages ouverts. Le grand intérêt du parcours est son rythme : les distances sont courtes, les ambiances très complémentaires, et l'on peut facilement ralentir pour profiter d'une terrasse, d'une balade ou d'un simple coucher de soleil sur l'eau. C'est l'un des meilleurs formats pour un week-end prolongé si l'on cherche une région paisible, accessible et vraiment adaptée à la vie en van, avec des journées légères et peu d'obligations.",
+      "overnightStyle": "Nuits typiques : quai tranquille, village d'eau, campagne de rivière.",
+      "regionId": "angevin-maine",
+      "itinerarySlug": "3-jours-entre-sarthe-douce-quais-paisibles-et-villages-deau",
+      "steps": [
+        {
+          "slug": "sable-sur-sarthe",
+          "nom": "Sablé-sur-Sarthe",
+          "role": "etape"
+        },
+        {
+          "slug": "solesmes",
+          "nom": "Solesmes",
+          "role": "etape"
+        },
+        {
+          "slug": "malicorne-sur-sarthe",
+          "nom": "Malicorne-sur-Sarthe",
+          "role": "etape"
+        },
+        {
+          "slug": "la-fleche",
+          "nom": "La Flèche",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Rivières, vallées calmes et haltes au bord de l'eau",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine de haltes lentes entre Mayenne, Sarthe et Loire",
+      "summary": "Sur 7 jours, ce thème devient un beau voyage fluide en croisant trois familles de paysages : la Mayenne, la Sarthe et la Loire angevine. Laval et Château-Gontier ouvrent le parcours avec des rivières urbaines très agréables à vivre, puis Sablé-sur-Sarthe, Solesmes et Malicorne-sur-Sarthe installent le cœur du voyage sur un axe particulièrement doux. La Flèche sert ensuite de relais avant de finir vers Bouchemaine, où la confluence donne une respiration plus large et plus ligérienne. En van, ce type d'itinéraire est très confortable : peu de grands détours, des étapes à taille humaine, et beaucoup de lieux où l'on peut juste ralentir. Plusieurs haltes de la Sarthe peuvent se regrouper sur une même journée, ce qui laisse de vraies plages de temps pour le bord de l'eau, les marchés et les petites promenades.",
+      "overnightStyle": "Nuits typiques : quai de petite ville, vallée arborée, confluence tranquille.",
+      "regionId": "angevin-maine",
+      "itinerarySlug": "une-semaine-de-haltes-lentes-entre-mayenne-sarthe-et-loire",
+      "steps": [
+        {
+          "slug": "laval",
+          "nom": "Laval",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-gontier",
+          "nom": "Château-Gontier",
+          "role": "etape"
+        },
+        {
+          "slug": "sable-sur-sarthe",
+          "nom": "Sablé-sur-Sarthe",
+          "role": "etape"
+        },
+        {
+          "slug": "solesmes",
+          "nom": "Solesmes",
+          "role": "etape"
+        },
+        {
+          "slug": "malicorne-sur-sarthe",
+          "nom": "Malicorne-sur-Sarthe",
+          "role": "etape"
+        },
+        {
+          "slug": "la-fleche",
+          "nom": "La Flèche",
+          "role": "etape"
+        },
+        {
+          "slug": "bouchemaine",
+          "nom": "Bouchemaine",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Rivières, vallées calmes et haltes au bord de l'eau",
+      "durationHint": "10 jours",
+      "tripTitle": "Le voyage des eaux lentes entre Maine, Mayenne et Loire",
+      "summary": "En 10 jours, ce thème permet de raconter la région par ses vallées et ses cours d'eau, ce qui lui convient très bien. Mayenne et Ambrières-les-Vallées ouvrent le parcours sur une Mayenne plus verte et plus tranquille, puis Laval et Château-Gontier densifient l'axe fluvial avant la belle séquence Sablé-sur-Sarthe, Solesmes, Malicorne-sur-Sarthe et La Flèche. Ensuite, l'itinéraire glisse vers l'Anjou ligérien avec Bouchemaine, Sainte-Gemmes-sur-Loire et Angers, pour finir sur une note plus ample. En van, c'est un voyage particulièrement reposant : les routes sont naturelles, les haltes nombreuses, et le thème supporte très bien les imprévus ou les journées plus courtes. Plusieurs étapes du même couloir de vallée peuvent se visiter ensemble, ce qui permet de garder des nuits longues dans les villages d'eau ou les petites villes les plus agréables.",
+      "overnightStyle": "Nuits typiques : vallée verte, petite ville fluviale, confluence, bord de Loire paisible.",
+      "regionId": "angevin-maine",
+      "itinerarySlug": "le-voyage-des-eaux-lentes-entre-maine-mayenne-et-loire",
+      "steps": [
+        {
+          "slug": "mayenne",
+          "nom": "Mayenne",
+          "role": "etape"
+        },
+        {
+          "slug": "ambrieres-les-vallees",
+          "nom": "Ambrières-les-Vallées",
+          "role": "etape"
+        },
+        {
+          "slug": "laval",
+          "nom": "Laval",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-gontier",
+          "nom": "Château-Gontier",
+          "role": "etape"
+        },
+        {
+          "slug": "sable-sur-sarthe",
+          "nom": "Sablé-sur-Sarthe",
+          "role": "etape"
+        },
+        {
+          "slug": "solesmes",
+          "nom": "Solesmes",
+          "role": "etape"
+        },
+        {
+          "slug": "malicorne-sur-sarthe",
+          "nom": "Malicorne-sur-Sarthe",
+          "role": "etape"
+        },
+        {
+          "slug": "la-fleche",
+          "nom": "La Flèche",
+          "role": "etape"
+        },
+        {
+          "slug": "bouchemaine",
+          "nom": "Bouchemaine",
+          "role": "etape"
+        },
+        {
+          "slug": "sainte-gemmes-sur-loire",
+          "nom": "Sainte-Gemmes-sur-Loire",
+          "role": "etape"
+        },
+        {
+          "slug": "angers",
+          "nom": "Angers",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Petites cités, jardins cachés et campagne noble",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours dans l'ouest des bourgs rares et des détours élégants",
+      "summary": "Ce format court fonctionne très bien si l'on cherche une campagne raffinée plutôt qu'un itinéraire de grands monuments. Asnières-sur-Vègre lance le voyage avec une vraie délicatesse de bourg ancien, Brûlon prolonge la sensation de petite cité bien tenue, puis Fresnay-sur-Sarthe et Sainte-Suzanne offrent un final plus spectaculaire, entre relief, maisons anciennes et vues plus dégagées. En van, c'est un excellent parcours parce qu'il évite les grands axes et privilégie les routes secondaires, les haltes calmes et les découvertes qui tiennent dans l'échelle d'une journée. Les étapes peuvent se resserrer ou s'allonger selon l'envie, mais l'ensemble garde toujours une belle cohérence : celle d'une France discrète, habitée, élégante sans effet de manche.",
+      "overnightStyle": "Nuits typiques : bourg ancien, campagne vallonnée, petite cité perchée.",
+      "regionId": "angevin-maine",
+      "itinerarySlug": "3-jours-dans-louest-des-bourgs-rares-et-des-detours-elegants",
+      "steps": [
+        {
+          "slug": "asnieres-sur-vegre",
+          "nom": "Asnières-sur-Vègre",
+          "role": "etape"
+        },
+        {
+          "slug": "brulon",
+          "nom": "Brûlon",
+          "role": "etape"
+        },
+        {
+          "slug": "fresnay-sur-sarthe",
+          "nom": "Fresnay-sur-Sarthe",
+          "role": "etape"
+        },
+        {
+          "slug": "sainte-suzanne",
+          "nom": "Sainte-Suzanne",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Petites cités, jardins cachés et campagne noble",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine de bourgs choisis entre Anjou et Maine",
+      "summary": "Sur 7 jours, ce thème prend toute sa valeur en reliant plusieurs petites cités qui n'ont pas besoin d'être célèbres pour être mémorables. Bessé-sur-Braye et Château-du-Loir ouvrent le parcours dans une ambiance de campagne historique, puis Asnières-sur-Vègre, Brûlon et Fresnay-sur-Sarthe dessinent une séquence très fine de bourgs et de vallées. Plus au nord, Sainte-Suzanne apporte une silhouette plus forte, avant un final à Lassay-les-Châteaux, très cohérent pour donner au voyage une belle sortie mayennaise. En van, cette semaine est particulièrement agréable parce qu'elle suit des routes secondaires, ménage des journées légères et donne le sentiment de découvrir une région à hauteur de clocher, de marché et de place tranquille. Plusieurs étapes proches du même secteur peuvent parfaitement se combiner au fil du voyage.",
+      "overnightStyle": "Nuits typiques : petit bourg de vallée, cité de caractère, campagne noble et calme.",
+      "regionId": "angevin-maine",
+      "itinerarySlug": "une-semaine-de-bourgs-choisis-entre-anjou-et-maine",
+      "steps": [
+        {
+          "slug": "besse-sur-braye",
+          "nom": "Bessé-sur-Braye",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-du-loir",
+          "nom": "Château-du-Loir",
+          "role": "etape"
+        },
+        {
+          "slug": "asnieres-sur-vegre",
+          "nom": "Asnières-sur-Vègre",
+          "role": "etape"
+        },
+        {
+          "slug": "brulon",
+          "nom": "Brûlon",
+          "role": "etape"
+        },
+        {
+          "slug": "fresnay-sur-sarthe",
+          "nom": "Fresnay-sur-Sarthe",
+          "role": "etape"
+        },
+        {
+          "slug": "sainte-suzanne",
+          "nom": "Sainte-Suzanne",
+          "role": "etape"
+        },
+        {
+          "slug": "lassay-les-chateaux",
+          "nom": "Lassay-les-Châteaux",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Petites cités, jardins cachés et campagne noble",
+      "durationHint": "10 jours",
+      "tripTitle": "La diagonale secrète des petites cités de l'Anjou-Maine",
+      "summary": "En 10 jours, ce thème devient un très beau voyage de détail, de villages choisis et de haltes que l'on n'aurait pas forcément cochées sur une première carte. Le Mans donne un départ plus ample, puis Mayet, Marçon, Château-du-Loir et Bessé-sur-Braye construisent une entrée très douce par la campagne sarthoise. Ensuite, Asnières-sur-Vègre, Brûlon et Fresnay-sur-Sarthe approfondissent ce fil des petites cités, avant Sainte-Suzanne, Lassay-les-Châteaux et Mayenne, qui offrent une fin de voyage plus mayennaise, plus verte, mais toujours très cohérente. En van, c'est un itinéraire parfait pour qui aime rouler sans pression, dormir dans des lieux calmes et collectionner non pas les grands sites, mais les ambiances justes. Plusieurs étapes proches peuvent se regrouper facilement, ce qui ménage de belles respirations.",
+      "overnightStyle": "Nuits typiques : petite ville de passage, bourg choisi, vallée calme, cité de caractère.",
+      "regionId": "angevin-maine",
+      "itinerarySlug": "la-diagonale-secrete-des-petites-cites-de-lanjou-maine",
+      "steps": [
+        {
+          "slug": "le-mans",
+          "nom": "Le Mans",
+          "role": "etape"
+        },
+        {
+          "slug": "mayet",
+          "nom": "Mayet",
+          "role": "etape"
+        },
+        {
+          "slug": "marcon",
+          "nom": "Marçon",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-du-loir",
+          "nom": "Château-du-Loir",
+          "role": "etape"
+        },
+        {
+          "slug": "besse-sur-braye",
+          "nom": "Bessé-sur-Braye",
+          "role": "etape"
+        },
+        {
+          "slug": "asnieres-sur-vegre",
+          "nom": "Asnières-sur-Vègre",
+          "role": "etape"
+        },
+        {
+          "slug": "brulon",
+          "nom": "Brûlon",
+          "role": "etape"
+        },
+        {
+          "slug": "fresnay-sur-sarthe",
+          "nom": "Fresnay-sur-Sarthe",
+          "role": "etape"
+        },
+        {
+          "slug": "sainte-suzanne",
+          "nom": "Sainte-Suzanne",
+          "role": "etape"
+        },
+        {
+          "slug": "lassay-les-chateaux",
+          "nom": "Lassay-les-Châteaux",
+          "role": "etape"
+        },
+        {
+          "slug": "mayenne",
+          "nom": "Mayenne",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    }
+  ]
 }

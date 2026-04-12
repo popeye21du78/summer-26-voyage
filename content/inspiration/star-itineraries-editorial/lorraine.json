@@ -1,3 +1,403 @@
 {
-  "itineraries": []
-}
+  "itineraries": [
+  {
+  "themeTitle": "Vosges, crêtes et grands paysages",
+  "durationHint": "3 jours",
+  "tripTitle": "Autour de Gérardmer, le cœur des Vosges",
+  "summary": "Pour une première immersion dans les Vosges, cet itinéraire resserré autour de Gérardmer fonctionne parfaitement. On démarre par la station et son lac, puis on prend de la hauteur avec La Bresse et les Crêtes du Montfort. Le parcours est court mais intense, alternant forêts profondes, panoramas ouverts et routes sinueuses typiques du massif. En van, c’est un séjour idéal : les distances sont faibles, les spots pour se poser sont nombreux, et l’ambiance change rapidement entre lac, sommet et vallée. En trois jours, on capte toute l’essence vosgienne, entre nature accessible et relief doux mais spectaculaire.",
+  "overnightStyle": "Nuits typiques : bord de lac, col vosgien, clairière forestière.",
+  "regionId": "lorraine",
+  "itinerarySlug": "vosges-cretes-gerardmer-3j",
+  "steps": [
+  {
+  "slug": "gerardmer",
+  "nom": "Gerardmer",
+  "role": "etape"
+  },
+  {
+  "slug": "la-bresse",
+  "nom": "La Bresse",
+  "role": "etape"
+  },
+  {
+  "slug": "les-cretes-du-montfort",
+  "nom": "Les Crêtes du Montfort",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Route des Crêtes",
+  "raison": "Donnerait un fil conducteur encore plus clair entre Gérardmer et les panoramas vosgiens.",
+  "type": "route"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Vosges, crêtes et grands paysages",
+  "durationHint": "7 jours",
+  "tripTitle": "Traversée des Vosges, du sud thermal aux crêtes",
+  "summary": "Sur une semaine, les Vosges se découvrent idéalement du sud vers le nord. On commence par Vittel et Plombières-les-Bains pour une entrée douce et thermale, avant de monter vers Remiremont, Gérardmer et La Bresse. La seconde moitié du parcours s’étire vers Saint-Dié-des-Vosges et Senones, avec une ambiance plus forestière et plus calme. L’ensemble est très cohérent en van : les routes sont belles, les distances raisonnables, et les étapes s’enchaînent naturellement. On alterne villages, stations et grands paysages sans jamais casser le rythme. C’est un road trip très équilibré, parfait pour profiter des Vosges sans précipitation.",
+  "overnightStyle": "Nuits typiques : station thermale, vallée boisée, bord de lac, village vosgien.",
+  "regionId": "lorraine",
+  "itinerarySlug": "vosges-cretes-gerardmer-7j",
+  "steps": [
+  {
+  "slug": "vittel",
+  "nom": "Vittel",
+  "role": "etape"
+  },
+  {
+  "slug": "plombieres-les-bains",
+  "nom": "Plombières-les-Bains",
+  "role": "etape"
+  },
+  {
+  "slug": "remiremont",
+  "nom": "Remiremont",
+  "role": "etape"
+  },
+  {
+  "slug": "gerardmer",
+  "nom": "Gerardmer",
+  "role": "etape"
+  },
+  {
+  "slug": "la-bresse",
+  "nom": "La Bresse",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-die-des-vosges",
+  "nom": "Saint-Dié-des-Vosges",
+  "role": "etape"
+  },
+  {
+  "slug": "senones",
+  "nom": "Senones",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": []
+  },
+  {
+  "themeTitle": "Vosges, crêtes et grands paysages",
+  "durationHint": "10 jours",
+  "tripTitle": "Le grand tour des Vosges, des lacs aux vallées secrètes",
+  "summary": "Cet itinéraire long permet de parcourir les Vosges dans toute leur diversité. On part du sud avec Vittel et Plombières, puis l’on remonte progressivement vers Épinal, Gérardmer et les crêtes. Ensuite, le voyage se prolonge vers La Bresse, Le Thillot et Bussang, avant de basculer vers Saint-Dié et Senones. La progression est fluide et logique, sans détours inutiles, avec un vrai sentiment de traversée du massif. En van, c’est un parcours particulièrement agréable : les routes sont variées, les paysages changent sans cesse et les possibilités de halte sont nombreuses. C’est l’itinéraire le plus complet pour découvrir les Vosges en profondeur.",
+  "overnightStyle": "Nuits typiques : vallée forestière, bord de lac, col panoramique, village de montagne.",
+  "regionId": "lorraine",
+  "itinerarySlug": "vosges-cretes-gerardmer-10j",
+  "steps": [
+  {
+  "slug": "vittel",
+  "nom": "Vittel",
+  "role": "etape"
+  },
+  {
+  "slug": "plombieres-les-bains",
+  "nom": "Plombières-les-Bains",
+  "role": "etape"
+  },
+  {
+  "slug": "epinal",
+  "nom": "Epinal",
+  "role": "etape"
+  },
+  {
+  "slug": "gerardmer",
+  "nom": "Gerardmer",
+  "role": "etape"
+  },
+  {
+  "slug": "la-bresse",
+  "nom": "La Bresse",
+  "role": "etape"
+  },
+  {
+  "slug": "le-thillot",
+  "nom": "Le Thillot",
+  "role": "etape"
+  },
+  {
+  "slug": "bussang",
+  "nom": "Bussang",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-die-des-vosges",
+  "nom": "Saint-Dié-des-Vosges",
+  "role": "etape"
+  },
+  {
+  "slug": "senones",
+  "nom": "Senones",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": []
+  },
+  {
+  "themeTitle": "Mémoire, Meuse et grandes plaines",
+  "durationHint": "3 jours",
+  "tripTitle": "Verdun et les paysages de mémoire",
+  "summary": "Cet itinéraire court se concentre sur un territoire chargé d’histoire, autour de Verdun. On découvre d’abord la ville, puis on explore ses alentours avec Charny-sur-Meuse et Saint-Mihiel. Le parcours reste volontairement compact pour laisser le temps de comprendre les lieux et leur atmosphère. En van, ce type de séjour fonctionne bien : peu de déplacements, beaucoup de pauses, et une immersion forte dans les paysages de mémoire. C’est un itinéraire sobre mais puissant, où l’émotion et la lecture historique priment sur la diversité des étapes.",
+  "overnightStyle": "Nuits typiques : petite ville de Meuse, vallée calme, village de mémoire.",
+  "regionId": "lorraine",
+  "itinerarySlug": "meuse-memoire-verdun-3j",
+  "steps": [
+  {
+  "slug": "verdun",
+  "nom": "Verdun",
+  "role": "etape"
+  },
+  {
+  "slug": "charny-sur-meuse",
+  "nom": "Charny-sur-Meuse",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-mihiel",
+  "nom": "Saint-Mihiel",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Champ de bataille de Verdun",
+  "raison": "Permettrait d’incarner encore davantage le thème central de mémoire.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Mémoire, Meuse et grandes plaines",
+  "durationHint": "7 jours",
+  "tripTitle": "De Verdun aux confins de la Meuse",
+  "summary": "Sur une semaine, cet itinéraire élargit la découverte de la Meuse au-delà de Verdun. On part de Bar-le-Duc, puis on rejoint Saint-Mihiel et Verdun, avant de remonter vers Étain et Stenay. Le parcours se termine vers Montmédy, avec ses fortifications impressionnantes. Ce voyage fonctionne très bien en van car il suit un axe nord-sud naturel, sans détours inutiles. Il offre une belle alternance entre patrimoine, paysages ouverts et lieux de mémoire. C’est un itinéraire cohérent et profond, qui donne une lecture complète de ce territoire discret mais riche.",
+  "overnightStyle": "Nuits typiques : petite ville historique, vallée de la Meuse, village fortifié.",
+  "regionId": "lorraine",
+  "itinerarySlug": "meuse-memoire-verdun-7j",
+  "steps": [
+  {
+  "slug": "bar-le-duc",
+  "nom": "Bar-le-Duc",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-mihiel",
+  "nom": "Saint-Mihiel",
+  "role": "etape"
+  },
+  {
+  "slug": "verdun",
+  "nom": "Verdun",
+  "role": "etape"
+  },
+  {
+  "slug": "etain",
+  "nom": "Étain",
+  "role": "etape"
+  },
+  {
+  "slug": "stenay",
+  "nom": "Stenay",
+  "role": "etape"
+  },
+  {
+  "slug": "montmedy",
+  "nom": "Montmédy",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": []
+  },
+  {
+  "themeTitle": "Mémoire, Meuse et grandes plaines",
+  "durationHint": "10 jours",
+  "tripTitle": "Grande traversée de la Meuse, histoire et paysages",
+  "summary": "Cet itinéraire long suit la Meuse du sud au nord en construisant une véritable traversée régionale. On part de Vaucouleurs et Bar-le-Duc, puis on rejoint Saint-Mihiel et Verdun. Ensuite, le parcours s’étire vers Étain, Stenay et Montmédy, avec une montée progressive vers des paysages plus ouverts. L’intérêt de cet itinéraire réside dans sa continuité géographique : on suit un fil logique sans dispersion. En van, c’est un voyage fluide, facile à organiser et très lisible. Il offre une vision complète d’un territoire souvent méconnu, mais riche en histoire et en atmosphères.",
+  "overnightStyle": "Nuits typiques : vallée de rivière, petite ville de Meuse, bastion fortifié.",
+  "regionId": "lorraine",
+  "itinerarySlug": "meuse-memoire-verdun-10j",
+  "steps": [
+  {
+  "slug": "vaucouleurs",
+  "nom": "Vaucouleurs",
+  "role": "etape"
+  },
+  {
+  "slug": "bar-le-duc",
+  "nom": "Bar-le-Duc",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-mihiel",
+  "nom": "Saint-Mihiel",
+  "role": "etape"
+  },
+  {
+  "slug": "verdun",
+  "nom": "Verdun",
+  "role": "etape"
+  },
+  {
+  "slug": "etain",
+  "nom": "Étain",
+  "role": "etape"
+  },
+  {
+  "slug": "stenay",
+  "nom": "Stenay",
+  "role": "etape"
+  },
+  {
+  "slug": "montmedy",
+  "nom": "Montmédy",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": []
+  },
+  {
+  "themeTitle": "Nancy, Metz et la Lorraine élégante",
+  "durationHint": "3 jours",
+  "tripTitle": "Nancy et ses environs, l’élégance lorraine",
+  "summary": "Pour un séjour court et urbain, Nancy est une porte d’entrée idéale. L’itinéraire s’articule autour de la ville, prolongé par Lunéville et le Château de Fléville. Le parcours reste compact mais cohérent, avec une belle complémentarité entre ville d’art, résidence ducale et patrimoine aristocratique. En van, ce type de séjour demande de bien organiser ses stationnements, mais reste très agréable à vivre. C’est un itinéraire élégant, accessible et riche culturellement, parfait pour un week-end prolongé.",
+  "overnightStyle": "Nuits typiques : périphérie urbaine, parc de château, petite ville historique.",
+  "regionId": "lorraine",
+  "itinerarySlug": "nancy-metz-elegance-3j",
+  "steps": [
+  {
+  "slug": "nancy",
+  "nom": "Nancy",
+  "role": "etape"
+  },
+  {
+  "slug": "luneville",
+  "nom": "Lunéville",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-fleville",
+  "nom": "Château de Fléville",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": []
+  },
+  {
+  "themeTitle": "Nancy, Metz et la Lorraine élégante",
+  "durationHint": "7 jours",
+  "tripTitle": "De Nancy à Metz, la Lorraine des villes et des rivières",
+  "summary": "Sur une semaine, cet itinéraire relie les deux grandes villes de Lorraine en construisant un parcours fluide. On part de Nancy, puis on passe par Saint-Nicolas-de-Port, Toul et Pont-à-Mousson avant d’arriver à Metz. Le parcours reste très cohérent géographiquement, en suivant la vallée de la Moselle. En van, il est particulièrement agréable : peu de longs trajets, des étapes variées et une alternance réussie entre villes et paysages fluviaux. C’est un itinéraire accessible, structuré et très représentatif de la Lorraine centrale.",
+  "overnightStyle": "Nuits typiques : ville élégante, bord de rivière, petite cité lorraine.",
+  "regionId": "lorraine",
+  "itinerarySlug": "nancy-metz-elegance-7j",
+  "steps": [
+  {
+  "slug": "nancy",
+  "nom": "Nancy",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-nicolas-de-port",
+  "nom": "Saint-Nicolas-de-Port",
+  "role": "etape"
+  },
+  {
+  "slug": "toul",
+  "nom": "Toul",
+  "role": "etape"
+  },
+  {
+  "slug": "pont-a-mousson",
+  "nom": "Pont-à-Mousson",
+  "role": "etape"
+  },
+  {
+  "slug": "metz",
+  "nom": "Metz",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Moselle",
+  "raison": "Nommer la rivière renforcerait la logique du parcours.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Nancy, Metz et la Lorraine élégante",
+  "durationHint": "10 jours",
+  "tripTitle": "Grande boucle lorraine, des villes aux frontières",
+  "summary": "Cet itinéraire long relie les grandes villes et les marges de la Lorraine. On part de Nancy, puis on rejoint Metz avant de monter vers Thionville, Rodemack et Longwy. Le retour s’effectue par Briey et Pont-à-Mousson. L’ensemble forme une boucle cohérente, sans zigzag, qui permet de découvrir la diversité du nord lorrain. En van, le parcours reste confortable avec des distances raisonnables et des étapes bien espacées. C’est un itinéraire équilibré entre patrimoine urbain et territoires plus discrets.",
+  "overnightStyle": "Nuits typiques : ville historique, village fortifié, petite cité industrielle.",
+  "regionId": "lorraine",
+  "itinerarySlug": "nancy-metz-elegance-10j",
+  "steps": [
+  {
+  "slug": "nancy",
+  "nom": "Nancy",
+  "role": "etape"
+  },
+  {
+  "slug": "metz",
+  "nom": "Metz",
+  "role": "etape"
+  },
+  {
+  "slug": "rodemack",
+  "nom": "Rodemack",
+  "role": "etape"
+  },
+  {
+  "slug": "longwy",
+  "nom": "Longwy",
+  "role": "etape"
+  },
+  {
+  "slug": "briey",
+  "nom": "Briey",
+  "role": "etape"
+  },
+  {
+  "slug": "pont-a-mousson",
+  "nom": "Pont-à-Mousson",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": []
+  },
+  {
+  "themeTitle": "Moselle, châteaux et frontières",
+  "durationHint": "3 jours",
+  "tripTitle": "Entre Malbrouck et Rodemack, la Lorraine fortifiée",
+  "summary": "Ce court itinéraire se concentre sur une Lorraine de frontière, marquée par les fortifications et les paysages ouverts. Le Château de Malbrouck ouvre le parcours, suivi de Rodemack et Longwy. L’ensemble est compact mais très cohérent, avec une forte identité visuelle. En van, le séjour est simple et agréable, avec peu de kilomètres et des étapes bien différenciées. C’est un itinéraire court mais marquant, parfait pour découvrir une Lorraine moins connue.",
+  "overnightStyle": "Nuits typiques : village fortifié, plateau ouvert, petite ville de frontière.",
+  "regionId": "lorraine",
+  "itinerarySlug": "moselle-frontieres-chateaux-3j",
+  "steps": [
+  {
+  "slug": "chateau-de-malbrouck",
+  "nom": "Château de Malbrouck",
+  "role": "etape"
+  },
+  {
+  "slug": "rodemack",
+  "nom": "Rodemack",
+  "role": "etape"
+  },
+  {
+  "slug": "longwy",
+  "nom": "Longwy",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": []
+  }
+  ]
+  }
+  

@@ -1,3 +1,610 @@
 {
-  "itineraries": []
+  "itineraries": [
+    {
+      "themeTitle": "Coteaux de Champagne, caves et villages de vignerons",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours sur la ligne d'or des bulles",
+      "summary": "Pour un format court en Champagne, le meilleur choix reste de se concentrer sur le cœur viticole : Reims donne l'élan monumental, Verzy apporte un premier détour de coteau, puis Hautvillers, Épernay et Aÿ-Champagne déroulent la Champagne la plus iconique sans forcer les kilomètres. Le rythme est particulièrement bon parce qu'on reste dans un même bassin de paysage, entre vignes, villages et grandes maisons. Plusieurs étapes peuvent se regrouper dans la même journée, ce qui laisse du temps pour marcher entre les rangs, profiter des vues sur la vallée de la Marne et vivre le soir dans des bourgs ou petites villes très habités.",
+      "overnightStyle": "Nuits typiques : ville de champagne, village de coteau, petite ville de cave et de promenade.",
+      "regionId": "champagne",
+      "itinerarySlug": "3-jours-sur-la-ligne-dor-des-bulles",
+      "steps": [
+        {
+          "slug": "reims",
+          "nom": "Reims",
+          "role": "etape"
+        },
+        {
+          "slug": "verzy",
+          "nom": "Verzy",
+          "role": "etape"
+        },
+        {
+          "slug": "hautvillers",
+          "nom": "Hautvillers",
+          "role": "etape"
+        },
+        {
+          "slug": "epernay",
+          "nom": "Épernay",
+          "role": "etape"
+        },
+        {
+          "slug": "ay-champagne",
+          "nom": "Aÿ-Champagne",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Coteaux de Champagne, caves et villages de vignerons",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine entre craie, caves et vallées de vigne",
+      "summary": "Sur 7 jours, ce thème devient un vrai voyage de paysage, pas seulement un parcours d'adresses. Reims ouvre naturellement l'itinéraire, puis Verzy et Dormans permettent de prendre la mesure des coteaux et de la vallée. Hautvillers, Épernay et Aÿ-Champagne forment ensuite le cœur évident du voyage, avant une bascule vers Vertus et Sézanne, qui donnent une Champagne plus douce, plus discrète, mais très cohérente. En van, c'est un itinéraire particulièrement agréable parce qu'il suit un axe naturel entre Montagne de Reims, vallée de la Marne et Côte des Blancs, avec peu de détours inutiles. Certaines étapes proches peuvent se visiter dans la même journée, ce qui laisse de longues soirées dans les vignes et évite l'effet catalogue.",
+      "overnightStyle": "Nuits typiques : coteaux, village de vignerons, petite ville élégante, campagne de craie.",
+      "regionId": "champagne",
+      "itinerarySlug": "une-semaine-entre-craie-caves-et-vallees-de-vigne",
+      "steps": [
+        {
+          "slug": "reims",
+          "nom": "Reims",
+          "role": "etape"
+        },
+        {
+          "slug": "verzy",
+          "nom": "Verzy",
+          "role": "etape"
+        },
+        {
+          "slug": "dormans",
+          "nom": "Dormans",
+          "role": "etape"
+        },
+        {
+          "slug": "hautvillers",
+          "nom": "Hautvillers",
+          "role": "etape"
+        },
+        {
+          "slug": "epernay",
+          "nom": "Épernay",
+          "role": "etape"
+        },
+        {
+          "slug": "ay-champagne",
+          "nom": "Aÿ-Champagne",
+          "role": "etape"
+        },
+        {
+          "slug": "vertus",
+          "nom": "Vertus",
+          "role": "etape"
+        },
+        {
+          "slug": "sezanne",
+          "nom": "Sézanne",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Coteaux de Champagne, caves et villages de vignerons",
+      "durationHint": "10 jours",
+      "tripTitle": "Le grand voyage des coteaux champenois",
+      "summary": "En 10 jours, on peut construire un vrai voyage de Champagne, ample et varié, sans jamais casser la cohérence du thème. Reims donne la puissance urbaine, puis Verzy et Châlons-en-Champagne ouvrent une première séquence plus aérée. Ensuite viennent Condé-sur-Marne, Aÿ-Champagne, Hautvillers et Épernay, qui composent le noyau viticole le plus évident. Plus au sud, Villers-sous-Châtillon, Montmort-Lucy, Vertus et Sézanne ajoutent une Champagne plus vallonnée, plus tranquille, avant une sortie vers Bar-sur-Seine et Les Riceys pour une variation méridionale très pertinente. En van, l'itinéraire tient bien parce qu'il suit les grands bassins de vigne sans zigzag excessif. Plusieurs villages du même secteur peuvent se regrouper, ce qui laisse du temps pour la route des coteaux et les fins de journée dans les bourgs viticoles.",
+      "overnightStyle": "Nuits typiques : ville de caves, village viticole, coteaux méridionaux, campagne élégante.",
+      "regionId": "champagne",
+      "itinerarySlug": "le-grand-voyage-des-coteaux-champenois",
+      "steps": [
+        {
+          "slug": "reims",
+          "nom": "Reims",
+          "role": "etape"
+        },
+        {
+          "slug": "verzy",
+          "nom": "Verzy",
+          "role": "etape"
+        },
+        {
+          "slug": "chalons-en-champagne",
+          "nom": "Châlons-en-Champagne",
+          "role": "etape"
+        },
+        {
+          "slug": "conde-sur-marne",
+          "nom": "Condé-sur-Marne",
+          "role": "etape"
+        },
+        {
+          "slug": "ay-champagne",
+          "nom": "Aÿ-Champagne",
+          "role": "etape"
+        },
+        {
+          "slug": "hautvillers",
+          "nom": "Hautvillers",
+          "role": "etape"
+        },
+        {
+          "slug": "epernay",
+          "nom": "Épernay",
+          "role": "etape"
+        },
+        {
+          "slug": "villers-sous-chatillon",
+          "nom": "Villers-sous-Châtillon",
+          "role": "etape"
+        },
+        {
+          "slug": "montmort-lucy",
+          "nom": "Montmort-Lucy",
+          "role": "etape"
+        },
+        {
+          "slug": "vertus",
+          "nom": "Vertus",
+          "role": "etape"
+        },
+        {
+          "slug": "sezanne",
+          "nom": "Sézanne",
+          "role": "etape"
+        },
+        {
+          "slug": "bar-sur-seine",
+          "nom": "Bar-sur-Seine",
+          "role": "etape"
+        },
+        {
+          "slug": "les-riceys",
+          "nom": "Les Riceys",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Lacs, forêts et Champagne d'été",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours entre grands lacs et pins de Champagne",
+      "summary": "Pour un séjour court en van, cette Champagne-là est une excellente surprise : plus fraîche, plus boisée, plus balnéaire qu'on ne l'imagine. Troyes donne une entrée élégante, puis Piney et la Plage de Mesnil-Saint-Père installent tout de suite un rythme de lacs, de forêts et de longues lumières. Le parcours peut se prolonger vers Brienne-le-Château pour donner plus de relief historique, ou rester très centré sur l'eau si l'on veut ralentir. L'intérêt de ce thème est sa simplicité : peu de route, beaucoup d'espace, et une vraie sensation de respirer autrement la région. C'est un itinéraire idéal pour les voyageurs en van qui aiment alterner baignade, pinède, petites routes tranquilles et soirées calmes près de l'eau.",
+      "overnightStyle": "Nuits typiques : bord de lac, pinède, petite ville calme du sud champenois.",
+      "regionId": "champagne",
+      "itinerarySlug": "3-jours-entre-grands-lacs-et-pins-de-champagne",
+      "steps": [
+        {
+          "slug": "troyes",
+          "nom": "Troyes",
+          "role": "etape"
+        },
+        {
+          "slug": "piney",
+          "nom": "Piney",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-mesnil-saint-pere",
+          "nom": "Plage de Mesnil-Saint-Père",
+          "role": "etape"
+        },
+        {
+          "slug": "brienne-le-chateau",
+          "nom": "Brienne-le-Château",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Lacs, forêts et Champagne d'été",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine d'eau douce entre Orient et Der",
+      "summary": "Sur 7 jours, ce thème devient un vrai voyage d'été, très adapté au van, en reliant les grands plans d'eau du sud champenois. Troyes ouvre le parcours avec une belle densité urbaine, puis Piney et la Plage de Mesnil-Saint-Père installent la séquence des lacs de la forêt d'Orient. Ensuite, Brienne-le-Château et Bar-sur-Aube assurent la transition vers l'est, avant Soulaines-Dhuys, Sainte-Marie-du-Lac-Nuisement et la Plage du Lac du Der, qui donnent une seconde moitié plus ample, plus aérienne, presque migratoire. Le rythme fonctionne très bien parce qu'il suit une logique ouest-est sans détours inutiles. Plusieurs haltes autour des lacs peuvent se vivre sur une même journée, ce qui laisse du temps pour l'eau, les promenades et les réveils dans une Champagne très ouverte.",
+      "overnightStyle": "Nuits typiques : ville à pans de bois, bord de lac, campagne de clairière, grand horizon d'eau.",
+      "regionId": "champagne",
+      "itinerarySlug": "une-semaine-deau-douce-entre-orient-et-der",
+      "steps": [
+        {
+          "slug": "troyes",
+          "nom": "Troyes",
+          "role": "etape"
+        },
+        {
+          "slug": "piney",
+          "nom": "Piney",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-mesnil-saint-pere",
+          "nom": "Plage de Mesnil-Saint-Père",
+          "role": "etape"
+        },
+        {
+          "slug": "brienne-le-chateau",
+          "nom": "Brienne-le-Château",
+          "role": "etape"
+        },
+        {
+          "slug": "bar-sur-aube",
+          "nom": "Bar-sur-Aube",
+          "role": "etape"
+        },
+        {
+          "slug": "soulaines-dhuys",
+          "nom": "Soulaines-Dhuys",
+          "role": "etape"
+        },
+        {
+          "slug": "sainte-marie-du-lac-nuisement",
+          "nom": "Sainte-Marie-du-Lac-Nuisement",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-du-lac-du-der",
+          "nom": "Plage du Lac du Der",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Lacs, forêts et Champagne d'été",
+      "durationHint": "10 jours",
+      "tripTitle": "Le grand été des eaux calmes de Champagne",
+      "summary": "En 10 jours, on peut composer un vrai voyage de lacs, de forêts et de petites villes, qui donne un visage beaucoup plus inattendu de la Champagne. Troyes et Piney posent d'abord le décor des grands lacs de l'Aube, puis la Plage de Mesnil-Saint-Père, Bar-sur-Seine et Les Riceys font varier les ambiances entre baignade, vallée et coteaux. Ensuite, Brienne-le-Château, Soulaines-Dhuys et Sainte-Marie-du-Lac-Nuisement ouvrent le chemin vers le Der, avant le grand final à la Plage du Lac du Der puis Châlons-en-Champagne pour refermer le parcours sur une ville d'eau. En van, ce trajet est très crédible car il progresse en douceur entre bassins forestiers et campagnes ouvertes. Plusieurs étapes de lac peuvent se combiner sans nuire au rythme, ce qui laisse de vrais temps de pause dans la nature.",
+      "overnightStyle": "Nuits typiques : bord de lac, village de vallée, clairière, petite ville traversée par l'eau.",
+      "regionId": "champagne",
+      "itinerarySlug": "le-grand-ete-des-eaux-calmes-de-champagne",
+      "steps": [
+        {
+          "slug": "troyes",
+          "nom": "Troyes",
+          "role": "etape"
+        },
+        {
+          "slug": "piney",
+          "nom": "Piney",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-mesnil-saint-pere",
+          "nom": "Plage de Mesnil-Saint-Père",
+          "role": "etape"
+        },
+        {
+          "slug": "bar-sur-seine",
+          "nom": "Bar-sur-Seine",
+          "role": "etape"
+        },
+        {
+          "slug": "les-riceys",
+          "nom": "Les Riceys",
+          "role": "etape"
+        },
+        {
+          "slug": "brienne-le-chateau",
+          "nom": "Brienne-le-Château",
+          "role": "etape"
+        },
+        {
+          "slug": "soulaines-dhuys",
+          "nom": "Soulaines-Dhuys",
+          "role": "etape"
+        },
+        {
+          "slug": "sainte-marie-du-lac-nuisement",
+          "nom": "Sainte-Marie-du-Lac-Nuisement",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-du-lac-du-der",
+          "nom": "Plage du Lac du Der",
+          "role": "etape"
+        },
+        {
+          "slug": "chalons-en-champagne",
+          "nom": "Châlons-en-Champagne",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Ardennes de légende, vallées et forteresses",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours dans la Champagne la plus sauvage",
+      "summary": "Oui, je réfléchis vraiment au rythme et au caractère de la région : ici, l'idée est de ne pas singer la Champagne des caves, mais de faire exister sa moitié ardennaise. Charleville-Mézières donne une entrée urbaine nerveuse, puis Monthermé et Laifour plongent tout de suite dans la vallée de la Meuse, avant Bogny-sur-Meuse et Revin pour un final plus boisé, plus resserré, presque dramatique. En van, ce parcours est très bon parce qu'il suit naturellement la rivière et évite de grandes traversées inutiles. C'est un séjour parfait pour ceux qui aiment les vallées encaissées, les forêts, les virages de rivière et les petites villes à l'écart du récit touristique principal. Plusieurs arrêts se regroupent facilement dans la même journée, ce qui laisse du temps pour les points de vue et les routes de corniche.",
+      "overnightStyle": "Nuits typiques : ville de vallée, boucle de Meuse, lisière forestière, bourg encaissé.",
+      "regionId": "champagne",
+      "itinerarySlug": "3-jours-dans-la-champagne-la-plus-sauvage",
+      "steps": [
+        {
+          "slug": "charleville-mezieres",
+          "nom": "Charleville-Mézières",
+          "role": "etape"
+        },
+        {
+          "slug": "montherme",
+          "nom": "Monthermé",
+          "role": "etape"
+        },
+        {
+          "slug": "laifour",
+          "nom": "Laifour",
+          "role": "etape"
+        },
+        {
+          "slug": "bogny-sur-meuse",
+          "nom": "Bogny-sur-Meuse",
+          "role": "etape"
+        },
+        {
+          "slug": "revin",
+          "nom": "Revin",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Ardennes de légende, vallées et forteresses",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine entre Meuse, citadelles et forêts denses",
+      "summary": "Sur 7 jours, ce thème prend une vraie épaisseur si l'on relie la vallée de la Meuse aux places fortes ardennaises. Charleville-Mézières lance le voyage, puis Sedan apporte immédiatement la grande forteresse. Ensuite, Monthermé, Laifour, Bogny-sur-Meuse et Revin déroulent une magnifique séquence de vallée, avant Rocroi, dont le plan et la position donnent un autre visage à cette Champagne du nord. En van, l'itinéraire tient très bien, car il s'appuie sur un axe naturel puis une remontée courte vers les hauteurs. Plusieurs villages de vallée peuvent se découvrir sur la même journée, ce qui laisse du temps pour les belvédères, les forêts et les nuits tranquilles loin des grands flux touristiques.",
+      "overnightStyle": "Nuits typiques : ville de forteresse, vallée boisée, plateau ardennais, petite cité défensive.",
+      "regionId": "champagne",
+      "itinerarySlug": "une-semaine-entre-meuse-citadelles-et-forets-denses",
+      "steps": [
+        {
+          "slug": "charleville-mezieres",
+          "nom": "Charleville-Mézières",
+          "role": "etape"
+        },
+        {
+          "slug": "sedan",
+          "nom": "Sedan",
+          "role": "etape"
+        },
+        {
+          "slug": "montherme",
+          "nom": "Monthermé",
+          "role": "etape"
+        },
+        {
+          "slug": "laifour",
+          "nom": "Laifour",
+          "role": "etape"
+        },
+        {
+          "slug": "bogny-sur-meuse",
+          "nom": "Bogny-sur-Meuse",
+          "role": "etape"
+        },
+        {
+          "slug": "revin",
+          "nom": "Revin",
+          "role": "etape"
+        },
+        {
+          "slug": "rocroi",
+          "nom": "Rocroi",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": [
+        {
+          "nom": "Boucle de la Meuse",
+          "raison": "Secteur narratif très fort pour mieux relier Monthermé, Laifour et Bogny-sur-Meuse dans un seul motif paysager.",
+          "type": "secteur"
+        }
+      ]
+    },
+    {
+      "themeTitle": "Ardennes de légende, vallées et forteresses",
+      "durationHint": "10 jours",
+      "tripTitle": "Le grand nord champenois, entre rocs, meuse et places fortes",
+      "summary": "En 10 jours, ce thème devient un vrai voyage d'atmosphère, loin de l'image classique de la Champagne. Charleville-Mézières et Sedan donnent le départ avec de la matière urbaine et militaire, puis la séquence Monthermé, Laifour, Bogny-sur-Meuse, Revin et Givet déroule une vallée de Meuse très puissante. Rocroi vient ensuite poser la grande figure géométrique de la place forte, avant Signy-l'Abbaye et Renwez pour une respiration plus forestière. C'est un itinéraire particulièrement bon en van parce qu'il avance par ensembles cohérents, laisse beaucoup de place aux routes de vallée et aux haltes en forêt, et évite les détours artificiels. Plusieurs points de la Meuse peuvent se combiner dans une même journée si l'on veut garder plus de temps dans les citadelles ou les villages de rive.",
+      "overnightStyle": "Nuits typiques : forteresse, vallée profonde, forêt ardennaise, bourg de frontière.",
+      "regionId": "champagne",
+      "itinerarySlug": "le-grand-nord-champenois-entre-rocs-meuse-et-places-fortes",
+      "steps": [
+        {
+          "slug": "charleville-mezieres",
+          "nom": "Charleville-Mézières",
+          "role": "etape"
+        },
+        {
+          "slug": "sedan",
+          "nom": "Sedan",
+          "role": "etape"
+        },
+        {
+          "slug": "montherme",
+          "nom": "Monthermé",
+          "role": "etape"
+        },
+        {
+          "slug": "laifour",
+          "nom": "Laifour",
+          "role": "etape"
+        },
+        {
+          "slug": "bogny-sur-meuse",
+          "nom": "Bogny-sur-Meuse",
+          "role": "etape"
+        },
+        {
+          "slug": "revin",
+          "nom": "Revin",
+          "role": "etape"
+        },
+        {
+          "slug": "givet",
+          "nom": "Givet",
+          "role": "etape"
+        },
+        {
+          "slug": "rocroi",
+          "nom": "Rocroi",
+          "role": "etape"
+        },
+        {
+          "slug": "signy-labbaye",
+          "nom": "Signy-l'Abbaye",
+          "role": "etape"
+        },
+        {
+          "slug": "renwez",
+          "nom": "Renwez",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": [
+        {
+          "nom": "Boucle de la Meuse",
+          "raison": "Très utile pour renforcer le récit de vallée entre Monthermé, Laifour, Bogny-sur-Meuse et Revin.",
+          "type": "secteur"
+        }
+      ]
+    },
+    {
+      "themeTitle": "Mémoires, abbayes et grandes lignes de l'histoire",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours de silence, de mémoire et de pierres civiles",
+      "summary": "Pour un format court, ce thème fonctionne très bien dans le sud de la région, où la Champagne prend un visage plus recueilli et plus historique. Colombey-les-Deux-Églises donne un point d'ancrage très fort, puis l'Abbaye de Clairvaux apporte un changement de registre, plus austère, plus monumental, avant Chaumont en sortie urbaine très naturelle. En van, l'ensemble est crédible et apaisé, avec des distances raisonnables et une vraie cohérence de ton. C'est un parcours idéal pour ceux qui cherchent moins la carte postale que la profondeur des lieux, avec de longues perspectives, des paysages sobres et des étapes qui laissent place à la réflexion autant qu'à la route.",
+      "overnightStyle": "Nuits typiques : village de mémoire, vallée monastique, ville calme et ample.",
+      "regionId": "champagne",
+      "itinerarySlug": "3-jours-de-silence-de-memoire-et-de-pierres-civiles",
+      "steps": [
+        {
+          "slug": "colombey-les-deux-eglises",
+          "nom": "Colombey-les-Deux-Églises",
+          "role": "etape"
+        },
+        {
+          "slug": "abbaye-de-clairvaux",
+          "nom": "Abbaye de Clairvaux",
+          "role": "etape"
+        },
+        {
+          "slug": "chaumont",
+          "nom": "Chaumont",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Mémoires, abbayes et grandes lignes de l'histoire",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine sur les terres graves de Champagne",
+      "summary": "Sur 7 jours, ce thème prend de l'ampleur si l'on relie les grands marqueurs historiques sans casser l'équilibre du voyage. Reims ouvre naturellement le parcours avec sa charge monumentale, puis Dormans et Sainte-Menehould déplacent la route vers une Champagne plus mémorielle. Sommepy-Tahure ajoute une étape très forte, avant Colombey-les-Deux-Églises, l'Abbaye de Clairvaux et Chaumont, qui donnent une seconde moitié plus recueillie, presque sévère, mais très cohérente. En van, l'itinéraire fonctionne bien parce qu'il descend progressivement du cœur marnais vers la Haute-Marne, avec des routes lisibles et de vraies journées de transition. C'est un très bon voyage pour ceux qui aiment les lieux qui racontent longtemps après la visite.",
+      "overnightStyle": "Nuits typiques : ville monumentale, campagne de mémoire, vallée monastique, petite ville administrative et calme.",
+      "regionId": "champagne",
+      "itinerarySlug": "une-semaine-sur-les-terres-graves-de-champagne",
+      "steps": [
+        {
+          "slug": "reims",
+          "nom": "Reims",
+          "role": "etape"
+        },
+        {
+          "slug": "dormans",
+          "nom": "Dormans",
+          "role": "etape"
+        },
+        {
+          "slug": "sainte-menehould",
+          "nom": "Sainte-Menehould",
+          "role": "etape"
+        },
+        {
+          "slug": "sommepy-tahure",
+          "nom": "Sommepy-Tahure",
+          "role": "etape"
+        },
+        {
+          "slug": "colombey-les-deux-eglises",
+          "nom": "Colombey-les-Deux-Églises",
+          "role": "etape"
+        },
+        {
+          "slug": "abbaye-de-clairvaux",
+          "nom": "Abbaye de Clairvaux",
+          "role": "etape"
+        },
+        {
+          "slug": "chaumont",
+          "nom": "Chaumont",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Mémoires, abbayes et grandes lignes de l'histoire",
+      "durationHint": "10 jours",
+      "tripTitle": "La grande route historique de Champagne",
+      "summary": "En 10 jours, ce thème permet de raconter la région autrement que par les bulles : une terre de passages, de mémoire, de pouvoir et de retraits. Reims et Châlons-en-Champagne ouvrent le voyage avec ampleur, puis Dormans, Sainte-Menehould et Sommepy-Tahure donnent une première séquence tournée vers la mémoire collective. Ensuite, Colombey-les-Deux-Églises, l'Abbaye de Clairvaux, Chaumont, Langres et enfin Joinville déroulent une Champagne plus austère, plus profonde, très attachante en van parce qu'elle avance par plateaux, vallées et petites villes bien posées. Le rythme est crédible, avec de vraies liaisons géographiques et sans grands sauts incohérents. Certaines étapes de mémoire peuvent être plus brèves, ce qui laisse du temps pour les centres anciens et les routes haut-marnaises.",
+      "overnightStyle": "Nuits typiques : ville monumentale, campagne de mémoire, plateau de Haute-Marne, petite ville d'histoire.",
+      "regionId": "champagne",
+      "itinerarySlug": "la-grande-route-historique-de-champagne",
+      "steps": [
+        {
+          "slug": "reims",
+          "nom": "Reims",
+          "role": "etape"
+        },
+        {
+          "slug": "chalons-en-champagne",
+          "nom": "Châlons-en-Champagne",
+          "role": "etape"
+        },
+        {
+          "slug": "dormans",
+          "nom": "Dormans",
+          "role": "etape"
+        },
+        {
+          "slug": "sainte-menehould",
+          "nom": "Sainte-Menehould",
+          "role": "etape"
+        },
+        {
+          "slug": "sommepy-tahure",
+          "nom": "Sommepy-Tahure",
+          "role": "etape"
+        },
+        {
+          "slug": "colombey-les-deux-eglises",
+          "nom": "Colombey-les-Deux-Églises",
+          "role": "etape"
+        },
+        {
+          "slug": "abbaye-de-clairvaux",
+          "nom": "Abbaye de Clairvaux",
+          "role": "etape"
+        },
+        {
+          "slug": "chaumont",
+          "nom": "Chaumont",
+          "role": "etape"
+        },
+        {
+          "slug": "langres",
+          "nom": "Langres",
+          "role": "etape"
+        },
+        {
+          "slug": "joinville",
+          "nom": "Joinville",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    }
+  ]
 }

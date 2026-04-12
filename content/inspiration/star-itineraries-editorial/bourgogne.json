@@ -1,3 +1,774 @@
 {
-  "itineraries": []
+  "itineraries": [
+    {
+      "themeTitle": "Grands vins, coteaux et Bourgogne gourmande",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours entre caves, pierres blondes et routes de vigne",
+      "summary": "Pour un court voyage en van, ce parcours concentre une Bourgogne très lisible, celle des coteaux, des villages élégants et des villes qui vivent au rythme du vin. Dijon donne une entrée urbaine solide, Beaune installe immédiatement la grande Bourgogne viticole, puis la Montagne de Beaune et le Château de La Rochepot prolongent le voyage sur des routes de relief, avant un final vers Chalon-sur-Saône. Le rythme fonctionne très bien sur trois jours, car les distances restent mesurées et les ambiances se complètent sans répétition. On passe d'une ville dense à des paysages de vigne puis à une Bourgogne plus panoramique, avec de vraies soirées dans des lieux habités. Certaines étapes du secteur beaunois peuvent se regrouper sur une même journée selon l'envie de flâner ou de déguster.",
+      "overnightStyle": "Nuits typiques : ville de vin, coteaux, petite ville élégante au bord de l'eau.",
+      "regionId": "bourgogne",
+      "itinerarySlug": "3-jours-entre-caves-pierres-blondes-et-routes-de-vigne",
+      "steps": [
+        {
+          "slug": "dijon",
+          "nom": "Dijon",
+          "role": "etape"
+        },
+        {
+          "slug": "beaune",
+          "nom": "Beaune",
+          "role": "etape"
+        },
+        {
+          "slug": "montagne-de-beaune",
+          "nom": "Montagne de Beaune",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-de-la-rochepot",
+          "nom": "Château de La Rochepot",
+          "role": "etape"
+        },
+        {
+          "slug": "chalon-sur-saone",
+          "nom": "Chalon-sur-Saône",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Grands vins, coteaux et Bourgogne gourmande",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine sur la colonne vertebrale des vins bourguignons",
+      "summary": "Sur 7 jours, ce thème prend une belle ampleur en suivant le fil des coteaux et des villes qui donnent son style à la Bourgogne. Dijon ouvre le voyage avec son élégance et son patrimoine, Beaune apporte le cœur viticole le plus évident, puis la Montagne de Beaune et le Château de La Rochepot donnent plus d'air et de relief. Ensuite, Chalon-sur-Saône, Tournus, la Roche de Solutré et Mâcon prolongent le trajet vers le sud, dans une Bourgogne plus lumineuse, presque plus méridionale. En van, cet itinéraire est très confortable car il suit une ligne claire du nord au sud, avec peu de détours inutiles. Certaines étapes du Beaunois ou du Mâconnais peuvent se coupler dans la même journée, ce qui laisse du temps pour les points de vue, les caves et les soirées dans des villes à taille humaine.",
+      "overnightStyle": "Nuits typiques : ville historique, bourg viticole, coteaux, petite ville de Saône.",
+      "regionId": "bourgogne",
+      "itinerarySlug": "une-semaine-sur-la-colonne-vertebrale-des-vins-bourguignons",
+      "steps": [
+        {
+          "slug": "dijon",
+          "nom": "Dijon",
+          "role": "etape"
+        },
+        {
+          "slug": "beaune",
+          "nom": "Beaune",
+          "role": "etape"
+        },
+        {
+          "slug": "montagne-de-beaune",
+          "nom": "Montagne de Beaune",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-de-la-rochepot",
+          "nom": "Château de La Rochepot",
+          "role": "etape"
+        },
+        {
+          "slug": "chalon-sur-saone",
+          "nom": "Chalon-sur-Saône",
+          "role": "etape"
+        },
+        {
+          "slug": "tournus",
+          "nom": "Tournus",
+          "role": "etape"
+        },
+        {
+          "slug": "la-roche-de-solutre",
+          "nom": "La Roche de Solutré",
+          "role": "etape"
+        },
+        {
+          "slug": "macon",
+          "nom": "Mâcon",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Grands vins, coteaux et Bourgogne gourmande",
+      "durationHint": "10 jours",
+      "tripTitle": "Le grand voyage des coteaux bourguignons",
+      "summary": "En 10 jours, on peut raconter une Bourgogne gourmande et viticole sans la réduire à une simple succession de caves. Auxerre et Chablis ouvrent le voyage au nord avec une Bourgogne plus claire, plus minérale, puis Joigny donne une transition douce avant Dijon et Beaune, qui recentrent le parcours sur le grand axe bourguignon. La Montagne de Beaune, le Château de La Rochepot, Chalon-sur-Saône, Tournus, la Roche de Solutré et Mâcon complètent ensuite une descente très cohérente vers le sud. En van, cet itinéraire fonctionne parfaitement, car il suit un enchaînement naturel et permet de varier les paysages sans rompre le thème. Plusieurs étapes proches, notamment autour de Beaune ou de Mâcon, peuvent se combiner sur une même journée pour garder de longs soirs au cœur des vignes.",
+      "overnightStyle": "Nuits typiques : ville de vin, coteaux, petite cité, bord de Saône ou de vigne.",
+      "regionId": "bourgogne",
+      "itinerarySlug": "le-grand-voyage-des-coteaux-bourguignons",
+      "steps": [
+        {
+          "slug": "auxerre",
+          "nom": "Auxerre",
+          "role": "etape"
+        },
+        {
+          "slug": "chablis",
+          "nom": "Chablis",
+          "role": "etape"
+        },
+        {
+          "slug": "joigny",
+          "nom": "Joigny",
+          "role": "etape"
+        },
+        {
+          "slug": "dijon",
+          "nom": "Dijon",
+          "role": "etape"
+        },
+        {
+          "slug": "beaune",
+          "nom": "Beaune",
+          "role": "etape"
+        },
+        {
+          "slug": "montagne-de-beaune",
+          "nom": "Montagne de Beaune",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-de-la-rochepot",
+          "nom": "Château de La Rochepot",
+          "role": "etape"
+        },
+        {
+          "slug": "chalon-sur-saone",
+          "nom": "Chalon-sur-Saône",
+          "role": "etape"
+        },
+        {
+          "slug": "tournus",
+          "nom": "Tournus",
+          "role": "etape"
+        },
+        {
+          "slug": "la-roche-de-solutre",
+          "nom": "La Roche de Solutré",
+          "role": "etape"
+        },
+        {
+          "slug": "macon",
+          "nom": "Mâcon",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Abbayes, silence roman et Bourgogne spirituelle",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours de cloîtres, de pierres nues et de vallées recueillies",
+      "summary": "Ce format court fonctionne très bien en Bourgogne parce qu'il aligne des lieux d'une intensité rare dans un rayon raisonnable. L'Abbaye de Cîteaux donne un départ d'une grande sobriété, Beaune sert de relais vivant sans casser le ton, puis l'Abbaye de Fontenay apporte un sommet de dépouillement monumental avant une fin de parcours à Semur-en-Auxois. En van, le rythme est idéal : assez de route pour sentir la campagne bourguignonne, mais pas trop, et surtout beaucoup de temps pour profiter des bâtiments, des prairies et des villages voisins. C'est un voyage très apaisé, pensé pour ceux qui aiment les pierres anciennes, les transitions lentes et la Bourgogne la plus intérieure, loin des parcours trop saturés.",
+      "overnightStyle": "Nuits typiques : campagne monastique, petite ville élégante, vallée paisible.",
+      "regionId": "bourgogne",
+      "itinerarySlug": "3-jours-de-cloitres-de-pierres-nues-et-de-vallees-recueillies",
+      "steps": [
+        {
+          "slug": "abbaye-de-citeaux",
+          "nom": "Abbaye de Cîteaux",
+          "role": "etape"
+        },
+        {
+          "slug": "beaune",
+          "nom": "Beaune",
+          "role": "etape"
+        },
+        {
+          "slug": "abbaye-de-fontenay",
+          "nom": "Abbaye de Fontenay",
+          "role": "etape"
+        },
+        {
+          "slug": "semur-en-auxois",
+          "nom": "Semur-en-Auxois",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Abbayes, silence roman et Bourgogne spirituelle",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine sur les terres du roman bourguignon",
+      "summary": "Sur 7 jours, ce thème prend toute sa force en reliant les grands foyers monastiques de Bourgogne à quelques petites villes qui leur donnent du souffle. Dijon et l'Abbaye de Cîteaux ouvrent le voyage avec une Bourgogne noble et ordonnée, puis l'Abbaye de Fontenay, Montbard et Semur-en-Auxois structurent une séquence d'une grande tenue. Ensuite, Vézelay, l'Abbaye de Reigny, Vermenton et Auxerre déploient une Bourgogne plus lumineuse, plus tournée vers les vallées de l'Yonne. En van, le trajet est très crédible car il suit une logique de nord-est vers nord-ouest, en avançant par étapes denses mais jamais trop longues. Certaines haltes autour de Fontenay ou Vézelay peuvent se combiner sur une même journée pour garder de vraies nuits dans les bourgs ou les campagnes silencieuses.",
+      "overnightStyle": "Nuits typiques : bourg monastique, petite ville d'histoire, vallée calme, colline sacrée.",
+      "regionId": "bourgogne",
+      "itinerarySlug": "une-semaine-sur-les-terres-du-roman-bourguignon",
+      "steps": [
+        {
+          "slug": "dijon",
+          "nom": "Dijon",
+          "role": "etape"
+        },
+        {
+          "slug": "abbaye-de-citeaux",
+          "nom": "Abbaye de Cîteaux",
+          "role": "etape"
+        },
+        {
+          "slug": "abbaye-de-fontenay",
+          "nom": "Abbaye de Fontenay",
+          "role": "etape"
+        },
+        {
+          "slug": "montbard",
+          "nom": "Montbard",
+          "role": "etape"
+        },
+        {
+          "slug": "semur-en-auxois",
+          "nom": "Semur-en-Auxois",
+          "role": "etape"
+        },
+        {
+          "slug": "vezelay",
+          "nom": "Vézelay",
+          "role": "etape"
+        },
+        {
+          "slug": "abbaye-de-reigny-vermenton",
+          "nom": "Abbaye de Reigny, Vermenton",
+          "role": "etape"
+        },
+        {
+          "slug": "auxerre",
+          "nom": "Auxerre",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Abbayes, silence roman et Bourgogne spirituelle",
+      "durationHint": "10 jours",
+      "tripTitle": "La grande route des abbayes bourguignonnes",
+      "summary": "En 10 jours, ce thème peut devenir un très beau voyage de pierre, de recueillement et de paysages calmes. Dijon et l'Abbaye de Cîteaux donnent l'ouverture idéale, puis l'Abbaye de Fontenay, Montbard, Semur-en-Auxois et Flavigny-sur-Ozerain dessinent une première Bourgogne très intérieure. Ensuite, Vézelay, l'Abbaye de Reigny, Vermenton, Auxerre et Pontigny prolongent le fil spirituel vers l'Yonne, avant un basculement au sud avec Cluny et Tournus. En van, cet itinéraire fonctionne parfaitement parce qu'il avance par grandes séquences cohérentes, avec des haltes denses mais jamais absurdes. Plusieurs sites du même secteur peuvent se regrouper dans une journée, ce qui permet de garder des soirées longues dans les villages ou les villes historiques, au rythme des clochers et des routes bordées de prés.",
+      "overnightStyle": "Nuits typiques : campagne monastique, petite cité de pierre, colline sacrée, ville romane.",
+      "regionId": "bourgogne",
+      "itinerarySlug": "la-grande-route-des-abbayes-bourguignonnes",
+      "steps": [
+        {
+          "slug": "dijon",
+          "nom": "Dijon",
+          "role": "etape"
+        },
+        {
+          "slug": "abbaye-de-citeaux",
+          "nom": "Abbaye de Cîteaux",
+          "role": "etape"
+        },
+        {
+          "slug": "abbaye-de-fontenay",
+          "nom": "Abbaye de Fontenay",
+          "role": "etape"
+        },
+        {
+          "slug": "montbard",
+          "nom": "Montbard",
+          "role": "etape"
+        },
+        {
+          "slug": "semur-en-auxois",
+          "nom": "Semur-en-Auxois",
+          "role": "etape"
+        },
+        {
+          "slug": "flavigny-sur-ozerain",
+          "nom": "Flavigny-sur-Ozerain",
+          "role": "etape"
+        },
+        {
+          "slug": "vezelay",
+          "nom": "Vézelay",
+          "role": "etape"
+        },
+        {
+          "slug": "abbaye-de-reigny-vermenton",
+          "nom": "Abbaye de Reigny, Vermenton",
+          "role": "etape"
+        },
+        {
+          "slug": "auxerre",
+          "nom": "Auxerre",
+          "role": "etape"
+        },
+        {
+          "slug": "pontigny",
+          "nom": "Pontigny",
+          "role": "etape"
+        },
+        {
+          "slug": "cluny",
+          "nom": "Cluny",
+          "role": "etape"
+        },
+        {
+          "slug": "tournus",
+          "nom": "Tournus",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Châteaux, bastions et Bourgogne de pouvoir",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours de forteresses, de salons et de collines défensives",
+      "summary": "Pour un séjour court, ce thème fonctionne parfaitement parce qu'il rassemble quelques-unes des plus fortes silhouettes castrales de Bourgogne dans une boucle crédible. Châteauneuf donne d'abord un décor perché très spectaculaire, le Château de Châteauneuf-en-Auxois enfonce le clou, puis le Château de Commarin apporte une lecture plus résidentielle avant une fin de parcours vers le Château de Bussy-Rabutin. En van, le rythme est excellent : peu de route, des transitions de vallée en plateau très lisibles, et des étapes qui se répondent sans se répéter. C'est un petit voyage idéal pour qui aime les murailles, les jardins, les points hauts et une Bourgogne de noblesse rurale, très soignée mais encore profondément paysanne autour des châteaux.",
+      "overnightStyle": "Nuits typiques : village perché, campagne de château, vallon d'Auxois.",
+      "regionId": "bourgogne",
+      "itinerarySlug": "3-jours-de-forteresses-de-salons-et-de-collines-defensives",
+      "steps": [
+        {
+          "slug": "chateauneuf",
+          "nom": "Châteauneuf",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-de-chateauneuf-en-auxois",
+          "nom": "Château de Châteauneuf-en-Auxois",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-de-commarin",
+          "nom": "Château de Commarin",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-de-bussy-rabutin",
+          "nom": "Château de Bussy-Rabutin",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Châteaux, bastions et Bourgogne de pouvoir",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine de seigneurs, de murailles et de demeures puissantes",
+      "summary": "Sur 7 jours, ce thème gagne beaucoup en variété en mêlant forteresses, résidences et villages de pouvoir. Dijon ouvre le voyage avec la Bourgogne ducale, puis Châteauneuf, le Château de Châteauneuf-en-Auxois, le Château de Commarin et le Château de Bussy-Rabutin composent un cœur de parcours très cohérent en Auxois. Ensuite, le Château de Bazoches et Vézelay font basculer l'itinéraire vers une Bourgogne plus vallonnée, plus littéraire aussi, avant Avallon en point d'appui final. En van, la progression est très crédible et ménage de vraies journées de campagne entre deux sites forts. Certaines visites de châteaux peuvent se coupler sans nuire au rythme, ce qui laisse du temps pour les villages, les panoramas et les routes lentes.",
+      "overnightStyle": "Nuits typiques : ville noble, village fortifié, vallée d'Auxois, colline historique.",
+      "regionId": "bourgogne",
+      "itinerarySlug": "une-semaine-de-seigneurs-de-murailles-et-de-demeures-puissantes",
+      "steps": [
+        {
+          "slug": "dijon",
+          "nom": "Dijon",
+          "role": "etape"
+        },
+        {
+          "slug": "chateauneuf",
+          "nom": "Châteauneuf",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-de-chateauneuf-en-auxois",
+          "nom": "Château de Châteauneuf-en-Auxois",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-de-commarin",
+          "nom": "Château de Commarin",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-de-bussy-rabutin",
+          "nom": "Château de Bussy-Rabutin",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-de-bazoches",
+          "nom": "Château de Bazoches",
+          "role": "etape"
+        },
+        {
+          "slug": "vezelay",
+          "nom": "Vézelay",
+          "role": "etape"
+        },
+        {
+          "slug": "avallon",
+          "nom": "Avallon",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Châteaux, bastions et Bourgogne de pouvoir",
+      "durationHint": "10 jours",
+      "tripTitle": "La route des grandes demeures bourguignonnes",
+      "summary": "En 10 jours, on peut composer un vrai voyage de pouvoir, d'élégance et d'histoire militaire à travers toute la Bourgogne. Dijon donne naturellement le départ, puis l'Auxois déroule un chapelet remarquable avec Châteauneuf, le Château de Châteauneuf-en-Auxois, le Château de Commarin, le Château de Bussy-Rabutin et l'Abbaye de Fontenay en contrepoint monumental. Ensuite, l'itinéraire glisse vers l'Yonne avec le Château de Bazoches, Vézelay, le Château de Ratilly, Treigny, Saint-Fargeau et le Château de Tanlay, Tanlay, ce qui donne plus de variété au thème. En van, l'ensemble reste crédible parce qu'il avance en grands blocs géographiques sans détours absurdes. Certaines visites de châteaux voisins peuvent se regrouper sur la même journée, ce qui permet de garder du temps pour les petites villes et la campagne entre deux sites.",
+      "overnightStyle": "Nuits typiques : ville ducale, village perché, vallée noble, petite cité d'Yonne.",
+      "regionId": "bourgogne",
+      "itinerarySlug": "la-route-des-grandes-demeures-bourguignonnes",
+      "steps": [
+        {
+          "slug": "dijon",
+          "nom": "Dijon",
+          "role": "etape"
+        },
+        {
+          "slug": "chateauneuf",
+          "nom": "Châteauneuf",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-de-chateauneuf-en-auxois",
+          "nom": "Château de Châteauneuf-en-Auxois",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-de-commarin",
+          "nom": "Château de Commarin",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-de-bussy-rabutin",
+          "nom": "Château de Bussy-Rabutin",
+          "role": "etape"
+        },
+        {
+          "slug": "abbaye-de-fontenay",
+          "nom": "Abbaye de Fontenay",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-de-bazoches",
+          "nom": "Château de Bazoches",
+          "role": "etape"
+        },
+        {
+          "slug": "vezelay",
+          "nom": "Vézelay",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-de-ratilly-treigny",
+          "nom": "Château de Ratilly, Treigny",
+          "role": "etape"
+        },
+        {
+          "slug": "saint-fargeau",
+          "nom": "Saint-Fargeau",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-de-tanlay-tanlay",
+          "nom": "Château de Tanlay, Tanlay",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Puisaye, collines secrètes et Bourgogne d'artisans",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours de forêts, d'ateliers et de villages obstinés",
+      "summary": "Ce court itinéraire est parfait pour une Bourgogne plus secrète, moins viticole, plus artisanale et forestière. Saint-Sauveur-en-Puisaye ouvre le voyage avec une atmosphère de bocage et de culture, Guédelon donne ensuite un grand moment de récit et de matière, puis le Lac du Bourdon et Saint-Fargeau prolongent très bien cette Puisaye de forêts, d'eau et de villages tenaces. En van, le rythme est idéal : les distances restent courtes, les paysages cohérents, et l'on profite d'une vraie sensation de retrait par rapport aux grands axes bourguignons. C'est un parcours très fort pour ceux qui aiment les chemins secondaires, les chantiers vivants, les grandes futaies et les petites cités au cœur d'un pays encore très rural.",
+      "overnightStyle": "Nuits typiques : bourg forestier, étang ou lac, petite cité de Puisaye.",
+      "regionId": "bourgogne",
+      "itinerarySlug": "3-jours-de-forets-dateliers-et-de-villages-obstines",
+      "steps": [
+        {
+          "slug": "saint-sauveur-en-puisaye",
+          "nom": "Saint-Sauveur-en-Puisaye",
+          "role": "etape"
+        },
+        {
+          "slug": "guedelon",
+          "nom": "Guédelon",
+          "role": "etape"
+        },
+        {
+          "slug": "lac-du-bourdon",
+          "nom": "Lac du Bourdon",
+          "role": "etape"
+        },
+        {
+          "slug": "saint-fargeau",
+          "nom": "Saint-Fargeau",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Puisaye, collines secrètes et Bourgogne d'artisans",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine dans la Bourgogne des bois, des potiers et des collines lentes",
+      "summary": "Sur 7 jours, ce thème permet de découvrir une Bourgogne moins évidente, mais très attachante, faite de forêts, de vallons, de petites villes et d'artisanat vivant. Auxerre sert d'entrée urbaine, puis Clamecy donne le ton d'une Bourgogne plus intérieure avant Vézelay en vigie. Ensuite, Saint-Sauveur-en-Puisaye, Guédelon, le Lac du Bourdon et Saint-Fargeau forment le cœur très cohérent du voyage, avant un final vers La Charité-sur-Loire, qui ouvre le paysage sur un axe plus ample. En van, l'enchaînement fonctionne très bien, car les étapes restent à taille humaine et les routes secondaires deviennent une vraie partie du plaisir. Certaines haltes de Puisaye peuvent se faire dans la même journée, ce qui laisse des soirées longues près des forêts, des étangs ou des vieux centres.",
+      "overnightStyle": "Nuits typiques : petite ville de rivière, bourg forestier, lac, cité ligérienne.",
+      "regionId": "bourgogne",
+      "itinerarySlug": "une-semaine-dans-la-bourgogne-des-bois-des-potiers-et-des-collines-lentes",
+      "steps": [
+        {
+          "slug": "auxerre",
+          "nom": "Auxerre",
+          "role": "etape"
+        },
+        {
+          "slug": "clamecy",
+          "nom": "Clamecy",
+          "role": "etape"
+        },
+        {
+          "slug": "vezelay",
+          "nom": "Vézelay",
+          "role": "etape"
+        },
+        {
+          "slug": "saint-sauveur-en-puisaye",
+          "nom": "Saint-Sauveur-en-Puisaye",
+          "role": "etape"
+        },
+        {
+          "slug": "guedelon",
+          "nom": "Guédelon",
+          "role": "etape"
+        },
+        {
+          "slug": "lac-du-bourdon",
+          "nom": "Lac du Bourdon",
+          "role": "etape"
+        },
+        {
+          "slug": "saint-fargeau",
+          "nom": "Saint-Fargeau",
+          "role": "etape"
+        },
+        {
+          "slug": "la-charite-sur-loire",
+          "nom": "La Charité-sur-Loire",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Puisaye, collines secrètes et Bourgogne d'artisans",
+      "durationHint": "10 jours",
+      "tripTitle": "Le grand détour secret de Puisaye et du Morvan",
+      "summary": "En 10 jours, ce thème devient un vrai voyage d'intérieur, fait de forêts, de collines, de villages solides et de routes lentes. Auxerre et Vézelay ouvrent le parcours avec de beaux repères, puis Avallon et Lormes marquent la bascule vers une Bourgogne plus boisée. Ensuite, Château-Chinon et Moulins-Engilbert installent le Morvan et ses marges, avant la séquence de Puisaye avec Saint-Sauveur-en-Puisaye, Guédelon, le Lac du Bourdon et Saint-Fargeau. La Charité-sur-Loire vient conclure le trajet avec une ouverture ligérienne très bienvenue. En van, cet itinéraire est particulièrement agréable parce qu'il suit des paysages de transition, jamais monotones, et qu'il offre beaucoup de haltes simples à vivre. Plusieurs étapes proches, notamment en Puisaye, peuvent se coupler sur la même journée pour garder de longues soirées dans les bois ou au bord de l'eau.",
+      "overnightStyle": "Nuits typiques : colline boisée, petite ville d'intérieur, lac, cité ligérienne.",
+      "regionId": "bourgogne",
+      "itinerarySlug": "le-grand-detour-secret-de-puisaye-et-du-morvan",
+      "steps": [
+        {
+          "slug": "auxerre",
+          "nom": "Auxerre",
+          "role": "etape"
+        },
+        {
+          "slug": "vezelay",
+          "nom": "Vézelay",
+          "role": "etape"
+        },
+        {
+          "slug": "avallon",
+          "nom": "Avallon",
+          "role": "etape"
+        },
+        {
+          "slug": "lormes",
+          "nom": "Lormes",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-chinon",
+          "nom": "Château-Chinon",
+          "role": "etape"
+        },
+        {
+          "slug": "moulins-engilbert",
+          "nom": "Moulins-Engilbert",
+          "role": "etape"
+        },
+        {
+          "slug": "saint-sauveur-en-puisaye",
+          "nom": "Saint-Sauveur-en-Puisaye",
+          "role": "etape"
+        },
+        {
+          "slug": "guedelon",
+          "nom": "Guédelon",
+          "role": "etape"
+        },
+        {
+          "slug": "lac-du-bourdon",
+          "nom": "Lac du Bourdon",
+          "role": "etape"
+        },
+        {
+          "slug": "saint-fargeau",
+          "nom": "Saint-Fargeau",
+          "role": "etape"
+        },
+        {
+          "slug": "la-charite-sur-loire",
+          "nom": "La Charité-sur-Loire",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Canaux, rivières et Bourgogne fluviale",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours de quais tranquilles et de villes d'eau bourguignonnes",
+      "summary": "Ce format court mise sur une Bourgogne douce, liquide et facile à vivre en van. Auxerre lance le voyage avec ses quais et sa présence de rivière, Joigny prolonge très bien cette atmosphère de ville d'eau, puis Migennes donne une tonalité plus navigable avant un final à Chablis, qui évite la monotonie en ajoutant le paysage viticole sans rompre le rythme. Le trajet est très simple, les distances faibles et l'ensemble très fluide pour trois jours. C'est une excellente formule pour qui aime les ports, les bords de rivière, les haltes tranquilles et les fins de journée sur les quais plutôt que les grands sites monumentaux.",
+      "overnightStyle": "Nuits typiques : quai de rivière, petite ville calme, bourg viticole proche de l'eau.",
+      "regionId": "bourgogne",
+      "itinerarySlug": "3-jours-de-quais-tranquilles-et-de-villes-deau-bourguignonnes",
+      "steps": [
+        {
+          "slug": "auxerre",
+          "nom": "Auxerre",
+          "role": "etape"
+        },
+        {
+          "slug": "joigny",
+          "nom": "Joigny",
+          "role": "etape"
+        },
+        {
+          "slug": "migennes",
+          "nom": "Migennes",
+          "role": "etape"
+        },
+        {
+          "slug": "chablis",
+          "nom": "Chablis",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Canaux, rivières et Bourgogne fluviale",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine au fil de l'Yonne, de la Saône et de la Loire",
+      "summary": "Sur 7 jours, ce thème permet de raconter la Bourgogne par ses eaux, ce qui lui va très bien. Auxerre et Joigny ouvrent logiquement le voyage sur l'Yonne, puis Migennes et Pontigny gardent le fil avec une Bourgogne plus paisible, presque plus domestique. Ensuite, Chalon-sur-Saône et Tournus déplacent le trajet vers la Saône, avant La Charité-sur-Loire et Pouilly-sur-Loire pour un final ligérien plus ample. En van, cet itinéraire reste cohérent car il avance par grandes vallées et villes de navigation plutôt que par détours. Certaines petites étapes fluviales peuvent se regrouper sur la même journée, ce qui laisse du temps pour les quais, les marchés, les abbayes voisines et les longues soirées près de l'eau.",
+      "overnightStyle": "Nuits typiques : ville de rivière, petite halte de canal, bord de Saône, cité ligérienne.",
+      "regionId": "bourgogne",
+      "itinerarySlug": "une-semaine-au-fil-de-lyonne-de-la-saone-et-de-la-loire",
+      "steps": [
+        {
+          "slug": "auxerre",
+          "nom": "Auxerre",
+          "role": "etape"
+        },
+        {
+          "slug": "joigny",
+          "nom": "Joigny",
+          "role": "etape"
+        },
+        {
+          "slug": "migennes",
+          "nom": "Migennes",
+          "role": "etape"
+        },
+        {
+          "slug": "pontigny",
+          "nom": "Pontigny",
+          "role": "etape"
+        },
+        {
+          "slug": "chalon-sur-saone",
+          "nom": "Chalon-sur-Saône",
+          "role": "etape"
+        },
+        {
+          "slug": "tournus",
+          "nom": "Tournus",
+          "role": "etape"
+        },
+        {
+          "slug": "la-charite-sur-loire",
+          "nom": "La Charité-sur-Loire",
+          "role": "etape"
+        },
+        {
+          "slug": "pouilly-sur-loire",
+          "nom": "Pouilly-sur-Loire",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Canaux, rivières et Bourgogne fluviale",
+      "durationHint": "10 jours",
+      "tripTitle": "Le grand voyage des eaux lentes de Bourgogne",
+      "summary": "En 10 jours, ce thème compose un très beau voyage tranquille à travers une Bourgogne de navigation, de petites villes et de longues vallées. Auxerre, Joigny, Migennes et Pontigny structurent une première moitié tournée vers l'Yonne, puis Dijon et Chalon-sur-Saône redonnent de l'ampleur avant Tournus et Mâcon côté Saône. Enfin, Nevers, Decize, La Charité-sur-Loire et Pouilly-sur-Loire installent une fin de parcours ligérienne très cohérente. En van, le rythme est particulièrement agréable parce qu'il suit des axes naturels, faciles à vivre, et parce que le thème supporte très bien les pauses imprévues. Certaines villes d'eau peuvent se visiter rapidement et se combiner dans une même journée, ce qui laisse du temps pour les quais, les ponts, les collines voisines et les soirées au bord des fleuves.",
+      "overnightStyle": "Nuits typiques : quai de ville, bord de Saône, halte ligérienne, vallée tranquille.",
+      "regionId": "bourgogne",
+      "itinerarySlug": "le-grand-voyage-des-eaux-lentes-de-bourgogne",
+      "steps": [
+        {
+          "slug": "auxerre",
+          "nom": "Auxerre",
+          "role": "etape"
+        },
+        {
+          "slug": "joigny",
+          "nom": "Joigny",
+          "role": "etape"
+        },
+        {
+          "slug": "migennes",
+          "nom": "Migennes",
+          "role": "etape"
+        },
+        {
+          "slug": "pontigny",
+          "nom": "Pontigny",
+          "role": "etape"
+        },
+        {
+          "slug": "dijon",
+          "nom": "Dijon",
+          "role": "etape"
+        },
+        {
+          "slug": "chalon-sur-saone",
+          "nom": "Chalon-sur-Saône",
+          "role": "etape"
+        },
+        {
+          "slug": "tournus",
+          "nom": "Tournus",
+          "role": "etape"
+        },
+        {
+          "slug": "macon",
+          "nom": "Mâcon",
+          "role": "etape"
+        },
+        {
+          "slug": "nevers",
+          "nom": "Nevers",
+          "role": "etape"
+        },
+        {
+          "slug": "decize",
+          "nom": "Decize",
+          "role": "etape"
+        },
+        {
+          "slug": "la-charite-sur-loire",
+          "nom": "La Charité-sur-Loire",
+          "role": "etape"
+        },
+        {
+          "slug": "pouilly-sur-loire",
+          "nom": "Pouilly-sur-Loire",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    }
+  ]
 }

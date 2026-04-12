@@ -1,3 +1,633 @@
 {
-  "itineraries": []
+  "itineraries": [
+    {
+      "themeTitle": "Reculées, cascades et Jura minéral",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours entre falaises blanches et villages au fond des plis",
+      "summary": "Pour un court voyage en van, la meilleure porte d'entrée en Franche-Comté reste le Jura des reculées, parce qu'il concentre très vite la roche, l'eau, les villages et les grands points de vue. Arbois donne un départ vivant, Les Planches-près-Arbois ajoute immédiatement la profondeur de vallée, puis Baume-les-Messieurs et Château-Chalon forment un final très fort, entre falaises, pierre blonde et belvédères. Le rythme est idéal sur trois jours car les étapes sont proches et très complémentaires. On a le temps de marcher un peu, de profiter des routes qui serpentent et de finir les journées dans des bourgs vraiment habités, sans transformer le séjour en course entre spots.",
+      "overnightStyle": "Nuits typiques : petite ville jurassienne, village encaissé, belvédère de reculée.",
+      "regionId": "franche-comte",
+      "itinerarySlug": "3-jours-entre-falaises-blanches-et-villages-au-fond-des-plis",
+      "steps": [
+        {
+          "slug": "arbois",
+          "nom": "Arbois",
+          "role": "etape"
+        },
+        {
+          "slug": "les-planches-pres-arbois",
+          "nom": "Les Planches-près-Arbois",
+          "role": "etape"
+        },
+        {
+          "slug": "baume-les-messieurs",
+          "nom": "Baume-les-Messieurs",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-chalon",
+          "nom": "Château-Chalon",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Reculées, cascades et Jura minéral",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine dans les plis calcaires du Jura",
+      "summary": "Sur 7 jours, ce thème permet de construire un vrai voyage de relief jurassien sans quitter cette ambiance de falaises, de sources et de villages encaissés. Dole et Arbois ouvrent le parcours avec une montée en douceur, puis Les Planches-près-Arbois, Salins-les-Bains, Baume-les-Messieurs et Château-Chalon donnent le cœur minéral le plus fort. Ensuite, la Source du Lison et Ornans prolongent très bien cette lecture d'une Franche-Comté d'eau froide, de reculées et de pierre vive. En van, l'ensemble fonctionne très bien parce qu'on avance par bassins proches, avec peu de longs trajets. Plusieurs sites du même secteur peuvent se visiter dans la même journée, ce qui laisse du temps pour profiter des routes panoramiques et des soirées dans les vallées.",
+      "overnightStyle": "Nuits typiques : ville de rivière, village de reculée, vallée fraîche, petite cité de source.",
+      "regionId": "franche-comte",
+      "itinerarySlug": "une-semaine-dans-les-plis-calcaires-du-jura",
+      "steps": [
+        {
+          "slug": "dole",
+          "nom": "Dole",
+          "role": "etape"
+        },
+        {
+          "slug": "arbois",
+          "nom": "Arbois",
+          "role": "etape"
+        },
+        {
+          "slug": "les-planches-pres-arbois",
+          "nom": "Les Planches-près-Arbois",
+          "role": "etape"
+        },
+        {
+          "slug": "salins-les-bains",
+          "nom": "Salins-les-Bains",
+          "role": "etape"
+        },
+        {
+          "slug": "baume-les-messieurs",
+          "nom": "Baume-les-Messieurs",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-chalon",
+          "nom": "Château-Chalon",
+          "role": "etape"
+        },
+        {
+          "slug": "source-du-lison",
+          "nom": "Source du Lison",
+          "role": "etape"
+        },
+        {
+          "slug": "ornans",
+          "nom": "Ornans",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Reculées, cascades et Jura minéral",
+      "durationHint": "10 jours",
+      "tripTitle": "Le grand voyage jurassien des falaises et des sources",
+      "summary": "En 10 jours, ce thème devient un très beau road trip de matière et de relief, où l'on peut réellement sentir la logique du Jura. Dole et Arbois donnent une entrée fluide, puis Les Planches-près-Arbois, Salins-les-Bains, Poligny, Baume-les-Messieurs et Château-Chalon construisent une séquence d'une rare cohérence. Ensuite, Source du Lison, Ornans, Lods et le Château de Cléron prolongent le voyage vers un Jura plus oriental, plus découpé, toujours très lié à l'eau et à la pierre. En van, cet itinéraire est particulièrement bon parce qu'il reste dans une même famille de paysages, avec des distances supportables et beaucoup d'étapes qui peuvent se regrouper. On garde ainsi du temps pour les belvédères, les villages et les fonds de vallée.",
+      "overnightStyle": "Nuits typiques : petite ville vigneronne, reculée fraîche, village de rivière, balcon calcaire.",
+      "regionId": "franche-comte",
+      "itinerarySlug": "le-grand-voyage-jurassien-des-falaises-et-des-sources",
+      "steps": [
+        {
+          "slug": "dole",
+          "nom": "Dole",
+          "role": "etape"
+        },
+        {
+          "slug": "arbois",
+          "nom": "Arbois",
+          "role": "etape"
+        },
+        {
+          "slug": "les-planches-pres-arbois",
+          "nom": "Les Planches-près-Arbois",
+          "role": "etape"
+        },
+        {
+          "slug": "salins-les-bains",
+          "nom": "Salins-les-Bains",
+          "role": "etape"
+        },
+        {
+          "slug": "poligny",
+          "nom": "Poligny",
+          "role": "etape"
+        },
+        {
+          "slug": "baume-les-messieurs",
+          "nom": "Baume-les-Messieurs",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-chalon",
+          "nom": "Château-Chalon",
+          "role": "etape"
+        },
+        {
+          "slug": "source-du-lison",
+          "nom": "Source du Lison",
+          "role": "etape"
+        },
+        {
+          "slug": "ornans",
+          "nom": "Ornans",
+          "role": "etape"
+        },
+        {
+          "slug": "lods",
+          "nom": "Lods",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-de-cleron",
+          "nom": "Château de Cléron",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Lacs, Haut-Jura et forêts fraîches",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours de sapins, de lacs clairs et de crêtes jurassiennes",
+      "summary": "Pour un format court, le meilleur choix est de se concentrer sur les lacs du Haut-Jura, où l'on passe très vite d'un plan d'eau à une forêt, puis à un belvédère. Clairvaux-les-Lacs donne un départ parfait, le lac de Vouglans et la plage de la Mercantine apportent une vraie séquence d'eau profonde, puis le Pic de l'Aigle referme le séjour sur une lecture plus panoramique du paysage. Le trajet est très crédible en van, avec peu de kilomètres et beaucoup d'espace. C'est un itinéraire parfait pour qui cherche une Franche-Comté fraîche, boisée, presque nordique par moments, avec de longues soirées au bord de l'eau et des journées qui peuvent rester très souples.",
+      "overnightStyle": "Nuits typiques : bord de lac, lisière de forêt, hauteur panoramique.",
+      "regionId": "franche-comte",
+      "itinerarySlug": "3-jours-de-sapins-de-lacs-clairs-et-de-cretes-jurassiennes",
+      "steps": [
+        {
+          "slug": "clairvaux-les-lacs",
+          "nom": "Clairvaux-les-Lacs",
+          "role": "etape"
+        },
+        {
+          "slug": "lac-de-vouglans",
+          "nom": "Lac de Vouglans",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-la-mercantine",
+          "nom": "Plage de la Mercantine",
+          "role": "etape"
+        },
+        {
+          "slug": "pic-de-laigle",
+          "nom": "Pic de l'Aigle",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Lacs, Haut-Jura et forêts fraîches",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine entre grands lacs et forts du Haut-Jura",
+      "summary": "Sur 7 jours, ce thème prend une vraie ampleur si l'on relie les lacs du Jura central aux hauteurs plus fraîches du Haut-Jura. Clairvaux-les-Lacs et Vouglans ouvrent le voyage avec de l'eau et de la forêt, puis Pic de l'Aigle et Orgelet donnent un premier relief. Ensuite, Saint-Claude, le Fort des Rousses, la plage des Rousses et la plage du lac Saint-Point composent une seconde moitié très cohérente, plus haute, plus nordique dans l'atmosphère. En van, le parcours fonctionne bien parce qu'il suit la logique des reliefs jurassiens sans retour inutile. Certaines étapes de lac peuvent se regrouper sur une même journée, ce qui laisse du temps pour marcher, se baigner ou simplement profiter des clairières et des soirs frais.",
+      "overnightStyle": "Nuits typiques : bord de lac, petite ville de montagne, plateau boisé, hautes terres jurassiennes.",
+      "regionId": "franche-comte",
+      "itinerarySlug": "une-semaine-entre-grands-lacs-et-forts-du-haut-jura",
+      "steps": [
+        {
+          "slug": "clairvaux-les-lacs",
+          "nom": "Clairvaux-les-Lacs",
+          "role": "etape"
+        },
+        {
+          "slug": "lac-de-vouglans",
+          "nom": "Lac de Vouglans",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-la-mercantine",
+          "nom": "Plage de la Mercantine",
+          "role": "etape"
+        },
+        {
+          "slug": "pic-de-laigle",
+          "nom": "Pic de l'Aigle",
+          "role": "etape"
+        },
+        {
+          "slug": "orgelet",
+          "nom": "Orgelet",
+          "role": "etape"
+        },
+        {
+          "slug": "saint-claude",
+          "nom": "Saint-Claude",
+          "role": "etape"
+        },
+        {
+          "slug": "fort-des-rousses",
+          "nom": "Fort des Rousses",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-des-rousses",
+          "nom": "Plage des Rousses",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-du-lac-saint-point",
+          "nom": "Plage du Lac Saint-Point",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Lacs, Haut-Jura et forêts fraîches",
+      "durationHint": "10 jours",
+      "tripTitle": "Le grand été frais du Jura comtois",
+      "summary": "En 10 jours, ce thème devient un vrai road trip de lacs, de sapins et de hauts plateaux, idéal en van pour l'été. Dole sert d'entrée douce avant Clairvaux-les-Lacs, Vouglans et la Mercantine. Puis viennent Pic de l'Aigle, Orgelet et Saint-Claude, qui donnent de la progression au relief. Le Fort des Rousses, la plage des Rousses, le lac Saint-Point, Pontarlier et le Château de Joux prolongent ensuite le voyage vers un Haut-Jura plus militaire, plus frontalier, toujours très cohérent. En van, le parcours tient très bien car il suit une montée naturelle vers le haut pays. Plusieurs haltes de lac peuvent se combiner, ce qui permet de garder des nuits longues dans les forêts et les plateaux.",
+      "overnightStyle": "Nuits typiques : petite ville de plaine, bord de lac, forêt du Haut-Jura, plateau d'altitude.",
+      "regionId": "franche-comte",
+      "itinerarySlug": "le-grand-ete-frais-du-jura-comtois",
+      "steps": [
+        {
+          "slug": "dole",
+          "nom": "Dole",
+          "role": "etape"
+        },
+        {
+          "slug": "clairvaux-les-lacs",
+          "nom": "Clairvaux-les-Lacs",
+          "role": "etape"
+        },
+        {
+          "slug": "lac-de-vouglans",
+          "nom": "Lac de Vouglans",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-la-mercantine",
+          "nom": "Plage de la Mercantine",
+          "role": "etape"
+        },
+        {
+          "slug": "pic-de-laigle",
+          "nom": "Pic de l'Aigle",
+          "role": "etape"
+        },
+        {
+          "slug": "orgelet",
+          "nom": "Orgelet",
+          "role": "etape"
+        },
+        {
+          "slug": "saint-claude",
+          "nom": "Saint-Claude",
+          "role": "etape"
+        },
+        {
+          "slug": "fort-des-rousses",
+          "nom": "Fort des Rousses",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-des-rousses",
+          "nom": "Plage des Rousses",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-du-lac-saint-point",
+          "nom": "Plage du Lac Saint-Point",
+          "role": "etape"
+        },
+        {
+          "slug": "pontarlier",
+          "nom": "Pontarlier",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-de-joux",
+          "nom": "Château de Joux",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Citadelles, forteresses et villes de caractère",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours de murailles, de citadelles et de rivières fortes",
+      "summary": "Pour un court séjour, ce thème fonctionne très bien car la Franche-Comté concentre plusieurs places fortes dans un périmètre crédible. Besançon donne l'ouverture la plus évidente avec sa citadelle et sa boucle, puis Ornans apporte un contrepoint plus resserré, avant le Château de Joux et Pontarlier pour finir sur une séquence plus haute, plus militaire et plus frontalière. En van, le rythme est idéal : on avance de ville en forteresse sans grands détours, avec assez de temps pour profiter des centres anciens et des vues. C'est un itinéraire parfait pour ceux qui aiment la pierre, les reliefs stratégiques et les vallées où l'histoire reste très lisible.",
+      "overnightStyle": "Nuits typiques : grande ville de rivière, petite cité encaissée, forteresse de hauteur.",
+      "regionId": "franche-comte",
+      "itinerarySlug": "3-jours-de-murailles-de-citadelles-et-de-rivieres-fortes",
+      "steps": [
+        {
+          "slug": "besancon",
+          "nom": "Besançon",
+          "role": "etape"
+        },
+        {
+          "slug": "ornans",
+          "nom": "Ornans",
+          "role": "etape"
+        },
+        {
+          "slug": "pontarlier",
+          "nom": "Pontarlier",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-de-joux",
+          "nom": "Château de Joux",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Citadelles, forteresses et villes de caractère",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine de places fortes comtoises",
+      "summary": "Sur 7 jours, ce thème permet de relier plusieurs visages du patrimoine défensif régional sans casser la cohérence. Belfort et sa Citadelle donnent une entrée très forte, puis Montbéliard apporte une première nuance plus urbaine. Ensuite, Besançon, Ornans, le Château de Belvoir, le Château d'Oricourt et Rougemont construisent un cœur de voyage très solide, entre vallée, plateau et architecture militaire ou seigneuriale. En van, l'enchaînement est bon parce qu'il reste dans une géographie resserrée du nord au centre de la région. Plusieurs châteaux proches peuvent se découvrir dans la même journée, ce qui laisse du temps pour les petites villes et les routes de campagne.",
+      "overnightStyle": "Nuits typiques : ville de forteresse, plateau boisé, petite cité de vallée, campagne noble.",
+      "regionId": "franche-comte",
+      "itinerarySlug": "une-semaine-de-places-fortes-comtoises",
+      "steps": [
+        {
+          "slug": "belfort",
+          "nom": "Belfort",
+          "role": "etape"
+        },
+        {
+          "slug": "citadelle-de-belfort",
+          "nom": "Citadelle de Belfort",
+          "role": "etape"
+        },
+        {
+          "slug": "montbeliard",
+          "nom": "Montbéliard",
+          "role": "etape"
+        },
+        {
+          "slug": "besancon",
+          "nom": "Besançon",
+          "role": "etape"
+        },
+        {
+          "slug": "ornans",
+          "nom": "Ornans",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-de-belvoir",
+          "nom": "Château de Belvoir",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-doricourt",
+          "nom": "Château d'Oricourt",
+          "role": "etape"
+        },
+        {
+          "slug": "rougemont",
+          "nom": "Rougemont",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Citadelles, forteresses et villes de caractère",
+      "durationHint": "10 jours",
+      "tripTitle": "La grande route des cités fortes de Franche-Comté",
+      "summary": "En 10 jours, ce thème devient un vrai voyage de places fortes, de vallées et de petites villes historiques, très satisfaisant en van. Belfort et sa Citadelle ouvrent logiquement le parcours, puis Montbéliard, Besançon et Dole posent la trame urbaine. Ensuite, Ornans, le Château de Cléron, Pontarlier, le Château de Joux, Belvoir, Oricourt et Pesmes donnent une seconde moitié très diverse, mais toujours cohérente, entre rivière, plateau et patrimoine fortifié. Le rythme reste crédible parce qu'on avance par blocs géographiques compacts. Certaines étapes proches, notamment autour d'Ornans et Cléron ou dans le nord franc-comtois, peuvent se combiner afin de garder plus de temps dans les villes et sur les belvédères.",
+      "overnightStyle": "Nuits typiques : ville fortifiée, vallée étroite, fort de hauteur, petite cité de rivière.",
+      "regionId": "franche-comte",
+      "itinerarySlug": "la-grande-route-des-cites-fortes-de-franche-comte",
+      "steps": [
+        {
+          "slug": "belfort",
+          "nom": "Belfort",
+          "role": "etape"
+        },
+        {
+          "slug": "citadelle-de-belfort",
+          "nom": "Citadelle de Belfort",
+          "role": "etape"
+        },
+        {
+          "slug": "montbeliard",
+          "nom": "Montbéliard",
+          "role": "etape"
+        },
+        {
+          "slug": "besancon",
+          "nom": "Besançon",
+          "role": "etape"
+        },
+        {
+          "slug": "dole",
+          "nom": "Dole",
+          "role": "etape"
+        },
+        {
+          "slug": "ornans",
+          "nom": "Ornans",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-de-cleron",
+          "nom": "Château de Cléron",
+          "role": "etape"
+        },
+        {
+          "slug": "pontarlier",
+          "nom": "Pontarlier",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-de-joux",
+          "nom": "Château de Joux",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-de-belvoir",
+          "nom": "Château de Belvoir",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-doricourt",
+          "nom": "Château d'Oricourt",
+          "role": "etape"
+        },
+        {
+          "slug": "pesmes",
+          "nom": "Pesmes",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Vosges comtoises, étangs et thermes discrets",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours de forêts profondes et d'eaux tranquilles",
+      "summary": "Pour un court voyage en van, le nord-ouest comtois offre une Franche-Comté très différente du Jura : plus boisée, plus douce, avec une belle continuité d'étangs, de villages et de stations thermales. Luxeuil-les-Bains lance très bien le parcours, puis Saint-Valbert et l'Écomusée de la Cerise installent une ambiance forestière et rurale, avant Plombières-les-Bains en point d'orgue plus patrimonial. Le rythme est particulièrement agréable sur trois jours, car tout se tient dans un même paysage de moyenne montagne basse et de clairières. C'est un séjour idéal pour qui cherche le calme, les forêts, les petites routes et une région moins attendue, mais très attachante.",
+      "overnightStyle": "Nuits typiques : station thermale, clairière forestière, vallée douce des Vosges comtoises.",
+      "regionId": "franche-comte",
+      "itinerarySlug": "3-jours-de-forets-profondes-et-deaux-tranquilles",
+      "steps": [
+        {
+          "slug": "luxeuil-les-bains",
+          "nom": "Luxeuil-les-Bains",
+          "role": "etape"
+        },
+        {
+          "slug": "saint-valbert",
+          "nom": "Saint-Valbert",
+          "role": "etape"
+        },
+        {
+          "slug": "ecomusee-de-la-cerise",
+          "nom": "Écomusée de la Cerise",
+          "role": "etape"
+        },
+        {
+          "slug": "plombieres-les-bains",
+          "nom": "Plombières-les-Bains",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Vosges comtoises, étangs et thermes discrets",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine de thermes, d'étangs et de collines du nord",
+      "summary": "Sur 7 jours, ce thème permet d'explorer un visage très singulier de la Franche-Comté, entre Haute-Saône et Territoire de Belfort. Vesoul et la plage de Vaivre-et-Montoille donnent une entrée plus douce, puis Luxeuil-les-Bains et Saint-Valbert recentrent le parcours sur les forêts et les eaux. Ensuite, l'Écomusée de la Cerise, Plombières-les-Bains, Belfort, l'Étang des Forges et le lac du Malsaucy construisent une très belle seconde moitié, plus variée, très agréable en van. Le rythme est cohérent, avec une montée progressive vers un nord-est plus lacustre et plus boisé. Certaines étapes d'étangs peuvent se grouper sur une même journée, ce qui laisse du temps pour les petites villes et les routes sous les arbres.",
+      "overnightStyle": "Nuits typiques : ville d'étang, station thermale, forêt, bord de lac du nord comtois.",
+      "regionId": "franche-comte",
+      "itinerarySlug": "une-semaine-de-thermes-detangs-et-de-collines-du-nord",
+      "steps": [
+        {
+          "slug": "vesoul",
+          "nom": "Vesoul",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-vaivre-et-montoille",
+          "nom": "Plage de Vaivre-et-Montoille",
+          "role": "etape"
+        },
+        {
+          "slug": "luxeuil-les-bains",
+          "nom": "Luxeuil-les-Bains",
+          "role": "etape"
+        },
+        {
+          "slug": "saint-valbert",
+          "nom": "Saint-Valbert",
+          "role": "etape"
+        },
+        {
+          "slug": "ecomusee-de-la-cerise",
+          "nom": "Écomusée de la Cerise",
+          "role": "etape"
+        },
+        {
+          "slug": "plombieres-les-bains",
+          "nom": "Plombières-les-Bains",
+          "role": "etape"
+        },
+        {
+          "slug": "belfort",
+          "nom": "Belfort",
+          "role": "etape"
+        },
+        {
+          "slug": "etang-des-forges",
+          "nom": "Étang des Forges",
+          "role": "etape"
+        },
+        {
+          "slug": "lac-du-malsaucy",
+          "nom": "Lac du Malsaucy",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Vosges comtoises, étangs et thermes discrets",
+      "durationHint": "10 jours",
+      "tripTitle": "Le grand nord comtois entre forges, thermes et lacs",
+      "summary": "En 10 jours, ce thème devient un vrai voyage de lisière, entre Haute-Saône, Belfort et premiers reliefs vosgiens. Gray et Vesoul ouvrent le parcours avec une Franche-Comté plus douce, puis Vaivre-et-Montoille, Luxeuil-les-Bains, Saint-Valbert et l'Écomusée de la Cerise donnent un cœur forestier très solide. Ensuite, Plombières-les-Bains, Belfort, l'Étang des Forges, le lac du Malsaucy, Giromagny et Rougegoutte prolongent le voyage vers un nord-est plus vallonné. En van, l'itinéraire est très agréable car il avance par paliers logiques, avec beaucoup de petites routes et de paysages d'eau ou de forêt. Certaines haltes lacustres ou thermales peuvent se regrouper facilement pour garder des soirées plus longues au calme.",
+      "overnightStyle": "Nuits typiques : rivière paisible, station thermale, étang forestier, vallée des Vosges comtoises.",
+      "regionId": "franche-comte",
+      "itinerarySlug": "le-grand-nord-comtois-entre-forges-thermes-et-lacs",
+      "steps": [
+        {
+          "slug": "gray",
+          "nom": "Gray",
+          "role": "etape"
+        },
+        {
+          "slug": "vesoul",
+          "nom": "Vesoul",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-vaivre-et-montoille",
+          "nom": "Plage de Vaivre-et-Montoille",
+          "role": "etape"
+        },
+        {
+          "slug": "luxeuil-les-bains",
+          "nom": "Luxeuil-les-Bains",
+          "role": "etape"
+        },
+        {
+          "slug": "saint-valbert",
+          "nom": "Saint-Valbert",
+          "role": "etape"
+        },
+        {
+          "slug": "ecomusee-de-la-cerise",
+          "nom": "Écomusée de la Cerise",
+          "role": "etape"
+        },
+        {
+          "slug": "plombieres-les-bains",
+          "nom": "Plombières-les-Bains",
+          "role": "etape"
+        },
+        {
+          "slug": "belfort",
+          "nom": "Belfort",
+          "role": "etape"
+        },
+        {
+          "slug": "etang-des-forges",
+          "nom": "Étang des Forges",
+          "role": "etape"
+        },
+        {
+          "slug": "lac-du-malsaucy",
+          "nom": "Lac du Malsaucy",
+          "role": "etape"
+        },
+        {
+          "slug": "giromagny",
+          "nom": "Giromagny",
+          "role": "etape"
+        },
+        {
+          "slug": "rougegoutte",
+          "nom": "Rougegoutte",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    }
+  ]
 }

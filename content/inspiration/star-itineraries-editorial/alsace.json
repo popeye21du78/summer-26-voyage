@@ -1,3 +1,739 @@
 {
-  "itineraries": []
+  "itineraries": [
+    {
+      "themeTitle": "Route des vins et villages parfaits",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours entre colombages, vignes et remparts fleuris",
+      "summary": "Pour un court voyage en van, ce parcours concentre l'Alsace la plus séduisante sans forcer les kilomètres. Obernai ouvre très bien le séjour avec son centre vivant et sa douceur de piémont, Mittelbergheim apporte une ambiance plus confidentielle, puis Ribeauvillé et Riquewihr enchaînent deux silhouettes majeures de la route des vins avant un final à Kaysersberg. L'intérêt du trajet tient à sa densité : on traverse des paysages cohérents, des villages très proches les uns des autres et une Alsace de carte postale qui garde pourtant du relief quand on prend le temps de flâner hors des axes les plus fréquentés. Plusieurs villages du cœur viticole peuvent se regrouper sur une même journée, ce qui permet de garder du temps pour les caves, les ruelles et les points de vue sur les coteaux.",
+      "overnightStyle": "Nuits typiques : bourg viticole, petite ville de piémont, village de carte postale.",
+      "regionId": "alsace",
+      "itinerarySlug": "3-jours-entre-colombages-vignes-et-remparts-fleuris",
+      "steps": [
+        {
+          "slug": "obernai",
+          "nom": "Obernai",
+          "role": "etape"
+        },
+        {
+          "slug": "mittelbergheim",
+          "nom": "Mittelbergheim",
+          "role": "etape"
+        },
+        {
+          "slug": "ribeauville",
+          "nom": "Ribeauvillé",
+          "role": "etape"
+        },
+        {
+          "slug": "riquewihr",
+          "nom": "Riquewihr",
+          "role": "etape"
+        },
+        {
+          "slug": "kaysersberg",
+          "nom": "Kaysersberg",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Route des vins et villages parfaits",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine sur la colonne vertebrale des vins d'Alsace",
+      "summary": "Sur 7 jours, ce thème prend une vraie ampleur en suivant le piémont alsacien du nord vers le sud. Barr et Andlau posent d'abord une Alsace plus calme, plus boisée et déjà très vineuse, avant qu'Obernai et Mittelbergheim ne donnent un cœur de parcours très équilibré. Plus bas, Ribeauvillé, Riquewihr, Kaysersberg et Eguisheim déroulent ensuite les grands noms, mais l'intérêt est justement de les relier plutôt que de les consommer séparément. En van, le rythme est très confortable : peu de longues traversées, beaucoup de petites étapes, et la possibilité de regrouper plusieurs villages sur une même journée selon l'envie. C'est un voyage idéal pour qui veut mêler belles rues, vues sur les vignes, caves et fins de journée dans des bourgs à taille humaine, sans perdre la cohérence géographique du trajet.",
+      "overnightStyle": "Nuits typiques : village viticole, petite ville élégante, coteaux au pied des Vosges.",
+      "regionId": "alsace",
+      "itinerarySlug": "une-semaine-sur-la-colonne-vertebrale-des-vins-dalsace",
+      "steps": [
+        {
+          "slug": "barr",
+          "nom": "Barr",
+          "role": "etape"
+        },
+        {
+          "slug": "andlau",
+          "nom": "Andlau",
+          "role": "etape"
+        },
+        {
+          "slug": "obernai",
+          "nom": "Obernai",
+          "role": "etape"
+        },
+        {
+          "slug": "mittelbergheim",
+          "nom": "Mittelbergheim",
+          "role": "etape"
+        },
+        {
+          "slug": "ribeauville",
+          "nom": "Ribeauvillé",
+          "role": "etape"
+        },
+        {
+          "slug": "riquewihr",
+          "nom": "Riquewihr",
+          "role": "etape"
+        },
+        {
+          "slug": "kaysersberg",
+          "nom": "Kaysersberg",
+          "role": "etape"
+        },
+        {
+          "slug": "eguisheim",
+          "nom": "Eguisheim",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Route des vins et villages parfaits",
+      "durationHint": "10 jours",
+      "tripTitle": "La grande traversee des villages de vigne alsaciens",
+      "summary": "En 10 jours, on peut assumer un vrai voyage viticole sans qu'il tourne à la répétition, à condition de faire varier les ambiances. Strasbourg offre une grande porte d'entrée urbaine avant de filer vers le piémont, puis Obernai, Barr et Mittelbergheim installent progressivement le décor des vignes, des places pavées et des maisons soignées. Plus au sud, Sélestat sert de charnière, avant le chapelet Ribeauvillé, Riquewihr, Kaysersberg, Turckheim, Eguisheim et Rouffach, qui permet de nuancer les atmosphères entre villages icônes et étapes un peu moins attendues. En van, ce parcours est particulièrement agréable parce qu'il suit une ligne claire, évite les détours inutiles et laisse la liberté de ralentir. Plusieurs villages très proches peuvent se visiter sur la même journée, ce qui donne de vraies soirées au calme dans les coteaux.",
+      "overnightStyle": "Nuits typiques : ville d'entree, bourg viticole, village panoramique, lisiere de coteaux.",
+      "regionId": "alsace",
+      "itinerarySlug": "la-grande-traversee-des-villages-de-vigne-alsaciens",
+      "steps": [
+        {
+          "slug": "strasbourg",
+          "nom": "Strasbourg",
+          "role": "etape"
+        },
+        {
+          "slug": "obernai",
+          "nom": "Obernai",
+          "role": "etape"
+        },
+        {
+          "slug": "barr",
+          "nom": "Barr",
+          "role": "etape"
+        },
+        {
+          "slug": "mittelbergheim",
+          "nom": "Mittelbergheim",
+          "role": "etape"
+        },
+        {
+          "slug": "selestat",
+          "nom": "Sélestat",
+          "role": "etape"
+        },
+        {
+          "slug": "ribeauville",
+          "nom": "Ribeauvillé",
+          "role": "etape"
+        },
+        {
+          "slug": "riquewihr",
+          "nom": "Riquewihr",
+          "role": "etape"
+        },
+        {
+          "slug": "kaysersberg",
+          "nom": "Kaysersberg",
+          "role": "etape"
+        },
+        {
+          "slug": "turckheim",
+          "nom": "Turckheim",
+          "role": "etape"
+        },
+        {
+          "slug": "eguisheim",
+          "nom": "Eguisheim",
+          "role": "etape"
+        },
+        {
+          "slug": "rouffach",
+          "nom": "Rouffach",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Chateaux, remparts et Alsace medievale",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours de forteresses au-dessus des vignes",
+      "summary": "Ce format court fonctionne très bien en Alsace parce que quelques grandes silhouettes suffisent à créer un voyage très fort. Obernai met d'abord en jambes avec une ville de piémont très lisible, le Château du Haut-Koenigsbourg apporte ensuite le grand choc visuel du thème, puis Ribeauvillé et Kaysersberg prolongent la lecture médiévale avec deux étapes qui combinent village, relief et vieille pierre. En van, l'ensemble reste très raisonnable : peu de distance, une logique simple le long des Vosges et des étapes qui se complètent sans faire doublon. C'est un itinéraire idéal pour ceux qui aiment les crêtes, les remparts, les tours et les bourgades dominées par des ruines ou des forteresses, avec assez de temps pour profiter du soir dans les centres anciens.",
+      "overnightStyle": "Nuits typiques : ville de piémont, bourg fortifie, village sous un chateau.",
+      "regionId": "alsace",
+      "itinerarySlug": "3-jours-de-forteresses-au-dessus-des-vignes",
+      "steps": [
+        {
+          "slug": "obernai",
+          "nom": "Obernai",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-du-haut-koenigsbourg",
+          "nom": "Château du Haut-Koenigsbourg",
+          "role": "etape"
+        },
+        {
+          "slug": "ribeauville",
+          "nom": "Ribeauvillé",
+          "role": "etape"
+        },
+        {
+          "slug": "kaysersberg",
+          "nom": "Kaysersberg",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Chateaux, remparts et Alsace medievale",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine de citadelles, de tours et de villages sous garde",
+      "summary": "Sur 7 jours, ce thème gagne en variété si l'on relie les châteaux perchés aux villes et villages qui vivaient dans leur orbite. Saverne et le Château de Lichtenberg ouvrent le parcours au nord avec une Alsace plus gréseuse, plus forestière, avant que Neuwiller-lès-Saverne et le Château de Fleckenstein n'apportent une profondeur supplémentaire. Ensuite, on redescend vers le centre avec le Château du Haut-Koenigsbourg, Ribeauvillé et Kaysersberg, qui resserrent le voyage autour d'une Alsace plus connue mais très efficace visuellement. En van, l'itinéraire fonctionne bien parce qu'il dessine une descente logique le long du massif vosgien. Plusieurs châteaux du nord peuvent se combiner dans la même journée, ce qui permet de garder des nuits plus posées dans les petites villes ou au pied des reliefs.",
+      "overnightStyle": "Nuits typiques : petite ville fortifiee, bourg forestier, village au pied des remparts.",
+      "regionId": "alsace",
+      "itinerarySlug": "une-semaine-de-citadelles-de-tours-et-de-villages-sous-garde",
+      "steps": [
+        {
+          "slug": "saverne",
+          "nom": "Saverne",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-de-lichtenberg",
+          "nom": "Château de Lichtenberg",
+          "role": "etape"
+        },
+        {
+          "slug": "neuwiller-les-saverne",
+          "nom": "Neuwiller-lès-Saverne",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-de-fleckenstein",
+          "nom": "Château de Fleckenstein",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-du-haut-koenigsbourg",
+          "nom": "Château du Haut-Koenigsbourg",
+          "role": "etape"
+        },
+        {
+          "slug": "ribeauville",
+          "nom": "Ribeauvillé",
+          "role": "etape"
+        },
+        {
+          "slug": "kaysersberg",
+          "nom": "Kaysersberg",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Chateaux, remparts et Alsace medievale",
+      "durationHint": "10 jours",
+      "tripTitle": "La route des forteresses vosgiennes en 10 jours",
+      "summary": "En 10 jours, ce thème devient un très beau voyage de crêtes, de pierres roses et de silhouettes médiévales. Wissembourg donne un départ frontalier très fort, puis le Château de Fleckenstein et Niederbronn-les-Bains installent une Alsace du nord plus secrète. Saverne, Marmoutier et Rosheim font ensuite la transition vers un centre de région plus construit, avant le grand bloc médiéval du sud : Château du Haut-Koenigsbourg, Sélestat, Ribeauvillé, Kaysersberg et enfin Neuf-Brisach pour un final plus géométrique, plus militaire, mais parfaitement cohérent avec le thème. En van, le rythme est bon parce qu'on suit une grande diagonale nord-sud sans revenir sur ses pas. Certains bourgs du Bas-Rhin peuvent se regrouper sur une même journée, ce qui laisse des soirées plus longues dans les secteurs les plus forts visuellement.",
+      "overnightStyle": "Nuits typiques : ville de frontiere, vallee boisee, bourg historique, place forte remarquable.",
+      "regionId": "alsace",
+      "itinerarySlug": "la-route-des-forteresses-vosgiennes-en-10-jours",
+      "steps": [
+        {
+          "slug": "wissembourg",
+          "nom": "Wissembourg",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-de-fleckenstein",
+          "nom": "Château de Fleckenstein",
+          "role": "etape"
+        },
+        {
+          "slug": "niederbronn-les-bains",
+          "nom": "Niederbronn-les-Bains",
+          "role": "etape"
+        },
+        {
+          "slug": "saverne",
+          "nom": "Saverne",
+          "role": "etape"
+        },
+        {
+          "slug": "marmoutier",
+          "nom": "Marmoutier",
+          "role": "etape"
+        },
+        {
+          "slug": "rosheim",
+          "nom": "Rosheim",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-du-haut-koenigsbourg",
+          "nom": "Château du Haut-Koenigsbourg",
+          "role": "etape"
+        },
+        {
+          "slug": "selestat",
+          "nom": "Sélestat",
+          "role": "etape"
+        },
+        {
+          "slug": "ribeauville",
+          "nom": "Ribeauvillé",
+          "role": "etape"
+        },
+        {
+          "slug": "kaysersberg",
+          "nom": "Kaysersberg",
+          "role": "etape"
+        },
+        {
+          "slug": "neuf-brisach",
+          "nom": "Neuf-Brisach",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Forets, gres rose et Vosges secrètes",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours dans l'Alsace des sous-bois et des rochers",
+      "summary": "Pour un séjour court, le nord des Vosges alsaciennes offre sans doute le meilleur équilibre entre immersion et simplicité logistique. Niederbronn-les-Bains sert de base douce et verte, la Boucle du Karsprung apporte très vite le sentiment de forêt profonde et de relief sculpté, puis le Château de Fleckenstein prolonge ce décor de grès rose et de vallons boisés avec une intensité supplémentaire. En van, le trajet est particulièrement cohérent parce qu'il tient dans un périmètre réduit, loin des foules de la route des vins, tout en gardant une vraie densité de paysages. C'est un format idéal pour ceux qui veulent marcher, rouler peu et retrouver le soir une ambiance de clairière, de petite station ou de vallée forestière plutôt qu'un centre très touristique.",
+      "overnightStyle": "Nuits typiques : station verte, lisiere de foret, vallee de gres rose.",
+      "regionId": "alsace",
+      "itinerarySlug": "3-jours-dans-lalsace-des-sous-bois-et-des-rochers",
+      "steps": [
+        {
+          "slug": "niederbronn-les-bains",
+          "nom": "Niederbronn-les-Bains",
+          "role": "etape"
+        },
+        {
+          "slug": "boucle-du-karsprung",
+          "nom": "Boucle du Karsprung",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-de-fleckenstein",
+          "nom": "Château de Fleckenstein",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Forets, gres rose et Vosges secrètes",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine de sentiers, de vallées et de rochers roses",
+      "summary": "Sur 7 jours, le thème prend une vraie profondeur en reliant les forêts du nord aux premières vallées du sud. Wissembourg et le Sentier paysager passe-frontière n°1 donnent d'abord un début très frontalier, presque en balcon, avant que le Château de Fleckenstein, Niederbronn-les-Bains et le Karsprung ne déploient toute l'Alsace des sous-bois. Puis Saverne permet une transition plus bâtie vers le centre, avant une bascule au sud avec Munster et le Circuit du col Amic, qui apportent une montagne plus ouverte et plus panoramique. En van, cette grande diagonale est crédible si l'on accepte un voyage tourné vers la nature et les petites villes. Certaines boucles ou randonnées se regroupent facilement sur une même journée, ce qui laisse du temps pour de vraies nuits en vallée ou en lisière de forêt.",
+      "overnightStyle": "Nuits typiques : bourg frontalier, forêt profonde, vallee vosgienne, col ou piémont.",
+      "regionId": "alsace",
+      "itinerarySlug": "une-semaine-de-sentiers-de-vallees-et-de-rochers-roses",
+      "steps": [
+        {
+          "slug": "wissembourg",
+          "nom": "Wissembourg",
+          "role": "etape"
+        },
+        {
+          "slug": "sentier-paysager-passe-frontiere-n1",
+          "nom": "Sentier paysager passe-frontière n°1",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-de-fleckenstein",
+          "nom": "Château de Fleckenstein",
+          "role": "etape"
+        },
+        {
+          "slug": "niederbronn-les-bains",
+          "nom": "Niederbronn-les-Bains",
+          "role": "etape"
+        },
+        {
+          "slug": "boucle-du-karsprung",
+          "nom": "Boucle du Karsprung",
+          "role": "etape"
+        },
+        {
+          "slug": "saverne",
+          "nom": "Saverne",
+          "role": "etape"
+        },
+        {
+          "slug": "munster",
+          "nom": "Munster",
+          "role": "etape"
+        },
+        {
+          "slug": "circuit-du-col-amic",
+          "nom": "Circuit du col Amic",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Forets, gres rose et Vosges secrètes",
+      "durationHint": "10 jours",
+      "tripTitle": "La traversee verte des Vosges alsaciennes",
+      "summary": "En 10 jours, ce thème devient un vrai voyage de relief, de marche et de respiration. On démarre logiquement au nord avec Wissembourg, le Sentier paysager passe-frontière n°1, le Château de Fleckenstein et Niederbronn-les-Bains, qui posent d'emblée une Alsace forestière, rocheuse et plus secrète. Saverne et le Château de Lichtenberg prolongent cette matière de grès rose, avant de glisser vers le centre et le sud avec Sainte-Marie-aux-Mines, Munster, Lautenbach, Murbach et enfin le Lac de Kruth-Wildenstein. En van, l'ensemble fonctionne très bien parce qu'il suit le bord vosgien sans rupture majeure et ménage des étapes assez variées pour ne jamais lasser. Certaines randonnées et villages de vallée peuvent se coupler le même jour, ce qui permet de garder du temps pour les cols, les abbayes et les grands paysages vosgiens.",
+      "overnightStyle": "Nuits typiques : clairiere forestiere, ville de vallee, bourg de montagne, lac ou hautes Vosges.",
+      "regionId": "alsace",
+      "itinerarySlug": "la-traversee-verte-des-vosges-alsaciennes",
+      "steps": [
+        {
+          "slug": "wissembourg",
+          "nom": "Wissembourg",
+          "role": "etape"
+        },
+        {
+          "slug": "sentier-paysager-passe-frontiere-n1",
+          "nom": "Sentier paysager passe-frontière n°1",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-de-fleckenstein",
+          "nom": "Château de Fleckenstein",
+          "role": "etape"
+        },
+        {
+          "slug": "niederbronn-les-bains",
+          "nom": "Niederbronn-les-Bains",
+          "role": "etape"
+        },
+        {
+          "slug": "saverne",
+          "nom": "Saverne",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-de-lichtenberg",
+          "nom": "Château de Lichtenberg",
+          "role": "etape"
+        },
+        {
+          "slug": "sainte-marie-aux-mines",
+          "nom": "Sainte-Marie-aux-Mines",
+          "role": "etape"
+        },
+        {
+          "slug": "munster",
+          "nom": "Munster",
+          "role": "etape"
+        },
+        {
+          "slug": "lautenbach",
+          "nom": "Lautenbach",
+          "role": "etape"
+        },
+        {
+          "slug": "murbach",
+          "nom": "Murbach",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-du-lac-de-kruth-wildenstein",
+          "nom": "Plage du Lac de Kruth-Wildenstein",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Villes d'art, humanisme et Alsace habitée",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours entre canaux, facades et places tres vivantes",
+      "summary": "Ce court voyage est pensé pour ceux qui veulent une Alsace plus urbaine, sans renoncer au charme ni à la douceur de parcours en van. Strasbourg offre une entrée puissante avec son centre magistral, ses quais et sa densité patrimoniale, Obernai apporte ensuite une respiration plus compacte et plus gourmande, avant un final à Colmar où l'image alsacienne se fait plus picturale, plus délicate, presque liquide autour des canaux et des maisons colorées. Le parcours est simple, crédible et très fluide du nord au sud. C'est une bonne formule pour varier les ambiances sans courir après les spots : une grande ville, une petite ville très tenue, puis une cité qui concentre toute la douceur rhénane. Les distances restent sages, ce qui laisse du temps pour marcher, flâner et profiter de soirées pleines d'atmosphère.",
+      "overnightStyle": "Nuits typiques : grande ville patrimoniale, petite ville elegante, cite d'art tres habitee.",
+      "regionId": "alsace",
+      "itinerarySlug": "3-jours-entre-canaux-facades-et-places-tres-vivantes",
+      "steps": [
+        {
+          "slug": "strasbourg",
+          "nom": "Strasbourg",
+          "role": "etape"
+        },
+        {
+          "slug": "obernai",
+          "nom": "Obernai",
+          "role": "etape"
+        },
+        {
+          "slug": "colmar",
+          "nom": "Colmar",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Villes d'art, humanisme et Alsace habitée",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine de villes a taille humaine et de centres anciens brillants",
+      "summary": "Sur 7 jours, on peut construire un parcours très équilibré entre les grandes villes et les centres historiques plus resserrés. Strasbourg lance le voyage avec ampleur, Saverne ajoute une première étape plus douce, puis Rosheim et Obernai offrent un cœur de parcours très cohérent au pied des Vosges. Sélestat et Colmar prolongent cette Alsace humaniste, cultivée et très lisible, avant un final à Turckheim, qui introduit une tonalité plus intime. En van, le trajet fonctionne très bien parce qu'il suit un axe évident du nord au sud et permet de dormir dans des lieux variés sans compliquer la route. Plusieurs villes du centre peuvent se visiter au cours d'une même journée si l'on veut ménager plus de temps à Strasbourg ou Colmar. C'est l'itinéraire idéal pour ceux qui aiment les façades, les places, les clochers et la vie de rue plus que les grands détours nature.",
+      "overnightStyle": "Nuits typiques : centre historique anime, petite ville de piémont, cite d'art, bourg vigneron.",
+      "regionId": "alsace",
+      "itinerarySlug": "une-semaine-de-villes-a-taille-humaine-et-de-centres-anciens-brillants",
+      "steps": [
+        {
+          "slug": "strasbourg",
+          "nom": "Strasbourg",
+          "role": "etape"
+        },
+        {
+          "slug": "saverne",
+          "nom": "Saverne",
+          "role": "etape"
+        },
+        {
+          "slug": "rosheim",
+          "nom": "Rosheim",
+          "role": "etape"
+        },
+        {
+          "slug": "obernai",
+          "nom": "Obernai",
+          "role": "etape"
+        },
+        {
+          "slug": "selestat",
+          "nom": "Sélestat",
+          "role": "etape"
+        },
+        {
+          "slug": "colmar",
+          "nom": "Colmar",
+          "role": "etape"
+        },
+        {
+          "slug": "turckheim",
+          "nom": "Turckheim",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Villes d'art, humanisme et Alsace habitée",
+      "durationHint": "10 jours",
+      "tripTitle": "L'Alsace des places, des clochers et des villes que l'on habite",
+      "summary": "En 10 jours, ce thème permet de raconter une Alsace plus nuancée que la simple succession de villages fleuris. Strasbourg donne l'élan, Wissembourg apporte une couleur frontalière très singulière, puis Saverne, Rosheim, Obernai et Sélestat dessinent un chapelet de villes et de bourgs où l'on sent la région vivre au-delà de l'image de carte postale. Plus au sud, Colmar reste évidemment incontournable, mais Turckheim, Guebwiller et Thann permettent d'aller chercher des tonalités plus variées, entre piémont, vallée et ville de caractère. En van, le parcours est souple et logique, avec beaucoup de courtes étapes qui laissent respirer les journées. Certaines petites villes du Bas-Rhin peuvent se regrouper, ce qui permet de garder de longues soirées dans les centres les plus vibrants ou sur des aires plus tranquilles à leur lisière.",
+      "overnightStyle": "Nuits typiques : grande ville, bourg frontalier, petite cite vivante, ville de vallee ou de piémont.",
+      "regionId": "alsace",
+      "itinerarySlug": "lalsace-des-places-des-clochers-et-des-villes-que-lon-habite",
+      "steps": [
+        {
+          "slug": "strasbourg",
+          "nom": "Strasbourg",
+          "role": "etape"
+        },
+        {
+          "slug": "wissembourg",
+          "nom": "Wissembourg",
+          "role": "etape"
+        },
+        {
+          "slug": "saverne",
+          "nom": "Saverne",
+          "role": "etape"
+        },
+        {
+          "slug": "rosheim",
+          "nom": "Rosheim",
+          "role": "etape"
+        },
+        {
+          "slug": "obernai",
+          "nom": "Obernai",
+          "role": "etape"
+        },
+        {
+          "slug": "selestat",
+          "nom": "Sélestat",
+          "role": "etape"
+        },
+        {
+          "slug": "colmar",
+          "nom": "Colmar",
+          "role": "etape"
+        },
+        {
+          "slug": "turckheim",
+          "nom": "Turckheim",
+          "role": "etape"
+        },
+        {
+          "slug": "guebwiller",
+          "nom": "Guebwiller",
+          "role": "etape"
+        },
+        {
+          "slug": "thann",
+          "nom": "Thann",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Memoires, frontieres et Alsace du Nord",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours au bord de l'Alsace des frontières",
+      "summary": "Pour un week-end prolongé, l'Alsace du Nord offre un thème très fort, plus rare et très cohérent en van. Wissembourg donne tout de suite le ton avec son air de ville frontière, Schweigen-Rechtenbach - Grenzlandtour prolonge cette sensation de lisière européenne, puis Hunspach apporte un final plus paisible, presque intemporel, tandis que les Chemins de la Mémoire ajoutent une profondeur historique sans casser le rythme. Le parcours tient sur peu de kilomètres et fonctionne donc très bien pour un séjour court, surtout si l'on veut éviter les grands pôles touristiques du centre Alsace. C'est un voyage de nuances : frontière, mémoire, villages soignés, routes plus discrètes et campagnes ordonnées. En van, on gagne ici un rapport plus calme au territoire, avec des nuits plus sereines et des étapes qui parlent autant d'histoire que de paysage.",
+      "overnightStyle": "Nuits typiques : ville frontaliere, campagne du nord, village paisible et tres ordonne.",
+      "regionId": "alsace",
+      "itinerarySlug": "3-jours-au-bord-de-lalsace-des-frontieres",
+      "steps": [
+        {
+          "slug": "wissembourg",
+          "nom": "Wissembourg",
+          "role": "etape"
+        },
+        {
+          "slug": "schweigen-rechtenbach---grenzlandtour",
+          "nom": "Schweigen-Rechtenbach - Grenzlandtour",
+          "role": "etape"
+        },
+        {
+          "slug": "hunspach",
+          "nom": "Hunspach",
+          "role": "etape"
+        },
+        {
+          "slug": "les-chemins-de-la-memoire",
+          "nom": "Les Chemins de la Mémoire",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Memoires, frontieres et Alsace du Nord",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine sur les lignes du nord alsacien",
+      "summary": "Sur 7 jours, ce thème devient un très beau voyage de frontière, de villages et de mémoire diffuse. Wissembourg et la Grenzlandtour posent d'abord le décor d'une Alsace ouverte sur l'Allemagne, puis Hunspach apporte une tonalité plus calme et rurale. Niederbronn-les-Bains et les Chemins de la Mémoire donnent ensuite plus de profondeur historique au parcours, avant que Neuwiller-lès-Saverne, Saverne et Marmoutier ne referment le voyage sur une Alsace plus monumentale, mais toujours ancrée dans le nord. En van, l'ensemble est très cohérent parce qu'il reste dans une seule grande moitié de région, avec des transitions courtes et progressives. Plusieurs étapes du secteur de Wissembourg et Hunspach peuvent facilement se combiner, ce qui laisse plus de temps aux forêts, aux petites routes et aux haltes dans les bourgs.",
+      "overnightStyle": "Nuits typiques : bourg frontalier, village ordonne, station verte, petite ville d'histoire.",
+      "regionId": "alsace",
+      "itinerarySlug": "une-semaine-sur-les-lignes-du-nord-alsacien",
+      "steps": [
+        {
+          "slug": "wissembourg",
+          "nom": "Wissembourg",
+          "role": "etape"
+        },
+        {
+          "slug": "schweigen-rechtenbach---grenzlandtour",
+          "nom": "Schweigen-Rechtenbach - Grenzlandtour",
+          "role": "etape"
+        },
+        {
+          "slug": "hunspach",
+          "nom": "Hunspach",
+          "role": "etape"
+        },
+        {
+          "slug": "niederbronn-les-bains",
+          "nom": "Niederbronn-les-Bains",
+          "role": "etape"
+        },
+        {
+          "slug": "les-chemins-de-la-memoire",
+          "nom": "Les Chemins de la Mémoire",
+          "role": "etape"
+        },
+        {
+          "slug": "neuwiller-les-saverne",
+          "nom": "Neuwiller-lès-Saverne",
+          "role": "etape"
+        },
+        {
+          "slug": "saverne",
+          "nom": "Saverne",
+          "role": "etape"
+        },
+        {
+          "slug": "marmoutier",
+          "nom": "Marmoutier",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Memoires, frontieres et Alsace du Nord",
+      "durationHint": "10 jours",
+      "tripTitle": "Le grand nord alsacien, entre mémoire et lignes de crête",
+      "summary": "En 10 jours, ce thème prend toute sa force parce qu'il assume un voyage moins évident, mais très riche, dans le nord et le centre de l'Alsace. Strasbourg sert d'ouverture pour donner une assise urbaine au récit, avant de monter vers Wissembourg, la Grenzlandtour et Hunspach, où la question de la frontière devient très concrète. Niederbronn-les-Bains, les Chemins de la Mémoire et le Château de Fleckenstein donnent ensuite un cœur de parcours plus forestier et plus historique, avant de redescendre vers Neuwiller-lès-Saverne, Saverne, Marmoutier et Rosheim. En van, cette boucle allongée reste très crédible parce qu'elle évite les grands zigzags et s'appuie sur un ensemble de routes courtes, de paysages ordonnés et de villes faciles à vivre. C'est un itinéraire fort pour qui cherche une Alsace moins photogénique au premier regard, mais plus singulière.",
+      "overnightStyle": "Nuits typiques : grande ville d'entree, frontière verte, bourg forestier, petite ville d'histoire.",
+      "regionId": "alsace",
+      "itinerarySlug": "le-grand-nord-alsacien-entre-memoire-et-lignes-de-crete",
+      "steps": [
+        {
+          "slug": "strasbourg",
+          "nom": "Strasbourg",
+          "role": "etape"
+        },
+        {
+          "slug": "wissembourg",
+          "nom": "Wissembourg",
+          "role": "etape"
+        },
+        {
+          "slug": "schweigen-rechtenbach---grenzlandtour",
+          "nom": "Schweigen-Rechtenbach - Grenzlandtour",
+          "role": "etape"
+        },
+        {
+          "slug": "hunspach",
+          "nom": "Hunspach",
+          "role": "etape"
+        },
+        {
+          "slug": "niederbronn-les-bains",
+          "nom": "Niederbronn-les-Bains",
+          "role": "etape"
+        },
+        {
+          "slug": "les-chemins-de-la-memoire",
+          "nom": "Les Chemins de la Mémoire",
+          "role": "etape"
+        },
+        {
+          "slug": "chateau-de-fleckenstein",
+          "nom": "Château de Fleckenstein",
+          "role": "etape"
+        },
+        {
+          "slug": "neuwiller-les-saverne",
+          "nom": "Neuwiller-lès-Saverne",
+          "role": "etape"
+        },
+        {
+          "slug": "saverne",
+          "nom": "Saverne",
+          "role": "etape"
+        },
+        {
+          "slug": "marmoutier",
+          "nom": "Marmoutier",
+          "role": "etape"
+        },
+        {
+          "slug": "rosheim",
+          "nom": "Rosheim",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    }
+  ]
 }

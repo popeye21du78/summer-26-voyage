@@ -1,3 +1,410 @@
 {
-  "itineraries": []
-}
+  "itineraries": [
+  {
+  "themeTitle": "Vallée de la Dordogne et villages rouges",
+  "durationHint": "3 jours",
+  "tripTitle": "Autour de Collonges, la Corrèze la plus spectaculaire",
+  "summary": "Pour un court séjour, le sud de la Corrèze offre sans doute le concentré le plus fort du Limousin. Cet itinéraire s’articule autour de Collonges-la-Rouge, puis s’étire vers Curemonte et Turenne, trois villages emblématiques mais suffisamment proches pour former un vrai parcours cohérent. On est ici dans une géographie douce, de collines et de vallons, où chaque étape offre un point de vue, une pierre différente, une ambiance singulière. En van, c’est un itinéraire parfait : peu de route, beaucoup de charme, et la sensation constante d’être dans un décor préservé. Trois jours suffisent pour profiter pleinement de cette Corrèze lumineuse, élégante et très accessible.",
+  "overnightStyle": "Nuits typiques : village perché, petite place de pierre, colline douce du sud corrézien.",
+  "regionId": "limousin",
+  "itinerarySlug": "dordogne-villages-rouges-3j",
+  "steps": [
+  {
+  "slug": "collonges-la-rouge",
+  "nom": "Collonges-la-Rouge",
+  "role": "etape"
+  },
+  {
+  "slug": "curemonte",
+  "nom": "Curemonte",
+  "role": "etape"
+  },
+  {
+  "slug": "turenne",
+  "nom": "Turenne",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": []
+  },
+  {
+  "themeTitle": "Vallée de la Dordogne et villages rouges",
+  "durationHint": "7 jours",
+  "tripTitle": "De Brive aux rives de la Dordogne, la Corrèze complète",
+  "summary": "Sur une semaine, cet itinéraire permet de structurer un vrai voyage dans le sud corrézien, sans dispersion. On démarre à Brive-la-Gaillarde avant de plonger dans les villages emblématiques : Turenne, Collonges-la-Rouge et Curemonte. Ensuite, le parcours s’ouvre vers la vallée de la Dordogne avec Beaulieu-sur-Dordogne et Argentat-sur-Dordogne, qui apportent un autre rythme, plus fluvial et plus paisible. La boucle se referme par Tulle et Uzerche, offrant une montée progressive vers une Corrèze plus intérieure. L’ensemble fonctionne très bien en van : des étapes équilibrées, des distances courtes et une vraie variété d’ambiances entre villages de pierre, rivières et petites villes.",
+  "overnightStyle": "Nuits typiques : village classé, bord de rivière, petite ville corrézienne.",
+  "regionId": "limousin",
+  "itinerarySlug": "dordogne-villages-rouges-7j",
+  "steps": [
+  {
+  "slug": "brive-la-gaillarde",
+  "nom": "Brive-la-Gaillarde",
+  "role": "etape"
+  },
+  {
+  "slug": "turenne",
+  "nom": "Turenne",
+  "role": "etape"
+  },
+  {
+  "slug": "collonges-la-rouge",
+  "nom": "Collonges-la-Rouge",
+  "role": "etape"
+  },
+  {
+  "slug": "curemonte",
+  "nom": "Curemonte",
+  "role": "etape"
+  },
+  {
+  "slug": "beaulieu-sur-dordogne",
+  "nom": "Beaulieu-sur-Dordogne",
+  "role": "etape"
+  },
+  {
+  "slug": "argentat-sur-dordogne",
+  "nom": "Argentat-sur-Dordogne",
+  "role": "etape"
+  },
+  {
+  "slug": "tulle",
+  "nom": "Tulle",
+  "role": "etape"
+  },
+  {
+  "slug": "uzerche",
+  "nom": "Uzerche",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Vallée de la Dordogne",
+  "raison": "Nommer la vallée renforcerait la cohérence du fil entre Beaulieu et Argentat.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Vallée de la Dordogne et villages rouges",
+  "durationHint": "10 jours",
+  "tripTitle": "Grande traversée corrézienne, des villages rouges aux plateaux",
+  "summary": "Cet itinéraire long permet de donner toute sa profondeur à la Corrèze. On commence par Brive et les villages emblématiques du sud, puis l’on remonte progressivement vers la Dordogne avec Beaulieu et Argentat. La seconde partie du voyage gagne en relief et en solitude avec Égletons, Meymac et Treignac, avant de redescendre vers Uzerche. Ce parcours fonctionne particulièrement bien en van car il construit une progression naturelle : des terres les plus fréquentées vers des paysages plus vastes et plus calmes. On change de rythme sans jamais casser la cohérence. C’est un road trip complet, très équilibré, qui montre une Corrèze multiple mais toujours harmonieuse.",
+  "overnightStyle": "Nuits typiques : village classé, bord de Dordogne, plateau forestier, petite ville ancienne.",
+  "regionId": "limousin",
+  "itinerarySlug": "dordogne-villages-rouges-10j",
+  "steps": [
+  {
+  "slug": "brive-la-gaillarde",
+  "nom": "Brive-la-Gaillarde",
+  "role": "etape"
+  },
+  {
+  "slug": "turenne",
+  "nom": "Turenne",
+  "role": "etape"
+  },
+  {
+  "slug": "collonges-la-rouge",
+  "nom": "Collonges-la-Rouge",
+  "role": "etape"
+  },
+  {
+  "slug": "curemonte",
+  "nom": "Curemonte",
+  "role": "etape"
+  },
+  {
+  "slug": "beaulieu-sur-dordogne",
+  "nom": "Beaulieu-sur-Dordogne",
+  "role": "etape"
+  },
+  {
+  "slug": "argentat-sur-dordogne",
+  "nom": "Argentat-sur-Dordogne",
+  "role": "etape"
+  },
+  {
+  "slug": "egletons",
+  "nom": "Égletons",
+  "role": "etape"
+  },
+  {
+  "slug": "meymac",
+  "nom": "Meymac",
+  "role": "etape"
+  },
+  {
+  "slug": "treignac",
+  "nom": "Treignac",
+  "role": "etape"
+  },
+  {
+  "slug": "uzerche",
+  "nom": "Uzerche",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": []
+  },
+  {
+  "themeTitle": "Plateaux, lacs et forêts du Limousin",
+  "durationHint": "3 jours",
+  "tripTitle": "Autour du lac de Vassivière, nature et grand air",
+  "summary": "Pour un court séjour nature, le plateau de Millevaches et le lac de Vassivière sont une évidence. Cet itinéraire reste volontairement compact : Vassivière comme cœur du séjour, Treignac en porte d’entrée et Royère-de-Vassivière pour prolonger l’expérience au bord de l’eau. Le voyage privilégie les ambiances plutôt que les kilomètres : forêts, rives calmes, petites routes et grands horizons. En van, c’est un format idéal, avec de nombreux endroits pour se poser et un rythme très libre. On est ici dans un Limousin apaisé, presque montagnard, où le temps s’étire facilement sur trois jours.",
+  "overnightStyle": "Nuits typiques : bord de lac, clairière forestière, petit bourg du plateau.",
+  "regionId": "limousin",
+  "itinerarySlug": "plateaux-lacs-vassiviere-3j",
+  "steps": [
+  {
+  "slug": "treignac",
+  "nom": "Treignac",
+  "role": "etape"
+  },
+  {
+  "slug": "lac-de-vassiviere-royere-de-vassiviere",
+  "nom": "Lac de Vassivière, Royère-de-Vassivière",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-vassiviere",
+  "nom": "Plage de Vassivière",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": []
+  },
+  {
+  "themeTitle": "Plateaux, lacs et forêts du Limousin",
+  "durationHint": "7 jours",
+  "tripTitle": "Le plateau de Millevaches et les terres d'eau",
+  "summary": "Sur une semaine, le Limousin révèle son visage le plus sauvage et le plus apaisant. On part de Limoges avant de gagner Saint-Léonard-de-Noblat, puis de monter progressivement vers le lac de Vassivière. Le cœur du voyage se joue ensuite entre Royère, Treignac et Meymac, où les paysages deviennent plus ouverts, plus silencieux. La boucle passe par Uzerche pour retrouver une structure plus urbaine avant de revenir vers le nord. En van, cet itinéraire est particulièrement agréable : peu de densité, beaucoup d’espaces, et une vraie liberté de s’arrêter. C’est un voyage de respiration, parfait pour ceux qui cherchent le calme et les grands paysages discrets.",
+  "overnightStyle": "Nuits typiques : bord de lac, plateau forestier, petite cité de rivière.",
+  "regionId": "limousin",
+  "itinerarySlug": "plateaux-lacs-vassiviere-7j",
+  "steps": [
+  {
+  "slug": "limoges",
+  "nom": "Limoges",
+  "role": "etape"
+  },
+  {
+  "slug": "cite-medievale-de-saint-leonard-de-noblat",
+  "nom": "Cité médiévale de Saint-Léonard-de-Noblat",
+  "role": "etape"
+  },
+  {
+  "slug": "lac-de-vassiviere-royere-de-vassiviere",
+  "nom": "Lac de Vassivière, Royère-de-Vassivière",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-vassiviere",
+  "nom": "Plage de Vassivière",
+  "role": "etape"
+  },
+  {
+  "slug": "treignac",
+  "nom": "Treignac",
+  "role": "etape"
+  },
+  {
+  "slug": "meymac",
+  "nom": "Meymac",
+  "role": "etape"
+  },
+  {
+  "slug": "uzerche",
+  "nom": "Uzerche",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Plateau de Millevaches",
+  "raison": "Permettrait de nommer clairement le fil naturel du voyage.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Plateaux, lacs et forêts du Limousin",
+  "durationHint": "10 jours",
+  "tripTitle": "Le Limousin sauvage, des lacs aux terres creusoises",
+  "summary": "En dix jours, cet itinéraire construit un véritable voyage de nature entre Haute-Vienne et Creuse. On part de Limoges puis de Saint-Léonard-de-Noblat, avant de monter vers Vassivière. Le parcours se prolonge ensuite vers Guéret, Crozant et Ahun, qui ouvrent sur une Creuse plus vallonnée et artistique. La fin vers Aubusson et Felletin donne une vraie identité culturelle au voyage. Ce road trip fonctionne très bien en van car il privilégie la continuité des paysages et évite les détours inutiles. On passe progressivement des lacs aux vallées, puis aux petites villes de caractère. C’est un Limousin profond, discret et très attachant.",
+  "overnightStyle": "Nuits typiques : bord de lac, vallée creusoise, petite ville artisanale.",
+  "regionId": "limousin",
+  "itinerarySlug": "plateaux-lacs-vassiviere-10j",
+  "steps": [
+  {
+  "slug": "limoges",
+  "nom": "Limoges",
+  "role": "etape"
+  },
+  {
+  "slug": "cite-medievale-de-saint-leonard-de-noblat",
+  "nom": "Cité médiévale de Saint-Léonard-de-Noblat",
+  "role": "etape"
+  },
+  {
+  "slug": "lac-de-vassiviere-royere-de-vassiviere",
+  "nom": "Lac de Vassivière, Royère-de-Vassivière",
+  "role": "etape"
+  },
+  {
+  "slug": "gueret",
+  "nom": "Guéret",
+  "role": "etape"
+  },
+  {
+  "slug": "crozant",
+  "nom": "Crozant",
+  "role": "etape"
+  },
+  {
+  "slug": "ahun",
+  "nom": "Ahun",
+  "role": "etape"
+  },
+  {
+  "slug": "aubusson",
+  "nom": "Aubusson",
+  "role": "etape"
+  },
+  {
+  "slug": "felletin",
+  "nom": "Felletin",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": []
+  },
+  {
+  "themeTitle": "Patrimoine roman et mémoire limousins",
+  "durationHint": "3 jours",
+  "tripTitle": "Autour de Limoges, entre histoire et spiritualité",
+  "summary": "Ce court itinéraire propose une lecture patrimoniale très cohérente du Limousin. Limoges constitue le point de départ évident, avant de rejoindre l’Abbaye de Solignac puis Saint-Léonard-de-Noblat. L’ensemble fonctionne comme un trip autour des racines médiévales et religieuses de la région, avec des distances très courtes et un rythme fluide. En van, c’est une excellente option pour un week-end culturel sans contrainte : peu de kilomètres, des sites forts et une ambiance paisible. Le parcours reste simple mais très juste, et permet de comprendre rapidement l’identité historique du territoire.",
+  "overnightStyle": "Nuits typiques : ville historique, village d’abbaye, petite cité médiévale.",
+  "regionId": "limousin",
+  "itinerarySlug": "patrimoine-roman-limousin-3j",
+  "steps": [
+  {
+  "slug": "limoges",
+  "nom": "Limoges",
+  "role": "etape"
+  },
+  {
+  "slug": "abbaye-de-solignac",
+  "nom": "Abbaye de Solignac",
+  "role": "etape"
+  },
+  {
+  "slug": "cite-medievale-de-saint-leonard-de-noblat",
+  "nom": "Cité médiévale de Saint-Léonard-de-Noblat",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": []
+  },
+  {
+  "themeTitle": "Patrimoine roman et mémoire limousins",
+  "durationHint": "7 jours",
+  "tripTitle": "Entre abbayes, châteaux et mémoire du XXe siècle",
+  "summary": "Sur une semaine, cet itinéraire propose une lecture plus complète du patrimoine limousin. Limoges ouvre le voyage, puis Solignac et Saint-Léonard-de-Noblat installent l’héritage religieux. Le passage par Oradour-sur-Glane apporte une dimension mémorielle forte, avant de rejoindre Rochechouart et Saint-Junien. L’ensemble fonctionne bien en van grâce à une géographie compacte et lisible. On alterne lieux majeurs et petites étapes sans surcharger le parcours. C’est un itinéraire équilibré, qui ne se limite pas à une époque et permet de comprendre différentes couches de l’histoire régionale.",
+  "overnightStyle": "Nuits typiques : ville historique, village de mémoire, petite cité patrimoniale.",
+  "regionId": "limousin",
+  "itinerarySlug": "patrimoine-roman-limousin-7j",
+  "steps": [
+  {
+  "slug": "limoges",
+  "nom": "Limoges",
+  "role": "etape"
+  },
+  {
+  "slug": "abbaye-de-solignac",
+  "nom": "Abbaye de Solignac",
+  "role": "etape"
+  },
+  {
+  "slug": "cite-medievale-de-saint-leonard-de-noblat",
+  "nom": "Cité médiévale de Saint-Léonard-de-Noblat",
+  "role": "etape"
+  },
+  {
+  "slug": "oradour-sur-glane",
+  "nom": "Oradour-sur-Glane",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-rochechouart",
+  "nom": "Château de Rochechouart",
+  "role": "etape"
+  },
+  {
+  "slug": "collegiale-saint-junien",
+  "nom": "Collégiale Saint-Junien",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": []
+  },
+  {
+  "themeTitle": "Patrimoine roman et mémoire limousins",
+  "durationHint": "10 jours",
+  "tripTitle": "Le Limousin historique, des abbayes aux châteaux creusois",
+  "summary": "Cette version longue construit un véritable voyage historique à travers toute la région. On part de Limoges, puis Solignac et Saint-Léonard-de-Noblat, avant de passer par Oradour-sur-Glane et Rochechouart. Ensuite, le parcours gagne la Creuse avec Bourganeuf, Bénévent-l'Abbaye et le Château de Villemonteix, avant de finir vers Aubusson. L’itinéraire est très cohérent en van car il suit une progression naturelle du centre vers l’est, sans allers-retours. Il mêle patrimoine religieux, mémoire, châteaux et savoir-faire. C’est un road trip riche mais lisible, qui permet de découvrir le Limousin dans toute sa profondeur historique.",
+  "overnightStyle": "Nuits typiques : ville ancienne, abbaye, bourg creusois, village de château.",
+  "regionId": "limousin",
+  "itinerarySlug": "patrimoine-roman-limousin-10j",
+  "steps": [
+  {
+  "slug": "limoges",
+  "nom": "Limoges",
+  "role": "etape"
+  },
+  {
+  "slug": "abbaye-de-solignac",
+  "nom": "Abbaye de Solignac",
+  "role": "etape"
+  },
+  {
+  "slug": "cite-medievale-de-saint-leonard-de-noblat",
+  "nom": "Cité médiévale de Saint-Léonard-de-Noblat",
+  "role": "etape"
+  },
+  {
+  "slug": "oradour-sur-glane",
+  "nom": "Oradour-sur-Glane",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-rochechouart",
+  "nom": "Château de Rochechouart",
+  "role": "etape"
+  },
+  {
+  "slug": "bourganeuf",
+  "nom": "Bourganeuf",
+  "role": "etape"
+  },
+  {
+  "slug": "benevent-labbaye",
+  "nom": "Bénévent-l'Abbaye",
+  "role": "etape"
+  },
+  {
+  "slug": "chateau-de-villemonteix-saint-pardoux-les-cards",
+  "nom": "Château de Villemonteix, Saint-Pardoux-les-Cards",
+  "role": "etape"
+  },
+  {
+  "slug": "aubusson",
+  "nom": "Aubusson",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": []
+  }
+  ]
+  }
+  

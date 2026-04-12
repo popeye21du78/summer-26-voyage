@@ -1,3 +1,894 @@
 {
-  "itineraries": []
+  "itineraries": [
+    {
+      "themeTitle": "Grand sud corse, falaises blanches et plages iconiques",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours entre Bonifacio, criques blondes et granite du sud",
+      "summary": "Pour un court voyage en van, le sud de la Corse offre sans doute le plus fort concentré d'images sans imposer de longues liaisons. Bonifacio donne immédiatement la puissance du relief et du calcaire, puis les plages de Paragan, Saint-Antoine et La Tonnara prolongent le séjour dans une logique de caps, de criques et de lumière très franche. Le trajet peut se terminer vers Porto-Vecchio avec Santa Giulia pour ouvrir davantage l'horizon balnéaire. Le rythme est parfait sur trois jours : peu de route, des ambiances très nettes, et assez de temps pour profiter du bord de mer sans courir. Plusieurs plages du secteur bonifacien peuvent se regrouper dans la même journée, ce qui laisse de longues fins d'après-midi sur les falaises ou au bord de l'eau.",
+      "overnightStyle": "Nuits typiques : cité perchée, bord de crique, littoral très ouvert du sud.",
+      "regionId": "corse",
+      "itinerarySlug": "3-jours-entre-bonifacio-criques-blondes-et-granite-du-sud",
+      "steps": [
+        {
+          "slug": "bonifacio",
+          "nom": "Bonifacio",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-paragan",
+          "nom": "Plage de Paragan",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-saint-antoine",
+          "nom": "Plage de Saint-Antoine",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-la-tonnara",
+          "nom": "Plage de La Tonnara",
+          "role": "etape"
+        },
+        {
+          "slug": "porto-vecchio",
+          "nom": "Porto-Vecchio",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-santa-giulia",
+          "nom": "Plage de Santa Giulia",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Grand sud corse, falaises blanches et plages iconiques",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine de granite blond et de lagons corses",
+      "summary": "Sur 7 jours, ce thème prend une vraie ampleur en reliant le sud-ouest et l'extrême sud sans casser la cohérence du voyage. Ajaccio et Porticcio ouvrent le parcours sur une façade plus large et plus douce, puis Mare e Sole et Cupabia installent la séquence des grandes plages. Propriano et Campomoro servent de transition très naturelle avant Sartène, Roccapina et Tizzano, qui donnent une Corse plus minérale et plus secrète. Ensuite viennent Bonifacio, Porto-Vecchio, Palombaggia et Santa Giulia pour un final plus spectaculaire. En van, le trajet fonctionne très bien parce qu'il suit le littoral dans un seul mouvement. Plusieurs plages proches peuvent se visiter dans la même journée, ce qui laisse de vrais temps de pause au bord de l'eau ou dans les villages du soir.",
+      "overnightStyle": "Nuits typiques : golfe habité, plage ouverte, petit port du sud, cité perchée ou station balnéaire.",
+      "regionId": "corse",
+      "itinerarySlug": "une-semaine-de-granite-blond-et-de-lagons-corses",
+      "steps": [
+        {
+          "slug": "ajaccio",
+          "nom": "Ajaccio",
+          "role": "etape"
+        },
+        {
+          "slug": "porticcio",
+          "nom": "Porticcio",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-mare-e-sole",
+          "nom": "Plage de Mare e Sole",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-cupabia",
+          "nom": "Plage de Cupabia",
+          "role": "etape"
+        },
+        {
+          "slug": "propriano",
+          "nom": "Propriano",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-campomoro",
+          "nom": "Plage de Campomoro",
+          "role": "etape"
+        },
+        {
+          "slug": "sartene",
+          "nom": "Sartène",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-roccapina",
+          "nom": "Plage de Roccapina",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-tizzano",
+          "nom": "Plage de Tizzano",
+          "role": "etape"
+        },
+        {
+          "slug": "bonifacio",
+          "nom": "Bonifacio",
+          "role": "etape"
+        },
+        {
+          "slug": "porto-vecchio",
+          "nom": "Porto-Vecchio",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-palombaggia",
+          "nom": "Plage de Palombaggia",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-santa-giulia",
+          "nom": "Plage de Santa Giulia",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Grand sud corse, falaises blanches et plages iconiques",
+      "durationHint": "10 jours",
+      "tripTitle": "Le grand ruban du sud corse en 10 jours",
+      "summary": "En 10 jours, ce thème devient un vrai voyage côtier du golfe d'Ajaccio jusqu'aux falaises du sud-est. Ajaccio et Porticcio donnent l'entrée urbaine et lumineuse, puis Mare e Sole, Cupabia et Propriano déroulent une première moitié très balnéaire. Sartène apporte un ancrage plus rude avant Tizzano, Roccapina et Bonifacio, où la côte devient plus spectaculaire. Le parcours se prolonge naturellement vers Porto-Vecchio, Palombaggia et Santa Giulia, avant une remontée possible par Conca pour donner un dernier contrepoint plus terrestre. En van, l'ensemble est crédible parce qu'il suit le littoral sans grands retours. Plusieurs plages très proches peuvent se combiner sur une même journée, ce qui permet de garder des nuits plus longues dans les secteurs les plus beaux et d'éviter un voyage trop pressé.",
+      "overnightStyle": "Nuits typiques : golfe du sud-ouest, village de granit, bord de plage, falaise ou pinède du sud.",
+      "regionId": "corse",
+      "itinerarySlug": "le-grand-ruban-du-sud-corse-en-10-jours",
+      "steps": [
+        {
+          "slug": "ajaccio",
+          "nom": "Ajaccio",
+          "role": "etape"
+        },
+        {
+          "slug": "porticcio",
+          "nom": "Porticcio",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-mare-e-sole",
+          "nom": "Plage de Mare e Sole",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-cupabia",
+          "nom": "Plage de Cupabia",
+          "role": "etape"
+        },
+        {
+          "slug": "propriano",
+          "nom": "Propriano",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-campomoro",
+          "nom": "Plage de Campomoro",
+          "role": "etape"
+        },
+        {
+          "slug": "sartene",
+          "nom": "Sartène",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-tizzano",
+          "nom": "Plage de Tizzano",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-roccapina",
+          "nom": "Plage de Roccapina",
+          "role": "etape"
+        },
+        {
+          "slug": "bonifacio",
+          "nom": "Bonifacio",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-paragan",
+          "nom": "Plage de Paragan",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-la-tonnara",
+          "nom": "Plage de La Tonnara",
+          "role": "etape"
+        },
+        {
+          "slug": "porto-vecchio",
+          "nom": "Porto-Vecchio",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-palombaggia",
+          "nom": "Plage de Palombaggia",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-santa-giulia",
+          "nom": "Plage de Santa Giulia",
+          "role": "etape"
+        },
+        {
+          "slug": "conca",
+          "nom": "Conca",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Balagne, villages perchés et plages claires",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours de pierre chaude entre Calvi et l'Île Rousse",
+      "summary": "Pour un court séjour, la Balagne offre l'un des meilleurs condensés corses : citadelle, villages perchés, plages blondes et routes très agréables en van. Calvi donne immédiatement une forte présence maritime, Lumio et Pigna installent une Corse plus habitée et plus artisanale, puis Sant'Antonino apporte le grand balcon perché avant Île Rousse et la plage de Bodri pour finir sur l'eau. Le rythme est parfait sur trois jours, car tout se tient dans un même petit territoire, avec très peu de kilomètres perdus. Plusieurs villages de Balagne peuvent se découvrir sur une même journée, ce qui laisse du temps pour les criques, les couchers de soleil et les haltes lentes dans des bourgs très serrés mais jamais figés.",
+      "overnightStyle": "Nuits typiques : citadelle maritime, village perché, bord de plage claire.",
+      "regionId": "corse",
+      "itinerarySlug": "3-jours-de-pierre-chaude-entre-calvi-et-lile-rousse",
+      "steps": [
+        {
+          "slug": "calvi",
+          "nom": "Calvi",
+          "role": "etape"
+        },
+        {
+          "slug": "lumio",
+          "nom": "Lumio",
+          "role": "etape"
+        },
+        {
+          "slug": "pigna",
+          "nom": "Pigna",
+          "role": "etape"
+        },
+        {
+          "slug": "santantonino",
+          "nom": "Sant'Antonino",
+          "role": "etape"
+        },
+        {
+          "slug": "ile-rousse",
+          "nom": "Île Rousse",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-bodri",
+          "nom": "Plage de Bodri",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Balagne, villages perchés et plages claires",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine de Balagne entre art, mer et villages en balcon",
+      "summary": "Sur 7 jours, ce thème permet de vivre la Balagne comme un territoire complet, pas seulement une carte postale littorale. Calvi et sa plage donnent d'abord une entrée très forte, puis Lumio, Pigna, Sant'Antonino et Algajola construisent une belle séquence de villages et de petites stations. Île Rousse et la plage de Bodri prolongent naturellement la route avant une ouverture vers Lozari et l'Ostriconi, qui donnent plus d'espace au voyage. En van, le parcours est excellent parce qu'il reste très compact tout en offrant une grande variété de haltes. Plusieurs villages perchés peuvent se visiter le même jour, ce qui libère du temps pour la plage ou pour les soirées dans les hauteurs, là où la Balagne devient vraiment inoubliable.",
+      "overnightStyle": "Nuits typiques : citadelle, village d'artisans, petit bourg perché, plage ouverte de Balagne.",
+      "regionId": "corse",
+      "itinerarySlug": "une-semaine-de-balagne-entre-art-mer-et-villages-en-balcon",
+      "steps": [
+        {
+          "slug": "calvi",
+          "nom": "Calvi",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-calvi",
+          "nom": "Plage de Calvi",
+          "role": "etape"
+        },
+        {
+          "slug": "lumio",
+          "nom": "Lumio",
+          "role": "etape"
+        },
+        {
+          "slug": "pigna",
+          "nom": "Pigna",
+          "role": "etape"
+        },
+        {
+          "slug": "santantonino",
+          "nom": "Sant'Antonino",
+          "role": "etape"
+        },
+        {
+          "slug": "algajola",
+          "nom": "Algajola",
+          "role": "etape"
+        },
+        {
+          "slug": "ile-rousse",
+          "nom": "Île Rousse",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-bodri",
+          "nom": "Plage de Bodri",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-lozari",
+          "nom": "Plage de Lozari",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-lostriconi",
+          "nom": "Plage de l'Ostriconi",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Balagne, villages perchés et plages claires",
+      "durationHint": "10 jours",
+      "tripTitle": "La grande Balagne et son nord sauvage en 10 jours",
+      "summary": "En 10 jours, ce thème prend une vraie dimension de voyage lent, entre citadelles, villages en nid d'aigle et plages très ouvertes. Calvi, Lumio, Pigna et Sant'Antonino forment le cœur le plus évident, puis Algajola, Île Rousse et Bodri prolongent la route de mer. Ensuite, Lozari, Ostriconi et Lama<->Monte Astu donnent une Balagne élargie, plus sauvage, plus minérale, avant Moltifao pour ouvrir vers l'intérieur. En van, l'ensemble fonctionne très bien car on peut répartir les journées entre bords de mer et hauteurs sans jamais casser la cohérence géographique. Plusieurs haltes littorales peuvent se combiner facilement, ce qui laisse de vrais temps pour les villages, les couchers de soleil et les routes qui montent vers les reliefs.",
+      "overnightStyle": "Nuits typiques : citadelle balnéaire, village perché, plage sauvage, piémont plus secret.",
+      "regionId": "corse",
+      "itinerarySlug": "la-grande-balagne-et-son-nord-sauvage-en-10-jours",
+      "steps": [
+        {
+          "slug": "calvi",
+          "nom": "Calvi",
+          "role": "etape"
+        },
+        {
+          "slug": "lumio",
+          "nom": "Lumio",
+          "role": "etape"
+        },
+        {
+          "slug": "pigna",
+          "nom": "Pigna",
+          "role": "etape"
+        },
+        {
+          "slug": "santantonino",
+          "nom": "Sant'Antonino",
+          "role": "etape"
+        },
+        {
+          "slug": "algajola",
+          "nom": "Algajola",
+          "role": "etape"
+        },
+        {
+          "slug": "ile-rousse",
+          "nom": "Île Rousse",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-bodri",
+          "nom": "Plage de Bodri",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-lozari",
+          "nom": "Plage de Lozari",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-lostriconi",
+          "nom": "Plage de l'Ostriconi",
+          "role": "etape"
+        },
+        {
+          "slug": "lama-monte-astu",
+          "nom": "Lama<->Monte Astu",
+          "role": "etape"
+        },
+        {
+          "slug": "moltifao",
+          "nom": "Moltifao",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Ouest minéral, golfe de Porto et Corse rouge",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours entre calanques rouges et golfes verticaux",
+      "summary": "Pour un format court, la façade ouest entre Cargèse et Porto offre un des plus beaux itinéraires de l'île, très simple à vivre en van. Cargèse donne une belle entrée lumineuse, puis Piana et les Calanques de Piana font monter immédiatement l'intensité du paysage. Porto sert de base naturelle pour compléter avec la plage de Ficajola ou Arone selon l'envie. Le grand intérêt de ce parcours est son unité visuelle : falaises rouges, golfes étroits, villages suspendus, et une mer qui semble entrer dans la roche. Les kilomètres restent raisonnables, mais les routes demandent du temps, ce qui renforce encore la pertinence d'un séjour court très concentré. Plusieurs arrêts côtiers peuvent se regrouper sur une même journée, en gardant de longues soirées face aux falaises.",
+      "overnightStyle": "Nuits typiques : village suspendu, golfe rocheux, petit port très encaissé.",
+      "regionId": "corse",
+      "itinerarySlug": "3-jours-entre-calanques-rouges-et-golfes-verticaux",
+      "steps": [
+        {
+          "slug": "cargese",
+          "nom": "Cargèse",
+          "role": "etape"
+        },
+        {
+          "slug": "piana",
+          "nom": "Piana",
+          "role": "etape"
+        },
+        {
+          "slug": "calanques-de-piana",
+          "nom": "Calanques de Piana",
+          "role": "etape"
+        },
+        {
+          "slug": "porto",
+          "nom": "Porto",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-ficajola",
+          "nom": "Plage de Ficajola",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-darone",
+          "nom": "Plage d'Arone",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Ouest minéral, golfe de Porto et Corse rouge",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine sur la côte des falaises rouges",
+      "summary": "Sur 7 jours, ce thème permet de relier le golfe d'Ajaccio au golfe de Porto dans un seul grand mouvement très spectaculaire. Ajaccio et Porticcio ouvrent le voyage, puis la boucle littorale de Capu di Muru et Mare e Sole donnent un premier contact avec un littoral très découpé. Ensuite, Cargèse, Piana, les Calanques de Piana, Porto, Ficajola et Arone enchaînent des paysages qui comptent parmi les plus puissants de Corse. En van, l'itinéraire est très cohérent parce qu'il suit la côte ouest sans retour inutile, même si les routes demandent du temps. Plusieurs haltes très proches autour de Piana et Porto peuvent se vivre dans la même journée, ce qui laisse de vraies respirations face à la mer et à la roche rouge.",
+      "overnightStyle": "Nuits typiques : golfe ouvert, village grec, balcon minéral, port encaissé.",
+      "regionId": "corse",
+      "itinerarySlug": "une-semaine-sur-la-cote-des-falaises-rouges",
+      "steps": [
+        {
+          "slug": "ajaccio",
+          "nom": "Ajaccio",
+          "role": "etape"
+        },
+        {
+          "slug": "porticcio",
+          "nom": "Porticcio",
+          "role": "etape"
+        },
+        {
+          "slug": "boucle-littorale-de-capu-di-muru",
+          "nom": "Boucle Littorale de Capu di Muru",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-mare-e-sole",
+          "nom": "Plage de Mare e Sole",
+          "role": "etape"
+        },
+        {
+          "slug": "cargese",
+          "nom": "Cargèse",
+          "role": "etape"
+        },
+        {
+          "slug": "piana",
+          "nom": "Piana",
+          "role": "etape"
+        },
+        {
+          "slug": "calanques-de-piana",
+          "nom": "Calanques de Piana",
+          "role": "etape"
+        },
+        {
+          "slug": "porto",
+          "nom": "Porto",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-ficajola",
+          "nom": "Plage de Ficajola",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-darone",
+          "nom": "Plage d'Arone",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Ouest minéral, golfe de Porto et Corse rouge",
+      "durationHint": "10 jours",
+      "tripTitle": "Le grand ouest corse, de golfe en falaises",
+      "summary": "En 10 jours, ce thème devient un vrai road trip de façade occidentale, parfaitement pensé pour le van. Ajaccio et Porticcio posent d'abord l'ambiance du golfe, puis Mare e Sole, Cupabia, Propriano et Campomoro donnent une première séquence plus douce vers le sud-ouest. Ensuite, Cargèse, Piana, les Calanques de Piana et Porto ouvrent la partie la plus minérale du voyage, avant Arone, Ota et la Tour Génoise d'Omigna pour allonger encore le récit côtier. Le rythme reste crédible car on suit une seule grande logique de rivage. Certaines plages ou boucles littorales peuvent se regrouper sur une même journée, ce qui permet de garder des nuits longues dans les secteurs les plus spectaculaires et d'accepter le temps imposé par les routes corses.",
+      "overnightStyle": "Nuits typiques : grand golfe, plage de l'ouest, village suspendu, port minéral.",
+      "regionId": "corse",
+      "itinerarySlug": "le-grand-ouest-corse-de-golfe-en-falaises",
+      "steps": [
+        {
+          "slug": "ajaccio",
+          "nom": "Ajaccio",
+          "role": "etape"
+        },
+        {
+          "slug": "porticcio",
+          "nom": "Porticcio",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-mare-e-sole",
+          "nom": "Plage de Mare e Sole",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-cupabia",
+          "nom": "Plage de Cupabia",
+          "role": "etape"
+        },
+        {
+          "slug": "propriano",
+          "nom": "Propriano",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-campomoro",
+          "nom": "Plage de Campomoro",
+          "role": "etape"
+        },
+        {
+          "slug": "cargese",
+          "nom": "Cargèse",
+          "role": "etape"
+        },
+        {
+          "slug": "piana",
+          "nom": "Piana",
+          "role": "etape"
+        },
+        {
+          "slug": "calanques-de-piana",
+          "nom": "Calanques de Piana",
+          "role": "etape"
+        },
+        {
+          "slug": "porto",
+          "nom": "Porto",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-darone",
+          "nom": "Plage d'Arone",
+          "role": "etape"
+        },
+        {
+          "slug": "ota",
+          "nom": "Ota",
+          "role": "etape"
+        },
+        {
+          "slug": "tour-genoise-domigna",
+          "nom": "Tour Génoise d'Omigna",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Cap Corse, Nebbiu et nord farouche",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours de villages noirs, crêtes marines et plages de bout du monde",
+      "summary": "Pour un court séjour, le nord corse offre un condensé très fort d'île farouche et verticale. Bastia sert d'entrée urbaine évidente, puis Patrimonio et Saint-Florent installent la transition vers un Cap Corse plus austère. Nonza donne la plus belle rupture visuelle du parcours, et la Balade Littorale de la Pointe du Cap Corse permet de finir sur une sensation de bout du monde. En van, le trajet est très cohérent parce qu'il avance en boucle ou en demi-boucle dans un secteur resserré, avec des routes parfois lentes mais jamais absurdes. Plusieurs haltes littorales peuvent se regrouper dans une même journée, ce qui laisse du temps pour les villages suspendus, les pauses face à la mer et les soirs dans des ports ou hameaux de caractère.",
+      "overnightStyle": "Nuits typiques : ville portuaire, village noir en balcon, petit port ou extrémité du Cap.",
+      "regionId": "corse",
+      "itinerarySlug": "3-jours-de-villages-noirs-cretes-marines-et-plages-de-bout-du-monde",
+      "steps": [
+        {
+          "slug": "bastia",
+          "nom": "Bastia",
+          "role": "etape"
+        },
+        {
+          "slug": "patrimonio",
+          "nom": "Patrimonio",
+          "role": "etape"
+        },
+        {
+          "slug": "saint-florent",
+          "nom": "Saint-Florent",
+          "role": "etape"
+        },
+        {
+          "slug": "nonza",
+          "nom": "Nonza",
+          "role": "etape"
+        },
+        {
+          "slug": "balade-littorale-de-la-pointe-du-cap-corse",
+          "nom": "Balade Littorale de la Pointe du Cap Corse",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Cap Corse, Nebbiu et nord farouche",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine entre Cap Corse, désert blanc et villages de schiste",
+      "summary": "Sur 7 jours, ce thème permet de vivre le nord de l'île comme un territoire complet, entre vignobles, ports, plages désertes et villages accrochés. Bastia et la Costa Verde donnent d'abord un début plus oriental, puis Cervione et Sant'Andréa-di-Cotone ouvrent une Corse plus secrète. Ensuite, Patrimonio, Saint-Florent et la boucle littorale de Forlani à Mortella amènent le voyage vers les plages de Saleccia et de Ghignu, avant Nonza et la pointe du Cap Corse. En van, c'est un très bel itinéraire parce qu'il suit une géographie lisible entre côte est, Nebbiu et Cap. Certaines plages ou balades du même secteur peuvent se regrouper, ce qui permet de garder du temps dans les villages et d'éviter un simple empilement de spots.",
+      "overnightStyle": "Nuits typiques : côte orientale, village de schiste, petit port du Nebbiu, nord sauvage.",
+      "regionId": "corse",
+      "itinerarySlug": "une-semaine-entre-cap-corse-desert-blanc-et-villages-de-schiste",
+      "steps": [
+        {
+          "slug": "bastia",
+          "nom": "Bastia",
+          "role": "etape"
+        },
+        {
+          "slug": "boucle-1---costa-verde",
+          "nom": "Boucle 1 - Costa Verde",
+          "role": "etape"
+        },
+        {
+          "slug": "cervione",
+          "nom": "Cervione",
+          "role": "etape"
+        },
+        {
+          "slug": "santandrea-di-cotone",
+          "nom": "Sant'Andréa-di-Cotone",
+          "role": "etape"
+        },
+        {
+          "slug": "patrimonio",
+          "nom": "Patrimonio",
+          "role": "etape"
+        },
+        {
+          "slug": "saint-florent",
+          "nom": "Saint-Florent",
+          "role": "etape"
+        },
+        {
+          "slug": "boucle-littorale-de-forlani-a-mortella",
+          "nom": "Boucle littorale de Forlani à Mortella",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-saleccia",
+          "nom": "Plage de Saleccia",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-ghignu",
+          "nom": "Plage de Ghignu",
+          "role": "etape"
+        },
+        {
+          "slug": "nonza",
+          "nom": "Nonza",
+          "role": "etape"
+        },
+        {
+          "slug": "balade-littorale-de-la-pointe-du-cap-corse",
+          "nom": "Balade Littorale de la Pointe du Cap Corse",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Cap Corse, Nebbiu et nord farouche",
+      "durationHint": "10 jours",
+      "tripTitle": "Le grand nord corse entre schiste, sable blanc et crêtes marines",
+      "summary": "En 10 jours, ce thème devient l'un des plus beaux road trips de l'île si l'on accepte un rythme lent. Bastia lance naturellement le voyage, puis Costa Verde, Cervione et Sant'Andréa-di-Cotone ouvrent une façade orientale très différente du reste de la Corse. Ensuite, Castagniccia apporte un contrepoint intérieur avant Patrimonio et Saint-Florent. La boucle de Forlani à Mortella, Saleccia, Ghignu et Nonza construisent une très belle séquence du Nebbiu et du désert, avant le final sur la pointe du Cap Corse. En van, le parcours est solide car il suit un grand arc nord sans grands détours parasites. Plusieurs haltes de plage ou de village peuvent se regrouper, ce qui laisse du temps pour les routes de corniche, les vins, les baignades et les soirées dans les villages sombres du Cap.",
+      "overnightStyle": "Nuits typiques : port du nord, village forestier, désert blanc, hameau de schiste du Cap.",
+      "regionId": "corse",
+      "itinerarySlug": "le-grand-nord-corse-entre-schiste-sable-blanc-et-cretes-marines",
+      "steps": [
+        {
+          "slug": "bastia",
+          "nom": "Bastia",
+          "role": "etape"
+        },
+        {
+          "slug": "boucle-1---costa-verde",
+          "nom": "Boucle 1 - Costa Verde",
+          "role": "etape"
+        },
+        {
+          "slug": "cervione",
+          "nom": "Cervione",
+          "role": "etape"
+        },
+        {
+          "slug": "santandrea-di-cotone",
+          "nom": "Sant'Andréa-di-Cotone",
+          "role": "etape"
+        },
+        {
+          "slug": "castagniccia",
+          "nom": "Castagniccia",
+          "role": "etape"
+        },
+        {
+          "slug": "patrimonio",
+          "nom": "Patrimonio",
+          "role": "etape"
+        },
+        {
+          "slug": "saint-florent",
+          "nom": "Saint-Florent",
+          "role": "etape"
+        },
+        {
+          "slug": "boucle-littorale-de-forlani-a-mortella",
+          "nom": "Boucle littorale de Forlani à Mortella",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-saleccia",
+          "nom": "Plage de Saleccia",
+          "role": "etape"
+        },
+        {
+          "slug": "plage-de-ghignu",
+          "nom": "Plage de Ghignu",
+          "role": "etape"
+        },
+        {
+          "slug": "nonza",
+          "nom": "Nonza",
+          "role": "etape"
+        },
+        {
+          "slug": "balade-littorale-de-la-pointe-du-cap-corse",
+          "nom": "Balade Littorale de la Pointe du Cap Corse",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Montagne corse, cols, villages et forêts profondes",
+      "durationHint": "3 jours",
+      "tripTitle": "3 jours entre Corte, forêt et aiguilles de granite",
+      "summary": "Pour un court séjour en van, l'intérieur corse offre un contrepoint exceptionnel aux côtes, à condition de rester concentré. Corte donne l'entrée la plus évidente, avec son rôle de ville pivot et sa vraie densité. Ensuite, Ghisoni apporte une montagne plus forestière, puis Bavella et Zonza offrent un final beaucoup plus spectaculaire, entre aiguilles, cols et lumière de haute vallée. Le rythme est très bon sur trois jours parce qu'on accepte peu d'étapes mais très fortes, reliées par de belles routes de relief. C'est un itinéraire idéal pour ceux qui veulent sentir la Corse intérieure, plus fraîche, plus rude, plus verticale, sans se lancer dans de grandes traversées compliquées.",
+      "overnightStyle": "Nuits typiques : ville de montagne, vallée forestière, col ou village d'altitude.",
+      "regionId": "corse",
+      "itinerarySlug": "3-jours-entre-corte-foret-et-aiguilles-de-granite",
+      "steps": [
+        {
+          "slug": "corte",
+          "nom": "Corte",
+          "role": "etape"
+        },
+        {
+          "slug": "ghisoni",
+          "nom": "Ghisoni",
+          "role": "etape"
+        },
+        {
+          "slug": "bavella",
+          "nom": "Bavella",
+          "role": "etape"
+        },
+        {
+          "slug": "zonza",
+          "nom": "Zonza",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Montagne corse, cols, villages et forêts profondes",
+      "durationHint": "7 jours",
+      "tripTitle": "Une semaine de haute Corse intérieure",
+      "summary": "Sur 7 jours, ce thème permet de construire une vraie traversée de montagne, très différente des itinéraires de plage. Bastia sert de porte d'entrée avant Corte, qui recentre immédiatement le voyage. Moltifao, Ghisoni et le Sentier du Monte Renosu donnent ensuite une Corse de vallées, de forêts et de marche, avant Bavella, Zonza et Levie, qui amènent une dimension plus méridionale et plus minérale. En van, ce parcours est cohérent car il suit un axe intérieur du nord-est vers le sud-est, avec des routes parfois lentes mais très logiques. Certaines haltes de randonnée peuvent se combiner dans la même journée, ce qui laisse de vraies nuits fraîches et longues dans les villages ou sur les hauteurs.",
+      "overnightStyle": "Nuits typiques : ville intérieure, forêt, col, village de montagne du sud.",
+      "regionId": "corse",
+      "itinerarySlug": "une-semaine-de-haute-corse-interieure",
+      "steps": [
+        {
+          "slug": "bastia",
+          "nom": "Bastia",
+          "role": "etape"
+        },
+        {
+          "slug": "corte",
+          "nom": "Corte",
+          "role": "etape"
+        },
+        {
+          "slug": "moltifao",
+          "nom": "Moltifao",
+          "role": "etape"
+        },
+        {
+          "slug": "ghisoni",
+          "nom": "Ghisoni",
+          "role": "etape"
+        },
+        {
+          "slug": "sentier-du-monte-renosu",
+          "nom": "Sentier du Monte Renosu",
+          "role": "etape"
+        },
+        {
+          "slug": "bavella",
+          "nom": "Bavella",
+          "role": "etape"
+        },
+        {
+          "slug": "zonza",
+          "nom": "Zonza",
+          "role": "etape"
+        },
+        {
+          "slug": "levie",
+          "nom": "Levie",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    },
+    {
+      "themeTitle": "Montagne corse, cols, villages et forêts profondes",
+      "durationHint": "10 jours",
+      "tripTitle": "La grande traversée intérieure de la Corse en van",
+      "summary": "En 10 jours, ce thème devient un vrai voyage de relief, probablement le plus singulier pour qui veut sortir de la seule Corse maritime. Bastia et Castagniccia donnent d'abord un départ très dense, presque forestier, puis Corte recentre sur la montagne centrale. Moltifao, Ghisoni et le Sentier du Monte Renosu prolongent cette montée intérieure avant Bavella, Zonza, Levie, Aullène et la boucle Serra-di-Scopamène<->Aullène, qui offrent une fin de parcours très sudiste, très pastorale et très belle pour le van. L'ensemble est cohérent parce qu'il descend le long de l'intérieur sans multiplier les grands retours côtiers. Certaines boucles ou secteurs de randonnée peuvent se coupler, ce qui permet de garder des journées ouvertes et d'accepter les temps de route imposés par la montagne corse.",
+      "overnightStyle": "Nuits typiques : montagne boisée, village central, col, plateau pastoral du sud.",
+      "regionId": "corse",
+      "itinerarySlug": "la-grande-traversee-interieure-de-la-corse-en-van",
+      "steps": [
+        {
+          "slug": "bastia",
+          "nom": "Bastia",
+          "role": "etape"
+        },
+        {
+          "slug": "castagniccia",
+          "nom": "Castagniccia",
+          "role": "etape"
+        },
+        {
+          "slug": "corte",
+          "nom": "Corte",
+          "role": "etape"
+        },
+        {
+          "slug": "moltifao",
+          "nom": "Moltifao",
+          "role": "etape"
+        },
+        {
+          "slug": "ghisoni",
+          "nom": "Ghisoni",
+          "role": "etape"
+        },
+        {
+          "slug": "sentier-du-monte-renosu",
+          "nom": "Sentier du Monte Renosu",
+          "role": "etape"
+        },
+        {
+          "slug": "bavella",
+          "nom": "Bavella",
+          "role": "etape"
+        },
+        {
+          "slug": "zonza",
+          "nom": "Zonza",
+          "role": "etape"
+        },
+        {
+          "slug": "levie",
+          "nom": "Levie",
+          "role": "etape"
+        },
+        {
+          "slug": "aullene",
+          "nom": "Aullène",
+          "role": "etape"
+        },
+        {
+          "slug": "boucle-1---serra-di-scopamene-aullene",
+          "nom": "Boucle 1 - Serra-di-Scopamène<->Aullène",
+          "role": "etape"
+        }
+      ],
+      "suggestedPoiAdditions": []
+    }
+  ]
 }

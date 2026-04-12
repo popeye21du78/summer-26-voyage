@@ -1,3 +1,982 @@
 {
-  "itineraries": []
-}
+  "itineraries": [
+  {
+  "themeTitle": "Littoral méditerranéen et étangs",
+  "durationHint": "3 jours",
+  "tripTitle": "De Sète aux sables de Camargue gardoise",
+  "summary": "Pour un court road trip en van, ce tronçon du littoral est l'un des plus fluides et des plus agréables à vivre. On part de Sète, avec sa personnalité portuaire et sa lumière très méditerranéenne, avant de longer les grands cordons sableux jusqu'aux plages de Maguelone puis à La Grande-Motte. L'arrivée à Aigues-Mortes donne une vraie conclusion de voyage, avec ses remparts et l'ambiance de Petite Camargue. En trois jours, la logique est parfaite : peu de kilomètres, un fil côtier continu, des haltes qui changent de ton sans casser le rythme, et une vraie sensation de voyage entre lagunes, villes marines et immensités de sable. C'est un itinéraire idéal pour un van qui aime l'air salin, les fins de journée sur la plage et les nuits proches des étangs.",
+  "overnightStyle": "Nuits typiques : port vivant, lido sauvage, station posée sur les dunes, cité de remparts.",
+  "regionId": "languedoc-roussillon",
+  "itinerarySlug": "littoral-etangs-camargue-3j",
+  "steps": [
+  {
+  "slug": "sete",
+  "nom": "Sète",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-maguelone",
+  "nom": "Plage de Maguelone",
+  "role": "etape"
+  },
+  {
+  "slug": "la-grande-motte",
+  "nom": "La Grande-Motte",
+  "role": "etape"
+  },
+  {
+  "slug": "aigues-mortes",
+  "nom": "Aigues-Mortes",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Palavas-les-Flots",
+  "raison": "Créerait une transition très naturelle entre Maguelone et La Grande-Motte dans un fil strictement littoral.",
+  "type": "commune"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Littoral méditerranéen et étangs",
+  "durationHint": "7 jours",
+  "tripTitle": "Le grand ruban des plages entre Hérault et Camargue",
+  "summary": "Sur une semaine, le littoral languedocien prend une ampleur très convaincante en van. Le parcours démarre à Agde et Marseillan, puis remonte vers Sète pour retrouver l'esprit portuaire avant de filer le long du lido jusqu'aux plages de Maguelone, des Aresquiers et de la Grande-Motte. La seconde moitié du voyage bascule vers la Petite Camargue avec Aigues-Mortes, Le Boucanet et l'Espiguette, qui donnent au voyage une respiration plus sauvage. L'itinéraire fonctionne parce qu'il garde un fil côtier évident, sans zigzag ni détour inutile. On alterne villes maritimes, longues plages, étangs et remparts, avec un rythme simple, très agréable à vivre, parfaitement adapté à une semaine de van tournée vers l'eau, le vent et les grands horizons plats.",
+  "overnightStyle": "Nuits typiques : port languedocien, lido entre mer et étang, station balnéaire, bord de salins.",
+  "regionId": "languedoc-roussillon",
+  "itinerarySlug": "littoral-etangs-camargue-7j",
+  "steps": [
+  {
+  "slug": "agde",
+  "nom": "Agde",
+  "role": "etape"
+  },
+  {
+  "slug": "marseillan",
+  "nom": "Marseillan",
+  "role": "etape"
+  },
+  {
+  "slug": "sete",
+  "nom": "Sète",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-des-aresquiers",
+  "nom": "Plage des Aresquiers",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-maguelone",
+  "nom": "Plage de Maguelone",
+  "role": "etape"
+  },
+  {
+  "slug": "la-grande-motte",
+  "nom": "La Grande-Motte",
+  "role": "etape"
+  },
+  {
+  "slug": "aigues-mortes",
+  "nom": "Aigues-Mortes",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-du-boucanet",
+  "nom": "Plage du Boucanet",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-lespiguette",
+  "nom": "Plage de l'Espiguette",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Frontignan",
+  "raison": "Renforcerait la continuité entre Sète et les Aresquiers avec une vraie étape de transition littorale.",
+  "type": "commune"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Littoral méditerranéen et étangs",
+  "durationHint": "10 jours",
+  "tripTitle": "Toute la côte languedocienne, des ports du Roussillon aux sables gardois",
+  "summary": "Cette grande traversée littorale est l'un des itinéraires les plus évidents et les plus désirables de la région. On part du Roussillon avec Collioure, Paulilles et les criques de la Côte Vermeille, avant de rejoindre les grandes plages du littoral catalan puis les étangs et les rivages de l'Aude autour de Leucate, La Franqui, Gruissan et Narbonne. Ensuite, le fil côtier continue vers Agde, Sète et les grands lidos héraultais, avant une arrivée magistrale vers Aigues-Mortes et l'Espiguette. En van, cet itinéraire fonctionne remarquablement bien : il suit la mer presque sans rupture, ménage de vraies variations d'ambiance et permet d'élargir le voyage sans perdre son âme. C'est un vrai grand road trip de Méditerranée française, pensé pour vivre dehors, au vent, entre étangs, ports et longues plages.",
+  "overnightStyle": "Nuits typiques : crique catalane, plage de tramontane, village lagunaire, port languedocien, bord de dunes.",
+  "regionId": "languedoc-roussillon",
+  "itinerarySlug": "littoral-etangs-camargue-10j",
+  "steps": [
+  {
+  "slug": "collioure",
+  "nom": "Collioure",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-paulilles",
+  "nom": "Plage de Paulilles",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-banyuls-sur-mer",
+  "nom": "Plage de Banyuls-sur-Mer",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-cerbere",
+  "nom": "Plage de Cerbère",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-leucate",
+  "nom": "Plage de Leucate",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-la-franqui",
+  "nom": "Plage de La Franqui",
+  "role": "etape"
+  },
+  {
+  "slug": "gruissan",
+  "nom": "Gruissan",
+  "role": "etape"
+  },
+  {
+  "slug": "narbonne",
+  "nom": "Narbonne",
+  "role": "etape"
+  },
+  {
+  "slug": "agde",
+  "nom": "Agde",
+  "role": "etape"
+  },
+  {
+  "slug": "sete",
+  "nom": "Sète",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-maguelone",
+  "nom": "Plage de Maguelone",
+  "role": "etape"
+  },
+  {
+  "slug": "aigues-mortes",
+  "nom": "Aigues-Mortes",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-lespiguette",
+  "nom": "Plage de l'Espiguette",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Canet-en-Roussillon",
+  "raison": "Apporterait une étape de transition logique entre la Côte Vermeille et les longues plages du Roussillon.",
+  "type": "commune"
+  },
+  {
+  "nom": "Étang de Thau",
+  "raison": "Nommer l'étang clarifierait la cohérence paysagère autour de Marseillan et Sète.",
+  "type": "aire_naturelle"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Corbières, citadelles et pays cathare",
+  "durationHint": "3 jours",
+  "tripTitle": "Carcassonne et les hautes pierres des Corbières",
+  "summary": "Pour trois jours très denses mais cohérents, ce parcours fait le meilleur choix possible : il s'ancre à Carcassonne, gagne Lastours puis file vers Peyrepertuse. On passe ainsi de la grande cité spectaculaire à des forteresses plus âpres, plus suspendues, avec une montée en intensité très naturelle. En van, ce road trip marche bien parce qu'il assume le relief et les routes plus sinueuses sans se disperser. Les étapes sont fortes, peu nombreuses, et chacune renforce l'atmosphère médiévale et minérale du voyage. C'est un itinéraire court, très identitaire, qui donne tout de suite la sensation d'entrer dans un pays de crêtes, de ruines stratégiques et de villages accrochés à la pierre.",
+  "overnightStyle": "Nuits typiques : cité fortifiée, vallée sèche, éperon rocheux des Corbières.",
+  "regionId": "languedoc-roussillon",
+  "itinerarySlug": "corbieres-cathare-3j",
+  "steps": [
+  {
+  "slug": "carcassonne",
+  "nom": "Carcassonne",
+  "role": "etape"
+  },
+  {
+  "slug": "lastours",
+  "nom": "Lastours",
+  "role": "etape"
+  },
+  {
+  "slug": "peyrepertuse",
+  "nom": "Peyrepertuse",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Château de Quéribus",
+  "raison": "Compléterait idéalement la logique cathare de haute forteresse au sud de Peyrepertuse.",
+  "type": "chateau"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Corbières, citadelles et pays cathare",
+  "durationHint": "7 jours",
+  "tripTitle": "Des remparts de Carcassonne aux gorges secrètes des Corbières",
+  "summary": "Sur une semaine, le pays cathare gagne en profondeur dès qu'on quitte l'effet carte postale pour entrer dans les Corbières intérieures. Carcassonne reste l'entrée majeure, puis Lastours et Montolieu permettent de prendre de la hauteur et de la nuance. Ensuite, l'itinéraire glisse vers Lagrasse, Termes et Peyrepertuse, avant une fin plus mystérieuse autour de Rennes-le-Château. L'ensemble est très cohérent en van : on avance par vallées et crêtes, sans grands détours, avec un relief qui crée une vraie dramaturgie de route. C'est un voyage de pierre, de silence, d'histoire et de paysages rudes, parfait pour ceux qui aiment les itinéraires à forte personnalité, où l'on sent vraiment la transition entre plaine viticole et arrière-pays de forteresses.",
+  "overnightStyle": "Nuits typiques : cité fortifiée, village d'abbaye, vallée des Corbières, balcon rocheux.",
+  "regionId": "languedoc-roussillon",
+  "itinerarySlug": "corbieres-cathare-7j",
+  "steps": [
+  {
+  "slug": "carcassonne",
+  "nom": "Carcassonne",
+  "role": "etape"
+  },
+  {
+  "slug": "lastours",
+  "nom": "Lastours",
+  "role": "etape"
+  },
+  {
+  "slug": "montolieu",
+  "nom": "Montolieu",
+  "role": "etape"
+  },
+  {
+  "slug": "lagrasse",
+  "nom": "Lagrasse",
+  "role": "etape"
+  },
+  {
+  "slug": "termes",
+  "nom": "Termes",
+  "role": "etape"
+  },
+  {
+  "slug": "peyrepertuse",
+  "nom": "Peyrepertuse",
+  "role": "etape"
+  },
+  {
+  "slug": "rennes-le-chateau",
+  "nom": "Rennes-le-Château",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Abbaye de Fontfroide",
+  "raison": "Bien que Fontfroide existe dans la liste, la nommer comme abbaye dans la narration régionale renforcerait encore la charnière entre Narbonnais et Corbières.",
+  "type": "abbaye"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Corbières, citadelles et pays cathare",
+  "durationHint": "10 jours",
+  "tripTitle": "Le grand arc cathare, des plaines de l'Aude aux forteresses du vertige",
+  "summary": "En dix jours, on peut construire un vrai voyage cathare sans jamais forcer le parcours. Le départ se fait naturellement par Narbonne et Fontfroide, qui posent le décor des Corbières basses, avant de gagner Lagrasse puis Termes. Carcassonne, Lastours et Montolieu composent le cœur monumental et culturel, puis l'itinéraire repart vers le sud avec Limoux, Rennes-le-Château et Peyrepertuse. Cette progression est très forte : elle monte en sauvagerie à mesure que l'on s'éloigne des plaines. En van, cela donne un road trip convaincant, alternant vignes, abbayes, cités et forteresses de crête. C'est un itinéraire exigeant mais pas épuisant, parfait pour une région qui mérite d'être parcourue lentement, en laissant les reliefs raconter l'histoire.",
+  "overnightStyle": "Nuits typiques : plaine viticole, village d'abbaye, cité médiévale, balcon rocheux, petite ville de vallée.",
+  "regionId": "languedoc-roussillon",
+  "itinerarySlug": "corbieres-cathare-10j",
+  "steps": [
+  {
+  "slug": "narbonne",
+  "nom": "Narbonne",
+  "role": "etape"
+  },
+  {
+  "slug": "fontfroide",
+  "nom": "Fontfroide",
+  "role": "etape"
+  },
+  {
+  "slug": "lagrasse",
+  "nom": "Lagrasse",
+  "role": "etape"
+  },
+  {
+  "slug": "termes",
+  "nom": "Termes",
+  "role": "etape"
+  },
+  {
+  "slug": "carcassonne",
+  "nom": "Carcassonne",
+  "role": "etape"
+  },
+  {
+  "slug": "lastours",
+  "nom": "Lastours",
+  "role": "etape"
+  },
+  {
+  "slug": "montolieu",
+  "nom": "Montolieu",
+  "role": "etape"
+  },
+  {
+  "slug": "limoux",
+  "nom": "Limoux",
+  "role": "etape"
+  },
+  {
+  "slug": "rennes-le-chateau",
+  "nom": "Rennes-le-Château",
+  "role": "etape"
+  },
+  {
+  "slug": "peyrepertuse",
+  "nom": "Peyrepertuse",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Quéribus",
+  "raison": "Renforcerait la logique de fin d'itinéraire vers les forteresses les plus spectaculaires du pays cathare.",
+  "type": "chateau"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Côte Vermeille, Albères et Roussillon catalan",
+  "durationHint": "3 jours",
+  "tripTitle": "Collioure et les plus beaux rivages de la Côte Vermeille",
+  "summary": "Pour un format court, le meilleur du Roussillon se concentre naturellement sur la Côte Vermeille. Collioure donne l'entrée parfaite avec son port et sa lumière, puis Paulilles apporte une séquence plus ouverte, plus maritime, avant la descente vers Banyuls-sur-Mer et Cerbère. Ce parcours fonctionne très bien en van car il épouse la côte, garde une identité forte et offre de vrais changements d'ambiance sur peu de kilomètres : village d'artistes, anse industrielle reconquise, plages rocheuses et sensation de bout du monde. On ne cherche pas à monter dans les terres : en trois jours, il vaut mieux assumer ce ruban littoral spectaculaire, très vivant le jour et particulièrement beau au coucher du soleil.",
+  "overnightStyle": "Nuits typiques : port coloré, anse encaissée, village côtier de roches et de vent.",
+  "regionId": "languedoc-roussillon",
+  "itinerarySlug": "cote-vermeille-catalane-3j",
+  "steps": [
+  {
+  "slug": "collioure",
+  "nom": "Collioure",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-paulilles",
+  "nom": "Plage de Paulilles",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-banyuls-sur-mer",
+  "nom": "Plage de Banyuls-sur-Mer",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-cerbere",
+  "nom": "Plage de Cerbère",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Banyuls-sur-Mer",
+  "raison": "Le village lui-même apporterait une vraie étape urbaine entre Paulilles et Cerbère.",
+  "type": "commune"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Côte Vermeille, Albères et Roussillon catalan",
+  "durationHint": "7 jours",
+  "tripTitle": "Du cœur catalan aux criques de frontière",
+  "summary": "Sur sept jours, le Roussillon gagne à être pensé comme un voyage progressif entre ville, arrière-pays et mer. Perpignan donne l'ouverture la plus naturelle avant un détour par Céret et Castelnou, qui installent l'identité catalane des terres. Ensuite, l'itinéraire revient au littoral avec Le Racou, Collioure, Paulilles et Banyuls-sur-Mer, jusqu'à Cerbère. Cette structure est particulièrement bonne en van : on ne sature pas la côte dès le départ, on prend le temps d'entrer dans le territoire, puis on termine par la partie la plus spectaculaire. Le voyage garde ainsi une vraie montée en intensité visuelle. C'est un itinéraire très harmonieux, entre pierre chaude, reliefs secs, mer découpée et villages où l'on ressent clairement la bascule vers la Catalogne.",
+  "overnightStyle": "Nuits typiques : ville catalane, village de piémont, crique rocheuse, côte de frontière.",
+  "regionId": "languedoc-roussillon",
+  "itinerarySlug": "cote-vermeille-catalane-7j",
+  "steps": [
+  {
+  "slug": "perpignan",
+  "nom": "Perpignan",
+  "role": "etape"
+  },
+  {
+  "slug": "ceret",
+  "nom": "Céret",
+  "role": "etape"
+  },
+  {
+  "slug": "castelnou",
+  "nom": "Castelnou",
+  "role": "etape"
+  },
+  {
+  "slug": "le-racou",
+  "nom": "Le Racou",
+  "role": "etape"
+  },
+  {
+  "slug": "collioure",
+  "nom": "Collioure",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-paulilles",
+  "nom": "Plage de Paulilles",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-banyuls-sur-mer",
+  "nom": "Plage de Banyuls-sur-Mer",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-cerbere",
+  "nom": "Plage de Cerbère",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Argelès-sur-Mer",
+  "raison": "Créerait une transition évidente entre Le Racou et Collioure tout en restant dans le même fil côtier.",
+  "type": "commune"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Côte Vermeille, Albères et Roussillon catalan",
+  "durationHint": "10 jours",
+  "tripTitle": "Le grand Roussillon, des forteresses de plaine au Canigou",
+  "summary": "En dix jours, le Roussillon peut devenir un vrai voyage complet, sans renoncer à sa cohérence. On part de Perpignan puis de Salses-le-Château, qui posent l'entrée de plaine et l'épaisseur historique. Ensuite viennent Tautavel, Ille-sur-Têt, Eus et Villefranche-de-Conflent, pour faire progressivement monter le relief jusqu'au piémont du Canigou. Le retour vers la mer s'effectue ensuite par Céret, Castelnou, Collioure et la Côte Vermeille jusqu'à Cerbère. Cet enchaînement est très fort car il raconte le Roussillon comme un éventail : plaine, villages catalans, montagne, puis mer. En van, c'est un parcours très réussi, dense mais fluide, avec des changements d'ambiance constants sans véritable rupture géographique.",
+  "overnightStyle": "Nuits typiques : forteresse de plaine, village catalan, balcon sur montagne, port méditerranéen.",
+  "regionId": "languedoc-roussillon",
+  "itinerarySlug": "cote-vermeille-catalane-10j",
+  "steps": [
+  {
+  "slug": "perpignan",
+  "nom": "Perpignan",
+  "role": "etape"
+  },
+  {
+  "slug": "salses-le-chateau",
+  "nom": "Salses-le-Château",
+  "role": "etape"
+  },
+  {
+  "slug": "tautavel",
+  "nom": "Tautavel",
+  "role": "etape"
+  },
+  {
+  "slug": "ille-sur-tet",
+  "nom": "Ille-sur-Têt",
+  "role": "etape"
+  },
+  {
+  "slug": "eus",
+  "nom": "Eus",
+  "role": "etape"
+  },
+  {
+  "slug": "villefranche-de-conflent",
+  "nom": "Villefranche-de-Conflent",
+  "role": "etape"
+  },
+  {
+  "slug": "le-canigou",
+  "nom": "Le Canigou",
+  "role": "etape"
+  },
+  {
+  "slug": "ceret",
+  "nom": "Céret",
+  "role": "etape"
+  },
+  {
+  "slug": "castelnou",
+  "nom": "Castelnou",
+  "role": "etape"
+  },
+  {
+  "slug": "collioure",
+  "nom": "Collioure",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-paulilles",
+  "nom": "Plage de Paulilles",
+  "role": "etape"
+  },
+  {
+  "slug": "plage-de-cerbere",
+  "nom": "Plage de Cerbère",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Vernet-les-Bains",
+  "raison": "Serait un excellent pivot pour l'approche du Canigou et la respiration montagnarde autour de Villefranche-de-Conflent.",
+  "type": "commune"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Cévennes, Gardons et arrière-pays du Gard",
+  "durationHint": "3 jours",
+  "tripTitle": "Uzès, Pont du Gard et villages de garrigue",
+  "summary": "Pour trois jours très lisibles dans le Gard, ce parcours est probablement le plus solide. Uzès donne l'ouverture idéale, élégante et méridionale, avant le grand classique du Pont du Gard, puis une fin plus secrète à Lussan. On tient ici un vrai trip de garrigue, de pierre blonde et de vallons secs, sans avoir besoin de monter jusqu'aux hautes Cévennes. En van, l'itinéraire est particulièrement agréable : routes courtes, belles lumières, villages où l'on aime prendre son temps, et un équilibre convaincant entre patrimoine majeur et ambiance plus confidentielle. C'est un format court mais très réussi, qui montre un Gard raffiné, minéral, presque déjà provençal par moments.",
+  "overnightStyle": "Nuits typiques : ville de pierre, bord de rivière, village de garrigue sur plateau.",
+  "regionId": "languedoc-roussillon",
+  "itinerarySlug": "cevennes-gardons-garrigue-3j",
+  "steps": [
+  {
+  "slug": "uzes",
+  "nom": "Uzès",
+  "role": "etape"
+  },
+  {
+  "slug": "pont-du-gard",
+  "nom": "Pont du Gard",
+  "role": "etape"
+  },
+  {
+  "slug": "lussan",
+  "nom": "Lussan",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": []
+  },
+  {
+  "themeTitle": "Cévennes, Gardons et arrière-pays du Gard",
+  "durationHint": "7 jours",
+  "tripTitle": "Des remparts romains aux portes des Cévennes",
+  "summary": "Sur une semaine, le Gard gagne à être pensé comme une montée progressive depuis les villes du bas pays vers les villages et reliefs de l'intérieur. Nîmes apporte le socle urbain et antique, Uzès et le Pont du Gard prolongent la grande pierre méridionale, puis Lussan et Montclus ouvrent un arrière-pays plus secret. La fin de parcours vers La Roque-sur-Cèze et Aiguèze donne une sortie spectaculaire, au-dessus des gorges et de la Cèze. Le tout est très cohérent en van : les distances restent sages, les routes sont belles, et chaque étape renforce la sensation de quitter la plaine pour des paysages plus découpés. C'est un itinéraire chaleureux, lumineux, parfait pour alterner visite, route et haltes plus contemplatives.",
+  "overnightStyle": "Nuits typiques : ville romaine, bourg élégant, village perché, vallée de rivière claire.",
+  "regionId": "languedoc-roussillon",
+  "itinerarySlug": "cevennes-gardons-garrigue-7j",
+  "steps": [
+  {
+  "slug": "nimes",
+  "nom": "Nîmes",
+  "role": "etape"
+  },
+  {
+  "slug": "uzes",
+  "nom": "Uzès",
+  "role": "etape"
+  },
+  {
+  "slug": "pont-du-gard",
+  "nom": "Pont du Gard",
+  "role": "etape"
+  },
+  {
+  "slug": "lussan",
+  "nom": "Lussan",
+  "role": "etape"
+  },
+  {
+  "slug": "montclus",
+  "nom": "Montclus",
+  "role": "etape"
+  },
+  {
+  "slug": "la-roque-sur-ceze",
+  "nom": "La Roque-sur-Cèze",
+  "role": "etape"
+  },
+  {
+  "slug": "aigueze",
+  "nom": "Aiguèze",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Gorges de la Cèze",
+  "raison": "Nommer les gorges rendrait la cohérence paysagère encore plus évidente entre Montclus, La Roque-sur-Cèze et Aiguèze.",
+  "type": "aire_naturelle"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Cévennes, Gardons et arrière-pays du Gard",
+  "durationHint": "10 jours",
+  "tripTitle": "Le Gard en grand, de la Camargue aux gorges cévenoles",
+  "summary": "Cette version longue raconte admirablement la diversité du Gard sans jamais tomber dans le patchwork. On ouvre sur Saint-Gilles et Aigues-Mortes pour la basse plaine camarguaise, puis Nîmes, Uzès et le Pont du Gard donnent toute l'épaisseur patrimoniale du centre gardois. Ensuite, l'itinéraire prend de la hauteur avec Vézénobres, Anduze et les routes vers les reliefs, avant de s'étirer vers Lussan, Montclus et Aiguèze. En van, ce voyage est très cohérent car il suit une progression naturelle du sud humide et ouvert vers les terres sèches puis les vallées plus resserrées. Il offre un vrai grand récit régional, avec des étapes fortes mais bien respirées, et une sensation continue de traverser plusieurs mondes méditerranéens.",
+  "overnightStyle": "Nuits typiques : bourg camarguais, ville romaine, village de garrigue, piémont cévenol, balcon sur gorge.",
+  "regionId": "languedoc-roussillon",
+  "itinerarySlug": "cevennes-gardons-garrigue-10j",
+  "steps": [
+  {
+  "slug": "saint-gilles",
+  "nom": "Saint-Gilles",
+  "role": "etape"
+  },
+  {
+  "slug": "aigues-mortes",
+  "nom": "Aigues-Mortes",
+  "role": "etape"
+  },
+  {
+  "slug": "nimes",
+  "nom": "Nîmes",
+  "role": "etape"
+  },
+  {
+  "slug": "uzes",
+  "nom": "Uzès",
+  "role": "etape"
+  },
+  {
+  "slug": "pont-du-gard",
+  "nom": "Pont du Gard",
+  "role": "etape"
+  },
+  {
+  "slug": "vezenobres",
+  "nom": "Vézénobres",
+  "role": "etape"
+  },
+  {
+  "slug": "anduze",
+  "nom": "Anduze",
+  "role": "etape"
+  },
+  {
+  "slug": "lussan",
+  "nom": "Lussan",
+  "role": "etape"
+  },
+  {
+  "slug": "montclus",
+  "nom": "Montclus",
+  "role": "etape"
+  },
+  {
+  "slug": "la-roque-sur-ceze",
+  "nom": "La Roque-sur-Cèze",
+  "role": "etape"
+  },
+  {
+  "slug": "aigueze",
+  "nom": "Aiguèze",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Bambouseraie d'Anduze",
+  "raison": "Donnerait une respiration végétale très naturelle dans la montée vers les Cévennes.",
+  "type": "jardin"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Haut-Languedoc, gorges et villages de montagne",
+  "durationHint": "3 jours",
+  "tripTitle": "Caroux et hauts villages du Haut-Languedoc",
+  "summary": "Pour un court séjour tourné vers le relief, ce trip est sans doute le plus convaincant. Olargues pose immédiatement l'ambiance du Haut-Languedoc, avec son village de pierre et sa vallée encaissée. Le Sommet du Caroux apporte ensuite la dimension montagneuse et panoramique, avant une fin à Saint-Chinian, où le paysage s'ouvre à nouveau sur des collines viticoles. Cet itinéraire de trois jours fonctionne très bien en van parce qu'il reste resserré tout en donnant une vraie impression de changement d'échelle. On ne cherche pas à tout couvrir : on prend le meilleur d'un arrière-pays puissant, très méridional mais déjà montagnard, avec des routes belles, des villages de caractère et une vraie sensation de respiration.",
+  "overnightStyle": "Nuits typiques : village de pont, colline boisée, bourg viticole de piémont.",
+  "regionId": "languedoc-roussillon",
+  "itinerarySlug": "haut-languedoc-caroux-3j",
+  "steps": [
+  {
+  "slug": "olargues",
+  "nom": "Olargues",
+  "role": "etape"
+  },
+  {
+  "slug": "le-sommet-du-caroux",
+  "nom": "Le Sommet du Caroux",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-chinian",
+  "nom": "Saint-Chinian",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Gorges d'Héric",
+  "raison": "Renforcerait parfaitement la cohérence montagne et rivière autour du Caroux.",
+  "type": "aire_naturelle"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Haut-Languedoc, gorges et villages de montagne",
+  "durationHint": "7 jours",
+  "tripTitle": "Du Salagou aux crêtes du Caroux",
+  "summary": "Sur une semaine, le Haut-Languedoc se découvre très bien par une progression du piémont vers les reliefs. Clermont-l'Hérault et Lodève servent d'entrée naturelle, puis Saint-Guilhem-le-Désert apporte un grand classique patrimonial avant la montée vers Olargues, le Caroux et Saint-Chinian. La fin à Faugères maintient le lien avec les paysages de schistes et les vignobles de montagne. Ce voyage est très agréable en van car il ne s'éparpille pas : il suit une logique de vallées et de crêtes, avec des étapes assez proches mais très différentes en ambiance. On y gagne un road trip robuste, minéral, lumineux, qui donne à voir un Languedoc intérieur plus puissant et plus charpenté que le simple bord de mer.",
+  "overnightStyle": "Nuits typiques : bourg de vallée, village d'abbaye, route de crête, terrasse de schistes.",
+  "regionId": "languedoc-roussillon",
+  "itinerarySlug": "haut-languedoc-caroux-7j",
+  "steps": [
+  {
+  "slug": "clermont-lherault",
+  "nom": "Clermont-l'Hérault",
+  "role": "etape"
+  },
+  {
+  "slug": "lodeve",
+  "nom": "Lodève",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-guilhem-le-desert",
+  "nom": "Saint-Guilhem-le-Désert",
+  "role": "etape"
+  },
+  {
+  "slug": "olargues",
+  "nom": "Olargues",
+  "role": "etape"
+  },
+  {
+  "slug": "le-sommet-du-caroux",
+  "nom": "Le Sommet du Caroux",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-chinian",
+  "nom": "Saint-Chinian",
+  "role": "etape"
+  },
+  {
+  "slug": "faugeres",
+  "nom": "Faugères",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Lac du Salagou",
+  "raison": "Offrirait une ouverture paysagère très forte et très naturelle avant Clermont-l'Hérault.",
+  "type": "aire_naturelle"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Haut-Languedoc, gorges et villages de montagne",
+  "durationHint": "10 jours",
+  "tripTitle": "Le grand arrière-pays du Languedoc, des Cévennes aux monts tarnais",
+  "summary": "Cette version longue assume une lecture large mais cohérente du relief languedocien et de ses marges. Depuis Anduze et les portes cévenoles, le parcours gagne Camprieu puis le Haut-Languedoc autour d'Olargues et du Caroux, avant de remonter vers Mazamet, Lautrec et Albi. Le fil est celui des terres intérieures : montagnes modestes mais puissantes, vallées, villages perchés, routes panoramiques et petites villes qui gardent du poids historique. En van, l'ensemble reste crédible car on progresse par arcs successifs, sans aller-retour gratuit. Ce n'est pas le voyage le plus balnéaire ni le plus monumental, mais c'est l'un des plus riches en atmosphère, parfait pour ceux qui aiment les régions de relief, de pierre et de traversées lentes.",
+  "overnightStyle": "Nuits typiques : piémont cévenol, plateau frais, village de montagne, petite ville du Tarn.",
+  "regionId": "languedoc-roussillon",
+  "itinerarySlug": "haut-languedoc-caroux-10j",
+  "steps": [
+  {
+  "slug": "anduze",
+  "nom": "Anduze",
+  "role": "etape"
+  },
+  {
+  "slug": "camprieu",
+  "nom": "Camprieu",
+  "role": "etape"
+  },
+  {
+  "slug": "olargues",
+  "nom": "Olargues",
+  "role": "etape"
+  },
+  {
+  "slug": "le-sommet-du-caroux",
+  "nom": "Le Sommet du Caroux",
+  "role": "etape"
+  },
+  {
+  "slug": "saint-chinian",
+  "nom": "Saint-Chinian",
+  "role": "etape"
+  },
+  {
+  "slug": "mazamet",
+  "nom": "Mazamet",
+  "role": "etape"
+  },
+  {
+  "slug": "lautrec",
+  "nom": "Lautrec",
+  "role": "etape"
+  },
+  {
+  "slug": "albi",
+  "nom": "Albi",
+  "role": "etape"
+  },
+  {
+  "slug": "ambialet",
+  "nom": "Ambialet",
+  "role": "etape"
+  },
+  {
+  "slug": "monesties",
+  "nom": "Monestiés",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Sidobre",
+  "raison": "Permettrait une transition très naturelle entre le Haut-Languedoc héraultais et Mazamet côté Tarn.",
+  "type": "secteur"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Vins, villages et bastides du Tarn au Minervois",
+  "durationHint": "3 jours",
+  "tripTitle": "Autour de Gaillac, la douceur des bastides et des vignes",
+  "summary": "Pour trois jours très harmonieux, ce petit arc autour de Gaillac est particulièrement juste. Gaillac fournit le point d'ancrage viticole, Castelnau-de-Montmiral apporte la bastide de hauteur, et Cordes-sur-Ciel donne la grande finale spectaculaire. On tient ici un itinéraire de plaisir de route plus que de performance kilométrique : de belles collines, des villages forts, une ambiance chaleureuse et un rythme très compatible avec le van. Le séjour reste compact, sans artifice, et il réussit à créer une vraie identité entre vin, pierre et vues larges. C'est une proposition courte mais premium, qui ne cherche pas l'exhaustivité et préfère un triangle très solide à une liste trop longue de villages.",
+  "overnightStyle": "Nuits typiques : village viticole, bastide perchée, cité de ciel et de pierre.",
+  "regionId": "languedoc-roussillon",
+  "itinerarySlug": "vins-bastides-gaillac-3j",
+  "steps": [
+  {
+  "slug": "gaillac",
+  "nom": "Gaillac",
+  "role": "etape"
+  },
+  {
+  "slug": "castelnau-de-montmiral",
+  "nom": "Castelnau-de-Montmiral",
+  "role": "etape"
+  },
+  {
+  "slug": "cordes-sur-ciel",
+  "nom": "Cordes-sur-Ciel",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": []
+  },
+  {
+  "themeTitle": "Vins, villages et bastides du Tarn au Minervois",
+  "durationHint": "7 jours",
+  "tripTitle": "Des bastides tarnaises aux gorges de l'Aveyron",
+  "summary": "Sur une semaine, le Tarn offre un terrain de road trip d'une très belle tenue, surtout si l'on garde le fil des bastides et des villages de hauteur. Lavaur et Gaillac ouvrent le voyage, puis Castelnau-de-Montmiral et Cordes-sur-Ciel en forment le cœur. La seconde moitié bascule vers les paysages plus découpés avec Puycelsi, Penne et Bruniquel. L'ensemble fonctionne très bien en van : les distances restent raisonnables, les routes sont belles, et chaque étape apporte une variation claire sans casser le thème. On reste dans un même monde de collines, de pierres et de bastides, avec une montée finale vers les vallées plus sauvages. C'est un itinéraire très éditorial, solide et désirable.",
+  "overnightStyle": "Nuits typiques : petite ville de vignoble, bastide dominante, village forestier, gorge calcaire.",
+  "regionId": "languedoc-roussillon",
+  "itinerarySlug": "vins-bastides-gaillac-7j",
+  "steps": [
+  {
+  "slug": "lavaur",
+  "nom": "Lavaur",
+  "role": "etape"
+  },
+  {
+  "slug": "gaillac",
+  "nom": "Gaillac",
+  "role": "etape"
+  },
+  {
+  "slug": "castelnau-de-montmiral",
+  "nom": "Castelnau-de-Montmiral",
+  "role": "etape"
+  },
+  {
+  "slug": "cordes-sur-ciel",
+  "nom": "Cordes-sur-Ciel",
+  "role": "etape"
+  },
+  {
+  "slug": "puycelsi",
+  "nom": "Puycelsi",
+  "role": "etape"
+  },
+  {
+  "slug": "penne",
+  "nom": "Penne",
+  "role": "etape"
+  },
+  {
+  "slug": "bruniquel",
+  "nom": "Bruniquel",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Forêt de Grésigne",
+  "raison": "Donnerait un vrai liant paysager entre Castelnau-de-Montmiral, Puycelsi et Penne.",
+  "type": "aire_naturelle"
+  }
+  ]
+  },
+  {
+  "themeTitle": "Vins, villages et bastides du Tarn au Minervois",
+  "durationHint": "10 jours",
+  "tripTitle": "Du Gaillacois aux terres roses du Tarn, un grand voyage de villages",
+  "summary": "Cette version longue déroule un superbe voyage intérieur, très cohérent, entre vignobles, bastides et petites villes du Tarn. Lavaur et Rabastens ouvrent la route dans des paysages plus doux, puis Gaillac, Castelnau-de-Montmiral et Cordes-sur-Ciel installent le grand cœur patrimonial. Plus au nord, Puycelsi, Penne et Bruniquel apportent la dimension forestière et rocheuse, avant une fin plus urbaine et majestueuse à Albi, Ambialet et Réalmont. En van, cette progression marche parfaitement : les étapes se suivent naturellement, les variations restent dans le même registre et l'on garde partout ce même mélange de collines, de briques, de pierre et de villages suspendus. C'est un grand itinéraire de terroir, très fort en ambiance.",
+  "overnightStyle": "Nuits typiques : bourg de vignoble, bastide de hauteur, vallée encaissée, petite ville de brique.",
+  "regionId": "languedoc-roussillon",
+  "itinerarySlug": "vins-bastides-gaillac-10j",
+  "steps": [
+  {
+  "slug": "lavaur",
+  "nom": "Lavaur",
+  "role": "etape"
+  },
+  {
+  "slug": "rabastens",
+  "nom": "Rabastens",
+  "role": "etape"
+  },
+  {
+  "slug": "gaillac",
+  "nom": "Gaillac",
+  "role": "etape"
+  },
+  {
+  "slug": "castelnau-de-montmiral",
+  "nom": "Castelnau-de-Montmiral",
+  "role": "etape"
+  },
+  {
+  "slug": "cordes-sur-ciel",
+  "nom": "Cordes-sur-Ciel",
+  "role": "etape"
+  },
+  {
+  "slug": "puycelsi",
+  "nom": "Puycelsi",
+  "role": "etape"
+  },
+  {
+  "slug": "penne",
+  "nom": "Penne",
+  "role": "etape"
+  },
+  {
+  "slug": "bruniquel",
+  "nom": "Bruniquel",
+  "role": "etape"
+  },
+  {
+  "slug": "albi",
+  "nom": "Albi",
+  "role": "etape"
+  },
+  {
+  "slug": "ambialet",
+  "nom": "Ambialet",
+  "role": "etape"
+  },
+  {
+  "slug": "realmont",
+  "nom": "Réalmont",
+  "role": "etape"
+  }
+  ],
+  "suggestedPoiAdditions": [
+  {
+  "nom": "Vallée de l'Aveyron",
+  "raison": "Nommer explicitement la vallée renforcerait la cohérence de la portion Penne-Bruniquel.",
+  "type": "secteur"
+  }
+  ]
+  }
+  ]
+  }
+  
