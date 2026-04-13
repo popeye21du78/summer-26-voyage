@@ -1,6 +1,7 @@
 "use client";
 
 import { Heart } from "lucide-react";
+import { motion } from "framer-motion";
 import { useCallback, useMemo, useState } from "react";
 import {
   isFavoriteKind,
@@ -36,14 +37,23 @@ export default function FavoriteButton({
   );
 
   return (
-    <button
+    <motion.button
       type="button"
       onClick={toggle}
       aria-label={aria}
       title={aria}
+      whileTap={{ scale: 0.88 }}
       className={`inline-flex h-10 w-10 items-center justify-center rounded-full border border-[#A55734]/25 bg-white/90 text-[#A55734] shadow-sm transition hover:bg-[#FFF2EB] ${on ? "text-[#D4635B]" : ""} ${className}`}
     >
-      <Heart className={`h-5 w-5 ${on ? "fill-current" : ""}`} />
-    </button>
+      <motion.span
+        key={on ? "on" : "off"}
+        initial={false}
+        animate={on ? { scale: [1, 1.28, 1] } : { scale: 1 }}
+        transition={{ duration: 0.42, ease: [0.34, 1.56, 0.64, 1] }}
+        className="inline-flex"
+      >
+        <Heart className={`h-5 w-5 ${on ? "fill-current" : ""}`} />
+      </motion.span>
+    </motion.button>
   );
 }

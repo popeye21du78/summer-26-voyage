@@ -6,6 +6,8 @@ export interface VoyageStateResponse {
   etat: EtatVoyage;
   voyageEnCours?: Voyage;
   voyagePrevu?: Voyage;
+  /** Plusieurs voyages à venir (démo) — le premier est le « prochain ». */
+  voyagesPrevus?: Voyage[];
   voyagesTermines?: Voyage[];
   jourActuel?: number;
   joursRestants?: number;

@@ -136,6 +136,10 @@ type InspirationMapClientProps = {
   loadError?: boolean;
   /** Opacité des POI territoire (0–1), pour apparition en fondu après la fiche. */
   territoryPoiOpacity?: number;
+  /** Carte France en mode repérage : désature légèrement le rendu (couches + fond). */
+  franceDiscoveryMuted?: boolean;
+  /** POI territoire mis en avant (fiche ouverte). */
+  highlightTerritoryId?: string | null;
 };
 
 const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClientProps>(
@@ -165,6 +169,8 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
       loading = false,
       loadError = false,
       territoryPoiOpacity = 1,
+      franceDiscoveryMuted = false,
+      highlightTerritoryId = null,
     },
     ref
   ) {
@@ -277,6 +283,34 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
       []
     );
 
+    const territoryPoiPaint = useMemo(() => {
+      const op = territoryPoiOpacity;
+      const hl = highlightTerritoryId;
+      if (!hl) {
+        return {
+          "circle-radius": 7,
+          "circle-color": VOYAGE_UI.terracotta,
+          "circle-stroke-width": 2,
+          "circle-stroke-color": "#ffffff",
+          "circle-opacity": op,
+          "circle-stroke-opacity": op,
+        } as Record<string, unknown>;
+      }
+      return {
+        "circle-radius": ["case", ["==", ["get", "id"], hl], 16, 7],
+        "circle-color": [
+          "case",
+          ["==", ["get", "id"], hl],
+          "#ff8a5c",
+          VOYAGE_UI.terracotta,
+        ],
+        "circle-stroke-width": ["case", ["==", ["get", "id"], hl], 4, 2],
+        "circle-stroke-color": "#fffef8",
+        "circle-opacity": op,
+        "circle-stroke-opacity": op,
+      } as Record<string, unknown>;
+    }, [territoryPoiOpacity, highlightTerritoryId]);
+
     useImperativeHandle(
       ref,
       () => ({
@@ -327,7 +361,12 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
         flyTo: (lng, lat, zoom = 8) => {
           const map = mapRef.current?.getMap();
           if (!map) return;
-          map.easeTo({ center: [lng, lat], zoom, duration: 900 });
+          map.easeTo({
+            center: [lng, lat],
+            zoom,
+            duration: 1050,
+            essential: true,
+          });
         },
         stopCamera: () => {
           try {
@@ -429,7 +468,9 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
     return (
       <div
         ref={containerRef}
-        className="relative h-full min-h-[240px] w-full overflow-hidden"
+        className={`relative h-full min-h-[240px] w-full overflow-hidden transition-[filter] duration-300 ${
+          franceDiscoveryMuted ? "grayscale-[0.45] contrast-[1.06] brightness-[1.02]" : ""
+        }`}
       >
         {regionsDataAugmented && (
           <Map
@@ -476,18 +517,7 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
             )}
             {showTerritoryPoints && territoryPoints && territoryPoints.features.length > 0 && (
               <Source id="insp-territory-pts" type="geojson" data={territoryPoints}>
-                <Layer
-                  id={POI_LAYER_ID}
-                  type="circle"
-                  paint={{
-                    "circle-radius": 7,
-                    "circle-color": VOYAGE_UI.terracotta,
-                    "circle-stroke-width": 2,
-                    "circle-stroke-color": "#ffffff",
-                    "circle-opacity": territoryPoiOpacity,
-                    "circle-stroke-opacity": territoryPoiOpacity,
-                  }}
-                />
+                <Layer id={POI_LAYER_ID} type="circle" paint={territoryPoiPaint} />
               </Source>
             )}
             {showVillePoints && villePoints && villePoints.features.length > 0 && (
@@ -496,10 +526,34 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
                   id={VILLE_LAYER_ID}
                   type="circle"
                   paint={{
-                    "circle-radius": 5,
-                    "circle-color": "#2d6a6a",
-                    "circle-stroke-width": 2,
-                    "circle-stroke-color": "#ffffff",
+                    "circle-radius": [
+                      "match",
+                      ["get", "tier"],
+                      "strong",
+                      12,
+                      "saved",
+                      10,
+                      6,
+                    ],
+                    "circle-color": [
+                      "match",
+                      ["get", "tier"],
+                      "strong",
+                      "#c45a3a",
+                      "saved",
+                      "#d4635b",
+                      "#3d6b63",
+                    ],
+                    "circle-stroke-width": [
+                      "match",
+                      ["get", "tier"],
+                      "strong",
+                      3,
+                      "saved",
+                      2,
+                      2,
+                    ],
+                    "circle-stroke-color": "#fff8f4",
                   }}
                 />
               </Source>
@@ -536,7 +590,7 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
                     <span className="absolute -bottom-1 -right-1 flex h-6 min-w-[1.5rem] items-center justify-center rounded-full bg-[#A55734] px-1 font-courier text-[10px] font-bold text-white shadow">
                       {s.order}
                     </span>
-                    <span className="pointer-events-none absolute -top-7 left-1/2 max-w-[140px] -translate-x-1/2 rounded bg-black/75 px-1.5 py-0.5 text-center font-courier text-[9px] font-bold text-white opacity-0 shadow transition group-hover:opacity-100">
+                    <span className="pointer-events-none absolute -top-7 left-1/2 max-w-[140px] -translate-x-1/2 rounded bg-[#4a2818]/88 px-1.5 py-0.5 text-center font-courier text-[9px] font-bold text-white opacity-0 shadow transition group-hover:opacity-100">
                       {s.nom}
                     </span>
                   </button>

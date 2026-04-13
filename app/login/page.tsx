@@ -40,22 +40,25 @@ export default function LoginPage() {
           <User className="h-12 w-12 text-[#A55734]" aria-hidden />
         </div>
         <h1 className="text-center font-heading text-4xl font-normal text-[#333333]">
-          Van-Life Journal
+          Viago
         </h1>
         <p className="text-center text-[#333333]/80">
           Choisis un profil pour te connecter (phase de test).
         </p>
-        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4">
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-4">
           {TEST_PROFILES.map((profile) => (
             <button
               key={profile.id}
               type="button"
               onClick={() => handleSelectProfile(profile.id)}
               disabled={loading !== null}
-              className="flex flex-col items-center justify-center gap-2 rounded-xl border-2 border-[#A55734]/40 bg-[#FAF4F0] px-4 py-6 transition hover:border-[#A55734] hover:bg-[#A55734]/10 disabled:opacity-50"
+              className="flex flex-col items-stretch gap-2 rounded-xl border-2 border-[#A55734]/40 bg-[#FAF4F0] px-4 py-4 text-left transition hover:border-[#A55734] hover:bg-[#A55734]/10 disabled:opacity-50"
             >
-              <span className="text-2xl font-medium text-[#333333]">
+              <span className="text-xl font-medium text-[#333333]">
                 {profile.name}
+              </span>
+              <span className="text-sm leading-snug text-[#333333]/75">
+                {profile.situationLabel}
               </span>
               {loading === profile.id ? (
                 <span className="text-sm text-[#333333]/70">Connexion…</span>

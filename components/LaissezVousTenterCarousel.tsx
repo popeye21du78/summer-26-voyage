@@ -18,9 +18,17 @@ export type CarouselVoyage = {
 
 type Props = {
   voyages: CarouselVoyage[];
+  /** Titre au-dessus du carousel (défaut : pré-voyages). Vide = masqué. */
+  heading?: string;
+  /** Cartes plus opaques / contrastées (accueil). */
+  dense?: boolean;
 };
 
-export default function LaissezVousTenterCarousel({ voyages }: Props) {
+export default function LaissezVousTenterCarousel({
+  voyages,
+  heading = "Laissez-vous tenter",
+  dense = false,
+}: Props) {
   const [index, setIndex] = useState(0);
   const touchStartX = useRef<number | null>(null);
   const n = voyages.length;
@@ -55,11 +63,17 @@ export default function LaissezVousTenterCarousel({ voyages }: Props) {
 
   if (!v) return null;
 
+  const cardShell = dense
+    ? "border-2 border-[#E07856]/55 bg-white/95 shadow-xl ring-1 ring-[#E07856]/20"
+    : "border-2 border-[#E07856]/20 bg-white/70 shadow-md";
+
   return (
     <div className="relative w-full max-w-full select-none">
-      <h3 className="mb-2 font-courier text-base font-bold uppercase tracking-wider text-[#A55734] sm:mb-3 sm:text-lg md:text-xl">
-        Laissez-vous tenter
-      </h3>
+      {heading ? (
+        <h3 className="mb-2 font-courier text-base font-bold uppercase tracking-wider text-[#A55734] sm:mb-3 sm:text-lg md:text-xl">
+          {heading}
+        </h3>
+      ) : null}
 
       <div className="relative flex items-stretch gap-1 sm:items-center sm:gap-2">
         <button
@@ -72,7 +86,7 @@ export default function LaissezVousTenterCarousel({ voyages }: Props) {
         </button>
 
         <div
-          className="flex min-h-0 min-w-0 flex-1 flex-col overflow-hidden rounded-xl border-2 border-[#E07856]/20 bg-white/70 shadow-md sm:rounded-2xl sm:shadow-lg"
+          className={`flex min-h-0 min-w-0 flex-1 flex-col overflow-hidden rounded-xl sm:rounded-2xl ${cardShell}`}
           onTouchStart={onTouchStart}
           onTouchEnd={onTouchEnd}
         >

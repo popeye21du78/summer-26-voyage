@@ -182,7 +182,7 @@ export function VilleDescriptionClient({
 
   const backHref =
     backToVoyageCarte ??
-    (fromVoyage ? "/accueil#on-repart" : fromInspiration ? "/planifier/inspiration" : "/carte-villes");
+    (fromVoyage ? "/planifier/commencer" : fromInspiration ? "/planifier/inspiration" : "/carte-villes");
 
   const loadCommonsPhotos = async () => {
     setCommonsLoading(true);

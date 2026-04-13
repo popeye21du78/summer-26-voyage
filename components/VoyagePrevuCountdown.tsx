@@ -5,17 +5,26 @@ import Link from "next/link";
 import { ChevronDown } from "lucide-react";
 import type { Voyage } from "../data/mock-voyages";
 import HeroPhotoStripResolved from "./HeroPhotoStripResolved";
+import AccueilHeroBrandMark from "./home/AccueilHeroBrandMark";
+import HomeDecorTitle from "./home/HomeDecorTitle";
+import { SNAP_SECTION, SNAP_SECTION_SCROLL_INNER } from "./home/homeSectionTokens";
 
 type Props = {
   voyage: Voyage;
   joursRestants: number;
+  /** Autres voyages à venir (démo : plusieurs prévus). */
+  autresPrevus?: Voyage[];
 };
 
 function pad(n: number) {
   return String(n).padStart(2, "0");
 }
 
-export default function VoyagePrevuCountdown({ voyage, joursRestants }: Props) {
+export default function VoyagePrevuCountdown({
+  voyage,
+  joursRestants: _joursRestants,
+  autresPrevus,
+}: Props) {
   const [diff, setDiff] = useState<{
     days: number;
     hours: number;
@@ -45,107 +54,142 @@ export default function VoyagePrevuCountdown({ voyage, joursRestants }: Props) {
 
   const heroSteps = voyage.steps.map((s) => ({ id: s.id, nom: s.nom }));
 
+  const suitePrevus =
+    autresPrevus?.filter((v) => v.id !== voyage.id) ?? [];
+
   return (
-    <section className="relative flex min-h-screen flex-col overflow-hidden">
-      <HeroPhotoStripResolved steps={heroSteps} />
+    <section
+      id="hero-section"
+      className={`relative ${SNAP_SECTION} bg-gradient-to-b from-[#3d2f2a] via-[#2c2420] to-[#1f1a18]`}
+    >
+      <div className="absolute inset-0 opacity-50">
+        <HeroPhotoStripResolved steps={heroSteps} />
+      </div>
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#14100e]/85 to-[#14100e]" />
+      <AccueilHeroBrandMark />
+      <HomeDecorTitle lines={["DÉ", "PART"]} tone="onDark" />
 
-      {/* Contenu centré — au-dessus des photos */}
-      <div className="relative z-20 flex flex-1 flex-col items-center justify-center px-4 pt-16">
-        <p className="mb-2 font-courier text-center text-xl font-bold uppercase tracking-[0.3em] text-white/90 md:text-2xl">
-          VAN TRIP
+      <div
+        className={`relative z-20 px-4 pt-[calc(env(safe-area-inset-top,0px)+3.5rem)] ${SNAP_SECTION_SCROLL_INNER}`}
+      >
+        <p className="mb-2 font-courier text-[10px] font-bold uppercase tracking-[0.4em] text-[#E07856]">
+          Prochain départ
         </p>
-        <h1 className="mb-2 font-courier text-center text-3xl font-bold tracking-wider text-transparent md:text-5xl md:text-6xl" style={{ background: "linear-gradient(to right, #E07856, #D4635B, #CD853F)", backgroundClip: "text", WebkitBackgroundClip: "text" }}>
-          {voyage.titre.toUpperCase()}
+        <h1
+          className="relative mb-1 max-w-[95%] font-courier text-[1.65rem] font-bold uppercase leading-tight tracking-tight text-transparent sm:text-[1.85rem]"
+          style={{
+            background: "linear-gradient(to right, #E07856, #D4635B, #CD853F)",
+            backgroundClip: "text",
+            WebkitBackgroundClip: "text",
+          }}
+        >
+          {voyage.titre}
         </h1>
-        <p className="mb-12 font-courier text-center text-sm font-bold tracking-widest text-white/90 md:text-base">
-          {voyage.sousTitre}
-        </p>
+        <p className="mb-6 font-courier text-xs text-white/60">{voyage.sousTitre}</p>
 
-        {/* Compte à rebours géant */}
-        <div className="mb-12 flex gap-3 md:gap-6">
-          {diff ? (
-            <>
-              <div className="flex flex-col items-center">
-                <span className="font-mono text-5xl font-light tabular-nums text-white drop-shadow-lg md:text-7xl">
-                  {pad(diff.days)}
-                </span>
-                <span className="mt-1 text-xs font-medium uppercase tracking-widest text-white/80">
-                  jours
-                </span>
-              </div>
-              <span className="font-mono text-4xl font-light text-white/60 md:text-6xl">
-                :
-              </span>
-              <div className="flex flex-col items-center">
-                <span className="font-mono text-5xl font-light tabular-nums text-white drop-shadow-lg md:text-7xl">
-                  {pad(diff.hours)}
-                </span>
-                <span className="mt-1 text-xs font-medium uppercase tracking-widest text-white/80">
-                  heures
-                </span>
-              </div>
-              <span className="font-mono text-4xl font-light text-white/60 md:text-6xl">
-                :
-              </span>
-              <div className="flex flex-col items-center">
-                <span className="font-mono text-5xl font-light tabular-nums text-white drop-shadow-lg md:text-7xl">
-                  {pad(diff.minutes)}
-                </span>
-                <span className="mt-1 text-xs font-medium uppercase tracking-widest text-white/80">
-                  min
-                </span>
-              </div>
-              <span className="font-mono text-4xl font-light text-white/60 md:text-6xl">
-                :
-              </span>
-              <div className="flex flex-col items-center">
-                <span className="font-mono text-5xl font-light tabular-nums text-white drop-shadow-lg md:text-7xl">
-                  {pad(diff.seconds)}
-                </span>
-                <span className="mt-1 text-xs font-medium uppercase tracking-widest text-white/80">
-                  sec
-                </span>
-              </div>
-            </>
-          ) : (
-            <div className="font-mono text-5xl text-white/80">-- : -- : -- : --</div>
-          )}
-        </div>
-
-        {/* Villes en badges modernes */}
-        <div className="mb-8 flex flex-wrap justify-center gap-2">
-          {voyage.steps.map((s) => (
+        <div className="mb-6 flex flex-wrap gap-2">
+          {voyage.steps.slice(0, 5).map((s) => (
             <span
               key={s.id}
-              className="rounded-full border border-white/40 bg-white/15 px-4 py-1.5 text-sm font-medium text-white backdrop-blur-sm"
+              className="rounded-full border border-white/25 bg-white/10 px-3 py-1 font-courier text-[11px] font-bold text-white/90"
             >
               {s.nom}
             </span>
           ))}
         </div>
 
+        <div className="mb-6 flex flex-wrap items-end gap-2 sm:gap-3">
+          {diff ? (
+            <>
+              <div className="flex flex-col">
+                <span className="font-mono text-4xl font-light tabular-nums text-white drop-shadow sm:text-5xl">
+                  {pad(diff.days)}
+                </span>
+                <span className="text-[10px] font-bold uppercase tracking-widest text-white/55">
+                  jours
+                </span>
+              </div>
+              <span className="mb-4 font-mono text-2xl text-white/40">:</span>
+              <div className="flex flex-col">
+                <span className="font-mono text-4xl font-light tabular-nums text-white drop-shadow sm:text-5xl">
+                  {pad(diff.hours)}
+                </span>
+                <span className="text-[10px] font-bold uppercase tracking-widest text-white/55">
+                  h
+                </span>
+              </div>
+              <span className="mb-4 font-mono text-2xl text-white/40">:</span>
+              <div className="flex flex-col">
+                <span className="font-mono text-4xl font-light tabular-nums text-white drop-shadow sm:text-5xl">
+                  {pad(diff.minutes)}
+                </span>
+                <span className="text-[10px] font-bold uppercase tracking-widest text-white/55">
+                  min
+                </span>
+              </div>
+              <span className="mb-4 font-mono text-2xl text-white/40">:</span>
+              <div className="flex flex-col">
+                <span className="font-mono text-4xl font-light tabular-nums text-white drop-shadow sm:text-5xl">
+                  {pad(diff.seconds)}
+                </span>
+                <span className="text-[10px] font-bold uppercase tracking-widest text-white/55">
+                  s
+                </span>
+              </div>
+            </>
+          ) : (
+            <div className="font-mono text-3xl text-white/80">—</div>
+          )}
+        </div>
+
         <Link
           href={`/voyage/${voyage.id}/prevu`}
-          className="btn-terracotta rounded-[50px] border-2 border-white bg-white/95 px-10 py-4 font-courier font-bold text-[#A55734] shadow-2xl transition-all duration-300 hover:scale-110 hover:bg-white hover:shadow-[#E07856]/70"
+          className="mb-4 w-full max-w-md rounded-2xl bg-gradient-to-r from-[#E07856] to-[#c94a4a] py-3.5 text-center font-courier text-sm font-bold text-white shadow-lg"
         >
-          Voir le voyage
+          Ouvrir le carnet prévu
         </Link>
-      </div>
 
-      {/* Incitation au scroll */}
-      <div className="flex justify-center py-4">
-        <button
-          type="button"
-          onClick={() =>
-            document.getElementById("on-repart")?.scrollIntoView({
-              behavior: "smooth",
-            })
-          }
-          className="flex flex-col items-center gap-2 font-courier text-white/90 transition-all duration-300 hover:scale-110"
-        >
-          <span className="text-sm font-bold">On repart ?</span>
-          <ChevronDown className="h-6 w-6 animate-bounce" />
-        </button>
+        {suitePrevus.length > 0 && (
+          <div className="mb-4 w-full max-w-md rounded-2xl border border-white/25 bg-black/30 p-3 backdrop-blur-sm">
+            <p className="mb-2 font-courier text-[10px] font-bold uppercase tracking-wider text-white/75">
+              Autres voyages prévus
+            </p>
+            <ul className="space-y-2">
+              {suitePrevus.map((v) => (
+                <li key={v.id}>
+                  <Link
+                    href={`/voyage/${v.id}/prevu`}
+                    className="flex items-center justify-between rounded-lg border border-white/20 bg-white/10 px-3 py-2 font-courier text-sm font-bold text-white"
+                  >
+                    <span className="truncate">{v.titre}</span>
+                    <span className="text-white/70">→</span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+            <Link
+              href="/planifier/commencer"
+              className="mt-2 inline-block font-courier text-xs font-bold text-[#E07856]"
+            >
+              + Autre voyage
+            </Link>
+          </div>
+        )}
+
+        <div className="mt-auto flex shrink-0 pb-4">
+          <button
+            type="button"
+            onClick={() =>
+              document.getElementById("on-repart")?.scrollIntoView({
+                behavior: "smooth",
+              })
+            }
+            className="flex items-center gap-2 font-courier text-xs font-bold text-white/70"
+          >
+            Suite
+            <ChevronDown className="h-4 w-4 animate-bounce" />
+          </button>
+        </div>
       </div>
     </section>
   );

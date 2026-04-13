@@ -18,8 +18,8 @@ export default function AmiVoyagePhotoStrip({ steps }: Props) {
 
   useEffect(() => {
     if (steps.length === 0) {
-      setUrls([]);
-      return;
+      const id = window.setTimeout(() => setUrls([]), 0);
+      return () => window.clearTimeout(id);
     }
     let dead = false;
     fetch("/api/photo-lieu-batch", {
@@ -41,27 +41,28 @@ export default function AmiVoyagePhotoStrip({ steps }: Props) {
     return () => {
       dead = true;
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- stepKey encode les steps
   }, [stepKey]);
 
   if (urls.length === 0) return null;
 
   const doubled = [...urls, ...urls];
+  const first = urls[0];
 
   return (
     <>
-      <div className="photos-amis-fade relative h-32 w-full shrink-0 overflow-hidden sm:hidden">
-        <div className="flex h-full animate-scroll-horizontal-slow">
-          {doubled.map((u, j) => (
-            <div
-              key={j}
-              className="h-full min-w-[100px] shrink-0 bg-cover bg-center"
-              style={{ backgroundImage: `url(${u})` }}
-            />
-          ))}
+      {/* Mobile : vignette statique (pas de masque / pas d’artefact « curseur » au centre) */}
+      {first && (
+        <div className="relative h-28 w-full shrink-0 overflow-hidden rounded-lg sm:hidden">
+          <div
+            className="h-full w-full bg-cover bg-center"
+            style={{ backgroundImage: `url(${first})` }}
+          />
+          <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#5D3A1A]/55 to-transparent" />
         </div>
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#5D3A1A]/90 via-[#5D3A1A]/25 to-transparent" />
-      </div>
-      <div className="photos-amis-fade relative hidden w-40 shrink-0 overflow-hidden sm:block md:w-48">
+      )}
+      {/* Desktop : bandeau défilant, sans mask CSS qui tranche l’image au milieu */}
+      <div className="relative hidden w-40 shrink-0 overflow-hidden rounded-r-lg sm:block md:w-48">
         <div className="flex h-full min-h-[7rem] animate-scroll-horizontal-slow">
           {doubled.map((u, j) => (
             <div
@@ -71,7 +72,7 @@ export default function AmiVoyagePhotoStrip({ steps }: Props) {
             />
           ))}
         </div>
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-[#5D3A1A]/95 via-[#5D3A1A]/30 to-transparent" />
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-[#5D3A1A]/85 via-[#5D3A1A]/20 to-transparent" />
       </div>
     </>
   );

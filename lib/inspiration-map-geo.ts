@@ -85,12 +85,15 @@ export function territoriesToPointCollection(
   };
 }
 
+export type LieuPoiTier = "strong" | "standard" | "saved";
+
 export type SlimLieuPoint = {
   slug: string;
   nom: string;
   lat: number;
   lng: number;
   source_type?: string;
+  tier?: LieuPoiTier;
 };
 
 export function lieuxToPointCollection(lieux: SlimLieuPoint[]): FeatureCollection<Point> {
@@ -103,6 +106,7 @@ export function lieuxToPointCollection(lieux: SlimLieuPoint[]): FeatureCollectio
         name: l.nom,
         kind: "ville",
         source_type: l.source_type ?? "",
+        tier: l.tier ?? "standard",
       },
       geometry: {
         type: "Point" as const,

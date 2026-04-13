@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState, type Dispatch, type SetStateAction } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { ChevronLeft } from "lucide-react";
 import {
@@ -27,8 +27,19 @@ import { CityPhoto } from "@/components/CityPhoto";
 import { slugFromNom } from "@/lib/slug-from-nom";
 import FavoriteButton from "./FavoriteButton";
 import { themeCardImageUrl } from "@/lib/star-itinerary-theme-card-images";
-import { useCuratedAssignmentPhoto, useRegionCuratedGallery } from "@/hooks/useCuratedInspirationPhotos";
+import { useCuratedAssignmentPhoto } from "@/hooks/useCuratedInspirationPhotos";
 import type { StarItineraryStopDto } from "@/types/inspiration-star-map";
+import type { RegionEditorialContent } from "@/types/inspiration";
+import {
+  INSPI_ACCENT_LINE,
+  INSPI_CTA_GRADIENT,
+  INSPI_SURFACE_CARD,
+  INSPI_SURFACE_SHEET,
+  INSPI_TEXT_MUTED,
+  INSPI_TEXT_PRIMARY,
+  InspirationRegionHero,
+} from "./inspirationEditorialUi";
+import ExploreRegionContent from "./explore-region/ExploreRegionContent";
 
 type SlimLieuCard = {
   slug: string;
@@ -38,28 +49,41 @@ type SlimLieuCard = {
 };
 
 /** Même alternance que les pages Ville (VilleDescriptionClient) */
-const BAND_DARK =
-  "border border-white/15 bg-gradient-to-br from-[#5D3A1A] via-[#8B4513] to-[#A0522D] shadow-md";
 const BAND_LIGHT =
   "border border-[#E07856]/25 bg-gradient-to-br from-[#FFF8F0] to-[#FAF4F0] shadow-sm";
 
 function SheetChrome({
   children,
   onBack,
-  tall: _tall,
   onScroll,
   onDragClose,
   /** Carte/fiche : une seule poignée hors sheet (jointure) — pas de 2e barre ni texte d’aide. */
   variant = "default",
+  /** Fiche région pleine : masquer le micro-texte technique sous la poignée. */
+  showDragHint = true,
+  /** Premier bloc en pleine largeur (hero image) — pas de padding scroll initial. */
+  fullBleedContent = false,
+  /** Aligné landing / accueil : fond brique–noir chaud, moins blanc isolé. */
+  sheetTone = "default",
 }: {
   children: React.ReactNode;
   onBack?: () => void;
-  tall?: boolean;
   onScroll?: (e: React.UIEvent<HTMLDivElement>) => void;
   onDragClose?: () => void;
   variant?: "default" | "split";
+  showDragHint?: boolean;
+  fullBleedContent?: boolean;
+  sheetTone?: "default" | "darkWarm";
 }) {
   const isSplit = variant === "split";
+  const darkWarm = sheetTone === "darkWarm";
+  const sheetBg = isSplit
+    ? darkWarm
+      ? INSPI_SURFACE_SHEET
+      : "bg-[#FAF4F0]"
+    : darkWarm
+      ? INSPI_SURFACE_SHEET
+      : "bg-[#FFFBF8]";
   return (
     <motion.div
       initial={isSplit ? { opacity: 0.98, y: 10 } : { opacity: 0, y: 24 }}
@@ -69,9 +93,9 @@ function SheetChrome({
         duration: isSplit ? 0.7 : 0.45,
         ease: [0.25, 0.85, 0.35, 1],
       }}
-      className={`relative flex h-full min-h-0 flex-col rounded-t-3xl border border-[#A55734]/15 shadow-[0_-6px_32px_rgba(80,40,20,0.1)] ${
-        isSplit ? "bg-[#FAF4F0]" : "bg-[#FFFBF8]"
-      }`}
+      className={`relative flex h-full min-h-0 flex-col rounded-t-3xl border shadow-[0_-6px_32px_rgba(0,0,0,0.28)] ${
+        darkWarm ? "border-white/10" : "border-[#A55734]/15"
+      } ${sheetBg}`}
     >
       {!isSplit && onDragClose ? (
         <motion.div
@@ -84,11 +108,15 @@ function SheetChrome({
             if (info.velocity.y > 520 && info.offset.y > 20) onDragClose();
           }}
         >
-          <div className="h-1.5 w-16 rounded-full bg-[#A55734]/45 shadow-sm" />
+          <div
+            className={`h-1.5 w-16 rounded-full shadow-sm ${darkWarm ? "bg-white/35" : "bg-[#A55734]/45"}`}
+          />
         </motion.div>
       ) : !isSplit ? (
         <div className="flex shrink-0 justify-center pt-2">
-          <div className="h-1.5 w-11 rounded-full bg-[#A55734]/30" />
+          <div
+            className={`h-1.5 w-11 rounded-full ${darkWarm ? "bg-white/25" : "bg-[#A55734]/30"}`}
+          />
         </div>
       ) : null}
       {!isSplit && onBack && (
@@ -101,14 +129,22 @@ function SheetChrome({
           Retour
         </button>
       )}
-      {!isSplit && (
-        <p className="mt-0.5 text-center font-courier text-[10px] text-[#333]/45">
+      {!isSplit && showDragHint && (
+        <p
+          className={`mt-0.5 text-center font-courier text-[10px] ${darkWarm ? "text-white/35" : "text-[#333]/45"}`}
+        >
           Tire la poignée entre carte et fiche pour ajuster la hauteur · glisser vite vers le bas pour fermer
         </p>
       )}
       <div
         onScroll={onScroll}
-        className={`min-h-0 flex-1 overflow-y-auto overscroll-contain px-4 pb-10 ${isSplit ? "pt-3" : "pt-6"}`}
+        className={`min-h-0 flex-1 overflow-y-auto overscroll-contain pb-10 ${
+          fullBleedContent
+            ? "px-0 pt-0"
+            : isSplit
+              ? "px-3 pt-3"
+              : "px-4 pt-6"
+        }`}
       >
         {children}
       </div>
@@ -131,6 +167,7 @@ export default function MapBottomPanels({ onSheetScroll, starRouteDetail }: Pane
     top,
     goBack,
     goExploreRegion,
+    openRegionMapFullscreen,
     openStarList,
     selectStarItinerary,
     selectEditorialStarItinerary,
@@ -151,6 +188,7 @@ export default function MapBottomPanels({ onSheetScroll, starRouteDetail }: Pane
           regionId={top.regionId}
           onExplore={goExploreRegion}
           onStars={openStarList}
+          onOpenMap={openRegionMapFullscreen}
           onScroll={onSheetScroll}
           onDragClose={resetFrance}
         />
@@ -160,10 +198,12 @@ export default function MapBottomPanels({ onSheetScroll, starRouteDetail }: Pane
           key="explore"
           regionId={top.regionId}
           ambiance={ctx.ambiance}
+          setAmbiance={ctx.setAmbiance}
           duration={ctx.duration}
           territories={allTerritories}
           onBack={goBack}
           onOpenStars={openStarList}
+          onOpenMap={openRegionMapFullscreen}
           onPickTerritory={selectTerritoryPoi}
           onScroll={onSheetScroll}
           onDragClose={goBack}
@@ -214,131 +254,127 @@ export default function MapBottomPanels({ onSheetScroll, starRouteDetail }: Pane
   );
 }
 
+function previewTagsFromAccroche(accroche: string): string[] {
+  const parts = accroche
+    .split(/[.,;]+/)
+    .map((s) => s.trim())
+    .filter(Boolean);
+  return parts.slice(0, 3).map((p) => (p.length > 26 ? `${p.slice(0, 24)}…` : p));
+}
+
+/** Tags ambiance — privilégie les motifs courts séparés par des virgules (cohérent avec la full région). */
+function regionAmbianceTags(accroche: string, max = 3): string[] {
+  const byComma = accroche
+    .split(/,\s*/)
+    .map((s) => s.trim())
+    .filter((s) => s.length >= 2);
+  if (byComma.length >= 2) {
+    return byComma.slice(0, max).map((t) => (t.length > 26 ? `${t.slice(0, 24)}…` : t));
+  }
+  return previewTagsFromAccroche(accroche).slice(0, max);
+}
+
+/** Libellés très courts — motifs issus de l’accroche (virgules), pas des paragraphes. */
+function photoStripLabels(r: RegionEditorialContent): [string, string, string] {
+  const segs = r.accroche_carte.split(/[,;]+/).map((s) => s.trim()).filter(Boolean);
+  const clip = (s: string) => (s.length > 22 ? `${s.slice(0, 20)}…` : s);
+  return [
+    clip(segs[0] ?? "·"),
+    clip(segs[1] ?? segs[0] ?? "·"),
+    clip(segs[2] ?? segs[0] ?? "·"),
+  ];
+}
+
+/** Teaser court uniquement — pas de galerie ni scroll long (lot navigation). */
 function PreviewRegion({
   regionId,
   onExplore,
   onStars,
+  onOpenMap,
   onScroll,
   onDragClose,
 }: {
   regionId: string;
   onExplore: () => void;
   onStars: () => void;
+  onOpenMap: () => void;
   onScroll?: (e: React.UIEvent<HTMLDivElement>) => void;
   onDragClose?: () => void;
 }) {
   const r = getRegionEditorial(regionId);
+  const tags = useMemo(
+    () => (r ? regionAmbianceTags(r.accroche_carte, 3) : []),
+    [r]
+  );
   if (!r) return null;
-
-  const heroCurated = useCuratedAssignmentPhoto(`region-hero:${regionId}`, regionId);
-  const heroSrc = heroCurated ?? r.headerPhoto;
-  const stripSlots = useMemo(() => ["s0", "s1", "s2", "s3", "s4"], []);
-  const stripUrls = useRegionCuratedGallery(regionId, stripSlots);
 
   return (
     <SheetChrome
-      tall
+      variant="split"
+      fullBleedContent
+      sheetTone="darkWarm"
       onScroll={onScroll}
       onDragClose={onDragClose}
-      variant="split"
     >
-      <div className="-mx-4 mb-4 overflow-hidden rounded-2xl border border-[#A55734]/20 bg-[#2a1810] shadow-inner">
-        <div className="relative aspect-[4/3] w-full max-h-[min(48vh,400px)] min-h-[180px]">
-          <Image
-            src={heroSrc}
-            alt=""
-            fill
-            priority
-            className="object-cover object-center"
-            sizes="100vw"
-          />
-          <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/75 via-black/20 to-black/35" />
-          <h1 className="absolute left-0 right-0 top-0 px-4 pb-10 pt-4 font-courier text-2xl font-bold tracking-wide text-white drop-shadow-[0_2px_14px_rgba(0,0,0,0.85)] sm:text-3xl">
-            {r.name}
-          </h1>
-        </div>
-      </div>
+      <div className={`min-h-0 flex-1 ${INSPI_TEXT_PRIMARY}`}>
+        <InspirationRegionHero
+          imageSrc={r.headerPhoto}
+          regionName={r.name}
+          tagline={r.accroche_carte}
+          density="preview"
+          showBackButton={false}
+        />
+        <div className="space-y-4 px-3 pb-2 pt-4">
+          <div className="flex flex-wrap gap-2">
+            {tags.map((t) => (
+              <span
+                key={t}
+                className={`rounded-full border border-white/15 ${INSPI_SURFACE_CARD} px-2.5 py-1 font-courier text-[10px] font-bold uppercase tracking-wide text-[#F5C4B8]/95`}
+              >
+                {t}
+              </span>
+            ))}
+          </div>
 
-      <div className="space-y-4">
-        <div className={`flex items-start justify-between gap-3 rounded-xl px-4 py-4 ${BAND_LIGHT}`}>
-          <p className="flex-1 font-courier text-sm leading-relaxed text-[#333]/90">{r.accroche_carte}</p>
-          <FavoriteButton kind="map_region" refId={r.id} label={r.name} />
-        </div>
-
-        <div className={`rounded-xl px-4 py-4 ${BAND_DARK}`}>
-          <div className="flex flex-col gap-3 sm:flex-row">
+          <div className="space-y-2.5">
             <button
               type="button"
               onClick={onExplore}
-              className="flex-1 rounded-full border-2 border-white/25 bg-gradient-to-r from-[#E07856] to-[#D4635B] py-3.5 font-courier text-sm font-bold text-white shadow-md transition hover:opacity-95"
+              className={`w-full rounded-2xl py-3.5 font-courier text-sm font-bold uppercase tracking-wide text-white transition hover:brightness-110 active:scale-[0.99] ${INSPI_CTA_GRADIENT}`}
             >
               Explorer la région
             </button>
             <button
               type="button"
               onClick={onStars}
-              className="flex-1 rounded-full border-2 border-white/35 bg-white/12 py-3.5 font-courier text-sm font-bold text-white backdrop-blur-sm transition hover:bg-white/20"
+              className={`w-full rounded-2xl border py-3 font-courier text-sm font-bold uppercase tracking-wide text-[#FFFBF7] transition hover:bg-white/10 ${INSPI_SURFACE_CARD}`}
             >
               Itinéraires stars
             </button>
+            <button
+              type="button"
+              onClick={onOpenMap}
+              className={`w-full rounded-xl border border-dashed border-white/25 py-2.5 font-courier text-[11px] font-bold text-[#c9b8ad] transition hover:border-white/40`}
+            >
+              Voir la carte
+            </button>
+          </div>
+
+          <div
+            className={`flex flex-wrap items-center justify-between gap-3 border-t pt-4 ${INSPI_ACCENT_LINE}`}
+          >
+            <Link
+              href="/planifier/favoris"
+              className={`font-courier text-[11px] underline decoration-white/25 underline-offset-4 transition hover:text-[#F5C4B8] ${INSPI_TEXT_MUTED}`}
+            >
+              Mes envies
+            </Link>
+            <div className="flex items-center gap-1.5" onClick={(e) => e.stopPropagation()}>
+              <FavoriteButton kind="map_region" refId={r.id} label={r.name} />
+              <span className={`font-courier text-[10px] ${INSPI_TEXT_MUTED}`}>J’y suis déjà allé</span>
+            </div>
           </div>
         </div>
-
-        <div className={`rounded-xl px-4 py-5 ${BAND_DARK}`}>
-          <p className="font-courier text-[10px] font-bold uppercase tracking-[0.2em] text-white/75">
-            Aperçu
-          </p>
-          <div className="mt-3 flex gap-2 overflow-x-auto pb-1 [-webkit-overflow-scrolling:touch]">
-            {stripUrls.map((src, i) => (
-              <div
-                key={i}
-                className="relative h-28 w-40 shrink-0 overflow-hidden rounded-xl bg-[#3d2818] shadow-sm ring-1 ring-white/15"
-              >
-                {src ? (
-                  <Image src={src} alt="" fill className="object-cover opacity-95" sizes="160px" />
-                ) : (
-                  <div className="h-full w-full bg-[#3d2818]" />
-                )}
-              </div>
-            ))}
-          </div>
-        </div>
-
-        <section className={`rounded-xl px-4 py-5 ${BAND_LIGHT}`}>
-          <h3 className="font-courier text-[10px] font-bold uppercase tracking-[0.25em] text-[#A55734]">
-            Trois incontournables
-          </h3>
-          <div className="mt-3 grid gap-3 sm:grid-cols-3">
-            {r.trois_incontournables.map((nom) => {
-              const slug = slugFromNom(nom);
-              return (
-                <Link
-                  key={nom}
-                  href={`/ville/${slug}?from=inspiration`}
-                  className="group overflow-hidden rounded-2xl border border-[#A55734]/15 bg-white shadow-sm transition hover:border-[#E07856]/40"
-                >
-                  <div className="relative h-[100px] w-full overflow-hidden bg-[#e8dfd6]">
-                    <CityPhoto
-                      stepId={slug}
-                      ville={nom}
-                      alt={nom}
-                      className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-[1.04]"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/55 to-transparent" />
-                    <span className="absolute bottom-2 left-2 right-2 text-center font-courier text-[11px] font-bold leading-tight text-white drop-shadow">
-                      {nom}
-                    </span>
-                  </div>
-                </Link>
-              );
-            })}
-          </div>
-        </section>
-
-        <aside className={`rounded-xl px-4 py-4 ${BAND_DARK}`}>
-          <p className="font-courier text-[10px] font-bold uppercase text-white/70">Note terrain</p>
-          <p className="mt-1.5 font-courier text-xs leading-relaxed text-white/88">{r.note_terrain}</p>
-        </aside>
       </div>
     </SheetChrome>
   );
@@ -347,20 +383,24 @@ function PreviewRegion({
 function ExploreRegion({
   regionId,
   ambiance,
+  setAmbiance,
   duration,
   territories,
   onBack,
   onOpenStars,
+  onOpenMap,
   onPickTerritory,
   onScroll,
   onDragClose,
 }: {
   regionId: string;
   ambiance: InspirationAmbianceFilter[];
+  setAmbiance: Dispatch<SetStateAction<InspirationAmbianceFilter[]>>;
   duration: InspirationDurationFilter | null;
   territories: EditorialTerritory[];
   onBack: () => void;
   onOpenStars: () => void;
+  onOpenMap: () => void;
   onPickTerritory: (id: string) => void;
   onScroll?: (e: React.UIEvent<HTMLDivElement>) => void;
   onDragClose?: () => void;
@@ -398,165 +438,30 @@ function ExploreRegion({
 
   return (
     <SheetChrome
-      onBack={onBack}
-      tall
       onScroll={onScroll}
       onDragClose={onDragClose}
+      showDragHint={false}
+      fullBleedContent
+      sheetTone="darkWarm"
     >
-      {r && (
-        <>
-          <div className="mb-5 flex items-center gap-3 border-b border-[#A55734]/10 pb-4">
-            <div className="relative h-16 w-16 shrink-0 overflow-hidden rounded-xl bg-[#e8dfd6]">
-              <Image src={r.headerPhoto} alt="" fill className="object-cover" sizes="64px" />
-            </div>
-            <div className="min-w-0">
-              <h2 className="font-courier text-lg font-bold text-[#A55734]">{r.name}</h2>
-              <p className="mt-0.5 font-courier text-[13px] leading-snug text-[#333]/80">{r.accroche_carte}</p>
-            </div>
-          </div>
-          <p className="font-courier text-sm leading-relaxed text-[#333]/88">{r.paragraphe_explorer}</p>
-          <div className="mt-4 flex gap-2 overflow-x-auto pb-1">
-            {r.photos.slice(0, 5).map((src, i) => (
-              <div
-                key={i}
-                className="relative h-24 w-36 shrink-0 overflow-hidden rounded-xl bg-[#e8dfd6]"
-              >
-                <Image src={src} alt="" fill className="object-cover" sizes="144px" />
-              </div>
-            ))}
-          </div>
-          <section className="mt-6">
-            <h3 className="font-courier text-[10px] font-bold uppercase text-[#A55734]">
-              L’esprit du territoire
-            </h3>
-            <p className="mt-2 font-courier text-sm leading-relaxed text-[#333]/88">{r.intro_longue}</p>
-          </section>
-          <section className="mt-5">
-            <h3 className="font-courier text-[10px] font-bold uppercase text-[#A55734]">
-              Comment la parcourir
-            </h3>
-            <p className="mt-2 font-courier text-sm leading-relaxed text-[#333]/88">{r.ambiance_detail}</p>
-          </section>
-          <section className="mt-6">
-            <h3 className="font-courier text-[10px] font-bold uppercase text-[#A55734]">
-              Trois incontournables
-            </h3>
-            <div className="mt-3 grid gap-3 sm:grid-cols-3">
-              {r.trois_incontournables.map((nom) => {
-                const slug = slugFromNom(nom);
-                return (
-                  <Link
-                    key={nom}
-                    href={`/ville/${slug}?from=inspiration`}
-                    className="group overflow-hidden rounded-2xl border border-[#A55734]/12 bg-white shadow-sm"
-                  >
-                    <div className="relative h-[92px] w-full overflow-hidden bg-[#e8dfd6]">
-                      <CityPhoto
-                        stepId={slug}
-                        ville={nom}
-                        alt={nom}
-                        className="absolute inset-0 h-full w-full object-cover transition group-hover:scale-[1.03]"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/55 to-transparent" />
-                      <span className="absolute bottom-2 left-2 right-2 text-center font-courier text-[10px] font-bold text-white drop-shadow">
-                        {nom}
-                      </span>
-                    </div>
-                  </Link>
-                );
-              })}
-            </div>
-          </section>
-          <aside className="mt-6 rounded-2xl border border-[#A55734]/12 bg-[#FFF8F0]/90 px-3 py-3">
-            <p className="font-courier text-[10px] font-bold uppercase text-[#A55734]/75">Note terrain</p>
-            <p className="mt-1 font-courier text-xs leading-relaxed text-[#333]/85">{r.note_terrain}</p>
-          </aside>
-        </>
+      {r ? (
+        <ExploreRegionContent
+          regionId={regionId}
+          r={r}
+          filtered={filtered}
+          lieuxCards={lieuxCards}
+          ambiance={ambiance}
+          setAmbiance={setAmbiance}
+          onBack={onBack}
+          onOpenStars={onOpenStars}
+          onOpenMap={onOpenMap}
+          onPickTerritory={onPickTerritory}
+        />
+      ) : (
+        <p className={`px-4 py-6 font-courier text-sm ${INSPI_TEXT_MUTED}`}>
+          Contenu éditorial à venir pour cette zone.
+        </p>
       )}
-
-      {lieuxCards.length > 0 && (
-        <div className="mb-6">
-          <p className="font-courier text-[10px] font-bold uppercase text-[#A55734]">
-            Lieux & fiches ({lieuxCards.length})
-          </p>
-          <p className="mt-1 font-courier text-[10px] text-[#333]/55">
-            Sélection selon tes filtres — meilleurs scores, même photos que les fiches ville.
-          </p>
-          <div className="mt-3 flex gap-3 overflow-x-auto pb-2">
-            {lieuxCards.map((l) => (
-              <Link
-                key={l.slug}
-                href={`/ville/${l.slug}?from=inspiration`}
-                className="group flex w-[148px] shrink-0 flex-col overflow-hidden rounded-2xl border border-[#A55734]/15 bg-white shadow-sm transition hover:border-[#E07856]/45"
-              >
-                <div className="relative h-[88px] w-full overflow-hidden bg-[#e8dfd6]">
-                  <CityPhoto
-                    stepId={l.slug}
-                    ville={l.nom}
-                    alt={l.nom}
-                    className="absolute inset-0 h-full w-full object-cover transition group-hover:scale-[1.03]"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
-                  <span className="absolute bottom-1.5 left-2 right-2 line-clamp-2 font-courier text-[11px] font-bold leading-tight text-white drop-shadow">
-                    {l.nom}
-                  </span>
-                </div>
-                <div className="px-2 py-2">
-                  <p className="line-clamp-2 font-courier text-[9px] text-[#333]/75">
-                    {(l.source_type || "lieu").replace(/_/g, " ")}
-                  </p>
-                </div>
-              </Link>
-            ))}
-          </div>
-        </div>
-      )}
-
-      <p className="font-courier text-[10px] font-bold uppercase text-[#A55734]">
-        Territoires ({filtered.length})
-      </p>
-      <div className="mt-3 flex gap-2 overflow-x-auto pb-2">
-        {filtered.map((t) => (
-          <button
-            key={t.id}
-            type="button"
-            onClick={() => onPickTerritory(t.id)}
-            className="flex w-[200px] shrink-0 flex-col rounded-xl border border-[#A55734]/15 bg-white p-3 text-left shadow-sm transition hover:border-[#E07856]/45"
-          >
-            <span className="font-courier text-xs font-bold text-[#A55734]">{t.name}</span>
-            <span className="mt-1 line-clamp-3 font-courier text-[10px] leading-relaxed text-[#333]/80">
-              {t.pitch}
-            </span>
-          </button>
-        ))}
-      </div>
-
-      <button
-        type="button"
-        onClick={onOpenStars}
-        className="mt-6 w-full rounded-full border-2 border-[#A55734]/30 py-3 font-courier text-sm font-bold text-[#A55734] transition hover:bg-[#FFF2EB]"
-      >
-        Itinéraires stars
-      </button>
-
-      <p
-        id="liste-territoires-inspiration"
-        className="mt-6 scroll-mt-32 font-courier text-[10px] font-bold uppercase text-[#A55734]/60"
-      >
-        Liste détaillée
-      </p>
-      <ul className="mt-2 space-y-2">
-        {filtered.map((t) => (
-          <li key={t.id}>
-            <Link
-              href={`/planifier/inspiration/${t.id}`}
-              className="block rounded-lg border border-[#A55734]/12 bg-white/80 px-3 py-2 font-courier text-xs text-[#333] hover:border-[#E07856]/40"
-            >
-              {t.name}
-            </Link>
-          </li>
-        ))}
-      </ul>
     </SheetChrome>
   );
 }
@@ -580,39 +485,56 @@ function PoiSheet({
       onBack={onBack}
       onScroll={onScroll}
       onDragClose={onDragClose}
+      showDragHint={false}
+      sheetTone="darkWarm"
     >
-      <div className="relative mb-4 aspect-[16/9] w-full overflow-hidden rounded-2xl bg-[#e8dfd6]">
-        <Image
-          src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1200&q=80"
-          alt=""
-          fill
-          className="object-cover"
-          sizes="100vw"
-        />
-      </div>
-      <div className="flex items-start justify-between gap-2">
-        <h2 className="font-courier text-lg font-bold text-[#A55734]">{t.name}</h2>
-        <FavoriteButton kind="territory" refId={t.id} label={t.name} />
-      </div>
-      <p className="mt-3 font-courier text-sm leading-relaxed text-[#333]">{t.pitch}</p>
-      <ul className="mt-4 space-y-1 font-courier text-xs text-[#333]/85">
-        {t.markers.map((m) => (
-          <li key={m}>· {m}</li>
-        ))}
-      </ul>
-      <div className="mt-6 flex flex-wrap gap-2">
-        <Link
-          href={`/planifier/inspiration/${t.id}`}
-          className="rounded-full border-2 border-[#E07856] bg-gradient-to-r from-[#E07856] to-[#D4635B] px-4 py-2 font-courier text-xs font-bold text-white"
-        >
-          Fiche complète
-        </Link>
-        <Link
-          href={`/planifier/zone?territoire=${encodeURIComponent(t.id)}`}
-          className="rounded-full border border-[#A55734]/35 px-4 py-2 font-courier text-xs font-bold text-[#A55734]"
-        >
-          Créer un voyage
-        </Link>
+      <div className={`space-y-4 ${INSPI_TEXT_PRIMARY}`}>
+        <div className="relative aspect-[16/10] w-full overflow-hidden rounded-2xl bg-[#5c4d45] ring-1 ring-[#f5e6dc]/15">
+          <Image
+            src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1200&q=80"
+            alt=""
+            fill
+            className="object-cover"
+            sizes="100vw"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#3d3430]/90 to-transparent" />
+        </div>
+        <div className="flex items-start justify-between gap-2">
+          <h2 className={`font-courier text-xl font-bold uppercase tracking-wide text-[#FFFBF7]`}>
+            {t.name}
+          </h2>
+          <FavoriteButton
+            kind="territory"
+            refId={t.id}
+            label={t.name}
+            className="border-white/25 bg-[#6b5a50]/50 text-[#fde8e0]"
+          />
+        </div>
+        <p className={`font-courier text-sm leading-relaxed ${INSPI_TEXT_MUTED}`}>{t.pitch}</p>
+        <div className="flex flex-wrap gap-2">
+          {t.filter_tags.slice(0, 4).map((tag) => (
+            <span
+              key={tag}
+              className="rounded-full border border-white/15 bg-white/10 px-2 py-0.5 font-courier text-[10px] uppercase tracking-wide text-[#f5c4b8]/90"
+            >
+              {tag.replace(/_/g, " ")}
+            </span>
+          ))}
+        </div>
+        <div className="flex flex-wrap gap-2 pt-2">
+          <Link
+            href={`/planifier/inspiration/${t.id}`}
+            className={`rounded-full px-4 py-2 font-courier text-xs font-bold text-white ${INSPI_CTA_GRADIENT}`}
+          >
+            Voir plus
+          </Link>
+          <Link
+            href={`/planifier/zone?territoire=${encodeURIComponent(t.id)}`}
+            className={`rounded-full border border-[#f5c4b8]/35 px-4 py-2 font-courier text-xs font-bold text-[#fde8e0]`}
+          >
+            Créer un voyage
+          </Link>
+        </div>
       </div>
     </SheetChrome>
   );
@@ -735,7 +657,7 @@ function StarListSheet({
       : [];
 
   return (
-    <SheetChrome onBack={onBack} tall onScroll={onScroll} onDragClose={onDragClose}>
+    <SheetChrome onBack={onBack} onScroll={onScroll} onDragClose={onDragClose}>
       <h2 className="mb-1 font-courier text-lg font-bold text-[#A55734]">Itinéraires stars</h2>
       <p className="mb-5 font-courier text-[11px] leading-relaxed text-[#333]/72">
         Thème → durée → parcours sur la carte.
@@ -1005,7 +927,7 @@ function StarDetailSheetLegacy({
   const coords = s.geometry.coordinates;
 
   return (
-    <SheetChrome onBack={onBack} tall onScroll={onScroll} onDragClose={onDragClose}>
+    <SheetChrome onBack={onBack} onScroll={onScroll} onDragClose={onDragClose}>
       <div className="relative mb-4 aspect-[16/9] w-full overflow-hidden rounded-2xl bg-[#e8dfd6]">
         <Image src={s.coverPhoto} alt="" fill className="object-cover" sizes="100vw" />
       </div>
@@ -1080,7 +1002,7 @@ function StarDetailSheetEditorial({
 
   if (item === undefined) {
     return (
-      <SheetChrome onBack={onBack} tall onScroll={onScroll} onDragClose={onDragClose}>
+      <SheetChrome onBack={onBack} onScroll={onScroll} onDragClose={onDragClose}>
         <p className="font-courier text-sm text-[#333]/70">Chargement du parcours…</p>
       </SheetChrome>
     );
@@ -1088,7 +1010,7 @@ function StarDetailSheetEditorial({
 
   if (!item) {
     return (
-      <SheetChrome onBack={onBack} tall onScroll={onScroll} onDragClose={onDragClose}>
+      <SheetChrome onBack={onBack} onScroll={onScroll} onDragClose={onDragClose}>
         <p className="font-courier text-sm text-[#333]/70">
           Parcours introuvable. Enregistre le JSON régional puis rafraîchis la page.
         </p>
@@ -1099,7 +1021,7 @@ function StarDetailSheetEditorial({
   const favRef = `editorial:${regionId}:${item.itinerarySlug}`;
 
   return (
-    <SheetChrome onBack={onBack} tall onScroll={onScroll} onDragClose={onDragClose}>
+    <SheetChrome onBack={onBack} onScroll={onScroll} onDragClose={onDragClose}>
       <div className="relative mb-4 overflow-hidden rounded-2xl border border-[#A55734]/15 bg-gradient-to-br from-[#5D3A1A]/15 via-[#FFF8F0] to-[#E07856]/10">
         <div className="aspect-[16/7] w-full min-h-[120px]" aria-hidden />
         <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-black/55 via-black/10 to-transparent p-4">

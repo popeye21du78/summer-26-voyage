@@ -28,7 +28,7 @@ export default function PreVoyagesPage() {
         {VOYAGES_PREFAITS.map((v) => (
           <Link
             key={v.id}
-            href="/accueil#on-repart"
+            href="/planifier/commencer"
             className="block overflow-hidden rounded-xl border border-[#E07856]/20 bg-white transition-all duration-300 hover:scale-[1.01] hover:border-[#E07856]/40 hover:shadow-lg"
           >
             {v.steps[0] ? (

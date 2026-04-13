@@ -62,6 +62,14 @@ export default function PlanifierHubPage() {
       >
         Retour à l’accueil
       </Link>
+      <p className="mt-4">
+        <Link
+          href="/planifier/commencer"
+          className="font-courier text-sm font-bold text-[#A55734] underline"
+        >
+          Hub « Commencer un voyage » (tous les modes)
+        </Link>
+      </p>
     </main>
   );
 }

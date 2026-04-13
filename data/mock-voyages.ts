@@ -257,6 +257,48 @@ function dateFromToday(offsetDays: number): string {
   return d.toISOString().slice(0, 10);
 }
 
+/** Jours calendaires jusqu’à une date ISO (min 0 si déjà passée, arrondi). */
+export function joursJusquau(dateIso: string): number {
+  const cible = new Date(dateIso + "T12:00:00");
+  const now = new Date();
+  now.setHours(0, 0, 0, 0);
+  cible.setHours(0, 0, 0, 0);
+  return Math.max(0, Math.ceil((cible.getTime() - now.getTime()) / 86400000));
+}
+
+/** État persona enrichi (plusieurs voyages prévus possibles). */
+export type PersonaVoyageState = {
+  etat: EtatVoyage;
+  voyageEnCours?: Voyage;
+  voyagePrevu?: Voyage;
+  /** Tous les voyages à venir (triés : le premier = prochain). Si absent, seul voyagePrevu compte. */
+  voyagesPrevus?: Voyage[];
+  voyagesTermines?: Voyage[];
+  jourActuel?: number;
+  joursRestants?: number;
+};
+
+/** Tous les voyages « perso » d’un état persona (prévus multiples inclus, sans doublon d’id). */
+export function collectPersonaVoyages(state: PersonaVoyageState): Voyage[] {
+  const prevusRaw =
+    state.voyagesPrevus && state.voyagesPrevus.length > 0
+      ? state.voyagesPrevus
+      : state.voyagePrevu
+        ? [state.voyagePrevu]
+        : [];
+  const seen = new Set<string>();
+  const prevus = prevusRaw.filter((v) => {
+    if (seen.has(v.id)) return false;
+    seen.add(v.id);
+    return true;
+  });
+  return [
+    state.voyageEnCours,
+    ...prevus,
+    ...(state.voyagesTermines ?? []),
+  ].filter(Boolean) as Voyage[];
+}
+
 /** Voyages préfaits (inspiration) */
 export const VOYAGES_PREFAITS: Voyage[] = [
   {
@@ -337,14 +379,7 @@ export function getVoyagePrefait(id: string, dateDebut: string): Voyage | null {
 }
 
 /** Voyages par persona — dates simulées. IDs uniques pour les URLs. */
-export function getVoyageForProfile(profileId: string): {
-  etat: EtatVoyage;
-  voyageEnCours?: Voyage;
-  voyagePrevu?: Voyage;
-  voyagesTermines?: Voyage[];
-  jourActuel?: number;
-  joursRestants?: number;
-} {
+export function getVoyageForProfile(profileId: string): PersonaVoyageState {
   switch (profileId) {
     case "marc": {
       const dateDebut = dateFromToday(3);
@@ -353,7 +388,8 @@ export function getVoyageForProfile(profileId: string): {
       return {
         etat: "voyage_prevu",
         voyagePrevu: voyage,
-        joursRestants: 3,
+        voyagesPrevus: [voyage],
+        joursRestants: joursJusquau(dateDebut),
       };
     }
     case "sophie": {
@@ -368,20 +404,22 @@ export function getVoyageForProfile(profileId: string): {
       };
     }
     case "lea": {
-      const v1 = getVoyagePrefait("provence-5j", dateFromToday(-6))!;
-      const v2 = getVoyagePrefait("chateaux-cathares-6j", dateFromToday(-20))!;
-      const v3 = getVoyagePrefait("provence-5j", dateFromToday(-45))!;
+      const date1 = dateFromToday(12);
+      const date2 = dateFromToday(28);
+      const raw1 = getVoyagePrefait("provence-5j", date1)!;
+      const raw2 = getVoyagePrefait("bretagne-4j", date2)!;
+      const voyage1 = { ...raw1, id: "lea-provence-prevu" };
+      const voyage2 = { ...raw2, id: "lea-bretagne-prevu" };
       return {
-        etat: "voyage_termine",
-        voyagesTermines: [
-          { ...v1, id: "lea-provence-1" },
-          { ...v2, id: "lea-chateaux-2" },
-          { ...v3, id: "lea-provence-3" },
-        ],
+        etat: "voyage_prevu",
+        voyagePrevu: voyage1,
+        voyagesPrevus: [voyage1, voyage2],
+        joursRestants: joursJusquau(date1),
       };
     }
     case "thomas": {
-      const v = getVoyagePrefait("provence-5j", dateFromToday(-6))!;
+      const dateDebut = dateFromToday(-45);
+      const v = getVoyagePrefait("provence-5j", dateDebut)!;
       return {
         etat: "voyage_termine",
         voyagesTermines: [{ ...v, id: "thomas-provence" }],
@@ -400,21 +438,13 @@ export function getVoyageById(
   friendIds?: string[]
 ): Voyage | null {
   const state = getVoyageForProfile(profileId);
-  const all = [
-    state.voyageEnCours,
-    state.voyagePrevu,
-    ...(state.voyagesTermines ?? []),
-  ].filter(Boolean) as Voyage[];
+  const all = collectPersonaVoyages(state);
   const mine = all.find((v) => v.id === voyageId);
   if (mine) return mine;
   if (friendIds) {
     for (const fid of friendIds) {
       const s = getVoyageForProfile(fid);
-      const amiAll = [
-        s.voyageEnCours,
-        s.voyagePrevu,
-        ...(s.voyagesTermines ?? []),
-      ].filter(Boolean) as Voyage[];
+      const amiAll = collectPersonaVoyages(s);
       const ami = amiAll.find((v) => v.id === voyageId);
       if (ami) return ami;
     }
@@ -429,21 +459,13 @@ export function getVoyageWithOwner(
   friendIds?: string[]
 ): { voyage: Voyage; isOwner: boolean; ownerProfileId?: string } | null {
   const state = getVoyageForProfile(profileId);
-  const all = [
-    state.voyageEnCours,
-    state.voyagePrevu,
-    ...(state.voyagesTermines ?? []),
-  ].filter(Boolean) as Voyage[];
+  const all = collectPersonaVoyages(state);
   const mine = all.find((v) => v.id === voyageId);
   if (mine) return { voyage: mine, isOwner: true };
   if (friendIds) {
     for (const fid of friendIds) {
       const s = getVoyageForProfile(fid);
-      const amiAll = [
-        s.voyageEnCours,
-        s.voyagePrevu,
-        ...(s.voyagesTermines ?? []),
-      ].filter(Boolean) as Voyage[];
+      const amiAll = collectPersonaVoyages(s);
       const ami = amiAll.find((v) => v.id === voyageId);
       if (ami) return { voyage: ami, isOwner: false, ownerProfileId: fid };
     }
@@ -453,9 +475,10 @@ export function getVoyageWithOwner(
 
 /** Steps du voyage en cours pour un profil */
 export function getStepsForProfile(profileId: string): Step[] {
-  const { voyageEnCours, voyagePrevu, voyagesTermines } =
-    getVoyageForProfile(profileId);
-  const v = voyageEnCours ?? voyagePrevu ?? voyagesTermines?.[0];
+  const state = getVoyageForProfile(profileId);
+  const { voyageEnCours, voyagePrevu, voyagesPrevus, voyagesTermines } = state;
+  const premierPrevu = voyagesPrevus?.[0] ?? voyagePrevu;
+  const v = voyageEnCours ?? premierPrevu ?? voyagesTermines?.[0];
   return v?.steps ?? [];
 }
 

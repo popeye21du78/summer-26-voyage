@@ -30,11 +30,17 @@ export function getVoyagesAmis(profileId: string): VoyageAmi[] {
     if (!profile) continue;
 
     const state = getVoyageForProfile(fid);
-    if (state.voyagePrevu) {
+    const prevus =
+      state.voyagesPrevus && state.voyagesPrevus.length > 0
+        ? state.voyagesPrevus
+        : state.voyagePrevu
+          ? [state.voyagePrevu]
+          : [];
+    for (const voyage of prevus) {
       result.push({
         profileId: fid,
         profileName: profile.name,
-        voyage: state.voyagePrevu,
+        voyage,
         type: "prevu",
         joursRestants: state.joursRestants,
       });

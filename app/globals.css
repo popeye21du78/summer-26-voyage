@@ -302,12 +302,6 @@ input[type="number"].no-spinner::-webkit-inner-spin-button {
   animation: scroll-horizontal 12s linear infinite;
 }
 
-/* Masque fondu gauche pour photos amis — disparition en fondu vers le texte */
-.photos-amis-fade {
-  mask-image: linear-gradient(to right, transparent 0%, black 40%);
-  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 40%);
-}
-
 /* Scroll aimanté par section */
 .snap-sections {
   scroll-snap-type: y proximity;

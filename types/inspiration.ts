@@ -54,10 +54,19 @@ export type StarItineraryContent = {
   durationHint?: string;
 };
 
+/** Machine d’états UX — workflow inspiration (lot 1 : mécanique navigation). */
+export type InspirationUxState =
+  | "FRANCE_MAP"
+  | "REGION_PREVIEW"
+  | "REGION_FULL"
+  | "REGION_MAP_FULLSCREEN";
+
 export type InspirationStackEntry =
   | { screen: "france" }
   | { screen: "region-preview"; regionId: string }
   | { screen: "region-explore"; regionId: string }
+  /** Carte régionale plein écran — retour = pop (restaure l’écran précédent). */
+  | { screen: "region-map-fullscreen"; regionId: string }
   | { screen: "poi-detail"; regionId: string; territoryId: string }
   | { screen: "star-list"; regionId: string }
   | {
@@ -72,3 +81,20 @@ export type InspirationStackEntry =
       kind: "editorial";
       editorialSlug: string;
     };
+
+/** Dérive un libellé lisible pour debug / tests. */
+export function inspirationEntryUxState(entry: InspirationStackEntry): InspirationUxState {
+  switch (entry.screen) {
+    case "france":
+      return "FRANCE_MAP";
+    case "region-preview":
+      return "REGION_PREVIEW";
+    case "region-explore":
+    case "poi-detail":
+    case "star-list":
+    case "star-detail":
+      return "REGION_FULL";
+    case "region-map-fullscreen":
+      return "REGION_MAP_FULLSCREEN";
+  }
+}

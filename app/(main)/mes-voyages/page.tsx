@@ -46,14 +46,20 @@ export default function MesVoyagesPage() {
     voyage: Voyage;
   }> = [];
 
-  if (state?.voyagePrevu) {
+  const prevus =
+    state?.voyagesPrevus && state.voyagesPrevus.length > 0
+      ? state.voyagesPrevus
+      : state?.voyagePrevu
+        ? [state.voyagePrevu]
+        : [];
+  for (const v of prevus) {
     voyages.push({
-      id: state.voyagePrevu.id,
-      titre: state.voyagePrevu.titre,
-      sousTitre: state.voyagePrevu.sousTitre,
-      href: `/voyage/${state.voyagePrevu.id}/prevu`,
+      id: v.id,
+      titre: v.titre,
+      sousTitre: v.sousTitre,
+      href: `/voyage/${v.id}/prevu`,
       type: "prevu",
-      voyage: state.voyagePrevu,
+      voyage: v,
     });
   }
   if (state?.voyageEnCours) {
@@ -101,7 +107,7 @@ export default function MesVoyagesPage() {
             Tu n&apos;as pas encore de voyage.
           </p>
           <Link
-            href="/accueil#on-repart"
+            href="/planifier/commencer"
             className="btn-terracotta mt-4 inline-flex items-center gap-2 rounded-[50px] border-2 border-[#E07856] bg-gradient-to-r from-[#E07856] to-[#D4635B] px-6 py-3 font-courier font-bold text-white shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-[#E07856]/50"
           >
             Créer un voyage
@@ -134,7 +140,7 @@ export default function MesVoyagesPage() {
 
       <div className="mt-10">
         <Link
-          href="/accueil#on-repart"
+          href="/planifier/commencer"
           className="btn-terracotta inline-flex items-center gap-2 rounded-[50px] border-2 border-[#E07856] bg-gradient-to-r from-[#E07856] to-[#D4635B] px-6 py-3 font-courier font-bold text-white shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-[#E07856]/50"
         >
           Créer un nouveau voyage

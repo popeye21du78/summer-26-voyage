@@ -6,7 +6,7 @@ export default function PlanifierInspirationPage() {
   const token = process.env.NEXT_PUBLIC_MAPBOX_TOKEN;
 
   return (
-    <main className="fixed inset-0 z-0 flex flex-col overflow-hidden bg-[#FAF4F0] pt-[env(safe-area-inset-top)]">
+    <main className="fixed inset-0 z-0 flex flex-col overflow-hidden bg-gradient-to-b from-[#fff0e6] via-[#ffe8dc] to-[#f5d4c4] pt-[env(safe-area-inset-top)]">
       <Link
         href="/planifier"
         className="absolute left-3 top-[max(0.5rem,env(safe-area-inset-top))] z-30 inline-flex items-center gap-1 rounded-full border border-[#A55734]/20 bg-white/90 px-3 py-1.5 font-courier text-xs font-bold text-[#A55734] shadow-sm backdrop-blur-sm hover:bg-[#FFF2EB] lg:text-sm"

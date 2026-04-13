@@ -17,7 +17,10 @@ export default async function AccueilPage({
   return (
     <>
       <WelcomeLogoOverlay show={showWelcome} />
-      <AccueilContent profileName={profile?.name} />
+      <AccueilContent
+        profileName={profile?.name}
+        profileId={profile?.id ?? ""}
+      />
     </>
   );
 }

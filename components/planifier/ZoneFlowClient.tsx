@@ -146,7 +146,7 @@ export default function ZoneFlowClient() {
   return (
     <main className="page-under-header mx-auto max-w-lg px-4 py-10">
       <Link
-        href="/accueil#on-repart"
+        href="/planifier/commencer"
         className="mb-6 inline-flex items-center gap-1 font-courier text-sm font-bold text-[#A55734] hover:text-[#8b4728]"
       >
         <ArrowLeft className="h-4 w-4" aria-hidden />

@@ -1,27 +1,49 @@
 import type { EtatVoyage } from "./mock-voyages";
 
 /**
- * Profils de test pour la phase de simulation.
- * - Marc : voyage prévu dans 3 jours (Provence)
- * - Sophie : jour 3 du voyage (Châteaux cathares)
- * - Léa : voyage terminé + 2 passés
- * - Thomas : voyage terminé (1 passé)
- * - Julie : rien — test général sans simulation
+ * Profils de test pour la phase de simulation (hero & démo home).
+ * - Julie : nouveau voyageur (aucun voyage)
+ * - Thomas : dernier voyage terminé il y a > 20 jours
+ * - Marc : un voyage prévu (compte à rebours)
+ * - Sophie : voyage en cours
+ * - Léa : plusieurs voyages prévus
  */
 
 export interface TestProfile {
   id: string;
   name: string;
-  /** État simulé pour les tests */
+  /** État simulé pour les tests (doc / cohérence) */
   etatVoyage?: EtatVoyage;
+  /** Libellé explicite sur l’écran de choix de profil (démo). */
+  situationLabel: string;
 }
 
 export const TEST_PROFILES: TestProfile[] = [
-  { id: "marc", name: "Marc", etatVoyage: "voyage_prevu" },
-  { id: "sophie", name: "Sophie", etatVoyage: "voyage_en_cours" },
-  { id: "lea", name: "Léa", etatVoyage: "voyage_termine" },
-  { id: "thomas", name: "Thomas", etatVoyage: "voyage_termine" },
-  { id: "julie", name: "Julie", etatVoyage: "rien" },
+  { id: "julie", name: "Julie", etatVoyage: "rien", situationLabel: "Nouveau voyageur" },
+  {
+    id: "thomas",
+    name: "Thomas",
+    etatVoyage: "voyage_termine",
+    situationLabel: "Dernier voyage il y a plus de 20 jours",
+  },
+  {
+    id: "marc",
+    name: "Marc",
+    etatVoyage: "voyage_prevu",
+    situationLabel: "Prochain voyage dans 3 jours",
+  },
+  {
+    id: "sophie",
+    name: "Sophie",
+    etatVoyage: "voyage_en_cours",
+    situationLabel: "En voyage actuellement",
+  },
+  {
+    id: "lea",
+    name: "Léa",
+    etatVoyage: "voyage_prevu",
+    situationLabel: "Plusieurs voyages prévus",
+  },
 ];
 
 /** Liste des ids valides pour le cookie (middleware). */

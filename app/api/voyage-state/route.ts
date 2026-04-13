@@ -3,6 +3,7 @@ import { cookies } from "next/headers";
 import {
   getVoyageForProfile,
   getStepsOfDay,
+  joursJusquau,
 } from "../../../data/mock-voyages";
 import type { VoyageStateResponse } from "@/types/voyage-state";
 
@@ -66,14 +67,20 @@ export async function GET() {
       );
     }
 
+    let joursRestantsApi = state.joursRestants;
+    if (state.etat === "voyage_prevu" && state.voyagePrevu) {
+      joursRestantsApi = joursJusquau(state.voyagePrevu.dateDebut);
+    }
+
     const res: VoyageStateResponse = {
       profileId,
       etat: state.etat,
       voyageEnCours: state.voyageEnCours,
       voyagePrevu: state.voyagePrevu,
+      voyagesPrevus: state.voyagesPrevus,
       voyagesTermines: state.voyagesTermines,
       jourActuel: state.jourActuel,
-      joursRestants: state.joursRestants,
+      joursRestants: joursRestantsApi,
       joursDepuisFinDernierVoyage,
       premiereConnexionDuJour,
       stepsDuJour,

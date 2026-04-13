@@ -6,6 +6,16 @@
 export type ViagoPhotoTextPosition = "below" | "overlay-bottom" | "overlay-top";
 export type ViagoTextSize = "xs" | "sm" | "base" | "lg";
 
+/** Positionnement libre sur l’image (éditeur visuel). */
+export interface ViagoPhotoOverlayLayout {
+  /** 0–100 — ancrage horizontal du centre du bloc */
+  xPct: number;
+  /** 0–100 — ancrage vertical du centre du bloc */
+  yPct: number;
+  /** ~0.65–1.45 — échelle du bloc (pincement / zoom texte) */
+  scale: number;
+}
+
 export interface ViagoPhotoItem {
   url: string;
   /** Titre court (taille indépendante du corps) */
@@ -15,6 +25,10 @@ export interface ViagoPhotoItem {
   titleSize?: ViagoTextSize;
   bodySize?: ViagoTextSize;
   textPosition?: ViagoPhotoTextPosition;
+  /** Si défini, le rendu utilise ce placement (éditeur type stories) ; sinon logique legacy `textPosition`. */
+  overlayLayout?: ViagoPhotoOverlayLayout;
+  /** Contraste forcé ; si absent, calcul automatique à l’affichage. */
+  textTone?: "light" | "dark";
 }
 
 export interface ViagoStepContent {
@@ -35,6 +49,24 @@ function isSize(v: unknown): v is ViagoTextSize {
   return v === "xs" || v === "sm" || v === "base" || v === "lg";
 }
 
+function clamp(n: number, min: number, max: number): number {
+  return Math.min(max, Math.max(min, n));
+}
+
+function normalizeOverlayLayout(raw: unknown): ViagoPhotoOverlayLayout | undefined {
+  if (!raw || typeof raw !== "object") return undefined;
+  const o = raw as Record<string, unknown>;
+  const x = typeof o.xPct === "number" ? o.xPct : Number(o.xPct);
+  const y = typeof o.yPct === "number" ? o.yPct : Number(o.yPct);
+  const s = typeof o.scale === "number" ? o.scale : Number(o.scale);
+  if (!Number.isFinite(x) || !Number.isFinite(y) || !Number.isFinite(s)) return undefined;
+  return {
+    xPct: clamp(x, 0, 100),
+    yPct: clamp(y, 0, 100),
+    scale: clamp(s, 0.5, 1.65),
+  };
+}
+
 function normalizePhoto(raw: unknown): ViagoPhotoItem | null {
   if (typeof raw === "string" && raw.trim()) {
     return { url: raw.trim() };
@@ -43,6 +75,9 @@ function normalizePhoto(raw: unknown): ViagoPhotoItem | null {
     const u = (raw as { url?: unknown }).url;
     if (typeof u === "string" && u.trim()) {
       const o = raw as Record<string, unknown>;
+      const overlayLayout = normalizeOverlayLayout(o.overlayLayout);
+      const textTone =
+        o.textTone === "light" || o.textTone === "dark" ? o.textTone : undefined;
       return {
         url: u.trim(),
         photoTitle: typeof o.photoTitle === "string" ? o.photoTitle : undefined,
@@ -55,6 +90,8 @@ function normalizePhoto(raw: unknown): ViagoPhotoItem | null {
           o.textPosition === "overlay-top"
             ? o.textPosition
             : undefined,
+        overlayLayout,
+        textTone,
       };
     }
   }
@@ -69,6 +106,49 @@ function normalizePhotos(raw: unknown): ViagoPhotoItem[] {
     if (p) out.push(p);
   }
   return out;
+}
+
+const SIZE_RANK: Record<ViagoTextSize, number> = {
+  xs: 0,
+  sm: 1,
+  base: 2,
+  lg: 3,
+};
+
+/** Convertit l’échelle « pinch » en tailles titre / corps (compat données existantes). */
+export function scaleToViagoSizes(scale: number): {
+  title: ViagoTextSize;
+  body: ViagoTextSize;
+} {
+  const s = clamp(scale, 0.5, 1.65);
+  if (s < 0.82) return { title: "sm", body: "xs" };
+  if (s < 0.98) return { title: "base", body: "sm" };
+  if (s < 1.12) return { title: "lg", body: "base" };
+  return { title: "lg", body: "lg" };
+}
+
+/** Estimation d’échelle à partir des tailles stockées (legacy). */
+export function viagoSizesToScale(
+  title: ViagoTextSize | undefined,
+  body: ViagoTextSize | undefined
+): number {
+  const t = SIZE_RANK[title ?? "base"];
+  const b = SIZE_RANK[body ?? "sm"];
+  return clamp(0.72 + ((t + b) / 6) * 0.38, 0.65, 1.5);
+}
+
+/** Point de départ pour l’éditeur visuel selon l’ancien champ position. */
+export function defaultOverlayFromPosition(
+  pos: ViagoPhotoTextPosition | undefined
+): ViagoPhotoOverlayLayout {
+  switch (pos) {
+    case "overlay-top":
+      return { xPct: 50, yPct: 16, scale: 1 };
+    case "overlay-bottom":
+      return { xPct: 50, yPct: 84, scale: 1 };
+    default:
+      return { xPct: 50, yPct: 50, scale: 1 };
+  }
 }
 
 export function getViagoStorageKey(voyageId: string, stepId: string): string {

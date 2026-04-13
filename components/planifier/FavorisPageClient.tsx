@@ -1,8 +1,12 @@
 "use client";
 
-import { useCallback, useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
-import { Trash2 } from "lucide-react";
+import { CityPhoto } from "@/components/CityPhoto";
+import { useCallback, useMemo, useState } from "react";
+import { motion } from "framer-motion";
+import { Heart, MapPin, Sparkles, Trash2, Compass } from "lucide-react";
+import { getRegionEditorial } from "@/content/inspiration/regions";
 import {
   getFavoritesForPrefill,
   listFavorites,
@@ -11,9 +15,10 @@ import {
   type FavoriteStatus,
   type PlanifierFavorite,
 } from "@/lib/planifier-favorites";
+import { INSPI_CTA_GRADIENT } from "@/components/planifier/inspiration/inspirationEditorialUi";
 
 const STATUS_LABELS: Record<FavoriteStatus, string> = {
-  inspiration: "Inspiration",
+  inspiration: "Envie",
   soft: "Si possible",
   hard: "Indispensable",
 };
@@ -27,83 +32,270 @@ export default function FavorisPageClient() {
     setPrefill(getFavoritesForPrefill());
   }, []);
 
+  const { regions, lieux, parcours } = useMemo(() => {
+    return {
+      regions: items.filter((f) => f.kind === "map_region"),
+      lieux: items.filter((f) => f.kind === "place" || f.kind === "territory"),
+      parcours: items.filter((f) => f.kind === "star_itinerary" || f.kind === "route_idea"),
+    };
+  }, [items]);
+
   return (
-    <main className="page-under-header mx-auto max-w-lg px-4 py-10">
-      <Link href="/planifier" className="font-courier text-sm font-bold text-[#A55734] underline">
-        Hub planifier
-      </Link>
-      <h1 className="mt-6 font-courier text-2xl font-bold text-[#333]">Coups de cœur</h1>
-      <p className="mt-2 font-courier text-xs text-[#333]/80">
-        Territoires, lieux ou idées de parcours. Le statut distingue envie et contrainte pour le
-        pré-remplissage des flux.
-      </p>
+    <main className="page-under-header min-h-[70vh] bg-gradient-to-br from-[#8a5344] via-[#5c3d32] to-[#4a2820]">
+      <div className="mx-auto max-w-lg px-4 py-8">
+        <Link
+          href="/planifier"
+          className="font-courier text-xs font-bold uppercase tracking-wide text-[#fde8e0]/80 underline decoration-[#f5c4b8]/30"
+        >
+          Hub planifier
+        </Link>
+        <h1 className="mt-5 font-courier text-2xl font-bold uppercase tracking-wide text-[#FFFBF7]">
+          Mes envies
+        </h1>
+        <p className="mt-2 font-courier text-sm leading-relaxed text-[#e8d4cb]/90">
+          Régions, lieux et pistes — tout ce qui te fait envie, en un coup d’œil.
+        </p>
 
-      {prefill && (prefill.territoryIds.length > 0 || prefill.hardPlaceLabels.length > 0) && (
-        <div className="mt-6 rounded-xl border border-[#E07856]/35 bg-[#FFF2EB]/50 p-4 font-courier text-xs">
-          <p className="font-bold text-[#A55734]">Pré-remplissage</p>
-          {prefill.territoryIds.length > 0 && (
-            <p className="mt-1">
-              Territoires à intégrer : {prefill.territoryIds.join(", ")} —{" "}
-              <Link href="/planifier/zone" className="underline">
-                ouvrir le flux zone
-              </Link>
-            </p>
-          )}
-          {prefill.hardPlaceLabels.length > 0 && (
-            <p className="mt-1">
-              Lieux indispensables : {prefill.hardPlaceLabels.join(", ")} —{" "}
-              <Link href="/planifier/lieux" className="underline">
-                flux lieux
-              </Link>
-            </p>
-          )}
-        </div>
-      )}
-
-      <ul className="mt-8 space-y-3">
-        {items.length === 0 && (
-          <li className="font-courier text-sm text-[#333]/70">Aucun coup de cœur pour le moment.</li>
+        {prefill && (prefill.territoryIds.length > 0 || prefill.hardPlaceLabels.length > 0) && (
+          <div className="mt-6 rounded-2xl border border-[#f5c4b8]/25 bg-[#6b5a50]/35 p-4 font-courier text-xs text-[#fde8e0]/95 backdrop-blur-sm">
+            <p className="font-bold uppercase tracking-wide text-[#f5c4b8]">Pré-remplissage</p>
+            {prefill.territoryIds.length > 0 && (
+              <p className="mt-2">
+                Territoires : {prefill.territoryIds.join(", ")} —{" "}
+                <Link href="/planifier/zone" className="underline">
+                  flux zone
+                </Link>
+              </p>
+            )}
+            {prefill.hardPlaceLabels.length > 0 && (
+              <p className="mt-1">
+                Lieux : {prefill.hardPlaceLabels.join(", ")} —{" "}
+                <Link href="/planifier/lieux" className="underline">
+                  flux lieux
+                </Link>
+              </p>
+            )}
+          </div>
         )}
-        {items.map((f) => (
-          <li
-            key={f.id}
-            className="flex flex-col gap-2 rounded-xl border border-[#A55734]/20 bg-white/90 p-4 sm:flex-row sm:items-center sm:justify-between"
-          >
-            <div>
-              <span className="font-courier text-xs uppercase text-[#A55734]/80">{f.kind}</span>
-              <p className="font-courier text-sm font-bold text-[#333]">{f.label}</p>
-              <p className="font-courier text-xs text-[#333]/60">{f.refId}</p>
-            </div>
-            <div className="flex flex-wrap items-center gap-2">
-              <select
-                value={f.status}
-                onChange={(e) => {
-                  updateFavoriteStatus(f.id, e.target.value as FavoriteStatus);
-                  refresh();
-                }}
-                className="rounded-lg border border-[#A55734]/30 px-2 py-1 font-courier text-xs"
-              >
-                {(Object.keys(STATUS_LABELS) as FavoriteStatus[]).map((s) => (
-                  <option key={s} value={s}>
-                    {STATUS_LABELS[s]}
-                  </option>
-                ))}
-              </select>
-              <button
-                type="button"
-                onClick={() => {
-                  removeFavorite(f.id);
-                  refresh();
-                }}
-                className="rounded-lg p-2 text-red-600 hover:bg-red-50"
-                aria-label="Supprimer"
-              >
-                <Trash2 className="h-4 w-4" />
-              </button>
-            </div>
-          </li>
-        ))}
-      </ul>
+
+        <section className="mt-10">
+          <h2 className="flex items-center gap-2 font-courier text-sm font-bold uppercase tracking-[0.2em] text-[#f5c4b8]">
+            <Compass className="h-4 w-4" aria-hidden />
+            Régions
+          </h2>
+          <div className="mt-4 space-y-3">
+            {regions.length === 0 ? (
+              <p className="font-courier text-sm text-[#c9b8ad]/85">Aucune région pour l’instant.</p>
+            ) : (
+              regions.map((f) => (
+                <RegionFavoriteCard key={f.id} fav={f} onRemoved={refresh} />
+              ))
+            )}
+          </div>
+        </section>
+
+        <section className="mt-10">
+          <h2 className="flex items-center gap-2 font-courier text-sm font-bold uppercase tracking-[0.2em] text-[#f5c4b8]">
+            <MapPin className="h-4 w-4" aria-hidden />
+            Lieux & territoires
+          </h2>
+          <div className="mt-4 space-y-3">
+            {lieux.length === 0 ? (
+              <p className="font-courier text-sm text-[#c9b8ad]/85">Aucune fiche sauvegardée.</p>
+            ) : (
+              lieux.map((f) => (
+                <PlaceFavoriteCard key={f.id} fav={f} onRemoved={refresh} />
+              ))
+            )}
+          </div>
+        </section>
+
+        <section className="mt-10 pb-12">
+          <h2 className="flex items-center gap-2 font-courier text-sm font-bold uppercase tracking-[0.2em] text-[#f5c4b8]">
+            <Sparkles className="h-4 w-4" aria-hidden />
+            Itinéraires & idées
+          </h2>
+          <div className="mt-4 space-y-3">
+            {parcours.length === 0 ? (
+              <p className="font-courier text-sm text-[#c9b8ad]/85">Aucun itinéraire gardé.</p>
+            ) : (
+              parcours.map((f) => (
+                <RouteFavoriteCard key={f.id} fav={f} onRemoved={refresh} />
+              ))
+            )}
+          </div>
+        </section>
+      </div>
     </main>
+  );
+}
+
+function RegionFavoriteCard({
+  fav,
+  onRemoved,
+}: {
+  fav: PlanifierFavorite;
+  onRemoved: () => void;
+}) {
+  const editorial = getRegionEditorial(fav.refId);
+  const cover = editorial?.headerPhoto;
+
+  return (
+    <motion.div
+      layout
+      className="overflow-hidden rounded-2xl border border-[#f5e6dc]/15 bg-[#6b5a50]/40 shadow-lg backdrop-blur-sm"
+    >
+      <div className="relative h-[120px] w-full bg-[#4a3d38]">
+        {cover ? (
+          <Image src={cover} alt="" fill className="object-cover" sizes="400px" />
+        ) : (
+          <div className="flex h-full items-center justify-center bg-gradient-to-br from-[#8b5e4f] to-[#5c4036]">
+            <Heart className="h-10 w-10 text-white/40" />
+          </div>
+        )}
+        <div className="absolute inset-0 bg-gradient-to-t from-[#2a211c]/85 to-transparent" />
+        <span className="absolute bottom-3 left-3 right-3 font-courier text-lg font-bold uppercase tracking-wide text-white drop-shadow">
+          {fav.label}
+        </span>
+      </div>
+      <div className="flex flex-wrap items-center gap-2 px-3 py-3">
+        <select
+          value={fav.status}
+          onChange={(e) => {
+            updateFavoriteStatus(fav.id, e.target.value as FavoriteStatus);
+            onRemoved();
+          }}
+          className="flex-1 rounded-lg border border-white/15 bg-white/10 px-2 py-1.5 font-courier text-[11px] text-[#FFFBF7]"
+        >
+          {(Object.keys(STATUS_LABELS) as FavoriteStatus[]).map((s) => (
+            <option key={s} value={s}>
+              {STATUS_LABELS[s]}
+            </option>
+          ))}
+        </select>
+        <Link
+          href="/planifier/inspiration"
+          className={`rounded-full px-3 py-1.5 font-courier text-[11px] font-bold text-white ${INSPI_CTA_GRADIENT}`}
+        >
+          Carte
+        </Link>
+        <button
+          type="button"
+          onClick={() => {
+            removeFavorite(fav.id);
+            onRemoved();
+          }}
+          className="rounded-full p-2 text-[#f5c4b8] hover:bg-white/10"
+          aria-label="Retirer"
+        >
+          <Trash2 className="h-4 w-4" />
+        </button>
+      </div>
+    </motion.div>
+  );
+}
+
+function PlaceFavoriteCard({
+  fav,
+  onRemoved,
+}: {
+  fav: PlanifierFavorite;
+  onRemoved: () => void;
+}) {
+  const isTerritory = fav.kind === "territory";
+  const href = isTerritory
+    ? `/planifier/inspiration/${encodeURIComponent(fav.refId)}`
+    : `/ville/${encodeURIComponent(fav.refId)}`;
+
+  return (
+    <motion.div
+      layout
+      className="flex items-stretch gap-3 overflow-hidden rounded-2xl border border-[#f5e6dc]/15 bg-[#6b5a50]/35 p-3 backdrop-blur-sm"
+    >
+      <div className="relative h-[88px] w-[100px] shrink-0 overflow-hidden rounded-xl bg-[#4a3d38]">
+        {isTerritory ? (
+          <Image
+            src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=400&q=70"
+            alt=""
+            fill
+            className="object-cover"
+            sizes="100px"
+          />
+        ) : (
+          <CityPhoto
+            stepId={fav.refId}
+            ville={fav.label}
+            alt=""
+            className="absolute inset-0 h-full w-full object-cover"
+          />
+        )}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
+      </div>
+      <div className="flex min-w-0 flex-1 flex-col justify-between">
+        <div>
+          <p className="font-courier text-sm font-bold text-[#FFFBF7]">{fav.label}</p>
+          <p className="font-courier text-[10px] uppercase tracking-wide text-[#c9b8ad]/80">
+            {isTerritory ? "Territoire" : "Lieu"}
+          </p>
+        </div>
+        <div className="mt-2 flex flex-wrap items-center gap-2">
+          <Link href={href} className="font-courier text-[11px] font-bold text-[#f5c4b8] underline">
+            Voir la fiche
+          </Link>
+          <button
+            type="button"
+            onClick={() => {
+              removeFavorite(fav.id);
+              onRemoved();
+            }}
+            className="rounded-full p-1.5 text-[#f5c4b8] hover:bg-white/10"
+            aria-label="Retirer"
+          >
+            <Trash2 className="h-4 w-4" />
+          </button>
+        </div>
+      </div>
+    </motion.div>
+  );
+}
+
+function RouteFavoriteCard({
+  fav,
+  onRemoved,
+}: {
+  fav: PlanifierFavorite;
+  onRemoved: () => void;
+}) {
+  return (
+    <motion.div
+      layout
+      className="rounded-2xl border border-[#f5e6dc]/15 bg-[#6b5a50]/35 p-4 backdrop-blur-sm"
+    >
+      <div className="flex items-start justify-between gap-2">
+        <div>
+          <p className="font-courier text-sm font-bold text-[#FFFBF7]">{fav.label}</p>
+          <p className="mt-1 font-courier text-[10px] uppercase tracking-wide text-[#c9b8ad]/85">
+            {fav.kind === "star_itinerary" ? "Itinéraire star" : "Idée de parcours"}
+          </p>
+        </div>
+        <button
+          type="button"
+          onClick={() => {
+            removeFavorite(fav.id);
+            onRemoved();
+          }}
+          className="rounded-full p-2 text-[#f5c4b8] hover:bg-white/10"
+          aria-label="Retirer"
+        >
+          <Trash2 className="h-4 w-4" />
+        </button>
+      </div>
+      <Link
+        href="/planifier/inspiration"
+        className={`mt-3 inline-block rounded-full px-3 py-1.5 font-courier text-[11px] font-bold text-white ${INSPI_CTA_GRADIENT}`}
+      >
+        Ouvrir sur la carte
+      </Link>
+    </motion.div>
   );
 }

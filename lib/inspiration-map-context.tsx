@@ -30,6 +30,9 @@ type InspirationMapContextValue = {
   setFilterSheetOpen: (v: boolean) => void;
   selectRegion: (regionId: string) => void;
   goExploreRegion: () => void;
+  /** Carte régionale plein écran — empile un état, `closeRegionMapFullscreen` restaure l’écran précédent. */
+  openRegionMapFullscreen: () => void;
+  closeRegionMapFullscreen: () => void;
   openStarList: () => void;
   selectStarItinerary: (itineraryId: string) => void;
   selectEditorialStarItinerary: (editorialSlug: string) => void;
@@ -64,11 +67,28 @@ export function InspirationMapProvider({ children }: { children: ReactNode }) {
   }, []);
 
   /** Passe en exploration régionale (remplace la preview par un état fiable). */
+  /** Depuis la preview : pousse l’état « full région » pour permettre retour swipe → preview. */
   const goExploreRegion = useCallback(() => {
     setStack((s) => {
       const last = s[s.length - 1];
       if (last?.screen !== "region-preview") return s;
-      return [{ screen: "france" }, { screen: "region-explore", regionId: last.regionId }];
+      return [...s, { screen: "region-explore", regionId: last.regionId }];
+    });
+  }, []);
+
+  const openRegionMapFullscreen = useCallback(() => {
+    setStack((s) => {
+      const last = s[s.length - 1];
+      if (last?.screen !== "region-preview" && last?.screen !== "region-explore") return s;
+      return [...s, { screen: "region-map-fullscreen", regionId: last.regionId }];
+    });
+  }, []);
+
+  const closeRegionMapFullscreen = useCallback(() => {
+    setStack((s) => {
+      const last = s[s.length - 1];
+      if (last?.screen !== "region-map-fullscreen") return s;
+      return s.slice(0, -1);
     });
   }, []);
 
@@ -154,6 +174,8 @@ export function InspirationMapProvider({ children }: { children: ReactNode }) {
       setFilterSheetOpen,
       selectRegion,
       goExploreRegion,
+      openRegionMapFullscreen,
+      closeRegionMapFullscreen,
       openStarList,
       selectStarItinerary,
       selectEditorialStarItinerary,
@@ -173,6 +195,8 @@ export function InspirationMapProvider({ children }: { children: ReactNode }) {
       starListPreviewLineSlug,
       selectRegion,
       goExploreRegion,
+      openRegionMapFullscreen,
+      closeRegionMapFullscreen,
       openStarList,
       selectStarItinerary,
       selectEditorialStarItinerary,

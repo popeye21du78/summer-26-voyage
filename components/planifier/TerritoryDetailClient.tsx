@@ -94,7 +94,7 @@ export default function TerritoryDetailClient({
           Créer un voyage ici
         </Link>
         <Link
-          href="/accueil#on-repart"
+          href="/planifier/commencer"
           className="rounded-full border-2 border-[#A55734]/35 px-5 py-2.5 font-courier text-sm font-bold text-[#A55734]"
         >
           Retour accueil

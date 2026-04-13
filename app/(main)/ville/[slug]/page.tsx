@@ -71,7 +71,7 @@ export default async function VillePage({ params, searchParams }: Props) {
     : null;
   const backHref =
     backVoyageCarte ??
-    (fromVoyage ? "/accueil#on-repart" : fromInspiration ? "/planifier/inspiration" : "/carte-villes");
+    (fromVoyage ? "/planifier/commencer" : fromInspiration ? "/planifier/inspiration" : "/carte-villes");
 
   // 1) Vérifier si description existe (lieu depuis carte-villes)
   const description = getDescriptionForSlug(slug);
