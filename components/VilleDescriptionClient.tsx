@@ -73,8 +73,13 @@ export function VilleDescriptionClient({
   photoSlots?: string[];
 }) {
   const searchParams = useSearchParams();
-  const fromVoyage = searchParams.get("from") === "voyage";
-  const fromInspiration = searchParams.get("from") === "inspiration";
+  const fromParam = searchParams.get("from");
+  const fromVoyage = fromParam === "voyage";
+  const fromInspiration = fromParam === "inspiration";
+  const fromRegion = fromParam === "region";
+  const fromStars = fromParam === "stars";
+  const fromItineraire = fromParam === "itineraire";
+  const regionParam = searchParams.get("region");
   const voyagePrevuSlug = searchParams.get("v");
   const backToVoyageCarte =
     voyagePrevuSlug && /^[a-zA-Z0-9_-]+$/.test(voyagePrevuSlug)
@@ -165,11 +170,10 @@ export function VilleDescriptionClient({
 
   const hasCommonsBlock = Boolean(commonsData?.header?.length);
 
-  /** Alternance façon section Philosophie (accueil) : marron / crème */
   const bandDark =
-    "border border-white/15 bg-gradient-to-br from-[#5D3A1A] via-[#8B4513] to-[#A0522D] shadow-md";
+    "border border-white/6 bg-[#1c1c1c]";
   const bandLight =
-    "border border-[#E07856]/25 bg-gradient-to-br from-[#FFF8F0] to-[#FAF4F0] shadow-sm";
+    "border border-white/4 bg-[#141414]";
 
   const bandForContentIndex = (i: number) =>
     i % 2 === 0 ? bandDark : bandLight;
@@ -182,7 +186,17 @@ export function VilleDescriptionClient({
 
   const backHref =
     backToVoyageCarte ??
-    (fromVoyage ? "/planifier/commencer" : fromInspiration ? "/planifier/inspiration" : "/carte-villes");
+    (fromRegion && regionParam
+      ? `/inspirer/region/${regionParam}`
+      : fromStars
+        ? `/inspirer?tab=stars${regionParam ? `&region=${regionParam}` : ""}`
+        : fromItineraire
+          ? "/inspirer?tab=stars"
+          : fromVoyage
+            ? "/planifier/commencer"
+            : fromInspiration
+              ? "/planifier/inspiration"
+              : "/inspirer");
 
   const loadCommonsPhotos = async () => {
     setCommonsLoading(true);
@@ -238,7 +252,7 @@ export function VilleDescriptionClient({
             className={
               isDark
                 ? "border-l-2 border-white/35 py-2 pl-4 text-[15px] leading-relaxed text-white/90"
-                : "border-l-2 border-[#E07856]/40 py-2 pl-4 text-[15px] leading-relaxed text-[#333]/92"
+                : "border-l-2 border-[#E07856]/30 py-2 pl-4 text-[15px] leading-relaxed text-white/75"
             }
           >
             {trimmed}
@@ -255,7 +269,7 @@ export function VilleDescriptionClient({
           className={
             isDark
               ? "py-2 text-[15px] leading-[1.75] text-white/88"
-              : "py-2 text-[15px] leading-[1.75] text-[#333]/90"
+              : "py-2 text-[15px] leading-[1.75] text-white/70"
           }
         >
           {trimmed.split(/(\*\*[^*]+\*\*)/g).map((chunk, j) => {
@@ -292,10 +306,10 @@ export function VilleDescriptionClient({
   }
 
   return (
-    <main className="relative isolate !pt-0 overflow-x-hidden bg-[#FAF4F0] pb-20">
+    <main className="relative isolate !pt-0 overflow-x-hidden bg-[#111111] pb-20">
       {/* Hero plein viewport : largeur 100%, image dès le haut (sous le header fixe) */}
       <div className="relative left-1/2 w-screen max-w-[100vw] -translate-x-1/2">
-        <div className="relative min-h-[min(52vh,420px)] h-[min(56vh,480px)] w-full overflow-hidden bg-[#FAF4F0] sm:min-h-[380px]">
+        <div className="relative min-h-[min(52vh,420px)] h-[min(56vh,480px)] w-full overflow-hidden bg-[#111111] sm:min-h-[380px]">
           {heroUrl ? (
             <Image
               src={heroUrl}
@@ -307,16 +321,24 @@ export function VilleDescriptionClient({
               unoptimized
             />
           ) : (
-            <div className="absolute inset-0 bg-gradient-to-br from-[#E07856]/55 via-[#D4635B]/45 to-[#8B4513]/60" />
+            <div className="absolute inset-0 bg-gradient-to-br from-[#E07856]/30 via-[#1c1c1c] to-[#111111]" />
           )}
-          <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#FAF4F0] via-[#FAF4F0]/45 to-transparent" />
+          <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#111111] via-[#111111]/45 to-transparent" />
           <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/25 via-transparent to-transparent" />
           <Link
             href={backHref}
-            className="absolute top-[calc(var(--header-content-offset)+0.35rem)] left-4 z-20 inline-flex items-center gap-2 rounded-full border border-white/50 bg-black/25 px-3 py-1.5 text-xs font-semibold text-white shadow-md backdrop-blur-sm transition hover:bg-black/40 md:left-6 md:text-sm"
+            className="absolute top-[calc(var(--header-content-offset)+0.35rem)] left-4 z-20 inline-flex items-center gap-2 rounded-xl border border-white/10 bg-black/50 px-3 py-1.5 font-courier text-xs font-bold text-white/80 shadow-md backdrop-blur-sm transition hover:bg-black/70 md:left-6"
           >
             ←{" "}
-            {backToVoyageCarte ? "Voyage" : fromInspiration ? "Inspiration" : "Carte"}
+            {backToVoyageCarte
+              ? "Voyage"
+              : fromRegion
+                ? "Région"
+                : fromStars || fromItineraire
+                  ? "Stars"
+                  : fromInspiration
+                    ? "Inspiration"
+                    : "Retour"}
           </Link>
           <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/55 via-black/15 to-transparent p-6 pb-10 pt-16">
             <motion.h1
@@ -340,7 +362,7 @@ export function VilleDescriptionClient({
             type="button"
             onClick={loadCommonsPhotos}
             disabled={commonsLoading}
-            className="self-start rounded-full bg-gradient-to-r from-[#E07856] to-[#D4635B] px-5 py-2.5 text-sm font-bold text-white shadow-lg transition hover:opacity-95 disabled:opacity-50"
+            className="btn-orange-glow self-start rounded-full px-5 py-2.5 font-courier text-sm font-bold text-white disabled:opacity-50"
           >
             {commonsLoading ? "Chargement…" : "Charger / rafraîchir photos Commons"}
           </button>
@@ -358,7 +380,7 @@ export function VilleDescriptionClient({
             className={`mb-3 text-xs font-bold uppercase tracking-wider ${
               toneForContentIndex(0) === "dark"
                 ? "text-white/80"
-                : "text-[#A55734]/90"
+                : "text-[#E07856]/90"
             }`}
           >
             Autres visuels
@@ -407,7 +429,7 @@ export function VilleDescriptionClient({
                 )}
                 <span
                   className={`shrink-0 transition-transform duration-200 group-open:-rotate-180 ${
-                    tone === "dark" ? "text-white/70" : "text-[#A55734]"
+                    tone === "dark" ? "text-white/70" : "text-[#E07856]"
                   }`}
                 >
                   ▼
@@ -442,7 +464,7 @@ export function VilleDescriptionClient({
               >
                 <h2
                   className={`mb-3 font-courier text-sm font-bold uppercase tracking-wider ${
-                    slotTone === "dark" ? "text-white/85" : "text-[#A55734]"
+                    slotTone === "dark" ? "text-white/85" : "text-[#E07856]"
                   }`}
                 >
                   {label}
@@ -462,8 +484,8 @@ export function VilleDescriptionClient({
                   <div
                     className={`flex aspect-video items-center justify-center rounded-xl border-2 border-dashed text-sm ${
                       slotTone === "dark"
-                        ? "border-white/25 bg-black/20 text-white/60"
-                        : "border-[#E07856]/30 bg-white/40 text-[#333]/50"
+                        ? "border-white/10 bg-black/20 text-white/40"
+                        : "border-white/8 bg-[#1c1c1c] text-white/35"
                     }`}
                   >
                     {commonsData ? "Aucun résultat" : "Utilise « Charger photos Commons »"}
@@ -477,7 +499,7 @@ export function VilleDescriptionClient({
             {[1, 2, 3, 4].map((n) => (
               <div
                 key={n}
-                className="flex aspect-video items-center justify-center rounded-xl border-2 border-dashed border-[#E07856]/25 bg-[#FFF2EB]/40 text-sm text-[#333]/50"
+                className="flex aspect-video items-center justify-center rounded-xl border-2 border-dashed border-white/8 bg-[#1c1c1c] text-sm text-white/30"
               >
                 Photo {n}
               </div>
@@ -515,11 +537,11 @@ function PhotoCandidate({
       <div
         className={`border-t px-1 py-2 text-xs ${
           dark
-            ? "border-white/10 bg-black/25 text-white/80"
-            : "border-[#E07856]/10 text-[#333]/80"
+            ? "border-white/6 bg-black/30 text-white/60"
+            : "border-white/6 bg-[#111111] text-white/50"
         }`}
       >
-        <div className={`font-medium ${dark ? "text-white/95" : "text-[#333]"}`}>
+        <div className={`font-medium ${dark ? "text-white/95" : "text-white/80"}`}>
           Candidat {rank}
         </div>
         <div>

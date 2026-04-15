@@ -30,13 +30,13 @@ export default function LandingBandeau() {
         aria-label="Voyage Voyage - Accueil"
       >
         <Image
-          src="/logo-b-W.png"
-          alt="Voyage Voyage"
-          width={120}
-          height={60}
-          className="h-10 w-auto sm:h-12 md:h-14"
+          src="/A1.png"
+          alt="Viago"
+          width={36}
+          height={36}
+          className="h-8 w-auto sm:h-10"
+          style={{ filter: "brightness(0) invert(1) sepia(1) saturate(5) hue-rotate(-15deg) brightness(1.1)" }}
           priority
-          unoptimized
         />
       </Link>
 
@@ -44,7 +44,7 @@ export default function LandingBandeau() {
         <button
           type="button"
           onClick={() => setMenuOpen((o) => !o)}
-          className="flex items-center gap-1 rounded p-2 text-[#333333] transition hover:bg-white/20"
+          className="flex items-center gap-1 rounded p-2 text-white/60 transition hover:bg-white/10"
           aria-expanded={menuOpen}
           aria-haspopup="true"
           aria-label="Ouvrir le menu"
@@ -53,13 +53,13 @@ export default function LandingBandeau() {
         </button>
         {menuOpen && (
           <div
-            className="absolute right-0 top-full mt-1 min-w-[180px] rounded-lg border border-[#A55734]/20 bg-white/95 py-1 shadow-lg backdrop-blur-sm"
+            className="absolute right-0 top-full mt-1 min-w-[180px] rounded-xl border border-white/10 bg-[#1c1c1c]/95 py-1 shadow-xl backdrop-blur-lg"
             role="menu"
           >
             <Link
               href="/login"
               role="menuitem"
-              className="block px-4 py-2.5 text-sm text-[#333333] hover:bg-[#A55734]/10"
+              className="block px-4 py-2.5 font-courier text-sm text-white/70 hover:bg-[#E07856]/10 hover:text-white"
               onClick={() => setMenuOpen(false)}
             >
               Se connecter
@@ -67,7 +67,7 @@ export default function LandingBandeau() {
             <Link
               href="/login"
               role="menuitem"
-              className="block px-4 py-2.5 text-sm text-[#333333] hover:bg-[#A55734]/10"
+              className="block px-4 py-2.5 font-courier text-sm text-white/70 hover:bg-[#E07856]/10 hover:text-white"
               onClick={() => setMenuOpen(false)}
             >
               Créer un compte

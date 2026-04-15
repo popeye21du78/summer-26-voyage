@@ -25,6 +25,20 @@ export function middleware(request: NextRequest) {
     return NextResponse.next();
   }
 
+  // Anciennes routes (main) → redirection vers nouvelles routes (app)
+  const LEGACY_REDIRECTS: Record<string, string> = {
+    "/profil": "/mon-espace",
+    "/mes-voyages": "/mon-espace",
+    "/prevoyages": "/mon-espace",
+    "/planifier": "/preparer",
+    "/planifier/commencer": "/preparer",
+    "/planifier/inspiration": "/inspirer",
+  };
+  const redirect = LEGACY_REDIRECTS[pathname];
+  if (redirect && isLoggedIn) {
+    return NextResponse.redirect(new URL(redirect, request.url));
+  }
+
   // Non connecté sur une route protégée → landing
   if (!isLoggedIn) {
     return NextResponse.redirect(new URL("/", request.url));

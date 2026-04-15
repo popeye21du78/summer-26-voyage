@@ -6,9 +6,7 @@ import { useInspirationMap } from "@/lib/inspiration-map-context";
 import RegionCarouselCard from "./RegionCarouselCard";
 
 type Props = {
-  /** Remplace le select du contexte (ex. zoom plein écran avant la fiche). */
   onPickRegion?: (id: string) => void;
-  /** Surlignage carte / carrousel pendant l’intro zoom. */
   highlightRegionId?: string | null;
 };
 
@@ -33,11 +31,11 @@ export default function RegionCarousel({ onPickRegion, highlightRegionId }: Prop
     (top.screen !== "france" && "regionId" in top ? top.regionId : null);
 
   return (
-    <div className="shrink-0 border-t border-[#A55734]/10 bg-[#FFF8F0]/95 py-3 backdrop-blur-sm">
-      <p className="mb-2 px-4 font-courier text-[10px] font-bold uppercase tracking-wide text-[#A55734]/80">
+    <div className="shrink-0 border-t border-white/6 bg-[#141414]/95 py-3 backdrop-blur-lg">
+      <p className="mb-2 px-4 font-courier text-[10px] font-bold uppercase tracking-wider text-[#E07856]/70">
         Régions
       </p>
-      <div className="flex gap-3 overflow-x-auto px-4 pb-1 scrollbar-thin">
+      <div className="flex gap-3 overflow-x-auto px-4 pb-1 scrollbar-hide">
         {regions.map((r) => (
           <RegionCarouselCard
             key={r.id}

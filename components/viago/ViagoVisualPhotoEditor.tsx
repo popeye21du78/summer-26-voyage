@@ -472,7 +472,7 @@ export default function ViagoVisualPhotoEditor({
             <button
               type="button"
               onClick={handleConfirm}
-              className="flex min-h-[48px] flex-1 items-center justify-center gap-2 rounded-2xl bg-[#A55734] font-courier text-sm font-bold text-white shadow-md"
+              className="flex min-h-[48px] flex-1 items-center justify-center gap-2 rounded-2xl bg-[#E07856] font-courier text-sm font-bold text-white shadow-md"
             >
               <Check className="h-5 w-5" />
               Valider
@@ -516,7 +516,7 @@ export default function ViagoVisualPhotoEditor({
                 <button
                   type="button"
                   onClick={() => setLineEditOpen(false)}
-                  className="mt-4 w-full rounded-xl bg-[#A55734] py-3 font-courier text-sm font-bold text-white"
+                  className="mt-4 w-full rounded-xl bg-[#E07856] py-3 font-courier text-sm font-bold text-white"
                 >
                   OK
                 </button>

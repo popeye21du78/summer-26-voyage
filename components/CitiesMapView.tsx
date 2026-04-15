@@ -8,7 +8,7 @@ import type { LieuPoint, LieuType } from "../lib/lieux-types";
 
 const MapboxMap = dynamic(
   () => import("react-map-gl/mapbox").then((m) => m.default),
-  { ssr: false, loading: () => <div className="h-full w-full flex items-center justify-center bg-[#FFF2EB]/50 text-[#333]/60">Chargement carte…</div> }
+  { ssr: false, loading: () => <div className="h-full w-full flex items-center justify-center bg-[#1c1c1c]/50 text-white/80/60">Chargement carte…</div> }
 );
 const MapMarker = dynamic(
   () => import("react-map-gl/mapbox").then((m) => m.Marker),
@@ -64,7 +64,7 @@ export default function CitiesMapView({
   );
 
   return (
-    <div className="h-full w-full min-h-[400px] rounded-lg overflow-hidden border border-[#A55734]/30">
+    <div className="h-full w-full min-h-[400px] rounded-lg overflow-hidden border border-[#E07856]/30">
       <MapboxMap
         mapboxAccessToken={mapboxAccessToken}
         initialViewState={initialViewState}
@@ -83,7 +83,7 @@ export default function CitiesMapView({
             anchor="center"
           >
             <Link
-              href={`/ville/${lieu.slug}${villeLinkSearch ?? ""}`}
+              href={`/inspirer/ville/${lieu.slug}${villeLinkSearch ?? ""}`}
               className="relative block cursor-pointer"
               onMouseEnter={() => setHoveredId(lieu.id)}
               onMouseLeave={() => setHoveredId(null)}
@@ -95,16 +95,16 @@ export default function CitiesMapView({
                   width: 14,
                   height: 14,
                   backgroundColor:
-                    lieu.plus_beaux_villages === "oui" ? "#A55734" : TYPE_COLORS[lieu.type] ?? "#a8987a",
+                    lieu.plus_beaux_villages === "oui" ? "#E07856" : TYPE_COLORS[lieu.type] ?? "#a8987a",
                 }}
               />
               {hoveredId === lieu.id && (
-                <div className="absolute left-1/2 top-full z-20 mt-1 -translate-x-1/2 whitespace-nowrap rounded bg-white px-2 py-1.5 text-xs shadow-lg ring-1 ring-[#A55734]/30">
-                  <div className="font-medium text-[#333]">{lieu.nom}</div>
+                <div className="absolute left-1/2 top-full z-20 mt-1 -translate-x-1/2 whitespace-nowrap rounded bg-white px-2 py-1.5 text-xs shadow-lg ring-1 ring-[#E07856]/30">
+                  <div className="font-medium text-white/80">{lieu.nom}</div>
                   {lieu.departement ? (
-                    <div className="text-[#333]/70">{lieu.departement} — {lieu.type}</div>
+                    <div className="text-white/80/70">{lieu.departement} — {lieu.type}</div>
                   ) : null}
-                  <div className="text-[#A55734] mt-0.5">Cliquer pour en savoir plus</div>
+                  <div className="text-[#E07856] mt-0.5">Cliquer pour en savoir plus</div>
                 </div>
               )}
             </Link>

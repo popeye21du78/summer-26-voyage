@@ -80,7 +80,7 @@ function SheetChrome({
   const sheetBg = isSplit
     ? darkWarm
       ? INSPI_SURFACE_SHEET
-      : "bg-[#FAF4F0]"
+      : "bg-[#111111]"
     : darkWarm
       ? INSPI_SURFACE_SHEET
       : "bg-[#FFFBF8]";
@@ -94,7 +94,7 @@ function SheetChrome({
         ease: [0.25, 0.85, 0.35, 1],
       }}
       className={`relative flex h-full min-h-0 flex-col rounded-t-3xl border shadow-[0_-6px_32px_rgba(0,0,0,0.28)] ${
-        darkWarm ? "border-white/10" : "border-[#A55734]/15"
+        darkWarm ? "border-white/10" : "border-[#E07856]/15"
       } ${sheetBg}`}
     >
       {!isSplit && onDragClose ? (
@@ -109,13 +109,13 @@ function SheetChrome({
           }}
         >
           <div
-            className={`h-1.5 w-16 rounded-full shadow-sm ${darkWarm ? "bg-white/35" : "bg-[#A55734]/45"}`}
+            className={`h-1.5 w-16 rounded-full shadow-sm ${darkWarm ? "bg-white/35" : "bg-[#E07856]/45"}`}
           />
         </motion.div>
       ) : !isSplit ? (
         <div className="flex shrink-0 justify-center pt-2">
           <div
-            className={`h-1.5 w-11 rounded-full ${darkWarm ? "bg-white/25" : "bg-[#A55734]/30"}`}
+            className={`h-1.5 w-11 rounded-full ${darkWarm ? "bg-white/25" : "bg-[#E07856]/30"}`}
           />
         </div>
       ) : null}
@@ -123,7 +123,7 @@ function SheetChrome({
         <button
           type="button"
           onClick={onBack}
-          className="absolute left-3 top-3 z-10 inline-flex items-center gap-1 rounded-full bg-white/90 px-2 py-1 font-courier text-xs font-bold text-[#A55734] shadow-sm hover:underline"
+          className="absolute left-3 top-3 z-10 inline-flex items-center gap-1 rounded-full bg-white/90 px-2 py-1 font-courier text-xs font-bold text-[#E07856] shadow-sm hover:underline"
         >
           <ChevronLeft className="h-4 w-4" />
           Retour
@@ -131,7 +131,7 @@ function SheetChrome({
       )}
       {!isSplit && showDragHint && (
         <p
-          className={`mt-0.5 text-center font-courier text-[10px] ${darkWarm ? "text-white/35" : "text-[#333]/45"}`}
+          className={`mt-0.5 text-center font-courier text-[10px] ${darkWarm ? "text-white/35" : "text-white/80/45"}`}
         >
           Tire la poignée entre carte et fiche pour ajuster la hauteur · glisser vite vers le bas pour fermer
         </p>
@@ -658,19 +658,19 @@ function StarListSheet({
 
   return (
     <SheetChrome onBack={onBack} onScroll={onScroll} onDragClose={onDragClose}>
-      <h2 className="mb-1 font-courier text-lg font-bold text-[#A55734]">Itinéraires stars</h2>
-      <p className="mb-5 font-courier text-[11px] leading-relaxed text-[#333]/72">
+      <h2 className="mb-1 font-courier text-lg font-bold text-[#E07856]">Itinéraires stars</h2>
+      <p className="mb-5 font-courier text-[11px] leading-relaxed text-white/80/72">
         Thème → durée → parcours sur la carte.
       </p>
 
       {editorialLoading && (
-        <p className="mb-6 font-courier text-sm text-[#333]/65">Chargement des parcours…</p>
+        <p className="mb-6 font-courier text-sm text-white/80/65">Chargement des parcours…</p>
       )}
 
       {!editorialLoading && !hasEditorial && (
         <div className="mb-6 rounded-2xl border border-amber-200/90 bg-gradient-to-br from-amber-50 to-[#FFF8F0] px-4 py-3 shadow-sm">
           <p className="font-courier text-sm font-bold text-amber-950/90">Contenu en attente</p>
-          <p className="mt-1.5 font-courier text-[11px] leading-relaxed text-[#333]/88">
+          <p className="mt-1.5 font-courier text-[11px] leading-relaxed text-white/80/88">
             Aucun itinéraire dans le JSON de cette région (fichier vide ou non enregistré). Après avoir
             collé le JSON dans{" "}
             <code className="rounded bg-white/80 px-1 text-[10px]">
@@ -685,7 +685,7 @@ function StarListSheet({
         <>
           {!selectedTheme && (
             <div className="space-y-3">
-              <p className="font-courier text-[10px] font-bold uppercase tracking-[0.2em] text-[#A55734]/85">
+              <p className="font-courier text-[10px] font-bold uppercase tracking-[0.2em] text-[#E07856]/85">
                 Grand thème
               </p>
               <div className="grid gap-3">
@@ -694,7 +694,7 @@ function StarListSheet({
                     key={t}
                     type="button"
                     onClick={() => pickTheme(t)}
-                    className="group relative h-36 w-full overflow-hidden rounded-2xl border border-[#A55734]/15 text-left shadow-md transition hover:border-[#E07856]/45 hover:shadow-lg"
+                    className="group relative h-36 w-full overflow-hidden rounded-2xl border border-[#E07856]/15 text-left shadow-md transition hover:border-[#E07856]/45 hover:shadow-lg"
                   >
                     <Image
                       src={themeCardImageUrl(t)}
@@ -722,10 +722,10 @@ function StarListSheet({
               >
                 ← Changer de thème
               </button>
-              <p className="mb-1 font-courier text-[10px] font-bold uppercase tracking-[0.2em] text-[#A55734]/85">
+              <p className="mb-1 font-courier text-[10px] font-bold uppercase tracking-[0.2em] text-[#E07856]/85">
                 Durée pour « {selectedTheme} »
               </p>
-              <p className="mb-4 font-courier text-[11px] text-[#333]/75">
+              <p className="mb-4 font-courier text-[11px] text-white/80/75">
                 Choisis la durée : le parcours et le texte apparaîtront ensuite.
               </p>
               <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
@@ -734,14 +734,14 @@ function StarListSheet({
                     key={d}
                     type="button"
                     onClick={() => setSelectedDur(d)}
-                    className="rounded-2xl border-2 border-[#A55734]/18 bg-gradient-to-br from-white to-[#FAF4F0] px-4 py-5 text-center font-courier text-sm font-bold text-[#333] shadow-sm transition hover:border-[#E07856]/55 hover:shadow-md"
+                    className="rounded-2xl border-2 border-[#E07856]/18 bg-gradient-to-br from-white to-[#FAF4F0] px-4 py-5 text-center font-courier text-sm font-bold text-white/80 shadow-sm transition hover:border-[#E07856]/55 hover:shadow-md"
                   >
                     {d}
                   </button>
                 ))}
               </div>
               {durationsForTheme.length === 0 && (
-                <p className="mt-4 font-courier text-sm text-[#333]/70">
+                <p className="mt-4 font-courier text-sm text-white/80/70">
                   Aucune durée pour ce thème dans les données.
                 </p>
               )}
@@ -761,13 +761,13 @@ function StarListSheet({
                 <button
                   type="button"
                   onClick={backToThemes}
-                  className="font-courier text-xs font-bold text-[#A55734]/80 underline underline-offset-2"
+                  className="font-courier text-xs font-bold text-[#E07856]/80 underline underline-offset-2"
                 >
                   Changer de thème
                 </button>
               </div>
               {voyageHeroUrl ? (
-                <div className="relative aspect-[21/9] w-full overflow-hidden rounded-2xl border border-[#A55734]/15 shadow-md">
+                <div className="relative aspect-[21/9] w-full overflow-hidden rounded-2xl border border-[#E07856]/15 shadow-md">
                   <Image src={voyageHeroUrl} alt="" fill className="object-cover" sizes="100vw" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/55 to-transparent" />
                   <p className="absolute bottom-2 left-3 right-3 font-courier text-xs font-bold text-white drop-shadow">
@@ -780,7 +780,7 @@ function StarListSheet({
                   {routeStops.map((st) => (
                     <Link
                       key={st.slug}
-                      href={`/ville/${encodeURIComponent(st.slug)}?from=inspiration`}
+                      href={`/inspirer/ville/${encodeURIComponent(st.slug)}?from=inspiration`}
                       className="flex w-[76px] shrink-0 flex-col items-center gap-1.5 text-center"
                     >
                       <div className="relative h-[68px] w-[68px] overflow-hidden rounded-full border-[3px] border-white shadow-md ring-2 ring-[#A55734]/25">
@@ -792,11 +792,11 @@ function StarListSheet({
                             {st.order}
                           </div>
                         )}
-                        <span className="absolute -bottom-0.5 -right-0.5 flex h-5 min-w-[1.25rem] items-center justify-center rounded-full bg-[#A55734] px-0.5 font-courier text-[9px] font-bold text-white">
+                        <span className="absolute -bottom-0.5 -right-0.5 flex h-5 min-w-[1.25rem] items-center justify-center rounded-full bg-[#E07856] px-0.5 font-courier text-[9px] font-bold text-white">
                           {st.order}
                         </span>
                       </div>
-                      <span className="line-clamp-2 font-courier text-[9px] font-bold leading-tight text-[#333]">
+                      <span className="line-clamp-2 font-courier text-[9px] font-bold leading-tight text-white/80">
                         {st.nom}
                       </span>
                     </Link>
@@ -809,7 +809,7 @@ function StarListSheet({
                     <p className="font-courier text-[10px] font-bold uppercase tracking-wide text-[#E07856]">
                       {matched.themeTitle} · {matched.durationHint}
                     </p>
-                    <h3 className="mt-1 font-courier text-lg font-bold leading-snug text-[#333]">
+                    <h3 className="mt-1 font-courier text-lg font-bold leading-snug text-white/80">
                       {matched.tripTitle}
                     </h3>
                   </div>
@@ -821,7 +821,7 @@ function StarListSheet({
                     />
                   </span>
                 </div>
-                <p className="mt-3 line-clamp-4 font-courier text-sm leading-relaxed text-[#333]/88">
+                <p className="mt-3 line-clamp-4 font-courier text-sm leading-relaxed text-white/80/88">
                   {matched.summary}
                 </p>
                 <button
@@ -844,7 +844,7 @@ function StarListSheet({
               >
                 ← Autre durée
               </button>
-              <p className="font-courier text-sm text-[#333]/70">
+              <p className="font-courier text-sm text-white/80/70">
                 Aucun itinéraire pour cette combinaison thème / durée.
               </p>
             </div>
@@ -853,8 +853,8 @@ function StarListSheet({
       )}
 
       {legacy.length > 0 && (
-        <div className={hasEditorial ? "mt-10 border-t border-[#A55734]/12 pt-8" : ""}>
-          <h3 className="mb-3 font-courier text-xs font-bold uppercase tracking-wide text-[#A55734]/80">
+        <div className={hasEditorial ? "mt-10 border-t border-[#E07856]/12 pt-8" : ""}>
+          <h3 className="mb-3 font-courier text-xs font-bold uppercase tracking-wide text-[#E07856]/80">
             Aperçus (ancien format)
           </h3>
           <div className="grid gap-4 sm:grid-cols-2">
@@ -870,9 +870,9 @@ function StarListSheet({
                     onPickLegacy(s.id);
                   }
                 }}
-                className="cursor-pointer overflow-hidden rounded-2xl border border-[#A55734]/15 bg-white text-left shadow-sm transition hover:border-[#E07856]/45"
+                className="cursor-pointer overflow-hidden rounded-2xl border border-[#E07856]/15 bg-white text-left shadow-sm transition hover:border-[#E07856]/45"
               >
-                <div className="relative aspect-[16/10] bg-[#e8dfd6]">
+                <div className="relative aspect-[16/10] bg-[#1c1c1c]">
                   <Image
                     src={s.coverPhoto}
                     alt=""
@@ -883,16 +883,16 @@ function StarListSheet({
                 </div>
                 <div className="p-3">
                   <div className="flex items-start justify-between gap-2">
-                    <span className="font-courier text-sm font-bold text-[#333]">{s.name}</span>
+                    <span className="font-courier text-sm font-bold text-white/80">{s.name}</span>
                     <span onClick={(e) => e.stopPropagation()}>
                       <FavoriteButton kind="star_itinerary" refId={s.id} label={s.name} />
                     </span>
                   </div>
-                  <p className="mt-1 line-clamp-2 font-courier text-[11px] text-[#333]/80">
+                  <p className="mt-1 line-clamp-2 font-courier text-[11px] text-white/80/80">
                     {s.shortDescription}
                   </p>
                   {s.durationHint && (
-                    <p className="mt-2 font-courier text-[10px] text-[#A55734]/75">{s.durationHint}</p>
+                    <p className="mt-2 font-courier text-[10px] text-[#E07856]/75">{s.durationHint}</p>
                   )}
                 </div>
               </div>
@@ -902,7 +902,7 @@ function StarListSheet({
       )}
 
       {!hasEditorial && legacy.length === 0 && (
-        <p className="font-courier text-sm text-[#333]/70">
+        <p className="font-courier text-sm text-white/80/70">
           Aucun itinéraire disponible pour cette région pour le moment.
         </p>
       )}
@@ -928,34 +928,34 @@ function StarDetailSheetLegacy({
 
   return (
     <SheetChrome onBack={onBack} onScroll={onScroll} onDragClose={onDragClose}>
-      <div className="relative mb-4 aspect-[16/9] w-full overflow-hidden rounded-2xl bg-[#e8dfd6]">
+      <div className="relative mb-4 aspect-[16/9] w-full overflow-hidden rounded-2xl bg-[#1c1c1c]">
         <Image src={s.coverPhoto} alt="" fill className="object-cover" sizes="100vw" />
       </div>
       <div className="flex items-start justify-between gap-2">
         <div>
-          <h2 className="font-courier text-lg font-bold text-[#A55734]">{s.name}</h2>
+          <h2 className="font-courier text-lg font-bold text-[#E07856]">{s.name}</h2>
           {s.durationHint && (
-            <p className="mt-1 font-courier text-xs text-[#333]/70">{s.durationHint}</p>
+            <p className="mt-1 font-courier text-xs text-white/80/70">{s.durationHint}</p>
           )}
         </div>
         <FavoriteButton kind="star_itinerary" refId={s.id} label={s.name} />
       </div>
-      <p className="mt-3 font-courier text-sm leading-relaxed text-[#333]">{s.shortDescription}</p>
+      <p className="mt-3 font-courier text-sm leading-relaxed text-white/80">{s.shortDescription}</p>
 
       <div className="mt-4 flex gap-2 overflow-x-auto">
         {s.photos.map((src, i) => (
-          <div key={i} className="relative h-20 w-32 shrink-0 overflow-hidden rounded-lg bg-[#e8dfd6]">
+          <div key={i} className="relative h-20 w-32 shrink-0 overflow-hidden rounded-lg bg-[#1c1c1c]">
             <Image src={src} alt="" fill className="object-cover" sizes="128px" />
           </div>
         ))}
       </div>
 
-      <h3 className="mt-6 font-courier text-xs font-bold uppercase text-[#A55734]">Étapes (tracé carte)</h3>
+      <h3 className="mt-6 font-courier text-xs font-bold uppercase text-[#E07856]">Étapes (tracé carte)</h3>
       <ol className="mt-2 space-y-2">
         {coords.map((c, i) => (
           <li
             key={i}
-            className="flex gap-3 rounded-lg border border-[#A55734]/12 bg-white/80 px-3 py-2 font-courier text-xs text-[#333]"
+            className="flex gap-3 rounded-lg border border-[#E07856]/12 bg-white/80 px-3 py-2 font-courier text-xs text-white/80"
           >
             <span className="font-bold text-[#E07856]">{i + 1}</span>
             <span>
@@ -1003,7 +1003,7 @@ function StarDetailSheetEditorial({
   if (item === undefined) {
     return (
       <SheetChrome onBack={onBack} onScroll={onScroll} onDragClose={onDragClose}>
-        <p className="font-courier text-sm text-[#333]/70">Chargement du parcours…</p>
+        <p className="font-courier text-sm text-white/80/70">Chargement du parcours…</p>
       </SheetChrome>
     );
   }
@@ -1011,7 +1011,7 @@ function StarDetailSheetEditorial({
   if (!item) {
     return (
       <SheetChrome onBack={onBack} onScroll={onScroll} onDragClose={onDragClose}>
-        <p className="font-courier text-sm text-[#333]/70">
+        <p className="font-courier text-sm text-white/80/70">
           Parcours introuvable. Enregistre le JSON régional puis rafraîchis la page.
         </p>
       </SheetChrome>
@@ -1022,7 +1022,7 @@ function StarDetailSheetEditorial({
 
   return (
     <SheetChrome onBack={onBack} onScroll={onScroll} onDragClose={onDragClose}>
-      <div className="relative mb-4 overflow-hidden rounded-2xl border border-[#A55734]/15 bg-gradient-to-br from-[#5D3A1A]/15 via-[#FFF8F0] to-[#E07856]/10">
+      <div className="relative mb-4 overflow-hidden rounded-2xl border border-[#E07856]/15 bg-gradient-to-br from-[#5D3A1A]/15 via-[#FFF8F0] to-[#E07856]/10">
         <div className="aspect-[16/7] w-full min-h-[120px]" aria-hidden />
         <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-black/55 via-black/10 to-transparent p-4">
           <p className="font-courier text-[10px] font-bold uppercase tracking-wide text-white/90">
@@ -1040,21 +1040,21 @@ function StarDetailSheetEditorial({
         <FavoriteButton kind="star_itinerary" refId={favRef} label={item.tripTitle} />
       </div>
 
-      <p className="mt-3 font-courier text-sm leading-relaxed text-[#333]">{item.summary}</p>
+      <p className="mt-3 font-courier text-sm leading-relaxed text-white/80">{item.summary}</p>
 
       <div className={`mt-4 rounded-xl border px-3 py-3 ${BAND_LIGHT}`}>
-        <p className="font-courier text-[10px] font-bold uppercase text-[#A55734]/85">Nuits</p>
-        <p className="mt-1 font-courier text-xs leading-relaxed text-[#333]/90">{item.overnightStyle}</p>
+        <p className="font-courier text-[10px] font-bold uppercase text-[#E07856]/85">Nuits</p>
+        <p className="mt-1 font-courier text-xs leading-relaxed text-white/80/90">{item.overnightStyle}</p>
       </div>
 
-      <h3 className="mt-6 font-courier text-xs font-bold uppercase text-[#A55734]">
+      <h3 className="mt-6 font-courier text-xs font-bold uppercase text-[#E07856]">
         Étapes (ordre du parcours)
       </h3>
       <ol className="mt-2 space-y-2">
         {item.steps.map((st, i) => (
           <li
             key={`${st.slug}-${i}`}
-            className="flex gap-3 rounded-lg border border-[#A55734]/12 bg-white/90 px-3 py-2.5 font-courier text-xs text-[#333]"
+            className="flex gap-3 rounded-lg border border-[#E07856]/12 bg-white/90 px-3 py-2.5 font-courier text-xs text-white/80"
           >
             <span className="shrink-0 font-bold text-[#E07856]">{i + 1}</span>
             <span className="leading-snug">{st.nom}</span>
@@ -1063,23 +1063,23 @@ function StarDetailSheetEditorial({
       </ol>
 
       {item.suggestedPoiAdditions.length > 0 && (
-        <div className="mt-8 rounded-xl border border-dashed border-[#A55734]/25 bg-amber-50/50 px-3 py-3">
+        <div className="mt-8 rounded-xl border border-dashed border-[#E07856]/25 bg-amber-50/50 px-3 py-3">
           <p className="font-courier text-[10px] font-bold uppercase tracking-wide text-amber-950/90">
             POI à ajouter au référentiel (suggestions)
           </p>
           <ul className="mt-2 space-y-2">
             {item.suggestedPoiAdditions.map((s, i) => (
-              <li key={i} className="font-courier text-[11px] leading-relaxed text-[#333]/92">
-                <span className="font-bold text-[#A55734]">{s.nom}</span>
-                <span className="text-[#333]/55"> · {s.type}</span>
-                <span className="mt-0.5 block text-[#333]/78">{s.raison}</span>
+              <li key={i} className="font-courier text-[11px] leading-relaxed text-white/80/92">
+                <span className="font-bold text-[#E07856]">{s.nom}</span>
+                <span className="text-white/80/55"> · {s.type}</span>
+                <span className="mt-0.5 block text-white/80/78">{s.raison}</span>
               </li>
             ))}
           </ul>
         </div>
       )}
 
-      <p className="mt-6 font-courier text-[10px] leading-relaxed text-[#333]/55">
+      <p className="mt-6 font-courier text-[10px] leading-relaxed text-white/80/55">
         Le tracé orange sur la carte relie les lieux dans l’ordre (coordonnées issues du référentiel
         lieux).
       </p>

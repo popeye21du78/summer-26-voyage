@@ -26,7 +26,7 @@ export default function VoyagesAmisPhotosBar({ items }: Props) {
         {doubled.map((item, i) => (
           <Link
             key={`${item.voyageId}-${i}`}
-            href={`/voyage/${item.voyageId}/prevu`}
+            href={`/mon-espace/voyage/${item.voyageId}`}
             className="group relative h-32 w-44 shrink-0 overflow-hidden rounded-xl border-2 border-white/20 shadow-lg transition-all hover:scale-105 hover:border-[var(--terracotta-light)] hover:shadow-xl"
           >
             <Image

@@ -1,13 +1,14 @@
 import { fetchTopCommonsPhotos } from "./commons-api";
 import { getLieuBySlug } from "./lieux-central";
 import { isPremiumPatrimoineSlug } from "./maintenance-photo-queue";
-import { getBeautyCuratedPhotosForSlug } from "./maintenance-beauty-validations";
+import { getPublicPhotoPick } from "./public-photo-url";
 import { slugFromNom } from "./slug-from-nom";
 import { fetchPhotoForCity, fetchUnsplashPhotosForCity } from "./unsplash";
 import { fetchPhotoForCityFromWikipedia } from "./wikipedia-photo";
 
 export type LieuThumbSource =
   | "beauty_curated"
+  | "maintenance_validated"
   | "unsplash"
   | "wikipedia"
   | "commons"
@@ -36,14 +37,13 @@ export async function resolveLieuThumb(
   const lieuRow = getLieuBySlug(slug);
   const departement = lieuRow?.departement?.trim() || undefined;
 
-  const curated = getBeautyCuratedPhotosForSlug(slug, 1);
-  if (curated?.[0]) {
-    const p = curated[0];
+  const sitePick = getPublicPhotoPick(slug, slug, 0);
+  if (sitePick) {
     return {
-      url: p.url,
-      alt: p.title,
-      credit: p.author,
-      source: "beauty_curated",
+      url: sitePick.url,
+      alt: ville,
+      credit: sitePick.source === "beauty_curated" ? "Sélection Viago" : "Photo validée",
+      source: sitePick.source,
       premiumPatrimoine: premium,
     };
   }

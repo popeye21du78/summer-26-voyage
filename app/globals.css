@@ -20,10 +20,6 @@
   animation: quiz-choice-flash 0.38s ease-out forwards;
 }
 
-/*
- * Bloque tout scroll horizontal (mobile : « écran » qui glisse sur du vide).
- * hidden + max-width 100% (pas 100vw : inclut la barre de défilement et crée l’overflow).
- */
 html {
   overflow-x: hidden;
   width: 100%;
@@ -31,26 +27,25 @@ html {
   overscroll-behavior-x: none;
 }
 
-/* Palette Terracotta – design moderne */
 :root {
-  --background: #FAF4F0;
-  --foreground: #333333;
-  --primary: #A55734;
-  --terracotta-dark: #8B4513;
-  --terracotta-medium: #A0522D;
-  --terracotta-coral: #D4635B;
-  --terracotta-light: #E07856;
-  --terracotta-peach: #C9785D;
-  --cream: #FAF4F0;
-  --cream-dark: #FFF2EB;
-  --beige: #E8E0D5;
-  --text: #333333;
-  --white-off: #FFFBF7;
+  --background: #141414;
+  --foreground: #e5e5e5;
+  --primary: #E07856;
+  --primary-dark: #c94a4a;
+  --accent: #E07856;
+  --surface: #1c1c1c;
+  --surface-light: #242424;
+  --surface-border: rgba(255, 255, 255, 0.08);
+  --text: #e5e5e5;
+  --text-muted: rgba(255, 255, 255, 0.5);
+  --cream: #141414;
+  --cream-dark: #1c1c1c;
+  --beige: #242424;
+  --white-off: #1c1c1c;
   --font-homemade-apple: "Homemade Apple", cursive;
   --font-typewriter: "Special Elite", serif;
   --font-motto: "Cormorant Garamond", Georgia, serif;
   --font-courier: "Courier Prime", monospace;
-  /* Aligné sur .page-under-header — pour positionner le contenu (liens) au-dessus du bandeau fixe */
   --header-content-offset: max(
     7.75rem,
     calc(env(safe-area-inset-top, 0px) + 6.5rem)
@@ -61,12 +56,10 @@ html {
   font-family: var(--font-courier);
 }
 
-/* Contenu sous le header fixe (logo qui dépasse le bandeau) — marge suffisante sur mobile pour ne pas masquer « Retour » / liens */
 .page-under-header {
   padding-top: max(7.75rem, calc(env(safe-area-inset-top, 0px) + 6.5rem));
 }
 
-/* Évite tout défilement horizontal parasite (éléments en 100vw, marges négatives, etc.) */
 #__next,
 main {
   max-width: 100%;
@@ -94,7 +87,6 @@ body {
   scroll-behavior: smooth;
 }
 
-/* Cintre global : tout ce qui dépasse en largeur est coupé (App Router) */
 .app-viewport-root {
   width: 100%;
   max-width: 100%;
@@ -102,13 +94,11 @@ body {
   overflow-x: hidden;
 }
 
-/* Machine à écrire – sections ville : caractères révélés avec délai, curseur clignotant */
 .typewriter-char {
   opacity: 0;
   animation: typewriter-reveal 0.01s forwards;
 }
 
-/* Stream : pas d’animation, visibilité gérée au JS uniquement → évite le clignotement */
 .typewriter-char-stream {
   opacity: 0;
 }
@@ -118,12 +108,10 @@ body {
   transform: translateZ(0);
 }
 
-/* Contenu stream : on n’affiche que le révélé, tout est visible */
 .typewriter-revealed-only .typewriter-char-stream {
   opacity: 1;
 }
 
-/* Wrapper : hauteur fixée au JS, pas de transition pour éviter tout chamboulement visuel */
 .typewriter-stream-height-wrapper {
   overflow: hidden;
 }
@@ -149,18 +137,16 @@ body {
   }
 }
 
-/* Grain papier – effet subtil */
 body::before {
   content: "";
   position: fixed;
   inset: 0;
   pointer-events: none;
   z-index: 9999;
-  opacity: 0.03;
+  opacity: 0.02;
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
 }
 
-/* Séparateur brush stroke (SVG abstract) */
 .brush-divider {
   position: relative;
   height: 24px;
@@ -173,55 +159,49 @@ body::before {
   right: 0;
   bottom: 0;
   height: 24px;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 24'%3E%3Cpath d='M0 12 Q100 2 200 12 T400 12 T600 12 T800 12 T1000 12 T1200 12 L1200 24 L0 24 Z' fill='%23A55734' opacity='0.15'/%3E%3Cpath d='M0 14 Q150 6 300 14 T600 14 T900 14 T1200 14 L1200 24 L0 24 Z' fill='%23A55734' opacity='0.08'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 24'%3E%3Cpath d='M0 12 Q100 2 200 12 T400 12 T600 12 T800 12 T1000 12 T1200 12 L1200 24 L0 24 Z' fill='%23E07856' opacity='0.15'/%3E%3Cpath d='M0 14 Q150 6 300 14 T600 14 T900 14 T1200 14 L1200 24 L0 24 Z' fill='%23E07856' opacity='0.08'/%3E%3C/svg%3E");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-/* Boutons – bordure légèrement irrégulière */
 .btn-primary {
   position: relative;
-  border-radius: 4px;
-  clip-path: polygon(2% 0, 98% 0, 100% 4%, 100% 96%, 98% 100%, 2% 100%, 0 96%, 0 4%);
+  border-radius: 12px;
 }
 .btn-secondary {
-  border-radius: 4px;
-  clip-path: polygon(2% 0, 98% 0, 100% 3%, 100% 97%, 98% 100%, 2% 100%, 0 97%, 0 3%);
+  border-radius: 12px;
 }
 
-/* Effet Polaroid sur images */
 .polaroid {
   position: relative;
-  background: var(--white-off);
-  padding: 12px 12px 48px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
-  transform: rotate(-0.5deg);
+  background: var(--surface);
+  padding: 4px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .polaroid:hover {
-  transform: rotate(0deg) scale(1.02);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12), 0 2px 6px rgba(0, 0, 0, 0.1);
+  transform: scale(1.02);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
 }
 
-/* Tooltip carte – Roland Garros */
 .mapboxgl-popup-content {
   padding: 0.5rem 0.75rem;
-  background: var(--cream) !important;
-  border: 2px solid var(--primary) !important;
-  border-radius: 4px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  font-family: "IBM Plex Mono", monospace !important;
+  background: #1c1c1c !important;
+  border: 1.5px solid #E07856 !important;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  font-family: var(--font-courier), monospace !important;
+  color: #e5e5e5 !important;
 }
 .mapboxgl-popup-tip {
-  border-top-color: var(--cream) !important;
+  border-top-color: #1c1c1c !important;
 }
 
-/* Checkbox terracotta */
 input[type="checkbox"].accent-terracotta {
   accent-color: var(--primary);
 }
 
-/* Masquer les flèches des inputs number */
 input[type="number"].no-spinner {
   -moz-appearance: textfield;
   appearance: textfield;
@@ -232,7 +212,6 @@ input[type="number"].no-spinner::-webkit-inner-spin-button {
   margin: 0;
 }
 
-/* Motto sur la vidéo d'accueil — typo assortie au logo Voyage Voyage */
 .font-motto {
   font-family: var(--font-motto);
   font-weight: 300;
@@ -240,7 +219,6 @@ input[type="number"].no-spinner::-webkit-inner-spin-button {
   letter-spacing: 0.02em;
 }
 
-/* Signature de page : lignes diagonales terracotta + texture papier + filigrane */
 .page-signature-pattern {
   position: relative;
   isolation: isolate;
@@ -255,8 +233,8 @@ input[type="number"].no-spinner::-webkit-inner-spin-button {
     -38deg,
     transparent,
     transparent 80px,
-    rgba(165, 87, 52, 0.045) 80px,
-    rgba(165, 87, 52, 0.045) 81px
+    rgba(224, 120, 86, 0.03) 80px,
+    rgba(224, 120, 86, 0.03) 81px
   );
 }
 .page-signature-pattern::after {
@@ -265,7 +243,7 @@ input[type="number"].no-spinner::-webkit-inner-spin-button {
   inset: 0;
   pointer-events: none;
   z-index: 0;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 400'%3E%3Cdefs%3E%3Cpattern id='wm' width='600' height='120' patternUnits='userSpaceOnUse' patternTransform='rotate(-35)'%3E%3Ctext x='0' y='30' fill='rgba(165,87,52,0.09)' font-family='IBM Plex Mono' font-size='12'%3EVoyage voyage, dans le sud du plus beau pays du monde.%3C/text%3E%3Ctext x='0' y='70' fill='rgba(165,87,52,0.09)' font-family='IBM Plex Mono' font-size='12'%3EVoyage voyage, dans le sud du plus beau pays du monde.%3C/text%3E%3Ctext x='0' y='110' fill='rgba(165,87,52,0.09)' font-family='IBM Plex Mono' font-size='12'%3EVoyage voyage, dans le sud du plus beau pays du monde.%3C/text%3E%3Ctext x='300' y='55' fill='rgba(165,87,52,0.09)' font-family='IBM Plex Mono' font-size='12'%3EVoyage voyage, dans le sud du plus beau pays du monde.%3C/text%3E%3Ctext x='300' y='95' fill='rgba(165,87,52,0.09)' font-family='IBM Plex Mono' font-size='12'%3EVoyage voyage, dans le sud du plus beau pays du monde.%3C/text%3E%3C/pattern%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23wm)'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 400'%3E%3Cdefs%3E%3Cpattern id='wm' width='600' height='120' patternUnits='userSpaceOnUse' patternTransform='rotate(-35)'%3E%3Ctext x='0' y='30' fill='rgba(224,120,86,0.04)' font-family='Courier Prime' font-size='12'%3EVoyage voyage%3C/text%3E%3Ctext x='0' y='70' fill='rgba(224,120,86,0.04)' font-family='Courier Prime' font-size='12'%3EVoyage voyage%3C/text%3E%3Ctext x='0' y='110' fill='rgba(224,120,86,0.04)' font-family='Courier Prime' font-size='12'%3EVoyage voyage%3C/text%3E%3Ctext x='300' y='55' fill='rgba(224,120,86,0.04)' font-family='Courier Prime' font-size='12'%3EVoyage voyage%3C/text%3E%3Ctext x='300' y='95' fill='rgba(224,120,86,0.04)' font-family='Courier Prime' font-size='12'%3EVoyage voyage%3C/text%3E%3C/pattern%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23wm)'/%3E%3C/svg%3E");
   background-size: cover;
 }
 .page-signature-pattern > * {
@@ -273,7 +251,6 @@ input[type="number"].no-spinner::-webkit-inner-spin-button {
   z-index: 1;
 }
 
-/* Loading "voyage voyage" – effet brillant façon pointillés carte */
 @keyframes voyage-shimmer {
   0%, 100% {
     background-position: 0% 50%;
@@ -283,7 +260,6 @@ input[type="number"].no-spinner::-webkit-inner-spin-button {
   }
 }
 
-/* Défilement horizontal des photos (compte à rebours voyage) */
 @keyframes scroll-horizontal {
   0% {
     transform: translateX(0);
@@ -297,12 +273,10 @@ input[type="number"].no-spinner::-webkit-inner-spin-button {
   animation: scroll-horizontal 30s linear infinite;
 }
 
-/* Barre photos amis – défilement rapide */
 .animate-scroll-horizontal-slow {
   animation: scroll-horizontal 12s linear infinite;
 }
 
-/* Scroll aimanté par section */
 .snap-sections {
   scroll-snap-type: y proximity;
   scroll-behavior: smooth;
@@ -312,31 +286,28 @@ input[type="number"].no-spinner::-webkit-inner-spin-button {
   scroll-snap-stop: normal;
 }
 
-/* Boutons modernes – effets terracotta (style Figma Van Trip) */
 .btn-terracotta {
   transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 .btn-terracotta:hover {
-  transform: scale(1.1);
-  box-shadow: 0 25px 50px -12px rgba(224, 120, 86, 0.6);
+  transform: scale(1.05);
+  box-shadow: 0 20px 40px -10px rgba(224, 120, 86, 0.5);
 }
 .btn-terracotta:active {
-  transform: scale(0.95);
+  transform: scale(0.97);
 }
 
-/* Boutons primaires style Figma */
 .btn-primary-figma {
   transition: all 0.3s ease;
 }
 .btn-primary-figma:hover {
-  transform: scale(1.1);
-  box-shadow: 0 20px 40px -10px rgba(224, 120, 86, 0.7);
+  transform: scale(1.05);
+  box-shadow: 0 16px 36px -8px rgba(224, 120, 86, 0.6);
 }
 .btn-primary-figma:active {
   transform: scale(0.98);
 }
 
-/* Animation fade-in */
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -351,21 +322,66 @@ input[type="number"].no-spinner::-webkit-inner-spin-button {
   animation: fadeInUp 0.6s ease-out forwards;
 }
 
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
 .voyage-loading-text {
   background: linear-gradient(
     90deg,
-    #A55734 0%,
-    #C4A484 25%,
-    #A55734 50%,
-    #C4A484 75%,
-    #A55734 100%
+    #E07856 0%,
+    #f0a080 25%,
+    #E07856 50%,
+    #f0a080 75%,
+    #E07856 100%
   );
   background-size: 200% auto;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: voyage-shimmer 2.5s ease-in-out infinite;
-  font-family: "IBM Plex Mono", monospace;
+  font-family: var(--font-courier), monospace;
   font-weight: 500;
   letter-spacing: 0.05em;
+}
+
+/* B&W to color photo reveal */
+@keyframes bw-to-color {
+  0% { filter: grayscale(100%); }
+  60% { filter: grayscale(100%); }
+  100% { filter: grayscale(0%); }
+}
+.photo-bw-reveal {
+  animation: bw-to-color 0.5s ease-out forwards;
+}
+.photo-bw-reveal:hover {
+  filter: grayscale(0%) !important;
+}
+
+/* Orange gradient button with depth */
+.btn-orange-glow {
+  background: linear-gradient(135deg, #E07856 0%, #c94a4a 100%);
+  box-shadow:
+    0 4px 14px rgba(224, 120, 86, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  transition: all 0.25s ease;
+}
+.btn-orange-glow:hover {
+  box-shadow:
+    0 8px 28px rgba(224, 120, 86, 0.55),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  transform: translateY(-1px);
+}
+.btn-orange-glow:active {
+  transform: translateY(0px);
+  box-shadow:
+    0 2px 8px rgba(224, 120, 86, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 -2px 0 rgba(0, 0, 0, 0.15);
 }

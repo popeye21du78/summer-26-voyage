@@ -27,7 +27,7 @@ export default function HeroNouveauVoyageur({ profileId }: Props) {
       <div className="absolute inset-0 opacity-[0.42] mix-blend-multiply">
         <HeroPhotoStripResolved steps={HERO_ACCUEIL_STEP_REFS} />
       </div>
-      <div className="absolute inset-0 bg-gradient-to-t from-[#FAF4F0]/95 via-[#FAF4F0]/55 to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-t from-[#111111]/95 via-[#111111]/55 to-transparent" />
 
       <AccueilHeroBrandMark />
       <HomeDecorTitle lines={decor} tone="onLight" />
@@ -35,7 +35,7 @@ export default function HeroNouveauVoyageur({ profileId }: Props) {
       <div className="relative z-10 flex min-h-0 flex-1 flex-col justify-between px-4 pb-10 pt-[calc(env(safe-area-inset-top,0px)+4rem)]">
         <div className="min-h-0 flex-1" />
         <div>
-          <p className="mb-3 font-courier text-[10px] font-bold uppercase tracking-[0.45em] text-[#A55734]">
+          <p className="mb-3 font-courier text-[10px] font-bold uppercase tracking-[0.45em] text-[#E07856]">
             Viago
           </p>
           <h1
@@ -74,7 +74,7 @@ export default function HeroNouveauVoyageur({ profileId }: Props) {
             </Link>
             <Link
               href="/planifier/commencer"
-              className="flex w-full items-center justify-center gap-2 rounded-2xl border-2 border-[#A55734]/35 bg-white/80 py-3.5 font-courier text-base font-bold text-[#5c3d2e] shadow-sm backdrop-blur-sm transition hover:border-[#E07856]/50 hover:bg-white"
+              className="flex w-full items-center justify-center gap-2 rounded-2xl border-2 border-[#E07856]/35 bg-white/80 py-3.5 font-courier text-base font-bold text-[#5c3d2e] shadow-sm backdrop-blur-sm transition hover:border-[#E07856]/50 hover:bg-white"
             >
               <Compass className="h-5 w-5" aria-hidden />
               Commencer un voyage

@@ -17,7 +17,6 @@ import "mapbox-gl/dist/mapbox-gl.css";
 import * as turf from "@turf/turf";
 import type { TerritoriesFeatureCollection } from "@/lib/editorial-territories";
 import { stripInspirationBasemapClutter } from "@/lib/mapbox-strip-inspiration-basemap";
-import { VOYAGE_UI } from "@/lib/voyage-map-palette";
 import type { StarItineraryStopDto } from "@/types/inspiration-star-map";
 import {
   Building2,
@@ -33,7 +32,7 @@ import { Marker } from "react-map-gl/mapbox";
 const Map = dynamic(() => import("react-map-gl/mapbox").then((m) => m.default), {
   ssr: false,
   loading: () => (
-    <div className="flex h-full min-h-[240px] items-center justify-center bg-[#FFF2EB]/40 font-courier text-sm text-[#333]/60">
+    <div className="flex h-full min-h-[240px] items-center justify-center bg-[#1c1c1c]/40 font-courier text-sm text-white/80/60">
       Chargement carte…
     </div>
   ),
@@ -260,7 +259,7 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
     const linePaint = useMemo(
       () =>
         ({
-          "line-color": VOYAGE_UI.terracotta,
+          "line-color": "#E07856",
           "line-width": [
             "case",
             ["==", ["get", "id"], sel],
@@ -276,7 +275,7 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
     const starLinePaint = useMemo(
       () =>
         ({
-          "line-color": VOYAGE_UI.terracotta,
+          "line-color": "#E07856",
           "line-width": ["case", ["==", ["get", "hl"], 1], 5, 2.2],
           "line-opacity": 0.88,
         }) as Record<string, unknown>,
@@ -289,7 +288,7 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
       if (!hl) {
         return {
           "circle-radius": 7,
-          "circle-color": VOYAGE_UI.terracotta,
+          "circle-color": "#E07856",
           "circle-stroke-width": 2,
           "circle-stroke-color": "#ffffff",
           "circle-opacity": op,
@@ -302,7 +301,7 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
           "case",
           ["==", ["get", "id"], hl],
           "#ff8a5c",
-          VOYAGE_UI.terracotta,
+          "#E07856",
         ],
         "circle-stroke-width": ["case", ["==", ["get", "id"], hl], 4, 2],
         "circle-stroke-color": "#fffef8",
@@ -539,9 +538,9 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
                       "match",
                       ["get", "tier"],
                       "strong",
-                      "#c45a3a",
+                      "#E07856",
                       "saved",
-                      "#d4635b",
+                      "#E07856",
                       "#3d6b63",
                     ],
                     "circle-stroke-width": [
@@ -553,7 +552,7 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
                       2,
                       2,
                     ],
-                    "circle-stroke-color": "#fff8f4",
+                    "circle-stroke-color": "#1c1c1c",
                   }}
                 />
               </Source>
@@ -568,7 +567,7 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
                 >
                   <button
                     type="button"
-                    className="group relative flex h-[52px] w-[52px] cursor-pointer items-center justify-center rounded-full border-[3px] border-white bg-white shadow-lg ring-2 ring-[#A55734]/35 transition hover:scale-105 hover:ring-[#E07856]/55"
+                    className="group relative flex h-[52px] w-[52px] cursor-pointer items-center justify-center rounded-full border-[3px] border-white bg-white shadow-lg ring-2 ring-[#E07856]/35 transition hover:scale-105 hover:ring-[#E07856]/55"
                     onClick={(e) => {
                       e.stopPropagation();
                       onVilleClick?.(s.slug);
@@ -583,14 +582,14 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
                         className="h-full w-full rounded-full object-cover"
                       />
                     ) : (
-                      <div className="flex h-full w-full items-center justify-center rounded-full bg-gradient-to-br from-[#E07856] to-[#A55734]">
+                      <div className="flex h-full w-full items-center justify-center rounded-full bg-gradient-to-br from-[#E07856] to-[#E07856]">
                         <StopIconPicto iconKey={s.iconKey} />
                       </div>
                     )}
-                    <span className="absolute -bottom-1 -right-1 flex h-6 min-w-[1.5rem] items-center justify-center rounded-full bg-[#A55734] px-1 font-courier text-[10px] font-bold text-white shadow">
+                    <span className="absolute -bottom-1 -right-1 flex h-6 min-w-[1.5rem] items-center justify-center rounded-full bg-[#E07856] px-1 font-courier text-[10px] font-bold text-white shadow">
                       {s.order}
                     </span>
-                    <span className="pointer-events-none absolute -top-7 left-1/2 max-w-[140px] -translate-x-1/2 rounded bg-[#4a2818]/88 px-1.5 py-0.5 text-center font-courier text-[9px] font-bold text-white opacity-0 shadow transition group-hover:opacity-100">
+                    <span className="pointer-events-none absolute -top-7 left-1/2 max-w-[140px] -translate-x-1/2 rounded bg-[#111111]/88 px-1.5 py-0.5 text-center font-courier text-[9px] font-bold text-white opacity-0 shadow transition group-hover:opacity-100">
                       {s.nom}
                     </span>
                   </button>
@@ -601,15 +600,15 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
         {(loading || loadError || !regionsDataAugmented) && (
           <div
             className={`pointer-events-none absolute inset-0 flex items-center justify-center font-courier text-sm ${
-              regionsDataAugmented ? "bg-white/70" : "bg-[#FFF2EB]/50"
-            } text-[#333]/70`}
+              regionsDataAugmented ? "bg-white/70" : "bg-[#1c1c1c]/50"
+            } text-white/80/70`}
           >
             {loadError
               ? "Impossible de charger les régions."
               : "Chargement des régions…"}
           </div>
         )}
-        <div className="pointer-events-none absolute bottom-2 right-2 rounded bg-white/85 px-2 py-1 font-courier text-[10px] text-[#333]/60">
+        <div className="pointer-events-none absolute bottom-2 right-2 rounded bg-white/85 px-2 py-1 font-courier text-[10px] text-white/80/60">
           © Mapbox © OpenStreetMap
         </div>
       </div>

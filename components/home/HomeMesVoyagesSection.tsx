@@ -42,7 +42,7 @@ function voyagesFromState(state: VoyageStateResponse | null): Array<{
       id: v.id,
       titre: v.titre,
       sousTitre: v.sousTitre,
-      href: `/voyage/${v.id}/prevu`,
+      href: `/mon-espace/voyage/${v.id}`,
       type: "prevu",
       voyage: v,
     });
@@ -52,7 +52,7 @@ function voyagesFromState(state: VoyageStateResponse | null): Array<{
       id: state.voyageEnCours.id,
       titre: state.voyageEnCours.titre,
       sousTitre: state.voyageEnCours.sousTitre,
-      href: `/voyage/${state.voyageEnCours.id}/en-cours`,
+      href: `/mon-espace/voyage/${state.voyageEnCours.id}`,
       type: "en_cours",
       voyage: state.voyageEnCours,
     });
@@ -63,7 +63,7 @@ function voyagesFromState(state: VoyageStateResponse | null): Array<{
         id: v.id,
         titre: v.titre,
         sousTitre: v.sousTitre,
-        href: `/voyage/${v.id}/termine`,
+        href: `/mon-espace/voyage/${v.id}`,
         type: "termine",
         voyage: v,
       });

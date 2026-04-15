@@ -25,13 +25,13 @@ function getMarkerStyle(
   const size = Math.min(28, baseSize + Math.max(0, nuitees) * 4);
   switch (nuiteeType) {
     case "airbnb":
-      return { size, color: "#A55734" };
+      return { size, color: "#E07856" };
     case "van":
       return { size, color: "#a8987a" };
     case "passage":
       return { size: 10, color: "#c4b89a" };
     default:
-      return { size: 10, color: "#A55734" };
+      return { size: 10, color: "#E07856" };
   }
 }
 import Link from "next/link";
@@ -52,18 +52,18 @@ function CityPopupOverlay({
   return (
     <div
       ref={popupRef}
-      className="absolute bottom-2 left-1/2 z-10 w-[220px] -translate-x-1/2 rounded border-2 border-[#A55734] bg-[#FAF4F0] p-2 shadow-lg"
+      className="absolute bottom-2 left-1/2 z-10 w-[220px] -translate-x-1/2 rounded border-2 border-[#E07856] bg-[#FAF4F0] p-2 shadow-lg"
     >
       <button
         type="button"
         onClick={onClose}
-        className="absolute right-1 top-1 rounded p-0.5 text-[#6b6b6b] hover:bg-[#A55734]/20"
+        className="absolute right-1 top-1 rounded p-0.5 text-[#6b6b6b] hover:bg-[#E07856]/20"
         aria-label="Fermer"
       >
         ×
       </button>
       <div className="flex flex-col gap-2">
-        <div className="relative h-16 w-full shrink-0 overflow-hidden rounded bg-[#A55734]/15">
+        <div className="relative h-16 w-full shrink-0 overflow-hidden rounded bg-[#E07856]/15">
           <CityPhoto
             stepId={step.id}
             ville={step.nom}
@@ -79,20 +79,20 @@ function CityPopupOverlay({
         </div>
         <div className="flex shrink-0 flex-col gap-1">
           <Link
-            href={`/ville/${step.id}`}
-            className="block rounded bg-[#A55734] px-2 py-1.5 text-center text-[10px] font-medium text-white no-underline transition-colors hover:bg-[#8b4728]"
+            href={`/inspirer/ville/${step.id}`}
+            className="block rounded bg-[#E07856] px-2 py-1.5 text-center text-[10px] font-medium text-white no-underline transition-colors hover:bg-[#E07856]"
           >
             Infos ville
           </Link>
           <Link
             href={`/book#${step.id}`}
-            className="block rounded border border-[#A55734] px-2 py-1.5 text-center text-[10px] font-medium text-[#A55734] no-underline transition-colors hover:bg-[#A55734]/10"
+            className="block rounded border border-[#E07856] px-2 py-1.5 text-center text-[10px] font-medium text-[#E07856] no-underline transition-colors hover:bg-[#E07856]/10"
           >
             Voir dans le Book
           </Link>
           <Link
             href={`/book/${step.id}/editer`}
-            className="block rounded border border-[#A55734] px-2 py-1.5 text-center text-[10px] font-medium text-[#A55734] no-underline transition-colors hover:bg-[#A55734]/10"
+            className="block rounded border border-[#E07856] px-2 py-1.5 text-center text-[10px] font-medium text-[#E07856] no-underline transition-colors hover:bg-[#E07856]/10"
           >
             Créer / Modifier
           </Link>
@@ -180,7 +180,7 @@ function RouteEffects({
             0.05,
             "#C4A484",
             0.1,
-            "#A55734",
+            "#E07856",
             0.15,
             "#C4A484",
             0.2,
@@ -207,7 +207,7 @@ function RouteEffects({
             0.05,
             "#C4A484",
             0.1,
-            "#A55734",
+            "#E07856",
             0.15,
             "#C4A484",
             0.2,
@@ -414,7 +414,7 @@ export default function MapboxMapInner({
         type="line"
         source={ROUTE_SOURCE_ID}
         paint={{
-          "line-color": "#A55734",
+          "line-color": "#E07856",
           "line-width": 14,
           "line-opacity": 0,
         }}
@@ -453,7 +453,7 @@ export default function MapboxMapInner({
                 minWidth: size,
                 minHeight: size,
                 transformOrigin: "center",
-                backgroundColor: selectedStep?.id === step.id ? "#8b4728" : color,
+                backgroundColor: selectedStep?.id === step.id ? "#E07856" : color,
               }}
             >
               {nuitees > 0 && (
@@ -466,7 +466,7 @@ export default function MapboxMapInner({
               )}
             </div>
             {hoveredStep?.id === step.id && (
-              <span className="absolute left-full top-1/2 z-10 ml-2 -translate-y-1/2 whitespace-nowrap rounded-full bg-white/95 px-2 py-0.5 text-[10px] font-bold text-[#333333] shadow-sm ring-1 ring-[#A55734/30]/50">
+              <span className="absolute left-full top-1/2 z-10 ml-2 -translate-y-1/2 whitespace-nowrap rounded-full bg-white/95 px-2 py-0.5 text-[10px] font-bold text-[#333333] shadow-sm ring-1 ring-[#E07856/30]/50">
                 {label.split("–")[0]?.trim() || "J+0"} · {step.nom}
               </span>
             )}

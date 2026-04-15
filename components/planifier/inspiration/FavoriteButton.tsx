@@ -43,7 +43,7 @@ export default function FavoriteButton({
       aria-label={aria}
       title={aria}
       whileTap={{ scale: 0.88 }}
-      className={`inline-flex h-10 w-10 items-center justify-center rounded-full border border-[#A55734]/25 bg-white/90 text-[#A55734] shadow-sm transition hover:bg-[#FFF2EB] ${on ? "text-[#D4635B]" : ""} ${className}`}
+      className={`inline-flex h-10 w-10 items-center justify-center rounded-full border border-[#E07856]/25 bg-white/90 text-[#E07856] shadow-sm transition hover:bg-[#141414] ${on ? "text-[#D4635B]" : ""} ${className}`}
     >
       <motion.span
         key={on ? "on" : "off"}

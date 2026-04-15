@@ -3,20 +3,18 @@ import { ChevronLeft } from "lucide-react";
 import HomeDecorTitle from "@/components/home/HomeDecorTitle";
 import { HOME_SECTION_H2 } from "@/components/home/homeSectionTokens";
 
-/** Surface principale — corail / brique / ambre (chaud, pas gris-noir). */
 export const INSPI_SURFACE_SHEET =
-  "bg-gradient-to-br from-[#7a4a38] via-[#5c3d32] to-[#4a2e28]";
+  "bg-[#141414]";
 
 export const INSPI_SURFACE_CARD =
-  "border border-[#f5e6dc]/18 bg-[#6b5a50]/35 backdrop-blur-sm";
+  "border border-white/6 bg-white/3 backdrop-blur-sm";
 
-export const INSPI_TEXT_PRIMARY = "text-[#F5EDE8]";
-export const INSPI_TEXT_MUTED = "text-[#c9b8ad]/85";
-export const INSPI_ACCENT_LINE = "border-[#7a4a3d]/55";
+export const INSPI_TEXT_PRIMARY = "text-white/90";
+export const INSPI_TEXT_MUTED = "text-white/50";
+export const INSPI_ACCENT_LINE = "border-white/6";
 
-/** CTA — brique / ocre (moins orange « startup » que le seul #E07856). */
 export const INSPI_CTA_GRADIENT =
-  "bg-gradient-to-br from-[#c75a3d] via-[#8B4A3C] to-[#5a2e24] shadow-[0_14px_40px_rgba(120,40,20,0.35)]";
+  "btn-orange-glow";
 
 /** Titres de section — même impact que l’accueil. */
 export { HOME_SECTION_H2 };
@@ -60,7 +58,7 @@ export function InspirationRegionHero({
   const isFull = density === "full";
 
   return (
-    <header className="relative w-full overflow-hidden bg-[#4a3a32]">
+    <header className="relative w-full overflow-hidden bg-[#111111]">
       <div
         className={`relative w-full overflow-hidden ${isFull ? "h-[min(46vh,440px)] min-h-[300px] sm:h-[min(44vh,480px)]" : "h-[130px] sm:h-[148px]"}`}
       >
@@ -68,12 +66,12 @@ export function InspirationRegionHero({
           src={imageSrc}
           alt=""
           fill
-          className="object-cover"
+          className="photo-bw-reveal object-cover"
           sizes="100vw"
           priority
         />
         <div
-          className="pointer-events-none absolute inset-0 bg-gradient-to-b from-[#2a1f1c]/55 via-[#3d2e28]/25 to-[#3d3430]/92"
+          className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-[#111111]/90"
           aria-hidden
         />
         <HomeDecorTitle lines={[a, b]} tone="onDark" className="z-[1] opacity-90" />
@@ -85,7 +83,7 @@ export function InspirationRegionHero({
             <button
               type="button"
               onClick={onBack}
-              className={`inline-flex items-center gap-1 rounded-full border border-white/25 ${INSPI_SURFACE_CARD} px-2.5 py-1.5 font-courier text-[11px] font-bold uppercase tracking-wide text-white shadow-lg backdrop-blur-md transition hover:bg-white/15`}
+              className="inline-flex items-center gap-1 rounded-xl border border-white/10 bg-black/50 px-2.5 py-1.5 font-courier text-[11px] font-bold uppercase tracking-wide text-white/80 shadow-lg backdrop-blur-md transition hover:bg-black/70"
             >
               <ChevronLeft className="h-4 w-4 shrink-0" strokeWidth={2.5} />
               Retour
@@ -94,17 +92,17 @@ export function InspirationRegionHero({
             <span className="min-w-0 shrink" aria-hidden />
           )}
           <Image
-            src="/logo-b-W.png"
+            src="/A1.png"
             alt="Viago"
-            width={108}
-            height={48}
-            className="h-9 w-auto shrink-0 opacity-95 drop-shadow-md sm:h-10"
-            unoptimized
+            width={28}
+            height={28}
+            className="shrink-0 opacity-50"
+            style={{ filter: "brightness(0) invert(1) sepia(1) saturate(5) hue-rotate(-15deg)" }}
           />
         </div>
 
         <div className="absolute inset-x-0 bottom-0 z-[2] px-4 pb-4 pt-16 sm:px-5">
-          <p className="font-courier text-[10px] font-bold uppercase tracking-[0.35em] text-[#F5C4B8]/90">
+          <p className="font-courier text-[10px] font-bold uppercase tracking-[0.35em] text-[#E07856]">
             Région
           </p>
           <h1

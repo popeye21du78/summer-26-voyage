@@ -163,7 +163,7 @@ function PhotoPolaroid({
             {hasTitle && (
               <p
                 className={`font-courier ${titleSz} ${
-                  isDark ? "text-white/92" : "text-[#333]/92"
+                  isDark ? "text-white/92" : "text-white/80/92"
                 }`}
               >
                 <ViagoRichCourier text={item.photoTitle!} />
@@ -172,7 +172,7 @@ function PhotoPolaroid({
             {hasBody && (
               <p
                 className={`font-courier ${bodySz} ${
-                  isDark ? "text-white/88" : "text-[#333]/90"
+                  isDark ? "text-white/88" : "text-white/80/90"
                 }`}
               >
                 <ViagoRichCourier text={item.anecdote!} />
@@ -186,7 +186,7 @@ function PhotoPolaroid({
           <button
             type="button"
             onClick={onEdit}
-            className="flex h-7 w-7 items-center justify-center rounded-full bg-[#A55734] text-white shadow"
+            className="flex h-7 w-7 items-center justify-center rounded-full bg-[#E07856] text-white shadow"
             aria-label="Modifier la photo"
           >
             <Pencil className="h-3 w-3" />
@@ -366,7 +366,7 @@ export default function ViagoSection({
           className={`order-2 flex flex-1 flex-col justify-center px-5 py-10 md:order-1 md:max-w-[55%] md:px-12 md:py-14 ${
             isDark
               ? "bg-gradient-to-b from-[#141414] to-[#0d0d0d]"
-              : "bg-gradient-to-b from-[#FFF8F0] via-[#FFFBF7] to-[#FAF4F0]"
+              : "bg-[#141414]"
           }`}
         >
           <span className="font-courier text-[10px] font-bold uppercase tracking-[0.35em] text-[#E07856]">
@@ -380,7 +380,7 @@ export default function ViagoSection({
           </h2>
           <p
             className={`mt-2 font-courier text-sm font-bold md:text-base ${
-              isDark ? "text-white/85" : "text-[#333]/80"
+              isDark ? "text-white/85" : "text-white/80/80"
             }`}
           >
             {displayDate}
@@ -406,7 +406,7 @@ export default function ViagoSection({
         className={`relative z-10 mx-4 -mt-6 rounded-2xl border p-6 shadow-2xl md:mx-auto md:max-w-3xl md:p-10 ${
           isDark
             ? "border-[#E07856]/35 bg-[#1a1a1a]/95"
-            : "border-[#E07856]/25 bg-gradient-to-br from-white to-[#FFF8F0]/90"
+            : "border-white/6 bg-[#1c1c1c]"
         }`}
       >
         <input
@@ -440,20 +440,20 @@ export default function ViagoSection({
         {!readOnly && editStepOpen && (
           <div
             className={`mb-6 space-y-3 rounded-xl border p-4 ${
-              isDark ? "border-[#E07856]/30 bg-[#252525]" : "border-[#A55734]/30 bg-white"
+              isDark ? "border-[#E07856]/30 bg-[#252525]" : "border-[#E07856]/30 bg-white"
             }`}
           >
-            <label className={`block font-courier text-xs font-bold ${isDark ? "text-white/80" : "text-[#333]"}`}>
+            <label className={`block font-courier text-xs font-bold ${isDark ? "text-white/80" : "text-white/80"}`}>
               Titre affiché
             </label>
             <input
               value={stepTitleDraft}
               onChange={(e) => setStepTitleDraft(e.target.value)}
               className={`w-full rounded-lg border px-3 py-2 font-courier text-sm ${
-                isDark ? "border-[#E07856]/30 bg-[#1a1a1a] text-white" : "border-[#A55734]/30"
+                isDark ? "border-[#E07856]/30 bg-[#1a1a1a] text-white" : "border-[#E07856]/30"
               }`}
             />
-            <label className={`block font-courier text-xs font-bold ${isDark ? "text-white/80" : "text-[#333]"}`}>
+            <label className={`block font-courier text-xs font-bold ${isDark ? "text-white/80" : "text-white/80"}`}>
               Date
             </label>
             <input
@@ -461,17 +461,17 @@ export default function ViagoSection({
               value={stepDateDraft}
               onChange={(e) => setStepDateDraft(e.target.value)}
               className={`w-full max-w-xs rounded-lg border px-3 py-2 font-courier text-sm ${
-                isDark ? "border-[#E07856]/30 bg-[#1a1a1a] text-white" : "border-[#A55734]/30"
+                isDark ? "border-[#E07856]/30 bg-[#1a1a1a] text-white" : "border-[#E07856]/30"
               }`}
             />
-            <p className={`font-courier text-[10px] ${isDark ? "text-white/45" : "text-[#333]/55"}`}>
+            <p className={`font-courier text-[10px] ${isDark ? "text-white/45" : "text-white/80/55"}`}>
               Image grande (colonne droite) : remplace la photo lieu si tu en choisis une.
             </p>
             <div className="flex flex-wrap gap-2">
               <button
                 type="button"
                 onClick={() => heroFileRef.current?.click()}
-                className="rounded-lg bg-[#A55734] px-3 py-2 font-courier text-xs font-bold text-white"
+                className="rounded-lg bg-[#E07856] px-3 py-2 font-courier text-xs font-bold text-white"
               >
                 Choisir une image
               </button>
@@ -490,7 +490,7 @@ export default function ViagoSection({
               <button
                 type="button"
                 onClick={saveStepMeta}
-                className="rounded-lg bg-[#A55734] px-4 py-2 font-courier text-sm font-bold text-white"
+                className="rounded-lg bg-[#E07856] px-4 py-2 font-courier text-sm font-bold text-white"
               >
                 Enregistrer l’étape
               </button>
@@ -538,7 +538,7 @@ export default function ViagoSection({
                 setShowAddAnecdote(true);
                 setAnecdoteDraft(anecdote);
               }}
-              className="inline-flex items-center gap-2 rounded-full border-2 border-[#E07856]/50 bg-white px-5 py-2.5 font-courier text-sm font-bold text-[#A55734] shadow-sm transition hover:scale-[1.02] hover:border-[#E07856] hover:bg-[#FFF8F0]"
+              className="inline-flex items-center gap-2 rounded-full border-2 border-[#E07856]/50 bg-white px-5 py-2.5 font-courier text-sm font-bold text-[#E07856] shadow-sm transition hover:scale-[1.02] hover:border-[#E07856] hover:bg-[#141414]"
             >
               <FileText className="h-4 w-4" />
               {anecdote ? "Modifier l'anecdote" : "Ajouter une anecdote"}
@@ -549,10 +549,10 @@ export default function ViagoSection({
         {!readOnly && showAddAnecdote && (
           <div
             className={`mb-6 rounded-xl border p-4 ${
-              isDark ? "border-[#E07856]/30 bg-[#252525]" : "border-[#A55734]/30 bg-white"
+              isDark ? "border-[#E07856]/30 bg-[#252525]" : "border-[#E07856]/30 bg-white"
             }`}
           >
-            <p className={`mb-2 font-courier text-sm font-bold ${isDark ? "text-white/90" : "text-[#333333]"}`}>
+            <p className={`mb-2 font-courier text-sm font-bold ${isDark ? "text-white/90" : "text-white/80"}`}>
               Anecdote d’étape (**gras** possible)
             </p>
             <textarea
@@ -561,14 +561,14 @@ export default function ViagoSection({
               placeholder="Ce qui s'est passé…"
               rows={4}
               className={`mb-3 w-full rounded-lg border p-3 font-courier text-sm ${
-                isDark ? "border-[#E07856]/30 bg-[#1a1a1a] text-white placeholder-white/50" : "border-[#A55734]/30"
+                isDark ? "border-[#E07856]/30 bg-[#1a1a1a] text-white placeholder-white/50" : "border-[#E07856]/30"
               }`}
             />
             <div className="flex gap-2">
               <button
                 type="button"
                 onClick={handleSaveAnecdote}
-                className="rounded-lg bg-[#A55734] px-4 py-2 text-sm font-medium text-white"
+                className="rounded-lg bg-[#E07856] px-4 py-2 text-sm font-medium text-white"
               >
                 Enregistrer
               </button>
@@ -589,7 +589,7 @@ export default function ViagoSection({
         {anecdote && !showAddAnecdote && (
           <div
             className={`rounded-xl border-l-4 border-[#E07856] p-4 font-courier italic ${
-              isDark ? "bg-white/5 text-white/90" : "bg-white/60 text-[#333333]/90"
+              isDark ? "bg-white/5 text-white/90" : "bg-white/60 text-white/80/90"
             }`}
           >
             <ViagoRichCourier text={anecdote} />
@@ -598,7 +598,7 @@ export default function ViagoSection({
 
         {step.description_culture && (
           <p
-            className={`mt-6 font-courier leading-relaxed ${isDark ? "text-white/80" : "text-[#333333]/80"}`}
+            className={`mt-6 font-courier leading-relaxed ${isDark ? "text-white/80" : "text-white/80/80"}`}
           >
             {step.description_culture}
           </p>

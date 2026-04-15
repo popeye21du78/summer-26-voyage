@@ -7,6 +7,7 @@ import { ArrowLeft, Route, Fuel } from "lucide-react";
 import ViagoSection from "./ViagoSection";
 import { LieuResolvedBackground } from "./LieuResolvedBackground";
 import { mergeVoyageSteps } from "@/lib/voyage-local-overrides";
+import { getCreatedVoyageById, createdVoyageToViagoPayload } from "@/lib/created-voyages";
 import type { Step } from "@/types";
 
 function formatDate(iso: string) {
@@ -22,15 +23,8 @@ export default function ViagoPageClient() {
   const searchParams = useSearchParams();
   const id = params?.id as string;
   const readOnly = searchParams.get("mode") === "readonly";
-  const from = searchParams.get("from");
 
-  const backHref = readOnly
-    ? "/accueil"
-    : from === "en-cours"
-      ? `/voyage/${id}/en-cours`
-      : from === "termine"
-        ? `/voyage/${id}/termine`
-        : `/voyage/${id}/prevu`;
+  const backHref = readOnly ? "/accueil" : `/mon-espace/voyage/${id}`;
 
   const [voyage, setVoyage] = useState<{
     id: string;
@@ -49,17 +43,24 @@ export default function ViagoPageClient() {
     fetch(`/api/voyage/${id}`)
       .then((r) => (r.ok ? r.json() : null))
       .then((data) => {
-        if (!data || data.error) {
-          setVoyage(null);
+        if (data && !data.error) {
+          const { isOwner: _o, ownerName: _n, ownerProfileId: _p, ...rest } = data;
+          setVoyage(rest);
           setLoading(false);
           return;
         }
-        const { isOwner: _o, ownerName: _n, ownerProfileId: _p, ...rest } = data;
-        setVoyage(rest);
+        const local = getCreatedVoyageById(id);
+        if (local) {
+          setVoyage(createdVoyageToViagoPayload(local));
+        } else {
+          setVoyage(null);
+        }
         setLoading(false);
       })
       .catch(() => {
-        setVoyage(null);
+        const local = getCreatedVoyageById(id);
+        if (local) setVoyage(createdVoyageToViagoPayload(local));
+        else setVoyage(null);
         setLoading(false);
       });
   }, [id]);
@@ -71,23 +72,27 @@ export default function ViagoPageClient() {
 
   if (loading) {
     return (
-      <main className="flex min-h-[50vh] items-center justify-center bg-[#1a1a1a]">
-        <p className="font-courier text-white/70">Chargement…</p>
-      </main>
+      <div className="flex min-h-0 flex-1 flex-col overflow-hidden">
+        <main className="flex min-h-[40vh] flex-1 items-center justify-center bg-[#1a1a1a]">
+          <p className="font-courier text-white/70">Chargement…</p>
+        </main>
+      </div>
     );
   }
 
   if (!voyage) {
     return (
-      <main className="flex min-h-[50vh] flex-col items-center justify-center gap-4 bg-[#1a1a1a] px-4">
-        <p className="font-courier text-white/80">Voyage introuvable.</p>
-        <Link
-          href="/accueil"
-          className="font-courier text-[#E07856] underline transition-all hover:scale-105 hover:no-underline"
-        >
-          Retour à l&apos;accueil
-        </Link>
-      </main>
+      <div className="flex min-h-0 flex-1 flex-col overflow-hidden">
+        <main className="flex min-h-0 flex-1 flex-col items-center justify-center gap-4 overflow-y-auto bg-[#1a1a1a] px-4 py-8">
+          <p className="font-courier text-center text-white/80">Viago indisponible pour ce voyage.</p>
+          <Link
+            href="/mon-espace"
+            className="font-courier text-[#E07856] underline transition-all hover:no-underline"
+          >
+            Retour à Mon espace
+          </Link>
+        </main>
+      </div>
     );
   }
 
@@ -97,73 +102,76 @@ export default function ViagoPageClient() {
   const first = mergedSteps[0];
 
   return (
-    <main className="min-h-screen bg-[#0d0d0d]">
-      <header className="relative flex min-h-[60vh] flex-col justify-end overflow-hidden">
-        {first ? (
-          <LieuResolvedBackground
-            key={`${voyage.id}-${first.id}`}
-            ville={first.nom}
-            stepId={first.id}
-            className="absolute inset-0 transition-transform duration-700 hover:scale-105"
-          />
-        ) : (
-          <div
-            className="absolute inset-0 bg-gradient-to-br from-[#5D3A1A] via-[#8B4513] to-[#A0522D]"
-            aria-hidden
-          />
-        )}
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0d0d0d] via-[#0d0d0d]/40 to-transparent" />
-        <div className="absolute inset-0 bg-[#E07856]/20" />
-        <div className="relative z-10 px-4 pb-12 pt-24 md:px-8 md:pb-16">
-          <Link
-            href={backHref}
-            className="mb-6 inline-flex items-center gap-2 font-courier text-sm font-bold text-white/90 transition-all duration-300 hover:scale-105 hover:text-white"
-          >
-            <ArrowLeft className="h-4 w-4" />
-            Retour
-          </Link>
-          <h1 className="font-courier text-4xl font-bold tracking-wider text-white drop-shadow-2xl md:text-6xl">
-            {voyage.titre}
-          </h1>
-          <p className="mt-2 font-courier text-lg font-bold text-[#E07856]">
-            {voyage.sousTitre}
-          </p>
-          <p className="mt-2 font-courier text-sm text-white/80">
-            {dateDebut && dateFin
-              ? `${formatDate(dateDebut)} → ${formatDate(dateFin)}`
-              : ""}
-          </p>
-          {voyage.stats && (
-            <div className="mt-6 flex gap-8">
-              {voyage.stats.km != null && (
-                <span className="flex items-center gap-2 font-courier font-bold text-[#E07856]">
-                  <Route className="h-5 w-5" />
-                  {voyage.stats.km} km
-                </span>
-              )}
-              {voyage.stats.essence != null && (
-                <span className="flex items-center gap-2 font-courier font-bold text-[#E07856]">
-                  <Fuel className="h-5 w-5" />
-                  {voyage.stats.essence} € essence
-                </span>
-              )}
-            </div>
+    <div className="flex h-full min-h-0 w-full flex-1 flex-col overflow-hidden">
+      <main className="min-h-0 flex-1 overflow-y-auto overflow-x-hidden overscroll-y-contain bg-[#0d0d0d]">
+        <header className="relative flex min-h-[60vh] flex-col justify-end overflow-hidden">
+          {first ? (
+            <LieuResolvedBackground
+              key={`${voyage.id}-${first.id}`}
+              ville={first.nom}
+              stepId={first.id}
+              className="absolute inset-0 transition-transform duration-700 hover:scale-105"
+            />
+          ) : (
+            <div
+              className="absolute inset-0 bg-gradient-to-br from-[#5D3A1A] via-[#8B4513] to-[#A0522D]"
+              aria-hidden
+            />
           )}
-        </div>
-      </header>
+          <div className="absolute inset-0 bg-gradient-to-t from-[#0d0d0d] via-[#0d0d0d]/40 to-transparent" />
+          <div className="absolute inset-0 bg-[#E07856]/20" />
+          <div className="relative z-10 px-4 pb-12 pt-24 md:px-8 md:pb-16">
+            <Link
+              href={backHref}
+              replace
+              className="mb-6 inline-flex items-center gap-2 font-courier text-sm font-bold text-white/90 transition-all duration-300 hover:scale-105 hover:text-white"
+            >
+              <ArrowLeft className="h-4 w-4" />
+              Retour
+            </Link>
+            <h1 className="font-courier text-4xl font-bold tracking-wider text-white drop-shadow-2xl md:text-6xl">
+              {voyage.titre}
+            </h1>
+            <p className="mt-2 font-courier text-lg font-bold text-[#E07856]">
+              {voyage.sousTitre}
+            </p>
+            <p className="mt-2 font-courier text-sm text-white/80">
+              {dateDebut && dateFin
+                ? `${formatDate(dateDebut)} → ${formatDate(dateFin)}`
+                : ""}
+            </p>
+            {voyage.stats && (
+              <div className="mt-6 flex gap-8">
+                {voyage.stats.km != null && (
+                  <span className="flex items-center gap-2 font-courier font-bold text-[#E07856]">
+                    <Route className="h-5 w-5" />
+                    {voyage.stats.km} km
+                  </span>
+                )}
+                {voyage.stats.essence != null && (
+                  <span className="flex items-center gap-2 font-courier font-bold text-[#E07856]">
+                    <Fuel className="h-5 w-5" />
+                    {voyage.stats.essence} € essence
+                  </span>
+                )}
+              </div>
+            )}
+          </div>
+        </header>
 
-      <div>
-        {mergedSteps.map((step, i) => (
-          <ViagoSection
-            key={step.id}
-            step={step}
-            voyageId={voyage.id}
-            index={i}
-            readOnly={readOnly}
-            variant={i % 2 === 0 ? "dark" : "light"}
-          />
-        ))}
-      </div>
-    </main>
+        <div>
+          {mergedSteps.map((step, i) => (
+            <ViagoSection
+              key={step.id}
+              step={step}
+              voyageId={voyage.id}
+              index={i}
+              readOnly={readOnly}
+              variant={i % 2 === 0 ? "dark" : "light"}
+            />
+          ))}
+        </div>
+      </main>
+    </div>
   );
 }

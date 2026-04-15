@@ -64,7 +64,7 @@ export default function HeroPlanifierProchain({
           </Link>
           {dernier && (
             <Link
-              href={`/voyage/${dernier.id}/termine`}
+              href={`/mon-espace/voyage/${dernier.id}`}
               className="w-full rounded-2xl border-2 border-white/30 bg-white/10 py-3.5 text-center font-courier text-sm font-bold text-white backdrop-blur-sm transition hover:bg-white/16"
             >
               Revivre le dernier voyage

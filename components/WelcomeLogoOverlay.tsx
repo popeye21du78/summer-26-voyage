@@ -38,7 +38,7 @@ export default function WelcomeLogoOverlay({ show }: Props) {
 
   return (
     <div
-      className="fixed inset-0 z-[200] flex items-center justify-center bg-[#FAF4F0] transition-transform duration-[400ms] ease-in-out"
+      className="fixed inset-0 z-[200] flex items-center justify-center bg-[#111111] transition-transform duration-[400ms] ease-in-out"
       style={{ transform: slideOut ? "translateX(100%)" : "translateX(0)" }}
       aria-hidden
     >

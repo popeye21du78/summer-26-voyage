@@ -130,7 +130,7 @@ export default function VoyageEnCoursLanding({ state }: Props) {
                   {s.dureeConseillee ?? "Sur place"}
                 </p>
                 <Link
-                  href={`/ville/${s.id}?v=${encodeURIComponent(voyage.id)}`}
+                  href={`/inspirer/ville/${s.id}?v=${encodeURIComponent(voyage.id)}`}
                   className="mt-1.5 inline-flex items-center gap-1 font-courier text-xs font-bold text-[#E07856] hover:underline"
                 >
                   <MapPin className="h-3 w-3" />
@@ -143,7 +143,7 @@ export default function VoyageEnCoursLanding({ state }: Props) {
 
         <div className="mt-auto flex shrink-0 flex-col gap-2.5 pt-4">
           <Link
-            href={`/voyage/${voyage.id}/en-cours`}
+            href={`/mon-espace/voyage/${voyage.id}`}
             className="flex w-full items-center justify-center rounded-2xl bg-gradient-to-r from-[#E07856] to-[#c94a4a] py-4 font-courier text-base font-bold text-white shadow-[0_8px_28px_rgba(224,120,86,0.45)] transition hover:brightness-105 active:scale-[0.99]"
           >
             Accéder au voyage

@@ -84,13 +84,13 @@ export default function VoyageTermineLanding({ state }: Props) {
 
         <div className="mt-auto flex max-w-md flex-col gap-3">
           <Link
-            href={`/viago/${dernier.id}?from=termine`}
+            href={`/mon-espace/viago/${dernier.id}?from=termine`}
             className="w-full rounded-2xl bg-gradient-to-r from-[#E07856] to-[#c94a4a] py-3.5 text-center font-courier text-sm font-bold text-white shadow-lg"
           >
             Revivre le voyage
           </Link>
           <Link
-            href={`/voyage/${dernier.id}/termine`}
+            href={`/mon-espace/voyage/${dernier.id}`}
             className="w-full rounded-2xl border border-white/35 bg-white/10 py-3.5 text-center font-courier text-sm font-bold text-white"
           >
             Carnet & partage

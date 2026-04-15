@@ -3,6 +3,7 @@ import { getItinerary, updateItineraryPhotoUrl } from "../../../lib/itinerary-su
 import { getDepartementForVille } from "../../../lib/photo-queries";
 import { isPremiumPatrimoineSlug } from "../../../lib/maintenance-photo-queue";
 import { getBeautyCuratedPhotosForSlug } from "../../../lib/maintenance-beauty-validations";
+import { getPublicPhotoPick } from "../../../lib/public-photo-url";
 import { fetchPhotosForCityFromPexels } from "../../../lib/pexels";
 import { fetchPhotoForCity, fetchUnsplashPhotosForCity } from "../../../lib/unsplash";
 import { fetchPhotosForCityFromWikipedia } from "../../../lib/wikipedia-photo";
@@ -45,25 +46,26 @@ export async function GET(req: NextRequest) {
   const slug = slugHint || slugFromNom(ville.trim());
   const premium = isPremiumPatrimoineSlug(slug);
 
+  /** Beauty 200 + photo-validations (JSON uniquement) — même logique que /api/photo-resolve. */
+  const idxStatic = refresh && photoIndex !== undefined ? photoIndex : 0;
+  const staticPick = getPublicPhotoPick(slug, stepId, idxStatic);
+  if (staticPick) {
+    await updateItineraryPhotoUrl(stepId, staticPick.url);
+    return Response.json({
+      url: staticPick.url,
+      fromCache: false,
+      totalWikipedia: staticPick.total,
+      premiumPatrimoine: premium,
+      source: staticPick.source,
+    });
+  }
+
   const curatedList = getBeautyCuratedPhotosForSlug(slug, TOTAL_PHOTOS) ?? [];
   const curatedPicks: PhotoPick[] = curatedList.map((p) => ({
     url: p.url,
     alt: p.title,
     credit: p.author,
   }));
-
-  /** URLs déjà en JSON : pas d’appel externe pour la première image. */
-  if (!refresh && curatedPicks.length > 0) {
-    const chosen = curatedPicks[0];
-    await updateItineraryPhotoUrl(stepId, chosen.url);
-    return Response.json({
-      url: chosen.url,
-      fromCache: false,
-      totalWikipedia: curatedPicks.length,
-      premiumPatrimoine: premium,
-      source: "beauty_curated",
-    });
-  }
 
   const [wikiList, pexelsList] = await Promise.all([
     fetchPhotosForCityFromWikipedia(ville, { departement: departement ?? undefined }),

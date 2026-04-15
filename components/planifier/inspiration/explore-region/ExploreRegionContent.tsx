@@ -13,6 +13,7 @@ import {
 import { listFavorites, removeFavorite, type PlanifierFavorite } from "@/lib/planifier-favorites";
 import { slugFromNom } from "@/lib/slug-from-nom";
 import { CityPhoto } from "@/components/CityPhoto";
+import { PhotoCurationOverlay } from "@/components/PhotoCurationOverlay";
 import {
   HOME_SECTION_H2,
   INSPI_CTA_GRADIENT,
@@ -21,8 +22,55 @@ import {
   INSPI_TEXT_PRIMARY,
 } from "../inspirationEditorialUi";
 import type { RegionEditorialContent } from "@/types/inspiration";
-import { themeCardImageUrl } from "@/lib/star-itinerary-theme-card-images";
-import type { StarItinerariesEditorialFile } from "@/types/star-itineraries-editorial";
+import { themeCardImageByOffset } from "@/lib/star-itinerary-theme-card-images";
+import type {
+  StarItinerariesEditorialFile,
+  StarItineraryEditorialItem,
+} from "@/types/star-itineraries-editorial";
+
+function StarThemePreviewCard({
+  it,
+  onOpenStars,
+  cardClass,
+}: {
+  it: StarItineraryEditorialItem;
+  onOpenStars: () => void;
+  cardClass: string;
+}) {
+  const [offset, setOffset] = useState(0);
+  const src = themeCardImageByOffset(it.themeTitle, offset);
+  return (
+    <motion.button
+      type="button"
+      whileTap={{ scale: 0.98 }}
+      onClick={onOpenStars}
+      className={`overflow-hidden rounded-2xl text-left ${cardClass}`}
+    >
+      <div className="relative h-[100px] w-full bg-[#3d3430]">
+        <Image src={src} alt="" fill className="object-cover" sizes="200px" />
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
+        <PhotoCurationOverlay
+          slug={`explore-star-theme:${it.itinerarySlug}`}
+          imageUrl={src}
+          title={it.themeTitle}
+          compact
+          onOther={() => setOffset((o) => o + 1)}
+        />
+        <span className="pointer-events-none absolute bottom-9 left-2 right-2 z-20 font-courier text-[11px] font-bold leading-tight text-white drop-shadow">
+          {it.themeTitle}
+        </span>
+      </div>
+      <div className="px-3 py-2">
+        <p className={`font-courier text-[10px] uppercase tracking-wide ${INSPI_TEXT_MUTED}`}>
+          {it.durationHint}
+        </p>
+        <p className="mt-1 line-clamp-2 font-courier text-[11px] text-[#fde8e0]/95">
+          {it.tripTitle || it.summary}
+        </p>
+      </div>
+    </motion.button>
+  );
+}
 
 type SlimLieuCard = {
   slug: string;
@@ -233,7 +281,7 @@ export default function ExploreRegionContent({
                   return (
                     <motion.div key={nom} whileTap={{ scale: 0.98 }}>
                       <Link
-                        href={`/ville/${slug}?from=inspiration`}
+                        href={`/inspirer/ville/${slug}?from=inspiration`}
                         className={`group block overflow-hidden rounded-2xl ${INSPI_SURFACE_CARD} ring-1 ring-[#f5c4b8]/25`}
                       >
                         <div className="relative aspect-[16/11] w-full bg-[#3d3430]">
@@ -242,6 +290,8 @@ export default function ExploreRegionContent({
                             ville={nom}
                             alt={nom}
                             className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-[1.04]"
+                            photoCuration
+                            curationTitle={nom}
                           />
                           <div className="absolute inset-0 bg-gradient-to-t from-black/65 to-transparent" />
                           <span className="absolute bottom-2 left-2 right-2 font-courier text-[11px] font-bold uppercase tracking-wide text-white drop-shadow">
@@ -292,7 +342,7 @@ export default function ExploreRegionContent({
                   {lieuxRestants.map((l) => (
                     <motion.div key={l.slug} whileTap={{ scale: 0.98 }} className="w-[158px] shrink-0">
                       <Link
-                        href={`/ville/${l.slug}?from=inspiration`}
+                        href={`/inspirer/ville/${l.slug}?from=inspiration`}
                         className={`group block overflow-hidden rounded-xl ${INSPI_SURFACE_CARD}`}
                       >
                         <div className="relative h-[104px] w-full bg-[#3d3430]">
@@ -301,6 +351,9 @@ export default function ExploreRegionContent({
                             ville={l.nom}
                             alt={l.nom}
                             className="absolute inset-0 h-full w-full object-cover transition group-hover:scale-[1.04]"
+                            photoCuration
+                            curationCompact
+                            curationTitle={l.nom}
                           />
                           <div className="absolute inset-0 bg-gradient-to-t from-black/55 to-transparent" />
                           <span className="absolute bottom-1.5 left-2 right-2 line-clamp-2 font-courier text-[10px] font-bold text-white">
@@ -340,35 +393,12 @@ export default function ExploreRegionContent({
             {editorialPreview.length > 0 && (
               <div className="grid gap-3 sm:grid-cols-2">
                 {editorialPreview.map((it) => (
-                  <motion.button
+                  <StarThemePreviewCard
                     key={it.itinerarySlug}
-                    type="button"
-                    whileTap={{ scale: 0.98 }}
-                    onClick={onOpenStars}
-                    className={`overflow-hidden rounded-2xl text-left ${INSPI_SURFACE_CARD}`}
-                  >
-                    <div className="relative h-[100px] w-full bg-[#3d3430]">
-                      <Image
-                        src={themeCardImageUrl(it.themeTitle)}
-                        alt=""
-                        fill
-                        className="object-cover"
-                        sizes="200px"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
-                      <span className="absolute bottom-2 left-2 right-2 font-courier text-[11px] font-bold leading-tight text-white drop-shadow">
-                        {it.themeTitle}
-                      </span>
-                    </div>
-                    <div className="px-3 py-2">
-                      <p className={`font-courier text-[10px] uppercase tracking-wide ${INSPI_TEXT_MUTED}`}>
-                        {it.durationHint}
-                      </p>
-                      <p className="mt-1 line-clamp-2 font-courier text-[11px] text-[#fde8e0]/95">
-                        {it.tripTitle || it.summary}
-                      </p>
-                    </div>
-                  </motion.button>
+                    it={it}
+                    onOpenStars={onOpenStars}
+                    cardClass={INSPI_SURFACE_CARD}
+                  />
                 ))}
               </div>
             )}

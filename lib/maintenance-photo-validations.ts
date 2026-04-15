@@ -69,6 +69,13 @@ export function listValidatedPhotos(entry: PhotoValidationEntry | undefined): Va
   return [];
 }
 
+export function isUrlValidatedForSlug(slug: string, url: string): boolean {
+  const key = slug.trim().toLowerCase();
+  const entry = getValidationForSlug(key);
+  const list = listValidatedPhotos(entry);
+  return list.some((p) => p.url === url);
+}
+
 /** Ajoute une photo validée sans retirer les précédentes (déduplication par URL). */
 export function appendValidatedPhoto(slug: string, photo: CommonsPhoto, searchQuery: string) {
   const all = ensureRead();

@@ -146,19 +146,19 @@ function InspirationMobileChrome() {
     <>
       {searchOpen && (
         <div className="fixed inset-x-0 top-[calc(env(safe-area-inset-top)+3.25rem)] z-[60] flex justify-center px-3 lg:hidden">
-          <div className="flex w-full max-w-md items-center gap-2 rounded-2xl border border-[#A55734]/20 bg-white/95 px-3 py-2 shadow-lg backdrop-blur-md">
-            <Search className="h-4 w-4 shrink-0 text-[#A55734]/60" aria-hidden />
+          <div className="flex w-full max-w-md items-center gap-2 rounded-2xl border border-[#E07856]/20 bg-white/95 px-3 py-2 shadow-lg backdrop-blur-md">
+            <Search className="h-4 w-4 shrink-0 text-[#E07856]/60" aria-hidden />
             <input
               type="search"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder="Région…"
-              className="min-w-0 flex-1 bg-transparent font-courier text-sm text-[#333] outline-none placeholder:text-[#333]/45"
+              className="min-w-0 flex-1 bg-transparent font-courier text-sm text-[#2a211c] outline-none placeholder:text-[#2a211c]/45"
               autoFocus
             />
             <button
               type="button"
-              className="shrink-0 font-courier text-xs font-bold text-[#A55734]"
+              className="shrink-0 font-courier text-xs font-bold text-[#E07856]"
               onClick={() => setSearchOpen(false)}
             >
               OK
@@ -178,37 +178,37 @@ function InspirationMobileChrome() {
         />
       )}
       {menuOpen && (
-        <div className="fixed inset-x-3 top-[calc(env(safe-area-inset-top)+3.25rem)] z-[58] max-h-[70vh] overflow-y-auto rounded-2xl border border-[#A55734]/15 bg-[#FFFBF8] p-4 shadow-xl lg:hidden">
-          <p className="font-courier text-sm font-bold text-[#A55734]">Sur la carte France</p>
-          <p className="mt-1 font-courier text-[11px] text-[#333]/65">
+        <div className="fixed inset-x-3 top-[calc(env(safe-area-inset-top)+3.25rem)] z-[58] max-h-[70vh] overflow-y-auto rounded-2xl border border-[#E07856]/15 bg-[#111111] p-4 shadow-xl lg:hidden">
+          <p className="font-courier text-sm font-bold text-[#E07856]">Sur la carte France</p>
+          <p className="mt-1 font-courier text-[11px] text-white/65">
             Recherche, filtres d’ambiance, et pistes sauvegardées.
           </p>
-          <div className="mt-4 space-y-3 border-t border-[#A55734]/10 pt-4">
+          <div className="mt-4 space-y-3 border-t border-[#E07856]/10 pt-4">
             <button
               type="button"
-              className="flex w-full items-center gap-2 rounded-xl border border-[#A55734]/15 bg-white px-3 py-2.5 font-courier text-sm font-bold text-[#333] shadow-sm"
+              className="flex w-full items-center gap-2 rounded-xl border border-[#E07856]/15 bg-white px-3 py-2.5 font-courier text-sm font-bold text-[#2a211c] shadow-sm"
               onClick={() => {
                 setSearchOpen(true);
                 setMenuOpen(false);
               }}
             >
-              <Search className="h-4 w-4 text-[#A55734]" />
+              <Search className="h-4 w-4 text-[#E07856]" />
               Recherche régions
             </button>
             <button
               type="button"
-              className="flex w-full items-center gap-2 rounded-xl border border-[#A55734]/15 bg-white px-3 py-2.5 font-courier text-sm font-bold text-[#333] shadow-sm"
+              className="flex w-full items-center gap-2 rounded-xl border border-[#E07856]/15 bg-white px-3 py-2.5 font-courier text-sm font-bold text-[#2a211c] shadow-sm"
               onClick={() => {
                 setFilterSheetOpen(true);
                 setMenuOpen(false);
               }}
             >
-              <Filter className="h-4 w-4 text-[#A55734]" />
+              <Filter className="h-4 w-4 text-[#E07856]" />
               Filtres ambiance & durée
             </button>
             <Link
               href="/planifier/favoris"
-              className="flex items-center gap-2 rounded-xl border border-[#E07856]/35 bg-gradient-to-r from-[#FFF8F0] to-[#FAF4F0] px-3 py-2.5 font-courier text-sm font-bold text-[#A55734] shadow-sm"
+              className="flex items-center gap-2 rounded-xl border border-[#E07856]/35 bg-gradient-to-r from-[#141414] to-[#111111] px-3 py-2.5 font-courier text-sm font-bold text-[#E07856] shadow-sm"
               onClick={() => setMenuOpen(false)}
             >
               <Bookmark className="h-4 w-4 shrink-0" />
@@ -224,7 +224,7 @@ function InspirationMobileChrome() {
           className={`pointer-events-auto flex h-12 w-12 items-center justify-center rounded-full border shadow-md backdrop-blur-sm ${
             menuOpen || filterSheetOpen || searchOpen
               ? "border-[#E07856] bg-[#E07856] text-white"
-              : "border-[#A55734]/25 bg-white/95 text-[#A55734]"
+              : "border-[#E07856]/25 bg-white/95 text-[#E07856]"
           }`}
           aria-label="Menu inspiration — recherche, filtres, mes envies"
           aria-expanded={menuOpen}
@@ -233,8 +233,8 @@ function InspirationMobileChrome() {
         </button>
       </div>
       {filterSheetOpen && (
-        <div className="fixed inset-x-0 bottom-0 z-[55] max-h-[55vh] overflow-y-auto rounded-t-2xl border border-[#A55734]/15 bg-[#FFFBF8] px-4 pb-[max(1rem,env(safe-area-inset-bottom))] pt-3 shadow-[0_-8px_32px_rgba(0,0,0,0.12)] lg:hidden">
-          <p className="font-courier text-[10px] font-bold uppercase tracking-wide text-[#A55734]">
+        <div className="fixed inset-x-0 bottom-0 z-[55] max-h-[55vh] overflow-y-auto rounded-t-2xl border border-[#E07856]/15 bg-[#111111] px-4 pb-[max(1rem,env(safe-area-inset-bottom))] pt-3 shadow-[0_-8px_32px_rgba(0,0,0,0.12)] lg:hidden">
+          <p className="font-courier text-[10px] font-bold uppercase tracking-wide text-[#E07856]">
             Ambiances
           </p>
           <div className="mt-2 flex flex-wrap gap-1.5">
@@ -246,14 +246,14 @@ function InspirationMobileChrome() {
                 className={`rounded-full border px-2.5 py-1 font-courier text-[11px] font-bold transition ${
                   ambiance.includes(o.id)
                     ? "border-[#E07856] bg-[#E07856] text-white"
-                    : "border-[#E07856]/35 bg-white text-[#333]"
+                    : "border-[#E07856]/35 bg-white text-[#2a211c]"
                 }`}
               >
                 {o.label}
               </button>
             ))}
           </div>
-          <p className="mt-3 font-courier text-[10px] font-bold uppercase tracking-wide text-[#A55734]">
+          <p className="mt-3 font-courier text-[10px] font-bold uppercase tracking-wide text-[#E07856]">
             Durée
           </p>
           <select
@@ -261,7 +261,7 @@ function InspirationMobileChrome() {
             onChange={(e) =>
               setDuration((e.target.value || null) as InspirationDurationFilter | null)
             }
-            className="mt-2 w-full max-w-xs rounded-lg border border-[#A55734]/25 bg-white px-3 py-2 font-courier text-xs text-[#333]"
+            className="mt-2 w-full max-w-xs rounded-lg border border-[#E07856]/25 bg-white px-3 py-2 font-courier text-xs text-[#2a211c]"
           >
             <option value="">Toutes</option>
             {DURATION_OPTIONS.map((o) => (
@@ -671,7 +671,7 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
 
   if (!mapboxAccessToken) {
     return (
-      <p className="rounded-lg border border-amber-200 bg-amber-50 p-4 font-courier text-sm text-[#333]">
+      <p className="rounded-lg border border-amber-200 bg-amber-50 p-4 font-courier text-sm text-[#2a211c]">
         Configure <code className="rounded bg-white px-1">NEXT_PUBLIC_MAPBOX_TOKEN</code> pour la
         carte.
       </p>
@@ -735,7 +735,7 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
               <button
                 type="button"
                 onClick={closeRegionMapFullscreen}
-                className="pointer-events-auto inline-flex items-center gap-2 rounded-full border border-[#A55734]/25 bg-white/95 px-4 py-2.5 font-courier text-sm font-bold text-[#A55734] shadow-lg backdrop-blur-md"
+                className="pointer-events-auto inline-flex items-center gap-2 rounded-full border border-[#E07856]/25 bg-white/95 px-4 py-2.5 font-courier text-sm font-bold text-[#E07856] shadow-lg backdrop-blur-md"
               >
                 ← Retour à la fiche
               </button>
@@ -745,7 +745,7 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
           {top.screen === "france" && (
             <>
               <div className="pointer-events-none absolute left-0 right-0 top-2 z-10 hidden justify-center px-3 lg:flex">
-                <p className="max-w-md rounded-full border border-[#A55734]/15 bg-white/95 px-3 py-1.5 text-center font-courier text-[10px] leading-snug text-[#333]/85 shadow-sm backdrop-blur-sm">
+                <p className="max-w-md rounded-full border border-[#E07856]/15 bg-white/95 px-3 py-1.5 text-center font-courier text-[10px] leading-snug text-[#2a211c]/85 shadow-sm backdrop-blur-sm">
                   Vue France — touche une région sur la carte ou fais défiler les cartes en bas
                 </p>
               </div>

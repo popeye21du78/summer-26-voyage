@@ -125,10 +125,10 @@ export default function VoyageStepsMap({
   if (!mapboxAccessToken) {
     return (
       <div
-        className={`flex items-center justify-center rounded-lg border border-[#A55734]/30 bg-[#FFF2EB]/30 ${fillHeight ? "h-full min-h-[120px]" : ""}`}
+        className={`flex items-center justify-center rounded-lg border border-[#E07856]/30 bg-[#141414]/30 ${fillHeight ? "h-full min-h-[120px]" : ""}`}
         style={fillHeight ? { minHeight: 120 } : sizeStyle}
       >
-        <p className="text-sm text-[#333333]/70">Token Mapbox requis</p>
+        <p className="text-sm text-white/70">Token Mapbox requis</p>
       </div>
     );
   }
@@ -163,7 +163,7 @@ export default function VoyageStepsMap({
                   roundedClassName="rounded-none"
                 />
               </div>
-              <div className="mt-1 max-w-[min(140px,28vw)] truncate rounded-full bg-white/95 px-2.5 py-0.5 text-center text-[10px] font-bold tracking-wide text-[#333333] shadow-md backdrop-blur-sm">
+              <div className="mt-1 max-w-[min(140px,28vw)] truncate rounded-full bg-white/95 px-2.5 py-0.5 text-center text-[10px] font-bold tracking-wide text-neutral-800 shadow-md backdrop-blur-sm">
                 {step.nom}
               </div>
             </div>
@@ -179,7 +179,7 @@ export default function VoyageStepsMap({
           markerChild = (
             <Link
               href={villeHref(step.id, voyageReturnSlug)}
-              className="block rounded-full border-2 border-white bg-[#A55734] p-1.5 shadow-md transition hover:scale-110"
+              className="block rounded-full border-2 border-white bg-[#E07856] p-1.5 shadow-md transition hover:scale-110"
               style={{ width: 24, height: 24 }}
               title={step.nom}
             >
@@ -189,7 +189,7 @@ export default function VoyageStepsMap({
         } else {
           markerChild = (
             <div
-              className="rounded-full border-2 border-white bg-[#A55734] shadow-md"
+              className="rounded-full border-2 border-white bg-[#E07856] shadow-md"
               style={{ width: 14, height: 14 }}
               title={step.nom}
             />
@@ -219,14 +219,14 @@ export default function VoyageStepsMap({
         <div className="absolute inset-0">{inner}</div>
         {/* Fondu beige en haut : transition propre vers le bandeau / titre */}
         <div
-          className="pointer-events-none absolute inset-x-0 top-0 z-10 h-20 bg-gradient-to-b from-[#FAF4F0] via-[#FAF4F0]/75 to-transparent md:h-24"
+          className="pointer-events-none absolute inset-x-0 top-0 z-10 h-20 bg-gradient-to-b from-[#111111] via-[#111111]/75 to-transparent md:h-24"
           aria-hidden
         />
         {showRecenter && (
           <button
             type="button"
             onClick={fitToSteps}
-            className="absolute bottom-3 right-3 z-20 flex items-center gap-1.5 rounded-full border border-[#E07856]/40 bg-[#FFFBF7]/95 px-3 py-1.5 text-xs font-bold text-[#A55734] shadow-lg backdrop-blur-sm transition hover:bg-[#FFF2EB] md:bottom-14 md:py-2"
+            className="absolute bottom-3 right-3 z-20 flex items-center gap-1.5 rounded-full border border-[#E07856]/40 bg-[#111111]/95 px-3 py-1.5 text-xs font-bold text-[#E07856] shadow-lg backdrop-blur-sm transition hover:bg-[#141414] md:bottom-14 md:py-2"
             aria-label="Recentrer la carte sur l’itinéraire"
           >
             <Crosshair className="h-4 w-4" />
@@ -235,7 +235,7 @@ export default function VoyageStepsMap({
         )}
         {!hideBottomGradient && (
           <div
-            className="pointer-events-none absolute inset-x-0 bottom-0 z-10 h-32 bg-gradient-to-t from-[#FAF4F0] via-[#FAF4F0]/92 to-transparent md:h-40"
+            className="pointer-events-none absolute inset-x-0 bottom-0 z-10 h-32 bg-gradient-to-t from-[#111111] via-[#111111]/92 to-transparent md:h-40"
             aria-hidden
           />
         )}
@@ -246,7 +246,7 @@ export default function VoyageStepsMap({
   if (!isPremium) {
     return (
       <div
-        className="overflow-hidden rounded-lg border border-[#A55734]/30"
+        className="overflow-hidden rounded-lg border border-[#E07856]/30"
         style={{ height }}
       >
         {inner}
@@ -261,19 +261,19 @@ export default function VoyageStepsMap({
     >
       <div className="absolute inset-0">{inner}</div>
       <div
-        className="pointer-events-none absolute inset-x-0 top-0 h-24 bg-gradient-to-b from-[#FFF8F0] via-[#FFF8F0]/40 to-transparent"
+        className="pointer-events-none absolute inset-x-0 top-0 h-24 bg-gradient-to-b from-[#141414] via-[#141414]/40 to-transparent"
         aria-hidden
       />
       <div
-        className="pointer-events-none absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-[#FFF8F0]/95 via-[#FFF8F0]/50 to-transparent"
+        className="pointer-events-none absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-[#141414]/95 via-[#141414]/50 to-transparent"
         aria-hidden
       />
       <div
-        className="pointer-events-none absolute inset-y-0 left-0 w-12 bg-gradient-to-r from-[#FFF8F0]/80 to-transparent"
+        className="pointer-events-none absolute inset-y-0 left-0 w-12 bg-gradient-to-r from-[#141414]/80 to-transparent"
         aria-hidden
       />
       <div
-        className="pointer-events-none absolute inset-y-0 right-0 w-12 bg-gradient-to-l from-[#FFF8F0]/80 to-transparent"
+        className="pointer-events-none absolute inset-y-0 right-0 w-12 bg-gradient-to-l from-[#141414]/80 to-transparent"
         aria-hidden
       />
     </div>

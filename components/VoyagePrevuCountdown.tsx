@@ -143,7 +143,7 @@ export default function VoyagePrevuCountdown({
         </div>
 
         <Link
-          href={`/voyage/${voyage.id}/prevu`}
+          href={`/mon-espace/voyage/${voyage.id}`}
           className="mb-4 w-full max-w-md rounded-2xl bg-gradient-to-r from-[#E07856] to-[#c94a4a] py-3.5 text-center font-courier text-sm font-bold text-white shadow-lg"
         >
           Ouvrir le carnet prévu
@@ -158,7 +158,7 @@ export default function VoyagePrevuCountdown({
               {suitePrevus.map((v) => (
                 <li key={v.id}>
                   <Link
-                    href={`/voyage/${v.id}/prevu`}
+                    href={`/mon-espace/voyage/${v.id}`}
                     className="flex items-center justify-between rounded-lg border border-white/20 bg-white/10 px-3 py-2 font-courier text-sm font-bold text-white"
                   >
                     <span className="truncate">{v.titre}</span>

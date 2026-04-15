@@ -1,25 +1,29 @@
 "use client";
 
-import { useEffect, useState, useCallback } from "react";
+import { useEffect, useState, useCallback, useRef } from "react";
 import { slugForLieuPhoto } from "@/lib/slug-for-lieu-photo";
-
-/** Optimise les URLs Unsplash pour une meilleure netteté (Retina). */
-function sharpenUnsplashUrl(url: string): string {
-  if (!url.includes("images.unsplash.com")) return url;
-  const sep = url.includes("?") ? "&" : "?";
-  return `${url}${sep}w=1200&q=85`;
-}
+import { sharpenUnsplashUrl } from "@/lib/photo-display-url";
+import { PhotoCurationOverlay } from "@/components/PhotoCurationOverlay";
 
 interface CityPhotoProps {
   stepId: string;
   ville: string;
-  /** Photo immédiate si déjà en cache (contenu_voyage.photos[0]) */
   initialUrl?: string | null;
   alt: string;
   className?: string;
-  /** Afficher le bouton "Changer de photo" (page ville uniquement, pas dans le popup) */
   showChangeButton?: boolean;
+  /** Barre Valider / Autre + enregistrement dans photo-validations.json */
+  photoCuration?: boolean;
+  curationTitle?: string;
+  curationCompact?: boolean;
 }
+
+type RemoteJson = {
+  url?: string;
+  total?: number;
+  totalWikipedia?: number;
+  source?: string;
+};
 
 export function CityPhoto({
   stepId,
@@ -28,14 +32,19 @@ export function CityPhoto({
   alt,
   className = "",
   showChangeButton = false,
+  photoCuration = false,
+  curationTitle,
+  curationCompact = false,
 }: CityPhotoProps) {
   const [url, setUrl] = useState<string | null>(initialUrl ?? null);
   const [loading, setLoading] = useState(!initialUrl);
   const [error, setError] = useState(false);
-  const [totalWikipedia, setTotalWikipedia] = useState<number | null>(null);
+  const [totalAlternatives, setTotalAlternatives] = useState<number | null>(null);
   const [photoIndex, setPhotoIndex] = useState(0);
+  /** true = cycling uniquement JSON beauty/maintenance ; false = flux /api/photo-ville (Wikipedia, etc.) */
+  const fromSiteJson = useRef(false);
 
-  const fetchPhoto = useCallback(
+  const fetchPhotoVille = useCallback(
     (refresh = false, nextIndex?: number) => {
       let cancelled = false;
       setLoading(true);
@@ -55,10 +64,12 @@ export function CityPhoto({
           if (!res.ok) throw new Error("Photo non trouvée");
           return res.json();
         })
-        .then((data: { url?: string; totalWikipedia?: number }) => {
+        .then((data: RemoteJson) => {
           if (cancelled) return;
           setUrl(data.url ?? null);
-          if (data.totalWikipedia != null) setTotalWikipedia(data.totalWikipedia);
+          const tw = data.totalWikipedia;
+          if (tw != null) setTotalAlternatives(tw);
+          fromSiteJson.current = false;
         })
         .catch(() => {
           if (!cancelled) setError(true);
@@ -78,24 +89,87 @@ export function CityPhoto({
     if (initialUrl) {
       setUrl(initialUrl);
       setLoading(false);
+      fromSiteJson.current = false;
       return;
     }
-    return fetchPhoto(false);
-  }, [stepId, ville, initialUrl, fetchPhoto]);
+
+    let cancelled = false;
+    const slug = slugForLieuPhoto(stepId, ville);
+
+    setLoading(true);
+    setError(false);
+
+    fetch(
+      `/api/photo-resolve?slug=${encodeURIComponent(slug)}&stepId=${encodeURIComponent(stepId)}&photoIndex=0`
+    )
+      .then((r) => (r.ok ? r.json() : null))
+      .then((data: RemoteJson) => {
+        if (cancelled) return;
+        if (data?.url) {
+          setUrl(data.url);
+          setTotalAlternatives(data.total ?? 1);
+          fromSiteJson.current = true;
+          setPhotoIndex(0);
+          setLoading(false);
+          return;
+        }
+        fetchPhotoVille(false);
+      })
+      .catch(() => {
+        if (!cancelled) fetchPhotoVille(false);
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [stepId, ville, initialUrl, fetchPhotoVille]);
 
   const handleChangePhoto = () => {
+    const slug = slugForLieuPhoto(stepId, ville);
+    const total = totalAlternatives ?? 0;
+
+    if (fromSiteJson.current && total > 1) {
+      const next = (photoIndex + 1) % total;
+      setPhotoIndex(next);
+      setLoading(true);
+      fetch(
+        `/api/photo-resolve?slug=${encodeURIComponent(slug)}&stepId=${encodeURIComponent(stepId)}&photoIndex=${next}`
+      )
+        .then((r) => (r.ok ? r.json() : null))
+        .then((data: RemoteJson) => {
+          if (data?.url) {
+            setUrl(data.url);
+            setLoading(false);
+          } else {
+            fromSiteJson.current = false;
+            fetchPhotoVille(true, 0);
+          }
+        })
+        .catch(() => {
+          fromSiteJson.current = false;
+          fetchPhotoVille(true, 0);
+        });
+      return;
+    }
+
+    if (fromSiteJson.current && total <= 1) {
+      fromSiteJson.current = false;
+      fetchPhotoVille(true, 0);
+      return;
+    }
+
     const next =
-      totalWikipedia != null && totalWikipedia > 0
-        ? (photoIndex + 1) % totalWikipedia
+      totalAlternatives != null && totalAlternatives > 0
+        ? (photoIndex + 1) % totalAlternatives
         : undefined;
     if (next !== undefined) setPhotoIndex(next);
-    fetchPhoto(true, next);
+    fetchPhotoVille(true, next);
   };
 
   if (loading) {
     return (
       <div
-        className={`flex flex-col items-center justify-center bg-[#E8E4DF] ${className}`}
+        className={`flex flex-col items-center justify-center bg-[#1c1c1c] ${className}`}
         aria-hidden
       >
         <span className="voyage-loading-text text-sm sm:text-base">voyage voyage</span>
@@ -106,7 +180,7 @@ export function CityPhoto({
   if (error || !url) {
     return (
       <div
-        className={`flex flex-col items-center justify-center gap-2 bg-[#E8E4DF] text-[#333333]/50 text-sm ${className}`}
+        className={`flex flex-col items-center justify-center gap-2 bg-[#1c1c1c] text-white/30 text-sm ${className}`}
         style={{ minHeight: 120 }}
       >
         <span>Pas de photo disponible</span>
@@ -114,20 +188,34 @@ export function CityPhoto({
     );
   }
 
+  const curationSlug = slugForLieuPhoto(stepId, ville);
+  const displayUrl = sharpenUnsplashUrl(url);
+
   return (
-    <div className={className || undefined}>
+    <div
+      className={`${photoCuration ? "relative " : ""}${className}`.trim() || undefined}
+    >
       <img
-        src={sharpenUnsplashUrl(url)}
+        src={displayUrl}
         alt={alt}
-        className="h-full w-full object-cover"
+        className="photo-bw-reveal h-full w-full object-cover"
         loading="lazy"
         sizes="(max-width: 768px) 100vw, 800px"
       />
+      {photoCuration && (
+        <PhotoCurationOverlay
+          slug={curationSlug}
+          imageUrl={url}
+          title={curationTitle ?? ville}
+          onOther={handleChangePhoto}
+          compact={curationCompact}
+        />
+      )}
       {showChangeButton && (
         <button
           type="button"
           onClick={handleChangePhoto}
-          className="absolute bottom-2 right-2 z-10 rounded bg-[#A55734]/90 px-2 py-1 text-[10px] font-medium text-white transition-colors hover:bg-[#8b4728]"
+          className="absolute bottom-2 right-2 z-10 rounded-lg bg-black/60 px-2.5 py-1 font-courier text-[10px] font-bold text-[#E07856] backdrop-blur-sm transition hover:bg-black/80"
         >
           Changer de photo
         </button>

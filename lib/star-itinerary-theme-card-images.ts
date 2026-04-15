@@ -14,9 +14,16 @@ const POOL = [
 ];
 
 export function themeCardImageUrl(themeTitle: string): string {
+  return themeCardImageByOffset(themeTitle, 0);
+}
+
+/** Même visuel de base que `themeCardImageUrl`, puis décalage dans le pool (bouton « Autre »). */
+export function themeCardImageByOffset(themeTitle: string, offset: number): string {
   let h = 0;
   for (let i = 0; i < themeTitle.length; i++) {
     h = (h * 31 + themeTitle.charCodeAt(i)) | 0;
   }
-  return POOL[Math.abs(h) % POOL.length];
+  const base = Math.abs(h) % POOL.length;
+  const idx = ((base + offset) % POOL.length + POOL.length) % POOL.length;
+  return POOL[idx]!;
 }
