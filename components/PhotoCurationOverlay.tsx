@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { Check } from "lucide-react";
 import { minimalCommonsPhoto } from "@/lib/photo-curation-commons";
 import { sharpenUnsplashUrl } from "@/lib/photo-display-url";
@@ -28,6 +28,13 @@ export function PhotoCurationOverlay({
   const [validated, setValidated] = useState(false);
   const [loading, setLoading] = useState(true);
   const [posting, setPosting] = useState(false);
+  /** Évite qu’un GET lent écrase le check après un POST réussi (surtout sur mobile). */
+  const validatedThisPhotoRef = useRef(false);
+
+  useEffect(() => {
+    validatedThisPhotoRef.current = false;
+    setValidated(false);
+  }, [normSlug, displayUrl]);
 
   useEffect(() => {
     if (!normSlug || !imageUrl) {
@@ -41,7 +48,9 @@ export function PhotoCurationOverlay({
     )
       .then((r) => (r.ok ? r.json() : {}))
       .then((d: { validated?: boolean }) => {
-        if (!cancelled) setValidated(!!d.validated);
+        if (!cancelled) {
+          setValidated(validatedThisPhotoRef.current || !!d.validated);
+        }
       })
       .catch(() => {})
       .finally(() => {
@@ -56,8 +65,10 @@ export function PhotoCurationOverlay({
     async (e: React.MouseEvent) => {
       e.stopPropagation();
       e.preventDefault();
-      if (validated || posting || loading) return;
+      if (validated || posting) return;
       setPosting(true);
+      validatedThisPhotoRef.current = true;
+      setValidated(true);
       try {
         const photo = minimalCommonsPhoto(displayUrl, title);
         const res = await fetch("/api/maintenance/photo-validation", {
@@ -70,12 +81,18 @@ export function PhotoCurationOverlay({
             searchQuery: "",
           }),
         });
-        if (res.ok) setValidated(true);
+        if (!res.ok) {
+          validatedThisPhotoRef.current = false;
+          setValidated(false);
+        }
+      } catch {
+        validatedThisPhotoRef.current = false;
+        setValidated(false);
       } finally {
         setPosting(false);
       }
     },
-    [displayUrl, loading, normSlug, posting, title, validated]
+    [displayUrl, normSlug, posting, title, validated]
   );
 
   const handleOther = useCallback(
@@ -114,7 +131,7 @@ export function PhotoCurationOverlay({
         >
           <button
             type="button"
-            disabled={posting || loading}
+            disabled={posting}
             onClick={handleValidate}
             className={`flex-1 rounded-md bg-[#E07856] font-courier font-bold text-white transition hover:brightness-110 disabled:opacity-40 ${
               compact ? "py-0.5 text-[8px]" : "py-1 text-[10px]"

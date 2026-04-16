@@ -10,5 +10,6 @@ export async function GET(req: NextRequest) {
   if (!slug || !url) {
     return NextResponse.json({ error: "slug et url requis" }, { status: 400 });
   }
-  return NextResponse.json({ validated: isUrlValidatedForSlug(slug, url) });
+  const validated = await isUrlValidatedForSlug(slug, url);
+  return NextResponse.json({ validated });
 }

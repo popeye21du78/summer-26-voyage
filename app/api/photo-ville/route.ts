@@ -48,7 +48,7 @@ export async function GET(req: NextRequest) {
 
   /** Beauty 200 + photo-validations (JSON uniquement) — même logique que /api/photo-resolve. */
   const idxStatic = refresh && photoIndex !== undefined ? photoIndex : 0;
-  const staticPick = getPublicPhotoPick(slug, stepId, idxStatic);
+  const staticPick = await getPublicPhotoPick(slug, stepId, idxStatic);
   if (staticPick) {
     await updateItineraryPhotoUrl(stepId, staticPick.url);
     return Response.json({

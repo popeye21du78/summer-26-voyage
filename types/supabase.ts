@@ -129,6 +129,24 @@ export interface Database {
         };
         Relationships: [];
       };
+      photo_validations: {
+        Row: {
+          slug: string;
+          entry: Json;
+          updated_at: string;
+        };
+        Insert: {
+          slug: string;
+          entry: Json;
+          updated_at?: string;
+        };
+        Update: {
+          slug?: string;
+          entry?: Json;
+          updated_at?: string;
+        };
+        Relationships: [];
+      };
     };
     Views: Record<string, never>;
     Functions: Record<string, never>;

@@ -13,14 +13,13 @@ export type PublicPhotoPick = {
 };
 
 /**
- * Photos déjà « sur le site » : beauty-200 puis photo-validations.json (même ordre que /api/photo-ville).
- * Aucun appel réseau externe — lecture fichiers JSON uniquement.
+ * Photos déjà « sur le site » : beauty-200 puis validations (fichier + Supabase).
  */
-export function getPublicPhotoPick(
+export async function getPublicPhotoPick(
   slug: string,
   stepId: string | undefined,
   photoIndex: number
-): PublicPhotoPick | null {
+): Promise<PublicPhotoPick | null> {
   const norm = (s: string) => s.trim().toLowerCase();
 
   function beautyFor(key: string) {
@@ -42,8 +41,8 @@ export function getPublicPhotoPick(
   }
 
   const entry =
-    getValidationForSlug(slugKey) ??
-    (stepId ? getValidationForSlug(norm(stepId)) : undefined);
+    (await getValidationForSlug(slugKey)) ??
+    (stepId ? await getValidationForSlug(norm(stepId)) : undefined);
   const m = listValidatedPhotos(entry);
   if (m.length > 0) {
     const i = ((photoIndex % m.length) + m.length) % m.length;

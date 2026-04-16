@@ -21,7 +21,7 @@ export async function GET(req: NextRequest) {
     );
   }
 
-  const pick = getPublicPhotoPick(slug || stepId, stepId || undefined, photoIndex);
+  const pick = await getPublicPhotoPick(slug || stepId, stepId || undefined, photoIndex);
   if (!pick) {
     return Response.json({ url: null, total: 0, source: null });
   }

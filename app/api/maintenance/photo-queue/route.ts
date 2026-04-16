@@ -5,7 +5,7 @@ import { getPhotoValidations, listValidatedPhotos } from "@/lib/maintenance-phot
 export async function GET() {
   try {
     const items = loadMaintenancePhotoQueue();
-    const validations = getPhotoValidations();
+    const validations = await getPhotoValidations();
     const enriched = items.map((row) => {
       const v = validations[row.slug];
       const validatedList = v?.status === "validated" ? listValidatedPhotos(v) : [];

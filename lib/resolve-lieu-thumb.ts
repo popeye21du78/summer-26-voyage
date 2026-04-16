@@ -37,7 +37,7 @@ export async function resolveLieuThumb(
   const lieuRow = getLieuBySlug(slug);
   const departement = lieuRow?.departement?.trim() || undefined;
 
-  const sitePick = getPublicPhotoPick(slug, slug, 0);
+  const sitePick = await getPublicPhotoPick(slug, slug, 0);
   if (sitePick) {
     return {
       url: sitePick.url,

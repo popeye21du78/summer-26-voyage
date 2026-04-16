@@ -26,7 +26,7 @@ export async function POST(request: NextRequest) {
       if (!body.photo?.url) {
         return NextResponse.json({ error: "photo requise" }, { status: 400 });
       }
-      appendValidatedPhoto(slug, body.photo, body.searchQuery ?? "");
+      await appendValidatedPhoto(slug, body.photo, body.searchQuery ?? "");
       return NextResponse.json({ ok: true });
     }
 
@@ -35,7 +35,7 @@ export async function POST(request: NextRequest) {
       if (!url) {
         return NextResponse.json({ error: "photo.url requis" }, { status: 400 });
       }
-      const ok = removeValidatedPhoto(slug, url);
+      const ok = await removeValidatedPhoto(slug, url);
       if (!ok) {
         return NextResponse.json({ error: "Photo introuvable dans les validations" }, { status: 404 });
       }
@@ -44,12 +44,12 @@ export async function POST(request: NextRequest) {
 
     if (body.action === "reject_batch") {
       const off = typeof body.offset === "number" ? body.offset : 0;
-      recordRejectedBatch(slug, off, body.searchQuery ?? "");
+      await recordRejectedBatch(slug, off, body.searchQuery ?? "");
       return NextResponse.json({ ok: true });
     }
 
     if (body.action === "skip") {
-      markSkipped(slug);
+      await markSkipped(slug);
       return NextResponse.json({ ok: true });
     }
 
