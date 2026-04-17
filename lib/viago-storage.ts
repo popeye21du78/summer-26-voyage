@@ -1,6 +1,7 @@
 /**
- * Stockage local du contenu Viago par étape (phase simulation).
- * Clé : viago_{voyageId}_{stepId}
+ * Stockage local du contenu Viago par étape (phase simulation, pas de serveur).
+ * Clé avec scope (propriétaire du contenu) : viago_{scope}_{voyageId}_{stepId}
+ * Legacy sans scope : viago_{voyageId}_{stepId} (toujours relu en secours).
  */
 
 export type ViagoPhotoTextPosition = "below" | "overlay-bottom" | "overlay-top";
@@ -151,18 +152,18 @@ export function defaultOverlayFromPosition(
   }
 }
 
-export function getViagoStorageKey(voyageId: string, stepId: string): string {
+export function getViagoStorageKey(
+  voyageId: string,
+  stepId: string,
+  storageScope?: string | null
+): string {
+  if (storageScope) return `${PREFIX}${storageScope}_${voyageId}_${stepId}`;
   return `${PREFIX}${voyageId}_${stepId}`;
 }
 
-export function getViagoStepContent(
-  voyageId: string,
-  stepId: string
-): ViagoStepContent | null {
-  if (typeof window === "undefined") return null;
+function parseViagoJson(raw: string | null): ViagoStepContent | null {
+  if (!raw) return null;
   try {
-    const raw = window.localStorage.getItem(getViagoStorageKey(voyageId, stepId));
-    if (!raw) return null;
     const parsed = JSON.parse(raw);
     return {
       anecdote: typeof parsed.anecdote === "string" ? parsed.anecdote : "",
@@ -186,13 +187,35 @@ export function getViagoStepContent(
   }
 }
 
+/**
+ * @param storageScope — id profil propriétaire du contenu (ex. owner du voyage ou utilisateur courant).
+ *   Sans scope : lecture/écriture sur la clé legacy uniquement.
+ */
+export function getViagoStepContent(
+  voyageId: string,
+  stepId: string,
+  storageScope?: string | null
+): ViagoStepContent | null {
+  if (typeof window === "undefined") return null;
+  if (storageScope) {
+    const scoped = parseViagoJson(
+      window.localStorage.getItem(getViagoStorageKey(voyageId, stepId, storageScope))
+    );
+    if (scoped) return scoped;
+  }
+  return parseViagoJson(
+    window.localStorage.getItem(getViagoStorageKey(voyageId, stepId, null))
+  );
+}
+
 export function saveViagoStepContent(
   voyageId: string,
   stepId: string,
-  content: Partial<ViagoStepContent>
+  content: Partial<ViagoStepContent>,
+  storageScope?: string | null
 ): void {
   if (typeof window === "undefined") return;
-  const existing = getViagoStepContent(voyageId, stepId) ?? {
+  const existing = getViagoStepContent(voyageId, stepId, storageScope) ?? {
     anecdote: "",
     photos: [],
     heroPhotoUrl: undefined,
@@ -213,7 +236,7 @@ export function saveViagoStepContent(
     updatedAt: new Date().toISOString(),
   };
   window.localStorage.setItem(
-    getViagoStorageKey(voyageId, stepId),
+    getViagoStorageKey(voyageId, stepId, storageScope ?? null),
     JSON.stringify(merged)
   );
 }

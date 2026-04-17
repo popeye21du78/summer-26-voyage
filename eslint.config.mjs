@@ -12,6 +12,12 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Données massives (pas du code app) — accélère ESLint / IDE
+    "data/descriptions/**",
+    "data/batch/**",
+    "data/batch-desc/**",
+    "data/debug/**",
+    "data/geo/**",
   ]),
 ]);
 

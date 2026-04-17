@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState, useRef, type ReactNode } from "react";
+import LinkWithReturn from "@/components/LinkWithReturn";
 import { useRouter } from "next/navigation";
 import {
   Plane,
@@ -17,6 +18,12 @@ import EspaceCartePerso from "./EspaceCartePerso";
 import EspaceFavoris from "./EspaceFavoris";
 import EspaceStats from "./EspaceStats";
 import EspaceMotCreateur from "./EspaceMotCreateur";
+import {
+  MON_ESPACE_SECTION_KEY,
+  readScrollY,
+  writeScrollY,
+} from "@/lib/nav-scroll-memory";
+import { invalidateProfileIdCache } from "@/lib/me-client";
 
 const SECTIONS = [
   { id: "voyages", label: "Voyages", icon: Plane },
@@ -35,7 +42,7 @@ type Props = {
 };
 
 export default function MonEspaceShell({
-  profileId: _profileId,
+  profileId,
   profileName,
   situationLabel,
 }: Props) {
@@ -43,11 +50,13 @@ export default function MonEspaceShell({
   const [state, setState] = useState<VoyageStateResponse | null>(null);
   const [loading, setLoading] = useState(true);
   const [activeSection, setActiveSection] = useState<SectionId>("voyages");
-  const mountedRef = useRef<Set<SectionId>>(new Set(["voyages"]));
+  const [mountedSections, setMountedSections] = useState<Set<SectionId>>(
+    () => new Set<SectionId>(["voyages"])
+  );
 
-  if (!mountedRef.current.has(activeSection)) {
-    mountedRef.current.add(activeSection);
-  }
+  const panelRefs = useRef<Partial<Record<SectionId, HTMLDivElement | null>>>({});
+  const activeRef = useRef(activeSection);
+  activeRef.current = activeSection;
 
   useEffect(() => {
     fetch("/api/voyage-state")
@@ -57,8 +66,40 @@ export default function MonEspaceShell({
       .finally(() => setLoading(false));
   }, []);
 
+  useEffect(() => {
+    setMountedSections((prev) => new Set([...prev, activeSection]));
+  }, [activeSection]);
+
+  function persistScrollFor(section: SectionId) {
+    const el = panelRefs.current[section];
+    if (el) writeScrollY(MON_ESPACE_SECTION_KEY(section), el.scrollTop);
+  }
+
+  function goToSection(id: SectionId) {
+    if (id === activeRef.current) return;
+    persistScrollFor(activeRef.current);
+    setActiveSection(id);
+  }
+
+  useEffect(() => {
+    const el = panelRefs.current[activeSection];
+    const y = readScrollY(MON_ESPACE_SECTION_KEY(activeSection));
+    requestAnimationFrame(() => {
+      if (el && y != null) el.scrollTop = y;
+    });
+  }, [activeSection]);
+
+  useEffect(() => {
+    return () => {
+      const s = activeRef.current;
+      const el = panelRefs.current[s];
+      if (el) writeScrollY(MON_ESPACE_SECTION_KEY(s), el.scrollTop);
+    };
+  }, []);
+
   async function handleLogout() {
     await fetch("/api/auth/logout", { method: "POST" });
+    invalidateProfileIdCache();
     router.push("/");
     router.refresh();
   }
@@ -85,8 +126,8 @@ export default function MonEspaceShell({
                 role="tab"
                 type="button"
                 aria-selected={isActive}
-                onClick={() => setActiveSection(id)}
-                className={`flex flex-1 flex-col items-center gap-1 py-3 transition-colors ${
+                onClick={() => goToSection(id)}
+                className={`flex flex-1 flex-col items-center gap-1 py-3 transition-colors duration-150 ${
                   isActive
                     ? "border-b-2 border-[#E07856] text-[#E07856]"
                     : "text-white/35 hover:text-white/55"
@@ -102,8 +143,10 @@ export default function MonEspaceShell({
         </div>
       </div>
 
-      {/* Bandeau identité — court, lisible */}
-      <div className="flex shrink-0 items-center gap-4 border-b border-white/6 px-4 py-4">
+      <LinkWithReturn
+        href={profileId ? `/profil/${profileId}` : "/mon-espace"}
+        className="flex shrink-0 items-center gap-4 border-b border-white/6 px-4 py-4 transition hover:bg-white/[0.03]"
+      >
         <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[#E07856] to-[#c94a4a] shadow-[0_4px_16px_rgba(224,120,86,0.3)]">
           <User className="h-7 w-7 text-white" strokeWidth={1.8} />
         </div>
@@ -112,46 +155,67 @@ export default function MonEspaceShell({
             {profileName}
           </p>
           <p className="mt-0.5 font-courier text-sm text-white/45">{situationLabel}</p>
+          <p className="mt-1 font-courier text-[10px] text-[#E07856]/60">
+            Voir mon profil public
+          </p>
         </div>
         <button
           type="button"
-          onClick={handleLogout}
+          onClick={(e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            void handleLogout();
+          }}
           className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl border border-white/8 text-white/40 transition hover:border-white/15 hover:text-white/60"
           aria-label="Déconnexion"
         >
           <LogOut className="h-5 w-5" />
         </button>
-      </div>
+      </LinkWithReturn>
 
-      {/* Panneaux (montés une fois visités, comme S&apos;inspirer) */}
       <div className="relative min-h-0 flex-1 overflow-hidden">
         <TabPanel
           visible={activeSection === "voyages"}
-          mounted={mountedRef.current.has("voyages")}
+          mounted={mountedSections.has("voyages")}
+          scrollRef={(el) => {
+            panelRefs.current.voyages = el;
+          }}
         >
           <EspaceVoyages state={state} />
         </TabPanel>
         <TabPanel
           visible={activeSection === "carte"}
-          mounted={mountedRef.current.has("carte")}
+          mounted={mountedSections.has("carte")}
+          scrollRef={(el) => {
+            panelRefs.current.carte = el;
+          }}
         >
           <EspaceCartePerso state={state} />
         </TabPanel>
         <TabPanel
           visible={activeSection === "favoris"}
-          mounted={mountedRef.current.has("favoris")}
+          mounted={mountedSections.has("favoris")}
+          scrollRef={(el) => {
+            panelRefs.current.favoris = el;
+          }}
         >
           <EspaceFavoris />
         </TabPanel>
         <TabPanel
           visible={activeSection === "stats"}
-          mounted={mountedRef.current.has("stats")}
+          mounted={mountedSections.has("stats")}
+          scrollRef={(el) => {
+            panelRefs.current.stats = el;
+          }}
         >
           <EspaceStats state={state} profileName={profileName} />
         </TabPanel>
         <TabPanel
           visible={activeSection === "createur"}
-          mounted={mountedRef.current.has("createur")}
+          mounted={mountedSections.has("createur")}
+          scrollRef={(el) => {
+            panelRefs.current.createur = el;
+          }}
         >
           <EspaceMotCreateur />
         </TabPanel>
@@ -163,17 +227,20 @@ export default function MonEspaceShell({
 function TabPanel({
   visible,
   mounted,
+  scrollRef,
   children,
 }: {
   visible: boolean;
   mounted: boolean;
+  scrollRef?: (el: HTMLDivElement | null) => void;
   children: ReactNode;
 }) {
   if (!mounted) return null;
   return (
     <div
+      ref={scrollRef}
       role="tabpanel"
-      className="absolute inset-0 overflow-y-auto overflow-x-hidden"
+      className="absolute inset-0 overflow-y-auto overflow-x-hidden scroll-smooth"
       style={{ display: visible ? "block" : "none" }}
     >
       {children}

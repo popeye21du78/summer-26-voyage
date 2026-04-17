@@ -179,10 +179,7 @@ export default function ViagoVisualPhotoEditor({
       y0: yPct,
     };
     setTextSelected(true);
-    longPressRef.current = window.setTimeout(() => {
-      setAdvancedOpen(true);
-      longPressRef.current = null;
-    }, 520);
+    /* Long press n’ouvre plus le panneau « Plus » (captait les taps et bloquait Valider). Utilise le bouton Plus en haut à droite. */
   };
 
   const onPointerMoveText = (e: React.PointerEvent) => {
@@ -450,8 +447,8 @@ export default function ViagoVisualPhotoEditor({
             </button>
           </div>
 
-          {/* Barre d’actions */}
-          <div className="flex shrink-0 items-stretch justify-center gap-2 border-t border-white/10 bg-[#1a120d]/95 px-3 py-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] backdrop-blur-md">
+          {/* Barre d’actions — toujours au-dessus des overlays (Valider fiable au doigt). */}
+          <div className="relative z-[300] flex shrink-0 items-stretch justify-center gap-2 border-t border-white/10 bg-[#1a120d]/95 px-3 py-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] backdrop-blur-md">
             <button
               type="button"
               disabled={photoBusy}
@@ -531,7 +528,8 @@ export default function ViagoVisualPhotoEditor({
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
-                className="absolute inset-0 z-[245] flex items-end justify-center bg-black/50 p-3"
+                className="absolute left-0 right-0 top-0 z-[245] flex items-end justify-center bg-black/50 p-3"
+                style={{ bottom: "5.75rem" }}
                 onClick={() => setAdvancedOpen(false)}
               >
                 <motion.div

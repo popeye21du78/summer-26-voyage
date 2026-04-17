@@ -20,6 +20,8 @@ export type StarItineraryEditorialItem = {
   overnightStyle: string;
   regionId: string;
   itinerarySlug: string;
+  /** Profil éditorial « propriétaire » de l’itinéraire (Eva / Matteo / Lina). */
+  editorialProfileId?: string;
   steps: StarItineraryStepEditorial[];
   suggestedPoiAdditions: SuggestedPoiAddition[];
 };

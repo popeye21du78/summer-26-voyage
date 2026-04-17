@@ -103,6 +103,7 @@ export function lieuxToPointCollection(lieux: SlimLieuPoint[]): FeatureCollectio
       type: "Feature" as const,
       properties: {
         id: l.slug,
+        /** Nom affiché (étiquettes carte, panneau sélection). */
         name: l.nom,
         kind: "ville",
         source_type: l.source_type ?? "",

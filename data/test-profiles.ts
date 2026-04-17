@@ -18,6 +18,25 @@ export interface TestProfile {
   situationLabel: string;
 }
 
+/** Profils « voyageurs éditoriaux » (itinéraires Stars, pages publiques partagées). */
+export const EDITORIAL_PROFILES: TestProfile[] = [
+  {
+    id: "eva-viago",
+    name: "Eva Viago",
+    situationLabel: "Sélection d’itinéraires — littoral & patrimoine",
+  },
+  {
+    id: "matteo-horizons",
+    name: "Matteo Horizons",
+    situationLabel: "Montagne & villages — lignes éditoriales Viago",
+  },
+  {
+    id: "lina-routes",
+    name: "Lina Routes",
+    situationLabel: "Vignobles & slow travel — contenus partagés",
+  },
+];
+
 export const TEST_PROFILES: TestProfile[] = [
   { id: "julie", name: "Julie", etatVoyage: "rien", situationLabel: "Nouveau voyageur" },
   {
@@ -50,7 +69,7 @@ export const TEST_PROFILES: TestProfile[] = [
 export const VALID_PROFILE_IDS = TEST_PROFILES.map((p) => p.id);
 
 export function getProfileById(id: string): TestProfile | undefined {
-  return TEST_PROFILES.find((p) => p.id === id);
+  return TEST_PROFILES.find((p) => p.id === id) ?? EDITORIAL_PROFILES.find((p) => p.id === id);
 }
 
 /** Clé localStorage pour les réponses quiz d'un profil (phase test). */

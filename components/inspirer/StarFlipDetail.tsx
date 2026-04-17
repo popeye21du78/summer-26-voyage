@@ -2,6 +2,8 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
+import { useReturnBase } from "@/lib/hooks/use-return-base";
+import { withReturnTo } from "@/lib/return-to";
 import dynamic from "next/dynamic";
 import { MapPin, Sparkles, ChevronLeft, ChevronRight } from "lucide-react";
 import { loadPhotoValidationSnapshot } from "@/lib/client-photo-snapshot";
@@ -100,6 +102,8 @@ function StarStepStripPhoto({
 }
 
 export default function StarFlipDetail({ itinerary, onCloseFlip }: Props) {
+  const currentLocation = useReturnBase();
+
   const [resolvedSteps, setResolvedSteps] = useState<ResolvedStarStep[] | null>(null);
   const [snapReady, setSnapReady] = useState(false);
   const [activeStep, setActiveStep] = useState(0);
@@ -171,8 +175,9 @@ export default function StarFlipDetail({ itinerary, onCloseFlip }: Props) {
   const token = process.env.NEXT_PUBLIC_MAPBOX_TOKEN;
 
   return (
-    <div className="flex h-full min-h-[480px] flex-col overflow-y-auto overflow-x-hidden bg-[#141414]">
-      <div className="sticky top-0 z-20 shrink-0 border-b border-white/6 bg-[#141414]">
+    <div className="flex h-full min-h-[480px] flex-col overflow-y-auto overflow-x-hidden bg-[#141414] overscroll-y-contain">
+      {/* Pas de sticky : la carte défile avec le texte pour pouvoir lire le récit */}
+      <div className="shrink-0 border-b border-white/6 bg-[#141414]">
         <div className="relative aspect-[4/3] max-h-[min(42vh,320px)] w-full min-h-[180px] bg-[#1c1c1c] sm:aspect-[16/10] sm:max-h-[min(38vh,360px)]">
           {resolvedSteps === null ? (
             <div className="flex h-full flex-col items-center justify-center gap-2">
@@ -256,7 +261,10 @@ export default function StarFlipDetail({ itinerary, onCloseFlip }: Props) {
 
       {stepsForStrip[activeStep] && (
         <Link
-          href={`/inspirer/ville/${stepsForStrip[activeStep].slug}?from=stars&region=${itinerary.regionId}`}
+          href={withReturnTo(
+            `/inspirer/ville/${stepsForStrip[activeStep].slug}?from=stars&region=${itinerary.regionId}`,
+            currentLocation
+          )}
           className="flex shrink-0 items-center gap-2 border-b border-white/6 px-4 py-2.5 transition hover:bg-white/3"
         >
           <MapPin className="h-3.5 w-3.5 shrink-0 text-[#E07856]" />
@@ -278,7 +286,10 @@ export default function StarFlipDetail({ itinerary, onCloseFlip }: Props) {
           </p>
         )}
         <Link
-          href={`/preparer?fromStar=${itinerary.itinerarySlug}&region=${itinerary.regionId}`}
+          href={withReturnTo(
+            `/preparer?fromStar=${itinerary.itinerarySlug}&region=${itinerary.regionId}`,
+            currentLocation
+          )}
           className="btn-orange-glow mt-6 flex w-full items-center justify-center gap-2 rounded-xl py-3 font-courier text-xs font-bold text-white"
         >
           <Sparkles className="h-3.5 w-3.5" />

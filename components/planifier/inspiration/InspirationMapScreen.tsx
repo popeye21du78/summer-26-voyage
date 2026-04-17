@@ -5,7 +5,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { Bookmark, Filter, MoreHorizontal, Search } from "lucide-react";
 import type { Feature, FeatureCollection, LineString } from "geojson";
-import { useRouter } from "next/navigation";
+import { useReturnBase } from "@/lib/hooks/use-return-base";
 import {
   AMBIANCE_OPTIONS,
   DURATION_OPTIONS,
@@ -36,6 +36,8 @@ import type { StarItineraryStopDto } from "@/types/inspiration-star-map";
 import MapBottomPanels from "./MapBottomPanels";
 import RegionCarousel from "./RegionCarousel";
 import TopBar from "./TopBar";
+import { CityPhoto } from "@/components/CityPhoto";
+import { withReturnTo } from "@/lib/return-to";
 
 const MAP_REGIONS_GEO_URL = "/geo/inspiration-map-regions.geojson";
 const MAP_REGIONS_OUTLINE_URL = "/geo/inspiration-map-regions-outline.geojson";
@@ -288,7 +290,7 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
     selectRegion,
     starListPreviewLineSlug,
   } = ctx;
-  const router = useRouter();
+  const returnBase = useReturnBase();
 
   const mapRef = useRef<InspirationMapExpose>(null);
   /** Hauteur de la fiche en fraction de la fenêtre (overlay — la carte ne redimensionne jamais). */
@@ -297,6 +299,10 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
   const [mapReady, setMapReady] = useState(false);
   const onMapReady = useCallback(() => setMapReady(true), []);
   const [mapZoom, setMapZoom] = useState(7.5);
+  const [selectedVillePreview, setSelectedVillePreview] = useState<{
+    slug: string;
+    nom: string;
+  } | null>(null);
   const [sectorsFc, setSectorsFc] = useState<TerritoriesFeatureCollection | null>(null);
   const [outlineFc, setOutlineFc] = useState<FeatureCollection | null>(null);
   const [loadState, setLoadState] = useState<"idle" | "loading" | "error">("loading");
@@ -331,6 +337,10 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
 
   const activeRegionId =
     top.screen !== "france" && "regionId" in top ? top.regionId : null;
+
+  useEffect(() => {
+    setSelectedVillePreview(null);
+  }, [activeRegionId, top.screen]);
 
   const showRegionSheet =
     top.screen !== "france" && top.screen !== "region-map-fullscreen";
@@ -446,7 +456,9 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
             .filter((f) => f.kind === "place")
             .map((f) => f.refId)
         );
-        const capped = d.lieux.slice(0, 42);
+        const maxByZoom =
+          mapZoom < 6.5 ? 7 : mapZoom < 7.5 ? 12 : mapZoom < 9 ? 24 : 42;
+        const capped = d.lieux.slice(0, maxByZoom);
         const enriched: SlimLieuPoint[] = capped.map((l) => {
           const tier = savedSlugs.has(l.slug)
             ? ("saved" as const)
@@ -552,12 +564,14 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
     }
   }, [top.screen, resetFrance, goBack, closeRegionMapFullscreen]);
 
-  const onVilleClick = useCallback(
-    (slug: string) => {
-      router.push(`/ville/${encodeURIComponent(slug)}?from=inspiration`);
-    },
-    [router]
-  );
+  const onMapBackgroundClear = useCallback(() => {
+    setSelectedVillePreview(null);
+    onMapBackgroundClick();
+  }, [onMapBackgroundClick]);
+
+  const onVilleClick = useCallback((slug: string, nom?: string) => {
+    setSelectedVillePreview({ slug, nom: nom ?? slug });
+  }, []);
 
   const { starLineFeatures, showStarLines } = useMemo(() => {
     if (
@@ -704,7 +718,7 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
     onSelectRegion: selectRegion,
     onTerritoryPointClick: (tid: string) => selectTerritoryPoi(tid),
     onVilleClick,
-    onMapBackgroundClick,
+    onMapBackgroundClick: onMapBackgroundClear,
     onMapReady,
     onZoomChange: setMapZoom,
     loading: loadState === "loading",
@@ -729,6 +743,43 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
           <div className="absolute inset-0 z-0">
             <InspirationMapClient ref={mapRef} {...mapBaseProps} />
           </div>
+
+          {selectedVillePreview && activeRegionId && (
+            <div className="pointer-events-none absolute inset-x-0 bottom-[max(0.75rem,env(safe-area-inset-bottom))] z-[48] flex justify-center px-3 sm:justify-start sm:pl-5">
+              <div className="pointer-events-auto flex w-full max-w-md gap-3 rounded-2xl border border-[#E07856]/35 bg-[#111111]/95 p-3 shadow-2xl backdrop-blur-md">
+                <div className="relative h-[72px] w-[72px] shrink-0 overflow-hidden rounded-xl bg-[#1c1c1c]">
+                  <CityPhoto
+                    stepId={selectedVillePreview.slug}
+                    ville={selectedVillePreview.nom}
+                    alt=""
+                    className="absolute inset-0 h-full w-full object-cover"
+                    imageLoading="eager"
+                  />
+                </div>
+                <div className="min-w-0 flex-1">
+                  <p className="font-courier text-sm font-bold leading-tight text-white">
+                    {selectedVillePreview.nom}
+                  </p>
+                  <Link
+                    href={withReturnTo(
+                      `/inspirer/ville/${encodeURIComponent(selectedVillePreview.slug)}?from=inspiration`,
+                      returnBase
+                    )}
+                    className="mt-1.5 inline-flex font-courier text-xs font-bold text-[#E07856] underline-offset-2 hover:underline"
+                  >
+                    Ouvrir la fiche
+                  </Link>
+                  <button
+                    type="button"
+                    onClick={() => setSelectedVillePreview(null)}
+                    className="mt-2 block font-courier text-[10px] text-white/40 underline hover:text-white/60"
+                  >
+                    Fermer
+                  </button>
+                </div>
+              </div>
+            </div>
+          )}
 
           {top.screen === "region-map-fullscreen" && (
             <div className="pointer-events-none absolute inset-x-0 top-0 z-[42] flex justify-center pt-[max(0.5rem,env(safe-area-inset-top))]">

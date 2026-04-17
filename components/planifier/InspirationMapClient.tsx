@@ -48,6 +48,7 @@ export const FILL_LAYER_ID = "insp-territories-fill";
 export const LINE_LAYER_ID = "insp-territories-outline";
 export const POI_LAYER_ID = "insp-territory-points";
 export const VILLE_LAYER_ID = "insp-ville-points";
+export const VILLE_LABEL_LAYER_ID = "insp-ville-labels";
 export const STAR_LINE_LAYER_ID = "insp-star-lines";
 
 const MAP_STYLE = "mapbox://styles/mapbox/light-v11";
@@ -125,7 +126,7 @@ type InspirationMapClientProps = {
   showStarItineraryMarkers?: boolean;
   onSelectRegion: (id: string) => void;
   onTerritoryPointClick?: (territoryId: string) => void;
-  onVilleClick?: (slug: string) => void;
+  onVilleClick?: (slug: string, nom?: string) => void;
   /** Clic sur la carte sans feature (eau / vide / hors couche). */
   onMapBackgroundClick?: () => void;
   onMapReady?: () => void;
@@ -415,7 +416,8 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
           return;
         }
         if (lid === VILLE_LAYER_ID && typeof props.id === "string") {
-          onVilleRef.current?.(props.id);
+          const nom = typeof props.name === "string" ? props.name : undefined;
+          onVilleRef.current?.(props.id, nom);
         }
       };
 
@@ -555,6 +557,25 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
                     "circle-stroke-color": "#1c1c1c",
                   }}
                 />
+                <Layer
+                  id={VILLE_LABEL_LAYER_ID}
+                  type="symbol"
+                  minzoom={7.2}
+                  layout={{
+                    "text-field": ["get", "name"],
+                    "text-size": 10,
+                    "text-offset": [0, 1.35],
+                    "text-anchor": "top",
+                    "text-max-width": 9,
+                    "text-allow-overlap": false,
+                    "text-ignore-placement": false,
+                  }}
+                  paint={{
+                    "text-color": "#1a1410",
+                    "text-halo-color": "#ffffff",
+                    "text-halo-width": 1.8,
+                  }}
+                />
               </Source>
             )}
             {showStarItineraryMarkers &&
@@ -570,7 +591,7 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
                     className="group relative flex h-[52px] w-[52px] cursor-pointer items-center justify-center rounded-full border-[3px] border-white bg-white shadow-lg ring-2 ring-[#E07856]/35 transition hover:scale-105 hover:ring-[#E07856]/55"
                     onClick={(e) => {
                       e.stopPropagation();
-                      onVilleClick?.(s.slug);
+                      onVilleClick?.(s.slug, s.nom);
                     }}
                     aria-label={s.nom}
                   >

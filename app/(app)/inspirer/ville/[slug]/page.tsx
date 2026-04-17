@@ -9,6 +9,7 @@ import { CitySection } from "@/components/CitySection";
 import { getLieuBySlug } from "@/lib/lieux-central";
 import { getDescriptionForSlug, getPhotoSlotsFromDescription } from "@/lib/description-lieu";
 import { VilleDescriptionClient } from "@/components/VilleDescriptionClient";
+import { isSafeReturnPath } from "@/lib/return-to";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -29,14 +30,23 @@ export default async function VillePage({ params, searchParams }: Props) {
   const sp = searchParams ? await searchParams : {};
   const fromParam = typeof sp?.from === "string" ? sp.from : "";
   const regionBack = typeof sp?.region === "string" ? sp.region : "";
+  const returnToRaw = typeof sp?.returnTo === "string" ? sp.returnTo : "";
+  let returnToSafe: string | null = null;
+  try {
+    const dec = decodeURIComponent(returnToRaw);
+    if (isSafeReturnPath(dec)) returnToSafe = dec;
+  } catch {
+    /* ignore */
+  }
   const backHref =
-    fromParam === "region" && regionBack
+    returnToSafe ??
+    (fromParam === "region" && regionBack
       ? `/inspirer/region/${regionBack}`
       : fromParam === "stars"
         ? `/inspirer?tab=stars${regionBack ? `&region=${regionBack}` : ""}`
         : fromParam === "itineraire"
           ? "/inspirer?tab=stars"
-          : "/inspirer";
+          : "/inspirer");
 
   const description = getDescriptionForSlug(slug);
   const lieu = getLieuBySlug(slug);

@@ -3,6 +3,8 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Calendar, Play, BookOpen, Plus } from "lucide-react";
+import { CityPhoto } from "@/components/CityPhoto";
+import { loadPhotoValidationSnapshot } from "@/lib/client-photo-snapshot";
 import type { VoyageStateResponse } from "@/types/voyage-state";
 import type { Voyage } from "@/data/mock-voyages";
 import { loadCreatedVoyages, type CreatedVoyage } from "@/lib/created-voyages";
@@ -22,6 +24,10 @@ export default function EspaceVoyages({ state }: Props) {
 
   useEffect(() => {
     setCreatedVoyages(loadCreatedVoyages());
+  }, []);
+
+  useEffect(() => {
+    void loadPhotoValidationSnapshot();
   }, []);
 
   const initial: SubTab = state?.voyageEnCours
@@ -118,14 +124,8 @@ function VoyageCard({
   voyage: Voyage;
   type: "en_cours" | "a_venir" | "souvenirs";
 }) {
-  const photo = voyage.steps
-    .flatMap((s) => s.contenu_voyage?.photos ?? [])
-    .find(Boolean);
-
-  const href =
-    type === "souvenirs"
-      ? `/mon-espace/viago/${voyage.id}`
-      : `/mon-espace/voyage/${voyage.id}`;
+  /** Toujours la fiche carte d’abord ; le Viago se fait depuis cette page. */
+  const href = `/mon-espace/voyage/${voyage.id}`;
 
   const actionLabel =
     type === "en_cours"
@@ -142,12 +142,17 @@ function VoyageCard({
       href={href}
       className="flex min-h-[88px] items-stretch gap-4 overflow-hidden rounded-2xl border border-white/6 bg-white/3 p-1 transition hover:border-[#E07856]/25 hover:bg-white/5"
     >
-      {photo && (
-        <div
-          className="w-24 shrink-0 rounded-l-xl bg-cover bg-center sm:w-28"
-          style={{ backgroundImage: `url(${photo})` }}
-        />
-      )}
+      <div className="relative h-[100px] w-24 shrink-0 overflow-hidden rounded-l-xl bg-[#1a1a1a] sm:w-28">
+        {voyage.steps[0] ? (
+          <CityPhoto
+            stepId={voyage.steps[0].id}
+            ville={voyage.steps[0].nom}
+            alt=""
+            className="absolute inset-0 h-full w-full object-cover"
+            imageLoading="lazy"
+          />
+        ) : null}
+      </div>
       <div className="flex min-w-0 flex-1 flex-col justify-center py-3 pr-3">
         <p className="font-courier text-base font-bold leading-snug text-white/95">
           {voyage.titre}
@@ -163,13 +168,26 @@ function VoyageCard({
 }
 
 function CreatedVoyageCard({ voyage }: { voyage: CreatedVoyage }) {
+  const first = voyage.steps[0];
   return (
     <Link
       href={`/mon-espace/voyage/${voyage.id}`}
       className="flex min-h-[88px] items-stretch gap-4 overflow-hidden rounded-2xl border border-[#E07856]/15 bg-[#E07856]/5 p-1 transition hover:border-[#E07856]/30"
     >
-      <div className="flex w-24 shrink-0 items-center justify-center rounded-l-xl bg-[#E07856]/20 sm:w-28">
-        <Calendar className="h-8 w-8 text-[#E07856]" strokeWidth={1.8} />
+      <div className="relative h-[100px] w-24 shrink-0 overflow-hidden rounded-l-xl bg-[#E07856]/20 sm:w-28">
+        {first ? (
+          <CityPhoto
+            stepId={first.id}
+            ville={first.nom}
+            alt=""
+            className="absolute inset-0 h-full w-full object-cover"
+            imageLoading="lazy"
+          />
+        ) : (
+          <div className="flex h-full items-center justify-center">
+            <Calendar className="h-8 w-8 text-[#E07856]" strokeWidth={1.8} />
+          </div>
+        )}
       </div>
       <div className="flex min-w-0 flex-1 flex-col justify-center py-3 pr-3">
         <p className="font-courier text-base font-bold leading-snug text-white/95">

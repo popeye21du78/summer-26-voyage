@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from "react";
 import { useInView } from "framer-motion";
 import { motion } from "framer-motion";
+import Link from "next/link";
 import { Image, FileText, X, Pencil } from "lucide-react";
 import type { Step } from "../types";
 import {
@@ -20,6 +21,7 @@ import ViagoVisualPhotoEditor from "./viago/ViagoVisualPhotoEditor";
 import { ViagoRichCourier } from "./viago/ViagoRichText";
 import { compressImageFileToDataUrl } from "../lib/viago-compress-image";
 import { LieuResolvedBackground } from "./LieuResolvedBackground";
+import { slugFromNom } from "@/lib/slug-from-nom";
 
 type Props = {
   step: Step;
@@ -27,6 +29,8 @@ type Props = {
   index: number;
   readOnly?: boolean;
   variant?: "dark" | "light";
+  /** Profil propriétaire du contenu Viago (ami ou soi) — voir lib/viago-storage */
+  storageScope?: string | null;
 };
 
 function formatDate(iso: string) {
@@ -211,6 +215,7 @@ export default function ViagoSection({
   index,
   readOnly = false,
   variant = "dark",
+  storageScope = null,
 }: Props) {
   const ref = useRef<HTMLElement>(null);
   const heroFileRef = useRef<HTMLInputElement>(null);
@@ -235,9 +240,9 @@ export default function ViagoSection({
   const [heroDraftUrl, setHeroDraftUrl] = useState("");
 
   useEffect(() => {
-    setContent(getViagoStepContent(voyageId, step.id));
+    setContent(getViagoStepContent(voyageId, step.id, storageScope));
     setAnecdoteDraft(step.contenu_voyage?.anecdote ?? "");
-  }, [voyageId, step.id, step.contenu_voyage?.anecdote]);
+  }, [voyageId, step.id, step.contenu_voyage?.anecdote, storageScope]);
 
   const userAddedPhotos = content?.photos ?? [];
   const anecdote = content?.anecdote ?? step.contenu_voyage?.anecdote ?? "";
@@ -287,14 +292,19 @@ export default function ViagoSection({
 
   const handleSaveAnecdote = () => {
     const text = anecdoteDraft.trim();
-    saveViagoStepContent(voyageId, step.id, {
-      anecdote: text,
-      photos: content?.photos ?? [],
-      heroPhotoUrl: content?.heroPhotoUrl,
-      dateOverride: content?.dateOverride,
-      displayTitleOverride: content?.displayTitleOverride,
-    });
-    setContent(getViagoStepContent(voyageId, step.id));
+    saveViagoStepContent(
+      voyageId,
+      step.id,
+      {
+        anecdote: text,
+        photos: content?.photos ?? [],
+        heroPhotoUrl: content?.heroPhotoUrl,
+        dateOverride: content?.dateOverride,
+        displayTitleOverride: content?.displayTitleOverride,
+      },
+      storageScope
+    );
+    setContent(getViagoStepContent(voyageId, step.id, storageScope));
     setShowAddAnecdote(false);
   };
 
@@ -305,37 +315,52 @@ export default function ViagoSection({
     } else {
       newPhotos = [...userAddedPhotos, item];
     }
-    saveViagoStepContent(voyageId, step.id, {
-      anecdote: content?.anecdote ?? "",
-      photos: newPhotos,
-      heroPhotoUrl: content?.heroPhotoUrl,
-      dateOverride: content?.dateOverride,
-      displayTitleOverride: content?.displayTitleOverride,
-    });
-    setContent(getViagoStepContent(voyageId, step.id));
+    saveViagoStepContent(
+      voyageId,
+      step.id,
+      {
+        anecdote: content?.anecdote ?? "",
+        photos: newPhotos,
+        heroPhotoUrl: content?.heroPhotoUrl,
+        dateOverride: content?.dateOverride,
+        displayTitleOverride: content?.displayTitleOverride,
+      },
+      storageScope
+    );
+    setContent(getViagoStepContent(voyageId, step.id, storageScope));
   };
 
   const handleRemoveUserPhoto = (idx: number) => {
     const newPhotos = userAddedPhotos.filter((_, i) => i !== idx);
-    saveViagoStepContent(voyageId, step.id, {
-      anecdote: content?.anecdote ?? "",
-      photos: newPhotos,
-      heroPhotoUrl: content?.heroPhotoUrl,
-      dateOverride: content?.dateOverride,
-      displayTitleOverride: content?.displayTitleOverride,
-    });
-    setContent(getViagoStepContent(voyageId, step.id));
+    saveViagoStepContent(
+      voyageId,
+      step.id,
+      {
+        anecdote: content?.anecdote ?? "",
+        photos: newPhotos,
+        heroPhotoUrl: content?.heroPhotoUrl,
+        dateOverride: content?.dateOverride,
+        displayTitleOverride: content?.displayTitleOverride,
+      },
+      storageScope
+    );
+    setContent(getViagoStepContent(voyageId, step.id, storageScope));
   };
 
   const saveStepMeta = () => {
-    saveViagoStepContent(voyageId, step.id, {
-      photos: content?.photos ?? [],
-      anecdote: content?.anecdote ?? "",
-      displayTitleOverride: stepTitleDraft.trim() || null,
-      dateOverride: stepDateDraft.trim() || null,
-      heroPhotoUrl: heroDraftUrl.trim() || null,
-    });
-    setContent(getViagoStepContent(voyageId, step.id));
+    saveViagoStepContent(
+      voyageId,
+      step.id,
+      {
+        photos: content?.photos ?? [],
+        anecdote: content?.anecdote ?? "",
+        displayTitleOverride: stepTitleDraft.trim() || null,
+        dateOverride: stepDateDraft.trim() || null,
+        heroPhotoUrl: heroDraftUrl.trim() || null,
+      },
+      storageScope
+    );
+    setContent(getViagoStepContent(voyageId, step.id, storageScope));
     setEditStepOpen(false);
   };
 
@@ -372,11 +397,14 @@ export default function ViagoSection({
           <span className="font-courier text-[10px] font-bold uppercase tracking-[0.35em] text-[#E07856]">
             ÉTAPE {index + 1}
           </span>
-          <h2
-            className="mt-3 font-courier text-4xl font-bold tracking-wider md:text-5xl"
-            style={titleGradientStyle}
-          >
-            {displayNom}
+          <h2 className="mt-3 font-courier text-4xl font-bold tracking-wider md:text-5xl">
+            <Link
+              href={`/inspirer/ville/${slugFromNom(step.nom)}?from=viago`}
+              className="transition hover:opacity-90"
+              style={titleGradientStyle}
+            >
+              {displayNom}
+            </Link>
           </h2>
           <p
             className={`mt-2 font-courier text-sm font-bold md:text-base ${

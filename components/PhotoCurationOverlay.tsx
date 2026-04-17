@@ -139,7 +139,7 @@ export function PhotoCurationOverlay({
 
   return (
     <div
-      className={`pointer-events-auto z-30 flex justify-center ${
+      className={`pointer-events-auto z-[100] flex touch-manipulation justify-center ${
         compact
           ? "absolute left-1 right-1 top-1 items-start pt-0"
           : "absolute bottom-2 left-2 right-2 items-end"
@@ -166,7 +166,7 @@ export function PhotoCurationOverlay({
             type="button"
             disabled={posting}
             onClick={handleValidate}
-            className={`flex-1 rounded-md bg-[#E07856] font-courier font-bold text-white transition hover:brightness-110 disabled:opacity-40 ${
+            className={`min-h-[36px] flex-1 rounded-md bg-[#E07856] font-courier font-bold text-white transition hover:brightness-110 disabled:opacity-40 ${
               compact ? "py-0.5 text-[8px]" : "py-1 text-[10px]"
             }`}
           >

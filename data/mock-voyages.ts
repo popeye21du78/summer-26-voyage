@@ -425,6 +425,30 @@ export function getVoyageForProfile(profileId: string): PersonaVoyageState {
         voyagesTermines: [{ ...v, id: "thomas-provence" }],
       };
     }
+    case "eva-viago": {
+      const d = dateFromToday(-120);
+      const v = getVoyagePrefait("provence-5j", d)!;
+      return {
+        etat: "voyage_termine",
+        voyagesTermines: [{ ...v, id: "eva-provence-edito" }],
+      };
+    }
+    case "matteo-horizons": {
+      const d = dateFromToday(-200);
+      const v = getVoyagePrefait("chateaux-cathares-6j", d)!;
+      return {
+        etat: "voyage_termine",
+        voyagesTermines: [{ ...v, id: "matteo-cathares-edito" }],
+      };
+    }
+    case "lina-routes": {
+      const d = dateFromToday(-60);
+      const v = getVoyagePrefait("bretagne-4j", d)!;
+      return {
+        etat: "voyage_termine",
+        voyagesTermines: [{ ...v, id: "lina-bretagne-edito" }],
+      };
+    }
     case "julie":
     default:
       return { etat: "rien" };

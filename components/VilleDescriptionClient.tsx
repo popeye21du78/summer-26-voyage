@@ -6,6 +6,7 @@ import Image from "next/image";
 import { useSearchParams } from "next/navigation";
 import { motion } from "framer-motion";
 import { adaptText } from "../lib/ville-adaptation";
+import { readReturnTo } from "@/lib/return-to";
 import type { ProfilVille } from "../lib/ville-adaptation";
 
 const SESSION_KEY = "voyage_profil_ville";
@@ -81,6 +82,7 @@ export function VilleDescriptionClient({
   const fromItineraire = fromParam === "itineraire";
   const regionParam = searchParams.get("region");
   const voyagePrevuSlug = searchParams.get("v");
+  const returnToOverride = readReturnTo(searchParams);
   const backToVoyageCarte =
     voyagePrevuSlug && /^[a-zA-Z0-9_-]+$/.test(voyagePrevuSlug)
       ? `/voyage/${voyagePrevuSlug}/prevu#carte-voyage`
@@ -185,6 +187,7 @@ export function VilleDescriptionClient({
     structuredSections.length + (hasCommonsBlock ? 1 : 0);
 
   const backHref =
+    returnToOverride ??
     backToVoyageCarte ??
     (fromRegion && regionParam
       ? `/inspirer/region/${regionParam}`
@@ -306,7 +309,7 @@ export function VilleDescriptionClient({
   }
 
   return (
-    <main className="relative isolate !pt-0 overflow-x-hidden bg-[#111111] pb-20">
+    <main className="relative isolate !pt-0 overflow-x-hidden overflow-y-auto bg-[#111111] pb-20">
       {/* Hero plein viewport : largeur 100%, image dès le haut (sous le header fixe) */}
       <div className="relative left-1/2 w-screen max-w-[100vw] -translate-x-1/2">
         <div className="relative min-h-[min(52vh,420px)] h-[min(56vh,480px)] w-full overflow-hidden bg-[#111111] sm:min-h-[380px]">

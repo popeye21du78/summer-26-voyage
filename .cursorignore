@@ -1,0 +1,24 @@
+﻿# Réduit fortement la charge d''indexation Cursor (IA + recherche) sur ce dépôt très volumineux.
+
+node_modules/
+.next/
+out/
+build/
+coverage/
+.vercel/
+
+# Milliers de .txt bruts — inutiles pour le code app (ralentissement majeur si indexés)
+data/descriptions/
+
+# Lots / batch générés
+data/batch/
+data/batch-desc/
+data/debug/
+
+# Géométries lourdes
+data/geo/
+*.geojson
+
+# Médias lourds (aperçus / build)
+*.mp4
+*.webm

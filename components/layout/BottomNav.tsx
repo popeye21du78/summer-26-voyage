@@ -1,8 +1,9 @@
 "use client";
 
-import Link from "next/link";
 import Image from "next/image";
-import { usePathname } from "next/navigation";
+import Link from "next/link";
+import { usePathname, useRouter } from "next/navigation";
+import { useCallback } from "react";
 import { Compass, PlusCircle, User } from "lucide-react";
 
 const NAV_ITEMS = [
@@ -14,25 +15,35 @@ const NAV_ITEMS = [
 
 export default function BottomNav() {
   const pathname = usePathname();
+  const router = useRouter();
+
+  const prefetch = useCallback(
+    (href: string) => {
+      router.prefetch(href);
+    },
+    [router]
+  );
 
   return (
     <nav
-      className="fixed inset-x-0 bottom-0 z-[100] border-t border-white/6 bg-[#0e0e0e]/95 backdrop-blur-xl"
+      className="fixed inset-x-0 bottom-0 z-[100] border-t border-white/6 bg-[#0e0e0e]/95 backdrop-blur-xl transition-transform duration-200 ease-out"
       style={{ paddingBottom: "env(safe-area-inset-bottom, 0px)" }}
     >
       <div className="mx-auto flex h-16 max-w-lg items-stretch justify-around">
         {NAV_ITEMS.map(({ href, label, icon: Icon, isLogo }) => {
-          const active =
-            pathname === href || pathname.startsWith(href + "/");
+          const active = pathname === href || pathname.startsWith(href + "/");
           return (
             <Link
               key={href}
               href={href}
-              className="group flex flex-1 flex-col items-center justify-center gap-0.5 transition-all"
+              scroll={false}
+              prefetch
+              onPointerEnter={() => prefetch(href)}
+              className="group flex flex-1 flex-col items-center justify-center gap-0.5 transition-all duration-150 active:scale-[0.97]"
             >
               {isLogo ? (
                 <div
-                  className={`flex h-8 w-8 items-center justify-center rounded-xl transition-all ${
+                  className={`flex h-8 w-8 items-center justify-center rounded-xl transition-all duration-150 ${
                     active
                       ? "bg-gradient-to-br from-[#E07856] to-[#c94a4a] shadow-[0_2px_12px_rgba(224,120,86,0.4)]"
                       : "bg-white/5 group-hover:bg-white/10"
@@ -48,14 +59,14 @@ export default function BottomNav() {
                 </div>
               ) : Icon ? (
                 <div
-                  className={`flex h-8 w-8 items-center justify-center rounded-xl transition-all ${
+                  className={`flex h-8 w-8 items-center justify-center rounded-xl transition-all duration-150 ${
                     active
                       ? "bg-gradient-to-br from-[#E07856]/20 to-[#c94a4a]/10 shadow-[0_0_10px_rgba(224,120,86,0.15)]"
                       : "group-hover:bg-white/5"
                   }`}
                 >
                   <Icon
-                    className={`h-[20px] w-[20px] transition-colors ${
+                    className={`h-[20px] w-[20px] transition-colors duration-150 ${
                       active
                         ? "text-[#E07856]"
                         : "text-white/25 group-hover:text-white/45"
@@ -65,7 +76,7 @@ export default function BottomNav() {
                 </div>
               ) : null}
               <span
-                className={`font-courier text-[9px] leading-none tracking-wide transition-colors ${
+                className={`font-courier text-[9px] leading-none tracking-wide transition-colors duration-150 ${
                   active
                     ? "font-bold text-[#E07856]"
                     : "text-white/25 group-hover:text-white/40"

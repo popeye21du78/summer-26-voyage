@@ -1,9 +1,13 @@
 "use client";
 
 import dynamic from "next/dynamic";
+import Link from "next/link";
+import { useReturnBase } from "@/lib/hooks/use-return-base";
 import { Clock, MapPin } from "lucide-react";
 import { StarItineraryCover } from "@/components/inspirer/StarItineraryCover";
 import type { StarItineraryEditorialItem } from "@/types/star-itineraries-editorial";
+import { getProfileById } from "@/data/test-profiles";
+import { withReturnTo } from "@/lib/return-to";
 
 const StarFlipDetail = dynamic(() => import("./StarFlipDetail"), {
   ssr: false,
@@ -25,6 +29,12 @@ type Props = {
  * Recto léger (couverture sans CityPhoto lourd). Verso = chunk séparé chargé au premier retournement.
  */
 export default function StarFlipCard({ itinerary, isFlipped, onFlip, compact }: Props) {
+  const here = useReturnBase();
+  const editorial =
+    itinerary.editorialProfileId != null
+      ? getProfileById(itinerary.editorialProfileId)
+      : undefined;
+
   const firstStepSlug = itinerary.steps[0]?.slug ?? "";
   const aspect = compact ? "aspect-[2/3]" : "aspect-[3/4]";
 
@@ -64,6 +74,15 @@ export default function StarFlipCard({ itinerary, isFlipped, onFlip, compact }: 
               <p className="font-courier text-[10px] font-bold uppercase tracking-[0.3em] text-[#E07856]">
                 Itinéraire star
               </p>
+              {editorial && itinerary.editorialProfileId && (
+                <Link
+                  href={withReturnTo(`/profil/${itinerary.editorialProfileId}`, here)}
+                  onClick={(e) => e.stopPropagation()}
+                  className="mt-2 inline-flex max-w-full rounded-full border border-white/15 bg-black/35 px-2.5 py-1 font-courier text-[9px] font-bold text-[#E07856]/95 backdrop-blur-sm transition hover:border-[#E07856]/40"
+                >
+                  Une manière de voyager · {editorial.name}
+                </Link>
+              )}
               <h3 className="mt-1 font-courier text-lg font-bold leading-tight text-white">
                 {itinerary.tripTitle}
               </h3>

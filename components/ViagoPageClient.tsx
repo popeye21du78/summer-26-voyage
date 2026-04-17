@@ -8,6 +8,7 @@ import ViagoSection from "./ViagoSection";
 import { LieuResolvedBackground } from "./LieuResolvedBackground";
 import { mergeVoyageSteps } from "@/lib/voyage-local-overrides";
 import { getCreatedVoyageById, createdVoyageToViagoPayload } from "@/lib/created-voyages";
+import { getProfileIdCached } from "@/lib/me-client";
 import type { Step } from "@/types";
 
 function formatDate(iso: string) {
@@ -24,7 +25,7 @@ export default function ViagoPageClient() {
   const id = params?.id as string;
   const readOnly = searchParams.get("mode") === "readonly";
 
-  const backHref = readOnly ? "/accueil" : `/mon-espace/voyage/${id}`;
+  const backHref = readOnly ? "/inspirer?tab=amis" : `/mon-espace/voyage/${id}`;
 
   const [voyage, setVoyage] = useState<{
     id: string;
@@ -34,35 +35,56 @@ export default function ViagoPageClient() {
     stats?: { km?: number; essence?: number; budget?: number };
   } | null>(null);
   const [loading, setLoading] = useState(true);
+  const [storageScope, setStorageScope] = useState<string | null>(null);
 
   useEffect(() => {
     if (!id) {
       setLoading(false);
       return;
     }
-    fetch(`/api/voyage/${id}`)
-      .then((r) => (r.ok ? r.json() : null))
-      .then((data) => {
-        if (data && !data.error) {
-          const { isOwner: _o, ownerName: _n, ownerProfileId: _p, ...rest } = data;
-          setVoyage(rest);
-          setLoading(false);
-          return;
-        }
+    let cancelled = false;
+
+    (async () => {
+      const [vRes, meRes] = await Promise.all([
+        fetch(`/api/voyage/${id}`),
+        fetch("/api/me"),
+      ]);
+      const data = vRes.ok ? await vRes.json().catch(() => null) : null;
+      const me = meRes.ok ? await meRes.json().catch(() => null) : null;
+      if (cancelled) return;
+
+      const scope: string | null =
+        data?.ownerProfileId && typeof data.ownerProfileId === "string"
+          ? data.ownerProfileId
+          : typeof me?.profileId === "string"
+            ? me.profileId
+            : null;
+      setStorageScope(scope);
+
+      if (data && !data.error) {
+        const { isOwner: _o, ownerName: _n, ownerProfileId: _p, ...rest } = data;
+        setVoyage(rest);
+      } else {
         const local = getCreatedVoyageById(id);
-        if (local) {
-          setVoyage(createdVoyageToViagoPayload(local));
-        } else {
-          setVoyage(null);
-        }
-        setLoading(false);
-      })
-      .catch(() => {
-        const local = getCreatedVoyageById(id);
-        if (local) setVoyage(createdVoyageToViagoPayload(local));
-        else setVoyage(null);
-        setLoading(false);
-      });
+        setVoyage(local ? createdVoyageToViagoPayload(local) : null);
+      }
+      setLoading(false);
+    })().catch(async () => {
+      if (cancelled) return;
+      try {
+        const pid = await getProfileIdCached();
+        if (!cancelled && pid) setStorageScope(pid);
+      } catch {
+        /* ignore */
+      }
+      const local = getCreatedVoyageById(id);
+      setVoyage(local ? createdVoyageToViagoPayload(local) : null);
+      setLoading(false);
+    });
+
+    return () => {
+      cancelled = true;
+    };
   }, [id]);
 
   const mergedSteps = useMemo(() => {
@@ -168,6 +190,7 @@ export default function ViagoPageClient() {
               index={i}
               readOnly={readOnly}
               variant={i % 2 === 0 ? "dark" : "light"}
+              storageScope={storageScope}
             />
           ))}
         </div>

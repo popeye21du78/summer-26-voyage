@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { User, Edit3, Eye, LogOut } from "lucide-react";
 import type { VoyageStateResponse } from "@/types/voyage-state";
+import { invalidateProfileIdCache } from "@/lib/me-client";
 
 type Props = {
   profileId: string;
@@ -29,6 +30,7 @@ export default function EspaceHeader({
 
   async function handleLogout() {
     await fetch("/api/auth/logout", { method: "POST" });
+    invalidateProfileIdCache();
     router.push("/");
     router.refresh();
   }

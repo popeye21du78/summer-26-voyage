@@ -1,14 +1,17 @@
 "use client";
 
-import { useState, useEffect, type ReactNode } from "react";
-import { Search, Map, Star, Users } from "lucide-react";
-import InspirerSearch from "./InspirerSearch";
+import { useState, useEffect, useRef, type ReactNode } from "react";
+import { Map, Star, Users } from "lucide-react";
 import InspirerCarteWrapper from "./InspirerCarteWrapper";
 import InspirerStars from "./InspirerStars";
 import InspirerAmis from "./InspirerAmis";
+import {
+  INSPIRER_TAB_KEY,
+  readScrollY,
+  writeScrollY,
+} from "@/lib/nav-scroll-memory";
 
 const TABS = [
-  { id: "recherche", label: "Recherche", icon: Search },
   { id: "carte", label: "Carte", icon: Map },
   { id: "stars", label: "Stars", icon: Star },
   { id: "amis", label: "Amis", icon: Users },
@@ -18,6 +21,12 @@ type TabId = (typeof TABS)[number]["id"];
 
 function isValidTab(s: string | undefined): s is TabId {
   return TABS.some((t) => t.id === s);
+}
+
+/** Ancien onglet « recherche » retiré : on renvoie vers la carte. */
+function normalizeInitialTab(s: string | undefined): TabId | undefined {
+  if (!s || s === "recherche") return "carte";
+  return isValidTab(s) ? s : undefined;
 }
 
 type Props = {
@@ -31,32 +40,63 @@ export default function InspirerTabs({
   initialTab,
   initialRegion,
 }: Props) {
-  const resolvedInitialTab: TabId = isValidTab(initialTab)
-    ? initialTab
-    : "carte";
+  const resolvedInitialTab: TabId = normalizeInitialTab(initialTab) ?? "carte";
   const [active, setActive] = useState<TabId>(resolvedInitialTab);
-  /** Onglets déjà montés (lazy) — mis à jour dans un effet, jamais pendant le rendu (évite erreurs d’hydratation). */
   const [mountedTabs, setMountedTabs] = useState<Record<TabId, boolean>>(() => ({
-    recherche: resolvedInitialTab === "recherche",
     carte: resolvedInitialTab === "carte",
     stars: resolvedInitialTab === "stars",
     amis: resolvedInitialTab === "amis",
   }));
 
+  const scrollRefs = useRef<Partial<Record<TabId, HTMLDivElement | null>>>({});
+  const activeRef = useRef<TabId>(active);
+  activeRef.current = active;
+
   useEffect(() => {
-    if (isValidTab(initialTab) && initialTab !== active) {
-      setActive(initialTab);
+    const n = normalizeInitialTab(initialTab);
+    if (n && n !== active) {
+      setActive(n);
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps -- synchronisation URL → onglet uniquement
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [initialTab]);
 
   useEffect(() => {
     setMountedTabs((prev) => (prev[active] ? prev : { ...prev, [active]: true }));
   }, [active]);
 
+  function persistCurrentScroll() {
+    const tab = activeRef.current;
+    if (tab === "carte") return;
+    const el = scrollRefs.current[tab];
+    if (el) writeScrollY(INSPIRER_TAB_KEY(tab), el.scrollTop);
+  }
+
+  function selectTab(id: TabId) {
+    if (id === active) return;
+    persistCurrentScroll();
+    setActive(id);
+  }
+
+  useEffect(() => {
+    if (active === "carte") return;
+    const el = scrollRefs.current[active];
+    const y = readScrollY(INSPIRER_TAB_KEY(active));
+    requestAnimationFrame(() => {
+      if (el && y != null) el.scrollTop = y;
+    });
+  }, [active]);
+
+  useEffect(() => {
+    return () => {
+      const tab = activeRef.current;
+      if (tab === "carte") return;
+      const el = scrollRefs.current[tab];
+      if (el) writeScrollY(INSPIRER_TAB_KEY(tab), el.scrollTop);
+    };
+  }, []);
+
   return (
     <div className="flex h-full min-h-0 flex-1 flex-col">
-      {/* Tab bar */}
       <div className="shrink-0 border-b border-white/6 bg-[#111111]/95 backdrop-blur-lg">
         <div className="flex items-stretch" role="tablist">
           {TABS.map(({ id, label, icon: Icon }) => {
@@ -65,9 +105,10 @@ export default function InspirerTabs({
               <button
                 key={id}
                 role="tab"
+                type="button"
                 aria-selected={isActive}
-                onClick={() => setActive(id)}
-                className={`flex flex-1 flex-col items-center gap-0.5 py-2.5 transition-colors ${
+                onClick={() => selectTab(id)}
+                className={`flex flex-1 flex-col items-center gap-0.5 py-2.5 transition-colors duration-150 ${
                   isActive
                     ? "border-b-2 border-[#E07856] text-[#E07856]"
                     : "text-white/35 hover:text-white/55"
@@ -83,18 +124,32 @@ export default function InspirerTabs({
         </div>
       </div>
 
-      {/* Tab panels */}
       <div className="relative min-h-0 flex-1 overflow-hidden">
-        <TabPanel visible={active === "recherche"} mounted={mountedTabs.recherche}>
-          <InspirerSearch />
-        </TabPanel>
-        <TabPanel visible={active === "carte"} mounted={mountedTabs.carte}>
+        <TabPanel
+          visible={active === "carte"}
+          mounted={mountedTabs.carte}
+          variant="map"
+        >
           <InspirerCarteWrapper mapboxAccessToken={mapboxAccessToken} />
         </TabPanel>
-        <TabPanel visible={active === "stars"} mounted={mountedTabs.stars}>
+        <TabPanel
+          visible={active === "stars"}
+          mounted={mountedTabs.stars}
+          variant="scroll"
+          scrollRef={(el) => {
+            scrollRefs.current.stars = el;
+          }}
+        >
           <InspirerStars initialRegionFilter={initialRegion} />
         </TabPanel>
-        <TabPanel visible={active === "amis"} mounted={mountedTabs.amis}>
+        <TabPanel
+          visible={active === "amis"}
+          mounted={mountedTabs.amis}
+          variant="scroll"
+          scrollRef={(el) => {
+            scrollRefs.current.amis = el;
+          }}
+        >
           <InspirerAmis />
         </TabPanel>
       </div>
@@ -105,17 +160,23 @@ export default function InspirerTabs({
 function TabPanel({
   visible,
   mounted,
+  variant,
+  scrollRef,
   children,
 }: {
   visible: boolean;
   mounted: boolean;
+  variant: "map" | "scroll";
+  scrollRef?: (el: HTMLDivElement | null) => void;
   children: ReactNode;
 }) {
   if (!mounted) return null;
+  const overflow = variant === "map" ? "overflow-hidden" : "overflow-y-auto overflow-x-hidden";
   return (
     <div
+      ref={scrollRef}
       role="tabpanel"
-      className="absolute inset-0 overflow-hidden"
+      className={`absolute inset-0 ${overflow} scroll-smooth`}
       style={{
         display: visible ? "block" : "none",
       }}

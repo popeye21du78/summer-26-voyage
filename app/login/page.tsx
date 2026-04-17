@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { User } from "lucide-react";
 import { TEST_PROFILES } from "../../data/test-profiles";
+import { invalidateProfileIdCache } from "@/lib/me-client";
 
 export default function LoginPage() {
   const [loading, setLoading] = useState<string | null>(null);
@@ -24,6 +25,7 @@ export default function LoginPage() {
         setError(data?.error || "Erreur de connexion");
         return;
       }
+      invalidateProfileIdCache();
       router.push("/accueil?welcome=1");
       router.refresh();
     } catch {

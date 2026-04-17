@@ -1,4 +1,35 @@
-import type { StarItinerariesEditorialFile } from "@/types/star-itineraries-editorial";
+import type {
+  StarItinerariesEditorialFile,
+  StarItineraryEditorialItem,
+} from "@/types/star-itineraries-editorial";
+
+const EDITORIAL_PROFILE_IDS = [
+  "eva-viago",
+  "matteo-horizons",
+  "lina-routes",
+] as const;
+
+/** Répartition stable : chaque itinéraire Stars est rattaché à un voyageur éditorial. */
+function editorialProfileForItinerary(regionId: string, itinerarySlug: string): string {
+  let h = 0;
+  const s = `${regionId}::${itinerarySlug}`;
+  for (let i = 0; i < s.length; i++) h = Math.imul(31, h) + s.charCodeAt(i);
+  const idx = Math.abs(h) % EDITORIAL_PROFILE_IDS.length;
+  return EDITORIAL_PROFILE_IDS[idx]!;
+}
+
+function enrichItineraries(
+  file: StarItinerariesEditorialFile,
+  regionId: string
+): StarItinerariesEditorialFile {
+  return {
+    itineraries: file.itineraries.map((it) => ({
+      ...it,
+      regionId: it.regionId ?? regionId,
+      editorialProfileId: editorialProfileForItinerary(regionId, it.itinerarySlug),
+    })),
+  };
+}
 import alsace from "./alsace.json";
 import angevinMaine from "./angevin-maine.json";
 import auvergne from "./auvergne.json";
@@ -33,33 +64,46 @@ export const STAR_ITINERARIES_EDITORIAL_BY_REGION: Record<
   string,
   StarItinerariesEditorialFile
 > = {
-  alsace: as(alsace),
-  "angevin-maine": as(angevinMaine),
-  auvergne: as(auvergne),
-  bretagne: as(bretagne),
-  bourgogne: as(bourgogne),
-  champagne: as(champagne),
-  corse: as(corse),
-  "cote-dazur": as(coteDazur),
-  "dauphine-rhone": as(dauphineRhone),
-  "franche-comte": as(francheComte),
-  "gironde-landes": as(girondeLandes),
-  "ile-de-france": as(ileDeFrance),
-  "languedoc-roussillon": as(languedocRoussillon),
-  limousin: as(limousin),
-  lorraine: as(lorraine),
-  "nantais-vendee": as(nantaisVendee),
-  normandie: as(normandie),
-  "pays-basque-bearn": as(paysBasqueBearn),
-  "perigord-quercy": as(perigordQuercy),
-  "picardie-flandre": as(picardieFlandre),
-  "poitou-saintonge": as(poitouSaintonge),
-  provence: as(provence),
-  "rouergue-cevennes": as(rouergueCevennes),
-  savoie: as(savoie),
-  "toulousain-gascogne": as(toulousainGascogne),
-  "val-loire-centre": as(valLoireCentre),
+  alsace: enrichItineraries(as(alsace), "alsace"),
+  "angevin-maine": enrichItineraries(as(angevinMaine), "angevin-maine"),
+  auvergne: enrichItineraries(as(auvergne), "auvergne"),
+  bretagne: enrichItineraries(as(bretagne), "bretagne"),
+  bourgogne: enrichItineraries(as(bourgogne), "bourgogne"),
+  champagne: enrichItineraries(as(champagne), "champagne"),
+  corse: enrichItineraries(as(corse), "corse"),
+  "cote-dazur": enrichItineraries(as(coteDazur), "cote-dazur"),
+  "dauphine-rhone": enrichItineraries(as(dauphineRhone), "dauphine-rhone"),
+  "franche-comte": enrichItineraries(as(francheComte), "franche-comte"),
+  "gironde-landes": enrichItineraries(as(girondeLandes), "gironde-landes"),
+  "ile-de-france": enrichItineraries(as(ileDeFrance), "ile-de-france"),
+  "languedoc-roussillon": enrichItineraries(as(languedocRoussillon), "languedoc-roussillon"),
+  limousin: enrichItineraries(as(limousin), "limousin"),
+  lorraine: enrichItineraries(as(lorraine), "lorraine"),
+  "nantais-vendee": enrichItineraries(as(nantaisVendee), "nantais-vendee"),
+  normandie: enrichItineraries(as(normandie), "normandie"),
+  "pays-basque-bearn": enrichItineraries(as(paysBasqueBearn), "pays-basque-bearn"),
+  "perigord-quercy": enrichItineraries(as(perigordQuercy), "perigord-quercy"),
+  "picardie-flandre": enrichItineraries(as(picardieFlandre), "picardie-flandre"),
+  "poitou-saintonge": enrichItineraries(as(poitouSaintonge), "poitou-saintonge"),
+  provence: enrichItineraries(as(provence), "provence"),
+  "rouergue-cevennes": enrichItineraries(as(rouergueCevennes), "rouergue-cevennes"),
+  savoie: enrichItineraries(as(savoie), "savoie"),
+  "toulousain-gascogne": enrichItineraries(as(toulousainGascogne), "toulousain-gascogne"),
+  "val-loire-centre": enrichItineraries(as(valLoireCentre), "val-loire-centre"),
 };
+
+/** Itinéraires Stars rattachés à un profil éditorial (pour page profil). */
+export function starItinerariesForEditorialProfile(
+  profileId: string
+): StarItineraryEditorialItem[] {
+  const out: StarItineraryEditorialItem[] = [];
+  for (const file of Object.values(STAR_ITINERARIES_EDITORIAL_BY_REGION)) {
+    for (const it of file.itineraries) {
+      if (it.editorialProfileId === profileId) out.push(it);
+    }
+  }
+  return out;
+}
 
 export function starItinerariesEditorialForRegion(
   regionId: string

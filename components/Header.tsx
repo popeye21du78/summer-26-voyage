@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
 import { Menu, LogOut, Compass } from "lucide-react";
+import { invalidateProfileIdCache } from "@/lib/me-client";
 
 const LOGO_SRC = "/A1.png";
 
@@ -44,6 +45,7 @@ export default function Header() {
   async function handleLogout() {
     try {
       await fetch("/api/auth/logout", { method: "POST" });
+      invalidateProfileIdCache();
       setMenuOpen(false);
       router.push("/");
       router.refresh();

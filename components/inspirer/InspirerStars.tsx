@@ -2,8 +2,10 @@
 
 import { useState, useMemo, useCallback, useRef, useEffect } from "react";
 import Image from "next/image";
+import LinkWithReturn from "@/components/LinkWithReturn";
 import { useSearchParams } from "next/navigation";
-import { Filter, X, ChevronRight, MapPin } from "lucide-react";
+import { Filter, X, ChevronRight, MapPin, Search } from "lucide-react";
+import { EDITORIAL_PROFILES } from "@/data/test-profiles";
 import { STAR_ITINERARIES_EDITORIAL_BY_REGION } from "@/content/inspiration/star-itineraries-editorial/index";
 import { MAP_REGIONS } from "@/lib/inspiration-map-regions-config";
 import type { StarItineraryEditorialItem } from "@/types/star-itineraries-editorial";
@@ -49,6 +51,21 @@ const CROSS_THEMES: { keyword: string; label: string }[] = [
   { keyword: "gorge", label: "Gorges & Vallées" },
   { keyword: "forêt", label: "Forêts & Nature" },
 ];
+
+function normalizeSearch(s: string) {
+  return s
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
+}
+
+function itineraryMatchesQuery(it: StarItineraryEditorialItem, q: string) {
+  if (!q) return true;
+  const hay = normalizeSearch(
+    `${it.tripTitle} ${it.themeTitle} ${it.regionId ?? ""}`
+  );
+  return hay.includes(q);
+}
 
 function buildCrossRegionThemes(regions: RegionMeta[]): CrossRegionTheme[] {
   const result: CrossRegionTheme[] = [];
@@ -103,6 +120,7 @@ export default function InspirerStars({ initialRegionFilter }: Props) {
     initialRegionFilter ?? null
   );
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState("");
   /** Clé unique région + itinéraire (évite collision de slug entre régions). */
   const [flippedKey, setFlippedKey] = useState<string | null>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -132,6 +150,31 @@ export default function InspirerStars({ initialRegionFilter }: Props) {
     [regionFilter, regionsMeta]
   );
 
+  const qNorm = useMemo(
+    () => normalizeSearch(searchQuery.trim()),
+    [searchQuery]
+  );
+
+  const groupedFiltered = useMemo(() => {
+    if (!qNorm) return grouped;
+    return grouped
+      .map((g) => ({
+        ...g,
+        items: g.items.filter((it) => itineraryMatchesQuery(it, qNorm)),
+      }))
+      .filter((g) => g.items.length > 0);
+  }, [grouped, qNorm]);
+
+  const crossThemesFiltered = useMemo(() => {
+    if (!qNorm) return crossThemes;
+    return crossThemes
+      .map((ct) => ({
+        ...ct,
+        items: ct.items.filter((it) => itineraryMatchesQuery(it, qNorm)),
+      }))
+      .filter((ct) => ct.items.length > 0);
+  }, [crossThemes, qNorm]);
+
   const handleSelectRegion = useCallback(
     (id: string | null) => {
       setRegionFilter(id);
@@ -152,8 +195,8 @@ export default function InspirerStars({ initialRegionFilter }: Props) {
   }, []);
 
   const totalCount = useMemo(
-    () => grouped.reduce((acc, g) => acc + g.items.length, 0),
-    [grouped]
+    () => groupedFiltered.reduce((acc, g) => acc + g.items.length, 0),
+    [groupedFiltered]
   );
 
   const activeRegionName = useMemo(() => {
@@ -164,19 +207,48 @@ export default function InspirerStars({ initialRegionFilter }: Props) {
   return (
     <div className="relative flex h-full min-h-0 flex-col overflow-hidden bg-[#111111]">
       {/* Top bar */}
-      <div className="flex shrink-0 items-center justify-between border-b border-white/6 bg-[#111111]/95 px-4 py-3 backdrop-blur-lg">
-        <button
-          onClick={() => setSidebarOpen(true)}
-          className="flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-1.5 font-courier text-[11px] font-bold text-white/60 transition hover:border-[#E07856]/30 hover:text-white/80"
-        >
-          <Filter className="h-3.5 w-3.5 text-[#E07856]" />
-          {activeRegionName}
-        </button>
-        <div className="flex items-center gap-2">
-          <Image src="/A1.png" alt="" width={16} height={16} className="opacity-30" style={{ filter: "brightness(0) invert(1) sepia(1) saturate(5) hue-rotate(-15deg)" }} />
-          <span className="font-courier text-[10px] text-white/25">
-            {totalCount} itinéraire{totalCount > 1 ? "s" : ""}
-          </span>
+      <div className="shrink-0 border-b border-white/6 bg-[#111111]/95 backdrop-blur-lg">
+        <div className="flex items-center justify-between px-4 py-3">
+          <button
+            onClick={() => setSidebarOpen(true)}
+            className="flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-1.5 font-courier text-[11px] font-bold text-white/60 transition hover:border-[#E07856]/30 hover:text-white/80"
+          >
+            <Filter className="h-3.5 w-3.5 text-[#E07856]" />
+            {activeRegionName}
+          </button>
+          <div className="flex items-center gap-2">
+            <Image src="/A1.png" alt="" width={16} height={16} className="opacity-30" style={{ filter: "brightness(0) invert(1) sepia(1) saturate(5) hue-rotate(-15deg)" }} />
+            <span className="font-courier text-[10px] text-white/25">
+              {totalCount} itinéraire{totalCount > 1 ? "s" : ""}
+            </span>
+          </div>
+        </div>
+        <div className="border-t border-white/5 px-4 pb-3">
+          <label className="relative block">
+            <Search className="pointer-events-none absolute left-3 top-1/2 h-3.5 w-3.5 -translate-y-1/2 text-[#E07856]/45" />
+            <input
+              type="search"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              placeholder="Rechercher un itinéraire, un thème…"
+              className="w-full rounded-xl border border-white/10 bg-white/5 py-2 pl-9 pr-3 font-courier text-[11px] text-white placeholder:text-white/25 focus:border-[#E07856]/35 focus:outline-none"
+              autoComplete="off"
+            />
+          </label>
+          <div className="mt-2 flex flex-wrap gap-2">
+            <span className="w-full font-courier text-[9px] font-bold uppercase tracking-wider text-white/25">
+              Voyageurs éditoriaux
+            </span>
+            {EDITORIAL_PROFILES.map((p) => (
+              <LinkWithReturn
+                key={p.id}
+                href={`/profil/${p.id}`}
+                className="rounded-full border border-[#E07856]/25 bg-[#E07856]/10 px-2.5 py-1 font-courier text-[10px] font-bold text-[#E07856]/90 transition hover:bg-[#E07856]/18"
+              >
+                {p.name}
+              </LinkWithReturn>
+            ))}
+          </div>
         </div>
       </div>
 
@@ -187,7 +259,7 @@ export default function InspirerStars({ initialRegionFilter }: Props) {
       >
         <div className="px-4 py-4">
           {/* Cross-region theme carousels (only when no filter) */}
-          {crossThemes.map((ct) => (
+          {crossThemesFiltered.map((ct) => (
             <div key={ct.keyword} className="mb-10">
               <h3 className="mb-4 font-courier text-xs font-bold uppercase tracking-wider text-[#E07856]">
                 {ct.label}
@@ -207,7 +279,7 @@ export default function InspirerStars({ initialRegionFilter }: Props) {
           ))}
 
           {/* Region-specific themes */}
-          {grouped.map((group) => (
+          {groupedFiltered.map((group) => (
             <div key={`${group.regionId}-${group.theme}`} className="mb-8">
               <div className="mb-3">
                 {!regionFilter && (
@@ -238,7 +310,7 @@ export default function InspirerStars({ initialRegionFilter }: Props) {
             </div>
           ))}
 
-          {grouped.length === 0 && crossThemes.length === 0 && (
+          {groupedFiltered.length === 0 && crossThemesFiltered.length === 0 && (
             <div className="flex items-center justify-center py-20">
               <p className="font-courier text-sm text-white/25">
                 Aucun itinéraire pour cette sélection.
