@@ -170,12 +170,12 @@ export default function DestinationsCarousel({ voyages }: Props) {
                       className="object-cover transition-transform duration-300 group-hover:scale-105"
                       sizes="340px"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
-                    <div className="absolute bottom-0 left-0 right-0 p-5">
-                      <p className="font-courier text-xl font-bold text-white drop-shadow-lg">
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/25 to-black/20" />
+                    <div className="absolute inset-0 flex flex-col items-center justify-center px-5 text-center">
+                      <p className="font-courier text-xl font-bold text-white drop-shadow-[0_2px_16px_rgba(0,0,0,0.9)]">
                         {v.titre}
                       </p>
-                      <p className="mt-1 font-courier text-sm text-[#E07856]">{v.sousTitre}</p>
+                      <p className="mt-2 font-courier text-sm text-[#E07856]">{v.sousTitre}</p>
                       <p className="mt-1 font-courier text-xs text-white/90">
                         {v.dureeJours}j · {villes}
                       </p>

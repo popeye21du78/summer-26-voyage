@@ -48,7 +48,7 @@ function StarThemePreviewCard({
     >
       <div className="relative h-[100px] w-full bg-[#3d3430]">
         <Image src={src} alt="" fill className="object-cover" sizes="200px" />
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/65 via-black/15 to-black/30" />
         <PhotoCurationOverlay
           slug={`explore-star-theme:${it.itinerarySlug}`}
           imageUrl={src}
@@ -56,7 +56,7 @@ function StarThemePreviewCard({
           compact
           onOther={() => setOffset((o) => o + 1)}
         />
-        <span className="pointer-events-none absolute bottom-9 left-2 right-2 z-20 font-courier text-[11px] font-bold leading-tight text-white drop-shadow">
+        <span className="pointer-events-none absolute inset-0 z-20 flex items-center justify-center px-2 text-center font-courier text-[11px] font-bold leading-tight text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.9)]">
           {it.themeTitle}
         </span>
       </div>
@@ -293,8 +293,8 @@ export default function ExploreRegionContent({
                             photoCuration
                             curationTitle={nom}
                           />
-                          <div className="absolute inset-0 bg-gradient-to-t from-black/65 to-transparent" />
-                          <span className="absolute bottom-2 left-2 right-2 font-courier text-[11px] font-bold uppercase tracking-wide text-white drop-shadow">
+                          <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-black/35" />
+                          <span className="pointer-events-none absolute inset-0 z-[40] flex items-center justify-center px-2 text-center font-courier text-[11px] font-bold uppercase leading-tight tracking-wide text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.9)]">
                             {nom}
                           </span>
                         </div>
@@ -355,8 +355,8 @@ export default function ExploreRegionContent({
                             curationCompact
                             curationTitle={l.nom}
                           />
-                          <div className="absolute inset-0 bg-gradient-to-t from-black/55 to-transparent" />
-                          <span className="absolute bottom-1.5 left-2 right-2 line-clamp-2 font-courier text-[10px] font-bold text-white">
+                          <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-black/35" />
+                          <span className="pointer-events-none absolute inset-0 z-[40] flex items-center justify-center px-2 text-center line-clamp-3 font-courier text-[10px] font-bold leading-tight text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.9)]">
                             {l.nom}
                           </span>
                         </div>

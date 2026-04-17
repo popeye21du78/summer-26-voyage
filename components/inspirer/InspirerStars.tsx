@@ -1,6 +1,5 @@
 "use client";
 
-import dynamic from "next/dynamic";
 import { useState, useMemo, useCallback, useRef, useEffect } from "react";
 import Image from "next/image";
 import { useSearchParams } from "next/navigation";
@@ -8,15 +7,7 @@ import { Filter, X, ChevronRight, MapPin } from "lucide-react";
 import { STAR_ITINERARIES_EDITORIAL_BY_REGION } from "@/content/inspiration/star-itineraries-editorial/index";
 import { MAP_REGIONS } from "@/lib/inspiration-map-regions-config";
 import type { StarItineraryEditorialItem } from "@/types/star-itineraries-editorial";
-const StarFlipCard = dynamic(() => import("./StarFlipCard"), {
-  ssr: false,
-  loading: () => (
-    <div
-      className="w-full min-h-[260px] animate-pulse rounded-2xl border border-white/6 bg-white/[0.04]"
-      aria-hidden
-    />
-  ),
-});
+import StarFlipCard from "./StarFlipCard";
 
 type RegionMeta = { id: string; name: string; count: number };
 
@@ -188,20 +179,19 @@ export default function InspirerStars({ initialRegionFilter }: Props) {
         <div className="px-4 py-4">
           {/* Cross-region theme carousels (only when no filter) */}
           {crossThemes.map((ct) => (
-            <div key={ct.keyword} className="mb-8">
-              <h3 className="mb-3 font-courier text-xs font-bold uppercase tracking-wider text-[#E07856]">
+            <div key={ct.keyword} className="mb-10">
+              <h3 className="mb-4 font-courier text-xs font-bold uppercase tracking-wider text-[#E07856]">
                 {ct.label}
               </h3>
-              <div className="flex gap-3 overflow-x-auto pb-2 scrollbar-hide">
+              <div className="flex flex-col gap-5">
                 {ct.items.map((it) => (
-                  <div key={it.itinerarySlug} className="w-[220px] shrink-0">
-                    <StarFlipCard
-                      itinerary={it}
-                      isFlipped={flippedSlug === it.itinerarySlug}
-                      onFlip={() => handleFlip(it.itinerarySlug)}
-                      compact
-                    />
-                  </div>
+                  <StarFlipCard
+                    key={it.itinerarySlug}
+                    itinerary={it}
+                    isFlipped={flippedSlug === it.itinerarySlug}
+                    onFlip={() => handleFlip(it.itinerarySlug)}
+                    compact
+                  />
                 ))}
               </div>
             </div>

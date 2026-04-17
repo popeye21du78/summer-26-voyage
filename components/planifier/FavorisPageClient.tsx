@@ -153,8 +153,8 @@ function RegionFavoriteCard({
             <Heart className="h-10 w-10 text-white/40" />
           </div>
         )}
-        <div className="absolute inset-0 bg-gradient-to-t from-[#2a211c]/85 to-transparent" />
-        <span className="absolute bottom-3 left-3 right-3 font-courier text-lg font-bold uppercase tracking-wide text-white drop-shadow">
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#2a211c]/85 via-[#2a211c]/25 to-transparent" />
+        <span className="pointer-events-none absolute inset-0 flex items-center justify-center px-3 text-center font-courier text-lg font-bold uppercase leading-tight tracking-wide text-white drop-shadow-[0_2px_14px_rgba(0,0,0,0.85)]">
           {fav.label}
         </span>
       </div>

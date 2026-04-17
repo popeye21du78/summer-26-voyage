@@ -31,7 +31,8 @@ export function decorLinesFromRegionName(name: string): [string, string] {
 }
 
 type RegionHeroProps = {
-  imageSrc: string;
+  /** null = placeholder neutre (pas d’image « au pif » pendant le chargement). */
+  imageSrc: string | null;
   regionName: string;
   onBack?: () => void;
   /** Sous-titre court sous le nom (accroche). */
@@ -62,14 +63,27 @@ export function InspirationRegionHero({
       <div
         className={`relative w-full overflow-hidden ${isFull ? "h-[min(46vh,440px)] min-h-[300px] sm:h-[min(44vh,480px)]" : "h-[130px] sm:h-[148px]"}`}
       >
-        <Image
-          src={imageSrc}
-          alt=""
-          fill
-          className="photo-bw-reveal object-cover"
-          sizes="100vw"
-          priority
-        />
+        {imageSrc ? (
+          <Image
+            src={imageSrc}
+            alt=""
+            fill
+            className="photo-bw-reveal object-cover"
+            sizes="100vw"
+            priority
+          />
+        ) : (
+          <div className="absolute inset-0 flex items-center justify-center bg-[#111111]">
+            <Image
+              src="/A1.png"
+              alt=""
+              width={isFull ? 56 : 40}
+              height={isFull ? 56 : 40}
+              className="opacity-25"
+              style={{ filter: "brightness(0) invert(1) sepia(1) saturate(5) hue-rotate(-15deg)" }}
+            />
+          </div>
+        )}
         <div
           className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-[#111111]/90"
           aria-hidden

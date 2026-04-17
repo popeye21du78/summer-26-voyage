@@ -340,12 +340,12 @@ export function VilleDescriptionClient({
                     ? "Inspiration"
                     : "Retour"}
           </Link>
-          <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/55 via-black/15 to-transparent p-6 pb-10 pt-16">
+          <div className="pointer-events-none absolute inset-0 z-[15] flex flex-col items-center justify-center bg-gradient-to-t from-black/65 via-black/25 to-black/35 px-5 text-center">
             <motion.h1
               initial={{ opacity: 0, y: 16 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
-              className="break-words font-courier text-3xl font-bold tracking-wider md:text-5xl"
+              className="max-w-[95%] break-words font-courier text-3xl font-bold tracking-wider drop-shadow-[0_2px_20px_rgba(0,0,0,0.85)] md:text-5xl"
               style={TITLE_GRADIENT_STYLE}
             >
               {nom}

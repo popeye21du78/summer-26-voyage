@@ -307,11 +307,13 @@ function PreviewRegion({
     () => (r ? regionAmbianceTags(r.accroche_carte, 3) : []),
     [r]
   );
-  const { src: heroImageSrc } = useRegionCardResolvedPhoto({
+  const { src: heroImageSrc, resolveDone } = useRegionCardResolvedPhoto({
     id: r?.id ?? regionId,
     headerPhoto: r?.headerPhoto ?? "",
   });
   if (!r) return null;
+
+  const heroSrc = resolveDone ? heroImageSrc ?? r.headerPhoto : null;
 
   return (
     <SheetChrome
@@ -323,7 +325,7 @@ function PreviewRegion({
     >
       <div className={`min-h-0 flex-1 ${INSPI_TEXT_PRIMARY}`}>
         <InspirationRegionHero
-          imageSrc={heroImageSrc || r.headerPhoto}
+          imageSrc={heroSrc}
           regionName={r.name}
           tagline={r.accroche_carte}
           density="preview"
@@ -708,8 +710,8 @@ function StarListSheet({
                       className="object-cover transition duration-500 group-hover:scale-[1.03]"
                       sizes="(max-width:640px) 100vw, 100vw"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/78 via-black/25 to-transparent" />
-                    <span className="absolute bottom-3 left-4 right-4 font-courier text-base font-bold leading-snug text-white drop-shadow-sm">
+                    <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/65 via-black/20 to-black/35" />
+                    <span className="pointer-events-none absolute inset-0 flex items-center justify-center px-4 text-center font-courier text-base font-bold leading-snug text-white drop-shadow-[0_2px_14px_rgba(0,0,0,0.85)]">
                       {t}
                     </span>
                   </button>
@@ -774,8 +776,8 @@ function StarListSheet({
               {voyageHeroUrl ? (
                 <div className="relative aspect-[21/9] w-full overflow-hidden rounded-2xl border border-[#E07856]/15 shadow-md">
                   <Image src={voyageHeroUrl} alt="" fill className="object-cover" sizes="100vw" />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/55 to-transparent" />
-                  <p className="absolute bottom-2 left-3 right-3 font-courier text-xs font-bold text-white drop-shadow">
+                  <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/60 via-black/15 to-black/30" />
+                  <p className="pointer-events-none absolute inset-0 flex items-center justify-center px-4 text-center font-courier text-xs font-bold leading-snug text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.9)]">
                     {matched.tripTitle}
                   </p>
                 </div>

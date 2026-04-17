@@ -8,6 +8,12 @@ import { ArrowLeft, Map as MapIcon, Star, Sparkles, ChevronRight } from "lucide-
 import { getRegionEditorial } from "@/content/inspiration/regions";
 import { starItinerariesByRegion } from "@/content/inspiration/star-itineraries";
 import { slugFromNom } from "@/lib/slug-from-nom";
+import {
+  cacheKeysRegionHeader,
+  cachePhotoUrl,
+  getCachedPhotoUrl,
+} from "@/lib/client-photo-cache";
+import { getUserValidatedPhotoUrl } from "@/lib/client-photo-validated";
 import { CityPhoto } from "@/components/CityPhoto";
 import { PhotoCurationOverlay } from "@/components/PhotoCurationOverlay";
 import type { StarItinerariesEditorialFile, StarItineraryEditorialItem } from "@/types/star-itineraries-editorial";
@@ -20,14 +26,52 @@ export default function RegionFullPage({ regionId }: Props) {
   const router = useRouter();
   const editorial = getRegionEditorial(regionId);
   const legacyStars = starItinerariesByRegion(regionId);
+  const regionHeaderSlug = `region-header:${regionId}`;
 
   const [lieux, setLieux] = useState<SlimLieu[]>([]);
   const [editorialStars, setEditorialStars] = useState<StarItineraryEditorialItem[]>([]);
-  const [headerUrl, setHeaderUrl] = useState(() => editorial?.headerPhoto ?? "");
+  const [headerUrl, setHeaderUrl] = useState("");
+  const [heroReady, setHeroReady] = useState(false);
 
   useEffect(() => {
-    if (editorial?.headerPhoto) setHeaderUrl(editorial.headerPhoto);
-  }, [regionId, editorial?.headerPhoto]);
+    if (!editorial) return;
+    const cached =
+      getCachedPhotoUrl(cacheKeysRegionHeader(regionId)) ??
+      getUserValidatedPhotoUrl(regionHeaderSlug);
+    if (cached) {
+      setHeaderUrl(cached);
+      setHeroReady(true);
+      return;
+    }
+    setHeaderUrl("");
+    setHeroReady(false);
+    let cancelled = false;
+    fetch(
+      `/api/photo-resolve?slug=${encodeURIComponent(regionHeaderSlug)}&stepId=${encodeURIComponent(regionId)}&photoIndex=0`
+    )
+      .then((r) => (r.ok ? r.json() : null))
+      .then((d: { url?: string | null } | null) => {
+        if (cancelled) return;
+        const u = d?.url?.trim();
+        setHeaderUrl(u || editorial.headerPhoto);
+        setHeroReady(true);
+      })
+      .catch(() => {
+        if (!cancelled) {
+          setHeaderUrl(editorial.headerPhoto);
+          setHeroReady(true);
+        }
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [editorial, regionId, regionHeaderSlug]);
+
+  useEffect(() => {
+    if (heroReady && headerUrl.trim()) {
+      cachePhotoUrl(cacheKeysRegionHeader(regionId), headerUrl);
+    }
+  }, [regionId, heroReady, headerUrl]);
 
   useEffect(() => {
     fetch(`/api/inspiration/lieux-region?regionId=${encodeURIComponent(regionId)}`)
@@ -52,31 +96,52 @@ export default function RegionFullPage({ regionId }: Props) {
   return (
     <main className="min-h-full overflow-y-auto bg-[#111111]">
       {/* Hero - vertical aspect */}
-      <div className="relative aspect-[3/4] max-h-[55vh] min-h-[300px] overflow-hidden">
-        <Image
-          src={headerUrl || editorial.headerPhoto}
-          alt={editorial.name}
-          fill
-          className="photo-bw-reveal object-cover"
-          priority
-          sizes="100vw"
-        />
+      <div className="relative aspect-[3/4] max-h-[55vh] min-h-[300px] overflow-hidden bg-[#111111]">
+        {heroReady && headerUrl ? (
+          <Image
+            src={headerUrl}
+            alt={editorial.name}
+            fill
+            className="photo-bw-reveal object-cover"
+            priority
+            sizes="100vw"
+          />
+        ) : (
+          <div className="absolute inset-0 flex items-center justify-center bg-[#111111]">
+            <Image
+              src="/A1.png"
+              alt=""
+              width={64}
+              height={64}
+              className="opacity-25"
+              style={{ filter: "brightness(0) invert(1) sepia(1) saturate(5) hue-rotate(-15deg)" }}
+            />
+          </div>
+        )}
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#111111] via-black/30 to-transparent" />
-        <PhotoCurationOverlay
-          slug={`region-header:${regionId}`}
-          imageUrl={headerUrl || editorial.headerPhoto}
-          title={editorial.name}
-          onOther={() => {
-            fetch(
-              `/api/photo-ville?stepId=${encodeURIComponent(`region-header-${regionId}`)}&ville=${encodeURIComponent(editorial.name)}&slug=${encodeURIComponent(regionId)}&refresh=1`
-            )
-              .then((r) => (r.ok ? r.json() : null))
-              .then((d: { url?: string }) => {
-                if (d?.url) setHeaderUrl(d.url);
-              })
-              .catch(() => {});
-          }}
-        />
+        {heroReady && headerUrl ? (
+          <PhotoCurationOverlay
+            slug={regionHeaderSlug}
+            imageUrl={headerUrl}
+            title={editorial.name}
+            compact
+            photoLookupStepId={regionId}
+            sessionPhotoCacheKey={cacheKeysRegionHeader(regionId)}
+            onOther={() => {
+              fetch(
+                `/api/photo-ville?stepId=${encodeURIComponent(`region-header-${regionId}`)}&ville=${encodeURIComponent(editorial.name)}&slug=${encodeURIComponent(regionId)}&refresh=1`
+              )
+                .then((r) => (r.ok ? r.json() : null))
+                .then((d: { url?: string }) => {
+                  if (d?.url) {
+                    setHeaderUrl(d.url);
+                    cachePhotoUrl(cacheKeysRegionHeader(regionId), d.url);
+                  }
+                })
+                .catch(() => {});
+            }}
+          />
+        ) : null}
 
         <button
           onClick={() => router.back()}
@@ -126,16 +191,16 @@ export default function RegionFullPage({ regionId }: Props) {
         <h2 className="font-courier text-xs font-bold uppercase tracking-wider text-[#E07856]">
           3 incontournables
         </h2>
-        <div className="mt-4 flex gap-3 overflow-x-auto pb-2 scrollbar-hide">
+        <div className="mt-4 flex flex-col gap-4">
           {editorial.trois_incontournables.map((item, i) => {
             const slug = slugFromNom(item);
             return (
               <Link
                 key={`${slug}-${i}`}
                 href={`/inspirer/ville/${slug}?from=region&region=${regionId}`}
-                className="group relative w-[min(72vw,200px)] shrink-0 overflow-hidden rounded-2xl border border-white/6"
+                className="group relative w-full overflow-hidden rounded-2xl border border-white/6"
               >
-                <div className="relative aspect-[3/4] bg-[#111111]">
+                <div className="relative aspect-[16/10] min-h-[168px] bg-[#111111]">
                   <CityPhoto
                     stepId={slug}
                     ville={item}
@@ -145,8 +210,8 @@ export default function RegionFullPage({ regionId }: Props) {
                     curationCompact
                     curationTitle={item}
                   />
-                  <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-gradient-to-t from-black/75 via-black/20 to-black/30 p-3">
-                    <span className="text-center font-courier text-lg font-bold leading-tight text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.95)] sm:text-xl">
+                  <div className="pointer-events-none absolute inset-0 z-[45] flex items-center justify-center bg-gradient-to-t from-black/55 via-black/10 to-black/35 px-4">
+                    <span className="text-center font-courier text-xl font-bold leading-tight text-white drop-shadow-[0_2px_16px_rgba(0,0,0,0.95)] sm:text-2xl">
                       {item}
                     </span>
                   </div>
@@ -163,14 +228,14 @@ export default function RegionFullPage({ regionId }: Props) {
           <h2 className="mb-4 font-courier text-xs font-bold uppercase tracking-wider text-[#E07856]">
             Lieux à découvrir
           </h2>
-          <div className="flex gap-3 overflow-x-auto pb-2 scrollbar-hide">
+          <div className="flex flex-col gap-4">
             {lieux.map((l) => (
               <Link
                 key={l.slug}
                 href={`/inspirer/ville/${l.slug}?from=region&region=${regionId}`}
-                className="group relative w-[130px] shrink-0 overflow-hidden rounded-2xl border border-white/6"
+                className="group relative w-full overflow-hidden rounded-2xl border border-white/6"
               >
-                <div className="relative aspect-[3/4] bg-[#111111]">
+                <div className="relative aspect-[16/10] min-h-[152px] bg-[#111111]">
                   <CityPhoto
                     stepId={l.slug}
                     ville={l.nom}
@@ -180,8 +245,8 @@ export default function RegionFullPage({ regionId }: Props) {
                     curationCompact
                     curationTitle={l.nom}
                   />
-                  <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-gradient-to-t from-black/80 via-black/25 to-black/35 p-2">
-                    <span className="text-center font-courier text-base font-bold leading-tight text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.95)] sm:text-lg">
+                  <div className="pointer-events-none absolute inset-0 z-[45] flex items-center justify-center bg-gradient-to-t from-black/55 via-black/10 to-black/35 px-4">
+                    <span className="text-center font-courier text-lg font-bold leading-tight text-white drop-shadow-[0_2px_16px_rgba(0,0,0,0.95)] sm:text-xl">
                       {l.nom}
                     </span>
                   </div>

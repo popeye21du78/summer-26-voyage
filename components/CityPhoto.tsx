@@ -2,6 +2,15 @@
 
 import { useEffect, useState, useCallback, useRef } from "react";
 import { slugForLieuPhoto } from "@/lib/slug-for-lieu-photo";
+import {
+  cacheKeysLieuResolve,
+  cachePhotoUrl,
+  getCachedPhotoUrl,
+} from "@/lib/client-photo-cache";
+import {
+  getClientPublicPhotoPick,
+  getResolvedPhotoUrlList,
+} from "@/lib/public-photo-client";
 import { sharpenUnsplashUrl } from "@/lib/photo-display-url";
 import { PhotoCurationOverlay } from "@/components/PhotoCurationOverlay";
 
@@ -43,6 +52,8 @@ export function CityPhoto({
   const [photoIndex, setPhotoIndex] = useState(0);
   /** true = cycling uniquement JSON beauty/maintenance ; false = flux /api/photo-ville (Wikipedia, etc.) */
   const fromSiteJson = useRef(false);
+  /** true = URL issue de l’index embarqué (top 200 + validations fichier) — pas d’API resolve. */
+  const fromEmbeddedIndex = useRef(false);
 
   const fetchPhotoVille = useCallback(
     (refresh = false, nextIndex?: number) => {
@@ -66,6 +77,10 @@ export function CityPhoto({
         })
         .then((data: RemoteJson) => {
           if (cancelled) return;
+          if (data.url) {
+            const s = slugForLieuPhoto(stepId, ville);
+            cachePhotoUrl(cacheKeysLieuResolve(s, stepId), data.url);
+          }
           setUrl(data.url ?? null);
           const tw = data.totalWikipedia;
           if (tw != null) setTotalAlternatives(tw);
@@ -90,14 +105,43 @@ export function CityPhoto({
       setUrl(initialUrl);
       setLoading(false);
       fromSiteJson.current = false;
+      fromEmbeddedIndex.current = false;
       return;
     }
 
     let cancelled = false;
     const slug = slugForLieuPhoto(stepId, ville);
+    const cacheKey = cacheKeysLieuResolve(slug, stepId);
+    const cached = getCachedPhotoUrl(cacheKey);
+    fromEmbeddedIndex.current = false;
+    setError(false);
+
+    if (cached) {
+      setUrl(cached);
+      setLoading(false);
+      fromSiteJson.current = true;
+      const list = getResolvedPhotoUrlList(slug, stepId);
+      setTotalAlternatives(list?.length ? list.length : 1);
+      return () => {
+        cancelled = true;
+      };
+    }
+
+    const embedded = getClientPublicPhotoPick(slug, stepId, 0);
+    if (embedded) {
+      setUrl(embedded.url);
+      cachePhotoUrl(cacheKey, embedded.url);
+      setTotalAlternatives(embedded.total);
+      setPhotoIndex(0);
+      fromSiteJson.current = true;
+      fromEmbeddedIndex.current = true;
+      setLoading(false);
+      return () => {
+        cancelled = true;
+      };
+    }
 
     setLoading(true);
-    setError(false);
 
     fetch(
       `/api/photo-resolve?slug=${encodeURIComponent(slug)}&stepId=${encodeURIComponent(stepId)}&photoIndex=0`
@@ -107,6 +151,7 @@ export function CityPhoto({
         if (cancelled) return;
         if (data?.url) {
           setUrl(data.url);
+          cachePhotoUrl(cacheKey, data.url);
           setTotalAlternatives(data.total ?? 1);
           fromSiteJson.current = true;
           setPhotoIndex(0);
@@ -127,6 +172,16 @@ export function CityPhoto({
   const handleChangePhoto = () => {
     const slug = slugForLieuPhoto(stepId, ville);
     const total = totalAlternatives ?? 0;
+    const indexedList = getResolvedPhotoUrlList(slug, stepId);
+
+    if (fromSiteJson.current && indexedList && indexedList.length > 1) {
+      const next = (photoIndex + 1) % indexedList.length;
+      setPhotoIndex(next);
+      const nextUrl = indexedList[next];
+      setUrl(nextUrl);
+      cachePhotoUrl(cacheKeysLieuResolve(slug, stepId), nextUrl);
+      return;
+    }
 
     if (fromSiteJson.current && total > 1) {
       const next = (photoIndex + 1) % total;
@@ -138,6 +193,7 @@ export function CityPhoto({
         .then((r) => (r.ok ? r.json() : null))
         .then((data: RemoteJson) => {
           if (data?.url) {
+            cachePhotoUrl(cacheKeysLieuResolve(slug, stepId), data.url);
             setUrl(data.url);
             setLoading(false);
           } else {
@@ -205,6 +261,7 @@ export function CityPhoto({
       {photoCuration && (
         <PhotoCurationOverlay
           slug={curationSlug}
+          photoLookupStepId={stepId}
           imageUrl={url}
           title={curationTitle ?? ville}
           onOther={handleChangePhoto}

@@ -72,7 +72,7 @@ export default function HeroPhotoStrip({ photos, overlay, suppressFallback }: Pr
               className="absolute inset-0"
               style={{ backgroundColor: "rgba(0,0,0,0.35)" }}
             />
-            <div className="absolute bottom-4 left-4 right-4 font-courier text-sm font-bold text-white drop-shadow-lg">
+            <div className="absolute inset-0 flex items-center justify-center px-6 text-center font-courier text-sm font-bold text-white drop-shadow-[0_2px_16px_rgba(0,0,0,0.9)]">
               {p.nom}
             </div>
           </div>

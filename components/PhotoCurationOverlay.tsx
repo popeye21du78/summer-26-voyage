@@ -2,7 +2,10 @@
 
 import { useCallback, useEffect, useRef, useState } from "react";
 import { Check } from "lucide-react";
+import { cacheKeysLieuResolve, cachePhotoUrl } from "@/lib/client-photo-cache";
+import { persistUserValidatedPhoto } from "@/lib/client-photo-validated";
 import { minimalCommonsPhoto } from "@/lib/photo-curation-commons";
+import { isOfflineKnownPhoto } from "@/lib/public-photo-client";
 import { sharpenUnsplashUrl } from "@/lib/photo-display-url";
 
 type Props = {
@@ -13,6 +16,10 @@ type Props = {
   className?: string;
   /** Vignettes étroites (carousel stars, etc.) */
   compact?: boolean;
+  /** Pour résoudre l’index embarqué (même clé que photo-resolve). */
+  photoLookupStepId?: string;
+  /** Clé sessionStorage additionnelle (ex. hero région `region-header:…`). */
+  sessionPhotoCacheKey?: string;
 };
 
 export function PhotoCurationOverlay({
@@ -22,6 +29,8 @@ export function PhotoCurationOverlay({
   onOther,
   className,
   compact,
+  photoLookupStepId,
+  sessionPhotoCacheKey,
 }: Props) {
   const normSlug = slug.trim().toLowerCase();
   const displayUrl = sharpenUnsplashUrl(imageUrl);
@@ -38,6 +47,12 @@ export function PhotoCurationOverlay({
 
   useEffect(() => {
     if (!normSlug || !imageUrl) {
+      setLoading(false);
+      return;
+    }
+    const step = (photoLookupStepId ?? normSlug).trim().toLowerCase();
+    if (isOfflineKnownPhoto(normSlug, step, imageUrl)) {
+      setValidated(true);
       setLoading(false);
       return;
     }
@@ -59,7 +74,7 @@ export function PhotoCurationOverlay({
     return () => {
       cancelled = true;
     };
-  }, [normSlug, displayUrl, imageUrl]);
+  }, [normSlug, displayUrl, imageUrl, photoLookupStepId]);
 
   const handleValidate = useCallback(
     async (e: React.MouseEvent) => {
@@ -84,6 +99,15 @@ export function PhotoCurationOverlay({
         if (!res.ok) {
           validatedThisPhotoRef.current = false;
           setValidated(false);
+        } else {
+          const raw = imageUrl.trim();
+          persistUserValidatedPhoto(normSlug, raw);
+          if (photoLookupStepId) {
+            cachePhotoUrl(cacheKeysLieuResolve(normSlug, photoLookupStepId), raw);
+          }
+          if (sessionPhotoCacheKey) {
+            cachePhotoUrl(sessionPhotoCacheKey, raw);
+          }
         }
       } catch {
         validatedThisPhotoRef.current = false;
@@ -92,7 +116,7 @@ export function PhotoCurationOverlay({
         setPosting(false);
       }
     },
-    [displayUrl, normSlug, posting, title, validated]
+    [displayUrl, normSlug, photoLookupStepId, posting, sessionPhotoCacheKey, title, validated]
   );
 
   const handleOther = useCallback(
@@ -111,8 +135,10 @@ export function PhotoCurationOverlay({
 
   return (
     <div
-      className={`pointer-events-auto z-30 flex items-end justify-center ${
-        compact ? "absolute bottom-0 left-0 right-0 pb-1 pt-6" : "absolute bottom-2 left-2 right-2"
+      className={`pointer-events-auto z-30 flex justify-center ${
+        compact
+          ? "absolute left-1 right-1 top-1 items-start pt-0"
+          : "absolute bottom-2 left-2 right-2 items-end"
       } ${className ?? ""}`}
       onPointerDown={(e) => e.stopPropagation()}
       onClick={(e) => e.stopPropagation()}

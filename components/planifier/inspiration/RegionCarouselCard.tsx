@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import { cacheKeysCarouselCard } from "@/lib/client-photo-cache";
 import { useRegionCardResolvedPhoto } from "@/hooks/useRegionCardResolvedPhoto";
 import type { RegionEditorialContent } from "@/types/inspiration";
 import { PhotoCurationOverlay } from "@/components/PhotoCurationOverlay";
@@ -21,7 +22,8 @@ export default function RegionCarouselCard({
   const [manualSrc, setManualSrc] = useState<string | null>(null);
   const [imgReady, setImgReady] = useState(false);
 
-  const displaySrc = manualSrc ?? src;
+  const displaySrc = manualSrc ?? src ?? "";
+  const showPhoto = displaySrc.length > 0;
 
   useEffect(() => {
     setManualSrc(null);
@@ -56,7 +58,7 @@ export default function RegionCarouselCard({
       }`}
     >
       <div className="relative aspect-[3/4] w-full overflow-hidden bg-[#111111]">
-        {!imgReady && (
+        {!showPhoto && (
           <div className="absolute inset-0 z-[1] flex items-center justify-center bg-[#111111]">
             <Image
               src="/A1.png"
@@ -68,20 +70,47 @@ export default function RegionCarouselCard({
             />
           </div>
         )}
-        <Image
-          src={displaySrc}
-          alt=""
-          fill
-          sizes="140px"
-          className={`photo-bw-reveal object-cover transition-opacity duration-200 ${imgReady ? "opacity-100" : "opacity-0"}`}
-          onLoadingComplete={() => setImgReady(true)}
-        />
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
+        {showPhoto && (
+          <>
+            {!imgReady && (
+              <div className="absolute inset-0 z-[1] flex items-center justify-center bg-[#111111]">
+                <Image
+                  src="/A1.png"
+                  alt=""
+                  width={48}
+                  height={48}
+                  className="opacity-30"
+                  style={{ filter: "brightness(0) invert(1) sepia(1) saturate(5) hue-rotate(-15deg)" }}
+                />
+              </div>
+            )}
+            <Image
+              src={displaySrc}
+              alt=""
+              fill
+              sizes="140px"
+              className={`photo-bw-reveal object-cover transition-opacity duration-200 ${imgReady ? "opacity-100" : "opacity-0"}`}
+              onLoadingComplete={() => setImgReady(true)}
+            />
+          </>
+        )}
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/65 via-black/15 to-black/30" />
+        <div className="pointer-events-none absolute inset-0 z-[38] flex flex-col items-center justify-center px-2 text-center">
+          <span className="line-clamp-2 font-courier text-[11px] font-bold leading-tight text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.9)]">
+            {r.name}
+          </span>
+          <p className="mt-1 line-clamp-2 font-courier text-[9px] leading-snug text-white/65">
+            {r.accroche_carte}
+          </p>
+        </div>
+        {showPhoto && (
         <PhotoCurationOverlay
           slug={`carousel-card:${r.id}`}
           imageUrl={displaySrc}
           title={r.name}
           compact
+          photoLookupStepId={r.id}
+          sessionPhotoCacheKey={cacheKeysCarouselCard(r.id)}
           onOther={() => {
             const list = pool.length > 0 ? pool : [r.headerPhoto];
             if (list.length <= 1) {
@@ -99,16 +128,9 @@ export default function RegionCarouselCard({
             setManualSrc(list[(idx + 1) % list.length]!);
           }}
         />
+        )}
       </div>
-      <div className="absolute inset-x-0 bottom-0 p-2.5">
-        <span className="line-clamp-2 font-courier text-[11px] font-bold leading-tight text-white drop-shadow-lg">
-          {r.name}
-        </span>
-        <p className="mt-0.5 line-clamp-1 font-courier text-[9px] leading-snug text-white/50">
-          {r.accroche_carte}
-        </p>
-      </div>
-      <span className="absolute right-1.5 top-1.5 z-10" onClick={(e) => e.stopPropagation()}>
+      <span className="absolute right-1.5 top-1.5 z-[42]" onClick={(e) => e.stopPropagation()}>
         <FavoriteButton kind="map_region" refId={r.id} label={r.name} />
       </span>
     </div>
