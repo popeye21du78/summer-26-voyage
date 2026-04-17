@@ -96,7 +96,7 @@ export default function InspirerTabs({
   }, []);
 
   return (
-    <div className="flex h-full min-h-0 flex-1 flex-col">
+    <div className="flex h-full min-h-0 min-w-0 flex-1 flex-col">
       <div className="shrink-0 border-b border-white/6 bg-[#111111]/95 backdrop-blur-lg">
         <div className="flex items-stretch" role="tablist">
           {TABS.map(({ id, label, icon: Icon }) => {
@@ -124,7 +124,11 @@ export default function InspirerTabs({
         </div>
       </div>
 
-      <div className="relative min-h-0 flex-1 overflow-hidden">
+      {/* Hauteur mini viewport : sinon flex-1 → 0 et la carte Mapbox (absolute inset-0) reste à 0 px */}
+      <div
+        className="relative min-h-0 flex-1 overflow-hidden"
+        style={{ minHeight: "calc(100dvh - 8.25rem)" }}
+      >
         <TabPanel
           visible={active === "carte"}
           mounted={mountedTabs.carte}

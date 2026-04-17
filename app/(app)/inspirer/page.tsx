@@ -11,7 +11,7 @@ export default async function InspirerPage({ searchParams }: Props) {
   const initialRegion = typeof sp?.region === "string" ? sp.region : undefined;
 
   return (
-    <div className="flex h-full min-h-0 flex-1 flex-col">
+    <div className="flex min-h-0 flex-1 flex-col [min-height:calc(100dvh-5rem)]">
       <InspirerTabs
         mapboxAccessToken={mapboxToken}
         initialTab={initialTab}

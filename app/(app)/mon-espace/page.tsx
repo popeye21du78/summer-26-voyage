@@ -8,10 +8,12 @@ export default async function MonEspacePage() {
   const profile = getProfileById(profileId);
 
   return (
-    <MonEspaceShell
-      profileId={profileId}
-      profileName={profile?.name ?? "Voyageur"}
-      situationLabel={profile?.situationLabel ?? ""}
-    />
+    <div className="flex min-h-0 flex-1 flex-col [min-height:calc(100dvh-5rem)]">
+      <MonEspaceShell
+        profileId={profileId}
+        profileName={profile?.name ?? "Voyageur"}
+        situationLabel={profile?.situationLabel ?? ""}
+      />
+    </div>
   );
 }

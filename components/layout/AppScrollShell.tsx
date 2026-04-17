@@ -45,7 +45,8 @@ export default function AppScrollShell({ children }: { children: React.ReactNode
       ref={elRef}
       className="min-h-0 flex-1 overflow-y-auto overflow-x-hidden scroll-smooth [scrollbar-gutter:stable]"
     >
-      <div className="min-h-0 transition-opacity duration-150 ease-out">{children}</div>
+      {/* min-h-full : établit une hauteur pour les enfants h-full / onglets absolute inset-0 */}
+      <div className="min-h-full w-full transition-opacity duration-150 ease-out">{children}</div>
     </div>
   );
 }

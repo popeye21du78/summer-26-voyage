@@ -115,7 +115,7 @@ export default function MonEspaceShell({
   }
 
   return (
-    <main className="flex h-full min-h-0 flex-col overflow-hidden bg-[#111111]">
+    <main className="flex h-full min-h-0 min-w-0 flex-1 flex-col overflow-hidden bg-[#111111]">
       <div className="shrink-0 border-b border-white/6 bg-[#111111]/95 backdrop-blur-lg">
         <div className="flex items-stretch" role="tablist">
           {SECTIONS.map(({ id, label, icon: Icon }) => {
@@ -173,7 +173,11 @@ export default function MonEspaceShell({
         </button>
       </LinkWithReturn>
 
-      <div className="relative min-h-0 flex-1 overflow-hidden">
+      {/* Sans minHeight explicite, flex-1 peut rester à 0 → panneaux absolute inset-0 invisibles */}
+      <div
+        className="relative min-h-0 flex-1 overflow-hidden"
+        style={{ minHeight: "calc(100dvh - 13rem)" }}
+      >
         <TabPanel
           visible={activeSection === "voyages"}
           mounted={mountedSections.has("voyages")}

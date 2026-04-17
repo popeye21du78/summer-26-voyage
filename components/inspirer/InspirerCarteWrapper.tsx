@@ -8,7 +8,7 @@ type Props = { mapboxAccessToken: string | undefined };
 export default function InspirerCarteWrapper({ mapboxAccessToken }: Props) {
   return (
     <InspirationMapProvider>
-      <div className="h-full min-h-0 min-w-0">
+      <div className="flex h-full min-h-0 w-full min-w-0 flex-col">
         <InspirationMapScreen mapboxAccessToken={mapboxAccessToken} />
       </div>
     </InspirationMapProvider>
