@@ -169,10 +169,10 @@ export function CityPhoto({
   if (loading) {
     return (
       <div
-        className={`flex flex-col items-center justify-center bg-[#1c1c1c] ${className}`}
+        className={`relative flex flex-col items-center justify-center bg-[#111111] ${className}`}
         aria-hidden
       >
-        <span className="voyage-loading-text text-sm sm:text-base">voyage voyage</span>
+        <img src="/A1.png" alt="" className="h-12 w-12 opacity-25" style={{ filter: "brightness(0) invert(1) sepia(1) saturate(5) hue-rotate(-15deg)" }} />
       </div>
     );
   }

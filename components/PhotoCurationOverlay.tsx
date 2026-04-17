@@ -106,6 +106,9 @@ export function PhotoCurationOverlay({
 
   if (!normSlug || !imageUrl) return null;
 
+  /** Pas de boutons tant que l’état « déjà validé ? » n’est pas connu (évite flash Valider). */
+  if (loading) return null;
+
   return (
     <div
       className={`pointer-events-auto z-30 flex items-end justify-center ${

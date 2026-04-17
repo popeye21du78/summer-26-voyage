@@ -79,6 +79,8 @@ export async function GET(req: Request) {
 
   const lieux = allLieux();
   const inRegion = filterLieuxByMapRegion(lieux, regionId).filter(withCoords);
+  /** Lieux avec coords dans la région — peuvent recevoir une URL via /api/photo-resolve (slug lieu). */
+  const lieuxPoiEligiblePhoto = inRegion.length;
 
   const filtered =
     ambiances.length === 0
@@ -115,6 +117,10 @@ export async function GET(req: Request) {
       ambiances,
       count: slim.length,
       lieux: slim,
+      stats: {
+        lieuxPoiEligiblePhoto,
+        returned: slim.length,
+      },
     },
     { headers: { "Cache-Control": "public, s-maxage=300, stale-while-revalidate=3600" } }
   );

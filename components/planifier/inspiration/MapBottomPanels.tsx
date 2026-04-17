@@ -27,6 +27,7 @@ import { CityPhoto } from "@/components/CityPhoto";
 import { slugFromNom } from "@/lib/slug-from-nom";
 import FavoriteButton from "./FavoriteButton";
 import { themeCardImageUrl } from "@/lib/star-itinerary-theme-card-images";
+import { useRegionCardResolvedPhoto } from "@/hooks/useRegionCardResolvedPhoto";
 import { useCuratedAssignmentPhoto } from "@/hooks/useCuratedInspirationPhotos";
 import type { StarItineraryStopDto } from "@/types/inspiration-star-map";
 import type { RegionEditorialContent } from "@/types/inspiration";
@@ -306,6 +307,10 @@ function PreviewRegion({
     () => (r ? regionAmbianceTags(r.accroche_carte, 3) : []),
     [r]
   );
+  const { src: heroImageSrc } = useRegionCardResolvedPhoto({
+    id: r?.id ?? regionId,
+    headerPhoto: r?.headerPhoto ?? "",
+  });
   if (!r) return null;
 
   return (
@@ -318,7 +323,7 @@ function PreviewRegion({
     >
       <div className={`min-h-0 flex-1 ${INSPI_TEXT_PRIMARY}`}>
         <InspirationRegionHero
-          imageSrc={r.headerPhoto}
+          imageSrc={heroImageSrc || r.headerPhoto}
           regionName={r.name}
           tagline={r.accroche_carte}
           density="preview"

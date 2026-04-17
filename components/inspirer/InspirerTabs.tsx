@@ -90,9 +90,7 @@ export default function InspirerTabs({
           <InspirerCarteWrapper mapboxAccessToken={mapboxAccessToken} />
         </TabPanel>
         <TabPanel visible={active === "stars"} mounted={mountedRef.current.has("stars")}>
-          <InspirerStars
-            initialRegionFilter={active === "stars" ? initialRegion : undefined}
-          />
+          <InspirerStars initialRegionFilter={initialRegion} />
         </TabPanel>
         <TabPanel visible={active === "amis"} mounted={mountedRef.current.has("amis")}>
           <InspirerAmis />

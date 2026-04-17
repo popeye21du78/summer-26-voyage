@@ -1,12 +1,22 @@
 "use client";
 
+import dynamic from "next/dynamic";
 import { useState, useMemo, useCallback, useRef, useEffect } from "react";
 import Image from "next/image";
+import { useSearchParams } from "next/navigation";
 import { Filter, X, ChevronRight, MapPin } from "lucide-react";
 import { STAR_ITINERARIES_EDITORIAL_BY_REGION } from "@/content/inspiration/star-itineraries-editorial/index";
 import { MAP_REGIONS } from "@/lib/inspiration-map-regions-config";
 import type { StarItineraryEditorialItem } from "@/types/star-itineraries-editorial";
-import StarFlipCard from "./StarFlipCard";
+const StarFlipCard = dynamic(() => import("./StarFlipCard"), {
+  ssr: false,
+  loading: () => (
+    <div
+      className="w-full min-h-[260px] animate-pulse rounded-2xl border border-white/6 bg-white/[0.04]"
+      aria-hidden
+    />
+  ),
+});
 
 type RegionMeta = { id: string; name: string; count: number };
 
@@ -96,6 +106,7 @@ function groupByTheme(
 }
 
 export default function InspirerStars({ initialRegionFilter }: Props) {
+  const searchParams = useSearchParams();
   const [regionFilter, setRegionFilter] = useState<string | null>(
     initialRegionFilter ?? null
   );
@@ -106,6 +117,12 @@ export default function InspirerStars({ initialRegionFilter }: Props) {
   useEffect(() => {
     if (initialRegionFilter) setRegionFilter(initialRegionFilter);
   }, [initialRegionFilter]);
+
+  /** Deep links / retour navigateur : ?region=bretagne */
+  useEffect(() => {
+    const r = searchParams.get("region");
+    if (r) setRegionFilter(r);
+  }, [searchParams]);
 
   const regionsMeta = useMemo(buildRegionMeta, []);
   const grouped = useMemo(

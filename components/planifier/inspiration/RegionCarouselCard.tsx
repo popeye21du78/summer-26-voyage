@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import { useCuratedAssignmentPhoto } from "@/hooks/useCuratedInspirationPhotos";
+import { useRegionCardResolvedPhoto } from "@/hooks/useRegionCardResolvedPhoto";
 import type { RegionEditorialContent } from "@/types/inspiration";
 import { PhotoCurationOverlay } from "@/components/PhotoCurationOverlay";
 import FavoriteButton from "./FavoriteButton";
@@ -16,13 +16,20 @@ export default function RegionCarouselCard({
   active: boolean;
   onPick: (id: string) => void;
 }) {
-  const curated = useCuratedAssignmentPhoto(`carousel-card:${r.id}`, r.id);
+  const { src } = useRegionCardResolvedPhoto({ id: r.id, headerPhoto: r.headerPhoto });
   const [pool, setPool] = useState<string[]>([]);
   const [manualSrc, setManualSrc] = useState<string | null>(null);
+  const [imgReady, setImgReady] = useState(false);
+
+  const displaySrc = manualSrc ?? src;
 
   useEffect(() => {
     setManualSrc(null);
   }, [r.id]);
+
+  useEffect(() => {
+    setImgReady(false);
+  }, [displaySrc]);
 
   useEffect(() => {
     fetch(`/api/inspiration/curated-pool?regionId=${encodeURIComponent(r.id)}`)
@@ -30,9 +37,6 @@ export default function RegionCarouselCard({
       .then((d: { urls?: string[] }) => setPool(Array.isArray(d.urls) ? d.urls : []))
       .catch(() => setPool([]));
   }, [r.id]);
-
-  const base = curated ?? r.headerPhoto;
-  const src = manualSrc ?? base;
 
   return (
     <div
@@ -51,18 +55,31 @@ export default function RegionCarouselCard({
           : "border-white/8 hover:border-[#E07856]/30 shadow-lg shadow-black/20"
       }`}
     >
-      <div className="relative aspect-[3/4] w-full bg-[#1c1c1c] overflow-hidden">
+      <div className="relative aspect-[3/4] w-full overflow-hidden bg-[#111111]">
+        {!imgReady && (
+          <div className="absolute inset-0 z-[1] flex items-center justify-center bg-[#111111]">
+            <Image
+              src="/A1.png"
+              alt=""
+              width={48}
+              height={48}
+              className="opacity-30"
+              style={{ filter: "brightness(0) invert(1) sepia(1) saturate(5) hue-rotate(-15deg)" }}
+            />
+          </div>
+        )}
         <Image
-          src={src}
+          src={displaySrc}
           alt=""
           fill
           sizes="140px"
-          className="photo-bw-reveal object-cover"
+          className={`photo-bw-reveal object-cover transition-opacity duration-200 ${imgReady ? "opacity-100" : "opacity-0"}`}
+          onLoadingComplete={() => setImgReady(true)}
         />
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
         <PhotoCurationOverlay
           slug={`carousel-card:${r.id}`}
-          imageUrl={src}
+          imageUrl={displaySrc}
           title={r.name}
           compact
           onOther={() => {
@@ -78,7 +95,7 @@ export default function RegionCarouselCard({
                 .catch(() => {});
               return;
             }
-            const idx = Math.max(0, list.findIndex((u) => u === src));
+            const idx = Math.max(0, list.findIndex((u) => u === displaySrc));
             setManualSrc(list[(idx + 1) % list.length]!);
           }}
         />
@@ -91,7 +108,7 @@ export default function RegionCarouselCard({
           {r.accroche_carte}
         </p>
       </div>
-      <span className="absolute right-1.5 top-1.5" onClick={(e) => e.stopPropagation()}>
+      <span className="absolute right-1.5 top-1.5 z-10" onClick={(e) => e.stopPropagation()}>
         <FavoriteButton kind="map_region" refId={r.id} label={r.name} />
       </span>
     </div>

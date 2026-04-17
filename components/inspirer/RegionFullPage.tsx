@@ -4,9 +4,10 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { ArrowLeft, Map as MapIcon, Star, MapPin, Sparkles, ChevronRight } from "lucide-react";
+import { ArrowLeft, Map as MapIcon, Star, Sparkles, ChevronRight } from "lucide-react";
 import { getRegionEditorial } from "@/content/inspiration/regions";
 import { starItinerariesByRegion } from "@/content/inspiration/star-itineraries";
+import { slugFromNom } from "@/lib/slug-from-nom";
 import { CityPhoto } from "@/components/CityPhoto";
 import { PhotoCurationOverlay } from "@/components/PhotoCurationOverlay";
 import type { StarItinerariesEditorialFile, StarItineraryEditorialItem } from "@/types/star-itineraries-editorial";
@@ -120,22 +121,39 @@ export default function RegionFullPage({ regionId }: Props) {
         </p>
       </div>
 
-      {/* Trois incontournables */}
+      {/* Trois incontournables — cartes photo + titre central (comme les stars) */}
       <section className="border-t border-white/5 px-5 py-8">
         <h2 className="font-courier text-xs font-bold uppercase tracking-wider text-[#E07856]">
           3 incontournables
         </h2>
-        <div className="mt-4 space-y-3">
-          {editorial.trois_incontournables.map((item, i) => (
-            <div key={i} className="flex items-start gap-3">
-              <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[#E07856]/10 font-courier text-xs font-bold text-[#E07856]">
-                {i + 1}
-              </span>
-              <p className="font-courier text-sm leading-relaxed text-white/55">
-                {item}
-              </p>
-            </div>
-          ))}
+        <div className="mt-4 flex gap-3 overflow-x-auto pb-2 scrollbar-hide">
+          {editorial.trois_incontournables.map((item, i) => {
+            const slug = slugFromNom(item);
+            return (
+              <Link
+                key={`${slug}-${i}`}
+                href={`/inspirer/ville/${slug}?from=region&region=${regionId}`}
+                className="group relative w-[min(72vw,200px)] shrink-0 overflow-hidden rounded-2xl border border-white/6"
+              >
+                <div className="relative aspect-[3/4] bg-[#111111]">
+                  <CityPhoto
+                    stepId={slug}
+                    ville={item}
+                    alt={item}
+                    className="absolute inset-0 h-full w-full object-cover"
+                    photoCuration
+                    curationCompact
+                    curationTitle={item}
+                  />
+                  <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-gradient-to-t from-black/75 via-black/20 to-black/30 p-3">
+                    <span className="text-center font-courier text-lg font-bold leading-tight text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.95)] sm:text-xl">
+                      {item}
+                    </span>
+                  </div>
+                </div>
+              </Link>
+            );
+          })}
         </div>
       </section>
 
@@ -152,7 +170,7 @@ export default function RegionFullPage({ regionId }: Props) {
                 href={`/inspirer/ville/${l.slug}?from=region&region=${regionId}`}
                 className="group relative w-[130px] shrink-0 overflow-hidden rounded-2xl border border-white/6"
               >
-                <div className="relative aspect-[3/4] bg-[#1c1c1c]">
+                <div className="relative aspect-[3/4] bg-[#111111]">
                   <CityPhoto
                     stepId={l.slug}
                     ville={l.nom}
@@ -160,11 +178,10 @@ export default function RegionFullPage({ regionId }: Props) {
                     className="absolute inset-0 h-full w-full object-cover"
                     photoCuration
                     curationCompact
+                    curationTitle={l.nom}
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
-                  <div className="absolute inset-x-0 bottom-0 p-3">
-                    <MapPin className="mb-1 h-3 w-3 text-[#E07856]" />
-                    <span className="block font-courier text-[11px] font-bold leading-tight text-white">
+                  <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-gradient-to-t from-black/80 via-black/25 to-black/35 p-2">
+                    <span className="text-center font-courier text-base font-bold leading-tight text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.95)] sm:text-lg">
                       {l.nom}
                     </span>
                   </div>
