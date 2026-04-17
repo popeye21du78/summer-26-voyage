@@ -14,11 +14,32 @@ import {
   getCachedPhotoUrl,
 } from "@/lib/client-photo-cache";
 import { getUserValidatedPhotoUrl } from "@/lib/client-photo-validated";
+import { loadPhotoValidationSnapshot } from "@/lib/client-photo-snapshot";
 import { CityPhoto } from "@/components/CityPhoto";
 import { PhotoCurationOverlay } from "@/components/PhotoCurationOverlay";
 import type { StarItinerariesEditorialFile, StarItineraryEditorialItem } from "@/types/star-itineraries-editorial";
 
 type SlimLieu = { slug: string; nom: string };
+
+/** Aligne le slug photo sur `lieux` (clé maintenance) plutôt que seulement `slugFromNom` du libellé éditorial. */
+function stepIdForIncontournable(label: string, lieux: SlimLieu[]): string {
+  const norm = (s: string) =>
+    s
+      .toLowerCase()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/\s+/g, " ")
+      .trim();
+  const want = norm(label);
+  for (const l of lieux) {
+    if (norm(l.nom) === want) return l.slug;
+  }
+  const fromLabel = slugFromNom(label);
+  for (const l of lieux) {
+    if (l.slug === fromLabel) return l.slug;
+  }
+  return fromLabel;
+}
 
 type Props = { regionId: string };
 
@@ -46,22 +67,27 @@ export default function RegionFullPage({ regionId }: Props) {
     setHeaderUrl("");
     setHeroReady(false);
     let cancelled = false;
-    fetch(
-      `/api/photo-resolve?slug=${encodeURIComponent(regionHeaderSlug)}&stepId=${encodeURIComponent(regionId)}&photoIndex=0`
-    )
-      .then((r) => (r.ok ? r.json() : null))
-      .then((d: { url?: string | null } | null) => {
+
+    (async () => {
+      await loadPhotoValidationSnapshot();
+      if (cancelled) return;
+      try {
+        const r = await fetch(
+          `/api/photo-resolve?slug=${encodeURIComponent(regionHeaderSlug)}&stepId=${encodeURIComponent(regionId)}&photoIndex=0`
+        );
+        const d = r.ok ? ((await r.json()) as { url?: string | null }) : null;
         if (cancelled) return;
         const u = d?.url?.trim();
         setHeaderUrl(u || editorial.headerPhoto);
         setHeroReady(true);
-      })
-      .catch(() => {
+      } catch {
         if (!cancelled) {
           setHeaderUrl(editorial.headerPhoto);
           setHeroReady(true);
         }
-      });
+      }
+    })();
+
     return () => {
       cancelled = true;
     };
@@ -193,7 +219,7 @@ export default function RegionFullPage({ regionId }: Props) {
         </h2>
         <div className="mt-4 flex flex-col gap-4">
           {editorial.trois_incontournables.map((item, i) => {
-            const slug = slugFromNom(item);
+            const slug = stepIdForIncontournable(item, lieux);
             return (
               <Link
                 key={`${slug}-${i}`}

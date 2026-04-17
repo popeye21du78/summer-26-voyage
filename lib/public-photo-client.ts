@@ -18,21 +18,59 @@ type ClientIndex = {
 
 const IDX = clientIndex as ClientIndex;
 
+/** Validations runtime (GET snapshot maintenance) — fusionnées avec l’index build. */
+const RUNTIME_VALIDATIONS: Record<string, string[]> = {};
+
 function norm(s: string) {
   return s.trim().toLowerCase();
 }
 
+/** Appelé après `/api/photo-validations-snapshot` pour éviter un resolve par lieu. */
+export function mergeRuntimeValidationUrls(bySlug: Record<string, string[]>) {
+  for (const [k, urls] of Object.entries(bySlug)) {
+    const key = norm(k);
+    if (!key || !Array.isArray(urls) || urls.length === 0) continue;
+    const clean = urls.map((u) => u.trim()).filter(Boolean);
+    const prev = RUNTIME_VALIDATIONS[key] ?? [];
+    const seen = new Set<string>(prev);
+    const merged = [...prev];
+    for (const u of clean) {
+      if (seen.has(u)) continue;
+      seen.add(u);
+      merged.push(u);
+    }
+    RUNTIME_VALIDATIONS[key] = merged;
+  }
+}
+
 /** Résout la liste d’URLs pour une paire slug / stepId (même ordre que le serveur). */
 export function getIndexedPhotoUrlList(slug: string, stepId: string): string[] | null {
-  const a = norm(slug);
-  const b = norm(stepId);
+  const keys = [norm(slug), norm(stepId)].filter(
+    (k, i, arr) => Boolean(k) && arr.indexOf(k) === i
+  );
+  const seen = new Set<string>();
+  const out: string[] = [];
+  const push = (arr?: string[]) => {
+    if (!Array.isArray(arr)) return;
+    for (const raw of arr) {
+      const u = raw.trim();
+      if (!u || seen.has(u)) continue;
+      seen.add(u);
+      out.push(u);
+    }
+  };
   const v = IDX.validations;
   const u = IDX.beauty;
-  const tryLists = [v[a], v[b], u[a], u[b]].filter(
-    (x): x is string[] => Array.isArray(x) && x.length > 0
-  );
-  if (tryLists.length === 0) return null;
-  return tryLists[0];
+  for (const key of keys) {
+    push(RUNTIME_VALIDATIONS[key]);
+  }
+  for (const key of keys) {
+    push(v[key]);
+  }
+  for (const key of keys) {
+    push(u[key]);
+  }
+  return out.length ? out : null;
 }
 
 /**

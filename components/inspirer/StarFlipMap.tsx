@@ -93,7 +93,17 @@ export default function StarFlipMap({ steps, activeStepIndex, mapboxToken }: Pro
     else map.on?.("style.load", onLoad);
   }, []);
 
-  if (!mapboxToken) return null;
+  if (!mapboxToken) {
+    return (
+      <div className="flex h-full flex-col items-center justify-center gap-2 bg-[#1c1c1c] px-4 text-center">
+        <p className="font-courier text-[10px] leading-relaxed text-white/40">
+          Carte Mapbox indisponible : variable d’environnement{" "}
+          <code className="text-white/55">NEXT_PUBLIC_MAPBOX_TOKEN</code> absente ou non injectée au build
+          (Vercel / hébergeur). Sans ce token, le composant carte ne peut rien afficher.
+        </p>
+      </div>
+    );
+  }
 
   return (
     <Map

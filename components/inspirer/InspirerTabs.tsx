@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef, useEffect, type ReactNode } from "react";
+import { useState, useEffect, type ReactNode } from "react";
 import { Search, Map, Star, Users } from "lucide-react";
 import InspirerSearch from "./InspirerSearch";
 import InspirerCarteWrapper from "./InspirerCarteWrapper";
@@ -35,22 +35,24 @@ export default function InspirerTabs({
     ? initialTab
     : "carte";
   const [active, setActive] = useState<TabId>(resolvedInitialTab);
-  const mountedRef = useRef<Set<TabId>>(new Set([resolvedInitialTab]));
+  /** Onglets déjà montés (lazy) — mis à jour dans un effet, jamais pendant le rendu (évite erreurs d’hydratation). */
+  const [mountedTabs, setMountedTabs] = useState<Record<TabId, boolean>>(() => ({
+    recherche: resolvedInitialTab === "recherche",
+    carte: resolvedInitialTab === "carte",
+    stars: resolvedInitialTab === "stars",
+    amis: resolvedInitialTab === "amis",
+  }));
 
   useEffect(() => {
     if (isValidTab(initialTab) && initialTab !== active) {
       setActive(initialTab);
-      if (!mountedRef.current.has(initialTab)) {
-        mountedRef.current.add(initialTab);
-      }
     }
-    // Only react to prop changes, not internal state
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- synchronisation URL → onglet uniquement
   }, [initialTab]);
 
-  if (!mountedRef.current.has(active)) {
-    mountedRef.current.add(active);
-  }
+  useEffect(() => {
+    setMountedTabs((prev) => (prev[active] ? prev : { ...prev, [active]: true }));
+  }, [active]);
 
   return (
     <div className="flex h-full min-h-0 flex-1 flex-col">
@@ -83,16 +85,16 @@ export default function InspirerTabs({
 
       {/* Tab panels */}
       <div className="relative min-h-0 flex-1 overflow-hidden">
-        <TabPanel visible={active === "recherche"} mounted={mountedRef.current.has("recherche")}>
+        <TabPanel visible={active === "recherche"} mounted={mountedTabs.recherche}>
           <InspirerSearch />
         </TabPanel>
-        <TabPanel visible={active === "carte"} mounted={mountedRef.current.has("carte")}>
+        <TabPanel visible={active === "carte"} mounted={mountedTabs.carte}>
           <InspirerCarteWrapper mapboxAccessToken={mapboxAccessToken} />
         </TabPanel>
-        <TabPanel visible={active === "stars"} mounted={mountedRef.current.has("stars")}>
+        <TabPanel visible={active === "stars"} mounted={mountedTabs.stars}>
           <InspirerStars initialRegionFilter={initialRegion} />
         </TabPanel>
-        <TabPanel visible={active === "amis"} mounted={mountedRef.current.has("amis")}>
+        <TabPanel visible={active === "amis"} mounted={mountedTabs.amis}>
           <InspirerAmis />
         </TabPanel>
       </div>

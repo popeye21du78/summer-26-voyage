@@ -102,6 +102,10 @@ export function PhotoCurationOverlay({
         } else {
           const raw = imageUrl.trim();
           persistUserValidatedPhoto(normSlug, raw);
+          const stepKey = photoLookupStepId?.trim().toLowerCase();
+          if (stepKey && stepKey !== normSlug) {
+            persistUserValidatedPhoto(stepKey, raw);
+          }
           if (photoLookupStepId) {
             cachePhotoUrl(cacheKeysLieuResolve(normSlug, photoLookupStepId), raw);
           }

@@ -7,6 +7,7 @@ import { Filter, X, ChevronRight, MapPin } from "lucide-react";
 import { STAR_ITINERARIES_EDITORIAL_BY_REGION } from "@/content/inspiration/star-itineraries-editorial/index";
 import { MAP_REGIONS } from "@/lib/inspiration-map-regions-config";
 import type { StarItineraryEditorialItem } from "@/types/star-itineraries-editorial";
+import { loadPhotoValidationSnapshot } from "@/lib/client-photo-snapshot";
 import StarFlipCard from "./StarFlipCard";
 
 type RegionMeta = { id: string; name: string; count: number };
@@ -102,7 +103,8 @@ export default function InspirerStars({ initialRegionFilter }: Props) {
     initialRegionFilter ?? null
   );
   const [sidebarOpen, setSidebarOpen] = useState(false);
-  const [flippedSlug, setFlippedSlug] = useState<string | null>(null);
+  /** Clé unique région + itinéraire (évite collision de slug entre régions). */
+  const [flippedKey, setFlippedKey] = useState<string | null>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -114,6 +116,11 @@ export default function InspirerStars({ initialRegionFilter }: Props) {
     const r = searchParams.get("region");
     if (r) setRegionFilter(r);
   }, [searchParams]);
+
+  /** Une seule requête : toutes les validations maintenance → résolution sans /api/photo-resolve partout. */
+  useEffect(() => {
+    void loadPhotoValidationSnapshot();
+  }, []);
 
   const regionsMeta = useMemo(buildRegionMeta, []);
   const grouped = useMemo(
@@ -129,18 +136,20 @@ export default function InspirerStars({ initialRegionFilter }: Props) {
     (id: string | null) => {
       setRegionFilter(id);
       setSidebarOpen(false);
-      setFlippedSlug(null);
+      setFlippedKey(null);
       scrollRef.current?.scrollTo({ top: 0 });
     },
     []
   );
 
-  const handleFlip = useCallback(
-    (slug: string) => {
-      setFlippedSlug((prev) => (prev === slug ? null : slug));
-    },
+  const starCardKey = useCallback(
+    (it: StarItineraryEditorialItem) => `${it.regionId}:${it.itinerarySlug}`,
     []
   );
+
+  const handleFlip = useCallback((key: string) => {
+    setFlippedKey((prev) => (prev === key ? null : key));
+  }, []);
 
   const totalCount = useMemo(
     () => grouped.reduce((acc, g) => acc + g.items.length, 0),
@@ -186,10 +195,10 @@ export default function InspirerStars({ initialRegionFilter }: Props) {
               <div className="flex flex-col gap-5">
                 {ct.items.map((it) => (
                   <StarFlipCard
-                    key={it.itinerarySlug}
+                    key={`${it.regionId}-${it.itinerarySlug}`}
                     itinerary={it}
-                    isFlipped={flippedSlug === it.itinerarySlug}
-                    onFlip={() => handleFlip(it.itinerarySlug)}
+                    isFlipped={flippedKey === starCardKey(it)}
+                    onFlip={() => handleFlip(starCardKey(it))}
                     compact
                   />
                 ))}
@@ -219,10 +228,10 @@ export default function InspirerStars({ initialRegionFilter }: Props) {
               <div className="space-y-4">
                 {group.items.map((it) => (
                   <StarFlipCard
-                    key={it.itinerarySlug}
+                    key={`${group.regionId}-${it.itinerarySlug}`}
                     itinerary={it}
-                    isFlipped={flippedSlug === it.itinerarySlug}
-                    onFlip={() => handleFlip(it.itinerarySlug)}
+                    isFlipped={flippedKey === starCardKey(it)}
+                    onFlip={() => handleFlip(starCardKey(it))}
                   />
                 ))}
               </div>

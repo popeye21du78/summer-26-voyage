@@ -7,6 +7,8 @@ import {
   cachePhotoUrl,
   getCachedPhotoUrl,
 } from "@/lib/client-photo-cache";
+import { tryUserValidatedPhoto } from "@/lib/client-photo-validated";
+import { loadPhotoValidationSnapshot } from "@/lib/client-photo-snapshot";
 import {
   getClientPublicPhotoPick,
   getResolvedPhotoUrlList,
@@ -25,6 +27,8 @@ interface CityPhotoProps {
   photoCuration?: boolean;
   curationTitle?: string;
   curationCompact?: boolean;
+  /** eager = pas de lazy (vignettes au verso d’une carte 3D : le lazy ne démarrait qu’après retournement). */
+  imageLoading?: "eager" | "lazy";
 }
 
 type RemoteJson = {
@@ -44,6 +48,7 @@ export function CityPhoto({
   photoCuration = false,
   curationTitle,
   curationCompact = false,
+  imageLoading = "lazy",
 }: CityPhotoProps) {
   const [url, setUrl] = useState<string | null>(initialUrl ?? null);
   const [loading, setLoading] = useState(!initialUrl);
@@ -110,59 +115,73 @@ export function CityPhoto({
     }
 
     let cancelled = false;
-    const slug = slugForLieuPhoto(stepId, ville);
-    const cacheKey = cacheKeysLieuResolve(slug, stepId);
-    const cached = getCachedPhotoUrl(cacheKey);
     fromEmbeddedIndex.current = false;
     setError(false);
 
-    if (cached) {
-      setUrl(cached);
-      setLoading(false);
-      fromSiteJson.current = true;
-      const list = getResolvedPhotoUrlList(slug, stepId);
-      setTotalAlternatives(list?.length ? list.length : 1);
-      return () => {
-        cancelled = true;
-      };
-    }
+    (async () => {
+      await loadPhotoValidationSnapshot();
+      if (cancelled) return;
 
-    const embedded = getClientPublicPhotoPick(slug, stepId, 0);
-    if (embedded) {
-      setUrl(embedded.url);
-      cachePhotoUrl(cacheKey, embedded.url);
-      setTotalAlternatives(embedded.total);
-      setPhotoIndex(0);
-      fromSiteJson.current = true;
-      fromEmbeddedIndex.current = true;
-      setLoading(false);
-      return () => {
-        cancelled = true;
-      };
-    }
+      const slug = slugForLieuPhoto(stepId, ville);
+      const cacheKey = cacheKeysLieuResolve(slug, stepId);
 
-    setLoading(true);
+      const fromPhone = tryUserValidatedPhoto(slug, stepId);
+      if (fromPhone) {
+        setUrl(fromPhone);
+        cachePhotoUrl(cacheKey, fromPhone);
+        setTotalAlternatives(getResolvedPhotoUrlList(slug, stepId)?.length ?? 1);
+        setPhotoIndex(0);
+        fromSiteJson.current = true;
+        setLoading(false);
+        return;
+      }
 
-    fetch(
-      `/api/photo-resolve?slug=${encodeURIComponent(slug)}&stepId=${encodeURIComponent(stepId)}&photoIndex=0`
-    )
-      .then((r) => (r.ok ? r.json() : null))
-      .then((data: RemoteJson) => {
-        if (cancelled) return;
-        if (data?.url) {
-          setUrl(data.url);
-          cachePhotoUrl(cacheKey, data.url);
-          setTotalAlternatives(data.total ?? 1);
-          fromSiteJson.current = true;
-          setPhotoIndex(0);
-          setLoading(false);
-          return;
-        }
-        fetchPhotoVille(false);
-      })
-      .catch(() => {
-        if (!cancelled) fetchPhotoVille(false);
-      });
+      const cached = getCachedPhotoUrl(cacheKey);
+      if (cached) {
+        setUrl(cached);
+        setLoading(false);
+        fromSiteJson.current = true;
+        const list = getResolvedPhotoUrlList(slug, stepId);
+        setTotalAlternatives(list?.length ? list.length : 1);
+        return;
+      }
+
+      const embedded = getClientPublicPhotoPick(slug, stepId, 0);
+      if (embedded) {
+        setUrl(embedded.url);
+        cachePhotoUrl(cacheKey, embedded.url);
+        setTotalAlternatives(embedded.total);
+        setPhotoIndex(0);
+        fromSiteJson.current = true;
+        fromEmbeddedIndex.current = true;
+        setLoading(false);
+        return;
+      }
+
+      if (cancelled) return;
+      setLoading(true);
+
+      fetch(
+        `/api/photo-resolve?slug=${encodeURIComponent(slug)}&stepId=${encodeURIComponent(stepId)}&photoIndex=0`
+      )
+        .then((r) => (r.ok ? r.json() : null))
+        .then((data: RemoteJson) => {
+          if (cancelled) return;
+          if (data?.url) {
+            setUrl(data.url);
+            cachePhotoUrl(cacheKey, data.url);
+            setTotalAlternatives(data.total ?? 1);
+            fromSiteJson.current = true;
+            setPhotoIndex(0);
+            setLoading(false);
+            return;
+          }
+          fetchPhotoVille(false);
+        })
+        .catch(() => {
+          if (!cancelled) fetchPhotoVille(false);
+        });
+    })();
 
     return () => {
       cancelled = true;
@@ -255,8 +274,10 @@ export function CityPhoto({
         src={displayUrl}
         alt={alt}
         className="photo-bw-reveal h-full w-full object-cover"
-        loading="lazy"
+        loading={imageLoading}
+        decoding="async"
         sizes="(max-width: 768px) 100vw, 800px"
+        onError={() => setError(true)}
       />
       {photoCuration && (
         <PhotoCurationOverlay
