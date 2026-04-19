@@ -29,7 +29,10 @@ type InspirationMapContextValue = {
   filterSheetOpen: boolean;
   setFilterSheetOpen: (v: boolean) => void;
   selectRegion: (regionId: string) => void;
+  /** Preview → fiche incontournables (sans filtres). */
   goExploreRegion: () => void;
+  /** Passe de la fiche « essentiels » à la fiche complète (filtres, onglets). */
+  expandRegionExploreToFull: () => void;
   /** Carte régionale plein écran — empile un état, `closeRegionMapFullscreen` restaure l’écran précédent. */
   openRegionMapFullscreen: () => void;
   closeRegionMapFullscreen: () => void;
@@ -62,24 +65,38 @@ export function InspirationMapProvider({ children }: { children: ReactNode }) {
     }
   }, [top.screen]);
 
+  /** Clic région → aperçu ~1/3 écran ; tirer ou action → explore. */
   const selectRegion = useCallback((regionId: string) => {
     setStack([{ screen: "france" }, { screen: "region-preview", regionId }]);
   }, []);
 
-  /** Passe en exploration régionale (remplace la preview par un état fiable). */
-  /** Depuis la preview : pousse l’état « full région » pour permettre retour swipe → preview. */
   const goExploreRegion = useCallback(() => {
     setStack((s) => {
       const last = s[s.length - 1];
       if (last?.screen !== "region-preview") return s;
-      return [...s, { screen: "region-explore", regionId: last.regionId }];
+      return [
+        ...s.slice(0, -1),
+        {
+          screen: "region-explore" as const,
+          regionId: last.regionId,
+          essentialsOnly: true,
+        },
+      ];
+    });
+  }, []);
+
+  const expandRegionExploreToFull = useCallback(() => {
+    setStack((s) => {
+      const last = s[s.length - 1];
+      if (last?.screen !== "region-explore" || last.essentialsOnly !== true) return s;
+      return [...s.slice(0, -1), { ...last, essentialsOnly: false }];
     });
   }, []);
 
   const openRegionMapFullscreen = useCallback(() => {
     setStack((s) => {
       const last = s[s.length - 1];
-      if (last?.screen !== "region-preview" && last?.screen !== "region-explore") return s;
+      if (last?.screen !== "region-explore" && last?.screen !== "region-preview") return s;
       return [...s, { screen: "region-map-fullscreen", regionId: last.regionId }];
     });
   }, []);
@@ -95,12 +112,7 @@ export function InspirationMapProvider({ children }: { children: ReactNode }) {
   const openStarList = useCallback(() => {
     setStack((s) => {
       const last = s[s.length - 1];
-      if (
-        last?.screen !== "region-preview" &&
-        last?.screen !== "region-explore"
-      ) {
-        return s;
-      }
+      if (last?.screen !== "region-explore" && last?.screen !== "region-preview") return s;
       return [...s, { screen: "star-list", regionId: last.regionId }];
     });
   }, []);
@@ -174,6 +186,7 @@ export function InspirationMapProvider({ children }: { children: ReactNode }) {
       setFilterSheetOpen,
       selectRegion,
       goExploreRegion,
+      expandRegionExploreToFull,
       openRegionMapFullscreen,
       closeRegionMapFullscreen,
       openStarList,
@@ -195,6 +208,7 @@ export function InspirationMapProvider({ children }: { children: ReactNode }) {
       starListPreviewLineSlug,
       selectRegion,
       goExploreRegion,
+      expandRegionExploreToFull,
       openRegionMapFullscreen,
       closeRegionMapFullscreen,
       openStarList,

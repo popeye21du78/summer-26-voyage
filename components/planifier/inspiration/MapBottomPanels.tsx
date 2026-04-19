@@ -30,7 +30,6 @@ import { themeCardImageUrl } from "@/lib/star-itinerary-theme-card-images";
 import { useRegionCardResolvedPhoto } from "@/hooks/useRegionCardResolvedPhoto";
 import { useCuratedAssignmentPhoto } from "@/hooks/useCuratedInspirationPhotos";
 import type { StarItineraryStopDto } from "@/types/inspiration-star-map";
-import type { RegionEditorialContent } from "@/types/inspiration";
 import {
   INSPI_ACCENT_LINE,
   INSPI_CTA_GRADIENT,
@@ -41,6 +40,8 @@ import {
   InspirationRegionHero,
 } from "./inspirationEditorialUi";
 import ExploreRegionContent from "./explore-region/ExploreRegionContent";
+import { useReturnBase } from "@/lib/hooks/use-return-base";
+import { withReturnTo } from "@/lib/return-to";
 
 type SlimLieuCard = {
   slug: string;
@@ -168,6 +169,7 @@ export default function MapBottomPanels({ onSheetScroll, starRouteDetail }: Pane
     top,
     goBack,
     goExploreRegion,
+    expandRegionExploreToFull,
     openRegionMapFullscreen,
     openStarList,
     selectStarItinerary,
@@ -198,6 +200,7 @@ export default function MapBottomPanels({ onSheetScroll, starRouteDetail }: Pane
         <ExploreRegion
           key="explore"
           regionId={top.regionId}
+          essentialsOnly={top.essentialsOnly === true}
           ambiance={ctx.ambiance}
           setAmbiance={ctx.setAmbiance}
           duration={ctx.duration}
@@ -206,6 +209,7 @@ export default function MapBottomPanels({ onSheetScroll, starRouteDetail }: Pane
           onOpenStars={openStarList}
           onOpenMap={openRegionMapFullscreen}
           onPickTerritory={selectTerritoryPoi}
+          onExpandFull={expandRegionExploreToFull}
           onScroll={onSheetScroll}
           onDragClose={goBack}
         />
@@ -255,38 +259,6 @@ export default function MapBottomPanels({ onSheetScroll, starRouteDetail }: Pane
   );
 }
 
-function previewTagsFromAccroche(accroche: string): string[] {
-  const parts = accroche
-    .split(/[.,;]+/)
-    .map((s) => s.trim())
-    .filter(Boolean);
-  return parts.slice(0, 3).map((p) => (p.length > 26 ? `${p.slice(0, 24)}…` : p));
-}
-
-/** Tags ambiance — privilégie les motifs courts séparés par des virgules (cohérent avec la full région). */
-function regionAmbianceTags(accroche: string, max = 3): string[] {
-  const byComma = accroche
-    .split(/,\s*/)
-    .map((s) => s.trim())
-    .filter((s) => s.length >= 2);
-  if (byComma.length >= 2) {
-    return byComma.slice(0, max).map((t) => (t.length > 26 ? `${t.slice(0, 24)}…` : t));
-  }
-  return previewTagsFromAccroche(accroche).slice(0, max);
-}
-
-/** Libellés très courts — motifs issus de l’accroche (virgules), pas des paragraphes. */
-function photoStripLabels(r: RegionEditorialContent): [string, string, string] {
-  const segs = r.accroche_carte.split(/[,;]+/).map((s) => s.trim()).filter(Boolean);
-  const clip = (s: string) => (s.length > 22 ? `${s.slice(0, 20)}…` : s);
-  return [
-    clip(segs[0] ?? "·"),
-    clip(segs[1] ?? segs[0] ?? "·"),
-    clip(segs[2] ?? segs[0] ?? "·"),
-  ];
-}
-
-/** Teaser court uniquement — pas de galerie ni scroll long (lot navigation). */
 function PreviewRegion({
   regionId,
   onExplore,
@@ -303,17 +275,12 @@ function PreviewRegion({
   onDragClose?: () => void;
 }) {
   const r = getRegionEditorial(regionId);
-  const tags = useMemo(
-    () => (r ? regionAmbianceTags(r.accroche_carte, 3) : []),
-    [r]
-  );
   const { src: heroImageSrc, resolveDone } = useRegionCardResolvedPhoto({
     id: r?.id ?? regionId,
     headerPhoto: r?.headerPhoto ?? "",
   });
   if (!r) return null;
-
-  const heroSrc = resolveDone ? heroImageSrc ?? r.headerPhoto : null;
+  const heroSrc = resolveDone ? (heroImageSrc ?? r.headerPhoto) : null;
 
   return (
     <SheetChrome
@@ -322,6 +289,7 @@ function PreviewRegion({
       sheetTone="darkWarm"
       onScroll={onScroll}
       onDragClose={onDragClose}
+      showDragHint
     >
       <div className={`min-h-0 flex-1 ${INSPI_TEXT_PRIMARY}`}>
         <InspirationRegionHero
@@ -331,44 +299,35 @@ function PreviewRegion({
           density="preview"
           showBackButton={false}
         />
-        <div className="space-y-4 px-3 pb-2 pt-4">
-          <div className="flex flex-wrap gap-2">
-            {tags.map((t) => (
-              <span
-                key={t}
-                className={`rounded-full border border-white/15 ${INSPI_SURFACE_CARD} px-2.5 py-1 font-courier text-[10px] font-bold uppercase tracking-wide text-[#F5C4B8]/95`}
-              >
-                {t}
-              </span>
-            ))}
-          </div>
-
-          <div className="space-y-2.5">
-            <button
-              type="button"
-              onClick={onExplore}
-              className={`w-full rounded-2xl py-3.5 font-courier text-sm font-bold uppercase tracking-wide text-white transition hover:brightness-110 active:scale-[0.99] ${INSPI_CTA_GRADIENT}`}
-            >
-              Explorer la région
-            </button>
+        <div className="space-y-3 px-4 pb-6 pt-3">
+          <p className={`text-center font-courier text-[10px] leading-snug ${INSPI_TEXT_MUTED}`}>
+            Tire la poignée vers le haut pour ouvrir les incontournables
+          </p>
+          <button
+            type="button"
+            onClick={onExplore}
+            className={`w-full rounded-2xl py-3.5 font-courier text-sm font-bold uppercase tracking-wide text-white transition hover:brightness-110 active:scale-[0.99] ${INSPI_CTA_GRADIENT}`}
+          >
+            Voir les incontournables
+          </button>
+          <div className="grid grid-cols-2 gap-2">
             <button
               type="button"
               onClick={onStars}
-              className={`w-full rounded-2xl border py-3 font-courier text-sm font-bold uppercase tracking-wide text-[#FFFBF7] transition hover:bg-white/10 ${INSPI_SURFACE_CARD}`}
+              className={`rounded-xl border py-2.5 font-courier text-[11px] font-bold uppercase tracking-wide text-[#FFFBF7] transition hover:bg-white/10 ${INSPI_SURFACE_CARD}`}
             >
               Itinéraires stars
             </button>
             <button
               type="button"
               onClick={onOpenMap}
-              className={`w-full rounded-xl border border-dashed border-white/25 py-2.5 font-courier text-[11px] font-bold text-[#c9b8ad] transition hover:border-white/40`}
+              className={`rounded-xl border border-dashed border-white/25 py-2.5 font-courier text-[11px] font-bold text-[#c9b8ad] transition hover:border-white/40`}
             >
-              Voir la carte
+              Carte plein écran
             </button>
           </div>
-
           <div
-            className={`flex flex-wrap items-center justify-between gap-3 border-t pt-4 ${INSPI_ACCENT_LINE}`}
+            className={`flex flex-wrap items-center justify-between gap-3 border-t pt-3 ${INSPI_ACCENT_LINE}`}
           >
             <Link
               href="/planifier/favoris"
@@ -389,6 +348,7 @@ function PreviewRegion({
 
 function ExploreRegion({
   regionId,
+  essentialsOnly,
   ambiance,
   setAmbiance,
   duration,
@@ -397,10 +357,12 @@ function ExploreRegion({
   onOpenStars,
   onOpenMap,
   onPickTerritory,
+  onExpandFull,
   onScroll,
   onDragClose,
 }: {
   regionId: string;
+  essentialsOnly: boolean;
   ambiance: InspirationAmbianceFilter[];
   setAmbiance: Dispatch<SetStateAction<InspirationAmbianceFilter[]>>;
   duration: InspirationDurationFilter | null;
@@ -409,6 +371,7 @@ function ExploreRegion({
   onOpenStars: () => void;
   onOpenMap: () => void;
   onPickTerritory: (id: string) => void;
+  onExpandFull: () => void;
   onScroll?: (e: React.UIEvent<HTMLDivElement>) => void;
   onDragClose?: () => void;
 }) {
@@ -459,10 +422,12 @@ function ExploreRegion({
           lieuxCards={lieuxCards}
           ambiance={ambiance}
           setAmbiance={setAmbiance}
+          essentialsOnly={essentialsOnly}
           onBack={onBack}
           onOpenStars={onOpenStars}
           onOpenMap={onOpenMap}
           onPickTerritory={onPickTerritory}
+          onExpandFull={onExpandFull}
         />
       ) : (
         <p className={`px-4 py-6 font-courier text-sm ${INSPI_TEXT_MUTED}`}>
@@ -580,6 +545,7 @@ function StarListSheet({
   onDragClose?: () => void;
 }) {
   const { setStarListPreviewLineSlug } = useInspirationMap();
+  const returnBase = useReturnBase();
   const [editorialPack, setEditorialPack] = useState<StarItinerariesEditorialFile | null>(null);
   const [editorialLoading, setEditorialLoading] = useState(true);
 
@@ -787,7 +753,10 @@ function StarListSheet({
                   {routeStops.map((st) => (
                     <Link
                       key={st.slug}
-                      href={`/inspirer/ville/${encodeURIComponent(st.slug)}?from=inspiration`}
+                      href={withReturnTo(
+                        `/inspirer/ville/${encodeURIComponent(st.slug)}?from=inspiration`,
+                        returnBase
+                      )}
                       className="flex w-[76px] shrink-0 flex-col items-center gap-1.5 text-center"
                     >
                       <div className="relative h-[68px] w-[68px] overflow-hidden rounded-full border-[3px] border-white shadow-md ring-2 ring-[#A55734]/25">

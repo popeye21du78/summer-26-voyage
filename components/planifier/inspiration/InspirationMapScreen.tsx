@@ -3,17 +3,12 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { Bookmark, Filter, MoreHorizontal, Search } from "lucide-react";
 import type { Feature, FeatureCollection, LineString } from "geojson";
 import { useReturnBase } from "@/lib/hooks/use-return-base";
 import {
-  AMBIANCE_OPTIONS,
-  DURATION_OPTIONS,
   filterTerritoriesByInspiration,
   getTerritoryById,
   listTerritories,
-  type InspirationAmbianceFilter,
-  type InspirationDurationFilter,
   type TerritoriesFeatureCollection,
 } from "@/lib/editorial-territories";
 import { useInspirationMap } from "@/lib/inspiration-map-context";
@@ -35,7 +30,6 @@ import InspirationMapClient, {
 import type { StarItineraryStopDto } from "@/types/inspiration-star-map";
 import MapBottomPanels from "./MapBottomPanels";
 import RegionCarousel from "./RegionCarousel";
-import TopBar from "./TopBar";
 import { CityPhoto } from "@/components/CityPhoto";
 import { withReturnTo } from "@/lib/return-to";
 
@@ -120,170 +114,11 @@ function RegionSplitGutter({
   );
 }
 
-/** Repérage France : actions regroupées (plus de colonne d’icônes flottantes). */
-function InspirationMobileChrome() {
-  const {
-    top,
-    filterSheetOpen,
-    setFilterSheetOpen,
-    searchQuery,
-    setSearchQuery,
-    ambiance,
-    setAmbiance,
-    duration,
-    setDuration,
-  } = useInspirationMap();
-  const [searchOpen, setSearchOpen] = useState(false);
-  const [menuOpen, setMenuOpen] = useState(false);
-
-  function toggleAmbiance(id: InspirationAmbianceFilter) {
-    setAmbiance((prev) =>
-      prev.includes(id) ? prev.filter((x) => x !== id) : [...prev, id]
-    );
-  }
-
-  if (top.screen !== "france") return null;
-
-  return (
-    <>
-      {searchOpen && (
-        <div className="fixed inset-x-0 top-[calc(env(safe-area-inset-top)+3.25rem)] z-[60] flex justify-center px-3 lg:hidden">
-          <div className="flex w-full max-w-md items-center gap-2 rounded-2xl border border-[#E07856]/20 bg-white/95 px-3 py-2 shadow-lg backdrop-blur-md">
-            <Search className="h-4 w-4 shrink-0 text-[#E07856]/60" aria-hidden />
-            <input
-              type="search"
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="Région…"
-              className="min-w-0 flex-1 bg-transparent font-courier text-sm text-[#2a211c] outline-none placeholder:text-[#2a211c]/45"
-              autoFocus
-            />
-            <button
-              type="button"
-              className="shrink-0 font-courier text-xs font-bold text-[#E07856]"
-              onClick={() => setSearchOpen(false)}
-            >
-              OK
-            </button>
-          </div>
-        </div>
-      )}
-      {(filterSheetOpen || menuOpen) && (
-        <button
-          type="button"
-          className="fixed inset-0 z-[50] bg-[#5c3018]/35 lg:hidden"
-          aria-label="Fermer le panneau"
-          onClick={() => {
-            setFilterSheetOpen(false);
-            setMenuOpen(false);
-          }}
-        />
-      )}
-      {menuOpen && (
-        <div className="fixed inset-x-3 top-[calc(env(safe-area-inset-top)+3.25rem)] z-[58] max-h-[70vh] overflow-y-auto rounded-2xl border border-[#E07856]/15 bg-[#111111] p-4 shadow-xl lg:hidden">
-          <p className="font-courier text-sm font-bold text-[#E07856]">Sur la carte France</p>
-          <p className="mt-1 font-courier text-[11px] text-white/65">
-            Recherche, filtres d’ambiance, et pistes sauvegardées.
-          </p>
-          <div className="mt-4 space-y-3 border-t border-[#E07856]/10 pt-4">
-            <button
-              type="button"
-              className="flex w-full items-center gap-2 rounded-xl border border-[#E07856]/15 bg-white px-3 py-2.5 font-courier text-sm font-bold text-[#2a211c] shadow-sm"
-              onClick={() => {
-                setSearchOpen(true);
-                setMenuOpen(false);
-              }}
-            >
-              <Search className="h-4 w-4 text-[#E07856]" />
-              Recherche régions
-            </button>
-            <button
-              type="button"
-              className="flex w-full items-center gap-2 rounded-xl border border-[#E07856]/15 bg-white px-3 py-2.5 font-courier text-sm font-bold text-[#2a211c] shadow-sm"
-              onClick={() => {
-                setFilterSheetOpen(true);
-                setMenuOpen(false);
-              }}
-            >
-              <Filter className="h-4 w-4 text-[#E07856]" />
-              Filtres ambiance & durée
-            </button>
-            <Link
-              href="/planifier/favoris"
-              className="flex items-center gap-2 rounded-xl border border-[#E07856]/35 bg-gradient-to-r from-[#141414] to-[#111111] px-3 py-2.5 font-courier text-sm font-bold text-[#E07856] shadow-sm"
-              onClick={() => setMenuOpen(false)}
-            >
-              <Bookmark className="h-4 w-4 shrink-0" />
-              Mes envies & favoris
-            </Link>
-          </div>
-        </div>
-      )}
-      <div className="pointer-events-none fixed right-3 top-[max(0.65rem,env(safe-area-inset-top))] z-[52] lg:hidden">
-        <button
-          type="button"
-          onClick={() => setMenuOpen((o) => !o)}
-          className={`pointer-events-auto flex h-12 w-12 items-center justify-center rounded-full border shadow-md backdrop-blur-sm ${
-            menuOpen || filterSheetOpen || searchOpen
-              ? "border-[#E07856] bg-[#E07856] text-white"
-              : "border-[#E07856]/25 bg-white/95 text-[#E07856]"
-          }`}
-          aria-label="Menu inspiration — recherche, filtres, mes envies"
-          aria-expanded={menuOpen}
-        >
-          <MoreHorizontal className="h-6 w-6" />
-        </button>
-      </div>
-      {filterSheetOpen && (
-        <div className="fixed inset-x-0 bottom-0 z-[55] max-h-[55vh] overflow-y-auto rounded-t-2xl border border-[#E07856]/15 bg-[#111111] px-4 pb-[max(1rem,env(safe-area-inset-bottom))] pt-3 shadow-[0_-8px_32px_rgba(0,0,0,0.12)] lg:hidden">
-          <p className="font-courier text-[10px] font-bold uppercase tracking-wide text-[#E07856]">
-            Ambiances
-          </p>
-          <div className="mt-2 flex flex-wrap gap-1.5">
-            {AMBIANCE_OPTIONS.map((o) => (
-              <button
-                key={o.id}
-                type="button"
-                onClick={() => toggleAmbiance(o.id)}
-                className={`rounded-full border px-2.5 py-1 font-courier text-[11px] font-bold transition ${
-                  ambiance.includes(o.id)
-                    ? "border-[#E07856] bg-[#E07856] text-white"
-                    : "border-[#E07856]/35 bg-white text-[#2a211c]"
-                }`}
-              >
-                {o.label}
-              </button>
-            ))}
-          </div>
-          <p className="mt-3 font-courier text-[10px] font-bold uppercase tracking-wide text-[#E07856]">
-            Durée
-          </p>
-          <select
-            value={duration ?? ""}
-            onChange={(e) =>
-              setDuration((e.target.value || null) as InspirationDurationFilter | null)
-            }
-            className="mt-2 w-full max-w-xs rounded-lg border border-[#E07856]/25 bg-white px-3 py-2 font-courier text-xs text-[#2a211c]"
-          >
-            <option value="">Toutes</option>
-            {DURATION_OPTIONS.map((o) => (
-              <option key={o.id} value={o.id}>
-                {o.label}
-              </option>
-            ))}
-          </select>
-        </div>
-      )}
-    </>
-  );
-}
-
 export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
   const ctx = useInspirationMap();
   const {
     top,
     selectTerritoryPoi,
-    resetFrance,
     goBack,
     goExploreRegion,
     closeRegionMapFullscreen,
@@ -299,6 +134,12 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
   const [mapReady, setMapReady] = useState(false);
   const onMapReady = useCallback(() => setMapReady(true), []);
   const [mapZoom, setMapZoom] = useState(7.5);
+  /** Évite une rafale de requêtes lieux à chaque frame de zoom carte. */
+  const [debouncedMapZoom, setDebouncedMapZoom] = useState(7.5);
+  useEffect(() => {
+    const id = window.setTimeout(() => setDebouncedMapZoom(mapZoom), 380);
+    return () => window.clearTimeout(id);
+  }, [mapZoom]);
   const [selectedVillePreview, setSelectedVillePreview] = useState<{
     slug: string;
     nom: string;
@@ -351,7 +192,7 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
       return;
     }
     if (top.screen === "region-map-fullscreen") return;
-    if (top.screen === "region-preview") setSheetHeightRatio(0.36);
+    if (top.screen === "region-preview") setSheetHeightRatio(0.34);
     else if (top.screen === "region-explore") setSheetHeightRatio(0.78);
     else setSheetHeightRatio(0.72);
   }, [top.screen]);
@@ -366,10 +207,8 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
       const h = typeof window !== "undefined" ? window.innerHeight : 800;
       const next = sheetDragStartRatio.current - offsetY / h;
       const mode = top.screen;
-      if (mode === "region-preview") {
-        setSheetHeightRatio(Math.min(0.44, Math.max(0.18, next)));
-      } else if (mode === "region-explore") {
-        setSheetHeightRatio(Math.min(0.92, Math.max(0.38, next)));
+      if (mode === "region-explore" || mode === "region-preview") {
+        setSheetHeightRatio(Math.min(0.92, Math.max(0.26, next)));
       } else {
         setSheetHeightRatio(Math.min(0.88, Math.max(0.12, next)));
       }
@@ -382,26 +221,25 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
     sheetHeightRatioRef.current = sheetHeightRatio;
   }, [sheetHeightRatio]);
 
-  /**
-   * Preview : swipe bas → France ; swipe haut fort → full région.
-   * Full région : swipe bas → preview (goBack) ; pas de saut France.
-   */
   const onGutterDragEnd = useCallback(() => {
     const sh = sheetHeightRatioRef.current;
     const mode = top.screen;
 
-    if (sh <= 0.28) {
-      if (mode === "region-preview") resetFrance();
-      else goBack();
-      return;
-    }
-
     if (mode === "region-preview") {
-      if (sh >= 0.46) {
+      if (sh <= 0.26) {
+        goBack();
+        return;
+      }
+      if (sh >= 0.42) {
         goExploreRegion();
         return;
       }
-      setSheetHeightRatio(0.36);
+      setSheetHeightRatio(0.34);
+      return;
+    }
+
+    if (sh <= 0.28 && mode !== "region-map-fullscreen") {
+      goBack();
       return;
     }
 
@@ -421,7 +259,7 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
     }
     if (sh < 0.4) setSheetHeightRatio(0.48);
     else setSheetHeightRatio(0.52);
-  }, [top.screen, resetFrance, goBack, goExploreRegion]);
+  }, [top.screen, goBack, goExploreRegion]);
 
   const [villePoints, setVillePoints] = useState<FeatureCollection | null>(null);
   const [editorialRoadLineFc, setEditorialRoadLineFc] = useState<FeatureCollection | null>(null);
@@ -433,14 +271,14 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
   } | null>(null);
 
   useEffect(() => {
-    if (!activeRegionId || top.screen === "france") {
+    if (!activeRegionId || top.screen === "france" || top.screen === "region-preview") {
       setVillePoints(null);
       return;
     }
     let cancelled = false;
     const qs = new URLSearchParams();
     qs.set("regionId", activeRegionId);
-    qs.set("zoom", String(mapZoom));
+    qs.set("zoom", String(debouncedMapZoom));
     qs.set("variant", "map");
     for (const a of ctx.ambiance) qs.append("ambiance", a);
     fetch(`/api/inspiration/lieux-region?${qs.toString()}`)
@@ -457,7 +295,7 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
             .map((f) => f.refId)
         );
         const maxByZoom =
-          mapZoom < 6.5 ? 7 : mapZoom < 7.5 ? 12 : mapZoom < 9 ? 24 : 42;
+          debouncedMapZoom < 6.5 ? 7 : debouncedMapZoom < 7.5 ? 12 : debouncedMapZoom < 9 ? 24 : 42;
         const capped = d.lieux.slice(0, maxByZoom);
         const enriched: SlimLieuPoint[] = capped.map((l) => {
           const tier = savedSlugs.has(l.slug)
@@ -475,7 +313,7 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
     return () => {
       cancelled = true;
     };
-  }, [activeRegionId, top.screen, ctx.ambiance, mapZoom]);
+  }, [activeRegionId, top.screen, ctx.ambiance, debouncedMapZoom]);
 
   const editorialSlugForRoadLine = useMemo(() => {
     if (!activeRegionId) return null;
@@ -534,7 +372,6 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
 
   const territoryPoints = useMemo(() => {
     const show =
-      top.screen === "region-preview" ||
       top.screen === "region-explore" ||
       top.screen === "region-map-fullscreen" ||
       top.screen === "poi-detail";
@@ -553,8 +390,8 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
       closeRegionMapFullscreen();
       return;
     }
-    if (top.screen === "region-preview") resetFrance();
-    else if (
+    if (
+      top.screen === "region-preview" ||
       top.screen === "region-explore" ||
       top.screen === "poi-detail" ||
       top.screen === "star-list" ||
@@ -562,7 +399,7 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
     ) {
       goBack();
     }
-  }, [top.screen, resetFrance, goBack, closeRegionMapFullscreen]);
+  }, [top.screen, goBack, closeRegionMapFullscreen]);
 
   const onMapBackgroundClear = useCallback(() => {
     setSelectedVillePreview(null);
@@ -729,12 +566,8 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
   const sheetHvh = `${Math.round(sheetHeightRatio * 100)}vh`;
 
   return (
-    <div className="flex h-full min-h-0 flex-col overflow-hidden bg-gradient-to-b from-[#fff4ec] to-[#fde8dc] md:rounded-2xl md:border md:border-[#E07856]/25 md:shadow-lg">
-      <div className="hidden lg:block">
-        <TopBar />
-      </div>
-      <InspirationMobileChrome />
-      <div className="relative flex min-h-0 flex-1 flex-col">
+    <div className="flex h-full min-h-0 flex-col overflow-hidden md:rounded-2xl md:border md:border-white/8 md:shadow-lg">
+      <div className="relative flex min-h-0 flex-1 flex-col bg-gradient-to-b from-[#fff4ec] to-[#fde8dc]">
         {/*
           Une seule instance carte = pas de remontage / pas de resize WebGL au changement France → région.
           La fiche est en overlay : la carte reste full-bleed, comme entre deux régions.
@@ -793,29 +626,36 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
             </div>
           )}
 
-          {top.screen === "france" && (
-            <>
-              <div className="pointer-events-none absolute left-0 right-0 top-2 z-10 hidden justify-center px-3 lg:flex">
-                <p className="max-w-md rounded-full border border-[#E07856]/15 bg-white/95 px-3 py-1.5 text-center font-courier text-[10px] leading-snug text-[#2a211c]/85 shadow-sm backdrop-blur-sm">
-                  Vue France — touche une région sur la carte ou fais défiler les cartes en bas
-                </p>
-              </div>
-              <div className="pointer-events-none absolute bottom-0 left-0 right-0 z-20">
-                <div className="pointer-events-auto">
-                  <RegionCarousel />
+          {(top.screen === "france" ||
+            top.screen === "region-preview" ||
+            top.screen === "region-explore") && (
+              <>
+                {top.screen === "france" && (
+                  <div className="pointer-events-none absolute left-0 right-0 top-2 z-10 hidden justify-center px-3 lg:flex">
+                    <p className="max-w-md rounded-full border border-[#E07856]/15 bg-white/95 px-3 py-1.5 text-center font-courier text-[10px] leading-snug text-[#2a211c]/85 shadow-sm backdrop-blur-sm">
+                      Vue France — touche une région sur la carte ou fais défiler les cartes en bas
+                    </p>
+                  </div>
+                )}
+                <div
+                  className="pointer-events-none absolute left-0 right-0 z-[44]"
+                  style={{
+                    bottom: showRegionSheet ? sheetHvh : 0,
+                  }}
+                >
+                  <div className="pointer-events-auto">
+                    <RegionCarousel />
+                  </div>
                 </div>
-              </div>
-            </>
-          )}
+              </>
+            )}
 
           {showRegionSheet && (
             <motion.div
               initial={{ y: "100%" }}
               animate={{ y: 0 }}
               transition={{ type: "spring", damping: 30, stiffness: 280 }}
-              className={`absolute bottom-0 left-0 right-0 z-[45] flex flex-col overflow-hidden rounded-t-3xl border border-[#E07856]/20 bg-gradient-to-t from-[#faf0e8] to-[#fff8f2] shadow-[0_-8px_40px_rgba(180,80,40,0.2)] ${
-                top.screen === "region-preview" ? "max-h-[42vh]" : "max-h-[92vh]"
-              }`}
+              className="absolute bottom-0 left-0 right-0 z-[45] flex max-h-[92vh] flex-col overflow-hidden rounded-t-3xl border border-[#E07856]/20 bg-gradient-to-t from-[#faf0e8] to-[#fff8f2] shadow-[0_-8px_40px_rgba(180,80,40,0.2)]"
               style={{ height: sheetHvh }}
             >
               <RegionSplitGutter

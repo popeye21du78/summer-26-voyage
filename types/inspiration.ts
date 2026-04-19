@@ -63,8 +63,10 @@ export type InspirationUxState =
 
 export type InspirationStackEntry =
   | { screen: "france" }
+  /** Clic région : aperçu ~1/3 écran (photo), puis tirer / CTA → explore. */
   | { screen: "region-preview"; regionId: string }
-  | { screen: "region-explore"; regionId: string }
+  /** Fiche région ; `essentialsOnly` = incontournables + images, sans filtres/onglets. */
+  | { screen: "region-explore"; regionId: string; essentialsOnly?: boolean }
   /** Carte régionale plein écran — retour = pop (restaure l’écran précédent). */
   | { screen: "region-map-fullscreen"; regionId: string }
   | { screen: "poi-detail"; regionId: string; territoryId: string }
