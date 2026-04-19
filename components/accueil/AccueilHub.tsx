@@ -35,45 +35,41 @@ export default function AccueilHub({ profileId, profileName }: Props) {
   }
 
   return (
-    <main className="relative flex h-full flex-col overflow-hidden bg-[#0e0e0e]">
+    <main className="relative flex min-h-[calc(100dvh-4rem)] w-full flex-col overflow-hidden bg-[#0e0e0e]">
       {/* Video background - B&W */}
-      <div className="absolute inset-0">
+      <div className="absolute inset-0 min-h-[calc(100dvh-4rem)]">
         <video
           src="/A2.mp4"
           autoPlay
           muted
           loop
           playsInline
-          className="h-full w-full object-cover opacity-20"
+          className="h-full min-h-[calc(100dvh-4rem)] w-full object-cover opacity-20"
           style={{ filter: "grayscale(100%)" }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/80" />
       </div>
 
-      <div className="relative z-10 flex min-h-0 flex-1 flex-col justify-between px-5 pb-6 pt-[calc(env(safe-area-inset-top,0px)+1.5rem)]">
-        {/* Logo */}
-        <div className="flex items-center gap-3">
+      <div className="relative z-10 flex min-h-[calc(100dvh-4rem)] min-w-0 flex-1 flex-col px-5 pb-[max(1.5rem,env(safe-area-inset-bottom))] pt-[calc(env(safe-area-inset-top,0px)+1.5rem)]">
+        {/* Logo seul, centré, grande taille */}
+        <div className="flex shrink-0 justify-center pt-1">
           <Image
             src="/A1.png"
-            alt="Viago"
-            width={32}
-            height={32}
-            className="brightness-0 invert"
+            alt=""
+            width={160}
+            height={160}
+            className="h-[min(28vw,9.5rem)] w-auto brightness-0 invert"
+            priority
           />
-          <span className="font-courier text-xs font-bold uppercase tracking-[0.45em] text-white/70">
-            Viago
-          </span>
         </div>
 
-        <div className="flex-1" />
-
-        <ContextualBlock
-          state={state}
-          profileId={profileId}
-          profileName={profileName}
-        />
-
-        <div className="flex-1" />
+        <div className="flex min-h-0 flex-1 flex-col justify-center py-8">
+          <ContextualBlock
+            state={state}
+            profileId={profileId}
+            profileName={profileName}
+          />
+        </div>
 
         <AccueilEditorialBlock />
       </div>
@@ -184,14 +180,6 @@ function ContextualBlock({
   const isJulie = profileId === "julie";
   return (
     <div className="space-y-5">
-      <Image
-        src="/A1.png"
-        alt=""
-        width={40}
-        height={40}
-        className="opacity-60"
-        style={{ filter: "brightness(0) invert(1) sepia(1) saturate(5) hue-rotate(-15deg) brightness(1.1)" }}
-      />
       <h1 className="max-w-[95%] font-courier text-[2.5rem] font-bold leading-[0.96] tracking-tight text-white">
         {isJulie ? (
           <>

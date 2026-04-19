@@ -94,7 +94,7 @@ export default function VoyageDetailPage() {
   }
 
   return (
-    <main className="flex h-full flex-col overflow-y-auto bg-gradient-to-b from-[#2a1810] to-[#1a120d]">
+    <main className="flex h-full min-h-0 flex-col overflow-hidden bg-gradient-to-b from-[#2a1810] to-[#1a120d]">
       <div className="relative h-[40vh] min-h-[260px] shrink-0">
         <VoyageMapView
           steps={stepCoords}
@@ -110,7 +110,9 @@ export default function VoyageDetailPage() {
         </Link>
       </div>
 
-      <VoyageDetailInteractive voyage={voyage} />
+      <div className="min-h-0 flex-1 overflow-y-auto overscroll-y-contain">
+        <VoyageDetailInteractive voyage={voyage} />
+      </div>
     </main>
   );
 }

@@ -9,6 +9,7 @@ import { LieuResolvedBackground } from "./LieuResolvedBackground";
 import { mergeVoyageSteps } from "@/lib/voyage-local-overrides";
 import { getCreatedVoyageById, createdVoyageToViagoPayload } from "@/lib/created-voyages";
 import { getProfileIdCached } from "@/lib/me-client";
+import { readReturnTo } from "@/lib/return-to";
 import type { Step } from "@/types";
 
 function formatDate(iso: string) {
@@ -25,7 +26,10 @@ export default function ViagoPageClient() {
   const id = params?.id as string;
   const readOnly = searchParams.get("mode") === "readonly";
 
-  const backHref = readOnly ? "/inspirer?tab=amis" : `/mon-espace/voyage/${id}`;
+  const returnTo = readReturnTo(searchParams);
+  const backHref = readOnly
+    ? (returnTo ?? "/inspirer?tab=amis")
+    : `/mon-espace/voyage/${id}`;
 
   const [voyage, setVoyage] = useState<{
     id: string;

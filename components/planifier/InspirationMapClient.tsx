@@ -222,55 +222,97 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
       stripInspirationBasemapClutter(map, allInteractiveLayerIds());
     }, []);
 
-    /** Remplissages : vague corail / sable selon la longitude (comme un dégradé est→ouest). */
+    const coralFill = useMemo(
+      () =>
+        [
+          "interpolate",
+          ["linear"],
+          ["get", "center_lng"],
+          -5.5,
+          "#E8B090",
+          0,
+          "#E07856",
+          4,
+          "#E8906E",
+          9.5,
+          "#D4A574",
+        ] as const,
+      []
+    );
+
+    const grayFill = useMemo(
+      () =>
+        [
+          "interpolate",
+          ["linear"],
+          ["get", "center_lng"],
+          -5.5,
+          "#d0d0d0",
+          0,
+          "#bcbcbc",
+          4,
+          "#b0b0b0",
+          9.5,
+          "#a3a3a3",
+        ] as const,
+      []
+    );
+
+    /**
+     * Vue France : tout en N&B.
+     * Région choisie : uniquement la région active en corail ; le reste reste N&B (faible contraste).
+     */
     const fillPaint = useMemo(
       () =>
         ({
-          "fill-color": [
-            "interpolate",
-            ["linear"],
-            ["get", "center_lng"],
-            -5.5,
-            "#E8B090",
-            0,
-            "#E07856",
-            4,
-            "#E8906E",
-            9.5,
-            "#D4A574",
-          ],
+          "fill-color": dimOtherRegions
+            ? (["case", ["==", ["get", "id"], sel], coralFill, grayFill] as unknown[])
+            : grayFill,
           "fill-opacity": dimOtherRegions
             ? [
                 "case",
                 ["==", ["get", "id"], sel],
-                0.44,
-                0.14,
+                0.52,
+                0.16,
               ]
             : [
                 "case",
                 ["==", ["get", "id"], sel],
-                0.4,
-                0.26,
+                0.42,
+                0.22,
               ],
         }) as Record<string, unknown>,
-      [sel, dimOtherRegions]
+      [sel, dimOtherRegions, coralFill, grayFill]
     );
 
-    /** Toutes les frontières région : même couleur terracotta (lisibilité + cohérence). */
     const linePaint = useMemo(
       () =>
         ({
-          "line-color": "#E07856",
+          "line-color": dimOtherRegions
+            ? ([
+                "case",
+                ["==", ["get", "id"], sel],
+                "#E07856",
+                "#6b6b6b",
+              ] as const)
+            : "#6e6e6e",
           "line-width": [
             "case",
             ["==", ["get", "id"], sel],
-            5,
-            3,
+            dimOtherRegions ? 5 : 4,
+            2,
           ],
-          "line-opacity": 0.94,
+          "line-opacity": dimOtherRegions
+            ? ([
+                "case",
+                ["==", ["get", "id"], sel],
+                0.96,
+                0.38,
+              ] as const)
+            : 0.88,
           "line-blur": 0.12,
         }) as Record<string, unknown>,
-      [sel]
+      [sel, dimOtherRegions]
     );
 
     const starLinePaint = useMemo(
@@ -470,7 +512,9 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
       <div
         ref={containerRef}
         className={`relative h-full min-h-[240px] w-full overflow-hidden transition-[filter] duration-300 ${
-          franceDiscoveryMuted ? "grayscale-[0.45] contrast-[1.06] brightness-[1.02]" : ""
+          franceDiscoveryMuted
+            ? "grayscale contrast-[1.02] brightness-[1.03] saturate-[0.35]"
+            : ""
         }`}
       >
         {regionsDataAugmented && (

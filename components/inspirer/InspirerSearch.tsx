@@ -1,8 +1,9 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Link from "next/link";
-import { Search as SearchIcon, MapPin } from "lucide-react";
+import { MapPin } from "lucide-react";
+import LinkWithReturn from "@/components/LinkWithReturn";
+import InspirerSearchField from "@/components/inspirer/InspirerSearchField";
 import { listTerritories, type EditorialTerritory } from "@/lib/editorial-territories";
 
 export default function InspirerSearch() {
@@ -35,16 +36,12 @@ export default function InspirerSearch() {
     <div className="flex h-full flex-col overflow-y-auto bg-[#111111]">
       {/* Search bar */}
       <div className="sticky top-0 z-10 border-b border-white/6 bg-[#111111]/95 px-4 pb-3 pt-4 backdrop-blur-lg">
-        <div className="relative">
-          <SearchIcon className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-[#E07856]/50" />
-          <input
-            type="text"
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            placeholder="Chercher une ville, une région, un lieu…"
-            className="w-full rounded-xl border border-white/8 bg-white/5 py-2.5 pl-10 pr-4 font-courier text-sm text-white placeholder:text-white/25 focus:border-[#E07856]/40 focus:outline-none focus:ring-1 focus:ring-[#E07856]/25"
-          />
-        </div>
+        <InspirerSearchField
+          value={query}
+          onChange={setQuery}
+          placeholder="Chercher une ville, une région, un lieu…"
+          inputClassName="py-2.5 text-sm"
+        />
       </div>
 
       {/* Results */}
@@ -56,7 +53,7 @@ export default function InspirerSearch() {
         ) : (
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
             {filtered.map((t) => (
-              <Link
+              <LinkWithReturn
                 key={t.id}
                 href={`/inspirer/region/${t.id}`}
                 className="flex items-center gap-3 rounded-2xl border border-white/6 bg-white/3 p-3.5 transition hover:border-[#E07856]/20 hover:bg-white/5"
@@ -74,7 +71,7 @@ export default function InspirerSearch() {
                     </p>
                   )}
                 </div>
-              </Link>
+              </LinkWithReturn>
             ))}
           </div>
         )}

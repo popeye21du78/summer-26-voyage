@@ -114,24 +114,34 @@ export default function MesVoyagesPage() {
           </Link>
         </div>
       ) : (
-        <ul className="space-y-4">
+        <ul className="mx-auto grid max-w-sm grid-cols-1 gap-5 sm:max-w-none sm:grid-cols-2">
           {voyages.map((v) => (
-            <li key={v.id}>
+            <li key={v.id} className="flex justify-center">
               <Link
                 href={v.href}
-                className="flex items-center gap-4 rounded-xl border border-[#E07856]/20 bg-white/80 p-4 font-courier transition-all duration-300 hover:scale-[1.01] hover:border-[#E07856]/40 hover:shadow-lg"
+                className="flex w-full max-w-[280px] flex-col overflow-hidden rounded-2xl border border-[#E07856]/25 bg-white/90 font-courier shadow-md transition-all duration-300 hover:border-[#E07856]/45 hover:shadow-lg sm:max-w-none"
               >
-                <VoyageCoverThumb voyage={v.voyage} />
-                <div className="min-w-0 flex-1">
-                  <span className="font-courier text-xs font-bold text-[#E07856]">
+                <div className="relative aspect-[3/4] w-full overflow-hidden bg-[#f5f0eb]">
+                  <VoyageCoverThumb
+                    voyage={v.voyage}
+                    className="absolute inset-0 h-full w-full object-cover"
+                  />
+                  <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/55 via-transparent to-transparent" />
+                  <span className="absolute left-3 top-3 rounded-full bg-[#E07856]/95 px-2.5 py-1 font-courier text-[10px] font-bold uppercase tracking-wide text-white shadow">
                     {typeLabels[v.type]}
                   </span>
-                  <p className="font-courier font-bold text-[#333333]">{v.titre}</p>
-                  <p className="truncate font-courier text-sm text-[#333333]/70">
+                </div>
+                <div className="flex min-h-0 flex-1 flex-col gap-1 p-4">
+                  <p className="line-clamp-2 font-courier font-bold leading-snug text-[#333333]">
+                    {v.titre}
+                  </p>
+                  <p className="line-clamp-3 font-courier text-sm text-[#333333]/75">
                     {v.sousTitre}
                   </p>
+                  <span className="mt-auto pt-2 font-courier text-xs font-bold text-[#E07856]">
+                    Ouvrir →
+                  </span>
                 </div>
-                <span className="font-courier text-[#E07856]">→</span>
               </Link>
             </li>
           ))}

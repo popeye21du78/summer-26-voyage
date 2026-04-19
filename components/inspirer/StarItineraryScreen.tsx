@@ -1,10 +1,13 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 import { ArrowLeft, Bookmark, MapPin, Clock, Sparkles, ChevronDown } from "lucide-react";
+import { useReturnBase } from "@/lib/hooks/use-return-base";
+import { useReturnHref } from "@/lib/hooks/use-return-href";
+import { withReturnTo } from "@/lib/return-to";
 import { starItineraryById } from "@/content/inspiration/star-itineraries";
 import type { StarItinerariesEditorialFile, StarItineraryEditorialItem } from "@/types/star-itineraries-editorial";
 import { PhotoCurationOverlay } from "@/components/PhotoCurationOverlay";
@@ -12,9 +15,14 @@ import { PhotoCurationOverlay } from "@/components/PhotoCurationOverlay";
 type Props = { slug: string };
 
 export default function StarItineraryScreen({ slug }: Props) {
-  const router = useRouter();
   const sp = useSearchParams();
   const regionId = sp.get("region") ?? "";
+  const here = useReturnBase();
+  const fallbackBack = useMemo(() => {
+    const base = "/inspirer?tab=stars";
+    return regionId ? `${base}&region=${encodeURIComponent(regionId)}` : base;
+  }, [regionId]);
+  const backHref = useReturnHref(fallbackBack);
 
   const legacy = starItineraryById(slug);
   const [editorial, setEditorial] = useState<StarItineraryEditorialItem | null>(null);
@@ -61,13 +69,13 @@ export default function StarItineraryScreen({ slug }: Props) {
     <main className="flex h-full flex-col bg-[var(--cream)]">
       {/* Top bar */}
       <div className="flex shrink-0 items-center justify-between border-b border-[#E07856]/15 bg-[var(--cream)] px-4 py-3">
-        <button
-          onClick={() => router.back()}
+        <Link
+          href={backHref}
           className="flex items-center gap-1 font-courier text-xs font-bold text-[#E07856]"
         >
           <ArrowLeft className="h-4 w-4" />
           Retour
-        </button>
+        </Link>
         <button
           type="button"
           className="flex items-center gap-1 rounded-full border border-[#E07856]/25 px-3 py-1.5 font-courier text-[10px] font-bold text-[#E07856] transition hover:border-[#E07856]/40"
@@ -162,7 +170,10 @@ export default function StarItineraryScreen({ slug }: Props) {
               {steps.map((step, i) => (
                 <Link
                   key={`${step.slug}-${i}`}
-                  href={`/inspirer/ville/${step.slug}?from=itineraire`}
+                  href={withReturnTo(
+                    `/inspirer/ville/${step.slug}?from=itineraire${regionId ? `&region=${encodeURIComponent(regionId)}` : ""}`,
+                    here
+                  )}
                   className="flex items-center gap-3 rounded-xl border border-[#E07856]/20 bg-white p-3.5 transition hover:border-[#E07856]/40"
                 >
                   <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[#E07856]/15 font-courier text-xs font-bold text-[#E07856]">
@@ -205,7 +216,10 @@ export default function StarItineraryScreen({ slug }: Props) {
         {/* CTA */}
         <div className="mt-10 space-y-3 pb-4">
           <Link
-            href={`/preparer?fromStar=${slug}&region=${regionId}`}
+            href={withReturnTo(
+              `/preparer?fromStar=${encodeURIComponent(slug)}&region=${encodeURIComponent(regionId)}`,
+              here
+            )}
             className="flex w-full items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-[#E07856] to-[#c94a4a] py-4 font-courier text-sm font-bold text-white shadow-[0_10px_36px_rgba(224,120,86,0.45)] transition hover:brightness-105"
           >
             <Sparkles className="h-4 w-4" />

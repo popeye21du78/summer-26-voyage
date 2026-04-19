@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { useReturnHref } from "@/lib/hooks/use-return-href";
 import { ArrowLeft, Map as MapIcon, Star, Sparkles, ChevronRight } from "lucide-react";
 import { getRegionEditorial } from "@/content/inspiration/regions";
 import { starItinerariesByRegion } from "@/content/inspiration/star-itineraries";
@@ -44,7 +44,7 @@ function stepIdForIncontournable(label: string, lieux: SlimLieu[]): string {
 type Props = { regionId: string };
 
 export default function RegionFullPage({ regionId }: Props) {
-  const router = useRouter();
+  const backHref = useReturnHref("/inspirer?tab=carte");
   const editorial = getRegionEditorial(regionId);
   const legacyStars = starItinerariesByRegion(regionId);
   const regionHeaderSlug = `region-header:${regionId}`;
@@ -169,13 +169,13 @@ export default function RegionFullPage({ regionId }: Props) {
           />
         ) : null}
 
-        <button
-          onClick={() => router.back()}
+        <Link
+          href={backHref}
           className="absolute left-4 top-[max(1rem,env(safe-area-inset-top))] z-10 flex items-center gap-1 rounded-xl bg-black/50 px-3 py-1.5 font-courier text-xs font-bold text-white/80 backdrop-blur-sm transition hover:bg-black/70"
         >
           <ArrowLeft className="h-3.5 w-3.5" />
           Retour
-        </button>
+        </Link>
         <Link
           href="/inspirer"
           className="absolute right-4 top-[max(1rem,env(safe-area-inset-top))] z-10 flex items-center gap-1 rounded-xl bg-black/50 px-3 py-1.5 font-courier text-xs font-bold text-white/80 backdrop-blur-sm transition hover:bg-black/70"

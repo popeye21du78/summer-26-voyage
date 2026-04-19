@@ -3,7 +3,7 @@
 import { useState, useEffect, useMemo } from "react";
 import Link from "next/link";
 import LinkWithReturn from "@/components/LinkWithReturn";
-import { Users, Search } from "lucide-react";
+import { Users } from "lucide-react";
 import type { VoyageAmi } from "@/data/mock-friends";
 import { EDITORIAL_PROFILES } from "@/data/test-profiles";
 import AmiVoyageFlipCard from "./AmiVoyageFlipCard";
@@ -33,10 +33,13 @@ function normalize(s: string) {
     .replace(/[\u0300-\u036f]/g, "");
 }
 
-export default function InspirerAmis() {
+type Props = {
+  searchQuery: string;
+};
+
+export default function InspirerAmis({ searchQuery: query }: Props) {
   const [voyages, setVoyages] = useState<VoyageAmi[]>([]);
   const [loading, setLoading] = useState(true);
-  const [query, setQuery] = useState("");
 
   useEffect(() => {
     fetch("/api/voyages-amis")
@@ -84,20 +87,9 @@ export default function InspirerAmis() {
 
   return (
     <div className="flex h-full min-h-0 flex-col overflow-hidden bg-[#111111]">
-      <div className="shrink-0 border-b border-white/6 px-4 py-3">
-        <label className="relative block">
-          <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-[#E07856]/50" />
-          <input
-            type="search"
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            placeholder="Ami, voyage, ville…"
-            className="w-full rounded-xl border border-white/10 bg-white/5 py-2.5 pl-10 pr-3 font-courier text-sm text-white placeholder:text-white/25 focus:border-[#E07856]/40 focus:outline-none"
-            autoComplete="off"
-          />
-        </label>
+      <div className="min-h-0 flex-1 overflow-y-auto px-4 py-4">
         {(famousHits.length > 0 || editorialHits.length > 0) && (
-          <div className="mt-3 flex flex-wrap gap-2">
+          <div className="mb-4 flex flex-wrap gap-2">
             {editorialHits.map((p) => (
               <LinkWithReturn
                 key={p.id}
@@ -118,9 +110,7 @@ export default function InspirerAmis() {
             ))}
           </div>
         )}
-      </div>
 
-      <div className="min-h-0 flex-1 overflow-y-auto px-4 py-4">
         {voyages.length === 0 ? (
           <div className="flex h-full flex-col items-center justify-center gap-4 py-12">
             <Users className="h-12 w-12 text-[#E07856]/25" />

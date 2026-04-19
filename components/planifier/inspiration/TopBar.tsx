@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Filter, Heart, Search } from "lucide-react";
+import { Filter, Heart } from "lucide-react";
 import { useInspirationMap } from "@/lib/inspiration-map-context";
 import {
   AMBIANCE_OPTIONS,
@@ -9,11 +9,23 @@ import {
   type InspirationAmbianceFilter,
   type InspirationDurationFilter,
 } from "@/lib/editorial-territories";
+import InspirerSearchField from "@/components/inspirer/InspirerSearchField";
 
-export default function TopBar() {
+export type InspirerTopBarSearchOverride = {
+  value: string;
+  onChange: (q: string) => void;
+  placeholder: string;
+};
+
+type TopBarProps = {
+  /** Onglets Stars / Amis : même barre que la carte, recherche pilotée localement. */
+  searchOverride?: InspirerTopBarSearchOverride;
+};
+
+export default function TopBar({ searchOverride }: TopBarProps) {
   const {
-    searchQuery,
-    setSearchQuery,
+    searchQuery: ctxSearch,
+    setSearchQuery: setCtxSearch,
     filterSheetOpen,
     setFilterSheetOpen,
     ambiance,
@@ -22,6 +34,10 @@ export default function TopBar() {
     setDuration,
   } = useInspirationMap();
 
+  const searchQuery = searchOverride?.value ?? ctxSearch;
+  const setSearchQuery = searchOverride?.onChange ?? setCtxSearch;
+  const searchPlaceholder = searchOverride?.placeholder ?? "Rechercher une région…";
+
   function toggleAmbiance(id: InspirationAmbianceFilter) {
     setAmbiance((prev) =>
       prev.includes(id) ? prev.filter((x) => x !== id) : [...prev, id]
@@ -29,47 +45,44 @@ export default function TopBar() {
   }
 
   return (
-    <header className="relative z-30 flex shrink-0 flex-col border-b border-[#E07856]/15 bg-[#141414]/95 backdrop-blur-md">
-      <div className="flex items-center gap-2 px-3 py-2.5 sm:px-4">
+    <header className="relative z-30 flex shrink-0 flex-col border-b border-white/6 bg-[#111111]/95 backdrop-blur-lg">
+      <div className="flex items-center gap-2 px-4 py-3">
         <Link
           href="/planifier"
-          className="hidden shrink-0 font-courier text-xs font-bold text-[#E07856] underline sm:inline"
+          className="hidden shrink-0 font-courier text-[10px] font-bold uppercase tracking-wider text-[#E07856] underline-offset-2 hover:underline sm:inline"
         >
           Hub
         </Link>
-        <div className="relative min-w-0 flex-1">
-          <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-[#E07856]/50" />
-          <input
-            type="search"
+        <div className="min-w-0 flex-1">
+          <InspirerSearchField
             value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            placeholder="Rechercher une région…"
-            className="w-full rounded-full border border-[#E07856]/20 bg-white py-2 pl-10 pr-4 font-courier text-sm text-white/80 placeholder:text-white/80/45 focus:border-[#E07856] focus:outline-none"
+            onChange={setSearchQuery}
+            placeholder={searchPlaceholder}
           />
         </div>
         <button
           type="button"
           onClick={() => setFilterSheetOpen(!filterSheetOpen)}
-          className={`inline-flex shrink-0 items-center gap-1.5 rounded-full border px-3 py-2 font-courier text-xs font-bold transition ${
+          className={`inline-flex shrink-0 items-center gap-1.5 rounded-xl border px-3 py-2 font-courier text-[11px] font-bold transition ${
             filterSheetOpen || ambiance.length > 0 || duration
-              ? "border-[#E07856] bg-[#E07856] text-white"
-              : "border-[#E07856]/25 bg-white text-[#E07856]"
+              ? "border-[#E07856] bg-[#E07856]/25 text-[#E07856]"
+              : "border-white/10 bg-white/5 text-white/70 hover:border-[#E07856]/35 hover:text-white/90"
           }`}
         >
-          <Filter className="h-4 w-4" />
-          Filtres
+          <Filter className="h-3.5 w-3.5 text-[#E07856]" />
+          <span className="max-sm:sr-only">Filtres</span>
         </button>
         <Link
           href="/planifier/favoris"
-          className="inline-flex shrink-0 items-center gap-1 rounded-full border border-[#E07856]/25 bg-white px-3 py-2 font-courier text-xs font-bold text-[#E07856] transition hover:bg-[#141414]"
+          className="inline-flex shrink-0 items-center gap-1 rounded-xl border border-white/10 bg-white/5 px-3 py-2 font-courier text-[11px] font-bold text-[#E07856] transition hover:border-[#E07856]/35 hover:bg-white/10"
         >
-          <Heart className="h-4 w-4" />
+          <Heart className="h-3.5 w-3.5" />
           <span className="hidden sm:inline">Favoris</span>
         </Link>
       </div>
 
       {filterSheetOpen && (
-        <div className="border-t border-[#E07856]/10 bg-white/90 px-3 py-3 sm:px-4">
+        <div className="border-t border-white/5 bg-[#0d0d0d] px-4 py-3">
           <p className="font-courier text-[10px] font-bold uppercase tracking-wide text-[#E07856]">
             Ambiances
           </p>
@@ -82,7 +95,7 @@ export default function TopBar() {
                 className={`rounded-full border px-2.5 py-1 font-courier text-[11px] font-bold transition ${
                   ambiance.includes(o.id)
                     ? "border-[#E07856] bg-[#E07856] text-white"
-                    : "border-[#E07856]/35 bg-white text-white/80"
+                    : "border-white/15 bg-white/5 text-white/70 hover:border-[#E07856]/40"
                 }`}
               >
                 {o.label}
@@ -97,7 +110,7 @@ export default function TopBar() {
             onChange={(e) =>
               setDuration((e.target.value || null) as InspirationDurationFilter | null)
             }
-            className="mt-2 w-full max-w-xs rounded-lg border border-[#E07856]/25 bg-white px-3 py-2 font-courier text-xs text-white/80"
+            className="mt-2 w-full max-w-xs rounded-xl border border-white/10 bg-white/5 px-3 py-2 font-courier text-xs text-white focus:border-[#E07856]/35 focus:outline-none"
           >
             <option value="">Toutes</option>
             {DURATION_OPTIONS.map((o) => (

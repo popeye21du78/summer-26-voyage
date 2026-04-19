@@ -5,6 +5,8 @@ import { Map, Star, Users } from "lucide-react";
 import InspirerCarteWrapper from "./InspirerCarteWrapper";
 import InspirerStars from "./InspirerStars";
 import InspirerAmis from "./InspirerAmis";
+import TopBar from "@/components/planifier/inspiration/TopBar";
+import { InspirationMapProvider, useInspirationMap } from "@/lib/inspiration-map-context";
 import {
   INSPIRER_TAB_KEY,
   readScrollY,
@@ -35,7 +37,27 @@ type Props = {
   initialRegion?: string;
 };
 
-export default function InspirerTabs({
+function InspirerRegionFromUrl({
+  active,
+  initialRegion,
+}: {
+  active: TabId;
+  initialRegion?: string;
+}) {
+  const { selectRegion } = useInspirationMap();
+  const appliedRef = useRef<string | null>(null);
+
+  useEffect(() => {
+    if (active !== "carte" || !initialRegion) return;
+    if (appliedRef.current === initialRegion) return;
+    selectRegion(initialRegion);
+    appliedRef.current = initialRegion;
+  }, [active, initialRegion, selectRegion]);
+
+  return null;
+}
+
+function InspirerTabsInner({
   mapboxAccessToken,
   initialTab,
   initialRegion,
@@ -51,6 +73,9 @@ export default function InspirerTabs({
   const scrollRefs = useRef<Partial<Record<TabId, HTMLDivElement | null>>>({});
   const activeRef = useRef<TabId>(active);
   activeRef.current = active;
+
+  const [starsSearch, setStarsSearch] = useState("");
+  const [amisSearch, setAmisSearch] = useState("");
 
   useEffect(() => {
     const n = normalizeInitialTab(initialTab);
@@ -75,7 +100,22 @@ export default function InspirerTabs({
     if (id === active) return;
     persistCurrentScroll();
     setActive(id);
+    if (typeof window !== "undefined") {
+      const u = new URL(window.location.href);
+      u.searchParams.set("tab", id);
+      window.history.replaceState(null, "", `${u.pathname}${u.search}`);
+    }
   }
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const u = new URL(window.location.href);
+    const t = u.searchParams.get("tab");
+    if (isValidTab(t ?? undefined) && t !== activeRef.current) {
+      setActive(t as TabId);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- lecture initiale URL / navigation arrière
+  }, []);
 
   useEffect(() => {
     if (active === "carte") return;
@@ -124,10 +164,30 @@ export default function InspirerTabs({
         </div>
       </div>
 
-      {/* Hauteur mini viewport : sinon flex-1 → 0 et la carte Mapbox (absolute inset-0) reste à 0 px */}
+      <TopBar
+        searchOverride={
+          active === "stars"
+            ? {
+                value: starsSearch,
+                onChange: setStarsSearch,
+                placeholder: "Rechercher un itinéraire, un thème…",
+              }
+            : active === "amis"
+              ? {
+                  value: amisSearch,
+                  onChange: setAmisSearch,
+                  placeholder: "Ami, voyage, ville…",
+                }
+              : undefined
+        }
+      />
+
+      <InspirerRegionFromUrl active={active} initialRegion={initialRegion} />
+
+      {/* Hauteur mini viewport : onglets + TopBar (Hub, recherche, filtres, favoris) */}
       <div
         className="relative min-h-0 flex-1 overflow-hidden"
-        style={{ minHeight: "calc(100dvh - 8.25rem)" }}
+        style={{ minHeight: "calc(100dvh - 11.5rem)" }}
       >
         <TabPanel
           visible={active === "carte"}
@@ -144,7 +204,7 @@ export default function InspirerTabs({
             scrollRefs.current.stars = el;
           }}
         >
-          <InspirerStars initialRegionFilter={initialRegion} />
+          <InspirerStars initialRegionFilter={initialRegion} searchQuery={starsSearch} />
         </TabPanel>
         <TabPanel
           visible={active === "amis"}
@@ -154,10 +214,18 @@ export default function InspirerTabs({
             scrollRefs.current.amis = el;
           }}
         >
-          <InspirerAmis />
+          <InspirerAmis searchQuery={amisSearch} />
         </TabPanel>
       </div>
     </div>
+  );
+}
+
+export default function InspirerTabs(props: Props) {
+  return (
+    <InspirationMapProvider>
+      <InspirerTabsInner {...props} />
+    </InspirationMapProvider>
   );
 }
 

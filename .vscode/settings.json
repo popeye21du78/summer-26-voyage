@@ -1,0 +1,29 @@
+{
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/.next/**": true,
+    "**/data/descriptions/**": true,
+    "**/data/batch/**": true,
+    "**/data/batch-desc/**": true,
+    "**/data/debug/**": true,
+    "**/data/geo/**": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/.next": true,
+    "**/data/descriptions": true,
+    "**/data/batch": true,
+    "**/data/batch-desc": true,
+    "**/data/debug": true,
+    "**/data/geo": true
+  },
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/.next": true,
+    "**/data/descriptions": true,
+    "**/data/batch": true,
+    "**/data/batch-desc": true,
+    "**/data/debug": true,
+    "**/data/geo": true
+  }
+}

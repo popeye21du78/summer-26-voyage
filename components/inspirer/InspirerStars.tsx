@@ -4,7 +4,7 @@ import { useState, useMemo, useCallback, useRef, useEffect } from "react";
 import Image from "next/image";
 import LinkWithReturn from "@/components/LinkWithReturn";
 import { useSearchParams } from "next/navigation";
-import { Filter, X, ChevronRight, MapPin, Search } from "lucide-react";
+import { Filter, X, ChevronRight, MapPin } from "lucide-react";
 import { EDITORIAL_PROFILES } from "@/data/test-profiles";
 import { STAR_ITINERARIES_EDITORIAL_BY_REGION } from "@/content/inspiration/star-itineraries-editorial/index";
 import { MAP_REGIONS } from "@/lib/inspiration-map-regions-config";
@@ -16,6 +16,7 @@ type RegionMeta = { id: string; name: string; count: number };
 
 type Props = {
   initialRegionFilter?: string;
+  searchQuery: string;
 };
 
 function buildRegionMeta(): RegionMeta[] {
@@ -114,16 +115,17 @@ function groupByTheme(
   return groups;
 }
 
-export default function InspirerStars({ initialRegionFilter }: Props) {
+export default function InspirerStars({ initialRegionFilter, searchQuery }: Props) {
   const searchParams = useSearchParams();
   const [regionFilter, setRegionFilter] = useState<string | null>(
     initialRegionFilter ?? null
   );
   const [sidebarOpen, setSidebarOpen] = useState(false);
-  const [searchQuery, setSearchQuery] = useState("");
   /** Clé unique région + itinéraire (évite collision de slug entre régions). */
   const [flippedKey, setFlippedKey] = useState<string | null>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
+  const lastScrollY = useRef(0);
+  const [filtersHidden, setFiltersHidden] = useState(false);
 
   useEffect(() => {
     if (initialRegionFilter) setRegionFilter(initialRegionFilter);
@@ -204,10 +206,28 @@ export default function InspirerStars({ initialRegionFilter }: Props) {
     return regionsMeta.find((r) => r.id === regionFilter)?.name ?? regionFilter;
   }, [regionFilter, regionsMeta]);
 
+  const onMainScroll = useCallback((e: React.UIEvent<HTMLDivElement>) => {
+    const y = e.currentTarget.scrollTop;
+    const delta = y - lastScrollY.current;
+    lastScrollY.current = y;
+    if (y < 20) {
+      setFiltersHidden(false);
+      return;
+    }
+    if (delta > 8) setFiltersHidden(true);
+    else if (delta < -8) setFiltersHidden(false);
+  }, []);
+
   return (
     <div className="relative flex h-full min-h-0 flex-col overflow-hidden bg-[#111111]">
-      {/* Top bar */}
-      <div className="shrink-0 border-b border-white/6 bg-[#111111]/95 backdrop-blur-lg">
+      {/* Région + raccourcis profils (recherche : TopBar commune) */}
+      <div
+        className={`shrink-0 overflow-hidden border-b border-white/6 bg-[#111111]/95 backdrop-blur-lg transition-[max-height,opacity] duration-200 ease-out ${
+          filtersHidden
+            ? "pointer-events-none max-h-0 border-0 opacity-0"
+            : "max-h-[min(220px,38vh)] opacity-100"
+        }`}
+      >
         <div className="flex items-center justify-between px-4 py-3">
           <button
             onClick={() => setSidebarOpen(true)}
@@ -224,18 +244,7 @@ export default function InspirerStars({ initialRegionFilter }: Props) {
           </div>
         </div>
         <div className="border-t border-white/5 px-4 pb-3">
-          <label className="relative block">
-            <Search className="pointer-events-none absolute left-3 top-1/2 h-3.5 w-3.5 -translate-y-1/2 text-[#E07856]/45" />
-            <input
-              type="search"
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="Rechercher un itinéraire, un thème…"
-              className="w-full rounded-xl border border-white/10 bg-white/5 py-2 pl-9 pr-3 font-courier text-[11px] text-white placeholder:text-white/25 focus:border-[#E07856]/35 focus:outline-none"
-              autoComplete="off"
-            />
-          </label>
-          <div className="mt-2 flex flex-wrap gap-2">
+          <div className="flex flex-wrap gap-2">
             <span className="w-full font-courier text-[9px] font-bold uppercase tracking-wider text-white/25">
               Voyageurs éditoriaux
             </span>
@@ -255,6 +264,7 @@ export default function InspirerStars({ initialRegionFilter }: Props) {
       {/* Main scroll area */}
       <div
         ref={scrollRef}
+        onScroll={onMainScroll}
         className="min-h-0 flex-1 overflow-y-auto scroll-smooth"
       >
         <div className="px-4 py-4">

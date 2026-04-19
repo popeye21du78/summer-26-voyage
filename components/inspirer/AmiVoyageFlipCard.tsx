@@ -11,6 +11,17 @@ import type { ResolvedStarStep } from "@/lib/inspiration/star-itinerary-geo";
 import { slugFromNom } from "@/lib/slug-from-nom";
 import { withReturnTo } from "@/lib/return-to";
 
+function buildAmiViagoReturn(here: string, voyageId: string): string {
+  try {
+    const u = new URL(here || "/inspirer", "http://localhost");
+    u.searchParams.set("tab", "amis");
+    u.searchParams.set("amiFlip", voyageId);
+    return `${u.pathname}${u.search}`;
+  } catch {
+    return `/inspirer?tab=amis&amiFlip=${encodeURIComponent(voyageId)}`;
+  }
+}
+
 const StarFlipMap = dynamic(() => import("./StarFlipMap"), { ssr: false });
 
 type Props = {
@@ -62,6 +73,29 @@ export default function AmiVoyageFlipCard({
   useEffect(() => {
     if (!flipped) setActiveStep(0);
   }, [flipped]);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    try {
+      const u = new URL(window.location.href);
+      if (u.searchParams.get("amiFlip") === voyage.id) setFlipped(true);
+    } catch {
+      /* ignore */
+    }
+  }, [voyage.id]);
+
+  const clearAmiFlipFromUrl = useCallback(() => {
+    if (typeof window === "undefined") return;
+    try {
+      const u = new URL(window.location.href);
+      if (u.searchParams.get("amiFlip") === voyage.id) {
+        u.searchParams.delete("amiFlip");
+        window.history.replaceState(null, "", `${u.pathname}${u.search}`);
+      }
+    } catch {
+      /* ignore */
+    }
+  }, [voyage.id]);
 
   return (
     <div className="relative w-full" style={{ perspective: "1200px" }}>
@@ -129,9 +163,9 @@ export default function AmiVoyageFlipCard({
             transform: "rotateY(180deg)",
           }}
         >
-          <div className="flex max-h-[min(92vh,800px)] min-h-[380px] flex-col overflow-y-auto overscroll-y-contain pb-[max(1rem,env(safe-area-inset-bottom))]">
+          <div className="flex max-h-[min(88vh,720px)] min-h-[320px] flex-col overflow-y-auto overscroll-y-contain pb-[max(1rem,env(safe-area-inset-bottom))]">
             <div className="shrink-0 border-b border-white/6 bg-[#141414]">
-              <div className="relative aspect-[16/10] min-h-[160px] w-full max-h-[32vh]">
+              <div className="relative aspect-[16/11] min-h-[120px] w-full max-h-[28vh]">
                 {flipped && resolvedSteps.length > 0 && token ? (
                   <StarFlipMap
                     steps={resolvedSteps}
@@ -145,7 +179,10 @@ export default function AmiVoyageFlipCard({
                 )}
                 <button
                   type="button"
-                  onClick={() => setFlipped(false)}
+                  onClick={() => {
+                    clearAmiFlipFromUrl();
+                    setFlipped(false);
+                  }}
                   className="absolute left-3 top-3 z-30 rounded-xl bg-black/50 p-1.5 text-white/70 backdrop-blur-sm"
                   aria-label="Retour"
                 >
@@ -193,22 +230,25 @@ export default function AmiVoyageFlipCard({
               </div>
             </div>
 
-            <div className="px-4 py-4">
+            <div className="shrink-0 space-y-3 px-4 py-3">
               <Link
                 href={withReturnTo(
                   `/inspirer/ville/${slugFromNom(stepsForStrip[activeStep]?.nom ?? "")}?from=amis`,
                   here
                 )}
-                className="mb-3 flex items-center gap-2 font-courier text-sm font-bold text-[#E07856] hover:underline"
+                className="flex items-center gap-2 font-courier text-sm font-bold text-[#E07856] hover:underline"
               >
                 <MapPin className="h-4 w-4" />
                 Voir {stepsForStrip[activeStep]?.nom ?? "la ville"}
               </Link>
               <Link
-                href={withReturnTo(`/mon-espace/viago/${voyage.id}?mode=readonly`, here)}
-                className="btn-orange-glow flex w-full shrink-0 items-center justify-center gap-2 rounded-xl py-3.5 font-courier text-sm font-bold text-white"
+                href={withReturnTo(
+                  `/mon-espace/viago/${voyage.id}?mode=readonly`,
+                  buildAmiViagoReturn(here, voyage.id)
+                )}
+                className="btn-orange-glow flex w-full items-center justify-center gap-2 rounded-xl py-3 font-courier text-sm font-bold text-white"
               >
-                <Sparkles className="h-4 w-4" />
+                <Sparkles className="h-4 w-4 shrink-0" />
                 Accéder au Viago
               </Link>
             </div>

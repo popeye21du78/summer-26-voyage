@@ -1,8 +1,8 @@
-import RegionFullPage from "@/components/inspirer/RegionFullPage";
+import { redirect } from "next/navigation";
 
 type Props = { params: Promise<{ id: string }> };
 
 export default async function RegionPage({ params }: Props) {
   const { id } = await params;
-  return <RegionFullPage regionId={id} />;
+  redirect(`/inspirer?tab=carte&region=${encodeURIComponent(id)}`);
 }
