@@ -106,7 +106,7 @@ export default function MonEspaceShell({
 
   if (loading) {
     return (
-      <main className="flex h-full items-center justify-center bg-[#111111]">
+      <main className="flex h-full items-center justify-center bg-[var(--color-bg-main)]">
         <p className="voyage-loading-text text-sm uppercase tracking-widest">
           voyage voyage…
         </p>
@@ -115,9 +115,9 @@ export default function MonEspaceShell({
   }
 
   return (
-    <main className="flex h-full min-h-0 min-w-0 flex-1 flex-col overflow-hidden bg-[#111111]">
-      <div className="shrink-0 border-b border-white/6 bg-[#111111]/95 backdrop-blur-lg">
-        <div className="flex items-stretch" role="tablist">
+    <main className="flex h-full min-h-0 min-w-0 flex-1 flex-col overflow-hidden bg-[var(--color-bg-main)]">
+      <div className="viago-top-tabs-wrap">
+        <div className="viago-top-tabs-pill" role="tablist">
           {SECTIONS.map(({ id, label, icon: Icon }) => {
             const isActive = activeSection === id;
             return (
@@ -127,11 +127,7 @@ export default function MonEspaceShell({
                 type="button"
                 aria-selected={isActive}
                 onClick={() => goToSection(id)}
-                className={`flex flex-1 flex-col items-center gap-1 py-3 transition-colors duration-150 ${
-                  isActive
-                    ? "border-b-2 border-[#E07856] text-[#E07856]"
-                    : "text-white/35 hover:text-white/55"
-                }`}
+                className="viago-top-tab"
               >
                 <Icon className="h-5 w-5" strokeWidth={isActive ? 2.4 : 1.6} />
                 <span className="font-courier text-[10px] font-bold uppercase tracking-wider">
@@ -145,17 +141,22 @@ export default function MonEspaceShell({
 
       <LinkWithReturn
         href={profileId ? `/profil/${profileId}` : "/mon-espace"}
-        className="flex shrink-0 items-center gap-4 border-b border-white/6 px-4 py-4 transition hover:bg-white/[0.03]"
+        className="viago-row-hover flex shrink-0 items-center gap-4 border-b border-[var(--color-glass-border)] px-4 py-4"
       >
-        <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[#E07856] to-[#c94a4a] shadow-[0_4px_16px_rgba(224,120,86,0.3)]">
+        <div
+          className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full shadow-[0_8px_20px_var(--color-shadow),0_2px_6px_var(--color-shadow-cta-accent)]"
+          style={{ background: "var(--gradient-cta)" }}
+        >
           <User className="h-7 w-7 text-white" strokeWidth={1.8} />
         </div>
         <div className="min-w-0 flex-1">
-          <p className="font-courier text-lg font-bold leading-tight text-white">
+          <p className="font-courier text-lg font-bold leading-tight text-[var(--color-text-primary)]">
             {profileName}
           </p>
-          <p className="mt-0.5 font-courier text-sm text-white/45">{situationLabel}</p>
-          <p className="mt-1 font-courier text-[10px] text-[#E07856]/60">
+          <p className="mt-0.5 font-courier text-sm text-[var(--color-text-secondary)]">
+            {situationLabel}
+          </p>
+          <p className="mt-1 font-courier text-[10px] text-[var(--color-accent-start)] opacity-70">
             Voir mon profil public
           </p>
         </div>
@@ -166,7 +167,7 @@ export default function MonEspaceShell({
             e.stopPropagation();
             void handleLogout();
           }}
-          className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl border border-white/8 text-white/40 transition hover:border-white/15 hover:text-white/60"
+          className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl border border-[var(--color-glass-border)] text-[var(--color-text-secondary)] transition hover:border-[var(--color-glass-highlight)] hover:text-[color-mix(in_srgb,var(--color-text-primary)_55%,transparent)]"
           aria-label="Déconnexion"
         >
           <LogOut className="h-5 w-5" />
@@ -244,7 +245,7 @@ function TabPanel({
     <div
       ref={scrollRef}
       role="tabpanel"
-      className="absolute inset-0 overflow-y-auto overflow-x-hidden scroll-smooth"
+      className="absolute inset-0 overflow-y-auto overflow-x-hidden scroll-smooth pb-bottom-nav"
       style={{ display: visible ? "block" : "none" }}
     >
       {children}

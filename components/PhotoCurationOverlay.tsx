@@ -166,7 +166,7 @@ export function PhotoCurationOverlay({
             type="button"
             disabled={posting}
             onClick={handleValidate}
-            className={`min-h-[36px] flex-1 rounded-md bg-[#E07856] font-courier font-bold text-white transition hover:brightness-110 disabled:opacity-40 ${
+            className={`min-h-[36px] flex-1 rounded-md bg-[var(--color-accent-start)] font-courier font-bold text-white transition hover:brightness-110 disabled:opacity-40 ${
               compact ? "py-0.5 text-[8px]" : "py-1 text-[10px]"
             }`}
           >

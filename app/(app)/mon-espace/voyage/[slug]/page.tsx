@@ -71,7 +71,7 @@ export default function VoyageDetailPage() {
 
   if (loading) {
     return (
-      <main className="flex h-full items-center justify-center bg-gradient-to-b from-[#2a1810] to-[#1a120d]">
+      <main className="flex min-h-full flex-1 items-center justify-center bg-gradient-to-b from-[var(--color-bg-main)] to-[var(--color-bg-gradient-end)]">
         <p className="voyage-loading-text text-sm uppercase tracking-widest">
           voyage voyage…
         </p>
@@ -81,11 +81,11 @@ export default function VoyageDetailPage() {
 
   if (!voyage) {
     return (
-      <main className="flex h-full flex-col items-center justify-center gap-4 bg-gradient-to-b from-[#2a1810] to-[#1a120d] px-6">
-        <p className="font-courier text-sm text-white/50">Voyage introuvable.</p>
+      <main className="flex min-h-full flex-1 flex-col items-center justify-center gap-4 bg-gradient-to-b from-[var(--color-bg-main)] to-[var(--color-bg-gradient-end)] px-6">
+        <p className="font-courier text-sm text-[var(--color-text-secondary)]">Voyage introuvable.</p>
         <Link
           href="/mon-espace"
-          className="font-courier text-xs font-bold text-[#E07856]"
+          className="font-courier text-xs font-bold text-[var(--color-accent-start)]"
         >
           Retour
         </Link>
@@ -94,13 +94,14 @@ export default function VoyageDetailPage() {
   }
 
   return (
-    <main className="flex h-full min-h-0 flex-col overflow-hidden bg-gradient-to-b from-[#2a1810] to-[#1a120d]">
+    <main className="relative flex min-h-full flex-col bg-gradient-to-b from-[var(--color-bg-main)] to-[var(--color-bg-gradient-end)]">
+      {/* Carte hero : participe au scroll global (plus de scroll imbriqué). */}
       <div className="relative h-[40vh] min-h-[260px] shrink-0">
         <VoyageMapView
           steps={stepCoords}
           mapboxToken={process.env.NEXT_PUBLIC_MAPBOX_TOKEN}
         />
-        <div className="absolute inset-x-0 bottom-0 h-16 bg-gradient-to-t from-[#2a1810] to-transparent" />
+        <div className="pointer-events-none absolute inset-x-0 bottom-0 h-16 bg-gradient-to-t from-[var(--color-bg-main)] to-transparent" />
         <Link
           href="/mon-espace"
           className="absolute left-4 top-[max(1rem,env(safe-area-inset-top))] z-10 flex items-center gap-1.5 rounded-full bg-black/40 px-3 py-1.5 font-courier text-xs font-bold text-white backdrop-blur-sm transition hover:bg-black/60"
@@ -110,9 +111,7 @@ export default function VoyageDetailPage() {
         </Link>
       </div>
 
-      <div className="min-h-0 flex-1 overflow-y-auto overscroll-y-contain">
-        <VoyageDetailInteractive voyage={voyage} />
-      </div>
+      <VoyageDetailInteractive voyage={voyage} />
     </main>
   );
 }

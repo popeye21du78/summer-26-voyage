@@ -40,13 +40,13 @@ export default function VoyageTermineLanding({ state }: Props) {
       <div
         className={`relative z-20 ${SNAP_SECTION_SCROLL_INNER} px-4 pb-8 pt-[calc(env(safe-area-inset-top,0px)+4rem)]`}
       >
-        <p className="mb-2 font-courier text-[10px] font-bold uppercase tracking-[0.35em] text-[#E07856]">
+        <p className="mb-2 font-courier text-[10px] font-bold uppercase tracking-[0.35em] text-[var(--color-accent-start)]">
           C&apos;était
         </p>
         <h1
           className="relative mb-2 max-w-[95%] font-courier text-[2rem] font-bold uppercase leading-none tracking-tight text-transparent sm:text-[2.4rem]"
           style={{
-            background: "linear-gradient(to right, #E07856, #D4635B, #CD853F)",
+            background: "linear-gradient(to right, var(--color-accent-start), var(--color-accent-mid), var(--color-accent-gold))",
             backgroundClip: "text",
             WebkitBackgroundClip: "text",
           }}
@@ -85,7 +85,7 @@ export default function VoyageTermineLanding({ state }: Props) {
         <div className="mt-auto flex max-w-md flex-col gap-3">
           <Link
             href={`/mon-espace/viago/${dernier.id}?from=termine`}
-            className="w-full rounded-2xl bg-gradient-to-r from-[#E07856] to-[#c94a4a] py-3.5 text-center font-courier text-sm font-bold text-white shadow-lg"
+            className="w-full rounded-2xl bg-gradient-to-r from-[var(--color-accent-start)] to-[var(--color-accent-end)] py-3.5 text-center font-courier text-sm font-bold text-white shadow-lg"
           >
             Revivre le voyage
           </Link>

@@ -98,12 +98,21 @@ export default function AmiVoyageFlipCard({
   }, [voyage.id]);
 
   return (
-    <div className="relative w-full" style={{ perspective: "1200px" }}>
+    <div
+      className="relative w-full"
+      style={{
+        perspective: "1200px",
+        /** Flip : on agrandit la hauteur pour accueillir la map + étapes + bouton Viago. */
+        minHeight: flipped ? "min(680px, 92vh)" : undefined,
+        transition: "min-height 600ms ease",
+      }}
+    >
       <div
         className="relative w-full transition-transform duration-700"
         style={{
           transformStyle: "preserve-3d",
           transform: flipped ? "rotateY(180deg)" : "rotateY(0deg)",
+          height: flipped ? "min(680px, 92vh)" : "auto",
         }}
       >
         {/* Recto */}
@@ -113,7 +122,7 @@ export default function AmiVoyageFlipCard({
           style={{ backfaceVisibility: "hidden" }}
           onClick={() => setFlipped(true)}
         >
-          <div className="relative aspect-[3/4] w-full overflow-hidden bg-[#1c1c1c]">
+          <div className="relative aspect-[3/4] w-full overflow-hidden bg-[var(--color-bg-secondary)]">
             {first ? (
               <CityPhoto
                 stepId={first.id}
@@ -131,12 +140,12 @@ export default function AmiVoyageFlipCard({
                 onClick={(e) => e.stopPropagation()}
                 className="mb-2 inline-flex items-center gap-2 rounded-full bg-black/45 px-2.5 py-1 font-courier text-[10px] font-bold text-white/90 backdrop-blur-sm transition hover:bg-black/60"
               >
-                <span className="flex h-6 w-6 items-center justify-center rounded-full bg-[#E07856] text-[10px]">
+                <span className="flex h-6 w-6 items-center justify-center rounded-full bg-[var(--color-accent-start)] text-[10px]">
                   {profileName.charAt(0)}
                 </span>
                 {profileName}
               </Link>
-              <p className="font-courier text-[10px] font-bold uppercase tracking-[0.25em] text-[#E07856]">
+              <p className="font-courier text-[10px] font-bold uppercase tracking-[0.25em] text-[var(--color-accent-start)]">
                 Voyage d’un ami
               </p>
               <h3 className="mt-1 font-courier text-lg font-bold leading-tight text-white">
@@ -155,16 +164,20 @@ export default function AmiVoyageFlipCard({
           </div>
         </button>
 
-        {/* Verso */}
+        {/*
+         * Verso : le recto contraint la hauteur (aspect 3/4). Si le contenu dépasse,
+         * on scrolle À L'INTÉRIEUR du verso (h-full + overflow-y-auto) pour que le
+         * bouton « Accéder au Viago » reste toujours atteignable.
+         */}
         <div
-          className="absolute inset-0 w-full overflow-hidden rounded-2xl border border-white/6 bg-[#141414] shadow-lg"
+          className="absolute inset-0 w-full overflow-hidden rounded-2xl border border-white/6 bg-[var(--color-bg-main)] shadow-lg"
           style={{
             backfaceVisibility: "hidden",
             transform: "rotateY(180deg)",
           }}
         >
-          <div className="flex max-h-[min(88vh,720px)] min-h-[320px] flex-col overflow-y-auto overscroll-y-contain pb-[max(1rem,env(safe-area-inset-bottom))]">
-            <div className="shrink-0 border-b border-white/6 bg-[#141414]">
+          <div className="flex h-full min-h-0 flex-col overflow-y-auto overscroll-y-contain pb-[max(1rem,env(safe-area-inset-bottom))]">
+            <div className="shrink-0 border-b border-white/6 bg-[var(--color-bg-main)]">
               <div className="relative aspect-[16/11] min-h-[120px] w-full max-h-[28vh]">
                 {flipped && resolvedSteps.length > 0 && token ? (
                   <StarFlipMap
@@ -173,8 +186,8 @@ export default function AmiVoyageFlipCard({
                     mapboxToken={token}
                   />
                 ) : (
-                  <div className="flex h-full items-center justify-center bg-[#1c1c1c]">
-                    <MapPin className="h-10 w-10 text-[#E07856]/20" />
+                  <div className="flex h-full items-center justify-center bg-[var(--color-bg-secondary)]">
+                    <MapPin className="h-10 w-10 text-[var(--color-accent-start)]/20" />
                   </div>
                 )}
                 <button
@@ -191,8 +204,8 @@ export default function AmiVoyageFlipCard({
               </div>
             </div>
 
-            <div className="relative border-b border-white/6 bg-[#0e0e0e] py-3">
-              <p className="mb-2 px-4 font-courier text-[9px] font-bold uppercase tracking-wider text-[#E07856]/70">
+            <div className="relative border-b border-white/6 bg-[var(--color-bg-main)] py-3">
+              <p className="mb-2 px-4 font-courier text-[9px] font-bold uppercase tracking-wider text-[var(--color-accent-start)]/70">
                 Étapes
               </p>
               <div
@@ -206,7 +219,7 @@ export default function AmiVoyageFlipCard({
                     onClick={() => scrollToStep(i)}
                     className={`relative shrink-0 overflow-hidden rounded-xl ${
                       activeStep === i
-                        ? "ring-2 ring-[#E07856]"
+                        ? "ring-2 ring-[var(--color-accent-start)]"
                         : "opacity-60 hover:opacity-90"
                     }`}
                     style={{ width: "88px", height: "132px" }}
@@ -236,7 +249,7 @@ export default function AmiVoyageFlipCard({
                   `/inspirer/ville/${slugFromNom(stepsForStrip[activeStep]?.nom ?? "")}?from=amis`,
                   here
                 )}
-                className="flex items-center gap-2 font-courier text-sm font-bold text-[#E07856] hover:underline"
+                className="flex items-center gap-2 font-courier text-sm font-bold text-[var(--color-accent-start)] hover:underline"
               >
                 <MapPin className="h-4 w-4" />
                 Voir {stepsForStrip[activeStep]?.nom ?? "la ville"}

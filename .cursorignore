@@ -7,6 +7,9 @@ build/
 coverage/
 .vercel/
 
+
+# Nombreux fichiers image — lourd pour l''index / les watchers si non exclus
+photos/
 # Milliers de .txt bruts — inutiles pour le code app (ralentissement majeur si indexés)
 data/descriptions/
 

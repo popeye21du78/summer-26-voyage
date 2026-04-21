@@ -1,14 +1,73 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
-import { Map, Route, Heart, Sparkles } from "lucide-react";
-import { saveTripDraft } from "@/lib/planifier-draft";
+import Link from "next/link";
+import {
+  Map,
+  Route,
+  Heart,
+  Sparkles,
+  Compass,
+  Clock,
+  ArrowRight,
+  Lightbulb,
+} from "lucide-react";
+import { loadTripDraft, saveTripDraft, type TripDraft } from "@/lib/planifier-draft";
+
+const INSPIRATIONS: Array<{
+  slug: string;
+  label: string;
+  hint: string;
+  href: string;
+}> = [
+  {
+    slug: "littoral",
+    label: "Littoral",
+    hint: "Falaises, plages, villages de pêcheurs",
+    href: "/inspirer?tab=stars&theme=littoral",
+  },
+  {
+    slug: "montagne",
+    label: "Montagne",
+    hint: "Cols, lacs, villages d'alpage",
+    href: "/inspirer?tab=stars&theme=montagne",
+  },
+  {
+    slug: "chateaux",
+    label: "Châteaux",
+    hint: "Patrimoine, Loire, forteresses",
+    href: "/inspirer?tab=stars&theme=chateaux",
+  },
+];
+
+function formatDraftLabel(d: TripDraft | null): string | null {
+  if (!d) return null;
+  if (d.mode === "zone" && d.zone?.regionLabel) {
+    return `Zone · ${d.zone.regionLabel} (${d.zone.days}j)`;
+  }
+  if (d.mode === "axis" && d.axis) {
+    const from = d.axis.startLabel || "?";
+    const to = d.axis.endLabel || "?";
+    return `Trajet · ${from} → ${to}`;
+  }
+  if (d.mode === "places" && d.places?.items?.length) {
+    return `Lieux · ${d.places.items.length} étape${d.places.items.length > 1 ? "s" : ""}`;
+  }
+  if (d.mode === "inspiration") return "Inspiration en cours";
+  return null;
+}
 
 export default function CreateEntry() {
   const router = useRouter();
   const sp = useSearchParams();
   const fromStar = sp.get("fromStar");
   const regionParam = sp.get("region");
+
+  const [draft, setDraft] = useState<TripDraft | null>(null);
+  useEffect(() => {
+    setDraft(loadTripDraft());
+  }, []);
 
   function pickMode(mode: "zone" | "axis" | "favorites" | "star") {
     if (mode === "zone") {
@@ -63,74 +122,187 @@ export default function CreateEntry() {
     router.push("/preparer/cadrage");
   }
 
-  return (
-    <main className="flex h-full flex-col bg-[#111111]">
-      <div className="flex min-h-0 flex-1 flex-col justify-center px-6">
-        <p className="font-courier text-[10px] font-bold uppercase tracking-[0.45em] text-[#E07856]">
-          Créer un voyage
-        </p>
-        <h1 className="mt-3 font-courier text-[2rem] font-bold leading-tight tracking-tight text-white">
-          Par où tu veux
-          <br />
-          commencer ?
-        </h1>
+  const draftLabel = formatDraftLabel(draft);
 
-        {/* Primary choices */}
-        <div className="mt-10 space-y-4">
+  return (
+    <main className="relative flex min-h-full flex-col overflow-x-hidden">
+      <div className="flex min-h-full flex-col gap-8 px-6 pb-6 pt-[calc(env(safe-area-inset-top,0px)+2rem)]">
+        {/* ——— Header narratif ——— */}
+        <header className="flex flex-col gap-3">
+          <p className="inline-flex items-center gap-2 font-courier text-[10px] font-bold uppercase tracking-[0.45em] text-[var(--color-accent-start)]">
+            <Compass className="h-3.5 w-3.5" />
+            Créer un voyage
+          </p>
+          <h1 className="font-courier text-[2.25rem] font-bold leading-[1.02] tracking-tight text-[var(--color-text-primary)]">
+            Par où tu veux
+            <br />
+            <span className="text-gradient-viago-title-alt">commencer ?</span>
+          </h1>
+          <p className="max-w-[90%] font-courier text-sm leading-relaxed text-[var(--color-text-secondary)]">
+            Deux façons d&apos;ouvrir la route. Choisis la plus naturelle —
+            tu pourras toujours changer d&apos;avis.
+          </p>
+        </header>
+
+        {/* ——— Reprise brouillon (si présent) ——— */}
+        {draftLabel && (
+          <Link
+            href="/preparer/cadrage"
+            className="viago-glass-card flex items-center gap-4 px-4 py-3.5 transition hover:brightness-110"
+            style={{ borderColor: "color-mix(in srgb, var(--color-accent-start) 35%, var(--color-glass-border))" }}
+          >
+            <span
+              className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl"
+              style={{ background: "color-mix(in srgb, var(--color-accent-start) 18%, transparent)" }}
+            >
+              <Clock className="h-5 w-5 text-[var(--color-accent-start)]" />
+            </span>
+            <span className="min-w-0 flex-1">
+              <span className="block font-courier text-[10px] font-bold uppercase tracking-wider text-[var(--color-accent-start)]">
+                Reprendre là où tu t&apos;étais arrêté
+              </span>
+              <span className="mt-0.5 block truncate font-courier text-sm text-[var(--color-text-primary)]">
+                {draftLabel}
+              </span>
+            </span>
+            <ArrowRight className="h-4 w-4 text-[var(--color-accent-start)]" />
+          </Link>
+        )}
+
+        {/* ——— Choix principaux (2 cartes verre premium) ——— */}
+        <section className="grid gap-4">
           <button
             onClick={() => pickMode("zone")}
-            className="flex w-full items-center gap-4 rounded-2xl border border-white/6 bg-white/3 p-5 text-left transition hover:border-[#E07856]/25 hover:bg-white/5 active:scale-[0.99]"
+            className="viago-glass-card viago-glass-card--accent-border group flex items-start gap-4 p-5 text-left transition hover:brightness-110 active:scale-[0.99]"
           >
-            <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-[#E07856]/10">
-              <Map className="h-6 w-6 text-[#E07856]" />
-            </div>
-            <div>
-              <p className="font-courier text-base font-bold text-white/85">
+            <span
+              className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl"
+              style={{ background: "var(--gradient-cta)", boxShadow: "0 6px 18px var(--color-shadow-cta-accent)" }}
+            >
+              <Map className="h-7 w-7 text-white" strokeWidth={1.8} />
+            </span>
+            <span className="min-w-0 flex-1">
+              <span className="block font-courier text-lg font-bold uppercase tracking-wide text-[var(--color-text-primary)]">
                 Explorer une zone
-              </p>
-              <p className="mt-0.5 font-courier text-xs text-white/35">
-                Choisis une région ou un coin
-              </p>
-            </div>
+              </span>
+              <span className="mt-1 block font-courier text-xs leading-relaxed text-[var(--color-text-secondary)]">
+                Choisis une région, pose une durée, laisse la carte te guider.
+              </span>
+              <span className="mt-3 inline-flex items-center gap-1.5 font-courier text-[10px] font-bold uppercase tracking-wider text-[var(--color-accent-start)]">
+                Base fixe · Multi-bases · Mobile
+                <ArrowRight className="h-3 w-3 transition group-hover:translate-x-0.5" />
+              </span>
+            </span>
           </button>
 
           <button
             onClick={() => pickMode("axis")}
-            className="flex w-full items-center gap-4 rounded-2xl border border-white/6 bg-white/3 p-5 text-left transition hover:border-[#E07856]/25 hover:bg-white/5 active:scale-[0.99]"
+            className="viago-glass-card viago-glass-card--accent-border group flex items-start gap-4 p-5 text-left transition hover:brightness-110 active:scale-[0.99]"
           >
-            <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-[#E07856]/10">
-              <Route className="h-6 w-6 text-[#E07856]" />
-            </div>
-            <div>
-              <p className="font-courier text-base font-bold text-white/85">
+            <span
+              className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl"
+              style={{ background: "var(--gradient-cta)", boxShadow: "0 6px 18px var(--color-shadow-cta-accent)" }}
+            >
+              <Route className="h-7 w-7 text-white" strokeWidth={1.8} />
+            </span>
+            <span className="min-w-0 flex-1">
+              <span className="block font-courier text-lg font-bold uppercase tracking-wide text-[var(--color-text-primary)]">
                 Tracer un trajet
-              </p>
-              <p className="mt-0.5 font-courier text-xs text-white/35">
-                Pars d&apos;un point A vers un point B
-              </p>
-            </div>
+              </span>
+              <span className="mt-1 block font-courier text-xs leading-relaxed text-[var(--color-text-secondary)]">
+                D&apos;un point A vers un point B — avec des détours qui valent
+                la route.
+              </span>
+              <span className="mt-3 inline-flex items-center gap-1.5 font-courier text-[10px] font-bold uppercase tracking-wider text-[var(--color-accent-start)]">
+                Direct · Détours · Grand contournement
+                <ArrowRight className="h-3 w-3 transition group-hover:translate-x-0.5" />
+              </span>
+            </span>
           </button>
-        </div>
+        </section>
 
-        {/* Secondary options */}
-        <div className="mt-8 flex flex-wrap gap-3">
+        {/* ——— Options secondaires ——— */}
+        <section className="flex flex-wrap items-center gap-2">
+          <span className="font-courier text-[10px] font-bold uppercase tracking-wider text-[var(--color-text-secondary)]">
+            Autres entrées :
+          </span>
           <button
             onClick={() => pickMode("favorites")}
-            className="inline-flex items-center gap-2 rounded-full border border-white/8 bg-white/3 px-4 py-2 font-courier text-xs text-white/35 transition hover:border-[#E07856]/25 hover:text-white/60"
+            className="inline-flex items-center gap-1.5 rounded-full border border-[var(--color-glass-border)] bg-[var(--color-glass-bg)] px-3 py-1.5 font-courier text-[11px] font-bold text-[var(--color-text-primary)]/70 backdrop-blur-md transition hover:border-[color-mix(in_srgb,var(--color-accent-start)_45%,transparent)] hover:text-[var(--color-accent-start)]"
           >
             <Heart className="h-3.5 w-3.5" />
-            Utiliser mes coups de cœur
+            Mes coups de cœur
           </button>
           {fromStar && (
             <button
               onClick={() => pickMode("star")}
-              className="inline-flex items-center gap-2 rounded-full border border-white/8 bg-white/3 px-4 py-2 font-courier text-xs text-white/35 transition hover:border-[#E07856]/25 hover:text-white/60"
+              className="inline-flex items-center gap-1.5 rounded-full border border-[var(--color-glass-border)] bg-[var(--color-glass-bg)] px-3 py-1.5 font-courier text-[11px] font-bold text-[var(--color-text-primary)]/70 backdrop-blur-md transition hover:border-[color-mix(in_srgb,var(--color-accent-start)_45%,transparent)] hover:text-[var(--color-accent-start)]"
             >
               <Sparkles className="h-3.5 w-3.5" />
               Partir d&apos;un itinéraire
             </button>
           )}
-        </div>
+        </section>
+
+        {/* ——— Tu hésites ? ——— */}
+        <section className="flex flex-col gap-3 pt-2">
+          <div className="flex items-center gap-2">
+            <Lightbulb className="h-4 w-4 text-[var(--color-accent-gold)]" />
+            <h2 className="font-courier text-[11px] font-bold uppercase tracking-[0.22em] text-[var(--color-text-primary)]">
+              Tu hésites ? Laisse-toi guider.
+            </h2>
+          </div>
+          <div className="grid grid-cols-3 gap-3">
+            {INSPIRATIONS.map((it) => (
+              <Link
+                key={it.slug}
+                href={it.href}
+                className="viago-glass-card group flex flex-col items-start gap-1.5 px-3 py-3 transition hover:brightness-110"
+              >
+                <span className="font-courier text-[12px] font-bold uppercase tracking-wider text-[var(--color-text-primary)]">
+                  {it.label}
+                </span>
+                <span className="font-courier text-[10px] leading-tight text-[var(--color-text-secondary)]">
+                  {it.hint}
+                </span>
+                <ArrowRight className="mt-1 h-3 w-3 text-[var(--color-accent-start)] transition group-hover:translate-x-0.5" />
+              </Link>
+            ))}
+          </div>
+        </section>
+
+        {/* ——— Footer éditorial ——— */}
+        <footer className="mt-auto pt-6">
+          <div
+            className="relative overflow-hidden rounded-2xl px-5 py-5"
+            style={{
+              background: `linear-gradient(
+                135deg,
+                color-mix(in srgb, var(--color-accent-deep) 40%, var(--color-bg-secondary)) 0%,
+                color-mix(in srgb, var(--color-accent-start) 24%, var(--color-bg-main)) 55%,
+                var(--color-bg-tertiary) 100%
+              )`,
+              boxShadow:
+                "inset 0 1px 0 var(--color-glass-highlight), 0 14px 34px var(--color-shadow-card)",
+            }}
+          >
+            <span
+              className="pointer-events-none absolute inset-x-6 top-0 h-px"
+              style={{
+                background:
+                  "linear-gradient(90deg, transparent, var(--color-glass-highlight), transparent)",
+              }}
+              aria-hidden
+            />
+            <p className="font-motto text-[1.15rem] leading-tight text-[var(--color-text-primary)]">
+              « Le voyage n&apos;est pas un plan parfait — c&apos;est la
+              certitude qu&apos;on pourra tout ajuster en route. »
+            </p>
+            <p className="mt-2 font-courier text-[10px] uppercase tracking-[0.28em] text-[var(--color-text-primary)]/55">
+              Viago — carnet &amp; planificateur
+            </p>
+          </div>
+        </footer>
       </div>
     </main>
   );

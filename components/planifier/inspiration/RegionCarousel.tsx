@@ -31,8 +31,8 @@ export default function RegionCarousel({ onPickRegion, highlightRegionId }: Prop
     (top.screen !== "france" && "regionId" in top ? top.regionId : null);
 
   return (
-    <div className="shrink-0 border-t border-white/6 bg-[#141414]/95 py-3 backdrop-blur-lg">
-      <p className="mb-2 px-4 font-courier text-[10px] font-bold uppercase tracking-wider text-[#E07856]">
+    <div className="shrink-0 border-t border-white/6 bg-[var(--color-bg-main)]/95 py-3 backdrop-blur-lg">
+      <p className="mb-2 px-4 font-courier text-[10px] font-bold uppercase tracking-wider text-[var(--color-accent-start)]">
         Régions
       </p>
       <div className="flex gap-3 overflow-x-auto px-4 pb-1 scrollbar-hide">

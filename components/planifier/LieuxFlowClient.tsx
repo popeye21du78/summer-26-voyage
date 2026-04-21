@@ -168,7 +168,7 @@ export default function LieuxFlowClient() {
     <main className="page-under-header mx-auto max-w-lg px-4 py-10">
       <Link
         href="/planifier/commencer"
-        className="mb-6 inline-flex items-center gap-1 font-courier text-sm font-bold text-[#A55734]"
+        className="mb-6 inline-flex items-center gap-1 font-courier text-sm font-bold text-[var(--color-accent-end)]"
       >
         <ArrowLeft className="h-4 w-4" aria-hidden />
         Accueil
@@ -179,20 +179,20 @@ export default function LieuxFlowClient() {
       {step === 1 && (
         <div className="mt-6 space-y-3 font-courier text-sm">
           <label className="block">
-            <span className="font-bold text-[#A55734]">Rechercher un lieu</span>
+            <span className="font-bold text-[var(--color-accent-end)]">Rechercher un lieu</span>
             <input
               value={q}
               onChange={(e) => setQ(e.target.value)}
               placeholder="Ville ou lieu en France"
-              className="mt-1 w-full rounded-lg border-2 border-[#A55734]/25 px-3 py-2"
+              className="mt-1 w-full rounded-lg border-2 border-[var(--color-accent-end)]/25 px-3 py-2"
             />
           </label>
           <label className="block">
-            <span className="font-bold text-[#A55734]">Statut</span>
+            <span className="font-bold text-[var(--color-accent-end)]">Statut</span>
             <select
               value={weight}
               onChange={(e) => setWeight(e.target.value as typeof weight)}
-              className="mt-1 w-full rounded-lg border-2 border-[#A55734]/25 px-3 py-2"
+              className="mt-1 w-full rounded-lg border-2 border-[var(--color-accent-end)]/25 px-3 py-2"
             >
               <option value="hard">Indispensable</option>
               <option value="soft">Important</option>
@@ -203,11 +203,11 @@ export default function LieuxFlowClient() {
           <button
             type="button"
             onClick={() => void addPlace()}
-            className="w-full rounded-full bg-[#E07856] py-2.5 font-bold text-white"
+            className="w-full rounded-full bg-[var(--color-accent-start)] py-2.5 font-bold text-white"
           >
             Ajouter
           </button>
-          <ul className="space-y-2 border-t border-[#A55734]/15 pt-4">
+          <ul className="space-y-2 border-t border-[var(--color-accent-end)]/15 pt-4">
             {places.map((p) => (
               <li
                 key={p.id}
@@ -228,7 +228,7 @@ export default function LieuxFlowClient() {
                         meta: { lat: p.lat, lng: p.lng },
                       })
                     }
-                    className="text-[#A55734] underline"
+                    className="text-[var(--color-accent-end)] underline"
                   >
                     Cœur
                   </button>
@@ -246,7 +246,7 @@ export default function LieuxFlowClient() {
               persist();
               setStep(2);
             }}
-            className="w-full rounded-full border-2 border-[#A55734]/30 py-2 font-bold disabled:opacity-40"
+            className="w-full rounded-full border-2 border-[var(--color-accent-end)]/30 py-2 font-bold disabled:opacity-40"
           >
             Continuer
           </button>
@@ -286,7 +286,7 @@ export default function LieuxFlowClient() {
                 persist();
                 setStep(3);
               }}
-              className="flex-1 rounded-full bg-[#E07856] py-2 font-bold text-white"
+              className="flex-1 rounded-full bg-[var(--color-accent-start)] py-2 font-bold text-white"
             >
               Continuer
             </button>
@@ -297,7 +297,7 @@ export default function LieuxFlowClient() {
       {step === 3 && (
         <div className="mt-6 space-y-3 font-courier text-sm">
           <label className="block">
-            <span className="font-bold text-[#A55734]">Départ (optionnel, texte libre)</span>
+            <span className="font-bold text-[var(--color-accent-end)]">Départ (optionnel, texte libre)</span>
             <input
               value={startLabel}
               onChange={(e) => setStartLabel(e.target.value)}
@@ -305,7 +305,7 @@ export default function LieuxFlowClient() {
             />
           </label>
           <label className="block">
-            <span className="font-bold text-[#A55734]">Arrivée (optionnel)</span>
+            <span className="font-bold text-[var(--color-accent-end)]">Arrivée (optionnel)</span>
             <input
               value={endLabel}
               onChange={(e) => setEndLabel(e.target.value)}
@@ -321,7 +321,7 @@ export default function LieuxFlowClient() {
             Retour au départ
           </label>
           <label className="block">
-            <span className="font-bold text-[#A55734]">Nombre de jours</span>
+            <span className="font-bold text-[var(--color-accent-end)]">Nombre de jours</span>
             <input
               type="number"
               min={1}
@@ -341,7 +341,7 @@ export default function LieuxFlowClient() {
                 persist();
                 setStep(4);
               }}
-              className="flex-1 rounded-full bg-[#E07856] py-2 font-bold text-white"
+              className="flex-1 rounded-full bg-[var(--color-accent-start)] py-2 font-bold text-white"
             >
               Continuer
             </button>
@@ -357,13 +357,13 @@ export default function LieuxFlowClient() {
                 ? "border-green-600/40 bg-green-50/50"
                 : diagnostic.level === "deux_voyages"
                   ? "border-amber-600/50 bg-amber-50/60"
-                  : "border-[#E07856]/40 bg-[#FFF2EB]/50"
+                  : "border-[var(--color-accent-start)]/40 bg-[#FFF2EB]/50"
             }`}
           >
-            <p className="font-bold text-[#A55734]">{diagnostic.title}</p>
+            <p className="font-bold text-[var(--color-accent-end)]">{diagnostic.title}</p>
             <p className="mt-2 text-xs leading-relaxed">{diagnostic.detail}</p>
           </div>
-          <p className="text-xs font-bold text-[#A55734]">Pistes</p>
+          <p className="text-xs font-bold text-[var(--color-accent-end)]">Pistes</p>
           <div className="flex flex-col gap-2">
             {diagnostic.suggestedActions.map((a) => (
               <button
@@ -371,7 +371,7 @@ export default function LieuxFlowClient() {
                 type="button"
                 onClick={() => setTreatmentChoice(a.id)}
                 className={`rounded-lg border-2 px-3 py-2 text-left text-xs ${
-                  treatmentChoice === a.id ? "border-[#E07856] bg-[#FFF2EB]" : "border-[#A55734]/20"
+                  treatmentChoice === a.id ? "border-[var(--color-accent-start)] bg-[#FFF2EB]" : "border-[var(--color-accent-end)]/20"
                 }`}
               >
                 {a.label}
@@ -388,7 +388,7 @@ export default function LieuxFlowClient() {
                 persist();
                 setStep(5);
               }}
-              className="flex-1 rounded-full bg-[#E07856] py-2 font-bold text-white"
+              className="flex-1 rounded-full bg-[var(--color-accent-start)] py-2 font-bold text-white"
             >
               Continuer
             </button>
@@ -409,7 +409,7 @@ export default function LieuxFlowClient() {
               persist();
               void fetchStructures();
             }}
-            className="mt-4 w-full rounded-full bg-[#E07856] py-3 font-bold text-white disabled:opacity-60"
+            className="mt-4 w-full rounded-full bg-[var(--color-accent-start)] py-3 font-bold text-white disabled:opacity-60"
           >
             {loading ? "…" : "Générer l’itinéraire enrichi"}
           </button>
@@ -427,10 +427,10 @@ export default function LieuxFlowClient() {
               type="button"
               onClick={() => setPicked(s)}
               className={`block w-full rounded-xl border-2 p-4 text-left ${
-                picked?.id === s.id ? "border-[#E07856] bg-[#FFF2EB]" : "border-[#A55734]/25"
+                picked?.id === s.id ? "border-[var(--color-accent-start)] bg-[#FFF2EB]" : "border-[var(--color-accent-end)]/25"
               }`}
             >
-              <span className="font-bold text-[#A55734]">{s.label}</span>
+              <span className="font-bold text-[var(--color-accent-end)]">{s.label}</span>
               <p className="mt-2 text-xs">{s.bases.map((b) => `${b.name} (${b.nights} n.)`).join(" → ")}</p>
             </button>
           ))}
@@ -457,7 +457,7 @@ export default function LieuxFlowClient() {
               <button
                 type="button"
                 onClick={() => openInPlanning(picked)}
-                className="w-full rounded-full bg-[#E07856] py-3 font-bold text-white"
+                className="w-full rounded-full bg-[var(--color-accent-start)] py-3 font-bold text-white"
               >
                 Ouvrir dans le planning
               </button>

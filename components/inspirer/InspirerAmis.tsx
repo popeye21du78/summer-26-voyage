@@ -77,7 +77,7 @@ export default function InspirerAmis({ searchQuery: query }: Props) {
 
   if (loading) {
     return (
-      <div className="flex h-full items-center justify-center bg-[#111111]">
+      <div className="flex h-full items-center justify-center bg-[var(--color-bg-main)]">
         <p className="voyage-loading-text text-sm uppercase tracking-widest">
           voyage voyage…
         </p>
@@ -86,7 +86,7 @@ export default function InspirerAmis({ searchQuery: query }: Props) {
   }
 
   return (
-    <div className="flex h-full min-h-0 flex-col overflow-hidden bg-[#111111]">
+    <div className="flex h-full min-h-0 flex-col overflow-hidden bg-[var(--color-bg-main)]">
       <div className="min-h-0 flex-1 overflow-y-auto px-4 py-4">
         {(famousHits.length > 0 || editorialHits.length > 0) && (
           <div className="mb-4 flex flex-wrap gap-2">
@@ -94,7 +94,7 @@ export default function InspirerAmis({ searchQuery: query }: Props) {
               <LinkWithReturn
                 key={p.id}
                 href={`/profil/${p.id}`}
-                className="rounded-full border border-[#E07856]/35 bg-[#E07856]/10 px-3 py-1 font-courier text-[10px] font-bold text-[#E07856] transition hover:bg-[#E07856]/20"
+                className="rounded-full border border-[var(--color-accent-start)]/35 bg-[var(--color-accent-start)]/10 px-3 py-1 font-courier text-[10px] font-bold text-[var(--color-accent-start)] transition hover:bg-[var(--color-accent-start)]/20"
               >
                 Profil · {p.name}
               </LinkWithReturn>
@@ -113,7 +113,7 @@ export default function InspirerAmis({ searchQuery: query }: Props) {
 
         {voyages.length === 0 ? (
           <div className="flex h-full flex-col items-center justify-center gap-4 py-12">
-            <Users className="h-12 w-12 text-[#E07856]/25" />
+            <Users className="h-12 w-12 text-[var(--color-accent-start)]/25" />
             <p className="text-center font-courier text-sm text-white/40">
               Les voyages de tes amis apparaîtront ici (connecte un profil de test).
             </p>

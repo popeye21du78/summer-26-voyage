@@ -39,7 +39,7 @@ export default function LoginPage() {
     <div className="flex min-h-screen items-center justify-center bg-[#FFFFFF]">
       <div className="w-full max-w-md space-y-8 px-4">
         <div className="flex justify-center">
-          <User className="h-12 w-12 text-[#E07856]" aria-hidden />
+          <User className="h-12 w-12 text-[var(--color-accent-start)]" aria-hidden />
         </div>
         <h1 className="text-center font-heading text-4xl font-normal text-white/80">
           Viago
@@ -54,7 +54,7 @@ export default function LoginPage() {
               type="button"
               onClick={() => handleSelectProfile(profile.id)}
               disabled={loading !== null}
-              className="flex flex-col items-stretch gap-2 rounded-2xl border-2 border-[#E07856]/40 bg-[#111111] px-5 py-5 text-left transition hover:border-[#E07856] hover:bg-[#E07856]/10 disabled:opacity-50"
+              className="flex flex-col items-stretch gap-2 rounded-2xl border-2 border-[var(--color-accent-start)]/40 bg-[var(--color-bg-main)] px-5 py-5 text-left transition hover:border-[var(--color-accent-start)] hover:bg-[var(--color-accent-start)]/10 disabled:opacity-50"
             >
               <span className="font-courier text-xl font-bold text-white/80">
                 {profile.name}
@@ -62,7 +62,7 @@ export default function LoginPage() {
               <span className="font-courier text-sm leading-snug text-white/80/75">
                 {profile.situationLabel}
               </span>
-              <span className="font-courier text-[10px] uppercase tracking-wider text-[#E07856]/50">
+              <span className="font-courier text-[10px] uppercase tracking-wider text-[var(--color-accent-start)]/50">
                 {profile.etatVoyage === "rien"
                   ? "Aucun voyage — découverte complète"
                   : profile.etatVoyage === "voyage_termine"

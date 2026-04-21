@@ -77,7 +77,7 @@ export default function AdminLieuxPage() {
             value={selectedCode}
             onChange={(e) => setSelectedCode(e.target.value)}
             disabled={loading}
-            className="w-full rounded-lg border-2 border-[#7a3d22]/40 bg-white px-3 py-2.5 text-sm text-[#333333] shadow-sm focus:border-[#A55734] focus:outline-none disabled:opacity-50"
+            className="w-full rounded-lg border-2 border-[var(--color-accent-deep)]/40 bg-white px-3 py-2.5 text-sm text-[#333333] shadow-sm focus:border-[var(--color-accent-end)] focus:outline-none disabled:opacity-50"
           >
             {departements.map((d) => (
               <option key={d.code} value={d.code}>
@@ -90,7 +90,7 @@ export default function AdminLieuxPage() {
           type="button"
           onClick={handleGenerate}
           disabled={loading || !selectedCode}
-          className="rounded-lg bg-[#A55734] px-6 py-2.5 text-sm font-medium text-[#FFFBF7] shadow-sm transition hover:bg-[#7a3d22] disabled:opacity-50"
+          className="rounded-lg bg-[var(--color-accent-end)] px-6 py-2.5 text-sm font-medium text-[#FFFBF7] shadow-sm transition hover:bg-[var(--color-accent-deep)] disabled:opacity-50"
         >
           {loading ? "En cours..." : "Générer"}
         </button>
@@ -98,7 +98,7 @@ export default function AdminLieuxPage() {
 
       {/* Info département sélectionné */}
       {selectedDep && !loading && !output && !error && (
-        <div className="mb-6 rounded-lg border-2 border-[#7a3d22]/20 bg-[#FAF4F0] px-4 py-3">
+        <div className="mb-6 rounded-lg border-2 border-[var(--color-accent-deep)]/20 bg-[#FAF4F0] px-4 py-3">
           <span className="text-sm text-[#333333]/80">
             <strong>{selectedDep.departement}</strong> — Tier {selectedDep.tier}
           </span>
@@ -107,9 +107,9 @@ export default function AdminLieuxPage() {
 
       {/* Loading */}
       {loading && (
-        <div className="mb-6 rounded-lg border-2 border-[#A55734]/30 bg-[#FFF2EB] px-4 py-4">
+        <div className="mb-6 rounded-lg border-2 border-[var(--color-accent-end)]/30 bg-[#FFF2EB] px-4 py-4">
           <div className="flex items-center gap-3">
-            <div className="h-5 w-5 animate-spin rounded-full border-2 border-[#A55734] border-t-transparent" />
+            <div className="h-5 w-5 animate-spin rounded-full border-2 border-[var(--color-accent-end)] border-t-transparent" />
             <div>
               <p className="text-sm font-medium text-[#333333]">
                 Génération en cours pour {selectedDep?.departement ?? selectedCode}...
@@ -154,7 +154,7 @@ export default function AdminLieuxPage() {
             {history.slice(1).map((h, i) => (
               <details
                 key={i}
-                className="rounded-lg border border-[#7a3d22]/20 bg-[#FAF4F0]"
+                className="rounded-lg border border-[var(--color-accent-deep)]/20 bg-[#FAF4F0]"
               >
                 <summary className="cursor-pointer px-3 py-2 text-sm text-[#333333]/80">
                   Génération #{history.length - i}
@@ -169,10 +169,10 @@ export default function AdminLieuxPage() {
       )}
 
       {/* Terminal shortcut */}
-      <section className="mt-8 rounded-lg border border-[#7a3d22]/10 bg-[#FAF4F0]/50 px-4 py-3">
+      <section className="mt-8 rounded-lg border border-[var(--color-accent-deep)]/10 bg-[#FAF4F0]/50 px-4 py-3">
         <p className="text-xs text-[#333333]/60">
           Alternative terminal (si Excel est ouvert) :
-          <code className="ml-1 rounded bg-[#7a3d22]/10 px-1.5 py-0.5 font-mono text-[#A55734]">
+          <code className="ml-1 rounded bg-[var(--color-accent-deep)]/10 px-1.5 py-0.5 font-mono text-[var(--color-accent-end)]">
             npx tsx scripts/generate-departement.ts {selectedCode || "XX"}
           </code>
         </p>

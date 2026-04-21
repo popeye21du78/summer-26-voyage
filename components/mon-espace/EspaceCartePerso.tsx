@@ -25,7 +25,7 @@ export default function EspaceCartePerso({ state }: Props) {
 
   return (
     <section className="px-5 py-6">
-      <h2 className="mb-4 flex items-center gap-2 font-courier text-sm font-bold uppercase tracking-wider text-[#E07856]">
+      <h2 className="mb-4 flex items-center gap-2 font-courier text-sm font-bold uppercase tracking-wider text-[var(--color-accent-start)]">
         <MapIcon className="h-4 w-4" />
         Ma carte
       </h2>
@@ -33,7 +33,7 @@ export default function EspaceCartePerso({ state }: Props) {
       <div className="relative overflow-hidden rounded-2xl border border-white/6 bg-white/3">
         <div className="flex h-48 items-center justify-center">
           <div className="text-center">
-            <MapIcon className="mx-auto h-10 w-10 text-[#E07856]/20" />
+            <MapIcon className="mx-auto h-10 w-10 text-[var(--color-accent-start)]/20" />
             <p className="mt-2 font-courier text-xs text-white/35">
               {regions.size > 0
                 ? `${regions.size} régions · ${villes.size} villes`
@@ -50,7 +50,7 @@ export default function EspaceCartePerso({ state }: Props) {
             .map((v) => (
               <span
                 key={v}
-                className="inline-flex items-center gap-1 rounded-full bg-[#E07856]/10 px-2.5 py-1 font-courier text-[10px] text-[#E07856]"
+                className="inline-flex items-center gap-1 rounded-full bg-[var(--color-accent-start)]/10 px-2.5 py-1 font-courier text-[10px] text-[var(--color-accent-start)]"
               >
                 <MapPin className="h-2.5 w-2.5" />
                 {v}

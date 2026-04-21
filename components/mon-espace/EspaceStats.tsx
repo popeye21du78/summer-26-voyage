@@ -32,7 +32,7 @@ export default function EspaceStats({ state, profileName }: Props) {
 
   return (
     <section className="px-5 py-6">
-      <h2 className="mb-4 flex items-center gap-2 font-courier text-sm font-bold uppercase tracking-wider text-[#E07856]">
+      <h2 className="mb-4 flex items-center gap-2 font-courier text-sm font-bold uppercase tracking-wider text-[var(--color-accent-start)]">
         <BarChart3 className="h-4 w-4" />
         Stats & identité
       </h2>
@@ -45,8 +45,8 @@ export default function EspaceStats({ state, profileName }: Props) {
               key={s.label}
               className="flex flex-col items-center rounded-xl border border-white/6 bg-white/3 p-4 text-center"
             >
-              <Icon className="mb-2 h-5 w-5 text-[#E07856]/40" />
-              <dd className="font-courier text-lg font-bold text-[#E07856]">
+              <Icon className="mb-2 h-5 w-5 text-[var(--color-accent-start)]/40" />
+              <dd className="font-courier text-lg font-bold text-[var(--color-accent-start)]">
                 {s.value}
               </dd>
               <dt className="mt-0.5 font-courier text-[9px] font-bold uppercase tracking-wider text-white/35">
@@ -58,7 +58,7 @@ export default function EspaceStats({ state, profileName }: Props) {
       </div>
 
       <div className="mt-4 rounded-xl border border-dashed border-white/6 p-4 text-center">
-        <Award className="mx-auto h-6 w-6 text-[#E07856]/20" />
+        <Award className="mx-auto h-6 w-6 text-[var(--color-accent-start)]/20" />
         <p className="mt-1 font-courier text-[10px] text-white/25">
           Badges & récompenses — bientôt disponible
         </p>

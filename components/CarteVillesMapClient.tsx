@@ -58,7 +58,7 @@ export default function CarteVillesMapClient({
             id="dep-select"
             value={selectedCodeDep}
             onChange={(e) => setSelectedCodeDep(e.target.value)}
-            className="rounded border border-[#A55734]/30 bg-white px-3 py-1.5 text-sm text-[#333333] focus:border-[#A55734] focus:outline-none focus:ring-1 focus:ring-[#A55734]/50"
+            className="rounded border border-[var(--color-accent-end)]/30 bg-white px-3 py-1.5 text-sm text-[#333333] focus:border-[var(--color-accent-end)] focus:outline-none focus:ring-1 focus:ring-[var(--color-accent-end)]/50"
           >
             <option value="">Tous</option>
             {departements.map((d) => (
@@ -76,7 +76,7 @@ export default function CarteVillesMapClient({
                 type="checkbox"
                 checked={typesVisible[t]}
                 onChange={() => toggleType(t)}
-                className="h-3.5 w-3.5 rounded border-[#A55734]/50"
+                className="h-3.5 w-3.5 rounded border-[var(--color-accent-end)]/50"
               />
               <span>{TYPE_LABELS[t]}</span>
             </label>

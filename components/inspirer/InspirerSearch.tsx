@@ -33,9 +33,9 @@ export default function InspirerSearch() {
   }, [query, territories]);
 
   return (
-    <div className="flex h-full flex-col overflow-y-auto bg-[#111111]">
+    <div className="flex h-full flex-col overflow-y-auto bg-[var(--color-bg-main)]">
       {/* Search bar */}
-      <div className="sticky top-0 z-10 border-b border-white/6 bg-[#111111]/95 px-4 pb-3 pt-4 backdrop-blur-lg">
+      <div className="sticky top-0 z-10 border-b border-white/6 bg-[var(--color-bg-main)]/95 px-4 pb-3 pt-4 backdrop-blur-lg">
         <InspirerSearchField
           value={query}
           onChange={setQuery}
@@ -56,10 +56,10 @@ export default function InspirerSearch() {
               <LinkWithReturn
                 key={t.id}
                 href={`/inspirer/region/${t.id}`}
-                className="flex items-center gap-3 rounded-2xl border border-white/6 bg-white/3 p-3.5 transition hover:border-[#E07856]/20 hover:bg-white/5"
+                className="flex items-center gap-3 rounded-2xl border border-white/6 bg-white/3 p-3.5 transition hover:border-[var(--color-accent-start)]/20 hover:bg-white/5"
               >
-                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[#E07856]/15">
-                  <MapPin className="h-4 w-4 text-[#E07856]" />
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[var(--color-accent-start)]/15">
+                  <MapPin className="h-4 w-4 text-[var(--color-accent-start)]" />
                 </div>
                 <div className="min-w-0 flex-1">
                   <p className="truncate font-courier text-sm font-bold text-white/90">

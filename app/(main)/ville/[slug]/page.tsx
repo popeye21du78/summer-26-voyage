@@ -37,7 +37,7 @@ function PasGenerePage({
     <main className="mx-auto max-w-2xl px-4 py-16">
       <Link
         href={backHref}
-        className="mb-6 inline-flex items-center gap-2 text-sm text-[#A55734] transition-colors hover:text-[#8b4728]"
+        className="mb-6 inline-flex items-center gap-2 text-sm text-[var(--color-accent-end)] transition-colors hover:text-[var(--color-accent-deep)]"
       >
         ← Retour à la carte
       </Link>
@@ -48,7 +48,7 @@ function PasGenerePage({
         </p>
         <p className="mt-2 text-sm text-[#333]/70">
           Les descriptions sont créées par lots via l&apos;API Batch OpenAI. Consulte la page{" "}
-          <Link href="/batch-status" className="text-[#A55734] underline hover:no-underline">
+          <Link href="/batch-status" className="text-[var(--color-accent-end)] underline hover:no-underline">
             Batch Descriptions
           </Link>{" "}
           pour suivre l&apos;avancement.
@@ -144,8 +144,8 @@ export default async function VillePage({ params, searchParams }: Props) {
           <p className="text-[#333333]/90">{step.description_culture}</p>
         </div>
         <section className="mt-12">
-          <h2 className="mb-6 text-xl font-light text-[#A55734]">À la carte</h2>
-          <div className="rounded-lg border border-[#A55734]/30 bg-[#FAF4F0]/50 p-4">
+          <h2 className="mb-6 text-xl font-light text-[var(--color-accent-end)]">À la carte</h2>
+          <div className="rounded-lg border border-[var(--color-accent-end)]/30 bg-[#FAF4F0]/50 p-4">
             {SECTION_ORDER.map((sectionType) => (
               <CitySection
                 key={sectionType}

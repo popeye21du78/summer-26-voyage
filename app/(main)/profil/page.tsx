@@ -85,13 +85,13 @@ export default function ProfilPage() {
     <main className="mx-auto max-w-lg px-4 py-10">
       <Link
         href="/accueil"
-        className="mb-8 inline-flex items-center gap-2 text-sm text-[#A55734] transition hover:text-[#8b4728]"
+        className="mb-8 inline-flex items-center gap-2 text-sm text-[var(--color-accent-end)] transition hover:text-[var(--color-accent-deep)]"
       >
         <ArrowLeft className="h-4 w-4" aria-hidden />
         Retour à l&apos;accueil
       </Link>
       <div className="mb-6 flex items-center gap-3">
-        <UserCog className="h-8 w-8 text-[#A55734]" aria-hidden />
+        <UserCog className="h-8 w-8 text-[var(--color-accent-end)]" aria-hidden />
         <h1 className="text-2xl font-light text-[#333333]">Modifier ma perso</h1>
       </div>
       <p className="mb-6 text-[#333333]/80">
@@ -99,7 +99,7 @@ export default function ProfilPage() {
         associées à ce profil (phase de test). On en fera une &quot;personnalité&quot;
         du voyageur pour adapter tes itinéraires.
       </p>
-      <div className="rounded-lg border border-[#A55734]/30 bg-[#FFF2EB]/30 p-6">
+      <div className="rounded-lg border border-[var(--color-accent-end)]/30 bg-[#FFF2EB]/30 p-6">
         <QuizIdentite
           initialAnswers={initialAnswers}
           onSave={handleSave}

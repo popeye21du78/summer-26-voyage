@@ -2,6 +2,10 @@ import type { Metadata } from "next";
 import { IBM_Plex_Mono } from "next/font/google";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
+import {
+  MoodboardProvider,
+  MOODBOARD_PRE_HYDRATION_SCRIPT,
+} from "@/components/theme/MoodboardProvider";
 
 const ibmPlexMono = IBM_Plex_Mono({
   variable: "--font-ibm-plex-mono",
@@ -20,17 +24,22 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fr">
+    <html lang="fr" data-moodboard="terracotta">
       <head>
         <link
           href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Courier+Prime:wght@400;700&family=Homemade+Apple&family=Special+Elite&display=swap"
           rel="stylesheet"
         />
+        <script
+          dangerouslySetInnerHTML={{ __html: MOODBOARD_PRE_HYDRATION_SCRIPT }}
+        />
       </head>
       <body
         className={`${ibmPlexMono.variable} font-mono antialiased`}
       >
-        <div className="app-viewport-root min-h-dvh">{children}</div>
+        <MoodboardProvider>
+          <div className="app-viewport-root min-h-dvh">{children}</div>
+        </MoodboardProvider>
         <SpeedInsights />
       </body>
     </html>

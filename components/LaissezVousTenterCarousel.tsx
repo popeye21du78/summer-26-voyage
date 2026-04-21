@@ -64,13 +64,13 @@ export default function LaissezVousTenterCarousel({
   if (!v) return null;
 
   const cardShell = dense
-    ? "border-2 border-[#E07856]/55 bg-white/95 shadow-xl ring-1 ring-[#E07856]/20"
-    : "border-2 border-[#E07856]/20 bg-white/70 shadow-md";
+    ? "border-2 border-[var(--color-accent-start)]/55 bg-white/95 shadow-xl ring-1 ring-[var(--color-accent-start)]/20"
+    : "border-2 border-[var(--color-accent-start)]/20 bg-white/70 shadow-md";
 
   return (
     <div className="relative w-full max-w-full select-none">
       {heading ? (
-        <h3 className="mb-2 font-courier text-base font-bold uppercase tracking-wider text-[#A55734] sm:mb-3 sm:text-lg md:text-xl">
+        <h3 className="mb-2 font-courier text-base font-bold uppercase tracking-wider text-[var(--color-accent-end)] sm:mb-3 sm:text-lg md:text-xl">
           {heading}
         </h3>
       ) : null}
@@ -80,7 +80,7 @@ export default function LaissezVousTenterCarousel({
           type="button"
           aria-label="Destination précédente"
           onClick={() => go(-1)}
-          className="z-10 flex h-10 w-10 shrink-0 items-center justify-center rounded-full border-2 border-[#E07856]/40 bg-white/90 text-[#A55734] shadow-md transition-all hover:scale-105 hover:border-[#E07856] hover:bg-white"
+          className="z-10 flex h-10 w-10 shrink-0 items-center justify-center rounded-full border-2 border-[var(--color-accent-start)]/40 bg-white/90 text-[var(--color-accent-end)] shadow-md transition-all hover:scale-105 hover:border-[var(--color-accent-start)] hover:bg-white"
         >
           <ChevronLeft className="h-6 w-6" />
         </button>
@@ -100,7 +100,7 @@ export default function LaissezVousTenterCarousel({
               />
             ) : (
               <div
-                className="h-28 w-full shrink-0 bg-gradient-to-br from-[#A55734] to-[#8b4728] sm:h-32 md:h-40"
+                className="h-28 w-full shrink-0 bg-gradient-to-br from-[var(--color-accent-end)] to-[var(--color-accent-deep)] sm:h-32 md:h-40"
                 aria-hidden
               />
             )}
@@ -111,7 +111,7 @@ export default function LaissezVousTenterCarousel({
               <p className="mt-0.5 line-clamp-2 font-courier text-xs text-[#333333]/70 sm:text-sm">
                 {v.dureeJours} j · {villes}
               </p>
-              <p className="mt-2 font-courier text-xs font-bold text-[#E07856] sm:text-sm">
+              <p className="mt-2 font-courier text-xs font-bold text-[var(--color-accent-start)] sm:text-sm">
                 Pré-voyages →
               </p>
             </div>
@@ -122,7 +122,7 @@ export default function LaissezVousTenterCarousel({
           type="button"
           aria-label="Destination suivante"
           onClick={() => go(1)}
-          className="z-10 flex h-10 w-10 shrink-0 items-center justify-center rounded-full border-2 border-[#E07856]/40 bg-white/90 text-[#A55734] shadow-md transition-all hover:scale-105 hover:border-[#E07856] hover:bg-white"
+          className="z-10 flex h-10 w-10 shrink-0 items-center justify-center rounded-full border-2 border-[var(--color-accent-start)]/40 bg-white/90 text-[var(--color-accent-end)] shadow-md transition-all hover:scale-105 hover:border-[var(--color-accent-start)] hover:bg-white"
         >
           <ChevronRight className="h-6 w-6" />
         </button>
@@ -137,8 +137,8 @@ export default function LaissezVousTenterCarousel({
             onClick={() => setIndex(i)}
             className={`h-2 rounded-full transition-all ${
               i === safeIndex
-                ? "w-6 bg-[#E07856]"
-                : "w-2 bg-[#E07856]/30 hover:bg-[#E07856]/50"
+                ? "w-6 bg-[var(--color-accent-start)]"
+                : "w-2 bg-[var(--color-accent-start)]/30 hover:bg-[var(--color-accent-start)]/50"
             }`}
           />
         ))}

@@ -7,14 +7,14 @@ const cards = [
     title: "Planning",
     line: "Étapes, dates, carte",
     icon: MapPinned,
-    accent: "from-[#E07856] to-[#D4635B]",
+    accent: "from-[var(--color-accent-start)] to-[var(--color-accent-mid)]",
   },
   {
     href: "/planifier/inspiration",
     title: "Inspiration",
     line: "Carte France & parcours",
     icon: Compass,
-    accent: "from-[#5D3A1A] to-[#A55734]",
+    accent: "from-[#5D3A1A] to-[var(--color-accent-end)]",
   },
   {
     href: "/mes-voyages",
@@ -51,7 +51,7 @@ export default function ItinerairePage() {
             <li key={href}>
               <Link
                 href={href}
-                className={`group flex items-center gap-4 overflow-hidden rounded-2xl border border-[#A55734]/15 bg-white/90 p-4 shadow-md backdrop-blur-sm transition hover:border-[#E07856]/35 hover:shadow-lg`}
+                className={`group flex items-center gap-4 overflow-hidden rounded-2xl border border-[var(--color-accent-end)]/15 bg-white/90 p-4 shadow-md backdrop-blur-sm transition hover:border-[var(--color-accent-start)]/35 hover:shadow-lg`}
               >
                 <div
                   className={`flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br ${accent} text-white shadow-inner`}
@@ -63,7 +63,7 @@ export default function ItinerairePage() {
                   <p className="font-courier text-xs text-[#333]/65">{line}</p>
                 </div>
                 <ArrowRight
-                  className="h-5 w-5 shrink-0 text-[#A55734]/45 transition group-hover:translate-x-0.5 group-hover:text-[#E07856]"
+                  className="h-5 w-5 shrink-0 text-[var(--color-accent-end)]/45 transition group-hover:translate-x-0.5 group-hover:text-[var(--color-accent-start)]"
                   aria-hidden
                 />
               </Link>
@@ -72,7 +72,7 @@ export default function ItinerairePage() {
         </ul>
 
         <p className="text-center font-courier text-[11px] text-[#333]/45">
-          <Link href="/accueil" className="text-[#A55734] underline underline-offset-2 hover:no-underline">
+          <Link href="/accueil" className="text-[var(--color-accent-end)] underline underline-offset-2 hover:no-underline">
             Accueil
           </Link>
         </p>

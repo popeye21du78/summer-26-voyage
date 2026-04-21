@@ -56,7 +56,7 @@ export default function QuizIdentite({
           value={answers.prenom ?? ""}
           onChange={(e) => update("prenom", e.target.value)}
           placeholder="Ex. Marc"
-          className="w-full rounded-lg border border-[#A55734]/30 bg-white px-4 py-3 text-[#333333] placeholder:text-[#999999] focus:border-[#A55734] focus:outline-none focus:ring-1 focus:ring-[#A55734]/30"
+          className="w-full rounded-lg border border-[var(--color-accent-end)]/30 bg-white px-4 py-3 text-[#333333] placeholder:text-[#999999] focus:border-[var(--color-accent-end)] focus:outline-none focus:ring-1 focus:ring-[var(--color-accent-end)]/30"
         />
       </fieldset>
 
@@ -72,8 +72,8 @@ export default function QuizIdentite({
               onClick={() => update("ageTranche", value)}
               className={`rounded-lg px-4 py-2 text-sm transition ${
                 answers.ageTranche === value
-                  ? "bg-[#A55734] text-white"
-                  : "border border-[#A55734]/30 bg-white text-[#333333] hover:border-[#A55734]/50"
+                  ? "bg-[var(--color-accent-end)] text-white"
+                  : "border border-[var(--color-accent-end)]/30 bg-white text-[#333333] hover:border-[var(--color-accent-end)]/50"
               }`}
             >
               {label}
@@ -92,8 +92,8 @@ export default function QuizIdentite({
             onClick={() => update("possedeVan", true)}
             className={`rounded-lg px-4 py-2 text-sm transition ${
               answers.possedeVan === true
-                ? "bg-[#A55734] text-white"
-                : "border border-[#A55734]/30 bg-white text-[#333333] hover:border-[#A55734]/50"
+                ? "bg-[var(--color-accent-end)] text-white"
+                : "border border-[var(--color-accent-end)]/30 bg-white text-[#333333] hover:border-[var(--color-accent-end)]/50"
             }`}
           >
             Oui
@@ -103,8 +103,8 @@ export default function QuizIdentite({
             onClick={() => update("possedeVan", false)}
             className={`rounded-lg px-4 py-2 text-sm transition ${
               answers.possedeVan === false
-                ? "bg-[#A55734] text-white"
-                : "border border-[#A55734]/30 bg-white text-[#333333] hover:border-[#A55734]/50"
+                ? "bg-[var(--color-accent-end)] text-white"
+                : "border border-[var(--color-accent-end)]/30 bg-white text-[#333333] hover:border-[var(--color-accent-end)]/50"
             }`}
           >
             Non
@@ -127,8 +127,8 @@ export default function QuizIdentite({
               onClick={() => update("amateurHistoire", value)}
               className={`rounded-lg px-4 py-2 text-sm transition ${
                 answers.amateurHistoire === value
-                  ? "bg-[#A55734] text-white"
-                  : "border border-[#A55734]/30 bg-white text-[#333333] hover:border-[#A55734]/50"
+                  ? "bg-[var(--color-accent-end)] text-white"
+                  : "border border-[var(--color-accent-end)]/30 bg-white text-[#333333] hover:border-[var(--color-accent-end)]/50"
               }`}
             >
               {label}
@@ -152,8 +152,8 @@ export default function QuizIdentite({
               onClick={() => update("budgetRestos", value)}
               className={`rounded-lg px-4 py-2 text-sm transition ${
                 answers.budgetRestos === value
-                  ? "bg-[#A55734] text-white"
-                  : "border border-[#A55734]/30 bg-white text-[#333333] hover:border-[#A55734]/50"
+                  ? "bg-[var(--color-accent-end)] text-white"
+                  : "border border-[var(--color-accent-end)]/30 bg-white text-[#333333] hover:border-[var(--color-accent-end)]/50"
               }`}
             >
               {label}
@@ -166,7 +166,7 @@ export default function QuizIdentite({
         <button
           type="submit"
           disabled={saving}
-          className="rounded-lg bg-[#A55734] px-6 py-3 font-medium text-white transition hover:bg-[#8b4728] disabled:opacity-50"
+          className="rounded-lg bg-[var(--color-accent-end)] px-6 py-3 font-medium text-white transition hover:bg-[var(--color-accent-deep)] disabled:opacity-50"
         >
           {saving ? "Enregistrement…" : "Enregistrer mes réponses"}
         </button>

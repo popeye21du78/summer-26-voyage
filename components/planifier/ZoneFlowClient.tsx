@@ -147,7 +147,7 @@ export default function ZoneFlowClient() {
     <main className="page-under-header mx-auto max-w-lg px-4 py-10">
       <Link
         href="/planifier/commencer"
-        className="mb-6 inline-flex items-center gap-1 font-courier text-sm font-bold text-[#A55734] hover:text-[#8b4728]"
+        className="mb-6 inline-flex items-center gap-1 font-courier text-sm font-bold text-[var(--color-accent-end)] hover:text-[var(--color-accent-deep)]"
       >
         <ArrowLeft className="h-4 w-4" aria-hidden />
         Accueil
@@ -159,8 +159,8 @@ export default function ZoneFlowClient() {
       </p>
 
       {favTerritories.length > 0 && step === 1 && (
-        <div className="mt-4 rounded-xl border border-[#E07856]/30 bg-[#FFF2EB]/50 p-3">
-          <p className="font-courier text-xs font-bold text-[#A55734]">Coups de cœur territoires</p>
+        <div className="mt-4 rounded-xl border border-[var(--color-accent-start)]/30 bg-[#FFF2EB]/50 p-3">
+          <p className="font-courier text-xs font-bold text-[var(--color-accent-end)]">Coups de cœur territoires</p>
           <div className="mt-2 flex flex-wrap gap-2">
             {favTerritories.slice(0, 6).map((f) => {
               const terr = getTerritoryById(f.refId);
@@ -174,7 +174,7 @@ export default function ZoneFlowClient() {
                       setRegionKey(terr.region_key);
                     }
                   }}
-                  className="rounded-full border border-[#A55734]/30 bg-white px-2 py-1 font-courier text-xs"
+                  className="rounded-full border border-[var(--color-accent-end)]/30 bg-white px-2 py-1 font-courier text-xs"
                 >
                   {f.label}
                 </button>
@@ -187,11 +187,11 @@ export default function ZoneFlowClient() {
       {step === 1 && (
         <div className="mt-6 space-y-4 font-courier text-sm">
           <label className="block">
-            <span className="font-bold text-[#A55734]">Région</span>
+            <span className="font-bold text-[var(--color-accent-end)]">Région</span>
             <select
               value={regionKey}
               onChange={(e) => setRegionKey(e.target.value)}
-              className="mt-1 w-full rounded-lg border-2 border-[#A55734]/25 bg-white px-3 py-2"
+              className="mt-1 w-full rounded-lg border-2 border-[var(--color-accent-end)]/25 bg-white px-3 py-2"
             >
               {PLANIFIER_REGIONS.map((r) => (
                 <option key={r.key} value={r.key}>
@@ -201,12 +201,12 @@ export default function ZoneFlowClient() {
             </select>
           </label>
           <label className="block">
-            <span className="font-bold text-[#A55734]">Recherche (optionnel)</span>
+            <span className="font-bold text-[var(--color-accent-end)]">Recherche (optionnel)</span>
             <input
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder="Ex. Lubéron, Pays basque…"
-              className="mt-1 w-full rounded-lg border-2 border-[#A55734]/25 px-3 py-2"
+              className="mt-1 w-full rounded-lg border-2 border-[var(--color-accent-end)]/25 px-3 py-2"
             />
           </label>
           <button
@@ -215,7 +215,7 @@ export default function ZoneFlowClient() {
               persist();
               setStep(2);
             }}
-            className="w-full rounded-full bg-[#E07856] py-2.5 font-bold text-white"
+            className="w-full rounded-full bg-[var(--color-accent-start)] py-2.5 font-bold text-white"
           >
             Continuer
           </button>
@@ -225,18 +225,18 @@ export default function ZoneFlowClient() {
       {step === 2 && (
         <div className="mt-6 space-y-4 font-courier text-sm">
           <label className="block">
-            <span className="font-bold text-[#A55734]">Nombre de jours</span>
+            <span className="font-bold text-[var(--color-accent-end)]">Nombre de jours</span>
             <input
               type="number"
               min={1}
               max={60}
               value={days}
               onChange={(e) => setDays(Number(e.target.value) || 1)}
-              className="mt-1 w-full rounded-lg border-2 border-[#A55734]/25 px-3 py-2"
+              className="mt-1 w-full rounded-lg border-2 border-[var(--color-accent-end)]/25 px-3 py-2"
             />
           </label>
           <div>
-            <span className="font-bold text-[#A55734]">Rythme</span>
+            <span className="font-bold text-[var(--color-accent-end)]">Rythme</span>
             <div className="mt-2 flex flex-wrap gap-2">
               {(
                 [
@@ -250,7 +250,7 @@ export default function ZoneFlowClient() {
                   type="button"
                   onClick={() => setPace(v)}
                   className={`rounded-full border-2 px-3 py-1 text-xs font-bold ${
-                    pace === v ? "border-[#E07856] bg-[#E07856] text-white" : "border-[#A55734]/25"
+                    pace === v ? "border-[var(--color-accent-start)] bg-[var(--color-accent-start)] text-white" : "border-[var(--color-accent-end)]/25"
                   }`}
                 >
                   {lab}
@@ -259,7 +259,7 @@ export default function ZoneFlowClient() {
             </div>
           </div>
           <div>
-            <span className="font-bold text-[#A55734]">Priorités</span>
+            <span className="font-bold text-[var(--color-accent-end)]">Priorités</span>
             <div className="mt-2 flex flex-wrap gap-2">
               {PRIOS.map((p) => (
                 <button
@@ -268,8 +268,8 @@ export default function ZoneFlowClient() {
                   onClick={() => togglePrio(p.id)}
                   className={`rounded-full border-2 px-3 py-1 text-xs font-bold ${
                     priorities.includes(p.id)
-                      ? "border-[#E07856] bg-[#FFF2EB]"
-                      : "border-[#A55734]/25"
+                      ? "border-[var(--color-accent-start)] bg-[#FFF2EB]"
+                      : "border-[var(--color-accent-end)]/25"
                   }`}
                 >
                   {p.label}
@@ -278,7 +278,7 @@ export default function ZoneFlowClient() {
             </div>
           </div>
           <div>
-            <span className="font-bold text-[#A55734]">Notoriété</span>
+            <span className="font-bold text-[var(--color-accent-end)]">Notoriété</span>
             <div className="mt-2 flex flex-wrap gap-2">
               {(
                 [
@@ -292,7 +292,7 @@ export default function ZoneFlowClient() {
                   type="button"
                   onClick={() => setNotoriety(v)}
                   className={`rounded-full border-2 px-3 py-1 text-xs font-bold ${
-                    notoriety === v ? "border-[#E07856] bg-[#E07856] text-white" : "border-[#A55734]/25"
+                    notoriety === v ? "border-[var(--color-accent-start)] bg-[var(--color-accent-start)] text-white" : "border-[var(--color-accent-end)]/25"
                   }`}
                 >
                   {lab}
@@ -301,7 +301,7 @@ export default function ZoneFlowClient() {
             </div>
           </div>
           <div>
-            <span className="font-bold text-[#A55734]">Si contradiction (route vs contenu)</span>
+            <span className="font-bold text-[var(--color-accent-end)]">Si contradiction (route vs contenu)</span>
             <div className="mt-2 flex flex-col gap-2">
               {(
                 [
@@ -327,7 +327,7 @@ export default function ZoneFlowClient() {
             <button
               type="button"
               onClick={() => setStep(1)}
-              className="flex-1 rounded-full border-2 border-[#A55734]/30 py-2 font-bold"
+              className="flex-1 rounded-full border-2 border-[var(--color-accent-end)]/30 py-2 font-bold"
             >
               Retour
             </button>
@@ -337,7 +337,7 @@ export default function ZoneFlowClient() {
                 persist();
                 setStep(3);
               }}
-              className="flex-1 rounded-full bg-[#E07856] py-2 font-bold text-white"
+              className="flex-1 rounded-full bg-[var(--color-accent-start)] py-2 font-bold text-white"
             >
               Continuer
             </button>
@@ -347,7 +347,7 @@ export default function ZoneFlowClient() {
 
       {step === 3 && (
         <div className="mt-6 space-y-3 font-courier text-sm">
-          <span className="font-bold text-[#A55734]">Forme du voyage</span>
+          <span className="font-bold text-[var(--color-accent-end)]">Forme du voyage</span>
           {(
             [
               ["base_fixe", "Rester basé dans un seul endroit"],
@@ -361,7 +361,7 @@ export default function ZoneFlowClient() {
               type="button"
               onClick={() => setTripForm(v)}
               className={`block w-full rounded-xl border-2 p-3 text-left ${
-                tripForm === v ? "border-[#E07856] bg-[#FFF2EB]" : "border-[#A55734]/20"
+                tripForm === v ? "border-[var(--color-accent-start)] bg-[#FFF2EB]" : "border-[var(--color-accent-end)]/20"
               }`}
             >
               {lab}
@@ -371,7 +371,7 @@ export default function ZoneFlowClient() {
             <button
               type="button"
               onClick={() => setStep(2)}
-              className="flex-1 rounded-full border-2 border-[#A55734]/30 py-2 font-bold"
+              className="flex-1 rounded-full border-2 border-[var(--color-accent-end)]/30 py-2 font-bold"
             >
               Retour
             </button>
@@ -382,7 +382,7 @@ export default function ZoneFlowClient() {
                 persist();
                 void fetchStructures();
               }}
-              className="flex-1 rounded-full bg-[#E07856] py-2 font-bold text-white disabled:opacity-60"
+              className="flex-1 rounded-full bg-[var(--color-accent-start)] py-2 font-bold text-white disabled:opacity-60"
             >
               {loading ? "…" : "Proposer des structures"}
             </button>
@@ -400,9 +400,9 @@ export default function ZoneFlowClient() {
                 setPicked(s);
                 setStep(5);
               }}
-              className="block w-full rounded-xl border-2 border-[#A55734]/25 p-4 text-left hover:border-[#E07856]"
+              className="block w-full rounded-xl border-2 border-[var(--color-accent-end)]/25 p-4 text-left hover:border-[var(--color-accent-start)]"
             >
-              <span className="font-bold text-[#A55734]">{s.label}</span>
+              <span className="font-bold text-[var(--color-accent-end)]">{s.label}</span>
               <p className="mt-1 text-xs text-[#333]/80">{s.mobility}</p>
               <p className="mt-2 text-xs">
                 {s.bases.map((b) => `${b.name} (${b.nights} n.)`).join(" → ")}
@@ -417,14 +417,14 @@ export default function ZoneFlowClient() {
 
       {step === 5 && picked && (
         <div className="mt-6 space-y-4 font-courier text-sm">
-          <h2 className="font-bold text-[#A55734]">{picked.label}</h2>
+          <h2 className="font-bold text-[var(--color-accent-end)]">{picked.label}</h2>
           <ul className="list-inside list-disc text-xs text-[#333]/85">
             {picked.explanations.map((e, i) => (
               <li key={i}>{e}</li>
             ))}
           </ul>
           <div>
-            <span className="font-bold text-[#A55734]">Enrichissements (aperçu)</span>
+            <span className="font-bold text-[var(--color-accent-end)]">Enrichissements (aperçu)</span>
             {(picked.enrichments ?? []).map((seg) => (
               <div key={seg.segmentIndex} className="mt-2 rounded-lg bg-[#FFF2EB]/60 p-2 text-xs">
                 <p className="font-bold">{seg.label}</p>
@@ -442,7 +442,7 @@ export default function ZoneFlowClient() {
           <button
             type="button"
             onClick={() => openInPlanning(picked)}
-            className="w-full rounded-full bg-[#E07856] py-3 font-bold text-white"
+            className="w-full rounded-full bg-[var(--color-accent-start)] py-3 font-bold text-white"
           >
             Ouvrir dans le planning
           </button>

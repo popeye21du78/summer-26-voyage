@@ -100,8 +100,8 @@ export function StarItineraryCover({ stepId, ville, tripTitle, compact }: Props)
 
   if (loading) {
     return (
-      <div className="absolute inset-0 z-0 flex items-center justify-center bg-[#1c1c1c]" aria-hidden>
-        <div className="h-8 w-8 rounded-full border-2 border-[#E07856]/20 border-t-[#E07856] animate-spin" />
+      <div className="absolute inset-0 z-0 flex items-center justify-center bg-[var(--color-bg-secondary)]" aria-hidden>
+        <div className="h-8 w-8 rounded-full border-2 border-[var(--color-accent-start)]/20 border-t-[var(--color-accent-start)] animate-spin" />
       </div>
     );
   }

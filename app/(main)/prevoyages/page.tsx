@@ -10,7 +10,7 @@ export default function PreVoyagesPage() {
     <main className="mx-auto max-w-2xl px-4 py-10 pt-16">
       <Link
         href="/accueil"
-        className="mb-6 inline-flex items-center gap-2 font-courier text-sm font-bold text-[#E07856] transition hover:underline"
+        className="mb-6 inline-flex items-center gap-2 font-courier text-sm font-bold text-[var(--color-accent-start)] transition hover:underline"
       >
         <ArrowLeft className="h-4 w-4" />
         Retour
@@ -29,7 +29,7 @@ export default function PreVoyagesPage() {
           <Link
             key={v.id}
             href="/planifier/commencer"
-            className="block overflow-hidden rounded-xl border border-[#E07856]/20 bg-white transition-all duration-300 hover:scale-[1.01] hover:border-[#E07856]/40 hover:shadow-lg"
+            className="block overflow-hidden rounded-xl border border-[var(--color-accent-start)]/20 bg-white transition-all duration-300 hover:scale-[1.01] hover:border-[var(--color-accent-start)]/40 hover:shadow-lg"
           >
             {v.steps[0] ? (
               <LieuResolvedBackground
@@ -39,7 +39,7 @@ export default function PreVoyagesPage() {
               />
             ) : (
               <div
-                className="aspect-video bg-gradient-to-br from-[#E07856] to-[#D4635B]"
+                className="aspect-video bg-gradient-to-br from-[var(--color-accent-start)] to-[var(--color-accent-mid)]"
                 aria-hidden
               />
             )}
@@ -48,7 +48,7 @@ export default function PreVoyagesPage() {
                 {v.titre}
               </h2>
               <p className="mt-1 font-courier text-sm text-[#333333]/70">{v.sousTitre}</p>
-              <div className="mt-4 flex flex-wrap gap-4 font-courier text-sm text-[#E07856]">
+              <div className="mt-4 flex flex-wrap gap-4 font-courier text-sm text-[var(--color-accent-start)]">
                 <span className="flex items-center gap-1">
                   <MapPin className="h-4 w-4" />
                   {v.region}

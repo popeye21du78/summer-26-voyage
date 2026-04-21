@@ -106,13 +106,13 @@ export default function MaintenanceWikiTab() {
       {loadingList ? (
         <p className="text-sm text-[#333]/70">Chargement…</p>
       ) : (
-        <div className="flex flex-wrap items-end gap-3 rounded-lg border border-[#A55734]/20 bg-white p-3">
+        <div className="flex flex-wrap items-end gap-3 rounded-lg border border-[var(--color-accent-end)]/20 bg-white p-3">
           <label className="text-xs font-medium text-[#333]">
             Ville ({cities.length} dans la liste)
             <select
               value={slug}
               onChange={(e) => setSlug(e.target.value)}
-              className="mt-1 block w-full min-w-[240px] rounded border border-[#A55734]/30 px-2 py-1.5 text-sm"
+              className="mt-1 block w-full min-w-[240px] rounded border border-[var(--color-accent-end)]/30 px-2 py-1.5 text-sm"
             >
               {cities.map((c) => (
                 <option key={c.slug} value={c.slug}>
@@ -126,7 +126,7 @@ export default function MaintenanceWikiTab() {
             <select
               value={minWidth}
               onChange={(e) => setMinWidth(Number(e.target.value))}
-              className="mt-1 block rounded border border-[#A55734]/30 px-2 py-1.5 text-sm"
+              className="mt-1 block rounded border border-[var(--color-accent-end)]/30 px-2 py-1.5 text-sm"
             >
               <option value={400}>400 px</option>
               <option value={800}>800 px</option>
@@ -136,7 +136,7 @@ export default function MaintenanceWikiTab() {
           <button
             type="button"
             onClick={() => void fetchCandidates()}
-            className="rounded bg-[#A55734]/15 px-3 py-1.5 text-sm font-medium text-[#A55734]"
+            className="rounded bg-[var(--color-accent-end)]/15 px-3 py-1.5 text-sm font-medium text-[var(--color-accent-end)]"
           >
             Recharger
           </button>
@@ -170,7 +170,7 @@ export default function MaintenanceWikiTab() {
 
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
             {data.photos.map((p) => (
-              <div key={p.url} className="overflow-hidden rounded-lg border border-[#A55734]/15 bg-white">
+              <div key={p.url} className="overflow-hidden rounded-lg border border-[var(--color-accent-end)]/15 bg-white">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src={p.url} alt="" className="aspect-video w-full object-cover" loading="lazy" />
                 <p className="line-clamp-2 p-2 text-[10px] text-[#333]/80">{p.title}</p>
@@ -182,7 +182,7 @@ export default function MaintenanceWikiTab() {
             <button
               type="button"
               onClick={() => setOffset((o) => o + data.windowSize)}
-              className="text-sm text-[#A55734] underline"
+              className="text-sm text-[var(--color-accent-end)] underline"
             >
               {data.windowSize} suivantes
             </button>

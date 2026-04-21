@@ -29,6 +29,12 @@ interface CityPhotoProps {
   curationCompact?: boolean;
   /** eager = pas de lazy (vignettes au verso d’une carte 3D : le lazy ne démarrait qu’après retournement). */
   imageLoading?: "eager" | "lazy";
+  /**
+   * Pour les villes multi-URL validées : force un index de départ (wrappé modulo
+   * le nombre d'URLs disponibles). Deux vues différentes peuvent ainsi montrer
+   * deux photos différentes de la même ville.
+   */
+  variantIndex?: number;
 }
 
 type RemoteJson = {
@@ -49,12 +55,13 @@ export function CityPhoto({
   curationTitle,
   curationCompact = false,
   imageLoading = "lazy",
+  variantIndex = 0,
 }: CityPhotoProps) {
   const [url, setUrl] = useState<string | null>(initialUrl ?? null);
   const [loading, setLoading] = useState(!initialUrl);
   const [error, setError] = useState(false);
   const [totalAlternatives, setTotalAlternatives] = useState<number | null>(null);
-  const [photoIndex, setPhotoIndex] = useState(0);
+  const [photoIndex, setPhotoIndex] = useState(variantIndex);
   /** true = cycling uniquement JSON beauty/maintenance ; false = flux /api/photo-ville (Wikipedia, etc.) */
   const fromSiteJson = useRef(false);
   /** true = URL issue de l’index embarqué (top 200 + validations fichier) — pas d’API resolve. */
@@ -136,7 +143,8 @@ export function CityPhoto({
         return;
       }
 
-      const cached = getCachedPhotoUrl(cacheKey);
+      /** Cache réservé à l'index 0 : si une vue demande un variant, on saute le cache. */
+      const cached = variantIndex === 0 ? getCachedPhotoUrl(cacheKey) : null;
       if (cached) {
         setUrl(cached);
         setLoading(false);
@@ -146,12 +154,14 @@ export function CityPhoto({
         return;
       }
 
-      const embedded = getClientPublicPhotoPick(slug, stepId, 0);
+      const embeddedIdx = variantIndex;
+      const embedded = getClientPublicPhotoPick(slug, stepId, embeddedIdx);
       if (embedded) {
         setUrl(embedded.url);
-        cachePhotoUrl(cacheKey, embedded.url);
+        /** Cache indépendant de l'index pour ne pas écraser la photo par défaut d'autres vues. */
+        if (embeddedIdx === 0) cachePhotoUrl(cacheKey, embedded.url);
         setTotalAlternatives(embedded.total);
-        setPhotoIndex(0);
+        setPhotoIndex(embeddedIdx % embedded.total);
         fromSiteJson.current = true;
         fromEmbeddedIndex.current = true;
         setLoading(false);
@@ -186,7 +196,7 @@ export function CityPhoto({
     return () => {
       cancelled = true;
     };
-  }, [stepId, ville, initialUrl, fetchPhotoVille]);
+  }, [stepId, ville, initialUrl, fetchPhotoVille, variantIndex]);
 
   const handleChangePhoto = () => {
     const slug = slugForLieuPhoto(stepId, ville);
@@ -244,7 +254,7 @@ export function CityPhoto({
   if (loading) {
     return (
       <div
-        className={`relative flex flex-col items-center justify-center bg-[#111111] ${className}`}
+        className={`relative flex flex-col items-center justify-center bg-[var(--color-bg-main)] ${className}`}
         aria-hidden
       >
         <img src="/A1.png" alt="" className="h-12 w-12 opacity-25" style={{ filter: "brightness(0) invert(1) sepia(1) saturate(5) hue-rotate(-15deg)" }} />
@@ -255,7 +265,7 @@ export function CityPhoto({
   if (error || !url) {
     return (
       <div
-        className={`flex flex-col items-center justify-center gap-2 bg-[#1c1c1c] text-white/30 text-sm ${className}`}
+        className={`flex flex-col items-center justify-center gap-2 bg-[var(--color-bg-secondary)] text-white/30 text-sm ${className}`}
         style={{ minHeight: 120 }}
       >
         <span>Pas de photo disponible</span>
@@ -293,7 +303,7 @@ export function CityPhoto({
         <button
           type="button"
           onClick={handleChangePhoto}
-          className="absolute bottom-2 right-2 z-10 rounded-lg bg-black/60 px-2.5 py-1 font-courier text-[10px] font-bold text-[#E07856] backdrop-blur-sm transition hover:bg-black/80"
+          className="absolute bottom-2 right-2 z-10 rounded-lg bg-black/60 px-2.5 py-1 font-courier text-[10px] font-bold text-[var(--color-accent-start)] backdrop-blur-sm transition hover:bg-black/80"
         >
           Changer de photo
         </button>

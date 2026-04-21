@@ -42,8 +42,8 @@ function isNuitee(type: string | null | undefined): boolean {
 
 const CHART_COLORS = {
   culture: "#c98b6a",
-  nourriture: "#A55734",
-  nuitee: "#7a3d22",
+  nourriture: "var(--color-accent-end)",
+  nuitee: "var(--color-accent-deep)",
 };
 
 export default function DataPage() {
@@ -170,12 +170,12 @@ export default function DataPage() {
           {bigNumbers.map((item) => (
             <div
               key={item.label}
-              className="inline-flex items-baseline gap-1.5 rounded-full border-2 border-[#7a3d22]/50 bg-white px-4 py-2 shadow-sm"
+              className="inline-flex items-baseline gap-1.5 rounded-full border-2 border-[var(--color-accent-deep)]/50 bg-white px-4 py-2 shadow-sm"
             >
               <span className="text-[11px] uppercase tracking-wider text-[#333333]/70">{item.label}</span>
-              <span className="font-medium tabular-nums text-[#A55734]">
+              <span className="font-medium tabular-nums text-[var(--color-accent-end)]">
                 {item.value}
-                {item.unit && <span className="ml-0.5 text-[12px] text-[#7a3d22]">{item.unit}</span>}
+                {item.unit && <span className="ml-0.5 text-[12px] text-[var(--color-accent-deep)]">{item.unit}</span>}
               </span>
             </div>
           ))}
@@ -186,26 +186,26 @@ export default function DataPage() {
       {chartData.length > 0 && (
         <section className="mb-12">
           <h2 className="mb-4 text-lg font-normal text-[#333333]">Évolution des dépenses dans le temps</h2>
-          <div className="rounded-lg border-2 border-[#7a3d22]/40 bg-white p-4 shadow-sm">
+          <div className="rounded-lg border-2 border-[var(--color-accent-deep)]/40 bg-white p-4 shadow-sm">
             <ResponsiveContainer width="100%" height={280}>
               <LineChart data={chartData} margin={{ top: 5, right: 20, left: 0, bottom: 5 }}>
-                <CartesianGrid strokeDasharray="3 3" stroke="#A55734" strokeOpacity={0.2} />
+                <CartesianGrid strokeDasharray="3 3" stroke="var(--color-accent-end)" strokeOpacity={0.2} />
                 <XAxis
                   dataKey="ville"
                   tick={{ fontSize: 11, fill: "#333333" }}
-                  stroke="#7a3d22"
+                  stroke="var(--color-accent-deep)"
                   strokeOpacity={0.5}
                 />
                 <YAxis
                   tick={{ fontSize: 11, fill: "#333333" }}
-                  stroke="#7a3d22"
+                  stroke="var(--color-accent-deep)"
                   strokeOpacity={0.5}
                   tickFormatter={(v) => `${v} €`}
                 />
                 <Tooltip
                   contentStyle={{
                     backgroundColor: "#FAF4F0",
-                    border: "2px solid #A55734",
+                    border: "2px solid var(--color-accent-end)",
                     borderRadius: "4px",
                     fontFamily: "IBM Plex Mono, monospace",
                   }}
@@ -228,16 +228,16 @@ export default function DataPage() {
       {repartitionData.length > 0 && (
         <section className="mb-12">
           <h2 className="mb-4 text-lg font-normal text-[#333333]">Répartition du budget</h2>
-          <div className="rounded-lg border-2 border-[#7a3d22]/40 bg-white p-4 shadow-sm">
+          <div className="rounded-lg border-2 border-[var(--color-accent-deep)]/40 bg-white p-4 shadow-sm">
             <ResponsiveContainer width="100%" height={200}>
               <BarChart data={repartitionData} layout="vertical" margin={{ top: 5, right: 30, left: 80, bottom: 5 }}>
-                <CartesianGrid strokeDasharray="3 3" stroke="#A55734" strokeOpacity={0.2} />
-                <XAxis type="number" tick={{ fontSize: 11, fill: "#333333" }} tickFormatter={(v) => `${v} €`} stroke="#7a3d22" strokeOpacity={0.5} />
-                <YAxis type="category" dataKey="name" tick={{ fontSize: 11, fill: "#333333" }} stroke="#7a3d22" strokeOpacity={0.5} width={70} />
+                <CartesianGrid strokeDasharray="3 3" stroke="var(--color-accent-end)" strokeOpacity={0.2} />
+                <XAxis type="number" tick={{ fontSize: 11, fill: "#333333" }} tickFormatter={(v) => `${v} €`} stroke="var(--color-accent-deep)" strokeOpacity={0.5} />
+                <YAxis type="category" dataKey="name" tick={{ fontSize: 11, fill: "#333333" }} stroke="var(--color-accent-deep)" strokeOpacity={0.5} width={70} />
                 <Tooltip
                   contentStyle={{
                     backgroundColor: "#FAF4F0",
-                    border: "2px solid #A55734",
+                    border: "2px solid var(--color-accent-end)",
                     borderRadius: "4px",
                     fontFamily: "IBM Plex Mono, monospace",
                   }}
@@ -257,10 +257,10 @@ export default function DataPage() {
       {/* Tableau récap par ville */}
       <section className="mb-12">
         <h2 className="mb-4 text-lg font-normal text-[#333333]">Récapitulatif par ville</h2>
-        <div className="overflow-x-auto rounded-lg border-2 border-[#7a3d22]/40 bg-[#FAF4F0] shadow-sm">
+        <div className="overflow-x-auto rounded-lg border-2 border-[var(--color-accent-deep)]/40 bg-[#FAF4F0] shadow-sm">
           <table className="w-full table-fixed">
             <thead>
-              <tr className="border-b-2 border-[#7a3d22] bg-[#A55734] text-left">
+              <tr className="border-b-2 border-[var(--color-accent-deep)] bg-[var(--color-accent-end)] text-left">
                 <th className="px-3 py-2 text-[11px] font-normal uppercase tracking-wider text-[#FFFBF7]">Ville</th>
                 <th className="px-3 py-2 text-[11px] font-normal uppercase tracking-wider text-[#FFFBF7]">Date</th>
                 <th className="px-3 py-2 text-center text-[11px] font-normal uppercase tracking-wider text-[#FFFBF7]">Culture €</th>
@@ -278,7 +278,7 @@ export default function DataPage() {
                 return (
                   <tr
                     key={r.step_id}
-                    className={`border-b-2 border-[#7a3d22]/35 ${
+                    className={`border-b-2 border-[var(--color-accent-deep)]/35 ${
                       i % 2 === 1 ? "bg-[#FFF2EB]/40" : "bg-[#FAF4F0]"
                     }`}
                   >
@@ -287,7 +287,7 @@ export default function DataPage() {
                     <td className="px-3 py-2 text-center text-[12px] tabular-nums text-[#333333]">{culture}</td>
                     <td className="px-3 py-2 text-center text-[12px] tabular-nums text-[#333333]">{nourr}</td>
                     <td className="px-3 py-2 text-center text-[12px] tabular-nums text-[#333333]">{nuitee}</td>
-                    <td className="px-3 py-2 text-right text-[12px] font-medium tabular-nums text-[#A55734]">{sousTotal} €</td>
+                    <td className="px-3 py-2 text-right text-[12px] font-medium tabular-nums text-[var(--color-accent-end)]">{sousTotal} €</td>
                   </tr>
                 );
               })}
@@ -300,10 +300,10 @@ export default function DataPage() {
       {segments.length > 0 && (
         <section className="mb-12">
           <h2 className="mb-4 text-lg font-normal text-[#333333]">Trajets</h2>
-          <div className="overflow-x-auto rounded-lg border-2 border-[#7a3d22]/40 bg-[#FAF4F0] shadow-sm">
+          <div className="overflow-x-auto rounded-lg border-2 border-[var(--color-accent-deep)]/40 bg-[#FAF4F0] shadow-sm">
             <table className="w-full">
               <thead>
-                <tr className="border-b-2 border-[#7a3d22] bg-[#A55734] text-left">
+                <tr className="border-b-2 border-[var(--color-accent-deep)] bg-[var(--color-accent-end)] text-left">
                   <th className="px-3 py-2 text-[11px] font-normal uppercase tracking-wider text-[#FFFBF7]">Segment</th>
                   <th className="px-3 py-2 text-right text-[11px] font-normal uppercase tracking-wider text-[#FFFBF7]">Km</th>
                   <th className="px-3 py-2 text-[11px] font-normal uppercase tracking-wider text-[#FFFBF7]">Durée</th>
@@ -314,11 +314,11 @@ export default function DataPage() {
                 {segments.map((s, i) => (
                   <tr
                     key={`${s.from}-${s.to}`}
-                    className={`border-b-2 border-[#7a3d22]/25 ${
+                    className={`border-b-2 border-[var(--color-accent-deep)]/25 ${
                       i % 2 === 1 ? "bg-[#FFF2EB]/40" : "bg-[#FAF4F0]"
                     }`}
                   >
-                    <td className="px-3 py-2 text-[12px] text-[#A55734]">
+                    <td className="px-3 py-2 text-[12px] text-[var(--color-accent-end)]">
                       {s.from} → {s.to}
                     </td>
                     <td className="px-3 py-2 text-right text-[12px] tabular-nums text-[#333333]">{s.km} km</td>

@@ -45,11 +45,11 @@ export default function TopBar({ searchOverride }: TopBarProps) {
   }
 
   return (
-    <header className="relative z-30 flex shrink-0 flex-col border-b border-white/6 bg-[#111111]/95 backdrop-blur-lg">
+    <header className="relative z-30 flex shrink-0 flex-col border-b border-white/6 bg-[var(--color-bg-main)]/95 backdrop-blur-lg">
       <div className="flex items-center gap-2 px-4 py-3">
         <Link
           href="/planifier"
-          className="hidden shrink-0 font-courier text-[10px] font-bold uppercase tracking-wider text-[#E07856] underline-offset-2 hover:underline sm:inline"
+          className="hidden shrink-0 font-courier text-[10px] font-bold uppercase tracking-wider text-[var(--color-accent-start)] underline-offset-2 hover:underline sm:inline"
         >
           Hub
         </Link>
@@ -65,16 +65,16 @@ export default function TopBar({ searchOverride }: TopBarProps) {
           onClick={() => setFilterSheetOpen(!filterSheetOpen)}
           className={`inline-flex shrink-0 items-center gap-1.5 rounded-xl border px-3 py-2 font-courier text-[11px] font-bold transition ${
             filterSheetOpen || ambiance.length > 0 || duration
-              ? "border-[#E07856] bg-[#E07856]/25 text-[#E07856]"
-              : "border-white/10 bg-white/5 text-white/70 hover:border-[#E07856]/35 hover:text-white/90"
+              ? "border-[var(--color-accent-start)] bg-[var(--color-accent-start)]/25 text-[var(--color-accent-start)]"
+              : "border-white/10 bg-white/5 text-white/70 hover:border-[var(--color-accent-start)]/35 hover:text-white/90"
           }`}
         >
-          <Filter className="h-3.5 w-3.5 text-[#E07856]" />
+          <Filter className="h-3.5 w-3.5 text-[var(--color-accent-start)]" />
           <span className="max-sm:sr-only">Filtres</span>
         </button>
         <Link
           href="/planifier/favoris"
-          className="inline-flex shrink-0 items-center gap-1 rounded-xl border border-white/10 bg-white/5 px-3 py-2 font-courier text-[11px] font-bold text-[#E07856] transition hover:border-[#E07856]/35 hover:bg-white/10"
+          className="inline-flex shrink-0 items-center gap-1 rounded-xl border border-white/10 bg-white/5 px-3 py-2 font-courier text-[11px] font-bold text-[var(--color-accent-start)] transition hover:border-[var(--color-accent-start)]/35 hover:bg-white/10"
         >
           <Heart className="h-3.5 w-3.5" />
           <span className="hidden sm:inline">Favoris</span>
@@ -82,8 +82,8 @@ export default function TopBar({ searchOverride }: TopBarProps) {
       </div>
 
       {filterSheetOpen && (
-        <div className="border-t border-white/5 bg-[#0d0d0d] px-4 py-3">
-          <p className="font-courier text-[10px] font-bold uppercase tracking-wide text-[#E07856]">
+        <div className="border-t border-white/5 bg-[var(--color-bg-main)] px-4 py-3">
+          <p className="font-courier text-[10px] font-bold uppercase tracking-wide text-[var(--color-accent-start)]">
             Ambiances
           </p>
           <div className="mt-2 flex flex-wrap gap-1.5">
@@ -94,15 +94,15 @@ export default function TopBar({ searchOverride }: TopBarProps) {
                 onClick={() => toggleAmbiance(o.id)}
                 className={`rounded-full border px-2.5 py-1 font-courier text-[11px] font-bold transition ${
                   ambiance.includes(o.id)
-                    ? "border-[#E07856] bg-[#E07856] text-white"
-                    : "border-white/15 bg-white/5 text-white/70 hover:border-[#E07856]/40"
+                    ? "border-[var(--color-accent-start)] bg-[var(--color-accent-start)] text-white"
+                    : "border-white/15 bg-white/5 text-white/70 hover:border-[var(--color-accent-start)]/40"
                 }`}
               >
                 {o.label}
               </button>
             ))}
           </div>
-          <p className="mt-3 font-courier text-[10px] font-bold uppercase tracking-wide text-[#E07856]">
+          <p className="mt-3 font-courier text-[10px] font-bold uppercase tracking-wide text-[var(--color-accent-start)]">
             Durée
           </p>
           <select
@@ -110,7 +110,7 @@ export default function TopBar({ searchOverride }: TopBarProps) {
             onChange={(e) =>
               setDuration((e.target.value || null) as InspirationDurationFilter | null)
             }
-            className="mt-2 w-full max-w-xs rounded-xl border border-white/10 bg-white/5 px-3 py-2 font-courier text-xs text-white focus:border-[#E07856]/35 focus:outline-none"
+            className="mt-2 w-full max-w-xs rounded-xl border border-white/10 bg-white/5 px-3 py-2 font-courier text-xs text-white focus:border-[var(--color-accent-start)]/35 focus:outline-none"
           >
             <option value="">Toutes</option>
             {DURATION_OPTIONS.map((o) => (

@@ -190,7 +190,7 @@ function PhotoPolaroid({
           <button
             type="button"
             onClick={onEdit}
-            className="flex h-7 w-7 items-center justify-center rounded-full bg-[#E07856] text-white shadow"
+            className="flex h-7 w-7 items-center justify-center rounded-full bg-[var(--color-accent-start)] text-white shadow"
             aria-label="Modifier la photo"
           >
             <Pencil className="h-3 w-3" />
@@ -219,6 +219,8 @@ export default function ViagoSection({
 }: Props) {
   const ref = useRef<HTMLElement>(null);
   const heroFileRef = useRef<HTMLInputElement>(null);
+  /** Input fichier global pour l'ajout de photo rapide depuis la galerie (bypass du click dans l'éditeur). */
+  const quickAddFileRef = useRef<HTMLInputElement>(null);
   const isInView = useInView(ref, { once: true, amount: 0.15 });
   const [content, setContent] = useState<ViagoStepContent | null>(null);
   const [showAddAnecdote, setShowAddAnecdote] = useState(false);
@@ -251,10 +253,10 @@ export default function ViagoSection({
   const displayDate = formatDate(dateIso);
   const heroPreferUrl = content?.heroPhotoUrl?.trim() ? content.heroPhotoUrl.trim() : undefined;
 
-  const openVisualEditorForNew = () => {
+  const openVisualEditorForNew = (withUrl?: string | null) => {
     setEditingPhotoIndex(null);
     setVisualInitial({
-      url: null,
+      url: withUrl?.trim() || null,
       title: "",
       anecdote: "",
       overlay: null,
@@ -262,6 +264,15 @@ export default function ViagoSection({
       textPosition: "overlay-bottom",
     });
     setShowVisualPhotoEditor(true);
+  };
+
+  /**
+   * Raccourci galerie : ouvre directement le sélecteur de photos du téléphone.
+   * Une fois la photo compressée, l'éditeur s'ouvre pré-rempli — l'utilisateur
+   * peut immédiatement ajouter un texte par-dessus (bouton « Texte »).
+   */
+  const triggerQuickAddFromGallery = () => {
+    quickAddFileRef.current?.click();
   };
 
   const openEditPhoto = (idx: number) => {
@@ -372,13 +383,6 @@ export default function ViagoSection({
   };
 
   const isDark = variant === "dark";
-  const titleGradientStyle = {
-    background: "linear-gradient(to right, #E07856, #D4635B, #CD853F)",
-    WebkitBackgroundClip: "text",
-    backgroundClip: "text",
-    color: "transparent",
-  } as const;
-
   return (
     <section id={step.id} ref={ref} className="relative scroll-mt-20">
       <motion.div
@@ -390,18 +394,17 @@ export default function ViagoSection({
         <div
           className={`order-2 flex flex-1 flex-col justify-center px-5 py-10 md:order-1 md:max-w-[55%] md:px-12 md:py-14 ${
             isDark
-              ? "bg-gradient-to-b from-[#141414] to-[#0d0d0d]"
-              : "bg-[#141414]"
+              ? "bg-gradient-to-b from-[var(--color-bg-secondary)] to-[var(--color-bg-main)]"
+              : "bg-[var(--color-bg-secondary)]"
           }`}
         >
-          <span className="font-courier text-[10px] font-bold uppercase tracking-[0.35em] text-[#E07856]">
+          <span className="font-courier text-[10px] font-bold uppercase tracking-[0.35em] text-[var(--color-accent-start)]">
             ÉTAPE {index + 1}
           </span>
           <h2 className="mt-3 font-courier text-4xl font-bold tracking-wider md:text-5xl">
             <Link
               href={`/inspirer/ville/${slugFromNom(step.nom)}?from=viago`}
-              className="transition hover:opacity-90"
-              style={titleGradientStyle}
+              className="text-gradient-viago-title-alt transition hover:opacity-90"
             >
               {displayNom}
             </Link>
@@ -422,8 +425,21 @@ export default function ViagoSection({
             preferUrl={heroPreferUrl}
             className="absolute inset-0"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-black/20 to-black/50 md:bg-gradient-to-l md:from-transparent md:via-black/10 md:to-[#0d0d0d]/85" />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#0d0d0d] via-transparent to-transparent opacity-90 md:opacity-100" />
+          <div
+            className="absolute inset-0 md:hidden"
+            style={{
+              background: `linear-gradient(to bottom, color-mix(in srgb, var(--color-bg-main) 22%, transparent), color-mix(in srgb, var(--color-bg-main) 52%, transparent))`,
+            }}
+          />
+          <div
+            className="absolute inset-0 hidden md:block"
+            style={{
+              background: `linear-gradient(to left, transparent, color-mix(in srgb, var(--color-bg-main) 12%, transparent), color-mix(in srgb, var(--color-bg-main) 85%, transparent))`,
+            }}
+          />
+          <div
+            className="absolute inset-0 bg-gradient-to-t from-[var(--color-bg-main)] via-transparent to-transparent opacity-90 md:opacity-100"
+          />
         </div>
       </motion.div>
 
@@ -431,10 +447,8 @@ export default function ViagoSection({
         initial={{ opacity: 0, y: 20 }}
         animate={isInView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.5, delay: 0.15 }}
-        className={`relative z-10 mx-4 -mt-6 rounded-2xl border p-6 shadow-2xl md:mx-auto md:max-w-3xl md:p-10 ${
-          isDark
-            ? "border-[#E07856]/35 bg-[#1a1a1a]/95"
-            : "border-white/6 bg-[#1c1c1c]"
+        className={`viago-glass-card relative z-10 mx-4 -mt-6 p-6 md:mx-auto md:max-w-3xl md:p-10 ${
+          isDark ? "viago-glass-card--accent-border" : ""
         }`}
       >
         <input
@@ -459,7 +473,7 @@ export default function ViagoSection({
           <button
             type="button"
             onClick={() => (editStepOpen ? setEditStepOpen(false) : openEditStep())}
-            className="mb-4 w-full rounded-xl border border-dashed border-[#E07856]/40 px-3 py-2 text-left font-courier text-xs font-bold text-[#E07856] md:text-sm"
+            className="mb-4 w-full rounded-xl border border-dashed border-[var(--color-accent-line-40)] px-3 py-2 text-left font-courier text-xs font-bold text-[var(--color-accent-start)] md:text-sm"
           >
             {editStepOpen ? "▼ Fermer l’édition de l’étape" : "▶ Modifier l’étape (titre, date, image colonne…)"}
           </button>
@@ -468,7 +482,9 @@ export default function ViagoSection({
         {!readOnly && editStepOpen && (
           <div
             className={`mb-6 space-y-3 rounded-xl border p-4 ${
-              isDark ? "border-[#E07856]/30 bg-[#252525]" : "border-[#E07856]/30 bg-white"
+              isDark
+                ? "border-[var(--color-accent-line-30)] bg-[var(--color-bg-tertiary)]"
+                : "border-[var(--color-accent-line-30)] bg-white"
             }`}
           >
             <label className={`block font-courier text-xs font-bold ${isDark ? "text-white/80" : "text-white/80"}`}>
@@ -478,7 +494,9 @@ export default function ViagoSection({
               value={stepTitleDraft}
               onChange={(e) => setStepTitleDraft(e.target.value)}
               className={`w-full rounded-lg border px-3 py-2 font-courier text-sm ${
-                isDark ? "border-[#E07856]/30 bg-[#1a1a1a] text-white" : "border-[#E07856]/30"
+                isDark
+                  ? "border-[var(--color-accent-line-30)] bg-[var(--color-bg-secondary)] text-white"
+                  : "border-[var(--color-accent-line-30)]"
               }`}
             />
             <label className={`block font-courier text-xs font-bold ${isDark ? "text-white/80" : "text-white/80"}`}>
@@ -489,7 +507,9 @@ export default function ViagoSection({
               value={stepDateDraft}
               onChange={(e) => setStepDateDraft(e.target.value)}
               className={`w-full max-w-xs rounded-lg border px-3 py-2 font-courier text-sm ${
-                isDark ? "border-[#E07856]/30 bg-[#1a1a1a] text-white" : "border-[#E07856]/30"
+                isDark
+                  ? "border-[var(--color-accent-line-30)] bg-[var(--color-bg-secondary)] text-white"
+                  : "border-[var(--color-accent-line-30)]"
               }`}
             />
             <p className={`font-courier text-[10px] ${isDark ? "text-white/45" : "text-white/80/55"}`}>
@@ -499,7 +519,7 @@ export default function ViagoSection({
               <button
                 type="button"
                 onClick={() => heroFileRef.current?.click()}
-                className="rounded-lg bg-[#E07856] px-3 py-2 font-courier text-xs font-bold text-white"
+                className="rounded-lg bg-[var(--color-accent-start)] px-3 py-2 font-courier text-xs font-bold text-white"
               >
                 Choisir une image
               </button>
@@ -518,7 +538,7 @@ export default function ViagoSection({
               <button
                 type="button"
                 onClick={saveStepMeta}
-                className="rounded-lg bg-[#E07856] px-4 py-2 font-courier text-sm font-bold text-white"
+                className="rounded-lg bg-[var(--color-accent-start)] px-4 py-2 font-courier text-sm font-bold text-white"
               >
                 Enregistrer l’étape
               </button>
@@ -552,13 +572,42 @@ export default function ViagoSection({
 
         {!readOnly && (
           <div className="mb-6 flex flex-wrap gap-2">
+            <input
+              ref={quickAddFileRef}
+              type="file"
+              accept="image/*"
+              className="sr-only"
+              aria-hidden
+              onChange={async (e) => {
+                const f = e.target.files?.[0];
+                if (!f?.type.startsWith("image/")) return;
+                try {
+                  const dataUrl = await compressImageFileToDataUrl(f);
+                  openVisualEditorForNew(dataUrl);
+                } catch {
+                  /* ignore */
+                } finally {
+                  /** Reset pour pouvoir re-uploader la même photo plus tard. */
+                  if (quickAddFileRef.current) quickAddFileRef.current.value = "";
+                }
+              }}
+            />
             <button
               type="button"
-              onClick={openVisualEditorForNew}
-              className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-[#E07856] to-[#D4635B] px-5 py-2.5 font-courier text-sm font-bold text-white shadow-lg transition hover:scale-[1.02] hover:shadow-[#E07856]/50"
+              onClick={triggerQuickAddFromGallery}
+              className="inline-flex items-center gap-2 rounded-full px-5 py-2.5 font-courier text-sm font-bold text-white shadow-lg transition hover:scale-[1.02] hover:brightness-105"
+              style={{ background: "var(--gradient-cta)" }}
             >
               <Image className="h-4 w-4" />
-              Ajouter une photo
+              Photo depuis la galerie
+            </button>
+            <button
+              type="button"
+              onClick={() => openVisualEditorForNew()}
+              className="inline-flex items-center gap-2 rounded-full border border-[var(--color-accent-line-50)] bg-white/5 px-5 py-2.5 font-courier text-sm font-bold text-[var(--color-accent-start)] transition hover:scale-[1.02] hover:bg-white/10"
+            >
+              <Image className="h-4 w-4" />
+              Éditeur avancé
             </button>
             <button
               type="button"
@@ -566,7 +615,7 @@ export default function ViagoSection({
                 setShowAddAnecdote(true);
                 setAnecdoteDraft(anecdote);
               }}
-              className="inline-flex items-center gap-2 rounded-full border-2 border-[#E07856]/50 bg-white px-5 py-2.5 font-courier text-sm font-bold text-[#E07856] shadow-sm transition hover:scale-[1.02] hover:border-[#E07856] hover:bg-[#141414]"
+              className="inline-flex items-center gap-2 rounded-full border-2 border-[var(--color-accent-line-50)] bg-white px-5 py-2.5 font-courier text-sm font-bold text-[var(--color-accent-start)] shadow-sm transition hover:scale-[1.02] hover:border-[var(--color-accent-start)] hover:bg-[var(--color-bg-secondary)]"
             >
               <FileText className="h-4 w-4" />
               {anecdote ? "Modifier l'anecdote" : "Ajouter une anecdote"}
@@ -577,7 +626,9 @@ export default function ViagoSection({
         {!readOnly && showAddAnecdote && (
           <div
             className={`mb-6 rounded-xl border p-4 ${
-              isDark ? "border-[#E07856]/30 bg-[#252525]" : "border-[#E07856]/30 bg-white"
+              isDark
+                ? "border-[var(--color-accent-line-30)] bg-[var(--color-bg-tertiary)]"
+                : "border-[var(--color-accent-line-30)] bg-white"
             }`}
           >
             <p className={`mb-2 font-courier text-sm font-bold ${isDark ? "text-white/90" : "text-white/80"}`}>
@@ -589,14 +640,16 @@ export default function ViagoSection({
               placeholder="Ce qui s'est passé…"
               rows={4}
               className={`mb-3 w-full rounded-lg border p-3 font-courier text-sm ${
-                isDark ? "border-[#E07856]/30 bg-[#1a1a1a] text-white placeholder-white/50" : "border-[#E07856]/30"
+                isDark
+                  ? "border-[var(--color-accent-line-30)] bg-[var(--color-bg-secondary)] text-white placeholder-white/50"
+                  : "border-[var(--color-accent-line-30)]"
               }`}
             />
             <div className="flex gap-2">
               <button
                 type="button"
                 onClick={handleSaveAnecdote}
-                className="rounded-lg bg-[#E07856] px-4 py-2 text-sm font-medium text-white"
+                className="rounded-lg bg-[var(--color-accent-start)] px-4 py-2 text-sm font-medium text-white"
               >
                 Enregistrer
               </button>
@@ -616,7 +669,7 @@ export default function ViagoSection({
 
         {anecdote && !showAddAnecdote && (
           <div
-            className={`rounded-xl border-l-4 border-[#E07856] p-4 font-courier italic ${
+            className={`rounded-xl border-l-4 border-[var(--color-accent-start)] p-4 font-courier italic ${
               isDark ? "bg-white/5 text-white/90" : "bg-white/60 text-white/80/90"
             }`}
           >

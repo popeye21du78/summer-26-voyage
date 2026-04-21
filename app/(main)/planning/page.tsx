@@ -132,9 +132,9 @@ function TrajetRow({ from, to }: { from: ItineraryRow; to: ItineraryRow }) {
   const h = Math.floor(display.durationMin / 60);
   const m = display.durationMin % 60;
   return (
-    <tr className="border-b-2 border-[#7a3d22]/40 bg-[#FFF2EB]/40">
+    <tr className="border-b-2 border-[var(--color-accent-deep)]/40 bg-[#FFF2EB]/40">
       <td colSpan={10} className="px-3 py-2">
-        <div className="mx-auto flex max-w-max flex-wrap items-center justify-center gap-x-5 gap-y-1 rounded border-2 border-[#7a3d22] bg-gradient-to-br from-[#c98b6a] via-[#d4a088] to-[#c98b6a] px-4 py-2 text-[12px] text-white shadow-sm">
+        <div className="mx-auto flex max-w-max flex-wrap items-center justify-center gap-x-5 gap-y-1 rounded border-2 border-[var(--color-accent-deep)] bg-gradient-to-br from-[#c98b6a] via-[#d4a088] to-[#c98b6a] px-4 py-2 text-[12px] text-white shadow-sm">
           <span className="font-medium">
             {from.nom} → {to.nom}
           </span>
@@ -234,7 +234,7 @@ function SortableRow({
   };
 
   const badgeBudgetClass =
-    "inline-flex w-[2.75rem] shrink-0 items-center justify-between gap-0.5 rounded-full bg-[#A55734] px-1.5 py-0.5 text-[10px] font-medium tabular-nums text-white";
+    "inline-flex w-[2.75rem] shrink-0 items-center justify-between gap-0.5 rounded-full bg-[var(--color-accent-end)] px-1.5 py-0.5 text-[10px] font-medium tabular-nums text-white";
   const inputBudgetClass =
     "no-spinner w-6 min-w-0 border-0 bg-transparent py-0 text-right text-[10px] tabular-nums text-white placeholder-white/70 focus:outline-none focus:ring-0 [&::placeholder]:text-white/70";
 
@@ -242,12 +242,12 @@ function SortableRow({
     <tr
       ref={setNodeRef}
       style={style}
-      className={`border-b-2 border-[#7a3d22]/50 transition-colors hover:bg-[#FFF2EB]/60 ${
+      className={`border-b-2 border-[var(--color-accent-deep)]/50 transition-colors hover:bg-[#FFF2EB]/60 ${
         rowIndex % 2 === 1 ? "bg-[#FFF2EB]/40" : "bg-[#FAF4F0]"
-      } ${isDragging ? "opacity-70 shadow-lg ring-1 ring-[#A55734]/25" : ""}`}
+      } ${isDragging ? "opacity-70 shadow-lg ring-1 ring-[var(--color-accent-end)]/25" : ""}`}
     >
       <td className="cursor-grab px-2 py-2" {...attributes} {...listeners}>
-        <span className="inline-block text-[#A55734]/60 hover:text-[#A55734]" aria-hidden>⋮⋮</span>
+        <span className="inline-block text-[var(--color-accent-end)]/60 hover:text-[var(--color-accent-end)]" aria-hidden>⋮⋮</span>
       </td>
       <td className="px-3 py-2 font-medium text-[13px] text-[#333333]">{row.nom}</td>
       <td className="px-3 py-2 text-[12px] text-[#333333]">
@@ -277,7 +277,7 @@ function SortableRow({
                   }}
                   onBlur={() => setEditingDate(null)}
                   autoFocus
-                  className="rounded border border-[#A55734]/50 bg-white px-1.5 py-0.5 text-[11px] focus:outline-none focus:ring-1 focus:ring-[#A55734]"
+                  className="rounded border border-[var(--color-accent-end)]/50 bg-white px-1.5 py-0.5 text-[11px] focus:outline-none focus:ring-1 focus:ring-[var(--color-accent-end)]"
                 />
               ) : (
                 <>
@@ -285,7 +285,7 @@ function SortableRow({
                   <button
                     type="button"
                     onClick={() => setEditingDate("arrivee")}
-                    className="text-[#A55734] hover:text-[#8b4728]"
+                    className="text-[var(--color-accent-end)] hover:text-[var(--color-accent-deep)]"
                     title="Modifier"
                     aria-label="Modifier la date d'arrivée"
                   >
@@ -307,7 +307,7 @@ function SortableRow({
                   }}
                   onBlur={() => setEditingDate(null)}
                   autoFocus
-                  className="rounded border border-[#A55734]/50 bg-white px-1.5 py-0.5 text-[11px] focus:outline-none focus:ring-1 focus:ring-[#A55734]"
+                  className="rounded border border-[var(--color-accent-end)]/50 bg-white px-1.5 py-0.5 text-[11px] focus:outline-none focus:ring-1 focus:ring-[var(--color-accent-end)]"
                 />
               ) : (
                 <>
@@ -315,7 +315,7 @@ function SortableRow({
                   <button
                     type="button"
                     onClick={() => setEditingDate("depart")}
-                    className="text-[#A55734] hover:text-[#8b4728]"
+                    className="text-[var(--color-accent-end)] hover:text-[var(--color-accent-deep)]"
                     title="Modifier"
                     aria-label="Modifier la date de départ"
                   >
@@ -347,8 +347,8 @@ function SortableRow({
             onClick={() => setNuiteeMenuOpen((o) => !o)}
             className={`inline-flex items-center rounded-full px-2 py-0.5 text-[10px] font-medium transition-colors ${
               row.nuitee_type
-                ? "bg-[#A55734] text-white hover:bg-[#8b4728]"
-                : "border border-[#A55734]/50 bg-transparent text-[#333333]/70 hover:border-[#A55734] hover:text-[#333333]"
+                ? "bg-[var(--color-accent-end)] text-white hover:bg-[var(--color-accent-deep)]"
+                : "border border-[var(--color-accent-end)]/50 bg-transparent text-[#333333]/70 hover:border-[var(--color-accent-end)] hover:text-[#333333]"
             }`}
           >
             {row.nuitee_type
@@ -361,7 +361,7 @@ function SortableRow({
             createPortal(
               <div
                 data-nuitee-menu
-                className="fixed z-[9999] min-w-[90px] rounded border border-[#A55734]/40 bg-white py-0.5 shadow-lg"
+                className="fixed z-[9999] min-w-[90px] rounded border border-[var(--color-accent-end)]/40 bg-white py-0.5 shadow-lg"
                 style={{ left: menuPosition.left, top: menuPosition.top }}
               >
                 {NUITEE_OPTIONS.map((o) => (
@@ -412,7 +412,7 @@ function SortableRow({
             <button
               type="button"
               onClick={() => setEditingBudget("nuitee")}
-              className={`${badgeBudgetClass} cursor-pointer hover:bg-[#8b4728]`}
+              className={`${badgeBudgetClass} cursor-pointer hover:bg-[var(--color-accent-deep)]`}
             >
               <span>{(row.budget_nuitee ?? 0) > 0 ? String(row.budget_nuitee ?? 0) : "—"}</span>
               <span>€</span>
@@ -451,7 +451,7 @@ function SortableRow({
           <button
             type="button"
             onClick={() => setEditingBudget("culture")}
-            className={`${badgeBudgetClass} cursor-pointer hover:bg-[#8b4728]`}
+            className={`${badgeBudgetClass} cursor-pointer hover:bg-[var(--color-accent-deep)]`}
           >
             <span>{(row.budget_culture ?? 0) > 0 ? String(row.budget_culture ?? 0) : "—"}</span>
             <span>€</span>
@@ -487,7 +487,7 @@ function SortableRow({
           <button
             type="button"
             onClick={() => setEditingBudget("nourriture")}
-            className={`${badgeBudgetClass} cursor-pointer hover:bg-[#8b4728]`}
+            className={`${badgeBudgetClass} cursor-pointer hover:bg-[var(--color-accent-deep)]`}
           >
             <span>{(row.budget_nourriture ?? 0) > 0 ? String(row.budget_nourriture ?? 0) : "—"}</span>
             <span>€</span>
@@ -779,7 +779,7 @@ export default function PlanningPage() {
     <main className="mx-auto max-w-4xl px-4 py-12">
       <Link
         href="/accueil"
-        className="mb-8 inline-block text-sm text-[#A55734] hover:underline"
+        className="mb-8 inline-block text-sm text-[var(--color-accent-end)] hover:underline"
       >
         ← Retour à la carte
       </Link>
@@ -796,7 +796,7 @@ export default function PlanningPage() {
         <button
           type="button"
           onClick={() => setShowAddForm(true)}
-          className="rounded-full border border-[#A55734] px-5 py-2.5 text-sm font-medium text-[#A55734] transition-colors hover:bg-[#A55734]/10"
+          className="rounded-full border border-[var(--color-accent-end)] px-5 py-2.5 text-sm font-medium text-[var(--color-accent-end)] transition-colors hover:bg-[var(--color-accent-end)]/10"
         >
           + Ajouter une étape
         </button>
@@ -817,7 +817,7 @@ export default function PlanningPage() {
           onClick={() => setShowAddForm(false)}
         >
           <div
-            className="mx-4 w-full max-w-md rounded-lg border border-[#A55734]/30 bg-white p-6 shadow-lg"
+            className="mx-4 w-full max-w-md rounded-lg border border-[var(--color-accent-end)]/30 bg-white p-6 shadow-lg"
             onClick={(e) => e.stopPropagation()}
           >
             <h2 className="mb-4 text-xl font-light text-[#333333]">
@@ -833,14 +833,14 @@ export default function PlanningPage() {
                   value={addQuery}
                   onChange={(e) => setAddQuery(e.target.value)}
                   placeholder="ex. Marseille, Toulouse…"
-                  className="w-full rounded border border-[#A55734]/30 bg-white px-3 py-2 text-[#333333] focus:border-[#A55734] focus:outline-none focus:ring-1 focus:ring-[#A55734]"
+                  className="w-full rounded border border-[var(--color-accent-end)]/30 bg-white px-3 py-2 text-[#333333] focus:border-[var(--color-accent-end)] focus:outline-none focus:ring-1 focus:ring-[var(--color-accent-end)]"
                 />
               </div>
               <button
                 type="button"
                 onClick={handleGeocode}
                 disabled={geocoding || !addQuery.trim()}
-                className="rounded bg-[#A55734] px-4 py-2 text-sm font-medium text-white hover:bg-[#8b4728] disabled:opacity-50"
+                className="rounded bg-[var(--color-accent-end)] px-4 py-2 text-sm font-medium text-white hover:bg-[var(--color-accent-deep)] disabled:opacity-50"
               >
                 {geocoding ? "Recherche…" : "Rechercher"}
               </button>
@@ -858,21 +858,21 @@ export default function PlanningPage() {
                       type="date"
                       value={addDate}
                       onChange={(e) => setAddDate(e.target.value)}
-                      className="w-full rounded border border-[#A55734]/30 bg-white px-3 py-2 text-[#333333] focus:border-[#A55734] focus:outline-none focus:ring-1 focus:ring-[#A55734]"
+                      className="w-full rounded border border-[var(--color-accent-end)]/30 bg-white px-3 py-2 text-[#333333] focus:border-[var(--color-accent-end)] focus:outline-none focus:ring-1 focus:ring-[var(--color-accent-end)]"
                     />
                   </div>
                   <div className="flex gap-2 pt-2">
                     <button
                       type="button"
                       onClick={handleAddStep}
-                      className="rounded bg-[#A55734] px-4 py-2 text-sm font-medium text-white hover:bg-[#8b4728]"
+                      className="rounded bg-[var(--color-accent-end)] px-4 py-2 text-sm font-medium text-white hover:bg-[var(--color-accent-deep)]"
                     >
                       Ajouter
                     </button>
                     <button
                       type="button"
                       onClick={() => setShowAddForm(false)}
-                      className="rounded border border-[#A55734]/30 px-4 py-2 text-sm text-[#333333] hover:bg-white/50"
+                      className="rounded border border-[var(--color-accent-end)]/30 px-4 py-2 text-sm text-[#333333] hover:bg-white/50"
                     >
                       Annuler
                     </button>
@@ -889,10 +889,10 @@ export default function PlanningPage() {
         collisionDetection={closestCenter}
         onDragEnd={handleDragEnd}
       >
-        <div className="mb-6 overflow-x-auto overflow-y-hidden rounded-lg border-2 border-[#7a3d22]/70 bg-[#FAF4F0] shadow-sm">
+        <div className="mb-6 overflow-x-auto overflow-y-hidden rounded-lg border-2 border-[var(--color-accent-deep)]/70 bg-[#FAF4F0] shadow-sm">
           <table className="w-full table-fixed">
             <thead>
-            <tr className="border-b-2 border-[#7a3d22] bg-[#A55734] text-left">
+            <tr className="border-b-2 border-[var(--color-accent-deep)] bg-[var(--color-accent-end)] text-left">
               <th className="w-8 px-2 py-2" aria-hidden />
               <th className="min-w-0 px-3 py-2 text-[11px] font-normal uppercase tracking-wider text-[#FFFBF7]">Ville</th>
               <th className="min-w-0 px-3 py-2 text-[11px] font-normal uppercase tracking-wider text-[#FFFBF7]"><abbr title="Arrivée / Départ">Dates</abbr></th>
@@ -976,7 +976,7 @@ export default function PlanningPage() {
         type="button"
         onClick={handleSave}
         disabled={saving || rows.length === 0}
-        className="rounded-full bg-[#A55734] px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-[#8b4728] disabled:opacity-50"
+        className="rounded-full bg-[var(--color-accent-end)] px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-[var(--color-accent-deep)] disabled:opacity-50"
       >
         {saving ? "Enregistrement…" : "Enregistrer les modifications"}
       </button>

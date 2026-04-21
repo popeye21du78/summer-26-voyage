@@ -116,7 +116,7 @@ export default function DestinationsCarousel({ voyages }: Props) {
         className={`absolute left-0 top-1/2 z-20 flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full text-2xl font-bold text-white shadow-2xl transition-all duration-300 md:h-14 md:w-14 ${
           normalizedIndex <= 0
             ? "cursor-not-allowed bg-[#8B4513]/30 opacity-50"
-            : "cursor-pointer bg-[#E07856] hover:scale-110 hover:bg-[#D4635B] hover:shadow-[#E07856]/70 active:scale-95"
+            : "cursor-pointer bg-[var(--color-accent-start)] hover:scale-110 hover:bg-[var(--color-accent-mid)] hover:shadow-[var(--color-accent-start)]/70 active:scale-95"
         }`}
       >
         ‹
@@ -155,7 +155,7 @@ export default function DestinationsCarousel({ voyages }: Props) {
                   href="/prevoyages"
                   className="group block overflow-hidden rounded-[24px] border-4 shadow-2xl transition-all duration-300 hover:scale-[1.02]"
                   style={{
-                    borderColor: isCenter ? "#E07856" : "rgba(255, 255, 255, 0.5)",
+                    borderColor: isCenter ? "var(--color-accent-start)" : "rgba(255, 255, 255, 0.5)",
                     boxShadow: isCenter ? "0 30px 60px -15px rgba(224, 120, 86, 0.5)" : undefined,
                   }}
                 >
@@ -175,7 +175,7 @@ export default function DestinationsCarousel({ voyages }: Props) {
                       <p className="font-courier text-xl font-bold text-white drop-shadow-[0_2px_16px_rgba(0,0,0,0.9)]">
                         {v.titre}
                       </p>
-                      <p className="mt-2 font-courier text-sm text-[#E07856]">{v.sousTitre}</p>
+                      <p className="mt-2 font-courier text-sm text-[var(--color-accent-start)]">{v.sousTitre}</p>
                       <p className="mt-1 font-courier text-xs text-white/90">
                         {v.dureeJours}j · {villes}
                       </p>
@@ -195,7 +195,7 @@ export default function DestinationsCarousel({ voyages }: Props) {
         className={`absolute right-0 top-1/2 z-20 flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full text-2xl font-bold text-white shadow-2xl transition-all duration-300 md:h-14 md:w-14 ${
           normalizedIndex >= voyages.length - 1
             ? "cursor-not-allowed bg-[#8B4513]/30 opacity-50"
-            : "cursor-pointer bg-[#E07856] hover:scale-110 hover:bg-[#D4635B] hover:shadow-[#E07856]/70 active:scale-95"
+            : "cursor-pointer bg-[var(--color-accent-start)] hover:scale-110 hover:bg-[var(--color-accent-mid)] hover:shadow-[var(--color-accent-start)]/70 active:scale-95"
         }`}
       >
         ›
@@ -213,7 +213,7 @@ export default function DestinationsCarousel({ voyages }: Props) {
             }}
             className={`h-2 rounded-full transition-all duration-500 ${
               index === normalizedIndex
-                ? "w-8 bg-[#E07856]"
+                ? "w-8 bg-[var(--color-accent-start)]"
                 : "w-2 bg-[#8B4513]/30 hover:bg-[#8B4513]/50"
             }`}
           />

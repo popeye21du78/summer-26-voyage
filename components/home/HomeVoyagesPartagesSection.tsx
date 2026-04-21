@@ -23,7 +23,7 @@ export default function HomeVoyagesPartagesSection({
   return (
     <section
       id="section-partages"
-      className={`relative border-t border-[#E07856]/12 bg-gradient-to-b from-[#F3E8DD] to-[#EDDCCD] ${SNAP_SECTION}`}
+      className={`relative border-t border-[var(--color-accent-start)]/12 bg-gradient-to-b from-[#F3E8DD] to-[#EDDCCD] ${SNAP_SECTION}`}
       aria-labelledby="partages-titre"
     >
       <HomeDecorTitle lines={["À", "PLUSIEURS"]} tone="onLight" />
@@ -44,7 +44,7 @@ export default function HomeVoyagesPartagesSection({
             <li key={v.id}>
               <Link href={v.href} className={`${HOME_LIST_CARD} group`}>
                 <div className={HOME_LIST_MEDIA_BOX}>
-                  <Users className="h-6 w-6 text-[#A55734]" aria-hidden />
+                  <Users className="h-6 w-6 text-[var(--color-accent-end)]" aria-hidden />
                 </div>
                 <div className="min-w-0 flex-1">
                   <p className="font-courier text-base font-bold text-[#2a211c]">
@@ -53,13 +53,13 @@ export default function HomeVoyagesPartagesSection({
                   <p className="font-courier text-[11px] text-[#4a3a32]/65">
                     {v.sousTitre}
                   </p>
-                  <p className="mt-1.5 font-courier text-[10px] font-bold uppercase tracking-wider text-[#A55734]">
+                  <p className="mt-1.5 font-courier text-[10px] font-bold uppercase tracking-wider text-[var(--color-accent-end)]">
                     {v.avec} ·{" "}
                     {v.statut === "invitation" ? "Invitation" : "Co-édition"}
                   </p>
                 </div>
                 <span
-                  className="self-center text-lg font-bold text-[#E07856] transition group-hover:translate-x-0.5"
+                  className="self-center text-lg font-bold text-[var(--color-accent-start)] transition group-hover:translate-x-0.5"
                   aria-hidden
                 >
                   →

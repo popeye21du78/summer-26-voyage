@@ -49,7 +49,7 @@ export default function HomeProfilStatsSection({
   return (
     <section
       id="section-stats"
-      className={`relative bg-gradient-to-b from-[#FFF9F4] to-[#111111] ${SNAP_SECTION}`}
+      className={`relative bg-gradient-to-b from-[#FFF9F4] to-[var(--color-bg-main)] ${SNAP_SECTION}`}
       aria-labelledby="stats-titre"
     >
       <HomeDecorTitle lines={["TON", "ESPACE"]} tone="onLight" />
@@ -66,9 +66,9 @@ export default function HomeProfilStatsSection({
           Démo.
         </p>
 
-        <div className="rounded-2xl border border-[#E07856]/30 bg-white/95 p-5 shadow-md">
+        <div className="rounded-2xl border border-[var(--color-accent-start)]/30 bg-white/95 p-5 shadow-md">
           <div className="mb-4 flex items-center gap-3">
-            <span className="flex h-11 w-11 items-center justify-center rounded-full bg-[#E07856]/15 text-[#E07856]">
+            <span className="flex h-11 w-11 items-center justify-center rounded-full bg-[var(--color-accent-start)]/15 text-[var(--color-accent-start)]">
               <User className="h-5 w-5" />
             </span>
             <div>
@@ -77,18 +77,18 @@ export default function HomeProfilStatsSection({
               </p>
               <Link
                 href="/profil"
-                className="font-courier text-xs font-bold text-[#E07856] underline"
+                className="font-courier text-xs font-bold text-[var(--color-accent-start)] underline"
               >
                 Modifier ma perso →
               </Link>
             </div>
           </div>
-          <dl className="grid grid-cols-3 gap-3 border-t border-[#E07856]/15 pt-4 text-center">
+          <dl className="grid grid-cols-3 gap-3 border-t border-[var(--color-accent-start)]/15 pt-4 text-center">
             <div>
               <dt className="font-courier text-[10px] font-bold uppercase tracking-wider text-[#2a211c]/60">
                 Voyages
               </dt>
-              <dd className="font-courier text-2xl font-bold text-[#E07856]">
+              <dd className="font-courier text-2xl font-bold text-[var(--color-accent-start)]">
                 {voyagesCount}
               </dd>
             </div>
@@ -96,7 +96,7 @@ export default function HomeProfilStatsSection({
               <dt className="font-courier text-[10px] font-bold uppercase tracking-wider text-[#2a211c]/60">
                 km (carnets clos)
               </dt>
-              <dd className="font-courier text-2xl font-bold text-[#E07856]">
+              <dd className="font-courier text-2xl font-bold text-[var(--color-accent-start)]">
                 {km > 0 ? km : "—"}
               </dd>
             </div>
@@ -104,7 +104,7 @@ export default function HomeProfilStatsSection({
               <dt className="font-courier text-[10px] font-bold uppercase tracking-wider text-[#2a211c]/60">
                 Budget ref.
               </dt>
-              <dd className="font-courier text-2xl font-bold text-[#E07856]">
+              <dd className="font-courier text-2xl font-bold text-[var(--color-accent-start)]">
                 {budget > 0 ? `${budget} €` : "—"}
               </dd>
             </div>

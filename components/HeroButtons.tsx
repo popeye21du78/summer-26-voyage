@@ -16,19 +16,19 @@ export default function HeroButtons() {
       <button
         type="button"
         onClick={scrollToMap}
-        className="btn-primary bg-[#A55734] px-6 py-3 text-sm font-normal text-white transition-all hover:bg-[#8b4728]"
+        className="btn-primary bg-[var(--color-accent-end)] px-6 py-3 text-sm font-normal text-white transition-all hover:bg-[var(--color-accent-deep)]"
       >
         Voir le trajet
       </button>
       <Link
         href="/book"
-        className="btn-secondary rounded-full border-2 border-[#A55734] bg-transparent px-6 py-3 text-sm font-normal text-[#A55734] transition-all hover:bg-[#A55734]/10"
+        className="btn-secondary rounded-full border-2 border-[var(--color-accent-end)] bg-transparent px-6 py-3 text-sm font-normal text-[var(--color-accent-end)] transition-all hover:bg-[var(--color-accent-end)]/10"
       >
         Voir le Book
       </Link>
       <Link
         href="/login"
-        className="btn-secondary rounded-full border-2 border-[#A55734]/60 bg-transparent px-6 py-3 text-sm font-normal text-[#333333] transition-all hover:bg-[#A55734]/10"
+        className="btn-secondary rounded-full border-2 border-[var(--color-accent-end)]/60 bg-transparent px-6 py-3 text-sm font-normal text-[#333333] transition-all hover:bg-[var(--color-accent-end)]/10"
       >
         Se connecter
       </Link>

@@ -36,7 +36,7 @@ export default function EspaceHeader({
   }
 
   return (
-    <section className="relative overflow-hidden bg-gradient-to-b from-[#2a1810] to-[#3d2618] px-5 pb-6 pt-[calc(env(safe-area-inset-top,0px)+1.5rem)]">
+    <section className="relative overflow-hidden bg-gradient-to-b from-[var(--color-bg-main)] to-[#3d2618] px-5 pb-6 pt-[calc(env(safe-area-inset-top,0px)+1.5rem)]">
       <div className="absolute inset-0 opacity-[0.04]">
         <div className="h-full w-full bg-[url('data:image/svg+xml,%3Csvg%20viewBox=%270%200%20256%20256%27%20xmlns=%27http://www.w3.org/2000/svg%27%3E%3Cfilter%20id=%27n%27%3E%3CfeTurbulence%20type=%27fractalNoise%27%20baseFrequency=%270.9%27%20numOctaves=%274%27%20stitchTiles=%27stitch%27/%3E%3C/filter%3E%3Crect%20width=%27100%25%27%20height=%27100%25%27%20filter=%27url(%23n)%27/%3E%3C/svg%3E')]" />
       </div>
@@ -44,7 +44,7 @@ export default function EspaceHeader({
       <div className="relative z-10">
         {/* Top row */}
         <div className="mb-6 flex items-center justify-between">
-          <p className="font-courier text-[10px] font-bold uppercase tracking-[0.45em] text-[#E07856]">
+          <p className="font-courier text-[10px] font-bold uppercase tracking-[0.45em] text-[var(--color-accent-start)]">
             Mon espace
           </p>
           <button
@@ -58,7 +58,7 @@ export default function EspaceHeader({
 
         {/* Avatar + identity */}
         <div className="flex items-center gap-4">
-          <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[#E07856] to-[#c94a4a] shadow-lg">
+          <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[var(--color-accent-start)] to-[var(--color-accent-end)] shadow-lg">
             <User className="h-7 w-7 text-white" />
           </div>
           <div className="min-w-0 flex-1">
@@ -74,7 +74,7 @@ export default function EspaceHeader({
         {/* Quick stats */}
         <dl className="mt-5 grid grid-cols-3 gap-3 text-center">
           <div>
-            <dd className="font-courier text-xl font-bold text-[#E07856]">
+            <dd className="font-courier text-xl font-bold text-[var(--color-accent-start)]">
               {voyageCount}
             </dd>
             <dt className="font-courier text-[9px] font-bold uppercase tracking-wider text-white/40">
@@ -82,7 +82,7 @@ export default function EspaceHeader({
             </dt>
           </div>
           <div>
-            <dd className="font-courier text-xl font-bold text-[#E07856]">
+            <dd className="font-courier text-xl font-bold text-[var(--color-accent-start)]">
               {state?.voyagesTermines?.reduce((a, v) => a + (v.stats?.km ?? 0), 0) || "—"}
             </dd>
             <dt className="font-courier text-[9px] font-bold uppercase tracking-wider text-white/40">
@@ -90,7 +90,7 @@ export default function EspaceHeader({
             </dt>
           </div>
           <div>
-            <dd className="font-courier text-xl font-bold text-[#E07856]">
+            <dd className="font-courier text-xl font-bold text-[var(--color-accent-start)]">
               {state?.voyagesTermines?.reduce((a, v) => a + (v.stats?.budget ?? 0), 0) || "—"}
             </dd>
             <dt className="font-courier text-[9px] font-bold uppercase tracking-wider text-white/40">
@@ -119,8 +119,8 @@ export default function EspaceHeader({
         </div>
 
         {showPublic && (
-          <div className="mt-4 rounded-xl border border-[#E07856]/20 bg-white/10 p-4 backdrop-blur-sm">
-            <p className="font-courier text-xs font-bold text-[#E07856]">
+          <div className="mt-4 rounded-xl border border-[var(--color-accent-start)]/20 bg-white/10 p-4 backdrop-blur-sm">
+            <p className="font-courier text-xs font-bold text-[var(--color-accent-start)]">
               Aperçu public
             </p>
             <p className="mt-2 font-courier text-xs text-white/60">

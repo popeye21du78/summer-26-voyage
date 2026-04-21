@@ -66,7 +66,7 @@ export default function EspaceVoyages({ state }: Props) {
             onClick={() => setTab(t.id)}
             className={`min-h-[44px] flex-1 rounded-xl px-2 py-2.5 font-courier text-xs font-bold uppercase tracking-wide transition sm:text-sm ${
               tab === t.id
-                ? "bg-[#E07856] text-white shadow-md"
+                ? "bg-[var(--color-accent-start)] text-white shadow-md"
                 : "border border-white/12 bg-white/5 text-white/45 hover:border-white/20 hover:text-white/70"
             }`}
           >
@@ -140,9 +140,9 @@ function VoyageCard({
   return (
     <Link
       href={href}
-      className="flex min-h-[88px] items-stretch gap-4 overflow-hidden rounded-2xl border border-white/6 bg-white/3 p-1 transition hover:border-[#E07856]/25 hover:bg-white/5"
+      className="flex min-h-[88px] items-stretch gap-4 overflow-hidden rounded-2xl border border-white/6 bg-white/3 p-1 transition hover:border-[var(--color-accent-start)]/25 hover:bg-white/5"
     >
-      <div className="relative h-[100px] w-24 shrink-0 overflow-hidden rounded-l-xl bg-[#1a1a1a] sm:w-28">
+      <div className="relative h-[100px] w-24 shrink-0 overflow-hidden rounded-l-xl bg-[var(--color-bg-secondary)] sm:w-28">
         {voyage.steps[0] ? (
           <CityPhoto
             stepId={voyage.steps[0].id}
@@ -158,7 +158,7 @@ function VoyageCard({
           {voyage.titre}
         </p>
         <p className="mt-1 font-courier text-sm text-white/40">{voyage.sousTitre}</p>
-        <span className="mt-2 inline-flex w-fit items-center gap-1.5 font-courier text-xs font-bold uppercase tracking-wider text-[#E07856]">
+        <span className="mt-2 inline-flex w-fit items-center gap-1.5 font-courier text-xs font-bold uppercase tracking-wider text-[var(--color-accent-start)]">
           <ActionIcon className="h-4 w-4" />
           {actionLabel}
         </span>
@@ -172,9 +172,9 @@ function CreatedVoyageCard({ voyage }: { voyage: CreatedVoyage }) {
   return (
     <Link
       href={`/mon-espace/voyage/${voyage.id}`}
-      className="flex min-h-[88px] items-stretch gap-4 overflow-hidden rounded-2xl border border-[#E07856]/15 bg-[#E07856]/5 p-1 transition hover:border-[#E07856]/30"
+      className="flex min-h-[88px] items-stretch gap-4 overflow-hidden rounded-2xl border border-[var(--color-accent-start)]/15 bg-[var(--color-accent-start)]/5 p-1 transition hover:border-[var(--color-accent-start)]/30"
     >
-      <div className="relative h-[100px] w-24 shrink-0 overflow-hidden rounded-l-xl bg-[#E07856]/20 sm:w-28">
+      <div className="relative h-[100px] w-24 shrink-0 overflow-hidden rounded-l-xl bg-[var(--color-accent-start)]/20 sm:w-28">
         {first ? (
           <CityPhoto
             stepId={first.id}
@@ -185,7 +185,7 @@ function CreatedVoyageCard({ voyage }: { voyage: CreatedVoyage }) {
           />
         ) : (
           <div className="flex h-full items-center justify-center">
-            <Calendar className="h-8 w-8 text-[#E07856]" strokeWidth={1.8} />
+            <Calendar className="h-8 w-8 text-[var(--color-accent-start)]" strokeWidth={1.8} />
           </div>
         )}
       </div>

@@ -202,7 +202,7 @@ export default function MaintenancePhotosTab() {
         (retour sur la dernière ville validée ou consultée). Fichier :{" "}
         <code className="rounded bg-[#FFF2EB] px-1 text-xs">data/maintenance/photo-validations.json</code>.
       </p>
-      <p className="rounded-lg border border-[#A55734]/15 bg-[#FFF8F0]/90 p-3 text-xs leading-relaxed text-[#333]/85">
+      <p className="rounded-lg border border-[var(--color-accent-end)]/15 bg-[#FFF8F0]/90 p-3 text-xs leading-relaxed text-[#333]/85">
         <strong>Quota Commons (réaliste)</strong> : chaque fois que tu charges des candidats ou que tu cliques sur « afficher
         d’autres », le serveur fait <strong>une</strong> requête vers <code className="rounded bg-white px-0.5">api.php</code>{" "}
         (jusqu’à 50 résultats triés côté serveur). Afficher <strong>5</strong> vignettes au lieu de 3 ne change pas ce nombre :
@@ -212,13 +212,13 @@ export default function MaintenancePhotosTab() {
         des milliers d’actions par heure, il faudrait ralentir ou demander un compte bot.
       </p>
 
-      <div className="flex flex-wrap items-end gap-3 rounded-lg border border-[#A55734]/20 bg-white p-3">
+      <div className="flex flex-wrap items-end gap-3 rounded-lg border border-[var(--color-accent-end)]/20 bg-white p-3">
         <label className="text-xs font-medium text-[#333]">
           Lieu ({index + 1} / {items.length})
           <select
             value={index}
             onChange={(e) => setIndex(Number(e.target.value))}
-            className="mt-1 block w-full min-w-[220px] rounded border border-[#A55734]/30 px-2 py-1.5 text-sm"
+            className="mt-1 block w-full min-w-[220px] rounded border border-[var(--color-accent-end)]/30 px-2 py-1.5 text-sm"
           >
             {items.map((it, i) => (
               <option key={it.slug} value={i}>
@@ -237,7 +237,7 @@ export default function MaintenancePhotosTab() {
           <select
             value={minWidth}
             onChange={(e) => setMinWidth(Number(e.target.value))}
-            className="mt-1 block rounded border border-[#A55734]/30 px-2 py-1.5 text-sm"
+            className="mt-1 block rounded border border-[var(--color-accent-end)]/30 px-2 py-1.5 text-sm"
           >
             <option value={400}>400 (souple)</option>
             <option value={800}>800 (défaut)</option>
@@ -249,7 +249,7 @@ export default function MaintenancePhotosTab() {
             type="button"
             disabled={index <= 0}
             onClick={() => setIndex((i) => Math.max(0, i - 1))}
-            className="rounded border border-[#A55734]/30 px-3 py-1.5 text-sm disabled:opacity-40"
+            className="rounded border border-[var(--color-accent-end)]/30 px-3 py-1.5 text-sm disabled:opacity-40"
           >
             ← Précédent
           </button>
@@ -257,7 +257,7 @@ export default function MaintenancePhotosTab() {
             type="button"
             disabled={index >= items.length - 1}
             onClick={() => setIndex((i) => Math.min(items.length - 1, i + 1))}
-            className="rounded border border-[#A55734]/30 px-3 py-1.5 text-sm disabled:opacity-40"
+            className="rounded border border-[var(--color-accent-end)]/30 px-3 py-1.5 text-sm disabled:opacity-40"
           >
             Suivant →
           </button>
@@ -265,9 +265,9 @@ export default function MaintenancePhotosTab() {
       </div>
 
       {current && (
-        <div className="rounded-lg border border-[#E07856]/25 bg-[#FFF8F0]/80 px-3 py-2 text-xs text-[#333]">
+        <div className="rounded-lg border border-[var(--color-accent-start)]/25 bg-[#FFF8F0]/80 px-3 py-2 text-xs text-[#333]">
           <strong>{current.nom}</strong> · {current.departement} · {current.categorie_taille} · esth.{" "}
-          {current.score_esthetique} · <span className="text-[#A55734]">{current.raison}</span>
+          {current.score_esthetique} · <span className="text-[var(--color-accent-end)]">{current.raison}</span>
           {(current.validatedPhotoCount ?? 0) > 0 && (
             <span className="ml-2 font-medium text-green-800">
               · {current.validatedPhotoCount} photo(s) déjà validée(s)
@@ -299,7 +299,7 @@ export default function MaintenancePhotosTab() {
                   <div
                     key={p.url}
                     className={`flex flex-col overflow-hidden rounded-xl border bg-white shadow-sm ${
-                      already ? "border-green-600/40 ring-1 ring-green-600/20" : "border-[#A55734]/20"
+                      already ? "border-green-600/40 ring-1 ring-green-600/20" : "border-[var(--color-accent-end)]/20"
                     }`}
                   >
                     {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -313,7 +313,7 @@ export default function MaintenancePhotosTab() {
                         href={p.sourceUrl}
                         target="_blank"
                         rel="noreferrer"
-                        className="text-[#A55734] underline"
+                        className="text-[var(--color-accent-end)] underline"
                       >
                         Commons
                       </a>
@@ -330,7 +330,7 @@ export default function MaintenancePhotosTab() {
                       <button
                         type="button"
                         onClick={() => void postValidation("validate", p)}
-                        className="mt-auto bg-[#E07856] py-2 text-xs font-bold text-white hover:opacity-95"
+                        className="mt-auto bg-[var(--color-accent-start)] py-2 text-xs font-bold text-white hover:opacity-95"
                       >
                         Valider
                       </button>
@@ -341,7 +341,7 @@ export default function MaintenancePhotosTab() {
             </div>
           )}
 
-          <div className="flex flex-wrap gap-2 border-t border-[#A55734]/15 pt-4">
+          <div className="flex flex-wrap gap-2 border-t border-[var(--color-accent-end)]/15 pt-4">
             <button
               type="button"
               disabled={!data.hasMore}

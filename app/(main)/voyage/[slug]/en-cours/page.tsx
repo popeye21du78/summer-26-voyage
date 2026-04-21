@@ -66,7 +66,7 @@ export default function VoyageEnCoursPage() {
         <p className="font-courier text-[#333333]/80">Voyage introuvable.</p>
         <Link
           href="/accueil"
-          className="font-courier font-bold text-[#E07856] underline transition hover:no-underline"
+          className="font-courier font-bold text-[var(--color-accent-start)] underline transition hover:no-underline"
         >
           Retour à l&apos;accueil
         </Link>
@@ -115,9 +115,9 @@ export default function VoyageEnCoursPage() {
                 <li key={s.id}>
                   <Link
                     href={`/ville/${s.id}`}
-                    className="group flex items-center gap-4 overflow-hidden rounded-xl border border-[#E07856]/15 bg-white p-0 shadow-sm transition-all hover:border-[#E07856]/40 hover:shadow-lg"
+                    className="group flex items-center gap-4 overflow-hidden rounded-xl border border-[var(--color-accent-start)]/15 bg-white p-0 shadow-sm transition-all hover:border-[var(--color-accent-start)]/40 hover:shadow-lg"
                   >
-                    <span className="flex h-16 w-16 shrink-0 items-center justify-center rounded-l-xl bg-gradient-to-br from-[#E07856] to-[#D4635B] font-courier text-lg font-bold text-white">
+                    <span className="flex h-16 w-16 shrink-0 items-center justify-center rounded-l-xl bg-gradient-to-br from-[var(--color-accent-start)] to-[var(--color-accent-mid)] font-courier text-lg font-bold text-white">
                       {i + 1}
                     </span>
                     <div className="min-w-0 flex-1 py-3">
@@ -126,7 +126,7 @@ export default function VoyageEnCoursPage() {
                         {s.dureeConseillee ?? "2-3 h"}
                       </p>
                     </div>
-                    <span className="mr-4 font-courier text-sm font-bold text-[#E07856] transition group-hover:translate-x-1">
+                    <span className="mr-4 font-courier text-sm font-bold text-[var(--color-accent-start)] transition group-hover:translate-x-1">
                       Voir →
                     </span>
                   </Link>
@@ -137,7 +137,7 @@ export default function VoyageEnCoursPage() {
             <button
               type="button"
               onClick={handleSortirDuVoyage}
-              className="btn-terracotta flex w-full items-center justify-center gap-2 rounded-[50px] border-2 border-[#E07856] bg-gradient-to-r from-[#E07856] to-[#D4635B] px-6 py-4 font-courier font-bold text-white shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-[#E07856]/50"
+              className="btn-terracotta flex w-full items-center justify-center gap-2 rounded-[50px] border-2 border-[var(--color-accent-start)] bg-gradient-to-r from-[var(--color-accent-start)] to-[var(--color-accent-mid)] px-6 py-4 font-courier font-bold text-white shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-[var(--color-accent-start)]/50"
             >
               <LogOut className="h-5 w-5" />
               Sortir du voyage
@@ -148,7 +148,7 @@ export default function VoyageEnCoursPage() {
 
       <section
         ref={restRef}
-        className={`border-t border-[#E07856]/10 px-4 py-10 ${
+        className={`border-t border-[var(--color-accent-start)]/10 px-4 py-10 ${
           isFirstConnexion && stepsDuJour.length > 0 ? "" : "pt-6"
         }`}
         id="ce-qui-reste"
@@ -162,7 +162,7 @@ export default function VoyageEnCoursPage() {
                   behavior: "smooth",
                 })
               }
-              className="mb-6 flex w-full items-center justify-center gap-2 font-courier font-bold text-[#E07856]"
+              className="mb-6 flex w-full items-center justify-center gap-2 font-courier font-bold text-[var(--color-accent-start)]"
             >
               <ChevronDown className="h-5 w-5" />
               Voir ce qui reste du voyage
@@ -187,7 +187,7 @@ export default function VoyageEnCoursPage() {
                 <li key={s.id}>
                   <Link
                     href={`/ville/${s.id}`}
-                    className="group flex items-center gap-3 overflow-hidden rounded-xl border border-[#E07856]/15 bg-white/80 p-2 transition-all hover:border-[#E07856]/40 hover:shadow-md"
+                    className="group flex items-center gap-3 overflow-hidden rounded-xl border border-[var(--color-accent-start)]/15 bg-white/80 p-2 transition-all hover:border-[var(--color-accent-start)]/40 hover:shadow-md"
                   >
                     <StepLieuThumb
                       stepId={s.id}
@@ -201,7 +201,7 @@ export default function VoyageEnCoursPage() {
                         {s.date_prevue}
                       </span>
                     </div>
-                    <MapPin className="h-4 w-4 shrink-0 text-[#E07856]/60 transition group-hover:text-[#E07856]" />
+                    <MapPin className="h-4 w-4 shrink-0 text-[var(--color-accent-start)]/60 transition group-hover:text-[var(--color-accent-start)]" />
                   </Link>
                 </li>
               );
@@ -211,8 +211,8 @@ export default function VoyageEnCoursPage() {
           {voyage.stats && (
             <div className="mb-8 grid grid-cols-3 gap-4">
               {voyage.stats.km != null && (
-                <div className="rounded-xl border border-[#E07856]/20 bg-white/60 p-4 text-center">
-                  <Route className="mx-auto mb-1 h-5 w-5 text-[#E07856]" />
+                <div className="rounded-xl border border-[var(--color-accent-start)]/20 bg-white/60 p-4 text-center">
+                  <Route className="mx-auto mb-1 h-5 w-5 text-[var(--color-accent-start)]" />
                   <p className="text-2xl font-light text-[#333333]">
                     {voyage.stats.km}
                   </p>
@@ -220,8 +220,8 @@ export default function VoyageEnCoursPage() {
                 </div>
               )}
               {voyage.stats.essence != null && (
-                <div className="rounded-xl border border-[#E07856]/20 bg-white/60 p-4 text-center">
-                  <Fuel className="mx-auto mb-1 h-5 w-5 text-[#E07856]" />
+                <div className="rounded-xl border border-[var(--color-accent-start)]/20 bg-white/60 p-4 text-center">
+                  <Fuel className="mx-auto mb-1 h-5 w-5 text-[var(--color-accent-start)]" />
                   <p className="text-2xl font-light text-[#333333]">
                     {voyage.stats.essence}
                   </p>
@@ -229,7 +229,7 @@ export default function VoyageEnCoursPage() {
                 </div>
               )}
               {voyage.stats.budget != null && (
-                <div className="rounded-xl border border-[#E07856]/20 bg-white/60 p-4 text-center">
+                <div className="rounded-xl border border-[var(--color-accent-start)]/20 bg-white/60 p-4 text-center">
                   <p className="mx-auto mb-1 text-lg">💰</p>
                   <p className="text-2xl font-light text-[#333333]">
                     {voyage.stats.budget}
@@ -243,13 +243,13 @@ export default function VoyageEnCoursPage() {
           <div className="flex flex-wrap gap-3">
             <Link
               href={`/viago/${voyage.id}?from=en-cours`}
-              className="btn-terracotta rounded-[50px] border-2 border-[#E07856] bg-gradient-to-r from-[#E07856] to-[#D4635B] px-4 py-2 font-courier font-bold text-white shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-[#E07856]/50"
+              className="btn-terracotta rounded-[50px] border-2 border-[var(--color-accent-start)] bg-gradient-to-r from-[var(--color-accent-start)] to-[var(--color-accent-mid)] px-4 py-2 font-courier font-bold text-white shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-[var(--color-accent-start)]/50"
             >
               Voir le Viago
             </Link>
             <Link
               href="/accueil"
-              className="rounded-[50px] border-2 border-[#E07856]/40 px-4 py-2 font-courier font-bold text-[#E07856] transition-all duration-300 hover:scale-105 hover:bg-white/80"
+              className="rounded-[50px] border-2 border-[var(--color-accent-start)]/40 px-4 py-2 font-courier font-bold text-[var(--color-accent-start)] transition-all duration-300 hover:scale-105 hover:bg-white/80"
             >
               Retour à l&apos;accueil
             </Link>

@@ -34,7 +34,7 @@ export default function VoyageMapView({ steps, mapboxToken }: Props) {
 
   if (!mapboxToken) {
     return (
-      <div className="flex h-full items-center justify-center bg-[#1a120d]">
+      <div className="flex h-full items-center justify-center bg-[var(--color-bg-gradient-end)]">
         <p className="font-courier text-xs text-white/30">Carte indisponible</p>
       </div>
     );
@@ -71,7 +71,7 @@ export default function VoyageMapView({ steps, mapboxToken }: Props) {
             id="route-line"
             type="line"
             paint={{
-              "line-color": "#E07856",
+              "line-color": "var(--color-accent-start)",
               "line-width": 3,
               "line-opacity": 0.7,
             }}
@@ -80,7 +80,7 @@ export default function VoyageMapView({ steps, mapboxToken }: Props) {
       )}
       {steps.map((s, i) => (
         <Marker key={s.id} longitude={s.lng} latitude={s.lat} anchor="center">
-          <div className="flex h-7 w-7 items-center justify-center rounded-full border-2 border-white bg-[#E07856] font-courier text-[10px] font-bold text-white shadow-lg">
+          <div className="flex h-7 w-7 items-center justify-center rounded-full border-2 border-white bg-[var(--color-accent-start)] font-courier text-[10px] font-bold text-white shadow-lg">
             {i + 1}
           </div>
         </Marker>

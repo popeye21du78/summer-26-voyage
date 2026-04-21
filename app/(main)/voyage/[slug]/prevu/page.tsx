@@ -76,7 +76,7 @@ function VoyagePrevuInner() {
         <p className="font-courier text-[#333333]/80">Voyage introuvable.</p>
         <Link
           href="/accueil"
-          className="font-courier font-bold text-[#E07856] underline transition hover:no-underline"
+          className="font-courier font-bold text-[var(--color-accent-start)] underline transition hover:no-underline"
         >
           Retour à l&apos;accueil
         </Link>
@@ -91,14 +91,14 @@ function VoyagePrevuInner() {
       <main className="page-under-header flex min-h-[calc(100dvh-4rem)] flex-col items-center justify-center px-4">
         <div className="mx-auto max-w-2xl text-center">
           <div className="mb-8 flex justify-center">
-            <div className="flex h-24 w-24 items-center justify-center rounded-full bg-gradient-to-br from-[#E07856] to-[#D4635B] text-4xl text-white">
+            <div className="flex h-24 w-24 items-center justify-center rounded-full bg-gradient-to-br from-[var(--color-accent-start)] to-[var(--color-accent-mid)] text-4xl text-white">
               <User className="h-12 w-12" />
             </div>
           </div>
           <h1 className="mb-2 font-courier text-2xl font-bold tracking-wider text-[#333333] md:text-3xl">
             Voyage de {ownerName}
           </h1>
-          <p className="mb-6 font-courier text-lg font-bold text-[#E07856]">
+          <p className="mb-6 font-courier text-lg font-bold text-[var(--color-accent-start)]">
             {voyage.titre}
           </p>
           <p className="mb-8 font-courier text-[#333333]/80">
@@ -108,7 +108,7 @@ function VoyagePrevuInner() {
           <button
             type="button"
             onClick={() => setShowDetails(true)}
-            className="btn-terracotta inline-flex items-center gap-2 rounded-[50px] border-2 border-[#E07856] bg-gradient-to-r from-[#E07856] to-[#D4635B] px-8 py-4 font-courier font-bold text-white shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-[#E07856]/50"
+            className="btn-terracotta inline-flex items-center gap-2 rounded-[50px] border-2 border-[var(--color-accent-start)] bg-gradient-to-r from-[var(--color-accent-start)] to-[var(--color-accent-mid)] px-8 py-4 font-courier font-bold text-white shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-[var(--color-accent-start)]/50"
           >
             Voir le voyage
             <ChevronDown className="h-5 w-5" />
@@ -145,7 +145,7 @@ function VoyagePrevuInner() {
       <div className="flex min-h-0 min-w-0 flex-1 flex-col">
         <section className="relative min-h-0 flex-1 overflow-y-auto overscroll-contain [-webkit-overflow-scrolling:touch] md:mx-auto md:max-w-2xl">
         {/* Titre persistant + bandeau qui fond le contenu qui remonte sous la carte */}
-        <div className="sticky top-0 z-30 border-b border-[#E07856]/10 bg-[#FAF4F0] shadow-sm">
+        <div className="sticky top-0 z-30 border-b border-[var(--color-accent-start)]/10 bg-[#FAF4F0] shadow-sm">
           <div className="px-4 pb-3 pt-2 md:px-4">
             <h1 className="font-courier text-lg font-bold leading-tight text-[#333333] md:text-xl">
               {voyage.titre}
@@ -160,8 +160,8 @@ function VoyagePrevuInner() {
 
         <div className="relative z-0 px-4 pb-2 pt-1 md:px-4">
         {!isOwner && ownerName && (
-          <div className="mb-2 flex items-center gap-2 rounded-lg border border-[#E07856]/20 bg-white/70 px-2.5 py-1.5 text-[11px] text-[#333333] md:text-xs">
-            <User className="h-3.5 w-3.5 shrink-0 text-[#E07856]" />
+          <div className="mb-2 flex items-center gap-2 rounded-lg border border-[var(--color-accent-start)]/20 bg-white/70 px-2.5 py-1.5 text-[11px] text-[#333333] md:text-xs">
+            <User className="h-3.5 w-3.5 shrink-0 text-[var(--color-accent-start)]" />
             <span>
               Voyage de <strong>{ownerName}</strong> — lecture seule
             </span>
@@ -177,12 +177,12 @@ function VoyagePrevuInner() {
                 ? "Passage"
                 : "Van";
           const villeHref = `/ville/${s.id}?v=${encodeURIComponent(slug)}`;
-          const rowClass = `group flex min-h-[52px] items-center gap-2 overflow-hidden rounded-lg border border-[#E07856]/15 bg-white/90 pr-2 shadow-sm ${
-            isOwner ? "transition-all hover:border-[#E07856]/40 hover:shadow-md" : "cursor-default"
+          const rowClass = `group flex min-h-[52px] items-center gap-2 overflow-hidden rounded-lg border border-[var(--color-accent-start)]/15 bg-white/90 pr-2 shadow-sm ${
+            isOwner ? "transition-all hover:border-[var(--color-accent-start)]/40 hover:shadow-md" : "cursor-default"
           }`;
           const inner = (
             <>
-              <div className="flex w-8 shrink-0 flex-col items-center justify-center border-r border-[#E07856]/15 bg-[#FFF2EB]/80 py-1 text-[10px] font-black text-[#A55734]">
+              <div className="flex w-8 shrink-0 flex-col items-center justify-center border-r border-[var(--color-accent-start)]/15 bg-[#FFF2EB]/80 py-1 text-[10px] font-black text-[var(--color-accent-end)]">
                 {i + 1}
               </div>
               <StepLieuThumb
@@ -200,7 +200,7 @@ function VoyagePrevuInner() {
                 </p>
               </div>
               {isOwner && (
-                <MapPin className="mr-1 h-4 w-4 shrink-0 text-[#E07856]/60 transition group-hover:text-[#E07856]" aria-hidden />
+                <MapPin className="mr-1 h-4 w-4 shrink-0 text-[var(--color-accent-start)]/60 transition group-hover:text-[var(--color-accent-start)]" aria-hidden />
               )}
             </>
           );
@@ -222,7 +222,7 @@ function VoyagePrevuInner() {
         </section>
 
         <nav
-          className="flex shrink-0 items-center justify-between gap-2 border-t border-[#E07856]/20 bg-[#FAF4F0]/98 px-3 py-1.5 text-[10px] text-[#333333] shadow-[0_-4px_16px_rgba(80,40,20,0.06)] backdrop-blur-sm md:mx-auto md:max-w-2xl md:px-4"
+          className="flex shrink-0 items-center justify-between gap-2 border-t border-[var(--color-accent-start)]/20 bg-[#FAF4F0]/98 px-3 py-1.5 text-[10px] text-[#333333] shadow-[0_-4px_16px_rgba(80,40,20,0.06)] backdrop-blur-sm md:mx-auto md:max-w-2xl md:px-4"
           aria-label="Actions voyage"
         >
           <div className="flex min-w-0 flex-1 flex-wrap items-center gap-x-3 gap-y-0.5">
@@ -230,13 +230,13 @@ function VoyagePrevuInner() {
               <>
                 {voyage.stats.km != null && (
                   <span className="inline-flex items-center gap-0.5 font-courier font-bold">
-                    <Route className="h-3 w-3 text-[#E07856]" aria-hidden />
+                    <Route className="h-3 w-3 text-[var(--color-accent-start)]" aria-hidden />
                     {voyage.stats.km} km
                   </span>
                 )}
                 {voyage.stats.essence != null && (
                   <span className="inline-flex items-center gap-0.5 font-courier font-bold">
-                    <Fuel className="h-3 w-3 text-[#E07856]" aria-hidden />
+                    <Fuel className="h-3 w-3 text-[var(--color-accent-start)]" aria-hidden />
                     {voyage.stats.essence} €
                   </span>
                 )}
@@ -252,9 +252,9 @@ function VoyagePrevuInner() {
           <div className="flex shrink-0 items-center gap-1.5 sm:gap-2">
             <Link
               href={`/voyage/${slug}/termine#voyage-stats`}
-              className="inline-flex items-center gap-1 rounded-full border border-[#E07856]/40 bg-white/90 px-2.5 py-1 font-courier text-[10px] font-bold text-[#A55734] shadow-sm transition hover:bg-[#FFF8F0] sm:px-3"
+              className="inline-flex items-center gap-1 rounded-full border border-[var(--color-accent-start)]/40 bg-white/90 px-2.5 py-1 font-courier text-[10px] font-bold text-[var(--color-accent-end)] shadow-sm transition hover:bg-[#FFF8F0] sm:px-3"
             >
-              <BarChart3 className="h-3 w-3 shrink-0 text-[#E07856]" aria-hidden />
+              <BarChart3 className="h-3 w-3 shrink-0 text-[var(--color-accent-start)]" aria-hidden />
               Stats
             </Link>
             <Link
@@ -263,13 +263,13 @@ function VoyagePrevuInner() {
                   ? `/viago/${voyage.id}?from=prevu`
                   : `/viago/${voyage.id}?mode=readonly&from=prevu`
               }
-              className="rounded-full bg-gradient-to-r from-[#E07856] to-[#D4635B] px-3 py-1 font-courier text-[10px] font-bold text-white shadow-sm transition hover:opacity-95"
+              className="rounded-full bg-gradient-to-r from-[var(--color-accent-start)] to-[var(--color-accent-mid)] px-3 py-1 font-courier text-[10px] font-bold text-white shadow-sm transition hover:opacity-95"
             >
               Viago
             </Link>
             <Link
               href="/accueil"
-              className="rounded-full border border-[#E07856]/35 px-3 py-1 font-courier text-[10px] font-bold text-[#A55734] transition hover:bg-white/70"
+              className="rounded-full border border-[var(--color-accent-start)]/35 px-3 py-1 font-courier text-[10px] font-bold text-[var(--color-accent-end)] transition hover:bg-white/70"
             >
               Menu
             </Link>

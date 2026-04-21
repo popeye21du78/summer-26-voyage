@@ -40,7 +40,7 @@ export default function VoyageTerminePage() {
         <p className="font-courier text-[#333333]/80">Voyage introuvable.</p>
         <Link
           href="/accueil"
-          className="font-courier font-bold text-[#E07856] underline transition hover:no-underline"
+          className="font-courier font-bold text-[var(--color-accent-start)] underline transition hover:no-underline"
         >
           Retour à l&apos;accueil
         </Link>
@@ -55,7 +55,7 @@ export default function VoyageTerminePage() {
     >
       <Link
         href="/accueil"
-        className="mb-6 inline-flex font-courier text-sm font-bold text-[#E07856] transition-all duration-300 hover:scale-105 hover:underline"
+        className="mb-6 inline-flex font-courier text-sm font-bold text-[var(--color-accent-start)] transition-all duration-300 hover:scale-105 hover:underline"
       >
         ← Retour à l&apos;accueil
       </Link>
@@ -68,7 +68,7 @@ export default function VoyageTerminePage() {
       <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
         <Link
           href={`/viago/${voyage.id}?from=termine`}
-          className="btn-terracotta flex items-center gap-3 rounded-[50px] border-2 border-[#E07856] bg-gradient-to-r from-[#E07856] to-[#D4635B] px-6 py-4 font-courier font-bold text-white shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-[#E07856]/50"
+          className="btn-terracotta flex items-center gap-3 rounded-[50px] border-2 border-[var(--color-accent-start)] bg-gradient-to-r from-[var(--color-accent-start)] to-[var(--color-accent-mid)] px-6 py-4 font-courier font-bold text-white shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-[var(--color-accent-start)]/50"
         >
           <BookOpen className="h-6 w-6" />
           Revivre le voyage (Viago)
@@ -76,7 +76,7 @@ export default function VoyageTerminePage() {
         {isOwner && (
           <Link
             href={`/voyage/${slug}/prevu?edit=1`}
-            className="btn-terracotta flex items-center gap-3 rounded-[50px] border-2 border-[#E07856]/40 bg-white px-6 py-4 font-courier font-bold text-[#E07856] transition-all duration-300 hover:scale-105 hover:bg-white/80"
+            className="btn-terracotta flex items-center gap-3 rounded-[50px] border-2 border-[var(--color-accent-start)]/40 bg-white px-6 py-4 font-courier font-bold text-[var(--color-accent-start)] transition-all duration-300 hover:scale-105 hover:bg-white/80"
           >
             <Edit3 className="h-5 w-5" />
             Modifier l&apos;itinéraire
@@ -84,7 +84,7 @@ export default function VoyageTerminePage() {
         )}
         <button
           type="button"
-          className="flex items-center gap-3 rounded-[50px] border-2 border-[#E07856]/40 bg-white px-6 py-4 font-courier font-bold text-[#E07856] transition-all duration-300 hover:scale-105 hover:bg-white/80"
+          className="flex items-center gap-3 rounded-[50px] border-2 border-[var(--color-accent-start)]/40 bg-white px-6 py-4 font-courier font-bold text-[var(--color-accent-start)] transition-all duration-300 hover:scale-105 hover:bg-white/80"
         >
           <Share2 className="h-5 w-5" />
           Partager (Instagram)
@@ -92,14 +92,14 @@ export default function VoyageTerminePage() {
       </div>
 
       {voyage.stats && (
-        <div className="mt-8 rounded-xl border border-[#E07856]/20 bg-white/60 p-6">
+        <div className="mt-8 rounded-xl border border-[var(--color-accent-start)]/20 bg-white/60 p-6">
           <h3 className="mb-4 font-courier text-base font-bold text-[#333333]">
             Récapitulatif
           </h3>
           <div className="flex flex-wrap gap-6 font-courier">
             {voyage.stats.km != null && (
               <p>
-                <span className="text-2xl font-bold text-[#E07856]">
+                <span className="text-2xl font-bold text-[var(--color-accent-start)]">
                   {voyage.stats.km}
                 </span>{" "}
                 <span className="text-sm text-[#333333]/70">km</span>
@@ -107,7 +107,7 @@ export default function VoyageTerminePage() {
             )}
             {voyage.stats.essence != null && (
               <p>
-                <span className="text-2xl font-bold text-[#E07856]">
+                <span className="text-2xl font-bold text-[var(--color-accent-start)]">
                   {voyage.stats.essence}
                 </span>{" "}
                 <span className="text-sm text-[#333333]/70">€ essence</span>
@@ -115,7 +115,7 @@ export default function VoyageTerminePage() {
             )}
             {voyage.stats.budget != null && (
               <p>
-                <span className="text-2xl font-bold text-[#E07856]">
+                <span className="text-2xl font-bold text-[var(--color-accent-start)]">
                   {voyage.stats.budget}
                 </span>{" "}
                 <span className="text-sm text-[#333333]/70">€ budget</span>

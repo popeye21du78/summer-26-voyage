@@ -42,7 +42,7 @@ export default function HeroPlanifierProchain({
       <div
         className={`relative z-10 ${SNAP_SECTION_SCROLL_INNER} px-4 pb-10 pt-[calc(env(safe-area-inset-top,0px)+4rem)]`}
       >
-        <p className="mb-3 font-courier text-[10px] font-bold uppercase tracking-[0.4em] text-[#E07856]/90">
+        <p className="mb-3 font-courier text-[10px] font-bold uppercase tracking-[0.4em] text-[var(--color-accent-start)]/90">
           Prochaine étape
         </p>
         <h1 className="relative mb-4 max-w-[92%] font-courier text-[2rem] font-bold leading-[1.05] tracking-tight text-[#FAF4F0] sm:text-[2.35rem]">
@@ -57,7 +57,7 @@ export default function HeroPlanifierProchain({
         <div className="mt-auto flex max-w-md flex-col gap-3">
           <Link
             href="/planifier/commencer"
-            className="flex w-full items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-[#E07856] to-[#c94a4a] py-4 font-courier text-base font-bold text-white shadow-[0_10px_36px_rgba(224,120,86,0.45)] transition hover:brightness-105"
+            className="flex w-full items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-[var(--color-accent-start)] to-[var(--color-accent-end)] py-4 font-courier text-base font-bold text-white shadow-[0_10px_36px_rgba(224,120,86,0.45)] transition hover:brightness-105"
           >
             <Compass className="h-5 w-5" aria-hidden />
             Nouveau départ

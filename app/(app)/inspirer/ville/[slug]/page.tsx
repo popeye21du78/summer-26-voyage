@@ -60,7 +60,7 @@ export default async function VillePage({ params, searchParams }: Props) {
     return (
       <Suspense
         fallback={
-          <div className="mx-auto min-h-[40vh] max-w-2xl animate-pulse rounded-lg bg-[#141414]/50 p-8" />
+          <div className="mx-auto min-h-[40vh] max-w-2xl animate-pulse rounded-lg bg-[var(--color-bg-main)]/50 p-8" />
         }
       >
         <VilleDescriptionClient
@@ -80,7 +80,7 @@ export default async function VillePage({ params, searchParams }: Props) {
       <main className="mx-auto max-w-2xl px-4 py-10">
         <Link
           href={backHref}
-          className="mb-6 inline-flex items-center gap-2 font-courier text-sm font-bold text-[#E07856] hover:text-[#8b4728]"
+          className="mb-6 inline-flex items-center gap-2 font-courier text-sm font-bold text-[var(--color-accent-start)] hover:text-[var(--color-accent-deep)]"
         >
           ← Retour
         </Link>
@@ -105,7 +105,7 @@ export default async function VillePage({ params, searchParams }: Props) {
       <main className="mx-auto max-w-3xl px-4 py-10">
         <Link
           href={backHref}
-          className="mb-6 inline-flex items-center gap-2 font-courier text-sm font-bold text-[#E07856] hover:text-[#8b4728]"
+          className="mb-6 inline-flex items-center gap-2 font-courier text-sm font-bold text-[var(--color-accent-start)] hover:text-[var(--color-accent-deep)]"
         >
           ← Retour
         </Link>
@@ -127,8 +127,8 @@ export default async function VillePage({ params, searchParams }: Props) {
           <p>{step.description_culture}</p>
         </div>
         <section className="mt-10">
-          <h2 className="mb-4 font-courier text-lg font-bold text-[#E07856]">À la carte</h2>
-          <div className="rounded-xl border border-[#E07856]/20 bg-[#111111]/50 p-4">
+          <h2 className="mb-4 font-courier text-lg font-bold text-[var(--color-accent-start)]">À la carte</h2>
+          <div className="rounded-xl border border-[var(--color-accent-start)]/20 bg-[var(--color-bg-main)]/50 p-4">
             {SECTION_ORDER.map((sectionType) => (
               <CitySection
                 key={sectionType}
@@ -149,7 +149,7 @@ export default async function VillePage({ params, searchParams }: Props) {
     <main className="mx-auto max-w-2xl px-4 py-10">
       <Link
         href={backHref}
-        className="mb-6 inline-flex items-center gap-2 font-courier text-sm font-bold text-[#E07856] hover:text-[#8b4728]"
+        className="mb-6 inline-flex items-center gap-2 font-courier text-sm font-bold text-[var(--color-accent-start)] hover:text-[var(--color-accent-deep)]"
       >
         ← Retour
       </Link>

@@ -53,13 +53,13 @@ export default function RegionCarouselCard({
       }}
       className={`group relative flex w-[140px] shrink-0 cursor-pointer flex-col overflow-hidden rounded-2xl border text-left transition ${
         active
-          ? "border-[#E07856] ring-2 ring-[#E07856]/40 shadow-[0_0_20px_rgba(224,120,86,0.2)]"
-          : "border-white/8 hover:border-[#E07856]/30 shadow-lg shadow-black/20"
+          ? "border-[var(--color-accent-start)] ring-2 ring-[var(--color-accent-start)]/40 shadow-[0_0_20px_rgba(224,120,86,0.2)]"
+          : "border-white/8 hover:border-[var(--color-accent-start)]/30 shadow-lg shadow-black/20"
       }`}
     >
-      <div className="relative aspect-[3/4] w-full overflow-hidden bg-[#111111]">
+      <div className="relative aspect-[3/4] w-full overflow-hidden bg-[var(--color-bg-main)]">
         {!showPhoto && (
-          <div className="absolute inset-0 z-[1] flex items-center justify-center bg-[#111111]">
+          <div className="absolute inset-0 z-[1] flex items-center justify-center bg-[var(--color-bg-main)]">
             <Image
               src="/A1.png"
               alt=""
@@ -73,7 +73,7 @@ export default function RegionCarouselCard({
         {showPhoto && (
           <>
             {!imgReady && (
-              <div className="absolute inset-0 z-[1] flex items-center justify-center bg-[#111111]">
+              <div className="absolute inset-0 z-[1] flex items-center justify-center bg-[var(--color-bg-main)]">
                 <Image
                   src="/A1.png"
                   alt=""

@@ -29,7 +29,7 @@ export default function MapSection() {
             e.preventDefault();
             scrollToTop();
           }}
-          className="inline-flex items-center gap-2 rounded-full bg-[#A55734] px-4 py-2.5 text-sm font-medium text-white shadow-lg transition hover:bg-[#8b4728]"
+          className="inline-flex items-center gap-2 rounded-full bg-[var(--color-accent-end)] px-4 py-2.5 text-sm font-medium text-white shadow-lg transition hover:bg-[var(--color-accent-deep)]"
           aria-label="Remonter en haut de la page"
         >
           Remonter

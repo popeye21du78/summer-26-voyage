@@ -25,7 +25,7 @@ export default function InspirerSearchField({
   return (
     <label className="relative block">
       <Search
-        className="pointer-events-none absolute left-3 top-1/2 h-3.5 w-3.5 -translate-y-1/2 text-[#E07856]/45"
+        className="pointer-events-none absolute left-3 top-1/2 h-3.5 w-3.5 -translate-y-1/2 text-[var(--color-accent-start)]/45"
         aria-hidden
       />
       <input
@@ -34,7 +34,7 @@ export default function InspirerSearchField({
         value={value}
         onChange={(e) => onChange(e.target.value)}
         placeholder={placeholder}
-        className={`w-full rounded-xl border border-white/10 bg-white/5 pl-9 pr-3 font-courier text-[11px] text-white placeholder:text-white/25 focus:border-[#E07856]/35 focus:outline-none ${inputClassName}`}
+        className={`w-full rounded-xl border border-white/10 bg-white/5 pl-9 pr-3 font-courier text-[11px] text-white placeholder:text-white/25 focus:border-[var(--color-accent-start)]/35 focus:outline-none ${inputClassName}`}
         autoComplete="off"
       />
     </label>

@@ -86,7 +86,7 @@ export default function VoyageEnCoursLanding({ state }: Props) {
       <HomeDecorTitle lines={["AU", "JOUR"]} tone="onDark" />
 
       <div className="relative z-10 flex min-h-0 flex-1 flex-col px-4 pb-6 pt-[calc(env(safe-area-inset-top,0px)+3.75rem)]">
-        <p className="mb-2 max-w-[78%] font-courier text-[10px] font-bold uppercase tracking-[0.35em] text-[#E07856]/90">
+        <p className="mb-2 max-w-[78%] font-courier text-[10px] font-bold uppercase tracking-[0.35em] text-[var(--color-accent-start)]/90">
           {kicker}
         </p>
         <h1 className="relative mb-2 max-w-[92%] font-courier text-[1.85rem] font-bold leading-[1.05] tracking-tight text-[#FAF4F0] sm:text-[2.15rem]">
@@ -121,7 +121,7 @@ export default function VoyageEnCoursLanding({ state }: Props) {
             {stepsDuJour.map((s) => (
               <li
                 key={s.id}
-                className="border-l-2 border-[#E07856]/40 pl-4"
+                className="border-l-2 border-[var(--color-accent-start)]/40 pl-4"
               >
                 <p className="font-courier text-base font-bold text-white">
                   {s.nom}
@@ -131,7 +131,7 @@ export default function VoyageEnCoursLanding({ state }: Props) {
                 </p>
                 <Link
                   href={`/inspirer/ville/${s.id}?v=${encodeURIComponent(voyage.id)}`}
-                  className="mt-1.5 inline-flex items-center gap-1 font-courier text-xs font-bold text-[#E07856] hover:underline"
+                  className="mt-1.5 inline-flex items-center gap-1 font-courier text-xs font-bold text-[var(--color-accent-start)] hover:underline"
                 >
                   <MapPin className="h-3 w-3" />
                   Ouvrir le carnet du lieu
@@ -144,7 +144,7 @@ export default function VoyageEnCoursLanding({ state }: Props) {
         <div className="mt-auto flex shrink-0 flex-col gap-2.5 pt-4">
           <Link
             href={`/mon-espace/voyage/${voyage.id}`}
-            className="flex w-full items-center justify-center rounded-2xl bg-gradient-to-r from-[#E07856] to-[#c94a4a] py-4 font-courier text-base font-bold text-white shadow-[0_8px_28px_rgba(224,120,86,0.45)] transition hover:brightness-105 active:scale-[0.99]"
+            className="flex w-full items-center justify-center rounded-2xl bg-gradient-to-r from-[var(--color-accent-start)] to-[var(--color-accent-end)] py-4 font-courier text-base font-bold text-white shadow-[0_8px_28px_rgba(224,120,86,0.45)] transition hover:brightness-105 active:scale-[0.99]"
           >
             Accéder au voyage
           </Link>

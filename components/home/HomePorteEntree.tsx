@@ -47,7 +47,7 @@ export default function HomePorteEntree() {
         <div className="flex max-w-lg flex-col gap-4">
           <Link
             href="/planifier/inspiration"
-            className="group relative overflow-hidden rounded-2xl border border-[#F5C4B8]/40 bg-gradient-to-br from-[#E07856] via-[#d65a48] to-[#b84538] p-5 shadow-[0_14px_44px_rgba(0,0,0,0.25)] transition hover:brightness-110 active:scale-[0.99]"
+            className="group relative overflow-hidden rounded-2xl border border-[#F5C4B8]/40 bg-gradient-to-br from-[var(--color-accent-start)] via-[#d65a48] to-[#b84538] p-5 shadow-[0_14px_44px_rgba(0,0,0,0.25)] transition hover:brightness-110 active:scale-[0.99]"
           >
             <span className="flex items-start gap-4">
               <span className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-white/20 text-white shadow-inner">

@@ -4,7 +4,7 @@ import HomeDecorTitle from "@/components/home/HomeDecorTitle";
 import { HOME_SECTION_H2 } from "@/components/home/homeSectionTokens";
 
 export const INSPI_SURFACE_SHEET =
-  "bg-[#141414]";
+  "bg-[var(--color-bg-main)]";
 
 export const INSPI_SURFACE_CARD =
   "border border-white/6 bg-white/3 backdrop-blur-sm";
@@ -59,7 +59,7 @@ export function InspirationRegionHero({
   const isFull = density === "full";
 
   return (
-    <header className="relative w-full overflow-hidden bg-[#111111]">
+    <header className="relative w-full overflow-hidden bg-[var(--color-bg-main)]">
       <div
         className={`relative w-full overflow-hidden ${isFull ? "h-[min(46vh,440px)] min-h-[300px] sm:h-[min(44vh,480px)]" : "h-[130px] sm:h-[148px]"}`}
       >
@@ -73,7 +73,7 @@ export function InspirationRegionHero({
             priority
           />
         ) : (
-          <div className="absolute inset-0 flex items-center justify-center bg-[#111111]">
+          <div className="absolute inset-0 flex items-center justify-center bg-[var(--color-bg-main)]">
             <Image
               src="/A1.png"
               alt=""
@@ -85,7 +85,7 @@ export function InspirationRegionHero({
           </div>
         )}
         <div
-          className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-[#111111]/90"
+          className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-[var(--color-bg-main)]/90"
           aria-hidden
         />
         <HomeDecorTitle lines={[a, b]} tone="onDark" className="z-[1] opacity-90" />
@@ -116,7 +116,7 @@ export function InspirationRegionHero({
         </div>
 
         <div className="absolute inset-x-0 bottom-0 z-[2] px-4 pb-4 pt-16 sm:px-5">
-          <p className="font-courier text-[10px] font-bold uppercase tracking-[0.35em] text-[#E07856]">
+          <p className="font-courier text-[10px] font-bold uppercase tracking-[0.35em] text-[var(--color-accent-start)]">
             Région
           </p>
           <h1

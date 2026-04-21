@@ -24,7 +24,7 @@ export default function HomeInspirationSection() {
   return (
     <section
       id="inspiration-section"
-      className={`relative border-t border-[#E07856]/12 bg-gradient-to-b from-[#FFF5EE] to-[#111111] ${SNAP_SECTION}`}
+      className={`relative border-t border-[var(--color-accent-start)]/12 bg-gradient-to-b from-[#FFF5EE] to-[var(--color-bg-main)] ${SNAP_SECTION}`}
       aria-labelledby="home-inspiration-titre"
     >
       <HomeDecorTitle lines={["IDÉ", "ES"]} tone="onLight" />

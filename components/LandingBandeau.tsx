@@ -53,13 +53,13 @@ export default function LandingBandeau() {
         </button>
         {menuOpen && (
           <div
-            className="absolute right-0 top-full mt-1 min-w-[180px] rounded-xl border border-white/10 bg-[#1c1c1c]/95 py-1 shadow-xl backdrop-blur-lg"
+            className="absolute right-0 top-full mt-1 min-w-[180px] rounded-xl border border-white/10 bg-[var(--color-bg-secondary)]/95 py-1 shadow-xl backdrop-blur-lg"
             role="menu"
           >
             <Link
               href="/login"
               role="menuitem"
-              className="block px-4 py-2.5 font-courier text-sm text-white/70 hover:bg-[#E07856]/10 hover:text-white"
+              className="block px-4 py-2.5 font-courier text-sm text-white/70 hover:bg-[var(--color-accent-start)]/10 hover:text-white"
               onClick={() => setMenuOpen(false)}
             >
               Se connecter
@@ -67,7 +67,7 @@ export default function LandingBandeau() {
             <Link
               href="/login"
               role="menuitem"
-              className="block px-4 py-2.5 font-courier text-sm text-white/70 hover:bg-[#E07856]/10 hover:text-white"
+              className="block px-4 py-2.5 font-courier text-sm text-white/70 hover:bg-[var(--color-accent-start)]/10 hover:text-white"
               onClick={() => setMenuOpen(false)}
             >
               Créer un compte

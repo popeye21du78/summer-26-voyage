@@ -19,20 +19,20 @@ export default function RecapLieuxPage() {
           Par catégorie
         </h2>
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
-          <div className="rounded-lg border border-[#A55734]/20 bg-white p-4 text-center">
+          <div className="rounded-lg border border-[var(--color-accent-end)]/20 bg-white p-4 text-center">
             <div className="text-2xl font-semibold text-[#a8987a]">{stats.byType.patrimoine}</div>
             <div className="text-sm text-[#333333]/80">Patrimoine</div>
           </div>
-          <div className="rounded-lg border border-[#A55734]/20 bg-white p-4 text-center">
+          <div className="rounded-lg border border-[var(--color-accent-end)]/20 bg-white p-4 text-center">
             <div className="text-2xl font-semibold text-[#4a90d9]">{stats.byType.plage}</div>
             <div className="text-sm text-[#333333]/80">Plages</div>
           </div>
-          <div className="rounded-lg border border-[#A55734]/20 bg-white p-4 text-center">
+          <div className="rounded-lg border border-[var(--color-accent-end)]/20 bg-white p-4 text-center">
             <div className="text-2xl font-semibold text-[#8B6914]">{stats.byType.rando}</div>
             <div className="text-sm text-[#333333]/80">Randos</div>
           </div>
-          <div className="rounded-lg border border-[#A55734]/30 bg-[#FFF2EB] p-4 text-center">
-            <div className="text-2xl font-semibold text-[#A55734]">{stats.byType.total}</div>
+          <div className="rounded-lg border border-[var(--color-accent-end)]/30 bg-[#FFF2EB] p-4 text-center">
+            <div className="text-2xl font-semibold text-[var(--color-accent-end)]">{stats.byType.total}</div>
             <div className="text-sm text-[#333333]/80">Total</div>
           </div>
         </div>
@@ -42,10 +42,10 @@ export default function RecapLieuxPage() {
         <h2 className="mb-3 text-lg font-medium text-[#333333]">
           Par département (région)
         </h2>
-        <div className="overflow-x-auto rounded-lg border border-[#A55734]/20 bg-white">
+        <div className="overflow-x-auto rounded-lg border border-[var(--color-accent-end)]/20 bg-white">
           <table className="w-full min-w-[600px] text-left text-sm">
             <thead>
-              <tr className="border-b border-[#A55734]/20 bg-[#FFF2EB]/50">
+              <tr className="border-b border-[var(--color-accent-end)]/20 bg-[#FFF2EB]/50">
                 <th className="px-4 py-3 font-medium text-[#333333]">Code</th>
                 <th className="px-4 py-3 font-medium text-[#333333]">Département</th>
                 <th className="px-4 py-3 text-center font-medium text-[#333333]">Patrimoine</th>
@@ -65,7 +65,7 @@ export default function RecapLieuxPage() {
                 stats.byDepartement.map((d) => (
                   <tr
                     key={d.code_dep}
-                    className="border-b border-[#A55734]/10 hover:bg-[#FFF2EB]/30"
+                    className="border-b border-[var(--color-accent-end)]/10 hover:bg-[#FFF2EB]/30"
                   >
                     <td className="px-4 py-2 font-mono text-[#333333]">{d.code_dep}</td>
                     <td className="px-4 py-2 text-[#333333]">{d.departement}</td>
@@ -82,7 +82,7 @@ export default function RecapLieuxPage() {
       </section>
 
       <p className="mt-6 text-sm text-[#333333]/70">
-        <Link href="/carte-villes" className="underline hover:text-[#A55734]">
+        <Link href="/carte-villes" className="underline hover:text-[var(--color-accent-end)]">
           Voir la carte des lieux
         </Link>
       </p>

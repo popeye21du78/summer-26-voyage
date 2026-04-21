@@ -12,8 +12,8 @@ import { withReturnTo } from "@/lib/return-to";
 const StarFlipDetail = dynamic(() => import("./StarFlipDetail"), {
   ssr: false,
   loading: () => (
-    <div className="flex min-h-[480px] flex-col items-center justify-center bg-[#141414]">
-      <div className="h-8 w-8 rounded-full border-2 border-[#E07856]/20 border-t-[#E07856] animate-spin" />
+    <div className="flex min-h-[480px] flex-col items-center justify-center bg-[var(--color-bg-main)]">
+      <div className="h-8 w-8 rounded-full border-2 border-[var(--color-accent-start)]/20 border-t-[var(--color-accent-start)] animate-spin" />
     </div>
   ),
 });
@@ -56,7 +56,7 @@ export default function StarFlipCard({ itinerary, isFlipped, onFlip, compact }: 
           style={{ backfaceVisibility: "hidden" }}
           onClick={onFlip}
         >
-          <div className={`relative ${aspect} w-full overflow-hidden bg-[#1c1c1c]`}>
+          <div className={`relative ${aspect} w-full overflow-hidden bg-[var(--color-bg-secondary)]`}>
             <StarItineraryCover
               stepId={firstStepSlug}
               ville={itinerary.steps[0]?.nom ?? ""}
@@ -66,19 +66,19 @@ export default function StarFlipCard({ itinerary, isFlipped, onFlip, compact }: 
             <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent" />
 
             <span className="pointer-events-none absolute right-3 top-3 flex items-center gap-1 rounded-full bg-black/50 px-2.5 py-1 font-courier text-[10px] font-bold text-white/80 backdrop-blur-sm">
-              <Clock className="h-3 w-3 text-[#E07856]" />
+              <Clock className="h-3 w-3 text-[var(--color-accent-start)]" />
               {itinerary.durationHint}
             </span>
 
             <div className="pointer-events-none absolute inset-x-0 bottom-0 p-5">
-              <p className="font-courier text-[10px] font-bold uppercase tracking-[0.3em] text-[#E07856]">
+              <p className="font-courier text-[10px] font-bold uppercase tracking-[0.3em] text-[var(--color-accent-start)]">
                 Itinéraire star
               </p>
               {editorial && itinerary.editorialProfileId && (
                 <Link
                   href={withReturnTo(`/profil/${itinerary.editorialProfileId}`, here)}
                   onClick={(e) => e.stopPropagation()}
-                  className="mt-2 inline-flex max-w-full rounded-full border border-white/15 bg-black/35 px-2.5 py-1 font-courier text-[9px] font-bold text-[#E07856]/95 backdrop-blur-sm transition hover:border-[#E07856]/40"
+                  className="mt-2 inline-flex max-w-full rounded-full border border-white/15 bg-black/35 px-2.5 py-1 font-courier text-[9px] font-bold text-[var(--color-accent-start)]/95 backdrop-blur-sm transition hover:border-[var(--color-accent-start)]/40"
                 >
                   Une manière de voyager · {editorial.name}
                 </Link>
@@ -101,7 +101,7 @@ export default function StarFlipCard({ itinerary, isFlipped, onFlip, compact }: 
 
         {/* Verso — chunk lourd seulement si retourné */}
         <div
-          className="absolute inset-0 w-full overflow-hidden rounded-2xl border border-white/6 bg-[#141414] shadow-lg shadow-black/30"
+          className="absolute inset-0 w-full overflow-hidden rounded-2xl border border-white/6 bg-[var(--color-bg-main)] shadow-lg shadow-black/30"
           style={{
             backfaceVisibility: "hidden",
             transform: "rotateY(180deg)",
@@ -110,7 +110,7 @@ export default function StarFlipCard({ itinerary, isFlipped, onFlip, compact }: 
           {isFlipped ? (
             <StarFlipDetail itinerary={itinerary} onCloseFlip={onFlip} />
           ) : (
-            <div className="min-h-[480px] bg-[#141414]" aria-hidden />
+            <div className="min-h-[480px] bg-[var(--color-bg-main)]" aria-hidden />
           )}
         </div>
       </div>

@@ -375,7 +375,7 @@ export default function ViagoVisualPhotoEditor({
                   transform: `translate(-50%, -50%) scale(${scale})`,
                 }}
                 className={`absolute max-w-[min(92vw,340px)] cursor-grab touch-manipulation px-3 py-2 text-left font-courier active:cursor-grabbing ${
-                  textSelected ? "ring-2 ring-[#E07856]/90 ring-offset-2 ring-offset-black/20" : ""
+                  textSelected ? "ring-2 ring-[var(--color-accent-start)]/90 ring-offset-2 ring-offset-black/20" : ""
                 } ${
                   effectiveTone === "light"
                     ? "text-white [text-shadow:0_2px_14px_rgba(0,0,0,0.95)]"
@@ -448,12 +448,12 @@ export default function ViagoVisualPhotoEditor({
           </div>
 
           {/* Barre d’actions — toujours au-dessus des overlays (Valider fiable au doigt). */}
-          <div className="relative z-[300] flex shrink-0 items-stretch justify-center gap-2 border-t border-white/10 bg-[#1a120d]/95 px-3 py-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] backdrop-blur-md">
+          <div className="relative z-[300] flex shrink-0 items-stretch justify-center gap-2 border-t border-white/10 bg-[var(--color-bg-gradient-end)]/95 px-3 py-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] backdrop-blur-md">
             <button
               type="button"
               disabled={photoBusy}
               onClick={() => fileRef.current?.click()}
-              className="flex min-h-[48px] flex-1 items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-[#E07856] to-[#D4635B] font-courier text-sm font-bold text-white shadow-lg disabled:opacity-50"
+              className="flex min-h-[48px] flex-1 items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-[var(--color-accent-start)] to-[var(--color-accent-mid)] font-courier text-sm font-bold text-white shadow-lg disabled:opacity-50"
             >
               <ImageIcon className="h-5 w-5" />
               Photo
@@ -461,7 +461,7 @@ export default function ViagoVisualPhotoEditor({
             <button
               type="button"
               onClick={addTextBlock}
-              className="flex min-h-[48px] flex-1 items-center justify-center gap-2 rounded-2xl border border-[#E07856]/50 bg-white/10 font-courier text-sm font-bold text-[#fde8e0]"
+              className="flex min-h-[48px] flex-1 items-center justify-center gap-2 rounded-2xl border border-[var(--color-accent-start)]/50 bg-white/10 font-courier text-sm font-bold text-[#fde8e0]"
             >
               <Type className="h-5 w-5" />
               Texte
@@ -469,7 +469,7 @@ export default function ViagoVisualPhotoEditor({
             <button
               type="button"
               onClick={handleConfirm}
-              className="flex min-h-[48px] flex-1 items-center justify-center gap-2 rounded-2xl bg-[#E07856] font-courier text-sm font-bold text-white shadow-md"
+              className="flex min-h-[48px] flex-1 items-center justify-center gap-2 rounded-2xl bg-[var(--color-accent-start)] font-courier text-sm font-bold text-white shadow-md"
             >
               <Check className="h-5 w-5" />
               Valider
@@ -490,16 +490,16 @@ export default function ViagoVisualPhotoEditor({
                 animate={{ y: 0 }}
                 exit={{ y: "100%" }}
                 transition={{ type: "spring", damping: 28, stiffness: 320 }}
-                className="absolute inset-x-0 bottom-0 z-[250] max-h-[55vh] rounded-t-3xl border border-[#E07856]/25 bg-[#1f1612] p-4 shadow-2xl"
+                className="absolute inset-x-0 bottom-0 z-[250] max-h-[55vh] rounded-t-3xl border border-[var(--color-accent-start)]/25 bg-[#1f1612] p-4 shadow-2xl"
               >
-                <p className="font-courier text-[10px] font-bold uppercase tracking-[0.2em] text-[#E07856]">
+                <p className="font-courier text-[10px] font-bold uppercase tracking-[0.2em] text-[var(--color-accent-start)]">
                   Texte · **gras** avec astérisques
                 </p>
                 <label className="mt-3 block font-courier text-xs text-[#f5e6dc]/80">Titre</label>
                 <input
                   value={title}
                   onChange={(e) => setTitle(e.target.value)}
-                  className="mt-1 w-full rounded-xl border border-white/15 bg-black/30 px-3 py-2 font-courier text-sm text-[#FFFBF7] outline-none focus:ring-1 focus:ring-[#E07856]"
+                  className="mt-1 w-full rounded-xl border border-white/15 bg-black/30 px-3 py-2 font-courier text-sm text-[#FFFBF7] outline-none focus:ring-1 focus:ring-[var(--color-accent-start)]"
                   placeholder="Optionnel"
                 />
                 <label className="mt-3 block font-courier text-xs text-[#f5e6dc]/80">Texte</label>
@@ -507,13 +507,13 @@ export default function ViagoVisualPhotoEditor({
                   value={anecdote}
                   onChange={(e) => setAnecdote(e.target.value)}
                   rows={4}
-                  className="mt-1 w-full resize-none rounded-xl border border-white/15 bg-black/30 px-3 py-2 font-courier text-sm text-[#FFFBF7] outline-none focus:ring-1 focus:ring-[#E07856]"
+                  className="mt-1 w-full resize-none rounded-xl border border-white/15 bg-black/30 px-3 py-2 font-courier text-sm text-[#FFFBF7] outline-none focus:ring-1 focus:ring-[var(--color-accent-start)]"
                   placeholder="Ton texte…"
                 />
                 <button
                   type="button"
                   onClick={() => setLineEditOpen(false)}
-                  className="mt-4 w-full rounded-xl bg-[#E07856] py-3 font-courier text-sm font-bold text-white"
+                  className="mt-4 w-full rounded-xl bg-[var(--color-accent-start)] py-3 font-courier text-sm font-bold text-white"
                 >
                   OK
                 </button>
@@ -539,7 +539,7 @@ export default function ViagoVisualPhotoEditor({
                   onClick={(e) => e.stopPropagation()}
                   className="w-full max-w-md rounded-2xl border border-white/10 bg-[#1f1612] p-4 shadow-xl"
                 >
-                  <p className="font-courier text-xs font-bold uppercase tracking-wide text-[#E07856]">
+                  <p className="font-courier text-xs font-bold uppercase tracking-wide text-[var(--color-accent-start)]">
                     Édition avancée
                   </p>
                   <p className="mt-2 font-courier text-[11px] text-[#c9b8ad]">Position du bloc</p>
@@ -584,7 +584,7 @@ export default function ViagoVisualPhotoEditor({
                         }}
                         className={`rounded-full border px-3 py-1.5 font-courier text-[11px] ${
                           textTone === t
-                            ? "border-[#E07856] bg-[#E07856]/25 text-[#fde8e0]"
+                            ? "border-[var(--color-accent-start)] bg-[var(--color-accent-start)]/25 text-[#fde8e0]"
                             : "border-white/15 text-[#fde8e0]"
                         }`}
                       >
@@ -598,7 +598,7 @@ export default function ViagoVisualPhotoEditor({
                       setLayoutMode("below");
                       setAdvancedOpen(false);
                     }}
-                    className="mt-4 w-full rounded-xl border border-dashed border-[#E07856]/40 py-2 font-courier text-[11px] text-[#f5c4b8]"
+                    className="mt-4 w-full rounded-xl border border-dashed border-[var(--color-accent-start)]/40 py-2 font-courier text-[11px] text-[#f5c4b8]"
                   >
                     Afficher le texte sous la photo
                   </button>

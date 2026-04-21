@@ -1,0 +1,111 @@
+/**
+ * Viago — charte centralisée (couleurs, dégradés, verre, rayons).
+ * Modifier le fond global : --color-bg-main, --color-bg-gradient-start, --color-bg-gradient-end.
+ */
+
+:root {
+  /* ——— Fonds (gris chauds, jamais noir pur) ——— */
+  --color-bg-main: #2a2623;
+  --color-bg-secondary: #35302c;
+  --color-bg-tertiary: #3d3834;
+  --color-bg-gradient-start: #2e2926;
+  --color-bg-gradient-end: #24211f;
+
+  /* ——— Texte ——— */
+  --color-text-primary: #f4ede4;
+  --color-text-secondary: rgba(244, 237, 228, 0.52);
+
+  /* ——— Accent sunset / terracotta (titres dynamiques + CTA) ——— */
+  --color-accent-deep: #c53030;
+  --color-accent-start: #e07856;
+  --color-accent-mid: #d4635b;
+  --color-accent-end: #c94a4a;
+  --color-accent-gold: #cd853f;
+  --color-accent-line-30: color-mix(in srgb, var(--color-accent-start) 30%, transparent);
+  --color-accent-line-40: color-mix(in srgb, var(--color-accent-start) 40%, transparent);
+  --color-accent-line-50: color-mix(in srgb, var(--color-accent-start) 50%, transparent);
+
+  /* ——— Verre ——— */
+  --color-glass-bg: rgba(52, 46, 42, 0.48);
+  --color-glass-border: rgba(255, 232, 214, 0.14);
+  --color-glass-highlight: rgba(255, 245, 235, 0.2);
+  --color-glass-active-bg: rgba(68, 58, 52, 0.62);
+  /* Teinte derrière le verre (dégradé interne pour le volume) */
+  --color-glass-tint-top: rgba(255, 245, 235, 0.09);
+  --color-glass-tint-bottom: rgba(0, 0, 0, 0.08);
+
+  /* ——— Vignettage / ombres de bord (plus prononcées pour un rendu premium) ——— */
+  --color-bg-edge-top: rgba(0, 0, 0, 0.5);
+  --color-bg-edge-bottom: rgba(0, 0, 0, 0.62);
+  --color-bg-edge-side: rgba(0, 0, 0, 0.34);
+
+  /* ——— Ombres ——— */
+  --color-shadow: rgba(0, 0, 0, 0.25);
+  --color-shadow-strong: rgba(0, 0, 0, 0.2);
+  --color-shadow-cta-accent: rgba(255, 120, 60, 0.2);
+  --color-shadow-card: rgba(0, 0, 0, 0.2);
+
+  /* ——— Dégradés dérivés ——— */
+  --gradient-app-bg: linear-gradient(
+    180deg,
+    var(--color-bg-gradient-start) 0%,
+    var(--color-bg-gradient-end) 100%
+  );
+  --gradient-title-text: linear-gradient(
+    120deg,
+    var(--color-accent-deep),
+    var(--color-accent-start),
+    var(--color-accent-gold)
+  );
+  --gradient-title-text-horizontal: linear-gradient(
+    to right,
+    var(--color-accent-start),
+    var(--color-accent-mid),
+    var(--color-accent-gold)
+  );
+  --gradient-cta: linear-gradient(
+    135deg,
+    var(--color-accent-start),
+    var(--color-accent-mid),
+    var(--color-accent-end)
+  );
+  --gradient-hero-warm-overlay: linear-gradient(
+    rgba(255, 220, 180, 0.15),
+    rgba(37, 33, 31, 0.42)
+  );
+
+  /* ——— Rayons (grille 8px) ——— */
+  --radius-sm: 12px;
+  --radius-md: 16px;
+  --radius-lg: 20px;
+  --radius-pill: 9999px;
+
+  /* ——— Logo hero (filtre complet, lié aux accents) ——— */
+  --logo-filter-hero-center: sepia(0.45) saturate(2) hue-rotate(332deg) brightness(1.08)
+    contrast(1.1) drop-shadow(0 12px 40px rgba(224, 120, 86, 0.48));
+
+  /* ——— Compat anciennes variables (Tailwind / legacy) ——— */
+  --background: var(--color-bg-main);
+  --foreground: var(--color-text-primary);
+  --primary: var(--color-accent-start);
+  --primary-dark: var(--color-accent-end);
+  --accent: var(--color-accent-start);
+  --surface: var(--color-bg-secondary);
+  --surface-light: var(--color-bg-tertiary);
+  --surface-border: var(--color-glass-border);
+  --text: var(--color-text-primary);
+  --text-muted: var(--color-text-secondary);
+  --cream: var(--color-bg-main);
+  --cream-dark: var(--color-bg-secondary);
+  --beige: var(--color-bg-tertiary);
+  --white-off: var(--color-bg-secondary);
+
+  --font-homemade-apple: "Homemade Apple", cursive;
+  --font-typewriter: "Special Elite", serif;
+  --font-motto: "Cormorant Garamond", Georgia, serif;
+  --font-courier: "Courier Prime", monospace;
+  --header-content-offset: max(
+    7.75rem,
+    calc(env(safe-area-inset-top, 0px) + 6.5rem)
+  );
+}

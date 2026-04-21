@@ -51,9 +51,9 @@ export default function CreateCadrage() {
   }
 
   return (
-    <main className="flex h-full flex-col bg-[#111111]">
+    <main className="flex h-full flex-col bg-[var(--color-bg-main)]">
       <div className="flex min-h-0 flex-1 flex-col justify-center px-6">
-        <p className="font-courier text-[10px] font-bold uppercase tracking-[0.45em] text-[#E07856]">
+        <p className="font-courier text-[10px] font-bold uppercase tracking-[0.45em] text-[var(--color-accent-start)]">
           Ton voyage
         </p>
         <h1 className="mt-3 font-courier text-[1.75rem] font-bold leading-tight text-white">
@@ -64,7 +64,7 @@ export default function CreateCadrage() {
 
         {/* Dates */}
         <section className="mt-10">
-          <label className="flex items-center gap-2 font-courier text-xs font-bold uppercase tracking-wider text-[#E07856]">
+          <label className="flex items-center gap-2 font-courier text-xs font-bold uppercase tracking-wider text-[var(--color-accent-start)]">
             <Calendar className="h-4 w-4" />
             Quand pars-tu ?
           </label>
@@ -75,7 +75,7 @@ export default function CreateCadrage() {
                 type="date"
                 value={dateDebut}
                 onChange={(e) => setDateDebut(e.target.value)}
-                className="mt-1 w-full rounded-xl border border-white/8 bg-white/5 px-3 py-2.5 font-courier text-sm text-white focus:border-[#E07856]/40 focus:outline-none focus:ring-1 focus:ring-[#E07856]/25"
+                className="mt-1 w-full rounded-xl border border-white/8 bg-white/5 px-3 py-2.5 font-courier text-sm text-white focus:border-[var(--color-accent-start)]/40 focus:outline-none focus:ring-1 focus:ring-[var(--color-accent-start)]/25"
               />
             </div>
             <div className="flex-1">
@@ -86,7 +86,7 @@ export default function CreateCadrage() {
                 type="date"
                 value={dateFin}
                 onChange={(e) => setDateFin(e.target.value)}
-                className="mt-1 w-full rounded-xl border border-white/8 bg-white/5 px-3 py-2.5 font-courier text-sm text-white focus:border-[#E07856]/40 focus:outline-none focus:ring-1 focus:ring-[#E07856]/25"
+                className="mt-1 w-full rounded-xl border border-white/8 bg-white/5 px-3 py-2.5 font-courier text-sm text-white focus:border-[var(--color-accent-start)]/40 focus:outline-none focus:ring-1 focus:ring-[var(--color-accent-start)]/25"
               />
             </div>
           </div>
@@ -94,7 +94,7 @@ export default function CreateCadrage() {
 
         {/* Rythme */}
         <section className="mt-8">
-          <label className="flex items-center gap-2 font-courier text-xs font-bold uppercase tracking-wider text-[#E07856]">
+          <label className="flex items-center gap-2 font-courier text-xs font-bold uppercase tracking-wider text-[var(--color-accent-start)]">
             <Gauge className="h-4 w-4" />
             Quel rythme ?
           </label>
@@ -105,13 +105,13 @@ export default function CreateCadrage() {
                 onClick={() => setRythme(r.id)}
                 className={`flex flex-col items-center rounded-xl border-2 px-3 py-3 transition ${
                   rythme === r.id
-                    ? "border-[#E07856] bg-[#E07856]/8"
+                    ? "border-[var(--color-accent-start)] bg-[var(--color-accent-start)]/8"
                     : "border-white/8 bg-white/3 hover:border-white/15"
                 }`}
               >
                 <span
                   className={`font-courier text-sm font-bold ${
-                    rythme === r.id ? "text-[#E07856]" : "text-white/70"
+                    rythme === r.id ? "text-[var(--color-accent-start)]" : "text-white/70"
                   }`}
                 >
                   {r.label}
@@ -126,7 +126,7 @@ export default function CreateCadrage() {
 
         {/* Lieu indispensable */}
         <section className="mt-8">
-          <label className="flex items-center gap-2 font-courier text-xs font-bold uppercase tracking-wider text-[#E07856]">
+          <label className="flex items-center gap-2 font-courier text-xs font-bold uppercase tracking-wider text-[var(--color-accent-start)]">
             <MapPin className="h-4 w-4" />
             Un endroit que tu ne veux pas manquer ?
           </label>
@@ -135,7 +135,7 @@ export default function CreateCadrage() {
             value={lieuSearch}
             onChange={(e) => setLieuSearch(e.target.value)}
             placeholder="Optionnel"
-            className="mt-3 w-full rounded-xl border border-white/8 bg-white/5 px-4 py-2.5 font-courier text-sm text-white placeholder:text-white/20 focus:border-[#E07856]/40 focus:outline-none focus:ring-1 focus:ring-[#E07856]/25"
+            className="mt-3 w-full rounded-xl border border-white/8 bg-white/5 px-4 py-2.5 font-courier text-sm text-white placeholder:text-white/20 focus:border-[var(--color-accent-start)]/40 focus:outline-none focus:ring-1 focus:ring-[var(--color-accent-start)]/25"
           />
         </section>
 

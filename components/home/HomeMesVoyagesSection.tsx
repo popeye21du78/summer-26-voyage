@@ -162,7 +162,7 @@ export default function HomeMesVoyagesSection({
             </p>
             <Link
               href="/planifier/commencer"
-              className="btn-terracotta mt-4 inline-flex rounded-2xl border-2 border-[#F5C4B8]/50 bg-gradient-to-r from-[#E07856] to-[#D4635B] px-5 py-2.5 font-courier text-sm font-bold text-white shadow-md"
+              className="btn-terracotta mt-4 inline-flex rounded-2xl border-2 border-[#F5C4B8]/50 bg-gradient-to-r from-[var(--color-accent-start)] to-[var(--color-accent-mid)] px-5 py-2.5 font-courier text-sm font-bold text-white shadow-md"
             >
               Commencer un voyage
             </Link>

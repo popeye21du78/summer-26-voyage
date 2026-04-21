@@ -10,7 +10,7 @@ export default function NouveauVoyagePage() {
     <main className="page-under-header mx-auto max-w-lg px-4 py-12 md:py-16">
       <Link
         href="/planifier/commencer"
-        className="mb-6 inline-flex items-center gap-1 font-courier text-sm font-bold text-[#A55734] transition hover:text-[#8b4728]"
+        className="mb-6 inline-flex items-center gap-1 font-courier text-sm font-bold text-[var(--color-accent-end)] transition hover:text-[var(--color-accent-deep)]"
       >
         <ArrowLeft className="h-4 w-4 shrink-0" aria-hidden />
         Retour à l&apos;accueil

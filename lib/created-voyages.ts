@@ -2,19 +2,27 @@ import type { Step } from "@/types";
 
 const STORAGE_KEY = "viago-created-voyages";
 
+export type CreatedVoyageStep = {
+  id: string;
+  nom: string;
+  type: "nuit" | "passage";
+  date_prevue?: string;
+  lat?: number;
+  lng?: number;
+  /** Nombre de nuits passées dans cette étape (0 pour un passage). */
+  nights?: number;
+  /** Budget par ville (en euros, tous optionnels). */
+  budgetNourriture?: number;
+  budgetCulture?: number;
+  budgetLogement?: number;
+};
+
 export type CreatedVoyage = {
   id: string;
   titre: string;
   sousTitre: string;
   createdAt: string;
-  steps: Array<{
-    id: string;
-    nom: string;
-    type: "nuit" | "passage";
-    date_prevue?: string;
-    lat?: number;
-    lng?: number;
-  }>;
+  steps: CreatedVoyageStep[];
 };
 
 export function getCreatedVoyageById(id: string): CreatedVoyage | null {
@@ -29,9 +37,13 @@ export function createdVoyageToViagoPayload(cv: CreatedVoyage): {
   steps: Step[];
   stats?: { km?: number; essence?: number; budget?: number };
 } {
-  const steps: Step[] = cv.steps.map((s, i) => {
+  const steps: Step[] = cv.steps.map((s) => {
     const lat = s.lat ?? 46.2276;
     const lng = s.lng ?? 2.2137;
+    const budget =
+      (s.budgetNourriture ?? 0) +
+      (s.budgetCulture ?? 0) +
+      (s.budgetLogement ?? 0);
     return {
       id: s.id,
       nom: s.nom,
@@ -39,7 +51,7 @@ export function createdVoyageToViagoPayload(cv: CreatedVoyage): {
       date_prevue: s.date_prevue ?? new Date().toISOString().slice(0, 10),
       date_depart: null,
       description_culture: "",
-      budget_prevu: 0,
+      budget_prevu: budget,
       nuitee_type: s.type === "passage" ? "passage" : "van",
       contenu_voyage: { photos: [] },
     };

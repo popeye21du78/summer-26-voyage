@@ -98,8 +98,8 @@ export default function ViagoPageClient() {
 
   if (loading) {
     return (
-      <div className="flex min-h-0 flex-1 flex-col overflow-hidden">
-        <main className="flex min-h-[40vh] flex-1 items-center justify-center bg-[#1a1a1a]">
+      <div className="flex min-h-full flex-1 flex-col">
+        <main className="flex min-h-[60vh] flex-1 items-center justify-center bg-[var(--color-bg-secondary)]">
           <p className="font-courier text-white/70">Chargement…</p>
         </main>
       </div>
@@ -108,12 +108,12 @@ export default function ViagoPageClient() {
 
   if (!voyage) {
     return (
-      <div className="flex min-h-0 flex-1 flex-col overflow-hidden">
-        <main className="flex min-h-0 flex-1 flex-col items-center justify-center gap-4 overflow-y-auto bg-[#1a1a1a] px-4 py-8">
+      <div className="flex min-h-full flex-1 flex-col">
+        <main className="flex min-h-[60vh] flex-1 flex-col items-center justify-center gap-4 bg-[var(--color-bg-secondary)] px-4 py-8">
           <p className="font-courier text-center text-white/80">Viago indisponible pour ce voyage.</p>
           <Link
             href="/mon-espace"
-            className="font-courier text-[#E07856] underline transition-all hover:no-underline"
+            className="font-courier text-[var(--color-accent-start)] underline transition-all hover:no-underline"
           >
             Retour à Mon espace
           </Link>
@@ -128,8 +128,9 @@ export default function ViagoPageClient() {
   const first = mergedSteps[0];
 
   return (
-    <div className="flex h-full min-h-0 w-full flex-1 flex-col overflow-hidden">
-      <main className="min-h-0 flex-1 overflow-y-auto overflow-x-hidden overscroll-y-contain bg-[#0d0d0d]">
+    <div className="flex min-h-full w-full flex-1 flex-col">
+      {/* AppScrollShell est le scroll unique : ce <main> ne scrolle pas. */}
+      <main className="flex flex-1 flex-col bg-[var(--color-bg-main)]">
         <header className="relative flex min-h-[60vh] flex-col justify-end overflow-hidden">
           {first ? (
             <LieuResolvedBackground
@@ -144,8 +145,8 @@ export default function ViagoPageClient() {
               aria-hidden
             />
           )}
-          <div className="absolute inset-0 bg-gradient-to-t from-[#0d0d0d] via-[#0d0d0d]/40 to-transparent" />
-          <div className="absolute inset-0 bg-[#E07856]/20" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-bg-main)] via-[var(--color-bg-main)]/40 to-transparent" />
+          <div className="absolute inset-0 bg-[var(--color-accent-start)]/20" />
           <div className="relative z-10 px-4 pb-12 pt-24 md:px-8 md:pb-16">
             <Link
               href={backHref}
@@ -158,7 +159,7 @@ export default function ViagoPageClient() {
             <h1 className="font-courier text-4xl font-bold tracking-wider text-white drop-shadow-2xl md:text-6xl">
               {voyage.titre}
             </h1>
-            <p className="mt-2 font-courier text-lg font-bold text-[#E07856]">
+            <p className="mt-2 font-courier text-lg font-bold text-[var(--color-accent-start)]">
               {voyage.sousTitre}
             </p>
             <p className="mt-2 font-courier text-sm text-white/80">
@@ -169,13 +170,13 @@ export default function ViagoPageClient() {
             {voyage.stats && (
               <div className="mt-6 flex gap-8">
                 {voyage.stats.km != null && (
-                  <span className="flex items-center gap-2 font-courier font-bold text-[#E07856]">
+                  <span className="flex items-center gap-2 font-courier font-bold text-[var(--color-accent-start)]">
                     <Route className="h-5 w-5" />
                     {voyage.stats.km} km
                   </span>
                 )}
                 {voyage.stats.essence != null && (
-                  <span className="flex items-center gap-2 font-courier font-bold text-[#E07856]">
+                  <span className="flex items-center gap-2 font-courier font-bold text-[var(--color-accent-start)]">
                     <Fuel className="h-5 w-5" />
                     {voyage.stats.essence} € essence
                   </span>

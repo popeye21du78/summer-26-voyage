@@ -27,7 +27,8 @@ export default function HeroNouveauVoyageur({ profileId }: Props) {
       <div className="absolute inset-0 opacity-[0.42] mix-blend-multiply">
         <HeroPhotoStripResolved steps={HERO_ACCUEIL_STEP_REFS} />
       </div>
-      <div className="absolute inset-0 bg-gradient-to-t from-[#111111]/95 via-[#111111]/55 to-transparent" />
+      <div className="hero-accueil-warm-overlay pointer-events-none absolute inset-0 mix-blend-soft-light opacity-90" />
+      <div className="hero-accueil-scrim pointer-events-none absolute inset-0" />
 
       <AccueilHeroBrandMark />
       <HomeDecorTitle lines={decor} tone="onLight" />
@@ -35,7 +36,7 @@ export default function HeroNouveauVoyageur({ profileId }: Props) {
       <div className="relative z-10 flex min-h-0 flex-1 flex-col justify-between px-4 pb-10 pt-[calc(env(safe-area-inset-top,0px)+4rem)]">
         <div className="min-h-0 flex-1" />
         <div>
-          <p className="mb-3 font-courier text-[10px] font-bold uppercase tracking-[0.45em] text-[#E07856]">
+          <p className="mb-3 font-courier text-[10px] font-bold uppercase tracking-[0.45em] text-[var(--color-accent-start)]">
             Viago
           </p>
           <h1
@@ -65,17 +66,11 @@ export default function HeroNouveauVoyageur({ profileId }: Props) {
             Carnet, carte, envies — sans file d’attente.
           </p>
           <div className="mt-10 flex w-full max-w-lg flex-col gap-3">
-            <Link
-              href="/planifier/inspiration"
-              className="flex w-full items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-[#E07856] to-[#c94a4a] py-4 font-courier text-base font-bold text-white shadow-[0_10px_36px_rgba(224,120,86,0.45)] transition hover:brightness-105 active:scale-[0.99]"
-            >
+            <Link href="/planifier/inspiration" className="viago-cta-primary w-full">
               <Sparkles className="h-5 w-5" aria-hidden />
               Explorer des idées
             </Link>
-            <Link
-              href="/planifier/commencer"
-              className="flex w-full items-center justify-center gap-2 rounded-2xl border-2 border-[#E07856]/35 bg-white/80 py-3.5 font-courier text-base font-bold text-[#5c3d2e] shadow-sm backdrop-blur-sm transition hover:border-[#E07856]/50 hover:bg-white"
-            >
+            <Link href="/planifier/commencer" className="viago-cta-secondary w-full">
               <Compass className="h-5 w-5" aria-hidden />
               Commencer un voyage
             </Link>

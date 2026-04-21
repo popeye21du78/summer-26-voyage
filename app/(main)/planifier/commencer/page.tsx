@@ -33,7 +33,7 @@ export default function CommencerVoyagePage() {
     <main className="page-under-header mx-auto max-w-5xl px-4 py-8 pb-16">
       <Link
         href="/accueil#on-repart"
-        className="mb-6 inline-flex items-center gap-2 font-courier text-sm font-bold text-[#A55734] hover:underline"
+        className="mb-6 inline-flex items-center gap-2 font-courier text-sm font-bold text-[var(--color-accent-end)] hover:underline"
       >
         <ArrowLeft className="h-4 w-4" aria-hidden />
         Retour à l’accueil
@@ -48,11 +48,11 @@ export default function CommencerVoyagePage() {
       </p>
 
       {/* Recherche — ici, pas en hero d’accueil */}
-      <section className="mt-8 rounded-2xl border-2 border-[#E07856]/25 bg-[#FFF8F0]/90 p-5 shadow-sm">
+      <section className="mt-8 rounded-2xl border-2 border-[var(--color-accent-start)]/25 bg-[#FFF8F0]/90 p-5 shadow-sm">
         <div className="flex flex-wrap items-center gap-3">
-          <Search className="h-6 w-6 shrink-0 text-[#E07856]" aria-hidden />
+          <Search className="h-6 w-6 shrink-0 text-[var(--color-accent-start)]" aria-hidden />
           <div className="min-w-0 flex-1">
-            <h2 className="font-courier text-sm font-bold uppercase tracking-wider text-[#A55734]">
+            <h2 className="font-courier text-sm font-bold uppercase tracking-wider text-[var(--color-accent-end)]">
               Rechercher & placer sur la carte
             </h2>
             <p className="font-courier text-xs text-[#333333]/75">
@@ -62,13 +62,13 @@ export default function CommencerVoyagePage() {
           <div className="flex w-full flex-wrap gap-2 sm:w-auto">
             <Link
               href="/planifier/zone"
-              className="rounded-full border-2 border-[#E07856]/50 bg-white px-4 py-2 font-courier text-xs font-bold text-[#A55734] transition hover:bg-[#FFF2EB]"
+              className="rounded-full border-2 border-[var(--color-accent-start)]/50 bg-white px-4 py-2 font-courier text-xs font-bold text-[var(--color-accent-end)] transition hover:bg-[#FFF2EB]"
             >
               Par zone
             </Link>
             <Link
               href="/planifier/lieux"
-              className="rounded-full border-2 border-[#E07856]/50 bg-white px-4 py-2 font-courier text-xs font-bold text-[#A55734] transition hover:bg-[#FFF2EB]"
+              className="rounded-full border-2 border-[var(--color-accent-start)]/50 bg-white px-4 py-2 font-courier text-xs font-bold text-[var(--color-accent-end)] transition hover:bg-[#FFF2EB]"
             >
               Par lieux
             </Link>
@@ -84,10 +84,10 @@ export default function CommencerVoyagePage() {
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
           <Link
             href="/planifier/inspiration"
-            className="group flex flex-col rounded-2xl border-2 border-[#E07856]/40 bg-white/90 p-4 text-left shadow-md transition hover:border-[#E07856] hover:shadow-lg"
+            className="group flex flex-col rounded-2xl border-2 border-[var(--color-accent-start)]/40 bg-white/90 p-4 text-left shadow-md transition hover:border-[var(--color-accent-start)] hover:shadow-lg"
           >
-            <Sparkles className="mb-2 h-8 w-8 text-[#E07856]" aria-hidden />
-            <span className="font-courier text-sm font-bold uppercase tracking-wide text-[#A55734]">
+            <Sparkles className="mb-2 h-8 w-8 text-[var(--color-accent-start)]" aria-hidden />
+            <span className="font-courier text-sm font-bold uppercase tracking-wide text-[var(--color-accent-end)]">
               Trouver l&apos;inspiration
             </span>
             <span className="mt-1 font-courier text-xs leading-relaxed text-[#333]/80">
@@ -96,10 +96,10 @@ export default function CommencerVoyagePage() {
           </Link>
           <Link
             href="/planifier/zone"
-            className="group flex flex-col rounded-2xl border-2 border-[#E07856]/40 bg-white/90 p-4 text-left shadow-md transition hover:border-[#E07856] hover:shadow-lg"
+            className="group flex flex-col rounded-2xl border-2 border-[var(--color-accent-start)]/40 bg-white/90 p-4 text-left shadow-md transition hover:border-[var(--color-accent-start)] hover:shadow-lg"
           >
-            <MapPinned className="mb-2 h-8 w-8 text-[#E07856]" aria-hidden />
-            <span className="font-courier text-sm font-bold uppercase tracking-wide text-[#A55734]">
+            <MapPinned className="mb-2 h-8 w-8 text-[var(--color-accent-start)]" aria-hidden />
+            <span className="font-courier text-sm font-bold uppercase tracking-wide text-[var(--color-accent-end)]">
               Créer dans une zone
             </span>
             <span className="mt-1 font-courier text-xs leading-relaxed text-[#333]/80">
@@ -108,10 +108,10 @@ export default function CommencerVoyagePage() {
           </Link>
           <Link
             href="/planifier/axe"
-            className="group flex flex-col rounded-2xl border-2 border-[#E07856]/40 bg-white/90 p-4 text-left shadow-md transition hover:border-[#E07856] hover:shadow-lg"
+            className="group flex flex-col rounded-2xl border-2 border-[var(--color-accent-start)]/40 bg-white/90 p-4 text-left shadow-md transition hover:border-[var(--color-accent-start)] hover:shadow-lg"
           >
-            <Route className="mb-2 h-8 w-8 text-[#E07856]" aria-hidden />
-            <span className="font-courier text-sm font-bold uppercase tracking-wide text-[#A55734]">
+            <Route className="mb-2 h-8 w-8 text-[var(--color-accent-start)]" aria-hidden />
+            <span className="font-courier text-sm font-bold uppercase tracking-wide text-[var(--color-accent-end)]">
               Départ → arrivée
             </span>
             <span className="mt-1 font-courier text-xs leading-relaxed text-[#333]/80">
@@ -120,10 +120,10 @@ export default function CommencerVoyagePage() {
           </Link>
           <Link
             href="/planifier/lieux"
-            className="group flex flex-col rounded-2xl border-2 border-[#E07856]/40 bg-white/90 p-4 text-left shadow-md transition hover:border-[#E07856] hover:shadow-lg"
+            className="group flex flex-col rounded-2xl border-2 border-[var(--color-accent-start)]/40 bg-white/90 p-4 text-left shadow-md transition hover:border-[var(--color-accent-start)] hover:shadow-lg"
           >
-            <MapPin className="mb-2 h-8 w-8 text-[#E07856]" aria-hidden />
-            <span className="font-courier text-sm font-bold uppercase tracking-wide text-[#A55734]">
+            <MapPin className="mb-2 h-8 w-8 text-[var(--color-accent-start)]" aria-hidden />
+            <span className="font-courier text-sm font-bold uppercase tracking-wide text-[var(--color-accent-end)]">
               Autour de lieux choisis
             </span>
             <span className="mt-1 font-courier text-xs leading-relaxed text-[#333]/80">
@@ -132,10 +132,10 @@ export default function CommencerVoyagePage() {
           </Link>
           <Link
             href="/planifier/favoris"
-            className="group flex flex-col rounded-2xl border-2 border-[#A55734]/25 bg-white/60 p-4 text-left shadow-md transition hover:border-[#E07856]/50 sm:col-span-2"
+            className="group flex flex-col rounded-2xl border-2 border-[var(--color-accent-end)]/25 bg-white/60 p-4 text-left shadow-md transition hover:border-[var(--color-accent-start)]/50 sm:col-span-2"
           >
-            <Heart className="mb-2 h-8 w-8 text-[#E07856]" aria-hidden />
-            <span className="font-courier text-sm font-bold uppercase tracking-wide text-[#A55734]">
+            <Heart className="mb-2 h-8 w-8 text-[var(--color-accent-start)]" aria-hidden />
+            <span className="font-courier text-sm font-bold uppercase tracking-wide text-[var(--color-accent-end)]">
               Coups de cœur
             </span>
             <span className="mt-1 font-courier text-xs leading-relaxed text-[#333]/80">
@@ -145,7 +145,7 @@ export default function CommencerVoyagePage() {
         </div>
 
         <div className="flex w-full max-w-md flex-col justify-start lg:mx-auto">
-          <p className="mb-2 text-center font-courier text-xs font-bold uppercase tracking-wider text-[#A55734]/90 lg:text-left">
+          <p className="mb-2 text-center font-courier text-xs font-bold uppercase tracking-wider text-[var(--color-accent-end)]/90 lg:text-left">
             Piste secondaire — voyages tout faits
           </p>
           <LaissezVousTenterCarousel voyages={voyagesCarousel} />

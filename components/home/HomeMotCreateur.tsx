@@ -10,12 +10,12 @@ export default function HomeMotCreateur() {
   return (
     <section
       id="section-createur"
-      className={`relative border-t border-[#E07856]/25 bg-gradient-to-b from-[#2f2826] to-[#1f1a19] ${SNAP_SECTION}`}
+      className={`relative border-t border-[var(--color-accent-start)]/25 bg-gradient-to-b from-[#2f2826] to-[#1f1a19] ${SNAP_SECTION}`}
       aria-labelledby="mot-createur-titre"
     >
       <HomeDecorTitle lines={["LE", "MOT"]} tone="onDark" />
       <div className={`relative z-10 ${SNAP_SECTION_SCROLL_INNER} px-4 pb-8 pt-[calc(env(safe-area-inset-top,0px)+4.25rem)]`}>
-        <p className="mb-2 font-courier text-[10px] font-bold uppercase tracking-[0.4em] text-[#E07856]/90">
+        <p className="mb-2 font-courier text-[10px] font-bold uppercase tracking-[0.4em] text-[var(--color-accent-start)]/90">
           Mot du créateur
         </p>
         <h2

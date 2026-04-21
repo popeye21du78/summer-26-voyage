@@ -175,20 +175,20 @@ export default function StarFlipDetail({ itinerary, onCloseFlip }: Props) {
   const token = process.env.NEXT_PUBLIC_MAPBOX_TOKEN;
 
   return (
-    <div className="flex h-full min-h-[480px] flex-col overflow-y-auto overflow-x-hidden bg-[#141414] overscroll-y-contain">
+    <div className="flex h-full min-h-[480px] flex-col overflow-y-auto overflow-x-hidden bg-[var(--color-bg-main)] overscroll-y-contain">
       {/* Pas de sticky : la carte défile avec le texte pour pouvoir lire le récit */}
-      <div className="shrink-0 border-b border-white/6 bg-[#141414]">
-        <div className="relative aspect-[4/3] max-h-[min(42vh,320px)] w-full min-h-[180px] bg-[#1c1c1c] sm:aspect-[16/10] sm:max-h-[min(38vh,360px)]">
+      <div className="shrink-0 border-b border-white/6 bg-[var(--color-bg-main)]">
+        <div className="relative aspect-[4/3] max-h-[min(42vh,320px)] w-full min-h-[180px] bg-[var(--color-bg-secondary)] sm:aspect-[16/10] sm:max-h-[min(38vh,360px)]">
           {resolvedSteps === null ? (
             <div className="flex h-full flex-col items-center justify-center gap-2">
-              <div className="h-7 w-7 rounded-full border-2 border-[#E07856]/20 border-t-[#E07856] animate-spin" />
+              <div className="h-7 w-7 rounded-full border-2 border-[var(--color-accent-start)]/20 border-t-[var(--color-accent-start)] animate-spin" />
               <p className="font-courier text-[10px] text-white/25">Carte…</p>
             </div>
           ) : mapSteps ? (
             <StarFlipMap steps={mapSteps} activeStepIndex={activeStep} mapboxToken={token} />
           ) : (
             <div className="flex h-full flex-col items-center justify-center px-4 text-center">
-              <MapPin className="mb-2 h-8 w-8 text-[#E07856]/25" />
+              <MapPin className="mb-2 h-8 w-8 text-[var(--color-accent-start)]/25" />
               <p className="font-courier text-[10px] leading-relaxed text-white/35">
                 Pas de tracé cartographique pour ces étapes. Les photos des villes restent ci-dessous.
               </p>
@@ -206,8 +206,8 @@ export default function StarFlipDetail({ itinerary, onCloseFlip }: Props) {
         </div>
       </div>
 
-      <div className="relative shrink-0 border-b border-white/6 bg-[#0e0e0e] py-3">
-        <p className="mb-2 px-4 font-courier text-[9px] font-bold uppercase tracking-wider text-[#E07856]/70">
+      <div className="relative shrink-0 border-b border-white/6 bg-[var(--color-bg-main)] py-3">
+        <p className="mb-2 px-4 font-courier text-[9px] font-bold uppercase tracking-wider text-[var(--color-accent-start)]/70">
           Villes · défilement horizontal
         </p>
         <div
@@ -222,7 +222,7 @@ export default function StarFlipDetail({ itinerary, onCloseFlip }: Props) {
               onClick={() => scrollToStep(i)}
               className={`relative shrink-0 overflow-hidden rounded-xl transition-all duration-300 ${
                 activeStep === i
-                  ? "ring-2 ring-[#E07856] ring-offset-1 ring-offset-[#141414]"
+                  ? "ring-2 ring-[var(--color-accent-start)] ring-offset-1 ring-offset-[var(--color-bg-main)]"
                   : "opacity-55 hover:opacity-85"
               }`}
               style={{ width: "96px", height: "140px" }}
@@ -267,7 +267,7 @@ export default function StarFlipDetail({ itinerary, onCloseFlip }: Props) {
           )}
           className="flex shrink-0 items-center gap-2 border-b border-white/6 px-4 py-2.5 transition hover:bg-white/3"
         >
-          <MapPin className="h-3.5 w-3.5 shrink-0 text-[#E07856]" />
+          <MapPin className="h-3.5 w-3.5 shrink-0 text-[var(--color-accent-start)]" />
           <span className="font-courier text-sm font-bold text-white/75">
             {stepsForStrip[activeStep].nom}
           </span>
@@ -276,7 +276,7 @@ export default function StarFlipDetail({ itinerary, onCloseFlip }: Props) {
       )}
 
       <div className="px-4 py-6 pb-10">
-        <p className="font-courier text-[10px] font-bold uppercase tracking-wider text-[#E07856]/80">
+        <p className="font-courier text-[10px] font-bold uppercase tracking-wider text-[var(--color-accent-start)]/80">
           Le voyage
         </p>
         <p className="mt-2 font-courier text-sm leading-relaxed text-white/55">{itinerary.summary}</p>

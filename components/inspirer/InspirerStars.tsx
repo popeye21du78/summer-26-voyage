@@ -219,10 +219,10 @@ export default function InspirerStars({ initialRegionFilter, searchQuery }: Prop
   }, []);
 
   return (
-    <div className="relative flex h-full min-h-0 flex-col overflow-hidden bg-[#111111]">
+    <div className="relative flex h-full min-h-0 flex-col overflow-hidden bg-[var(--color-bg-main)]">
       {/* Région + raccourcis profils (recherche : TopBar commune) */}
       <div
-        className={`shrink-0 overflow-hidden border-b border-white/6 bg-[#111111]/95 backdrop-blur-lg transition-[max-height,opacity] duration-200 ease-out ${
+        className={`shrink-0 overflow-hidden border-b border-white/6 bg-[var(--color-bg-main)]/95 backdrop-blur-lg transition-[max-height,opacity] duration-200 ease-out ${
           filtersHidden
             ? "pointer-events-none max-h-0 border-0 opacity-0"
             : "max-h-[min(220px,38vh)] opacity-100"
@@ -231,9 +231,9 @@ export default function InspirerStars({ initialRegionFilter, searchQuery }: Prop
         <div className="flex items-center justify-between px-4 py-3">
           <button
             onClick={() => setSidebarOpen(true)}
-            className="flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-1.5 font-courier text-[11px] font-bold text-white/60 transition hover:border-[#E07856]/30 hover:text-white/80"
+            className="flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-1.5 font-courier text-[11px] font-bold text-white/60 transition hover:border-[var(--color-accent-start)]/30 hover:text-white/80"
           >
-            <Filter className="h-3.5 w-3.5 text-[#E07856]" />
+            <Filter className="h-3.5 w-3.5 text-[var(--color-accent-start)]" />
             {activeRegionName}
           </button>
           <div className="flex items-center gap-2">
@@ -252,7 +252,7 @@ export default function InspirerStars({ initialRegionFilter, searchQuery }: Prop
               <LinkWithReturn
                 key={p.id}
                 href={`/profil/${p.id}`}
-                className="rounded-full border border-[#E07856]/25 bg-[#E07856]/10 px-2.5 py-1 font-courier text-[10px] font-bold text-[#E07856]/90 transition hover:bg-[#E07856]/18"
+                className="rounded-full border border-[var(--color-accent-start)]/25 bg-[var(--color-accent-start)]/10 px-2.5 py-1 font-courier text-[10px] font-bold text-[var(--color-accent-start)]/90 transition hover:bg-[var(--color-accent-start)]/18"
               >
                 {p.name}
               </LinkWithReturn>
@@ -267,11 +267,11 @@ export default function InspirerStars({ initialRegionFilter, searchQuery }: Prop
         onScroll={onMainScroll}
         className="min-h-0 flex-1 overflow-y-auto scroll-smooth"
       >
-        <div className="px-4 py-4">
+        <div className="px-4 py-4 pb-bottom-nav">
           {/* Cross-region theme carousels (only when no filter) */}
           {crossThemesFiltered.map((ct) => (
             <div key={ct.keyword} className="mb-10">
-              <h3 className="mb-4 font-courier text-xs font-bold uppercase tracking-wider text-[#E07856]">
+              <h3 className="mb-4 font-courier text-xs font-bold uppercase tracking-wider text-[var(--color-accent-start)]">
                 {ct.label}
               </h3>
               <div className="flex flex-col gap-5">
@@ -295,7 +295,7 @@ export default function InspirerStars({ initialRegionFilter, searchQuery }: Prop
                 {!regionFilter && (
                   <button
                     onClick={() => handleSelectRegion(group.regionId)}
-                    className="mb-1 flex items-center gap-1 font-courier text-[10px] font-bold uppercase tracking-wider text-[#E07856]/50 transition hover:text-[#E07856]"
+                    className="mb-1 flex items-center gap-1 font-courier text-[10px] font-bold uppercase tracking-wider text-[var(--color-accent-start)]/50 transition hover:text-[var(--color-accent-start)]"
                   >
                     <MapPin className="h-3 w-3" />
                     {group.regionName}
@@ -338,11 +338,11 @@ export default function InspirerStars({ initialRegionFilter, searchQuery }: Prop
         >
           <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" />
           <div
-            className="relative z-10 flex h-full w-64 flex-col border-r border-white/6 bg-[#0e0e0e]"
+            className="relative z-10 flex h-full w-64 flex-col border-r border-white/6 bg-[var(--color-bg-main)]"
             onClick={(e) => e.stopPropagation()}
           >
             <div className="flex items-center justify-between border-b border-white/8 px-4 py-3">
-              <span className="font-courier text-xs font-bold uppercase tracking-wider text-[#E07856]">
+              <span className="font-courier text-xs font-bold uppercase tracking-wider text-[var(--color-accent-start)]">
                 Régions
               </span>
               <button
@@ -358,7 +358,7 @@ export default function InspirerStars({ initialRegionFilter, searchQuery }: Prop
                 onClick={() => handleSelectRegion(null)}
                 className={`flex w-full items-center justify-between px-4 py-2.5 text-left font-courier text-xs transition ${
                   !regionFilter
-                    ? "bg-[#E07856]/10 font-bold text-[#E07856]"
+                    ? "bg-[var(--color-accent-start)]/10 font-bold text-[var(--color-accent-start)]"
                     : "text-white/40 hover:bg-white/3 hover:text-white/60"
                 }`}
               >
@@ -374,7 +374,7 @@ export default function InspirerStars({ initialRegionFilter, searchQuery }: Prop
                   onClick={() => handleSelectRegion(r.id)}
                   className={`flex w-full items-center justify-between px-4 py-2.5 text-left font-courier text-xs transition ${
                     regionFilter === r.id
-                      ? "bg-[#E07856]/10 font-bold text-[#E07856]"
+                      ? "bg-[var(--color-accent-start)]/10 font-bold text-[var(--color-accent-start)]"
                       : "text-white/40 hover:bg-white/3 hover:text-white/60"
                   }`}
                 >

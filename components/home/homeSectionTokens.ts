@@ -15,7 +15,7 @@ export const HOME_SECTION_H2 =
 
 /** Carte liste harmonisée (Mes voyages, Partages, etc.). */
 export const HOME_LIST_CARD =
-  "flex min-h-[5.25rem] w-full items-stretch gap-3 rounded-2xl border-2 border-[#E07856]/28 bg-white/95 p-3.5 shadow-[0_6px_24px_rgba(45,30,20,0.07)] transition hover:border-[#E07856]/48 hover:shadow-[0_8px_28px_rgba(224,120,86,0.12)]";
+  "flex min-h-[5.25rem] w-full items-stretch gap-3 rounded-2xl border-2 border-[var(--color-accent-start)]/28 bg-white/95 p-3.5 shadow-[0_6px_24px_rgba(45,30,20,0.07)] transition hover:border-[var(--color-accent-start)]/48 hover:shadow-[0_8px_28px_rgba(224,120,86,0.12)]";
 
 /** Carte liste sur fond dégradé brique / sombre chaud (aligné porte d’entrée). */
 export const HOME_LIST_CARD_ON_DARK =
@@ -23,4 +23,4 @@ export const HOME_LIST_CARD_ON_DARK =
 
 /** Pastille icône / vignette (même taille partout). */
 export const HOME_LIST_MEDIA_BOX =
-  "flex h-[3.25rem] w-[3.25rem] shrink-0 items-center justify-center overflow-hidden rounded-xl bg-gradient-to-br from-[#E07856]/12 to-[#CD853F]/18 ring-1 ring-[#E07856]/22";
+  "flex h-[3.25rem] w-[3.25rem] shrink-0 items-center justify-center overflow-hidden rounded-xl bg-gradient-to-br from-[var(--color-accent-start)]/12 to-[var(--color-accent-gold)]/18 ring-1 ring-[var(--color-accent-start)]/22";

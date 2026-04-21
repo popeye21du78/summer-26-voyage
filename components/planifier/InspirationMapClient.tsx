@@ -28,11 +28,12 @@ import {
   Waves,
 } from "lucide-react";
 import { Marker } from "react-map-gl/mapbox";
+import VillePhotoMarker from "@/components/planifier/VillePhotoMarker";
 
 const Map = dynamic(() => import("react-map-gl/mapbox").then((m) => m.default), {
   ssr: false,
   loading: () => (
-    <div className="flex h-full min-h-[240px] items-center justify-center bg-[#1c1c1c]/40 font-courier text-sm text-white/80/60">
+    <div className="flex h-full min-h-[240px] items-center justify-center bg-[var(--color-bg-secondary)]/40 font-courier text-sm text-white/80/60">
       Chargement carte…
     </div>
   ),
@@ -231,7 +232,7 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
           -5.5,
           "#E8B090",
           0,
-          "#E07856",
+          "var(--color-accent-start)",
           4,
           "#E8906E",
           9.5,
@@ -292,7 +293,7 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
             ? ([
                 "case",
                 ["==", ["get", "id"], sel],
-                "#E07856",
+                "var(--color-accent-start)",
                 "#6b6b6b",
               ] as const)
             : "#6e6e6e",
@@ -318,7 +319,7 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
     const starLinePaint = useMemo(
       () =>
         ({
-          "line-color": "#E07856",
+          "line-color": "var(--color-accent-start)",
           "line-width": ["case", ["==", ["get", "hl"], 1], 5, 2.2],
           "line-opacity": 0.88,
         }) as Record<string, unknown>,
@@ -331,7 +332,7 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
       if (!hl) {
         return {
           "circle-radius": 7,
-          "circle-color": "#E07856",
+          "circle-color": "var(--color-accent-start)",
           "circle-stroke-width": 2,
           "circle-stroke-color": "#ffffff",
           "circle-opacity": op,
@@ -344,7 +345,7 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
           "case",
           ["==", ["get", "id"], hl],
           "#ff8a5c",
-          "#E07856",
+          "var(--color-accent-start)",
         ],
         "circle-stroke-width": ["case", ["==", ["get", "id"], hl], 4, 2],
         "circle-stroke-color": "#fffef8",
@@ -565,63 +566,46 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
                 <Layer id={POI_LAYER_ID} type="circle" paint={territoryPoiPaint} />
               </Source>
             )}
-            {showVillePoints && villePoints && villePoints.features.length > 0 && (
-              <Source id="insp-ville-pts" type="geojson" data={villePoints}>
-                <Layer
-                  id={VILLE_LAYER_ID}
-                  type="circle"
-                  paint={{
-                    "circle-radius": [
-                      "match",
-                      ["get", "tier"],
-                      "strong",
-                      12,
-                      "saved",
-                      10,
-                      6,
-                    ],
-                    "circle-color": [
-                      "match",
-                      ["get", "tier"],
-                      "strong",
-                      "#E07856",
-                      "saved",
-                      "#E07856",
-                      "#3d6b63",
-                    ],
-                    "circle-stroke-width": [
-                      "match",
-                      ["get", "tier"],
-                      "strong",
-                      3,
-                      "saved",
-                      2,
-                      2,
-                    ],
-                    "circle-stroke-color": "#1c1c1c",
-                  }}
-                />
-                <Layer
-                  id={VILLE_LABEL_LAYER_ID}
-                  type="symbol"
-                  minzoom={7.2}
-                  layout={{
-                    "text-field": ["get", "name"],
-                    "text-size": 10,
-                    "text-offset": [0, 1.35],
-                    "text-anchor": "top",
-                    "text-max-width": 9,
-                    "text-allow-overlap": false,
-                    "text-ignore-placement": false,
-                  }}
-                  paint={{
-                    "text-color": "#1a1410",
-                    "text-halo-color": "#ffffff",
-                    "text-halo-width": 1.8,
-                  }}
-                />
-              </Source>
-            )}
+            {/*
+             * Villes / POIs : rendu React en <Marker> avec photo + label toujours visible.
+             * Remplace l'ancien layer circle (pas de photo possible dans un paint Mapbox).
+             * Les counts sont plafonnés côté screen à 5-7 aux zoom bas → pas de surcharge.
+             */}
+            {showVillePoints &&
+              villePoints &&
+              villePoints.features.length > 0 &&
+              villePoints.features.map((f, idx) => {
+                const g = f.geometry;
+                if (!g || g.type !== "Point") return null;
+                const [lng, lat] = g.coordinates as [number, number];
+                const props = (f.properties ?? {}) as {
+                  id?: string;
+                  name?: string;
+                  tier?: string;
+                };
+                const slug = typeof props.id === "string" ? props.id : "";
+                const nom = typeof props.name === "string" ? props.name : slug;
+                const tier =
+                  props.tier === "strong" || props.tier === "saved"
+                    ? (props.tier as "strong" | "saved")
+                    : ("standard" as const);
+                if (!slug) return null;
+                return (
+                  <Marker
+                    key={`ville-${slug}-${idx}`}
+                    longitude={lng}
+                    latitude={lat}
+                    anchor="center"
+                  >
+                    <VillePhotoMarker
+                      slug={slug}
+                      nom={nom}
+                      tier={tier}
+                      onClick={() => onVilleRef.current?.(slug, nom)}
+                    />
+                  </Marker>
+                );
+              })}
             {showStarItineraryMarkers &&
               starItineraryStops.map((s) => (
                 <Marker
@@ -632,7 +616,7 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
                 >
                   <button
                     type="button"
-                    className="group relative flex h-[52px] w-[52px] cursor-pointer items-center justify-center rounded-full border-[3px] border-white bg-white shadow-lg ring-2 ring-[#E07856]/35 transition hover:scale-105 hover:ring-[#E07856]/55"
+                    className="group relative flex h-[52px] w-[52px] cursor-pointer items-center justify-center rounded-full border-[3px] border-white bg-white shadow-lg ring-2 ring-[var(--color-accent-start)]/35 transition hover:scale-105 hover:ring-[var(--color-accent-start)]/55"
                     onClick={(e) => {
                       e.stopPropagation();
                       onVilleClick?.(s.slug, s.nom);
@@ -647,14 +631,14 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
                         className="h-full w-full rounded-full object-cover"
                       />
                     ) : (
-                      <div className="flex h-full w-full items-center justify-center rounded-full bg-gradient-to-br from-[#E07856] to-[#E07856]">
+                      <div className="flex h-full w-full items-center justify-center rounded-full bg-gradient-to-br from-[var(--color-accent-start)] to-[var(--color-accent-start)]">
                         <StopIconPicto iconKey={s.iconKey} />
                       </div>
                     )}
-                    <span className="absolute -bottom-1 -right-1 flex h-6 min-w-[1.5rem] items-center justify-center rounded-full bg-[#E07856] px-1 font-courier text-[10px] font-bold text-white shadow">
+                    <span className="absolute -bottom-1 -right-1 flex h-6 min-w-[1.5rem] items-center justify-center rounded-full bg-[var(--color-accent-start)] px-1 font-courier text-[10px] font-bold text-white shadow">
                       {s.order}
                     </span>
-                    <span className="pointer-events-none absolute -top-7 left-1/2 max-w-[140px] -translate-x-1/2 rounded bg-[#111111]/88 px-1.5 py-0.5 text-center font-courier text-[9px] font-bold text-white opacity-0 shadow transition group-hover:opacity-100">
+                    <span className="pointer-events-none absolute -top-7 left-1/2 max-w-[140px] -translate-x-1/2 rounded bg-[var(--color-bg-main)]/88 px-1.5 py-0.5 text-center font-courier text-[9px] font-bold text-white opacity-0 shadow transition group-hover:opacity-100">
                       {s.nom}
                     </span>
                   </button>
@@ -665,7 +649,7 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
         {(loading || loadError || !regionsDataAugmented) && (
           <div
             className={`pointer-events-none absolute inset-0 flex items-center justify-center font-courier text-sm ${
-              regionsDataAugmented ? "bg-white/70" : "bg-[#1c1c1c]/50"
+              regionsDataAugmented ? "bg-white/70" : "bg-[var(--color-bg-secondary)]/50"
             } text-white/80/70`}
           >
             {loadError

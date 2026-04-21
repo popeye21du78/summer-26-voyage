@@ -38,8 +38,12 @@ const MAP_REGIONS_OUTLINE_URL = "/geo/inspiration-map-regions-outline.geojson";
 
 type Props = { mapboxAccessToken: string | undefined };
 
-/** Joint carte / fiche : zone tactile large + touch iOS (passive: false sur touchmove). */
-function RegionSplitGutter({
+/**
+ * Poignée unique de la sheet région.
+ * Intégrée dans la sheet (pas de bande séparée au-dessus), ne laisse qu'un petit
+ * pill gris visible. Gère pointer + touch pour les 3 snap points (fermé / aperçu / plein).
+ */
+function RegionSheetHandle({
   onDragStart,
   onDrag,
   onDragEnd,
@@ -80,8 +84,8 @@ function RegionSplitGutter({
       ref={elRef}
       role="separator"
       aria-orientation="horizontal"
-      aria-label="Redimensionner carte et fiche"
-      className="relative z-30 flex min-h-[22px] shrink-0 cursor-row-resize touch-none select-none items-center justify-center border-y border-[#f5e6dc]/12 bg-gradient-to-r from-[#4a3f38] via-[#5c4d45] to-[#4a3f38] active:bg-[#5a4a42]"
+      aria-label="Redimensionner la fiche région"
+      className="relative z-30 flex min-h-[28px] shrink-0 cursor-row-resize touch-none select-none items-center justify-center"
       onPointerDown={(e) => {
         if (e.button !== 0) return;
         startY.current = e.clientY;
@@ -109,7 +113,7 @@ function RegionSplitGutter({
         onDragEnd?.();
       }}
     >
-      <div className="pointer-events-none h-2 w-[4.5rem] rounded-full bg-gradient-to-r from-[#5c3d32]/90 via-[#8a5a48]/95 to-[#5c3d32]/90 shadow-[0_2px_10px_rgba(0,0,0,0.35)] ring-1 ring-white/15" />
+      <div className="pointer-events-none h-1.5 w-12 rounded-full bg-white/30 shadow-sm ring-1 ring-white/10" />
     </div>
   );
 }
@@ -120,7 +124,6 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
     top,
     selectTerritoryPoi,
     goBack,
-    goExploreRegion,
     closeRegionMapFullscreen,
     selectRegion,
     starListPreviewLineSlug,
@@ -186,14 +189,24 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
   const showRegionSheet =
     top.screen !== "france" && top.screen !== "region-map-fullscreen";
 
+  /**
+   * Sheet région : 3 snap points fixes.
+   * - CLOSED (< 0.12) : la sheet est fermée → goBack() → carte + carousel visibles seuls.
+   * - PREVIEW (~0.48) : on voit la hero image de la région + son titre en filigrane. La carte reste visible dessous.
+   * - FULL (~0.92)    : aimanté juste sous la top bar → page région complète scrollable.
+   * Tirer vers le bas depuis FULL descend à PREVIEW ; tirer encore vers le bas ferme.
+   */
+  const SNAP_PREVIEW = 0.48;
+  const SNAP_FULL = 0.92;
+
   useEffect(() => {
     if (top.screen === "france") {
-      setSheetHeightRatio(0.52);
+      setSheetHeightRatio(SNAP_PREVIEW);
       return;
     }
     if (top.screen === "region-map-fullscreen") return;
-    if (top.screen === "region-preview") setSheetHeightRatio(0.34);
-    else if (top.screen === "region-explore") setSheetHeightRatio(0.78);
+    if (top.screen === "region-preview") setSheetHeightRatio(SNAP_PREVIEW);
+    else if (top.screen === "region-explore") setSheetHeightRatio(SNAP_FULL);
     else setSheetHeightRatio(0.72);
   }, [top.screen]);
 
@@ -201,19 +214,14 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
     sheetDragStartRatio.current = sheetHeightRatio;
   }, [sheetHeightRatio]);
 
-  /** Tirer vers le bas = fiche plus haute ; vers le haut = plus de carte visible. Seuils selon l’état UX. */
+  /** Tirer vers le bas (offset positif) = sheet plus courte ; vers le haut = sheet plus haute. */
   const onSheetHandleDrag = useCallback(
     (offsetY: number) => {
       const h = typeof window !== "undefined" ? window.innerHeight : 800;
       const next = sheetDragStartRatio.current - offsetY / h;
-      const mode = top.screen;
-      if (mode === "region-explore" || mode === "region-preview") {
-        setSheetHeightRatio(Math.min(0.92, Math.max(0.26, next)));
-      } else {
-        setSheetHeightRatio(Math.min(0.88, Math.max(0.12, next)));
-      }
+      setSheetHeightRatio(Math.min(SNAP_FULL, Math.max(0.06, next)));
     },
-    [top.screen]
+    []
   );
 
   const sheetHeightRatioRef = useRef(sheetHeightRatio);
@@ -225,41 +233,35 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
     const sh = sheetHeightRatioRef.current;
     const mode = top.screen;
 
-    if (mode === "region-preview") {
-      if (sh <= 0.26) {
+    if (mode === "region-map-fullscreen") return;
+
+    /** 3 snap points : fermé / aperçu / plein. Choix du plus proche avec seuils asymétriques. */
+    if (mode === "region-preview" || mode === "region-explore") {
+      if (sh < 0.2) {
         goBack();
         return;
       }
-      if (sh >= 0.42) {
-        goExploreRegion();
-        return;
+      /** Point milieu entre PREVIEW (0.48) et FULL (0.92) ≈ 0.70. */
+      if (sh < 0.7) {
+        setSheetHeightRatio(SNAP_PREVIEW);
+      } else {
+        setSheetHeightRatio(SNAP_FULL);
       }
-      setSheetHeightRatio(0.34);
       return;
     }
 
-    if (sh <= 0.28 && mode !== "region-map-fullscreen") {
+    /** POI, stars, etc. conservent l'ancien comportement 2 snaps. */
+    if (sh <= 0.28) {
       goBack();
       return;
     }
-
-    if (mode === "region-explore") {
-      if (sh <= 0.38) {
-        goBack();
-        return;
-      }
-      if (sh >= 0.82) setSheetHeightRatio(0.88);
-      else setSheetHeightRatio(0.78);
-      return;
-    }
-
     if (sh >= 0.78) {
       setSheetHeightRatio(0.72);
       return;
     }
     if (sh < 0.4) setSheetHeightRatio(0.48);
     else setSheetHeightRatio(0.52);
-  }, [top.screen, goBack, goExploreRegion]);
+  }, [top.screen, goBack]);
 
   const [villePoints, setVillePoints] = useState<FeatureCollection | null>(null);
   const [editorialRoadLineFc, setEditorialRoadLineFc] = useState<FeatureCollection | null>(null);
@@ -271,7 +273,11 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
   } | null>(null);
 
   useEffect(() => {
-    if (!activeRegionId || top.screen === "france" || top.screen === "region-preview") {
+    /**
+     * POIs visibles DÈS qu'une région est sélectionnée (aperçu, plein ou fullscreen).
+     * Seule la vue « france » pure est vide (les cartes régions suffisent).
+     */
+    if (!activeRegionId || top.screen === "france") {
       setVillePoints(null);
       return;
     }
@@ -294,8 +300,9 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
             .filter((f) => f.kind === "place")
             .map((f) => f.refId)
         );
+        /** 5-7 POIs visibles aux zoom bas, progression douce ensuite. Évite la surcharge visuelle. */
         const maxByZoom =
-          debouncedMapZoom < 6.5 ? 7 : debouncedMapZoom < 7.5 ? 12 : debouncedMapZoom < 9 ? 24 : 42;
+          debouncedMapZoom < 6.5 ? 5 : debouncedMapZoom < 7.5 ? 7 : debouncedMapZoom < 9 ? 12 : 18;
         const capped = d.lieux.slice(0, maxByZoom);
         const enriched: SlimLieuPoint[] = capped.map((l) => {
           const tier = savedSlugs.has(l.slug)
@@ -579,8 +586,8 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
 
           {selectedVillePreview && activeRegionId && (
             <div className="pointer-events-none absolute inset-x-0 bottom-[max(0.75rem,env(safe-area-inset-bottom))] z-[48] flex justify-center px-3 sm:justify-start sm:pl-5">
-              <div className="pointer-events-auto flex w-full max-w-md gap-3 rounded-2xl border border-[#E07856]/35 bg-[#111111]/95 p-3 shadow-2xl backdrop-blur-md">
-                <div className="relative h-[72px] w-[72px] shrink-0 overflow-hidden rounded-xl bg-[#1c1c1c]">
+              <div className="pointer-events-auto flex w-full max-w-md gap-3 rounded-2xl border border-[var(--color-accent-start)]/35 bg-[var(--color-bg-main)]/95 p-3 shadow-2xl backdrop-blur-md">
+                <div className="relative h-[72px] w-[72px] shrink-0 overflow-hidden rounded-xl bg-[var(--color-bg-secondary)]">
                   <CityPhoto
                     stepId={selectedVillePreview.slug}
                     ville={selectedVillePreview.nom}
@@ -598,7 +605,7 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
                       `/inspirer/ville/${encodeURIComponent(selectedVillePreview.slug)}?from=inspiration`,
                       returnBase
                     )}
-                    className="mt-1.5 inline-flex font-courier text-xs font-bold text-[#E07856] underline-offset-2 hover:underline"
+                    className="mt-1.5 inline-flex font-courier text-xs font-bold text-[var(--color-accent-start)] underline-offset-2 hover:underline"
                   >
                     Ouvrir la fiche
                   </Link>
@@ -619,46 +626,44 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
               <button
                 type="button"
                 onClick={closeRegionMapFullscreen}
-                className="pointer-events-auto inline-flex items-center gap-2 rounded-full border border-[#E07856]/25 bg-white/95 px-4 py-2.5 font-courier text-sm font-bold text-[#E07856] shadow-lg backdrop-blur-md"
+                className="pointer-events-auto inline-flex items-center gap-2 rounded-full border border-[var(--color-accent-start)]/25 bg-white/95 px-4 py-2.5 font-courier text-sm font-bold text-[var(--color-accent-start)] shadow-lg backdrop-blur-md"
               >
                 ← Retour à la fiche
               </button>
             </div>
           )}
 
-          {(top.screen === "france" ||
-            top.screen === "region-preview" ||
-            top.screen === "region-explore") && (
-              <>
-                {top.screen === "france" && (
-                  <div className="pointer-events-none absolute left-0 right-0 top-2 z-10 hidden justify-center px-3 lg:flex">
-                    <p className="max-w-md rounded-full border border-[#E07856]/15 bg-white/95 px-3 py-1.5 text-center font-courier text-[10px] leading-snug text-[#2a211c]/85 shadow-sm backdrop-blur-sm">
-                      Vue France — touche une région sur la carte ou fais défiler les cartes en bas
-                    </p>
-                  </div>
-                )}
-                <div
-                  className="pointer-events-none absolute left-0 right-0 z-[44]"
-                  style={{
-                    bottom: showRegionSheet ? sheetHvh : 0,
-                  }}
-                >
-                  <div className="pointer-events-auto">
-                    <RegionCarousel />
-                  </div>
+          {top.screen === "france" && (
+            <>
+              <div className="pointer-events-none absolute left-0 right-0 top-2 z-10 hidden justify-center px-3 lg:flex">
+                <p className="max-w-md rounded-full border border-[var(--color-accent-start)]/15 bg-white/95 px-3 py-1.5 text-center font-courier text-[10px] leading-snug text-[#2a211c]/85 shadow-sm backdrop-blur-sm">
+                  Vue France — touche une région sur la carte ou fais défiler les cartes en bas
+                </p>
+              </div>
+              {/**
+               * Carousel régions : visible UNIQUEMENT en vue France.
+               * Dès qu'une région est sélectionnée (sheet ouverte à n'importe quel snap), on le cache
+               * pour que la sheet ne soit plus cachée par les cartes, et que la carte derrière reste lisible.
+               */}
+              <div
+                className="pointer-events-none absolute left-0 right-0 bottom-0 z-[44]"
+              >
+                <div className="pointer-events-auto">
+                  <RegionCarousel />
                 </div>
-              </>
-            )}
+              </div>
+            </>
+          )}
 
           {showRegionSheet && (
             <motion.div
               initial={{ y: "100%" }}
               animate={{ y: 0 }}
               transition={{ type: "spring", damping: 30, stiffness: 280 }}
-              className="absolute bottom-0 left-0 right-0 z-[45] flex max-h-[92vh] flex-col overflow-hidden rounded-t-3xl border border-[#E07856]/20 bg-gradient-to-t from-[#faf0e8] to-[#fff8f2] shadow-[0_-8px_40px_rgba(180,80,40,0.2)]"
+              className="absolute bottom-0 left-0 right-0 z-[45] flex max-h-[92vh] flex-col overflow-hidden rounded-t-3xl border border-[var(--color-accent-start)]/20 bg-gradient-to-t from-[#faf0e8] to-[#fff8f2] shadow-[0_-8px_40px_rgba(180,80,40,0.2)]"
               style={{ height: sheetHvh }}
             >
-              <RegionSplitGutter
+              <RegionSheetHandle
                 onDragStart={onSheetHandleDragStart}
                 onDrag={onSheetHandleDrag}
                 onDragEnd={onGutterDragEnd}

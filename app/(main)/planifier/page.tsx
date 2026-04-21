@@ -13,59 +13,59 @@ export default function PlanifierHubPage() {
         <li>
           <Link
             href="/planifier/inspiration"
-            className="flex items-center gap-3 rounded-xl border-2 border-[#E07856]/35 bg-white/90 p-4 font-courier text-sm font-bold text-[#A55734] shadow-sm transition hover:border-[#E07856]"
+            className="flex items-center gap-3 rounded-xl border-2 border-[var(--color-accent-start)]/35 bg-white/90 p-4 font-courier text-sm font-bold text-[var(--color-accent-end)] shadow-sm transition hover:border-[var(--color-accent-start)]"
           >
-            <Sparkles className="h-6 w-6 shrink-0 text-[#E07856]" aria-hidden />
+            <Sparkles className="h-6 w-6 shrink-0 text-[var(--color-accent-start)]" aria-hidden />
             Trouver l’inspiration
           </Link>
         </li>
         <li>
           <Link
             href="/planifier/zone"
-            className="flex items-center gap-3 rounded-xl border-2 border-[#E07856]/35 bg-white/90 p-4 font-courier text-sm font-bold text-[#A55734] shadow-sm transition hover:border-[#E07856]"
+            className="flex items-center gap-3 rounded-xl border-2 border-[var(--color-accent-start)]/35 bg-white/90 p-4 font-courier text-sm font-bold text-[var(--color-accent-end)] shadow-sm transition hover:border-[var(--color-accent-start)]"
           >
-            <MapPinned className="h-6 w-6 shrink-0 text-[#E07856]" aria-hidden />
+            <MapPinned className="h-6 w-6 shrink-0 text-[var(--color-accent-start)]" aria-hidden />
             Créer dans une zone
           </Link>
         </li>
         <li>
           <Link
             href="/planifier/axe"
-            className="flex items-center gap-3 rounded-xl border-2 border-[#E07856]/35 bg-white/90 p-4 font-courier text-sm font-bold text-[#A55734] shadow-sm transition hover:border-[#E07856]"
+            className="flex items-center gap-3 rounded-xl border-2 border-[var(--color-accent-start)]/35 bg-white/90 p-4 font-courier text-sm font-bold text-[var(--color-accent-end)] shadow-sm transition hover:border-[var(--color-accent-start)]"
           >
-            <Route className="h-6 w-6 shrink-0 text-[#E07856]" aria-hidden />
+            <Route className="h-6 w-6 shrink-0 text-[var(--color-accent-start)]" aria-hidden />
             Départ → arrivée
           </Link>
         </li>
         <li>
           <Link
             href="/planifier/lieux"
-            className="flex items-center gap-3 rounded-xl border-2 border-[#E07856]/35 bg-white/90 p-4 font-courier text-sm font-bold text-[#A55734] shadow-sm transition hover:border-[#E07856]"
+            className="flex items-center gap-3 rounded-xl border-2 border-[var(--color-accent-start)]/35 bg-white/90 p-4 font-courier text-sm font-bold text-[var(--color-accent-end)] shadow-sm transition hover:border-[var(--color-accent-start)]"
           >
-            <MapPin className="h-6 w-6 shrink-0 text-[#E07856]" aria-hidden />
+            <MapPin className="h-6 w-6 shrink-0 text-[var(--color-accent-start)]" aria-hidden />
             Autour de lieux choisis
           </Link>
         </li>
         <li>
           <Link
             href="/planifier/favoris"
-            className="flex items-center gap-3 rounded-xl border-2 border-[#A55734]/25 bg-white/60 p-4 font-courier text-sm font-bold text-[#A55734] transition hover:bg-[#FFF2EB]"
+            className="flex items-center gap-3 rounded-xl border-2 border-[var(--color-accent-end)]/25 bg-white/60 p-4 font-courier text-sm font-bold text-[var(--color-accent-end)] transition hover:bg-[#FFF2EB]"
           >
-            <Heart className="h-6 w-6 shrink-0 text-[#E07856]" aria-hidden />
+            <Heart className="h-6 w-6 shrink-0 text-[var(--color-accent-start)]" aria-hidden />
             Coups de cœur
           </Link>
         </li>
       </ul>
       <Link
         href="/accueil#on-repart"
-        className="mt-10 inline-block font-courier text-sm text-[#A55734] underline"
+        className="mt-10 inline-block font-courier text-sm text-[var(--color-accent-end)] underline"
       >
         Retour à l’accueil
       </Link>
       <p className="mt-4">
         <Link
           href="/planifier/commencer"
-          className="font-courier text-sm font-bold text-[#A55734] underline"
+          className="font-courier text-sm font-bold text-[var(--color-accent-end)] underline"
         >
           Hub « Commencer un voyage » (tous les modes)
         </Link>

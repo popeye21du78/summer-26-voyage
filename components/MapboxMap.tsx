@@ -45,7 +45,7 @@ export default function MapboxMap() {
               href="https://account.mapbox.com/auth/signup/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#A55734] underline"
+              className="text-[var(--color-accent-end)] underline"
             >
               account.mapbox.com
             </a>
@@ -56,7 +56,7 @@ export default function MapboxMap() {
               href="https://account.mapbox.com/access-tokens/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#A55734] underline"
+              className="text-[var(--color-accent-end)] underline"
             >
               Access tokens
             </a>{" "}

@@ -7,13 +7,13 @@ const PHILOSOPHIES = [
     title: "LIBERTÉ",
     description:
       "Voyager à son rythme, s'arrêter où bon vous semble et vivre au fil de vos envies.",
-    color: "#E07856",
+    color: "var(--color-accent-start)",
   },
   {
     title: "AUTHENTICITÉ",
     description:
       "Découvrir la vraie France, loin des circuits touristiques classiques.",
-    color: "#D4635B",
+    color: "var(--color-accent-mid)",
   },
   {
     title: "ÉCORESPONSABILITÉ",
@@ -25,13 +25,13 @@ const PHILOSOPHIES = [
     title: "PARTAGE",
     description:
       "Créer des souvenirs inoubliables et partager des moments uniques en famille ou entre amis.",
-    color: "#E07856",
+    color: "var(--color-accent-start)",
   },
   {
     title: "AVENTURE",
     description:
       "Sortir des sentiers battus et explorer l'inconnu avec curiosité et passion.",
-    color: "#D4635B",
+    color: "var(--color-accent-mid)",
   },
   {
     title: "SIMPLICITÉ",
@@ -122,7 +122,7 @@ export default function PhilosophieCylindre() {
       <button
         type="button"
         onClick={prevSlide}
-        className="z-20 flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-[#E07856] text-2xl font-bold text-white shadow-2xl transition-all duration-300 hover:scale-110 hover:bg-[#D4635B] hover:shadow-[#E07856]/70 active:scale-95 md:h-14 md:w-14"
+        className="z-20 flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-[var(--color-accent-start)] text-2xl font-bold text-white shadow-2xl transition-all duration-300 hover:scale-110 hover:bg-[var(--color-accent-mid)] hover:shadow-[var(--color-accent-start)]/70 active:scale-95 md:h-14 md:w-14"
       >
         ‹
       </button>
@@ -166,7 +166,7 @@ export default function PhilosophieCylindre() {
                 <div
                   className="flex flex-col rounded-[24px] border-2 bg-white/5 p-5 backdrop-blur-md"
                   style={{
-                    borderColor: isCenter ? "#E07856" : "rgba(255, 255, 255, 0.2)",
+                    borderColor: isCenter ? "var(--color-accent-start)" : "rgba(255, 255, 255, 0.2)",
                     boxShadow: isCenter
                       ? "0 25px 50px -12px rgba(224, 120, 86, 0.5)"
                       : "0 10px 15px -3px rgba(0, 0, 0, 0.1)",
@@ -198,7 +198,7 @@ export default function PhilosophieCylindre() {
       <button
         type="button"
         onClick={nextSlide}
-        className="z-20 flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-[#E07856] text-2xl font-bold text-white shadow-2xl transition-all duration-300 hover:scale-110 hover:bg-[#D4635B] hover:shadow-[#E07856]/70 active:scale-95 md:h-14 md:w-14"
+        className="z-20 flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-[var(--color-accent-start)] text-2xl font-bold text-white shadow-2xl transition-all duration-300 hover:scale-110 hover:bg-[var(--color-accent-mid)] hover:shadow-[var(--color-accent-start)]/70 active:scale-95 md:h-14 md:w-14"
       >
         ›
       </button>
@@ -216,7 +216,7 @@ export default function PhilosophieCylindre() {
             }}
             className={`h-2 rounded-full transition-all duration-500 ${
               index === normalizedIndex
-                ? "w-8 bg-[#E07856]"
+                ? "w-8 bg-[var(--color-accent-start)]"
                 : "w-2 bg-white/30 hover:bg-white/50"
             }`}
           />

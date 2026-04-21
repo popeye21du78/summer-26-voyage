@@ -72,13 +72,13 @@ export default function VoyagePrevuCountdown({
       <div
         className={`relative z-20 px-4 pt-[calc(env(safe-area-inset-top,0px)+3.5rem)] ${SNAP_SECTION_SCROLL_INNER}`}
       >
-        <p className="mb-2 font-courier text-[10px] font-bold uppercase tracking-[0.4em] text-[#E07856]">
+        <p className="mb-2 font-courier text-[10px] font-bold uppercase tracking-[0.4em] text-[var(--color-accent-start)]">
           Prochain départ
         </p>
         <h1
           className="relative mb-1 max-w-[95%] font-courier text-[1.65rem] font-bold uppercase leading-tight tracking-tight text-transparent sm:text-[1.85rem]"
           style={{
-            background: "linear-gradient(to right, #E07856, #D4635B, #CD853F)",
+            background: "linear-gradient(to right, var(--color-accent-start), var(--color-accent-mid), var(--color-accent-gold))",
             backgroundClip: "text",
             WebkitBackgroundClip: "text",
           }}
@@ -144,7 +144,7 @@ export default function VoyagePrevuCountdown({
 
         <Link
           href={`/mon-espace/voyage/${voyage.id}`}
-          className="mb-4 w-full max-w-md rounded-2xl bg-gradient-to-r from-[#E07856] to-[#c94a4a] py-3.5 text-center font-courier text-sm font-bold text-white shadow-lg"
+          className="mb-4 w-full max-w-md rounded-2xl bg-gradient-to-r from-[var(--color-accent-start)] to-[var(--color-accent-end)] py-3.5 text-center font-courier text-sm font-bold text-white shadow-lg"
         >
           Ouvrir le carnet prévu
         </Link>
@@ -169,7 +169,7 @@ export default function VoyagePrevuCountdown({
             </ul>
             <Link
               href="/planifier/commencer"
-              className="mt-2 inline-block font-courier text-xs font-bold text-[#E07856]"
+              className="mt-2 inline-block font-courier text-xs font-bold text-[var(--color-accent-start)]"
             >
               + Autre voyage
             </Link>

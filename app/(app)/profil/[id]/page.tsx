@@ -3,7 +3,16 @@
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
-import { ArrowLeft, MapPin } from "lucide-react";
+import {
+  ArrowLeft,
+  Compass,
+  Footprints,
+  Camera,
+  CalendarDays,
+  MapPin,
+  Euro,
+  Sparkles,
+} from "lucide-react";
 import { EDITORIAL_PROFILES, getProfileById } from "@/data/test-profiles";
 import {
   collectPersonaVoyages,
@@ -41,19 +50,56 @@ export default function ProfilPublicPage() {
     [isEditorial, id]
   );
 
-  const regionsCount = useMemo(() => {
-    const set = new Set<string>();
+  /** Agrège toutes les métriques en une seule passe — évite plusieurs useMemo en cascade. */
+  const metrics = useMemo(() => {
+    const regions = new Set<string>();
+    let totalSteps = 0;
+    let totalDays = 0;
+    let totalPhotos = 0;
+    let totalBudget = 0;
+    let totalKm = 0;
+    const regionCount: Record<string, number> = {};
+
     for (const v of voyagesFull) {
-      if (v.region) set.add(v.region);
+      if (v.region) {
+        regions.add(v.region);
+        regionCount[v.region] = (regionCount[v.region] ?? 0) + 1;
+      }
+      totalSteps += v.steps.length;
+      totalDays += v.dureeJours ?? 0;
+      totalBudget += v.stats?.budget ?? 0;
+      totalKm += v.stats?.km ?? 0;
+      for (const s of v.steps) {
+        totalPhotos += s.contenu_voyage?.photos?.length ?? 0;
+      }
     }
-    return set.size;
+
+    const topRegion =
+      Object.entries(regionCount).sort((a, b) => b[1] - a[1])[0]?.[0] ?? null;
+
+    return {
+      voyages: voyagesFull.length,
+      regions: regions.size,
+      steps: totalSteps,
+      days: totalDays,
+      photos: totalPhotos,
+      budget: totalBudget,
+      km: totalKm,
+      topRegion,
+      regionList: Object.entries(regionCount).sort((a, b) => b[1] - a[1]),
+    };
   }, [voyagesFull]);
 
   if (!profile) {
     return (
-      <main className="flex min-h-full flex-col items-center justify-center bg-[#111111] px-6">
-        <p className="font-courier text-sm text-white/50">Profil introuvable.</p>
-        <Link href="/mon-espace" className="mt-4 font-courier text-xs font-bold text-[#E07856]">
+      <main className="flex min-h-full flex-col items-center justify-center bg-[var(--color-bg-main)] px-6">
+        <p className="font-courier text-sm text-[var(--color-text-secondary)]">
+          Profil introuvable.
+        </p>
+        <Link
+          href="/mon-espace"
+          className="mt-4 font-courier text-xs font-bold text-[var(--color-accent-start)]"
+        >
           Mon espace
         </Link>
       </main>
@@ -63,105 +109,201 @@ export default function ProfilPublicPage() {
   const defaultBack = isEditorial ? "/inspirer?tab=stars" : "/mon-espace";
 
   return (
-    <main className="min-h-full overflow-y-auto bg-[#111111] pb-20">
-      <div className="sticky top-0 z-20 flex items-center gap-3 border-b border-white/6 bg-[#111111]/95 px-4 py-3 backdrop-blur-lg">
+    <main className="min-h-full overflow-y-auto bg-[var(--color-bg-main)] pb-bottom-nav">
+      <div className="sticky top-0 z-20 flex items-center gap-3 border-b border-[var(--color-glass-border)] bg-[var(--color-bg-main)]/95 px-4 py-3 backdrop-blur-lg">
         <Link
           href={returnBack ?? defaultBack}
-          className="flex items-center gap-1 font-courier text-xs font-bold text-[#E07856]"
+          className="flex items-center gap-1 font-courier text-xs font-bold text-[var(--color-accent-start)]"
         >
           <ArrowLeft className="h-4 w-4" />
           Retour
         </Link>
       </div>
 
-      <div className="px-5 pt-8">
+      {/* Hero profil : fond dégradé accent, avatar + chiffres clés */}
+      <section className="relative overflow-hidden border-b border-[var(--color-glass-border)] px-5 pb-6 pt-8">
+        <div
+          className="pointer-events-none absolute inset-0 -z-[1] opacity-40"
+          style={{
+            background:
+              "radial-gradient(80% 60% at 20% 0%, color-mix(in srgb, var(--color-accent-start) 35%, transparent) 0%, transparent 70%), radial-gradient(60% 50% at 80% 40%, color-mix(in srgb, var(--color-accent-end) 28%, transparent) 0%, transparent 72%)",
+          }}
+        />
         <div className="flex items-center gap-4">
-          <div className="flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-[#E07856] to-[#c94a4a] font-courier text-2xl font-bold text-white">
+          <div
+            className="flex h-20 w-20 shrink-0 items-center justify-center rounded-full font-courier text-3xl font-bold text-white shadow-[0_14px_34px_var(--color-shadow-cta-accent),0_4px_12px_var(--color-shadow)]"
+            style={{ background: "var(--gradient-cta)" }}
+          >
             {profile.name.charAt(0)}
           </div>
-          <div>
-            <h1 className="font-courier text-2xl font-bold text-white">{profile.name}</h1>
-            <p className="mt-1 font-courier text-sm text-white/45">{profile.situationLabel}</p>
+          <div className="min-w-0">
+            <h1 className="font-courier text-[1.75rem] font-bold leading-tight text-[var(--color-text-primary)]">
+              {profile.name}
+            </h1>
+            <p className="mt-1 font-courier text-sm text-[var(--color-text-secondary)]">
+              {profile.situationLabel}
+            </p>
+            {metrics.topRegion && (
+              <p className="mt-1 inline-flex items-center gap-1 font-courier text-[11px] font-bold uppercase tracking-[0.18em] text-[var(--color-accent-start)]">
+                <Sparkles className="h-3 w-3" />
+                {metrics.topRegion}
+              </p>
+            )}
           </div>
         </div>
 
-        <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3">
-          <div className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3">
-            <p className="font-courier text-[9px] font-bold uppercase tracking-wider text-white/35">
-              Voyages (démo)
-            </p>
-            <p className="mt-1 font-courier text-xl font-bold text-[#E07856]">{voyagesFull.length}</p>
-          </div>
-          <div className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3">
-            <p className="font-courier text-[9px] font-bold uppercase tracking-wider text-white/35">
-              Régions touchées
-            </p>
-            <p className="mt-1 font-courier text-xl font-bold text-white">{regionsCount || "—"}</p>
-          </div>
-          <div className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3 sm:col-span-1 col-span-2">
-            <p className="font-courier text-[9px] font-bold uppercase tracking-wider text-white/35">
-              Itinéraires Stars liés
-            </p>
-            <p className="mt-1 font-courier text-xl font-bold text-white">{starPick.length}</p>
-          </div>
+        {/* Grille d'indicateurs principaux */}
+        <div className="mt-6 grid grid-cols-2 gap-2.5 sm:grid-cols-4">
+          <StatTile icon={Compass} label="Voyages" value={metrics.voyages} />
+          <StatTile icon={MapPin} label="Régions" value={metrics.regions} />
+          <StatTile icon={Footprints} label="Étapes" value={metrics.steps} />
+          <StatTile icon={CalendarDays} label="Jours" value={metrics.days} />
         </div>
 
-        {isEditorial && starPick.length > 0 && (
-          <>
-            <h2 className="mt-10 font-courier text-xs font-bold uppercase tracking-wider text-[#E07856]">
-              Une manière de voyager — itinéraires Stars
-            </h2>
-            <p className="mt-2 font-courier text-xs text-white/40">
-              Chaque itinéraire éditorial t&apos;est attribué dans la sélection Stars (partage entre les
-              trois profils).
-            </p>
-            <ul className="mt-4 space-y-2">
-              {starPick.slice(0, 12).map((it) => (
-                <li key={`${it.regionId}-${it.itinerarySlug}`}>
-                  <LinkWithReturn
-                    href={`/inspirer?tab=stars&region=${encodeURIComponent(it.regionId)}`}
-                    className="flex items-start gap-2 rounded-xl border border-white/8 bg-white/5 px-3 py-2.5 font-courier text-sm text-white/85 transition hover:border-[#E07856]/35"
-                  >
-                    <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-[#E07856]/70" />
-                    <span>{it.tripTitle}</span>
-                  </LinkWithReturn>
-                </li>
-              ))}
-            </ul>
-          </>
-        )}
-
-        <h2 className="mt-10 font-courier text-xs font-bold uppercase tracking-wider text-[#E07856]">
-          Voyages
-        </h2>
-        <p className="mt-2 font-courier text-xs text-white/35">
-          Carte retournée : aperçu seulement. Ouvre le Viago en lecture pour suivre le récit (pas
-          d&apos;édition depuis cette vue).
-        </p>
-        <div className="mt-5 flex max-w-md flex-col gap-10">
-          {voyagesFull.length === 0 ? (
-            <p className="font-courier text-sm text-white/35">Aucun voyage à afficher.</p>
-          ) : (
-            voyagesFull.map((v) => (
-              <AmiVoyageFlipCard
-                key={v.id}
-                profileId={profile.id}
-                profileName={profile.name}
-                voyage={v}
-              />
-            ))
+        {/* Seconde ligne d'indicateurs (km, budget, photos, stars) */}
+        <div className="mt-2.5 grid grid-cols-2 gap-2.5 sm:grid-cols-4">
+          {metrics.km > 0 && (
+            <StatTile
+              icon={Compass}
+              label="Kilomètres"
+              value={`${Math.round(metrics.km)} km`}
+              subtle
+            />
+          )}
+          {metrics.budget > 0 && (
+            <StatTile
+              icon={Euro}
+              label="Budget"
+              value={`${Math.round(metrics.budget)} €`}
+              subtle
+            />
+          )}
+          {metrics.photos > 0 && (
+            <StatTile icon={Camera} label="Photos" value={metrics.photos} subtle />
+          )}
+          {isEditorial && starPick.length > 0 && (
+            <StatTile icon={Sparkles} label="Stars" value={starPick.length} subtle />
           )}
         </div>
+      </section>
 
-        <h2 className="mt-12 font-courier text-xs font-bold uppercase tracking-wider text-[#E07856]">
-          Carte & lieux
-        </h2>
-        <div className="mt-4 flex h-48 items-center justify-center rounded-2xl border border-dashed border-white/15 bg-[#1a1a1a]">
-          <p className="max-w-xs text-center font-courier text-xs text-white/35">
-            Heatmap des étapes validées : à brancher (agrégation des coordonnées des voyages ci-dessus).
-          </p>
+      {/* Mes voyages — défilement horizontal */}
+      <section className="px-5 pt-8">
+        <div className="mb-4 flex items-baseline justify-between">
+          <h2 className="font-courier text-[11px] font-bold uppercase tracking-[0.22em] text-[var(--color-accent-start)]">
+            Mes voyages
+          </h2>
+          <span className="font-courier text-[10px] text-[var(--color-text-secondary)]">
+            {voyagesFull.length} au total
+          </span>
         </div>
-      </div>
+        {voyagesFull.length === 0 ? (
+          <p className="font-courier text-sm text-[var(--color-text-secondary)]">
+            Aucun voyage à afficher.
+          </p>
+        ) : (
+          <div className="-mx-5 overflow-x-auto overflow-y-hidden scrollbar-none">
+            <div className="flex snap-x snap-mandatory gap-5 px-5 pb-3">
+              {voyagesFull.map((v) => (
+                <div
+                  key={v.id}
+                  className="snap-start shrink-0 basis-[86%] sm:basis-[420px]"
+                >
+                  <AmiVoyageFlipCard
+                    profileId={profile.id}
+                    profileName={profile.name}
+                    voyage={v}
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+      </section>
+
+      {/* Régions visitées */}
+      {metrics.regionList.length > 0 && (
+        <section className="px-5 pt-10">
+          <h2 className="mb-4 font-courier text-[11px] font-bold uppercase tracking-[0.22em] text-[var(--color-accent-start)]">
+            Régions traversées
+          </h2>
+          <div className="flex flex-wrap gap-2">
+            {metrics.regionList.map(([reg, count]) => (
+              <div
+                key={reg}
+                className="flex items-center gap-2 rounded-full border border-[var(--color-glass-border)] bg-[var(--color-glass-bg)] px-3 py-1.5 font-courier text-xs text-[var(--color-text-primary)] backdrop-blur-md"
+              >
+                <MapPin className="h-3 w-3 text-[var(--color-accent-start)]" />
+                <span className="font-bold">{reg}</span>
+                <span className="rounded-full bg-[var(--color-accent-start)]/20 px-1.5 py-0.5 text-[10px] font-bold text-[var(--color-accent-start)]">
+                  {count}
+                </span>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* Itinéraires Stars liés */}
+      {isEditorial && starPick.length > 0 && (
+        <section className="px-5 pt-10">
+          <h2 className="mb-1 font-courier text-[11px] font-bold uppercase tracking-[0.22em] text-[var(--color-accent-start)]">
+            Itinéraires Stars associés
+          </h2>
+          <p className="mb-4 font-courier text-xs text-[var(--color-text-secondary)]">
+            Ses manières de voyager, reprises dans la sélection Stars.
+          </p>
+          <ul className="flex flex-col gap-2">
+            {starPick.slice(0, 12).map((it) => (
+              <li key={`${it.regionId}-${it.itinerarySlug}`}>
+                <LinkWithReturn
+                  href={`/inspirer?tab=stars&region=${encodeURIComponent(it.regionId)}`}
+                  className="flex items-start gap-2 rounded-2xl border border-[var(--color-glass-border)] bg-[var(--color-glass-bg)] px-3.5 py-2.5 font-courier text-sm text-[var(--color-text-primary)] backdrop-blur-md transition hover:border-[var(--color-accent-start)]/40"
+                >
+                  <Sparkles className="mt-0.5 h-4 w-4 shrink-0 text-[var(--color-accent-start)]" />
+                  <span>{it.tripTitle}</span>
+                </LinkWithReturn>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
     </main>
+  );
+}
+
+function StatTile({
+  icon: Icon,
+  label,
+  value,
+  subtle = false,
+}: {
+  icon: React.ComponentType<{ className?: string }>;
+  label: string;
+  value: number | string;
+  subtle?: boolean;
+}) {
+  return (
+    <div
+      className={`relative overflow-hidden rounded-2xl border backdrop-blur-md ${
+        subtle
+          ? "border-[var(--color-glass-border)] bg-[var(--color-bg-secondary)]/60"
+          : "border-[var(--color-glass-border)] bg-[var(--color-glass-bg)]"
+      } px-3.5 py-3`}
+    >
+      <div className="flex items-center gap-2">
+        <Icon className="h-3.5 w-3.5 text-[var(--color-accent-start)]" />
+        <p className="font-courier text-[9px] font-bold uppercase tracking-[0.2em] text-[var(--color-text-secondary)]">
+          {label}
+        </p>
+      </div>
+      <p
+        className={`mt-1.5 font-courier font-bold leading-tight ${
+          subtle ? "text-lg text-[var(--color-text-primary)]" : "text-2xl text-[var(--color-accent-start)]"
+        }`}
+      >
+        {value}
+      </p>
+    </div>
   );
 }

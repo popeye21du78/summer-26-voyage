@@ -37,11 +37,11 @@ function markdownToHtml(md: string): string {
   s = s
     .replace(
       /^#### (.+)$/gm,
-      "<h4 class=\"text-base font-medium text-[#A55734] mt-3 mb-1\">$1</h4>"
+      "<h4 class=\"text-base font-medium text-[var(--color-accent-end)] mt-3 mb-1\">$1</h4>"
     )
-    .replace(/^### (.+)$/gm, "<h3 class=\"text-lg font-medium text-[#A55734] mt-4 mb-1\">$1</h3>")
-    .replace(/^## (.+)$/gm, "<h2 class=\"text-xl font-medium text-[#A55734] mt-4 mb-2\">$1</h2>")
-    .replace(/^# (.+)$/gm, "<h1 class=\"text-2xl font-medium text-[#A55734] mt-4 mb-2\">$1</h1>")
+    .replace(/^### (.+)$/gm, "<h3 class=\"text-lg font-medium text-[var(--color-accent-end)] mt-4 mb-1\">$1</h3>")
+    .replace(/^## (.+)$/gm, "<h2 class=\"text-xl font-medium text-[var(--color-accent-end)] mt-4 mb-2\">$1</h2>")
+    .replace(/^# (.+)$/gm, "<h1 class=\"text-2xl font-medium text-[var(--color-accent-end)] mt-4 mb-2\">$1</h1>")
     .replace(/\*\*(.+?)\*\*/g, "<strong class=\"font-semibold text-[#333333]\">$1</strong>")
     .replace(/\*(.+?)\*/g, "<em>$1</em>")
     .replace(/^- (.+)$/gm, "<li class=\"ml-4 list-disc\">$1</li>")
@@ -311,16 +311,16 @@ export function CitySection({
       : "";
 
   return (
-    <div className="border-b border-[#A55734]/20 last:border-b-0">
+    <div className="border-b border-[var(--color-accent-end)]/20 last:border-b-0">
       <button
         type="button"
         onClick={handleToggle}
-        className="flex w-full items-center justify-between py-4 text-left transition-colors hover:text-[#A55734]"
+        className="flex w-full items-center justify-between py-4 text-left transition-colors hover:text-[var(--color-accent-end)]"
         aria-expanded={open}
       >
         <span className="font-medium text-[#333333]">{label}</span>
         <span
-          className={`text-[#A55734] transition-transform ${open ? "rotate-180" : ""}`}
+          className={`text-[var(--color-accent-end)] transition-transform ${open ? "rotate-180" : ""}`}
         >
           ▾
         </span>

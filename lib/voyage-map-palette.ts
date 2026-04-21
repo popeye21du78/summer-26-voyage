@@ -3,11 +3,11 @@
  * Réutilisable pour la carte inspiration et ailleurs.
  */
 export const VOYAGE_UI = {
-  terracotta: "#A55734",
-  terracottaDark: "#8b4728",
-  coral: "#E07856",
-  coralDeep: "#D4635B",
-  sand: "#CD853F",
+  terracotta: "var(--color-accent-end)",
+  terracottaDark: "var(--color-accent-deep)",
+  coral: "var(--color-accent-start)",
+  coralDeep: "var(--color-accent-mid)",
+  sand: "var(--color-accent-gold)",
   cream: "#FFF2EB",
 } as const;
 

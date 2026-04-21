@@ -21,13 +21,6 @@ const PROFIL_TEST: ProfilVille = {
   enfants: ["Léo", "Emma"],
 };
 
-const TITLE_GRADIENT_STYLE = {
-  background: "linear-gradient(to right, #E07856, #D4635B, #CD853F)",
-  WebkitBackgroundClip: "text",
-  backgroundClip: "text",
-  color: "transparent",
-} as const;
-
 function getProfilFromSession(): ProfilVille | null {
   if (typeof window === "undefined") return null;
   try {
@@ -173,9 +166,9 @@ export function VilleDescriptionClient({
   const hasCommonsBlock = Boolean(commonsData?.header?.length);
 
   const bandDark =
-    "border border-white/6 bg-[#1c1c1c]";
+    "border border-[var(--color-glass-border)] bg-[var(--color-bg-secondary)]";
   const bandLight =
-    "border border-white/4 bg-[#141414]";
+    "border border-[var(--color-glass-border)] bg-[var(--color-bg-tertiary)]";
 
   const bandForContentIndex = (i: number) =>
     i % 2 === 0 ? bandDark : bandLight;
@@ -255,7 +248,7 @@ export function VilleDescriptionClient({
             className={
               isDark
                 ? "border-l-2 border-white/35 py-2 pl-4 text-[15px] leading-relaxed text-white/90"
-                : "border-l-2 border-[#E07856]/30 py-2 pl-4 text-[15px] leading-relaxed text-white/75"
+                : "viago-border-l-accent-soft py-2 pl-4 text-[15px] leading-relaxed text-white/75"
             }
           >
             {trimmed}
@@ -282,19 +275,7 @@ export function VilleDescriptionClient({
                 <span
                   key={j}
                   className={
-                    isDark
-                      ? "font-semibold text-[#FFD4BC]"
-                      : "font-semibold text-transparent"
-                  }
-                  style={
-                    isDark
-                      ? undefined
-                      : {
-                          background:
-                            "linear-gradient(120deg, #C53030, #E07856, #CD853F)",
-                          WebkitBackgroundClip: "text",
-                          backgroundClip: "text",
-                        }
+                    isDark ? "font-semibold viago-text-gold-soft" : "font-semibold text-gradient-viago-title"
                   }
                 >
                   {inner}
@@ -309,10 +290,10 @@ export function VilleDescriptionClient({
   }
 
   return (
-    <main className="relative isolate !pt-0 overflow-x-hidden overflow-y-auto bg-[#111111] pb-20">
+    <main className="relative isolate !pt-0 overflow-x-hidden overflow-y-auto bg-[var(--color-bg-main)] pb-20">
       {/* Hero plein viewport : largeur 100%, image dès le haut (sous le header fixe) */}
       <div className="relative left-1/2 w-screen max-w-[100vw] -translate-x-1/2">
-        <div className="relative min-h-[min(52vh,420px)] h-[min(56vh,480px)] w-full overflow-hidden bg-[#111111] sm:min-h-[380px]">
+        <div className="relative min-h-[min(52vh,420px)] h-[min(56vh,480px)] w-full overflow-hidden bg-[var(--color-bg-main)] sm:min-h-[380px]">
           {heroUrl ? (
             <Image
               src={heroUrl}
@@ -324,13 +305,28 @@ export function VilleDescriptionClient({
               unoptimized
             />
           ) : (
-            <div className="absolute inset-0 bg-gradient-to-br from-[#E07856]/30 via-[#1c1c1c] to-[#111111]" />
+            <div
+              className="absolute inset-0"
+              style={{
+                background: `linear-gradient(to bottom right, color-mix(in srgb, var(--color-accent-start) 32%, transparent), var(--color-bg-secondary), var(--color-bg-main))`,
+              }}
+            />
           )}
-          <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#111111] via-[#111111]/45 to-transparent" />
-          <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/25 via-transparent to-transparent" />
+          <div
+            className="pointer-events-none absolute inset-0"
+            style={{
+              background: `linear-gradient(to top, var(--color-bg-main), color-mix(in srgb, var(--color-bg-main) 48%, transparent), transparent)`,
+            }}
+          />
+          <div
+            className="pointer-events-none absolute inset-0"
+            style={{
+              background: `linear-gradient(to bottom, color-mix(in srgb, var(--color-bg-main) 35%, transparent), transparent, transparent)`,
+            }}
+          />
           <Link
             href={backHref}
-            className="absolute top-[calc(var(--header-content-offset)+0.35rem)] left-4 z-20 inline-flex items-center gap-2 rounded-xl border border-white/10 bg-black/50 px-3 py-1.5 font-courier text-xs font-bold text-white/80 shadow-md backdrop-blur-sm transition hover:bg-black/70 md:left-6"
+            className="viago-glass-card absolute top-[calc(var(--header-content-offset)+0.35rem)] left-4 z-20 inline-flex items-center gap-2 px-3 py-1.5 font-courier text-xs font-bold text-[var(--color-text-primary)] shadow-md transition hover:brightness-110 md:left-6"
           >
             ←{" "}
             {backToVoyageCarte
@@ -343,13 +339,17 @@ export function VilleDescriptionClient({
                     ? "Inspiration"
                     : "Retour"}
           </Link>
-          <div className="pointer-events-none absolute inset-0 z-[15] flex flex-col items-center justify-center bg-gradient-to-t from-black/65 via-black/25 to-black/35 px-5 text-center">
+          <div
+            className="pointer-events-none absolute inset-0 z-[15] flex flex-col items-center justify-center px-5 text-center"
+            style={{
+              background: `linear-gradient(to top, color-mix(in srgb, var(--color-bg-main) 72%, transparent), color-mix(in srgb, var(--color-bg-main) 22%, transparent), color-mix(in srgb, var(--color-bg-main) 32%, transparent))`,
+            }}
+          >
             <motion.h1
               initial={{ opacity: 0, y: 16 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
-              className="max-w-[95%] break-words font-courier text-3xl font-bold tracking-wider drop-shadow-[0_2px_20px_rgba(0,0,0,0.85)] md:text-5xl"
-              style={TITLE_GRADIENT_STYLE}
+              className="text-gradient-viago-title-alt max-w-[95%] break-words font-courier text-3xl font-bold tracking-wider drop-shadow-[0_2px_24px_var(--color-shadow)] md:text-5xl"
             >
               {nom}
             </motion.h1>
@@ -383,7 +383,7 @@ export function VilleDescriptionClient({
             className={`mb-3 text-xs font-bold uppercase tracking-wider ${
               toneForContentIndex(0) === "dark"
                 ? "text-white/80"
-                : "text-[#E07856]/90"
+                : "text-[var(--color-accent-start)] opacity-90"
             }`}
           >
             Autres visuels
@@ -426,13 +426,13 @@ export function VilleDescriptionClient({
                 {tone === "dark" ? (
                   <span className="text-left text-white">{sec.title}</span>
                 ) : (
-                  <span className="bg-gradient-to-r from-[#C53030] via-[#E07856] to-[#CD853F] bg-clip-text text-left text-transparent">
+                  <span className="text-gradient-viago-title text-left">
                     {sec.title}
                   </span>
                 )}
                 <span
                   className={`shrink-0 transition-transform duration-200 group-open:-rotate-180 ${
-                    tone === "dark" ? "text-white/70" : "text-[#E07856]"
+                    tone === "dark" ? "text-white/70" : "text-[var(--color-accent-start)]"
                   }`}
                 >
                   ▼
@@ -440,7 +440,7 @@ export function VilleDescriptionClient({
               </summary>
               <div
                 className={`border-t px-4 py-3 ${
-                  tone === "dark" ? "border-white/15" : "border-[#E07856]/15"
+                  tone === "dark" ? "border-white/15" : "viago-border-t-accent-faint"
                 }`}
               >
                 {renderRichParagraphs(sec.lines, `det-${si}`, tone)}
@@ -467,7 +467,7 @@ export function VilleDescriptionClient({
               >
                 <h2
                   className={`mb-3 font-courier text-sm font-bold uppercase tracking-wider ${
-                    slotTone === "dark" ? "text-white/85" : "text-[#E07856]"
+                    slotTone === "dark" ? "text-white/85" : "text-[var(--color-accent-start)]"
                   }`}
                 >
                   {label}
@@ -487,8 +487,8 @@ export function VilleDescriptionClient({
                   <div
                     className={`flex aspect-video items-center justify-center rounded-xl border-2 border-dashed text-sm ${
                       slotTone === "dark"
-                        ? "border-white/10 bg-black/20 text-white/40"
-                        : "border-white/8 bg-[#1c1c1c] text-white/35"
+                        ? "border-white/10 viago-bg-scrim-light text-white/40"
+                        : "border-white/8 bg-[var(--color-bg-secondary)] text-white/35"
                     }`}
                   >
                     {commonsData ? "Aucun résultat" : "Utilise « Charger photos Commons »"}
@@ -502,7 +502,7 @@ export function VilleDescriptionClient({
             {[1, 2, 3, 4].map((n) => (
               <div
                 key={n}
-                className="flex aspect-video items-center justify-center rounded-xl border-2 border-dashed border-white/8 bg-[#1c1c1c] text-sm text-white/30"
+                className="flex aspect-video items-center justify-center rounded-xl border-2 border-dashed border-white/8 bg-[var(--color-bg-secondary)] text-sm text-white/30"
               >
                 Photo {n}
               </div>
@@ -540,8 +540,8 @@ function PhotoCandidate({
       <div
         className={`border-t px-1 py-2 text-xs ${
           dark
-            ? "border-white/6 bg-black/30 text-white/60"
-            : "border-white/6 bg-[#111111] text-white/50"
+            ? "border-white/6 bg-[color-mix(in_srgb,var(--color-bg-main)_40%,transparent)] text-white/60"
+            : "border-white/6 bg-[var(--color-bg-secondary)] text-white/50"
         }`}
       >
         <div className={`font-medium ${dark ? "text-white/95" : "text-white/80"}`}>
@@ -555,7 +555,7 @@ function PhotoCandidate({
           target="_blank"
           rel="noopener noreferrer"
           className={`mt-1 inline-block font-medium underline hover:no-underline ${
-            dark ? "text-[#FFD4BC]" : "text-[#E07856]"
+            dark ? "viago-text-gold-soft" : "text-[var(--color-accent-start)]"
           }`}
         >
           Source Commons

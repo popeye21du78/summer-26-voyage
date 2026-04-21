@@ -388,8 +388,8 @@ export default function MaintenanceBeauty200Tab() {
   return (
     <div className="space-y-4">
       {curationStats && (
-        <div className="rounded-xl border border-[#A55734]/25 bg-[#FFFCF9] px-4 py-3 text-sm text-[#333] shadow-sm">
-          <p className="font-medium text-[#A55734]">Sélections enregistrées (fichier validations)</p>
+        <div className="rounded-xl border border-[var(--color-accent-end)]/25 bg-[#FFFCF9] px-4 py-3 text-sm text-[#333] shadow-sm">
+          <p className="font-medium text-[var(--color-accent-end)]">Sélections enregistrées (fichier validations)</p>
           <ul className="mt-2 list-inside list-disc space-y-0.5 text-[#333]/90">
             <li>
               <strong>{curationStats.photosSurSite}</strong> image(s) utilisée(s) sur le site sur{" "}
@@ -403,12 +403,12 @@ export default function MaintenanceBeauty200Tab() {
         </div>
       )}
 
-      <div className="flex flex-wrap gap-2 rounded-lg border border-[#A55734]/20 bg-white p-2">
+      <div className="flex flex-wrap gap-2 rounded-lg border border-[var(--color-accent-end)]/20 bg-white p-2">
         <button
           type="button"
           onClick={() => changeQueueScope("top200")}
           className={`rounded-lg px-4 py-2 text-sm font-medium ${
-            queueScope === "top200" ? "bg-[#A55734] text-white" : "bg-[#FFF2EB]/80 text-[#333]"
+            queueScope === "top200" ? "bg-[var(--color-accent-end)] text-white" : "bg-[#FFF2EB]/80 text-[#333]"
           }`}
         >
           File · Top 200 patrimoine
@@ -417,7 +417,7 @@ export default function MaintenanceBeauty200Tab() {
           type="button"
           onClick={() => changeQueueScope("pbvf")}
           className={`rounded-lg px-4 py-2 text-sm font-medium ${
-            queueScope === "pbvf" ? "bg-[#A55734] text-white" : "bg-[#FFF2EB]/80 text-[#333]"
+            queueScope === "pbvf" ? "bg-[var(--color-accent-end)] text-white" : "bg-[#FFF2EB]/80 text-[#333]"
           }`}
         >
           File · Tous les PBVF
@@ -426,7 +426,7 @@ export default function MaintenanceBeauty200Tab() {
           type="button"
           onClick={() => changeQueueScope("all")}
           className={`rounded-lg px-4 py-2 text-sm font-medium ${
-            queueScope === "all" ? "bg-[#A55734] text-white" : "bg-[#FFF2EB]/80 text-[#333]"
+            queueScope === "all" ? "bg-[var(--color-accent-end)] text-white" : "bg-[#FFF2EB]/80 text-[#333]"
           }`}
         >
           File · Tout le patrimoine
@@ -434,7 +434,7 @@ export default function MaintenanceBeauty200Tab() {
       </div>
 
       {current && (
-        <div className="rounded-xl border-2 border-[#E07856]/35 bg-white px-4 py-3 shadow-sm">
+        <div className="rounded-xl border-2 border-[var(--color-accent-start)]/35 bg-white px-4 py-3 shadow-sm">
           <p className="flex flex-wrap items-center gap-2 text-sm font-semibold text-[#333]">
             Note esthétique (
             {queueScope === "all" ? "tout patrimoine" : queueScope === "pbvf" ? "file PBVF" : "top 200"})
@@ -462,7 +462,7 @@ export default function MaintenanceBeauty200Tab() {
                 value={draftScore}
                 disabled={savingScore}
                 onChange={(e) => setDraftScore(Number(e.target.value))}
-                className="rounded border border-[#A55734]/40 px-2 py-1.5 text-sm"
+                className="rounded border border-[var(--color-accent-end)]/40 px-2 py-1.5 text-sm"
               >
                 {Array.from({ length: 11 }, (_, i) => (
                   <option key={i} value={i}>
@@ -475,7 +475,7 @@ export default function MaintenanceBeauty200Tab() {
               type="button"
               disabled={savingScore || draftScore === current.score_esthetique}
               onClick={() => void applyDraftScore()}
-              className="rounded-lg bg-[#A55734] px-4 py-2 text-sm font-medium text-white disabled:opacity-40"
+              className="rounded-lg bg-[var(--color-accent-end)] px-4 py-2 text-sm font-medium text-white disabled:opacity-40"
             >
               {savingScore ? "…" : "Enregistrer & recalculer le tri"}
             </button>
@@ -526,7 +526,7 @@ export default function MaintenanceBeauty200Tab() {
       </p>
 
       {!wikiOnlyScope ? (
-        <div className="flex flex-wrap gap-2 rounded-lg border border-[#A55734]/20 bg-white p-2">
+        <div className="flex flex-wrap gap-2 rounded-lg border border-[var(--color-accent-end)]/20 bg-white p-2">
           <button
             type="button"
             onClick={() => {
@@ -534,7 +534,7 @@ export default function MaintenanceBeauty200Tab() {
               setOffset(0);
             }}
             className={`rounded-lg px-4 py-2 text-sm font-medium ${
-              phase === "unsplash" ? "bg-[#A55734] text-white" : "bg-[#FFF2EB]/80 text-[#333]"
+              phase === "unsplash" ? "bg-[var(--color-accent-end)] text-white" : "bg-[#FFF2EB]/80 text-[#333]"
             }`}
           >
             1 · Unsplash
@@ -546,25 +546,25 @@ export default function MaintenanceBeauty200Tab() {
               setOffset(0);
             }}
             className={`rounded-lg px-4 py-2 text-sm font-medium ${
-              phase === "commons" ? "bg-[#A55734] text-white" : "bg-[#FFF2EB]/80 text-[#333]"
+              phase === "commons" ? "bg-[var(--color-accent-end)] text-white" : "bg-[#FFF2EB]/80 text-[#333]"
             }`}
           >
             2 · Wikimedia
           </button>
         </div>
       ) : (
-        <p className="rounded-lg border border-[#A55734]/20 bg-[#FFFCF9] px-3 py-2 text-sm text-[#333]/90">
+        <p className="rounded-lg border border-[var(--color-accent-end)]/20 bg-[#FFFCF9] px-3 py-2 text-sm text-[#333]/90">
           Cette file utilise uniquement <strong>Wikimedia Commons</strong> (recherche + filtres largeur).
         </p>
       )}
 
-      <div className="flex flex-wrap items-end gap-3 rounded-lg border border-[#A55734]/20 bg-white p-3">
+      <div className="flex flex-wrap items-end gap-3 rounded-lg border border-[var(--color-accent-end)]/20 bg-white p-3">
         <label className="text-xs font-medium text-[#333]">
           Lieu (#{current?.rank} · {index + 1} / {items.length})
           <select
             value={index}
             onChange={(e) => setIndex(Number(e.target.value))}
-            className="mt-1 block w-full min-w-[240px] rounded border border-[#A55734]/30 px-2 py-1.5 text-sm"
+            className="mt-1 block w-full min-w-[240px] rounded border border-[var(--color-accent-end)]/30 px-2 py-1.5 text-sm"
           >
             {items.map((it, i) => (
               <option key={it.slug} value={i}>
@@ -586,7 +586,7 @@ export default function MaintenanceBeauty200Tab() {
             <select
               value={minWidth}
               onChange={(e) => setMinWidth(Number(e.target.value))}
-              className="mt-1 block rounded border border-[#A55734]/30 px-2 py-1.5 text-sm"
+              className="mt-1 block rounded border border-[var(--color-accent-end)]/30 px-2 py-1.5 text-sm"
             >
               <option value={400}>400</option>
               <option value={800}>800</option>
@@ -599,7 +599,7 @@ export default function MaintenanceBeauty200Tab() {
             type="button"
             disabled={index <= 0}
             onClick={() => setIndex((i) => Math.max(0, i - 1))}
-            className="rounded border border-[#A55734]/30 px-3 py-1.5 text-sm disabled:opacity-40"
+            className="rounded border border-[var(--color-accent-end)]/30 px-3 py-1.5 text-sm disabled:opacity-40"
           >
             ← Précédent
           </button>
@@ -607,7 +607,7 @@ export default function MaintenanceBeauty200Tab() {
             type="button"
             disabled={index >= items.length - 1}
             onClick={() => setIndex((i) => Math.min(items.length - 1, i + 1))}
-            className="rounded border border-[#A55734]/30 px-3 py-1.5 text-sm disabled:opacity-40"
+            className="rounded border border-[var(--color-accent-end)]/30 px-3 py-1.5 text-sm disabled:opacity-40"
           >
             Suivant →
           </button>
@@ -615,7 +615,7 @@ export default function MaintenanceBeauty200Tab() {
       </div>
 
       {current && (
-        <div className="rounded-lg border border-[#E07856]/25 bg-[#FFF8F0]/80 px-3 py-2 text-xs text-[#333]">
+        <div className="rounded-lg border border-[var(--color-accent-start)]/25 bg-[#FFF8F0]/80 px-3 py-2 text-xs text-[#333]">
           <strong>{current.nom}</strong>
           {current.is_pbvf ? (
             <span
@@ -644,7 +644,7 @@ export default function MaintenanceBeauty200Tab() {
         <button
           type="button"
           onClick={() => void postBeauty("", undefined, { passToCommons: true })}
-          className="w-full rounded-lg border-2 border-dashed border-[#A55734]/40 bg-[#FFFCF9] px-4 py-3 text-sm font-medium text-[#A55734] hover:bg-[#FFF2EB]"
+          className="w-full rounded-lg border-2 border-dashed border-[var(--color-accent-end)]/40 bg-[#FFFCF9] px-4 py-3 text-sm font-medium text-[var(--color-accent-end)] hover:bg-[#FFF2EB]"
         >
           Rien ne convient sur Unsplash → passer à Wikimedia (étape 2)
         </button>
@@ -681,7 +681,7 @@ export default function MaintenanceBeauty200Tab() {
                   <div
                     key={p.url}
                     className={`flex flex-col overflow-hidden rounded-xl border bg-white shadow-sm ${
-                      already ? "border-green-600/40 ring-1 ring-green-600/20" : "border-[#A55734]/20"
+                      already ? "border-green-600/40 ring-1 ring-green-600/20" : "border-[var(--color-accent-end)]/20"
                     }`}
                   >
                     {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -695,7 +695,7 @@ export default function MaintenanceBeauty200Tab() {
                         href={p.sourceUrl}
                         target="_blank"
                         rel="noreferrer"
-                        className="text-[#A55734] underline"
+                        className="text-[var(--color-accent-end)] underline"
                       >
                         {phase === "unsplash" ? "Unsplash" : "Commons"}
                       </a>
@@ -712,7 +712,7 @@ export default function MaintenanceBeauty200Tab() {
                       <button
                         type="button"
                         onClick={() => void postBeauty(validateAction, p)}
-                        className="mt-auto bg-[#E07856] py-2 text-xs font-bold text-white hover:opacity-95"
+                        className="mt-auto bg-[var(--color-accent-start)] py-2 text-xs font-bold text-white hover:opacity-95"
                       >
                         Valider
                       </button>
@@ -723,7 +723,7 @@ export default function MaintenanceBeauty200Tab() {
             </div>
           )}
 
-          <div className="flex flex-wrap gap-2 border-t border-[#A55734]/15 pt-4">
+          <div className="flex flex-wrap gap-2 border-t border-[var(--color-accent-end)]/15 pt-4">
             <button
               type="button"
               disabled={!data.hasMore}

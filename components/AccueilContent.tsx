@@ -93,7 +93,7 @@ export default function AccueilContent({
 
   return (
     <main
-      className={`relative bg-gradient-to-b from-[#3d2618] via-[#2a1810] to-[#1a120d] ${SNAP_MAIN}`}
+      className={`relative bg-gradient-to-b from-[#3d2618] via-[var(--color-bg-main)] to-[var(--color-bg-gradient-end)] ${SNAP_MAIN}`}
     >
       <AccueilHeroRouter state={state} profileId={profileId} />
 

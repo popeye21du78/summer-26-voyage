@@ -65,7 +65,7 @@ export default function HomeVoyagesAmisSection({
               value={searchAmi}
               onChange={(e) => setSearchAmi(e.target.value)}
               placeholder="Nom ou voyage…"
-              className="w-full rounded-xl border-2 border-white/25 bg-white/15 px-4 py-3 pl-10 font-courier text-sm text-white placeholder-white/45 backdrop-blur-sm focus:border-[#E07856] focus:outline-none"
+              className="w-full rounded-xl border-2 border-white/25 bg-white/15 px-4 py-3 pl-10 font-courier text-sm text-white placeholder-white/45 backdrop-blur-sm focus:border-[var(--color-accent-start)] focus:outline-none"
             />
           </div>
         </div>
@@ -86,7 +86,7 @@ export default function HomeVoyagesAmisSection({
                 <li key={amiRowKey}>
                   <Link
                     href={hrefVoyage}
-                    className="btn-terracotta flex flex-col overflow-hidden rounded-xl border-2 border-white/20 bg-white/10 backdrop-blur-sm transition-all hover:border-[#E07856]/45 hover:bg-white/15 sm:flex-row"
+                    className="btn-terracotta flex flex-col overflow-hidden rounded-xl border-2 border-white/20 bg-white/10 backdrop-blur-sm transition-all hover:border-[var(--color-accent-start)]/45 hover:bg-white/15 sm:flex-row"
                   >
                     <div className="min-w-0 flex-1 p-4">
                       <p className="font-courier text-sm font-bold text-white">
@@ -95,7 +95,7 @@ export default function HomeVoyagesAmisSection({
                       <p className="font-courier text-sm text-white/80">
                         {va.profileName} · {va.voyage.sousTitre}
                       </p>
-                      <span className="mt-2 inline-block rounded-full bg-[#E07856]/35 px-2 py-0.5 font-courier text-xs font-bold text-white">
+                      <span className="mt-2 inline-block rounded-full bg-[var(--color-accent-start)]/35 px-2 py-0.5 font-courier text-xs font-bold text-white">
                         {va.type === "prevu"
                           ? "À venir"
                           : va.type === "en_cours"

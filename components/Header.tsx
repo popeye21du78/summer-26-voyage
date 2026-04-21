@@ -77,7 +77,7 @@ export default function Header() {
           {voyageEnCours && !pathname?.includes(`/mon-espace/voyage/${voyageEnCours.id}`) && (
             <Link
               href={`/mon-espace/voyage/${voyageEnCours.id}`}
-              className="flex items-center gap-1 rounded-xl bg-[#E07856]/10 px-2.5 py-1 font-courier text-[10px] font-bold text-[#E07856] transition hover:bg-[#E07856]/20"
+              className="flex items-center gap-1 rounded-xl bg-[var(--color-accent-start)]/10 px-2.5 py-1 font-courier text-[10px] font-bold text-[var(--color-accent-start)] transition hover:bg-[var(--color-accent-start)]/20"
             >
               <Compass className="h-3 w-3" />
               En route
@@ -96,7 +96,7 @@ export default function Header() {
             </button>
             {menuOpen && (
               <div
-                className="absolute right-0 top-full z-[110] mt-1 min-w-[200px] overflow-hidden rounded-xl border border-white/8 bg-[#1c1c1c]/95 py-1 shadow-xl backdrop-blur-lg"
+                className="absolute right-0 top-full z-[110] mt-1 min-w-[200px] overflow-hidden rounded-xl border border-white/8 bg-[var(--color-bg-secondary)]/95 py-1 shadow-xl backdrop-blur-lg"
                 role="menu"
               >
                 <Link
@@ -104,7 +104,7 @@ export default function Header() {
                   role="menuitem"
                   prefetch={false}
                   className={`flex items-center gap-2 px-4 py-2.5 font-courier text-xs transition ${
-                    pathname === "/accueil" ? "font-bold text-[#E07856]" : "text-white/60 hover:bg-white/5 hover:text-white/80"
+                    pathname === "/accueil" ? "font-bold text-[var(--color-accent-start)]" : "text-white/60 hover:bg-white/5 hover:text-white/80"
                   }`}
                   onClick={() => setMenuOpen(false)}
                 >
@@ -115,7 +115,7 @@ export default function Header() {
                   role="menuitem"
                   prefetch={false}
                   className={`flex items-center gap-2 px-4 py-2.5 font-courier text-xs transition ${
-                    pathname?.startsWith("/inspirer") ? "font-bold text-[#E07856]" : "text-white/60 hover:bg-white/5 hover:text-white/80"
+                    pathname?.startsWith("/inspirer") ? "font-bold text-[var(--color-accent-start)]" : "text-white/60 hover:bg-white/5 hover:text-white/80"
                   }`}
                   onClick={() => setMenuOpen(false)}
                 >
@@ -126,7 +126,7 @@ export default function Header() {
                   role="menuitem"
                   prefetch={false}
                   className={`flex items-center gap-2 px-4 py-2.5 font-courier text-xs transition ${
-                    pathname?.startsWith("/preparer") ? "font-bold text-[#E07856]" : "text-white/60 hover:bg-white/5 hover:text-white/80"
+                    pathname?.startsWith("/preparer") ? "font-bold text-[var(--color-accent-start)]" : "text-white/60 hover:bg-white/5 hover:text-white/80"
                   }`}
                   onClick={() => setMenuOpen(false)}
                 >
@@ -137,7 +137,7 @@ export default function Header() {
                   role="menuitem"
                   prefetch={false}
                   className={`flex items-center gap-2 px-4 py-2.5 font-courier text-xs transition ${
-                    pathname?.startsWith("/mon-espace") ? "font-bold text-[#E07856]" : "text-white/60 hover:bg-white/5 hover:text-white/80"
+                    pathname?.startsWith("/mon-espace") ? "font-bold text-[var(--color-accent-start)]" : "text-white/60 hover:bg-white/5 hover:text-white/80"
                   }`}
                   onClick={() => setMenuOpen(false)}
                 >

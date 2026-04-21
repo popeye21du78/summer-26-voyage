@@ -154,7 +154,7 @@ export default function BookSectionEditor({ step }: Props) {
     <main className="mx-auto max-w-2xl px-4 py-12">
       <Link
         href="/book"
-        className="mb-8 inline-block text-sm text-[#A55734] hover:underline"
+        className="mb-8 inline-block text-sm text-[var(--color-accent-end)] hover:underline"
       >
         ← Retour au Book
       </Link>
@@ -188,7 +188,7 @@ export default function BookSectionEditor({ step }: Props) {
               </button>
               {menuOpen && (
                 <div
-                  className="absolute right-0 top-full z-50 mt-1 min-w-[200px] rounded-xl border border-[#A55734]/40 bg-[#FAF4F0] py-2 shadow-lg"
+                  className="absolute right-0 top-full z-50 mt-1 min-w-[200px] rounded-xl border border-[var(--color-accent-end)]/40 bg-[#FAF4F0] py-2 shadow-lg"
                   role="menu"
                 >
                   <div className="border-b border-[#e8ddd0] px-3 pb-2 text-[10px] font-semibold uppercase tracking-wider text-[#333333]/50">
@@ -252,7 +252,7 @@ export default function BookSectionEditor({ step }: Props) {
                           setStyle({ ...style, police_titre: v });
                           setMenuOpen(false);
                         }}
-                        className={`rounded px-2 py-1 text-xs ${style.police_titre === v ? "bg-[#A55734] text-white" : "bg-[#FFF2EB]/50 text-[#333333]"}`}
+                        className={`rounded px-2 py-1 text-xs ${style.police_titre === v ? "bg-[var(--color-accent-end)] text-white" : "bg-[#FFF2EB]/50 text-[#333333]"}`}
                       >
                         {v === "serif" ? "Titre Serif" : "Titre Sans"}
                       </button>
@@ -267,7 +267,7 @@ export default function BookSectionEditor({ step }: Props) {
                           setStyle({ ...style, layout });
                           setMenuOpen(false);
                         }}
-                        className={`rounded px-2 py-1 text-xs ${style.layout === layout ? "bg-[#A55734] text-white" : "bg-[#FFF2EB]/50 text-[#333333]"}`}
+                        className={`rounded px-2 py-1 text-xs ${style.layout === layout ? "bg-[var(--color-accent-end)] text-white" : "bg-[#FFF2EB]/50 text-[#333333]"}`}
                       >
                         {layout === "single" ? "1 col" : layout === "grid2" ? "2 col" : "3 col"}
                       </button>
@@ -283,7 +283,7 @@ export default function BookSectionEditor({ step }: Props) {
             suppressContentEditableWarning
             onInput={syncFromEditable}
             onBlur={syncFromEditable}
-            className="min-h-[180px] w-full rounded-lg border border-[#A55734]/40 bg-[#FAF4F0] p-3 text-[#333333] focus:border-[#A55734] focus:outline-none focus:ring-1 focus:ring-[#A55734] [&:empty]:before:pointer-events-none [&:empty]:before:float-left [&:empty]:before:h-0 [&:empty]:before:content-['Écris_ici…_Sélectionne_du_texte_et_clique_⋮_pour_gras/italique/titres.'] [&:empty]:before:text-[#333333]/40"
+            className="min-h-[180px] w-full rounded-lg border border-[var(--color-accent-end)]/40 bg-[#FAF4F0] p-3 text-[#333333] focus:border-[var(--color-accent-end)] focus:outline-none focus:ring-1 focus:ring-[var(--color-accent-end)] [&:empty]:before:pointer-events-none [&:empty]:before:float-left [&:empty]:before:h-0 [&:empty]:before:content-['Écris_ici…_Sélectionne_du_texte_et_clique_⋮_pour_gras/italique/titres.'] [&:empty]:before:text-[#333333]/40"
           />
         </div>
 
@@ -309,7 +309,7 @@ export default function BookSectionEditor({ step }: Props) {
                 </button>
               </div>
             ))}
-            <label className="flex h-20 w-20 cursor-pointer flex-col items-center justify-center rounded-lg border-2 border-dashed border-[#A55734]/40 text-[#A55734] transition-colors hover:border-[#A55734]">
+            <label className="flex h-20 w-20 cursor-pointer flex-col items-center justify-center rounded-lg border-2 border-dashed border-[var(--color-accent-end)]/40 text-[var(--color-accent-end)] transition-colors hover:border-[var(--color-accent-end)]">
               <input
                 type="file"
                 accept="image/*"
@@ -339,13 +339,13 @@ export default function BookSectionEditor({ step }: Props) {
           <button
             type="submit"
             disabled={saving}
-            className="btn-primary bg-[#A55734] px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-[#8b4728] disabled:opacity-50"
+            className="btn-primary bg-[var(--color-accent-end)] px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-[var(--color-accent-deep)] disabled:opacity-50"
           >
             {saving ? "Enregistrement…" : "Enregistrer"}
           </button>
           <Link
             href="/book"
-            className="btn-secondary border border-[#A55734] px-6 py-3 text-sm font-medium text-[#A55734] transition-colors hover:bg-[#A55734]/10"
+            className="btn-secondary border border-[var(--color-accent-end)] px-6 py-3 text-sm font-medium text-[var(--color-accent-end)] transition-colors hover:bg-[var(--color-accent-end)]/10"
           >
             Annuler
           </Link>

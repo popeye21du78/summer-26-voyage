@@ -15,6 +15,7 @@ const BW_MAP_STYLE = "mapbox://styles/mapbox/light-v11";
 
 export default function StarFlipMap({ steps, activeStepIndex, mapboxToken }: Props) {
   const mapRef = useRef<any>(null);
+  const hasDoneInitialFitRef = useRef(false);
 
   const route = useMemo(() => {
     if (steps.length < 2) return null;
@@ -28,9 +29,30 @@ export default function StarFlipMap({ steps, activeStepIndex, mapboxToken }: Pro
     };
   }, [steps]);
 
-  useEffect(() => {
+  /**
+   * Ajuste la carte à l'ensemble des étapes.
+   * On garde un padding modeste pour que l'itinéraire remplisse vraiment la carte,
+   * et on laisse un maxZoom généreux pour zoomer aussi sur les courts itinéraires.
+   */
+  function fitToSteps(animate: boolean) {
     const map = mapRef.current;
     if (!map || steps.length === 0) return;
+
+    const container = map.getContainer?.();
+    const w = container?.clientWidth ?? 0;
+    const h = container?.clientHeight ?? 0;
+    if (w <= 0 || h <= 0) return;
+
+    if (steps.length === 1) {
+      const s = steps[0];
+      try {
+        map.jumpTo({ center: [s.lng, s.lat], zoom: 10.5 });
+      } catch {
+        // ignore
+      }
+      return;
+    }
+
     const bounds = steps.reduce(
       (b, s) => ({
         minLng: Math.min(b.minLng, s.lng),
@@ -40,25 +62,84 @@ export default function StarFlipMap({ steps, activeStepIndex, mapboxToken }: Pro
       }),
       { minLng: 180, maxLng: -180, minLat: 90, maxLat: -90 }
     );
+
     try {
       map.fitBounds(
         [
-          [bounds.minLng - 0.15, bounds.minLat - 0.15],
-          [bounds.maxLng + 0.15, bounds.maxLat + 0.15],
+          [bounds.minLng, bounds.minLat],
+          [bounds.maxLng, bounds.maxLat],
         ],
-        { padding: 40, duration: 800 }
+        {
+          padding: { top: 28, bottom: 28, left: 20, right: 20 },
+          maxZoom: 13,
+          duration: animate ? 500 : 0,
+          essential: true,
+        }
       );
     } catch {
       // ignore
     }
+  }
+
+  /** Déclencher le fit dès que la carte a une taille réelle (après flip + resize). */
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map) return;
+    let raf1 = 0;
+    let raf2 = 0;
+    const run = () => {
+      try {
+        map.resize();
+      } catch {
+        // ignore
+      }
+      raf2 = requestAnimationFrame(() => {
+        fitToSteps(false);
+        hasDoneInitialFitRef.current = true;
+      });
+    };
+    const onLoad = () => {
+      raf1 = requestAnimationFrame(run);
+    };
+    if (map.loaded?.()) onLoad();
+    else map.once?.("load", onLoad);
+
+    return () => {
+      cancelAnimationFrame(raf1);
+      cancelAnimationFrame(raf2);
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [steps]);
 
+  /** Re-fit si la taille du conteneur change (utile quand le verso de la carte est dévoilé). */
+  useEffect(() => {
+    const map = mapRef.current;
+    const container = map?.getContainer?.();
+    if (!container || typeof ResizeObserver === "undefined") return;
+    const ro = new ResizeObserver(() => {
+      try {
+        map.resize();
+      } catch {
+        // ignore
+      }
+      if (hasDoneInitialFitRef.current) fitToSteps(false);
+    });
+    ro.observe(container);
+    return () => ro.disconnect();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [steps]);
+
+  /**
+   * Suivi du step actif : on pan doucement vers le step sans jamais modifier le zoom.
+   * Le zoom a été fixé une fois par fitBounds — le changer ici cassait le cadrage de l'itinéraire.
+   */
   useEffect(() => {
     const map = mapRef.current;
     const step = steps[activeStepIndex];
     if (!map || !step) return;
+    if (steps.length <= 1) return;
     try {
-      map.easeTo({ center: [step.lng, step.lat], duration: 500 });
+      map.panTo([step.lng, step.lat], { duration: 400, essential: true });
     } catch {
       // ignore
     }
@@ -95,7 +176,7 @@ export default function StarFlipMap({ steps, activeStepIndex, mapboxToken }: Pro
 
   if (!mapboxToken) {
     return (
-      <div className="flex h-full flex-col items-center justify-center gap-2 bg-[#1c1c1c] px-4 text-center">
+      <div className="flex h-full flex-col items-center justify-center gap-2 bg-[var(--color-bg-secondary)] px-4 text-center">
         <p className="font-courier text-[10px] leading-relaxed text-white/40">
           Carte Mapbox indisponible : variable d’environnement{" "}
           <code className="text-white/55">NEXT_PUBLIC_MAPBOX_TOKEN</code> absente ou non injectée au build
@@ -121,9 +202,9 @@ export default function StarFlipMap({ steps, activeStepIndex, mapboxToken }: Pro
             id="star-route-line"
             type="line"
             paint={{
-              "line-color": "#E07856",
+              "line-color": "#e07856",
               "line-width": 3,
-              "line-opacity": 0.8,
+              "line-opacity": 0.85,
             }}
           />
         </Source>
@@ -137,7 +218,7 @@ export default function StarFlipMap({ steps, activeStepIndex, mapboxToken }: Pro
               <span
                 className={`whitespace-nowrap rounded px-1 font-courier font-bold leading-none transition-all duration-300 ${
                   isActive
-                    ? "mb-0.5 text-[10px] text-[#E07856]"
+                    ? "mb-0.5 text-[10px] text-[var(--color-accent-start)]"
                     : "mb-0 text-[8px] text-gray-500"
                 }`}
                 style={{
@@ -153,7 +234,7 @@ export default function StarFlipMap({ steps, activeStepIndex, mapboxToken }: Pro
                   width: isActive ? 14 : 8,
                   height: isActive ? 14 : 8,
                   borderRadius: "50%",
-                  backgroundColor: "#E07856",
+                  backgroundColor: "var(--color-accent-start)",
                   opacity: isActive ? 1 : 0.5,
                   border: isActive
                     ? "2.5px solid white"

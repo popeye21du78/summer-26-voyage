@@ -2,6 +2,7 @@ import { NextRequest } from "next/server";
 import { getItinerary, updateItineraryPhotoUrl } from "../../../lib/itinerary-supabase";
 import { getDepartementForVille } from "../../../lib/photo-queries";
 import { isPremiumPatrimoineSlug } from "../../../lib/maintenance-photo-queue";
+import { isMajorFrenchCitySlug } from "../../../lib/major-cities";
 import { getBeautyCuratedPhotosForSlug } from "../../../lib/maintenance-beauty-validations";
 import { getPublicPhotoPick } from "../../../lib/public-photo-url";
 import { fetchPhotosForCityFromPexels } from "../../../lib/pexels";
@@ -44,7 +45,11 @@ export async function GET(req: NextRequest) {
 
   const departement = getDepartementForVille(ville, stepId);
   const slug = slugHint || slugFromNom(ville.trim());
-  const premium = isPremiumPatrimoineSlug(slug);
+  /**
+   * On traite de la même façon les patrimoines premium ET les grandes villes FR :
+   * dans les deux cas, Unsplash offre de meilleurs headers que Wikipedia.
+   */
+  const premium = isPremiumPatrimoineSlug(slug) || isMajorFrenchCitySlug(slug);
 
   /** Beauty 200 + photo-validations (JSON uniquement) — même logique que /api/photo-resolve. */
   const idxStatic = refresh && photoIndex !== undefined ? photoIndex : 0;

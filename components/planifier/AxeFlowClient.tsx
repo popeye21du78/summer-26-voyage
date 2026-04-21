@@ -194,7 +194,7 @@ export default function AxeFlowClient() {
     <main className="page-under-header mx-auto max-w-lg px-4 py-10">
       <Link
         href="/planifier/commencer"
-        className="mb-6 inline-flex items-center gap-1 font-courier text-sm font-bold text-[#A55734]"
+        className="mb-6 inline-flex items-center gap-1 font-courier text-sm font-bold text-[var(--color-accent-end)]"
       >
         <ArrowLeft className="h-4 w-4" aria-hidden />
         Accueil
@@ -205,19 +205,19 @@ export default function AxeFlowClient() {
       {step === 1 && (
         <div className="mt-6 space-y-3 font-courier text-sm">
           <label className="block">
-            <span className="font-bold text-[#A55734]">Départ</span>
+            <span className="font-bold text-[var(--color-accent-end)]">Départ</span>
             <input
               value={startQ}
               onChange={(e) => setStartQ(e.target.value)}
-              className="mt-1 w-full rounded-lg border-2 border-[#A55734]/25 px-3 py-2"
+              className="mt-1 w-full rounded-lg border-2 border-[var(--color-accent-end)]/25 px-3 py-2"
             />
           </label>
           <label className="block">
-            <span className="font-bold text-[#A55734]">Arrivée</span>
+            <span className="font-bold text-[var(--color-accent-end)]">Arrivée</span>
             <input
               value={endQ}
               onChange={(e) => setEndQ(e.target.value)}
-              className="mt-1 w-full rounded-lg border-2 border-[#A55734]/25 px-3 py-2"
+              className="mt-1 w-full rounded-lg border-2 border-[var(--color-accent-end)]/25 px-3 py-2"
             />
           </label>
           <label className="flex items-center gap-2 text-xs">
@@ -229,21 +229,21 @@ export default function AxeFlowClient() {
             Retour au départ (boucle)
           </label>
           <label className="block">
-            <span className="font-bold text-[#A55734]">Nombre de jours</span>
+            <span className="font-bold text-[var(--color-accent-end)]">Nombre de jours</span>
             <input
               type="number"
               min={1}
               max={60}
               value={days}
               onChange={(e) => setDays(Number(e.target.value) || 1)}
-              className="mt-1 w-full rounded-lg border-2 border-[#A55734]/25 px-3 py-2"
+              className="mt-1 w-full rounded-lg border-2 border-[var(--color-accent-end)]/25 px-3 py-2"
             />
           </label>
           {geoErr && <p className="text-xs text-red-600">{geoErr}</p>}
           <button
             type="button"
             onClick={() => void geocodePair()}
-            className="w-full rounded-full bg-[#E07856] py-2.5 font-bold text-white"
+            className="w-full rounded-full bg-[var(--color-accent-start)] py-2.5 font-bold text-white"
           >
             Valider les lieux
           </button>
@@ -252,7 +252,7 @@ export default function AxeFlowClient() {
 
       {step === 2 && (
         <div className="mt-6 space-y-4 font-courier text-sm">
-          <span className="font-bold text-[#A55734]">Tendance du parcours</span>
+          <span className="font-bold text-[var(--color-accent-end)]">Tendance du parcours</span>
           {(
             [
               ["direct", "Le plus direct"],
@@ -266,17 +266,17 @@ export default function AxeFlowClient() {
               type="button"
               onClick={() => setCorridorTendency(v)}
               className={`block w-full rounded-xl border-2 p-3 text-left text-xs ${
-                corridorTendency === v ? "border-[#E07856] bg-[#FFF2EB]" : "border-[#A55734]/20"
+                corridorTendency === v ? "border-[var(--color-accent-start)] bg-[#FFF2EB]" : "border-[var(--color-accent-end)]/20"
               }`}
             >
               {lab}
             </button>
           ))}
-          <span className="font-bold text-[#A55734]">Préférence spatiale</span>
+          <span className="font-bold text-[var(--color-accent-end)]">Préférence spatiale</span>
           <select
             value={lateral}
             onChange={(e) => setLateral(e.target.value as typeof lateral)}
-            className="w-full rounded-lg border-2 border-[#A55734]/25 px-3 py-2"
+            className="w-full rounded-lg border-2 border-[var(--color-accent-end)]/25 px-3 py-2"
           >
             <option value="aucune">Sans préférence</option>
             <option value="littoral">Plutôt littoral</option>
@@ -293,7 +293,7 @@ export default function AxeFlowClient() {
                 persist();
                 setStep(3);
               }}
-              className="flex-1 rounded-full bg-[#E07856] py-2 font-bold text-white"
+              className="flex-1 rounded-full bg-[var(--color-accent-start)] py-2 font-bold text-white"
             >
               Continuer
             </button>
@@ -310,14 +310,14 @@ export default function AxeFlowClient() {
                 type="button"
                 onClick={() => togglePrio(p.id)}
                 className={`rounded-full border-2 px-3 py-1 text-xs font-bold ${
-                  priorities.includes(p.id) ? "border-[#E07856] bg-[#FFF2EB]" : "border-[#A55734]/25"
+                  priorities.includes(p.id) ? "border-[var(--color-accent-start)] bg-[#FFF2EB]" : "border-[var(--color-accent-end)]/25"
                 }`}
               >
                 {p.label}
               </button>
             ))}
           </div>
-          <span className="font-bold text-[#A55734]">Notoriété</span>
+          <span className="font-bold text-[var(--color-accent-end)]">Notoriété</span>
           <div className="flex flex-wrap gap-2">
             {(
               [
@@ -331,14 +331,14 @@ export default function AxeFlowClient() {
                 type="button"
                 onClick={() => setNotoriety(v)}
                 className={`rounded-full border-2 px-3 py-1 text-xs ${
-                  notoriety === v ? "border-[#E07856] bg-[#E07856] text-white" : "border-[#A55734]/25"
+                  notoriety === v ? "border-[var(--color-accent-start)] bg-[var(--color-accent-start)] text-white" : "border-[var(--color-accent-end)]/25"
                 }`}
               >
                 {lab}
               </button>
             ))}
           </div>
-          <span className="font-bold text-[#A55734]">Arbitrage principal</span>
+          <span className="font-bold text-[var(--color-accent-end)]">Arbitrage principal</span>
           {(
             [
               ["moins_route", "Limiter la route"],
@@ -367,7 +367,7 @@ export default function AxeFlowClient() {
                 persist();
                 setStep(4);
               }}
-              className="flex-1 rounded-full bg-[#E07856] py-2 font-bold text-white"
+              className="flex-1 rounded-full bg-[var(--color-accent-start)] py-2 font-bold text-white"
             >
               Continuer
             </button>
@@ -377,14 +377,14 @@ export default function AxeFlowClient() {
 
       {step === 4 && (
         <div className="mt-6 space-y-3 font-courier text-sm">
-          <span className="font-bold text-[#A55734]">Corridors plausibles</span>
+          <span className="font-bold text-[var(--color-accent-end)]">Corridors plausibles</span>
           {CORRIDORS.map((c) => (
             <button
               key={c.id}
               type="button"
               onClick={() => setCorridorVariant(c.id)}
               className={`block w-full rounded-xl border-2 p-3 text-left ${
-                corridorVariant === c.id ? "border-[#E07856] bg-[#FFF2EB]" : "border-[#A55734]/20"
+                corridorVariant === c.id ? "border-[var(--color-accent-start)] bg-[#FFF2EB]" : "border-[var(--color-accent-end)]/20"
               }`}
             >
               <span className="font-bold">{c.label}</span>
@@ -401,7 +401,7 @@ export default function AxeFlowClient() {
                 persist();
                 setStep(5);
               }}
-              className="flex-1 rounded-full bg-[#E07856] py-2 font-bold text-white"
+              className="flex-1 rounded-full bg-[var(--color-accent-start)] py-2 font-bold text-white"
             >
               Continuer
             </button>
@@ -427,7 +427,7 @@ export default function AxeFlowClient() {
                 persist();
                 void fetchStructures();
               }}
-              className="flex-1 rounded-full bg-[#E07856] py-2 font-bold text-white disabled:opacity-60"
+              className="flex-1 rounded-full bg-[var(--color-accent-start)] py-2 font-bold text-white disabled:opacity-60"
             >
               {loading ? "…" : "Générer les structures"}
             </button>
@@ -443,10 +443,10 @@ export default function AxeFlowClient() {
               type="button"
               onClick={() => setPicked(s)}
               className={`block w-full rounded-xl border-2 p-4 text-left ${
-                picked?.id === s.id ? "border-[#E07856] bg-[#FFF2EB]" : "border-[#A55734]/25"
+                picked?.id === s.id ? "border-[var(--color-accent-start)] bg-[#FFF2EB]" : "border-[var(--color-accent-end)]/25"
               }`}
             >
-              <span className="font-bold text-[#A55734]">{s.label}</span>
+              <span className="font-bold text-[var(--color-accent-end)]">{s.label}</span>
               <p className="mt-1 text-xs">{s.mobility}</p>
               <p className="mt-2 text-xs">{s.bases.map((b) => `${b.name} (${b.nights} n.)`).join(" → ")}</p>
             </button>
@@ -474,7 +474,7 @@ export default function AxeFlowClient() {
               <button
                 type="button"
                 onClick={() => openInPlanning(picked)}
-                className="w-full rounded-full bg-[#E07856] py-3 font-bold text-white"
+                className="w-full rounded-full bg-[var(--color-accent-start)] py-3 font-bold text-white"
               >
                 Ouvrir dans le planning
               </button>

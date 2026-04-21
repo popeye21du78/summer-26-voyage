@@ -26,7 +26,7 @@ export default function AccueilHub({ profileId, profileName }: Props) {
 
   if (loading) {
     return (
-      <main className="flex h-full items-center justify-center bg-[#0e0e0e]">
+      <main className="flex h-full items-center justify-center bg-[var(--color-bg-main)]">
         <p className="voyage-loading-text text-sm uppercase tracking-widest">
           voyage voyage…
         </p>
@@ -35,8 +35,8 @@ export default function AccueilHub({ profileId, profileName }: Props) {
   }
 
   return (
-    <main className="relative flex min-h-[calc(100dvh-4rem)] w-full flex-col overflow-hidden bg-[#0e0e0e]">
-      {/* Video background - B&W */}
+    <main className="relative flex min-h-[calc(100dvh-4rem)] w-full flex-col overflow-hidden bg-[var(--color-bg-main)]">
+      {/* Video background - B&W, voile chaud léger */}
       <div className="absolute inset-0 min-h-[calc(100dvh-4rem)]">
         <video
           src="/A2.mp4"
@@ -44,21 +44,34 @@ export default function AccueilHub({ profileId, profileName }: Props) {
           muted
           loop
           playsInline
-          className="h-full min-h-[calc(100dvh-4rem)] w-full object-cover opacity-20"
-          style={{ filter: "grayscale(100%)" }}
+          className="h-full min-h-[calc(100dvh-4rem)] w-full object-cover opacity-35"
+          style={{ filter: "grayscale(100%) contrast(1.05)" }}
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/80" />
+        <div
+          className="absolute inset-0"
+          style={{
+            background: `linear-gradient(
+              to bottom,
+              color-mix(in srgb, var(--color-bg-main) 28%, transparent) 0%,
+              transparent 40%,
+              color-mix(in srgb, var(--color-bg-main) 55%, transparent) 100%
+            )`,
+          }}
+        />
+        <div className="hero-accueil-warm-overlay absolute inset-0" />
       </div>
 
       <div className="relative z-10 flex min-h-[calc(100dvh-4rem)] min-w-0 flex-1 flex-col px-5 pb-[max(1.5rem,env(safe-area-inset-bottom))] pt-[calc(env(safe-area-inset-top,0px)+1.5rem)]">
-        {/* Logo seul, centré, grande taille */}
+        {/* Logo principal — grande taille + filtre accent chaud */}
         <div className="flex shrink-0 justify-center pt-1">
           <Image
             src="/A1.png"
             alt=""
-            width={160}
-            height={160}
-            className="h-[min(28vw,9.5rem)] w-auto brightness-0 invert"
+            width={320}
+            height={320}
+            sizes="(max-width: 640px) 64vw, 18rem"
+            className="h-[min(48vw,16rem)] w-auto"
+            style={{ filter: "var(--logo-filter-hero-center)" }}
             priority
           />
         </div>
@@ -93,7 +106,7 @@ function ContextualBlock({
     const step = state.stepsDuJour?.[0];
     return (
       <div className="space-y-5">
-        <p className="font-courier text-xs font-bold uppercase tracking-[0.4em] text-[#E07856]">
+        <p className="font-courier text-xs font-bold uppercase tracking-[0.4em] text-[var(--color-accent-start)]">
           En route
         </p>
         <h1 className="max-w-[95%] font-courier text-[2.2rem] font-bold leading-[0.96] tracking-tight text-white">
@@ -101,7 +114,7 @@ function ContextualBlock({
         </h1>
         {step && (
           <p className="flex items-center gap-2 font-courier text-sm text-white/70">
-            <MapPin className="h-4 w-4 text-[#E07856]" />
+            <MapPin className="h-4 w-4 text-[var(--color-accent-start)]" />
             Aujourd&apos;hui : {step.nom}
           </p>
         )}
@@ -121,14 +134,14 @@ function ContextualBlock({
     const jours = state.joursRestants ?? 0;
     return (
       <div className="space-y-5">
-        <p className="font-courier text-xs font-bold uppercase tracking-[0.4em] text-[#E07856]">
+        <p className="font-courier text-xs font-bold uppercase tracking-[0.4em] text-[var(--color-accent-start)]">
           Bientôt
         </p>
         <h1 className="max-w-[95%] font-courier text-[2.2rem] font-bold leading-[0.96] tracking-tight text-white">
           {v.titre}
         </h1>
         <p className="font-courier text-lg text-white/80">
-          <span className="text-3xl font-bold text-[#E07856]">J-{jours}</span>
+          <span className="text-3xl font-bold text-[var(--color-accent-start)]">J-{jours}</span>
         </p>
         <Link
           href={`/mon-espace/voyage/${v.id}`}
@@ -147,7 +160,7 @@ function ContextualBlock({
     const v = state?.voyagesTermines?.[0];
     return (
       <div className="space-y-5">
-        <p className="font-courier text-xs font-bold uppercase tracking-[0.4em] text-[#E07856]">
+        <p className="font-courier text-xs font-bold uppercase tracking-[0.4em] text-[var(--color-accent-start)]">
           {recent ? "Retour de voyage" : "Envie de repartir ?"}
         </p>
         <h1 className="max-w-[95%] font-courier text-[2.2rem] font-bold leading-[0.96] tracking-tight text-white">

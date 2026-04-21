@@ -233,7 +233,7 @@ export default function BatchStatusPage() {
     <main className="mx-auto max-w-4xl px-4 py-8">
       {/* ── Header ── */}
       <div className="mb-2 flex items-center gap-3">
-        <Package className="h-6 w-6 text-[#A55734]" />
+        <Package className="h-6 w-6 text-[var(--color-accent-end)]" />
         <h1 className="text-2xl font-light text-[#333]">
           Batch Descriptions
         </h1>
@@ -253,7 +253,7 @@ export default function BatchStatusPage() {
         </p>
       )}
       {data && (
-        <p className="mb-4 rounded-lg border border-[#A55734]/20 bg-[#FFF2EB]/30 px-4 py-2 text-sm text-[#333]/80">
+        <p className="mb-4 rounded-lg border border-[var(--color-accent-end)]/20 bg-[#FFF2EB]/30 px-4 py-2 text-sm text-[#333]/80">
           Chargement depuis les fichiers (aucun appel OpenAI). <strong>Rafraîchir</strong> = statut en temps réel.
         </p>
       )}
@@ -264,7 +264,7 @@ export default function BatchStatusPage() {
           type="button"
           onClick={() => fetchStatus(false)}
           disabled={loading}
-          className="flex items-center gap-2 rounded-lg bg-[#A55734] px-4 py-2 text-sm font-medium text-white transition hover:bg-[#A55734]/90 disabled:opacity-60"
+          className="flex items-center gap-2 rounded-lg bg-[var(--color-accent-end)] px-4 py-2 text-sm font-medium text-white transition hover:bg-[var(--color-accent-end)]/90 disabled:opacity-60"
         >
           {loading ? <Loader2 className="h-4 w-4 animate-spin" /> : <RefreshCw className="h-4 w-4" />}
           Rafraîchir
@@ -369,7 +369,7 @@ export default function BatchStatusPage() {
             Sortie console
           </button>
           {expandedOutput && (
-            <pre className="max-h-48 overflow-auto rounded-lg border border-[#A55734]/20 bg-[#FFF2EB]/50 p-3 text-xs text-[#333]">
+            <pre className="max-h-48 overflow-auto rounded-lg border border-[var(--color-accent-end)]/20 bg-[#FFF2EB]/50 p-3 text-xs text-[#333]">
               {actionOutput}
             </pre>
           )}
@@ -379,27 +379,27 @@ export default function BatchStatusPage() {
       {/* ── Cost + progress summary ── */}
       {summary && (
         <div className="mb-6 grid grid-cols-2 gap-3 sm:grid-cols-4">
-          <div className="rounded-lg border border-[#A55734]/20 bg-white p-3 text-center">
+          <div className="rounded-lg border border-[var(--color-accent-end)]/20 bg-white p-3 text-center">
             <div className="text-2xl font-light text-[#333]">
               {summary.completedLots}/{summary.totalLots}
             </div>
             <div className="text-xs text-[#333]/60">Lots terminés</div>
           </div>
-          <div className="rounded-lg border border-[#A55734]/20 bg-white p-3 text-center">
+          <div className="rounded-lg border border-[var(--color-accent-end)]/20 bg-white p-3 text-center">
             <div className="text-2xl font-light text-[#333]">
               {summary.completedRequests.toLocaleString()}/{summary.totalRequests.toLocaleString()}
             </div>
             <div className="text-xs text-[#333]/60">Descriptions générées</div>
           </div>
-          <div className="rounded-lg border border-[#A55734]/20 bg-white p-3 text-center">
-            <div className="text-2xl font-light text-[#A55734]">
+          <div className="rounded-lg border border-[var(--color-accent-end)]/20 bg-white p-3 text-center">
+            <div className="text-2xl font-light text-[var(--color-accent-end)]">
               ~${cost?.spent?.toFixed(2) ?? "0"}
             </div>
             <div className="text-xs text-[#333]/60">
               Dépensé / ~${cost?.estimated?.toFixed(2) ?? "?"} estimé
             </div>
           </div>
-          <div className="rounded-lg border border-[#A55734]/20 bg-white p-3 text-center">
+          <div className="rounded-lg border border-[var(--color-accent-end)]/20 bg-white p-3 text-center">
             <div className="text-2xl font-light text-[#333]">
               {descs?.fixed ?? 0}
             </div>
@@ -421,7 +421,7 @@ export default function BatchStatusPage() {
           </div>
           <div className="h-3 overflow-hidden rounded-full bg-gray-100">
             <div
-              className="h-full rounded-full bg-gradient-to-r from-[#A55734] to-[#C97B5A] transition-all duration-500"
+              className="h-full rounded-full bg-gradient-to-r from-[var(--color-accent-end)] to-[#C97B5A] transition-all duration-500"
               style={{
                 width: `${(summary.completedRequests / summary.totalRequests) * 100}%`,
               }}
@@ -452,7 +452,7 @@ export default function BatchStatusPage() {
                 >
                   <div className="flex flex-wrap items-center justify-between gap-2">
                     <div className="flex items-center gap-3">
-                      <span className="flex h-7 w-7 items-center justify-center rounded-full bg-[#A55734]/10 text-xs font-bold text-[#A55734]">
+                      <span className="flex h-7 w-7 items-center justify-center rounded-full bg-[var(--color-accent-end)]/10 text-xs font-bold text-[var(--color-accent-end)]">
                         {l.lot}
                       </span>
                       <div>
@@ -533,7 +533,7 @@ export default function BatchStatusPage() {
 
       {/* ── Post-batch pipeline ── */}
       {allDownloaded && (
-        <section className="mb-8 rounded-lg border border-[#A55734]/20 bg-[#FFF2EB]/30 p-5">
+        <section className="mb-8 rounded-lg border border-[var(--color-accent-end)]/20 bg-[#FFF2EB]/30 p-5">
           <h2 className="mb-4 text-lg font-medium text-[#333]">
             Pipeline post-batch
           </h2>
@@ -563,7 +563,7 @@ export default function BatchStatusPage() {
                       callApi("/api/batch-desc-process?lot=all", "process-eclate")
                     }
                     disabled={!!actionLoading}
-                    className="mt-2 flex items-center gap-2 rounded-lg border border-[#A55734] bg-white px-3 py-1.5 text-sm font-medium text-[#A55734] hover:bg-[#FFF2EB] disabled:opacity-60"
+                    className="mt-2 flex items-center gap-2 rounded-lg border border-[var(--color-accent-end)] bg-white px-3 py-1.5 text-sm font-medium text-[var(--color-accent-end)] hover:bg-[#FFF2EB] disabled:opacity-60"
                   >
                     {actionLoading === "process-eclate" ? (
                       <Loader2 className="h-4 w-4 animate-spin" />
@@ -604,7 +604,7 @@ export default function BatchStatusPage() {
                       )
                     }
                     disabled={!!actionLoading}
-                    className="mt-2 flex items-center gap-2 rounded-lg border border-[#A55734] bg-white px-3 py-1.5 text-sm font-medium text-[#A55734] hover:bg-[#FFF2EB] disabled:opacity-60"
+                    className="mt-2 flex items-center gap-2 rounded-lg border border-[var(--color-accent-end)] bg-white px-3 py-1.5 text-sm font-medium text-[var(--color-accent-end)] hover:bg-[#FFF2EB] disabled:opacity-60"
                   >
                     {actionLoading === "process-validate" ? (
                       <Loader2 className="h-4 w-4 animate-spin" />
@@ -636,7 +636,7 @@ export default function BatchStatusPage() {
                       )
                     }
                     disabled={!!actionLoading}
-                    className="mt-2 flex items-center gap-2 rounded-lg border border-[#A55734] bg-white px-3 py-1.5 text-sm font-medium text-[#A55734] hover:bg-[#FFF2EB] disabled:opacity-60"
+                    className="mt-2 flex items-center gap-2 rounded-lg border border-[var(--color-accent-end)] bg-white px-3 py-1.5 text-sm font-medium text-[var(--color-accent-end)] hover:bg-[#FFF2EB] disabled:opacity-60"
                   >
                     {actionLoading === "process-photos" ? (
                       <Loader2 className="h-4 w-4 animate-spin" />
@@ -653,9 +653,9 @@ export default function BatchStatusPage() {
       )}
 
       {/* ── Batch photos Wikimedia Commons ── */}
-      <section className="mb-8 rounded-lg border border-[#A55734]/20 bg-[#FFF2EB]/30 p-5">
+      <section className="mb-8 rounded-lg border border-[var(--color-accent-end)]/20 bg-[#FFF2EB]/30 p-5">
         <h2 className="mb-4 flex items-center gap-2 text-lg font-medium text-[#333]">
-          <Camera className="h-5 w-5 text-[#A55734]" />
+          <Camera className="h-5 w-5 text-[var(--color-accent-end)]" />
           Batch photos Wikimedia Commons
         </h2>
         <p className="mb-4 text-sm text-[#333]/70">
@@ -675,7 +675,7 @@ export default function BatchStatusPage() {
             type="button"
             onClick={() => runPhotosBatch(5)}
             disabled={!!actionLoading || (photosBatchStatus?.remaining ?? 0) === 0}
-            className="flex items-center gap-2 rounded-lg border border-[#A55734] bg-white px-4 py-2 text-sm font-medium text-[#A55734] hover:bg-[#FFF2EB] disabled:opacity-50 disabled:cursor-not-allowed"
+            className="flex items-center gap-2 rounded-lg border border-[var(--color-accent-end)] bg-white px-4 py-2 text-sm font-medium text-[var(--color-accent-end)] hover:bg-[#FFF2EB] disabled:opacity-50 disabled:cursor-not-allowed"
           >
             {actionLoading?.startsWith("photos-batch") ? (
               <Loader2 className="h-4 w-4 animate-spin" />
@@ -688,7 +688,7 @@ export default function BatchStatusPage() {
             type="button"
             onClick={() => runPhotosBatch(20)}
             disabled={!!actionLoading || (photosBatchStatus?.remaining ?? 0) === 0}
-            className="flex items-center gap-2 rounded-lg border border-[#A55734] bg-white px-4 py-2 text-sm font-medium text-[#A55734] hover:bg-[#FFF2EB] disabled:opacity-50 disabled:cursor-not-allowed"
+            className="flex items-center gap-2 rounded-lg border border-[var(--color-accent-end)] bg-white px-4 py-2 text-sm font-medium text-[var(--color-accent-end)] hover:bg-[#FFF2EB] disabled:opacity-50 disabled:cursor-not-allowed"
           >
             {actionLoading?.startsWith("photos-batch") ? (
               <Loader2 className="h-4 w-4 animate-spin" />
@@ -718,7 +718,7 @@ export default function BatchStatusPage() {
       )}
 
       {/* ── Cost card ── */}
-      <section className="mb-8 rounded-lg border border-[#A55734]/20 bg-[#FFF2EB]/30 p-5">
+      <section className="mb-8 rounded-lg border border-[var(--color-accent-end)]/20 bg-[#FFF2EB]/30 p-5">
         <h2 className="mb-3 text-lg font-medium text-[#333]">€ Suivi des coûts</h2>
         <div className="mb-3 space-y-1 text-sm text-[#333]/80">
           <p>
@@ -727,7 +727,7 @@ export default function BatchStatusPage() {
           <p>
             Estimation totale : <strong>~${cost?.estimated?.toFixed(2) ?? "22–23"}</strong>
             {cost?.spent != null && cost.spent > 0 && (
-              <> — Dépensé : <strong className="text-[#A55734]">~${cost.spent.toFixed(2)}</strong></>
+              <> — Dépensé : <strong className="text-[var(--color-accent-end)]">~${cost.spent.toFixed(2)}</strong></>
             )}
           </p>
         </div>
@@ -735,7 +735,7 @@ export default function BatchStatusPage() {
           href="https://platform.openai.com/usage"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 rounded-lg bg-white px-4 py-2 text-sm font-medium text-[#A55734] shadow-sm transition hover:bg-[#FFF2EB]"
+          className="inline-flex items-center gap-2 rounded-lg bg-white px-4 py-2 text-sm font-medium text-[var(--color-accent-end)] shadow-sm transition hover:bg-[#FFF2EB]"
         >
           <ExternalLink className="h-4 w-4" />
           Voir les coûts réels sur OpenAI
@@ -743,27 +743,27 @@ export default function BatchStatusPage() {
       </section>
 
       {/* ── How-to ── */}
-      <section className="mb-6 rounded-lg border border-[#A55734]/10 bg-white p-5">
+      <section className="mb-6 rounded-lg border border-[var(--color-accent-end)]/10 bg-white p-5">
         <h2 className="mb-3 text-lg font-medium text-[#333]">Mode d&apos;emploi</h2>
         <ol className="space-y-2 text-sm text-[#333]/80">
           <li className="flex gap-2">
-            <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[#A55734]/10 text-xs font-bold text-[#A55734]">1</span>
+            <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[var(--color-accent-end)]/10 text-xs font-bold text-[var(--color-accent-end)]">1</span>
             <span><strong>Préparer</strong> — Génère les fichiers JSONL (1 clic, instantané)</span>
           </li>
           <li className="flex gap-2">
-            <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[#A55734]/10 text-xs font-bold text-[#A55734]">2</span>
+            <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[var(--color-accent-end)]/10 text-xs font-bold text-[var(--color-accent-end)]">2</span>
             <span><strong>Soumettre lot par lot</strong> — Un clic par lot, attendre &quot;Terminé&quot; avant le suivant (~24h max)</span>
           </li>
           <li className="flex gap-2">
-            <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[#A55734]/10 text-xs font-bold text-[#A55734]">3</span>
+            <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[var(--color-accent-end)]/10 text-xs font-bold text-[var(--color-accent-end)]">3</span>
             <span><strong>Télécharger</strong> — Quand un lot est terminé, clic &quot;Télécharger&quot;</span>
           </li>
           <li className="flex gap-2">
-            <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[#A55734]/10 text-xs font-bold text-[#A55734]">4</span>
+            <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[var(--color-accent-end)]/10 text-xs font-bold text-[var(--color-accent-end)]">4</span>
             <span><strong>Éclater + valider</strong> — Transforme les résultats en fichiers individuels, auto-fixe les erreurs</span>
           </li>
           <li className="flex gap-2">
-            <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[#A55734]/10 text-xs font-bold text-[#A55734]">5</span>
+            <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[var(--color-accent-end)]/10 text-xs font-bold text-[var(--color-accent-end)]">5</span>
             <span><strong>Dossiers photos</strong> — Crée l&apos;arborescence pour tes photos</span>
           </li>
         </ol>
@@ -775,7 +775,7 @@ export default function BatchStatusPage() {
           href="https://platform.openai.com/batches"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-[#A55734] underline hover:no-underline"
+          className="text-[var(--color-accent-end)] underline hover:no-underline"
         >
           platform.openai.com/batches
         </a>

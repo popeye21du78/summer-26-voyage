@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useRef, type ReactNode } from "react";
+import { useState, useEffect, useRef, useCallback, type ReactNode, type UIEvent as ReactUIEvent } from "react";
 import { Map, Star, Users } from "lucide-react";
 import InspirerCarteWrapper from "./InspirerCarteWrapper";
 import InspirerStars from "./InspirerStars";
@@ -57,6 +57,16 @@ function InspirerRegionFromUrl({
   return null;
 }
 
+/**
+ * Mini-composant lu depuis le contexte carte : sait si une région est sélectionnée
+ * (sheet ouverte) → on cache alors la top bar tabs + recherche pour libérer la carte
+ * et permettre le drag de la sheet sur toute sa hauteur.
+ */
+function useIsRegionSheetOpen(): boolean {
+  const { top } = useInspirationMap();
+  return top.screen !== "france" && top.screen !== "region-map-fullscreen";
+}
+
 function InspirerTabsInner({
   mapboxAccessToken,
   initialTab,
@@ -76,6 +86,36 @@ function InspirerTabsInner({
 
   const [starsSearch, setStarsSearch] = useState("");
   const [amisSearch, setAmisSearch] = useState("");
+
+  /** Rétracter la TopBar (recherche + filtres + favoris) quand on descend,
+   *  la remontrer quand on remonte. Ignoré sur l'onglet carte (pas de scroll). */
+  const [topBarHidden, setTopBarHidden] = useState(false);
+  const lastScrollYRef = useRef(0);
+  const handleTabScroll = useCallback((e: ReactUIEvent<HTMLDivElement>) => {
+    const target = e.currentTarget;
+    if (!target) return;
+    const y = target.scrollTop;
+    const delta = y - lastScrollYRef.current;
+    if (Math.abs(delta) > 6) {
+      if (delta > 0 && y > 72) setTopBarHidden(true);
+      else if (delta < 0) setTopBarHidden(false);
+      lastScrollYRef.current = y;
+    }
+  }, []);
+  useEffect(() => {
+    /** Au changement d'onglet, on ré-affiche la TopBar pour ne pas piéger l'user. */
+    setTopBarHidden(false);
+    lastScrollYRef.current = 0;
+  }, [active]);
+
+  /**
+   * Sheet région ouverte sur l'onglet carte :
+   * - on garde TOUJOURS les top tabs visibles (demande produit : la sheet doit
+   *   recouvrir la carte mais JAMAIS le menu du haut)
+   * - on rétracte juste la barre de recherche (elle peut disparaître derrière la sheet)
+   */
+  const regionSheetOpen = useIsRegionSheetOpen();
+  const searchHiddenForRegionSheet = active === "carte" && regionSheetOpen;
 
   useEffect(() => {
     const n = normalizeInitialTab(initialTab);
@@ -137,8 +177,10 @@ function InspirerTabsInner({
 
   return (
     <div className="flex h-full min-h-0 min-w-0 flex-1 flex-col">
-      <div className="shrink-0 border-b border-white/6 bg-[#111111]/95 backdrop-blur-lg">
-        <div className="flex items-stretch" role="tablist">
+      <div
+        className="viago-top-tabs-wrap inspirer-topbar-collapse"
+      >
+        <div className="viago-top-tabs-pill" role="tablist">
           {TABS.map(({ id, label, icon: Icon }) => {
             const isActive = active === id;
             return (
@@ -148,11 +190,7 @@ function InspirerTabsInner({
                 type="button"
                 aria-selected={isActive}
                 onClick={() => selectTab(id)}
-                className={`flex flex-1 flex-col items-center gap-0.5 py-2.5 transition-colors duration-150 ${
-                  isActive
-                    ? "border-b-2 border-[#E07856] text-[#E07856]"
-                    : "text-white/35 hover:text-white/55"
-                }`}
+                className="viago-top-tab"
               >
                 <Icon className="h-4 w-4" strokeWidth={isActive ? 2.4 : 1.6} />
                 <span className="font-courier text-[10px] font-bold uppercase tracking-wider">
@@ -164,23 +202,30 @@ function InspirerTabsInner({
         </div>
       </div>
 
-      <TopBar
-        searchOverride={
-          active === "stars"
-            ? {
-                value: starsSearch,
-                onChange: setStarsSearch,
-                placeholder: "Rechercher un itinéraire, un thème…",
-              }
-            : active === "amis"
+      <div
+        className={`inspirer-topbar-collapse ${
+          topBarHidden || searchHiddenForRegionSheet ? "inspirer-topbar-collapse--hidden" : ""
+        }`}
+        aria-hidden={topBarHidden || searchHiddenForRegionSheet}
+      >
+        <TopBar
+          searchOverride={
+            active === "stars"
               ? {
-                  value: amisSearch,
-                  onChange: setAmisSearch,
-                  placeholder: "Ami, voyage, ville…",
+                  value: starsSearch,
+                  onChange: setStarsSearch,
+                  placeholder: "Rechercher un itinéraire, un thème…",
                 }
-              : undefined
-        }
-      />
+              : active === "amis"
+                ? {
+                    value: amisSearch,
+                    onChange: setAmisSearch,
+                    placeholder: "Ami, voyage, ville…",
+                  }
+                : undefined
+          }
+        />
+      </div>
 
       <InspirerRegionFromUrl active={active} initialRegion={initialRegion} />
 
@@ -203,6 +248,7 @@ function InspirerTabsInner({
           scrollRef={(el) => {
             scrollRefs.current.stars = el;
           }}
+          onScroll={handleTabScroll}
         >
           <InspirerStars initialRegionFilter={initialRegion} searchQuery={starsSearch} />
         </TabPanel>
@@ -213,6 +259,7 @@ function InspirerTabsInner({
           scrollRef={(el) => {
             scrollRefs.current.amis = el;
           }}
+          onScroll={handleTabScroll}
         >
           <InspirerAmis searchQuery={amisSearch} />
         </TabPanel>
@@ -234,12 +281,14 @@ function TabPanel({
   mounted,
   variant,
   scrollRef,
+  onScroll,
   children,
 }: {
   visible: boolean;
   mounted: boolean;
   variant: "map" | "scroll";
   scrollRef?: (el: HTMLDivElement | null) => void;
+  onScroll?: (e: ReactUIEvent<HTMLDivElement>) => void;
   children: ReactNode;
 }) {
   if (!mounted) return null;
@@ -248,6 +297,7 @@ function TabPanel({
     <div
       ref={scrollRef}
       role="tabpanel"
+      onScroll={onScroll}
       className={`absolute inset-0 ${overflow} scroll-smooth`}
       style={{
         display: visible ? "block" : "none",

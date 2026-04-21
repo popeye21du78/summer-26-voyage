@@ -1,0 +1,188 @@
+/**
+ * Viago — Moodboards (6 thèmes d'ambiance appliqués sur <html data-moodboard="…">).
+ *
+ * RÈGLES :
+ * - Chaque moodboard ne redéfinit QUE les variables de fond, texte et verre.
+ * - Les --color-accent-* orange restent globalement identiques (boutons toujours orange).
+ * - Les ombres / dégradés dérivés sont recalculés automatiquement depuis theme.css.
+ * - Les ID doivent rester stables : "terracotta", "nocturne", "dune", "foret", "violet", "ardoise".
+ */
+
+/* ————————————————————————————————— 1. Terracotta Sunset (défaut) */
+/* Pas d'override — c'est la charte de theme.css. */
+
+/* ————————————————————————————————— 2. Nocturne Bleu */
+html[data-moodboard="nocturne"] {
+  --color-bg-main: #1c2230;
+  --color-bg-secondary: #262e3d;
+  --color-bg-tertiary: #2f3848;
+  --color-bg-gradient-start: #202738;
+  --color-bg-gradient-end: #141826;
+
+  --color-text-primary: #eef0f8;
+  --color-text-secondary: rgba(238, 240, 248, 0.54);
+
+  --color-glass-bg: rgba(40, 48, 66, 0.5);
+  --color-glass-border: rgba(200, 220, 255, 0.14);
+  --color-glass-highlight: rgba(220, 235, 255, 0.22);
+  --color-glass-active-bg: rgba(55, 65, 88, 0.62);
+
+  --color-bg-edge-top: rgba(0, 0, 0, 0.58);
+  --color-bg-edge-bottom: rgba(0, 0, 0, 0.68);
+  --color-bg-edge-side: rgba(0, 0, 0, 0.38);
+}
+
+/* ————————————————————————————————— 3. Dune Aube (claire, warm) */
+html[data-moodboard="dune"] {
+  --color-bg-main: #f4e8d7;
+  --color-bg-secondary: #ecdcc5;
+  --color-bg-tertiary: #e3cfb3;
+  --color-bg-gradient-start: #f7ecda;
+  --color-bg-gradient-end: #e8d4b8;
+
+  --color-text-primary: #3b2a1e;
+  --color-text-secondary: rgba(59, 42, 30, 0.62);
+
+  --color-glass-bg: rgba(255, 248, 236, 0.52);
+  --color-glass-border: rgba(90, 55, 30, 0.14);
+  --color-glass-highlight: rgba(255, 240, 220, 0.6);
+  --color-glass-active-bg: rgba(255, 252, 240, 0.75);
+
+  --color-bg-edge-top: rgba(140, 80, 40, 0.22);
+  --color-bg-edge-bottom: rgba(110, 65, 30, 0.34);
+  --color-bg-edge-side: rgba(110, 65, 30, 0.18);
+}
+
+/* ————————————————————————————————— 4. Forêt Profonde */
+html[data-moodboard="foret"] {
+  --color-bg-main: #1f2a22;
+  --color-bg-secondary: #293629;
+  --color-bg-tertiary: #334132;
+  --color-bg-gradient-start: #263126;
+  --color-bg-gradient-end: #1a2419;
+
+  --color-text-primary: #ecefd8;
+  --color-text-secondary: rgba(236, 239, 216, 0.55);
+
+  --color-glass-bg: rgba(48, 60, 48, 0.5);
+  --color-glass-border: rgba(220, 235, 190, 0.14);
+  --color-glass-highlight: rgba(230, 240, 200, 0.22);
+  --color-glass-active-bg: rgba(62, 78, 62, 0.62);
+
+  --color-bg-edge-top: rgba(0, 0, 0, 0.56);
+  --color-bg-edge-bottom: rgba(0, 0, 0, 0.66);
+  --color-bg-edge-side: rgba(0, 0, 0, 0.38);
+}
+
+/* ————————————————————————————————— 5. Violet Minuit */
+html[data-moodboard="violet"] {
+  --color-bg-main: #241c2e;
+  --color-bg-secondary: #2f2539;
+  --color-bg-tertiary: #392e45;
+  --color-bg-gradient-start: #2b2237;
+  --color-bg-gradient-end: #1b1524;
+
+  --color-text-primary: #f2ecf8;
+  --color-text-secondary: rgba(242, 236, 248, 0.56);
+
+  --color-glass-bg: rgba(54, 44, 68, 0.52);
+  --color-glass-border: rgba(235, 220, 255, 0.14);
+  --color-glass-highlight: rgba(240, 225, 255, 0.22);
+  --color-glass-active-bg: rgba(72, 58, 92, 0.62);
+
+  --color-bg-edge-top: rgba(0, 0, 0, 0.58);
+  --color-bg-edge-bottom: rgba(0, 0, 0, 0.68);
+  --color-bg-edge-side: rgba(0, 0, 0, 0.4);
+}
+
+/* ————————————————————————————————— 6. Ardoise Marine */
+html[data-moodboard="ardoise"] {
+  --color-bg-main: #222a2f;
+  --color-bg-secondary: #2c3640;
+  --color-bg-tertiary: #364250;
+  --color-bg-gradient-start: #2a333b;
+  --color-bg-gradient-end: #1a2127;
+
+  --color-text-primary: #ecf2f5;
+  --color-text-secondary: rgba(236, 242, 245, 0.56);
+
+  --color-glass-bg: rgba(48, 60, 70, 0.52);
+  --color-glass-border: rgba(205, 225, 240, 0.14);
+  --color-glass-highlight: rgba(220, 235, 250, 0.22);
+  --color-glass-active-bg: rgba(64, 80, 96, 0.62);
+
+  --color-bg-edge-top: rgba(0, 0, 0, 0.56);
+  --color-bg-edge-bottom: rgba(0, 0, 0, 0.68);
+  --color-bg-edge-side: rgba(0, 0, 0, 0.38);
+}
+
+/* —————————————————————————————————
+ * 7. Perle (bleu-gris doux, moyen).
+ *
+ * NOTE DE CONTRASTE :
+ *   Le thème reste dans les gris froids pour garder un feeling « perle / ciel »,
+ *   mais la base est volontairement un gris-bleu MOYEN — pas un blanc cassé —
+ *   afin que les textes blancs (drapeau du reste de l'app) restent lisibles
+ *   et qu'on ne se retrouve PAS en blanc sur blanc sur les cartes verre.
+ */
+html[data-moodboard="perle"] {
+  --color-bg-main: #4c5866;
+  --color-bg-secondary: #58657a;
+  --color-bg-tertiary: #64738a;
+  --color-bg-gradient-start: #546273;
+  --color-bg-gradient-end: #3b4756;
+
+  --color-text-primary: #f3f5f9;
+  --color-text-secondary: rgba(243, 245, 249, 0.68);
+
+  --color-glass-bg: rgba(80, 95, 115, 0.45);
+  --color-glass-border: rgba(215, 225, 240, 0.18);
+  --color-glass-highlight: rgba(230, 240, 255, 0.24);
+  --color-glass-active-bg: rgba(100, 120, 145, 0.62);
+
+  --color-bg-edge-top: rgba(0, 0, 0, 0.4);
+  --color-bg-edge-bottom: rgba(0, 0, 0, 0.52);
+  --color-bg-edge-side: rgba(0, 0, 0, 0.28);
+}
+
+/* ————————————————————————————————— 8. Lagon (bleu profond) */
+html[data-moodboard="lagon"] {
+  --color-bg-main: #0f2a38;
+  --color-bg-secondary: #143646;
+  --color-bg-tertiary: #1c4456;
+  --color-bg-gradient-start: #13344a;
+  --color-bg-gradient-end: #091e2a;
+
+  --color-text-primary: #e5f0f5;
+  --color-text-secondary: rgba(229, 240, 245, 0.58);
+
+  --color-glass-bg: rgba(25, 64, 82, 0.52);
+  --color-glass-border: rgba(170, 220, 240, 0.16);
+  --color-glass-highlight: rgba(200, 235, 250, 0.26);
+  --color-glass-active-bg: rgba(40, 86, 108, 0.62);
+
+  --color-bg-edge-top: rgba(0, 0, 0, 0.56);
+  --color-bg-edge-bottom: rgba(0, 0, 0, 0.68);
+  --color-bg-edge-side: rgba(0, 0, 0, 0.38);
+}
+
+/* ————————————————————————————————— 9. Turquoise (bord de lagon) */
+html[data-moodboard="turquoise"] {
+  --color-bg-main: #123a3d;
+  --color-bg-secondary: #18494d;
+  --color-bg-tertiary: #1f585d;
+  --color-bg-gradient-start: #154345;
+  --color-bg-gradient-end: #0a2a2c;
+
+  --color-text-primary: #e6f5f3;
+  --color-text-secondary: rgba(230, 245, 243, 0.58);
+
+  --color-glass-bg: rgba(30, 80, 82, 0.52);
+  --color-glass-border: rgba(180, 235, 230, 0.18);
+  --color-glass-highlight: rgba(200, 240, 234, 0.28);
+  --color-glass-active-bg: rgba(44, 104, 108, 0.62);
+
+  --color-bg-edge-top: rgba(0, 0, 0, 0.54);
+  --color-bg-edge-bottom: rgba(0, 0, 0, 0.66);
+  --color-bg-edge-side: rgba(0, 0, 0, 0.36);
+}

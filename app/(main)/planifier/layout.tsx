@@ -10,7 +10,7 @@ export default function PlanifierLayout({
       <div className="mx-auto flex max-w-4xl justify-end px-4 pt-4">
         <Link
           href="/planifier"
-          className="font-courier text-xs font-bold text-[#A55734] underline hover:text-[#8b4728]"
+          className="font-courier text-xs font-bold text-[var(--color-accent-end)] underline hover:text-[var(--color-accent-deep)]"
         >
           Hub planifier
         </Link>

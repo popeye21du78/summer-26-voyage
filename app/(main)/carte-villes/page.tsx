@@ -16,7 +16,7 @@ export default async function CarteVillesPage() {
         {lieux.length} lieu{lieux.length > 1 ? "x" : ""} (patrimoine, pépites, plages, randos) —
         source : <code className="rounded bg-[#FFF2EB] px-1">data/cities/lieux-central.xlsx</code>.
         Filtre par département et par catégorie.{" "}
-        <a href="/recap-lieux" className="underline hover:text-[#A55734]">Récap par région et catégorie</a>.
+        <a href="/recap-lieux" className="underline hover:text-[var(--color-accent-end)]">Récap par région et catégorie</a>.
       </p>
       {!hasToken ? (
         <div className="rounded-lg border border-amber-200 bg-amber-50 p-4 text-[#333333]">

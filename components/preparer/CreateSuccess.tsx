@@ -15,8 +15,8 @@ export default function CreateSuccess() {
   }, [router]);
 
   return (
-    <main className="flex h-full flex-col items-center justify-center bg-[#111111] px-6">
-      <CheckCircle className="h-16 w-16 text-[#E07856]" />
+    <main className="flex h-full flex-col items-center justify-center bg-[var(--color-bg-main)] px-6">
+      <CheckCircle className="h-16 w-16 text-[var(--color-accent-start)]" />
       <h1 className="mt-6 text-center font-courier text-2xl font-bold text-white">
         Ton voyage est prêt
       </h1>
