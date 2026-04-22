@@ -1,9 +1,11 @@
 "use client";
 
-import { useEffect, useRef, useMemo } from "react";
+import { useEffect, useRef, useMemo, useState } from "react";
+import type { FeatureCollection, LineString } from "geojson";
 import Map, { Marker, Source, Layer } from "react-map-gl/mapbox";
 import "mapbox-gl/dist/mapbox-gl.css";
 import type { ResolvedStarStep } from "@/lib/inspiration/star-itinerary-geo";
+import type { MapRef } from "react-map-gl/mapbox";
 
 type Props = {
   steps: ResolvedStarStep[];
@@ -14,10 +16,14 @@ type Props = {
 const BW_MAP_STYLE = "mapbox://styles/mapbox/light-v11";
 
 export default function StarFlipMap({ steps, activeStepIndex, mapboxToken }: Props) {
-  const mapRef = useRef<any>(null);
+  const mapRef = useRef<MapRef | null>(null);
   const hasDoneInitialFitRef = useRef(false);
+  const [routeData, setRouteData] = useState<{
+    segments: FeatureCollection | null;
+    singleLine: FeatureCollection | null;
+  } | null>(null);
 
-  const route = useMemo(() => {
+  const fallbackRoute = useMemo(() => {
     if (steps.length < 2) return null;
     return {
       type: "Feature" as const,
@@ -29,10 +35,54 @@ export default function StarFlipMap({ steps, activeStepIndex, mapboxToken }: Pro
     };
   }, [steps]);
 
+  useEffect(() => {
+    if (!mapboxToken || steps.length < 2) {
+      setRouteData(null);
+      return;
+    }
+    const ac = new AbortController();
+    fetch("/api/directions/route-geometry", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        steps: steps.map((step) => ({
+          id: step.slug,
+          nom: step.nom,
+          coordonnees: { lat: step.lat, lng: step.lng },
+        })),
+      }),
+      signal: ac.signal,
+    })
+      .then((r) => (r.ok ? r.json() : null))
+      .then((data: { segments?: FeatureCollection; singleLine?: FeatureCollection } | null) => {
+        if (!data?.segments || !data?.singleLine) {
+          setRouteData(null);
+          return;
+        }
+        setRouteData({
+          segments: data.segments,
+          singleLine: data.singleLine,
+        });
+      })
+      .catch(() => {
+        setRouteData(null);
+      });
+
+    return () => ac.abort();
+  }, [mapboxToken, steps]);
+
+  const routeCoordinates = useMemo<[number, number][]>(() => {
+    const feature = routeData?.singleLine?.features?.[0];
+    if (feature?.geometry?.type === "LineString") {
+      return (feature.geometry as LineString).coordinates as [number, number][];
+    }
+    return steps.map((step) => [step.lng, step.lat]);
+  }, [routeData, steps]);
+
   /**
    * Ajuste la carte à l'ensemble des étapes.
-   * On garde un padding modeste pour que l'itinéraire remplisse vraiment la carte,
-   * et on laisse un maxZoom généreux pour zoomer aussi sur les courts itinéraires.
+   * On serre davantage le padding pour que l'itinéraire remplisse mieux la carte
+   * dans le flip tout en gardant un peu d'air autour des marqueurs.
    */
   function fitToSteps(animate: boolean) {
     const map = mapRef.current;
@@ -46,22 +96,29 @@ export default function StarFlipMap({ steps, activeStepIndex, mapboxToken }: Pro
     if (steps.length === 1) {
       const s = steps[0];
       try {
-        map.jumpTo({ center: [s.lng, s.lat], zoom: 10.5 });
+        map.jumpTo({ center: [s.lng, s.lat], zoom: 11.8 });
       } catch {
         // ignore
       }
       return;
     }
 
-    const bounds = steps.reduce(
+    const bounds = routeCoordinates.reduce(
       (b, s) => ({
-        minLng: Math.min(b.minLng, s.lng),
-        maxLng: Math.max(b.maxLng, s.lng),
-        minLat: Math.min(b.minLat, s.lat),
-        maxLat: Math.max(b.maxLat, s.lat),
+        minLng: Math.min(b.minLng, s[0]),
+        maxLng: Math.max(b.maxLng, s[0]),
+        minLat: Math.min(b.minLat, s[1]),
+        maxLat: Math.max(b.maxLat, s[1]),
       }),
       { minLng: 180, maxLng: -180, minLat: 90, maxLat: -90 }
     );
+
+    const padding = {
+      top: Math.max(18, Math.round(h * 0.08)),
+      bottom: Math.max(18, Math.round(h * 0.08)),
+      left: Math.max(14, Math.round(w * 0.06)),
+      right: Math.max(14, Math.round(w * 0.06)),
+    };
 
     try {
       map.fitBounds(
@@ -70,8 +127,8 @@ export default function StarFlipMap({ steps, activeStepIndex, mapboxToken }: Pro
           [bounds.maxLng, bounds.maxLat],
         ],
         {
-          padding: { top: 28, bottom: 28, left: 20, right: 20 },
-          maxZoom: 13,
+          padding,
+          maxZoom: 14.2,
           duration: animate ? 500 : 0,
           essential: true,
         }
@@ -109,7 +166,7 @@ export default function StarFlipMap({ steps, activeStepIndex, mapboxToken }: Pro
       cancelAnimationFrame(raf2);
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [steps]);
+  }, [routeCoordinates, steps]);
 
   /** Re-fit si la taille du conteneur change (utile quand le verso de la carte est dévoilé). */
   useEffect(() => {
@@ -127,7 +184,7 @@ export default function StarFlipMap({ steps, activeStepIndex, mapboxToken }: Pro
     ro.observe(container);
     return () => ro.disconnect();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [steps]);
+  }, [routeCoordinates, steps]);
 
   /**
    * Suivi du step actif : on pan doucement vers le step sans jamais modifier le zoom.
@@ -196,10 +253,38 @@ export default function StarFlipMap({ steps, activeStepIndex, mapboxToken }: Pro
       attributionControl={false}
       interactive={true}
     >
-      {route && (
-        <Source id="star-route" type="geojson" data={route}>
+      {routeData?.segments?.features?.length ? (
+        <Source id="star-route-segments" type="geojson" data={routeData.segments}>
           <Layer
             id="star-route-line"
+            type="line"
+            paint={{
+              "line-color": [
+                "case",
+                ["==", ["coalesce", ["get", "isFallback"], false], true],
+                "#5aa8ff",
+                "#e07856",
+              ],
+              "line-width": [
+                "case",
+                ["==", ["coalesce", ["get", "isFallback"], false], true],
+                2.4,
+                3.4,
+              ],
+              "line-opacity": 0.9,
+              "line-dasharray": [
+                "case",
+                ["==", ["coalesce", ["get", "isFallback"], false], true],
+                ["literal", [1.2, 1.2]],
+                ["literal", [1, 0]],
+              ],
+            }}
+          />
+        </Source>
+      ) : fallbackRoute ? (
+        <Source id="star-route" type="geojson" data={fallbackRoute}>
+          <Layer
+            id="star-route-line-fallback"
             type="line"
             paint={{
               "line-color": "#e07856",
@@ -208,7 +293,7 @@ export default function StarFlipMap({ steps, activeStepIndex, mapboxToken }: Pro
             }}
           />
         </Source>
-      )}
+      ) : null}
 
       {steps.map((s, i) => {
         const isActive = i === activeStepIndex;

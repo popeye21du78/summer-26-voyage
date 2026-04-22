@@ -76,12 +76,29 @@ export async function POST(request: NextRequest) {
 
     for (const { i, from, to, route } of results) {
       if (!route?.geometry?.coordinates?.length) {
+        const fallbackCoordinates: GeoJSON.Position[] = [
+          [from.coordonnees.lng, from.coordonnees.lat],
+          [to.coordonnees.lng, to.coordonnees.lat],
+        ];
+        features.push({
+          type: "Feature",
+          id: `segment-${from.id}-${to.id}-fallback`,
+          geometry: { type: "LineString", coordinates: fallbackCoordinates },
+          properties: {
+            segmentId: `${from.id}-${to.id}`,
+            fromId: from.id,
+            toId: to.id,
+            fromName: from.nom,
+            toName: to.nom,
+            distanceKm: 0,
+            durationMin: 0,
+            tollCost: 0,
+            isFallback: true,
+          },
+        });
         segmentResults.push({
           i,
-          coordinates: [
-            [from.coordonnees.lng, from.coordonnees.lat],
-            [to.coordonnees.lng, to.coordonnees.lat],
-          ],
+          coordinates: fallbackCoordinates,
         });
         continue;
       }
@@ -106,6 +123,7 @@ export async function POST(request: NextRequest) {
           distanceKm,
           durationMin,
           tollCost,
+          isFallback: false,
         },
       });
       segmentResults.push({ i, coordinates });

@@ -55,6 +55,12 @@ export type InspirationDurationFilter =
   | "one_two_weeks"
   | "long";
 
+export type InspirationPoiTypeFilter =
+  | "patrimoine"
+  | "plage"
+  | "rando"
+  | "village";
+
 const ROOT = raw as { territories: EditorialTerritory[] };
 
 export function listTerritories(): EditorialTerritory[] {
@@ -69,7 +75,8 @@ export function filterTerritoriesByInspiration(
   territories: EditorialTerritory[],
   ambiance: InspirationAmbianceFilter[],
   duration: InspirationDurationFilter | null,
-  poiSectorId: string | null
+  poiSectorId: string | null,
+  poiTypes: InspirationPoiTypeFilter[] = []
 ): EditorialTerritory[] {
   return territories.filter((t) => {
     if (poiSectorId && t.poi_sector_id !== poiSectorId) return false;
@@ -78,6 +85,24 @@ export function filterTerritoriesByInspiration(
       if (!ok) return false;
     }
     if (duration && !t.duration_fit.includes(duration)) return false;
+    if (poiTypes.length > 0) {
+      const tags = new Set(
+        [...t.tags, ...t.filter_tags].map((item) => item.toLowerCase())
+      );
+      const matchesPoiType = poiTypes.some((poiType) => {
+        switch (poiType) {
+          case "patrimoine":
+            return tags.has("patrimoine");
+          case "plage":
+            return tags.has("mer");
+          case "rando":
+            return tags.has("nature");
+          case "village":
+            return tags.has("villages");
+        }
+      });
+      if (!matchesPoiType) return false;
+    }
     return true;
   });
 }
@@ -96,4 +121,11 @@ export const DURATION_OPTIONS: { id: InspirationDurationFilter; label: string }[
   { id: "week_5_7", label: "5 à 7 jours" },
   { id: "one_two_weeks", label: "1 à 2 semaines" },
   { id: "long", label: "Long voyage" },
+];
+
+export const POI_TYPE_OPTIONS: { id: InspirationPoiTypeFilter; label: string }[] = [
+  { id: "patrimoine", label: "Patrimoine" },
+  { id: "plage", label: "Plages" },
+  { id: "rando", label: "Randos nature" },
+  { id: "village", label: "Villages" },
 ];

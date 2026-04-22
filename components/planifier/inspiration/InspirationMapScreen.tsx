@@ -85,7 +85,7 @@ function RegionSheetHandle({
       role="separator"
       aria-orientation="horizontal"
       aria-label="Redimensionner la fiche région"
-      className="relative z-30 flex min-h-[28px] shrink-0 cursor-row-resize touch-none select-none items-center justify-center"
+      className="relative z-30 flex min-h-[38px] shrink-0 cursor-row-resize touch-none select-none items-center justify-center"
       onPointerDown={(e) => {
         if (e.button !== 0) return;
         startY.current = e.clientY;
@@ -113,7 +113,7 @@ function RegionSheetHandle({
         onDragEnd?.();
       }}
     >
-      <div className="pointer-events-none h-1.5 w-12 rounded-full bg-white/30 shadow-sm ring-1 ring-white/10" />
+      <div className="pointer-events-none h-1.5 w-14 rounded-full bg-white/30 shadow-sm ring-1 ring-white/10" />
     </div>
   );
 }
@@ -133,7 +133,7 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
   const mapRef = useRef<InspirationMapExpose>(null);
   /** Hauteur de la fiche en fraction de la fenêtre (overlay — la carte ne redimensionne jamais). */
   const sheetDragStartRatio = useRef(0.52);
-  const [sheetHeightRatio, setSheetHeightRatio] = useState(0.52);
+  const [sheetHeightRatio, setSheetHeightRatio] = useState(0.34);
   const [mapReady, setMapReady] = useState(false);
   const onMapReady = useCallback(() => setMapReady(true), []);
   const [mapZoom, setMapZoom] = useState(7.5);
@@ -155,7 +155,9 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
 
   useEffect(() => {
     let cancelled = false;
-    setLoadState("loading");
+    const loadId = requestAnimationFrame(() => {
+      if (!cancelled) setLoadState("loading");
+    });
     Promise.all([
       fetch(MAP_REGIONS_GEO_URL, { cache: "force-cache" }).then((r) => {
         if (!r.ok) throw new Error(String(r.status));
@@ -176,6 +178,7 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
       });
     return () => {
       cancelled = true;
+      cancelAnimationFrame(loadId);
     };
   }, []);
 
@@ -183,7 +186,8 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
     top.screen !== "france" && "regionId" in top ? top.regionId : null;
 
   useEffect(() => {
-    setSelectedVillePreview(null);
+    const id = requestAnimationFrame(() => setSelectedVillePreview(null));
+    return () => cancelAnimationFrame(id);
   }, [activeRegionId, top.screen]);
 
   const showRegionSheet =
@@ -192,22 +196,27 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
   /**
    * Sheet région : 3 snap points fixes.
    * - CLOSED (< 0.12) : la sheet est fermée → goBack() → carte + carousel visibles seuls.
-   * - PREVIEW (~0.48) : on voit la hero image de la région + son titre en filigrane. La carte reste visible dessous.
-   * - FULL (~0.92)    : aimanté juste sous la top bar → page région complète scrollable.
+   * - PREVIEW (~0.34) : au clic, la fiche ne couvre qu'environ un tiers d'écran.
+   * - FULL (~0.86)    : aimanté juste sous la top bar → page région complète scrollable.
    * Tirer vers le bas depuis FULL descend à PREVIEW ; tirer encore vers le bas ferme.
    */
-  const SNAP_PREVIEW = 0.48;
-  const SNAP_FULL = 0.92;
+  const SNAP_PREVIEW = 0.34;
+  const SNAP_FULL = 0.86;
+  const SNAP_DEFAULT_DETAIL = 0.58;
 
   useEffect(() => {
-    if (top.screen === "france") {
-      setSheetHeightRatio(SNAP_PREVIEW);
-      return;
-    }
-    if (top.screen === "region-map-fullscreen") return;
-    if (top.screen === "region-preview") setSheetHeightRatio(SNAP_PREVIEW);
-    else if (top.screen === "region-explore") setSheetHeightRatio(SNAP_FULL);
-    else setSheetHeightRatio(0.72);
+    const nextRatio =
+      top.screen === "france"
+        ? SNAP_PREVIEW
+        : top.screen === "region-map-fullscreen"
+          ? null
+          : top.screen === "region-preview"
+            ? SNAP_PREVIEW
+            : top.screen === "region-explore"
+              ? SNAP_FULL
+              : SNAP_DEFAULT_DETAIL;
+    if (nextRatio == null) return;
+    requestAnimationFrame(() => setSheetHeightRatio(nextRatio));
   }, [top.screen]);
 
   const onSheetHandleDragStart = useCallback(() => {
@@ -241,8 +250,8 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
         goBack();
         return;
       }
-      /** Point milieu entre PREVIEW (0.48) et FULL (0.92) ≈ 0.70. */
-      if (sh < 0.7) {
+      /** Point milieu entre PREVIEW (~0.34) et FULL (~0.86). */
+      if (sh < 0.62) {
         setSheetHeightRatio(SNAP_PREVIEW);
       } else {
         setSheetHeightRatio(SNAP_FULL);
@@ -255,12 +264,12 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
       goBack();
       return;
     }
-    if (sh >= 0.78) {
-      setSheetHeightRatio(0.72);
+    if (sh >= 0.74) {
+      setSheetHeightRatio(SNAP_DEFAULT_DETAIL);
       return;
     }
-    if (sh < 0.4) setSheetHeightRatio(0.48);
-    else setSheetHeightRatio(0.52);
+    if (sh < 0.42) setSheetHeightRatio(SNAP_PREVIEW);
+    else setSheetHeightRatio(SNAP_DEFAULT_DETAIL);
   }, [top.screen, goBack]);
 
   const [villePoints, setVillePoints] = useState<FeatureCollection | null>(null);
@@ -278,7 +287,7 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
      * Seule la vue « france » pure est vide (les cartes régions suffisent).
      */
     if (!activeRegionId || top.screen === "france") {
-      setVillePoints(null);
+      requestAnimationFrame(() => setVillePoints(null));
       return;
     }
     let cancelled = false;
@@ -287,6 +296,7 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
     qs.set("zoom", String(debouncedMapZoom));
     qs.set("variant", "map");
     for (const a of ctx.ambiance) qs.append("ambiance", a);
+    for (const poiType of ctx.poiTypes) qs.append("poiType", poiType);
     fetch(`/api/inspiration/lieux-region?${qs.toString()}`)
       .then((r) => r.json())
       .then((d: { lieux?: SlimLieuPoint[] }) => {
@@ -300,11 +310,7 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
             .filter((f) => f.kind === "place")
             .map((f) => f.refId)
         );
-        /** 5-7 POIs visibles aux zoom bas, progression douce ensuite. Évite la surcharge visuelle. */
-        const maxByZoom =
-          debouncedMapZoom < 6.5 ? 5 : debouncedMapZoom < 7.5 ? 7 : debouncedMapZoom < 9 ? 12 : 18;
-        const capped = d.lieux.slice(0, maxByZoom);
-        const enriched: SlimLieuPoint[] = capped.map((l) => {
+        const enriched: SlimLieuPoint[] = d.lieux.map((l) => {
           const tier = savedSlugs.has(l.slug)
             ? ("saved" as const)
             : mustSlugs.has(l.slug)
@@ -320,7 +326,7 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
     return () => {
       cancelled = true;
     };
-  }, [activeRegionId, top.screen, ctx.ambiance, debouncedMapZoom]);
+  }, [activeRegionId, top.screen, ctx.ambiance, ctx.poiTypes, debouncedMapZoom]);
 
   const editorialSlugForRoadLine = useMemo(() => {
     if (!activeRegionId) return null;
@@ -331,10 +337,12 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
 
   useEffect(() => {
     if (!activeRegionId || !editorialSlugForRoadLine) {
-      setEditorialRoadLineFc(null);
-      setStarItineraryStops([]);
-      setStarRouteDetail(null);
-      return;
+      const clearId = requestAnimationFrame(() => {
+        setEditorialRoadLineFc(null);
+        setStarItineraryStops([]);
+        setStarRouteDetail(null);
+      });
+      return () => cancelAnimationFrame(clearId);
     }
     let cancelled = false;
     const qs = new URLSearchParams({
@@ -387,10 +395,11 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
       all,
       ctx.ambiance,
       ctx.duration,
-      activeRegionId
+      activeRegionId,
+      ctx.poiTypes
     );
     return territoriesToPointCollection(list, null);
-  }, [top.screen, activeRegionId, all, ctx.ambiance, ctx.duration]);
+  }, [top.screen, activeRegionId, all, ctx.ambiance, ctx.duration, ctx.poiTypes]);
 
   const onMapBackgroundClick = useCallback(() => {
     if (top.screen === "region-map-fullscreen") {
@@ -660,7 +669,7 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
               initial={{ y: "100%" }}
               animate={{ y: 0 }}
               transition={{ type: "spring", damping: 30, stiffness: 280 }}
-              className="absolute bottom-0 left-0 right-0 z-[45] flex max-h-[92vh] flex-col overflow-hidden rounded-t-3xl border border-[var(--color-accent-start)]/20 bg-gradient-to-t from-[#faf0e8] to-[#fff8f2] shadow-[0_-8px_40px_rgba(180,80,40,0.2)]"
+              className="absolute bottom-0 left-0 right-0 z-[45] flex max-h-[88vh] flex-col overflow-hidden rounded-t-3xl border border-[var(--color-accent-start)]/20 bg-gradient-to-t from-[#faf0e8] to-[#fff8f2] shadow-[0_-8px_40px_rgba(180,80,40,0.2)]"
               style={{ height: sheetHvh }}
             >
               <RegionSheetHandle

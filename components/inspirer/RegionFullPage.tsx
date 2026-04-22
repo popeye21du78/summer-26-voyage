@@ -4,8 +4,9 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useReturnHref } from "@/lib/hooks/use-return-href";
-import { ArrowLeft, Sparkles } from "lucide-react";
+import { ArrowLeft, Landmark, Mountain, Sparkles, Trees, Waves } from "lucide-react";
 import { getRegionEditorial } from "@/content/inspiration/regions";
+import { listTerritories } from "@/lib/editorial-territories";
 import { slugFromNom } from "@/lib/slug-from-nom";
 import { useRegionCardResolvedPhoto } from "@/hooks/useRegionCardResolvedPhoto";
 import { CityPhoto } from "@/components/CityPhoto";
@@ -88,6 +89,7 @@ export default function RegionFullPage({ regionId, embeddedInSheet = false }: Pr
   const autresLieux = lieux.filter((l) => !incontournablesSlugs.has(l.slug));
 
   const heroReady = resolveDone && !!headerUrl;
+  const ambienceCapsules = buildRegionAmbienceCapsules(regionId);
   const Wrapper = embeddedInSheet ? "div" : "main";
 
   return (
@@ -172,11 +174,42 @@ export default function RegionFullPage({ regionId, embeddedInSheet = false }: Pr
           embeddedInSheet ? "pb-10" : "pb-bottom-nav"
         }`}
       >
-        {!embeddedInSheet && (
-          <p className="font-courier text-sm leading-relaxed text-[var(--color-text-primary)]/70">
-            {editorial.accroche_carte}
-          </p>
-        )}
+        <section className="space-y-4">
+          {!embeddedInSheet && (
+            <p className="font-courier text-sm leading-relaxed text-[var(--color-text-primary)]/72">
+              {editorial.accroche_carte}
+            </p>
+          )}
+          <div className="rounded-2xl border border-[var(--color-glass-border)] bg-white/5 px-4 py-4">
+            <p className="font-courier text-[11px] font-bold uppercase tracking-[0.22em] text-[var(--color-accent-start)]">
+              Avant les photos
+            </p>
+            <p className="mt-3 font-courier text-sm leading-relaxed text-[var(--color-text-primary)]/78">
+              {editorial.intro_longue}
+            </p>
+          </div>
+          <div className="rounded-2xl border border-[var(--color-glass-border)] bg-white/5 px-4 py-4">
+            <p className="font-courier text-[11px] font-bold uppercase tracking-[0.22em] text-[var(--color-accent-start)]">
+              Ambiance
+            </p>
+            <p className="mt-3 font-courier text-sm leading-relaxed text-[var(--color-text-primary)]/72">
+              {editorial.ambiance_detail}
+            </p>
+            {ambienceCapsules.length > 0 ? (
+              <div className="mt-4 flex flex-wrap gap-2">
+                {ambienceCapsules.map((capsule) => (
+                  <span
+                    key={capsule.label}
+                    className="inline-flex items-center gap-2 rounded-full border border-[var(--color-accent-start)]/22 bg-[var(--color-accent-start)]/8 px-3 py-1.5 font-courier text-[11px] text-[var(--color-text-primary)]/82"
+                  >
+                    <capsule.icon className="h-3.5 w-3.5 text-[var(--color-accent-start)]" />
+                    {capsule.label}
+                  </span>
+                ))}
+              </div>
+            ) : null}
+          </div>
+        </section>
 
         <section>
           <h2 className="mb-4 font-courier text-[11px] font-bold uppercase tracking-[0.22em] text-[var(--color-accent-start)]">
@@ -243,6 +276,26 @@ export default function RegionFullPage({ regionId, embeddedInSheet = false }: Pr
       </div>
     </Wrapper>
   );
+}
+
+function buildRegionAmbienceCapsules(regionId: string) {
+  const territories = listTerritories().filter((territory) => territory.poi_sector_id === regionId);
+  const tags = new Set<string>();
+  for (const territory of territories) {
+    for (const tag of [...territory.tags, ...territory.filter_tags]) {
+      tags.add(tag);
+    }
+  }
+
+  const ordered = [
+    { key: "mer", label: "Ambiance mer", icon: Waves },
+    { key: "nature", label: "Nature & grand air", icon: Trees },
+    { key: "patrimoine", label: "Patrimoine", icon: Landmark },
+    { key: "villages", label: "Villages", icon: Mountain },
+    { key: "road_trip", label: "Road trip", icon: Sparkles },
+  ];
+
+  return ordered.filter((item) => tags.has(item.key)).slice(0, 5);
 }
 
 function CityPictureCard({

@@ -71,17 +71,17 @@ export default function AmiVoyageFlipCard({
   }, []);
 
   useEffect(() => {
-    if (!flipped) setActiveStep(0);
-  }, [flipped]);
-
-  useEffect(() => {
     if (typeof window === "undefined") return;
+    let raf = 0;
     try {
       const u = new URL(window.location.href);
-      if (u.searchParams.get("amiFlip") === voyage.id) setFlipped(true);
+      if (u.searchParams.get("amiFlip") === voyage.id) {
+        raf = requestAnimationFrame(() => setFlipped(true));
+      }
     } catch {
       /* ignore */
     }
+    return () => cancelAnimationFrame(raf);
   }, [voyage.id]);
 
   const clearAmiFlipFromUrl = useCallback(() => {
@@ -102,8 +102,8 @@ export default function AmiVoyageFlipCard({
       className="relative w-full"
       style={{
         perspective: "1200px",
-        /** Flip : on agrandit la hauteur pour accueillir la map + étapes + bouton Viago. */
-        minHeight: flipped ? "min(680px, 92vh)" : undefined,
+        /** Verso plus compact pour éviter de devoir scroller immédiatement. */
+        minHeight: flipped ? "min(620px, 84vh)" : undefined,
         transition: "min-height 600ms ease",
       }}
     >
@@ -112,7 +112,7 @@ export default function AmiVoyageFlipCard({
         style={{
           transformStyle: "preserve-3d",
           transform: flipped ? "rotateY(180deg)" : "rotateY(0deg)",
-          height: flipped ? "min(680px, 92vh)" : "auto",
+          height: flipped ? "min(620px, 84vh)" : "auto",
         }}
       >
         {/* Recto */}
@@ -178,7 +178,7 @@ export default function AmiVoyageFlipCard({
         >
           <div className="flex h-full min-h-0 flex-col overflow-y-auto overscroll-y-contain pb-[max(1rem,env(safe-area-inset-bottom))]">
             <div className="shrink-0 border-b border-white/6 bg-[var(--color-bg-main)]">
-              <div className="relative aspect-[16/11] min-h-[120px] w-full max-h-[28vh]">
+              <div className="relative aspect-[16/10] min-h-[120px] w-full max-h-[24vh]">
                 {flipped && resolvedSteps.length > 0 && token ? (
                   <StarFlipMap
                     steps={resolvedSteps}
@@ -194,6 +194,7 @@ export default function AmiVoyageFlipCard({
                   type="button"
                   onClick={() => {
                     clearAmiFlipFromUrl();
+                    setActiveStep(0);
                     setFlipped(false);
                   }}
                   className="absolute left-3 top-3 z-30 rounded-xl bg-black/50 p-1.5 text-white/70 backdrop-blur-sm"
@@ -210,7 +211,7 @@ export default function AmiVoyageFlipCard({
               </p>
               <div
                 ref={carouselRef}
-                className="flex gap-3 overflow-x-auto px-4 pb-1 scrollbar-hide"
+                className="flex gap-2.5 overflow-x-auto px-4 pb-1 scrollbar-hide"
               >
                 {stepsForStrip.map((step, i) => (
                   <button
@@ -222,7 +223,7 @@ export default function AmiVoyageFlipCard({
                         ? "ring-2 ring-[var(--color-accent-start)]"
                         : "opacity-60 hover:opacity-90"
                     }`}
-                    style={{ width: "88px", height: "132px" }}
+                    style={{ width: "82px", height: "118px" }}
                   >
                     <CityPhoto
                       stepId={step.slug}

@@ -15,6 +15,8 @@ export interface Voyage {
   sousTitre: string;
   region: string;
   dureeJours: number;
+  /** Voyage solo / partagé (utilisé par l’accueil dynamique). */
+  estPartage?: boolean;
   /** Date de début (YYYY-MM-DD) — calculée dynamiquement selon persona */
   dateDebut: string;
   steps: Step[];

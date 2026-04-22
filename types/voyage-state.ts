@@ -13,6 +13,23 @@ export interface VoyageStateResponse {
   joursRestants?: number;
   joursDepuisFinDernierVoyage?: number;
   premiereConnexionDuJour?: boolean;
+  hasAnyTrip?: boolean;
+  hasPastTrip?: boolean;
+  hasUpcomingTrip?: boolean;
+  hasMultipleUpcomingTrips?: boolean;
+  hasCurrentTrip?: boolean;
+  hoursUntilNextTripStart?: number;
+  currentTripTotalDays?: number;
+  currentStepName?: string;
+  nextStepName?: string;
+  isSharedTrip?: boolean;
+  isFirstAppOpenEver?: boolean;
+  isFirstOpenOfSession?: boolean;
+  openMoment?: "morning" | "afternoon" | "evening";
+  hasLocationEnabled?: boolean;
+  hasConflictingUpcomingTrips?: boolean;
+  dailyThoughtId?: string;
+  dailyEditorialCardId?: string;
   stepsDuJour?: Array<{
     id: string;
     nom: string;

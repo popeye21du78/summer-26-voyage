@@ -9,7 +9,10 @@ import {
   filterLieuxByMapRegion,
   type LieuCentralRow,
 } from "@/lib/inspiration-lieux-region";
-import type { InspirationAmbianceFilter } from "@/lib/editorial-territories";
+import type {
+  InspirationAmbianceFilter,
+  InspirationPoiTypeFilter,
+} from "@/lib/editorial-territories";
 
 const AMBIANCE_IDS: InspirationAmbianceFilter[] = [
   "mer",
@@ -18,6 +21,13 @@ const AMBIANCE_IDS: InspirationAmbianceFilter[] = [
   "patrimoine",
   "road_trip",
   "moins_connu",
+];
+
+const POI_TYPE_IDS: InspirationPoiTypeFilter[] = [
+  "patrimoine",
+  "plage",
+  "rando",
+  "village",
 ];
 
 function parseAmbiances(sp: URLSearchParams): InspirationAmbianceFilter[] {
@@ -34,6 +44,44 @@ function parseAmbiances(sp: URLSearchParams): InspirationAmbianceFilter[] {
     }
   }
   return [...new Set(out)];
+}
+
+function parsePoiTypes(sp: URLSearchParams): InspirationPoiTypeFilter[] {
+  const raw = sp.getAll("poiType").concat(
+    (sp.get("poiTypes") || "")
+      .split(",")
+      .map((s) => s.trim())
+      .filter(Boolean)
+  );
+  const out: InspirationPoiTypeFilter[] = [];
+  for (const x of raw) {
+    if (POI_TYPE_IDS.includes(x as InspirationPoiTypeFilter)) {
+      out.push(x as InspirationPoiTypeFilter);
+    }
+  }
+  return [...new Set(out)];
+}
+
+function lieuMatchesPoiTypes(
+  lieu: LieuCentralRow,
+  poiTypes: InspirationPoiTypeFilter[]
+): boolean {
+  if (poiTypes.length === 0) return true;
+  const sourceType = (lieu.source_type ?? "").toLowerCase();
+  const category = (lieu.categorie_taille ?? "").toLowerCase();
+  const family = (lieu.famille_type ?? "").toLowerCase();
+  return poiTypes.some((poiType) => {
+    switch (poiType) {
+      case "patrimoine":
+        return sourceType.includes("patrimoine") || family.includes("patrimoine");
+      case "plage":
+        return sourceType.includes("plage");
+      case "rando":
+        return sourceType.includes("rando");
+      case "village":
+        return category.includes("village") || family.includes("village");
+    }
+  });
 }
 
 function allLieux(): LieuCentralRow[] {
@@ -61,6 +109,7 @@ export async function GET(req: Request) {
   }
 
   const ambiances = parseAmbiances(searchParams);
+  const poiTypes = parsePoiTypes(searchParams);
   const zoomRaw = searchParams.get("zoom");
   const zoom = zoomRaw != null ? Number.parseFloat(zoomRaw) : 8;
   const variant = searchParams.get("variant") ?? "map";
@@ -84,8 +133,12 @@ export async function GET(req: Request) {
 
   const filtered =
     ambiances.length === 0
-      ? inRegion
-      : inRegion.filter((l) => lieuMatchesAmbianceFilters(l, ambiances));
+      ? inRegion.filter((l) => lieuMatchesPoiTypes(l, poiTypes))
+      : inRegion.filter(
+          (l) =>
+            lieuMatchesAmbianceFilters(l, ambiances) &&
+            lieuMatchesPoiTypes(l, poiTypes)
+        );
 
   let picked = sortByScore(filtered);
   const minWant = variant === "gallery" ? Math.min(8, limit) : Math.min(5, limit);
@@ -115,6 +168,7 @@ export async function GET(req: Request) {
       limit,
       zoom: Number.isFinite(zoom) ? zoom : null,
       ambiances,
+      poiTypes,
       count: slim.length,
       lieux: slim,
       stats: {

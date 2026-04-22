@@ -56,9 +56,19 @@ export function lieuMatchesAmbianceFilters(
   return filters.every((f) => derived.has(f));
 }
 
-/** Nombre de points carte (5–8) en fonction du zoom Mapbox sur la région. */
+/** Nombre de points carte en fonction du zoom Mapbox sur la région.
+ * Progression lissée pour éviter les sauts trop visibles entre deux niveaux de zoom.
+ */
 export function villePointLimitForZoom(zoom: number): number {
   const z = Math.max(5.5, Math.min(11, zoom));
-  const n = Math.round(5 + ((z - 6.2) / (10 - 6.2)) * 3);
-  return Math.min(8, Math.max(5, n));
+  const minZoom = 5.5;
+  const maxZoom = 11;
+  const minPoints = 6;
+  const maxPoints = 72;
+
+  const t = (z - minZoom) / (maxZoom - minZoom);
+  const smooth = t * t * (3 - 2 * t);
+  const points = minPoints + smooth * (maxPoints - minPoints);
+
+  return Math.round(points);
 }

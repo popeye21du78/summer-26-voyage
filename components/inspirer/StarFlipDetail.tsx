@@ -10,7 +10,6 @@ import { loadPhotoValidationSnapshot } from "@/lib/client-photo-snapshot";
 import { slugForLieuPhoto } from "@/lib/slug-for-lieu-photo";
 import {
   cacheKeysLieuResolve,
-  cachePhotoUrl,
   getCachedPhotoUrl,
 } from "@/lib/client-photo-cache";
 import { tryUserValidatedPhoto } from "@/lib/client-photo-validated";
@@ -115,7 +114,7 @@ export default function StarFlipDetail({ itinerary, onCloseFlip }: Props) {
 
   useEffect(() => {
     let cancelled = false;
-    setResolvedSteps(null);
+    const resetRaf = requestAnimationFrame(() => setResolvedSteps(null));
     fetch(
       `/api/inspiration/star-itinerary-detail?slug=${encodeURIComponent(
         itinerary.itinerarySlug
@@ -132,6 +131,7 @@ export default function StarFlipDetail({ itinerary, onCloseFlip }: Props) {
       });
     return () => {
       cancelled = true;
+      cancelAnimationFrame(resetRaf);
     };
   }, [itinerary.itinerarySlug, itinerary.regionId]);
 
@@ -178,7 +178,7 @@ export default function StarFlipDetail({ itinerary, onCloseFlip }: Props) {
     <div className="flex h-full min-h-[480px] flex-col overflow-y-auto overflow-x-hidden bg-[var(--color-bg-main)] overscroll-y-contain">
       {/* Pas de sticky : la carte défile avec le texte pour pouvoir lire le récit */}
       <div className="shrink-0 border-b border-white/6 bg-[var(--color-bg-main)]">
-        <div className="relative aspect-[4/3] max-h-[min(42vh,320px)] w-full min-h-[180px] bg-[var(--color-bg-secondary)] sm:aspect-[16/10] sm:max-h-[min(38vh,360px)]">
+        <div className="relative aspect-[16/10] max-h-[min(36vh,300px)] w-full min-h-[170px] bg-[var(--color-bg-secondary)]">
           {resolvedSteps === null ? (
             <div className="flex h-full flex-col items-center justify-center gap-2">
               <div className="h-7 w-7 rounded-full border-2 border-[var(--color-accent-start)]/20 border-t-[var(--color-accent-start)] animate-spin" />
@@ -225,7 +225,7 @@ export default function StarFlipDetail({ itinerary, onCloseFlip }: Props) {
                   ? "ring-2 ring-[var(--color-accent-start)] ring-offset-1 ring-offset-[var(--color-bg-main)]"
                   : "opacity-55 hover:opacity-85"
               }`}
-              style={{ width: "96px", height: "140px" }}
+              style={{ width: "82px", height: "118px" }}
             >
               <StarStepStripPhoto stepSlug={step.slug} nom={step.nom} snapReady={snapReady} />
               <span className="pointer-events-none absolute inset-x-0 bottom-0 z-[35] p-1.5 text-center font-courier text-[9px] font-bold leading-tight text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.95)]">

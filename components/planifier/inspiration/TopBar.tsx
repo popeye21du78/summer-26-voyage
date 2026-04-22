@@ -6,8 +6,10 @@ import { useInspirationMap } from "@/lib/inspiration-map-context";
 import {
   AMBIANCE_OPTIONS,
   DURATION_OPTIONS,
+  POI_TYPE_OPTIONS,
   type InspirationAmbianceFilter,
   type InspirationDurationFilter,
+  type InspirationPoiTypeFilter,
 } from "@/lib/editorial-territories";
 import InspirerSearchField from "@/components/inspirer/InspirerSearchField";
 
@@ -32,6 +34,8 @@ export default function TopBar({ searchOverride }: TopBarProps) {
     setAmbiance,
     duration,
     setDuration,
+    poiTypes,
+    setPoiTypes,
   } = useInspirationMap();
 
   const searchQuery = searchOverride?.value ?? ctxSearch;
@@ -40,6 +44,12 @@ export default function TopBar({ searchOverride }: TopBarProps) {
 
   function toggleAmbiance(id: InspirationAmbianceFilter) {
     setAmbiance((prev) =>
+      prev.includes(id) ? prev.filter((x) => x !== id) : [...prev, id]
+    );
+  }
+
+  function togglePoiType(id: InspirationPoiTypeFilter) {
+    setPoiTypes((prev) =>
       prev.includes(id) ? prev.filter((x) => x !== id) : [...prev, id]
     );
   }
@@ -64,7 +74,7 @@ export default function TopBar({ searchOverride }: TopBarProps) {
           type="button"
           onClick={() => setFilterSheetOpen(!filterSheetOpen)}
           className={`inline-flex shrink-0 items-center gap-1.5 rounded-xl border px-3 py-2 font-courier text-[11px] font-bold transition ${
-            filterSheetOpen || ambiance.length > 0 || duration
+            filterSheetOpen || ambiance.length > 0 || poiTypes.length > 0 || duration
               ? "border-[var(--color-accent-start)] bg-[var(--color-accent-start)]/25 text-[var(--color-accent-start)]"
               : "border-white/10 bg-white/5 text-white/70 hover:border-[var(--color-accent-start)]/35 hover:text-white/90"
           }`}
@@ -94,6 +104,25 @@ export default function TopBar({ searchOverride }: TopBarProps) {
                 onClick={() => toggleAmbiance(o.id)}
                 className={`rounded-full border px-2.5 py-1 font-courier text-[11px] font-bold transition ${
                   ambiance.includes(o.id)
+                    ? "border-[var(--color-accent-start)] bg-[var(--color-accent-start)] text-white"
+                    : "border-white/15 bg-white/5 text-white/70 hover:border-[var(--color-accent-start)]/40"
+                }`}
+              >
+                {o.label}
+              </button>
+            ))}
+          </div>
+          <p className="mt-3 font-courier text-[10px] font-bold uppercase tracking-wide text-[var(--color-accent-start)]">
+            Types de POI
+          </p>
+          <div className="mt-2 flex flex-wrap gap-1.5">
+            {POI_TYPE_OPTIONS.map((o) => (
+              <button
+                key={o.id}
+                type="button"
+                onClick={() => togglePoiType(o.id)}
+                className={`rounded-full border px-2.5 py-1 font-courier text-[11px] font-bold transition ${
+                  poiTypes.includes(o.id)
                     ? "border-[var(--color-accent-start)] bg-[var(--color-accent-start)] text-white"
                     : "border-white/15 bg-white/5 text-white/70 hover:border-[var(--color-accent-start)]/40"
                 }`}

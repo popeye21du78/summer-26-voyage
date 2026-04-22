@@ -4,7 +4,6 @@ import {
   createContext,
   useCallback,
   useContext,
-  useEffect,
   useMemo,
   useState,
   type ReactNode,
@@ -12,6 +11,7 @@ import {
 import type {
   InspirationAmbianceFilter,
   InspirationDurationFilter,
+  InspirationPoiTypeFilter,
 } from "@/lib/editorial-territories";
 import type { InspirationStackEntry } from "@/types/inspiration";
 
@@ -21,8 +21,10 @@ type InspirationMapContextValue = {
   /** Filtres (inchangés vs ancienne page). */
   ambiance: InspirationAmbianceFilter[];
   duration: InspirationDurationFilter | null;
+  poiTypes: InspirationPoiTypeFilter[];
   setAmbiance: (v: InspirationAmbianceFilter[] | ((p: InspirationAmbianceFilter[]) => InspirationAmbianceFilter[])) => void;
   setDuration: (v: InspirationDurationFilter | null) => void;
+  setPoiTypes: (v: InspirationPoiTypeFilter[] | ((p: InspirationPoiTypeFilter[]) => InspirationPoiTypeFilter[])) => void;
   /** Recherche libre (carousel / régions). */
   searchQuery: string;
   setSearchQuery: (q: string) => void;
@@ -53,17 +55,17 @@ export function InspirationMapProvider({ children }: { children: ReactNode }) {
   const [stack, setStack] = useState<InspirationStackEntry[]>([{ screen: "france" }]);
   const [ambiance, setAmbiance] = useState<InspirationAmbianceFilter[]>([]);
   const [duration, setDuration] = useState<InspirationDurationFilter | null>(null);
+  const [poiTypes, setPoiTypes] = useState<InspirationPoiTypeFilter[]>([]);
   const [searchQuery, setSearchQuery] = useState("");
   const [filterSheetOpen, setFilterSheetOpen] = useState(false);
-  const [starListPreviewLineSlug, setStarListPreviewLineSlug] = useState<string | null>(null);
+  const [rawStarListPreviewLineSlug, setStarListPreviewLineSlug] = useState<string | null>(null);
 
-  const top = stack[stack.length - 1] ?? { screen: "france" as const };
-
-  useEffect(() => {
-    if (top.screen !== "star-list") {
-      setStarListPreviewLineSlug(null);
-    }
-  }, [top.screen]);
+  const top = useMemo<InspirationStackEntry>(
+    () => stack[stack.length - 1] ?? { screen: "france" },
+    [stack]
+  );
+  const starListPreviewLineSlug =
+    top.screen === "star-list" ? rawStarListPreviewLineSlug : null;
 
   /** Clic région → aperçu ~1/3 écran ; tirer ou action → explore. */
   const selectRegion = useCallback((regionId: string) => {
@@ -178,8 +180,10 @@ export function InspirationMapProvider({ children }: { children: ReactNode }) {
       top,
       ambiance,
       duration,
+      poiTypes,
       setAmbiance,
       setDuration,
+      setPoiTypes,
       searchQuery,
       setSearchQuery,
       filterSheetOpen,
@@ -203,6 +207,7 @@ export function InspirationMapProvider({ children }: { children: ReactNode }) {
       top,
       ambiance,
       duration,
+      poiTypes,
       searchQuery,
       filterSheetOpen,
       starListPreviewLineSlug,
