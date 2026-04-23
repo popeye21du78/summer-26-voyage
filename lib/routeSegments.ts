@@ -14,6 +14,8 @@ export type SegmentProperties = {
   distanceKm: number;
   durationMin: number;
   tollCost: number;
+  /** True si la géométrie est une ligne droite (échec Directions Mapbox). */
+  isFallback?: boolean;
 };
 
 export type RouteSegmentFeature = GeoJSON.Feature<

@@ -174,8 +174,10 @@ export default function StarFlipMap({ steps, activeStepIndex, mapboxToken }: Pro
     const container = map?.getContainer?.();
     if (!container || typeof ResizeObserver === "undefined") return;
     const ro = new ResizeObserver(() => {
+      const m = mapRef.current;
+      if (!m) return;
       try {
-        map.resize();
+        m.resize();
       } catch {
         // ignore
       }
@@ -205,30 +207,31 @@ export default function StarFlipMap({ steps, activeStepIndex, mapboxToken }: Pro
   useEffect(() => {
     const map = mapRef.current;
     if (!map) return;
+    const mb = map.getMap();
     const onLoad = () => {
       try {
-        const style = map.getStyle();
+        const style = mb.getStyle();
         if (!style?.layers) return;
         for (const layer of style.layers) {
           if (layer.type === "background") {
-            map.setPaintProperty(layer.id, "background-color", "#f5f5f5");
+            mb.setPaintProperty(layer.id, "background-color", "#f5f5f5");
           } else if (
             layer.type === "fill" &&
             (layer.id.includes("land") || layer.id.includes("background"))
           ) {
-            map.setPaintProperty(layer.id, "fill-color", "#e8e8e8");
+            mb.setPaintProperty(layer.id, "fill-color", "#e8e8e8");
           } else if (layer.type === "fill" && layer.id.includes("water")) {
-            map.setPaintProperty(layer.id, "fill-color", "#d0d0d0");
+            mb.setPaintProperty(layer.id, "fill-color", "#d0d0d0");
           } else if (layer.type === "line" && layer.id.includes("admin")) {
-            map.setPaintProperty(layer.id, "line-color", "#999999");
+            mb.setPaintProperty(layer.id, "line-color", "#999999");
           }
         }
       } catch {
         // style not loaded yet
       }
     };
-    if (map.isStyleLoaded?.()) onLoad();
-    else map.on?.("style.load", onLoad);
+    if (mb.isStyleLoaded()) onLoad();
+    else mb.once("style.load", onLoad);
   }, []);
 
   if (!mapboxToken) {
