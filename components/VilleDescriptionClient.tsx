@@ -8,6 +8,7 @@ import { motion } from "framer-motion";
 import { adaptText } from "../lib/ville-adaptation";
 import { readReturnTo } from "@/lib/return-to";
 import type { ProfilVille } from "../lib/ville-adaptation";
+import PlaceAffinityActions from "@/components/planifier/inspiration/PlaceAffinityActions";
 
 const SESSION_KEY = "voyage_profil_ville";
 
@@ -358,6 +359,9 @@ export function VilleDescriptionClient({
       </div>
 
       <div className="mx-auto max-w-2xl px-4 pt-6">
+      <div className="mb-4">
+        <PlaceAffinityActions placeSlug={slug} placeLabel={nom} />
+      </div>
 
       {hasPhotosFolder && (
         <div className="mb-6 flex flex-col gap-2">

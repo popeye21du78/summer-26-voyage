@@ -31,8 +31,8 @@ export default function AppLogoSignature() {
       <div
         className="relative h-6 w-6"
         style={{
-          WebkitMaskImage: "url(/A1.png)",
-          maskImage: "url(/A1.png)",
+          WebkitMaskImage: "url(/A5.png)",
+          maskImage: "url(/A5.png)",
           WebkitMaskRepeat: "no-repeat",
           maskRepeat: "no-repeat",
           WebkitMaskSize: "contain",
@@ -45,7 +45,7 @@ export default function AppLogoSignature() {
         }}
       />
       <noscript>
-        <Image src="/A1.png" alt="Viago" width={24} height={24} />
+        <Image src="/A5.png" alt="Viago" width={24} height={24} />
       </noscript>
     </div>
   );

@@ -84,15 +84,25 @@ function PhotoPolaroid({
 
   useEffect(() => {
     if (!item.overlayLayout) {
-      setLum(null);
-      return;
+      const raf = requestAnimationFrame(() => setLum(null));
+      return () => cancelAnimationFrame(raf);
     }
+    let cancelled = false;
+    const apply = (n: number | null) => {
+      if (cancelled) return;
+      requestAnimationFrame(() => {
+        if (!cancelled) setLum(n);
+      });
+    };
     sampleLuminanceFromSrc(
       item.url,
       item.overlayLayout.xPct,
       item.overlayLayout.yPct,
-      setLum
+      apply
     );
+    return () => {
+      cancelled = true;
+    };
   }, [item.url, item.overlayLayout]);
 
   const freeTone =
@@ -454,9 +464,12 @@ export default function ViagoSection({
         <input
           ref={heroFileRef}
           type="file"
-          accept="image/*"
+          accept="image/*,.heic,.heif"
           className="sr-only"
           aria-hidden
+          onClick={(e) => {
+            (e.currentTarget as HTMLInputElement).value = "";
+          }}
           onChange={async (e) => {
             const f = e.target.files?.[0];
             if (!f?.type.startsWith("image/")) return;
@@ -575,9 +588,12 @@ export default function ViagoSection({
             <input
               ref={quickAddFileRef}
               type="file"
-              accept="image/*"
+              accept="image/*,.heic,.heif"
               className="sr-only"
               aria-hidden
+              onClick={(e) => {
+                (e.currentTarget as HTMLInputElement).value = "";
+              }}
               onChange={async (e) => {
                 const f = e.target.files?.[0];
                 if (!f?.type.startsWith("image/")) return;

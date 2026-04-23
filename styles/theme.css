@@ -103,9 +103,36 @@
   --font-homemade-apple: "Homemade Apple", cursive;
   --font-typewriter: "Special Elite", serif;
   --font-motto: "Cormorant Garamond", Georgia, serif;
-  --font-courier: "Courier Prime", monospace;
+  --font-content: "Courier Prime", "IBM Plex Mono", monospace;
+  --font-title: "Cormorant Garamond", serif;
+  --font-courier: var(--font-content);
   --header-content-offset: max(
     7.75rem,
     calc(env(safe-area-inset-top, 0px) + 6.5rem)
   );
+}
+
+:root[data-font-preset="courier-modern"] {
+  --font-content: "Courier Prime", "IBM Plex Mono", monospace;
+  --font-title: "Cormorant Garamond", serif;
+}
+
+:root[data-font-preset="inter-manrope"] {
+  --font-content: "Inter", "IBM Plex Mono", sans-serif;
+  --font-title: "Manrope", "Inter", sans-serif;
+}
+
+:root[data-font-preset="dm-sans-sora"] {
+  --font-content: "DM Sans", "Inter", sans-serif;
+  --font-title: "Sora", "DM Sans", sans-serif;
+}
+
+:root[data-font-preset="outfit-space"] {
+  --font-content: "Outfit", "Inter", sans-serif;
+  --font-title: "Space Grotesk", "Outfit", sans-serif;
+}
+
+:root[data-font-preset="figtree-plus"] {
+  --font-content: "Figtree", "Inter", sans-serif;
+  --font-title: "Plus Jakarta Sans", "Figtree", sans-serif;
 }

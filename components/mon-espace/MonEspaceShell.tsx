@@ -39,24 +39,39 @@ type Props = {
   profileId: string;
   profileName: string;
   situationLabel: string;
+  initialSection?: string;
 };
 
 export default function MonEspaceShell({
   profileId,
   profileName,
   situationLabel,
+  initialSection,
 }: Props) {
   const router = useRouter();
   const [state, setState] = useState<VoyageStateResponse | null>(null);
   const [loading, setLoading] = useState(true);
-  const [activeSection, setActiveSection] = useState<SectionId>("voyages");
+  const normalizeSection = (s?: string): SectionId =>
+    s === "voyages" ||
+    s === "carte" ||
+    s === "favoris" ||
+    s === "stats" ||
+    s === "createur"
+      ? s
+      : "voyages";
+
+  const [activeSection, setActiveSection] = useState<SectionId>(
+    normalizeSection(initialSection)
+  );
   const [mountedSections, setMountedSections] = useState<Set<SectionId>>(
-    () => new Set<SectionId>(["voyages"])
+    () => new Set<SectionId>([normalizeSection(initialSection)])
   );
 
   const panelRefs = useRef<Partial<Record<SectionId, HTMLDivElement | null>>>({});
   const activeRef = useRef(activeSection);
-  activeRef.current = activeSection;
+  useEffect(() => {
+    activeRef.current = activeSection;
+  }, [activeSection]);
 
   useEffect(() => {
     fetch("/api/voyage-state")
@@ -66,10 +81,6 @@ export default function MonEspaceShell({
       .finally(() => setLoading(false));
   }, []);
 
-  useEffect(() => {
-    setMountedSections((prev) => new Set([...prev, activeSection]));
-  }, [activeSection]);
-
   function persistScrollFor(section: SectionId) {
     const el = panelRefs.current[section];
     if (el) writeScrollY(MON_ESPACE_SECTION_KEY(section), el.scrollTop);
@@ -78,6 +89,7 @@ export default function MonEspaceShell({
   function goToSection(id: SectionId) {
     if (id === activeRef.current) return;
     persistScrollFor(activeRef.current);
+    setMountedSections((prev) => new Set([...prev, id]));
     setActiveSection(id);
   }
 
@@ -90,9 +102,10 @@ export default function MonEspaceShell({
   }, [activeSection]);
 
   useEffect(() => {
+    const refs = panelRefs.current;
     return () => {
       const s = activeRef.current;
-      const el = panelRefs.current[s];
+      const el = refs[s];
       if (el) writeScrollY(MON_ESPACE_SECTION_KEY(s), el.scrollTop);
     };
   }, []);

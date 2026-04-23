@@ -3,6 +3,8 @@ const STORAGE_KEY = "planifier-favorites-v1";
 export type FavoriteKind =
   | "territory"
   | "place"
+  /** Lieu déjà connu (badge "je connais"). */
+  | "known_place"
   | "route_idea"
   /** Région carte inspiration (id MAP_REGIONS). */
   | "map_region"

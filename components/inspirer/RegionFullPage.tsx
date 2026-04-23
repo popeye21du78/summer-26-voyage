@@ -120,7 +120,7 @@ export default function RegionFullPage({ regionId, embeddedInSheet = false }: Pr
         ) : (
           <div className="absolute inset-0 flex items-center justify-center bg-[var(--color-bg-main)]">
             <Image
-              src="/A1.png"
+              src="/A5.png"
               alt=""
               width={80}
               height={80}

@@ -29,6 +29,7 @@ import type {
 } from "@/types/star-itineraries-editorial";
 import { useReturnBase } from "@/lib/hooks/use-return-base";
 import { withReturnTo } from "@/lib/return-to";
+import PlaceAffinityActions from "../PlaceAffinityActions";
 
 function StarThemePreviewCard({
   it,
@@ -94,13 +95,20 @@ async function fetchRegionEditorialPack(regionId: string): Promise<StarItinerari
 
 function favoritesForRegionView(
   regionId: string,
-  territoryIds: string[]
+  territoryIds: string[],
+  _refreshToken?: number
 ): PlanifierFavorite[] {
   const tset = new Set(territoryIds);
   return listFavorites().filter((f) => {
     if (f.kind === "map_region") return f.refId === regionId;
     if (f.kind === "territory") return tset.has(f.refId);
-    if (f.kind === "place" || f.kind === "star_itinerary" || f.kind === "route_idea") return true;
+    if (
+      f.kind === "place" ||
+      f.kind === "known_place" ||
+      f.kind === "star_itinerary" ||
+      f.kind === "route_idea"
+    )
+      return true;
     return false;
   });
 }
@@ -144,10 +152,7 @@ export default function ExploreRegionContent({
 
   const territoryIds = useMemo(() => filtered.map((t) => t.id), [filtered]);
 
-  const repères = useMemo(() => {
-    favTick;
-    return favoritesForRegionView(regionId, territoryIds);
-  }, [regionId, territoryIds, favTick]);
+  const repères = favoritesForRegionView(regionId, territoryIds, favTick);
 
   useEffect(() => {
     let c = false;
@@ -262,6 +267,9 @@ export default function ExploreRegionContent({
                         <span className={`font-courier text-[10px] ${INSPI_TEXT_MUTED}`}>Repère fort</span>
                       </div>
                     </Link>
+                    <div className="mt-2">
+                      <PlaceAffinityActions placeSlug={slug} placeLabel={nom} compact />
+                    </div>
                   </motion.div>
                 );
               })}
@@ -499,6 +507,13 @@ export default function ExploreRegionContent({
                           </span>
                         </div>
                       </Link>
+                      <div className="mt-2">
+                        <PlaceAffinityActions
+                          placeSlug={l.slug}
+                          placeLabel={l.nom}
+                          compact
+                        />
+                      </div>
                     </motion.div>
                   ))}
                 </div>

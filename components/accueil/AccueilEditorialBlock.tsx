@@ -51,7 +51,7 @@ export default function AccueilEditorialBlock({
             href={editorialCard.href}
             className="shrink-0 font-courier text-[10px] font-bold uppercase tracking-wider text-[var(--color-accent-start)]/78 transition hover:text-[var(--color-accent-start)]"
           >
-            Lire
+            Lire l&apos;article
           </Link>
         </div>
       ) : null}

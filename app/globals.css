@@ -29,7 +29,17 @@ html {
 }
 
 .font-courier {
-  font-family: var(--font-courier);
+  font-family: var(--font-content);
+}
+
+.font-title {
+  font-family: var(--font-title);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-title), var(--font-content);
 }
 
 .page-under-header {
@@ -62,7 +72,7 @@ body {
     var(--gradient-app-bg);
   background-attachment: fixed;
   color: var(--color-text-primary);
-  font-family: var(--font-courier), monospace;
+  font-family: var(--font-content), monospace;
   overflow-x: hidden;
   width: 100%;
   max-width: 100%;

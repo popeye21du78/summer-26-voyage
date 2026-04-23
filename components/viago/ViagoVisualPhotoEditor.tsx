@@ -330,8 +330,11 @@ export default function ViagoVisualPhotoEditor({
           <input
             ref={fileRef}
             type="file"
-            accept="image/*"
+            accept="image/*,.heic,.heif"
             className="sr-only"
+            onClick={(e) => {
+              (e.currentTarget as HTMLInputElement).value = "";
+            }}
             onChange={handlePickFile}
           />
 

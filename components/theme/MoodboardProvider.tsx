@@ -27,6 +27,20 @@ export type MoodboardDefinition = {
   swatches: [string, string, string];
 };
 
+export type FontPresetId =
+  | "courier-modern"
+  | "inter-manrope"
+  | "dm-sans-sora"
+  | "outfit-space"
+  | "figtree-plus";
+
+export type FontPresetDefinition = {
+  id: FontPresetId;
+  label: string;
+  contentLabel: string;
+  titleLabel: string;
+};
+
 export const MOODBOARDS: MoodboardDefinition[] = [
   {
     id: "terracotta",
@@ -84,32 +98,80 @@ export const MOODBOARDS: MoodboardDefinition[] = [
   },
 ];
 
+export const FONT_PRESETS: FontPresetDefinition[] = [
+  {
+    id: "courier-modern",
+    label: "Courier Modern",
+    contentLabel: "IBM Plex Mono",
+    titleLabel: "Cormorant Garamond",
+  },
+  {
+    id: "inter-manrope",
+    label: "Inter + Manrope",
+    contentLabel: "Inter",
+    titleLabel: "Manrope",
+  },
+  {
+    id: "dm-sans-sora",
+    label: "DM Sans + Sora",
+    contentLabel: "DM Sans",
+    titleLabel: "Sora",
+  },
+  {
+    id: "outfit-space",
+    label: "Outfit + Space Grotesk",
+    contentLabel: "Outfit",
+    titleLabel: "Space Grotesk",
+  },
+  {
+    id: "figtree-plus",
+    label: "Figtree + Plus Jakarta",
+    contentLabel: "Figtree",
+    titleLabel: "Plus Jakarta Sans",
+  },
+];
+
 const STORAGE_KEY = "viago.moodboard";
+const FONT_STORAGE_KEY = "viago.fontPreset";
 const DEFAULT_MOODBOARD: MoodboardId = "terracotta";
+const DEFAULT_FONT_PRESET: FontPresetId = "courier-modern";
 
 type Ctx = {
   moodboard: MoodboardId;
   setMoodboard: (id: MoodboardId) => void;
+  fontPreset: FontPresetId;
+  setFontPreset: (id: FontPresetId) => void;
 };
 
 const MoodboardContext = createContext<Ctx | null>(null);
 
 export function MoodboardProvider({ children }: { children: ReactNode }) {
-  const [moodboard, setMoodboardState] = useState<MoodboardId>(DEFAULT_MOODBOARD);
-
-  useEffect(() => {
+  const [moodboard, setMoodboardState] = useState<MoodboardId>(() => {
+    if (typeof window === "undefined") return DEFAULT_MOODBOARD;
     try {
       const raw = window.localStorage.getItem(STORAGE_KEY);
-      if (raw && isMoodboardId(raw)) {
-        setMoodboardState(raw);
-        document.documentElement.setAttribute("data-moodboard", raw);
-      } else {
-        document.documentElement.setAttribute("data-moodboard", DEFAULT_MOODBOARD);
-      }
+      return raw && isMoodboardId(raw) ? raw : DEFAULT_MOODBOARD;
     } catch {
-      document.documentElement.setAttribute("data-moodboard", DEFAULT_MOODBOARD);
+      return DEFAULT_MOODBOARD;
     }
-  }, []);
+  });
+  const [fontPreset, setFontPresetState] = useState<FontPresetId>(() => {
+    if (typeof window === "undefined") return DEFAULT_FONT_PRESET;
+    try {
+      const raw = window.localStorage.getItem(FONT_STORAGE_KEY);
+      return raw && isFontPresetId(raw) ? raw : DEFAULT_FONT_PRESET;
+    } catch {
+      return DEFAULT_FONT_PRESET;
+    }
+  });
+
+  useEffect(() => {
+    document.documentElement.setAttribute("data-moodboard", moodboard);
+  }, [moodboard]);
+
+  useEffect(() => {
+    document.documentElement.setAttribute("data-font-preset", fontPreset);
+  }, [fontPreset]);
 
   const setMoodboard = useCallback((id: MoodboardId) => {
     setMoodboardState(id);
@@ -121,8 +183,20 @@ export function MoodboardProvider({ children }: { children: ReactNode }) {
     document.documentElement.setAttribute("data-moodboard", id);
   }, []);
 
+  const setFontPreset = useCallback((id: FontPresetId) => {
+    setFontPresetState(id);
+    try {
+      window.localStorage.setItem(FONT_STORAGE_KEY, id);
+    } catch {
+      // no-op
+    }
+    document.documentElement.setAttribute("data-font-preset", id);
+  }, []);
+
   return (
-    <MoodboardContext.Provider value={{ moodboard, setMoodboard }}>
+    <MoodboardContext.Provider
+      value={{ moodboard, setMoodboard, fontPreset, setFontPreset }}
+    >
       {children}
     </MoodboardContext.Provider>
   );
@@ -140,7 +214,12 @@ function isMoodboardId(x: string): x is MoodboardId {
   return MOODBOARDS.some((m) => m.id === x);
 }
 
+function isFontPresetId(x: string): x is FontPresetId {
+  return FONT_PRESETS.some((f) => f.id === x);
+}
+
 /** Script inline à injecter dans <head> pour éviter un flash au premier rendu. */
 export const MOODBOARD_PRE_HYDRATION_SCRIPT = `
 (function(){try{var k='viago.moodboard';var v=localStorage.getItem(k);var a=['terracotta','nocturne','dune','foret','violet','ardoise','perle','lagon','turquoise'];document.documentElement.setAttribute('data-moodboard',a.indexOf(v)>=0?v:'terracotta');}catch(e){document.documentElement.setAttribute('data-moodboard','terracotta');}})();
+(function(){try{var k='viago.fontPreset';var v=localStorage.getItem(k);var a=['courier-modern','inter-manrope','dm-sans-sora','outfit-space','figtree-plus'];document.documentElement.setAttribute('data-font-preset',a.indexOf(v)>=0?v:'courier-modern');}catch(e){document.documentElement.setAttribute('data-font-preset','courier-modern');}})();
 `;

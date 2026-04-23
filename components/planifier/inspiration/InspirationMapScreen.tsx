@@ -34,6 +34,7 @@ import RegionCarousel from "./RegionCarousel";
 import { CityPhoto } from "@/components/CityPhoto";
 import { withReturnTo } from "@/lib/return-to";
 import { villePointLimitForZoom } from "@/lib/inspiration-lieux-ambiance";
+import PlaceAffinityActions from "./PlaceAffinityActions";
 
 const MAP_REGIONS_GEO_URL = "/geo/inspiration-map-regions.geojson";
 const MAP_REGIONS_OUTLINE_URL = "/geo/inspiration-map-regions-outline.geojson";
@@ -126,6 +127,7 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
     top,
     selectTerritoryPoi,
     goBack,
+    resetFrance,
     closeRegionMapFullscreen,
     selectRegion,
     starListPreviewLineSlug,
@@ -615,6 +617,11 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
                   <p className="font-courier text-sm font-bold leading-tight text-white">
                     {selectedVillePreview.nom}
                   </p>
+                  <PlaceAffinityActions
+                    placeSlug={selectedVillePreview.slug}
+                    placeLabel={selectedVillePreview.nom}
+                    compact
+                  />
                   <Link
                     href={withReturnTo(
                       `/inspirer/ville/${encodeURIComponent(selectedVillePreview.slug)}?from=inspiration`,
@@ -679,10 +686,12 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
               style={{
                 height: sheetHvh,
                 maxHeight: "min(92vh, 100dvh)",
+                paddingBottom: "calc(5.8rem + env(safe-area-inset-bottom, 0px))",
               }}
             >
               <div className="relative min-h-0 flex-1 overflow-hidden rounded-t-3xl bg-[var(--color-bg-main)]">
                 <MapBottomPanels starRouteDetail={starRouteDetail} />
+                <div className="pointer-events-none absolute inset-x-0 bottom-0 z-[40] h-[calc(5.8rem+env(safe-area-inset-bottom,0px))] bg-gradient-to-t from-[var(--color-bg-main)] via-[var(--color-bg-main)]/85 to-transparent" />
                 <div className="pointer-events-none absolute inset-x-0 top-0 z-50 flex h-11 items-start justify-center bg-gradient-to-b from-black/45 via-black/15 to-transparent pt-2.5">
                   <div className="pointer-events-auto w-full max-w-[100vw] px-4">
                     <RegionSheetHandle
@@ -694,6 +703,18 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
                 </div>
               </div>
             </motion.div>
+          )}
+
+          {showRegionSheet && (
+            <div className="pointer-events-none fixed inset-x-0 top-[max(0.6rem,env(safe-area-inset-top))] z-[130] flex justify-end px-3">
+              <button
+                type="button"
+                onClick={resetFrance}
+                className="pointer-events-auto rounded-full border border-[var(--color-accent-start)]/35 bg-[var(--color-bg-main)]/88 px-3 py-1.5 font-courier text-[10px] font-bold uppercase tracking-wider text-[var(--color-accent-start)] shadow-lg backdrop-blur-md"
+              >
+                Fermer la fiche
+              </button>
+            </div>
           )}
         </div>
       </div>

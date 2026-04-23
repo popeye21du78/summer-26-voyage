@@ -34,12 +34,11 @@ export default function LogoFade() {
       }}
     >
       <Image
-        src="/A1.png"
+        src="/A4.png"
         alt="Viago"
         width={60}
         height={60}
         className="h-14 w-auto object-contain sm:h-16"
-        style={{ filter: "brightness(0) invert(1) sepia(1) saturate(5) hue-rotate(-15deg) brightness(1.1)" }}
       />
     </motion.div>
   );
