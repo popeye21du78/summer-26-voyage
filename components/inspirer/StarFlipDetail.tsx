@@ -17,6 +17,7 @@ import { getClientPublicPhotoPick } from "@/lib/public-photo-client";
 import { sharpenUnsplashUrl } from "@/lib/photo-display-url";
 import { PhotoCurationOverlay } from "@/components/PhotoCurationOverlay";
 import { CityPhoto } from "@/components/CityPhoto";
+import PhotoQuickAffinity from "./PhotoQuickAffinity";
 import type { StarItineraryEditorialItem } from "@/types/star-itineraries-editorial";
 import type { ResolvedStarStep } from "@/lib/inspiration/star-itinerary-geo";
 
@@ -80,6 +81,12 @@ function StarStepStripPhoto({
             compact
           />
           <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-transparent" />
+          <PhotoQuickAffinity
+            placeSlug={slug}
+            placeLabel={nom}
+            position="top-right"
+            size="xs"
+          />
         </>
       ) : (
         <>
@@ -94,6 +101,12 @@ function StarStepStripPhoto({
             imageLoading="lazy"
           />
           <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-transparent" />
+          <PhotoQuickAffinity
+            placeSlug={slug}
+            placeLabel={nom}
+            position="top-right"
+            size="xs"
+          />
         </>
       )}
     </div>
@@ -216,22 +229,37 @@ export default function StarFlipDetail({ itinerary, onCloseFlip }: Props) {
           onScroll={handleCarouselScroll}
         >
           {stepsForStrip.map((step, i) => (
-            <button
+            /**
+             * NOTE : on NE peut pas utiliser un `<button>` ici parce que
+             * `StarStepStripPhoto` rend un `PhotoCurationOverlay` qui
+             * contient lui-même des `<button>` (coup de cœur, je connais) —
+             * un button ne peut pas en contenir un autre (hydration error).
+             * On utilise donc un `div[role=button]` avec gestion clavier.
+             */
+            <div
               key={`${step.slug}-${i}`}
-              type="button"
+              role="button"
+              tabIndex={0}
               onClick={() => scrollToStep(i)}
-              className={`relative shrink-0 overflow-hidden rounded-xl transition-all duration-300 ${
+              onKeyDown={(e) => {
+                if (e.key === "Enter" || e.key === " ") {
+                  e.preventDefault();
+                  scrollToStep(i);
+                }
+              }}
+              className={`relative shrink-0 cursor-pointer overflow-hidden rounded-xl transition-all duration-300 ${
                 activeStep === i
                   ? "ring-2 ring-[var(--color-accent-start)] ring-offset-1 ring-offset-[var(--color-bg-main)]"
                   : "opacity-55 hover:opacity-85"
               }`}
               style={{ width: "72px", height: "100px" }}
+              aria-label={`Voir ${step.nom}`}
             >
               <StarStepStripPhoto stepSlug={step.slug} nom={step.nom} snapReady={snapReady} />
               <span className="pointer-events-none absolute inset-x-0 bottom-0 z-[35] p-1.5 text-center font-courier text-[9px] font-bold leading-tight text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.95)]">
                 {step.nom}
               </span>
-            </button>
+            </div>
           ))}
         </div>
 

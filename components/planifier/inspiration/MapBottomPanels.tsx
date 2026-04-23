@@ -141,13 +141,23 @@ function SheetChrome({
       )}
       <div
         onScroll={onScroll}
-        className={`min-h-0 flex-1 overflow-y-auto overscroll-contain pb-10 ${
+        /**
+         * Padding bottom dynamique : la fiche s'étend désormais jusqu'en bas de l'écran
+         * (derrière la bottom nav). On ajoute donc une réserve ≈ hauteur bottom nav + safe area
+         * pour que le dernier élément ne soit jamais « coincé » derrière le menu.
+         * Le dégradé placé en overlay côté parent fait, lui, le fondu visuel.
+         */
+        className={`min-h-0 flex-1 overflow-y-auto overscroll-contain ${
           fullBleedContent
             ? "px-0 pt-0"
             : isSplit
               ? "px-3 pt-3"
               : "px-4 pt-6"
         }`}
+        style={{
+          paddingBottom:
+            "calc(6.5rem + env(safe-area-inset-bottom, 0px))",
+        }}
       >
         {children}
       </div>

@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef, useCallback, type ReactNode, type UIEvent as ReactUIEvent } from "react";
 import { Map, Star, Users } from "lucide-react";
+import { motion, LayoutGroup } from "framer-motion";
 import InspirerCarteWrapper from "./InspirerCarteWrapper";
 import InspirerStars from "./InspirerStars";
 import InspirerAmis from "./InspirerAmis";
@@ -175,64 +176,116 @@ function InspirerTabsInner({
     };
   }, []);
 
+  /**
+   * NB (UX demandée par l'user) : le contenu des onglets doit défiler JUSQU'EN HAUT
+   * de l'écran, en passant DERRIÈRE la barre de tabs (glass). Concrètement :
+   *   - on NE met PAS de `paddingTop` sur l'outer → les tabs (absolute top:0)
+   *     recouvrent le début du contenu au lieu de le pousser en dessous.
+   *   - les TabPanels scroll-variant ont un `paddingTop` interne égal à
+   *     `--viago-top-nav-h` + hauteur de la TopBar (quand elle est visible)
+   *     pour qu'au chargement, la première ligne de contenu ne soit pas masquée.
+   *   - une fois l'user scrolle, les éléments montent sous la nav → effet voulu.
+   */
+  const topBarOffsetPx = topBarHidden || searchHiddenForRegionSheet ? 0 : 64;
+
   return (
-    <div className="flex h-full min-h-0 min-w-0 flex-1 flex-col">
-      <div
-        className="viago-top-tabs-wrap inspirer-topbar-collapse"
-      >
-        <div className="viago-top-tabs-pill" role="tablist">
-          {TABS.map(({ id, label, icon: Icon }) => {
-            const isActive = active === id;
-            return (
-              <button
-                key={id}
-                role="tab"
-                type="button"
-                aria-selected={isActive}
-                onClick={() => selectTab(id)}
-                className="viago-top-tab"
-              >
-                <Icon className="h-4 w-4" strokeWidth={isActive ? 2.4 : 1.6} />
-                <span className="font-courier text-[10px] font-bold uppercase tracking-wider">
-                  {label}
-                </span>
-              </button>
-            );
-          })}
-        </div>
+    <div className="relative flex h-full min-h-0 min-w-0 flex-1 flex-col">
+      <div className="viago-top-tabs-wrap">
+        <LayoutGroup id="inspirer-top-tabs">
+          <div className="viago-top-tabs-pill" role="tablist">
+            {TABS.map(({ id, label, icon: Icon }) => {
+              const isActive = active === id;
+              return (
+                <button
+                  key={id}
+                  role="tab"
+                  type="button"
+                  aria-selected={isActive}
+                  onClick={() => selectTab(id)}
+                  className="viago-top-tab"
+                >
+                  {/**
+                   * Capsule verre active PARTAGÉE : un seul motion.span au-dessus
+                   * du DOM, qui glisse entre onglets via layoutId — identique au
+                   * fonctionnement de la bottom nav.
+                   */}
+                  {isActive ? (
+                    <motion.span
+                      layoutId="inspirer-top-active-pill"
+                      className="viago-top-tab-active-pill"
+                      transition={{ type: "spring", stiffness: 420, damping: 38, mass: 0.75 }}
+                      aria-hidden
+                    />
+                  ) : null}
+                  {isActive ? (
+                    <motion.span
+                      layoutId="inspirer-top-active-glow"
+                      className="viago-top-tab-glow"
+                      transition={{ type: "spring", stiffness: 420, damping: 38, mass: 0.75 }}
+                      aria-hidden
+                    />
+                  ) : null}
+                  <Icon className="relative z-[1] h-[18px] w-[18px]" strokeWidth={isActive ? 2.4 : 1.7} />
+                  <span className="bottom-nav-label relative z-[1]">
+                    {label}
+                  </span>
+                </button>
+              );
+            })}
+          </div>
+        </LayoutGroup>
       </div>
 
-      <div
-        className={`inspirer-topbar-collapse ${
-          topBarHidden || searchHiddenForRegionSheet ? "inspirer-topbar-collapse--hidden" : ""
-        }`}
-        aria-hidden={topBarHidden || searchHiddenForRegionSheet}
-      >
-        <TopBar
-          searchOverride={
-            active === "stars"
-              ? {
-                  value: starsSearch,
-                  onChange: setStarsSearch,
-                  placeholder: "Rechercher un itinéraire, un thème…",
-                }
-              : active === "amis"
+      {/**
+       * TopBar recherche/filtres :
+       *  - Masquée en onglet « carte » → le user voulait un menu 3-points ailleurs,
+       *    la barre de recherche bruitait la lecture cartographique.
+       *  - Masquée progressivement au scroll down (stars/amis) via --hidden.
+       *  - Masquée dès qu'une sheet région est ouverte.
+       *  - Positionnée en `absolute` sous la top nav → ne pousse plus le contenu,
+       *    qui peut maintenant défiler jusqu'en haut de l'écran derrière les deux.
+       */}
+      {active !== "carte" && (
+        <div
+          className={`inspirer-topbar-collapse pointer-events-none ${
+            topBarHidden || searchHiddenForRegionSheet ? "inspirer-topbar-collapse--hidden" : ""
+          }`}
+          style={{
+            position: "absolute",
+            top: "var(--viago-top-nav-h)",
+            insetInline: 0,
+            zIndex: 110,
+          }}
+          aria-hidden={topBarHidden || searchHiddenForRegionSheet}
+        >
+          <div className="pointer-events-auto">
+          <TopBar
+            searchOverride={
+              active === "stars"
                 ? {
-                    value: amisSearch,
-                    onChange: setAmisSearch,
-                    placeholder: "Ami, voyage, ville…",
+                    value: starsSearch,
+                    onChange: setStarsSearch,
+                    placeholder: "Rechercher un itinéraire, un thème…",
                   }
-                : undefined
-          }
-        />
-      </div>
+                : active === "amis"
+                  ? {
+                      value: amisSearch,
+                      onChange: setAmisSearch,
+                      placeholder: "Ami, voyage, ville…",
+                    }
+                  : undefined
+            }
+          />
+          </div>
+        </div>
+      )}
 
       <InspirerRegionFromUrl active={active} initialRegion={initialRegion} />
 
       {/* Hauteur mini viewport : onglets + TopBar (Hub, recherche, filtres, favoris) */}
       <div
         className="relative z-0 min-h-0 flex-1 overflow-hidden"
-        style={{ minHeight: "calc(100dvh - 11.5rem)" }}
+        style={{ minHeight: "100dvh" }}
       >
         <TabPanel
           visible={active === "carte"}
@@ -249,6 +302,7 @@ function InspirerTabsInner({
             scrollRefs.current.stars = el;
           }}
           onScroll={handleTabScroll}
+          scrollPaddingTopPx={topBarOffsetPx}
         >
           <InspirerStars initialRegionFilter={initialRegion} searchQuery={starsSearch} />
         </TabPanel>
@@ -260,6 +314,7 @@ function InspirerTabsInner({
             scrollRefs.current.amis = el;
           }}
           onScroll={handleTabScroll}
+          scrollPaddingTopPx={topBarOffsetPx}
         >
           <InspirerAmis searchQuery={amisSearch} />
         </TabPanel>
@@ -283,6 +338,7 @@ function TabPanel({
   scrollRef,
   onScroll,
   children,
+  scrollPaddingTopPx,
 }: {
   visible: boolean;
   mounted: boolean;
@@ -290,9 +346,44 @@ function TabPanel({
   scrollRef?: (el: HTMLDivElement | null) => void;
   onScroll?: (e: ReactUIEvent<HTMLDivElement>) => void;
   children: ReactNode;
+  /**
+   * Réserve de l'espace interne en haut pour la top nav + la topbar qui sont
+   * désormais en overlay absolu au-dessus de ce panel. Les variantes `map` ne
+   * l'utilisent pas — la carte doit bleeder jusqu'en haut.
+   */
+  scrollPaddingTopPx?: number;
 }) {
   if (!mounted) return null;
-  const overflow = variant === "map" ? "overflow-hidden" : "overflow-y-auto overflow-x-hidden";
+  const overflow =
+    variant === "map" ? "overflow-hidden" : "overflow-y-auto overflow-x-hidden";
+  /**
+   * Regression majeure corrigée : pour la variante `map`, ne PAS envelopper
+   * dans un inner div — la carte a besoin que son parent lui donne une hauteur
+   * explicite (`absolute inset-0`). Un wrapper sans height réduisait la carte
+   * à 0px de haut (= "plus rien n'apparait dans carte" signalé par l'user).
+   */
+  if (variant === "map") {
+    return (
+      <div
+        ref={scrollRef}
+        role="tabpanel"
+        onScroll={onScroll}
+        className={`absolute inset-0 ${overflow} scroll-smooth`}
+        style={{
+          display: visible ? "block" : "none",
+        }}
+      >
+        {children}
+      </div>
+    );
+  }
+
+  const base = "var(--viago-top-nav-h)";
+  const extra = scrollPaddingTopPx ?? 0;
+  const innerStyle: React.CSSProperties = {
+    paddingTop: extra > 0 ? `calc(${base} + ${extra}px)` : base,
+    transition: "padding-top 420ms cubic-bezier(0.32, 0.72, 0.25, 1)",
+  };
   return (
     <div
       ref={scrollRef}
@@ -303,7 +394,7 @@ function TabPanel({
         display: visible ? "block" : "none",
       }}
     >
-      {children}
+      <div style={innerStyle}>{children}</div>
     </div>
   );
 }

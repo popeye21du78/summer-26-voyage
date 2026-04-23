@@ -1,11 +1,9 @@
 "use client";
 
 import { useState, useMemo, useCallback, useRef, useEffect } from "react";
-import Image from "next/image";
-import LinkWithReturn from "@/components/LinkWithReturn";
 import { useSearchParams } from "next/navigation";
 import { Filter, X, ChevronRight, MapPin } from "lucide-react";
-import { EDITORIAL_PROFILES } from "@/data/test-profiles";
+import BrandLogo from "@/components/layout/BrandLogo";
 import { STAR_ITINERARIES_EDITORIAL_BY_REGION } from "@/content/inspiration/star-itineraries-editorial/index";
 import { MAP_REGIONS } from "@/lib/inspiration-map-regions-config";
 import type { StarItineraryEditorialItem } from "@/types/star-itineraries-editorial";
@@ -237,28 +235,22 @@ export default function InspirerStars({ initialRegionFilter, searchQuery }: Prop
             {activeRegionName}
           </button>
           <div className="flex items-center gap-2">
-            <Image src="/A1.png" alt="" width={16} height={16} className="opacity-30" style={{ filter: "brightness(0) invert(1) sepia(1) saturate(5) hue-rotate(-15deg)" }} />
+            <BrandLogo
+              variant="mark"
+              tone="accentSoft"
+              size={14}
+              style={{ opacity: 0.85 }}
+            />
             <span className="font-courier text-[10px] text-white/25">
               {totalCount} itinéraire{totalCount > 1 ? "s" : ""}
             </span>
           </div>
         </div>
-        <div className="border-t border-white/5 px-4 pb-3">
-          <div className="flex flex-wrap gap-2">
-            <span className="w-full font-courier text-[9px] font-bold uppercase tracking-wider text-white/25">
-              Voyageurs éditoriaux
-            </span>
-            {EDITORIAL_PROFILES.map((p) => (
-              <LinkWithReturn
-                key={p.id}
-                href={`/profil/${p.id}`}
-                className="rounded-full border border-[var(--color-accent-start)]/25 bg-[var(--color-accent-start)]/10 px-2.5 py-1 font-courier text-[10px] font-bold text-[var(--color-accent-start)]/90 transition hover:bg-[var(--color-accent-start)]/18"
-              >
-                {p.name}
-              </LinkWithReturn>
-            ))}
-          </div>
-        </div>
+        {/**
+         * Les profils « Voyageurs éditoriaux » sont volontairement retirés de la vue par défaut
+         * (trop bruyant, pas utile en entrée). Ils restent accessibles via les suggestions de recherche
+         * ou le profil public. Un placeholder reste pour conserver une barre d'amorce homogène.
+         */}
       </div>
 
       {/* Main scroll area */}

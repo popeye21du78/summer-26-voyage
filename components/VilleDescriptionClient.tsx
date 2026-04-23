@@ -9,6 +9,7 @@ import { adaptText } from "../lib/ville-adaptation";
 import { readReturnTo } from "@/lib/return-to";
 import type { ProfilVille } from "../lib/ville-adaptation";
 import PlaceAffinityActions from "@/components/planifier/inspiration/PlaceAffinityActions";
+import VillePageSheet from "@/components/inspirer/VillePageSheet";
 
 const SESSION_KEY = "voyage_profil_ville";
 
@@ -291,7 +292,8 @@ export function VilleDescriptionClient({
   }
 
   return (
-    <main className="relative isolate !pt-0 overflow-x-hidden overflow-y-auto bg-[var(--color-bg-main)] pb-20">
+    <VillePageSheet>
+    <main className="relative isolate !pt-0 overflow-x-hidden bg-[var(--color-bg-main)] pb-20">
       {/* Hero plein viewport : largeur 100%, image dès le haut (sous le header fixe) */}
       <div className="relative left-1/2 w-screen max-w-[100vw] -translate-x-1/2">
         <div className="relative min-h-[min(52vh,420px)] h-[min(56vh,480px)] w-full overflow-hidden bg-[var(--color-bg-main)] sm:min-h-[380px]">
@@ -516,6 +518,7 @@ export function VilleDescriptionClient({
       </div>
       </div>
     </main>
+    </VillePageSheet>
   );
 }
 

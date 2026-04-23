@@ -21,6 +21,90 @@
   animation: quiz-choice-flash 0.38s ease-out forwards;
 }
 
+/**
+ * Pulsation douce des secondes du compte à rebours.
+ * Combine une mini remontée de scale et une légère lueur sur le texte
+ * pour donner de la vie à chaque tick sans attirer l'œil trop fort.
+ */
+@keyframes countdown-pulse {
+  0% {
+    transform: scale(1);
+    text-shadow: 0 0 0 rgba(255, 255, 255, 0);
+  }
+  30% {
+    transform: scale(1.06);
+    text-shadow: 0 0 18px color-mix(in srgb, var(--color-accent-start) 50%, transparent);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/**
+ * Secondes défilantes (effet odomètre) : chaque nouvelle seconde glisse
+ * depuis le haut avec un léger flou → ressenti « temps qui s'écoule »,
+ * plus fort que le simple pulse. Déclenché via `key={value}` pour que React
+ * démonte/remonte l'élément et rejoue l'animation.
+ */
+@keyframes countdown-seconds-roll {
+  0% {
+    transform: translateY(-46%);
+    opacity: 0;
+    filter: blur(3px);
+  }
+  40% {
+    opacity: 1;
+    filter: blur(0);
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+.countdown-seconds-roll {
+  display: inline-block;
+  animation: countdown-seconds-roll 0.65s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@keyframes countdown-halo {
+  0%,
+  100% {
+    box-shadow:
+      0 0 0 0 color-mix(in srgb, var(--color-accent-start) 0%, transparent),
+      inset 0 1px 0 rgba(255, 255, 255, 0.12);
+  }
+  50% {
+    box-shadow:
+      0 0 38px 4px color-mix(in srgb, var(--color-accent-start) 32%, transparent),
+      inset 0 1px 0 rgba(255, 255, 255, 0.18);
+  }
+}
+
+.countdown-halo {
+  animation: countdown-halo 3.4s ease-in-out infinite;
+}
+
+/* Désactivation propre pour les animations */
+@media (prefers-reduced-motion: reduce) {
+  .countdown-seconds-roll,
+  .countdown-halo {
+    animation: none;
+  }
+}
+
+.countdown-pulse {
+  display: inline-block;
+  animation: countdown-pulse 0.9s ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .countdown-pulse {
+    animation: none;
+  }
+}
+
 html {
   overflow-x: hidden;
   width: 100%;
@@ -596,12 +680,12 @@ input[type="number"].no-spinner::-webkit-inner-spin-button {
   transform: scale(0.97);
 }
 
-.bottom-nav-link--active {
-  z-index: 1;
-}
-
-.bottom-nav-link--active::before {
-  content: "";
+/**
+ * Capsule active de la bottom nav — identique visuellement aux anciens ::before/::after
+ * du lien actif, mais rendue par un élément motion partagé (layoutId).
+ * Cela permet de la faire GLISSER d'un onglet à l'autre au changement de route.
+ */
+.bottom-nav-active-pill {
   position: absolute;
   inset: 0;
   z-index: -1;
@@ -610,10 +694,12 @@ input[type="number"].no-spinner::-webkit-inner-spin-button {
   backdrop-filter: blur(28px);
   -webkit-backdrop-filter: blur(28px);
   border: 1px solid var(--color-glass-highlight);
-  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.4);
+  box-shadow:
+    inset 0 1px 2px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
 }
 
-.bottom-nav-link--active::after {
+.bottom-nav-active-pill::before {
   content: "";
   position: absolute;
   left: 10%;
@@ -627,9 +713,8 @@ input[type="number"].no-spinner::-webkit-inner-spin-button {
     rgba(255, 255, 255, 0.22),
     transparent
   );
-  opacity: 0.35;
+  opacity: 0.45;
   pointer-events: none;
-  z-index: 0;
 }
 
 .bottom-nav-local-light {
@@ -689,7 +774,12 @@ input[type="number"].no-spinner::-webkit-inner-spin-button {
 
 /**
  * Rétraction de la TopBar (recherche + filtres + favoris) sur scroll descendant.
- * Animée via transform pour éviter le reflow massif ; sans pointer-events en mode caché.
+ *
+ * Timings rallongés et easing "ios" (cubic-bezier soft out) pour éviter la
+ * coupure d'affichage que l'user trouvait gênante : avant, le max-height
+ * s'effaçait en 220ms, ce qui donnait une impression de page qui "accélère"
+ * sous les yeux. À 420ms avec un easing doux, la sortie est perçue comme
+ * progressive et le contenu qui remonte n'est plus brutal.
  */
 .inspirer-topbar-collapse {
   position: relative;
@@ -698,9 +788,9 @@ input[type="number"].no-spinner::-webkit-inner-spin-button {
   overflow: hidden;
   max-height: 320px;
   transition:
-    max-height 220ms ease,
-    opacity 200ms ease,
-    transform 220ms ease;
+    max-height 420ms cubic-bezier(0.32, 0.72, 0.25, 1),
+    opacity 320ms cubic-bezier(0.32, 0.72, 0.25, 1),
+    transform 420ms cubic-bezier(0.32, 0.72, 0.25, 1);
   transform: translateY(0);
   opacity: 1;
   will-change: max-height, transform, opacity;
@@ -709,61 +799,204 @@ input[type="number"].no-spinner::-webkit-inner-spin-button {
 .inspirer-topbar-collapse--hidden {
   max-height: 0;
   opacity: 0;
-  transform: translateY(-8px);
+  transform: translateY(-12px);
   pointer-events: none;
 }
 
-/* Top tabs — capsule verre */
+/**
+ * Top tabs — capsule verre UNIFORME avec la bottom nav.
+ *
+ * Le wrap est désormais en `position: absolute` + `pointer-events:none` →
+ * il n'occupe PAS d'espace dans le flex layout, ce qui permet au contenu
+ * de défiler directement derrière la capsule verre (effet demandé par l'user :
+ * "les contenus défilent en transparence derrière la nav du haut").
+ * Seule la pill capsule intérieure est opaque/interactive.
+ *
+ * La valeur `--viago-top-nav-h` est exposée pour que les containers qui
+ * l'englobent (InspirerTabs, MonEspaceShell) appliquent un `padding-top`
+ * suffisant — sinon la première ligne de contenu serait cachée derrière
+ * la nav à scroll=0.
+ */
+:root {
+  --viago-top-nav-h: calc(env(safe-area-inset-top, 0px) + 72px);
+}
+
 .viago-top-tabs-wrap {
-  position: relative;
+  position: absolute;
+  inset-inline: 0;
+  top: 0;
   z-index: 120;
-  flex-shrink: 0;
-  padding: 8px 12px 10px;
-  border-bottom: 1px solid var(--color-glass-border);
-  background: color-mix(in srgb, var(--color-bg-main) 82%, transparent);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+  padding: calc(env(safe-area-inset-top, 0px) + 8px) 16px 10px;
+  border-bottom: none;
+  background: transparent;
+  /**
+   * Fin flou sur toute la largeur en haut de l'écran → quand le contenu défile
+   * il passe DERRIÈRE un voile légèrement flouté (effet liquid glass iOS) avant
+   * d'atteindre la capsule. Demande user : « les contenus doivent défiler en
+   * arrière-plan derrière la top nav ».
+   */
+  backdrop-filter: blur(14px) saturate(140%);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+  /**
+   * `mask-image` limite l'effet au sommet de la wrap : la partie basse redevient
+   * transparente/nette pour que le contenu qui n'est pas encore sous la nav
+   * reste parfaitement lisible (dégradé vertical progressif du flou).
+   */
+  -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 70%, transparent 100%);
+  mask-image: linear-gradient(to bottom, #000 0%, #000 70%, transparent 100%);
+  pointer-events: none;
+}
+
+/** Voile dégradé derrière le top-nav — éclaircit le haut sans barre opaque franche. */
+.viago-top-tabs-wrap::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: calc(100% + 18px);
+  pointer-events: none;
+  z-index: -1;
+  background: linear-gradient(
+    to bottom,
+    color-mix(in srgb, var(--color-bg-main) 62%, transparent) 0%,
+    color-mix(in srgb, var(--color-bg-main) 28%, transparent) 55%,
+    transparent 100%
+  );
 }
 
 .viago-top-tabs-pill {
+  position: relative;
+  pointer-events: auto;
   display: flex;
-  max-width: 32rem;
+  align-items: stretch;
+  max-width: 28rem;
   margin: 0 auto;
+  /**
+   * Strict parity avec .bottom-nav-shell-inner (padding 8px 10px, min-height 56px)
+   * pour que la top nav et la bottom nav aient EXACTEMENT la même largeur/hauteur :
+   * l'user a explicitement demandé l'uniformité visuelle.
+   */
+  min-height: 56px;
+  padding: 8px 10px;
   gap: 4px;
-  padding: 4px;
   border-radius: var(--radius-pill);
-  background: var(--color-glass-bg);
+  background:
+    linear-gradient(
+      180deg,
+      var(--color-glass-tint-top) 0%,
+      transparent 45%,
+      var(--color-glass-tint-bottom) 100%
+    ),
+    var(--color-glass-bg);
+  backdrop-filter: blur(24px) saturate(140%);
+  -webkit-backdrop-filter: blur(24px) saturate(140%);
   border: 1px solid var(--color-glass-border);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  box-shadow: 0 8px 24px var(--color-shadow-card);
+  box-shadow:
+    0 14px 30px var(--color-shadow),
+    0 3px 8px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 var(--color-glass-highlight),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.18);
+}
+
+.viago-top-tabs-pill::before {
+  content: "";
+  position: absolute;
+  inset-inline: 18%;
+  top: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--color-glass-highlight), transparent);
+  opacity: 0.6;
+  border-radius: 1px;
+  pointer-events: none;
 }
 
 .viago-top-tab {
+  position: relative;
+  z-index: 0;
   flex: 1;
   display: flex;
+  min-width: 0;
   flex-direction: column;
   align-items: center;
-  gap: 4px;
-  padding: 8px 6px;
+  justify-content: center;
+  gap: 2px;
+  padding: 6px 4px;
   border: none;
   border-radius: var(--radius-pill);
   background: transparent;
   cursor: pointer;
   color: var(--color-text-secondary);
-  transition: color 0.15s ease, background 0.15s ease, box-shadow 0.15s ease;
+  text-decoration: none;
+  transition: transform 0.15s ease, color 0.15s ease;
+}
+
+.viago-top-tab:active {
+  transform: scale(0.97);
 }
 
 .viago-top-tab[aria-selected="true"] {
+  z-index: 1;
   color: var(--color-accent-start);
-  background: color-mix(in srgb, var(--color-bg-secondary) 55%, transparent);
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.08),
-    inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+}
+
+/**
+ * Capsule verre active de la top nav — rendue par un élément motion partagé
+ * (layoutId), ce qui permet sa transition entre onglets.
+ */
+.viago-top-tab-active-pill {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  border-radius: var(--radius-pill);
+  background: var(--color-glass-active-bg);
+  backdrop-filter: blur(28px);
+  -webkit-backdrop-filter: blur(28px);
+  border: 1px solid var(--color-glass-highlight);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+}
+
+.viago-top-tab-active-pill::before {
+  content: "";
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  top: 3px;
+  height: 1px;
+  border-radius: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.22),
+    transparent
+  );
+  opacity: 0.45;
+  pointer-events: none;
+}
+
+/**
+ * Point de lumière accent sous l'onglet actif — identique à .bottom-nav-local-light.
+ * Rendu par un élément motion partagé, donc n'est affiché que quand actif
+ * (pas besoin d'opacity conditionnelle).
+ */
+.viago-top-tab-glow {
+  position: absolute;
+  width: 4.5rem;
+  height: 2.5rem;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(
+    ellipse 80% 70% at 50% 45%,
+    color-mix(in srgb, var(--color-accent-start) 28%, transparent) 0%,
+    transparent 72%
+  );
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.5;
 }
 
 .viago-top-tab:hover:not([aria-selected="true"]) {
-  color: color-mix(in srgb, var(--color-text-primary) 45%, transparent);
+  color: color-mix(in srgb, var(--color-text-primary) 42%, var(--color-bg-main));
 }
 
 /* Hero accueil — overlay chaud sur média */

@@ -39,6 +39,7 @@ import {
 import { loadTripDraft, clearTripDraft } from "@/lib/planifier-draft";
 import { saveCreatedVoyage } from "@/lib/created-voyages";
 import { getCityPoolForDraft, slugifyCityId } from "@/lib/preparer-city-pool";
+import ItineraireLiveMap from "@/components/preparer/ItineraireLiveMap";
 
 type StepType = "nuit" | "passage";
 
@@ -442,6 +443,20 @@ export default function CreateItineraire() {
               </span>
             </div>
           )}
+        </div>
+
+        {/**
+         * Carte Mapbox LIVE : reflète en temps réel l'état `steps`.
+         * Chaque ajout d'étape (nuit ou passage) ou réordonnancement via
+         * le drag & drop se répercute ici — le numéro affiché sur chaque
+         * pastille suit l'ordre des étapes dans le récap.
+         */}
+        <div className="mt-5 h-[260px] w-full">
+          <ItineraireLiveMap
+            className="h-full w-full"
+            steps={steps}
+            mapboxAccessToken={process.env.NEXT_PUBLIC_MAPBOX_TOKEN}
+          />
         </div>
 
         {/* Liste des étapes avec drag & drop */}

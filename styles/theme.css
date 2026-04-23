@@ -112,27 +112,65 @@
   );
 }
 
-:root[data-font-preset="courier-modern"] {
+/**
+ * Présets de police Viago — classique + 5 paires éditoriales modernes.
+ * --font-content = corps de texte ; --font-title = titres (h1/h2/h3 + classes .font-title).
+ * --font-courier pointe toujours vers --font-content pour rester cohérent avec
+ * les nombreux composants qui utilisent encore `font-courier`.
+ */
+:root[data-font-preset="classique"] {
   --font-content: "Courier Prime", "IBM Plex Mono", monospace;
   --font-title: "Cormorant Garamond", serif;
 }
 
-:root[data-font-preset="inter-manrope"] {
-  --font-content: "Inter", "IBM Plex Mono", sans-serif;
-  --font-title: "Manrope", "Inter", sans-serif;
+:root[data-font-preset="editorial"] {
+  --font-content: "Bricolage Grotesque", "Inter Tight", sans-serif;
+  --font-title: "Fraunces", "Playfair Display", serif;
 }
 
-:root[data-font-preset="dm-sans-sora"] {
-  --font-content: "DM Sans", "Inter", sans-serif;
-  --font-title: "Sora", "DM Sans", sans-serif;
+:root[data-font-preset="magazine"] {
+  --font-content: "Inter Tight", "Inter", sans-serif;
+  --font-title: "Playfair Display", "Fraunces", serif;
 }
 
-:root[data-font-preset="outfit-space"] {
-  --font-content: "Outfit", "Inter", sans-serif;
-  --font-title: "Space Grotesk", "Outfit", sans-serif;
+:root[data-font-preset="instrument"] {
+  --font-content: "Onest", "Inter Tight", sans-serif;
+  --font-title: "Instrument Serif", "Fraunces", serif;
 }
 
-:root[data-font-preset="figtree-plus"] {
-  --font-content: "Figtree", "Inter", sans-serif;
-  --font-title: "Plus Jakarta Sans", "Figtree", sans-serif;
+:root[data-font-preset="pop-display"] {
+  --font-content: "Geist", "Onest", sans-serif;
+  --font-title: "Unbounded", "Geist", sans-serif;
+}
+
+:root[data-font-preset="spectral-soft"] {
+  --font-content: "Spectral", "Cormorant Garamond", serif;
+  --font-title: "Fraunces", "Instrument Serif", serif;
+}
+
+/**
+ * Studio — éditorial affiché : serif display contrasté + DM Sans moderne.
+ * Idéal quand on veut des titres très graphiques sans perdre la lisibilité du contenu.
+ */
+:root[data-font-preset="studio"] {
+  --font-content: "DM Sans", "Inter Tight", sans-serif;
+  --font-title: "DM Serif Display", "Fraunces", serif;
+}
+
+/**
+ * Zine — ton presse indépendante : Archivo Black condensé en titre,
+ * Archivo Narrow en contenu pour garder la cohérence de famille.
+ */
+:root[data-font-preset="zine"] {
+  --font-content: "Archivo Narrow", "Inter Tight", sans-serif;
+  --font-title: "Archivo Black", "Archivo Narrow", sans-serif;
+}
+
+/**
+ * Jardin — classique revisité : EB Garamond élégant en titre, Karla
+ * grotesque chaleureux en contenu. Pour les pages plus littéraires.
+ */
+:root[data-font-preset="jardin"] {
+  --font-content: "Karla", "Inter Tight", sans-serif;
+  --font-title: "EB Garamond", "Cormorant Garamond", serif;
 }

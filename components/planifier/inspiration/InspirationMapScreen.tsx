@@ -121,6 +121,87 @@ function RegionSheetHandle({
   );
 }
 
+/**
+ * Menu "trois points" qui remplace la barre de recherche en vue France de la carte.
+ * Compact, en haut-droite, affiche les actions rapides (légende, aide, filtres).
+ * Ouvre un petit menu contextuel en fond verre — se ferme au clic extérieur.
+ */
+function MapFranceMoreMenu() {
+  const [open, setOpen] = useState(false);
+  const rootRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (!open) return;
+    const onPointerDown = (e: PointerEvent) => {
+      if (!rootRef.current) return;
+      if (!rootRef.current.contains(e.target as Node)) setOpen(false);
+    };
+    window.addEventListener("pointerdown", onPointerDown);
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setOpen(false);
+    };
+    window.addEventListener("keydown", onKey);
+    return () => {
+      window.removeEventListener("pointerdown", onPointerDown);
+      window.removeEventListener("keydown", onKey);
+    };
+  }, [open]);
+
+  return (
+    <div
+      ref={rootRef}
+      className="pointer-events-none absolute right-3 top-[max(0.6rem,env(safe-area-inset-top))] z-[46] flex flex-col items-end gap-1.5"
+    >
+      <button
+        type="button"
+        aria-haspopup="menu"
+        aria-expanded={open}
+        aria-label="Plus d'options"
+        onClick={() => setOpen((v) => !v)}
+        className="pointer-events-auto inline-flex h-9 w-9 items-center justify-center rounded-full border border-[var(--color-accent-start)]/35 bg-[var(--color-bg-main)]/85 shadow-md backdrop-blur-md transition active:scale-[0.96]"
+      >
+        <span className="sr-only">Plus d'options</span>
+        <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden fill="none">
+          <circle cx="5" cy="12" r="1.8" fill="currentColor" className="text-[var(--color-accent-start)]" />
+          <circle cx="12" cy="12" r="1.8" fill="currentColor" className="text-[var(--color-accent-start)]" />
+          <circle cx="19" cy="12" r="1.8" fill="currentColor" className="text-[var(--color-accent-start)]" />
+        </svg>
+      </button>
+      {open ? (
+        <div
+          role="menu"
+          className="pointer-events-auto w-48 overflow-hidden rounded-2xl border border-[var(--color-accent-start)]/25 bg-[var(--color-bg-main)]/92 shadow-xl backdrop-blur-xl"
+        >
+          <Link
+            href="/inspirer?tab=stars"
+            role="menuitem"
+            onClick={() => setOpen(false)}
+            className="flex items-center gap-2 px-3 py-2 font-courier text-[12px] text-[var(--color-text-primary)]/90 transition hover:bg-[var(--color-accent-start)]/10"
+          >
+            Itinéraires stars
+          </Link>
+          <Link
+            href="/inspirer?tab=amis"
+            role="menuitem"
+            onClick={() => setOpen(false)}
+            className="flex items-center gap-2 px-3 py-2 font-courier text-[12px] text-[var(--color-text-primary)]/90 transition hover:bg-[var(--color-accent-start)]/10"
+          >
+            Voyages d'amis
+          </Link>
+          <button
+            type="button"
+            role="menuitem"
+            onClick={() => setOpen(false)}
+            className="block w-full px-3 py-2 text-left font-courier text-[12px] text-[var(--color-text-primary)]/90 transition hover:bg-[var(--color-accent-start)]/10"
+          >
+            Légende de la carte
+          </button>
+        </div>
+      ) : null}
+    </div>
+  );
+}
+
 export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
   const ctx = useInspirationMap();
   const {
@@ -663,6 +744,12 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
                 </p>
               </div>
               {/**
+               * Menu trois-points (vue France uniquement) : remplace la barre de
+               * recherche volumineuse par un point d'accès compact (filtres/légende/aide).
+               * Discret, en haut-droite de la carte, par-dessus la top nav glass.
+               */}
+              <MapFranceMoreMenu />
+              {/**
                * Carousel régions : visible UNIQUEMENT en vue France.
                * Dès qu'une région est sélectionnée (sheet ouverte à n'importe quel snap), on le cache
                * pour que la sheet ne soit plus cachée par les cartes, et que la carte derrière reste lisible.
@@ -682,11 +769,28 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
               initial={{ y: "100%" }}
               animate={{ y: 0 }}
               transition={{ type: "spring", damping: 30, stiffness: 280 }}
-              className="flex max-h-[min(92vh,100dvh)] flex-col overflow-hidden rounded-t-3xl border border-[var(--color-accent-start)]/30 bg-transparent shadow-[0_-28px_56px_rgba(0,0,0,0.42)] max-md:fixed max-md:bottom-0 max-md:left-0 max-md:right-0 max-md:z-[105] md:absolute md:bottom-0 md:left-0 md:right-0 md:z-[45]"
+              /**
+               * z-index mobile porté à 180 : largement au-dessus de la top nav
+               * (`.viago-top-tabs-wrap` = 120) ET sous la bottom nav (= 200),
+               * de sorte que :
+               *   - la POIGNÉE de drag n'est JAMAIS cachée derrière la top nav
+               *     → l'user peut toujours retirer la sheet vers le bas.
+               *   - le contenu de la sheet passe toujours VISUELLEMENT derrière
+               *     la bottom nav (qui reste prioritaire à 200).
+               * Sur desktop, la top nav ne chevauche pas le conteneur carte,
+               * donc 45 suffit.
+               */
+              className="flex max-h-[min(100vh,100dvh)] flex-col overflow-hidden rounded-t-3xl border border-[var(--color-accent-start)]/30 bg-transparent shadow-[0_-28px_56px_rgba(0,0,0,0.42)] max-md:fixed max-md:bottom-0 max-md:left-0 max-md:right-0 max-md:z-[180] md:absolute md:bottom-0 md:left-0 md:right-0 md:z-[45]"
               style={{
                 height: sheetHvh,
-                maxHeight: "min(92vh, 100dvh)",
-                paddingBottom: "calc(5.8rem + env(safe-area-inset-bottom, 0px))",
+                maxHeight: "min(100vh, 100dvh)",
+                /**
+                 * Plus de paddingBottom : la fiche descend désormais jusqu'en bas
+                 * de l'écran et passe VISUELLEMENT derrière la bottom nav. Le dégradé
+                 * bas (plus bas dans le JSX, h = 5.8rem) crée le fondu et le padding
+                 * du scroller interne (MapBottomPanels) évite que le contenu soit
+                 * coincé sous la nav.
+                 */
               }}
             >
               <div className="relative min-h-0 flex-1 overflow-hidden rounded-t-3xl bg-[var(--color-bg-main)]">
@@ -706,7 +810,7 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
           )}
 
           {showRegionSheet && (
-            <div className="pointer-events-none fixed inset-x-0 top-[max(0.6rem,env(safe-area-inset-top))] z-[130] flex justify-end px-3">
+            <div className="pointer-events-none fixed inset-x-0 top-[max(0.6rem,env(safe-area-inset-top))] z-[190] flex justify-end px-3">
               <button
                 type="button"
                 onClick={resetFrance}

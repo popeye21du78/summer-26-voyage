@@ -1,14 +1,14 @@
 "use client";
 
-import Image from "next/image";
 import { usePathname } from "next/navigation";
+import BrandLogo from "./BrandLogo";
 
 /**
- * Signature discrète du logo Viago en haut-droit de chaque page de l'app.
- * - Colorisée via un masque CSS + gradient accent (chaud, dans la charte)
+ * Signature discrète du logo Viago en bas-droite de chaque page de l'app.
+ * - Utilise `BrandLogo` → mask CSS + gradient accent (dynamique avec le moodboard)
  * - Pointer-events none : purement décoratif, ne bloque pas les clics
  * - Masquée sur l'accueil (le logo hero y est déjà très présent)
- * - Masquée sur la carte inspirer plein écran pour ne pas gêner la lecture géo
+ * - Plus discrète sur la carte inspirer (ne gêne pas la lecture géo)
  */
 export default function AppLogoSignature() {
   const pathname = usePathname() || "";
@@ -17,36 +17,25 @@ export default function AppLogoSignature() {
 
   if (onAccueil) return null;
 
+  /**
+   * Signature plus affirmée qu'avant — l'user a explicitement demandé
+   * « le logo doit être intégré dans des endroits stratégiques » et ne le voyait
+   * nulle part. On passe à 32px + opacité ≥ 55 % + un halo accent doux
+   * qui rappelle l'identité de marque sans concurrencer la lecture.
+   */
   return (
     <div
       className="pointer-events-none fixed z-[30] select-none"
       style={{
-        /** Au-dessus de la bottom nav, alignée à droite, en signature discrète. */
         bottom: "calc(5.75rem + env(safe-area-inset-bottom, 0px))",
         right: "14px",
-        opacity: onInspirerCarte ? 0.18 : 0.32,
+        opacity: onInspirerCarte ? 0.55 : 0.78,
+        filter:
+          "drop-shadow(0 2px 6px rgba(0,0,0,0.35)) drop-shadow(0 0 14px color-mix(in srgb, var(--color-accent-start) 35%, transparent))",
       }}
       aria-hidden
     >
-      <div
-        className="relative h-6 w-6"
-        style={{
-          WebkitMaskImage: "url(/A5.png)",
-          maskImage: "url(/A5.png)",
-          WebkitMaskRepeat: "no-repeat",
-          maskRepeat: "no-repeat",
-          WebkitMaskSize: "contain",
-          maskSize: "contain",
-          WebkitMaskPosition: "center",
-          maskPosition: "center",
-          background:
-            "linear-gradient(135deg, var(--color-accent-start), var(--color-accent-mid, var(--color-accent-start)), var(--color-accent-end))",
-          filter: "drop-shadow(0 2px 6px rgba(224,120,86,0.35))",
-        }}
-      />
-      <noscript>
-        <Image src="/A5.png" alt="Viago" width={24} height={24} />
-      </noscript>
+      <BrandLogo variant="mark" tone="accent" size={32} />
     </div>
   );
 }

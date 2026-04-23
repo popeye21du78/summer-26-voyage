@@ -152,8 +152,20 @@ export default function ViagoVisualPhotoEditor({
 
   const handlePickFile = async (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
-    if (!file?.type.startsWith("image/")) {
-      setError("Image requise.");
+    if (!file) {
+      return;
+    }
+    /**
+     * iOS Safari peut renvoyer un File sans type MIME (HEIC issus de la photothèque,
+     * partage depuis Photos). On accepte tant que l'extension ou la lecture réelle confirme
+     * une image. Le compresseur gère lui-même les fallbacks (bitmap → <img> → data URL brut).
+     */
+    const hintedByExtension = /\.(jpe?g|png|gif|webp|heic|heif|avif|bmp|svg)$/i.test(
+      file.name || ""
+    );
+    const hintedByType = typeof file.type === "string" && file.type.startsWith("image/");
+    if (!hintedByExtension && !hintedByType && file.type) {
+      setError("Ce fichier n'est pas une image.");
       return;
     }
     setPhotoBusy(true);
@@ -162,7 +174,9 @@ export default function ViagoVisualPhotoEditor({
       const dataUrl = await compressImageFileToDataUrl(file);
       setUrl(dataUrl);
     } catch {
-      setError("Impossible de lire cette image.");
+      setError(
+        "Impossible de lire cette image sur ce téléphone. Essaie une photo JPG/PNG depuis la galerie."
+      );
     } finally {
       setPhotoBusy(false);
     }
@@ -330,7 +344,15 @@ export default function ViagoVisualPhotoEditor({
           <input
             ref={fileRef}
             type="file"
-            accept="image/*,.heic,.heif"
+            /**
+             * IMPORTANT — on ne liste PAS .heic / .heif dans `accept`.
+             * Sur iOS, `accept="image/*"` seul déclenche la CONVERSION AUTOMATIQUE
+             * des photos HEIC (photothèque Apple) vers JPEG avant l'upload.
+             * Dès qu'on ajoute ".heic", iOS renvoie le HEIC brut → le navigateur
+             * n'arrive plus à décoder l'image, l'éditeur reste vide et l'utilisateur
+             * ne peut plus valider. Ce comportement est documenté et stable.
+             */
+            accept="image/*"
             className="sr-only"
             onClick={(e) => {
               (e.currentTarget as HTMLInputElement).value = "";

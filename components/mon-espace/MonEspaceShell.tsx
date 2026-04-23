@@ -1,8 +1,16 @@
 "use client";
 
-import { useEffect, useState, useRef, type ReactNode } from "react";
+import {
+  useCallback,
+  useEffect,
+  useRef,
+  useState,
+  type ReactNode,
+  type UIEvent as ReactUIEvent,
+} from "react";
 import LinkWithReturn from "@/components/LinkWithReturn";
 import { useRouter } from "next/navigation";
+import { motion, LayoutGroup } from "framer-motion";
 import {
   Plane,
   Map,
@@ -73,6 +81,27 @@ export default function MonEspaceShell({
     activeRef.current = activeSection;
   }, [activeSection]);
 
+  /**
+   * Rétraction douce du bloc profil au scroll descendant.
+   * Même logique que la TopBar inspirer : on masque visuellement sans
+   * décaler les sections d'un coup (transition sur max-height + opacity).
+   */
+  const [profileHeaderHidden, setProfileHeaderHidden] = useState(false);
+  const lastScrollYRef = useRef(0);
+  const handlePanelScroll = useCallback((e: ReactUIEvent<HTMLDivElement>) => {
+    const y = e.currentTarget?.scrollTop ?? 0;
+    const delta = y - lastScrollYRef.current;
+    if (Math.abs(delta) > 6) {
+      if (delta > 0 && y > 48) setProfileHeaderHidden(true);
+      else if (delta < 0) setProfileHeaderHidden(false);
+      lastScrollYRef.current = y;
+    }
+  }, []);
+  useEffect(() => {
+    setProfileHeaderHidden(false);
+    lastScrollYRef.current = 0;
+  }, [activeSection]);
+
   useEffect(() => {
     fetch("/api/voyage-state")
       .then((r) => (r.ok ? r.json() : null))
@@ -128,33 +157,69 @@ export default function MonEspaceShell({
   }
 
   return (
-    <main className="flex h-full min-h-0 min-w-0 flex-1 flex-col overflow-hidden bg-[var(--color-bg-main)]">
+    <main
+      className="relative flex h-full min-h-0 min-w-0 flex-1 flex-col overflow-hidden bg-[var(--color-bg-main)]"
+    >
       <div className="viago-top-tabs-wrap">
-        <div className="viago-top-tabs-pill" role="tablist">
-          {SECTIONS.map(({ id, label, icon: Icon }) => {
-            const isActive = activeSection === id;
-            return (
-              <button
-                key={id}
-                role="tab"
-                type="button"
-                aria-selected={isActive}
-                onClick={() => goToSection(id)}
-                className="viago-top-tab"
-              >
-                <Icon className="h-5 w-5" strokeWidth={isActive ? 2.4 : 1.6} />
-                <span className="font-courier text-[10px] font-bold uppercase tracking-wider">
-                  {label}
-                </span>
-              </button>
-            );
-          })}
-        </div>
+        <LayoutGroup id="mon-espace-top-tabs">
+          <div className="viago-top-tabs-pill" role="tablist">
+            {SECTIONS.map(({ id, label, icon: Icon }) => {
+              const isActive = activeSection === id;
+              return (
+                <button
+                  key={id}
+                  role="tab"
+                  type="button"
+                  aria-selected={isActive}
+                  onClick={() => goToSection(id)}
+                  className="viago-top-tab"
+                >
+                  {isActive ? (
+                    <motion.span
+                      layoutId="mon-espace-active-pill"
+                      className="viago-top-tab-active-pill"
+                      transition={{ type: "spring", stiffness: 420, damping: 38, mass: 0.75 }}
+                      aria-hidden
+                    />
+                  ) : null}
+                  {isActive ? (
+                    <motion.span
+                      layoutId="mon-espace-active-glow"
+                      className="viago-top-tab-glow"
+                      transition={{ type: "spring", stiffness: 420, damping: 38, mass: 0.75 }}
+                      aria-hidden
+                    />
+                  ) : null}
+                  <Icon className="relative z-[1] h-[18px] w-[18px]" strokeWidth={isActive ? 2.4 : 1.7} />
+                  <span className="bottom-nav-label relative z-[1]">
+                    {label}
+                  </span>
+                </button>
+              );
+            })}
+          </div>
+        </LayoutGroup>
       </div>
 
+      {/**
+       * Le bloc profil (avatar + nom + déconnexion) est désormais positionné
+       * en OVERLAY absolu sous la top nav. Sans cette refonte, le bloc poussait
+       * le contenu des onglets en dessous et la top nav apparaissait « collée »
+       * au profil ; l'user voyait la top nav « bouger » au scroll parce que la
+       * hauteur du header variait. En overlay, la top nav et le profil
+       * restent visuellement à leur place et le contenu défile dessous.
+       */}
       <LinkWithReturn
         href={profileId ? `/profil/${profileId}` : "/mon-espace"}
-        className="viago-row-hover flex shrink-0 items-center gap-4 border-b border-[var(--color-glass-border)] px-4 py-4"
+        className={`viago-row-hover inspirer-topbar-collapse flex items-center gap-4 border-b border-[var(--color-glass-border)] bg-[color-mix(in_srgb,var(--color-bg-main)_88%,transparent)] px-4 py-4 backdrop-blur-md ${
+          profileHeaderHidden ? "inspirer-topbar-collapse--hidden" : ""
+        }`}
+        style={{
+          position: "absolute",
+          top: "var(--viago-top-nav-h)",
+          insetInline: 0,
+          zIndex: 105,
+        }}
       >
         <div
           className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full shadow-[0_8px_20px_var(--color-shadow),0_2px_6px_var(--color-shadow-cta-accent)]"
@@ -187,17 +252,28 @@ export default function MonEspaceShell({
         </button>
       </LinkWithReturn>
 
-      {/* Sans minHeight explicite, flex-1 peut rester à 0 → panneaux absolute inset-0 invisibles */}
+      {/**
+       * Conteneur plein-écran des TabPanels.
+       * `minHeight: 100dvh` pour que le contenu puisse défiler sous les overlays
+       * (top nav + profile header) et descendre jusqu'en bas derrière la bottom nav.
+       */}
       <div
         className="relative min-h-0 flex-1 overflow-hidden"
-        style={{ minHeight: "calc(100dvh - 13rem)" }}
+        style={{ minHeight: "100dvh" }}
       >
+        {/**
+         * `profileHeaderHidden` → on réduit la réserve haute pour que le contenu
+         * remonte en même temps que le header collapse. Animation CSS pour rester
+         * continue avec la collapse du header (même easing, même durée).
+         */}
         <TabPanel
           visible={activeSection === "voyages"}
           mounted={mountedSections.has("voyages")}
           scrollRef={(el) => {
             panelRefs.current.voyages = el;
           }}
+          onScroll={handlePanelScroll}
+          topReservePx={profileHeaderHidden ? 0 : 104}
         >
           <EspaceVoyages state={state} />
         </TabPanel>
@@ -207,6 +283,8 @@ export default function MonEspaceShell({
           scrollRef={(el) => {
             panelRefs.current.carte = el;
           }}
+          onScroll={handlePanelScroll}
+          topReservePx={profileHeaderHidden ? 0 : 104}
         >
           <EspaceCartePerso state={state} />
         </TabPanel>
@@ -216,6 +294,8 @@ export default function MonEspaceShell({
           scrollRef={(el) => {
             panelRefs.current.favoris = el;
           }}
+          onScroll={handlePanelScroll}
+          topReservePx={profileHeaderHidden ? 0 : 104}
         >
           <EspaceFavoris />
         </TabPanel>
@@ -225,6 +305,8 @@ export default function MonEspaceShell({
           scrollRef={(el) => {
             panelRefs.current.stats = el;
           }}
+          onScroll={handlePanelScroll}
+          topReservePx={profileHeaderHidden ? 0 : 104}
         >
           <EspaceStats state={state} profileName={profileName} />
         </TabPanel>
@@ -234,6 +316,8 @@ export default function MonEspaceShell({
           scrollRef={(el) => {
             panelRefs.current.createur = el;
           }}
+          onScroll={handlePanelScroll}
+          topReservePx={profileHeaderHidden ? 0 : 104}
         >
           <EspaceMotCreateur />
         </TabPanel>
@@ -246,22 +330,44 @@ function TabPanel({
   visible,
   mounted,
   scrollRef,
+  onScroll,
   children,
+  topReservePx,
 }: {
   visible: boolean;
   mounted: boolean;
   scrollRef?: (el: HTMLDivElement | null) => void;
+  onScroll?: (e: ReactUIEvent<HTMLDivElement>) => void;
   children: ReactNode;
+  /**
+   * Espace haut à réserver dans le scroll panel pour laisser apparaître la top
+   * nav + le profile header (overlays absolus au-dessus). Varie selon que le
+   * header est collapsé ou non. S'ajoute à `--viago-top-nav-h`.
+   */
+  topReservePx?: number;
 }) {
   if (!mounted) return null;
+  const extra = topReservePx ?? 0;
+  const paddingTop =
+    extra > 0
+      ? `calc(var(--viago-top-nav-h) + ${extra}px)`
+      : "var(--viago-top-nav-h)";
   return (
     <div
       ref={scrollRef}
       role="tabpanel"
+      onScroll={onScroll}
       className="absolute inset-0 overflow-y-auto overflow-x-hidden scroll-smooth pb-bottom-nav"
       style={{ display: visible ? "block" : "none" }}
     >
-      {children}
+      <div
+        style={{
+          paddingTop,
+          transition: "padding-top 420ms cubic-bezier(0.32, 0.72, 0.25, 1)",
+        }}
+      >
+        {children}
+      </div>
     </div>
   );
 }

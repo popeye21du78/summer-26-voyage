@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { AlertCircle, BookOpen, Compass, MapPin, Sparkles } from "lucide-react";
 import type { VoyageStateResponse } from "@/types/voyage-state";
@@ -55,15 +54,34 @@ export default function AccueilHub({ profileId, profileName }: Props) {
 
       <div className="relative z-10 flex min-h-[calc(100dvh-4rem)] min-w-0 flex-1 flex-col px-5 pb-[max(1.25rem,env(safe-area-inset-bottom))] pt-[calc(env(safe-area-inset-top,0px)+1.25rem)]">
         <div className={`flex shrink-0 ${viewModel.layout === "onTrip" ? "justify-start" : "justify-center"} pt-1`}>
-          <Image
-            src="/A1.png"
-            alt=""
-            width={320}
-            height={320}
-            sizes="(max-width: 640px) 64vw, 18rem"
-            className={viewModel.layout === "onTrip" ? "h-[5.5rem] w-auto" : "h-[min(48vw,16rem)] w-auto"}
-            style={{ filter: "var(--logo-filter-hero-center)" }}
-            priority
+          {/**
+           * Logo colorisé via MASQUE CSS et non via filtre :
+           * `sepia()/hue-rotate()` ne peut pas recolorer un PNG dont les pixels
+           * sont NOIRS (sepia d'un pixel #000 reste #000 → logo qui reste noir).
+           * Avec `mask-image`, le PNG ne sert plus qu'à découper un gradient
+           * accent peint dessous : le logo prend la couleur de l'ambiance active.
+           */}
+          <div
+            aria-hidden
+            className={
+              viewModel.layout === "onTrip"
+                ? "h-[5.5rem] w-[15rem]"
+                : "h-[min(48vw,16rem)] w-[min(56vw,20rem)]"
+            }
+            style={{
+              WebkitMaskImage: "url(/A1.png)",
+              maskImage: "url(/A1.png)",
+              WebkitMaskRepeat: "no-repeat",
+              maskRepeat: "no-repeat",
+              WebkitMaskPosition: "center",
+              maskPosition: "center",
+              WebkitMaskSize: "contain",
+              maskSize: "contain",
+              background:
+                "linear-gradient(135deg, var(--color-accent-start), var(--color-accent-mid, var(--color-accent-start)), var(--color-accent-end))",
+              filter:
+                "drop-shadow(0 12px 40px color-mix(in srgb, var(--color-accent-start) 55%, transparent))",
+            }}
           />
         </div>
 

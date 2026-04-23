@@ -28,11 +28,15 @@ export type MoodboardDefinition = {
 };
 
 export type FontPresetId =
-  | "courier-modern"
-  | "inter-manrope"
-  | "dm-sans-sora"
-  | "outfit-space"
-  | "figtree-plus";
+  | "classique"
+  | "editorial"
+  | "magazine"
+  | "instrument"
+  | "pop-display"
+  | "spectral-soft"
+  | "studio"
+  | "zine"
+  | "jardin";
 
 export type FontPresetDefinition = {
   id: FontPresetId;
@@ -98,43 +102,72 @@ export const MOODBOARDS: MoodboardDefinition[] = [
   },
 ];
 
+/**
+ * Combinaisons + originales / éditoriales.
+ * 1 classique conservée (Courier + Cormorant) puis 5 paires modernes
+ * avec un fort caractère : serif éditorial, display géométrique, grotesque contemporain.
+ */
 export const FONT_PRESETS: FontPresetDefinition[] = [
   {
-    id: "courier-modern",
-    label: "Courier Modern",
-    contentLabel: "IBM Plex Mono",
+    id: "classique",
+    label: "Classique",
+    contentLabel: "Courier Prime",
     titleLabel: "Cormorant Garamond",
   },
   {
-    id: "inter-manrope",
-    label: "Inter + Manrope",
-    contentLabel: "Inter",
-    titleLabel: "Manrope",
+    id: "editorial",
+    label: "Éditorial",
+    contentLabel: "Bricolage Grotesque",
+    titleLabel: "Fraunces",
   },
   {
-    id: "dm-sans-sora",
-    label: "DM Sans + Sora",
+    id: "magazine",
+    label: "Magazine",
+    contentLabel: "Inter Tight",
+    titleLabel: "Playfair Display",
+  },
+  {
+    id: "instrument",
+    label: "Instrument",
+    contentLabel: "Onest",
+    titleLabel: "Instrument Serif",
+  },
+  {
+    id: "pop-display",
+    label: "Pop display",
+    contentLabel: "Geist",
+    titleLabel: "Unbounded",
+  },
+  {
+    id: "spectral-soft",
+    label: "Spectral soft",
+    contentLabel: "Spectral",
+    titleLabel: "Fraunces",
+  },
+  {
+    id: "studio",
+    label: "Studio",
     contentLabel: "DM Sans",
-    titleLabel: "Sora",
+    titleLabel: "DM Serif Display",
   },
   {
-    id: "outfit-space",
-    label: "Outfit + Space Grotesk",
-    contentLabel: "Outfit",
-    titleLabel: "Space Grotesk",
+    id: "zine",
+    label: "Zine",
+    contentLabel: "Archivo Narrow",
+    titleLabel: "Archivo Black",
   },
   {
-    id: "figtree-plus",
-    label: "Figtree + Plus Jakarta",
-    contentLabel: "Figtree",
-    titleLabel: "Plus Jakarta Sans",
+    id: "jardin",
+    label: "Jardin",
+    contentLabel: "Karla",
+    titleLabel: "EB Garamond",
   },
 ];
 
 const STORAGE_KEY = "viago.moodboard";
 const FONT_STORAGE_KEY = "viago.fontPreset";
 const DEFAULT_MOODBOARD: MoodboardId = "terracotta";
-const DEFAULT_FONT_PRESET: FontPresetId = "courier-modern";
+const DEFAULT_FONT_PRESET: FontPresetId = "classique";
 
 type Ctx = {
   moodboard: MoodboardId;
@@ -221,5 +254,5 @@ function isFontPresetId(x: string): x is FontPresetId {
 /** Script inline à injecter dans <head> pour éviter un flash au premier rendu. */
 export const MOODBOARD_PRE_HYDRATION_SCRIPT = `
 (function(){try{var k='viago.moodboard';var v=localStorage.getItem(k);var a=['terracotta','nocturne','dune','foret','violet','ardoise','perle','lagon','turquoise'];document.documentElement.setAttribute('data-moodboard',a.indexOf(v)>=0?v:'terracotta');}catch(e){document.documentElement.setAttribute('data-moodboard','terracotta');}})();
-(function(){try{var k='viago.fontPreset';var v=localStorage.getItem(k);var a=['courier-modern','inter-manrope','dm-sans-sora','outfit-space','figtree-plus'];document.documentElement.setAttribute('data-font-preset',a.indexOf(v)>=0?v:'courier-modern');}catch(e){document.documentElement.setAttribute('data-font-preset','courier-modern');}})();
+(function(){try{var k='viago.fontPreset';var v=localStorage.getItem(k);var a=['classique','editorial','magazine','instrument','pop-display','spectral-soft','studio','zine','jardin'];document.documentElement.setAttribute('data-font-preset',a.indexOf(v)>=0?v:'classique');}catch(e){document.documentElement.setAttribute('data-font-preset','classique');}})();
 `;

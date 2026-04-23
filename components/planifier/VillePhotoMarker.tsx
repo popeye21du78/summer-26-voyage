@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
 import {
   getClientPublicPhotoPick,
 } from "@/lib/public-photo-client";
@@ -57,12 +58,22 @@ export default function VillePhotoMarker({
   const borderWidth = tier === "strong" ? 3 : 2;
 
   return (
-    <button
+    <motion.button
       type="button"
       onClick={(e) => {
         e.stopPropagation();
         onClick();
       }}
+      /**
+       * Apparition/disparition progressive des POI en fonction du zoom —
+       * demandé par l'user, inspiration Plans iOS. Combiné à l'`AnimatePresence`
+       * côté parent, ça donne un fade + micro-scale à chaque changement de set
+       * de POI visible (plutôt qu'un pop-in brutal).
+       */
+      initial={{ opacity: 0, scale: 0.75 }}
+      animate={{ opacity: 1, scale: 1 }}
+      exit={{ opacity: 0, scale: 0.72 }}
+      transition={{ duration: 0.28, ease: [0.32, 0.72, 0.25, 1] }}
       className={`group relative flex cursor-pointer touch-manipulation items-center justify-center rounded-full bg-white shadow-[0_6px_16px_rgba(0,0,0,0.28)] ring-2 transition hover:scale-[1.03] ${ringColor}`}
       style={{ width: size, height: size, borderWidth, borderColor: "#ffffff", borderStyle: "solid" }}
       aria-label={nom}
@@ -93,6 +104,6 @@ export default function VillePhotoMarker({
       >
         {nom}
       </span>
-    </button>
+    </motion.button>
   );
 }

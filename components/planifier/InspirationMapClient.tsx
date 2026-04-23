@@ -28,6 +28,7 @@ import {
   Waves,
 } from "lucide-react";
 import { Marker } from "react-map-gl/mapbox";
+import { AnimatePresence } from "framer-motion";
 import VillePhotoMarker from "@/components/planifier/VillePhotoMarker";
 
 const Map = dynamic(() => import("react-map-gl/mapbox").then((m) => m.default), {
@@ -314,18 +315,43 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
     const territoryPoiPaint = useMemo(() => {
       const op = territoryPoiOpacity;
       const hl = highlightTerritoryId;
+      /**
+       * Opacité interpolée sur le zoom = apparition progressive type Plans iOS.
+       * - zoom ≤ 5.8   → totalement invisible
+       * - zoom 5.8→7.2 → fondu entrant
+       * - zoom ≥ 7.2   → pleine opacité (multipliée par `op` si fiche animée).
+       * Rayon également interpolé pour un zoom-in qui « grossit » la pastille
+       * au lieu d'apparaître figée.
+       */
+      const zoomOpacity = [
+        "interpolate",
+        ["linear"],
+        ["zoom"],
+        5.8, 0,
+        7.2, op,
+      ] as unknown as number;
+      const zoomRadius = [
+        "interpolate",
+        ["linear"],
+        ["zoom"],
+        5.8, 3,
+        7.2, 6.5,
+        10, 8,
+      ] as unknown as number;
       if (!hl) {
         return {
-          "circle-radius": 7,
+          "circle-radius": zoomRadius,
           "circle-color": "var(--color-accent-start)",
           "circle-stroke-width": 2,
           "circle-stroke-color": "#ffffff",
-          "circle-opacity": op,
-          "circle-stroke-opacity": op,
+          "circle-opacity": zoomOpacity,
+          "circle-stroke-opacity": zoomOpacity,
+          "circle-opacity-transition": { duration: 320, delay: 0 },
+          "circle-radius-transition": { duration: 320, delay: 0 },
         } as Record<string, unknown>;
       }
       return {
-        "circle-radius": ["case", ["==", ["get", "id"], hl], 16, 7],
+        "circle-radius": ["case", ["==", ["get", "id"], hl], 16, zoomRadius],
         "circle-color": [
           "case",
           ["==", ["get", "id"], hl],
@@ -334,8 +360,10 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
         ],
         "circle-stroke-width": ["case", ["==", ["get", "id"], hl], 4, 2],
         "circle-stroke-color": "#fffef8",
-        "circle-opacity": op,
-        "circle-stroke-opacity": op,
+        "circle-opacity": ["case", ["==", ["get", "id"], hl], op, zoomOpacity],
+        "circle-stroke-opacity": ["case", ["==", ["get", "id"], hl], op, zoomOpacity],
+        "circle-opacity-transition": { duration: 320, delay: 0 },
+        "circle-radius-transition": { duration: 320, delay: 0 },
       } as Record<string, unknown>;
     }, [territoryPoiOpacity, highlightTerritoryId]);
 
@@ -555,42 +583,49 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
              * Villes / POIs : rendu React en <Marker> avec photo + label toujours visible.
              * Remplace l'ancien layer circle (pas de photo possible dans un paint Mapbox).
              * Les counts sont plafonnés côté screen à 5-7 aux zoom bas → pas de surcharge.
+             *
+             * `AnimatePresence` autour de la collection permet un fade d'ENTRÉE et
+             * de SORTIE sur chaque marker — effet "Plans iOS" demandé par l'user.
+             * On utilise `popLayout` pour éviter que les entrées/sorties d'autres
+             * markers ne relayoutent les voisins encore visibles.
              */}
-            {showVillePoints &&
-              villePoints &&
-              villePoints.features.length > 0 &&
-              villePoints.features.map((f, idx) => {
-                const g = f.geometry;
-                if (!g || g.type !== "Point") return null;
-                const [lng, lat] = g.coordinates as [number, number];
-                const props = (f.properties ?? {}) as {
-                  id?: string;
-                  name?: string;
-                  tier?: string;
-                };
-                const slug = typeof props.id === "string" ? props.id : "";
-                const nom = typeof props.name === "string" ? props.name : slug;
-                const tier =
-                  props.tier === "strong" || props.tier === "saved"
-                    ? (props.tier as "strong" | "saved")
-                    : ("standard" as const);
-                if (!slug) return null;
-                return (
-                  <Marker
-                    key={`ville-${slug}-${idx}`}
-                    longitude={lng}
-                    latitude={lat}
-                    anchor="center"
-                  >
-                    <VillePhotoMarker
-                      slug={slug}
-                      nom={nom}
-                      tier={tier}
-                      onClick={() => onVilleRef.current?.(slug, nom)}
-                    />
-                  </Marker>
-                );
-              })}
+            <AnimatePresence mode="popLayout" initial={false}>
+              {showVillePoints &&
+                villePoints &&
+                villePoints.features.length > 0 &&
+                villePoints.features.map((f, idx) => {
+                  const g = f.geometry;
+                  if (!g || g.type !== "Point") return null;
+                  const [lng, lat] = g.coordinates as [number, number];
+                  const props = (f.properties ?? {}) as {
+                    id?: string;
+                    name?: string;
+                    tier?: string;
+                  };
+                  const slug = typeof props.id === "string" ? props.id : "";
+                  const nom = typeof props.name === "string" ? props.name : slug;
+                  const tier =
+                    props.tier === "strong" || props.tier === "saved"
+                      ? (props.tier as "strong" | "saved")
+                      : ("standard" as const);
+                  if (!slug) return null;
+                  return (
+                    <Marker
+                      key={`ville-${slug}-${idx}`}
+                      longitude={lng}
+                      latitude={lat}
+                      anchor="center"
+                    >
+                      <VillePhotoMarker
+                        slug={slug}
+                        nom={nom}
+                        tier={tier}
+                        onClick={() => onVilleRef.current?.(slug, nom)}
+                      />
+                    </Marker>
+                  );
+                })}
+            </AnimatePresence>
             {showStarItineraryMarkers &&
               starItineraryStops.map((s) => (
                 <Marker

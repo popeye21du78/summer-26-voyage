@@ -7,6 +7,7 @@ import type { Voyage } from "../data/mock-voyages";
 import HeroPhotoStripResolved from "./HeroPhotoStripResolved";
 import AccueilHeroBrandMark from "./home/AccueilHeroBrandMark";
 import HomeDecorTitle from "./home/HomeDecorTitle";
+import BrandLogo from "./layout/BrandLogo";
 import { SNAP_SECTION, SNAP_SECTION_SCROLL_INNER } from "./home/homeSectionTokens";
 
 type Props = {
@@ -18,6 +19,74 @@ type Props = {
 
 function pad(n: number) {
   return String(n).padStart(2, "0");
+}
+
+/**
+ * Cellule standard du compte à rebours (jours/heures/minutes).
+ * Les secondes ont leur propre composant `SecondsOdometer` avec chiffres
+ * qui défilent indépendamment — bien plus visuel.
+ */
+function CountdownUnit({
+  value,
+  label,
+}: {
+  value: number;
+  label: string;
+}) {
+  return (
+    <div className="relative flex flex-col items-center justify-center overflow-hidden rounded-2xl border border-white/20 bg-white/8 px-2 py-3 backdrop-blur-md">
+      <span className="relative font-mono text-[1.9rem] font-light tabular-nums leading-none text-white drop-shadow sm:text-[2.3rem]">
+        {pad(value)}
+      </span>
+      <span className="mt-1.5 font-courier text-[9px] font-bold uppercase tracking-[0.22em] text-white/60">
+        {label}
+      </span>
+    </div>
+  );
+}
+
+/**
+ * Odomètre des secondes — chaque chiffre est démonté/remonté à chaque changement
+ * pour déclencher l'animation `countdown-seconds-roll` (montée depuis le bas
+ * avec flou). On sépare dizaines et unités pour que seule l'unité roule chaque
+ * seconde (plus naturel, moins bruyant pour l'œil).
+ */
+function SecondsOdometer({ value }: { value: number }) {
+  const tens = Math.floor(value / 10);
+  const ones = value % 10;
+  return (
+    <div className="relative flex items-center justify-center gap-2 rounded-3xl border border-[color-mix(in_srgb,var(--color-accent-start)_55%,transparent)] bg-[color-mix(in_srgb,var(--color-accent-start)_14%,transparent)] px-5 py-3 backdrop-blur-md">
+      <span
+        aria-hidden
+        className="absolute -top-[1px] left-[12%] right-[12%] h-px bg-gradient-to-r from-transparent via-white/45 to-transparent"
+      />
+      <div className="flex items-baseline gap-[6px]">
+        <span
+          key={`t-${tens}`}
+          className="countdown-seconds-roll font-mono text-[3.4rem] font-semibold tabular-nums leading-none text-white drop-shadow-lg sm:text-[4rem]"
+          style={{
+            textShadow:
+              "0 0 24px color-mix(in srgb, var(--color-accent-start) 60%, transparent)",
+          }}
+        >
+          {tens}
+        </span>
+        <span
+          key={`o-${ones}`}
+          className="countdown-seconds-roll font-mono text-[3.4rem] font-semibold tabular-nums leading-none text-white drop-shadow-lg sm:text-[4rem]"
+          style={{
+            textShadow:
+              "0 0 24px color-mix(in srgb, var(--color-accent-start) 60%, transparent)",
+          }}
+        >
+          {ones}
+        </span>
+      </div>
+      <span className="ml-1 font-courier text-[10px] font-bold uppercase tracking-[0.32em] text-[var(--color-accent-start)]">
+        sec
+      </span>
+    </div>
+  );
 }
 
 export default function VoyagePrevuCountdown({
@@ -70,81 +139,83 @@ export default function VoyagePrevuCountdown({
       <HomeDecorTitle lines={["DÉ", "PART"]} tone="onDark" />
 
       <div
-        className={`relative z-20 px-4 pt-[calc(env(safe-area-inset-top,0px)+3.5rem)] ${SNAP_SECTION_SCROLL_INNER}`}
+        className={`relative z-20 flex h-full min-h-0 flex-col items-center justify-center px-4 pt-[calc(env(safe-area-inset-top,0px)+3.5rem)] text-center ${SNAP_SECTION_SCROLL_INNER}`}
       >
-        <p className="mb-2 font-courier text-[10px] font-bold uppercase tracking-[0.4em] text-[var(--color-accent-start)]">
-          Prochain départ
-        </p>
+        {/**
+         * Le compte à rebours est repositionné comme CENTRE de gravité de la page
+         * (demande user). Le titre du voyage reste au-dessus mais plus compact.
+         * Les étapes/pills passent sous le countdown pour ne pas concurrencer la lecture.
+         */}
         <h1
-          className="relative mb-1 max-w-[95%] font-courier text-[1.65rem] font-bold uppercase leading-tight tracking-tight text-transparent sm:text-[1.85rem]"
+          className="relative mb-1 max-w-[95%] text-[1.45rem] font-bold uppercase leading-tight tracking-tight text-transparent sm:text-[1.7rem]"
           style={{
             background: "linear-gradient(to right, var(--color-accent-start), var(--color-accent-mid), var(--color-accent-gold))",
             backgroundClip: "text",
             WebkitBackgroundClip: "text",
+            fontFamily: "var(--font-title), var(--font-courier)",
           }}
         >
           {voyage.titre}
         </h1>
-        <p className="mb-6 font-courier text-xs text-white/60">{voyage.sousTitre}</p>
+        <p className="mb-6 font-courier text-[11px] text-white/55">{voyage.sousTitre}</p>
 
-        <div className="mb-6 flex flex-wrap gap-2">
+        {/**
+         * Bloc countdown central :
+         *  - `countdown-halo` fait battre discrètement une auréole accent autour
+         *    du bloc (rappel visuel de l'urgence douce — on « sent » le temps qui avance)
+         *  - les secondes utilisent `countdown-seconds-roll` (odomètre descendant)
+         *  - la cellule « sec » est mise en avant (bordure accent) pour guider l'œil
+         */}
+        <div className="countdown-halo relative w-full max-w-md rounded-[28px] border border-white/10 bg-black/25 p-4 sm:p-5">
+          {/**
+           * Marque Viago (V stylisé, colorisé par masque) au-dessus du compteur :
+           * rappel d'identité au CENTRE de gravité du hero d'Accueil.
+           */}
+          <BrandLogo
+            variant="mark"
+            tone="accent"
+            size={28}
+            className="absolute -top-4 left-1/2 -translate-x-1/2"
+            style={{
+              filter:
+                "drop-shadow(0 0 14px color-mix(in srgb, var(--color-accent-start) 70%, transparent))",
+            }}
+          />
+          {diff ? (
+            <>
+              {/**
+               * Secondes mises en exergue : gros chiffres qui défilent,
+               * bordure accent et halo — on SENT le temps s'écouler.
+               */}
+              <SecondsOdometer value={diff.seconds} />
+              <div className="mt-3 grid grid-cols-3 gap-2 sm:gap-3">
+                <CountdownUnit value={diff.days} label="jours" />
+                <CountdownUnit value={diff.hours} label="heures" />
+                <CountdownUnit value={diff.minutes} label="minutes" />
+              </div>
+            </>
+          ) : (
+            <div className="text-center font-mono text-3xl text-white/80">—</div>
+          )}
+          <p className="mt-3 text-center font-courier text-[10px] uppercase tracking-[0.35em] text-white/50">
+            avant le grand départ
+          </p>
+        </div>
+
+        <div className="mt-5 flex flex-wrap justify-center gap-2">
           {voyage.steps.slice(0, 5).map((s) => (
             <span
               key={s.id}
-              className="rounded-full border border-white/25 bg-white/10 px-3 py-1 font-courier text-[11px] font-bold text-white/90"
+              className="rounded-full border border-white/20 bg-white/8 px-3 py-1 font-courier text-[10px] font-bold text-white/80"
             >
               {s.nom}
             </span>
           ))}
         </div>
 
-        <div className="mb-6 flex flex-wrap items-end gap-2 sm:gap-3">
-          {diff ? (
-            <>
-              <div className="flex flex-col">
-                <span className="font-mono text-4xl font-light tabular-nums text-white drop-shadow sm:text-5xl">
-                  {pad(diff.days)}
-                </span>
-                <span className="text-[10px] font-bold uppercase tracking-widest text-white/55">
-                  jours
-                </span>
-              </div>
-              <span className="mb-4 font-mono text-2xl text-white/40">:</span>
-              <div className="flex flex-col">
-                <span className="font-mono text-4xl font-light tabular-nums text-white drop-shadow sm:text-5xl">
-                  {pad(diff.hours)}
-                </span>
-                <span className="text-[10px] font-bold uppercase tracking-widest text-white/55">
-                  h
-                </span>
-              </div>
-              <span className="mb-4 font-mono text-2xl text-white/40">:</span>
-              <div className="flex flex-col">
-                <span className="font-mono text-4xl font-light tabular-nums text-white drop-shadow sm:text-5xl">
-                  {pad(diff.minutes)}
-                </span>
-                <span className="text-[10px] font-bold uppercase tracking-widest text-white/55">
-                  min
-                </span>
-              </div>
-              <span className="mb-4 font-mono text-2xl text-white/40">:</span>
-              <div className="flex flex-col">
-                <span className="font-mono text-4xl font-light tabular-nums text-white drop-shadow sm:text-5xl">
-                  {pad(diff.seconds)}
-                </span>
-                <span className="text-[10px] font-bold uppercase tracking-widest text-white/55">
-                  s
-                </span>
-              </div>
-            </>
-          ) : (
-            <div className="font-mono text-3xl text-white/80">—</div>
-          )}
-        </div>
-
         <Link
           href={`/mon-espace/voyage/${voyage.id}`}
-          className="mb-4 w-full max-w-md rounded-2xl bg-gradient-to-r from-[var(--color-accent-start)] to-[var(--color-accent-end)] py-3.5 text-center font-courier text-sm font-bold text-white shadow-lg"
+          className="mt-6 w-full max-w-md rounded-2xl bg-gradient-to-r from-[var(--color-accent-start)] to-[var(--color-accent-end)] py-3.5 text-center font-courier text-sm font-bold text-white shadow-lg"
         >
           Ouvrir le carnet prévu
         </Link>

@@ -57,7 +57,51 @@ type Props = {
   voyage: Voyage;
 };
 
-export default function AmiVoyageFlipCard({
+/** Boundary global à la carte — isole un crash verso (map, carousel, lien) du reste de la page. */
+class AmiCardErrorBoundary extends React.Component<
+  { children: React.ReactNode; onReset?: () => void },
+  { hasError: boolean }
+> {
+  constructor(props: { children: React.ReactNode; onReset?: () => void }) {
+    super(props);
+    this.state = { hasError: false };
+  }
+  static getDerivedStateFromError(): { hasError: boolean } {
+    return { hasError: true };
+  }
+  render() {
+    if (this.state.hasError) {
+      return (
+        <div className="flex min-h-[180px] w-full flex-col items-center justify-center gap-2 rounded-2xl border border-white/10 bg-[var(--color-bg-secondary)] px-5 py-6 text-center">
+          <p className="font-courier text-[11px] text-white/60">
+            Impossible d’afficher ce voyage. Touche pour réessayer.
+          </p>
+          <button
+            type="button"
+            onClick={() => {
+              this.setState({ hasError: false });
+              this.props.onReset?.();
+            }}
+            className="rounded-full border border-[var(--color-accent-start)]/50 px-3 py-1 font-courier text-[10px] font-bold uppercase tracking-wider text-[var(--color-accent-start)]"
+          >
+            Réessayer
+          </button>
+        </div>
+      );
+    }
+    return this.props.children;
+  }
+}
+
+export default function AmiVoyageFlipCard(props: Props) {
+  return (
+    <AmiCardErrorBoundary>
+      <AmiVoyageFlipCardInner {...props} />
+    </AmiCardErrorBoundary>
+  );
+}
+
+function AmiVoyageFlipCardInner({
   profileId,
   profileName,
   voyage,
@@ -68,13 +112,24 @@ export default function AmiVoyageFlipCard({
   const [activeStep, setActiveStep] = useState(0);
   const carouselRef = useRef<HTMLDivElement>(null);
 
-  const stepsList = Array.isArray(voyage.steps) ? voyage.steps : [];
+  const stepsList = Array.isArray(voyage?.steps) ? voyage.steps : [];
+  const safeProfileName =
+    typeof profileName === "string" && profileName.trim().length > 0
+      ? profileName
+      : "Viago";
 
   const resolvedSteps: ResolvedStarStep[] = stepsList
-    .filter((s) => s.coordonnees?.lat != null && s.coordonnees?.lng != null)
+    .filter(
+      (s) =>
+        s?.coordonnees &&
+        typeof s.coordonnees.lat === "number" &&
+        typeof s.coordonnees.lng === "number" &&
+        Number.isFinite(s.coordonnees.lat) &&
+        Number.isFinite(s.coordonnees.lng)
+    )
     .map((s) => ({
       slug: s.id,
-      nom: s.nom,
+      nom: s.nom ?? "",
       lat: s.coordonnees!.lat,
       lng: s.coordonnees!.lng,
     }));
@@ -83,11 +138,16 @@ export default function AmiVoyageFlipCard({
     resolvedSteps.length > 0
       ? resolvedSteps
       : stepsList.map((s) => ({
-          slug: s.id,
-          nom: s.nom,
+          slug: s?.id ?? "",
+          nom: s?.nom ?? "",
           lat: 0,
           lng: 0,
         }));
+
+  /** Clamp activeStep pour éviter `stepsForStrip[huge]` = undefined sur une carte mal sourcée. */
+  const safeActiveStep = stepsForStrip.length
+    ? Math.min(Math.max(activeStep, 0), stepsForStrip.length - 1)
+    : 0;
 
   const first = stepsList[0];
   const token = process.env.NEXT_PUBLIC_MAPBOX_TOKEN;
@@ -151,7 +211,7 @@ export default function AmiVoyageFlipCard({
           style={{ backfaceVisibility: "hidden" }}
           onClick={() => setFlipped(true)}
         >
-          <div className="relative aspect-[16/11] w-full overflow-hidden bg-[var(--color-bg-secondary)]">
+          <div className="relative aspect-[3/4] w-full overflow-hidden bg-[var(--color-bg-secondary)]">
             {first ? (
               <CityPhoto
                 stepId={first.id}
@@ -170,9 +230,9 @@ export default function AmiVoyageFlipCard({
                 className="mb-2 inline-flex items-center gap-2 rounded-full bg-black/45 px-2.5 py-1 font-courier text-[10px] font-bold text-white/90 backdrop-blur-sm transition hover:bg-black/60"
               >
                 <span className="flex h-6 w-6 items-center justify-center rounded-full bg-[var(--color-accent-start)] text-[10px]">
-                  {(profileName?.trim()?.charAt(0) || "?").toUpperCase()}
+                  {(safeProfileName.charAt(0) || "?").toUpperCase()}
                 </span>
-                {profileName}
+                {safeProfileName}
               </Link>
               <p className="font-courier text-[10px] font-bold uppercase tracking-[0.25em] text-[var(--color-accent-start)]">
                 Voyage d’un ami
@@ -212,7 +272,7 @@ export default function AmiVoyageFlipCard({
                   <AmiMapErrorBoundary>
                     <StarFlipMap
                       steps={resolvedSteps}
-                      activeStepIndex={activeStep}
+                      activeStepIndex={safeActiveStep}
                       mapboxToken={token}
                     />
                   </AmiMapErrorBoundary>
@@ -246,29 +306,29 @@ export default function AmiVoyageFlipCard({
               >
                 {stepsForStrip.map((step, i) => (
                   <button
-                    key={`${step.slug}-${i}`}
+                    key={`${step.slug || "step"}-${i}`}
                     type="button"
                     onClick={() => scrollToStep(i)}
                     className={`relative shrink-0 overflow-hidden rounded-xl ${
-                      activeStep === i
+                      safeActiveStep === i
                         ? "ring-2 ring-[var(--color-accent-start)]"
                         : "opacity-60 hover:opacity-90"
                     }`}
                     style={{ width: "72px", height: "100px" }}
                   >
                     <CityPhoto
-                      stepId={step.slug}
-                      ville={step.nom}
-                      alt={step.nom}
+                      stepId={step.slug || `ami-${i}`}
+                      ville={step.nom || ""}
+                      alt={step.nom || ""}
                       className="absolute inset-0 h-full w-full object-cover"
                       initialUrl={
-                        stepsList.find((s) => s.id === step.slug)?.contenu_voyage
+                        stepsList.find((s) => s?.id === step.slug)?.contenu_voyage
                           ?.photos?.[0]
                       }
                       imageLoading="lazy"
                     />
                     <div className="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/90 to-transparent p-1.5 text-center font-courier text-[8px] font-bold text-white">
-                      {step.nom}
+                      {step.nom || "—"}
                     </div>
                   </button>
                 ))}
@@ -278,13 +338,13 @@ export default function AmiVoyageFlipCard({
             <div className="shrink-0 space-y-3 px-4 py-3">
               <Link
                 href={withReturnTo(
-                  `/inspirer/ville/${slugFromNom(stepsForStrip[activeStep]?.nom ?? "")}?from=amis`,
+                  `/inspirer/ville/${slugFromNom(stepsForStrip[safeActiveStep]?.nom ?? "")}?from=amis`,
                   here
                 )}
                 className="flex items-center gap-2 font-courier text-sm font-bold text-[var(--color-accent-start)] hover:underline"
               >
                 <MapPin className="h-4 w-4" />
-                Voir {stepsForStrip[activeStep]?.nom ?? "la ville"}
+                Voir {stepsForStrip[safeActiveStep]?.nom ?? "la ville"}
               </Link>
               <Link
                 href={withReturnTo(

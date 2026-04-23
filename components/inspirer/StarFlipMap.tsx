@@ -205,33 +205,55 @@ export default function StarFlipMap({ steps, activeStepIndex, mapboxToken }: Pro
   }, [activeStepIndex, steps]);
 
   useEffect(() => {
-    const map = mapRef.current;
-    if (!map) return;
-    const mb = map.getMap();
-    const onLoad = () => {
-      try {
-        const style = mb.getStyle();
-        if (!style?.layers) return;
-        for (const layer of style.layers) {
-          if (layer.type === "background") {
-            mb.setPaintProperty(layer.id, "background-color", "#f5f5f5");
-          } else if (
-            layer.type === "fill" &&
-            (layer.id.includes("land") || layer.id.includes("background"))
-          ) {
-            mb.setPaintProperty(layer.id, "fill-color", "#e8e8e8");
-          } else if (layer.type === "fill" && layer.id.includes("water")) {
-            mb.setPaintProperty(layer.id, "fill-color", "#d0d0d0");
-          } else if (layer.type === "line" && layer.id.includes("admin")) {
-            mb.setPaintProperty(layer.id, "line-color", "#999999");
+    /**
+     * Recoloration du style Mapbox — entièrement défensive :
+     * sur mobile (iOS surtout), `map.getMap()` peut être indisponible
+     * ou lancer si appelé avant que le conteneur soit prêt. On encapsule
+     * TOUT en try/catch, y compris la récupération de `mb` — sinon l'erreur
+     * remonte au top-level et casse toute la page « Amis ».
+     */
+    try {
+      const map = mapRef.current;
+      if (!map) return;
+      const mb = map.getMap?.();
+      if (!mb) return;
+
+      const applyTheme = () => {
+        try {
+          const style = mb.getStyle?.();
+          if (!style?.layers) return;
+          for (const layer of style.layers) {
+            try {
+              if (layer.type === "background") {
+                mb.setPaintProperty(layer.id, "background-color", "#f5f5f5");
+              } else if (
+                layer.type === "fill" &&
+                (layer.id.includes("land") || layer.id.includes("background"))
+              ) {
+                mb.setPaintProperty(layer.id, "fill-color", "#e8e8e8");
+              } else if (layer.type === "fill" && layer.id.includes("water")) {
+                mb.setPaintProperty(layer.id, "fill-color", "#d0d0d0");
+              } else if (layer.type === "line" && layer.id.includes("admin")) {
+                mb.setPaintProperty(layer.id, "line-color", "#999999");
+              }
+            } catch {
+              // layer missing or not ready — ignore
+            }
           }
+        } catch {
+          // style not loaded — ignore
         }
+      };
+
+      try {
+        if (mb.isStyleLoaded?.()) applyTheme();
+        else mb.once?.("style.load", applyTheme);
       } catch {
-        // style not loaded yet
+        // once() may not exist on certain map-gl versions — ignore
       }
-    };
-    if (mb.isStyleLoaded()) onLoad();
-    else mb.once("style.load", onLoad);
+    } catch {
+      // map wrapper itself threw — ignore, render still works
+    }
   }, []);
 
   if (!mapboxToken) {
@@ -256,8 +278,21 @@ export default function StarFlipMap({ steps, activeStepIndex, mapboxToken }: Pro
       attributionControl={false}
       interactive={true}
     >
+      {/**
+       * CRUCIAL : chaque `<Source>` a une `key` distincte parce que react-map-gl
+       * déclenche un runtime error « source id changed » quand un même nœud
+       * React voit son prop `id` muter (les deux branches occupent sinon la
+       * MÊME position et React reconcilie en changeant juste le prop id).
+       * Avec `key`, chaque branche devient une instance distincte → unmount
+       * propre de l'une, mount de l'autre, pas de collision côté Mapbox.
+       */}
       {routeData?.segments?.features?.length ? (
-        <Source id="star-route-segments" type="geojson" data={routeData.segments}>
+        <Source
+          key="star-route-segments"
+          id="star-route-segments"
+          type="geojson"
+          data={routeData.segments}
+        >
           <Layer
             id="star-route-line"
             type="line"
@@ -285,7 +320,12 @@ export default function StarFlipMap({ steps, activeStepIndex, mapboxToken }: Pro
           />
         </Source>
       ) : fallbackRoute ? (
-        <Source id="star-route" type="geojson" data={fallbackRoute}>
+        <Source
+          key="star-route-fallback"
+          id="star-route"
+          type="geojson"
+          data={fallbackRoute}
+        >
           <Layer
             id="star-route-line-fallback"
             type="line"
