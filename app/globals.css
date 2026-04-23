@@ -682,6 +682,8 @@ input[type="number"].no-spinner::-webkit-inner-spin-button {
  * Animée via transform pour éviter le reflow massif ; sans pointer-events en mode caché.
  */
 .inspirer-topbar-collapse {
+  position: relative;
+  z-index: 100;
   flex-shrink: 0;
   overflow: hidden;
   max-height: 320px;
@@ -703,6 +705,8 @@ input[type="number"].no-spinner::-webkit-inner-spin-button {
 
 /* Top tabs — capsule verre */
 .viago-top-tabs-wrap {
+  position: relative;
+  z-index: 120;
   flex-shrink: 0;
   padding: 8px 12px 10px;
   border-bottom: 1px solid var(--color-glass-border);

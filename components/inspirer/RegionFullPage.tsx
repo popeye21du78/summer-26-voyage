@@ -104,7 +104,7 @@ export default function RegionFullPage({ regionId, embeddedInSheet = false }: Pr
       <div
         className={`relative overflow-hidden bg-[var(--color-bg-main)] ${
           embeddedInSheet
-            ? "aspect-[16/9] max-h-[42vh] min-h-[200px]"
+            ? "aspect-[2/1] max-h-[min(30vh,240px)] min-h-[150px]"
             : "aspect-[3/4] max-h-[55vh] min-h-[320px]"
         }`}
       >

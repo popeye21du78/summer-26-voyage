@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useCallback, useRef } from "react";
+import React, { useEffect, useState, useCallback, useRef } from "react";
 import Link from "next/link";
 import { useReturnBase } from "@/lib/hooks/use-return-base";
 import dynamic from "next/dynamic";
@@ -24,6 +24,33 @@ function buildAmiViagoReturn(here: string, voyageId: string): string {
 
 const StarFlipMap = dynamic(() => import("./StarFlipMap"), { ssr: false });
 
+class AmiMapErrorBoundary extends React.Component<
+  { children: React.ReactNode },
+  { hasError: boolean }
+> {
+  constructor(props: { children: React.ReactNode }) {
+    super(props);
+    this.state = { hasError: false };
+  }
+
+  static getDerivedStateFromError(): { hasError: boolean } {
+    return { hasError: true };
+  }
+
+  render() {
+    if (this.state.hasError) {
+      return (
+        <div className="flex h-full min-h-[140px] items-center justify-center bg-[var(--color-bg-secondary)] px-3 text-center">
+          <p className="font-courier text-[10px] leading-relaxed text-white/45">
+            Carte indisponible ici. Les étapes et photos restent accessibles ci-dessous.
+          </p>
+        </div>
+      );
+    }
+    return this.props.children;
+  }
+}
+
 type Props = {
   profileId: string;
   profileName: string;
@@ -41,7 +68,9 @@ export default function AmiVoyageFlipCard({
   const [activeStep, setActiveStep] = useState(0);
   const carouselRef = useRef<HTMLDivElement>(null);
 
-  const resolvedSteps: ResolvedStarStep[] = voyage.steps
+  const stepsList = Array.isArray(voyage.steps) ? voyage.steps : [];
+
+  const resolvedSteps: ResolvedStarStep[] = stepsList
     .filter((s) => s.coordonnees?.lat != null && s.coordonnees?.lng != null)
     .map((s) => ({
       slug: s.id,
@@ -53,14 +82,14 @@ export default function AmiVoyageFlipCard({
   const stepsForStrip =
     resolvedSteps.length > 0
       ? resolvedSteps
-      : voyage.steps.map((s) => ({
+      : stepsList.map((s) => ({
           slug: s.id,
           nom: s.nom,
           lat: 0,
           lng: 0,
         }));
 
-  const first = voyage.steps[0];
+  const first = stepsList[0];
   const token = process.env.NEXT_PUBLIC_MAPBOX_TOKEN;
 
   const scrollToStep = useCallback((idx: number) => {
@@ -122,7 +151,7 @@ export default function AmiVoyageFlipCard({
           style={{ backfaceVisibility: "hidden" }}
           onClick={() => setFlipped(true)}
         >
-          <div className="relative aspect-[3/4] w-full overflow-hidden bg-[var(--color-bg-secondary)]">
+          <div className="relative aspect-[16/11] w-full overflow-hidden bg-[var(--color-bg-secondary)]">
             {first ? (
               <CityPhoto
                 stepId={first.id}
@@ -141,7 +170,7 @@ export default function AmiVoyageFlipCard({
                 className="mb-2 inline-flex items-center gap-2 rounded-full bg-black/45 px-2.5 py-1 font-courier text-[10px] font-bold text-white/90 backdrop-blur-sm transition hover:bg-black/60"
               >
                 <span className="flex h-6 w-6 items-center justify-center rounded-full bg-[var(--color-accent-start)] text-[10px]">
-                  {profileName.charAt(0)}
+                  {(profileName?.trim()?.charAt(0) || "?").toUpperCase()}
                 </span>
                 {profileName}
               </Link>
@@ -158,7 +187,7 @@ export default function AmiVoyageFlipCard({
                 {voyage.dateDebut
                   ? new Date(voyage.dateDebut).toLocaleDateString("fr-FR")
                   : ""}{" "}
-                · {voyage.steps.length} étapes
+                · {stepsList.length} étapes
               </p>
             </div>
           </div>
@@ -178,13 +207,15 @@ export default function AmiVoyageFlipCard({
         >
           <div className="flex h-full min-h-0 flex-col overflow-y-auto overscroll-y-contain pb-[max(1rem,env(safe-area-inset-bottom))]">
             <div className="shrink-0 border-b border-white/6 bg-[var(--color-bg-main)]">
-              <div className="relative aspect-[16/10] min-h-[120px] w-full max-h-[24vh]">
+              <div className="relative aspect-[2/1] min-h-[120px] w-full max-h-[min(28vh,260px)]">
                 {flipped && resolvedSteps.length > 0 && token ? (
-                  <StarFlipMap
-                    steps={resolvedSteps}
-                    activeStepIndex={activeStep}
-                    mapboxToken={token}
-                  />
+                  <AmiMapErrorBoundary>
+                    <StarFlipMap
+                      steps={resolvedSteps}
+                      activeStepIndex={activeStep}
+                      mapboxToken={token}
+                    />
+                  </AmiMapErrorBoundary>
                 ) : (
                   <div className="flex h-full items-center justify-center bg-[var(--color-bg-secondary)]">
                     <MapPin className="h-10 w-10 text-[var(--color-accent-start)]/20" />
@@ -223,7 +254,7 @@ export default function AmiVoyageFlipCard({
                         ? "ring-2 ring-[var(--color-accent-start)]"
                         : "opacity-60 hover:opacity-90"
                     }`}
-                    style={{ width: "82px", height: "118px" }}
+                    style={{ width: "72px", height: "100px" }}
                   >
                     <CityPhoto
                       stepId={step.slug}
@@ -231,7 +262,7 @@ export default function AmiVoyageFlipCard({
                       alt={step.nom}
                       className="absolute inset-0 h-full w-full object-cover"
                       initialUrl={
-                        voyage.steps.find((s) => s.id === step.slug)?.contenu_voyage
+                        stepsList.find((s) => s.id === step.slug)?.contenu_voyage
                           ?.photos?.[0]
                       }
                       imageLoading="lazy"

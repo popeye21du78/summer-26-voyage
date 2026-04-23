@@ -40,6 +40,7 @@ import { haversineKm } from "@/lib/geo/haversine";
 import {
   loadItineraireOverride,
   saveItineraireOverride,
+  type NuiteeOverride,
 } from "@/lib/voyage-local-overrides";
 import {
   BarChart,
@@ -57,6 +58,13 @@ import type { Voyage } from "@/data/mock-voyages";
 import type { Step } from "@/types";
 import { useProfileId } from "@/lib/hooks/use-profile-id";
 import { computeStepArrivalDates, defaultNuits } from "@/lib/voyage-step-dates";
+
+function stepNuiteeKind(step: Step, override: NuiteeOverride | undefined): NuiteeOverride {
+  if (override === "passage" || override === "van" || override === "airbnb") return override;
+  if (step.nuitee_type === "passage") return "passage";
+  if (step.nuitee_type === "airbnb") return "airbnb";
+  return "van";
+}
 
 function formatDateRange(debut: string, fin: string) {
   const a = new Date(debut);
@@ -123,7 +131,7 @@ function SortableStepRow({
       style={style}
       className="overflow-hidden rounded-3xl border border-white/12 bg-white/5 shadow-[0_10px_30px_rgba(0,0,0,0.28)]"
     >
-      <div className="relative h-44">
+      <div className="relative h-36">
         <CityPhoto
           stepId={step.id}
           ville={step.nom}
@@ -293,6 +301,7 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
   const [stepsOrder, setStepsOrder] = useState<string[]>([]);
   const [nuitsByStep, setNuitsByStep] = useState<Record<string, number>>({});
   const [budgetByStep, setBudgetByStep] = useState<Record<string, BudgetSplit>>({});
+  const [nuiteeTypeByStep, setNuiteeTypeByStep] = useState<Record<string, NuiteeOverride>>({});
 
   const orderStorageKey = useMemo(() => {
     if (profileId === undefined) return "";
@@ -309,6 +318,16 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
     if (!profileId) return "";
     return `voyage_detail_budget_${profileId}_${voyage.id}`;
   }, [profileId, voyage.id]);
+
+  useEffect(() => {
+    const ov = loadItineraireOverride(voyage.id);
+    const next: Record<string, NuiteeOverride> = {};
+    for (const s of voyage.steps) {
+      const fromOv = ov?.nuiteeByStepId?.[s.id];
+      next[s.id] = stepNuiteeKind(s, fromOv);
+    }
+    setNuiteeTypeByStep(next);
+  }, [voyage.id, voyage.steps]);
 
   useEffect(() => {
     if (profileId === undefined) return;
@@ -484,7 +503,8 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
     let cursor = 1;
     for (const s of orderedSteps) {
       const n = nuitsByStep[s.id] ?? defaultNuits(s);
-      const isPassage = s.nuitee_type === "passage" || n <= 0;
+      const kind = stepNuiteeKind(s, nuiteeTypeByStep[s.id]);
+      const isPassage = kind === "passage" || n <= 0;
       const daysHere = isPassage ? 1 : Math.max(1, n);
       labels[s.id] = daysHere === 1 ? `J${cursor}` : `J${cursor}–${cursor + daysHere - 1}`;
       cursor += daysHere;
@@ -493,7 +513,7 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
       totalDays: cursor - 1 || voyage.dureeJours,
       dayLabelByStep: labels,
     };
-  }, [orderedSteps, nuitsByStep, voyage.dureeJours]);
+  }, [orderedSteps, nuitsByStep, nuiteeTypeByStep, voyage.dureeJours]);
 
   /** Distances à vol d'oiseau entre chaque étape consécutive. */
   const distancesKm = useMemo(() => {
@@ -538,7 +558,10 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
         },
       };
       saveItineraireOverride(voyage.id, nextOverride);
-      /** Force un rechargement local : on ajuste aussi les nuits par cohérence. */
+      setNuiteeTypeByStep((prev) => ({
+        ...prev,
+        [stepId]: wantPassage ? "passage" : "van",
+      }));
       setNuitsByStep((prev) => {
         const copy = { ...prev };
         if (wantPassage) copy[stepId] = 0;
@@ -552,10 +575,6 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
         }
         return copy;
       });
-      /** Recharge la page pour que mergeVoyageSteps reflète le type mis à jour. */
-      if (typeof window !== "undefined") {
-        window.setTimeout(() => window.location.reload(), 60);
-      }
     },
     [voyage.id, nuitsStorageKey]
   );
@@ -793,8 +812,8 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
               <div className="flex flex-col">
                 {orderedSteps.map((s, i) => {
                   const n = nuitsByStep[s.id] ?? defaultNuits(s);
-                  /** Un step est "passage" si le type l'indique OU si 0 nuit (→ losange). */
-                  const isPassage = s.nuitee_type === "passage" || n <= 0;
+                  const kind = stepNuiteeKind(s, nuiteeTypeByStep[s.id]);
+                  const isPassage = kind === "passage" || n <= 0;
                   return (
                     <div key={s.id} className="flex flex-col">
                       <SortableStepRow
@@ -928,7 +947,8 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
               const split = budgetByStep[s.id] ?? defaultBudgetSplit(s);
               const totalLine = budgetSplitTotal(split);
               const n = nuitsByStep[s.id] ?? defaultNuits(s);
-              const isPassage = s.nuitee_type === "passage" || n <= 0;
+              const kind = stepNuiteeKind(s, nuiteeTypeByStep[s.id]);
+              const isPassage = kind === "passage" || n <= 0;
               return (
                 <div
                   key={`bud-${s.id}`}
@@ -938,7 +958,7 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
                     <div className="min-w-0">
                       <p className="font-courier text-xs font-bold text-white/90">{s.nom}</p>
                       <p className="font-courier text-[10px] text-white/35">
-                        {isPassage ? "Passage" : s.nuitee_type === "airbnb" ? "Airbnb" : "Van / nuit"} ·{" "}
+                        {isPassage ? "Passage" : kind === "airbnb" ? "Airbnb" : "Van / nuit"} ·{" "}
                         {(stepDates[s.id] ?? s.date_prevue) || "—"}
                       </p>
                     </div>

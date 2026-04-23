@@ -178,7 +178,7 @@ export default function StarFlipDetail({ itinerary, onCloseFlip }: Props) {
     <div className="flex h-full min-h-[480px] flex-col overflow-y-auto overflow-x-hidden bg-[var(--color-bg-main)] overscroll-y-contain">
       {/* Pas de sticky : la carte défile avec le texte pour pouvoir lire le récit */}
       <div className="shrink-0 border-b border-white/6 bg-[var(--color-bg-main)]">
-        <div className="relative aspect-[16/10] max-h-[min(36vh,300px)] w-full min-h-[170px] bg-[var(--color-bg-secondary)]">
+        <div className="relative aspect-[2/1] max-h-[min(30vh,260px)] w-full min-h-[140px] bg-[var(--color-bg-secondary)]">
           {resolvedSteps === null ? (
             <div className="flex h-full flex-col items-center justify-center gap-2">
               <div className="h-7 w-7 rounded-full border-2 border-[var(--color-accent-start)]/20 border-t-[var(--color-accent-start)] animate-spin" />
@@ -225,7 +225,7 @@ export default function StarFlipDetail({ itinerary, onCloseFlip }: Props) {
                   ? "ring-2 ring-[var(--color-accent-start)] ring-offset-1 ring-offset-[var(--color-bg-main)]"
                   : "opacity-55 hover:opacity-85"
               }`}
-              style={{ width: "82px", height: "118px" }}
+              style={{ width: "72px", height: "100px" }}
             >
               <StarStepStripPhoto stepSlug={step.slug} nom={step.nom} snapReady={snapReady} />
               <span className="pointer-events-none absolute inset-x-0 bottom-0 z-[35] p-1.5 text-center font-courier text-[9px] font-bold leading-tight text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.95)]">

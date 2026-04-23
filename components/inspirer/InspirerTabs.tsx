@@ -231,7 +231,7 @@ function InspirerTabsInner({
 
       {/* Hauteur mini viewport : onglets + TopBar (Hub, recherche, filtres, favoris) */}
       <div
-        className="relative min-h-0 flex-1 overflow-hidden"
+        className="relative z-0 min-h-0 flex-1 overflow-hidden"
         style={{ minHeight: "calc(100dvh - 11.5rem)" }}
       >
         <TabPanel

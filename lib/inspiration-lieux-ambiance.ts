@@ -63,8 +63,8 @@ export function villePointLimitForZoom(zoom: number): number {
   const z = Math.max(5.5, Math.min(11, zoom));
   const minZoom = 5.5;
   const maxZoom = 11;
-  const minPoints = 6;
-  const maxPoints = 72;
+  const minPoints = 5;
+  const maxPoints = 38;
 
   const t = (z - minZoom) / (maxZoom - minZoom);
   const smooth = t * t * (3 - 2 * t);

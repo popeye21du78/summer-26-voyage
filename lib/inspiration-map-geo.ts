@@ -96,6 +96,39 @@ export type SlimLieuPoint = {
   tier?: LieuPoiTier;
 };
 
+/**
+ * Réduit les chevauchements visuels : garde les POI prioritaires en imposant une distance mini
+ * (km) entre marqueurs conservés. Ordre : favoris / incontournables puis le reste.
+ */
+export function thinLieuPointsByMinSeparation(
+  lieux: SlimLieuPoint[],
+  maxCount: number,
+  minKm: number
+): SlimLieuPoint[] {
+  if (lieux.length === 0 || maxCount <= 0) return [];
+  const rank = (t: LieuPoiTier | undefined) => (t === "saved" ? 0 : t === "strong" ? 1 : 2);
+  const sorted = [...lieux].sort((a, b) => {
+    const d = rank(a.tier) - rank(b.tier);
+    if (d !== 0) return d;
+    return (a.nom || "").localeCompare(b.nom || "");
+  });
+  const kept: SlimLieuPoint[] = [];
+  for (const p of sorted) {
+    if (kept.length >= maxCount) break;
+    const pt = turf.point([p.lng, p.lat]);
+    let tooClose = false;
+    for (const q of kept) {
+      const dKm = turf.distance(pt, turf.point([q.lng, q.lat]), { units: "kilometers" });
+      if (dKm < minKm) {
+        tooClose = true;
+        break;
+      }
+    }
+    if (!tooClose) kept.push(p);
+  }
+  return kept;
+}
+
 export function lieuxToPointCollection(lieux: SlimLieuPoint[]): FeatureCollection<Point> {
   return {
     type: "FeatureCollection",

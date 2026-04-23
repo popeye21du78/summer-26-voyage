@@ -47,7 +47,7 @@ export default function VillePhotoMarker({
     };
   }, [slug]);
 
-  const size = tier === "strong" ? 56 : tier === "saved" ? 52 : 48;
+  const size = tier === "strong" ? 48 : tier === "saved" ? 44 : 40;
   const ringColor =
     tier === "strong"
       ? "ring-[var(--color-accent-start)]"
@@ -63,7 +63,7 @@ export default function VillePhotoMarker({
         e.stopPropagation();
         onClick();
       }}
-      className={`group relative flex cursor-pointer touch-manipulation items-center justify-center rounded-full bg-white shadow-[0_8px_22px_rgba(0,0,0,0.3)] ring-2 transition hover:scale-105 ${ringColor}`}
+      className={`group relative flex cursor-pointer touch-manipulation items-center justify-center rounded-full bg-white shadow-[0_6px_16px_rgba(0,0,0,0.28)] ring-2 transition hover:scale-[1.03] ${ringColor}`}
       style={{ width: size, height: size, borderWidth, borderColor: "#ffffff", borderStyle: "solid" }}
       aria-label={nom}
     >
@@ -88,7 +88,7 @@ export default function VillePhotoMarker({
       )}
       {/* Label nom à droite du rond (collé, toujours visible). */}
       <span
-        className="pointer-events-none absolute left-full top-1/2 ml-1.5 -translate-y-1/2 whitespace-nowrap rounded-md bg-white/95 px-1.5 py-1 font-courier text-[10px] font-bold leading-none text-[var(--color-bg-main)] shadow"
+        className="pointer-events-none absolute left-full top-1/2 z-[1] ml-1 max-w-[min(120px,28vw)] -translate-y-1/2 truncate rounded-md bg-white/95 px-1 py-0.5 font-courier text-[9px] font-bold leading-none text-[var(--color-bg-main)] shadow"
         style={{ textShadow: "0 1px 0 rgba(255,255,255,0.4)" }}
       >
         {nom}

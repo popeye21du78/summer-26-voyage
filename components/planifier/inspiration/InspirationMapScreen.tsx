@@ -16,6 +16,7 @@ import {
   bboxForRegionFeature,
   bboxFromLineString,
   lieuxToPointCollection,
+  thinLieuPointsByMinSeparation,
   starItinerariesToLineCollection,
   territoriesToPointCollection,
   type SlimLieuPoint,
@@ -32,6 +33,7 @@ import MapBottomPanels from "./MapBottomPanels";
 import RegionCarousel from "./RegionCarousel";
 import { CityPhoto } from "@/components/CityPhoto";
 import { withReturnTo } from "@/lib/return-to";
+import { villePointLimitForZoom } from "@/lib/inspiration-lieux-ambiance";
 
 const MAP_REGIONS_GEO_URL = "/geo/inspiration-map-regions.geojson";
 const MAP_REGIONS_OUTLINE_URL = "/geo/inspiration-map-regions-outline.geojson";
@@ -85,7 +87,7 @@ function RegionSheetHandle({
       role="separator"
       aria-orientation="horizontal"
       aria-label="Redimensionner la fiche région"
-      className="relative z-30 flex min-h-[38px] shrink-0 cursor-row-resize touch-none select-none items-center justify-center"
+      className="relative z-30 flex min-h-[32px] shrink-0 cursor-row-resize touch-none select-none items-center justify-center px-6"
       onPointerDown={(e) => {
         if (e.button !== 0) return;
         startY.current = e.clientY;
@@ -113,7 +115,7 @@ function RegionSheetHandle({
         onDragEnd?.();
       }}
     >
-      <div className="pointer-events-none h-1.5 w-14 rounded-full bg-white/30 shadow-sm ring-1 ring-white/10" />
+      <div className="pointer-events-none h-1 w-14 rounded-full bg-black/55 shadow-[0_4px_14px_rgba(0,0,0,0.55)] ring-1 ring-black/35" />
     </div>
   );
 }
@@ -133,7 +135,7 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
   const mapRef = useRef<InspirationMapExpose>(null);
   /** Hauteur de la fiche en fraction de la fenêtre (overlay — la carte ne redimensionne jamais). */
   const sheetDragStartRatio = useRef(0.52);
-  const [sheetHeightRatio, setSheetHeightRatio] = useState(0.34);
+  const [sheetHeightRatio, setSheetHeightRatio] = useState(0.32);
   const [mapReady, setMapReady] = useState(false);
   const onMapReady = useCallback(() => setMapReady(true), []);
   const [mapZoom, setMapZoom] = useState(7.5);
@@ -200,7 +202,7 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
    * - FULL (~0.86)    : aimanté juste sous la top bar → page région complète scrollable.
    * Tirer vers le bas depuis FULL descend à PREVIEW ; tirer encore vers le bas ferme.
    */
-  const SNAP_PREVIEW = 0.34;
+  const SNAP_PREVIEW = 0.32;
   const SNAP_FULL = 0.86;
   const SNAP_DEFAULT_DETAIL = 0.58;
 
@@ -318,7 +320,11 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
               : ("standard" as const);
           return { ...l, tier };
         });
-        setVillePoints(lieuxToPointCollection(enriched));
+        const limit = villePointLimitForZoom(debouncedMapZoom);
+        /** Écart mini (km) entre marqueurs : limite les piles à 2 niveaux visuels au plus. */
+        const minKm = Math.max(3.2, 24.5 - debouncedMapZoom * 1.5);
+        const thinned = thinLieuPointsByMinSeparation(enriched, limit, minKm);
+        setVillePoints(lieuxToPointCollection(thinned));
       })
       .catch(() => {
         if (!cancelled) setVillePoints(null);
@@ -669,16 +675,23 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
               initial={{ y: "100%" }}
               animate={{ y: 0 }}
               transition={{ type: "spring", damping: 30, stiffness: 280 }}
-              className="absolute bottom-0 left-0 right-0 z-[45] flex max-h-[88vh] flex-col overflow-hidden rounded-t-3xl border border-[var(--color-accent-start)]/20 bg-gradient-to-t from-[#faf0e8] to-[#fff8f2] shadow-[0_-8px_40px_rgba(180,80,40,0.2)]"
-              style={{ height: sheetHvh }}
+              className="flex max-h-[min(92vh,100dvh)] flex-col overflow-hidden rounded-t-3xl border border-[var(--color-accent-start)]/30 bg-transparent shadow-[0_-28px_56px_rgba(0,0,0,0.42)] max-md:fixed max-md:bottom-0 max-md:left-0 max-md:right-0 max-md:z-[105] md:absolute md:bottom-0 md:left-0 md:right-0 md:z-[45]"
+              style={{
+                height: sheetHvh,
+                maxHeight: "min(92vh, 100dvh)",
+              }}
             >
-              <RegionSheetHandle
-                onDragStart={onSheetHandleDragStart}
-                onDrag={onSheetHandleDrag}
-                onDragEnd={onGutterDragEnd}
-              />
-              <div className="min-h-0 flex-1 overflow-hidden">
+              <div className="relative min-h-0 flex-1 overflow-hidden rounded-t-3xl bg-[var(--color-bg-main)]">
                 <MapBottomPanels starRouteDetail={starRouteDetail} />
+                <div className="pointer-events-none absolute inset-x-0 top-0 z-50 flex h-11 items-start justify-center bg-gradient-to-b from-black/45 via-black/15 to-transparent pt-2.5">
+                  <div className="pointer-events-auto w-full max-w-[100vw] px-4">
+                    <RegionSheetHandle
+                      onDragStart={onSheetHandleDragStart}
+                      onDrag={onSheetHandleDrag}
+                      onDragEnd={onGutterDragEnd}
+                    />
+                  </div>
+                </div>
               </div>
             </motion.div>
           )}

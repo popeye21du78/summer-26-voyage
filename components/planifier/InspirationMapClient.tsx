@@ -223,24 +223,6 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
       stripInspirationBasemapClutter(map, allInteractiveLayerIds());
     }, []);
 
-    const coralFill = useMemo(
-      () =>
-        [
-          "interpolate",
-          ["linear"],
-          ["get", "center_lng"],
-          -5.5,
-          "#E8B090",
-          0,
-          "var(--color-accent-start)",
-          4,
-          "#E8906E",
-          9.5,
-          "#D4A574",
-        ] as const,
-      []
-    );
-
     const grayFill = useMemo(
       () =>
         [
@@ -263,27 +245,30 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
      * Vue France : tout en N&B.
      * Région choisie : uniquement la région active en corail ; le reste reste N&B (faible contraste).
      */
+    /** Orange Viago bien lisible pour la région sélectionnée (hex explicite — Mapbox). */
+    const viagoRegionOrange = "#e85d32";
+
     const fillPaint = useMemo(
       () =>
         ({
           "fill-color": dimOtherRegions
-            ? (["case", ["==", ["get", "id"], sel], coralFill, grayFill] as unknown[])
+            ? (["case", ["==", ["get", "id"], sel], viagoRegionOrange, grayFill] as unknown[])
             : grayFill,
           "fill-opacity": dimOtherRegions
             ? [
                 "case",
                 ["==", ["get", "id"], sel],
-                0.52,
+                0.62,
                 0.16,
               ]
             : [
                 "case",
                 ["==", ["get", "id"], sel],
-                0.42,
+                0.48,
                 0.22,
               ],
         }) as Record<string, unknown>,
-      [sel, dimOtherRegions, coralFill, grayFill]
+      [sel, dimOtherRegions, grayFill]
     );
 
     const linePaint = useMemo(
@@ -616,7 +601,7 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
                 >
                   <button
                     type="button"
-                    className="group relative flex h-[52px] w-[52px] cursor-pointer items-center justify-center rounded-full border-[3px] border-white bg-white shadow-lg ring-2 ring-[var(--color-accent-start)]/35 transition hover:scale-105 hover:ring-[var(--color-accent-start)]/55"
+                    className="group relative flex h-11 w-11 cursor-pointer items-center justify-center rounded-full border-2 border-white bg-white shadow-md ring-2 ring-[var(--color-accent-start)]/35 transition hover:scale-[1.04] hover:ring-[var(--color-accent-start)]/55"
                     onClick={(e) => {
                       e.stopPropagation();
                       onVilleClick?.(s.slug, s.nom);
