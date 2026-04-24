@@ -7,6 +7,7 @@ import {
 } from "../../../data/mock-voyages";
 import type { VoyageStateResponse } from "@/types/voyage-state";
 import { computeDailyContentIds } from "@/lib/home-content";
+import { getServerAuth } from "@/lib/auth-unified";
 
 const FIRST_LOGIN_COOKIE = "voyage_first_login_date";
 
@@ -48,16 +49,15 @@ function hasUpcomingTripConflicts(
 
 export async function GET() {
   try {
-    const cookieStore = await cookies();
-    const profileId = cookieStore.get("van_auth")?.value ?? "";
-
-    if (!profileId) {
+    const auth = await getServerAuth();
+    if (!auth) {
       return NextResponse.json(
         { error: "Non connecté" },
         { status: 401 }
       );
     }
-
+    const profileId = auth.userId;
+    const cookieStore = await cookies();
     const state = getVoyageForProfile(profileId);
     const today = new Date().toDateString();
 

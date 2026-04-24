@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getSessionProfileId } from "@/lib/auth-session";
+import { getServerAuth } from "@/lib/auth-unified";
 import { supabaseAdmin } from "@/lib/supabase-admin";
 
 const MAX_BYTES = 12 * 1024 * 1024; // 12 Mo
@@ -12,10 +12,11 @@ export async function POST(request: NextRequest) {
       { status: 503 }
     );
   }
-  const userId = getSessionProfileId(request);
-  if (!userId) {
+  const auth = await getServerAuth();
+  if (!auth) {
     return NextResponse.json({ error: "Non connecté" }, { status: 401 });
   }
+  const userId = auth.userId;
   let formData: FormData;
   try {
     formData = await request.formData();

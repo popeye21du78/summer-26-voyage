@@ -25,6 +25,8 @@ export default function ViagoPageClient() {
   const searchParams = useSearchParams();
   const id = params?.id as string;
   const readOnly = searchParams.get("mode") === "readonly";
+  /** Lire le Viago d’un compte e-mail ami (amitié acceptée) — partager ce param dans l’URL. */
+  const authOwner = searchParams.get("authOwner")?.trim() || null;
 
   const returnTo = readReturnTo(searchParams);
   const backHref = readOnly
@@ -196,6 +198,7 @@ export default function ViagoPageClient() {
               readOnly={readOnly}
               variant={i % 2 === 0 ? "dark" : "light"}
               storageScope={storageScope}
+              remoteReadOwnerId={authOwner}
             />
           ))}
         </div>

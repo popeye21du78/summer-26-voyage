@@ -41,7 +41,18 @@ type Props = {
   variant?: "dark" | "light";
   /** Profil propriétaire du contenu Viago (ami ou soi) — voir lib/viago-storage */
   storageScope?: string | null;
+  /**
+   * Id utilisateur **Supabase** (UUID) du propriétaire = lecture seule côté API `?owner=…`
+   * (p.ex. `?authOwner=…` sur la page Viago).
+   */
+  remoteReadOwnerId?: string | null;
 };
+
+function looksLikeAuthUuid(s: string) {
+  return /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(
+    s.trim()
+  );
+}
 
 function formatDate(iso: string) {
   return new Date(iso).toLocaleDateString("fr-FR", {
@@ -248,6 +259,7 @@ export default function ViagoSection({
   readOnly = false,
   variant = "dark",
   storageScope = null,
+  remoteReadOwnerId = null,
 }: Props) {
   const ref = useRef<HTMLElement>(null);
   const heroFileRef = useRef<HTMLInputElement>(null);
@@ -280,7 +292,19 @@ export default function ViagoSection({
       (storageScope == null || storageScope === profileId),
     [profileId, storageScope]
   );
-  const canWriteRemote = canLoadRemote && !readOnly;
+  const canFetchFriendRemote = useMemo(
+    () =>
+      Boolean(
+        remoteReadOwnerId?.trim() &&
+        looksLikeAuthUuid(remoteReadOwnerId) &&
+        isViagoRemoteEnabled() &&
+        typeof profileId === "string" &&
+        looksLikeAuthUuid(profileId)
+      ),
+    [remoteReadOwnerId, profileId]
+  );
+  const canFetchFromServer = canLoadRemote || canFetchFriendRemote;
+  const canWriteRemote = canLoadRemote && !readOnly && !canFetchFriendRemote;
 
   useEffect(() => {
     setContent(getViagoStepContent(voyageId, step.id, storageScope));
@@ -288,10 +312,15 @@ export default function ViagoSection({
   }, [voyageId, step.id, step.contenu_voyage?.anecdote, storageScope]);
 
   useEffect(() => {
-    if (!canLoadRemote) return;
+    if (!canFetchFromServer) return;
     let cancelled = false;
     (async () => {
-      const remote = await getViagoStepFromApi(voyageId, step.id);
+      const owner = canFetchFriendRemote
+        ? (remoteReadOwnerId ?? null)
+        : null;
+      const remote = await getViagoStepFromApi(voyageId, step.id, {
+        ownerUserId: owner ?? undefined,
+      });
       if (cancelled) return;
       if (remote) {
         setContent(remote);
@@ -302,7 +331,14 @@ export default function ViagoSection({
     return () => {
       cancelled = true;
     };
-  }, [canLoadRemote, voyageId, step.id, storageScope, profileId]);
+  }, [
+    canFetchFromServer,
+    canFetchFriendRemote,
+    remoteReadOwnerId,
+    voyageId,
+    step.id,
+    storageScope,
+  ]);
 
   const persistContent = useCallback(
     async (next: ViagoStepContent) => {

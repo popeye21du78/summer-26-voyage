@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getSessionProfileId } from "@/lib/auth-session";
+import { getServerAuth } from "@/lib/auth-unified";
+import { isAcceptedFriend } from "@/lib/friends-server";
 import { supabaseAdmin } from "@/lib/supabase-admin";
 import { serverGetViagoStep, serverUpsertViagoStep } from "@/lib/viago-persist-server";
 import type { ViagoStepContent } from "@/lib/viago-storage";
@@ -11,22 +12,42 @@ function requireClient() {
 }
 
 export async function GET(
-  _request: NextRequest,
+  request: NextRequest,
   context: { params: Promise<{ voyageId: string; stepId: string }> }
 ) {
   const client = requireClient();
   if (!client) {
     return NextResponse.json({ error: "Stockage distant indisponible" }, { status: 503 });
   }
-  const userId = getSessionProfileId(_request);
-  if (!userId) {
+  const auth = await getServerAuth();
+  if (!auth) {
     return NextResponse.json({ error: "Non connecté" }, { status: 401 });
   }
   const { voyageId, stepId } = await context.params;
   if (!voyageId?.trim() || !stepId?.trim()) {
     return NextResponse.json({ error: "Paramètres invalides" }, { status: 400 });
   }
-  const content = await serverGetViagoStep(client, userId, voyageId, stepId);
+  const ownerQ = request.nextUrl.searchParams.get("owner")?.trim() ?? "";
+  let rowUserId = auth.userId;
+  if (ownerQ) {
+    if (auth.kind === "test") {
+      return NextResponse.json(
+        { error: "Lecture partagée : connecte-toi par e-mail" },
+        { status: 403 }
+      );
+    }
+    if (ownerQ !== auth.userId) {
+      const ok = await isAcceptedFriend(client, auth.userId, ownerQ);
+      if (!ok) {
+        return NextResponse.json(
+          { error: "Réservé à tes amis acceptés" },
+          { status: 403 }
+        );
+      }
+      rowUserId = ownerQ;
+    }
+  }
+  const content = await serverGetViagoStep(client, rowUserId, voyageId, stepId);
   if (!content) {
     return NextResponse.json({ error: "Non trouvé" }, { status: 404 });
   }
@@ -41,8 +62,8 @@ export async function PUT(
   if (!client) {
     return NextResponse.json({ error: "Stockage distant indisponible" }, { status: 503 });
   }
-  const userId = getSessionProfileId(request);
-  if (!userId) {
+  const auth = await getServerAuth();
+  if (!auth) {
     return NextResponse.json({ error: "Non connecté" }, { status: 401 });
   }
   const { voyageId, stepId } = await context.params;
@@ -58,7 +79,13 @@ export async function PUT(
   if (!body.content || typeof body.content !== "object") {
     return NextResponse.json({ error: "content requis" }, { status: 400 });
   }
-  const res = await serverUpsertViagoStep(client, userId, voyageId, stepId, body.content);
+  const res = await serverUpsertViagoStep(
+    client,
+    auth.userId,
+    voyageId,
+    stepId,
+    body.content
+  );
   if (!res.ok) {
     return NextResponse.json({ error: res.error }, { status: res.status });
   }

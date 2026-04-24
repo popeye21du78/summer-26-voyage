@@ -451,9 +451,16 @@ export function getVoyageForProfile(profileId: string): PersonaVoyageState {
         voyagesTermines: [{ ...v, id: "lina-bretagne-edito" }],
       };
     }
-    case "julie":
-    default:
+    case "julie": {
       return { etat: "rien" };
+    }
+    default: {
+      /** Compte e-mail (Supabase) : on réutilise une persona démo pour l’existant. */
+      if (/^[0-9a-f-]{36}$/i.test(profileId)) {
+        return getVoyageForProfile("sophie");
+      }
+      return { etat: "rien" };
+    }
   }
 }
 

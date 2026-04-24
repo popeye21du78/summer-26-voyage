@@ -173,6 +173,45 @@ export interface Database {
         };
         Relationships: [];
       };
+      profiles: {
+        Row: {
+          id: string;
+          display_name: string;
+          created_at: string;
+        };
+        Insert: {
+          id: string;
+          display_name?: string;
+          created_at?: string;
+        };
+        Update: {
+          display_name?: string;
+          created_at?: string;
+        };
+        Relationships: [];
+      };
+      friend_edges: {
+        Row: {
+          id: string;
+          user_low: string;
+          user_high: string;
+          status: "pending" | "accepted";
+          requested_by: string;
+          created_at: string;
+        };
+        Insert: {
+          id?: string;
+          user_low: string;
+          user_high: string;
+          status: "pending" | "accepted";
+          requested_by: string;
+          created_at?: string;
+        };
+        Update: {
+          status?: "pending" | "accepted";
+        };
+        Relationships: [];
+      };
     };
     Views: Record<string, never>;
     Functions: Record<string, never>;

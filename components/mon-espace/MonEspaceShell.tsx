@@ -8,6 +8,7 @@ import {
   type ReactNode,
   type UIEvent as ReactUIEvent,
 } from "react";
+import Link from "next/link";
 import LinkWithReturn from "@/components/LinkWithReturn";
 import { useRouter } from "next/navigation";
 import { motion, LayoutGroup } from "framer-motion";
@@ -48,6 +49,7 @@ type Props = {
   profileName: string;
   situationLabel: string;
   initialSection?: string;
+  authMode?: "test" | "supabase";
 };
 
 export default function MonEspaceShell({
@@ -55,6 +57,7 @@ export default function MonEspaceShell({
   profileName,
   situationLabel,
   initialSection,
+  authMode = "test",
 }: Props) {
   const router = useRouter();
   const [state, setState] = useState<VoyageStateResponse | null>(null);
@@ -239,6 +242,23 @@ export default function MonEspaceShell({
           <p className="mt-0.5 font-courier text-sm text-[var(--color-text-secondary)]">
             {situationLabel}
           </p>
+          {authMode === "supabase" && (
+            <p className="mt-0.5 font-courier text-[10px] text-[var(--color-text-secondary)]">
+              Id (à partager) :{" "}
+              <code className="select-all break-all text-[9px] text-[var(--color-accent-start)]">
+                {profileId}
+              </code>
+            </p>
+          )}
+          {authMode === "supabase" ? (
+            <Link
+              href="/mon-espace/amis"
+              className="mt-1 inline-block font-courier text-[10px] font-bold text-[var(--color-accent-start)] underline"
+              onClick={(e) => e.stopPropagation()}
+            >
+              Gérer mes amis
+            </Link>
+          ) : null}
           <p className="mt-1 font-courier text-[10px] text-[var(--color-accent-start)] opacity-70">
             Voir mon profil public
           </p>

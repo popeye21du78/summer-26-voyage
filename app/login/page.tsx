@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { User } from "lucide-react";
 import { TEST_PROFILES } from "../../data/test-profiles";
 import { invalidateProfileIdCache } from "@/lib/me-client";
+import SupabaseEmailAuth from "@/components/auth/SupabaseEmailAuth";
 
 export default function LoginPage() {
   const [loading, setLoading] = useState<string | null>(null);
@@ -45,7 +46,13 @@ export default function LoginPage() {
           Viago
         </h1>
         <p className="text-center font-courier text-sm text-white/80/80">
-          Choisis un profil pour voir Viago selon ta situation.
+          Connecte-toi en e-mail, ou en mode démo avec un profil fictif.
+        </p>
+        <div className="mx-auto w-full max-w-md">
+          <SupabaseEmailAuth />
+        </div>
+        <p className="text-center font-courier text-xs font-bold uppercase tracking-[0.2em] text-white/50">
+          Mode démonstration
         </p>
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-4">
           {TEST_PROFILES.map((profile) => (

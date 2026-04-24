@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { cookies } from "next/headers";
+import { getServerAuth } from "@/lib/auth-unified";
 
 const FIRST_LOGIN_COOKIE = "voyage_first_login_date";
 
@@ -9,12 +10,11 @@ const FIRST_LOGIN_COOKIE = "voyage_first_login_date";
  */
 export async function POST() {
   try {
-    const cookieStore = await cookies();
-    const profileId = cookieStore.get("van_auth")?.value ?? "";
-
-    if (!profileId) {
+    const auth = await getServerAuth();
+    if (!auth) {
       return NextResponse.json({ error: "Non connecté" }, { status: 401 });
     }
+    const cookieStore = await cookies();
 
     const today = new Date().toDateString();
 

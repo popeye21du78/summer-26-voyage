@@ -31,11 +31,16 @@ export async function uploadViagoFile(
 
 export async function getViagoStepFromApi(
   voyageId: string,
-  stepId: string
+  stepId: string,
+  options?: { ownerUserId?: string | null }
 ): Promise<ViagoStepContent | null> {
   const encV = encodeURIComponent(voyageId);
   const encS = encodeURIComponent(stepId);
-  const r = await fetch(`/api/viago/step/${encV}/${encS}`, { credentials: "same-origin" });
+  const o = options?.ownerUserId?.trim();
+  const q = o
+    ? `?owner=${encodeURIComponent(o)}`
+    : "";
+  const r = await fetch(`/api/viago/step/${encV}/${encS}${q}`, { credentials: "same-origin" });
   if (r.status === 404) return null;
   if (r.status === 503) return null;
   if (!r.ok) return null;
