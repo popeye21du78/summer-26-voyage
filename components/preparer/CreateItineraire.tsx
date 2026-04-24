@@ -394,7 +394,7 @@ export default function CreateItineraire() {
         <p className="font-courier text-[10px] font-bold uppercase tracking-[0.45em] text-[var(--color-accent-start)]">
           Récapitulatif
         </p>
-        <h1 className="mt-2 font-courier text-2xl font-bold leading-tight text-[var(--color-text-primary)]">
+        <h1 className="mt-2 font-title text-2xl font-bold leading-tight text-[var(--color-text-primary)]">
           {regionLabel}
         </h1>
 
@@ -608,7 +608,11 @@ function SortableStepRow({
         </span>
 
         <div className="min-w-0 flex-1">
-          <p className="truncate font-courier text-sm font-bold text-[var(--color-text-primary)]">
+          {/*
+           * Nom d'étape dans Préparer → police titre (user : « quand
+           * on clique sur préparer, les noms des villes, étapes »).
+           */}
+          <p className="truncate font-title text-base font-bold text-[var(--color-text-primary)]">
             {step.nom}
           </p>
           <p className="mt-0.5 truncate font-courier text-[10.5px] text-[var(--color-text-secondary)]">

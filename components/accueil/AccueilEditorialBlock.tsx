@@ -24,7 +24,11 @@ export default function AccueilEditorialBlock({
         >
           <Sparkles className="mt-0.5 h-4 w-4 shrink-0 text-[var(--color-accent-start)]/78" />
           <div className="min-w-0 flex-1">
-            <p className="font-courier text-[10px] font-bold uppercase tracking-[0.24em] text-white/46">
+            {/*
+             * Kicker « Pensée du jour » → police titre (user :
+             * « pensée du jour » doit être en titre).
+             */}
+            <p className="font-title text-[11px] font-bold uppercase tracking-[0.24em] text-white/70">
               Pensée du jour
             </p>
             <p className="mt-1 font-courier text-[13px] leading-snug text-white/82">
@@ -37,10 +41,10 @@ export default function AccueilEditorialBlock({
         <div className="flex items-start gap-3 rounded-2xl border border-white/10 bg-white/5 px-4 py-3 backdrop-blur-sm">
           <BookOpen className="mt-0.5 h-4 w-4 shrink-0 text-[var(--color-accent-start)]/70" />
           <div className="min-w-0 flex-1">
-            <p className="truncate font-courier text-[10px] font-bold uppercase tracking-[0.24em] text-white/46">
+            <p className="truncate font-title text-[11px] font-bold uppercase tracking-[0.24em] text-white/70">
               {editorialCard.kicker}
             </p>
-            <p className="mt-1 font-courier text-[13px] leading-snug text-white/84">
+            <p className="mt-1 font-title text-base font-bold leading-snug text-white/90">
               {editorialCard.title}
             </p>
             <p className="mt-1 line-clamp-2 font-courier text-xs leading-snug text-white/50">

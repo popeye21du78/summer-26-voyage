@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import Map, { Marker, Source, Layer } from "react-map-gl/mapbox";
 import "mapbox-gl/dist/mapbox-gl.css";
 
@@ -13,6 +13,27 @@ type Props = {
 
 export default function VoyageMapView({ steps, mapboxToken }: Props) {
   const mapRef = useRef<any>(null);
+
+  // Mapbox `paint` n'accepte PAS `var(--...)`. On résout donc la couleur
+  // d'accent au runtime (à partir de la variable CSS) et on la ré-évalue
+  // quand le moodboard change (attribut `data-moodboard` sur <html>).
+  const [accentHex, setAccentHex] = useState<string>("#e07856");
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const read = () => {
+      const raw = getComputedStyle(document.documentElement)
+        .getPropertyValue("--color-accent-start")
+        .trim();
+      if (raw) setAccentHex(raw);
+    };
+    read();
+    const mo = new MutationObserver(read);
+    mo.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ["data-moodboard", "data-font-preset", "class", "style"],
+    });
+    return () => mo.disconnect();
+  }, []);
 
   useEffect(() => {
     if (!mapRef.current || steps.length === 0) return;
@@ -71,7 +92,7 @@ export default function VoyageMapView({ steps, mapboxToken }: Props) {
             id="route-line"
             type="line"
             paint={{
-              "line-color": "var(--color-accent-start)",
+              "line-color": accentHex,
               "line-width": 3,
               "line-opacity": 0.7,
             }}
@@ -80,7 +101,7 @@ export default function VoyageMapView({ steps, mapboxToken }: Props) {
       )}
       {steps.map((s, i) => (
         <Marker key={s.id} longitude={s.lng} latitude={s.lat} anchor="center">
-          <div className="flex h-7 w-7 items-center justify-center rounded-full border-2 border-white bg-[var(--color-accent-start)] font-courier text-[10px] font-bold text-white shadow-lg">
+          <div className="flex h-7 w-7 items-center justify-center rounded-full border-2 border-white bg-[var(--color-accent-start)] font-title text-[10px] font-bold text-white shadow-lg">
             {i + 1}
           </div>
         </Marker>

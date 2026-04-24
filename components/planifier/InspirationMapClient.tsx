@@ -190,6 +190,30 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
 
     const [mapInstance, setMapInstance] = useState<MapboxMap | null>(null);
 
+    /**
+     * Mapbox n'accepte pas `var(--xxx)` dans les paint-properties : il faut
+     * lui passer un hex/rgb résolu. On lit la variable CSS à l'exécution et
+     * on la ré-évalue quand le moodboard change (attribut
+     * `data-moodboard` sur <html>).
+     */
+    const [accentHex, setAccentHex] = useState<string>("#e07856");
+    useEffect(() => {
+      if (typeof window === "undefined") return;
+      const read = () => {
+        const raw = getComputedStyle(document.documentElement)
+          .getPropertyValue("--color-accent-start")
+          .trim();
+        if (raw) setAccentHex(raw);
+      };
+      read();
+      const mo = new MutationObserver(read);
+      mo.observe(document.documentElement, {
+        attributes: true,
+        attributeFilter: ["data-moodboard", "data-font-preset", "class", "style"],
+      });
+      return () => mo.disconnect();
+    }, []);
+
     const none = "__none__";
     const sel = selectedRegionId ?? none;
 
@@ -279,7 +303,7 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
             ? ([
                 "case",
                 ["==", ["get", "id"], sel],
-                "var(--color-accent-start)",
+                accentHex,
                 "#6b6b6b",
               ] as const)
             : "#6e6e6e",
@@ -299,17 +323,17 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
             : 0.88,
           "line-blur": 0.12,
         }) as Record<string, unknown>,
-      [sel, dimOtherRegions]
+      [sel, dimOtherRegions, accentHex]
     );
 
     const starLinePaint = useMemo(
       () =>
         ({
-          "line-color": "var(--color-accent-start)",
+          "line-color": accentHex,
           "line-width": ["case", ["==", ["get", "hl"], 1], 5, 2.2],
           "line-opacity": 0.88,
         }) as Record<string, unknown>,
-      []
+      [accentHex]
     );
 
     const territoryPoiPaint = useMemo(() => {
@@ -341,7 +365,7 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
       if (!hl) {
         return {
           "circle-radius": zoomRadius,
-          "circle-color": "var(--color-accent-start)",
+          "circle-color": accentHex,
           "circle-stroke-width": 2,
           "circle-stroke-color": "#ffffff",
           "circle-opacity": zoomOpacity,
@@ -356,7 +380,7 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
           "case",
           ["==", ["get", "id"], hl],
           "#ff8a5c",
-          "var(--color-accent-start)",
+          accentHex,
         ],
         "circle-stroke-width": ["case", ["==", ["get", "id"], hl], 4, 2],
         "circle-stroke-color": "#fffef8",
@@ -365,7 +389,7 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
         "circle-opacity-transition": { duration: 320, delay: 0 },
         "circle-radius-transition": { duration: 320, delay: 0 },
       } as Record<string, unknown>;
-    }, [territoryPoiOpacity, highlightTerritoryId]);
+    }, [territoryPoiOpacity, highlightTerritoryId, accentHex]);
 
     useImperativeHandle(
       ref,
@@ -435,9 +459,14 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
       []
     );
 
-    useEffect(() => {
-      if (!regionsDataAugmented) setMapInstance(null);
-    }, [regionsDataAugmented]);
+    /**
+     * On ne remet PLUS `mapInstance` à null quand le GeoJSON disparaît.
+     * Ancien comportement : si les features partaient (ex. remount de la page),
+     * on forçait un remontage de la carte → tuile Mapbox re-téléchargée →
+     * « écran gris pâle » perçu comme un freeze. Désormais la carte reste
+     * montée tant que le composant est en vie, et les layers GeoJSON
+     * s'affichent quand la donnée est là (conditionnellement sur la JSX).
+     */
 
     useEffect(() => {
       if (!regionsDataAugmented || !mapInstance) return;
@@ -531,8 +560,13 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
             : ""
         }`}
       >
-        {regionsDataAugmented && (
-          <Map
+        {/*
+         * La carte Mapbox se monte IMMÉDIATEMENT (on n'attend plus les GeoJSON
+         * des régions pour afficher quelque chose). Les territoires viennent
+         * s'overlayer dès qu'ils sont chargés. Résultat : l'user voit la
+         * basemap tout de suite, plus d'écran gris pâle.
+         */}
+        <Map
             ref={mapRef}
             mapboxAccessToken={mapboxAccessToken}
             initialViewState={DEFAULT_VIEW}
@@ -551,9 +585,11 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
               onZoomRef.current?.(e.viewState.zoom);
             }}
           >
-            <Source id="insp-territories" type="geojson" data={regionsDataAugmented}>
-              <Layer id={FILL_LAYER_ID} type="fill" paint={fillPaint} />
-            </Source>
+            {regionsDataAugmented && (
+              <Source id="insp-territories" type="geojson" data={regionsDataAugmented}>
+                <Layer id={FILL_LAYER_ID} type="fill" paint={fillPaint} />
+              </Source>
+            )}
             {outlineData && outlineData.features.length > 0 && (
               <Source id="insp-territories-outline" type="geojson" data={outlineData}>
                 <Layer
@@ -665,16 +701,19 @@ const InspirationMapClient = forwardRef<InspirationMapExpose, InspirationMapClie
                 </Marker>
               ))}
           </Map>
+        {loadError && (
+          <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-[var(--color-bg-main)]/35 font-courier text-sm text-white/90">
+            Impossible de charger les régions.
+          </div>
         )}
-        {(loading || loadError || !regionsDataAugmented) && (
-          <div
-            className={`pointer-events-none absolute inset-0 flex items-center justify-center font-courier text-sm ${
-              regionsDataAugmented ? "bg-white/70" : "bg-[var(--color-bg-secondary)]/50"
-            } text-white/80/70`}
-          >
-            {loadError
-              ? "Impossible de charger les régions."
-              : "Chargement des régions…"}
+        {(loading || !regionsDataAugmented) && !loadError && (
+          /**
+           * Mini-pill « chargement » discret en haut à droite — l'ancien voile
+           * plein écran bloquait la vue de la basemap. Ici on laisse voir la
+           * carte tout en signalant que les régions arrivent bientôt.
+           */
+          <div className="pointer-events-none absolute right-3 top-3 rounded-full bg-[var(--color-bg-main)]/88 px-2.5 py-1 font-courier text-[10px] text-white/80 shadow backdrop-blur-sm">
+            Régions…
           </div>
         )}
         <div className="pointer-events-none absolute bottom-2 right-2 rounded bg-white/85 px-2 py-1 font-courier text-[10px] text-white/80/60">

@@ -45,7 +45,7 @@ export default function EspaceMotCreateur() {
       <MoodboardPicker />
 
       <div>
-        <h2 className="mb-4 flex items-center gap-2 font-courier text-sm font-bold uppercase tracking-wider text-[var(--color-accent-start)]">
+        <h2 className="mb-4 flex items-center gap-2 font-title text-base font-bold uppercase tracking-wider text-[var(--color-accent-start)]">
           <BookOpen className="h-4 w-4" />
           Mot du créateur
         </h2>
@@ -173,7 +173,7 @@ export default function EspaceMotCreateur() {
                   <p className="font-courier text-xs font-bold text-[var(--color-accent-start)]">
                     Article temporaire
                   </p>
-                  <h3 className="mt-1 font-courier text-sm font-bold text-white/88">
+                  <h3 className="mt-1 font-title text-base font-bold text-white/90">
                     {a.title}
                   </h3>
                   <p className="mt-1 font-courier text-xs text-white/65">

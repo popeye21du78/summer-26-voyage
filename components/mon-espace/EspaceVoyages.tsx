@@ -51,7 +51,7 @@ export default function EspaceVoyages({ state }: Props) {
       <div className="mb-5 flex items-center justify-between gap-3">
         <Link
           href="/preparer"
-          className="btn-orange-glow inline-flex flex-1 items-center justify-center gap-2 rounded-2xl py-3.5 font-courier text-sm font-bold text-white sm:flex-initial sm:px-8"
+          className="btn-orange-glow font-title inline-flex flex-1 items-center justify-center gap-2 rounded-2xl py-3.5 text-base font-bold uppercase tracking-wide text-white sm:flex-initial sm:px-8"
         >
           <Plus className="h-5 w-5" strokeWidth={2.2} />
           Nouveau voyage
@@ -64,7 +64,12 @@ export default function EspaceVoyages({ state }: Props) {
             key={t.id}
             type="button"
             onClick={() => setTab(t.id)}
-            className={`min-h-[44px] flex-1 rounded-xl px-2 py-2.5 font-courier text-xs font-bold uppercase tracking-wide transition sm:text-sm ${
+            /*
+             * Titres de sous-onglet (En cours / À venir / Souvenirs) →
+             * police titre (user : « les titres souvenirs, à venir,
+             * en cours »).
+             */
+            className={`min-h-[44px] flex-1 rounded-xl px-2 py-2.5 font-title text-sm font-bold uppercase tracking-wide transition sm:text-base ${
               tab === t.id
                 ? "bg-[var(--color-accent-start)] text-white shadow-md"
                 : "border border-white/12 bg-white/5 text-white/45 hover:border-white/20 hover:text-white/70"
@@ -154,7 +159,11 @@ function VoyageCard({
         ) : null}
       </div>
       <div className="flex min-w-0 flex-1 flex-col justify-center py-3 pr-3">
-        <p className="font-courier text-base font-bold leading-snug text-white/95">
+        {/*
+         * Nom du voyage = titre (user : « les noms des voyages » en
+         * police titre).
+         */}
+        <p className="font-title text-lg font-bold leading-snug text-white/95">
           {voyage.titre}
         </p>
         <p className="mt-1 font-courier text-sm text-white/40">{voyage.sousTitre}</p>
@@ -190,7 +199,7 @@ function CreatedVoyageCard({ voyage }: { voyage: CreatedVoyage }) {
         )}
       </div>
       <div className="flex min-w-0 flex-1 flex-col justify-center py-3 pr-3">
-        <p className="font-courier text-base font-bold leading-snug text-white/95">
+        <p className="font-title text-lg font-bold leading-snug text-white/95">
           {voyage.titre}
         </p>
         <p className="mt-1 font-courier text-sm text-white/40">{voyage.sousTitre}</p>

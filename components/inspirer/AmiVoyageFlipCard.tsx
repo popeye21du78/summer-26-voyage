@@ -8,7 +8,6 @@ import { MapPin, ChevronLeft, Sparkles } from "lucide-react";
 import { CityPhoto } from "@/components/CityPhoto";
 import type { Voyage } from "@/data/mock-voyages";
 import type { ResolvedStarStep } from "@/lib/inspiration/star-itinerary-geo";
-import { slugFromNom } from "@/lib/slug-from-nom";
 import { withReturnTo } from "@/lib/return-to";
 
 function buildAmiViagoReturn(here: string, voyageId: string): string {
@@ -191,27 +190,29 @@ function AmiVoyageFlipCardInner({
       className="relative w-full"
       style={{
         perspective: "1200px",
-        /** Verso plus compact pour éviter de devoir scroller immédiatement. */
-        minHeight: flipped ? "min(620px, 84vh)" : undefined,
-        transition: "min-height 600ms ease",
       }}
     >
+      {/**
+       * Verso = même format (aspect 3/4) que le recto — la demande user est
+       * explicite : la carte « se flippe » simplement, elle ne bascule pas
+       * vers un layout vertical avec villes sous le bouton. On contraint
+       * donc l'extérieur à aspect [3/4] et le verso remplit la même box.
+       */}
       <div
-        className="relative w-full transition-transform duration-700"
+        className="relative w-full aspect-[3/4] transition-transform duration-700"
         style={{
           transformStyle: "preserve-3d",
           transform: flipped ? "rotateY(180deg)" : "rotateY(0deg)",
-          height: flipped ? "min(620px, 84vh)" : "auto",
         }}
       >
         {/* Recto */}
         <button
           type="button"
-          className="relative w-full cursor-pointer overflow-hidden rounded-2xl border border-white/6 text-left shadow-lg shadow-black/30"
+          className="absolute inset-0 cursor-pointer overflow-hidden rounded-2xl border border-white/6 text-left shadow-lg shadow-black/30"
           style={{ backfaceVisibility: "hidden" }}
           onClick={() => setFlipped(true)}
         >
-          <div className="relative aspect-[3/4] w-full overflow-hidden bg-[var(--color-bg-secondary)]">
+          <div className="relative h-full w-full overflow-hidden bg-[var(--color-bg-secondary)]">
             {first ? (
               <CityPhoto
                 stepId={first.id}
@@ -237,7 +238,7 @@ function AmiVoyageFlipCardInner({
               <p className="font-courier text-[10px] font-bold uppercase tracking-[0.25em] text-[var(--color-accent-start)]">
                 Voyage d’un ami
               </p>
-              <h3 className="mt-1 font-courier text-lg font-bold leading-tight text-white">
+              <h3 className="font-title mt-1 text-2xl font-bold uppercase leading-tight tracking-wide text-white">
                 {voyage.titre}
               </h3>
               <p className="mt-1 line-clamp-2 font-courier text-xs text-white/45">
@@ -254,9 +255,13 @@ function AmiVoyageFlipCardInner({
         </button>
 
         {/*
-         * Verso : le recto contraint la hauteur (aspect 3/4). Si le contenu dépasse,
-         * on scrolle À L'INTÉRIEUR du verso (h-full + overflow-y-auto) pour que le
-         * bouton « Accéder au Viago » reste toujours atteignable.
+         * Verso : la CARTE remplit la totalité de la carte et ses MARQUEURS
+         * de villes sont affichés directement dessus (StarFlipMap). Au-dessus
+         * de la carte, en overlay, on pose : le bouton retour, une petite
+         * strip de vignettes villes (sélecteur d'étape), et le CTA « Voir le
+         * viago ». Plus aucun contenu n'est déporté SOUS la carte — la
+         * demande user était explicite : « la carte doit juste se flipper
+         * et garder le même format ».
          */}
         <div
           className="absolute inset-0 w-full overflow-hidden rounded-2xl border border-white/6 bg-[var(--color-bg-main)] shadow-lg"
@@ -265,98 +270,98 @@ function AmiVoyageFlipCardInner({
             transform: "rotateY(180deg)",
           }}
         >
-          <div className="flex h-full min-h-0 flex-col overflow-y-auto overscroll-y-contain pb-[max(1rem,env(safe-area-inset-bottom))]">
-            <div className="shrink-0 border-b border-white/6 bg-[var(--color-bg-main)]">
-              <div className="relative aspect-[2/1] min-h-[120px] w-full max-h-[min(28vh,260px)]">
-                {flipped && resolvedSteps.length > 0 && token ? (
-                  <AmiMapErrorBoundary>
-                    <StarFlipMap
-                      steps={resolvedSteps}
-                      activeStepIndex={safeActiveStep}
-                      mapboxToken={token}
-                    />
-                  </AmiMapErrorBoundary>
-                ) : (
-                  <div className="flex h-full items-center justify-center bg-[var(--color-bg-secondary)]">
-                    <MapPin className="h-10 w-10 text-[var(--color-accent-start)]/20" />
-                  </div>
-                )}
+          <div className="absolute inset-0">
+            {flipped && resolvedSteps.length > 0 && token ? (
+              <AmiMapErrorBoundary>
+                <StarFlipMap
+                  steps={resolvedSteps}
+                  activeStepIndex={safeActiveStep}
+                  mapboxToken={token}
+                  // Overlay bas = vignettes villes (~88px) + gap + CTA (~48px) + padding (16px) ≈ 180px.
+                  // On pousse à 200 pour que la route finisse TOUJOURS au-dessus des vignettes
+                  // (user : « le voyage s'achève sous les cartes des villes »).
+                  bottomInsetPx={200}
+                  topInsetPx={48}
+                />
+              </AmiMapErrorBoundary>
+            ) : (
+              <div className="flex h-full items-center justify-center bg-[var(--color-bg-secondary)]">
+                <MapPin className="h-10 w-10 text-[var(--color-accent-start)]/20" />
+              </div>
+            )}
+          </div>
+
+          {/* Bouton retour en haut à gauche */}
+          <button
+            type="button"
+            onClick={() => {
+              clearAmiFlipFromUrl();
+              setActiveStep(0);
+              setFlipped(false);
+            }}
+            className="absolute left-3 top-3 z-30 rounded-xl bg-black/55 p-1.5 text-white shadow backdrop-blur-sm"
+            aria-label="Retour"
+          >
+            <ChevronLeft className="h-4 w-4" />
+          </button>
+
+          {/*
+           * Bande bas : vignettes villes + CTA viago en overlay sur la
+           * carte. Dégradé renforcé (from-black/90 via-black/55 jusqu'à
+           * transparent) pour harmoniser avec la section Stars et
+           * garantir la lisibilité des vignettes même sur fond clair.
+           */}
+          <div className="pointer-events-none absolute inset-x-0 bottom-0 z-20 flex flex-col gap-2 bg-gradient-to-t from-black/92 via-black/55 to-transparent px-3 pb-3 pt-8">
+            <div
+              ref={carouselRef}
+              className="pointer-events-auto flex gap-2 overflow-x-auto pb-1 scrollbar-hide"
+            >
+              {stepsForStrip.map((step, i) => (
                 <button
+                  key={`${step.slug || "step"}-${i}`}
                   type="button"
-                  onClick={() => {
-                    clearAmiFlipFromUrl();
-                    setActiveStep(0);
-                    setFlipped(false);
-                  }}
-                  className="absolute left-3 top-3 z-30 rounded-xl bg-black/50 p-1.5 text-white/70 backdrop-blur-sm"
-                  aria-label="Retour"
+                  onClick={() => scrollToStep(i)}
+                  className={`relative shrink-0 overflow-hidden rounded-xl transition-all duration-300 ${
+                    safeActiveStep === i
+                      ? "ring-2 ring-[var(--color-accent-start)] ring-offset-1 ring-offset-black/40"
+                      : "opacity-60 hover:opacity-90"
+                  }`}
+                  /**
+                   * Vignettes agrandies (user : « augmente un peu la
+                   * taille de ces cartes ») : 72x100 — aligné sur la
+                   * strip StarFlipDetail pour harmoniser le visuel
+                   * avec la section Stars.
+                   */
+                  style={{ width: "72px", height: "100px" }}
                 >
-                  <ChevronLeft className="h-4 w-4" />
+                  <CityPhoto
+                    stepId={step.slug || `ami-${i}`}
+                    ville={step.nom || ""}
+                    alt={step.nom || ""}
+                    className="absolute inset-0 h-full w-full object-cover"
+                    initialUrl={
+                      stepsList.find((s) => s?.id === step.slug)?.contenu_voyage
+                        ?.photos?.[0]
+                    }
+                    imageLoading="lazy"
+                  />
+                  <div className="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/95 to-transparent px-1 py-1 text-center font-courier text-[9px] font-bold leading-tight text-white">
+                    {step.nom || "—"}
+                  </div>
                 </button>
-              </div>
+              ))}
             </div>
 
-            <div className="relative border-b border-white/6 bg-[var(--color-bg-main)] py-3">
-              <p className="mb-2 px-4 font-courier text-[9px] font-bold uppercase tracking-wider text-[var(--color-accent-start)]/70">
-                Étapes
-              </p>
-              <div
-                ref={carouselRef}
-                className="flex gap-2.5 overflow-x-auto px-4 pb-1 scrollbar-hide"
-              >
-                {stepsForStrip.map((step, i) => (
-                  <button
-                    key={`${step.slug || "step"}-${i}`}
-                    type="button"
-                    onClick={() => scrollToStep(i)}
-                    className={`relative shrink-0 overflow-hidden rounded-xl ${
-                      safeActiveStep === i
-                        ? "ring-2 ring-[var(--color-accent-start)]"
-                        : "opacity-60 hover:opacity-90"
-                    }`}
-                    style={{ width: "72px", height: "100px" }}
-                  >
-                    <CityPhoto
-                      stepId={step.slug || `ami-${i}`}
-                      ville={step.nom || ""}
-                      alt={step.nom || ""}
-                      className="absolute inset-0 h-full w-full object-cover"
-                      initialUrl={
-                        stepsList.find((s) => s?.id === step.slug)?.contenu_voyage
-                          ?.photos?.[0]
-                      }
-                      imageLoading="lazy"
-                    />
-                    <div className="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/90 to-transparent p-1.5 text-center font-courier text-[8px] font-bold text-white">
-                      {step.nom || "—"}
-                    </div>
-                  </button>
-                ))}
-              </div>
-            </div>
-
-            <div className="shrink-0 space-y-3 px-4 py-3">
-              <Link
-                href={withReturnTo(
-                  `/inspirer/ville/${slugFromNom(stepsForStrip[safeActiveStep]?.nom ?? "")}?from=amis`,
-                  here
-                )}
-                className="flex items-center gap-2 font-courier text-sm font-bold text-[var(--color-accent-start)] hover:underline"
-              >
-                <MapPin className="h-4 w-4" />
-                Voir {stepsForStrip[safeActiveStep]?.nom ?? "la ville"}
-              </Link>
-              <Link
-                href={withReturnTo(
-                  `/mon-espace/viago/${voyage.id}?mode=readonly`,
-                  buildAmiViagoReturn(here, voyage.id)
-                )}
-                className="btn-orange-glow flex w-full items-center justify-center gap-2 rounded-xl py-3 font-courier text-sm font-bold text-white"
-              >
-                <Sparkles className="h-4 w-4 shrink-0" />
-                Accéder au Viago
-              </Link>
-            </div>
+            <Link
+              href={withReturnTo(
+                `/mon-espace/viago/${voyage.id}?mode=readonly`,
+                buildAmiViagoReturn(here, voyage.id)
+              )}
+              className="btn-orange-glow pointer-events-auto flex w-full items-center justify-center gap-2 rounded-xl py-2.5 font-courier text-sm font-bold text-white"
+            >
+              <Sparkles className="h-4 w-4 shrink-0" />
+              Voir le viago
+            </Link>
           </div>
         </div>
       </div>

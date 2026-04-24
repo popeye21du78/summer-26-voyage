@@ -85,26 +85,26 @@ export default function HomeProfilStatsSection({
           </div>
           <dl className="grid grid-cols-3 gap-3 border-t border-[var(--color-accent-start)]/15 pt-4 text-center">
             <div>
-              <dt className="font-courier text-[10px] font-bold uppercase tracking-wider text-[#2a211c]/60">
+              <dt className="font-title text-[11px] font-bold uppercase tracking-wider text-[#2a211c]/70">
                 Voyages
               </dt>
-              <dd className="font-courier text-2xl font-bold text-[var(--color-accent-start)]">
+              <dd className="font-title text-2xl font-bold text-[var(--color-accent-start)]">
                 {voyagesCount}
               </dd>
             </div>
             <div>
-              <dt className="font-courier text-[10px] font-bold uppercase tracking-wider text-[#2a211c]/60">
+              <dt className="font-title text-[11px] font-bold uppercase tracking-wider text-[#2a211c]/70">
                 km (carnets clos)
               </dt>
-              <dd className="font-courier text-2xl font-bold text-[var(--color-accent-start)]">
+              <dd className="font-title text-2xl font-bold text-[var(--color-accent-start)]">
                 {km > 0 ? km : "—"}
               </dd>
             </div>
             <div>
-              <dt className="font-courier text-[10px] font-bold uppercase tracking-wider text-[#2a211c]/60">
+              <dt className="font-title text-[11px] font-bold uppercase tracking-wider text-[#2a211c]/70">
                 Budget ref.
               </dt>
-              <dd className="font-courier text-2xl font-bold text-[var(--color-accent-start)]">
+              <dd className="font-title text-2xl font-bold text-[var(--color-accent-start)]">
                 {budget > 0 ? `${budget} €` : "—"}
               </dd>
             </div>

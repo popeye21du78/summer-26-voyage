@@ -229,8 +229,6 @@ export default function ViagoSection({
 }: Props) {
   const ref = useRef<HTMLElement>(null);
   const heroFileRef = useRef<HTMLInputElement>(null);
-  /** Input fichier global pour l'ajout de photo rapide depuis la galerie (bypass du click dans l'éditeur). */
-  const quickAddFileRef = useRef<HTMLInputElement>(null);
   const isInView = useInView(ref, { once: true, amount: 0.15 });
   const [content, setContent] = useState<ViagoStepContent | null>(null);
   const [showAddAnecdote, setShowAddAnecdote] = useState(false);
@@ -274,15 +272,6 @@ export default function ViagoSection({
       textPosition: "overlay-bottom",
     });
     setShowVisualPhotoEditor(true);
-  };
-
-  /**
-   * Raccourci galerie : ouvre directement le sélecteur de photos du téléphone.
-   * Une fois la photo compressée, l'éditeur s'ouvre pré-rempli — l'utilisateur
-   * peut immédiatement ajouter un texte par-dessus (bouton « Texte »).
-   */
-  const triggerQuickAddFromGallery = () => {
-    quickAddFileRef.current?.click();
   };
 
   const openEditPhoto = (idx: number) => {
@@ -585,45 +574,14 @@ export default function ViagoSection({
 
         {!readOnly && (
           <div className="mb-6 flex flex-wrap gap-2">
-            <input
-              ref={quickAddFileRef}
-              type="file"
-              accept="image/*,.heic,.heif"
-              className="sr-only"
-              aria-hidden
-              onClick={(e) => {
-                (e.currentTarget as HTMLInputElement).value = "";
-              }}
-              onChange={async (e) => {
-                const f = e.target.files?.[0];
-                if (!f?.type.startsWith("image/")) return;
-                try {
-                  const dataUrl = await compressImageFileToDataUrl(f);
-                  openVisualEditorForNew(dataUrl);
-                } catch {
-                  /* ignore */
-                } finally {
-                  /** Reset pour pouvoir re-uploader la même photo plus tard. */
-                  if (quickAddFileRef.current) quickAddFileRef.current.value = "";
-                }
-              }}
-            />
             <button
               type="button"
-              onClick={triggerQuickAddFromGallery}
+              onClick={() => openVisualEditorForNew()}
               className="inline-flex items-center gap-2 rounded-full px-5 py-2.5 font-courier text-sm font-bold text-white shadow-lg transition hover:scale-[1.02] hover:brightness-105"
               style={{ background: "var(--gradient-cta)" }}
             >
               <Image className="h-4 w-4" />
-              Photo depuis la galerie
-            </button>
-            <button
-              type="button"
-              onClick={() => openVisualEditorForNew()}
-              className="inline-flex items-center gap-2 rounded-full border border-[var(--color-accent-line-50)] bg-white/5 px-5 py-2.5 font-courier text-sm font-bold text-[var(--color-accent-start)] transition hover:scale-[1.02] hover:bg-white/10"
-            >
-              <Image className="h-4 w-4" />
-              Éditeur avancé
+              Ajouter une photo
             </button>
             <button
               type="button"
@@ -631,7 +589,7 @@ export default function ViagoSection({
                 setShowAddAnecdote(true);
                 setAnecdoteDraft(anecdote);
               }}
-              className="inline-flex items-center gap-2 rounded-full border-2 border-[var(--color-accent-line-50)] bg-white px-5 py-2.5 font-courier text-sm font-bold text-[var(--color-accent-start)] shadow-sm transition hover:scale-[1.02] hover:border-[var(--color-accent-start)] hover:bg-[var(--color-bg-secondary)]"
+              className="inline-flex items-center gap-2 rounded-full border-2 border-[var(--color-accent-line-50)] bg-white/5 px-5 py-2.5 font-courier text-sm font-bold text-[var(--color-accent-start)] shadow-sm transition hover:scale-[1.02] hover:bg-white/10"
             >
               <FileText className="h-4 w-4" />
               {anecdote ? "Modifier l'anecdote" : "Ajouter une anecdote"}

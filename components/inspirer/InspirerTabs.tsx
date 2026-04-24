@@ -88,25 +88,58 @@ function InspirerTabsInner({
   const [starsSearch, setStarsSearch] = useState("");
   const [amisSearch, setAmisSearch] = useState("");
 
-  /** Rétracter la TopBar (recherche + filtres + favoris) quand on descend,
-   *  la remontrer quand on remonte. Ignoré sur l'onglet carte (pas de scroll). */
+  /**
+   * Rétractation naturelle de la TopBar (recherche + filtres + favoris)
+   * sur scroll descendant, réapparition sur scroll montant. L'ancienne
+   * version flippait constamment (seuil delta > 6px) → catastrophe UX.
+   *
+   * Approche v2 (hystérésis accumulée) :
+   *   - tant que scrollTop < ALWAYS_SHOW : TopBar TOUJOURS visible
+   *   - sinon, on accumule le delta dans la direction courante et on
+   *     déclenche le hide UNIQUEMENT après HIDE_AFTER px en continu vers
+   *     le bas, et le show UNIQUEMENT après SHOW_AFTER px en continu vers
+   *     le haut. Tout changement de direction remet l'accumulateur à zéro.
+   *   - résultat : pas de flip frénétique sur micro-scrolls, pas de
+   *     disparition « à la moindre touche » — l'utilisateur doit
+   *     manifester une intention claire.
+   */
   const [topBarHidden, setTopBarHidden] = useState(false);
   const lastScrollYRef = useRef(0);
+  const accumDownRef = useRef(0);
+  const accumUpRef = useRef(0);
   const handleTabScroll = useCallback((e: ReactUIEvent<HTMLDivElement>) => {
     const target = e.currentTarget;
     if (!target) return;
     const y = target.scrollTop;
     const delta = y - lastScrollYRef.current;
-    if (Math.abs(delta) > 6) {
-      if (delta > 0 && y > 72) setTopBarHidden(true);
-      else if (delta < 0) setTopBarHidden(false);
-      lastScrollYRef.current = y;
+    lastScrollYRef.current = y;
+
+    const ALWAYS_SHOW = 48;
+    const HIDE_AFTER = 90;
+    const SHOW_AFTER = 36;
+
+    if (y < ALWAYS_SHOW) {
+      accumDownRef.current = 0;
+      accumUpRef.current = 0;
+      setTopBarHidden(false);
+      return;
+    }
+
+    if (delta > 0) {
+      accumDownRef.current += delta;
+      accumUpRef.current = 0;
+      if (accumDownRef.current > HIDE_AFTER) setTopBarHidden(true);
+    } else if (delta < 0) {
+      accumUpRef.current += -delta;
+      accumDownRef.current = 0;
+      if (accumUpRef.current > SHOW_AFTER) setTopBarHidden(false);
     }
   }, []);
   useEffect(() => {
-    /** Au changement d'onglet, on ré-affiche la TopBar pour ne pas piéger l'user. */
     setTopBarHidden(false);
     lastScrollYRef.current = 0;
+    accumDownRef.current = 0;
+    accumUpRef.current = 0;
   }, [active]);
 
   /**
@@ -282,11 +315,15 @@ function InspirerTabsInner({
 
       <InspirerRegionFromUrl active={active} initialRegion={initialRegion} />
 
-      {/* Hauteur mini viewport : onglets + TopBar (Hub, recherche, filtres, favoris) */}
-      <div
-        className="relative z-0 min-h-0 flex-1 overflow-hidden"
-        style={{ minHeight: "100dvh" }}
-      >
+      {/**
+       * Conteneur du tab panel actif.
+       * - Pas de `z-0` → pas de stacking context → la sheet région peut
+       *   passer AU-DESSUS de la top nav (z-120) en plein écran.
+       * - Pas de `minHeight: 100dvh` → le conteneur ne dépasse plus la zone
+       *   disponible (flex-1 suffit) sinon la page carte devenait
+       *   scrollable et la top nav disparaissait en haut.
+       */}
+      <div className="relative min-h-0 flex-1 overflow-hidden">
         <TabPanel
           visible={active === "carte"}
           mounted={mountedTabs.carte}
@@ -380,7 +417,17 @@ function TabPanel({
 
   const base = "var(--viago-top-nav-h)";
   const extra = scrollPaddingTopPx ?? 0;
+  /**
+   * L'inner wrapper est en flex-col avec `minHeight: 100%` (PAS `100dvh` :
+   * on ne veut pas faire scroller la page en-dehors de la fenêtre visible,
+   * sinon la top nav disparait). Le `flex-col` permet aux enfants qui
+   * utilisent `flex-1` (InspirerStars / InspirerAmis) d'avoir une hauteur
+   * concrète, ce qui résout le bug « rien n'apparaît dans s'inspirer »
+   * (sans flex-col + minHeight, `h-full` sur les enfants tombait à 0px
+   * parce que le parent n'avait pas de hauteur définie).
+   */
   const innerStyle: React.CSSProperties = {
+    minHeight: "100%",
     paddingTop: extra > 0 ? `calc(${base} + ${extra}px)` : base,
     transition: "padding-top 420ms cubic-bezier(0.32, 0.72, 0.25, 1)",
   };
@@ -394,7 +441,9 @@ function TabPanel({
         display: visible ? "block" : "none",
       }}
     >
-      <div style={innerStyle}>{children}</div>
+      <div className="flex min-h-full flex-col" style={innerStyle}>
+        {children}
+      </div>
     </div>
   );
 }

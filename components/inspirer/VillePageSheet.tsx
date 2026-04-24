@@ -101,25 +101,42 @@ export default function VillePageSheet({
         animate={closing ? { y: "100%" } : { y: 0 }}
         transition={
           closing
-            ? { type: "tween", duration: 0.22, ease: [0.32, 0.72, 0.25, 1] }
+            ? { type: "tween", duration: 0.26, ease: [0.32, 0.72, 0.25, 1] }
             : { type: "spring", damping: 32, stiffness: 300, mass: 0.85 }
         }
         style={{ y }}
         className="fixed inset-0 z-[185] flex flex-col overflow-hidden rounded-t-3xl bg-[var(--color-bg-main)] shadow-[0_-28px_60px_rgba(0,0,0,0.55)]"
       >
         {/**
-         * Poignée de drag : SEUL élément qui reçoit le drag.
-         * Scrollable enfant n'est PAS drag-enabled → conflit pinch/scroll résolu.
+         * Contenu scrollable plein cadre (la photo ville monte TOUT EN HAUT,
+         * comme pour la fiche région). La poignée de drag est absolute et
+         * repose SUR la photo (même langage visuel que la sheet région).
+         */}
+        <div className="min-h-0 flex-1 overflow-y-auto overscroll-contain">
+          {children}
+        </div>
+
+        {/**
+         * Poignée overlay — un petit pill gris posé sur la photo.
+         *
+         * ⚠️ On utilise `onPan*` plutôt que `drag` : avec `drag`, framer
+         * appliquait à la poignée sa PROPRE translation, EN PLUS de celle
+         * du parent qui utilise `y`. Résultat : la poignée avait l'air
+         * de descendre DEUX FOIS plus vite que le contenu (« barre qui
+         * se replie plus vite que la ville »).
+         * `onPan` rapporte juste les offsets sans toucher au style :
+         * seule la sheet parent translate → handle et photo descendent
+         * à la même vitesse, effet d'un seul bloc.
          */}
         <motion.div
-          drag="y"
-          dragConstraints={{ top: 0, bottom: 0 }}
-          dragElastic={{ top: 0, bottom: 0.55 }}
-          onDrag={(_, info) => {
+          onPanStart={() => {
+            y.stop();
+          }}
+          onPan={(_, info) => {
             if (info.offset.y > 0) y.set(info.offset.y);
           }}
-          onDragEnd={onDragEnd}
-          className="relative z-10 flex h-9 shrink-0 items-center justify-center bg-[var(--color-bg-main)] pt-2"
+          onPanEnd={onDragEnd}
+          className="pointer-events-auto absolute inset-x-0 top-0 z-30 flex h-12 cursor-grab touch-none select-none items-start justify-center bg-gradient-to-b from-black/45 via-black/15 to-transparent pt-2.5 active:cursor-grabbing"
           aria-label="Poignée — glisser vers le bas pour fermer"
           role="button"
           tabIndex={0}
@@ -127,16 +144,8 @@ export default function VillePageSheet({
             if (e.key === "Enter" || e.key === " ") close();
           }}
         >
-          <span className="h-1 w-14 rounded-full bg-white/35 shadow-[0_1px_6px_rgba(0,0,0,0.35)] ring-1 ring-white/10" />
+          <span className="h-1 w-14 rounded-full bg-black/55 shadow-[0_4px_14px_rgba(0,0,0,0.55)] ring-1 ring-black/35" />
         </motion.div>
-
-        {/**
-         * Contenu scrollable : overflow-y-auto + overscroll-contain pour que
-         * le bounce iOS ne déclenche pas un close accidentel.
-         */}
-        <div className="min-h-0 flex-1 overflow-y-auto overscroll-contain">
-          {children}
-        </div>
       </motion.div>
     </>
   );

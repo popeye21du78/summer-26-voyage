@@ -112,18 +112,54 @@ html {
   overscroll-behavior-x: none;
 }
 
-.font-courier {
+/**
+ * Règles typographiques globales.
+ *
+ * Le produit définit DEUX polices personnalisables par moodboard :
+ *   --font-content : police de corps (paragraphes, labels, CTA courants)
+ *   --font-title   : police de titres (city names, hero titles, onglets majuscules)
+ *
+ * Historiquement beaucoup de titres dans l'app ont la classe `.font-courier`
+ * (qui est elle-même une relique des premières versions en Courier). Cette classe
+ * écrasait — par specificité (0,1,0) vs (0,0,1) — le réglage des balises
+ * `h1/h2/h3`. Résultat : tous les titres finissaient en police de corps.
+ *
+ * Pour corriger sans devoir réécrire tous les composants :
+ *   1. `.font-courier` → police de corps UNIQUEMENT hors contexte titre
+ *      (on utilise `:where(...)` pour une specificité nulle).
+ *   2. Les balises de titres ET la classe utilitaire `.font-title`
+ *      utilisent toujours `--font-title`, même en présence de `.font-courier`
+ *      (on met la règle plus bas dans le document pour qu'elle gagne).
+ *   3. Pour forcer en un coup un bloc à utiliser la police de titre sur une
+ *      balise neutre (`span`, `div`) on expose `.text-title`.
+ */
+:where(.font-courier) {
   font-family: var(--font-content);
-}
-
-.font-title {
-  font-family: var(--font-title);
 }
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5,
+h6,
+.font-title,
+.text-title {
   font-family: var(--font-title), var(--font-content);
+}
+
+/* Harmonisation : tous les titres suivent un tracking cohérent + la bonne police
+   même quand la classe `.font-courier` les accompagne encore dans le JSX. */
+h1.font-courier,
+h2.font-courier,
+h3.font-courier,
+h4.font-courier,
+h5.font-courier,
+h6.font-courier,
+.font-title.font-courier,
+.text-title.font-courier {
+  font-family: var(--font-title), var(--font-content);
+  letter-spacing: 0.02em;
 }
 
 .page-under-header {
@@ -773,49 +809,42 @@ input[type="number"].no-spinner::-webkit-inner-spin-button {
 }
 
 /**
- * Rétraction de la TopBar (recherche + filtres + favoris) sur scroll descendant.
+ * Rétractation de la TopBar (recherche + filtres + favoris) sur scroll.
  *
- * Timings rallongés et easing "ios" (cubic-bezier soft out) pour éviter la
- * coupure d'affichage que l'user trouvait gênante : avant, le max-height
- * s'effaçait en 220ms, ce qui donnait une impression de page qui "accélère"
- * sous les yeux. À 420ms avec un easing doux, la sortie est perçue comme
- * progressive et le contenu qui remonte n'est plus brutal.
+ * v2 : on ne touche PLUS à `max-height` (coûteux, déclenche un reflow,
+ * transition peu fluide) et on se contente de `transform` + `opacity` —
+ * deux propriétés GPU-accélérées qui produisent un glissement doux
+ * indiscernable d'une vraie sticky-hide iOS.
+ *
+ * L'hystérésis (HIDE_AFTER / SHOW_AFTER dans InspirerTabs) garantit que
+ * l'état ne bascule plus 10 fois par seconde quand l'user scrolle
+ * naturellement.
  */
 .inspirer-topbar-collapse {
   position: relative;
   z-index: 100;
   flex-shrink: 0;
-  overflow: hidden;
-  max-height: 320px;
   transition:
-    max-height 420ms cubic-bezier(0.32, 0.72, 0.25, 1),
-    opacity 320ms cubic-bezier(0.32, 0.72, 0.25, 1),
-    transform 420ms cubic-bezier(0.32, 0.72, 0.25, 1);
+    opacity 220ms cubic-bezier(0.32, 0.72, 0.25, 1),
+    transform 260ms cubic-bezier(0.32, 0.72, 0.25, 1);
   transform: translateY(0);
   opacity: 1;
-  will-change: max-height, transform, opacity;
+  will-change: transform, opacity;
 }
 
 .inspirer-topbar-collapse--hidden {
-  max-height: 0;
   opacity: 0;
-  transform: translateY(-12px);
+  transform: translateY(-16px);
   pointer-events: none;
 }
 
 /**
- * Top tabs — capsule verre UNIFORME avec la bottom nav.
+ * Top tabs — STRICTE parité visuelle avec la bottom nav.
  *
- * Le wrap est désormais en `position: absolute` + `pointer-events:none` →
- * il n'occupe PAS d'espace dans le flex layout, ce qui permet au contenu
- * de défiler directement derrière la capsule verre (effet demandé par l'user :
- * "les contenus défilent en transparence derrière la nav du haut").
- * Seule la pill capsule intérieure est opaque/interactive.
- *
- * La valeur `--viago-top-nav-h` est exposée pour que les containers qui
- * l'englobent (InspirerTabs, MonEspaceShell) appliquent un `padding-top`
- * suffisant — sinon la première ligne de contenu serait cachée derrière
- * la nav à scroll=0.
+ * Mêmes paddings, même capsule vitrée, même capsule active "éclairante"
+ * (demande produit explicite : « exactement la même structure, même épaisseur,
+ * mêmes effets »). On duplique simplement les classes bottom-nav-* vers
+ * viago-top-tabs-* pour que la moindre retouche soit immédiatement alignée.
  */
 :root {
   --viago-top-nav-h: calc(env(safe-area-inset-top, 0px) + 72px);
@@ -826,39 +855,27 @@ input[type="number"].no-spinner::-webkit-inner-spin-button {
   inset-inline: 0;
   top: 0;
   z-index: 120;
-  padding: calc(env(safe-area-inset-top, 0px) + 8px) 16px 10px;
-  border-bottom: none;
-  background: transparent;
-  /**
-   * Fin flou sur toute la largeur en haut de l'écran → quand le contenu défile
-   * il passe DERRIÈRE un voile légèrement flouté (effet liquid glass iOS) avant
-   * d'atteindre la capsule. Demande user : « les contenus doivent défiler en
-   * arrière-plan derrière la top nav ».
-   */
-  backdrop-filter: blur(14px) saturate(140%);
-  -webkit-backdrop-filter: blur(14px) saturate(140%);
-  /**
-   * `mask-image` limite l'effet au sommet de la wrap : la partie basse redevient
-   * transparente/nette pour que le contenu qui n'est pas encore sous la nav
-   * reste parfaitement lisible (dégradé vertical progressif du flou).
-   */
-  -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 70%, transparent 100%);
-  mask-image: linear-gradient(to bottom, #000 0%, #000 70%, transparent 100%);
+  padding: calc(env(safe-area-inset-top, 0px) + 12px) 16px 10px;
   pointer-events: none;
 }
 
-/** Voile dégradé derrière le top-nav — éclaircit le haut sans barre opaque franche. */
+/**
+ * Voile dégradé très léger pour que le contenu qui scrolle sous la top nav
+ * reste lisible sans masquer la capsule vitrée. Symétrique au fond diffus
+ * derrière la bottom nav (.bottom-nav-shell::before).
+ */
 .viago-top-tabs-wrap::before {
   content: "";
   position: absolute;
-  inset: 0 0 auto 0;
+  inset-inline: 0;
+  top: 0;
   height: calc(100% + 18px);
   pointer-events: none;
   z-index: -1;
   background: linear-gradient(
     to bottom,
-    color-mix(in srgb, var(--color-bg-main) 62%, transparent) 0%,
-    color-mix(in srgb, var(--color-bg-main) 28%, transparent) 55%,
+    color-mix(in srgb, var(--color-bg-main) 72%, transparent) 0%,
+    color-mix(in srgb, var(--color-bg-main) 32%, transparent) 55%,
     transparent 100%
   );
 }
@@ -870,11 +887,6 @@ input[type="number"].no-spinner::-webkit-inner-spin-button {
   align-items: stretch;
   max-width: 28rem;
   margin: 0 auto;
-  /**
-   * Strict parity avec .bottom-nav-shell-inner (padding 8px 10px, min-height 56px)
-   * pour que la top nav et la bottom nav aient EXACTEMENT la même largeur/hauteur :
-   * l'user a explicitement demandé l'uniformité visuelle.
-   */
   min-height: 56px;
   padding: 8px 10px;
   gap: 4px;
@@ -891,8 +903,8 @@ input[type="number"].no-spinner::-webkit-inner-spin-button {
   -webkit-backdrop-filter: blur(24px) saturate(140%);
   border: 1px solid var(--color-glass-border);
   box-shadow:
-    0 14px 30px var(--color-shadow),
-    0 3px 8px rgba(0, 0, 0, 0.2),
+    0 18px 38px var(--color-shadow),
+    0 4px 10px rgba(0, 0, 0, 0.22),
     inset 0 1px 0 var(--color-glass-highlight),
     inset 0 -1px 0 rgba(0, 0, 0, 0.18);
 }
@@ -934,18 +946,19 @@ input[type="number"].no-spinner::-webkit-inner-spin-button {
 }
 
 .viago-top-tab[aria-selected="true"] {
-  z-index: 1;
   color: var(--color-accent-start);
 }
 
 /**
- * Capsule verre active de la top nav — rendue par un élément motion partagé
- * (layoutId), ce qui permet sa transition entre onglets.
+ * Capsule ACTIVE — strictement identique à `.bottom-nav-active-pill`.
+ * L'user a précisé que l'onglet actif doit visuellement « s'éclaircir »
+ * (pas s'assombrir) : on garde un fond vitré légèrement + clair que la
+ * capsule mère (color-glass-active-bg + halo chaud interne).
  */
 .viago-top-tab-active-pill {
   position: absolute;
   inset: 0;
-  z-index: 0;
+  z-index: -1;
   border-radius: var(--radius-pill);
   background: var(--color-glass-active-bg);
   backdrop-filter: blur(28px);
@@ -973,11 +986,7 @@ input[type="number"].no-spinner::-webkit-inner-spin-button {
   pointer-events: none;
 }
 
-/**
- * Point de lumière accent sous l'onglet actif — identique à .bottom-nav-local-light.
- * Rendu par un élément motion partagé, donc n'est affiché que quand actif
- * (pas besoin d'opacity conditionnelle).
- */
+/** Halo chaud sous l'onglet actif — mêmes valeurs que .bottom-nav-local-light. */
 .viago-top-tab-glow {
   position: absolute;
   width: 4.5rem;
@@ -991,7 +1000,7 @@ input[type="number"].no-spinner::-webkit-inner-spin-button {
     transparent 72%
   );
   pointer-events: none;
-  z-index: 0;
+  z-index: -1;
   opacity: 0.5;
 }
 
@@ -1022,9 +1031,12 @@ input[type="number"].no-spinner::-webkit-inner-spin-button {
   gap: 0.5rem;
   border-radius: var(--radius-lg);
   padding: 1rem 1.25rem;
-  font-family: var(--font-courier), monospace;
+  /* CTA principal = texte « Commencer un voyage / Explorer des idées /
+     Préparer ce voyage… » : l'user veut la police de titre ici, pas le corps. */
+  font-family: var(--font-title), var(--font-content);
   font-size: 1rem;
   font-weight: 700;
+  letter-spacing: 0.01em;
   color: #fffaf7;
   background: var(--gradient-cta);
   box-shadow:
@@ -1052,9 +1064,12 @@ input[type="number"].no-spinner::-webkit-inner-spin-button {
   border: 2px solid color-mix(in srgb, var(--color-accent-start) 38%, transparent);
   background: color-mix(in srgb, #fffaf7 82%, var(--color-bg-secondary));
   padding: 0.875rem 1.25rem;
-  font-family: var(--font-courier), monospace;
+  /* CTA secondaire = texte « Commencer un voyage / Nouveau voyage… » :
+     même règle que le CTA primaire, police de titre. */
+  font-family: var(--font-title), var(--font-content);
   font-size: 1rem;
   font-weight: 700;
+  letter-spacing: 0.01em;
   color: #5c3d2e;
   box-shadow: 0 2px 8px var(--color-shadow);
   backdrop-filter: blur(8px);

@@ -71,29 +71,29 @@ export default function EspaceHeader({
           </div>
         </div>
 
-        {/* Quick stats */}
+        {/* Quick stats — valeurs et libellés en police titre */}
         <dl className="mt-5 grid grid-cols-3 gap-3 text-center">
           <div>
-            <dd className="font-courier text-xl font-bold text-[var(--color-accent-start)]">
+            <dd className="font-title text-xl font-bold text-[var(--color-accent-start)]">
               {voyageCount}
             </dd>
-            <dt className="font-courier text-[9px] font-bold uppercase tracking-wider text-white/40">
+            <dt className="font-title text-[10px] font-bold uppercase tracking-wider text-white/55">
               Voyages
             </dt>
           </div>
           <div>
-            <dd className="font-courier text-xl font-bold text-[var(--color-accent-start)]">
+            <dd className="font-title text-xl font-bold text-[var(--color-accent-start)]">
               {state?.voyagesTermines?.reduce((a, v) => a + (v.stats?.km ?? 0), 0) || "—"}
             </dd>
-            <dt className="font-courier text-[9px] font-bold uppercase tracking-wider text-white/40">
+            <dt className="font-title text-[10px] font-bold uppercase tracking-wider text-white/55">
               km
             </dt>
           </div>
           <div>
-            <dd className="font-courier text-xl font-bold text-[var(--color-accent-start)]">
+            <dd className="font-title text-xl font-bold text-[var(--color-accent-start)]">
               {state?.voyagesTermines?.reduce((a, v) => a + (v.stats?.budget ?? 0), 0) || "—"}
             </dd>
-            <dt className="font-courier text-[9px] font-bold uppercase tracking-wider text-white/40">
+            <dt className="font-title text-[10px] font-bold uppercase tracking-wider text-white/55">
               € dépensés
             </dt>
           </div>
@@ -103,7 +103,7 @@ export default function EspaceHeader({
         <div className="mt-5 flex gap-3">
           <button
             type="button"
-            className="flex flex-1 items-center justify-center gap-1.5 rounded-xl border border-white/15 bg-white/5 py-2.5 font-courier text-[11px] font-bold text-white/70 backdrop-blur-sm transition hover:bg-white/10"
+            className="flex flex-1 items-center justify-center gap-1.5 rounded-xl border border-white/15 bg-white/5 py-2.5 font-title text-[11px] font-bold uppercase tracking-wider text-white/75 backdrop-blur-sm transition hover:bg-white/10"
           >
             <Edit3 className="h-3.5 w-3.5" />
             Modifier
@@ -111,7 +111,7 @@ export default function EspaceHeader({
           <button
             type="button"
             onClick={() => setShowPublic(!showPublic)}
-            className="flex flex-1 items-center justify-center gap-1.5 rounded-xl border border-white/15 bg-white/5 py-2.5 font-courier text-[11px] font-bold text-white/70 backdrop-blur-sm transition hover:bg-white/10"
+            className="flex flex-1 items-center justify-center gap-1.5 rounded-xl border border-white/15 bg-white/5 py-2.5 font-title text-[11px] font-bold uppercase tracking-wider text-white/75 backdrop-blur-sm transition hover:bg-white/10"
           >
             <Eye className="h-3.5 w-3.5" />
             Vue publique

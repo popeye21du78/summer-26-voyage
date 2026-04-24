@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import { Check, ImageIcon, Type, X } from "lucide-react";
+import { Check, ImagePlus, Type, X } from "lucide-react";
 import {
   scaleToViagoSizes,
   type ViagoPhotoItem,
@@ -14,18 +14,28 @@ import { compressImageFileToDataUrl } from "@/lib/viago-compress-image";
 import { sampleLuminanceFromSrc } from "@/lib/viago-image-tone";
 import { ViagoRichCourier } from "./ViagoRichText";
 
-type LayoutMode = "overlay" | "below";
+/**
+ * Éditeur photo Viago — version minimaliste « story ».
+ *
+ * Objectif UX : pas de menu à choix multiples, pas d'options avancées —
+ *  1. on charge la photo (file picker ouvert direct si rien en entrée),
+ *  2. la photo remplit l'écran,
+ *  3. on peut poser un bloc texte au doigt :
+ *      - tap dans la photo sans texte     → ajoute un bloc
+ *      - glisser                          → déplace
+ *      - pincer (2 doigts)                → redimensionne
+ *      - double-tap                       → ouvre le champ texte
+ *  4. un gros bouton « Valider » en bas ferme et renvoie l'item.
+ */
 
 type Props = {
   open: boolean;
   onClose: () => void;
   onConfirm: (item: ViagoPhotoItem) => void;
-  /** Valeurs initiales (édition ou création) */
   initialUrl?: string | null;
   initialTitle?: string;
   initialAnecdote?: string;
   initialOverlay?: ViagoPhotoOverlayLayout | null;
-  /** Sans overlay = texte sous la photo (legacy) */
   initialLayoutBelow?: boolean;
   initialTextTone?: "light" | "dark";
   initialTextPosition?: ViagoPhotoTextPosition;
@@ -51,58 +61,44 @@ export default function ViagoVisualPhotoEditor({
   const [title, setTitle] = useState("");
   const [anecdote, setAnecdote] = useState("");
   const [xPct, setXPct] = useState(50);
-  const [yPct, setYPct] = useState(50);
+  const [yPct, setYPct] = useState(84);
   const [scale, setScale] = useState(1);
-  const [layoutMode, setLayoutMode] = useState<LayoutMode>("overlay");
-  const [textTone, setTextTone] = useState<"light" | "dark" | "auto">("auto");
   const [luminance, setLuminance] = useState<number | null>(null);
   const [textBlockOpen, setTextBlockOpen] = useState(false);
   const [lineEditOpen, setLineEditOpen] = useState(false);
-  const [advancedOpen, setAdvancedOpen] = useState(false);
   const [photoBusy, setPhotoBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const [textSelected, setTextSelected] = useState(true);
 
   const containerRef = useRef<HTMLDivElement>(null);
   const fileRef = useRef<HTMLInputElement>(null);
   const dragRef = useRef<{ startX: number; startY: number; x0: number; y0: number } | null>(null);
   const pinchRef = useRef<{ dist: number; scale0: number } | null>(null);
   const lastTapRef = useRef(0);
-  const longPressRef = useRef<number | null>(null);
   const dragMovedRef = useRef(false);
 
   useEffect(() => {
     if (!open) return;
-    setUrl(initialUrl?.trim() || null);
+    const u = initialUrl?.trim() || null;
+    setUrl(u);
     setTitle(initialTitle);
     setAnecdote(initialAnecdote);
-    if (initialLayoutBelow) {
-      setLayoutMode("below");
-    } else if (initialOverlay) {
-      setLayoutMode("overlay");
+    setError(null);
+    if (initialOverlay) {
       setXPct(initialOverlay.xPct);
       setYPct(initialOverlay.yPct);
       setScale(initialOverlay.scale);
+    } else if (initialLayoutBelow) {
+      setXPct(50);
+      setYPct(84);
+      setScale(1);
     } else {
-      setLayoutMode("overlay");
       const pos = initialTextPosition ?? "overlay-bottom";
-      if (pos === "overlay-top") {
-        setXPct(50);
-        setYPct(16);
-      } else if (pos === "overlay-bottom") {
-        setXPct(50);
-        setYPct(84);
-      } else {
-        setXPct(50);
-        setYPct(50);
-      }
+      setXPct(50);
+      setYPct(pos === "overlay-top" ? 16 : pos === "overlay-bottom" ? 84 : 50);
       setScale(1);
     }
-    setTextTone(initialTextTone ?? "auto");
     setTextBlockOpen(Boolean(initialTitle.trim() || initialAnecdote.trim()));
     setLineEditOpen(false);
-    setAdvancedOpen(false);
-    setError(null);
   }, [
     open,
     initialUrl,
@@ -110,17 +106,36 @@ export default function ViagoVisualPhotoEditor({
     initialAnecdote,
     initialOverlay,
     initialLayoutBelow,
-    initialTextTone,
     initialTextPosition,
   ]);
 
+  /**
+   * Si l'éditeur ouvre sans photo, on déclenche immédiatement le file picker.
+   * Résultat : l'user pose le doigt sur "Photo depuis la galerie" et arrive
+   * directement devant son rouleau iOS/Android, zéro friction.
+   */
+  const autoPickedRef = useRef(false);
   useEffect(() => {
-    if (!open || !url || layoutMode !== "overlay") {
+    if (!open) {
+      autoPickedRef.current = false;
+      return;
+    }
+    if (url) return;
+    if (autoPickedRef.current) return;
+    autoPickedRef.current = true;
+    const id = window.setTimeout(() => {
+      fileRef.current?.click();
+    }, 120);
+    return () => window.clearTimeout(id);
+  }, [open, url]);
+
+  useEffect(() => {
+    if (!open || !url) {
       setLuminance(null);
       return;
     }
     sampleLuminanceFromSrc(url, xPct, yPct, setLuminance);
-  }, [open, url, xPct, yPct, layoutMode]);
+  }, [open, url, xPct, yPct]);
 
   useEffect(() => {
     if (!open) return;
@@ -137,29 +152,18 @@ export default function ViagoVisualPhotoEditor({
     const onWheel = (e: WheelEvent) => {
       if (!e.ctrlKey && !e.metaKey) return;
       e.preventDefault();
-      setScale((s) => clamp(s + (e.deltaY > 0 ? -0.04 : 0.04), 0.65, 1.45));
+      setScale((s) => clamp(s + (e.deltaY > 0 ? -0.04 : 0.04), 0.65, 1.65));
     };
     el.addEventListener("wheel", onWheel, { passive: false });
     return () => el.removeEventListener("wheel", onWheel);
-  }, [open, layoutMode]);
+  }, [open]);
 
   const effectiveTone: "light" | "dark" =
-    textTone === "auto"
-      ? luminance != null && luminance > 0.52
-        ? "dark"
-        : "light"
-      : textTone;
+    initialTextTone ?? (luminance != null && luminance > 0.52 ? "dark" : "light");
 
   const handlePickFile = async (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
-    if (!file) {
-      return;
-    }
-    /**
-     * iOS Safari peut renvoyer un File sans type MIME (HEIC issus de la photothèque,
-     * partage depuis Photos). On accepte tant que l'extension ou la lecture réelle confirme
-     * une image. Le compresseur gère lui-même les fallbacks (bitmap → <img> → data URL brut).
-     */
+    if (!file) return;
     const hintedByExtension = /\.(jpe?g|png|gif|webp|heic|heif|avif|bmp|svg)$/i.test(
       file.name || ""
     );
@@ -182,8 +186,23 @@ export default function ViagoVisualPhotoEditor({
     }
   };
 
+  /** Tap sur la photo SANS texte → ajoute un bloc vide centré/bas, ouvre l'édition. */
+  const onPhotoAreaTap = () => {
+    if (!url) {
+      fileRef.current?.click();
+      return;
+    }
+    if (textBlockOpen) return;
+    setTextBlockOpen(true);
+    setXPct(50);
+    setYPct(84);
+    setScale(1);
+    setLineEditOpen(true);
+  };
+
   const onPointerDownText = (e: React.PointerEvent) => {
-    if (layoutMode !== "overlay" || !containerRef.current) return;
+    if (!containerRef.current) return;
+    e.stopPropagation();
     e.currentTarget.setPointerCapture(e.pointerId);
     dragMovedRef.current = false;
     dragRef.current = {
@@ -192,8 +211,6 @@ export default function ViagoVisualPhotoEditor({
       x0: xPct,
       y0: yPct,
     };
-    setTextSelected(true);
-    /* Long press n’ouvre plus le panneau « Plus » (captait les taps et bloquait Valider). Utilise le bouton Plus en haut à droite. */
   };
 
   const onPointerMoveText = (e: React.PointerEvent) => {
@@ -201,22 +218,14 @@ export default function ViagoVisualPhotoEditor({
     const rect = containerRef.current.getBoundingClientRect();
     const dx = e.clientX - dragRef.current.startX;
     const dy = e.clientY - dragRef.current.startY;
-    if (Math.hypot(dx, dy) > 12) dragMovedRef.current = true;
+    if (Math.hypot(dx, dy) > 10) dragMovedRef.current = true;
     const dxp = (dx / rect.width) * 100;
     const dyp = (dy / rect.height) * 100;
-    setXPct(clamp(dragRef.current.x0 + dxp, 8, 92));
-    setYPct(clamp(dragRef.current.y0 + dyp, 8, 92));
-  };
-
-  const endLongPressTimer = () => {
-    if (longPressRef.current != null) {
-      window.clearTimeout(longPressRef.current);
-      longPressRef.current = null;
-    }
+    setXPct(clamp(dragRef.current.x0 + dxp, 6, 94));
+    setYPct(clamp(dragRef.current.y0 + dyp, 6, 94));
   };
 
   const onPointerUpText = (e: React.PointerEvent) => {
-    endLongPressTimer();
     const moved = dragMovedRef.current;
     dragRef.current = null;
     try {
@@ -240,7 +249,7 @@ export default function ViagoVisualPhotoEditor({
     const [a, b] = [e.touches[0], e.touches[1]];
     const dist = Math.hypot(a.clientX - b.clientX, a.clientY - b.clientY);
     const ratio = dist / pinchRef.current.dist;
-    setScale(clamp(pinchRef.current.scale0 * ratio, 0.65, 1.45));
+    setScale(clamp(pinchRef.current.scale0 * ratio, 0.65, 1.65));
   };
 
   const onTouchEndPinch = () => {
@@ -257,16 +266,6 @@ export default function ViagoVisualPhotoEditor({
     }
   }, []);
 
-  const addTextBlock = () => {
-    setTextBlockOpen(true);
-    setLayoutMode("overlay");
-    if (!title.trim() && !anecdote.trim()) {
-      setTitle("Un moment");
-      setAnecdote("**Ton souvenir** — un détail, une émotion.");
-    }
-    setLineEditOpen(true);
-  };
-
   const buildItem = (): ViagoPhotoItem | null => {
     const u = url?.trim();
     if (!u) {
@@ -280,20 +279,10 @@ export default function ViagoVisualPhotoEditor({
       anecdote: anecdote.trim() || undefined,
       titleSize: sizes.title,
       bodySize: sizes.body,
-      textTone: textTone === "auto" ? undefined : textTone,
-    };
-    if (layoutMode === "below") {
-      return {
-        ...base,
-        textPosition: "below",
-        overlayLayout: undefined,
-      };
-    }
-    return {
-      ...base,
       textPosition: "overlay-bottom",
       overlayLayout: { xPct, yPct, scale },
     };
+    return base;
   };
 
   const handleConfirm = () => {
@@ -303,32 +292,12 @@ export default function ViagoVisualPhotoEditor({
     onClose();
   };
 
-  const applyPresetPosition = (preset: "top" | "center" | "bottom") => {
-    setLayoutMode("overlay");
-    setXPct(50);
-    if (preset === "top") setYPct(16);
-    else if (preset === "center") setYPct(50);
-    else setYPct(84);
-    setAdvancedOpen(false);
-  };
-
-  const applyStylePreset = (kind: "title" | "caption") => {
-    if (kind === "title") setScale(1.15);
-    else setScale(0.88);
-    setAdvancedOpen(false);
-  };
-
-  const clearText = () => {
-    setTitle("");
-    setAnecdote("");
-    setTextBlockOpen(false);
-    setAdvancedOpen(false);
-  };
-
   const titleSz =
-    scale >= 1.05 ? "text-base md:text-lg" : scale < 0.9 ? "text-xs" : "text-sm";
+    scale >= 1.05 ? "text-lg md:text-xl" : scale < 0.9 ? "text-xs" : "text-sm";
   const bodySz =
     scale >= 1.05 ? "text-sm md:text-base" : scale < 0.9 ? "text-[10px]" : "text-xs";
+
+  const hasText = Boolean(title.trim() || anecdote.trim());
 
   if (typeof document === "undefined" || !open) return null;
 
@@ -345,12 +314,8 @@ export default function ViagoVisualPhotoEditor({
             ref={fileRef}
             type="file"
             /**
-             * IMPORTANT — on ne liste PAS .heic / .heif dans `accept`.
-             * Sur iOS, `accept="image/*"` seul déclenche la CONVERSION AUTOMATIQUE
-             * des photos HEIC (photothèque Apple) vers JPEG avant l'upload.
-             * Dès qu'on ajoute ".heic", iOS renvoie le HEIC brut → le navigateur
-             * n'arrive plus à décoder l'image, l'éditeur reste vide et l'utilisateur
-             * ne peut plus valider. Ce comportement est documenté et stable.
+             * iOS : `accept="image/*"` seul déclenche la conversion HEIC→JPEG
+             * automatique. On ne liste PAS .heic pour conserver ce comportement.
              */
             accept="image/*"
             className="sr-only"
@@ -360,32 +325,42 @@ export default function ViagoVisualPhotoEditor({
             onChange={handlePickFile}
           />
 
-          {/* Zone principale */}
+          {/* Zone photo plein écran */}
           <div
             ref={containerRef}
-            className="relative min-h-0 flex-1 touch-none overflow-hidden"
+            className="relative min-h-0 flex-1 touch-none select-none overflow-hidden"
             onTouchStart={onTouchStartPinch}
             onTouchMove={onTouchMovePinch}
             onTouchEnd={onTouchEndPinch}
+            onClick={onPhotoAreaTap}
           >
             {url ? (
-              <img src={url} alt="" className="absolute inset-0 h-full w-full object-cover" />
+              <img
+                src={url}
+                alt=""
+                className="absolute inset-0 h-full w-full object-cover"
+                draggable={false}
+              />
             ) : (
-              <div className="absolute inset-0 flex flex-col items-center justify-center bg-gradient-to-br from-[#3d2618] to-[#1a100c] px-6">
-                <p className="text-center font-courier text-sm text-[#f5e6dc]/85">
-                  Touche « Photo » pour choisir une image — elle remplit l’écran.
+              <div className="absolute inset-0 flex flex-col items-center justify-center gap-4 bg-gradient-to-br from-[#3d2618] to-[#1a100c] px-6">
+                <ImagePlus className="h-14 w-14 text-[var(--color-accent-start)]" />
+                <p className="text-center font-courier text-base font-bold text-[#f5e6dc]">
+                  Touche pour choisir une photo
+                </p>
+                <p className="text-center font-courier text-xs text-[#f5e6dc]/60">
+                  Elle remplira l&apos;écran — tu pourras poser un texte par-dessus.
                 </p>
               </div>
             )}
 
-            {url && layoutMode === "overlay" && textBlockOpen && (title.trim() || anecdote.trim()) && (
-              <button
-                type="button"
+            {url && textBlockOpen && hasText && (
+              <div
+                role="button"
+                tabIndex={0}
                 onPointerDown={onPointerDownText}
                 onPointerMove={onPointerMoveText}
                 onPointerUp={onPointerUpText}
                 onPointerCancel={(ev) => {
-                  endLongPressTimer();
                   dragRef.current = null;
                   try {
                     ev.currentTarget.releasePointerCapture(ev.pointerId);
@@ -393,100 +368,94 @@ export default function ViagoVisualPhotoEditor({
                     /* ignore */
                   }
                 }}
+                onClick={(e) => e.stopPropagation()}
                 onContextMenu={(e) => e.preventDefault()}
                 style={{
                   left: `${xPct}%`,
                   top: `${yPct}%`,
                   transform: `translate(-50%, -50%) scale(${scale})`,
                 }}
-                className={`absolute max-w-[min(92vw,340px)] cursor-grab touch-manipulation px-3 py-2 text-left font-courier active:cursor-grabbing ${
-                  textSelected ? "ring-2 ring-[var(--color-accent-start)]/90 ring-offset-2 ring-offset-black/20" : ""
-                } ${
+                className={`absolute max-w-[min(92vw,340px)] cursor-grab touch-none px-3 py-2 text-left font-courier active:cursor-grabbing ${
                   effectiveTone === "light"
                     ? "text-white [text-shadow:0_2px_14px_rgba(0,0,0,0.95)]"
                     : "text-[#1a1410] [text-shadow:0_1px_2px_rgba(255,255,255,0.5)]"
                 }`}
               >
-                <span
-                  className={`block rounded-md px-1 py-0.5 ${
-                    effectiveTone === "light" ? "bg-black/25 backdrop-blur-[2px]" : "bg-white/55 backdrop-blur-[2px]"
-                  }`}
-                >
-                  {title.trim() ? (
-                    <span className={`block font-bold ${titleSz}`}>
-                      <ViagoRichCourier text={title} />
-                    </span>
-                  ) : null}
-                  {anecdote.trim() ? (
-                    <span className={`mt-1 block leading-snug ${bodySz}`}>
-                      <ViagoRichCourier text={anecdote} />
-                    </span>
-                  ) : null}
-                </span>
-                <span className="mt-2 block text-center font-courier text-[9px] font-bold uppercase tracking-wider text-white/55">
-                  Glisser · pincer pour taille · double tap pour écrire
-                </span>
-              </button>
-            )}
-
-            {layoutMode === "below" && url && (title.trim() || anecdote.trim()) && (
-              <div className="absolute inset-x-0 bottom-0 max-h-[38%] overflow-y-auto bg-gradient-to-t from-[#0f0a08] via-[#0f0a08]/95 to-transparent px-4 pb-6 pt-10">
                 <div
-                  className={`rounded-xl px-3 py-3 font-courier ${
-                    effectiveTone === "light" ? "text-white" : "text-[#f5ebe3]"
+                  className={`rounded-md px-2 py-1.5 ${
+                    effectiveTone === "light"
+                      ? "bg-black/25 backdrop-blur-[2px]"
+                      : "bg-white/55 backdrop-blur-[2px]"
                   }`}
-                  onDoubleClick={() => setLineEditOpen(true)}
                 >
                   {title.trim() ? (
-                    <p className={`font-bold ${titleSz}`}>
+                    <div className={`font-bold ${titleSz}`}>
                       <ViagoRichCourier text={title} />
-                    </p>
+                    </div>
                   ) : null}
                   {anecdote.trim() ? (
-                    <p className={`mt-1 ${bodySz}`}>
+                    <div className={`mt-1 leading-snug ${bodySz}`}>
                       <ViagoRichCourier text={anecdote} />
-                    </p>
+                    </div>
                   ) : null}
-                  <p className="mt-2 text-center text-[9px] uppercase tracking-wide text-white/40">
-                    Double tap pour modifier
-                  </p>
                 </div>
               </div>
             )}
 
+            {/* Hints visuels discrets */}
+            {url && !textBlockOpen && (
+              <div className="pointer-events-none absolute left-1/2 bottom-[22%] -translate-x-1/2 rounded-full bg-black/45 px-3 py-1.5 font-courier text-[10px] font-bold uppercase tracking-widest text-white/90 backdrop-blur-md">
+                Touche la photo pour écrire
+              </div>
+            )}
+            {url && textBlockOpen && hasText && (
+              <div className="pointer-events-none absolute left-1/2 top-3 -translate-x-1/2 rounded-full bg-black/45 px-3 py-1 font-courier text-[9px] font-bold uppercase tracking-widest text-white/80 backdrop-blur-md">
+                Glisser · pincer · double tap
+              </div>
+            )}
+
+            {/* Bouton fermer */}
             <button
               type="button"
-              onClick={onClose}
-              className="absolute left-3 top-[max(0.75rem,env(safe-area-inset-top))] z-10 flex h-10 w-10 items-center justify-center rounded-full bg-black/45 text-white backdrop-blur-md"
+              onClick={(e) => {
+                e.stopPropagation();
+                onClose();
+              }}
+              className="absolute left-3 top-[max(0.75rem,env(safe-area-inset-top))] z-10 flex h-10 w-10 items-center justify-center rounded-full bg-black/55 text-white shadow-lg backdrop-blur-md"
               aria-label="Fermer"
             >
               <X className="h-5 w-5" />
             </button>
-
-            <button
-              type="button"
-              onClick={() => setAdvancedOpen((o) => !o)}
-              className="absolute right-3 top-[max(0.75rem,env(safe-area-inset-top))] z-10 rounded-full bg-black/35 px-2.5 py-1 font-courier text-[10px] font-bold uppercase tracking-wide text-white/80 backdrop-blur-md"
-            >
-              Plus
-            </button>
           </div>
 
-          {/* Barre d’actions — toujours au-dessus des overlays (Valider fiable au doigt). */}
-          <div className="relative z-[300] flex shrink-0 items-stretch justify-center gap-2 border-t border-white/10 bg-[var(--color-bg-gradient-end)]/95 px-3 py-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] backdrop-blur-md">
+          {/* Barre d'actions — toujours sur le dessus (Valider fiable au doigt). */}
+          <div className="relative z-[300] flex shrink-0 items-stretch justify-center gap-2 border-t border-white/10 bg-[#150f0d]/95 px-3 py-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] backdrop-blur-md">
             <button
               type="button"
               disabled={photoBusy}
               onClick={() => fileRef.current?.click()}
-              className="flex min-h-[48px] flex-1 items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-[var(--color-accent-start)] to-[var(--color-accent-mid)] font-courier text-sm font-bold text-white shadow-lg disabled:opacity-50"
+              className="flex min-h-[52px] flex-1 items-center justify-center gap-2 rounded-2xl border border-white/20 bg-white/10 font-courier text-sm font-bold text-[#fde8e0] shadow-sm disabled:opacity-50"
             >
-              <ImageIcon className="h-5 w-5" />
-              Photo
+              <ImagePlus className="h-5 w-5" />
+              {url ? "Remplacer" : "Photo"}
             </button>
             <button
               type="button"
-              onClick={addTextBlock}
-              className="flex min-h-[48px] flex-1 items-center justify-center gap-2 rounded-2xl border border-[var(--color-accent-start)]/50 bg-white/10 font-courier text-sm font-bold text-[#fde8e0]"
+              disabled={!url}
+              onClick={() => {
+                if (!url) {
+                  fileRef.current?.click();
+                  return;
+                }
+                if (!textBlockOpen) {
+                  setTextBlockOpen(true);
+                  setXPct(50);
+                  setYPct(84);
+                  setScale(1);
+                }
+                setLineEditOpen(true);
+              }}
+              className="flex min-h-[52px] flex-1 items-center justify-center gap-2 rounded-2xl border border-white/20 bg-white/10 font-courier text-sm font-bold text-[#fde8e0] shadow-sm disabled:opacity-40"
             >
               <Type className="h-5 w-5" />
               Texte
@@ -494,7 +463,7 @@ export default function ViagoVisualPhotoEditor({
             <button
               type="button"
               onClick={handleConfirm}
-              className="flex min-h-[48px] flex-1 items-center justify-center gap-2 rounded-2xl bg-[var(--color-accent-start)] font-courier text-sm font-bold text-white shadow-md"
+              className="flex min-h-[52px] flex-[1.2] items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-[var(--color-accent-start)] to-[var(--color-accent-mid)] font-courier text-base font-bold uppercase tracking-wider text-white shadow-lg"
             >
               <Check className="h-5 w-5" />
               Valider
@@ -502,12 +471,14 @@ export default function ViagoVisualPhotoEditor({
           </div>
 
           {error && (
-            <p className="absolute bottom-24 left-0 right-0 text-center font-courier text-xs text-red-300">
-              {error}
-            </p>
+            <div className="pointer-events-none absolute inset-x-0 bottom-[calc(5rem+env(safe-area-inset-bottom,0px))] flex justify-center">
+              <p className="rounded-full bg-red-500/90 px-4 py-2 text-center font-courier text-xs font-bold text-white shadow-lg">
+                {error}
+              </p>
+            </div>
           )}
 
-          {/* Édition texte (double tap) */}
+          {/* Édition texte (title + anecdote) */}
           <AnimatePresence>
             {lineEditOpen && (
               <motion.div
@@ -515,133 +486,57 @@ export default function ViagoVisualPhotoEditor({
                 animate={{ y: 0 }}
                 exit={{ y: "100%" }}
                 transition={{ type: "spring", damping: 28, stiffness: 320 }}
-                className="absolute inset-x-0 bottom-0 z-[250] max-h-[55vh] rounded-t-3xl border border-[var(--color-accent-start)]/25 bg-[#1f1612] p-4 shadow-2xl"
+                className="absolute inset-x-0 bottom-0 z-[320] max-h-[55vh] rounded-t-3xl border border-[var(--color-accent-start)]/25 bg-[#1f1612] p-4 shadow-2xl"
               >
                 <p className="font-courier text-[10px] font-bold uppercase tracking-[0.2em] text-[var(--color-accent-start)]">
-                  Texte · **gras** avec astérisques
+                  Texte · utilise **mot** pour du gras
                 </p>
-                <label className="mt-3 block font-courier text-xs text-[#f5e6dc]/80">Titre</label>
+                <label className="mt-3 block font-courier text-xs text-[#f5e6dc]/80">
+                  Titre
+                </label>
                 <input
                   value={title}
                   onChange={(e) => setTitle(e.target.value)}
                   className="mt-1 w-full rounded-xl border border-white/15 bg-black/30 px-3 py-2 font-courier text-sm text-[#FFFBF7] outline-none focus:ring-1 focus:ring-[var(--color-accent-start)]"
                   placeholder="Optionnel"
+                  autoFocus
                 />
-                <label className="mt-3 block font-courier text-xs text-[#f5e6dc]/80">Texte</label>
+                <label className="mt-3 block font-courier text-xs text-[#f5e6dc]/80">
+                  Texte
+                </label>
                 <textarea
                   value={anecdote}
                   onChange={(e) => setAnecdote(e.target.value)}
                   rows={4}
                   className="mt-1 w-full resize-none rounded-xl border border-white/15 bg-black/30 px-3 py-2 font-courier text-sm text-[#FFFBF7] outline-none focus:ring-1 focus:ring-[var(--color-accent-start)]"
-                  placeholder="Ton texte…"
+                  placeholder="Ton souvenir, une émotion…"
                 />
-                <button
-                  type="button"
-                  onClick={() => setLineEditOpen(false)}
-                  className="mt-4 w-full rounded-xl bg-[var(--color-accent-start)] py-3 font-courier text-sm font-bold text-white"
-                >
-                  OK
-                </button>
-              </motion.div>
-            )}
-          </AnimatePresence>
-
-          {/* Options avancées */}
-          <AnimatePresence>
-            {advancedOpen && (
-              <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                exit={{ opacity: 0 }}
-                className="absolute left-0 right-0 top-0 z-[245] flex items-end justify-center bg-black/50 p-3"
-                style={{ bottom: "5.75rem" }}
-                onClick={() => setAdvancedOpen(false)}
-              >
-                <motion.div
-                  initial={{ y: 40, opacity: 0 }}
-                  animate={{ y: 0, opacity: 1 }}
-                  exit={{ y: 40, opacity: 0 }}
-                  onClick={(e) => e.stopPropagation()}
-                  className="w-full max-w-md rounded-2xl border border-white/10 bg-[#1f1612] p-4 shadow-xl"
-                >
-                  <p className="font-courier text-xs font-bold uppercase tracking-wide text-[var(--color-accent-start)]">
-                    Édition avancée
-                  </p>
-                  <p className="mt-2 font-courier text-[11px] text-[#c9b8ad]">Position du bloc</p>
-                  <div className="mt-2 flex flex-wrap gap-2">
-                    {(["top", "center", "bottom"] as const).map((p) => (
-                      <button
-                        key={p}
-                        type="button"
-                        onClick={() => applyPresetPosition(p)}
-                        className="rounded-full border border-white/15 px-3 py-1.5 font-courier text-[11px] text-[#fde8e0]"
-                      >
-                        {p === "top" ? "Haut" : p === "center" ? "Centre" : "Bas"}
-                      </button>
-                    ))}
-                  </div>
-                  <p className="mt-3 font-courier text-[11px] text-[#c9b8ad]">Style</p>
-                  <div className="mt-2 flex flex-wrap gap-2">
+                <div className="mt-4 flex gap-2">
+                  {hasText && (
                     <button
                       type="button"
-                      onClick={() => applyStylePreset("title")}
-                      className="rounded-full border border-white/15 px-3 py-1.5 font-courier text-[11px] text-[#fde8e0]"
+                      onClick={() => {
+                        setTitle("");
+                        setAnecdote("");
+                        setTextBlockOpen(false);
+                        setLineEditOpen(false);
+                      }}
+                      className="rounded-xl border border-red-500/40 px-4 py-3 font-courier text-xs font-bold text-red-300"
                     >
-                      Titre fort
+                      Supprimer
                     </button>
-                    <button
-                      type="button"
-                      onClick={() => applyStylePreset("caption")}
-                      className="rounded-full border border-white/15 px-3 py-1.5 font-courier text-[11px] text-[#fde8e0]"
-                    >
-                      Légende
-                    </button>
-                  </div>
-                  <p className="mt-3 font-courier text-[11px] text-[#c9b8ad]">Contraste</p>
-                  <div className="mt-2 flex flex-wrap gap-2">
-                    {(["auto", "light", "dark"] as const).map((t) => (
-                      <button
-                        key={t}
-                        type="button"
-                        onClick={() => {
-                          setTextTone(t);
-                          setAdvancedOpen(false);
-                        }}
-                        className={`rounded-full border px-3 py-1.5 font-courier text-[11px] ${
-                          textTone === t
-                            ? "border-[var(--color-accent-start)] bg-[var(--color-accent-start)]/25 text-[#fde8e0]"
-                            : "border-white/15 text-[#fde8e0]"
-                        }`}
-                      >
-                        {t === "auto" ? "Auto" : t === "light" ? "Texte clair" : "Texte foncé"}
-                      </button>
-                    ))}
-                  </div>
+                  )}
                   <button
                     type="button"
                     onClick={() => {
-                      setLayoutMode("below");
-                      setAdvancedOpen(false);
+                      if (title.trim() || anecdote.trim()) setTextBlockOpen(true);
+                      setLineEditOpen(false);
                     }}
-                    className="mt-4 w-full rounded-xl border border-dashed border-[var(--color-accent-start)]/40 py-2 font-courier text-[11px] text-[#f5c4b8]"
+                    className="flex-1 rounded-xl bg-[var(--color-accent-start)] py-3 font-courier text-sm font-bold uppercase tracking-wider text-white shadow-md"
                   >
-                    Afficher le texte sous la photo
+                    OK
                   </button>
-                  <button
-                    type="button"
-                    onClick={clearText}
-                    className="mt-2 w-full rounded-xl border border-red-500/40 py-2 font-courier text-[11px] text-red-300"
-                  >
-                    Supprimer tout le texte
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => setAdvancedOpen(false)}
-                    className="mt-3 w-full rounded-xl bg-white/10 py-2 font-courier text-sm text-white"
-                  >
-                    Fermer
-                  </button>
-                </motion.div>
+                </div>
               </motion.div>
             )}
           </AnimatePresence>

@@ -11,11 +11,28 @@ type Props = {
   steps: ResolvedStarStep[];
   activeStepIndex: number;
   mapboxToken: string | undefined;
+  /**
+   * Hauteur (en px) d'un overlay posé au BAS de la carte (vignettes villes,
+   * CTA, etc.). Elle est injectée comme padding supplémentaire au fitBounds
+   * pour que la route ne se termine pas CACHÉE sous cet overlay.
+   * 0 par défaut.
+   */
+  bottomInsetPx?: number;
+  /**
+   * Pareil, version haut (par ex. bouton retour « ← »). 0 par défaut.
+   */
+  topInsetPx?: number;
 };
 
 const BW_MAP_STYLE = "mapbox://styles/mapbox/light-v11";
 
-export default function StarFlipMap({ steps, activeStepIndex, mapboxToken }: Props) {
+export default function StarFlipMap({
+  steps,
+  activeStepIndex,
+  mapboxToken,
+  bottomInsetPx = 0,
+  topInsetPx = 0,
+}: Props) {
   const mapRef = useRef<MapRef | null>(null);
   const hasDoneInitialFitRef = useRef(false);
   const [routeData, setRouteData] = useState<{
@@ -113,9 +130,15 @@ export default function StarFlipMap({ steps, activeStepIndex, mapboxToken }: Pro
       { minLng: 180, maxLng: -180, minLat: 90, maxLat: -90 }
     );
 
+    /**
+     * On ajoute `bottomInsetPx`/`topInsetPx` au padding pour que la route
+     * soit cadrée AU-DESSUS des overlays (vignettes villes + CTA « Voir
+     * le viago » sur la carte ami, bouton retour en haut…). Sans ça, le
+     * trait finissait SOUS les vignettes et paraissait coupé.
+     */
     const padding = {
-      top: Math.max(18, Math.round(h * 0.08)),
-      bottom: Math.max(18, Math.round(h * 0.08)),
+      top: Math.max(18, Math.round(h * 0.08)) + Math.max(0, Math.round(topInsetPx)),
+      bottom: Math.max(18, Math.round(h * 0.08)) + Math.max(0, Math.round(bottomInsetPx)),
       left: Math.max(14, Math.round(w * 0.06)),
       right: Math.max(14, Math.round(w * 0.06)),
     };
@@ -128,7 +151,12 @@ export default function StarFlipMap({ steps, activeStepIndex, mapboxToken }: Pro
         ],
         {
           padding,
-          maxZoom: 14.2,
+          /**
+           * `maxZoom` abaissé de 14.2 → 12.2 : le fit se relâche un peu,
+           * ce qui évite les cadrages trop « zoomés » sur les voyages
+           * courts (2-3 étapes proches) et laisse respirer la route.
+           */
+          maxZoom: 12.2,
           duration: animate ? 500 : 0,
           essential: true,
         }
@@ -166,7 +194,7 @@ export default function StarFlipMap({ steps, activeStepIndex, mapboxToken }: Pro
       cancelAnimationFrame(raf2);
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [routeCoordinates, steps]);
+  }, [routeCoordinates, steps, bottomInsetPx, topInsetPx]);
 
   /** Re-fit si la taille du conteneur change (utile quand le verso de la carte est dévoilé). */
   useEffect(() => {

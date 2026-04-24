@@ -83,7 +83,7 @@ export default function StarFlipCard({ itinerary, isFlipped, onFlip, compact }: 
                   Une manière de voyager · {editorial.name}
                 </Link>
               )}
-              <h3 className="mt-1 font-courier text-lg font-bold leading-tight text-white">
+              <h3 className="font-title mt-1 text-2xl font-bold leading-tight text-white">
                 {itinerary.tripTitle}
               </h3>
               {!compact && (

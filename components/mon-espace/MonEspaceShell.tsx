@@ -228,7 +228,12 @@ export default function MonEspaceShell({
           <User className="h-7 w-7 text-white" strokeWidth={1.8} />
         </div>
         <div className="min-w-0 flex-1">
-          <p className="font-courier text-lg font-bold leading-tight text-[var(--color-text-primary)]">
+          {/*
+           * Nom utilisateur = titre du header de Mon espace → police titre,
+           * taille franche (user : « mon nom au dessus de voir mon profil
+           * public » doit être en police titre).
+           */}
+          <p className="font-title text-xl font-bold leading-tight text-[var(--color-text-primary)]">
             {profileName}
           </p>
           <p className="mt-0.5 font-courier text-sm text-[var(--color-text-secondary)]">

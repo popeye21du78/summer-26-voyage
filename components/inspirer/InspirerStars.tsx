@@ -217,7 +217,8 @@ export default function InspirerStars({ initialRegionFilter, searchQuery }: Prop
   }, []);
 
   return (
-    <div className="relative flex h-full min-h-0 flex-col overflow-hidden bg-[var(--color-bg-main)]">
+    // `min-h-full flex-1` au lieu de `h-full` — voir InspirerAmis pour la raison.
+    <div className="relative flex min-h-full flex-1 flex-col overflow-hidden bg-[var(--color-bg-main)]">
       {/* Région + raccourcis profils (recherche : TopBar commune) */}
       <div
         className={`shrink-0 overflow-hidden border-b border-white/6 bg-[var(--color-bg-main)]/95 backdrop-blur-lg transition-[max-height,opacity] duration-200 ease-out ${
@@ -263,7 +264,7 @@ export default function InspirerStars({ initialRegionFilter, searchQuery }: Prop
           {/* Cross-region theme carousels (only when no filter) */}
           {crossThemesFiltered.map((ct) => (
             <div key={ct.keyword} className="mb-10">
-              <h3 className="mb-4 font-courier text-xs font-bold uppercase tracking-wider text-[var(--color-accent-start)]">
+              <h3 className="font-title mb-4 text-2xl font-bold uppercase tracking-wider text-[var(--color-accent-start)]">
                 {ct.label}
               </h3>
               <div className="flex flex-col gap-5">
@@ -294,7 +295,7 @@ export default function InspirerStars({ initialRegionFilter, searchQuery }: Prop
                     <ChevronRight className="h-3 w-3" />
                   </button>
                 )}
-                <h3 className="font-courier text-sm font-bold leading-snug text-white/75">
+                <h3 className="font-title text-xl font-bold leading-snug text-white/85">
                   {group.theme}
                 </h3>
               </div>

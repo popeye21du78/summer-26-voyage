@@ -77,7 +77,7 @@ export default function InspirerAmis({ searchQuery: query }: Props) {
 
   if (loading) {
     return (
-      <div className="flex h-full items-center justify-center bg-[var(--color-bg-main)]">
+      <div className="flex min-h-full flex-1 items-center justify-center bg-[var(--color-bg-main)]">
         <p className="voyage-loading-text text-sm uppercase tracking-widest">
           voyage voyage…
         </p>
@@ -86,7 +86,11 @@ export default function InspirerAmis({ searchQuery: query }: Props) {
   }
 
   return (
-    <div className="flex h-full min-h-0 flex-col overflow-hidden bg-[var(--color-bg-main)]">
+    // `min-h-full flex-1` (au lieu de `h-full`) : l'ancienne `h-full` tombait
+    // à 0px quand le parent (TabPanel inner) n'avait pas de hauteur définie,
+    // d'où le bug « rien n'apparaît dans s'inspirer > Amis ». `flex-1` dans le
+    // flex-col du TabPanel inner garantit qu'on prend toute la hauteur restante.
+    <div className="flex min-h-full flex-1 flex-col overflow-hidden bg-[var(--color-bg-main)]">
       <div className="min-h-0 flex-1 overflow-y-auto px-4 py-4">
         {(famousHits.length > 0 || editorialHits.length > 0) && (
           <div className="mb-4 flex flex-wrap gap-2">
@@ -123,7 +127,11 @@ export default function InspirerAmis({ searchQuery: query }: Props) {
             Aucun voyage ne correspond à « {query} ».
           </p>
         ) : (
-          <div className="mx-auto flex max-w-md flex-col gap-8 pb-8">
+          // `pb-bottom-nav` : padding-bottom calculé pour que le dernier voyage
+          // (et surtout le CTA « Voir le viago » logé dans l'overlay bas de la
+          // carte) ne soit JAMAIS recouvert par la bottom nav (≈ 6.5rem + safe-area).
+          // `pb-8` ne suffisait pas.
+          <div className="mx-auto flex max-w-md flex-col gap-8 pb-bottom-nav">
             {filteredVoyages.map((v, i) => (
               <AmiVoyageFlipCard
                 key={`${v.voyage.id}-${v.profileId}-${i}`}

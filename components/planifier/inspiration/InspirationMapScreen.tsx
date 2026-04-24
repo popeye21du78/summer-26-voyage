@@ -286,7 +286,13 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
    * Tirer vers le bas depuis FULL descend à PREVIEW ; tirer encore vers le bas ferme.
    */
   const SNAP_PREVIEW = 0.32;
-  const SNAP_FULL = 0.86;
+  /**
+   * Plein écran = 100 % du viewport. L'user veut que la fiche région
+   * recouvre complètement la top nav quand on la tire jusqu'en haut
+   * (sinon on ne peut pas "la rabaisser" car la poignée est masquée).
+   * Le z-index CSS est déjà ≥ celui de la top nav.
+   */
+  const SNAP_FULL = 1.0;
   const SNAP_DEFAULT_DETAIL = 0.58;
 
   useEffect(() => {
@@ -313,7 +319,7 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
     (offsetY: number) => {
       const h = typeof window !== "undefined" ? window.innerHeight : 800;
       const next = sheetDragStartRatio.current - offsetY / h;
-      setSheetHeightRatio(Math.min(SNAP_FULL, Math.max(0.06, next)));
+      setSheetHeightRatio(Math.min(1, Math.max(0.06, next)));
     },
     []
   );
@@ -677,7 +683,15 @@ export default function InspirationMapScreen({ mapboxAccessToken }: Props) {
           Une seule instance carte = pas de remontage / pas de resize WebGL au changement France → région.
           La fiche est en overlay : la carte reste full-bleed, comme entre deux régions.
         */}
-        <div className="relative isolate min-h-0 flex-1 overflow-hidden">
+        {/*
+         * Pas d'`isolate` ici : on veut que la sheet région (z-[180]) puisse
+         * passer AU-DESSUS de la top nav (`.viago-top-tabs-wrap` = z 120)
+         * quand on la tire en plein écran. `isolation: isolate` créerait
+         * un stacking context local et la sheet serait emprisonnée dessous,
+         * ce qui reproduisait exactement le bug signalé par l'user
+         * (« la barre du haut passe encore devant la région »).
+         */}
+        <div className="relative min-h-0 flex-1 overflow-hidden">
           <div className="absolute inset-0 z-0">
             <InspirationMapClient ref={mapRef} {...mapBaseProps} />
           </div>

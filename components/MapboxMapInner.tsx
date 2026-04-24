@@ -408,13 +408,15 @@ export default function MapboxMapInner({
         data={routeData.singleLine}
         lineMetrics={true}
       />
-      {/* Couche invisible pour le survol (infos segment) */}
+      {/* Couche invisible pour le survol (infos segment).
+          NB : Mapbox n'accepte pas `var(--...)` dans paint ; on met une valeur
+          neutre — de toute façon `line-opacity: 0`. */}
       <Layer
         id={ROUTE_LAYER_ID}
         type="line"
         source={ROUTE_SOURCE_ID}
         paint={{
-          "line-color": "var(--color-accent-start)",
+          "line-color": "#000000",
           "line-width": 14,
           "line-opacity": 0,
         }}

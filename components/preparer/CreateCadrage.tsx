@@ -53,10 +53,10 @@ export default function CreateCadrage() {
   return (
     <main className="flex h-full flex-col bg-[var(--color-bg-main)]">
       <div className="flex min-h-0 flex-1 flex-col justify-center px-6">
-        <p className="font-courier text-[10px] font-bold uppercase tracking-[0.45em] text-[var(--color-accent-start)]">
+        <p className="font-title text-[10px] font-bold uppercase tracking-[0.45em] text-[var(--color-accent-start)]">
           Ton voyage
         </p>
-        <h1 className="mt-3 font-courier text-[1.75rem] font-bold leading-tight text-white">
+        <h1 className="mt-3 font-title text-[1.75rem] font-bold leading-tight text-white">
           Quelques repères
           <br />
           pour commencer.
@@ -64,7 +64,7 @@ export default function CreateCadrage() {
 
         {/* Dates */}
         <section className="mt-10">
-          <label className="flex items-center gap-2 font-courier text-xs font-bold uppercase tracking-wider text-[var(--color-accent-start)]">
+          <label className="flex items-center gap-2 font-title text-xs font-bold uppercase tracking-wider text-[var(--color-accent-start)]">
             <Calendar className="h-4 w-4" />
             Quand pars-tu ?
           </label>
@@ -94,7 +94,7 @@ export default function CreateCadrage() {
 
         {/* Rythme */}
         <section className="mt-8">
-          <label className="flex items-center gap-2 font-courier text-xs font-bold uppercase tracking-wider text-[var(--color-accent-start)]">
+          <label className="flex items-center gap-2 font-title text-xs font-bold uppercase tracking-wider text-[var(--color-accent-start)]">
             <Gauge className="h-4 w-4" />
             Quel rythme ?
           </label>
@@ -126,7 +126,7 @@ export default function CreateCadrage() {
 
         {/* Lieu indispensable */}
         <section className="mt-8">
-          <label className="flex items-center gap-2 font-courier text-xs font-bold uppercase tracking-wider text-[var(--color-accent-start)]">
+          <label className="flex items-center gap-2 font-title text-xs font-bold uppercase tracking-wider text-[var(--color-accent-start)]">
             <MapPin className="h-4 w-4" />
             Un endroit que tu ne veux pas manquer ?
           </label>

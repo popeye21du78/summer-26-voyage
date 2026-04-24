@@ -96,7 +96,7 @@ export default function RegionCarouselCard({
         )}
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/65 via-black/15 to-black/30" />
         <div className="pointer-events-none absolute inset-0 z-[38] flex flex-col items-center justify-center px-2 text-center">
-          <span className="line-clamp-2 font-courier text-[11px] font-bold leading-tight text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.9)]">
+          <span className="font-title line-clamp-2 text-[14px] font-bold uppercase leading-tight tracking-wide text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.9)]">
             {r.name}
           </span>
           <p className="mt-1 line-clamp-2 font-courier text-[9px] leading-snug text-white/65">

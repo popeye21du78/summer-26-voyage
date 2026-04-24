@@ -32,7 +32,10 @@ export default function EspaceStats({ state, profileName }: Props) {
 
   return (
     <section className="px-5 py-6">
-      <h2 className="mb-4 flex items-center gap-2 font-courier text-sm font-bold uppercase tracking-wider text-[var(--color-accent-start)]">
+      {/*
+       * Titre de section → police titre.
+       */}
+      <h2 className="mb-4 flex items-center gap-2 font-title text-base font-bold uppercase tracking-wider text-[var(--color-accent-start)]">
         <BarChart3 className="h-4 w-4" />
         Stats & identité
       </h2>
@@ -46,10 +49,14 @@ export default function EspaceStats({ state, profileName }: Props) {
               className="flex flex-col items-center rounded-xl border border-white/6 bg-white/3 p-4 text-center"
             >
               <Icon className="mb-2 h-5 w-5 text-[var(--color-accent-start)]/40" />
-              <dd className="font-courier text-lg font-bold text-[var(--color-accent-start)]">
+              {/*
+               * Valeur principale de la carte (gros chiffre) → police
+               * titre pour bien la détacher. Le label reste en body.
+               */}
+              <dd className="font-title text-xl font-bold text-[var(--color-accent-start)]">
                 {s.value}
               </dd>
-              <dt className="mt-0.5 font-courier text-[9px] font-bold uppercase tracking-wider text-white/35">
+              <dt className="mt-0.5 font-title text-[10px] font-bold uppercase tracking-wider text-white/50">
                 {s.label}
               </dt>
             </div>

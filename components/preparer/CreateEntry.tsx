@@ -133,7 +133,7 @@ export default function CreateEntry() {
             <Compass className="h-3.5 w-3.5" />
             Créer un voyage
           </p>
-          <h1 className="font-courier text-[2.25rem] font-bold leading-[1.02] tracking-tight text-[var(--color-text-primary)]">
+          <h1 className="font-title text-[2.25rem] font-bold leading-[1.02] tracking-tight text-[var(--color-text-primary)]">
             Par où tu veux
             <br />
             <span className="text-gradient-viago-title-alt">commencer ?</span>
@@ -182,7 +182,7 @@ export default function CreateEntry() {
               <Map className="h-7 w-7 text-white" strokeWidth={1.8} />
             </span>
             <span className="min-w-0 flex-1">
-              <span className="block font-courier text-lg font-bold uppercase tracking-wide text-[var(--color-text-primary)]">
+              <span className="font-title block text-xl font-bold uppercase tracking-wide text-[var(--color-text-primary)]">
                 Explorer une zone
               </span>
               <span className="mt-1 block font-courier text-xs leading-relaxed text-[var(--color-text-secondary)]">
@@ -206,7 +206,7 @@ export default function CreateEntry() {
               <Route className="h-7 w-7 text-white" strokeWidth={1.8} />
             </span>
             <span className="min-w-0 flex-1">
-              <span className="block font-courier text-lg font-bold uppercase tracking-wide text-[var(--color-text-primary)]">
+              <span className="font-title block text-xl font-bold uppercase tracking-wide text-[var(--color-text-primary)]">
                 Tracer un trajet
               </span>
               <span className="mt-1 block font-courier text-xs leading-relaxed text-[var(--color-text-secondary)]">
@@ -248,7 +248,7 @@ export default function CreateEntry() {
         <section className="flex flex-col gap-3 pt-2">
           <div className="flex items-center gap-2">
             <Lightbulb className="h-4 w-4 text-[var(--color-accent-gold)]" />
-            <h2 className="font-courier text-[11px] font-bold uppercase tracking-[0.22em] text-[var(--color-text-primary)]">
+            <h2 className="font-title text-[11px] font-bold uppercase tracking-[0.22em] text-[var(--color-text-primary)]">
               Tu hésites ? Laisse-toi guider.
             </h2>
           </div>

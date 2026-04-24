@@ -90,7 +90,11 @@ function MesVoyagesSubBlock({
   if (items.length === 0) return null;
   return (
     <div className="mb-5 last:mb-0">
-      <h3 className="mb-2 font-courier text-[10px] font-bold uppercase tracking-[0.3em] text-[#F5C4B8]/95">
+      {/*
+       * Sous-titre de groupe (« À venir », « En cours », « Passés »)
+       * → police titre.
+       */}
+      <h3 className="mb-2 font-title text-xs font-bold uppercase tracking-[0.3em] text-[#F5C4B8]">
         {title}
       </h3>
       <ul className="space-y-2">
@@ -105,10 +109,11 @@ function MesVoyagesSubBlock({
                 className="h-[3.25rem] w-[3.25rem] shrink-0 rounded-xl object-cover shadow-inner ring-1 ring-white/30"
               />
               <div className="min-w-0 flex-1">
-                <span className="text-[10px] font-bold text-[#FFD4C8]">
+                <span className="font-title text-[10px] font-bold uppercase tracking-wider text-[#FFD4C8]">
                   {labels[v.type]}
                 </span>
-                <p className="truncate font-courier text-sm font-bold text-[#FFFBF7]">
+                {/* Nom du voyage (home) → police titre */}
+                <p className="truncate font-title text-base font-bold text-[#FFFBF7]">
                   {v.titre}
                 </p>
                 <p className="truncate font-courier text-[11px] text-[#FAF4F0]/65">

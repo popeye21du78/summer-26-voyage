@@ -177,9 +177,13 @@ function SortableStepRow({
         {/* Ligne bas : nom + bouton toggle type + stepper nuits */}
         <div className="absolute inset-x-0 bottom-0 flex items-end justify-between gap-3 px-3 pb-3">
           <div className="min-w-0 flex-1">
+            {/*
+             * Nom de ville = titre d'étape (user : « les noms des
+             * villes, étapes et trajets » en police titre).
+             */}
             <Link
               href={villeHref}
-              className="block truncate font-courier text-lg font-bold leading-tight text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)] underline-offset-2 hover:underline"
+              className="block truncate font-title text-xl font-bold leading-tight text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)] underline-offset-2 hover:underline"
             >
               {step.nom}
             </Link>
@@ -253,7 +257,11 @@ function StepSeparator({
     <div className="flex items-center gap-3 px-3 py-2">
       <div className="flex-1 border-t border-dashed border-white/15" />
       <div className="flex items-center gap-2">
-        <span className="inline-flex items-center gap-1.5 rounded-full bg-white/5 px-2.5 py-1 font-courier text-[10px] font-bold uppercase tracking-wider text-white/55">
+        {/*
+         * Pille « trajet » entre deux villes → police titre (user :
+         * « les noms des villes, étapes et trajets »).
+         */}
+        <span className="inline-flex items-center gap-1.5 rounded-full bg-white/5 px-2.5 py-1 font-title text-[11px] font-bold uppercase tracking-wider text-white/70">
           <Car className="h-3 w-3" />
           {distanceKm > 0 ? formatKmAndDuration(distanceKm) : "Trajet"}
         </span>
@@ -842,11 +850,14 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
             </SortableContext>
           </DndContext>
 
-          {/* Bouton ajouter une étape en fin d'itinéraire */}
+          {/*
+           * Bouton gros CTA « Ajouter une étape » → police titre
+           * (user : « des boutons gros comme ajouter une étape »).
+           */}
           <button
             type="button"
             onClick={() => setInsertAt(orderedSteps.length)}
-            className="mt-4 flex w-full items-center justify-center gap-2 rounded-2xl border border-dashed border-[var(--color-accent-start)]/45 bg-[var(--color-accent-start)]/10 py-3.5 font-courier text-xs font-bold uppercase tracking-wider text-[var(--color-accent-start)] transition hover:bg-[var(--color-accent-start)]/20"
+            className="mt-4 flex w-full items-center justify-center gap-2 rounded-2xl border border-dashed border-[var(--color-accent-start)]/45 bg-[var(--color-accent-start)]/10 py-3.5 font-title text-sm font-bold uppercase tracking-wider text-[var(--color-accent-start)] transition hover:bg-[var(--color-accent-start)]/20"
           >
             <Plus className="h-4 w-4" />
             Ajouter une étape en fin de voyage
@@ -870,7 +881,7 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
           <div className="relative w-full max-w-md overflow-hidden rounded-3xl border border-white/10 bg-[#1a1410] p-5 shadow-2xl">
             <div className="mb-4 flex items-start justify-between gap-3">
               <div>
-                <h3 className="font-courier text-base font-bold text-white">
+                <h3 className="font-title text-lg font-bold text-white">
                   Ajouter une étape
                 </h3>
                 <p className="mt-1 font-courier text-[11px] text-white/50">
@@ -934,10 +945,10 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
       {detailTab === "budget" && (
         <section id="voyage-budget" className="mt-5 scroll-mt-24">
           <div className="mb-4 rounded-2xl border border-[var(--color-accent-start)]/25 bg-[var(--color-accent-start)]/10 px-4 py-3">
-            <p className="font-courier text-[10px] font-bold uppercase tracking-wider text-[var(--color-accent-start)]/80">
+            <p className="font-title text-[11px] font-bold uppercase tracking-wider text-[var(--color-accent-start)]">
               Total estimé (aperçu)
             </p>
-            <p className="mt-1 font-courier text-2xl font-bold text-white">{budgetTotal} €</p>
+            <p className="mt-1 font-title text-2xl font-bold text-white">{budgetTotal} €</p>
             <p className="mt-1 font-courier text-[10px] text-white/35">
               Montants par ville enregistrés sur cet appareil (profil connecté).
             </p>
@@ -956,7 +967,8 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
                 >
                   <div className="flex items-start justify-between gap-3">
                     <div className="min-w-0">
-                      <p className="font-courier text-xs font-bold text-white/90">{s.nom}</p>
+                      {/* Nom de ville dans la ligne budget → titre */}
+                      <p className="font-title text-sm font-bold text-white/95">{s.nom}</p>
                       <p className="font-courier text-[10px] text-white/35">
                         {isPassage ? "Passage" : kind === "airbnb" ? "Airbnb" : "Van / nuit"} ·{" "}
                         {(stepDates[s.id] ?? s.date_prevue) || "—"}
@@ -1023,9 +1035,14 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
         </section>
       )}
 
+      {/*
+       * CTA principal « Ouvrir le Viago » → police titre, un peu plus
+       * gros, bien signé (user : « des boutons gros comme ouvrir le
+       * viago »).
+       */}
       <Link
         href={`/mon-espace/viago/${voyage.id}`}
-        className="mt-6 flex w-full items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-[var(--color-accent-start)] to-[var(--color-accent-end)] py-3.5 font-courier text-sm font-bold text-white shadow-[0_8px_28px_rgba(224,120,86,0.4)] transition hover:brightness-105"
+        className="mt-6 flex w-full items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-[var(--color-accent-start)] to-[var(--color-accent-end)] py-3.5 font-title text-base font-bold uppercase tracking-wide text-white shadow-[0_8px_28px_rgba(224,120,86,0.4)] transition hover:brightness-105"
       >
         <MessageCircle className="h-4 w-4" />
         Ouvrir le Viago
