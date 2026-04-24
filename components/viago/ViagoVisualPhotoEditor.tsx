@@ -32,6 +32,8 @@ type Props = {
   open: boolean;
   onClose: () => void;
   onConfirm: (item: ViagoPhotoItem) => void;
+  /** Si défini (Supabase OK) : envoi du fichier → URL https, plus de gros data URL en local. */
+  uploadFile?: (file: File) => Promise<string>;
   initialUrl?: string | null;
   initialTitle?: string;
   initialAnecdote?: string;
@@ -49,6 +51,7 @@ export default function ViagoVisualPhotoEditor({
   open,
   onClose,
   onConfirm,
+  uploadFile,
   initialUrl = null,
   initialTitle = "",
   initialAnecdote = "",
@@ -175,12 +178,22 @@ export default function ViagoVisualPhotoEditor({
     setPhotoBusy(true);
     setError(null);
     try {
-      const dataUrl = await compressImageFileToDataUrl(file);
-      setUrl(dataUrl);
+      if (uploadFile) {
+        const url = await uploadFile(file);
+        setUrl(url);
+      } else {
+        const dataUrl = await compressImageFileToDataUrl(file);
+        setUrl(dataUrl);
+      }
     } catch {
-      setError(
-        "Impossible de lire cette image sur ce téléphone. Essaie une photo JPG/PNG depuis la galerie."
-      );
+      try {
+        const dataUrl = await compressImageFileToDataUrl(file);
+        setUrl(dataUrl);
+      } catch {
+        setError(
+          "Impossible de lire cette image sur ce téléphone. Essaie une photo JPG/PNG depuis la galerie."
+        );
+      }
     } finally {
       setPhotoBusy(false);
     }

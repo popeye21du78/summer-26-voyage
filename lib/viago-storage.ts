@@ -164,27 +164,30 @@ export function getViagoStorageKey(
 function parseViagoJson(raw: string | null): ViagoStepContent | null {
   if (!raw) return null;
   try {
-    const parsed = JSON.parse(raw);
-    return {
-      anecdote: typeof parsed.anecdote === "string" ? parsed.anecdote : "",
-      photos: normalizePhotos(parsed.photos),
-      heroPhotoUrl:
-        parsed.heroPhotoUrl === null
-          ? null
-          : typeof parsed.heroPhotoUrl === "string"
-            ? parsed.heroPhotoUrl
-            : undefined,
-      dateOverride:
-        typeof parsed.dateOverride === "string" ? parsed.dateOverride : null,
-      displayTitleOverride:
-        typeof parsed.displayTitleOverride === "string"
-          ? parsed.displayTitleOverride
-          : null,
-      updatedAt: parsed.updatedAt,
-    };
+    return parseViagoStepFromUnknown(JSON.parse(raw));
   } catch {
     return null;
   }
+}
+
+/** Côté client (localStorage) et serveur (JSON PostgreSQL) — forme unifiée. */
+export function parseViagoStepFromUnknown(parsed: unknown): ViagoStepContent | null {
+  if (!parsed || typeof parsed !== "object") return null;
+  const p = parsed as Record<string, unknown>;
+  return {
+    anecdote: typeof p.anecdote === "string" ? p.anecdote : "",
+    photos: normalizePhotos(p.photos),
+    heroPhotoUrl:
+      p.heroPhotoUrl === null
+        ? null
+        : typeof p.heroPhotoUrl === "string"
+          ? p.heroPhotoUrl
+          : undefined,
+    dateOverride: typeof p.dateOverride === "string" ? p.dateOverride : null,
+    displayTitleOverride:
+      typeof p.displayTitleOverride === "string" ? p.displayTitleOverride : null,
+    updatedAt: p.updatedAt as string | undefined,
+  };
 }
 
 /**

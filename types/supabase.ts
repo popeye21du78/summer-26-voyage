@@ -147,6 +147,32 @@ export interface Database {
         };
         Relationships: [];
       };
+      viago_step_contents: {
+        Row: {
+          id: string;
+          user_id: string;
+          voyage_id: string;
+          step_id: string;
+          content: Json;
+          updated_at: string;
+        };
+        Insert: {
+          id?: string;
+          user_id: string;
+          voyage_id: string;
+          step_id: string;
+          content: Json;
+          updated_at?: string;
+        };
+        Update: {
+          user_id?: string;
+          voyage_id?: string;
+          step_id?: string;
+          content?: Json;
+          updated_at?: string;
+        };
+        Relationships: [];
+      };
     };
     Views: Record<string, never>;
     Functions: Record<string, never>;

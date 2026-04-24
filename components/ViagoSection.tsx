@@ -1,9 +1,10 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useCallback, useMemo } from "react";
 import { useInView } from "framer-motion";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import NextImage from "next/image";
 import { Image, FileText, X, Pencil } from "lucide-react";
 import type { Step } from "../types";
 import {
@@ -16,6 +17,15 @@ import {
   type ViagoStepContent,
   type ViagoTextSize,
 } from "../lib/viago-storage";
+import { ensureHttpsForViagoContent } from "@/lib/viago-migrate-blobs";
+import {
+  clearLocalViagoCache,
+  getViagoStepFromApi,
+  isViagoRemoteEnabled,
+  putViagoStepToApi,
+  uploadViagoFile,
+} from "@/lib/viago-remote-client";
+import { useProfileId } from "@/lib/hooks/use-profile-id";
 import { sampleLuminanceFromSrc } from "../lib/viago-image-tone";
 import ViagoVisualPhotoEditor from "./viago/ViagoVisualPhotoEditor";
 import { ViagoRichCourier } from "./viago/ViagoRichText";
@@ -108,6 +118,7 @@ function PhotoPolaroid({
   const freeTone =
     item.textTone ??
     (lum != null && lum > 0.52 ? ("dark" as const) : ("light" as const));
+  const isRemoteHttps = item.url.trim().startsWith("https://");
 
   return (
     <motion.div
@@ -121,7 +132,18 @@ function PhotoPolaroid({
     >
       <div className="overflow-hidden rounded-xl border-2 border-white/20 bg-white/10 p-2 shadow-xl backdrop-blur-sm">
         <div className="relative aspect-[4/3] w-full min-w-[192px] overflow-hidden md:min-w-[220px]">
-          <img src={item.url} alt="" className="h-full w-full object-cover" />
+          {isRemoteHttps ? (
+            <NextImage
+              src={item.url}
+              alt=""
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 50vw, 280px"
+              loading="lazy"
+            />
+          ) : (
+            <img src={item.url} alt="" className="h-full w-full object-cover" />
+          )}
           {item.overlayLayout && (hasTitle || hasBody) && (
             <div
               className="pointer-events-none absolute max-w-[94%] px-1"
@@ -249,10 +271,59 @@ export default function ViagoSection({
   const [stepDateDraft, setStepDateDraft] = useState("");
   const [heroDraftUrl, setHeroDraftUrl] = useState("");
 
+  const profileId = useProfileId();
+  const canLoadRemote = useMemo(
+    () =>
+      isViagoRemoteEnabled() &&
+      typeof profileId === "string" &&
+      profileId.length > 0 &&
+      (storageScope == null || storageScope === profileId),
+    [profileId, storageScope]
+  );
+  const canWriteRemote = canLoadRemote && !readOnly;
+
   useEffect(() => {
     setContent(getViagoStepContent(voyageId, step.id, storageScope));
     setAnecdoteDraft(step.contenu_voyage?.anecdote ?? "");
   }, [voyageId, step.id, step.contenu_voyage?.anecdote, storageScope]);
+
+  useEffect(() => {
+    if (!canLoadRemote) return;
+    let cancelled = false;
+    (async () => {
+      const remote = await getViagoStepFromApi(voyageId, step.id);
+      if (cancelled) return;
+      if (remote) {
+        setContent(remote);
+        return;
+      }
+      setContent(getViagoStepContent(voyageId, step.id, storageScope));
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, [canLoadRemote, voyageId, step.id, storageScope, profileId]);
+
+  const persistContent = useCallback(
+    async (next: ViagoStepContent) => {
+      setContent(next);
+      if (!canWriteRemote) {
+        saveViagoStepContent(voyageId, step.id, next, storageScope);
+        return;
+      }
+      try {
+        const migrated = await ensureHttpsForViagoContent(next, (file, role) =>
+          uploadViagoFile(file, voyageId, step.id, role)
+        );
+        const saved = await putViagoStepToApi(voyageId, step.id, migrated);
+        setContent(saved);
+        clearLocalViagoCache(voyageId, step.id, storageScope);
+      } catch {
+        saveViagoStepContent(voyageId, step.id, next, storageScope);
+      }
+    },
+    [canWriteRemote, voyageId, step.id, storageScope]
+  );
 
   const userAddedPhotos = content?.photos ?? [];
   const anecdote = content?.anecdote ?? step.contenu_voyage?.anecdote ?? "";
@@ -302,19 +373,13 @@ export default function ViagoSection({
 
   const handleSaveAnecdote = () => {
     const text = anecdoteDraft.trim();
-    saveViagoStepContent(
-      voyageId,
-      step.id,
-      {
-        anecdote: text,
-        photos: content?.photos ?? [],
-        heroPhotoUrl: content?.heroPhotoUrl,
-        dateOverride: content?.dateOverride,
-        displayTitleOverride: content?.displayTitleOverride,
-      },
-      storageScope
-    );
-    setContent(getViagoStepContent(voyageId, step.id, storageScope));
+    void persistContent({
+      anecdote: text,
+      photos: content?.photos ?? [],
+      heroPhotoUrl: content?.heroPhotoUrl,
+      dateOverride: content?.dateOverride,
+      displayTitleOverride: content?.displayTitleOverride,
+    });
     setShowAddAnecdote(false);
   };
 
@@ -325,52 +390,34 @@ export default function ViagoSection({
     } else {
       newPhotos = [...userAddedPhotos, item];
     }
-    saveViagoStepContent(
-      voyageId,
-      step.id,
-      {
-        anecdote: content?.anecdote ?? "",
-        photos: newPhotos,
-        heroPhotoUrl: content?.heroPhotoUrl,
-        dateOverride: content?.dateOverride,
-        displayTitleOverride: content?.displayTitleOverride,
-      },
-      storageScope
-    );
-    setContent(getViagoStepContent(voyageId, step.id, storageScope));
+    void persistContent({
+      anecdote: content?.anecdote ?? "",
+      photos: newPhotos,
+      heroPhotoUrl: content?.heroPhotoUrl,
+      dateOverride: content?.dateOverride,
+      displayTitleOverride: content?.displayTitleOverride,
+    });
   };
 
   const handleRemoveUserPhoto = (idx: number) => {
     const newPhotos = userAddedPhotos.filter((_, i) => i !== idx);
-    saveViagoStepContent(
-      voyageId,
-      step.id,
-      {
-        anecdote: content?.anecdote ?? "",
-        photos: newPhotos,
-        heroPhotoUrl: content?.heroPhotoUrl,
-        dateOverride: content?.dateOverride,
-        displayTitleOverride: content?.displayTitleOverride,
-      },
-      storageScope
-    );
-    setContent(getViagoStepContent(voyageId, step.id, storageScope));
+    void persistContent({
+      anecdote: content?.anecdote ?? "",
+      photos: newPhotos,
+      heroPhotoUrl: content?.heroPhotoUrl,
+      dateOverride: content?.dateOverride,
+      displayTitleOverride: content?.displayTitleOverride,
+    });
   };
 
   const saveStepMeta = () => {
-    saveViagoStepContent(
-      voyageId,
-      step.id,
-      {
-        photos: content?.photos ?? [],
-        anecdote: content?.anecdote ?? "",
-        displayTitleOverride: stepTitleDraft.trim() || null,
-        dateOverride: stepDateDraft.trim() || null,
-        heroPhotoUrl: heroDraftUrl.trim() || null,
-      },
-      storageScope
-    );
-    setContent(getViagoStepContent(voyageId, step.id, storageScope));
+    void persistContent({
+      photos: content?.photos ?? [],
+      anecdote: content?.anecdote ?? "",
+      displayTitleOverride: stepTitleDraft.trim() || null,
+      dateOverride: stepDateDraft.trim() || null,
+      heroPhotoUrl: heroDraftUrl.trim() || null,
+    });
     setEditStepOpen(false);
   };
 
@@ -463,8 +510,13 @@ export default function ViagoSection({
             const f = e.target.files?.[0];
             if (!f?.type.startsWith("image/")) return;
             try {
-              const u = await compressImageFileToDataUrl(f);
-              setHeroDraftUrl(u);
+              if (canWriteRemote) {
+                const u = await uploadViagoFile(f, voyageId, step.id, "hero");
+                setHeroDraftUrl(u);
+              } else {
+                const u = await compressImageFileToDataUrl(f);
+                setHeroDraftUrl(u);
+              }
             } catch {
               /* ignore */
             }
@@ -665,6 +717,11 @@ export default function ViagoSection({
           open={showVisualPhotoEditor}
           onClose={closeVisualEditor}
           onConfirm={handleVisualPhotoConfirm}
+          uploadFile={
+            canWriteRemote
+              ? (f) => uploadViagoFile(f, voyageId, step.id, "polaroid")
+              : undefined
+          }
           initialUrl={visualInitial.url}
           initialTitle={visualInitial.title}
           initialAnecdote={visualInitial.anecdote}
