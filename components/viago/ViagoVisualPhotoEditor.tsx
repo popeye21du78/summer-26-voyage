@@ -288,8 +288,14 @@ export default function ViagoVisualPhotoEditor({
   const handleConfirm = () => {
     const item = buildItem();
     if (!item) return;
-    onConfirm(item);
-    onClose();
+    try {
+      onConfirm(item);
+      onClose();
+    } catch {
+      setError(
+        "Impossible d'enregistrer (mémoire du navigateur pleine). Essaie une photo plus légère ou supprime d'anciennes photos de l'étape."
+      );
+    }
   };
 
   const titleSz =
@@ -428,8 +434,8 @@ export default function ViagoVisualPhotoEditor({
             </button>
           </div>
 
-          {/* Barre d'actions — toujours sur le dessus (Valider fiable au doigt). */}
-          <div className="relative z-[300] flex shrink-0 items-stretch justify-center gap-2 border-t border-white/10 bg-[#150f0d]/95 px-3 py-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] backdrop-blur-md">
+          {/* Barre d'actions : z-index au-dessus du panneau texte (z-320) pour que Valider reste cliquable sur iOS. */}
+          <div className="relative z-[400] flex shrink-0 items-stretch justify-center gap-2 border-t border-white/10 bg-[#150f0d]/95 px-3 py-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] shadow-[0_-8px_24px_rgba(0,0,0,0.4)] backdrop-blur-md">
             <button
               type="button"
               disabled={photoBusy}
