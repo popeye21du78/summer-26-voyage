@@ -22,6 +22,17 @@ type Props = {
    * Pareil, version haut (par ex. bouton retour « ← »). 0 par défaut.
    */
   topInsetPx?: number;
+  /**
+   * Plafond de zoom sur `fitBounds` : plus bas = itinéraire moins « serré »
+   * (mieux pour voyages courts). Défaut 12.2.
+   */
+  maxZoomFit?: number;
+  /**
+   * Si vrai, recentre légèrement sur l’étape active (pano). Désactiver
+   * garde l’itinéraire entier au cadre (recommandé quand la carte est dans
+   * un long scroll, section Stars).
+   */
+  panToActiveStep?: boolean;
 };
 
 const BW_MAP_STYLE = "mapbox://styles/mapbox/light-v11";
@@ -32,6 +43,8 @@ export default function StarFlipMap({
   mapboxToken,
   bottomInsetPx = 0,
   topInsetPx = 0,
+  maxZoomFit = 12.2,
+  panToActiveStep = true,
 }: Props) {
   const mapRef = useRef<MapRef | null>(null);
   const hasDoneInitialFitRef = useRef(false);
@@ -152,11 +165,9 @@ export default function StarFlipMap({
         {
           padding,
           /**
-           * `maxZoom` abaissé de 14.2 → 12.2 : le fit se relâche un peu,
-           * ce qui évite les cadrages trop « zoomés » sur les voyages
-           * courts (2-3 étapes proches) et laisse respirer la route.
+           * `maxZoom` réglable (défaut 12.2) : plus bas = moins serré.
            */
-          maxZoom: 12.2,
+          maxZoom: maxZoomFit,
           duration: animate ? 500 : 0,
           essential: true,
         }
@@ -194,7 +205,7 @@ export default function StarFlipMap({
       cancelAnimationFrame(raf2);
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [routeCoordinates, steps, bottomInsetPx, topInsetPx]);
+  }, [routeCoordinates, steps, bottomInsetPx, topInsetPx, maxZoomFit]);
 
   /** Re-fit si la taille du conteneur change (utile quand le verso de la carte est dévoilé). */
   useEffect(() => {
@@ -214,13 +225,14 @@ export default function StarFlipMap({
     ro.observe(container);
     return () => ro.disconnect();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [routeCoordinates, steps]);
+  }, [routeCoordinates, steps, maxZoomFit, bottomInsetPx, topInsetPx]);
 
   /**
    * Suivi du step actif : on pan doucement vers le step sans jamais modifier le zoom.
    * Le zoom a été fixé une fois par fitBounds — le changer ici cassait le cadrage de l'itinéraire.
    */
   useEffect(() => {
+    if (!panToActiveStep) return;
     const map = mapRef.current;
     const step = steps[activeStepIndex];
     if (!map || !step) return;
@@ -230,7 +242,7 @@ export default function StarFlipMap({
     } catch {
       // ignore
     }
-  }, [activeStepIndex, steps]);
+  }, [activeStepIndex, panToActiveStep, steps]);
 
   useEffect(() => {
     /**

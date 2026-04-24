@@ -16,7 +16,7 @@ export default function AccueilEditorialBlock({
   if (!thought && !editorialCard) return null;
 
   return (
-    <div className={`grid gap-3 ${compact ? "pt-4" : ""}`}>
+    <div className={`grid shrink-0 gap-3 ${compact ? "pt-2" : "pt-0"}`}>
       {thought ? (
         <Link
           href={thought.href}

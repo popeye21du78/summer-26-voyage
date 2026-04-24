@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo } from "react";
 import Link from "next/link";
 import { AlertCircle, BookOpen, Compass, MapPin, Sparkles } from "lucide-react";
 import type { VoyageStateResponse } from "@/types/voyage-state";
@@ -38,6 +38,7 @@ export default function AccueilHub({ profileId, profileName }: Props) {
 
   const viewModel = buildAccueilViewModel({ state, profileId, profileName });
   const tripDaySteps = toTripDaySteps(state);
+  const isUpcoming = UPCOMING_SCENARIOS.has(viewModel.scenarioId);
 
   if (loading) {
     return (
@@ -49,52 +50,29 @@ export default function AccueilHub({ profileId, profileName }: Props) {
     );
   }
 
-  /**
-   * Demande user : « la page d'accueil reste scrollable pour beaucoup alors
-   * que ça ne devrait pas être le cas ». On force donc une hauteur EXACTE
-   * (100dvh - bottom-nav 4rem) et `overflow-hidden` pour tous les layouts
-   * sauf `onTrip` — celui-ci contient la fiche du jour, la mini-map et la
-   * liste des étapes, qui ne peuvent pas tenir dans un seul écran sans
-   * scroll interne.
-   */
-  const scrollable = viewModel.layout === "onTrip";
-
   return (
-    <main
-      className={`relative flex w-full flex-col bg-[var(--color-bg-main)] ${
-        scrollable ? "min-h-[calc(100dvh-4rem)] overflow-y-auto" : "h-[calc(100dvh-4rem)] overflow-hidden"
-      }`}
-    >
+    <main className="relative flex h-[calc(100dvh-4rem)] min-h-0 w-full flex-col overflow-hidden bg-[var(--color-bg-main)]">
       <AccueilBackground
         variant={viewModel.background}
         stepId={state?.stepsDuJour?.[0]?.id}
         stepName={state?.stepsDuJour?.[0]?.nom}
       />
 
-      <div
-        className={`relative z-10 flex min-w-0 flex-1 flex-col px-5 pb-[max(1.25rem,env(safe-area-inset-bottom))] pt-[calc(env(safe-area-inset-top,0px)+1.25rem)] ${
-          scrollable ? "min-h-[calc(100dvh-4rem)]" : "h-full"
-        }`}
-      >
-        <div className={`flex shrink-0 ${viewModel.layout === "onTrip" ? "justify-start" : "justify-center"} pt-1`}>
+      <div className="relative z-10 flex h-full min-h-0 min-w-0 flex-1 flex-col overflow-hidden px-5 pb-[max(1.25rem,env(safe-area-inset-bottom))] pt-[calc(env(safe-area-inset-top,0px)+1.25rem)]">
+        <div
+          className={`flex shrink-0 ${viewModel.layout === "onTrip" ? "justify-start" : "justify-center"} pt-1`}
+        >
           {/**
-           * Logo colorisé via MASQUE CSS et non via filtre :
-           * `sepia()/hue-rotate()` ne peut pas recolorer un PNG dont les pixels
-           * sont NOIRS (sepia d'un pixel #000 reste #000 → logo qui reste noir).
-           * Avec `mask-image`, le PNG ne sert plus qu'à découper un gradient
-           * accent peint dessous : le logo prend la couleur de l'ambiance active.
-           *
-           * Dans les scénarios upcoming (compte à rebours), on réduit le logo
-           * pour laisser place au « J-X » central.
+           * Logo : toujours l’élément le plus imposant visuellement (comme
+           * l’accueil « personae » classiques ex. profil Thomas) — y compris
+           * compte à rebours / fiche du jour.
            */}
           <div
             aria-hidden
             className={
               viewModel.layout === "onTrip"
-                ? "h-[5.5rem] w-[15rem]"
-                : UPCOMING_SCENARIOS.has(viewModel.scenarioId)
-                  ? "h-[6rem] w-[13rem]"
-                  : "h-[min(48vw,16rem)] w-[min(56vw,20rem)]"
+                ? "h-[min(46vw,6.5rem)] w-[min(52vw,16rem)] sm:h-28 sm:w-44"
+                : "h-[min(50vw,17rem)] w-[min(58vw,21rem)] max-w-[min(92vw,24rem)]"
             }
             style={{
               WebkitMaskImage: "url(/A1.png)",
@@ -113,31 +91,39 @@ export default function AccueilHub({ profileId, profileName }: Props) {
           />
         </div>
 
-        <div
-          className={`flex min-h-0 flex-1 flex-col ${
-            viewModel.layout === "onTrip" ? "justify-start py-5" : "justify-center py-4"
-          }`}
-        >
-          {UPCOMING_SCENARIOS.has(viewModel.scenarioId) ? (
-            <UpcomingCountdownHero
-              daysLeft={state?.joursRestants ?? 0}
-              hoursLeft={state?.hoursUntilNextTripStart ?? 0}
-              viewModel={viewModel}
-            />
-          ) : (
-            <HeroSlotRenderer
-              state={state}
-              viewModel={viewModel}
-              daySteps={tripDaySteps}
-            />
-          )}
+        <div className="flex min-h-0 flex-1 flex-col gap-3 overflow-y-auto overflow-x-hidden [scrollbar-gutter:stable]">
+          <div
+            className={`flex w-full shrink-0 flex-col ${
+              viewModel.layout === "onTrip"
+                ? "justify-start py-5"
+                : isUpcoming
+                  ? "justify-start py-3"
+                  : "justify-start py-4"
+            }`}
+          >
+            {isUpcoming ? (
+              <UpcomingCountdownHero
+                departureDate={
+                  state?.voyagesPrevus?.[0]?.dateDebut ?? state?.voyagePrevu?.dateDebut
+                }
+                joursRestants={state?.joursRestants}
+                viewModel={viewModel}
+              />
+            ) : (
+              <HeroSlotRenderer
+                state={state}
+                viewModel={viewModel}
+                daySteps={tripDaySteps}
+              />
+            )}
+          </div>
+          <AccueilEditorialBlock
+            thought={viewModel.dailyThought}
+            editorialCard={viewModel.editorialCard}
+            compact={viewModel.layout === "onTrip" || isUpcoming}
+          />
+          <div className="h-1 shrink-0" aria-hidden />
         </div>
-
-        <AccueilEditorialBlock
-          thought={viewModel.dailyThought}
-          editorialCard={viewModel.editorialCard}
-          compact={viewModel.layout === "onTrip"}
-        />
       </div>
     </main>
   );
@@ -375,59 +361,114 @@ function HeroSlotRenderer({
 }
 
 /**
- * Hero « compte à rebours » central pour les scénarios `upcoming_*`.
- * Demande user : « le compte à rebours n'a toujours pas été fait
- * un élément central ». Ici on le promeut en hero : grand nombre J-X,
- * titre du voyage en dessous, subline + CTA du view-model.
+ * Même ancrage heure que l’API `voyage-state` (départ 8 h locale).
+ */
+function departureTargetMs(yyyyMmDd: string): number {
+  return new Date(`${yyyyMmDd}T08:00:00`).getTime();
+}
+
+/**
+ * Compte à rebours : jours, heures, minutes, secondes (tick 1 s) + phrase,
+ * d’après `dateDebut` (YYYY-MM-DD) du prochain voyage.
  */
 function UpcomingCountdownHero({
-  daysLeft,
-  hoursLeft,
+  departureDate,
+  joursRestants,
   viewModel,
 }: {
-  daysLeft: number;
-  hoursLeft: number;
+  departureDate: string | undefined;
+  joursRestants: number | undefined;
   viewModel: ReturnType<typeof buildAccueilViewModel>;
 }) {
-  const underDay = daysLeft <= 0 || hoursLeft > 0 && hoursLeft < 24;
-  const bigNumber = underDay ? Math.max(0, Math.floor(hoursLeft)) : Math.max(0, daysLeft);
-  const unitLabel = underDay
-    ? bigNumber === 1
-      ? "heure avant le départ"
-      : "heures avant le départ"
-    : bigNumber === 1
-      ? "jour avant le départ"
-      : "jours avant le départ";
+  const [now, setNow] = useState(() => Date.now());
+
+  const targetMs = useMemo(
+    () => (departureDate ? departureTargetMs(departureDate) : null),
+    [departureDate]
+  );
+
+  useEffect(() => {
+    const t = setInterval(() => setNow(Date.now()), 1000);
+    return () => clearInterval(t);
+  }, []);
+
+  const parts = (() => {
+    if (targetMs == null) {
+      return { days: 0, h: 0, m: 0, s: 0, done: true as const, noDate: true as const };
+    }
+    const d = targetMs - now;
+    if (d <= 0) {
+      return { days: 0, h: 0, m: 0, s: 0, done: true as const, noDate: false as const };
+    }
+    const sec = Math.floor(d / 1000);
+    return {
+      days: Math.floor(sec / 86400),
+      h: Math.floor((sec % 86400) / 3600),
+      m: Math.floor((sec % 3600) / 60),
+      s: sec % 60,
+      done: false as const,
+      noDate: false as const,
+    };
+  })();
+
+  const humanLine = parts.noDate
+    ? joursRestants != null
+      ? `Environ J-${joursRestants} — date exacte bientôt dans l’agenda.`
+      : "Définis une date de départ pour un décompte précis."
+    : parts.done
+      ? "C’est l’heure : bon voyage !"
+      : [
+            parts.days > 0 ? `${parts.days} ${parts.days === 1 ? "jour" : "jours"}` : null,
+            `${parts.h} h`,
+            `${parts.m} min`,
+            `${parts.s} s`,
+          ]
+            .filter(Boolean)
+            .join(" · ");
+
+  const Unit = ({ v, u }: { v: number; u: string }) => (
+    <div className="flex min-w-0 flex-1 flex-col items-center justify-center rounded-2xl border border-white/18 bg-white/6 px-1 py-2.5 backdrop-blur-sm">
+      <span className="font-title text-[1.6rem] font-bold leading-none tabular-nums text-white sm:text-[1.85rem]">
+        {v}
+      </span>
+      <span className="mt-1 font-courier text-[7px] font-bold uppercase tracking-[0.2em] text-white/50">
+        {u}
+      </span>
+    </div>
+  );
 
   return (
-    <div className="flex flex-col items-center gap-6 text-center">
+    <div className="flex w-full min-w-0 flex-col items-center gap-4 text-center">
       {viewModel.eyebrow ? (
-        <p className="font-title text-xs font-bold uppercase tracking-[0.4em] text-[var(--color-accent-start)]">
+        <p className="font-title text-[0.7rem] font-bold uppercase tracking-[0.32em] text-[var(--color-accent-start)]">
           {viewModel.eyebrow}
         </p>
       ) : null}
 
-      <div className="flex flex-col items-center">
-        <span
-          className="font-title text-[6rem] font-bold leading-none tracking-tight text-white sm:text-[7rem]"
-          style={{
-            textShadow:
-              "0 0 32px color-mix(in srgb, var(--color-accent-start) 45%, transparent)",
-          }}
-        >
-          {`J-${bigNumber}`}
-        </span>
-        <span className="mt-2 font-title text-[11px] font-bold uppercase tracking-[0.32em] text-white/70">
-          {unitLabel}
-        </span>
-      </div>
+      {!parts.noDate && !parts.done ? (
+        <>
+          <div className="grid w-full max-w-sm grid-cols-4 gap-1.5 px-0.5 sm:gap-2">
+            <Unit v={parts.days} u="jours" />
+            <Unit v={parts.h} u="h" />
+            <Unit v={parts.m} u="min" />
+            <Unit v={parts.s} u="s" />
+          </div>
+          <p className="max-w-[98%] font-courier text-[0.7rem] leading-relaxed text-white/60">
+            {humanLine}
+          </p>
+        </>
+      ) : (
+        <p className="max-w-[95%] font-courier text-xs leading-relaxed text-white/55">
+          {humanLine}
+        </p>
+      )}
 
-      <h1 className="max-w-[88%] font-title text-[1.8rem] font-bold leading-[1.05] tracking-tight text-white">
+      <h1 className="max-w-[95%] font-title text-[1.4rem] font-bold leading-tight tracking-tight text-white sm:text-[1.6rem]">
         {viewModel.headline}
       </h1>
 
       {viewModel.subheadline ? (
-        <p className="max-w-[90%] font-courier text-sm leading-relaxed text-white/65">
+        <p className="max-w-[95%] font-courier text-[0.8rem] leading-relaxed text-white/55">
           {viewModel.subheadline}
         </p>
       ) : null}
@@ -436,7 +477,7 @@ function UpcomingCountdownHero({
         <GentleAlert>{viewModel.gentleAlert}</GentleAlert>
       ) : null}
 
-      <div className="flex w-full max-w-sm flex-col gap-3 pt-2">
+      <div className="flex w-full max-w-sm flex-col gap-2.5 pt-1">
         <CtaButton cta={viewModel.primaryCta} />
         {viewModel.secondaryCta ? <CtaButton cta={viewModel.secondaryCta} /> : null}
       </div>

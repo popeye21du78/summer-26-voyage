@@ -101,7 +101,7 @@ export default function StarFlipCard({ itinerary, isFlipped, onFlip, compact }: 
 
         {/* Verso — chunk lourd seulement si retourné */}
         <div
-          className="absolute inset-0 w-full overflow-hidden rounded-2xl border border-white/6 bg-[var(--color-bg-main)] shadow-lg shadow-black/30"
+          className="absolute inset-0 w-full overflow-x-hidden overflow-y-auto rounded-2xl border border-white/6 bg-[var(--color-bg-main)] shadow-lg shadow-black/30"
           style={{
             backfaceVisibility: "hidden",
             transform: "rotateY(180deg)",
