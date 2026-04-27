@@ -14,6 +14,20 @@ function addDaysIso(iso: string, days: number): string {
   return dt.toISOString().slice(0, 10);
 }
 
+/**
+ * Jour du road-trip (1 = jour de l’ancre) à partir d’une date d’étape, en UTC
+ * sur les seuls champs Y-M-D (évite le décalage fuseau / « jours = numéro d’étape »).
+ */
+export function tripDayIndexFromDates(anchorIso: string, stepIso: string): number {
+  const [ya, ma, da] = anchorIso.split("-").map(Number);
+  const [yb, mb, db] = stepIso.split("-").map(Number);
+  if (!ya || !ma || !da || !yb || !mb || !db) return 1;
+  const t0 = Date.UTC(ya, ma - 1, da);
+  const t1 = Date.UTC(yb, mb - 1, db);
+  const diff = Math.round((t1 - t0) / 86400000);
+  return Math.max(1, diff + 1);
+}
+
 function isPassageLike(
   step: Step,
   n: number,

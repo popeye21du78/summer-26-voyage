@@ -14,6 +14,7 @@ import {
   upsertCreatedVoyage,
   type CreatedVoyage,
 } from "@/lib/created-voyages";
+import { loadItineraireOverride } from "@/lib/voyage-local-overrides";
 import { createdVoyageToVoyageViewSafe } from "@/lib/created-voyage-page";
 import { takeCreatedVoyageHandoff } from "@/lib/voyage-created-handoff";
 import {
@@ -255,14 +256,31 @@ export default function VoyageDetailPage() {
 
   const stepCoords = useMemo(() => {
     if (!voyage) return [];
-    return voyage.steps
-      .filter((s) => s.coordonnees?.lat != null && s.coordonnees?.lng != null)
-      .map((s) => ({
+    const byId = new Map(voyage.steps.map((s) => [s.id, s]));
+    const valid = new Set(voyage.steps.map((s) => s.id));
+    const ov = typeof window !== "undefined" ? loadItineraireOverride(voyage.id) : null;
+    let ids: string[];
+    if (ov?.order?.length) {
+      const o = ov.order.filter((id) => valid.has(id));
+      const missing = voyage.steps.map((s) => s.id).filter((id) => !o.includes(id));
+      ids = o.length > 0 ? [...o, ...missing] : voyage.steps.map((s) => s.id);
+    } else {
+      ids = voyage.steps.map((s) => s.id);
+    }
+    const out: { id: string; nom: string; lat: number; lng: number }[] = [];
+    for (const id of ids) {
+      const s = byId.get(id);
+      if (!s?.coordonnees || s.coordonnees.lat == null || s.coordonnees.lng == null) {
+        continue;
+      }
+      out.push({
         id: s.id,
         nom: s.nom,
         lat: s.coordonnees.lat,
         lng: s.coordonnees.lng,
-      }));
+      });
+    }
+    return out;
   }, [voyage]);
 
   const isCreatedRoute = (slug && slug.toLowerCase().startsWith("created-")) || false;
@@ -300,6 +318,18 @@ export default function VoyageDetailPage() {
         <Link
           href="/mon-espace"
           className="absolute left-4 top-[max(1rem,env(safe-area-inset-top))] z-10 flex items-center gap-1.5 rounded-full bg-black/40 px-3 py-1.5 font-courier text-xs font-bold text-white backdrop-blur-sm transition hover:bg-black/60"
+          onClick={() => {
+            const id = voyage.id;
+            if (!id.toLowerCase().startsWith("created-")) return;
+            const cv = getCreatedVoyageById(id);
+            if (cv) {
+              try {
+                upsertCreatedVoyage(cv);
+              } catch {
+                /* ignore */
+              }
+            }
+          }}
         >
           <ArrowLeft className="h-3.5 w-3.5" />
           Retour

@@ -76,7 +76,11 @@ import { withReturnTo } from "@/lib/return-to";
 import type { Voyage } from "@/data/mock-voyages";
 import type { Step } from "@/types";
 import { useProfileId } from "@/lib/hooks/use-profile-id";
-import { computeStepArrivalDates, defaultNuits } from "@/lib/voyage-step-dates";
+import {
+  computeStepArrivalDates,
+  defaultNuits,
+  tripDayIndexFromDates,
+} from "@/lib/voyage-step-dates";
 import { useWindowDndAutoscroll } from "@/lib/hooks/use-window-dnd-autoscroll";
 
 function stepNuiteeKind(step: Step, override: NuiteeOverride | undefined): NuiteeOverride {
@@ -84,6 +88,26 @@ function stepNuiteeKind(step: Step, override: NuiteeOverride | undefined): Nuite
   if (step.nuitee_type === "passage") return "passage";
   if (step.nuitee_type === "airbnb") return "airbnb";
   return "van";
+}
+
+/**
+ * Ordre d’étapes efficace : tant que le profil n’est pas chargé, `stepsOrder`
+ * peut rester vide — on lit l’override ou l’ordre du voyage.
+ */
+function getEffectiveStepOrder(voyage: Voyage, stepsOrder: string[]): string[] {
+  if (stepsOrder.length > 0) return stepsOrder;
+  const valid = new Set(voyage.steps.map((s) => s.id));
+  try {
+    const ov = loadItineraireOverride(voyage.id);
+    if (ov?.order?.length) {
+      const o = ov.order.filter((id) => valid.has(id));
+      const missing = voyage.steps.map((s) => s.id).filter((id) => !o.includes(id));
+      return o.length > 0 ? [...o, ...missing] : voyage.steps.map((s) => s.id);
+    }
+  } catch {
+    /* ignore */
+  }
+  return voyage.steps.map((s) => s.id);
 }
 
 function formatDateRange(debut: string, fin: string) {
@@ -209,13 +233,15 @@ function SortableStepRow({
             {onRemove && (
               <button
                 type="button"
+                onPointerDownCapture={(e) => e.stopPropagation()}
                 onPointerDown={(e) => e.stopPropagation()}
                 onClick={(e) => {
                   e.stopPropagation();
                   onRemove();
                 }}
-                className="relative z-30 flex h-8 w-8 touch-manipulation items-center justify-center rounded-lg border border-red-500/30 bg-black/30 text-red-200 shadow backdrop-blur-sm transition hover:bg-red-500/20"
+                className="relative z-[60] flex h-9 w-9 touch-manipulation items-center justify-center rounded-lg border border-red-500/30 bg-black/30 text-red-200 shadow backdrop-blur-sm transition hover:bg-red-500/20"
                 aria-label="Supprimer cette étape"
+                style={{ touchAction: "manipulation" }}
               >
                 <Trash2 className="h-3 w-3" />
               </button>
@@ -471,6 +497,8 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
   const [nuiteeTypeByStep, setNuiteeTypeByStep] = useState<Record<string, NuiteeOverride>>({});
   const [fuelParams, setFuelParams] = useState<FuelParams>(() => ({ ...DEFAULT_FUEL }));
   const [routeProfile, setRouteProfile] = useState<MapboxRouteProfile>("driving");
+  const [saveDraftBusy, setSaveDraftBusy] = useState(false);
+  const [saveDraftMsg, setSaveDraftMsg] = useState<string | null>(null);
 
   const orderStorageKey = useMemo(() => {
     if (profileId === undefined) return "";
@@ -505,16 +533,23 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
   }, [voyage.id, voyage.steps]);
 
   useEffect(() => {
-    if (profileId === undefined) return;
-
     const valid = new Set(voyage.steps.map((s) => s.id));
     const legacyOrderKey = `voyage_steps_order_${voyage.id}`;
 
     try {
-      let raw = orderStorageKey ? localStorage.getItem(orderStorageKey) : null;
-      if (!raw && profileId && orderStorageKey !== legacyOrderKey) {
+      let raw: string | null = null;
+      if (orderStorageKey) {
+        raw = localStorage.getItem(orderStorageKey);
+      }
+      if (!raw) {
         raw = localStorage.getItem(legacyOrderKey);
-        if (raw && orderStorageKey) localStorage.setItem(orderStorageKey, raw);
+        if (raw && orderStorageKey && orderStorageKey !== legacyOrderKey) {
+          try {
+            localStorage.setItem(orderStorageKey, raw);
+          } catch {
+            /* ignore */
+          }
+        }
       }
       if (raw) {
         const ids = JSON.parse(raw) as string[];
@@ -626,6 +661,12 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
     return out;
   }, [stepsOrder, stepById, voyage.steps]);
 
+  /** Doit toujours refléter les ids visibles (sinon @dnd-kit casse poignée / poubelle). */
+  const sortableItemIds = useMemo(
+    () => getEffectiveStepOrder(voyage, stepsOrder),
+    [voyage, stepsOrder]
+  );
+
   /**
    * Segments routiers : on recolle les tronçons quand l’ordre a changé
    * (mêmes arêtes qu’au dernier calcul Mapbox).
@@ -648,35 +689,74 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
     return null;
   }, [voyage.id, voyage.routeLegs, orderedSteps, isCreatedLocal]);
 
-  const persistCreatedVoyage = useCallback(async (cv: CreatedVoyage) => {
-    const wps = cv.steps
-      .filter((s) => s.lat != null && s.lng != null)
-      .map((s) => ({ lat: s.lat as number, lng: s.lng as number }));
-    const prof = cv.routeProfile ?? "driving";
-    const route =
-      wps.length >= 2
-        ? await fetchVoyageRouteForSave(wps, {
-            profile: prof,
-            excludeMotorway: prof === "driving",
-          })
-        : null;
-    const hasLine = wps.length >= 2 && route?.geometry;
-    const next: CreatedVoyage = {
-      ...cv,
-      routeProfile: prof,
-      routeGeometry: hasLine ? (route?.geometry ?? null) : null,
-      stats:
-        wps.length >= 2 && route
-          ? { totalKm: route.distanceKm, totalMin: route.durationMin }
-          : wps.length < 2
-            ? undefined
-            : cv.stats,
-      legs: wps.length >= 2 && route ? route.legs : [],
-    };
-    upsertCreatedVoyage(next);
-    void persistCreatedVoyageOnServer(next);
-    window.location.reload();
-  }, []);
+  const persistCreatedVoyage = useCallback(
+    async (cv: CreatedVoyage, opts?: { skipReload?: boolean }) => {
+      const wps = cv.steps
+        .filter((s) => s.lat != null && s.lng != null)
+        .map((s) => ({ lat: s.lat as number, lng: s.lng as number }));
+      const prof = cv.routeProfile ?? "driving";
+      const route =
+        wps.length >= 2
+          ? await fetchVoyageRouteForSave(wps, {
+              profile: prof,
+              excludeMotorway: prof === "driving",
+            })
+          : null;
+      const hasLine = wps.length >= 2 && route?.geometry;
+      const next: CreatedVoyage = {
+        ...cv,
+        routeProfile: prof,
+        routeGeometry: hasLine ? (route?.geometry ?? null) : null,
+        stats:
+          wps.length >= 2 && route
+            ? { totalKm: route.distanceKm, totalMin: route.durationMin }
+            : wps.length < 2
+              ? undefined
+              : cv.stats,
+        legs: wps.length >= 2 && route ? route.legs : [],
+      };
+      upsertCreatedVoyage(next);
+      const ok = await persistCreatedVoyageOnServer(next);
+      if (!opts?.skipReload) {
+        window.location.reload();
+      }
+      return ok;
+    },
+    []
+  );
+
+  const saveCreatedDraft = useCallback(async () => {
+    if (!isCreatedLocal) return;
+    setSaveDraftBusy(true);
+    setSaveDraftMsg(null);
+    try {
+      const cv0 =
+        getCreatedVoyageById(voyage.id) ??
+        buildCreatedVoyageFromViewState(
+          voyage,
+          orderedSteps,
+          nuiteeTypeByStep,
+          nuitsByStep
+        );
+      const ok = await persistCreatedVoyage(cv0, { skipReload: true });
+      setSaveDraftMsg(
+        ok
+          ? "Ébauche enregistrée."
+          : "Impossible d’enregistrer pour l’instant."
+      );
+    } catch {
+      setSaveDraftMsg("Impossible d’enregistrer pour l’instant.");
+    } finally {
+      setSaveDraftBusy(false);
+    }
+  }, [
+    isCreatedLocal,
+    voyage,
+    orderedSteps,
+    nuiteeTypeByStep,
+    nuitsByStep,
+    persistCreatedVoyage,
+  ]);
 
   useEffect(() => {
     const p =
@@ -739,67 +819,76 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
   const onRemoveCreatedStep = useCallback(
     async (stepId: string) => {
       if (!isCreatedLocal) return;
-      const stored = getCreatedVoyageById(voyage.id);
-      const cv: CreatedVoyage =
-        stored ??
-        ({
-          id: voyage.id,
-          titre: voyage.titre,
-          sousTitre: voyage.sousTitre,
-          createdAt: new Date().toISOString(),
-          dateDebut: voyage.dateDebut,
-          steps: orderedSteps.map((st) => stepToCreatedVoyageStep(st)),
-          routeGeometry: voyage.routeGeometry ?? null,
-          stats: voyage.stats
-            ? { totalKm: voyage.stats.km ?? 0, totalMin: 0 }
-            : undefined,
-          legs: voyage.routeLegs,
-          routeProfile: voyage.routeProfile ?? "driving",
-        } as CreatedVoyage);
-      const fromCv = new Map(cv.steps.map((x) => [x.id, x]));
-      const remaining: CreatedVoyageStep[] = [];
-      for (const st of orderedSteps) {
-        if (st.id === stepId) continue;
-        const row = fromCv.get(st.id) ?? stepToCreatedVoyageStep(st);
-        remaining.push(row);
-      }
-      if (remaining.length === 0) {
-        removeCreatedVoyage(voyage.id);
-        void deleteCreatedVoyageOnServer(voyage.id);
-        try {
-          saveItineraireOverride(voyage.id, {
-            order: [],
-            removed: [],
-            nuiteeByStepId: {},
-            customStepsById: {},
-          });
-        } catch {
-          /* ignore */
+      try {
+        const stored = getCreatedVoyageById(voyage.id);
+        const cv: CreatedVoyage =
+          stored ??
+          ({
+            id: voyage.id,
+            titre: voyage.titre,
+            sousTitre: voyage.sousTitre,
+            createdAt: new Date().toISOString(),
+            dateDebut: voyage.dateDebut,
+            steps: orderedSteps.map((st) => stepToCreatedVoyageStep(st)),
+            routeGeometry: voyage.routeGeometry ?? null,
+            stats: voyage.stats
+              ? { totalKm: voyage.stats.km ?? 0, totalMin: 0 }
+              : undefined,
+            legs: voyage.routeLegs,
+            routeProfile: voyage.routeProfile ?? "driving",
+          } as CreatedVoyage);
+        const fromCv = new Map(cv.steps.map((x) => [x.id, x]));
+        const remaining: CreatedVoyageStep[] = [];
+        for (const st of orderedSteps) {
+          if (st.id === stepId) continue;
+          const row = fromCv.get(st.id) ?? stepToCreatedVoyageStep(st);
+          remaining.push(row);
         }
-        router.push("/mon-espace");
-        return;
-      }
-      const anchor =
-        cv.dateDebut ?? remaining[0].date_prevue ?? new Date().toISOString().slice(0, 10);
-      const newSteps = recomputeCreatedStepDates(remaining, anchor);
-      const ov = loadItineraireOverride(voyage.id);
-      if (ov) {
-        const nextCustom = { ...(ov.customStepsById ?? {}) };
-        delete nextCustom[stepId];
-        saveItineraireOverride(voyage.id, {
-          ...ov,
-          order: newSteps.map((s) => s.id),
-          customStepsById: nextCustom,
-        });
-      }
-      if (orderStorageKey) {
-        try {
-          localStorage.setItem(orderStorageKey, JSON.stringify(newSteps.map((s) => s.id)));
-        } catch {
-          /* ignore */
+        if (remaining.length === 0) {
+          removeCreatedVoyage(voyage.id);
+          void deleteCreatedVoyageOnServer(voyage.id);
+          try {
+            saveItineraireOverride(voyage.id, {
+              order: [],
+              removed: [],
+              nuiteeByStepId: {},
+              customStepsById: {},
+            });
+          } catch {
+            /* ignore */
+          }
+          router.push("/mon-espace");
+          return;
         }
+        const anchor =
+          cv.dateDebut ?? remaining[0].date_prevue ?? new Date().toISOString().slice(0, 10);
+        const newSteps = recomputeCreatedStepDates(remaining, anchor);
+        const ov = loadItineraireOverride(voyage.id);
+        if (ov) {
+          const nextCustom = { ...(ov.customStepsById ?? {}) };
+          delete nextCustom[stepId];
+          try {
+            saveItineraireOverride(voyage.id, {
+              ...ov,
+              order: newSteps.map((s) => s.id),
+              customStepsById: nextCustom,
+            });
+          } catch {
+            /* ignore */
+          }
+        }
+        if (orderStorageKey) {
+          try {
+            localStorage.setItem(orderStorageKey, JSON.stringify(newSteps.map((s) => s.id)));
+          } catch {
+            /* ignore */
+          }
+        }
+        await persistCreatedVoyage({ ...cv, steps: newSteps });
+      } catch {
+        /* persistCreatedVoyage ou stockage : on recharge quand même pour resync */
+        if (typeof window !== "undefined") window.location.reload();
       }
-      await persistCreatedVoyage({ ...cv, steps: newSteps });
     },
     [
       isCreatedLocal,
@@ -937,29 +1026,51 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
   const dndAutoscroll = useWindowDndAutoscroll();
 
   /**
-   * J{x} = jour calendaire d’arrivée (même J pour toutes les escales le même jour).
+   * J{x} = jour d’arrivée sur le périple ; nuits > 1 → J3–J5 (jours d’enchaînement).
    */
   const { totalDays, dayLabelByStep } = useMemo(() => {
     const labels: Record<string, string> = {};
     if (!orderedSteps.length) {
       return { totalDays: voyage.dureeJours, dayLabelByStep: labels };
     }
-    const dayKeys: string[] = [];
-    for (const s of orderedSteps) {
-      const d = stepDates[s.id] ?? s.date_prevue ?? "";
-      if (d && !dayKeys.includes(d)) dayKeys.push(d);
+    const anc = (anchorDate || voyage.dateDebut || orderedSteps[0]?.date_prevue || "").slice(
+      0,
+      10
+    );
+    if (anc) {
+      let maxJ = 1;
+      for (const s of orderedSteps) {
+        const d = (stepDates[s.id] ?? s.date_prevue ?? anc).slice(0, 10);
+        if (!d) continue;
+        const jStart = tripDayIndexFromDates(anc, d);
+        const n = nuitsByStep[s.id] ?? defaultNuits(s);
+        const k = nuiteeTypeByStep[s.id] ?? stepNuiteeKind(s, undefined);
+        const isPass = k === "passage" || n <= 0;
+        if (isPass) {
+          labels[s.id] = `J${jStart}`;
+          maxJ = Math.max(maxJ, jStart);
+        } else {
+          const nights = Math.max(1, n);
+          const jEnd = jStart + nights - 1;
+          labels[s.id] =
+            jEnd > jStart ? `J${jStart}–J${jEnd}` : `J${jStart}`;
+          maxJ = Math.max(maxJ, jEnd);
+        }
+      }
+      if (Object.keys(labels).length > 0) {
+        return { totalDays: maxJ, dayLabelByStep: labels };
+      }
     }
-    if (dayKeys.length === 0) {
-      return { totalDays: voyage.dureeJours, dayLabelByStep: labels };
-    }
-    const dToJ = new Map<string, number>();
-    dayKeys.forEach((d, i) => dToJ.set(d, i + 1));
-    for (const s of orderedSteps) {
-      const d = stepDates[s.id] ?? s.date_prevue ?? "";
-      if (d && dToJ.has(d)) labels[s.id] = `J${dToJ.get(d)}`;
-    }
-    return { totalDays: dayKeys.length, dayLabelByStep: labels };
-  }, [orderedSteps, stepDates, voyage.dureeJours]);
+    return { totalDays: voyage.dureeJours, dayLabelByStep: labels };
+  }, [
+    orderedSteps,
+    stepDates,
+    nuitsByStep,
+    nuiteeTypeByStep,
+    voyage.dureeJours,
+    anchorDate,
+    voyage.dateDebut,
+  ]);
 
   /** Distances à vol d'oiseau entre chaque étape consécutive. */
   const distancesKm = useMemo(() => {
@@ -1113,34 +1224,73 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
     if (!q || insertAt === null) return;
     setAddBusy(true);
     setAddError(null);
-    try {
-      let data: { lat: number; lng: number; name: string };
-      const qNorm = q.toLowerCase();
-      if (pendingGeocode && pendingGeocode.name.trim().toLowerCase() === qNorm) {
-        data = { ...pendingGeocode, name: pendingGeocode.name.trim() };
-      } else {
-        const res = await fetch(`/api/geocode?q=${encodeURIComponent(q)}`);
-        if (!res.ok) throw new Error("no_geocode");
-        const parsed = (await res.json()) as { lat?: number; lng?: number; name?: unknown };
-        if (typeof parsed.lat !== "number" || typeof parsed.lng !== "number") {
-          throw new Error("no_geocode");
-        }
+    const resolveGeocode = async (query: string) => {
+      const toData = (lat: number, lng: number, name: string) => ({
+        lat,
+        lng,
+        name: name.trim() || query,
+      });
+      const tryOne = async () => {
+        const res = await fetch(`/api/geocode?q=${encodeURIComponent(query)}`);
+        if (!res.ok) return null;
+        const parsed = (await res.json()) as {
+          lat?: unknown;
+          lng?: unknown;
+          name?: unknown;
+          suggestions?: unknown;
+        };
+        if (Array.isArray(parsed.suggestions)) return null;
+        const la =
+          typeof parsed.lat === "number"
+            ? parsed.lat
+            : typeof parsed.lat === "string"
+              ? parseFloat(parsed.lat)
+              : NaN;
+        const lo =
+          typeof parsed.lng === "number"
+            ? parsed.lng
+            : typeof parsed.lng === "string"
+              ? parseFloat(parsed.lng)
+              : NaN;
+        if (!Number.isFinite(la) || !Number.isFinite(lo)) return null;
         const rawName = parsed.name;
         const nameStr =
           typeof rawName === "string"
             ? rawName
             : rawName != null
               ? String(rawName)
-              : q;
-        data = {
-          lat: parsed.lat,
-          lng: parsed.lng,
-          name: nameStr.trim() || q,
-        };
+              : query;
+        return toData(la, lo, nameStr);
+      };
+      const first = await tryOne();
+      if (first) return first;
+      const res6 = await fetch(
+        `/api/geocode?q=${encodeURIComponent(query)}&limit=6`
+      );
+      if (!res6.ok) return null;
+      const p6 = (await res6.json()) as {
+        suggestions?: Array<{ name: string; lat: number; lng: number }>;
+      };
+      const s0 = p6.suggestions?.[0];
+      if (s0 && Number.isFinite(s0.lat) && Number.isFinite(s0.lng)) {
+        return toData(s0.lat, s0.lng, s0.name);
+      }
+      return null;
+    };
+    try {
+      let data: { lat: number; lng: number; name: string };
+      const qNorm = q.toLowerCase();
+      if (pendingGeocode && pendingGeocode.name.trim().toLowerCase() === qNorm) {
+        data = { ...pendingGeocode, name: pendingGeocode.name.trim() };
+      } else {
+        const g = await resolveGeocode(q);
+        if (!g) throw new Error("no_geocode");
+        data = g;
       }
       const id = `custom-${Date.now()}`;
+      const baseOrder = getEffectiveStepOrder(voyage, stepsOrder);
       const current = loadItineraireOverride(voyage.id) ?? {
-        order: stepsOrder,
+        order: baseOrder,
         removed: [],
         nuiteeByStepId: {},
         customStepsById: {},
@@ -1157,13 +1307,17 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
           contenu_voyage: { photos: [] },
         },
       };
-      const nextOrder = [...stepsOrder];
+      const nextOrder = [...baseOrder];
       nextOrder.splice(insertAt, 0, id);
-      saveItineraireOverride(voyage.id, {
-        ...current,
-        order: nextOrder,
-        customStepsById: nextCustom,
-      });
+      try {
+        saveItineraireOverride(voyage.id, {
+          ...current,
+          order: nextOrder,
+          customStepsById: nextCustom,
+        });
+      } catch {
+        /* ignore */
+      }
       /** Garde le carnet `created-voyages` aligné + tracé / stats Mapbox à jour. */
       if (voyage.id.startsWith("created-")) {
         const cv0 =
@@ -1254,10 +1408,11 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
     (event: DragEndEvent) => {
       const { active, over } = event;
       if (!over || active.id === over.id) return;
-      const oldIndex = stepsOrder.indexOf(String(active.id));
-      const newIndex = stepsOrder.indexOf(String(over.id));
+      const workOrder = getEffectiveStepOrder(voyage, stepsOrder);
+      const oldIndex = workOrder.indexOf(String(active.id));
+      const newIndex = workOrder.indexOf(String(over.id));
       if (oldIndex < 0 || newIndex < 0) return;
-      const next = arrayMove(stepsOrder, oldIndex, newIndex);
+      const next = arrayMove(workOrder, oldIndex, newIndex);
       setStepsOrder(next);
       if (orderStorageKey) {
         try {
@@ -1415,6 +1570,22 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
                   DrivingIcon={Truck}
                 />
               </div>
+              <button
+                type="button"
+                onClick={() => void saveCreatedDraft()}
+                disabled={saveDraftBusy}
+                className="mt-4 inline-flex w-full max-w-[min(100%,280px)] items-center justify-center gap-2 rounded-xl border border-[var(--color-accent-start)]/40 bg-[var(--color-accent-start)]/15 py-2.5 font-courier text-xs font-bold uppercase tracking-wider text-[var(--color-accent-start)] transition hover:bg-[var(--color-accent-start)]/25 disabled:opacity-50"
+              >
+                {saveDraftBusy ? (
+                  <Loader2 className="h-3.5 w-3.5 shrink-0 animate-spin" />
+                ) : null}
+                Enregistrer l’ébauche
+              </button>
+              {saveDraftMsg && (
+                <p className="mt-2 font-courier text-[10px] text-white/50">
+                  {saveDraftMsg}
+                </p>
+              )}
             </>
           )}
         </div>
@@ -1536,7 +1707,7 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
               handleDragEnd(e);
             }}
           >
-            <SortableContext items={stepsOrder} strategy={verticalListSortingStrategy}>
+            <SortableContext items={sortableItemIds} strategy={verticalListSortingStrategy}>
               <div className="flex flex-col">
                 {orderedSteps.map((s, i) => {
                   const n = nuitsByStep[s.id] ?? defaultNuits(s);

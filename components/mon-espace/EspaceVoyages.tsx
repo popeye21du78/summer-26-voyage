@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { Calendar, Play, BookOpen, Plus } from "lucide-react";
 import { CityPhoto } from "@/components/CityPhoto";
 import { loadPhotoValidationSnapshot } from "@/lib/client-photo-snapshot";
@@ -26,6 +26,7 @@ type Props = { state: VoyageStateResponse | null };
 
 export default function EspaceVoyages({ state }: Props) {
   const router = useRouter();
+  const pathname = usePathname();
   const [createdVoyages, setCreatedVoyages] = useState<CreatedVoyage[]>(() =>
     loadCreatedVoyages()
   );
@@ -39,6 +40,36 @@ export default function EspaceVoyages({ state }: Props) {
     window.addEventListener("focus", refresh);
     return () => window.removeEventListener("focus", refresh);
   }, []);
+
+  useEffect(() => {
+    if (pathname === "/mon-espace" || pathname?.startsWith("/mon-espace")) {
+      setCreatedVoyages(loadCreatedVoyages());
+      void fetch("/api/created-voyage", { credentials: "same-origin" })
+        .then((r) => (r.ok ? r.json() : null))
+        .then(
+          (d: { drafts?: Array<{ payload: unknown }> } | null) => {
+            if (!d?.drafts?.length) return;
+            for (const row of d.drafts) {
+              const p = row.payload;
+              if (
+                p &&
+                typeof p === "object" &&
+                "id" in p &&
+                typeof (p as { id: string }).id === "string" &&
+                (p as { id: string }).id.toLowerCase().startsWith("created-")
+              ) {
+                try {
+                  upsertCreatedVoyage(p as CreatedVoyage);
+                } catch {
+                  /* ignore */
+                }
+              }
+            }
+            setCreatedVoyages(loadCreatedVoyages());
+          }
+        );
+    }
+  }, [pathname]);
 
   useEffect(() => {
     void fetch("/api/created-voyage", { credentials: "same-origin" })
