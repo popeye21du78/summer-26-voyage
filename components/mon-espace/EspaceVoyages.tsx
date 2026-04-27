@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { Calendar, Play, BookOpen, Plus } from "lucide-react";
 import { CityPhoto } from "@/components/CityPhoto";
 import { loadPhotoValidationSnapshot } from "@/lib/client-photo-snapshot";
@@ -20,6 +21,7 @@ const SUB_TABS: { id: SubTab; label: string }[] = [
 type Props = { state: VoyageStateResponse | null };
 
 export default function EspaceVoyages({ state }: Props) {
+  const router = useRouter();
   const [createdVoyages, setCreatedVoyages] = useState<CreatedVoyage[]>([]);
 
   useEffect(() => {
@@ -48,14 +50,20 @@ export default function EspaceVoyages({ state }: Props) {
 
   return (
     <section className="px-4 pb-10 pt-4">
-      <div className="mb-5 flex items-center justify-between gap-3">
-        <Link
-          href="/preparer"
-          className="btn-orange-glow font-title inline-flex flex-1 items-center justify-center gap-2 rounded-2xl py-3.5 text-base font-bold uppercase tracking-wide text-white sm:flex-initial sm:px-8"
+      <div className="relative z-20 mb-5 flex items-center justify-between gap-3">
+        {/*
+         * `router.push` + bouton (au lieu d’un seul <Link>) : évite les clics
+         * « invisibles » quand un overlay / layer ou une transition d’onglet
+         * intercepte la hitbox du lien.
+         */}
+        <button
+          type="button"
+          onClick={() => router.push("/preparer")}
+          className="btn-orange-glow font-title inline-flex w-full min-h-[48px] flex-1 cursor-pointer items-center justify-center gap-2 rounded-2xl border-0 py-3.5 text-base font-bold uppercase tracking-wide text-white sm:flex-initial sm:px-8"
         >
           <Plus className="h-5 w-5" strokeWidth={2.2} />
           Nouveau voyage
-        </Link>
+        </button>
       </div>
 
       <div className="mb-5 flex gap-2">

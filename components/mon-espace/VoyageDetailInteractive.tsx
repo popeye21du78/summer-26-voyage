@@ -34,6 +34,7 @@ import {
   BedDouble,
   Plus,
   Car,
+  Truck,
   Fuel,
   X,
   Loader2,
@@ -1130,6 +1131,9 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
                 <RouteProfileToggle
                   value={routeProfile}
                   onChange={(p) => void applyRouteProfile(p)}
+                  drivingLabel="Van"
+                  cyclingLabel="Vélo"
+                  DrivingIcon={Truck}
                 />
               </div>
             </>

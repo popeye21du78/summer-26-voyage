@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import { getProfileById } from "@/data/test-profiles";
 import { getServerAuth } from "@/lib/auth-unified";
 import { supabaseAdmin } from "@/lib/supabase-admin";
@@ -36,13 +37,21 @@ export default async function MonEspacePage({ searchParams }: Props) {
 
   return (
     <div className="flex min-h-0 flex-1 flex-col [min-height:calc(100dvh-5rem)]">
-      <MonEspaceShell
-        profileId={profileId}
-        profileName={profileName}
-        situationLabel={situationLabel}
-        initialSection={initialSection}
-        authMode={auth?.kind === "supabase" ? "supabase" : "test"}
-      />
+      <Suspense
+        fallback={
+          <div className="flex flex-1 items-center justify-center bg-[var(--color-bg-main)] p-8">
+            <p className="voyage-loading-text text-sm uppercase tracking-widest">voyage voyage…</p>
+          </div>
+        }
+      >
+        <MonEspaceShell
+          profileId={profileId}
+          profileName={profileName}
+          situationLabel={situationLabel}
+          initialSection={initialSection}
+          authMode={auth?.kind === "supabase" ? "supabase" : "test"}
+        />
+      </Suspense>
     </div>
   );
 }

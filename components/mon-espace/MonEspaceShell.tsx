@@ -1,6 +1,7 @@
 "use client";
 
 import {
+  Suspense,
   useCallback,
   useEffect,
   useRef,
@@ -344,7 +345,13 @@ export default function MonEspaceShell({
           onScroll={handlePanelScroll}
           topReservePx={profileHeaderHidden ? 0 : 104}
         >
-          <EspaceMotCreateur />
+          {/**
+           * `useSearchParams` dans EspaceMotCreateur exige une limite Suspense
+           * (Next.js) — sans quoi l’hydratation / la navigation peuvent bloquer.
+           */}
+          <Suspense fallback={null}>
+            <EspaceMotCreateur />
+          </Suspense>
         </TabPanel>
       </div>
     </main>
