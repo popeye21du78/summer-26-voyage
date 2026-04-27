@@ -38,7 +38,7 @@ import {
 } from "lucide-react";
 import { loadTripDraft, clearTripDraft } from "@/lib/planifier-draft";
 import { saveCreatedVoyage, type RouteGeometry } from "@/lib/created-voyages";
-import { fetchVoyageRoute } from "@/lib/mapbox-driving-route";
+import { fetchVoyageRoute, fetchVoyageRouteForSave } from "@/lib/mapbox-driving-route";
 import type { MapboxRouteProfile } from "@/lib/mapbox-route-profile";
 import { RouteProfileToggle } from "@/components/RouteProfileToggle";
 import { getCityPoolForDraft, slugifyCityId } from "@/lib/preparer-city-pool";
@@ -413,7 +413,7 @@ export default function CreateItineraire() {
     setCreating(true);
     const route =
       wps.length >= 2
-        ? await fetchVoyageRoute(wps, {
+        ? await fetchVoyageRouteForSave(wps, {
             profile: routeProfile,
             excludeMotorway: routeProfile === "driving",
           })

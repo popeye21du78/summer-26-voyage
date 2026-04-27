@@ -49,7 +49,7 @@ import {
   type CreatedVoyage,
   type CreatedVoyageStep,
 } from "@/lib/created-voyages";
-import { fetchVoyageRoute } from "@/lib/mapbox-driving-route";
+import { fetchVoyageRouteForSave } from "@/lib/mapbox-driving-route";
 import type { MapboxRouteProfile } from "@/lib/mapbox-route-profile";
 import { RouteProfileToggle } from "@/components/RouteProfileToggle";
 import {
@@ -556,7 +556,7 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
     const prof = cv.routeProfile ?? "driving";
     const route =
       wps.length >= 2
-        ? await fetchVoyageRoute(wps, {
+        ? await fetchVoyageRouteForSave(wps, {
             profile: prof,
             excludeMotorway: prof === "driving",
           })
@@ -1008,7 +1008,7 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
           const prof = cv.routeProfile ?? "driving";
           const route =
             wps.length >= 2
-              ? await fetchVoyageRoute(wps, {
+              ? await fetchVoyageRouteForSave(wps, {
                   profile: prof,
                   excludeMotorway: prof === "driving",
                 })

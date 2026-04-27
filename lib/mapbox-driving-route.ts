@@ -54,6 +54,36 @@ export async function fetchVoyageRoute(
   };
 }
 
+/** Délai max. avant d’abandonner le tracé (création voyage) — on enregistre quand même en local. */
+const ROUTE_SAVE_TIMEOUT_MS = 18_000;
+
+/**
+ * Même logique que `fetchVoyageRoute`, mais ne bloque jamais indéfiniment
+ * (timeout) et n’exécute jamais le flux de création (erreur réseau, etc.).
+ */
+export async function fetchVoyageRouteForSave(
+  waypoints: Array<{ lat: number; lng: number }>,
+  options?: { excludeMotorway?: boolean; profile?: MapboxRouteProfile }
+): Promise<DrivingRouteResult | null> {
+  const valid = waypoints.filter(
+    (p) =>
+      Number.isFinite(p.lat) &&
+      Number.isFinite(p.lng) &&
+      Math.abs(p.lat) <= 90 &&
+      Math.abs(p.lng) <= 180
+  );
+  if (valid.length < 2) return null;
+  try {
+    const pending = fetchVoyageRoute(valid, options);
+    const timeout = new Promise<null>((r) => {
+      setTimeout(() => r(null), ROUTE_SAVE_TIMEOUT_MS);
+    });
+    return await Promise.race([pending, timeout]);
+  } catch {
+    return null;
+  }
+}
+
 export async function fetchDrivingRoute(
   waypoints: Array<{ lat: number; lng: number }>,
   options?: { excludeMotorway?: boolean }

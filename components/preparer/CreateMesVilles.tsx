@@ -20,7 +20,7 @@ import {
 } from "@dnd-kit/sortable";
 import { CSS } from "@dnd-kit/utilities";
 import { saveCreatedVoyage } from "@/lib/created-voyages";
-import { fetchVoyageRoute } from "@/lib/mapbox-driving-route";
+import { fetchVoyageRoute, fetchVoyageRouteForSave } from "@/lib/mapbox-driving-route";
 import type { MapboxRouteProfile } from "@/lib/mapbox-route-profile";
 import { RouteProfileToggle } from "@/components/RouteProfileToggle";
 import ItineraireLiveMap from "@/components/preparer/ItineraireLiveMap";
@@ -267,7 +267,7 @@ export default function CreateMesVilles() {
       const wps = resolved.map((r) => ({ lat: r.lat!, lng: r.lng! }));
       const route =
         wps.length >= 2
-          ? await fetchVoyageRoute(wps, {
+          ? await fetchVoyageRouteForSave(wps, {
               profile: routeProfile,
               excludeMotorway: routeProfile === "driving",
             })
@@ -292,18 +292,22 @@ export default function CreateMesVilles() {
         };
       });
       const titre = resolved.length <= 2 ? resolved.map((r) => r.nom).join(" → ") : "Mon road-trip";
-      saveCreatedVoyage({
-        id: voyageId,
-        titre,
-        sousTitre: `${resolved.length} étape${resolved.length > 1 ? "s" : ""} · ébauche`,
-        createdAt: new Date().toISOString(),
-        dateDebut: startStr,
-        routeProfile,
-        steps,
-        routeGeometry: route?.geometry ?? null,
-        stats: route ? { totalKm: route.distanceKm, totalMin: route.durationMin } : undefined,
-        legs: route?.legs,
-      });
+      try {
+        saveCreatedVoyage({
+          id: voyageId,
+          titre,
+          sousTitre: `${resolved.length} étape${resolved.length > 1 ? "s" : ""} · ébauche`,
+          createdAt: new Date().toISOString(),
+          dateDebut: startStr,
+          routeProfile,
+          steps,
+          routeGeometry: route?.geometry ?? null,
+          stats: route ? { totalKm: route.distanceKm, totalMin: route.durationMin } : undefined,
+          legs: route?.legs,
+        });
+      } catch {
+        /* quota / mode privé — on tente quand même la navigation */
+      }
       router.push(`/mon-espace/voyage/${voyageId}`);
     } finally {
       setSaving(false);
@@ -408,7 +412,7 @@ export default function CreateMesVilles() {
             aria-label="Fermer"
             onClick={() => setDateModal(false)}
           />
-          <div className="relative z-[1] w-full max-w-sm overflow-hidden rounded-3xl border border-white/10 bg-[#1a1410] p-5 pb-bottom-nav shadow-2xl sm:pb-5">
+          <div className="pointer-events-auto relative z-[2] w-full max-w-sm overflow-hidden rounded-3xl border border-white/10 bg-[#1a1410] p-5 pb-bottom-nav shadow-2xl sm:pb-5">
             <div className="mb-3 flex items-start justify-between">
               <div>
                 <h3 className="font-title text-lg font-bold text-white">Date de départ</h3>
