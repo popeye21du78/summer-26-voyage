@@ -49,6 +49,7 @@ import {
   encodeCreatedVoyageToHandoffB64,
   buildMonEspaceVoyageHandoffPath,
 } from "@/lib/created-voyage-handoff-url";
+import { persistCreatedVoyageOnServer } from "@/lib/created-voyage-server-sync";
 import { fetchVoyageRoute, fetchVoyageRouteForSave } from "@/lib/mapbox-driving-route";
 import type { MapboxRouteProfile } from "@/lib/mapbox-route-profile";
 import { RouteProfileToggle } from "@/components/RouteProfileToggle";
@@ -475,6 +476,11 @@ export default function CreateItineraire() {
     clearTripDraft();
     if (typeof window !== "undefined") {
       localStorage.removeItem("preparer-cadrage");
+    }
+    const serverOk = await persistCreatedVoyageOnServer(created);
+    if (serverOk) {
+      router.push(`/mon-espace/voyage/${encodeURIComponent(voyageId)}`);
+      return;
     }
     const b64 = encodeCreatedVoyageToHandoffB64(created);
     router.push(buildMonEspaceVoyageHandoffPath(voyageId, b64));

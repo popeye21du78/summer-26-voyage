@@ -4,6 +4,8 @@ import { getFriendIds } from "../../../../data/mock-friends";
 import { getProfileById } from "../../../../data/test-profiles";
 import { getServerAuth } from "@/lib/auth-unified";
 import { supabaseAdmin } from "@/lib/supabase-admin";
+import { createdVoyageToVoyageViewSafe } from "@/lib/created-voyage-page";
+import type { CreatedVoyage } from "@/lib/created-voyages";
 
 async function getFriendIdList(
   me: string
@@ -31,6 +33,49 @@ export async function GET(
       return NextResponse.json({ error: "Non connecté" }, { status: 401 });
     }
     const profileId = auth.userId;
+
+    const slugL = slug.toLowerCase();
+    if (slugL.startsWith("created-") && supabaseAdmin) {
+      const { data: row, error: loadErr } = await supabaseAdmin
+        .from("created_voyage_drafts")
+        .select("payload")
+        .eq("user_id", profileId)
+        .eq("id", slug)
+        .maybeSingle();
+      if (loadErr) {
+        console.error("created_voyage_drafts read:", loadErr);
+        return NextResponse.json(
+          { error: "Erreur serveur" },
+          { status: 500 }
+        );
+      }
+      const raw = row?.payload;
+      if (raw && typeof raw === "object" && raw !== null) {
+        const cv = raw as CreatedVoyage;
+        if (typeof cv.id === "string" && cv.id === slug && Array.isArray(cv.steps)) {
+          const view = createdVoyageToVoyageViewSafe(cv);
+          let ownerName: string | undefined;
+          if (/^[0-9a-f-]{36}$/i.test(profileId)) {
+            const { data: p } = await supabaseAdmin
+              .from("profiles")
+              .select("display_name")
+              .eq("id", profileId)
+              .maybeSingle();
+            ownerName = p?.display_name?.trim() || undefined;
+          } else {
+            ownerName = getProfileById(profileId)?.name;
+          }
+          return NextResponse.json({
+            ...view,
+            isOwner: true,
+            ownerProfileId: profileId,
+            ownerName: ownerName ?? "Moi",
+            createdVoyagePayload: cv,
+          });
+        }
+      }
+      return NextResponse.json({ error: "Voyage introuvable" }, { status: 404 });
+    }
 
     const result = getVoyageWithOwner(slug, profileId, await getFriendIdList(profileId));
     if (!result) {

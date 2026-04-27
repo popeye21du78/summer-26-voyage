@@ -49,6 +49,10 @@ import {
   type CreatedVoyage,
   type CreatedVoyageStep,
 } from "@/lib/created-voyages";
+import {
+  deleteCreatedVoyageOnServer,
+  persistCreatedVoyageOnServer,
+} from "@/lib/created-voyage-server-sync";
 import { fetchVoyageRouteForSave } from "@/lib/mapbox-driving-route";
 import type { MapboxRouteProfile } from "@/lib/mapbox-route-profile";
 import { RouteProfileToggle } from "@/components/RouteProfileToggle";
@@ -566,7 +570,7 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
           })
         : null;
     const hasLine = wps.length >= 2 && route?.geometry;
-    upsertCreatedVoyage({
+    const next: CreatedVoyage = {
       ...cv,
       routeProfile: prof,
       routeGeometry: hasLine ? (route?.geometry ?? null) : null,
@@ -577,7 +581,9 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
             ? undefined
             : cv.stats,
       legs: wps.length >= 2 && route ? route.legs : [],
-    });
+    };
+    upsertCreatedVoyage(next);
+    void persistCreatedVoyageOnServer(next);
     window.location.reload();
   }, []);
 
@@ -642,6 +648,7 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
       }
       if (remaining.length === 0) {
         removeCreatedVoyage(voyage.id);
+        void deleteCreatedVoyageOnServer(voyage.id);
         try {
           saveItineraireOverride(voyage.id, {
             order: [],
@@ -1019,7 +1026,7 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
                   excludeMotorway: prof === "driving",
                 })
               : null;
-          upsertCreatedVoyage({
+          const nextCv: CreatedVoyage = {
             ...cv,
             routeProfile: prof,
             steps: stepsDated,
@@ -1030,7 +1037,9 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
                 ? undefined
                 : cv.stats,
             legs: wps.length >= 2 && route ? route.legs : [],
-          });
+          };
+          upsertCreatedVoyage(nextCv);
+          void persistCreatedVoyageOnServer(nextCv);
         }
       }
       if (orderStorageKey) {

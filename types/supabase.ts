@@ -212,6 +212,25 @@ export interface Database {
         };
         Relationships: [];
       };
+      created_voyage_drafts: {
+        Row: {
+          user_id: string;
+          id: string;
+          payload: Json;
+          updated_at: string;
+        };
+        Insert: {
+          user_id: string;
+          id: string;
+          payload: Json;
+          updated_at?: string;
+        };
+        Update: {
+          payload?: Json;
+          updated_at?: string;
+        };
+        Relationships: [];
+      };
     };
     Views: Record<string, never>;
     Functions: Record<string, never>;
