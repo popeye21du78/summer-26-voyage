@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import {
   DndContext,
@@ -37,7 +37,8 @@ import {
   Wallet,
 } from "lucide-react";
 import { loadTripDraft, clearTripDraft } from "@/lib/planifier-draft";
-import { saveCreatedVoyage } from "@/lib/created-voyages";
+import { saveCreatedVoyage, type RouteGeometry } from "@/lib/created-voyages";
+import { fetchDrivingRoute } from "@/lib/mapbox-driving-route";
 import { getCityPoolForDraft, slugifyCityId } from "@/lib/preparer-city-pool";
 import ItineraireLiveMap from "@/components/preparer/ItineraireLiveMap";
 
@@ -199,6 +200,13 @@ export default function CreateItineraire() {
   const [cadrage, setCadrage] = useState<CadrageData>({});
   const [regionLabel, setRegionLabel] = useState("Mon voyage");
   const [openBudgetId, setOpenBudgetId] = useState<string | null>(null);
+  const [routePreview, setRoutePreview] = useState<{
+    geometry: RouteGeometry | null;
+    totalKm: number;
+    totalMin: number;
+  } | null>(null);
+  const [creating, setCreating] = useState(false);
+  const routeReq = useRef(0);
 
   /** Capteurs @dnd-kit : pointer (desktop) + touch (mobile) + clavier, avec tolérance au scroll. */
   const sensors = useSensors(
@@ -223,6 +231,37 @@ export default function CreateItineraire() {
     setSteps(generated);
     setLoading(false);
   }, []);
+
+  /** Aperçu itinéraire routier (Mapbox) quand au moins deux points valides. */
+  useEffect(() => {
+    const wps = steps
+      .filter(
+        (s) =>
+          Number.isFinite(s.lat) &&
+          Number.isFinite(s.lng) &&
+          Math.abs(s.lat) <= 90 &&
+          Math.abs(s.lng) <= 180
+      )
+      .map((s) => ({ lat: s.lat, lng: s.lng }));
+    if (wps.length < 2) {
+      setRoutePreview(null);
+      return;
+    }
+    const my = ++routeReq.current;
+    const t = setTimeout(() => {
+      void fetchDrivingRoute(wps).then((r) => {
+        if (my !== routeReq.current || !r) return;
+        setRoutePreview({
+          geometry: r.geometry,
+          totalKm: r.distanceKm,
+          totalMin: r.durationMin,
+        });
+      });
+    }, 450);
+    return () => {
+      clearTimeout(t);
+    };
+  }, [steps]);
 
   const toggleType = useCallback((id: string) => {
     setSteps((prev) =>
@@ -322,7 +361,7 @@ export default function CreateItineraire() {
     [steps]
   );
 
-  function handleCreate() {
+  async function handleCreate() {
     const draft = loadTripDraft();
     const cadrageRaw =
       typeof window !== "undefined" ? localStorage.getItem("preparer-cadrage") : null;
@@ -333,6 +372,7 @@ export default function CreateItineraire() {
 
     const today = new Date();
     const startDate = cad.dateDebut ? new Date(cad.dateDebut) : today;
+    const dateDebutStr = startDate.toISOString().split("T")[0];
 
     const rhythmLabel =
       cad.rythme === "tranquille"
@@ -344,12 +384,26 @@ export default function CreateItineraire() {
     const pool = getCityPoolForDraft(draft?.zone?.regionKey, draft?.fromTerritoryId);
     const withIntermediates = insertIntermediateCities(steps, pool);
 
+    const wps = withIntermediates
+      .filter(
+        (s) =>
+          Number.isFinite(s.lat) &&
+          Number.isFinite(s.lng) &&
+          Math.abs(s.lat) <= 90 &&
+          Math.abs(s.lng) <= 180
+      )
+      .map((s) => ({ lat: s.lat, lng: s.lng }));
+    setCreating(true);
+    const route = wps.length >= 2 ? await fetchDrivingRoute(wps) : null;
+    setCreating(false);
+
     let cursor = 0;
     saveCreatedVoyage({
       id: voyageId,
       titre: label,
       sousTitre: `${withIntermediates.length} étapes · ${rhythmLabel}`,
       createdAt: new Date().toISOString(),
+      dateDebut: dateDebutStr,
       steps: withIntermediates.map((s) => {
         const date = new Date(startDate.getTime() + cursor * 86400000)
           .toISOString()
@@ -368,13 +422,18 @@ export default function CreateItineraire() {
           budgetLogement: s.budgetLogement,
         };
       }),
+      routeGeometry: route?.geometry ?? null,
+      stats: route
+        ? { totalKm: route.distanceKm, totalMin: route.durationMin }
+        : undefined,
+      legs: route?.legs,
     });
 
     clearTripDraft();
     if (typeof window !== "undefined") {
       localStorage.removeItem("preparer-cadrage");
     }
-    router.push("/preparer/itineraire?done=1");
+    router.push(`/mon-espace/voyage/${voyageId}`);
   }
 
   if (loading) {
@@ -451,11 +510,17 @@ export default function CreateItineraire() {
          * le drag & drop se répercute ici — le numéro affiché sur chaque
          * pastille suit l'ordre des étapes dans le récap.
          */}
-        <div className="mt-5 h-[260px] w-full">
+        <div className="mt-5 h-[min(300px,42vh)] min-h-[220px] w-full">
           <ItineraireLiveMap
             className="h-full w-full"
             steps={steps}
             mapboxAccessToken={process.env.NEXT_PUBLIC_MAPBOX_TOKEN}
+            routeLine={routePreview?.geometry ?? null}
+            routeSummary={
+              routePreview && routePreview.totalKm > 0
+                ? { totalKm: routePreview.totalKm, totalMin: routePreview.totalMin }
+                : null
+            }
           />
         </div>
 
@@ -520,11 +585,13 @@ export default function CreateItineraire() {
 
         {/* CTA principal */}
         <button
-          onClick={handleCreate}
-          className="viago-cta-primary mt-8"
+          type="button"
+          onClick={() => void handleCreate()}
+          disabled={creating}
+          className="viago-cta-primary mt-8 disabled:cursor-not-allowed disabled:opacity-60"
         >
           <Sparkles className="h-4 w-4" />
-          Créer ce voyage
+          {creating ? "Création…" : "Créer ce voyage"}
         </button>
       </div>
     </main>

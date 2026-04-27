@@ -22,6 +22,10 @@ export interface Voyage {
   steps: Step[];
   /** Stats optionnelles (km, essence, budget) */
   stats?: { km?: number; essence?: number; budget?: number };
+  /** Tracé routier (Mapbox), pour les voyages créés côté client. */
+  routeGeometry?: { type: "LineString"; coordinates: [number, number][] } | null;
+  /** Segments routiers entre étapes (km, min), alignés sur l’ordre des étapes. */
+  routeLegs?: Array<{ distanceKm: number; durationMin: number }>;
 }
 
 /** Crée des steps à partir d'un template avec photos Unsplash */

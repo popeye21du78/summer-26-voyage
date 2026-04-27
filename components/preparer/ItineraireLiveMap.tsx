@@ -1,9 +1,9 @@
 "use client";
 
-import { useEffect, useMemo, useRef } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import dynamic from "next/dynamic";
 import type { MapRef } from "react-map-gl/mapbox";
-import { Marker } from "react-map-gl/mapbox";
+import { Marker, Source, Layer } from "react-map-gl/mapbox";
 import "mapbox-gl/dist/mapbox-gl.css";
 
 /**
@@ -18,9 +18,8 @@ import "mapbox-gl/dist/mapbox-gl.css";
  *  - Le style est discret (variant "light-v11") pour ne pas voler la
  *    vedette au reste de la fiche de préparation.
  *
- * Intentionnellement simple : pas de layers exotiques, pas de fetch,
- * tout vient des props `steps`. Le drag & drop des SortableStepRow
- * re-render cette carte automatiquement via le state parent.
+ * L’itinéraire routier (ligne) et le résumé km/min viennent en props
+ * quand le parent a appelé l’API Directions.
  */
 const Map = dynamic(() => import("react-map-gl/mapbox").then((m) => m.default), {
   ssr: false,
@@ -39,10 +38,19 @@ export type LiveStep = {
   lng: number;
 };
 
+type RouteLine = {
+  type: "LineString";
+  coordinates: [number, number][];
+};
+
 type Props = {
   steps: LiveStep[];
   mapboxAccessToken: string | undefined;
   className?: string;
+  /** Tracé routier Mapbox (optionnel) — remplace le simple fil à plomb entre les points. */
+  routeLine?: RouteLine | null;
+  /** Résumé affiché sous la carte. */
+  routeSummary?: { totalKm: number; totalMin: number } | null;
 };
 
 const INITIAL_VIEW = {
@@ -51,8 +59,40 @@ const INITIAL_VIEW = {
   zoom: 4.5,
 };
 
-export default function ItineraireLiveMap({ steps, mapboxAccessToken, className }: Props) {
+export default function ItineraireLiveMap({
+  steps,
+  mapboxAccessToken,
+  className,
+  routeLine,
+  routeSummary,
+}: Props) {
   const mapRef = useRef<MapRef | null>(null);
+  const [accentHex, setAccentHex] = useState("#e07856");
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const read = () => {
+      const raw = getComputedStyle(document.documentElement)
+        .getPropertyValue("--color-accent-start")
+        .trim();
+      if (raw) setAccentHex(raw);
+    };
+    read();
+    const mo = new MutationObserver(read);
+    mo.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ["data-moodboard", "class", "style"],
+    });
+    return () => mo.disconnect();
+  }, []);
+
+  const routeFeature = useMemo(() => {
+    if (!routeLine?.coordinates?.length) return null;
+    return {
+      type: "Feature" as const,
+      properties: {},
+      geometry: routeLine,
+    };
+  }, [routeLine]);
 
   /** Points valides (lat/lng finis, non-NaN). On jette silencieusement les POI mal formés. */
   const validSteps = useMemo(
@@ -74,7 +114,36 @@ export default function ItineraireLiveMap({ steps, mapboxAccessToken, className 
    */
   useEffect(() => {
     const map = mapRef.current;
-    if (!map || validSteps.length === 0) return;
+    if (!map) return;
+    const coords = routeLine?.coordinates;
+    if (coords?.length) {
+      try {
+        let minLng = Infinity;
+        let minLat = Infinity;
+        let maxLng = -Infinity;
+        let maxLat = -Infinity;
+        for (const c of coords) {
+          const [lng, lat] = c;
+          if (lng < minLng) minLng = lng;
+          if (lng > maxLng) maxLng = lng;
+          if (lat < minLat) minLat = lat;
+          if (lat > maxLat) maxLat = lat;
+        }
+        if (Number.isFinite(minLng)) {
+          map.fitBounds(
+            [
+              [minLng, minLat],
+              [maxLng, maxLat],
+            ],
+            { padding: { top: 48, bottom: 48, left: 40, right: 40 }, duration: 550, maxZoom: 9 }
+          );
+          return;
+        }
+      } catch {
+        /* ignore */
+      }
+    }
+    if (validSteps.length === 0) return;
     try {
       if (validSteps.length === 1) {
         map.easeTo({
@@ -108,7 +177,7 @@ export default function ItineraireLiveMap({ steps, mapboxAccessToken, className 
     } catch {
       /* no-op : style pas prêt, on réessaiera au prochain render */
     }
-  }, [validSteps]);
+  }, [validSteps, routeLine]);
 
   if (!mapboxAccessToken) {
     return (
@@ -122,8 +191,9 @@ export default function ItineraireLiveMap({ steps, mapboxAccessToken, className 
 
   return (
     <div
-      className={`relative overflow-hidden rounded-2xl border border-[var(--color-glass-border)] shadow-[0_8px_20px_var(--color-shadow)] ${className ?? ""}`}
+      className={`flex flex-col overflow-hidden rounded-2xl border border-[var(--color-glass-border)] shadow-[0_8px_20px_var(--color-shadow)] ${className ?? ""}`}
     >
+      <div className="relative min-h-0 flex-1">
       <Map
         ref={(instance) => {
           mapRef.current = instance;
@@ -134,6 +204,19 @@ export default function ItineraireLiveMap({ steps, mapboxAccessToken, className 
         attributionControl={false}
         reuseMaps
       >
+        {routeFeature && (
+          <Source id="itineraire-route" type="geojson" data={routeFeature}>
+            <Layer
+              id="itineraire-route-line"
+              type="line"
+              paint={{
+                "line-color": accentHex,
+                "line-width": 4,
+                "line-opacity": 0.82,
+              }}
+            />
+          </Source>
+        )}
         {validSteps.map((step, idx) => {
           const isNuit = step.type === "nuit";
           return (
@@ -168,6 +251,20 @@ export default function ItineraireLiveMap({ steps, mapboxAccessToken, className 
           Ajoute une étape pour la voir apparaître sur la carte.
         </div>
       )}
+      </div>
+      {routeSummary && routeSummary.totalKm > 0 && (
+        <div className="shrink-0 border-t border-[var(--color-glass-border)] bg-[var(--color-glass-bg)]/90 px-3 py-2 text-center font-courier text-[10px] text-[var(--color-text-primary)]/85 backdrop-blur-sm">
+          Route (hors autoroute en priorité) · {routeSummary.totalKm} km ·{" "}
+          {formatDriveDuration(routeSummary.totalMin)}
+        </div>
+      )}
     </div>
   );
+}
+
+function formatDriveDuration(min: number): string {
+  if (min < 60) return `~${min} min`;
+  const h = Math.floor(min / 60);
+  const m = min % 60;
+  return m > 0 ? `~${h} h ${m} min` : `~${h} h`;
 }

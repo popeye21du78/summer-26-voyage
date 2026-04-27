@@ -1,7 +1,8 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useReturnBase } from "@/lib/hooks/use-return-base";
 import {
   DndContext,
@@ -33,10 +34,20 @@ import {
   BedDouble,
   Plus,
   Car,
+  Fuel,
   X,
   Loader2,
+  Trash2,
 } from "lucide-react";
 import { haversineKm } from "@/lib/geo/haversine";
+import {
+  getCreatedVoyageById,
+  upsertCreatedVoyage,
+  removeCreatedVoyage,
+  recomputeCreatedStepDates,
+  type CreatedVoyage,
+} from "@/lib/created-voyages";
+import { fetchDrivingRoute } from "@/lib/mapbox-driving-route";
 import {
   loadItineraireOverride,
   saveItineraireOverride,
@@ -98,6 +109,7 @@ function SortableStepRow({
   villeHref,
   dateLabel,
   isPassage,
+  onRemove,
 }: {
   step: Step;
   /** Libellé du ou des jours couverts par l'étape ("J3" ou "J3–4"). */
@@ -108,6 +120,7 @@ function SortableStepRow({
   villeHref: string;
   dateLabel: string;
   isPassage: boolean;
+  onRemove?: () => void;
 }) {
   const {
     attributes,
@@ -164,6 +177,19 @@ function SortableStepRow({
         </div>
 
         {/* Poignée de drag - gros, accessible, clairement séparé du reste */}
+        {onRemove && (
+          <button
+            type="button"
+            onClick={(e) => {
+              e.stopPropagation();
+              onRemove();
+            }}
+            className="absolute right-14 top-3 z-10 flex h-10 w-10 items-center justify-center rounded-xl border border-red-500/30 bg-black/50 text-red-200 shadow-lg backdrop-blur-md transition hover:bg-red-500/20 active:scale-95"
+            aria-label="Supprimer cette étape"
+          >
+            <Trash2 className="h-4 w-4" />
+          </button>
+        )}
         <button
           type="button"
           className="absolute right-3 top-3 z-10 flex h-10 w-10 touch-none items-center justify-center rounded-xl bg-black/55 text-white shadow-lg backdrop-blur-md transition active:scale-95"
@@ -245,14 +271,31 @@ function formatKmAndDuration(km: number): string {
   return `${rounded} km · ~${h}h${m.toString().padStart(2, "0")}`;
 }
 
+function formatRouteLegLabel(km: number, min: number): string {
+  const rounded = Math.round(km);
+  if (min < 60) return `${rounded} km · ${min} min`;
+  const h = Math.floor(min / 60);
+  const m = min % 60;
+  return m > 0 ? `${rounded} km · ${h} h ${m} min` : `${rounded} km · ${h} h`;
+}
+
 /** Séparateur distance + bouton « + » pour insérer une étape intermédiaire. */
 function StepSeparator({
   distanceKm,
   onAdd,
+  routeLeg,
 }: {
   distanceKm: number;
   onAdd: () => void;
+  /** Segment routier Mapbox (remplace l’estimation ~70 km/h). */
+  routeLeg?: { distanceKm: number; durationMin: number };
 }) {
+  const label =
+    routeLeg && routeLeg.distanceKm > 0
+      ? formatRouteLegLabel(routeLeg.distanceKm, routeLeg.durationMin)
+      : distanceKm > 0
+        ? formatKmAndDuration(distanceKm)
+        : "Trajet";
   return (
     <div className="flex items-center gap-3 px-3 py-2">
       <div className="flex-1 border-t border-dashed border-white/15" />
@@ -263,7 +306,7 @@ function StepSeparator({
          */}
         <span className="inline-flex items-center gap-1.5 rounded-full bg-white/5 px-2.5 py-1 font-title text-[11px] font-bold uppercase tracking-wider text-white/70">
           <Car className="h-3 w-3" />
-          {distanceKm > 0 ? formatKmAndDuration(distanceKm) : "Trajet"}
+          {label}
         </span>
         <button
           type="button"
@@ -286,6 +329,10 @@ type Props = {
 
 type BudgetSplit = { nourriture: number; culture: number; logement: number };
 
+/** Prix au litre (€) et consommation (L/100 km) pour le budget carburant. */
+type FuelParams = { pricePerLiter: number; litersPer100km: number };
+const DEFAULT_FUEL: FuelParams = { pricePerLiter: 1.85, litersPer100km: 7.5 };
+
 function defaultBudgetSplit(s: Step): BudgetSplit {
   const nourriture = Math.round(s.budget_nourriture ?? 0) || 25;
   const culture = Math.round(s.budget_culture ?? 0) || 15;
@@ -301,8 +348,10 @@ function budgetSplitTotal(b: BudgetSplit | undefined): number {
 }
 
 export default function VoyageDetailInteractive({ voyage }: Props) {
+  const router = useRouter();
   const here = useReturnBase();
   const profileId = useProfileId();
+  const isCreatedLocal = voyage.id.startsWith("created-");
 
   const [detailTab, setDetailTab] = useState<"etapes" | "budget">("etapes");
   const [toolsOpen, setToolsOpen] = useState(false);
@@ -310,6 +359,7 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
   const [nuitsByStep, setNuitsByStep] = useState<Record<string, number>>({});
   const [budgetByStep, setBudgetByStep] = useState<Record<string, BudgetSplit>>({});
   const [nuiteeTypeByStep, setNuiteeTypeByStep] = useState<Record<string, NuiteeOverride>>({});
+  const [fuelParams, setFuelParams] = useState<FuelParams>(() => ({ ...DEFAULT_FUEL }));
 
   const orderStorageKey = useMemo(() => {
     if (profileId === undefined) return "";
@@ -325,6 +375,12 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
   const budgetStorageKey = useMemo(() => {
     if (!profileId) return "";
     return `voyage_detail_budget_${profileId}_${voyage.id}`;
+  }, [profileId, voyage.id]);
+
+  const fuelStorageKey = useMemo(() => {
+    if (profileId === undefined) return "";
+    if (profileId) return `voyage_detail_fuel_${profileId}_${voyage.id}`;
+    return `voyage_fuel_${voyage.id}`;
   }, [profileId, voyage.id]);
 
   useEffect(() => {
@@ -423,7 +479,26 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
       }
     }
     setBudgetByStep(b);
-  }, [voyage, profileId, orderStorageKey, nuitsStorageKey, budgetStorageKey]);
+
+    let fp: FuelParams = { ...DEFAULT_FUEL };
+    if (fuelStorageKey) {
+      try {
+        const fraw = localStorage.getItem(fuelStorageKey);
+        if (fraw) {
+          const parsed = JSON.parse(fraw) as Partial<FuelParams>;
+          if (typeof parsed.pricePerLiter === "number" && parsed.pricePerLiter >= 0) {
+            fp = { ...fp, pricePerLiter: parsed.pricePerLiter };
+          }
+          if (typeof parsed.litersPer100km === "number" && parsed.litersPer100km >= 0) {
+            fp = { ...fp, litersPer100km: parsed.litersPer100km };
+          }
+        }
+      } catch {
+        /* ignore */
+      }
+    }
+    setFuelParams(fp);
+  }, [voyage, profileId, orderStorageKey, nuitsStorageKey, budgetStorageKey, fuelStorageKey]);
 
   const stepById = useMemo(
     () => new Map(voyage.steps.map((s) => [s.id, s])),
@@ -439,6 +514,69 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
     }
     return out;
   }, [stepsOrder, stepById, voyage.steps]);
+
+  /** Segments Mapbox valides seulement si l’ordre des étapes n’a pas changé. */
+  const mapboxLegsAligned = useMemo(() => {
+    if (!voyage.routeLegs?.length) return null;
+    if (!isCreatedLocal) return null;
+    const orig = getCreatedVoyageById(voyage.id)?.steps.map((s) => s.id) ?? [];
+    if (orig.length !== orderedSteps.length) return null;
+    const same = orderedSteps.every((s, i) => s.id === orig[i]);
+    if (!same) return null;
+    return voyage.routeLegs;
+  }, [voyage.id, voyage.routeLegs, orderedSteps, isCreatedLocal]);
+
+  const persistCreatedVoyage = useCallback(async (cv: CreatedVoyage) => {
+    const wps = cv.steps
+      .filter((s) => s.lat != null && s.lng != null)
+      .map((s) => ({ lat: s.lat as number, lng: s.lng as number }));
+    const route = wps.length >= 2 ? await fetchDrivingRoute(wps) : null;
+    const hasLine = wps.length >= 2 && route?.geometry;
+    upsertCreatedVoyage({
+      ...cv,
+      routeGeometry: hasLine ? (route?.geometry ?? null) : null,
+      stats:
+        wps.length >= 2 && route
+          ? { totalKm: route.distanceKm, totalMin: route.durationMin }
+          : wps.length < 2
+            ? undefined
+            : cv.stats,
+      legs: wps.length >= 2 && route ? route.legs : [],
+    });
+    window.location.reload();
+  }, []);
+
+  const onDateDebutLocalChange = useCallback(
+    async (e: React.ChangeEvent<HTMLInputElement>) => {
+      if (!isCreatedLocal) return;
+      const cv = getCreatedVoyageById(voyage.id);
+      if (!cv) return;
+      const d = e.target.value;
+      if (!d) return;
+      const newSteps = recomputeCreatedStepDates(cv.steps, d);
+      await persistCreatedVoyage({ ...cv, dateDebut: d, steps: newSteps });
+    },
+    [isCreatedLocal, voyage.id, persistCreatedVoyage]
+  );
+
+  const onRemoveCreatedStep = useCallback(
+    async (stepId: string) => {
+      if (!isCreatedLocal) return;
+      const cv = getCreatedVoyageById(voyage.id);
+      if (!cv) return;
+      const filtered = cv.steps.filter((s) => s.id !== stepId);
+      if (filtered.length === 0) {
+        removeCreatedVoyage(voyage.id);
+        router.push("/mon-espace");
+        return;
+      }
+      const anchor =
+        cv.dateDebut ?? filtered[0].date_prevue ?? new Date().toISOString().slice(0, 10);
+      const newSteps = recomputeCreatedStepDates(filtered, anchor);
+      await persistCreatedVoyage({ ...cv, steps: newSteps });
+    },
+    [isCreatedLocal, voyage.id, router, persistCreatedVoyage]
+  );
 
   const anchorDate = voyage.dateDebut || orderedSteps[0]?.date_prevue || "";
 
@@ -462,35 +600,80 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
     return null;
   }, [orderedSteps, stepDates, voyage]);
 
+  /** Distance d’itinéraire (hors autoroute prioritaire) — alimente le carburant. */
+  const routeKm = voyage.stats?.km ?? 0;
+
+  const fuelCostEuro = useMemo(() => {
+    if (routeKm <= 0) return 0;
+    const { pricePerLiter, litersPer100km } = fuelParams;
+    if (pricePerLiter > 0 && litersPer100km > 0) {
+      return Math.round((routeKm / 100) * litersPer100km * pricePerLiter);
+    }
+    return Math.round(voyage.stats?.essence ?? routeKm * 0.12);
+  }, [routeKm, fuelParams, voyage.stats?.essence]);
+
   const budgetTotal = useMemo(() => {
     let t = 0;
     for (const s of voyage.steps) {
       t += budgetSplitTotal(budgetByStep[s.id] ?? defaultBudgetSplit(s));
     }
-    t += voyage.stats?.essence ?? Math.round((voyage.stats?.km ?? 0) * 0.12);
+    t += fuelCostEuro;
     return Math.round(t) || 420;
-  }, [voyage, budgetByStep]);
+  }, [voyage, budgetByStep, fuelCostEuro]);
 
   const budgetRows = useMemo(() => {
     let nourriture = 0;
     let culture = 0;
     let logement = 0;
-    let essence = voyage.stats?.essence ?? 0;
     for (const s of voyage.steps) {
       const split = budgetByStep[s.id] ?? defaultBudgetSplit(s);
       nourriture += split.nourriture || 0;
       culture += split.culture || 0;
       logement += split.logement || 0;
     }
-    if (!essence && voyage.stats?.km) essence = Math.round(voyage.stats.km * 0.12);
+    const essence = fuelCostEuro;
     const rows = [
       { categorie: "Nourriture", montant: Math.round(nourriture) || 120 },
       { categorie: "Culture", montant: Math.round(culture) || 90 },
       { categorie: "Logement", montant: Math.round(logement) || 100 },
-      { categorie: "Essence", montant: Math.round(essence) || 80 },
+      { categorie: "Carburant", montant: Math.max(0, Math.round(essence)) || 0 },
     ];
     return rows;
-  }, [voyage, budgetByStep]);
+  }, [voyage, budgetByStep, fuelCostEuro]);
+
+  const onFuelParamChange = useCallback(
+    (field: keyof FuelParams, raw: string) => {
+      const trimmed = raw.replace(",", ".").trim();
+      if (trimmed === "") {
+        setFuelParams((prev) => {
+          const next = { ...prev, [field]: 0 };
+          if (fuelStorageKey) {
+            try {
+              localStorage.setItem(fuelStorageKey, JSON.stringify(next));
+            } catch {
+              /* ignore */
+            }
+          }
+          return next;
+        });
+        return;
+      }
+      const n = parseFloat(trimmed);
+      if (Number.isNaN(n) || n < 0) return;
+      setFuelParams((prev) => {
+        const next = { ...prev, [field]: n };
+        if (fuelStorageKey) {
+          try {
+            localStorage.setItem(fuelStorageKey, JSON.stringify(next));
+          } catch {
+            /* ignore */
+          }
+        }
+        return next;
+      });
+    },
+    [fuelStorageKey]
+  );
 
   const sensors = useSensors(
     useSensor(PointerSensor, { activationConstraint: { distance: 10 } }),
@@ -543,12 +726,63 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
   const [addQuery, setAddQuery] = useState("");
   const [addBusy, setAddBusy] = useState(false);
   const [addError, setAddError] = useState<string | null>(null);
+  const [geocodeSuggestions, setGeocodeSuggestions] = useState<
+    Array<{ name: string; label: string; lat: number; lng: number }>
+  >([]);
+  const [pendingGeocode, setPendingGeocode] = useState<{
+    name: string;
+    lat: number;
+    lng: number;
+  } | null>(null);
+  const suggestReq = useRef(0);
+
+  /** Suggestions Mapbox pendant la saisie (modale ouverte). */
+  useEffect(() => {
+    if (insertAt === null) {
+      setGeocodeSuggestions([]);
+      return;
+    }
+    const q = addQuery.trim();
+    if (q.length < 2) {
+      setGeocodeSuggestions([]);
+      return;
+    }
+    const my = ++suggestReq.current;
+    const t = setTimeout(() => {
+      void fetch(`/api/geocode?q=${encodeURIComponent(q)}&limit=6`)
+        .then((r) => (r.ok ? r.json() : null))
+        .then((data: { suggestions?: unknown } | null) => {
+          if (my !== suggestReq.current) return;
+          const list = data?.suggestions;
+          if (Array.isArray(list)) {
+            setGeocodeSuggestions(
+              list.filter(
+                (s: unknown): s is { name: string; label: string; lat: number; lng: number } =>
+                  typeof s === "object" &&
+                  s !== null &&
+                  typeof (s as { name?: string }).name === "string" &&
+                  typeof (s as { lat?: number }).lat === "number" &&
+                  typeof (s as { lng?: number }).lng === "number"
+              )
+            );
+          } else {
+            setGeocodeSuggestions([]);
+          }
+        })
+        .catch(() => {
+          if (my === suggestReq.current) setGeocodeSuggestions([]);
+        });
+    }, 300);
+    return () => clearTimeout(t);
+  }, [addQuery, insertAt]);
 
   const closeAddDialog = useCallback(() => {
     setInsertAt(null);
     setAddQuery("");
     setAddError(null);
     setAddBusy(false);
+    setGeocodeSuggestions([]);
+    setPendingGeocode(null);
   }, []);
 
   const onToggleType = useCallback(
@@ -593,11 +827,24 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
     setAddBusy(true);
     setAddError(null);
     try {
-      const res = await fetch(`/api/geocode?q=${encodeURIComponent(q)}`);
-      if (!res.ok) throw new Error("no_geocode");
-      const data = (await res.json()) as { lat?: number; lng?: number; name?: string };
-      if (typeof data.lat !== "number" || typeof data.lng !== "number") {
-        throw new Error("no_geocode");
+      let data: { lat: number; lng: number; name: string };
+      if (
+        pendingGeocode &&
+        pendingGeocode.name === q
+      ) {
+        data = { ...pendingGeocode, name: pendingGeocode.name };
+      } else {
+        const res = await fetch(`/api/geocode?q=${encodeURIComponent(q)}`);
+        if (!res.ok) throw new Error("no_geocode");
+        const parsed = (await res.json()) as { lat?: number; lng?: number; name?: string };
+        if (typeof parsed.lat !== "number" || typeof parsed.lng !== "number") {
+          throw new Error("no_geocode");
+        }
+        data = {
+          lat: parsed.lat,
+          lng: parsed.lng,
+          name: parsed.name ?? q,
+        };
       }
       const id = `custom-${Date.now()}`;
       const current = loadItineraireOverride(voyage.id) ?? {
@@ -610,7 +857,7 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
         ...(current.customStepsById ?? {}),
         [id]: {
           id,
-          nom: data.name || q,
+          nom: data.name,
           lat: data.lat,
           lng: data.lng,
           nuitee_type: "van" as const,
@@ -625,6 +872,48 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
         order: nextOrder,
         customStepsById: nextCustom,
       });
+      /** Garde le carnet `created-voyages` aligné + tracé / stats Mapbox à jour. */
+      if (voyage.id.startsWith("created-")) {
+        const cv = getCreatedVoyageById(voyage.id);
+        if (cv) {
+          const newStep = {
+            id,
+            nom: data.name,
+            type: "nuit" as const,
+            lat: data.lat,
+            lng: data.lng,
+            nights: 1,
+            budgetNourriture: 0,
+            budgetCulture: 0,
+            budgetLogement: 0,
+          };
+          const byId = new Map(cv.steps.map((s) => [s.id, { ...s }]));
+          byId.set(id, newStep);
+          const reordered = nextOrder
+            .map((oid) => byId.get(oid))
+            .filter((s): s is NonNullable<typeof s> => s != null);
+          const anchor =
+            cv.dateDebut ?? reordered[0]?.date_prevue ?? new Date().toISOString().slice(0, 10);
+          const stepsDated = recomputeCreatedStepDates(reordered, anchor);
+          const wps = reordered
+            .filter(
+              (s) => s.lat != null && s.lng != null && Number.isFinite(s.lat) && Number.isFinite(s.lng)
+            )
+            .map((s) => ({ lat: s.lat as number, lng: s.lng as number }));
+          const route = wps.length >= 2 ? await fetchDrivingRoute(wps) : null;
+          upsertCreatedVoyage({
+            ...cv,
+            steps: stepsDated,
+            routeGeometry: route?.geometry ?? null,
+            stats: route
+              ? { totalKm: route.distanceKm, totalMin: route.durationMin }
+              : wps.length < 2
+                ? undefined
+                : cv.stats,
+            legs: wps.length >= 2 && route ? route.legs : [],
+          });
+        }
+      }
       if (orderStorageKey) {
         try {
           localStorage.setItem(orderStorageKey, JSON.stringify(nextOrder));
@@ -638,7 +927,7 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
       setAddError("Ville introuvable. Tente un nom plus précis.");
       setAddBusy(false);
     }
-  }, [addQuery, insertAt, voyage.id, stepsOrder, orderStorageKey]);
+  }, [addQuery, insertAt, voyage.id, stepsOrder, orderStorageKey, pendingGeocode]);
 
   const handleDragEnd = useCallback(
     (event: DragEndEvent) => {
@@ -708,6 +997,19 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
               {dateRangeLabel}
               <span className="text-white/35">· {totalDays} j.</span>
             </p>
+          )}
+          {isCreatedLocal && (
+            <label className="mt-3 block max-w-[220px]">
+              <span className="mb-1 block font-courier text-[10px] font-bold uppercase tracking-wider text-white/40">
+                Date de départ
+              </span>
+              <input
+                type="date"
+                value={(voyage.dateDebut || anchorDate || "").slice(0, 10)}
+                onChange={(e) => void onDateDebutLocalChange(e)}
+                className="w-full rounded-xl border border-white/12 bg-white/5 px-3 py-2 font-courier text-sm text-white focus:border-[var(--color-accent-start)]/50 focus:outline-none"
+              />
+            </label>
           )}
         </div>
         <div className="relative shrink-0">
@@ -836,11 +1138,17 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
                           `/inspirer/ville/${slugFromNom(s.nom)}?from=voyage`,
                           here
                         )}
+                        onRemove={
+                          isCreatedLocal
+                            ? () => void onRemoveCreatedStep(s.id)
+                            : undefined
+                        }
                       />
                       {i < orderedSteps.length - 1 && (
                         <StepSeparator
                           distanceKm={distancesKm[i] ?? 0}
                           onAdd={() => setInsertAt(i + 1)}
+                          routeLeg={mapboxLegsAligned?.[i]}
                         />
                       )}
                     </div>
@@ -908,15 +1216,54 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
               <input
                 type="text"
                 value={addQuery}
-                onChange={(e) => setAddQuery(e.target.value)}
-                placeholder="Ex. Rochefort"
+                onChange={(e) => {
+                  const v = e.target.value;
+                  setAddQuery(v);
+                  setAddError(null);
+                  if (pendingGeocode && v.trim() !== pendingGeocode.name) {
+                    setPendingGeocode(null);
+                  }
+                }}
+                placeholder="Tape au moins 2 lettres…"
                 autoFocus
+                autoComplete="off"
                 onKeyDown={(e) => {
                   if (e.key === "Enter" && !addBusy) confirmAddStep();
                 }}
                 className="w-full rounded-xl border border-white/15 bg-white/[0.04] px-4 py-3 font-courier text-sm text-white outline-none placeholder:text-white/30 focus:border-[var(--color-accent-start)]/50"
               />
             </label>
+            {geocodeSuggestions.length > 0 && (
+              <ul
+                className="mt-2 max-h-52 overflow-y-auto rounded-xl border border-white/10 bg-black/50"
+                role="listbox"
+                aria-label="Suggestions de lieux"
+              >
+                {geocodeSuggestions.map((s) => (
+                  <li key={`${s.lng.toFixed(4)}-${s.lat.toFixed(4)}-${s.label}`}>
+                    <button
+                      type="button"
+                      className="w-full px-3 py-2.5 text-left transition hover:bg-white/10"
+                      onClick={() => {
+                        setAddQuery(s.name);
+                        setPendingGeocode({ name: s.name, lat: s.lat, lng: s.lng });
+                        setGeocodeSuggestions([]);
+                        setAddError(null);
+                      }}
+                    >
+                      <span className="block font-courier text-sm font-bold text-white/95">
+                        {s.name}
+                      </span>
+                      {s.label !== s.name && (
+                        <span className="mt-0.5 block line-clamp-2 font-courier text-[10px] text-white/40">
+                          {s.label}
+                        </span>
+                      )}
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            )}
             {addError && (
               <p className="mt-2 font-courier text-xs text-red-300">{addError}</p>
             )}
@@ -950,9 +1297,72 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
             </p>
             <p className="mt-1 font-title text-2xl font-bold text-white">{budgetTotal} €</p>
             <p className="mt-1 font-courier text-[10px] text-white/35">
-              Montants par ville enregistrés sur cet appareil (profil connecté).
+              Montants par ville et carburant (selon l’itinéraire sans autoroute) sur cet
+              appareil.
             </p>
           </div>
+
+          <div className="mb-4 rounded-2xl border border-white/10 bg-white/[0.04] px-4 py-3">
+            <div className="flex items-center gap-2">
+              <Fuel className="h-4 w-4 text-[var(--color-accent-start)]" />
+              <p className="font-courier text-[10px] font-bold uppercase tracking-wider text-white/50">
+                Carburant
+              </p>
+            </div>
+            <p className="mt-1 font-courier text-[11px] leading-relaxed text-white/45">
+              Distance d’itinéraire utilisée :{" "}
+              {routeKm > 0 ? (
+                <span className="text-white/80">{routeKm} km</span>
+              ) : (
+                <span>— (itinéraire indisponible)</span>
+              )}{" "}
+              (tracé en priorité hors autoroute, comme sur la carte).
+            </p>
+            <div className="mt-3 grid grid-cols-1 gap-3 sm:grid-cols-2">
+              <label className="block">
+                <span className="mb-1 block font-courier text-[9px] font-bold uppercase text-white/40">
+                  Prix du carburant (€ / L)
+                </span>
+                <input
+                  type="number"
+                  min={0}
+                  step={0.01}
+                  inputMode="decimal"
+                  value={fuelParams.pricePerLiter}
+                  onChange={(e) => onFuelParamChange("pricePerLiter", e.target.value)}
+                  className="w-full rounded-xl border border-white/12 bg-white/[0.05] px-3 py-2 font-courier text-sm text-white outline-none focus:border-[var(--color-accent-start)]/40"
+                />
+              </label>
+              <label className="block">
+                <span className="mb-1 block font-courier text-[9px] font-bold uppercase text-white/40">
+                  Consommation (L / 100 km)
+                </span>
+                <input
+                  type="number"
+                  min={0}
+                  step={0.1}
+                  inputMode="decimal"
+                  value={fuelParams.litersPer100km}
+                  onChange={(e) => onFuelParamChange("litersPer100km", e.target.value)}
+                  className="w-full rounded-xl border border-white/12 bg-white/[0.05] px-3 py-2 font-courier text-sm text-white outline-none focus:border-[var(--color-accent-start)]/40"
+                />
+              </label>
+            </div>
+            <p className="mt-2 font-courier text-xs text-[var(--color-accent-start)]/95">
+              Estimation carburant (total) : {fuelCostEuro} €
+              {routeKm > 0 && fuelParams.pricePerLiter > 0 && fuelParams.litersPer100km > 0 && (
+                <span className="ml-1 text-white/40">
+                  (
+                  {(
+                    (routeKm / 100) *
+                    fuelParams.litersPer100km
+                  ).toLocaleString("fr-FR", { maximumFractionDigits: 1 })}{" "}
+                  L)
+                </span>
+              )}
+            </p>
+          </div>
+
           <div className="space-y-3">
             {orderedSteps.map((s) => {
               const split = budgetByStep[s.id] ?? defaultBudgetSplit(s);

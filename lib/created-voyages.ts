@@ -17,12 +17,25 @@ export type CreatedVoyageStep = {
   budgetLogement?: number;
 };
 
+export type RouteGeometry = {
+  type: "LineString";
+  coordinates: [number, number][];
+};
+
 export type CreatedVoyage = {
   id: string;
   titre: string;
   sousTitre: string;
   createdAt: string;
+  /** Date de départ du voyage (YYYY-MM-DD) — ancre pour les étapes. */
+  dateDebut?: string;
   steps: CreatedVoyageStep[];
+  /** Tracé routier Mapbox (GeoJSON), si calculé. */
+  routeGeometry?: RouteGeometry | null;
+  /** Distance / durée totales de l’itinéraire routier. */
+  stats?: { totalKm: number; totalMin: number };
+  /** Un segment par paire d’étapes consécutives (même ordre que les étapes). */
+  legs?: Array<{ distanceKm: number; durationMin: number }>;
 };
 
 export function getCreatedVoyageById(id: string): CreatedVoyage | null {
@@ -61,6 +74,13 @@ export function createdVoyageToViagoPayload(cv: CreatedVoyage): {
     titre: cv.titre,
     sousTitre: cv.sousTitre,
     steps,
+    stats: cv.stats?.totalKm
+      ? {
+          km: cv.stats.totalKm,
+          essence: Math.round(cv.stats.totalKm * 0.12),
+          budget: undefined,
+        }
+      : undefined,
   };
 }
 
@@ -79,6 +99,31 @@ export function saveCreatedVoyage(voyage: CreatedVoyage): void {
   const existing = loadCreatedVoyages();
   existing.unshift(voyage);
   localStorage.setItem(STORAGE_KEY, JSON.stringify(existing));
+}
+
+/** Remplace ou insère un voyage par `id` (mise à jour idempotente). */
+export function upsertCreatedVoyage(voyage: CreatedVoyage): void {
+  if (typeof window === "undefined") return;
+  const rest = loadCreatedVoyages().filter((v) => v.id !== voyage.id);
+  rest.unshift(voyage);
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(rest));
+}
+
+/** Recalcule `date_prevue` à partir de `dateDebut` et des nuits par étape (logique alignée sur Préparer). */
+export function recomputeCreatedStepDates(
+  steps: CreatedVoyageStep[],
+  dateDebut: string
+): CreatedVoyageStep[] {
+  const start = new Date(dateDebut);
+  if (Number.isNaN(start.getTime())) return steps;
+  let cursor = 0;
+  return steps.map((s) => {
+    const d = new Date(start.getTime() + cursor * 86400000);
+    const iso = d.toISOString().split("T")[0];
+    const advance = s.type === "nuit" ? Math.max(1, s.nights ?? 1) : 0;
+    cursor += advance;
+    return { ...s, date_prevue: iso };
+  });
 }
 
 export function removeCreatedVoyage(id: string): void {

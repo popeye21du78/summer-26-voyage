@@ -5,7 +5,8 @@ import { useParams } from "next/navigation";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 import { ArrowLeft } from "lucide-react";
-import { loadCreatedVoyages } from "@/lib/created-voyages";
+import { loadCreatedVoyages, type CreatedVoyage } from "@/lib/created-voyages";
+import { mergeVoyageSteps } from "@/lib/voyage-local-overrides";
 import type { Voyage } from "@/data/mock-voyages";
 import type { Step } from "@/types";
 import VoyageDetailInteractive from "@/components/mon-espace/VoyageDetailInteractive";
@@ -26,9 +27,11 @@ export default function VoyageDetailPage() {
         if (v) {
           setVoyage(v);
         } else {
-          const local = loadCreatedVoyages().find((cv) => cv.id === slug);
+          const local = loadCreatedVoyages().find((cv) => cv.id === slug) as
+            | CreatedVoyage
+            | undefined;
           if (local) {
-            const steps: Step[] = local.steps.map((s) => ({
+            const baseSteps: Step[] = local.steps.map((s) => ({
               id: s.id,
               nom: s.nom,
               coordonnees: {
@@ -41,14 +44,23 @@ export default function VoyageDetailPage() {
               nuitee_type: s.type === "passage" ? "passage" : "van",
               contenu_voyage: { photos: [] },
             }));
+            const steps = mergeVoyageSteps(baseSteps, local.id);
             setVoyage({
               id: local.id,
               titre: local.titre,
               sousTitre: local.sousTitre,
               region: "France",
               dureeJours: steps.length,
-              dateDebut: steps[0]?.date_prevue ?? "",
+              dateDebut: local.dateDebut ?? steps[0]?.date_prevue ?? "",
               steps,
+              stats: local.stats
+                ? {
+                    km: local.stats.totalKm,
+                    essence: Math.round(local.stats.totalKm * 0.12),
+                  }
+                : undefined,
+              routeGeometry: local.routeGeometry ?? null,
+              routeLegs: local.legs,
             });
           }
         }

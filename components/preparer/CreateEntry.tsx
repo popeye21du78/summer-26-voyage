@@ -219,6 +219,36 @@ export default function CreateEntry() {
               </span>
             </span>
           </button>
+
+          <Link
+            href="/preparer/mes-villes"
+            className="viago-glass-card group flex items-start gap-4 p-5 text-left transition hover:brightness-110 active:scale-[0.99]"
+            style={{ borderColor: "color-mix(in srgb, var(--color-accent-gold) 40%, var(--color-glass-border))" }}
+          >
+            <span
+              className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl"
+              style={{
+                background:
+                  "color-mix(in srgb, var(--color-accent-gold) 22%, transparent)",
+                boxShadow: "0 6px 18px var(--color-shadow)",
+              }}
+            >
+              <Map className="h-7 w-7 text-[var(--color-accent-gold)]" strokeWidth={1.8} />
+            </span>
+            <span className="min-w-0 flex-1">
+              <span className="font-title block text-xl font-bold uppercase tracking-wide text-[var(--color-text-primary)]">
+                Tes propres villes
+              </span>
+              <span className="mt-1 block font-courier text-xs leading-relaxed text-[var(--color-text-secondary)]">
+                Saisis les lieux dans l&apos;ordre, géolocalisation Mapbox, itinéraire
+                et ébauche dans mon espace — une date de départ à la fin.
+              </span>
+              <span className="mt-3 inline-flex items-center gap-1.5 font-courier text-[10px] font-bold uppercase tracking-wider text-[var(--color-accent-gold)]">
+                Villes → carte → brouillon
+                <ArrowRight className="h-3 w-3 transition group-hover:translate-x-0.5" />
+              </span>
+            </span>
+          </Link>
         </section>
 
         {/* ——— Options secondaires ——— */}
