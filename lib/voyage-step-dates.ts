@@ -1,4 +1,5 @@
 import type { Step } from "@/types";
+import type { NuiteeOverride } from "@/lib/voyage-local-overrides";
 
 export function defaultNuits(s: Step): number {
   if (s.nuitees != null) return s.nuitees;
@@ -13,14 +14,27 @@ function addDaysIso(iso: string, days: number): string {
   return dt.toISOString().slice(0, 10);
 }
 
+function isPassageLike(
+  step: Step,
+  n: number,
+  nuiteeFromUi: NuiteeOverride | undefined
+): boolean {
+  if (nuiteeFromUi === "passage") return true;
+  if (nuiteeFromUi === "van" || nuiteeFromUi === "airbnb") return false;
+  if (n <= 0) return true;
+  return step.nuitee_type === "passage";
+}
+
 /**
- * Recalcule une date d’arrivée par étape à partir d’une ancre (date de début du voyage)
- * et des nuitées par étape. Passage : avance d’au moins 1 jour pour l’étape suivante.
+ * Recalcule une date d’arrivée par étape. Les **passages** partagent le même jour
+ * calendaire (plusieurs escales le même J1) ; les nuitées font avancer la date d’arrivée
+ * (aligné sur `recomputeCreatedStepDates` côté carnet).
  */
 export function computeStepArrivalDates(
   orderedSteps: Step[],
   anchorDate: string,
-  nuitsByStep: Record<string, number>
+  nuitsByStep: Record<string, number>,
+  nuiteeByStepId?: Record<string, NuiteeOverride>
 ): Record<string, string> {
   const out: Record<string, string> = {};
   if (!anchorDate || !orderedSteps.length) return out;
@@ -29,8 +43,13 @@ export function computeStepArrivalDates(
   for (const step of orderedSteps) {
     out[step.id] = cursor;
     const n = nuitsByStep[step.id] ?? defaultNuits(step);
-    const isPassage = step.nuitee_type === "passage";
-    const days = isPassage ? 1 : Math.max(1, n);
+    const ov = nuiteeByStepId?.[step.id];
+    const isPass = isPassageLike(step, n, ov);
+    if (isPass) {
+      /* même jour calendaire pour l’escale suivante (plusieurs « passage » = même J) */
+      continue;
+    }
+    const days = Math.max(1, n);
     cursor = addDaysIso(cursor, days);
   }
   return out;

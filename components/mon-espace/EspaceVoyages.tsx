@@ -8,7 +8,11 @@ import { CityPhoto } from "@/components/CityPhoto";
 import { loadPhotoValidationSnapshot } from "@/lib/client-photo-snapshot";
 import type { VoyageStateResponse } from "@/types/voyage-state";
 import type { Voyage } from "@/data/mock-voyages";
-import { loadCreatedVoyages, type CreatedVoyage } from "@/lib/created-voyages";
+import {
+  loadCreatedVoyages,
+  upsertCreatedVoyage,
+  type CreatedVoyage,
+} from "@/lib/created-voyages";
 
 type SubTab = "en_cours" | "a_venir" | "souvenirs";
 
@@ -22,10 +26,45 @@ type Props = { state: VoyageStateResponse | null };
 
 export default function EspaceVoyages({ state }: Props) {
   const router = useRouter();
-  const [createdVoyages, setCreatedVoyages] = useState<CreatedVoyage[]>([]);
+  const [createdVoyages, setCreatedVoyages] = useState<CreatedVoyage[]>(() =>
+    loadCreatedVoyages()
+  );
 
   useEffect(() => {
     setCreatedVoyages(loadCreatedVoyages());
+  }, []);
+
+  useEffect(() => {
+    const refresh = () => setCreatedVoyages(loadCreatedVoyages());
+    window.addEventListener("focus", refresh);
+    return () => window.removeEventListener("focus", refresh);
+  }, []);
+
+  useEffect(() => {
+    void fetch("/api/created-voyage", { credentials: "same-origin" })
+      .then((r) => (r.ok ? r.json() : null))
+      .then(
+        (d: { drafts?: Array<{ payload: unknown }> } | null) => {
+          if (!d?.drafts?.length) return;
+          for (const row of d.drafts) {
+            const p = row.payload;
+            if (
+              p &&
+              typeof p === "object" &&
+              "id" in p &&
+              typeof (p as { id: string }).id === "string" &&
+              (p as { id: string }).id.toLowerCase().startsWith("created-")
+            ) {
+              try {
+                upsertCreatedVoyage(p as CreatedVoyage);
+              } catch {
+                /* ignore */
+              }
+            }
+          }
+          setCreatedVoyages(loadCreatedVoyages());
+        }
+      );
   }, []);
 
   useEffect(() => {
@@ -34,10 +73,18 @@ export default function EspaceVoyages({ state }: Props) {
 
   const initial: SubTab = state?.voyageEnCours
     ? "en_cours"
-    : state?.voyagePrevu || createdVoyages.length > 0
+    : state?.voyagePrevu ||
+        (state?.voyagesPrevus && state.voyagesPrevus.length > 0) ||
+        loadCreatedVoyages().length > 0
       ? "a_venir"
       : "souvenirs";
   const [tab, setTab] = useState<SubTab>(initial);
+
+  useEffect(() => {
+    if (createdVoyages.length > 0 && !state?.voyageEnCours) {
+      setTab((t) => (t === "souvenirs" ? "a_venir" : t));
+    }
+  }, [createdVoyages.length, state?.voyageEnCours]);
 
   const enCours = state?.voyageEnCours ? [state.voyageEnCours] : [];
   const prevus =

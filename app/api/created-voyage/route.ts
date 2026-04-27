@@ -4,6 +4,29 @@ import { supabaseAdmin } from "@/lib/supabase-admin";
 import type { CreatedVoyage } from "@/lib/created-voyages";
 import type { Json } from "@/types/supabase";
 
+/**
+ * Liste les brouillons `created-*` (sync carnet + écran Mon espace).
+ */
+export async function GET() {
+  if (!supabaseAdmin) {
+    return NextResponse.json({ drafts: [] as unknown[] });
+  }
+  const auth = await getServerAuth();
+  if (!auth) {
+    return NextResponse.json({ drafts: [] as unknown[] });
+  }
+  const { data, error } = await supabaseAdmin
+    .from("created_voyage_drafts")
+    .select("id, payload, updated_at")
+    .eq("user_id", auth.userId)
+    .order("updated_at", { ascending: false });
+  if (error) {
+    console.error("created-voyage GET:", error);
+    return NextResponse.json({ drafts: [] as unknown[] });
+  }
+  return NextResponse.json({ drafts: data ?? [] });
+}
+
 function isCreatedVoyageShape(x: unknown): x is CreatedVoyage {
   if (!x || typeof x !== "object") return false;
   const o = x as Record<string, unknown>;

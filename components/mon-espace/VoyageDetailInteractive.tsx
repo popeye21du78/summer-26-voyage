@@ -150,8 +150,8 @@ function SortableStepRow({
       className="flex min-h-[9.5rem] w-full overflow-hidden rounded-3xl border border-white/12 bg-gradient-to-b from-[var(--color-bg-secondary)] to-[var(--color-bg-gradient-end)] shadow-[0_10px_30px_rgba(0,0,0,0.28)]"
     >
       <div className="relative w-[min(48%,10.5rem)] min-w-0 max-w-[50%] shrink-0 self-stretch overflow-hidden bg-[var(--color-bg-main)] sm:w-[min(44%,10rem)]">
-        <div className="absolute inset-0 flex items-center justify-center p-1.5">
-          <div className="relative h-full w-full [&_.photo-bw-reveal]:!h-full [&_.photo-bw-reveal]:!w-full [&_.photo-bw-reveal]:!object-contain [&_.photo-bw-reveal]:!object-center [&_.photo-bw-reveal]:!max-h-full [&_.photo-bw-reveal]:!max-w-full [&_.photo-bw-reveal]:scale-90 sm:[&_.photo-bw-reveal]:scale-[0.88]">
+        <div className="absolute inset-0 p-0">
+          <div className="relative h-full min-h-[8.5rem] w-full sm:min-h-[9.5rem] [&_.photo-bw-reveal]:!h-full [&_.photo-bw-reveal]:!w-full [&_.photo-bw-reveal]:!min-h-0 [&_.photo-bw-reveal]:!object-cover [&_.photo-bw-reveal]:![object-position:left_center]">
             <CityPhoto
               stepId={step.id}
               ville={step.nom}
@@ -214,7 +214,7 @@ function SortableStepRow({
                   e.stopPropagation();
                   onRemove();
                 }}
-                className="flex h-8 w-8 touch-manipulation items-center justify-center rounded-lg border border-red-500/30 bg-black/30 text-red-200 shadow backdrop-blur-sm transition hover:bg-red-500/20"
+                className="relative z-30 flex h-8 w-8 touch-manipulation items-center justify-center rounded-lg border border-red-500/30 bg-black/30 text-red-200 shadow backdrop-blur-sm transition hover:bg-red-500/20"
                 aria-label="Supprimer cette étape"
               >
                 <Trash2 className="h-3 w-3" />
@@ -235,8 +235,12 @@ function SortableStepRow({
         <div className="mt-auto flex flex-wrap items-end justify-end gap-1.5">
           <button
             type="button"
-            onClick={() => onToggleType(step.id, !isPassage)}
-            className={`flex h-8 w-8 items-center justify-center rounded-lg border shadow-sm backdrop-blur-sm transition active:scale-95 ${
+            onPointerDown={(e) => e.stopPropagation()}
+            onClick={(e) => {
+              e.stopPropagation();
+              onToggleType(step.id, !isPassage);
+            }}
+            className={`relative z-30 flex h-8 w-8 items-center justify-center rounded-lg border shadow-sm backdrop-blur-sm transition active:scale-95 ${
               isPassage
                 ? "border-white/25 bg-black/20 text-white/85"
                 : "border-[var(--color-accent-line-40)] bg-[color-mix(in_srgb,var(--color-accent-start)_20%,transparent)] text-[var(--color-text-primary)]"
@@ -374,6 +378,82 @@ function stepToCreatedVoyageStep(s: Step): CreatedVoyageStep {
     budgetNourriture: s.budget_nourriture,
     budgetCulture: s.budget_culture,
     budgetLogement: s.budget_nuitee,
+  };
+}
+
+/** Recolle les segments Mapbox quand l’ordre des étapes change (mêmes tronçons, graphe non orienté). */
+function remapRouteLegsForOrder(
+  newOrderIds: string[],
+  sourceOrderIds: string[],
+  legs: Array<{ distanceKm: number; durationMin: number }> | null | undefined
+): Array<{ distanceKm: number; durationMin: number }> | null {
+  if (!legs?.length || legs.length !== newOrderIds.length - 1) return null;
+  if (sourceOrderIds.length !== newOrderIds.length) return null;
+  const byEdge = new Map<
+    string,
+    { distanceKm: number; durationMin: number }
+  >();
+  for (let i = 0; i < sourceOrderIds.length - 1; i++) {
+    const a = sourceOrderIds[i];
+    const b = sourceOrderIds[i + 1];
+    const L = legs[i];
+    if (!L) return null;
+    byEdge.set(`${a}|${b}`, L);
+    byEdge.set(`${b}|${a}`, L);
+  }
+  const out: Array<{ distanceKm: number; durationMin: number }> = [];
+  for (let i = 0; i < newOrderIds.length - 1; i++) {
+    const e = byEdge.get(`${newOrderIds[i]}|${newOrderIds[i + 1]}`);
+    if (!e) return null;
+    out.push(e);
+  }
+  return out;
+}
+
+/**
+ * Reconstruit le carnet `created` à partir de l’écran (si localStorage a été
+ * peuplé uniquement via l’API / sans carnet, `getCreatedVoyageById` est vide).
+ */
+function buildCreatedVoyageFromViewState(
+  voyage: Voyage,
+  ordered: Step[],
+  nuitee: Record<string, NuiteeOverride>,
+  nuits: Record<string, number>
+): CreatedVoyage {
+  const base = getCreatedVoyageById(voyage.id);
+  const steps: CreatedVoyageStep[] = ordered.map((s) => {
+    const o = nuitee[s.id];
+    const n = nuits[s.id] ?? defaultNuits(s);
+    const kind = o ? stepNuiteeKind(s, o) : stepNuiteeKind(s, undefined);
+    const isP = kind === "passage" || n <= 0;
+    return {
+      id: s.id,
+      nom: s.nom,
+      type: isP ? "passage" : "nuit",
+      lat: s.coordonnees.lat,
+      lng: s.coordonnees.lng,
+      date_prevue: s.date_prevue,
+      nights: isP ? 0 : Math.max(1, n),
+      budgetNourriture: s.budget_nourriture,
+      budgetCulture: s.budget_culture,
+      budgetLogement: s.budget_nuitee,
+    };
+  });
+  return {
+    id: voyage.id,
+    titre: voyage.titre,
+    sousTitre: voyage.sousTitre,
+    createdAt: base?.createdAt ?? new Date().toISOString(),
+    dateDebut: base?.dateDebut ?? voyage.dateDebut,
+    steps,
+    routeGeometry: base?.routeGeometry ?? voyage.routeGeometry ?? null,
+    stats: base?.stats
+      ? base.stats
+      : voyage.stats?.km
+        ? { totalKm: voyage.stats.km, totalMin: 0 }
+        : undefined,
+    legs: base?.legs ?? voyage.routeLegs,
+    routeProfile: base?.routeProfile ?? voyage.routeProfile ?? "driving",
   };
 }
 
@@ -546,15 +626,26 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
     return out;
   }, [stepsOrder, stepById, voyage.steps]);
 
-  /** Segments Mapbox valides seulement si l’ordre des étapes n’a pas changé. */
+  /**
+   * Segments routiers : on recolle les tronçons quand l’ordre a changé
+   * (mêmes arêtes qu’au dernier calcul Mapbox).
+   */
   const mapboxLegsAligned = useMemo(() => {
-    if (!voyage.routeLegs?.length) return null;
-    if (!isCreatedLocal) return null;
-    const orig = getCreatedVoyageById(voyage.id)?.steps.map((s) => s.id) ?? [];
-    if (orig.length !== orderedSteps.length) return null;
-    const same = orderedSteps.every((s, i) => s.id === orig[i]);
-    if (!same) return null;
-    return voyage.routeLegs;
+    if (!voyage.routeLegs?.length || !isCreatedLocal) return null;
+    const newIds = orderedSteps.map((s) => s.id);
+    const cv = getCreatedVoyageById(voyage.id);
+    const sourceIds = (cv?.steps.map((s) => s.id).length
+      ? cv!.steps.map((s) => s.id)
+      : newIds) as string[];
+    const remapped = remapRouteLegsForOrder(newIds, sourceIds, voyage.routeLegs);
+    if (remapped) return remapped;
+    if (
+      newIds.length === sourceIds.length &&
+      newIds.every((id, i) => id === sourceIds[i])
+    ) {
+      return voyage.routeLegs;
+    }
+    return null;
   }, [voyage.id, voyage.routeLegs, orderedSteps, isCreatedLocal]);
 
   const persistCreatedVoyage = useCallback(async (cv: CreatedVoyage) => {
@@ -598,25 +689,51 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
   const applyRouteProfile = useCallback(
     async (p: MapboxRouteProfile) => {
       if (!isCreatedLocal) return;
-      const cv = getCreatedVoyageById(voyage.id);
-      if (!cv) return;
+      const cv0 =
+        getCreatedVoyageById(voyage.id) ??
+        buildCreatedVoyageFromViewState(
+          voyage,
+          orderedSteps,
+          nuiteeTypeByStep,
+          nuitsByStep
+        );
       setRouteProfile(p);
-      await persistCreatedVoyage({ ...cv, routeProfile: p });
+      await persistCreatedVoyage({ ...cv0, routeProfile: p });
     },
-    [isCreatedLocal, voyage.id, persistCreatedVoyage]
+    [
+      isCreatedLocal,
+      voyage,
+      orderedSteps,
+      nuiteeTypeByStep,
+      nuitsByStep,
+      persistCreatedVoyage,
+    ]
   );
 
   const onDateDebutLocalChange = useCallback(
     async (e: React.ChangeEvent<HTMLInputElement>) => {
       if (!isCreatedLocal) return;
-      const cv = getCreatedVoyageById(voyage.id);
-      if (!cv) return;
+      const cv0 =
+        getCreatedVoyageById(voyage.id) ??
+        buildCreatedVoyageFromViewState(
+          voyage,
+          orderedSteps,
+          nuiteeTypeByStep,
+          nuitsByStep
+        );
       const d = e.target.value;
       if (!d) return;
-      const newSteps = recomputeCreatedStepDates(cv.steps, d);
-      await persistCreatedVoyage({ ...cv, dateDebut: d, steps: newSteps });
+      const newSteps = recomputeCreatedStepDates(cv0.steps, d);
+      await persistCreatedVoyage({ ...cv0, dateDebut: d, steps: newSteps });
     },
-    [isCreatedLocal, voyage.id, persistCreatedVoyage]
+    [
+      isCreatedLocal,
+      voyage,
+      orderedSteps,
+      nuiteeTypeByStep,
+      nuitsByStep,
+      persistCreatedVoyage,
+    ]
   );
 
   const onRemoveCreatedStep = useCallback(
@@ -698,8 +815,13 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
 
   const stepDates = useMemo(() => {
     if (!anchorDate || !orderedSteps.length) return {};
-    return computeStepArrivalDates(orderedSteps, anchorDate, nuitsByStep);
-  }, [orderedSteps, anchorDate, nuitsByStep]);
+    return computeStepArrivalDates(
+      orderedSteps,
+      anchorDate,
+      nuitsByStep,
+      nuiteeTypeByStep
+    );
+  }, [orderedSteps, anchorDate, nuitsByStep, nuiteeTypeByStep]);
 
   const dateRangeLabel = useMemo(() => {
     const ids = orderedSteps.map((s) => s.id);
@@ -717,7 +839,19 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
   }, [orderedSteps, stepDates, voyage]);
 
   /** Distance d’itinéraire (hors autoroute prioritaire) — alimente le carburant. */
-  const routeKm = voyage.stats?.km ?? 0;
+  const routeKm = useMemo(() => {
+    const fromStats = voyage.stats?.km;
+    if (typeof fromStats === "number" && fromStats > 0) return Math.round(fromStats);
+    if (mapboxLegsAligned?.length) {
+      const s = mapboxLegsAligned.reduce((a, l) => a + (l.distanceKm || 0), 0);
+      if (s > 0) return Math.round(s);
+    }
+    if (voyage.routeLegs?.length) {
+      const s = voyage.routeLegs.reduce((a, l) => a + (l.distanceKm || 0), 0);
+      if (s > 0) return Math.round(s);
+    }
+    return 0;
+  }, [voyage.stats?.km, voyage.routeLegs, mapboxLegsAligned]);
 
   const fuelCostEuro = useMemo(() => {
     if (routeKm <= 0) return 0;
@@ -803,26 +937,29 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
   const dndAutoscroll = useWindowDndAutoscroll();
 
   /**
-   * Durée totale dynamique ET libellé « J{x} » ou « J{x}–{y} » par étape.
-   * Règle : passage = 1 jour, sinon max(1, nuits) jours. 0 nuit non-passage est
-   * traité comme un passage (fallback cohérent avec l'UI badge losange).
+   * J{x} = jour calendaire d’arrivée (même J pour toutes les escales le même jour).
    */
   const { totalDays, dayLabelByStep } = useMemo(() => {
     const labels: Record<string, string> = {};
-    let cursor = 1;
-    for (const s of orderedSteps) {
-      const n = nuitsByStep[s.id] ?? defaultNuits(s);
-      const kind = stepNuiteeKind(s, nuiteeTypeByStep[s.id]);
-      const isPassage = kind === "passage" || n <= 0;
-      const daysHere = isPassage ? 1 : Math.max(1, n);
-      labels[s.id] = daysHere === 1 ? `J${cursor}` : `J${cursor}–${cursor + daysHere - 1}`;
-      cursor += daysHere;
+    if (!orderedSteps.length) {
+      return { totalDays: voyage.dureeJours, dayLabelByStep: labels };
     }
-    return {
-      totalDays: cursor - 1 || voyage.dureeJours,
-      dayLabelByStep: labels,
-    };
-  }, [orderedSteps, nuitsByStep, nuiteeTypeByStep, voyage.dureeJours]);
+    const dayKeys: string[] = [];
+    for (const s of orderedSteps) {
+      const d = stepDates[s.id] ?? s.date_prevue ?? "";
+      if (d && !dayKeys.includes(d)) dayKeys.push(d);
+    }
+    if (dayKeys.length === 0) {
+      return { totalDays: voyage.dureeJours, dayLabelByStep: labels };
+    }
+    const dToJ = new Map<string, number>();
+    dayKeys.forEach((d, i) => dToJ.set(d, i + 1));
+    for (const s of orderedSteps) {
+      const d = stepDates[s.id] ?? s.date_prevue ?? "";
+      if (d && dToJ.has(d)) labels[s.id] = `J${dToJ.get(d)}`;
+    }
+    return { totalDays: dayKeys.length, dayLabelByStep: labels };
+  }, [orderedSteps, stepDates, voyage.dureeJours]);
 
   /** Distances à vol d'oiseau entre chaque étape consécutive. */
   const distancesKm = useMemo(() => {
@@ -918,6 +1055,14 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
         },
       };
       saveItineraireOverride(voyage.id, nextOverride);
+      const nextNuitee: Record<string, NuiteeOverride> = {
+        ...nuiteeTypeByStep,
+        [stepId]: wantPassage ? "passage" : "van",
+      };
+      const nextNuits: Record<string, number> = {
+        ...nuitsByStep,
+        [stepId]: wantPassage ? 0 : Math.max(1, nuitsByStep[stepId] ?? 1),
+      };
       setNuiteeTypeByStep((prev) => ({
         ...prev,
         [stepId]: wantPassage ? "passage" : "van",
@@ -935,8 +1080,32 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
         }
         return copy;
       });
+      if (voyage.id.startsWith("created-")) {
+        const draft = buildCreatedVoyageFromViewState(
+          voyage,
+          orderedSteps,
+          nextNuitee,
+          nextNuits
+        );
+        const anchor =
+          draft.dateDebut ??
+          voyage.dateDebut ??
+          orderedSteps[0]?.date_prevue ??
+          new Date().toISOString().slice(0, 10);
+        const dated = recomputeCreatedStepDates(draft.steps, anchor);
+        const nextCv: CreatedVoyage = { ...draft, steps: dated };
+        upsertCreatedVoyage(nextCv);
+        void persistCreatedVoyageOnServer(nextCv);
+      }
     },
-    [voyage.id, nuitsStorageKey]
+    [
+      voyage.id,
+      voyage,
+      nuitsStorageKey,
+      orderedSteps,
+      nuiteeTypeByStep,
+      nuitsByStep,
+    ]
   );
 
   const confirmAddStep = useCallback(async () => {
@@ -946,22 +1115,27 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
     setAddError(null);
     try {
       let data: { lat: number; lng: number; name: string };
-      if (
-        pendingGeocode &&
-        pendingGeocode.name === q
-      ) {
-        data = { ...pendingGeocode, name: pendingGeocode.name };
+      const qNorm = q.toLowerCase();
+      if (pendingGeocode && pendingGeocode.name.trim().toLowerCase() === qNorm) {
+        data = { ...pendingGeocode, name: pendingGeocode.name.trim() };
       } else {
         const res = await fetch(`/api/geocode?q=${encodeURIComponent(q)}`);
         if (!res.ok) throw new Error("no_geocode");
-        const parsed = (await res.json()) as { lat?: number; lng?: number; name?: string };
+        const parsed = (await res.json()) as { lat?: number; lng?: number; name?: unknown };
         if (typeof parsed.lat !== "number" || typeof parsed.lng !== "number") {
           throw new Error("no_geocode");
         }
+        const rawName = parsed.name;
+        const nameStr =
+          typeof rawName === "string"
+            ? rawName
+            : rawName != null
+              ? String(rawName)
+              : q;
         data = {
           lat: parsed.lat,
           lng: parsed.lng,
-          name: parsed.name ?? q,
+          name: nameStr.trim() || q,
         };
       }
       const id = `custom-${Date.now()}`;
@@ -992,55 +1166,64 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
       });
       /** Garde le carnet `created-voyages` aligné + tracé / stats Mapbox à jour. */
       if (voyage.id.startsWith("created-")) {
-        const cv = getCreatedVoyageById(voyage.id);
-        if (cv) {
-          const newStep = {
-            id,
-            nom: data.name,
-            type: "nuit" as const,
-            lat: data.lat,
-            lng: data.lng,
-            nights: 1,
-            budgetNourriture: 0,
-            budgetCulture: 0,
-            budgetLogement: 0,
-          };
-          const byId = new Map(cv.steps.map((s) => [s.id, { ...s }]));
-          byId.set(id, newStep);
-          const reordered = nextOrder
-            .map((oid) => byId.get(oid))
-            .filter((s): s is NonNullable<typeof s> => s != null);
-          const anchor =
-            cv.dateDebut ?? reordered[0]?.date_prevue ?? new Date().toISOString().slice(0, 10);
-          const stepsDated = recomputeCreatedStepDates(reordered, anchor);
-          const wps = reordered
-            .filter(
-              (s) => s.lat != null && s.lng != null && Number.isFinite(s.lat) && Number.isFinite(s.lng)
-            )
-            .map((s) => ({ lat: s.lat as number, lng: s.lng as number }));
-          const prof = cv.routeProfile ?? "driving";
-          const route =
-            wps.length >= 2
-              ? await fetchVoyageRouteForSave(wps, {
-                  profile: prof,
-                  excludeMotorway: prof === "driving",
-                })
-              : null;
-          const nextCv: CreatedVoyage = {
-            ...cv,
-            routeProfile: prof,
-            steps: stepsDated,
-            routeGeometry: route?.geometry ?? null,
-            stats: route
-              ? { totalKm: route.distanceKm, totalMin: route.durationMin }
-              : wps.length < 2
-                ? undefined
-                : cv.stats,
-            legs: wps.length >= 2 && route ? route.legs : [],
-          };
-          upsertCreatedVoyage(nextCv);
-          void persistCreatedVoyageOnServer(nextCv);
+        const cv0 =
+          getCreatedVoyageById(voyage.id) ??
+          buildCreatedVoyageFromViewState(
+            voyage,
+            orderedSteps,
+            nuiteeTypeByStep,
+            nuitsByStep
+          );
+        const newStep: CreatedVoyageStep = {
+          id,
+          nom: data.name,
+          type: "nuit" as const,
+          lat: data.lat,
+          lng: data.lng,
+          nights: 1,
+          budgetNourriture: 0,
+          budgetCulture: 0,
+          budgetLogement: 0,
+        };
+        const byId = new Map(cv0.steps.map((s) => [s.id, { ...s }]));
+        byId.set(id, newStep);
+        const reordered = nextOrder
+          .map((oid) => byId.get(oid))
+          .filter((s): s is NonNullable<typeof s> => s != null);
+        const anchor =
+          cv0.dateDebut ?? reordered[0]?.date_prevue ?? new Date().toISOString().slice(0, 10);
+        const stepsDated = recomputeCreatedStepDates(reordered, anchor);
+        const wps = stepsDated
+          .filter(
+            (s) => s.lat != null && s.lng != null && Number.isFinite(s.lat) && Number.isFinite(s.lng)
+          )
+          .map((s) => ({ lat: s.lat as number, lng: s.lng as number }));
+        const prof = cv0.routeProfile ?? "driving";
+        let route: Awaited<ReturnType<typeof fetchVoyageRouteForSave>> = null;
+        if (wps.length >= 2) {
+          try {
+            route = await fetchVoyageRouteForSave(wps, {
+              profile: prof,
+              excludeMotorway: prof === "driving",
+            });
+          } catch {
+            route = null;
+          }
         }
+        const nextCv: CreatedVoyage = {
+          ...cv0,
+          routeProfile: prof,
+          steps: stepsDated,
+          routeGeometry: route?.geometry ?? (wps.length < 2 ? null : cv0.routeGeometry ?? null),
+          stats: route
+            ? { totalKm: route.distanceKm, totalMin: route.durationMin }
+            : wps.length < 2
+              ? undefined
+              : cv0.stats,
+          legs: wps.length >= 2 && route ? route.legs : wps.length < 2 ? [] : cv0.legs,
+        };
+        upsertCreatedVoyage(nextCv);
+        void persistCreatedVoyageOnServer(nextCv);
       }
       if (orderStorageKey) {
         try {
@@ -1055,7 +1238,17 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
       setAddError("Ville introuvable. Tente un nom plus précis.");
       setAddBusy(false);
     }
-  }, [addQuery, insertAt, voyage.id, stepsOrder, orderStorageKey, pendingGeocode]);
+  }, [
+    addQuery,
+    insertAt,
+    voyage,
+    stepsOrder,
+    orderStorageKey,
+    pendingGeocode,
+    orderedSteps,
+    nuiteeTypeByStep,
+    nuitsByStep,
+  ]);
 
   const handleDragEnd = useCallback(
     (event: DragEndEvent) => {
@@ -1073,8 +1266,79 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
           /* ignore */
         }
       }
+      const ov = loadItineraireOverride(voyage.id);
+      if (ov) {
+        try {
+          saveItineraireOverride(voyage.id, { ...ov, order: next });
+        } catch {
+          /* ignore */
+        }
+      }
+      if (!voyage.id.toLowerCase().startsWith("created-")) return;
+      void (async () => {
+        const cv0 =
+          getCreatedVoyageById(voyage.id) ??
+          buildCreatedVoyageFromViewState(
+            voyage,
+            orderedSteps,
+            nuiteeTypeByStep,
+            nuitsByStep
+          );
+        const byId = new Map(cv0.steps.map((s) => [s.id, { ...s }]));
+        const reordered: CreatedVoyageStep[] = [];
+        for (const oid of next) {
+          const row = byId.get(oid);
+          if (row) reordered.push(row);
+        }
+        if (reordered.length !== next.length) return;
+        const anchor =
+          cv0.dateDebut ?? reordered[0]?.date_prevue ?? new Date().toISOString().slice(0, 10);
+        const stepsDated = recomputeCreatedStepDates(reordered, anchor);
+        const wps = stepsDated
+          .filter(
+            (s) =>
+              s.lat != null &&
+              s.lng != null &&
+              Number.isFinite(s.lat) &&
+              Number.isFinite(s.lng)
+          )
+          .map((s) => ({ lat: s.lat as number, lng: s.lng as number }));
+        const prof = cv0.routeProfile ?? "driving";
+        let route: Awaited<ReturnType<typeof fetchVoyageRouteForSave>> = null;
+        if (wps.length >= 2) {
+          try {
+            route = await fetchVoyageRouteForSave(wps, {
+              profile: prof,
+              excludeMotorway: prof === "driving",
+            });
+          } catch {
+            route = null;
+          }
+        }
+        const nextCv: CreatedVoyage = {
+          ...cv0,
+          steps: stepsDated,
+          routeGeometry: route?.geometry ?? (wps.length < 2 ? null : cv0.routeGeometry ?? null),
+          stats: route
+            ? { totalKm: route.distanceKm, totalMin: route.durationMin }
+            : wps.length < 2
+              ? undefined
+              : cv0.stats,
+          legs: wps.length >= 2 && route ? route.legs : wps.length < 2 ? [] : cv0.legs ?? [],
+        };
+        upsertCreatedVoyage(nextCv);
+        void persistCreatedVoyageOnServer(nextCv);
+        if (typeof window !== "undefined") window.location.reload();
+      })();
     },
-    [stepsOrder, orderStorageKey]
+    [
+      stepsOrder,
+      orderStorageKey,
+      voyage,
+      orderedSteps,
+      nuiteeTypeByStep,
+      nuitsByStep,
+    ]
   );
 
   const onNuitsChange = useCallback(
