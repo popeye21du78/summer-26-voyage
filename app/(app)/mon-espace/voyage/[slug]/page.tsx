@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useLayoutEffect, useState, useMemo, useRef } from "react";
+import { useLayoutEffect, useState, useMemo, useRef } from "react";
 import { useParams, usePathname } from "next/navigation";
 import Link from "next/link";
 import dynamic from "next/dynamic";
@@ -14,6 +14,7 @@ import {
   type CreatedVoyage,
 } from "@/lib/created-voyages";
 import { createdVoyageToVoyageViewSafe } from "@/lib/created-voyage-page";
+import { takeCreatedVoyageHandoff } from "@/lib/voyage-created-handoff";
 import type { Voyage } from "@/data/mock-voyages";
 import VoyageDetailInteractive from "@/components/mon-espace/VoyageDetailInteractive";
 
@@ -31,10 +32,6 @@ function buildVoyageFromApiPayload(d: unknown): Voyage | null {
   return null;
 }
 
-/**
- * `useParams().slug` est parfois vide au 1er rendu après une navigation client
- * (Next.js / App Router) : on relit le segment depuis l’URL.
- */
 function resolveSlugFromRouter(
   params: ReturnType<typeof useParams>,
   pathname: string
@@ -76,179 +73,108 @@ function readSlugFromWindowPath(): string {
   }
 }
 
-function isVoyageDetailPathname(p: string): boolean {
-  return /\/mon-espace\/voyage\//.test(p);
-}
-
-function hydrateCreatedLocal(slug: string): CreatedVoyage | null {
+/**
+ * Après le clic « ébauche » : 1) tampon module JS (même exécution) 2) carnet 3) session.
+ */
+function hydrateCreatedAllSources(sid: string): CreatedVoyage | null {
   return (
-    getCreatedVoyageById(slug) ??
-    takeLastCreatedVoyageForSessionIfSlug(slug) ??
-    takeNavInflightCreatedIfSlug(slug)
+    takeCreatedVoyageHandoff(sid) ??
+    getCreatedVoyageById(sid) ??
+    takeLastCreatedVoyageForSessionIfSlug(sid) ??
+    takeNavInflightCreatedIfSlug(sid)
   );
 }
 
-const CREATED_RETRY_MS = [0, 50, 100, 200, 400, 800, 1600, 3000, 5000, 8000] as const;
+function viewFromCreated(cv: CreatedVoyage): Voyage {
+  clearNavInflightCreated();
+  return createdVoyageToVoyageViewSafe(cv);
+}
 
 export default function VoyageDetailPage() {
   const params = useParams();
   const pathname = usePathname() ?? "";
   const [locSlug, setLocSlug] = useState("");
-
-  /** Mobile / WebView : `usePathname` + `useParams` peuvent rester vides un instant après le push. */
-  useLayoutEffect(() => {
-    setLocSlug(readSlugFromWindowPath());
-  }, [pathname]);
-
   const slug = useMemo(() => {
-    const fromWindow = locSlug;
-    const fromNext = resolveSlugFromRouter(params, pathname);
-    if (fromWindow) return fromWindow;
-    if (fromNext) return fromNext;
-    return "";
+    if (locSlug) return locSlug;
+    return resolveSlugFromRouter(params, pathname);
   }, [params, pathname, locSlug]);
+
   const [voyage, setVoyage] = useState<Voyage | null>(null);
-  const [loading, setLoading] = useState(true);
-  const prevSlugRef = useRef<string | null>(null);
-  /** Évite de relancer hydratation / timers si le slug n’a pas changé (pathname / locSlug qui bougent). */
-  const createdHydratedRef = useRef<string | null>(null);
+  const [ready, setReady] = useState(false);
+  const [loadingApi, setLoadingApi] = useState(false);
+  const runId = useRef(0);
 
-  useEffect(() => {
-    if (typeof window === "undefined") return;
-    const sync = () => setLocSlug(readSlugFromWindowPath());
-    window.addEventListener("popstate", sync);
-    return () => window.removeEventListener("popstate", sync);
-  }, []);
+  useLayoutEffect(() => {
+    const my = ++runId.current;
+    const fromWindow = readSlugFromWindowPath();
+    if (fromWindow && fromWindow !== locSlug) {
+      setLocSlug(fromWindow);
+    }
 
-  useEffect(() => {
-    /**
-     * Segment pas encore dispo : ne jamais conclure « introuvable » si l’URL réelle
-     * (barre d’adresse) ou le chemin Next indiquent une fiche `/mon-espace/voyage/…`.
-     */
-    if (!slug) {
-      const winPath = typeof window !== "undefined" ? window.location.pathname : "";
-      if (isVoyageDetailPathname(pathname) || (winPath && isVoyageDetailPathname(winPath))) {
-        const s = readSlugFromWindowPath();
-        if (s) setLocSlug(s);
-        return;
-      }
+    const s =
+      fromWindow || slug || resolveSlugFromRouter(params, pathname) || "";
+
+    if (!s) {
+      if (my !== runId.current) return;
       setVoyage(null);
-      setLoading(false);
-      prevSlugRef.current = null;
+      setReady(true);
+      setLoadingApi(false);
       return;
     }
 
-    if (prevSlugRef.current !== slug) {
-      setLoading(true);
-      setVoyage(null);
-      prevSlugRef.current = slug;
-      createdHydratedRef.current = null;
+    if (s.toLowerCase().startsWith("created-")) {
+      const cv = hydrateCreatedAllSources(s);
+      if (my !== runId.current) return;
+      setVoyage(cv ? viewFromCreated(cv) : null);
+      setReady(true);
+      setLoadingApi(false);
+      return;
     }
 
-    if (slug.toLowerCase().startsWith("created-")) {
-      if (createdHydratedRef.current === slug) {
-        return;
-      }
-      const apply = (cv: CreatedVoyage | null, done: boolean) => {
-        if (cv) {
-          setVoyage(createdVoyageToVoyageViewSafe(cv));
-          createdHydratedRef.current = slug;
-          clearNavInflightCreated();
-        } else if (done) {
-          setVoyage(null);
-        }
-        if (done) setLoading(false);
-      };
-
-      const first = hydrateCreatedLocal(slug);
-      if (first) {
-        apply(first, true);
-        return;
-      }
-
-      const timers: number[] = [];
-      let attempt = 0;
-      const scheduleNext = () => {
-        if (attempt >= CREATED_RETRY_MS.length) {
-          setVoyage(null);
-          setLoading(false);
-          return;
-        }
-        const delay = CREATED_RETRY_MS[attempt];
-        attempt += 1;
-        const id = window.setTimeout(() => {
-          const syncSlug = readSlugFromWindowPath() || slug;
-          if (syncSlug && syncSlug !== slug) {
-            setLocSlug(syncSlug);
-          }
-          const cv = hydrateCreatedLocal(syncSlug);
-          const isLast = attempt >= CREATED_RETRY_MS.length;
-          if (cv) {
-            apply(cv, true);
-            return;
-          }
-          if (isLast) {
-            setVoyage(null);
-            setLoading(false);
-            return;
-          }
-          scheduleNext();
-        }, delay);
-        timers.push(id);
-      };
-      /** Première reprise immédiate + enchaînements espacés (storage lent / Safari). */
-      scheduleNext();
-
-      return () => {
-        for (const id of timers) window.clearTimeout(id);
-      };
-    }
-
+    setLoadingApi(true);
+    setReady(false);
     let cancelled = false;
-    fetch(`/api/voyage/${encodeURIComponent(slug)}`)
+    fetch(`/api/voyage/${encodeURIComponent(s)}`)
       .then((r) => (r.ok ? r.json() : null))
       .then((d: Record<string, unknown> | null) => {
-        if (cancelled) return;
+        if (cancelled || my !== runId.current) return;
         const fromApi = buildVoyageFromApiPayload(d);
         if (fromApi) {
           setVoyage(fromApi);
           return;
         }
-        const local = loadCreatedVoyages().find((cv) => cv.id === slug) as
+        const local = loadCreatedVoyages().find((cv) => cv.id === s) as
           | CreatedVoyage
           | undefined;
         if (local) {
-          setVoyage(createdVoyageToVoyageViewSafe(local));
+          setVoyage(viewFromCreated(local));
           return;
         }
-        const sessionFallback = takeLastCreatedVoyageForSessionIfSlug(slug);
-        if (sessionFallback) {
-          setVoyage(createdVoyageToVoyageViewSafe(sessionFallback));
-          return;
-        }
-        setVoyage(null);
+        const fb = takeLastCreatedVoyageForSessionIfSlug(s) ?? takeNavInflightCreatedIfSlug(s);
+        setVoyage(fb ? viewFromCreated(fb) : null);
       })
       .catch(() => {
-        if (cancelled) return;
-        const local = loadCreatedVoyages().find((cv) => cv.id === slug) as
+        if (cancelled || my !== runId.current) return;
+        const local = loadCreatedVoyages().find((cv) => cv.id === s) as
           | CreatedVoyage
           | undefined;
         if (local) {
-          setVoyage(createdVoyageToVoyageViewSafe(local));
+          setVoyage(viewFromCreated(local));
         } else {
-          const sessionFallback = takeLastCreatedVoyageForSessionIfSlug(slug);
-          setVoyage(
-            sessionFallback ? createdVoyageToVoyageViewSafe(sessionFallback) : null
-          );
+          const fb = takeLastCreatedVoyageForSessionIfSlug(s) ?? takeNavInflightCreatedIfSlug(s);
+          setVoyage(fb ? viewFromCreated(fb) : null);
         }
       })
       .finally(() => {
-        if (!cancelled) setLoading(false);
+        if (cancelled || my !== runId.current) return;
+        setLoadingApi(false);
+        setReady(true);
       });
+
     return () => {
       cancelled = true;
     };
-  }, [slug, pathname, locSlug]);
+  }, [params, pathname, slug, locSlug]);
 
   const stepCoords = useMemo(() => {
     if (!voyage) return [];
@@ -262,13 +188,12 @@ export default function VoyageDetailPage() {
       }));
   }, [voyage]);
 
-  if (loading) {
+  const isCreatedRoute = (slug && slug.toLowerCase().startsWith("created-")) || false;
+  const blocking = !ready || (!isCreatedRoute && loadingApi);
+
+  if (blocking) {
     return (
-      <main className="flex min-h-full flex-1 items-center justify-center bg-gradient-to-b from-[var(--color-bg-main)] to-[var(--color-bg-gradient-end)]">
-        <p className="voyage-loading-text text-sm uppercase tracking-widest">
-          voyage voyage…
-        </p>
-      </main>
+      <main className="min-h-full flex-1 bg-gradient-to-b from-[var(--color-bg-main)] to-[var(--color-bg-gradient-end)]" />
     );
   }
 

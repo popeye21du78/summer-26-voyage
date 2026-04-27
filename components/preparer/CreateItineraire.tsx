@@ -44,6 +44,7 @@ import {
   type CreatedVoyage,
   type RouteGeometry,
 } from "@/lib/created-voyages";
+import { setCreatedVoyageHandoff } from "@/lib/voyage-created-handoff";
 import { fetchVoyageRoute, fetchVoyageRouteForSave } from "@/lib/mapbox-driving-route";
 import type { MapboxRouteProfile } from "@/lib/mapbox-route-profile";
 import { RouteProfileToggle } from "@/components/RouteProfileToggle";
@@ -458,6 +459,7 @@ export default function CreateItineraire() {
         : undefined,
       legs: route?.legs,
     };
+    setCreatedVoyageHandoff(created);
     stashLastCreatedVoyageForSession(created);
     stashNavInflightCreated(created);
     try {
@@ -470,13 +472,7 @@ export default function CreateItineraire() {
     if (typeof window !== "undefined") {
       localStorage.removeItem("preparer-cadrage");
     }
-    window.requestAnimationFrame(() => {
-      window.requestAnimationFrame(() => {
-        window.setTimeout(() => {
-          router.push(`/mon-espace/voyage/${voyageId}`);
-        }, 48);
-      });
-    });
+    router.push(`/mon-espace/voyage/${voyageId}`);
   }
 
   if (loading) {

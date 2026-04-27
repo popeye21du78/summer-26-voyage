@@ -25,6 +25,7 @@ import {
   stashNavInflightCreated,
   type CreatedVoyage,
 } from "@/lib/created-voyages";
+import { setCreatedVoyageHandoff } from "@/lib/voyage-created-handoff";
 import { fetchVoyageRoute, fetchVoyageRouteForSave } from "@/lib/mapbox-driving-route";
 import type { MapboxRouteProfile } from "@/lib/mapbox-route-profile";
 import { RouteProfileToggle } from "@/components/RouteProfileToggle";
@@ -320,21 +321,15 @@ export default function CreateMesVilles() {
         stats: route ? { totalKm: route.distanceKm, totalMin: route.durationMin } : undefined,
         legs: route?.legs,
       };
+      setCreatedVoyageHandoff(created);
       stashLastCreatedVoyageForSession(created);
       stashNavInflightCreated(created);
       try {
         saveCreatedVoyage(created);
       } catch {
-        /* quota / mode privé — session reprend le relais à l’arrivée */
+        /* quota / mode privé — session + handoff en mémoire */
       }
-      /** Deux rAF + petit délai : donner le temps à Safari / WebView d’enregistrer le storage. */
-      window.requestAnimationFrame(() => {
-        window.requestAnimationFrame(() => {
-          window.setTimeout(() => {
-            router.push(`/mon-espace/voyage/${voyageId}`);
-          }, 48);
-        });
-      });
+      router.push(`/mon-espace/voyage/${voyageId}`);
     } finally {
       setSaving(false);
     }
