@@ -99,11 +99,8 @@ function formatDateRange(debut: string, fin: string) {
 }
 
 /**
- * Capsule d'étape dans "Mon voyage" :
- * - Photo sur la moitié gauche (format moins « panoramique »), texte sur fond dégradé thème
- * - Gros badge type hébergement en haut (Passage vs Nuit, bien visible)
- * - Stepper nuits gros + bouton type passage/nuit pour bascule rapide
- * - Poignée de drag isolée pour ne PAS perturber le scroll vertical
+ * Capsule d'étape : photo en fond plein cadre, un seul dégradé (pas de coupure),
+ * nom + date en bas sur la photo, commandes sur la zone teintée.
  */
 function SortableStepRow({
   step,
@@ -147,100 +144,108 @@ function SortableStepRow({
     <div
       ref={setNodeRef}
       style={style}
-      className="overflow-hidden rounded-3xl border border-white/12 shadow-[0_10px_30px_rgba(0,0,0,0.28)]"
+      className="relative min-h-[9.5rem] w-full overflow-hidden rounded-3xl border border-white/12 shadow-[0_10px_30px_rgba(0,0,0,0.28)]"
     >
-      <div className="flex min-h-36 w-full">
-        {/* Moitié gauche : photo seule (cadrage plus naturel, moins « bandeau ») */}
-        <div className="relative w-[48%] max-w-[50%] shrink-0 overflow-hidden bg-[var(--color-bg-main)]">
-          <div className="absolute inset-0 overflow-hidden [&_.photo-bw-reveal]:min-h-[115%] [&_.photo-bw-reveal]:min-w-full [&_.photo-bw-reveal]:object-cover [&_.photo-bw-reveal]:object-[center_34%] [&_.photo-bw-reveal]:opacity-100">
-            <CityPhoto
-              stepId={step.id}
-              ville={step.nom}
-              initialUrl={step.contenu_voyage?.photos?.[0]}
-              alt={step.nom}
-              className="absolute inset-0 h-full w-full"
-              imageLoading="lazy"
-            />
-          </div>
-          {/* Transition vers le panneau droit + léger voile */}
-          <div
-            className="pointer-events-none absolute inset-0 bg-gradient-to-r from-black/15 via-black/0 to-[var(--color-bg-secondary)]"
-            aria-hidden
+      <div className="absolute inset-0 overflow-hidden bg-[var(--color-bg-main)]">
+        <div className="absolute inset-0 [&_.photo-bw-reveal]:h-full [&_.photo-bw-reveal]:w-full [&_.photo-bw-reveal]:object-cover [&_.photo-bw-reveal]:object-[center_35%]">
+          <CityPhoto
+            stepId={step.id}
+            ville={step.nom}
+            initialUrl={step.contenu_voyage?.photos?.[0]}
+            alt={step.nom}
+            className="absolute inset-0 h-full w-full"
+            imageLoading="lazy"
           />
         </div>
+      </div>
+      {/* Un seul calque de teinte — pas d’arête photo / panneau */}
+      <div
+        className="pointer-events-none absolute inset-0 z-[1]"
+        style={{
+          background: `linear-gradient(118deg,
+            rgba(0,0,0,0.2) 0%,
+            rgba(22,20,18,0.12) 22%,
+            color-mix(in srgb, var(--color-bg-secondary) 12%, transparent) 38%,
+            color-mix(in srgb, var(--color-bg-secondary) 78%, var(--color-bg-tertiary) 18%) 54%,
+            var(--color-bg-tertiary) 70%,
+            var(--color-bg-gradient-end) 100%)`,
+        }}
+        aria-hidden
+      />
+      <div
+        className="pointer-events-none absolute inset-x-0 bottom-0 z-[1] h-[58%] bg-gradient-to-t from-black/6 via-black/0 to-transparent"
+        aria-hidden
+      />
 
-        {/* Moitié droite : dégradé charte (accent) + contenu */}
-        <div
-          className="relative z-[1] flex min-w-0 flex-1 flex-col justify-between gap-2 border-l border-white/[0.08] bg-gradient-to-br from-[var(--color-bg-secondary)] via-[color-mix(in_srgb,var(--color-bg-tertiary)_88%,var(--color-accent-mid))] to-[color-mix(in_srgb,var(--color-accent-start)_14%,var(--color-bg-gradient-end))] py-2.5 pl-2.5 pr-2 sm:pl-3 sm:pr-2.5"
-        >
-          <div className="flex items-start justify-between gap-1.5">
-            <div className="flex min-w-0 flex-wrap items-center gap-1.5">
-              {isPassage ? (
-                <span
-                  className="relative inline-flex h-9 w-9 rotate-45 items-center justify-center rounded-md bg-[var(--color-accent-start)] shadow-[0_4px_14px_rgba(224,120,86,0.4)] ring-1 ring-white/25"
-                  title="Ville de passage"
-                >
-                  <span className="-rotate-45 font-courier text-[8px] font-bold uppercase leading-none tracking-wide text-white">
-                    Passage
-                  </span>
+      <div className="relative z-10 flex min-h-[9.5rem] flex-col p-2.5 sm:p-3">
+        <div className="flex min-h-0 flex-1 items-start justify-between gap-1.5">
+          <div className="ml-auto flex min-w-0 max-w-[70%] flex-wrap items-center justify-end gap-1.5 sm:max-w-[60%]">
+            {isPassage ? (
+              <span
+                className="relative inline-flex h-8 w-8 rotate-45 items-center justify-center rounded-md bg-[var(--color-accent-start)] shadow-[0_3px_12px_rgba(224,120,86,0.4)] ring-1 ring-white/20"
+                title="Ville de passage"
+              >
+                <span className="-rotate-45 font-courier text-[7px] font-bold uppercase leading-none tracking-wide text-white">
+                  Passage
                 </span>
-              ) : (
-                <span className="inline-flex items-center gap-1 rounded-full bg-indigo-500/88 px-2.5 py-1 font-courier text-[10px] font-bold uppercase leading-none tracking-wide text-white shadow-md backdrop-blur-sm sm:text-[11px]">
-                  <Moon className="h-3 w-3 shrink-0" />
-                  {nuits} nuit{nuits > 1 ? "s" : ""}
-                </span>
-              )}
-              <span className="inline-flex h-6 min-w-[1.75rem] items-center justify-center rounded-full bg-white/[0.92] px-1.5 font-courier text-[10px] font-bold text-[var(--color-bg-main)] shadow-sm sm:text-[11px]">
-                {dayLabel}
               </span>
-            </div>
-            <div className="flex shrink-0 items-center gap-1">
-              {onRemove && (
-                <button
-                  type="button"
-                  onPointerDown={(e) => e.stopPropagation()}
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    onRemove();
-                  }}
-                  className="flex h-9 w-9 touch-manipulation items-center justify-center rounded-xl border border-red-500/30 bg-black/30 text-red-200 shadow-md backdrop-blur-sm transition hover:bg-red-500/20 active:scale-95"
-                  aria-label="Supprimer cette étape"
-                >
-                  <Trash2 className="h-3.5 w-3.5" />
-                </button>
-              )}
+            ) : (
+              <span className="inline-flex items-center gap-1 rounded-full bg-indigo-500/88 px-2 py-0.5 font-courier text-[9px] font-bold uppercase leading-none tracking-wide text-white shadow-md backdrop-blur-sm sm:text-[10px]">
+                <Moon className="h-2.5 w-2.5 shrink-0" />
+                {nuits} nuit{nuits > 1 ? "s" : ""}
+              </span>
+            )}
+            <span className="inline-flex h-6 min-w-[1.5rem] items-center justify-center rounded-full bg-white/[0.92] px-1.5 font-courier text-[9px] font-bold text-[var(--color-bg-main)] shadow-sm sm:text-[10px]">
+              {dayLabel}
+            </span>
+          </div>
+          <div className="flex shrink-0 items-center gap-1">
+            {onRemove && (
               <button
                 type="button"
-                className="flex h-9 w-9 touch-none items-center justify-center rounded-xl border border-white/20 bg-black/30 text-white shadow-md backdrop-blur-sm transition active:scale-95"
-                aria-label="Glisser pour réordonner"
-                {...attributes}
-                {...listeners}
+                onPointerDown={(e) => e.stopPropagation()}
+                onClick={(e) => {
+                  e.stopPropagation();
+                  onRemove();
+                }}
+                className="flex h-9 w-9 touch-manipulation items-center justify-center rounded-xl border border-red-500/30 bg-black/40 text-red-200 shadow-md backdrop-blur-md transition hover:bg-red-500/20 active:scale-95"
+                aria-label="Supprimer cette étape"
               >
-                <GripVertical className="h-4 w-4" />
+                <Trash2 className="h-3.5 w-3.5" />
               </button>
-            </div>
+            )}
+            <button
+              type="button"
+              className="flex h-9 w-9 touch-none items-center justify-center rounded-xl border border-white/20 bg-black/40 text-white shadow-md backdrop-blur-md transition active:scale-95"
+              aria-label="Glisser pour réordonner"
+              {...attributes}
+              {...listeners}
+            >
+              <GripVertical className="h-4 w-4" />
+            </button>
           </div>
+        </div>
 
-          <div className="min-w-0 pr-0.5">
+        <div className="mt-auto flex items-end justify-between gap-2 pt-2">
+          <div className="min-w-0 max-w-[62%] pr-0.5">
             <Link
               href={villeHref}
-              className="block text-balance font-title text-base font-bold leading-snug text-[var(--color-text-primary)] drop-shadow-sm underline-offset-2 hover:underline sm:text-lg"
+              className="block text-balance font-title text-base font-bold leading-tight text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.9),0_1px_2px_rgba(0,0,0,0.8)] underline-offset-2 hover:underline sm:text-lg"
             >
               {step.nom}
             </Link>
-            <p className="mt-0.5 font-courier text-[10px] font-bold text-white/60 sm:text-[11px]">
+            <p className="mt-0.5 font-courier text-[10px] font-bold text-white/90 drop-shadow-[0_1px_4px_rgba(0,0,0,0.85)] sm:text-[11px]">
               {dateLabel || "—"}
             </p>
           </div>
-
           <div className="flex flex-wrap items-center justify-end gap-1.5 sm:gap-2">
             <button
               type="button"
               onClick={() => onToggleType(step.id, !isPassage)}
-              className={`flex h-9 w-9 items-center justify-center rounded-xl border backdrop-blur-sm transition active:scale-95 ${
+              className={`flex h-9 w-9 items-center justify-center rounded-xl border shadow-md backdrop-blur-md transition active:scale-95 ${
                 isPassage
-                  ? "border-white/20 bg-black/25 text-white/80"
-                  : "border-[var(--color-accent-line-40)] bg-[color-mix(in_srgb,var(--color-accent-start)_18%,transparent)] text-[var(--color-text-primary)]"
+                  ? "border-white/30 bg-black/40 text-white/90"
+                  : "border-[var(--color-accent-line-40)] bg-[color-mix(in_srgb,var(--color-accent-start)_25%,black)]/45 text-white"
               }`}
               aria-label={isPassage ? "Passer en nuitée" : "Marquer comme passage"}
               title={isPassage ? "Marquer comme nuit" : "Marquer comme passage"}
@@ -248,7 +253,7 @@ function SortableStepRow({
               {isPassage ? <Moon className="h-4 w-4" /> : <Navigation className="h-4 w-4" />}
             </button>
             {!isPassage && (
-              <div className="flex items-center overflow-hidden rounded-xl border border-white/20 bg-black/30 font-courier text-xs font-bold text-[var(--color-text-primary)] backdrop-blur-sm sm:text-sm">
+              <div className="flex items-center overflow-hidden rounded-xl border border-white/25 bg-black/40 font-courier text-xs font-bold text-white backdrop-blur-md sm:text-sm">
                 <button
                   type="button"
                   className="flex h-9 w-8 items-center justify-center disabled:opacity-30"

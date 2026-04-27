@@ -40,6 +40,7 @@ import { loadTripDraft, clearTripDraft } from "@/lib/planifier-draft";
 import {
   saveCreatedVoyage,
   stashLastCreatedVoyageForSession,
+  stashNavInflightCreated,
   type CreatedVoyage,
   type RouteGeometry,
 } from "@/lib/created-voyages";
@@ -458,6 +459,7 @@ export default function CreateItineraire() {
       legs: route?.legs,
     };
     stashLastCreatedVoyageForSession(created);
+    stashNavInflightCreated(created);
     try {
       saveCreatedVoyage(created);
     } catch {
@@ -468,7 +470,13 @@ export default function CreateItineraire() {
     if (typeof window !== "undefined") {
       localStorage.removeItem("preparer-cadrage");
     }
-    router.push(`/mon-espace/voyage/${voyageId}`);
+    window.requestAnimationFrame(() => {
+      window.requestAnimationFrame(() => {
+        window.setTimeout(() => {
+          router.push(`/mon-espace/voyage/${voyageId}`);
+        }, 48);
+      });
+    });
   }
 
   if (loading) {

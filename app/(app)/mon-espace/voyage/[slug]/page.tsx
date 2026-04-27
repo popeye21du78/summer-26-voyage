@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useMemo } from "react";
+import { useEffect, useLayoutEffect, useState, useMemo, useRef } from "react";
 import { useParams, usePathname } from "next/navigation";
 import Link from "next/link";
 import dynamic from "next/dynamic";
@@ -9,6 +9,8 @@ import {
   loadCreatedVoyages,
   getCreatedVoyageById,
   takeLastCreatedVoyageForSessionIfSlug,
+  takeNavInflightCreatedIfSlug,
+  clearNavInflightCreated,
   type CreatedVoyage,
 } from "@/lib/created-voyages";
 import { createdVoyageToVoyageViewSafe } from "@/lib/created-voyage-page";
@@ -63,67 +65,142 @@ function resolveSlugFromRouter(
   return "";
 }
 
+function readSlugFromWindowPath(): string {
+  if (typeof window === "undefined") return "";
+  const m = window.location.pathname.match(/\/mon-espace\/voyage\/([^/?#]+)/);
+  if (!m?.[1]) return "";
+  try {
+    return decodeURIComponent(m[1]);
+  } catch {
+    return m[1];
+  }
+}
+
+function isVoyageDetailPathname(p: string): boolean {
+  return /\/mon-espace\/voyage\//.test(p);
+}
+
 function hydrateCreatedLocal(slug: string): CreatedVoyage | null {
   return (
-    getCreatedVoyageById(slug) ?? takeLastCreatedVoyageForSessionIfSlug(slug)
+    getCreatedVoyageById(slug) ??
+    takeLastCreatedVoyageForSessionIfSlug(slug) ??
+    takeNavInflightCreatedIfSlug(slug)
   );
 }
+
+const CREATED_RETRY_MS = [0, 50, 100, 200, 400, 800, 1600, 3000, 5000, 8000] as const;
 
 export default function VoyageDetailPage() {
   const params = useParams();
   const pathname = usePathname() ?? "";
-  const slug = useMemo(
-    () => resolveSlugFromRouter(params, pathname),
-    [params, pathname]
-  );
+  const [locSlug, setLocSlug] = useState("");
+
+  /** Mobile / WebView : `usePathname` + `useParams` peuvent rester vides un instant après le push. */
+  useLayoutEffect(() => {
+    setLocSlug(readSlugFromWindowPath());
+  }, [pathname]);
+
+  const slug = useMemo(() => {
+    const fromWindow = locSlug;
+    const fromNext = resolveSlugFromRouter(params, pathname);
+    if (fromWindow) return fromWindow;
+    if (fromNext) return fromNext;
+    return "";
+  }, [params, pathname, locSlug]);
   const [voyage, setVoyage] = useState<Voyage | null>(null);
   const [loading, setLoading] = useState(true);
+  const prevSlugRef = useRef<string | null>(null);
+  /** Évite de relancer hydratation / timers si le slug n’a pas changé (pathname / locSlug qui bougent). */
+  const createdHydratedRef = useRef<string | null>(null);
 
   useEffect(() => {
-    /** Segment pas encore dispo (hydratation) : ne pas afficher « introuvable ». */
+    if (typeof window === "undefined") return;
+    const sync = () => setLocSlug(readSlugFromWindowPath());
+    window.addEventListener("popstate", sync);
+    return () => window.removeEventListener("popstate", sync);
+  }, []);
+
+  useEffect(() => {
+    /**
+     * Segment pas encore dispo : ne jamais conclure « introuvable » si l’URL réelle
+     * (barre d’adresse) ou le chemin Next indiquent une fiche `/mon-espace/voyage/…`.
+     */
     if (!slug) {
-      if (/\/mon-espace\/voyage\//.test(pathname)) {
+      const winPath = typeof window !== "undefined" ? window.location.pathname : "";
+      if (isVoyageDetailPathname(pathname) || (winPath && isVoyageDetailPathname(winPath))) {
+        const s = readSlugFromWindowPath();
+        if (s) setLocSlug(s);
         return;
       }
       setVoyage(null);
       setLoading(false);
+      prevSlugRef.current = null;
       return;
     }
 
+    if (prevSlugRef.current !== slug) {
+      setLoading(true);
+      setVoyage(null);
+      prevSlugRef.current = slug;
+      createdHydratedRef.current = null;
+    }
+
     if (slug.toLowerCase().startsWith("created-")) {
-      const apply = (cv: CreatedVoyage | null) => {
+      if (createdHydratedRef.current === slug) {
+        return;
+      }
+      const apply = (cv: CreatedVoyage | null, done: boolean) => {
         if (cv) {
           setVoyage(createdVoyageToVoyageViewSafe(cv));
-        } else {
+          createdHydratedRef.current = slug;
+          clearNavInflightCreated();
+        } else if (done) {
           setVoyage(null);
         }
-        setLoading(false);
+        if (done) setLoading(false);
       };
 
       const first = hydrateCreatedLocal(slug);
       if (first) {
-        apply(first);
+        apply(first, true);
         return;
       }
 
-      /** Filet : écriture localStorage / session juste après router.push */
-      const t0 = window.setTimeout(() => {
-        const cv = hydrateCreatedLocal(slug);
-        if (cv) apply(cv);
-      }, 0);
-      const t1 = window.setTimeout(() => {
-        const cv = hydrateCreatedLocal(slug);
-        if (cv) {
-          apply(cv);
-        } else {
+      const timers: number[] = [];
+      let attempt = 0;
+      const scheduleNext = () => {
+        if (attempt >= CREATED_RETRY_MS.length) {
           setVoyage(null);
           setLoading(false);
+          return;
         }
-      }, 120);
+        const delay = CREATED_RETRY_MS[attempt];
+        attempt += 1;
+        const id = window.setTimeout(() => {
+          const syncSlug = readSlugFromWindowPath() || slug;
+          if (syncSlug && syncSlug !== slug) {
+            setLocSlug(syncSlug);
+          }
+          const cv = hydrateCreatedLocal(syncSlug);
+          const isLast = attempt >= CREATED_RETRY_MS.length;
+          if (cv) {
+            apply(cv, true);
+            return;
+          }
+          if (isLast) {
+            setVoyage(null);
+            setLoading(false);
+            return;
+          }
+          scheduleNext();
+        }, delay);
+        timers.push(id);
+      };
+      /** Première reprise immédiate + enchaînements espacés (storage lent / Safari). */
+      scheduleNext();
 
       return () => {
-        window.clearTimeout(t0);
-        window.clearTimeout(t1);
+        for (const id of timers) window.clearTimeout(id);
       };
     }
 
@@ -171,7 +248,7 @@ export default function VoyageDetailPage() {
     return () => {
       cancelled = true;
     };
-  }, [slug, pathname]);
+  }, [slug, pathname, locSlug]);
 
   const stepCoords = useMemo(() => {
     if (!voyage) return [];

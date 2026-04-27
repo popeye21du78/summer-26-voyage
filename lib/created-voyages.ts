@@ -165,3 +165,44 @@ export function takeLastCreatedVoyageForSessionIfSlug(slug: string): CreatedVoya
   }
   return null;
 }
+
+/**
+ * Double copie du carnet, écrite juste avant `router.push` (mobile / WebView).
+ * Si l’autre clé a déjà été consommée ou n’est pas encore lisible, celle-ci reste.
+ */
+const SESSION_NAV_INFLIGHT = "viago_nav_inflight_created_v1";
+
+export function stashNavInflightCreated(v: CreatedVoyage): void {
+  if (typeof window === "undefined") return;
+  try {
+    sessionStorage.setItem(SESSION_NAV_INFLIGHT, JSON.stringify(v));
+  } catch {
+    /* ignore */
+  }
+}
+
+export function takeNavInflightCreatedIfSlug(slug: string): CreatedVoyage | null {
+  if (typeof window === "undefined") return null;
+  try {
+    const raw = sessionStorage.getItem(SESSION_NAV_INFLIGHT);
+    if (!raw) return null;
+    const v = JSON.parse(raw) as CreatedVoyage;
+    if (v.id === slug) {
+      sessionStorage.removeItem(SESSION_NAV_INFLIGHT);
+      upsertCreatedVoyage(v);
+      return v;
+    }
+  } catch {
+    /* ignore */
+  }
+  return null;
+}
+
+export function clearNavInflightCreated(): void {
+  if (typeof window === "undefined") return;
+  try {
+    sessionStorage.removeItem(SESSION_NAV_INFLIGHT);
+  } catch {
+    /* ignore */
+  }
+}

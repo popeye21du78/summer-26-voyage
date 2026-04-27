@@ -22,6 +22,7 @@ import { CSS } from "@dnd-kit/utilities";
 import {
   saveCreatedVoyage,
   stashLastCreatedVoyageForSession,
+  stashNavInflightCreated,
   type CreatedVoyage,
 } from "@/lib/created-voyages";
 import { fetchVoyageRoute, fetchVoyageRouteForSave } from "@/lib/mapbox-driving-route";
@@ -320,12 +321,20 @@ export default function CreateMesVilles() {
         legs: route?.legs,
       };
       stashLastCreatedVoyageForSession(created);
+      stashNavInflightCreated(created);
       try {
         saveCreatedVoyage(created);
       } catch {
         /* quota / mode privé — session reprend le relais à l’arrivée */
       }
-      router.push(`/mon-espace/voyage/${voyageId}`);
+      /** Deux rAF + petit délai : donner le temps à Safari / WebView d’enregistrer le storage. */
+      window.requestAnimationFrame(() => {
+        window.requestAnimationFrame(() => {
+          window.setTimeout(() => {
+            router.push(`/mon-espace/voyage/${voyageId}`);
+          }, 48);
+        });
+      });
     } finally {
       setSaving(false);
     }
