@@ -1,3 +1,5 @@
+import type { MapboxRouteProfile } from "@/lib/mapbox-route-profile";
+
 export type DrivingRouteResult = {
   distanceKm: number;
   durationMin: number;
@@ -5,15 +7,17 @@ export type DrivingRouteResult = {
   legs: Array<{ distanceKm: number; durationMin: number }>;
   /** `true` si le tracé exclut les autoroutes (sinon repli sur l’itinéraire standard). */
   avoidMotorways?: boolean;
+  profile?: MapboxRouteProfile;
 };
 
 /**
- * Récupère l’itinéraire routier Mapbox (géométrie + jambes) pour une chaîne de waypoints.
- * Par défaut : tente d’**éviter les autoroutes** (`noMotorway` côté API), avec repli si besoin.
+ * Récupère l’itinéraire Mapbox (géométrie + jambes) pour une chaîne de waypoints.
+ * Voiture : évite les autoroutes quand possible (`noMotorway`).
+ * Vélo : profil Mapbox `cycling`.
  */
-export async function fetchDrivingRoute(
+export async function fetchVoyageRoute(
   waypoints: Array<{ lat: number; lng: number }>,
-  options?: { excludeMotorway?: boolean }
+  options?: { excludeMotorway?: boolean; profile?: MapboxRouteProfile }
 ): Promise<DrivingRouteResult | null> {
   const valid = waypoints.filter(
     (p) =>
@@ -24,11 +28,15 @@ export async function fetchDrivingRoute(
   );
   if (valid.length < 2) return null;
   const w = valid.map((p) => `${p.lng},${p.lat}`).join(";");
-  const ex = options?.excludeMotorway !== false;
+  const profile: MapboxRouteProfile = options?.profile ?? "driving";
   const qs = new URLSearchParams();
   qs.set("waypoints", w);
-  if (ex) qs.set("noMotorway", "1");
-  else qs.set("noMotorway", "0");
+  qs.set("profile", profile);
+  if (profile === "driving") {
+    const ex = options?.excludeMotorway !== false;
+    if (ex) qs.set("noMotorway", "1");
+    else qs.set("noMotorway", "0");
+  }
   const res = await fetch(`/api/directions/geometry?${qs.toString()}`);
   if (!res.ok) return null;
   const data = (await res.json()) as Partial<DrivingRouteResult> & {
@@ -42,5 +50,13 @@ export async function fetchDrivingRoute(
     geometry: data.geometry ?? null,
     legs: Array.isArray(data.legs) ? data.legs : [],
     avoidMotorways: data.avoidMotorways,
+    profile: data.profile ?? profile,
   };
+}
+
+export async function fetchDrivingRoute(
+  waypoints: Array<{ lat: number; lng: number }>,
+  options?: { excludeMotorway?: boolean }
+): Promise<DrivingRouteResult | null> {
+  return fetchVoyageRoute(waypoints, { ...options, profile: "driving" });
 }

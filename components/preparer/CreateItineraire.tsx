@@ -38,7 +38,9 @@ import {
 } from "lucide-react";
 import { loadTripDraft, clearTripDraft } from "@/lib/planifier-draft";
 import { saveCreatedVoyage, type RouteGeometry } from "@/lib/created-voyages";
-import { fetchDrivingRoute } from "@/lib/mapbox-driving-route";
+import { fetchVoyageRoute } from "@/lib/mapbox-driving-route";
+import type { MapboxRouteProfile } from "@/lib/mapbox-route-profile";
+import { RouteProfileToggle } from "@/components/RouteProfileToggle";
 import { getCityPoolForDraft, slugifyCityId } from "@/lib/preparer-city-pool";
 import ItineraireLiveMap from "@/components/preparer/ItineraireLiveMap";
 
@@ -206,7 +208,19 @@ export default function CreateItineraire() {
     totalMin: number;
   } | null>(null);
   const [creating, setCreating] = useState(false);
+  const [routeProfile, setRouteProfile] = useState<MapboxRouteProfile>(() => {
+    if (typeof window === "undefined") return "driving";
+    return localStorage.getItem("viago_route_profile") === "cycling" ? "cycling" : "driving";
+  });
   const routeReq = useRef(0);
+
+  useEffect(() => {
+    try {
+      localStorage.setItem("viago_route_profile", routeProfile);
+    } catch {
+      /* ignore */
+    }
+  }, [routeProfile]);
 
   /** Capteurs @dnd-kit : pointer (desktop) + touch (mobile) + clavier, avec tolérance au scroll. */
   const sensors = useSensors(
@@ -249,7 +263,10 @@ export default function CreateItineraire() {
     }
     const my = ++routeReq.current;
     const t = setTimeout(() => {
-      void fetchDrivingRoute(wps).then((r) => {
+      void fetchVoyageRoute(wps, {
+        profile: routeProfile,
+        excludeMotorway: routeProfile === "driving",
+      }).then((r) => {
         if (my !== routeReq.current || !r) return;
         setRoutePreview({
           geometry: r.geometry,
@@ -261,7 +278,7 @@ export default function CreateItineraire() {
     return () => {
       clearTimeout(t);
     };
-  }, [steps]);
+  }, [steps, routeProfile]);
 
   const toggleType = useCallback((id: string) => {
     setSteps((prev) =>
@@ -394,7 +411,13 @@ export default function CreateItineraire() {
       )
       .map((s) => ({ lat: s.lat, lng: s.lng }));
     setCreating(true);
-    const route = wps.length >= 2 ? await fetchDrivingRoute(wps) : null;
+    const route =
+      wps.length >= 2
+        ? await fetchVoyageRoute(wps, {
+            profile: routeProfile,
+            excludeMotorway: routeProfile === "driving",
+          })
+        : null;
     setCreating(false);
 
     let cursor = 0;
@@ -404,6 +427,7 @@ export default function CreateItineraire() {
       sousTitre: `${withIntermediates.length} étapes · ${rhythmLabel}`,
       createdAt: new Date().toISOString(),
       dateDebut: dateDebutStr,
+      routeProfile,
       steps: withIntermediates.map((s) => {
         const date = new Date(startDate.getTime() + cursor * 86400000)
           .toISOString()
@@ -504,13 +528,20 @@ export default function CreateItineraire() {
           )}
         </div>
 
+        <div className="mt-4 flex flex-wrap items-center justify-between gap-2">
+          <span className="font-courier text-[10px] font-bold uppercase tracking-wider text-[var(--color-accent-start)]">
+            Itinéraire
+          </span>
+          <RouteProfileToggle value={routeProfile} onChange={setRouteProfile} />
+        </div>
+
         {/**
          * Carte Mapbox LIVE : reflète en temps réel l'état `steps`.
          * Chaque ajout d'étape (nuit ou passage) ou réordonnancement via
          * le drag & drop se répercute ici — le numéro affiché sur chaque
          * pastille suit l'ordre des étapes dans le récap.
          */}
-        <div className="mt-5 h-[min(300px,42vh)] min-h-[220px] w-full">
+        <div className="mt-3 h-[min(300px,42vh)] min-h-[220px] w-full">
           <ItineraireLiveMap
             className="h-full w-full"
             steps={steps}

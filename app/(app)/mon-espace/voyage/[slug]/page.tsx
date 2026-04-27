@@ -61,6 +61,7 @@ export default function VoyageDetailPage() {
                 : undefined,
               routeGeometry: local.routeGeometry ?? null,
               routeLegs: local.legs,
+              routeProfile: local.routeProfile ?? "driving",
             });
           }
         }
@@ -112,6 +113,7 @@ export default function VoyageDetailPage() {
         <VoyageMapView
           steps={stepCoords}
           mapboxToken={process.env.NEXT_PUBLIC_MAPBOX_TOKEN}
+          routeProfile={voyage.routeProfile}
         />
         <div className="pointer-events-none absolute inset-x-0 bottom-0 h-16 bg-gradient-to-t from-[var(--color-bg-main)] to-transparent" />
         <Link

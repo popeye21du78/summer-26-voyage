@@ -3,13 +3,16 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import Map, { Marker, Source, Layer } from "react-map-gl/mapbox";
 import "mapbox-gl/dist/mapbox-gl.css";
-import { fetchDrivingRoute } from "@/lib/mapbox-driving-route";
+import { fetchVoyageRoute } from "@/lib/mapbox-driving-route";
+import type { MapboxRouteProfile } from "@/lib/mapbox-route-profile";
 
 type StepCoord = { id: string; nom: string; lat: number; lng: number };
 
 type Props = {
   steps: StepCoord[];
   mapboxToken: string | undefined;
+  /** Profil Mapbox (voiture vs vélo) — aligné sur le carnet `created-`. */
+  routeProfile?: MapboxRouteProfile;
 };
 
 /**
@@ -17,7 +20,11 @@ type Props = {
  * (ne pas réutiliser une GeoJSON figée côté carnet, sinon les étapes ajoutées
  * n’apparaissent pas sur le tracé).
  */
-export default function VoyageMapView({ steps, mapboxToken }: Props) {
+export default function VoyageMapView({
+  steps,
+  mapboxToken,
+  routeProfile = "driving",
+}: Props) {
   const mapRef = useRef<any>(null);
   const routeReq = useRef(0);
 
@@ -80,7 +87,10 @@ export default function VoyageMapView({ steps, mapboxToken }: Props) {
     const my = ++routeReq.current;
     setRouteLoading(true);
     const t = setTimeout(() => {
-      void fetchDrivingRoute(wps).then((r) => {
+      void fetchVoyageRoute(wps, {
+        profile: routeProfile,
+        excludeMotorway: routeProfile === "driving",
+      }).then((r) => {
         if (my !== routeReq.current) return;
         setRouteLoading(false);
         if (r?.geometry?.coordinates && r.geometry.coordinates.length >= 2) {
@@ -105,7 +115,7 @@ export default function VoyageMapView({ steps, mapboxToken }: Props) {
     return () => {
       clearTimeout(t);
     };
-  }, [waypointsKey]);
+  }, [waypointsKey, routeProfile]);
 
   /** Cadrage : enveloppe de la **route** si dispo, sinon des marqueurs. */
   useEffect(() => {

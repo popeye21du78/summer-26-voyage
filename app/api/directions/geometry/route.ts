@@ -33,10 +33,10 @@ function parseMapboxResponse(data: {
 }
 
 /**
- * Itinéraire routier (géométrie GeoJSON + jambes) via Mapbox Directions.
- * `noMotorway=1` (défaut) : tente d’abord d’**exclure les autoroutes**,
- * puis repli sur l’itinéraire classique si aucun trajet n’est trouvé.
- * GET /api/directions/geometry?waypoints=lng,lat;lng,lat;...&noMotorway=1|0
+ * Itinéraire (géométrie GeoJSON + jambes) via Mapbox Directions.
+ * `profile=driving` (défaut) : voiture ; `noMotorway=1` tente d’éviter les autoroutes puis repli.
+ * `profile=cycling` : vélo (profil Mapbox cycling, pas d’exclusion autoroute).
+ * GET /api/directions/geometry?waypoints=...&profile=driving|cycling&noMotorway=0|1
  */
 export async function GET(request: NextRequest) {
   const token = process.env.NEXT_PUBLIC_MAPBOX_TOKEN;
@@ -80,7 +80,44 @@ export async function GET(request: NextRequest) {
     }
   }
   const coords = parts.join(";");
+  const profileRaw = request.nextUrl.searchParams.get("profile");
+  const isCycling = profileRaw === "cycling";
+
   try {
+    if (isCycling) {
+      const url = new URL(
+        `https://api.mapbox.com/directions/v5/mapbox/cycling/${coords}`
+      );
+      url.searchParams.set("access_token", token);
+      url.searchParams.set("geometries", "geojson");
+      url.searchParams.set("overview", "full");
+      const res = await fetch(url.toString());
+      if (!res.ok) {
+        const err = await res.text();
+        console.error("Mapbox Directions (cycling):", res.status, err);
+        return NextResponse.json(
+          { error: "Erreur Directions Mapbox" },
+          { status: 502 }
+        );
+      }
+      const data = (await res.json()) as Parameters<typeof parseMapboxResponse>[0];
+      const parsed = parseMapboxResponse(data);
+      if (!parsed) {
+        return NextResponse.json(
+          { error: "Aucun itinéraire vélo trouvé" },
+          { status: 404 }
+        );
+      }
+      return NextResponse.json({
+        distanceKm: parsed.distanceKm,
+        durationMin: parsed.durationMin,
+        geometry: parsed.geometry,
+        legs: parsed.legs,
+        avoidMotorways: false,
+        profile: "cycling" as const,
+      });
+    }
+
     const run = async (excludeMotorway: boolean) => {
       const url = new URL(
         `https://api.mapbox.com/directions/v5/mapbox/driving/${coords}`
@@ -129,8 +166,8 @@ export async function GET(request: NextRequest) {
       durationMin: parsed.durationMin,
       geometry: parsed.geometry,
       legs: parsed.legs,
-      /** Itinéraire « secondaires » ; `false` si repli sur autoroutes. */
       avoidMotorways,
+      profile: "driving" as const,
     });
   } catch (e) {
     console.error("API directions geometry:", e);

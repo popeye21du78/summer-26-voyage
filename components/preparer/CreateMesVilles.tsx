@@ -20,7 +20,9 @@ import {
 } from "@dnd-kit/sortable";
 import { CSS } from "@dnd-kit/utilities";
 import { saveCreatedVoyage } from "@/lib/created-voyages";
-import { fetchDrivingRoute } from "@/lib/mapbox-driving-route";
+import { fetchVoyageRoute } from "@/lib/mapbox-driving-route";
+import type { MapboxRouteProfile } from "@/lib/mapbox-route-profile";
+import { RouteProfileToggle } from "@/components/RouteProfileToggle";
 import ItineraireLiveMap from "@/components/preparer/ItineraireLiveMap";
 import { slugifyCityId } from "@/lib/preparer-city-pool";
 
@@ -119,7 +121,19 @@ export default function CreateMesVilles() {
     totalMin: number;
   } | null>(null);
   const [routeBusy, setRouteBusy] = useState(false);
+  const [routeProfile, setRouteProfile] = useState<MapboxRouteProfile>(() => {
+    if (typeof window === "undefined") return "driving";
+    return localStorage.getItem("viago_route_profile") === "cycling" ? "cycling" : "driving";
+  });
   const routeReq = useRef(0);
+
+  useEffect(() => {
+    try {
+      localStorage.setItem("viago_route_profile", routeProfile);
+    } catch {
+      /* ignore */
+    }
+  }, [routeProfile]);
 
   const sensors = useSensors(
     useSensor(PointerSensor, { activationConstraint: { distance: 8 } }),
@@ -157,7 +171,10 @@ export default function CreateMesVilles() {
     const my = ++routeReq.current;
     setRouteBusy(true);
     const t = setTimeout(() => {
-      void fetchDrivingRoute(wps).then((r) => {
+      void fetchVoyageRoute(wps, {
+        profile: routeProfile,
+        excludeMotorway: routeProfile === "driving",
+      }).then((r) => {
         if (my !== routeReq.current) return;
         setRouteBusy(false);
         if (!r) {
@@ -174,7 +191,7 @@ export default function CreateMesVilles() {
     return () => {
       clearTimeout(t);
     };
-  }, [liveSteps]);
+  }, [liveSteps, routeProfile]);
 
   const onQuery = useCallback((id: string, q: string) => {
     setRows((prev) => prev.map((r) => (r.id === id ? { ...r, query: q, error: undefined } : r)));
@@ -248,7 +265,13 @@ export default function CreateMesVilles() {
     setSaving(true);
     try {
       const wps = resolved.map((r) => ({ lat: r.lat!, lng: r.lng! }));
-      const route = wps.length >= 2 ? await fetchDrivingRoute(wps) : null;
+      const route =
+        wps.length >= 2
+          ? await fetchVoyageRoute(wps, {
+              profile: routeProfile,
+              excludeMotorway: routeProfile === "driving",
+            })
+          : null;
       const voyageId = `created-${Date.now()}`;
       const start = new Date(dateDebut);
       const startStr = start.toISOString().split("T")[0];
@@ -275,6 +298,7 @@ export default function CreateMesVilles() {
         sousTitre: `${resolved.length} étape${resolved.length > 1 ? "s" : ""} · ébauche`,
         createdAt: new Date().toISOString(),
         dateDebut: startStr,
+        routeProfile,
         steps,
         routeGeometry: route?.geometry ?? null,
         stats: route ? { totalKm: route.distanceKm, totalMin: route.durationMin } : undefined,
@@ -285,7 +309,7 @@ export default function CreateMesVilles() {
       setSaving(false);
       setDateModal(false);
     }
-  }, [rows, dateDebut, router]);
+  }, [rows, dateDebut, router, routeProfile]);
 
   return (
     <main className="flex h-full flex-col bg-gradient-to-b from-[var(--color-bg-main)] to-[var(--color-bg-gradient-end)]">
@@ -301,7 +325,14 @@ export default function CreateMesVilles() {
           d’oiseau). Ensuite, une seule date : le jour du départ.
         </p>
 
-        <div className="mt-4 h-[min(280px,40vh)] min-h-[200px] w-full">
+        <div className="mt-4 flex flex-wrap items-center justify-between gap-2">
+          <span className="font-courier text-[10px] font-bold uppercase tracking-wider text-[var(--color-accent-start)]">
+            Itinéraire
+          </span>
+          <RouteProfileToggle value={routeProfile} onChange={setRouteProfile} />
+        </div>
+
+        <div className="mt-2 h-[min(280px,40vh)] min-h-[200px] w-full">
           <ItineraireLiveMap
             className="h-full w-full"
             steps={liveSteps}
@@ -364,14 +395,20 @@ export default function CreateMesVilles() {
       </div>
 
       {dateModal && (
-        <div className="fixed inset-0 z-[100] flex items-end justify-center bg-black/65 px-4 pb-safe sm:items-center">
+        <div
+          className="fixed inset-0 z-[220] flex items-end justify-center bg-black/65 px-4 sm:items-center"
+          style={{
+            paddingBottom: "max(1rem, calc(6.5rem + env(safe-area-inset-bottom, 0px)))",
+            paddingTop: "max(0.75rem, env(safe-area-inset-top, 0px))",
+          }}
+        >
           <button
             type="button"
             className="absolute inset-0"
             aria-label="Fermer"
             onClick={() => setDateModal(false)}
           />
-          <div className="relative w-full max-w-sm overflow-hidden rounded-3xl border border-white/10 bg-[#1a1410] p-5 shadow-2xl">
+          <div className="relative z-[1] w-full max-w-sm overflow-hidden rounded-3xl border border-white/10 bg-[#1a1410] p-5 pb-bottom-nav shadow-2xl sm:pb-5">
             <div className="mb-3 flex items-start justify-between">
               <div>
                 <h3 className="font-title text-lg font-bold text-white">Date de départ</h3>

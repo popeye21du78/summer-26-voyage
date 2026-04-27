@@ -26,6 +26,8 @@ export interface Voyage {
   routeGeometry?: { type: "LineString"; coordinates: [number, number][] } | null;
   /** Segments routiers entre étapes (km, min), alignés sur l’ordre des étapes. */
   routeLegs?: Array<{ distanceKm: number; durationMin: number }>;
+  /** Profil de calcul d’itinéraire (carnet créé côté client). */
+  routeProfile?: "driving" | "cycling";
 }
 
 /** Crée des steps à partir d'un template avec photos Unsplash */

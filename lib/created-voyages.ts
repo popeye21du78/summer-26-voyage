@@ -36,6 +36,8 @@ export type CreatedVoyage = {
   stats?: { totalKm: number; totalMin: number };
   /** Un segment par paire d’étapes consécutives (même ordre que les étapes). */
   legs?: Array<{ distanceKm: number; durationMin: number }>;
+  /** Itinéraire routier (voiture) ou vélo (Mapbox). */
+  routeProfile?: "driving" | "cycling";
 };
 
 export function getCreatedVoyageById(id: string): CreatedVoyage | null {
