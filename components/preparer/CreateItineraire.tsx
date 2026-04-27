@@ -36,6 +36,7 @@ import {
   BedDouble,
   Wallet,
 } from "lucide-react";
+import { getProfileIdCached } from "@/lib/me-client";
 import { loadTripDraft, clearTripDraft } from "@/lib/planifier-draft";
 import {
   saveCreatedVoyage,
@@ -391,6 +392,7 @@ export default function CreateItineraire() {
   );
 
   async function handleCreate() {
+    await getProfileIdCached();
     const draft = loadTripDraft();
     const cadrageRaw =
       typeof window !== "undefined" ? localStorage.getItem("preparer-cadrage") : null;

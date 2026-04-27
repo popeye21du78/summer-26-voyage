@@ -30,6 +30,7 @@ import {
   encodeCreatedVoyageToHandoffB64,
   buildMonEspaceVoyageHandoffPath,
 } from "@/lib/created-voyage-handoff-url";
+import { getProfileIdCached } from "@/lib/me-client";
 import { persistCreatedVoyageOnServer } from "@/lib/created-voyage-server-sync";
 import { fetchVoyageRoute, fetchVoyageRouteForSave } from "@/lib/mapbox-driving-route";
 import type { MapboxRouteProfile } from "@/lib/mapbox-route-profile";
@@ -286,6 +287,7 @@ export default function CreateMesVilles() {
     if (!isValidISODate(dateDebut)) return;
     setSaving(true);
     try {
+      await getProfileIdCached();
       const wps = resolved.map((r) => ({ lat: r.lat!, lng: r.lng! }));
       const route =
         wps.length >= 2

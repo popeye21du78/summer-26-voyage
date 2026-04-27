@@ -1,6 +1,61 @@
 import type { Step } from "@/types";
 
-const STORAGE_KEY = "viago-created-voyages";
+/** @deprecated Ancienne clé unique — migrée vers une clé par utilisateur. */
+const LEGACY_STORAGE_KEY = "viago-created-voyages";
+
+const SCOPE_SESSION_KEY = "viago-cv-user-scope";
+
+function readSessionScope(): string | null {
+  if (typeof window === "undefined") return null;
+  try {
+    return sessionStorage.getItem(SCOPE_SESSION_KEY);
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Profil courant pour le carnet local (aligné sur GET /api/me).
+ * Initialisé depuis la session pour survivre au rechargement dans l’onglet.
+ */
+let activeUserId: string | null = readSessionScope();
+
+function keyForUser(userId: string): string {
+  return `viago-cv::v2::${userId}`;
+}
+
+/**
+ * Associe le carnet `viago-cv` au profil connecté. À garder synchronisé avec /api/me.
+ */
+export function setCreatedVoyagesUserScope(userId: string | null): void {
+  activeUserId = userId;
+  if (typeof window === "undefined") return;
+  try {
+    if (userId) sessionStorage.setItem(SCOPE_SESSION_KEY, userId);
+    else sessionStorage.removeItem(SCOPE_SESSION_KEY);
+  } catch {
+    /* quota / mode privé */
+  }
+  if (userId) migrateLegacyToScoped(userId);
+}
+
+function migrateLegacyToScoped(userId: string): void {
+  try {
+    const k = keyForUser(userId);
+    if (localStorage.getItem(k)) return;
+    const raw = localStorage.getItem(LEGACY_STORAGE_KEY);
+    if (!raw) return;
+    localStorage.setItem(k, raw);
+    localStorage.removeItem(LEGACY_STORAGE_KEY);
+  } catch {
+    /* ignore */
+  }
+}
+
+function currentStorageKey(): string | null {
+  if (activeUserId) return keyForUser(activeUserId);
+  return null;
+}
 
 export type CreatedVoyageStep = {
   id: string;
@@ -88,27 +143,43 @@ export function createdVoyageToViagoPayload(cv: CreatedVoyage): {
 
 export function loadCreatedVoyages(): CreatedVoyage[] {
   if (typeof window === "undefined") return [];
+  const k = currentStorageKey();
+  if (!k) return [];
   try {
-    const raw = localStorage.getItem(STORAGE_KEY);
+    const raw = localStorage.getItem(k);
     return raw ? JSON.parse(raw) : [];
   } catch {
     return [];
   }
 }
 
+function writeList(list: CreatedVoyage[]): void {
+  const k = currentStorageKey();
+  if (!k) return;
+  try {
+    localStorage.setItem(k, JSON.stringify(list));
+  } catch {
+    /* quota */
+  }
+}
+
 export function saveCreatedVoyage(voyage: CreatedVoyage): void {
   if (typeof window === "undefined") return;
+  const k = currentStorageKey();
+  if (!k) return;
   const existing = loadCreatedVoyages();
   existing.unshift(voyage);
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(existing));
+  writeList(existing);
 }
 
 /** Remplace ou insère un voyage par `id` (mise à jour idempotente). */
 export function upsertCreatedVoyage(voyage: CreatedVoyage): void {
   if (typeof window === "undefined") return;
+  const k = currentStorageKey();
+  if (!k) return;
   const rest = loadCreatedVoyages().filter((v) => v.id !== voyage.id);
   rest.unshift(voyage);
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(rest));
+  writeList(rest);
 }
 
 /** Recalcule `date_prevue` à partir de `dateDebut` et des nuits par étape (logique alignée sur Préparer). */
@@ -130,8 +201,10 @@ export function recomputeCreatedStepDates(
 
 export function removeCreatedVoyage(id: string): void {
   if (typeof window === "undefined") return;
+  const k = currentStorageKey();
+  if (!k) return;
   const existing = loadCreatedVoyages().filter((v) => v.id !== id);
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(existing));
+  writeList(existing);
 }
 
 /** Pont session → localStorage si la page arrive avant que localStorage ne soit relu (rare) */

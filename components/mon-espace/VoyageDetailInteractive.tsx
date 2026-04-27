@@ -353,8 +353,14 @@ function StepSeparator({
         </span>
         <button
           type="button"
-          onClick={onAdd}
-          className="flex h-9 w-9 items-center justify-center rounded-full border border-[var(--color-accent-start)]/45 bg-[var(--color-accent-start)]/20 text-[var(--color-accent-start)] shadow-[0_4px_14px_rgba(224,120,86,0.35)] transition hover:bg-[var(--color-accent-start)]/35 active:scale-95"
+          onPointerDownCapture={(e) => e.stopPropagation()}
+          onPointerDown={(e) => e.stopPropagation()}
+          onClick={(e) => {
+            e.stopPropagation();
+            onAdd();
+          }}
+          style={{ touchAction: "manipulation" }}
+          className="relative z-10 flex h-10 w-10 min-h-[44px] min-w-[44px] touch-manipulation items-center justify-center rounded-full border border-[var(--color-accent-start)]/45 bg-[var(--color-accent-start)]/20 text-[var(--color-accent-start)] shadow-[0_4px_14px_rgba(224,120,86,0.35)] transition hover:bg-[var(--color-accent-start)]/35 active:scale-95"
           aria-label="Ajouter une étape ici"
           title="Ajouter une étape"
         >
@@ -1753,8 +1759,14 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
            */}
           <button
             type="button"
-            onClick={() => setInsertAt(orderedSteps.length)}
-            className="mt-4 flex w-full items-center justify-center gap-2 rounded-2xl border border-dashed border-[var(--color-accent-start)]/45 bg-[var(--color-accent-start)]/10 py-3.5 font-title text-sm font-bold uppercase tracking-wider text-[var(--color-accent-start)] transition hover:bg-[var(--color-accent-start)]/20"
+            onPointerDownCapture={(e) => e.stopPropagation()}
+            onPointerDown={(e) => e.stopPropagation()}
+            onClick={(e) => {
+              e.stopPropagation();
+              setInsertAt(orderedSteps.length);
+            }}
+            style={{ touchAction: "manipulation" }}
+            className="relative z-10 mt-4 flex min-h-[48px] w-full touch-manipulation items-center justify-center gap-2 rounded-2xl border border-dashed border-[var(--color-accent-start)]/45 bg-[var(--color-accent-start)]/10 py-3.5 font-title text-sm font-bold uppercase tracking-wider text-[var(--color-accent-start)] transition hover:bg-[var(--color-accent-start)]/20"
           >
             <Plus className="h-4 w-4" />
             Ajouter une étape en fin de voyage
@@ -1765,7 +1777,7 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
       {/* Modal d'ajout d'étape par géocodage */}
       {insertAt !== null && (
         <div
-          className="fixed inset-0 z-[220] flex items-end justify-center bg-black/65 px-4 sm:items-center"
+          className="fixed inset-0 z-[300] flex items-end justify-center bg-black/65 px-4 sm:items-center"
           style={{
             paddingBottom: "max(1rem, calc(6.5rem + env(safe-area-inset-bottom, 0px)))",
             paddingTop: "max(0.75rem, env(safe-area-inset-top, 0px))",
@@ -1776,10 +1788,13 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
           <button
             type="button"
             aria-label="Annuler"
-            className="absolute inset-0 cursor-default bg-transparent"
+            className="absolute inset-0 z-0 cursor-default bg-transparent"
             onClick={closeAddDialog}
           />
-          <div className="relative z-[1] max-h-[min(85vh,100%)] w-full max-w-md overflow-y-auto rounded-3xl border border-white/10 bg-[#1a1410] p-5 pb-bottom-nav shadow-2xl sm:max-h-[90vh] sm:pb-5">
+          <div
+            className="relative z-[1] max-h-[min(85vh,100%)] w-full max-w-md overflow-y-auto rounded-3xl border border-white/10 bg-[#1a1410] p-5 pb-bottom-nav shadow-2xl sm:max-h-[90vh] sm:pb-5"
+            onPointerDown={(e) => e.stopPropagation()}
+          >
             <div className="mb-4 flex items-start justify-between gap-3">
               <div>
                 <h3 className="font-title text-lg font-bold text-white">

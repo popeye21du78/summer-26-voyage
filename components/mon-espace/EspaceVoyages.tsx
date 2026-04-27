@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { Calendar, Play, BookOpen, Plus } from "lucide-react";
@@ -13,6 +13,7 @@ import {
   upsertCreatedVoyage,
   type CreatedVoyage,
 } from "@/lib/created-voyages";
+import { getProfileIdCached } from "@/lib/me-client";
 
 type SubTab = "en_cours" | "a_venir" | "souvenirs";
 
@@ -31,72 +32,54 @@ export default function EspaceVoyages({ state }: Props) {
     loadCreatedVoyages()
   );
 
-  useEffect(() => {
-    setCreatedVoyages(loadCreatedVoyages());
+  const mergeServerDrafts = useCallback(() => {
+    void fetch("/api/created-voyage", { credentials: "same-origin" })
+      .then((r) => (r.ok ? r.json() : null))
+      .then((d: { drafts?: Array<{ payload: unknown }> } | null) => {
+        if (!d?.drafts?.length) return;
+        for (const row of d.drafts) {
+          const p = row.payload;
+          if (
+            p &&
+            typeof p === "object" &&
+            "id" in p &&
+            typeof (p as { id: string }).id === "string" &&
+            (p as { id: string }).id.toLowerCase().startsWith("created-")
+          ) {
+            try {
+              upsertCreatedVoyage(p as CreatedVoyage);
+            } catch {
+              /* ignore */
+            }
+          }
+        }
+        setCreatedVoyages(loadCreatedVoyages());
+      });
   }, []);
 
   useEffect(() => {
-    const refresh = () => setCreatedVoyages(loadCreatedVoyages());
+    void getProfileIdCached().then(() => {
+      setCreatedVoyages(loadCreatedVoyages());
+      mergeServerDrafts();
+    });
+  }, [mergeServerDrafts]);
+
+  useEffect(() => {
+    const refresh = () => {
+      setCreatedVoyages(loadCreatedVoyages());
+    };
     window.addEventListener("focus", refresh);
     return () => window.removeEventListener("focus", refresh);
   }, []);
 
   useEffect(() => {
     if (pathname === "/mon-espace" || pathname?.startsWith("/mon-espace")) {
-      setCreatedVoyages(loadCreatedVoyages());
-      void fetch("/api/created-voyage", { credentials: "same-origin" })
-        .then((r) => (r.ok ? r.json() : null))
-        .then(
-          (d: { drafts?: Array<{ payload: unknown }> } | null) => {
-            if (!d?.drafts?.length) return;
-            for (const row of d.drafts) {
-              const p = row.payload;
-              if (
-                p &&
-                typeof p === "object" &&
-                "id" in p &&
-                typeof (p as { id: string }).id === "string" &&
-                (p as { id: string }).id.toLowerCase().startsWith("created-")
-              ) {
-                try {
-                  upsertCreatedVoyage(p as CreatedVoyage);
-                } catch {
-                  /* ignore */
-                }
-              }
-            }
-            setCreatedVoyages(loadCreatedVoyages());
-          }
-        );
+      void getProfileIdCached().then(() => {
+        setCreatedVoyages(loadCreatedVoyages());
+        mergeServerDrafts();
+      });
     }
-  }, [pathname]);
-
-  useEffect(() => {
-    void fetch("/api/created-voyage", { credentials: "same-origin" })
-      .then((r) => (r.ok ? r.json() : null))
-      .then(
-        (d: { drafts?: Array<{ payload: unknown }> } | null) => {
-          if (!d?.drafts?.length) return;
-          for (const row of d.drafts) {
-            const p = row.payload;
-            if (
-              p &&
-              typeof p === "object" &&
-              "id" in p &&
-              typeof (p as { id: string }).id === "string" &&
-              (p as { id: string }).id.toLowerCase().startsWith("created-")
-            ) {
-              try {
-                upsertCreatedVoyage(p as CreatedVoyage);
-              } catch {
-                /* ignore */
-              }
-            }
-          }
-          setCreatedVoyages(loadCreatedVoyages());
-        }
-      );
-  }, []);
+  }, [pathname, mergeServerDrafts]);
 
   useEffect(() => {
     void loadPhotoValidationSnapshot();

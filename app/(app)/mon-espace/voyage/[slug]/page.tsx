@@ -21,6 +21,7 @@ import {
   readCreatedVoyageFromHandoffUrl,
   stripHandoffFromAddressBar,
 } from "@/lib/created-voyage-handoff-url";
+import { getProfileIdCached } from "@/lib/me-client";
 import type { Voyage } from "@/data/mock-voyages";
 import VoyageDetailInteractive from "@/components/mon-espace/VoyageDetailInteractive";
 
@@ -135,71 +136,75 @@ export default function VoyageDetailPage() {
       let cancelled = false;
       let clientFallbackTimer: number | undefined;
 
-      const applyFromUrl = (v: ReturnType<typeof readCreatedVoyageFromHandoffUrl>) => {
-        if (!v || v.voyage.id !== s) return false;
-        try {
-          upsertCreatedVoyage(v.voyage);
-        } catch {
-          /* ignore */
-        }
-        if (my !== runId.current) return true;
-        setVoyage(viewFromCreated(v.voyage));
-        stripHandoffFromAddressBar(s);
-        setReady(true);
-        setLoadingApi(false);
-        return true;
-      };
-
-      const finishClientOnly = () => {
+      void getProfileIdCached().then(() => {
         if (cancelled || my !== runId.current) return;
-        if (applyFromUrl(readCreatedVoyageFromHandoffUrl())) return;
-        const cv = hydrateCreatedAllSources(s);
-        setVoyage(cv ? viewFromCreated(cv) : null);
-        setReady(true);
-        setLoadingApi(false);
-      };
 
-      const applyApiJson = (d: unknown) => {
-        if (cancelled || my !== runId.current) return;
-        if (d && typeof d === "object" && "createdVoyagePayload" in d) {
-          const p = (d as { createdVoyagePayload?: CreatedVoyage }).createdVoyagePayload;
-          if (p && p.id === s) {
-            try {
-              upsertCreatedVoyage(p);
-            } catch {
-              /* ignore */
+        const applyFromUrl = (v: ReturnType<typeof readCreatedVoyageFromHandoffUrl>) => {
+          if (!v || v.voyage.id !== s) return false;
+          try {
+            upsertCreatedVoyage(v.voyage);
+          } catch {
+            /* ignore */
+          }
+          if (my !== runId.current) return true;
+          setVoyage(viewFromCreated(v.voyage));
+          stripHandoffFromAddressBar(s);
+          setReady(true);
+          setLoadingApi(false);
+          return true;
+        };
+
+        const finishClientOnly = () => {
+          if (cancelled || my !== runId.current) return;
+          if (applyFromUrl(readCreatedVoyageFromHandoffUrl())) return;
+          const cv = hydrateCreatedAllSources(s);
+          setVoyage(cv ? viewFromCreated(cv) : null);
+          setReady(true);
+          setLoadingApi(false);
+        };
+
+        const applyApiJson = (d: unknown) => {
+          if (cancelled || my !== runId.current) return;
+          if (d && typeof d === "object" && "createdVoyagePayload" in d) {
+            const p = (d as { createdVoyagePayload?: CreatedVoyage }).createdVoyagePayload;
+            if (p && p.id === s) {
+              try {
+                upsertCreatedVoyage(p);
+              } catch {
+                /* ignore */
+              }
             }
           }
-        }
-        const fromApi = buildVoyageFromApiPayload(d);
-        if (fromApi) {
-          clearNavInflightCreated();
-          setVoyage(fromApi);
-          setLoadingApi(false);
-          setReady(true);
-          return;
-        }
-        finishClientOnly();
-      };
-
-      fetch(`/api/voyage/${encodeURIComponent(s)}`, { credentials: "include" })
-        .then((r) => (r.ok ? r.json() : null))
-        .then((d: unknown) => {
-          if (d) {
-            applyApiJson(d);
+          const fromApi = buildVoyageFromApiPayload(d);
+          if (fromApi) {
+            clearNavInflightCreated();
+            setVoyage(fromApi);
+            setLoadingApi(false);
+            setReady(true);
             return;
           }
-          if (cancelled || my !== runId.current) return;
-          clientFallbackTimer = window.setTimeout(() => {
-            if (cancelled || my !== runId.current) return;
-            if (applyFromUrl(readCreatedVoyageFromHandoffUrl())) return;
-            finishClientOnly();
-          }, 0);
-        })
-        .catch(() => {
-          if (cancelled || my !== runId.current) return;
           finishClientOnly();
-        });
+        };
+
+        void fetch(`/api/voyage/${encodeURIComponent(s)}`, { credentials: "include" })
+          .then((r) => (r.ok ? r.json() : null))
+          .then((d: unknown) => {
+            if (d) {
+              applyApiJson(d);
+              return;
+            }
+            if (cancelled || my !== runId.current) return;
+            clientFallbackTimer = window.setTimeout(() => {
+              if (cancelled || my !== runId.current) return;
+              if (applyFromUrl(readCreatedVoyageFromHandoffUrl())) return;
+              finishClientOnly();
+            }, 0);
+          })
+          .catch(() => {
+            if (cancelled || my !== runId.current) return;
+            finishClientOnly();
+          });
+      });
 
       return () => {
         cancelled = true;
@@ -212,42 +217,45 @@ export default function VoyageDetailPage() {
     setLoadingApi(true);
     setReady(false);
     let cancelled = false;
-    fetch(`/api/voyage/${encodeURIComponent(s)}`)
-      .then((r) => (r.ok ? r.json() : null))
-      .then((d: Record<string, unknown> | null) => {
-        if (cancelled || my !== runId.current) return;
-        const fromApi = buildVoyageFromApiPayload(d);
-        if (fromApi) {
-          setVoyage(fromApi);
-          return;
-        }
-        const local = loadCreatedVoyages().find((cv) => cv.id === s) as
-          | CreatedVoyage
-          | undefined;
-        if (local) {
-          setVoyage(viewFromCreated(local));
-          return;
-        }
-        const fb = takeLastCreatedVoyageForSessionIfSlug(s) ?? takeNavInflightCreatedIfSlug(s);
-        setVoyage(fb ? viewFromCreated(fb) : null);
-      })
-      .catch(() => {
-        if (cancelled || my !== runId.current) return;
-        const local = loadCreatedVoyages().find((cv) => cv.id === s) as
-          | CreatedVoyage
-          | undefined;
-        if (local) {
-          setVoyage(viewFromCreated(local));
-        } else {
+    void getProfileIdCached().then(() => {
+      if (cancelled || my !== runId.current) return;
+      void fetch(`/api/voyage/${encodeURIComponent(s)}`)
+        .then((r) => (r.ok ? r.json() : null))
+        .then((d: Record<string, unknown> | null) => {
+          if (cancelled || my !== runId.current) return;
+          const fromApi = buildVoyageFromApiPayload(d);
+          if (fromApi) {
+            setVoyage(fromApi);
+            return;
+          }
+          const local = loadCreatedVoyages().find((cv) => cv.id === s) as
+            | CreatedVoyage
+            | undefined;
+          if (local) {
+            setVoyage(viewFromCreated(local));
+            return;
+          }
           const fb = takeLastCreatedVoyageForSessionIfSlug(s) ?? takeNavInflightCreatedIfSlug(s);
           setVoyage(fb ? viewFromCreated(fb) : null);
-        }
-      })
-      .finally(() => {
-        if (cancelled || my !== runId.current) return;
-        setLoadingApi(false);
-        setReady(true);
-      });
+        })
+        .catch(() => {
+          if (cancelled || my !== runId.current) return;
+          const local = loadCreatedVoyages().find((cv) => cv.id === s) as
+            | CreatedVoyage
+            | undefined;
+          if (local) {
+            setVoyage(viewFromCreated(local));
+          } else {
+            const fb = takeLastCreatedVoyageForSessionIfSlug(s) ?? takeNavInflightCreatedIfSlug(s);
+            setVoyage(fb ? viewFromCreated(fb) : null);
+          }
+        })
+        .finally(() => {
+          if (cancelled || my !== runId.current) return;
+          setLoadingApi(false);
+          setReady(true);
+        });
+    });
 
     return () => {
       cancelled = true;
