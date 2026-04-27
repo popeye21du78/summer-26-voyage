@@ -5,13 +5,29 @@ import { useParams } from "next/navigation";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 import { ArrowLeft } from "lucide-react";
-import { loadCreatedVoyages, type CreatedVoyage } from "@/lib/created-voyages";
-import { mergeVoyageSteps } from "@/lib/voyage-local-overrides";
+import {
+  loadCreatedVoyages,
+  getCreatedVoyageById,
+  takeLastCreatedVoyageForSessionIfSlug,
+  type CreatedVoyage,
+} from "@/lib/created-voyages";
+import { createdVoyageToVoyageView } from "@/lib/created-voyage-page";
 import type { Voyage } from "@/data/mock-voyages";
-import type { Step } from "@/types";
 import VoyageDetailInteractive from "@/components/mon-espace/VoyageDetailInteractive";
 
 const VoyageMapView = dynamic(() => import("./VoyageMapView"), { ssr: false });
+
+function buildVoyageFromApiPayload(d: unknown): Voyage | null {
+  if (!d || typeof d !== "object") return null;
+  const o = d as Record<string, unknown>;
+  const raw = (o.voyage ?? o) as unknown;
+  if (!raw || typeof raw !== "object") return null;
+  const v = raw as Record<string, unknown>;
+  if (typeof v.id === "string" && Array.isArray(v.steps)) {
+    return raw as Voyage;
+  }
+  return null;
+}
 
 export default function VoyageDetailPage() {
   const params = useParams();
@@ -20,54 +36,69 @@ export default function VoyageDetailPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch(`/api/voyage/${slug}`)
+    if (!slug) {
+      setVoyage(null);
+      setLoading(false);
+      return;
+    }
+
+    /** Carnet local : pas d’appel API (404 inutile + source de vérité = localStorage). */
+    if (slug.toLowerCase().startsWith("created-")) {
+      const fromLocal =
+        getCreatedVoyageById(slug) ?? takeLastCreatedVoyageForSessionIfSlug(slug);
+      if (fromLocal) {
+        setVoyage(createdVoyageToVoyageView(fromLocal));
+      } else {
+        setVoyage(null);
+      }
+      setLoading(false);
+      return;
+    }
+
+    let cancelled = false;
+    fetch(`/api/voyage/${encodeURIComponent(slug)}`)
       .then((r) => (r.ok ? r.json() : null))
-      .then((d) => {
-        const v = d?.voyage ?? d ?? null;
-        if (v) {
-          setVoyage(v);
+      .then((d: Record<string, unknown> | null) => {
+        if (cancelled) return;
+        const fromApi = buildVoyageFromApiPayload(d);
+        if (fromApi) {
+          setVoyage(fromApi);
+          return;
+        }
+        const local = loadCreatedVoyages().find((cv) => cv.id === slug) as
+          | CreatedVoyage
+          | undefined;
+        if (local) {
+          setVoyage(createdVoyageToVoyageView(local));
+          return;
+        }
+        const sessionFallback = takeLastCreatedVoyageForSessionIfSlug(slug);
+        if (sessionFallback) {
+          setVoyage(createdVoyageToVoyageView(sessionFallback));
+          return;
+        }
+        setVoyage(null);
+      })
+      .catch(() => {
+        if (cancelled) return;
+        const local = loadCreatedVoyages().find((cv) => cv.id === slug) as
+          | CreatedVoyage
+          | undefined;
+        if (local) {
+          setVoyage(createdVoyageToVoyageView(local));
         } else {
-          const local = loadCreatedVoyages().find((cv) => cv.id === slug) as
-            | CreatedVoyage
-            | undefined;
-          if (local) {
-            const baseSteps: Step[] = local.steps.map((s) => ({
-              id: s.id,
-              nom: s.nom,
-              coordonnees: {
-                lat: s.lat ?? 46.2276,
-                lng: s.lng ?? 2.2137,
-              },
-              date_prevue: s.date_prevue ?? "",
-              description_culture: "",
-              budget_prevu: 0,
-              nuitee_type: s.type === "passage" ? "passage" : "van",
-              contenu_voyage: { photos: [] },
-            }));
-            const steps = mergeVoyageSteps(baseSteps, local.id);
-            setVoyage({
-              id: local.id,
-              titre: local.titre,
-              sousTitre: local.sousTitre,
-              region: "France",
-              dureeJours: steps.length,
-              dateDebut: local.dateDebut ?? steps[0]?.date_prevue ?? "",
-              steps,
-              stats: local.stats
-                ? {
-                    km: local.stats.totalKm,
-                    essence: Math.round(local.stats.totalKm * 0.12),
-                  }
-                : undefined,
-              routeGeometry: local.routeGeometry ?? null,
-              routeLegs: local.legs,
-              routeProfile: local.routeProfile ?? "driving",
-            });
-          }
+          const sessionFallback = takeLastCreatedVoyageForSessionIfSlug(slug);
+          setVoyage(
+            sessionFallback ? createdVoyageToVoyageView(sessionFallback) : null
+          );
         }
       })
-      .catch(() => {})
-      .finally(() => setLoading(false));
+      .finally(() => {
+        if (!cancelled) setLoading(false);
+      });
+    return () => {
+      cancelled = true;
+    };
   }, [slug]);
 
   const stepCoords = useMemo(() => {
@@ -108,7 +139,6 @@ export default function VoyageDetailPage() {
 
   return (
     <main className="relative flex min-h-full flex-col bg-gradient-to-b from-[var(--color-bg-main)] to-[var(--color-bg-gradient-end)]">
-      {/* Carte hero : participe au scroll global (plus de scroll imbriqué). */}
       <div className="relative h-[40vh] min-h-[260px] shrink-0">
         <VoyageMapView
           steps={stepCoords}

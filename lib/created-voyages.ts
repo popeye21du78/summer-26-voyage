@@ -133,3 +133,35 @@ export function removeCreatedVoyage(id: string): void {
   const existing = loadCreatedVoyages().filter((v) => v.id !== id);
   localStorage.setItem(STORAGE_KEY, JSON.stringify(existing));
 }
+
+/** Pont session → localStorage si la page arrive avant que localStorage ne soit relu (rare) */
+const SESSION_LAST_CREATED = "viago_session_last_created_voyage_v1";
+
+export function stashLastCreatedVoyageForSession(v: CreatedVoyage): void {
+  if (typeof window === "undefined") return;
+  try {
+    sessionStorage.setItem(SESSION_LAST_CREATED, JSON.stringify(v));
+  } catch {
+    /* quota / mode privé */
+  }
+}
+
+/**
+ * Récupère le voyage de secours par id, le ré-injecte dans le carnet et retire la session.
+ */
+export function takeLastCreatedVoyageForSessionIfSlug(slug: string): CreatedVoyage | null {
+  if (typeof window === "undefined") return null;
+  try {
+    const raw = sessionStorage.getItem(SESSION_LAST_CREATED);
+    if (!raw) return null;
+    const v = JSON.parse(raw) as CreatedVoyage;
+    if (v.id === slug) {
+      sessionStorage.removeItem(SESSION_LAST_CREATED);
+      upsertCreatedVoyage(v);
+      return v;
+    }
+  } catch {
+    /* ignore */
+  }
+  return null;
+}

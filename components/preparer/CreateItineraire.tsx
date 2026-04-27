@@ -37,7 +37,12 @@ import {
   Wallet,
 } from "lucide-react";
 import { loadTripDraft, clearTripDraft } from "@/lib/planifier-draft";
-import { saveCreatedVoyage, type RouteGeometry } from "@/lib/created-voyages";
+import {
+  saveCreatedVoyage,
+  stashLastCreatedVoyageForSession,
+  type CreatedVoyage,
+  type RouteGeometry,
+} from "@/lib/created-voyages";
 import { fetchVoyageRoute, fetchVoyageRouteForSave } from "@/lib/mapbox-driving-route";
 import type { MapboxRouteProfile } from "@/lib/mapbox-route-profile";
 import { RouteProfileToggle } from "@/components/RouteProfileToggle";
@@ -421,7 +426,7 @@ export default function CreateItineraire() {
     setCreating(false);
 
     let cursor = 0;
-    saveCreatedVoyage({
+    const created: CreatedVoyage = {
       id: voyageId,
       titre: label,
       sousTitre: `${withIntermediates.length} étapes · ${rhythmLabel}`,
@@ -451,7 +456,13 @@ export default function CreateItineraire() {
         ? { totalKm: route.distanceKm, totalMin: route.durationMin }
         : undefined,
       legs: route?.legs,
-    });
+    };
+    stashLastCreatedVoyageForSession(created);
+    try {
+      saveCreatedVoyage(created);
+    } catch {
+      /* session = filet de secours */
+    }
 
     clearTripDraft();
     if (typeof window !== "undefined") {

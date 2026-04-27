@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
-import { GripVertical, MapPin, Plus, Sparkles, Trash2, X } from "lucide-react";
+import { Calendar, GripVertical, MapPin, Plus, Sparkles, Trash2 } from "lucide-react";
 import {
   DndContext,
   PointerSensor,
@@ -19,7 +19,11 @@ import {
   verticalListSortingStrategy,
 } from "@dnd-kit/sortable";
 import { CSS } from "@dnd-kit/utilities";
-import { saveCreatedVoyage } from "@/lib/created-voyages";
+import {
+  saveCreatedVoyage,
+  stashLastCreatedVoyageForSession,
+  type CreatedVoyage,
+} from "@/lib/created-voyages";
 import { fetchVoyageRoute, fetchVoyageRouteForSave } from "@/lib/mapbox-driving-route";
 import type { MapboxRouteProfile } from "@/lib/mapbox-route-profile";
 import { RouteProfileToggle } from "@/components/RouteProfileToggle";
@@ -27,6 +31,12 @@ import ItineraireLiveMap from "@/components/preparer/ItineraireLiveMap";
 import { slugifyCityId } from "@/lib/preparer-city-pool";
 
 type Row = { id: string; query: string; nom?: string; lat?: number; lng?: number; error?: string };
+
+function isValidISODate(s: string): boolean {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(s.trim())) return false;
+  const t = new Date(s.trim() + "T12:00:00");
+  return !Number.isNaN(t.getTime());
+}
 
 function newRow(): Row {
   return { id: `row-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`, query: "" };
@@ -112,7 +122,6 @@ export default function CreateMesVilles() {
   const router = useRouter();
   const [rows, setRows] = useState<Row[]>(() => [newRow(), newRow()]);
   const [geocodeId, setGeocodeId] = useState<string | null>(null);
-  const [dateModal, setDateModal] = useState(false);
   const [dateDebut, setDateDebut] = useState(() => new Date().toISOString().slice(0, 10));
   const [saving, setSaving] = useState(false);
   const [routePreview, setRoutePreview] = useState<{
@@ -242,6 +251,13 @@ export default function CreateMesVilles() {
     [rows]
   );
 
+  const resolvedRows = useMemo(
+    () => rows.filter((r) => r.lat != null && r.lng != null && r.nom),
+    [rows]
+  );
+  const dateDepartOk = isValidISODate(dateDebut);
+  const canCreate = resolvedRows.length > 0 && dateDepartOk;
+
   const onDragEnd = useCallback((e: DragEndEvent) => {
     const { active, over } = e;
     if (!over || active.id === over.id) return;
@@ -253,15 +269,10 @@ export default function CreateMesVilles() {
     });
   }, []);
 
-  const openDateThenSave = useCallback(() => {
-    const resolved = rows.filter((r) => r.lat != null && r.lng != null && r.nom);
-    if (resolved.length === 0) return;
-    setDateModal(true);
-  }, [rows]);
-
   const confirmCreate = useCallback(async () => {
     const resolved = rows.filter((r) => r.lat != null && r.lng != null && r.nom);
     if (resolved.length === 0) return;
+    if (!isValidISODate(dateDebut)) return;
     setSaving(true);
     try {
       const wps = resolved.map((r) => ({ lat: r.lat!, lng: r.lng! }));
@@ -292,26 +303,27 @@ export default function CreateMesVilles() {
         };
       });
       const titre = resolved.length <= 2 ? resolved.map((r) => r.nom).join(" → ") : "Mon road-trip";
+      const created: CreatedVoyage = {
+        id: voyageId,
+        titre,
+        sousTitre: `${resolved.length} étape${resolved.length > 1 ? "s" : ""} · ébauche`,
+        createdAt: new Date().toISOString(),
+        dateDebut: startStr,
+        routeProfile,
+        steps,
+        routeGeometry: route?.geometry ?? null,
+        stats: route ? { totalKm: route.distanceKm, totalMin: route.durationMin } : undefined,
+        legs: route?.legs,
+      };
+      stashLastCreatedVoyageForSession(created);
       try {
-        saveCreatedVoyage({
-          id: voyageId,
-          titre,
-          sousTitre: `${resolved.length} étape${resolved.length > 1 ? "s" : ""} · ébauche`,
-          createdAt: new Date().toISOString(),
-          dateDebut: startStr,
-          routeProfile,
-          steps,
-          routeGeometry: route?.geometry ?? null,
-          stats: route ? { totalKm: route.distanceKm, totalMin: route.durationMin } : undefined,
-          legs: route?.legs,
-        });
+        saveCreatedVoyage(created);
       } catch {
-        /* quota / mode privé — on tente quand même la navigation */
+        /* quota / mode privé — session reprend le relais à l’arrivée */
       }
       router.push(`/mon-espace/voyage/${voyageId}`);
     } finally {
       setSaving(false);
-      setDateModal(false);
     }
   }, [rows, dateDebut, router, routeProfile]);
 
@@ -325,9 +337,41 @@ export default function CreateMesVilles() {
           Dans l’ordre qui te va
         </h1>
         <p className="mt-2 font-courier text-sm text-[var(--color-text-secondary)]">
-          Saisis chaque ville puis valide. On tracera la route sur la route (pas à vol
-          d’oiseau). Ensuite, une seule date : le jour du départ.
+          Saisis chaque ville puis valide (OK). La <strong className="font-bold text-[var(--color-text-primary)]/90">date de départ</strong> est obligatoire
+          (encart ci-dessous) avant de générer l’ébauche dans mon espace.
         </p>
+
+        <div className="viago-glass-card viago-glass-card--accent-border mt-5 p-4">
+          <div className="flex items-start gap-3">
+            <Calendar
+              className="mt-0.5 h-5 w-5 shrink-0 text-[var(--color-accent-start)]"
+              strokeWidth={2}
+            />
+            <div className="min-w-0 flex-1">
+              <label className="block">
+                <span className="font-title text-sm font-bold text-[var(--color-text-primary)]">
+                  Date de départ <span className="text-amber-400/95" aria-hidden>*</span>
+                </span>
+                <span className="mt-0.5 block font-courier text-[11px] text-[var(--color-text-secondary)]">
+                  Toutes les nuits s’enchaînent à partir de ce jour.
+                </span>
+                <input
+                  type="date"
+                  required
+                  value={dateDebut}
+                  onChange={(e) => setDateDebut(e.target.value)}
+                  aria-invalid={!dateDepartOk}
+                  className="mt-3 w-full max-w-[min(100%,260px)] rounded-xl border border-white/15 bg-white/5 px-3 py-2.5 font-courier text-sm text-white"
+                />
+              </label>
+              {!dateDepartOk && (
+                <p className="mt-2 font-courier text-[10px] text-amber-300/90" role="alert">
+                  Renseigne une date valide pour débloquer l’ébauche.
+                </p>
+              )}
+            </div>
+          </div>
+        </div>
 
         <div className="mt-4 flex flex-wrap items-center justify-between gap-2">
           <span className="font-courier text-[10px] font-bold uppercase tracking-wider text-[var(--color-accent-start)]">
@@ -390,76 +434,19 @@ export default function CreateMesVilles() {
 
         <button
           type="button"
-          onClick={openDateThenSave}
-          className="viago-cta-primary mt-8"
+          onClick={() => void confirmCreate()}
+          disabled={!canCreate || saving}
+          className="viago-cta-primary mt-8 min-h-[48px] disabled:cursor-not-allowed disabled:opacity-45"
         >
           <Sparkles className="h-4 w-4" />
-          Générer l’ébauche
+          {saving ? "Création…" : "Générer l’ébauche dans mon espace"}
         </button>
+        {resolvedRows.length > 0 && !dateDepartOk && (
+          <p className="mt-2 font-courier text-[10px] text-amber-300/85" role="status">
+            Indique la date de départ (encart en haut) pour valider.
+          </p>
+        )}
       </div>
-
-      {dateModal && (
-        <div
-          className="fixed inset-0 z-[220] flex items-end justify-center bg-black/65 px-4 sm:items-center"
-          style={{
-            paddingBottom: "max(1rem, calc(6.5rem + env(safe-area-inset-bottom, 0px)))",
-            paddingTop: "max(0.75rem, env(safe-area-inset-top, 0px))",
-          }}
-        >
-          <button
-            type="button"
-            className="absolute inset-0"
-            aria-label="Fermer"
-            onClick={() => setDateModal(false)}
-          />
-          <div className="pointer-events-auto relative z-[2] w-full max-w-sm overflow-hidden rounded-3xl border border-white/10 bg-[#1a1410] p-5 pb-bottom-nav shadow-2xl sm:pb-5">
-            <div className="mb-3 flex items-start justify-between">
-              <div>
-                <h3 className="font-title text-lg font-bold text-white">Date de départ</h3>
-                <p className="mt-1 font-courier text-[11px] text-white/50">
-                  Les nuits s’enchaînent à partir de ce jour.
-                </p>
-              </div>
-              <button
-                type="button"
-                onClick={() => setDateModal(false)}
-                className="rounded-lg p-1 text-white/50 hover:bg-white/5"
-                aria-label="Fermer"
-              >
-                <X className="h-5 w-5" />
-              </button>
-            </div>
-            <label className="block">
-              <span className="mb-1 block font-courier text-[10px] font-bold uppercase text-white/40">
-                Premier jour
-              </span>
-              <input
-                type="date"
-                value={dateDebut}
-                onChange={(e) => setDateDebut(e.target.value)}
-                className="w-full rounded-xl border border-white/15 bg-white/5 px-3 py-2.5 font-courier text-sm text-white"
-              />
-            </label>
-            <div className="mt-4 flex gap-2">
-              <button
-                type="button"
-                onClick={() => setDateModal(false)}
-                className="flex-1 rounded-xl border border-white/15 py-2.5 font-courier text-xs text-white/70"
-              >
-                Annuler
-              </button>
-              <button
-                type="button"
-                disabled={saving}
-                onClick={() => void confirmCreate()}
-                className="flex flex-1 items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-[var(--color-accent-start)] to-[var(--color-accent-end)] py-2.5 font-courier text-xs font-bold text-white disabled:opacity-50"
-              >
-                {saving ? "Enregistrement…" : "Créer dans mon espace"}
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
     </main>
   );
 }
