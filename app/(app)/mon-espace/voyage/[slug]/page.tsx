@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState, useMemo } from "react";
-import { useParams } from "next/navigation";
+import { useParams, usePathname } from "next/navigation";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 import { ArrowLeft } from "lucide-react";
@@ -11,7 +11,7 @@ import {
   takeLastCreatedVoyageForSessionIfSlug,
   type CreatedVoyage,
 } from "@/lib/created-voyages";
-import { createdVoyageToVoyageView } from "@/lib/created-voyage-page";
+import { createdVoyageToVoyageViewSafe } from "@/lib/created-voyage-page";
 import type { Voyage } from "@/data/mock-voyages";
 import VoyageDetailInteractive from "@/components/mon-espace/VoyageDetailInteractive";
 
@@ -29,30 +29,102 @@ function buildVoyageFromApiPayload(d: unknown): Voyage | null {
   return null;
 }
 
+/**
+ * `useParams().slug` est parfois vide au 1er rendu après une navigation client
+ * (Next.js / App Router) : on relit le segment depuis l’URL.
+ */
+function resolveSlugFromRouter(
+  params: ReturnType<typeof useParams>,
+  pathname: string
+): string {
+  const p = params?.slug;
+  if (typeof p === "string" && p.length > 0) {
+    try {
+      return decodeURIComponent(p);
+    } catch {
+      return p;
+    }
+  }
+  if (Array.isArray(p) && p[0]) {
+    try {
+      return decodeURIComponent(p[0]);
+    } catch {
+      return p[0];
+    }
+  }
+  const m = pathname.match(/\/mon-espace\/voyage\/([^/?#]+)/);
+  if (m?.[1]) {
+    try {
+      return decodeURIComponent(m[1]);
+    } catch {
+      return m[1];
+    }
+  }
+  return "";
+}
+
+function hydrateCreatedLocal(slug: string): CreatedVoyage | null {
+  return (
+    getCreatedVoyageById(slug) ?? takeLastCreatedVoyageForSessionIfSlug(slug)
+  );
+}
+
 export default function VoyageDetailPage() {
   const params = useParams();
-  const slug = typeof params.slug === "string" ? params.slug : "";
+  const pathname = usePathname() ?? "";
+  const slug = useMemo(
+    () => resolveSlugFromRouter(params, pathname),
+    [params, pathname]
+  );
   const [voyage, setVoyage] = useState<Voyage | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    /** Segment pas encore dispo (hydratation) : ne pas afficher « introuvable ». */
     if (!slug) {
+      if (/\/mon-espace\/voyage\//.test(pathname)) {
+        return;
+      }
       setVoyage(null);
       setLoading(false);
       return;
     }
 
-    /** Carnet local : pas d’appel API (404 inutile + source de vérité = localStorage). */
     if (slug.toLowerCase().startsWith("created-")) {
-      const fromLocal =
-        getCreatedVoyageById(slug) ?? takeLastCreatedVoyageForSessionIfSlug(slug);
-      if (fromLocal) {
-        setVoyage(createdVoyageToVoyageView(fromLocal));
-      } else {
-        setVoyage(null);
+      const apply = (cv: CreatedVoyage | null) => {
+        if (cv) {
+          setVoyage(createdVoyageToVoyageViewSafe(cv));
+        } else {
+          setVoyage(null);
+        }
+        setLoading(false);
+      };
+
+      const first = hydrateCreatedLocal(slug);
+      if (first) {
+        apply(first);
+        return;
       }
-      setLoading(false);
-      return;
+
+      /** Filet : écriture localStorage / session juste après router.push */
+      const t0 = window.setTimeout(() => {
+        const cv = hydrateCreatedLocal(slug);
+        if (cv) apply(cv);
+      }, 0);
+      const t1 = window.setTimeout(() => {
+        const cv = hydrateCreatedLocal(slug);
+        if (cv) {
+          apply(cv);
+        } else {
+          setVoyage(null);
+          setLoading(false);
+        }
+      }, 120);
+
+      return () => {
+        window.clearTimeout(t0);
+        window.clearTimeout(t1);
+      };
     }
 
     let cancelled = false;
@@ -69,12 +141,12 @@ export default function VoyageDetailPage() {
           | CreatedVoyage
           | undefined;
         if (local) {
-          setVoyage(createdVoyageToVoyageView(local));
+          setVoyage(createdVoyageToVoyageViewSafe(local));
           return;
         }
         const sessionFallback = takeLastCreatedVoyageForSessionIfSlug(slug);
         if (sessionFallback) {
-          setVoyage(createdVoyageToVoyageView(sessionFallback));
+          setVoyage(createdVoyageToVoyageViewSafe(sessionFallback));
           return;
         }
         setVoyage(null);
@@ -85,11 +157,11 @@ export default function VoyageDetailPage() {
           | CreatedVoyage
           | undefined;
         if (local) {
-          setVoyage(createdVoyageToVoyageView(local));
+          setVoyage(createdVoyageToVoyageViewSafe(local));
         } else {
           const sessionFallback = takeLastCreatedVoyageForSessionIfSlug(slug);
           setVoyage(
-            sessionFallback ? createdVoyageToVoyageView(sessionFallback) : null
+            sessionFallback ? createdVoyageToVoyageViewSafe(sessionFallback) : null
           );
         }
       })
@@ -99,7 +171,7 @@ export default function VoyageDetailPage() {
     return () => {
       cancelled = true;
     };
-  }, [slug]);
+  }, [slug, pathname]);
 
   const stepCoords = useMemo(() => {
     if (!voyage) return [];

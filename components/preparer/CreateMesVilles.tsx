@@ -29,6 +29,9 @@ import type { MapboxRouteProfile } from "@/lib/mapbox-route-profile";
 import { RouteProfileToggle } from "@/components/RouteProfileToggle";
 import ItineraireLiveMap from "@/components/preparer/ItineraireLiveMap";
 import { slugifyCityId } from "@/lib/preparer-city-pool";
+import { useWindowDndAutoscroll } from "@/lib/hooks/use-window-dnd-autoscroll";
+
+const MAX_MES_VILLES_ROWS = 30;
 
 type Row = { id: string; query: string; nom?: string; lat?: number; lng?: number; error?: string };
 
@@ -148,6 +151,7 @@ export default function CreateMesVilles() {
     useSensor(PointerSensor, { activationConstraint: { distance: 8 } }),
     useSensor(TouchSensor, { activationConstraint: { delay: 200, tolerance: 8 } })
   );
+  const dndAutoscroll = useWindowDndAutoscroll();
 
   const liveSteps = useMemo(
     () =>
@@ -406,14 +410,40 @@ export default function CreateMesVilles() {
             </h2>
             <button
               type="button"
-              onClick={() => setRows((r) => [...r, newRow()])}
-              className="inline-flex items-center gap-1 rounded-full border border-[var(--color-glass-border)] px-3 py-1 font-courier text-[10px] font-bold text-[var(--color-accent-start)]"
+              onClick={() =>
+                setRows((r) =>
+                  r.length >= MAX_MES_VILLES_ROWS ? r : [...r, newRow()]
+                )
+              }
+              disabled={rows.length >= MAX_MES_VILLES_ROWS}
+              title={
+                rows.length >= MAX_MES_VILLES_ROWS
+                  ? `Maximum ${MAX_MES_VILLES_ROWS} étapes`
+                  : "Ajouter une ligne"
+              }
+              className="inline-flex items-center gap-1 rounded-full border border-[var(--color-glass-border)] px-3 py-1 font-courier text-[10px] font-bold text-[var(--color-accent-start)] disabled:cursor-not-allowed disabled:opacity-40"
             >
               <Plus className="h-3 w-3" />
               Ajouter
             </button>
           </div>
-          <DndContext sensors={sensors} collisionDetection={closestCenter} onDragEnd={onDragEnd}>
+          <DndContext
+            sensors={sensors}
+            collisionDetection={closestCenter}
+            onDragStart={(e) => {
+              const ev = e.activatorEvent;
+              const y =
+                ev && "clientY" in ev && typeof (ev as PointerEvent).clientY === "number"
+                  ? (ev as PointerEvent).clientY
+                  : undefined;
+              dndAutoscroll.start(y);
+            }}
+            onDragCancel={() => dndAutoscroll.stop()}
+            onDragEnd={(e) => {
+              dndAutoscroll.stop();
+              onDragEnd(e);
+            }}
+          >
             <SortableContext items={rows.map((r) => r.id)} strategy={verticalListSortingStrategy}>
               <ul className="space-y-2">
                 {rows.map((row) => (

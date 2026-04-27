@@ -73,6 +73,7 @@ import type { Voyage } from "@/data/mock-voyages";
 import type { Step } from "@/types";
 import { useProfileId } from "@/lib/hooks/use-profile-id";
 import { computeStepArrivalDates, defaultNuits } from "@/lib/voyage-step-dates";
+import { useWindowDndAutoscroll } from "@/lib/hooks/use-window-dnd-autoscroll";
 
 function stepNuiteeKind(step: Step, override: NuiteeOverride | undefined): NuiteeOverride {
   if (override === "passage" || override === "van" || override === "airbnb") return override;
@@ -99,7 +100,7 @@ function formatDateRange(debut: string, fin: string) {
 
 /**
  * Capsule d'étape dans "Mon voyage" :
- * - Photo généreuse en fond
+ * - Photo sur la moitié gauche (format moins « panoramique »), texte sur fond dégradé thème
  * - Gros badge type hébergement en haut (Passage vs Nuit, bien visible)
  * - Stepper nuits gros + bouton type passage/nuit pour bascule rapide
  * - Poignée de drag isolée pour ne PAS perturber le scroll vertical
@@ -146,112 +147,121 @@ function SortableStepRow({
     <div
       ref={setNodeRef}
       style={style}
-      className="overflow-hidden rounded-3xl border border-white/12 bg-white/5 shadow-[0_10px_30px_rgba(0,0,0,0.28)]"
+      className="overflow-hidden rounded-3xl border border-white/12 shadow-[0_10px_30px_rgba(0,0,0,0.28)]"
     >
-      <div className="relative h-36">
-        <CityPhoto
-          stepId={step.id}
-          ville={step.nom}
-          initialUrl={step.contenu_voyage?.photos?.[0]}
-          alt={step.nom}
-          className="absolute inset-0 h-full w-full object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-black/35" />
-
-        {/* Badge hébergement haut-gauche : losange corail pour PASSAGE, pilule indigo pour NUIT(s). */}
-        <div className="absolute left-3 top-3 z-10 flex items-center gap-2">
-          {isPassage ? (
-            <span
-              className="relative inline-flex h-10 w-10 rotate-45 items-center justify-center rounded-md bg-[var(--color-accent-start)] shadow-[0_6px_18px_rgba(224,120,86,0.45)] ring-1 ring-white/30"
-              title="Ville de passage"
-            >
-              <span className="-rotate-45 font-courier text-[9px] font-bold uppercase tracking-wider text-white">
-                Passage
-              </span>
-            </span>
-          ) : (
-            <span className="flex items-center gap-1.5 rounded-full bg-indigo-500/90 px-3 py-1.5 font-courier text-[11px] font-bold uppercase tracking-wider text-white shadow-lg backdrop-blur-md">
-              <Moon className="h-3.5 w-3.5" />
-              {nuits} nuit{nuits > 1 ? "s" : ""}
-            </span>
-          )}
-          <span className="flex h-7 items-center justify-center rounded-full bg-white/95 px-2 font-courier text-[11px] font-bold text-[var(--color-bg-main)] shadow-md">
-            {dayLabel}
-          </span>
+      <div className="flex min-h-36 w-full">
+        {/* Moitié gauche : photo seule (cadrage plus naturel, moins « bandeau ») */}
+        <div className="relative w-[48%] max-w-[50%] shrink-0 overflow-hidden bg-[var(--color-bg-main)]">
+          <div className="absolute inset-0 overflow-hidden [&_.photo-bw-reveal]:min-h-[115%] [&_.photo-bw-reveal]:min-w-full [&_.photo-bw-reveal]:object-cover [&_.photo-bw-reveal]:object-[center_34%] [&_.photo-bw-reveal]:opacity-100">
+            <CityPhoto
+              stepId={step.id}
+              ville={step.nom}
+              initialUrl={step.contenu_voyage?.photos?.[0]}
+              alt={step.nom}
+              className="absolute inset-0 h-full w-full"
+              imageLoading="lazy"
+            />
+          </div>
+          {/* Transition vers le panneau droit + léger voile */}
+          <div
+            className="pointer-events-none absolute inset-0 bg-gradient-to-r from-black/15 via-black/0 to-[var(--color-bg-secondary)]"
+            aria-hidden
+          />
         </div>
 
-        {/* Poignée de drag - gros, accessible, clairement séparé du reste */}
-        {onRemove && (
-          <button
-            type="button"
-            onPointerDown={(e) => e.stopPropagation()}
-            onClick={(e) => {
-              e.stopPropagation();
-              onRemove();
-            }}
-            className="absolute right-14 top-3 z-20 flex h-10 w-10 touch-manipulation items-center justify-center rounded-xl border border-red-500/30 bg-black/50 text-red-200 shadow-lg backdrop-blur-md transition hover:bg-red-500/20 active:scale-95"
-            aria-label="Supprimer cette étape"
-          >
-            <Trash2 className="h-4 w-4" />
-          </button>
-        )}
-        <button
-          type="button"
-          className="absolute right-3 top-3 z-10 flex h-10 w-10 touch-none items-center justify-center rounded-xl bg-black/55 text-white shadow-lg backdrop-blur-md transition active:scale-95"
-          aria-label="Glisser pour réordonner"
-          {...attributes}
-          {...listeners}
+        {/* Moitié droite : dégradé charte (accent) + contenu */}
+        <div
+          className="relative z-[1] flex min-w-0 flex-1 flex-col justify-between gap-2 border-l border-white/[0.08] bg-gradient-to-br from-[var(--color-bg-secondary)] via-[color-mix(in_srgb,var(--color-bg-tertiary)_88%,var(--color-accent-mid))] to-[color-mix(in_srgb,var(--color-accent-start)_14%,var(--color-bg-gradient-end))] py-2.5 pl-2.5 pr-2 sm:pl-3 sm:pr-2.5"
         >
-          <GripVertical className="h-5 w-5" />
-        </button>
+          <div className="flex items-start justify-between gap-1.5">
+            <div className="flex min-w-0 flex-wrap items-center gap-1.5">
+              {isPassage ? (
+                <span
+                  className="relative inline-flex h-9 w-9 rotate-45 items-center justify-center rounded-md bg-[var(--color-accent-start)] shadow-[0_4px_14px_rgba(224,120,86,0.4)] ring-1 ring-white/25"
+                  title="Ville de passage"
+                >
+                  <span className="-rotate-45 font-courier text-[8px] font-bold uppercase leading-none tracking-wide text-white">
+                    Passage
+                  </span>
+                </span>
+              ) : (
+                <span className="inline-flex items-center gap-1 rounded-full bg-indigo-500/88 px-2.5 py-1 font-courier text-[10px] font-bold uppercase leading-none tracking-wide text-white shadow-md backdrop-blur-sm sm:text-[11px]">
+                  <Moon className="h-3 w-3 shrink-0" />
+                  {nuits} nuit{nuits > 1 ? "s" : ""}
+                </span>
+              )}
+              <span className="inline-flex h-6 min-w-[1.75rem] items-center justify-center rounded-full bg-white/[0.92] px-1.5 font-courier text-[10px] font-bold text-[var(--color-bg-main)] shadow-sm sm:text-[11px]">
+                {dayLabel}
+              </span>
+            </div>
+            <div className="flex shrink-0 items-center gap-1">
+              {onRemove && (
+                <button
+                  type="button"
+                  onPointerDown={(e) => e.stopPropagation()}
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    onRemove();
+                  }}
+                  className="flex h-9 w-9 touch-manipulation items-center justify-center rounded-xl border border-red-500/30 bg-black/30 text-red-200 shadow-md backdrop-blur-sm transition hover:bg-red-500/20 active:scale-95"
+                  aria-label="Supprimer cette étape"
+                >
+                  <Trash2 className="h-3.5 w-3.5" />
+                </button>
+              )}
+              <button
+                type="button"
+                className="flex h-9 w-9 touch-none items-center justify-center rounded-xl border border-white/20 bg-black/30 text-white shadow-md backdrop-blur-sm transition active:scale-95"
+                aria-label="Glisser pour réordonner"
+                {...attributes}
+                {...listeners}
+              >
+                <GripVertical className="h-4 w-4" />
+              </button>
+            </div>
+          </div>
 
-        {/* Ligne bas : nom + bouton toggle type + stepper nuits */}
-        <div className="absolute inset-x-0 bottom-0 flex items-end justify-between gap-3 px-3 pb-3">
-          <div className="min-w-0 flex-1">
-            {/*
-             * Nom de ville = titre d'étape (user : « les noms des
-             * villes, étapes et trajets » en police titre).
-             */}
+          <div className="min-w-0 pr-0.5">
             <Link
               href={villeHref}
-              className="block truncate font-title text-xl font-bold leading-tight text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)] underline-offset-2 hover:underline"
+              className="block text-balance font-title text-base font-bold leading-snug text-[var(--color-text-primary)] drop-shadow-sm underline-offset-2 hover:underline sm:text-lg"
             >
               {step.nom}
             </Link>
-            <p className="font-courier text-[11px] font-bold text-white/75">
+            <p className="mt-0.5 font-courier text-[10px] font-bold text-white/60 sm:text-[11px]">
               {dateLabel || "—"}
             </p>
           </div>
-          <div className="flex shrink-0 items-center gap-2">
-            {/* Toggle rapide Passage / Nuit */}
+
+          <div className="flex flex-wrap items-center justify-end gap-1.5 sm:gap-2">
             <button
               type="button"
               onClick={() => onToggleType(step.id, !isPassage)}
-              className={`flex h-10 w-10 items-center justify-center rounded-xl border backdrop-blur-md transition active:scale-95 ${
+              className={`flex h-9 w-9 items-center justify-center rounded-xl border backdrop-blur-sm transition active:scale-95 ${
                 isPassage
-                  ? "border-white/25 bg-black/50 text-white/80"
-                  : "border-[var(--color-accent-start)]/40 bg-[var(--color-accent-start)]/20 text-[var(--color-accent-start)]"
+                  ? "border-white/20 bg-black/25 text-white/80"
+                  : "border-[var(--color-accent-line-40)] bg-[color-mix(in_srgb,var(--color-accent-start)_18%,transparent)] text-[var(--color-text-primary)]"
               }`}
               aria-label={isPassage ? "Passer en nuitée" : "Marquer comme passage"}
               title={isPassage ? "Marquer comme nuit" : "Marquer comme passage"}
             >
-              {isPassage ? <Moon className="h-5 w-5" /> : <Navigation className="h-5 w-5" />}
+              {isPassage ? <Moon className="h-4 w-4" /> : <Navigation className="h-4 w-4" />}
             </button>
             {!isPassage && (
-              <div className="flex items-center overflow-hidden rounded-xl border border-white/25 bg-black/55 font-courier text-sm font-bold text-white backdrop-blur-md">
+              <div className="flex items-center overflow-hidden rounded-xl border border-white/20 bg-black/30 font-courier text-xs font-bold text-[var(--color-text-primary)] backdrop-blur-sm sm:text-sm">
                 <button
                   type="button"
-                  className="flex h-10 w-10 items-center justify-center disabled:opacity-30"
+                  className="flex h-9 w-8 items-center justify-center disabled:opacity-30"
                   disabled={nuits <= 0}
                   onClick={() => onNuitsChange(step.id, Math.max(0, nuits - 1))}
                   aria-label="Retirer une nuit"
                 >
                   −
                 </button>
-                <span className="min-w-[2rem] text-center tabular-nums">{nuits}</span>
+                <span className="min-w-[1.75rem] text-center tabular-nums">{nuits}</span>
                 <button
                   type="button"
-                  className="flex h-10 w-10 items-center justify-center"
+                  className="flex h-9 w-8 items-center justify-center"
                   onClick={() => onNuitsChange(step.id, Math.min(30, nuits + 1))}
                   aria-label="Ajouter une nuit"
                 >
@@ -789,6 +799,8 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
     useSensor(KeyboardSensor, { coordinateGetter: sortableKeyboardCoordinates })
   );
 
+  const dndAutoscroll = useWindowDndAutoscroll();
+
   /**
    * Durée totale dynamique ET libellé « J{x} » ou « J{x}–{y} » par étape.
    * Règle : passage = 1 jour, sinon max(1, nuits) jours. 0 nuit non-passage est
@@ -1243,7 +1255,19 @@ export default function VoyageDetailInteractive({ voyage }: Props) {
           <DndContext
             sensors={sensors}
             collisionDetection={closestCenter}
-            onDragEnd={handleDragEnd}
+            onDragStart={(e) => {
+              const ev = e.activatorEvent;
+              const y =
+                ev && "clientY" in ev && typeof (ev as PointerEvent).clientY === "number"
+                  ? (ev as PointerEvent).clientY
+                  : undefined;
+              dndAutoscroll.start(y);
+            }}
+            onDragCancel={() => dndAutoscroll.stop()}
+            onDragEnd={(e) => {
+              dndAutoscroll.stop();
+              handleDragEnd(e);
+            }}
           >
             <SortableContext items={stepsOrder} strategy={verticalListSortingStrategy}>
               <div className="flex flex-col">
