@@ -11,10 +11,15 @@ import {
   takeLastCreatedVoyageForSessionIfSlug,
   takeNavInflightCreatedIfSlug,
   clearNavInflightCreated,
+  upsertCreatedVoyage,
   type CreatedVoyage,
 } from "@/lib/created-voyages";
 import { createdVoyageToVoyageViewSafe } from "@/lib/created-voyage-page";
 import { takeCreatedVoyageHandoff } from "@/lib/voyage-created-handoff";
+import {
+  readCreatedVoyageFromHandoffUrl,
+  stripHandoffFromAddressBar,
+} from "@/lib/created-voyage-handoff-url";
 import type { Voyage } from "@/data/mock-voyages";
 import VoyageDetailInteractive from "@/components/mon-espace/VoyageDetailInteractive";
 
@@ -123,6 +128,20 @@ export default function VoyageDetailPage() {
     }
 
     if (s.toLowerCase().startsWith("created-")) {
+      const fromQuery = readCreatedVoyageFromHandoffUrl();
+      if (fromQuery && fromQuery.voyage.id === s) {
+        try {
+          upsertCreatedVoyage(fromQuery.voyage);
+        } catch {
+          /* ignore */
+        }
+        if (my !== runId.current) return;
+        setVoyage(viewFromCreated(fromQuery.voyage));
+        stripHandoffFromAddressBar(s);
+        setReady(true);
+        setLoadingApi(false);
+        return;
+      }
       const cv = hydrateCreatedAllSources(s);
       if (my !== runId.current) return;
       setVoyage(cv ? viewFromCreated(cv) : null);

@@ -26,6 +26,10 @@ import {
   type CreatedVoyage,
 } from "@/lib/created-voyages";
 import { setCreatedVoyageHandoff } from "@/lib/voyage-created-handoff";
+import {
+  encodeCreatedVoyageToHandoffB64,
+  buildMonEspaceVoyageHandoffPath,
+} from "@/lib/created-voyage-handoff-url";
 import { fetchVoyageRoute, fetchVoyageRouteForSave } from "@/lib/mapbox-driving-route";
 import type { MapboxRouteProfile } from "@/lib/mapbox-route-profile";
 import { RouteProfileToggle } from "@/components/RouteProfileToggle";
@@ -329,7 +333,8 @@ export default function CreateMesVilles() {
       } catch {
         /* quota / mode privé — session + handoff en mémoire */
       }
-      router.push(`/mon-espace/voyage/${voyageId}`);
+      const b64 = encodeCreatedVoyageToHandoffB64(created);
+      router.push(buildMonEspaceVoyageHandoffPath(voyageId, b64));
     } finally {
       setSaving(false);
     }
